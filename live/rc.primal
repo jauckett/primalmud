@@ -1,0 +1,3 @@
+#!/bin/sh
+cd /home/primal/live
+/home/primal/live/autorun &

@@ -1,0 +1,56 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@b cast 'create food';eat mushroom
+1 drink water skin;cast 'create water' skin
+re reply $*
+r recit recall sam
+f flee
+bw buy white;put white backpa
+qw get white back;quaf white
+ll cast 'lightning bolt' $*
+in cast 'infra' $*
+q quit
+p get red back;quaf red
+wa wake;stand
+sl sleep
+primal  http://jump.to/primal
+fill fill skin fount
+c get all.coin cor
+h cast 'cure light' sam
+hh cast 'cure light' $*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

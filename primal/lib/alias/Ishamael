@@ -1,0 +1,20 @@
+enfan s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;w
+cf cast 'create food';eat mushroom
+st cast 'strength'
+grave s;s;s;e;e;e;e;open gate;e;e;e;e;e;s;s;s;s;s;s;s;open gate
+iv cast 'invisibility'
+r recite recall
+id recite identify $1
+di cast 'detect invisibility'
+in cast 'infravision'
+ar cast 'armor'
+l cast 'cure light'
+wa wake;stand
+sl sleep
+em eat meat
+dr drink from skin
+gc get all all.corpse
+lo cast 'locate object' $1
+werith s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;w;w;w;s
+t track $1
+rome s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w

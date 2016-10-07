@@ -1,0 +1,3 @@
+go gossip $1
+heal cast 'cure light'
+gac get all corpse

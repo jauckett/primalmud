@@ -1,0 +1,15 @@
+magic cast 'magic missile' $1
+pick cast 'pick lock' $1
+locate cast 'locate object' $1
+t tag $1
+tag tag
+tt tag
+ta tag
+back cast 'backstab' $1
+wake wake; stand
+gac get all corpse
+ws wake; stand
+burn cast 'burning hands' $1
+loc cast 'locate object' $1
+mag cast 'magic missile' $1
+me cast 'bless'; cast 'armor'

@@ -1,0 +1,261 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2004.05.23.07.21.51;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.10.13.15.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.57;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> Checking everything in again.
+@
+text
+@#90 1
+Toyheim~
+9050 60 2 8
+O 0 9034 1 9045 	(Story Book)
+M 0 9002 4 9045 	(Clockwork Knight)
+E 1 9025 99 16 	(Chain Sword)
+O 0 9022 3 9045 	(Kevlar Plate)
+O 0 9023 3 9045 	(Kevlar Leggings)
+O 0 9032 3 9045 	(Kevlar Boots)
+D 0 9045 4 2 	(Toyheim's Treasure Room.)
+D 0 9048 5 1 	(Giant BeanStalk.)
+M 0 9000 3 9042 	(Energizer Bunny)
+E 1 9021 99 16 	(Drum Sticks)
+M 0 9002 4 9000 	(Clockwork Knight)
+O 0 9033 5 9000 	(Super Soaker 2000)
+O 0 9021 30 9000 	(Drum Sticks)
+O 0 9025 5 9000 	(Chain Sword)
+O 0 9027 99 9000 	(Ice Cream)
+O 0 9028 99 9000 	(Toffie Apple)
+O 0 9029 99 9000 	(Farie Floss)
+O 0 9030 99 9000 	(Can of Coke)
+M 0 9001 5 9009 	(Rocking Horse)
+M 0 9001 5 9009 	(Rocking Horse)
+M 0 9001 5 9002 	(Rocking Horse)
+M 0 9014 5 9002 	(Tin Soldier)
+M 0 9014 5 9002 	(Tin Soldier)
+M 0 9002 4 9038 	(Clockwork Knight)
+E 1 9025 99 16 	(Chain Sword)
+M 0 9004 4 9010 	(Barbie Doll)
+M 0 9005 4 9010 	(Ken Doll)
+M 0 9004 4 9010 	(Barbie Doll)
+M 0 9005 4 9010 	(Ken Doll)
+M 0 9003 2 9025 	(Transformer)
+E 1 9033 99 16 	(Super Soaker 2000)
+M 0 9006 4 9011 	(IBM PC)
+M 0 9007 4 9011 	(Amiga 500)
+M 0 9008 4 9035 	(SNES console)
+M 0 9007 4 9035 	(Amiga 500)
+M 0 9006 4 9036 	(IBM PC)
+M 0 9008 4 9036 	(SNES console)
+M 0 9007 4 9037 	(Amiga 500)
+M 0 9009 6 9037 	(GI Joe)
+M 0 9008 4 9012 	(SNES console)
+M 0 9006 4 9013 	(IBM PC)
+M 0 9002 4 9027 	(Clockwork Knight)
+M 0 9003 2 9028 	(Transformer)
+M 0 9012 1 9029 	(Chuckie Doll)
+E 1 9022 3 5 	(Kevlar Plate)
+E 1 9023 3 7 	(Kevlar Leggings)
+E 1 9031 5 14 	(bracelet of might)
+E 1 9032 3 8 	(Kevlar Boots)
+M 0 9009 6 9029 	(GI Joe)
+M 0 9004 4 9014 	(Barbie Doll)
+M 0 9005 4 9014 	(Ken Doll)
+M 0 9009 6 9014 	(GI Joe)
+E 1 9023 3 7 	(Kevlar Leggings)
+M 0 9006 4 9015 	(IBM PC)
+M 0 9007 4 9015 	(Amiga 500)
+M 0 9008 4 9015 	(SNES console)
+M 0 9001 5 9031 	(Rocking Horse)
+M 0 9011 5 9031 	(Jack in the box)
+M 0 9010 13 9030 	(Teddy Bear)
+G 1 9030 99 -1 	(Can of Coke)
+M 0 9010 13 9030 	(Teddy Bear)
+M 0 9010 13 9024 	(Teddy Bear)
+G 1 9027 99 -1 	(Ice Cream)
+M 0 9010 13 9024 	(Teddy Bear)
+M 0 9010 13 9022 	(Teddy Bear)
+G 1 9029 99 -1 	(Farie Floss)
+M 0 9010 13 9022 	(Teddy Bear)
+M 0 9010 13 9021 	(Teddy Bear)
+G 1 9028 99 -1 	(Toffie Apple)
+M 0 9010 13 9020 	(Teddy Bear)
+M 0 9010 13 9020 	(Teddy Bear)
+M 0 9010 13 9018 	(Teddy Bear)
+M 0 9014 5 9018 	(Tin Soldier)
+M 0 9010 13 9017 	(Teddy Bear)
+M 0 9013 3 9017 	(Kevlar Gate Guard)
+M 0 9013 3 9017 	(Kevlar Gate Guard)
+M 0 9013 3 9017 	(Kevlar Gate Guard)
+M 0 9010 13 9016 	(Teddy Bear)
+M 0 9010 13 9016 	(Teddy Bear)
+M 0 9011 5 9008 	(Jack in the box)
+M 0 9011 5 9003 	(Jack in the box)
+M 0 9011 5 9003 	(Jack in the box)
+M 0 9011 5 9001 	(Jack in the box)
+M 0 9001 5 9001 	(Rocking Horse)
+M 0 9000 3 9034 	(Energizer Bunny)
+E 1 9021 99 16 	(Drum Sticks)
+M 0 9009 6 9005 	(GI Joe)
+E 1 9022 3 5 	(Kevlar Plate)
+M 0 9009 6 9005 	(GI Joe)
+M 0 9004 4 9005 	(Barbie Doll)
+M 0 9005 4 9005 	(Ken Doll)
+M 0 9009 6 9007 	(GI Joe)
+M 0 9000 3 9044 	(Energizer Bunny)
+E 1 9021 99 16 	(Drum Sticks)
+M 0 9014 5 9041 	(Tin Soldier)
+M 0 9014 5 9033 	(Tin Soldier)
+S
+$
+@
+
+
+1.2
+log
+@Artus> Sync.
+@
+text
+@d4 7
+a11 1
+O 0 9034 1 9045 	(Story Book)
+a36 5
+M 0 9002 4 9045 	(Clockwork Knight)
+E 1 9025 99 16 	(Chain Sword)
+O 0 9022 3 9045 	(Kevlar Plate)
+O 0 9023 3 9045 	(Kevlar Leggings)
+O 0 9032 3 9045 	(Kevlar Boots)
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d4 95
+a98 94
+O 0 9034 1 9045
+M 0 9000 3 9042
+E 1 9021 99 16
+M 0 9002 4 9000
+O 0 9033 5 9000
+O 0 9021 30 9000
+O 0 9025 5 9000
+O 0 9027 99 9000
+O 0 9028 99 9000
+O 0 9029 99 9000
+O 0 9030 99 9000
+M 0 9001 5 9009
+M 0 9001 5 9009
+M 0 9001 5 9002
+M 0 9014 5 9002
+M 0 9014 5 9002
+M 0 9002 4 9038
+E 1 9025 99 16
+M 0 9004 4 9010
+M 0 9005 4 9010
+M 0 9004 4 9010
+M 0 9005 4 9010
+M 0 9003 2 9025
+E 1 9033 99 16
+M 0 9006 4 9011
+M 0 9007 4 9011
+M 0 9002 4 9045
+E 1 9025 99 16
+O 0 9022 3 9045
+O 0 9023 3 9045
+O 0 9032 3 9045
+M 0 9008 4 9035
+M 0 9007 4 9035
+M 0 9006 4 9036
+M 0 9008 4 9036
+M 0 9007 4 9037
+M 0 9009 6 9037
+M 0 9008 4 9012
+M 0 9006 4 9013
+M 0 9002 4 9027
+M 0 9003 2 9028
+M 0 9012 1 9029
+E 1 9022 3 5
+E 1 9023 3 7
+E 1 9031 5 14
+E 1 9032 3 8
+M 0 9009 6 9029
+M 0 9004 4 9014
+M 0 9005 4 9014
+M 0 9009 6 9014
+E 1 9023 3 7
+M 0 9006 4 9015
+M 0 9007 4 9015
+M 0 9008 4 9015
+M 0 9001 5 9031
+M 0 9011 5 9031
+M 0 9010 13 9030
+G 1 9030 99
+M 0 9010 13 9030
+M 0 9010 13 9024
+G 1 9027 99
+M 0 9010 13 9024
+M 0 9010 13 9022
+G 1 9029 99
+M 0 9010 13 9022
+M 0 9010 13 9021
+G 1 9028 99
+M 0 9010 13 9020
+M 0 9010 13 9020
+M 0 9010 13 9018
+M 0 9014 5 9018
+M 0 9010 13 9017
+M 0 9013 3 9017
+M 0 9013 3 9017
+M 0 9013 3 9017
+M 0 9010 13 9016
+M 0 9010 13 9016
+M 0 9011 5 9008
+M 0 9011 5 9003
+M 0 9011 5 9003
+M 0 9011 5 9001
+M 0 9001 5 9001
+M 0 9000 3 9034
+E 1 9021 99 16
+M 0 9009 6 9005
+E 1 9022 3 5
+M 0 9009 6 9005
+M 0 9004 4 9005
+M 0 9005 4 9005
+M 0 9009 6 9007
+M 0 9000 3 9044
+E 1 9021 99 16
+M 0 9014 5 9041
+M 0 9014 5 9033
+d100 1
+a100 2
+#99999
+$~
+@
+

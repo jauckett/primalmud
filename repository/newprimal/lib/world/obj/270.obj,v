@@ -1,0 +1,1443 @@
+head	1.5;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2004.01.27.05.02.43;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.25.03.35.28;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.11.15.08.50;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.44;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Artus> Sync.
+@
+text
+@#27001
+tool kit~
+a tool kit~
+A mechanic's tool kit lies here~
+~
+15 8 16385 0
+300 1 -1 0
+4 2000 200 10
+L 10
+E
+tool kit~
+This tool kit is made from a strong sturdy metal, which is evident
+from the small dints already on it. There is also a small latch on
+the right hand side that is unlocked.
+~
+#27002
+spanner~
+a spanner~
+A silver spanner lies here~
+~
+13 0 16385 0
+0 0 0 0
+1 1 1 0
+L 0
+E
+spanner~
+This well worn spanner comes from a small took kit
+~
+#27003
+decompression suit~
+a decompression suit~
+A decompression suit lies here~
+~
+34 0 1025 0
+3 0 0 0
+4 9000 9000 60
+L 60
+E
+decompression suit~
+This suit is designed to withstand a number of elements that
+a person can not usually survive under.
+~
+A
+17 -20
+A
+14 60
+A
+13 50
+#27004
+test tube~
+a test tube~
+A test tube is standing here~
+~
+17 0 16385 0
+3 3 9 0
+8 100 30 0
+L 0
+E
+test tube~
+There is a green liquid inside the test tube that has a strange glow to it
+~
+#27005
+lab coat~
+a lab coat~
+A white lab coat is lying here~
+~
+9 1548 9 0
+10 0 0 0
+3 8000 800 75
+L 75
+E
+lab coat~
+The white lab coat has a few pockets and is slightly frayed on the
+edges. There are also several dark stains on the sleeves and it looks
+very well worn.
+~
+A
+3 4
+A
+4 4
+A
+12 75
+A
+14 50
+A
+18 3
+A
+19 2
+#27006
+power drill~
+a power drill~
+A heavy power drill lies here~
+~
+5 1024 24577 0
+0 7 10 12
+17 9000 900 80
+L 80
+E
+power drill~
+There is a long sharp drill that looks like rather a deadly weapon.
+The power drill is run by never ending batteries and will work for years.
+~
+A
+19 8
+A
+18 8
+A
+12 20
+#27007
+captains uniform burns~
+Captain Burn's Uniform~
+Captain Burn's Uniform lies here~
+~
+9 1032 9 0
+15 0 0 0
+7 9000 900 71
+L 71
+E
+Captain burns uniform~
+This blue uniform once belonged to Captain Burns. 
+It is still decorated with medals of honor and the brass
+buttons are still shiny
+~
+A
+13 71
+A
+18 4
+#27008
+medal honour~
+a medal of Honour~
+A medal of Honour lies here~
+~
+9 1029 5 0
+7 0 0 0
+5 10000 1000 80
+L 80
+E
+medal honour~
+This small gold medal is one of the most revered in the military
+Whoever won this medal is a fine warrior
+~
+A
+19 3
+A
+18 6
+A
+13 80
+#27009
+Corporal uniform fletchers~
+Corporal Fletcher's Uniform~
+Corporal Fletchers Uniform lies here~
+~
+9 1028 9 0
+12 0 0 0
+5 9000 900 66
+L 66
+E
+Corporal Fletcher uniform~
+This blue uniform once belonged to Corporal Fletcher. 
+It is still decorated with medals of honor and the brass
+buttons are still shiny
+~
+A
+13 66
+A
+18 3
+A
+3 3
+A
+14 50
+#27010
+heavy hammer~
+a heavy hammer~
+A heavy hammer lies here~
+~
+5 1024 24577 0
+0 6 10 5
+17 9000 900 65
+L 65
+E
+heavy hammer~
+This tool of trade is also a very handy weapon when need be. 
+Though you definately have to be strong to carry the damm thing
+~
+A
+19 6
+A
+18 7
+#27011
+computer~
+a large computer~
+A large computer stands here~
+~
+12 2 1 0
+0 0 0 0
+65 0 0 55
+L 55
+E
+Computer~
+That this machine is still running, and running smoothly for that matter
+is a credit to its workmanship. There are millions of flashing little red lights
+and you would definately need a degree to run the thing.
+~
+#27012
+Corporal uniform levy~
+Corporal Levy's Uniform~
+Corporal Levy's Uniform lies here~
+~
+9 1028 9 0
+12 0 0 0
+5 9000 900 66
+L 66
+E
+Corporal levy uniform~
+This blue uniform once belonged to Corporal Levy. 
+It is still decorated with medals of honor and the brass
+buttons are still shiny
+~
+A
+12 -126
+A
+18 2
+A
+3 3
+A
+13 66
+#27013
+kitchen knife~
+a kitchen knife~
+A kitchen knife lies here~
+~
+5 65536 24577 0
+0 7 4 14
+4 2000 200 40
+L 40
+E
+kitchen knife~
+There is a long sharp kitchen that looks like rather a deadly weapon.
+It has drops of blood on it's point and it could certainly gut any man
+~
+A
+19 5
+A
+18 4
+#27014
+Coffee machine~
+a large coffee machine~
+A large coffee machine stands in the corner~
+~
+15 0 0 0
+200 0 -1 0
+11 0 0 0
+L 0
+E
+Coffee machine~
+The coffe machine is still running smoothly, as if the occupants of this
+sub will be heading into the common room for their morning tea-break.
+There is a strong aroma comming from the machine. That perculated coffee
+would be ideal to drink
+~
+#27015
+Coffee mug~
+a mug of coffee~
+A  coffee mug stands here~
+~
+17 0 1 0
+7 7 12 0
+11 10 10 0
+L 0
+E
+Coffee mug~
+Hot perculated coffee steams out of the mud
+~
+#27016
+couch leather~
+a leather couch~
+A comfortable leather couch is against the wall~
+~
+12 2 1 0
+200 0 0 0
+1 1 1 0
+L 0
+E
+Couch leather~
+This very cosy, brown leathered, couch is covered in fluffy cushions
+and looks like an ideal place to sleep.
+~
+#27017
+book nightmares horrors~
+a book of horrors~
+A book of nightmares and horrors lies here~
+~
+24 513 16385 0
+52 0 0 -1
+4 2500 7000 5
+L 5
+E
+book nightmares horrors~
+This book is bound in old leather and it has a musty smell to it.
+There is also a very strange aura to the book, making you wonder what
+special powers it may hold.
+~
+#27018
+sea weed~
+sea weed~
+Tufts of sea weed sway here~
+~
+19 0 1 0
+10 0 0 0
+1 5 5 0
+L 0
+E
+Sea Weed~
+Long strands of green colored sea weed, that can be eaten in emergency's
+~
+#27019
+tyre old worn~
+an old worn tyre~
+An old worn tyre has been left here~
+~
+9 12 18433 0
+4 0 0 0
+5 100 100 7
+L 7
+E
+tyre old worn~
+This old tyre, made of thick black rubber, has been dumped as unusable rubbish.
+There may possibly be some use for it. Though exactly what use is up the the poor 
+fool who thinks it is a treasure.
+~
+A
+14 7
+#27020
+coral reef~
+a coral reef~
+A large coral reef grows here around a strange ship~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+coral reef~
+The coral reef is a magnificent pastle colours, such as blue, pink and yellow.
+There are also millions or small fish swimming through the coral. They are also
+incredible to look at. Coming out of the top of the coral is a large fin. This looks
+like a strange ship of some description.
+~
+#27021
+squid eye~
+a squid eye~
+The Giant Squid's eye is lying here~
+~
+1 1664 16385 0
+0 0 -1 0
+3 9000 9000 72
+L 72
+E
+eye squid~
+The squid's eye is a murky grey in color and has a strange, penetrating glow to
+it. As if it can see all.
+~
+A
+12 72
+A
+13 72
+A
+19 2
+#27022
+tentacle~
+a tentacle~
+A tentacle off a giant squid is lying here~
+~
+9 1536 2049 0
+8 0 0 0
+4 7000 7000 70
+L 70
+E
+tentacle~
+This slimy piece of fish bait, can be worn if you like smelling putrid.
+~
+A
+18 2
+A
+19 4
+#27023
+chocolate bar~
+a chocolate bar~
+A small chocolate bar lies here~
+~
+19 0 1 0
+6 0 0 0
+1 5 5 0
+L 0
+E
+chocolate bar~
+This delicious choclolate bar has stayed fresh inside the fridge for
+probably one hundred years
+~
+#27024
+fruit nuts dried~
+Dried fruit and nuts~
+A plastic bag of dried fruit and nuts lies here~
+~
+19 0 1 0
+4 0 0 0
+1 5 5 0
+L 0
+E
+dried fruit nuts~
+The small bag of dried fruit and nuts have stayed fresh inside the fridge for
+probably one hundred years
+~
+#27025
+frozen dinner~
+a frozen dinner~
+A frozen dinner lies here~
+~
+19 0 1 0
+3 0 0 0
+1 5 5 0
+L 0
+E
+frozen dinner~
+This frozen dinner, while still amazingly fresh for something that is over 
+three hundred years old, does not look very appealing to eat.
+~
+#27026
+pod silver~
+a sliver pod~
+A silver pod is mounted on the wall~
+~
+15 1 1 0
+200 4 -1 0
+72 5 5 65
+L 65
+E
+pod silver~
+The silver pod looks like a sleeping capsual of some kind. There is a silver
+mattress on it's base and enought room for a body to lie in. 
+~
+#27027
+mummy corpse female~
+a female corpse~
+The mummified corpse of a female lies here~
+~
+15 0 1 0
+400 0 -1 0
+8 0 0 0
+L 0
+E
+corpse mummy female~
+This mummified corpse was obviously once a very beautiful woman. She
+was well over six feet tall, had long blonde hair and was fabulously 
+proportioned. Why she is the only corpse on this ship is completely
+unexplainable.
+~
+#27028
+chair Auto Pilot~
+an Auto Pilot~
+The Leather Chair has an mechanical auto pilot sitting in it~
+~
+12 1 0 0
+0 0 0 0
+11 11 5 0
+L 0
+E
+chair auto pilot~
+There is a mechanical auto-pilot sitting in the leather chair. It has
+obviously been designed to fly this space craft in the absence of life forms.
+However at over one thousand feet under the ocean this ship isn't flying anywhere.
+~
+#27030
+Total Blackness~
+Total Blackness~
+There is total blackness here~
+~
+9 66048 2573 0
+7 0 0 0
+8 10000 1000 80
+L 80
+E
+blackness total~
+A deep nothingness that penetrates through to total darkness
+~
+A
+13 80
+A
+18 5
+A
+19 5
+#27031
+Silencing Sleeper~
+a Silencing Sleeper~
+A silencing sleeper lies here~
+~
+5 2637 9805 0
+13 10 7 10
+10 10000 10000 85
+L 85
+E
+silencing sleeper~
+This magnificent weapon has the powers of death. Those who speak out
+against it will feel it's wrath. In the hands of the adept it will
+inflict a great deal of damage on the unsuspecting.
+~
+A
+18 7
+A
+19 8
+#27032
+laser rifle~
+a laser rifle~
+A laser rifle lies here~
+~
+5 192 8193 0
+32 8 11 1
+7 50000 5000 91
+L 91
+E
+laser rifle~
+Made from an alloy that has never been seen before this rifle
+will certainly fetch a high price
+~
+A
+18 8
+A
+19 6
+A
+12 30
+#27033
+laser pistol~
+a laser pistol~
+A laser pistol lies here~
+~
+5 192 8193 0
+26 8 9 1
+7 53000 5000 75
+L 75
+E
+laser pistol~
+Made from an alloy that has never been seen before this rifle
+will certainly fetch a high price
+~
+A
+18 6
+A
+19 4
+A
+13 30
+#27034
+laser cannon~
+a laser cannon~
+A laser cannon lies here~
+~
+5 192 8193 0
+61 9 10 1
+7 62000 5000 94
+L 94
+E
+laser cannon~
+Made from an alloy that has never been seen before this rifle
+will certainly fetch a high price
+~
+A
+18 6
+A
+19 5
+A
+13 40
+#27035
+mechanical claw~
+a mechanical claw~
+A mechanical claw lies here~
+~
+9 1537 129 0
+7 0 0 0
+4 9000 9000 75
+L 75
+E
+mechanical claw~
+This large, sharp metal claw is ideally used for picking up large pieces of 
+machinery and crates. Yet it also serves as a fine weapon of defence if needed.
+~
+A
+18 4
+A
+19 5
+A
+12 50
+#27036
+oxygen mask~
+an oxygen mask~
+An oxygen mask lies here~
+~
+31 8 17 0
+0 0 0 0
+2 3000 300 40
+L 40
+E
+oxygen mask~
+Built to protect you from various deadly elements
+This mask looks like it is an essential item 
+to wear in dangerous areas
+~
+A
+18 3
+A
+19 2
+A
+17 -15
+#27037
+pillow fluffy~
+a fluffy pillow~
+A fluffy pillows lies here~
+~
+11 0 16385 0
+0 0 0 0
+1 10 10 0
+L 0
+E
+pillow fluffy~
+This comfortable white fluffy pillow
+looks like a nice place to lie your head on
+~
+#27038
+desk~
+a desk~
+A large wooden desk stands here~
+~
+15 0 0 0
+200 5 -1 0
+0 20 20 0
+L 0
+E
+desk wooden~
+This large wooden desk is sturdy and heavy.
+There is  a small draw in its side that can be opened
+~
+#27039
+closet key~
+a closet key~
+A small intricate key lies here~
+~
+18 65548 1 0
+0 0 0 0
+1 10 10 0
+L 0
+E
+key closet intricate~
+This tiny key will undoubtedly unlock some door
+~
+#27040
+table metal~
+a metal table~
+A metal table stands here in the common room~
+~
+12 0 0 0
+0 0 0 0
+11 10 10 0
+L 0
+E
+table metal~
+The mess hall table is covered in food wrappers
+and small pieces of paper.
+~
+#27041
+coral fish~
+a coral fish~
+A coral fish lies here~
+~
+19 0 16385 0
+5 0 0 0
+1 10 10 0
+L 0
+E
+coral fish~
+This tasty little fish would be nice fried
+~
+#27042
+silicone tracks~
+a pair of silicone tracks~
+A pair of silicone tracks lie here~
+~
+9 1668 33 0
+5 0 0 0
+3 4000 4000 60
+L 60
+E
+silicone tracks~
+These strange silcone objects may be worn as
+heavy protection
+~
+A
+5 2
+A
+13 50
+A
+12 -40
+A
+19 4
+#27043
+silver matress~
+a silver matress~
+A silver matress lies here~
+~
+12 0 1 0
+0 0 0 0
+1 10 10 0
+L 0
+E
+a silver matress~
+This matress is very thin and durable.
+Possibly not very comfortable to sleep on
+~
+#27044
+silicone plate~
+a silicone plate~
+A silicone plate lies here~
+~
+9 1668 9 0
+10 0 0 0
+4 5000 5000 75
+L 75
+E
+silicone plate~
+This sturdy and impenetrable body armor
+will protect you from even the strongest blow
+~
+A
+5 1
+A
+13 60
+A
+18 2
+A
+19 3
+A
+14 -50
+#27045
+desk~
+a desk~
+A large wooden desk stands here~
+~
+15 0 0 0
+200 5 -1 0
+11 20 20 0
+L 0
+E
+desk wooden~
+This large wooden desk is sturdy and heavy.
+There is  a small draw in its side that can be opened
+~
+#27046
+silicone key~
+a silicone key~
+A small intricate key lies here~
+~
+18 65548 1 0
+0 0 0 0
+1 10 10 0
+L 0
+E
+key silicone intricate~
+This tiny key will undoubtedly unlock some door
+~
+$~
+@
+
+
+1.4
+log
+@Latest Versions
+@
+text
+@d517 1
+a517 1
+14 8 11 1
+d537 1
+a537 1
+11 8 9 1
+d557 1
+a557 1
+14 9 10 1
+@
+
+
+1.3
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@d498 1
+a498 1
+52 10 7 10
+d517 1
+a517 1
+32 8 11 1
+d537 1
+a537 1
+26 8 9 1
+d557 1
+a557 1
+61 9 10 1
+@
+
+
+1.2
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d8 2
+a9 1
+4 2000 200 0
+d24 1
+d36 2
+a37 1
+4 9000 9000 0
+d46 1
+a46 1
+14 100
+d57 1
+d69 2
+a70 1
+3 8000 800 0
+d78 1
+a78 1
+3 6
+d80 1
+a80 1
+4 5
+d82 1
+a82 1
+12 100
+d96 2
+a97 1
+17 9000 900 0
+d116 2
+a117 1
+7 9000 900 0
+d125 1
+a125 1
+13 100
+d135 2
+a136 1
+5 10000 1000 0
+d147 1
+a147 1
+13 120
+d155 2
+a156 1
+5 9000 900 0
+d164 1
+a164 1
+13 100
+d178 2
+a179 1
+17 9000 900 0
+d188 1
+a188 1
+18 8
+d196 2
+a197 1
+9200 0 0 0
+d211 2
+a212 1
+5 9000 900 0
+d226 1
+a226 1
+13 70
+d234 2
+a235 1
+4 2000 200 0
+d250 1
+a250 1
+15 0 1 0
+d252 2
+a253 1
+9200 0 0 0
+d268 2
+a269 1
+12 10 10 0
+d282 1
+d295 2
+a296 1
+4 70000 7000 0
+d311 1
+d323 2
+a324 1
+5 100 100 0
+d332 1
+a332 1
+14 20
+d341 1
+d356 2
+a357 1
+3 9000 9000 0
+d364 1
+a364 1
+12 100
+d366 1
+a366 1
+13 100
+d376 2
+a377 1
+4 7000 7000 0
+d394 1
+d408 1
+d422 1
+d435 2
+a436 1
+1000 5 5 0
+d450 1
+d463 1
+a463 1
+12 1 1 0
+d465 2
+a466 1
+9000 5 5 0
+d480 2
+a481 1
+8 10000 1000 0
+d487 1
+a487 1
+13 90
+d499 2
+a500 1
+10 10000 10000 0
+d517 3
+a519 2
+32 8 12 1
+7 50000 5000 0
+d537 3
+a539 2
+26 8 10 1
+7 53000 5000 0
+d557 3
+a559 2
+61 9 11 1
+7 62000 5000 0
+d578 2
+a579 1
+4 9000 9000 0
+d598 2
+a599 1
+2 3000 300 0
+d620 1
+d631 1
+a631 1
+15 0 1 0
+d633 2
+a634 1
+90000 20 20 0
+d648 1
+d658 1
+a658 1
+12 0 1 0
+d660 2
+a661 1
+9000 10 10 0
+d675 1
+d687 2
+a688 1
+3 4000 4000 0
+d710 1
+d723 2
+a724 1
+4 5000 5000 0
+d745 1
+a745 1
+15 0 1 0
+d747 2
+a748 1
+90000 20 20 0
+d762 1
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d3 1
+a3 1
+A tool kit~
+d6 1
+a6 1
+15 8 16385
+d8 1
+a8 1
+4 2000 200
+a14 1
+L 10
+d20 1
+a20 1
+13 0 16385
+d22 1
+a22 1
+1 1 1
+d29 1
+a29 1
+A decompression suit~
+d32 1
+a32 1
+34 0 1025
+d34 1
+a34 1
+4 9000 9000
+a45 1
+L 20
+d51 1
+a51 1
+17 0 16385
+d53 1
+a53 1
+1 100 30
+a57 1
+L 0
+d60 1
+a60 1
+A lab coat~
+d63 1
+a63 1
+9 1548 9
+d65 1
+a65 1
+3 8000 800
+a83 1
+L 75
+d86 1
+a86 1
+A power drill~
+d89 1
+a89 1
+5 1024 24577
+d91 1
+a91 1
+17 9000 900
+a102 1
+L 80
+d108 1
+a108 1
+9 1032 9
+d110 1
+a110 1
+7 9000 900
+a120 1
+L 71
+d123 1
+a123 1
+A medal of Honour~
+d126 1
+a126 1
+9 1029 5
+d128 1
+a128 1
+5 10000 1000
+a139 1
+L 80
+d145 1
+a145 1
+9 1028 9
+d147 1
+a147 1
+5 9000 900
+a161 1
+L 66
+d164 1
+a164 1
+A heavy hammer~
+d167 1
+a167 1
+5 1024 24577
+d169 1
+a169 1
+17 9000 900
+a178 1
+L 65
+d184 1
+a184 1
+12 2 1
+d186 1
+a186 1
+9200 0 0
+d198 1
+a198 1
+9 1028 9
+d200 1
+a200 1
+5 9000 900
+d208 1
+a208 1
+12 130
+a214 1
+L 66
+d217 1
+a217 1
+A kitchen knife~
+d220 1
+a220 1
+5 65536 24577
+d222 1
+a222 1
+4 2000 200
+a231 1
+L 23
+d237 1
+a237 1
+15 0 1
+d239 1
+a239 1
+9200 0 0 
+d252 1
+a252 1
+17 0 1
+d254 1
+a254 1
+1 10 10
+d264 1
+a264 1
+12 2 1
+d266 1
+a266 1
+1 1 1
+d274 1
+a274 1
+A book of horrors~
+d277 1
+a277 1
+24 513 16385
+d279 1
+a279 1
+4 70000 7000
+d291 1
+a291 1
+19 0 1
+d293 1
+a293 1
+1 5 5 
+d300 1
+a300 1
+An old worn tyre~
+d303 1
+a303 1
+9 12 18433
+d305 1
+a305 1
+5 100 100
+a313 1
+L 7
+d319 2
+a320 1
+12 0 0
+a321 1
+0 0 0
+d334 1
+a334 1
+1 1664 16385
+d336 1
+a336 1
+3 9000 9000
+a347 1
+L 72
+d353 1
+a353 1
+9 1536 2049
+d355 1
+a355 1
+4 7000 7000
+a363 1
+L 70
+d369 1
+a369 1
+19 0 1
+d371 1
+a371 1
+1 5 5
+d382 1
+a382 1
+19 0 1
+d384 1
+a384 1
+1 5 5
+d395 1
+a395 1
+19 0 1
+d397 1
+a397 1
+1 5 5
+d405 1
+a405 1
+A sliver pod~
+d408 1
+a408 1
+15 1 1
+d410 1
+a410 1
+1000 5 5
+d418 1
+a418 1
+A female corpse~
+d421 3
+a423 3
+13 0 1
+0 0 0 0
+8 0 0
+d433 1
+a433 1
+An Auto Pilot~
+d436 1
+a436 1
+12 1 1
+d438 1
+a438 1
+9000 5 5
+d450 1
+a450 1
+9 jq acdjl
+d452 1
+a452 1
+8 10000 1000
+a462 1
+L 80
+d465 1
+a465 1
+A Silencing Sleeper~
+d468 1
+a468 1
+5 2637 acdgjkn
+d470 1
+a470 1
+10 10000 10000
+a480 1
+L 85
+d483 1
+a483 1
+A laser rifle~
+d486 1
+a486 1
+5 192 8193
+d488 1
+a488 1
+7 50000 5000
+a499 1
+L 91
+d502 1
+a502 1
+A laser pistol~
+d505 1
+a505 1
+5 192 8193
+d507 1
+a507 1
+7 53000 5000
+a518 1
+L 75
+d521 1
+a521 1
+A laser cannon~
+d524 1
+a524 1
+5 192 8193
+d526 1
+a526 1
+7 62000 5000
+a537 1
+L 94
+d540 1
+a540 1
+A mechanical claw~
+d543 1
+a543 1
+9 1537 129
+d545 1
+a545 1
+4 9000 9000
+a556 1
+L 75
+d562 1
+a562 1
+31 8 17
+d564 1
+a564 1
+2 3000 300
+a576 1
+L 40
+d582 1
+a582 1
+11 0 16385
+d584 1
+a584 1
+1 10 10
+a589 1
+L 0
+d595 1
+a595 1
+15 0 1
+d597 1
+a597 1
+90000  20 20
+a602 1
+L 0
+d605 1
+a605 1
+A closet key~
+d608 1
+a608 1
+18 65548 1
+d610 1
+a610 1
+1 10 10
+a614 1
+L 0
+d620 1
+a620 1
+12 0 1
+d622 1
+a622 1
+9000 10 10
+a627 1
+L 0
+d633 1
+a633 1
+19 0 16385
+d635 1
+a635 1
+1 10 10
+a639 1
+L 0
+d645 1
+a645 1
+9 1668 33
+d647 1
+a647 1
+3 4000 4000
+a660 1
+L 60
+d664 1
+a664 1
+a silver matress lies here~
+d666 1
+a666 1
+12 0 1
+d668 1
+a668 1
+1 10 10
+a673 1
+L 0
+d679 1
+a679 1
+9 1668 9
+d681 1
+a681 1
+4 5000 5000
+a696 1
+L 75
+d702 1
+a702 1
+15 0 1
+d704 1
+a704 1
+90000  20 20
+a709 1
+L 0
+d712 1
+a712 1
+A silicone key~   
+d715 1
+a715 1
+18 65548 1
+d717 1
+a717 1
+1 10 10
+a721 2
+L 0
+#99999
+@
+

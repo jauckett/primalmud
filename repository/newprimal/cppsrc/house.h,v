@@ -1,0 +1,97 @@
+head	1.2;
+access;
+symbols
+	A3_0_59:1.2
+	LATEST:1.2
+	A3_0_1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2000.08.26.16.39.48;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.58;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@
+Added:
+- extra who list options, default level descending
+- !IS_NPC check on AFK
+
+Changed:
+- clone order fix
+- max houses 100 -> 500
+- house guests 10 -> 5
+@
+text
+@#define MAX_HOUSES	500
+#define MAX_GUESTS      5
+
+#define HOUSE_PRIVATE	0
+
+
+struct house_control_rec {
+   room_vnum vnum;		/* vnum of this house		*/
+   room_vnum atrium;		/* vnum of atrium		*/
+   sh_int exit_num;		/* direction of house's exit	*/
+   time_t built_on;		/* date this house was built	*/
+   int mode;			/* mode of ownership		*/
+   long owner;			/* idnum of house's owner	*/
+   int num_of_guests;		/* how many guests for house	*/
+   long guests[MAX_GUESTS];	/* idnums of house's guests	*/
+   time_t last_payment;		/* date of last house payment   */
+   long spare0;
+   long spare1;
+   long spare2;
+   long spare3;
+   long spare4;
+   long spare5;
+   long spare6;
+   long spare7;
+};
+
+
+
+   
+#define TOROOM(room, dir) (world[room].dir_option[dir] ? \
+			    world[room].dir_option[dir]->to_room : NOWHERE)
+
+void	House_listrent(struct char_data *ch, room_vnum vnum);
+void	House_boot(void);
+void	House_save_all(void);
+int	House_can_enter(struct char_data *ch, room_vnum house);
+void	House_crashsave(room_vnum vnum);
+void	House_list_guests(struct char_data *ch, int i, int quiet);
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d1 2
+a2 2
+#define MAX_HOUSES	100
+#define MAX_GUESTS	10
+@
+

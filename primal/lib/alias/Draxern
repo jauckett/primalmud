@@ -1,0 +1,21 @@
+x backstab wicked
+\ remove dagger;wield sword
+7 remove sword;wield dagger
+[ cast 'cure crit' avon
+- cast 'heal'
+` cast 'cure crit'
+4 get bread backpack;eat bread
+1 cast 'cure light'
+9 get all.gold all.corpse
+8 get meat backpack;eat meat
+3 get red backpack; q red
+0 cast 'infravision'
+6 cast 'armor'
+= cast 'bless'
+2 get white backpack;q white
+' track lich
+5 get scroll backpack;recite scroll
+m track wicked
+o track indiana
+z assist wooffee
+c cast 'cure crit' wooffee

@@ -1,0 +1,63 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 vendprim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.02.22.21.10.35;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.02.22.21.10.35;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@                     Compiling CircleMUD Version 3.0
+                under Microsoft Windows 95 or Windows NT
+                           using Watcom v.11
+
+
+The following information is from Joe Osburn <joeos19@@idt.net>.
+
+Circle apparently compiles under 95/NT using Watcom's compiler with
+the following changes:
+
+1- Copy conf.h.win to conf.h
+
+2- Rename all the act.* files to other names; the IDE in Watcom apparently
+   doesn't like files that start with act.*
+
+3- In Watcom make a new project that is a Windows 95 character mode
+   executable; add all of Circle's .c files to it.
+
+4- Remove the line that says "#define chdir _chdir" from sysdep.h
+
+
+If you have any further information, patches, or more detailed instructions,
+please mail them to us at bugs@@circlemud.org.
+
+@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

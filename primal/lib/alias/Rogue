@@ -1,0 +1,11 @@
+dr get skin from backpack;drink skin;put skin in backpack
+lb look in backpack
+up wake;stand
+gac get all corpse
+rc get corpse; junk corpse
+eb eat bread
+cl c 'cure light' $1
+clr c 'cure light' Rogue
+em get meat from backpack;eat meat
+pb put $1 in backpack
+gb get $1 from backpack

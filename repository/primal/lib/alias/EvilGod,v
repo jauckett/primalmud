@@ -1,0 +1,54 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@dw take skin from backpack;drink water;put skin in backpack
+[c e
+[d w
+[b s
+[a n
+massmm cast 'magic missile' at $1 ; cast 'magic missile' at $1 ; cast 'magic missile' at $1 ; cast 'magic missile' at $1 ; cast 'magic missile' at $1 ; cast 'magic missile' at $1 ;cast 'magic missile' at $1 ;cast 'magic missile' at $1
+bh cast 'burning hands' at $1
+mm cast 'magic missile' at $1
+armor cast 'armor' at me
+t tag $0
+mush cast 'create food' at me ; eat mushroom
+infra cast 'infravision' at me
+det cast 'detect invisibility' at me
+getgate cast 'magic missile' at gateguard
+getall e;take all from corpse;w
+getbod s;take corpse;n
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

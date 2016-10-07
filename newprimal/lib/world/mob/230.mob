@@ -1,0 +1,116 @@
+#23000
+hal 9000 computer~
+Hal 9000 computer~
+A Hal 9000 computer is here monitoring cosmic events.
+~
+The Hal computer has a single CCD camera which stares at you. It has
+many probes attached to it which sense everything about it. There are
+also apendages attached to it which are generally used for gathering
+samples but are currently in a defensive position.
+~
+75 128 0 E
+35 -10 2 10d8+2100 13d17+38
+17500 95000
+8 8 0
+E
+#23001
+luna prospector~
+the luna prospector~
+A luna prospector is here monitoring his equipment.
+~
+The prospector is wearing a shabby vac suit and is staring
+at some obsolete guage which he holds. He seems quite 
+oblivious to you presence.
+~
+60 0 100 E
+5 16 12 1d1+50 4d4+2
+280 1000
+8 8 0
+E
+#23002
+alien probe~
+the alien probe~
+An alien probe is here circling you.
+~
+The probe is a sphere of shiny metal and it moves about 
+you as it gathers information from the moon.
+~
+72 0 0 E
+7 15 11 1d1+80 6d5+10
+1000 1300
+8 8 0
+E
+#23003
+bot household rogue~
+the rogue houshold bot~
+A rogue houshold bot is here looking very confused.
+~
+The bot is typical of houshold models it has the standard brush,
+vacuum, wiper appendages but it seems confused here and has 
+gone into a survival state.
+~
+104 0 0 E
+8 14 11 1d1+120 3d10+6
+1500 2500
+8 8 0
+E
+#23004
+bot survey~
+a survey bot~
+A geological survey bot is here monitoring the ground.
+~
+The bot has a very simple design, a single appendage to 
+take samples and a cpu housing made of case hardened 
+terridium to protect it from the elements.
+~
+72 0 0 E
+6 16 11 1d1+85 3d6+5
+300 650
+8 8 0
+E
+#23005
+luna explorer~
+a luna explorer~
+A luna explorer is wandering around the moon's surface
+~
+This young adventurer is exploring the moon.
+Although most of the surface has been examined over
+and over again, he is still hoping to find something of
+value.
+~
+2120 1024 300 E
+4 17 12 1d1+45 4d3+6
+900 1300
+8 8 1
+E
+#23006
+young adventurer~
+a young adventurer~
+A young adventurer is standing here
+~
+The young adventurer is dressed in clothes
+that are well made and will weather all types
+of conditions. He is well prepared for a
+long journey through many strange lands and towns.
+~
+88 1024 300 E
+6 16 11 1d1+85 3d7+6
+700 2300
+8 8 1
+E
+#23007
+Tdroid robot~
+a Tdroid robot~
+A TDroid Robot is standing here
+~
+This old mark T7-39 Droid is make from
+the finest metals. However it is a very old model,
+that is rather useless compared to the mark 500's that
+are the current models.
+~
+72 1024 100 E
+5 17 12 1d1+65 4d6+6
+1200 1200
+8 8 0
+E
+$

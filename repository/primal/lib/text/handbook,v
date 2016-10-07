@@ -1,0 +1,96 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@                           ** IMMORTAL HANDBOOK **
+                              -----------------
+
+First of all, CONGRATULATIONS for coming so far and reaching Immortal on
+PrimalMUD. Now as an angel, you are expected to behave in the appropriate
+manner. There are certain rules to follow as an angel.
+
+
+Please spend time reading these. Ignorance of these rules is not an excuse
+
+
+1. You are expected to help NEWBIES. This is not asking you to load them with
+   equipment or killing mobs for them. You can teach them how to use the 
+   appropriate commands and where to get basic items, like general store,
+   magic shops, and the donation room. At all times, the donation room should
+   be filled with the basic items. DO NOT give gold away to newbies unless 
+   in emergencies like rent money.
+
+2. No GROUPING with mortals is allowed. You will hog their xp. More importantly
+   no tanking for mortals -- they get FREE xp.  Punishment for this is loss of 
+   Promotion and being set back to level 60 
+
+3. You are expected to keep your NOHASSEL flag on at all times.
+
+4. No KILLING of mobs unless you can provide good reasons.
+
+5. If you have an ANGEL character and a MORTAL character, no interaction
+   between the two is allowed. Punishment is deletion of MORTAL character.
+ 
+6. There should be no intervention during battles, meaning no healing of 
+   either the mobs or player, no switching into mobs and make them flee from
+   players if the mobs are not supposed to flee, unless you are in a quest or
+   have special reasons for doing so.
+
+7. You are expected to read the immortal board from time to time to keep
+   yourself updated. 
+
+9. All gods must support the decisions of higher gods and implimenters and
+   not publicly disagree with any changes. Any constructive critisism is
+   welcome but must be limited to the god's board.
+
+
+10. As an Angel you are no longer part of a Clan and you should not show ANY
+    favouritism towards your old clan.
+
+
+Type Wizhelp for all commands.
+
+
+Failure to comprise with the above rules will be dealt with accordingly.
+
+If you are thinking of helping your friends by cheating, think again, because
+we will CATCH you! < GO AHEAD......MAKE MY DAY !! >
+
+
+- The Officials Of PrimalMUD .
+
+
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

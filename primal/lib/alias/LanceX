@@ -1,0 +1,12 @@
+armor cast 'armor' self
+wl wear all
+ga get all
+gc get all from corpse
+ec examorpse
+lm look map
+qr quaff red potion
+bb buy bread
+pbb put bread in backpack
+gbb get bread from backpack
+eb eat bread
+kb kill beggar

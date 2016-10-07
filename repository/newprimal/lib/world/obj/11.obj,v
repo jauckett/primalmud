@@ -1,0 +1,5627 @@
+head	1.16;
+access;
+symbols
+	A3_0_1:1.2;
+locks; strict;
+comment	@# @;
+
+
+1.16
+date	2004.02.09.23.55.55;	author mud;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.31.08.24.37;	author mud;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.30.10.39.53;	author mud;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.21.08.52.11;	author mud;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.10.13.11.18;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.12.31.10.38.33;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.20.12.01.51;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.14.05.29.35;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.01.17.04.52.08;	author primal;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.04.04.08.20.44;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.01.22.22.45.46;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.39;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@Artus> Sync.
+@
+text
+@#1101
+bread~
+a bread~
+A loaf of bread has been left here.~
+~
+19 0 1 0
+12 0 0 0
+1 2 1 0
+L 0
+E
+bread~
+This looks fresh and edible
+~
+#1102
+meat chunk~
+a chunk of meat~
+A large chunk of meat is here~
+~
+19 0 1 0
+15 0 0 0
+1 5 2 0
+L 0
+E
+meat chunk~
+The meat looks like it has been slightly chewed in one corner
+~
+#1103
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
+pierce&n
+~
+5 138981376 8193 0
+0 1 4 11
+1 80 16 0
+L 0
+E
+dagger~
+A thin, rather weak looking blade protrudes from a small leather handle
+~
+#1104
+sword small~
+a small sword~
+A small sword lies here.~
+slash~
+5 8192 8193 0
+0 1 6 11
+3 270 54 0
+L 0
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+E
+inscription~
+It says : May this sword be a good companion.
+~
+#1105
+sword long~
+a long sword~
+A long sword has been left here.~
+slash~
+5 8192 8193 0
+0 1 8 3
+8 640 128 0
+L 0
+E
+sword long~
+The long sword seems to have an inscription of some sort.
+~
+E
+inscription~
+It says : May this sword be a good companion.
+~
+#1106
+club wooden~
+a wooden club~
+A simple looking wooden club is here.~
+pound~
+5 0 8193 0
+0 1 3 7
+3 33 6 0
+L 0
+E
+wooden club~
+A piece of wood that has been shaped into a weapon
+~
+#1107
+warhammer~
+a warhammer~
+A medium sized warhammer is here.~
+pound~
+5 0 8193 0
+0 1 5 7
+6 156 31 0
+L 0
+#1108
+torch~
+a torch~
+A large torch.~
+~
+1 0 16385 0
+0 0 24 0
+1 10 1 0
+L 0
+E
+torch~
+A small torch that is lit by kerosene
+~
+#1109
+lantern~
+a lantern~
+A brass lantern.~
+~
+1 0 16385 0
+0 0 96 0
+1 50 5 0
+L 0
+E
+lantern~
+This small brass lantern will help you see a lot better at night
+~
+#1110
+bag~
+a bag~
+A small bag.~
+~
+15 0 16385 0
+50 0 0 0
+2 20 2 0
+L 0
+E
+bag ~
+a small cloth bag that will hold a few items, nothing more
+~
+#1111
+breast plate~
+a breast plate~
+A breast plate is lying on the ground.~
+~
+9 0 65545 0
+3 0 0 0
+11 1800 300 0
+L 0
+E
+breast plate~
+This magnificent piece of armor shines brightly in the sunlight
+~
+#1112
+chain mail shirt~
+a chain mail shirt~
+A chain mail shirt is lying on the ground.~
+~
+9 0 9 0
+2 0 0 0
+11 1800 300 0
+L 0
+E
+chain mail shirt~
+Small chain links hold this piece of armor together
+~
+#1114
+jacket soft leather~
+a leather jacket~
+A soft leather jacket is lying on the ground.~
+~
+9 0 9 0
+1 0 0 0
+10 200 20 0
+L 0
+#1115
+jacket studded~
+a studded leather jacket~
+A studded leather jacket is lying on the ground.~
+~
+9 0 9 0
+1 0 0 0
+11 500 50 0
+L 0
+E
+jacket studded~
+The jacket is covered with small brass studds
+~
+#1116
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+~
+9 0 9 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1117
+combat breast plate~
+a combat breast plate~
+A combat breast plate is lying on the ground~
+~
+9 0 9 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1118
+gauntlets bronze~
+a pair of bronze gauntlets~
+A pair of bronze gauntlets is lying on the ground.~
+~
+9 0 129 0
+2 0 0 0
+8 1800 400 0
+L 0
+A
+19 1
+#1120
+bronze helmet~
+a bronze helmet~
+A bronze helmet is lying on the ground.~
+~
+9 0 17 0
+2 0 0 0
+8 1800 300 0
+L 0
+#1121
+cap studded leather~
+a studded leather cap~
+A studded leather cap is lying on the ground.~
+~
+9 0 17 0
+1 0 0 0
+3 500 50 0
+L 0
+#1122
+leggings bronze~
+a pair of bronze leggings~
+A pair of bronze leggings is lying on the ground.~
+~
+9 0 33 0
+3 0 0 0
+8 1800 300 0
+L 0
+#1124
+sleeves bronze~
+a pair of bronze sleeves~
+A pair of bronze sleeves is lying on the ground.~
+~
+9 0 257 0
+3 0 0 0
+8 1800 400 0
+L 0
+A
+18 1
+#1125
+sleeves leather~
+a pair of leather sleeves~
+A pair of leather sleeves is lying on the ground.~
+~
+9 0 257 0
+1 0 0 0
+4 200 20 0
+L 0
+#1126
+water skin~
+a skin~
+A water skin has been set on the ground here.~
+~
+17 0 1 0
+80 80 15 0
+1 45 4 1
+L 1
+E
+canteen~
+It's a fairly big skin.  Looks like it can hold a lot of liquid.
+~
+#1130
+ruby~
+a large ruby~
+A large sparkling ruby has carelessly been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 1000 100 0
+L 0
+#1131
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+sign post direction~
+
++-----------------------------------------------------------------+
+|                                                                 |
+| WEST - Desert                (15-25)  Aqua Marina       (5+)    |
+|        Moander's Domain      (50+)    Rand's Tower      (10-20) |
+|        Crystal Castle        (25-40)  Werith's Wayhouse (10-20) |
+|        Khulgru's Lost Empire (30-40)  Tudor             (35+)   |
+|        Fairytale Forest      (20-30)  Lhankwood         (10-20) |
+|        Wilderness            (5-10)   Rushmoor Swamp    (20-30) |
+|        City of Thalos        (10-20)  Island            (30-40) |
+|        Mountains             (5-10)   Toyheim           (10-20) |
+|        Black Tower           (30-50)  Darask            (10-20) |
+|                                                                 |
+| EAST - Selva Road            (5-10)                             |
+|        Graveyard             (5-10)                             |
+|        Tunnel                (35-45)                            |
+|        Spiral                (60+)                              |
+|        Ancient Greece        (60+)                              |
+|                                                                 |
++-----------------------------------------------------------------+
+~
+#1132
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------+
+|                               |
+| NORTH - Eliqua River (45-55)  |
+|                               |
+| EAST -  Moathouse    (1-10)   |
+|                               |
++-------------------------------+
+~
+#1133
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------+
+|                               |
+| NORTH - Pirate Ship   (30-40) |
+|         Danger Island (40-50  |
+|                               |
++-------------------------------+
+~
+#1134
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------------+
+|                                     |
+| EAST - Plains               (0-10)  |
+|        Ershteep Road        (10-20) |
+|	 Magic: The Gathering (35+)   |
+|        Camelot              (25-40) |
+|        Three of Swords      (10-20) |
+|        Shadowkeep           (30-50) |
+|        Rome                 (5-70)  |
+|                                     |
++-------------------------------------+
+~
+#1140
+ring gold gold.ring~
+a shiny gold ring~
+A shiny gold ring has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+A
+3 1
+#1141
+iron ring ~
+an iron ring~
+A small ring of iron has been dropped here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+iron ring~
+A rather ordinary inexpensive iron ring
+~
+A
+1 1
+#1142
+ring leather ~
+a leather ring~
+A small ring fashioned out of leather has been dropped here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+leather ring ~
+leather entwined in a tight circle that forms a ring
+~
+A
+2 1
+#1143
+wood wooden ring~
+a wooden ring~
+A ring fashioned from sandalwood has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+wooden ring~
+This small circle of wood may give you some added wisdom
+~
+A
+4 1
+#1144
+granite ring granite.ring~
+a granite ring~
+A ring carved out of granite has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+granite ring~
+This small circle of granite looks like it would make a nice ring
+~
+A
+5 1
+#1150
+Silk sewing kit~
+silk sewing kit~
+A silk sewing kit~
+~
+15 0 1 0
+10 0 0 0
+5 450 0 0
+L 0
+#1151
+silk spider~
+spider silk~
+A spider silk~
+~
+8 0 1 0
+0 0 0 0
+1 400 0 0
+L 0
+#1152
+needle~
+Sewing needle~
+Undefined~
+~
+13 0 1 0
+0 0 0 0
+1 85 0 0
+L 0
+#1153
+silk glove pattern~
+silk glove pattern~
+A silk glove sewing pattern.~
+e
+To make silk gloves use your silk sewing kit, a good sewing needle, 4 spider silks and this pattern.
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+L 0
+#1154
+silk gloves~
+silk gloves~
+A pair of silk gloves~
+~
+9 0 129 0
+9 0 0 0
+1 0 0 0
+L 0
+A
+2 1
+#1160
+canvas moccasins~
+a pair of canvas moccasins~
+A fine pair of canvas moccassins are here.~
+~
+9 0 65 0
+1 0 0 0
+2 100 10 0
+L 0
+E
+canvas moccasins~
+These rather tattered pair of moccasins have been well worn
+~
+#1161
+leather boots~
+a pair of leather boots~
+A comfortable looking pair of leather boots are here.~
+~
+9 0 65 0
+1 0 0 0
+4 200 20 0
+L 0
+E
+leather boots~
+These shiny leather boots will cover most of your legs they are so long
+~
+#1162
+steel capped boots~
+a pair of steel capped boots~
+A pair of steel capped boots are here.~
+~
+9 0 65 0
+2 0 0 0
+8 900 90 0
+L 0
+A
+14 1
+#1163
+scale boots~
+a pair of scale clad boots~
+A fine pair of scale clad boots are here~
+~
+9 0 65 0
+2 0 0 0
+10 1700 170 0
+L 0
+A
+14 1
+#1165
+combat boots~
+a pair of combat boots~
+A pair of army issue combat boots are here.~
+~
+9 0 65 0
+3 0 0 0
+11 1800 740 0
+L 0
+E
+combat boots~
+These army issue boots look extremely tough and sturdy
+~
+A
+14 1
+#1170
+cloth gloves~
+a pair of cloth gloves~
+A nice pair of cloth gloves are here.~
+~
+9 0 129 0
+1 0 0 0
+1 100 10 0
+L 0
+E
+cloth gloves~
+These ordinary gloves offer very little protection
+~
+#1171
+leather gloves~
+a pair of leather gloves~
+A nice pair of leather gloves has been left here.~
+~
+9 0 129 0
+1 0 0 0
+2 200 20 0
+L 0
+E
+leather gloves~
+These ordinary gloves offer very little protection
+~
+#1172
+studded leather gloves~
+a pair of studded leather gloves~
+A pair of studded leather gloves has been left here.~
+~
+9 0 129 0
+2 0 0 0
+3 1500 150 0
+L 0
+A
+19 1
+#1173
+spiked gloves~
+a nasty looking pair of spiked gloves~
+A nasty looking pair of spike gloves has been left here.~
+~
+9 0 129 0
+2 0 0 0
+7 1800 200 0
+L 0
+E
+spiked gloves~
+There are several nasty looking spikes that protrude from the top of these 
+gloves 
+~
+A
+19 1
+#1174
+combat gauntlets~
+a pair of combat gauntlets~
+A shiny pair of combat gauntlets has been left here~
+~
+9 0 129 0
+3 0 0 0
+10 1800 800 0
+L 0
+E
+combat gauntlets~
+A pair of strong army issue gauntlets that look strong and sturdy
+~
+A
+19 1
+#1180
+beret~
+a beret~
+A fine beret has been left here.~
+~
+9 0 17 0
+1 0 0 0
+1 100 10 0
+L 0
+E
+beret~
+This small black felt hat looks rather nice but offers very little protection
+~
+#1181
+leather cap~
+a leather cap~
+A finely made leather cap has been dropped here.~
+~
+9 0 17 0
+1 0 0 0
+2 200 20 0
+L 0
+#1184
+visor~
+a gladiator's visor~
+A gladiator's visor has been dropped here.~
+~
+9 0 17 0
+2 0 0 0
+11 1800 450 1
+L 1
+A
+12 1
+#1185
+combat helm~
+a combat helm~
+An army issue combat helm is lying in the dirt here.~
+~
+9 0 17 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1190
+cloth jacket~
+a cloth jacket~
+A finely tailored cloth jacket is lying in the dust here.~
+~
+9 0 9 0
+1 0 0 0
+5 100 10 0
+L 0
+#1191
+leather jacket~
+a leather jacket~
+A nice leather jacket is lying here in the dust.~
+~
+9 0 9 0
+2 0 0 0
+10 200 20 0
+L 0
+#1192
+studded jacket~
+a studded leather jacket~
+A studded leather jacket has been left here.~
+~
+9 0 9 0
+1 0 0 0
+11 500 50 0
+L 0
+#1193
+scale vest~
+a scale mail vest~
+A fine scale mail vest is lying on the ground here.~
+~
+9 0 9 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1194
+chain vest~
+a chain mail vest~
+A chain mail vest has been left here.~
+~
+9 0 9 0
+3 0 0 0
+11 1800 300 0
+L 0
+#1195
+bronze breast plate~
+a bronze breast plate~
+A shiny bronze breast plate is here~
+~
+9 0 9 0
+3 0 0 0
+11 1800 300 0
+L 0
+#1198
+Builders Board~
+the Builders' Board~
+The Builders' Board rests here, providing assistance to all who build.~
+~
+13 65564 0 0
+0 0 0 0
+130 0 0 120
+L 120
+#1200
+cloth pants~
+a pair of cloth pants~
+A finely tailored pair of cloth pants has been dropped here.~
+~
+9 0 33 0
+1 0 0 0
+2 100 10 0
+L 0
+#1201
+leather pants~
+a pair of leather pants~
+A nice pair of leather pants has been dropped here.~
+~
+9 0 33 0
+1 0 0 0
+5 200 20 0
+L 0
+#1202
+studded pants~
+a pair of studded leather pants~
+A pair of studded leather pants has been left here.~
+~
+9 0 33 0
+1 0 0 0
+7 800 80 0
+L 0
+A
+14 1
+#1203
+scale leggings~
+a pair of scale mail leggings~
+A pair of scale mail leggings has been dropped here.~
+~
+9 0 33 0
+2 0 0 0
+11 1500 150 0
+L 0
+A
+14 1
+#1204
+combat leggings~
+a pair of combat leggings~
+A shiny pair of combat leggings is here~
+~
+9 0 33 0
+3 0 0 0
+11 1800 690 0
+L 0
+A
+14 1
+#1206
+combat sleeves~
+a pair of combat sleeves~
+A shiny pair of combat sleeves has been left here~
+~
+9 0 257 0
+3 0 0 0
+3 1800 700 0
+L 0
+A
+18 1
+#1210
+cloth sleeves~
+a pair of cloth sleeves~
+A fine pair of cloth sleeves has been left here.~
+~
+9 0 257 0
+1 0 0 0
+1 100 10 0
+L 0
+#1212
+studded sleeves~
+a pair of studded leather sleeves~
+A pair of studded leather sleeves has been left here.~
+~
+9 0 257 0
+2 0 0 0
+3 1500 150 0
+L 0
+A
+18 1
+#1213
+scale sleeves~
+a pair of scale mail sleeves~
+A pair of scale mail sleeves has been dropped here.~
+~
+9 0 257 0
+2 0 0 0
+5 1800 200 0
+L 0
+A
+18 1
+#1214
+bronze bracers~
+a pair of bronze bracers~
+A shiny pair of bronze bracers is here gathering dust.~
+~
+9 0 257 0
+3 0 0 0
+10 1800 300 0
+L 0
+#1220
+leather shield~
+a small leather shield~
+A small leather shield has been left here.~
+~
+9 0 513 0
+1 0 0 0
+1 200 20 0
+L 0
+#1221
+wooden shield~
+a small wooden shield~
+A small wooden shield has been dropped here.~
+~
+9 0 513 0
+1 0 0 0
+10 100 10 0
+L 0
+E
+wooden shield ~
+This small wooden shield offers little protection
+~
+#1222
+spiked wooden shield~
+a spiked wooden shield~
+A mean looking spiked wooden shield has been left here.~
+~
+9 0 513 0
+2 0 0 0
+11 500 50 0
+L 0
+#1223
+iron shield~
+a large iron shield~
+A large iron shield is here~
+~
+9 0 513 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1224
+bronze shield~
+a large bronze shield~
+A strong looking bronze shield has been left here~
+~
+9 0 513 0
+5 0 0 0
+11 1800 300 0
+L 0
+#1225
+combat shield~
+a combat shield~
+An army issue combat shield has been dropped here.~
+~
+9 0 513 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1228
+beer barrel~
+a barrel~
+A beer barrel has been left here.~
+~
+17 0 1 0
+50 50 1 0
+55 300 100 1
+L 1
+#1229
+beer bottle~
+a bottle~
+A beer bottle has been left here.~
+~
+17 0 1 0
+8 8 1 0
+10 20 8 0
+L 0
+#1230
+ale bottle dark~
+a bottle~
+A dark bottle of ale has been left here.~
+~
+17 0 1 0
+8 8 3 0
+10 10 3 0
+L 0
+#1231
+firebreather bottle~
+a firebreather~
+A firebreather has been left here.~
+~
+17 0 1 0
+8 8 7 0
+10 50 17 0
+L 0
+#1232
+local bottle~
+a bottle~
+A dark bottle has been left here.~
+~
+17 0 1 0
+8 8 8 0
+10 20 7 0
+L 0
+#1233
+bread~
+a bread~
+A loaf of bread has been left here.~
+~
+19 0 1 0
+12 0 0 0
+1 10 10 0
+L 0
+#1234
+danish pastry~
+a danish pastry~
+A nice looking delicious danish pastry has been placed here.~
+~
+19 0 1 0
+5 0 0 0
+1 5 5 0
+L 0
+#1235
+taco mexican~
+a Mexican taco~
+A tasty looking Mexican taco has been dropped here.~
+~
+19 0 1 0
+15 0 0 0
+1 15 15 0
+L 0
+#1236
+burrito hot~
+a spicy hot burrito~
+A spicy looking burrito has been set here.~
+~
+19 0 1 0
+10 0 0 0
+1 10 10 0
+L 0
+#1237
+nachos nacho~
+some nachos with cheese~
+Some nachos have been left here.~
+They have cheese on them.  Looks like one of Uncle Juan's specials.
+~
+19 0 1 0
+5 0 0 0
+1 5 5 0
+L 0
+#1238
+meat chunk~
+a piece of meat~
+A rather dubious looking piece of meat is on the ground here.~
+~
+19 0 1 0
+14 0 0 0
+5 24 10 0
+L 0
+E
+meat~
+It's not so much that the meat looks poisoned or anything, but that you
+just are not sure of it's origins.  You doubt that a hunter would drop a
+side of venison or rabbit meat... what in the world could this meat have
+come from, you wonder...
+~
+#1239
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
+pierce~
+5 0 8193 0
+0 2 6 11
+1 10 10 0
+L 0
+#1240
+sword small~
+a small sword~
+A small sword lies here.~
+slash~
+5 8192 8193 0
+0 1 6 11
+3 60 10 0
+L 0
+E
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+E
+inscription~
+It says: "May this sword be a good companion."
+~
+#1241
+sword long~
+a long sword~
+A long sword has been left here.~
+slash~
+5 8192 8193 0
+0 1 8 3
+8 600 10 0
+L 0
+#1242
+club wooden~
+a wooden club~
+A simple looking wooden club is here.~
+pound~
+5 0 8193 0
+0 1 3 7
+3 12 10 0
+L 0
+#1250
+poniard~
+a poniard~
+A very sharp looking poniard has been left here.~
+~
+5 0 8193 0
+0 2 4 11
+9 1800 450 0
+L 0
+A
+19 1
+#1251
+dirk knife dagger~
+a thief's dirk~
+A sharp looking thief's dirk has been left here.~
+~
+5 0 8193 0
+0 2 3 11
+7 270 54 0
+L 0
+#1255
+arch stone massive gateway~
+a massive stone arch~
+A massive stone arch stands here, acting as a gateway to the great Mountain.~
+~
+41 0 0 0
+1244 0 0 0
+110 0 0 100
+L 100
+T 1255
+#1258
+warhammer hammer~
+a warhammer~
+A medium sized warhammer is here.~
+pound~
+5 0 8193 0
+0 1 5 7
+6 50 10 0
+L 0
+#1259
+flail large~
+a flail~
+A large flail is here.~
+pound~
+5 0 8193 0
+0 2 4 7
+6 625 10 0
+L 0
+#1260
+torch~
+a torch~
+A large torch.~
+~
+1 0 16385 0
+0 0 24 0
+1 10 10 0
+L 0
+#1261
+lantern~
+a lantern~
+A brass lantern is here.~
+~
+1 0 16385 0
+0 0 96 0
+1 50 10 0
+L 0
+#1262
+bag~
+a bag~
+A small bag is here.~
+~
+15 0 16385 0
+50 0 0 0
+2 20 10 0
+L 0
+#1263
+box~
+a box~
+A small box is here.~
+~
+15 0 16385 0
+10 0 0 0
+5 50 10 0
+L 0
+#1264
+atm teller bank machine~
+an automatic teller machine~
+An automatic teller machine has been installed in the wall here.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+atm teller bank machine~
+There is a small note on the machine which says:
+To use, type "BALANCE", "WITHDRAW x", or "DEPOSIT x".  Please report any
+strange occurrences to the bank manager.
+~
+#1265
+fountain water~
+the large fountain~
+A large fountain carved from blue-streaked marble is here, bubbling merrily.~
+~
+23 64 0 0
+999999 999999 15 0
+1000004 0 0 1
+L 1
+E
+marble blue streaked~
+It is very beautiful white marble, shot through with electric blue streaks
+that look almost like lightning dancing along the sides of the fountain. 
+It also has a magical quality that allows the water level to alway stay 
+the same.
+~
+#1266
+breast plate~
+a breast plate~
+A breast plate is lying on the ground.~
+~
+9 0 9 0
+3 0 0 0
+11 1800 150 0
+L 0
+#1267
+chain mail shirt~
+a chain mail shirt~
+A chain mail shirt is lying on the ground.~
+~
+9 0 9 0
+3 0 0 0
+11 1800 50 0
+L 0
+#1268
+shield~
+a shield~
+A small wooden shield is lying on the ground.~
+~
+9 0 513 0
+2 0 0 0
+3 100 10 0
+L 0
+#1269
+jacket soft leather~
+a leather jacket~
+A soft leather jacket is lying on the ground.~
+~
+9 0 9 0
+1 0 0 0
+10 200 10 0
+L 0
+#1270
+jacket studded~
+a studded leather jacket~
+A studded leather jacket is lying on the ground.~
+~
+9 0 9 0
+3 0 0 0
+11 500 10 0
+L 0
+#1271
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+~
+9 0 9 0
+2 0 0 0
+11 1000 10 0
+L 0
+#1272
+bronze breast plate~
+a bronze breast plate~
+A bronze breast plate is lying on the ground.~
+~
+9 0 9 0
+3 0 0 0
+11 1800 100 0
+L 0
+#1273
+scroll identify~
+a scroll of identify~
+A scroll has carelessly been left here.~
+~
+2 64 16385 0
+12 81 -1 -1
+1 1500 10 0
+L 0
+E
+scroll identify~
+The scroll has a magic formula drawn upon it:
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+~
+#1274
+potion yellow seeinvis~
+a yellow potion of see invisible~
+A small yellow potion has carelessly been left here.~
+~
+10 64 16385 0
+12 19 -1 -1
+1 400 10 0
+L 0
+E
+potion yellow~
+The potion has a small label 'Detect The Invisible'.
+~
+#1275
+scroll recall~
+a scroll of recall~
+A scroll has carelessly been left here.~
+~
+2 64 16385 0
+12 42 -1 -1
+4 1200 10 0
+L 0
+E
+scroll~
+The scroll has written a formulae of 'Word of Recall' upon it.
+~
+#1276
+wand invis~
+a wand of invisibility~
+A wand has carelessly been left here.~
+~
+3 64 16385 0
+12 2 2 29
+2 1800 100 0
+L 0
+E
+wand~
+The wand is an old dark stick.  You notice a small symbol etched at the
+base of the wand.  It looks like this:
+     \ /
+    - O -
+     / \
+~
+#1277
+staff sleep~
+a staff of sleep~
+A staff has carelessly been left here.~
+~
+4 64 16385 0
+12 1 1 38
+11 1800 5000 0
+L 0
+E
+staff~
+The staff is made of old oak, and is around five feet long. It fits
+perfectly into your hand. You notice a small symbol etched at the
+base of the staff, it looks like:
+  ZZZZZ
+     Z
+    Z
+   Z
+  ZZZZZ  z   z
+~
+#1278
+staff~
+a staff of healing~
+A staff has carelessly been left here.~
+~
+4 64 16385 0
+10 8 8 15
+7 1800 300 0
+L 0
+E
+staff~
+The staff is made of metals unknown to you.
+~
+#1279
+raft~
+a raft~
+A raft has been left here.~
+~
+22 0 1 0
+0 0 0 0
+11 400 10 0
+L 0
+E
+raft~
+The raft looks very primitive.
+~
+#1280
+canoe~
+a canoe~
+A canoe has been left here.~
+~
+22 0 1 0
+0 0 0 0
+11 1000 100 0
+L 0
+E
+canoe~
+The canoe is fairly light.
+~
+#1281
+gauntlets bronze~
+a pair of bronze gauntlets~
+A pair of bronze gauntlets is lying on the ground.~
+~
+9 0 129 0
+3 0 0 0
+8 1750 100 0
+L 0
+#1282
+gloves leather~
+a pair of leather gloves~
+A pair of leather gloves is lying on the ground.~
+~
+9 0 129 0
+1 0 0 0
+3 75 10 0
+L 0
+#1283
+helmet bronze~
+a bronze helmet~
+A bronze helmet is lying on the ground.~
+~
+9 0 17 0
+3 0 0 0
+8 1800 100 0
+L 0
+#1284
+cap Leather~
+a leather cap~
+A leather cap is lying on the ground.~
+~
+9 0 17 0
+1 0 0 0
+3 150 10 0
+L 0
+#1285
+leggings bronze~
+a pair of bronze leggings~
+A pair of bronze leggings is lying on the ground.~
+~
+9 0 33 0
+3 0 0 0
+8 1800 100 0
+L 0
+#1286
+pants leather~
+a pair of leather pants~
+A pair of leather pants is lying on the ground.~
+~
+9 0 33 0
+1 0 0 0
+8 150 10 0
+L 0
+#1287
+sleeves bronze~
+a pair of bronze sleeves~
+A pair of bronze sleeves is lying on the ground.~
+~
+9 0 257 0
+3 0 0 0
+8 1750 100 0
+L 0
+#1288
+sleeves leather~
+a pair of leather sleeves~
+A pair of leather sleeves is lying on the ground.~
+~
+9 0 257 0
+1 0 0 0
+4 75 10 0
+L 0
+#1289
+board social bulletin~
+a bulletin board~
+A large, sociable bulletin board is mounted on a wall here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+board~
+If you can read this, the board is not working.
+~
+#1290
+board master bulletin~
+a master's board~
+The Master's bulletin board is mounted on a wall here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+board~
+If you can read this, the board is not working.
+~
+#1291
+board gods bulletin~
+a godly bulletin board~
+A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+board~
+If you can read this, the board is not working.
+~
+#1292
+board quest bulletin~
+a quest board~
+A large quest board is mounted on a wall here.  It glows with a faint aura.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+board~
+If you can read this, the board is not working.
+~
+#1293
+board holy bulletin~
+a holy bulletin board~
+A large bulletin board is mounted on a wall here.  It glows with a faint aura.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+board~
+If you can read this, the board is not working.
+~
+#1294
+board bulletin~
+a bulletin board~
+A large bulletin board is mounted on a wall here.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+board~
+If you can read this, the board is not working.
+~
+#1295
+scroll remove curse~
+a scroll of remove curse~
+A scroll of remove curse has been discarded here.~
+~
+2 0 1 0
+20 35 0 0
+1 1000 8 0
+L 0
+#1300
+potion green vial~
+a vial of green liquid~
+A vial of dark green liquid has been left here.~
+~
+10 65538 1 0
+10 16 -1 -1
+1 300 30 0
+L 0
+#1301
+potion orange vial~
+an orange potion~
+A vial of light orange liquid has been dropped here.~
+~
+10 65538 1 0
+10 43 16 -1
+2 1500 150 0
+L 0
+#1302
+potion black vial~
+a black potion~
+A vial of sticky black liquid has been left here.~
+~
+10 65538 1 0
+10 14 -1 -1
+2 1500 150 0
+L 0
+#1303
+potion red vial~
+a red potion~
+A vial of thin red liquid has been left here.~
+~
+10 2 1 0
+10 15 -1 -1
+1 1500 200 0
+L 0
+#1304
+potion white vial~
+a white potion~
+A vial of milky white liquid has been left here.~
+~
+10 2 1 0
+12 36 3 1
+2 1600 160 0
+L 0
+#1305
+potion blue vial~
+a blue potion~
+A vial of metallic blue liquid has been left here.~
+~
+10 65538 1 0
+12 39 -1 -1
+2 1800 260 0
+L 0
+#1306
+pink potion liquid~
+a vial of pink liquid~
+A vial of pink liquid is sitting here.~
+~
+10 0 1 0
+0 54 0 0
+7 5500 0 10
+L 10
+#1350
+atlas world~
+a world atlas~
+An atlas of the world has been dropped here.~
+~
+13 0 1 0
+0 0 0 0
+0 10 1 0
+L 0
+E
+atlas world~
+                     A rough map Medievalworld (not to scale)
+                     ----------------------------------------
+                  [Crystal Castle]
+        [Abyss]_____      |     [Fairytale Forest]
+                    |     |            |
+ [Old Thalos]----[Sandy Desert] --[Toyheim]      --[Danger Island]
+                        |   ____|                |
+                    [Darask]                     |
+                        |    |[Aqua Marina] |[Pirate Ship]
+		        |    |              | |-[Eliqua River]
+                        |    |[Khulgru's]   | | [Moathouse]
+                        |          |        | | |        ---[Tunnel]--|
+       [Wayhouse]--[Mountains]---------[Haven]-----------|            |
+                        |        |        |       | [Ancient Greece]  |
+                        |   [Lhankwood]   |   [Graveyard]             |
+      [Rand's Tower]-----        |        |                       [Spiral]
+                             [Rushmoor]   |-[Magic:TG]         
+                                 |        |                
+                              [Tudor]     |-[Ershteep Road]  
+                                          |
+                                   [Rome]---[Plains]---[Shadowkeep]                      
+                                               |
+                                        [Three of Swords]
+                                               |
+                                               |---[Camelot]
+~
+#1351
+map town haven~
+a map of Haven~
+A map of Haven has been dropped here.~
+~
+13 0 1 0
+0 0 0 0
+0 10 1 0
+L 0
+E
+Legend~
+&yLegend:&n
+=======
+
+&RX&n - Gamina (&yDefault recall Point&n)
+
+&cA&n - The Armourer's
+&cB&n - Automatic Teller Machine
+&cC&n - Alchemist Shoppe
+&cD&n - Donation Room
+&cG&n - The Traveller's Guide (&yPortal to Future World&n)
+&cH&n - General Store
+&cJ&n - Jeweller's Shoppe
+&cM&n - Magic Shoppe
+&cP&n - Paladin's Temple (&yTraining Ground&n)
+&cT&n - Riverside Tavern
+&cU&n - Under a tree (&yPortal to West World&n)
+&cW&n - Weapon's Shop
+
+&yA&n - Warrior's Guild
+&yB&n - A Run down Blacksmith Shop
+&yC&n - Clerics' Aid Station (&yCleric's Guild&n)
+&yD&n - Druid's Temple (&yDruid's Guild&n)
+&yE&n - Estate Drive
+&yF&n - Wharf of Haven
+&yG&n - Path to the Mountain of Haven (&yMaster's Guild&n)
+&yH&n - Haven Jetty
+&yI&n - Wayfarer's Inn
+&yJ&n - West Gate of Haven
+&yK&n - East Gate of Haven
+&yL&n - End of Southbank Road (&yPath to the Mouthouse&n)
+&yM&n - Entrance to the Mage's Guild
+&yN&n - Elemental Temple
+&yO&n - The Nighblade's Guild Hall
+&yP&n - Primal Street
+&yQ&n - Guild Hall for the SpellSwords
+&yR&n - BattleMage Guild
+&yS&n - The Southern Gates
+&yT&n - Paladin Training Hall (&yPaladin's Guild&n)
+&yW&n - Entrance to a rundown warehouse (&yThieve's Guild&n)
+&yX&n - Priests' Altar (&yPriest's Guild&n)
+
+~
+E
+Map Haven~
+
+		   &m=================================
+		   &GT H E   C I T Y   O F   H A V E N&n
+		   &m=================================
+
+                &yP    G                   F    H&n
+                |    |                   |    |
+           &yE&n----x----x----x----x----x----x----x----&yL&n
+                |    |    |    |    |    | 
+                &cU    &yW    I&n    |    &cT    G&n
+                               |
+                          &cW&n----&RX&n----&cA&n
+                               |                       &g/\&n
+                     &yB&n         |    &cM    C&n            &g/  \&n 
+                &yJ&n----x----x----x----x----x----&yK&n      &g======&n
+                     |    |    |    |    |             &Y||&n
+                     &yC    D&n    |    &cJ    &yM&n             &Y||&n 
+                               |              &yX&n        &Y||&n 
+                               |              |        &Y||&n 
+                          &yA&n----x----x----&cB    &yN&n
+                               |    |    |    |       &C|\ |&n
+                               |    &cH&n    x----x       &C| \|&n
+                               |
+                               |    &cD&n
+                               |    |
+                        &cP&n-x----x----x
+                          |         |
+                          |         |
+                        &yO&n-x----x----x&n
+                          |    |    |
+                          &yQ    S&n    x-&yT&n
+                                    |
+                                    &yR&n
+
+To see the Legend of Haven's Map please type &YLook Legend&n
+
+~
+#1360
+magician's hat~
+a Magician's hat~
+A colourful looking Magician's hat is lying on the ground here.~
+~
+9 65538 17 0
+5 0 0 0
+4 1800 850 8
+L 8
+A
+12 8
+A
+3 1
+A
+13 -10
+#1361
+magic wand~
+a magic wand~
+A short black wand with white ends is lying here.~
+~
+11 65536 16385 0
+0 0 0 0
+4 1800 2500 9
+L 9
+A
+12 9
+A
+4 1
+#1362
+magic boots~
+a pair of magic boots~
+A strange pair of boots has been left here.~
+~
+9 65536 65 0
+2 0 0 0
+10 1800 0 8
+L 8
+A
+13 5
+#1363
+magician's cloak~
+a Magician's cloak~
+A brightly coloured cloak has been dropped here.~
+~
+9 2 5 0
+2 0 0 0
+8 8500 850 8
+L 8
+E
+cloak magician's~
+This magical cloak will give you strange powers. Maybe !
+~
+A
+12 8
+A
+4 1
+A
+19 -1
+#1367
+backpack~
+a Backpack~
+A leather backpack~
+~
+15 0 16385 0
+200 0 -1 0
+11 200 20 0
+L 0
+E
+backpack~
+This sturdy carrying bag looks like it will hold many items
+~
+#1368
+orb return~
+Orb of Returning~
+You see a strange Sparkling orb lying on the ground here~
+~
+24 65 16385 0
+42 0 0 2
+5 1800 5000 8
+L 8
+A
+14 8
+#1369
+Magician Apprentice Hat~
+Apprentice's Hat~
+A very large pointy hat with shimmering stars on the surface~
+~
+11 268509249 17 0
+0 0 0 0
+1 10 0 0
+L 0
+E
+Apprentice Hat~
+The hat is made of dark material that has a bright hue about it.&n
+There are silver stars embedded into the outer surface. The lining&n
+of the hat is made of a strange &rred&n material that glows and &n
+moves if you look closely at it.&n
+~
+#1370
+Magician Apprentice Cloak~
+Apprentice's Cloak~
+A long flowing cloak made of shimmering material.~
+Nothing.
+~
+11 268509249 5 0
+0 0 0 0
+1 5 0 0
+L 0
+E
+Apprentice Cloak~
+A long flowing cloak made of strange shimmering material.&n
+It has bright silver stars and one moon woven into the fabric on &n
+the outside. Inside it has a strange &rred&n material pulsating with&n
+life and energy.&n
+~
+#1371
+Magician Apprentice Boots~
+Apprentice's Boots~
+A pair of Enchanted Boots~
+Nothing.
+~
+9 268509249 65 0
+0 0 0 0
+1 0 0 0
+L 0
+E
+Apprentice Boots~
+These boots were definately made for walking.&n
+The enchanted boots of the Magician's Apprentice are made&n
+of black material that shimmers with the light spectrum.&n
+The lining of the boots is made of a strange &rred&n material that&n
+pulsates with energy and life when you look at them.&n
+~
+A
+14 1
+#1372
+Magician Apprentice Staff~
+Apprentice's Staff~
+A Shimmering Staff made of Light and Air~
+~
+4 268509249 24577 0
+1 5 5 32
+7 0 0 0
+L 0
+E
+Apprentice Staff~
+The Apprentice's Staff has the ability to use some&n
+spells that the apprentice isn't familiar with as yet.&n
+The Great Magician believes that he is capable of controlling&n
+such spells before his time. Now if he could just work out &n
+how to use it......&n
+~
+#1373
+Magician Apprentice Ring~
+Apprentice's Ring~
+A Ring made of light and air.~
+~
+9 268509249 3 0
+0 0 0 0
+1 100 0 0
+L 0
+E
+Apprentice Ring~
+This ornate ring is made of light and air.&n
+When looking at it you can see right through it to your &n
+finger. It shimmers within itself and radiates energy and&n
+life.&n
+~
+#1374
+Warrior Training Helm~
+Training Helm~
+Silver and Gold Training helm~
+~
+11 94208 17 0
+0 0 0 0
+2 100 0 0
+L 0
+E
+Training Helm~
+A Training helmet made out of Gold and Silver metal&n
+it is for the most elite warrior training school known.&n
+Only the best are accepted into the training school and&n
+have become known as the most fierce warriors around.&n
+~
+#1375
+Warrior Training BreastPlate~
+Training BreastPlate~
+A Silver and Gold BreastPlate~
+~
+9 94208 9 0
+0 0 0 0
+5 100 0 0
+L 0
+E
+Training BreastPlate~
+This BreastPlate is made of the finest Gold metal around.&n
+It belongs to the elite Warrior training school that has&n
+the best warriors known to man.  To have a set of the &n
+training armour is a privaledge. &n
+~
+#1376
+Warrior Training Boots~
+Training Boots~
+A pair of Training Boots.~
+~
+9 94208 65 0
+0 0 0 0
+2 100 0 0
+L 0
+E
+Training Boots~
+These boots are made out of the toughest hide.&n
+They are strong yet durable and they belong to&n
+the elite warrior training school. Anyone owning&n
+a pair of these boots is not a person to be messed with.&n
+~
+#1377
+Warrior Training Sword~
+Training Sword~
+A well crafted, solid metal sword.~
+~
+5 94208 8193 0
+0 1 1 6
+5 100 0 0
+L 0
+E
+Training Sword~
+Superbly crafted! Exquisite in design and handling.&n
+This sword can only come from one place. Nobody makes&n
+swords this fine and mighty unless it is for the elite&n
+Warrior training school. You are lucky to even see a sword&n
+like this as this is a rare beauty indeed!&n
+~
+#1378
+Warrior Training Shield~
+Training Shield~
+A Silver and Gold Training Shield~
+~
+9 94208 513 0
+2 0 0 0
+5 100 0 0
+L 0
+E
+Training Shield~
+This Silver and Gold Shield belongs to the &n
+elite Warrior Training School. Who ever owns this&n
+must be a fierce Warrior.&n
+~
+#1379
+Cleric Healing Hat~
+Healing Hat~
+A Cleric's Healing Hat~
+~
+11 118786 17 0
+0 0 0 0
+1 100 0 0
+L 0
+E
+Healing Hat~
+A Cleric's Healing hat &n
+~
+#1380
+Cleric Healing Cape~
+Healing Cape~
+A Cleric's Healing Cape~
+~
+11 118786 5 0
+0 0 0 0
+2 100 0 0
+L 0
+E
+Healing Cape~
+A Cleric's Healing Cape&n
+~
+#1381
+Cleric Healing Boots~
+Healer's Boots~
+A pair of Cleric's healing boots~
+~
+11 118786 65 0
+0 0 0 0
+1 100 0 0
+L 0
+E
+Healing Boots~
+A Cleric's Healing boots&n
+~
+#1382
+Cleric's Healing Hammer~
+Healer's Hammer~
+A Healer's protection~
+~
+5 118786 8193 0
+0 1 1 5
+5 100 0 0
+L 0
+E
+Healer's Hammer Protection~
+A sturdy hammer is what the healer's of this world use&n
+to protect themselves from the evils of the world.&n
+Assistance can be sought from them but Do not cross them&n
+or you will fell this hammer in use.&n
+~
+#1383
+Cleric's Healer Gloves~
+Healer's Gloves~
+A pair of Healer's Gloves~
+~
+11 118786 129 0
+0 0 0 0
+2 100 0 0
+L 0
+E
+Healer's gloves~
+A pair of sturdy gloves used by the healers of this world&n
+~
+#1384
+Thief Shadow Hat~
+Shadow Hat~
+A shadow hat~
+Nothing.
+~
+11 110594 17 0
+0 0 0 0
+1 100 0 0
+L 0
+E
+Shadow Hat~
+As you stare at the Hat it disappears into the &n
+shadows. It seems to be made of nothing.&n
+~
+#1385
+Thief Shadow Cloak~
+Shadow Cloak~
+A shadow~
+~
+11 110594 5 0
+0 0 0 0
+1 100 0 0
+L 0
+E
+Shadow Cloak~
+This cloak is made of shadows. Once worn and the person&n
+becomes like a shadow himself.&n
+~
+#1386
+Thief Shadow Boots~
+Shadow Boots~
+A pair of Shadow Boots~
+~
+11 110594 65 0
+0 0 0 0
+1 100 0 0
+L 0
+E
+Shadow Boots~
+A pair of boots that melt into the shadows everytime&n
+they are looked at.&n
+~
+#1387
+Thief Shadow Dagger~
+Shadow Dagger~
+A Shadow Dagger ~
+~
+5 110594 8193 0
+0 1 1 11
+3 100 0 0
+L 0
+E
+Shadow Dagger~
+A dagger that can melt into the shadows and lie in&n
+waiting for its next victim. The perfect accessory &n
+for the cunning and fearless thief.&n
+~
+#1388
+Thief Shadow Gloves~
+Shadow Gloves~
+A pair of Shadow gloves~
+~
+11 110594 129 0
+0 0 0 0
+2 100 0 0
+L 0
+E
+Shadow Gloves~
+A pair of gloves that are made of the shadows themselves&n
+If you look closely enough you might even see your own&n
+shadow lurking within them.&n
+~
+$~
+@
+
+
+1.15
+log
+@Added silk objects for making things
+@
+text
+@d51 4
+a57 4
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+d68 4
+a74 4
+E
+sword long~
+The long sword seems to have an inscription of some sort.
+~
+a455 1
+P 1154 252 5
+d469 1
+a469 1
+undefined~
+a496 3
+M 1153 1 0 0 
+M 1152 1 0 0
+M 1151 4 1 1
+d1019 3
+a1024 3
+E
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+d1508 1
+a1508 1
+2 300 30 0
+d1535 1
+a1535 1
+2 1800 200 0
+d1562 1
+a1562 1
+20 5500 0 10
+a1610 39
+Map Haven~
+
+		   &m=================================
+		   &GT H E   C I T Y   O F   H A V E N&n
+		   &m=================================
+
+                &yP    G                   F    H&n
+                |    |                   |    |
+           &yE&n----x----x----x----x----x----x----x----&yL&n
+                |    |    |    |    |    | 
+                &cU    &yW    I&n    |    &cT    G&n
+                               |
+                          &cW&n----&RX&n----&cA&n
+                               |                       &g/\&n
+                     &yB&n         |    &cM    C&n            &g/  \&n 
+                &yJ&n----x----x----x----x----x----&yK&n      &g======&n
+                     |    |    |    |    |             &Y||&n
+                     &yC    D&n    |    &cJ    &yM&n             &Y||&n 
+                               |              &yX&n        &Y||&n 
+                               |              |        &Y||&n 
+                          &yA&n----x----x----&cB    &yN&n
+                               |    |    |    |       &C|\ |&n
+                               |    &cH&n    x----x       &C| \|&n
+                               |
+                               |    &cD&n
+                               |    |
+                        &cP&n-x----x----x
+                          |         |
+                          |         |
+                        &yO&n-x----x----x&n
+                          |    |    |
+                          &yQ    S&n    x-&yT&n
+                                    |
+                                    &yR&n
+
+To see the Legend of Haven's Map please type &YLook Legend&n
+
+~
+E
+d1654 39
+@
+
+
+1.14
+log
+@Artus> Sync.
+@
+text
+@d51 4
+a57 4
+E
+inscription~
+It says : May this sword be a good companion.
+~
+d68 4
+a74 4
+E
+inscription~
+It says : May this sword be a good companion.
+~
+d448 53
+a1022 3
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+E
+d1026 3
+d1615 39
+a1696 39
+E
+Map Haven~
+
+		   &m=================================
+		   &GT H E   C I T Y   O F   H A V E N&n
+		   &m=================================
+
+                &yP    G                   F    H&n
+                |    |                   |    |
+           &yE&n----x----x----x----x----x----x----x----&yL&n
+                |    |    |    |    |    | 
+                &cU    &yW    I&n    |    &cT    G&n
+                               |
+                          &cW&n----&RX&n----&cA&n
+                               |                       &g/\&n
+                     &yB&n         |    &cM    C&n            &g/  \&n 
+                &yJ&n----x----x----x----x----x----&yK&n      &g======&n
+                     |    |    |    |    |             &Y||&n
+                     &yC    D&n    |    &cJ    &yM&n             &Y||&n 
+                               |              &yX&n        &Y||&n 
+                               |              |        &Y||&n 
+                          &yA&n----x----x----&cB    &yN&n
+                               |    |    |    |       &C|\ |&n
+                               |    &cH&n    x----x       &C| \|&n
+                               |
+                               |    &cD&n
+                               |    |
+                        &cP&n-x----x----x
+                          |         |
+                          |         |
+                        &yO&n-x----x----x&n
+                          |    |    |
+                          &yQ    S&n    x-&yT&n
+                                    |
+                                    &yR&n
+
+To see the Legend of Haven's Map please type &YLook Legend&n
+
+~
+@
+
+
+1.13
+log
+@Artus> Sync.
+@
+text
+@d33 1
+a33 1
+5 0 8193 0
+d51 4
+a57 4
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+d68 4
+a74 4
+E
+sword long~
+The long sword seems to have an inscription of some sort.
+~
+d970 3
+a975 3
+E
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+a1561 39
+Map Haven~
+
+		   &m=================================
+		   &GT H E   C I T Y   O F   H A V E N&n
+		   &m=================================
+
+                &yP    G                   F    H&n
+                |    |                   |    |
+           &yE&n----x----x----x----x----x----x----x----&yL&n
+                |    |    |    |    |    | 
+                &cU    &yW    I&n    |    &cT    G&n
+                               |
+                          &cW&n----&RX&n----&cA&n
+                               |                       &g/\&n
+                     &yB&n         |    &cM    C&n            &g/  \&n 
+                &yJ&n----x----x----x----x----x----&yK&n      &g======&n
+                     |    |    |    |    |             &Y||&n
+                     &yC    D&n    |    &cJ    &yM&n             &Y||&n 
+                               |              &yX&n        &Y||&n 
+                               |              |        &Y||&n 
+                          &yA&n----x----x----&cB    &yN&n
+                               |    |    |    |       &C|\ |&n
+                               |    &cH&n    x----x       &C| \|&n
+                               |
+                               |    &cD&n
+                               |    |
+                        &cP&n-x----x----x
+                          |         |
+                          |         |
+                        &yO&n-x----x----x&n
+                          |    |    |
+                          &yQ    S&n    x-&yT&n
+                                    |
+                                    &yR&n
+
+To see the Legend of Haven's Map please type &YLook Legend&n
+
+~
+E
+d1605 39
+@
+
+
+1.12
+log
+@Artus> Sync.
+@
+text
+@d51 4
+a57 4
+E
+inscription~
+It says : May this sword be a good companion.
+~
+d68 4
+a74 4
+E
+inscription~
+It says : May this sword be a good companion.
+~
+a969 3
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+E
+d973 3
+d1562 39
+a1643 39
+E
+Map Haven~
+
+		   &m=================================
+		   &GT H E   C I T Y   O F   H A V E N&n
+		   &m=================================
+
+                &yP    G                   F    H&n
+                |    |                   |    |
+           &yE&n----x----x----x----x----x----x----x----&yL&n
+                |    |    |    |    |    | 
+                &cU    &yW    I&n    |    &cT    G&n
+                               |
+                          &cW&n----&RX&n----&cA&n
+                               |                       &g/\&n
+                     &yB&n         |    &cM    C&n            &g/  \&n 
+                &yJ&n----x----x----x----x----x----&yK&n      &g======&n
+                     |    |    |    |    |             &Y||&n
+                     &yC    D&n    |    &cJ    &yM&n             &Y||&n 
+                               |              &yX&n        &Y||&n 
+                               |              |        &Y||&n 
+                          &yA&n----x----x----&cB    &yN&n
+                               |    |    |    |       &C|\ |&n
+                               |    &cH&n    x----x       &C| \|&n
+                               |
+                               |    &cD&n
+                               |    |
+                        &cP&n-x----x----x
+                          |         |
+                          |         |
+                        &yO&n-x----x----x&n
+                          |    |    |
+                          &yQ    S&n    x-&yT&n
+                                    |
+                                    &yR&n
+
+To see the Legend of Haven's Map please type &YLook Legend&n
+
+~
+d1784 3
+a1786 3
+4 268509249 24577 16
+5 8 8 5
+7 1500 0 0
+d1803 1
+a1803 1
+1 1000 0 0
+d1819 1
+a1819 1
+2 1000 0 0
+d1835 1
+a1835 1
+5 1000 0 0
+d1851 1
+a1851 1
+2 500 0 0
+d1866 2
+a1867 2
+1 3 4 6
+5 1500 0 0
+d1884 1
+a1884 1
+5 1000 0 0
+d1899 1
+a1899 1
+1 500 0 0
+d1912 1
+a1912 1
+2 500 0 0
+d1925 1
+a1925 1
+1 500 0 0
+d1937 2
+a1938 2
+1 3 3 5
+5 999 0 0
+d1954 1
+a1954 1
+2 500 0 0
+d1968 1
+a1968 1
+1 300 0 0
+d1982 1
+a1982 1
+1 300 0 0
+d1996 1
+a1996 1
+1 300 0 0
+d2009 2
+a2010 2
+0 3 4 11
+3 650 0 0
+d2025 1
+a2025 1
+2 300 0 0
+@
+
+
+1.11
+log
+@Artus> Moving this stuff across, too.
+@
+text
+@d1506 9
+@
+
+
+1.10
+log
+@Artus> Getting very close...
+@
+text
+@d51 4
+a57 4
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+d68 4
+a74 4
+E
+sword long~
+The long sword seems to have an inscription of some sort.
+~
+d970 3
+a975 3
+E
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+d1553 1
+a1553 42
+map world~
+                  &m========================================
+                  &GCITY OF HAVEN - MAP (&yDrafted by RatsleT&G)
+                  &m========================================
+
+
+
+						
+		   &yP    G		      F    H&n
+		     |    |		      |    |	
+		     |    |		      |    |
+	    &yE&n----x----x----x----x----x----x----x----&yL&n
+		     |    |    |    |    |    |
+		   &cU  &yW    I&n  |  &cT    G&n
+	          		    |
+				    |
+			 &cW&n----&RX&n----&cA&n
+				    |
+				    |			        &g/\&n
+			&yB&n	    |  &cM    C&n	       &g/  \&n
+			  |         |    |    |		      &g/    \&n	
+		 &yJ&n----x----x----x----x----x----&yK&n      &g======&n
+			  |    |    |    |    |			&Y||&n
+			&yC    D&n  |  &cJ  &yM&n		&Y||&n
+				    |              &yX&n	&Y||&n
+				    |                |		&Y||&n
+			   &yA&n----x----x----&cB  &yN&n 
+				    |	 |      |    |	       &C|\ |&n
+				    |  &cH&n    x----x	       &C| \|&n
+				    |
+				    |  &cD&n        
+				    |    |
+		         &cP&n-x----x----x
+			       |	 |
+			       |	 |
+		         &yO&n-x----x----x&n
+			       |    |    |
+			     &yQ    S&n	 x-&yT&n
+					 |
+				       &yR&n	 
+
+
+d1555 1
+a1555 1
+  =======
+d1565 1
+a1565 1
+&cJ&n - Jeweller's
+d1567 1
+a1567 1
+&cP&n - Paladin's Temple
+d1569 2
+a1570 3
+&cU&n - Under a tree (&y Portal to West World&n) 
+&cW&n - Weapons Shop 
+
+d1573 2
+a1574 2
+&yB&n - A Run down Blacksmith Shop 
+&yC&n - Clerics' Aid Station (&yCleric's Guild&n) 
+d1576 1
+a1576 1
+&yE&n - Estate Drive 
+d1578 1
+a1578 1
+&yG&n - Path to the Mountain of Haven
+d1580 1
+a1580 1
+&yI&n - Entrance to Wayfarer's Inn
+d1583 4
+a1586 4
+&yL&n - End of Southbank Road (&yPath to the Moathouse&n)
+&yM&n - Entrance to the Mage's Guild (&yMage's Guild&n)  
+&yN&n - Elemental Temple 
+&yO&n - The Nightblade Guide Hall (&yNightblade's Guild&n)
+d1588 2
+a1589 2
+&yQ&n - Guild Hall for the SpellSwords (&ySpellsword's Guild&n) 
+&yR&n - BattleMage Guild (&yBattleMage's Guild&n)
+d1592 1
+a1592 1
+&yW&n - Entrance to a rundown warehouse (&yThieve's Guild&n) 
+d1594 40
+d1640 1
+a1640 1
+9 2 17 0
+d1655 1
+a1655 1
+11 0 16385 0
+d1668 1
+a1668 1
+9 0 65 0
+d1722 1
+a1722 1
+11 268443713 17 0
+d1739 1
+a1739 1
+11 268443713 5 0
+d1756 1
+a1756 1
+9 268443713 65 0
+d1775 1
+a1775 1
+4 268443713 24577 16
+d1792 1
+a1792 1
+9 268443713 3 0
+d1808 1
+a1808 1
+11 28672 17 0
+d1824 1
+a1824 1
+9 28672 9 0
+d1840 1
+a1840 1
+9 28672 65 0
+d1856 1
+a1856 1
+5 28672 8193 0
+d1873 1
+a1873 1
+9 28672 513 0
+d1888 1
+a1888 1
+11 53250 17 0
+d1901 1
+a1901 1
+11 53250 5 0
+d1914 1
+a1914 1
+11 53250 65 0
+d1927 1
+a1927 1
+5 53250 8193 0
+d1943 1
+a1943 1
+11 53250 129 0
+d1957 1
+a1957 1
+11 45058 17 0
+d1971 1
+a1971 1
+11 45058 5 0
+d1985 1
+a1985 1
+11 45058 65 0
+d1999 1
+a1999 1
+5 45058 8193 0
+d2014 1
+a2014 1
+11 45058 129 0
+@
+
+
+1.9
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@d51 4
+a57 4
+E
+inscription~
+It says : May this sword be a good companion.
+~
+d68 4
+a74 4
+E
+inscription~
+It says : May this sword be a good companion.
+~
+d675 9
+a969 3
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+E
+d973 3
+@
+
+
+1.8
+log
+@Artus> A3_0_315
+@
+text
+@d46 1
+a46 1
+5 0 8193 0
+d51 4
+a57 4
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+d63 1
+a63 1
+5 0 8193 0
+d68 4
+a74 4
+E
+sword long~
+The long sword seems to have an inscription of some sort.
+~
+d956 1
+a956 1
+5 0 8193 0
+d961 3
+a966 3
+E
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+d972 1
+a972 1
+5 0 8193 0
+@
+
+
+1.7
+log
+@Artus> Checking In. (Index: New Zone 116)
+@
+text
+@d51 4
+a57 4
+E
+inscription~
+It says : May this sword be a good companion.
+~
+d68 4
+a74 4
+E
+inscription~
+It says : May this sword be a good companion.
+~
+a960 3
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+E
+d964 3
+d1545 59
+a1603 3
+                         &y====================================&n
+                          &gMAP OF HAVEN CITY (mapped by Gabe)&n
+                         &y====================================&n
+d1605 22
+a1626 34
+Southbank      Southbank        Intersection of   Southbank           End of
+  Road  &y==   ==&n   Road  &y==   ==&n  Southbank&&Main &y==&n   Road   &y==   ==&n Southbank
+           &y|       |       |           |              |        |&n
+        Under   Rundown Wayfarer's    Main        Riverside  Traveller's
+        Tree   Warehouse  Inn        Street        Tavern     Guide
+                                       &y|&n
+                             Weapon &y==   ==&n Armourer's  Magic  Potion
+            Grocer            Shop     &y|&n                 Shop  Shop
+ West Gate    &y|&n    Regiment        X-Road of    Regiment   &y|    |&n    East
+ of Haven  &y==   ==&n   Road   &y==  ==&n   Main &&  &y==&n  Road   &y==   ==   ==&n Gate
+              &y|&n                     Regiment               &y|    |&n
+            Druid's                    &y|&n            Jeweller's Mage
+            Temple                    Main                     Guild
+                          Warrior    Street          Market
+                           Guild  &y==&n Central &y==   ==&n   Way       Elemental
+                                       &y|        |      |&n          Temple
+                                       &y|&n     General   &y|            |&n
+                                       &y|&n      Store    &y|&n     Intersection of
+                                      Main              &y== ==&n Market&&Gambol
+                                     Street                         &y|&n
+                                       &y|&n                          Gambol
+                                       &y|&n                           Road 
+                                      Main       Donation           &y|&n
+                                     Street        Room           Gambol
+                                       &y|            |&n              Way
+          Paladin     West End      Central        East
+           Temple &y==&n Council Sq &y==&n Council Sq &y==&n Council Sq
+                                       &y|            |&n
+                       South       Council Sq    Southeast         &BN&n
+                     Council Sq &y==&n   Before   &y==&n Council Sq        &R|&n
+                                    Chambers                     &R--|--&n
+                                       &y|&n                           &R|&n
+                                  Entrance to                      &R|&n
+                                 Council Chamber                   &R|&n
+@
+
+
+1.6
+log
+@Latest Versions
+@
+text
+@d51 4
+a57 4
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+d68 4
+a74 4
+E
+sword long~
+The long sword seems to have an inscription of some sort.
+~
+d961 3
+a966 3
+E
+sword small~
+The small sword seems to have an inscription of some sort inscription...~
+d1434 9
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d1 1964
+a1964 1471
+#1101
+bread~
+a bread~
+A loaf of bread has been left here.~
+~
+19 0 1 0
+12 0 0 0
+1 2 1 0
+L 0
+E
+bread~
+This looks fresh and edible
+~
+#1102
+meat chunk~
+a chunk of meat~
+A large chunk of meat is here~
+~
+19 0 1 0
+15 0 0 0
+1 5 2 0
+L 0
+E
+meat chunk~
+The meat looks like it has been slightly chewed in one corner
+~
+#1103
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
+pierce&n
+~
+5 0 8193 0
+0 1 4 11
+1 80 16 0
+L 0
+E
+dagger~
+A thin, rather weak looking blade protrudes from a small leather handle
+~
+#1104
+sword small~
+a small sword~
+A small sword lies here.~
+slash~
+5 0 8193 0
+0 1 6 11
+3 270 54 0
+L 0
+E
+inscription~
+It says : May this sword be a good companion.
+~
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+#1105
+sword long~
+a long sword~
+A long sword has been left here.~
+slash~
+5 0 8193 0
+0 1 8 3
+8 640 128 0
+L 0
+E
+inscription~
+It says : May this sword be a good companion.
+~
+E
+sword long~
+The long sword seems to have an inscription of some sort.
+~
+#1106
+club wooden~
+a wooden club~
+A simple looking wooden club is here.~
+pound~
+5 0 8193 0
+0 1 3 7
+3 33 6 0
+L 0
+E
+wooden club~
+A piece of wood that has been shaped into a weapon
+~
+#1107
+warhammer~
+a warhammer~
+A medium sized warhammer is here.~
+pound~
+5 0 8193 0
+0 1 5 7
+6 156 31 0
+L 0
+#1108
+torch~
+a torch~
+A large torch.~
+~
+1 0 16385 0
+0 0 24 0
+1 10 1 0
+L 0
+E
+torch~
+A small torch that is lit by kerosene
+~
+#1109
+lantern~
+a lantern~
+A brass lantern.~
+~
+1 0 16385 0
+0 0 96 0
+1 50 5 0
+L 0
+E
+lantern~
+This small brass lantern will help you see a lot better at night
+~
+#1110
+bag~
+a bag~
+A small bag.~
+~
+15 0 16385 0
+50 0 0 0
+2 20 2 0
+L 0
+E
+bag ~
+a small cloth bag that will hold a few items, nothing more
+~
+#1111
+breast plate~
+a breast plate~
+A breast plate is lying on the ground.~
+~
+9 0 65545 0
+3 0 0 0
+11 1800 300 0
+L 0
+E
+breast plate~
+This magnificent piece of armor shines brightly in the sunlight
+~
+#1112
+chain mail shirt~
+a chain mail shirt~
+A chain mail shirt is lying on the ground.~
+~
+9 0 9 0
+2 0 0 0
+11 1800 300 0
+L 0
+E
+chain mail shirt~
+Small chain links hold this piece of armor together
+~
+#1114
+jacket soft leather~
+a leather jacket~
+A soft leather jacket is lying on the ground.~
+~
+9 0 9 0
+1 0 0 0
+10 200 20 0
+L 0
+#1115
+jacket studded~
+a studded leather jacket~
+A studded leather jacket is lying on the ground.~
+~
+9 0 9 0
+1 0 0 0
+11 500 50 0
+L 0
+E
+jacket studded~
+The jacket is covered with small brass studds
+~
+#1116
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+~
+9 0 9 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1117
+combat breast plate~
+a combat breast plate~
+A combat breast plate is lying on the ground~
+~
+9 0 9 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1118
+gauntlets bronze~
+a pair of bronze gauntlets~
+A pair of bronze gauntlets is lying on the ground.~
+~
+9 0 129 0
+2 0 0 0
+8 1800 400 0
+L 0
+A
+19 1
+#1120
+bronze helmet~
+a bronze helmet~
+A bronze helmet is lying on the ground.~
+~
+9 0 17 0
+2 0 0 0
+8 1800 300 0
+L 0
+#1121
+cap studded leather~
+a studded leather cap~
+A studded leather cap is lying on the ground.~
+~
+9 0 17 0
+1 0 0 0
+3 500 50 0
+L 0
+#1122
+leggings bronze~
+a pair of bronze leggings~
+A pair of bronze leggings is lying on the ground.~
+~
+9 0 33 0
+3 0 0 0
+8 1800 300 0
+L 0
+#1124
+sleeves bronze~
+a pair of bronze sleeves~
+A pair of bronze sleeves is lying on the ground.~
+~
+9 0 257 0
+3 0 0 0
+8 1800 400 0
+L 0
+A
+18 1
+#1125
+sleeves leather~
+a pair of leather sleeves~
+A pair of leather sleeves is lying on the ground.~
+~
+9 0 257 0
+1 0 0 0
+4 200 20 0
+L 0
+#1126
+water skin~
+a skin~
+A water skin has been set on the ground here.~
+~
+17 0 1 0
+80 80 15 0
+1 45 4 0
+L 0
+E
+canteen~
+It's a fairly big skin.  Looks like it can hold a lot of liquid.
+~
+#1130
+ruby~
+a large ruby~
+A large sparkling ruby has carelessly been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 1000 100 0
+L 0
+#1131
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+5000 1 1 0
+L 0
+E
+sign post direction~
+
++-----------------------------------------------------------------+
+|                                                                 |
+| WEST - Desert                (15-25)  Aqua Marina       (5+)    |
+|        Moander's Domain      (50+)    Rand's Tower      (10-20) |
+|        Crystal Castle        (25-40)  Werith's Wayhouse (10-20) |
+|        Khulgru's Lost Empire (30-40)  Tudor             (35+)   |
+|        Fairytale Forest      (20-30)  Lhankwood         (10-20) |
+|        Wilderness            (5-10)   Rushmoor Swamp    (20-30) |
+|        City of Thalos        (10-20)  Island            (30-40) |
+|        Mountains             (5-10)   Toyheim           (10-20) |
+|        Black Tower           (30-50)  Darask            (10-20) |
+|                                                                 |
+| EAST - Selva Road            (5-10)                             |
+|        Graveyard             (5-10)                             |
+|        Tunnel                (35-45)                            |
+|        Spiral                (60+)                              |
+|        Ancient Greece        (60+)                              |
+|                                                                 |
++-----------------------------------------------------------------+
+~
+#1132
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+5000 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------+
+|                               |
+| NORTH - Eliqua River (45-55)  |
+|                               |
+| EAST -  Moathouse    (1-10)   |
+|                               |
++-------------------------------+
+~
+#1133
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+5000 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------+
+|                               |
+| NORTH - Pirate Ship   (30-40) |
+|         Danger Island (40-50  |
+|                               |
++-------------------------------+
+~
+#1134
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+5000 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------------+
+|                                     |
+| EAST - Plains               (0-10)  |
+|        Ershteep Road        (10-20) |
+|	 Magic: The Gathering (35+)   |
+|        Camelot              (25-40) |
+|        Three of Swords      (10-20) |
+|        Shadowkeep           (30-50) |
+|        Rome                 (5-70)  |
+|                                     |
++-------------------------------------+
+~
+#1140
+ring gold gold.ring~
+a shiny gold ring~
+A shiny gold ring has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+A
+3 1
+#1141
+iron ring ~
+an iron ring~
+A small ring of iron has been dropped here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+iron ring~
+A rather ordinary inexpensive iron ring
+~
+A
+1 1
+#1142
+ring leather ~
+a leather ring~
+A small ring fashioned out of leather has been dropped here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+leather ring ~
+leather entwined in a tight circle that forms a ring
+~
+A
+2 1
+#1143
+wood wooden ring~
+a wooden ring~
+A ring fashioned from sandalwood has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+wooden ring~
+This small circle of wood may give you some added wisdom
+~
+A
+4 1
+#1144
+granite ring granite.ring~
+a granite ring~
+A ring carved out of granite has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+granite ring~
+This small circle of granite looks like it would make a nice ring
+~
+A
+5 1
+#1160
+canvas moccasins~
+a pair of canvas moccasins~
+A fine pair of canvas moccassins are here.~
+~
+9 0 65 0
+1 0 0 0
+2 100 10 0
+L 0
+E
+canvas moccasins~
+These rather tattered pair of moccasins have been well worn
+~
+#1161
+leather boots~
+a pair of leather boots~
+A comfortable looking pair of leather boots are here.~
+~
+9 0 65 0
+1 0 0 0
+4 200 20 0
+L 0
+E
+leather boots~
+These shiny leather boots will cover most of your legs they are so long
+~
+#1162
+steel capped boots~
+a pair of steel capped boots~
+A pair of steel capped boots are here.~
+~
+9 0 65 0
+2 0 0 0
+8 900 90 0
+L 0
+A
+14 1
+#1163
+scale boots~
+a pair of scale clad boots~
+A fine pair of scale clad boots are here~
+~
+9 0 65 0
+2 0 0 0
+10 1700 170 0
+L 0
+A
+14 1
+#1165
+combat boots~
+a pair of combat boots~
+A pair of army issue combat boots are here.~
+~
+9 0 65 0
+3 0 0 0
+11 1800 740 0
+L 0
+E
+combat boots~
+These army issue boots look extremely tough and sturdy
+~
+A
+14 1
+#1170
+cloth gloves~
+a pair of cloth gloves~
+A nice pair of cloth gloves are here.~
+~
+9 0 129 0
+1 0 0 0
+1 100 10 0
+L 0
+E
+cloth gloves~
+These ordinary gloves offer very little protection
+~
+#1171
+leather gloves~
+a pair of leather gloves~
+A nice pair of leather gloves has been left here.~
+~
+9 0 129 0
+1 0 0 0
+2 200 20 0
+L 0
+E
+leather gloves~
+These ordinary gloves offer very little protection
+~
+#1172
+studded leather gloves~
+a pair of studded leather gloves~
+A pair of studded leather gloves has been left here.~
+~
+9 0 129 0
+2 0 0 0
+3 1500 150 0
+L 0
+A
+19 1
+#1173
+spiked gloves~
+a nasty looking pair of spiked gloves~
+A nasty looking pair of spike gloves has been left here.~
+~
+9 0 129 0
+2 0 0 0
+7 1800 200 0
+L 0
+E
+spiked gloves~
+There are several nasty looking spikes that protrude from the top of these 
+gloves 
+~
+A
+19 1
+#1174
+combat gauntlets~
+a pair of combat gauntlets~
+A shiny pair of combat gauntlets has been left here~
+~
+9 0 129 0
+3 0 0 0
+10 1800 800 0
+L 0
+E
+combat gauntlets~
+A pair of strong army issue gauntlets that look strong and sturdy
+~
+A
+19 1
+#1180
+beret~
+a beret~
+A fine beret has been left here.~
+~
+9 0 17 0
+1 0 0 0
+1 100 10 0
+L 0
+E
+beret~
+This small black felt hat looks rather nice but offers very little protection
+~
+#1181
+leather cap~
+a leather cap~
+A finely made leather cap has been dropped here.~
+~
+9 0 17 0
+1 0 0 0
+2 200 20 0
+L 0
+#1184
+visor~
+a gladiator's visor~
+A gladiator's visor has been dropped here.~
+~
+9 0 17 0
+2 0 0 0
+11 1800 450 1
+L 1
+A
+12 1
+#1185
+combat helm~
+a combat helm~
+An army issue combat helm is lying in the dirt here.~
+~
+9 0 17 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1190
+cloth jacket~
+a cloth jacket~
+A finely tailored cloth jacket is lying in the dust here.~
+~
+9 0 9 0
+1 0 0 0
+5 100 10 0
+L 0
+#1191
+leather jacket~
+a leather jacket~
+A nice leather jacket is lying here in the dust.~
+~
+9 0 9 0
+2 0 0 0
+10 200 20 0
+L 0
+#1192
+studded jacket~
+a studded leather jacket~
+A studded leather jacket has been left here.~
+~
+9 0 9 0
+1 0 0 0
+11 500 50 0
+L 0
+#1193
+scale vest~
+a scale mail vest~
+A fine scale mail vest is lying on the ground here.~
+~
+9 0 9 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1194
+chain vest~
+a chain mail vest~
+A chain mail vest has been left here.~
+~
+9 0 9 0
+3 0 0 0
+11 1800 300 0
+L 0
+#1195
+bronze breast plate~
+a bronze breast plate~
+A shiny bronze breast plate is here~
+~
+9 0 9 0
+3 0 0 0
+11 1800 300 0
+L 0
+#1200
+cloth pants~
+a pair of cloth pants~
+A finely tailored pair of cloth pants has been dropped here.~
+~
+9 0 33 0
+1 0 0 0
+2 100 10 0
+L 0
+#1201
+leather pants~
+a pair of leather pants~
+A nice pair of leather pants has been dropped here.~
+~
+9 0 33 0
+1 0 0 0
+5 200 20 0
+L 0
+#1202
+studded pants~
+a pair of studded leather pants~
+A pair of studded leather pants has been left here.~
+~
+9 0 33 0
+1 0 0 0
+7 800 80 0
+L 0
+A
+14 1
+#1203
+scale leggings~
+a pair of scale mail leggings~
+A pair of scale mail leggings has been dropped here.~
+~
+9 0 33 0
+2 0 0 0
+11 1500 150 0
+L 0
+A
+14 1
+#1204
+combat leggings~
+a pair of combat leggings~
+A shiny pair of combat leggings is here~
+~
+9 0 33 0
+3 0 0 0
+11 1800 690 0
+L 0
+A
+14 1
+#1206
+combat sleeves~
+a pair of combat sleeves~
+A shiny pair of combat sleeves has been left here~
+~
+9 0 257 0
+3 0 0 0
+3 1800 700 0
+L 0
+A
+18 1
+#1210
+cloth sleeves~
+a pair of cloth sleeves~
+A fine pair of cloth sleeves has been left here.~
+~
+9 0 257 0
+1 0 0 0
+1 100 10 0
+L 0
+#1212
+studded sleeves~
+a pair of studded leather sleeves~
+A pair of studded leather sleeves has been left here.~
+~
+9 0 257 0
+2 0 0 0
+3 1500 150 0
+L 0
+A
+18 1
+#1213
+scale sleeves~
+a pair of scale mail sleeves~
+A pair of scale mail sleeves has been dropped here.~
+~
+9 0 257 0
+2 0 0 0
+5 1800 200 0
+L 0
+A
+18 1
+#1214
+bronze bracers~
+a pair of bronze bracers~
+A shiny pair of bronze bracers is here gathering dust.~
+~
+9 0 257 0
+3 0 0 0
+10 1800 300 0
+L 0
+#1220
+leather shield~
+a small leather shield~
+A small leather shield has been left here.~
+~
+9 0 513 0
+1 0 0 0
+1 200 20 0
+L 0
+#1221
+wooden shield~
+a small wooden shield~
+A small wooden shield has been dropped here.~
+~
+9 0 513 0
+1 0 0 0
+10 100 10 0
+L 0
+E
+wooden shield ~
+This small wooden shield offers little protection
+~
+#1222
+spiked wooden shield~
+a spiked wooden shield~
+A mean looking spiked wooden shield has been left here.~
+~
+9 0 513 0
+2 0 0 0
+11 500 50 0
+L 0
+#1223
+iron shield~
+a large iron shield~
+A large iron shield is here~
+~
+9 0 513 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1224
+bronze shield~
+a large bronze shield~
+A strong looking bronze shield has been left here~
+~
+9 0 513 0
+5 0 0 0
+11 1800 300 0
+L 0
+#1225
+combat shield~
+a combat shield~
+An army issue combat shield has been dropped here.~
+~
+9 0 513 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1250
+poniard~
+a poniard~
+A very sharp looking poniard has been left here.~
+~
+5 0 8193 0
+0 2 4 11
+9 1800 450 0
+L 0
+A
+19 1
+#1251
+dirk knife dagger~
+a thief's dirk~
+A sharp looking thief's dirk has been left here.~
+~
+5 0 8193 0
+0 2 3 11
+7 270 54 0
+L 0
+#1255
+arch stone massive gateway~
+a massive stone arch~
+A massive stone arch stands here, acting as a gateway to the great Mountain.~
+~
+41 0 0 0
+1244 0 0 0
+110 0 0 100
+L 100
+T 1255
+#1300
+potion green vial~
+a vial of green liquid~
+A vial of dark green liquid has been left here.~
+~
+10 65538 1 0
+10 16 -1 -1
+2 300 30 0
+L 0
+#1301
+potion orange vial~
+an orange potion~
+A vial of light orange liquid has been dropped here.~
+~
+10 65538 1 0
+10 43 16 -1
+2 1500 150 0
+L 0
+#1302
+potion black vial~
+a black potion~
+A vial of sticky black liquid has been left here.~
+~
+10 65538 1 0
+10 14 -1 -1
+2 1500 150 0
+L 0
+#1303
+potion red vial~
+a red potion~
+A vial of thin red liquid has been left here.~
+~
+10 2 1 0
+10 15 -1 -1
+2 1800 200 0
+L 0
+#1304
+potion white vial~
+a white potion~
+A vial of milky white liquid has been left here.~
+~
+10 2 1 0
+12 36 3 1
+2 1600 160 0
+L 0
+#1305
+potion blue vial~
+a blue potion~
+A vial of metallic blue liquid has been left here.~
+~
+10 65538 1 0
+12 39 -1 -1
+2 2600 260 0
+L 0
+#1350
+atlas world~
+a world atlas~
+An atlas of the world has been dropped here.~
+~
+13 0 1 0
+0 0 0 0
+0 10 1 0
+L 0
+E
+atlas world~
+                     A rough map Medievalworld (not to scale)
+                     ----------------------------------------
+                  [Crystal Castle]
+        [Abyss]_____      |     [Fairytale Forest]
+                    |     |            |
+ [Old Thalos]----[Sandy Desert] --[Toyheim]      --[Danger Island]
+                        |   ____|                |
+                    [Darask]                     |
+                        |    |[Aqua Marina] |[Pirate Ship]
+		        |    |              | |-[Eliqua River]
+                        |    |[Khulgru's]   | | [Moathouse]
+                        |          |        | | |        ---[Tunnel]--|
+       [Wayhouse]--[Mountains]---------[Haven]-----------|            |
+                        |        |        |       | [Ancient Greece]  |
+                        |   [Lhankwood]   |   [Graveyard]             |
+      [Rand's Tower]-----        |        |                       [Spiral]
+                             [Rushmoor]   |-[Magic:TG]         
+                                 |        |                
+                              [Tudor]     |-[Ershteep Road]  
+                                          |
+                                   [Rome]---[Plains]---[Shadowkeep]                      
+                                               |
+                                        [Three of Swords]
+                                               |
+                                               |---[Camelot]
+~
+#1351
+map town haven~
+a map of Haven~
+A map of Haven has been dropped here.~
+~
+13 0 1 0
+0 0 0 0
+0 10 1 0
+L 0
+E
+map world~
+                         &y====================================&n
+                          &gMAP OF HAVEN CITY (mapped by Gabe)&n
+                         &y====================================&n
+
+Southbank      Southbank        Intersection of   Southbank           End of
+  Road  &y==   ==&n   Road  &y==   ==&n  Southbank&&Main &y==&n   Road   &y==   ==&n Southbank
+           &y|       |       |           |              |        |&n
+        Under   Rundown Wayfarer's    Main        Riverside  Traveller's
+        Tree   Warehouse  Inn        Street        Tavern     Guide
+                                       &y|&n
+                             Weapon &y==   ==&n Armourer's  Magic  Potion
+            Grocer            Shop     &y|&n                 Shop  Shop
+ West Gate    &y|&n    Regiment        X-Road of    Regiment   &y|    |&n    East
+ of Haven  &y==   ==&n   Road   &y==  ==&n   Main &&  &y==&n  Road   &y==   ==   ==&n Gate
+              &y|&n                     Regiment               &y|    |&n
+            Druid's                    &y|&n            Jeweller's Mage
+            Temple                    Main                     Guild
+                          Warrior    Street          Market
+                           Guild  &y==&n Central &y==   ==&n   Way       Elemental
+                                       &y|        |      |&n          Temple
+                                       &y|&n     General   &y|            |&n
+                                       &y|&n      Store    &y|&n     Intersection of
+                                      Main              &y== ==&n Market&&Gambol
+                                     Street                         &y|&n
+                                       &y|&n                          Gambol
+                                       &y|&n                           Road 
+                                      Main       Donation           &y|&n
+                                     Street        Room           Gambol
+                                       &y|            |&n              Way
+          Paladin     West End      Central        East
+           Temple &y==&n Council Sq &y==&n Council Sq &y==&n Council Sq
+                                       &y|            |&n
+                       South       Council Sq    Southeast         &BN&n
+                     Council Sq &y==&n   Before   &y==&n Council Sq        &R|&n
+                                    Chambers                     &R--|--&n
+                                       &y|&n                           &R|&n
+                                  Entrance to                      &R|&n
+                                 Council Chamber                   &R|&n
+~
+#1360
+magician's hat~
+a Magician's hat~
+A colourful looking Magician's hat is lying on the ground here.~
+~
+9 2 17 0
+5 0 0 0
+4 8500 850 0
+L 0
+A
+12 25
+A
+3 1
+A
+13 -10
+#1361
+magic wand~
+a magic wand~
+A short black wand with white ends is lying here.~
+~
+11 0 16385 0
+0 0 0 0
+4 25000 2500 0
+L 0
+A
+12 20
+A
+4 1
+#1362
+magic boots~
+a pair of magic boots~
+A strange pair of boots has been left here.~
+~
+9 0 65 0
+2 0 0 0
+10 13000 1300 0
+L 0
+A
+13 5
+#1363
+magician's cloak~
+a Magician's cloak~
+A brightly coloured cloak has been dropped here.~
+~
+9 2 5 0
+2 0 0 0
+8 8500 850 0
+L 0
+E
+cloak magician's~
+This magical cloak will give you strange powers. Maybe !
+~
+A
+12 15
+A
+4 1
+A
+19 -1
+#1367
+backpack~
+a Backpack~
+A leather backpack~
+~
+15 0 16385 0
+200 0 -1 0
+11 200 20 0
+L 0
+E
+backpack~
+This sturdy carrying bag looks like it will hold many items
+~
+#1368
+orb return~
+Orb of Returning~
+You see a strange Sparkling orb lying on the ground here~
+~
+24 65 16385 0
+42 0 0 2
+5 100000 5000 0
+L 0
+A
+14 20
+#1369
+Magician Apprentice Hat~
+Apprentice's Hat~
+A very large pointy hat with shimmering stars on the surface~
+~
+11 268443713 17 0
+0 0 0 0
+1 10 0 0
+L 0
+E
+Apprentice Hat~
+The hat is made of dark material that has a bright hue about it.&n
+There are silver stars embedded into the outer surface. The lining&n
+of the hat is made of a strange &rred&n material that glows and &n
+moves if you look closely at it.&n
+~
+#1370
+Magician Apprentice Cloak~
+Apprentice's Cloak~
+A long flowing cloak made of shimmering material.~
+Nothing.
+~
+11 268443713 5 0
+0 0 0 0
+1 5 0 0
+L 0
+E
+Apprentice Cloak~
+A long flowing cloak made of strange shimmering material.&n
+It has bright silver stars and one moon woven into the fabric on &n
+the outside. Inside it has a strange &rred&n material pulsating with&n
+life and energy.&n
+~
+A
+4 1
+A
+17 -2
+#1371
+Magician Apprentice Boots~
+Apprentice's Boots~
+A pair of Enchanted Boots~
+Nothing.
+~
+9 268443713 65 0
+0 0 0 0
+1 0 0 0
+L 0
+E
+Apprentice Boots~
+These boots were definately made for walking.&n
+The enchanted boots of the Magician's Apprentice are made&n
+of black material that shimmers with the light spectrum.&n
+The lining of the boots is made of a strange &rred&n material that&n
+pulsates with energy and life when you look at them.&n
+~
+A
+14 2
+A
+17 -2
+#1372
+Magician Apprentice Staff~
+Apprentice's Staff~
+A Shimmering Staff made of Light and Air~
+~
+4 268443713 24577 16
+5 8 8 5
+7 1500 0 0
+L 0
+E
+Apprentice Staff~
+The Apprentice's Staff has the ability to use some&n
+spells that the apprentice isn't familiar with as yet.&n
+The Great Magician believes that he is capable of controlling&n
+such spells before his time. Now if he could just work out &n
+how to use it......&n
+~
+A
+3 2
+A
+17 -3
+A
+19 1
+A
+18 1
+A
+12 10
+#1373
+Magician Apprentice Ring~
+Apprentice's Ring~
+A Ring made of light and air.~
+~
+9 268443713 3 0
+0 0 0 0
+1 1000 0 0
+L 0
+E
+Apprentice Ring~
+This ornate ring is made of light and air.&n
+When looking at it you can see right through it to your &n
+finger. It shimmers within itself and radiates energy and&n
+life.&n
+~
+A
+4 1
+A
+3 1
+A
+17 -2
+#1374
+Warrior Training Helm~
+Training Helm~
+Silver and Gold Training helm~
+~
+11 28672 17 0
+0 0 0 0
+2 1000 0 0
+L 0
+E
+Training Helm~
+A Training helmet made out of Gold and Silver metal&n
+it is for the most elite warrior training school known.&n
+Only the best are accepted into the training school and&n
+have become known as the most fierce warriors around.&n
+~
+#1375
+Warrior Training BreastPlate~
+Training BreastPlate~
+A Silver and Gold BreastPlate~
+~
+9 28672 9 0
+0 0 0 0
+5 1000 0 0
+L 0
+E
+Training BreastPlate~
+This BreastPlate is made of the finest Gold metal around.&n
+It belongs to the elite Warrior training school that has&n
+the best warriors known to man.  To have a set of the &n
+training armour is a privaledge. &n
+~
+A
+1 2
+A
+17 -2
+A
+18 2
+#1376
+Warrior Training Boots~
+Training Boots~
+A pair of Training Boots.~
+~
+9 28672 65 0
+0 0 0 0
+2 500 0 0
+L 0
+E
+Training Boots~
+These boots are made out of the toughest hide.&n
+They are strong yet durable and they belong to&n
+the elite warrior training school. Anyone owning&n
+a pair of these boots is not a person to be messed with.&n
+~
+#1377
+Warrior Training Sword~
+Training Sword~
+A well crafted, solid metal sword.~
+~
+5 28672 8193 0
+3 5 5 6
+5 1500 0 0
+L 0
+E
+Training Sword~
+Superbly crafted! Exquisite in design and handling.&n
+This sword can only come from one place. Nobody makes&n
+swords this fine and mighty unless it is for the elite&n
+Warrior training school. You are lucky to even see a sword&n
+like this as this is a rare beauty indeed!&n
+~
+A
+19 2
+A
+13 10
+A
+17 -5
+#1378
+Warrior Training Shield~
+Training Shield~
+A Silver and Gold Training Shield~
+~
+9 28672 513 0
+2 0 0 0
+5 1000 0 0
+L 0
+E
+Training Shield~
+This Silver and Gold Shield belongs to the &n
+elite Warrior Training School. Who ever owns this&n
+must be a fierce Warrior.&n
+~
+A
+17 -1
+A
+2 2
+#1379
+Cleric Healing Hat~
+Healing Hat~
+A Cleric's Healing Hat~
+~
+11 53250 17 0
+0 0 0 0
+1 500 0 0
+L 0
+E
+Healing Hat~
+A Cleric's Healing hat &n
+~
+A
+17 -1
+A
+4 2
+A
+18 1
+#1380
+Cleric Healing Cape~
+Healing Cape~
+A Cleric's Healing Cape~
+~
+11 53250 5 0
+0 0 0 0
+2 500 0 0
+L 0
+E
+Healing Cape~
+A Cleric's Healing Cape&n
+~
+A
+17 -2
+#1381
+Cleric Healing Boots~
+Healer's Boots~
+A pair of Cleric's healing boots~
+~
+11 53250 65 0
+0 0 0 0
+1 500 0 0
+L 0
+E
+Healing Boots~
+A Cleric's Healing boots&n
+~
+A
+14 10
+A
+5 1
+#1382
+Cleric's Healing Hammer~
+Healer's Hammer~
+A Healer's protection~
+~
+5 53250 8193 0
+2 5 5 5
+5 999 0 0
+L 0
+E
+Healer's Hammer Protection~
+A sturdy hammer is what the healer's of this world use&n
+to protect themselves from the evils of the world.&n
+Assistance can be sought from them but Do not cross them&n
+or you will fell this hammer in use.&n
+~
+A
+17 -5
+A
+13 10
+A
+19 2
+A
+18 1
+#1383
+Cleric's Healer Gloves~
+Healer's Gloves~
+A pair of Healer's Gloves~
+~
+11 53250 129 0
+0 0 0 0
+2 500 0 0
+L 0
+E
+Healer's gloves~
+A pair of sturdy gloves used by the healers of this world&n
+~
+#1384
+Thief Shadow Hat~
+Shadow Hat~
+A shadow hat~
+Nothing.
+~
+11 45058 17 0
+0 0 0 0
+1 300 0 0
+L 0
+E
+Shadow Hat~
+As you stare at the Hat it disappears into the &n
+shadows. It seems to be made of nothing.&n
+~
+A
+6 2
+#1385
+Thief Shadow Cloak~
+Shadow Cloak~
+A shadow~
+~
+11 45058 5 0
+0 0 0 0
+1 300 0 0
+L 0
+E
+Shadow Cloak~
+This cloak is made of shadows. Once worn and the person&n
+becomes like a shadow himself.&n
+~
+A
+18 1
+A
+17 -2
+#1386
+Thief Shadow Boots~
+Shadow Boots~
+A pair of Shadow Boots~
+~
+11 45058 65 0
+0 0 0 0
+1 300 0 0
+L 0
+E
+Shadow Boots~
+A pair of boots that melt into the shadows everytime&n
+they are looked at.&n
+~
+A
+2 2
+A
+17 -2
+A
+14 10
+#1387
+Thief Shadow Dagger~
+Shadow Dagger~
+A Shadow Dagger ~
+~
+5 45058 8193 0
+2 5 5 11
+3 650 0 0
+L 0
+E
+Shadow Dagger~
+A dagger that can melt into the shadows and lie in&n
+waiting for its next victim. The perfect accessory &n
+for the cunning and fearless thief.&n
+~
+A
+19 2
+A
+17 -2
+#1388
+Thief Shadow Gloves~
+Shadow Gloves~
+A pair of Shadow gloves~
+~
+11 45058 129 0
+0 0 0 0
+2 300 0 0
+L 0
+E
+Shadow Gloves~
+A pair of gloves that are made of the shadows themselves&n
+If you look closely enough you might even see your own&n
+shadow lurking within them.&n
+~
+A
+17 -2
+$~
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d1 1471
+a1471 1042
+#1101
+bread~
+a bread~
+A loaf of bread has been left here.~
+~
+19 0 1 0
+12 0 0 0
+1 2 1 0
+L 0
+E
+bread~
+This looks fresh and edible
+~
+#1102
+meat chunk~
+a chunk of meat~
+A large chunk of meat is here~
+~
+19 0 1 0
+15 0 0 0
+1 5 2 0
+L 0
+E
+meat chunk~
+The meat looks like it has been slightly chewed in one corner
+~
+#1103
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
+pierce&n
+~
+5 0 8193 0
+0 1 4 11
+1 80 16 0
+L 0
+E
+dagger~
+A thin, rather weak looking blade protrudes from a small leather handle
+~
+#1104
+sword small~
+a small sword~
+A small sword lies here.~
+slash~
+5 0 8193 0
+0 1 6 11
+3 270 54 0
+L 0
+E
+inscription~
+It says : May this sword be a good companion.
+~
+E
+sword small~
+The small sword seems to have an inscription of some sort.
+~
+#1105
+sword long~
+a long sword~
+A long sword has been left here.~
+slash~
+5 0 8193 0
+0 1 8 3
+8 640 128 0
+L 0
+E
+inscription~
+It says : May this sword be a good companion.
+~
+E
+sword long~
+The long sword seems to have an inscription of some sort.
+~
+#1106
+club wooden~
+a wooden club~
+A simple looking wooden club is here.~
+pound~
+5 0 8193 0
+0 1 3 7
+3 33 6 0
+L 0
+E
+wooden club~
+A piece of wood that has been shaped into a weapon
+~
+#1107
+warhammer~
+a warhammer~
+A medium sized warhammer is here.~
+pound~
+5 0 8193 0
+0 1 5 7
+6 156 31 0
+L 0
+#1108
+torch~
+a torch~
+A large torch.~
+~
+1 0 16385 0
+0 0 24 0
+1 10 1 0
+L 0
+E
+torch~
+A small torch that is lit by kerosene
+~
+#1109
+lantern~
+a lantern~
+A brass lantern.~
+~
+1 0 16385 0
+0 0 96 0
+1 50 5 0
+L 0
+E
+lantern~
+This small brass lantern will help you see a lot better at night
+~
+#1110
+bag~
+a bag~
+A small bag.~
+~
+15 0 16385 0
+50 0 0 0
+2 20 2 0
+L 0
+E
+bag ~
+a small cloth bag that will hold a few items, nothing more
+~
+#1111
+breast plate~
+a breast plate~
+A breast plate is lying on the ground.~
+~
+9 0 65545 0
+3 0 0 0
+11 1800 300 0
+L 0
+E
+breast plate~
+This magnificent piece of armor shines brightly in the sunlight
+~
+#1112
+chain mail shirt~
+a chain mail shirt~
+A chain mail shirt is lying on the ground.~
+~
+9 0 9 0
+2 0 0 0
+11 1800 300 0
+L 0
+E
+chain mail shirt~
+Small chain links hold this piece of armor together
+~
+#1114
+jacket soft leather~
+a leather jacket~
+A soft leather jacket is lying on the ground.~
+~
+9 0 9 0
+1 0 0 0
+10 200 20 0
+L 0
+#1115
+jacket studded~
+a studded leather jacket~
+A studded leather jacket is lying on the ground.~
+~
+9 0 9 0
+1 0 0 0
+11 500 50 0
+L 0
+E
+jacket studded~
+The jacket is covered with small brass studds
+~
+#1116
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+~
+9 0 9 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1117
+combat breast plate~
+a combat breast plate~
+A combat breast plate is lying on the ground~
+~
+9 0 9 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1118
+gauntlets bronze~
+a pair of bronze gauntlets~
+A pair of bronze gauntlets is lying on the ground.~
+~
+9 0 129 0
+2 0 0 0
+8 1800 400 0
+L 0
+A
+19 1
+#1120
+bronze helmet~
+a bronze helmet~
+A bronze helmet is lying on the ground.~
+~
+9 0 17 0
+2 0 0 0
+8 1800 300 0
+L 0
+#1121
+cap studded leather~
+a studded leather cap~
+A studded leather cap is lying on the ground.~
+~
+9 0 17 0
+1 0 0 0
+3 500 50 0
+L 0
+#1122
+leggings bronze~
+a pair of bronze leggings~
+A pair of bronze leggings is lying on the ground.~
+~
+9 0 33 0
+3 0 0 0
+8 1800 300 0
+L 0
+#1124
+sleeves bronze~
+a pair of bronze sleeves~
+A pair of bronze sleeves is lying on the ground.~
+~
+9 0 257 0
+3 0 0 0
+8 1800 400 0
+L 0
+A
+18 1
+#1125
+sleeves leather~
+a pair of leather sleeves~
+A pair of leather sleeves is lying on the ground.~
+~
+9 0 257 0
+1 0 0 0
+4 200 20 0
+L 0
+#1126
+water skin~
+a skin~
+A water skin has been set on the ground here.~
+~
+17 0 1 0
+80 80 15 0
+1 45 4 0
+L 0
+E
+canteen~
+It's a fairly big skin.  Looks like it can hold a lot of liquid.
+~
+#1130
+ruby~
+a large ruby~
+A large sparkling ruby has carelessly been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 1000 100 0
+L 0
+#1131
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+sign post direction~
+
++-----------------------------------------------------------------+
+|                                                                 |
+| WEST - Desert                (15-25)  Aqua Marina       (5+)    |
+|        Moander's Domain      (50+)    Rand's Tower      (10-20) |
+|        Crystal Castle        (25-40)  Werith's Wayhouse (10-20) |
+|        Khulgru's Lost Empire (30-40)  Tudor             (35+)   |
+|        Fairytale Forest      (20-30)  Lhankwood         (10-20) |
+|        Wilderness            (5-10)   Rushmoor Swamp    (20-30) |
+|        City of Thalos        (10-20)  Island            (30-40) |
+|        Mountains             (5-10)   Toyheim           (10-20) |
+|        Black Tower           (30-50)  Darask            (10-20) |
+|                                                                 |
+| EAST - Selva Road            (5-10)                             |
+|        Graveyard             (5-10)                             |
+|        Tunnel                (35-45)                            |
+|        Spiral                (60+)                              |
+|        Ancient Greece        (60+)                              |
+|                                                                 |
++-----------------------------------------------------------------+
+~
+#1132
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------+
+|                               |
+| NORTH - Eliqua River (45-55)  |
+|                               |
+| EAST -  Moathouse    (1-10)   |
+|                               |
++-------------------------------+
+~
+#1133
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------+
+|                               |
+| NORTH - Pirate Ship   (30-40) |
+|         Danger Island (40-50  |
+|                               |
++-------------------------------+
+~
+#1134
+sign post direction~
+a sign post~
+A tall white sign post stands in the middle of the road here.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+sign post direction~
+
++-------------------------------------+
+|                                     |
+| EAST - Plains               (0-10)  |
+|        Ershteep Road        (10-20) |
+|	 Magic: The Gathering (35+)   |
+|        Camelot              (25-40) |
+|        Three of Swords      (10-20) |
+|        Shadowkeep           (30-50) |
+|        Rome                 (5-70)  |
+|                                     |
++-------------------------------------+
+~
+#1140
+ring gold gold.ring~
+a shiny gold ring~
+A shiny gold ring has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+A
+3 1
+#1141
+iron ring ~
+an iron ring~
+A small ring of iron has been dropped here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+iron ring~
+A rather ordinary inexpensive iron ring
+~
+A
+1 1
+#1142
+ring leather ~
+a leather ring~
+A small ring fashioned out of leather has been dropped here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+leather ring ~
+leather entwined in a tight circle that forms a ring
+~
+A
+2 1
+#1143
+wood wooden ring~
+a wooden ring~
+A ring fashioned from sandalwood has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+wooden ring~
+This small circle of wood may give you some added wisdom
+~
+A
+4 1
+#1144
+granite ring granite.ring~
+a granite ring~
+A ring carved out of granite has been left here.~
+~
+9 2 3 0
+1 0 0 0
+1 1800 610 0
+L 0
+E
+granite ring~
+This small circle of granite looks like it would make a nice ring
+~
+A
+5 1
+#1160
+canvas moccasins~
+a pair of canvas moccasins~
+A fine pair of canvas moccassins are here.~
+~
+9 0 65 0
+1 0 0 0
+2 100 10 0
+L 0
+E
+canvas moccasins~
+These rather tattered pair of moccasins have been well worn
+~
+#1161
+leather boots~
+a pair of leather boots~
+A comfortable looking pair of leather boots are here.~
+~
+9 0 65 0
+1 0 0 0
+4 200 20 0
+L 0
+E
+leather boots~
+These shiny leather boots will cover most of your legs they are so long
+~
+#1162
+steel capped boots~
+a pair of steel capped boots~
+A pair of steel capped boots are here.~
+~
+9 0 65 0
+2 0 0 0
+8 900 90 0
+L 0
+A
+14 1
+#1163
+scale boots~
+a pair of scale clad boots~
+A fine pair of scale clad boots are here~
+~
+9 0 65 0
+2 0 0 0
+10 1700 170 0
+L 0
+A
+14 1
+#1165
+combat boots~
+a pair of combat boots~
+A pair of army issue combat boots are here.~
+~
+9 0 65 0
+3 0 0 0
+11 1800 740 0
+L 0
+E
+combat boots~
+These army issue boots look extremely tough and sturdy
+~
+A
+14 1
+#1170
+cloth gloves~
+a pair of cloth gloves~
+A nice pair of cloth gloves are here.~
+~
+9 0 129 0
+1 0 0 0
+1 100 10 0
+L 0
+E
+cloth gloves~
+These ordinary gloves offer very little protection
+~
+#1171
+leather gloves~
+a pair of leather gloves~
+A nice pair of leather gloves has been left here.~
+~
+9 0 129 0
+1 0 0 0
+2 200 20 0
+L 0
+E
+leather gloves~
+These ordinary gloves offer very little protection
+~
+#1172
+studded leather gloves~
+a pair of studded leather gloves~
+A pair of studded leather gloves has been left here.~
+~
+9 0 129 0
+2 0 0 0
+3 1500 150 0
+L 0
+A
+19 1
+#1173
+spiked gloves~
+a nasty looking pair of spiked gloves~
+A nasty looking pair of spike gloves has been left here.~
+~
+9 0 129 0
+2 0 0 0
+7 1800 200 0
+L 0
+E
+spiked gloves~
+There are several nasty looking spikes that protrude from the top of these 
+gloves 
+~
+A
+19 1
+#1174
+combat gauntlets~
+a pair of combat gauntlets~
+A shiny pair of combat gauntlets has been left here~
+~
+9 0 129 0
+3 0 0 0
+10 1800 800 0
+L 0
+E
+combat gauntlets~
+A pair of strong army issue gauntlets that look strong and sturdy
+~
+A
+19 1
+#1180
+beret~
+a beret~
+A fine beret has been left here.~
+~
+9 0 17 0
+1 0 0 0
+1 100 10 0
+L 0
+E
+beret~
+This small black felt hat looks rather nice but offers very little protection
+~
+#1181
+leather cap~
+a leather cap~
+A finely made leather cap has been dropped here.~
+~
+9 0 17 0
+1 0 0 0
+2 200 20 0
+L 0
+#1184
+visor~
+a gladiator's visor~
+A gladiator's visor has been dropped here.~
+~
+9 0 17 0
+2 0 0 0
+11 1800 450 1
+L 1
+A
+12 1
+#1185
+combat helm~
+a combat helm~
+An army issue combat helm is lying in the dirt here.~
+~
+9 0 17 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1190
+cloth jacket~
+a cloth jacket~
+A finely tailored cloth jacket is lying in the dust here.~
+~
+9 0 9 0
+1 0 0 0
+5 100 10 0
+L 0
+#1191
+leather jacket~
+a leather jacket~
+A nice leather jacket is lying here in the dust.~
+~
+9 0 9 0
+2 0 0 0
+10 200 20 0
+L 0
+#1192
+studded jacket~
+a studded leather jacket~
+A studded leather jacket has been left here.~
+~
+9 0 9 0
+1 0 0 0
+11 500 50 0
+L 0
+#1193
+scale vest~
+a scale mail vest~
+A fine scale mail vest is lying on the ground here.~
+~
+9 0 9 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1194
+chain vest~
+a chain mail vest~
+A chain mail vest has been left here.~
+~
+9 0 9 0
+3 0 0 0
+11 1800 300 0
+L 0
+#1195
+bronze breast plate~
+a bronze breast plate~
+A shiny bronze breast plate is here~
+~
+9 0 9 0
+3 0 0 0
+11 1800 300 0
+L 0
+#1200
+cloth pants~
+a pair of cloth pants~
+A finely tailored pair of cloth pants has been dropped here.~
+~
+9 0 33 0
+1 0 0 0
+2 100 10 0
+L 0
+#1201
+leather pants~
+a pair of leather pants~
+A nice pair of leather pants has been dropped here.~
+~
+9 0 33 0
+1 0 0 0
+5 200 20 0
+L 0
+#1202
+studded pants~
+a pair of studded leather pants~
+A pair of studded leather pants has been left here.~
+~
+9 0 33 0
+1 0 0 0
+7 800 80 0
+L 0
+A
+14 1
+#1203
+scale leggings~
+a pair of scale mail leggings~
+A pair of scale mail leggings has been dropped here.~
+~
+9 0 33 0
+2 0 0 0
+11 1500 150 0
+L 0
+A
+14 1
+#1204
+combat leggings~
+a pair of combat leggings~
+A shiny pair of combat leggings is here~
+~
+9 0 33 0
+3 0 0 0
+11 1800 690 0
+L 0
+A
+14 1
+#1206
+combat sleeves~
+a pair of combat sleeves~
+A shiny pair of combat sleeves has been left here~
+~
+9 0 257 0
+3 0 0 0
+3 1800 700 0
+L 0
+A
+18 1
+#1210
+cloth sleeves~
+a pair of cloth sleeves~
+A fine pair of cloth sleeves has been left here.~
+~
+9 0 257 0
+1 0 0 0
+1 100 10 0
+L 0
+#1212
+studded sleeves~
+a pair of studded leather sleeves~
+A pair of studded leather sleeves has been left here.~
+~
+9 0 257 0
+2 0 0 0
+3 1500 150 0
+L 0
+A
+18 1
+#1213
+scale sleeves~
+a pair of scale mail sleeves~
+A pair of scale mail sleeves has been dropped here.~
+~
+9 0 257 0
+2 0 0 0
+5 1800 200 0
+L 0
+A
+18 1
+#1214
+bronze bracers~
+a pair of bronze bracers~
+A shiny pair of bronze bracers is here gathering dust.~
+~
+9 0 257 0
+3 0 0 0
+10 1800 300 0
+L 0
+#1220
+leather shield~
+a small leather shield~
+A small leather shield has been left here.~
+~
+9 0 513 0
+1 0 0 0
+1 200 20 0
+L 0
+#1221
+wooden shield~
+a small wooden shield~
+A small wooden shield has been dropped here.~
+~
+9 0 513 0
+1 0 0 0
+10 100 10 0
+L 0
+E
+wooden shield ~
+This small wooden shield offers little protection
+~
+#1222
+spiked wooden shield~
+a spiked wooden shield~
+A mean looking spiked wooden shield has been left here.~
+~
+9 0 513 0
+2 0 0 0
+11 500 50 0
+L 0
+#1223
+iron shield~
+a large iron shield~
+A large iron shield is here~
+~
+9 0 513 0
+2 0 0 0
+11 1000 100 0
+L 0
+#1224
+bronze shield~
+a large bronze shield~
+A strong looking bronze shield has been left here~
+~
+9 0 513 0
+5 0 0 0
+11 1800 300 0
+L 0
+#1225
+combat shield~
+a combat shield~
+An army issue combat shield has been dropped here.~
+~
+9 0 513 0
+3 0 0 0
+11 1800 600 0
+L 0
+#1250
+poniard~
+a poniard~
+A very sharp looking poniard has been left here.~
+~
+5 0 8193 0
+0 2 4 11
+9 1800 450 0
+L 0
+A
+19 1
+#1251
+dirk knife dagger~
+a thief's dirk~
+A sharp looking thief's dirk has been left here.~
+~
+5 0 8193 0
+0 2 3 11
+7 270 54 0
+L 0
+#1255
+arch stone massive gateway~
+a massive stone arch~
+A massive stone arch stands here, acting as a gateway to the great Mountain.~
+~
+41 0 0 0
+1244 0 0 0
+110 0 0 100
+L 100
+T 1255
+#1300
+potion green vial~
+a vial of green liquid~
+A vial of dark green liquid has been left here.~
+~
+10 65538 1 0
+10 16 -1 -1
+2 300 30 0
+L 0
+#1301
+potion orange vial~
+an orange potion~
+A vial of light orange liquid has been dropped here.~
+~
+10 65538 1 0
+10 43 16 -1
+2 1500 150 0
+L 0
+#1302
+potion black vial~
+a black potion~
+A vial of sticky black liquid has been left here.~
+~
+10 65538 1 0
+10 14 -1 -1
+2 1500 150 0
+L 0
+#1303
+potion red vial~
+a red potion~
+A vial of thin red liquid has been left here.~
+~
+10 2 1 0
+10 15 -1 -1
+2 1800 200 0
+L 0
+#1304
+potion white vial~
+a white potion~
+A vial of milky white liquid has been left here.~
+~
+10 2 1 0
+12 36 3 1
+2 1600 160 0
+L 0
+#1305
+potion blue vial~
+a blue potion~
+A vial of metallic blue liquid has been left here.~
+~
+10 65538 1 0
+12 39 -1 -1
+2 1800 260 0
+L 0
+#1320
+key Moe~
+Moe's house key~
+A small brass house key lies here~
+~
+18 65550 1 0
+0 0 0 0
+1 1 1 0
+L 0
+#1321
+key Tak~
+Tak's house key~
+A small brass house key lies here~
+~
+18 65550 1 0
+0 0 0 0
+1 1 1 0
+L 0
+#1322
+key raistlin~
+Raistlin's house key~
+A small brass house key lies here~
+~
+18 65550 1 0
+0 0 0 0
+1 1 1 0
+L 0
+#1323
+key Kodiak~
+Kodiak's house key~
+A small brass house key lies here~
+~
+18 65550 1 0
+0 0 0 0
+1 1 1 0
+L 0
+#1350
+atlas world~
+a world atlas~
+An atlas of the world has been dropped here.~
+~
+13 0 1 0
+0 0 0 0
+0 10 1 0
+L 0
+E
+atlas world~
+                     A rough map Medievalworld (not to scale)
+                     ----------------------------------------
+                  [Crystal Castle]
+        [Abyss]_____      |     [Fairytale Forest]
+                    |     |            |
+ [Old Thalos]----[Sandy Desert] --[Toyheim]      --[Danger Island]
+                        |   ____|                |
+                    [Darask]                     |
+                        |    |[Aqua Marina] |[Pirate Ship]
+		        |    |              | |-[Eliqua River]
+                        |    |[Khulgru's]   | | [Moathouse]
+                        |          |        | | |        ---[Tunnel]--|
+       [Wayhouse]--[Mountains]---------[Haven]-----------|            |
+                        |        |        |       | [Ancient Greece]  |
+                        |   [Lhankwood]   |   [Graveyard]             |
+      [Rand's Tower]-----        |        |                       [Spiral]
+                             [Rushmoor]   |-[Magic:TG]         
+                                 |        |                
+                              [Tudor]     |-[Ershteep Road]  
+                                          |
+                                   [Rome]---[Plains]---[Shadowkeep]                      
+                                               |
+                                        [Three of Swords]
+                                               |
+                                               |---[Camelot]
+~
+#1351
+map town haven~
+a map of Haven~
+A map of Haven has been dropped here.~
+~
+13 0 1 0
+0 0 0 0
+0 10 1 0
+L 0
+E
+map world~
+                         &y====================================&n
+                          &gMAP OF HAVEN CITY (mapped by Gabe)&n
+                         &y====================================&n
+
+Southbank      Southbank        Intersection of   Southbank           End of
+  Road  &y==   ==&n   Road  &y==   ==&n  Southbank&&Main &y==&n   Road   &y==   ==&n Southbank
+           &y|       |       |           |              |        |&n
+        Under   Rundown Wayfarer's    Main        Riverside  Traveller's
+        Tree   Warehouse  Inn        Street        Tavern     Guide
+                                       &y|&n
+                             Weapon &y==   ==&n Armourer's  Magic  Potion
+            Grocer            Shop     &y|&n                 Shop  Shop
+ West Gate    &y|&n    Regiment        X-Road of    Regiment   &y|    |&n    East
+ of Haven  &y==   ==&n   Road   &y==  ==&n   Main &&  &y==&n  Road   &y==   ==   ==&n Gate
+              &y|&n                     Regiment               &y|    |&n
+            Druid's                    &y|&n            Jeweller's Mage
+            Temple                    Main                     Guild
+                          Warrior    Street          Market
+                           Guild  &y==&n Central &y==   ==&n   Way       Elemental
+                                       &y|        |      |&n          Temple
+                                       &y|&n     General   &y|            |&n
+                                       &y|&n      Store    &y|&n     Intersection of
+                                      Main              &y== ==&n Market&&Gambol
+                                     Street                         &y|&n
+                                       &y|&n                          Gambol
+                                       &y|&n                           Road 
+                                      Main       Donation           &y|&n
+                                     Street        Room           Gambol
+                                       &y|            |&n              Way
+          Paladin     West End      Central        East
+           Temple &y==&n Council Sq &y==&n Council Sq &y==&n Council Sq
+                                       &y|            |&n
+                       South       Council Sq    Southeast         &BN&n
+                     Council Sq &y==&n   Before   &y==&n Council Sq        &R|&n
+                                    Chambers                     &R--|--&n
+                                       &y|&n                           &R|&n
+                                  Entrance to                      &R|&n
+                                 Council Chamber                   &R|&n
+~
+$~
+@
+
+
+1.3
+log
+@
+Commited haven (zone 11) updates
+@
+text
+@d9 1
+d22 1
+d36 1
+d49 1
+d66 1
+d83 1
+d96 1
+d105 1
+d118 1
+d131 1
+d143 2
+a144 1
+100 3000 300 0
+d156 2
+a157 1
+60 3000 300 0
+d170 1
+d178 2
+a179 1
+230 500 50 0
+d191 2
+a192 1
+40 1000 100 0
+d200 2
+a201 1
+80 6000 600 0
+d209 2
+a210 1
+8 4000 400 0
+d220 2
+a221 1
+8 3000 300 0
+d230 1
+d238 2
+a239 1
+8 3000 300 0
+d247 2
+a248 1
+8 4000 400 0
+d259 1
+d267 2
+a268 1
+85 45 4 0
+d281 1
+d289 2
+a290 1
+5000 1 1 0
+d321 2
+a322 1
+5000 1 1 0
+d341 2
+a342 1
+5000 1 1 0
+d360 2
+a361 1
+5000 1 1 0
+d384 2
+a385 1
+1 6100 610 0
+d395 2
+a396 1
+1 6100 610 0
+d410 2
+a411 1
+1 6100 610 0
+d425 2
+a426 1
+1 6100 610 0
+d440 2
+a441 1
+1 6100 610 0
+d456 1
+d469 1
+d482 1
+d484 1
+a484 1
+14 4
+d493 1
+d495 1
+a495 1
+14 7
+d503 2
+a504 1
+25 7400 740 0
+d510 1
+a510 1
+14 14
+d519 1
+d532 1
+d545 1
+d555 2
+a556 1
+7 2000 200 0
+d571 2
+a572 1
+10 8000 800 0
+d578 1
+a578 1
+19 2
+d587 1
+d600 1
+d608 2
+a609 1
+25 4500 450 0
+d611 1
+a611 1
+12 15
+d619 2
+a620 1
+30 6000 600 0
+d629 1
+d638 1
+d646 2
+a647 1
+15 500 50 0
+d655 2
+a656 1
+20 1000 100 0
+d664 2
+a665 1
+40 3000 300 0
+d673 2
+a674 1
+50 3000 300 0
+d683 1
+d692 1
+d701 1
+d703 1
+a703 1
+14 3
+d711 2
+a712 1
+12 1500 150 0
+d714 1
+a714 1
+14 5
+d722 2
+a723 1
+20 6900 690 0
+d725 1
+a725 1
+14 9
+d733 2
+a734 1
+3 7000 700 0
+d736 1
+a736 1
+18 2
+d745 1
+d754 1
+d764 2
+a765 1
+5 2000 200 0
+d775 2
+a776 1
+10 3000 300 0
+d785 1
+d794 1
+d806 2
+a807 1
+15 500 50 0
+d815 2
+a816 1
+20 1000 100 0
+d824 2
+a825 1
+25 3000 300 0
+d833 2
+a834 1
+30 6000 600 0
+d842 2
+a843 1
+9 2250 450 0
+d854 1
+d862 3
+a864 1
+6000 0 0 0
+d873 1
+d882 1
+d891 1
+d899 2
+a900 1
+2 2000 200 0
+d909 1
+d917 2
+a918 1
+2 2600 260 0
+d927 1
+d936 1
+d945 1
+d954 1
+d963 1
+d1000 1
+@
+
+
+1.2
+log
+@
+Changed:
+- Initial alpha commit on modified lib/world files
+@
+text
+@d197 1
+a197 1
+helmet bronze~
+d784 8
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d131 1
+a131 1
+9 0 9 0
+@
+

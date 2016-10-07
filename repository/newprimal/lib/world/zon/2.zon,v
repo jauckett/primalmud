@@ -1,0 +1,176 @@
+head	1.5;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2004.07.04.11.57.34;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.06.29.00.46.26;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.17.00.05.15;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.11.15.06.25;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.56;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Artus> Sync.
+@
+text
+@#2 1
+Estate~
+499 10 2 117440512
+O 0 251 10 265 	(An iron post)
+O 0 251 10 264 	(An iron post)
+O 0 251 10 263 	(An iron post)
+O 0 251 10 262 	(An iron post)
+O 0 251 10 261 	(An iron post)
+O 0 251 10 260 	(An iron post)
+O 0 251 10 259 	(An iron post)
+O 0 251 10 258 	(An iron post)
+O 0 251 10 257 	(An iron post)
+O 0 251 10 256 	(An iron post)
+O 0 250 23 251 	(a wrought iron ligh post)
+O 0 250 23 250 	(a wrought iron ligh post)
+O 0 250 23 272 	(a wrought iron ligh post)
+O 0 250 23 271 	(a wrought iron ligh post)
+O 0 250 23 270 	(a wrought iron ligh post)
+O 0 250 23 269 	(a wrought iron ligh post)
+O 0 250 23 268 	(a wrought iron ligh post)
+O 0 250 23 267 	(a wrought iron ligh post)
+O 0 250 23 266 	(a wrought iron ligh post)
+O 0 250 23 255 	(a wrought iron ligh post)
+O 0 250 23 254 	(a wrought iron ligh post)
+O 0 250 23 253 	(a wrought iron ligh post)
+O 0 250 23 252 	(a wrought iron ligh post)
+O 0 250 23 283 	(a wrought iron ligh post)
+O 0 250 23 282 	(a wrought iron ligh post)
+O 0 250 23 281 	(a wrought iron ligh post)
+O 0 250 23 280 	(a wrought iron ligh post)
+O 0 250 23 279 	(a wrought iron ligh post)
+O 0 250 23 278 	(a wrought iron ligh post)
+O 0 250 23 277 	(a wrought iron ligh post)
+O 0 250 23 276 	(a wrought iron ligh post)
+O 0 250 23 275 	(a wrought iron ligh post)
+O 0 250 23 274 	(a wrought iron ligh post)
+O 0 250 23 273 	(a wrought iron ligh post)
+D 0 339 3 1 	(Estate Office)
+O 0 1264 2 339 	(an automatic teller machine)
+O 0 201 1 339 	(Display Board)
+D 0 340 1 1 	(Meeting Room)
+S
+$
+@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@d4 38
+a41 1
+O 0 250 50 251 	(A wrought iron ligh post)
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d4 1
+@
+
+
+1.2
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d3 1
+a3 1
+499 10 2 0
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d2 1
+a2 1
+Estate
+a3 25
+*O 0 10002 99 289 ** Murfs objects into his house*
+*O 0 10003 99 289
+*O 0 10004 99 289
+*O 0 10005 99 289
+*O 0 10006 99 289** Murfs objects into his house*
+O 0 10070 99 1197** Objects loaded into storeroom*
+O 0 10071 99 1197
+O 0 10072 99 1197
+O 0 10073 99 1197
+O 0 10074 99 1197
+O 0 10075 99 1197
+O 0 10076 99 1197
+O 0 10077 99 1197
+O 0 10078 99 1197
+O 0 10088 99 1197
+O 0 10089 99 1197
+O 0 10090 99 1197
+O 0 10091 99 1197
+O 0 10092 99 1197
+O 0 10093 99 1197
+O 0 10094 99 1197
+O 0 10095 99 1197
+O 0 10096 99 1197
+O 0 10097 99 1197 *objects loaded into storeroom*
+*O 0 27016 99 *  *couch into tali's house*
+d5 1
+a5 2
+#99999
+$~
+@
+

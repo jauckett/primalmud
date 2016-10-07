@@ -1,0 +1,86 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@unpoison cast 'remove poison' $*
+curse cast 'curse' $*
+refresh cast 'refresh' $*;cast 'refresh' $*
+bless cast 'bless' $*
+wake wake;stand
+wolf title the werewolf!;holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+joke emote has lost his link.
+seeme cast 'detect invisibility' $*
+locate cast 'locate object' $*
+sense cast 'sense life' $*
+castle w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;n;e;n;e;n;n;n
+ccl cast 'cure critic' $*
+cc cast 'cure critic' $*
+tr hunt $*
+armor cast 'armor' $*
+hh cast 'heal' $*
+light cast 'infravision' $*
+csleep cast 'sleep' $*
+evil cast 'dispel evil' $*
+good cast 'dispel good' $*
+pp get recall all;rec recall
+gg get gold all;get gold
+zz get red all;q red
+gc get all all.corpse;get all;junk all.corpse
+bigrat grats ((((((<<<<<< $* >>>>>>))))))
+ab assist burzum
+j junk $*
+pd pick door
+qw get white all;q white
+jc get all.corpse;junk all.corpse
+summon cast 'summon' $*
+recall cast 'word' $*
+sanc cast 'sanctuary' $*
+enchant cast 'enchant' $*
+white cast 'sanc' $*;cast 'armor' $*;cast 'bless' $*
+charm cast 'charm' $*
+notfunny emote has reconnected.
+align cast 'detect alignment' $*
+gob cast 'create food';eat mushroom
+tn tag nightwolf
+food cast 'create food'
+tele cast 'teleport' $*
+quake cast 'earthquake' $*
+level rem fist;wield dagger
+fear cast 'fear' $*
+remcurse cast 'remove curse' $*
+bs rem blade;wield dagger;ba $*;rem dagger;wield blade
+rank title an AVENGER [ Knight ]
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

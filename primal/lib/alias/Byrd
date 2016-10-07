@@ -1,0 +1,30 @@
+f cast 'fireball' $*
+sum cast 'summon' $*
+lo cast 'locate object' $*
+op open door $*
+meat get meat for; eat meat
+rand s; w; w; w; w; w; w; w; w; w; w; n; n; n; w; w; s; s; w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e
+de cast 'dispel evil' $*
+deti cast 'detect invis' $*
+deta cast 'detect alignment' $*
+ed cast 'energy drain' $*
+arm cast 'armor'; cast 'armor'; cast 'armor'; cast 'armor'; cast 'bless'; cast 'bless'; cast 'bless'; cast 'bless'; cast 'infra'
+bs backstab $*
+inf cast 'infravision' $*
+sleep sleep; save
+hp train hit;train hit;train hit; train hit;train hit
+wh where $*
+cl cast 'cure light' $*
+bl cast 'bless' $*
+a cast 'armor' $*
+wake wake; stand
+cc cast 'cure critic' $*
+cdf get all all.cor
+recall cast 'word of recall' $*
+bre get bread for; eat bread
+ski get skin for; dri skin; put skin for
+white get white for; q white
+ht get tonic for; q tonic
+sanc cast 'sanctuary' $*
+un unlock door $*
+gesture : makes an inane magical gesture, your intestines implode, along with your manhood!

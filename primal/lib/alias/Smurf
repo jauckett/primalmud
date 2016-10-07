@@ -1,0 +1,4 @@
+gac get all all.corpse
+bh cast 'burning hands' $*
+h q red
+sl sleep

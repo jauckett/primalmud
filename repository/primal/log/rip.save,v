@@ -1,0 +1,2572 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.31.01;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.31.01;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@
+Sat Oct 25 11:10:02 :: Zimoplaz killed by Clockwork Knight at Micro Plaza infront of council chambers.
+Sat Oct 25 12:15:56 :: Snide killed by the trickster at Construction site
+Sat Oct 25 20:13:45 :: Raistlin killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Oct 25 20:14:03 :: Tupac killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Oct 26 00:01:38 :: Ndarki killed by the wraith at Nyrond road through Rushmoor Swamp.
+Sun Oct 26 10:27:22 :: Eldnar killed by Aarakocra at A billowing Blue Cloud
+Sun Oct 26 10:34:51 :: Flag killed by the master scheduler at The Waiting Room
+Sun Oct 26 23:39:02 :: Hal killed by Coffin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Oct 27 03:39:45 :: Ndarki killed by a large boring beetle at Dark tunnel
+Mon Oct 27 21:13:04 :: Moe killed by Raistlin at Large bubbling spring
+Mon Oct 27 22:28:10 :: Hal killed by Scylla at Inside a huge cavern
+Mon Oct 27 23:50:11 :: Youwho killed by the Guard at Futureworld departure lounge
+Tue Oct 28 00:57:30 :: Zimoplaz killed by a Black Leech at Base of a well
+Tue Oct 28 13:30:40 :: Tetsuo killed by the merchant at Market Way.
+Tue Oct 28 18:28:48 :: Tupac killed by Boz at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Tue Oct 28 22:43:00 :: Boo killed by the merchant at Construction site
+Wed Oct 29 13:00:27 :: Boz killed by Tupac at Southbank road.
+Thu Oct 30 10:21:34 :: Tetsuo killed by the merchant at Gambol road.
+Thu Oct 30 10:37:51 :: Tetsuo killed by the merchant at Gambol road.
+Fri Oct 31 13:38:01 :: Moe killed by the Receptionist at Entrance to the Wayfarers Inn.
+Fri Oct 31 13:38:29 :: Keelar killed by the Receptionist at Entrance to the Wayfarers Inn.
+Mon Nov 17 22:53:54 :: Jaro killed by the traveller at Southbank road.
+Mon Nov 17 23:28:35 :: Jaro killed by the trickster at Alchemist Shoppe.
+Tue Nov 18 16:09:38 :: Vahia killed by the citizen at Entrance to the Wayfarers Inn.
+Tue Nov 18 19:16:19 :: Tak killed by the guard master at In the dungeon
+Tue Nov 18 23:00:54 :: Tak killed by a Crystal Sentry  at The Throne Room
+Wed Nov 19 14:25:08 :: Crunch killed by the citizen at Intersection of Southbank and Main.
+Wed Nov 19 14:30:27 :: Crunch killed by the citizen at Boat shop.
+Wed Nov 19 15:15:35 :: Dangermouse killed by crypt thing at Diamond Crypt
+Thu Nov 20 00:51:30 :: Egon killed by Ndarki at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Nov 20 04:46:41 :: Ndarki killed by a Giant eel at Watery Tunnel
+Thu Nov 20 04:59:33 :: Ndarki killed by a large phoenix at Large Iron Gate
+Thu Nov 20 10:59:31 :: Exelion killed by the giant python at Nyrond Road at the edge of Lhankwood Forest.
+Thu Nov 20 11:17:29 :: Exelion killed by Clockwork Knight at Toyheim's Treasure Room.
+Thu Nov 20 13:17:47 :: Exelion killed by the ticket master at Ticket Booth
+Thu Nov 20 18:13:37 :: Youwho killed by the Guard at Futureworld departure lounge
+Thu Nov 20 19:28:06 :: Gee killed by the City Guard at Intersection of Southbank and Main.
+Fri Nov 21 12:41:20 :: Boz killed by Aarakocra at Marble Pillar
+Fri Nov 21 15:25:51 :: Boz killed by Tumble weed at The Outer Wall
+Fri Nov 21 20:53:09 :: WATCHLOG SWEAR: Boz gossips, 'Died in strange circumstances too: killed by one hbit by tumble weed!'
+Fri Nov 21 20:53:19 :: WATCHLOG SWEAR: Boz gossips, 'Died in strange circumstances too: killed by one hit by tumble weed!'
+Fri Nov 21 20:54:04 :: WATCHLOG SWEAR: Boz gossips, 'Died in weird circumstances too: killed by one hit by tumble weed!'
+Thu Nov  6 13:21:36 :: Moe killed by Movanic Deva at On the Indigo Cloud
+Sat Nov  8 04:32:19 :: CyPher killed by the werewolf at Construction site
+Sat Nov  8 08:52:30 :: Zimoplaz killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Nov  8 08:59:10 :: Zimoplaz killed by Moe at Mortal Kombat Battle ARENA!! (fight in dark)
+Sat Nov  8 14:57:08 :: Orc killed by Pure white mere at Inside Horse Penn.
+Sat Nov  8 16:02:37 :: Orc killed by a farmer at The Foyer, western end
+Mon Nov 10 03:26:21 :: Liza killed by a construction worker at Construction site
+Mon Nov 10 19:28:36 :: Moe killed by the God of the Challenging stairs at Ninteenth Level - The God of Challenging Stairs
+Mon Nov 10 21:00:02 :: Moe killed by Astral Deva at On the Cloud's Edge
+Tue Nov 11 00:51:51 :: Hewfish killed by Caesar at The Emperor's Private Office
+Tue Nov 11 07:24:43 :: Flag killed by the executioner at The Torture Chamber
+Tue Nov 11 23:02:41 :: Titus killed by Troglodyte at Southbank road.
+Sat Nov 29 16:10:50 :: Scorfio killed by Moridin at Intersection of Southbank and Main.
+Sat Nov 29 16:28:03 :: Scorfio killed while attempting to slay Uther (werewolf)
+Sat Nov 29 16:29:40 :: Scorfio killed while attempting to slay Uther (werewolf)
+Sun Nov 30 15:45:06 :: Exelion killed by Barbie Doll at Plastic Pla.
+Sun Nov 30 15:48:56 :: Exelion killed by Ken Doll at Plastic Pla.
+Tue Dec  2 04:51:58 :: May killed by the ancient green dragon at Dark forest path.
+Wed Dec  3 11:53:45 :: Moe killed while attempting to slay Zimoplaz (werewolf)
+Wed Dec  3 13:29:46 :: Coffin killed by Duney at Limbo
+Thu Dec  4 00:05:07 :: Cymbolz killed by the Guard at Medievalworld departure lounge
+Fri Dec  5 07:56:55 :: Duney killed by the City Guard at Intersection of Southbank and Main.
+Fri Dec  5 15:46:52 :: Kodiak killed by Boz at Wharf of Haven.
+Sat Dec  6 06:04:12 :: Zimoplaz killed by a Larger Shadowen at A Dark Passage
+Sat Dec  6 13:24:08 :: Boz killed by a Larger Shadowen at Training Room
+Sat Dec  6 16:06:08 :: Moe killed while attempting to slay Moridin (werewolf)
+Sat Dec  6 19:05:59 :: Gg killed by a Crystal Jester at Main street.
+Sat Dec  6 20:16:52 :: Tak killed by Troglodyte at Construction sit
+Tue Dec 16 16:14:24 :: Tak killed by Troglodyte at Southbank road.
+Tue Dec 16 18:38:25 :: Coffin killed by Tak at Intersection of Southbank and Main.
+Tue Dec 16 18:50:03 :: Jubei killed by the janitor at South east Council square.
+Tue Dec 16 19:04:32 :: Jubei killed by a construction worker at Construction site
+Wed Dec 17 00:39:39 :: JnrMafia killed by the Guard at Medievalworld departure lounge
+Wed Dec 17 00:42:13 :: JnrMafia killed by the janitor at Weapons shop.
+Wed Dec 17 00:43:54 :: JnrMafia killed by the Guard at Medievalworld departure lounge
+Wed Dec 17 01:24:57 :: JnrMafia killed by the Goblin at Regiment road.
+Wed Dec 17 04:05:23 :: Coffin killed by Troglodyte at Southbank road.
+Wed Dec 17 13:30:31 :: Mase killed by the Prince of challenging stairs at Seventeenth Level - The Prince of Challenging Stairs
+Wed Dec 17 13:39:26 :: Zimoplaz killed by the wicked pirate at Forward hatch.
+Wed Dec 17 13:47:22 :: Kapps killed by the leopards fighter at Sixth Level
+Wed Dec 17 14:11:07 :: Coffin killed by Troglodyte at Seventh Level
+Wed Dec 17 14:16:33 :: Coffin killed by the white tiger at Seventh Level
+Wed Dec 17 23:36:42 :: Coffin killed by Drider Master at Drider Master's Lair
+Thu Dec 18 01:24:46 :: Jaro killed by the citizen at Regiment road.
+Thu Dec 18 01:39:24 :: JnrMafia killed by Roper at Crossroads of Main and Regiment.
+Thu Dec 18 02:16:56 :: JnrMafia killed by a giant frog at At a stagnant pool.
+Thu Dec 18 05:09:04 :: Coffin killed by a vargouille at On the mighty river Eliqua.
+Thu Dec 18 09:37:47 :: Coffin killed by Drider Master at Drider Master's Lair
+Thu Dec 18 15:20:13 :: Coffin killed by Drider Master at Drider Master's Lair
+Thu Dec 18 17:31:23 :: Dracion killed by the merchant at The Armourer.
+Thu Dec 18 18:56:24 :: Keelar killed by Zeus at Throne of Zeus
+Thu Dec 18 19:41:31 :: JnrMafia killed by a construction worker at Construction site
+Thu Dec 18 21:46:55 :: Moe killed while attempting to slay Tak (vampire)
+Fri Dec 19 00:19:57 :: JnrMafia killed by the City Guard at Council square before chambers.
+Fri Dec 19 02:03:42 :: Makaveli killed by the citizen at Construction site
+Fri Dec 19 02:29:10 :: Jaro killed by the City Guard at Crossroads of Main and Regiment.
+Fri Dec 19 12:01:21 :: JnrMafia killed by the City Guard at Main street.
+Fri Dec 19 13:20:38 :: Viper killed by a Shadowen Cleric at Prayers Room
+Fri Dec 19 13:25:44 :: JnrMafia killed by the City Guard at Council square before chambers.
+Fri Dec 19 13:37:39 :: Viper killed by a Larger Shadowen at Training Room
+Fri Dec 19 14:11:24 :: Tak killed by Mercury at A Mountain Path
+Fri Dec 19 17:27:28 :: Coffin killed by Jupiter at The Summit of The Mountain of the Gods
+Fri Dec 19 17:39:06 :: Tak killed by Troglodyte at Southbank road.
+Fri Dec 19 20:31:16 :: Makaveli killed by the merchant at Gambol road.
+Fri Dec 19 20:45:21 :: Makaveli killed by the City Guard at Council square before chambers.
+Sat Dec 20 02:15:31 :: Makaveli killed by the hill giant at Rugged hills.
+Sat Dec 20 03:10:45 :: Makaveli killed by the City Guard at Intersection of Southbank and Main.
+Sat Dec 20 03:13:26 :: JnrMafia killed by the hill giant at Rugged hills.
+Sat Dec 20 13:41:18 :: Makaveli killed by Tak at Mortal Kombat Battle ARENA!! (No_Magic)
+Sat Dec 20 13:49:48 :: Tak killed by Raistlin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Dec 20 13:50:37 :: Tak killed by Raistlin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Dec 20 14:04:29 :: Tak killed by Ndarki at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Dec 20 14:36:20 :: Endymion killed by Ndarki at Eternals Avenue
+Sat Dec 20 14:44:00 :: Raistlin killed by Coffin at Great Sandy Desert.
+Sat Dec 20 14:57:13 :: Makaveli killed by Small Imp at Selva Road
+Sat Dec 20 15:13:25 :: Makaveli killed by Small Imp at At the beach
+Sat Dec 20 15:14:29 :: Makaveli killed by the Rabid Dog at Southbank road.
+Sat Dec 20 15:30:27 :: Coffin killed by the Receptionist at Entrance to the Wayfarers Inn.
+Sat Dec 20 15:53:12 :: Endymion killed by Cophen at Main Reception Area
+Sat Dec 20 16:03:17 :: Endymion killed by the Master Trainer at Paladin's Temple.
+Sat Dec 20 17:01:00 :: Coffin killed by the Shivan Dragon at Limbo
+Sat Dec 20 17:09:10 :: Cophen killed by the Shivan Dragon at Limbo
+Sat Dec 20 17:15:22 :: Tak killed by Moridin at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Sat Dec 20 18:03:50 :: Makaveli killed by the giant two headed troll at Dark forest path.
+Sat Dec 20 20:27:20 :: Keelar killed by Boz at Mortal Kombat Battle ARENA!! (fight in dark)
+Sat Dec 20 20:27:38 :: Tak killed by Boz at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Sat Dec 20 20:29:02 :: Ndarki killed by Boz at Mortal Kombat Battle ARENA!! (No_Magic)
+Sat Dec 20 20:31:23 :: Boz killed by Ndarki at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Dec 20 20:34:01 :: Keelar killed by Raistlin at Mortal Kombat Battle ARENA!! (fight in dark)
+Sun Dec 21 08:02:38 :: Coffin killed by Decay Daemon at Daemons Walk!
+Sun Dec 21 11:16:39 :: Coffin killed by Jupiter at Intersection of Southbank and Main.
+Sun Dec 21 11:55:59 :: Boz killed by Phoenix at A Clearing
+Sun Dec 21 19:21:52 :: Raistlin killed while attempting to slay Keelar (werewolf)
+Sun Dec 21 19:22:24 :: Raistlin killed while attempting to slay Keelar (werewolf)
+Sun Dec 21 19:40:30 :: Raistlin killed by Slithering tracker at Dark Center.
+Sun Dec 21 20:53:19 :: Makaveli killed by Troglodyte at Entrance to the Wayfarers Inn.
+Sun Dec 21 21:04:24 :: Meataxe killed by a Crystal Jester at Intersection of Southbank and Main.
+Sun Dec 21 22:35:09 :: Makaveli killed by the master scheduler at The Waiting Room
+Sun Dec 21 22:35:49 :: Makaveli killed by the Rabid Dog at Entrance to the Wayfarers Inn.
+Mon Dec 22 12:28:03 :: Moe killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Dec 22 12:31:09 :: Boz killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Dec 22 12:37:33 :: Moe killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Dec 22 12:39:56 :: Moe killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Dec 22 18:05:08 :: Meataxe killed by the City Guard at Council square before chambers.
+Mon Dec 22 18:05:50 :: Meataxe killed by the City Guard at Council square before chambers.
+Mon Dec 22 22:59:04 :: Meataxe killed by the grey enfan at Ershteep Road
+Mon Dec 22 23:24:16 :: Meataxe killed by the Assasin at Entrance to the Wayfarers Inn.
+Mon Dec 22 23:49:11 :: Meataxe killed by the Master Trainer at Paladin's Temple.
+Mon Dec 22 23:49:59 :: Meataxe killed by the Rabid Dog at Entrance to the Wayfarers Inn.
+Tue Dec 23 01:28:18 :: Kodiak killed by Santa at Intersection of Southbank and Main.
+Tue Dec 23 01:30:15 :: Kodiak killed by Carolyn at Main Street.
+Tue Dec 23 01:38:19 :: Kodiak killed by Keelar at Wharf of Haven.
+Tue Dec 23 01:50:08 :: Kodiak killed by Santa at Boat shop.
+Tue Dec 23 02:01:11 :: Kodiak killed by Carolyn at Main Street.
+Tue Dec 23 02:06:52 :: Kodiak killed by Carolyn at Main Street.
+Tue Dec 23 02:08:40 :: Kodiak killed by Carolyn at Main Street.
+Tue Dec 23 02:10:51 :: Kodiak killed by Carolyn at Main Street.
+Tue Dec 23 02:11:32 :: Kodiak killed by Carolyn at Main Street.
+Tue Dec 23 09:14:51 :: Tak killed by Santa at Southbank road.
+Tue Dec 23 09:34:21 :: Endymion killed by Santa at Southbank road.
+Tue Dec 23 10:58:13 :: Turbo killed by the Beggar at Main street.
+Tue Dec 23 12:30:56 :: Zimoplaz killed by the sailor at Starboard gunwhale.
+Tue Dec 23 12:53:51 :: Zimoplaz killed by Santa at Southbank road.
+Tue Dec 23 12:58:57 :: Turbokiller killed by Turbo at Main Street.
+Tue Dec 23 15:14:52 :: Makaveli killed by Turbo at Intersection of Southbank and Main.
+Tue Dec 23 15:29:49 :: Makaveli killed by the City Guard at Crossroads of Main and Regiment.
+Tue Dec 23 16:32:30 :: Meataxe killed by the ticket master at Ticket Booth
+Tue Dec 23 16:57:16 :: Meataxe killed by the white stallion of Lhankwood at Southbank road.
+Tue Dec 23 17:28:23 :: Meataxe killed by the ancient treant at Obscured path in the forest.
+Tue Dec 23 19:00:06 :: Tak killed by Santa at Intersection of Southbank and Main.
+Tue Dec 23 19:01:11 :: Tak killed by Santa at Intersection of Southbank and Main.
+Tue Dec 23 19:33:23 :: SoldierBoy killed by the janitor at Main street central.
+Tue Dec 23 19:42:04 :: Tak killed by Santa at Intersection of Southbank and Main.
+Tue Dec 23 20:01:43 :: Keeelar killed by Carolyn at Main Street.
+Tue Dec 23 20:36:20 :: Raistlin killed by Jupiter at The Summit of The Mountain of the Gods
+Tue Dec 23 20:46:16 :: Raistlin killed by Jupiter at The Summit of The Mountain of the Gods
+Tue Dec 23 20:49:52 :: Raistlin killed by Jupiter at The Summit of The Mountain of the Gods
+Tue Dec 23 20:53:23 :: Raistlin killed by Jupiter at The Summit of The Mountain of the Gods
+Tue Dec 23 21:07:37 :: Raistlin killed by Jupiter at The Summit of The Mountain of the Gods
+Tue Dec 23 21:32:05 :: Moe killed by Santa at Main Street.
+Tue Dec 23 22:45:26 :: Moe killed by Santa at Main street.
+Wed Dec 24 05:04:16 :: Zax killed by the trickster at Main Street.
+Wed Dec 24 10:53:32 :: Tak killed by spotted lion at Dead end in the Sandstone courtyard
+Wed Dec 24 18:45:33 :: Legion killed by the hungy wolf at End of an animal trail
+Wed Dec 24 19:59:02 :: Tak killed by a large eagle at Corner of the Courtyard
+Thu Dec 25 00:30:55 :: Moe killed by Santa at Southbank road.
+Thu Dec 25 04:17:05 :: Tak killed by Giant dragonfly at On the sphinx
+Thu Dec 25 04:58:27 :: Ndarki killed by Mars at A Mountain Path
+Thu Dec 25 12:37:36 :: Tak killed by catoblepas at Watery Tunnel
+Thu Dec 25 14:04:20 :: Ndarki killed by Phoenix at The Woods
+Thu Dec 25 17:55:39 :: Xena killed by Astral Deva at On the Cloud's edge
+Thu Dec 25 18:02:33 :: Damo killed by Carolyn at Main Street.
+Thu Dec 25 18:03:54 :: Winfield killed by Carolyn at Main Street.
+Thu Dec 25 22:26:03 :: Makaveli killed by the Assasin at Main Street.
+Thu Dec 25 22:29:47 :: Makaveli killed by the Assasin at Main Street.
+Thu Dec 25 22:52:08 :: Makaveli killed by Carolyn at Main Street.
+Fri Dec 26 01:01:17 :: Damo killed by the Assasin at Main Street.
+Fri Dec 26 02:26:52 :: JnrMafia killed by an Ivory Guardian at Crossroads
+Fri Dec 26 16:33:41 :: Mudsucks killed by a construction worker at Construction site
+Fri Dec 26 17:13:26 :: JnrMafia killed by the City Guard at Eastern Council square.
+Sat Dec 27 12:30:54 :: Snoop killed by a construction worker at Construction site
+Sat Dec 27 13:34:35 :: Snoop killed by Tak at Main street central.
+Sat Dec 27 18:28:28 :: Snoop killed by the huge buffalo at Enterance to old homestead
+Sat Dec 27 20:10:16 :: Raistlin killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Dec 29 13:43:17 :: Moridin killed by a large eagle at Sandstone courtyard
+Mon Dec 29 15:36:47 :: Ndarki killed by Satyr at The Woods
+Mon Dec 29 18:24:07 :: Ndarki killed by Zeus at Throne of Zeus
+Mon Dec 29 18:29:59 :: Ndarki killed by Zeus at Throne of Zeus
+Mon Dec 29 18:47:55 :: Ndarki killed by King Minos at Throne room
+Tue Dec 30 19:50:20 :: Ndarki killed by the water elemental. at In the middle of the river Eliqua.
+Tue Dec 30 20:16:59 :: Ndarki killed by Monadic Deva at On the Cloud's Edge
+Tue Dec 30 20:36:55 :: Tak killed by the vampire at Taks House
+Tue Dec 30 20:37:28 :: Tak killed by the vampire at Taks House
+Tue Dec 30 20:38:52 :: Tak killed by the vampire at Southbank road.
+Tue Dec 30 23:06:49 :: Ndarki killed by the water elemental. at In the middle of the river Eliqua.
+Wed Dec 31 14:27:20 :: Drudge killed by Hideous beast at THE PIT!
+Wed Dec 31 16:19:15 :: Coffin killed by Carolyn at Main Street.
+Wed Dec 31 16:20:06 :: Coffin killed by Carolyn at Main Street.
+Wed Dec 31 16:21:12 :: Coffin killed by Troglodyte at Main Street.
+Wed Dec 31 16:21:30 :: Coffin killed by Carolyn at Main Street.
+Wed Dec 31 16:22:14 :: Coffin killed by Carolyn at Main Street.
+Wed Dec 31 16:22:36 :: Coffin killed by Carolyn at Main Street.
+Wed Dec 31 16:31:46 :: Coffin killed by Santa at Entrance to a rundown warehouse.
+Wed Dec 31 17:25:33 :: Raistlin killed by Venus at A Mountain Path
+Thu Jan  1 14:56:11 :: Coffin killed by Hideous beast at THE PIT!
+Thu Jan  1 15:52:20 :: Ndarki killed by Aphrodite at The Woods
+Fri Jan  2 11:39:13 :: JnrMafia killed by a Crystal Jester at Main Street.
+Thu Jan  8 17:31:39 :: Coffin killed by the water elemental. at In the middle of the river Eliqua.
+Thu Jan  8 20:04:40 :: JnrMafia killed by the City Guard at Intersection of Southbank and Main.
+Fri Jan  9 01:36:50 :: JnrMafia killed by Kodiak at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Jan  9 02:10:22 :: Rupey killed by Jo-Ellen at Sheriffs Office
+Fri Jan  9 12:08:13 :: Meckai killed by the slimeball at The Aqueduct
+Fri Jan  9 14:00:12 :: JnrMafia killed by the ticket master at Ticket Booth
+Fri Jan  9 14:01:07 :: JnrMafia killed by the Rabid Dog at Southbank Road.
+Fri Jan  9 14:17:15 :: JnrMafia killed by the ticket master at Ticket Booth
+Fri Jan  9 14:26:32 :: JnrMafia killed by the ticket master at Ticket Booth
+Sat Jan 10 01:11:55 :: Gina killed by the green enfan at Ershteep Road
+Sat Jan 10 17:17:46 :: JnrMafia killed by the City Guard at Intersection of Southbank and Main.
+Sat Jan 10 21:23:22 :: Moridin killed by Trakker at Spiraling tunnel.
+Sun Jan 11 00:14:48 :: BuRn killed by the hungry wolf at In long grass.
+Sun Jan 11 00:38:46 :: BuRn killed by the citizen at Main Street.
+Sun Jan 11 12:15:10 :: BuRn killed by the citizen at Main Street Central.
+Sun Jan 11 12:42:02 :: BuRn killed by the janitor at Gambol Road.
+Sun Jan 11 12:42:57 :: BuRn killed by the Rabid Dog at Intersection of Market and Gambol.
+Sun Jan 11 12:48:17 :: BuRn killed by the citizen at Main Street.
+Sun Jan 11 13:48:36 :: BuRn killed by the City Guard at Intersection of Southbank and Main.
+Sun Jan 11 23:30:40 :: JnrMafia killed by the wraith at Rushmoor Swamp.
+Mon Jan 12 00:53:44 :: Primer killed by Astral Deva at On the Cloud's Edge
+Thu Jan 15 21:20:32 :: Tak killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jan 15 21:22:05 :: Tak killed by Moe at River Road.
+Fri Jan 16 00:53:08 :: Primer killed by Storekeeper at The General store
+Fri Jan 16 10:19:20 :: Enlbrite killed by a Crystal Jester at Main Street.
+Fri Jan 16 12:38:21 :: Zimoplaz killed by the Corporal at Fort Blue Creek
+Sat Jan 17 00:32:16 :: Enlbrite killed by a construction worker at Construction site
+Sat Jan 17 12:10:57 :: Enlbrite killed by the traveller at Crossroads of Main and Regiment.
+Sat Jan 17 13:40:48 :: Enlbrite killed by the werewolf at Rugged hills.
+Sat Jan 17 14:45:28 :: Raistlin killed by a bartender at Stanneg Inn
+Sat Jan 17 14:55:09 :: Raistlin killed by a bartender at Reception
+Sat Jan 17 15:09:03 :: Raistlin killed by Tak at Wharf of Haven.
+Sat Jan 17 15:09:40 :: Raistlin killed by Tak at Wharf of Haven.
+Sat Jan 17 16:47:58 :: Enlibrite killed by Clockwork Knight at Micro Plaza infront of council chambers.
+Sat Jan 17 22:26:29 :: JnrMafia killed by son of kyuss at Long grey hallway
+Sun Jan 18 19:34:46 :: Mika killed by an orc at Nyrond Road.
+Sun Jan 18 22:58:54 :: Moe killed by Drider Queen at Drider Queen's Lair
+Wed Jan 21 14:12:18 :: Josh killed by Vore at Aegean Sea
+Fri Jan 23 17:53:05 :: Abulafia killed by Dragon Horse at Large bubbling spring
+Fri Jan 23 22:43:20 :: JnrMafia killed by the City Guard at Main Street Central.
+Fri Jan 23 22:45:34 :: JnrMafia killed by the Guildmaster at Warrior's Guild.
+Sat Jan 24 01:23:01 :: JnrMafia killed by the City Guard at Council Square before Chambers.
+Sat Jan 24 07:23:40 :: Impish killed by the merchant at General Store.
+Sat Jan 24 16:47:52 :: Smack killed by the City Guard at Southern Council Square.
+Sat Jan 24 20:42:08 :: Smack killed by a ghast at Pebbled path.
+Sat Jan 24 20:42:30 :: Impish killed by the hungry wolf at Dirt road through the plains
+Sun Jan 25 11:00:22 :: Asheena killed by the gateguard at The Abandoned Gate
+Sun Jan 25 16:15:36 :: Redlo killed by the citizen at Broken drawbridge.
+Sun Jan 25 17:58:10 :: Smack killed by Dracion at Mortal Kombat Battle ARENA!! (No_Magic)
+Sun Jan 25 18:01:46 :: Smack killed by Enlibrite at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Sun Jan 25 18:05:34 :: Smack killed by Enlibrite at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Jan 25 19:40:25 :: Asheena killed by the ticket master at Ticket Booth
+Sun Jan 25 21:33:39 :: Coustas killed by the Assassin at Main Street.
+Sun Jan 25 21:46:11 :: Coustas killed by the Assassin at Main Street.
+Mon Jan 26 04:59:05 :: Wage killed by the huge buffalo at End of Southbank Road.
+Mon Jan 26 10:52:13 :: Wage killed by the citizen at Crossroads of Main and Regiment.
+Tue Jan 27 03:14:27 :: ReturnOfIndiana killed by a ghast at Rocky path
+Tue Jan 27 12:08:01 :: Asheena killed by Caesar at The Emperor's Private Office
+Wed Jan 28 02:22:03 :: ReturnOfIndiana killed by Mercury at A Mountain Path
+Wed Jan 28 02:50:06 :: Soth killed by the City Guard at Main Street.
+Wed Jan 28 19:00:04 :: Crystal killed by the Rabid Dog at Southbank Road.
+Thu Jan 29 06:35:07 :: Coffin killed by Jupiter at The Summit of The Mountain of the Gods
+Thu Jan 29 06:36:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:36:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:36:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:36:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:36:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:36:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:36:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:36:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:36:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:37:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:38:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:39:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:40:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:41:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:42:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:43:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:44:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:45:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:46:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:47:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:48:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:49:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:50:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:51:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:52:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:53:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:54:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:55:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:56:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:57:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:58:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 06:59:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:00:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:01:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:02:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:03:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:04:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:05:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:06:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:07:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:08:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:09:59 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:10:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:12 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:25 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:38 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:52 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:11:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:03 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:05 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:12:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:13:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:13:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:15 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:30 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:14:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:01 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:06 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:08 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:10 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:17 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:19 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:21 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:23 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:26 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:28 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:32 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:39 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:41 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:15:50 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:14 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:34 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:36 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:43 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:45 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:54 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:56 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:17:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:07 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:13 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:16 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:27 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:42 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:47 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:49 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:55 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:18:58 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:00 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:02 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:04 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:09 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:11 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:18 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:20 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:22 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:24 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:29 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:31 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:33 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:35 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:37 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:40 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:44 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:46 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:48 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:51 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:53 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 07:19:57 :: Coffin killed by Tak at Wharf of Haven.
+Thu Jan 29 14:28:14 :: Marz killed by the executioner at The Torture Chamber
+Thu Jan 29 15:29:54 :: Marz killed by Moe at Mortal Kombat Battle ARENA!! (fight in dark)
+Thu Jan 29 17:58:05 :: Marz killed by the huge buffalo at In long grass.
+Thu Jan 29 18:05:48 :: Marz killed by the merchant at Regiment Road.
+Thu Jan 29 19:42:00 :: Keelar killed by Moe at Mortal Kombat Battle ARENA!! (fight in dark)
+Fri Jan 30 01:45:50 :: Moe killed by Zeus at Throne of Zeus
+Fri Jan 30 10:42:09 :: Moe killed by Armourer at The Armourer's store
+Fri Jan 30 13:15:27 :: Marz killed by the cloaker at In a ferny gorge.
+Sat Jan 31 01:01:16 :: Azza killed by the huge buffalo at Southbank Road.
+Sun Feb  1 13:30:59 :: Raistlin killed by Roper at Southbank Road.
+Sun Feb  1 17:32:17 :: Enlibrite killed by the Guildmaster at Entrance to a rundown warehouse.
+Sun Feb  1 22:26:08 :: Moe killed by Jupiter at The Summit of The Mountain of the Gods
+Sun Feb  1 22:30:30 :: Moe killed by Jupiter at The Summit of The Mountain of the Gods
+Sun Feb  1 23:34:53 :: Moe killed by Zeus at Throne of Zeus
+Mon Feb  2 19:02:26 :: Marz killed by the white stallion of Lhankwood at Dim passage.
+Mon Feb  2 19:09:46 :: Marz killed by the white stallion of Lhankwood at Dim passage.
+Tue Feb  3 01:10:27 :: Moe killed by Mars at A Mountain Path
+Tue Feb  3 01:14:47 :: Primer killed by Mars at A Mountain Path
+Tue Feb  3 01:16:06 :: Primer killed by Mercury at A Mountain Path
+Tue Feb  3 01:20:13 :: Moe killed by Mars at A Mountain Path
+Tue Feb  3 16:04:48 :: Pug killed by the water elemental. at On the river Eliqua.
+Wed Feb  4 02:49:07 :: Mysty killed by a construction worker at Construction site
+Wed Feb  4 05:12:24 :: Merin killed by the merchant at Magic Shoppe.
+Wed Feb  4 13:37:58 :: Trial killed by a construction worker at Construction site
+Wed Feb  4 19:37:01 :: Traysor killed by the Guard at Paladin's Temple.
+Wed Feb  4 21:09:24 :: Marz killed by the gypsy at Darask Road.
+Thu Feb  5 03:43:53 :: Tkar killed by the City Guard at Intersection of Southbank and Main.
+Thu Feb  5 20:02:21 :: Marz killed by Roper at Selva Road
+Thu Feb  5 23:18:56 :: Duney killed by Moe at Karma Sutra's House.
+Fri Feb  6 10:12:31 :: Marz killed by a Tundra Wolf at Plains
+Fri Feb  6 10:17:34 :: Marz killed by a Tundra Wolf at Plains
+Fri Feb  6 10:20:02 :: Marz killed by a Tundra Wolf at Plains
+Fri Feb  6 10:21:55 :: Marz killed by a Tundra Wolf at Plains
+Sat Feb  7 00:58:23 :: Moe killed by an old Jedi Knight at Jedi Store
+Sat Feb  7 01:17:47 :: Moe killed by an old Jedi Knight at Mortal Kombat Battle ARENA!! (No_Magic)
+Sun Feb  8 14:15:53 :: Raistlin killed by Boz at East Gate.
+Sun Feb  8 21:25:33 :: Boz killed by an old Jedi Knight at Mortal Kombat Battle ARENA!! (fight in dark)
+Sun Feb  8 21:42:29 :: Moe killed by an old Jedi Knight at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Feb  9 01:42:54 :: Payne killed by the brigand at Standing on rubble.
+Mon Feb  9 02:09:47 :: Primer killed by a Giant eel at Watery Tunnel
+Mon Feb  9 13:40:29 :: Moe killed by an old Jedi Knight at Jedi Store
+Mon Feb  9 13:42:15 :: Moe killed by an old Jedi Knight at Jedi Store
+Tue Feb 10 21:05:23 :: Brado killed by Tsd at Mortal Kombat Battle ARENA!! (No_Magic)
+Tue Feb 10 22:31:54 :: Raistlin killed by Jupiter at The Summit of The Mountain of the Gods
+Wed Feb 11 13:46:01 :: Octopussy killed by Moe at Mortal Kombat Battle ARENA!! (No_Magic)
+Wed Feb 11 17:21:33 :: Octopussy killed by a giant sandworm at In the sand dunes.
+Wed Feb 11 20:14:49 :: Greta killed by a construction worker at Construction site
+Wed Feb 11 23:39:32 :: Moe killed by the huge serpent. at Near the Northern shore.
+Thu Feb 12 11:05:44 :: Marz killed by the giant two headed troll at Dark forest path.
+Thu Feb 12 11:08:51 :: Marz killed by the giant two headed troll at Wandering a forest trail.
+Thu Feb 12 14:37:15 :: JnrMafia killed by the Guard at Paladin's Temple.
+Thu Feb 12 15:59:38 :: JnrMafia killed by the dragon at In the cave.
+Fri Feb 13 01:45:26 :: Quark killed by the Goblin at Regiment Road.
+Fri Feb 13 02:05:09 :: VrOOm killed by the bandit at Darask Road.
+Fri Feb 13 02:21:44 :: Quark killed by the vulture at Gambol Road.
+Fri Feb 13 02:25:50 :: Quark killed by the janitor at Eastern Council Square.
+Fri Feb 13 02:42:10 :: Everybody killed by the giant lizard at Path to the Moathouse
+Fri Feb 13 02:42:26 :: Quark killed by the giant lizard at Path to the Moathouse
+Fri Feb 13 02:45:22 :: Everybody killed by the City Guard at West end of Council Square.
+Fri Feb 13 04:39:08 :: Quark killed by a giant frog at At a stagnant pool.
+Fri Feb 13 18:40:43 :: Moe killed by the huge serpent. at On the mighty river Eliqua.
+Sat Feb 14 01:53:58 :: Quark killed by a Crystal Jester at Noble Estate
+Sun Feb 15 00:50:39 :: Primer killed by Moe at Primers Palace
+Sun Feb 15 05:21:26 :: Patriot killed by the City Guard at Main Street.
+Sun Feb 15 05:47:33 :: Quark killed by the huge buffalo at Near a waterhole.
+Sun Feb 15 12:25:20 :: Tester killed by the Cowboy at Blue Creek Rd
+Sun Feb 15 12:26:26 :: Tester killed by the Cowboy at Blue Creek Rd
+Sun Feb 15 18:13:38 :: Rasputin killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Feb 15 18:26:27 :: Dracion killed by Moe at Mortal Kombat Battle ARENA!! (No_Magic)
+Sun Feb 15 18:33:50 :: Nightwolf killed by Moe at Mortal Kombat Battle ARENA!! (No_Magic)
+Sun Feb 15 18:59:46 :: Raistlin killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Feb 16 00:33:03 :: Moe killed by Mars at A Mountain Path
+Mon Feb 16 13:46:05 :: Marz killed by the Cartaker at Caretakers bedroom.
+Mon Feb 16 14:25:24 :: Marz killed by Caesar at Main Street.
+Mon Feb 16 15:47:19 :: Marz killed by the stadium vendor at Common Seating
+Tue Feb 17 13:11:55 :: Moe killed by Zeus at Throne of Zeus
+Tue Feb 17 13:55:07 :: Moe killed by Venus at A Mountain Path
+Tue Feb 17 17:27:14 :: Marz killed by the soldier at End of the Clay Road
+Fri Feb 20 17:49:09 :: Zx killed by Amphine at Main Street.
+Fri Feb 20 19:15:20 :: Amphine killed by the Druid at At the beach
+Fri Feb 20 19:19:39 :: Amphine killed by the Druid at Inside Salvatore's I-Scream-Gelati Cafe
+Fri Feb 20 19:22:25 :: Amphine killed by the Druid at At the beach
+Fri Feb 20 21:58:01 :: Chalks killed by the Guard at Futureworld departure lounge
+Fri Feb 20 22:10:22 :: Chalks killed by the City Guard at West end of Council Square.
+Sat Feb 21 02:17:04 :: Primer killed by Sterope at A large tree
+Sun Feb 22 12:12:51 :: Mute killed by the City Guard at Council Square before Chambers.
+Sun Feb 22 15:24:46 :: BuRn killed by Tupac at Main Street.
+Sun Feb 22 20:37:52 :: BuRn killed by a Crystal Jester at Pomarj Road, before Haven.
+Mon Feb 23 06:17:02 :: Gerrard killed by a construction worker at Construction site
+Mon Feb 23 06:18:11 :: Gerrard killed by the Guard at Futureworld departure lounge
+Mon Feb 23 06:19:37 :: Gerrard killed by the Goblin at Main Street Central.
+Mon Feb 23 17:26:16 :: BuRn killed by the white stallion of Lhankwood at Main Street.
+Sun Mar  1 11:01:57 :: Primer killed by King Minos at Throne room
+Sun Mar  1 17:50:11 :: Kain killed by the huge buffalo at Regiment Road.
+Sun Mar  1 21:03:04 :: Primer killed by Poseidon at Before the throne
+Mon Mar  2 02:36:53 :: Skywind killed by a Crystal Jester at Center pathway.
+Mon Mar  2 02:37:50 :: Skywind killed by a Crystal Jester at Center pathway.
+Mon Mar  2 02:38:52 :: Skywind killed by a Crystal Jester at Center pathway.
+Mon Mar  2 02:39:33 :: Skywind killed by a Crystal Jester at Center pathway.
+Mon Mar  2 02:40:57 :: Skywind killed by a Crystal Jester at Center pathway.
+Mon Mar  2 03:54:44 :: Pug killed by Lurker at Dark tunnel
+Mon Mar  2 04:00:03 :: Pug killed by Wererat at Split in Dark tunnel
+Mon Mar  2 12:14:46 :: Diablo killed by the giant python at Regiment Road.
+Mon Mar  2 12:21:59 :: Diablo killed by the giant python at Regiment Road.
+Mon Mar  2 19:04:35 :: Amphine killed by the City Guard at Intersection of Southbank and Main.
+Mon Mar  2 22:43:55 :: Primer killed by the water elemental. at On the river Eliqua.
+Wed Mar  4 06:40:28 :: Khandur killed by the janitor at Regiment Road.
+Wed Mar  4 22:34:18 :: Amphine killed by a sunbather at At the beach
+Wed Mar  4 22:59:04 :: Amphine killed by a barracuda at Coral reef
+Thu Mar  5 01:26:05 :: Primer killed by the Master Trainer at Paladin's Temple.
+Thu Mar  5 01:26:36 :: Primer killed by the Guard at Paladin's Temple.
+Fri Mar  6 15:34:24 :: JnrMafia killed by the giant python at Nyrond Road at the edge of Lhankwood Forest.
+Sun Mar  8 03:44:57 :: Bagel killed by the werewolf at Main Street.
+Tue Mar 10 10:58:41 :: Primer killed by a shark at Ocean floor
+Tue Mar 10 16:46:36 :: Viper killed by the water elemental. at In the middle of the river Eliqua.
+Tue Mar 10 18:51:52 :: Amphine killed by a Spirit of the Drowned at Seaweed forest
+Sun Mar 15 12:45:55 :: Zeal killed by the City Guard at Crossroads of Main and Regiment.
+Mon Mar 16 22:55:23 :: Primer killed by Mars at A Mountain Path
+Tue Mar 17 04:19:26 :: Ralsin killed by the citizen at Main Street Central.
+Tue Mar 17 23:34:54 :: Primer killed by Nymph at The Woods
+Wed Mar 18 11:55:05 :: Primer killed by Aphrodite at The Woods
+Thu Mar 19 09:19:32 :: Rasard killed by Alias the jester at Main Street Central.
+Thu Mar 19 10:13:35 :: Skywind killed by the City Guard at End of Southbank Road.
+Sun Mar 22 01:14:47 :: Badboy killed by Wildbeast at Intersection of Southbank and Main.
+Sun Mar 22 17:17:42 :: Harry killed by Dracion at Riverside Tavern.
+Mon Mar 23 22:36:15 :: JnrMafia killed by Melchid at Paladin's Temple.
+Mon Mar 23 22:50:44 :: Wildbeast killed by the City Guard at Intersection of Southbank and Main.
+Mon Mar 23 22:59:25 :: Wildbeast killed by the City Guard at Crossroads of Main and Regiment.
+Mon Mar 23 23:01:29 :: Wildbeast killed by the City Guard at Crossroads of Main and Regiment.
+Tue Mar 24 13:31:27 :: Arthur killed by the hungry wolf at In long grass.
+Wed Mar 25 00:38:08 :: Mantra killed by the Assassin at Intersection of Southbank and Main.
+Wed Mar 25 03:17:04 :: Bonus killed by the City Guard at Crossroads of Main and Regiment.
+Wed Mar 25 05:16:01 :: Tomahawk killed by the citizen at Weapons shop.
+Wed Mar 25 23:54:24 :: Wildbeast killed by an Elvish Scout at The Thickets
+Thu Mar 26 01:05:50 :: Wildbeast killed by the ticket master at Ticket Booth
+Thu Mar 26 01:55:50 :: Hardware killed by the slimeball at The Aqueduct
+Thu Mar 26 17:57:12 :: Boz killed by Monadic Deva at On the Indigo Cloud
+Fri Mar 27 00:19:22 :: Hardware killed by the gypsy at Darask Road.
+Fri Mar 27 01:23:57 :: Ravellian killed by Elf at The Armourer's.
+Sat Mar 28 02:26:22 :: Dangermouse killed by Astral Deva at On the White Cloud
+Sat Mar 28 04:19:25 :: Nikaron killed by the hungry wolf at Dirt road through the plains
+Sat Mar 28 04:36:14 :: Nigger killed by the Guard at Medievalworld departure lounge
+autoscript killed Sat Mar 28 14:43:08 EST 1998
+Sat Mar 28 18:54:48 :: JnrMafia killed by a reflection at Nexus
+autoscript killed Sat Mar 28 22:47:55 EST 1998
+Sun Mar 29 06:05:28 :: Faro killed by a construction worker at Construction site
+Sun Mar 29 14:56:12 :: Pug killed by the wench at Second Floor of the inn
+Sun Mar 29 21:37:17 :: Brett killed by Satyr at The Woods
+Mon Mar 30 07:36:44 :: Dan killed by the trickster at Central Council Square.
+Mon Mar 30 08:09:12 :: Fifty killed by the trickster at Main Street.
+Mon Mar 30 09:59:27 :: Synaac killed by the Goblin at Regiment Road.
+Mon Mar 30 10:58:23 :: Msear killed by the white stallion of Lhankwood at The Traveller's Guide
+Mon Mar 30 11:02:23 :: Msear killed by the City Guard at The Armourer's.
+Mon Mar 30 11:26:31 :: Msear killed by the huge buffalo at Council Square before Chambers.
+Mon Mar 30 13:16:34 :: Synaac killed by the huge buffalo at Main Street.
+Mon Mar 30 14:52:03 :: Kodiak killed while attempting to slay Hal (vampire)
+Mon Mar 30 14:52:52 :: Kodiak killed while attempting to slay Hal (vampire)
+Mon Mar 30 14:53:24 :: Kodiak killed while attempting to slay Hal (vampire)
+Mon Mar 30 14:53:41 :: Kodiak killed while attempting to slay Hal (vampire)
+Mon Mar 30 14:54:31 :: Kodiak killed while attempting to slay Hal (vampire)
+Mon Mar 30 14:55:01 :: Kodiak killed while attempting to slay Hal (vampire)
+Mon Mar 30 14:55:16 :: Kodiak killed while attempting to slay Hal (vampire)
+Mon Mar 30 21:07:32 :: Dracion killed by Lefty at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Mon Mar 30 23:24:00 :: Nikaron killed by the huge buffalo at In long grass.
+Tue Mar 31 06:31:58 :: Winston killed by Dracion at Mortal Kombat Battle ARENA!! (No_Magic)
+Tue Mar 31 08:16:07 :: Synaac killed by the traveller at Gambol Road.
+Tue Mar 31 09:20:40 :: Fifty killed by Dracion at Main Street Central.
+Tue Mar 31 10:22:29 :: Icysting killed by the healer at The First-Aid Station
+Tue Mar 31 21:22:28 :: Nikaron killed by the hungry wolf at In a wolves' den.
+Tue Mar 31 23:29:38 :: Wildbeast killed by the Grocer at The General Store
+Wed Apr  1 03:13:39 :: Icysting killed by the healer at The First-Aid Station
+Wed Apr  1 04:02:43 :: Hedron killed by a construction worker at Construction site
+Wed Apr  1 07:30:16 :: Icysting killed by the gladiator at The Jousting Arena
+Wed Apr  1 07:43:19 :: Icysting killed by the gladiator at The Practice and Warm-up Area
+Wed Apr  1 17:36:38 :: Chronos killed by a construction worker at Construction site
+Thu Apr  2 00:48:56 :: Dracion killed by Jupiter at Main Street.
+Thu Apr  2 03:32:20 :: Xaviar killed by Old Niklaas at Main Street.
+Thu Apr  2 08:02:43 :: Fifty killed by Sheriff at Outside Horse Penn.
+Thu Apr  2 11:46:18 :: Primer killed by Old Niklaas at Main Street.
+Thu Apr  2 11:50:47 :: Primer killed by Old Niklaas at Main Street.
+Thu Apr  2 20:07:09 :: Enlibrite killed by Old Niklaas at Main Street.
+Thu Apr  2 21:47:40 :: Moe killed by Old Niklaas at Immortals' Clubhouse
+Thu Apr  2 23:21:41 :: Wildbeast killed by the lich at Bottom of a rope ladder.
+Fri Apr  3 01:26:11 :: Brett killed by Satyr at The Woods
+Fri Apr  3 10:50:16 :: Moe killed while attempting to slay Hal (werewolf)
+Fri Apr  3 10:50:38 :: Moe killed while attempting to slay Hal (werewolf)
+Fri Apr  3 10:50:47 :: Moe killed while attempting to slay Hal (werewolf)
+Fri Apr  3 20:26:05 :: Crystal killed by the Crystal King  at The Throne Room
+Fri Apr  3 23:36:33 :: Makaveli killed by the Lake Ness Moster at Pomarj Road, before Haven.
+Sat Apr  4 00:13:59 :: Nikaron killed by the huge buffalo at In long grass.
+Sat Apr  4 00:56:34 :: Wildbeast killed by the changewolf at Rushmoor Swamp.
+Sat Apr  4 09:04:21 :: Icysting killed by Caveman at River Road.
+Sat Apr  4 09:14:00 :: Icysting killed by Caveman at River Road.
+Sat Apr  4 09:16:42 :: Kelsonellen killed by the bandit at Rugged hills.
+Sat Apr  4 13:26:03 :: Kelsonellen killed by the gypsy at Darask Road.
+Sat Apr  4 13:48:11 :: Makaveli killed by the Grocer at The General Store
+Sat Apr  4 14:16:44 :: Makaveli killed by the traveller at Well used animal trail.
+Sat Apr  4 14:57:40 :: Icysting killed by the ticket master at Ticket Booth
+Sat Apr  4 17:16:50 :: Icysting killed by Caveman at Dirt road through the plains
+Sat Apr  4 21:38:09 :: Wildbeast killed by the Grand High Elf at Grand High Elf's abode.
+Sun Apr  5 05:35:04 :: Blackout killed by the purple enfan at Inside the main gates
+Sun Apr  5 10:56:13 :: Makaveli killed by the City Guard at Main Street.
+Sun Apr  5 18:28:57 :: Coffin killed by Raistlin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Apr  6 00:35:35 :: Wildbeast killed by Roper at Riverside Tavern.
+Mon Apr  6 13:20:22 :: Antlet killed by Caveman at Council Square before Chambers.
+Mon Apr  6 13:21:52 :: Antlet killed by the citizen at Council Square before Chambers.
+Mon Apr  6 13:27:53 :: Antlet killed by Caveman at West end of Council Square.
+Mon Apr  6 13:31:07 :: Antlet killed by Caveman at Eastern Council Square.
+Mon Apr  6 21:42:50 :: Hal killed while attempting to slay Moe (werewolf)
+Mon Apr  6 21:52:33 :: Moe killed by the Receptionist at Immortals' Clubhouse
+Mon Apr  6 23:58:47 :: Blackout killed by Caveman at Main Street.
+Tue Apr  7 00:28:04 :: Blackout killed by Caveman guard at Mountain path
+Tue Apr  7 04:59:22 :: Blackout killed by a purple worm at Great Sandy Desert.
+Tue Apr  7 14:57:05 :: Antlet killed by the giant python at Weapons shop.
+Tue Apr  7 18:01:38 :: Vman killed by a giant frog at At a stagnant pool.
+Tue Apr  7 19:29:11 :: Antlet killed by Phoenix at The Woods
+Tue Apr  7 23:06:50 :: Varic killed by a construction worker at Construction site
+Tue Apr  7 23:31:29 :: Varic killed by the City Guard at Central Council Square.
+Tue Apr  7 23:38:16 :: Varic killed by the City Guard at Market Way.
+Wed Apr  8 00:20:03 :: Dos killed by a construction worker at Construction site
+Wed Apr  8 00:39:06 :: Varic killed by the trickster at Eastern Council Square.
+Wed Apr  8 00:44:36 :: Antlet killed by the City Guard at Main Street.
+Wed Apr  8 00:48:19 :: Antlet killed by the City Guard at Main Street.
+Wed Apr  8 03:36:49 :: Masera killed by the giant snake at Dim passage.
+Wed Apr  8 18:40:42 :: Dalamar killed by the citizen at Regiment Road.
+Wed Apr  8 18:53:54 :: Dallius killed by a vampire bat at Selva Road
+Wed Apr  8 18:57:32 :: Dalamar killed by a vampire bat at Dirt path
+Wed Apr  8 21:33:26 :: Hermin killed by a ghast at Outer pathway
+Wed Apr  8 21:40:19 :: Hermin killed by a ghast at Outer pathway
+Wed Apr  8 22:15:38 :: Wildbeast killed by the Mine Master at Mining Master's Office
+Thu Apr  9 01:31:08 :: Antlet killed by the lich at High Elves' tree.
+Thu Apr  9 09:32:20 :: Fifty killed by Caesar at The Emperor's Private Office
+Thu Apr  9 10:01:11 :: Fifty killed by Scorfio at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Apr  9 10:21:17 :: Blackout killed by Scorfio at Mortal Kombat Battle ARENA!! (fight in dark)
+Thu Apr  9 10:22:17 :: Scorfio killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Apr  9 11:04:00 :: Boz killed by Monadic Deva at On the Cloud's Edge
+Thu Apr  9 11:23:31 :: Antlet killed by Caveman at Jeweller's
+Thu Apr  9 11:53:14 :: Scorfio killed by Giant dragonfly at On the sphinx
+Thu Apr  9 12:57:06 :: Primer killed by Nymph at The Woods
+Thu Apr  9 14:04:27 :: Antlet killed by Caveman at Southbank Road
+Thu Apr  9 14:13:27 :: Moe killed by the werewolf at Druids' Temple.
+Thu Apr  9 16:51:54 :: Dalamar killed by an old warrior at Selva Road.
+Thu Apr  9 17:49:24 :: Dallius killed by a wild boar at Selva Road
+Thu Apr  9 19:30:42 :: Boz killed by Monadic Deva at A small Yellow Cloud
+Thu Apr  9 21:27:31 :: Tsd killed while attempting to slay Moe (werewolf)
+Thu Apr  9 21:54:58 :: Dallius killed by Gun Slinger at Main Street of Hope.
+Thu Apr  9 22:29:16 :: Mathurin killed by the werewolf at Regiment Road.
+Thu Apr  9 22:55:05 :: Dallius killed by Mathurin at Mortal Kombat Battle ARENA!! (fight in dark)
+Thu Apr  9 23:35:12 :: Dallius killed by the slimeball at The Aqueduct
+Fri Apr 10 01:21:58 :: Wildbeast killed by Mercury at A Mountain Path
+Fri Apr 10 02:17:08 :: Mathurin killed by the L.A.W. Droid at Shuttle Pad 1
+Fri Apr 10 02:29:48 :: Kelsonellen killed by the white stallion of Lhankwood at The Waiting Room
+Fri Apr 10 02:32:19 :: Kelsonellen killed by the white stallion of Lhankwood at The Waiting Room
+Fri Apr 10 17:33:37 :: AxE killed by Caveman at Southbank Road.
+Fri Apr 10 17:40:42 :: AxE killed by Caveman at Southbank Road.
+Fri Apr 10 17:47:47 :: AxE killed by Caveman at Path to a pool
+Fri Apr 10 21:33:41 :: Wildbeast killed by Captain Redbeard Rum at Stern.
+Sat Apr 11 09:18:31 :: Kelsonellen killed by the master scheduler at The Waiting Room
+Sat Apr 11 12:31:47 :: Ngdkh killed by Boz at Main Street.
+Sat Apr 11 13:57:31 :: Dallius killed by the white stallion of Lhankwood at Market Way.
+Sun Apr 12 01:04:02 :: Scorfio killed by a piranha at On the river Eliqua.
+Sun Apr 12 16:01:36 :: Blackout killed by a Crystal Knight at An arched Entryway.
+Sun Apr 12 16:36:58 :: Blackout killed by the Assassin at Grassy Fields.
+Sun Apr 12 16:56:59 :: Icysting killed by the Shivan Dragon at Southbank Road.
+Mon Apr 13 08:39:53 :: Dracula killed by the hungry wolf at In long grass.
+Mon Apr 13 09:57:19 :: Vizzini killed by the traveller at Narrow path.
+Mon Apr 13 11:23:30 :: Nosfuratu killed by the white stallion of Lhankwood at Southbank Road.
+Tue Apr 14 01:11:28 :: Winston killed by the Guard at Paladin's Temple.
+Tue Apr 14 01:15:01 :: Winston killed by the Guard at Paladin's Temple.
+Tue Apr 14 19:17:50 :: Smokey killed by a construction worker at Construction site
+Wed Apr 15 00:23:13 :: Pan killed by the Shivan Dragon at Main Street.
+Wed Apr 15 08:35:09 :: Nosfuratu killed by the executioner at The Torture Chamber
+Wed Apr 15 09:07:37 :: Kelsonellen killed by the City Guard at Crossroads of Main and Regiment.
+Wed Apr 15 09:46:41 :: Scorfio killed while attempting to slay Kelsonellen (werewolf)
+Wed Apr 15 10:25:39 :: Kelsenellen killed by the werewolf at Grocer's shop.
+Wed Apr 15 10:29:45 :: Kelsenellen killed by the werewolf at West Gate of Haven.
+Wed Apr 15 10:35:53 :: Boz killed by Aphrodite at The Woods
+Wed Apr 15 10:40:48 :: Moe killed by Aphrodite at The Woods
+Wed Apr 15 13:12:15 :: Icysting killed by Caveman at Weapons shop.
+Wed Apr 15 13:14:50 :: Icysting killed by Caveman at Crossroads of Main and Regiment.
+Wed Apr 15 13:18:32 :: Icysting killed by Caveman at Crossroads of Main and Regiment.
+Wed Apr 15 13:39:32 :: Icysting killed by the Druid at Southbank Road.
+Wed Apr 15 15:49:54 :: Buaya killed by Moe at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Wed Apr 15 16:01:13 :: Buaya killed by Gun Slinger at Main Street of Hope.
+Thu Apr 16 04:55:59 :: KAINE killed by Fifty at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Thu Apr 16 04:57:50 :: KAINE killed by Fifty at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Apr 16 06:37:13 :: Tanthalis killed by the trickster at Construction site
+Thu Apr 16 12:28:29 :: Moe killed by Boz at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Apr 16 12:37:38 :: Blackout killed by Kodiak at Southbank Road.
+Thu Apr 16 12:39:14 :: Moe killed by Kodiak at Southbank Road.
+Thu Apr 16 13:16:46 :: Icysting killed by Caveman at The Armourer's.
+Thu Apr 16 16:53:26 :: Dallius killed by the green enfan at A deserted cottage
+Thu Apr 16 18:09:15 :: Dallius killed by Count LeThargic at Dirt path
+Fri Apr 17 00:10:11 :: Coffin killed by Moe at Southbank Road.
+Fri Apr 17 00:54:08 :: Blackout killed by Ruprect at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 00:56:44 :: Blackout killed by Moe at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Fri Apr 17 00:56:53 :: Fifty killed by Moe at Mortal Kombat Battle ARENA!! (fight in dark)
+Fri Apr 17 00:59:07 :: Fifty killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:00:00 :: Blackout killed by Coffin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:00:07 :: Fifty killed by Coffin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:03:10 :: Blackout killed by Wildbeast at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:03:47 :: Blackout killed by Wildbeast at Mortal Kombat Battle ARENA!! (No_Magic)
+Fri Apr 17 01:06:06 :: Fifty killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:06:10 :: Blackout killed by Wildbeast at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:06:41 :: ReliK killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:08:42 :: Blackout killed by ReliK at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:09:17 :: Fifty killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:09:56 :: ReliK killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:10:10 :: Blackout killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:10:56 :: Blackout killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:11:47 :: Blackout killed by Coffin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:11:49 :: Fifty killed by Coffin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:12:49 :: ReliK killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:13:33 :: Fifty killed by Primer at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Fri Apr 17 01:15:23 :: Fifty killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:16:27 :: ReliK killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:16:55 :: Fifty killed by Raistlin at Mortal Kombat Battle ARENA!! (No_Magic)
+Fri Apr 17 01:18:03 :: Primer killed by Raistlin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:18:34 :: Blackout killed by Fifty at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:19:40 :: Fifty killed by ReliK at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:21:55 :: ReliK killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 17 01:22:14 :: Primer killed by Raistlin at Mortal Kombat Battle ARENA!! (fight in dark)
+Fri Apr 17 06:27:37 :: Tanthalis killed by the traveller at Market Way.
+Fri Apr 17 06:30:22 :: Icysting killed by Caveman at River Road.
+Fri Apr 17 06:45:39 :: Tanthalis killed by the traveller at Well used animal trail.
+Fri Apr 17 06:55:42 :: Tanthalis killed by the traveller at Gambol Road.
+Fri Apr 17 07:12:19 :: Tanthalis killed by the traveller at Gambol Road.
+Fri Apr 17 08:29:06 :: Tanthalis killed by the huge buffalo at Dirt road through the plains.
+Fri Apr 17 08:44:56 :: Tanthalis killed by the hungry wolf at Entrance to old homestead
+Fri Apr 17 08:48:03 :: Tanthalis killed by the hungry wolf at Entrance to old homestead
+Fri Apr 17 08:51:48 :: Tanthalis killed by the huge buffalo at A verandah outside an old homestead.
+Fri Apr 17 09:06:36 :: Fifty killed by Tak at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Fri Apr 17 09:15:55 :: Tak killed by Monadic Deva at On the Cloud's Edge
+Fri Apr 17 09:35:17 :: Nosfuratu killed by the slimeball at The Aqueduct
+Fri Apr 17 10:27:08 :: Pan killed by a barracuda at Coral reef
+Fri Apr 17 11:06:20 :: Blackout killed by Clockwork Knight at Toyheim's Treasure Room.
+Fri Apr 17 11:55:25 :: Moe killed by the huge serpent. at On the river Eliqua.
+Fri Apr 17 17:26:48 :: BC killed by the City Guard at Regiment Road.
+Sat Apr 18 00:39:13 :: Biggie killed by JnrMafia at The Armourer's.
+Sat Apr 18 01:09:13 :: KAINE killed by the City Guard at Entrance to the Wayfarer's Inn.
+Sat Apr 18 01:14:02 :: KAINE killed by the City Guard at Entrance to the Wayfarer's Inn.
+Sat Apr 18 02:41:22 :: Troy killed by a ghast at Outer pathway
+Sat Apr 18 04:46:08 :: KAINE killed by the merchant at Entrance to Council Chambers.
+Sat Apr 18 06:00:52 :: Icysting killed by Caesar at The Emperor's Private Office
+Sat Apr 18 08:05:39 :: Tanthalis killed by the lich at Forest trail.
+Sat Apr 18 09:43:49 :: Nosfuratu killed by the purple enfan at Ershteep Road
+Sat Apr 18 15:18:04 :: Scorfio killed by Mars at A Mountain Path
+Sat Apr 18 15:19:29 :: Scorfio killed by Mars at A Mountain Path
+Sat Apr 18 18:50:56 :: Sawdy killed by the janitor at Weapons shop.
+Sat Apr 18 19:04:41 :: Sawdy killed by the janitor at Narrow path.
+Sat Apr 18 19:16:16 :: Sawdy killed by the City Guard at Intersection of Southbank and Main.
+Sat Apr 18 23:53:40 :: Sawdy killed by the trickster at West end of Council Square.
+Sun Apr 19 01:23:12 :: Blackout killed by Kodiak at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Apr 19 01:27:45 :: Blackout killed by Moridin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Apr 19 01:33:14 :: Blackout killed by Moridin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Apr 19 01:51:56 :: Moridin killed by Kodiak at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Apr 19 13:49:32 :: Jimbo killed by the traveller at Intersection of Southbank and Main.
+Sun Apr 19 18:07:25 :: Blackout killed by the Assassin at Riverside Tavern.
+Sun Apr 19 21:08:20 :: Coffin killed by the guard at Before the throne
+Mon Apr 20 02:19:13 :: Blackout killed by the white stallion of Lhankwood at Dark forest path.
+Mon Apr 20 04:46:18 :: Nosfuratu killed by the City Guard at Intersection of Southbank and Main.
+Mon Apr 20 04:47:09 :: Nosfuratu killed by the City Guard at Intersection of Southbank and Main.
+Mon Apr 20 04:49:50 :: Ingellyn killed by a construction worker at Construction site
+Mon Apr 20 05:02:46 :: Ingellyn killed by a construction worker at Construction site
+Mon Apr 20 07:40:45 :: Nosfuratu killed by the City Guard at Crossroads of Main and Regiment.
+Mon Apr 20 09:42:14 :: Tanthalis killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Apr 20 16:53:56 :: Ogar killed by the citizen at Eastern Council Square.
+Mon Apr 20 20:21:29 :: Antlet killed by the white stallion of Lhankwood at Nyrond Road through Lhankwood Forest.
+Mon Apr 20 21:56:08 :: Coffin killed by Moe at Path of the lost souls.
+Mon Apr 20 22:18:45 :: Coffin killed by Moe at Short tunnel.
+Tue Apr 21 12:26:32 :: Icysting killed by the white stallion of Lhankwood at Nyrond Road through Lhankwood Forest.
+Tue Apr 21 14:30:58 :: Olo killed by the Guard at Futureworld departure lounge
+Tue Apr 21 14:34:44 :: Olo killed by the City Guard at West end of Council Square.
+Wed Apr 22 17:51:08 :: Dallius killed by Mercury at A Mountain Path
+Wed Apr 22 20:33:56 :: Deatth killed by the City Guard at West Gate of Haven.
+Wed Apr 22 20:38:11 :: Deatth killed by the trickster at Crossroads of Main and Regiment.
+Thu Apr 23 16:00:00 :: Tetsuo killed by the snake at Dirt road through the plains.
+Thu Apr 23 16:00:36 :: Tetsuo killed by the Rabid Dog at Main Street.
+Thu Apr 23 16:11:01 :: Tetsuo killed by a ghast at Pebbled path.
+Thu Apr 23 20:10:35 :: Ngdkh killed by the merchant at Southbank Road.
+Thu Apr 23 22:32:02 :: Coffin killed by Raistlin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Apr 23 23:27:40 :: Je killed by the Goblin at Construction site
+Fri Apr 24 04:13:02 :: Tetsuo killed by Count LeThargic at Selva Road.
+Fri Apr 24 04:17:54 :: Tetsuo killed by a wild cat at Selva Road.
+Fri Apr 24 11:39:44 :: Otistheii killed by the merchant at Market Way.
+Fri Apr 24 12:25:30 :: Blackout killed by Scorfio at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 24 12:33:27 :: Blackout killed by Scorfio at Mortal Kombat Battle ARENA!! (fight in dark)
+Fri Apr 24 12:35:26 :: Blackout killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Apr 24 16:47:48 :: Aphrodite killed by the royal bodyguard at The Emperor's Private Office
+Sat Apr 25 17:21:08 :: Pug killed by Morkoth at Morkoth's Lair.
+Sat Apr 25 23:30:16 :: JnrMafia killed by the Assassin at River Road.
+Sun Apr 26 01:14:19 :: Moe killed while attempting to slay Winston (werewolf)
+Sun Apr 26 07:13:55 :: Nosfuratu killed by Clockwork Knight at ClockWork Lane.
+Sun Apr 26 08:11:48 :: Nosfuratu killed by the green enfan at Ershteep Road
+Sun Apr 26 13:15:35 :: Blackout killed by Winston at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Apr 26 21:06:32 :: Felgren killed by a construction worker at Construction site
+Mon Apr 27 01:10:35 :: Blackout killed by Kodiak at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Apr 27 01:32:12 :: Blackout killed by Wildbeast at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Apr 27 01:38:09 :: Blackout killed by Wildbeast at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Apr 27 09:10:09 :: Nosfuratu killed by the judge at Judge's Chambers
+Mon Apr 27 11:11:16 :: Xaviar killed by a purple worm at Bottom of a sand dune.
+Mon Apr 27 14:54:40 :: Tetsuo killed by Barbie Doll at End of Plastic Pla.
+Mon Apr 27 16:12:27 :: Dallius killed by the grey enfan at On a Road
+Mon Apr 27 20:29:52 :: Nikaron killed by the Vampire Bat at Underground torrent
+Tue Apr 28 06:09:29 :: Nightfall killed by the stirge at Rugged hills.
+Tue Apr 28 10:55:46 :: Bahamut killed by Richard Garfield at The Mana Shrine.
+Tue Apr 28 14:10:55 :: Pug killed by Trakker at Spiraling tunnel.
+Tue Apr 28 23:15:16 :: Nikaron killed by Aglandiir at Lair
+Wed Apr 29 06:08:23 :: Fifty killed by the Receptionist at Entrance to the Wayfarer's Inn.
+Wed Apr 29 07:28:43 :: Tetsuo killed by Largest Billy goat at Before the Bridge.
+Wed Apr 29 07:35:38 :: Tetsuo killed by larger billy goat at A Small Dirt Pathway.
+Wed Apr 29 08:12:32 :: Scorfio killed by Cerin at Main Street.
+Wed Apr 29 12:12:12 :: EternalFlake killed by a giant frog at At a stagnant pool.
+Wed Apr 29 12:12:38 :: Gwydion killed by a giant frog at At a stagnant pool.
+Wed Apr 29 14:53:37 :: Moe killed by the Master Trainer at Paladin's Temple.
+Wed Apr 29 21:43:42 :: Moe killed while attempting to slay Hal (werewolf)
+Wed Apr 29 21:44:02 :: Moe killed while attempting to slay Hal (werewolf)
+Wed Apr 29 21:44:12 :: Moe killed while attempting to slay Hal (werewolf)
+Fri May  1 20:50:51 :: Jett killed by the hungry wolf at Atop a small rise
+Sat May  2 09:07:21 :: Fifty killed by the Guard at Paladin's Temple.
+Sat May  2 09:08:32 :: Fifty killed by the City Guard at West end of Council Square.
+Sat May  2 10:23:58 :: Fifty killed by Xaviar at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat May  2 10:25:24 :: Winston killed by Xaviar at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat May  2 11:58:01 :: Aafelix killed by the soldier at Paved Road
+Sun May  3 00:35:00 :: Fifty killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun May  3 05:02:42 :: Naraka killed by the janitor at Main Street.
+Sun May  3 05:08:23 :: Bartolo killed by the hungry wolf at Atop a small rise
+Sun May  3 16:16:13 :: Fifty killed by JnrMafia at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun May  3 16:17:29 :: Fifty killed by Raistlin at Southbank Road.
+Mon May  4 03:23:55 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:26:11 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:27:48 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:29:40 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:34:08 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:36:14 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:37:02 :: Dracion killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:37:44 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:43:32 :: Dracion killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:46:28 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 03:49:52 :: Dracion killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May  4 11:06:31 :: Aafelix killed by the respirator salesman at Cryogenic Hotel
+Mon May  4 17:39:01 :: Aphrodite killed by the mudman at Ershteep Road
+Mon May  4 21:21:52 :: Dracion killed by Vore at Aegean Sea
+Mon May  4 21:57:12 :: Stretch killed by the ticket master at Ticket Booth
+Mon May  4 22:15:44 :: Euth killed by the City Guard at Intersection of Southbank and Main.
+Tue May  5 02:32:01 :: Dangermouse killed by a Giant eel at Watery Tunnel
+Tue May  5 07:45:41 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Tue May  5 07:47:03 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Tue May  5 07:49:43 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Tue May  5 17:19:52 :: Artemis killed by the janitor at Main Street.
+Wed May  6 00:16:39 :: Blackout killed by Kodiak at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed May  6 00:17:43 :: Blackout killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed May  6 00:21:28 :: Blackout killed by Boz at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed May  6 00:21:54 :: Blackout killed by Primer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed May  6 00:22:27 :: Blackout killed by Primer at Mortal Kombat Battle ARENA!! (fight in dark)
+Wed May  6 00:34:38 :: Blackout killed by JnrMafia at River Road.
+Wed May  6 00:47:46 :: Primer killed by Caveman at Main Street.
+Wed May  6 01:58:22 :: Boz killed by the Receptionist at Entrance to the Wayfarer's Inn.
+Wed May  6 11:48:17 :: Lazarus killed by Hal at Main Street.
+Thu May  7 00:17:52 :: Blackout killed by Wildbeast at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu May  7 07:34:08 :: Lasome killed by the City Guard at Regiment Road.
+Thu May  7 10:30:26 :: Moe killed by Jupiter at Immortals' Clubhouse
+Thu May  7 21:51:50 :: Wrathnor killed by the green enfan at Ershteep Road
+Thu May  7 23:43:07 :: Blackout killed by JnrMafia at Mortal Kombat Battle ARENA!! (fight in dark)
+Fri May  8 08:06:05 :: Aafelix killed by the City Guard at Crossroads of Main and Regiment.
+Fri May  8 10:18:39 :: Nightwolf killed by Moe at Market Way.
+Fri May  8 14:25:09 :: Katwin killed by Mercury at A Mountain Path
+Sat May  9 09:39:01 :: Wrathnor killed by Pianist at Middle of Saloon
+Sat May  9 10:06:16 :: Zarathustra killed by the brigand at Dim passage.
+Sat May  9 10:56:00 :: Katwin killed by an Imperial Stormtrooper at Road through Mos Eisley
+Sat May  9 11:03:49 :: Katwin killed by Cerin at Mortal Kombat Battle ARENA!! (No_Magic)
+Sat May  9 17:16:17 :: Luna killed by the giant two headed troll at Wandering a forest trail.
+Sat May  9 18:35:45 :: Primer killed by the demon lord at On a dais
+Sat May  9 18:36:37 :: Primer killed by the lich at Nyrond Road through Lhankwood Forest.
+Sat May  9 18:45:47 :: Cerix killed by Pure white mare at The Stable
+Sat May  9 19:21:35 :: Zarathustra killed by the brigand at Standing on rubble.
+Sat May  9 21:07:18 :: Zarathustra killed by the giant snake at Dim passage.
+Sat May  9 21:10:30 :: Makaveli killed by Jupiter at The Summit of The Mountain of the Gods
+Sat May  9 21:31:35 :: Coffin killed by the Receptionist at Entrance to the Wayfarer's Inn.
+Sat May  9 21:37:23 :: Coffin killed by the Receptionist at Entrance to the Wayfarer's Inn.
+Sun May 10 00:16:58 :: Luna killed by an Imperial Stormtrooper at Road through Mos Eisley
+Sun May 10 01:00:06 :: Fifty killed by Trojan at City of Troy
+Sun May 10 09:23:17 :: Dominion killed by the snake at In long grass.
+Mon May 11 04:32:35 :: Gwydion killed by the huge buffalo at Southbank Road.
+Mon May 11 04:39:06 :: Gwydion killed by the huge buffalo at Entrance to a rundown warehouse.
+Mon May 11 13:57:32 :: JnrMafia killed by the Druid at Selva Road
+Mon May 11 18:23:17 :: Coffin killed by Tsd at Main Street.
+Tue May 12 07:11:06 :: Gwydion killed by a Crystal Jester at Southbank Road
+Tue May 12 07:16:34 :: Gwydion killed by a Crystal Jester at Southbank Road
+Tue May 12 08:41:52 :: MerlinKillingsworth killed by the City Guard at Crossroads of Main and Regiment.
+Tue May 12 19:49:08 :: Phiphorion killed by the L.A.W. Droid at Intersection of Main and Nova
+Wed May 13 07:27:14 :: Scurvy killed by the lich at Nyrond Road at the edge of Lhankwood Forest.
+Wed May 13 08:32:41 :: Blydan killed by an old warrior at Selva Road.
+Wed May 13 08:34:12 :: Blydan killed by a vampire bat at Selva Road
+Wed May 13 09:34:52 :: Nosfuratu killed by the City Guard at Donation room.
+Wed May 13 12:07:17 :: Arson killed by the citizen at Regiment Road.
+Wed May 13 12:08:43 :: Mulder killed by the merchant at Main Street.
+Wed May 13 12:17:38 :: Blackout killed by Nicol Bolas at City of Brass (Intersection of Plain, Forest and Swamp Street)
+Wed May 13 19:40:22 :: Zarathustra killed by a ghast at Outer pathway
+Thu May 14 09:06:25 :: Doche killed by the Guard at Medievalworld departure lounge
+Thu May 14 10:39:13 :: Rickstar killed by the drunk at Main Street.
+Thu May 14 11:29:10 :: Mulder killed by a wild cat at Selva Road
+Thu May 14 16:14:13 :: Faeronia killed by a construction worker at Construction site
+Thu May 14 21:52:47 :: Moe killed while attempting to slay JnrMafia (werewolf)
+Thu May 14 23:00:51 :: Moe killed by Poseidon at Before the throne
+Thu May 14 23:24:31 :: Ndarki killed by Satyr at The Woods
+Fri May 15 01:00:49 :: Mulder killed by the trickster at Southbank Road.
+Fri May 15 01:22:44 :: Wildbeast killed by Xaran Beholder at The Beholders Chamber!
+Fri May 15 06:02:26 :: Ross killed by the werewolf at Construction site
+Fri May 15 10:10:22 :: Blackout killed by the harpy at The sand dunes.
+Fri May 15 18:47:46 :: SnoopDoggyDogg killed by the City Guard at Council Square before Chambers.
+Fri May 15 18:58:38 :: SnoopDoggyDogg killed by the citizen at Main Street Central.
+Fri May 15 21:34:53 :: Makaveli killed by the Guard at Paladin's Temple.
+Fri May 15 21:42:37 :: Makaveli killed by the Master Trainer at Paladin's Temple.
+Fri May 15 22:20:07 :: SnoopDoggyDogg killed by the hungry wolf at In long grass.
+Sat May 16 00:21:44 :: Blackout killed by the Druid at Deep within the forest.
+Sat May 16 09:44:56 :: Zarathustra killed by a Tundra Wolf at Plains
+Sat May 16 09:53:33 :: Zarathustra killed by a Tundra Wolf at Grassy Plains
+Sat May 16 13:39:42 :: Icysting killed by Richard Garfield at The Mana Shrine.
+Sat May 16 23:27:33 :: Ndarki killed by Raistlin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat May 16 23:41:18 :: Ndarki killed by Raistlin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun May 17 00:15:25 :: Ndarki killed by Monadic Deva at A small Yellow Cloud
+Sun May 17 00:50:54 :: Aafelix killed by a Crystal Jester at Main Street.
+Sun May 17 01:20:15 :: Ndarki killed by a Giant eel at Watery Tunnel
+Sun May 17 02:30:55 :: Chalks killed by the janitor at West end of Council Square.
+Sun May 17 02:42:50 :: Chalks killed by the vulture at In long grass.
+Sun May 17 02:48:52 :: Ndarki killed by Movanic Deva at On the Purple Cloud
+Sun May 17 02:57:36 :: Ndarki killed by Monadic Deva at On the Cloud's Edge
+Sun May 17 03:02:24 :: Ndarki killed by Astral Deva at On the White Cloud
+Sun May 17 09:52:14 :: Atlantis killed by the janitor at East Gate.
+Sun May 17 14:42:01 :: Chalks killed by the City Guard at Main Street.
+autoscript killed Sun May 17 15:41:25 EST 1998
+Sun May 17 16:58:46 :: Atlantis killed by an old warrior at Dirt path
+Sun May 17 22:47:28 :: Gord killed by the hungry wolf at Dirt road through the plains
+Sun May 17 23:26:38 :: Antarian killed by the citizen at Southbank Road.
+Mon May 18 02:42:49 :: Ndarki killed by Scylla at Inside a huge cavern
+Mon May 18 03:20:56 :: Blackout killed by the paladin saint at Rushmoor Swamp.
+Mon May 18 03:38:44 :: Lasome killed by the Lake Ness Moster at Weapons shop.
+Mon May 18 16:53:09 :: CyberBeast killed by the drunk at Main Street.
+Mon May 18 21:45:27 :: JnrMafia killed by the lich at Nyrond Road through Lhankwood Forest.
+Tue May 19 00:21:59 :: Coffin killed by Jupiter at The Summit of The Mountain of the Gods
+Tue May 19 03:20:23 :: Jarak killed by the huge buffalo at Crossroads of Main and Regiment.
+Tue May 19 04:13:20 :: Boz killed by Jupiter at The Summit of The Mountain of the Gods
+Tue May 19 04:17:22 :: Boz killed by Mars at A Mountain Path
+Tue May 19 08:34:08 :: Nosfuratu killed by the purple enfan at Ershteep Road
+Tue May 19 08:39:41 :: Nosfuratu killed by the yellow enfan at A deserted cottage
+Tue May 19 08:40:00 :: Nosfuratu killed by the Rabid Dog at Southbank Road.
+Tue May 19 08:56:28 :: Nosfuratu killed by the Alchemist at Alchemist's Shoppe.
+Tue May 19 09:47:32 :: Fifty killed by Moe at Mortal Kombat Battle ARENA!! (fight in dark)
+Tue May 19 15:56:07 :: Antar killed by the Rattle Snake at Hotel Stairs
+Tue May 19 16:13:20 :: Mandor killed by the Rattle Snake at Hotel Stairs
+Tue May 19 17:00:58 :: Minbar killed by an old warrior at Selva Road.
+Tue May 19 18:23:49 :: Minbar killed by the City Guard at Main Street.
+Tue May 19 20:33:18 :: Raistlin killed by Tak at Wharf of Haven.
+Tue May 19 21:52:44 :: Raistlin killed by Mars at A Mountain Path
+Wed May 20 02:25:57 :: Jarak killed by a ghast at Pebbled path.
+Wed May 20 02:28:13 :: Jarak killed by a ghast at Pebbled path.
+Wed May 20 03:27:19 :: Jarak killed by the paladin saint at Main Street.
+Wed May 20 14:19:51 :: Aragorn killed by a construction worker at Construction site
+Wed May 20 17:43:18 :: Minbar killed by a ghast at Outer pathway
+Wed May 20 18:26:22 :: Coffin killed by Mars at A Mountain Path
+Thu May 21 02:32:09 :: Emerson killed by the City Guard at Main Street.
+Thu May 21 10:32:05 :: Xaviar killed by Pantathian Serpent Priest at Path of the lost souls.
+Fri May 22 10:30:21 :: Xaviar killed by Moe at Mortal Kombat Battle ARENA!! (No_Magic)
+autoscript killed Fri May 22 17:42:56 EST 1998
+Fri May 22 18:43:27 :: Aragorn killed by a ghast at Pebbled path.
+Fri May 22 18:46:45 :: Minbar killed by the Guard at Paladin's Temple.
+Sat May 23 00:23:30 :: Blackout killed by Wildbeast at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat May 23 00:41:49 :: Blackout killed by Raistlin at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat May 23 00:58:29 :: Raistlin killed by Hal at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat May 23 06:31:22 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:31:46 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:31:50 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:31:55 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:31:57 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:01 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:32 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:37 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:43 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:45 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:48 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:50 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:52 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:56 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:32:59 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:01 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:03 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:05 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:10 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:12 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:14 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:16 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:18 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:23 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:25 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:27 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:29 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:32 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:36 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:38 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:40 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:43 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:45 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:49 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:51 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:54 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:56 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:33:58 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:02 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:05 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:07 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:09 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:13 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:16 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:18 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:20 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:22 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:27 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:29 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:31 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:33 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:35 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:40 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:42 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:44 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:46 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:49 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:53 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:55 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:34:57 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:35:00 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:35:02 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:35:44 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:35:46 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:35:48 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:35:50 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:35:52 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:35:59 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:01 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:03 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:06 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:08 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:14 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:17 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:19 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:21 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:23 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:28 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:32 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:34 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:36 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:41 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:43 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:45 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:47 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:50 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:54 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:56 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:36:58 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:37:01 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:37:03 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:37:07 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:37:09 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:37:14 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:37:16 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:37:18 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:38:48 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:05 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:10 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:14 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:16 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:25 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:43 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:45 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:47 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:52 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:54 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:56 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:40:58 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:00 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:05 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:07 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:14 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:16 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:18 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:20 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:22 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:27 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:29 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:31 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:33 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:36 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:40 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:42 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:44 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:47 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:49 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:53 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:41:55 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:24 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:28 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:31 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:33 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:37 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:39 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:42 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:44 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:46 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:50 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:42:59 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:43:01 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:43:04 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 06:43:06 :: Coffin killed by Tak at Wharf of Haven.
+Sat May 23 07:47:36 :: Aafelix killed by the ancient treant at Obscured path in the forest.
+Sat May 23 13:18:04 :: Maks killed by the Guard at Medievalworld departure lounge
+Sat May 23 13:19:12 :: Maks killed by the Guard at Futureworld departure lounge
+Sat May 23 14:49:36 :: Chalks killed by Mercury at A Mountain Path
+Sat May 23 15:27:15 :: Chalks killed by Venus at A Mountain Path
+Sat May 23 17:33:16 :: Boz killed by Medusa at The Woods
+autoscript killed Sat May 23 19:13:07 EST 1998
+Sat May 23 21:48:40 :: Shimara killed by the citizen at End of Southbank Road.
+autoscript killed Sat May 23 23:20:47 EST 1998
+Sun May 24 13:50:00 :: Morg killed by the stirge at Rugged hills.
+autoscript killed Sun May 24 18:59:01 EST 1998
+Sun May 24 21:48:09 :: Shimara killed by the adjudicator at The Judging Booth
+Mon May 25 05:35:51 :: Scorfio killed by Vore at Aegean Sea
+Mon May 25 09:18:47 :: Lasome killed by Mercury at A Mountain Path
+Mon May 25 09:30:20 :: Xaviar killed by Mercury at A Mountain Path
+Mon May 25 09:36:43 :: Dontknow killed by the City Guard at West end of Council Square.
+Mon May 25 15:08:09 :: Blackout killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May 25 18:25:30 :: Steel killed by the huge buffalo at Main Street.
+Mon May 25 18:31:00 :: Steel killed by a Crystal Jester at Main Street.
+Mon May 25 20:05:52 :: Raistlin killed by JnrMafia at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon May 25 20:43:36 :: Zues killed by the citizen at Main Street.
+Tue May 26 06:08:17 :: Blackout killed by the guard at Tudor Sqaure
+Tue May 26 10:16:44 :: Joe killed by a construction worker at Construction site
+Tue May 26 11:05:31 :: MazrimTaim killed by the rogue houshold bot at Looking over TMA-1 excavation.
+Tue May 26 22:45:17 :: Mulder killed by Chiefchirpa at Main Street.
+Wed May 27 07:58:10 :: Winston killed while attempting to slay Fifty (werewolf)
+Wed May 27 08:03:04 :: Winston killed by Cerin at Southbank Road.
+Wed May 27 12:09:27 :: Chiefchirpa killed by the slimeball at The Aqueduct
+Wed May 27 15:13:47 :: Boz killed by Moe at Immortals' Walk
+Thu May 28 00:02:35 :: JnrMafia killed by the Jeweller at Jeweller's
+Thu May 28 13:06:42 :: Blackout killed by Scorfio at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu May 28 13:19:19 :: Wrathnor killed by a reflection at Nexus
+Fri May 29 02:30:15 :: Intan killed by Xaran Beholder at The Beholders Chamber!
+Fri May 29 02:42:09 :: Intan killed by a stonefish at Inside a huge cavern
+Fri May 29 02:58:59 :: Intan killed by a stonefish at Inside a huge cavern
+Fri May 29 03:26:29 :: Intan killed by Drider at Lolth's Lair.
+Fri May 29 03:49:58 :: Intan killed by Llolth at Lolth's Lair.
+autoscript killed Fri May 29 04:41:32 EST 1998
+Fri May 29 17:19:13 :: Luna killed by Big Stone at Entrance to Shadow Keep
+Fri May 29 23:10:00 :: SnoopDoggyDogg killed by the hill giant at Rugged hills.
+Sat May 30 01:38:03 :: JnrMafia killed by a reflection at Hall of Mirrors.
+Sat May 30 03:05:24 :: Kyrse killed by the City Guard at Crossroads of Main and Regiment.
+Sat May 30 03:27:54 :: Kyrse killed by the City Guard at Crossroads of Main and Regiment.
+Sat May 30 09:47:11 :: Fifty killed by Scorfio at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat May 30 09:48:56 :: Fifty killed by Scorfio at Mortal Kombat Battle ARENA!! (fight in dark)
+Sat May 30 10:28:31 :: Blackout killed by the water elemental. at On the river Eliqua.
+Sat May 30 17:37:35 :: Groener killed by the Guard at Medievalworld departure lounge
+Sat May 30 17:43:12 :: Groener killed by the janitor at Weapons shop.
+Sat May 30 17:47:42 :: Groener killed by the City Guard at Council Square before Chambers.
+Sat May 30 18:00:40 :: Groener killed by the traveller at Main Street.
+Sat May 30 20:26:36 :: Shimara killed by Mars at A Mountain Path
+Sun May 31 06:11:42 :: Mercury killed by the City Guard at Main Street.
+Sun May 31 07:30:04 :: Mercury killed by the slimeball at The Aqueduct
+Sun May 31 07:35:15 :: Mercury killed by a worg at The steppes
+Sun May 31 08:26:55 :: Mercury killed by the Guard at Paladin's Temple.
+Sun May 31 08:36:16 :: Mercury killed by Mercury at A Mountain Path
+Sun May 31 11:08:44 :: Rickstar killed by a wild cat at Selva Road
+Sun May 31 12:07:12 :: Rickstar killed by a worg at The steppes
+Sun May 31 13:30:02 :: Rebel killed by a construction worker at Construction site
+Sun May 31 13:39:59 :: Limara killed by the citizen at Main Street.
+Sun May 31 13:55:12 :: Limara killed by the zombie at Main Street.
+Sun May 31 14:16:30 :: Limara killed by the merchant at Narrow path.
+Sun May 31 14:27:07 :: Limara killed by the ogre at Top of east tower.
+Sun May 31 15:07:14 :: Dogbert killed by a ghast at Pebbled path.
+Sun May 31 16:42:16 :: Carrie killed by the citizen at Crossroads of Main and Regiment.
+Sun May 31 17:20:55 :: Carrie killed by the giant snake at Dim passage.
+Sun May 31 20:28:26 :: DrShaggy killed by the trickster at Market Way.
+Sun May 31 20:33:08 :: Limara killed by the soldier at The South Gate
+Mon Jun  1 00:14:24 :: Drexler killed by the hungry wolf at Stony path.
+Mon Jun  1 01:55:51 :: Mercury killed by Roper at Eastern Council Square.
+Mon Jun  1 03:39:21 :: Scorfio killed by Dracion at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jun  1 08:36:23 :: Scorfio killed by Vore at Aegean Sea
+Mon Jun  1 09:53:05 :: Mercury killed by the Guard at Paladin's Temple.
+Mon Jun  1 11:40:50 :: Blackout killed by Mercury at A Mountain Path
+Mon Jun  1 11:43:30 :: Dracion killed by Slizzarr at A Mountain Path
+Mon Jun  1 12:08:59 :: Lavos killed by a construction worker at Construction site
+Mon Jun  1 20:45:45 :: Jolstar killed by the City Guard at West end of Council Square.
+Tue Jun  2 00:31:05 :: Blackout killed by the Druid at Southbank Road.
+Tue Jun  2 03:19:07 :: Astro killed by a Crystal guard  at A dark intersection.
+Tue Jun  2 14:10:24 :: Atlantis killed by the huge buffalo at In long grass.
+Tue Jun  2 14:12:45 :: Vaco killed by a construction worker at Construction site
+Tue Jun  2 16:05:48 :: Dontknow killed by the City Guard at West end of Council Square.
+Tue Jun  2 16:16:57 :: Dontknow killed by the City Guard at Crossroads of Main and Regiment.
+Tue Jun  2 16:46:36 :: Vaco killed by a construction worker at Construction site
+Tue Jun  2 16:59:41 :: Vaca killed by the giant lizard at Turn in the passage.
+Wed Jun  3 00:40:25 :: Sammuel killed by the citizen at East Gate.
+Wed Jun  3 12:13:28 :: Renton killed by the City Guard at Southbank Road.
+Wed Jun  3 21:56:14 :: Moridin killed by Phoenix at The Woods
+Wed Jun  3 22:31:24 :: Sammuel killed by the yellow enfan at On a Road
+Wed Jun  3 22:32:22 :: Sammuel killed by the City Guard at Southbank Road.
+Wed Jun  3 22:40:35 :: Sammuel killed by the blue enfan at Inside the main gates
+Thu Jun  4 00:28:47 :: Blackout killed by Captain Redbeard Rum at Stern.
+Thu Jun  4 06:46:23 :: Nosfuratu killed by Count LeThargic at Selva Road.
+Thu Jun  4 08:00:21 :: Peon killed by the huge buffalo at Main Street.
+Thu Jun  4 08:03:08 :: Peon killed by the huge buffalo at Weapons shop.
+Thu Jun  4 08:59:53 :: Atlantis killed by the City Guard at Intersection of Southbank and Main.
+Thu Jun  4 14:09:04 :: Jolstar killed by the cloaker at Wandering a forest trail.
+Thu Jun  4 14:18:05 :: Jolstar killed by the ancient treant at Dark forest path.
+Thu Jun  4 19:24:29 :: Intan killed by Jupiter at The Summit of The Mountain of the Gods
+Thu Jun  4 19:25:04 :: Boz killed by Jupiter at The Summit of The Mountain of the Gods
+Thu Jun  4 19:29:37 :: Boz killed by Jupiter at The Summit of The Mountain of the Gods
+Thu Jun  4 21:35:32 :: JnrMafia killed by the water elemental. at On the river Eliqua.
+Fri Jun  5 03:24:13 :: Nosfuratu killed by Mercury at A Mountain Path
+Fri Jun  5 03:48:07 :: Blake killed by the stirge at The steppes
+Fri Jun  5 04:18:49 :: Cavalier killed by the janitor at Market Way.
+Fri Jun  5 05:39:22 :: Kogan killed by the Guard at Futureworld departure lounge
+Fri Jun  5 05:39:33 :: Fire killed by the Guard at Futureworld departure lounge
+Fri Jun  5 06:25:46 :: Bowen killed by the janitor at Main Street.
+Fri Jun  5 15:57:12 :: Fifty killed by the wraith at Nyrond road through Rushmoor Swamp.
+Fri Jun  5 19:29:26 :: Aphrodite killed by the City Guard at Crossroads of Main and Regiment.
+Fri Jun  5 19:59:25 :: Jeatalong killed by the giant lizard at Turn in the passage.
+Sat Jun  6 02:09:38 :: EoM killed by the changewolf at Stagnant waterway
+Sat Jun  6 04:57:08 :: Fisheral killed by the stirge at The steppes
+Sat Jun  6 12:33:09 :: Drexler killed by Clockwork Knight at Micro Plaza infront of council chambers.
+Sat Jun  6 12:39:26 :: Drexler killed by Caveman at Micro Plaza
+Sat Jun  6 15:14:35 :: EoM killed by Caveman at The steppes
+Sat Jun  6 15:15:05 :: EoM killed by Caveman at The steppes
+Sat Jun  6 15:21:09 :: EoM killed by Caveman at The steppes
+Sat Jun  6 15:36:14 :: EoM killed by Caveman at The steppes
+Sat Jun  6 19:13:53 :: Limara killed by the gypsy at Darask Road.
+Sat Jun  6 21:52:01 :: Pkunk killed by the Shivan Dragon at Limbo
+Sat Jun  6 21:56:47 :: Katwin killed by Zeus at Throne of Zeus
+Sat Jun  6 21:58:49 :: Limara killed by Zeus at Throne of Zeus
+Sat Jun  6 22:38:01 :: Gremlin killed by the giant snake at Dim passage.
+Sun Jun  7 09:53:51 :: Circle killed by the Guard at Medievalworld departure lounge
+Sun Jun  7 15:42:16 :: Moridin killed by Phoenix at The Woods
+Sun Jun  7 20:21:57 :: SnoopDoggyDogg killed by Caveman at Main Street.
+Sun Jun  7 21:58:40 :: Limara killed by the giant two headed troll at Wandering a forest trail.
+Mon Jun  8 00:10:05 :: Timara killed by the citizen at Intersection of Southbank and Main.
+Mon Jun  8 03:38:40 :: Cerin killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jun  8 06:49:24 :: Blackout killed by a nasty pirate at On an old jetty.
+Mon Jun  8 07:50:38 :: Cerin killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jun  8 10:21:59 :: WarrenG killed by the City Guard at Crossroads of Main and Regiment.
+Mon Jun  8 10:27:30 :: WarrenG killed by the City Guard at Crossroads of Main and Regiment.
+Mon Jun  8 21:05:04 :: Bedwyr killed by the ogre at Top of east tower.
+Mon Jun  8 21:06:41 :: Bedwyr killed by the giant snake at Dim passage.
+Mon Jun  8 22:42:34 :: Bedwyr killed by Count LeThargic at Dirt path
+Mon Jun  8 23:54:22 :: Biggie killed by the traveller at Gambol Road.
+Tue Jun  9 02:28:28 :: Blackout killed by Anhkheg at Split in Dark tunnel
+Wed Jun 10 06:37:07 :: Dracion killed by Mars at A Mountain Path
+Wed Jun 10 20:51:09 :: Bedwyr killed by the City Guard at Council Square before Chambers.
+Thu Jun 11 07:08:03 :: Blackout killed by Brett at Port gunwhale.
+Thu Jun 11 07:26:47 :: Paku killed by the giant lizard at Path to the Moathouse
+Thu Jun 11 22:36:50 :: Bedwyr killed by the Nobleman at The Torture Chamber
+Thu Jun 11 22:41:45 :: Bedwyr killed by the executioner at The Torture Chamber
+Thu Jun 11 22:53:08 :: Bedwyr killed by the citizen at Before Rome
+Thu Jun 11 23:56:11 :: Bedwyr killed by the gateguard at The East Gate of Rome
+Fri Jun 12 01:50:49 :: Mercury killed by Clockwork Knight at Toyheim's Treasure Room.
+Fri Jun 12 02:50:40 :: Dangermouse killed by Ki-Rin at On the Cloud's Edge
+Fri Jun 12 21:08:00 :: Shimara killed by the ogre at Top of east tower.
+Fri Jun 12 21:24:31 :: Shimara killed by the ogre at Top of east tower.
+Sat Jun 13 06:21:21 :: Paku killed by the hungry wolf at Dirt road through the plains
+Sat Jun 13 07:17:24 :: Blackout killed by Brett at Mortal Kombat Battle ARENA!! (No_Magic)
+Sat Jun 13 07:18:59 :: Scorfio killed by Dracion at Intersection of Southbank and Main.
+Sat Jun 13 07:37:36 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Jun 13 07:41:21 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Jun 13 07:44:17 :: Brett killed by Dracion at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Sat Jun 13 08:09:28 :: Renton killed by the L.A.W. Droid at Intersection of Main and Nova
+Sat Jun 13 08:23:27 :: Dracion killed by Blackout at Main Street.
+Sat Jun 13 15:00:07 :: Sarong killed by the paladin saint at Selva Road
+Sat Jun 13 15:47:06 :: Shimara killed by the trickster at Main Street.
+Sat Jun 13 15:53:40 :: Renton killed by the huge buffalo at Crossroads of Main and Regiment.
+Sat Jun 13 16:00:06 :: Shimara killed by a ghast at Outer pathway
+Sat Jun 13 16:51:09 :: Shimara killed by the City Guard at Southbank Road.
+Sat Jun 13 17:21:33 :: Shimara killed by the trickster at Market Way.
+Sat Jun 13 17:32:25 :: Shimara killed by a ghast at Outer pathway
+Sat Jun 13 17:41:27 :: Shimara killed by a ghast at Outer pathway
+Sat Jun 13 17:51:35 :: Shimara killed by the huge buffalo at Council Square before Chambers.
+Sat Jun 13 18:56:39 :: Luna killed by Giant dragonfly at On the ladder
+Sun Jun 14 03:48:32 :: Keelar killed by Monadic Deva at On the Violet Cloud
+Sun Jun 14 08:06:17 :: Uther killed by Dracion at Mortal Kombat Battle ARENA!! (fight in dark)
+Sun Jun 14 08:47:46 :: Ikari killed by the Guard at Futureworld departure lounge
+Sun Jun 14 18:39:58 :: Shimara killed by the traveller at Gambol Road.
+Sun Jun 14 18:40:40 :: Jerdiv killed by the traveller at Gambol Road.
+Tue Jun 16 01:42:40 :: Kanze killed by Moe at Mortal Kombat Battle ARENA!! (fight in dark)
+Tue Jun 16 02:41:56 :: Ravin killed by the hungry wolf at Atop a small rise
+Tue Jun 16 10:48:02 :: Giet killed by a wild cat at Selva Road
+Tue Jun 16 12:34:42 :: Aragorn killed by the huge buffalo at Well used animal trail.
+Wed Jun 17 02:15:58 :: Blackout killed by the water elemental. at On the mighty river Eliqua.
+Wed Jun 17 09:35:07 :: Deathskull killed by the janitor at Main Street.
+Wed Jun 17 14:15:33 :: Blackout killed by Moe at Wharf of Haven.
+Wed Jun 17 23:55:00 :: Poison killed by the City Guard at Abulafia & Calrain's House
+Thu Jun 18 07:57:49 :: Paku killed by the merchant at West end of Council Square.
+Thu Jun 18 09:34:23 :: Fifty killed by Uther at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jun 18 19:02:55 :: Wrathnor killed by Clockwork Knight at Toyheim's Treasure Room.
+Fri Jun 19 00:58:46 :: Xaviar killed by the Eye of the Deep at On a large lake.
+Fri Jun 19 05:08:15 :: Dangermouse killed by Mars at A Mountain Path
+Fri Jun 19 21:00:58 :: Zeddie killed by the hungry wolf at In a dry creek bed.
+Sat Jun 20 01:00:19 :: Cavalier killed by a ghast at Outer pathway
+Sat Jun 20 01:02:40 :: Conan killed by a giant frog at At a stagnant pool.
+Sat Jun 20 14:34:51 :: Blackout killed by Dracion at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Jun 20 15:23:22 :: Drexler killed by a Crystal Sentry  at The Throne Room
+Sun Jun 21 00:53:38 :: Conan killed by the giant snake at Dim passage.
+Sun Jun 21 04:46:52 :: Boz killed by Moe at Immortals' Clubhouse
+Sun Jun 21 10:02:42 :: Mercury killed by Jack in the box at End of WoodCarve Drv.
+Sun Jun 21 16:34:58 :: Fifty killed by Santa at Riverside Tavern.
+Sun Jun 21 16:38:45 :: Boz killed by Santa at Riverside Tavern.
+Sun Jun 21 17:14:00 :: Fifty killed by Keelar at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Jun 21 17:16:59 :: Fifty killed by Carolyn at Riverside Tavern.
+Sun Jun 21 19:15:26 :: Zarathustra killed by the purple enfan at Ershteep Road
+Sun Jun 21 19:45:49 :: Zarathustra killed by the huge buffalo at A verandah outside an old homestead.
+Mon Jun 22 02:30:16 :: Boz killed by a Crystal Jester at The Throne Room
+Mon Jun 22 02:30:35 :: Boz killed by Fifty at A dark hallway
+Mon Jun 22 02:47:05 :: Fifty killed by Boz at The dark hallway
+Mon Jun 22 12:51:14 :: Blackout killed by the Lieutenant at Fort Tower(southeast)
+Mon Jun 22 22:19:52 :: CoPhEn killed by Vore at Aegean Sea
+Mon Jun 22 22:45:56 :: LilCcs killed by CoPhEn at Main Street.
+Mon Jun 22 23:15:29 :: CoPhEn killed by Vore at Aegean Sea
+Mon Jun 22 23:49:23 :: Endymion killed by the unicorn at Q ContinUum
+Tue Jun 23 00:30:53 :: MrMUD killed by the City Guard at Main Street.
+Tue Jun 23 01:05:04 :: Raistlin killed by Scylla at Inside a huge cavern
+autoscript killed Tue Jun 23 01:57:21 EST 1998
+Tue Jun 23 16:32:29 :: Zoz killed by the ghoul at Dark passage.
+Tue Jun 23 20:35:33 :: Boz killed by Mars at A Mountain Path
+Tue Jun 23 22:01:33 :: Meidiot killed by the giant lizard at Path to the Moathouse
+Tue Jun 23 22:50:54 :: Moe killed by Mars at A Mountain Path
+Wed Jun 24 01:58:31 :: Kelsonellen killed by the werewolf at Southern Council Square.
+Wed Jun 24 02:00:43 :: Moe killed while attempting to slay Cerin (werewolf)
+Wed Jun 24 02:24:55 :: Dangermouse killed by Jupiter at The Summit of The Mountain of the Gods
+autoscript killed Wed Jun 24 03:34:25 EST 1998
+Thu Jun 25 02:28:24 :: Dangermouse killed by Zeus at Throne of Zeus
+Thu Jun 25 04:22:10 :: Tanthalis killed by the Guard at Paladin's Temple.
+Thu Jun 25 04:23:44 :: Tanthalis killed by the City Guard at West end of Council Square.
+Thu Jun 25 09:33:22 :: Renton killed by the City Guard at Intersection of Southbank and Main.
+Thu Jun 25 17:30:26 :: Drexler killed by a reflection at Nexus
+Fri Jun 26 03:06:02 :: Wildcat killed by a Shadowen at An Intersection
+Fri Jun 26 03:57:27 :: Kerzon killed by a construction worker at Construction site
+Fri Jun 26 06:28:52 :: Barrett killed by the huge buffalo at Regiment Road.
+Fri Jun 26 13:23:39 :: Tanthalis killed by Caveman at Entrance to a rundown warehouse.
+Fri Jun 26 16:11:18 :: JnrMafia killed by Venus at First Room
+Fri Jun 26 16:17:43 :: Moe killed by Scylla at Second Room
+Fri Jun 26 16:17:59 :: Blackout killed by Scylla at Second Room
+Fri Jun 26 16:18:08 :: Luna killed by Scylla at Second Room
+Fri Jun 26 16:21:10 :: Blackout killed by Scylla at Second Room
+Fri Jun 26 16:24:25 :: Moe killed by Slizzarr at Third Room
+Fri Jun 26 16:25:18 :: Moe killed by Slizzarr at Third Room
+Fri Jun 26 16:26:35 :: Scorfio killed by Slizzarr at Third Room
+Fri Jun 26 16:26:53 :: Moe killed by Slizzarr at Third Room
+Fri Jun 26 16:29:12 :: Moe killed by Jupiter at Fourth Room
+Fri Jun 26 18:12:35 :: Boz killed by an old Jedi Knight at Orion Road
+Fri Jun 26 18:22:32 :: Boz killed by an old Jedi Knight at Orion Road
+Fri Jun 26 18:22:48 :: Moe killed by an old Jedi Knight at Orion Road
+Fri Jun 26 22:35:46 :: Yael killed by the janitor at Main Street.
+Fri Jun 26 22:56:06 :: Moe killed by Scylla at Inside a huge cavern
+Sat Jun 27 00:43:51 :: Njord killed by the brigand at Dim passage.
+Sat Jun 27 01:29:23 :: Cailette killed by Jupiter at The Summit of The Mountain of the Gods
+Sat Jun 27 01:46:01 :: Raistlin killed while attempting to slay Fifty (werewolf)
+Sat Jun 27 02:07:41 :: Atlantis killed by the adjudicator at The Judging Booth
+Sat Jun 27 02:17:09 :: Cavalier killed by the traveller at Gambol Road.
+Sat Jun 27 11:37:42 :: Rasputin killed by Satyr at The Woods
+Sat Jun 27 14:31:20 :: Shimara killed by the giant snake at Dim passage.
+Sat Jun 27 14:37:25 :: Shimara killed by the giant snake at Dim passage.
+Sat Jun 27 14:46:05 :: Shimara killed by the janitor at Main Street.
+Sat Jun 27 14:55:22 :: Shimara killed by the giant snake at Dim passage.
+Sat Jun 27 15:01:19 :: Shimara killed by the giant snake at Dim passage.
+Sat Jun 27 15:11:11 :: Shimara killed by a construction worker at Construction site
+Sat Jun 27 15:27:22 :: Shimara killed by the giant snake at Dim passage.
+Sat Jun 27 16:00:46 :: Shimara killed by the City Guard at Crossroads of Main and Regiment.
+Sat Jun 27 16:28:45 :: Boz killed while attempting to slay Blackout (vampire)
+Sun Jun 28 00:09:19 :: Meataxe killed by a tough guard at A guard post
+Sun Jun 28 02:59:18 :: Dangermouse killed by Scorfio at Southbank Road.
+Sun Jun 28 03:36:41 :: Uther killed by Moe at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Sun Jun 28 06:17:46 :: Khalad killed by the trickster at Regiment Road.
+Sun Jun 28 09:56:48 :: Zarathustra killed by the slimeball at The Aqueduct
+Sun Jun 28 10:03:27 :: Zarathustra killed by the slimeball at The Aqueduct
+Sun Jun 28 15:07:47 :: Fifty killed by Mars at A Mountain Path
+Sun Jun 28 17:40:21 :: Kajen killed by the ancient treant at Obscured path in the forest.
+Sun Jun 28 18:17:29 :: Kajen killed by Mercury at A Mountain Path
+Sun Jun 28 18:22:04 :: Zarathustra killed by Mercury at A Mountain Path
+Mon Jun 29 06:32:46 :: Komo killed by the janitor at Market Way.
+Mon Jun 29 12:49:13 :: Dangermouse killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Jun 29 12:51:03 :: Dangermouse killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Jun 29 12:53:40 :: Dangermouse killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Jun 29 16:43:25 :: Lasome killed by Trojan at City of Troy
+Mon Jun 29 20:02:16 :: CoPhEn killed by Vore at Aegean Sea
+Mon Jun 29 20:16:10 :: CoPhEn killed by Vore at Aegean Sea
+Mon Jun 29 22:31:53 :: Makaveli killed by the dragon at In the cave.
+Tue Jun 30 02:02:26 :: Wildcat killed by the Dwarven Guard at Mining Master's Office
+Tue Jun 30 05:58:11 :: Tanthalis killed by Caesar at The Emperor's Private Office
+Tue Jun 30 09:57:12 :: Tanthalis killed by Blackout at Mortal Kombat Battle ARENA!! (No_Magic)
+Tue Jun 30 13:38:05 :: Moe killed while attempting to slay Scorfio (werewolf)
+Tue Jun 30 15:31:27 :: DJKD killed by Caveman at Market Way.
+Wed Jul  1 00:31:14 :: Conan killed by Caveman at Market Way.
+Wed Jul  1 00:52:26 :: Conan killed by the merchant at Market Way.
+Wed Jul  1 00:54:17 :: Conan killed by Caveman at Entrance to the Wayfarer's Inn.
+Wed Jul  1 00:54:59 :: Conan killed by Caveman at Entrance to the Wayfarer's Inn.
+Wed Jul  1 00:57:26 :: Conan killed by Caveman at Entrance to the Wayfarer's Inn.
+Wed Jul  1 01:03:30 :: Conan killed by Caveman at Southbank Road.
+Wed Jul  1 01:31:22 :: Conan killed by Moe at Intersection of Southbank and Main.
+Wed Jul  1 01:49:13 :: CoPhEn killed by Jupiter at The Summit of The Mountain of the Gods
+Wed Jul  1 03:34:51 :: Kelsonellen killed by Caveman at Southbank Road.
+Wed Jul  1 05:22:13 :: Intan killed by Hideous beast at THE PIT!
+Wed Jul  1 07:24:37 :: Blackout killed by Satyr at The Woods
+Wed Jul  1 07:28:12 :: Blackout killed by Satyr at The Woods
+Wed Jul  1 10:27:46 :: Cavalier killed by the janitor at Crossroads of Main and Regiment.
+Wed Jul  1 11:01:27 :: Pow killed by the citizen at Market Way.
+Wed Jul  1 14:13:55 :: Pow killed by the hungry wolf at In a wolves' den.
+Wed Jul  1 15:37:33 :: Boz killed by Slizzarr at Starting Room
+Wed Jul  1 15:44:50 :: Boz killed by Slizzarr at Starting Room
+Wed Jul  1 15:47:35 :: Boz killed by Slizzarr at Starting Room
+Wed Jul  1 16:14:40 :: Pow killed by the gladiator at The Jousting Arena
+Wed Jul  1 17:00:38 :: Fifty killed by Vore at Aegean Sea
+Wed Jul  1 18:12:53 :: Pow killed by the elven guard at Before the tree of High Elves.
+Thu Jul  2 04:52:16 :: Dangermouse killed by Drider Master at Drider Master's Lair
+Thu Jul  2 10:11:27 :: Uther killed by Margoyle at (null)
+Thu Jul  2 14:29:47 :: Aragorn killed by the royal bodyguard at The Emperor's Private Office
+Thu Jul  2 14:34:48 :: Boz killed by Mars at A Mountain Path
+Fri Jul  3 00:10:42 :: Yael killed by the Farmer at General Store
+Fri Jul  3 09:53:58 :: Zarathustra killed by the hungry wolf at Atop a small rise
+Fri Jul  3 09:54:53 :: Zarathustra killed by the Rabid Dog at Market Way, at a turn in the road.
+Fri Jul  3 13:24:37 :: Moe killed while attempting to slay Scorfio (werewolf)
+Fri Jul  3 14:41:35 :: Boz killed by an old Jedi Knight at Jedi Store
+Fri Jul  3 14:42:54 :: Lulu killed by the City Guard at West Gate of Haven.
+Fri Jul  3 15:31:15 :: Luna killed by a Giant eel at Watery Tunnel
+Fri Jul  3 22:31:03 :: Mughain killed by the janitor at Weapons shop.
+Sat Jul  4 01:08:48 :: Zarina killed by the huge buffalo at End of an animal trail
+Sat Jul  4 01:22:06 :: Moridin killed by cloud giant at Marble Pillar
+Sat Jul  4 03:10:07 :: Luna killed by a Giant eel at Watery Tunnel
+Sat Jul  4 17:35:37 :: Ermine killed by a barracuda at Coral reef
+Sun Jul  5 09:41:59 :: Zarathustra killed by a barracuda at Coral reef
+Sun Jul  5 16:59:11 :: Snieder killed by a construction worker at Construction site
+Sun Jul  5 18:23:19 :: BerserKer killed by Fifty at Mortal Kombat Battle ARENA!! (No_Magic)
+Sun Jul  5 18:23:26 :: Pendragon killed by Fifty at Mortal Kombat Battle ARENA!! (No_Magic)
+Sun Jul  5 18:24:01 :: Pendragon killed by Fifty at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sun Jul  5 18:24:17 :: BerserKer killed by Fifty at Mortal Kombat Battle ARENA!! (fight in dark)
+Sun Jul  5 18:24:21 :: Pendragon killed by Fifty at Mortal Kombat Battle ARENA!! (fight in dark)
+Sun Jul  5 18:24:38 :: Pendragon killed by Fifty at Mortal Kombat Battle ARENA!! (fight in dark)
+Sun Jul  5 18:25:17 :: BerserKer killed by Fifty at Mortal Kombat Battle ARENA!! (fight in dark)
+Sun Jul  5 18:59:08 :: BerserKer killed by Keelar at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Sun Jul  5 22:29:47 :: Trakka killed by the merchant at Intersection of Southbank and Main.
+Mon Jul  6 00:55:22 :: Cailette killed by the Assassin at Rocky path.
+Mon Jul  6 02:00:18 :: BerserKer killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 02:01:28 :: BerserKer killed by Blackout at Mortal Kombat Battle ARENA!! (No_Magic)
+Mon Jul  6 02:02:39 :: BerserKer killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 02:04:03 :: BerserKer killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 02:04:58 :: Blackout killed by BerserKer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 02:06:18 :: BerserKer killed by Blackout at Mortal Kombat Battle ARENA!! (No_Magic)
+Mon Jul  6 04:31:38 :: BerserKer killed by Scorfio at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 06:58:31 :: Cavalier killed by the gypsy at Darask Road.
+Mon Jul  6 13:45:30 :: BerserKer killed by Uther at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 14:09:19 :: DJKD killed by Jupiter at The Summit of The Mountain of the Gods
+Mon Jul  6 14:15:39 :: Atlantis killed by Caveman at Main Room
+Mon Jul  6 15:28:28 :: Atlantis killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 15:30:07 :: BerserKer killed by Uther at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 15:31:58 :: Pow killed by Uther at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 15:32:10 :: BerserKer killed by Uther at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul  6 15:33:56 :: Pow killed by BerserKer at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jul  6 15:34:38 :: Uther killed by Boz at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jul  6 15:35:16 :: Pow killed by BerserKer at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jul  6 15:37:14 :: BerserKer killed by Boz at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jul  6 15:38:18 :: BerserKer killed by Moe at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jul  6 15:39:27 :: BerserKer killed by Boz at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jul  6 15:40:37 :: BerserKer killed by Uther at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jul  6 15:41:16 :: BerserKer killed by Uther at Entrance to the Wayfarer's Inn.
+Mon Jul  6 15:43:16 :: Boz killed by Luna at Mortal Kombat Battle ARENA!! (fight in dark)
+Mon Jul  6 15:45:12 :: Pow killed by Moe at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Mon Jul  6 15:46:10 :: Moe killed by Luna at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Mon Jul  6 15:52:59 :: Boz killed by Luna at City of Troy
+Mon Jul  6 15:53:57 :: Boz killed by Moe at City of Troy
+Mon Jul  6 17:56:54 :: Pow killed by Teddy Bear at Re-Charge Station<LED House>
+Tue Jul  7 01:00:02 :: BerserKer killed by Cailette at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Tue Jul  7 13:26:25 :: Boz killed by Moe at Golem Dwelling
+Tue Jul  7 16:33:51 :: Alannah killed by Caveman at Selva Road
+Tue Jul  7 16:42:29 :: Alannah killed by Caveman at Selva Road
+Tue Jul  7 16:47:48 :: Alannah killed by Caveman at Selva Road
+Tue Jul  7 17:16:08 :: Pow killed by BerserKer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Tue Jul  7 17:42:14 :: CoPhEn killed by Vore at Aegean Sea
+Tue Jul  7 18:03:05 :: Pow killed by BerserKer at Mortal Kombat Battle ARENA!! (No_Magic)
+Tue Jul  7 19:05:23 :: Zarathustra killed by the lich at Nyrond Road through Lhankwood Forest.
+Tue Jul  7 19:10:14 :: Lhur killed by the hungry wolf at In long grass.
+Wed Jul  8 00:05:30 :: Talon killed by BerserKer at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul  8 00:14:16 :: Fifty killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul  8 01:27:04 :: Blackout killed by Moe at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Wed Jul  8 01:43:25 :: BerserKer killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul  8 02:27:02 :: Boz killed by Moe at Regiment Road.
+Wed Jul  8 02:27:59 :: Boz killed by Moe at Regiment Road.
+Wed Jul  8 02:33:43 :: Manivo killed by Caveman at Entrance to the Mage's Guild.
+Wed Jul  8 02:33:54 :: Moe killed by Boz at Regiment Road.
+Wed Jul  8 11:44:10 :: Aazza killed by the healer at The First-Aid Station
+Wed Jul  8 11:50:24 :: CoPhEn killed by Venus at A Mountain Path
+Wed Jul  8 19:30:54 :: Coffin killed by the City Guard at West end of Council Square.
+Thu Jul  9 00:48:59 :: Manivo killed by Caveman at Southern Council Square.
+Thu Jul  9 15:11:44 :: Atlantis killed by Aglandiir at Lair
+Thu Jul  9 15:15:13 :: Atlantis killed by Aglandiir at Lair
+Thu Jul  9 15:22:42 :: Atlantis killed by Caveman at Southbank Road.
+Fri Jul 10 00:27:39 :: Lore killed by the soldier at The Slave Quarters
+Fri Jul 10 08:20:18 :: Atlantis killed by Caveman at Southbank Road.
+Fri Jul 10 11:48:59 :: Fifty killed by Moe at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Fri Jul 10 12:45:44 :: Moe killed by Boz at Mortal Kombat Battle ARENA!! (fight in dark)
+Fri Jul 10 12:55:17 :: Moe killed by Keelar at Southbank Road.
+Fri Jul 10 12:58:57 :: BookMaker killed by Jupiter at The Summit of The Mountain of the Gods
+Sat Jul 11 00:33:22 :: Aafelix killed by Old Niklaas at Inside an old shack
+Sat Jul 11 00:34:13 :: Aafelix killed by the Rabid Dog at Entrance to the Wayfarer's Inn.
+Sat Jul 11 03:03:00 :: Arudius killed by Fifty at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Jul 11 03:04:11 :: Arudius killed by Fifty at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Sat Jul 11 14:00:17 :: Uther killed by Jupiter at The Summit of The Mountain of the Gods
+Sat Jul 11 15:12:09 :: Bliss killed by the giant lizard at Path to the Moathouse
+Sat Jul 11 15:24:52 :: Bliss killed by the drunk at Southbank Road.
+Sun Jul 12 10:00:40 :: Bliss killed by the vulture at Market Way.
+Sun Jul 12 10:17:29 :: Bliss killed by the hill giant at Rugged hills.
+Sun Jul 12 10:35:38 :: Bliss killed by the bandit at A turn along Darask Road.
+Sun Jul 12 17:18:11 :: Zarathustra killed by the tree enfan at By the tree
+Sun Jul 12 17:22:03 :: Scabb killed by the snake at In long grass.
+Sun Jul 12 19:30:05 :: ACER killed by the huge buffalo at Eastern Council Square.
+Sun Jul 12 19:47:19 :: Bliss killed by the City Guard at Southbank Road.
+Sun Jul 12 19:49:02 :: Bliss killed by the Rabid Dog at Entrance to the Wayfarer's Inn.
+Mon Jul 13 02:00:07 :: Primer killed by Aphrodite at The Woods
+Mon Jul 13 02:06:23 :: Primer killed by Aphrodite at The Woods
+Mon Jul 13 04:44:01 :: Uther killed by Cailette at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Mon Jul 13 04:49:51 :: Uther killed by Cailette at Southbank Road.
+Mon Jul 13 04:52:49 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:54:24 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:54:46 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:55:01 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:55:11 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:55:21 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:55:39 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:55:51 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:55:58 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:56:09 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:56:36 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:56:47 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 04:57:09 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 05:17:01 :: Fifty killed by the Child ghost at School Playground
+Mon Jul 13 06:18:13 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:18:42 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:19:03 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:19:17 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:19:32 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:19:52 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:20:25 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:20:35 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:20:40 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:20:49 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:20:54 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:20:59 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:03 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:08 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:11 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:13 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:20 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:22 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:27 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:31 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:35 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:39 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:44 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:47 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:21:58 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:08 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:14 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:17 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:21 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:25 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:29 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:33 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:36 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:41 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:44 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:49 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:54 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:22:59 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:04 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:09 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:12 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:17 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:20 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:24 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:28 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:36 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:43 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:47 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:50 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:55 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:23:59 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:24:04 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:24:08 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:24:14 :: Uther killed by Blackout at Wharf of Haven.
+Mon Jul 13 06:24:56 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:04 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:09 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:13 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:16 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:20 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:29 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:32 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:37 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:45 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:49 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:25:53 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 06:29:15 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:19 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:22 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:26 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:30 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:33 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:37 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:41 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:45 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:48 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:51 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:56 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:29:59 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:02 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:06 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:10 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:16 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:26 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:30 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:37 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:41 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:45 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:30:54 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:01 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:05 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:10 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:16 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:21 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:25 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:27 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:29 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:34 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:38 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:43 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:47 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:51 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:31:56 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:05 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:09 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:13 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:20 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:24 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:31 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:38 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:42 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:49 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:53 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 06:32:57 :: Uther killed by Fifty at Wharf of Haven.
+Mon Jul 13 07:59:22 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:00:16 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:00:25 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:00:31 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:00:37 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:00:44 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:00:54 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:00:58 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:01:03 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:01:16 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:01:22 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:01:29 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:01:35 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:01:39 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:01:48 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:01:52 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:02:05 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:02:12 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:02:18 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:02:22 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:02:29 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:02:34 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:02:41 :: Uther killed by Atlantis at Wharf of Haven.
+Mon Jul 13 08:31:32 :: Uther killed by Cailette at Wharf of Haven.
+Mon Jul 13 08:31:52 :: Uther killed by Azazel at Wharf of Haven.
+Mon Jul 13 08:32:12 :: Uther killed by Azazel at Wharf of Haven.
+Mon Jul 13 08:32:38 :: Uther killed by Azazel at Wharf of Haven.
+Mon Jul 13 11:31:04 :: Bliss killed by a chef at The kitchen
+Mon Jul 13 12:43:16 :: Jolstar killed by the City Guard at Intersection of Southbank and Main.
+Mon Jul 13 13:48:47 :: Moe killed by Mercury at A Mountain Path
+Mon Jul 13 16:53:10 :: Pow killed by the elven High Priest at High Elves' Chapel.
+Mon Jul 13 17:02:32 :: Primer killed by King Minos at Throne room
+Mon Jul 13 18:50:03 :: Zarathustra killed by Mercury at A Mountain Path
+Tue Jul 14 02:18:29 :: Fifty killed by Scorfio at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Tue Jul 14 09:41:13 :: Kat killed by the Guard at Futureworld departure lounge
+Tue Jul 14 09:52:10 :: Kat killed by the trickster at East Gate.
+Tue Jul 14 09:52:52 :: Kat killed by KeV at Main Reception Area
+Tue Jul 14 09:57:03 :: Tanthalis killed by the Cowboy at Blue Creek Rd
+Tue Jul 14 10:42:02 :: Atlantis killed by Princes Guest at Castle Steps
+Tue Jul 14 11:52:59 :: Gambit killed by the hungry wolf at Atop a small rise
+Tue Jul 14 11:53:55 :: Gambit killed by the vulture at Well used animal trail.
+Tue Jul 14 12:04:38 :: Gambit killed by the huge buffalo at Atop a small rise
+Tue Jul 14 12:04:45 :: Moe killed by the Dred Spider at Dred Spider's Sanctum
+Tue Jul 14 15:20:10 :: Fifty killed by Giant dragonfly at Top of the ladder
+Tue Jul 14 15:49:12 :: Cailette killed by Fifty at Mortal Kombat Battle ARENA!! (fight in dark)
+Tue Jul 14 15:50:09 :: Fifty killed by Boz at Mortal Kombat Battle ARENA!! (fight in dark)
+Tue Jul 14 16:00:01 :: Keelar killed by Fifty at Mortal Kombat Battle ARENA!! (fight in dark)
+Tue Jul 14 16:02:34 :: Keelar killed by Abulafia at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Tue Jul 14 16:03:14 :: Keelar killed by Abulafia at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Tue Jul 14 16:03:45 :: Cailette killed by Fifty at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Tue Jul 14 16:03:47 :: Keelar killed by Abulafia at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Tue Jul 14 16:04:25 :: Keelar killed by Abulafia at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Tue Jul 14 16:07:43 :: Keelar killed by Abulafia at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Tue Jul 14 16:14:59 :: Keelar killed by Abulafia at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Tue Jul 14 16:37:20 :: Cailette killed by the Captain at Fort Blue Creek, northeast corner
+Tue Jul 14 17:32:12 :: Intan killed by Ogremoch at Ogremoch's Lair.
+Wed Jul 15 00:46:52 :: Boz killed by Moe at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Wed Jul 15 01:12:54 :: Fifty killed by Boz at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul 15 01:15:02 :: Cailette killed by Boz at Mortal Kombat Battle ARENA!! (No_Magic)
+Wed Jul 15 01:15:04 :: Luna killed by Boz at Mortal Kombat Battle ARENA!! (No_Magic)
+Wed Jul 15 01:30:26 :: Cailette killed by Fifty at Mortal Kombat Battle ARENA!! (fight in dark)
+Wed Jul 15 01:31:51 :: Fifty killed by Luna at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul 15 01:32:57 :: Luna killed by Boz at Mortal Kombat Battle ARENA!! (No_Magic)
+Wed Jul 15 01:33:23 :: Scorfio killed by Boz at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul 15 01:41:59 :: Fifty killed by Scorfio at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul 15 01:43:33 :: Fifty killed by Scorfio at Mortal Kombat Battle ARENA!! (No_Magic)
+Wed Jul 15 01:43:42 :: Scorfio killed by Boz at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Wed Jul 15 01:49:59 :: Scorfio killed by Boz at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Wed Jul 15 01:50:12 :: Fifty killed by Boz at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Wed Jul 15 01:59:07 :: Fifty killed by Scorfio at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul 15 02:17:30 :: Fifty killed by Luna at Mortal Kombat Battle ARENA!! (The elements have it in for you.)
+Wed Jul 15 07:33:49 :: Rasputin killed by Scorfio at Wharf of Haven.
+Wed Jul 15 10:11:37 :: Daisan killed by the Guard at Medievalworld departure lounge
+Wed Jul 15 17:38:58 :: Blackout killed by Abulafia at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Wed Jul 15 20:45:12 :: Addseven killed by the Guard at Futureworld departure lounge
+Wed Jul 15 20:45:23 :: Rexel killed by the Guard at Futureworld departure lounge
+Wed Jul 15 23:28:04 :: Luna killed by Venus at A Mountain Path
+Thu Jul 16 01:08:22 :: Tuxedo killed by Blackout at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Jul 16 01:15:30 :: Tuxedo killed by Blackout at Mortal Kombat Battle ARENA!! (fight in dark)
+Thu Jul 16 01:19:00 :: Tuxedo killed by Scorfio at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 01:50:08 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 01:56:13 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (fight in dark)
+Thu Jul 16 02:04:00 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:05:52 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:07:18 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:13:52 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:21:25 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:25:34 :: Fuzz killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:25:52 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Jul 16 02:27:18 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:27:51 :: Fuzz killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:28:32 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Jul 16 02:29:32 :: Fuzz killed by Tanthalis at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Jul 16 02:31:26 :: Tuxedo killed by Fuzz at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Jul 16 02:33:45 :: Fuzz killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:33:57 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 02:35:40 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 03:00:39 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 03:09:58 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 03:15:55 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 03:21:51 :: Tuxedo killed by the City Guard at Crossroads of Main and Regiment.
+Thu Jul 16 03:29:22 :: Tuxedo killed by Kelsonellen at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Jul 16 03:30:20 :: Kelsonellen killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 03:41:52 :: Tanthalis killed by Fifty at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Jul 16 03:57:33 :: Tuxedo killed by Tanthalis at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 04:00:05 :: Tuxedo killed by Tanthalis at Main Street.
+Thu Jul 16 08:46:14 :: Tristis killed by the gypsy at Darask Road.
+Thu Jul 16 11:54:08 :: Mara killed by Blackout at Mortal Kombat Battle ARENA!! (Use everything at your disposal)
+Thu Jul 16 12:05:48 :: Mara killed by Uther at Mortal Kombat Battle ARENA!! (No_Magic)
+Thu Jul 16 13:53:11 :: Douglas killed by a construction worker at Construction site
+Thu Jul 16 17:06:41 :: Cailette killed by the Lieutenant at Fort Blue Creek
+Thu Jul 16 21:39:01 :: Pow killed by the knight Lancelot at In the meeting room of the knights
+Thu Jul 16 23:27:59 :: Moe killed by the huge serpent. at On the river Eliqua, at the base of a huge waterfall.
+Thu Jul 16 23:29:07 :: Zorro killed by the huge buffalo at Southern Council Square.
+Fri Jul 17 00:01:29 :: Luna killed by Trojan at City of Troy
+Fri Jul 17 01:19:15 :: Luna killed by Wailing spectre at Halls of despair.
+Fri Jul 17 07:25:52 :: Douglas killed by the Assassin at Darask Road.
+Fri Jul 17 07:46:21 :: Douglas killed by the Assassin at Southbank Road.
+Fri Jul 17 09:31:18 :: Tanthalis killed by the Cowboy at Blue Creek Rd
+Fri Jul 17 11:04:29 :: Zorro killed by Scorfio at Mortal Kombat Battle ARENA!! (No_Magic)
+Fri Jul 17 14:03:17 :: Meta killed by the huge buffalo at Well used animal trail.
+Fri Jul 17 14:14:24 :: KeV killed by the vulture at By a waterhole.
+Fri Jul 17 14:44:25 :: Luna killed by the Lieutenant at Fort Parapet
+Fri Jul 17 23:09:19 :: Luna killed by Trojan at City of Troy
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,62 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@qrp open crate;get red crate;quaff red;close crate
+ec open crate;examine crate;close crate
+identify open crate;get identify crate;recite identify $1;close crate
+recall open crate;get recall crate;recite recall;close crate
+q recite 'recall'
+cure cast 'cure critic' $1
+gc open crate;get $1 crate;close crate
+emush eat mushroom
+cc cast 'cure critic'
+blind cast 'blindness' $1
+burn cast 'burning hands' $1
+gac get all corpse
+gg get gold corpse
+cast 'armor' kruel
+attack cast 'blind' $1;cast 'burning hands' $1;cast 'cure critic';cast 'burning hands' $1
+em get meat backpack;eat meat
+dw get skin backpack;drink skin;put skin backpack
+armor cast 'armor'
+food cast 'create food'
+cw cast 'create water' skin
+invis cast 'detect invisibility' $1
+fire cast 'fireball' $1
+pc open crate; put $1 crate; close crate
+bless cast 'bless' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

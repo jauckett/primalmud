@@ -1,0 +1,91 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@otk order traveller kill $1
+ot order traveller $*
+slee cast 'sleep' $1
+pro cast 'protection from evil' $1
+chm cast 'charm' $1
+/ cast 'color' $1
+[ cast 'fireball' $1
+] cast 'call' $1
+shp say http://www.jeack.com.au/primalmud.html
+start s;s;s;s;wear all;wie oak;hold magic;open crate;put all crate;take super crate;cast 'infravision' me;cast 'detect inv' me
+qt tak thick crate;quaff thick
+qb quaff blue
+tc take $1 crate
+av ass vortex
+fil take skin crate;fil skin fountain;put skin crate
+id take identify crate;rec identify $1
+rec cast 'word of recall' $1
+tb track bandit
+od open door $1
+odn open door north
+\ rec recall
+cm cast 'cure critic' me
+cc cast 'cure critic' $1
+cl cast 'cure light' $1
+em cast 'create';cast 'create';cast 'create';cast 'create';cast 'create';eat mushroom;eat mushroom;eat mushroom;eat mushroom;eat mushroom
+inv cast 'inv' $1
+ko k old
+= flee
+m cast 'magic' $1
+x exit
+tac tak all all.corpse
+tgc tak gold all.corpse
+wa wake;stand
+tl tag listy
+to tag ordos
+tv tag valium
+cf cast 'create food'
+loc cast 'locate object' $1
+str cast 'strength' $1
+di cast 'detect inv' $1
+arm cast 'armor' $1
+sum cast 'summon' $1
+inf cast 'inf' $1
+bsv backstab vortex
+bs rem oak;wie super soaker;backstab $1;rem super;wie oak
+tr track $1
+ccv cast 'cure critic' vortex
+pc put $1 crate
+exc exa crate
+ds take skin crate;drink skin;put skin crate
+qr tak red crate;quaff red
+qw tak white crate;quaff white
+snow emote Conjures a snowball out of thin air and throws it at you!!
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

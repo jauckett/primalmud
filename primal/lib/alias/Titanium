@@ -1,0 +1,55 @@
+ms cast 'meteor' $1
+id cast 'identify' $1
+qq get heal back;quaff heal
+start wear all;wi fist;grab pen;grab en
+tm train mana
+pb cast 'plasma' $1
+fb cast 'fireball' $1
+havwest n;n;w;w;w;s;go stage
+westhav e;e;e;e;e;go wagon
+bp buy 5 prot;put all.prot back
+qp get prot back;quaff prot
+bh buy 10 heal;put all.heal back
+sl cast 'sense life' self
+san cast 'sanctuary' self
+loc cast 'locate object' $1
+rp cast 'remove poison' $1
+rec cast 'words of recall' self
+hh cast 'heal' self
+jc get corpse;junk corpse
+ws wake;stand
+str cast 'strength' $1
+di cast 'detect inv' self
+ec exam corpse
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+th train hit
+gac get all corpse
+gg get gold corpse
+in cast 'infravision' self
+inv cast 'invisibility' self
+br buy 5 red;put all.red back
+bw buy 5 white;put all.white back
+qr get red back;quaff red
+qw get white back;quaff white
+bi buy 5 identify;put all.scroll back
+bm buy 5 meat;put all.meat back
+em get meat back;eat meat
+ds get skin back;drink skin;put skin back
+eb exam back
+gr tell gamina refresh
+bt buy 10 #10;put all.tonic back
+dra cast 'dragon'
+slp cast 'sleep' $1
+pa put all back;get all.ammo back
+shadow s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;n;e;e;e;e;n
+ar cast 'armor' self
+par cast 'para' $1
+sa cast 'spirit armor' self
+ha cast 'holy aid' self
+bl cast 'bless' self
+ww cast 'waterwalk' self
+ba buy 5 ammo
+has cast 'haste' self
+bs rem rif;wi knife;backstab $1;rem kni;wi rif
+ad cast 'advance' self
+dp cast 'divine protection' self

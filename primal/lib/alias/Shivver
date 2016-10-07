@@ -1,0 +1,4 @@
+mm cast 'magic m' $1
+ds drink skin
+gac get all corpse
+qw get white backpack; quaff white

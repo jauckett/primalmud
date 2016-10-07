@@ -1,0 +1,8 @@
+gcc get coins all.corpse
+gac get all corpse
+arm cast 'armor'
+di cast 'detect invisibility'
+cl cast 'cure light'
+1 cast 'burning hands' $1
+infra cast 'infravision'
+cf cast 'create food'

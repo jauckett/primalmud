@@ -1,0 +1,48 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@mk cast 'magic missile' $1;kill $1
+m5 cast 'magic missile' $1;cast 'magic missile' $1;cast 'magic missile' $1;cast 'magic missile' $1;cast 'magic missile' $1
+gc get all from corpse
+pb put $1 in backpack
+m3 cast 'magic missile' $1;cast 'magic missile' $1;cast 'magic missile' $1
+mm cast 'magic missile' $1
+mf cast 'magic missile'  $1;flee
+cm commands
+gb get $1 from backpack
+gf get all from $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

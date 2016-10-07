@@ -1,0 +1,42 @@
+tt at trojan cast 'summon' blaze
+/// / #101 $*
+hp at pho cast 'heal' pho
+iholler invis ; holler $* ; invis
+igos invis ; gossip $* ; invis
+lev4             n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+lev1             e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n;n;
+vvv cast 'divine heal' venus; cast 'divine heal' venus
+kd goto drider; primal
+hhh cast 'divine heal' self ; cast 'divine heal' self ; cast 'divine heal' self
+a cast 'divine heal
+gt2 poofout disappears leaving a void where he was standing.
+gt1 poofin materialises from the mass of lights in front of you.
+gt echo The surrounding air swirls aound wildly and you feel sadness in your heart. ; echo   . ; at $1 echo You see coloured light dance in the air and condense at one point in space. ; at $1 echo   . ;  goto $1
+hmoe goto 343
+ks kill satyr
+rk rescue karma
+pfin poofin fades into existance, liquifying the air around him.
+pfout poofout fades into nothingness.
+t say $*
+abc at 22399 goto blackout; at 22399 exit
+clap emote shows his approval by clapping his humongous paws together.
+kl goto lord; k lord
+kt goto trog; k trog
+kk goto trakker; k trakk
+/s / Sarcasitcally>$*
+offgoss alias gos asdf; alias goss asdf; alias gossi asdf
+ongoss alias gos; alias goss; alias gossi
+// / #100 $*
+bb at blaze cast 'advan' blaze
+cc at blaze cast 'summon' caveman
+ff at blaze cast 'finger' caveman
+kr got roper; primal
+sr at jupiter cast 'rem' rope; sell rope
+tf at blaze cast 'fin' troj
+ss at satyr cast 'summon' blaze
+sf at satyr cast 'fin' satyr
+ttt throw wing south boz; throw wing south boz; throw wing s boz
+nf at nymph cast 'fin' nymph
+nn at nymph cast 'summon' blaze
+gh cast 'group heal
+sh sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; sell shield; 

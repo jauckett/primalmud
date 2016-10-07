@@ -1,0 +1,1115 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.30;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.43;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#25000
+Intersection~
+You are standing at an intersection of roads. There are a strange assortment
+of aliens and droids going about there business all around you, alot of them 
+don't look at all friendly. To the west is Docking Bay 72. This road continues
+east and another road is to the south.
+~
+250 0 1
+D1
+You see a road.
+~
+east~
+0 0 25001
+D2
+You see a road.
+~
+south~
+0 0 25006
+D3
+You see Docking Bay 72.
+~
+west~
+0 0 25021
+S
+#25001
+North Road~
+You are walking along the road on the north side of Mos Eisley space port on
+the desert planet of Tatooine. All around you the planets inhabitants are going
+about their daily business, most o fthem seem unhappy living under Imperial
+rule. This road continues east and west.
+~
+250 0 1
+D1
+You see a road.
+~
+east~
+0 0 25002
+D3
+You see an intersection.
+~
+west~
+0 0 25000
+S
+#25002
+Intersection on north road~
+You are walking along the road on the north side of Mos Eisley space port on
+the desert planet of Tatooine. All around you the planets inhabitants are going
+about their daily business, most o fthem seem unhappy living under Imperial
+rule. This road continues east and west. To the north is Docking Bay 94 and 
+to the south is another road.
+~
+250 0 1
+D0
+You see Docking Bay 94.
+~
+north~
+0 0 25019
+D1
+You see a road.
+~
+east~
+0 0 25003
+D2
+You see a road.
+~
+south~
+0 0 25018
+D3
+You see a road.
+~
+west~
+0 0 25001
+S
+#25003
+North Road~
+You are walking along the road on the north side of Mos Eisley space port on
+the desert planet of Tatooine. All around you the planets inhabitants are going
+about their daily business, most o fthem seem unhappy living under Imperial
+rule. This road continues east and west. 
+~
+250 0 1
+D1
+You see a road.
+~
+east~
+0 0 25004
+D3
+You see a road.
+~
+west~
+0 0 25002
+S
+#25004
+North Road~
+You are walking along the road on the north side of Mos Eisley space port on
+the desert planet of Tatooine. All around you the planets inhabitants are going
+about their daily business, most o fthem seem unhappy living under Imperial
+rule. This road continues east and west. TO the north is Docking Bay 38.
+~
+250 0 1
+D0
+You see Docking Bay 38.
+~
+north~
+0 0 25020
+D1
+You see a road.
+~
+east~
+0 0 25005
+D3
+You see a road.
+~
+west~
+0 0 25003
+S
+#25005
+End of North Road~
+You are walking along the road on the north side of Mos Eisley space port on
+the desert planet of Tatooine. All around you the planets inhabitants are going
+about their daily business, most o fthem seem unhappy living under Imperial
+rule. This road continues west. From here the road goes out into the desert to
+the east.
+~
+250 0 1
+D1
+You see the desert.
+~
+east~
+0 0 24000
+D3
+You see a road.
+~
+west~
+0 0 25004
+S
+#25006
+West Road~
+You are walking along the road on the west side of Mos Eisley starport.
+This place is where alot of smugglers, bounty hunters and other scum come
+to find work, usually from Jabba the Hutt, and from the look of some of the
+beings around here you decide that if you want to stay healthy you had better
+be cautious. This road goes north and south.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25000
+D2
+You see a road.
+~
+south~
+0 0 25007
+S
+#25007
+West Road~
+You are walking along the road on the west side of Mos Eisley starport.
+This place is where alot of smugglers, bounty hunters and other scum come
+to find work, usually from Jabba the Hutt, and from the look of some of the
+beings around here you decide that if you want to stay healthy you had better
+be cautious. This road goes north and south. To the west is a small weapons
+store, to the east is an armour and clothing shop.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25006
+D1
+You see a small shop.
+~
+east~
+0 0 25024
+D2
+You see a road.
+~
+south~
+0 0 25008
+D3
+You see a small shop.
+~
+west~
+0 0 25023
+S
+#25008
+West Road~
+You are walking along the road on the west side of Mos Eisley starport.
+This place is where alot of smugglers, bounty hunters and other scum come
+to find work, usually from Jabba the Hutt, and from the look of some of the
+beings around here you decide that if you want to stay healthy you had better
+be cautious. This road goes north and south.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25007
+D2
+You see a road.
+~
+south~
+0 0 25009
+S
+#25009
+West Road~
+You are walking along the road on the west side of Mos Eisley starport.
+This place is where alot of smugglers, bounty hunters and other scum come
+to find work, usually from Jabba the Hutt, and from the look of some of the
+beings around here you decide that if you want to stay healthy you had better
+be cautious. This road goes north and south. To the east there is a
+dirty little hotel.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25008
+D1
+You see a small hotel.
+~
+east~
+0 0 25025
+D2
+You see a road.
+~
+south~
+0 0 25010
+S
+#25010
+West Road~
+You are walking along the road on the west side of Mos Eisley starport.
+This place is where alot of smugglers, bounty hunters and other scum come
+to find work, usually from Jabba the Hutt, and from the look of some of the
+beings around here you decide that if you want to stay healthy you had better
+be cautious. This road goes north and south. To the west is a small food
+outlet.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25009
+D2
+You see a road.
+~
+south~
+0 0 25011
+D3
+You see a small shop.
+~
+west~
+0 0 25026
+S
+#25011
+Turn in Road~
+You are standing at the corner of two roads on the south side of this small
+starport built in on the desert world of Tatooine. Although this is a small 
+starport it is one of the busiest in this sector and you can usually find a 
+shuttle to take you where you want to go at one of the docking bays. 
+Roads go north and east from here.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25010
+D1
+You see a road.
+~
+east~
+0 0 25012
+S
+#25012
+Road through Mos Eisley~
+You are standing on the street on the south side of this small
+starport built in on the desert world of Tatooine. Although this is a small 
+starport it is one of the busiest in this sector and you can usually find a 
+shuttle to take you where you want to go at one of the docking bays. 
+Roads go west and east from here. Docking Bay 13 is south.
+~
+250 0 1
+D1
+You see a road.
+~
+east~
+0 0 25013
+D2
+You see Docking Bay 13.
+~
+south~
+0 0 25022
+D3
+You see a road.
+~
+west~
+0 0 25011
+S
+#25013
+Road through Mos Eisley~
+You are standing on the corner of two roads on the south side of this small
+starport built in on the desert world of Tatooine. Although this is a small 
+starport it is one of the busiest in this sector and you can usually find a 
+shuttle to take you where you want to go at one of the docking bays. 
+Roads go west and north from here.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25014
+D3
+You see a road.
+~
+west~
+0 0 25012
+S
+#25014
+Road through Mos Eisley~
+You are walking along the road through the middle of Mos Eisley starport.
+Although Tatooine is located in Imperial space this planet seems to be run
+more by the local crime boss, Jabba the Hutt, then by the Empire.
+You get a strange feeling of good from the old rundown shop to the east.
+This road goes north and south from here.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25015
+D1
+You see an old shop.
+~
+east~
+0 0 25027
+D2
+You see a road.
+~
+south~
+0 0 25013
+S
+#25015
+Road through Mos Eisley~
+You are walking along the road through the middle of Mos Eisley starport.
+Although Tatooine is located in Imperial space this planet seems to be run
+more by the local crime boss, Jabba the Hutt, then by the Empire.
+This road goes north and south from here.
+~
+250 128 1
+D0
+You see a road.
+~
+north~
+0 0 25016
+D2
+You see a road.
+~
+south~
+0 0 25014
+S
+#25016
+Road through Mos Eisley~
+You are walking along the road through the middle of Mos Eisley starport.
+Although Tatooine is located in Imperial space this planet seems to be run
+more by the local crime boss, Jabba the Hutt, then by the Empire.
+This road goes north and south from here.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25017
+D2
+You see a road.
+~
+south~
+0 0 25015
+S
+#25017
+Road through Mos Eisley~
+You are walking along the road through the middle of Mos Eisley starport.
+Although Tatooine is located in Imperial space this planet seems to be run
+more by the local crime boss, Jabba the Hutt, then by the Empire.
+This road goes north and south from here.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25018
+D2
+You see a road.
+~
+south~
+0 0 25016
+S
+#25018
+Road through Mos Eisley~
+You are walking along the road through the middle of Mos Eisley starport.
+Although Tatooine is located in Imperial space this planet seems to be run
+more by the local crime boss, Jabba the Hutt, then by the Empire.
+To the north is an intersection. To the east is the Mos Eisley cantina, where
+most of the scum hang out. This road goes south.
+~
+250 0 1
+D0
+You see a road.
+~
+north~
+0 0 25002
+D1
+You see a the cantina.
+~
+east~
+0 0 25028
+D2
+You see a road.
+~
+south~
+0 0 25017
+S
+#25019
+Docking Bay 94~
+You are standing inside Docking Bay 94 in the Mos Eisley starport, on the
+planet Tatooine. From here you can get transport to other planets in the known
+galaxy. There is a road to the south.
+~
+250 0 0
+D2
+You see a road.
+~
+south~
+0 0 25002
+S
+#25020
+Docking Bay 38~
+You are standing inside Docking Bay 38 in the Mos Eisley starport, on the
+planet Tatooine. From here you can get transport to other planets in the known
+galaxy. There is a road to the south.
+~
+250 0 0
+D2
+You see a road.
+~
+south~
+0 0 25004
+S
+#25021
+Docking Bay 72~
+You are standing inside Docking Bay 72 in the Mos Eisley starport, on the
+planet Tatooine. From here you can get transport to other planets in the known
+galaxy. There is an intersection of roads to the east.
+~
+250 0 0
+D1
+You see an intersection.
+~
+east~
+0 0 25000
+S
+#25022
+Docking Bay 13~
+You are standing inside Docking Bay 13 in the Mos Eisley starport, on the
+planet Tatooine. From here you can get transport to other planets in the known
+galaxy. There is a road to the north.
+~
+250 0 0
+D0
+You see a road.
+~
+north~
+0 0 25012
+S
+#25023
+Weapons Store~
+You are inside a small weapons store. There are a large assortment of weapons
+lining the walls, some of which look like they need at least three hands to
+operate. To the east is a road.
+~
+250 0 0
+D1
+You see a road.
+~
+east~
+0 0 25007
+S
+#25024
+Armour and Clothing Store~
+You are standing inside a small shop that sells armour and clothing, and by
+the looks of some of the stuff lining the walls they obviously cater for all 
+types of different alien life. To the west is a road.
+~
+250 0 0
+D3
+You see a road.
+~
+west~
+0 0 25007
+S
+#25025
+Dirty Rundown Hotel~
+You are standing inside a hotel with an unpronouncable alien name. This has
+to be the dirtiest hotel you have ever seen. There is a thick layer of sand on 
+the floor that seems to have been dragged in from hte desert over time. If the
+rooms are as bad as this then maybe you would be better off sleeping in the
+desert. To the west is a road.
+~
+250 0 0
+D3
+You see a road.
+~
+west~
+0 0 25009
+S
+#25026
+Food Outlet~
+This room is filled with bubbling tanks filled with strange looking creatures
+that have been catpured in the desert and discovered to be what some beings
+consider edible. Alot of these creatures are still moving and none look very
+tasty, but its better than starving... To the east is a road.
+~
+250 0 0
+D1
+You see a road.
+~
+east~
+0 0 25010
+S
+#25027
+Jedi Store~
+This small rundown shop is where you can purchase ancient scrolls of Jedi
+wisdom containing the ways of the Force. There are old pictures and
+tapestries lining the walls showing the ways of the old Jedi knights and
+showing how they were the heros of the Old Republic before the Emporer tried
+to wipe them all out.
+~
+250 0 0
+D3
+You see a road.
+~
+west~
+0 0 25014
+S
+#25028
+Mos Eisley Cantina~
+You are standing in the entrance of the cantina. This is the place to come if
+you need passage to a forbidden system or if you want someone removed
+for you. The cantina is just one big room filled with tables, chairs and alot 
+of being from all over the galaxy. The street is west, the cantina continues
+south and east.
+~
+250 0 0
+D1
+You see the cantina.
+~
+east~
+0 0 25029
+D2
+You see the cantina.
+~
+south~
+0 0 25032
+D3
+You see a road.
+~
+west~
+0 0 25018
+S
+#25029
+Mos Eisley Cantina~
+You are standing by the bar of the cantina. There are a strange assortment
+of aliens all gathered round drinking. Behind the bar are shelves lined with 
+drinks of all different colours and origins, some are probably lethal to 
+humans.
+  There is a sign on the wall behind the bar. The cantina continues
+east, west and south.
+~
+250 0 0
+D1
+You see the cantina.
+~
+east~
+0 0 25030
+D2
+You see the cantina.
+~
+south~
+0 0 25033
+D3
+You see the cantina.
+~
+west~
+0 0 25028
+E
+sign~
+The sign reads:
+               WE DO NOT SERVE DROIDS!
+               NO DROIDS ALLOWED!
+~
+S
+#25030
+Mos Eisley Cantina~
+You are standing by the bar of the cantina. There are a strange assortment
+of aliens all gathered round drinking. Behind the bar are shelves lined with 
+drinks of all different colours and origins, some are probably lethal to 
+humans.
+  There is a sign on the wall behind the bar. The cantina continues
+east, west and south.
+~
+250 0 0
+D1
+You see the cantina.
+~
+east~
+0 0 25031
+D2
+You see the cantina.
+~
+south~
+0 0 25034
+D3
+You see the cantina.
+~
+west~
+0 0 25029
+E
+sign~
+The sign reads:
+               WARNING: NOT ALL BEVERAGES ARE SUITABLE TO ALL SPECIES!
+                        FIND OUT WHAT YOU ARE BEFORE YOU HAVE A DRINK!
+~
+S
+#25031
+Mos Eisley Cantina~
+You are standing by the bar of the cantina. There are a strange assortment
+of aliens all gathered round drinking. Behind the bar are shelves lined with 
+drinks of all different colours and origins, some are probably lethal to 
+humans. The cantina continues west and south.
+~
+250 0 0
+D2
+You see the cantina.
+~
+south~
+0 0 25035
+D3
+You see the cantina.
+~
+west~
+0 0 25030
+S
+#25032
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, south and east.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25028
+D1
+You see the cantina.
+~
+east~
+0 0 25033
+D2
+You see the cantina.
+~
+south~
+0 0 25036
+S
+#25033
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, south, east and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25029
+D1
+You see the cantina.
+~
+east~
+0 0 25034
+D2
+You see the cantina.
+~
+south~
+0 0 25037
+D3
+You see the cantina.
+~
+west~
+0 0 25032
+S
+#25034
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, south, east and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25030
+D1
+You see the cantina.
+~
+east~
+0 0 25035
+D2
+You see the cantina.
+~
+south~
+0 0 25038
+D3
+You see the cantina.
+~
+west~
+0 0 25033
+S
+#25035
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, south and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25031
+D2
+You see the cantina.
+~
+south~
+0 0 25039
+D3
+You see the cantina.
+~
+west~
+0 0 25034
+S
+#25036
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, south and east.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25032
+D1
+You see the cantina.
+~
+east~
+0 0 25037
+D2
+You see the cantina.
+~
+south~
+0 0 25040
+S
+#25037
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, south, east and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25033
+D1
+You see the cantina.
+~
+east~
+0 0 25038
+D2
+You see the cantina.
+~
+south~
+0 0 25041
+D3
+You see the cantina.
+~
+west~
+0 0 25036
+S
+#25038
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, south, east and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25034
+D1
+You see the cantina.
+~
+east~
+0 0 25039
+D2
+You see the cantina.
+~
+south~
+0 0 25042
+D3
+You see the cantina.
+~
+west~
+0 0 25037
+S
+#25039
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, south and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25035
+D2
+You see the cantina.
+~
+south~
+0 0 25043
+D3
+You see the cantina.
+~
+west~
+0 0 25038
+S
+#25040
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north and east.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25036
+D1
+You see the cantina.
+~
+east~
+0 0 25041
+S
+#25041
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, east and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25037
+D1
+You see the cantina.
+~
+east~
+0 0 25042
+D3
+You see the cantina.
+~
+west~
+0 0 25040
+S
+#25042
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north, east and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25038
+D1
+You see the cantina.
+~
+east~
+0 0 25043
+D3
+You see the cantina.
+~
+west~
+0 0 25041
+S
+#25043
+Mos Eisley Cantina~
+You are standing in the cantina at Mos Eisley space port. This is the place 
+where all sorts of space scum gather to get jobs and cause trouble. You head
+is filled with the strange music that the band is playing, and the noise of the
+crowd. This room continues north and west.
+~
+250 0 0
+D0
+You see the cantina.
+~
+north~
+0 0 25039
+D3
+You see the cantina.
+~
+west~
+0 0 25042
+S
+#25044
+Millenium Falcon passenger area~
+You are standing inside the passenger area of the Millenium Falcon as you wait
+to reach your destination planet. This room goes north and east.
+~
+250 8 0
+D0
+You see the passenger area.
+~
+north~
+0 0 25045
+D1
+You see the passenger area.
+~
+east~
+0 0 25047
+S
+#25045
+Millenium Falcon passenger area~ 
+You are standing inside the passenger area of the Millenium Falcon as you wait
+to reach your destination planet. This room goes south and east.
+~
+250 8 0
+D1
+You see the passenger area.
+~
+east~
+0 0 25046
+D2
+You see the passenger area.
+~
+south~
+0 0 25044
+S
+#25046
+Millenium Falcon passenger area~
+You are standing inside the passenger area of the Millenium Falcon as you wait
+to reach your destination planet. This room goes south and east.
+~
+250 8 0
+D2
+You see the passenger area.
+~
+south~
+0 0 25047
+D3
+You see the passenger area.
+~
+west~
+0 0 25045
+S
+#25047
+Millenium Falcon passenger area~
+You are standing inside the passenger area of the Millenium Falcon as you wait
+to reach your destination planet. This room goes north and west. The cockpit
+is to the east.
+~
+250 8 0
+D0
+You see the passenger area.
+~
+north~
+0 0 25046
+D1
+You see the cockpit.
+~
+east~
+0 0 25048
+D3
+You see the passenger area.
+~
+west~
+0 0 25044
+S
+#25048
+Millenium Falcon Cockpit~
+You are standing in the cockpit of the Millenium Falcon. The walls are lined 
+with buttons and switches for operating the different systems of the ship,
+alot of which seem to have been modified in some way or another. Through 
+the front window you can see the swirling tunnel of hyperspace as the 
+ship travels to its destination. The passenger area is to the west.
+~
+250 8 0
+D3
+You see the passenger area.
+~
+west~
+0 0 25047
+S
+$~
+
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

@@ -1,0 +1,53 @@
+sm cast 'sanc' $1
+all cast 'sanc' me; cast 'dragon' me; cast 'waterbre' me; cast 'hast' me;cast 'nohass' me; cast 'stoneskin'; cast 'strength'; cast 'fire shield'
+has cast 'nohas
+st cast 'strength'
+ss cast 'stoneskin'
+food cast 'create food'
+cs cast 'sanc' clone; cast 'sanc' 2.clone; cast 'sense' clone; cast 'sense' 2.clone; cast 'infra' clone; cast 'infra' 2.clone; cast 'detect invis' clone; cast 'detect invis' 2.clone
+gh cast 'group heal'
+city s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;cast 'refresh' me;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+wr cast 'wraith' $1
+back rem plas; wield sting; back $1; rem sting; wield plas
+cor get gol cor
+gs cast 'group sanctuary'
+ga cast 'group armor' 
+heal cast 'advance' $1
+i cast 'advance' eag
+fin cast 'finger' $1
+sa cast 'sanc' eag
+water cast 'waterwalk' $1
+id cast 'ident' $1
+a get ammo from sad; reload
+invis cast 'invis' $1
+harm cast 'harm' $1
+ref cast 'refresh' $1
+sp cast 'spirit armor' eagle
+inf cast 'infra' $1
+dr cast 'dragon'
+f cast 'fireball' $1
+r reload
+b cast 'burning hands' $1
+c cast 'chilling touch' $1
+p get prot from back; q prot
+t cast 'shocking grasp' $1
+eg cast 'energy drain' $1
+det cast 'detect invis' $1
+sum cast 'summon' $1
+word cast 'word
+l q heal
+hast cast 'haste'
+m cast 'meteor swarm' $1
+' train hit
+speed s;e;e;e;e; open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+sense cast 'sense life' eagle
+ret retreat
+di cast 'divine heal' me
+h get healing from force; q healing
+healing buy 40 healing; put all.healing in force
+ck order followers kill $1; k $1
+clone cast 'clone'; cast 'clone'; cs
+li cast 'fire shield' me
+island autoexit;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;u;open dock;u;e;e;autoexit
+para cast 'para' $1
+sphere autoexit;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;e;s;s;s;cast 'waterwalk';s;s;s;s;s;w;w;s;s;s;e;s;s;s;s;w;w;s;s;s;cast 'dragon';s;s;open rock;n;open evil;w;w;n;w;s;open sphere;w;rem red;wear mask;autoexit

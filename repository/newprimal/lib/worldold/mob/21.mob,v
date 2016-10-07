@@ -1,0 +1,253 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.21;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.30;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#2101
+enfan blue~
+the blue enfan~
+There is an enfan here. It is dressed in a blue suit
+~
+A small child like being who struts about rather haughtily.
+It has a strange blue skin that seems to glow unusually
+~
+96 128 -1000 S
+9 11 5 5d10+50 2d3+1
+2175 7000
+8 8 0
+#2102
+enfan grey~
+the grey enfan~
+There is an enfan here. It is dressed in a grey suit
+~
+A small child like being who struts about rather haughtily.
+It has a strange grey skin that seems to glow unusually
+~
+96 128 -850 S
+11 9 3 10d10+65 2d4+1
+3093 12000
+8 8 0
+#2103
+enfan green~
+the green enfan~
+There is an enfan here. It is dressed in a green suit
+~
+A small child like being who struts about rather haughtily.
+It has a strange green skin that seems to glow unusually
+~
+96 8 -900 S
+13 7 2 8d10+170 2d5+1
+4512 16000
+8 8 0
+#2104
+enfan purple~
+the purple enfan~
+There is an enfan here. It is dressed in a purple suit
+~
+A small child like being who struts about rather haughtily.
+It has a strange purple skin that seems to glow unusually
+~
+96 524288 -900 S
+15 4 1 12d10+220 2d6+4
+6029 21000
+8 8 0
+#2105
+enfan yellow~
+the yellow enfan~
+There is an enfan here. It is dressed in a yellow suit
+~
+A small child like being who struts about rather haughtily.
+~
+96 136 -900 S
+17 4 1 9d10+330 2d7+2
+7079 29000
+8 8 0
+#2106
+enfan black~
+the black enfan~
+There is a positively evil enfan in front of you 
+~
+A small child like being who struts about rather haughtily.
+It has a strange burnt skin that seems to glow unusually
+~
+96 168 -1000 S
+22 0 0 12d10+430 2d6+6
+9300 56000
+8 8 0
+#2107
+dog guard~
+the guard dog~
+A guard dog sits here staring hungrily
+~
+A large, ugly, evil dog.
+~
+34 8 -700 S
+5 14 5 5d4+30 2d4+1
+1525 900
+8 8 0
+#2108
+rat~
+the rat~
+A large mutated rat stares at you with glowing eyes
+~
+It is simply very ugly.
+~
+34 8 0 S
+9 11 5 1d5+45 1d5+1
+1850 6000
+8 8 0
+#2112
+gargoyle gargoyle~
+the gargoyle~
+A stone gargoyle stands before you blocking your way
+~
+Very, very ugly. Much like a stereo-typical mother-in-law,
+only a lot worse!
+~
+98 8 -1000 S
+12 5 -2 12d8+200 1d8+1
+5908 14000
+8 8 0
+#2113
+enfan tree~
+the tree enfan~
+There is a positively evil enfan in front of you
+~
+A small child like being who struts about rather haughtily.
+~
+98 170 -1000 S
+22 0 0 12d10+430 2d6+6
+9300 55000
+8 8 0
+#2114
+guard fairy~
+Fairy Guard~
+One of the fairy guards of Queen Amyst keeps a close eye on you.
+~
+A fairy guard may look like, well a fairy, but the dagger at his hip and notches
+on his shield weren't gotten from looking pretty.
+~
+6432 136192 700 S
+11 15 2 8d10+70 2d4+3
+5000 11000
+8 8 1
+#2115
+queen fairy amyst~
+Queen Amyst.~
+Queen Amyst reclines on a throne keeping court for her few remaining people.
+~
+Queen Amyst reigned over several hundred fairies only a short time ago. Then
+the enfans found and attacked their tree. She now rules from here until the fairies
+can move far away or a bold band of adventurers can remove the enfan menace
+permanently.
+~
+8480 136200 1000 S
+21 5 -3 10d10+500 3d4+10
+8500 53000
+6 6 2
+#2116
+mage fairy magus~
+fairy mage~
+A old slender fairy with silver hair looks at you with eyes sharp as a hawks.
+~
+For as long as the fairies have existed their queens have had mages to advise
+them and help protect them and their subjects from harm. At any time anywhere
+from 5 to 20 mages used to belong to the queens court, but the Magus was the only
+one left alive after the enfans attacked the fairies. The livid scar running down the
+left side of his face marring his otherwise almost feminine features are a stark 
+reminder that he didn't escape untouched by the evil. 
+~
+6448 136236 540 S
+22 6 -1 5d14+430 2d6+12
+12000 60000
+8 8 1
+#2117
+cook fairy~
+Fairy Cook~
+A stout fairy waddles around the kitchen cooking.
+~
+A stout fairy has flour covering her arms up to her elbows and is humming
+a merry tune. You doubt whether the delicate wings on her back could support
+her weight. She's the first fairy you've seen who isn't slender. Obviously this
+cook likes to sample her own cooking just a bit too much.
+~
+6432 1024 830 S
+9 11 5 6d7+62 2d3+1
+2000 7000
+8 8 2
+#2118
+catepillar giant~
+Giant Catepillar~
+A giant catepillar is munching on a giant leaf. This is one catepillar you don't want to try squashing underfoot.
+~
+Three foot high and fifteen foot long this catepillar looks like it could eat
+you in two or three gulps. Thorny bristles covering its length are several
+inches long and very sharp. Get too close and you risk impaling yourself
+on them. Luckily the beast appears more interested in eating its meal then
+acquiring you as its next one. 
+~
+2336 1024 0 S
+17 7 -1 10d10+330 2d7+3
+0 30000
+8 8 0
+#99999
+$~@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

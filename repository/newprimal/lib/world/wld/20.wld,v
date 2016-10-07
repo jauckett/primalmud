@@ -1,0 +1,3238 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.29;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@#2000
+The Secret Vault~
+This is the Secret vault of the Crystal King.
+~
+20 acd 0 0
+D0
+A slime covered wall.
+~
+~
+0 0 -1
+D1
+A slime covered wall with chain hanging from the top corners.
+~
+~
+0 0 -1
+D2
+A small grate upon the wall where dark mist creeps through.
+~
+~
+0 0 -1
+D3
+A slime covered wall.
+~
+~
+0 0 -1
+D4
+A secret opening into a foggy dungeon.
+~
+secret~
+2 2005 2053
+D5
+A damp grimy floor with small pieces of gold scattered at your feet.
+~
+~
+0 0 -1
+S
+#2001
+A drawbridge over a moat.~
+You are statnding upon a drawbridge made of solid Crystal. Below you is 
+a crystal clear moat. The entry to the Castle is to the North. To the South
+is the way you came.
+~
+20 ac 1 0
+D0
+An arched entryway
+~
+~
+0 0 2002
+D1
+A deep dark moat surrounds the drawbridge.
+~
+~
+0 0 -1
+D2
+The sandy desert.
+~
+~
+0 0 850
+D3
+A deep dark moat surrounds the drawbridge.
+~
+~
+0 0 -1
+S
+#2002
+An arched Entryway.~
+You are standing at the entrance of a large castle. To the north is a hallway
+while to the south is a Drawbridge.
+~
+20 ac 0 0
+D0
+A dark hallway.
+~
+~
+0 0 2003
+D1
+A cold grey stone wall.
+~
+~
+0 0 -1
+D2
+A drawbridge over a moat.
+~
+~
+0 0 2001
+D3
+A cold grey stone wall.
+~
+~
+0 0 -1
+D4
+The high ceiling that is covered in beautiful murals of knights.
+~
+~
+0 0 -1
+D5
+The slate floor.
+~
+~
+0 0 -1
+S
+#2003
+A dark hallway.~
+The hallway continues North. To the South is an arched entryway.
+The ceiling is covered in beautiful murals that catch your eye.
+The walls are covered in fine tapestries depicting bloody battles.
+~
+20 ad 0 0
+D0
+A dark hallway.
+~
+~
+0 0 2004
+D1
+The wall has a beautiful tapestry of a knight fighting a dragon
+~
+~
+0 0 -1
+D2
+An arched Entryway.
+~
+~
+0 0 2002
+D3
+The wall has a tapestry of two fierce dragons fighting each other.
+~
+~
+0 0 -1
+D4
+The ceiling has a painting of knights in shining armor.
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2004
+A dark hallway.~
+The hallway continues North and South.
+~
+20 ad 0 0
+D0
+A dark intersection.
+~
+~
+0 0 2005
+D1
+The wall is covered in a tapestry of rare beauty.
+~
+~
+0 0 -1
+D2
+A dark hallway.
+~
+~
+0 0 2003
+D3
+The tapestry upon the wall depicts a beautiful maiden.
+~
+~
+0 0 -1
+D4
+The ceiling has a gallant knight painted upon it.
+~
+~
+0 0 -1
+S
+#2005
+A dark intersection.~
+The hallway continues North and South. To the East is a dining room.
+~
+20 ad 0 0
+D0
+A dark inersection.
+~
+~
+0 0 2009
+D1
+A dining room
+~
+~
+0 0 2006
+D2
+A dark hallway.
+~
+~
+0 0 2004
+D3
+The wall has a painting of a dragon and a knight fighting on it.
+~
+~
+0 0 -1
+D4
+The ceiling looks rather bare.
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2006
+A dining room.~
+This is where the occupants of the castle come to CHOW DOWN.
+There are rows of tables and benches throughout this room.
+To the West is a dark intersection and to the East is the Kitchen
+~
+20 ad 0 0
+D0
+A large fireplace burning brightly is set in crystal here.
+~
+~
+0 0 -1
+D1
+The Kitchen.
+~
+~
+0 0 2007
+D2
+A chest of drawers leans up against the wall, filled with valuable crystal.
+~
+~
+0 0 -1
+D3
+A Crystal Intersection
+~
+~
+0 0 2005
+D4
+A smoke covered ceiling that once had a bright painting upon it.
+~
+~
+0 0 -1
+D5
+A beautiful rug lies here at your feet.
+~
+~
+0 0 -1
+S
+#2007
+The Kitchen.~
+This is where all the castle's meals are prepared. This place is dirty.
+I don't think you would like to eat here.
+To the West is the dining room. To the North is a pantry.
+~
+20 ad 0 0
+D0
+A pantry.
+~
+~
+0 0 2008
+D1
+A large filthy sink covered in dirty dishes is in the corner.
+~
+~
+0 0 -1
+D2
+A filthy dog lies in the corner gnawing on a large bone.
+~
+~
+0 0 -1
+D3
+A dining room.
+~
+~
+0 0 2006
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+A floor covered with scraps of food and waste.
+~
+~
+0 0 -1
+S
+#2008
+The Pantry.~
+The walls are lined with shelves containing bottles, jars and bags of food.
+The floor is covered in dust which has left an outline on the floor.
+The only exit seems to be to the South back to the Kitchen.
+~
+20 ad 0 0
+D0
+Shelves covered with amazing herbs.
+~
+~
+0 0 -1
+D1
+Shelves covered with delicious cakes.
+~
+~
+0 0 -1
+D2
+The Kitchen.
+~
+~
+0 0 2007
+D3
+Shelves covered with beautiful breads.
+~
+~
+0 0 -1
+D4
+The ceiling
+~
+~
+0 0 -1
+D5
+The Cellar
+~
+cellar trapdoor~
+2 0 2041
+S
+#2009
+A dark hallway.~
+The hallway continues North, West and South. On the walls are beautiful 
+paintings of green fields and pretty maidens.
+~
+20 ad 0 0
+D0
+A dark hallway.
+~
+~
+0 0 2018
+D1
+A painting is on the wall. It is of a beautiful woman with long golden hair.
+~
+~
+0 0 -1
+D2
+A dark hallway.
+~
+~
+0 0 2005
+D3
+A dark hallway.
+~
+~
+0 0 2010
+D4
+The ceiling
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2010
+A dark hallway.~
+The hallway continues West and East. On the walls are trophies won in battle.
+~
+20 ad 0 0
+D0
+The wall is covered with human skulls of people that the knights have killed in battle.
+~
+~
+0 0 -1
+D1
+A dark intersection.
+~
+~
+0 0 2009
+D2
+The wall is covered in swords of the knights' victims.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2011
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2011
+A dark hallway.~
+The hallway continues West and East.To the North is a door and  to the 
+south is a beautiful painting of the King's dead wife.
+~
+20 ad 0 0
+D0
+A guest room.
+~
+door~
+2 0 2017
+D1
+A dark hallway.
+~
+~
+0 0 2010
+D2
+The wall has a beautiful painting of the late Queen. She has long red 
+hair and a beautiful, kind face.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2012
+S
+#2012
+A dark hallway.~
+The hallway continues West and East. The walls are covered in human 
+trophies, from unfortunate people who have tried to attack this Crystal Castle.
+~
+20 ad 0 0
+D0
+The wall is covered with bones that have been bleached with age.
+~
+~
+0 0 -1
+D1
+A dark hallway lies ahead.
+~
+~
+0 0 2011
+D2
+The wall is covered with human bones that are still covered in blood and 
+flesh.
+~
+~
+0 0 -1
+D3
+A dark hallway lies ahead.
+~
+~
+0 0 2013
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2013
+A dark hallway.~
+The hallway continues West and East. To the South is a door. On the north 
+wall is a painting of a fierce red dragon.
+~
+20 ad 0 0
+D0
+A large painting is here of an incredibly vicious and fierce red dragon.
+~
+~
+0 0 -1
+D1
+A dark hallway lies ahead.
+~
+~
+0 0 2012
+D2
+A guest room.
+~
+door~
+2 0 2016
+D3
+A dark hallway.
+~
+~
+0 0 2014
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+At your feet is a red and green carpet leading into the guest room.
+~
+~
+0 0 -1
+S
+#2014
+A dark hallway.~
+The hallway continues West and East. These walls are covered with 
+paintings of the Crystal King's late ancestors. Fierce warriors who have 
+defeated many evil dragons.
+~
+20 ad 0 0
+D0
+A painting lies on the wall of King Desma. This is the present king's 
+great great great grandfather.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2013
+D2
+A painting lies on the wall of King Dista. This is the present king's 
+father. A great warrior in his time who was killed in battle by the evil 
+crystal dragon.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2015
+D4
+The ceiling.
+~
+~
+0 0 -1
+S
+#2015
+At the end of a dark hallway.~
+You have reached the end of the hallway. There is a sign here.
+The only exit is to the East.
+~
+20 ad 0 0
+D0
+The wall has a large sign painted in blood.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2014
+D2
+The wall has human bones hung from the ceiling to the floor upon it.
+~
+~
+0 0 -1
+D3
+The wall has human bones hung from the ceiling to the floor upon it.
+~
+~
+0 0 -1
+E
+Sign~
+
+     ****************************************************
+    *         Beware of the Crystal Dragon                *  
+ ****************************************************************
+
+~
+S
+#2016
+A guest Room~
+You find yourself in a guest room. There is a bed, a table and not much else.
+The only exit seems to be a door to the North. 
+~
+20 ad 0 0
+D0
+A dark hallway.
+~
+door~
+2 0 2013
+S
+#2017
+A guest Room~
+You find yourself in a guest room. There is a bed, a table and not much else.
+The only exit seems to be a door to the South. 
+~
+20 ad 0 0
+D0
+A large double bed lies in the corner. It has recently been slept in.
+~
+~
+0 0 -1
+D1
+A large comfortable chair is here in front of a large open fire.
+~
+~
+0 0 -1
+D2
+A dark Hallway.
+~
+door~
+2 0 2011
+D3
+A small cupboard stands in the corner and a picture of a fair maiden is 
+beside it.
+~
+~
+0 0 -1
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+A red carpet lies at your feet.
+~
+~
+0 0 -1
+S
+#2018
+A dark hallway.~
+The hallway continues North and South. On the walls are pictures of young 
+knights in battle.
+~
+20 ad 0 0
+D0
+A dark intersection.
+~
+~
+0 0 2019
+D1
+A painting of several knights fighting in a green field.
+~
+~
+0 0 -1
+D2
+A dark intersection.
+~
+~
+0 0 2009
+D3
+A painting of a young knight being killed in battle.
+~
+~
+0 0 -1
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2019
+A dark intersection.~
+This is a four way intersection. The hallway continues to the East, South
+and West. To the North is a Waiting room.
+~
+20 ad 0 0
+D0
+A waiting room
+~
+~
+0 0 2028
+D1
+A dark hallway.
+~
+~
+0 0 2030
+D2
+A dark hallway
+~
+~
+0 0 2018
+D3
+A dark hallway.
+~
+~
+0 0 2020
+D4
+The ceiling
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2020
+A dark hallway.~
+The hallway continues East and West. On the north wall is a large chest 
+and on the south wall is a flag.
+~
+20 ad 0 0
+D0
+You see a large chest filled with swords that have been stained with blood.
+~
+~
+0 0 -1
+D1
+A dark intersection.
+~
+~
+0 0 2019
+D2
+A large flag of a Gallant Crystal Knight.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2021
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2021
+A dark hallway.~
+The hallway continues East and West. On the north wall is a painting and 
+on the south wall is a small chest.
+~
+20 ad 0 0
+D0
+A painting of a chef who looks like he has seen better days.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2020
+D2
+A small chest filles with glasses of the finest crystal.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2022
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+The slate floor and a small green carpet.
+~
+~
+0 0 -1
+S
+#2022
+A dark hallway.~
+The hallway continues East and West. There is a door to the South. On the 
+north wall is a small painting and on the ceiling is what !!
+~
+20 ad 0 0
+D0
+A painting of a young maiden with long brown hair.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2021
+D2
+A guest room
+~
+door~
+2 0 2026
+D3
+A dark hallway.
+~
+~
+0 0 2023
+D4
+A large spider peers at you from the cobwebs above.
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2023
+A dark hallway.~
+The hallway continues East and West.These walls are surprisingly bare but 
+upon looking at them you realise why they cover the walls up with paintings.
+~
+20 ad 0 0
+D0
+You see a slimy slate wall covered with small insects.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2022
+D2
+You see a slimy slate wall covered with large spiders.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2024
+D4
+You see a ceiling covered in large cobwebs.
+~
+~
+0 0 -1
+D5
+You see a grimy slate floor.
+~
+~
+0 0 -1
+S
+#2024
+A dark hallway.~
+The hallway continues East and West. There is a door to the North.
+~
+20 ad 0 0
+D0
+The Royal Bedroom
+~
+door~
+2 0 2027
+D1
+A dark hallway.
+~
+~
+0 0 2023
+D2
+A wall covered with slime and small insects.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2025
+D4
+The ceiling covered with cobwebs.
+~
+~
+0 0 -1
+D5
+The dirty slate floor.
+~
+~
+0 0 -1
+S
+#2025
+A dark hallway.~
+The Hallway ends here and all the walls are covered in bones of people 
+who have died in battle with the crystal knights. The only exit is to the 
+East. 
+~
+20 ad 0 0
+D0
+The walls are covered in bleached bones.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2024
+D2
+The walls are covered in bleached bones.
+~
+~
+0 0 -1
+D3
+The walls are covered in bleached bones.
+~
+~
+0 0 -1
+D4
+A cobwebbed ceiling.
+~
+~
+0 0 -1
+D5
+A dirty slimy slate floor.
+~
+~
+0 0 -1
+S
+#2026
+A guest Room~
+There is a Bed and a table .. Not much else.
+The only exit is a door to the North.
+~
+20 ad 0 0
+D0
+A dark Hallway.
+~
+door~
+2 0 2022
+D1
+A small bed lies in the corner. The maids have cleaned in this room and 
+made the bed.
+~
+~
+0 0 -1
+D2
+A small chair sits in the corner by a burning open fire.
+~
+~
+0 0 -1
+D3
+A small cupboard lies here.  You can peer in and see a long red dress 
+hanging there.
+~
+~
+0 0 -1
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+A small red and blue mat lies at your feet.
+~
+~
+0 0 -1
+S
+#2027
+The Royal Bedroom~
+There is a Huge bed here and the room is decorated with some of the most
+exotic tapestries that you have ever seen.There is a small chest here also.
+The only exit is a door to the South.
+~
+20 ad 0 0
+D0
+A large bed lies here. The covers are made from the finest silk.
+~
+~
+0 0 -1
+D1
+A beautiful gold and silver tapestry hangs on the wall.
+~
+~
+0 0 -1
+D2
+A dark hallway
+~
+door~
+2 0 2024
+D3
+A long golden chest lies in the corner.
+~
+~
+0 0 -1
+D4
+The ceiling is covered in an incredible mural painted in gold,red and silver.
+~
+~
+0 0 -1
+D5
+At your feet lies a red carpet of the finest wool.
+~
+~
+0 0 -1
+E
+Chest~
+You see a long gold sword inside the chest.
+~
+S
+#2028
+The Waiting Room~
+In this room the citizens who have business with the King of the Realm
+wait to gain an Audience with him.
+~
+20 ad 0 0
+D0
+The Throne Room
+~
+~
+0 0 2029
+D1
+A small desk lies here where you sign in to meet the king.
+~
+~
+0 0 -1
+D2
+A dark intersection
+~
+~
+0 0 2019
+D3
+A large painting of the King in all his fine robes covers the entire wall.
+~
+~
+0 0 -1
+D4
+The ceiling
+~
+~
+0 0 -1
+D5
+A long red carpet is here leading into the throne room.
+~
+~
+0 0 -1
+S
+#2029
+The Throne Room~
+The walls of this room are covered in tapestries depicting many battle
+scenes from the past along with paintings of the previous rulers.
+On the roof is a large painting depicting a HUGE Crystal Dragon sitting on a 
+pile of treasure. Could this be somewhere close?
+~
+20 ad 0 0
+D0
+A painting of a fierce battle with knights and dragons.
+~
+~
+0 0 -1
+D2
+The waiting room.
+~
+~
+0 0 2028
+D3
+A painting of a knight standing over a dead dragon.
+~
+~
+0 0 -1
+D4
+A large painting of a Huge Dragon.
+~
+~
+0 0 -1
+D5
+A red carpet lies at your feet.
+~
+~
+0 0 -1
+E
+painting~
+You see a Huge dragon breathing fire on all that surrounds it. Its 
+fierce red eyes look evilly back at you.
+~
+S
+#2030
+A dark hallway~
+The hallway continues to the East and West. The walls here are 
+suprisingly sparse of paintings and tapestry but they are covered with 
+other things that you don't want to look at.
+~
+20 ad 0 0
+D0
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2031
+D2
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2019
+D4
+The ceiling is covered with cobwebs and large spiders crawl all over it.
+~
+~
+0 0 -1
+D5
+The floor is covered with slime and dirt.
+~
+~
+0 0 -1
+S
+#2031
+A dark hallway~
+The hallway continues to the East and West. The walls here are 
+suprisingly sparse of paintings and tapestry but they are covered with 
+other things that you don't want to look at.
+~
+20 ad 0 0
+D0
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2032
+D2
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2030
+D4
+The ceiling is covered with cobwebs and large spiders crawl all over it.
+~
+~
+0 0 -1
+D5
+The floor is covered with slime and dirt.
+~
+~
+0 0 -1
+S
+#2032
+A dark hallway~
+The hallway continues to the East and West. To the North and South is
+the Library.
+~
+20 ad 0 0
+D0
+The North library.
+~
+~
+0 0 2040
+D1
+A dark hallway.
+~
+~
+0 0 2033
+D2
+The South library.
+~
+~
+0 0 2039
+D3
+A dark hallway.
+~
+~
+0 0 2031
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+A  purple carpet.
+~
+~
+0 0 -1
+S
+#2033
+A dark hallway~
+The hallway continues to the East and West. The walls here are 
+suprisingly sparse of paintings and tapestry but they are covered with 
+other things that you don't want to look at.
+~
+20 ad 0 0
+D0
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2034
+D2
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2032
+D4
+The ceiling is covered with cobwebs and large spiders crawl all over it.
+~
+~
+0 0 -1
+D5
+The floor is covered with slime and dirt.
+~
+~
+0 0 -1
+S
+#2034
+The dark hallway~
+The hallway continues to the East and West. The walls here are 
+suprisingly sparse of paintings and tapestry but they are covered with 
+other things that you don't want to look at.
+~
+20 ad 0 0
+D0
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D1
+A dark hallway.
+~
+~
+0 0 2035
+D2
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2033
+D4
+The ceiling is covered with cobwebs and large spiders crawl all over it.
+~
+~
+0 0 -1
+D5
+The floor is covered with slime and dirt.
+~
+~
+0 0 -1
+S
+#2035
+A dark hallway~
+The hallway continues to the East and West. The walls here are 
+suprisingly sparse of paintings and tapestry but they are covered with 
+other things that you don't want to look at.
+~
+20 ad 0 0
+D0
+The Chapel.
+~
+door~
+1 0 2037
+D1
+A dark hallway.
+~
+~
+0 0 2036
+D2
+You see a slimy wall with small evil looking creatures running up and down.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2034
+D4
+The ceiling is covered with cobwebs and large spiders crawl all over it.
+~
+~
+0 0 -1
+D5
+The floor is covered with slime and dirt.
+~
+~
+0 0 -1
+S
+#2036
+A dark hallway.~
+The Hallway ends here and all the walls are covered in bones of people 
+who have died in battle with the crystal knights. The only exit is to the 
+West. 
+~
+20 ad 0 0
+D0
+The walls are covered in bleached bones.
+~
+~
+0 0 -1
+D1
+The walls are covered in bleached bones.
+~
+~
+0 0 -1
+D2
+The walls are covered in bleached bones.
+~
+~
+0 0 -1
+D3
+A dark hallway.
+~
+~
+0 0 2035
+D4
+A cobwebbed ceiling.
+~
+~
+0 0 -1
+D5
+A dirty slimy slate floor.
+~
+~
+0 0 -1
+S
+#2037
+The Chapel~
+There are rows of pews here for people to pray on. 
+To the South is a door. To the North you can see the Chapel Altar.
+~
+20 ad 0 0
+D0
+The chapel altar.
+~
+~
+0 0 2038
+D1
+A large painting of the King is covering the entire wall.
+~
+~
+0 0 -1
+D2
+A dark hallway.
+~
+door~
+2 0 2035
+D3
+Rows of pews to sit on stand here.
+~
+~
+0 0 -1
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+A long purple carpet leading to the altar lies at your feet.
+~
+~
+0 0 -1
+S
+#2038
+The Chapel Altar.~
+There is a large altar made of crystal here as well as the normal things
+you expect to see in a place of worship.
+~
+20 ad 0 0
+D0
+The altar.
+~
+~
+0 0 -1
+D1
+A small bowl filled with holy water stands on a pedestal.
+~
+~
+0 0 -1
+D2
+The Chapel
+~
+~
+0 0 2037
+D3
+A long row of pews stand here.
+~
+~
+0 0 -1
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+A long purple carpet leading to the altar.
+~
+~
+0 0 -1
+E
+altar~
+Is made of crystal which seems to glow as it gathers all the light in 
+room.
+~
+S
+#2039
+The South library.~
+There are shelves along all the walls and covered in books of great 
+knowledge. The only exit is to the North. 
+~
+20 ad 0 0
+D0
+A dark Hallway.
+~
+~
+0 0 2032
+D1
+Bookselves line the wall filled with books on dragons.
+~
+~
+0 0 -1
+D2
+Books cover the wall here bound in red and gold casing.
+~
+~
+0 0 -1
+D3
+Books on how to become a successful knight cover this wall.
+~
+~
+0 0 -1
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+A beautiful polished floor.
+~
+~
+0 0 -1
+S
+#2040
+The North library.~
+There are shelves along all the walls and covered in books of great 
+knowledge.The only exit is to the South. 
+~
+20 ad 0 0
+D0
+Books cover the wall here bound in red and gold casing.
+~
+~
+0 0 -1
+D1
+Bookshelves line the wall filled with books on dragons.
+~
+~
+0 0 -1
+D2
+A dark Hallway.
+~
+~
+0 0 2032
+D3
+Books on how to become a successful knight cover this wall.
+~
+~
+0 0 -1
+D4
+The ceiling.
+~
+~
+0 0 -1
+D5
+A beautiful polished floor.
+~
+~
+0 0 -1
+S
+#2041
+The cellar.~
+There is nothing here except damp cold air and walls. The only exits are 
+West and Up. 
+~
+20 ad 0 0
+D0
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+D2
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+D3
+The cellar
+~
+~
+0 0 2042
+D4
+Damp slimy walls surround you.
+~
+cellar~
+1 0 2008
+D5
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+S
+#2042
+The cellar.~
+There is nothing here. The cellar continues East and West.
+~
+20 ad 0 0
+D0
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+D1
+The cellar
+~
+~
+0 0 2041
+D2
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+D3
+The cellar
+~
+~
+0 0 2043
+D4
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+D5
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+S
+#2043
+The cellar.~
+There is nothing here. The cellar continues East and West.
+~
+20 ad 0 0
+D0
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+D1
+The cellar
+~
+~
+0 0 2042
+D2
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+D3
+The cellar
+~
+~
+0 0 2044
+D4
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+D5
+Damp slimy walls surround you.
+~
+~
+0 0 -1
+S
+#2044
+The cellar.~
+There is nothing here. The cellar continues to the East.
+All you can see to the west is Fog.
+~
+20 ad 0 0
+D0
+Damp slimy walls covered with spiders and slime surround you.
+~
+~
+0 0 -1
+D1
+The cellar
+~
+~
+0 0 2043
+D2
+Damp slimy walls covered with spiders and slime surround you.
+~
+~
+0 0 -1
+D3
+The foggy dungeon.
+~
+~
+0 0 2045
+D4
+Damp slimy walls covered with spiders and slime surround you.
+~
+~
+0 0 -1
+D5
+Damp slimy walls covered with spiders and slime surround you.
+~
+~
+0 0 -1
+S
+#2045
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2046
+D1
+The cellar
+~
+~
+0 0 2044
+D2
+The foggy dungeon
+~
+~
+0 0 2049
+D3
+The foggy dungeon.
+~
+~
+0 0 2055
+S
+#2046
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2047
+D2
+The foggy dungeon
+~
+~
+0 0 2045
+D3
+The foggy dungeon.
+~
+~
+0 0 2056
+S
+#2047
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2048
+D2
+The foggy dungeon
+~
+~
+0 0 2046
+D3
+The foggy dungeon.
+~
+~
+0 0 2057
+S
+#2048
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D2
+The foggy dungeon
+~
+~
+0 0 2047
+D3
+The foggy dungeon.
+~
+~
+0 0 2058
+S
+#2049
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2045
+D2
+The foggy dungeon
+~
+~
+0 0 2050
+D3
+The foggy dungeon.
+~
+~
+0 0 2053
+S
+#2050
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2049
+D2
+The foggy dungeon
+~
+~
+0 0 2051
+D3
+The foggy dungeon.
+~
+~
+0 0 2053
+S
+#2051
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2050
+D3
+The foggy dungeon.
+~
+~
+0 0 2052
+S
+#2052
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2053
+D1
+The foggy dungeon.
+~
+~
+0 0 2051
+D3
+The foggy dungeon.
+~
+~
+0 0 2065
+S
+#2053
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing. As you walk here
+you feel something at your feet...
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2054
+D1
+The foggy dungeon.
+~
+~
+0 0 2050
+D2
+The foggy dungeon.
+~
+~
+0 0 2052
+D3
+The foggy dungeon.
+~
+~
+0 0 2064
+D5
+
+~
+secret~
+2 2005 2000
+S
+#2054
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2055
+D1
+The foggy dungeon.
+~
+~
+0 0 2049
+D2
+The foggy dungeon.
+~
+~
+0 0 2053
+D3
+The foggy dungeon.
+~
+~
+0 0 2063
+S
+#2055
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2056
+D1
+The foggy dungeon.
+~
+~
+0 0 2045
+D2
+The foggy dungeon.
+~
+~
+0 0 2054
+D3
+The foggy dungeon.
+~
+~
+0 0 2062
+S
+#2056
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2057
+D1
+The foggy dungeon.
+~
+~
+0 0 2046
+D2
+The foggy dungeon.
+~
+~
+0 0 2055
+D3
+The foggy dungeon.
+~
+~
+0 0 2061
+S
+#2057
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2058
+D1
+The foggy dungeon.
+~
+~
+0 0 2047
+D2
+The foggy dungeon.
+~
+~
+0 0 2056
+D3
+The foggy dungeon.
+~
+~
+0 0 2060
+S
+#2058
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D1
+The foggy dungeon.
+~
+~
+0 0 2048
+D2
+The foggy dungeon.
+~
+~
+0 0 2057
+D3
+The foggy dungeon.
+~
+~
+0 0 2059
+S
+#2059
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D1
+The foggy dungeon.
+~
+~
+0 0 2058
+D2
+The foggy dungeon.
+~
+~
+0 0 2060
+D3
+The foggy dungeon.
+~
+~
+0 0 2072
+S
+#2060
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2059
+D1
+The foggy dungeon.
+~
+~
+0 0 2057
+D2
+The foggy dungeon.
+~
+~
+0 0 2061
+D3
+The foggy dungeon.
+~
+~
+0 0 2071
+S
+#2061
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2060
+D1
+The foggy dungeon.
+~
+~
+0 0 2056
+D2
+The foggy dungeon.
+~
+~
+0 0 2062
+D3
+The foggy dungeon.
+~
+~
+0 0 2070
+S
+#2062
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2061
+D1
+The foggy dungeon.
+~
+~
+0 0 2055
+D2
+The foggy dungeon.
+~
+~
+0 0 2063
+D3
+The foggy dungeon.
+~
+~
+0 0 2069
+S
+#2063
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2062
+D1
+The foggy dungeon.
+~
+~
+0 0 2054
+D2
+The foggy dungeon.
+~
+~
+0 0 2064
+D3
+The foggy dungeon.
+~
+~
+0 0 2068
+S
+#2064
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2063
+D1
+The foggy dungeon.
+~
+~
+0 0 2053
+D2
+The foggy dungeon.
+~
+~
+0 0 2065
+D3
+The foggy dungeon.
+~
+~
+0 0 2067
+S
+#2065
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2064
+D1
+The foggy dungeon.
+~
+~
+0 0 2052
+D3
+The foggy dungeon.
+~
+~
+0 0 2066
+S
+#2066
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2067
+D1
+The foggy dungeon.
+~
+~
+0 0 2065
+D3
+The foggy dungeon.
+~
+~
+0 0 2079
+S
+#2067
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2068
+D1
+The foggy dungeon.
+~
+~
+0 0 2064
+D2
+The foggy dungeon.
+~
+~
+0 0 2066
+D3
+The foggy dungeon.
+~
+~
+0 0 2078
+S
+#2068
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2069
+D1
+The foggy dungeon.
+~
+~
+0 0 2063
+D2
+The foggy dungeon.
+~
+~
+0 0 2067
+D3
+The foggy dungeon.
+~
+~
+0 0 2077
+S
+#2069
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2070
+D1
+The foggy dungeon.
+~
+~
+0 0 2062
+D2
+The foggy dungeon.
+~
+~
+0 0 2068
+D3
+The foggy dungeon.
+~
+~
+0 0 2076
+S
+#2070
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2071
+D1
+The foggy dungeon.
+~
+~
+0 0 2061
+D2
+The foggy dungeon.
+~
+~
+0 0 2069
+D3
+The foggy dungeon.
+~
+~
+0 0 2075
+S
+#2071
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2072
+D1
+The foggy dungeon.
+~
+~
+0 0 2060
+D2
+The foggy dungeon.
+~
+~
+0 0 2070
+D3
+The foggy dungeon.
+~
+~
+0 0 2074
+S
+#2072
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D1
+The foggy dungeon.
+~
+~
+0 0 2059
+D2
+The foggy dungeon.
+~
+~
+0 0 2071
+D3
+The foggy dungeon.
+~
+~
+0 0 2073
+S
+#2073
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D1
+The foggy dungeon.
+~
+~
+0 0 2072
+D2
+The foggy dungeon.
+~
+~
+0 0 2074
+S
+#2074
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2073
+D1
+The foggy dungeon.
+~
+~
+0 0 2071
+D2
+The foggy dungeon.
+~
+~
+0 0 2075
+S
+#2075
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2074
+D1
+The foggy dungeon.
+~
+~
+0 0 2070
+D2
+The foggy dungeon.
+~
+~
+0 0 2076
+S
+#2076
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2075
+D1
+The foggy dungeon.
+~
+~
+0 0 2069
+D2
+The foggy dungeon.
+~
+~
+0 0 2077
+S
+#2077
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2076
+D1
+The foggy dungeon.
+~
+~
+0 0 2068
+D2
+The foggy dungeon.
+~
+~
+0 0 2078
+S
+#2078
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2077
+D1
+The foggy dungeon.
+~
+~
+0 0 2067
+D2
+The foggy dungeon.
+~
+~
+0 0 2079
+S
+#2079
+The Foggy Dungeon~
+This place is covered in fog. You can't see a thing.
+~
+20 ad 0 0
+D0
+The foggy dungeon.
+~
+~
+0 0 2078
+D1
+The foggy dungeon.
+~
+~
+0 0 2066
+S
+$~
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d5 1
+a5 1
+20 13 0
+d10 1
+a10 1
+0 0 0
+d15 1
+a15 1
+0 0 0
+d20 6
+a25 1
+0 0 0
+d30 1
+a30 6
+2 2005 2053 
+D3
+A slime covered wall.
+~
+~
+0 0 0
+d35 1
+a35 1
+0 0 0
+d43 1
+a43 1
+20 5 1
+d53 1
+a53 1
+0 0 0
+d63 1
+a63 1
+0 0 0
+d70 1
+a70 1
+20 5 0
+d80 1
+a80 1
+0 0 0
+d90 1
+a90 1
+0 0 0
+d95 1
+a95 1
+0 0 0
+d100 1
+a100 1
+0 0 0
+d108 1
+a108 1
+20 9 0
+d118 1
+a118 1
+0 0 0
+d128 1
+a128 1
+0 0 0
+d133 1
+a133 1
+0 0 0
+d138 1
+a138 1
+0 0 0
+d144 1
+a144 1
+20 9 0
+d154 1
+a154 1
+0 0 0
+d164 1
+a164 1
+0 0 0
+d169 1
+a169 1
+0 0 0
+d175 1
+a175 1
+20 9 0
+d195 1
+a195 1
+0 0 0
+d200 1
+a200 1
+0 0 0
+d205 1
+a205 1
+0 0 0
+d213 1
+a213 1
+20 9 0
+d218 1
+a218 1
+0 0 0
+d228 1
+a228 1
+0 0 0
+d238 1
+a238 1
+0 0 0
+d243 1
+a243 1
+0 0 0
+d251 1
+a251 1
+20 9 0
+d261 1
+a261 1
+0 0 0
+d266 1
+a266 1
+0 0 0
+d276 1
+a276 1
+0 0 0
+d281 1
+a281 1
+0 0 0
+d289 1
+a289 1
+20 9 0
+d294 1
+a294 1
+0 0 0
+d299 1
+a299 1
+0 0 0
+d309 1
+a309 1
+0 0 0
+d314 1
+a314 1
+0 0 0
+d326 1
+a326 1
+20 9 0
+d336 1
+a336 1
+0 0 0
+d351 1
+a351 1
+0 0 0
+d356 1
+a356 1
+0 0 0
+d362 1
+a362 1
+20 9 0
+d367 1
+a367 1
+0 0 0
+d377 1
+a377 1
+0 0 0
+d387 1
+a387 1
+0 0 0
+d392 1
+a392 1
+0 0 0
+d399 1
+a399 1
+20 9 0
+d415 1
+a415 1
+0 0 0
+d427 1
+a427 1
+20 9 0
+d432 1
+a432 1
+0 0 0
+d443 1
+a443 1
+0 0 0
+d453 1
+a453 1
+0 0 0
+d458 1
+a458 1
+0 0 0
+d465 1
+a465 1
+20 9 0
+d470 1
+a470 1
+0 0 0
+d490 1
+a490 1
+0 0 0
+d495 1
+a495 1
+0 0 0
+d502 2
+a503 2
+~ 
+20 9 0
+d509 1
+a509 1
+0 0 0
+d521 2
+a522 2
+0 0 0
+D3 
+d531 1
+a531 1
+0 0 0
+d538 2
+a539 2
+20 9 0
+D0 
+d543 1
+a543 1
+0 0 0 
+d553 1
+a553 1
+0 0 0
+d558 1
+a558 1
+0 0 0
+d573 1
+a573 1
+20 9 0
+d585 1
+a585 1
+20 9 0
+d590 1
+a590 1
+0 0 0
+d595 1
+a595 1
+0 0 0
+d606 1
+a606 1
+0 0 0
+d611 1
+a611 1
+0 0 0
+d616 1
+a616 1
+0 0 0
+d623 1
+a623 1
+20 9 0
+d633 1
+a633 1
+0 0 0
+d643 1
+a643 1
+0 0 0
+d648 1
+a648 1
+0 0 0
+d653 1
+a653 1
+0 0 0
+d660 1
+a660 1
+20 9 0
+d685 1
+a685 1
+0 0 0
+d690 1
+a690 1
+0 0 0
+d697 1
+a697 1
+20 9 0
+d702 1
+a702 1
+0 0 0
+d712 1
+a712 1
+0 0 0
+d722 1
+a722 1
+0 0  0
+d727 1
+a727 1
+0 0 0
+d734 1
+a734 1
+20 9 0
+d739 1
+a739 1
+0 0 0
+d749 1
+a749 1
+0 0 0
+d759 1
+a759 1
+0 0 0
+d764 1
+a764 1
+0 0 0
+d771 1
+a771 1
+20 9 0
+d776 1
+a776 1
+0 0 0
+d796 1
+a796 1
+0 0 0
+d801 1
+a801 1
+0 0 0
+d808 1
+a808 1
+20 9 0
+d813 1
+a813 1
+0 0 0
+d823 1
+a823 1
+0 0 0
+d833 1
+a833 1
+0 0 0
+d838 1
+a838 1
+0 0 0
+d844 1
+a844 1
+20 9 0
+d859 1
+a859 1
+0 0 0
+d869 1
+a869 1
+0 0 0
+d874 1
+a874 1
+0 0 0
+d881 2
+a882 2
+~ 
+20 9 0
+d887 1
+a887 1
+0 0 0
+d897 1
+a897 1
+0 0 0
+d902 1
+a902 1
+0 0 0 
+d907 1
+a907 1
+0 0 0
+d912 1
+a912 1
+0 0 0
+d919 1
+a919 1
+20 9 0
+d930 1
+a930 1
+0 0 0
+d935 1
+a935 1
+0 0 0
+d941 1
+a941 1
+0 0 0
+d946 1
+a946 1
+0 0 0
+d951 1
+a951 1
+0 0 0
+d959 1
+a959 1
+20 9 0
+d964 1
+a964 1
+0 0 0
+d969 1
+a969 1
+0 0 0
+d979 1
+a979 1
+0 0 0
+d984 1
+a984 1
+0 0 0
+d989 1
+a989 1
+0 0 0
+d1000 1
+a1000 1
+20 9 0
+d1010 1
+a1010 1
+0 0 0
+d1020 1
+a1020 1
+0 0 0
+d1025 1
+a1025 1
+0 0 0
+d1030 1
+a1030 1
+0 0 0
+d1039 1
+a1039 1
+20 9 0
+d1044 1
+a1044 1
+0 0 0
+d1054 1
+a1054 1
+0 0 0
+d1059 1
+a1059 1
+0 0 0
+d1064 1
+a1064 1
+0 0 0
+d1076 2
+a1077 2
+~ 
+20 9 0
+d1082 1
+a1082 1
+0 0 0
+d1092 1
+a1092 1
+0 0 0
+d1102 1
+a1102 1
+0 0 0
+d1107 1
+a1107 1
+0 0 0
+d1115 1
+a1115 1
+20 9 0
+d1120 1
+a1120 1
+0 0 0
+d1130 1
+a1130 1
+0 0 0
+d1140 1
+a1140 1
+0 0 0
+d1145 1
+a1145 1
+0 0 0
+d1152 1
+a1152 1
+20 9 0
+d1177 1
+a1177 1
+0 0 0
+d1182 1
+a1182 1
+0 0 0
+d1190 1
+a1190 1
+20 9 0
+d1195 1
+a1195 1
+0 0 0
+d1205 1
+a1205 1
+0 0 0
+d1215 1
+a1215 1
+0 0 0
+d1220 1
+a1220 1
+0 0 0
+d1228 1
+a1228 1
+20 9 0
+d1233 1
+a1233 1
+0 0 0
+d1243 1
+a1243 1
+0 0 0
+d1253 1
+a1253 1
+0 0 0
+d1258 1
+a1258 1
+0 0 0
+d1266 1
+a1266 1
+20 9 0
+d1281 1
+a1281 1
+0 0 0
+d1291 1
+a1291 1
+0 0 0
+d1296 1
+a1296 1
+0 0 0
+d1303 2
+a1304 2
+~ 
+20 9 0
+d1309 3
+a1311 3
+0 0 0
+D3
+A dark hallway.
+d1314 1
+a1314 1
+0 0 2035
+d1319 3
+a1321 3
+0 0 0
+D1
+The walls are covered in bleached bones.
+d1324 1
+a1324 1
+0 0 0 
+d1329 1
+a1329 1
+0 0 0
+d1334 1
+a1334 1
+0 0 0
+d1341 1
+a1341 1
+20 9 0
+d1351 1
+a1351 1
+0 0 0
+d1361 1
+a1361 1
+0 0 0
+d1366 1
+a1366 1
+0 0 0
+d1371 1
+a1371 1
+0 0 0
+d1378 1
+a1378 1
+20 9 0
+d1383 1
+a1383 1
+0 0 0
+d1388 1
+a1388 1
+0 0 0
+d1398 1
+a1398 1
+0 0 0
+d1403 1
+a1403 1
+0 0 0
+d1408 1
+a1408 1
+0 0 0
+d1420 1
+a1420 1
+20 9 0
+d1430 1
+a1430 1
+0 0 0
+d1435 1
+a1435 1
+0 0 0
+d1440 1
+a1440 1
+0 0 0 
+d1445 1
+a1445 1
+0 0 0
+d1450 1
+a1450 1
+0 0 0
+d1457 1
+a1457 1
+20 9 0
+d1462 1
+a1462 1
+0 0 0
+d1467 1
+a1467 1
+0 0 0
+d1477 1
+a1477 1
+0 0 0 
+d1482 1
+a1482 1
+0 0 0
+d1487 1
+a1487 1
+0 0 0
+d1494 1
+a1494 1
+20 9 0
+d1499 1
+a1499 1
+0 0 0
+d1504 1
+a1504 1
+0 0 0
+d1511 1
+a1511 1
+The pantry.
+d1514 1
+a1514 6
+2 0 2008
+D4
+Damp slimy walls surround you.
+~
+~
+0 0 2008
+d1519 1
+a1519 1
+0 0 0
+d1525 1
+a1525 1
+20 9 0
+d1530 1
+a1530 1
+0 0 0
+d1540 1
+a1540 1
+0 0 0
+d1550 1
+a1550 1
+0 0 0
+d1555 1
+a1555 1
+0 0 0
+d1561 1
+a1561 1
+20 9 0
+d1566 1
+a1566 1
+0 0 0
+d1576 1
+a1576 1
+0 0 0
+d1586 1
+a1586 1
+0 0 0
+d1591 1
+a1591 1
+0 0 0
+d1598 1
+a1598 1
+20 9 0
+d1603 1
+a1603 1
+0 0 0
+d1613 1
+a1613 1
+0 0 0
+d1623 1
+a1623 1
+0 0 0
+d1628 1
+a1628 1
+0 0 0
+d1634 1
+a1634 1
+20 9 0
+d1660 1
+a1660 1
+20 9 0
+d1681 1
+a1681 1
+20 9 0
+d1702 1
+a1702 1
+20 9 0
+d1718 1
+a1718 1
+20 9 0
+d1739 1
+a1739 1
+20 9 0
+d1760 1
+a1760 1
+20 9 0
+d1776 1
+a1776 1
+20 9 0
+d1798 1
+a1798 1
+20 9 0
+d1829 1
+a1829 1
+20 9 0
+d1855 1
+a1855 1
+20 9 0
+d1881 1
+a1881 1
+20 9 0
+d1907 1
+a1907 1
+20 9 0
+d1933 1
+a1933 1
+20 9 0
+d1954 1
+a1954 1
+20 9 0
+d1975 1
+a1975 1
+20 9 0
+d2001 1
+a2001 1
+20 9 0
+d2027 1
+a2027 1
+20 9 0
+d2053 1
+a2053 1
+20 9 0
+d2079 1
+a2079 1
+20 9 0
+d2105 1
+a2105 1
+20 9 0
+d2126 1
+a2126 1
+20 9 0
+d2147 1
+a2147 1
+20 9 0
+d2173 1
+a2173 1
+20 9 0
+d2199 1
+a2199 1
+20 9 0
+d2225 1
+a2225 1
+20 9 0
+d2251 1
+a2251 1
+20 9 0
+d2277 1
+a2277 1
+20 9 0
+d2298 1
+a2298 1
+20 9 0
+d2314 1
+a2314 1
+20 9 0
+d2335 1
+a2335 1
+20 9 0
+d2356 1
+a2356 1
+20 9 0
+d2377 1
+a2377 1
+20 9 0
+d2398 1
+a2398 1
+20 9 0
+d2419 1
+a2419 1
+20 9 0
+a2430 1
+#99999
+@
+

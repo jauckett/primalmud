@@ -1,0 +1,89 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ad cast 'advance' roj
+aa train hit
+dd sell ruby
+gg get all.gold cor
+ggg put all back ; get bag back
+darask 10w3n2w2s5w1s3w1n2w3n2w5n
+sss get pr bag
+hea cast 'heal' self
+ssa get all.heal bag
+cig gos afk brb ciggy time ; afk
+fut n ; n ; n ; n ; e ; go box ; d ; n ; n ; n 
+sac cast 'sanc' self
+sum cast 'summon' $1
+locate cast 'locate object' $1
+thr throw frisbee $1
+ac cast 'armor' self
+www cast 'create water' skin ; drink skin
+r read $*
+gc2 get all 2.corpse
+inv cast 'invisibility' self
+gr grat <<<<<<------ $1 ------>>>>>>
+uu sleep
+yy wake ; stand
+ww cast 'create food' ; eat mushroom
+cs cast 'color spray' $1
+ss save
+cas cast 'cure critic'
+gc get all corpse
+li cast 'lightning bolt' $1
+ba backstab $1
+di cast 'detect invis' self
+id rec id $*
+en cast 'energy drain' $1
+infra cast 'infra' self
+sd steal gold guard
+dra cast 'dragon' self
+ha cast 'harm' $1
+pi pick door
+ref cast 'refresh' self
+q quaff heal
+qa quaff pro
+run cast 'word of recall' self
+wes e ; e ; e ; e ; e ; go wag ; d ; n ; n; n;
+wess d ; n ; w ; w ; s ; go sta ; e ; e ; e ; e ; u
+aad cast 'advance' jale
+aas get all.coin corpse
+saa get all.heal back
+drag cast 'summon' crystal dragon
+jester cast 'summon' jest
+jest cast 'summon' jester
+pla cast ' plasma' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

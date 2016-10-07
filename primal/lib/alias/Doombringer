@@ -1,0 +1,14 @@
+dw get skin backpack
+bs backstab $1
+gac get all crate
+bstab get knife crate;remove oak;wield knife;backstab $1;remove knife;wield oak;put knife crate
+pab put all backpack
+gc get all corpse
+armr wear gauntlets;wear boots;wear ring; wear ring; wear pendant; wear bracelet; wear gloves;wear shield;wear plate;wield short;hold staff
+pac put all crate
+stab remove scimitar;wield dagger;backstab $1;remove dagger;wield scimitar;
+puw 
+gaw get sapphire
+gaw2 get shield
+paw remove all drop all
+em get meat backpack

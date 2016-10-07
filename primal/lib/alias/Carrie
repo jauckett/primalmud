@@ -1,0 +1,15 @@
+skin cast 'create water' skin
+bless cast 'bless' $1
+sanc cast 'sanc' $1
+heal cast 'heal' $1
+gag get all.gold from all.corpse
+cure cast 'cure light' $1
+mush cast 'create food'
+gafc get all from all.corpse
+atl junk all.atl
+gac get all corpse
+curec cast 'cure critic' $1
+blind cast 'blind' $1
+invis cast 'invis' $1
+barrel cast 'create water' barrel
+sle cast 'sleep' $1

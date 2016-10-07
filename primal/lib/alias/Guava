@@ -1,0 +1,19 @@
+bk backstab $1
+food cast 'create food' ; eat mushroom
+loota get all corpse
+town e;e;e;e;e;e;e;e;n;n;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w;
+cc cast 'cure crit' self
+glade u;s;e;e;s;e;e;n
+loot exam corpse ; get gold corpse
+clay e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;w;
+recall get recall bag;recite recall
+morn wake ; stand
+cu cast 'cure light'
+mm cast 'magicmissile' $1
+in cast 'infravision'
+glad s ;w;w;n;w;w;n;d
+yay grats <<---------*** $1 ***-------->>
+invis cast 'invisibility' self
+sl cast 'sleep' $1
+bck backstab $1
+meal get meat bag;eat meat

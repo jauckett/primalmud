@@ -1,0 +1,496 @@
+head	1.6;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2004.05.29.01.27.47;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.03.17.23.28.30;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.10.13.10.23;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.12;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Artus> Sync.
+@
+text
+@#500
+skeleton graveyard~
+a skeleton from the graveyard~
+A skeleton from the Graveyard stands here.
+~
+This skeleton is from the Graveyard and s is an example of the mobs you will
+meet in there
+~
+74 0 0 E
+0 20 13 1d1+10 1d3+0
+900 250
+8 8 0
+E
+#501
+a giant frog~
+a giant frog~
+A giant frog sits here croaking at you.
+~
+This frog can be found in the Moathouse but much
+tougher than this one!
+~
+74 0 0 E
+1 19 13 0d0+20 1d3+0
+850 300
+8 8 0
+E
+#502
+ogre ~
+the ogre from the Moathouse~
+A fierce looking Ogre stands here waiting for YOU.
+~
+This is an example of the Ogre that can be found at hte Moathouse but the
+Moathouse Ogre is much tougher and a better fight.    
+~
+74 0 0 E
+1 20 13 1d6+15 2d5+0
+300 300
+8 8 0
+E
+#503
+droid citizen~
+a droid~
+A droid from the futureworld stands here.
+~
+This droid is from the Future and can give you a run 
+for your money.
+~
+74 0 0 E
+0 20 13 1d1+10 1d3+0
+650 500
+8 8 0
+E
+#504
+alien visitor~
+An Alien Visitor ~
+An Alien Visitor stands here.
+~
+An Alien Visitor is visiting Medival World from Future world.
+~
+74 0 0 E
+2 20 13 1d1+20 3d2+0
+550 550
+8 8 0
+E
+#505
+rattle snake~
+a rattle snake~
+A rattle snake slithers by
+~
+This mob can be found in Westworld. But the mobs there are
+much tougher and hurt a hell of a lot!
+~
+74 0 0 E
+2 20 13 2d3+20 2d3+0
+550 550
+8 8 0
+BareHandAttack: 4
+E
+#506
+wild cat~
+a wild cat~
+A wild Cat sits here.
+~
+An example of the wild cats found on Selva Road.
+~
+74 0 0 E
+1 20 13 1d1+10 2d2+0
+350 350
+6 6 0
+BareHandAttack: 8
+E
+#507
+stirge~
+a flying stinging stirge~
+A stinging stirge is waiting for its next victim
+~
+This stirge can be found out darask road But be warned they are tougher out
+there.    
+~
+74 0 0 E
+2 20 14 1d1+20 2d3+0
+550 550
+8 8 0
+BareHandAttack: 1
+E
+#508
+rat~
+a Sewer rat~
+A big Sewer rat is standing here.
+~
+The sewer rat is one of the mobs from the Sewers of Haven.
+~
+74 0 0 E
+2 20 15 1d1+25 2d3+0
+550 550
+8 8 0
+E
+#509
+dopey dwarf~
+dopey the dwarf~
+Dopey the Dwarf stands here looking rather dumb
+~
+Yes this is one of the seven dwarves.  But don't be fooled if you think doopey
+is a dope!    
+~
+74 0 0 E
+2 20 15 1d1+25 2d3+0
+350 550
+8 8 1
+E
+#510
+sneezy dwarf~
+Sneezy the Dwarf~
+Sneezy the Dwarf is standing here sneezing his head off.
+~
+This Dwarf may not look tough but his alter ego in Fairytale forest will give
+you a run for your money!    
+~
+74 0 0 E
+1 20 13 1d1+11 1d3+0
+550 550
+8 8 1
+E
+#511
+stormtrooper samples~
+Stormtroopers~
+Stormtroopers are keeping a watchfull eye on you are standing here.
+~
+Yes you will find this mob in Mos Eisley Starport.  But once again don't be
+fooled this mob is reduced to your level the ones at the starport are much
+harder.    
+~
+74 0 0 E
+2 20 13 1d1+25 2d3+0
+550 550
+8 8 1
+E
+#512
+pirate newbie~
+a tough pirate~
+A tough looking Pirate stands here.
+~
+This Pirate hasn't been promoted to the Pirate Ship yet but if you can take him
+on then you might want to consider him when you are a bigger level!    
+~
+74 0 0 E
+3 19 12 1d1+35 3d3+1
+650 650
+8 8 1
+E
+#513
+boring beetle~
+a large boring beetle~
+A large boring beetle is standing here.
+~
+This beetle can be found in the Tunnel but i warn you this beetle is nothing
+like the original!    
+~
+74 0 0 E
+3 19 12 1d1+35 3d3+1
+650 650
+8 8 1
+E
+#514
+crystal servent~
+a crystal servent~
+A Crystal Servent is waiting here.
+~
+This servent is practicing to get into the Crystal Castle.  If you think you
+could be good enough then try this zone at the right level!    
+~
+74 0 0 E
+3 19 12 1d1+35 3d3+1
+650 650
+8 8 2
+E
+#515
+crystal rogue~
+a crystal rogue~
+A Crystal Rogue is here harrasing the servent.
+~
+The rogue is a rogue and he belongs in the Crystal Castle.  But for now he is
+here to help you learn his zone.    
+~
+74 0 0 E
+2 20 14 1d1+25 2d3+0
+350 350
+8 8 1
+E
+#516
+shadowen cleric~
+a shadowen cleric~
+A Shadowen Cleric is standing here.
+~
+This mob can be found in Shadow Keep but much tougher and harder to kill.    
+~
+74 0 0 E
+4 19 12 1d1+45 4d4+1
+850 850
+8 8 1
+E
+#517
+keep slave~
+a Keep Slave~
+A Keep Slave is quivering with terror is standing here.
+~
+The Proud Lord of the Shadow Keep once had many slaves at his
+disposal. He so generously lent several to teack the lackless
+players of Haven a thing or two!
+~
+74 0 0 E
+2 20 14 1d1+25 2d3+0
+10 450
+8 8 0
+E
+#518
+Knight Sir~
+a Camelot Knight~
+A Knight from Camelot stands here.
+~
+This Knight in shining armour is here to teach you a lesson or two in armed
+combat.    
+~
+74 0 0 E
+6 18 11 1d1+65 4d5+2
+1850 850
+8 8 1
+E
+#519
+killer tomatoe~
+a killer Tomatoe~
+A Killer Tomatoe squats here waiting.
+~
+This tomatoe is directly from the Odd House and is ready to attack any poor
+player that comes into this room!    
+~
+74 0 0 E
+5 19 12 1d1+55 3d5+1
+650 650
+8 8 0
+E
+#520
+Arch Mage~
+an Insane Archmage~
+An Insane Archmage is standing here.
+~
+This Archmage has been driven insane with all the wicked powers he possess.  
+He has come down from Island Forever as he needs time out from the gruelling
+life with the Power Liches.    
+~
+74 0 0 E
+4 19 12 1d1+40 3d4+1
+650 650
+8 8 1
+E
+#522
+Helen of Troy~
+Helen of Troy~
+Helen of Troy stands here.
+~
+Helen has been deposited down here so nobody can find her but if you are lucky
+you may be able to find her when you play in ancient Greece.    
+~
+74 0 0 E
+5 19 12 1d1+50 3d5+1
+650 650
+8 8 2
+E
+#523
+cowboy~
+a cowboy ~
+A cowboy stands here.
+~
+A cowboy from the westworld has come to teach you how the west was truely won!
+  
+~
+74 0 0 E
+6 18 12 1d1+65 5d5+2
+850 850
+8 8 1
+E
+#524
+Stormtroopers~
+a stormtrooper~
+A Stormtrooper that patrols the area is standing here.
+~
+A stormtrooper has generously taken time out from working for Darth Vader to
+come teach Primal players just how tough they really are!    
+~
+74 0 0 E
+5 19 12 1d1+50 3d5+1
+0 950
+8 8 1
+E
+#525
+citizen primal resident~
+a Primal Street Resident.~
+A Primal Street resident stands here.
+~
+This Primal Street Resident is standing here waiting to assist you in anyway he
+can!  He can teach you how to fight or he can teach you how to look and walk
+around.    
+~
+74 0 0 E
+2 20 13 1d1+20 2d3+0
+500 350
+8 8 1
+E
+#526
+citizen primal resident~
+a Primal Street Resident~
+A Primal Street resident is standing here ready to help.
+~
+This attractive Primal Street resident is willing to help you learn the game.
+If you ask her how to get help she will tell you the various ways.  If you ask
+her about healing she can tell you how to get that.    
+~
+74 0 0 E
+2 20 13 1d1+20 2d3+0
+500 350
+8 8 2
+E
+$
+@
+
+
+1.5
+log
+@Artus> Sync.
+@
+text
+@d55 2
+a56 2
+an alien Visitor ~
+An Alien Vistor stands here.
+@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@d22 1
+a22 1
+75 0 0 E
+@
+
+
+1.3
+log
+@Latest Versions
+@
+text
+@d107 3
+a109 3
+enfan~
+a black enfan~
+An Enfan stands here dressed in a black suit.
+d111 1
+a111 2
+This enfan is from Ersheep Road.  Don't be fooled if you think this one is easy
+when you meet the real one!    
+d198 3
+a200 3
+crystal rouge~
+a crystal rouge~
+A Crystal Rouge is here harrasing the servent.
+d202 1
+a202 1
+The rouge is a rouge and he belongs in the Crystal Castle.  But for now he is
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d1 13
+d15 10
+a24 9
+Reception Guard~
+the Guard~
+A reception guard is standing here smiling at you pleasantly.
+~
+You see a reception guard dressed in a grey uniform.
+~
+75 0 800 E
+30 1 3 1d6+5000 2d60+50
+300 3000
+d28 233
+a260 10
+Reception attendant~
+the attendant~
+An attendant is standing here smiling at you pleasantly and eager
+to answer your questions.
+~
+You see an attendant dressed in a white uniform.
+~
+72 0 800 E
+30 1 3 1d6+5000 2d60+50
+300 3000
+d262 81
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d8 1
+a8 1
+67 0 800 S
+d11 2
+a12 1
+8 8 0 2
+d21 1
+a21 1
+64 0 800 S
+d24 3
+a26 3
+8 8 0 2
+#999999
+$~
+@
+

@@ -1,0 +1,1812 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.33;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.46;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#8601
+Aft end of bilge.~
+You are standing knee deep in filthy bilge water. A ladder goes
+up to the middle deck from here and you can walk along the keel
+to the east. Many large rats swim around your feet and cling to your 
+clothing. The smell down here is rather repulsive and as you look a dead 
+rat floats by you.
+~ 
+86 4 0
+D0
+Sea water leaks though the planks.
+~
+~
+0 0 0
+D1
+You see rats floating in the water.
+~
+~
+0 -1 8602
+D4
+You see the lower deck.
+~
+~
+0 -1 8613
+S
+#8602
+In the Bilge.~
+You are standing knee deep in filthy bilge water.There are dead and smelling
+rats floating all around your feet. The rats crawl up your legs and bite 
+you viciously. Small pieces of debree also float by you and as you look 
+closer you realise small corpses are also mixed in amonst the mess down 
+here. 
+~ 
+86 0 0
+D1
+Sea water, dead rats and a horrible smell.
+~
+~
+0 -1 8603
+D3
+The end of the bildge that leads up to the lower deck.
+~
+~
+0 -1 8601
+S
+#8603
+In the Bilge.~
+Sea water seeps through the planks and the smell that assaults your nose 
+is so repugnant that you gag. The bilge of this ship is a dismall place 
+to be and you fing it difficult to breadth down here due to the repugnant 
+smell.
+~ 
+86 0 0
+D1
+Sea water, dead rats and a horrible smell.
+~
+~
+0 -1 8604
+D3
+Sea water, dead rats and a horrible smell.
+~
+~
+0 -1 8602
+S
+#8604
+In the Bilge.~
+You are standing knee deep in filthy bilge water. Small pieces of debree 
+drift by you in the filty water, along with hundreds of live and dead rats.
+~
+86 0 0
+D1
+Sea water, dead rats and a horrible smell.
+~
+~
+0 -1 8605
+D3
+Sea water, dead rats and a horrible smell.
+~
+~
+0 -1 8603
+S
+#8605
+In the Bilge.~
+You are standing knee deep in filthy bilge water. Hundred of filthy rats 
+cling to you and bite into your flesh. The smell here is extremely 
+repulsive and you can not wait to get above deck again.
+~ 
+86 0 0
+D1
+Sea water, dead rats and a horrible smell.
+~
+~
+0 -1 8606
+D3
+Sea water, dead rats and a horrible smell.
+~
+~
+0 -1 8604
+S
+#8606
+Forward end of bilge.~
+You are standing knee deep in filthy bilge water. A ladder goes
+up to the middle deck from here and you can walk along the keel
+towards the stern to the east.
+~
+86 0 0
+D3
+Sea water, dead rats and a horrible smell.
+~
+~
+0 -1 8605
+D4
+Above is the forward deck and fresh air.
+~
+~
+0 -1 8620
+S
+#8607
+Port side, lower deck.~
+You are on the port side of the lower deck. There are many hammocks lining the
+hull and a few pirates are lying sprawled in them sleeping off their 
+drunkeness. There are numerous amounts of rum bottles scattered around 
+the hammocks and a few drunk pirates have fallen out of their beds and 
+are sleeping on the deck.From here you can head midships to the south or
+continue along the hull to the east.
+~
+86 0 0
+D1
+East is the port side of this large pirate ship.
+~
+~
+0 -1 8608
+D2
+The middle of the ship is to your south.
+~
+~
+0 -1 8614
+S
+#8608
+Port side, lower deck.~
+You are on the port side of the lower deck. There are many hammocks 
+lining the hull and a few pirates are lying sprawled in them sleeping. 
+Several young deckhands are working nearby mopping up the broken rum 
+bottles and spilt rum. They are being extremely quiet while they do this 
+because if they wake the nasty pirates they will probably die. From here you 
+can head midships to the south or continue along the hull to the east and west.
+~
+86 0 0
+D1
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8609
+D2
+A large barrel of beer is in the south room.
+~
+~
+0 -1 8615
+D3
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8607
+S
+#8609
+Port side, lower deck.~
+You are on the port side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the south
+or continue along the hull to the east and west.
+~
+86 0 0
+D1
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8610
+D2
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8616
+D3
+You see two pirates playing a game of cards.
+~
+~
+0 -1 8608
+S
+#8610
+Port side, lower deck.~
+You are on the port side of the lower deck.There is a large card table 
+here with several drunken pirates sitting around it playing a game of 
+poker. As you watch a fight brakes out between two of the men and they 
+both draw thier large knives.It is probably best if you move on from here. 
+You can head midships to the south or continue along the hull to the
+east and west.
+~
+86 0 0
+D1
+You see two pirates playing a game of cards.
+~
+~
+0 -1 8611
+D2
+You see two pirates playing a game of cards and drinking rum.
+~
+~
+0 -1 8617
+D3
+You see two pirates playing a game of cards as they sharpen their knives.
+~
+~
+0 -1 8609
+S
+#8611
+Port side, lower deck.~
+You are on the port side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the south
+or continue along the hull to the east and west.
+~
+86 0 0
+D1
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8612
+D2
+You see two pirates playing a game of cards as they sharpen their knives.
+~
+~
+0 -1 8618
+D3
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8610
+S
+#8612
+Port side, lower deck.~
+You are on the port side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the south
+or continue along the hull to the east and west.
+~
+86 0 0
+D2
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8619
+D3
+You see two pirates playing a game of cards and drinking rum.
+~
+~
+0 -1 8611
+S
+#8613
+Aft end, lower deck.~
+You are at the aft end of the lower deck, a ladder leads down into the
+bilge from here. You can go back onto the lower deck to the east.Looking 
+down you see hundreds of filty rats that look extremely hungry.
+~
+86 4 0
+D1
+You see two pirates playing a game of cards and drinking rum.
+~
+~
+0 -1 8614
+D5
+You see sea water and hundreds of vicious rats
+~
+~
+0 -1 8601
+S
+#8614
+Midships, aft lower deck.~
+You are standing in the middle of the lower deck towards the stern.
+To the north and south are the starboard and port hulls where the
+crew's sleeping quarters are.
+~
+86 0 0
+D0
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8607
+D1
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8615
+D2
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8621
+D3
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8613
+S
+#8615
+Aft hatch, lower deck.~
+You are at the bottom of a ladder leading up to the aft hatch on the
+main deck. To the north and south are the starboard and port hulls 
+where the crew's sleeping quarters are.
+~
+86 0 0
+D0
+You see a sailor fighting with one of his crew members.
+~
+~
+0 -1 8608
+D2
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8622
+D3
+You see a sailor fighting with one of his crew members.
+~
+~
+0 -1 8614
+D4
+Up is the hatch and the top deck.
+~
+~
+0 -1 8649
+S
+#8616
+Midships, lower deck.~
+You are in the middle of the lower deck. To the north and south 
+are the starboard and port hulls where the crew's sleeping 
+quarters are.
+~ 
+86 0 0
+D0
+You see a sailor fighting with one of his crew members.
+~
+~
+0 -1 8609
+D1
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8617
+D2
+You see two sailor playing a game of cards.
+~
+~
+0 -1 8623
+S
+#8617
+Midships, lower deck.~
+You are in the middle of the lower deck. To the north and south
+are the starboard and port hulls where the crew's sleeping
+quarters are.
+~
+86 0 0
+D0
+You see a small hammock with a sailor sleeping on it.
+~
+~
+0 -1 8610
+D2
+You see two sailor playing a game of cards.
+~
+~
+0 -1 8624
+D3
+You see two sailor playing a game of cards.
+~
+~
+0 -1 8616
+S
+#8618
+Forward hatch, lower deck.~
+You are at the bottom of a ladder leading up to the forward hatch on the
+main deck. To the north and south are the starboard and port hulls
+where the crew's sleeping quarters are.
+~
+86 0 0
+D0
+You see two sailor playing a game of cards.
+~
+~
+0 -1 8611
+D1
+You see two sailors drinking rum.
+~
+~
+0 -1 8619
+D2
+You see a sailor sharpening his knife.
+~
+~
+0 -1 8625
+D4
+looking up you see the forward hatch and fresh air.
+~
+~
+0 -1 8651
+S
+#8619
+Midships, forward lower deck.~
+You are standing in the middle of the lower deck towards the bow.
+To the north and south are the starboard and port hulls where the
+crew's sleeping quarters are.
+~
+86 0 0
+D0
+You see two sailor playing a game of cards.
+~
+~
+0 -1 8612
+D1
+You see a sailor sharpening his knife.
+~
+~
+0 -1 8620
+D2
+You see a sailor sharpening his knife.
+~
+~
+0 -1 8626
+D3
+You see a sailor who is very drunk.
+~
+~
+0 -1 8618
+S
+#8620
+Forward end, lower deck.~
+You are at the forward end of the lower deck, a ladder leads down into the
+bilge from here. You can go back onto the lower deck to the west.
+~
+86 4 0
+D3
+You see a sailor sharpening his knife.
+~
+~
+0 -1 8619
+D5
+Looking down you see hundreds of alive and dead rats floating in the water.
+~
+~
+0 -1 8606
+S
+#8621
+Starboard side, lower deck.~
+You are on the starboard side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the north
+or continue along the hull to the east.
+~
+86 0 0
+D0
+You see a sailor sharpening his knife.
+~
+~
+0 -1 8614
+D1
+You see two sailor fighting.
+~
+~
+0 -1 8622
+S
+#8622
+Starboard side, lower deck.~
+You are on the starboard side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the north
+or continue along the hull to the east and west.
+~
+86 0 0
+D0
+You see a sailor drinking a large bottle of rum.
+~
+~
+0 -1 8615
+D1
+You see a sailor sharpening his knife.
+~
+~
+0 -1 8623
+D3
+You see a sailor sleeping in a hammock.
+~
+~
+0 -1 8621
+S
+#8623
+Starboard side, lower deck.~
+You are on the starboard side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the north
+or continue along the hull to the east and west.
+~
+86 0 0
+D0
+You see a sailor sharpening his knife.
+~
+~
+0 -1 8616
+D1
+You see a sailor sleeping in a hammock.
+~
+~
+0 -1 8624
+D3
+You see a sailor sleeping in a hammock.
+~
+~
+0 -1 8622
+S
+#8624
+Starboard side, lower deck.~
+You are on the starboard side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the north
+or continue along the hull to the east and west.
+~
+86 0 0
+D0
+You see a sailor sleeping in a hammock.
+~
+~
+0 -1 8617
+D1
+You see two sailors talking and drinking rum
+~
+~
+0 -1 8625
+D3
+You see a sailor sleeping in a hammock.
+~
+~
+0 -1 8623
+S
+#8625
+Starboard side, lower deck.~
+You are on the starboard side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the north
+or continue along the hull to the east and west.
+~
+86 0 0
+D0
+You see a sailor looking at a picture of a nude woman.
+~
+~
+0 -1 8618
+D1
+You see a sailor looking at a picture of a nude woman.
+~
+~
+0 -1 8626
+D3
+You see a sailor looking at a picture of a nude woman.
+~
+~
+0 -1 8624
+S
+#8626
+Starboard side, lower deck.~
+You are on the starboard side of the lower deck. There are many
+hammocks lining the hull and a few pirates are lying sprawled
+in them sleeping it off. You can head midships to the north
+or continue along the hull to the east and west.
+~
+86 0 0
+D0
+You see a sailor sleeping in a hammock.
+~
+~
+0 -1 8619
+D3
+You see three sailors drinking rum and playing cards.
+~
+~
+0 -1 8625
+S
+#8627
+Port gunwhale.~
+You are standing right next to the port gunwhale of the ship. You can see
+the water below. The main deck continues east and south from here. 
+Looking out over the ocean you see the town of Haven and a small Island.
+~
+86 0 0
+D1
+You see a evil looking pirate sharpening his knife.
+~
+~
+0 -1 8628
+D2
+You see a young boy cleaning the deck.
+~
+~
+0 -1 8635
+S
+#8628
+Port gunwhale.~
+You are standing right next to the port gunwhale of the ship. You can see
+the water below. The main deck continues east, west and south from here.
+All around you are pirates and sailors talking and fighting with each other.
+~
+86 0 0
+D1
+You see a young boy cleaning the deck.
+~
+~
+0 -1 8629
+D2
+You see a evil looking pirate sharpening his knife.
+~
+~
+0 -1 8636
+D3
+You see an evil pirate counting his stolem treasure.
+~
+~
+0 -1 8627
+S
+#8629
+Port gunwhale.~
+You are standing right next to the port gunwhale of the ship. You can see
+the water below. The main deck continues east, west and south from here.
+~
+86 0 0
+D1
+You see an evil pirate counting his stolem treasure.
+~
+~
+0 -1 8630
+D2
+You see a evil looking pirate sharpening his knife.
+~
+~
+0 -1 8637
+D3
+You see a young boy cleaning the deck.
+~
+~
+0 -1 8628
+S
+#8630
+Port gunwhale.~
+You are standing right next to the port gunwhale of the ship. You can see
+the water below. The main deck continues east, west and south from here.
+~
+86 0 0
+D1
+You see a young boy cleaning the deck.
+~
+~
+0 -1 8631
+D2
+You see a evil looking pirate sharpening his knife.
+~
+~
+0 -1 8638
+D3
+You see two pirates fighting with each other.
+~
+~
+0 -1 8629
+S
+#8631
+Port gunwhale.~
+You are standing right next to the port gunwhale of the ship. You can see
+the water below. The main deck continues west and south from here.
+~
+86 0 0
+D2
+You see a evil looking pirate sharpening his knife.
+~
+~
+0 -1 8639
+D3
+You see a young boy cleaning the deck.
+~
+~
+0 -1 8630
+S
+#8632
+Portside, stern.~
+You are standing at the port side of the stern of the ship. You can
+see the water to the north and west. You can walk back onto the stern
+to the east and south from here.
+~
+86 0 0
+D1
+You see a young boy cleaning the deck.
+~
+~
+0 -1 8633
+D2
+You see a young boy cleaning the deck.
+~
+~
+0 -1 8644
+S
+#8633
+Stern.~
+You are on the stern at the top of the stairs leading down to the
+main deck.
+~
+86 0 0
+D2
+You see a buccaneer sharpening his long cutlass.
+~
+~
+0 -1 8645
+D3
+You see a evil looking pirate sharpening his knife.
+~
+~
+0 -1 8632
+D5
+Looking down you see the main deck of the ship.
+~
+~
+0 -1 8634
+S
+#8634
+Portside, aft end of main deck.~
+You are at the bottom of the stairs leading up to the stern deck
+at the aft end of the main deck.
+~ 
+86 0 0
+D1
+You see a evil looking pirate sharpening his knife.
+~
+~
+0 -1 8635
+D2
+You see a evil looking pirate counting his gold.
+~
+~
+0 -1 8648
+D4
+Looking up you see the stern of the ship.
+~
+~
+0 -1 8633
+S
+#8635
+Portside, main deck.~
+You are on the port side of the main deck.
+~
+86 0 0
+D0
+You see a very drunk pirate staggering around.
+~
+~
+0 -1 8627
+D1
+You see a young boy with a scrubbing brush and bucket.
+~
+~
+0 -1 8636
+D2
+You see two pirates fighting over stolen treasure.
+~
+~
+0 -1 8649
+D3
+You see a huge rat.
+~
+~
+0 -1 8634
+S
+#8636
+Portside, main deck.~
+You are on the port side of the main deck.
+~
+86 0 0
+D0
+You see a huge rat attacking the ship's cat.
+~
+~
+0 -1 8628
+D1
+You see a pirate looking at a picture of a naked woman.
+~
+~
+0 -1 8637
+D3
+You see a pirate looking at a picture of a naked man! What !
+~
+~
+0 -1 8635
+S
+#8637
+Portside, main deck.~
+You are on the port side of the main deck.
+~
+86 0 0
+D0
+You see a pirate looking at a picture of a naked man! What !
+~
+~
+0 -1 8629
+D1
+You see two drunk pirates trying to hold each other up.
+~
+~
+0 -1 8638
+D2
+You see a young deckhand getting beaten up by a vicious pirate.
+~
+~
+0 -1 8650
+D3
+You see a pirate looking at a picture of a naked man! What !
+~
+~
+0 -1 8636
+S
+#8638
+Portside, main deck.~
+You are on the port side of the main deck.
+~
+86 0 0
+D0
+You see a drunk pirate talking to himself.
+~
+~
+0 -1 8630
+D1
+You see a pirate counting his gold.
+~
+~
+0 -1 8639
+D3
+You see a pirate looking at a picture of a naked man! What !
+~
+~
+0 -1 8637
+S
+#8639
+Portside, main deck.~
+You are on the port side of the main deck.
+~
+86 0 0
+D0
+You see a pirate looking at a picture of a naked woman
+~
+~
+0 -1 8631
+D1
+You see two sailor's playing a game of cards
+~
+~
+0 -1 8640
+D2
+You see a deckhand trying to remove a blood stain off the deck.
+~
+~
+0 -1 8651
+D3
+You see a deckhand trying to remove a blood stain off the deck.
+~
+~
+0 -1 8638
+S
+#8640
+Portside, main deck.~
+You are on the port side of the main deck.
+~
+86 0 0
+D1
+You see a pirate sharpening his long cutlass
+~
+~
+0 -1 8641
+D2
+You see a deckhand trying to remove a blood stain off the deck.
+~
+~
+0 -1 8652
+D3
+You see a pirate sharpening his long cutlass
+~
+~
+0 -1 8639
+S
+#8641
+Forward, portside main deck.~
+You are at the forward end of the main deck, portside.
+~
+86 0 0
+D2
+You see two sailor's playing a game of cards
+~
+~
+0 -1 8653
+D3
+You see two sailor's playing a game of cards
+~
+~
+0 -1 8640
+S
+#8642
+Captains cabin.~
+You are in the captains cabin. Broken rum bottles liter the floor
+and maps and charts, stained with blood are spread out over the
+map table.
+~
+86 0 0
+D1
+You see two sailor's playing a game of cards
+~
+~
+0 -1 8643
+D2
+You see a deckhand scrubbing at a blood stain on the ground.
+~
+~
+0 -1 8646
+S
+#8643
+Captains cabin.~
+You are in the captains cabin. Broken rum bottles liter the floor
+and maps and charts, stained with blood are spread out over the
+map table.
+~
+86 0 0
+D2
+You see two sailor's playing a game of cards
+~
+~
+0 -1 8647
+D3
+You see a drunk pirate falling over.
+~
+~
+0 -1 8642
+S
+#8644
+Stern.~
+You are at the very stern of the ship. Right below is the water, and to
+the east is the ships wheel.
+~
+86 0 0
+D0
+You see a drunk pirate falling over.
+~
+~
+0 -1 8632
+D1
+You see a pirate sharpening his long cutlass
+~
+~
+0 -1 8645
+D2
+You see a pirate sharpening his long cutlass
+~
+~
+0 -1 8657
+S
+#8645
+Stern helmsman's post.~
+You are standing before the great ships helm on the stern deck.
+A massive wheel is here, tied off and set to course.
+~
+86 0 0
+D0
+You see two sailor's playing a game of cards
+~
+~
+0 -1 8633
+D2
+You see a young boy carrying a broom.
+~
+~
+0 -1 8658
+D3
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8644
+S
+#8646
+Captains cabin.~
+You are in the captains cabin. Broken rum bottles liter the floor
+and maps and charts, stained with blood are spread out over the
+map table.
+~
+86 0 0
+D0
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8642
+D1
+You see a young boy carrying a bucket
+~
+~
+0 -1 8647
+D2
+You see a drunk pirate talking to a deckhand
+~
+~
+0 -1 8655
+S
+#8647
+Captains cabin.~
+You are in the captains cabin. Broken rum bottles liter the floor
+and maps and charts, stained with blood are spread out over the
+map table.
+~
+86 0 0
+D0
+You see a vicious pirate hitting a yound boy
+~
+~
+0 -1 8643
+D1
+There is a large wooden door.
+~
+door~
+2 8611 8648
+D2
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8656
+D3
+You see a pirate counting his stolen treasure.
+~
+~
+0 -1 8646
+S
+#8648
+Front of captain's cabin.~
+You are standing at the entrance to the captain's cabin just under
+the stern deck. You can go back onto the main deck to the north,
+south and east. The door to the captain's cabin is west from here.
+~
+86 0 0
+D0
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8634
+D1
+You see a deckhand trying to remove a blood stain from the deck
+~
+~
+0 -1 8649
+D2
+You see a two drunk pirate fighting with each other.
+~
+~
+0 -1 8659
+D3
+A large wooden door
+~
+door~
+2 8611 8647
+S
+#8649
+Aft hatch.~
+You are standing at the top of the aft hatch on the main deck.
+You can head onto the main deck north, south and west from here.
+~
+86 0 0
+D0
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8635
+D2
+You see two pirates drinking from a huge barrel of rum
+~
+~
+0 -1 8660
+D3
+You see a young boy being hit by two vicious pirates
+~
+~
+0 -1 8648
+D5
+Looking down you see  the lower deck
+~
+~
+0 -1 8615
+S
+#8650
+Base of mast.~
+You are at the base of the mast in the middle of the main deck. You can
+go port or starboard or up the mast from here.
+~
+86 0 0
+D0
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8637
+D2
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8662
+D4
+Up is the mast that leads towards the lookout.
+~
+~
+0 -1 8672
+S
+#8651
+Forward hatch.~
+You are standing at the top of the forward hatch on the main deck.
+You can head onto the main deck north, south and west from here.
+~
+86 0 0
+D0
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8639
+D1
+You see a drunk pirate talking to a young boy.
+~
+~
+0 -1 8652
+D2
+You see a deckhand carrying a scrubbing brush and bucket
+~
+~
+0 -1 8664
+D5
+Looking down you see the lower deck where the pirates sleep
+~
+~
+0 -1 8618
+S
+#8652
+Middle of quarterdeck.~
+You are in the middle of the forward quarterdeck. You can go port,
+starboard, aft to the main deck or forward to the bow. 
+~
+86 0 0
+D0
+You see a huge rat attacking one of the ship's cats
+~
+~
+0 -1 8640
+D1
+You see a vicious pirate looking at a secret treasure map
+~
+~
+0 -1 8653
+D2
+You see a drunk pirate looking at a secret treasure map
+~
+~
+0 -1 8665
+D3
+You see a young boy looking at a secret treasure map
+~
+~
+0 -1 8651
+S
+#8653
+Forward quarterdeck.~
+You are standing at the forward quarterdeck. You can go forward to the
+bow, or to the main deck port or starboard. The main quarterdeck is
+aft from here.~
+86 0 0
+D0
+You see a huge rat eating what looks like a dead cat
+~
+~
+0 -1 8641
+D1
+You see a vicious pirate looking at a secret treasure map
+~
+~
+0 -1 8654
+D2
+You see a pirate counting his stolen treasure.
+~
+~
+0 -1 8666
+D3
+You see a huge rat eating what looks like a dead cat
+~
+~
+0 -1 8652
+S
+#8654
+The bow.~
+You are right up in the bow sprit of the ship. You can see the water all
+around, you can go aft back to the quarterdeck.
+~
+86 0 0
+D3
+You see a huge rat eating what looks like a dead cat
+~
+~
+0 -1 8653
+S
+#8655
+Captains cabin.~
+You are in the captains cabin. Broken rum bottles liter the floor
+and maps and charts, stained with blood are spread out over the
+map table.
+~
+86 0 0
+D0
+You see a young boy trying to clean the deck of blood stains
+~
+~
+0 -1 8646
+D1
+You see two pirates drinking from a large barrel of rum
+~
+~
+0 -1 8656
+S
+#8656
+Captains cabin.~
+You are in the captains cabin. Broken rum bottles liter the floor
+and maps and charts, stained with blood are spread out over the
+map table.
+~
+86 0 0
+D0
+You see two pirates drinking from a large barrel of rum
+~
+~
+0 -1 8647
+D3
+You see a pirate sharpening his long cutlass
+~
+~
+0 -1 8655
+S
+#8657
+Starboard side, stern.~
+You are standing at the starboard side of the stern of the ship. You can
+see the water to the south and west. You can walk back onto the stern
+to the east and north from here.
+~
+86 0 0
+D0
+You see four pirates haveing a heated argument
+~
+~
+0 -1 8644
+D1
+You see four pirates playing a game of cards
+~
+~
+0 -1 8658
+S
+#8658
+Stern.~
+You are on the stern at the top of the stairs leading down to the
+main deck.
+~
+86 0 0
+D0
+You see four pirates playing a game of cards
+~
+~
+0 -1 8645
+D3
+You see a young boy drinking from a rum bottle
+~
+~
+0 -1 8657
+D5
+Looking down you see the main deck
+~
+~
+0 -1 8659
+S
+#8659
+Starboard side, aft main deck.~
+You are on the starboard side of the main deck at the bottom of the
+stairs leading up to the stern deck.
+~
+86 0 0
+D0
+You see four pirates playing a game of cards
+~
+~
+0 -1 8648
+D1
+You see four pirates having a fight
+~
+~
+0 -1 8660
+D4
+Looking up you see the stern of the ship
+~
+~
+0 -1 8658
+S
+#8660
+Starboard side, main deck.~
+You are on the starboard side of the main deck.
+~
+86 0 0
+D0
+You see four pirates playing a game of cards
+~
+~
+0 -1 8649
+D1
+You see a drunk pirate talking to a cat
+~
+~
+0 -1 8661
+D2
+You see a large ship cat eating a dead rat.
+~
+~
+0 -1 8667
+D3
+You see a large ship cat eating a piece of rotting meat.
+~
+~
+0 -1 8659
+S
+#8661
+Starboard side, main deck.~
+You are on the starboard side of the main deck.
+~
+86 0 0
+D1
+You see four pirates playing a game of cards
+~
+~
+0 -1 8662
+D2
+You see a young boy drinking from a bottle of rum
+~
+~
+0 -1 8668
+D3
+You see two young boys scrubbing the deck
+~
+~
+0 -1 8660
+S
+#8662
+Starboard side, main deck.~
+You are on the starboard side of the main deck.
+~
+86 0 0
+D0
+You see two pirates looking at pictures of naked women
+~
+~
+0 -1 8650
+D1
+You see young boys drinking from a barrel of rum
+~
+~
+0 -1 8663
+D2
+You see a huge cat lying in the sun
+~
+~
+0 -1 8669
+D3
+You see a huge rat stalking a cat
+~
+~
+0 -1 8661
+S
+#8663
+Starboard side, main deck.~
+You are on the starboard side of the main deck.
+~
+86 0 0
+D1
+You see four pirates playing a game of cards
+~
+~
+0 -1 8664
+D2
+You see a huge cat lying in the sun
+~
+~
+0 -1 8670
+D3
+You see a huge cat eating what looks like a dead rat
+~
+~
+0 -1 8662
+S
+#8664
+Starboard side, main deck.~
+You are on the starboard side of the main deck.
+~
+86 0 0
+D0
+You see a drunk pirate who has fallen on the deck
+~
+~
+0 -1 8651
+D1
+You see a pirate asleep on the deck
+~
+~
+0 -1 8665
+D2
+You see a huge cat lying in the sun
+~
+~
+0 -1 8671
+D3
+You see a huge filty rat eating a dead cat
+~
+~
+0 -1 8663
+S
+#8665
+Starboard side, main deck.~
+You are on the starboard side of the main deck.
+~
+86 0 0
+D0
+You see a huge cat lying in the sun
+~
+~
+0 -1 8652
+D1
+You see two sailors drinking from a barrel of rum
+~
+~
+0 -1 8666
+D3
+You see a pirate looking at a secret treasure map
+~
+~
+0 -1 8664
+S
+#8666
+Starboard side, main deck.~
+You are on the starboard side of the main deck.
+~
+86 0 0
+D0
+You see a pirate looking at a secret treasure map
+~
+~
+0 -1 8653
+D3
+You see a pirate looking at a secret treasure map
+~
+~
+0 -1 8665
+S
+#8667
+Starboard gunwhale.~
+You are standing right next to the starboard gunwhale of the ship. You can
+see the water below. The main deck continues east, west and south from here.
+~
+86 0 0
+D0
+You see a large, vicious pirate sharpening his cutlass.
+~
+~
+0 -1 8660
+D1
+You see a drunk pirate trying to fight another drunk pirate.
+~
+~
+0 -1 8668
+S
+#8668
+Starboard gunwhale.~
+You are standing right next to the starboard gunwhale of the ship. You can
+see the water below. The main deck continues east, west and south from here.
+~
+86 0 0
+D0
+You see a young boy scrubbing the deck.
+~
+~
+0 -1 8661
+D1
+You see a drunk pirate trying to fight another drunk pirate.
+~
+~
+0 -1 8669
+D3
+You see a young boy scrubbing the deck.
+~
+~
+0 -1 8667
+S
+#8669
+Starboard gunwhale.~
+You are standing right next to the starboard gunwhale of the ship. You can
+see the water below. The main deck continues east, west and south from here.
+~
+86 0 0
+D0
+You see a young boy holding a broom.
+~
+~
+0 -1 8662
+D1
+You see a large vicious pirate sharpening his knife.
+~
+~
+0 -1 8670
+D3
+You see a young boy scrubbing the deck.
+~
+~
+0 -1 8668
+S
+#8670
+Starboard gunwhale.~
+You are standing right next to the starboard gunwhale of the ship. You can
+see the water below. The main deck continues east, west and south from here.
+~
+86 0 0
+D0
+You see a pirate counting his stolen gold.
+~
+~
+0 -1 8663
+D1
+You see a young boy scrubbing the deck.
+~
+~
+0 -1 8671
+D3
+You see a drunk pirate stagering around
+~
+~
+0 -1 8669
+S
+#8671
+Starboard gunwhale.~
+You are standing right next to the starboard gunwhale of the ship. You can
+see the water below. The main deck continues east, west and south from here.
+~
+86 0 0
+D0
+You see a young boy scrubbing the deck.
+~
+~
+0 -1 8664
+D3
+You see two pirates talking about who they killed yesterday.
+~
+~
+0 -1 8670
+S
+#8672
+Climbing the mast.~
+You are climbing the mast of the ship.
+~
+86 0 0
+D4
+Looking up you see the lookout post
+~
+~
+0 -1 8673
+D5
+Looking down you see the ship's deck 
+~
+~
+0 -1 8650
+S
+#8673
+Climbing the mast.~
+You are climbing the mast of the ship.
+~
+86 0 0
+D4
+Looking up you see the lookout post
+~
+~
+0 -1 8674
+D5
+Looking down you see the ship's deck 
+~
+~
+0 -1 8672
+S
+#8674
+Climbing the mast.~
+You are climbing the mast of the ship.
+~
+86 0 0
+D4
+Looking up you see the lookout post
+~
+~
+0 -1 8675
+D5
+Looking down you see the ship's deck 
+~
+~
+0 -1 8673
+S
+#8675
+Climbing the mast.~
+You are climbing the mast of the ship.
+~
+86 0 0
+D4
+Looking up you see the lookout post
+~
+~
+0 -1 8676
+D5
+Looking down you see the ship's deck 
+~
+~
+0 -1 8674
+S
+#8676
+Climbing the mast.~
+You are climbing the mast of the ship.
+~
+86 0 0
+D4
+Looking up you see the lookout post
+~
+~
+0 -1 8677
+D5
+Looking down you see the ship's deck.
+~
+~
+0 -1 8675
+S
+#8677
+In the crow's nest.~
+You are high up in the crow's nest of the ship. You can see all the
+main and starboard decks and the sailors and pirates scurrying around
+like ants below. You get a spectacular view from here!
+~
+86 0 0
+D5
+Dont look down you might fall.
+~
+~
+0 -1 8676
+S
+#8690
+Wharf of Haven.~
+You are walking along the Haven wharf enjoying the sea air.
+~
+86 0 0
+D2
+The wharf leading towards Haven
+~
+~
+0 -1 8691
+S
+#8691
+Wharf of Haven.~
+You are walking along the Haven wharf enjoying the sea air.
+~
+86 0 0
+D0
+The wharf leading towards the ocean
+~
+~
+0 -1 8690
+D2
+The wharf leading towards the Haven
+~
+~
+0 -1 8692
+S
+#8692
+Wharf of Haven.~
+You are walking along the Haven wharf enjoying the sea air.
+~
+86 0 0
+D0
+The wharf leading towards the ocean
+~
+~
+0 -1 8691
+D2
+The wharf leading towards Haven
+~
+~
+0 -1 8693
+S
+#8693
+Wharf of Haven.~
+You are walking along the Haven wharf enjoying the sea air.
+~
+86 0 0
+D0
+The wharf leading towards the ocean
+~
+~
+0 -1 8692
+D2
+The wharf leading towards Haven
+~
+~
+0 -1 8694
+S
+#8694
+Wharf of Haven.~
+You are walking along the Haven wharf enjoying the sea air.
+~
+86 0 0
+D0
+The wharf leading towards the ocean
+~
+~
+0 -1 8693
+D2
+The wharf leading towards haven
+~
+~
+0 -1 8695
+S
+#8695
+Wharf of Haven.~
+You are walking along the Haven wharf enjoying the sea air.
+Southbank road is directly south from here.
+~
+86 0 0
+D0
+The wharf leading towards the ocean
+~
+~
+0 -1 8694
+D2
+Southbank road
+~
+~
+0 -1 7
+S
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

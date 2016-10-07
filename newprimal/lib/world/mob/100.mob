@@ -1,0 +1,111 @@
+#10001
+Darask Citizen~
+the Citizen~
+A Citizen of Darask is here glaring at you.
+~
+You see a Citizen of Darask.~
+72 0 800 E
+9 13 11 1d0+100 6d6+5
+3373 6000
+8 8 0
+E
+#10002
+Assassin~
+the Assassin~
+an Assassin is slinking around here
+~
+You see an Assassin slinking around trying to look invisible...
+~
+122907 50332714 800 E
+99 -45 -15 10d10+1500 30d30+50
+0 318117
+8 8 0
+E
+#10003
+werewolf wolf~
+the werewolf~
+A large viscious looking wolf is standing here, growling softly.
+~
+This large beast could be the fabled Werewolf of Darask. You have
+heard some very disturbing stories about what this thing has done
+to some of the citizens of Darask, but surely they're just stories...
+~
+1630221 33792 -1000 E
+20 0 7 10d10+725 10d10+7
+0 100000
+8 8 0
+BareHandAttack: 4
+E
+#10004
+Rat Shopkeeper Thief~
+the Rat~
+The Rat stands here.
+~
+The Rat is a notorious thief!  He made his fortune theiving for the Thieve's
+Guild!  He is an expert pickpocketer and can disappear from sight in the blink
+of an eye!    
+~
+24895578 637567020 -1000 E
+99 -30 -15 10d10+5000 20d20+50
+89100 318117
+8 8 1
+E
+#10005
+Priest shopkeeper ~
+a retired Priest~
+The Retired Priest stands behind the counter
+~
+This Priest was once a man of the cloth but he failed!  His greed became so
+great he had to stop following the "cloth" and open a shop to make more money!
+  
+~
+24373338 570426556 0 E
+98 -30 -15 50d50+5000 20d20+50
+71050 308555
+8 8 1
+E
+#10006
+Spellsword Shopkeeper~
+a Retired SpellSword~
+The Retired SpellSword leans against the counter!
+~
+This poor girl, was a proud and very good SpellSword but by level 50 she
+couldn't handle it anymore!  So the Gods relented and gave her a nice cushy job
+in this store!    
+~
+21227610 570426540 0 E
+51 0 1 20d20+500 20d20+20
+15000 43651
+8 8 2
+E
+#10007
+Shopkeeper Pirate~
+a Pirate ~
+A Pirate stands here cleaning his daggers!
+~
+Sick of the sea, this man lives in thieves city to make a living!  But he isn't
+very good at it!  His money supply is running out!  Probably because he charges
+too much for his goods!    
+~
+21225562 570426540 -1000 E
+80 -30 -7 20d20+5000 20d20+50
+0 167721
+8 8 1
+BareHandAttack: 11
+E
+#10008
+rich merchant~
+a rich merchant~
+A very Rich Merchant stands here
+~
+A very Rich merchant walks around a very dangerous town!  His purse is bulging
+at the seams with all his gold and jewels.  He is here to buy some supplies but
+I think he has made a very bad mistake!    
+~
+256200 0 0 E
+10 15 10 5d5+250 3d10+5
+9000 1000
+8 8 1
+E
+T 10000
+$

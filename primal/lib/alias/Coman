@@ -1,0 +1,18 @@
+stab backstab $1
+awaken wake
+yy get yellow bag ; q yellow
+invis cast 'invisibility' $1
+eet cast 'create food' ; cast 'create food' ; cast 'create food' ; eat mushroom ; eat mushroom ; eat mushroom ; burp ;emote rubs his tummy happily
+cure cast 'cure critic' self
+congrats grats $1 the newly level $2 is the champ!
+money get coins corpse
+night cast 'infravision' on self
+loot get all from corpse
+arm cast 'armor' on self
+heal cast 'cure light' on self
+qq get white backpack ; q white
+drug get red backpack ; q red
+tt track trickster
+vision cast 'infravision' self ; cast 'detect invisibility' self ; cast 'detect alignment' self
+sum cast 'summon' $1
+id get identify backpack ; recite identify $1

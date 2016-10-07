@@ -1,0 +1,29 @@
+add cast 'avanced heal'
+gh cast 'group heal'
+holyaid cast 'spirit armor' Death; cast 'holy aid' Death; cast 'divine protection' Death
+spri cast 'spirit armor' $1
+sum cast 'summon' $1
+die cast 'finger of death' $1
+pal cast 'paralyze' $1
+arm cast 'armor' $1; cast 'sanctuary' $1; cast 'bless' $1
+deinv cast 'detect invisibility' $1
+putscr put all.scroll backp
+putmeat put all.meat backpack
+tr train hit points
+hp get scroll backpack; recite scroll
+putsk put all.skin backpack
+putwh put all.white backpack
+inv cast 'invisibility' Death
+dra cast 'Dragon' Death
+coolarm cast 'armor' $1; cast 'sanctuary' $1; cast 'bless' $1; cast 'dragon' $1; cast 'invisibility' $1; cast 'heal' $1; cast 'infravision' $1
+har cast 'harm' $1
+str cast 'strength' $1
+ref cast 'refresh' $1
+ear cast 'earthquake'
+re cast 'word of recall'
+hhd cast 'heal' $1
+ad cast 'advanced heal' Death
+qw get white backpack; quaff white
+div cast 'divine protection' $1
+hol cast 'holy aid' $1
+dim cast 'dimensional gate' $1

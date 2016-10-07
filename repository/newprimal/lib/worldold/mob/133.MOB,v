@@ -1,0 +1,226 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.21;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.30;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#13300
+bartender~
+Bartender~
+The large scar faced bartender is here glaring at you.
+~
+You see a heavy mean looking man.  His face is covered with scars, one that
+runs through his left eyebrow and across his nose and down to the right side of his face.  He never takes his eyes off the seedy crowd of the etablishment.
+His dirty bloodstained shirt and torn grey pants are badly in need of a wash.
+~
+16458 1152 0 S
+10 -25 -10 1d5+300 4d4+5
+1235 10000
+8 8 1
+#13301
+bar maid~
+bar maid~
+A pretty bar maid is here serving drinks.
+~
+You see here a small framed bar maid.  She is dressed in a plain long flowing   
+skirt and is carrying an order of drinks. 
+~
+200 0 0 S
+2 -20 1 4d1+40 2d1+5
+20 90
+8 8 2
+#13302
+bar wench~
+bar wench~
+A seductive bar wench is rubbing up against you.
+~
+A seductive woman is standing here before you.  She is wearing a very low cut  
+dress and is very proud of her assets. 
+~
+2120 1024 0 S
+4 -22 -1 1d5+20 2d1+2
+561 560
+8 8 2
+#13303
+man pianist~
+man~
+You see a small balding man sitting here playing a old piano.
+~
+You see a small man here playing a old piano and singing.  He is wearing a large
+red bow tie and a striped shirt.  He looks like he enjoys his job.
+~
+41034 128 -1 S
+10 -25 -5 5d5+60 5d1+5
+2500 3850
+8 8 1
+#13304
+man poker~
+poker man~
+An angry looking man is sitting at a table here playing poker.
+~
+You see a dirty smelly man here.  He has a hand full of cards and is covering
+them with both fists.  His eyes are bloodshot and beneath his jacket you see
+a gun in its holster.
+~
+74 1152 200 S
+8 -24 -2 5d5+40 5d1+0
+2000 3800
+6 8 1
+#13305
+boy~
+boy~
+A teenage boy is here looking around like he is rather out of place.
+~
+You see a small pimple faced teenage boy.  His eyes are wide as dinner plates
+as he watches the women move about the room.  He looks totally out of place
+and you wonder who let this young boy in.
+~
+74 524288 -10 S
+5 18 4 5d10+250 4d1+5
+2135 1950
+8 8 1
+#13306
+the boss~
+boss~
+The Boss sits here counting his money.
+~
+You see a large angry looking man.  He is sitting behind a desk and is counting
+aloud.  He doesnt look like a man you should mess with.
+~
+106 1032 -10 S
+10 22 30 13d10+150 4d4+5
+8500 6945
+6 8 1
+#13307
+guard~
+guard~
+An armed guard is sitting here dozing.
+~
+You see a man who is nearly asleep.  However the slightest noise may wake him.
+~
+2122 1032 -100 S
+7 -10 -1 5d5+180 2d3+1
+1500 6000
+6 8 1
+#13308
+alchoholic~
+old alcoholic~
+An old alcoholic is slouching here.
+~
+You see a old man standing here.  His clothes dirty and torn.  He smells like
+a barrel of rum and is twice as round.
+~
+200 1572864 -20 S
+4 22 8 4d5+50 1d2+1
+450 400
+6 8 1
+#13309
+con artist~
+con artist~
+A shifty con artist is scanning the room looking for his next prey.
+~
+You see a well dress man.  He has shifty eyes and large feet.  You know htat if you talk to him he will certainly take you for all you have got.
+~
+32840 136 200 S
+9 -22 7 10d9+50 1d2+2
+2546 4064
+8 8 1
+#13310
+rat~
+rat~
+A smelly rat scampers past you.
+~
+You see a small smelly rat with pointy white teeth scamper past you.  You catch
+a glimpse of its stone cold eyes.  
+~
+72 0 0 S
+1 22 9 5d4+1 2d2+1
+100 100
+8 8 0
+#13311
+man naked~
+man naked~
+A naked man is standing here trying to hide his personals.
+~                                                           
+
+                        Uh Uh Ahhhh... This is a Family Mud!        
+                        
+~
+74 1152 200 S
+8 -24 -2 5d5+200 5d1+1
+2000 8000
+6 8 1
+#13312
+wife boss's wifey~
+Boss's Wife~
+The Boss's Wife is standing here waiting for her husband.
+~
+Wifey is standing before you, she is dressed in a bright red 
+dress. Wifey flashes her perfect white teeth as you enter the room.  But 
+dont be fooled by that smile.  Looks can be deceiving.
+~
+4196426 1032 50 S
+8 3 0 5d4+200 1d5+1
+3000 9000
+8 8 2
+#99999
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

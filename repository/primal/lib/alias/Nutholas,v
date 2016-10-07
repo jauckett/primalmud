@@ -1,0 +1,53 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@h kill boar
+www quaff white
+rr quaff red
+sg cast 'shocking grasp'
+cf cast 'create food'
+] drink skin
+. get all from corpse
+mm cast 'magic missile'
+bh cast 'burning hands'
+cl cast 'cure light'
+invi cast 'invisibility'
+arm cast 'armor'
+f cast 'shockin grasp' at hill giant
+q drop potion
+[ eat bread
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

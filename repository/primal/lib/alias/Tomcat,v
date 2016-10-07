@@ -1,0 +1,77 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@off rem lantern;open crate;put lantern in crate;close crate
+on open crate;get lantern from crate;hold lantern;close crate
+white open crate;get white from crate;q white;close crate
+td track duwick
+sg c 'shocking grasp' $1
+lb look in backpack
+bread get bread from backpack;eat bread
+up wake;stand
+ds open crate;get skin from crate;drink skin;put skin in crate;close crate
+gc open crate;get $1 from crate;close crate
+pc open crate;put $1 in crate;close crate
+em open crate;get meat from crate;eat meat;close crate
+eb open crate;get bread from crate;eat bread;close crate
+edog open crate;get hotdog from crate;eat hotdog;close crate
+ivt cast 'infravision' tomcat
+iv c 'infravision' $1
+invist c 'invisibility' tomcat
+invis c 'invisibility' $1
+lc open crate;look in crate;close crate
+tm track merchant
+dr get skin from backpack;drink skin;put skin in backpack
+meat get meat from backpack;eat meat
+red get red from backpack;q red
+bg get $1 from backpack
+bp put $1 in backpack
+cct c 'cure crit' tomcat
+cc c 'cure crit' $1
+rid g $1 from backpack;j $1
+dog g hotdog from backpack;eat hotdog
+tb track bandit
+gac get all corpse
+rc get corpse;junk corpse
+qw open crate;get white from crate;quaff white;close crate
+trans track transformer
+bh cast 'burning hands' $1
+bs rem chain;wield soaker;backstab $1;rem soaker; wield chain
+cdit cast 'detect invisibility' tomcat
+cdi cast 'detect invisibility' $1
+recall open crate;get recall from crate;close crate;recite recall
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

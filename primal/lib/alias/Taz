@@ -1,0 +1,48 @@
+tudor n;w;s;s;s;w;w;w;w;w;w;s;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s
+ch2 remove sword;wield ivory
+ch remove ivory;wield sword
+rr recite recall
+tel c 'teleport' self
+black hunt glasya
+ah c 'advance heal' self
+2 backstab buccaneer
+1 buy 10 red;put all.red backpack
+grats grat :) :0 :) :0 $*  0: (: 0: (:
+3 w;look toto;e
+plasma c 'plasma blast' $*
+palsma c 'plasma' $*
+hd hold pen;hold tooth
+toy n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;c 'refresh';n;n;n;n;n;w;w;u;u;u;u
+9 track munchkin
+earthq c 'earthquake'
+em get mushroom backpack;get meat backpack;eat mushroom;eat meat
+qr get red backpack;quaff red
+bs backstab $*
+gaac get all all.corpse
+dr drink skin
+wake wake;stand
+qw quaff white
+cc c 'cure critic'
+re c 'word of recall'
+summon c 'summon' $*
+di c 'detect invisibility'
+cf c 'create food' ; eat mushroom
+charm c 'charm person' $*
+inv c 'invisibility' $*
+cs c 'sanctuary'
+str c 'strength'
+infra c 'infravision'
+locate c 'locate object' $*
+h c 'heal'
+bandit n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e
+back n;e;s;e;e;e;e;e;e;e;e;n;n;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w;n;n;n
+ticket n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;w
+potion n;w;s;s;s;e;e;e;n
+backpotion s;w;w;w;n;n;n;e;s
+4 track duwick
+refresh c 'refresh'
+crystal n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;c 'refresh';n;w;w;n;n;n;w;w;n;n;n;n;n;c 'refresh';remove mask;wear sombrero;w;w;w;w;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n;n;n;n;n;remove sombrero;wear mask
+staff remove pen;remove tooth;hold staff;use staff self;remove staff;hold tooth;hold pen
+bluff holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+waterwalk c 'waterwalk' self
+0 backstab beetle

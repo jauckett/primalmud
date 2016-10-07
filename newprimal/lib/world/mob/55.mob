@@ -1,0 +1,127 @@
+#5501
+troll~
+the troll~
+An enormous troll is here waiting for a victim.
+~
+The troll's green mottled skin makes you dry retch.
+~
+107 0 -500 E
+7 14 11 1d10+85 8d6+3
+2516 2250
+9 9 0
+E
+#5502
+lion~
+the mountain lion~
+A huge prowling mountain lion is here.
+~
+The lion is a magnificent creature, but you wouldn't want to upset it.
+~
+72 0 0 E
+5 16 12 1d10+60 8d4+4
+2075 900
+9 9 0
+E
+#5503
+wisp willow~
+the willow-the-wisp~
+A willow-the-wisp is floating here.
+~
+The willow-the-wisp is just a ball of bright light.
+~
+106 2 -500 E
+10 11 10 1d10+120 9d6+5
+5078 9000
+8 8 0
+E
+#5504
+elemental water~
+the water elemental~
+A water elemental is here forming out of the river.
+~
+The elemental is a wall of water lunging at you.
+~
+74 0 -400 E
+15 6 8 1d10+190 6d10+5
+5679 20000
+9 9 0
+E
+#5505
+roc~
+the roc~
+A giant roc is here guarding its nest.
+~
+The roc is a huge bird the size of a large building.
+~
+106 132224 300 E
+40 -15 0 1d0+2000 15d19+25
+30000 400000
+8 8 0
+BareHandAttack: 8
+E
+#5506
+bandit~
+the bandit~
+A bedraggled bandit is hiding here.
+~
+The bandit looks like he hasn't eaten in a week. There mustn't be many
+people along this way.
+~
+6188 524288 -500 E
+7 14 11 1d10+85 6d6+3
+516 3250
+8 8 1
+E
+#5507
+tinker~
+the wandering tinker~
+A wandering tinker covered in pots and pans is here.
+~
+The tinker looks content with life. Maybe he'll fix your broken pan.
+~
+72 1024 0 E
+5 16 12 1d10+60 2d9+4
+2075 1900
+8 8 1
+E
+#5508
+gypsy~
+the gypsy~
+A Gypsy is here.
+~
+The gypsy is a brightly dressed individual. He is playing a tune on his pipes.
+~
+104 1026 -500 E
+10 11 10 1d10+120 6d6+5
+5078 9000
+8 8 0
+E
+#5509
+dragon~
+the dragon~
+The large red dragon is here.
+~
+The dragon is a huge beast. Its large body glimmers with a dull red color like
+its insides are aflame. Its stare makes you think of your own mortality.
+~
+256058 33960 -750 E
+50 -30 -3 0d0+3500 20d20+50
+30000 500000
+9 9 0
+BareHandAttack: 8
+E
+T 5500
+#5510
+vampire bat~
+a vampire bat~
+A vampire bat hangs here from the cavern ceiling
+~
+A small bat with razor sharp teeth. Get a few of these bastars wanting a drink and your in trouble!
+~
+135228 42599578 0 E
+50 -20 -3 1d0+3500 20d20+40
+1000 400000
+8 8 0
+BareHandAttack: 4
+E
+$

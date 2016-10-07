@@ -1,0 +1,17 @@
+locate cast 'locate' $1
+lb cast 'lightn' $1
+summon cast 'summon' $1
+dra cast 'dragon'
+cc cast 'cure crit'
+od open door
+chill cast 'chill' $1
+infra cast 'infra'
+gac get all in corpse
+gm get meat back
+gton get ton back
+cb cast 'burn' $1
+gwhi get white back
+gag get gold corp
+rr cast 'word of recall'
+drain cast 'energy' $1
+cure cast 'cure crit' $1

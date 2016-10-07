@@ -1,0 +1,46 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ba rem sword;wield dagger;ba $*;rem dagger;wield sword
+qr get red backpack;qu red
+qw get white backpack;qu white
+recall recite recall
+byr buy 10 red;put all.red backpack
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w
+byw buy 5 white;put all.white backpack
+wake wake;stand
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

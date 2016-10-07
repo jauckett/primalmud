@@ -1,0 +1,57 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@fd cast 'create food' ; eat mushroom
+bs backstab $1
+lb cast 'lightning bolt' $1
+su cast 'summon' $1
+ad assist talon
+cc cast 'cure critical'
+k kill buffalo
+af assist exodus
+as assist smeg
+wa wake ; stand
+sl sleep
+cl cast 'cure light' rohan
+h get all.gold all.corpse
+g get all all.corpse
+cong grat ----<<<<<$*>>>>>-------
+ak assist kermit
+pp quaff white
+rre recite recall
+b track bandit
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

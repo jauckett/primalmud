@@ -1,0 +1,9 @@
+bs backstab $1
+? recite scroll $1
+a tell cophen heal
+gac get all all.cor
+th train hit; train hit; train hit; train hit; train hit
+di cast 'detect invisibility'
+arm cast 'armor'
+bl cast 'blind' $1
+locate cast 'locate' $1

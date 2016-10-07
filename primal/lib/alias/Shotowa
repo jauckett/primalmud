@@ -1,0 +1,21 @@
+rh rem halberd
+r2000 rem 2000
+w2000 wield 2000
+wieh wield halberd
+grat grat (:\/\/\/\/\/\/\/\/\ $1 /\/\/\/\/\/\/\/\/:)
+gar get all.red backpack
+par put all.red backpack
+wa wear all
+rhcp assist rhcp
+gac get all all.corpse
+cbh c 'burn hand' $1
+csg c 'shock grasp' $1
+cct c 'chill touch' $1
+mm c 'magic missile' $1
+cfood c 'create food'
+ga get all
+recall c 'word of recall'
+qr quaff red
+qq quaff red
+wg wie galactic
+rg rem galactic

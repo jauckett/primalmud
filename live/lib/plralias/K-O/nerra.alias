@@ -1,0 +1,400 @@
+1
+k
+16
+battlecry  guard
+0
+4
+heat
+34
+get fire 2.back;rem ring;wear fire
+1
+1
+h
+12
+flytackle $*
+1
+3
+fly
+2
+$*
+1
+2
+cp
+16
+cast 'poison' $*
+1
+2
+tt
+13
+track phoenix
+0
+2
+ss
+14
+sense stats $*
+1
+1
+c
+13
+cast 'wraith'
+0
+1
+m
+18
+cast 'plasma'  gua
+0
+6
+uncold
+21
+rem cold;wear wedding
+1
+4
+cold
+18
+rem ring;wear cold
+1
+6
+unheat
+21
+rem ring;wear wedding
+1
+3
+ass
+27
+order follower assist nerra
+0
+2
+dr
+11
+dark ritual
+0
+2
+ff
+14
+cast 'fear' $*
+1
+2
+hh
+9
+piledrive
+0
+3
+cda
+32
+get alliance back;quaff alliance
+1
+2
+ba
+37
+buy 10 alliance;put all.alliance back
+1
+2
+rb
+20
+rem back;wield sword
+1
+2
+hb
+21
+rem sword;hold 2.back
+1
+1
+7
+4
+trip
+0
+1
+5
+4
+head
+0
+2
+as
+11
+rescue boof
+0
+1
+4
+9
+piledrive
+0
+1
+3
+8
+bodyslam
+0
+1
+2
+7
+bearhug
+0
+1
+1
+4
+kick
+0
+1
+p
+14
+compost corpse
+0
+2
+cc
+13
+cast 'plasma'
+0
+2
+aa
+27
+order follower assist nerra
+0
+2
+ms
+13
+cast 'meteor'
+0
+2
+jj
+7
+bearhug
+0
+1
+j
+8
+bodyslam
+0
+2
+kk
+33
+battlecry $*;alias k battlecry $*
+1
+2
+mm
+41
+cast 'plasma' $*;alias m cast 'plasma' $*
+1
+3
+cin
+12
+cast 'invis'
+0
+1
+9
+18
+get all all.corpse
+0
+2
+rr
+13
+cast 'recall'
+0
+2
+qw
+36
+get protection back;quaff protection
+1
+2
+wa
+10
+wake;stand
+1
+2
+ht
+7
+htrance
+0
+2
+qr
+30
+get healing back;quaff healing
+1
+2
+br
+33
+buy 10 healing;put all.tonic back
+1
+2
+bw
+41
+buy 10 protection;put all.protection back
+1
+3
+lis
+9
+listen $*
+1
+3
+ccc
+12
+cast 'chill'
+0
+3
+cdi
+28
+get yellow back;quaff yellow
+1
+2
+by
+32
+buy 5 yellow;put all.potion back
+1
+6
+unhead
+32
+rem hat;put hat 2.back;wear helm
+1
+8
+godarask
+79
+s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+1
+5
+rheat
+32
+rem som;put somb 2.back;wear hat
+1
+3
+cpa
+14
+cast 'para' $*
+1
+5
+gofut
+27
+u;e;e;e;e;e;e;e;s;go portal
+1
+6
+gowest
+26
+u;e;e;s;go stage;e;e;e;e;u
+1
+4
+grat
+30
+grats &Y----&r@&C $* &r@&Y----
+1
+4
+dark
+11
+dark ritual
+0
+2
+ad
+21
+cast 'animate' corpse
+0
+3
+loc
+16
+cast 'locate' $*
+1
+5
+charm
+15
+cast 'charm' $*
+1
+2
+pp
+11
+poison blad
+0
+3
+grb
+39
+get all.tonic 2.back;put all.tonic back
+1
+1
+0
+29
+get all corpse;compost corpse
+1
+2
+ll
+47
+open door n;open door s;open door e;open door w
+1
+4
+lib2
+14
+look in 2.back
+0
+2
+cm
+13
+cast 'meteor'
+0
+6
+gotown
+15
+u;e;e;e;e;e;s;s
+1
+3
+csl
+15
+cast 'sleep' $*
+1
+3
+sum
+16
+cast 'summon' $*
+1
+2
+bb
+29
+buy 10 meat;put all.meat back
+1
+3
+cbl
+15
+cast 'blind' $*
+1
+2
+ce
+17
+cast 'earthquake'
+0
+3
+ccu
+15
+cast 'curse' $*
+1
+2
+ed
+22
+cast 'energy drain' $*
+1
+5
+golab
+119
+n;n;w;w;w;n;e;e;s;s;u;n;open french;n;d;d;n;n;n;e;e;open quest;n;e;e;e;e;e;e;open illus;s;e;s;e;s;e;s;e;e;n;n;n;w;s;n;s
+1
+3
+ccw
+24
+cast 'create water' skin
+0
+3
+cdm
+19
+cast 'detect magic'
+0
+3
+csg
+24
+cast 'shocking grasp' $*
+1
+2
+li
+14
+look in corpse
+0
+3
+cbh
+17
+cast 'burning' $*
+1
+3
+lib
+16
+look in backpack
+0

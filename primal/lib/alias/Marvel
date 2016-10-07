@@ -1,0 +1,21 @@
+rr recite recall
+qw quaff white
+gua steal gold from guard;steal gold 2.guard;steal gold 3.guard;steal gold 4.guard;steal gold 5.guard;steal gold 5.guard
+cs cast 'sleep' $1
+1 steal gold from guard;steal gold from 2.guard;steal gold from guard;steal gold from guard;steal gold guard;steal gold 2.guard;steal gold 2.guard;steal gold 2.guard
+sw steal gold master;steal gold master;steal gold master;steal gold master;steal gold master
+sm steal gold merchant;steal gold merchant;steal gold merchant;steal gold merchant
+sg steal gold from guard;steal gold guard;steal gold guard
+re steal gold traveller;steal gold traveller;steal gold traveller;steal gold traveller
+ra st;st;st;st;st
+jun get all all.corpse;get all.corpse;junk all.corpse
+inf cast 'infravision' self
+qr quaff red
+t track $1
+pu put $1 backpack
+em get meat from backpack;eat meat
+eb get bread from backpack;eat bread
+gat get $1 from backpack
+tr track shadow
+tre track ghast
+slay slay harvey

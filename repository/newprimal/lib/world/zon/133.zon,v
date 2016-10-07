@@ -1,0 +1,168 @@
+head	1.1;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.10.14.01.01.55;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@#133 2
+Saloon~
+13347 30 2 0
+M 0 13300 1 13306       ; bartender
+G 1 13319 99			; glass
+G 1 13301 99			; bottle
+M 0 13306 1 13344       ; The boss
+G 1 13310 10                    ; tabacco
+E 1 13313 1 17                  ; combination
+M 0 13307 2 13343       ; boss's guard
+E 1 13305 2 4                   ; poncho
+M 0 13307 2 13343       ; boss's guard  
+G 1 13310 10                    ; tabacco   
+E 1 13305 2 4                   ; poncho              
+M 0 13301 10 13322       ; bar maid
+G 1 13319 99                    ; glass
+G 1 13319 99                    ; glass
+E 1 13312 8 13                  ; skirt
+M 0 13301 10 13308       ; bar maid
+G 1 13319 99                    ; glass 
+G 1 13319 99                    ; shot     
+G 1 13319 99                    ; shot  
+E 1 13312 8 13                  ; skirt
+M 0 13301 10 13328       ; bar maid  
+E 1 13314 8 8                   ; boots
+E 1 13309 8 2                   ; ring 
+M 0 13301 10 13318       ; bar maid  
+E 1 13314 8 8                   ; boots
+E 1 13311 8 3                   ;ribbon   
+M 0 13301 10 13319       ; bar maid  
+E 1 13309 8 2                   ; ring 
+M 0 13301 10 13326       ; bar maid  
+E 1 13311 8 3                   ;ribbon   
+M 0 13301 10 13301       ; bar maid  
+E 1 13312 8 13                  ; skirt      
+M 0 13302 6 13324       ; bar wench
+E 1 13314 8 8                   ; boots   
+E 1 13311 8 3                   ;ribbon  
+M 0 13302 6 13307       ; bar wench
+E 1 13314 8 8                   ; boots
+M 0 13302 6 13327       ; bar wench
+E 1 13314 8 8                   ; boots
+E 1 13309 8 2                   ; ring
+M 0 13302 6 13305       ; bar wench 
+E 1 13309 8 2                   ; ring 
+M 0 13302 6 13318       ; bar wench 
+E 1 13312 8 13                  ; skirt      
+E 1 13311 8 3                   ;ribbon   
+M 0 13302 6 13322       ; bar wench 
+E 1 13314 8 8                   ; boots
+E 1 13311 8 3                   ;ribbon   
+M 0 13302 6 13346       ; bar wench 
+E 1 13309 8 2                   ; ring 
+E 1 13312 8 13                  ; skirt      
+M 0 13302 6 13326       ; bar wench 
+E 1 13309 8 2                   ; ring 
+E 1 13312 8 13                  ; skirt      
+M 0 13302 6 13334       ; bar wench 
+E 1 13312 8 13                  ; skirt      
+M 0 13303 1 13311       ; Pianist
+G 1 13310 10                    ; tabacco
+G 1 13319 99                     ; shot
+E 1 13308 1 6                   ;hide hat
+M 0 13304 4 13316       ; poker player
+G 1 13310 10                    ; tabacco 
+E 1 13302 6 17                  ; blue chips
+M 0 13304 4 13316       ; poker player
+E 1 13303 6 17                  ; red chips
+G 1 13301 99                   ; bottle      
+M 0 13304 4 13316       ; poker player  
+G 1 13310 10                    ; tabacco  
+G 1 13319 99                     ; shot        
+E 1 13302 6 17                  ; blue chips         
+M 0 13304 4 13316       ; poker player
+E 1 13306 1 8                   ; spurs
+E 1 13302 6 17                  ; blue chips             
+M 0 13305 1 13332       ; teenage boy      
+G 1 13310 10                    ; tabacco  
+M 0 13308 5 13314       ; drunk
+G 1 13319 99                    ; shot  
+G 1 13319 99                     ; glass
+G 1 13304 6                     ; yellow chips 
+M 0 13308 5 13321       ; drunk
+G 1 13310 10                    ; tabacco     
+*G 1 7120  5                     ; glass** To be added in later when obj' relocated*
+E 1 13303 6 17                  ; red chips    
+M 0 13308 5 13302       ; drunk
+G 1 13310 10                    ; tabacco          
+G 1 13319 99                    ; shot 
+E 1 13303 6 17                  ; red chips
+M 0 13308 5 13347       ; drunk
+G 1 13319 99                     ; shot   
+G 1 13319 99                     ; glass    
+E 1 13301 99 16                  ; bottle 
+M 0 13309 1 13309       ; gambler
+E 1 13307 1 8                   ; snake skin boots
+E 1 13303 6 17                  ; red chips
+G 1 13319 99                     ; shot   
+G 1 13304 6                     ; yellow chips
+G 1 13304 6                     ; yellow chips  
+G 1 13304 6                     ; yellow chips      
+G 1 13304 6                     ; yellow chips       
+M 0 13310 7 13312       ; rat
+M 0 13310 7 13318       ; rat     
+M 0 13310 7 13321       ; rat
+M 0 13310 7 13309       ; rat
+* no mob definitions in 133.mob for teh following, commented out 
+* so can be easily restored if they are returned
+*M 0 13311 1 13347       ; naked man         
+*E 1 13324 1 17                 ;cigar held 
+*M 0 13312 1 13346       ; Wifey
+*E 1 13323 1 17                 ; pillow held
+O 0 13300 1 13311                                ; piano
+O 0 13315 1 13347                                ; bath tub
+P 0 13317 1 13315                                   ; Knickers in bath tub
+O 0 13316 1 13346                                ; bed
+O 0 13318 1 13345                                ; MOney in Safe
+O 0 13320 5 13310                                ; table
+O 0 13320 5 13326                                ; table
+O 0 13320 5 13316                                ; table
+O 0 13320 5 13329                                ; table
+O 0 13320 5 13304                                ; table
+O 0 13321 7 13303                                ; stool    
+O 0 13321 7 13331                                ; stool    
+O 0 13321 7 13311                                ; stool    
+O 0 13321 7 13307                                ; stool    
+O 0 13321 7 13302                                ; stool    
+O 0 13321 7 13334                                ; stool    
+O 0 13321 7 13301                                ; stool 
+O 0 13322 3 13316                                ; stool
+O 0 13322 3 13306                                ; stool
+O 0 13322 3 13326                                ; stool       
+D 0 13341 3 1   ; west door along passage to bedroom
+D 0 13346 1 1   ; east door in bedroom to passage
+D 0 13341 1 1   ; east door along passage to bathroom
+D 0 13347 3 1   ; west door in bathrrom to passage
+D 0 13343 0 1   ; Door to boss's office
+D 0 13344 2 1   ; Door out of boss's office
+D 0 13344 5 2   ; Safe door
+D 0 13345 4 1   ; Door out of safe
+S
+#99999
+$~
+
+@

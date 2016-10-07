@@ -1,0 +1,110 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD>
+<TITLE> Medieval Areas - PrimalMUD </TITLE>
+</HEAD>
+
+<BODY bgcolor=white text=black>
+<CENTER>
+<P><BR><B>Medieval</B> is the home of many fabulous creatures and players.<P>
+
+So many areas exist within this world, that they need to be categorised<BR>
+into <b>3</b> separate sections. <P>
+
+For newer characters, <A HREF="mlesser.htm" target="areamain"> Lesser Medieval </A> is the place to start.<BR>
+Moving up? <A HREF="mmiddle.htm" target="areamain"> Middle Medieval </a> proves a greater challenge.<BR>
+Ultimately, <A HREF="mgreater.htm" target="areamain"> Greater Medieval</A> caters to seasoned players.<BR>
+<P>
+<img src="../letters/separator.gif" width="400" height="18">
+<P>
+
+Standing steadfast,<a href="../map/havenmap.htm"> <b>Haven</b> </a> is the hub of life on Primal.
+<P>
+<A NAME="Haven"><FONT COLOR=blue><h3><u> Haven </U></h3></font></a>
+<i>Creator - John<BR>(Levels - All)<BR>
+<B>Location - This is where you begin, and will spend much time.</B><P>
+<B><U>The Zone</U></B>
+<BR>Welcome to Haven, this is the safest area to hang around, it is well protected 
+<BR>by the city guards, if you decide to fight here watch out for them, 
+<BR>they believe in protecting the innocent.  There are several notice boards up around 
+<BR>town, at the top of Main street is the Quest Board, keeping players abreast of 
+<BR>all the quest happenings and what equipment may be won. 
+
+<P>East from here is the tavern, where the main social board may be read to keep in touch 
+<BR>with what is happening.  While in the Tavern personal mud-mail can be received from the 
+<BR>Postmaster there, with the 'receive' command.
+
+<P><B>Shops</B><BR>
+There are several shops and places to check out in Haven.
+<P>1.  The Donation Room - You would be amazed what people throw away.
+<BR>2.  The Armourer - You can buy some pretty good equipment here.
+<BR>3.  The Weaponsmith - He will sell you any weapon you want for the right price.
+<BR>4.  The General Store - In here you will find all sorts from food to lanterns.
+<BR>5.  The Alchemist - Now heres a shop! You can buy potions for all sorts of situations.
+<BR>6.  The Magic Shop - The Magician will sell you different scrolls and wands that will 
+<BR>help you on your travels.
+<BR>7.  The Jeweller - Woohoo, If you find some treasure go see him, he will pay you nicely for it.
+<BR>8.  The Guilds - This is where you should go to practice spells and skills, don't worry if you're<BR>
+ not the right class, you may train at any of them.
+<BR>9.  The Paladin's Temple - Here you can buy hitpoints and mana, even increase your stats 
+<BR>if you're rich enough.
+<BR>10.   The Tavern - Here you will get your mail, look at the board and after a tough fight it's 
+<BR>a good place to rest. (Heal twice as fast!)
+<P><B><U>Special Features</U></B><BR>
+There are a few special features in this town.<P>
+1.  Other Worlds - There are 2 other worlds to visit, if you look around you can find a link to them.
+<BR>2.  Vampires & Werewolves - Beware, they only appear on full moons and I wouldn't want<BR>
+ to attack one in case you get infected.
+<BR>3.  The Autoteller - You can safely deposit your money so you don't lose it.
+<BR>4.  The Casino - Where the rich get richer, and the poor have some hope.
+<BR>5.  Players - There will almost always be someone around to help should you need it.<BR>
+
+<P>
+For a detailed map of Haven click here - <a href="../map/havenmap.htm">Map</a>
+
+<P>
+<img src="../letters/separator.gif" width="400" height="18">
+
+</CENTER>
+</BODY>
+</HTML>
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

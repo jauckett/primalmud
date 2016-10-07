@@ -1,0 +1,5 @@
+gg get all.gold all.corpse
+wake wake ; stand
+9 c 'cure light'
+g get all corpse
+3 backstab $1

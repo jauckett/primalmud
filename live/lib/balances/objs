@@ -1,0 +1,7 @@
+LVL NAME (vnum)                               HIT MAN MOV TOHIT   TODAM(MAX) HR DR STR INT WIS CON DEX CHA   AC WEIGHT   COST
+-----------------------------------------------------------------------------------------------------------------------------
+  0 a concert Ticket                  (11601)   0   0   0     0            0  0  0   0   0   0   0   0   0    0      0 400000
+  0 &WThe &RJOKER&W Card lies here.   (26119)   0   0   0     0            0  0  0   0   0   0   0   0   0    0      2  10000
+ 92 an Armani Grey Suit               (26190)   0  40   0     0            0 11 12  -1   2   0   0   0   0    0      1 100000
+100 a Security Pass                   (11613)   0   0   0     0            0  0  0   0   0   0   0   0   0    0 2147483647      0
+105 the Sword of Satan.               (26199) 100 100   0    52  50d50(2500) 13 13   6   0   0   0   0   0 -100      1  10000

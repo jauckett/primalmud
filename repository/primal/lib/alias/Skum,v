@@ -1,0 +1,111 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cld cast 'cure light' druzil
+exec e;ass druzil
+kb kill bandit
+cw cast 'sanctuary' $1
+sanc cast 'sanctuary' 
+heal cast 'heal' $1
+he cast 'heal' 
+charm cast 'charm person' $1
+rest rest;hide;
+rcl rec recall
+fire cast 'fireball' $1
+call cast 'call lightning' $1
+' l at $1; con $1
+dd cast 'cure critic'
+res rescue $1
+gw get all.white backpack
+gr get all.red backpack
+gaccj get all.coins corpse;get corpse;junk corpse
+ag primal;cast 'color spray' guard;cast 'color spray' guard
+col cast 'color spray' $1
+hail goss hAiL rOsE cLuB
+gaacc get all.coins all.corpse
+gacc get all.coins corpse
+find cast 'loc obj' $1
+kk kick $1
+stab backstab $1
+dag get dagger backpack;rem stick;put stick backpack;wi dagger
+wake wake;stand;
+bh cast 'burning hands' $1
+gac get all corpse
+arm cast 'arm'
+inv cast 'invis'
+di cast 'detect invis'
+tr track $1
+spl cast 'arm';cast 'bless';cast 'invis';cast 'detect inv';cast 'infra';
+cc cast 'cure critic'
+bolt cast 'light bolt' $1
+attack primal;cast 'light bolt' $1
+gacac get all.coins all.corpse
+gaac get all all.corpse
+gb get $1 crate
+pb put $1 crate
+pab put all crate
+gab get all crate
+bp l in crate
+wat get skin crate;drink skin;put skin crate;
+sum cast 'summon' $1
+garm cast 'group armor' 
+ga get all;get all corpse
+gacj get all corpse;get corpse;junk corpse
+em eat meat
+eb eat bread
+rip emote rips off the head of $1 and spits down the neck.
+grats grats ----,----'----{@@ $* !!!! @@}----,----'----
+app emote steps out of the shadows.
+dis emote steps into the shadows and disappears.
+cu cast 'cure critic' $1
+high emote slams a thunderous high5 with $1
+jet emote is suddenly propelled forward into the wall by a jet of fire from his bum.
+far emote farts in $1 's face.
+wipes emote pulls his finger out of his bum and wipes it on $* .
+wipe emote pulls his finger out of his bum and wipes it on $1 .
+bang emote appears with an ear-splitting bang.
+fo get bread crate;eat bread;
+food cast 'cre f'
+blind cast 'blindness' $1
+bless cast 'bless' $1
+infra cast 'infra' $1
+cl cast 'cure light' $1
+ref cast 'refresh'
+kg kill guard
+dg cast 'dispel good' $1
+hd cast 'heal' druzil
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,11 @@
+cure cast 'cure light' exodus
+see cast 'infravision' exodus
+stren cast 'strength' Exodus
+lb cast 'lightning bolt' $1
+hands cast 'burning hands'$1
+` quitreally
+prot cast 'divine prott'
+he say heal
+sanc say sanc
+bless say bless
+arm say arm

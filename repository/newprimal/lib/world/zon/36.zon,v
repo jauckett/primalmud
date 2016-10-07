@@ -1,0 +1,235 @@
+head	1.7;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	2004.05.23.07.21.51;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.03.10.23.44.59;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.21.08.54.22;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.06.05.56.09;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.31.10.41.20;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.17.02.26.05;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.09.05.47.04;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Artus> Checking everything in again.
+@
+text
+@#36 1
+Sewers of Haven~
+3699 30 2 4
+O 0 3614 1 3641 	(a maintenance hatch)
+D 0 3641 2 2 	(At the grate)
+O 0 3606 1 3640 	(an old portal)
+O 0 3607 1 3640 	(Chest)
+P 1 3608 1 3607 	(a pile of gold coins)
+D 0 3640 1 2 	(An adjacent room)
+O 0 3601 2 3639 	(Limestone pillar)
+O 0 3602 1 3639 	(an old portal)
+M 0 3603 1 3639 	(the Portal serpent)
+E 1 3609 80 21 	(a pair of Sunnies)
+D 0 3639 3 2 	(The Ancient Ruins)
+O 0 3600 1 3600 	(the Sewer access)
+D 0 3600 5 2 	(Haven latrines)
+M 0 3601 1 3642 	(the BloB)
+E 1 3605 1 16 	(the BloB's blaster)
+D 0 3673 3 1 	(A narrow hole in the bank)
+M 0 3609 1 3673 	(the female platypus)
+G 1 3612 99 -1 	(an Emerald ring)
+D 0 3674 1 0 	(In the nest)
+O 0 3613 1 3674 	(a glowing ball)
+M 0 3611 10 3666 	(a flushed goldfish)
+M 0 3611 10 3670 	(a flushed goldfish)
+M 0 3611 10 3663 	(a flushed goldfish)
+M 0 3611 10 3662 	(a flushed goldfish)
+M 0 3610 1 3662 	(the Male platypus)
+M 0 3611 10 3660 	(a flushed goldfish)
+M 0 3611 10 3659 	(a flushed goldfish)
+M 0 3611 10 3665 	(a flushed goldfish)
+M 0 3611 10 3667 	(a flushed goldfish)
+M 0 3611 10 3672 	(a flushed goldfish)
+M 0 3611 10 3664 	(a flushed goldfish)
+M 0 3608 1 3649 	(a feral cat)
+M 0 3607 1 3646 	(a mutated turtle)
+M 0 3606 1 3644 	(the town drunk)
+E 1 3610 1 17 	(Six pack of beer)
+E 1 3611 1 10 	(a pair of Combat bracers)
+M 0 3605 16 3615 	(a small frog)
+M 0 3605 16 3613 	(a small frog)
+D 0 3632 4 1 	(In the sewer)
+M 0 3605 16 3632 	(a small frog)
+M 0 3605 16 3632 	(a small frog)
+M 0 3605 16 3626 	(a small frog)
+M 0 3605 16 3622 	(a small frog)
+M 0 3605 16 3607 	(a small frog)
+M 0 3605 16 3607 	(a small frog)
+M 0 3605 16 3610 	(a small frog)
+M 0 3605 16 3610 	(a small frog)
+D 0 3633 5 1 	(Limestone tunnel)
+O 0 3603 1 3627 	(tree root)
+O 0 3604 1 3627 	(a pile of... stuff)
+M 0 3600 6 3628 	(a sewer rat)
+M 0 3602 10 3628 	(a baby mutated rat)
+O 0 3601 2 3638 	(Limestone pillar)
+M 0 3600 6 3608 	(a sewer rat)
+M 0 3602 10 3608 	(a baby mutated rat)
+M 0 3600 6 3611 	(a sewer rat)
+M 0 3602 10 3611 	(a baby mutated rat)
+M 0 3600 6 3624 	(a sewer rat)
+M 0 3602 10 3624 	(a baby mutated rat)
+M 0 3602 10 3605 	(a baby mutated rat)
+M 0 3602 10 3605 	(a baby mutated rat)
+M 0 3602 10 3605 	(a baby mutated rat)
+M 0 3602 10 3614 	(a baby mutated rat)
+M 0 3602 10 3614 	(a baby mutated rat)
+M 0 3602 10 3614 	(a baby mutated rat)
+M 0 3600 6 3630 	(a sewer rat)
+M 0 3600 6 3630 	(a sewer rat)
+S
+$
+@
+
+
+1.6
+log
+@Artus> Sync. Zone 36.
+@
+text
+@d4 2
+a5 4
+O 0 3600 1 3600 	(the Sewer access)
+M 0 3601 1 3642 	(the BloB)
+E 1 3605 1 16 	(the BloB's blaster)
+O 0 3614 1 3641 	(the sewers refuse catcher)
+d9 1
+d14 5
+d36 1
+a36 1
+M 0 3607 1 3646 	(a lost child)
+d53 1
+a53 1
+O 0 3604 1 3627 	(pile of shit)
+@
+
+
+1.5
+log
+@Artus> Sync.
+@
+text
+@d4 1
+a7 1
+O 0 3600 1 3600 	(the Sewer access)
+@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@d3 5
+a7 1
+3699 30 2 8
+a10 1
+O 0 3600 1 3600 	(the Sewer access)
+d13 1
+a13 1
+M 0 3603 1 3639 	(The Portal serpent)
+a35 4
+D 0 3642 0 1 	(Sewage settling pond)
+M 0 3601 1 3642 	(the BloB)
+E 1 3605 1 16 	(the BloB's blaster)
+D 0 3641 2 1 	(Before the crap catcher)
+@
+
+
+1.3
+log
+@Artus> Moving this stuff across, too.
+@
+text
+@d3 9
+a11 1
+3699 30 2 67108868
+a16 4
+O 0 3606 1 3640 	(an old portal)
+O 0 3607 1 3640 	(Chest)
+P 0 3608 1 3607 	(a pile of gold coins)
+O 0 3600 1 3600 	(the Sewer access)
+a48 4
+O 0 3601 2 3639 	(Limestone pillar)
+O 0 3602 1 3639 	(an old portal)
+M 0 3603 1 3639 	(the Portal serpant)
+E 1 3609 1 21 	(a pair of Sunnies)
+@
+
+
+1.2
+log
+@Artus> Getting very close...
+@
+text
+@d4 8
+a23 2
+M 0 3609 1 3673 	(the female platypus)
+G 1 3612 1 -1 	(an Emerald ring)
+a48 3
+O 0 3606 1 3640 	(an old portal)
+O 0 3607 1 3640 	(Chest)
+P 1 3608 1 3607 	(a pile of gold coins)
+@
+
+
+1.1
+log
+@Artus> Start of 310 (The South Pole - Artus) and 36 (Sewers of Haven - Primr)
+@
+text
+@d4 17
+a20 3
+M 0 3608 1 3649 	(A feral cat)
+M 0 3607 1 3646 	(A lost child)
+M 0 3606 1 3644 	(The town drunk)
+d22 1
+a22 1
+E 1 3611 1 10 	(A pair of Combat bracers)
+a64 1
+O 0 3600 1 3600 	(the Sewer access)
+@
+

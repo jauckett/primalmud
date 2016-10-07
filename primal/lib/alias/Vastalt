@@ -1,0 +1,3 @@
+fs fill skin fountain; fill 2.skin fountain; drink fountain; drink fountain;
+gc get all all.corpse; get corpse; junk corpse;
+ds drink skin

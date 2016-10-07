@@ -1,0 +1,16 @@
+LVL NAME (vnum)                               HIT MAN MOV TOHIT   TODAM(MAX) HR DR STR INT WIS CON DEX CHA   AC WEIGHT   COST
+-----------------------------------------------------------------------------------------------------------------------------
+  0 a concert Ticket                  (11601)   0   0   0     0            0  0  0   0   0   0   0   0   0    0      0 400000
+  0 &WThe &RJOKER&W Card lies here.   (26119)   0   0   0     0            0  0  0   0   0   0   0   0   0    0      2  10000
+  0 Flaming skull right               (30868)   0   0   0     0            0  0  0   0   0   0   0   0   0    0   1000      0
+ 70 Flaming skull                     (30840)   0   0   0     0            0  0  0   0   0   0   0   0   0    0   1050      0
+ 70 Flaming skull left                (30867)   0   0   0     0            0  0  0   0   0   0   0   0   0    0   1050      0
+ 70 Wand of the Water                 (30884)   0   0   0     0            0  0  0   0   0   0   0   0   0    0   1003  30000
+ 75 Blue marble desk                  (30897)   0   0   0     0            0  0  0   0   0   0   0   0   0    0   1085      0
+ 80 Royal Teleporter                  (30873)   0   0   0     0            0  8  8   0   0   0   0   0   0    0   1003      0
+ 92 an Armani Grey Suit               (26190)   0  40   0     0            0 11 12  -1   2   0   0   0   0    0      1 100000
+ 95 Statue of the Death shadow GOD    (30877)   0   0   0     0            0  0  0   0   0   0   0   0   0    0   1105      0
+100 a Security Pass                   (11613)   0   0   0     0            0  0  0   0   0   0   0   0   0    0 2147483647      0
+100 the Kings Throne                  (30825)   0   0   0     0            0  0  0   0   0   0   0   0   0    0   1110      0
+100 Statue of the Death shadow GOD    (30864)   0   0   0     0            0  0  0   0   0   0   0   0   0    0   1110      0
+105 the Sword of Satan.               (26199) 100 100   0    52  50d50(2500) 13 13   6   0   0   0   0   0 -100      1  10000

@@ -1,0 +1,7 @@
+re recite recall
+bh buy 20 heal;put all.heal force
+cw get skin force;cast 'create water' skin;drink skin
+eat cast 'create food';eat mushroom
+inf cast 'infravision' $*
+qh get heal force;quaff heal
+qp get protection force;quaff prot

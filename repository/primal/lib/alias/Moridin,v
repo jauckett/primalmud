@@ -1,0 +1,47 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@sti ti &bthe &mtwisted, &rstrange &cand &yjust &wplain&f &Gboring
+sti2 ti is not&r &fheartless&f, &yhis heart is just held by&r &fSaphirrah
+pi poofin arrives with blades whirling ready to inflict death.
+po poofout sheathes his blades and leaves you to your fate.
+rc cast 'remove curse' $1
+mol tack $1;tick $1;nuz $1; nib $1; strok $1;goos $1;greet $1;kiss $1;smooch $1;fren $1;grop $1;emb $1;hug $1;danc $1;tang $1;lick $1
+pig at pig switch pig;holler WHEE! I can fly!;return;gos Hmmm, I guess pigs can fly
+sti3 ti guarantee's to bore you to sleep in 5 minutes - or your money back.
+r cast 'word of recall'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

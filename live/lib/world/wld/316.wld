@@ -1,0 +1,949 @@
+#31600
+Drive Room~
+On this isde of the Drive room is more computer terminals.  A food dispensing
+machine with a sign next to it.  There is a rather large desk with some strange
+looking itmes sitting on it.    
+~
+316 d 0 0
+D0
+~
+~
+0 0 31601
+D1
+~
+~
+0 0 31602
+S
+#31601
+Captain's Office.~
+You have entered the office that Captain Hollister uses to supervise the senior
+offices of the Drive room!  She has a very good view of the entire drive room.
+There is a desk and chair in the middle of the room and all along the walls are
+cabinets that have important paperwork in them.  In the corner of the room
+hanging off a coat stand is a very large yellow chicken suit!    
+~
+316 0 0 0
+D2
+~
+~
+0 0 31600
+S
+#31602
+Drive Room~
+This is the main drive room area.  Chris sits over on the right infront of some
+computer terminals.  Behind him is another chair that is vacant at the moment.
+There are computer screens all around the room and Hillie appears on every
+single on of them.  On the other side of the room is more terminals and right
+in teh middle of the room is a big round table that illuminates so they can
+read the star charts on it.    
+~
+316 0 0 0
+D2
+~
+~
+0 0 31603
+D3
+~
+~
+0 0 31600
+S
+#31603
+Corridor Leading to Drive Room~
+As you meander down the corridor you notice there isn't much happening around
+here. There is nobody running around and you find it suprisingly silent
+considering the ship is supposed to have over 169 people in it. The only
+thing that you could pay some attention to is all the white powder that is in
+small piles everywhere you look.
+~
+316 0 0 0
+D0
+~
+~
+0 0 31602
+D1
+~
+~
+0 0 31604
+D3
+~
+~
+0 0 31606
+S
+#31604
+Corridor Leading to Drive Room~
+As you meander down the corridor you notice there isn't much happening around
+here.  There is nobody running around and you find it suprisingly silent
+considering the ship is supposed to have over 169 people in it.  The only thing
+that you could pay some attention to is all the white powder that is in small
+piles everywhere you look.    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31605
+D2
+~
+~
+0 0 31608
+D3
+~
+~
+0 0 31603
+S
+#31605
+Corridor Leading to Drive Room~
+This corridor runs west to east and it leads you directly to the Drive room and
+Captain Hollister's office.  This corridor is painted in the same paint colour
+as all levels "Ocean Grey".    
+~
+316 0 0 0
+D3
+~
+~
+0 0 31604
+S
+#31606
+Corridor Leading to Drive Room~
+As you meander down the corridor you notice there isn't much happening around
+here.  There is nobody running around and you find it suprisingly silent
+considering the ship is supposed to have over 169 people in it.    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31603
+D2
+~
+~
+0 0 31617
+D3
+~
+~
+0 0 31607
+S
+#31607
+End of the Corridor~
+You have reached the end of the corridor and there is a control panel on the
+wall infront of you but it is in real bad shape!  It looks like something blew
+it apart!  Half the wall has been blown away and there is a big gapping whole
+left behind.    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31606
+S
+#31608
+Corridor down to the Reflectory~
+Ther corridor leads south down to the Reflectory where the Captain holds his
+meetings, funerals and weddings.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31604
+D2
+~
+~
+0 0 31609
+S
+#31609
+Corridor to the Reflectory~
+This corridor is the same as all other corridors!  It has a control panel and
+signs hanging off the walls.  There are air vents at regular intervals, and
+lights all in the roof.  The walls are all painted in Ocean Grey and the floor
+is of a black and white patterned lino.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31608
+D1
+~
+~
+0 0 31618
+D2
+~
+~
+0 0 31610
+S
+#31610
+Corridor Leading to the Reflectory~
+This corridor is teh same as all the others corridors!  It has a control panel
+and signs hanging off the walls.  There are air vents at regular intervals and
+lights hanging off the roof.  The walls are all painted in Ocean Grey and the
+floor is of a black and white patterned lino.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31609
+D2
+~
+~
+0 0 31611
+S
+#31611
+A Junction of Corridors~
+The corridor leading to the Reflectory terminates here and the corridor to the
+officers mess starts here The difference between the two corridors is very
+slight.  They are both as boring and drab as one another and they are both the
+same shade of paint.  If it wasn't for the signs on the wall you may think you
+were in the same corridor just with a bend in it!    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31610
+D3
+~
+~
+0 0 31612
+S
+#31612
+Corridor Leading to Officer's Mess~
+This corridor is the same as all the others.  It bends around and will soon
+continue in a northerly direction.  The paint colour is Ocean Grey and there
+are still no people around except the small piles of white powder that crunches
+underfoot!    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31611
+D3
+~
+~
+0 0 31613
+S
+#31613
+Corridor Leading to the Officer's Mess~
+This corridor is the same as all the others.  It bends around and will soon
+continue in a norhterly direction.  The paint colour is Ocean Grey and there
+are still no people around except the small piles of white powder that crunch
+underfoot!    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31612
+D2
+~
+~
+0 0 31619
+D3
+~
+~
+0 0 31614
+S
+#31614
+Joining of two corridors!~
+This was the corridor leading to the officers mess but it has changed direction
+here and you soon will be on the corridor leading to the Drive room.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31615
+D1
+~
+~
+0 0 31613
+S
+#31615
+Corridor Leading to Drive Room~
+This corridor leads you directly to the Drive room.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31616
+D2
+~
+~
+0 0 31614
+S
+#31616
+Corridor Leading to Drive Room~
+This corridor leads you to the Drive Room the main room of the ship.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31617
+D2
+~
+~
+0 0 31615
+S
+#31617
+Corridor Leading to Drive Room~
+This corridor leads you directly to the drive room.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31606
+D2
+~
+~
+0 0 31616
+S
+#31618
+Reflectory Room~
+This is a small room where the Captain holds small meetings with the senior
+officers.  This room is also used for the wakes and the Welcome back Parties.
+Sometimes the Captain has to perform Weddings in this room as well.  There are
+tables and chairs all in neat rows.  There is a huge LCD Panel mounted on teh
+wall for Hillie to appear on.  The walls are all painted in a bright pink
+colour and have pictures hanging all over them.    
+~
+316 0 0 0
+D3
+~
+~
+0 0 31609
+S
+#31619
+Officers Mess~
+This is a very large room that has a bar in one corner and a large dance floor
+in the middle.  The majority of the staff are allowed into this room even
+though it is classified as the Officer's Mess.  They have a disco in this room
+every Friday and Saturday night.  You can find tables and chairs over to one
+side and disco lights and a disco ball hanging from the ceilinig.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31613
+S
+#31620
+Inside the monitor~
+As you jump through the monitor showing the odd image of a sitcom you end up
+landing IN the sitcom itself!  There is a wall of glass near you that you could
+possibly shatter to get out.  The two androids that you could see before are
+directly infront of you absolutely dumbfounded at your sudden appearance!  So
+stunned they are they have forgotten to continue with their lines!    
+~
+316 0 0 0
+S
+T 31600
+#31621
+A Flight Deck~
+You are hurled out of the sitcom because you shattered the glass and created a
+rather sudden vortex and find yourself in a room that looks strangely like a
+Flight Deck or another Drive room on another ship!  This Flight Deck has been
+disused for many many years and has cobwebs and dust everywhere.    
+~
+316 0 0 0
+D2
+~
+~
+0 0 31622
+S
+#31622
+Corridor Leading to Flight Deck~
+You are standing in a corridor that runs south and has pretty plants absolutely
+everywhere.  They hang from the ceiling in pots, they are on stands and some
+sit on the floor!    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31621
+D1
+~
+kitchen~
+1 0 31625
+D2
+~
+~
+0 0 31623
+D3
+~
+midget~
+1 0 31626
+S
+#31623
+Dinning Quarters!~
+As you walk out of the corridor you find yourself at the beginning of the
+Officer's dinning quarters!  There are plants everywhere, mind your head!  To
+the east there is a long table that has been set for the officers of the ship!
+~
+316 0 0 0
+D0
+~
+~
+0 0 31622
+D1
+~
+~
+0 0 31624
+S
+#31624
+Dinning Quarters!~
+Directly infront of you is a long table that has 8 chairs around it.  There is
+a table cloth on the table and the on that table cloth there is a setting for 8
+people.  In the middle is a candel holder and the condiments one would expect
+to see!    
+~
+316 0 0 0
+D3
+~
+~
+0 0 31623
+S
+#31625
+The Kitchen~
+You are standing in the middle of the Officer's Kitchen!  It is a big long room
+that has ample space for 15 chefs to work comfortably in!  But as you look
+around you notice it is empty ..  There are no chefs or cooks running around
+trying to get the normal dinner for the officers ready!  There is only one
+lonely mechanoid standing in this room trying to get a tray of tea ready for
+the last 3 surviving officers!    
+~
+316 0 0 0
+D3
+~
+kitchen~
+1 0 31622
+S
+#31626
+Blue Midget!~
+You have caught the Blue Midget back to the Red Dwarf!  This is a small
+spacecraft that has room for 3 people in the cockpit and that is about it!  
+There are storage rooms down below but they are full of junk!    
+~
+316 cdf 0 0
+S
+T 31603
+#31627
+In the shower room~
+You move through the stasis leak and find yourself right in the middle of the
+shower room!    
+~
+316 0 0 0
+D2
+~
+~
+0 0 31628
+S
+#31628
+The Gent's Bathroom!~
+As you move out of the shower you find yourself in the middle of the bathroom
+for the non-senior works of the ship!  There are basins along one wall with
+mirrors above them!  Behind you is the shower cubicles which are curtained off
+from this area.  There is a clock on the wall above the mirrors and it
+indicates the dates is March 2077.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31627
+D3
+~
+~
+0 0 31629
+S
+#31629
+Foyer to the Bathroom~
+You are standing in the foyer leading to the bathroom
+that the crew of the Red Dwarf use.
+~
+316 0 0 0
+D1
+~
+~
+0 0 31628
+D2
+~
+bathroom~
+1 0 31630
+S
+#31630
+Cargo Area~
+You are in the Cargo area of Red Dwarf.  This is where people come to leave
+their luggage or collect it once it has been unloaded from one of the Starbugs.
+Planet leave is the only holiday away from the ship the crew can take.  This is
+a busy area as all cargo must go through here before it is sent out to the
+different levels.    
+~
+316 0 0 0
+D0
+~
+bathroom~
+1 0 31629
+D1
+~
+elevator~
+1 0 31632
+D3
+~
+~
+0 0 31631
+E
+sign~
+**************************************
+*                                    *
+*    Fancy Dress Party!              *
+*                                    *
+*                                    *
+**************************************
+~
+S
+#31631
+Cargo Area~
+There are people milling around as they wait for the luggage to be unloaded
+from Starbug as they have just returned from planet leave.    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31630
+S
+#31632
+Xpress Lift~
+You are inside the Xpress lift that is the Officers elevator to their personal,
+private, personal quarters.  This lift is the super deluxe version that travels
+faster than the main lift in the ship.    
+~
+316 0 0 0
+D1
+~
+lift~
+1 0 31633
+D3
+~
+elevator~
+1 0 31630
+S
+#31633
+Corridor to the Officers Block~
+This corridor leads you through the Officer's block.  This is the level where
+you can find their living quarters.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31634
+D3
+~
+lift~
+1 0 31632
+S
+#31634
+Corridor through the Officer's Block~
+This corridor leads you through the Officer's block.  This is where the
+Officer's spend their off time relaxing, sleeping or just reading.    
+~
+316 0 0 0
+D2
+~
+~
+0 0 31633
+D3
+~
+chrissy~
+1 0 31635
+S
+#31635
+Christine Kochanski's Quarters.~
+In Kochanski's quarters you find it clean and rather peaceful, Chrissy and her
+bunk mate seem to have a relaxed attitude towards life in a huge spacecraft
+like the Red Dwarf.    
+~
+316 0 0 0
+D1
+~
+chrissy~
+1 0 31634
+S
+#31636
+Reception Desk of Ganymede Holiday Inn~
+This is a big big room!  There are lots of people all around you There is a
+android receptionist in front of you willing to help and let you know where you
+precisious Chrissy is!    
+~
+316 0 0 0
+D1
+~
+red~
+1 0 31635
+D3
+~
+~
+0 0 31637
+S
+#31637
+The Lobby of Ganymede Holiday Inn~
+You are standing in the lobby of the Ganymede!  You have to find Room 008 to
+find Christine and hopefully find that Lister HAS married her!  There are
+people sitting around reading newspapers and a poor woman that was assulted by
+the Cat looking rather wet and miserable!    
+~
+316 0 0 0
+D0
+~
+lift~
+1 0 31638
+D1
+~
+~
+0 0 31636
+S
+#31638
+Up the Lift and into a corridor!~
+As you go in the lift it takes you up to the floor that Christine has her
+honeymoon suite in!  This is a very short corridor and you can see her door
+from here!  There is two pairs of shoes sitting outside and a tray of discarded
+food sitting opposite them!  On the door knob is a flag saying "Do Not Disturb!
+~
+316 0 0 0
+D0
+~
+room~
+1 0 31639
+D2
+~
+lift~
+1 0 31637
+S
+#31639
+Room 008~
+As you open the door and enter into the room you can see Christine standing in
+a robe near the small table.  There is noise coming from a door to your right
+and as you enter it starts to open!  Out steps Lister but this Lister is poggy
+and has a small goatie and longer dreadies!    
+~
+316 0 0 0
+D1
+~
+red~
+1 0 31640
+D2
+~
+room~
+1 0 31638
+S
+#31640
+Bunk Room of Dave and RIMmer~
+As you gaze around the room you notice a window near the door, hanging just
+next to the window is a space helmet and just right of the window is the bunk
+beds.  Lister sleeps in the top one and it has posters plasted all over the
+walls.  The bottom bunk is used by RIMmer and he has his usual revision
+schedule for another exam stuck to one wall and a !Smoking sign just above his
+pillow!  There is a couch sitting against one wall and in the middle of the
+room is a table and chair.  On the other side of the door is two lockers where
+Dave and RIMmer can hang their clothing.  The only clothing RIMmer hangs in
+there is his jocks on coathangers!    
+~
+316 0 0 0
+D3
+~
+sliding~
+1 0 31526
+S
+T 31607
+#31641
+On the beach~
+You have entered the virtual reality game called Better than Life!  Since you
+put the helmet on the game has thrown you into a beach sceen
+~
+316 0 0 0
+D1
+~
+~
+0 0 31642
+D2
+~
+~
+0 0 31643
+S
+T 31609
+#31642
+In the shallows of the ocean~
+You have walked into the ocean the water laps at your feet.  It feels cool and
+refreshing!  There is just miles and miles of ocean infront of you and one
+solitry figure standing here looking out into the beautiful blue sea!    
+~
+316 0 0 0
+D3
+~
+~
+0 0 31641
+S
+#31643
+In the sand~
+You have walked further away down the beach and meander up onto the sand!  
+There are two vehicles resting here!  One is a Harley Davidson the other a E
+type Jag!  Both are in immaculate condition and just waiting to be ridden or
+driven!    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31641
+S
+#31644
+In a Restuarant~
+You have ridden the Harely to the restaurant because you were hungry?  This is
+a very popular restuarant and there are lots of people sitting around tables
+eating their all time favourite meals!  Caviar Vindaloo is what Lister order
+and a very expensive bottle of wine served in a pot of course!  The cat he just
+wanted a fish bowl full of fish!    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31654
+D1
+~
+~
+0 0 31646
+S
+#31645
+In the Dining area of the Officers~
+You have walked down the stairs to a resonably large area where a long timber
+table is standing.  This table has the ability to seat 10 people very
+comfortably and is mainly used for the high ranking Officers that play the
+game!  The head of the table is reserved for Admiral Rimmer.  Behind him is a
+bust of Nepolean and pictures of his historic campaigns.    
+~
+316 0 0 0
+D3
+~
+~
+0 0 31644
+S
+T 31614
+#31646
+In the Dining Area of the Officers~
+You have walked down the stairs to a resonably large area where a long timber
+table is standing.  This table has the ability to seat 10 people very
+comfortably and is mainly used for the high ranking Officers that play the
+game!  The head of the table is reserved for Admiral Rimmer.  Behind him is a
+bust of Nepolean and pictures of his historic campaigns.    
+~
+316 0 0 0
+D0
+~
+golf~
+1 0 31647
+D2
+~
+~
+0 0 31656
+D3
+~
+~
+0 0 31644
+S
+#31647
+Golf Course~
+You find yourself on a golf course!  Lister and the Cat are playing golf....  
+Naturally!  As they move along the golf course they pass a bed which is empty!
+Yes a bed in the middle of the golf course, I think it is some bizarre fantasy
+of the cats!  Moving further along there is a lake to your east and out of it
+comes the Cats other girlfriend....  There is a wall to the west that they are
+heading towards!  Behind the wall a car pulls up and out come a lot of people
+from this very small family car!    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31653
+D3
+~
+~
+0 0 31648
+S
+#31648
+Next to a stone wall~
+You are standing near a stone wall that is about chest height!  There is a car
+parked on the other side of it and there are several children and a women that
+looks like she is in her last month of pregnancy!    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31647
+S
+#31649
+By the Lake~
+You can see the Cats girlfriend walking out of the lake as you move closer!  
+She is a mermaid...  But she doesn't look right!    
+~
+316 0 0 0
+D3
+~
+~
+0 0 31653
+S
+#31650
+Level Nivelo - Corridor 160~
+In this section of the corridor there is a slight variance on the colour, is it
+Ocean Grey or Militry Grey?  One really can't tell as they both look very much
+alike!  But someone has definately been painting in this section of the
+corridor!    
+~
+316 0 0 0
+D1
+~
+sliding~
+1 0 31651
+S
+#31651
+Bunk Room of Dave and RIMmer~
+As you gaze around the room you notice a window near the door, hanging just
+next to the window is a space helmet and just right of the window is the bunk
+beds.  Lister sleeps in the top one and it has posters plasted all over the
+walls.  The bottom bunk is used by RIMmer and he has his usual revision
+schedule for another exam stuck to one wall and a !Smoking sign just above his
+pillow!  There is a couch sitting against one wall and in the middle of the
+room is a table and chair.  On the other side of the door is two lockers where
+Dave and RIMmer can hang their clothing.  The only clothing RIMmer hangs in
+there is his jocks on coathangers!    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31652
+D3
+~
+sliding~
+1 0 31526
+S
+#31652
+Bunk Room of Dave and RIMmer~
+In this section of their room is a HUGE LCD panel hanging off the wall, this is
+where Holly appears when he wants to talk to the boys!  Under that panel (which
+doubles as a mirror) is the sink and the toilet is tucked away behind it!  
+Around the corner from that is the area they can use to study it has a desk
+that is attached to the wall and a little shelf above that.  On the shelf is a
+fish tank where Dave's two fish, Lennon and McCartney, swim about!    
+~
+316 0 0 0
+D3
+~
+~
+0 0 31651
+S
+#31653
+Golf Course~
+You have made it the end of the fairway and infront of you is the whole for the
+1 course!  There is a flag sticking out of the ground and next to the flag is a
+golf club and a golf ball.    
+~
+316 0 0 0
+D1
+~
+~
+0 0 31649
+D2
+~
+~
+0 0 31647
+S
+#31654
+Foyer of Restaurant~
+You are standing in the foyer that leads into the main part of the restaurant.
+The game host is standing here waiting to direct the players to their seats!  
+He is also the main waiter for the restuarant so he is a terribly busy man!  
+~
+316 0 0 0
+D0
+~
+~
+0 0 31655
+D2
+~
+~
+0 0 31644
+S
+#31655
+Entrance to the Restuarant!~
+You stand at the front doors of the restuarant!  Magically the motor bike has
+taken you for a spin down the beach to land you right at the front door!  What
+a wonderful game it is they play that leads them to where they want to be
+within a blink of the eye!    
+~
+316 0 0 0
+D2
+~
+restaurant~
+1 0 31654
+S
+#31656
+In the Dining Area of the Officers~
+You have walked down the stairs to a resonably large area where a long timber
+table is standing.  This table has the ability to seat 10 people very
+comfortably and is mainly used for the high ranking Officers that play the
+game!  The head of the table is reserved for Admiral Rimmer.  Behind him is a
+bust of Nepolean and pictures of his historic campaigns.    
+~
+316 0 0 0
+D0
+~
+~
+0 0 31646
+S
+#31657
+31657~
+You are in an unfinished room.
+~
+316 0 0 0
+S
+#31658
+31658~
+You are in an unfinished room.
+~
+316 0 0 0
+S
+#31659
+31659~
+You are in an unfinished room.
+~
+316 0 0 0
+S
+#31660
+31660~
+You are in an unfinished room.
+~
+316 0 0 0
+S
+#31661
+31661~
+You are in an unfinished room.
+~
+316 0 0 0
+S
+#31662
+31662~
+You are in an unfinished room.
+~
+316 0 0 0
+S
+$~

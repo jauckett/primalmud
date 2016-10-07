@@ -1,0 +1,360 @@
+7
+sumguys
+12
+summon takeo
+0
+7
+refresh
+17
+cast 'refresh' $1
+1
+1
+1
+12
+get heal for
+0
+2
+ne
+3
+ahe
+0
+2
+nw
+4
+body
+0
+7
+protect
+229
+cast 'sanctuary' $*; cast 'group sanct'; cast 'group sanct'; cast 'group armor'; cast 'group armor'; cast 'spirit armor' $*; cast 'spirit armor' $*; cast 'armor' $*; cast 'armor' $*; cast 'bless' $*; cast 'bless' $*; cast 'infrav
+1
+4
+qahe
+74
+cast 'advanced heal' $*; cast 'advanced heal' $*; cast 'advanced heal' $*;
+1
+7
+recover
+225
+rem barb; cast 'advanced heal' $*; cast 'advanced heal' $*; cast 'advanced heal' $*; cast 'sanctuary' $*; cast 'sanctuary' $*; cast 'bless' $*; cast 'bless' $*; cast 'bless' $*; cast 'arm' $*; cast 'arm' $*; cast 'strength' $
+1
+5
+sanct
+56
+rem barb; cast 'sanctuary'; cast 'sanctuary'; wield barb
+1
+3
+ahe
+23
+cast 'advanced heal' $*
+1
+4
+bpfj
+67
+n;n;w;w;w;s;go stage;e;e;e;e;u;buy $1 pro;d;e;go med;put all.pro $2
+1
+4
+bhfj
+67
+n;n;w;w;w;s;go stage;e;e;e;e;u;buy $1 10;d;e;go med;put all.heal $2
+1
+12
+buyfromjimmy
+68
+n;n;w;w;w;s;go stage;e;e;e;e;u;buy $*;d;e;go med;put all.heal force;
+1
+8
+gototree
+50
+s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w;w;
+1
+1
+9
+26
+get prot force; quaff prot
+1
+1
+0
+24
+get heal for; quaff heal
+1
+1
+2
+26
+get prot back; quaff prot;
+1
+2
+aw
+23
+cast 'attend wounds' $*
+1
+6
+drinkw
+74
+get can back; cast 'create water' can; drink can; drink can; put can back;
+1
+2
+fa
+16
+cast 'first aid'
+0
+8
+gotograv
+47
+s;e;e;e;e; open gate; e;e;e;e;e;s;s;s;s;s;s;s;s
+1
+7
+createf
+22
+cast 'create food' $*;
+1
+7
+createw
+23
+cast 'create water' $*;
+1
+10
+protection
+146
+cast 'bless' $*; cast 'bless' $*; cast 'bless' $*; cast 'sanct' $*; cast 'spirit armor' $*; cast 'arm' $*; cast 'holy aid' $*; cast 'holy aid' $*;
+1
+7
+makefly
+13
+cast 'fly' $*
+1
+2
+rc
+22
+cast 'remove curse' $*
+1
+3
+pfe
+27
+cast 'protection from evil'
+0
+2
+ha
+18
+cast 'holy aid' $*
+1
+5
+ident
+18
+cast 'identify' $*
+1
+6
+locate
+23
+cast 'locate object' $*
+1
+9
+makesleep
+15
+cast 'sleep' $*
+1
+2
+sl
+17
+cast 'sense life'
+0
+2
+sa
+22
+cast 'spirit armor' $*
+1
+14
+throughcamelot
+57
+s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;e;e;e;e;e;n;n;n;e;e;e
+1
+2
+cw
+25
+cast 'control weather' $1
+1
+8
+godarask
+45
+s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w
+1
+6
+summon
+16
+cast 'summon' $*
+1
+2
+cs
+22
+cast 'sense wounds' $*
+1
+2
+cr
+13
+cast 'recall'
+0
+8
+strength
+18
+cast 'strength' $*
+1
+2
+rr
+30
+get recall back; recite recall
+1
+2
+dg
+21
+cast 'dispel good' $*
+1
+2
+de
+21
+cast 'dispel evil' $*
+1
+3
+gac
+14
+get all corpse
+0
+2
+sw
+23
+cast 'sense wounds' $*;
+1
+2
+he
+14
+cast 'heal' $*
+1
+3
+ref
+17
+cast 'refresh' $*
+1
+2
+cb
+15
+cast 'blind' $*
+1
+2
+dm
+22
+cast 'detect magic' $*
+1
+2
+di
+22
+cast 'detect invis' $*
+1
+2
+da
+22
+cast 'detect align' $*
+1
+2
+dp
+23
+cast 'detect poison' $*
+1
+6
+bailme
+10
+flee; flee
+1
+3
+ccg
+30
+cast 'cure critical' $*; group
+1
+6
+wakeup
+48
+wake;yawn;stretch;dance;say ahh nice sleep;smile
+1
+5
+thank
+23
+tell $1 :) thanks $1 :)
+1
+5
+infra
+21
+cast 'infravision' $*
+1
+1
+4
+25
+get pink back; quaff pink
+1
+13
+throughobleit
+30
+n;w;open door;w;e;open path; w
+1
+3
+arm
+15
+cast 'armor' $*
+1
+5
+bless
+15
+cast 'bless' $*
+1
+4
+heal
+15
+say heal please
+0
+6
+spells
+17
+say spells please
+0
+15
+throughsandmaze
+27
+e;s;e;s;e;s;e;e;n;n;n;w;s;n
+1
+2
+cc
+23
+cast 'cure critical' $*
+1
+1
+3
+25
+get blue back; quaff blue
+1
+6
+alcget
+52
+s;e;e;e;n;buy $1 $2;put all.$2 back;recall; exa back
+1
+4
+food
+35
+cast 'creat food'; put all.mus back
+1
+7
+gotogen
+7
+s;s;e;s
+1
+7
+gototav
+7
+n;n;e;s
+1
+8
+gotolaby
+23
+n;n;w;w;w;n;e;e;s;s;u;n
+1
+2
+cl
+20
+cast 'cure light' $*
+1

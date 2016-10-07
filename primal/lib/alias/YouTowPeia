@@ -1,0 +1,9 @@
+ad cast 'cure light' self
+uu sleep
+yy wake ; stand 
+qa quaff white
+ss save
+id rec identify $*
+ba backstab $*
+di cast 'detect invis' self
+r read $*

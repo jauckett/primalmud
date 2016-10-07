@@ -1,0 +1,96 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.04.11.15.03.15;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#6900
+Myrddraal eyeless halfmen shadowmen lurks fades~
+the Myrddraal, commanders of the Trollocs~
+A Myrddraal stands staring eyelessly here.
+~
+The Myrddraal stares at you, running a shiver down your spine as you realise
+that a smooth surface replaced where should have been the eye sockets. They are
+twisted offspring of Trollocs in which the human stock used to create trollocs
+has resurfaced. Physically they are like men except they bear no eyes, but can
+see like eagles in light or dark. They have certain powers of the Dark One
+including the ability to cause paralyzing fear with a look and the ability to
+vanish wherever there are shadows.
+~
+540712 536871938 -1000 E
+50 12 10 1d1+0 1d1+8
+35000 0
+8 8 0
+E
+#6925
+greenman~
+the Greenman~
+A huge pile of foliage sits on the hill here.
+~
+At a standing position, the Greenman stands 3 times taller than an average
+human. The whole content of his body is made of foliage and twigs, he looks
+at you with huge hazelnut eyes. The Greenman is gentle to and by nature.
+~
+8 0 0 E
+45 10 10 1d1+2500 1d1+10
+96925 0
+8 8 0
+E
+$
+@
+
+
+1.1
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d3 1
+a3 1
+The Myrddraal, commanders of the Trollocs~
+d21 1
+a21 1
+The Greenman~
+d29 2
+a30 2
+45 10 10 1d1+0 1d1+10
+0 0
+@
+

@@ -1,0 +1,80 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@bsn backstab $1
+heal cast 'heal'
+drag cast 'dragon'
+id get identify backpack;rec identify $1
+qred get red backpack;q red
+bss rem sword;wield soaker;backstab $1;rem soaker;wield sword
+gcc get coins corpse
+camelot  e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;e;e;e;e;e;n;n;n;e;e;s;e;e;n;n;n;e;e;e
+arm c 'armor'
+intersection s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+gnet put cloak backpack;get all.vashnaka backpack;wear all.vashnaka
+op rem all.bracelet;wear opal;wear might
+cj get corpse;junk corpse
+fb cast 'fireball' $1
+sanc cast 'sanctuary'
+cw cast 'create water' $1
+home get slippers backpack;rem boots;wear slippers;rem slippers;wear boots;put slippers backpack</font>
+dinv cast 'detect invisibility'
+gac get all corpse
+cl cast 'cure light'
+wake wake;stand
+bak put $1 backpack
+gb get $1 backpack
+test score;wear $1;score;rem $1
+cc cast 'cure critic'
+grat grats ---===<<<((( $1!!! )))>>>===---
+recall cast 'word of recall'
+qwite get white backpack;q white
+map get atlas backpack;exa atlas;put atlas backpack
+infra cast 'infravision'
+cf cast 'create food'
+cs cast 'colorspray' $1
+start wear all;grab sticks;wield sword;put map backpack;put atlas backpack;put sombrero backpack
+bs rem sword;wield knife;backstab $1;rem knife;wield sword
+outds rem sombrero;get tiara backpack;wear tiara;put sombrero backpack
+desert rem tiara;get sombrero backpack;wear sombrero;put tiara backpack
+va rem all.bracelet;wear all.vashnaka
+werith w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n
+good get bastard backpack;rem sword;wield bastard;put sword backpack;get cloak backpack;wear cloak;wear might;put all.vashnaka
+evil rem hat;get helm backpack;wear helm;put hat backpack;wear might;put all.vashnaka backpack
+enet put helm backpack;get all.vashnaka backpack;wear all.vashnaka;get hat backpack;wear hat
+bl cast 'bless'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

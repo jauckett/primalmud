@@ -1,0 +1,225 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@gh get all.corpse
+3 kick guard
+0 cast 'call' guard
+a backstab guard
+z cast 'shocking grasp' zombie
+cm eat meat
+w90 say OK!!!  Lets go!!
+w89 emo Coughs loudly and smiles
+w87 emo says hang on a SEC !!
+oc open crate
+sbb sell beret
+sbbp sell plate
+gmrc get mushroom crate
+pmrc put mushroom crate
+gmc get meat crate
+pmc put meat crate
+mmcc cast 'magic missile' citizen
+lcc cast 'call' citizen
+bbc backstab citizen
+ff kill guard
+oo cast 'call' guard
+5 look
+6 e
+4 w
+2 s
+8 n
+xx cast 'cure light' porcelina
+zz cast 'cure light' tarnac
+v cast 'cure light' tornac
+op kick nohcin
+no cast 'bless' nohcin
+k kick nohcin
+kick kic
+cc cast 'call' cat
+bbwar backstab warrior
+kiss kiss receptionist
+m1 emot greves for his SHANARRA, Thay will PAY!!!!
+lc cast 'call' worker
+lw cast 'call' worg
+frog cast 'call' frog
+w111 tell grimreaper hello...can you help me ?
+w00 emot cleans his 12 GUAGE shell, he misses the days in tha HOOD!!!
+w99 emot is talking to the ghost of Shanarra
+w88 emot sucks lemon and TEQUILA !!!!
+w77 emot is a prig
+w66 emot is drinking a BUD and enjoying it!
+w55 emot is poping his gum Loudly!!!
+w44 emot smokes a PHAT Cigar
+w33 say How are you today??
+w22 emot is happy to see you
+e11 emot is LOVED by all women!
+w0 emot is one HOTT BABE!!!
+w9 emot spits at you!
+w8 emot picks his nose and eats it
+w7 emot WHOOPS BUTT!!!
+w5 emot grinns and shakes his head in glee.
+w6 emot is tha BEST!!!
+w4 emot is COOL!!!!
+w3 emot is BADD!!!!
+w2 emot IS A MAC!!!
+w1 emot IS A PIMP!!
+ks kill sterge
+bbg backstab goblin
+bbsk backstab skeleton
+bbu backstab undead
+bbgi backstab giant
+lg cast 'call' goblin
+lorc cast 'call' orc
+ldog cast 'call' dog
+lgi cast 'call' giant
+lu cast 'call' undead
+lgh cast 'call' ghast
+log cast 'call' ogre
+lsk cast 'call' skeleton
+lt cast 'call' trickster
+lm cast 'call' merchant
+sgst cast 'shocking grasp' sterge
+dst kick sterge
+dgi kick giant
+ds kick spider
+dsk kick skeleton
+du kick undead
+dgh kick ghast
+ddog kick dog
+dorc kick orc
+dd kick drunk
+db kick beggar
+dog kick ogre
+dg kick goblin
+dt kick trickster
+dm kick merchant
+sgsp cast 'shocking grasp' spider
+sgog cast 'shocking grasp' ogre
+sggi cast 'shocking grasp' giant
+sgsk cast 'shocking grasp' skeleton
+sggh cast 'shocking grasp' ghast
+sgu cast 'shocking grasp' undead
+sgorc cast 'shocking grasp' orc
+sgt cast 'shocking grasp' trickster
+sgdog cast 'shocking grasp' dog
+sgw cast 'shocking grasp' worker
+sgm cast 'shocking grasp' merchant
+mmj cast 'magic missile' janitor
+mmst cast 'magic missile' sterge
+mmsp cast 'magic missile' spider
+mmog cast 'magic missile' ogre
+mmgi cast 'magic missile' giant
+mmsk cast 'magic missile' skeleton
+mmu cast 'magic missile' undead
+mmorc cast 'magic missile' orc
+mmgh cast 'magic missile' ghast
+mmdog cast 'magic missile' dog
+mmgob cast 'magic missile' goblin
+sbull cast 'strength' bull
+ibull cast 'infravision' bull
+bbull cast 'bless' bull
+sjj cast 'strength' jimmyjam
+ijj cast 'infravision' jimmyjam
+bbog backstab ogre
+gbb get bread bag
+pbb put bread bag
+bbt backstab trickster
+bbo backstab orc
+bbd backstab drunk
+dtt get all corpse
+rk drink skin
+bbw backstab worker
+bbm backstab merchant
+bbj backstab janitor
+bm buy meat
+bb buy bread
+cb eat bread
+pmb put meat bag
+gmb get meat bag
+clw cast 'cure light'
+clwjj cast 'cure light'jimmyjam
+cbjj cast 'cure blind' jimmyjam
+bjj cast 'bless' jimmyjam
+pray cast 'bless' self
+mmm cast 'magic missile' merchant
+mmt cast 'magic missile' trickster
+bbgh backstab ghast
+mmw cast 'magic missile' worker
+i cast 'infravision' self
+gw get white
+gr get red
+ppb put potion bag
+gwb get white bag
+grb get red bag
+qr quaff red
+qw quaff white
+kw kill worker
+clwbull cast 'cure light' bull
+mmr cast 'magic missile' rat
+libp look in backpack
+psbp put skin backpack
+gsbp get skin backpack
+lb practice lighting bolt
+pss practice shocking grasp
+pse practice strength
+bg cast 'bless'grimreaper
+clwg cast 'cure light' grimreaper
+mmtro cast 'magic missile' troll
+slap1 emot SLAPPS YOU LIKE A RED HEADED STEP CHILD!!!!!!!!!
+e5 emot is talking to Scullee's ghost, she walks with him listning closely
+e6 emot is talking to the ghost of the Beloved Shanarra
+p put bread bag
+w123 emot GIVES YOU A COMMAND!!!        'YOU GIVE HIM ALL YOUR MONEY!'
+last emot IS TH LAST ACTION HERO !!!
+cow shout COWABUNGA!!!!
+quick remove sword;wield dagger
+fast remove dagger; wield sword
+ll cast 'call' guard
+dw kick worker
+eee cast 'cure light' ebolaz
+qqq sell boots
+cs cast 'cure light' scorfio
+f kick frog
+bv kick brigand
+ssw sell sword
+sv sell vest
+pvc put vest crate
+psc put long crate
+g get all corpse
+q get sword crate
+o kick rat
+qq get vest crate
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,46 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@9 get all all.corpse
+8 get all.gold all.corpse
+7 exa corpse
+wake wake;stand
+sl sleep
+1 cast 'cure light' $*
+kk alias k kill $*;kill $*
+k kill  goblin
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,163 @@
+#6600
+a gaping hole~
+a gaping hole~
+A gaping hole has been smashed into the stone wall.~
+Someone or something has smashed a gaping hole in this wall..!    
+~
+15 0 0 0
+900 0 -1 0
+11 0 0 0
+L 0
+#6601
+drained sacrificial altar~
+a powerless altar of sacrifice~
+An altar of sacrifice is here, it looks useless.~
+It is a blood-stained stone slab, it looks as if it is completely uselss.    
+~
+12 0 1 0
+6600 0 0 6602
+0 0 0 0
+L 0
+#6602
+bits for sacrifice~
+bits for a sacrifice~
+All the necessary items to perform a sacrifice are here.~
+Everything you would ever need to perform a sacrifice is here.    
+~
+25 0 1 0
+6603 0 0 6604
+0 0 0 0
+L 0
+#6603
+human corpse~
+a human corpse~
+The corpse of some unkown person lies here, decaying.~
+This person has no special features, a totally plain and un-unique individual
+they were.    
+~
+25 0 1 0
+6602 0 0 6604
+0 0 0 0
+L 0
+#6604
+human sacrifice~
+a human sacrifice~
+A body is here, prepped and ready to be sacrificed.~
+A corpse ready to be sacrificed.
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+L 0
+#6605
+a warning board~
+skully's warning board~
+READ THIS BOARD BEFORE GOING ANY FURTHER!!~
+This zone contains extremely graphic, gorey, and obscene content.  You may find
+this zone quite offensive due to the graphic descriptions of death, suicide,
+rape, cannibalism, and torture.  If you feel that any of this may offend you,
+PLEASE LEAVE NOW.  If you bother me (Skully) about this zone because of it's
+content then I WILL KILL YOU because you have been warned.  By proceeding
+forth, you agree that you will not complain to me about what you see here.    
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+board ~
+This zone contains EXTREMELY gorey, violent, graphic, and obscene content.  If
+you think you might be offended by graphic descriptions of death, torture,
+suicide, and cannibalism, please leave now.  By going forth into the zone, you
+agree that you will not bother me (Skully) or any other staff of PrimalMUD
+about the content of this zone.  If you bother me about it, I will completely
+ignore you and quite possibly kill you if you carry on.  If it scares you, then
+stay out.    
+~
+#6606
+rusty hook~
+a rusty hook~
+A rusty hook hangs from the ceiling... waiting for something.~
+This hook looks like it may be a portal of some sort... maybe you should try to 'go' it.
+~
+41 0 0 0
+6698 0 0 0
+0 0 0 0
+L 0
+#6607
+amputation saw~
+an amputation saw~
+A wicked looking rusty saw lies in the dust.~
+It is almost completely rused, the teeth are very gnarled and bent.  It is
+still VERY sharp.    
+~
+5 0 24577 0
+0 10 5 3
+5 1800 0 76
+L 76
+A
+19 8
+A
+18 8
+A
+4 -2
+A
+17 -2
+A
+2 -3
+A
+13 20
+#6609
+hole in the wall~
+a hole in the wall~
+there is a hole in the wall here.~
+This is a gigantic hole, the other side is nothing but darkness.
+~
+41 0 0 0
+6699 0 0 0
+0 0 0 0
+L 0
+#6677
+thong of invincibility~
+thong of invincibility~
+A thong lies here.~
+its a thong... fag.. unless youre a chick...
+~
+11 1 2049 75563148
+0 0 0 0
+0 0 0 0
+L 0
+A
+17 -100
+#6698
+death~
+death~
+Death is here.~
+~
+5 64 8193 0
+52 61 1 11
+0 0 0 100
+L 100
+A
+18 10
+A
+19 10
+#6699
+dead skin mask~
+a Dead Skin Mask~
+A mask made of dead skin rots on the ground here.~
+Bits and pieces of human flesh have been stitched together to form this mask
+~
+9 152109576 17 60
+-10 0 0 0
+1 0 0 80
+L 80
+A
+18 5
+A
+19 9
+A
+13 75
+A
+12 -100
+$~

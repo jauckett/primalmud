@@ -1,0 +1,445 @@
+#5000
+Pomarj Road.~
+You are on a wide paved road that leads west out across the plains. To the east
+is the western gate of the free city of Haven.
+~
+50 0 2 0
+D1
+At the gates of Haven.~
+~
+0 0 -1
+D3
+Pomarj Road.~
+~
+0 0 5002
+S
+#5001
+Pomarj Road, before Haven.~
+You are on Pomarj Road before the western gate of the free city of Haven.
+The road leads west out into the wilderness.
+~
+50 p 2 0
+D1
+West gate of Haven.~
+~
+0 0 1130
+D3
+Pomarj Road.~
+~
+0 0 5002
+S
+#5002
+Pomarj Road.~
+You are travelling Pomarj Road which leads west out into the wilderness. Further
+up the road to the east you can see the west gate of the free city of Haven.
+To the south the steppes stretch out as far as the eye can see.
+~
+50 p 2 0
+D1
+Pomarj Road, before Haven.~
+~
+0 0 5001
+D2
+Across the steppes.~
+~
+0 0 5003
+D3
+Pomarj Road.~
+~
+0 0 5013
+S
+#5003
+The steppes~
+You are wandering over a vast expanse of dry grassland. You lose all sense of
+direction crossing the prairie.
+~
+50 p 2 0
+D0
+The steppes.~
+~
+0 0 5003
+D1
+The steppes.~
+~
+0 0 5004
+D2
+The steppes.~
+~
+0 0 5003
+D3
+The steppes.~
+~
+0 0 5003
+S
+#5004
+The steppes~
+You are wandering over a vast expanse of dry grassland. You lose all sense of
+direction crossing the prairie.
+~
+50 p 2 0
+D0
+The steppes.~
+~
+0 0 5003
+D1
+The steppes.~
+~
+0 0 5004
+D2
+The steppes.~
+~
+0 0 5005
+D3
+The steppes.~
+~
+0 0 5003
+S
+#5005
+The steppes~
+You are wandering over a vast expanse of dry grassland. You lose all sense of
+direction crossing the prairie.
+~
+50 p 2 0
+D0
+The steppes.~
+~
+0 0 5006
+D1
+The steppes.~
+~
+0 0 5004
+D2
+The steppes.~
+~
+0 0 5003
+D3
+The steppes.~
+~
+0 0 5003
+S
+#5006
+The steppes~
+You are wandering over a vast expanse of dry grassland. You lose all sense of
+direction crossing the prairie. You feel relieved as you see a dusty road
+meandering through the steppes, just over a small rise to the west.
+~
+50 p 2 0
+D0
+The steppes.~
+~
+0 0 5003
+D1
+The steppes.~
+~
+0 0 5004
+D2
+The steppes.~
+~
+0 0 5003
+D3
+Nyrond Road.~
+~
+0 0 5007
+S
+#5007
+Nyrond Road.~
+You are at a turn along Nyrond Road. The road leads south and west from here.
+As you look around you see vast expanse of dry grasslands.
+~
+50 p 2 0
+D2
+Nyrond Road.~
+~
+0 0 5020
+D3
+Nyrond Road.~
+~
+0 0 5008
+S
+#5008
+Nyrond Road.~
+You are at a turn along Nyrond Road. The road leads north and east from here.
+As you look around you see a vast expanse of dry grassland.
+~
+50 p 2 0
+D0
+Nyrond Road.~
+~
+0 0 5009
+D1
+Nyrond Road.~
+~
+0 0 5007
+S
+#5009
+Nyrond Road.~
+You are travelling Nyrond Road. The road continues north and south from here.
+The road is flanked by dry grasslands as far as the eye can see.
+~
+50 p 2 0
+D0
+Nyrond Road.~
+~
+0 0 5010
+D2
+Nyrond Road.~
+~
+0 0 5008
+S
+#5010
+Nyrond Road.~
+You are at an intersection of roads. Nyrond Road leads south through the
+steppes. Darask Road leads north up through rugged hills and Pomarj Road
+leads east from here. There is a helpful road SIGN here to LOOK at.
+~
+50 p 2 0
+D0
+Darask Road.~
+~
+0 0 5017
+D1
+Pomarj Road.~
+~
+0 0 5011
+D2
+Nyrond Road~
+~
+0 0 5009
+E
+sign~
+The sign says :
+
+North : Darask Road - to the free city of Haven 80 leagues
+South : Nyrond Road - to the kingdom of Nyrond  70 leagues
+East  : Pomarj Road - to the free city of Haven 8  leagues
+
+~
+S
+#5011
+Pomarj Road.~
+You are travelling the Pomarj Road. The road leads east from here to the free
+city of Haven. To the west is an interection of roads.
+~
+50 p 2 0
+D0
+Rugged hills.~
+~
+0 0 5014
+D1
+Pomarj Road.~
+~
+0 0 5012
+D3
+Intersection of roads.~
+~
+0 0 5010
+S
+#5012
+Pomarj Road.~
+You are travelling the Pomarj Road. To the south the dry steppes stretch as far
+as the eye can see. To the north the terrain changes to rugged hills. The road
+leads east and west from here.
+~
+50 p 2 0
+D0
+Rugged hills.~
+~
+0 0 5014
+D1
+Pomarj Road.~
+~
+0 0 5013
+D3
+Pomarj Road.~
+~
+0 0 5011
+S
+#5013
+Pomarj Road.~
+You are travelling Pomarj Road which leads west out into the wilderness. Further
+up the road to the east you can see the west gate of the free city of Haven.
+To the south the steppes stretch out as far as the eye can see.
+~
+50 p 2 0
+D1
+Pomarj Road.~
+~
+0 0 5002
+D2
+Across the steppes.~
+~
+0 0 5003
+D3
+Pomarj Road.~
+~
+0 0 5012
+S
+#5014
+Rugged hills.~
+You are wandering through rugged hilly terrain. You have lost all sense of
+direction.
+~
+50 cp 4 0
+D0
+Rugged hills.~
+~
+0 0 5014
+D1
+Rugged hills.~
+~
+0 0 5015
+D2
+Rugged hills.~
+~
+0 0 5014
+D3
+Rugged hills.~
+~
+0 0 5014
+D4
+Rugged hills.~
+~
+0 0 5014
+S
+#5015
+Rugged hills.~
+You are wandering through rugged hilly terrain. You have lost all sense of
+direction.
+~
+50 p 4 0
+D0
+Rugged hills.~
+~
+0 0 5014
+D1
+Rugged hills.~
+~
+0 0 5014
+D2
+Rugged hills.~
+~
+0 0 5014
+D3
+Rugged hills.~
+~
+0 0 5014
+D4
+Rugged hills.~
+~
+0 0 5021
+S
+#5016
+Rugged hills.~
+You are standing on a small knoll overlooking a dusty road which leads up
+through a ravine and over the hills.
+~
+50 p 4 0
+D0
+Rugged hills.~
+~
+0 0 5014
+D1
+Rugged hills.~
+~
+0 0 5014
+D2
+Rugged hills.~
+~
+0 0 5014
+D3
+Rugged hills.~
+~
+0 0 5014
+D5
+~
+~
+0 0 5018
+S
+#5017
+Darask Road.~
+You are travelling along Darask Road. The road leads north up through the
+rugged hills and south to an intersection of roads.
+~
+50 p 2 0
+D0
+Darask Road.~
+~
+0 0 5018
+D2
+Intersection of roads.~
+~
+0 0 5010
+S
+#5018
+Darask Road.~
+You are travelling along Darask Road. The road leads north up through the
+rugged hills and south to an intersection of roads.
+~
+50 p 2 0
+D0
+Darask Road.~
+~
+0 0 5019
+D2
+Darask Road.~
+~
+0 0 5017
+S
+#5019
+A turn along Darask Road.~
+You are travelling along Darask Road. The road leads west towards the
+rugged hills and south to an intersection of roads.
+~
+50 p 2 0
+D2
+Darask Road.~
+~
+0 0 5018
+D3
+Darask Road.~
+~
+0 0 5501
+S
+#5020
+Nyrond Road.~
+You are travelling along Nyrond Road. To the south you can see the
+great Lhankwood Forest.
+~
+50 p 2 0
+D0
+Nyrond Road.~
+~
+0 0 5007
+D2
+~
+~
+0 0 8303
+S
+#5021
+Rugged hills.~
+You are wandering through rugged hilly terrain. You have lost all sense of
+direction.
+~
+50 p 4 0
+D0
+Rugged hills.~
+~
+0 0 5014
+D1
+Rugged hills.~
+~
+0 0 5014
+D2
+Rugged hills.~
+~
+0 0 5016
+D3
+Rugged hills.~
+~
+0 0 5014
+D4
+Rugged hills.~
+~
+0 0 5014
+S
+$~

@@ -1,0 +1,121 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.01.17.00.05.14;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.04.11.15.00.47;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#14000
+Ages Braveheart zone~
+You standing on the hills of Scotland, land streaches as far as the eye can
+see.  Vast hills and grassland covers the mountians, peering down the hills
+there seems to be a small town ahead.    
+~
+140 0 2 0
+D0
+~
+~
+0 0 14001
+D2
+~
+~
+0 0 -1
+S
+#14001
+Scotland Hills~
+The grass seems to be long and think, you are getting closer to the town and it
+seems to be a peaceful one.  You see a large guard standing outside the towns
+gate keeping a close eye on the hills.    
+~
+140 0 4 0
+D0
+~
+~
+0 0 14002
+D2
+~
+~
+0 0 14000
+S
+#14002
+Gates of the town~
+You slowly walk up to the gate of the town.  There is no sign saying what the
+name of the town is or who is welcome here.  Peering past the gates it seems
+that most of the people in the town are farmers and peasants.    
+~
+140 0 0 0
+D0
+This is the gate into the town.    
+~
+gate gates~
+1 0 14003
+D2
+~
+~
+0 0 14001
+S
+#14003
+Inside the town.~
+You are standing just inside the town, people are walking aroud everywhere and
+their is animals all around the place.  Looking further into the town there is
+shops and places to rest.    
+~
+140 0 0 0
+D2
+Here is the gate to the hills.
+~
+gate gates~
+1 0 14002
+S
+$~
+@
+
+
+1.1
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d12 4
+d19 19
+a37 1
+You are in an unfinished room.
+d40 22
+@
+

@@ -1,0 +1,16 @@
+gh give healing megan
+hm tell cerin heal
+civ cast 'invisibility' self
+ci cast 'infravision'
+cl cast 'lightning bolt'
+cdi cast 'detect invisivility' self
+ca cast 'armor' self
+di cast 'detect invisibility' self
+cd cast 'dragon' self
+cs cast 'armor' self
+cb cast 'bless' self
+. who
+0 open gate
+qt q tonic
+qh q healing
+tm train mana

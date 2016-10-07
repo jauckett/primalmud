@@ -1,0 +1,336 @@
+#31000
+bsd t-shirt tshirt shirt~
+a BSD T-Shirt~
+A BSD T-Shirt has been discarded here.~
+~
+9 135342592 9 0
+1 0 0 0
+1 1000 0 21
+L 21
+E
+BSD T-Shirt Shirt TShirt~
+The shirt sports a picture of a BSD Daemon on the front.
+~
+E
+Picture Daemon~
+&r               ,     , 
+             ,(       ).
+             | \,--_ / |
+             /_  _  `  /
+            /-.,-.`    \
+            | |   \     \
+           _\O|O  |     |   
+          (___)`--'_    /   
+           `.______/`  /    
+             `.__,   ,/     
+                /    \      
+  &W<&Y--&y--.&r   ,___/ __   \     
+  &W<&Y--&y--|&R====&r)))&R==&r) \) /&R=====
+  &W<&Y--&y--'&r   `--' `.__,' |   _ 
+              |        |  / \ 
+               \ _     /`-' \/
+           ,----` \   /        
+           \_,-----'  \
+             \________/&n
+~
+A
+3 1
+A
+4 1
+A
+6 -2
+A
+19 3
+#31001
+linux t-shirt tshirt shirt~
+a linux t-shirt~
+A Linux T-Shirt has been discarded here.~
+~
+9 15258624 9 0
+1 0 0 0
+1 1500 0 30
+L 30
+E
+tshirt linux~
+This t-shirt is made of a strong, white fabric.  On the front, you see a
+picture of a penguin, and on the back, written in black appear the words:/fi
+
+                      F E A R   T H E   P E N G U I N
+~
+E
+picture~
+                      .888888:.
+                      88888.888.       ..ooo00000oo..
+                     .8888888888    000000000000000000oo..       ..oo00
+                     8' `88' `888   0000''' |  /'''00000000000000000000
+               HH    8 8 88 8 888   000     | /    00    \  ''00''  000
+        HI     |H    8:.,::,.:888   000     |/     00     \ ________000
+        HH,    |H   .8`::::::'888   000___    /|   00    /   \      000
+        |HH,   |H   88  `::'  888   000  /   / |   00----____/      000
+        | HH,  HH  .88        `888. 000 /   /  |   00   /    \      000
+        |  YHHHHH.88'   .::.  .:8888.00..ooo0000oo.00  /      \     000
+         \    YHH888.'   :'    `'88:88.0000000000000000oo..    \ ..o000
+          \==/ .8888'    '        88:88.'  \  |  ''00000000000000000000
+           == .8888H,    .        88:888    \ |    00    \   ''   / 000
+              `8888HH,   :        8:888'     \|    00___  \  /   /  000
+               `.:.8HH,  .       .::888'------o----00  /   \/   /___000
+              .:::::88H  `      .:::::::.     /\   00 /             000
+             .::::::.8         .:::::::::    /  \  00/    /|   |\   000
+             :::::::::..     .:::::::::'..oo00oo.. 00  /|/ |   | \  000
+              `:::::::::88888:::::::'00000000000000000oo.. |   | ..oo00
+                 rs`:::'       `:'  000'''      '''00000000000000000000
+                                                          ''00''
+                                                        Rafal Slubowski
+~
+A
+3 1
+A
+4 2
+A
+18 4
+A
+6 1
+#31002
+penguin skin coat heavy~
+a penguin skin coat~
+A coat made of penguin skin lies on the ground, here.~
+~
+37 0 9 0
+0 0 0 0
+5 100 0 20
+L 20
+E
+coat penguin skin~
+   A skilled tailor has spent numerous hours patching penguin skins together to
+make this fine coat.  It is quite heavy, and should prove a good protective
+measure against the cold.  The thought of how many penguins must have died to
+make this coat is a little saddening, though.    
+~
+A
+6 -1
+A
+17 -4
+A
+23 2
+#31003
+wolfs skull~
+a wolf's skull~
+The skull of a wolf rots on the ground, here.~
+~
+9 1048576 17 1024
+7 0 0 0
+3 1500 0 20
+L 20
+E
+wolfs skull~
+   Someone has gone to the trouble of removing all the flesh and tissue from
+this skull.  By it's shape, it is obvious that it has come from some form of
+canine, most likely a wolf.  The inside has been hollowed out, and you should
+be able to wear it over your head.    
+~
+A
+19 3
+A
+18 2
+A
+12 -30
+#31004
+mountain lions paw~
+a mountain lion's paw~
+The paw of a mountain lion rots on the ground, here.~
+~
+5 0 24577 0
+0 6 6 8
+3 1000 0 26
+L 26
+E
+mountain lions paw~
+   Fur of the purist white covers the surface of this paw, it's claws still
+in-tact, this could make for a formiddable weapon in the right hands.  A brief
+chill runs down your spine as you think about the wolf this must have come
+from.    
+~
+A
+18 2
+A
+19 1
+A
+2 1
+#31005
+reward~
+a reward~
+A reward has been discarded here.~
+~
+28 1 1 0
+1 50000 0 0
+0 0 0 0
+L 0
+E
+reward~
+You have received a reward. You must have done something good :o)
+Type "reward list" for a list of possible rewards.
+~
+#31006
+reward~
+an unfinished reward~
+Reward for second run through south pole.~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+L 0
+#31007
+reward~
+an unfinished reward~
+Reward for third time through the south pole.~
+~
+0 0 1 0
+0 0 0 0
+0 0 0 0
+L 0
+#31008
+ice icy frozen club~
+an icy club~
+A club of solid ice rests on the ground, here.~
+~
+5 2211945 8193 0
+8 10 5 7
+3 1000 1000 45
+L 45
+E
+ice icy club frozen~
+   This club is glowing with enchantment, obviously designed to withstand
+warmer temperatures and not melt when it is needed most.  Steam rises from it
+as you inspect it, giving you an idea of just how cold it really is.    
+~
+A
+18 -1
+A
+19 5
+A
+17 -2
+#31009
+twine stick ring~
+a ring of twine~
+A ring of twine, the size of your ankle rests here.~
+~
+25 0 131073 0
+31009 0 0 31010
+1 2300 10 10
+L 10
+E
+twine stick ring~
+   This twine has been made into a ring, which looks like it would fit your
+ankle quite nicely.  Tiny thorns decorate the outer of the ring, while smooth
+leaves have been stuck around the inside to provide a comfortable rest against
+the skin.    
+~
+A
+18 1
+A
+19 2
+A
+17 -2
+#31010
+reinforced twine stick ring~
+a reinforced twine ring~
+A reinforced ring of twine has been discarded, here.~
+~
+25 0 131073 0
+31010 0 0 31011
+2 6900 30 20
+L 20
+E
+reinforced twine ring~
+   This twine ring is double the width of the standard one, but is made in the
+same fashion.  In fact, it looks as though it is just two ordinary twine rings
+stuck together.    
+~
+A
+18 1
+A
+19 3
+A
+17 -4
+#31011
+twine wrist protector~
+a twine wrist protector~
+A twine wrist protector has been discarded here.~
+~
+25 0 4097 0
+31011 0 0 31012
+4 20700 90 30
+L 30
+E
+twine wrist protector~
+   Four twine rings have been interwoven to create a rather sturdy wrist
+protector.  With the strength of four wrings combined with extra thorns, this
+piece is sure to be of assistance.    
+~
+A
+18 3
+A
+19 3
+A
+17 -8
+#31012
+twine armguards guards pair~
+a pair of twine armguards~
+A pair of twine armguards have been discarded here.~
+~
+9 0 257 0
+16 0 0 0
+8 62100 270 45
+L 45
+E
+twine armguards guards pair~
+   A total of eight twine rings have been combined into an extremely strong and
+powerful set of armbands.  The leafy cusioning on the inside providing a
+comfortable fit for long drawn out battles.    
+~
+A
+18 4
+A
+19 4
+#31013
+rocs claw~
+a roc's claw~
+A roc's claw has been removed, and left here.~
+~
+25 0 65537 0
+31008 0 0 31014
+1 2500 10 10
+L 10
+E
+rocs claw~
+   Someone has gone to the trouble of removing this claw from a roc, most
+probably a rather large one.  It looks like it would make for an unusual ear
+ring, though it seems quite sharp, so you best be careful while puttig it on.
+~
+A
+6 -1
+A
+17 -1
+A
+18 2
+#31014
+spiked frozen club ice icy~
+a spiked club of ice~
+A spiked club lies here, threatening to melt away.~
+~
+5 2146921 8193 0
+30 12 5 7
+4 25000 2000 55
+L 55
+E
+spiked club frozen ice icy~
+   This club, with it's spiked tip, is glowing with enchantment, obviously
+designed to withstand warmer temperatures and not melt when it is needed most.
+The glowing and feeling of this club in your hand are the sign of great power
+inside.    
+~
+A
+19 5
+A
+18 1
+$~

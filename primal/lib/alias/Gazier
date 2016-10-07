@@ -1,0 +1,4 @@
+infra cast 'infravision' gazier
+ln remove small ; wield long
+sm remove long ; wield small
+gac get all corpse

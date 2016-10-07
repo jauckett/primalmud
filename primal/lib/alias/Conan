@@ -1,0 +1,14 @@
+cf cast 'create food';eat mush
+pot get prot back; q prot
+sho cast 'shock' $1
+sh say heal
+whi get whit back; q whi
+red get red back; q red
+ds get skin back; dr skin; put skin back
+eb get bread back; eat bread
+wall wear all
+em get meat back;eat meat
+ready wear all; hold lant; hold cards; put all.meat back; put all.bread back; put skin back; open cra; put fire cra; put ammo cra; put cra back
+bot get bot back; q bot
+ca cast 'armor' self; cast 'str' self
+rc recite recall

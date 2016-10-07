@@ -1,0 +1,105 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.15;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.57;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Latest Versions
+@
+text
+@#5 1
+Primal Street~
+599 10 2 0
+M 0 11905 5 527 	(a tiny little fairy)
+M 0 11913 5 527 	(Eye's of the wall)
+M 0 525 3 503 	(a primal street citizen)
+M 0 526 3 503 	(primal resident)
+M 0 525 3 502 	(a primal street citizen)
+M 0 526 3 502 	(primal resident)
+M 0 525 3 501 	(a primal street citizen)
+M 0 526 3 501 	(primal resident)
+M 0 524 3 544 	(a stormtrooper)
+M 0 523 3 545 	(A cowboy )
+M 0 522 1 542 	(Helen of Troy)
+M 0 519 2 543 	(A killer Tomatoe)
+M 0 520 1 543 	(An Insane Archmage)
+M 0 518 3 539 	(A Camelot Knight)
+M 0 516 1 540 	(a shadowen cleric)
+M 0 517 2 540 	(A Keep Slave)
+M 0 514 2 538 	(a crystal servent)
+M 0 515 1 538 	(a crystal rouge)
+M 0 513 2 541 	(a large boring beetle)
+M 0 512 2 536 	(a tough pirate)
+M 0 511 2 534 	(Stormtroopers)
+M 0 509 1 532 	(dopey the dwarf)
+M 0 510 1 532 	(Sneezy the Dwarf)
+M 0 508 3 530 	(a black enfan)
+M 0 507 3 528 	(a flying stinging stirge)
+M 0 506 3 526 	(a wild cat)
+M 0 505 5 525 	(a rattle snake)
+M 0 503 3 523 	(a droid)
+M 0 504 3 523 	(an alien Visitor )
+M 0 501 3 524 	(a giant frog)
+M 0 502 3 524 	(the ogre from the Moathouse)
+M 0 500 3 522 	(a skeleton from the graveyard)
+M 0 1607 10 522 	(a black cat)
+S
+$
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d4 33
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d2 1
+a2 1
+Reception~
+a3 7
+
+M 0 501 2 506           guards  loads up stuff (medieval)
+M 0 501 2 505                                  (future)
+O 0 910 1 501           newbie sign
+*M 0 502 3 501
+*M 0 502 3 500
+*M 0 502 3 504
+d5 1
+a5 2
+#5
+$~
+@
+

@@ -1,0 +1,89 @@
+clone cast 'clone'
+cannon give can cl
+ar tell primer archmage
+wra cast 'wraith touch' $1
+clouds;s;s;w;w;w;s;s;s;s;u;u;u;u;n;n;e;n;e;open tooth;d;s;s;e;s;w;s;s
+[1][say hi
+(1)(say hi
+{1}{say hi; say hello}
+nohass cast 'nohassle'
+jj get all.cor
+ls cast 'lightning shield'
+hf cast 'heal' funki
+gg get all.corpse; junk all.cor
+kk o fol die
+cx cast 'clone' ; cast 'clone'; o fol die' ; cast 'ani' cor; cast 'ani' cor; o fol sleep;cast 'clone' ; cast 'clone'; o fol die' ; cast 'ani' cor; cast 'ani' cor;group all; o fol sleep
+cz 
+ad cast 'animate dead' $1
+glo cast 'sanc' $1
+gs cast 'group sanc'
+white get white force; q white
+white; get white force; q white
+par cast 'paralyze' $1
+{bs}{remove plas; wi trident; backstab $1; rem trident; wi plas}
+spirit cast 'spirit'
+holy cast 'holy'
+{holy}{cast 'holy aid'; cast 'fire shield'; cast 'spirit'; cast 'devine protection'}
+{th}{train hit;train hit;train hit;train hit; train hit; train hit; train hit; train hit; train hit; train hit; train hit}
+th train hit
+ant o fol k ant
+cc order clone serve
+wind cast 'whirlwind'
+odd s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+hh cast 'advanced heal' angel
+cw get white force; get white force; give white clone; give white 2.clone; o fol q white
+abyss s;s;s;e;e;e;e;e;open gate;e;e;e;e;e;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;w;n;w;w;n;n;n;;w;w;n;n;n;n;n; rem jewel; wear hat; w;w;w;w;n;n;n;n;s;w;s;w;n;w;w;n;n;e;e;e;e;e;;n;e;e;e;e;s;e;u;u;u;u;rem hat; wear jewel
+gag get all.gold all.corpse
+rp cast 'remove poison'
+town e;n;e;e;e;e;e;e;e;e;e;e;e;e;e
+rf cast 'refresh'
+dragon cast 'dragon'
+cl cast 'cloud kill'
+summon cast 'summon' $1
+invis cast 'invisibility'
+gate cast 'dimensional gate' $1
+wake wake; stand
+locate cast 'locate' $1
+tele cast 'teleport'
+charm cast 'charm' $1
+gac get all all.corpse
+di cast 'detect invisibility'
+ww cast 'waterwalk'
+wb cast 'waterbreathe'
+dw drink water
+home cast 'word'
+cig get cig blue; : sparks his ciggie up with style and looks at you inquisitively...
+ncig put cig blue
+det cast 'detect allignment' $1
+grats grats ---===<<<((( $1 )))>>>===---
+ckill o fol kill $1; kill $1
+h get tonic force; q tonic
+? cast 'identify' $1
+putal put all.potion force
+pual put all force
+a cast 'divine heal'
+inf cast 'infravision'
+sh cast 'fire shield'
+qsat was not... you xcame then you left then you came again doofus!!
+t tag mor
+g get corpse
+rc cast 'remove curse' $1
+pp cast 'advanced heal' pose
+island s;s;s;s; e; e; s; s; s; e; e; s; s; s; s; s; s; s; s; s; s; s; e; e; e ;e; s; s; e; e; e; s; s; s; s; e; e; e; e; e; e; d; e; e; e; e; s ;s ;w ;w ;u w; w ;w n; u ;u ;u ;u u; n; cast "water walk"; u; u; open dock; u ;e; e
+haste cast 'haste'
+ani cast 'animate' $1
+gk k $1; o fol k $1
+jc get all.cor; junk all.cor
+ca cast 'clone' ; cast 'clone' 
+spiral ;e;e;e;e;unlock gate;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;
+sphere ;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;e;s;s;s;cast 'waterwalk';s;s;s;s;s;w;w;s;s;s;e;s;s;s;s;w;w;s;s;s;cast 'dragon';s;s;open rock;n;open evil;w;w;n;w;s;open sphere;w;rem red;wear mask;
+fing cast 'finger' $1
+gogo autoexit;e;s;s;s;s;s;s;e;e;e;e;go in shut;n;w;w;n;e;u;rem silver;wear gas;w;n;e;e;e;e;d;e;n;e;e;autoexit
+ss cast 'sleep' $1
+tt get tonic force
+cb cast 'cure blind'
+aa cast 'divine protection'
+bs backstab $1
+1 cast 'advanced heal' coc
+ser o followers serve
+fire cast 'fire wall'

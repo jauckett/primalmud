@@ -1,0 +1,34 @@
+tg tell gorilla $*
+tv tell vader $*
+tm tell moe $*
+snooze cast 'sleep' $*
+brad open force; get bread force; close force; eat bread
+home open force; get recall force; recite recall; close force
+showme open force; look in force; close force
+gimme get all corpse; save
+gr open force; get red force; quaff red; close force
+qw open force; get white force; quaff white; close force
+retrieve open force; get $* force; close force
+da cast 'detect alignment' $*
+ss cast 'sanctuary' sassy
+sanc cast 'sanctuary' $*
+grasp cast 'shocking grasp' $*
+drain cast 'energy drain' $*
+toe : nudges$* with the toe of her boot
+back backstab $*
+wakeup wake ; stand
+night cast 'infravision'
+invis cast 'invisibility'
+see cast 'detect invisibility'
+cure cast 'cure critical' $*
+strong cast 'strength' $*
+change remove halberd; wield super
+bs backstab $*; remove super; wield halberd
+mush cast 'create food'; cast 'create food'; cast 'create food'; eat mushroom; eat mushroom; eat mushroom
+sneer : raises one side of her lip in a sneer
+cs cast 'cure critical' sassy
+quiz : raises one eyebrow quizically
+chow open force; get meat force; get meat force; eat meat; eat meat; close force
+dress wear all; wield sword; hold drum; open force; put all force; close force
+bag put $* backpack
+slurp get skin backpack; drink skin; put skin backpack

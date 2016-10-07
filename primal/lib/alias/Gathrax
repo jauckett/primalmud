@@ -1,0 +1,37 @@
+he cast 'heal'
+pd pick door; pick door; pick door
+rr rec recall
+clh cast 'cure l' hal
+quik s;con wraith;l wraith;n
+ba backstab assasin
+1 rec recall
+jc get corpse;junk corpse
+food cast 'create food'
+qr open crate;get red crate;q red;close crate
+qw open crate;get white crate;q white;close crate
+meat open crate;get meat crate;close crate;eat meat
+gr grats ----,---'--{@ $1 @}--`---,----
+hl say hello $1
+cl cast 'cure light'
+infra cast 'infravision'
+wr cast 'word of recall'
+z score
+di cast 'detect invisibility'
+fb cast 'fireball'
+wa wear all
+gac get all from corpse
+gd say God DAMN!
+gs emote slaps you round a bit. It is vaguely enjoyable.
+wor cast 'word of recall'
+mush open crate;get mushroom crate;close crate;eat mushroom
+qb get blue crate;q blue
+ss sell scimitar
+tf tag smakibbfb
+tu tag uther
+tt tag thedoctor
+sw cast 'summon' wacky
+kv rem sword; wield knife
+vk rem knife; wield sword
+kc rem chain; wield knife
+ck rem knife; wield chain
+bs backstab $1;rem knife;wield chain

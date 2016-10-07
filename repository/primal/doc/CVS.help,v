@@ -1,0 +1,153 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.02.09.18.41.45;	author michaeld;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.01.30.22.39.14;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Document update to first final version.
+@
+text
+@================================================================================ 
+				  CVS.help
+================================================================================ 
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+ 
+================================================================================ 
+This document is intended as a help guide to novice users of cvs. For further,
+or more complete information, see the man page, or refer to other help documents
+which can be found on the net.
+ 
+First of all, I'll briefly explain about how CVS works. A copy of the files that
+are to be kept under version control are imported to a repository (on
+venus.jeack.com.au, this exists as /data/repository). The files are then checked
+out into a work directory, modified etc, and then are commited back to the
+repository. CVS stores the changes made to the file, and other information,
+including a log that the users fills in, giving details of the changes made.
+ 
+The files in the repository, should (in general) never be touched. Users can
+make changes to the files in /data/primal, this is the directory from where
+the mud is compiled and ran from. Alternatively, they can check files out into
+their workspace and commit them from there also. For details of how to carry
+out these procedures, see the help on the commands below.
+ 
+Variables
+=========
+CVSROOT - contains the pathname of the repository.
+        You will have to set this by putting this in your startup file
+        (~/.profile) :
+ 
+        export CVSROOT=/data/repository
+ 
+Commands
+=========
+cvs co/checkout <filename/module>
+ 
+eg. cvs co primal - creates an entire copy of the primal module (everything)
+    cvs co primal/lib/world/zon/1.zon - creates a copy of the file 1.zon
+                                        with relative file path.
+cvs ci/checkin <filename>
+ 
+eg. cvs ci lib/world/obj/1.obj - checks a file into the repository. A "vi"
+        window appears as it does when a commit is applied.
+ 
+cvs update
+        Does a check on the directory and directories beneath the current dir,
+        to show the differences that exist between the directories and the
+        repository. If newer versions exist in the repository, then these
+        files are updated. If modified versions exist in the workspace, then
+        a "M" signifies that these files have not been commited to the
+        repository.
+ 
+cvs add <filename>
+        Schedule the addition of a file to the repository. (Change will be
+        made when a commit is done).
+ 
+cvs delete <filename>
+        Schedule the deletion of a file to the repository. (Change will be
+        made when a commit is done).
+ 
+cvs commit
+        Apply all changes to the repository - ie. the addition/deletion of
+        files scheduled for adding/deleting, the updating of newer file
+        versions. By default, a "vi" window appears with the details of
+        the commit. Enter a reasonably detailed line or two of the changes
+        made for the commit.
+ 
+cvs log [filename]
+        Get the log information on the entire dir if no argument is given,
+        or information on the file specified.
+ 
+Sample Session (relative to venus.jeack.com.au)
+==============
++ User wants a copy of all the .wld files to work with.
+
+(from their home dir)
+>> cvs co primal/lib/world/wld/
+
++ User comes back later on, and wishes to modify a file(s).
+
+(from within ~/primal/)
+>> cvs update
+
+(working only with the one file)
+>> cvs update ~/primal/lib/world/wld/2.wld
+
+The update command is necessary to ensure that this is the latest version
+of the file(s) that exist in the repositry.
+
++ The user then modifies the file(s) and wishes to add them back to the 
+repositry. 
+
+(from within ~/primal/lib/world/wld)
+>> cvs commit	(can do a cvs update to see what has been modified first) 
+
+(working only with one file)
+>> cvs ci ~/primal/lib/world/wld/2.wld
+
+Most of the CVS commands act in a recursive manner, ie. carrying out the
+operations on all the subdirs when a dir is given. As always you will
+learn with experience, if unsure on something, dont hesitate to read the
+man page, or ask someone for assistance.
+ 
+================================================================================
+@
+
+
+1.1
+log
+@Initial version of document.
+@
+text
+@d2 2
+d12 2
+a13 1
+or more complete information, see the man page, or refer to other help documentswhich can be found on the net.
+d15 4
+a18 2
+First of all, I'll briefly explain about how CVS works. A copy of the files thatare to be kept under version control are imported to a repository (on
+venus.jeack.com.au, this exists as /data/repository). The files are then checkedout into a work directory, modified etc, and then are commited back to the
+d74 32
+@
+

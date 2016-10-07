@@ -1,0 +1,37 @@
+c tag conan
+b tag boz
+m tag macca
+bl cast 'plasma blast' $1
+su cast 'summon' jester
+invis cast 'invisibility' self
+desert s
+armor cast 'armor' self
+ed cast 'energy drain' $1
+bless cast 'bless' self
+crystal rem hat;wear sombrero;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n;n;n;n;n;rem sombrero;wear hat
+par cast 'paralyze' $1
+str cast 'strength'
+gt get all corpse
+cure cast 'cure critic'
+detect cast 'detect invisibility
+ew rem super
+we wi sword
+summon cast 'summon' $1
+cu cast 'cure critical'
+recall cast 'word of recall' 
+light cast 'call lightning' $1
+fire cast 'fireball' $1
+san cast 'sanctuary' $1
+charm cast 'charm person' $1
+food cast 'create food';eat mushroom
+sl cast 'sleep' $1
+fi fire jester;fire jester;c;c;c;light jester;light jester;c;c;c
+heal cast 'heal' $1
+h cast 'heal' self
+ref cast 'refresh' self
+enchant cast 'enchant weapon' $1
+q get super force;rem fist;wield super
+qq rem super;wield fist
+tr track werewolf
+battle cast 'armor' self
+rec cast 'word of recall'

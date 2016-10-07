@@ -1,0 +1,275 @@
+head	1.5;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2003.12.31.10.10.33;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.07.20.08.21.02;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.02.25.14.13.03;	author michaeld;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Artus> This stuff is all good.
+@
+text
+@&CThe NEW PrimalMUD Herald&n
+
+&R26th December 2003&n 
+
+For those who haven't realised yes you are on the NEW base!
+We decided to take it live on Boxing Day as a belated Christmas
+present to all our loyal players!  Below is a list of new 
+aspects to the game once you are done reading please enjoy the new base!  
+
+&R New Features:&n 
+
+Race defined system 
+New guilds/ New zones 
+New wear positions 
+New spells (See &gspellinfo&n) 
+New skills (See &gskillinfo&n)
+New Special Abilities 
+New Quest System 
+New Clan System 
+Punishment System 
+Remort System (See &gHelp Remort&n)
+
+There are so many new features in this base it is too numerous
+to list them all! The only suggestion is to watch the Herald 
+and we will endevour to keep you posted as time goes by!
+
+Editor!
+@
+
+
+1.4
+log
+@Latest Versions
+@
+text
+@a1 39
+&n
+&R23rd January 2001&n
+&n
+Well we finally have an initial alpha version up and running ...&n
+There is still lots of work to do, but at least you will now&n
+be able to preview much of the hard work that we have done&n
+over the past 12 months.&n
+&n
+There is way too much to mention on new features etc, so I am&n
+not even going there ...&n
+&n
+I shall soon rectify the report saving problem, but in the mean&n
+time I guess all bugs should be reported on the immortals board.&n
+Please check that a report does not already exist.&n
+&n
+Bah, dont know what else to say.&n
+&n
+DM&n
+
+&R19 January 2002&n
+
+Almost a year from the last news update. Its hard to believe
+that we have now had alpha up for that long. Well for history
+purposes, we missed &RArtus's&n release date of the &g5th January 2002&n,
+although I don't think anyone else was actually refered to about
+that actual date...
+
+Well, I guess we are close to release at this stage the following
+needs to be done:
+- spells/skills: The assignment to classes and the settings of
+  restrictions. Not mentioning names, but someone starting
+  with R was meant to be looking at this :)
+- help: Yah I'll be looking at, fixing and assigning help.
+- tweaking: A few more things need to be tweaked - for example
+  regen rates, possibly stat training points, possibly fight
+  system etc... more of this will be adjusted once we are live.
+- world: general stuff, mostly completed by Sandii...
+- bugs: Bring them to our attention.
+- And whatever else - I don't know, tell us so we do!
+d3 25
+a27 1
+DM
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d20 23
+@
+
+
+1.2
+log
+@Addition of primal text files
+@
+text
+@d1 19
+a19 39
+                         &gTHE PrimalMUD HERALD&n
+   		              
+                           &r6th October 1999&n
+
+
+As you will see we are still working on trying to improve PrimalMUD. 
+Any suggestions may be submitted via mudmail to either Dangermouse
+or Sandii at anytime.
+
+
+&yNEW ZONES&n:  The Odd House 
+            Scorpion Swamp (online testing)
+            The Island Forever (online testing)
+            Primal Casino
+
+&yUPDATES&n:    Some of the old documents have been updated of late so please
+            take some time to read the following:
+            Help (I am constantly updating this file when i find something
+             missing from it)
+
+&yNEW SPELLS&n: Divine Heal - Level 70
+            Lightning Shield - Level 65
+            Fire Shield - Level 75
+            Fire Wall - Level 90
+            Identify - 37
+
+&yNEW COMMANDS&n:   &cAutosplit&n - autosplit coins between group members, must have
+                autogold on first. 
+
+
+We have lots of ideas that are to being looked into and developed so please keep 
+an eye out on the news documentation as i will be posting bulletins when the 
+changes are in place.
+
+Thanks
+
+Sandii
+
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 3
+a3 1
+(lib/text/news)
+a4 3
+			    THE CIRCLEMUD HERALD
+   		 "We addict players for their own enjoyment."
+			     September 19, 1993
+d6 3
+a9 2
+NEW COMMANDS AND NEW MUD BEHAVIOR:
+---------------------------------
+d11 4
+a14 3
+**  Your character no longer gains move points with age.  However, age
+    does still affect your HMV gains.  Also, move point modifier objects
+    now work correctly.
+d16 4
+a19 3
+**  You can now use "all" and "all.x" very generally with the get, put,
+    drop, junk, donate, give, wear and remove commands.  Type HELP GET
+    for more info.
+d21 5
+a25 2
+**  The "track" function will show you the first step on the shortest
+    path to anyone in the game.
+d27 2
+a28 4
+**  If you drop your link for more than 1 hour, you will be force-rented
+    at 25% greater than normal rent prices.  If you don't have enough
+    money to rent with, your most valuable items will be junked until
+    the money you have can cover your items.
+a29 3
+**  You can now remove your own messages from the board.  Also, if you
+    put someone else's name in parentheses in the message header, they
+    will be able to remove the message too.
+d31 3
+a33 2
+**  The MIDGAARD MAIL SYSTEM is now complete.  The Post Office is north
+    of the entrance to the Grunting Boar inn.  Stamps cost 150 coins.
+d35 1
+a35 2
+**  Fountains have now been implemented.  You can drink from fountains
+    or fill containers from fountains using the FILL command.
+d37 1
+a37 3
+**  The SHOUT command, as always, only reaches people in your zone (you
+    can see who these people are by typing WHERE).  The HOLLER command
+    reaches everyone in the game but costs 10 movement points.
+a38 3
+**  When you are writing a message, you will now not be interrupted
+    by tells, shouts, emotes, socials, and even people talking in the
+    same room.
+a39 19
+**  The WIMPY command has been upgraded so you can set at how many hit
+    points you flee.  Type HELP WIMPY for more info.
+
+*****************************************************************************
+    IF YOU LEAVE THE GAME FOR MORE THAN AN HOUR, either by renting or plain
+    quitting, your hit points, move points, and mana will be fully restored
+    when you come back!  This doesn't work if you're poisoned.
+*****************************************************************************
+
+**  Use the ASSIST command to engage in mortal combat with someone in the
+    room who is getting pummeled.
+
+**  Use the SPLIT command to split gold among the members of your group
+    (including yourself) who are in the room.  i.e. If you are in a group
+    with 4 other people who are in the room with you, type "SPLIT 100"
+    to give each of them 20 coins.
+
+**  You can use the VISIBLE command to break a spell of invisibility before
+    it expires.
+@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

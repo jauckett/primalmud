@@ -1,0 +1,6 @@
+infra c 'infra toma
+gac get all corpse
+tele recite recall
+cl c 'cure light' toma
+cb c 'cure blind' toma
+di c 'detect invisibility' toma

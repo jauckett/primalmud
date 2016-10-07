@@ -1,0 +1,62 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@refresh cast 'refresh' self
+bs rem mystic; wield super; ba $1; rem super; wield mystic
+fire cast 'fireball' $1
+charm cast 'charm person' $1
+hh cast 'heal' self
+inb look in backpack
+kk kick $1
+hc cast 'cure critic' self
+shock cast 'shocking' $1
+loot get all all.corpse
+stuff put $1 backpack
+eatm get meat backpack; eat meat
+heal get red backpack; q red
+wakeup wake; stand
+pull get $1 backpack
+white get white backpack; q white
+gdp get skin backpack; drink skin; put skin backpack
+burn cast 'burning hands' $1
+rr recite recall
+refill fill skin fountain; put skin backpack
+nsee cast 'infra' self
+hl cast 'cure light' self
+invis get yellow backpack; q  yellow
+id get identify backpack; recite identify $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

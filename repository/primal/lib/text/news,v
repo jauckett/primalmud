@@ -1,0 +1,77 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.51;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.51;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@                         &gTHE PrimalMUD HERALD&n
+   		              
+                           &r6th October 1999&n
+
+
+As you will see we are still working on trying to improve PrimalMUD. 
+Any suggestions may be submitted via mudmail to either Dangermouse
+or Sandii at anytime.
+
+
+&yNEW ZONES&n:  The Odd House 
+            Scorpion Swamp (online testing)
+            The Island Forever (online testing)
+            Primal Casino
+
+&yUPDATES&n:    Some of the old documents have been updated of late so please
+            take some time to read the following:
+            Help (I am constantly updating this file when i find something
+             missing from it)
+
+&yNEW SPELLS&n: Divine Heal - Level 70
+            Lightning Shield - Level 65
+            Fire Shield - Level 75
+            Fire Wall - Level 90
+            Identify - 37
+
+&yNEW COMMANDS&n:   &cAutosplit&n - autosplit coins between group members, must have
+                autogold on first. 
+
+
+We have lots of ideas that are to being looked into and developed so please keep 
+an eye out on the news documentation as i will be posting bulletins when the 
+changes are in place.
+
+Thanks
+
+Sandii
+
+
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

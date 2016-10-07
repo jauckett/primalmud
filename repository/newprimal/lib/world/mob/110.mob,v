@@ -1,0 +1,323 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.10.14.05.26.00;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.04;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Artus> Checking In.
+@
+text
+@#11001
+dinosaur styracosaurus~
+the Styracosaurus~
+The Styracosaurus is here,  slowly moving it's heavy limbs.
+~
+The Styracosaurus walks on four legs and has a six-spiked frill projecting from the back 
+of its skull. It has an upward-pointing  horn on its nose, and two small horns above its 
+eyes.  It has a short, thick, pointed tail, a large, bulky body. The skin seems almost 
+impenetrable.
+~
+3229048 1024 850 E
+66 -25 -9 1d1+6050 20d13+60
+59400 660000
+8 8 0
+E
+#11002
+dinosaur velociraptor~
+the Velociraptor~
+The Velociraptor is here,  it looks very fast.
+~
+Velociraptor is a speedy, two footed carnivore. It has many very sharp, curved teeth in a 
+long snout. The Velociraptor has long,  thin legs, arms with three-fingered clawed hands.
+One of the claws looks like an enormous sickle.
+It's gaze looks very intelligent.
+~
+1076344 1032 900 E
+56 -28 -5 1d1+4700 25d21+60
+50400 550000
+8 8 0
+E
+#11003
+dinosaur oviraptor ~
+the Oviraptor~
+The Oviraptor is circling you here, with two of it's hunting partners.
+~
+The Oviraptor is a small, bird-like, omnivorous dinosaur. It's almost 2 metres long. It walks
+on two long legs.  It has a curved,  s-shaped neck, a long tail, short, strong arms, and curved
+claws on its three-fingered hands and three-toed feet. 
+~
+1076344 1032 900 E
+53 -21 -3 1d1+1700 20d20+45
+47700 530000
+8 8 0
+E
+#11004
+dinosaur tyrannosaurus trex t-rex~
+the T-Rex~
+The huge Tyrannosaurus Rex is stomping around looking fierce. Blood drips from it's teeth.
+~
+the T- Rex walks on two powerful legs with claws,  and has huge jaws, with over 60 conical,
+bone-crunching teeth each almost 15 centimetres long. 
+It looks like it would weigh around five tonnes.
+~
+3399738 1024 900 E
+75 -30 -9 1d1+7420 20d24+76
+67500 750000
+8 8 0
+E
+#11005
+dinosaur riojasaurus~
+the Riojasaurus~
+A Riojasaurus is standing here,  slowly chewing grass and leaves.
+~
+The Riojasaurus is a massive beast. It is quite heavily built. It has a long neck, a long tail, a small head, and elephant-like legs with claws. The back legs are slightly larger than the front legs. 
+~
+3268712 37896 -20 E
+60 -25 -4 1d1+5250 20d16+60
+54000 600000
+8 8 0
+E
+#11006
+dinosaur dilophosaurus ~
+the Dilophosaurus ~
+A Dilophosaurus is crouching here in search of food.
+~
+The Dilophosaurus is a slender dinosaur, walking on two legs. It has a thin, bony, 
+double crest on its head. It looks pretty spectacular. It's neck is long and curved.
+~
+1171560 36872 -20 E
+57 -25 -2 1d1+4870 15d20+55
+51300 570000
+8 8 0
+E
+#11007
+dinosaur pterodactyl~
+the Pterodactyl~
+A Pterodactyl is hovering over you in large circles.
+~
+The Pterodactyl has fur on its body. Its wings are covered by a leathery membrane. This thin but tough membrane is stretched between its body, the top of its legs and its fourth finger, forming the structure of the wing. Long claws protrude from the other
+
+
+ fingers. 
+~
+1171562 167944 -300 E
+65 -39 -3 1d1+5920 7d35+69
+58500 650000
+8 8 0
+E
+#11008
+dinosaur triceratops ~
+the Triceratops ~
+A large male Triceratops is slowly moving around here.
+~
+The Triceratops looks a lot like a  rhinoceros. It walks on four sturdy,  thick legs and has three horns 
+on its face along with a large bony  frill projecting from the back of its skull. It has a large parrot like
+beak. The skin on this animal is so thick, and there is so much fat under it that you cannot see it's 
+muscles move.
+~
+3270746 33836 600 E
+67 -28 -8 1d1+6220 23d20+71
+60300 670000
+8 8 0
+E
+#11009
+dinosaur nothosaurs~
+the Nothosaurs~
+A huge Nothosaurs is here, pretending to be a dinosaur.
+~
+The Nothosaurs is a long-necked, long-tailed, fish-eating reptile. It does not look like a
+real  dinosaurs. It has four wide, paddle-like limbs with webbed fingers and toes. 
+It has two large nostrils on top of the snout.
+~
+1138808 4228096 -50 E
+60 -35 -4 10d10+5000 17d17+64
+54000 600000
+8 8 0
+E
+#11010
+anaconda dinosaur snake~
+the Huge Anaconda~
+An enormous Anaconda is coiled up here. It is larger than any other you have seen.
+~
+The Anaconda is enormous. It has two huge fangs, filled with deadly venom. It would
+be a formidable opponent for even the biggest dinosaur.
+~
+3403642 73780 -350 E
+72 -30 -7 1d1+6950 10d39+75
+64800 720000
+8 8 0
+E
+#11011
+young baby dinosaur~
+the Baby Dinosour~
+A young dinosaur is feeding on leftovers here.
+~
+The dinosaur, although obviously young is already many times larger and heavier than 
+you.  The scars on it's body indicate that it is not a very good fighter yet.
+~
+20552 295936 -350 E
+57 -25 -2 1d1+4850 19d10+57
+51300 570000
+8 8 0
+E
+#11012
+anacaonda snake python~
+the Anaconda~
+A medium sized Anaconda is lying here, hidden in the undergrowth.
+~
+Although not the biggest specimen you have ever seen this anaconda is still big. You
+wonder how it can get enough food to stay alive.
+~
+1239912 558092 0 E
+61 -26 -4 1d1+5350 16d19+63
+54900 610000
+8 8 0
+E
+#11013
+dinosaur plesiosaur~
+the Plesiosaur~
+A large Plesiosaur is here, slowly moving it's flippers, treading water.
+~
+The Plesiosaur is a large marine reptiles. It has four flippers, sharp teeth, embedded 
+in strong jaws, and a long, sleek pointed tail. 
+~
+1138808 4228096 -50 E
+65 -30 -5 1d1+5900 26d17+65
+58500 650000
+8 8 0
+E
+#11014
+mammoth woolly elephant~
+the Woolly Mammoth~
+A peaceful Woolly Mammoth is standing here, leaving deep imprints in the soil.
+~
+The Mammoth looks like any old elephant, only much, much bigger. Giant
+tusks protrude from it's cheeks. They are essentially a tool of defence, but you
+can imagine how fierce they would be in attack.
+~
+1304666 9244 1 E
+75 -35 -10 1d1+7430 20d20+76
+67500 750000
+8 8 0
+E
+$
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d11 5
+a15 4
+3229040 1024  850 S
+66 -25 -9 1d1+9000 20d13+60
+135667 832000
+8 8 0 3
+d26 5
+a30 4
+1076336 1032 900 S
+56 -28 -5 1d1+5200 15d11+60
+211003 550000
+8 8 0 3
+d40 5
+a44 4
+1076336  1032 900 S
+53 -21 -3 1d1+1700 10d10+45
+111003 800000
+8 8 0 3
+d53 6
+a58 5
+~ 
+3399730 1024 900 S
+75 -30 -9 1d1+14100 20d24+76
+505003 2800000
+8 8 0 3
+d66 5
+a70 4
+3268704 37896 -20 S
+60 -25 -4 1d1+7700 20d16+60
+87003 900000
+8 8 0 3
+d79 5
+a83 4
+1171552 36872 -20 S
+57 -25 -2 1d1+6200 15d20+55
+74453 846000
+8 8 0 3
+d94 5
+a98 4
+1171554 167944 -300 S
+65 -39 -3 1d1+10001 7d35+70
+68444 1270500
+8 8 0 3
+d109 5
+a113 4
+3270738 33836 600 S
+67 -28 -8 1d1+11054 23d20+71
+138482 1940500
+8 8 0 3
+d123 5
+a127 4
+1138800 4228096 -50 S
+60 -35 -4 10d10+12055 17d17+65
+78242 1035543
+8 8 0 3
+d136 5
+a140 4
+3403634 73780 -350 S
+72 -30 -7 1d1+11025 10d39+75
+506584 2000000
+8 8 0 3
+d149 5
+a153 4
+20544   295936  -350 S
+57 -25 -2 1d1+6654 19d10+57
+63984 600000
+8 8 0 3
+d162 5
+a166 4
+1239904  558092 0 S
+61 -26 -4 1d1+11209 16d19+63
+72500 840623
+8 8 0 3
+d175 5
+a179 4
+1138800 4228096 -50 S
+65 -30 -5 1d1+10654 26d17+65
+86542 997463
+8 8 0 3
+d188 6
+a193 5
+~ 
+1304658 9244 1 S
+75 -35 -10 1d1+14500 20d20+76
+810453 1800000
+8 8 0 3
+a194 4
+
+
+
+
+@
+

@@ -1,0 +1,108 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD>
+<TITLE>The Players on Primal </TITLE>
+</HEAD>
+
+<BODY BGCOLOR=white text=black>
+<CENTER>
+
+<P>
+<BR><img src="../letters/P.gif" width="50" height="50">rimal is populated by many who choose to spend time with friends, catch up<BR>
+on the latest news, and test their mettle in the newest areas.<BR>
+It is an ever-growing place where players can socialise with friendly companions, <BR>
+join in for a hard campaign, compete against each other in quests, and enjoy themselves.
+
+<P>
+
+<img src="../letters/O.gif" width="50" height="50">riginally created by John Auckett and Brett Murphy, <BR>
+<i>Primal</i> has since grown tremendously, and is currently running under the capable hands of <b><br>
+	Sandii</b>, supplemented by <b>Dangermouse</b>'s formidable skills.<P>
+
+<P>
+<img src="../letters/separator.gif" width="400" height="18">
+
+<TABLE width = 65%>
+<TR>
+<TD ><img src="../letters/S.gif" width="50" height="50">andii is dedicated to bringing harmony to <i>Primal</i>,
+and works constantly at improving the game, as well as handling 
+player relations.
+<TD> <img src="../players/sandii.gif" width="130" height="142">
+</TABLE>
+
+<TABLE width=65%>
+<TR>
+<TD width=10%><img src="../players/dm2.gif" width="100" height="129"> 
+<TD><img src="../letters/D.gif" width="50" height="50">angermouse has the skill to
+    quickly and easily put into practice the ideas and suggestions 
+	that the gods and players churn out.
+</TABLE>
+
+<P>
+<hr width=50%>
+
+<img src="../letters/T.gif" width="50" height="50"> here are also players who have achieved exalted status through legendary<BR>
+deeds marking them forever on the records of Primal, as they continue to be a part of the world<BR>
+and contribute to make it greater yet. <BR>
+They are the Gods of <i>Primal</i>.
+
+<P>
+<a href="gods.htm"><img src="../letters/gods.gif" border=0 width="150" height="150"></a>
+
+<P>
+<hr width=50%>
+
+<img src="../letters/R.gif" width="50" height="50">esidents on <i>Primal</i>, among the many players who come <BR>
+to enjoy the game, these players are forever loitering, gossiping, enjoying a good quest and<BR>
+helping their clan members.
+<P>
+<A href="players.htm"><img src="../letters/players.gif" border=0 width="150" height="166"></A>
+
+<P>
+
+<BR><a href="../index.html" target="_parent"><img src="../letters/back.gif" border = 0 width="94" height="27"></a>
+<P>
+<img src="../letters/separator.gif" width="400" height="18"><BR>
+</CENTER>
+</BODY>
+</HTML>
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

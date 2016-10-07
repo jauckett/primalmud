@@ -1,0 +1,57 @@
+gt n;n;n;u;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n
+df drink fountain
+x cast 'word of recall'
+ci cast 'invisibility' self
+wor cast 'word of recall'
+od open door
+eb eat bread
+ds drink skin
+gjc get corpse
+pwf open force;put canteen force;close force
+gwf open force;get canteen force;close force
+dw drink canteen
+qheal open force;get heal force;close force;quaff heal
+bh buy heal
+jc junk corpse
+gc get corpse
+` quitreally
+hm cast 'cure light'
+wake wake;stand
+gr grat <-=*$1*=->
+fsf fill skin fountain
+fs fill skin
+ws wield sabre
+rs remove sabre
+ghf open force;get healing force;close force
+gsb get scroll back
+og open gate
+b buy meat
+home recite scroll
+heal cast 'cure light' $1
+gac get all corpse
+blind cast 'blindness' $1
+gmb get meat back
+gwb get water back
+pwb put water back
+ec examine corpse
+bw buy white
+bb buy blue
+br buy red
+bs backstab $1
+bm buy meat
+gh get healing
+qh quaff healing
+gf open force;get $* force;close force
+pf open force;put $* force;close force
+lf open force;examine force;close force
+gmf open force;get meat force;close force
+gsf open force;get scroll force;close force
+emf open force
+fw fill canteen fountain
+bbr buy bread
+cf cast 'create food'
+h cast 'cure light' $1
+di cast 'detect invisibility'
+em eat mushroom
+gw n;n;n;u;n;n;w;w;w;s;go stage
+cb cast 'cure blind'

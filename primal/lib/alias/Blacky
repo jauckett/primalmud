@@ -1,0 +1,29 @@
+dinv1 cast 'detect invisibility'
+dinv cast 'detect invisibility' $1
+bbf backstab buffalo
+bbu backstab buffalo
+bbt backstab traveller
+kkc backstab cat
+rr recite recall
+kt backstab trickster
+km backstab merchant
+kc backstab citizen
+bb backstab $1
+ke kick enfan
+str1 cast 'strength'
+str cast 'strength' $1
+kk kick $1
+id rec identify $1
+as assist smokin
+cf1 cast 'create food'
+cl cast 'cure critic' $1
+ll say assist me
+infra cast 'infravision' $1
+infra1 cast 'infravision'
+bw backstab warrior
+cl1 cast 'cure critic'
+bs backstab Skeleton
+bg backstab ghast
+bf backstab enfan
+revp cast 'remove poison' $1
+revp1 cast 'remove poison'

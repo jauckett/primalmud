@@ -1,0 +1,64 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@1 tr bandit
+heal cast 'cure critic'
+feed cast 'create food';eat mushroom
+ex examine corpse
+og open gate $1
+whi get white backpack;q white
+grat grat --==**<<(( $1 ))>>**==--
+j junk $1
+wake wake;stand
+f flee
+all get all corpse
+gg get gold all.corpse
+thirs drink skin
+cure cast 'cure light'
+see cast 'infravision'
+di cast 'detect invis'
+invis cast 'invisibility'
+ar cast 'armor'
+bless cast 'bless'
+red get red backpack;q red
+a cast 'shocking grasp' $1
+aa cast 'shocking grasp'
+bs backstab $1
+c cast 'color' $1
+cc cast 'color'
+r cast 'word of recall'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

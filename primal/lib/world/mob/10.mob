@@ -1,0 +1,243 @@
+#1001
+frog~
+A giant frog~
+A giant frog is here croaking loudly.
+~
+You see a giant frog. 
+~
+98 32768 -100 S
+3 19 7 1d8+15 1d5+1
+767 300
+8 8 0
+#1002
+spider~
+The huge spider~
+A huge spider is scuttling towards you.
+~
+The huge spider is as big as a diner plate, and has fangs like steak knives.
+~
+16483 0 -50 S
+3 18 8 2d4+18 1d8+1
+928 300
+8 8 0
+#1003
+snake~
+The giant snake~
+A giant python snake is slithering towards you.
+~
+The giant snake is 20 feet long and looks like it could easily crush a 
+baby elephant.
+~
+99 1024 0 S
+3 17 5 3d5+10 2d6+1
+1300 390
+8 8 0
+#1004
+brigand~
+The brigand~
+A brigand is standing here looking suspicious.
+~
+The brigand looks like a skilled and dirty fighter.
+~
+102 0 0 S
+3 19 6 2d8+6 1d8+1
+904 300
+8 8 1
+#1005
+leader brigand~
+The brigand leader~
+The brigand leader stands here.
+~
+The brigand leader looks old but very capable.
+~
+198 1024 -200 S
+4 16 4 4d8+26 1d8+3
+1736 690
+8 8 0
+#1006
+rat~
+The giant rat~
+A giant rat is here scavenging for food.
+~
+The rat is the size of dog and has teeth like one too.
+~
+64 1024 0 S
+1 20 7 1d2+1 1d2+1
+347 200
+9 9 0
+#1007
+lizard~
+The giant lizard~
+A giant lizard is lying in wait in the shadows.
+~
+Th giant lizard is about 9 feet long and has razor sharp claws.
+~
+68 1024 0 S
+2 18 5 2d6+60 1d7+1
+1435 300
+4 4 0
+#1008
+zombie~
+The zombie~
+A hideous zombie is standing here munching on something.
+~
+The zombie was once human and you are sure you recognize the face, but the 
+decay has taken its toll on this wretched thing.
+~
+68 136 0 S
+2 18 8 2d4+13 2d4+3
+1078 400
+8 8 0
+#1009
+gnoll~
+The gnoll~
+A tall gnoll is standing here.
+~
+The gnoll stands about six feet tall and looks quite strong.
+~
+70 1024 -100 S
+2 18 5 1d9+17 2d4+3
+1240 300
+8 8 0
+#1010
+ogre~
+The ogre~
+A fearsome ogre stands here.
+~
+The ogre towers over you, and looks like he could split your skull with 
+his little finger.
+~
+70 1024 -300 S
+5 15 5 4d8+20 2d5+4
+1885 970
+8 8 0
+#1011
+ghoul~
+The ghoul~
+A ghoul is here waiting for another victim.
+~
+The ghoul was once human and vaguely looks like an old friend of yours. Its
+skin is a hideous pale grey and covered with oozing scabs and sores.
+~
+100 136 -400 S
+3 17 6 2d6+19 1d7+5
+1464 450
+8 8 0
+#1012
+ghast~
+The ghast~
+A ghast is here waiting for another victim.
+~
+The ghast was once human and vaguely looks like an old friend of yours. Its
+skin is a hideous pale grey and covered with oozing scabs and sores.
+~
+101 136 -400 S
+9 17 6 2d6+99 1d17+5
+3364 6000
+9 9 0
+#1013
+gargoyle~
+The Gargoyle~
+A gargoyle is here glaring at you.
+~
+The gargoyle has pale red leathery skin and stares at you
+with glowing red eyes.
+~
+100 136 -500 S
+14 6 6 2d15+170 1d8+10
+4714 17000
+9 9 0
+#1014
+vampire~
+The vampire~
+A vampire is here glaring at you.
+~
+The vampire wears a fine glowing cape. Its skin is deathly pale.
+~
+101 136 -1000 S
+50 0 -6 2d15+3290 3d10+39
+120000 1200000
+9 9 0
+#1015
+crypt thing~
+The crypt thing~
+A crypt thing is here staring at you.
+~
+The crypt thing is shrowded in rotting robes which completely obscure its 
+features. Its skin is deathly pale. 
+~
+66 0 -1000 S
+20 2 6 2d15+390 1d12+10
+7714 40000
+9 9 0
+#1016
+demon lava~
+The demon lava~
+The faceless form of a demon lava is here trying to grab you.
+~
+The demon lava is a faceless blob of pure evil.
+~
+101 136 -1000 S
+9 11 0 2d15+90 1d6+5
+3750 6000
+8 8 0
+#1017
+minor demon~
+The minor demon~
+A minor demon is here glaring at you.
+~
+The demon was once human but has been 'rewarded' by some powerful
+evil deity.
+~
+101 136 -1000 S
+19 1 -5 2d15+190 1d8+10
+8725 35000
+8 8 0
+#1018
+demon lord~
+The demon lord~
+A demom lord is here watching you.
+~
+The demon lord must have been evil incarnate in its mortal life. 
+It now stands here emanating the power of evil.
+~
+101 136 -1000 S
+29 2 -10 2d15+390 1d10+15
+16950 150000
+8 8 0
+#1019
+angelic servant~
+The angelic servant~
+An angelic servant is here watching over all things that are good.
+~
+The servant has a look of serenity and untold beauty about it.
+~
+65 136 1000 S
+9 11 0 2d15+90 1d6+5
+3750 6000
+8 8 0
+#1020
+patron saint~
+The patron saint~
+A patron saint of all things good is here smiling at you.
+~
+The saint is the most beautiful being you have ever seen.
+~
+65 136 1000 S
+19 1 -5 2d15+190 1d8+10
+8725 35000
+8 8 0
+#1021
+paladin saint~
+The paladin saint~
+A paladin saint, protector of the meek is here watching over you.
+~
+The paladin saint radiates with an inner strength of 
+goodness and niceness.
+~
+65 136 1000 S
+29 0 -10 2d15+290 1d10+15
+15950 150000
+8 8 0
+#99999
+$~

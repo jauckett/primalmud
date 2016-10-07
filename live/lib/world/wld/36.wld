@@ -1,0 +1,1222 @@
+#3600
+Haven latrines~
+This place stinks!
+This is where the people of Haven come to relieve themselves.
+From here, you could enter the sewers if you were that way inclined, 
+but who knows what sort of creature would live in a place like that,
+and besides, it stinks even worse down there than it does here.
+There's some graffiti on the wall here, and an escape from the stench to the south.
+~
+36 c 1 0
+D2
+~
+~
+0 0 1105
+E
+graffiti~
+There are some particularly unpleasant things written about some of the gods which you feel embarrassed just reading.
+Why someone would write something like that about the benevalent Gods of Primal is a mystery.
+Scratched particularly deeply into one wall is the phrase
+"For a good time, Call Gamina!"
+~
+S
+#3601
+Top of the sewer access tunnel~
+   This dark smelly sewer nearly makes you bring up your last meal.  There are
+rats scampering around feeding off the vile on the walls
+~
+36 0 0 0
+D4
+~
+~
+0 0 3600
+D5
+~
+~
+0 0 3604
+S
+#3602
+Main sewer before the grate~
+   You are before the crap catcher, catching all the crap that is put down the
+toilets in Haven
+~
+36 aiA 0 0
+D1
+~
+~
+0 0 3620
+D5
+~
+~
+0 0 3641
+S
+#3603
+***empty room***~
+   -
+~
+36 aciA 0 0
+S
+#3604
+Sewer access~
+   You nearly pass out from the lack of oxygen as the faint green mist of gas
+surrounds you.  You can hardly see your hands and wonder what the hell lies
+down here!    
+~
+36 d 0 0
+D2
+~
+~
+0 0 3605
+D4
+~
+~
+0 0 3601
+S
+#3605
+In the sewer beneath Southbank and Main~
+   You are in the sewer junction below Main Street and Southbank Road.  Here
+the sewage travelling from the east joins the sewage travelling from the west
+creating a faster flowing creek of sewage to the south.    
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3604
+D1
+~
+~
+0 0 3609
+D2
+~
+~
+0 0 3612
+D3
+~
+~
+0 0 3606
+S
+#3606
+The sewer beneath Southbank Rd~
+   Lined with algie the walls are constructed well, and have been here for
+hundreds of years.  The algie is slowly eating away at the mortar, weakening
+the structure.  A small trickle of sewage flows from the west to the east.    
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3605
+D3
+~
+~
+0 0 3607
+S
+#3607
+The sewer beneath Southbank Rd~
+   A trickle of sewage outlined with algie is here, joining the main sewage
+tunnel.  You can travel east and west or head up into the slightly smaller
+sewage tunnel.    
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3606
+D3
+~
+~
+0 0 3608
+D4
+~
+~
+0 0 3629
+S
+T 3607
+#3608
+Western Rat's Nest~
+The smell here is particularly bad and you wonder what has died down here
+lately.  This place is infested with rats who are just now thinking what a nice
+meal you'd make.  You should probably go back east before you get eaten.    
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3607
+S
+#3609
+The sewer beneath Southbank Rd~
+   The algie here tends to cover the walls and floor, suggesting putrid sewage
+flowing from the east
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3610
+D3
+~
+~
+0 0 3605
+S
+#3610
+The sewer beneath Southbank Rd~
+   There is a very slight trickle of sewage here, yet the algie is growing 1
+foot each side of the flow of sewage.  There must be a daily flushing from the
+above business'.    
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3611
+D3
+~
+~
+0 0 3609
+S
+#3611
+Eastern Rat's Nest~
+The rats in this area have turned the constant supply of fresh refuse from
+above into a makeshift nest.  This is disgusting and you have a strong desire
+to get out of here as fast as you can.    
+~
+36 adiA 0 0
+D3
+~
+~
+0 0 3610
+S
+T 3608
+#3612
+The sewer beneath Main St~
+   The sewage here flows from north to south.  The smell is starting to be
+overpowering
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3605
+D2
+~
+~
+0 0 3613
+S
+#3613
+The sewer beneath Main St~
+   The sewage flows from north to south and a sulphur stench fills your
+nostrels
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3612
+D2
+~
+~
+0 0 3614
+S
+#3614
+In the sewer beneath the crossroads~
+   The stench here is quite powerful, as this junction of tunnels flows with a
+rather large amount of waste from Regiment Road.    
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3613
+D1
+~
+~
+0 0 3625
+D2
+~
+~
+0 0 3615
+D3
+~
+~
+0 0 3621
+S
+T 3614
+#3615
+The sewer beneath Main St~
+   A putrid stench fills the air here as the creek of sewage flows from the
+north to the south
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3614
+D2
+~
+~
+0 0 3616
+S
+#3616
+The sewer beneath Main St~
+   The stench here is overwhelming and you really wonder if this is worth it
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3615
+D2
+~
+~
+0 0 3617
+S
+#3617
+The sewer beneath Main St~
+You start to get light headed as you continue towards the overwelming stench
+coming from the south.  The sewage continues to flow in that direction
+towards...  Who knows what.    
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3616
+D2
+~
+~
+0 0 3618
+S
+#3618
+Main sewer~
+   The oxygen here is thinner than before and the stench is so powerful you
+really need a gas mask to stay fully aware.  The creek of sewage flows to
+the south
+~
+36 adA 16 0
+D0
+~
+~
+0 0 3617
+D2
+~
+~
+0 0 3619
+S
+#3619
+Main sewer~
+You continue along the sewer towards what now appears to be a grate at the end
+of the pipe.  The further along this tunnel you preceed, the more sewage is
+flowing, its all you can do to keep your balance.    
+~
+36 adA 16 0
+D0
+~
+~
+0 0 3618
+D2
+~
+~
+0 0 3641
+S
+#3620
+On the vine~
+A magical force field stops you from climbing any further at the moment. an under construction sign hangs in the air.
+For now, your only exit is down.
+~
+36 B 3 0
+D5
+~
+~
+0 0 3660
+S
+#3621
+In the sewer beneath Regiment Rd~
+   The trickle of sewage flows from the west to the east.  You should breathe
+through your mouth as to avoid the stench!    
+~
+36 adg 0 0
+D1
+~
+~
+0 0 3614
+D4
+~
+~
+0 0 3622
+S
+#3622
+In the sewer beneath Regiment Rd~
+   Flowing from your west, the small trickle of sewage allows algie to grow on
+the base of the tunnel, making it slippery to walk on.  The slope down from
+here into the main tunnel does not help you at all!    
+~
+36 adiA 0 0
+D3
+~
+~
+0 0 3623
+D5
+~
+~
+0 0 3621
+S
+T 3622
+#3623
+In the sewer beneath Regiment Rd~
+   You slip as you take steps on the algie.  The trickle of sewage continues to flow from
+the west to the east
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3622
+D3
+~
+~
+0 0 3624
+S
+#3624
+In the sewer beneath Regiment Rd~
+   There is a trickle of sewage flowing from the grates to the West, North and
+South.  They are half full of muck that has been building up for years.  The
+stench is overwhelming!    
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3623
+S
+T 3608
+#3625
+In the sewer beneath Regiment Rd~
+   A black trickle of sewage flows from the east to the west
+~
+36 adA 0 0
+D3
+~
+~
+0 0 3614
+D4
+~
+~
+0 0 3626
+S
+#3626
+In the sewer beneath Regiment Rd~
+   A vile stench comes from the east and you notice the trickle of sewage here
+is very black.    
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3627
+D5
+~
+~
+0 0 3625
+S
+T 3626
+#3627
+In the sewer beneath Regiment Rd~
+   A tree from above has managed to force it's way through the sewage ceiling
+and feed off the nutrients of the sewage.  A build up of unmentionables to the east is
+helping this. You nearly vomit upon inspection of the pile
+~
+36 adiA 0 0
+D1
+~
+~
+0 0 3628
+D3
+~
+~
+0 0 3626
+S
+#3628
+In the sewer beneath Regiment Rd~
+   There is a trickle of sewage flowing from the grates to the East, North and
+South.  They are half full of muck that has been building up for years.  The
+stench is overwhelming!    
+~
+36 aiA 0 0
+D3
+~
+~
+0 0 3627
+S
+T 3608
+#3629
+In the sewer beneath Haven Mountain~
+   The liquid forms a slight trickle sound as it falls down the ledge.  North
+of you is a continuation of a slightly smaller sewer tunnel
+~
+36 aiA 0 0
+D0
+~
+~
+0 0 3630
+D5
+~
+~
+0 0 3607
+S
+#3630
+In the sewer beneath Haven Mountain~
+   A small amount of liquid moves along the base of the sewer.  You can head
+slightly up north or head slightly down south
+~
+36 aiA 0 0
+D0
+~
+~
+0 0 3632
+D2
+~
+~
+0 0 3629
+S
+#3631
+Bottom of a sewage fall~
+   Surrounded by liquid shit, the gas given off by this is forcing up the
+oxygen making it terribly hard to breathe.    
+~
+36 afiA 38 0
+D4
+~
+~
+0 0 3620
+S
+#3632
+In the sewer~
+   You have reached what looks like the highest point in the sewer system,
+leading up into a limestone tunnel
+~
+36 aiA 0 0
+D2
+~
+~
+0 0 3630
+D4
+~
+seal~
+1 0 3633
+S
+#3633
+Limestone tunnel~
+   Seemingly carved through the limestone, this tunnel has long been abondoned
+~
+36 aiA 0 0
+D4
+~
+~
+0 0 3634
+D5
+~
+seal~
+1 0 3632
+S
+#3634
+Limestone tunnel~
+   A strange place you have stumbled into, seemingly what you think is an old
+exit out of the sewers may turn out to be something else indeed
+~
+36 aiA 0 0
+D0
+~
+~
+0 0 3635
+D5
+~
+~
+0 0 3633
+S
+#3635
+Limestone tunnel~
+   Light appears from the corner to the east, suggesting you have reached some
+kind of cavern
+~
+36 0 0 0
+D1
+~
+~
+0 0 3636
+D2
+~
+~
+0 0 3634
+S
+#3636
+Limestone tunnel~
+   The light here seems to be comming from somewhere above.  The limestone
+walls are polished as if this was once a special place
+~
+36 0 0 0
+D3
+~
+~
+0 0 3635
+D4
+~
+~
+0 0 3637
+S
+#3637
+Limestone tunnel~
+   The light here seems to be comming from somewhere above.  The limestone
+walls are polished as if this was once a special place.    
+~
+36 0 0 0
+D4
+~
+~
+0 0 3638
+D5
+~
+~
+0 0 3636
+S
+#3638
+The ancient ruins~
+   You are before the ancient ruins of Haven.  This was once used as a main
+travelling point to the outer world, yet over time technology knowledge
+increased, creating new possibilities unseen to the locals.  They began to
+realise that hiding their technology from others did not benefit them in the
+end and built new transporters in the actual city.    
+~
+36 0 0 0
+D3
+~
+~
+0 0 3639
+D5
+~
+~
+0 0 3637
+S
+#3639
+The Ancient Ruins~
+   Limestone walls line this cavern that would be very old, perhaps manually
+dug out by the ancestors of the people of Haven.    
+~
+36 0 0 0
+D1
+~
+~
+0 0 3638
+S
+#3640
+An adjacent room~
+   Secretly hidden behind the old portal this portal room is magnificent.  
+Lined with marble flooring and polished up walls you could easily live in here
+~
+36 0 0 0
+S
+#3641
+At the grate~
+You have arrived at the grate which serves to filter out the solid objects from
+the rest of the sludge which flows on through to a settling pool.  There is no
+access beyond this point.  The smell here is absolutely gross, you will have
+nightmares about this place for the rest of your life.    
+~
+36 ad 16 0
+D0
+~
+~
+0 0 3619
+D4
+~
+~
+0 0 -1
+S
+#3642
+Sewage settling pond~
+   Your in the sewage settling pond, stirring up all the disgusting sediment
+that had settled on the bottom.    
+~
+36 adfgA 0 0
+D2
+~
+~
+0 0 3643
+S
+#3643
+Sewage settling pond~
+   Your in the sewage settling pond, stirring up all the disgusting sediment
+that had settled on the bottom.    
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3642
+D2
+~
+~
+0 0 3644
+S
+#3644
+End of the sewage settling pond~
+   Your at the end of the sewage settling pond, stirring up all the disgusting
+sediment that had settled on the bottom.  A small wall divides the pond from
+the outage tunnel, being a few feet above the pond floor.    
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3643
+D2
+~
+~
+0 0 3645
+S
+#3645
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  It
+isn't as smelly as earlier as a majority of the sediment has been deposited in
+the settling pond.    
+~
+36 adA 0 0
+D0
+~
+~
+0 0 3644
+D2
+~
+~
+0 0 3646
+S
+#3646
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  It
+isn't as smelly as earlier as a majority of the sediment has been deposited in
+the settling pond.    
+~
+36 adi 0 0
+D0
+~
+~
+0 0 3645
+D2
+~
+~
+0 0 3647
+S
+#3647
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  It
+isn't as smelly as earlier as a majority of the sediment has been deposited in
+the settling pond.    
+~
+36 adi 0 0
+D0
+~
+~
+0 0 3646
+D2
+~
+~
+0 0 3648
+S
+#3648
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  It
+isn't as smelly as earlier as a majority of the sediment has been deposited in
+the settling pond.    
+~
+36 adi 0 0
+D0
+~
+~
+0 0 3647
+D2
+~
+~
+0 0 3649
+S
+#3649
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  It
+isn't as smelly as earlier as a majority of the sediment has been deposited in
+the settling pond.       
+The tunnel bends to the west here.
+~
+36 adi 0 0
+D0
+~
+~
+0 0 3648
+D3
+~
+~
+0 0 3652
+S
+#3650
+Sewage access tunnel~
+   You are in the access tunnel of the Haven sewers.  Thankfully it's not that
+unpleasant here and you can breathe unaided.    
+~
+36 acdi 0 0
+D4
+~
+~
+0 0 3651
+D5
+~
+~
+0 0 3652
+S
+#3651
+Sewage access tunnel~
+   You are in the access tunnel of the Haven sewers.  Thankfully it's not that
+unpleasant here and you can breathe unaided.    
+~
+36 adi 0 0
+D4
+~
+~
+0 0 2101
+D5
+~
+~
+0 0 3650
+S
+#3652
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  It
+isn't as smelly as earlier as a majority of the sediment has been deposited in
+the settling pond.    
+~
+36 adi 0 0
+D1
+~
+~
+0 0 3649
+D3
+~
+~
+0 0 3653
+D4
+~
+~
+0 0 -1
+S
+#3653
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  It
+isn't as smelly as earlier as a majority of the sediment has been deposited in
+the settling pond.    
+~
+36 adi 0 0
+D1
+~
+~
+0 0 3652
+D2
+~
+~
+0 0 3654
+S
+#3654
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  You
+sense you must be quite a distance from Haven as you have travelled quite far
+through the tunnel
+~
+36 adi 0 0
+D0
+~
+~
+0 0 3653
+D2
+~
+~
+0 0 3655
+S
+#3655
+Sewage outage tunnel~
+   Your in the tunnel that carries the sewage out of the town of Haven.  You
+sense you must be quite a distance from Haven as you have travelled quite far
+through the tunnel.    
+~
+36 adi 0 0
+D0
+~
+~
+0 0 3654
+D2
+~
+~
+0 0 3656
+S
+#3656
+End of the sewage outage tunnel~
+   You have reached the end of the sewage tunnel of Haven!  There is a fresh
+breeze coming in from the south.    
+~
+36 cdi 0 0
+D0
+~
+~
+0 0 3655
+D2
+~
+~
+0 0 3657
+S
+#3657
+Haven Swamp~
+   You are in the swamp of Haven where the water run off fills this low lying
+land.  The treated sewage empties out here, giving all year round nutrients to
+the surrounding plant life.  There are reeds surrounding and in the swamp.  
+Huge green willow trees are spotted throughout the banks, and a number of
+smaller bushes lie between these.  This swamp is secluded from everything and
+supports a large variety of wildlife.  You can travel north back into the
+tunnel or explore the swamp to the East, West or South.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3656
+D1
+~
+~
+0 0 3666
+D2
+~
+~
+0 0 3665
+D3
+~
+~
+0 0 3658
+S
+#3658
+Haven Swamp~
+   You are in the swamp of Haven, secluded from the rest of the land, it is
+magnificent and peaceful.  You can travel to the outage tunnel to the East, or
+explore the swamp to the South
+~
+36 0 6 0
+D1
+~
+~
+0 0 3657
+D2
+~
+~
+0 0 3659
+S
+#3659
+Haven Swamp~
+   You are in the swamp of Haven, secluded from the rest of the land, it is
+magnificent and peaceful.  You can explore the swamp to the North, South or
+East.    
+~
+36 0 0 0
+D0
+~
+~
+0 0 3658
+D1
+~
+~
+0 0 3665
+D2
+~
+~
+0 0 3660
+S
+#3660
+Haven Swamp~
+   You are in the swamp of Haven, secluded from the rest of the land, it is
+magnificent and peaceful.  You can explore the swamp to the North, South, East
+or West.  A large thick vine hangs from a huge tree branch high above.  You are
+able to climb it if you feel upto it to see what lies at the top.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3659
+D1
+~
+~
+0 0 3664
+D2
+~
+~
+0 0 3662
+D3
+~
+~
+0 0 3661
+D4
+~
+undefined~
+0 0 3620
+S
+#3661
+Haven Swamp~
+   You are at the far West side of the swamp of Haven.  Overgrown bushes are to
+the West so venturing there is out of the question.  You can explore the main
+swamp to the East.    
+~
+36 0 6 0
+D1
+~
+~
+0 0 3660
+D3
+~
+~
+0 0 3673
+S
+#3662
+Haven Swamp~
+   You are at the Southern end of the swamp of Haven.  Overgrown bushes are to
+the South so venturing there is out of the question.  You can explore the main
+swamp to the North or East.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3660
+D1
+~
+~
+0 0 3663
+S
+#3663
+Haven Swamp~
+   You are at the Southern end of the swamp of Haven.  Overgrown bushes are to
+the South so venturing there is out of the question.  You can explore the main
+swamp to the North, East or West.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3664
+D1
+~
+~
+0 0 3671
+D3
+~
+~
+0 0 3662
+S
+#3664
+Haven Swamp~
+   You are in the swamp of Haven, surrounded by water.  You can explore the
+swamp to the North, South, East or West.    
+~
+36 0 0 0
+D0
+~
+~
+0 0 3665
+D1
+~
+~
+0 0 3670
+D2
+~
+~
+0 0 3663
+D3
+~
+~
+0 0 3660
+S
+#3665
+haven Swamp~
+   You are in the swamp of Haven, surrounded by water.  You can explore the
+swamp to the North, South, East or West.    
+~
+36 0 0 0
+D0
+~
+~
+0 0 3657
+D1
+~
+~
+0 0 3667
+D2
+~
+~
+0 0 3664
+D3
+~
+~
+0 0 3659
+S
+#3666
+Haven Swamp~
+   You are in the swamp of Haven at the Northern end.  A high cliff lies to the
+North and to the East.  You can explore the swamp to the South or head to the
+tunnel to the East.    
+~
+36 0 6 0
+D2
+~
+~
+0 0 3667
+D3
+~
+~
+0 0 3657
+S
+#3667
+Haven Swamp~
+   You are in the swamp of Haven, surrounded by water.  You can explore the
+swamp to the North, South, East or West.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3666
+D1
+~
+~
+0 0 3668
+D2
+~
+~
+0 0 3670
+D3
+~
+~
+0 0 3665
+S
+#3668
+Haven Swamp~
+   You are in the swamp of Haven at the Northern end.  A high cliff lies to the
+North and East.  You can explore the swamp to the South or West.    
+~
+36 0 6 0
+D2
+~
+~
+0 0 3669
+D3
+~
+~
+0 0 3667
+S
+#3669
+Haven Swamp~
+   You are in the swamp of Haven at the Northern end.  A high cliff lies to the
+East.  You can explore the swamp to the North, South or West.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3668
+D2
+~
+~
+0 0 3672
+D3
+~
+~
+0 0 3670
+S
+#3670
+Haven Swamp~
+   Your in the swamp of Haven surrounded by water.  You can explore the swamp
+to the North, South, East or West.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3667
+D1
+~
+~
+0 0 3669
+D2
+~
+~
+0 0 3671
+D3
+~
+~
+0 0 3664
+S
+#3671
+Haven Swamp~
+   Your at the Southern end of the swamp of Haven.  Overgrown bushes are to the
+South so venturing there is out of the question.  You can explore the main
+swamp to the North, East or West.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3670
+D1
+~
+~
+0 0 3672
+D3
+~
+~
+0 0 3663
+S
+#3672
+Haven Swamp~
+   You are at the Southern end of the swamp of Haven.  Overgrown bushes are to
+the South so venturing there is out of the question.  A cliff lies to the East.
+You can explore the main swamp to the North, East or West.    
+~
+36 0 6 0
+D0
+~
+~
+0 0 3669
+D3
+~
+~
+0 0 3671
+S
+#3673
+A narrow hole in the bank~
+   You are in the narrow hole that turns out to be rather large inside.  This
+is the nest of the Swamp platypus, lined with sticks and leaves for its babies
+to sleep on.  It is quite warm here
+~
+36 adgh 0 0
+D1
+~
+~
+0 0 3661
+D3
+~
+nest~
+1 0 3674
+S
+#3674
+In the nest~
+   You are in the platypus nest, with only your head and shoulders able to fit.
+It is lined with sticks and leaves and it quite warm.    
+~
+36 adefhi 0 0
+D1
+~
+Nest~
+1 0 3673
+S
+$~

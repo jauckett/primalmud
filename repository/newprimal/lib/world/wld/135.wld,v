@@ -1,0 +1,1806 @@
+head	1.1;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.10.14.01.01.24;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@#13500
+The Foyer, northwest corner~
+You are in the corner of a seedy Whorehouse foyer, which continues south
+and east from here. Just here the atmosphere is a little bit quieter,
+and it is difficult to get a good view of the stage due to the intervening
+and enthusiastic crowd. Some worn out looking rustic locals are relaxing
+here between bouts, seated round a small table playing poker with a...
+distinctive... pack of cards.
+~
+135 0 0
+D1
+The foyer continues east. On the wall near here you can see some sort of
+sign, and a bit further on, a clockwork-driven vending machine. Maybe
+you can get a better view of the stage from there?
+~
+~
+0 -1 13501
+D2
+The foyer continues south, towards the entrance. On the wall nearby is
+posted a list that you can't quite read from here...
+~
+~
+0 -1 13506
+E
+locals players people men~
+These men are seedy drunken bums, hoping to win enough money gambling at
+cards to afford another 'private dance' with one of the girls working
+here. They are not worth bothering with...
+~
+E
+table~
+This is just a rough-hewn little card table that has seen better days.
+~
+E
+poker game~
+The jaded old whorehounds here are playing blind five card stud poker,
+betting nickels and dimes... ho hum, not even worth joining in.
+~
+E
+card cards deck pack~
+This is apparently one of those rudey nudie packs... every card has its
+own unique pornographic painting illustrating it... it appears that some
+of the models for these pictures may actually work elsewhere in this
+establishment!
+~
+E
+sign list machine~
+You can't make out the details from here... perhaps if you moved closer?
+~
+S
+#13501
+The Foyer, northern end~
+You are near the northern wall of the tawdry Whorehouse foyer, which
+continues a short way west and a bit further east; the heart of the room
+is towards the south where a large crowd watches the raised stage and the
+scantily dressed dancers performing on it. From here you have a fairly
+good view of both the stage and the band - not that anyone is watching
+the band! The people right here around you are a little rowdy, but more
+subdued than those closer to the 'entertainment'.
+ 
+On the wall right here you can see an advertising sign...
+~
+135 0 0
+D1
+The foyer continues east. Near the wall just east of here is some sort
+of mechanically driven, clockwork operated vending machine, but you can't
+make out any details from here... past that is the northeast corner of
+the room, which features some kind of noticeboard...
+~
+~
+0 -1 13502
+D2
+To the south you are looking towards the heart of the foyer. Judging from
+the noisy crowd's reactions they must have an excellent view of the stage!
+~
+~
+0 -1 13507
+D3
+Just west of here is the northwest corner of the room, where you can see a
+small group of disreputable types gathered around a tiny beaten up old
+table...
+~
+~
+0 -1 13500
+E
+people~
+You see the usual collection of good-for-nothin, worthless, scum-sucking,
+side-windin' two-timin', four-flushin', horse-stealin', gutter-trash
+low lifes, and their friends.
+~
+E
+wall~
+All you see is a dull ole everyday whorehouse wall, on which is posted
+an eye catching sign...
+~
+E
+sign ad advert advertisement poster vacancy help wanted~
++-------------------------------------------------------------------+
+|                                                                   |
+|                            VACANCIES!!!                           |
+|                            ============                           |
+|                                                                   |
+|               LADIES WANTED FOR IMMEDIATE EMPLOYMENT!             |
+|                                                                   |
+|    Opportunities exist for women of all ages in an exciting line  |
+|    of work where you get to meet new people everyday! And night!  |
+|                                                                   |
+|    Loads of Fringe Benefits including:                            |
+|               Nether Garments Allowance                           |
+|               Free Fringes (on those cute lil cowgirl vests)      |
+|               Work from Home & Live where you Work                |
+|                     - NO COMMUTING!!!                             |
+|               Healthy athletic lifestyle, plenty of exercise      |
+|                                and                                |
+|      All the bathtub moonshine gin you can (sponge) bath in!!!    |
+|                                                                   |
+|       Don't miss out! Join our exclusive range of escorts,        |
+|      professional partners, good time gals, exotic dancers,       |
+|    erotic performance artists or whatever euphemism you prefer    |
+|                              to use...                            |
+|                                                                   |
+|                               TODAY!                              |
+|                                                                   |
++-------------------------------------------------------------------+
+~
+E
+machine noticeboard notice board table~
+It's too far away to make out any details - perhaps if you were a mite
+closer?
+~
+S
+#13502
+The Foyer, northern end~
+You are near the northern wall of the garish Whorehouse foyer, which
+continues a short way east and a bit further west from here; to the south
+is the heart of the room where the dancers dance on a raised stage, the
+musicians muse in front of them, and the crowd crowds round them. From
+here you have a reasonably good view of the goings on but you could
+probably find a better vantage point a bit further south.
+ 
+Just near the wall right here is a rickety old mechanically operated
+vending machine - on it you can see some printed instructions...
+~
+135 0 0
+D1
+Just east of here is the northeast corner of the room, which has a notice
+board, with various cards and pictures stuck on it, attached to the wall.
+~
+~
+0 -1 13503
+D2
+South from here you see the riotous crowd whooping it up at the lewd 
+onstage displays from the dancing girls. You don't have a bad view from
+here but you are sure you could see better just a bit further south...
+~
+~
+0 -1 13508
+D3
+The foyer continues a little way to the west. Close by here you can see
+a vacancy notice on the wall, and further west, in the corner of the room,
+there is a group of men sitting round a table, engrossed in something.
+~
+~
+0 -1 13501
+E
+vend vending machine~
+You see a big clunky clockwork operated mechanically driven vending machine
+made of heavy iron. It apparently dispenses aphrodisiacs! On the front is
+a set of printed directions, and looking closer you can also see a small
+hand made sign...
+~
+E
+directions~
++-------------------------------------------------------------------+
+|                 LAZY DAISY'S PATENTED PICK-ME-UPS                 |
+|                                                                   |
+|   Do you come in after a long hard day riding a horse and not     |
+|   feel up to riding anything else? Is your tired body letting     |
+|   you down in the worst possible way when you are here for a      |
+|   good time? Is it not as easy as it should be to enjoy hard      |
+|   times?                                                          |
+|                                                                   |
+|   Of course not! You're a rough, tough, shoot-em-up cowboy!       |
+|   You don't have problems like THAT!           BUT....            |
+|                                                                   |
+|   Just for a laugh, and not cause you need one, of course, why    |
+|   not buy one of Lazy Daisy's Patented Pick Me Ups? At three for  |
+|   a cent they are dirt cheap, and all the dirt's been washed off  |
+|   'em already so you know that's a good deal! Choose from:        |
+|                                                                   |
+|    * Saucy Sally's authentic Spanish, Portuguese or Mexican Flies |
+|    * Randy Ruby's Rusticated Rabelaisian Rhino's Horn             |
+|    * Good-time Gertie's Georgia-Grown Goose Gall                  |
+|                                                                   |
++-------------------------------------------------------------------+
+ 
+(Below this is posted a hand made sign)
+~
+E
+sign handmade~
+It simply reads:
+ 
+                            OUT OF ORDER
+~
+E
+noticeboard cards pictures~
+You can't make anything more out at this distance - why not mosey on a tad
+closer and try again?
+~
+S
+#13503
+The Foyer, northeast corner~
+You are in the corner of the sordid Whorehouse foyer, which continues
+south and west from here. This corner is pretty bare and empty, perhaps
+because it's a bad angle to view the stage from which is a little way
+south from here. You have a sense though that the more 'private' business
+dealings take place not too far from here...
+ 
+On the wall right here is a noticeboard covered in pictures.
+~
+135 0 0
+D2
+South from here there is more of a crowd, quite close to the stage and
+whooping it up in appreciation of the dancing girls' choreography, anatomy
+and costumery. Occasionally you see men and girls enter and leave east
+from there, near the stage. Hmmm...
+~
+~
+0 -1 13509
+D3
+To the west the foyer continues; close by you can see a large mechanical
+vending machine, and a bit further on there's some sort of sign stuck up
+on the wall...
+~
+~
+0 -1 13502
+E
+wall~
+It's a very boring whorehouse wall, but there's a noticeboard stuck on
+it, covered with pictures...
+~
+E
+noticeboard notice board~
+It's a cork pushpin board with various pictures stuck to it.
+~
+E
+picture pictures~
+You see an array of quite nicely engraved depictions of somewhat demure
+debauchery, etc. Looking closer you realise that one of them is undoubtedly
+an authentic French Postcard!
+~
+E
+french postcard card~
+This is a picture of an incredibly tall tower, built of steel girders
+in a veritable lacework of stunning intricacy. From a broad four-legged
+base it soars hundreds of feet to reach a seemingly pinsharp point!
+You can also see a logo, a handwritten message, and a small trademark.
+~
+E
+logo~
+It reads:  "Eiffel Tower, Paris".
+~
+E
+message writing~
+In a fine copperplate hand you read the following:
+ 
+"Dear Louise,
+   Thought you might appreciate seeing this - just from looking at it,
+   it's pretty obvious it's a gallic symbol, no? Hee hee hee!
+                                               love,
+                                                  Giselle".
+~
+E
+trademark trade mark~
+"another one of Dr Zifflewhacker's amazing
+POSTCARDS FROM THE FUTURE (TM) pat. pend."
+~
+E
+machine~
+You're too far away to make out any details.
+~
+E
+sign~
+It's too far away to read what's on it.
+~
+S
+#13504
+A Whore's Small Dirty Bedroom~
+You are in a small cramped crooked room full of stale air and an
+cloying odour of old ... sweat? Something unpleasant anyway. This is
+obviously a room where the mattress tango is danced professionally.
+At least there's a window here! There is also a door to the south
+leading to a dim dank corridor.
+~
+135 65 0
+D2
+You see the mangy old door leading south to the grimy corridor.
+~
+door~
+2 -1 13511
+E
+door~
+Some doors are well and truly made, a triumph of the carpentarial
+calling... this is not one of them.
+~
+S
+#13505
+A Quiet But Dirty Whore's Bedroom~
+You are in a small cramped crooked room full of stale air and a cloying
+odour of old ... sweat? Something unpleasant anyway. This is obviously
+a room where the mattress tango is danced professionally. At least
+there's a window here! There is also a door to the south leading to a
+dim dank corridor. This room has an atmosphere of calm.
+~
+135 1 0
+D2
+South of here there is the door leading to the dim dank whorehouse corridor.
+~
+door~
+2 -1 13513
+E
+door~
+This door, while old and ratchety, looks less worn than many of the others
+round here, as if it had been less used than most...
+~
+S
+#13506
+The Foyer, western end~
+You are near the western wall of the bedizened Whorehouse foyer, which
+continues a little way north and a fair way south and east from here. You
+are on the edges of a fairly rowdy crowd which is concentrated round the
+raised stage the dancers use, a little south and east from here - your
+view of proceedings is slightly hampered by the surrounding crowd, and you
+think you could get a better view a bit further east...
+ 
+On the wall here is a price list for this establishment.
+~
+135 0 0
+D0
+You see the northwest corner of the room, it is comparatively empty of
+people, the main exceptions being a small group of men crowded round a
+tiny table, playing cards.
+~
+~
+0 -1 13500
+D1
+To the east there is a boisterous crowd of cowboys, farmers, cattlemen
+and general reprobates cheering on the scantily clad ladies onstage.
+~
+~
+0 -1 13507
+D2
+Just south of here is the front entrance to this foyer, from where you
+are likely to get a good overview of the whole room.
+~
+~
+0 -1 13516
+E
+wall~
+An ordinary whorehouse wall, on which is hung a price list...
+~
+E
+price prices list pricelist~
++-------------------------------------------------------------------+
+|                                                                   |
+|                          SCALE OF CHARGES                         |
+|                          ================                         |
+|                                                                   |
+|     Private 'dance' ................................ 50 cents     |
+|        with bath afterwards ........................ 55 cents     |
+|        with bath beforehand ........................ 10 cents     |
+|     Extras                                                        |
+|        Souvenir Garter Belt ........................  5 cents     |
+|        Checkup with Pox Doctor .....................  5 cents     |
+|        Checkup with Pox Nurse ...................... 30 cents     |
+|     Specials                                                      |
+|        Roll in the Hay ............................. 60 cents     |
+|        Roll you over in the Clover ................. 70 cents     |
+|        Exquisite roll on a genuine French bed,                    |
+|          smothered in feathers and strawberries,                  |
+|          attended by two, no, three specially trained             |
+|          Swedish courtesans straight from an Arabian              |
+|          prince's harem.............................   ask        |
+|                                                                   |
++-------------------------------------------------------------------+
+~
+S
+#13507
+The Foyer~
+You are near the centre of the gaudy Whorehouse foyer, surrounded by a
+thick cheering drunken lust-soaked crowd of ne'er-do-wells. The
+atmosphere is less than salubrious to say the least. To the south and
+west the crowd is just as thick, to the north and east it is a little
+roomier but with probably not as good a view of the performances on
+stage as you have here.
+ 
+You have a pretty damn fine view of both the band and the stage from here.
+~
+135 0 0
+D0
+You see the northern end of the room, and can just glimpse what appears
+to be a sign on the wall there...
+~
+~
+0 -1 13501
+D1
+To the east the crowd is just as thick, bad-smelling, drunk and rowdy as
+they are here. There is however maybe a greater degree of movement as men
+and girls enter and leave from further east...
+~
+~
+0 -1 13508
+D2
+To the south the crowd is if anything even thicker than here, when you
+take a good look. The rowdiest, smelliest, rootin'est tootin'est cowboys,
+cattle rustlers, outlaws, spreeing farmers and hiding husbands are
+cat-calling and cheering like sex-crazed maniacs as they watch the show
+from what must be the best seats in the house...
+~
+~
+0 -1 13517
+D3
+Close here to the west is the western wall of the foyer - stuck on it
+you can see there is a sign or notice of some sort...
+~
+~
+0 -1 13506
+E
+crowd people~
+This must be the smelliest bunch of sweaty, glazed-eyed, stinking, unwashed,
+horn-toad-ugly varmints you've seen for a while... but they look better
+than their companions south of here!
+~
+E
+band~
+There's an old saying about ending up playing piano in a whorehouse...
+danged if I can remember it, podner, but it's probably not a recommendation,
+based upon the surly miens and half-competent playing of the members of
+*this* band; one gets the feeling if they were good enough musicians to
+work elsewhere they would be doing so. The crowd doesn't seem to mind,
+however.
+~
+E
+stage show~
+You can see various feathers, boas, fans, swirling pantaloons, daringly
+bare shins and even other parts of the anatomies of the busy young
+girls from here, as they fling their skirts to their air and any shame
+over their shoulders...
+~
+E
+dancers girls dancing~
+The girls are young and pretty and have skin that isn't too blemished
+by 19th century standards. The dance they are doing does not have a
+name but involves much bending over, turning round, high-kicking,
+bouncing and jiggling and movement in general, all the time accompanied
+by saucy and cheeky grins from the girls getting tips from the customers,
+and bored dull resentfulness from those who are not.
+~
+E
+sign wall~
+You are too far away to see that clearly from here - maybe if you went
+closer?
+~
+S
+#13508
+The Foyer~
+You are near the centre of the clinquant Whorehouse foyer, just north
+of the band. The over-decorated profusion of tackiness doesn't seem to
+worry the clientele, who surround you in a noisy profusion of yelled
+obscenities and the stink of sweat and trail-dust. To the north the
+crowd is a little thinner, to the west it seems just the same as here.
+To the east, though, you notice men and women entering and leaving
+regularly.
+ 
+You have an excellent view of both the band and the show on the stage
+from here.
+~
+135 0 0
+D0
+Just north of here you see a less crowded part of the room, and near
+the wall is some large heavy machine...
+~
+~
+0 -1 13502
+D1
+To the east there is a lot of coming and going, men and women climbing
+the short flight of steps up to step through or arrive from behind a
+curtained doorway. Where could they possibly be going, and what could
+they possibly be doing? Hmmmmmm....
+~
+~
+0 -1 13509
+D2
+To the south you see the band, belting out some fairly rough music
+in various random rhythms. It's not too pleasant to listen to, but
+no one seems to mind, except for the long haired gentleman sitting
+here crying into his hands...
+~
+~
+0 -1 13518
+D3
+To the west it's not too different from here, just more of the noisy
+smelly rowdy crowd. You can barely make out the western wall through
+the bodies; there seems to be something stuck to it...
+~
+~
+0 -1 13507
+E
+wall machine~
+You are too far away and trying to look round too many people to make
+it out clearly - maybe if you went closer?
+~
+E
+old man gentleman~
+You see an elderly gentleman with long grey hair - he looks somewhat
+out of place here, and seems to be sobbing, his hands over his face.
+Every now and then you hear him moan something like "Oh, my boy, my boy!
+You could have been a concert pianist, and now look at you! My poor son,
+that it should come to this!"
+~
+E
+band~
+You have a really clear view of the band here, probably better than you
+would wish - they bash away disinterestedly at their instruments, and the
+music sounds as good as they look... they look *terrible*. No one seems
+too worried though except for a white-haired old gentleman sitting here
+sobbing into his hands...
+~
+E
+stage show~
+Whirling and jumping, high legged kicks, aerial gymnastics - and this is
+just the crowd trying to get the best view! The dancing girls putting
+on the stage show make them look like the amateurs they are.
+~
+E
+dancers girls dancing~
+It's an amazing display of debauched dancing these pretty young
+ecdysiasts are putting on, and for the 19th century their teeth
+are *excellent*!
+~
+S
+#13509
+Next to the Stage~
+You are in the grimy Whorehouse Foyer, near the stage - in fact, 
+you are standing just north of the 'stage right' side of the stage.
+You can't climb onto the stage from here as it is too high, instead 
+you'd have to go round the front which is west and south from here.
+To the west is a large press of people watching the show, and to the
+north is the northeast corner of the foyer, where you can just see
+some sort of noticeboard on the wall. The view of the dancing isn't
+that great from here because the angle is wrong; but most people here
+are coming and going *up*, through a curtained doorway... You have a
+strong feeling they are moving with purpose.
+~
+135 64 0
+D0
+You see the northeast corner of the foyer, which is not so crowded
+as the thronged centre to your west. There is a noticeboard of some
+sort on the wall there...
+~
+~
+0 -1 13503
+D3
+To the west you see a huge knot of people cranin' and strainin' to
+see the show on the stage, and whoopin' and hollerin' like a pack
+of coyotes on locoweed!
+~
+~
+0 -1 13508
+D4
+Up from here you can see a curtained doorway, through which, as people
+pass through, with urgency on their way in and with languor on their
+way out, you can catch glimpses of a dimly lit, threadbare corridor...
+~
+curtain curtained~
+2 -1 13510
+E
+noticeboard notice wall~
+You are too far away to see any detail - maybe if you moseyed closer?
+~
+E
+curtain~
+It's grubby and grimy and worn and torn and even when closed you can
+partly see through it to the corridor behind. Underneath the dirt you
+can see it depicts a scene of naked ladies lying round indecorously.
+~
+E
+door doorway~
+There is no door in the doorway here, just a torn curtain...
+~
+S
+#13510
+The End of a Dully Lit Corridor~
+You are standing at the western end of a dully lit corridor in the
+Whorehouse. Just down from here through a grubby curtain is the main foyer
+which is over-decorated and under-ventilated; to the east the corridor
+continues in barely seen half-light. To the south there is a door and
+opposite it you can just make out a notice on the wall...
+~
+135 0 0
+D1
+The corridor disappears in shady half light east from here but it seems
+there are several doors opening off of it...
+~
+~
+0 -1 13511
+D2
+You see a delapidated door leading to a room for 'private entertainment'.
+~
+door~
+2 -1 13520
+D5
+Through the tattered curtain over the doorway you see the crowded, noisy
+foyer full of rowdy cowboys and such folk.
+~
+curtain curtained~
+2 -1 13509
+E
+wall~
+It's dirty and grimy and has a notice on it...
+~
+E
+notice sign~
++-------------------------------------------------------------------+
+|                                                                   |
+|         AMONG OUR FINEST LADIES WE ARE PROUD TO PRESENT...        |
+|                                                                   |
+|         Lovely Lily        Saucy Sally        Sexy Sadie          |
+|         Goodtime Gertie    Okaytime Opal      Badtime Betty       |
+|         Perilous Pauline   Parlous Polly      Putrid Pearl        |
+|         Awesome Annie      Naughty Nina       Redhot Rita         |
+|                                                                   |
+|           ...all coming soon to a bedroom near you!               |
+|                                                                   |
++-------------------------------------------------------------------+
+~
+E
+door~
+The door to the south is old and beat up, but then home repair
+doesn't seem to be a priority here.
+~
+E
+doorway~
+The doorway leading down to the foyer has no door, just a torn old
+curtain half covering it up.
+~
+E
+curtain~
+It's grubby and grimy and worn and torn and even when closed you can
+partly see through it to the foyer beyond. Underneath the dirt you
+can see it depicts a scene of naked ladies lying round indecorously.
+~
+S
+#13511
+Near the End of a Dully Lit Corridor~
+You are near the western end of a grubby Whorehouse corridor which
+is only dimly lit. It continues only a little way west and a bit
+farther east from here. You can make out there are doors off of it
+leading to 'private' bedrooms that can be rented by the quarter-hour.
+Right here there is a door to the north.
+~
+135 0 0
+D0
+You see a door leading to a small dark smelly bedroom... yuck!
+~
+door~
+2 -1 13504
+D1
+The dim dark corridor continues east from here, you can barely make out
+that doors lead off from it alternately to the north and south.
+~
+~
+0 -1 13512
+D3
+To the west you see the end of the dim corridor, where there is a curtained
+doorway leading down to the rowdy foyer - you also see a notice on the wall
+there...
+~
+~
+0 -1 13510
+E
+notice sign~
+It's much too dark to read it from here, maybe if you were closer?
+~
+E
+wall~
+It's grimy and greasy, and you can see a notice on it a little way west of
+here...
+~
+E
+door~
+Some doors are well and truly made, a triumph of the carpentarial calling...
+this is not one of them.
+~
+S
+#13512
+Centre of a Dully Lit Corridor~
+You are in the centre of a grubby whorehouse corridor that leads east and
+west from here, with doors opening off alternately to the north and south.
+Right here there is a door to the south.
+~
+135 0 0
+D1
+The corridor continues to the east and doesn't look any more well-maintained
+there, it must be said.
+~
+~
+0 -1 13513
+D2
+You see a door leading to what must be a whore's working bedroom.
+~
+door~
+2 -1 13522
+D3
+The corridor continues west towards the foyer full of rowdy cowboys and
+such...
+~
+~
+0 -1 13511
+E
+door~
+Barely on its hinges and full of woodworm, it doesn't look in better shape
+than anything else round here.
+~
+S
+#13513
+Centre of a Dully Lit Corridor~
+You are in the centre of a grubby whorehouse corridor that leads east and
+west from here, with doors opening off alternately to the north and south.
+Right here there is a door to the north.
+~
+135 0 0
+D0
+There's not a lot of noise behind any of these doors in this corridor, but
+this one seems especially quiet...
+~
+door~
+2 -1 13505
+D1
+The corridor continues east, and you can barely make out that there's a
+corner south a little way on from here...
+~
+~
+0 -1 13514
+D3
+The corridor continues west into dimness, doors opening off to both north
+and south...
+~
+~
+0 -1 13512
+E
+door~
+This door, while old and ratchety, looks less worn than many of the others
+round here, as if it had been less used than most...
+~
+S
+#13514
+Near a Corner in a Dully Lit Corridor~
+You are near the eastern end of the seedy grimy dim whorehouse corridor,
+where there is a corner heading south. Right here there is a door to the
+south. To the west it fades into dimness, from which direction you can
+occasionally hear a whoop and a holler and a yeehaw!
+~
+135 0 0
+D1
+Just east of here you see the corridor make a turn to the south.
+~
+~
+0 -1 13515
+D2
+You see a door leading to a working girl's working room... it's a tiny bit
+fancier than most of the others...
+~
+door~
+2 -1 13524
+D3
+The corridor continues west with doors opening to the south and north
+alternately, before it gets too dark for you to see the end...
+~
+~
+0 -1 13513
+E
+door~
+It is filled with termite holes that have been plugged with plaster of
+Paris - no free peeking here!
+~
+S
+#13515
+Corner of a Dully Lit Corridor~
+You are standing at the corner of the dim whorehouse corridor, which
+continues west and south from here. While the southern passage seems
+short, the western one is too long for you to see its end.
+~
+135 0 0
+D2
+You see a short passageway south which in the middle branches off to the
+east...
+~
+~
+0 -1 13525
+D3
+To the west the corridor disappears in dim dank semi-darkness and an
+appreciable lack of class...
+~
+~
+0 -1 13514
+S
+#13516
+Whorehouse Foyer, near main door~
+You are standing near a door in the middle of the western wall of a large
+tackily decorated room full of drunken men, scantily clad women and an
+atmosphere of vice and debauchery. Semi-naked girls dance on a raised
+stage to the incompetent strains of the whorehouse band, a little way
+east from here. The room is packed with people, especially towards the
+centre, while at the edges there is a little more room to move. The walls
+are covered with signs, notices and pictures. To the west is the passageway
+to the street.
+~
+135 0 0
+D0
+To the north the foyer continues towards a corner where a small group of
+men sit round a table. A bit closer there is a list of some sort on the
+wall but you can't make it out from here...
+~
+~
+0 -1 13506
+D1
+To the east the foyer continues towards the centre of the room - a tightly
+
+pressed crowd bunches round the stage watching the dancing girls, hootin'
+and hollerin' and yahooin' - and that's just the girls! The audience is
+much louder...
+~
+~
+0 -1 13517
+D2
+To the south the foyer continues; on the wall just south of here you can
+see a sign but can't make out the details - further south in the corner
+are some comfy chairs and a small bookcase...
+~
+~
+0 -1 13528
+D3
+To the west is the door leading to the short hall that leads to the street.
+~
+door~
+2 -1 13545
+S
+#13517
+The Foyer~
+You are standing very near the centre of the tacky Whorehouse foyer. You 
+find yourself standing right in the thickest part of the crowd here,
+just in front of the band who play their off key dance tunes slightly
+east from here. You can see that the very best view of the stage, and
+the dancing girls performing on it, is probably from right here...
+although maybe there's an even better view from where the band is? To
+the west is the main entrance to the Whorehouse Foyer, and north and
+south from here the crowd spreads out, watching the show...
+~
+135 0 0
+D0
+To the north the crowd is packed as tightly as they are here. They look
+every bit as smelly and disreputable as the people around you.
+~
+~
+0 -1 13507
+D1
+To the east you have a splendid view of the band, the stage and the dancers
+on it. This must be why this is the most crowded spot in the room!
+~
+~
+0 -1 13518
+D2
+To the south the dense crowding continues, with people all but climbing
+over each other to catch a better view of the performance on the stage
+at the eastern end of the room.
+~
+~
+0 -1 13529
+D3
+To the west the crowd is slightly thinner, and you can see the door
+that is the main entrance to the foyer, beyond which a small, short
+corridor winds its way west then south.
+~
+~
+0 -1 13516
+E
+crowd~
+They're mean, ornery and don't smell too good. The stench would knock over
+a mule at forty paces.
+~
+E
+band~
+What a motley crew of cacophanous maladroits!!!
+~
+E
+stage show~
+This must be about the best view in the house, you can see twirling legs and
+glittering gussets as the dancers on the stage show what they are getting
+paid for...
+~
+E
+dancers dancing girls~
+In a frenzy of athletic leaping and weaving, these girls are putting on a
+show to stop shows - although it doesn't stop them showing a bit of leg while
+thay are at it!
+~
+S
+#13518
+Whorehouse Foyer, Before the Stage~
+You are standing immediately below the stage, in the middle of the band!
+You didn't think that they could sound much worse, but proximity lends
+a new appreciation of just how terribly they play their 'music'. The crowd
+surrounds you to the north, west and south, but straight up from here it
+looks like you can actually step up onto the stage itself!
+~
+135 0 0
+D0
+To the north you see a huge seething mass of humanity, in all its sweaty
+repugnant animalistic fervour, taking in the details of a performance that,
+judging from the audience's enthusiasm, must be setting new heights of
+artistic excellence and sublimity...
+~
+~
+0 -1 13508
+D2
+To the south you see a writhing conglomeration of enthusiasts of the
+Terpsichorean Arts, each straining and struggling with their fellows to
+gain a superior vantage point. The focus of their attention is the stage
+below which you directly stand at the moment.
+~
+~
+0 -1 13530
+D3
+To the west you see the most densely packed section of the entire room,
+which, given the tightly pressed and crowded... crowd that... crowds...
+round everywhere, is saying something! The crowd is also saying something
+to you... mainly "SIT DOWN!!!", "GET OUTTA THE WAY!!!" and "DOWN IN FRONT!!!"
+~
+~
+0 -1 13517
+D4
+When you look up, you see that apparently universal object of desire of
+those members of the public being entertained here: the stage! A short
+flight of steps leads up to what, in this main foyer anyway, must be the
+main source of entertainment as provided by this establishment.
+~
+~
+0 0 13519
+E
+crowd~
+They're here, there, they're everywhere! And boy do they smell bad! Their
+manners are no better than their morals which are no better than their
+hygiene...
+~
+E
+stage~
+You are close enough to not only see the sweat but also smell it - eeeurgh!
+~
+S
+#13519
+The Whorehouse Foyer Stage~
+You are standing on a grimy wooden dance floor, the floorboards well
+worn down by thousands of dance steps over the years. It is raised up
+and positioned in the middle of the eastern wall of the Whorehouse foyer,
+which spreads out to your west. Just down from here is where the band plays
+their off-key music to accompany the off-colour choreography this stage
+was built for. On the eastern wall there is a huge backdrop...
+~
+135 64 0
+D5
+Just down the tiny flight of steps is the section reserved for the band,
+about whose musical abilities you now have serious reservations of your
+own...
+~
+~
+0 0 13518
+E
+backdrop~
+This is a large expanse of stretched canvas looking somewhat the worse
+for wear, which has been painted to depict a scene redolent with exotic
+and luxuriant images, suggesting a fancy, mock-French boudoir... The lace
+and ostrich feathers are a nice touch.
+~
+S
+#13520
+A Whore's Dirty Bedroom~
+You are in a small cramped crooked room full of stale air and a cloying
+odour of old ... sweat? Something unpleasant anyway. This is obviously
+a room where the mattress tango is danced professionally. There is a
+door to the north leading to a dim dank corridor.
+~
+135 65 0
+D0
+You see the door leading north to the dimly lit whorehouse corridor. 
+~
+~
+0 -1 13510
+E
+door~
+The door is old and beaten up and has seen better days (and nights).
+~
+S
+#13521
+A Whore's Dirty Bedroom~
+You are in a small cramped crooked room full of stale air and a cloying
+odour of old ... sweat? Something unpleasant anyway. This is obviously a
+room where the mattress tango is danced professionally. There is a door to
+the south leading to a dim dank corridor.
+~
+135 65 0
+D2
+To the south the dilapidated door leads to the dingy corridor.~
+door~
+2 -1 13533
+E
+door~
+For a door, it's very very poor.~
+S
+#13522
+A Whore's Dirty Smelly Bedroom~
+You are in a small cramped crooked room full of stale air and a cloying
+odour of old ... sweat? Something unpleasant anyway. This is obviously a
+room where the mattress tango is danced professionally. It smells putridly
+bad!!! There is a door to the north leading to a dim dank corridor.
+~
+135 65 0
+D0
+Northwards you see the door leading to the dingy corridor.~
+door~
+2 -1 13512
+E
+door~
+Not much of a door, this one.~
+S
+#13523
+A Whore's Dirty Bedroom~
+You are in a small cramped crooked room full of stale air and a cloying
+odour of old ... sweat? Something unpleasant anyway. This is obviously a
+room where the mattress tango is danced professionally. There is a door
+to the south leading to a dim dank corridor.
+~
+135 65 0
+D2
+South there is a door beyond which lies the grimy and grim corridor.~
+door~
+2 -1 13535
+E
+door~
+This barely qualifies as a door, but it's still on what could be hinges.~
+S
+#13524
+An Ornate Room~
+You find yourself in a stunningly opulent boudoir! This must be where
+the high-rollers take their horizontal dancing lessons, it really is
+surprisingly sumptuously decorated, if not in good taste necessarily,
+then at least with a certain flamboyant sensuousness that is not even
+ruined by the gold-traced mirror on the ceiling...
+ 
+~
+135 1 0
+D0
+To the north there is a dingy door leading to the dingier corridor.~
+door~
+2 -1 13514
+E
+door~
+It's in stark contrast to most of the rest of the room - that is it looks
+cheap and nasty. Most of the rest of the room looks a bit more expensive.~
+S
+#13525
+Intersection of a Dully Lit Corridor~
+The dank dim corridor continues north, south and east from here. While
+the ways north and south are of the same grimy grubby type, that leading
+east seems a little different - perhaps even a bit cleaner!
+~
+135 0 0
+D0
+You see a corner of the corridor as it bends to the west.
+~
+~
+0 -1 13515
+D1
+You see a short passageway leading east to a door - the carpet, the walls,
+everything seems cleaner and better maintained here, and you are sure
+this doesn't lead to just another whore's working bedroom...
+~
+~
+0 -1 13526
+D2
+You see a corner of the corridor as it bends to the west.
+~
+~
+0 -1 13537
+S
+#13526
+End of Dully Lit Corridor~
+You are standing at the extreme eastern end of the dim dull whorehouse
+corridor. To the west the corridor runs north and south, to the east
+there is a door. The atmosphere here, if not savoury, is at least more
+palatable than most of the rest of this house of ill repute - the walls
+are clean, the carpet doesn't smell so bad and the door looks in good
+repair.
+~
+135 0 0
+D1
+You see a solid, well built door unlike any other you've seen in this
+cathouse~
+door~
+2 13531 13527
+D3
+To the west the corridor starts returning to its more usual grime and
+grubbiness, as it branches north and south...
+~
+~
+0 -1 13525
+E
+door~
+This is a solidly built slab of oak hanging on huge shiny brass hinges,
+with what seems to be an actual working keyhole...
+~
+S
+#13527
+Madam's Haven~
+You are in a well-appointed private suite that speaks of a certain degree
+of both power and wealth. The tackiness so prevalent elsewhere in the
+building, like the decripitude, is almost totally absent from this room
+with its good quality furnishings and lack of grime.
+ 
+~
+135 65 0
+D3
+~~
+door~
+1 13531 13526
+S
+#13528
+The Foyer, western end~
+You are near the western wall of the showy Whorehouse foyer, which
+continues a little way south and a fair way north and east from here.
+You are on the edges of a pretty noisy crowd which is bending its
+attention towards the raised stage the dancing girls perform on, a
+little way north and east from here - because of the intervening bumpkins
+you can't see the show as well you may be able to a little further east...
+ 
+On the wall here you see a notice RULES OF THE HOUSE.
+ 
+~
+135 0 0
+D0
+Just to the north you can see the door that is the main entrance to the
+foyer, from where you could get a good overview of the entire room.
+~
+~
+0 -1 13516
+D1
+To the east the crowd thickens considerably, both in terms of number
+density per unit area, and in terms of average skull annular radii - not
+only are there more of them, but they look stupider than the ones right
+here.
+~
+~
+0 -1 13529
+D2
+To the south you see the southwestern corner of the room, huddled in which
+you see a battered bookcase surrounded by a few comfy chairs...
+~
+~
+0 -1 13538
+E
+rules notice~
++-------------------------------------------------------------------+
+|                                                                   |
+|                       RULES OF THE HOUSE                          |
+|                       ==================                          |
+|                                                                   |
+|        NO spittin'       NO squittin'       NO hittin'            |
+|                                                                   |
+|        NO fightin'       NO fright'nin'     NO bitin'             |
+|                                                                   |
+|        NO drillin'       NO spillin'        NO killin'            |
+|                                                                   |
+|                     and most of all, never, ever                  |
+|                                                                   |
+|                           NO CREDIT!!!!                           |
+|                                                                   |
++-------------------------------------------------------------------+
+ 
+~
+S
+#13529
+The Foyer~
+You are near the centre of the would-be-glitzy Whorehouse foyer, engulfed
+by a crowd of near-riotous cowboys, farmers and bums, cheering on the
+saucy performances on the stage north and east from here. To the south
+and west the crowd is a little thinner, at least in density if not in
+average skull thickness.
+ 
+~
+135 0 0
+D0
+Just north of here is the rowdiest and, uh, crowdiest part of the room!
+Though the view of the stage and the girls dancing there is pretty good
+from here, it may even be a tad better just north of here - that is if
+you can fight your way through... (metaphorically!)
+~
+~
+0 -1 13517
+D1
+To the east the crowd is just as stupid smelling and sweaty sounding as
+they are here...
+~
+~
+0 -1 13530
+D2
+Just south of here is the southern wall of the room, and through the
+crowds of cowboys you catch a glimpse of some sort of display case standing
+against it... the crowd is a bit thinner there, and if you just got a bit
+closer you could see what it is that it's displaying.
+~
+~
+0 -1 13539
+D3
+To the west the crowd is a little less obtrusive and even slightly less
+obstreperous than here... maybe...
+~
+~
+0 -1 13528
+S
+#13530
+The Foyer~
+You are near the centre of the badly-decorated Whorehouse foyer, just
+south from the band. No one seems worried about the decor, nor indeed the
+disharmonious cacophany the band produces, as they appear to find the
+onstage 'artistic' performances enthralling enough to create obliviousness
+to the quality of any other spheres of aesthetic appreciation.
+ 
+~
+135 0 0
+D0
+North of here you see the place where the band (if you can call them that)
+plays (if you can call it that) its music... (if you can call it that).
+~
+~
+0 -1 13518
+D1
+Looking east you see there are a few less people crowding round, and even
+though the spot is directly next to the stage, most of them are moving up
+and down through a curtained doorway rather than watching the performance.
+~
+~
+0 -1 13531
+D2
+To the south is the southern wall of the foyer, near which stands a table
+and on which is pinned a poster. The crowd is much sparser there as well.
+~
+~
+0 -1 13540
+D3
+To the west the crowd is densely packed, sweaty, smelly, rambunctious and
+deplorably vocal in their appreciation of the entertainment - in other
+words, pretty much like they are here.
+~
+~
+0 -1 13529
+S
+#13531
+Next to the Stage~
+You are in the grimy Whorehouse Foyer, near the stage - in fact, you are
+standing just south of the 'stage left' side of the stage. You can't
+climb onto the stage from here as it is too high, instead you'd have
+to go round the front which is west and north from here. To the west is
+a large press of people watching the show, and to the south is the
+southeast corner of the foyer, where you can just see some sort of
+noticeboard on the wall. The view of the dancing isn't that great
+from here because the angle is wrong; but most people here are coming
+and going *up*, through a curtained doorway... You have a strong
+feeling they are moving with purpose.
+~
+135 64 0
+D2
+You can see the southeast corner of the foyer, where there are fewer
+people, certainly not nearly so many as are just west of here, watching
+the dancing girls on the stage. You catch a glimpse of a noticeboard
+on the wall in the corner.
+~
+~
+0 -1 13541
+D3
+To the west is a thick crowd of yahoos and yokels, yodelling and
+yahooing and yeehahing like a mob of drunken, sex-starved perverts -
+which is what they probably are...
+~
+~
+0 -1 13530
+D4
+Up from here you can see a curtained doorway, through which, as people
+pass through, with urgency on their way in and with languor on their
+way out, you can catch glimpses of a dimly lit, threadbare corridor...
+~
+curtain curtained~
+2 -1 13532
+E
+noticeboard notice wall~
+You are too far away to see any detail - maybe if you moseyed closer?
+~
+E
+curtain~
+It's grubby and grimy and worn and torn and even when closed you can
+partly see through it to the corridor behind. Underneath the dirt
+you can see it depicts a scene of nude women lying round lasciviously.
+~
+E
+door doorway~
+There is no door in the doorway here, just a torn curtain...
+~
+S
+#13532
+The End of a Dully Lit Corridor~
+You are standing at the western end of a dully lit corridor in the
+Whorehouse. Just down from here and to the west is the main foyer
+which is over-decorated and under-ventilated; to the east the corridor
+continues in barely seen half-light. To the south there is a door and
+opposite it you can just make out a notice on the wall...
+~
+135 0 0
+D1
+The corridor disappears in shady half light east from here but it seems
+there are several doors opening off of it...
+~
+~
+0 -1 13533
+D2
+You see a wormeaten mangy looking door leading to a room reserved for
+'private dances'...
+~
+door~
+2 -1 13542
+D5
+Through the ripped curtain you catch a glimpse of the large foyer full
+of yelling cowpokes and so on.
+~
+curtain curtained~
+2 -1 13531
+E
+wall~
+It's dirty and grimy and has a notice on it...
+~
+E
+notice sign~
++-------------------------------------------------------------------+
+|                                                                   |
+|         AMONG OUR FINEST LADIES WE ARE PROUD TO PRESENT...        |
+|                                                                   |
+|         Lewd Lucy   Vanessa the Undressa   Fornicatin' Fiona      |
+|     Rollickin' Rowena    No-Care Claire     Dirty Danielle        |
+|  Topheavy Trisha    Bottomheavy Belinda   Middleheavy Marge       |
+|        Bendy Wendy      Jolly Dolly         Smelly Nelly          |
+|                                                                   |
+|           ...all coming soon to a bedroom near you!               |
+|                                                                   |
++-------------------------------------------------------------------+
+~
+E
+door~
+The door to the south is old and beat up, but then home repair
+doesn't seem to be a priority here.
+~
+E
+doorway~
+The doorway leading down to the foyer has no door, just a torn old
+curtain half covering it up.
+~
+E
+curtain~
+It's grubby and grimy and worn and torn and even when closed you can
+partly see through it to the foyer beyond. Underneath the dirt you
+can see it depicts a scene of nude women lying round lasciviously.
+~
+S
+#13533
+Near the End of a Dully Lit Corridor~
+You are near the western end of a grubby Whorehouse corridor which
+is only dimly lit. It continues only a little way west and a bit
+farther east from here. You can make out there are doors off of it
+leading to 'private' bedrooms that can be rented by the quarter-hour.
+Right here there is a door to the north.
+~
+135 0 0
+D0
+You see a worn out old door on its last legs.. uh, hinges.
+~
+door~
+2 -1 13521
+D1
+The dim dark corridor continues east from here, you can barely make
+out that doors lead off from it alternately to the north and south.
+~
+~
+0 -1 13534
+D3
+To the west you see the end of the dim corridor, where there is a
+curtained doorway leading down to the rowdy foyer - you also see a
+notice on the wall there...
+~
+~
+0 -1 13532
+E
+notice sign~
+It's much too dark to read it from here, maybe if you were closer?
+~
+E
+wall~
+It's grimy and greasy, and you can see a notice on it a little way
+west of here...
+~
+E
+door~
+It's possible there are less well made doors in the history of carpentry,
+but if so they are probably elsewhere in this building...
+~
+S
+#13534
+Centre of a Dully Lit Corridor~
+You are in the centre of a grubby whorehouse corridor that leads east
+and west from here, with doors opening off alternately to the north
+and south. Right here there is a door to the south.
+~
+135 0 0
+D1
+The corridor continues to the east and doesn't look any more well-maintained
+there, it must be said.
+~
+~
+0 -1 13535
+D2
+You see a falling apart door leading to a room of ill repute...
+~
+door~
+2 -1 13543
+D3
+The corridor continues to the west, towards the foyer packed solid with
+whooping cowboys et al.
+~
+~
+0 -1 13533
+E
+door~
+Well, charitably you could call it a door...
+~
+S
+#13535
+Centre of a Dully Lit Corridor~
+You are in the centre of a grubby whorehouse corridor that leads east and
+west from here, with doors opening off alternately to the north and south.
+Right here there is a door to the north.
+~
+135 0 0
+D0
+You see a yucky horrible old door that looks ready to fall apart, no doubt
+leading to a bedroom of vice.
+~
+door~
+2 -1 13523
+D1
+The corridor continues east, and you can barely make out that there's a
+corner south a little way on from here...
+~
+~
+0 -1 13536
+D3
+The corridor continues west into dimness, doors opening off to both north
+and south...
+~
+~
+0 -1 13534
+E
+door~
+It's yucky, it's horrible, it looks ready to fall apart - what more do
+you want to know?
+~
+S
+#13536
+Near a Corner in a Dully Lit Corridor~
+You are near the eastern end of the seedy grimy dim whorehouse corridor,
+where there is a corner heading north. Right here there is a door to the
+south. To the west it fades into dimness, from which direction you can
+occasionally hear a whoop and a holler and a yeehaw!
+~
+135 0 0
+D1
+Just east of here you see the corridor make a turn to the north.
+~
+~
+0 -1 13537
+D2
+You see a shonky slab of wood pretending to be a door, leading, you suspect,
+to a room of iniquity...
+~
+door~
+2 -1 13544
+D3
+The corridor continues west with doors opening to the south and north
+alternately, before it gets too dark for you to see the end...
+~
+~
+0 -1 13535
+E
+door~
+Well, it looks like it's *meant* to be a door...
+~
+S
+#13537
+Corner of a Dully Lit Corridor~
+You are standing at the corner of the dim whorehouse corridor, which
+continues west and north from here. While the northern passage seems
+short, the western one is too long for you to see its end.
+~
+135 0 0
+D0
+You see a short passageway south which in the middle branches off to the
+east...
+~
+~
+0 -1 13525
+D3
+To the west the corridor disappears in dim dank semi-darkness and an
+appreciable lack of class...
+~
+~
+0 -1 13536
+S
+#13538
+The Foyer, southwest corner~
+You are in the corner of a shabby Whorehouse foyer, which continues east
+and north from here. You are away from the main bulk of the crowd here,
+in fact it's almost a quiet nook of a corner, what with a couple of
+armchairs and a small bookcase filled with questionable material. Perhaps
+it's designed to get customers who can't see the show on the stage from
+here 'in the mood' for a little business?
+~
+135 0 0
+D0
+To the north the crowd is a bit thicker, a lot noisier and every bit as
+smelly... The wall continues north towards the main entrance to the foyer,
+and on the wall you can see a sign labelled RULES OF THE HOUSE that you
+can't make out the details of from here.
+~
+~
+0 -1 13528
+D1
+To the east the wall continues, the crowd a little thicker than here. A
+display case of some sort is set against the wall.
+~
+~
+0 -1 13539
+S
+#13539
+The Foyer, southern end~
+You are near the southern wall of the faded Whorehouse foyer, which
+continues a short way west and a bit further east; the heart of the room
+is north from here where a large and noisy crowd agglomerates round the
+raised stage on which young ladies with out too many encumbering clothes
+dance round and round and up and down.
+ 
+There is a glass-doored cabinet here containing various bits and pieces,
+bearing a sign...
+ 
+~
+135 0 0
+D0
+To the north the crowd is much more tightly packed - it is a position
+which obviously affords a far superior view of the proceedings on the stage
+than here.
+~
+~
+0 -1 13529
+D1
+The wall continues east, the crowd there much the same as they are here.
+Near the wall you see a glass-covered table, above which hangs a sign.
+~
+~
+0 -1 13540
+D3
+To the west is the southwest corner of the foyer, in which a few beaten up
+old armchairs are huddled round a small bookcase. The crowd is thinner there
+which suggests that the view of the stage from there is inferior.
+~
+~
+0 -1 13538
+E
+sign notice~
+ 
+                           LOST AND FOUND
+ 
+~
+S
+#13540
+The Foyer, southern end~
+You are near the southern wall of the unwholesome Whorehouse foyer, which
+continues a short way east and a bit further west from here; to the north
+is the centre of the room featuring some uninhibited dance steps from some
+young ladies on a raised stage, and some enthusiastic support from a mass
+of men of all ages.
+ 
+There is a poster on the wall here, above a table covered with strange
+objects under glass.
+ 
+ 
+~
+135 0 0
+D0
+North of here there is a tight knot of people who could be generously
+described as dance fans - and more accurately described as drunken lechers.
+There is, judging from the press of people, a much better view of the stage
+there than there is here.
+~
+~
+0 -1 13530
+D1
+To the east is the southeastern corner of the foyer, which is pretty bare
+of both people and furniture - all you can see is a noticeboard on the wall.
+~
+~
+0 -1 13541
+D3
+The southern wall continues west from here. A little way along you see a
+glass-doored cabinet, and past that in the corner of the room a couple of
+armchairs nestle round an old bookcase.
+~
+~
+0 -1 13539
+E
+poster notice~
+ 
+                         Toys for rent
+ 
+~
+S
+#13541
+The Foyer, southeast corner~
+You are in the corner of the slatternly Whorehouse foyer, which continues
+north and west from here. This corner is rather bare and empty, perhaps
+because it's a bad angle from which to view the stage, a little way
+north from here. You have a sense though that the more 'private' business
+dealings take place not too far from here...
+ 
+On the wall right here is a noticeboard covered in pictures.
+ 
+~
+135 0 0
+D0
+North of here is a spot next to the stage, but most of the people there
+don't seem to be watching - perhaps they can get better views further west -
+instead there are many people coming and going through a curtained doorway
+above a short flight of steps...
+~
+~
+0 -1 13531
+D3
+To the west there are a few more people crowded round than in this quiet
+corner. You also see a glass-covered table under a sign on the wall.
+~
+~
+0 -1 13540
+E
+noticeboard notice board pictures~
+ 
+You see a noticeboard covered in rude pictures and you blush!
+ 
+~
+S
+#13542
+A Whore's Small Dirty Bedroom~
+You are in a small cramped crooked room full of stale air and a cloying
+odour of old ... sweat? Something unpleasant anyway. This is obviously
+a room where the mattress tango is danced professionally. At least there's
+a window here! There is also a door to the north leading to a dim dank
+corridor.
+~
+135 65 0
+D0
+~~
+door~
+2 -1 13532
+S
+#13543
+A Whore's Small Dirty Bedroom~
+You are in a small cramped crooked room full of stale air and a cloying
+odour of old ... sweat? Something unpleasant anyway. This is obviously a
+room where the mattress tango is danced professionally. At least there's
+a window here! There is also a door to the north leading to a dim dank
+corridor.
+~
+135 65 0
+D0
+~~
+door~
+2 -1 13534
+S
+#13544
+A Whore's Small Dirty Bedroom~
+You are in a small cramped crooked room full of stale air and a cloying
+odour of old ... sweat? Something unpleasant anyway. This is obviously a
+room where the mattress tango is danced professionally. At least there's
+a window here! There is also a door to the north leading to a dim dank
+corridor.
+~
+135 65 0
+D0
+~
+door~
+2 -1 13536
+S
+#13545
+Entryway to Whorehouse~
+You are in a small entry hall running west to a corner and east to a door,
+through which you can hear a large crowd making a great deal of rowdy
+noise, often using indecent language! There are sporadic outbursts of
+cheerin', whistlin', hootin' and hollering' and you know anything may
+happen once you step through that door, though you feel secure that even
+now it is not too late to just back away quietly and return to the street.
+ 
+~
+135 4 0
+D1
+You see the door leading to what is apparently the main entrance to the
+foyer of this here whorehouse!
+~
+door~
+2 -1 13516
+D3
+The small, dingy corridor leads west and turns south, heading back towards
+the street.
+~
+~
+0 0 13546
+S
+#13546
+Entryway to Whorehouse~
+You are in the corner of a narrow passageway that runs south towards the
+front door of the Whorehouse and east towards its lascivious interior...
+~
+135 4 0
+D1
+Eastwards you see the end of this narrow little corridor, where it ends in
+a doorway leading into the iniquitous den...
+~
+~
+0 0 13545
+D2
+To the south the corridor leads to just inside the front door of the
+building.
+~
+~
+0 0 13547
+S
+#13547
+Inside the Front Door of the Whorehouse~
+You are at the southern end of a short narrow passageway that leads inside
+to a corner just north of here. To the west is the door opening out onto
+the street.
+~
+135 4 0
+D0
+To the north the dim little corridor continues a little way and then turns
+eastwards.
+~
+~
+0 0 13546
+D2
+Main Street of Hope.
+~
+~
+0 -1 13228
+D3
+You see the door leading to the street - it looks solid but old.
+~
+door~
+2 -1 13286
+S
+$~
+@

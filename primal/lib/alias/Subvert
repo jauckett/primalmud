@@ -1,0 +1,78 @@
+hhf of;get all.health for
+hh quaff heal
+ah cast 'advanced heal' sub
+speedcave e;e;e;e;open  gate;e;e;e;e;e
+hhd cast 'heal' dhcp
+fod cast 'finger of death' $* 
+pfe cast 'protection from evil' $*
+charm cast 'charm' $1
+cp cast 'charm person' $*
+sl cast 'sense life'; cast 'waterwalk'
+spdbox rec;n;n;n;n;e;go box
+sle cast 'sleep' $1
+detinv cast 'detect invisibility' $1
+hc cast 'heal' $1
+para cast 'paralyze' $1
+he cast 'heal' sub
+pah open for; put all.heal for; close for
+pb cast 'plasma blast' $1
+bh cast 'burning hands' $1
+gt gtell $1
+speedwest n;n;n;w;w;w;s;go stage
+buyheal buy heal; buy heal; buy heal
+refr cast 'refresh' $1
+ref cast 'refresh' $1
+ed cast 'energy drain' $1
+htt get tonic back
+css cast 'sanctuary' $1;cast 'strength' $1;cast 'armor' $1;cast 'bless' $1
+speedlank w;w;w;w;w;w;w;w;w;w;s;s;e;s;s
+wast wake; stand
+crm n;e;s;s;d;s;w;w
+pd pick door;pick door; pick door
+fb cast 'fireball' $1
+speedplains s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e
+speedgrave e;e;e;e;open gate;e;e;e;e;e;s;s;s;s;s;s;s;s
+speedrome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+chi cast 'chill touch' $1
+junk get corpse; junk corpse
+allpot get red back; get white back; get blue back; quaff white; quaff blue; quaff red
+cc cast 'cure critic'
+cl cast 'cure light'
+kk kick $1; kick $1; kick $1
+inf cast 'infravision'
+dra cast 'dragon'
+lb cast 'lightning bolt' $1
+ls look subvert
+mf cast 'create food'
+kp kick $1; punch $1; kick $1; kick $1; punch $1; kick $1
+lib look in back
+pab put all back
+waw wear all; wield $1
+buypot buy red; buy red; buy red; buy white; buy blue
+of open force
+rec cast 'word of recall'
+speedersheep s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;w
+speeddar w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n
+tra train hit; train hit; train hit; train hit; train hit
+lif open for; look in for
+cf close for
+paf open for; put all for; close for
+dw open for; get water for; drink water; put water for; close for
+bl cast 'blindness' $1
+rescue cast 'rescue' $1
+mm cast 'magic missile' $1
+sg cast 'shocking grasp' $1
+paaf open for; put all.ammo for; close for
+id cast 'identify' $1
+fear cast 'fear' $1
+hg quaff heal
+speedmg s;e;e;s;s;s;e;e;s;s;s;s
+speedww n;n;n;w;w;w;s;go st
+iden cast 'identify' $*
+cd cast 'charm' $*
+ordkill order foll assist sub
+ordws ord foll wake; ord foll stand
+hhm cast 'heal' morp
+ht get heal bag;quaff tonic
+qr quitreally
+tp tell primer $*

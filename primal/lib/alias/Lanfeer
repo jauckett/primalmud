@@ -1,0 +1,63 @@
+sanc cast 'sanctuary' on me;cast 'sanctuary' on clone;cast 'sanctuary' on 2.clone
+dr drink canteen
+jc get corpse;junk corpse
+haste cast 'haste' on $*
+tm train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana
+tv train move;train move;train move;train move;train move;train move;train move;train move;train move;train move
+th train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+fear cast 'fear' on $*
+gs cast 'group sanctuary' 
+tele cast 'teleport' on $*
+clanden          bri;n;w;s;s;d;n;n;n;bri
+bless cast 'bless' on $*
+gra grats &g--,--'-^-&r(@ &w$* &r@)&g-^-,--'--
+clone cast 'clone' on $*
+caves bri;n;w;s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;bri
+remc cast 'remove curse' on $*
+drain cast 'energy drain' on $*
+prot cast 'divine protection' on $*
+abyss bri;n;e;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;w;w;w;w;n;cast 'refresh' on me;cast 'advanced heal' on me;n;n;w;s;w;n;w;w;n;n;e;e;e;n;e;n;e;e;e;cast 'advanced heal' on me;n;e;e;s;e;u;u;u;u;u;bri
+dragon cast 'dragon' on $*
+invis cast 'invisibility' on $*
+charm cast 'charm' on $*
+\ cast 'sanctuary' on $*
+summon cast 'summon' on $*
+loc cast 'locate object' on $*
+ref cast 'refresh' on $*
+fod cast 'finger of death' on $*
+r cast 'word of recall' on $*
+id cast 'identify' on $*
+see cast 'infravision' on $*
+sc score
+deti cast 'detect invis' on $*
+. cast 'heal' on $*
+gac get all corpse
+cast 'hunt' on $*
+dim cast 'dimensional gate' on $*
+ww cast 'waterwalk' on $*
+str cast 'strength' on $*
+armor cast 'spirit armor' on $*
+fly cast 'fly' on $*
+magic bri;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;w;w;w;bri;ask magic
+1 get white force;quaff white
+9 retreat
+wwalk cast 'waterwalk' on $*
+wbreathe cast 'waterbreathe' on $*
+para cast 'paralyze' on $*
+odd bri;s;s;s;u;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n;bri
+darask autoexit;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;autoexit
+holy  autoexit;w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w;s;autoexit
+clouds autoexit;s;s;s;w;w;w;s;s;s;s;u;u;u;u;n;n;e;n;e;open tooth;d;s;s;e;s;w;s;s;autoexit
+2 get tonic force;q tonic
+slp cast 'sleep' on $*
+5 tell nightwolf heal
+we wear all;wie queen;hold flint
+ea cast 'create food' $*;eat mushroom
+remcur cast 'remove curse' on $*
+ani cast 'animate dead' on corpse
+csa cast 'sanctuary' on clone;cast 'sanctuary' on 2.clone
+ss cast 'serpent skin' on $*
+wt cast 'wraith touch' $*
+ls cast 'lightning shield' on $*
+wer wear all;wie plasma;hold flint;hold hammer
+/ cast 'divine heal' on $*

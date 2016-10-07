@@ -1,0 +1,59 @@
+#250 3
+Mos Eisley Starport~
+25099 20 2 0
+M 0 25002 8 25002     /* load jawa */
+M 0 25002 8 25002     /* load jawa */
+M 0 25002 8 25002     /* load jawa */
+M 0 25002 8 25002     /* load jawa */
+G 1 25009 99      /* load citizen with jacket */
+M 0 25000 8 25013     /* load citizen */
+G 1 25009 99      /* load citizen with jacket */
+M 0 25000 8 25011     /* load citizen */
+G 1 25009 99      /* load citizen with jacket */
+M 0 25000 8 25000     /* load citizen */
+G 1 25009 99      /* load citizen with jacket */
+M 0 25000 8 25005     /* load citizen */
+G 1 25009 99      /* load citizen with jacket */
+M 0 25000 8 25016     /* load citizen */
+G 1 25009 99      /* load citizen with jacket */
+M 0 25009 1 25023     /* load shopkeeper */
+G 1 25001 25
+G 1 25002 25
+G 1 25003 25
+M 0 25010 1 25024     /* load shopkeeper */
+G 1 25008 25
+G 1 25009 25
+G 1 25010 25
+M 0 25011 1 25026     /* load shopkeeper */
+G 1 25011 25
+G 1 25018 25
+M 0 25003 1 25031     /* load barkeeper */
+G 1 25012 25
+G 1 25013 25
+G 1 25014 25
+M 0 25012 1 25027     /* load old jedi knight */
+G 1 25019 25
+G 1 25020 25
+G 1 25021 25
+M 0 25004 1 25029     /* load hammerhead */
+M 0 25005 1 25030     /* load alien */
+M 0 25006 2 25037     /* load wookiee */
+M 0 25007 1 25043     /* load greedo */
+G 1 25003 10      /* load greedo with gun */
+M 0 25008 1 25048     /* load han solo */
+M 0 25006 2 25048     /* load wookiee */
+M 0 25001 8 25000     /* load stormtrooper */
+G 1 25000 10      /* load stormtrooper */
+M 0 25001 8 25002     /* load stormtrooper */
+E 1 25004 10 6     /* load stormtrooper */
+M 0 25001 8 25013     /* load stormtrooper */
+E 1 25005 10 5     /* load stormtrooper */
+M 0 25001 8 25011     /* load stormtrooper */
+E 1 25007 10 7     /* load stormtrooper */
+M 0 25001 8 25005     /* load stormtrooper */
+E 1 25006 10 10     /* load stormtrooper */
+M 0 25002 8 25007     /* load jawa */
+M 0 25002 8 25018     /* load jawa */
+M 0 25002 8 25026     /* load jawa */
+M 0 25002 8 25004     /* load jawa */
+$~

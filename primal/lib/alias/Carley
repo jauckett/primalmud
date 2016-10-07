@@ -1,0 +1,26 @@
+gmb get meat backpack $*
+pamc put all.meat backpack $*
+p get red backpack ; quaff red $*
+parb put all.red backpack $*
+pamb put all.meat backpack $*
+cure cast 'cure light' carley $*
+csg cast 'shocking grasp' $*
+cct cast 'chill touch' $*
+wa wear all $*
+kd kill drunk $*
+kg kill goblin $*
+wake wake ; stand $*
+eb eat bread ; eat bread $*
+cm cast 'magic missile' $*
+ws wield staff $*
+kw kill worker $*
+kj kill janitor $*
+ks kill skeleton $*
+kr kill rat $*
+kc kill cat $*
+cs cast 'strength' $*
+ds drink skin $*
+pbb put bread bag $*
+psb put skin bag $*
+kb kill beggar $*
+gac get all corpse ; save ; get corpse ; junk corpse ; $*

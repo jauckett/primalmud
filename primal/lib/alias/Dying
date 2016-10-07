@@ -1,0 +1,26 @@
+ss s;s;s;s;s
+ke kill exnos
+ll cast 'lightning bolt'
+go n;e;e;e;n;n;n;n;n;n;n;n
+h cast 'heal' self
+se cast 'summon' exnos
+bc get all from corpse;get corpse;junk corpse
+ci cast 'infravision' self
+in cast 'infravision' self
+food cast 'create food';eat mushroom
+gpp get red backpack; quaf red
+rs rem sombrero; wear mask
+ws rem mask; wear sombrero
+r rescue $1
+crr cast 'word of recall'
+gc get all from corpse; get corpse; junk corpse
+lk look
+ww wake; stand
+a assist $1
+c cast '$1' $2
+bs rem knuckles; wield dagger; cast 'sleep' $1; backstab $1; rem dagger; wield knuckles
+ls rem all.pendant; wear medallion; wear cape
+sl rem medallion; rem cape; wear all.pendant
+ga get all corpse; cast 'animate' corpse
+g gossip $1
+see cast 'detect invisibility' self

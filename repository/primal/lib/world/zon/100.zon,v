@@ -1,0 +1,46 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#100 1
+Darask~
+10050 10 2 0
+M 0 10001 15 10014
+M 0 10002 1 10013
+S
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

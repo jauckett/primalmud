@@ -1,0 +1,114 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.41;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.41;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#4557
+Mortal Kombat Battle ARENA!! (Use everything at your disposal)~
+You are standing inside an archaic battle arena.  All manner of new and aged
+weaponry adorn the walls.  The drawn images of great warriors and heroes of
+old adorn the walls.  Throughout the decades the greatest and mightiest
+warriors have been meeting in this arena to fight it to the DEATH.  There can
+only be one victor.  Prepare yourself for Mortal Kombat!
+~
+46 4 0
+D1
+~
+~
+0 -1 4558
+D2
+~
+~
+0 -1 4559
+S
+#4558
+Mortal Kombat Battle ARENA!! (No_Magic)~
+You are standing inside an archaic battle arena.  All manner of new and aged
+weaponry adorn the walls.  The drawn images of great warriors and heroes of
+old adorn the walls.  Throughout the decades the greatest and mightiest
+warriors have been meeting in this arena to fight it to the DEATH.  There can
+only be one victor.  Prepare yourself for Mortal Kombat!
+In this section you will test your raw might without the use of magic.
+~
+46 132 0
+D2
+~
+~
+0 -1 4560
+D3
+~
+~
+0 -1 4557
+S
+#4559
+Mortal Kombat Battle ARENA!! (fight in dark)~
+You are standing inside an archaic battle arena.  All manner of new and aged
+weaponry adorn the walls.  The drawn images of great warriors and heroes of
+old adorn the walls.  Throughout the decades the greatest and mightiest
+warriors have been meeting in this arena to fight it to the DEATH.  There can
+only be one victor.  Prepare yourself for Mortal Kombat!
+A stab in the dark can mean a win or a loss!
+~
+46 5 0
+D0
+~
+~
+0 -1 4557
+D1
+~
+~
+0 -1 4560
+S
+#4560
+Mortal Kombat Battle ARENA!! (The elements have it in for you.)~
+You are standing inside an archaic battle arena.  All manner of new and aged
+weaponry adorn the walls.  The drawn images of great warriors and heroes of
+old adorn the walls.  Throughout the decades the greatest and mightiest
+warriors have been meeting in this arena to fight it to the DEATH.  There can
+only be one victor.  Prepare yourself for Mortal Kombat!
+Fight the elements as well as your oponent.
+~
+46 4 640
+D0
+~
+~
+0 -1 4558
+D3
+~
+~
+0 -1 4559
+S
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

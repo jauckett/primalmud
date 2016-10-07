@@ -1,0 +1,4 @@
+yy wake ; stand 
+uu sleep
+cas cast 'cure light' self
+gc get all corpse

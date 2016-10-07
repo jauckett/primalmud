@@ -1,0 +1,58 @@
+rc cast 'remove curse' $1
+g put ruby bag; l in bag; give bag $1
+fear cast 'fear' $1
+move at 99 transfer $1
+sob emote sobs artfully.
+of order followers $*
+infra cast 'infravision' $1
+ref cast 'refresh' $1
+dheal cast 'divine heal' $1
+allprot cast 'divine protection'; cast 'holy aid'; cast ' spirit armor'; cast 'dragon'; cast 'nohassle'; cast 'bless'; cast 'armor';
+wb cast 'waterb
+robes rem decomp; put decomp back; wear robes
+decomp rem robes; get decomp back; wear decomp;
+ul cast 'remove curse' $1.laser
+level4 w;n;e;n;n;e;go portal;e;n;n;w;w;w;s;e;w;w;s;n;n;w;w;go portal;
+tif w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;n;
+wt cast 'wraith touch' $1
+wr cast 'wraith touch' $1
+whirl cast 'whirlwind'
+wa wake; stand;
+fs cast 'finger of death' stalker
+gauntlet e;e;e;e;s;s;e;get crow; unlock door; open door; drop crow; n; open door east; e;e;e;e;e;n;n;n;open cliff; e;get word; unlock tap; open tap; drop word; n;u;u;u;u;n;n;n;
+2 cast 'advanced heal' self
+1 cast 'divine heal' self
+dragon cast 'dragon' self
+spirit cast 'spirit armor' self
+water cast 'waterb
+divprot cast 'divine protection' self
+holy cast 'holy aid' self 
+uncurse cast 'remove curse' $1
+cor get all all.corpse
+finger cast 'finger of death' $1
+firew cast 'firewall'
+minor cast 'bless' self; cast 'armor' self;
+ww cast 'word of recall'
+sanc cast 'sanctuary' $1
+nh cast 'nohassle'
+id cast 'identify' $1
+dimgate cast 'dimension gate' $1
+loc cast 'locate object' $1
+tavern d;e;s;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;
+gratstalisman> .. I should probabl
+added.348v X:195.0m Al:385 > grat
+grats grat &b./&B`\&r./&R`\&y./&Y`\&w./ &W$* &w\.&Y/'&y\.&R/'&r\.&B/'&b\.
+sum cast 'summon' $1
+od open door $1
+ud unlock door $1
+pd pick door $1
+cd close door $1
+search look up; look down; look north; look east; look south; look west;
+abyss w;s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n;n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;
+tt tell tarn $*
+vo vstat obj $1
+lo load obj $1
+tel cast 'teleport'
+0 slots max
+/w, who
+= / #100 $*

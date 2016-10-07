@@ -1,0 +1,3 @@
+cl cast 'cure light' murgen
+gt get all corpse
+k kill $*

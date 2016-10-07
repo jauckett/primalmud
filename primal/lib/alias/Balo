@@ -1,0 +1,6 @@
+gc get corpse
+q quaff $*
+c con $*
+jc junk corpse all
+k kill $*
+ki kick $*

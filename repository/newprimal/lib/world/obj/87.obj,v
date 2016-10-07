@@ -1,0 +1,387 @@
+head	1.4;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.25.03.35.29;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.45;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@#8700
+robe druid~
+a druid's robe~
+A silver druids robe has been left here~
+~
+9 3169 5 0
+7 0 0 0
+7 6100 610 35
+L 35
+E
+robe druid~
+A long magical flowing robe made up of all the colours in the rainbow.
+~
+A
+12 35
+A
+13 -1
+#8701
+staff~
+staff of sanctuary~
+A  silvery staff is lying here~
+~
+4 192 16385 0
+20 3 3 36
+3 1800 700 0
+L 0
+E
+staff~
+An incredibly dazzling silver staff
+~
+#8702
+sparkling gem stone~
+a sparking gem~
+A huge sparkling stone has been left here.~
+~
+8 0 16385 0
+0 0 0 0
+2 100000 10000 60
+L 60
+E
+sparkling jem~
+A rare stone that sparkles brightly in the sunlight.
+~
+#8703
+canoe~
+a sturdy canoe~
+A sturdy waterproof canoe lies here.~
+~
+22 0 1 0
+0 0 0 0
+11 1000 100 0
+L 0
+E
+canoe~
+A hollow piece of light wood.
+~
+#8704
+astral hide wolf~
+an astral wolf's hide~
+A musty pile of fur has been left here.~
+~
+9 1546 9 0
+5 0 0 0
+9 54000 10350 30
+L 30
+E
+Hide wolf~
+A damp and rather dirty piece of fur and leather.
+~
+A
+12 -25
+A
+19 4
+#8705
+shield dragon~
+a dragon scale shield~
+A glowing green shield lies here~
+~
+9 2570 513 0
+5 0 0 0
+12 54000 5400 35
+L 35
+E
+shield~
+An incredibly beautiful and magical shield
+~
+A
+5 2
+A
+18 4
+A
+3 -1
+#8706
+horn~
+a glowing horn~
+A glowing piece of ivory has been left here.~
+~
+5 3145 24577 0
+0 5 8 11
+5 52540 10508 35
+L 35
+E
+horn~
+A rare and precious piece of ivory from the beautiful unicorn.
+~
+A
+2 2
+A
+13 30
+A
+12 20
+A
+17 -10
+#8707
+weed~
+some weed~
+A slimey piece of weed is rotting here.~
+~
+3 0 16385 0
+25 2 2 42
+2 200 20 0
+L 0
+E
+weed~
+A rather discusting piece of green slimy weed.
+~
+#8708
+claws~
+a pair of silver claws~
+A pair of silvery metalic claws lie here.~
+~
+9 1576 129 0
+4 0 0 0
+4 11300 1130 30
+L 30
+E
+claws~
+Silver daggers attached to a silver glove.
+~
+A
+13 3
+A
+19 2
+A
+1 1
+#8709
+sword~
+a sword of sharpness~
+A sword made of fine steel lies here.~
+~
+5 11264 8193 0
+2 6 6 3
+8 72000 72256 40
+L 40
+E
+sword~
+A long curved blade and a ornate silver and ruby handle.
+~
+A
+18 5
+A
+19 4
+#8710
+jewel~
+a glowing jewel~
+A glowing jewel lies here.~
+~
+8 0 1 0
+0 0 0 0
+1 120000 12000 70
+L 70
+E
+jewel~
+A rare and unusual jewel that may fetch a high price.
+~
+#8711
+silver gloves~
+a pair of silver lined gloves~
+A pair of silver lined gloves lie here.~
+~
+9 3073 129 0
+5 0 0 0
+8 54000 72256 30
+L 30
+E
+silver gloves~
+A pair of ornate silver gloves.
+~
+A
+3 2
+A
+19 1
+A
+13 -10
+$~
+@
+
+
+1.3
+log
+@Latest Versions
+@
+text
+@d151 1
+a151 1
+5 3072 8193 0
+@
+
+
+1.2
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@d38 2
+a39 2
+2 100000 10000 0
+L 0
+d170 2
+a171 2
+1 120000 12000 0
+L 0
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+9 3169 5
+d8 2
+a9 1
+7 6100 610
+d15 1
+a15 1
+12 40
+a17 1
+L 35
+d23 1
+a23 1
+4 192 16385
+d25 2
+a26 1
+3 7000 700
+a30 1
+L 0
+d36 1
+a36 1
+8 0 16385
+d38 2
+a39 1
+2 100000 10000
+a43 1
+L 0
+d49 1
+a49 1
+22 0 1
+d51 2
+a52 1
+15 1000 100
+a56 1
+L 0
+d62 1
+a62 1
+9 1546 9
+d64 2
+a65 1
+9 103500 10350
+a73 1
+L 30
+d79 1
+a79 1
+9 2570 513
+d81 2
+a82 1
+12 54000 5400
+d90 1
+a90 1
+18 5
+a92 1
+L 35
+d98 1
+a98 1
+5 3145 24577
+d100 2
+a101 1
+5 52540 10508
+a113 1
+L 35
+d119 1
+a119 1
+3 0 16385
+d121 2
+a122 1
+2 200 20
+a126 1
+L 0
+d132 1
+a132 1
+9 1576 129
+d134 2
+a135 1
+4 11300 1130
+a145 1
+L 30
+d151 1
+a151 1
+5 3072 8193
+d153 2
+a154 1
+8 361281 72256
+d160 1
+a160 1
+19 6
+d162 1
+a162 2
+18 8 
+L 31
+d168 1
+a168 1
+8 0 1
+d170 2
+a171 1
+1 120000 12000
+a175 1
+L 0
+d181 1
+a181 1
+9 3073 129
+d183 2
+a184 1
+8 361281 72256
+d190 1
+a190 1
+3 3
+d194 1
+a194 3
+13 -10 
+L 30
+#99999
+@
+

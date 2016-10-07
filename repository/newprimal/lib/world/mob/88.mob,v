@@ -1,0 +1,294 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.18;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@#8800
+pirate~
+a nasty pirate~
+A nasty looking pirate is here glaring at you.
+~
+The pirate looks like he knows every dirty trick in the book, you
+better watch him!
+~
+1052782 8 -1000 E
+47 -20 -2 10d8+2720 14d21+48
+300 470000
+8 8 0
+E
+#8801
+pirate lookout~
+the pirate lookout~
+The pirate lookout is here watching over the lagoon.
+~
+The pirate lookout has a keen eye and nothing escapes his attention.
+He is holding a large cutlass in one hand and a looking glass in the other.
+~
+1052782 136 -1000 E
+50 -30 -3 10d8+3000 15d17+54
+950 500000
+8 8 0
+E
+#8802
+pirate lord~
+the pirate lord~
+The lord of the pirates is here glaring at you.
+~
+The pirate lord is very charismatic and commands his ruthless
+band with an iron fist.
+~
+3146282 33960 -750 E
+55 -30 -5 10d8+3800 18d19+59
+750 550000
+8 8 1
+E
+#8803
+worm sandworm~
+a giant sandworm~
+A giant sandworm is here looming up out of the dunes.
+~
+The worm is about 90 feet long and has a giant maw with razor sharp
+teeth.
+~
+3156024 1056 -1000 E
+60 -44 -7 8d20+4500 19d20+64
+2 600000
+8 8 0
+E
+#8804
+doreeg~
+a doreeg~
+A sinister looking doreeg is floating here.
+~
+The doreeg has a twisted looking human face and its body is a wispy
+ethereal tail. It hovers strangely above the ground.
+~
+16456 1162 0 E
+45 -20 -2 8d10+2675 14d17+38
+850 400000
+8 8 0
+E
+#8805
+crab giant~
+a giant crab~
+A gigantic crab is here scuttling across the sand.
+~
+You've seen king crabs before but this is much bigger. About the size
+of a house and its main claw could snap you in two easily!
+~
+26712 1056 0 E
+50 -27 -3 8d20+2550 15d16+54
+850 390000
+8 8 0
+E
+#8806
+shark white~
+a great white shark~
+A great white shark is here circling you.
+~
+The great shark is the ultimate in marine predators. His mouth looks like 
+it can swallow you whole and his teeth look like they would rip your arms 
+and legs off.
+~
+1058926 1064 0 E
+49 -25 -3 5d50+2200 17d19+30
+53 460000
+8 8 0
+E
+#8807
+tiger~
+a huge tiger~
+A massive tiger is here prowling around.
+~
+The tiger is about 20 feet long from the tip of its nose
+to the tip of its tail.
+~
+1058926 1064 0 E
+44 -27 -1 5d50+2200 17d15+48
+333 440000
+8 8 0
+E
+#8808
+cuttlefish giant fish~
+a giant cuttlefish~
+A giant cuttlefish is here in the water with you.
+~
+The cuttlefish is hard to see but you can make out that it is
+about 30 feet long and has huge tenticles.
+~
+10296 1064 0 E
+44 -27 -1 5d50+2200 20d15+48
+333 440000
+8 8 0
+E
+#8809
+fish killer~
+a dreadful spindly killer fish~
+A dreadful spindly killer fish is here here swimming about you.
+~
+The killer fish generally hunt in schools and can strip a man to
+the bones in minutes.
+~
+114792 1032 0 E
+40 -20 0 5d10+1800 15d10+44
+250 400000
+8 8 0
+E
+#8810
+dune stalker~
+a dune stalker~
+A dune stalker is here tracking you.
+~
+The dune stalker is about 10 feet tall and very musclular. It has
+large eyes and ears for tracking its prey.
+~
+1062958 1160 0 E
+47 -20 -2 5d9+3154 15d15+50
+175 470000
+8 8 1
+E
+#8811
+native islander~
+a native islander~
+A native islander is here looking curiously at you.
+~
+The native is tall and dressed in simply clothing.
+~
+1062958 1160 200 E
+30 -14 3 10d5+1500 15d15+30
+500 300000
+8 8 1
+E
+#8812
+giant bird~
+a giant bird~
+A giant flightless bird is here scavenging.
+~
+The bird is as big as an elephant and has a sharp beak.
+~
+26716 0 0 E
+40 -24 0 5d10+1900 15d15+27
+67 400000
+8 8 0
+E
+$
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d9 5
+a13 4
+1052774 8 -1000 S
+47 -20 -10 10d8+2720 4d11+48
+300 499000
+8 8 0 2
+d22 5
+a26 4
+1052774 136 -1000 S
+50 -30 -10 10d8+3000 5d7+68
+950 600000
+8 8 0 2
+d35 5
+a39 4
+3146274 33960 -750 S
+55 -40 -10 10d8+3800 8d7+68
+750 699000
+8 8 1 2
+d48 5
+a52 4
+3156024 1056 -1000 S
+60 -50 -10 8d20+4500 9d10+70
+2 719000
+8 8 0 5
+d61 2
+a62 2
+16448 1162 0 S
+45 -20 -10 8d10+2675 4d7+38
+d64 2
+a65 1
+8 8 0 6
+d74 2
+a75 2
+26712 1056 0 S
+50 -27 -10 8d20+3600 5d6+60
+d77 2
+a78 1
+8 8 0 5
+d87 3
+a89 3
+~ 
+1058926 1064 0 S
+49 -25 -10 5d50+2200 7d5+60
+d91 2
+a92 1
+8 8 0 6
+d101 5
+a105 4
+1058926 1064 0 S
+44 -27 -10 5d50+2200 7d5+60
+333 520000
+8 8 0 3
+d108 1
+a108 1
+a giant cuttlefish~~
+d114 5
+a118 4
+10296 1064 0 S
+44 -27 -10 5d50+2200 10d5+60
+333 480000
+8 8 0 5
+d127 5
+a131 4
+114784 1032 0 S
+40 -20 -10 5d10+1800 5d10+70
+250 500000
+8 8 0 6
+d140 5
+a144 4
+1062958 1160 0 S
+47 -20 -10 5d9+3800 5d5+50
+175 530000
+8 8 1 2
+d152 5
+a156 4
+1062958 1160 200 S
+30 -20 -10 10d5+1500 5d5+30
+500 500000
+8 8 1 2
+d164 6
+a169 6
+26716 0 0 S
+40 -30 -10 5d10+1900 5d5+27
+67 490000
+8 8 0 5
+#99999
+$~
+@
+

@@ -1,0 +1,45 @@
+4
+fire
+18
+cast 'fireball' $1
+1
+1
+t
+12
+track rattle
+0
+1
+\
+8
+buy prot
+0
+1
+m
+8
+buy heal
+0
+1
+h
+21
+get heal back; q heal
+1
+1
+p
+20
+get prot back;q prot
+1
+3
+col
+15
+cast 'color' $1
+1
+3
+lig
+19
+cast 'lightning' $1
+1
+6
+pract1
+9
+s;e;e;e;s
+1

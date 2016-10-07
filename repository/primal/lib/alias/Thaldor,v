@@ -1,0 +1,99 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@clbgd cast 'lightning bolt' guard; cast 'lightning bolt' guard; cast 'lightning bolt' guard; cast 'lightning bolt' guard; cast 'lightnign bolt' guard; cast 'lightning bolt' guard; cast 'lightning bolt' guard
+eap get apple backpack; eat apple
+lb put all backpack; get scythe backpack; get crate backpack
+ccc cast 'cure critic'
+clbcg cast 'lightning bolt' guard; cast 'lightning bolt' guard; cast 'lightning bolt' guard; cast 'lightning bolt' guard; cast 'lightning bolt' guard; cast 'lightning bolt' guard
+rome n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+rometotavern e;e;e;e;e;n;n;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w;n;n;n;n;e;s
+eo get orange backpack; eat orange
+clbtr cast 'lightning bolt' traveller; cast 'lightning bolt' traveller; cast 'lightning bolt' traveller; cast 'lightning bolt' traveller
+eh get hotdog backpack; eat hotdog
+clbb cast 'lightning bolt' bailiff; cast 'lightning bolt' bailiff; cast 'lightning bolt' bailiff
+clbd cast 'lightning bolt' defendant; cast 'lightning bolt' defendant; cast 'lightning bolt' defendant
+clbp cast 'lightning bolt' plaintiff; cast 'lightning bolt' plaintiff; cast 'lightning bolt' plaintiff
+8 j bandanna
+clba cast 'lightning bolt' adventurer
+clbc cast 'lightning bolt' chef
+bsg remove scythe; wield knife; backstab giant; remove knife; wield scythe
+bsw remove scythe; wield knife; backstab warrior; remove knife; wield scythe
+ws remove knife; wield scythe
+wk remove scythe; wield knife
+ks kill skeleton
+cs cast 'strength'
+eb get bread backpack; eat bread
+em get meat backpack; eat meat
+dr get skin backpack; drink skin; put skin backpack
+9 get all corpse
+qw get white backpack; quaff white
+qr get red backpack; quaff red
+z put all.potion backpack
+x put all.bread backpack
+lt get lantern backpack; grab lantern
+nlt remove lantern; put lantern backpack
+rp tell robohelp poisoned
+kw kill warrior
+km kill merchant
+kt kill trickster
+fs get skin backpack; fill skin fountain; put skin backpack
+bst remove scythe; wield knife; backstab trickster; remove knife; wield scythe
+bsc remove scythe; wield knife; backstab citizen; remove knife; wield scythe
+bsm remove scythe; wield knife; backstab merchant; remove knife; wield scythe
+bsu remove scythe; wield knife; backstab undead; remove knife; wield scythe
+qb get blue backpack; quaff blue
+ccl cast 'cure light'
+clb cast 'lightning bolt' warrior
+clbg cast 'lightning bolt' giant
+clbt cast 'lightning bolt' trickster
+clbe cast 'lightning bolt' enfan
+clbv cast 'lightning bolt' vendor
+lc op crate; put all crate; get backpack crate; get knife crate; get scythe crate; close crate
+clbn cast 'lightning bolt' nobleman;cast 'lightning bolt' nobleman; cast 'lightning bolt' nobleman
+clbgl cast 'lightning bolt' gladiator; cast 'lightning bolt' gladiator; cast 'lightning bolt' gladiator
+clbh cast 'lightning bolt' healer; cast 'lightning bolt' healer; cast 'lightning bolt' healer; cast 'lightning bolt' healer
+clbl cast 'lightning bolt' lady; cast 'lightning bolt' lady; cast 'lightning bolt' lady
+clbs cast 'lightning bolt' soldier; cast 'lightning bolt' soldier; cast 'lightning bolt' soldier; cast 'lightning bolt' soldier
+clbma cast 'lightning bolt' master; cast 'lightning bolt' master; cast 'lightning bolt' master; cast 'lightning bolt' master
+clbm cast 'lightning bolt' merchant
+clbgh cast 'lightning bolt' ghast; cast 'lightning bolt' ghast
+cast 'lightning bolt' judge; cast 'lightning bolt' judge; cast 'lightning bolt' judge;
+oh remove hat; put hat backpack; get helmet backpack; wear helmet
+wh remove helmet; put helmet backpack; get hat backpack; wear hat
+rr wear all; put all.skin backpack; put all.meat backpack; put all.bread backpack; put lantern backpack; grab wand; wield knife; open crate; put all crate; get scythe crate; get backpack crate; close crate
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

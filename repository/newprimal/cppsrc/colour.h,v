@@ -1,0 +1,166 @@
+head	1.5;
+access;
+symbols
+	A3_0_59:1.2
+	LATEST:1.2
+	A3_0_1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.5
+date	2004.08.27.01.47.03;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.11.30.13.41.57;	author rod;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.11.15.04.21.09;	author rod;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.12.17.13.06.27;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.57;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Artus> Added (then removed) strdispmax() function.
+@
+text
+@#define CNRM  "\x1B[0;0m"
+#define CBLK  "\x1B[0;30m"
+#define CRED  "\x1B[0;31m"
+#define CGRN  "\x1B[0;32m"
+#define CYEL  "\x1B[0;33m"
+#define CBLU  "\x1B[0;34m"
+#define CMAG  "\x1B[0;35m"
+#define CCYN  "\x1B[0;36m"
+#define CWHT  "\x1B[0;37m"
+#define CNUL  ""
+ 
+#define BBLK  "\x1B[1;30m"
+#define BRED  "\x1B[1;31m"
+#define BGRN  "\x1B[1;32m"
+#define BYEL  "\x1B[1;33m"
+#define BBLU  "\x1B[1;34m"
+#define BMAG  "\x1B[1;35m"
+#define BCYN  "\x1B[1;36m"
+#define BWHT  "\x1B[1;37m"
+ 
+#define BKBLK  "\x1B[40m"
+#define BKRED  "\x1B[41m"
+#define BKGRN  "\x1B[42m"
+#define BKYEL  "\x1B[43m"
+#define BKBLU  "\x1B[44m"
+#define BKMAG  "\x1B[45m"
+#define BKCYN  "\x1B[46m"
+#define BKWHT  "\x1B[47m"
+ 
+#define CAMP  "&"
+#define CSLH  "\\"
+ 
+#define CUDL  "\x1B[4m" /* Underline ANSI code */
+#define CFSH  "\x1B[5m" /* Flashing ANSI code.  Change to #define CFSH "" if
+                         * you want to disable flashing colour codes
+                         */
+#define CRVS  "\x1B[7m" /* Reverse video ANSI code */ 
+
+#define MAX_COLORS 30
+
+#define CPREV_CODE  '|'
+#define CMARK_CODE  '['
+#define CMARK_PLACE ']'
+#define GET_PREV_COLOUR(ch) (ch->player_specials->prev_colour_code)
+#define GET_LAST_COLOUR(ch) (ch->player_specials->last_colour_code)
+#define GET_MARK_COLOUR(ch) (ch->player_specials->mark_colour_code)
+
+int     isnum(char);
+int     is_colour(struct char_data *, char, bool); 
+void    set_default_colour(struct char_data *, int);
+void    set_colour(struct char_data *, int, int);
+int 	strdisplen(const char *);
+// char    *strdispmax(char *input, int maxlen);
+int 	first_disp_char(const char *);
+@
+
+
+1.4
+log
+@
+Modified: DM
+
+Added:
+- first_disp_char() function which returns the index position
+  of the first character in a string which will be displayed to the screen
+  (called atm from CAP()) ...
+- LAST and PREV "&|", MARK "&[", "&]" colour codes, see documentation in
+  file for further info - not sure if the documentation is very good though
+@
+text
+@d53 1
+@
+
+
+1.3
+log
+@
+Modified: DM
+
+Changed:
+- finished fixing up score?
+- added strdisplen function (colour.c)
+- paging fix up
+@
+text
+@d41 13
+a53 5
+int     isnum(char s);
+int     is_colour(struct char_data *ch, char code, bool colour_code_only); 
+void    set_default_colour(struct char_data *ch, int i);
+void    set_colour(struct char_data *ch, int i, int colour_code);
+int strdisplen(const char *string);
+@
+
+
+1.2
+log
+@
+Added:
+- added or removed a single empty line?
+@
+text
+@d45 1
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d40 1
+@
+

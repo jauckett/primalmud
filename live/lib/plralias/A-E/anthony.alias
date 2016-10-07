@@ -1,0 +1,15 @@
+4
+heal
+14
+cast 'heal' $*
+1
+4
+food
+18
+cast 'create food'
+0
+3
+gac
+18
+get all all.corpse
+0

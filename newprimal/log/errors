@@ -1,0 +1,317 @@
+Oct  4 09:32:21 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Oct  6 08:01:36 :: SYSERR: NULL object carrier passed to obj_from_char.
+Oct 18 19:55:50 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Oct 21 15:03:25 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.
+Oct 21 17:25:25 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+SYSERR: perform_socket_read: about to lose connection: Connection reset by peer
+SYSERR: perform_socket_read: about to lose connection: Connection reset by peer
+Oct 30 19:39:13 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov  1 16:25:37 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+SYSERR: perform_socket_read: about to lose connection: Connection reset by peer
+SYSERR: perform_socket_read: about to lose connection: Connection reset by peer
+Nov  6 10:31:44 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov  6 10:31:46 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov  6 10:31:48 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov  6 10:31:52 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov  7 21:54:44 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 12 16:07:26 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 12 16:07:28 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 12 16:07:30 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 12 16:07:32 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 12 16:07:34 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 12 16:09:53 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 12 16:09:55 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 12 16:09:57 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 12 16:09:59 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 12 16:10:01 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 14 22:27:33 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 21 00:04:24 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+SYSERR: perform_socket_read: about to lose connection: Connection reset by peer
+Nov 24 12:55:55 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 13:28:09 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 24 13:28:11 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 24 13:28:15 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 24 13:39:15 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 24 13:39:17 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 24 13:39:19 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 24 13:39:23 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 24 13:41:11 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 24 13:41:13 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 24 13:41:15 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 24 13:41:19 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 24 13:59:36 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 24 13:59:38 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 24 13:59:40 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 24 13:59:44 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 24 14:01:57 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 14:04:44 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 24 14:04:46 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 24 14:04:48 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 24 14:04:50 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 24 14:33:43 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+Nov 24 14:33:43 :: SYSERR: zone file: Invalid vnum 11600, cmd disabled
+Nov 24 14:33:43 :: SYSERR: ...offending cmd: 'O' cmd in zone #200, line 4
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 14:36:10 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 14:47:34 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 15:14:37 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 15:25:16 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 15:25:33 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 15:32:06 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 15:33:38 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 16:04:39 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 16:15:10 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 16:18:21 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 24 16:48:45 :: SYSERR: remove_from_save_list: Saved item not found. (116/4)
+Nov 24 16:48:47 :: SYSERR: remove_from_save_list: Saved item not found. (116/0)
+Nov 24 16:48:49 :: SYSERR: remove_from_save_list: Saved item not found. (116/1)
+Nov 24 16:48:51 :: SYSERR: remove_from_save_list: Saved item not found. (116/2)
+Nov 24 16:49:45 :: SYSERR: remove_from_save_list: Saved item not found. (116/4)
+Nov 24 16:49:47 :: SYSERR: remove_from_save_list: Saved item not found. (116/0)
+Nov 24 16:49:49 :: SYSERR: remove_from_save_list: Saved item not found. (116/1)
+Nov 24 16:49:51 :: SYSERR: remove_from_save_list: Saved item not found. (116/2)
+Nov 25 11:23:02 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 25 11:23:04 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 25 11:23:06 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 25 11:23:10 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 25 11:24:53 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 25 11:24:55 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 25 11:24:57 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 25 11:25:01 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 25 11:42:45 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 25 11:42:47 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 25 11:42:49 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 25 11:42:51 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 25 11:42:53 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 25 11:46:17 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 25 11:52:45 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 25 11:52:47 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 25 11:52:49 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 25 11:52:53 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 25 11:55:18 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 25 11:55:20 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 25 11:55:22 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 25 11:55:26 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 25 13:41:43 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 25 13:41:45 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 25 13:41:47 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 25 13:41:49 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 25 13:41:51 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 15:54:40 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 15:54:42 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 15:54:44 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 15:54:48 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 15:55:53 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 15:55:55 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 15:55:57 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 15:56:01 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 15:59:29 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 15:59:31 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 15:59:33 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 15:59:37 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:06:47 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:06:49 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:06:51 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:06:55 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:12:36 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:12:38 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:12:40 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:12:44 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:14:28 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:14:30 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:14:32 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:14:36 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:15:28 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:15:30 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:15:32 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:15:36 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:16:50 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:16:52 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:16:54 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:16:58 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:18:00 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:18:02 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:18:04 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:18:08 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:22:05 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:22:07 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:22:09 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:22:13 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:25:02 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:25:04 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:25:06 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:25:10 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:28:28 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:28:30 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:28:32 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:28:36 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:31:46 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Nov 28 16:33:47 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:33:49 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:33:51 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:33:53 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 28 16:33:55 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:37:48 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:37:50 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:37:54 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 28 16:37:56 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:38:50 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:38:52 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:38:56 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 28 16:38:58 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:39:27 :: SYSERR: Mob using '((ch)->player_specials->saved.pref)' at act.comm.c:318.
+Nov 28 16:40:30 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:40:32 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:40:34 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 28 16:40:36 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 28 16:40:38 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 28 16:49:35 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 28 16:49:37 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 28 16:49:41 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 28 16:49:43 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 13:15:47 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 13:15:49 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 13:15:51 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 13:15:55 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 13:17:41 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 13:17:43 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 13:17:45 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 13:17:49 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 13:21:25 :: SYSERR: a Platinum Card Cutter lies here. [Vnum 26100] attempting MAG_AREAS.
+Nov 29 13:21:43 :: SYSERR: a Platinum Card Cutter lies here. [Vnum 26100] attempting MAG_AREAS.
+Nov 29 13:22:09 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 13:22:11 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 13:22:13 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 13:22:17 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 13:22:27 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 13:22:29 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 13:22:31 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 13:22:35 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 13:22:55 :: SYSERR: A Platinum Card Cutter [Vnum 26100] attempting MAG_AREAS.
+Nov 29 13:23:47 :: SYSERR: A Platinum Card Cutter [Vnum 26100] attempting MAG_AREAS.
+Nov 29 13:25:11 :: SYSERR: A Platinum Card Cutter [Vnum 26100] attempting MAG_AREAS.
+Nov 29 13:26:31 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 13:26:33 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 13:26:35 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 13:26:39 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 13:28:09 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 13:28:11 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 13:28:13 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 13:28:17 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 13:28:23 :: SYSERR: A Platinum Card Cutter [Vnum 26100] attempting MAG_AREAS.
+Nov 29 13:34:09 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 13:34:11 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 13:34:13 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 13:34:17 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 13:35:48 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 13:35:50 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 13:35:52 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 13:35:56 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Nov 29 17:13:56 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Nov 29 17:13:58 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Nov 29 17:14:00 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Nov 29 17:14:02 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Nov 29 17:14:04 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Dec  1 17:17:56 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Dec  3 09:06:18 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Dec  3 09:06:20 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Dec  3 09:06:24 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Dec  3 09:06:26 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Dec  4 00:07:23 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Dec  4 08:22:27 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Dec  4 08:22:29 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Dec  4 08:22:33 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Dec  4 08:22:35 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Dec  6 11:23:14 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Dec  8 21:29:41 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Dec  8 21:32:31 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+SYSERR: perform_socket_read: about to lose connection: Connection reset by peer
+SYSERR: perform_socket_read: about to lose connection: Connection reset by peer
+SYSERR: perform_socket_read: about to lose connection: Connection reset by peer
+Dec 17 10:32:05 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Dec 22 13:07:04 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jan  2 22:19:24 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jan  6 20:36:29 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jan 14 14:26:28 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Jan 14 14:26:30 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Jan 14 14:26:32 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Jan 14 14:26:34 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Jan 14 14:26:36 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Jan 14 14:31:39 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Jan 14 14:31:41 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Jan 14 14:31:43 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Jan 14 14:31:45 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Jan 14 14:31:47 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Jan 17 18:22:39 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jan 23 01:51:35 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jan 27 10:25:01 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jan 29 22:18:39 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jan 30 09:59:48 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Feb 15 17:10:35 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Feb 23 17:50:24 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Mar  7 12:22:41 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Mar 22 10:52:14 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Mar 23 12:42:21 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Apr  5 16:28:05 :: SYSERR: remove_from_save_list: Saved item not found. (261/3)
+Apr  5 16:28:07 :: SYSERR: remove_from_save_list: Saved item not found. (261/4)
+Apr  5 16:28:09 :: SYSERR: remove_from_save_list: Saved item not found. (261/0)
+Apr  5 16:28:11 :: SYSERR: remove_from_save_list: Saved item not found. (261/1)
+Apr  5 16:28:13 :: SYSERR: remove_from_save_list: Saved item not found. (261/2)
+Apr  7 10:27:05 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jun  9 15:31:10 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jun  9 15:41:08 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jun  9 15:45:24 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jun  9 15:48:11 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jun  9 16:23:39 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Jun  9 16:45:29 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+SYSERR: bind: Address already in use
+Jun 15 12:17:17 :: SYSERR: Object #30837 (Small sink) contains (5000000) more than maximum (1000000).
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory

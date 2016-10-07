@@ -1,0 +1,14 @@
+arm cast 'arm'
+infra cast 'infra'
+blind cast 'blind' $1
+mm cast 'magic mis' $1
+corpse get all corpse
+sh cast 'shock' $1
+c cast 'color' $1
+dragon cast 'dragon'
+l cast 'lightn' $1
+h cast 'cure crit'
+sanc cast 'sanc'
+r open force; get ammo force; reload ammo
+bless cast 'bless'
+str cast 'str'

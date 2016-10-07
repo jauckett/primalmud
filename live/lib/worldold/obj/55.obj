@@ -1,0 +1,132 @@
+#5501
+ogre helm~
+an ogre helm~
+A helm lies here with the horns of an ogre mounted on its crown.~
+~
+9 65572 17
+10 0 0 0
+5 5876 40
+E
+horns~
+The horns glow a dull yellow color. They seem to exude menace.
+~
+#5502
+pot pan~
+a dinted pan~
+An old worn out pan lies here. Perhaps a tinker could fix it.~
+~
+13 0 1
+0 0 0 0 
+1 1 1
+#5503
+tree stump~
+a tree stump~
+An aging tree stump stands here. It has something carved into it.~
+~
+12 0 0
+0 0 0 0 
+1 1 0
+E
+directions carving carved something~
+        To the north lies a danger to all. Be warned.
+        To the east is the fair city of Haven.
+        To the west the city of Darask is found.
+~
+#5504
+tree stump~
+a tree stump~
+An aging tree stump stands here. It has something carved into it.~
+~
+12 0 0
+0 0 0 0 
+1 1 0
+E
+directions carving carved something~
+        To the east is the fair city of Haven.
+        To the west the city of Darask is found.
+        Take the downward path the the forest of Drieland.
+~
+#5505
+tree stump~
+a tree stump~
+An aging tree stump stands here. It has something carved into it.~
+~
+12 0 0
+0 0 0 0 
+1 1 0
+E
+directions carving carved something~
+        To the east is the fair city of Haven.
+        To the north the city of Darask is found.
+        The summit of Mount Despair is found to the west.
+~
+#5506
+tree stump~
+a tree stump~
+An aging tree stump stands here. It has something carved into it.~
+~
+12 0 0
+0 0 0 0 
+1 1 0
+E
+directions carving carved something~
+        Northwards lie Haven and Darask.
+        Go south to visit the highest part of Primal.
+        For those of ye looking to conquer evil travel east to Rand's Tower.
+        
+        A warning to ye all. To the south a great beast stirs.
+~
+#5507
+tree stump~
+a tree stump~
+An aging tree stump stands here. It has something carved into it.~
+~
+12 0 0
+0 0 0 0 
+1 1 0
+E
+directions carving carved something~
+        Travel north to get to Darask, south for fair Haven and
+        those who wish to rest tired bones and soak up heat and ale
+        go westwards to Werith's Wayhouse.
+~
+#5508
+tree stump~
+a tree stump~
+An aging tree stump stands here. It has something carved into it.~
+~
+12 0 0
+0 0 0 0 
+1 1 0
+E
+directions carving carved something~
+        All deliveries to the mine travel along the path to the east.
+~
+#5509
+cart~
+an old mining cart~
+An old mining cart lies here looking disused.~
+~
+15 0 0
+300 1 -1 0 
+1 1 0
+
+#5510
+nugget~
+a large nugget of gold~
+This chunk of metal must have been over looked when the mine was abandoned.~
+~
+8 0 1
+0 0 0 0
+15 5000 0
+
+#5511
+pick axe~
+an old rusty pick axe~
+An old pick axe left behind when the mine was abandoned.~
+~
+12 0 1
+0 0 0 0
+25 1 0
+#99999
+$~

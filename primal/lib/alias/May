@@ -1,0 +1,24 @@
+inf c 'infra'
+ds get skin field;drink skin;put skin field
+gf get $* field
+pf put $* field
+ff l in field
+2 track doll
+loc c 'locate object' $*
+gg get all.gold all.corpse
+dinv c ' detect invisibility'
+qr q red
+ws wake;stand
+f flee
+qw q white
+fs get skin backpack;fill skin fountain; put skin backpack
+eb get bread backpack;eat bread
+gc get all all.corpse
+ec exam corpse
+bp l in backpack
+gb get $1 backpack
+pb put $1 backpack
+ef c 'create food'; eat mushroom
+cc c 'cure critic'
+re rec recall
+r c 'word of recall'

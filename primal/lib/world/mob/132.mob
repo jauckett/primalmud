@@ -1,0 +1,367 @@
+#13200
+Horse~
+Horse~
+You see a common looking horse stearing back at you.
+~
+The horse looks run down and tired.  It might make good dog food but as for
+a sturdy animal i'd give it a miss.
+~
+74 0 0 S
+3 17 10 1d10+20 2d6+2
+100 400
+8 8 2
+#13201
+Black Stallion~
+Black Stallion~
+You see a Black Stallion of breathtaking beauty.
+~
+      /^\\              //\
+     |   \\            //  \
+     |    ||    ,==.  //   |
+      \   ||.=^////"=,||   /
+      /(\ /////////\\\\\  /)
+     (/(((///`^\\\\\)))\\///\
+    (//)))/_.-"")))\\((//((())
+    (((((((_.-"///"")).`')\\(\\
+    )))())'   (((   (   './//)))
+  (////^/       ))       (((/(/
+  /)///`        (         ))\((
+ `//(/_ '._             _.' _\\\
+ ((((/^\   '.         .'   /^\)))
+ (\)\\__\    '       '    /__/((
+   )))\       '     '       /)))
+  )//)/|       '   '       |(((
+ //))))/\      :   :      / ))
+ (((((\\|      :   :      | (
+  \\)\\\|      :   :      |
+   )))))|   _.--'''--._   |
+   /(/// \.'   _____   './
+   (///( /  .-':   :'-.  \ 
+    )))  \.'  .     .  './
+   ((     |  .       .  |
+    )     |/  '.   .'  \|
+          //(         )\\
+          \\/         \//
+           `\   '''   /`
+             '.__.__.'
+               `"""` 
+~
+74 32 100 S
+6 14 6 1d15+70 2d8+4
+1000 1000
+8 8 1
+#13202
+Rugged Donkey~
+Rugged Donkey~
+You see a Rugged Donkey standing before you flicking it's ears
+~        __
+   __   (__`\
+  (__`\   \\`\
+   `\\`\   \\ \
+     `\\`\  \\ \
+       `\\`\#\\ \#
+         \_ ##\_ |##
+         (___)(___)##
+          (0)  (0)`\##
+           |^   ^ , \##
+           |      |  \## 
+           |     /\   \##         __..---'''''-.._.._
+           |     | \   `\##  _.--'                _  `.
+           Y     |  \    `##'                     \`\  \
+          /      |   \                             | `\ \
+         /_...___|    \                            |   `\\
+        /        `.    |                          /      ##
+       |          |    |                         /      ####
+       |          |    |                        /       ####
+       | () ()    |     \     |          |  _.-'         ##
+       `.        .'      `._. |______..| |-'|         
+         `------'           | | | |    | || |
+                            | | | |    | || |
+                            | | | |    | || |
+                            | | | |    | || |
+                      _____ | | | |____| || |
+                     /     `` |-`/     ` |` |
+                     \________\__\_______\__\
+                      """""""""   """""""'"""
+~
+74 0 0 S
+3 18 10 1d10+35 1d8+2
+0 290
+8 8 1
+#13203
+white mare pure horse~
+Pure white mare~
+You see a pure white mare standing here casually chewing some grass
+~
+                               _(\_/) 
+                             ,((((^`\
+                            ((((  (6 \ 
+                          ,((((( ,    \
+      ,,,_              ,(((((  /"._  ,`,
+     ((((\\ ,...       ,((((   /    `-.-'
+     )))  ;'    `"'"'""((((   (      
+    (((  /            (((      \
+     )) |                      |
+    ((  |        .       '     |
+    ))  \     _ '      `t   ,.')
+    (   |   y;- -,-""'"-.\   \/  
+    )   / ./  ) /         `\  \
+       |./   ( (           / /'
+       ||     \\          //'|
+       ||      \\       _//'||
+       ||       ))     |_/  ||
+       \_\     |_/          ||
+       `'"                  \_\
+                            `'" 
+~
+74 32 300 S
+6 17 8 1d15+70 2d8+2
+0 1350
+8 8 2
+#13204
+Citizen of hope~
+Citizen of Hope~
+A Citizen of Hope is here going about daily chore's
+~
+You see a rugged looking citizen bussily taking care of daily chore's.
+The citizen pays no attention to you at all.  How rude!.
+~
+2120 0 0 S
+4 20 6 1d10+35 1d8+2
+100 900
+8 8 0
+#13205
+Sheriff~
+Sheriff~
+The Sheriff is here keeping a close eye on you
+~
+You see a strong looking man with raven black hair.  He looks very strong
+and so he should be.  A shiny gold badge adorn's his leather vest.
+A pair of mean looking guns hang about his waist.
+~
+2377 1152 900 S
+10 13 3 1d20+200 2d8+2
+1500 3000
+8 8 1
+#13206
+Deputy Sheriff~
+Deputy Sheriff~
+The Deputy Sheriff looks you over suspiciously
+~
+You see a strong looking man with curly brown hair.   He looks very strong
+and so he should be.  A shiny silver badge adorn's his leather vest.
+He holds a rifle like he really knows how to use it.
+~
+2377 1024 600 S
+6 17 17 1d20+200 1d12+3
+1500 3400
+8 8 1
+#13207
+drunk~
+Drunk~
+A drunk is barely standing before you
+~
+You see a filty looking man.  And by the way he looks back at you seems to
+indicate that the drink has done its damage to his health.
+~
+78 0 0 S
+2 20 10 1d20+10 1d6+2
+10 200
+8 8 0
+#13208
+Finley dressed lady~
+Finley dressed lady~
+A Finley dressed lady stands before you.  She looks down upon you
+~
+You see a well dressed lady.  He clothes seem to indicate that she comes
+from a rich household.  She looks at you like you are not worth the
+space you occupy.
+~
+200 0 0 S
+4 20 10 1d10+30 1d6+2
+350 400
+8 8 2
+#13209
+blacksmith joe~
+Joe the BlackSmith~
+Joe the BlackSmith is busy hammering away at some new horseshoe's
+~
+You see a heavily built man.  He looks like he could uproot a tree with his
+bare hands.  This is one mean hombre.
+~
+2122 1160 500 S
+12 9 2 1d15+240 1d10+5
+3000 15000
+8 8 1
+#13210
+large rat~
+large rat~
+You see a large filthy rat!!!
+~
+You don't care to examine the animal too closely.
+~
+202 1056 -500 S
+1 20 0 1d6+15 1d1+1
+1 45
+8 8 0
+#13211
+Bank customer~
+Bank customer~
+A Bank customer is standing here making a withdrawl.
+~
+You see a clean cut,  honest looking female standing before you.  Her warm smile
+lightens up your day.
+~
+202 8 100 S
+4 20 5 1d10+40 2d4+2
+1000 340
+8 8 0
+#13212
+One eye Willie~
+One eye Willie~
+One eye Willie is here eagerly waiting to serve you
+~
+You see a battle scarred man in his late 40's.  He has a rugged face and a
+mean looking scare across his left eye.  You can see where the name comes from.
+He sure looks like he can handle a gun well.
+~
+74 1160 1000 S
+34 0 -10 10d20+7000 20d50+30
+500000 100000
+8 8 1
+#13213
+Sam Mallone~
+Sam Mallone~
+Sam Mallone stands here going over his goods. "How can i help you".
+~
+You see a skiny stick figure of a man standing infront of you.
+Well crafted muscles fill his leather vest.
+He has the typical face of a salesman and a manner to go with it.
+He MUST be croocked!.
+~
+74 1160 1000 S
+34 0 -10 10d20+7000 20d50+30
+500000 100000
+8 8 1
+#13214
+Josie Jones~
+Josie Jones~
+Josie Jones stands behind the counter looking at you. <seductivly?>
+~
+You see a rather large looking female.  Her clothes barely fit her.  It appears
+she dresses to look smaller.
+She flutters her eyelashes at you.  <shudder>
+~
+74 1160 1000 S
+34 0 -10 10d20+7000 20d50+30
+500000 100000
+8 8 2
+#13215
+Gun Slinger~
+Gun Slinger~
+A Gun Slinger walks the streets casually looking for a showdown
+~
+You see a man with a roughly shaven face.  His face is covered in dirt.
+He packs a mean looking sixshooter at his side!.
+~
+2152 0 -500 S
+10 16 7 2d25+150 1d12+1
+1500 10000
+8 8 0
+#13216
+red faced male~
+red faced male~
+A red faced male stands here looking very guilty!. <Of what u wonder?> <grin>
+~
+You see a young male standing before you.  His face is a flushed red colour.
+His clothes have been put on in a hurry.  The buttons on his shirt are all
+buttoned up wrong and bits of straw clings to his hair!.
+Umm i wonder what he was up to.
+~
+74 0 500 S
+2 20 10 1d10+30 1d6+1
+30 400
+8 8 1
+#13217
+red faced female~
+red faced female~
+A red faced female stands here looking very guilty!. <Of what u wonder?> <grin>
+~
+You see a young female of striking beauty.  Her face beams a hot red colour
+as you examine her.  He clothing is in tatters and her firm brest
+sensually hangs from her hurriedly buttoned shirt.
+Hay clings to her hair and clothing.
+~
+74 0 500 S
+2 20 10 1d10+30 1d6+1
+30 250
+8 8 2
+#13218
+Fine dressed gambler~
+Fine dressed gambler~
+A fine dressed gambler is standing here observing the women
+~
+You see a well dressed man in his early 30's.  He wears a large black hat
+and eyes you with contempt.
+He strangely holds onto his money purse as u take a closer look at him!.
+~
+204 128 -100 S
+5 19 7 1d12+50 1d12+2
+1000 900
+8 8 1
+#13219
+Town Mayor~
+Town Major ~
+The Town Mayor walks around happily greeting the towns folk!
+~
+You see a fat lazy looking diplomat.  The type that kisses babies and all.
+How sad!.
+~
+2248 0 500 S
+9 16 9 1d20+130 2d6+1
+2500 9000
+8 8 1
+#13220
+rugged looking prostitute~
+rugged looking prostitute~
+A rugged looking prostitute looks at you seductivly
+~
+You see a tired looking face staring back at you.  She is trying her very best
+to look interested in you.  She shameleslly flatters hey eyelashes at you.
+It would appear as if she wasn't up to par so to speak to be within this
+establishment.
+~
+2122 0 200 S
+4 20 10 1d10+35 1d10+1
+950 400
+8 8 2
+#13221
+Jimmy Uncle~
+Uncle Jimmy~
+Uncle Jimmy is standing here waiting to help you with all your herbal
+needs.
+~
+Uncle Jimmy is dressed in a tacky suit made out of bright red satin and a
+blue tie.  He smiles as he see's you and a twinkle of his golden
+tooth catches you eye. Do you think you should be buying anything from
+this man?
+~
+7596122 1160 1000 S
+34 0 -10 10d20+7000 20d50+30
+500000 100000
+8 8 0   
+#13222
+receptionist~
+the receptionist~
+The receptionist is here waiting to assist you
+~
+This over worked and underpaid woman is about to quit her job.
+She is tired of the service she provides for the money she
+receives.
+~
+10243 32 90 S
+70 -45 -10 1d1+30000 50d50+90
+0 0 
+8 8 2 
+#99999
+$~

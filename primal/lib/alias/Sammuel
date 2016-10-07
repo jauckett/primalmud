@@ -1,0 +1,18 @@
+b cast 'create food';eat mushroom
+1 drink water skin;cast 'create water' skin
+re reply $*
+r recit recall sam
+f flee
+bw buy white;put white backpa
+qw get white back;quaf white
+ll cast 'lightning bolt' $*
+in cast 'infra' $*
+q quit
+p get red back;quaf red
+wa wake;stand
+sl sleep
+primal  http://jump.to/primal
+fill fill skin fount
+c get all.coin cor
+h cast 'cure light' sam
+hh cast 'cure light' $*

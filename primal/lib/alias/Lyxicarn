@@ -1,0 +1,17 @@
+drag cast 'dragon' me
+qw get whit force; quaff whit
+qr get red force; quaff red
+dw get skin force; drink water; put skin force
+em get meat force; eat meat
+eb get bread force; eat bread
+am cast 'armor' me
+cf cast 'fireball' $*
+cc cast 'cure critical' $*
+cs cast 'sleep' $*
+cb cast 'blindness' $1
+gaac get all all.corpse
+cl cast 'cure light' $*
+gac get all corpse
+out get recall bag; recite recall
+start wear all; put all.meat back; put all.bread back; put all.skin back; put all.map back; put all.torch back; put all.recall bag
+tuff cast 'strength' me

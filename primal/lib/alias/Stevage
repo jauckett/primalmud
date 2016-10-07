@@ -1,0 +1,8 @@
+dw drink water
+/cl cast 'cure light'
+/sg cast 'shocking grasp'
+/mm cast 'magic missile'
+/lb cast 'lightning bolt'
+jc junk corpse
+ga get all corpse
+inf cast 'infravision' self

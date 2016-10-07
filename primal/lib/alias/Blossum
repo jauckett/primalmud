@@ -1,0 +1,52 @@
+mad giggle; blink; giggle
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+rc cast 'remove curse' $*
+tudor s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+tudo s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+tud w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s
+z show zone $*
+san cast 'sanc' $*
+7 ungroup; down
+getd wear black bod; hold jack; hold drill; wield cannon; wear all
+5 follow mephysto; auto; auto mephysto
+sum cast 'summon' $*
+sk cast 'stoneskin' $*
+infra cast 'infravision'
+fs cast 'fire shield'
+home cast 'word of recall'
+dh cast 'divine heal' $*
+has cast 'haste' self
+2 get heal tool; get heal tool; get heal tool; get heal tool; get heal tool; q heal; q heal; q heal; q heal; q heal
+3 q prot
+nh cast 'nohassle' $*
+dra cast 'dragon' $*
+inv cast 'invis' self
+bh buy 50 heal; put all.heal tool
+pb buy 5 prot
+ww cast 'whirlwind' 
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+hrun1 d;e; go med
+hrun n;n;w;w;w;s; go stage; e;e;e;e;u
+cor get corpse; junk corpse; get corpse; junk corpse
+anim cast 'animate' corpse; cast 'animate' corpse; group all
+spe cast 'detect invis'; cast 'detect align'; cast 'dragon'; cast 'invis';cast 'nohassle'
+spell cast 'infra'; cast 'stoneskin'; cast 'fireshield'; cast 'haste'; q prot; sneak
+tp cast 'teleport' $*
+spellup cast 'holy aid'; cast 'divine protection'
+dp cast 'divine protection'
+ha cast 'holy aid'
+main n;e;s;s
+gsan cast 'group sanc'
+sl cast 'sense life'
+9 cast 'divine heal' self; cast 'divine heal' splat
+cd cast 'clone;cast 'clone;order followers die;cast 'clone;cast 'clone;order followers die;cast 'clone;cast 'clone;order followers die;
+a6 cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;group all
+a2 cast 'animate' corpse;cast 'animate' corpse;group all
+4 ungroup;d
+a4 cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;group all
+re cast 'word'
+wa wake;stand
+rome1 wake;stand;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;s;w;s;s
+tra train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+di cast 'detect invis' $*

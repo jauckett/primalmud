@@ -1,0 +1,61 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ds drink skin
+eb get meat backpack;eat meat
+qw get white backpack;q white
+6 cast 'infravision'
+3 get red backpack;q red
+zx get all all.corpse
+eek rec recall
+pu put all.potion backpack
+kc kill caveman
+gc get all all.corpse
+1 assist boz
+kb kill bear
+kk alias k backstab $*;kill $*
+sl sleep
+bw buy 10 white
+br buy 10 red
+7 cast 'detect invis'
+op od open door
+od open door
+2 cast 'cure critic'
+0 cast 'word of recall'
+uu use staff self
+k backstab  enfan
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

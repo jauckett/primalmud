@@ -1,0 +1,169 @@
+#8800
+pirate~
+a nasty pirate~
+A nasty looking pirate is here glaring at you.
+~
+The pirate looks like he knows every dirty trick in the book, you
+better watch him!
+~
+1052782 8 -1000 E
+47 -20 -2 10d8+2720 14d21+48
+300 470000
+8 8 0
+E
+#8801
+pirate lookout~
+the pirate lookout~
+The pirate lookout is here watching over the lagoon.
+~
+The pirate lookout has a keen eye and nothing escapes his attention.
+He is holding a large cutlass in one hand and a looking glass in the other.
+~
+1052782 136 -1000 E
+50 -30 -3 10d8+3000 15d17+54
+950 500000
+8 8 0
+E
+#8802
+pirate lord~
+the pirate lord~
+The lord of the pirates is here glaring at you.
+~
+The pirate lord is very charismatic and commands his ruthless
+band with an iron fist.
+~
+3146282 33960 -750 E
+55 -30 -5 10d8+3800 18d19+59
+750 550000
+8 8 1
+E
+#8803
+worm sandworm~
+a giant sandworm~
+A giant sandworm is here looming up out of the dunes.
+~
+The worm is about 90 feet long and has a giant maw with razor sharp
+teeth.
+~
+3156024 1056 -1000 E
+60 -44 -7 8d20+4500 19d20+64
+2 600000
+8 8 0
+E
+#8804
+doreeg~
+a doreeg~
+A sinister looking doreeg is floating here.
+~
+The doreeg has a twisted looking human face and its body is a wispy
+ethereal tail. It hovers strangely above the ground.
+~
+16456 1162 0 E
+45 -20 -2 8d10+2675 14d17+38
+850 400000
+8 8 0
+E
+#8805
+crab giant~
+a giant crab~
+A gigantic crab is here scuttling across the sand.
+~
+You've seen king crabs before but this is much bigger. About the size
+of a house and its main claw could snap you in two easily!
+~
+26712 1056 0 E
+50 -27 -3 8d20+2550 15d16+54
+850 390000
+8 8 0
+E
+#8806
+shark white~
+a great white shark~
+A great white shark is here circling you.
+~
+The great shark is the ultimate in marine predators. His mouth looks like 
+it can swallow you whole and his teeth look like they would rip your arms 
+and legs off.
+~
+1058926 1064 0 E
+49 -25 -3 5d50+2200 17d19+30
+53 460000
+8 8 0
+E
+#8807
+tiger~
+a huge tiger~
+A massive tiger is here prowling around.
+~
+The tiger is about 20 feet long from the tip of its nose
+to the tip of its tail.
+~
+1058926 1064 0 E
+44 -27 -1 5d50+2200 17d15+48
+333 440000
+8 8 0
+E
+#8808
+cuttlefish giant fish~
+a giant cuttlefish~
+A giant cuttlefish is here in the water with you.
+~
+The cuttlefish is hard to see but you can make out that it is
+about 30 feet long and has huge tenticles.
+~
+10296 1064 0 E
+44 -27 -1 5d50+2200 20d15+48
+333 440000
+8 8 0
+E
+#8809
+fish killer~
+a dreadful spindly killer fish~
+A dreadful spindly killer fish is here here swimming about you.
+~
+The killer fish generally hunt in schools and can strip a man to
+the bones in minutes.
+~
+114792 1032 0 E
+40 -20 0 5d10+1800 15d10+44
+250 400000
+8 8 0
+E
+#8810
+dune stalker~
+a dune stalker~
+A dune stalker is here tracking you.
+~
+The dune stalker is about 10 feet tall and very musclular. It has
+large eyes and ears for tracking its prey.
+~
+1062958 1160 0 E
+47 -20 -2 5d9+3154 15d15+50
+175 470000
+8 8 1
+E
+#8811
+native islander~
+a native islander~
+A native islander is here looking curiously at you.
+~
+The native is tall and dressed in simply clothing.
+~
+1062958 1160 200 E
+30 -14 3 10d5+1500 15d15+30
+500 300000
+8 8 1
+E
+#8812
+giant bird~
+a giant bird~
+A giant flightless bird is here scavenging.
+~
+The bird is as big as an elephant and has a sharp beak.
+~
+26716 0 0 E
+40 -24 0 5d10+1900 15d15+27
+67 400000
+8 8 0
+E
+$

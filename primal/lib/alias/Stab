@@ -1,0 +1,21 @@
+k kill  bartender
+kk alias k kill $*;kill $*
+72 exa 2.corpse
+sl sleep
+jc get corpse;junk corpse
+inf cast 'inf' $*
+ae autoexit
+8 get all.gold all.corpse
+em get meat bag;eat meat
+qw get white bag;quaff white
+bw buy 3 white;put all.white bag
+di cast 'detect invis' $*
+rr rescue dalbregor
+00 recite recall self
+7 exa corpse
+wake wake $*;stand
+1 cast 'cure light' $*
+9 get all all.corpse
+aa assist dalbregor
+gb give $* dalbregor
+ds drink skin

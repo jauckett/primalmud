@@ -1,0 +1,985 @@
+head	1.4;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.25.03.35.28;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.43;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@#20001
+jacket hell angel leather motorcycle motorbike~
+a Hell Angel jacket~
+A motorcycle jacket lies on the ground here.~
+~
+9 0 9 0
+4 0 0 0
+4 30 3 25
+L 25
+E
+jacket angel leather~
+You see a typical Harley Rider jacket.~
+A
+6 2
+A
+18 2
+#20002
+cap baseball back hat red~
+a baseball cap, back to front~
+A red baseball cap has been discarded here.~
+~
+9 0 17 0
+2 0 0 0
+5 100 2 15
+L 15
+E
+cap baseball red back~
+A neat baseball cap, it has the logo of your favaourite team.~
+A
+9 -30
+A
+14 15
+A
+3 -2
+#20003
+dress floral flower summer~
+a summer dress~
+A short dress with a floral design brightens up this place.~
+~
+9 0 9 0
+4 0 0 0
+4 30 3 20
+L 20
+E
+dress floral flower summer~
+A pretty bright dress presents itself before your eyes.~
+A
+6 1
+A
+18 2
+#20004
+ripped shirt Tshirt tee t-shirt~
+a ripped T-shirt~
+A T-shirt lies here, the floor can be seen through the large hole.~
+~
+9 0 9 0
+1 0 0 0
+1 0 0 18
+L 18
+E
+ripped shirt Tshirt tee t-shirt~
+This T Shirt has plenty of pretty holes in it.~
+A
+1 1
+A
+18 2
+#20005
+silver disc amulet moon~
+a Moon amulet~
+A shiny amulet catches your eye.~
+~
+9 0 4101 0
+4 0 0 0
+1 34000 240 22
+L 22
+E
+disc silver amulet moon~
+A small piece of silver fashioned into the shape of a full moon.~
+A
+4 1
+A
+19 2
+#20006
+gold disc amulet sun~
+a Sun amulet~
+A small golden pendant has been foolishly forgotten here.~
+~
+9 1024 4101 0
+5 0 0 0
+1 39600 400 22
+L 22
+E
+disc gold amulet sun~
+A small piece of gold fashioned into the shape of the sun.~
+A
+4 1
+A
+19 2
+#20007
+black disc amulet~
+an amulet of Darkness~
+An amulet lieth here, absorbing all light.~
+~
+9 512 4101 0
+6 0 0 0
+1 39600 500 22
+L 22
+E
+disc black amulet darkness~
+A small piece of nothingness fashioned into the shape of a full moon.~
+A
+4 1
+A
+19 2
+#20008
+pen biro colour four~
+a four colour pen~
+One of those four colour pens that you always wanted is right there on the ground.~
+~
+21 0 17 0
+0 0 0 0
+1 300 30 25
+L 25
+E
+pen biro colour four~
+The pen has a blue top and white bottom, there are four colours, red, blue, green and black.~
+A
+3 2
+#20009
+badge school captain pin~
+a school captain badge~
+An important looking badge is strangely attached to the wall.~
+~
+25 0 9 0
+20019 0 0 20027
+2 23000 230 20
+L 20
+E
+badge school captain pin~
+A small badge that says "School Captain" on it in golden letters on a blue background.~
+A
+3 1
+A
+6 -2
+#20010
+neck tie designer label~
+a Designer Tie~
+An ordinary looking tie lies here, it looks shoddy, but it's got a good LABEL!~
+~
+9 0 5 0
+3 0 0 0
+2 39600 40 22
+L 22
+E
+neck tie designer label~
+It's a plain black tie. BUT it says CK on it. You suddenly notice how beautiful this tie is.~
+A
+18 2
+A
+19 1
+#20011
+bow tie~
+the Principal's Bow Tie~
+A bow tie obviously belonging to a principal is trampled into the pavement.~
+~
+9 0 5 0
+4 0 0 0
+3 43200 50 24
+L 24
+E
+bow tie~
+A goofy bow tie lies in the palm of your hand.~
+A
+18 2
+A
+19 2
+#20012
+beast monster tooth molar great~
+tooth of the Great Beast~
+A large molar has somehow found its way here.~
+~
+25 0 16401 0
+20013 0 0 20028
+5 200 20 22
+L 22
+E
+beast monster tooth molar great~
+The tooth is white big and heavy, it's a good thing you don't have to deal with it's previous owner.~
+A
+1 1
+A
+18 -1
+A
+19 3
+#20013
+skull beast monster great bones~
+skull of the Great Beast~
+A white shiny skull is here~
+~
+25 0 16385 0
+20012 0 0 20028
+7 39600 430 22
+L 22
+E
+skull beast monster great bones~
+A large white, slightly elongated skull.~
+A
+21 4
+A
+10 6
+A
+9 20
+#20014
+shoes left~
+two left shoes~
+Two identical shoes rest here.~
+~
+9 0 65 0
+2 0 0 0
+1 1 1 26
+L 26
+E
+shoes left~
+Two left shoes, looks like real leather. Just right for your two left feet.~
+A
+6 -4
+A
+12 26
+A
+3 2
+#20015
+kite cloth yellow pink bright~
+a brightly coloured kite~
+Some yellow and pink cloth lies in a pile here.~
+~
+1 65536 16385 0
+0 0 -1 0
+2 2000 200 20
+L 20
+E
+kite cloth yellow pink bright~
+The kite isn't just bright, it seems to actually produce light. Interesting.~
+A
+9 -10
+#20016
+string some piece~
+some string~
+A piece of string hangs from the ceiling.~
+~
+9 0 1025 0
+6 0 0 0
+3 20000 300 24
+L 24
+E
+string some piece~
+This piece of white string looks strangely like the insides of a quality Rolex.~
+A
+19 1
+A
+18 1
+#20017
+false teeth tooth~
+false teeth~
+A full set of false teeth is looking for a new owner.~
+~
+9 0 20481 0
+5 0 0 0
+2 10 100 28
+L 28
+E
+false teeth tooth~
+Eeeeeeu! Yuck! Someone's false teeth. They are all slimy and mouldy.~
+A
+19 1
+A
+18 1
+#20018
+dog collar studded studs leather~
+a studded leather collar~
+Someone has left his dog collar behind.~
+~
+9 0 5 0
+2 0 0 0
+3 2500 300 20
+L 20
+E
+dog collar studded studs leather~
+A large black leather collar with metallic studs in it.~
+A
+2 1
+#20019
+school uniform blazer jacket~
+a school blazer~
+A ridiculous looking jacket lies here.~
+~
+25 0 1025 0
+20009 0 0 20027
+4 45000 700 25
+L 25
+E
+school uniform blazer jacket~
+An ugly school blazer, like the one you used to have to wear.~
+A
+12 25
+#20020
+school straw hat~
+a straw hat~
+A simple straw hat lies here.~
+~
+9 0 17 0
+0 0 0 0
+1 200 10 25
+L 25
+E
+school straw hat~
+This straw hat would come in useful if you were a farmer.~
+A
+13 3
+#20021
+chef's chefs knife cleaver blade large~
+Chef's knife~
+A large blade is stuck right into the concrete here.~
+~
+5 8192 24577 0
+0 5 5 11
+4 40000 400 35
+L 35
+E
+chef's chefs knife cleaver blade large~
+A big shiny stainless steel blaze with a heavy wooden handle.~
+A
+19 3
+A
+18 4
+#20022
+chef's apron chefs white~
+Chef's Apron~
+A chef's apron in perfect codition hangs just above you.~
+~
+9 0 3073 0
+4 0 0 0
+2 6000 500 24
+L 24
+E
+chef's apron chefs white~
+It looks normal.~
+A
+1 1
+A
+4 -1
+A
+10 10
+A
+18 3
+#20023
+puddy boots shoes grey~
+Grey Boots~
+A putty must have been here and left its boots behind.~
+~
+9 0 65 0
+4 0 0 0
+3 300 30 23
+L 23
+E
+puddy boots shoes grey~
+They are so beautifully grey!~
+A
+13 9
+A
+14 23
+#20024
+red platfroms high heels shoes~
+Red High Heels~
+A pair of pretty shoes are here, they are almost new.~
+~
+9 0 65 0
+4 0 0 0
+2 30000 300 23
+L 23
+E
+red platforms high heels shoes~
+You would probably feel somewhat ilke pretty woman wearing these.~
+A
+13 9
+A
+14 23
+#20025
+cape teacher's robe teachers~
+Teacher's Robe~
+A traveller has left his cape there.~
+~
+9 0 5 0
+2 0 0 0
+2 4000 400 29
+L 29
+E
+cape teacher's teachers robe~
+A black teachers robe. Very, very black.~
+A
+3 2
+A
+4 2
+#20026
+teacher's hat teachers nice~
+Teacher's Hat~
+A nice hat lies here.~
+~
+9 0 17 0
+4 0 0 0
+2 5000 500 29
+L 29
+E
+teachers teacher's hat nice~
+It's one of those square hats with the golden brushy thing on top.~
+A
+3 2
+A
+4 2
+#20027
+school captain outfit blazer~
+School Captain Outfit~
+A ridiculous looking jacket lies here, it has an aura of ridicule.~
+~
+9 0 1033 0
+10 0 0 0
+3 50000 1000 28
+L 28
+E
+school captain outfit blazer~
+A blazer with a school captain badge attached. Someone must have lost it.~
+A
+13 28
+A
+12 -40
+A
+18 3
+#20028
+horned skull helmet~
+Horned Skull~
+An ugly looking skull lies here, waiting to be trampled on.~
+~
+9 0 16401 0
+8 0 0 0
+6 10000 890 30
+L 30
+E
+horned skull helmet~
+A large skull with a small horn artificially attached to it.~
+A
+18 4
+A
+19 2
+A
+1 1
+A
+12 -88
+#20029
+ribs cage ribcage bones~
+the ribcage of the Great Beast~
+A neat set of bones resides here.~
+~
+9 0 9 0
+8 0 0 0
+4 45000 1000 25
+L 25
+E
+ribs cage ribcage bones~
+This rib cage must have belonged to a very large creature.~
+A
+18 1
+A
+1 2
+A
+12 -40
+#20030
+belt power energy glowing large~
+an Energy Belt~
+A large glowing belt lies here.~
+~
+9 0 2049 0
+6 0 0 0
+7 45000 1000 25
+L 25
+E
+Belt power energy large glowing~
+A mysterious ring glows with an orange light. Interesting.~
+A
+18 2
+A
+19 2
+A
+6 2
+$~
+@
+
+
+1.3
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@d324 1
+a324 1
+5 0 24577 0
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 1
+4 30 3 0
+d14 1
+a14 1
+6 3
+d24 2
+a25 1
+5 100 2 0
+d32 1
+a32 1
+14 25
+d42 2
+a43 1
+4 30 3 0
+d48 1
+a48 1
+6 3
+d58 2
+a59 1
+1 0 0 0
+d64 1
+a64 1
+1 2
+d66 1
+a66 1
+18 3
+d74 2
+a75 1
+1 34000 240 0
+d80 1
+a80 1
+4 2
+d90 2
+a91 1
+1 40000 400 0
+d96 1
+a96 1
+4 2
+d106 2
+a107 1
+1 60000 500 0
+d112 1
+a112 1
+4 2
+d122 2
+a123 1
+1 300 30 0
+d128 1
+a128 1
+3 6
+d136 2
+a137 1
+2 23000 230 0
+d142 1
+a142 1
+3 2
+d152 2
+a153 1
+2 40000 40 0
+d168 2
+a169 1
+3 50000 50 0
+d184 2
+a185 1
+5 200 20 0
+d190 1
+a190 1
+1 2
+d202 2
+a203 1
+7 43000 430 0
+d220 2
+a221 1
+1 1 1 0
+d228 1
+a228 1
+12 34
+d230 1
+a230 1
+3 4
+d238 2
+a239 1
+2 2000 200 0
+d252 2
+a253 1
+3 20000 300 0
+d268 2
+a269 1
+2 10 100 0
+d284 2
+a285 1
+3 2500 300 0
+d298 2
+a299 1
+4 70000 700 0
+d304 1
+a304 1
+12 78
+d312 2
+a313 1
+1 200 10 0
+d326 2
+a327 1
+4 40000 400 0
+d334 1
+a334 1
+18 6
+d342 2
+a343 1
+2 6000 500 0
+d362 2
+a363 1
+3 300 30 0
+d370 1
+a370 1
+14 38
+d378 2
+a379 1
+2 30000 300 0
+d386 1
+a386 1
+14 38
+d394 2
+a395 1
+2 4000 400 0
+d400 1
+a400 1
+3 4
+d402 1
+a402 1
+4 4
+d410 2
+a411 1
+2 5000 500 0
+d416 1
+a416 1
+3 3
+d418 1
+a418 1
+4 3
+d426 2
+a427 1
+3 50000 1000 0
+d432 1
+a432 1
+13 50
+d444 2
+a445 1
+6 10000 890 0
+d464 2
+a465 1
+4 50000 1000 0
+d482 2
+a483 1
+7 100000 1000 0
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+9 0 9
+d8 1
+a8 1
+4 30 3
+a15 1
+L 20
+d21 1
+a21 1
+9 0 17
+d23 1
+a23 1
+5 100 2
+a32 1
+L 15
+d38 1
+a38 1
+9 0 9
+d40 1
+a40 1
+4 30 3
+a47 1
+L 20
+d51 1
+a51 1
+a T-shirt lies here, the floor can be seen through the large hole.~
+d53 3
+a55 3
+9 0 9
+1 0 0 0 
+1 0 0
+a62 1
+L 18
+d68 1
+a68 1
+9 0 4101
+d70 1
+a70 1
+1 34000 240
+a77 1
+L 22
+d83 1
+a83 1
+9 1024 4101
+d85 1
+a85 1
+1 40000 400
+a92 1
+L 22
+d98 1
+a98 1
+9 512 4101
+d100 1
+a100 1
+1 60000 500
+a107 1
+L 22
+d113 1
+a113 1
+21 0 17
+d115 1
+a115 1
+1 300 30
+d124 1
+a124 1
+an important looking badge is strangely attached to the wall.~
+d126 3
+a128 3
+25 0 9
+30019 0 0 30027
+2 23000 230
+a135 1
+L 20
+d141 1
+a141 1
+9 0 5
+d143 1
+a143 1
+2 40000 40
+a150 1
+L 22
+d156 1
+a156 1
+9 0 5
+d158 1
+a158 1
+3 50000 50
+a165 1
+L 24
+d171 1
+a171 1
+25 0 16401
+d173 1
+a173 1
+5 200 20
+a182 1
+L 22
+d188 1
+a188 1
+25 0 16385
+d190 1
+a190 1
+7 43000 430
+a199 1
+L 22
+d205 1
+a205 1
+9 0 65
+d207 1
+a207 1
+1 1 1
+d214 1
+a214 1
+12 +34
+a216 1
+L 26
+d222 1
+a222 1
+1 65536 16385
+d224 1
+a224 1
+2 2000 200
+a229 1
+L 20
+d233 1
+a233 1
+a piece of string hangs from the ceiling.~
+d235 1
+a235 1
+9 0 1025
+d237 1
+a237 1
+3 20000 300
+a244 1
+L 24
+d248 1
+a248 1
+a full set of false teeth is looking for a new owner.~
+d250 1
+a250 1
+9 0 20481
+d252 1
+a252 1
+2 10 100
+a259 1
+L 28
+d265 1
+a265 1
+9 0 5
+d267 1
+a267 1
+3 2500 300
+d272 1
+a272 2
+2  1
+L 20
+d278 1
+a278 1
+25 0 1025
+d280 1
+a280 1
+4 70000 700
+a285 1
+L 25
+d289 1
+a289 1
+a simple straw hat lies here.~
+d291 1
+a291 1
+9 0 17
+d293 1
+a293 1
+1 200 10
+a298 1
+L 25
+d302 1
+a302 1
+a large blade is stuck right into the concrete here.~
+d304 1
+a304 1
+5 0 24577
+d306 1
+a306 1
+4 40000 400
+a313 1
+L 29
+d319 1
+a319 1
+9 0 3073
+d321 1
+a321 1
+2 6000 500
+a332 1
+L 24
+d338 1
+a338 1
+9 0 65
+d340 1
+a340 1
+3 300 30
+a347 1
+L 23
+d353 1
+a353 1
+9 0 65
+d355 1
+a355 1
+2 30000 300
+a362 1
+L 23
+d368 1
+a368 1
+9 0 5
+d370 1
+a370 1
+2 4000 400
+a377 1
+L 29
+d383 1
+a383 1
+9 0 17
+d385 1
+a385 1
+2 5000 500
+d391 1
+a391 1
+A 
+a392 1
+L 29
+d398 1
+a398 1
+9 0 1033
+d400 1
+a400 1
+3 50000 1000
+d406 1
+a406 1
+A 
+a409 1
+L 28
+d415 1
+a415 1
+9 0 16401
+d417 1
+a417 1
+6 10000 890
+a428 1
+L 30
+d434 1
+a434 1
+9 0 9
+d436 1
+a436 1
+4 50000 1000
+a445 1
+L 25
+d451 1
+a451 1
+9 0 2049
+d453 1
+a453 1
+7 100000 1000
+a462 1
+#99999
+@
+

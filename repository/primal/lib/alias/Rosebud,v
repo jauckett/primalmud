@@ -1,0 +1,158 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@kser kill servant; follow self
+str rem charm; wear might
+charm rem might; wear charm
+ft cast 'fireball' transformer
+f rem might; get charm backpack; wear charm
+eb eat bread
+dw drink water
+sj cast 'summon' ellesar
+life rem charm; wear life
+rescue cast 'rescue' $*
+cfj cast 'fireball' jupiter
+cfv cast 'fireball' venus
+tb tickle brett
+tickle brett
+grat grats ----------'--,--<@@ $* @@>--'--,----------
+sd tell swordancer $*
+fridge tell mcfridge $*
+tali tell talisman $*
+simba tell simba $*
+cfd cast 'fireball' dragon
+war flip; : demos her erotic war cry; : chants, 'AnOtHeR oNe BiTeS tHe DuSt!!!!
+sanc cast 'sanctuary' rosebud
+qb quaff blue
+cfm cast 'fireball' mercury
+wb whisper Brett $*
+cartwheel : cartwheels all around the room and breathlessly slumps to the floor
+cfa cast 'fireball' aglandiir
+enli rem super; wield enlibrite
+cfc cast 'fireball' caesar
+ce con executioner
+cfe cast 'fireball' executioner
+cfb cast 'fireball' blackadder
+cflp cast 'fireball' percy
+detect cast 'detect invisibility' rosebud
+cfp cast 'fireball' python
+nbsi tell brett rdetect
+cfw cast 'fireball' werith
+armor tell brett armor
+seeinvis tell brett detect
+h tell brett heal
+garb get all.red backpack
+prb put red backpack
+refresh cast 'refresh' rosebud
+ke kill enfan
+cftr cast 'fireball' traveller
+pbb put bread backpack
+pmb put mushroom backpack
+cbb cast 'blindness' bandit
+kban kill bandit
+ksp kill spectator
+home rec recall
+rr cast 'word of recall'
+cf cast 'fireball' 
+db tell deathblade $*
+dark cast 'infravision' rosebud
+edp cast 'energy drain' priest
+damn cast 'shocking grasp' 
+trh tell robohelp heal
+jb junk beret
+gaac get all all.corpse
+td tickle deathblade
+gwb get white backpack
+grb get red backpack
+qr quaff red
+km kill merchant
+rqb rem quenched; hold backpack
+kc kill citizen
+kg kill goblin
+kr kill rat
+ko kill ogre
+kw kill wolf
+kt kill trickster
+kdr kill drunk
+arm c 'armor' rosebud
+gbb get bread backpack
+ga get all
+gac get all corpse
+pab put all backpack
+qw quaff white
+ks kill skeleton
+gmb get mushroom backpack
+em eat mushroom
+csr cast 'strength' rosebud
+kjan kill janitor
+br cast 'bless' rosebud
+hr cast 'cure critical' rosebud
+gsb get super backpack
+ws wield super
+cs cast 'sanctuary'
+gskb get skin backpack
+cir cast 'invisibility' rosebud
+ktr kill traveller
+kbuf kill buffalo
+food cast 'create food'
+gm get mushroom
+bhr cast 'heal' rosebud
+invis cast 'invisibility'
+gr get red
+cfgu cast 'fireball' guard
+ggc get coins corpse
+charms rem life; rem might; wear charm; wear charm;
+garc get all.red crate
+cfg cast 'fireball' grand
+cfeb cast 'fireball' bunny
+cfch cast 'fireball' chuckie
+tdb tickle deathblade
+grins : grins
+sb : smiles at you
+squeeze : squeezes your hand gently
+hs cast 'heal' self
+re cast 'word of recall'
+leave drop all; rem all; drop all; look self; inv
+gh cast 'group heal'
+detectm cast 'detect magic' rosebud
+cfs cast 'fireball' sailor
+wake wake; stand
+pirate n; e; e; e; e; e; e; e; e; n; n; n; n; n; n
+start cast 'detect invis' self; get all; wear all; get all; wear alll; hold pen; hold enlibrite; wield enlibrite; look self
+kgu kill guard
+kb kill bandit
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

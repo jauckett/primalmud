@@ -1,0 +1,727 @@
+#701
+In long grass.~
+You are standing in waist high grass. As you look around this grassy plain 
+you see small field mice scurrying through the dry grass. From here the 
+grass is impenetrable except to the east and south. 
+~
+7 0 0
+D1
+As you look east you see a strange building in the distance
+~
+~
+0 -1 702
+D2
+Looking south you see the long grass
+~
+~
+0 -1 711
+S
+#702
+In long grass.~
+As you walk through the waist high grass you see several large, brown snakes
+slithering along at your feet. There is a cool breeze blowing off the nearby
+mountains that makes the dry grass rustle as you walk through it.
+~
+7 0 0
+D1
+As you look east you see a strange building in the distance
+~
+~
+0 -1 703
+D3
+As you look west you see the long grass swaying in the breeze
+~
+~
+0 -1 701
+S
+#703
+In long grass.~
+You are standing in waist high grass. The grass is impenetrable
+except to the east and west. Several large snakes slither past you in 
+this long grass, hissing as they pass.
+~
+7 0 0
+D1
+As you look east you see a strange building in the distance
+~
+~
+0 -1 704
+D3
+As you look west you see the long grass swaying in the breeze
+~
+~
+0 -1 702
+S
+#704
+In long grass.~
+You are standing in waist high grass. As you look around this grassy plain 
+you see small field mice scurrying through the dry grass. From here the 
+grass is impenetrable except to the east and south and to your east you see
+a mysterious looking keep
+~
+7 0 0
+D1
+Entrance before Shadow Keep
+~
+~
+0 0 9500
+D2
+As you look south you see the long grass swaying in the breeze
+~
+~
+0 -1 713
+D3
+As you look west you see the long grass swaying in the breeze
+~
+~
+0 -1 703
+S
+#705
+Dirt road through the plains~
+You are on a dirt road that leads straight out into the great plains.
+To the east the plains stretch out as far as the eye can see, to the 
+west is the junction of roads and a large city.
+~
+7 0 0
+D1
+Looking east you see a dirt road leading towards the plains
+~
+~
+0 -1 706
+D3
+Looking west you see an intersection and beyond that a large city
+~
+~
+0 -1 1177
+S
+#706
+Dirt road through the plains~
+You are on a dirt road that leads straight out into the great plains.
+To the east the plains stretch out as far as the eye can see, to the 
+west further up the road is the junction of roads.
+~
+7 0 0
+D1
+Looking east you see a dirt road leading towards the plains
+~
+~
+0 -1 707
+D3
+Looking west you see an intersection and beyond that a large city
+~
+~
+0 -1 705
+S
+#707
+Dirt road through the plains~
+You are walking along on a dirt road that leads towards the grassy plains. Far 
+in the distance you can see large mountains that look nearly impossible to 
+climb. To the east the plains stretch out as far as the eye can see and as 
+you look west you can see a large city. 
+~
+7 0 0
+D1
+Looking east you see a dirt road leading towards the plains
+~
+~
+0 -1 708
+D3
+Looking west you see a dirt road leading towards the plains
+~
+~
+0 -1 706
+S
+#708
+Dirt road through the plains~
+You are on a dirt road that leads straight out into the great plains.
+To the east and west the plains stretch out as far as the eye can see.
+A narrow animal trail leads up over a small rise to the south.
+~
+7 0 0
+D1
+Looking east you see a dirt road leading towards the plains
+~
+~
+0 -1 709
+D2
+Looking south you see a small rise
+~
+~
+0 -1 714
+D3
+Looking west you see a dirt road leading towards the plains
+~
+~
+0 -1 707
+S
+#709
+Dirt road through the plains.~
+As you walk along a dirt road that runs through the grassy plains you see
+in the distance to your east a strange looking building. To your west you can
+see a small rise leading off the road.
+~
+7 0 0
+D1
+Looking east you see a dirt road leading towards the plains
+~
+~
+0 -1 710
+D3
+Looking west you see a dirt road leading towards the plains
+~
+~
+0 -1 708
+S
+#710
+Dirt road through the plains.~
+You are on a dirt road that leads straight out into the great plains.
+To the east and west the plains stretch out as far as the eye can see.
+A narrow animal trail leads up over a small rise to the south. The
+road ends here but you can continue to the east through long
+grass.
+~
+7 0 0
+D1
+Looking east you see long grass where the trail ends and the plains begin
+~
+~
+0 -1 711
+D2
+Looking south you see a small rise
+~
+~
+0 -1 715
+D3
+Looking west you see a dirt road leading towards the plains
+~
+~
+0 -1 -1
+S
+#711
+In long grass.~
+You are standing in waist high grass. The grass is impenetrable
+except to the east and west. You can see the dirt road to the west and in the
+distance to your east you see a strange building.
+~
+7 0 0
+D0
+You see the long grass through the plains
+~
+~
+0 -1 701
+D1
+You see the long grass through the plains
+~
+~
+0 -1 712
+D3
+Looking west you see a dirt road leading towards the plains
+~
+~
+0 -1 710
+S
+#712
+In long grass.~
+You are standing in waist high grass. As you look around this grassy plain 
+you see small field mice scurrying through the dry grass. From here the 
+grass is impenetrable except to the east and west.
+~
+7 0 0
+D1
+~
+~
+0 -1 713
+D3
+~
+~
+0 -1 711
+S
+#713
+In long grass.~
+As you walk through the waist high grass you see several large, brown snakes
+slithering along at your feet. There is a cool breeze blowing off the nearby
+mountains that makes the dry grass rustle as you walk through it.
+~
+7 0 0
+D0
+~
+~
+0 -1 704
+D3
+~
+~
+0 -1 712
+S
+#714
+Atop a small rise~
+You are standing at the top of a small rise in the plains. South 
+leads down to a well used animal trail, north leads back down
+to the road through the plains.
+~
+7 0 0
+D0
+~
+~
+0 -1 708
+D2
+~
+~
+0 -1 716
+S
+#715
+Atop a small rise~
+You are standing at the top of a small rise in the plains. South 
+leads down to a well used animal trail, north leads back down
+to the road through the plains.
+~
+7 0 0
+D0
+~
+~
+0 -1 710
+D2
+~
+~
+0 -1 717
+S
+#716
+End of an animal trail~
+You are at the end of an animal trail, a narrow track leads north
+up over a small rise, the animal track continues to the east.
+~
+7 0 0
+D0
+~
+~
+0 -1 714
+D1
+~
+~
+0 -1 717
+S
+#717
+Well used animal trail.~
+You are on a well used animal trail which leads east and west 
+through the plains. A narrow track leads north up over a
+small rise.
+~
+7 0 0
+D0
+~
+~
+0 -1 715
+D1
+~
+~
+0 -1 718
+D3
+~
+~
+0 -1 716
+S
+#718
+Well used animal trail.~
+You are on a well used animal trail which leads east and west. Many wild beasts
+wander aimlessly along this trail, some of which can be extremely vicious.
+~
+7 0 0
+D1
+~
+~
+0 -1 719
+D3
+~
+~
+0 -1 717
+S
+#719
+Well used animal trail.~
+You are on a well used animal trail which leads east and west. 
+To the south you can walk down a dried up creek bed.
+~
+7 0 0
+D1
+~
+~
+0 -1 720
+D2
+~
+~
+0 -1 724
+D3
+~
+~
+0 -1 718
+S
+#720
+Well used animal trail.~
+You are walking along a well used animal trail. There are many wild, untamable
+animals that wander aimlessly along the trail, some of which can be extremely
+vicious. Several brown snakes lie on the ground at your feet, baking themselves
+in the afternoon sun. From here you can see the beautiful majestic 
+mountains that look rather difficult to climb.
+~
+7 0 0
+D1
+~
+~
+0 -1 721
+D3
+~
+~
+0 -1 719
+S
+#721
+Well used animal trail.~
+You are on a well used animal trail which leads east and west. Many wild beasts
+wander aimlessly along this trail, some of which can be extremely vicious.
+~
+7 0 0
+D1
+~
+~
+0 -1 722
+D3
+~
+~
+0 -1 720
+S
+#722
+Well used animal trail.~
+You are walking along a well used animal trail. There are many wild, untamable
+animals that wander aimlessly along the trail, some of which can be extremely
+vicious. Several brown snakes lie on the ground at your feet, baking themselves
+in the afternoon sun. From here you can see the beautiful majestic 
+mountains that look rather difficult to climb. 
+~
+7 0 0
+D1
+~
+~
+0 -1 723
+D3
+~
+~
+0 -1 721
+S
+#723
+End of an animal trail.~
+You are at the end of a well used animal trail. To your south you can see a 
+small abandoned shack that many wild buffalos are wandering aimlessly 
+through.
+~
+7 0 0
+D2
+~
+~
+0 -1 725
+D3
+~
+~
+0 -1 722
+S
+#724
+Beginning of a dry creek bed.~
+You are at the beginning of a dry creek bed which continues south
+from here. North leads back up to a well used animal trail.
+~
+7 0 0
+D0
+~
+~
+0 -1 719
+D2
+~
+~
+0 -1 731
+S
+#725
+Entrance to old homestead~
+You are standing on the verandah of an old deserted homestead.
+It looks as though part of the house has been destroyed by
+fire. The verandah once went right around the house, but most
+of it has been burnt. However to the south it is still intact.
+The door to the house is to the east.
+~
+7 0 0
+D0
+~
+~
+0 -1 723
+D1
+~
+~
+0 -1 726
+D2
+~
+~
+0 -1 732
+S
+#726
+Main room of old homestead.~
+You are in the main room of an old homestead. It is a real 
+mess...several overturned chairs lie in one corner, there is a table with 
+one leg missing and many wild animals wander through the rooms.
+~
+7 0 0
+D1
+~
+~
+0 -1 727
+D2
+~
+~
+0 -1 733
+D3
+~
+~
+0 -1 725
+S
+#727
+Bedroom of old homestead.~
+You are in the bedroom of an old homestead. Nobody has
+slept in this room for a very long time.... The room looks rather messy, 
+the bed has an old mattress on it that looks like wolves have been sleeping on
+from all the hair that it is covered with. There is a broken chair lying in 
+the other corner and the floorboards are rotting.
+~
+7 0 0
+D3
+~
+~
+0 -1 726
+S
+#728
+By a waterhole.~
+You are standing right next to a waterhole in the plains.
+The water level is pretty low, and several carcasses lie
+rotting at the edge of the water. A few large tree grow nearby. shading 
+the waterhole. Under the shade of these trees lie some very large buffalos
+~
+7 0 0
+D1
+~
+~
+0 -1 729
+S
+#729
+Near a waterhole.~
+You are standing above a waterhole in the plains. A dry creek
+bed is to the east. You can go right down to the waterhole 
+to the west.
+~
+7 0 0
+D1
+~
+~
+0 -1 730
+D3
+~
+~
+0 -1 728
+S
+#730
+In a dry creek bed.~
+You are standing in a dry creek bed which leads east and west. On the ground
+many small, smooth pebbles lie and a a couple of muddy puddles are scattered
+along the creek bed.
+~
+7 0 0
+D1
+~
+~
+0 -1 731
+D3
+~
+~
+0 -1 729
+S
+#731
+In a dry creek bed.~
+You are in a dry creek bed which branches three ways from here. 
+It seems to end a bit further north and south, but continues
+west from here.
+~
+7 0 0
+D0
+~
+~
+0 -1 724
+D2
+~
+~
+0 -1 734
+D3
+~
+~
+0 -1 730
+S
+#732
+A verandah outside an old homestead.~
+You are standing on a rickety old verandah outside a 
+deserted homestead. The floorboards on this verandah are rotting at a rapid
+rate and you see several large holes in the floor that look directly down 
+on the dirt below.
+~
+7 0 0
+D0
+~
+~
+0 -1 725
+S
+#733
+Kitchen in an old homestead.~
+You are in the kitchen of an old homestead. Many old pots and pans lie 
+scattered on the floor here and an old table stands in one corner covered
+in dust and pieces of rubbish. Several wild animals are wandering through
+the house as you stand here and you wonder if they will attack you.
+~
+7 0 0
+D0
+~
+~
+0 -1 726
+S
+#734
+End of a dry creek bed.~
+Your are at the end of a dry creek bed. To the south you can
+see a stony path which leads east and west.
+~
+7 0 0
+D0
+~
+~
+0 -1 731
+D2
+~
+~
+0 -1 738
+S
+#735
+In a wolves' den.~
+You have wandered into a wolves' den. Hungry looking wolves are
+everywhere looking a little surprised that lunch should just
+walk into their den. 
+~
+7 0 0
+D1
+~
+~
+0 -1 736
+S
+#736
+Path through some boulders.~
+You are in a small rocky outcrop in the plains. You can go
+further into the boulders to the west or back onto the 
+stony path to the east.
+~
+7 0 0
+D1
+~
+~
+0 -1 737
+D3
+~
+~
+0 -1 735
+S
+#737
+Stony path.~
+You are on a stony path that leads up into hills to the east. To
+the west is a rocky outcrop which stands out in the bare countryside.
+~
+7 0 0
+D1
+~
+~
+0 -1 738
+D3
+~
+~
+0 -1 736
+S
+#738
+Stony path.~
+You are on a stony path that leads up to some hills to the east.
+To the north is the end of a dry creek bed. You can see a rocky
+outcrop standing out further down the path to the west.
+~
+7 0 0
+D0
+~
+~
+0 -1 734
+D1
+~
+~
+0 -1 739
+D3
+~
+~
+0 -1 737
+S
+#739
+Stony path.~
+You are on a stony path that east leads up into some hills. To 
+the west the path leads back down onto the plains. You notice that this 
+stony path leads directly to the surrounding mountainside.
+~
+7 0 0
+D1
+~
+~
+0 -1 740
+D3
+~
+~
+0 -1 738
+S
+#740
+Stony path.~
+You are on a stony path that east leads up into some hills. To 
+the west the path leads back down onto the plains. Looking around the 
+path you see several wild animals wandering along it and in the distance
+you can see the majestic mountains.
+~
+7 0 0
+D1
+~
+~
+0 -1 741
+D3
+~
+~
+0 -1 739
+S
+#741
+Stony path.~
+You are on a stony path that leads east up into some hills. To 
+the west the path leads back down onto the plains.
+~
+7 0 0
+D1
+~
+~
+0 -1 742
+D3
+~
+~
+0 -1 740
+S
+#742
+Stony path.~
+You are on a stony path that leads east up into some hills. From
+here the path east becomes difficult and scraggly. To the west 
+the path leads back down onto the plains.
+~
+7 0 0
+D1
+~
+~
+0 -1 -1
+D3
+~
+~
+0 -1 741
+S
+$~

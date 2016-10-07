@@ -1,0 +1,56 @@
+earth cast 'earthquake'
+prep cast 'divine'
+water cast 'waterwalk' $*; cast 'waterbreath' $*
+detali cast 'detect ali' $*
+white get white for; q white
+ton get ton for;q ton
+id cast 'id' $*
+h5 cast 'heal'
+holy cast 'holy' $*
+spi cast 'spirit' $*
+pro get pro back;q pro
+par cast 'para' $*
+remo cast 'remo' $*
+force exa force
+charm cast 'charm' $*
+sle cast 'sleep' $*
+locate cast 'locate' $*
+heal cast 'heal' $*
+armor cast 'arm' $*
+curse cast 'curse' $*
+bless cast 'bless' $*
+rand s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s
+san cast 'sanct' $*
+evil cast 'dispel evi' $*
+good cast 'dispel goo' $*
+invi cast 'invis' $*
+mm cast 'mag' $*
+cdf get all all.cor
+sum cast 'summ' $*
+detinv cast 'detect invis' $*
+str cast 'stre' $*
+lig cast 'cure light' $*
+cri cast 'cure criti' $*
+blind cast 'blind' $*
+infra cast 'infra' $*
+bolt cast 'lightn' $*
+hp train hit;train hit;train hit;train hit;train hit
+food cast 'create fo'; eat mush
+dou get all.dough back;get all.dough 2.back;junk all.dough
+rub get all.rub back;get all.rub 2.back
+dragon cast 'dragon' $*
+recall cast 'word' $*
+alig cast 'detect alignment' $*
+refresh cast 'refresh' $*
+b5 cast 'lightn' $*; cast 'lightn' $*; cast 'lightn' $*; cast 'lightn' $*; cast 'lightn' $*
+plas cast 'plasma' $*
+skin get skin back; dri wat; put skin back
+back exa back
+adv cast 'adv' $*
+tele cast 'tele' $*
+wh where $*
+fire cast 'fire' $*
+hand : waves his hand in acceptance of your presence.  You can leave now.
+b get coral for; rem mace; wield coral; backstab $*; rem coral; wield mace; put coral for
+wake wake; stand
+bows emote bows deeply.  Then falls into the well.  Get it deeply...a well.  Ha Ha Ha.

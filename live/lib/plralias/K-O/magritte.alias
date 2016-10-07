@@ -1,0 +1,90 @@
+8
+immortal
+9
+goto 1200
+0
+6
+tavern
+9
+goto 1112
+0
+1
+b
+10
+battlec $*
+1
+2
+fd
+13
+c 'finger' $*
+1
+2
+ck
+14
+c 'cloud kill'
+0
+4
+heal
+18
+c 'divine heal' $*
+1
+2
+dh
+37
+c 'divine heal' $*;c 'divine heal' $*
+1
+4
+para
+11
+c 'para' $*
+1
+2
+cc
+14
+compost corpse
+0
+5
+tport
+12
+c 'teleport'
+0
+5
+stone
+16
+c 'stoneskin' $*
+1
+6
+summon
+13
+c 'summon' $*
+1
+2
+id
+15
+c 'identify' $*
+1
+2
+lf
+13
+look in force
+0
+3
+gac
+18
+get all all.corpse
+0
+6
+locate
+13
+c 'locate' $*
+1
+6
+recall
+13
+c 'recall' me
+0
+2
+lc
+14
+look in corpse
+0

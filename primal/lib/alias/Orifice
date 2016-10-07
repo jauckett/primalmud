@@ -1,0 +1,140 @@
+cs2 c 'sanc' 2.clone
+cs c 'sanc' clone
+kc order clones k $*
+dp c 'divine prot'
+sa c 'spirit armor'
+armor c 'armor' $*
+bh buy 40 heal
+qh q h
+gs c 'group sanc'
+serve order clones serve
+rf c 'refresh' fozz
+sf c 'sanc' fozz;c 'armor' fozz;c 'bless' fozz;c 'armor' fozz;c 'spirit armor' fozz
+hf c 'heal' fozz;c 'heal' fozz
+sfozz c 'sanc' foxx;c 'bless' fozz;c 'armor' fozz;c 'spirit armor' fozz
+hg c 'heal' goldragon;c 'heal' goldragon;c 'heal' goldragon
+charm c 'charm person' $*
+cf c 'create food'
+hm c 'advanced heal' mag
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+animate c 'animate' corpse
+hz c 'advanced heal' zombie
+taz c 'heal' taz
+ineed say 373
+finger c 'finger' $*
+6 sixx
+kel c 'advanced heal' kel
+h c 'heal' $*
+tm train move;train move;train move;train move;train move
+par cast 'para' $*
+3 cast 'advanced heal
+8 cast 'sanct' $*
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+lev1 e;e;e;e;s;s;e;unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e;unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+an cast 'animate' corpse
+gf get force force
+2 get heal force;get heal force;get heal force;get heal force;get heal force;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put force 2.force
+forgot  s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+him c 'divine heal' him
+mosh : moshes violently around the room, destroying everything in his path.
+ag c 'advanced heal' ag
+jc get all;junk all.corpse
+bless c 'bless'
+cch c 'divine heal' 2.clone
+ch c 'divine heal' clone
+cra c 'advanced heal' crash
+mor c 'advanced heal' morph
+dark c 'divine heal' dark
+sk c 'heal' skully
+st c 'divine heal' stereo
+rubi c 'divine heal' rubicant
+dic c 'divine heal' dick
+tel c 'divine heal' telstar
+nh c 'nohassle'
+conf : looks at you with confusion.
+wb c 'waterbreathe'
+sl wake;look;sleep
+sw wake;where;sleep
+tele c 'teleport'
+ha c 'advanced heal' ass
+ah c 'advanced heal'
+psy c 'heal' psych
+dan c 'heal' danath
+clone c 'clone'
+bp buy 10 prot;put all.prot force
+sanc c 'sanc'
+indi : looks at you with an indifference.
+re c 'word of recall'
+ref c 'refresh'
+dragon c 'dragon'
+invis c 'invis'
+di c 'detect invis'
+th train hit;train hit;train hit;train hit;train hit
+gp get prot force
+ga get all.ammo back
+ba buy 40 ammo;put all.ammo back
+infra c 'infravision'
+wwalk c 'waterwalk'
+haste c 'haste'
+dh c 'divine heal'
+age c 'divine heal' age
+smash : smashes into you as he runs speedily into the room.
+gg : gives you &Y20000000&w gold coins.
+azn where;hide
+fly c 'fly'
+fen c 'heal' fenix
+satin c 'advanced heal' satin
+rig c 'advanced heal' riggs
+rchev c 'refresh' chevron
+chev c 'advanced heal' chev
+schev c 'sanc' chev
+sh say heal
+haid c 'holy aid'
+eye c 'advanced heal' eye
+seye c 'sanc' eye
+sarmor c 'spirit armor' eye
+beye c 'bless' eye
+ieye c 'infra' eye;c 'detect invis' eye;c 'sense life' eye
+aeye c 'armor' eye
+teye c 'advanced heal' eye;c 'advanced heal' telstra
+ck c 'cloud kill'
+swhere wake;who;where;sleep
+flex : flexes his ENORMOUS biceps.
+guitar 1 : pulls out his guitar and tinkers with the tune-keys;: puts his guitar away.
+guitar1 : pulls out his guitar and tinkers with the tune-keys;: puts his guitar away.
+sum c 'summon' $*
+dg c 'dimension gate' $*;open gate;go gate;stand
+dh1 c 'divine heal' $*
+h6 c 'advanced heal' sixx
+sanc6 c 'sanc' sixx
+spell6 c 'sanc' sixx;c 'bless' sixx;c 'armor' sixx;c 'spirit armor' sixx;c 'strength' sixx
+r6 c 'refresh' sixx;c 'refresh' sixx
+h1 c 'advanced heal' sixx;c 'advanced heal' lucifer
+spell c 'armor' $*;c 'bless' $*;c 'sanc' $*;c 'spirit armor' $*;c 'refresh' $*;c 'heal' $*
+hh c 'advanced heal' lucifer;c 'advanced heal' sixx
+bike rem life;wear chain
+life rem chain;wear life
+grat grats $* sucks!
+bt buy 50 heal;put all.heal force
+locate c 'locate object' $*
+tudor w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+wind c 'whirlwind'
+quake c 'earthquake'
+clanhall e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;s;s;d;n;n;n
+pract prac $*;prac $*;prac$*
+oddy s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;open gate;n
+plas rem stalk;wield plas
+sta rem plasma;wield stalk
+spellup c 'sanc';c 'dragon';c 'armor';c 'bless';c 'spirit armor';c 'divine prot';c 'holy aid';c 'fire wall';c 'nohass';c 'haste'
+hb c 'heal' burz
+sb c 'sanc' burzum
+bb c 'bless' burzum
+ab c 'armor' burz
+sab c 'spirit armor' burz
+kids c 'advanced heal' gurrg;c 'advanced heal' abdel
+kids2 c 'sanc' gurrg;;c 'sanc' abdel
+kids3 c 'refresh' gurrg;c 'refresh' abdel
+kid c 'heal' gurrg;c 'heal' abdel
+gc get corpse;n;n;n;n;n;n;n;n;n
+dhc c 'divine heal' cerin
+b back

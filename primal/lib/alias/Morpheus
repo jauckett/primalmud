@@ -1,0 +1,37 @@
+heal 'd
+test cast 'fire' shield mor
+[ track gargoyle
+hb get all.heal for
+cf 'create food'
+] get corpse
+. tell gamina summon
+gb get all.heal saddle
+chill cast 'chill' $1
+burn cast 'burn' $1
+nn track beu
+cast 'burn' rattle cbr
+qh quaff heal
+tc tag cophen
+tn tage needoal
+tb tag bigberty
+ta tag age
+tag t
+mt mm master
+tg track gladiator
+dr drink skin
+eb eat bread
+br get bread force
+df drink fountain
+cmp compare $1 $2
+mm cast 'magic missile' $1
+to rome s
+torome e
+tl track lissa
+ts track snes
+mu eat mushroomo
+mush eat mushroom
+emu eat mushroom
+he get heal back
+td track teddy
+, nosummon
+csleep cast 'sleep' $1

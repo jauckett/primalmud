@@ -1,0 +1,47 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cure cast self 'cure light'
+light! cast self 'infravision'
+ligh "cast self 'infravision'"
+rr recite recall
+mm cast 'Magic Missile' $1
+cor get all  corpse
+mud throw mud n
+'chill touch'
+chill 'chill touch'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

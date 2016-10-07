@@ -1,0 +1,206 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@f who -n $1
+sm switch mercury
+trw tell rincewind $*
+tantrum : lies on the ground crying and throwing a massive temper tantrum.
+bnod : nods bitterly.
+mtell tell $1 $*; tell $2 $*; tell $3 $*
+cr cry $*
+hd c 'advanced heal' drudge
+finger c 'finger' $*; c 'plasma' $*
+gc get all all.corpse; get all.corpse; junk all.corpse
+yoyo $* cjp@@yoyo.cc.monash.edu.au
+tr tell rhcp $*
+serpent at 1.serpent steal eye serpent; at 2.serpent steal eye serpent; at 3.serpent steal eye serpent; at 4.serpent steal eye serpent
+sbow : bows slightly.
+wrp echo Self grabs and pulls your undies hard. OUCH!!
+vanish : fades into thin air.; invis
+chant : starts to chant, 'BLOOD BLOOD BLOOD!'; : chants, 'BLOOD BLOOD BLOOD!'
+ta tell ate $*
+dump at 246 drop all
+s2 at 246 get all.onyx; at 246 get suit; at 246 wear all
+chase : chases his tail.
+knod : nods knowingly.
+ping : points a small device at you. Your body shudders.; echo PING
+twitch echo your head twitches involuntarily.
+whi : whistles tunelessly.
+scratch : scratches his head in puzzlement.
+dev title the Angel of Death [Devianti]
+s1 : pulls a cloak, dark as the void between stars, around him.; at 246 get infinity; at 246 wear infinity
+s0 : pulls a shadow from behind his shoulder.; echo Soulrender fades into view.; at 246 get soulrender; wi soulrender
+snod : nods slowly.
+tp tell pkunk $*
+; immnet $*
+argh holler AAAAAARRRRRRGGGGGGHHHHHH!!!!!!
+hic hiccup
+poison : coats his body in a deadly contact poison.
+english : laboriously translates his title into English, not realising it's his native language. ; title the Blade of Death.
+chinese : laboriously translates his title into Chinese. ; title shi siwang de daoren.
+piglatin : laboriously translates his title into Pig-latin. ; title hetay Ladebay foay Eathday.
+latin : laboriously translates his title into Latin. ; title gladius necis est.
+ad at $1 c 'ad' $1
+stretch : stretches his back, making some nauseating cracking noises.
+struggle : struggles with the concept.
+atl at $1 l $1
+ggoto : grins so broadly that he almost dislocates his jaw. ; : slowly fades from view, leaving his grin hanging in midair.; at $1 echo A grin appears in midair.; got $1
+gpout poofout says, 'I'll be back,' as his grin fades from view.
+gpin poofin slowly fades in around his grin.
+lgoto : whistles loudly; echo Two giant eagles swoop down and grab Deathblade in their claws; at $1 echo Two huge birds fly in and drop Deathblade; goto $1
+lpin poofin lands lightly and dismisses his eagle companions.
+lpout poofout nods and is borne into the sky by a pair of giant eagles.
+schu : explodes with uncontrollable, satanic laughter.
+shsh c 'advanced heal' self; c 'advanced heal' self
+ghouse get all.potion; open crate; put all.potion crate; get all.scroll; put all.scroll crate; get all; wear all; wi whip; hold pen; hold eye; put stake crate; put silver crate
+ww wi whip
+sh c 'ad' $1
+met c 'met
+moander s;s;e;s;s;s;e;e;s;s;s;s;s;e;e
+sl sleep
+wak wake; stand
+hs c 'heal' self
+annoy at $1 poke $1; at $1 poke $1; at $1 slap $1; at $1 puke $1; at $1 tackle $1; at $1 punch $1; at $1 taunt $1; at $1 cackle
+type : throze hizz arms up in the ayre at hizz loosy tiping skills.
+gate c 'dimensional gate' $1
+vague : waves his arms about vaguely.
+of order followers $*
+fe c 'fear' $1
+tidy get corpse; junk corpse
+bless c 'bless' $1
+in c 'invis' $1
+hm c 'harm' $1
+loc c 'locate object' $1
+s3 emote turns grey with blood loss as his sword drinks
+qr get red crate; q red
+rc get red crate
+bl c 'blindness' $1
+sum c 'summon' $1
+bs backstab $1
+cc c 'cure critical' $1
+gcc get coins all.corpse
+charm c 'charm person' $1
+s4 emote 's sword drains the corpse of blood
+gac get all all.corpse
+wd wi dagger
+rd rem dagger
+call c 'call lightning' $1
+tele c 'teleport'
+pin poofin forms around the skeleton, layer by gory layer.
+pout poofout explodes, drenching you with gore, and leaving a fine red mist in the air
+tap : taps his foot impatiently
+hwo who
+bw buy 10 white; put all.white crate; buy 10 white; put all.white crate
+rhouse junk all.key; rem all; drop all; rem all; drop all
+ch tell $1 'hi'
+rs rem sword
+qw get white crate; q white
+g gossip $*
+fpin poofin emerges from the shelter of the pines.
+fgoto : casts a seed on the ground.; echo A cluster of pine trees grows with amazing speed.; at $1 echo A stand of pine trees quickly grows here.; got $1; echo The pine trees dissolve, leaving a clean scent in the air.
+fpout poofout steps under the shadow of the trees, which vanish, leaving a smell of pine needles in the air.
+shrug : shrugs.
+ts tell shera $*
+15 at 15 c 'summon' $1
+din c 'detect invis' $1
+inf c 'infravision' $1
+epin poofin steps out of the energy storm, electricity crackling off him.
+epout poofout is gone when you blink the afterimages from your eyes.
+egoto : raises a hand, which becomes surrounded with a ball of crackling energy; : is immersed in an electrical storm; echo The storm flares, blinding you; at $1 echo An electrical storm grows here; got $1; echo The storm subsides.
+tpin  poofin falls from the sky, landing on his head.
+tpout poofout gets squahed into the ground by a giant foot.
+grate grat '<<<<<<<<<<*****- $1 -*****>>>>>>>>>>
+ani c 'animate' corpse
+arm c 'armor' self
+hl c 'heal' $1
+inn s;e;e;e;e;e;e;e;e;s
+drieland w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s
+desert w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+abyss w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;e;e;e;s;e;u;u;u;u
+bone s;s;s;s;s;e;e;e;e;e;e;e;e;e;s;s;e;n;e;e;n;n;e
+combat c 'arm' self; c 'sanc' self; c 'bless' self
+spiral e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+tunnel w;d;s;s;d;d;d;e;e;e;e;e;s;e;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock
+ass order followers assist deathblade
+qb get blue crate; q blue
+ref c 'refresh
+bsd rem whip; wi sacraficial; backstab $1; rem sacraficial; wi whip
+rr recite recall $1
+mut : mutters something under his breath.
+howl holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!!
+shs c 'ad' self
+lev at $1 : has cast off his mortal body and joined the ranks of the immortals.
+wince : winces sympathetically.
+id recite identify $1
+mpin poofin leaps off a little pink cloud and lands lightly in front of you.
+mpout poofout concentrates, and the cloud shoots off into the sky.
+mgoto : whips a finger across his lips once.; echo Twice, three times, FOUR times!; echo A small pink cloud whizzes out of the sky.; : leaps onto the cloud and sits in lotus position.; at $1 : appears in the sky, riding a small pink cloud.; goto $1
+conf : looks rather confused.
+;vague immnet *waves his arms around vaguely.
+gr group $*
+cl c 'cloud'
+fod at $1 c 'finger' $1
+tm tell misty $*
+tic : expertly twirls a tictac box in his fingers.
+tac : hurls a tictac box at $1. Ow.
+tictac : flips open a pack of tictacs and eats a couple.
+shed : sheds all over the floor.
+bark : barks excitedly.
+tt tell takhisis $*
+double save; got 506; s
+force at $1 echo someone forces you to gossip, '$2'; at $1 echo You gossip, '$2'
+rgoto : grabs two rats and staples them to his forehead; at $1 echo You here a terrify shriek in the distance, 'RODENT EYEBROWS!!!'; got $1; : notices you standing here and sheepishly pulls two large rats of his forehead.
+rpin poofin runs in screaming something unintelligble.
+rpout poofout runs off screamin his war cry, 'RODENT EYEBROWS!!!'
+cry echo a tear rolls down Deathblade's cheek.
+gest : gestures, continue.
+246 at 246 c 'summon' $1
+fat echo $1 performs a fatality on $2 and holds their throbbing heart aloft.
+ath at $1 hug $1; at $1 smile $1
+imm / #70 $*
+raise : raises one eyebrow quizically.
+ti tell insane $*
+sanc c 'sanc' $1
+lock tell 1 
+hair : screams and flees the room at the sound of the Advanced Hair ad.; flee
+retaliate cringe $1; growl $1; : pulls out a huge cleaver and slices $1 in half.; echo Guts everywhere . . . . .
+wr at 33 buy recall; rec recall $1
+goto : contorts in agony.; at $1 echo A skeleton appears in midair.; got $1
+tv tell vader $*
+touch ' Touch wood!; : taps the side of his head.
+quit quitr
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

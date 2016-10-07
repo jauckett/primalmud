@@ -1,0 +1,85 @@
+bs rem axe;wi dagger;backstab $*;rem dagger;wi axe
+white open crate;get white crate;quaff white;close crate
+6 we;we;we;we;we;we;so
+5 we;we;we;no;no;we;we;we;we;we;we;we;we
+4 ea;ea;ea;ea;ea;so;so;ea;ea;ea;
+3 no;ea;ea;ea;ea;ea;ea;ea;ea;ea
+st steal gold $1;hide
+u sneak;u;hide
+d sneak;d;hide
+cong grats **** (: (: (: GO $* GO :) :) :) ****
+2 hunt $*
+ah assist ghimau
+pl pick $1
+word c 'word of recall' $1
+ref c 'refresh' $1
+infr c 'infravision' $1
+as assist silverbird
+rg c 'refresh' grumpy
+tg track grimreaper
+td track deckhand
+tc track deckhand
+tp track pirate
+cha c 'charm person' $1
+t track $1
+up wake;stand
+clg c 'cure light' grumpy
+bh c 'burning hands' $1
+ctb c 'chill touch' brigand
+am assist mitso
+gbp get $1 backpack
+bp put $1 backpack
+bput put $1 bag
+at assist tomcat
+mm c 'magic missile' $1
+gb get bread backpack; eat bread
+red get red backpack; quaff red
+az assist ziggy
+l look
+ct c 'chill touch' $1
+k kill $1
+ab assist bart
+kf kill frog
+al assist lahn
+inf c 'infravision' self
+jban junk all.bandanna
+bl assist bleu
+cc c 'cure critical' $1
+ccg c 'cure critical' grumpy
+atlas get atlas backpack;read atlas;put atlas backpack
+dect c 'detect invisibility'
+ing c 'invisibility' grumpy
+robo tell robohelp $1
+gac get all corpse
+summ c 'summon' $1
+recall c 'word of recall' grumpy
+ag assist grimreaper
+inv c 'invisibility' $1
+fb c 'fireball' $1
+tl : tango's with the lag monster
+re report
+ccz c 'critical cure' ziggy
+hg c 'heal' grumpy
+h c 'heal' $1
+tw track wicked
+ts track sailor
+ident recite identify $1
+tb track buffalo
+ad assist deanna
+sn sneak
+r rescue $1
+pc open crate;put $* crate;close crate
+gm open crate;get meat crate;close crate;eat meat
+ds op crate;get skin crate;drink skin;put skin crate;close crate
+gc op crate;get $* crate;close crate
+ex op crate;exa crate;close crate
+rrg op crate;get recall crate;recite recall grumpy;close crate
+lo cast 'locate object' $1
+yellow open crate;get yellow crate; quaff yellow; close crate
+gg get all.coins corpse
+[a[b8 north
+7 west
+9 east
+1 south
+8 north
+g get all all.corpse

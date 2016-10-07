@@ -1,0 +1,53 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@qw quaff white
+l2t l 2.trickster
+lt l trickster
+cl c 'cure light' self
+co con ogre
+rr recite recall
+ba rem sword;wi dagger;ba $*;rem dagger;wi sword
+sw rem dagger;wi sword
+dg rem sword;wi dagger
+x exp
+$$ gold
+jc junk corpse
+gc get corpse
+gac get all corpse
+wa wake; stand
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

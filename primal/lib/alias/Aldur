@@ -1,0 +1,26 @@
+j where
+y stake indiana
+b rem sword;wield dagger;backstab $1;rem dagger;wield sword
+r recue 'kaer'
+di cas 'detec invi' aldur
+g grat <######$1######>
+dra cas 'energy drain' $1
+loc cas 'locate' $1
+fb cas 'fireball' $1
+ref cas 'refresh' aldur
+dg cas 'dispel g' $1
+wr cast 'word' aldur
+cc cast 'cure light' aldur
+rr recite recall
+lb cast 'lightning' $1
+ccr cast 'cure cri' aldur
+tc tak coins corpse
+de cas 'dispel e' $1
+ch cas 'charm' $1
+su cas 'summon' $1
+invis cas 'invis' aldur
+bli cas 'blindness' $1
+tav em utters the words 'renniw'; em makes a strange gesture and a dragon appears; em leaps on the dragon's back and makes himself comfortable; sleep
+h cas 'harm' $1
+he cas 'heal' aldur
+t tak all corpse

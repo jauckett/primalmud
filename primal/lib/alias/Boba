@@ -1,0 +1,20 @@
+cc exa crate
+cl c 'cure light'
+ii c 'infravision'
+di c 'detect invisibility'
+2 south
+4 west
+6 east
+8 north
+- down
++ up
+00 score
+5 look
+pp put $1 crate
+gs get all corpse
+gg get $1 crate
+gc get all corpse
+id recite identify $1
+. drink skin
+++ open door $1
+0 get bread crate ; eat bread

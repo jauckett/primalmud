@@ -1,0 +1,25 @@
+5
+water
+21
+c 'create water' skin
+0
+4
+food
+15
+c 'create food'
+0
+4
+cure
+17
+cast 'cure light'
+0
+3
+arm
+12
+cast 'armor'
+0
+5
+power
+56
+say spells please ; say heal please ; say refresh please
+1

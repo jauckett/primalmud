@@ -1,0 +1,32 @@
+cave s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+rand s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e
+s;s;s;w;w;w;w;w;w;w;w;w;w;n;;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;open trapdoor
+s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;open trapdoor
+darask s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n
+tk track knight
+pb cast 'plasma blast' $1
+* cast 'word of recall' me
+inf cast 'infravision' me
+heal cast 'heal' me
+gbff get bread force field
+pabff put all.bread force field
+gcc get coins corpse
+gac get all corpse
+summ cast 'summon' $1
+arm cast 'armor' me
+sanc cast 'sanctuary' me
+eb eat bread
+ds drink skin
+pabb put all.bread backpack
+str cast 'strength' nocturno
+ks kill skeleton
+exb examine backpack
+gbb get bread backpack
+em eat meat
+cure cast 'cure light' nocturno
+dinv cast 'detect invisibility' me
+invis cast 'invisibility' me
+fing cast 'finger of death' $1
+ta track ancient
+tr track roper
+hn cast 'heal' nonesuch

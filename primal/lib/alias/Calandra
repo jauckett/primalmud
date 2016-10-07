@@ -1,0 +1,95 @@
+cgi c 'strength
+b rem whip
+!! {!;!;!;!;!;!:!;!;!;!}
+le rem helm;wear mask;rem diamond;rem orb;hold eye;rem cloak;wear necklace
+rdy1 w;s;d;s;e;e;e;n;buy 20 white;put all.white crate
+rdy s;s;s;s;get all;wear all;wie mace;hold pen;hold eye;open crate;put all.potion crate;put all.bread crate;put atlas crate
+el rem necklace;wear cloak;wear all;rem mask;wear helm
+lev rem diamond;rem diamond;rem deception;wear necklace;rem orb;hold eye
+home rec recall;rem all;put mace crate;drop all;save;quitreally
+tav w;s;d;n;n;e;s;sle
+cf c 'fly
+spiral c 'fly';e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+ht rem eye;hold orb
+he rem orb;hold eye
+abyss rem tooth;hold eye;c 'fly;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;e;e;e;s;e;u;u;u;u;s;s;s;s;s
+h c 'advanced heal
+eb get bread crate;eat bread
+ti tim
+ud unlock door
+td hunt doppleganger
+ww wie sword
+qr q red
+sum c 'summon' $1
+loc c 'locate' $1
+og open gate
+od open door
+ss c 'sanc
+hv hunt vampire
+cha change
+ch c 'charm' $1
+id rec identify $1
+ff say Sonic....BBBOOOOOOMMM!!!;c 'fire
+ci c 'invis
+invi rem tooth;hold wand;use wand self;rem wand;hold tooth
+gi go gangway;e;e;e;e;e;u;n;u;e
+cdi c 'detect inv
+gg get gold corpse
+rr rec recall
+jw junk wand
+ct c 'teleport'
+q get thick crate;q thick
+cw c 'waterwalk
+t hunt $1
+tcc hunt 2.cook
+tc hunt cook
+cr c 'word of recall'
+ed c 'energy drain' %1
+wa wak;st
+dw drink skin
+fill fill skin fountain
+ca scan
+f flee
+ec exam corpse
+x exit
+qw get white crate; qu white
+tt hunt deckhand
+jc get all.jade crate;rem all.cloak;wear all.jade
+cj rem all.jade;wear all.cloak;put all.jade crate
+tw hunt wicked
+sanc rem staff;hold flag;use flag;rem flag;hold staff
+te steal ring lich
+dr drink skin
+ggc get all.gold all.corpse
+keep n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;n;e;e;e;e;e;e;n
+rent get all.potion crate;drop all.potion;drop all.key;rent
+invis rem tooth
+gs go ship
+fi fill skin fountain
+grats grats WOOHOO WAY TO GO $1!!!KEEP IT UP!!!
+a assist shujill
+hw hunt werewolf
+kw kill werewolf
+ri rec recall indiana
+tp hunt pirate
+ts hunt spectre
+tb hunt banshee
+crp c 'remove poison
+fe c 'fear' $1
+hide rec recall;n;w;w;w;w;w;w;n
+gac get all corpse
+rd n;w;w;w;w;w;w;n;get all.diamond;get all.deception;get orb;wear all;drop all.diamond;s;e;e;e;e;e;e
+kk e;order soul kill bone;order spectre kill bone;order clone kill bone;kill bone
+cs c 'sense life'
+hi hide
+ga get all
+hit !;!;!;!;!;!;!;!;!;!
+ug ungroup
+lp look priest
+cfi c 'finger
+hs hunt self
+wh who $1
+butt emote headbutts you. OUCH what a headache!
+pile emote picks you up and piledrives you. Awww look at all the pretty stars!!
+trip emote trips you. You fall down in a messy heaps!
+hug emote bearhugs you. Calandra must have a crush on you!

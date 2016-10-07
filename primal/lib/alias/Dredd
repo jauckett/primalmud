@@ -1,0 +1,93 @@
+charm cast 'charm' $*
+100 / #100 $*
+scylla d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;unlock sand;open sand;w;w;w;n;n;e;e;s;w
+dim cast 'dimension gate' $*;open gate;go gate;stand
+z show zone $*
+main n;e;e;e;e;e;s;s
+walkc cast 'waterwalk' clone;cast 'waterwalk' 2.clone
+arm give laser clone;order clone wield laser;give laser 2.clone;order 2.clone wield laser
+die order clones die;get laser all.corpse
+serp get serpent tool;cast 'serpent' $*
+fi cast 'finger of death' $*
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+lev1  e;e;e;e;s;s;e;unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e;unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+spiral  d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+sleep cast 'sleep' $*
+2 get heal force;get heal force;get heal force;get heal force;get heal force;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put force 2.force
+sancc cast 'sanc' clone;cast 'sanc' 2.clone
+kill kill $1;alias kk kill $1
+ref cast 'refresh' $*
+inv cast 'invis' $*
+drag cast 'dragon' $*
+8 cast 'sanct' $*
+re cast 'word of recall'
+x get all corpse
+sum cast 'summon' $*
+det cast 'detect inv' $*
+tra train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1
+qr quaff red
+inf cast 'infravi' $*
+cf cast 'create food';eat mush
+6 get ammo back;reload;put ammo back
+dr cast 'create water' skin;drink skin
+wa wake;stand
+bh buy 20 heal;put all.heal force
+bp buy 5 prot;put all.prot force
+ki get ammo force;reload;put ammo force;kick $*
+ba buy 5 ammo;put all.ammo force
+qw get prot force;quaff prot
+c get coin all.corpse
+loc cast 'locate obj' $*
+par cast 'paral' $*
+walk cast 'waterwalk' $*
+life cast 'sense life' $*
+5 cast 'haste'
+tunnel  s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+3 cast 'advanced heal' $*
+portal s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+gra grats --'--,-&R@ &Y$1 &R@&g-'--,-- on reaching level &Y$2
+id cast 'identify' $*
+tele cast 'teleport'
+talon cast 'remove curse' talon;e;sell talon;w
+wh cast 'whirl'
+for put force 2.force
+water cast 'waterbr' $*
+rc cast 'remove curse' $*
+rope cast 'remove curse' rope;e;sell rope;w
+da cast 'detect alig' $*
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+cl cast 'clone';cast 'clone'
+clone cast 'clone'
+0 group all;cast 'group sanct';cast 'group arm';ungroup
+ord order follow kill $1;kill $1
+ass order clones assist dredd
+detc cast 'detect invis' clone;cast 'detect invis' 2.clone
+infc cast 'infrav' clone;cast 'infrav' 2.clone
+fly cast 'fly'
+lifec cast 'sense life' clone;cast 'sense life' 2.clone
+forgot  s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+serve order follow serve;order follow serve
+noh cast 'nohassle'
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+stake rem pulse;get silver tool;wield silver;stake $*;rem silver;wield pulse;put silver tool
+kk kill gu
+slay rem pulse;get silver tool;wield silver;slay $*;rem silver;wield pulse;put silver tool
+primer die;die;get corpse;junk corpse;get corpse;junk corpse
+fear cast 'fear' $*
+tag tag $*;alias tt tag $*
+tt tag  primer
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+tril get tril tool;rem drill;hold tril;rem tril;hold tril;hold drill
+an cast 'animate dead' $*
+ds get stalker tool;rem laser;wield stalker
+laser rem stalker;wield laser;put stalker tool
+str cast 'stren'
+1 cast 'divine heal' $*
+gf get force force
+getd hold jack;wear black body;hold drill;wield rifle;wear all;put tool 2.tool;put tool 2.tool
+ww cast 'whirlwind'

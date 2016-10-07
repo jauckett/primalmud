@@ -1,0 +1,74 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD>
+<TITLE> Primal Players </TITLE>
+</HEAD>
+
+<BODY BGCOLOR = white text=black>
+<CENTER>
+<img src="../letters/M.gif">any adventurers have passed through <i>Primal</i>
+in times passed, <BR>
+and many more will in times to come. Those who have found some sort of <BR>
+niche here can be found below. 
+<P>
+Chances are fairly good that you will run into one of these folks should 
+you visit.
+<P>
+Talisman - Does he have a home?<BR>
+Roj - Forever plotting to start his own clan.<BR>
+DMoC & Dreamweaver - The mudding brothers.<BR>
+Jalehven - Cannot keep a suit of equipment longer than a week.<BR>
+Dracion - Leader of the Guardians of Justice<BR>
+Moe - Opposing Dracion, the leader of the Avengers<BR>
+Octopussy - <BR>
+Splat<BR>
+Jager<BR>
+Enlibrite<BR>
+
+	<P>
+<a href="play.htm"><img src="../letters/prev.gif" border=0></a>
+
+</CENTER>
+</BODY>
+</HEAD>
+
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

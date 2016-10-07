@@ -1,0 +1,8 @@
+mm c 'magic' $*
+t tell
+wa wear all
+ws wield sword
+ga get all
+p put
+gac get all corpse
+gab get all bag

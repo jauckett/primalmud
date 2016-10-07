@@ -1,0 +1,21 @@
+inv c 'invis'
+ds drink skin
+fs fill skin fount
+ed get bread crate;get bread crate;eat bread;eat bread;drink skin
+br buy 5 red;put all.red crate
+bw buy 5 white;put all.white crate
+kb kill boar
+gac get all corpse
+ws wake;stand
+og open gate
+od open door
+inf c 'infra'
+qw get white crate;qu white
+pa put all.$1 crate
+ga get all.$1 crate
+ud unl door;open door
+h c 'cure ligh'
+qr get red crate;qu red
+rc get recall crate;rec recall
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w
+bre buy 10 recall;put all.recall crate

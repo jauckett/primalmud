@@ -1,0 +1,5 @@
+gac get all corpse
+gag get all.gold corpse
+infra cast 'infra'
+cburn cast 'burn' $1
+cc cast 'cure cr'

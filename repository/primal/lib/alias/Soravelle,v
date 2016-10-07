@@ -1,0 +1,56 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@armor cast 'armor' self
+sg cast 'shocking grasp' $1
+ts tell robohelp summon
+unpack get $1 backpack
+pack put $1 backpack
+$$ gold
+st steal $1 $2
+cls cast 'cure light' soravelle
+fd cast 'create food'
+cash get gold corpse
+cl cast 'cure light' $1
+mm cast 'magic missile' $1
+cw cast 'create water' $1
+roust get all corpse
+tr tell robohelp mana
+in cast 'invisibility'
+bh cast 'burning hands' $1
+gg get gold all
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

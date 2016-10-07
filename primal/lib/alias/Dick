@@ -1,0 +1,25 @@
+;; get healing force ; qu healing ; get healing force ;  qu healing
+dr dri ski
+/ get prote force ; qu prote
+; get healing force ; quaf  healing
+p  tp
+: get healing force;  q healing
+tp buy healing; put healing force
+gac get all corpse
+pw PUT WHITE BACK
+pr PUT RED BACK
+pm PUT MEAT BACK
+tr train hit
+pmb put meat back
+mm c 'magic missile'
+st c 'strength
+ph put hot back
+mk cast ' magic missile' ; kick
+gmget maet forcef, eatmeat
+bm buy meat; put meat force
+gm get meat force; eat meat
+rp buy red; put red force
+wp buy white; put white force
+\ get white force; q white
+lb look in force
+pp buy prote ; put prote force

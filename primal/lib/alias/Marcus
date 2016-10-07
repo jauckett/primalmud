@@ -1,0 +1,53 @@
+charm cast 'charm' $*
+fear cast 'fear' $*
+fly cast 'fly'
+water cast 'waterb' $*
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+lev1 e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+1 get heal tool;get heal tool;get heal tool;get heal tool;get heal tool;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put tool 2.tool
+gt get tool tool
+tool put tool 2.tool;put tool 2.tool
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+ww cast 'whirlwind'
+tunnel s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w
+gs cast 'group sanc'
+par cast 'paral' $*
+5 cast 'haste'
+ref cast 'refresh' $*
+life cast 'sense life' $*
+8 cast 'sanct' $*
+inv cast 'invis' $*
+inf cast 'infrav' $*
+loc cast 'locate ob' $*
+det cast 'detect inv' $*
+drag cast 'dragon' $*
+sum cast 'summon' $*
+re cast 'word'
+tra train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*
+bh buy 20 heal;put all.heal tool
+bp buy 5 prot;put all.prot tool
+wa wake;stand
+walk cast 'waterwalk' $*
+wh cast 'whirlwind'
+tele cast 'teleport'
+id cast 'identify' $*
+2 cast 'advanced heal' $*
+joxer follow joxer;autoassist joxer
+x get all corpse
+rc cast 'remove curse' $*
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+c get coin all.corpse
+4 cast 'advanced heal' joxer
+3 cast 'advanced heal' joxer
+9 cast 'summon' joxer
+noh cast 'nohassle'
+getd hold lant;hold drill;wield laser;wear black body;wear all;put tool 2.tool;put tool 2.tool

@@ -1,0 +1,19 @@
+8 get white backpack; q white
+9 get red backpack ; q red
+1 cast 'cure light' self
+sac get corpse ; junk corpse
+invis cast 'invis' self
+sleepx cast 'sleep' $*
+infrax cast 'infravision' $*
+burn cast 'burning hands' $*
+lightning cast 'lightning bolt' $*
+summon cast 'summon' $*
+infra cast 'infravision' self
+cure cast 'cure light' self
+getc get all corpse
+curex cast 'cure light' $*
+killem cast 'magic missile' $*
+2 cast 'create food' ; eat mushroom
+armor cast 'armor' self
+0 cast 'lightning' guard
+red buy 20 red; put all.red backpack

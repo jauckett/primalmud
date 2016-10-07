@@ -1,0 +1,85 @@
+cw order clones wield sword
+cl cast 'clone'
+rainbow gos &wr&ya&ri&bn&gb&mo&Mw
+hidy gos &bhidy &mho &r$1
+hi gos &bhidy &mho &r$1
+colourtitle title &mhas a &bLight&yning B&rolt! -->
+dp cast 'divine protection' self
+town d;w;s;s;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s
+clan d;w;s;s;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;d;n;n;n
+bs backstab $1
+td tell dmoc $*
+ehome get recall force; recite recall
+gr grats /-----=====> { $1 } <=====-----\
+co order clones $*
+cd order clones die
+sa cast 'spirit armor' self
+fillskin get skin force; fill skin fountain; fill skin fountain; put skin force
+ww cast 'whirlwind'
+ha cast 'holy aid' self
+cah cast 'advanced heal' $1
+ah cast 'advanced heal' self
+de cast 'dispel evil' $1
+sf cast 'earthquake'
+cww cast 'control weather' 'worse'
+cwb cast 'control weather' 'better'
+ggac get coins all.corpse
+ggc get coins corpse
+tele cast 'teleport'
+para cast 'paralyze' $1
+pb cast 'plasma blast' $1
+cinvis cast 'invisibility' $1
+crf cast 'refresh' $1
+rf cast 'refresh' self
+cdalign cast 'detect alignment' $1
+dalign cast 'detect alignment' self
+cdinvis cast 'detect invisibility' $1
+dinvis cast 'detect invisibility' self
+od open door
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w
+su cast 'summon' $1
+lo cast 'locate object' $1
+mm cast 'magic missile' $1
+gaac get all all.corpse
+gac get all corpse
+bh cast 'burning hands' $1
+mush cast 'create food'; eat mushroom
+cblind cast 'cure blind' $1
+res rescue $1
+c cast 'cure critic' $1
+a cast 'armor' $1
+lb cast 'lightning bolt' $1
+ga cast 'group armor'
+as cast 'armor' self
+cs cast 'cure critic' self
+ccs cast 'colorspray' $1
+invis cast 'invisibility' self
+home cast 'wordofrecall'
+sanc cast 'sanctuary' self
+csanc cast 'sanctuary' $1
+h cast 'heal' self
+fb cast 'fireball' $1
+qh get heal crate; quaff healing
+ident get identify force; recite identify $1
+qw get white crate; quaff white
+skin get skin force; drink skin; put skin force
+inf cast 'infravision' self
+cinf cast 'infravision' $1
+bless cast 'bless' $1
+qqw quaff white
+drag cast 'dragon' self
+cdrag cast 'dragon' $1
+ch cast 'heal' $1
+pfe cast 'protection from evil' self
+nodag get sword force; remove dagger; wield sword; put silver force
+dag get silver force; remove sword; wield silver; put sword force
+sl cast 'sense life' self
+cr order clones report
+life get life force; remove comm; wear life; put comm force
+nlife get comm force; remove life; wear comm; put life force
+clanhouse d;n;w;w;w;w;w;w;w;w;w;w;w;w;n;n;e
+ncc get helm force; remove sombrero; wear helm; put sombrero force
+cc get sombrero force; remove helm; wear sombrero; put helm force
+fly cast 'fly' self
+dg cast 'dimensional gate' $1; open gate
+ca order clones assist dreamweaver

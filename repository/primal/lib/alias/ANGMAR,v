@@ -1,0 +1,61 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@sk drink skin
+pw put white backpack
+gp grab pen
+em eat mushroom
+ta take all backpack
+b buy red
+p put red backpack
+tt cast 'teleport'
+2 emote bids you good day
+r remove sword
+ss wield sword 
+ch cast 'heal' self
+cf cast 'create food'
+cw cast 'word'
+cd cast 'create water' skin
+rd remove dagger
+wd wield dagger
+ge grab enlibrite
+3 emote positions his halo upon his horns
+c cast 'harm' bigo
+rh remove horn
+cc cast 'charm' eye
+t track belmyrn
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

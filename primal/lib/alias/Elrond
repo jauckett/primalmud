@@ -1,0 +1,13 @@
+cf cast 'create food'
+ds drink skin
+lib look in backpack
+lbp look in backpack
+g get all corpse
+a assist thedoctor
+qr quaff red
+qw quaff white
+cc cast 'cure critical'
+ci cast 'infra'
+cs cast 'strength'
+gg get gold corpse
+ae assist exelion

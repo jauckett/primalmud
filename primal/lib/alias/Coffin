@@ -1,0 +1,7 @@
+clone cast 'clone'
+fing cast 'finger' $1
+wb cas 'waterbreathe'
+wwalk cast 'waterwalk'
+home cast 'word'   
+locate cast 'locate' $1
+gac get all all.corpse

@@ -1,0 +1,10 @@
+z rescue jax
+ll look in corpse
+4 flee
+2 c 'shock' $1
+id rem back ; get id back ; hold back ; recite id $1
+0 kick $1
+3 backstab $1
+1 sneak
+5 hide
+cc cast 'cure light' $1

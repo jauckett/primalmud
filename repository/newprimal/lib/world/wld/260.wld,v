@@ -1,0 +1,1032 @@
+head	1.1;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.10.14.01.01.35;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@#26000
+Corridor into Jabba's Palace~
+You are standing just inside the main entrance of Jabba the Hutt's 
+palace. A dark corridor leads west towards his throne room and
+the desert is to the east.
+~
+260 9 0
+D1
+You see the desert
+~
+east~
+0 0 24045
+D3
+You see a dark corridor.
+~
+west~
+0 0 26001
+S
+#26001
+Corridor into Jabba's Palace~
+You are walking along a dark corridor in Jabba the Hutt's palace. You can hear
+laughter and strange music coming from the west and you decide that it must
+be coming from Jabba's throne room. This corridor goes east and west from
+here.
+~
+260 9 0
+D1
+You see a dark corridor.
+~
+east~
+0 0 26000
+D3
+You see a dark corridor.
+~
+west~
+0 0 26002
+S
+#26002
+Corridor into Jabba's Palace~
+You are walking along a dark corridor in Jabba the Hutt's palace. You can hear
+laughter and strange music coming from the west and you decide that it must
+be coming from Jabba's throne room. This corridor goes east and west from
+here.
+~
+260 9 0
+D1
+You see a dark corridor.
+~
+east~
+0 0 26001
+D3
+You see a dark corridor.
+~
+west~
+0 0 26003
+S
+#26003
+Corridor into Jabba's Palace~
+You are walking along a dark corridor in Jabba the Hutt's palace. You can hear
+laughter and strange music coming from the west and you decide that it must
+be coming from Jabba's throne room. This corridor goes east and south from
+here.
+~
+260 9 0
+D1
+You see a dark corridor.
+~
+east~
+0 0 26002
+D2
+You see a dark corridor.
+~
+south~
+0 0 26004
+S
+#26004
+Entrance to Throne Room~
+You are standing at the entrance to Jabba the Hutt's throne room. Through
+the door you can see all kinds of beings who have all come to work for Jabba 
+doing the types of jobs that aren't considered legal in most civilised star 
+systems. You can go west into the room or north into the corridor.
+~
+260 8 0
+D0
+You see a corridor.
+~
+north~
+0 0 26003
+D3
+You see the throne room.
+~
+west~
+0 0 26005
+S
+#26005
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. This room goes north and west, there is a corridor to the 
+east.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26009
+D1
+You see the throne room.
+~
+east~
+0 0 26004
+D3
+You see the throne room.
+~
+west~
+0 0 26006
+S
+#26006
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+east and west. The corridor to Jabba's dungeon is south.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26010
+D1
+You see the throne room.
+~
+east~
+0 0 26005
+D2
+You see a dark corridor.
+~
+south~
+0 0 26037
+D3
+You see the throne room.
+~
+west~
+0 0 26007
+S
+#26007
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+east and west.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26011
+D1
+You see the throne room.
+~
+east~
+0 0 26006
+D3
+You see the throne room.
+~
+west~
+0 0 26008
+S
+#26008
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north
+and east.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26012
+D1
+You see the throne room.
+~
+east~
+0 0 26007
+S
+#26009
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+south and west.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26013
+D2
+You see the throne room.
+~
+south~
+0 0 26005
+D3
+You see the throne room.
+~
+west~
+0 0 26010
+S
+#26010
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+south, east and west.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26014
+D1
+You see the throne room.
+~
+east~
+0 0 26009
+D2
+You see the throne room.
+~
+south~
+0 0 26006
+D3
+You see the throne room.
+~
+west~
+0 0 26011
+S
+#26011
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+south, east and west.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26015
+D1
+You see the throne room.
+~
+east~
+0 0 26010
+D2
+You see the throne room.
+~
+south~
+0 0 26007
+D3
+You see the throne room.
+~
+west~
+0 0 26012
+S
+#26012
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+south and east.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26016
+D1
+You see the throne room.
+~
+east~
+0 0 26011
+D2
+You see the throne room.
+~
+south~
+0 0 26008
+S
+#26013
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+south and west.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26017
+D2
+You see the throne room.
+~
+south~
+0 0 26009
+D3
+You see the throne room.
+~
+west~
+0 0 26014
+S
+#26014
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+south, east and west.
+~      
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26018
+D1
+You see the throne room.
+~
+east~
+0 0 26013
+D2
+You see the throne room.
+~
+south~
+0 0 26010
+D3
+You see the throne room.
+~
+west~
+0 0 26015
+S
+#26015
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+south, east and west.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26019
+D1
+You see the throne room.
+~
+east~
+0 0 26014
+D2
+You see the throne room.
+~
+south~
+0 0 26011
+D3
+You see the throne room.
+~
+west~
+0 0 26016
+S
+#26016
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go north,
+south and east.
+~
+260 8 0
+D0
+You see the throne room.
+~
+north~
+0 0 26020
+D1
+You see the throne room.
+~
+east~
+0 0 26015
+D2
+You see the throne room.
+~
+south~
+0 0 26012
+S
+#26017
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go south
+and west.
+~
+260 8 0
+D2
+You see the throne room.
+~
+south~
+0 0 26013
+D3
+You see the throne room.
+~
+west~
+0 0 26018
+S
+#26018
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You had expected to have been removed by now, you guess
+that Jabba has recognised what a great adventurer you are. You can go south,
+east and west.
+~
+260 8 0
+D1
+You see the throne room.
+~
+east~
+0 0 26017
+D2
+You see the throne room.
+~
+south~
+0 0 26014
+D3
+You see the throne room.
+~
+west~
+0 0 26019
+S
+#26019
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. Strange sounds and smells are floating up through the 
+grating that you didn't realise you were standing on. You can go south, east 
+and west.
+~
+260 8 0
+D1
+You see the throne room.
+~
+east~
+0 0 26018
+D2
+You see the throne room.
+~
+south~
+0 0 26015
+D3
+You see the throne room.
+~
+west~
+0 0 26020
+S
+#26020
+Jabba the Hutt's Throne Room~
+You are standing in Jabba the Hutt's throne room. All around you are aliens
+from all over the galaxy, all having fun and enjoying themselves in the general
+party atmosphere that is in here. Strange music comes from a band somewhere
+lost in the crowd. You can go south and east from here.
+~
+260 8 0
+D1
+You see the throne room.
+~
+east~
+0 0 26019
+D2
+You see the throne room.
+~
+south~
+0 0 26016
+S
+#26021
+Deep Pit~
+You have fallen into a deep pit and the instant you hit the floor you realise 
+there is no way back to where you just came from. There are bones of animals
+of all shapes an sizes littering the floor and fearsome growls are coming from
+the darkness that surrounds you. You can go north and west.
+~
+260 9 0
+D0
+You see a dark pit.
+~
+north~
+0 0 26024
+D3
+You see the dark pit.
+~
+west~
+0 0 26022
+S
+#26022
+Deep Pit~
+You are standing in a deep pit under Jabba the Hutt's palace. The floor is
+covered with the bones of Jabba's unwanted guests who have obviously upset him 
+in some way so he has dropped them in here to meet their doom. From the 
+strange sounds coming at you from the darkness you can tell you are not alone
+down here... you can go north, east and west.
+~
+260 9 0
+D0
+You see a dark pit.
+~
+north~
+0 0 26025
+D1
+You see a dark pit.
+~
+east~
+0 0 26021
+D3
+You see a dark pit.
+~
+west~
+0 0 26023
+S
+#26023
+Deep Pit~
+You are standing in a deep pit under Jabba the Hutt's palace. The floor is
+covered with the bones of Jabba's unwanted guests who have obviously upset him 
+in some way so he has dropped them in here to meet their doom. From the 
+strange sounds coming at you from the darkness you can tell you are not alone
+down here... you can go north and east.
+~
+260 9 0
+D0
+You see a dark pit.
+~
+north~
+0 0 26026
+D1
+You see a dark pit.
+~
+east~
+0 0 26022
+S
+#26024
+Deep Pit~
+You are standing in a deep pit under Jabba the Hutt's palace. The floor is
+covered with the bones of Jabba's unwanted guests who have obviously upset him 
+in some way so he has dropped them in here to meet their doom. From the 
+strange sounds coming at you from the darkness you can tell you are not alone
+down here... you can go north, south and west.
+~
+260 9 0
+D0
+You see a dark pit.
+~
+north~
+0 0 26027
+D2
+You see a dark pit.
+~
+south~
+0 0 26021
+D3
+You see a dark pit.
+~
+west~
+0 0 26025
+S
+#26025
+Deep Pit~
+You are standing in a deep pit under Jabba the Hutt's palace. The floor is
+covered with the bones of Jabba's unwanted guests who have obviously upset him 
+in some way so he has dropped them in here to meet their doom. From the 
+strange sounds coming at you from the darkness you can tell you are not alone
+down here... you can go north, south, east and west.
+~
+260 9 0
+D0
+You see a dark pit.
+~
+north~
+0 0 26028
+D1
+You see a dark pit.
+~
+east~
+0 0 26024
+D2
+You see a dark pit.
+~
+south~
+0 0 26022
+D3
+You see a dark pit.
+~
+west~
+0 0 26026
+S
+#26026
+Deep Pit~
+You are standing in a deep pit under Jabba the Hutt's palace. The floor is
+covered with the bones of Jabba's unwanted guests who have obviously upset him 
+in some way so he has dropped them in here to meet their doom. From the 
+strange sounds coming at you from the darkness you can tell you are not alone
+down here... you can go north, south and east.
+~
+260 9 0
+D0
+You see a dark pit.
+~
+north~
+0 0 26029
+D1
+You see a dark pit.
+~
+east~
+0 0 26025
+D2
+You see a dark pit.
+~
+south~
+0 0 26023
+S
+#26027
+Deep Pit~
+You are standing in a deep pit under Jabba the Hutt's palace. The floor is
+covered with the bones of Jabba's unwanted guests who have obviously upset him 
+in some way so he has dropped them in here to meet their doom. From the 
+strange sounds coming at you from the darkness you can tell you are not alone
+down here... you can go south and west.
+~
+260 9 0
+D2
+You see a dark pit.
+~
+south~
+0 0 26024
+D3
+You see a dark pit.
+~
+west~
+0 0 26028
+S
+#26028
+Deep Pit~
+You are standing in a deep pit under Jabba the Hutt's palace. The floor is
+covered with the bones of Jabba's unwanted guests who have obviously upset him 
+in some way so he has dropped them in here to meet their doom. From the 
+strange sounds coming at you from the darkness you can tell you are not alone
+down here... you can go south, east and west.
+~
+260 9 0
+D1
+You see a dark pit.
+~
+east~
+0 0 26027
+D2
+You see a dark pit.
+~
+south~
+0 0 26025
+D3
+You see a dark pit.
+~
+west~
+0 0 26029
+S
+#26029
+Deep Pit~
+You are standing in a deep pit under Jabba the Hutt's palace. The floor is
+covered with the bones of Jabba's unwanted guests who have obviously upset him 
+in some way so he has dropped them in here to meet their doom. From the 
+strange sounds coming at you from the darkness you can tell you are not alone
+down here...there is a metal door to the north and the pit goes south and east.
+~
+260 9 0
+D0
+You see a metal door.
+~
+door~
+1 26000 26030
+D1
+You see a dark pit.
+~
+east~
+0 0 26028
+D2
+You see a dark pit.
+~
+south~
+0 0 26026
+S
+#26030
+Trail into the desert~
+You are standing just outside the pit under Jabba's palace. There is a trail
+leading away from the palace that seems to go back into the desert of
+Tatooine. You can go north into the desert. There is a metal door to the south.
+~
+260 0 2
+D0
+You see the desert.
+~
+north~
+0 0 26031
+D2
+You see a metal door.
+~
+metal door~
+1 26000 26029
+S
+#26031
+Trail into the desert~
+You are walking along a trail leading away from Jabba's palace into the desert.
+You have heard stories of Jabba feeding his enemies to a desert creature 
+known as the sarlacc, which is supposed to be around the desert somewhere,
+so you decide you had better be careful of where you step. The trail goes
+east and south.
+~
+260 0 2
+D1
+You see the desert.
+~
+east~
+0 0 26032
+D2
+You see the desert.
+~
+south~
+0 0 26030
+S
+#26032
+Trail into the desert~
+You are walking along a trail leading away from Jabba's palace into the desert.
+You have heard stories of Jabba feeding his enemies to a desert creature 
+known as the sarlacc, which is supposed to be around the desert somewhere,
+so you decide you had better be careful of where you step. The trail goes
+east and west.
+~
+260 0 2
+D1
+You see the desert.
+~
+east~
+0 0 26033
+D3
+You see the desert.
+~
+west~
+0 0 26031
+S
+#26033
+Trail into the desert~
+You are walking along a trail leading away from Jabba's palace into the desert.
+You have heard stories of Jabba feeding his enemies to a desert creature 
+known as the sarlacc, which is supposed to be around the desert somewhere,
+so you decide you had better be careful of where you step. The trail goes
+east and west.
+~
+260 0 2
+D1
+You see the desert.
+~
+east~
+0 0 26034
+D3
+You see the desert.
+~
+west~
+0 0 26032
+S
+#26034
+Trail into the desert~
+You are walking along a trail leading away from Jabba's palace into the desert.
+You have heard stories of Jabba feeding his enemies to a desert creature 
+known as the sarlacc, which is supposed to be around the desert somewhere,
+so you decide you had better be careful of where you step. The trail goes
+east and west. There is a strange dip in the sand to the north.
+~
+260 0 2
+D0
+You see a strage dip in the sand.
+~
+north~
+0 0 26035
+D1
+You see the desert.
+~
+east~
+0 0 26036
+D3
+You see the desert.
+~
+west~
+0 0 26033
+S
+#26035
+Belly of the Sarlacc~
+As you cautiously step over the sand dune something grabs you by the leg!
+You lose you footing a roll down the dune into the waiting mouth of the 
+mighty Sarlacc. Within its belly you experience a new level of pain as it 
+begins to slowly digest you. You must climb out while you are still able!
+You can see an opening up above you.
+~
+260 10 0
+D4
+You see the mouth of the sarlacc.
+~
+up~
+0 0 26034
+S
+#26036
+Trail into the desert~
+You are walking along a trail that leads into the desert of Tatooine.
+In all directions all you can see is the rolling sand dunes. The trail seems to
+go north and west.
+~
+260 0 2
+D0
+You see the desert.
+~
+north~
+0 0 25026
+D3
+You see the desert.
+~
+west~
+0 0 26034
+S
+#26037
+Corridor to dungeon~
+You are standing at the entrance to the dungeon in Jabba the Hutt's palace.
+This is where Jabba sends his enemies to be tortured for all they are worth
+before being dealt with in other ways. The throne room is to the north and this
+corridor continues south.
+~
+260 9 0
+D0
+You see the throne room.
+~
+north~
+0 0 26006
+D2
+You see a corridor
+~
+south~
+0 0 26038
+S
+#26038
+Corridor to dungeon~
+You are standing in the corridor to the dungeon in Jabba the Hutt's palace.
+This is where Jabba sends his enemies to be tortured for all they are worth
+before being dealt with in other ways. This corridor goes north and south.
+There are cell doors to the east and west.
+~
+260 9 0
+D0
+You see a corridor
+~
+north~
+0 0 26037
+D1
+You see a cell door.
+~
+east~
+1 0 26041
+D2
+You see a corridor
+~
+south~
+0 0 26039
+D3
+You see a cell door.
+~
+west~
+1 0 26040
+S
+#26039
+Corridor to dungeon~
+You are standing in the corridor to the dungeon in Jabba the Hutt's palace.
+This is where Jabba sends his enemies to be tortured for all they are worth
+before being dealt with in other ways. This corridor goes north.
+There are cell doors to the east and west.
+~
+260 9 0
+D0
+You see a corridor
+~
+north~
+0 0 26038
+D1
+You see a cell door.
+~
+east~
+1 0 26043
+D3
+You see a cell door.
+~
+west~
+1 0 26042
+S
+#26040
+Cell~
+You are standing inside a cell in Jabba the Hutt's dungeon. The smell of
+rotting meat in the air makes you feel sick, and you are glad that Jabba hasn't
+thrown you in one of these cells... yet. There is a cell door to the east.
+~
+260 9 0
+D1
+You see a cell door.
+~
+east~
+1 0 26038
+S
+#26041
+Cell~
+You are standing inside a cell in Jabba the Hutt's dungeon. The smell of
+rotting meat in the air makes you feel sick, and you are glad that Jabba hasn't
+thrown you in one of these cells... yet. There is a cell door to the west.
+~
+260 9 0
+D3
+You see a cell door.
+~
+west~
+1 0 26038
+S
+#26042
+Cell~
+You are standing inside a cell in Jabba the Hutt's dungeon. The smell of
+rotting meat in the air makes you feel sick, and you are glad that Jabba hasn't
+thrown you in one of these cells... yet. There is a cell door to the west.
+~
+260 9 0
+D1
+You see a cell door.
+~
+east~
+1 0 26039
+S
+#26043
+Cell~
+You are standing inside a cell in Jabba the Hutt's dungeon. The smell of
+rotting meat in the air makes you feel sick, and you are glad that Jabba hasn't
+thrown you in one of these cells... yet. There is a cell door to the west.
+~
+260 9 0
+D3
+You see a cell door.
+~
+west~
+1 0 26039
+S
+#26044
+Bounty Hunter Waiting Room~
+This is where the bounty hunters wait around for someone to do something
+stupid so they can go kill em for it.
+The north exit leads to the Tatooine Desert so they can track people from there
+to wherever they did something wrong.
+~
+260 0 0
+D0
+You see the desert.
+~
+north~
+0 0 24009
+S
+#99999
+$~
+
+@

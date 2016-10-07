@@ -1,0 +1,83 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#84 1
+Eliqua River~
+8499 20 2 256
+M 0 8400 4  8432	serpents
+G 1 8400 10
+M 0 8400 4  8416
+G 1 8400 10
+M 0 8400 4  8410
+G 1 8400 10
+M 0 8400 4  8449
+G 1 8400 10
+
+M 0 8401 8  8406        element
+M 0 8401 8  8409
+M 0 8401 8  8455
+M 0 8401 8  8422
+M 0 8401 8  8429
+M 0 8401 8  8451
+M 0 8401 8  8419
+M 0 8401 8  8409
+
+
+M 0 8403 10  8423        vargouilles 
+M 0 8403 10  8413 
+M 0 8403 10  8413 
+M 0 8403 10  8417 
+M 0 8403 10  8440 
+M 0 8403 10  8432 
+M 0 8403 10  8427 
+M 0 8403 10  8440 
+M 0 8403 10  8443 
+M 0 8403 10  8449 
+
+M 0 8402 8   8411
+M 0 8402 8   8421
+M 0 8402 8   8433
+M 0 8402 8   8439
+M 0 8402 8   8442
+M 0 8402 8   8447
+M 0 8402 8   8453
+M 0 8402 8   8402
+
+S
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

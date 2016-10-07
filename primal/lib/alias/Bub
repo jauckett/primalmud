@@ -1,0 +1,4 @@
+caa cast 'armor' $*
+9 get gold all.corpse
+0 get all all.corpse
+ca cast 'armor' bub

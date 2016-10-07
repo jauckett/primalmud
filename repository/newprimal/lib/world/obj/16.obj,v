@@ -1,0 +1,413 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.42;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#1601
+pendant silver~
+a silver pendant~
+A silver pendant lies here.~
+~
+9 0 5 0
+0 0 0 0
+2 1800 180 0
+L 0
+E
+silver pendant~
+You see a beautiful ornately designed pendant that once belonged
+to a great god.
+~
+A
+17 -2
+A
+12 1
+#1602
+bracelet silver~
+a silver bracelet~
+A silver bracelet lies here.~
+~
+9 0 4097 0
+0 0 0 0
+2 1800 50 0
+L 0
+E
+silver bracelet~
+This is a beauiful ornately designed bracelet that once
+belonged to a great god.
+~
+A
+1 1
+A
+17 -1
+#1603
+lightning bolt~
+lightning bolt~
+A lighning bolt of rare beauty lies here.~
+~
+5 1 8193 0
+0 2 5 11
+11 1800 320 0
+L 0
+E
+lightning bolt~
+A flash blinds you momentarily when you look at this magnificent weapon
+~
+A
+5 1
+A
+18 1
+#1604
+scythe~
+a scythe~
+A scythe lies here .~
+~
+5 0 8193 0
+0 5 2 3
+3 900 90 0
+L 0
+E
+scythe~
+The sickle shaped weapon appears to be in fine working order
+~
+A
+2 1
+#1605
+hat caretakers~
+caretaker's hat~
+A fadded brown hat lies here~
+~
+9 128 17 0
+0 0 0 0
+2 700 30 0
+L 0
+E
+hat~
+Brown velvet and a beautiful yellow ribbon 
+~
+A
+17 -2
+A
+23 2
+#1606
+shirt red~
+a red shirt~
+A fadded red shirt lies here.~
+~
+9 0 9 0
+0 0 0 0
+1 500 50 0
+L 0
+E
+shirt red~
+This shirt is slighly faded and well worn
+~
+A
+17 -3
+#1607
+pants blue~
+blue pants~
+A pair of blue pants lie here.~
+~
+9 0 33 0
+0 0 0 0
+2 1 400 0
+L 0
+E
+blue pants~
+A pair of well worn blue pants with a hole in one pocket
+~
+A
+17 -3
+#1608
+pitchfork~
+pitchfork~
+A vicious looking pitchfork lies here.~
+~
+5 0 8193 0
+0 2 6 11
+4 1100 1 0
+L 0
+E
+pitchfork~
+A strong, sturdy pitchfork that was once used for digging graves
+~
+A
+18 1
+#1609
+rag tattered~
+a tattered rag~
+A dirty tattered rag lies here.~
+~
+9 0 5 0
+0 0 0 0
+2 300 30 0
+L 0
+E
+tattered rag~
+a dirty, grimmy piece of cloth that is only good for rag
+~
+A
+17 -2
+A
+12 1
+#1610
+shield reflecting~
+a reflecting shield~
+A reflecting shield lies here.~
+~
+9 1 513 0
+0 0 0 0
+4 1700 170 0
+L 0
+E
+shield reflecting~
+A strong, strangly glazed shield that reflets light
+~
+A
+17 -3
+A
+19 1
+#1611
+gloves reflecting~
+reflecting gloves~
+A pair if reflecting gloves lie here.~
+~
+9 1 129 0
+0 0 0 0
+4 1800 180 0
+L 0
+E
+reflecting gloves~
+A pair of strangely clothed gloves that reflect the sun's rays
+~
+A
+17 -3
+A
+13 1
+#1612
+ring onyx~
+an onyx ring~
+An onyx ring lies here.~
+~
+9 0 3 0
+0 0 0 0
+11 1800 180 0
+L 0
+E
+onyx ring~
+A beautiful black ring that glows in the sunlight
+~
+A
+13 1
+A
+4 -1
+#1613
+cloak white~
+a white cloak~
+A  white cloak lies here.~
+~
+9 65664 5 0
+0 0 0 0
+1 1000 100 0
+L 0
+E
+white cloak~
+A white sheet of materical that would not keep you very warm
+~
+A
+17 -2
+A
+4 1
+#1614
+key caretakers~
+caretaker's key~
+A key belonging to the caretaker lies here.~
+~
+18 65550 1 0
+0 0 0 0
+1 1 1 0
+L 0
+E
+key caretakers~
+A large iron key that opens a wooden door
+~
+#1615
+key metal~
+metal key~
+A metal key lies here.~
+~
+18 65550 1 0
+0 0 0 0
+1 1 1 0
+L 0
+$~
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+9 0 5
+d8 2
+a9 1
+2 3000 300
+d18 1
+a18 2
+12 7
+L 0
+d24 1
+a24 1
+9 0 4097
+d26 2
+a27 1
+2 2800 50
+a36 1
+L 0
+d42 4
+a45 3
+5 1 8193
+0 3 5 11
+22 4500 320
+d53 1
+a53 2
+18 4
+L 0
+d59 1
+a59 1
+5 0 8193
+d61 3
+a63 2
+3 900 90
+E 
+a68 1
+L 0
+d74 1
+a74 1
+9 128 17
+d76 4
+a79 3
+2 700 30
+E 
+hat~ 
+a85 1
+L 0
+d91 1
+a91 1
+9 0 9
+d93 3
+a95 2
+1 500 50
+E 
+a100 1
+L 0
+d106 1
+a106 1
+9 0 33
+d108 3
+a110 2
+2 1 400
+E 
+a115 1
+L 0
+d121 1
+a121 1
+5 0 8193
+d123 3
+a125 2
+4 1100 1
+E 
+d130 1
+a130 2
+18 2
+L 0
+d136 1
+a136 1
+9 0 5
+d138 3
+a140 2
+2 300 30
+E 
+d147 1
+a147 2
+12 2
+L 0
+d153 1
+a153 1
+9 1 513
+d155 2
+a156 1
+4 1700 170
+a164 1
+L 0
+d170 1
+a170 1
+9 1 129
+d172 2
+a173 1
+4 1800 180
+a181 1
+L 0
+d187 1
+a187 1
+9 0 3
+d189 2
+a190 1
+3 1900 190
+d196 1
+a196 1
+13 5
+a198 1
+L 0
+d204 1
+a204 1
+9 65664 5
+d206 2
+a207 1
+1 1000 100
+a215 1
+L 0
+d221 1
+a221 1
+18 65550 1
+d223 2
+a224 1
+1 1 1
+a228 1
+L 0
+d234 1
+a234 1
+18 65550 1
+d236 1
+a236 1
+1 1 1
+a237 1
+#99999
+@
+

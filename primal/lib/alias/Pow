@@ -1,0 +1,65 @@
+xx rem jewel;rem vend;wear mask;wear suit
+x rem suit;rem mask;wear jewel;wear vend
+pis give pistol clone;give pistol 2.clone; order followers wield pistol
+k kill $1
+p order followers kil $1
+2 u;get all corpse; get all 2.corpse
+ppg2 order followers rem ppg; order followers drop ppg; get all.ppg
+ppg give ppg cl; give ppg 2.cl; order followers wield ppg
+mo rem mo; wear mo
+rp c 'remove poison' pow
+su spy up
+sd spy down
+z rem sword;wield cannon
+a rem cannon;wield sword
+fly c 'fly' pow
+se spy east
+ss spy south
+sn spy north
+sw spy west
+ho c 'advanced heal' $1
+sa c 'spirit armor'
+has c 'haste'
+arm c 'armor' $1
+wb c 'waterbreath'
+invs c 'invis' $1
+di c 'detect invis'
+inv c 'invis'
+gc get gold corpse
+sum c 'summon' $1
+lo c 'locate' $1
+dr c 'dragon'
+inf c 'infravision'
+cl c 'clone'
+ar c 'armor'
+gac get all corpse
+10e e;e;e;e;e;e;e;e;e;e
+ki kick
+wr c 'word'
+hl c 'heal' $1
+rc c 'remove curse' $1
+opp order 2.clone $1 $2
+fin c 'finger of death'
+kc kick clone
+aa rem dagger;wield quenched
+b5 e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;e;e;s;go portal;e;s;s;s;s;s;s;e;e;e;e;go shuttle;n;w;w;n;e;u;u;u;u;u;u;u;u;w;s;w;unlock door;open door;w;get all;e;e;n;e;u;u;u;u;w;n;n;n;unlock door;open door;e;e;get all;w;c 'word';n;n;n;n;e;go box;s;e;e;s;sell star
+op order followers $1 $2
+ref c 'refresh'
+te c 'teleport'
+q quaff healing
+wh c 'whirlwind'
+h c 'divine heal' pow
+id c 'identify' $1
+` c 'spirit armor' pow; c 'armor' pow; c 'divine protection' pow; c 'holy aid' pow
+dic c 'detect invis' clone;c 'detect invis' 2.clone
+sanc c 'sanctuary' clone;c 'sanctuary' 2.clone
+san c 'sanctuary' $1
+sl c 'sense life'
+dg c 'dimension gate' $1;open gate; go gate
+3 e;order followers kil driod
+nh c 'nohassle'
+fs c 'fireshield'
+gac2 get all 2.corpse
+f flee
+slc c 'sense' cl;c 'sense' 2.cl
+1 backstab crew

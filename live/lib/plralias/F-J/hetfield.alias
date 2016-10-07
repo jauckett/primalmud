@@ -1,0 +1,105 @@
+6
+tavern
+9
+goto 1112
+0
+8
+immortal
+9
+goto 1200
+0
+4
+heal
+37
+c 'divine heal' $*;c 'divine heal' $*
+1
+1
+b
+23
+battlecry $*;stand;head
+1
+4
+para
+11
+c 'para' $*
+1
+5
+tport
+12
+c 'teleport'
+0
+2
+dh
+18
+c 'divine heal' $*
+1
+2
+ck
+9
+c 'cloud'
+0
+6
+spells
+56
+c 'dragon' $*;c 'haste' $*;c 'fire wall' $*;c 'stone' $*
+1
+2
+id
+15
+c 'identify' $*
+1
+5
+train
+43
+train 100 hit;train 100 mana;train 100 move
+1
+8
+godbless
+52
+c 'divine prot' $*;c 'holy aid' $*;c 'spirit arm' $*
+1
+2
+cc
+14
+compost corpse
+0
+2
+ah
+14
+c 'advance' $*
+1
+6
+recall
+10
+c 'recall'
+0
+6
+locate
+13
+c 'locate' $*
+1
+7
+refresh
+14
+c 'refresh' $*
+1
+5
+aware
+45
+c 'sense' $*;c 'detect invis' $*;c 'infra' $*
+1
+7
+protect
+37
+c 'bless' $*;c 'armor' $*;c 'sanc' $*
+1
+2
+lc
+14
+look in corpse
+0
+3
+gac
+18
+get all all.corpse
+0

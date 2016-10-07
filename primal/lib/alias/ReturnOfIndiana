@@ -1,0 +1,10 @@
+wake wake;stand
+recall get recall backpack;recite recall
+gwb get white backpack
+grb get red backpack
+qw qu white
+qr qu red
+byw buy 10 white;put all.white backpack
+byr buy 10 red;put all.red backpack
+inf c 'infra' $*
+ba rem halberd;wield dagger;ba $*;rem dagger;wield halberd

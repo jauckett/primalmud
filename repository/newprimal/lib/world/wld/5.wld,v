@@ -1,0 +1,1159 @@
+head	1.6;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2004.03.17.23.28.32;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.02.19.03.41.54;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.10.13.13.18;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.14;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.38;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Artus> Sync.
+@
+text
+@#501
+Primal Street~
+Here runs a street paved in black slate.  With gold used to cover the joins
+between the slate.  The residents of this street use slippers as not to scratch
+or scar the gold or slate.  The houses that line the street are regal and well
+tendered.  This is a beautiful street to walk down.  To the south you see
+Southbank Road and to the east the street meanders through a manicured estate.
+~
+5 cd 0 0
+D1
+~
+~
+0 0 502
+D2
+~
+~
+0 -1 1101
+S
+#502
+Primal Street~
+Continuing along the street there are houses on either side.  The footpath is
+made of jade and is a nice contrast against the black and gold on the road.  
+The gardens of the houses are all tendered by gardners who labour over the
+minute details of every blade of grass.  To the west is Primal street and back
+to Southbank Road and to the east is venturing further along Primal Street.  
+
+~
+5 0 0 0
+D1
+~
+~
+0 -1 503
+D3
+~
+~
+0 0 501
+S
+#503
+Primal Street~
+The citizens that walk along this street are all finely dressed and are very
+aloof.  They tend not to look at others due to the fear of being robbed or
+mugged.  It is fine to live in such a wealthy area but is it worth the fear of
+losing everything due to one fiend like yourself?  The street continues north
+or you could go back west.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 504
+D1
+~
+~
+0 0 513
+D2
+~
+~
+0 0 512
+D3
+~
+~
+0 0 502
+S
+#504
+Primal Street~
+As you walked around the bend the street itself changed.  The footpath is no
+longer made of jade but has been made of stone.  The street is now made of tar.
+A sudden change to the people has taken place they are no longer aloof but
+instead are friendly and willing to help.  The houses are normal and the
+gardens are pretty but some are shabby and haven't been looked after for
+awhile.  Looks like you have walked into a normal street within the city of
+Haven.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 505
+D1
+~
+~
+0 0 514
+D2
+~
+~
+0 0 503
+D3
+~
+~
+0 0 515
+S
+#505
+Primal Street~
+Continuing along the street there is something "odd" about it.  If you look
+back over your shoulder or peer ahead you will notice that all the houses are
+the same colour.  The owners have made them all the same colour.  Every house
+is painted the same deep green.  The fences are all the same, if you look
+closer you will see that everything in this street is identical!    
+~
+5 0 0 0
+D0
+~
+~
+0 0 506
+D1
+~
+~
+0 0 518
+D2
+~
+~
+0 0 504
+D3
+~
+~
+0 0 519
+S
+#506
+Primal Street~
+Yes definately identical.  Even the people on the street are all dressed the
+same it could be very confusing.  How would you know which house was yours?  
+All the houses are built by the same builder and obviously that builder didn't
+have a different plan of house in his mind.  The houses have the same frontage,
+the same fences, plants, doors, windows Basically everything is identical!    
+~
+5 0 0 0
+D0
+~
+~
+0 -1 520
+D1
+~
+~
+0 0 521
+D2
+Haven Main Street.
+~
+~
+0 -1 505
+D3
+~
+~
+0 0 507
+S
+#507
+Primal Street~
+Turning the bend in the road you come across the same street but once again it
+has changed.  The street itself is no longer made of slate or tar but is a dirt
+track that leads through a very bushy environment.  There are trees everywhere
+it is hard to see the houses through the bush.  When you do glimpse a house you
+notice that they are made of wood, which isn't suprising as there is a huge
+amount of trees all around you.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 529
+D1
+~
+~
+0 0 506
+D2
+~
+~
+0 0 531
+D3
+~
+~
+0 -1 508
+S
+#508
+Primal Street~
+Walking along the street is more like walking through a forest and following a
+forest trail If you were a bushman you wouldn't have a problem finding your way
+around.  Your sense of tracking or hunting would be put to good use.  There are
+little tracks all over the place so you had better becareful not to loose
+yourself in here.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 533
+D1
+~
+~
+0 0 507
+D2
+~
+~
+0 0 509
+D3
+~
+~
+0 0 535
+S
+#509
+Primal Street~
+Walking around a bend in the track and you find yourself back on a tar road and
+what looks like a normal street.  The people wandering around are all happy and
+able to assist you if you ask.  To the west is a wooden fence with a small gate
+in it.  To the south the street continues along.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 508
+D1
+~
+~
+0 0 541
+D2
+~
+~
+0 0 510
+D3
+~
+~
+0 -1 537
+S
+#510
+Primal Street~
+Here the street narrows somewhat and turns into a country lane.  You're not
+quite sure what it is with this street, it keeps changing, and just when you
+think you know where its at, they move it.  You can go north back along the
+pavement or follow the new lane south to...  Well, who knows what will be
+there, you will have to go there and find out.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 509
+D1
+~
+~
+0 0 543
+D2
+~
+~
+0 0 511
+D3
+~
+~
+0 0 542
+S
+#511
+Primal Street~
+Here is the end of Primal street, it joins with the Estate Drive in a one way
+lane.  The paving of the street has blended back to match that of the normal
+citizens of haven.  The citizens in this estate don't mix with the citizens of
+the other.  Maybe because they were put here to help train those who venture
+through Primal Estate.    
+~
+5 c 0 0
+D0
+~
+~
+0 0 510
+D1
+~
+~
+0 0 545
+D2
+~
+~
+0 0 200
+D3
+~
+~
+0 0 544
+S
+#512
+Entering into a House.~
+Walking through the garden gate you walk past the front yard.  It is well
+looked after and the people who own the house have a lovely row of roses on
+either side of the path.  The front door is to the south or you can go back
+north to the road.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 503
+D2
+~
+~
+0 0 516
+S
+#513
+Entering into a House.~
+Walking through the garden gate you walk past the front yard.  It is well
+looked after and the people who own the house have a lovely row of roses on
+either side of the path.  The front door is to the east or you can go back west
+to the road.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 522
+D3
+~
+~
+0 0 503
+S
+#514
+Entering into a House~
+Walking through the garden gate you walk past the front yard.  It is well
+looked after and the people who own the house have a lovely row of roses on
+either side of the path.  The front door is to the east or you can go back west
+to the road.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 523
+D3
+~
+~
+0 0 504
+S
+#515
+Entering into a House.~
+Walking through the garden gate you walk past the front yard.  It is well
+looked after and the people who own the house have a lovely row of roses on
+either side of the path.  The front door is to the west or you can go back east
+to the road.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 504
+D3
+~
+~
+0 0 524
+S
+#516
+Standing inside the House.~
+After walking through the front door you have entered a normal looking house.
+The lounge room is tastefully decorated in furniture and there is a stair case
+just beside you.    
+~
+5 c 0 0
+D0
+~
+~
+0 0 512
+D4
+~
+~
+0 0 517
+S
+#517
+At the top of the Stairs.~
+After climbing the stairs you are faced with a short hallway with only one door
+leading off it.  The master bedroom is behind that door.  So go to the master
+bedroom or go back down to the lounge room.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 11900
+D5
+~
+~
+0 0 516
+S
+#518
+Entering into a House~
+Walking through the garden gate you walk past the front yard.  It is well
+looked after and the people who own the house have a lovely row of roses on
+either side of the path.  The front door is to the east or you can go back west
+to the road.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 525
+D3
+~
+~
+0 0 505
+S
+#519
+Entering into a House~
+Walking through the garden gate you walk past the front yard.  It is well
+looked after and the people who own the house have a lovely row of roses on
+either side of the path.  The front door is to the west or you can go back east
+to the road.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 505
+D3
+~
+~
+0 0 526
+S
+#520
+Entering into a House~
+Walking through the garden gate you walk past the front yard.  It is well
+looked after and the people who own the house have a lovely row of roses on
+either side of the path.  The front door is to the north or you can go back
+south to the road.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 528
+D2
+~
+~
+0 0 506
+S
+#521
+Entering into a House~
+Walking through the garden gate you walk past the front yard.  It is well
+looked after and the people who own the house have a lovely row of roses on
+either side of the path.  The front door is to the east or you can go back west
+to the road.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 527
+D3
+~
+~
+0 0 506
+S
+#522
+The House of the Graveyard.~
+The Graveyard was built by Cassandra and designed for Level 0 to 10 players.  
+In the Graveyard you can fight such mobs as Ghosts, Ghasts, Skeletons, Your own
+shadow, owls, spiders, snakes, cats, rats, corpses, the caretaker and Solar.  
+To get to the Graveyard you have to go out the east gate and along Selva Road
+and turn south on the dirt path.  For the speedwalk type look speed or l speed.
+  
+~
+5 0 0 0
+D3
+~
+~
+0 0 513
+E
+speedwalk~
+s;e;e;e;e;open gate;e;e;e;e;e;s
+Then continue south till you find the graveyard.
+~
+S
+#523
+The House in the Future.~
+If you go to the travellers guild and go through the portal in there.  You will
+find yourself in Luna City of the Future.  This zone was built for Level 0 to
+20 and has some great equipment to be used and has some interesting mobs to
+fight against.  There are maps in the zone and there are drug dealers who can
+supply you with drugs to cure your ailments.  In here you will find Citizens,
+Alien Visitors, droids and L.  A.  W droids that will give you plenty of
+opposition in your quest to level.  Some of the objects you can use are garbage
+can lids as shields and garbage cans as bags.  For a speed walk to the zone
+type look speedwalk or l speed
+~
+5 0 0 0
+D3
+~
+~
+0 0 514
+E
+speedwalk~
+n;n;e;e;s;go port;e
+Then from there investigate the Zone.
+To get back to haven find the VR Arcade and go box!
+~
+S
+#524
+The Moat House!~
+The moat house was built by John and designed for level 0 to 10 players.  The
+mobs you are likely to encounter in the zone are frogs, spiders, snakes, the
+brigands and their leader, giant rats and lizards, zombies, ogres.  The ogres
+have a ring that will increase the strength of any mortal player that wears it.
+This zone is great for those starting out and wanting to fight and not have far
+to run back home if they are hurt seriously.  The only thing you have to
+remember in this zone is take a lantern as it gets real dark in there!  For the
+speedwalk to this zone look speedwalk or l speed.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 515
+E
+speedwalk~
+n;n;e;e;e;e;e;e
+Then follow the path to the moat house
+or visit the frog pond!
+~
+S
+#525
+The House from the Past.~
+The zone of the wild wild west has been built by Ruprect and is designed from
+Level 0 to 70.  Once you have entered Westworld via the Magical Stage Coach you
+will discover several zones all interlinked from the main one being The City of
+Hope.  When entering in to the town make sure you introduce yourself to Uncle
+Jimmy who has some interesting items for sale.  The only warning to give in
+this world is don't fight infront of the sherriff he loves putting people into
+jail!  When visiting this zone you can fight cowboys, gun slingers, drunks,
+whores, donkeys, horses, snakes, ghosts and the military once you are tough
+enough.  Some say there are indians down there too but i think they have moved
+on to their own reservation miles away from the town.  For the speedwalk to
+this zone look speed or l speed.    
+~
+5 0 0 0
+D3
+~
+~
+0 0 518
+E
+Speedwalk~
+n;n;w;w;w;s;go stage
+This will put you at the recall point for westworld
+If you go east from there all they way you can,
+then go the wagon there you will return to Gamina and Haven.
+~
+S
+#526
+The Selva Road House~
+If you travel out the East Gate on Regiment Road you will find yourself on the
+path to the graveyard and also on Selva Road.  Selva Road has old warriors,
+boars and wild cats to go try your hand against.  If you are able to
+successfully kill an old warrior you will be justly rewarded when it comes to
+the exp that the warrior gives but be warned you are in for a long fight
+against this vetran warrior.  To get the speedwalk, look speedwalk or l spe
+~
+5 0 0 0
+D1
+~
+~
+0 0 519
+E
+speedwalk~
+s;e;e;e;e;open gate;e
+Then travel along east and you are on
+Selva Road from the Gate.
+~
+S
+#527
+The Labyrinth~
+The Labyrinth is a zone built for Level 5 to 100 This zone has been built based
+on the movie of the same name and was created by Sandii.  When venturing into
+the labyrinth it would be a good thing to make sure you know how to use the
+look command and use it very often as there are mazes there that can be
+travelled through but only if you know how.  The mobs you will encounter in
+this zone are Gremlins, Owls, Fairies, Eyes, Worms, Sand Hands, Monkeys, Goblin
+Warriors, Door Knockers, Helping Hands, Sir Didimus, Ambroshus, Bog Men, Party
+goers, Rubbish ladies and a huge evil metallic goblin warrior.  There is lots
+of good equipment that has been designed to help you throughout the game.  For
+a speedwalk to this zone look speedwalk or l speed in this room.    
+~
+5 0 0 0
+D3
+~
+~
+0 0 521
+E
+Speedwalk~
+n;n;w;w;w;n;e;e;s;s;u;n
+~
+S
+#528
+Darask via Pomarj Road and Darask Road.~
+As you travel west from Haven you will find yourself in various different zones
+as you go or take slight detours by reading the stumps and you can find
+yourself in a world of different zones.  When travelling along Pomarj Road you
+will find yourself out in the wilderness where you can fight hill giants, yeti,
+stirges and orcs.  Moving along you will find yourself in the Mountains where
+you can take on Mountain lions, Trolls, Orcs gypsies.  Take a short detour to
+Lankwood Forest and you can find Elves and High Elves living within the Forest.
+Then continue along the road for a rather long time and you come
+to the edge of the desert or north to the city of Darask.
+~
+5 0 0 0
+D2
+~
+~
+0 0 520
+E
+speedwalk~
+s;w;w;w;w;w
+And continue walking and exploring.
+Not the zones listed here are from Level 10 onwards.
+~
+S
+#529
+Entering into a Hut~
+As you leave the path you walk on a smaller path that leads you directly into a
+small wooden hut like you would find deep within a forest.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 530
+D2
+~
+~
+0 0 507
+S
+#530
+The hut of the Haven Sewers~
+If you find yourself in the need to play around in the wastes of
+the fine city of Haven. Then go play down in the Haven sewers!
+Down there you will find rats rats and more rats to keep you
+fairly occupied!
+~
+5 0 0 0
+D2
+~
+~
+0 0 529
+S
+#531
+Entering into a Wooden Hut~
+As you leave the path and wander south you find yourself walking right into
+someone's hut that has been built in amongst the trees.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 507
+D2
+~
+~
+0 0 532
+S
+#532
+Fairytale Forest hut~
+Once you have explored Toyheim and can conquer the clockwork knights You may
+like to try your hand in the Fairytale Forest.  This zone was built by Ruprect
+and was designed for Levels 20 to 30.  In this zone you will find wonderful
+mobs like Willy Wonka, Oompa Loompa's, Billy Goats, Rupunzel, Cinderella,
+Prince Charming, Seven Dwarfs, Sleeping Beauty, Toto, Dorothy, The Lion, Puff
+the magic Dragon..  Just to name a few.  This zone is fantastic for those who
+like to explore and discover new and exciting things.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 531
+S
+#533
+Entering into a wooden hut~
+Wandering off the path you find you have walked into a hut.  The hut is a
+strange looking place and has one room at the back of it.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 534
+D2
+~
+~
+0 0 508
+S
+#534
+A hut hovering in the Future.~
+Once entering this back room you discover you have been moved to the future
+again.  In this hut you are visiting the zone of Mos Eisley Starport.  This
+zone is great for the high teens if you can be quick with the heals.  You will
+be able to get satisfaction on the Stormtroopers as they are everywhere within
+the zone.  Their gear is good to wear.  So go to future world and find
+Spaceport no 5 board the Millenium Falcon and take the trip to the Starport and
+have fun!    
+~
+5 0 0 0
+D2
+~
+~
+0 0 533
+S
+#535
+Walking into the wooden hut.~
+As you leave the path and travel west you find you walk into another wooden
+hut.  This hut has another room at the back.  Funny how all the huts are really
+identical!    
+~
+5 0 0 0
+D1
+~
+~
+0 0 508
+D3
+~
+~
+0 0 536
+S
+#536
+Catching the Pirate Ship to the Island.~
+Here are two zones built by John and Cass and both complement one another
+nicely.  Firstly go to the Haven Warf and catch the Pirate ship when it docks.
+Whilst travelling across the sea to the Island feel free to tackle the pirates
+that are running the ship.  Once the ship docks on the other side you can
+explore the Island and find lots of interesting tough mobs to test your skills
+and abilities as a player.  Both these zones are designed for level 30 to 40
+players and both are Pkill zones.  SO watch your back!    
+~
+5 0 0 0
+D1
+~
+~
+0 0 535
+S
+#537
+Through the gate in the fence.~
+After walking through the gate you are in an open field.  Here you can see
+various castle and houses all dotted around one another.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 538
+D1
+~
+~
+0 0 509
+D2
+~
+~
+0 0 539
+D3
+~
+~
+0 0 540
+S
+#538
+Inside the Crystal Castle.~
+This zone was built by Freako and was designed around level 25 to 40.  Just
+before the long hall up to Darask you can continue west into the desert and
+find yourself down at the Castle.  Inside you will find the servents, knights,
+chef, monk, bishop, jester, dragon, sentry, rogue and don't forget the Crystal
+King.  If you are extremely lucky and can find the kings hidden treasure you
+will find this zone rewarding and pleasurable to play in.    
+~
+5 0 0 0
+D2
+~
+~
+0 0 537
+S
+#539
+Back to Camelot and the Knights~
+Once you have finished exploring the Crystal Castle you may want to try
+exploring Camelot.  This zone was built by Backspace and was designed for
+Levels 25 to 40.  In the zone you will find all the Knights of the Round table,
+The King, The Queen and even Merlin if you look hard enough.    
+~
+5 0 0 0
+D0
+~
+~
+0 0 537
+S
+#540
+Entering Shadow Keep~
+Shadow Keep was built by Gabe and designed for Levels 30 to 50.  If you find
+yourself wandering south of Haven and then venturing through the plains till
+you find yourself infront of the keep.  Once you have managed to get inside
+you' will find very interesting mobs to take on like the Shadowen: Cleric,
+Mage, Warrior, Thief and dragon also the great Vashnaka Statue, keep servants,
+night crawlers, disembodied people, ghosts and the armorer to name a few.  The
+equipment down there is worth the fight.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 537
+S
+#541
+The Tunnel and The Spiral~
+Both these zones were built by Cassandra and if you go exploring the Tunnel at
+Level 35+ you may find yourself sucked down The Spiral which is for Level 50+.
+Some mobs you will find in the Tunnel are the cavemen, cave moray, annis,
+boring beetles, devourer and Lurker just to name a few.  The mobs in the Spiral
+are rather impressive and you will come across the Royalty of the Trakkers,
+Driders and Troglodytes but to get to them you will have to fight hard through
+many more mobs.  The equipment down the spiral is fantastic if you have decided
+to become Evil Alignment and the money is reasonable as well.  Some say this is
+Cass's finest work yet.    
+~
+5 0 0 0
+D3
+~
+~
+0 0 509
+S
+#542
+Ancient Greece or Scorpion Swamp~
+By this stage you will be level 60 onwards and you can explore another one of
+Ruprect's zones in Ancient Greece.  Here you will find all your usual Ancient
+Greek Mythology Characters like Zues, Satyrs, Nymphs, Poisedon, the Trojan's
+and the City of Troy.  The other zone for this level is one written by Luna
+called the Scorpion Swamp where you will meet Giants and animals galore.  
+There take the challenge on the Challenging stairs and if you succeed the
+rewards are great!    
+~
+5 0 0 0
+D1
+~
+~
+0 0 510
+S
+#543
+The Odd House and Island Forever.~
+Now here are two reasonably new zones that have been built by Sandii and
+Talisman respectively.  Both zones are designed for Level 70 onwards but the
+rumour has it Island Forever isn't possible till around 80.  The odd house is
+very odd indeed and Sandii's first attempt at building was rather bizarre but
+it works (somehow!  ).  In the house and in the backyard you get to kill things
+like cats, paper mites, killer tomatoes, mutant zucchini's, bees, chickens
+ferrets just to name a few.  The eq in this zone isn't bad either for the high
+level players.  Island Forever is a huge maze and takes some working out but
+without this zone you won't champ.  Take on the monsterious Mages, Power lichs,
+Enchanters, Gargoyles, Fighters, Knights, Warlords, Dogs, Thieves just to name
+a few.    
+~
+5 0 0 0
+D3
+~
+~
+0 0 510
+S
+#544
+The world in the Future.~
+Now after going through and finding out the different combinations of the zones
+on offer.  There are more zones in Future world that need mentioning.  So if
+you are feeling adventerous try your hand at the following: Angel Grove:
+written by Boz and designed for level 25+.  Mobs are Citizens, Poodles,
+Puddies, head master, teachers, students and fish just to name a few.  Lost
+Valley: also written by Boz and designed for Level 45+.  Mobs are from the
+Jerasic Period and offer interesting competition.  Babylon 5: written by
+Moridin and designed for Level 75+.  If you are aware of the series then you
+will know exactly who you will be fighting.  The Sphere: written by Cassandra
+and designed for Level 70+.  This is based on the movie so if you are aware of
+that you will know the mobs you will encounter too.    
+~
+5 0 0 0
+D1
+~
+~
+0 0 511
+S
+#545
+The world in the Past.~
+You are in an unfinished room.  So there are zones unmentioned that belong to
+Westworld that are good value to play in their respective levels.  They are as
+follows: Blue Creek, Whore House, The Saloon all written by Ruprect and
+designed from level 0 to 20.  Rockridge: written by Ruprect and designed for
+Level 25+.  The last zone to be mentioned in here Fort Hope: written by TSD and
+designed for Level 35+.  All the zones mentioned here have the western theme
+and are interesting to explore and get yourself lost in.  You will be suprised
+at just how large Westworld is and it can take days to explore every part of
+it.    
+~
+5 0 0 0
+D3
+~
+~
+0 0 511
+S
+$~
+@
+
+
+1.5
+log
+@Artus> Sync These.
+@
+text
+@d345 1
+a345 1
+After walking through the front door you have entered a normal looking house
+@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@d365 1
+a365 1
+5 r 0 0
+@
+
+
+1.3
+log
+@Latest Versions
+@
+text
+@d590 2
+a591 5
+Then take a quick stop for refreshments at Werith's Wayhouse before moving
+along to the city of Darask and up the Bean Stalk to Toyheim.  In Toyheim you
+can take on the G.  I Joe's, Clockwork Knights and even the evil Chucky doll.
+For the beginning of the speedwalk from the recall point look speedwalk or l
+speed.    
+d621 5
+a625 9
+The hut of Ersheep Road~
+If you find your desire is to go slay some evil looking enfan's then Ersheep
+road is for you.  The zone was designed by Gabe and built for players level 10
+to 20.  In this zone if you go crazy slaying all the different coloured enfan's
+you will find you have a quick lesson in your alignment and the equipment that
+may be sensitive to alignments.  There is some good equipment to be found in
+this zone and some interesting hidden parts to the zone.  Your common mob
+within the zone is enfans, enfans and more enfans.  You may be lucky to find a
+dog and caterpillars but you would have to look hard for them.    
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d105 4
+d113 4
+d130 5
+a134 1
+0 -1 -1
+d155 4
+d163 4
+d181 4
+d193 4
+d210 4
+d221 1
+a221 1
+0 -1 -1
+d236 4
+d244 4
+d262 4
+d270 4
+d300 4
+d317 4
+d338 4
+d344 1
+a344 1
+In the House.~
+d360 1
+a360 1
+Walking along the hallway.~
+d365 1
+a365 1
+5 0 0 0
+d374 518
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d2 6
+a7 7
+Main Reception Area~
+This is the main reception area of the PrimalMUD vacation
+resort. You have just stepped off a sky shuttle and now
+you are feeling excited about your holiday here.
+There are three different worlds to visit, all for your enjoyment.
+WESTWORLD, FUTUREWORLD and MEDIEVALWORLD.
+So enjoy your stay and come back soon.
+d9 5
+a13 1
+0 152 0
+d15 15
+a29 1
+The corridor leads towards many adventures and thrills
+d33 4
+d38 7
+a44 5
+#502
+Westworld departure lounge~
+You are in the Westworld departure lounge. Several authentic looking
+stagecoaches to the west are waiting to take people to Westworld. 
+A few guests are sitting in armchairs waiting impatiently. 
+d46 1
+a46 1
+0 184 0
+d50 1
+a50 1
+0 -1 13291
+d54 9
+a62 1
+0 -1 503
+d64 9
+a72 5
+#503
+Central departure lounge~
+You are standing at the entrances to the three departure
+lounges. To the south Medievalworld, west Westworld,east 
+Futureworld. North leads back up to the reception area.
+d74 1
+a74 1
+0 152 0
+d78 1
+a78 1
+0 -1 501
+d82 1
+a82 1
+0 -1 505
+d86 1
+a86 1
+0 -1 506
+d90 1
+a90 1
+0 -1 501
+d93 6
+a98 4
+Futureworld departure lounge~
+You are standing in the Futureworld departure lounge. To the east
+is a ramp leading up to a sky shuttle. People are waiting around
+anxiously to board.
+d100 2
+a101 3
+0 184 0
+D1
+Shuttle Pad 1
+d104 2
+a105 2
+0 -1 22031 
+D3
+d108 1
+a108 1
+0 -1 504
+d111 6
+a116 6
+Medievalworld departure lounge~
+You are standing in the Medievalworld departure lounge. Several
+authentic looking chariots are waiting to take guests to the
+Medievalworld resort. People are waiting around anxiously to
+get onto those chariots. You can board one of the chariots to
+the south to take you to Medievalworld.
+d118 1
+a118 1
+0 152 0
+d122 1
+a122 1
+0 -1 504
+d127 5
+a131 1
+0 -1 15 
+d134 7
+a140 5
+Riding a chariot~
+You ride the chariot through the desert to Medievalworld. You
+arrive at the fair city of Haven. Now you must leave the chariot
+at begin your stay in Medievalworld. You can step off the chariot
+to the west.
+d142 5
+a146 1
+0 184 0
+d150 1
+a150 1
+0 -1 15
+d153 31
+a183 5
+Riding a stagecoach~
+You ride the stagecoach through the desert to Westworld. You
+arrive at the small wild west town. Now you must leave the stagecoach
+to begin your stay in Westworld. You can step off the stagecoach
+to the west.
+d185 1
+a185 1
+0 184 0
+d189 1
+a189 1
+0 -1 13010
+d191 72
+a262 6
+#509
+Aboard a sky shuttle~
+You travel on the sky shuttle across the land through to 
+Futureworld. You arrive at the spaceport. Now you must disembark
+to begin your stay in Futureworld. You can walk down the ramp
+to the west.
+d264 1
+a264 1
+0 184 0
+d268 46
+a313 1
+0 -1 15
+@
+

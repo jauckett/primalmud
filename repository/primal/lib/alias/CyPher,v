@@ -1,0 +1,52 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@x wield $*; hold lights; wear all; put all backpack; get skin backpack
+t track $*
+z get all.gold corpse; look in corpse
+zz get all corpse
+qp quaff potion
+cf c 'create food'; eat mushroom
+di c 'detect invisibility' $*
+dw drink water skin
+kk kick $*
+cl c 'cure light' $*
+cc c 'cure critical' $*
+rs recite scroll 
+mm c 'magic missile' $*
+rr get recall backpack; recite recall
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

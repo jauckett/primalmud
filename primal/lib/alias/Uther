@@ -1,0 +1,92 @@
+die die;die;die
+wake wake;stand
+bs g trident force;rem pulse;wi trident;backstab$*;rem trident;wi pulse;p trident force
+quitreally save;g all.potion force;drop all.potion;quitreally
+q g$* force;quaff$*;p$* force
+eat g$* force;eat$*;p$* force
+drink g$* force;drink$*;p$* force
+dispg cast 'dispel good'$*
+unijew rem mask;rem suit;wear uni;wear jewel;put mask forc;put suit in forc
+masksuit rem uni;rem jewel;get mask forc;get suit forc;wear suit;wear mask
+jcorpse get corpse;junk corpse
+curs cast 'curse'$*
+slay get silver force;rem pulse;wi silver;slay$*;rem silver;wi pulse;p silver force
+stake get stake force;rem pulse;wi stake;stake$*;rem stake;wi pulse;p stake force
+quitreall quit
+quitreal quit
+quitrea quit
+quitre quit
+corpse g all $*corpse
+whirl cast 'whirlwind'
+poofout poofout makes a shrill whistle sound with his tounge and his war horse runs in seemingly from nowhere.  He then mounts his mighty steed and rides off towards the horizon.
+ss cast 'serpent skin'$*
+armor cast 'armor'$*
+wb cast 'waterbreathe'
+curecrit cast 'cure critical'$*
+curel cast 'cure light'$*
+heal cast 'heal'$*
+aheal cast 'advanced heal'$*
+gheal cast 'group heal'
+pe cast 'protection from evil'$*
+harm cast 'harm'$*
+ed cast 'energy drain'$*
+recall cast 'word of recall'
+sl cast 'sense life'$*
+ew cast 'enchant weapon'$*
+da cast 'detect alignment'$*
+de cast 'dispel evil'$*
+str cast 'strength'$*
+teleport cast 'teleport'
+rp cast 'remove poison'$*
+pb cast 'plasma blast'$*
+bless cast 'bless'$*
+cb cast 'cure blind'$*
+rc cast 'remove curse'$*
+para cast 'paralyze'$*
+ah cast 'advanced heal'$*
+gh cast 'group heal'
+gsanc cast 'group sanctuary'
+dg cast 'dimension gate'$*;open gate;go gate;stand
+infra cast 'infravision' $*
+dinvis cast 'detect invisibility' $*
+invis cast 'invisibility' $*
+charm cast 'charm person' $*
+sanc cast 'sanctuary' $*
+sum cast 'summon' $*
+burn cast 'burning hands' $*
+chill cast 'chill touch' $*
+shock cast 'shocking grasp' $*
+slep cast 'sleep' $*
+ref cast 'refresh' $*
+fly cast 'fly'$*
+lb cast 'lightning bolt'$*
+clone cast 'clone'$*
+cf cast 'create food'
+cw cast 'create water'$*
+ms cast 'meteor swarm'
+dm cast 'detect magic'
+fod cast 'finger of death'$*
+locate cast 'locate object'$*
+of order followers$*
+ga cast 'group armor'
+dragon cast 'dragon'$*
+garmor cast 'group armor'
+cweath cast 'control weather'
+fb cast 'fireball'$*
+wt cast 'wraith touch'$*
+ww cast 'waterwalk'$*
+blind cast 'blind'$*
+missile cast 'magic missile'$*
+ck cast 'cloud kill'
+poofin poofin rides in on his war horse and dismounts.  He then gives the war horse a sign and it runs off towards the horizon.
+grat grats O======|::::::::::::::::>$* <::::::::::::::::|======O
+gcorpse g all.gold $*corpse
+haste cast 'haste'$*
+ha cast 'holy aid'$*
+ad cast 'animate dead'$*corpse
+id cast 'identify'$*
+ls cast 'lightning shield'$*
+dp cast 'divine protection'$*
+sa cast 'spirit armor'$*
+kclone group all;ungroup;of die;die
+quitr quit

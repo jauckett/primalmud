@@ -1,0 +1,3031 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.12.26.00.07.03;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.30;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> Keeping the repository up-to-date. This is the groundwork for the
+       release.
+@
+text
+@#2101
+A narrow path~
+   You are on an thickly overgrown narrow trail heading into the forest.  The
+forest to the North and South is impasable, forcing you to the East.  You can
+head back East to Gambol Road or continue further into the forest to the West.
+  
+~
+21 0 3 0
+D1
+You see the intersection of Ershteep and Gambol Road&n
+~
+~
+0 -1 1175
+D3
+~
+~
+0 0 2102
+S
+#2102
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the North and South is impasable, forcing you to take the path to
+the East.  You can head East out of the forest or continue further into the
+forest to the West
+~
+21 c 3 0
+D1
+~
+~
+0 0 2101
+D3
+~
+~
+0 0 2103
+S
+#2103
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the North and South is impasable, forcing you to take the path to
+the East.  You can head East or West along the path.    
+~
+21 0 3 0
+D1
+~
+~
+0 0 2102
+D3
+A trail through the forest.
+~
+~
+0 -1 2104
+S
+#2104
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the North and East is impasable, forcing you to take the path to
+the South.  You can head South deeper into the forest, or East along the path
+from where you en
+~
+21 d 0 0
+D1
+~
+~
+0 0 2103
+D2
+~
+~
+0 0 2105
+E
+painting picture~
+   A wonderfully crafted oil which depicts a scene outside a
+jewellers in a busy city street.
+~
+E
+lock grate~
+   A lock made of a fine metal seems to be locking the grate in
+place.
+~
+E
+fireplace~
+   It looks like an ordinary fireplace but then a lock on the
+grate catches your eye. You have a distinct feeling they key is
+not here!
+~
+S
+#2105
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the East and West is impasable, forcing you to take the path to
+the South.  You can head South deeper into the forest, or North along the path
+from where you en
+~
+21 0 3 0
+D0
+~
+~
+0 0 2104
+D2
+~
+~
+0 0 2106
+S
+#2106
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the East and West is impasable, forcing you to take the path to
+the South.  You can head South deeper into the forest, or North along the path
+from where you en
+~
+21 0 3 0
+D0
+More trail
+~
+~
+0 -1 2105
+D2
+~
+~
+0 0 2107
+S
+#2107
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the South and West is impasable, forcing you to take the path to
+the East.  You can head East deeper into the forest, or North along the path
+from where you ent
+~
+21 0 5 0
+D0
+~
+~
+0 0 2106
+D1
+~
+~
+0 0 2108
+S
+#2108
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the South and West is impasable, forcing you to take the path to
+the East.  You can head deeper East or head back out to the West.    
+~
+21 p 5 0
+D1
+~
+~
+0 0 2109
+D3
+A field
+~
+~
+0 -1 2107
+S
+#2109
+A narrow path~
+   You are above the entrance to a huge bullant nest!  Judging by the sheer
+size of the entrance you think this used to be a wombat burrow.  The forest to
+the North and South is impasable, forcing you to take the path to the East.  
+You can head South deepe
+~
+21 0 3 0
+D2
+~
+~
+0 0 2110
+D3
+~
+~
+0 0 2108
+D5
+~
+~
+0 0 2134
+S
+T 2113
+#2110
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the East and West is impasable, forcing you to take the path to
+the South.  You can head South deeper into the forest, or back out to the
+North.    
+~
+21 p 3 0
+D0
+A road
+~
+~
+0 -1 2109
+D2
+A road
+~
+~
+0 -1 2111
+S
+#2111
+End of a narrow path~
+   You are in an open grassy area deep in the forest, surrounded by vastly
+overgrown fauna.  The forest to the South, East and West is impassable.  A HUGE
+tree stands to the East, towering over the forest around you.  You can either
+head back out of the forest to the North, or try to find a way up this HUGE
+tree before you.    
+~
+21 p 3 0
+D0
+The city.
+~
+~
+0 -1 2110
+D1
+~
+entrance~
+1 0 2112
+E
+moat~
+You look into the murky water below you and surmise that
+jumping in there would not be a wise thing to do. A number of
+rather heavy objects seem to be floating on the surface!
+~
+S
+#2112
+Inside the tree~
+   You are inside the huge tree which has been carefully carved out to allow
+movement inside.  The core of the tree remains intact keeping it alive.  The
+solid wooden door to the East keeps this place secure when required, and keeps
+in the heat in winter.  There is a spiral staircase leading up to another level
+inside the tree.    
+~
+21 cd 0 0
+D3
+~
+exit~
+1 0 2111
+D4
+~
+~
+0 0 2119
+E
+door~
+A narrow wooden door with a rusted keyhole.
+~
+S
+#2113
+Entertainment foyer~
+   You have entered the entertainment foyer of the tree.  Card and board games
+are only the start of the selection of activities available.  A mini cinema
+lies to the East while a general store lies to the West.  The spiral staircase
+continues upwards to yet another level, and back down to the foyer
+~
+21 d 0 0
+D1
+The city gates
+~
+~
+0 -1 2114
+D3
+~
+~
+0 0 2115
+D4
+~
+~
+0 0 2116
+D5
+~
+~
+0 0 2119
+S
+#2114
+Tree cinema~
+   You are inside a hollowed out branch in the tree that has been converted
+into a mini cinema for the locals.  There is enough room for 10 persons to sit
+here comfortably without blocking eachothers view.  Why don't you stay for a
+movie!    
+~
+21 d 0 0
+D3
+~
+~
+0 0 2113
+S
+#2115
+General store~
+   You are in the general store of the tree city, where a number of items area
+available for purchase.    
+~
+21 d 0 0
+D1
+~
+~
+0 0 2113
+S
+#2116
+Below the sleeping quarters~
+   You are on the spiral staircase leading upto the sleeping quarters of the
+tree.    
+~
+21 d 0 0
+D4
+~
+~
+0 0 2117
+D5
+~
+~
+0 0 2113
+E
+door~
+A narrow wooden door with a rusted keyhole.
+~
+S
+#2117
+Outside the Sleeping quarters~
+   You are outside the sleeping quarters of the tree.  There are three doors,
+one to the North, one to the East and one to the West.    
+~
+21 d 0 0
+D0
+~
+Door2~
+1 0 2129
+D1
+~
+Door3~
+1 0 2130
+D3
+~
+Door1~
+1 0 2128
+D5
+~
+~
+0 0 2116
+S
+T 2107
+#2118
+Inside the tree~
+   You are inside this huge tree in the middle of the forest.  It has been
+carved out enough to be able to move about freely inside, yet without killing
+the tree.  The centre core of the tree remains intact, allowing it to survive.
+You are able to exit the tree to the North or venture upwards and explore.    
+~
+21 0 0 0
+D0
+~
+Entrance~
+1 0 2117
+D4
+~
+~
+0 0 2119
+S
+#2119
+Tree foyer~
+   You are inside this huge tree in the middle of the forest.  It has been
+carved out enough to be able to move about freely inside, yet without killing
+the tree.  The centre core of the tree remains intact, allowing it to survive.
+This is the junction for access to the eating area for the inhabitants of the
+tree.  A small bar is here to the West and a kitchen is to the North.  To the
+East lies a wooden door leading outside.  The spiral staircase continues
+upwards to yet another level inside the tree.    
+~
+21 0 0 0
+D0
+~
+~
+0 0 2123
+D1
+~
+Door~
+1 0 2120
+D3
+~
+~
+0 0 2122
+D4
+~
+~
+0 0 2113
+D5
+~
+~
+0 0 2112
+S
+T 2112
+#2120
+On a huge branch~
+   You are out on one of the many huge branches of this tree overlooking the
+forest beneath.  You could sit here and enjoy the serenity.    
+~
+21 y 3 0
+D1
+Road
+~
+~
+0 -1 2121
+D3
+Entrance into the tree
+~
+Door~
+1 -1 2119
+S
+T 2111
+#2121
+On a huge branch~
+   You are further out on the huge branch of the tree, overlooking the forest
+beneath.  You could sit here and enjoy the serenity.    
+~
+21 y 3 0
+D1
+~
+~
+0 0 2124
+D3
+Road
+~
+~
+0 -1 2120
+S
+#2122
+The treebar~
+   Carved into a large branch this bar is quite amazing.  Lined with wooden
+panels and a wooden top, you'd want to sit here and enjoy a drink or two.    
+~
+21 0 0 0
+D1
+Road
+~
+~
+0 -1 2119
+S
+#2123
+The tree-in~
+   You are in the dining section of the tree-in, which has been carved into
+what you imagine to be another branch of the tree.  Tables line each side and
+there are a few customers enjoying a meal.    
+~
+21 0 0 0
+D2
+Road
+~
+~
+0 -1 2119
+S
+#2124
+On a huge branch~
+   You are quite far out on the huge branch of the tree unable to go out any
+further.  The forest beneath reveals a swamp.  Upon looking around you notice
+there is some kind of vine growing from this branch, hanging down into the
+swamp below.    
+~
+21 cy 3 0
+D3
+~
+~
+0 0 2121
+D5
+~
+~
+0 0 2125
+S
+T 2103
+#2125
+On the vine~
+   You are climbing on a vine that hangs from a huge tree branch above.  It is
+thick and strong and could possibly support two people without a worry.  You
+can head up to the branch above or climb down the vine to the swamp below.    
+~
+21 0 3 0
+D4
+~
+~
+0 0 2124
+D5
+~
+~
+0 0 2126
+S
+T 2101
+#2126
+On the vine~
+   You are climbing on a vine that hangs from a huge tree branch above.  It is
+thick and strong and could possibly support two people without a worry.  You
+can head up the vine to the branch above or climb down the vine to the swamp
+below.    
+~
+21 0 3 0
+D4
+~
+~
+0 0 2125
+D5
+~
+~
+0 0 2127
+E
+symbols~
+Strange symbols all in yellow and black are written on the walls. You have
+never seen anything like it before in your life. The strangest thing is
+that you seem to think the symbols say something important.
+~
+S
+T 2101
+#2127
+On the vine~
+   You are climbing on a vine that hangs from a huge tree branch high above.  
+It is thick and strong and could possibly support two people without a worry.
+You can head up the vine or head down into the swamp below.    
+~
+21 c 3 0
+D4
+~
+~
+0 0 2126
+D5
+~
+~
+0 0 3660
+S
+T 2101
+#2128
+Sleeping quarters - Room 1~
+   You are in one of the room designated for sleeping.  There is a small bed
+lined with a bedside table on each side.  A wardrobe stands to the South, and
+an ensuite lies to the North.  The only way out of here is to the East.    
+~
+21 d 0 0
+D0
+~
+Ensuite~
+1 0 2131
+D1
+~
+Door1~
+1 0 2117
+S
+T 2104
+#2129
+Sleeping quarters - Room 2~
+   You are in one of the room designated for sleeping.  There is a small bed
+lined with a bedside table on each side to the North.  A wardrobe stands to the
+West, and an ensuite lies to the East.  The only way out of here is to the
+South.    
+~
+21 d 0 0
+D1
+~
+Ensuite~
+1 0 2132
+D2
+Road
+~
+Door2~
+1 -1 2117
+S
+T 2105
+T 2108
+#2130
+Sleeping quarters - Room 3~
+   You are in one of the room designated for sleeping.  There is a small bed
+lined with a bedside table on each side to the East.  A wardrobe stands to the
+South, and an ensuite lies to the North.  The only way out of here is to the
+West.    
+~
+21 d 0 0
+D0
+~
+Ensuite~
+1 0 2133
+D3
+~
+Door3~
+1 0 2117
+E
+bones~
+The last remains of the weaponsmith.
+~
+S
+T 2106
+#2131
+Ensuite~
+   You are in a perfectly clean ensuite.  The polished floor boards, walls and
+ceiling give this room a very relaxed, peaceful feeling.  It contains a shower
+with a glass door and sides, a two person spa bath and vanity unit with a
+mirror.  The only exit is back into the bedroom to the South.    
+~
+21 d 0 0
+D2
+~
+Ensuite~
+1 0 2128
+S
+#2132
+Ensuite~
+   You are in a perfectly clean ensuite.  The polished floor boards, walls and
+ceiling give this room a very relaxed, peaceful feeling.  It contains a shower
+with a glass door and sides, a two person spa bath and vanity unit with a
+mirror.  The only exit is back into the bedroom to the West.    
+~
+21 d 0 0
+D3
+~
+Ensuite~
+1 0 2129
+S
+#2133
+Ensuite~
+   You are in a perfectly clean ensuite.  The polished floor boards, walls and
+ceiling give this room a very relaxed, peaceful feeling.  It contains a shower
+with a glass door and sides, a two person spa bath and vanity unit with a
+mirror.  The only exit is back into the bedroom to the South.    
+~
+21 de 0 0
+D2
+~
+Ensuite~
+1 0 2130
+S
+#2134
+Bullant nest entrance~
+   This huge hole leading to the bullant nest is amazing.  You can actually fit
+inside it as if it was originally inhabited by another animal, a much larger
+animal.    
+~
+21 agA 0 0
+D0
+~
+~
+0 0 2135
+D4
+~
+~
+0 0 2109
+E
+grate~
+It looks unlocked.
+~
+S
+#2135
+Bullant tunnel~
+   This huge hole leading to the bullant nest is amazing.  You can actually fit
+inside it as if it was originally inhabited by another animal, a much larger
+animal.  You wonder where it may really lead to.    
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2134
+D5
+~
+~
+0 0 2136
+S
+#2136
+Bullant tunnel~
+   You are continuing along the main tunnel leading even deeper into the Earth.
+  
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2137
+D4
+~
+~
+0 0 2135
+S
+#2137
+Main Bullant Tunnel~
+   You are continuing along the main tunnel leading even deeper into the Earth.
+Could this lead to the Queen bullant herself?    
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2136
+D5
+~
+~
+0 0 2138
+S
+#2138
+Main Bullant Tunnel~
+   You are continuing along the main tunnel leading even deeper down into the
+Earth.  You suspect you may be heading to a dangerous place as these guards are
+not here for no reason.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2137
+D5
+~
+~
+0 0 2139
+E
+tree~
+Why not go and take a closer look yourself?
+~
+S
+#2139
+Main Bullant Tunnel~
+   After fighting your way in you know your close to the main nest of the
+bullants.  Perhaps you should turn back before you get ahnialated and eaten to
+death as there are certainly going to be alot of bullants down here.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2138
+D5
+~
+~
+0 0 2140
+S
+#2140
+Before the nest chamber~
+   You can hear all the activity below and somehow manage to remain hidden from
+view.  The tunnel widens out like a funnel into what you imaging to be a HUGE
+underground chamber.  You really should get the hell out of here!    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2139
+D5
+~
+~
+0 0 2141
+S
+#2141
+Bullant chamber~
+   This section of the nest is huge.  It is like an underground city in
+darkness!  The number of tunnels feeding off here is amazing.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2146
+D3
+~
+~
+0 0 2142
+D4
+~
+~
+0 0 2140
+S
+#2142
+Bullant tunnel~
+   This tunnel is rather small considerng where is leads to.  It seems to be a
+very well used tunnel considering the size of it.    
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2141
+D3
+~
+~
+0 0 2143
+S
+#2143
+Bullant tunnel~
+   This tunnel is rather small considerng where is leads to.  It seems to be a
+very well used tunnel considering the size of it.    
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2142
+D5
+~
+~
+0 0 2144
+S
+#2144
+Bullant tunnel~
+   The tunnel heads even deeper and continues its size.  It seems to be a very
+well used tunnel considering the size of it....    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2143
+D5
+~
+~
+0 0 2145
+S
+#2145
+Bullant tunnel~
+   The tunnel comes to a sudden end.  Strange.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2144
+S
+#2146
+Bullant tunnel~
+   This tunnel you would assume to be a main tunnel to the Queen as the
+security here is overwhelming.  It seems to be a very well guarded, protecting
+the most important asset of the bullants.    
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2141
+D5
+~
+~
+0 0 2147
+S
+#2147
+Bullant tunnel~
+   The well guarded tunnel probably leading to the Queen ascends down deep,
+forbidding any exit back up from here, unless you can fly.  Protecting the most
+important asset of the bullants is their life duty.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2146
+D5
+~
+~
+0 0 2148
+S
+#2148
+Bullant tunnel~
+   The well guarded tunnel probably leading to the Queen ascends down even
+deeper, preventing any exit back up from here, unless you can fly.  Protecting
+what lies down here has been given careful thought.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2147
+D5
+~
+~
+0 0 2149
+S
+#2149
+Bullant tunnel~
+   The tunnel reveals an intersection.  You may opt to take the route down or
+to the West.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2150
+D4
+~
+~
+0 0 2148
+D5
+~
+~
+0 0 2152
+S
+#2150
+Minor bullant tunnel~
+   You have opted to take the smaller tunnel, probably a wiser choice if one
+were to head down into a bullant nest where the residents are 5 times larger
+then normal.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2151
+D2
+~
+~
+0 0 2149
+S
+#2151
+Minor bullant tunnel~
+   You are moving along another bullant tunnel
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2150
+D5
+~
+~
+0 0 2155
+S
+#2152
+Bullant Tunnel~
+   The tunnel becomes a straight drop and you slide down into the darnkess
+below....    
+~
+21 acdgi 0 0
+D4
+~
+~
+0 0 2149
+D5
+~
+~
+0 0 2153
+S
+T 2119
+#2153
+Bullant tunnel~
+   You slide down further into the darnkess below....    
+~
+21 ad 0 0
+D5
+~
+~
+0 0 2154
+E
+door~
+A plain wooden door
+~
+S
+T 2119
+#2154
+Bullant Chamber~
+   You land with a great thud and are stunned momentarily...  Where the hell
+are you?    
+~
+21 acd 0 0
+D0
+~
+~
+0 0 2158
+S
+T 2120
+#2155
+Bullant tunnel~
+   You are moving along another bullant tunnel
+~
+21 ad 0 0
+D3
+~
+~
+0 0 2156
+D4
+~
+~
+0 0 2151
+S
+#2156
+Bullant tunnel~
+   You are moving along another bullant tunnel
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2155
+D5
+~
+~
+0 0 2157
+E
+door~
+A plain wooden door
+~
+S
+#2157
+Bullant tunnel~
+   You are moving along another bullant tunnel
+~
+21 adg 0 0
+D3
+~
+~
+0 0 2175
+D4
+~
+~
+0 0 2156
+S
+#2158
+Bullant Chamber~
+   Deep underground and seemingly trapped you try to figure out where you have
+slipped down into.  Piles of bones and skulls lie against the walls of the
+tunnel to the North, East and West.  You must be close to to her!    
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2154
+D5
+~
+~
+0 0 2159
+S
+#2159
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D5
+~
+~
+0 -1 2160
+S
+#2160
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 ad 0 0
+D5
+~
+~
+0 0 2161
+S
+#2161
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2162
+S
+#2162
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 a 0 0
+D5
+~
+~
+0 0 2163
+S
+#2163
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 ad 0 0
+D5
+~
+~
+0 0 2164
+S
+#2164
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2165
+S
+#2165
+Breeding chamber~
+   You have reached the breeding chamber where all the eggs laid by the Queen
+are incubated until they hatch.    
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2166
+S
+T 2124
+#2166
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2167
+S
+#2167
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 d 0 0
+D4
+~
+~
+0 0 2168
+S
+#2168
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2169
+S
+#2169
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2170
+S
+#2170
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2171
+E
+map~
+A large map on the wall has the words 'Enfan Town' at the top. On the map
+you can see the layout of the Enfan town as well as scribbled notes attached
+detailing estimates of the Enfans forces and locations. Several sheets of 
+pinned paper at the bottom of the map detail the forces the fairies require
+in order to launch an attack on the Enfans.
+~
+S
+#2171
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2172
+S
+#2172
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2173
+S
+#2173
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2174
+S
+#2174
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2175
+S
+#2175
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2157
+S
+$~
+@
+
+
+1.2
+log
+@Artus> Getting very close...
+@
+text
+@d3 4
+a6 1
+You are on an thickly overgrown narrow trail heading into the forest. The forest to the North and South is impasable, forcing you to the East. You can head back East to Gambol Road or continue further into the forest to the West.
+d21 4
+a24 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the North and South is impasable, forcing you to take the path to the East. You can head East out of the forest or continue further into the forest to the West
+d26 1
+a26 1
+21 0 3 0
+d38 3
+a40 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the North and South is impasable, forcing you to take the path to the East. You can head East or West along the path.
+d55 4
+a58 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the North and East is impasable, forcing you to take the path to the South. You can head South deeper into the forest, or East along the path from where you en
+d70 3
+a72 4
+fireplace~
+   It looks like an ordinary fireplace but then a lock on the
+grate catches your eye. You have a distinct feeling they key is
+not here!
+d80 4
+a83 3
+painting picture~
+   A wonderfully crafted oil which depicts a scene outside a
+jewellers in a busy city street.
+d88 4
+a91 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the East and West is impasable, forcing you to take the path to the South. You can head South deeper into the forest, or North along the path from where you en
+d105 4
+a108 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the East and West is impasable, forcing you to take the path to the South. You can head South deeper into the forest, or North along the path from where you en
+d123 4
+a126 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the South and West is impasable, forcing you to take the path to the East. You can head East deeper into the forest, or North along the path from where you ent
+d140 3
+a142 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the South and West is impasable, forcing you to take the path to the East. You can head deeper East or head back out to the West.
+d157 4
+a160 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the North and South is impasable, forcing you to take the path to the East. You can head South deeper into the forest, or back out West.
+d162 1
+a162 1
+21 p 2 0
+d171 4
+d176 1
+d179 4
+a182 1
+You are on an thickly overgrown narrow trail heading deeper into the forest. The forest to the East and West is impasable, forcing you to take the path to the South. You can head South deeper into the forest, or back out to the North.
+d198 5
+a202 1
+You are in an open grassy area deep in the forest, surrounded by vastly overgrown fauna. The forest to the South, East and West is impassable. You can either head back out of the forest to the North, or try to find a way up this HUGE tree before you.
+d223 5
+a227 2
+You are inside the huge tree which has been carefully carved out to allow movement inside. The core of the tree remains intact keeping it alive. The solid wooden door to the East keeps this place secure when required, and keeps in the heat in winter.
+There is a spiral staircase leading up to another level inside the tree.
+d245 4
+a248 2
+You have entered the entertainment foyer of the tree. Card and board games are only the start of the selection of activities available. A mini cinema lies to the East while a general store lies to the West.
+The spiral staircase continues upwards to yet another level, and back down to the foyer
+d264 4
+d271 4
+a274 2
+You are inside a hollowed out branch in the tree that has been converted into a mini cinema for the locals.
+There is enough room for 10 persons to sit here comfortably without blocking eachothers view. Why don't you stay for a movie!
+d284 2
+a285 1
+You are in the general store of the tree city, where a number of items area available for purchase.
+d295 2
+a296 1
+You are on the spiral staircase leading upto the sleeping quarters of the tree.
+d314 2
+a315 1
+You are outside the sleeping quarters of the tree. There are three doors, one to the North, one to the East and one to the West.
+d338 4
+a341 2
+You are inside this huge tree in the middle of the forest. It has been carved out enough to be able to move about freely inside, yet without killing the tree. The centre core of the tree remains intact, allowing it to survive.
+You are able to exit the tree to the North or venture upwards and explore.
+d355 7
+a361 3
+You are inside this huge tree in the middle of the forest. It has been carved out enough to be able to move about freely inside, yet without killing the tree. The centre core of the tree remains intact, allowing it to survive.
+This is the junction for access to the eating area for the inhabitants of the tree. A small bar is here to the West and a kitchen is to the North.
+The spiral staircase continues upwards to yet another level inside the tree.
+d370 2
+a371 2
+~
+0 0 2120
+d385 1
+d388 2
+a389 1
+You are on a huge branch of the tree overlooking the forest beneath. It is an amazing sight and very peaceful, infact you could sit here and enjoy the serenity.
+d391 1
+a391 1
+21 ey 3 0
+d398 1
+a398 1
+A junction
+d400 2
+a401 2
+~
+0 -1 2119
+d403 1
+d406 2
+a407 1
+You are further out on the huge branch of the tree, overlooking the forest beneath. It is an amazing sight and very peaceful, infact you could sit here and enjoy the serenity.
+d409 1
+a409 1
+21 0 1 0
+d422 2
+a423 1
+Carved into a large branch this bar is quite amazing. Lined with wooden panels and a wooden top, you'd want to sit here and enjoy a drink or two.
+d434 3
+a436 1
+You are in the dining section of the tree-in, which has been carved into what you imagine to be another branch of the tree. Tables line each side and there are a few customers enjoying a meal. 
+d447 4
+a450 2
+You are quite far out on the huge branch of the tree unable to go out any further. The forest beneath reveals a swamp.
+Upon looking around you notice there is some kind of vine growing from this branch, hanging down into the swamp below.
+d452 1
+a452 1
+21 c 3 0
+d465 3
+a467 1
+You are climbing on a vine that hangs from a huge tree branch above. It is thick and strong and could possibly support two people without a worry. You can head up to the branch above or climb down the vine to the swamp below.
+d482 4
+a485 1
+You are climbing on a vine that hangs from a huge tree branch above. It is thick and strong and could possibly support two people without a worry. You can head up the vine to the branch above or climb down the vine to the swamp below.
+d487 1
+a487 1
+21 0 0 0
+d506 3
+a508 1
+You are climbing on a vine that hangs from a huge tree branch high above. It is thick and strong and could possibly support two people without a worry. You can head up the vine or head down into the swamp below.
+d523 3
+a525 2
+You are in one of the room designated for sleeping. There is a small bed lined with a bedside table on each side. A wardrobe stands to the South, and an ensuite lies to the North.
+The only way out of here is to the East.
+d540 4
+a543 2
+You are in one of the room designated for sleeping. There is a small bed lined with a bedside table on each side to the North. A wardrobe stands to the West, and an ensuite lies to the East.
+The only way out of here is to the South.
+d560 4
+a563 2
+You are in one of the room designated for sleeping. There is a small bed lined with a bedside table on each side to the East. A wardrobe stands to the South, and an ensuite lies to the North.
+The only way out of here is to the West.
+d582 4
+a585 3
+You are in a perfectly clean ensuite. The polished floor boards, walls and ceilinggive this room a very relaxed, peaceful feeling.
+It contains a shower with a glass door and sides, a two person spa bath and vanity unit with a mirror.
+The only exit is back into the bedroom to the South.
+d595 4
+a598 3
+You are in a perfectly clean ensuite. The polished floor boards, walls and ceilinggive this room a very relaxed, peaceful feeling.
+It contains a shower with a glass door and sides, a two person spa bath and vanity unit with a mirror.
+The only exit is back into the bedroom to the West.
+d608 4
+a611 1
+Need 1
+d613 1
+a613 1
+21 d 0 0
+d620 4
+a623 4
+A street~
+   The road runs north-south here and there is a vile stench
+coming from a grate at the base of the wall. You expect there
+are sewers down there.
+d625 1
+a625 1
+21 0 1 0
+a626 1
+Road
+d629 2
+a630 8
+0 -1 2141
+D1
+The city wall and a grate
+~
+grate~
+2 -1 2155
+D2
+Road
+d633 1
+a633 1
+0 -1 2128
+d640 4
+a643 5
+On a Road~
+   At this point you can see through a hole in the wall of the
+city and see that there is a large plain to the east and moving
+around you see a large mountain to the north. The road turns to
+the south and east here.
+d645 2
+a646 3
+21 0 1 0
+D1
+Road
+d649 2
+a650 3
+0 -1 2136
+D2
+Road
+d653 1
+a653 1
+0 -1 2129
+d656 3
+a658 5
+On a Road~
+   The rubble lined road leads north and west from here.
+Through the debris you see that the road leads distantly to the
+north where the remnants of the wall impede its progress and it
+turns east.
+d660 1
+a660 1
+21 0 1 0
+a661 1
+Road
+d664 2
+a665 3
+0 -1 2142
+D3
+Road
+d668 1
+a668 1
+0 -1 2135
+d671 3
+a673 5
+Jewellery~
+   With little regard for years of timeless work, the cities
+destroyers have badly damaged this place. You can see little of
+any value here. The bones of the shopkeeper lie where he fell
+and they may still clutch something!
+d675 2
+a676 3
+21 d 0 0
+D1
+The City Square can be seen through the broken door.
+d679 2
+a680 3
+0 -1 2138
+D2
+A door to a small foyer
+d683 1
+a683 1
+0 -1 2131
+d686 4
+a689 6
+The City Square~
+   In the centre of this large square, perched on the top of a
+small hillock, is an all to unfamiliar tree. Radial lines of
+grass feed out from the tree and you feel a sense of power
+radiating from it. Exits lie north and south along a
+cobblestone street and east and west lead into buildings.
+d691 2
+a692 3
+21 0 1 0
+D0
+Road
+d695 2
+a696 18
+0 -1 2144
+D1
+The temple
+~
+~
+0 -1 2139
+D2
+Road
+~
+~
+0 -1 2125
+D3
+An old, broken down building
+~
+~
+0 -1 2137
+D4
+Up to the tree
+d699 1
+a699 1
+0 -1 2159
+d706 4
+a709 5
+North Chapel~
+   The dim candle light and smell of inscence makes your head spin and
+you get the feeling that you could very well be in for a bit of
+peril in here! There is an exit to the west and the Main Hall lies
+to the south.
+d711 2
+a712 3
+21 d 0 0
+D2
+You see the main hall of the temple
+d715 2
+a716 3
+0 -1 2132
+D3
+A door back to the outside
+d719 1
+a719 1
+0 -1 2138
+d722 4
+a725 5
+On a Road~
+   The rubble lined road leads north and east from here.
+Through the debris you see that the road leads distantly to the
+north where the remnants of the wall impede its progress and it
+turns east.
+d727 2
+a728 3
+21 0 1 0
+D0
+Road
+d731 2
+a732 3
+0 -1 2146
+D1
+Road
+d735 1
+a735 1
+0 -1 2141
+d738 3
+a740 2
+On a Road~
+   The rubble lined road leads south and west from here.
+d742 2
+a743 3
+21 0 1 0
+D2
+Road
+d746 1
+a746 1
+0 -1 2134
+a747 1
+Road
+d750 5
+a754 1
+0 -1 2140
+d757 3
+a759 3
+On a Road~
+   The rubble lined road leads north-south here. A small house lies
+to the east but no door is apparent in the wall.
+d761 2
+a762 3
+21 0 1 0
+D0
+Road
+d765 2
+a766 3
+0 -1 2147
+D2
+Road
+d769 1
+a769 1
+0 -1 2136
+d772 3
+a774 4
+Small House~
+   This small house, once occupied, now lies in ruins. There are
+lots of food scraps on the floor here and some clothes lie strewn on
+the floor. Looks tidy eh?
+d777 5
+a781 2
+D0
+The door out!
+d784 1
+a784 1
+0 -1 2148
+d787 3
+a789 5
+A wide street~
+    A cobblestone street, meandering through the town. To the south is a
+large square dominated by a rather large mound in the centre with a tree on
+it. North is a junction of this street and another road. Small homes
+can be seen east and west of here.
+d791 2
+a792 3
+21 0 1 0
+D0
+A junction
+d795 2
+a796 3
+0 -1 2149
+D2
+A square
+d799 1
+a799 1
+0 -1 2138
+d802 2
+a803 4
+Small House~
+   This small house, once occupied, now lies in ruins. There are
+lots of food scraps on the floor here and some clothes lie strewn on
+the floor. Looks tidy eh?
+d806 1
+a806 2
+D0
+The door out!
+d809 1
+a809 1
+0 -1 2150
+d812 4
+a815 3
+On a Road~
+   The rubble lined road leads north-south here. A small house lies
+to the west but no door is apparent in the wall.
+d817 2
+a818 3
+21 0 1 0
+D0
+Road
+d821 2
+a822 3
+0 -1 2151
+D2
+Road
+d825 1
+a825 1
+0 -1 2140
+d828 4
+a831 5
+On a Road~
+   The road turns here and leads south and east. To the north the
+city wall lies in complete ruin and all the city which was beyond it
+is now just wasteland. You get a strange sense of fear as you get
+closer to the wall. There is no way thru all the rubble, luckily.
+d833 2
+a834 3
+21 0 1 0
+D1
+Road
+d837 2
+a838 3
+0 -1 2148
+D2
+Road
+d841 1
+a841 1
+0 -1 2142
+d844 4
+a847 3
+On a Road~
+   The road leads east-west and a door into a small, dark house
+leads south.
+d849 2
+a850 3
+21 0 1 0
+D1
+Road
+d853 2
+a854 8
+0 -1 2149
+D2
+A small house
+~
+~
+0 -1 2143
+D3
+Road
+d857 1
+a857 1
+0 -1 2147
+d860 3
+a862 3
+Road Junction~
+   You stand at the junction of the two main roads in Orshingal.
+They lead south and east-west.
+d864 2
+a865 3
+21 0 1 0
+D1
+Road
+d868 2
+a869 3
+0 -1 2150
+D2
+A wide street
+d872 2
+a873 3
+0 -1 2144
+D3
+Road
+d876 1
+a876 1
+0 -1 2148
+d879 4
+a882 3
+On a Road~
+   The road leads east-west and a door into a small, dark house
+leads south.
+d884 2
+a885 3
+21 0 1 0
+D1
+Road
+d888 1
+a888 1
+0 -1 2151
+a889 6
+A small house
+~
+~
+0 -1 2145
+D3
+Road
+d892 1
+a892 1
+0 -1 2149
+d895 2
+a896 6
+On a Road~
+   The road turns here and leads south and west. To the north the
+city wall lies in complete ruin and all the city which was beyond it
+is now just wasteland. You get a strange sense of fear as you get
+closer to the wall. There is a path leading northwards through the 
+rubble.
+d898 1
+a898 6
+21 0 1 0
+D0
+You see a pile of rubble
+~
+~
+0 -1 2160
+a899 1
+Road
+d902 2
+a903 3
+0 -1 2146
+D3
+Road
+d906 1
+a906 1
+0 -1 2150
+d909 10
+a918 4
+Fireplace~
+   You stand in this small dim fireplace your light source dancing
+merrily and making shadowy pictures on the walls. The grate lies to
+the south.
+a919 3
+21 adgj 0 0
+D2
+A grate
+d921 1
+a921 2
+grate door~
+2 2101 2104
+d923 1
+d925 2
+a926 3
+Sewer~
+   The stench is revolting! You see that the sewer here leads east
+and there is a door in the west wall.
+d929 1
+a929 2
+D1
+More sewer
+d932 1
+a932 6
+0 -1 2154
+D3
+A door
+~
+door sewer~
+2 2102 2116
+d938 1
+d940 3
+a942 2
+Sewer~
+  The sewer leads both north and south from here.
+d944 1
+a944 1
+21 ad 0 0
+a945 1
+More sewer
+d948 1
+a948 6
+0 -1 2155
+D2
+More sewer
+~
+~
+0 -1 2153
+d950 1
+d952 2
+a953 3
+Sewer~
+   The sewer leads south from here and there is a grate in the
+ceiling.
+d956 1
+a956 2
+D2
+More sewer
+d959 1
+a959 1
+0 -1 2154
+a960 1
+A city street
+d962 2
+a963 2
+grate ceiling~
+2 -1 2134
+d966 2
+a967 3
+Sewer~
+   The stench is revolting! You see that the sewer here leads west
+and there is a door in the east wall.
+a970 1
+A door
+d972 3
+a974 4
+door sewer~
+2 2102 2112
+D3
+More sewer
+d977 1
+a977 1
+0 -1 2157
+d984 2
+a985 2
+Sewer~
+  The sewer leads both north and south from here.
+d987 2
+a988 3
+21 ad 0 0
+D0
+More sewer
+d991 2
+a992 3
+0 -1 2158
+D2
+More sewer
+d995 1
+a995 1
+0 -1 2156
+d998 4
+a1001 2
+Sewer~
+   Apparently this is a dead end with the only exit being south.
+a1004 1
+More sewer
+d1007 5
+a1011 1
+0 -1 2157
+d1014 2
+a1015 3
+By the tree~
+   Here, by the tree lie lots of bones and many bodies. There is an
+exit down. You might get to use it!
+d1017 1
+a1017 1
+21 0 1 0
+a1018 1
+The square
+d1021 1
+a1021 1
+0 -1 2138
+d1024 3
+a1026 7
+A pile of rubble~
+   You are standing on top of a pile of rubble.  To the north, a trail 
+leads from the ruined city towards a dark forest.  It is very frightening
+to consider what is ahead
+~
+21 0 0 0
+D0
+d1028 2
+a1029 3
+~
+0 -1 2161
+D2
+d1032 1
+a1032 1
+0 -1 2151
+d1035 3
+a1037 3
+A winding trail~
+   you are on a winding trail, leading from the city of Orshingal northwards,
+into a dark, and tangled forest.  However, the path ends here, so go home.
+d1039 2
+a1040 2
+21 0 0 0
+D2
+d1043 1
+a1043 1
+0 -1 2160
+d1046 6
+a1051 7
+Closed in room~
+Stepping out of the portal you appear to have arrived inside a tree. In the
+wall is a small hole letting in sunlight. But how could you fit inside a tree
+unless you were ALOT smaller ? Looking around it appears at first as if you
+are trapped, but upon closer inspection a small trapdoor is cunningly built
+into the 'roof' of the room, almost indistinguishable from the rest of the 
+surroundings. Where could it lead to ? 
+a1052 5
+21 d 0 0
+D4
+A small trapdoor is set in the roof 
+of the room, almost invisible to the
+naked eye.
+d1054 1
+a1054 2
+trapdoor~
+1 -1 2163
+d1057 3
+a1059 9
+Outside a cell~
+The end of a small corridor appears to be a dead end, except for a trapdoor
+set in the floor. To the north you can hear signs of habitation, voices talking,
+people walking, doors opening and closing. 
+~
+21 cd 0 0
+D0
+The corridor runs east and west
+through the tree.
+d1061 2
+a1063 5
+0 -1 2164
+D5
+A small trapdoor is set in the
+floor, almost invisible to the
+naked eye.
+d1065 1
+a1065 2
+trapdoor~
+1 -1 2162
+d1068 3
+a1070 6
+Catepillar cage~
+A large hollow within the tree forms a junction between three corridors leading
+east, west and south, but all your eyes can see is the catepillar in it's
+cage. It looks no different to any other catepillar you have ever seen - except
+it is three feet high and about fifteen feet long. How could a beast of
+such size exist ? 
+d1072 2
+a1073 17
+21 cd 0 0
+D1
+The corridor bends its way around
+to the north.
+~
+~
+0 -1 2166
+D2
+The corridor appears to end in
+a dead end.
+~
+~
+0 -1 2163
+D3
+A small room looks like a small
+hurricane deposited weapons in
+it.
+d1076 1
+a1076 1
+0 -1 2165
+d1079 3
+a1081 4
+Guards room~
+Weapons are scattered around the room, covering benches, the floor and a
+small bed that appears to have grown out of the wall. The room looks like
+everything was dumped in a hurry. 
+d1083 1
+a1083 1
+21 cd 0 0
+a1084 3
+The passage through the tree
+heads to the south and continues
+on to the east.
+d1087 1
+a1087 1
+0 -1 2164
+d1089 1
+d1091 2
+a1092 4
+A bend in the corridor~
+The corridor bends around from the west to the north, but unlike corridor made
+by the hand of man, this appears more like a branch curving. Running your
+hand along the wall there are no seams or corners just smooth wood underhand.
+d1094 2
+a1095 11
+21 d 0 0
+D0
+A hollow in the tree leading out
+in several directions.
+~
+~
+0 -1 2167
+D3
+The passage through the tree
+continues to the west with a 
+corridor running off to the south.
+d1098 1
+a1098 1
+0 -1 2164
+d1101 2
+a1102 6
+Intersection~
+A hollowed out area of the tree is a focal point of activity. Fairies pass
+by you with a suspicious glance before continuing on their way. Smells of
+food been cooked waft from the west, a small staircase leading upwards grows
+from the north wall and a small passage leads to the south. A large arch
+leads to east through to a large circular room.  
+a1104 17
+D1
+The Ballroom of the fairies.
+~
+~
+0 -1 2168
+D2
+The passage through the tree bends
+around to the west.
+~
+~
+0 -1 2166
+D3
+Smells of cooking and pots along
+the walls shout 'Kitchen'.
+~
+~
+0 -1 2169
+a1105 1
+Outside the Royal quarters.
+d1108 1
+a1108 1
+0 -1 2172
+d1111 2
+a1112 9
+Ballroom~
+Hollowed out from the tree the ballroom is a magnificent blend of natural and
+'fairy-made' wonder. The floor, walls and roof of the chamber are polished till
+they shine from the light. And a stranger light source you have not seen. In
+the centre of a glittering chandilier is what looks like a giant firefly. The
+light from it passes through the chandelier making patterns that dance across
+the walls and floor. The grand room is currently not in use though the fairies
+most likely back in the main part of their home to the west, although you can
+hear the sound of ernest debate coming from the throne room to the east.
+d1114 2
+a1115 3
+21 d 0 0
+D1
+The throne room of Queen Amyst.
+d1118 1
+a1118 7
+0 -1 2170
+D3
+A large hollow in the tree leading
+out in several directions.
+~
+~
+0 -1 2167
+d1121 2
+a1122 4
+Kitchen~
+A hastily constructed kitchen has one occupant - a stout cook. A small fire
+is kept under careful control - losing control of a fire within a tree could
+only lead to disaster. 
+d1124 2
+a1125 4
+21 d 0 0
+D1
+A large hollow in the tree leading
+out in several directions.
+d1128 1
+a1128 1
+0 -1 2167
+d1131 2
+a1132 6
+Throne Room~
+The Throne Room of Queen Amyst is a riot of colour and smells. Giant roses,
+orchads and other flowers fill the air with their fragerences, while brightly
+painted walls and multicoloured carpets are almost eye jarring in places. The
+only bit that looks out of place is a large map along one of the walls that
+has several fairies gathered around it.
+d1134 2
+a1135 3
+21 d 0 0
+D3
+The Ballroom of the fairies.
+d1138 1
+a1138 1
+0 -1 2168
+d1149 2
+a1150 3
+Guards Room~
+Hardly large enough to be called a room, a small hollow houses the royal
+bodyguard of Queen Amyst when she is within her royal apartments. 
+d1152 2
+a1153 3
+21 d 0 0
+D1
+Outside the Royal quarters.
+d1156 1
+a1156 1
+0 -1 2172
+d1159 2
+a1160 7
+Outside quarters~
+The passage may look plain and unremarkable, but in fact you stand outside
+the current quarters of the fairy Queen Amyst. Right next to the them, to your
+east are the quarters of her only remaining advisor the Fairy Magus. Her
+faithful bodyguard keeps a close watch upon the passage from his small
+room to the west, ready to confront anyone wishing to harm the Queen or her
+faithful advisor.
+d1162 2
+a1163 3
+21 d 0 0
+D0
+The royal quarters of Queen Amyst.
+d1166 5
+a1170 3
+0 -1 2174
+D1
+The quarters of the royal magus.
+d1172 2
+a1174 9
+0 -1 2173
+D3
+A small guards outpost. 
+~
+~
+0 -1 2171
+D5
+A hollow in the tree leading out
+in several directions.
+d1176 1
+a1176 2
+~
+0 -1 2167
+d1178 3
+a1180 8
+#2173
+Mages Room~
+The Fairy Magus is the last in a line of fairy mages. Books and scrolls are
+scattered about the floor the desks in the room, many of them singed from
+fire or ripped in places. Beakers, pots, containers and instruments of all
+shapes and sizes also lay haphazardly around the room, most of them small
+except for a large pool of water in one of the corners of the room that is
+kept clear of other items. 
+d1182 2
+a1183 3
+21 d 0 0
+D3
+Outside the Royal quarters.
+d1186 1
+a1186 1
+0 -1 2172
+d1188 3
+a1190 6
+#2174
+Royal Quarters~
+A far cry from the plush quarters Queen Amyst used to have, her royal
+'apartments' consist now of one moderately large bedroom with a simple
+bed and table. Covering the table are maps and notes detailing plans
+for the fairies departure to far away.
+d1192 2
+a1193 3
+21 d 0 0
+D2
+Outside the Royal quarters.
+d1196 1
+a1196 1
+0 -1 2172
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d2 2
+a3 6
+Ershteep Road~
+   You are standing on a thin trail only wide enough for two. The
+trail was once, apparently, the middle of a large and busy
+thoroughfare. It now lies overgrown by thick, impassable forest to
+the east and west. The trail leads further north where a small
+cottage becomes apparent and south, through the forest.
+d5 1
+a5 6
+21 0 3
+D0
+More trail and a cottage
+~
+~
+0 -1 2102
+d11 4
+d17 2
+a18 6
+Ershteep Road~
+   You are standing on a thin trail only wide enough for two. The
+trail was once, apparently, the middle of a large and busy
+thoroughfare. It now lies overgrown by thick, impassable forest to
+the east and west. The trail leads further north where a small
+cottage lies in a clearing and south towards the City of New Thalos.
+d20 2
+a21 3
+21 0 3
+D0
+More trail and a cottage
+d24 2
+a25 3
+0 -1 2103
+D2
+less dense forest.
+d28 1
+a28 1
+0 -1 2101
+d31 2
+a32 7
+Ershteep Road~
+You are standing on a bend of a thin trail only wide enough for
+two. The trail was once, apparently, the middle of a large and
+busy thoroughfare. It now lies overgrown by thick, impassable
+forest to the east. The trail leads further south and west. To the
+north a small cottage lies in a natural clearing. It looks
+deserted.
+d34 2
+a35 3
+21 0 3
+D0
+A cottage, the front door is open
+d38 1
+a38 6
+0 -1 2104
+D2
+A trail through the forest.
+~
+~
+0 -1 2102
+d43 1
+a43 1
+0 -1 2105
+d46 5
+a50 7
+A deserted cottage~
+   Once inside you see that the former inhabitants of this cottage
+left in a hurry. There seems to be much that was left lying about.
+Now after many years only the things that aren't of much use lie
+here under a thick layer of dust. There is a fireplace in the
+north wall over which a large painting hangs. The only apparent
+exit is south.
+a51 3
+21 d 0
+D0
+A fireplace
+d53 1
+a53 2
+fireplace lock grate~
+2 2101 2152
+a54 1
+A door back to the outside world!
+d57 1
+a57 1
+0 -1 2103
+d59 4
+a62 3
+painting picture~
+   A wonderfully crafted oil which depicts a scene outside a
+jewellers in a busy city street.
+d70 3
+a72 4
+fireplace~
+   It looks like an ordinary fireplace but then a lock on the
+grate catches your eye. You have a distinct feeling they key is
+not here!
+d76 2
+a77 7
+Ershteep Road~
+You are standing on a thin trail only wide enough for
+two. The trail was once, apparently, the middle of a large and
+busy thoroughfare. It now lies overgrown by thick, impassable
+forest to the north and south. The trail leads further east and
+west. To the northeast a small cottage lies in a natural clearing.
+It looks deserted.
+d79 2
+a80 3
+21 0 3
+D1
+More trail
+d83 2
+a84 3
+0 -1 2103
+D3
+More trail
+d87 1
+a87 1
+0 -1 2106
+d90 2
+a91 6
+Ershteep Road~
+You are standing on a thin trail only wide enough for
+two. The trail was once, apparently, the middle of a large and
+busy thoroughfare. It now lies overgrown by thick, impassable
+forest to the west and south. The trail leads further east and
+north.
+d93 1
+a93 1
+21 0 3
+d98 2
+a99 3
+0 -1 2107
+D1
+More trail
+d102 1
+a102 1
+0 -1 2105
+d105 2
+a106 7
+Ershteep Road~
+You are standing on a thin trail only wide enough for
+two. The trail was once, apparently, the middle of a large and
+busy thoroughfare. It now lies overgrown by thick, impassable
+forest to the north and east and leads straight up a very large
+mountain. The trail leads further south and west. You see a
+plateau where the trail disappears to the west.
+d108 2
+a109 3
+21 0 5
+D2
+More trail
+d112 2
+a113 3
+0 -1 2106
+D3
+More trail
+d116 1
+a116 1
+0 -1 2108
+d119 2
+a120 5
+Ershteep Road~
+You are standing at a triple junction. To the north you see a
+wide boulevard, to the east a narrow trail leads down the hill
+and to the west there is a large, open field. The way south is
+blocked by forest.
+d122 1
+a122 6
+21 0 5
+D0
+More road
+~
+~
+0 -1 2110
+a123 1
+More trail
+d126 1
+a126 1
+0 -1 2107
+d131 1
+a131 1
+0 -1 2109
+d134 2
+a135 9
+An open field~
+   You stand on one of the many concentric grassy rings of this
+field. In the centre of the field a large unfamiliar tree is
+growing surrounded by a ring of earth then a ring of grass and
+so on so that a pattern of concentric circles emerges. You
+feel a strange power coming from the tree but as you try to
+approach it you suddenly feel quite rejected. There is an exit
+to the east back to the trail. The forest is too thick to
+penetrate here.
+d137 6
+a142 3
+21 0 2
+D1
+The trail again
+d145 1
+a145 1
+0 -1 2108
+d148 2
+a149 5
+Ershteep Road~
+   The road here is wider and seemingly more travelled. The
+road leads north and south and is surrounded by impassable
+forest its the east and west sides. On the horizon you see a
+large city wall.
+d151 1
+a151 1
+21 0 3
+d156 1
+a156 1
+0 -1 2111
+d161 1
+a161 1
+0 -1 2108
+d164 2
+a165 6
+Outside the city wall~
+   As you stand before the city a very strange feeling
+overwhelms you. You get a sensation of great disaster but also
+a sense of lasting peace. The gates stand before you wide open
+and unattended. The road leads south and underneath the bridge
+you stand on lies a moat running east-west.
+d167 1
+a167 1
+21 0 1
+d172 2
+a173 4
+0 -1 2114
+D2
+A road.
+~
+d175 2
+a176 1
+0 -1 2110
+d185 3
+a187 4
+Dead end~
+The passage way ends here where a door in the west wall leads
+further into the wall. The smell that comes from there tends to
+indicate that it leads into the sewers.
+d189 2
+a190 3
+21 cd 0
+D1
+A dimly lit passageway
+d192 3
+a195 3
+0 -1 2113
+D3
+A door
+d197 1
+a197 2
+door~
+2 2102 2156
+d204 3
+a206 4
+East-West Passage~
+   You stand in a dimly lit passage way inside the city wall.
+To the west is the main city gate and east leads further into
+the dankness. It seems to be a dead end.
+d208 1
+a208 1
+21 d 0
+a214 1
+An apparent dead end
+d217 5
+a221 1
+0 -1 2112
+d224 3
+a226 10
+City Gates~
+   You stand inside the wall of the city where thusands of feet
+have trod. To the south lies the relative safety of Ershteep
+Road, to the east and west lie dim passages into the wall and
+north you can see into the city. Strangely no normal city
+sounds seem to come from within!
+~
+21 d 0
+D0
+The city of Orshingal
+d228 1
+a228 12
+~
+0 -1 2119
+D1
+A dim passage
+~
+~
+0 -1 2115
+D2
+Ershteep Road
+~
+~
+0 -1 2111
+a229 1
+A dim passage
+d232 1
+a232 1
+0 -1 2113
+d235 2
+a236 4
+East-West Passage~
+    You stand in an dimly lit east-west passage inside the city
+wall. East lies the city gate and west seems to lead to a dead
+end.
+d238 1
+a238 1
+21 d 0
+a239 6
+A seemingly dead end
+~
+~
+0 -1 2116
+D3
+City gates
+d242 1
+a242 1
+0 -1 2114
+d245 5
+a249 4
+Dead end~
+The passage way ends here where a door in the west wall leads
+further into the wall. The smell that comes from there tends to
+indicate that it leads into the sewers.
+a250 3
+21 cd 0
+D1
+A door
+d252 2
+a253 4
+door~
+2 2102 2156
+D3
+A dimly lit passageway
+d256 1
+a256 1
+0 -1 2115
+d263 2
+a264 4
+On a Road~
+You stand at a corner of a road which follows to city wall
+around. Through huge amounts of rubble to see that the road
+leads north and west from here.
+d266 1
+a266 1
+21 0 1
+a267 1
+On a Road
+d269 7
+d277 3
+a279 3
+0 -1 2123
+D1
+On a Road
+d282 1
+a282 1
+0 -1 2118
+d284 1
+d286 3
+a288 3
+On a Road~
+   You stand on a road which leads both east and west from here. To
+the north is a broken down, old building.
+d290 1
+a290 1
+21 0 1
+a291 1
+An old building
+d293 3
+a295 9
+~
+0 -1 2124
+D1
+A junction
+~
+~
+0 -1 2119
+D3
+Road
+d298 1
+a298 1
+0 -1 2117
+d301 4
+a304 6
+Inside the main gates~
+You stand inside the main gates of Orshingal, a city in ruins.
+The cities invaders seemed to take no care in their attack and
+bodies and rubble line the streets. From here roads lead
+north, east and west. South leads back to the city
+gates.
+d306 1
+a306 1
+21 0 1
+a307 1
+Road
+d310 1
+a310 1
+0 -1 2125
+a311 1
+Road
+d314 6
+a319 3
+0 -1 2120
+D2
+City gates
+d322 2
+a323 3
+0 -1 2114
+D3
+Road
+d326 1
+a326 1
+0 -1 2118
+d329 2
+a330 9
+On a Road~
+You stand on a road which though covered in bodies and rubble
+seems to lead both east and west from here. To the north is a
+mystic temple, strangely intact.
+~
+21 0 1
+D0
+A temple
+~
+d332 1
+a332 1
+0 -1 2126
+d345 2
+a346 3
+On a Road~
+   You stand at a bend in the road. The road continues north and west
+from here.
+d348 2
+a349 3
+21 0 1
+D0
+Road
+d352 1
+a352 1
+0 -1 2127
+d360 2
+a361 3
+On a Road~
+You stand at a bend in the ruined road. The road apparently
+leads north and east from here.
+d363 1
+a363 6
+21 0 1
+D0
+Road
+~
+~
+0 -1 2129
+d368 1
+a368 1
+0 -1 2123
+d371 2
+a372 3
+On a Road~
+You stand at a bend in the old road. It continues south and east
+through much rubble and many decaying bodies.
+d374 1
+a374 1
+21 0 1
+d379 1
+a379 6
+0 -1 2117
+D3
+Road
+~
+~
+0 -1 2122
+d382 3
+a384 5
+Armoury~
+   This ransacked shop once was an armoury and there are many pieces of
+ancient armour all rusting on the floor. There is a locked cabinet on the
+floor which seems to have been overlooked. Doors lead to the north and
+south.
+d386 2
+a387 3
+21 d 0
+D0
+A foyer
+d390 2
+a391 3
+0 -1 2131
+D2
+Road
+d394 1
+a394 1
+0 -1 2118
+d396 1
+d398 2
+a399 4
+A wide street~
+    A cobblestone street, meandering through the town. To the north is a
+large square dominated by a rather large mound in the centre with a tree on
+it. South is a junction of this street and another road.
+d401 2
+a402 3
+21 0 1
+D0
+A square
+d405 2
+a406 3
+0 -1 2138
+D2
+A junction
+d409 1
+a409 1
+0 -1 2119
+d411 1
+d413 2
+a414 6
+South Chapel of the Temple~
+You are at the south end of the great temple. It is bedecked
+with many ancient symbols and artifacts. The strange thing about
+this temple is that unlike the rest of the city it seems to be
+quite well kept. An exit lies to the south and the main hall
+lies to the north.
+d416 2
+a417 3
+21 cd 0
+D0
+The main hall
+d420 2
+a421 3
+0 -1 2132
+D2
+An exit back to the street
+d424 1
+a424 1
+0 -1 2120
+d432 1
+d434 2
+a435 4
+On a Road~
+   A bend in the road. This was obviously where a great battle
+was fought as the stench here is overpowering. The road
+continues south and east from here.
+d437 2
+a438 3
+21 0 1
+D1
+Road
+d441 2
+a442 3
+0 -1 2128
+D2
+Road
+d445 1
+a445 1
+0 -1 2121
+d447 1
+d449 3
+a451 3
+On a Road~
+   The road heads north and west at this point because at this
+point, what is left of the city wall dictates that it does.
+d453 1
+a453 1
+21 0 1
+a454 6
+Road
+~
+~
+0 -1 2134
+D3
+Road
+d456 3
+d460 2
+a461 1
+0 -1 2127
+d463 1
+d465 3
+a467 7
+On a Road~
+   You stand on a north-south section of the road. The city wall is
+west of here and an old building lies to the east.
+~
+21 0 1
+D0
+Road
+d469 1
+a469 2
+~
+0 -1 2135
+a470 2
+An old building
+~
+d472 2
+a473 1
+0 -1 2130
+d477 2
+a478 2
+~
+0 -1 2122
+d480 2
+d483 3
+a485 9
+Weaponry~
+   This shop has been looted and pillaged many times and now all that is
+left are broken swords and a few scabbards. There is an awful lot of blood
+on the walls and a pile of bones lies behind the counter. There is an exit
+to the west and a small foyer lies east of here.
+~
+21 d 0
+D1
+A foyer
+d487 2
+d490 2
+a491 1
+0 -1 2131
+a492 2
+An exit to the street
+~
+d494 2
+a495 1
+0 -1 2129
+d501 1
+d503 4
+a506 4
+A small foyer~
+   This is a small room which connects three shops: The Armoury,
+Weaponry and Jewellery. These lie to the south, west and north
+respectively.
+d508 1
+a508 6
+21 d 0
+D0
+The Jewellery
+~
+~
+0 -1 2137
+a509 7
+The Armoury
+~
+~
+0 -1 2124
+D3
+The Weaponry
+~
+d511 2
+a512 1
+0 -1 2130
+d515 4
+a518 5
+The Main Hall~
+   Amazing patterns and dazzling images crowd your mind.
+Swirling visual illusions make you reel and almost fall over.
+There are exits north and south to small chapel like areas and
+in the east wall a small door leading who knows where?
+d520 2
+a521 13
+21 d 0
+D0
+A chapel
+~
+~
+0 -1 2139
+D1
+A large jarrah door
+~
+door~
+2 -1 2133
+D2
+A chapel
+d523 2
+a524 2
+~
+0 -1 2126
+d527 2
+a528 6
+Cleric's Sanctum~
+   You feel quite out of place in here. On the walls lie shelves
+which haven't seen the love of a cleaner in what is apparently
+centuries. Many books lie about them and there are some scrolls
+on the table before you. You suddenly feel uneasy and you look
+around.
+d530 2
+a531 3
+21 d 0
+D3
+A door
+d533 2
+a534 2
+door~
+2 -1 2132
+d542 1
+a542 1
+21 0 1
+d570 1
+a570 1
+21 0 1
+d589 1
+a589 1
+21 0 1
+d608 1
+a608 1
+21 d 0
+d628 1
+a628 1
+21 0 1
+d666 1
+a666 1
+21 d 0
+d685 1
+a685 1
+21 0 1
+d701 1
+a701 1
+21 0 1
+d718 1
+a718 1
+21 0 1
+d736 1
+a736 1
+21 ad 0
+d750 1
+a750 1
+21 0 1
+d768 1
+a768 1
+21 ad 0
+d780 1
+a780 1
+21 0 1
+d799 1
+a799 1
+21 0 1
+d816 1
+a816 1
+21 0 1
+d838 1
+a838 1
+21 0 1
+d860 1
+a860 1
+21 0 1
+d885 1
+a885 1
+21 0 1
+d908 1
+a908 1
+21 adgj 0
+d920 1
+a920 1
+21 ad 0
+d940 1
+a940 1
+21 ad 0
+d957 1
+a957 1
+21 ad 0
+d974 1
+a974 1
+21 ad 0
+d994 1
+a994 1
+21 ad 0
+d1010 1
+a1010 1
+21 ad 0
+d1022 1
+a1022 1
+21 0 1
+d1035 1
+a1035 1
+21 0 0
+d1050 1
+a1050 1
+21 0 0
+d1065 1
+a1065 1
+21 d 0
+d1080 1
+a1080 1
+21 cd 0
+d1103 1
+a1103 1
+21 cd 0
+d1130 1
+a1130 1
+21 cd 0
+d1145 1
+a1145 1
+21 d 0
+d1168 1
+a1168 1
+21 d 0
+d1203 1
+a1203 1
+21 d 0
+d1222 1
+a1222 1
+21 d 0
+d1238 1
+a1238 1
+21 d 0
+d1258 1
+a1258 1
+21 d 0
+d1274 1
+a1274 1
+21 d 0
+d1306 1
+a1306 1
+21 d 0
+d1320 1
+a1320 1
+21 d 0
+@
+

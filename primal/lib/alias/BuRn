@@ -1,0 +1,7 @@
+wa wake ; stand
+sl sleep
+cc c 'cure critic'
+g gossip $*
+dc drink skin
+cf c 'create food' ; eat mushroom
+x get all corpse

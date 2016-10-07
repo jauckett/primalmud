@@ -1,0 +1,81 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@bs remove brick;wield super;backstab $1;remove super;wield brick
+ref c 'refresh $1
+heal c 'heal' $1
+red q red
+recall c 'word of recall' kurgen
+gn grin;nod
+str c 'strength' $1
+sanc c 'sanctuary' $1
+loc c 'locate object' $1
+res rescue $1
+ha c 'harm' $1
+rec c 'word of recall' $1
+ch c 'charm person' $1
+det c 'detect invisibility' kurgen
+qw c 'earthquake'
+z get all corpse
+li c 'lightning' $1
+b c 'burning hands' $1
+m c 'magic' $1
+infra c 'infravision' kurgen
+sho c 'shocking grasp' $1
+invis c 'invisibility' $1
+cr c 'cure critic' $1
+x get all.coins all.corpse
+sum c 'summon' $1
+bl c 'blind' $1
+f c 'fireball' $1
+a c 'invisibility' kurgen
+k kick $1
+gh c 'group heal'
+fish : hits $1 upside the head with a run-away mackrel!!
+wa wa;st
+blind c 'blind' $1
+5 n;remove axe;wield spike;backstab aglandiir;remove spike;wield axe
+` get all.red backpack
+new : utters the words 'judicandus poisson';: has a new Mackrel
+9 c 'word of recall' kurgen
+r q red
+1 c 'fireball $1;kick $1;c 'lightning bolt $1;kick $1
+h c 'heal $1
+4 c 'cure critical kurgen
+2 ass drudge
+3 ass picklehead
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

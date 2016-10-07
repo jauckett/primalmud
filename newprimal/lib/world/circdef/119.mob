@@ -1,0 +1,426 @@
+#11900
+judge adjudicator~
+the adjudicator~
+An adjudicator is watching the games intently.
+~
+The adjudicator is a retired gladiator and scars cover all exposed parts of his
+body.  Although he is getting on in years, he remains healthy and fit.
+~
+2050 128 100 S
+12 9 2 3d7+140 1d7+4
+3967 13000
+8 8 1 2
+#11901
+scorekeeper~
+the Scorekeeper~
+A scorekeeper has one eye on his stopwatch and the other on a clipboard.
+~
+The scorekeeper is a young man of about 25 years of age and is very intently
+studying his clipboard.
+~
+2050 0 100 S
+7 14 4 3d5+80 1d4+3
+2291 2250
+8 8 1 2
+#11903
+spectator fan~
+a spectator~
+A spectator is here watching the games.
+~
+The spectator is filthy, half drunk and screaming his head off.
+~
+2 0 -100 S
+5 16 5 2d6+65 2d4+0
+1735 900
+6 6 0 2
+#11904
+noble nobleman~
+the Nobleman~
+A nobleman stands here looking aloof.
+~
+The nobleman is dressed in fine clothes and jewellery and has a very snobbish
+attitude.  While he is getting old and his hair and beard are streaked with
+gray, he is by no means an easy target.
+~
+2178 8 500 S
+12 9 2 4d6+140 1d7+5
+4082 13000
+8 8 1 2
+#11905
+slave~
+the slave~
+A slave stands here, wishing that she was free.
+~
+A very pretty young woman who was captured instead of being killed when the
+Roman legions subjugated her land.
+~
+2 0 0 S
+3 18 7 3d6+30 1d7+0
+1067 350
+8 8 2 2
+#11906
+gladiator~
+the gladiator~
+There is a gladiator standing here.
+~
+A well muscled man who is very heavily armored and armed to the teeth.  He
+lives for combat.
+~
+2 0 -250 S
+14 5 0 4d7+150 1d8+6
+5040 17000
+8 8 1 2
+#11907
+driver~
+the chariot driver~
+There is a chariot driver here.
+~
+You see a very slight and small individual whose whole life is centered around
+nothing but horses and speed.
+~
+2 0 100 S
+10 11 2 3d7+120 2d6+1
+3517 9000
+8 8 1 2
+#11908
+coach trainer~
+the Coach~
+There is a coach standing here, going over last minute strategy.
+~
+~
+2050 0 0 S
+11 10 2 4d5+130 2d6+1
+3712 11000
+8 8 1 2
+#11909
+healer~
+the healer~
+A healer is standing here.
+~
+You see a young man, still learning about magickal healing, wearing a white 
+coat and using a stethoscope.
+~
+2051 8 900 S
+14 7 1 2d7+170 1d7+6
+4849 17000
+8 8 1 2
+#11910
+herbalist young lady beautiful~
+the herbalist~
+There is a beautiful young lady here, carrying herbs to help the healer with.
+~
+The herbalist is a very beautiful young lady who is about 22 years old.  She 
+has deep brown eyes and shoulder-length chestnut hair.  Her body is perfectly 
+proportioned and she stands about 5' 5" tall.
+~
+2178 8 1000 S
+10 11 2 3d4+110 1d7+4
+3422 9000
+8 8 2 2
+#11911
+shopkeeper~
+Titus's shopkeeper~
+Titus's shopkeeper is here, minding the store.
+~
+The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling.
+~
+2050 136 750 S
+23 0 -2 4d10+600 3d8+22
+8628 45000
+8 8 1 2
+#11912
+peddler~
+the peddler~
+A poor peddler is standing here, trying to support his meagre existence.
+~
+You see a small, dirty man who doesn't look very healthy.  
+~
+192 0 250 S
+4 17 6 3d4+40 1d8+0
+1324 600
+8 8 1 2
+#11913
+page~
+the page~
+A page stands here, waiting to run an errand.
+~
+You see a young boy who looks very strong and very fast.  He has the look of
+a scholar about him.
+~
+2 0 0 S
+6 15 4 3d6+75 2d4+1
+2156 1500
+8 8 1 2
+#11914
+plaintiff~
+the plaintiff~
+The plaintiff stands here, pleading his case.
+~
+~
+2 0 0 S
+11 10 2 3d6+140 2d6+3
+4002 11000
+8 8 1 2
+#11915
+master~
+the ticket master~
+A ticket master is here, looking at you expectantly.
+~
+~
+2050 0 100 S
+17 4 1 4d8+210 1d6+11
+6089 28000
+8 8 1 2
+#11916
+vendor~
+the stadium vendor~
+A stadium vendor is walking here, selling overpriced hotdogs and beer.
+~
+The vendor is a scruffy looking man who isn't afraid of a fight and looks like
+he's had just about enough of smart-mouthed spectators.  
+~
+64 0 -150 S
+8 13 3 2d4+100 2d5+1
+2783 3750
+8 8 1 2
+#11917
+citizen~
+the citizen~
+A citizen of Rome is standing here.
+~
+~
+2112 0 900 S
+5 16 5 1d4+85 1d8+1
+1995 900
+8 8 1 2
+#11918
+gateguard guard~
+the gateguard~
+A gateguard stands here, tending the gate.
+~
+You see a strong, loyal public defender.
+~
+2183 0 1000 S
+11 10 2 3d6+130 1d6+5
+3802 11000
+8 8 1 2
+#11919
+soldier~
+the soldier~
+A soldier on leave is walking around looking for entertainment.
+~
+You see a member of one of the Emperor's elite legions.  He looks VERY strong.
+You have this vague feeling that his entertainment isn't going to be a very
+wholesome activity.
+~
+2112 0 300 S
+17 4 -1 3d5+220 1d6+9
+6506 28000
+8 8 1 2
+#11920
+emperor caesar~
+Caesar~
+Julius Caesar, the Emperor of Rome, is sitting here.
+~
+You see a man who is dressed in the finest of clothes, has eaten the best of
+foods and lived in the most opulent palace that Rome has ever known. 
+~
+2050 136 990 S
+27 0 -7 10d5+650 3d7+15
+16913 100000
+8 8 1 2
+#11921
+guard royal bodyguard~
+the royal bodyguard~
+There is a royal bodyguard here, ready to die for the Emperor, if necessary.
+~
+The bodyguard is dressed in the finest of armor and wields only the deadliest 
+of weapons.  He is very strong and would put up one hell of a fight.  He has
+been trained to be suspicious of all but the most innocent visitors, and likely
+to take offense of anyone with less than pure intentions.
+~
+3363 8 990 S
+18 2 0 3d6+220 1d6+6
+5990 32000
+8 8 1 2
+#11922
+judge justice~
+the judge~
+A judge is standing here, reading a case.
+~
+~
+2050 0 990 S
+21 0 -1 20d5+260 1d7+11
+7981 45000
+6 6 1 2
+#11923
+master scheduler~
+the master scheduler~
+The master scheduler is here, writing in an appointment book.
+~
+~
+2050 0 900 S
+17 3 0 4d4+210 1d6+9
+6080 28000
+8 8 1 2
+#11924
+slimeball slime ball green~
+the slimeball~
+A green ball of slime is hanging over you, oozing downward.
+~
+There is a green "ball" of slime oozing from the coating on the walls.
+~
+38 40 -500 S
+12 9 2 3d4+145 2d6+2
+4022 13000
+8 8 0 0
+#11925
+Froboz~
+Froboz~
+Froboz the wizard is standing here, working on a new spell.
+~
+You see a middle-aged man whose knowledge of magic, both offensive and 
+defensive, is legendary.  He literally glows with a pink aura.
+~
+2051 136 300 S
+23 0 -3 5d10+425 1d8+14
+10797 55000
+8 8 1 2
+#11926
+Titus~
+Titus Andronicus~
+Titus Andronicus is standing here, polishing a few swords.
+~
+~
+34 136 500 S
+24 0 -5 1d5+450 1d8+14
+12100 60000
+8 8 1 2
+#11927
+senator~
+the senator~
+A senator is here, waiting for debate to begin.
+~
+~
+2050 0 350 S
+10 11 2 3d5+120 2d6+1
+3487 9000
+8 8 1 2
+#11928
+bailiff~
+the bailiff~
+The bailiff stands here, keeping order in the courtroom.
+~
+~
+2050 8 900 S
+16 5 1 1d5+200 2d7+4
+5454 24000
+8 8 1 2
+#11929
+defendant~
+the defendant~
+The defendant stands here, pleading her case.
+~
+~
+2050 0 200 S
+11 9 1 3d6+130 2d7+1
+4019 11000
+8 8 2 2
+#11930
+jupiter~
+Jupiter~
+Jupiter, King of the Gods, is resting here.
+~
+He is the strongest of the Gods, and certainly no easy mark!  His powers
+transcend the plane of the physical, and could easily kill an unprepared
+mortal.
+~
+7462267 136 1000 S
+99 -90 -10 20d15+30000 50d50+90
+2000000 8000000
+8 8 1 2
+#11931
+Venus~
+Venus~
+Venus, the Goddess of Beauty and Knowledge, is resting here.
+~
+She is a woman of strikingly good looks.  However don't let her appearance fool
+you.  She is as sharp in her punishment as she is with her looks.  No easy mark
+for any mere mortal.
+~
+7465267 136 1000 S
+95 -70 -8 9d10+20000 30d30+70
+1000000 6000000
+8 8 2 2
+#11932
+Mars~
+Mars~
+Mars, the God of War and State, is resting here.
+~
+~
+7465267 136 1000 S
+92 -80 -9 15d10+25000 40d40+80
+1000000 7000000
+8 8 1 2
+#11933
+Mercury~
+Mercury~
+Mercury, the messenger of the Gods, is standing here.
+~
+~
+7596339 136 1000 S
+90 -60 -7 5d10+15000 20d20+60
+900000 3000000
+8 8 1 2
+#11934
+shopkeeper~
+Froboz's shopkeeper~
+Froboz's shopkeeper is here, minding the store.
+~
+The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling.
+~
+2050 136 650 S
+23 0 -2 4d10+600 1d8+24
+7028 35000
+8 8 1 2
+#11935
+executioner~
+The executioner~
+The executioner stands here, waiting to torture some sorry soul.
+~
+You see a burly man who is wearing a black hood that obscures his face.  He
+has a very sadistic attitude and clearly loves his work.
+~
+38 8 -1000 S
+20 1 0 2d6+260 2d2+14
+7260 40000
+8 8 1 2
+#11936
+baker~
+the Baker~
+The Baker looks at you calmly, wiping flour from his face with one hand.
+~
+A fat, nice looking baker. But you can see that he has many scars on his
+body.
+~
+2050 8 900 S
+33 0 -10 6d10+800 2d8+22
+3100 30000
+8 8 1 2
+#11937
+grocer~
+the Grocer~
+A grocer stands at the counter, with a slightly impatient look on his face.
+~
+A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
+~
+2050 8 900 S
+33 0 -10 1d1+700 2d8+22
+7105 30000
+8 8 1 2
+#99999
+$~

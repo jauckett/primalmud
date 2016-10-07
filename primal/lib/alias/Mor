@@ -1,0 +1,3 @@
+in cast 'infravision'
+mm cast 'magic missile' $1
+gc get all all.corpse

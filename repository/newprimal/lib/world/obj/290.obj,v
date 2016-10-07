@@ -1,0 +1,144 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.01.25.03.35.28;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.44;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@#29001
+metal claw~
+a Queen's metal claw~
+A Queen's metal claw has been left here.~
+~
+5 646 24577 0
+0 11 4 8
+12 70200 15000 39
+L 39
+E
+metal claw~
+This is the weapon of choice of the Great Xenomorh Queen.
+~
+A
+12 -25
+A
+13 10
+A
+19 4
+#29002
+computer broken~
+broken computer~
+A broken computer lies here.~
+~
+25 2 16385 0
+29003 0 0 29004
+6 200 200000 0
+L 0
+E
+broken computer~
+Looking at this broken computer you wonder if you could possibly
+make something of it
+~
+#29003
+computer cable wire~
+computer cable~
+A piece of computer cable lies here~
+~
+25 8 16385 0
+29002 0 0 29004
+3 300 300000 0
+L 0
+E
+computer cable wire~
+Looking at this piece of cable you wonder if it could ever be of use
+~
+#29004
+pocket calculator~
+a pocket calculator~
+A pocket calculator lies here~
+~
+9 2186 16385 0
+3 0 0 0
+3 600 60000 35
+L 35
+E
+pocket calculator~
+A small silver pocket calculator is a must for everyone
+~
+A
+5 2
+A
+18 2
+A
+19 3
+A
+13 20
+A
+14 -20
+$~
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+5 646 24577
+d8 2
+a9 1
+12 450000 15000
+a19 1
+L39
+d25 1
+a25 1
+25 2 16385
+d27 2
+a28 1
+6 200 200000
+d39 1
+a39 1
+25 8 16385
+d41 2
+a42 1
+3 300 300000
+d52 1
+a52 1
+9 2186 16385
+d54 2
+a55 1
+3 600 60000
+d61 1
+a61 1
+5 4
+a69 2
+L 35
+#99999
+@
+

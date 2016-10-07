@@ -1,0 +1,18 @@
+sg cast 'shocking grasp' $1
+- remove sword;wield knife;backstab $1;remove knife;wield sword
+0 remove quarterstaff;wield knife;backstab $1;remove knife;wield quarterstaff
+= remove knife^Mwield quarterstaff^M
+rk remove knife
+b backstab $1
+rq remove quarterstaff
+4 cast 'chill touch' $1
+3 cast 'magic missile' $1
+1 get all from all.corpse
+2 cast 'cure light'
+5 cast 'burning hands' $1
+6 cast 'burning hands' trickster
+wk wield knife
+bh cast 'burning hands' $1
+ct cast 'chilltouch' $1
+mm cast 'magic missile' $1
+] assist varga

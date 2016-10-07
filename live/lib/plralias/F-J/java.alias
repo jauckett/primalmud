@@ -1,0 +1,30 @@
+4
+maze
+37
+n;n;w;w;w;n;e;e;s;s;u;n;n;open french
+1
+2
+ef
+29
+get meat 2.backpack; eat meat
+1
+2
+ar
+12
+cast 'armor'
+0
+2
+cc
+17
+cast 'cure light'
+0
+2
+bf
+91
+rem lant;junk lant;junk skin;buy 20 meat; put all.meat 2.back;buy skin; buy lant; hold lant
+1
+2
+sp
+54
+say spells please; say refresh please; say heal please
+1

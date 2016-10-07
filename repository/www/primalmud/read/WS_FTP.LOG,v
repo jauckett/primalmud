@@ -1,0 +1,57 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@100.07.11 17:06 B F:\primalmud\read\conq.zip <-- primalmudwww /sandiis-www/primalmud/read conq.zip
+100.07.11 17:06 B F:\primalmud\read\mudhelp.zip <-- primalmudwww /sandiis-www/primalmud/read mudhelp.zip
+100.07.11 17:06 B F:\primalmud\read\newbie.zip <-- primalmudwww /sandiis-www/primalmud/read newbie.zip
+100.07.11 17:07 B F:\primalmud\read\quests.zip <-- primalmudwww /sandiis-www/primalmud/read quests.zip
+100.07.11 17:07 B F:\primalmud\read\read.htm <-- primalmudwww /sandiis-www/primalmud/read read.htm
+100.07.11 17:07 B F:\primalmud\read\readcont.htm <-- primalmudwww /sandiis-www/primalmud/read readcont.htm
+100.07.11 17:07 B F:\primalmud\read\readmain.htm <-- primalmudwww /sandiis-www/primalmud/read readmain.htm
+100.07.11 17:07 B F:\primalmud\read\werewolf.zip <-- primalmudwww /sandiis-www/primalmud/read werewolf.zip
+100.07.11 17:26 B F:\primalmud\read\conq.zip --> 203.164.68.191 /home/sandii/primalmud/read conq.zip
+100.07.11 17:26 B F:\primalmud\read\mudhelp.zip --> 203.164.68.191 /home/sandii/primalmud/read mudhelp.zip
+100.07.11 17:26 B F:\primalmud\read\newbie.zip --> 203.164.68.191 /home/sandii/primalmud/read newbie.zip
+100.07.11 17:26 B F:\primalmud\read\quests.zip --> 203.164.68.191 /home/sandii/primalmud/read quests.zip
+100.07.11 17:26 B F:\primalmud\read\read.htm --> 203.164.68.191 /home/sandii/primalmud/read read.htm
+100.07.11 17:26 B F:\primalmud\read\readcont.htm --> 203.164.68.191 /home/sandii/primalmud/read readcont.htm
+100.07.11 17:26 B F:\primalmud\read\readmain.htm --> 203.164.68.191 /home/sandii/primalmud/read readmain.htm
+100.07.11 17:26 B F:\primalmud\read\werewolf.zip --> 203.164.68.191 /home/sandii/primalmud/read werewolf.zip
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

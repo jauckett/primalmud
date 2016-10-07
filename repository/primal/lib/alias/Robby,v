@@ -1,0 +1,98 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@tongue : pokes his tonue out at $1. :-Q
+teleport c 'teleport' $*
+rpe reply $*
+bs rem hammer; wield dagger; backstab $*; rem dagger; wield hammer
+invis c 'invisibility' $*
+sbs rem black; wiel sword
+bsb rem sword; wiel black
+gmc get skin crate; drink skin; put skin crate
+recall c 'word of recall' $*
+panic c 'word of recall'; g all.red all.crate; q red; q red; q red; c 'heal'
+deck : decks $1
+j2 j cigarette; j joint; j astro; j blue
+j1 j jumper; j nike; j renegade; !; j whistle; j walkman; j tape
+summon c 'summon' $*
+wa wa; st
+locate c 'locate object' $*
+equip goto 297
+chant gos Chant> AUSSIE AUSSIE OI OI!!
+/w where
+/w,s who
+/w, who
+br2 buy 30 red; put all.red crate; buy 30 red; put all.red 2.crate
+puff : puffs away on his pipe
+smoke : lights his pipe
+qr3 g red crate; g red 2.crate; g red 3.crate; q red; q red; q red
+hmm : hmm's
+grr : grr's
+qrq get red crate; quaff red; get red crate; quaff red
+dr drop $1
+qr2 get red crate; get red 2.crate; quaff red; quaff red
+gc get corpse; junk corpse
+un unlock $1; open $1
+qr get red crate; quaff red
+:) : smiles happily :)
+boo : boo's you :)
+:( : pouts :(
+brw buy white; put white crate; buy 30 red; put all.red crate
+br  buy 30 red; put all.red crate
+doh : slaps his forehead ans screams DOH!
+gj get $1; junk $1
+pfin poofin steps out from behind a tree
+pfout poofout climbs into his F19 Stealth fighter and flys off...
+flop : flops $1 on the head with his immense feather duster
+scratch : scratches his head
+highfive : gives $1 the HighFive!!
+grumble : grumbles something about$*
+homer goto 293
+bite : tries to bite your finger off, but misses...
+sya say $*
+gso gos $*
+ogs gos $*
+pac put all crate
+sy say $*
+punch : punches$* square in the jaw!
+healer autoexit;c 'word of recall';s;e;e;e;s;s;e;e;e;e;s;autoexit;sleep
+tavern autoexit;s;e;e;e;s;s;e;e;e;e;s;autoexit
+gac get all crate
+wearer get all;wea all.diamond;ho hammer;ho idol;wi hammer;wea all.elven;wea all.cloak;wea all.pirate;wea claws;wea shield;op crate;put all crate;ge all.white crate;ge dagger crate;
+quitreally rem all;drop all;save;quitreally
+ah c 'advanced heal' $*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

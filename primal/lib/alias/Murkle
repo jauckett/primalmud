@@ -1,0 +1,3 @@
+bye save;quit
+pt put $1 crate
+gt get $1 crate

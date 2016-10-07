@@ -1,0 +1,18 @@
+ba backstab $1
+cs cast 'color spray'
+dr drink skin
+eat! cast 'create food'; eat mushroom
+ds drink skin
+cor get all all.corpse
+recall cast 'word of recall'
+lb cast 'lightning bolt'
+invis cast 'invisibility'
+bli cast 'blindness'
+cc cast 'cure critic'
+cl cast 'cure light'
+bh cast 'burning hands'
+arm cast 'armor'
+di cast 'detect invisibility'
+inv cast 'invisibility'
+str cast 'strength'
+gr grat ...oooOOOO*(-[ $1 ]-)*OOOOooo...

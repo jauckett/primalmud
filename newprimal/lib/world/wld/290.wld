@@ -1,0 +1,1733 @@
+#29001
+Entrance to Perseid Mining Colony Base~
+You are standing at the entrance of a large building facility. You 
+gasped a moment as you see how enormous this building appears to be. To 
+the north is a dark hallway while the south you can see the Tatooine
+Desert. 
+~
+290 5 1
+D0
+A dark hallway.
+~
+~
+0 -1 29002
+D2
+Before the Perseid Mining Colony Base.
+~
+~
+0 -1 24007
+S
+#29002
+A dark hallway~
+As you enter the building, a sliding door automatically opens to 
+welcome you into the facility. To the north is a further stretch of the 
+hallway and the south is the entrance to the base.
+~
+290 9 0
+D0
+A dark hallway.
+~
+~
+0 -1 29003
+D2
+Entrance to Perseid Mining Colony Base.
+~
+~
+0 -1 29001
+S
+#29003
+A dark hallway~
+The hallway is dark and gloomy. Furthermore, it is quiet, too 
+quiet, and makes you wonder where in the world are the dwellers of the 
+base. The hallway continues north and south.
+~
+290 9 0
+D0
+A dark intersection.
+~
+~
+0 -1 29004
+D2
+A dark hallway.
+~
+~
+0 -1 29002
+S
+#29004
+A dark intersection~
+The hallway continues north and south. However, to the east you 
+see a room which appears to belong to the base's janitors. To the west 
+is a hallway.
+~
+290 9 0
+D0
+A further extension of the hallway.
+~
+~
+0 -1 29006
+D1
+The janitors room.
+~
+~
+0 -1 29005
+D2
+A dark hallway.
+~
+~
+0 -1 29003
+D3
+Yet another hallway.
+~
+~
+0 -1 29007
+S
+#29005
+The Janitors Room~
+What can you say, it's the janitor's room!! What you see are 
+cleaning equipment, dirty overalls and what appears to be a left over
+of a doughnut; they are pretty useless to you. The only exit is the
+way where you came from.	
+~
+290 12 0
+D3
+A dark intersection.
+~
+~
+0 -1 29004
+S
+#29006
+Extension of the hallway~
+Even though it is part of the hallway, this surroundings seem to 
+be different. You can see damages to the walls, ceilings and floors.
+Fireburns, wirings hanging from the ceilings and traces of dried
+blood on the floor. To the north appears to be a room, to the east is 
+another hallway and the south is where you came from.
+~	
+290 9 0
+D0
+A room.
+~
+~
+0 -1 29008
+D1
+Another hallway.
+~
+~
+0 -1 29011
+D2
+A dark hallway.
+~
+~
+0 -1 29004
+S
+#29007
+Yet another hallway~
+	The hallway continues east and west.
+~
+290 8 0
+D1
+A dark intersection.
+~
+~
+0 -1 29004
+D3
+A corner turn.
+~
+~
+0 -1 29024
+S
+#29008
+The Green Room~
+This is the place where people are supposed to gather for a snack or
+two. In short, it was a meeting place of some sort. To the north is 
+the lounge area and to the south is the extension of the hallway.
+~
+390 8 0
+D0
+Lounge Area.
+~
+~
+0 -1 29009
+D2
+A further extension of the hallway.
+~
+~
+0 -1 29006
+S
+#29009
+Lounge Area~
+This is the place where the people sit down for some rest and
+recreation. But from the looks of it, it has been well deserted.
+To the north is a storage room and to the south is the Green room.	
+~
+390 8 0
+D0
+A storage room.
+~
+~
+0 -1 29010
+D2
+The Green Room.
+~
+~
+0 -1 29008
+S
+#29010
+A Storage Room~
+	As the sliding door automatically opens, you step into what 
+appears to be a typical storage room with shelves located at each 
+corner of the room. However, there is nothing special that attracts
+your attention. The only exit is where you came from.
+~
+290 8 0
+D2
+The lounge area.
+~
+~
+0 -1 29009
+S
+#29011
+Another hallway~
+	The hallway continues east and west.
+~
+290 9 0
+D1
+A hallway.
+~
+~
+0 -1 29012
+D3
+An extension of the hallway.
+~
+~
+0 -1 29006
+S
+#29012
+A hallway~
+	The hallway connects to east and west.
+~
+290 8 0
+D1
+A corner turn.
+~
+~
+0 -1 29013
+D3
+Another hallway.
+~
+~
+0 -1 29011
+S
+#29013
+A corner turn~
+	The corner connects to the west and south. Damages to the 
+surroundings can be seen again.
+~
+290 9 0
+D2
+An intersection.
+~
+~
+0 -1 29014
+D3
+A hallway.
+~
+~
+0 -1 29012
+S
+#29014
+An intersection~
+	The intersection leads to north, east and south.
+~
+290 9 0
+D0
+A corner turn.
+~
+~
+0 -1 29013
+D1
+A connecting corridor.
+~
+~
+0 -1 29015
+D2
+A connecting corridor.
+~
+~
+0 -1 29019
+S
+#29015
+A connecting corridor~
+	To the east of the corridor is the Secondary Communications 
+Network Room and to the west is a corridor.
+~
+290 9 0
+D1
+The Secondary Communications Network Room.
+~
+~
+0 -1 29016
+D3
+An intersection.
+~
+~
+0 1 29014
+S
+#29016
+The Secondary Communications Network Room~
+This room acts as a backup for internal and external
+communications in case the primary system fails. You see all the
+complicated gadgetry and systems but they  fail to attract your attention.
+You have a feeling that the system is not running effectively. To
+the north is the Sensor Network and Drone Monitoring Room and the 
+west is where you came from.
+~
+290 8 0
+D0
+The Sensor Network and Drone Monitoring Room.
+~
+~
+0 -1 29017
+D3
+A connecting corridor.
+~
+~
+0 -1 29015
+S
+
+#29017
+The Sensor Network and Drone Monitoring Room~
+This room monitors, evaluates and stores data from the base's
+thousands of sensors. As part of its function, it identifies 
+intruders, collates data, pinpoints trouble/system errors and 
+breaches as well as locates internal and external damages. Obviously,
+the system is not working or else it would have detected you as an
+intruder. To the east is the Internal Defence Network Room and to the
+south is the Secondary Communications Network Room.
+~
+290 8 0
+D1
+The Internal Defence Network Room.
+~
+~
+0 -1 29018
+D2
+The Secondary Communications Network Room.
+~
+~
+0 -1 29016
+S
+#29018
+The Internal Defence Network Room~
+All the internal defense mechanisms, including assault drones 
+and containment walls, are monitored and maintained here. It works
+with the main computer and sensor network in dispatching drones,
+identifying the enemy and isolating and liquidating the enemy. The only
+exit is to the west.
+~
+290 12 0
+D3
+The Sensor Network and Drone Monitoring Room.
+~
+~
+0 -1 29017
+S
+#29019
+A connecting corridor~
+	The corridor continues north and south.
+~
+290 9 0
+D0
+An intersection .
+~
+~
+0 -1 29014
+D2
+A corner turn.
+~
+~
+0 -1 29020
+S
+#29020
+A corner turn~
+	The corner connects to north and east.
+~
+290 9 0
+D0
+A connecting corridor.
+~
+~
+0 -1 29019
+D1
+Before the Command Center.
+~
+~
+0 -1 29021
+S
+#29021
+Before the Command Center~
+This used to be a restricted area. Only important personnels in 
+charge of the facility were allowed in this section. By now you more or 
+less can conclude that the place has been deserted for quite sometime.
+But the question is, why?? To the east is the Command Center and to 
+the west is a corner turn.  
+~
+290 8 0
+D1
+The Command Center.
+~
+~
+0 -1 29022
+D3
+A corner turn.
+~
+~
+0 -1 29020
+S
+#29022
+The Command Center~
+Hundreds of arrays of computer interface banks, data posts, 
+internal and external monitors, large screens and holographic display
+fields are scattered all around the area. The east leads to the 
+External Sensors and Defence Network Room and the west is where you
+came from.
+~
+290 8 0
+D1
+The External Sensors and Defence Network Room.
+~
+~
+0 -1 29023
+D3
+Before the Command Center.
+~
+~
+0 -1 29021
+S
+#29023
+The External Sensors And Defence Network Room~
+This automated area controls the outside (limited) weapon system
+and monitors approaching objects. The only exit is where you came from.
+~
+290 8 0
+D3
+The Command Center.
+~
+~
+0 -1 29022
+S
+#29024
+A corner turn~
+	The corner connects to north and east.
+~
+290 9 0
+D0
+Yet another corner turn.
+~
+~
+0 -1 29025
+D1
+Yet another hallway.
+~
+~
+0 -1 29007
+S
+#29025
+Yet another corner turn~
+	Another corner that connects south and west.
+~
+290 9 0
+D2
+A corner turn.
+~
+~
+0 -1 29024
+D3
+An intersection.
+~
+~
+0 -1 29026
+S
+#29026
+An intersection~
+	The intersection connects to the north, east and west.
+~
+290 13 0
+D0
+A connecting corridor.
+~
+~
+0 -1 29031
+D1
+Yet another corner turn.
+~
+~
+0 -1 29025
+D3
+A connecting corridor.
+~
+~
+0 -1 29027
+S
+#29027
+A connecting corridor~
+	The corridor leads to the east and west.
+~
+290 9 0
+D1
+An intersection.
+~
+~
+0 -1 29026
+D3
+Before the Construction Facilities.
+~
+~
+0 -1 29028
+S
+#29028
+Before the Construction Facilities~
+	To the south is the Construction Facilities of the Mining Base. 
+The east leads back to the corridor. 
+~
+290 9 0
+D1
+A connecting corridor.
+~
+~
+0 -1 29027
+D2
+The Construction Facilities.
+~
+~
+0 -1 29029
+S
+#29029
+The Construction Facilities~
+	This is where the mining colonist construct and repair mining
+equipment. You can see tools scattered everywhere. To the south is
+the hangar area and to the north is where you came from.
+~
+290 9 0
+D0
+Before the Construction Facilities.
+~
+~
+0 -1 29028
+D2
+A sealed hangar area.
+~
+~
+0 -1 29030
+S
+
+#29030
+A sealed hangar area~
+	This is where the heavy mining machinery are stored. Many 
+mining equipment can be seen to have been left here as well.
+The only available exit is to the north.
+~
+290 8 0
+D0
+The Construction Facilities.
+~
+~
+0 -1 29029
+S
+#29031
+A connecting corridor~
+	THe corridor continues north and south.
+~
+290 9 0
+D0
+A corner turn.
+~
+~
+0 -1 29032
+D2
+An intersection.
+~
+~
+0 -1 29026
+S
+#29032
+A corner turn~
+	The corner links east and south.
+~
+290 9 0
+D1
+A hallway.
+~
+~
+0 -1 29033
+D2
+A connecting corridor.
+~
+~
+0 -1 29031
+S
+#29033
+A hallway~
+	You come to a wide hallway. It stretches to the north and links 
+to the west.
+~
+290 9 0
+D0
+A hallway.
+~
+~
+0 -1 29034
+D3
+A corner turn.
+~
+~
+0 -1 29032
+S
+#29034
+A hallway~
+	The hallway continues north and south. 
+~
+290 9 0
+D0
+An intersection.
+~
+~
+0 -1 29035
+D2
+A hallway.
+~
+~
+0 -1 29033
+S
+#29035
+An intersection~
+	The hallway links west,north and south. 
+~
+290 9 0
+D0
+A corner turn.
+~
+~
+0 -1 29039
+D2
+A hallway.
+~
+~
+0 -1 29034
+D3
+Before the Recreation Center.
+~
+~
+0 -1 29036
+S
+#29036
+Before the Recreation Center~
+	To the west will lead you to the Recreation Center of the base.
+To the east is an intersection.
+~
+290 9 0
+D1
+An intersection.
+~
+~
+0 -1 29035
+D3
+The Recreation Center.
+~
+~
+0 -1 29037
+S
+
+#29037
+The Recreation Center~
+	This area appears to be a large compound. You see a counter
+probably used to be for bookings and reservation of some exercise
+equipment and facilities. You also noticed that there is an aerobic
+area, a small but adequate swimming pool, and some table tennis 
+tables here. To the west is a gym and to east is where you came from.
+~
+290 9 0
+D1
+Before the Recreation Center.
+~
+~
+0 -1 29036
+D3
+A gym.
+~
+~
+0 -1 29038
+S
+#29038
+A gym~
+	Well, a gym is a gym. You see all the common gym equipment here.
+Nothing special that attract your attention. The only exit is to the 
+east.
+~
+290 9 0
+D1
+The Recreation Center .
+~
+~
+0 -1 29037
+S
+#29039
+A corner turn~
+	The corner connects to the east and south.
+~
+290 9 0
+D1
+A hallway.
+~
+~
+0 -1 29040
+D2
+An intersection.
+~
+~
+0 -1 29035
+S
+#29040
+A hallway~
+	This wide hallway continues east and west.
+~
+290 9 0
+D1
+A corner turn.
+~
+~
+0 -1 29041
+D3
+A corner turn.
+~
+~
+0 -1 29039
+S
+#29041
+A corner turn~
+	Once again you reach a corner. YOu start to think that this base
+is a maze. It connects to the north and west.
+~
+290 13 0
+D0
+An intersection.
+~
+~
+0 -1 29042
+D3
+A hallway.
+~
+~
+0 -1 29040
+S
+#29042
+An intersection~
+	The intersection links to the north, south and west.
+~
+290 9 0
+D0
+A hallway.
+~
+~
+0 -1 29049
+D2
+A corner turn.
+~
+~
+0 -1 29041
+D3
+A connecting corridor.
+~
+~
+0 -1 29043
+S
+#29043
+A conecting corridor~
+	The corridor continues east and west.
+~
+290 9 0
+D1
+A connecting corridor.
+~
+~
+0 -1 29042
+D3
+A connecting corridor.
+~
+~
+0 -1 29044
+S
+#29044
+A connecting corridor~
+	The corridor continues east and west.
+~
+290 9 0
+D1
+A connecting corridor.
+~
+~
+0 -1 29043
+D3
+Before the Nutrient and Water Dispensaries.
+~
+~
+0 -1 29045
+S
+#29045
+Before the Nutrient and Water Dispensaries~
+	Further west will lead to the dispensary. The east is a 
+connecting corridor
+~
+290 9 0
+D1
+A connecting corridor.
+~
+~
+0 -1 29044
+D3
+The Nutrient and Water Dispensaries.
+~
+~
+0 -1 29046
+S
+#29046
+The Nutrient and Water Dispensaries~
+These strategically located facilities are designed to provide
+vitamins, liquid and solid protein, and water for the asking. 
+Unfortunately for you, supplies have run out. To the south is the 
+sick bay and to the east is where you came from.
+~
+290 8 0
+D1
+Before the Nutrient and Water Dispensaries.
+~
+~
+0 -1 29045
+D2
+The Sick Bay.
+~
+~
+0 -1 29047
+S
+#29047
+The Sick Bay~
+Well, it is the place where people come when they are sick,
+injured or just feel like getting some medication for minor cases.
+To the west you see a laboratory and the north is the dispensary.
+~
+290 8 0
+D0
+The Nutrient and Water Dispensaries .
+~
+~
+0 -1 29046
+D3
+A laboratory.
+~
+~
+0 -1 29048
+S
+#29048
+A laboratory~
+It appears to be a research laboratory. There are facilities for
+chemical, biological, spectographic radiation and sound analysis. 
+Something that draws your attention is a specimen that looks like a 
+crab with a sharp ended tail. It is contain in a large tube. Beside it
+you notice that a similar tube has been overturned. The only exit is to
+the east.
+~
+290 8 0
+D1
+The Sick Bay.
+~
+~
+0 -1 29047
+S
+#29049
+A hallway~
+	The hallway continues north and south. 
+~
+290 8 0
+D0
+An intersection.
+~
+~
+0 -1 29050
+D2
+An intersection.
+~
+~
+0 -1 29042
+S
+#29050
+An intersection~
+	The intersection links to the north, east and south.
+~
+290 9 0
+D0
+A hallway.
+~
+~
+0 -1 29066
+D1
+A connecting corridor.
+~
+~
+0 -1 29051
+D2
+A hallway.
+~
+~
+0 -1 29049
+S
+#29051
+A connecting corridor~
+	The east of the corridor will lead to the living quarters of the
+colonist. To the west is an intersection. 
+~
+290 9 0
+D1
+Section A Living Quarters Entrance.
+~
+~
+0 -1 29052
+D3
+An intersection.
+~
+~
+0 -1 29050
+S
+#29052
+Section A Living Quarters Entrance~
+This is the entrance to the living quarters of the colonist. To
+the east is the living quarters and to the west and south are 
+connecting corridors.
+~
+290 8 0
+D1
+Section A Living Quarters.
+~
+~
+0 -1 29053
+D2
+A connecting corridor.
+~
+~
+0 -1 29055
+D3
+A connecting corridor.
+~
+~
+0 -1 29051
+S
+#29053
+Section A Living Quarters~
+This is one of the few living quarters of the colonist. The 
+living area has an L-shaped sofa, a piano and a minibar plus other
+necessary furnitures. To the east is the bedrooms and to the west is
+where you came from.
+~
+290 8 0
+
+D1
+The bedrooms.
+~
+~
+0 -1 29054
+D3
+Section A Living Quarters Entrance.
+~
+~
+0 -1 29052
+S
+#29054
+The bedrooms~
+The bedroom is a barracks style furnishing which can accommodate
+up to 80 individuals. It is also divided to male and female section.
+The only exit is where you came from.
+~
+290 8 0
+D3
+Section A Living Quarters.
+~
+~
+0 -1 29053
+S
+#29055
+A connecting corridor~
+	The corridor continues north and south.
+~
+290 9 0
+D0
+Section A Living Quarters Entrance.
+~
+~
+0 -1 29052
+D2
+Section B Living Quarters Entrance.
+~
+~
+0 -1 29056
+S
+#29056
+Section B Living Quarters Entrance~
+	To the east is the Section B Living Quarters. To the north and
+south are corridors.	
+~
+290 8 0
+D0
+A connecting corridor.
+~
+~
+0 -1 29055
+D1
+Section B Living Quarters.
+~
+~
+0 -1 29057
+D2
+A connecting corridor.
+~
+~
+0 -1 29060
+S
+#29057
+Section B Living Quarters~
+This is one of the few living quarters of the colonist. The 
+living area has an L-shaped sofa, a piano and a minibar plus other
+necessary furnitures. To the east is the bedrooms and to the west is
+where you came from. This area is slightly bigger than Section A's.
+~
+290 8 0
+D1
+The bedrooms.
+~
+~
+0 -1 29058
+D3
+Section B Living Quarters Entrance.
+~
+~
+0 -1 29056
+S
+#29058
+The bedrooms~
+The bedroom is a barracks style furnishing which can accommodate
+up to 80 individuals. It is also divided to male and female section.
+To the east is another bedroom section and to the west is the living
+area. 
+~
+290 8 0
+D1
+Another bedroom.
+~
+~
+0 -1 29059
+D3
+Section B Living Quarters.
+~
+~
+0 -1 29057
+S
+#29059
+Another bedroom~
+The bedroom is a barracks style furnishing which can accommodate
+up to 80 individuals. It is also divided to male and female section.
+The only exit is where you came from.
+~
+290 8 0
+D3
+The bedrooms.
+~
+~
+0 -1 29058
+S
+#29060
+A connecting corridor~
+	The corridor links north and south.
+~
+290 9 0
+D0
+Section B Living Quarters Entrance.
+~
+~
+0 -1 29056
+D2
+A corner turn.
+~
+~
+0 -1 29061
+S
+#29061
+A corner turn~
+	The corner connects north and east.
+~
+290 9 0
+D0
+A connecting corridor.
+~
+~
+0 -1 29060
+D1
+Section C Living Quarters Entrance.
+~
+~
+0 -1 29062
+S
+#29062
+Section C Living Quarters Entrance~
+	To the east is the Section C living area while to the west is
+where you came from. 
+~
+290 8 0
+D1
+Section C Living Quarters.
+~
+~
+0 -1 29063
+D3
+A corner turn.
+~
+~
+0 -1 29061
+S
+#29063
+Section C Living Quarters~
+This is a dormitory style living area that accommodates up to 10
+personnel. The living area includes a dinette, a study, a mini bar and
+the necessary furnitures. To the south is the bedrooms and to the west 
+is the entrance.  
+~
+290 8 0
+D2
+The bedrooms.
+~
+~
+0 -1 29064
+D3
+Section C Living Quarters Entrance.
+~
+~
+0 -1 29062
+S
+#29064
+The bedrooms~
+This area is equip with bunk beds. Nothing special about the 
+area. To the south is the latrine and shower while to the north is the
+living area.
+~
+290 8 0
+D0
+Section C Living Quarters.
+~
+~
+0 -1 29063
+D2
+The latrine and shower.
+~
+~
+0 -1 29065
+S
+#29065
+The latrine and shower~
+It's the place where you conduct your private business. What 
+else do you need to know! The only exit is to the north.
+~
+290 8 0
+D0
+The bedrooms.
+~
+~
+0 -1 29064
+S
+#29066
+A hallway~
+	The hallway continues north and south. 
+~
+290 9 0
+D0
+A junction.
+~
+~
+0 -1 29067
+D2
+An intersection.
+~
+~
+0 -1 29050
+S
+#29067
+A junction~
+	The junction connects both west and south plus a staircase to 
+lead up to Level 1.
+~
+290 9 0
+D2
+A hallway.
+~
+~
+0 -1 29066
+D3
+A hallway.
+~
+~
+0 -1 29082
+D4
+Staircase.
+~
+~
+0 -1 29068
+S
+#29068
+Staircase~
+	It is a staircase. Down will lead you back to a junction.
+~
+290 13 0
+D0
+An intersection.
+~
+~
+0 -1 29069
+D5
+A junction.
+~
+~
+0 -1 29067
+S
+#29069
+An intersection~
+	It connects east, west and south.
+~
+290 9 0
+D1
+A connecting corridor.
+~
+~
+0 -1 29070
+D2
+Staircase.
+~
+~
+0 -1 29068
+D3
+A connecting corridor.
+~
+~
+0 -1 29078
+S
+#29070
+A connecting corridor~
+	The corridor connects east and west.
+~
+290 9 0
+D1
+A corner turn.
+~
+~
+0 -1 29071
+D3
+An intersection.
+~
+~
+0 -1 29069
+S
+#29071
+A corner turn~
+	The corner connects to west and north.
+~
+290 9 0
+D0
+A connecting corridor.
+~
+~
+0 -1 29072
+D3
+A connecting corridor.
+~
+~
+0 -1 29070
+S
+#29072
+A connecting corridor~
+	The corridor continues north and south.
+~
+290 9 0
+D0
+Another corner turn.
+~
+~
+0 -1 29073
+D2
+A corner turn.
+~
+~
+0 -1 29071
+S
+#29073
+Another corner turn~
+	To the east is the Section D Living Quarters Entrance and to the 
+south is a corridor.
+~
+290 9 0
+D1
+Section D Living Quarters Entrance.
+~
+~
+0 -1 29074
+D2
+A connecting corridor.
+~
+~
+0 -1 29072
+S
+
+#29074
+Section D Living Quarters Entrance~
+	To the east is the Section D living area while to the west is
+where you came from.	
+~
+290 9 0
+D1
+Section D Living Quarters.
+~
+~
+0 -1 29075
+D3
+Another corner turn.
+~
+~
+0 -1 29073
+S
+#29075
+Section D Living Quarters~
+This is an apartment like quarters with a well furnished decor.
+It is suited for colonist with families tagging along. To the south is
+the bedroom and to the west is the entrance.
+~
+290 8 0
+D2
+The bedroom.
+~
+~
+0 -1 29076
+D3
+Section D Living Quarters Entrance.
+~
+~
+0 -1 29074
+S
+#29076
+The bedroom~
+The bedroom is furnished with a queen size bed. Nothing special
+that catches your attention. To the north is the living area and to the
+south is the latrine and shower.
+~
+290 8 0
+D0
+Section D Living Quarters.
+~
+~
+0 -1 29075
+D2
+The latrine and shower.
+~
+~
+0 -1 29077
+S
+#29077
+The latrine and shower~
+It's the place where you conduct your private business. What 
+else do you need to know! The only exit is to the north.
+~
+290 8 0
+D0
+The bedroom.
+~
+~
+0 -1 29076
+S
+#29078
+A connecting corridor~
+	The corridor continues east and west.
+~
+290 9 0
+D1
+An intersection.
+~
+~
+0 -1 29069
+D3
+Yet another corner turn.
+~
+~
+0 -1 29079
+S
+#29079
+Yet another corner turn~
+	The north leads to the Main Operations Room (OPS) and to the
+east is a corridor.
+~
+290 9 0
+D0
+The Main Operations Room.
+~
+~
+0 -1 29080
+D1
+A connecting corridor.
+~
+~
+0 -1 29078
+S
+#29080
+The Main Operations Room~
+The main computer which is an artificial brain of the base is
+located here. It does not seemed to be functioning properly. Th primary
+communication and sensor network is also lacated here. To the north is 
+a briefing room and to the south is where you came from.
+~
+290 8 0
+D0
+A briefing room.
+~
+~
+0 -1 29081
+D2
+Yet another corner turn.
+~
+~
+0 -1 29079
+S
+#29081
+A briefing room~
+This is where the mining colonist plan, make decisions and 
+divide duties of their day to day mining activities. The only exit is
+to the south.
+~
+290 8 0
+D2
+The Main Operations Room.
+~
+~
+0 -1 29080
+S
+#29082
+A hallway~
+	The hallway continues east and west.  
+~
+290 9 0
+D1
+A junction.
+~
+~
+0 -1 29067
+D3
+A hallway.
+~
+~
+0 -1 29083
+S
+#29083
+A hallway~
+	The hallway continues east and west. 
+~
+290 9 0
+D1
+A hallway.
+~
+~
+0 -1 29082
+D3
+An intersection.
+~
+~
+0 -1 29084
+S
+#29084
+An intersection~
+	The intersection connects north, south, east and west.
+~
+290 9 0
+D0
+A connecting corridor.
+~
+~
+0 -1 29085
+D1
+A hallway.
+~
+~
+0 -1 29083
+D2
+A connecting corridor.
+~
+~
+0 -1 29097
+D3
+The messhall.
+~
+~
+0 -1 29095
+S
+#29085
+A connecting corridor~
+	The corridor continues north and south.
+~
+290 9 0
+D0
+A corner turn.
+~
+~
+0 -1 29086
+D2
+An intersection.
+~
+~
+0 -1 29084
+S
+#29086
+A corner turn~
+	The corner leads to east and south.
+~
+290 9 0
+D1
+A connecting corridor.
+~
+~
+0 -1 29087
+D2
+A connecting corridor.
+~
+~
+0 -1 29085
+S
+#29087
+A connecting corridor~
+	The corridor links to east and west.
+~
+290 9 0
+D1
+A long hallway.
+~
+~
+0 -1 29088
+D3
+A corner turn.
+~
+~
+0 -1 29086
+S
+#29088
+A long hallway~
+	The hallway continues north and west. You feel warm here. The
+climate control does not seemed to be working properly on this section. 
+~
+290 9 0
+D0
+A long hallway.
+~
+~
+0 -1 29089
+D3
+A connecting corridor.
+~
+~
+0 -1 29087
+S
+#29089
+A long hallway~
+	The hallway continues north and west. You feel warm here. The
+climate control does not seemed to be working properly on this section.
+~
+290 9 0
+D0
+Before the Main Reactor Chamber.
+~
+~
+0 -1 29090
+D2
+A long hallway.
+~
+~
+0 -1 29088
+S
+#29090
+Before the Main Reactor Chamber~
+The chamber is to the north of you. No wonder you felt so hot.
+To the south will led you back to a hallway.
+~
+290 8 0
+D0
+The Main Reactor Chamber.
+~
+~
+0 -1 29091
+D2
+A long hallway.
+~
+~
+0 -1 29089
+S
+#29091
+The Main Reactor Chamber~
+The chamber is a large compound. Here is where the base gets its
+power source. The chamber continues to the west. The south is where you
+came from.
+~
+290 8 0
+D2
+Before the Main Reactor Chamber.
+~
+~
+0 -1 29090
+D3
+The Main Reactor Chamber.
+~
+~
+0 -1 29092
+S
+#29092
+The Main Reactor Chamber~
+The chamber is a large compound. Here is where the base gets its
+power source. The chamber continues to the west and east.
+~
+290 8 0
+D1
+The Main Reactor Chamber.
+~
+~
+0 -1 29091
+D3
+The Main Reactor Chamber.
+~
+~
+0 -1 29093
+S
+#29093
+The Main Reactor Chamber~
+The chamber is a large compound. Here is where the base gets its
+power source. The chamber continues to the west and east.
+~
+290 8 0
+D1
+The Main Reactor Chamber.
+~
+~
+0 -1 29092
+D3
+The Main Reactor Chamber.
+~
+~
+0 -1 29094
+S
+#29094
+The Main Reactor Chamber~
+	The chamber is a large compound. Here is where the base gets its
+power source. Around the area, you see unusual eggs some hatched, some 
+have not. Then suddenly, you shiver in terror as you finally realised
+who/what is laying all this eggs. The Xenomorh Queen awaits you!! Rest
+in peace, or pieces!!
+~
+290 8 0
+D1
+The Main Reactor Chamber.
+~
+~
+0 -1 29093
+S
+#29095
+The messhall~
+	The place for food and drinks!! However, none for you today. To 
+the west is the kitchen and to the east is an intersection.
+~
+290 8 0
+D1
+An intersection.
+~
+~
+0 -1 29084
+D3
+The kitchen.
+~
+~
+0 -1 29096
+S
+#29096
+The Kitchen~
+It's the kitchen. You can see all the common kitchen appliances
+here. Nothing that interests you. The only exit is to the east.
+~
+400 8 0
+D1
+The messhall.
+~
+~
+0 -1 29095
+S
+#29097
+A connecting corridor~
+	The corridor continues north and south. 
+~
+290 9 0
+D0
+An intersection.
+~
+~
+0 -1 29084
+D2
+Section E Living Quarters Entrance.
+~
+~
+0 -1 29098
+S
+#29098
+Section E Living Quarters Entrance~
+	To the west is the Section E living area and to the north links
+to a corridor.
+~
+290 8 0
+D0
+A connecting corridor.
+~
+~
+0 -1 29097
+D3
+Section E Living Quarters.
+~
+~
+0 -1 29099
+S
+#29099
+Section E Living Quarters~
+This is one of the few living quarters of the colonist. The 
+living area has an L-shaped sofa, a piano and a minibar plus other
+necessary furnitures. To the west is the bedrooms and to the east is
+where you came from. The size of the area is the same as Section B's.
+~
+290 8 0
+D1
+Section E Living Quarters Entrance.
+~
+~
+0 -1 29098
+D3
+The bedrooms.
+~
+~
+0 -1 29100
+S
+#29100
+The bedrooms~
+	The bedrooms are barracks style furnishing which can accommodate
+up to 80 individuals. They are also divided to male and female section.
+The only exit is back to where you came from.
+~
+290 8 0
+D1
+Section E Living Quarters.
+~
+~
+0 -1 29099
+S
+#99999
+$~

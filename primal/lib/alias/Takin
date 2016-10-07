@@ -1,0 +1,15 @@
+qw quaff white
+l2t l 2.trickster
+lt l trickster
+cl c 'cure light' self
+co con ogre
+rr recite recall
+ba rem sword;wi dagger;ba $*;rem dagger;wi sword
+sw rem dagger;wi sword
+dg rem sword;wi dagger
+x exp
+$$ gold
+jc junk corpse
+gc get corpse
+gac get all corpse
+wa wake; stand

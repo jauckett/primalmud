@@ -1,0 +1,5551 @@
+head	1.11;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.11
+date	2004.02.19.03.41.54;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.26.00.07.04;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.12.09.05.45.01;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.11.25.05.38.05;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.11.08.11.59.20;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.20.12.01.52;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.14.05.33.28;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.16.10.27.21;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.04.11.15.00.47;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@Artus> Sync These.
+@
+text
+@#30800
+An underground cavern~
+You are in a very large underground cavern, the ceiling being so high you can't
+see it.  Anything could be living up there such as thousands of vampire bats!
+The cavern echos when you take a step, suggesting it is larger then you think.
+  
+~
+308 acdp 5 0
+D0
+~
+~
+0 0 5565
+D2
+~
+~
+0 0 30897
+S
+#30801
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 cfA 0 0
+D0
+~
+-~
+0 0 30802
+D2
+~
+~
+0 0 30896
+E
+hallway~
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!/s
+~
+E
+Hallway~
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+~
+S
+#30802
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 acd 0 0
+D0
+~
+~
+0 0 30803
+D2
+~
+-~
+0 0 30801
+S
+#30803
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D0
+~
+~
+0 0 30804
+D2
+~
+~
+0 0 30802
+S
+#30804
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D0
+~
+undefined~
+0 0 30805
+D2
+~
+~
+0 0 30803
+S
+#30805
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D0
+~
+~
+0 0 30806
+D2
+~
+~
+0 0 30804
+S
+#30806
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D0
+~
+0~
+0 0 30807
+D2
+~
+~
+0 0 30805
+S
+#30807
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!  The wall to the north seems to be blurry, as
+if there is some kind of invisible portal embedded into it.    
+~
+308 ad 0 0
+D0
+~
+~
+0 0 30801
+D1
+~
+~
+0 0 30851
+D2
+~
+~
+0 0 30806
+D3
+~
+~
+0 0 30961
+S
+#30808
+Above the stream~
+There is a magnificent embedded shape of a dragon on the wall. It is made of gold and outlined in silver. There are two purple rubies embedded in its eyes. You wonder if you should enter or move on...
+This door is radiating a very warm, yet strange purple aura.
+~
+308 di 9 0
+D2
+~
+Dragon~
+1 0 30809
+D5
+~
+~
+0 0 30928
+S
+#30809
+Death Dragon Lair~
+   You have entered the Death Dragon's Lair.  The walls, ceiling and floor are
+all lined with the same dragon imprinting as the door.  There is 1 for each
+wall, centered perfectly, and the purple rubies seem to be staring at you, with
+red protrudin iris'.  This could be a bad idea!    
+~
+308 c 128 0
+D0
+~
+Dragon~
+1 0 30808
+D2
+~
+~
+0 0 30810
+S
+#30810
+Death Dragon's Nest~
+   You are standing infront of the Death Dragon's Nest.  It is made of a
+strange purple-glowing material you have never seen before.  It raises itself
+1m off the floor and is perfecly suited to fit the Death Dragon.    
+~
+308 0 128 0
+D0
+~
+~
+0 0 30809
+S
+#30811
+Strange portal room~
+   You have arrived in the aqua-blue portal room.  It looks exactly like the
+hallway you were in as you entered the castle...  But it seems to have been cut
+off to the south, forcing the alternate route through the cave.    
+~
+308 adf 513 0
+D5
+You look down into the bright blue liquid and wonder if you should turn back, or gather up some strength from within and swim on.
+~
+~
+0 0 30812
+S
+#30812
+Underwater in the blue liquid.~
+   You notice what seems to be the top section of a steel ladder attached to
+the wall.  This must have been flooded quite a long time ago.  You can barely
+see much further then your feet as you swim.  Hopefully there is nothing living
+down here!    
+~
+308 acdfi 648 0
+D4
+~
+~
+0 0 30811
+D5
+~
+~
+0 0 30813
+S
+#30813
+Deeper underwater in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 adfi 648 0
+D4
+~
+~
+0 0 30812
+D5
+~
+~
+0 0 30814
+S
+#30814
+Very deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 adfi 648 0
+D0
+~
+~
+0 0 30815
+D4
+~
+~
+0 0 30813
+S
+#30815
+Very deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D0
+~
+~
+0 0 30816
+D2
+~
+~
+0 0 30814
+S
+#30816
+Very deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D0
+~
+~
+0 0 30817
+D2
+~
+~
+0 0 30815
+S
+#30817
+Very deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D0
+~
+~
+0 0 30818
+D2
+~
+~
+0 0 30816
+S
+#30818
+Very deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D2
+~
+~
+0 0 30817
+D4
+~
+~
+0 0 30819
+S
+#30819
+Deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D0
+~
+~
+0 0 30820
+D5
+~
+~
+0 0 30818
+S
+#30820
+Deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D0
+~
+~
+0 0 30821
+D2
+~
+~
+0 0 30819
+S
+#30821
+Deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D2
+~
+~
+0 0 30820
+D3
+~
+~
+0 0 30822
+S
+#30822
+Deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D1
+~
+~
+0 0 30821
+D3
+~
+~
+0 0 30823
+S
+#30823
+Deep in the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D1
+~
+~
+0 0 30822
+D4
+~
+~
+0 0 30824
+S
+#30824
+In the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D2
+~
+~
+0 0 30825
+D5
+~
+~
+0 0 30823
+S
+#30825
+In the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D0
+~
+~
+0 0 30824
+D1
+~
+~
+0 0 30826
+S
+#30826
+In the blue liquid.~
+   In the blue liquid, you are unable to see much further then your own body
+length!  Hopefully there is nothing living here!    
+~
+308 afiA 648 0
+D3
+~
+~
+0 0 30825
+D4
+~
+~
+0 0 30827
+S
+#30827
+A very wet hallway~
+   You are in what seems to be a continuation of the hallway, but this is above
+the water level.  There is a broken drain pipe a few metres above your head,
+dripping water into the water below.  The darkness seems to have gone and there
+is light comming from around the corner ahead.  Where is this taking you and
+what is at the end?    
+~
+308 cdf 518 0
+D2
+~
+~
+0 0 30828
+D5
+~
+~
+0 0 30826
+S
+#30828
+A slightly damp hallway~
+   You are walking down what you think is a continuation of the previous
+hallway.  As you approach the corner, it is starting to look like there is
+finally an exit out of here.  You sense the air is moving toward you and then
+back out ahead of you.    
+~
+308 d 0 0
+D0
+~
+~
+0 0 30827
+D2
+~
+~
+0 0 30829
+S
+#30829
+Hallway~
+   You are walking down what you think is a continuation of the previous
+hallway.  Your at the corner and there surely must be an exit as it is getting
+very bright.  The air movement is slightly stronger, but you sense there is
+more to this then you think.    
+~
+308 d 0 0
+D0
+~
+~
+0 0 30828
+D3
+~
+~
+0 0 30830
+S
+#30830
+Eastern end of the temple~
+   You have entered a huge room that seems to be a temple.  This must be an
+entrance to an important place!    
+~
+308 d 0 0
+D0
+~
+~
+0 0 30835
+D1
+~
+~
+0 0 30829
+D2
+~
+~
+0 0 30836
+D3
+~
+~
+0 0 30831
+S
+#30831
+Centre of the temple~
+   You are swimming in the water surrounding the statue in the centre of the
+room.  This is a magnificent place to relax as there is no ceiling above you,
+allowing the outer elements in creating life in the fountain water.  Below you
+notice that this pond is rather deep, you seem unable to penetrate the water
+any further, as if you are standing on some invisble force field under the
+surface.    
+~
+308 cehn 518 0
+D0
+~
+~
+0 0 30834
+D1
+~
+~
+0 0 30830
+D2
+~
+~
+0 0 30837
+D3
+~
+~
+0 0 30832
+S
+#30832
+Western end of the temple~
+   You are at the far end of the temple.  Examining the strange markings on the
+wall you wonder for what purpose this temple was built.    
+~
+308 d 0 0
+D0
+~
+~
+0 0 30833
+D1
+~
+~
+0 0 30831
+D2
+~
+~
+0 0 30838
+S
+#30833
+North-West corner of the temple~
+   You are at the North-West corner of the temple.  The walls seem to be very
+old and there are strange markings on them.    
+~
+308 d 0 0
+D1
+~
+~
+0 0 30834
+D2
+~
+~
+0 0 30832
+S
+#30834
+Northern end of the temple~
+   You are at the Northern middle end of the temple.  The walls seem to be very
+old and there are strange markings on them.    
+~
+308 0 0 0
+D1
+~
+~
+0 0 30835
+D2
+~
+~
+0 0 30831
+D3
+~
+~
+0 0 30833
+S
+#30835
+North-Eastern end of the temple~
+   You are at the North-Eastern corner of the temple.  The main entrance to the
+temple is just south of here.  The walls seem to be very old and there are
+strange markings on them.    
+~
+308 0 0 0
+D2
+~
+~
+0 0 30830
+D3
+~
+~
+0 0 30834
+S
+#30836
+South-East corner of the temple~
+   You are at the Sorth-Eastern corner of the temple.  The main entrance to the
+temple is just north of here.  The walls seem to be very old and there are
+strange markings on them.    
+~
+308 0 0 0
+D0
+~
+~
+0 0 30830
+D3
+~
+~
+0 0 30837
+S
+#30837
+Southern end of the temple~
+   Ou are at the Southern end of the temple.  The walls seem to be very old and
+there are strange markings on them.  There is a gold pyramid embedded into the
+wall here, outlined by blue and green interchanging rubies.    
+~
+308 d 0 0
+D0
+~
+~
+0 0 30831
+D1
+~
+~
+0 0 30836
+D2
+~
+Lost Pyramid~
+2 30804 30839
+D3
+~
+~
+0 0 30838
+S
+#30838
+South-West corner of the temple~
+   You are at the Sorth-Western corner of the temple.  The walls seem to be
+very old and there are strange markings on them.    
+~
+308 0 0 0
+D0
+~
+~
+0 0 30832
+D1
+~
+~
+0 0 30837
+S
+#30839
+Secret Passage~
+   You are in a secret passage that is very old, maybe older then the temple.
+The wall markings are similar to those in the temple.    
+~
+308 afi 0 0
+D0
+~
+Lost Pyramid~
+2 30804 30837
+D2
+~
+~
+0 0 30840
+S
+#30840
+Secret Passage~
+   You are in a secret passage that is very old, maybe older then the temple.
+The wall markings are similar to those in the temple.  This secret passage has
+come to an abrupt end.  What is this doing here if it goes nowhere!?    
+~
+308 afi 0 0
+D0
+~
+~
+0 0 30839
+D5
+~
+Trapdoor~
+2 0 30841
+S
+#30841
+Secret blue liquid tunnel~
+   You are swimming in a strange blue liquid again.  You can hardly see
+anything even with infravision cast!  You realise the trapdoor has closed on
+you and you are unable to go back up!    
+~
+308 afiA 646 0
+D5
+~
+~
+0 0 30842
+S
+#30842
+Deep in secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 520 0
+D4
+~
+~
+0 0 30841
+D5
+~
+~
+0 0 30843
+S
+#30843
+Deeper in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 520 0
+D4
+~
+~
+0 0 30842
+D5
+~
+~
+0 0 30844
+S
+#30844
+Very deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 648 0
+D4
+~
+~
+0 0 30843
+D5
+~
+~
+0 0 30845
+S
+#30845
+VERY deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 1672 0
+D4
+~
+~
+0 0 30844
+D5
+~
+~
+0 0 30846
+S
+#30846
+VERY Very deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 2696 0
+D2
+~
+~
+0 0 30847
+D4
+~
+~
+0 0 30845
+S
+#30847
+VERY Very deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!  If you went any lower then this you would surely
+freeze!    
+~
+308 afiA 2696 0
+D0
+~
+~
+0 0 30846
+D2
+~
+~
+0 0 30848
+S
+#30848
+VERY Very deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!  If you went any lower then this you would surely
+freeze!    
+~
+308 afiA 2696 0
+D0
+~
+~
+0 0 30847
+D4
+~
+~
+0 0 30849
+S
+#30849
+VERY deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 1672 0
+D4
+~
+~
+0 0 30860
+D5
+~
+undefined~
+0 0 30848
+S
+#30850
+Hallway~
+   You are standing at the top of what seems to be a very deep ancient well.  
+You can see your light reflecting back at you....  There must be water below.
+  
+~
+308 ad 0 0
+D3
+~
+~
+0 0 30851
+S
+#30851
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D1
+~
+~
+0 0 30850
+D3
+~
+~
+0 0 30807
+S
+#30852
+In the well~
+   You are in the well.  The walls are made of a blue marble stone, and are
+covered in algie.    
+~
+308 adi 9 0
+D4
+~
+~
+0 0 30850
+D5
+~
+~
+0 0 30853
+S
+#30853
+In the well~
+   You are in the well.  The walls are made of a blue marble stone, and are
+covered in algie.    
+~
+308 adi 9 0
+D4
+~
+~
+0 0 30852
+D5
+~
+~
+0 0 30854
+S
+#30854
+Bottom of the well~
+   You are swimming in the water at the bottom of the well.  The walls are made
+of a blue marble stone, and are covered in algie.  The water seems to be very
+cool.    
+~
+308 adi 9 0
+D4
+~
+~
+0 0 30853
+D5
+~
+~
+0 0 30855
+S
+#30855
+Underwater at the bottom of the well~
+   You are underwater at the bottom of the well.  The water is freezing cold!
+  
+~
+308 adfi 520 0
+D0
+~
+~
+0 0 30856
+D4
+~
+~
+0 0 30854
+S
+#30856
+Underwater in a continuation of the well~
+   You are swimming in a tunnel that is part of this well...  You wonder why
+this is here.    
+~
+308 adfi 520 0
+D0
+~
+~
+0 0 30857
+D2
+~
+~
+0 0 30855
+S
+#30857
+Underwater in a continuation of the well~
+   You are swimming in a tunnel that is part of this well...  You wonder why
+this is here.    
+~
+308 adfi 520 0
+D2
+~
+~
+0 0 30856
+D4
+~
+~
+0 0 30858
+S
+#30858
+Large underground cave~
+   As you surface you find yourself partly entangled in a large web, attached
+to the walls of this underground cave!  The current of the stream is leading to
+the north and your finding it quite difficult to keep your footing!  If it
+wasn't for this web, you would drift away with the current!    
+~
+308 acdfi 518 0
+D0
+~
+~
+0 0 30859
+D5
+~
+~
+0 0 30857
+S
+#30859
+Fast flowing underground stream~
+   You are swimming in an underground stream flowing quite rapidly to the
+north.  You struggle to stay in the one spot!    
+~
+308 d 518 0
+D0
+~
+~
+0 0 30878
+D2
+~
+~
+0 0 30858
+S
+#30860
+Very deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 648 0
+D0
+~
+~
+0 0 30861
+D5
+Pressure Door
+~
+undefined~
+0 0 30849
+S
+#30861
+Very deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 648 0
+D2
+~
+~
+0 0 30860
+D4
+~
+~
+0 0 30862
+S
+#30862
+Deeper in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 A 520 0
+D1
+~
+~
+0 0 30863
+D5
+~
+~
+0 0 30861
+S
+#30863
+Deeper in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!  The water seems a bit warmer here.    
+~
+308 afiA 520 0
+D3
+~
+~
+0 0 30862
+D4
+~
+~
+0 0 30864
+S
+#30864
+Deep in the secret blue liquid tunnel~
+   You are in an blue liquid secret tunnel.  You can hardly see anything even
+with infravision cast!    
+~
+308 afiA 520 0
+D4
+~
+~
+0 0 30865
+D5
+~
+~
+0 0 30863
+S
+#30865
+In the secret blue liquid tunnel~
+   You are swimming in the blue liquid at the end of the secret tunnel.    
+~
+308 cA 6 0
+D1
+~
+~
+0 0 30866
+D5
+~
+~
+0 0 30864
+S
+#30866
+Large Blue-stoned Portal room~
+   You are swimming in a large Blue-stoned Portal room.  The walls are very old
+and have strange markings on them above and below the water line.  There is a
+bright light source comming from high up near the ceiling lighting and heating
+up the entire room.  A large pillar rises up from under the water in the centre
+of the room, right up to this light source.  The ceiling is covered will all
+sorts of amazing carvings...  It's a wonder how they got there being so high
+up!    
+~
+308 A 6 0
+D0
+~
+~
+0 0 30867
+D2
+~
+~
+0 0 30873
+D3
+~
+~
+0 0 30865
+S
+#30867
+Large Blue-stoned Portal room~
+   You are swimming in a large Blue-stoned Portal room.  The walls are very old
+and have strange markings on them above and below the water line.  There is a
+bright light source comming from high up near the ceiling lighting and heating
+up the entire room.  A large pillar rises up from under the water in the centre
+of the room, right up to this light source.  The ceiling is covered will all
+sorts of amazing carvings...  It's a wonder how they got there being so high
+up!    
+~
+308 0 518 0
+D1
+~
+~
+0 0 30868
+D2
+~
+~
+0 0 30866
+S
+#30868
+Large Blue-stoned Portal room~
+   You are swimming in a large Blue-stoned Portal room.  The walls are very old
+and have strange markings on them above and below the water line.  There is a
+bright light source comming from high up near the ceiling lighting and heating
+up the entire room.  A large pillar rises up from under the water in the centre
+of the room, right up to this light source.  The ceiling is covered will all
+sorts of amazing carvings...  It's a wonder how they got there being so high
+up!    
+~
+308 d 518 0
+D1
+~
+~
+0 0 30869
+D3
+~
+~
+0 0 30867
+S
+#30869
+Large Blue-stoned Portal room~
+   You are swimming in a large Blue-stoned Portal room.  The walls are very old
+and have strange markings on them above and below the water line.  There is a
+bright light source comming from high up near the ceiling lighting and heating
+up the entire room.  A large pillar rises up from under the water in the centre
+of the room, right up to this light source.  The ceiling is covered will all
+sorts of amazing carvings...  It's a wonder how they got there being so high
+up!    
+~
+308 0 6 0
+D2
+~
+~
+0 0 30870
+D3
+~
+~
+0 0 30868
+S
+#30870
+Large Blue-stoned Portal room~
+   You are swimming in a large Blue-stoned Portal room.  A large pillar rises
+up from under the water in the centre of the room, right up to this light
+source.  Set into the pillar are what seem to be very old ladder supports, that
+have rusted away.  The ceiling is covered will all sorts of amazing carvings...
+It's a wonder how they got there being so high up!    
+~
+308 0 518 0
+D0
+~
+~
+0 0 30869
+D2
+~
+~
+0 0 30871
+D4
+~
+~
+0 0 30874
+S
+#30871
+Large Blue-stoned Portal room~
+   You are swimming in a large Blue-stoned Portal room.  The walls are very old
+and have strange markings on them above and below the water line.  There is a
+bright light source comming from high up near the ceiling lighting and heating
+up the entire room.  A large pillar rises up from under the water in the centre
+of the room, right up to this light source.  The ceiling is covered will all
+sorts of amazing carvings...  It's a wonder how they got there being so high
+up!    
+~
+308 0 518 0
+D0
+~
+~
+0 0 30870
+D3
+~
+~
+0 0 30872
+S
+#30872
+Large Blue-stoned Portal room~
+   You are swimming in a large Blue-stoned Portal room.  The walls are very old
+and have strange markings on them above and below the water line.  There is a
+bright light source comming from high up near the ceiling lighting and heating
+up the entire room.  A large pillar rises up from under the water in the centre
+of the room, right up to this light source.  The ceiling is covered will all
+sorts of amazing carvings...  It's a wonder how they got there being so high
+up!    
+~
+308 0 518 0
+D1
+~
+~
+0 0 30871
+D3
+~
+~
+0 0 30873
+S
+#30873
+Large Blue-stoned Portal room~
+   You are swimming in a large Blue-stoned Portal room.  The walls are very old
+and have strange markings on them above and below the water line.  There is a
+bright light source comming from high up near the ceiling lighting and heating
+up the entire room.  A large pillar rises up from under the water in the centre
+of the room, right up to this light source.  The ceiling is covered will all
+sorts of amazing carvings...  It's a wonder how they got there being so high
+up!    
+~
+308 0 518 0
+D0
+~
+~
+0 0 30866
+D1
+~
+~
+0 0 30872
+S
+#30874
+Large Blue-stoned Portal room~
+   You are heading to the top of the pillar radiating the light source.  It is
+getting brighter and warmer.    
+~
+308 c 9 0
+D4
+~
+~
+0 0 30875
+D5
+~
+~
+0 0 30870
+S
+T 30889
+#30875
+Large Blue-stoned Portal room~
+   You are nearing the top of the pillar radiating the light source.  It is
+getting alot brighter and warmer.    
+~
+308 c 9 0
+D4
+~
+~
+0 0 30876
+D5
+~
+~
+0 0 30874
+S
+T 30889
+#30876
+Large Blue-stoned Portal room~
+   You have reached the top of the pillar!  A blue door made of stone lies to
+the west.  It looks very solid and there is a carving of an octagon in the
+centre of it.  It must be protecting something important!    
+~
+308 ad 9 0
+D3
+~
+Stone~
+2 30807 30877
+D5
+~
+~
+0 0 30875
+S
+T 30889
+#30877
+Large Blue-stoned Portal room~
+   The light comming off this portal is amazingly bright.  The ceiling above
+this portal has a very detailed 6-sided red star with gold outlining carved
+into it.  The only way out is through the portal!    
+~
+308 c 128 0
+D1
+~
+Stone~
+1 0 30876
+D4
+~
+~
+0 0 30876
+D5
+~
+~
+0 0 30993
+S
+#30878
+Fast flowing underground stream~
+   You are swimming in an underground stream flowing very rapidly to the north.
+You struggle to stay in the one spot!  You realise that if you are to continue
+north, you might not be able to come back!  A few rocks lie to the east
+allowing you to get up out of this stream.    
+~
+308 adA 518 0
+D0
+~
+~
+0 0 30879
+D2
+~
+~
+0 0 30859
+D3
+~
+~
+0 0 30880
+S
+#30879
+Going over the edge of the waterfall~
+   Your struggling to prevent yourself going over the edge of the waterfall but
+the current is too strong and gets the better of you.....  Your unable to turn
+back at this point.    
+~
+308 c 1542 0
+D5
+~
+~
+0 0 30959
+S
+T 30838
+#30880
+Partly collapsed rock face~
+   You have managed to scaramble out of the fast flowing current and stand on
+some rock that has come apart from the rock face.  The rock that collapsed into
+the stream to the west must have been washed away.    
+~
+308 d 5 0
+D1
+~
+~
+0 0 30878
+D4
+~
+~
+0 0 30893
+S
+#30881
+Bottom of the waterfall~
+   You have fallen to the bottom of the waterfall, breaking just about every
+bone in your body on the rocks on the way down.  The large boulder just under
+the water surface at the bottom didn't help either.  Your skull was either
+crushed as it slammed into the boulder, or your spinal column was forced up
+into your brain.  Either way your very dead..  Too bad you have no sense!    
+~
+308 bdA 640 0
+S
+#30882
+A beautiful lookout spot~
+   You are on a small path overlooking the waterfall and lovely underground
+lake beneath you.  There are some small boulders infront of you so you are
+unable to fall unless you climb up on them.  You could imagine living here and
+listening to the peaceful You could sit here for a while and enjoy what you've
+discovered...    
+~
+308 d 0 0
+D0
+~
+~
+0 0 30894
+D1
+~
+~
+0 0 30893
+D5
+~
+~
+0 0 30883
+S
+#30883
+A lower ledge~
+   You managed to jump down on to a fairly wet ledge, in the process partly
+destroying a rather large spider web!    
+~
+308 d 5 0
+D0
+~
+~
+0 0 30894
+D3
+~
+~
+0 0 30884
+D4
+~
+~
+0 0 30882
+S
+#30884
+A lower ledge~
+   You are on the fairly wet lower ledge overlooking the magnificent lake
+below.  The sound of the waterfall is refreshing and you are getting covered in
+mist.  You better be careful here or you will surely fall!    
+~
+308 d 0 0
+D0
+~
+~
+0 0 30894
+D1
+~
+~
+0 0 30883
+D5
+~
+~
+0 0 30885
+S
+#30885
+A lower ledge~
+   You are on a ledge overlookin the lake below.  You feel refreshed as the
+mist hits your face.  You seem to be heading down closer to the lake.    
+~
+308 cd 5 0
+D0
+~
+~
+0 0 30894
+D4
+~
+~
+0 0 30884
+D5
+~
+~
+0 0 30886
+S
+#30886
+A lower ledge~
+   You have managed to jump down to another wet ledge overlooking the
+magnificent lake below.  The sound of the waterfall is getting a little
+fainter.  You seem to be heading down closer to the lake.  You better be
+careful here or you will surely fall!    
+~
+308 d 5 0
+D0
+~
+~
+0 0 30894
+D4
+~
+~
+0 0 30885
+D5
+~
+~
+0 0 30887
+S
+#30887
+A lower ledge~
+   You have managed to jump down to another wet ledge overlooking the
+magnificent lake below.  The sound of the waterfall is getting a little
+fainter.  You seem to be heading down closer to the lake.  There is a large
+boulder to your east, with a continuation of this path leading around behind
+it.  You better be careful here or you will surely fall!    
+~
+308 d 5 0
+D0
+~
+~
+0 0 30894
+D4
+~
+~
+0 0 30886
+D5
+~
+~
+0 0 30888
+S
+#30888
+Behind a large boulder~
+   As you jump down to another wet ledge behind this rather large boulder, you
+destroy a rather large spider web in the process!    
+~
+308 d 5 0
+D4
+~
+~
+0 0 30887
+D5
+~
+~
+0 0 30891
+S
+#30889
+Secret room within the pillar!~
+   You have found a hidden room carved into the pillar!    
+~
+308 f 144 0
+D4
+~
+Star~
+1 0 30890
+S
+#30890
+A pillar rising above lava!~
+   You are on a circular pillar raised above a lake of molten lava!  Above and
+below you is a red star, outlined with gold.  The only way out seems to be
+flying over the lava!    
+~
+308 cdfgA 16528 0
+D1
+~
+~
+0 0 30944
+D4
+~
+~
+0 0 30996
+D5
+~
+Star~
+1 0 30889
+S
+#30891
+Behind a large boulder~
+   You have managed to move down to the path behind this large boulder.  The
+sound of the waterfall is gone, as the large boulder blocks eerything to the
+east extremely well.    
+~
+308 d 0 0
+D0
+~
+~
+0 0 30892
+D4
+~
+~
+0 0 30888
+S
+#30892
+Small cliff face above the lake~
+   You are on a small cliff face overlooking the magnificent lake below.  This
+large boulder is to the east, but your view of the lake to the north is
+amazing.  You feel you could dive into the lake and although you will get wet,
+you feel is it safe to do so.  To the West there are two strange circles in the
+wall.  The stalagtights a few meters above your head look quite sharp!...  
+Make sure you don't bang your head!    
+~
+308 cd 0 0
+D0
+~
+~
+0 0 30935
+D2
+~
+~
+0 0 30891
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30900
+E
+hole~
+Upon peering into a hole you come to the conclusion that there is a secret trap somewhere in the room, most likely activated by walking on a pressure plate.
+~
+S
+T 30839
+#30893
+A short tunnel~
+   You have stepped up into the tunnel, containing a large spider web!  This
+was not a good idea, as this spider had worked for a few days constructing its
+web.  Hopefully you can escape it in time and head out of this small tunnel to
+the lookout!  Hopefully you can escape it in time and head out of this small
+tunnel to the lookout, or back down to the stream to safety!    
+~
+308 di 5 0
+D3
+~
+~
+0 0 30882
+D5
+~
+~
+0 0 30880
+S
+#30894
+The base of the cliff~
+   UndefinedThere is a peaceful moment as you fall through the air until BANG,
+you hit the surface of the lake with such force it breaks your spine!  You must
+be crazy to have walked off the edge of a cliff face, as your now very dead!!
+  
+~
+308 bd 0 0
+S
+#30895
+You are in the secret underwater room, ENJOY!~
+   You are swimming in the secret underwater room.    
+~
+308 nzA 8 0
+D4
+~
+Secret treasure~
+2 31812 30898
+S
+#30896
+Main hallway of the Death Castle~
+   Your in the main hallway of the Castle.  It has a cold dark feeling to it,
+suggesting death is close to you.  This castle has been here for many centuries
+as weather erosion is showing.  The moss and algie covered blocks of marble
+confirm this.  You wonder weather you should simply remove the ring you were
+given to get you the hell out of here or press on and find out what lives
+inside here.    
+~
+308 cd 0 0
+D0
+~
+~
+0 0 30801
+S
+#30897
+Before the Great Death Castle~
+   The Castle is HUGE, built of a strange blue marble it is virtually invisible
+in the darkness of the cavern.  There seems to be no clear entrance to the
+Castle other then requesting it!    
+~
+308 pA 0 0
+D0
+~
+~
+0 0 30800
+S
+#30898
+Deeper underwater beneath the statue~
+   You are swimming deeper underwater beneath the fountain.  You wonder what is
+down here.    
+~
+308 nzA 8 0
+D4
+~
+~
+0 0 30899
+D5
+~
+Secret treasure~
+2 31812 30895
+S
+#30899
+Underwater beneath the fountain.~
+   You are swimming underwater beneath the fountain.  You look up and can see
+the fountain standing above, you there seems to be some invisible field
+preventing you getting out!  You are amazed how deep this pond actually is!  
+
+~
+308 nzA 8 0
+D5
+~
+~
+0 0 30898
+S
+#30900
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 d 518 0
+D0
+~
+~
+0 0 30901
+D4
+~
+~
+0 0 30892
+D5
+~
+~
+0 0 30920
+S
+#30901
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 d 518 0
+D0
+~
+~
+0 0 30902
+D1
+~
+~
+0 0 30909
+D2
+~
+~
+0 0 30900
+D4
+~
+~
+0 0 30935
+D5
+~
+~
+0 0 30919
+S
+#30902
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 ad 518 0
+D0
+~
+~
+0 0 30904
+D1
+~
+~
+0 0 30908
+D2
+~
+~
+0 0 30901
+D3
+~
+~
+0 0 30903
+D4
+~
+~
+0 0 30934
+S
+#30903
+In the lake~
+   You are swimming in the huge underground lake fed by the underground stream.
+  
+~
+308 ad 518 0
+D1
+~
+~
+0 0 30902
+D4
+~
+~
+0 0 30931
+S
+#30904
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 ad 518 0
+D0
+~
+~
+0 0 30905
+D1
+~
+~
+0 0 30907
+D2
+~
+~
+0 0 30902
+D4
+~
+~
+0 0 30936
+S
+#30905
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.  
+The ceiling here is much closer to the water surface, and you can just fit
+beneath the sharp stalagtights hanging above your head.  Don't bang your head!
+  
+~
+308 ad 518 0
+D1
+~
+~
+0 0 30906
+D2
+~
+~
+0 0 30904
+D4
+~
+~
+0 0 30999
+S
+#30906
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.  
+The ceiling here is much closer to the water surface, and you can just fit
+beneath the sharp stalagtights hanging above your head.  Don't bang your head!
+  
+~
+308 ad 518 0
+D2
+~
+~
+0 0 30907
+D3
+~
+~
+0 0 30905
+D4
+~
+~
+0 0 30999
+S
+#30907
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 ad 518 0
+D0
+~
+~
+0 0 30906
+D1
+~
+~
+0 0 30913
+D2
+~
+~
+0 0 30908
+D3
+~
+~
+0 0 30904
+D4
+~
+~
+0 0 30937
+S
+#30908
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 ad 518 0
+D0
+~
+~
+0 0 30907
+D1
+~
+~
+0 0 30912
+D2
+~
+~
+0 0 30909
+D3
+~
+~
+0 0 30902
+D4
+~
+~
+0 0 30938
+S
+#30909
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 ad 518 0
+D0
+~
+undefined~
+0 0 30908
+D1
+~
+~
+0 0 30911
+D3
+~
+~
+0 0 30901
+D4
+~
+~
+0 0 30939
+D5
+~
+~
+0 0 30918
+S
+#30910
+Bottom of the waterfall~
+   YOU ARE GETTING POUNDED BY THE FALLING WATER FROM ABOVE!  You have decided
+you need a rather heavy showering!!  It is a rather painful shower though!  It
+must befalling from atleast 30m above you!  Not a good idea to stay here too
+long...    
+~
+308 cdA 2598 0
+D0
+~
+~
+0 0 30911
+D5
+~
+~
+0 0 30917
+S
+T 30875
+#30911
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 ad 518 0
+D0
+~
+~
+0 0 30912
+D2
+~
+~
+0 0 30910
+D3
+~
+~
+0 0 30909
+D4
+~
+~
+0 0 30940
+D5
+~
+~
+0 0 30916
+S
+#30912
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.    
+~
+308 ad 518 0
+D0
+~
+~
+0 0 30913
+D2
+~
+~
+0 0 30911
+D3
+~
+~
+0 0 30908
+D4
+~
+~
+0 0 30941
+D5
+~
+~
+0 0 30915
+S
+#30913
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.  
+The ceiling here is much closer to the water surface, and you can just fit
+beneath the sharp stalagtights hanging above your head.  Don't bang your head!
+  
+~
+308 ad 518 0
+D1
+~
+~
+0 0 30914
+D2
+~
+~
+0 0 30912
+D3
+~
+~
+0 0 30907
+D4
+~
+~
+0 0 30999
+S
+#30914
+In the lake~
+   You are swimming in the underground lake fed by the underground stream.  
+The ceiling here is much closer to the water surface, and you can just fit
+beneath the stalagtights hanging above your head.  Don't bang your head!    
+~
+308 ad 518 0
+D3
+~
+~
+0 0 30913
+D4
+~
+~
+0 0 30999
+S
+#30915
+Underwater in the lake~
+   You are swimming under the surface of the lake, and it is very cold and
+dark.  You feel there is something following you, something invisible.    
+~
+308 a 520 0
+D2
+~
+~
+0 0 30916
+D4
+~
+~
+0 0 30912
+S
+#30916
+Underwater in the lake~
+   You are swimming under the surface of the lake, and it is very cold and
+dark.  You feel there is something following you, something invisible.    
+~
+308 adfA 1544 0
+D0
+~
+~
+0 0 30915
+D2
+~
+~
+0 0 30917
+D3
+~
+~
+0 0 30918
+D4
+~
+undefined~
+0 0 30911
+S
+#30917
+Underwater beneath the waterfall~
+   You are swimming under the surface of the waterfall, where it is very cold
+and dark.  The pressure from the waterfall hitting the lake is still very
+strong.    
+~
+308 adfA 2568 0
+D0
+~
+~
+0 0 30916
+D4
+~
+~
+0 0 30910
+D5
+~
+~
+0 0 30921
+S
+T 30874
+#30918
+Underwater in the lake~
+   You are swimming under the surface of the lake, and it is very cold and
+dark.  You feel there is something following you, something invisible.    
+~
+308 a 1672 0
+D1
+~
+~
+0 0 30916
+D3
+~
+~
+0 0 30919
+D4
+~
+~
+0 0 30909
+S
+#30919
+Underwater in the lake~
+   You are swimming under the surface of the lake, and it is very cold and
+dark.  You feel there is something following you, something invisible.    
+~
+308 a 648 0
+D1
+~
+~
+0 0 30918
+D2
+~
+~
+0 0 30920
+D4
+~
+~
+0 0 30901
+S
+#30920
+Underwater in the lake~
+   You are swimming under the surface of the lake, and it is very cold and
+dark.  You feel there is something following you, something invisible.    
+~
+308 a 520 0
+D0
+~
+~
+0 0 30919
+D4
+~
+~
+0 0 30900
+S
+#30921
+Deep under the waterfall~
+   You are swimming deep underwater where the waterfall feeds the underground
+lake.  It is very very cold and dark here.  The pressure from the waterfall
+hitting the lake can still be felt here.    
+~
+308 0 1544 0
+D2
+~
+~
+0 0 30922
+D4
+~
+~
+0 0 30917
+S
+#30922
+An underwater cave...or is it?~
+   You are swimming deep underwater where the waterfall feeds the underground
+lake.  It is very very cold and dark here.  The pressure from the waterfall
+hitting the lake can still be felt here.    
+~
+308 afi 1544 0
+D0
+~
+~
+0 0 30921
+D2
+~
+~
+0 0 30923
+S
+#30923
+An underwater cave.~
+   You are swimming in what seems to be an ancient cave, filled with water.  
+The limestone walls to the west and east suggest it's been cutout over many
+years by the waterfall.    
+~
+308 afi 1544 0
+D0
+~
+~
+0 0 30922
+D4
+~
+~
+0 0 30924
+S
+#30924
+An underground cave~
+   As you surface you find yourself entangled in a large web!  It is attached
+to the walls of this ancient cave, that is party filled with water.  The
+limestone walls above the surface are covered in a strange purple glowing
+slime...  You wonder what you have gotten yourself into.    
+~
+308 dfi 518 0
+D2
+~
+~
+0 0 30925
+D5
+~
+~
+0 0 30923
+S
+#30925
+An underground cave~
+   You are swimming in what seems to be an ancient cave, partly filled with
+water.  The limestone walls above the surface are covered in a strange purple
+glowing slime...  A strange purple aura is comming from the west...  What the
+hell?    
+~
+308 0 518 0
+D0
+~
+~
+0 0 30924
+D3
+~
+~
+0 0 30926
+S
+#30926
+An underground cave~
+   You are swimming in what seems to be an ancient cave, partly filled with
+water.  The limestone walls above the surface are covered in a strange purple
+glowing slime...  A strange purple aura is comming from the west...  It is much
+brighter then you realised before.    
+~
+308 0 0 0
+D1
+~
+~
+0 0 30925
+D3
+~
+~
+0 0 30927
+S
+#30927
+An underground cave~
+   You are swimming in an ancient cave, partly filled with water and now
+radiating a very strange purple aura.  The limestone walls above the surface
+are covered in a strange purple glowing slime...  You wonder what is up
+ahead....?!    
+~
+308 i 518 0
+D1
+~
+~
+0 0 30926
+D3
+~
+~
+0 0 30928
+S
+#30928
+An underground cave~
+   You are swimming in an ancient cave, partly filled with water and now
+radiating a very bright purple aura.  The limestone walls above the surface are
+covered in a strange purple glowing slime...  You wonder what is up ahead....?!
+  
+~
+308 i 518 0
+D1
+~
+~
+0 0 30927
+D2
+~
+~
+0 0 30929
+D4
+~
+~
+0 0 30808
+S
+#30929
+End of an underground cave...~
+   You are swimming in what seems to be the end of the ancient cave.  The water
+gets very deep as you near the west end of the cave.  The purple aura is
+slightly dimmer then before.    
+~
+308 di 6 0
+D0
+~
+~
+0 0 30928
+D5
+~
+~
+0 0 30930
+S
+#30930
+Beneath the surface of the stream~
+   You are swimming beneath the surface of the stream.  There is a slight pull
+of the current to the south.  Upon close inspection you notice a small opening
+in the wall to the south....  Yet it is far too small for you to fit through.
+  
+~
+308 adfi 520 0
+D4
+~
+~
+0 0 30929
+S
+#30931
+Flying above the lake~
+   You are flying above the lake below.  The stalagtights above look quite
+sharp!...  Make sure you don't bang your head!  There are a number of rocks
+embedded in the cliff face to the west, south and north.  You feel a slight
+breeze comming from the west.    
+~
+308 ad 9 0
+D1
+~
+~
+0 0 30934
+D3
+~
+Rock~
+1 0 30932
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30903
+S
+#30932
+A tunnel~
+   You have managed to get up into this ancient tunnel hidden behind a large
+rock that rolled back into place as you passed through.  It created the
+illusion that it doesn't exist.  It is quite dry, yet very very dark.  Do you
+think you should investigate deeper, or go for a swim again?    
+~
+308 afi 0 0
+D1
+~
+rock~
+1 0 30931
+D3
+~
+~
+0 0 30933
+S
+#30933
+A tunnel~
+   You are deeper in the ancient tunnel.  It is quite dry, yet very very dark.
+Do you think you should investigate even deeper, or head back to the lake?    
+~
+308 afi 0 0
+D1
+~
+~
+0 0 30932
+D3
+~
+~
+0 0 30942
+S
+#30934
+Flying above the lake~
+   You are flying above the lake below.  The stalagtights above look quite
+sharp!...  Make sure you don't bang your head!    
+~
+308 ad 9 0
+D0
+~
+~
+0 0 30936
+D1
+~
+~
+0 0 30938
+D2
+~
+~
+0 0 30935
+D3
+~
+~
+0 0 30931
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30902
+S
+#30935
+Flying above the lake~
+   You are flying above the easiest access to the lake.  To the south is a
+cliff face make of limestone.    
+~
+308 ad 9 0
+D0
+~
+~
+0 0 30934
+D1
+~
+~
+0 0 30939
+D2
+~
+~
+0 0 30892
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30901
+S
+#30936
+Flying above the lake~
+   You are flying above the lake below.  The stalagtights above look quite
+sharp!...  Make sure you don't bang your head!    
+~
+308 ad 9 0
+D1
+~
+~
+0 0 30937
+D2
+~
+~
+0 0 30934
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30904
+S
+#30937
+Flying above the lake~
+   You are flying above the lake below.  The stalagtights above look quite
+sharp!...  Make sure you don't bang your head!    
+~
+308 ad 9 0
+D2
+~
+~
+0 0 30938
+D3
+~
+~
+0 0 30936
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30907
+S
+#30938
+Flying above the lake~
+   You are flying above the lake below.  The stalagtights above look quite
+sharp!...  Make sure you don't bang your head!    
+~
+308 ad 9 0
+D0
+~
+~
+0 0 30937
+D2
+~
+~
+0 0 30939
+D3
+~
+~
+0 0 30934
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30908
+S
+#30939
+Flying above the lake~
+   You are flying above the lake below.  The stalagtights above look quite
+sharp!...  Make sure you don't bang your head!    
+~
+308 ad 9 0
+D0
+~
+~
+0 0 30938
+D1
+~
+~
+0 0 30940
+D3
+~
+~
+0 0 30935
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30909
+S
+#30940
+Flying above the lake~
+   You are flying above the lake below.  The stalagtights above look quite
+sharp!...  Make sure you don't bang your head!    
+~
+308 ad 9 0
+D0
+~
+~
+0 0 30941
+D3
+~
+~
+0 0 30939
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30911
+S
+#30941
+Flying above the lake~
+   You are flying above the lake below.  The stalagtights above look quite
+sharp!...  Make sure you don't bang your head!    
+~
+308 ad 9 0
+D2
+~
+~
+0 0 30940
+D3
+~
+~
+0 0 30938
+D4
+~
+~
+0 0 30999
+D5
+~
+~
+0 0 30912
+S
+#30942
+A tunnel~
+   You are even deeper in the ancient tunnel.  It is quite dry, yet very very
+dark.  Do you think you should investigate even deeper, or head back to the
+lake?    
+~
+308 afi 0 0
+D1
+~
+~
+0 0 30933
+D3
+~
+~
+0 0 30943
+S
+#30943
+End of a tunnel~
+   You are very deep in the ancient tunnel.  It is quite dry, yet very very
+dark.  Do you think you should investigate even deeper, or head back to the
+lake?    
+~
+308 afi 0 0
+D1
+~
+~
+0 0 30942
+S
+#30944
+Above the molten lava!~
+   You are flying above the lake of molten lava below.  Don't fall!    
+~
+308 dgA 297 0
+D0
+~
+~
+0 0 30944
+D1
+~
+~
+0 0 30945
+D2
+~
+~
+0 0 30944
+D3
+~
+~
+0 0 30890
+D5
+~
+~
+0 0 30998
+S
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+#30945
+Above the molten lava!~
+   You are flying above the lake of molten lava below.  Don't fall!    
+~
+308 dgA 297 0
+D0
+~
+~
+0 0 30945
+D1
+~
+~
+0 0 30946
+D2
+~
+~
+0 0 30945
+D3
+~
+~
+0 0 30944
+D5
+~
+~
+0 0 30998
+S
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+#30946
+Above the molten lava!~
+   You are flying above the lake of molten lava below.  Don't fall!    
+~
+308 dgA 297 0
+D0
+~
+~
+0 0 30947
+D1
+~
+~
+0 0 30946
+D2
+~
+~
+0 0 30946
+D3
+~
+~
+0 0 30945
+D5
+~
+~
+0 0 30998
+S
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+#30947
+Above the molten lava!~
+   You are flying above the lake of molten lava below.  Don't fall!    
+~
+308 0 297 0
+D0
+~
+~
+0 0 30947
+D1
+~
+~
+0 0 30948
+D2
+~
+~
+0 0 30946
+D3
+~
+~
+0 0 30947
+D5
+~
+~
+0 0 30998
+S
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+#30948
+Above the molten lava!~
+   You are flying above the lake of molten lava below.  Don't fall!    
+~
+308 dgA 9 0
+D0
+~
+~
+0 0 30949
+D1
+~
+~
+0 0 30948
+D2
+~
+~
+0 0 30948
+D3
+~
+~
+0 0 30947
+D5
+~
+~
+0 0 30998
+S
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+#30949
+Large protruding rock out of the lava~
+   You are on a large rock sitting above the lava lake.  Somehow it has not
+melted away...  You could rest here for a while if you felt the need!    
+~
+308 dg 148 0
+D0
+~
+~
+0 0 30950
+D2
+~
+~
+0 0 30948
+D4
+~
+Ceiling~
+2 0 30992
+S
+#30950
+Above the molten lava!~
+   You are flying above the lake of molten lava below.  Don't fall!    
+~
+308 dgA 9 0
+D0
+~
+~
+0 0 30950
+D1
+~
+~
+0 0 30951
+D2
+~
+~
+0 0 30949
+D3
+~
+~
+0 0 30950
+D5
+~
+~
+0 0 30998
+S
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+#30951
+Above the molten lava!~
+   You are flying above the lake of molten lava below.  Don't fall!    
+~
+308 dgA 297 0
+D0
+~
+~
+0 0 30951
+D1
+~
+~
+0 0 30952
+D2
+~
+~
+0 0 30951
+D3
+~
+~
+0 0 30950
+D5
+~
+~
+0 0 30998
+S
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+T 30888
+#30952
+Edge of the lava lake on a small cliff~
+   You are on a small cliff above the lava lake.  It is much cooler here then
+above the lava.  This seems to be the entrance to a cave like room...    
+~
+308 d 144 0
+D3
+~
+~
+0 0 30951
+D4
+~
+~
+0 0 30953
+S
+#30953
+Stone stairs~
+   These stairs are carved out of stone and lead up to the Throne room
+~
+308 cdghA 149 0
+D4
+~
+~
+0 0 30954
+D5
+~
+~
+0 0 30952
+S
+#30954
+Stone stairs~
+   These steps are huge!  Each step must be atleast 1m high!  You wonder why
+they are so big...    
+~
+308 cdghA 149 0
+D4
+~
+~
+0 0 30955
+D5
+~
+~
+0 0 30953
+S
+#30955
+Security Room - Top of the stairs ~
+   As you regain your breath you are amazed at how high you are.  You get a
+strange feeling that something isn't wanting you here...    
+~
+308 adg 144 0
+D0
+~
+~
+0 0 30956
+D5
+~
+~
+0 0 30954
+S
+#30956
+Main Entrance to the Throne Room~
+   Lined with blue marble on the walls, floor and ceiling, this security room
+leads into the Kings Throne Room.  A desk stands here, where the Head Royal
+Security Guards sits ensuring only selected individuals get passed.  The
+holding cell is to the west where all the people that annoy the King are sent.
+  
+~
+308 d 144 0
+D0
+~
+Throne~
+2 30812 30980
+D2
+~
+~
+0 0 30955
+D3
+~
+Cell~
+2 30838 30958
+S
+#30957
+The Throne~
+   Glistening with gold and jewels, this Throne Room is everyone's dream house!
+Solid blue stone marble blocks line the walls and floors top to bottom.  There
+are three small steps leading upto the Throne, large enough for pleanty of
+entertainment up close
+~
+308 ad 0 0
+D2
+~
+~
+0 0 30982
+D5
+A secret trapdoor is crafted into the floor so well it takes a well trained eye to pick it.
+~
+Secret~
+2 30874 30983
+S
+#30958
+Holding Cell~
+   You are in the security office and really should not be here!  Made of solid
+stone, this cell is quite cool compared to the hallway.  It would be very dark
+with the door closed!    
+~
+308 df 0 0
+D1
+~
+Cell~
+1 0 30956
+S
+#30959
+Falling down the waterfall!~
+   Your falling down the waterfall
+~
+308 dfA 1536 0
+D5
+~
+~
+0 0 30960
+S
+T 30873
+#30960
+Falling down the waterfall!~
+   Your falling down the waterfall
+~
+308 dfA 1536 0
+D5
+~
+~
+0 0 30910
+S
+T 30873
+#30961
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D1
+~
+~
+0 0 30807
+D3
+~
+~
+0 0 30962
+S
+#30962
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D1
+~
+~
+0 0 30961
+D3
+~
+~
+0 0 30963
+S
+#30963
+hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D1
+~
+~
+0 0 30962
+D3
+~
+~
+0 0 30964
+S
+#30964
+Hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D0
+~
+~
+0 0 30965
+D1
+~
+~
+0 0 30963
+S
+#30965
+hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D0
+~
+~
+0 0 30966
+D2
+~
+~
+0 0 30964
+S
+#30966
+hallway~
+   This seemingly endless hallway has a strange feeling about it.  What lies at
+the end...?  If there is an end!    
+~
+308 ad 0 0
+D1
+~
+~
+0 0 30967
+D2
+~
+~
+0 0 30965
+S
+#30967
+A small ledge~
+   A small ledge made of stone is here overlooking some strange room.  Your
+unable to see what lies down beneath you.    
+~
+308 ad 0 0
+D3
+~
+~
+0 0 30966
+D5
+~
+~
+0 0 30968
+S
+#30968
+Strange room~
+   The walls are make of marble like the rest of the castle and are covered in
+algie from the moist air.    
+~
+308 ad 0 0
+D1
+~
+~
+0 0 30969
+D4
+~
+~
+0 0 30967
+S
+#30969
+Strange room~
+   The walls are make of marble like the rest of the castle and are covered in
+algie from the moist air.    
+~
+308 ad 0 0
+D1
+~
+~
+0 0 30970
+D3
+~
+~
+0 0 30968
+S
+#30970
+Strange room~
+   The walls are make of marble like the rest of the castle and are covered in
+algie from the moist air.    
+~
+308 ad 0 0
+D1
+~
+Vault~
+2 30841 30971
+D3
+~
+~
+0 0 30969
+S
+#30971
+Vault~
+   The vault is made of solid stone and is only accessable using the key.  
+There is a light in the ceiling lighting the entire room.    
+~
+308 dfh 0 0
+D3
+~
+vault~
+2 30841 30970
+S
+#30972
+Portal~
+   You are in the transportation room to the Castle surrounded by molten lava!
+The only way out is via the portal.    
+~
+308 dgA 9 0
+D0
+~
+~
+0 0 30973
+D5
+~
+~
+0 0 30998
+S
+#30973
+Sacred Ruins - Zone 1~
+   You are in Zone 1 of the sacred ruins.  The ruins are surrounded by lava and
+your only way out of here is via the portal you entered!  This place must be
+thousands of years old!    
+~
+308 dgA 9 0
+D2
+~
+~
+0 0 30972
+D4
+~
+~
+0 0 30974
+D5
+~
+~
+0 0 30998
+S
+#30974
+Sacred Ruins - Zone 2~
+   You are in Zone 2 of the sacred ruins.  This place must be thousands of
+years old!    
+~
+308 adgA 9 0
+D4
+~
+~
+0 0 30975
+D5
+~
+~
+0 0 30973
+S
+#30975
+Sacred Ruins - Zone 3~
+   You are in Zone 3 of the sacred ruins.  This place must be thousands of
+years old!    
+~
+308 adgA 9 0
+D4
+~
+~
+0 0 30976
+D5
+~
+~
+0 0 30974
+S
+#30976
+Sacred Ruins - Zone 4~
+   You are in Zone 4 of the sacred ruins.  This place must be thousands of
+years old!    
+~
+308 adgA 9 0
+D4
+~
+~
+0 0 30977
+D5
+~
+~
+0 0 30975
+S
+#30977
+Sacred Ruins - Zone 5~
+   You are in Zone 5 of the sacred ruins.  This place must be thousands of
+years old!    
+~
+308 adgA 9 0
+D4
+~
+~
+0 0 30978
+D5
+~
+~
+0 0 30976
+S
+#30978
+Sacred Ruins - Zone 6~
+   You are in Zone 6 of the sacred ruins.  This place must be thousands of
+years old!    
+~
+308 adgA 0 0
+D4
+~
+~
+0 0 30979
+D5
+~
+~
+0 0 30977
+S
+T 30851
+#30979
+Sacred Ruins - Zone 7~
+   You are in Zone 7 of the sacred ruins.  This place must be thousands of
+years old!    
+~
+308 adgA 9 0
+D4
+~
+~
+0 0 30990
+D5
+~
+~
+0 0 30978
+S
+#30980
+Large hall~
+   You are in the Kings Hall leading to the Throne
+~
+308 dA 0 0
+D0
+~
+~
+0 0 30981
+D2
+~
+throne~
+1 0 30956
+S
+#30981
+Large Hall~
+   You are in the Kings Hall leading to the Throne
+~
+308 dA 0 0
+D0
+~
+~
+0 0 30982
+D2
+~
+~
+0 0 30980
+S
+#30982
+Large Hall~
+   You are in the Kings Hall leading to the Throne
+~
+308 dA 0 0
+D0
+~
+~
+0 0 30957
+D2
+~
+~
+0 0 30981
+S
+#30983
+Waste Tunnel~
+   You are in the waste tunnel leading from the Throne Room
+~
+308 adfi 0 0
+D3
+~
+undefined~
+0 0 30984
+D4
+~
+Secret~
+1 0 30957
+S
+#30984
+Waste Tunnel~
+   You are in the waste tunnel leading from the Throne Room
+~
+308 adfi 0 0
+D1
+~
+~
+0 0 30983
+D2
+~
+~
+0 0 30985
+S
+#30985
+Waste Tunnel~
+   You are in the waste tunnel leading from the Throne Room
+~
+308 adfi 0 0
+D0
+~
+~
+0 0 30984
+D2
+~
+~
+0 0 30986
+S
+#30986
+Waste Tunnel~
+   You are in the waste tunnel leading from the Throne Room
+~
+308 adfi 0 0
+D0
+~
+~
+0 0 30985
+D2
+~
+~
+0 0 30987
+S
+#30987
+Waste Tunnel~
+   You are in the waste tunnel leading from the Throne Room
+~
+308 adfi 0 0
+D0
+~
+~
+0 0 30986
+D2
+~
+~
+0 0 30988
+S
+#30988
+Waste Tunnel~
+   You are in the waste tunnel leading from the Throne Room
+~
+308 adfi 0 0
+D0
+~
+~
+0 0 30987
+D2
+~
+~
+0 0 30989
+S
+#30989
+Portal Room~
+   You have managed to find the portal room that leads to the forbidden statue!
+  
+~
+308 adfi 0 0
+D0
+~
+~
+0 0 30988
+S
+#30990
+Sacred Ruins - Zone 8~
+   You are in Zone 8 of the sacred ruins.  This place must be thousands of
+years old!    
+~
+308 adgA 9 0
+D4
+~
+~
+0 0 30991
+D5
+~
+~
+0 0 30979
+S
+#30991
+Sacred Ruins - Zone 9~
+   You are in Zone 9 of the sacred ruins.  This place must be thousands of
+years old!    
+~
+308 adgA 9 0
+D4
+~
+~
+0 0 30992
+D5
+~
+~
+0 0 30990
+S
+#30992
+Before the Great Statue~
+   You are before the Great Statue of the Death Shadow GOD.  Be carefull!    
+~
+308 adfgA 9 0
+D5
+~
+~
+0 0 30973
+S
+T 30853
+#30993
+Beneath the Castle~
+   You are heading Beneath the Castle
+~
+308 adi 128 0
+D4
+~
+~
+0 0 30877
+D5
+~
+~
+0 0 30994
+S
+#30994
+Beneath the Castle~
+   You are heading Beneath the Castle
+~
+308 adi 128 0
+D4
+~
+~
+0 0 30993
+D5
+~
+~
+0 0 30995
+S
+#30995
+Beneath the Castle~
+   You are heading Beneath the Castle
+~
+308 adi 128 0
+D4
+~
+~
+0 0 30994
+D5
+~
+~
+0 0 30996
+S
+#30996
+Beneath the Castle~
+   You are heading Beneath the Castle
+~
+308 adi 128 0
+D4
+~
+~
+0 0 30995
+D5
+~
+~
+0 0 30890
+S
+#30997
+*empty room*~
+   It doesn't need 1 coz ppl don't go here!    
+~
+308 d 0 0
+S
+#30998
+In the molten lava~
+   As you hit the molten lava and attempt to scream out in pain, you melt away.
+Sorry your DEAD!    
+~
+308 bd 16528 0
+S
+#30999
+Amoungst the stalagtights hanging from the cave ceiling~
+   You seem to enjoy death as you now have numerous sharp stalagmite's through
+your body parts.  You shall either hang up here and rot away, or the bats will
+eat you....  Either way your very dead!    
+~
+308 abd 0 0
+S
+$~
+@
+
+
+1.10
+log
+@Artus> Keeping the repository up-to-date. This is the groundwork for the
+       release.
+@
+text
+@d33 4
+a39 4
+E
+hallway~
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!/s
+~
+@
+
+
+1.9
+log
+@Artus> Getting very close...
+@
+text
+@d3 4
+a6 1
+You are in a very large underground cavern, the ceiling being so high you can't see it. Anything could be living up there such as thousands of vampire bats! The cavern echos when you take a step, suggesting it is larger then you think.
+d8 1
+a8 1
+308 acd 5 0
+d20 2
+a21 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d33 4
+a39 4
+E
+Hallway~
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+~
+d43 2
+a44 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d58 2
+a59 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d73 2
+a74 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d88 2
+a89 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d103 2
+a104 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d118 3
+a120 2
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+The wall to the north seems to be blurry, as if there is some kind of invisible portal embedded into it.
+d157 4
+a160 2
+You have entered the Death Dragon's Lair. The walls, ceiling and floor are all lined with the same dragon imprinting as the door.
+There is 1 for each wall, centered perfectly, and the purple rubies seem to be staring at you, with red protrudin iris'. This could be a bad idea!
+d174 3
+a176 1
+You are standing infront of the Death Dragon's Nest. It is made of a strange purple-glowing material you have never seen before. It raises itself 1m off the floor and is perfecly suited to fit the Death Dragon.
+d186 3
+a188 1
+You have arrived in the aqua-blue portal room. It looks exactly like the hallway you were in as you entered the castle...but it seems to have been cut off to the south, forcing the alternate route through the cave.
+d199 4
+a202 3
+You notice what seems to be the top section of a steel ladder attached to the wall.
+This must have been flooded quite a long time ago. You can barely see much further then your feet as you swim.
+Hopefully there is nothing living down here!
+d216 2
+a217 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d231 2
+a232 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d246 2
+a247 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d261 2
+a262 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d276 2
+a277 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d291 2
+a292 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d306 2
+a307 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d321 2
+a322 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d336 2
+a337 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d351 2
+a352 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d366 2
+a367 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d381 2
+a382 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d396 2
+a397 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d411 2
+a412 2
+In the blue liquid, you are unable to see much further then your own body length!
+Hopefully there is nothing living here!
+d426 5
+a430 4
+You are in what seems to be a continuation of the hallway, but this is above the water level.
+There is a broken drain pipe a few metres above your head, dripping water into the water below.
+The darkness seems to have gone and there is light comming from around the corner ahead.
+Where is this taking you and what is at the end?
+d444 4
+a447 3
+You are walking down what you think is a continuation of the previous hallway.
+As you approach the corner, it is starting to look like there is finally an exit out of here.
+You sense the air is moving toward you and then back out ahead of you.
+d461 4
+a464 3
+You are walking down what you think is a continuation of the previous hallway.
+Your at the corner and there surely must be an exit as it is getting very bright.
+The air movement is slightly stronger, but you sense there is more to this then you think.
+d478 2
+a479 1
+You have entered a huge room that seems to be a temple. This must be an entrance to an important place!
+d501 6
+a506 2
+You are swimming in the water surrounding the statue in the centre of the room. This is a magnificent place to relax as there is no ceiling above you, allowing the outer elements in creating life in the fountain water.
+Below you notice that this pond is rather deep, you seem unable to penetrate the water any further, as if you are standing on some invisble force field under the surface.
+d528 2
+a529 1
+You are at the far end of the temple. Examining the strange markings on the wall you wonder for what purpose this temple was built.
+d547 2
+a548 1
+You are at the North-West corner of the temple. The walls seem to be very old and there are strange markings on them.
+d562 2
+a563 1
+You are at the Northern middle end of the temple. The walls seem to be very old and there are strange markings on them.
+d581 3
+a583 1
+You are at the North-Eastern corner of the temple. The main entrance to the temple is just south of here. The walls seem to be very old and there are strange markings on them.
+d597 3
+a599 1
+You are at the Sorth-Eastern corner of the temple. The main entrance to the temple is just north of here. The walls seem to be very old and there are strange markings on them.
+d613 3
+a615 1
+ou are at the Southern end of the temple. The walls seem to be very old and there are strange markings on them. There is a gold pyramid embedded into the wall here, outlined by blue and green interchanging rubies.
+d637 2
+a638 1
+You are at the Sorth-Western corner of the temple. The walls seem to be very old and there are strange markings on them.
+d652 2
+a653 1
+You are in a secret passage that is very old, maybe older then the temple. The wall markings are similar to those in the temple.
+d667 3
+a669 1
+You are in a secret passage that is very old, maybe older then the temple. The wall markings are similar to those in the temple. This secret passage has come to an abrupt end. What is this doing here if it goes nowhere!?
+d683 3
+a685 1
+You are swimming in a strange blue liquid again. You can hardly see anything even with infravision cast! You realise the trapdoor has closed on you and you are unable to go back up!
+d695 2
+a696 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d710 2
+a711 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d725 2
+a726 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d740 2
+a741 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d755 2
+a756 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d770 3
+a772 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast! If you went any lower then this you would surely freeze!
+d786 3
+a788 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast! If you went any lower then this you would surely freeze!
+d802 2
+a803 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d817 3
+a819 2
+You are standing at the top of what seems to be a very deep ancient well.
+You can see your light reflecting back at you....there must be water below.
+d829 2
+a830 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d844 2
+a845 1
+You are in the well. The walls are made of a blue marble stone, and are covered in algie.
+d859 2
+a860 1
+You are in the well. The walls are made of a blue marble stone, and are covered in algie.
+d874 3
+a876 1
+You are swimming in the water at the bottom of the well. The walls are made of a blue marble stone, and are covered in algie. The water seems to be very cool.
+d890 2
+a891 1
+You are underwater at the bottom of the well. The water is freezing cold!
+d905 2
+a906 1
+You are swimming in a tunnel that is part of this well...You wonder why this is here.
+d920 2
+a921 1
+You are swimming in a tunnel that is part of this well...You wonder why this is here.
+d935 4
+a938 2
+As you surface you find yourself partly entangled in a large web, attached to the walls of this underground cave!
+The current of the stream is leading to the north and your finding it quite difficult to keep your footing! If it wasn't for this web, you would drift away with the current!
+d952 2
+a953 1
+You are swimming in an underground stream flowing quite rapidly to the north. You struggle to stay in the one spot!
+d967 2
+a968 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d983 2
+a984 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d998 2
+a999 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d1013 2
+a1014 2
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+The water seems a bit warmer here.
+d1028 2
+a1029 1
+You are in an blue liquid secret tunnel. You can hardly see anything even with infravision cast!
+d1043 1
+a1043 1
+You are swimming in the blue liquid at the end of the secret tunnel.
+d1057 7
+a1063 4
+You are swimming in a large Blue-stoned Portal room. The walls are very old and have strange markings on them above and below the water line.
+There is a bright light source comming from high up near the ceiling lighting and heating up the entire room.
+A large pillar rises up from under the water in the centre of the room, right up to this light source.
+The ceiling is covered will all sorts of amazing carvings...It's a wonder how they got there being so high up!
+d1081 7
+a1087 4
+You are swimming in a large Blue-stoned Portal room. The walls are very old and have strange markings on them above and below the water line.
+There is a bright light source comming from high up near the ceiling lighting and heating up the entire room.
+A large pillar rises up from under the water in the centre of the room, right up to this light source.
+The ceiling is covered will all sorts of amazing carvings...It's a wonder how they got there being so high up!
+d1101 7
+a1107 4
+You are swimming in a large Blue-stoned Portal room. The walls are very old and have strange markings on them above and below the water line.
+There is a bright light source comming from high up near the ceiling lighting and heating up the entire room.
+A large pillar rises up from under the water in the centre of the room, right up to this light source.
+The ceiling is covered will all sorts of amazing carvings...It's a wonder how they got there being so high up!
+d1121 7
+a1127 4
+You are swimming in a large Blue-stoned Portal room. The walls are very old and have strange markings on them above and below the water line.
+There is a bright light source comming from high up near the ceiling lighting and heating up the entire room.
+A large pillar rises up from under the water in the centre of the room, right up to this light source.
+The ceiling is covered will all sorts of amazing carvings...It's a wonder how they got there being so high up!
+d1141 5
+a1145 3
+You are swimming in a large Blue-stoned Portal room. A large pillar rises up from under the water in the centre of the room, right up to this light source.
+Set into the pillar are what seem to be very old ladder supports, that have rusted away.
+The ceiling is covered will all sorts of amazing carvings...It's a wonder how they got there being so high up!
+d1163 7
+a1169 4
+You are swimming in a large Blue-stoned Portal room. The walls are very old and have strange markings on them above and below the water line.
+There is a bright light source comming from high up near the ceiling lighting and heating up the entire room.
+A large pillar rises up from under the water in the centre of the room, right up to this light source.
+The ceiling is covered will all sorts of amazing carvings...It's a wonder how they got there being so high up!
+d1183 7
+a1189 4
+You are swimming in a large Blue-stoned Portal room. The walls are very old and have strange markings on them above and below the water line.
+There is a bright light source comming from high up near the ceiling lighting and heating up the entire room.
+A large pillar rises up from under the water in the centre of the room, right up to this light source.
+The ceiling is covered will all sorts of amazing carvings...It's a wonder how they got there being so high up!
+d1203 7
+a1209 4
+You are swimming in a large Blue-stoned Portal room. The walls are very old and have strange markings on them above and below the water line.
+There is a bright light source comming from high up near the ceiling lighting and heating up the entire room.
+A large pillar rises up from under the water in the centre of the room, right up to this light source.
+The ceiling is covered will all sorts of amazing carvings...It's a wonder how they got there being so high up!
+d1223 2
+a1224 1
+You are heading to the top of the pillar radiating the light source. It is getting brighter and warmer.
+d1239 2
+a1240 1
+You are nearing the top of the pillar radiating the light source. It is getting alot brighter and warmer.
+d1255 3
+a1257 2
+You have reached the top of the pillar! A blue door made of stone lies to the west.
+It looks very solid and there is a carving of an octagon in the centre of it. It must be protecting something important!
+d1272 3
+a1274 2
+The light comming off this portal is amazingly bright. The ceiling above this portal has a very detailed 6-sided red star with gold outlining carved into it.
+The only way out is through the portal!
+d1292 4
+a1295 2
+You are swimming in an underground stream flowing very rapidly to the north. You struggle to stay in the one spot!
+You realise that if you are to continue north, you might not be able to come back! A few rocks lie to the east allowing you to get up out of this stream.
+d1313 3
+a1315 1
+Your struggling to prevent yourself going over the edge of the waterfall but the current is too strong and gets the better of you.....Your unable to turn back at this point.
+d1326 3
+a1328 1
+You have managed to scaramble out of the fast flowing current and stand on some rock that has come apart from the rock face. The rock that collapsed into the stream to the west must have been washed away.
+d1342 5
+a1346 2
+You have fallen to the bottom of the waterfall, breaking just about every bone in your body on the rocks on the way down. The large boulder just under the water surface at the bottom didn't help either.
+Your skull was either crushed as it slammed into the boulder, or your spinal column was forced up into your brain. Either way your very dead..Too bad you have no sense!
+d1352 5
+a1356 2
+You are on a small path overlooking the waterfall and lovely underground lake beneath you. There are some small boulders infront of you so you are unable to fall unless you climb up on them. You could imagine living here and listening to the peaceful
+You could sit here for a while and enjoy what you've discovered...
+d1374 2
+a1375 1
+You managed to jump down on to a fairly wet ledge, in the process partly destroying a rather large spider web!
+d1393 3
+a1395 2
+You are on the fairly wet lower ledge overlooking the magnificent lake below. The sound of the waterfall is refreshing and you are getting covered in mist.
+You better be careful here or you will surely fall!
+d1413 2
+a1414 1
+You are on a ledge overlookin the lake below. You feel refreshed as the mist hits your face. You seem to be heading down closer to the lake.
+d1432 4
+a1435 2
+You have managed to jump down to another wet ledge overlooking the magnificent lake below. The sound of the waterfall is getting a little fainter. You seem to be heading down closer to the lake.
+You better be careful here or you will surely fall!
+d1453 5
+a1457 2
+You have managed to jump down to another wet ledge overlooking the magnificent lake below. The sound of the waterfall is getting a little fainter. You seem to be heading down closer to the lake.
+There is a large boulder to your east, with a continuation of this path leading around behind it. You better be careful here or you will surely fall!
+d1475 2
+a1476 1
+As you jump down to another wet ledge behind this rather large boulder, you destroy a rather large spider web in the process!
+d1490 1
+a1490 1
+You have found a hidden room carved into the pillar!
+d1500 3
+a1502 1
+You are on a circular pillar raised above a lake of molten lava! Above and below you is a red star, outlined with gold. The only way out seems to be flying over the lava!
+d1520 3
+a1522 1
+You have managed to move down to the path behind this large boulder. The sound of the waterfall is gone, as the large boulder blocks eerything to the east extremely well.
+d1536 6
+a1541 4
+You are on a small cliff face overlooking the magnificent lake below. This large boulder is to the east, but your view of the lake to the north is amazing.
+You feel you could dive into the lake and although you will get wet, you feel is it safe to do so.
+To the West there are two strange circles in the wall.
+The stalagtights a few meters above your head look quite sharp!...Make sure you don't bang your head!
+d1568 5
+a1572 3
+You have stepped up into the tunnel, containing a large spider web!
+This was not a good idea, as this spider had worked for a few days constructing its web. Hopefully you can escape it in time and head out of this small tunnel to the lookout!
+Hopefully you can escape it in time and head out of this small tunnel to the lookout, or back down to the stream to safety!
+d1586 4
+a1589 1
+undefinedThere is a peaceful moment as you fall through the air until BANG, you hit the surface of the lake with such force it breaks your spine! You must be crazy to have walked off the edge of a cliff face, as your now very dead!!
+d1595 1
+a1595 1
+You are swimming in the secret underwater room.
+d1605 6
+a1610 2
+Your in the main hallway of the Castle. It has a cold dark feeling to it, suggesting death is close to you. This castle has been here for many centuries as weather erosion is showing. The moss and algie covered blocks of marble confirm this.
+You wonder weather you should simply remove the ring you were given to get you the hell out of here or press on and find out what lives inside here.
+d1620 3
+a1622 1
+The Castle is HUGE, built of a strange blue marble it is virtually invisible in the darkness of the cavern. There seems to be no clear entrance to the Castle other then requesting it!
+d1624 1
+a1624 1
+308 A 0 0
+d1632 2
+a1633 1
+You are swimming deeper underwater beneath the fountain. You wonder what is down here.
+d1647 4
+a1650 1
+You are swimming underwater beneath the fountain. You look up and can see the fountain standing above, you there seems to be some invisible field preventing you getting out! You are amazed how deep this pond actually is!
+d1660 1
+a1660 1
+You are swimming in the underground lake fed by the underground stream.
+d1678 1
+a1678 1
+You are swimming in the underground lake fed by the underground stream.
+d1704 1
+a1704 1
+You are swimming in the underground lake fed by the underground stream.
+d1730 2
+a1731 1
+You are swimming in the huge underground lake fed by the underground stream.
+d1745 1
+a1745 1
+You are swimming in the underground lake fed by the underground stream.
+d1767 4
+a1770 2
+You are swimming in the underground lake fed by the underground stream.
+The ceiling here is much closer to the water surface, and you can just fit beneath the sharp stalagtights hanging above your head. Don't bang your head!
+d1788 4
+a1791 2
+You are swimming in the underground lake fed by the underground stream.
+The ceiling here is much closer to the water surface, and you can just fit beneath the sharp stalagtights hanging above your head. Don't bang your head!
+d1809 1
+a1809 1
+You are swimming in the underground lake fed by the underground stream.
+d1835 1
+a1835 1
+You are swimming in the underground lake fed by the underground stream.
+d1861 1
+a1861 1
+You are swimming in the underground lake fed by the underground stream.
+d1887 4
+a1890 3
+YOU ARE GETTING POUNDED BY THE FALLING WATER FROM ABOVE!
+You have decided you need a rather heavy showering!! It is a rather painful shower though!
+It must befalling from atleast 30m above you! Not a good idea to stay here too long...
+d1905 1
+a1905 1
+You are swimming in the underground lake fed by the underground stream.
+d1931 1
+a1931 1
+You are swimming in the underground lake fed by the underground stream.
+d1957 4
+a1960 2
+You are swimming in the underground lake fed by the underground stream.
+The ceiling here is much closer to the water surface, and you can just fit beneath the sharp stalagtights hanging above your head. Don't bang your head!
+d1982 3
+a1984 2
+You are swimming in the underground lake fed by the underground stream.
+The ceiling here is much closer to the water surface, and you can just fit beneath the stalagtights hanging above your head. Don't bang your head!
+d1998 2
+a1999 1
+You are swimming under the surface of the lake, and it is very cold and dark. You feel there is something following you, something invisible.
+d2013 2
+a2014 1
+You are swimming under the surface of the lake, and it is very cold and dark. You feel there is something following you, something invisible.
+d2036 3
+a2038 1
+You are swimming under the surface of the waterfall, where it is very cold and dark. The pressure from the waterfall hitting the lake is still very strong.
+d2057 2
+a2058 1
+You are swimming under the surface of the lake, and it is very cold and dark. You feel there is something following you, something invisible.
+d2076 2
+a2077 1
+You are swimming under the surface of the lake, and it is very cold and dark. You feel there is something following you, something invisible.
+d2095 2
+a2096 1
+You are swimming under the surface of the lake, and it is very cold and dark. You feel there is something following you, something invisible.
+d2110 3
+a2112 1
+You are swimming deep underwater where the waterfall feeds the underground lake. It is very very cold and dark here. The pressure from the waterfall hitting the lake can still be felt here.
+d2126 3
+a2128 1
+You are swimming deep underwater where the waterfall feeds the underground lake. It is very very cold and dark here. The pressure from the waterfall hitting the lake can still be felt here.
+d2142 3
+a2144 1
+You are swimming in what seems to be an ancient cave, filled with water. The limestone walls to the west and east suggest it's been cutout over many years by the waterfall.
+d2158 4
+a2161 2
+As you surface you find yourself entangled in a large web! It is attached to the walls of this ancient cave, that is party filled with water.
+The limestone walls above the surface are covered in a strange purple glowing slime...you wonder what you have gotten yourself into.
+d2175 4
+a2178 2
+You are swimming in what seems to be an ancient cave, partly filled with water. The limestone walls above the surface are covered in a strange purple glowing slime...
+A strange purple aura is comming from the west...what the hell?
+d2192 4
+a2195 2
+You are swimming in what seems to be an ancient cave, partly filled with water. The limestone walls above the surface are covered in a strange purple glowing slime...
+A strange purple aura is comming from the west...It is much brighter then you realised before.
+d2209 4
+a2212 2
+You are swimming in an ancient cave, partly filled with water and now radiating a very strange purple aura. The limestone walls above the surface are covered in a strange purple glowing slime...
+You wonder what is up ahead....?!
+d2226 4
+a2229 2
+You are swimming in an ancient cave, partly filled with water and now radiating a very bright purple aura. The limestone walls above the surface are covered in a strange purple glowing slime...
+You wonder what is up ahead....?!
+d2247 3
+a2249 1
+You are swimming in what seems to be the end of the ancient cave. The water gets very deep as you near the west end of the cave. The purple aura is slightly dimmer then before.
+d2263 4
+a2266 2
+You are swimming beneath the surface of the stream. There is a slight pull of the current to the south.
+Upon close inspection you notice a small opening in the wall to the south....yet it is far too small for you to fit through.
+d2276 4
+a2279 2
+You are flying above the lake below. The stalagtights above look quite sharp!...Make sure you don't bang your head!
+There are a number of rocks embedded in the cliff face to the west, south and north. You feel a slight breeze comming from the west.
+d2301 4
+a2304 2
+You have managed to get up into this ancient tunnel hidden behind a large rock that rolled back into place as you passed through. It created the illusion that it doesn't exist.
+It is quite dry, yet very very dark. Do you think you should investigate deeper, or go for a swim again?
+d2318 2
+a2319 1
+You are deeper in the ancient tunnel. It is quite dry, yet very very dark. Do you think you should investigate even deeper, or head back to the lake?
+d2333 2
+a2334 1
+You are flying above the lake below. The stalagtights above look quite sharp!...Make sure you don't bang your head!
+d2364 2
+a2365 1
+You are flying above the easiest access to the lake. To the south is a cliff face make of limestone.
+d2391 2
+a2392 1
+You are flying above the lake below. The stalagtights above look quite sharp!...Make sure you don't bang your head!
+d2414 2
+a2415 1
+You are flying above the lake below. The stalagtights above look quite sharp!...Make sure you don't bang your head!
+d2437 2
+a2438 1
+You are flying above the lake below. The stalagtights above look quite sharp!...Make sure you don't bang your head!
+d2464 2
+a2465 1
+You are flying above the lake below. The stalagtights above look quite sharp!...Make sure you don't bang your head!
+d2491 2
+a2492 1
+You are flying above the lake below. The stalagtights above look quite sharp!...Make sure you don't bang your head!
+d2514 2
+a2515 1
+You are flying above the lake below. The stalagtights above look quite sharp!...Make sure you don't bang your head!
+d2537 3
+a2539 1
+You are even deeper in the ancient tunnel. It is quite dry, yet very very dark. Do you think you should investigate even deeper, or head back to the lake?
+d2553 3
+a2555 1
+You are very deep in the ancient tunnel. It is quite dry, yet very very dark. Do you think you should investigate even deeper, or head back to the lake?
+d2565 1
+a2565 1
+You are flying above the lake of molten lava below. Don't fall!
+d2671 1
+a2671 1
+You are flying above the lake of molten lava below. Don't fall!
+d2777 1
+a2777 1
+You are flying above the lake of molten lava below. Don't fall!
+d2883 1
+a2883 1
+You are flying above the lake of molten lava below. Don't fall!
+d2989 1
+a2989 1
+You are flying above the lake of molten lava below. Don't fall!
+d3095 2
+a3096 1
+You are on a large rock sitting above the lava lake. Somehow it has not melted away...You could rest here for a while if you felt the need!
+d3114 1
+a3114 1
+You are flying above the lake of molten lava below. Don't fall!
+d3220 1
+a3220 1
+You are flying above the lake of molten lava below. Don't fall!
+d3326 2
+a3327 1
+You are on a small cliff above the lava lake. It is much cooler here then above the lava. This seems to be the entrance to a cave like room...
+d3341 1
+a3341 1
+These stairs are carved out of stone and lead up to the Throne room
+d3355 2
+a3356 1
+These steps are huge! Each step must be atleast 1m high! You wonder why they are so big...
+d3370 2
+a3371 1
+As you regain your breath you are amazed at how high you are. You get a strange feeling that something isn't wanting you here...
+d3385 5
+a3389 3
+Lined with blue marble on the walls, floor and ceiling, this security room leads into the Kings Throne Room.
+A desk stands here, where the Head Royal Security Guards sits ensuring only selected individuals get passed.
+The holding cell is to the west where all the people that annoy the King are sent.
+d3407 4
+a3410 2
+Glistening with gold and jewels, this Throne Room is everyone's dream house!
+Solid blue stone marble blocks line the walls and floors top to bottom. There are three small steps leading upto the Throne, large enough for pleanty of entertainment up close
+d3425 3
+a3427 2
+You are in the security office and really should not be here!
+Made of solid stone, this cell is quite cool compared to the hallway. It would be very dark with the door closed!
+d3437 1
+a3437 1
+Your falling down the waterfall
+d3448 1
+a3448 1
+Your falling down the waterfall
+d3459 2
+a3460 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d3474 2
+a3475 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d3489 2
+a3490 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d3504 2
+a3505 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d3519 2
+a3520 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d3534 2
+a3535 1
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+d3549 2
+a3550 1
+A small ledge made of stone is here overlooking some strange room. Your unable to see what lies down beneath you.
+d3564 2
+a3565 1
+The walls are make of marble like the rest of the castle and are covered in algie from the moist air.
+d3579 2
+a3580 1
+The walls are make of marble like the rest of the castle and are covered in algie from the moist air.
+d3594 2
+a3595 1
+The walls are make of marble like the rest of the castle and are covered in algie from the moist air.
+d3609 2
+a3610 1
+The vault is made of solid stone and is only accessable using the key. There is a light in the ceiling lighting the entire room.
+d3620 2
+a3621 1
+You are in the transportation room to the Castle surrounded by molten lava! The only way out is via the portal.
+d3635 3
+a3637 1
+You are in Zone 1 of the sacred ruins. The ruins are surrounded by lava and your only way out of here is via the portal you entered! This place must be thousands of years old!
+d3655 2
+a3656 1
+You are in Zone 2 of the sacred ruins. This place must be thousands of years old!
+d3670 2
+a3671 1
+You are in Zone 3 of the sacred ruins. This place must be thousands of years old!
+d3685 2
+a3686 1
+You are in Zone 4 of the sacred ruins. This place must be thousands of years old!
+d3700 2
+a3701 1
+You are in Zone 5 of the sacred ruins. This place must be thousands of years old!
+d3715 2
+a3716 1
+You are in Zone 6 of the sacred ruins. This place must be thousands of years old!
+d3731 2
+a3732 1
+You are in Zone 7 of the sacred ruins. This place must be thousands of years old!
+d3746 1
+a3746 1
+You are in the Kings Hall leading to the Throne
+d3760 1
+a3760 1
+You are in the Kings Hall leading to the Throne
+d3774 1
+a3774 1
+You are in the Kings Hall leading to the Throne
+d3788 1
+a3788 1
+You are in the waste tunnel leading from the Throne Room
+d3802 1
+a3802 1
+You are in the waste tunnel leading from the Throne Room
+d3816 1
+a3816 1
+You are in the waste tunnel leading from the Throne Room
+d3830 1
+a3830 1
+You are in the waste tunnel leading from the Throne Room
+d3844 1
+a3844 1
+You are in the waste tunnel leading from the Throne Room
+d3858 1
+a3858 1
+You are in the waste tunnel leading from the Throne Room
+d3872 2
+a3873 1
+You have managed to find the portal room that leads to the forbidden statue!
+d3883 2
+a3884 1
+You are in Zone 8 of the sacred ruins. This place must be thousands of years old!
+d3898 2
+a3899 1
+You are in Zone 9 of the sacred ruins. This place must be thousands of years old!
+d3913 1
+a3913 1
+You are before the Great Statue of the Death Shadow GOD. Be carefull!
+d3924 1
+a3924 1
+You are heading Beneath the Castle
+d3938 1
+a3938 1
+You are heading Beneath the Castle
+d3952 1
+a3952 1
+You are heading Beneath the Castle
+d3966 1
+a3966 1
+You are heading Beneath the Castle
+d3980 1
+a3980 1
+It doesn't need 1 coz ppl don't go here!
+d3986 2
+a3987 2
+As you hit the molten lava and attempt to scream out in pain, you melt away.
+Sorry your DEAD!
+d3993 3
+a3995 2
+You seem to enjoy death as you now have numerous sharp stalagmite's through your body parts.
+You shall either hang up here and rot away, or the bats will eat you....either way your very dead!
+@
+
+
+1.8
+log
+@Artus> Synchronising.
+@
+text
+@d1420 1
+d1440 4
+d3759 2
+a3760 10
+*** free room ***~
+You are in a very large underground cavern, the ceiling being so high you can't see it. Anything could be living up there such as thousands of vampire bats! The cavern echos when you take a step, suggesting it is larger then you think.
+~
+308 ad 0 0
+D0
+~
+~
+0 0 30800
+D2
+~
+d3762 1
+a3762 1
+0 0 30897
+@
+
+
+1.7
+log
+@Artus> Keeping everything up to date..
+@
+text
+@d2 2
+a3 3
+A narrow forest trail~
+Join this room to room 1902 - mountain area!
+As you fight your way through the dense overgrowth taking you deeper into the forest, you realise that perhaps it has remained unused to allow such dense overgrowth for a good reason!
+d5 1
+a5 1
+308 c 5 0
+d9 5
+a13 1
+0 0 30997
+d1486 1
+a1486 2
+The forest reveals a magnificent structure, known in legend as the Great Death Castle. Hidden by the forest your lucky to even find it amoungst all the over growth of trees and vines.
+The Castle is HUGE, built of a strange blue marble it glistens in the sun light of the day and becomes virtually invisible in the darkness of the night. There seems to be no clear entrance to the Caslte other then requesting it!
+d1488 2
+a1489 2
+308 A 3 0
+D1
+d1492 1
+a1492 1
+0 0 30997
+d3754 2
+a3755 2
+A narrow forest trail~
+The trail leads off to the east where you can partly see a large structure through the flora of the forest.
+d3757 2
+a3758 2
+308 0 3 0
+D2
+d3762 1
+a3762 1
+D3
+@
+
+
+1.6
+log
+@Artus> Just up-to-dating....
+@
+text
+@d2 3
+a4 2
+Link to Death Castle from other zone~
+Use this room to link zone 308 to another zone
+d10 1
+a10 1
+0 0 30897
+d16 1
+a16 1
+308 cdfA 0 0
+d38 1
+a38 1
+308 ac 0 0
+d52 1
+a52 1
+308 a 0 0
+d66 1
+a66 1
+308 a 0 0
+d80 1
+a80 1
+308 a 0 0
+d94 1
+a94 1
+308 a 0 0
+d109 1
+a109 1
+308 a 0 0
+d724 1
+a724 1
+308 afhiA 2696 0
+d767 1
+a767 1
+308 ai 0 0
+d777 1
+a777 1
+308 0 0 0
+d791 1
+a791 1
+308 ai 9 0
+d805 1
+a805 1
+308 ai 9 0
+d819 1
+a819 1
+308 ai 9 0
+d833 1
+a833 1
+308 afi 520 0
+d847 1
+a847 1
+308 afi 520 0
+d861 1
+a861 1
+308 afi 520 0
+d876 1
+a876 1
+308 acfi 518 0
+d895 4
+d1143 1
+d1158 1
+d1174 1
+d1185 4
+d1199 1
+a1199 1
+308 afiA 518 0
+d1204 4
+d1214 1
+a1214 1
+At the edge of a waterfall!~
+d1277 4
+d1310 4
+d1329 4
+d1348 4
+d1362 4
+d1390 4
+d1408 4
+d1437 1
+d1444 1
+a1444 1
+308 d 5 0
+d1471 3
+a1473 3
+Entrance to the Death Castle~
+You are behind the drawbridge leading out of the Death Castle. It has an cold dark feeling to it. This castle has been here for many centuries as weather erosion is showing. The moss and algie covered blocks of marble confirm this.
+You wonder weather you should turn back or see what lives inside. It could be worth the effort!!
+d1483 2
+a1484 1
+You are before the Great Death Castle, renound for it's evil presenses. The Castle is huge, made of blue marble, it glistens in the sun light and becomes nearly invisible when dark.
+d1486 2
+a1487 2
+308 eA 3 0
+D2
+d1490 1
+a1490 1
+0 0 30800
+d1744 1
+a1744 1
+308 d 3622 0
+d1754 1
+d1863 1
+a1863 1
+308 a 1544 0
+d1885 1
+a1885 1
+308 0 2568 0
+d1899 1
+d2394 80
+d2500 80
+d2606 80
+d2712 80
+d2818 80
+d2942 80
+d3048 80
+d3132 1
+a3132 1
+308 dg 144 0
+d3241 1
+d3246 1
+a3246 1
+308 dfA 2560 0
+d3252 1
+d3257 1
+a3257 1
+308 a 0 0
+d3271 1
+a3271 1
+308 a 0 0
+d3285 1
+a3285 1
+308 a 0 0
+d3299 1
+a3299 1
+308 a 0 0
+d3313 1
+a3313 1
+308 a 0 0
+d3327 1
+a3327 1
+308 a 0 0
+d3404 2
+a3405 2
+Transportation to the Castle~
+You are in the transportation room to the Castle
+d3407 1
+a3407 1
+308 d 0 0
+d3412 4
+d3418 6
+a3423 2
+Transportation room between worlds~
+You are in the transportation room between the Castle and the Sacred Ruins
+d3425 2
+a3426 2
+308 d 0 0
+D1
+d3430 1
+a3430 1
+D2
+d3433 1
+a3433 1
+0 0 30972
+d3436 5
+a3440 2
+Transportation to the Sacred Ruins~
+You are in the transportation room that links to the Sacred Ruins
+d3442 3
+a3444 2
+308 d 0 0
+D3
+a3448 1
+T 30844
+d3450 2
+a3451 2
+Transportation room to Castle~
+You are in the transportation room that leads to the Castle. This place looks to be very very old. Your foot prints are clearly visible as the dust that settles on the ground is rather thick.
+d3453 2
+a3454 2
+308 adfhx 0 0
+D0
+d3458 4
+d3464 2
+a3465 2
+Sacred ruins~
+You are in the sacred ruins of the Death Shadow God. This place must be thousands of years old!
+d3467 2
+a3468 2
+308 adfgx 16384 0
+D2
+d3471 2
+a3472 2
+0 0 30975
+D4
+d3475 1
+a3475 1
+0 0 30977
+d3478 2
+a3479 2
+Sacred ruins~
+You are in the sacred ruins of the Death Shadow God. This place must be thousands of years old!
+d3481 2
+a3482 2
+308 adfgx 16384 0
+D0
+d3492 2
+a3493 2
+Sacred ruins~
+You are in the sacred ruins of the Death Shadow God. This place must be thousands of years old!
+d3495 2
+a3496 2
+308 adfgx 16384 0
+D2
+d3499 2
+a3500 2
+0 0 30977
+D4
+d3503 1
+a3503 1
+0 0 30979
+d3507 6
+a3512 2
+Before the statue~
+You are in the sacred ruins before the statue
+d3514 1
+a3514 1
+308 dx 16384 0
+a3519 1
+T 30853
+d3647 2
+a3648 2
+Waste Tunnel~
+You are in the waste tunnel leading from the Throne Room
+a3654 4
+D2
+~
+~
+0 0 30990
+d3657 2
+a3658 2
+Waste Tunnel~
+You are in the waste tunnel leading from the Throne Room
+d3660 2
+a3661 2
+308 adfi 9 0
+D0
+d3664 1
+a3664 1
+0 0 30989
+d3668 1
+a3668 1
+0 0 30991
+d3671 2
+a3672 2
+Waste Tunnel~
+You are in the waste tunnel leading from the Throne Room
+d3674 1
+a3674 1
+308 adfi 9 0
+d3678 1
+a3678 1
+0 0 30990
+d3682 1
+a3682 1
+0 0 30992
+d3685 2
+a3686 2
+Waste Tunnel~
+You are in the waste tunnel leading from the Throne Room
+d3688 2
+a3689 2
+308 adfi 9 0
+D4
+d3692 1
+a3692 5
+0 0 30991
+D5
+~
+Ceiling~
+1 0 30949
+d3694 1
+d3751 14
+@
+
+
+1.5
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@d25 4
+a31 4
+E
+hallway~
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!/s
+~
+d1173 8
+d1426 3
+a1428 5
+Moat outside Death Castle~
+You are standing on the drawbridge leading into the Death Castle. It has been lowered across the river to your left and right, so the castle can be accsessed by anyone.
+It has an cold dark feeling to it. This castle has been here for many centuries as weather erosion is showing. The moss and algie covered blocks of marble confirm this.
+You wonder weather you should turn back or see what lives inside.
+It could be worth the effort!!
+d1437 2
+a1438 2
+Entrance to the Death Castle~
+You are standing infront of the moat to the Death Castle. This is a huge castle made of blue marble, and looks quite eery.
+d1440 1
+a1440 1
+308 hA 2 0
+d2428 1
+a2428 1
+308 dgA 0 0
+d2472 1
+a2472 1
+308 dgA 0 0
+d2597 3
+a2599 2
+The King's Throne~
+You are gaim to even consider entering here! GOOD LUCK!
+d2607 1
+d2610 1
+a2610 1
+1 0 30983
+a2768 2
+T 30844
+T 30845
+d2794 2
+a2795 2
+Intergallatic transport room~
+You are in the transportation room between the planets of this solar system.
+d2798 1
+a2798 1
+D1
+d2804 2
+a2805 2
+Intergallatic transport room~
+You are in the transportation room between the planets of this solar system.
+d2812 1
+a2812 1
+D3
+d2818 2
+a2819 2
+Intergallatic transport room~
+You are in the transportation room between the planets of this solar system.
+d2827 1
+d2829 2
+a2830 2
+Sacred ruins~
+You are in the sacred ruins of the Death Shadow God. This place must be thousands of years old!
+d2832 1
+a2832 1
+308 adfh 0 0
+d2842 2
+a2843 2
+308 adfg 16384 0
+D0
+d2846 2
+a2847 2
+0 0 30977
+D2
+d2850 1
+a2850 1
+0 0 30975
+d2856 1
+a2856 1
+308 adfg 0 0
+d2861 1
+a2861 1
+D2
+d2870 2
+a2871 2
+308 adfg 0 0
+D0
+d2874 2
+a2875 2
+0 0 30979
+D2
+d2878 1
+a2878 1
+0 0 30977
+d2885 2
+a2886 2
+308 d 0 0
+D2
+d2891 1
+d2935 2
+a2936 2
+Escape tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d2938 1
+a2938 1
+308 adefi 0 0
+d2949 2
+a2950 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d2952 1
+a2952 1
+308 adefi 0 0
+d2963 2
+a2964 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d2966 1
+a2966 1
+308 adefi 0 0
+d2977 2
+a2978 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d2980 1
+a2980 1
+308 adefi 0 0
+d2991 2
+a2992 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d2994 1
+a2994 1
+308 adefi 0 0
+d3005 2
+a3006 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d3008 1
+a3008 1
+308 adefi 0 0
+d3019 2
+a3020 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d3022 1
+a3022 1
+308 adefi 0 0
+d3033 2
+a3034 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d3036 1
+a3036 1
+308 adefi 9 0
+d3047 2
+a3048 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d3050 1
+a3050 1
+308 adefi 9 0
+d3061 2
+a3062 2
+Escape Tunnel~
+You are in the Escape tunnel from the Kings Throne Room
+d3064 1
+a3064 1
+308 adefi 9 0
+d3074 56
+@
+
+
+1.4
+log
+@Artus> A3_0_315
+@
+text
+@d25 4
+a31 4
+E
+Hallway~
+This seemingly endless hallway has a strange feeling about it. What lies at the end...? If there is an end!
+~
+d1331 1
+a1331 1
+308 fx 144 0
+d1434 1
+a1434 1
+308 A 2 0
+d2457 4
+d2571 1
+a2571 1
+Holding cells and main entrance to Throne Room~
+d2580 1
+a2580 1
+2 30812 30957
+d2594 1
+a2594 1
+308 ad 144 0
+d2597 6
+a2602 2
+Throne~
+1 30812 30956
+d2873 1
+d2884 182
+a3065 1
+T 30853
+@
+
+
+1.3
+log
+@Artus> Checking In.
+@
+text
+@d15 1
+a15 1
+308 acdfA 512 0
+d37 1
+a37 1
+308 c 512 0
+a41 4
+D1
+~
+~
+0 0 30802
+a45 4
+D3
+~
+~
+0 0 30802
+d51 1
+a51 1
+308 0 512 0
+a55 4
+D1
+~
+~
+0 0 30803
+a59 4
+D3
+~
+~
+0 0 30803
+d65 1
+a65 1
+308 0 512 0
+a69 4
+D1
+~
+~
+0 0 30804
+a73 4
+D3
+~
+~
+0 0 30804
+d79 1
+a79 1
+308 0 512 0
+a83 4
+D1
+~
+~
+0 0 30805
+a87 4
+D3
+~
+~
+0 0 30805
+d93 1
+a93 1
+308 0 512 0
+a97 4
+D1
+~
+~
+0 0 30806
+a101 4
+D3
+~
+undefined~
+0 0 30806
+a105 1
+An unusual inscription of an octagon is carved into the wall to the east...you wonder why..
+d108 1
+a108 1
+308 0 512 0
+d124 1
+a124 1
+0 0 30807
+a770 4
+D5
+~
+~
+0 0 30852
+d1193 1
+a1193 1
+308 c 518 0
+d1197 1
+a1197 1
+0 0 30881
+d1199 1
+d1419 1
+a1419 1
+You are standing on the moat before the Death Castle. It has been lowered across the river to your left and right, so the castle can be accsessed by anyone.
+a1428 4
+D2
+~
+~
+0 0 30897
+a1434 4
+D0
+~
+~
+0 0 30896
+d2607 269
+@
+
+
+1.2
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@d5 1
+a5 1
+308 0 5 0
+d187 1
+a187 1
+308 0 128 0
+d520 1
+a520 1
+308 ehn 518 0
+d620 1
+a620 1
+308 0 0 0
+d1100 2
+a1101 1
+You are swimming in a large Blue-stoned Portal room. A large pillar rises up from under the water in the centre of the room, right up to this light source. Set into the pillar are what seem to be very old ladder supports, that have rusted away.There 
+d2099 1
+a2099 1
+308 ad 0 0
+d2606 1
+a2606 1
+You finally reach the top of the stairs! As you regain your breath you are amazed at how high you are. You get a strange feeling that something isn't wanting you here...
+d2619 1
+a2619 1
+Higher Security Room~
+d2622 1
+a2622 1
+You should check to see if your authorised to see the King by saying 'may I pass?' (say may I pass?) Not doing so could have serious consequences!
+d2633 4
+d2648 11
+@
+
+
+1.1
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d2 494
+a495 6
+Idle Lamers' Room~
+You're standing in a room purposely built for idlers like you.
+Here you can idle to your heart's content without
+bothering anyone, or being bothered.
+
+Yes, &7Artus&n, that means you.
+d501 1
+a501 1
+0 0 30800
+d505 1
+a505 1
+0 0 30800
+d509 1
+a509 1
+0 0 30800
+d513 2143
+a2655 1
+0 0 30800
+@
+

@@ -1,0 +1,194 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.25;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.38;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@CircleMUD v3.0 Shop File~
+#1~
+8017
+8018
+8019
+-1
+1.1 
+0.5 
+-1
+%s I don't know how to make one of those!~
+%s We don't *buy* drinks...we sell 'em!~
+%s We don't *buy* drinks...we sell 'em!~
+%s We don't *buy* drinks...we sell 'em!~
+%s I don't give 'em away free, you know!~
+%s That's %d gold.~
+%s We don't *buy* drinks...we sell 'em!~
+1 
+0 
+8021 
+0 
+8013 
+-1
+1 
+24 
+1 
+24 
+#2~
+8017
+8018
+8019
+-1
+1.1 
+0.5 
+-1
+%s I don't know how to make one of those!~
+%s We don't *buy* drinks...we sell 'em!~
+%s We don't *buy* drinks...we sell 'em!~
+%s We don't *buy* drinks...we sell 'em!~
+%s I don't give 'em away free, you know!~
+%s That's %d gold.~
+%s We don't *buy* drinks...we sell 'em!~
+1 
+0 
+8020 
+0 
+8021 
+-1
+1 
+24 
+1 
+24 
+#3~
+8017
+8018
+8019
+-1
+1.1 
+0.5 
+-1
+%s I don't know how to make one of those!~
+%s We don't *buy* drinks...we sell 'em!~
+%s We don't *buy* drinks...we sell 'em!~
+%s We don't *buy* drinks...we sell 'em!~
+%s I don't give 'em away free, you know!~
+%s That's %d gold.~
+%s We don't *buy* drinks...we sell 'em!~
+1 
+0 
+8015 
+0 
+8028 
+-1
+1 
+24 
+1 
+24 
+#4~
+8017
+8018
+8019
+-1
+1.1 
+0.5 
+-1
+%s Say again, friend?~
+%s Thanks, but no thanks.~
+%s Thanks, but no thanks.~
+%s Thanks, but no thanks.~
+%s No tabs, friend.  Sorry.~
+%s That's %d gold.~
+%s We don't *buy* drinks...we sell 'em!~
+1 
+0 
+8014 
+0 
+8020 
+-1
+1 
+24 
+1 
+24 
+#5~
+-1
+1.1 
+0.5 
+3
+4
+8
+10
+2
+-1
+%s Don't have one, but I think I might be able to find one...~
+%s You have one?  Really?  Let me see!~
+%s I'm not interested.  Anything else?~
+%s Too rich for my blood!~
+%s Perhaps you should go visit the bank first...~
+%s That's just %d coins, cash in advance.~
+%s I'll take that for %d coins, thank you!~
+1 
+0 
+8019 
+0 
+8027 
+-1
+1 
+24 
+1 
+24 
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

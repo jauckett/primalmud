@@ -1,0 +1,205 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@age assist gemini
+tga track gargoyle
+pl picklock $1
+lic look in corpse
+cf c 'create food';eat mushroom
+ha c 'harm' $1
+harm c 'harm' $1
+dab c 'detect alignment' bart
+da c 'detect alignment' $1
+sl yawn;sl;sc
+tgr tell grumpy $*
+ts track scullee
+sb o guard : scratches his balls.
+bs rem club;wield dagger;backstab $1;rem dagger;wield club
+js junk scimitar
+typo gos Bart Fubars the Typo Mosnrte
+lo c 'locate object' $*
+tbuc track buccaneer
+agr assist grumpy
+hg c 'heal' grumpy
+og order guard $*
+gd o guard : $*
+5000 gos I do not play 5000!
+robo2zig n;n;w;w;w;n;n;w;w;w;w;w;w;w;w;w;w;w;w;w;s
+zig2robo n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;s;s
+f c 'fireball' $1
+8 l in corpse
+tn track nobleman
+doc gos What's up doc?
+h c 'heal' $1
+ac assist calandra
+miss : is hit hard by the $1.
+pund : pounds the $1 hard
+9 get gold all.corpse
+robo2werith s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n
+hb c 'heal' bart
+oa order guard assist bart
+ag assist grimreaper
+ivb c 'infravision' bart
+gw open crate;get dagger crate;close crate
+0 get all all.corpse;g all.corpse;j all.corpse
+tr track $*
+at assist tomcat
+do backstab $1;c 'color spray' $1
+p e;backstab gladiator;c 'color spray' gladiator
+b backstab $1
+cs c 'color spray' $1
+sgg c 'shocking grasp' guard
+gold get gold all.corpse
+tg tell grimreaper $*
+bst backstab traveller;c 'shocking grasp' traveller;invis bart
+red open crate;get red crate;close crate;q red
+sh!t : sh!ts in your mouth.
+kb kill bandit
+cheer : cheers.
+fkill : attacks you and causes internal BLEEDING.
+shift : FuBaRs ThE ShIfT KeY
+off rem lantern;open crate;put lantern crate;close crate;
+on open crate;get lantern crate;close crate;hold lantern
+lag : is lagging!
+id open crate;g identify crate;close crate;recite identify $1
+lc open crate;look in crate;close crate
+skin open crate;get skin crate;drink skin;put skin crate;close crate
+meat open crate;get meat crate;close crate;eat meat
+si open crate;get yellow crate;close crate;q yellow
+cput open crate;put $1 crate;close crate
+cget open crate;get $1 crate;close crate
+clb c 'cure light' bart
+gac get all corpse
+kme k merchant
+sg c 'shocking grasp' $1
+kw kill warrior
+mw c 'magic missile' warrior
+mg c 'magic missile' giant
+kst kill stirge
+mst c 'magic missile' stirge
+jg get corpse;j corpse
+sayit tell ziggy I better go now cause I have mud... I mean Uni tomorrow..:)
+invis c 'invisibility' $1
+mana tell robohelp mana
+gbtt give backpack to tomcat
+map read map
+atlas read atlas
+fixback get backpack from backpack
+fgr follow grumpy
+gtom give $1 to tomcat
+md c 'magic missile' dog
+mc c 'magic missile' citizen
+kj kill janitor
+heal tell robohelp heal
+mm c 'magic missile' $1
+az assist ziggy
+psib put skin in bag
+kd kill drunk
+kc kill citizen
+k kill $1
+bread get bread from backpack;eat bread
+allback put all in backpack
+lpack look in backpack
+ab assist bleu
+bget get $1 from backpack
+fg follow goldstar
+bput put $1 in backpack
+lp look in backpack
+mb c 'magic missile' brigand
+kf kill frog
+mf c 'magic missile' frog
+ko kill ogre
+mo c 'magic missile' ogre
+kbeg kill beggar
+mbeg c 'magic missile' beggar
+mme c 'magic missile' merchant
+ms c 'magic missile' spider
+ks kill spider
+cw c 'create water' $1
+gg give $1 to grumpy
+jb j all.bandanna
+jl j all.leather
+jo j all.long
+bg get $1 backpack
+bp put $1 backpack
+sm get skin backpack;drink skin;put skin backpack;get meat backpack;eat meat
+crate put all crate;g backpack crate
+hz use staff ziggy
+fz fol ziggy
+ga group all
+cl c 'cure light' $1
+summ c 'summon' $1
+cc c 'cure critical' $1
+ccb c 'cure critical' bart
+ib c 'invisibility' bart
+rim : rips off your head
+gug group all;ungroup
+ft fol tomcat
+doit french brett; laugh
+robo2rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+td track duwick
+iv c 'infravision' $1
+word c 'word of recall' $1
+1 c 'word of recall' bart
+bgrat grat --==**| Go$*, keep it up! |**==--
+tbu track buffalo
+charm c 'charm person' $1
+tb track bandit
+tbook track book
+? smile;froen
+wh open crate;get white crate;close crate;q white
+ww gs Which way?
+kl : causes internal BLEEDING on Lahn.
+kg : fubars Grumpy.
+tm track smasher
+hi gos --==**| G'day $1! |**==--
+bye gos --==**| Cul8r $1 |**==--
+up wake;stand
+white open crate; get white crate;close crate;q white
+yellow open crate;get yellow crate;close crate;q yellow
+repo wake;report;sleep
+tl tell lahn $*
+tw track wicked
+n;drop crate;s;g crate;n;e;drop crate;w;g crate;s;drop crate;n;e;g crate
+di c 'detect invisibility' $1
+dib c 'detect invisibility' bart
+tdh track deckhand
+w;g all corpse;flee
+. n;g corpse;flee
+te track elf
+s; 
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

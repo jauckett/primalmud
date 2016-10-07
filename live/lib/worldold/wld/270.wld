@@ -1,0 +1,2938 @@
+#27000
+Cabin 1~
+The Cabin is comprised of a narrow bunk bed, a steel table and a steel chair.
+The room is painted a depressing grey and the door is made of solid metal.
+Overall the room is generally claustrophobic.
+~
+270 8 0
+D2
+The door is made of a dull grey metal, possibly steal
+~
+door~
+1 -1 27007
+S
+#27001
+Cabin 2~
+The Cabin is comprised of a narrow bunk bed, a steel table and a steel chair.
+The room is painted a depressing grey and the door is made of solid metal.
+Overall the room is generally claustrophobic.
+~
+270 8 0
+D2
+The door leads out towards deck D
+~
+door~
+1 -1 27008
+S
+#27002
+Cabin 3~
+This room has a small bed in the right corner and large pipes
+running around the walls. It is painted a dull grey and looks
+rather depressing. There is a door that opens up onto deck D
+~
+270 8 0
+D2
+The door is made of a dull grey metal, possibly steal
+~
+door~
+1 -1 27009
+S
+#27003
+Cabin 4~
+The Cabin is comprised of a narrow bunk bed, a steel table and a steel chair.
+The room is painted a depressing grey and the door is made of solid metal.
+Overall the room is generally claustrophobic.
+~
+270 8 0
+D2
+The door leads out towards deck D
+~
+door~
+1 -1 27010
+S
+#27004
+Inside the Biology lab~
+This is a small biology lab within the submarine's hub. Due to lack of
+space it is relatively sparse. There is a shelf of books and papers, a
+small computer and a workspace that is covered with petri dishes. To the east
+is the small workstation and there is a door to the south leading onto D deck
+~
+270 8 0
+D1
+There is a small disemboweled squid on the workbench
+~
+~
+0 -1 27005
+D2
+The door leads towards D deck
+~
+door~
+1 -1 27012
+S
+#27005
+Biology lab's workbench~
+The work bench is covered in small petri dishes and a disemboweled squid.
+There are also tongs and scalpels lying on the bench. To the east is a scuttle
+and to the east is a closet.
+~
+270 8 0
+D1
+The scuttle opens up into the ocean above
+~
+~
+0 -1 27006
+D2
+There is a small metal closet to the east~
+door~
+1 -1 27013
+D3
+The door at the entrace leads towards D deck
+~
+~
+0 -1 27004
+S
+#27006
+The scuttle~
+The scuttle can be opened up into the depths of the ocean. It has a glass lid that allows
+you to see what is swimming past. However opening it may not be a wise idea, all that
+tones of freezing water rushing towards you would surely mean death.
+~
+270 8 0
+D3
+The workbench lies to the west~
+~
+0 -1 27005
+D4
+Large squid swim by the closed scuttle, banging against the glass as they pass
+~
+scuttle lid~
+
+1 0 27014
+S
+#27007
+End of Deck D~
+This is the end of deck D, which mainly has the sleeping quarters
+running off it. The door to the north leads into cabin 1 and the deck runs
+to the east towards further sleeping quarters and the small biology lab.
+~
+270 8 0
+D0
+There is a small, rather empty cabin behind the metal door
+~
+door~
+1 -1 27000
+D1
+The dimly lit Deck D runs east to west along the sub's hull
+~
+~
+0 -1 27008
+S
+#27008
+Deck D- Section 4 sleeping quarters~
+The corridor is dimly lit and the walls are completely 
+bare, painted a dull grey. There appears to be very little that is of
+interest in this part of the sub.  Off the corridor are cabins and further
+to the east is the biology lab.
+~
+270 8 0
+D0
+The metal door leads into Cabin 2.
+~
+door~
+1 -1 27001
+D1
+In the distance are several doors that lead into rather dull cabins.
+~
+~
+0 -1 27009
+D3
+The wall ahead is the end of section D
+~
+~
+0 -1 27007
+S
+#27009
+Deck D- Section 4 sleeping quarters~
+This deck mainly is the sleeping quarters of the sub's occupants. 
+There appears to be a minimal amount to see here. 
+Behind the doors are the cabins and to the east is a passage towards 
+deck c and a door to the biology lab.
+~
+270 8 0
+D0
+The metal door leads into Cabin 3
+~
+door~
+1 -1 27002
+D1
+There is a split in the corridor to the west 
+~
+~
+0 -1 27010
+D3
+The corridor in D deck is poorly lit
+~
+~
+0 -1 27008
+S
+#27010
+Deck D- Section 4 sleeping quarters~
+The corridor is dimly lit and the walls are completely 
+bare, painted a dull grey. There appears to be very little that is of
+interest in this part of the sub.  Off the corridor are cabins and further
+to the east is the biology lab.
+~
+270 8 0
+D0
+The door leads towards cabin 4
+~
+door~
+1 -1 27003
+D1
+There is a split in the corridor that leads towards Deck C or the Biology lab
+~
+~
+0 -1 27011
+D3
+Deck D's corridor continues towards more sleeping quarters
+~
+~
+0 -1 27009
+S
+#27011
+Turn in Deck D ~
+This turn in Deck D leads in several directions. 
+There is a sign on the grey wall that tells you which way to head. 
+It is poorly lit and difficult to read. The whole area is in fact rather
+depressing and there is a stale smell in the air.
+~
+270 8 0
+D1
+~
+~
+0 -1 27012
+D2
+~
+~
+0 -1 27019
+D3
+~
+~
+0 -1 27010
+E
+sign~
+
+                                    DECK D
+
+                    The sleeping quarters - west
+                                            Cabins 1 to 4
+
+                    Biology Lab           - east
+                                          -entrance on clearance only.
+                    Deck C                - south
+~
+S
+#27012
+Entrance to Biology Lab~
+This section of Deck D leads into the biology lab. 
+There is a large metal door here that someone has forgotten to lock. 
+This is unusual as entrance into the lab is usually under clearance and
+regulations are strict. The corridor leads west towards the sleeping
+quarters.
+~
+270 12 0
+D0
+The door opens up into the biology lab
+~
+door~
+1 -1 27004
+D3
+The corridor in Deck D also leads towards Deck C from the west
+~
+~
+0 -1 27011
+S
+#27013
+Inside the Closet~
+What should appear like a normal closet, is in reality a horrific sight. 
+The whole of the closet is covered in a blue fungi, 
+that seems to pulse as if alive. What was once books and manuals are now
+folds of fungi that have a surreal appearence.
+It is probably best stay out and lock the door.
+~
+270 9 0
+D0
+The lab looks appealing compared to what is in this closet.
+~
+door~
+1 -1 27005
+S
+#27014
+Drowning in the ocean~
+How stupid to actually open the scuttle and enter into the depths of the ocean.
+This would have to be the fastest way to a watery grave that anyone has taken.
+The scuttle has closed behind you and there is no way out. 
+You will have to drown!!
+~
+270 1 776
+S
+#27015
+Inside the Engine room~
+The engine room is directly bellow C deck. There is usually at least one 
+machanic here making sure everything runs smoothly, even though over
+eighty percent of the technology that runs this sub is computer based.
+However today the engine room is strangely empty. The machines are still
+running smoothly but no one is here supervising.
+~
+270 8 0
+D1
+The main engine is to the east
+~
+~
+0 -1 27016
+D2
+Inside the engine room
+~
+~
+0 -1 27024
+S
+#27016
+Main Engine~
+Here is the main engine that runs the sub. All appears to be running smoothly.
+Yet at a closer inspection it is evident that a few cables and wires have been
+tampered with. There is something very strange about this ship, for one where
+are all the people.
+~
+270 8 0
+D2
+The Secondary engine lies to the south
+~
+~
+0 -1 27025
+D3
+The entrance area to the machine room lies to the west
+~
+~
+0 -1 27015
+S
+#27017
+End Deck C~
+This is the end of Deck C which is mainly a linking deck 
+to areas D and B along with the engine room. 
+There is a door to the south that opens up towards deck B. 
+To the east deck c leads towards the engine room.
+~
+270 8 0
+D1
+~
+~
+0 -1 27018
+D2
+~
+door~
+1 -1 27029
+S
+#27018
+Deck C - Corridor to the engine room~
+The corridor on deck C is painted in a dull grey and is poorly lit. 
+The  floor is a wire mesh under which thousands of wires run, 
+leading towards the engine room. Thecorridor ends at the east and to
+the west it splits leading towards either the engine room or Deck D.
+~
+270 8 0
+D1
+Deck C leads towards Deck D, the Biology lab and the Engine room
+~
+~
+0 -1 27019
+D3
+The corridor on Deck C turns towards Deck B
+~
+~
+0 -1 27017
+S
+#27019
+Deck C Junction~
+This is the junction in Deck C that leads towards either Deck D,
+where the Biology lab is along with the sleeping quarters,
+or east towards the Engine room. West along the corridor leads towards
+a door that opens up onto Deck B.
+~
+270 8 0
+D0
+To the North is Deck D
+~
+~
+0 -1 27011
+D1
+Along Deck C's corridor the are millions of wires running under your feet
+~
+~
+0 -1 27020
+D3
+Towards the west Deck C ends.
+~
+~
+0 -1 27018
+S
+#27020
+Deck C - corridoor~
+The corridor in Deck C is similar to the corridors that run along
+Deck's A B and D. They are all grey, drab and dimly lit. However the
+difference with C is that the floor is a hard wire mesh that allows easy
+access the the millions of wires and cables that run through the heart of
+the sub. 
+~
+270 8 0
+D1
+The junction in Deck C
+~
+~
+0 -1 27021
+D3
+Towards the engine room.
+~
+~
+0 -1 27019
+S
+#27021
+End Deck C~
+There are steps leading down here into the engine room bellow. 
+Millions of cables run underneath the floor and the lights on the ceiling
+make an annoying humming noise. 
+To the west the corridor of Deck C leads towards Deck B and D.
+~
+270 8 0
+D3
+Corridoor leads toward a junction
+~
+~
+0 -1 27020
+D5
+Steps leading down into the engine room.
+~
+~
+0 -1 27022
+S
+#27022
+Steps into the Engine Room~
+The steps are made of heavy wire mesh that has cables running underneath it.
+The Engine room is directly below and there is a distinct humming sound 
+that is coming from the main and secondary engines. Upwards lies Deck C
+that leads towards Decks B and D.
+~
+270 12 0
+D4
+The steps lead upwards onto Deck C
+~
+~
+0 -1 27021
+D5
+The engine room is below.
+~
+~
+0 -1 27023
+S
+#27023
+Entrance of the Engine Room~
+The Entrance to the Engine room is full of small cables and wires that 
+are under repair. The floor is covered with them making them look like
+a tangled mass of snakes. There are steps leading upwards towards Deck C
+and to the east is the center of the engine room.
+~
+270 8 0
+D1
+A small workbench lies in the center of the room, covered in tools and wires
+~
+~
+0 -1 27024
+D4
+The steps lead up towards Deck C
+~
+~
+0 -1 27022
+S
+#27024
+Center Of Engine Room~
+In the center of the engine room there is a large metal desk that is
+covered in tools and cable. These are used to repair the main and secondary
+engines. However no one is here at present.  
+The secondary engine is to the east, to the north is more working space
+and the entrance lies to the west.
+~
+270 8 0
+D0
+A small open area before the main engine
+~
+~
+0 -1 27015
+D1
+The secondary, back up engine, is to the east
+~
+~
+0 -1 27025
+D3
+The engine room entrance and the steps leading towards Deck C lie to the west
+~
+~
+0 -1 27023
+S
+#27025
+The Secondary Engine~
+The Secondary Engine is mainly a backup to the main engine, however it still
+has to be kept in perfect working order. Unfortunately there seems to 
+be something wrong with the way it's cables are hanging loose.
+To the north lies the main engine and to the west is the center of the
+engine room.
+~
+270 8 0
+D0
+The main engine
+~
+~
+0 -1 27016
+D3
+The center of the engine room.
+~
+~
+0 -1 27024
+S
+#27026
+Captains Deck~
+The Captains Deck inside the control room is where the submarines navigation
+controls are located. There is also a leather chair positioned in front of a
+thick pain of glass that looks out onto the ocean floor. To the east is the
+entrance and the second lieutenants seat is to the south.
+~
+270 8 0
+D1
+The entrance and a large door lie to the east
+~
+~
+0 -1 27027
+D2
+A leather chair  is positioned in front of control panels.
+~
+~
+0 -1 27038
+S
+#27027
+A large Computer~
+There is a large computer here that run's over ninety percent of the ship.
+This is why the place seems completely empty yet still in working order.
+The Captain's Deck to the east is empty and the entrance is to the west.
+~
+270 8 0
+D1
+The entrance of the control room lies to the east
+~
+~
+0 -1 27028
+D3
+The Captain's deck is to the west
+~
+~
+0 -1 27026
+S
+#27028
+Inside the Control Room~
+The entrance of the control room leads west towards a large computer. 
+This place is well lit and there is a humming sound coming from all the
+controls that surround you. Downwards is a hatch that leads onto Deck B
+~
+270 12 0
+D3
+A large computer lies to the west
+~
+~
+0 -1 27027
+D5
+There is a small hatch that opens up leading downwards to Deck B
+~
+hatch door~
+1 -1 27029
+S
+#27029
+End Deck B~
+The end of Deck B leads north towards Deck C and leading upwards are some
+stairs to the Control Room and the Captain's Deck. There is a small hatch
+that is usually locked but for some reason it is currently unlocked. 
+~
+270 8 0
+D0
+Deck C corridor 
+~
+~
+0 -1 27017
+D1
+The corridoor of Deck B
+~
+~
+0 -1 27030
+D4
+Up some stairs to the control room
+~
+hatch door~
+1 -1 27028
+S
+#27030
+Deck B- corridoor~
+The corridoor runs east and west towards either the control room 
+or the de-briefing/common room. The corridoor itself is rather narrow, as
+space upon a submarine is extremely important and can not be wasted. 
+This section of the deck is also well lit, unlike Deck's C and D.
+~
+270 8 0
+D1
+Towards a junction in Deck B
+~
+~
+0 -1 27031
+D3
+The control room entrance lies to the west
+~
+~
+0 -1 27029
+S
+#27031
+Deck B - Junction~
+This section of Deck B leads in three directions. There is a metal sign on 
+the wall that gives directions. This area of the corridoor is well lit
+making the sign easy to read. The walls here are bare of paint, letting
+the metal of the sub shine through.
+~
+270 8 0
+D1
+In the distance there is a small door that leads into the common room
+~
+~
+0 -1 27032
+D2
+Deck A is to the south, towards the bottom of the ship.
+~
+~
+0 -1 27040
+D3
+The junction toward's Deck C and the Control Room lies to  the west
+~
+~
+0 -1 27030
+E
+sign~
+                 East- Towards the Common/de-briefing Room
+                 West- Towards the Control Room ( clearance required) 
+                 South- Deck A
+~
+S
+#27032
+Deck B - Corridoor~
+The corridoor is extremely narrow making it difficult for a large 
+party to travel through here together. The sub has been designed this way
+to maximize on space. In the distance to the east is a metal door. 
+To the west is a junction on the deck that leads towards Deck A.
+~
+270 8 0
+D1
+The corridor continues towards a small door
+~
+~
+0 -1 27033
+D3
+There is a junction in the corridor
+~
+~
+0 -1 27031
+S
+#27033
+Deck B - Corridoor~
+The corridoor is extremely narrow making it difficult for a 
+large party to travel through here together. The sub has been designed
+this way to maximize on space. In the distance to the east is a metal 
+door. To the west is a junction on the deck that leads towards Deck A.
+~
+270 8 0
+D1
+The corridor continues towards a small door
+~
+~
+0 -1 27034
+D3
+The corridoor is rather long in this section of the sub
+~
+~
+0 -1 27032
+S
+#27034
+End Deck B~
+The End of Deck B leads east into the Common Room. 
+There is a small metal door that is closed but unlocked. 
+The light above flickers on and off making a strange buzzing sound. 
+The coridoor also leads west along all of B deck.
+~
+270 12 0
+D1
+The door leads into the common room
+~
+door~
+1 -1 27035
+D3
+The coridoor is rather long in this section of the sub
+~
+~
+0 -1 27033
+S
+#27035
+Entrance to the Common Room~
+The Common Room is also used as a de-briefing room. 
+It is mainly full of tables and chairs. There is also a coffee machine in
+one corner, a microwave, and a small fridge.
+There is a door to the west that leads towards Deck B.
+~
+270 8 0
+D1
+There is a large couch to the east
+~
+~
+0 -1 27036
+D2
+A few tables and chairs are scattered around to the south
+~
+~
+0 -1 27041
+D3
+~
+door~
+1 -1 27034
+S
+#27036
+In the Common Room~
+There is a comfortable looking couch here, made of leather. There are also
+a few posters on the walls of mainly sea creatures of varying discriptions.
+There is a coffee making machine to the east of here. To the south is
+a large white board on a wall and the entrance is to the west.
+~
+270 8 0
+D1
+The coffee making machine lies to the east
+~
+~
+0 -1 27037
+D2
+There appears to be some writting on the board to the west
+~
+~
+0 -1 27042
+D3
+There is a door to the west leading onto Deck B
+~
+~
+0 -1 27035
+S
+#27037
+At the Coffee machine~
+There is a small table in the corner, that has a microwave on top of it.
+In the other corners is a small fridge and a decent sized coffee machine 
+stands next to the fridge. To the west is a large, comfortable couch and to 
+south a few tables and chairs are scattered about.
+~
+270 8 0
+D2
+Several small tables and chairs are gathered around a large board
+~
+~
+0 -1 27043
+D3
+There is a comfortable looking couch to the west
+~
+~
+0 -1 27036
+S
+#27038
+Control Room ~
+There is a leather chair positioned in front of some control panels. There
+are millions of flashing lights  that looks rather confusing. Certainly it
+would be unwise to touch anything or push any buttons, There is a small
+storage cabinet to the east and the captains deck is to the north.
+~
+270 8 0
+D0
+To the north is the captains deck
+~
+~
+0 -1 27026
+D1
+There is a small cabinet door to the east
+~
+cabinet door~
+1 -1 27039
+S
+#27039
+Storage Cabinet~
+The storage cabinet holds a number of weapons, robes and other useful items.
+It is a wonder that it is actually open. Maybe someone has been in here already.
+~
+270 9 0
+D3
+To the west is a leather chair positioned in front of the control panels
+~
+cabinet door~
+1 -1 27038
+S
+#27040
+Entrance Deck A~
+To the south is the junction of Deck A that leads towards 
+the Captain's quarters, the Kitchen and the docking bay. 
+To the north is Deck B. This section of the sub is well lit and on the
+walls are fire hydrants and hoses.
+~
+270 8 0
+D0
+North is the junction on Deck B
+~
+~
+0 -1 27031
+D2
+South is the junction on Deck A
+~
+~
+0 -1 27046
+S
+#27041
+Inside the Common Room~
+This section of the common room is used as the de-briefing station. 
+There are several tables and chairs that are scattered around all facing
+the east where a large white  board stands. Some of the tables have pens
+and paper on top of them and some are empty.
+To the north is the entrance area.
+~
+270 8 0
+D0
+The entrance area into the common room is to the north
+~
+~
+0 -1 27035
+D1
+There is a large white board standing in the middle of the room
+~
+~
+0 -1 27042
+S
+#27042
+At the white board~
+Inside this section of the common room stands a large white board. 
+This is usually used for de-briefing purposes. There are several tables
+and chairs scattered around the board to the east and west. At present
+the white board is empty but there is a small marker hanging by a string
+off its left side. To the north there is a comfortable looking couch.
+~
+270 8 0
+D0
+There is a very comfortable looking couch lying to the north
+~
+~
+0 -1 27036
+D1
+Chairs and tables lie scattered around in a semi-circle
+~
+~
+0 -1 27043
+D3
+Chairs and tables lie scattered around in a semi-circle
+~
+~
+0 -1 27041
+S
+#27043
+Inside the Common Room~
+This section of the common room is used as the de-briefing station. 
+There are several tables and chairs that are scattered around all facing
+the west where a large white  board stands. Some of the tables have pens
+and paper on top of them and some are empty.
+To the north is a coffee making machine
+~
+270 8 0
+D0
+The large coffee making machine stands in a corner brewing coffee
+~
+~
+0 -1 27037
+D3
+There is a large white board standing in the middle of the room
+~
+~
+0 -1 27042
+S
+#27044
+Captain's closet~
+The closet of the Captain's is rather dark, which makes it difficult to see.
+However there is a repugnant smell in the air, 
+which is more than just dirty socks.
+To the north there is a door leading into the Captain's quarters.
+~
+270 9 0
+D1
+~
+door closet~
+2 27039 27045
+S
+#27045
+Captain's Quarters~
+The Captain's Quarters is sparsely furnished, there is a small bunk bed 
+in the south corner, a desk and chair in the north corner and a closet in
+the west corner. The walls are void of any pictures and the flurescent
+light blinks overhead.
+ The door to the east leads out onto Deck A
+~
+270 12 0
+D1
+~
+door~
+1 -1 27046
+D3
+~
+door closet~
+2 27039 27044
+S
+#27046
+Deck A- Junction~
+The Junction on Deck A leads in several directions and there is a large 
+sign on the wall that announces what is on this level. This section of the
+submarine is well ventilated as well as well lit.
+~
+270 8 0
+D0
+The entrance area to Deck's A and B
+~
+~
+0 -1 27040
+D1
+Towards the Kitchen and the Docking bay
+~
+~
+0 -1 27047
+D3
+The door opens into the Captain's quarters
+~
+door~
+1 -1 27045
+E
+sign~
+                   NORTH- Entrance to Deck A and B
+                   EAST - Kitchen and Docking Bay
+                   WEST - Captain's Quarters
+~
+S
+#27047
+Deck A- Corridoor~
+The corridoor is lit with blinking flurescent lights that hum annoyingly. 
+The walls are a dull grey metal as well as cool and damp to touch. 
+There is a door to the south here that leads into the kitchen area.
+Further to the west is the Docking Bay and to the east
+is the junction and Captain's  quarters.
+~
+270 8 0
+D1
+The junction lies to the east leading towards Deck B and the Captain's quarters
+~
+~
+0 -1 27048
+D2
+Behind the metal door is the kitchen
+~
+door~
+1 -1 27049
+D3
+There is a turn in the corridoor to the east that leads directly to the 
+Docking Bay
+~
+~
+0 -1 27046
+S
+#27048
+End Deck A~
+Here is where Deck A ends. To the south is a thick, large, metal door, 
+that is kept locked for safty reasons. Behind it is the Docking bay. 
+To the east the coridoor leads towards the kitchen, Deck B and the
+Captain's quarters. 
+~
+270 12 0
+D2
+Behind the door is the Docking Bay
+~
+door metal~
+1 0 27050
+D3
+The corridoor stretches to the east
+~
+~
+0 -1 27047
+S
+#27049
+Inside the Kitchen~
+The Kitchen inside the sub is well stocked with a varying array of food stuffs.
+On all walls there are fridges from floor to ceiling that are full to the brim.
+There is a table and cooking utensils, such as knives, microwaves, 
+slicers, shredders and anything else you can imagine, in the middle of the
+room. This place could feed an army for over a month.
+~
+270 12 0
+D0
+To the north is Deck A
+~
+door~
+1 -1 27047
+S
+#27050
+Docking Bay~
+The Docking Bay is where those planning on entering into the ocean 
+should prepare to suit up. There are several masks hanging on racks to the
+east, specifically for this purpose. It is imperative that this is
+undertaking before entering into the vacuum to the east. 
+There is a SIGN on the wall stating the precautions that need
+to be taken if planning on entering the Vacuum.
+LOOK SIGN
+~
+270 8 0
+D0
+The end of Deck A
+~
+door~
+1 0 27048
+D1
+The Vacuum is an airless room that protects the sub from the ocean's waters
+~
+door vacuum~
+1 0 27051
+E
+sign~
+
+                  WARNING: Before entering the Vacuum equip
+                           your person with the masks provided
+                           or certain death with be imminent
+
+~
+S
+#27051
+Inside the Vacuum~
+The Vacuum is devoid of all air and there are two locked and sealed doors
+to the east and west. One leads onto the Docking Bay and the other leads out
+onto the ocean floor. The ocean floor is very cold and for your protection
+there are suits that have been provided.
+READ SIGN for instructions
+~
+270 8 672
+D2
+There is a large vacumm door leading out onto the ocean
+~
+Vacuum sealed door~
+1 0 27057
+D3
+The docking bay lies to the west
+~
+door vacuum~
+1 0 27050
+E
+sign~
+
+                  WARNING: Before entering the ocean equip
+                           your person with the suits provided
+                           or certain death with be imminent
+~
+S
+#27052
+A cliff in the ocean floor~
+You have fallen over the cliff to the depths beyond.
+Falling
+       -----
+           -----
+               -----
+                   -----
+                       -----
+                           -----
+                               -----
+                                   -----
+                                       -----
+                                           -----
+                                               -----
+                                                   -----
+                                                       -----
+
+                         You have fallen so far that the extreme cold alone will kill you.  
+~ 
+270 3 648
+S
+#27053 
+On the ocean floor~ 
+The ocean floor stretches out in every direction. 
+The sand is a dark muddy color, not the yellow,
+golden hue you would expect. The whole ocean floor 
+seems to be devoid of life, however this is deceiving. 
+To the west there is a cliff that drop away and is 
+probably extremely dangerous. 
+~ 
+270 1 648 
+D0
+ocean floor
+~
+ocean~
+1 -1 6032
+D1 
+The ocean floor 
+~ 
+~ 
+0 -1 27054 
+D3 
+There is a cliff that drops over a thousand feet to the west 
+~ 
+~ 
+0 -1 27052 
+S 
+#27054 
+On the ocean floor~
+The water is below freezing at this depth, 
+making it imperative that protective suits are worm.  
+The ocean floor is very calm, and there appears to be 
+very little life of any form, at this level.  
+The ocean stretches out from here in all directions 
+except for north where the outside of the sub is visible.  
+~ 
+270 1 648 
+D1 
+The ocean floor 
+~
+~ 
+0 -1 27055 
+D2 
+The ocean floor 
+~ 
+~ 
+0 -1 27062 
+D3 
+The ocean floor 
+~ 
+~ 
+0 -1 27053 
+S 
+#27055 
+On the ocean floor~ 
+There is a small swarm of shrimp here, that is completely out of character. 
+It is highly unusual that there are is anything living at this level. 
+Exactly why they are here is unexplainable.  
+The ocean floor is to the south, east and west.  
+~ 
+270 1 648
+D1 
+The ocean floor 
+~ 
+~ 
+0 -1 27056 
+D2 
+The ocean floor 
+~
+~
+0 -1 27063 
+D3 
+The ocean floor 
+~ 
+~ 
+0 -1 27054 
+S 
+#27056 
+On the ocean floor~ 
+The water is below freezing at this depth, 
+making it imperative that protective suits are worm.  
+The ocean floor is very calm, and there appears
+to be very little life of any form, at this level.  
+The ocean stretches out from here in all directions 
+except for north where the outside of the sub is visible.  
+~ 
+270 1 648 
+D1 
+The ocean floor 
+~ 
+~ 
+0 -1 27057 
+D2 
+The ocean floor 
+~ 
+~ 
+0 -1 27064 
+D3 
+The ocean floor 
+~ 
+~ 
+0 -1 27055 
+S 
+#27057 
+On the ocean floor~ 
+The water is below freezing at this depth, 
+making it imperative that protective suits are worm. 
+The ocean floor is very calm, and there appears to be very little life
+of any form, at this level.  The ocean stretches out 
+from here in all directions except for north 
+where the outside of the sub is visible.
+To the north is the entrance into the submarine.
+~ 
+270 1 648 
+D0 
+To the north is the entrance into the vacuum and the submarine 
+~ 
+Vacuum sealed door~ 
+1 0 27051 
+D1 
+The ocean floor 
+~ 
+~ 
+0 -1 27058 
+D2 
+The ocean floor 
+~ 
+~ 
+0 -1 27065 
+D3 
+The ocean floor 
+~ 
+~ 
+0 -1 27056 
+S 
+#27058 
+On the ocean floor~
+The water is below freezing at this depth, making it imperative that 
+protective suits are worm. The ocean floor is very calm, and there appears 
+to be very little life of any form, at this level. 
+The ocean stretches out from here in all directions except for north 
+where the outside of the sub is visible.  
+To the west is the entrance into the submarine.  
+~ 
+270 1 648 
+D1 
+The ocean floor 
+~ 
+~ 
+0 -1 27059
+D2 
+The ocean floor
+~ 
+~ 
+0 -1 27066 
+D3 
+The ocean floor 
+~ 
+~ 
+0 -1 27057 
+S 
+#27059 
+On the ocean floor~ 
+There is a large cliff leading upwards to the east,
+making it impossible to go any further other than south and east. 
+To the north is the outside of the submarine. The water is way bellow 
+freezing here and protective suits are required for survival.  
+~ 
+270 1 648 
+D2 
+The ocean floor 
+~ 
+~ 
+0 -1 27067 
+D3 
+The ocean floor 
+~ 
+~ 
+0 -1 27058 
+S
+#27060 
+Inside the Squid's cave~ 
+The salty water rushes towards the east where 
+the cave becomes even darker.  This section of the 
+cave is covered in a light coral and the the south 
+you can see the mouth of the cave.  
+~ 
+270 5 648 
+D1 
+Deep within the squid's cave 
+~ 
+~ 
+0 -1 27061 
+D2 
+Towards the mouth of the cave
+~ 
+~ 
+0 -1 27068 
+S 
+#27061 
+Inside the Squid's cave~ 
+The cave ends here in a dark and gloomy place. 
+The salt water seems to rush around inside the cave
+knocking debris as well as you around. 
+This is the resting place of the giant squid. 
+To the west the cave twists and turns.
+~ 
+270 1 648 
+D3
+Inside the cave
+~ 
+~ 
+0 -1 27060 
+S
+#27062 
+On the ocean floor~ 
+The ocean flows back and forth in a relatively calm manner.
+It is hard to imagine that there is any danger down here,
+apart from exposure to extreme cold. There are swaying beds
+of sea-weed that look like grass blowing in the wind. 
+The ocean leads west towards the submarine,
+south towards a coral bed and east toward more ocean.
+~ 
+270 1 648 
+D0 
+The ocean floor and the outside of the submarine
+~ 
+~ 
+0 -1 27054 
+D1 
+On the ocean floor
+~ 
+~ 
+0 -1 27063
+D2 
+On the ocean floor near a coral reef
+~ 
+~ 
+0 -1 27070 
+S 
+#27063 
+On the ocean floor~ 
+This is right in the center of the ocean floor. 
+Directly to the south there is what appears
+to be a large fin sticking out of the coral reef. 
+This looks like it is made from a strange metal.
+The sand here is extremely murky and there is very 
+little life around. To the north is the edge of
+the submarine and east and west lies the ocean floor.
+~ 
+270 1 648
+D0 
+The ocean ends at the edge of the submarine
+~ 
+~ 
+0 -1 27055 
+D1 
+The ocean floor
+~ 
+~ 
+0 -1 27064 
+D2 
+A large fin protrudes from the coral reef
+~ 
+~ 
+0 -1 27071 
+D3 
+The ocean floor
+~ 
+~ 
+0 -1 27062 
+S 
+#27064 
+On the ocean floor~ 
+The water is below freezing at this depth, 
+making it imperative that protective suits are worm. 
+The ocean floor is very calm, and there appears 
+to be very little life of any form, at this level. 
+The ocean stretches out from here in all directions. 
+To the north  the outside of the sub is visible, 
+to the south is a coral reef and to the east 
+and west lies the ocean floor.
+~ 
+270 1 648 
+D0 
+There is an entrance leading into the sub to the north
+~ 
+~ 
+0 -1 27056 
+D1 
+The ocean floor
+~ 
+~ 
+0 -1 27065 
+D2 
+There is a coral reef growing to the south
+~ 
+~ 
+0 -1 27072 
+D3 
+The ocean floor
+~ 
+~ 
+0 -1 27063 
+S 
+#27065 
+On the ocean floor~ 
+The ocean flows back and forth in a relatively calm manner. 
+It is hard to imagine that there is any danger down here, 
+apart from exposure to extreme cold. There are swaying beds
+of sea-weed that look like grass blowing in the wind. 
+The ocean leads north towards the submarine,
+south towards a coral bed and east and west toward more ocean.
+~ 
+270 1 648 
+D0 
+The ocean floor
+~ 
+~ 
+0 -1 27057 
+D1 
+The ocean floor
+~ 
+~ 
+0 -1 27066 
+D3 
+The ocean floor
+~ 
+~ 
+0 -1 27064 
+S 
+#27066
+On the ocean floor~ 
+The ocean flows back and forth in a relatively calm manner. 
+It is hard to imagine that  there is any danger down here, 
+apart from exposure to extreme cold. There are swaying beds of
+sea-weed that look like grass blowing in the wind. 
+The ocean leads north towards the submarine, 
+south towards a coral bed and east and west toward more ocean.  
+~ 
+270 1 648 
+D0 
+The ocean floor 
+~ 
+~ 
+0 -1 27058 
+D1
+The ocean floor 
+~ 
+~ 
+0 -1 27067 
+D3 
+The ocean floor 
+~ 
+~ 
+0 -1 27065 
+S
+#27067 
+On the ocean floor~ 
+There is a large cliff leading upwards to the east, 
+making it impossible to go any further other than north, 
+south and west. To the north the cliff continues upwards and to the
+south it falls abruptyly away.  The water is way bellow freezing  
+and protective suits are required for survival.  
+~
+270 1 648 
+D0 
+The cliff continues to the north 
+~ 
+~ 
+0 -1 27059 
+D2 
+The cliff falls abrupty away down to a water death bellow 
+~ 
+~ 
+0 -1 27075 
+D3 
+the ocean floor 
+~ 
+~ 
+0 -1 27066
+S 
+#27068 
+Mouth of the Cave~ 
+The mouth of the cave looks a lot darker and colder 
+than any other section of the ocean floor. 
+The water seems to rush into the mouth, sweeping sand, 
+shells and debris in with it. 
+What deep ocean creature could possibly live inside this cave.  
+~ 
+270 1 648 
+D0 
+The cave turns and twists toward the squid's den 
+~ 
+~ 
+0 -1 27060 
+D1 
+The ocean floor looks calm in comparrison to the cave's mouth 
+~ 
+~ 
+0 -1 27069
+S 
+#27069 
+On the ocean floor~ 
+There is a great deal of coral in this area of the ocean floor 
+and beyond the coral is a  large structure of some kind. 
+To the west of here is the mouth of a cave, to the north is the
+middle of the ocean floor and to the east there more coral.  
+~ 
+270 1 648 
+D1
+The ocean floor 
+~ 
+~ 
+0 -1 27070 
+D3 
+The mouth of the cave looks dark and ominous 
+~ 
+~ 
+0 -1 27068 
+S 
+#27070
+The ocean floor~
+The ocean flows back and forth in a relatively calm manner. 
+It is hard to imagine that there is any danger down here, 
+apart from exposure to extreme cold. There are swaying beds
+of sea-weed that look like grass blowing in the wind. 
+The ocean leads north, south, east and west.
+~ 
+270 1 648 
+D0 
+The ocean floor 
+~ 
+~ 
+0 -1 27062 
+D1 
+The ocean floor 
+~ 
+~ 
+0 -1 27071 
+D3 
+The ocean floor 
+~ 
+~ 
+0 -1 27069 
+S 
+#27071 
+The ocean floor before the Vacuum~ 
+The ocean floor spreads out towards the north, east and west. 
+However directly to the south there is a great deal 
+of coral growing around, what appears to be a space ship. 
+There is a small opening, or vacuum to the south. 
+You can open The Vacuum to get into the spaceship
+~ 
+270 1 648 
+D0 
+The ocean floor
+~ 
+~ 
+0 -1 27063 
+D1 
+The ocean floor
+~ 
+~ 
+0 -1 27072 
+D2 
+There is a door through the coral leading into the space ship 
+~ 
+door vacuum~ 
+1 0 27076 
+D3 
+~ 
+~ 
+0 -1 27070
+S 
+#27072 
+On the ocean floor~ 
+The ocean floor appears to be void of all life forms. 
+The place is also so cold, being over a thousand leagues' 
+under the sea. There is a great deal of coral growing to the west
+and there is also a door that leads into the mini-sub. 
+The ocean continues to the north and to the east.  
+~ 
+270 1 648 
+D0 
+The ocean floor
+~ 
+~ 
+0 -1 27064 
+D1 
+There is a door leading into the mini-sub
+~ 
+door vacuum~ 
+1 -1 27073 
+D3 
+There is a door through the coral leading into the space ship 
+~ 
+~ 
+0 -1 27071 
+S 
+#27073
+Mini-sub Vacuum ~ 
+The vacuum stops all sea water from entering into the mini sub. 
+There is a small switch on the wall that must be pulled after 
+entering the sub and closing the door.
+This must happen before the door into the mini-sub is opened. 
+Hopefully no sea creatures have entered the vacuum when you opened the door!!!!!!!
+~ 
+270 8 32 
+D1 
+door vacuum~ 
+~ 
+1 0 27074 
+D3 
+~ 
+door vacuum~
+1 -1 27072 
+S 
+#27074 
+Inside the Mini-sub~
+The mini-sub is no larger than six by six feet. 
+In this confined space there are the subs conrols
+room for three passengers, the ships records, a large computer, 
+vac-suits in a small closet and very little else. 
+There isn't room for much else!
+~ 
+270 16777224 0 
+D3 
+The door leads out into the vacuum
+~ 
+door vacuum~ 
+1 0 27073 
+S 
+#27075 
+A cliff in the ocean floor~ 
+You have fallen over the cliff to the depths beyond.  
+  Falling
+       -----
+           -----
+               -----
+                   -----
+                       -----
+                           -----
+                               -----
+                                   -----
+                                       -----
+                                           -----
+                                               -----
+                                                   -----
+                                                       -----
+
+                         You have fallen so far that the extreme cold alone will kill you. 
+~ 
+270 3 648
+S 
+#27076 
+Inside the Vacuum~ 
+Between the outside of this space ship and the entrance a vacuum has been built. 
+This is as to protect what may lay to the south. 
+There are doors to the north and south of here,
+both made from a thick and heavy metal and a small lever 
+that has to  be pushed to allow water to escape 
+before entering into the second door.
+~ 
+270 8 16 
+D0 
+This vacuum leads out into the ocean floor
+~
+door vacuum~ 
+1 0 27071 
+D2 
+The door to this vacuum leads into the entrance of the space ship.
+~ 
+door vacuum~ 
+1 -1 27077 
+S 
+#27077 
+Entrance to the Space ship~ 
+There are no lights in the space ship and the air is nearly unbreathable. 
+There is a long hallway leading south.
+It is pitch black in here so torches are needed to see. 
+Protective clothing still needs to be worn as the air 
+does not contain enough oxygen to breathe freely.
+~ 
+270 9 16 
+D0 
+There is a Vacuum to the north
+~ 
+door vacuum~
+1 -1 27076 
+D2 
+A dark hallway leads into the center of the space ship.
+~ 
+~ 
+0 -1 27078 
+S 
+#27078 
+Inside the Space ship~ 
+The hallway is completely dark making it difficult 
+to determine what lies ahead. It appears that the 
+space ship is devoid of life from here, but what are those noises
+The air is slightly corrosive and devoid of enough oxygen to breathe freely. 
+There is also a slight dampness in the air, 
+possibly from the amount of time this vessel has been under water.
+~ 
+270 9 16
+D0 
+The dark hallway leads towards a door onto the ocean floor
+~ 
+~ 
+0 -1 27077 
+D2 
+A dark hallway leads into the center of the space ship.
+~ 
+~ 
+0 -1 27082 
+S 
+#27079  
+Inside the navigational Chamber~ 
+This chamber is obviously where the ship was navigated  from. 
+There are lights in this section of the ship making 
+it easy to see the computer, the navigational equipment
+and the leather chairs that were once used. 
+To the south and east there are large chairs
+that are designed to navigate from.
+~ 
+270 8 16 
+D1 
+A leather chair is perched over the controls
+~ 
+~
+0 -1 27080 
+D2 
+A leather chair is perched over the controls
+~ 
+~ 
+0 -1 27087 
+S 
+#27080 
+At the Controls~ 
+There is a leather chair in front of the control that is empty. 
+It is made from a strange leather and looks unused. 
+The controls are in english and there is a small plaque on the side.
+This help indicate that possibly the ship is not from another planet, 
+but from earth itself. If this is so why has the crash never been reported. 
+Something very percular is happening here.
+~ 
+270 8 16 
+D1 
+The center of the control room where a large computer stands
+~ 
+~
+0 -1 27081 
+D3 
+Inside the navigational chambers
+~ 
+~ 
+0 -1 27079 
+E
+plaque~
+                     _________
+                    *  U.S.A  *
+                    *_________*
+~
+S 
+#27081 
+Inside the navigational Chamber~ 
+This chamber is obviously where the ship was navigated  from. 
+There are lights in this section of the ship making it easy 
+to see the computer, the navigational equipment
+and the leather chairs that were once used. 
+To the south is the entrance and to the west lies the controls
+~ 
+270 8 16 
+D2 
+The entrance to the control room is to the south
+~ 
+~
+0 -1 27089 
+D3 
+The controls lie directly to your west
+~ 
+~ 
+0 -1 27080 
+S 
+#27082 
+Junction in the Space ship~ 
+The hallway is completely dark making it difficult to 
+determine what lies ahead. It appears that the space ship 
+is devoid of life from here, but it is difficult to tell.
+The air is slightly corrosive and devoid of enough oxygen to breathe freely. 
+There is also a slight dampness in the air, 
+possibly from the amount of time this vessel has been under water.
+To the east there is an entrance to the galley 
+and the hallway continues to the north and south.
+~ 
+270 9 16
+D0 
+Along the hallway~ 
+~
+0 -1 27078 
+D1 
+Entrance into the galley
+~ 
+~ 
+0 -1 27083 
+D2 
+Along the hallway
+~ 
+~ 
+0 -1 27092 
+S 
+#27083  
+Entrance into the galley~ 
+This section of the space ship was obviously the galley. 
+There are large fridges on the walls
+to the east, all filled with foodstuffs. 
+The lights are also still on in this section of
+the ship. To the west is the dark hallway
+~ 
+270 12 16 
+D1 
+At a large fridge
+~ 
+~ 
+0 -1 27084 
+D3 
+A junction in the hallway
+
+~ 
+~ 
+0 -1 27082 
+S 
+#27084 
+Fridge in the galley~ 
+There is a large stainless steel door the the east that opens up into the fridge. 
+It has not been locked and if you are hungry, although the food is old, it is still edible.
+To the west is the entrance into the galley and to the south is a small table.
+~ 
+270 8 16
+D1 
+There is a stainless steel door that opens up into the fridge
+~ 
+door stainless steel~ 
+1 -1 27085 
+D2 
+To the south is a small table
+~ 
+~ 
+0 -1 27093 
+D3 
+The entrance of the galley lies to the west
+~ 
+~ 
+0 -1 27083 
+S 
+#27085 
+Inside the fridge~ 
+It is extremely cold inside the fridge, not the place you want to get stuck in. 
+On all sides of the fridge other than where the door is the shelves are stocked full
+of food. Choclate bars, dried fruit, cans of soft drink, frozen meals, generally
+just about anything you can imagine.  
+~ 
+270 9 528 
+D3 
+The door leads into the galley as this is inside the fridge
+~ 
+door stainless steel~ 
+1 -1 27084 
+S 
+#27086 
+Inside the strange room~
+There are over twenty pods mounted on the walls here. 
+All are empty other than one, which has
+a mummified woman inside. She is in fact quite beautiful. 
+Each tube also contains a narrrow silver matress. 
+The room continues to the south.  
+~ 
+270 9 16 
+D2 
+Inside the strange room
+~ 
+~ 
+0 -1 27095 
+S 
+#27087 
+At the Controls~ 
+There is a leather chair in front of the control that has a maniquin in it. 
+The chair is made from a strange leather and the maniquin is auto-pilot. 
+The controls are in english and there is a small plaque on the side. 
+This help indicate that possibly the ship is not from
+another planet, but from earth itself.
+If this is so why has the crash never been reported. 
+Something very percular is happening here.
+~ 
+270 8 16 
+D0 
+Inside the control room~ 
+~ 
+0 -1 27079 
+D1 
+To the east is the center of the control room
+~ 
+~ 
+0 -1 27088 
+D2 
+There is a large computer to the south
+~ 
+~ 
+0 -1 27097 
+E
+plaque~
+                     _________
+                    *  U.S.A  *
+                    *_________*
+~
+S
+#27088 
+Center of Control Room~ 
+This is the center of the Control room. 
+From here it is possible to see the procedures that
+would have taken place while operating this ship. 
+There is the control pannel, to leather 
+chairs and a large computer in close vacinity. 
+Directly to the  east is a hatch that leads down into the hallway.
+~ 
+270 8 16 
+D1 
+~ 
+~ 
+0 -1 27089 
+D3 
+The controls to the ship lie to the west
+~ 
+~ 
+0 -1 27087 
+S
+#27089 
+Entrance to the Control Room~ 
+This room is very large, holding the ships main computers along with it's
+navigational equipment. The lights in this section of the ship are still working.
+Yet there seems to be no one in sight The air is still unbreathable here.
+Downwards is a hatch that leads to the ships hallway.
+~ 
+270 8 16 
+D0 
+The control room leads to the north
+~ 
+~ 
+0 -1 27081 
+D2 
+the control room leads to the south
+~ 
+~ 
+0 -1 27099
+D3 
+The center of the control room is the the west
+~ 
+~ 
+0 -1 27088 
+D5 
+There is a hatch in the floor leading down to the halway
+~ 
+hatch~ 
+1 -1 27090 
+S 
+#27090 
+End or the Hallway~ 
+The hallway seems to end here. 
+However there is a hatch in the roof that may lead somewhere.
+It is so dark in this section of the hallway that 
+it is impossible to tell what does lie upwards.
+To the east the hallway continues towards a junction.
+~ 
+270 9 16
+D1 
+The hallway leads east into darkness
+~ 
+~ 
+0 -1 27091 
+D4 
+There is a hatch leading upwards that can be opened
+~ 
+hatch~ 
+1 -1 27089 
+S 
+#27091 
+Hallway in the Space Ship~ 
+The hallway is completely dark making it difficult to determine what lies ahead.
+It appears that the space ship is devoid of life from here, but it is difficult to tell.
+The air is slightly corrosive and devoid of enough oxygen to breathe freely. There is also
+a slight dampness in the air, possibly from the amount of time this vessel has been under water.
+~ 
+270 9 16
+D1 
+The hallway ends to the east
+~ 
+~ 
+0 -1 27092 
+D3 
+There is a junction in the hallway to the west
+~ 
+~ 
+0 -1 27090 
+S 
+#27092 
+Junction in the Space ship~ 
+The hallway is completely dark making it difficult to determine what lies ahead.
+It appears that the space ship is devoid of life from here, but it is difficult to tell.
+The air is slightly corrosive and devoid of enough oxygen to breathe freely. There is also
+a slight dampness in the air, possibly from the amount of time this vessel has been under water.
+To the north there is another junction and the hallway also leads towards the west. There are
+also some steps that lead upwards.
+~ 
+270 9 16
+D0 
+There is another junction in the hallway
+~ 
+~ 
+0 -1 27082 
+D3 
+The hallway leads west towards what appears to be a dead end
+~ 
+~ 
+0 -1 27091 
+D4
+There are some steps that lead upwards into more darkness
+~ 
+~ 
+0 -1 27100 
+S 
+#27093 
+In the Galley~ 
+There are some tables and chairs here, where the crew and passenger probably ate from.
+However the ship appears to be completely devoid of life, so it is a long time since
+anyone has sat here. Directly to the south is a metal wall and to the north is the entrance
+area.
+~ 
+270 8 16 
+D0 
+Towards the entrance are
+~ 
+~ 
+0 -1 27084 
+D1 
+At the wall in the galley
+~ 
+~ 
+0 -1 27094 
+S 
+#27094 
+The wall in the galley~ 
+The wall is made from a strange metal and there is something rather percular about it.
+At closer inspection it becomes evident that this wall is actually a panel that can
+be opened. However it is still weird that it is in the galley and there must be
+something vert strange behind it.
+~ 
+270 8 16 
+D1 
+The wall seems to have a panel in it that can be opened
+~ 
+panel wall~ 
+1 -1 27095 
+D3 
+There is a small table and chairs to the west
+~ 
+~ 
+0 -1 27093 
+S 
+#27095  
+Inside a glass tunnel~ 
+This  is a short glass walled tunnel that leads toward two very percular rooms.
+There are deep-purple lights glowing down onto the floor and the purple light is
+also transmitting from the north and east. 
+~ 
+270 8 16  
+D0 
+Inside the strange room
+~ 
+~ 
+0 -1 27086 
+D1 
+Inside the strange room
+~ 
+~ 
+0 -1 27096 
+D3 
+Towards the galley
+~ 
+wall panel~ 
+1 -1 27094 
+S 
+#27096
+Inside the strange room~
+There are over twenty pods mounted on the walls here.  Each tube contains a narrrow silver
+matress. The room itself glows in a ultraviolet light that makes the walls and floow look purple.
+To the west is a glass tunnel 
+~ 
+270 8 16
+D3 
+There is a glass tunnel to the west
+~ 
+~ 
+0 -1 27095 
+S 
+#27097 
+At the Computer~ 
+The computer that controls this ship is so large that it spans nearly a whole wall
+in the control room. It is actually amazing that this thing is still running after
+what is probably three-hundred years. To the north are the ships controls and to
+the east the computer continues.
+~ 
+270 8 16 
+D0 
+The control panels lie to the north
+~ 
+~ 
+0 -1 27087 
+D1 
+The computer stretches to the east
+~ 
+~
+0 -1 27098 
+S 
+#27098
+At the Computer~ 
+The computer that controls this ship is so large that it spans nearly a whole wall
+in the control room. It is actually amazing that this thing is still running after
+what is probably three-hundred years. To the south lies more of the control room and 
+to the west the computer continues.
+~ 
+270 8 16
+D1 
+Inside the navigation chamber
+~ 
+~ 
+0 -1 27099 
+D3 
+The computer stretches along the west wall
+~ 
+~ 
+0 -1 27097 
+S 
+#27099
+Inside the navigational Chamber~ 
+This chamber is obviously where the ship was navigated  from. There are lights in
+this section of the ship making it easy to see the computer, the navigational equipment
+and the leather chairs that were once used. To the north is the entrance  and to the west
+lies the computer
+~ 
+270 8 16 
+D0 
+The entrance to the control room lies to the north
+~ 
+~ 
+0 -1 27089 
+D3 
+The ships computers lie to the west
+~ 
+~ 
+0 -1 27098 
+S 
+#27100
+Deep within the Space Ship~ 
+This hallway is deep withing the space ship and there is very little light in this part of the ship.
+Downwards is a step leading towards a hallway and to the south there appears to be a bend.
+There is also a strange humming noise coming from even further into the ship.  
+~ 
+270 9 16 
+D2 
+The darkness that surrounds the ship continies to the south
+~ 
+~ 
+0 -1 27104 
+D5 
+Looking down there is a small step leading onto another hallway
+~ 
+~ 
+0 -1 27092 
+S 
+#27101 
+Sleeping Quarters- BD 1~ 
+These sleeping quarters look extremely barren. There is a flurescent light
+flickering overhead, a small bunk bed in one corner, a closet in another corner
+and a small desk and table against the wall. The door to the south leads out onto
+the dark hallway
+~ 
+270 8 16 
+D2 
+The dark hallway deep within the space ship
+~ 
+door~ 
+1 -1 27108 
+S 
+#27102
+Sleeping Quarters- BD 2~ 
+These sleeping quarters look extremely barren. There is a flurescent light
+flickering overhead, a small bunk bed in one corner, a closet in another corner
+and a small desk and table against the wall. The door to the south leads out onto
+the dark hallway
+~ 
+270 8 16 
+D1 
+The closet looks dark and ominous
+~ 
+closet door~ 
+2 27046 27103 
+D2 
+The dark hallway deep within the space ship
+~ 
+door~ 
+1 -1 27109 
+S
+#27103
+Inside the closet~ 
+It is pitch black ....  
+
+~ 
+270 9 16 
+D3 
+~ 
+door closet~ 
+2 27046 27102 
+S 
+#27104
+Turn in the Hallway~ 
+There is a turn in this section of the Spaceship and in the distane to the east there is a
+yellow glowing light and a strange humming sound. This section of the hallway is rather dark
+and it is impossible to see what lies towards the north
+~ 
+270 9 16 
+D0 
+The hallway looks dark and ominous to the north
+~ 
+~ 
+0 -1 27100 
+D1 
+There is a strange light coming from the east
+~ 
+~ 
+0 -1 27105 
+S 
+#27105
+Deep within the Space ship~ 
+The hallway, deep within the space ship, leads either east or west. There is a strange glowing
+light coming from the east and to the west you descend into darkness. There is also a humming
+noise coming from the east, that produces a sharp ring inside your head.
+~ 
+270 9 16 
+D1 
+Towards the yellow light
+~ 
+~ 
+0 -1 27106 
+D3 
+The hallway leads into darkness
+~ 
+~ 
+0 -1 27104 
+S 
+#27106
+Junction deep within the Space Ship~ 
+This junction leads south towards a yellow light and the strange humming noise.
+However whether is is safe to travel into the light is debatable. To the east there
+are several doors leading off the hallway and to the west the darkness engulfs the hallway.
+~ 
+270 9 16
+D1 
+The hallway leads towards several doors
+~ 
+~ 
+0 -1 27107 
+D2 
+There is a strange and eerie yellow light coming from the south
+~ 
+~ 
+0 -1 27114 
+D3 
+The hallway descends into darkness
+~ 
+~ 
+0 -1 27105 
+S 
+#27107 
+Deep within the Space ship~ 
+The hallway, deep within the space ship, leads either east or west. There is a strange glowing
+light coming from the west and to the east you descend into darkness. There is also a humming
+noise coming from the west, that produces a sharp ring inside your head.
+~ 
+270 9 16 
+D1 
+Towards a door in the hallway
+~ 
+~ 
+0 -1 27108 
+D3 
+There is a strange and eerie yellow light coming from the west
+~ 
+~
+0 -1 27106 
+S 
+#27108 
+Deep within the Space ship~ 
+The hallway is completely dark making it difficult to determine what lies ahead.
+It appears that the space ship is devoid of life from here, but it is difficult to tell.
+The air is slightly corrosive and devoid of enough oxygen to breathe freely. There is also
+a slight dampness in the air, possibly from the amount of time this vessel has been under water.
+To the north there is a door and the hallway leads both east and west.
+~ 
+270 9 16
+D0 
+Inside the sleeping quarters
+~ 
+door~ 
+1 -1 27101 
+D1 
+Through the dark hallway
+~ 
+~
+0 -1 27109 
+D3 
+Through the dark hallway
+~ 
+~ 
+0 -1 27107 
+S 
+#27109 
+Deep within the Space ship~ 
+The hallway is completely dark making it difficult to determine what lies ahead.
+It appears that the space ship is devoid of life from here, but it is difficult to tell.
+The air is slightly corrosive and devoid of enough oxygen to breathe freely. There is also
+a slight dampness in the air, possibly from the amount of time this vessel has been under water.
+To the north there is a door and the hallway leads west.
+~ 
+270 9 16
+D0 
+Into the sleeping quarters
+~ 
+door~
+1 -1 27102 
+D3 
+Through the dark hallway
+~ 
+~ 
+0 -1 27108 
+S 
+#27111
+Corner of the Outer wall~ 
+The left hand corner of this massive room has a large mech-trainer standing in it.
+There are also many other weapons and equipment scattered round the outside walls
+and you have to wonder what they are doing here. The yellow light that penetrates
+from the center  of the room is just as bright in the far corners.
+~ 
+270 8 16 
+D1 
+In the distance to the east is the entrance 
+~ 
+~ 
+0 -1 27112 
+D2 
+The wall continues to the south
+~ 
+~ 
+0 -1 27117 
+S 
+#27112 
+Around the Outer wall~ 
+The wall itself is made from a strange metal, and the air is still unbreathable, but
+the strange yellow light that is radiating from the center of the room, give this place
+a tranquil and calm appearance. The out wall leads both east and west from here. 
+~ 
+270 8 16 
+D1 
+In the distance to the east is the entrance 
+~ 
+~ 
+0 -1 27113
+D3 
+To the west is the corner where the room turns
+~ 
+~ 
+0 -1 27111 
+S 
+#27113 
+Around the outer wall~
+There are many pieces of equipment and weaponary that have been left scattered around
+the outside wall. They are all over ten feet tall, some even reaching fifty feet.
+This indicates how massive this room actually is, when machinary of this size looks
+so small. The wall leads east towards the entrance and continues west towards the corner.
+~ 
+270 8 16 
+D1 
+The entrance into this huge room
+~ 
+~ 
+0 -1 27114 
+D3 
+Along the outside wall
+~ 
+~ 
+0 -1 27112 
+S 
+#27114 
+Towards the Yellow light~ 
+This room is by far the largest room within the Space Ship and it is bathed in an
+eerie yellow light that penetrates into every corner. There is also a strange humming
+sound coming directly from the south. The outer walls of this room lead to the east and
+west and to the north is a darker hallway. 
+~ 
+270 12 16
+D0 
+Towards the darker hallway
+~ 
+~ 
+0 -1 27106 
+D1 
+Around the outer walls
+~ 
+~ 
+0 -1 27115 
+D3 
+Around the outer walls
+~ 
+~ 
+0 -1 27113 
+S 
+#27115 
+Around the outer wall~
+The wall itself is made from a strange metal, and the air is still unbreathable, but
+the strange yellow light that is radiating from the center of the room, give this place
+a tranquil and calm appearance. The outer wall leads both east and west from here. 
+~ 
+270 8 16 
+D1 
+The wall continues to the east
+~ 
+~ 
+0 -1 27116 
+D3 
+The entrance into this massive room lies to the west
+~ 
+~ 
+0 -1 27114 
+S 
+#27116 
+Corner of the Outer wall~ 
+The right hand corner of this massive room has a large mech-trainer standing in it.
+There are also many other weapons and equipment scattered round the outside walls
+and you have to wonder what they are doing here. The yellow light that penetrates
+from the center  of the room is just as bright in the far corners.
+~ 
+270 8 16 
+D2 
+Around the outer wall
+~ 
+~ 
+0 -1 27122 
+D3 
+Around the outer wall
+~ 
+~ 
+0 -1 27115 
+S 
+#27117 
+Closer to the light~
+From this side of the room a large Sphere is visible. It becomes obvious that this is the
+device creating the humming sound and the yellow light. A closer look may reveal what the
+object is made from, but from this distance it is impossible to determine very much.   
+~ 
+270 8 16 
+D0 
+Towards a corner in the outer wall
+~ 
+~ 
+0 -1 27111 
+D2 
+Directly in front of the sphere
+~ 
+~ 
+0 -1 27123 
+S 
+#27118 
+Inside the Sphere~
+Floating around the inside of the sphere, is a strange sensation. The air is breathable
+yet there is a foam-like substance that engulfs you. The whole place is devoid of any sound
+and trying to speak is nearly impossible. The sphere continues in circles to the east and south.  
+~ 
+270 40 0 
+D1 
+Inside the sphere
+~ 
+~ 
+0 -1 27119 
+D2 
+Inside the sphere
+~ 
+~ 
+0 -1 27124 
+S 
+#27119 
+Inside the Sphere~
+The sphere is made of a strange substance, one that has never been seen before.
+It is a metallic black, yet unlike metal, it is warm and soft to touch. There is
+also a clear foam substance spread throughout the whole of the sphere. To the
+south leads into the center of heart of the sphere.
+~ 
+270 40 0 
+D1 
+Inside the sphere
+~ 
+~ 
+0 -1 27120 
+D2 
+Towards the heart of the sphere
+~ 
+~ 
+0 -1 27125 
+D3 
+Inside the sphere
+~ 
+~ 
+0 -1 27118 
+S
+#27120 
+Inside the Sphere~
+Floating around the inside of the sphere, is a strange sensation. The air is breathable
+yet there is a foam-like substance that engulfs you. The whole place is devoid of any sound
+and trying to speak is nearly impossible. The sphere continues in circles to the east and south.  
+~ 
+270 40 0 
+D1 
+Inside the sphere
+~ 
+~ 
+0 -1 27121
+D3 
+Inside the sphere
+~ 
+~ 
+0 -1 27119 
+S 
+#27121 Room 
+Inside the Sphere~
+The sphere is made of a strange substance, one that has never been seen before.
+It is a metallic black, yet unlike metal, it is warm and soft to touch. There is
+also a clear foam substance spread throughout the whole of the sphere. 
+~ 
+270 40 0 
+D2 
+Inside the sphere
+~ 
+~ 
+0 -1 27127
+D3 
+Inside the sphere
+~ 
+~ 
+0 -1 27120 
+S 
+#27122 
+Around the Outer wall~ 
+The wall itself is made from a strange metal, and the air is still unbreathable, but
+the strange yellow light that is radiating from the center of the room, give this place
+a tranquil and calm appearance. The outer wall leads both north and south from here. 
+~ 
+270 8 16 
+D0 
+The outer wall
+~ 
+~ 
+0 -1 27116
+D2 
+The outer wall
+~ 
+~ 
+0 -1 27128 
+S 
+#27123 
+Directly in front of the Sphere~ 
+The Sphere is directly to the south and it is so large that it touches the ceiling, blocks
+your view from anything behind it, and makes the fifty foot machinery lying around look tiny.
+The sphere itself looks metal, but is warm to touch. There are also strange marking on the sphere.
+~ 
+270 8 16 
+D0 
+Towards the corner of the large room
+~ 
+~ 
+0 -1 27117
+D1 
+~ 
+sphere door lid~ 
+1 -1 27124 
+D2 
+Towards the corner of the large room
+~ 
+~ 
+0 -1 27129 
+E
+markings sphere~
+
+
+              ///   ^^          >>
+                 \\\\    >>
+                  <<            ////>>  
+                              <<  \\\\\
+
+
+~
+S 
+#27124  
+Inside the Sphere~
+Although it is dark inside the sphere the air is now breathable. 
+The sphere itself is smooth and slightly damp. 
+It is completely quiet in here and nothing can be heard from the outside. 
+There is also a thick blanket of foam that causes you to float through and around, 
+which is a strange sensation.
+~ 
+270 40 0 
+D0 
+Inside the Sphere
+~ 
+~ 
+0 -1 27118 
+D2 
+Inside the sphere
+~ 
+~ 
+0 -1 27130 
+D3 
+~ 
+sphere lid door~ 
+1 -1 27123 
+S 
+#27125  
+Into the Heart of the Sphere~ 
+The sphere is made of a strange substance, one that has never been seen before.
+It is a metallic black, yet unlike metal, it is warm and soft to touch. There is
+also a clear foam substance spread throughout the whole of the sphere. In this
+area of the sphere there is also a strange echoing voice that penetrates into
+your head. The voice seems even louder to the east.
+~ 
+270 40 0 
+D0 
+Inside the sphere
+~ 
+~ 
+0 -1 27119 
+D1 
+At the heart of the sphere
+~ 
+~ 
+0 -1 27126 
+D2 
+Inside the sphere
+~ 
+~ 
+0 -1 27131 
+S
+#27126  
+In the Heart~ 
+This is the very core of the sphere where the strange foam is thickest and seems to have
+the most effect on your person. It is also completely black here and the voice that was audiable
+to the left is even louder here. This is a very alien and percular place which makes you feel
+completely uncomfortable
+~ 
+270 44 16384 
+D3 
+~ 
+~ 
+0 -1 27125 
+S 
+#27127 Room 
+Inside the Sphere~
+Although it is dark inside the sphere the air is now breathable. 
+The sphere itself is smooth and slightly damp. 
+It is completely quiet in here and nothing can be heard from the outside. 
+There is also a thick blanket of foam that causes you to float through and around, 
+which is a strange sensation.
+~ 
+270 40 0 
+D0 
+Inside the sphere
+~ 
+~
+0 -1 27121 
+D2 
+Inside the sphere
+~ 
+~ 
+0 -1 27133 
+S 
+#27128 
+Around the outer wall~
+There are many pieces of equipment and weaponary that have been left scattered around
+the outside wall. They are all over ten feet tall, some even reaching fifty feet.
+This indicates how massive this room actually is, when machinary of this size looks
+so small. The wall leads north and south around the outskirts of this room
+~ 
+270 8 16 
+D0 
+Along the outer wall
+~ 
+~ 
+0 -1 27122 
+D2 
+Along the outer wall
+~ 
+~ 
+0 -1 27134 
+S 
+#27129 
+Closer to the light~
+From this side of the room a large Sphere is visible. 
+It becomes obvious that this is the
+device creating the humming sound and the yellow light. 
+A closer look may reveal what the object is made from, 
+but from this distance it is impossible to determine very much.   
+~ 
+270 8 16 
+D0 
+Directly in front of the sphere
+~ 
+~ 
+0 -1 27123 
+D2 
+At the corner of the wall
+~ 
+~ 
+0 -1 27135 
+S 
+#27130 Room 
+Inside the Sphere~
+The sphere is made of a strange substance, one that has never been seen before.
+It is a metallic black, yet unlike metal, it is warm and soft to touch. There is
+also a clear foam substance spread throughout the whole of the sphere. 
+~ 
+270 40 0 
+D0 
+Inside the sphere
+~ 
+~ 
+0 -1 27124 
+D1 
+Inside the sphere
+~ 
+~ 
+0 -1 27131 
+S 
+#27131 
+Inside the Sphere~
+Although it is dark inside the sphere the air is now breathable. 
+The sphere itself is smooth and slightly damp. 
+It is completely quiet in here and nothing can be heard from the outside. 
+There is also a thick blanket of foam that causes you to float through and around, 
+which is a strange sensation.
+~ 
+270 40 0 
+D0 
+Inside the sphere
+~ 
+~ 
+0 -1 27125 
+D1 
+Inside the sphere
+~ 
+~ 
+0 -1 27132 
+D3 
+~ 
+~ 
+0 -1 27130 
+S 
+#27132 
+Inside the Sphere~
+Although it is dark inside the sphere the air is now breathable. 
+The sphere itself is smooth and slightly damp. 
+It is completely quiet in here and nothing can be heard from the outside. 
+There is also a thick blanket of foam that causes you to float through and around, 
+which is a strange sensation.
+~ 
+270 40 0 
+D1 
+Inside the Sphere
+~ 
+~ 
+0 -1 27133 
+D2 
+To the south is the outer wall
+~ 
+sphere door lid~ 
+1 -1 27138 
+D3 
+Inside the Sphere
+~ 
+~ 
+0 -1 27131 
+S
+#27133 
+Inside the Sphere~
+Floating around the inside of the sphere, is a strange sensation. 
+The air is breathable yet there is a foam-like substance that engulfs you. 
+The whole place is devoid of any sound and trying to speak is nearly impossible. 
+The sphere continues in circles to the west and north.  
+~ 
+270 40 0 
+D0 
+Inside the Sphere
+~ 
+~ 
+0 -1 27127 
+D3 
+Inside the Sphere
+~ 
+~ 
+0 -1 27132 
+S
+#27134 
+Around the Outer wall~ 
+The wall itself is made from a strange metal, and the air is still unbreathable, but
+the strange yellow light that is radiating from the center of the room, give this place
+a tranquil and calm appearance. The outer wall leads both north and south
+from here. 
+~ 
+270 8 16 
+D0 
+Along the outer wall
+~ 
+~ 
+0 -1 27128 
+D2 
+The corner of the outer wall
+~ 
+~ 
+0 -1 27140 
+S
+#27135 
+Corner of the Outer wall~ 
+The left hand corner of this massive room has a large mech-warrior standing in it.
+There are also many other weapons and equipment scattered around the outside walls
+and you have to wonder what they are doing here. The yellow light that penetrates
+from the center  of the room is just as bright in the far corners. The outer wall
+continues to the east and to the north the light seems even brighter
+~ 
+270 8 16 
+D0 
+Towards the yellow light
+~ 
+~ 
+0 -1 27129 
+D1 
+Along the outer wall
+~ 
+~ 
+0 -1 27136 
+S
+#27136 
+Around the Outer wall~ 
+The wall itself is made from a strange metal, and the air is still unbreathable, but
+the strange yellow light that is radiating from the center of the room, give this place
+a tranquil and calm appearance. The out wall leads both east and west from here. 
+~ 
+270 8 16 
+D1 
+Closer to the yellow light
+~ 
+~ 
+0 -1 27137 
+D3 
+Near the corner of the wall
+~ 
+~ 
+0 -1 27135 
+S
+#27137  
+Closer to the light~
+From this side of the room a large Sphere is visible. 
+It becomes obvious that this is the device creating the 
+humming sound and the yellow light. A closer look may reveal what the
+object is made from, but from this distance it is impossible to determine very much.   
+~ 
+270 8 16 
+D1 
+Towards the corner in the large room
+~ 
+~ 
+0 -1 27138 
+D3 
+directly in front of the sphere
+~ 
+~ 
+0 -1 27136 
+S
+#27138 
+Directly in front of the Sphere~ 
+The Sphere is directly to the north and it is so large that it touches the ceiling, blocks
+your view from anything behind it, and makes the fifty foot machinery lying around look tiny.
+The sphere itself looks metal, but is warm to touch. There are also
+strange markings on the sphere.
+~ 
+270 8 16 
+D0 
+~ 
+sphere door lid~ 
+1 -1 27132 
+D1 
+There is a yellow light to the east
+~ 
+~ 
+0 -1 27139
+D3 
+There is a yellow light to the west
+~ 
+~ 
+0 -1 27137 
+E
+markings sphere~
+
+
+              ///   ^^          >>
+                 \\\\    >>
+                  <<            ////>>  
+                              <<  \\\\\
+
+
+~
+S 
+#27139 
+Closer to the light~
+From this side of the room a large Sphere is visible. 
+It becomes obvious that this is the
+device creating the humming sound and the yellow light. 
+A closer look may reveal what the object is made from, 
+but from this distance it is impossible to determine very much.   
+~ 
+270 8 16 
+D1 
+At the corner in the room
+~ 
+~ 
+0 -1 27140
+D3 
+Directly in front of the sphere
+~ 
+~ 
+0 -1 27138 
+S 
+#27140 
+Corner of the Outer wall~ 
+The left hand corner of this massive room has a large mech-sentry standing in it.
+There are also many other weapons and equipment scattered round the outside walls
+and you have to wonder what they are doing here. The yellow light that penetrates
+from the center  of the room is just as bright in the far corners.
+~ 
+270 8 16 
+D0 
+Towards the outer wall
+~ 
+~ 
+0 -1 27134
+
+D3
+Towards the bright yellow light
+~
+~ 
+0 -1 27139 
+S
+#27150
+The Echo Room~
+This is the room where The Echos, servants of the Alien Voice hang out waiting
+to attack those little bastards that jump the Alien Voice.
+~
+270 8 16
+S         
+
+$ ~

@@ -1,0 +1,82 @@
+getw n;n;w;w;w;w;w;s;w;get word; get crow;e;n;e;e;e;e;e;s;s
+z show zone $1
+las rem stalker;wield laser
+ds rem laser;wield stalker
+dim cast 'dim' $*
+fi cast 'finger' $*
+3 cast 'divine heal' $*
+6 hunt scorpions
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+arm give laser clone;give laser 2.clone;order clone wield laser;order 2.clone wield laser
+` get laser corpse;get laser 2.corpse;get laser 3.corpse
+die order clones die;get laser corpse;get laser 2.corpse;get laser 3.corpse
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+serve order clones serve
+ord order follow kill $1;kill $1;order follow assist odin
+9 cast 'sanct';cast 'sanct' clone;cast 'sanct' 2.clone
+c get coin all.corpse
+ass order follow assist odin
+detc  cast 'detect inv' clone;cast 'detect inv' 2.clone
+infc cast 'infra' clone;cast 'infra' 2.clone
+cl cast 'clone'
+clone cast 'clone';cast 'clone'
+0 group all;cast 'group sanc';cast 'group arm';ungroup
+sum cast 'summon' $*
+id cast 'identify' $*
+gf get force force
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+spiral d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n
+talon cast 'remove curse' talon;e;sell talon;w
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+2 cast 'advanced heal' $*
+par cast 'paral' $*
+tele cast 'teleport'
+5 cast 'haste'
+a aff
+loc cast 'locate object' $*
+drag cast 'dragon'
+8 cast 'sanct' $*
+sleep cast 'sleep' $*
+tra train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1
+rr recite recall
+gc get all all.corpse
+raist Punch raist
+gag get all coins all.corpse
+ar cast 'armor'
+sg cast 'shocking grasp' $1
+dv cast 'detect invisibility'
+mm cast 'magic missile' $1
+infra cast 'infravision' $1
+inf cast 'infrav'$*
+inv cast 'invis'
+det cast 'detect invis'$*
+ba buy 5 ammo;put all.ammo force
+bp buy 10 prot;put all.prot force
+bh buy 20 heal;put all.heal force
+qp get prot force;quaff prot
+re cast 'word of recall'
+x get all corpse
+ref cast 'refresh' $*
+wa wake;stand
+life cast 'sense life' $*
+walk cast 'waterwalk' $*
+wh cast 'whirlwind'
+water cast 'waterbr' $*
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+rope cast 'remove curse' rope;e;sell rope;w
+rc cast 'remove curse' $*
+1 get heal force;get heal force;get heal force;get heal force;get heal force;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put force 2.force
+lev1 e;e;e;e;s;s;e;unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e;unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+noh cast 'nohassle
+getd hold lant;wield laser;hold drill;wear blackness body;wear all;open force;open 2.force;open 3.force;put force 2.force;put force 2.force
+remw n;n;w;w;w;w;w;s;w;drop crow;drop word;e;n;e;e;e;e;e;s;s

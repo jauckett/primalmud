@@ -1,0 +1,9 @@
+jun get all from corpse
+slp cast 'sleep' on $1
+blind cast 'blindness' on $1
+gat get all from corpse
+gt get all from corpse
+ge get $1 from backpack
+pk poke $1;po
+bl cast 'blindness' $1
+sl cast 'sleep' $1

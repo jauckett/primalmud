@@ -1,0 +1,9 @@
+rr recite recall
+qw quaff white
+qr quaff red
+gac get all corpse
+lic look in corpse
+gg get gold corpse
+kk kick;kick
+bs remove sword;wield dagger;backstab $1;remove dagger;wield sword
+begin s;s;s;s;n;wear all

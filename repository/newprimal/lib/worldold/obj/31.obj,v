@@ -1,0 +1,439 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.48.04;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.34;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.29.14.28.35;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back in.
+@
+text
+@#3101
+royal crest~
+the royal crest~
+You see a small royal crest on a chain lying here.~
+~
+9 3081 5
+4 0 0 0 
+5 20000 15000
+E
+royal crest~
+
+A beutiful crest of solid gold
+~
+A
+4 1
+A
+6 2
+A
+13 20 
+A
+14 -10
+L 25
+#3102
+royal shield~
+the royal shield~
+You see a finely crafted shield with the royal crest on it, lying here.~
+~
+9 3081 513
+2 0 0 0
+15 20000 15000
+E
+royal shield ~
+A round bronze and gold royal shield
+~
+A
+1 -3
+A
+18 3
+L 25
+#3103
+sword excaliber~
+the excaliber sword~
+You see a large well crafted sword lying on here.~
+~
+5 3072 8193
+0 5 6 3
+20 250000 250000
+E
+sword excaliber~
+A sword that only those who are knid, good and honest can hold
+~
+A
+18 6
+A
+19 2
+A
+14 -60
+L 25
+#3104
+iron key~
+an iron key~
+A plain looking iron key is here.  Imprinted into
+the side is the royal crest.~
+~
+18 65660 1
+0 0 0 0 
+3 0 0
+#3105
+royal key golden~
+a golden key~
+A finely crafted golden key is here.  Imprinted into
+the side is the royal crest.~
+~
+18 65660 1
+0 0 0 0 
+3 0 0
+#3106
+green dark potion~
+a dark green potion~
+You see a dark green potion lying here.~
+~
+10 65573 1
+60 28 28 33
+3 10000 10000
+#3107
+yellow dark potion~
+a dark yellow potion~
+You see a dark yellow potion lying here.~
+~
+10 65573 1
+60 42 0 0
+3 10000 10000
+#3108
+purple dark potion~
+a dark purple potion~
+You see a dark purple potion lying here.~
+~
+10 65573 1
+60 44 3 50
+3 10000 10000
+#3109
+black potion~
+a black potion~
+You see a black potion lying here.~
+~
+10 65573 1
+60 27 27 27
+3 10000 10000
+#3110
+clone scroll~
+a scroll of cloning~
+You see a scroll of cloning lying here.~
+~
+2 6 1
+65 10 10 -1
+5 5000 5000
+#3111
+fire scroll~
+a fire scroll~
+You see a fire scroll lying here.~
+~
+2 6 1
+65 26 26 26
+5 5000 5000
+#3112
+sanctuary scroll~
+a scroll of sanctuary~
+You see a scroll of sanctuary lying here.~
+~
+2 6 1
+65 36 -1 -1
+5 5000 5000
+#3113
+puffy dress~
+a puffy dress~
+You see a well crafted puffy dress here.~
+~
+12 65536 9
+5 0 0 0 
+5 50 50
+#3114
+tiara~
+a tiara~
+You see a tiara lying here.~
+~
+12 65536 17
+2 0 0 0 
+5 50 50
+E
+tiara~
+This beautiul crown is covered in sapphires, rubies and diamonds all as large
+as your hand. They are all set in solid gold and shine magnificently in the
+light.
+~
+A
+19 1
+L 15
+#3115
+juggling ball~
+a juggling ball~
+You see a juggling ball here.~
+~
+1 1025 16385
+2 0 0 0
+2 1500 1500
+E
+juggling ball~
+This rather unusual ball is made of small pieces of coloured cloth and 
+you can hear a pleasant tinkling noise coming from inside the ball as it
+moves.
+~
+A
+12 30
+L 20
+#3116
+feather duster~
+a feather duster~
+You see a feather duster lying here.~
+~
+12 65536 16385
+2 0 0 0 
+3 50 50
+#3117
+guard guards guard's sword~
+a guard's sword~
+You see a guard's sword here.~
+~
+5 3072 8193
+0 5 3 3
+5 8000 5000
+E
+guard sword~
+The blade shines brightly in the sun's rays and the hilt is made of
+strong sturdy iron.
+~
+A
+18 4
+A
+19 1
+L 20
+#3118 
+guard guards guard's shield~
+a guard's shield~
+You see a guard's shield here.~
+~
+9 384 513
+2 0 0 0 
+5 8000 5000
+E
+guard shield~
+This sturdy iron shield has a few dints and bends in it from prior use
+~
+A
+12 10
+A
+19 1
+L 18
+#3119
+sandwich~
+a sandwich~
+You see a nice looking sandwich here.~
+~
+19 4 1
+5 0 0 0 
+1 50 50
+#3120
+suit armour~
+a suit of armour~
+You see a suit of armour piled on the floor.~
+~
+9 3072 9
+5 0 0 0 
+8 8500 15000
+E
+suit armour~
+A sturdy iron and brass suit that once belonged to one of King Arthurs
+guards or knights
+~
+A
+14 -20
+A
+18 2
+L 25
+#3121
+horned helm~
+a horned helm~
+You see an evil looking honed helm lying here.~
+~
+9 2568 17
+3 0 0 0 
+6 5000 8000
+A
+1 2
+E
+horned helm~
+This evil looking helm made from a strange metal also has large minotaur
+horns that protrude viciously from the top.
+~
+A
+13 20
+A
+19 2
+L 25
+#3122
+crossbow large~
+a large crossbow~
+You see a large crossbow leaning against the wall.~
+~
+5 65856 8193
+0 3 6 12
+12 10000 20000
+E
+crossbow large~
+A long thin bow made from a sturdy oak 
+~
+A
+2 -2
+A 
+14 -30
+#3123
+merlin merlin's staff~
+Merlin's staff~
+You see Merlin's staff lying here.~
+~
+4 66849 16385
+70 6 6 27
+6 200000 250000
+E
+staff merlin~
+This magical staff once belonged to a wise and clever wizard
+~
+A
+4 3
+A 
+12 60
+L 15
+#3124
+merlin merlin's hat pointy~
+Merlin's pointy hat~
+You see Merlin's pointy hat here.~
+~
+9 66849 17
+2 0 0 0 
+4 200000 250000
+E
+hat merlin~
+This is obviously a magical hat that has many strange powers
+~
+A
+12 50
+A
+18 1
+A
+9 -5
+L 20
+#3125
+merlin merlin's robe~
+Merlin's robe~
+You see Merlin's robe folded here.~
+~
+9 66849 9
+3 0 0 0 
+6 200000 250000
+E
+robe merlin~
+This is obviously a magical robe that has many strange and magical powers
+~
+A
+18 1
+A
+12 40
+A
+13 -50
+L 25
+#3126
+iron mask~
+The iron mask~
+You see the iron mask here.~
+~
+9 68546 19
+2 0 0 0 
+15 3000 5500
+E
+mask iron~
+This ugly iron mask has a sinister look to it with black holes for the eyes
+and a ugly black slit for the mouth.
+~
+A
+19 2
+A
+2 -3
+L 25 
+#3127
+bastard sword~
+a large bastard sword~
+You see a large bastard sword lying here.~
+~
+5 3072 8193
+0 6 5 3
+15 3000 5500
+E
+bastard sword~
+This strong. heavy, sturdy sword is obviously rather difficult to wield and
+requires great strength.
+~
+A 
+18 4
+A
+19 1
+L 25
+#3128
+blue sword~
+a blue sword~
+You see a sword with a blue blade here.~
+~
+5 2560 8193
+0 5 6 3
+10 5000 10000
+E
+sword blue~
+This unusual sword is a strange blue colour and you can not determine what
+metal it is actually made from.
+~
+A 
+18 2
+A
+19 2
+L 25
+$
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Adding all obj files to director
+@
+text
+@@
+

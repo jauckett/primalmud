@@ -1,0 +1,454 @@
+#11601
+Scalper~
+a Scalper~
+A Scalper is here trying to sell you a ticket
+~
+This very well dressed man is try to sell off a pile of tickets he has.
+No wonder with the price he wants for them
+~
+6551644 8487096 0 E
+97 -87 -12 50d50+3000 50d65+97
+85500 950000
+8 8 0
+E
+T 11640
+#11602
+Guard~
+a Security Guard~
+A Security Guard stands before the door way
+~
+The Security Guard is dressed in black
+He looks very strong and that he would put up one hell of a fight.
+It isn't adviced that you take him on
+~
+2357322 99516 750 E
+100 -82 -15 100d100+500 50d20+85
+10 327875
+8 8 0
+E
+T 11606
+#11603
+Male~
+the Young Male~
+A Young Male stands here
+~
+You see a Young Boy on his way to tonights concert
+~
+1134664 67141760 150 E
+80 -10 -8 25d27+1000 25d27+65
+2000 167721
+8 8 1
+E
+T 11604
+T 11640
+#11604
+Female~
+a sexy Young Female~
+A sexy Young Female stands here flirting with all the Young Males
+~
+This sexy Young Female is too bussy flirting with the other young males to even notice you are looking at here
+~
+2183240 67141760 200 E
+80 -10 -10 25d27+1000 25d27+65
+1000 167721
+8 8 2
+BareHandAttack: 8
+E
+#11605
+CAR~
+a fast moving car~
+A fast moving car Zooms past
+~
+You are most likley DEAD !!!!
+~
+2357322 335611068 0 E
+100 -82 -20 30d25+500 50d20+85
+0 0
+8 8 0
+E
+#11606
+ticket~
+the Ticket Seller~
+The Young Lady stands behind the window weighting for the next customer
+~
+A very neatly dressed young lady
+~
+3405914 99516 1000 E
+100 -82 -20 30d25+500 50d20+85
+0 327875
+8 8 2
+E
+#11607
+Whore~
+This Hungry whore~
+This whore sits ready with her legs spread eagle
+~
+This well skills female looks like she knows how to please a man.
+She licks her lips as you walk into the room
+She is hungry and she wants you to be her next meal
+~
+2877514 10 350 E
+90 -74 -12 50d50+1000 20d35+75
+81000 238887
+6 6 2
+BareHandAttack: 2
+E
+T 11601
+#11608
+Female~
+a Queuing female~
+The Queuing female stands here.
+~
+This young lady seems to be getting stressed over what ever she is standing here for
+~
+1308714 32796 0 E
+85 -69 -10 55d55+300 15d55+70
+1000 201201
+8 8 2
+BareHandAttack: 8
+E
+T 11603
+#11609
+Female~
+a relived female~
+A relived female happy to be out of the Que
+~
+
+Much unlike the females you have just pasted the rather attractive young girl seems relived about the fact she had finally made to the end of the Que
+~
+3405834 0 0 E
+85 -69 -12 55d55+1200 15d55+70
+21280 201201
+8 8 2
+BareHandAttack: 8
+E
+#11610
+Male~
+the Concert goer~
+A Concert goer dances here.
+~
+A young man dressed all in black
+~
+1308876 268468280 0 E
+88 -70 -12 50d50+0 20d35+75
+79200 238887
+8 8 1
+E
+#11611
+Crowd Surfer~
+the Crowd Surfer~
+A Guy crowd surf's past
+~
+A young man dressed all in black
+~
+1302538 188 0 E
+90 -74 -15 50d50+200 20d35+75
+38887 238887
+8 8 0
+E
+T 11602
+#11612
+Female~
+Another Concert goer~
+Another concert goer dances here.
+~
+A young sexy Blond female.  
+Here very cuit smile catches your eye as she dances passed you
+~
+2879688 268468284 0 E
+88 -70 -15 50d50+400 20d35+75
+20000 281028
+8 8 2
+E
+#11613
+Bouncer~
+the Bouncer~
+The bouncer stands here.
+~
+You see a very ugly man standing before you.
+His tuffness is seen buy the many scars that cover his face and arms.
+He smirks as you glance his way.
+~
+1304666 302089404 -500 E
+95 -78 -15 50d50+0 30d25+85
+12345 281028
+8 8 0
+E
+T 11608
+#11614
+A Condom Vending machine~
+a Condom Vending machine~
+A Condom Vending machine Hangs on the wall
+~
+This machine is contained in a white smash proof box
+It looks unbreakable but does it realy work?
+~
+10 33554492 0 E
+100 -30 -15 100d10+300 50d20+50
+0 327875
+8 8 0
+E
+#11615
+Ticket Collector~
+the Ticket Collector~
+Ticket Collector stands here.
+~
+The dull look on this young girls face 
+tells you that she doesn't really want to be here.
+~
+2351130 42042428 0 E
+100 -82 -13 100d100+0 50d20+100
+0 327875
+8 8 2
+BareHandAttack: 4
+E
+T 11609
+T 11605
+#11616
+A Bass Player~
+the Bass Player~
+A Bass Player is performing here.
+~
+You don't often see a female bass player.
+But she defently know what she is doing.
+~
+2351114 98488 0 E
+92 -75 -15 50d50+0 25d25+70
+82800 920000
+8 8 2
+E
+#11617
+Guitarist~
+the Guitarist~
+The Guitarist is jamming away here.
+~
+your eyes go crazzy trying to watch the finger of the guitarist.
+I think you should stop before you get too dissy
+~
+3387178 98492 1000 E
+100 -70 -20 50d50+0 30d30+90
+85500 950000
+8 8 2
+E
+#11618
+Singer~
+the Singer~
+The Singer Dances around like a tool.
+~
+What a crazzy woman, this signer uses the whole stage as she runs around 
+getting write into the music and rasing the crowd.
+~
+2881672 276923576 0 E
+99 -83 -14 50d50+200 45d20+90
+89100 327875
+8 8 2
+E
+T 11611
+#11619
+Manager~
+the Manager ~
+The Manager stands here.
+~
+It looks unfinished.
+~
+253962 33852 0 E
+70 0 0 50d20+0 20d10+20
+45000 100000000
+8 8 1
+E
+#11620
+A groupie~
+a groupie~
+A groupie is hanging around here.
+~
+It looks unfinished.
+~
+784460 301989948 0 E
+92 -76 -15 50d50+0 50d10+96
+82800 255195
+8 8 2
+E
+#11621
+Flea~
+Flea~
+Flea Stands here.
+~
+It looks unfinished.
+~
+3405918 310457532 1000 E
+100 -84 -15 35d35+0 100d10+104
+0 327875
+8 8 1
+E
+#11622
+Chad~
+Chad~
+Chad stands here.
+~
+It looks unfinished.
+~
+3399706 41943228 0 E
+99 -80 -15 50d50+0 50d10+100
+89100 318117
+8 8 1
+E
+#11623
+Anthony~
+Anthony~
+Anthony stands here.
+~
+It looks unfinished.
+~
+1306702 13500 0 E
+100 -84 -18 50d50+0 100d10+104
+90000 327875
+8 8 1
+E
+#11624
+Dave~
+Dave~
+Dave stands here.
+~
+It looks unfinished.
+~
+2357262 310444094 0 E
+99 -80 -15 50d50+0 50d10+100
+89100 318117
+8 8 1
+E
+#11625
+HR Manager~
+HR Manager~
+The HR Manager stands here.
+~
+A very tall man stands before you.
+he is dressed in a black suit and whistles as he walks
+~
+8 0 0 E
+100 -13 -13 50d50+0 15d50+33
+0 327875
+8 8 1
+E
+T 11611
+#11626
+Burger flipper~
+Burger Man~
+The burger man is standing here
+~
+The look of this man makes you question is you would eat
+any food from this place
+~
+8 0 0 E
+100 -13 -13 50d50+0 15d30+33
+0 327875
+8 8 1
+E
+T 11613
+T 11614
+T 11615
+T 11623
+T 11624
+T 11638
+#11627
+Hungry Harry ~
+Hungry Harry ~
+Hungry Harry is here and he wants food now.
+~
+It looks unfinished.
+A fat burly slob.
+~
+8 0 0 E
+100 -13 -13 50d50+0 10d30+33
+0 327875
+8 8 0
+E
+T 11621
+T 11622
+#11628
+Thirsty Tim~
+Thirsty Tim~
+Thirsty Tim needs a drink
+~
+Thristy Tim has been out working hard and is very sun burnt
+~
+8 0 0 E
+100 -20 -14 50d50+0 20d25+40
+0 327875
+8 8 0
+E
+T 11630
+T 11629
+#11629
+Vegetarian Veronica~
+Vegetarian Veronica~
+Vegetarian Veronica, is waiting for you to server here.
+~
+You had better get this girl what she wants as quick as possible 
+as she is a vegetarian Lesbian and don't take crap from no one
+~
+8 0 0 E
+100 -30 -14 50d50+0 20d20+50
+0 327875
+8 8 0
+E
+T 11625
+T 11627
+#11630
+Nuggy Nipper ~
+Nuggy Nipper ~
+Nuggy Nipper is here crying
+~
+This young child wants his mother to play him. So is trying to make troble 
+~
+8 0 0 E
+100 -30 -15 50d50+0 20d20+50
+0 327875
+8 8 0
+E
+T 11626
+T 11628
+#11631
+Armed Robber~
+a Armed Robber~
+A Armed Robber has just walked in
+~
+Dressed in black with a full face mask on.
+~
+8 0 90 E
+100 -70 -15 50d50+0 20d20+90
+0 327875
+8 8 1
+E
+T 11632
+#11632
+Store Manager~
+Store Manager~
+The Store Manager stands here.
+~
+A very old looking business man stands before you
+mind you he look as if he is worth a packet.
+~
+8 33621128 0 E
+100 -70 -13 50d50+0 45d20+85
+90000 327875
+8 8 1
+E
+T 11634
+T 11633
+T 11635
+T 11637
+#11690
+Father christmas~
+Father Christmas~
+Go look somewhere else
+~
+It looks unfinished.
+Go look somewhere else
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+E
+T 11690
+$

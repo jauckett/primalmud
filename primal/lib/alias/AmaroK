@@ -1,0 +1,39 @@
+ad at nightowl cast 'ad' nightowl
+p cast 'para' $*
+tardis goto 22399
+tel echo The words of AmaroK fill your head `$*'
+nak cast 'str' nak; cast 'arm' nak; cast 'bless' nak; cast 'sanc' nak
+prot cast 'divine prot'
+arm cast 'arm'
+locate cast 'locate' $1
+stone cast 'stoneskin
+t tag $1
+plas cast 'plasma' $1
+ref cast 'refresh'
+word cast 'word
+corpse get all corpse
+dragon cast 'dragon
+heal cast 'advanced heal'
+blind cast 'blind' $1
+infra cast 'infra'
+ident cast 'ident' $1
+fing cast 'finger' $1
+prim primal scream
+holy cast 'holy'
+sanc cast 'sanc'
+hast cast 'hast' self
+wh cast 'whirl'
+sum cast 'summon' $1
+bless cast 'bless'
+ls cast 'lightning shield'
+h cast 'divine heal'
+fs cast 'fire shield'
+cl cast 'cloud'; cast 'cloud kill'
+div cast 'divine prot
+yay Grats &r>&b>&m>&y>&g>&R>&B>&M>&Y>&G>----- &W&f$*&b &G-----<&Y<&M<&B<&R<&g<&y<&m<&b<&r<
+clone cast 'clone
+fw cast 'fire wall"
+// / #100 $*
+/// / #105 $*
+obj vstat obj $*
+woo grat &G*&R---&B@&R---&G*&W<&Y$* &W>&G*&R---&B@&R---&G*

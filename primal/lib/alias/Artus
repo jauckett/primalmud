@@ -1,0 +1,14 @@
+id cast 'identify' $*
+yawn gecho A gaping yawn threatens to swallow you up.
+/` / #150 $*
+`` wiznet #150 $*
+lo load obj $1
+vso vstat obj $1
+vno vnum obj $1
+/// / #105 $*
+// / #100 $*
+set send self CAREFUL!! Use setreal...
+cg grat &g--&y,&g--&y'&g--{&r@&G$* &r@&g}--&y,&g--&y'&g--&n
+setr set $*
+setreal set $*
+` wiznet $*

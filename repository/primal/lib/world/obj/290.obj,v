@@ -1,0 +1,92 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.01.26.15.41.25;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Added the object files which didn't import.
+@
+text
+@#29001
+metal claw~
+a Queen's metal claw~
+A Queen's metal claw has been left here.~
+~
+5 646 24577
+0 11 4 8
+12 450000 15000
+E
+metal claw~
+This is the weapon of choice of the Great Xenomorh Queen.
+~
+A
+12 -25
+A
+13 10
+A
+19 4
+L39
+#29002
+computer broken~
+broken computer~
+A broken computer lies here.~
+~
+25 2 16385
+29003 0 0 29004
+6 200 200000
+E
+broken computer~
+Looking at this broken computer you wonder if you could possibly
+make something of it
+~
+#29003
+computer cable wire~
+computer cable~
+A piece of computer cable lies here~
+~
+25 8 16385
+29002 0 0 29004
+3 300 300000
+E
+computer cable wire~
+Looking at this piece of cable you wonder if it could ever be of use
+~
+#29004
+pocket calculator~
+a pocket calculator~
+A pocket calculator lies here~
+~
+9 2186 16385
+3 0 0 0
+3 600 60000
+E
+pocket calculator~
+A small silver pocket calculator is a must for everyone
+~
+A
+5 4
+A
+18 2
+A
+19 3
+A
+13 20
+A
+14 -20
+L 35
+#99999
+$~
+@

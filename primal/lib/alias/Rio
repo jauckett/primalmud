@@ -1,0 +1,23 @@
+t tell $*
+open open gate
+sa say $*
+drink drink skin
+heal cast 'cure light'
+food cast 'create food';eat mushroom
+water cast 'create water' skin
+g gossip $*
+xb exam bag
+r reply $*
+gc get all corpse;get corpse;junk corpse
+infra cast 'infravision'
+map get map crate;read map;put map crate
+eatm get meat crate;eat meat
+gall get all all.corpse;get all.corpse;junk corpse
+xc exam crate
+re get recall crate;recite recall
+qw get white crate;quaff white
+qr get red crate;quaff red
+sg cast 'shocking grasp' $*
+light get lantern crate;hold lantern
+bh cast 'burning hands' $*
+din cast 'detect invisibility'

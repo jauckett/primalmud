@@ -1,0 +1,25 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2003.12.31.10.39.19;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Artus> Moving agross to live.
+@
+text
+@CircleMUD v3.0 Shop File~
+$~
+@

@@ -1,0 +1,10 @@
+cab cast 'armor' byrde
+caq cast 'armor' quiande
+csg cast 'shocking grasp' $*
+ghb get heal bag; quaff heal
+emb get meat bag; eat meat
+gmb get meat bag; eat meat
+ccq cast 'cure light' quiande
+ccb cast 'cure light' byrde
+ds dr skin; dr skin
+csgk cast 'shocking grasp' knight

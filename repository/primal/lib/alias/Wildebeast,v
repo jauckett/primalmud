@@ -1,0 +1,62 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a3 gossip $* - $* - $* - $* - $* - $* - $*
+a2 gossip $2$1$*
+a1 gossip $1$2 $2$1
+0 track thief
+tt2 rem sword ; wield soaker ; backstab $1 ; rem soaker ; wield sword 
+tt3 rem fist ; wield soaker ; backstab $1 ; rem soaker ; wield fist
+heal rem fist ; cast 'heal' ; wield fist
+mag rem all.cloak ; rem fist ; $* ; wield fist ; wear all.cloak
+gkick ord fol kick
+rep wake ; report ; sleep
+cheer grats ********** $*  **********
+jig rem staff ; grab backpack ; $* ; rem backpack ; grab staff
+wb get white backpack ; quaff white
+rb get red backpack ; quaff red
+cow2 $2 ; backstab $1 ; flee ; track $1
+cow backstab $1 ; flee ; track $1
+tt backstab $1 ; kick $1
+back backstab $1
+ac assist cassandra
+gc get all.coins all.corpse
+gac get all all.corpse
+sos cast 'word of' wildebeast
+av assist venus
+ag assist gemini
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

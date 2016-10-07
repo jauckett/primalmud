@@ -1,0 +1,18 @@
+dp get red from backpack;drop red
+skb cast 'shocking grasp' boar
+sg cast 'shocking grasp'
+lc cast 'cure light' Logres
+mr get map from backpack;read map;put map in backpack
+dw get skin from backpack;drink skin;put skin in backpack
+wp get white from backpack;quaff white
+eb get bread from backpack;eat bread
+et get meat from backpack;eat meat
+rp get red from backpack;quaff red
+gc get all from corpse
+hs cast 'cure light' Paula
+fs get skin from backpack;fill skin fountain;put skin in backpack
+cf cast 'create food';eat mushroom
+as cast 'armor' Paula
+op get orange from backpack;quaff orange
+yp get yellow from backpack;quaff yellow
+sr recite recall

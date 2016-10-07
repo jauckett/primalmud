@@ -1,0 +1,55 @@
+2
+ls
+12
+listen $1;$1
+1
+2
+mm
+18
+c 'lightning b' $1
+1
+2
+hp
+13
+' heal please
+0
+2
+ep
+15
+' spells please
+0
+2
+dl
+17
+c 'detect a' self
+0
+2
+iv
+15
+c 'invisi' self
+0
+2
+dm
+17
+c 'detect m' self
+0
+2
+dj
+17
+c 'detect i' self
+0
+2
+ds
+10
+drink skin
+0
+2
+gb
+18
+get bread backpack
+0
+2
+eb
+9
+eat bread
+0

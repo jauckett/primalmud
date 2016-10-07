@@ -1,0 +1,80 @@
+cgh c 'group heal'
+ter track erinyes
+tst track stalker
+tdo track doppleganger
+tna track native
+bss remove sword ; wield dagger ; backstab $* ; remove dagger ; wield sword
+lwp rem all.hammer ; wield dagger ; hold enlibrite
+lvl rem helm ; wear hat ; rem lord ; wear granite ; rem belt ; wear stalker ; rem armor ; wear chitinous
+rej remove elven ; wear jeweled
+rcf remove cold ; wear fire
+rfc remove fire ; wear cold
+rpr remove pirate ; wear fire
+cfe c 'fear' $*
+res rescue $*
+rpe remove pen ; hold idol
+crp c 'remove poison'
+rid remove idol ; hold pen
+sl north ; east ; east ; east ; east ; east ; east ; east ; east ; south
+toc track ochre
+tca track captain
+to track o
+tsa track sandworm
+cah c 'advanced heal' $*
+tqu track queenie
+tni track ningauble
+psc p all.scroll crate
+tti track thief
+twa track warrior
+tma track mage
+ri recite identify $*
+csa c 'sanctuary' $*
+csu c 'summon' $*
+ppc p all.potion crate
+rrr recite recall
+ccc c 'cure critic' $*
+clo c 'locate object' $*
+qw g white crate ; q white
+emu eat mushroom
+gaa g all all.corpse
+ccw c 'create water' skin
+ccf c 'create food'
+ds drink skin
+ggc g gold all.corpse
+ec examine crate
+ch c 'heal'
+ws wake ; stand
+ln look north
+ls look south
+le look east
+lw look west
+lu look up
+ld look down
+cwr c 'word of recall' $*
+pmc p all.meat crate
+twi track wicked
+cfi c 'fireball' $*
+the track helmsman
+tn track ningauble
+rje remove jeweled ; wear elven
+tel c 'teleport'
+tha track hag
+tcl track cleric
+tsu track succubus
+tky track kyuss
+tje track jenn
+thu track hutijin
+tmo track moander
+as assist $*
+tlo track lord
+lo c 'detect invisibility' ; g hemp ; wear hemp ; g all.diamond ; wear all.diamond ; g all.hammer ; g idol ; hold idol ; hold hammer ; wield hammer ; g all ; wear all
+tsw track saurial
+tgo track golem
+tbe track beholder
+tbi track bird
+ccp c 'charm person' $*
+ofa order followers kill
+bs remove mace ; wield dagger ; backstab $* ; remove dagger ; wield mace
+cdi c 'detect invisibility'
+car c 'armor'
+civ c 'invisibility'

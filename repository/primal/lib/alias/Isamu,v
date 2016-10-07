@@ -1,0 +1,43 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@mm cast 'magic missile'
+exc examine corpse
+gc get all corpse
+aa assist siri
+cc cast 'chill touch'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

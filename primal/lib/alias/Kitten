@@ -1,0 +1,45 @@
+dheal c 'divine heal' $1
+nohass c 'nohassle'
+stone c 'stoneskin'
+wwalk c 'waterwalk' $1
+wbreathe c 'waterbreathe'
+main n;n;n;u
+jedi d;s;s;s
+lshield c 'lightning shield'
+rec c 'word'
+gosleep c 'sleep' $1
+dimgate c 'dimension gate' $1
+detmagic c 'detect magic' $1
+detinv c 'detect invisibility' $1
+harm c 'harm' $1
+remcurse c 'remove curse' $1
+summon c 'summon' $1
+fire c 'fireball' $1
+bless c 'bless' $1
+sanct c 'sanctuary' $1
+armor c 'armor' $1
+food c 'create food' $1
+detali c 'detect alignment' $1
+ident c 'identify' $1
+rempoison c 'remove poison' $1
+para c 'paralyze' $1
+infra c 'infravision' $1
+charm c 'charm person' $1
+sense c 'sense life' $1
+locate c 'locate object' $1
+fear c 'fear' $1
+dragon c 'dragon'
+clone c 'clone'
+refresh c 'refresh' $1
+heal c 'advanced heal' $1
+holyaid c 'holy aid'
+spirit c 'spirit armor' $1
+h c 'heal' $1
+lair n;n;w;w;w;n;n;w;w;s
+haven n;e;e;s;s;e;e;e;s;s
+divine c 'divine protection'
+qr quitreally
+fshield c 'fire shield'
+serpent c 'serpent skin'
+haste c 'haste'
+tp c 'teleport'

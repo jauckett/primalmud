@@ -1,0 +1,18 @@
+recall cast 'word of recall' $*
+cure cast 'cure critic' $*
+cspray cast 'color spray' $*
+summon cast 'summon' $*
+bread take bread backpack;eat bread
+infra cast 'infravision' $*
+bless cast 'bless' $*
+getup wake;stand
+shock cast 'shocking grasp' $*
+red get red backpack;q red
+lootg take all.gold all.corpse
+loot take all all.corpse
+burn cast 'burning hands' $*
+white take white backpack;quaff white
+armor cast 'armor' $*
+stab backstab $*
+grat //==============[ $* ]==============\\
+tr track icysting

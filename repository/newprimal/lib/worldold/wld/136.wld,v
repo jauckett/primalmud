@@ -1,0 +1,7169 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.29;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.41;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#13600
+Blue Creek Rd~
+You are leaving the long dirt road and entering a semi-built up area.  To your
+left you see a large rundown house.  To your south you can see down the
+main street of a town.  The whole town looks deserted and weather worn - 
+however you sense movement.
+~
+136 5 0
+D0
+Dirt road~
+~
+0 -1 13285
+D2
+You see a road leading to a town.
+~
+~
+0 -1 13605
+S
+#13601
+Main Bedroom~
+You are standing in a large bedroom.  There is a window on the west side 
+overlooking the road leading into town.  The curtains are dusty and torn
+and the once fine carpet has been bleached by the sun.  The room is cold
+and dreary with water damage down the plaster from years of thunderstorms
+and a leaky roof.
+~
+136 9 0
+D1
+A hallway.
+~
+door~
+2 -1 13602
+S
+#13602                 
+Hallway~
+You are standing in a rundown hallway in the Mayor's Mansion.  Light streams 
+though a broken window illuminating a painting of a fine horse.  The hallway 
+seems to be deserted but you sense a presence.  The well worn floor boards
+creak as you walk towards another doorway in front of you.
+ 
+~
+136 9 0
+D1
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+~
+~
+0 -1 13603
+D2
+A dining room.
+~
+~
+0 -1 13607
+D3
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13601
+E
+painting artwork~
+                -----------------------------------
+                |\-------------------------------/|
+                | |       )))))))),,,           | |
+                | |    ,(((((((((((((((,        | |
+                | |    )\`\)))))))))))))),      | |
+                | |   /// _     ``(((((((((     | |
+                | |   \\\ b\  \    ``)))))))    | |
+                | |    ))\    |     (((((((((   | |
+                | |   (   \   |`.    ))))))))   | |
+                | |        \, /  )  (((((((((   | |
+                | |         `"  /    )))))))    | |
+                | |            /    ((((``      | |
+                | |           |       ))        | |
+                |/-------------------------------\|
+                -----------------------------------
+~
+S
+#13603
+Hallway~
+You are standing in a short dark corridor.  The walls are covered with 
+mold and dirt from years of neglect.  It looks as if no one has  lived here
+for a very long time.  You can hear noises coming from the room to the
+east. You see a small mouse at the end of the hallway, if you 
+LOOK you can see it.
+~
+136 9 0
+D1
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13604
+D2
+You see a Lounge Room.
+~
+~
+0 -1 13608
+D3
+You see down the small Hallway.
+~
+~
+0 -1 13602          
+E
+mouse mice~
+                  
+                  ____()()
+            _____/      @@@@
+           '     \_.m._m._>o 
+~    
+S
+#13604
+Bedroom~
+You are standing in a small bedroom.  This looks to be a child's bedroom with
+small toys and a crib in the corner.  There is a mobile covered in cob webs
+hanging from the ceiling made from small glass fish.  The room was once a
+fine nursery with the walls painted baby blue, but since has faded and
+begun to peel.
+ 
+~
+136 9 0
+D3
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13603
+S
+#13605
+Blue Creek Rd~
+You are walking down a small road towards a small town.  To the east you can
+see a large rundown house.  You see something in the window, but when you 
+look back it is gone.  The town looks deserted and run down.  Tumbleweed 
+catches the wind at blows across your path.
+~
+136 0 0
+D0
+You see where Blue Creek Road turns into and old dirt road out of town.
+~
+~
+0 0 13600
+D2
+The main street through town.
+~
+~
+0 0 13615
+S
+#13606
+Dining Room~
+You are standing in a grand dining room.  The walls are covered with 
+expensive pictures and works of art.  The whole room is covered in dust 
+and cob webs.  There is fine crockery and silverware placed out on the table 
+, a setting that once was polished till it sparkled has not been used.  
+The flowers on the center of the table are perfectly dried except for a 
+few of the buds that have dislodged themselves and fallen onto the 
+tablecloth. The table stretches from one end of the large room to the other.
+~
+136 9 0
+D1
+You can see a large Dining room.
+~
+~
+0 -1 13607
+D2
+You can see down the small Smoking room.
+~
+~
+0 -1 13616
+S
+#13607
+Dining Room~
+You are standing in the middle of a large ornate dining room.  Many grand  
+dinners must have been given here for important people.  The table extends 
+far to the north and the south with a expensive unused place setting at
+both ends.  You are standing right in front of the large floral arrangement
+that has withered away to the point where if you touched it, it would crumble
+in your hands.
+~
+136 9 0
+D0
+You are looking into a dark Hallway.
+~
+~
+0 -1 13602
+D2
+You are looking down the large Dining room.
+~
+~
+0 -1 13617
+D3
+You can see a large Dining room.
+~
+~
+0 -1 13606
+S
+#13608
+Lounge Room~
+You are standing in a well furnished Lounge room.  There is a large  
+fire place with an ornate mantelpiece carved from oak.  There is a large
+oil painting above the fireplace presumably a portrait of the lady of 
+the house.
+~
+136 9 0
+D0
+You are looking into a dark Hallway.
+~
+~
+0 -1 13603
+D1
+You see a large lounge room.
+~
+~
+0 -1 13609
+D2
+You can see the Foyer of the house.
+~
+~
+0 -1 13618
+S
+#13609
+Lounge Room~
+You are standing in a comfortable lounge room.  There is a small side table 
+with an old pipe carved with wood. The table is covered with a inch of
+dust.  No one has used this room in a very long time.
+~
+136 9 0                                            
+D1                                                   
+You can see a room filled with lots of old books.
+~
+~
+0 -1 13610
+D3                                               
+You can see through into the other end of the lounge room.
+~
+~
+0 -1 13608
+S
+#13610
+Library~
+You are in a large room, there are hundreds of books covering 
+the walls.  Each book looks so frail with degradation that 
+you are afraid to touch it.  This Library looks to have 
+doubled as an office for the Mayor.  The Mayor's desk is neat 
+with no clutter or papers.  There is a large comfortable 
+leather chair that has cracked through age and is badly in 
+need of an oil.
+~
+136 9 0
+D3        
+You can see a lounge room.
+~
+~
+0 -1 13609
+S
+#13611
+Room 8~
+You are standing in a small hotel room.  Even in its heyday 
+this room would have been no more than a one star room. There 
+is a small basin with a jug standing on a table.  The jug is 
+made of clay and has a large blue flower painted onto one 
+side, the other side facing the wall has a large crack in it.
+~
+136 9 0
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13621
+S
+#13612
+Room 6~
+You are standing in a small hotel room.  The walls are covered 
+in wallpaper that has small pink roses and is peeling away 
+from the wall.  This hotel room is simple but comfortable with 
+a small table and chair in the corner.  The scraps that were 
+once curtains hang tattered and dirty from a tree branch.
+~
+136 9 0
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13622
+S
+#13613
+Room 4~
+You are standing in a old dirty hotel room.  The walls are 
+covered in mold and there is a huge crack in the roof from 
+weather damage.  This room was probably this way even when the 
+hotel was in business.  These rooms look to all be the same 
+with a bed and a small table with a bowl and clay jug that has 
+pink flowers all over it.
+~
+136 9 0
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13623
+S
+#13614
+Room 2~
+You are standing in a dark and musty hotel room.  The walls 
+are covered with wallpaper with little yellow flowers.  There 
+is a table in the corner with a bowl and a jug.  The jug has a 
+large purple flower printed on one side and there is a huge 
+crack down the other side. 
+~
+136 9 0
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13624
+S
+#13615
+Blue Creek Rd~
+You are standing on the main street of a town.  The town looks 
+to have been deserted for some years.  You see an intersection 
+coming up.  The road on which you are traveling continues to the 
+south through the old town. Just south there is an intersection with an
+old dirt road leading to an old house.   The buildings to the south look
+old and rundown, you can hear a door banging in the wind.
+~
+136 1 0
+D0                                              
+You can see where Blue Creek road becomes a dirt road.
+~
+~
+0 -1 13605                                            
+D2                                                    
+You see a well worn road into town.
+~
+~
+0 -1 13626
+S
+#13616
+Smoking room~
+You are standing in what once must have been a beautiful 
+room.  The chandelier that once was the centerpiece of the 
+room has lost its splendor over the years.  There is a couple 
+of large comfortable chairs with a side table between them.  On 
+the table there is a dusty brandy snifter that must have held 
+fine brandy in its day but now stands dry and unused.
+~
+136 9 0
+D0          
+You see a room with a large dining table.
+~
+~
+0 -1 13606
+D1                                       
+You see a small sitting room.
+~
+~
+0 -1 13617
+S
+#13617
+Sitting Room~
+You are standing in a sitting room.  This must be where the 
+servants put all guests upon arrival.  There are many tasteful 
+artworks placed throughout the room on every wall.  You can 
+see to the east the entrance foyer and to the west the Mayor's 
+smoking room.
+~
+136 9 0
+D0          
+You see a room with a large dining table.
+~
+~
+0 -1 13607
+D1                                       
+You see a small foyer.
+~
+~
+0 -1 13618
+D3                    
+You see a small Smoking room.
+~
+~
+0 -1 13616
+S
+#13618
+Foyer~
+You're standing in a large ornate foyer of the Mayor's 
+Mansion.  To the west there is a small sitting room.  To the 
+east you can see a door.  The house looks to be deserted but 
+you can hear noises coming from all directions but you don't 
+think anyone lives here as the house is severely rundown and in 
+need of repair.  The walls have mold growing on them and the 
+wallpaper is coming off the walls in patches.  There are huge 
+cracks in the walls through water damage from many a cruel 
+winter.
+~
+136 9 0
+D0                           
+You see a large lounge room.
+~
+~
+0 -1 13608
+D1
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13619
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13630
+D3
+~
+~
+0 -1 13617
+S
+#13619
+Kitchen~
+You are standing in what once must have been a busy kitchen.  
+There are pots and pans hanging from the ceiling above a huge 
+wooden cutting block.  In the corner there is a huge wood 
+stove with an exhaust duct above. You see a concrete sink 
+which is crude in that it is no more than large concrete 
+bucket. There is a door to the south which leads into an old 
+dusty lane out back of the house.
+~
+136 9 0
+D1
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13620
+D3
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13618
+S
+#13620
+Dusty Lane~
+You are standing in an old dusty lane out back of the Mayor's 
+Mansion.  From here you can see out onto Oak Tree Lane. 
+In the distance you can see an old farm house and further to 
+the south you see the town.
+~
+136 1 0
+D2                          
+You can see out onto Oak Tree Lane.
+~
+~
+0 -1 13632
+D3
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13619
+S
+#13621
+Passageway~
+You are standing in the passageway of an old rundown hotel.  
+Even in its heyday this could not have been anything more 
+than a second rate hotel.  On the wall there is an old gas lamp 
+that has long since run dry.   
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||  ROOM  ||  |
+                       |  ||   8    ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door 8 ~
+2 13664 13611
+D1
+You see down a dusty passageway.
+~
+~
+0 -1 13622
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||  ROOM  ||  |
+                       |  ||   7    ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door 7~
+2 13664 13635
+S
+#13622
+Passageway~
+You are standing in the passageway of a old rundown hotel.  
+There are doors on either side all the way down the corridor.  At the 
+end you see a small narrow staircase.  You think you see 
+something in the corner of your eye, but when you look back it 
+is gone. You get an eerie feeling from what seems to be a 
+deserted hotel, like there is something in here that is not 
+quite living. 
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||  ROOM  ||  |
+                       |  ||   6    ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door 6~
+2 13664 13612
+D1                             
+You see down a dusty passageway.
+~
+~
+0 -1 13623
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||  ROOM  ||  |
+                       |  ||   5    ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door 5~
+2 13664 13636
+D3
+You see down a dusty passageway.
+~
+~
+0 -1 13621
+S
+#13623
+Passageway~
+You are standing in the dusty passageway of an old deserted 
+hotel. There are doors either side of you all the way down the 
+passageway.  At the east end you can see a small narrow 
+staircase.  You think you see something in the corner of your eye, 
+but when you look back it is gone. You are suddenly taken by a 
+cold chill which could not have come from any place.  You feel 
+as though you better get out of this place quick!
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||  ROOM  ||  |
+                       |  ||   4    ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door 4~
+2 13664 13613                      
+D1                              
+You see down a dark passageway.
+~
+~
+0 -1 13624
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||  ROOM  ||  |
+                       |  ||   3    ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door 3~
+2 13664 13637
+D3                             
+You see down a dark passageway.
+~
+~
+0 -1 13622
+S
+#13624
+Passageway~
+You are standing in a passageway in an old hotel before the narrow staircase.
+There are doors either side of you here and all the way down the 
+passageway.  You can see old gas lanterns attached to the wall in-between the 
+rooms however they are old and in need of repair. You sense movement at the 
+bottom of the stairs but when you look you cannot see a thing.
+You feel the presence of the strange mythical being throughout this
+building.
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||  ROOM  ||  |
+                       |  ||   2    ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+~
+door 2~
+2 13664 13614
+D1                             
+You see down a dusty passageway that leads to a staircase.
+~
+~
+0 -1 13625
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||  ROOM  ||  |
+                       |  ||   1    ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door 1~
+2 13664 13638
+D3
+You see up a narrow hallway.
+~
+~
+0 -1 13623
+S
+#13625
+Upper Floor~
+You are standing on the upper floor of the old hotel.  To your 
+east you see a long passageway with doors to the north and 
+south.  You feel a spirit presence in this old dwelling, that 
+of the old and young who have departed from within these walls.
+~
+136 9 0
+D3                                                        
+You see down a large Passageway.
+~
+~
+0 -1 13624
+D5
+You see down some narrow stairs.
+~
+~
+0 -1 13639
+S
+#13626
+Intersection of Blue Creek Rd and Oak Tree Lane~
+You are standing at an intersection that leads south down Blue 
+Creek road to the middle of town and east down Oak Tree lane 
+that leads to a large old house.  The town looks deserted but 
+you can feel a mythical presence emanating from the town.
+~
+136 1 0
+D0
+You see down Blue Creek road heading out of town.
+~
+~
+0 -1 13615
+D1                                               
+You see down Oak Tree lane towards the Mayor's Mansion.
+~
+~
+0 -1 13627
+D2                                                     
+You see down Blue Creek road towards the heart of town.
+~
+~
+0 -1 13640
+S
+#13627
+Oak Tree Lane~
+You are standing on Oak Tree Lane.  To the west you see a 
+large rundown house that once might have been a fine expensive 
+home but since has lost its splendor.  To the west and just 
+south you can see a small farmhouse.  The whole place looks 
+deserted and in need of repair.  The grass on either side of 
+the roads here is long and growing wild.       
+~
+136 1 0                                              
+D1                                                     
+You see down Oak Tree Lane towards the Mayor's Mansion.
+~
+~
+0 -1 13628
+D3                                                     
+You see the intersection of Oak Tree lane and Blue Creek road.
+~
+~
+0 -1 13626
+S
+#13628
+Oak Tree Lane~
+You are standing on Oak Tree Lane.  To the east in the 
+distance you can see a large house, you think you spot someone 
+in the upstairs window but when you look back the image is 
+gone.  To your west you see in the distance a crossroads with 
+Blue Creek road that is the road that leads into town.  The grass 
+on either side of the roads here is long and growing wild.       
+~
+136 1 0
+D1                                                            
+You see down Oak Tree Lane towards the Mayor's Mansion.
+~
+~
+0 -1 13629
+D3                                                     
+You can see Blue Creek Road in the distance.
+~
+~
+0 -1 13627
+S
+#13629
+Oak Tree Lane~
+You are standing in Oak Tree Lane.  From here you can see just 
+north of you what once was a fine home housing someone 
+important.  To the south some distance away you can see a 
+small farm house but the grass is growing wild and so thick 
+you cannot make your way through it.        
+~
+136 1 0
+D1                                          
+You can see down Oak Tree Lane towards a dead end.
+~
+~
+0 -1 13630
+D3                                                
+You can see up Oak Tree Lane towards the main road.
+~
+~
+0 -1 13628
+S
+#13630
+Oak Tree Lane~
+You are standing on Oak Tree Lane.  You can SEE to your north 
+the Mayor's Mansion.  Although you don't think that he lives 
+here anymore from the state of the house.  There is a large 
+verandah circling the home but it looks dangerous to walk on 
+now.  You can imagine during hot summers that occupants would 
+sit outside on wicker chairs drinking cool lemonade and 
+watching the sunset.  But now the house stands vacant and 
+lifeless, or so it seems.
+~
+136 1 0
+D0
+~
+door~
+1 -1 13618
+D1                                                      
+You see down Oak Tree Lane towards the dead end at back of 
+Mayor's Mansion.
+~
+~
+0 -1 13631
+D3              
+You see up Oak Tree Lane, in the distance you can see a 
+crossroads.
+~
+~
+0 -1 13629                                      
+E
+mayor's mansion house~
+
+         (
+
+           )
+         ( _   _._
+          |_|-'_^_`-._
+       _.-'-_^_-^_-^-_`-._
+   _.-'_^-_^-_-^-_^_^-_^-_`-._
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |  []  []   []   []  [] |
+    |           __    ___   |   
+  ._|  []  []  | .|  [___]  |_._._._._._._._._._._._._._._._._.  
+  |=|________()|__|()_______|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=|=| 
+^^^^^^^^^^^^^^^ === ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+                 === 
+~
+S
+#13631
+Oak Tree Lane~
+You are standing on Oak Tree Lane just east of the door to the 
+Mayor's Mansion.  You can see south an old farmhouse but the 
+grass has grown too tall for you to cross it.  To the east 
+there is a lane bending to the north going out back the mansion. 
+~
+136 1 0
+D1        
+You can see down Oak Tree Lane past the Mayor's house to a 
+dead end.
+~
+~
+0 -1 13632
+D3       
+You can see up Oak Tree Lane past the Mayor's house.
+~
+~
+0 -1 13630
+S
+#13632
+Oak Tree Lane~
+You are standing at the end of Oak Tree Lane.  To the north 
+you see an old lane that is overgrown with weeds.  An old 
+washing line extends past the back of the house but has half 
+fallen down.  You can see a back entrance to the mansion from 
+here.  
+~
+136 1 0
+D0   
+You see a dirt lane leading to the back of the mansion.                                               
+~
+~                                                      
+0 -1 13620
+D3    
+You see up Oak Tree Lane towards the main street.
+~
+~
+0 -1 13631
+S
+#13633
+Farmhouse Bedroom~
+You are standing in a modest bed room in the farmhouse.  There 
+is a small handmade double bed in the corner with a quilt 
+gently laid on the end.  There are a pair of tattered 
+slippers at the edge of the bed.  You think you hear the sound 
+of a clucking chicken, but that can't be right.  This place is 
+deserted. 
+~
+136 9 0
+D2
+You see into a small room with a sewing machine.
+~
+door~
+1 -1 13645
+S
+#13634
+Farmhouse Sewing Room~
+You are standing in a humble sewing room.  There is an old 
+pedal driven sewing machine in the corner but it seems to have 
+rusted to the point of not working.  The broken window above 
+it being the source of the moisture for the corrosion.   To the 
+south you can see a tiny lounge.
+~
+136 9 0
+D2                                              
+You can see a modest living room.
+~
+~
+0 -1 13646
+S
+#13635
+Room 7~
+You are standing in a small hotel room.  It is dirty and 
+dilapidated through disuse.  The soft indigo wallpaper has deteriorated 
+from many years of water damage through the hole in the roof.  
+In the corner you see a small table with a wash bowl and jug 
+placed on the top.  
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13621
+S
+#13636
+Room 5~
+You are standing in a room in a shady hotel.  The room has 
+fallen into a state of disrepair with the violet wallpaper 
+bubbling and wearing in places.  The pale yellow curtains have 
+long since become spoiled with mildew and moths.  Although 
+this place looks deserted you can sense a presence of 
+something not quite real, or maybe not quite human!
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13622
+S
+#13637
+Room 3~
+You are standing in a small hotel room.  The musk wallpaper is peeling
+off the walls.  A small bed with only one blanket on it sits in the
+center.  There is no light switch at the door and no light bulb hangs
+from the ceiling.  The small lamp on the bedside chest of drawers is
+the only light in the room.  
+~
+136 9 0                                           
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13623
+S
+#13638
+Room 1~
+You are standing in a room in a third rate hotel.  In the left hand corner
+a black cockroach scuttles with haste across your path under the bed.
+Out of the corner of your eye you spot a shadow passing the window. The
+floorboards creak as you walk across the room.
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13624
+S
+#13639
+Hotel Stairs~
+You are standing on the staircase of the hotel.  The bannister is splintered
+and in disrepair.  You can see up the stairs onto the second floor of the hotel
+and downwards the stairs lead to the hotel foyer.  The walls are covered in mold
+and mildew that has come about from years of water damage.
+~
+136 9 0
+D4                               
+You can see up the stairs to a small narrow hallway.
+~
+~
+0 -1 13625
+D5                                                  
+You can see down a narrow staircase.
+~
+~
+0 -1 13649
+S
+#13640
+Blue Creek Rd~
+You are standing on the main street of the town.  To your south you can see
+some of the local shops of the town that have long since closed down.  To
+the north you see the road that leads out of town.  To the east there are
+some stables that once housed the local horses.  The wind whistles through
+the old deserted town and in the distance you can see a tumbleweed crossing
+your field of view.
+~
+136 1 0
+D0                                  
+You see up Blue Creek Road out of town.
+~                                   
+~
+0 -1 13626
+D1                                     
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13641
+D2                                     
+You see down Blue Creek Road towards the shops.
+~
+~
+0 -1 13650
+S
+#13641
+Stables~
+You are standing just inside the door to the town stables.  Even though
+these stables have not been used in quite a long time they still smell.
+The irritating buzz of flies fills the air. 
+~
+136 9 0
+D1                                             
+You see inside a dusty stable.
+~
+~
+0 -1 13642
+D3
+                       ------------------
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |              O |
+                       |================|
+                       |              O |
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       ------------------
+
+
+~
+door~
+1 -1 13640
+S
+#13642
+Stables~
+You are standing inside the town stables. It is dark in here and your
+eyes still need to adjust. A fly buzzes past you and you swish at it
+with your hand. Dust stirs as you tread across a small amount of hay.
+
+~
+136 9 0
+D1
+You see inside a Dusty Stable.
+~
+~
+0 -1 13643
+D2   
+You see inside a Dusty Stable
+~
+~
+0 -1 13652
+D3 
+You see inside a Dusty Stable
+~
+~
+0 -1 13641
+S
+#13643
+Stables~
+You are standing inside a dusty stable. Your eyes adjust to the darkness.
+It is cramped in here. There are flies all around and despite the stables
+not being used for a while, the smell is quite overpowering.
+~
+136 9 0
+D1    
+You see inside a Dusty Stable
+~
+~
+0 -1 13644
+D3     
+You see inside a Dusty Stable
+~
+~
+0 -1 13642
+S
+#13644
+Stables~
+You are standing in a cramped, dark, dusty stable.  Small flecks of outside
+light peek through tiny cracks in the walls and the air smells musty. The
+floor underfoot feels hard.
+~
+136 9 0
+D3     
+You see inside a Dusty Stable
+~
+~
+0 -1 13643
+S
+#13645
+Farmhouse Entrance~
+You are standing in the entrance to an old farmhouse. To the north you see
+a bedroom.  To the east you see the living room. The floorboards creak as
+you tread. The windows have no glass in them and the wind blows freely
+through.  A shiver goes up your spine as the cold wind surrounds you.
+~
+136 9 0
+D0                           
+You see a small room with a modest bed.
+~
+door~
+1 -1 13633
+D1                                     
+You see a small living room with rustic furniture.
+~
+~
+0 -1 13646
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+~
+door~
+1 -1 13655
+S
+#13646
+Farmhouse Living Room~
+You are standing in the farmhouse living room. To the north you see
+the sewing room. To the east you see a kitchen. A few rustic chairs are
+scattered haphazardly about. You hear a scurry of small feet and a small
+furry mouse rushes past you and into a hole in the wall. Cobwebs sway
+in the light breeze.
+~
+136 9 0                                         
+D0                                                
+You see into a small sewing room.
+~
+~
+0 -1 13634
+D1                               
+You see into a small kitchen.
+~
+~
+0 -1 13647
+D3                           
+You see the front door of the house.
+~                            
+~
+0 -1 13645
+S
+#13647
+Farmhouse Kitchen~
+You are standing in the east end of the kitchen in the old farm house.  In
+the corner you see a large old wood stove.  In the middle of the room there
+is a large oak table large enough for six.  On the table you see a cutting
+board with what looks like shriveled pumpkin pieces from a dinner long since
+eaten.  There is a big RAT standing in the corner LOOKing at 
+you.
+~
+136 9 0
+D3                                  
+You see into a small living room.
+~                                   
+~
+0 -1 13646
+D5                               
+You see a step but it is too dark to see beyond that.
+~
+trap~
+1 -1 13648
+E
+rat mouse~
+                                           ____-----__
+                                       .--'           `\
+                                     .'                 `.
+                                   .'                     \
+                     _______     .'                        `.
+            ____,---'   ^^^<.---'                            \
+          _C^           `--'                                  \
+ __--x_x-'  .^      `---'                                      `
+| /         \'                                                  |
+ \|                                                             |
+  \   \  ,                                             __       `,
+   `-- __ --__                                       .'  \       |
+     `` \_                                          '     |      |
+          `-._                                     /       `    /
+              `-.___/--.              /           /         |  /
+                        `^^--__       \          /          | <
+                       __>     `,     >         |          /   \
+                   .--'         /   ,'`---.___ .'           /   `.
+                 .'    ___.---'/   /           |           /      `.___
+               .'   .^^    .--'   /             \_      __/ \          `.
+               |'/\|      /,   __,'               `----'     `.__        `,
+               \'         `/._/                   //.<          `---.."   |
+                           `'                     VV V        __..--'    .'
+                                                            .'         .'
+                                                          .'   .------'
+                                                          |  .'
+                                                  ______.'   |
+                                                .'         .'
+                                  __====_`-----'  .-------'
+                                          `-------
+~            
+S
+#13648
+Cellar~
+You are standing in a dark cellar.  The only light is that from the kitchen
+above.  As your eyes adjust you see walls of preserves and a elaborate wine
+collection that has been left.  Some of these bottles must be worth a fortune!
+The dank smell of mildew fills the air and you wonder how long it's been since
+someone has entered this room.
+~
+136 9 0
+D4                                                   
+You see up into the kitchen.
+~
+~
+0 -1 13647
+S
+#13649
+Hotel Foyer~
+You're standing in the foyer of the local hotel.  Dust covers the front counter
+and register.  To your east you can see the main street of the town and there
+is a staircase leading to the second floor of the hotel.  This could not have
+been a grand hotel even in its prime.  The carpet is faded and worn in
+places and the walls are dirty with grime.    
+~
+136 9 0
+D1                          
+You can see out onto the main street of the town.
+~
+~
+0 -1 13650
+D2                                               
+You can see the other side of the Hotel.
+~
+~
+0 -1 13663
+D4                                      
+You can see up a narrow staircase.
+~
+~
+0 -1 13639
+S
+#13650
+Blue Creek Rd~
+You are standing on the main street of the town.  To your east you see what
+used to be the Post office, there is a sign hanging from one hook and
+swinging in the breeze.  To the west you see the old Town Hotel.  You spot
+something moving in a second floor window but it is gone before you can
+get a good look.  You feel a cold chill move over your body like someone
+just walked over your grave.  To the south you see where Blue Creek Road
+bends to the east. 
+~
+136 1 0
+D0  
+You can see up Blue Creek Road.
+~
+~
+0 -1 13640
+D1
+You can see into a small Post Office.
+~
+~
+0 -1 13651
+D2                             
+You can see down Blue Creek Road towards a bend.
+~
+~
+0 -1 13664
+D3                                              
+You can see into a dingy hotel.
+~
+~
+0 -1 13649     
+S
+#13651
+Post Office~
+You are standing in the local post office where people used to collect their
+mail.  The post office has long since closed down and the counter which
+once had a smiling postmaster behind it is now quiet.  There are wanted
+posters pinned up all over the walls of criminals long since dead.  Hey is
+that your great Grandaddy?!?!?!
+~
+136 9 0
+D3                             
+You can see out onto Blue Creek Road, the main street of the town.
+~
+~
+0 -1 13650
+S
+#13652
+Stables~
+You are standing the in the town stables.  You can see light to the north
+and south.  The floor is made of cobblestones and strangely enough you can
+hear the faint sound the horses hoofs in the stables.  The foul stench of
+horse manure fills the air but there is none to be seen.  To the east you
+can see a small stable that once housed one of the Mayor's horses.
+~
+136 9 0
+D0
+You see inside a Dusty Stable.
+~
+~
+0 -1 13642                   
+D1                           
+You see inside a Dusty Stable.
+~
+~
+0 -1 13653
+D2                           
+You see inside a Dusty Stable.
+~
+~
+0 -1 13666
+S
+#13653
+Stables~
+You are standing inside one the largest stables.  This is where the
+Mayor's horse must have lived.  The walls are padded and a large feed
+trough covers the east end on the other side of the stable.  There is still
+soft straw on the floor which should have rotted away with time.  You get
+a eerie feeling about this place, one that you cannot shake.
+~
+136 9 0
+D1                           
+You see inside a Dusty Stable.
+~
+~
+0 -1 13654
+D2                           
+You see inside a Dusty Stable.
+~
+~
+0 -1 13667
+D3                           
+You see inside a Dusty Stable.
+~
+~
+0 -1 13652
+S
+#13654
+Stables~
+You are standing in the east end of the Mayor's stable.  It is dark, dank and
+smelly.  You are knee deep in straw that seems to hover above the ground.
+You are spellbound!  Where could this straw possibly come from!  The eerie
+feeling that affected you since entering this town has grown into
+a overwhelming fear.  There is something not right in this town. 
+~
+136 9 0
+D3                           
+You see inside a Dusty Stable.
+~
+~
+0 -1 13653
+S
+#13655
+Farm Yard~
+You are standing in the farmyard.  The farm house is to the north of you
+and to your east you see a large barn.  When the wind subsides you think
+you can hear a chicken clucking but consider this absurd and put it down
+to an overactive imagination.
+~
+136 1 0
+D0
+                       ==================
+                       |----------------|
+                       |----------------|
+                       |----------------|
+                       |----------------|
+                       |----------------|
+                       |----------------|
+                       |--------------O-|
+                       |----------------|
+                       |----------------|
+                       |----------------|
+                       |----------------|
+                       |----------------|
+                       |----------------|
+                       ==================
+                
+
+~
+door~
+1 -1 13645
+D1
+                       ====================================
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |              O || O              |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       ====================================
+                
+
+~
+door~
+1 -1 13656
+D2      
+
+~
+~
+0 -1 13669
+S
+#13656
+Barn~
+You are standing inside the farm's barn.  It is dark but you can see through
+the light from the door to your west that this barn was used to house farm
+animals and store large farm equipment.  You can see a large plow that was
+once used to plow the fields behind a horse.  There are bridles and saddles
+neatly hanging from the walls.  
+~
+136 9 0
+D1                                           
+You see into the dark barn.
+~
+~
+0 -1 13657
+D2                         
+You see into the dark barn.
+~
+~
+0 -1 13670
+D3                         
+                       ====================================
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |              O || O              |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       |                ||                |
+                       ====================================
+           
+~
+door~
+1 -1 13655
+S
+#13657
+Barn~
+You are standing in the middle of the farm's barn.  All about you is old
+and rusted farm equipment.  There is a shovel and a pick laying against
+the wall of the barn.  A strange thought strikes you that has been bothering
+you since you entered this town.  It looks like the people of this town
+just left and never came back.  It does not look like the people packed up
+and moved out.
+~
+136 9 0
+D1         
+You see into the dark barn.
+~
+~
+0 -1 13658
+D2                         
+You see into the dark barn.
+~
+~
+0 -3 13671
+D3                         
+You see into the dark barn.
+~
+~
+0 -1 13656
+S
+#13658
+Barn~
+You are standing in the east end of the barn.  You can see a bright light
+coming from the door to the west.  The barn is dark and musty and you can
+see streams of light passing between the boards that are the walls of the
+barn.  There are small stalls that must have housed the farm's old plow
+horse and other assorted farm animals.
+~
+136 9 0
+D2                         
+You see further into the dark barn.
+~
+~
+0 -1 13672
+D3                                 
+You see inside the dark barn.
+~
+~
+0 -1 13657
+S
+#13659
+Loft in Barn~
+You are standing in the loft of the barn.  You can see down into the darkness
+of the barn that is slightly illuminated by the light streaming in from
+the barn door.  This must be the place where the farmer stored all his feed
+for the animals.  A mouse scuttles past your feet which gives you quite a
+shock. If you LOOK you can see the MOUSE.
+~
+136 9 0
+D2                           
+You see the other side of the loft.
+~
+~
+0 -1 13673
+D4
+You see a trap door.
+~
+door~
+1 -1 13660                   
+E
+mouse mice~
+                _._
+              .-'   `
+            __|__
+           /     \
+           |()_()|
+           \{o o}/
+            =\o/=
+             ^ ^
+~         
+S
+#13660
+Barn Roof~
+You are standing on the barn roof.  From here you can see most of the town
+and surrounding area.  Unfortunately there is not much to see apart from the
+town but its a nice view anyway.  You can see for miles in each direction
+to where the sky meets the earth.
+~
+136 9 0
+D4                  
+You see the sky.
+~
+~
+0 -1 13661
+D5              
+You see a trap door.
+~
+door~
+1 -1 13659
+S
+#13661
+Top of Barn Roof~
+You are standing on the top of the barn roof.  Its quite dangerous up here
+and you feel like you might slip and fall.  The wind blows harder up here
+and you are finding it quite hard to keep your balance.  Probably best
+you don't risk your neck and return back into the barn.
+~
+136 9 0
+D5                  
+You see down into the loft of the barn.
+~
+~
+0 -1 13660
+S
+#13662
+Hotel Manager's Office~
+You are standing in the Manager's Office, there is a large oak desk with many
+papers scattered upon it.  On the corner of the desk you see an old mechanical
+counting machine that was used years ago.  The manager's chair is nothing
+more than a stump with a piece of wood nailed to it for a back rest. 
+You SEE a small mouse scamper past your feet, it turns and looks at you 
+and then runs away.
+~
+136 9 0
+D1
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13663                                                                                     
+S
+#13663
+Hotel~
+You are standing in the southernmost entrance to the old 
+hotel.  To the north you can see a counter and bell.  To your 
+west there is a door to the manager's office.  From here you 
+can see out onto the main street of the town.  You can see 
+across the road to what used to be the gunsmith, but has long 
+since closed.  There is a broken shutter hanging from the 
+window slamming in the wind.
+~
+136 9 0
+D0                                     
+You see the reception desk of the hotel.
+~
+~
+0 -1 13649
+D1                                      
+You see out of the hotel into Blue Creek Road.
+~
+~
+0 -1 13664
+D3
+                       -----------------
+                       |  ===========  |
+                       |  ||       ||  |
+                       |  ||Manager||  |
+                       |  ||       ||  |
+                       |  ||       ||  |
+                       |  ===========  |
+                       |             O |
+                       |  ===========  |
+                       |  ||       ||  |
+                       |  ||       ||  |
+                       |  ||       ||  |
+                       |  ||       ||  |
+                       |  ===========  |
+                       -----------------
+
+
+~
+door~
+1 -1 13662
+S
+#13664
+Blue Creek Rd~
+You are standing on Blue Creek Road, the main street of the 
+town.  To your north you can see the road out of town and to 
+the south the road bends to the east out of sight.  To the 
+east you can see what used to be the Gunsmith and to the west 
+is the old Hotel.  Nature has been cruel to this town, there 
+is not one building that has not been cruelly affected by the 
+harsh elements.  The wind whistles past your ears as you take 
+in the obvious layout, as you look past the hotel you think 
+you see a figure in the upstairs window. When you look back 
+the figure is gone.  This spooky town might just be sending 
+you a bit silly.
+~
+136 1 0
+D0                                            
+You can see up the main street of the town.
+~
+~
+0 -1 13650
+D1                                          
+You can see into the Gunsmith's Shop.
+~
+~
+0 -1 13665
+D2                                  
+You can see down the main street of the town.
+~
+~
+0 -1 13674
+D3                                           
+You can see into the hotel.
+~
+~
+0 -1 13663
+S
+#13665
+Gunsmith's~
+You are standing in what once was the Gunsmith's.  To the east 
+you can see the main street of town and further east is the 
+old hotel.  The walls are filled with racks containing guns of 
+every size and description.  The guns are covered in dust and 
+cobwebs, they look like they haven't been touched in years.  
+Beneath the guns on a shelf are rows and rows of ammunition.  
+You think it is strange that this shop is so well stocked 
+considering that it is in a deserted town. 
+~
+136 9 0
+D3                         
+You see out onto the main street of the town.
+~
+~
+0 -1 13664
+S
+#13666
+Stables~
+You are standing just inside the old stables of the town.  To 
+your south you can see a door leading out onto Little Rock 
+Street.  You can see that the stable is quite large and 
+probably housed all the local horses when they were in town.  
+The air still reeks of horse manure and other such refuse, 
+shouldn't it be gone by now?!?!?!
+~
+136 9 0
+D0                                           
+You see into the dark stable.
+~
+~
+0 -1 13652
+D1                           
+You see into the dark stable.
+~
+~
+0 -1 13667
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13676
+S
+#13667
+Stables~
+You are standing in the town's stables.  To your west you can 
+see the light from an open door.  The wind is whistling 
+through the cracks in the thin walls.  It is hot and stuffy 
+inside the stable but a cold chill comes over your body.  You 
+can hear movement coming from the stall to the north.
+~
+136 9 0
+D0                           
+You see into the dark stables.
+~
+~
+0 -1 13653
+D1                            
+You see into the dark stables.
+~
+~
+0 -1 13668
+D3                            
+You see into the dark stables.
+~
+~
+0 -1 13666
+S
+#13668
+Stables~
+You are standing in the southernmost stall in the town 
+stable.  To the west you can see light coming from an 
+open door.  In the corner here there is a small feed bin 
+covered with cobwebs.  You can hear the soft clip clop of 
+horses on the cobblestone floor, but that cannot be as this 
+place has obviously been deserted for many years.
+~
+136 9 0
+D3                            
+You see into the dark stables.
+~
+~
+0 -1 13667
+S
+#13669
+Old Dirt Rd~
+You are standing on an old dirt road.  To the north you can 
+see in the distance an old farm house.  Just ahead north and 
+to the east is the farmhouse's barn.  You can see to the south 
+that the old road turns to the west and becomes Little Rock 
+Street.
+~
+136 1 0
+D0                             
+You see a farm house in the distance and a barn to your right.
+~
+~
+0 -1 13655
+D2                                                            
+You can see down the old dirt road till it reaches a bend.
+~
+~
+0 -1 13680
+S
+#13670
+Barn~
+You are standing in the southwestern end of the farmhouse 
+barn.  What once was a well maintained and used home for many 
+farm animals has become a wreck of a place.  To the north you 
+can see the door leading out onto the old dirt road that leads 
+to the house.  
+~
+136 9 0
+D0                                                        
+You see a light that is the entrance to the barn.
+~
+~
+0 -1 13656
+D1                                               
+You see inside the old barn.
+~
+~
+0 -1 13671
+S
+#13671
+Barn~
+You are standing in the south end of the farm barn.  There are 
+assorted farm tools and bits of equipment scattered about the 
+floor here.  The dirt floor marks your path as you walk about, you 
+can see tracks where small rodents have scurried about making 
+this place their home. 
+~
+136 9 0
+D0                          
+You see inside the old barn.
+~
+~
+0 -1 13657
+D1                          
+You see inside the old barn.
+~
+~
+0 -1 13672
+D3                          
+You see inside the old barn.
+~
+~
+0 -1 13670
+S
+#13672
+Barn~
+You are standing in the southeastern-most part of the barn.  
+You can see a long ladder here leading up into the loft of the 
+barn - it is old and has lost some of its rungs.
+~
+136 9 0
+D0                          
+You see inside the old barn.
+~
+~
+0 -1 13658
+D3                          
+You see inside the old barn.
+~
+~
+0 -1 13671
+D4                         
+You see up a ladder into the loft.
+~
+~
+0 -1 13673
+S
+#13673
+Loft in Barn~
+You are standing in the loft of the old barn. There are holes 
+in the roof where the rain comes in.  The floor is rotted 
+through years of water damage so you tread lightly testing the 
+ground as you walk.  The whole place smells of musty straw.  
+You can see a buzzard circling in the sky through the hole in 
+the roof.
+~
+136 9 0
+D0                                
+You see into the loft.
+~
+~
+0 -1 13659
+D5                    
+You see down the ladder into the barn.
+~
+~
+0 -1 13672
+S
+#13674
+Crossroads of Blue Creek Rd and Little Rock St~
+You are standing at the intersection of Blue Creek Road and 
+Little Rock Street.  There are shops both to the north and 
+the south of you.  You can see to the east some shops and 
+the Pony Express station that delivers all the mail from the 
+post office.  Further east you can see where the road bends to 
+the north.  To the west you can see a bank, local Sheriff's 
+office, school and church.  You can see no movement but you 
+feel a presence in the town.  
+~
+136 1 0
+D0                                    
+You see up the main street of the town.  There are shops 
+either side of the road.
+~
+~
+0 -1 13664
+D1                      
+You see up Little Rock Street. 
+~
+~
+0 -1 13675
+D2
+You see down the main street of the town. 
+~                             
+~
+0 -1 13706
+D3                                       
+You see down Little Rock Street
+~
+~
+0 -1 13701
+S
+#13675
+Little Rock St~
+You are standing on Little Rock Street.  Just to the east you 
+can see in the distance the Pony Express Station.  
+To the west you can see the intersection of Blue Creek Road 
+and Little Rock Street.
+~
+136 1 0
+D1 
+You see down Little Rock Street.
+~
+~
+0 -1 13676
+D3      
+You see down Little Rock Street.
+~
+~
+0 -1 13674
+S
+#13676
+Little Rock St~
+You are standing on Little Rock Street right outside the Pony 
+Express station.  To the east you can see down to where the 
+the street becomes a old dirt road.  To the west you can in 
+the distance see the intersection this road makes with Blue Creek 
+Road.
+~
+136 1 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13666                     
+D1                             
+You see down Little Rock Street.
+~
+~
+0 -1 13677                     
+D2                             
+You see the Pony Express station.
+~
+~
+0 -1 13708
+D3                               
+You see down Little Rock Street.
+~
+~
+0 -1 13675
+S
+#13677
+Little Rock St~
+You are standing on Little Rock Street.  From here you can see 
+to the west the centre of the town.  To the east the road 
+bends to the north and turns into a small dirt road.  You can 
+see the Pony Express station just to the south but the grass 
+is too tall for you to pass.
+~
+136 1 0
+D1                             
+You see down Little Rock Street.
+~
+~
+0 -1 13678
+D3                             
+You see down Little Rock Street.
+~
+~
+0 -1 13676
+S
+#13678
+Little Rock St~
+You are standing on Little Rock Street just east of the Pony 
+Express station.  The road continues east till it turns to an 
+old dirt path.  There does not seem to be anyone around but 
+you get the sense that someone is watching you.
+~
+136 1 0                      
+D1                             
+You see down Little Rock Street.
+~
+~
+0 -1 13679
+D3                             
+You see down Little Rock Street.
+~
+~
+0 -1 13677
+S
+#13679
+Little Rock St~
+You are standing on Little Rock Street just before the turn in 
+the road.  From here you can see over the tall grass a farm 
+house and barn to the north.  There are small trees and 
+shrubbery blocking the path up ahead where the road turns.
+~
+136 1 0
+D1                             
+You see down Little Rock Street.
+~
+~
+0 -1 13680
+D3                             
+You see up Little Rock Street.
+~
+~
+0 -1 13678
+S
+#13680
+Little Rock St~
+You are standing at the point on Little Rock Street where it 
+bends north towards the old farm house.  Just ahead there is 
+an old barn.  You feel like staying here and resting but your 
+curiosity has gotten the better of you and you wonder if 
+the farm house is as deserted as the rest of the town.
+~
+136 1 0
+D0                             
+You see an old dirt road leading to a barn.  In the distance 
+you can see a farm house.
+~
+~
+0 -1 13669
+D3                       
+You see down Little Rock Street.
+~
+~
+0 -1 13679
+S
+#13681
+School Playground~
+You are standing in the playground just north-west of the 
+school.  There are some home-made monkey bars and swings made 
+from old tires hanging from trees.  You can see the old 
+school house from here, it's small but would have suited this 
+small town and accommodated the children well.  You can see 
+carved in one of the trees the initials of the past students.
+~
+136 1 0
+D1                             
+You see the other end of the playground.
+~
+~
+0 -1 13682
+D2                                      
+You see the south end of the playground.
+~
+~
+0 -1 13683
+S
+#13682
+School Playground~
+You are standing in the northeastern end of the playground.  
+There is a shoddy see-saw made from an old plank of wood and 
+a barrel.  The handle has fallen off one side and it is 
+cracked in several places.  To the east you can see some 
+swings made from old tires tied to a tree.
+~
+136 1 0
+D2
+You see the south end of the playground.
+~
+~
+0 -1 13684
+D3                                      
+You see the other end of the playground.
+~
+~
+0 -1 13681
+S
+#13683
+School Playground~
+You are standing in the southernmost end of the playground.  
+There is a small slide here made from a plank of wood and a 
+ladder.  It looks like it would give you some nasty splinters 
+if you tried to slide down it so you decide not to give it a 
+try.  Just to the east you can see the entrance to the school 
+house.
+~
+136 1 0                               
+D0                                      
+You see the north end of the playground.
+~
+~
+0 -1 13681
+D1 
+You see across the playground.
+~
+~
+0 -1 13684
+S
+#13684
+School Playground~
+You are standing in the school playground just before the back 
+entrance to the schoolroom.  From here you can see a large 
+area with children's play equipment scattered about.  Just east 
+you can see the door to the school house.  Hanging from a hook 
+on the wall there is a small metal triangle that must have 
+been used to summon the children into class.
+~
+136 1 0
+D0
+You see the north end of the playground.
+~
+~
+0 -1 13682
+D1
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13685
+D3                                      
+You see the other side of the playground.
+~
+~
+0 -1 13683
+S
+#13685
+Back Porch of School~
+You are standing on the back porch of the old school house.  There are rows 
+of rubber boots and raincoats on pegs.  To the east there is a small room 
+on the wall of which you can see a large blackboard.
+~
+136 9 0
+D1    
+You see a room with a blackboard.
+~
+~                                        
+0 -1 13686
+D3
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13684
+S
+#13686
+Classroom~
+You are standing in a large classroom.  At the front of the room there is 
+a large blackboard with the times tables printed on it with white chalk.
+There are two rows of desks stretching the length of the room.  On one of 
+the desks there is what used to be an apple but is now a small black blob 
+that has long ago rotted.
+~
+136 9 0                        
+D1                               
+You see the other end of the classroom.
+~
+~
+0 -1 13687
+D2                                     
+You see the south end of the classroom.
+~
+~
+0 -1 13690
+D3                                     
+You see the other end of the classroom.
+~
+~
+0 -1 13685
+E
+black board blackboard~
+                         ________________________
+                        |+----------------------+|
+                        ||  Today is  Wednesday ||
+                        ||                      ||
+                        || 1)  5+2=   2)  9+6=  ||
+                        || 3)  10-5=  4)  9-7=  ||
+                        || 5)  9+3=   6)  8-8=  ||
+                        || now make up your own ||
+                        ||                 ___  ||
+                        |l________________[___]_l|
+                        [________________________]  
+~
+S
+#13687
+Classroom~
+You are standing in the local school classroom.  There are desks on  
+either side of room marking a path down the center.  At the top of a 
+room is a large blackboard with a mathematical lesson written on one side
+in white chalk.  
+~
+136 9 0
+D2               
+You see the other end of the classroom.
+~
+~
+0 -1 13691
+D3                                     
+You see the south end of the classroom.
+~
+~
+0 -1 13686
+S
+#13688
+Headmistress' Office~
+You are standing in the small office in the school house.  This is where
+the school teacher must write all her lessons.  There is a small desk and
+chair.  On the desk is a globe of the world.  In the corner is a bookcase
+that houses all the school text books.  Behind the desk is a small window 
+with pale yellow curtains.  The view through the window is of the back of 
+the local hotel and retail establishments.
+~
+136 9 0
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13692
+S
+#13689
+Storeroom~
+You are standing in the small school's storeroom.  On the few shelves there 
+are slates and a box of chalk.  On the shelf to the left you can see some dirty
+dust cloths, a bucket and a broom.  At the back of the store room there is 
+a couple of broken desks and chairs, they look like they have been there 
+for a very long time.
+~
+136 9 0
+D1
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13690
+S
+#13690
+Classroom~
+You are standing at the back of the classroom.  From here you can see 
+the front door of the school just to the east.  At the north end of the 
+classroom there is a blackboard and chalk.  Two rows of desks fill the 
+space from here to the blackboard.  Just to the west you can see the door 
+to the storeroom.
+~
+136 9 0
+D0                                     
+You see the north end of the classroom.
+~
+~
+0 -1 13686
+D1                                     
+You see the other end of the classroom.
+~
+~
+0 -1 13691
+D3
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13689
+S
+#13691
+Classroom~
+You are standing at the entrance to the class room.  There are a few
+scattered slates strewn about the room.  A child has left their lunch
+pail next to one of the desks.  From here you can see the large 
+blackboard on the north end of the room.  Small desks are aligned 
+in two columns facing the north stretching the length of the room.
+~
+136 9 0
+D0                                     
+You see the north end of the classroom.
+~
+~
+0 -1 13687
+D1                                     
+You see the School Vestibule.
+~
+~
+0 -1 13692
+D3                           
+You see the other end of the classroom and a door in the 
+distance.
+~
+~
+0 -1 13690
+S
+#13692
+School Vestibule~
+You are standing in the entrance to the schoolhouse.  There is a small
+side table with hats and scarves neatly placed side by side.  To the north 
+you see a door and to the east you can see the small class room.  The door
+to the schoolhouse is old and creaks when it is moved.  Just south of here 
+you can see onto Little Rock Street.
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13688
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13697
+D3       
+You see a classroom.
+~
+~
+0 -1 13691
+S
+#13693
+Little Rock St~
+You are standing on Little Rock Street, you can see the old school house from 
+just past the old church.  Further east there is the Sheriff's office 
+and a little further down the street crosses with the main street of
+town.  
+~
+136 1 0
+D1                  
+You see down Little Rock Street.
+~
+~
+0 -1 13694
+D3                             
+You see up Little Rock Street.
+~
+~
+0 -1 13798
+S
+#13694
+Little Rock St~
+You are standing on Little Rock Street just outside the old 
+Church.  Just down from the Church is a schoolhouse, across 
+from the schoolhouse there is the Sheriff's office.  In the 
+distance you can see the intersection this street makes with 
+Blue Creek Road.
+~
+136 1 0
+D1        
+You see down Little Rock Street.
+~
+~
+0 -1 13695                     
+D2                             
+You see some gallows in the distance.
+~
+~
+0 -1 13800
+D3                                   
+You see up Little Rock Street.
+~
+~
+0 -1 13693      
+S
+#13695
+Little Rock St~
+You are standing in Little Rock Road that runs from east to 
+west in the old deserted town.  Just to the north you can SEE 
+a CHURCH.  Further down the road to the north you can see an old 
+schoolhouse that it run down and in need of repair.  This town 
+looks deserted and looks to have been so for some time.
+~
+136 1 0
+D1        
+You see down Little Rock Street.
+~
+~
+0 -1 13696
+D2  
+
+     _|_
+      |
+     _|_
+    //_/\
+  __|  ||____
+ ////////////\
+/////////////\\
+|^^^^^^^^^^||+|
+|  # # #   ||||
+ ....    ....".
+||||||||||||||||| 
+~                  
+~
+0 -1 13801
+D3                                   
+You see up Little Rock Street.
+~                                    
+~
+0 -1 13694      
+E
+church~
+
+     _|_
+      |
+     _|_
+    //_/\
+  __|  ||____
+ ////////////\
+/////////////\\
+|^^^^^^^^^^||+|
+|  # # #   ||||
+ ....    ....".
+||||||||||||||||| 
+~                  
+S
+#13696
+Little Rock St~
+You are standing on Little Rock street on the west side of the 
+old town.  Just to the east you an see an old school house and 
+the Sheriff's Office.  In the distance east you can see where 
+this street meets Blue Creek Road, the main street of the town.
+The wind whistles past your ears as you scan the surrounding 
+area.  You hear what you think is a woman's soft sobs in the wind.
+~
+136 1 0
+D1        
+You see down Little Rock Street.
+~
+~
+0 -1 13697
+D2                             
+You see some gallows in the distance.
+~
+~
+0 -1 13802
+D3
+You see up Little Rock Street.
+~
+~
+0 -1 13695
+S
+#13697
+Little Rock St., Near School~
+You are standing on Little Rock Street near the old school 
+house, if you LOOK you can see it.  This place, although rundown, 
+seems to be locked in time...  like the inhabitants have been sucked 
+from this earth all at one time leaving all their possessions where 
+they stood.
+~
+136 1 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13692
+D1        
+You see down Little Rock Street.
+~
+~
+0 -1 13698
+D3                             
+You see up Little Rock Street.
+~
+~
+0 -1 13696
+E
+school house classroom~
+                            (    )
+                          (    )
+                            )  )
+                           (  (                    
+                            (_)                          
+                    ________[_]________                  
+                   /\                  \                   
+                  //_\                  \                  
+                 //___\                  \ 
+                //_____\                  \
+               //_______\                  \
+              /XXXXXXXXXX\                  \
+             /_I_II  I__I_\__________________\
+               I_I|  I__I_____[]_|_[]_____I
+               I_II  I__I_____[]_|_[]_____I
+               I II__I  I     XXXXXXX     I
+            vVv..__  _VvvV..Vvv..vvVvv...VvvV..     
+~
+S
+#13698
+Little Rock St~
+You are standing on Little Rock Street just past the small 
+school house.  Up ahead to the east you can see a Sheriff's 
+office and the local bank.  Further east there is a crossroads 
+that this street makes with the main road of the town.
+~
+136 1 0
+D1        
+You see down Little Rock Street.
+~
+~
+0 -1 13699
+D3                             
+You see up Little Rock Street.
+~
+~
+0 -1 13697
+S
+#13699
+Little Rock St~
+You are standing on Little Rock Street just before the 
+Sheriff's office.  To the west there is an old school house 
+and over to the south west in the distance you can see some 
+old gallows that were used for hanging the local disreputables.
+~
+136 1 0
+D1        
+You see down Little Rock Street.
+~
+~
+0 -1 13700
+D3                              
+You see up Little Rock Street.
+~
+~
+0 -1 13698
+S
+#13700
+Little Rock St., Near Sheriff's Office~
+You are standing west of the intersection of Blue Creek Road 
+and Little Rock Street just near the Sheriff's Office.  To 
+the west you can see an old school house and a church.
+~
+136 1 0
+D1        
+You see down Little Rock Street.
+~
+~
+0 -1 13701
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13703
+D3                              
+You see up Little Rock Street.
+~
+~
+0 -1 13699
+S
+#13701
+Little Rock St., Near Bank~
+You are standing on the west end side of Little Rock Street 
+just outside the bank. Just to the east is the intersection 
+where this road meets with Blue Creek Road, the main street of 
+the town.  
+~
+136 1 0
+D1        
+You see down Little Rock Street.
+~
+~
+0 -1 13674
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13704
+D3                              
+You see up Little Rock Street.
+~
+~
+0 -1 13700
+S
+#13702
+Small Cell~
+You are standing in an old prison cell.  You can hear the 
+sound of water running and there is a is a definite 
+chill in the room.  The only light entering the room is from the 
+small window high on the wall with bars on it.  One side of 
+the wall has a wide shelf that must double for a bed.  A small 
+dusty moth ridden blanket is scrunched up in the corner 
+presumably used as a pillow.
+~
+136 9 0
+D1
+                       ------------------
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |==============O=|
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       ------------------
+                                            
+
+~
+door~
+1 -1 13703
+S
+#13703
+Sheriff's Office~
+You are standing at the entrance to the Sheriff's office.  To 
+your west you can see a small prison cell.  There are prison 
+cells all the way down the west side of the office.  At the 
+south end there is a desk with a chair.  On the wall there is 
+a row of nails on which hats and jackets are hung.
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13700
+D2                     
+You see the Sheriff's Office.
+~
+~
+0 -1 13713
+D3
+                       
+                       ------------------
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |==============O=|
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       ------------------
+                                            
+
+~
+cell~
+2 13663 13702
+S
+#13704
+Bank~
+You are standing in the entrance of the local bank.  To the 
+north is the exit into Little Rock Street.  There are 
+customers here waiting to be served by the teller.  Pinned to 
+the walls are wanted posters of bank robbers and horse stealers.
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13701
+D2
+You see further into the bank.
+~
+~
+0 -1 13714
+S
+#13705
+Saddlery~
+You are standing in what used to be the local saddler's of 
+the town.  Hanging on all the walls you see what used to be 
+fine bridles and saddles which have since cracked and fallen to 
+bits.  In the front window is a large saddle with ornate stitching 
+that must have cost a fortune.  To the east you can see Blue 
+Creek Road, the main street of town.
+~
+136 9 0
+D1                            
+You see out onto the main street of the town.
+~
+~
+0 -1 13706
+S
+#13706
+Blue Creek Rd~
+You are standing on Blue Creek Road the main street of the old 
+town.  To the north you can see an intersection where Blue 
+Creek crosses Little Rock.  There are shops both north and 
+south of here.  A strong gust is slamming a shutter open and 
+closed down the street.
+~
+136 1 0
+D0
+You see up Blue Creek Road.
+~
+~
+0 -1 13674
+D1                                           
+You see into the Seamstress's Shop.
+~
+~
+0 -1 13707
+D2                                 
+You down Blue Creek Road.
+~
+~
+0 -1 13716
+D3                                           
+You see into the Saddler's.
+~
+~
+0 -1 13705
+S
+#13707
+Seamstress~
+You are standing inside the seamstress's shop.  All the walls 
+are covered with fine dresses and other such garments. If you 
+LOOK you can see hats and shirts hanging as they have done for 
+years. In the corner is a small pedal driven sewing machine and 
+an upright mannequin wearing a half finished full skirt dress.
+~
+136 9 0
+D3       
+You see out onto the main street of the town.
+~
+~
+0 -1 13706                                          
+E
+hat~
+                      .----`\--\
+                      |       -- \
+                      |           '
+                  ,--------,______|---.
+                  /          \-----`    \
+                  `.__________`-_______-'
+
+~                                  
+E
+shirt~
+                            _
+                           ( |
+                             |
+                      __,--./|.--,__
+                    .`   \ \ / /    `.
+                  .`      \ | /       `.
+                 /   /     ^|^      \   \
+                /   / |     |o     | \   \
+               /===/  |     |      |  \===\
+              /___/   |     |o     |   \___\
+                      |     |      |
+                      |     |o     |
+                      |     |      |
+                      |     |o     |
+                      |_____/\_____| 
+ ~
+S
+#13708
+Pony Express Station~
+You are standing just inside the Pony Express station.  To the 
+north you can see Little Rock Street and there is another door 
+in the distance south.  To the east there is the entrance to 
+the Pony Express Cabin that housed the Pony Express riders.
+~
+136 4 0
+D0                                           
+You see a Pony Express Station.                     
+~
+~
+0 -1 13676
+D1                             
+You see a Pony Express Station.
+~
+~
+0 -1 13709
+D2                             
+You see a Pony Express Station.
+~                              
+~
+0 -1 13718
+S
+#13709
+Pony Express Station Cabin~
+You are standing inside the Pony Express Bungalow.  Scattered 
+around are old riding boots and whips.  There are several 
+pouches that were used to carry the mail on a table in the 
+middle of the room.  This is a large room.  This must be where 
+the riders lived.  Further east there is a small room with 
+bunk beds in it.
+~
+136 9 0
+D1                             
+You see into the Pony Express Cabin.
+~
+~
+0 -1 13710                          
+D2                                  
+You see the Pony Express Station.
+~
+~
+0 -1 13719
+D3                               
+You see the Pony Express Station.
+~
+~
+0 -1 13708
+S
+#13710
+Pony Express Cabin~
+You are standing in the Pony Express cabin just before the 
+bunkhouse.  From here you can see a large dining table in the 
+middle of the room.  It looks as if it could have seated 10-12 
+people.  On the wall are nails with hats and coats hanging on 
+them.
+~
+136 9 0
+D1                               
+You see outside into the Pony Express Station.  
+~
+~
+0 -1 13711
+D2 
+You see outside into the Pony Express Corral.
+~
+~
+0 -1 13720
+D3     
+You see outside into the Pony Express Station.  
+~
+~
+0 -1 13709
+S
+#13711
+Sleeping Quarters~
+You are standing in the Pony Express bunkhouse.  There are 
+rows and rows of bunks along the walls and down the middle of 
+the room.  In between the bunks are small lockers, a number of 
+the lockers are open and their doors are flapping in the breeze 
+coming from the gaping hole in the roof.  
+~
+136 9 0
+D3  
+You see the Pony Express Cabin.
+~
+~
+0 -1 13710
+S
+#13712
+Dark Cell~
+You are standing in a dark prison cell out back of the 
+Sheriff's Office.  Although the cell walls are covered with 
+mold and mildew you can see that someone has scratched their 
+initials into the wall.  On the floor there is an old tin 
+plate that was used to give the prisoners their meals.
+~
+136 9 0
+D1
+                       
+                       ------------------
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |==============O=|
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       ------------------
+     
+
+~
+cell~
+1 -1 13713
+S
+#13713
+Sheriff's Office~
+You are standing in the middle of the Sheriff's office, to 
+your south you can see the Sheriff's desk.  To the north you 
+can see out into Little Rock Street.  There are prison cells 
+all the way down the west end of the room.  To your west there 
+is small dark cell. 
+~
+136 9 0
+D0   
+You see the entrance to the Sheriff's Office.
+~
+~
+0 -1 13703
+D2                                           
+You see the Sheriff's Office.
+~
+~
+0 -1 13722
+D3 
+                       
+                       ------------------
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |==============O=|
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       ------------------
+     
+~
+cell~
+2 13663 13712
+S
+#13714
+Bank~
+You are standing inside the town bank.  To the north customers 
+are queueing to wait for service.  You see here a small desk 
+with bars reaching up into the ceiling.  There is a small 
+opening where the teller uses to serve the customers. 
+~
+136 9 0
+D0 
+You see the entrance to the bank.
+~
+~
+0 -1 13704
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+2 13665 13723
+S
+#13715
+General Store~
+You are standing in the local General Store.  There are 
+counters filled with assorted mixed nuts and candies.  On the 
+floor are bags of flour and wheat.  Standing up against the 
+wall are mops, shovels and picks.  This is a well stocked 
+store for a deserted town.
+~
+136 9 0
+D1
+You see out onto the main street of the town.
+~
+~
+0 -1 13716
+S
+#13716
+Blue Creek Rd~                   
+You are standing on the main street of the town.  To the west 
+is the local General Store and to the east is the Blacksmith's. 
+South of here there is a T intersection that Blue Creek makes 
+with the old dirt road.  To the north there are shops on 
+either side of the road.  
+~
+136 1 0                                    
+D0                                           
+You see up Blue Creek Road.
+~
+~
+0 -1 13706
+D1                         
+You see into the Blacksmith's Shop.
+~
+~
+0 -1 13717
+D2                                 
+You see down Blue Creek Road.
+~
+~
+0 -1 13725
+D3                           
+You see into the General Store.
+~
+~
+0 -1 13715
+S
+#13717
+Blacksmith's~
+You are standing in the town blacksmith's.  You can see in the 
+corner a huge fireplace with branding irons lined up along 
+side.  Just next to the fireplace there is a huge anvil and 
+hammer that was once used to shoe the horses.
+~
+136 9 0
+D3
+You see down Blue Creek Road.
+~
+~
+0 -1 13716
+S
+#13718
+Pony Express Station~
+You are standing just outside the Pony Express Station.  To 
+the north there is a door leading into the Pony Express 
+Cabin.  Hanging from a nail just outside the door is a large 
+metal triangle.  This must have been used to call the riders 
+into supper.
+~
+136 5 0
+D0                           
+You see a Pony Express Station.
+~
+~
+0 -1 13708
+D2                             
+You see an old Dirt road.
+~
+~
+0 -1 13727
+S
+#13719
+Pony Express Corral~
+You are standing in the east side of the Pony Express Corral.  
+This was where all the Pony Express horses were kept when they 
+were not out on a ride.  Now the corral is clean and empty.  The 
+water barrel in the corner is empty and there is a huge crack 
+on the side of it.
+~
+136 0 0
+D0                       
+You see the Pony Express Corral.
+~
+~
+0 -1 13709
+D1                             
+You see the Pony Express Corral.
+~
+~
+0 -1 13720
+S
+#13720
+Pony Express Corral~
+You are standing in the east end of the Pony Express Corral.  
+Some of the fence posts are rotted and the planks of wood are 
+loose and falling down.  Right now this corral couldn't keep a 
+one legged dog in.
+~
+136 9 0
+D0                              
+You see the Pony Express Cabin.
+~
+~
+0 -1 13710
+D3                             
+You see the Pony Express Cabin.
+~
+~
+0 -1 13719
+S
+#13721
+Secure Cell~
+You are standing in the secure cell of the Sheriff's office.  
+This is where they must have placed their most dangerous 
+criminals.  To the east the Sheriff's desk is right out front 
+of this cell to keep a watchful eye on its inhabitants.  NO 
+ONE could get out of this cell. 
+~
+136 9 0
+D1
+                       
+                       ------------------
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |==============O=|
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       |  |  |  |  |  | |
+                       ------------------
+     
+
+~
+door~
+1 -1 13722
+D5
+~
+tunnel~
+1 -1 13847
+S
+#13722
+Sheriff's Office~
+You are standing in the Sheriff's office.  There is a desk in 
+the corner with a modest chair.  On the walls there are 
+assorted weapons and ammunition on shelves.  Just on the wall 
+here you can SEE a skull of some sort of animal you have never 
+seen before. 
+~
+136 9 0
+D0
+You can see the Sheriff's Office.
+~
+~
+0 -1 13713
+D3
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+cell~
+2 13663 13721             
+E
+head skull animal~ 
+               ___,---.__          /'|`\          __,---,___
+            ,-'    \`    `-.____,-'  |  `-.____,-'    //    `-.
+          ,'        |           ^'\     /`^           |        `.
+         /      ___//              `. ,'          ,  , \___      \
+        |    ,-'   `-.__   _         |        ,    __,-'   `-.    |
+        |   /          /\_  `   .    |    ,      _/\          \   |
+        \  |           \ \`-.___ \   |   / ___,-'/ /           |  /
+         \  \           | `._   `\\  |  //'   _,' |           /  /
+          `-.\         /'  _ `---'' , . ``---' _  `\         /,-'
+            ``       /     \    ,='/ \`=.    /     \       ''
+                    |__   /|\_,--.,-.--,--._/|\   __|
+                     /  `./  \\`\ |  |  | /,//' \,'  \
+                    /   /     ||--+--|--+-/-|     \   \
+                   |   |     /'\_\_\ | /_/_/`\     |   |
+                    \   \__, \_     `^'     _/ .__/   /
+                     `-._,-'   `-._______,-'   `-._,-'
+
+~        
+S
+#13723
+Bank Manager's Office~
+You are standing in the Bank Manager's Office.  There is a huge 
+desk with a reading lamp in the middle of the room.  Behind 
+the desk is a large soft leather chair.  To the east there is 
+a large vault that was once used to store the town's wealth.
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13714
+D1
+                       ------------------
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |   |        |   |
+                       |==============O |
+                       |   |        |   |
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |		|
+		       ------------------
+
+~
+vault safe~
+2 13625 13724
+S
+#13724
+Vault~
+You are standing in a dark vault.  You can't see anything cause 
+it's too dark.   
+~
+136 9 0
+D3
+                       ------------------
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |   |        |   |
+                       |==============O |
+                       |   |        |   |
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       |                |
+                       ------------------
+
+
+~
+vault safe~
+1 -1 13723
+S
+#13725
+Intersection of Blue Creek and Old Dirt roads~
+You are standing on the intersection of Blue Creek and Old Dirt roads.  
+The road to the south heads out of town till it bends to the east.  
+The grass here has grown long and wild but you can still see in the 
+southeast a old deserted fort that once housed troops of the military.
+~
+136 1 0
+D0                                   
+You see up the main street leading out of town.
+~
+~
+0 -1 13716
+D1                                             
+You can see down the old dirt road.
+~
+~
+0 -1 13726
+D2                                 
+You see up the main street of town to a bend in the road.
+~
+~
+0 -1 13732
+S
+#13726
+Old Dirt Rd~
+You are standing on the Old Dirt road on the south end of town.  Large 
+blades of grass blow in the wind and obscure your view.  East down the
+road and to the north you see the Pony Express station.  Over the grass 
+and to the south there you see an old fort that protected the town from
+native aggression.
+~
+136 1 0
+D1                                                       
+You see up an old dirt road.
+~
+~
+0 -1 13727
+D3                          
+You see down an old dirt road.
+~
+~
+0 -1 13725
+S
+#13727
+Old Dirt Rd, near Pony Express Station~
+You are on an old dirt road in the southeast end of the town.  From 
+here you can see the back of the shop buildings at the center 
+of town.  To the north is the Pony Express Station.  Over the 
+tall overgrown grass to the south you can see in the distance 
+an old fort.  Although the fort is now deserted you can almost 
+still see the guards standing at their posts.  
+~
+136 1 0
+D0               
+You can see the Pony Express Station.
+~
+~
+0 -1 13718
+D1                                
+You see up an old dirt road.
+~
+~
+0 -1 13728
+D3                          
+You see down an old dirt road.
+~
+~
+0 -1 13726
+S
+#13728
+Old Dirt Rd~
+You are standing on the Old Dirt road east of the old town 
+just past the Pony Express station.  The road continues to the 
+east where it becomes a dead end.  In the distance to the 
+south you can see an old fort.  
+~
+136 1 0
+D1            
+You see up an old dirt road.
+~
+~
+0 -1 13729
+D3                          
+You see down an old dirt road.
+~
+~
+0 -1 13727
+S
+#13729
+Old Dirt Rd~
+You are standing on the Old Dirt road just out of town.  You 
+can see in the distance south over the tall grass an old Fort 
+that once protected the town.  The road continues east here 
+past the fort where it ends in a mass of trees and bushes.
+~
+136 1 0
+D1      
+Down the Old Dirt Road.
+~
+~
+0 -1 13730
+D3
+Up the Old Dirt Road.
+~
+~
+0 -1 13728
+S
+#13730
+Old Dirt Rd~
+You are standing on the Old Dirt road just before the dead 
+end.  The road continues to the west where it meets with Blue 
+Creek Road, the main street of the town.  The land here is 
+peaceful, it lacks the energy that you could feel while 
+wandering the town.
+~
+136 1 0
+D1
+Down the Old Dirt Road.
+~
+~
+0 -1 13731
+D3
+Up the Old Dirt Road.
+~
+~
+0 -1 13729
+S
+#13731
+Old Dirt Rd at the dead end.~
+You are standing at the end of the Old Dirt road.  You are 
+surrounded by large trees and bushes that block the path 
+east.  What once could have been a path is now a dead end and 
+the only way out is the way you came.  The town looks so 
+peaceful from here, it is hard to now imagine the uneasiness 
+you felt while you were roaming the uninhabited buildings.
+~
+136 1 0
+D3
+Up the Old Dirt Road.
+~
+~
+0 -1 13730
+S
+#13732
+Blue Creek Rd~
+You are standing on Blue Creek Road on the south end of the 
+old town.  Just to the north you can see the intersection that 
+this road makes with an old dirt road.  The road then 
+continues north through the town and its many deserted shops 
+and buildings.  You can see to the south east a large old fort 
+with a huge wooden gate.  The fort looks impenetrable from the 
+outside.
+~
+136 129 0
+D0
+Intersection of Blue Creek and the Old Dirt road.
+~
+~
+0 -1 13725
+D2                                               
+Down Blue Creek Road towards the bend.
+~
+~
+0 -1 13740
+S
+#13734
+Fort Tower(North-West)~
+You are standing on the tower of the large wooden fort.  From 
+here you can see the whole town.  Over to the north there is 
+the Pony Express station that once serviced this town with 
+delivery of its mail.
+~
+136 1 0
+D1                                    
+Along the Parapet.
+~
+~
+0 -1 13735
+D5                
+The interior of the fort.
+~
+~
+0 -1 13741
+S
+#13735
+Fort Parapet~
+You are standing on the fort parapet just east of the tower.  
+This is where military guards would stand their post 
+protecting the fort from native aggression.  From here you can 
+see the inside of the fort.
+~
+136 1 0
+D1                       
+Along the Parapet.
+~
+~
+0 -1 13736
+D3                
+Northwest Tower.
+~
+~
+0 -1 13734
+S
+#13736
+Fort Parapet~
+You are standing on the fort parapet on the north end of the 
+fort.  There is a tower in the distance either side of you 
+east and west.  You can see the inside of the fort from here.  
+There are barrels of slimy water scattered about the inside of 
+the fort.
+~
+136 1 0
+D1                    
+Along the Parapet.
+~
+~
+0 -1 13737
+D3              
+Along the Parapet.
+~
+~
+0 -1 13735
+S
+#13737
+Fort Parapet~
+You are standing on the fort parapet, just east of you is the 
+east tower.  You can see from here scatted debris left from a 
+war that was over long ago.  On the east side at the back of 
+the fort is an office where the highest in command must have 
+resided.  
+~
+136 1 0
+D1                
+The northeast Tower.
+~
+~
+0 -1 13738
+D3                  
+Along the Parapet.
+~
+~
+0 -1 13736
+S
+#13738
+Fort Tower(North-East corner)~
+You are standing on the north-east corner of the fort in the 
+tower.  From here you can see the area all around.  The area 
+surrounding the town is a dry and dusty desert.  The town must 
+have been built on the only area that was rich enough to grow 
+crops. 
+~
+136 1 0
+D2                
+Along the Parapet.
+~
+~
+0 -1 13755
+D3                
+The northeast tower.
+~
+~
+0 -1 13737
+D5                  
+The interior of the Fort.
+~
+~
+0 -1 13745
+S
+#13739
+Dummy room~
+~
+136 0 0
+S
+#13740
+Blue Creek Rd~
+You are standing on Blue Creek Road just before the turn.  To 
+the north you can see a deserted town.  If you follow the road 
+to the east you would end up at the entrance to the old empty 
+fort.  The gate is high and impenetrable from the outside.
+~
+136 1 0
+D0                       
+Along the Parapet.
+~
+~
+0 -1 13732
+D2
+Along the Parapet.
+~
+~
+0 -1 13748
+S
+#13741
+Fort Blue Creek, northwest corner~
+You are standing in the northwest corner of the fort just 
+below the tower.  Scattered on the ground are used gun casings 
+and other assorted refuse left here from a great battle.  
+Diagonally across from you is a old stable that used to house 
+the military horses. 
+~
+136 9 0
+D1                
+Along the Fort wall.
+~
+~
+0 -1 13742
+D2                  
+Along the Fort wall towards the gate.
+~
+~
+0 -1 13750
+D4                                   
+Up into the Tower.
+~
+~
+0 -1 13734
+S
+#13742
+Fort Blue Creek~
+You are standing aside the north wall of the Fort.  The wall 
+continues a distance to the east and a little to the west.  In 
+the middle of the Fort you can see a small well made from 
+rocks and cement.  You can see an old clothes line where the 
+soldiers would hang their uniforms out to dry.  There is still 
+an old dirty pair of long johns hanging from the line.
+~
+136 9 0
+D1                                                    
+Along the Fort wall.
+~
+~
+0 -1 13743
+D2                  
+In the center of the Fort.
+~
+~
+0 -1 13751
+D3                        
+Along the Fort wall.
+~
+~
+0 -1 13741
+S
+#13743
+Fort Blue Creek~
+You are standing against the northernmost wall of the Fort.  
+There is an old broken down wagon here where it looks to have 
+been for years.  When you look closer at the wagon you can see 
+several arrows are wedged into the wood.
+~
+136 9 0
+D1                                                         
+Along the fort wall.
+~
+~
+0 -1 13744
+D2
+The middle of the Fort.
+~
+~
+0 -1 13752
+D3                     
+Along the fort wall.
+~
+~
+0 -1 13742
+S
+#13744
+Fort Blue Creek~
+You are standing on the east side of the fort up against the 
+north wall.  To the east there is a ladder leading to the top 
+of the parapet tower.  Further south you can see the Major's 
+office.
+~
+136 9 0
+D1                  
+Along the fort wall.
+~
+~
+0 -1 13745
+D2                  
+The middle of the Fort.
+~
+~
+0 -1 13753
+D3                     
+Along the fort wall.
+~
+~
+0 -1 13743
+S
+#13745
+Fort Blue Creek, northeast corner~
+You are standing in the northeast corner of the Fort directly 
+below the northeast tower. From here you can see right 
+down the east wall behind the Major's Office.  Right here 
+there is a ladder leading up into the parapet tower.
+~
+136 9 0
+D2                            
+Along the Fort wall.
+~
+~
+0 -1 13754
+D3                         
+Along the Fort wall.
+~
+~
+0 -1 13744
+D4                  
+Along the Fort wall.
+~
+~
+0 -1 13738
+S
+#13746
+dummy room~
+~
+136 0 0
+S
+#13747
+On the slide~
+
+		  W
+                    E
+                      E
+                        E
+                          E
+                            E 
+                              E
+                                E
+                                  E
+                                    E
+                                      E
+                                        E
+                                          E
+                                            E
+                                              E
+                                                E
+                                                  E
+                                                    E
+                                                      E
+                                                        !
+                                                          !
+                                                            !
+                                                              !
+                                                                !
+                                                                  !
+                                                                    !
+
+	Although you are left with numerous spliters deposited in your 
+                      buttocks ....That was fun!
+
+
+~
+136 0 0
+D1
+Off the Slide~
+~
+0 -1 13682
+S
+#13748
+Blue Creek Rd~
+You are standing on the bend on Blue Creek road heading 
+towards the Old Fort.  To the north you see an old deserted 
+town in the distance.  To the west you see a large military Fort.
+There are large trees and foliage to the west and south and 
+you cannot see beyond that.
+~
+136 1 0
+D0                  
+Along Blue Creek Road towards town.
+~
+~
+0 -1 13740
+D1                                 
+A large rundown Fort.
+~
+~
+0 -1 13749
+S
+#13749
+Before Fort Blue Creek~
+     _/\_/\_/\_/\_/\_/\__/\_/\_/\_____/\_/\_/\__/\_/\_/\_/\_/\_/\_
+     || || || || || || |I==========I==========I|_||_||_||_||_||_||
+     || || || || || || |I        FORT         I| || || || || || ||
+     || || || || || || |I     BLUE I CREEK    I| || || || || || ||
+     || || || || || || |I          I          I| || || || || || ||
+     ||+||+||+||+||+||+|I----------I----------I|+||+||+||+||+||+||
+     ||=||=||=||=||=||=|I==========I==========I|=||=||=||=||=||=||
+     ||_||_||_||_||_||_|I          I          I|_||_||_||_||_||_||
+     || || || || || || |I          I          I| || || || || || ||
+     || || || || || || |I          I          I| || || || || || ||
+     || || || || || || |I          I          I| || || || || || ||
+     ||+||+||+||+||+||+|I----------I----------I|+||+||+||+||+||+||
+     ||=||=||=||=||====|I__|__|__|_|__________I|=||=||=||=||====||
+   =================================================================
+~
+136 1 0
+D1
+A large Gate.
+~
+gate~
+1 -1 13750
+D3           
+Blue Creek Road towards bend.
+~
+~
+0 -1 13748
+S
+#13750
+Fort Blue Creek~
+You are standing inside the gates.  Fort Blue Creek was a beautiful 
+post, with the best quarters in the army at that time, but it was 
+like being buried alive to stay there. Nothing ever passed that way, 
+and it was seldom a stranger entered the fort.   
+~
+136 9 0
+D0                              
+Along the Fort wall.
+~
+~
+0 -1 13741
+D1                  
+The Fort interior.
+~
+~
+0 -1 13751
+D2                
+Along the Fort wall.
+~
+~
+0 -1 13760
+D3                  
+Blue Creek Road out of the Fort.
+~
+gate~
+1 -1 13749
+S
+#13751
+Fort Blue Creek~
+You are standing inside the large military Fort.  To the west 
+there is a large gate which seems to be the only exit from the 
+fort.  This place looks like it has been deserted for many 
+years.  The walls bear the scars of the many battles that have 
+taken place here.
+~
+136 9 0
+D0 
+To the north wall of the Fort.
+~
+~
+0 -1 13742
+D1                            
+The interior of the Fort.
+~
+~
+0 -1 13752
+D2                       
+The interior of the Fort.
+~
+~
+0 -1 13761
+D3                       
+The Fort Gate.
+~
+~
+0 -1 13750
+S
+#13752
+Fort Blue Creek~
+You are standing in the middle of the Fort.  In front of you 
+is a large bulkhead that soldiers used as a screen for their 
+own protection against projectiles sent over the walls.  Just south 
+of you is a small Office.
+~
+136 9 0
+D0                       
+The Fort wall.
+~
+~
+0 -1 13743
+D1            
+The east side of the Fort.
+~
+~
+0 -1 13753
+D2                        
+In front of the Major's Office.
+~
+~
+0 -1 13762
+D3                             
+The west side of the Fort towards the exit.
+~
+~
+0 -1 13751
+S
+#13753
+Fort Blue Creek~
+You are standing on the east side of the old Fort.  To your 
+east is the east wall.  To the north is the north wall.  Empty 
+shell casings and broken arrows litter the ground that you 
+walk on.  You can hear a horse snort on the other side of the 
+Major's Office.  Wasn't this a *deserted* Fort?!?!?! 
+~
+136 9 0
+D0 
+The north wall of the Fort.
+~
+~
+0 -1 13744
+D1                         
+The east wall of the Fort.
+~
+~
+0 -1 13754
+D3                        
+The Fort interior.
+~
+~
+0 -1 13752
+S
+#13754
+Fort Blue Creek~
+You are standing along the east wall of the old Fort.  To the 
+north is the northeast corner of the Fort.  South you can see 
+the back of the major's office and further south is the 
+military stable.
+~
+136 9 0
+D0                
+The northeast corner of the Fort.
+~
+~
+0 -1 13745
+D2                               
+Along the east wall.
+~
+~
+0 -1 13764
+D3                  
+The interior of the Fort.
+~
+~
+0 -1 13753
+S
+#13755
+Fort Parapet~
+You are standing on the east parapet.  From here you get a 
+bird's eye view of the Fort interior and surrounding area.  
+There is desert surrounding the whole town, the only foliage 
+that can be seen is the trees and grass that are scattered 
+throughout the town.
+~
+136 1 0
+D0                  
+Along the Fort Parapet.
+~
+~
+0 -1 13738
+D2                     
+Along the Fort Parapet.
+~
+~
+0 -1 13765
+S
+#13756
+dummy room~
+~
+136 0 0
+S
+#13757
+dummy room~
+~
+136 0 0
+S
+#13758
+dummy room~
+~
+136 0 0
+S
+#13759
+Fort Parapet~
+You are standing on the on the west parapet of the old Fort.  
+From here you can see Blue Creek road as it approaches from 
+the town and bends towards the Fort.  In the distance you can 
+see the local gallows.  Hey this would be a good seat for a 
+hanging!
+~
+136 1 0
+D2      
+Along the Parapet.
+~
+~
+0 -1 13771
+S
+#13760
+Fort Blue Creek~
+You are standing on the west side of the old fort along the 
+wall.  To the north is the gate that leads out onto Blue Creek 
+Road.  There is an old military boot here, strange that 
+someone would leave their boot here.  You take a closer look 
+and find that there still is a foot in there! erky!  How could 
+a foot have lasted so long exposed to the elements for many 
+years.  You feel a panic well up inside your stomach, you 
+almost puke!
+~
+136 9 0
+D0          
+The Fort Gate.
+~
+~
+0 -1 13750
+D1            
+The interior of the Fort.
+~
+~
+0 -1 13761
+D2                       
+Along the west wall.
+~
+~
+0 -1 13772
+S
+#13761
+Fort Blue Creek~
+You are standing in the interior of the old Fort.  There is an 
+old well close by and an old broken wagon over in the corner.  
+Further east you can see a small building that must have been 
+the Major's office.  In the south east corner of the Fort is a 
+large stable where the military horses must have been kept.
+~
+136 9 0                                                    
+D0                                                         
+The north end of the Fort.
+~
+~
+0 -1 13751
+D1                        
+The interior of the Fort.
+~
+~
+0 -1 13762
+D2                       
+The south end of the Fort.
+~
+~
+0 -1 13773
+D3                        
+The west wall of the Fort.
+~
+~
+0 -1 13760
+S
+#13762
+Fort Blue Creek~
+You are standing in the middle of Blue Creek Fort just before 
+the Major's Office.  It is an attractive looking building or 
+must have been in its time.  The weather has done some serious 
+damage to the roof but it still holds its charm, it must have 
+been the Major's pride and joy.  If you LOOK hard enough you 
+might see it.
+~
+136 9 0
+D0                             
+The interior of the Fort.
+~
+~
+0 -1 13752
+D1                       
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13763
+D2                       
+The south end of Fort approaching the stable.
+~
+~
+0 -1 13774
+D3
+~
+~
+0 -1 13761                                   
+E
+building office major's major~
+    
+                                                           
+               _____________________________
+              |`'`'`'`'`'`'`'`'`'`'`'`'`'`'`|
+              |`'`'`'`'`'`'`'`'`'`'`'`'`'`'`|
+              |`'`'`'`'`'`'`'`'`'`'`'`'`'`'`|
+              |_________----------__________|
+               | ______ | Office | _______ |
+               ||  |   || ====== ||   |   ||
+               ||--+---|| |    | ||---+---||
+               ||__|___|| |   o| ||___|___||
+               |========| |____| |=========|
+               (^^-^^^^^-|________|-^^^--^^^)
+               (,, , ,, ,/' '' '  \,,,, ,, ,)
+              ','',,,,' ' '  ''' '' ,,,',',;;
+~                                 
+S
+#13763
+Major's Office~
+The Major's Office is gloomy, lit by one sole candle.  There are war
+plans scattered all over the place, though the furniture is the finest 
+you have ever seen.  A realistic portrait of the Major hangs on the far 
+wall, unbelievably untouched after  all these years.  As you take a
+closer look at the portrait a cold shiver runs down your spine. 
+You swear that Major's eyes are following you around the room!
+ 
+~
+136 9 0
+D3
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13762
+S
+#13764
+Fort Blue Creek~
+You are standing on the west side of the Fort alongside the 
+wall behind the Major's Office. There is a small window here 
+and you wipe away some dirt from the window to look inside.  
+You see a large desk with war plans spread all over it.  As 
+you peer around the room you see a frightening sight.  There 
+is a small candle burning on the desk.  This is even more 
+frightening than the foot!  
+~
+136 9 0
+D0                        
+Along the east wall.
+~
+~
+0 -1 13754
+D2                  
+Along the east wall.
+~
+~
+0 -1 13776
+S
+#13765
+Fort Parapet~
+You are standing on the east parapet circling the fort.  The 
+view of the area south of the Fort is breathtaking.  The smooth 
+sand of the desert varies from orange to ruby red across the 
+horizon.  You think that you would probably die crossing that 
+desert and you consider that irony of nature.
+~
+136 1 0
+D0                                           
+Along the parapet.
+~
+~
+0 -1 13755
+D2                
+Along the parapet.
+~
+~
+0 -1 13777
+S
+#13766
+dummy room~
+~
+136 0 0
+S
+#13767
+dummy room~
+~
+136 0 0 
+S
+#13768
+dummy room~
+~
+136 0 0
+S
+#13769
+dummy room~
+~
+136 0 0
+S
+#13770
+dummy room~
+~
+136 0 0
+S
+#13771
+Fort Parapet~
+You are standing on the parapet on the west side of the Fort.  
+The wind is quite blowy up here and you wonder how the 
+military personnel could stand being up here for hours at a 
+time keeping watch.
+~
+136 1 0
+D0                 
+Along the parapet.
+~
+~
+0 -1 13759
+D2                
+Along the parapet.
+~
+~
+0 -1 13783
+S
+#13772
+Fort Blue Creek~
+You are standing on the west side of the old Military Fort 
+along the wall.  Further east and a little south you can see 
+the old military stable. To the north of the stable is a 
+building that once was a fine erection, but since has rotted 
+almost right through.                                            
+~
+136 9 0
+D0            
+Along the wall of the Fort.
+~
+~
+0 -1 13760
+D1         
+Along the wall of the Fort.
+~
+~
+0 -1 13773
+D2                        
+The Interior of the Fort.
+~
+~
+0 -1 13778
+S
+#13773
+Fort Blue Creek~
+You are standing in the middle of the Blue Creek Fort.  There 
+are the remains of a large rodent decomposing on the ground at 
+your feet.  The smell is nauseating and you notice that the 
+remains seem to have been dismembered.  Looking into the sky 
+you notice a large buzzard circling in the sky.
+~
+136 9 0
+D0                                             
+The center of the Fort.
+~                                              
+~
+0 -1 13761
+D1                     
+The center of the Fort.
+~
+~
+0 -1 13774
+D2                     
+The south wall of the Fort.
+~
+~
+0 -1 13779
+D3                         
+The west wall of the Fort.
+~
+~
+0 -1 13772
+S
+#13774
+Fort Blue Creek~
+You are standing in the middle of the old Fort right next to 
+the Stable.  You can see in the small window of the stable.  
+It is small and clean, except for some animal droppings that 
+have built up over the years.  To the north you can see the 
+Major's Office and further north an old decaying wagon.
+~
+136 9 0
+D0                                                      
+In front of the Major's Office.
+~
+~
+0 -1 13762
+D2                             
+In front of the Stables.
+~
+~
+0 -1 13780
+D3                      
+The west end of the Fort, just before the wall.
+~
+~
+0 -1 13773
+S
+#13775
+Fort Stables~
+You are standing in the stables within the fort, the area is 
+small but there are many spaces to tie a horse.  Rows of feed 
+bins line the walls from end to end.  Old straw covers the 
+floor - it is musty and warm from combustion.  This place is a 
+fire hazard. 
+~
+136 9 0
+D1          
+The east end of the Stable.
+~
+~
+0 -1 13776
+D2                         
+The south end of the Stable.
+~
+~
+0 -1 13781
+S
+#13776
+Fort Stables~
+You are standing in the easternmost section of the Stables.  There's a
+hole in the wall from which an eerie sound emanates.  H-a-a-a-a-a-h! 
+H-a-a-a-a-a-h! It sounds like the labored breath of an old lady.
+Since entering this town you have experienced a great deal of 
+unexplained phenomena.
+~
+136 9 0
+D0                    
+The northeast room of the stable.
+~
+~
+0 -1 13764
+D2                               
+The southeast room of the stable.
+~
+~
+0 -1 13782
+D3                               
+The entrance to the Stable.
+~
+~
+0 -1 13775
+S
+#13777
+Fort Parapet~
+You are standing on the Parapet that surrounds the Fort.  You 
+can see in all directions around the Fort and the Town.  You 
+can see in the distance in the west a small graveyard that the 
+gallows back onto.  There are a unusual number of graves in 
+this graveyard for a town so small.
+~
+136 1 0
+D0
+Along the parapet.
+~
+~
+0 -1 13765
+D2  
+Along the parapet.
+~
+~
+0 -1 13787
+S
+#13778
+Fort Blue Creek, southwest corner~
+You are standing on the south side of the old Military Fort 
+along the wall.  Further along the wall east you can see the 
+the old stable used to house all the fine military steeds.  To 
+the north of the stable is a fine building with a sign that 
+says "Office".                                              
+~
+136 9 0
+D0  
+Along the west wall of the Fort.
+~
+~
+0 -1 13772
+D1                              
+The interior of the Fort.
+~
+~
+0 -1 13779
+D4                       
+Up onto the Parapet.
+~
+~
+0 -1 13783
+S
+#13779
+Fort Blue Creek Sleeping Quarters~
+You are standing under an annex in the Fort.  There are dozens 
+of hammocks hanging from poles and blowing in the gusty wind.  
+The hammocks are moth eaten and smell of rotting material.  
+You wouldn't try and sleep in one of these.  You would probably 
+fall to the ground. 
+~
+136 9 0
+D0                 
+The interior of the Fort.
+~
+~
+0 -1 13773
+D1                       
+Along the south wall of the Fort in Tack Room.
+~
+~
+0 -1 13780
+D3                               
+Along the south wall of the Fort.
+~
+~
+0 -1 13778
+S
+#13780
+Fort Blue Creek~
+You are standing on the southernmost wall of the old fort.  To 
+the east are the old military stables.  Further north is the 
+Major's Office.  The high walls surround you on every side, 
+the only exit from this fort is in the west wall.  There is 
+scattered debris on the ground from a war fought long ago.
+~
+136 9 0
+D0                                                        
+Before the Major's Office.
+~                         
+~
+0 -1 13774
+D1                        
+The Military Stables.                                
+~
+~
+0 -1 13781
+D3                   
+Along the Fort wall.
+~
+~
+0 -1 13779
+S
+#13781
+Fort Tack Room~
+You are standing in the Military Tack room.  All around you 
+there are dozens of military issue bridles and saddles.  The 
+bridles are lined up along the wall perfectly aligned and in 
+their day probably perfectly polished.  There are brushes and 
+combs and hoof picks stacked neatly on a shelf.  You wonder 
+how the troops could have ridden out of this town without 
+their bridles and saddles. You can see the stables to your 
+north and east.
+~
+136 9 0
+D0             
+The Fort Stables.
+~
+~
+0 -1 13775
+D1               
+The Fort Stables.
+~
+~
+0 -1 13782
+D3               
+Along the south wall.
+~
+~
+0 -1 13780
+S
+#13782
+Fort Blue Creek, southeast corner (stables)~
+You are standing in a wide open area of the Stables.  There are 
+posts for tying horses while they are being saddled.  Broken 
+water pails litter the floor.  Light streams in from the roof 
+that seems to have been burnt in a fire.  The walls are black 
+with soot and don't look very sturdy.
+~
+136 9 0
+D0                                   
+Along the east wall outside the Stables.
+~                                    
+~
+0 -1 13776
+D3                                      
+Inside the Stables.
+~
+~
+0 -1 13781
+D4                 
+Up onto the Parapet.
+~
+~
+0 -1 13787
+S
+#13783
+Fort Tower(southwest)~
+You are standing in the Fort Tower that marks the corner of 
+the parapet.  From here you can see into the roof of the old 
+stables.  It looks as if a burning arrow had been shot from 
+the eastern side hitting the roof of the stable and starting 
+the fire.  There are a number of water pails strewn around the 
+surrounding area of the stable.  
+~
+136 1 0
+D0                  
+Along the Parapet.
+~
+~
+0 -1 13771
+D1                
+Along the Parapet.
+~
+~
+0 -1 13784
+D5                
+Down into the Fort.
+~
+~
+0 -1 13778
+S
+#13784
+Fort Parapet~
+You are standing on parapet on the south end of the Fort.  The 
+parapet continues to the east and in the west is the south 
+western tower.  Just outside the wall you can see stakes 
+poking out of the ground with scalps attached to the tops.  
+Most of the scalps are of short dark hair, but there are a 
+few longer ones.  Natives must have run rampant in the town 
+scalping men and woman alike.  No wonder it looks as if no one 
+ever moved out.  They didn't, they were KILLED!!
+~
+136 1 0
+D1                                                       
+Along the parapet.
+~
+~
+0 -1 13785
+D3                
+Along the parapet.
+~
+~
+0 -1 13783
+S
+#13785
+Fort Parapet~
+You are standing on the parapet on the southern end of the 
+Fort.  There are towers both to the east and the west.  You 
+have a good view of the whole Fort from here.  Over in the 
+east corner there is an old wagon that has lost a wheel.  In 
+the middle of the Fort there is a well that still looks to be 
+full of water.  There is a well built cabin on the east side 
+and next to it some stables.  From here you can see all the 
+spent gun casings sparkling in the sunlight.
+~
+136 1 0
+D1                
+Along the parapet.
+~
+~
+0 -1 13786
+D3                
+Along the parapet.
+~
+~
+0 -1 13784
+S
+#13786
+Fort Parapet~
+You are standing on the south end of the Fort on the parapet.  
+Just to the east is the tower that leads down into the 
+interior of the Fort.  Just outside the Fort there are rows 
+and rows of stakes with scalps attached to the tops.  You can 
+see huge blow flies buzzing around the scalps even from here.  
+One of the scalps belonged to a little girl by the looks of it 
+as it has long blond curls with pale blue ribbons tied to the 
+bottom.
+~
+136 1 0
+D1                
+Along the parapet.
+~
+~
+0 -1 13787
+D3                
+Along the parapet.
+~
+~
+0 -1 13785
+S
+#13787
+Fort Tower(southeast)~
+You are standing on the south eastern corner of the Fort 
+parapet.  You wonder what sort of tortures the people of this 
+town had to endure on the last days of their time on this 
+earth...  Or were they their last days?  You read somewhere that 
+those tortured souls that died a violent death never really 
+leave the earth, but spend endless days roaming their homes 
+as if they hadn't died, somehow not admitting to the death.  
+In view of what you have seen of this town you think it a 
+possibility.
+~
+136 1 0
+D0                
+Along the parapet.
+~
+~
+0 -1 13777
+D3                
+Along the parapet.
+~
+~
+0 -1 13786
+D5                
+Down into the Stables.
+~
+~
+0 -1 13782
+S
+#13788
+Preacher's Room~
+You are standing in the Preacher's room out back of the half 
+built church in the east end of town.  There is a small 
+mirror, a basin and a jug sitting on a table in the corner of 
+the room.  Hanging in a small wardrobe is a purple sash and 
+black robe.  On the chair in the middle of the room is a small 
+goblet and an empty bottle of red wine.
+~
+136 9 0
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||   ##   ||  |
+                       |  || ###### ||  |
+                       |  ||   ##   ||  |
+                       |  ||   ##   ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~       
+1 -1 13790
+S
+#13789
+Half Built Church~
+You are standing in the northwest corner of the old half 
+built church.  There are two rows of pews lined up all the way 
+down to the back of the church.  There is no roof on this 
+church which strikes you as quite strange.  But you figure 
+that rooves are pretty expensive, and with the Preacher dipping 
+into the sacrificial wine and all there can't be too much 
+money left over.  Specially with attendance being so low 
+lately which would have had an adverse affect on donations.
+~
+136 9 0
+D1
+The Half Built Church.   
+~
+~
+0 -1 13790
+D2                       
+The Half Built Church.   
+~
+~
+0 -1 13792
+S
+#13790
+Altar at Half Built Church~
+You are standing at the alter of a half built church.  You can 
+see right down the center of the church onto Little Rock 
+Street.  There are pews on either side of the aisle from one 
+end to the other.  Behind the altar there is a large crucifix 
+with the figure of Jesus nailed to it.  You look closer at the 
+likeness and realize that it is crying tears of blood.  Blood 
+drips onto the floor and starts gathering about your feet.
+~
+136 9 0
+D0
+                       ------------------
+                       |  ============  |
+                       |  ||   ##   ||  |
+                       |  || ###### ||  |
+                       |  ||   ##   ||  |
+                       |  ||   ##   ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------
+
+
+~
+door~
+1 -1 13788
+D1                       
+The Half Built Church.   
+~
+~
+0 -1 13791
+D2                       
+The Half Built Church.   
+~
+~
+0 -1 13793
+D3                               
+The Half Built church.
+~
+~
+0 -1 13789
+S
+#13791
+Half Built Church~
+You are standing in the northwest corner of an old half built 
+church.  There are pews spreading down the entire length of 
+the church.  You can see several small bibles and hymn books 
+scattered about the floor.  The books are tattered and yellow 
+and falling apart due to water damage from the open roof.                        
+~
+136 9 0
+D2                    
+The Half Built Church.
+~
+~
+0 -1 13794
+D3                    
+The Half Built Church.
+~
+~
+0 -1 13790
+S
+#13792
+Half Built Church~
+Although all the pews have already been erected there is no 
+roof on this church.  The windows on either side down the 
+length of the church are made from badly constructed stained 
+glass, but they are not without their charm. 
+~
+136 9 0
+D0                               
+The Half Built Church.
+~
+~
+0 -1 13789
+D1                    
+The center aisle of the Church.
+~
+~
+0 -1 13793
+S
+#13793
+Entrance to Half Built Church~
+        ..        ____                       ##                      ____
+       . |       / +  \                    ######                   /+ . \
+      .  |       |o x.|                      ##                     | o x|
+     .   |       |____|                      ##                     |____|
+    .    |                                 _____           
+   .     |                 ________________|   |___________________
+  .      |_______^________/                | + |                  /____^_____
+ .      .       _U_      /                 |___|                 //   _U_
+       .         |      /_______________________________________//     |
+      .         /|\     |______________________________________|/     /|\
+     .   (=========================)     .      . (==========================)
+    .    |                         |/|  .       . |                          |
+   .     |                         | | .        . |                          |
+  .      |_________________________|/|.         . ||------------------------||
+     (=========================)  || .          . (==========================|
+     |                         |/|  .           . |                          |
+     |                         | | .            . |                          |
+     |_________________________|/|.             . ||------------------------||
+~
+136 9 0
+D0                    
+The Half Built Church.
+~
+~
+0 -1 13790
+D1    
+The Half Built Church.
+~
+~
+0 -1 13794
+D2
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------                             
+
+
+~
+door~
+1 -1 13797
+D3                    
+The Half Built Church.
+~
+~
+0 -1 13792
+S
+#13794
+Half Built Church~
+You are standing in the back of the half built church.  Beside 
+you is a stained glass window.  The window is a picture of a sky 
+with beams of light streaming down to earth and a large hand 
+reaching down and cupping a sick child's face.  
+~
+136 9 0
+D0
+The front of the Church.
+~
+~
+0 -1 13791
+D3                      
+The center aisle of the Church.
+~
+~
+0 -1 13793
+S
+#13795
+Little Rock St~
+You are standing on the westernmost end of Little Rock Street 
+just before the old Church.  To the south in the distance you 
+can see a large graveyard.  The road continues east here to 
+the other side of town and crosses the main street.  There are 
+old rundown buildings all along the street on both sides. 
+~
+136 1 0
+D1                            
+Up Little Rock Street.
+~
+~
+0 -1 13796
+S
+#13796
+Little Rock St~
+You are standing on Little Rock Street on the west side of 
+town.  To the south you can see a well worn trail that leads 
+to the graveyard.  Just north you can SEE a small half built 
+Church. Further along the road to the south is the old gallows 
+that was used to hang all the naughty cowboys.
+~
+136 1 0
+D1                    
+Down Little Rock Street near the Church.
+~
+~
+0 -1 13797
+D2 
+Down a well worn trail.
+~
+~
+0 -1 13799
+D3                     
+Up Little Rock Street.
+~
+~
+0 -1 13795 
+E
+church half built~
+          
+ --------/\
+  /  /  /  \
+ ------/ ^^ \
+  O O  | || |
+       | || |
+-------------    
+~
+S      
+#13797
+Little Rock St. near Church~
+You are standing on Little Rock Street just out front of the 
+old half built church.  The road is rough beneath your feet 
+and you can see tufts of dry grass dead on the side of the 
+road and surrounding the church.  The wind blows dust about 
+your feet and up into your eyes.  
+~
+136 1 0
+D0                    
+                       ------------------
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       |              O |
+                       |  ============  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ||        ||  |
+                       |  ============  |
+                       ------------------                             
+~
+door~
+1 -1 13793
+D1  
+Up Little Rock Street.
+~
+~
+0 -1 13798
+D3                    
+Down Little Rock Street.
+~
+~
+0 -1 13796
+S
+#13798
+Little Rock St~
+You are standing on Little Rock Street on the west end of the 
+old deserted town.  Just ahead you can see a playground that 
+backs onto a small schoolhouse. To the south you can see an 
+old half built church.  The church has no roof.  Must have only 
+used it on fine days.
+~
+136 1 0
+D1 
+Down Little Rock Street.
+~
+~
+0 -1 13693
+D3                      
+Up Little Rock Street.
+~
+~
+0 -1 13797
+S
+#13799
+Well Worn Trail~
+You are standing on a well worn trail that leads to the 
+graveyard.  On either side of the road are rocks and long grass 
+that has grown wild and dried out in the hot sun.  To the 
+north is Little Rock Street that leads west into town.
+~
+136 1 0
+D0     
+Little Rock Street.
+~
+~
+0 -1 13796
+D2
+Down the well worn trail.
+~
+~
+0 -1 13803
+S
+#13800
+Near Gallows~
+You are standing before the Gallows on the open ground that 
+was once used for viewing hangings.  There is a noose hanging 
+from the gallows blowing in the wind.  The trap door is 
+swinging in the breeze making an eerie squeak.
+~
+136 1 0
+D0                       
+Little Rock Street.
+~
+~
+0 -1 13694
+D1                     
+Near the Gallows.
+~
+~
+0 -1 13801
+D2
+Near the Gallows.
+~
+~
+0 -1 13804
+S
+#13801
+Near Gallows~
+You are standing near the gallows just south the Little Creek 
+street.  Directly south are the gallows steps that lead to 
+the platform where many men were hung.  There is a strange 
+haze surrounding the gallows that makes them seem strangely 
+unreal.
+~
+136 1 0
+D0
+To Little Rock street.
+~
+~
+0 -1 13695
+D1               
+Near the Gallows.
+~
+~
+0 -1 13802
+D2
+Bottom of the Gallows Steps.
+~
+~
+0 -1 13805
+D3
+Near the Gallows.
+~
+~
+0 -1 13800
+S
+#13802
+Near Gallows~
+You are standing in a clearing just before the old gallows.  
+There is a path that leads south that follows all the way 
+then doubles back on the other side of the platform.  The 
+grass has overgrown and almost covered the entire trail but 
+you could probably make your way through. 
+~
+136 1 0
+D0
+Little Rock Street.
+~
+~
+0 -1 13696
+D2
+Near the Gallows.
+~
+~
+0 -1 13806
+D3
+Near the Gallows.
+~
+~
+0 -1 13801
+S
+#13803
+Well Worn Trail~
+Pebbles cover the ground here and larger rocks make the border between 
+the trail and the surrounding flora.  Small flowering plants have been 
+placed here as a tribute to those buried in the cemetery.  A number 
+of the small plants have withered and died in the summer heat, hardly 
+a fitting tribute.         
+~
+136 1 0
+D0
+The well worn trail approaching Little Rock Street.
+~
+~
+0 -1 13799
+D4
+Boot Hill.
+~
+~
+0 -1 13807
+S
+#13804
+Near Gallows~
+You are standing in a clearing just before the old gallows.  
+There is a path that leads south and bends around back of the 
+platform past an old tree.  The grass has overgrown and obscured 
+your view of the path ahead.
+~
+136 1 0
+D0
+Near the gallows.
+~
+~
+0 -1 13800
+D1
+Bottom of the gallows steps.
+~
+~
+0 -1 13805
+D2
+Beside the gallows.
+~
+~
+0 -1 13828
+S
+#13805
+Bottom of Gallows Steps~
+You are standing at the bottom of the gallows steps west of the old town.
+The steps are old and rotted, best you watch your step.  The clearing is   
+surrounded by high grass and weeds that obscure your view over into the
+graveyard in the west.  The gallows seem to be surrounded in an abnormal 
+haze that defies belief. 
+~
+136 1 0
+D0
+Near the gallows.
+~
+~
+0 -1 13801
+D1
+Near the gallows.
+~
+~
+0 -1 13806
+D3
+Near the gallows.
+~
+~
+0 -1 13804
+D4
+At the top of the gallows steps.
+~
+~
+0 -1 13809
+S
+#13806
+Near Gallows~
+You are standing just east of the stairs of the gallows.  At 
+your feet is a old piece of rope.  At one end of the rope it 
+has been made into a noose, the other end is frayed.  Must be 
+a spare piece.  To the east there is high grass obscuring your 
+view but in the distance you can see a large Fort. 
+~
+136 1 0
+D0
+Near the gallows.
+~
+~
+0 -1 13802
+D2
+Beside the gallows.
+~
+~
+0 -1 13830
+D3
+In front of the steps.
+~
+~
+0 -1 13805
+S
+#13807
+Boot Hill~
+You are climbing Boot Hill just before the graveyard.  The 
+path leads east and west through the graveyard.  The path 
+continues east up Boot Hill past the graveyard.  You can SEE a 
+small picket fence marking the area that contains many of the 
+town's dead.
+~
+136 1 0
+D2
+The gate leading to the graveyard path.
+~
+gate~
+1 -1 13813
+D5
+Down Boot Hill.
+~
+~
+0 -1 13803                                                  
+E
+fence picket~
+          /\            /\            /\           /\
+          ||            ||            ||           ||
+         _||____________||\           ||___________||_
+         -||------------||\ \         ||-----------||-
+         _||____________||__\_\_______||___________||_
+         -||------------||----\ \-----||-----------||-
+          ||            ||      \ \   ||           ||
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+~
+S
+#13808
+On Gallows Platform~
+You are standing on the platform on top of the gallows. There is a frayed
+noose swinging in the breeze, there is some hair intertwined into the knot.
+This sight mortifies you, just at that moment you feel as if a swarm of moths
+are let loose in your stomach.  In the distance you hear a chilling war cry 
+but seconds later you put it down to the wind, or at least that's what you try 
+and convince yourself it was..
+~
+136 1 0
+D1
+In front of the noose.
+~
+~
+0 -1 13809
+D2
+On the platform.
+~
+~
+0 -1 13818
+S
+#13809
+At Top of Gallows Steps~
+You are standing on the platform at the top of the gallows steps 
+right in front of the hangman's noose.  There is a trap door 
+right to the south.  You sense the panic that the condemned 
+must have felt in the few seconds before the trap was sprung.    
+~
+136 1 0
+D1                                     
+On the platform.
+~
+~
+0 -1 13810
+D2
+On the trap door.
+~
+~
+0 -1 13819
+D3               
+On the platform.
+~
+~
+0 -1 13808
+D5              
+Beneath the platform.
+~
+~
+0 -1 13805
+S
+#13810
+On Gallows Platform~
+You are standing on the old gallows platform just west of the 
+old town.  There is a hill to the east with a large graveyard 
+surrounded by an old picket fence.  The headstones are faded 
+and a number of them are falling over.  That must be where 
+they buried the dead after the hanging.
+~
+136 1 0
+D2                                     
+Next to the Noose.
+~
+~
+0 -1 13820
+D3                
+In front of the Noose.
+~
+~
+0 -1 13809
+S
+#13811
+Graveyard Path~
+You are traveling along the east path of the old graveyard.  
+You can SEE headstones of people who died long ago, each 
+tablet a tribute to the lives of those who lie beneath.
+~
+136 1 0
+D1             
+Along graveyard path towards gate.
+~
+~
+0 -1 13812                                             
+D2                                                     
+Further into the graveyard.
+~
+~
+0 -1 13821 
+E
+gravestones grave graves stones headstones~
+
+
+                 ,-=-.       ______     _
+                /  +  \     />----->  _|1|_
+                |     |    // -/- /  |_ H _|
+                |R.I.P|   //  /  /     |S|
+            vV,,|_____|V,//_____/VvV,v,|_|/,,VvVv
+~                                                     
+S
+#13812
+Graveyard Path~
+Your are standing on the graveyard path just west of the small 
+gate.  All around you can gravestones of differing sizes 
+desecrated by the harsh elements of the desert.  Beside you is 
+a small headstone marking the grave of a newborn child.  Beside it 
+is the child's mother who died on the same day in childbirth. 
+~
+136 1 0
+D1     
+The graveyard gate.
+~
+~
+0 -1 13813
+D3                 
+The corner of the Graveyard.
+~
+~
+0 -1 13811                                            
+E
+gravestones grave graves stones headstones~
+
+
+                 ,-=-.       ______     _
+                /  +  \     />----->  _|1|_
+                |     |    // -/- /  |_ H _|
+                |R.I.P|   //  /  /     |S|
+            vV,,|_____|V,//_____/VvV,v,|_|/,,VvVv
+~                                                     
+S                                                     
+#13813
+Graveyard Path~
+You are standing just inside a graveyard west of the old 
+deserted town.  The path continues east and west of here 
+around the graveyard.  The graveyard is surrounded by a rustic 
+picket fence that can only roughly be considered upright.
+~
+136 1 0
+D0
+Out of the graveyard.~
+gate~
+1 -1 13807
+D1                                                       
+The path east.
+~
+~
+0 -1 13814
+D3            
+The path west.
+~
+~
+0 -1 13812                                            
+E
+gravestones grave graves stones headstones~
+
+
+                 ,-=-.       ______     _
+                /  +  \     />----->  _|1|_
+                |     |    // -/- /  |_ H _|
+                |R.I.P|   //  /  /     |S|
+            vV,,|_____|V,//_____/VvV,v,|_|/,,VvVv
+~                                                     
+S
+#13814
+Graveyard Path~
+You are standing on a path that leads east around the graveyard.  Just east
+of here is the corner of the graveyard where a paling has fallen away 
+from the fence. Just in front of you is a large gravestone bearing the name    
+of Paul Livermore, he died at the age of 27 from a snake bite.
+~
+136 1 0
+D1              
+The path east.
+~
+~
+0 -1 13815
+D3         
+The path west.
+~
+~
+0 -1 13813                                            
+E
+gravestones grave graves stones headstones~
+
+
+                 ,-=-.       ______     _
+                /  +  \     />----->  _|1|_
+                |     |    // -/- /  |_ H _|
+                |R.I.P|   //  /  /     |S|
+            vV,,|_____|V,//_____/VvV,v,|_|/,,VvVv
+~                                                     
+S
+#13815
+Graveyard Path~
+You are standing on the east corner of the graveyard.  There is a broken 
+fence to the east, there is a small path leading away from the fence.
+The graveyard path leads south from here past some graves.
+~
+136 1 0
+D1            
+Over the fence.
+~
+~
+0 -1 13816
+D2             
+Down the west path.
+~
+~
+0 -1 13824
+D3                 
+West along path.
+~
+~
+0 -1 13814     
+E
+fence picket~
+          /\            /\            /\           /\
+          ||            ||            ||           ||
+         _||____________||\           ||___________||_
+         -||------------||\ \         ||-----------||-
+         _||____________||__\_\_______||___________||_
+         -||------------||----\ \-----||-----------||-
+          ||            ||      \ \   ||           ||
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+~
+S
+#13816
+Next to fence outside of Graveyard~
+You are standing just outside the old graveyard on Boot Hill 
+just outside of the old town.  There is a small path that leads 
+up the hill to the east to a bend.  Just to the west is a 
+broken fence that marks the boundary of the graveyard.
+~
+136 1 0
+D1               
+Up Boot Hill
+~
+~
+0 -1 13817
+D3          
+Into Graveyard.
+~
+~
+0 -1 13815                                            
+E
+fence picket~
+          /\            /\            /\           /\
+          ||            ||            ||           ||
+         _||____________||           /||___________||_
+         -||------------||         / /||-----------||-
+         _||____________||_______/_/__||___________||_
+         -||------------||------------||-----------||-
+          ||            ||    / /     ||           ||
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+~
+
+S
+#13817
+Path Up Boot Hill~
+You are traveling up a path that leads to the top of Boot 
+Hill just west from the old town.  You have to fight your way 
+though overgrown weeds and grass to make your way to the top.  
+Prickles and thorns pierce your skin through your clothes.  Your
+hands sting with every puncture.
+~
+136 1 0
+D2                                                    
+Up Boot Hill
+~
+~
+0 -1 13825
+D3          
+Down Boot Hill.
+~
+~
+0 -1 13816                                            
+S
+#13818
+On Gallows Platform~
+You are standing on the gallows platform right next to the 
+noose.  To the east you can see the trap door that was sprung 
+to end a man's life.  There is a noose hanging from the 
+crossbar swinging in the breeze.
+~
+136 1 0
+D0             
+On Platform.
+~
+~
+0 -1 13808
+D1          
+Trap Door.
+~
+~
+0 -1 13819
+S
+#13819
+On Gallows Trapdoor~
+You are standing on the trap door just below the noose.  There 
+is some hair intertwined into the knot of the noose.  The trap 
+door is stained with urine and feces from those who have come 
+to a traumatic end of their life. 
+~
+136 1 0
+D0        
+Before the Noose.
+~
+~
+0 -1 13809
+D1               
+Beside the Trap Door.
+~
+~
+0 -1 13820
+D3                   
+Beside the Trap Door.
+~
+~
+0 -1 13818
+D5                   
+Trap Door.
+~
+door trap trapdoor~
+1 -1 13829
+S
+#13820
+On Gallows Platform~
+You are standing just east of the trap door to the gallows.  
+There is a noose made from an old piece of rope suspended from 
+a wooden gallows.
+~
+136 1 0
+D0       
+In front of noose.
+~
+~
+0 -1 13810
+D3                
+On trap door.
+~
+~
+0 -1 13819
+S
+#13821
+Graveyard Path~
+You are standing on the west path through the old graveyard.  
+There is a small picket fence surrounding the graveyard.  At 
+your feet you see a large ornate headstone.  It tells of a man 
+named Fred Sorbone, a man who died of a fall from his horse. 
+~
+136 1 0
+D0           
+Corner of the Graveyard.
+~
+~
+0 -1 13811
+D1                      
+A grave.
+~
+~
+0 -1 13822
+D2                 
+Along Graveyard path.
+~
+~
+0 -1 13832
+E
+grave yard graveyard stones~
+
+
+              ,-=-.       ______     _
+             /  +  \     />----->  _|1|_
+             | --- |    // -/- /  |_ H _|
+             |R.I.P|   //  /  /     |S|
+        \vV,,|_____|V,//_____/VvV,v,|_|/,,vhjwv/,   
+~
+S
+#13822
+At a Grave~
+You are standing where Sally the Seamstress was put to rest.  
+If you look you can see her headstone, it is made from marble 
+and is one of the few that is still standing upright.  
+Sally, wife of Harry, died of tetanus she contracted from a needle
+prick.  You are standing on the concrete slab that cases the tomb.                  
+~
+136 1 0
+D3      
+Graveyard Path.
+~
+~
+0 -1 13821
+D5  
+The concrete slab.
+~
+slab concrete~
+1 -1 13831
+E
+graveyard stone grave head headstone~
+                    _______
+                  /_______ `.
+                 ,'  ^@@^  `. \
+                /   SALLY   \ \
+               /    _|1|_    \ \
+               | ^ |_ H _| ^ | |
+               |     |s|     | |
+               |     |_|     | |
+               |  _  ___  _  | |
+               | |_)  |  |_) | |
+               | | \ _|_ |   | |
+      vV,,V\\Vv|_____________|,vVv/,Vvhjwv,/
+      
+~
+S
+#13823
+At a Grave~
+You are at the grave of John the Blacksmith.  You are standing 
+on the concrete slab that cases his tomb.  John died at the 
+tender age of 40 from a kick to the head from a customer's wild horse.
+There are dried flower stems wedged in-between the headstone 
+and concrete slab, from a floral offering made years ago.                          
+~
+136 1 0
+D1           
+The graveyard path.
+~
+~
+0 -1 13824                                     
+E
+graveyard stone grave~
+                    _______
+                  /_______ `.
+                 ,'  ^@@^  `. \
+                /    JOHN   \ \
+               /    _|1|_    \ \
+               | ^ |_ H _| ^ | |
+               |     |s|     | |
+               |     |_|     | |
+               |  _  ___  _  | |
+               | |_)  |  |_) | |
+               | | \ _|_ |   | |
+      vV,,V\\Vv|_____________|,vVv/,Vvhjwv,/
+      
+~         
+S
+#13824
+Graveyard Path~
+You are standing on the east path as it passes the 
+gravestones.  Weeds desecrate the final resting places of the 
+townspeople.  You can see a small unmarked grave at your feet 
+which is nothing more than a small pile of dirt.  To the west 
+is a large grave with a concrete slab.
+~
+136 1 0
+D0 
+Corner of the Graveyard.
+~
+~
+0 -1 13815
+D2        
+Along Graveyard path.
+~
+~
+0 -1 13835
+D3                   
+At a Grave.
+~
+~
+0 -1 13823
+E
+graveyard stone grave~
+                    _______
+                  /_______ `.
+                 ,'  ^@@^  `. \
+                /    SAM    \ \
+               /    _|1|_    \ \
+               | ^ |_ H _| ^ | |
+               |     |s|     | |
+               |     |_|     | |
+               |  _  ___  _  | |
+               | |_)  |  |_) | |
+               | | \ _|_ |   | |
+      vV,,V\\Vv|_____________|,vVv/,Vvhjwv,/
+      
+~
+S
+#13825
+Path~
+You are standing on the path leading up Boot Hill.  The path 
+continues to the east here and then inclines.  The thorns and 
+thick foliage inhibits your progress up the hill.  Burrs and 
+prickles embed themselves into your clothes and hair creating 
+a collection of excruciating cuts and gashes to your flesh.
+~
+136 1 0
+D0        
+Back down Boot Hill.
+~
+~
+0 -1 13817
+D1                  
+Path up Boot Hill.
+~
+~
+0 -1 13826
+S
+#13826
+Path~
+You are standing on the small overgrown path that can hardly 
+be called a path as the vegetation is so thick it is a struggle 
+to push your way through it.  You can just see the top of the 
+hill from here.  There is a large dead tree with nothing 
+special about it.  You wonder why you are bothering.
+~
+136 1 0
+D3           
+Down Boot Hill.
+~
+~
+0 -1 13825
+D4    
+Up Boot Hill.
+~
+~
+0 -1 13827
+S
+#13827
+Almost at the Top of the Hill~
+You are standing near the top of Boot Hill.  You can see a 
+clearing with an old dead tree standing in the middle of it.  
+The bushes seem to be thinning out now as it becomes easier to 
+make your way through.  The path down the hill seems to have 
+covered its self over as you pass though.  You wonder if you 
+can make your way down again.
+~
+136 1 0
+D4             
+Up Boot Hill.
+~
+~
+0 -1 13836
+D5           
+Down Boot Hill.
+~
+~
+0 -1 13826
+S
+#13828
+Beside the Gallows Platform~
+You are standing at the back of the gallows.  From here to the 
+east you can see the trap door.  On the ground beneath the trap 
+door there is a bucket of wax with a brush embedded in the wax.  
+There is a knife beside the bucket and the remains of a small 
+fireplace that was used to heat the wax.
+~
+136 1 0
+D0             
+Before the gallows.
+~
+~
+0 -1 13804
+D1                 
+Underneath the gallows.
+~
+~
+0 -1 13829
+S
+#13829
+Underneath the Gallows Platform~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+        Aren't you glad you didn't try on the noose for size. 
+ You are beneath the trap door.  There is a small bucket of 
+wax and the remains of a condemned man.  The wax must have 
+been used to make a DEATH MASK of the hung criminals.
+~
+136 1 0
+D1        
+Beside the gallows.
+~
+~
+0 -1 13830
+D3                 
+Beside the gallows.
+~
+~
+0 -1 13828
+S
+#13830
+Beside the Gallows Platform~
+You are standing beside the old gallows to the west of town.  
+Just to the west you can see the trap door to the gallows.  
+You shiver to think of all the men and women who were lynched 
+here.  On the ground beneath the trap door is a bucket of wax 
+and a small fireplace. You see in the corner a pile of human 
+remains.
+~
+136 1 0
+D0          
+Before the gallows.
+~
+~
+0 -1 13806
+D3                 
+Underneath the gallows.
+~
+~
+0 -1 13829
+S
+#13831
+In a Grave~
+You are inside a grave.  It's dark, cramped and deathly 
+quiet.  The walls are crumbling and caving in on you.  You are 
+suddenly feeling very claustrophobic.  You don't know what you 
+were thinking climbing into this grave.
+~
+136 1 0
+D4
+You see a concrete slab.
+~
+slab concrete~
+1 -1 13822
+S
+#13832
+Graveyard Path~
+You are standing on the west path around the graveyard.  There 
+are graves all the way down the length of the small picket 
+fence.  Just in front of you is a small unmarked grave that is 
+no more than a pile of dirt with rocks marking its boundary.  
+There is no way to tell who is buried here. 
+~
+136 1 0
+D0                      
+Along path heading out of graveyard.
+~
+~
+0 -1 13821
+D1                                  
+A grave.
+~
+~
+0 -1 13833
+D2      
+Along the graveyard path.
+~
+~
+0 -1 13839
+S
+#13833
+At a Grave~
+You are standing before the place that the Deputy was put to 
+rest.  He died at a the young age of 24 from a gun shot wound 
+he sustained in the line of duty.  Placed next to the 
+headstone is a modest wedding ring placed here by his adoring 
+widow.
+~
+136 1 0
+D3                       
+The graveyard path.
+~
+~
+0 -1 13832
+D5
+A concrete slab.
+~
+slab concrete~
+1 -1 13837
+E
+headstone head graveyard stone grave~
+                    _______
+                  /_______ `.
+                 ,'  ^@@^  `. \
+                /   DEPUTY  \ \
+               /    _|1|_    \ \
+               | ^ |_ H _| ^ | |
+               |     |s|     | |
+               |     |_|     | |
+               |  _  ___  _  | |
+               | |_)  |  |_) | |
+               | | \ _|_ |   | |
+      vV,,V\\Vv|_____________|,vVv/,Vvhjwv,/
+      
+~
+S
+#13834
+At a Grave~
+You are standing before the grave of Major Dobbs.  His 
+headstone which is of standard military issue bears the 
+acknowledgment of his many years of service to his country.  
+Major Dobbs died a noble death in an almighty battle against 
+native aggression. At your feet is a concrete slab that cases
+his tomb.                  
+~
+136 1 0
+D1
+The graveyard path.
+~
+~
+0 -1 13835
+D5
+A concrete slab.
+~
+slab concrete~
+1 -1 13838
+E
+graveyard stone grave~
+                    _______
+                  /_______ `.
+                 ,'  ^@@^  `. \
+                /   MAJOR   \ \
+               /    _|1|_    \ \
+               | ^ |_ H _| ^ | |
+               |     |s|     | |
+               |     |_|     | |
+               |  _  ___  _  | |
+               | |_)  |  |_) | |
+               | | \ _|_ |   | |
+      vV,,V\\Vv|_____________|,vVv/,Vvhjwv,/
+      
+~
+S
+#13835
+Graveyard Path~
+You are standing on the east path along the fence line of the 
+graveyard.  There are graves to the west of you all the way 
+down the path.  You can see here the grave of Takiness, she died 
+frothing at the mouth in a psychopathic rage where she 
+swallowed her own tongue.
+~
+136 1 0
+D0              
+Along graveyard path.
+~
+~
+0 -1 13824
+D2                   
+Along graveyard path.
+~
+~
+0 -1 13842
+D3                   
+A grave.
+~
+~
+0 -1 13834
+S
+#13836
+Top of the Hill~
+You are standing in a small clearing at the top of Boot Hill. 
+This is the highest point of the whole town.  You can see for 
+miles around.  Over to the east you can see Fort Blue Creek.  
+Just north of there is an old dirt road that separates the 
+north and south ends of the old town.  There are a pack of 
+vultures flying circling over your head.  The path down the 
+hill is seemingly non-existent now, only a few broken twigs 
+mark the path you traveled up the hill.
+~
+136 1 0
+D5      
+Down Boot Hill.
+~
+~
+0 -1 13827
+S
+#13837
+In a Grave~
+You are standing inside an old grave.  The grave reeks of 
+death and decay.  You stand in petrified silence as the 
+concrete slab closes over the top of you.  You wonder what 
+morbid fascination lead you to enter this tomb. 
+~
+136 1 0
+D4       
+A concrete slab.
+~
+slab concrete~
+1 -1 13833
+S
+#13838
+In a Grave~
+You are standing inside the old grave.  It is small and cramped and you
+wonder what possessed you to enter this tomb.  It is dark and you can
+smell the obvious odour of decay.  As you wait for your eyes to adapt
+to the darkness the slab of concrete closes over your head.
+~
+136 1 0
+D4           
+A concrete slab.
+~
+slab concrete~
+1 -1 13834
+S
+#13839
+Graveyard Path~
+You are standing near the end of the graveyard path.  there are graves
+all around you.  There is a fence to your left that runs the length of
+the graveyard and encircles it.  Just at your feet is a headstone that
+belongs to Doc More, who died after contracting Yellow Fever from one
+of his patients.  Doc More died at the age of 66.
+~                                                          
+136 1 0
+D0
+Along graveyard path.
+~
+~
+0 -1 13832
+D1
+~
+~
+0 -1 13840
+S
+#13840
+At a Grave~
+You are standing at the grave of Gus the Farmer.  Beneath your feet is a
+large concrete slab that covers the grave. The headstone has crumbled and
+has dead flowers scattered about around its base.  Farmer Gus died in an
+unfortunate farming accident where he fell in front of a moving plow.
+~
+136 1 0
+D3              
+Along Graveyard path.
+~
+~
+0 -1 13839
+D5           
+A concrete slab.
+~
+slab concrete~
+1 -1 13850                                  
+E
+graveyard stone grave~
+                    _______
+                  /_______ `.
+                 ,'  ^@@^  `. \
+                /    GUS    \ \
+               /    _|1|_    \ \
+               | ^ |_ H _| ^ | |
+               |     |s|     | |
+               |     |_|     | |
+               |  _  ___  _  | |
+               | |_)  |  |_) | |
+               | | \ _|_ |   | |
+      vV,,V\\Vv|_____________|,vVv/,Vvhjwv,/
+~
+S
+#13841
+At a Grave~
+You are standing at the grave of the Sheriff. He died in a large gun battle
+many years ago after the bank was robbed.  Beneath your feet is the large
+concrete slab that covers his grave.  There are no flowers about the grave
+only an old noose at the base of the grave.
+~
+136 1 0
+D1     
+Along graveyard path.
+~
+~
+0 -1 13842
+D5  
+A concrete slab.
+~
+slab~
+1 -1 13851                                  
+E
+graveyard stone grave~
+                    _______
+                  /_______ `.
+                 ,'  ^@@^  `. \
+                /  SHERIFF  \ \
+               /    _|1|_    \ \
+               | ^ |_ H _| ^ | |
+               |     |s|     | |
+               |     |_|     | |
+               |  _  ___  _  | |
+               | |_)  |  |_) | |
+               | | \ _|_ |   | |
+      vV,,V\\Vv|_____________|,vVv/,Vvhjwv,/      
+~
+S
+#13842
+Graveyard Path~
+You are standing near the end of the east path of the graveyard.  There is
+a small picket fence to the east that surrounds the graveyard.  There is
+a grave just to your west and at your feet there is a grave of Mrs Doober
+the teacher in the local school.  She tripped on an apple and fell over
+and broke her neck at the tender age of 23.
+~
+136 1 0
+D0
+Along Graveyard path.
+~
+~
+0 -1 13835
+D3                   
+A grave.
+~
+~
+0 -1 13841
+S
+#13843
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and west from here.
+~
+136 1 0
+D1      
+A dark tunnel.
+~
+~
+0 -1 13844
+D2            
+A dark tunnel. 
+~
+~
+0 -1 13849
+S
+#13844
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The ground is moist and you can smell the faint smell
+of decay.  The walls are crumbling around you, best that you keep moving
+as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and west from here.
+~
+136 1 0
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13845
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13843
+S
+#13845
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and west from here.
+
+~
+136 1 0
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13846
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13844
+S
+#13846
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and west from here.
+
+~
+136 1 0
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13847
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13845
+S
+#13847
+Dead end~
+You are standing at the dead end of the tunnel.  The area ahead has not
+been dug out.  You wonder who could have dug this tunnel and why did they
+stop.  You find it impossible to turn around and fear that you might have
+to back out of the space.
+~
+136 1 0
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13846
+D4  
+~
+hatch~
+1 -1 13721
+S
+#13848
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and south from here.
+
+~
+136 1 0
+D1          
+A dark tunnel. 
+~
+~
+0 -1 13849
+D2             
+A dark tunnel. 
+~
+~
+0 -1 13855
+S
+#13849
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and north from here.
+
+~
+136 1 0
+D0             
+A dark tunnel. 
+~
+~
+0 -1 13843
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13848
+S
+#13850
+In a Grave~
+You are in a small cramped grave.  The concrete slab closes over your head
+and you try and grasp at the sides and climb out before it leaves you
+trapped.  The walls of the grave crumble, you can't get a firm grip.
+As you look down you can see the lid to a coffin.
+~
+136 1 0
+D4           
+A slab of concrete.
+~
+slab concrete~
+1 -1 13840
+D5        
+The lid to a coffin.
+~
+lid coffin~
+1 -1 13857
+S
+#13851
+In a Grave~
+You are standing in a cramped grave at the end of the graveyard.  You are
+overpowered by the nauseating smell of death and decay.  Beneath your feet
+is the wooden lid of the coffin that houses the corpse.  Before you can
+exit the grave the concrete slab closes over your head.
+~
+136 1 0
+D2                  
+A dark tunnel. 
+~
+~
+0 -1 13852
+D4             
+A concrete slab.
+~
+slab concrete~
+1 -1 13841
+S
+#13852
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues south
+from here. 
+~
+136 1 0
+D0           
+In a grave.
+~
+~
+0 -1 13851
+D2         
+A dark tunnel. 
+~
+~
+0 -1 13859
+S
+#13853
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and south from here.
+~
+136 1 0
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13854
+D2             
+A dark tunnel. 
+~
+~
+0 -1 13861
+S
+#13854
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues south
+and west from here.
+
+~
+136 1 0
+D2             
+A dark tunnel. 
+~
+~
+0 -1 13862
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13853
+S
+#13855
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues north
+and south from here.
+
+~
+136 1 0
+D0             
+A dark tunnel. 
+~
+~
+0 -1 13848
+D2             
+A dark tunnel. 
+~
+~
+0 -1 13863
+S
+#13856
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breath.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and south from here.
+
+~
+136 1 0
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13857
+D2             
+A dark tunnel. 
+~
+~
+0 -1 13864
+S
+#13857
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and west from here.
+
+~
+136 1 0
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13858
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13856
+D4        
+The lid to a coffin.
+~
+lid coffin~
+1 -1 13850
+S
+#13858
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and west from here.
+
+~
+136 1 0
+D1                  
+A dark tunnel. 
+~
+~
+0 -1 13859
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13857
+S
+#13859
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues north,
+east and west from here.
+
+~
+136 1 0
+D0             
+A dark tunnel. 
+~
+~
+0 -1 13852
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13860
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13858
+S
+#13860
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east,
+west and south from here.
+
+~
+136 1 0
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13861
+D2             
+A dark tunnel. 
+~
+~
+0 -1 13867
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13859
+S
+#13861
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues north
+and west from here.
+
+~
+136 1 0
+D0             
+A dark tunnel. 
+~
+~
+0 -1 13853
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13860
+S
+#13862
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and north from here.
+~
+136 1 0
+D0             
+A dark tunnel. 
+~
+~
+0 -1 13854
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13863
+S
+#13863
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues north
+and west from here.
+~
+136 1 0
+D0             
+A dark tunnel. 
+~
+~
+0 -1 13855
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13862
+S
+#13864
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and north from here.
+
+~
+136 1 0
+D0             
+A dark tunnel. 
+~
+~
+0 -1 13856
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13865
+S
+#13865
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and west from here.
+
+~
+136 1 0
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13866
+D3             
+A dark tunnel. 
+~
+~
+0 -1 13864
+S
+#13866
+Dark Tunnel (DEAD END)~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel goes no further
+than here..
+
+~
+136 1 0
+D3                    
+A dark tunnel. 
+~
+~
+0 -1 13865
+S
+#13867
+Dark Tunnel~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel continues east
+and west from here.
+~
+136 1 0
+D0             
+A dark tunnel. 
+~
+~
+0 -1 13860
+D1             
+A dark tunnel. 
+~
+~
+0 -1 13868
+S
+#13868
+Dark Tunnel (DEAD END)~
+You are standing in a dark tunnel. The air is thin and you are finding it
+very hard to breathe.  The walls are crumbling around you, best that you
+keep moving as the walls might cave in and leave you buried alive!
+You feel around with your hands and find that the tunnel ends here and
+the only way out is the way you came.
+
+~
+136 1 0
+D3                    
+A dark tunnel. 
+~
+~
+0 -1 13867
+S
+$~
+ 
+
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

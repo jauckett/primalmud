@@ -1,0 +1,259 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.43;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#2001
+cross crystal~
+a Titanium Cross.~
+A Titanium Cross lies here~
+~
+9 3137 5 0
+6 0 0 0
+5 20000 2000 28
+L 28
+E
+cross crystal~
+A Titanium cross covered with large sapphire stones.
+~
+A
+24 10
+A
+14 20
+#2002
+belt crystal~
+a Crystal Belt.~
+A crystal belt lies here.~
+~
+9 1537 2049 0
+4 0 0 0
+10 45000 6500 25
+L 25
+E
+crystal belt~
+A HUGE belt made of pure gold.
+~
+A
+13 20
+A
+1 2
+A
+2 -1
+A
+9 5
+#2003
+helmet hat crystal~
+a Crystal Chef's Hat.~
+A crystal chef's hat lies here.~
+~
+9 1665 17 0
+4 0 0 0
+10 11000 1100 20
+L 20
+E
+A Crystal Chef's Hat.~
+The Hat looks like a normal Chef's hat but is made from Crystal.~
+A
+5 1
+A
+12 20
+A
+19 1
+#2004
+wine crystal glass~
+a Crystal Wine Glass.~
+The Glass is made out of the finest Crystal.~
+~
+17 65536 1 0
+1 0 0 0
+1 1800 200 0
+L 0
+E
+wine glass~
+You see a red wine that looks extremely drinkable.~
+#2005
+key crystal~
+a Crystal Key.~
+The Key made out of the finest Crystal lies here ?~
+~
+18 2 1 0
+0 0 0 0
+1 500 50 0
+L 0
+E
+crystal key~
+A small clear beutifully cut key that holds the answer to a secret.~
+#2006
+treasure crystal~
+a Crystal Treasure~
+There is a Crystal Treasure here.~
+~
+20 32 1 0
+200000 0 0 0
+0 0 0 0
+L 0
+E
+Crystal treasure~
+A massive amount of shining, glittering gold and jewels lie here.~
+#2007
+tooth dragon~
+dragon's tooth ~
+A dragon's tooth lies here~
+~
+9 2688 16385 0
+2 0 0 0
+5 50000 2000 30
+L 30
+E
+dragon's tooth~
+The dragon's tooth looks like a rare treasure that will attest to
+your bravery.
+~
+A
+1 1
+A
+18 1
+A
+19 3
+A
+12 -10
+#2008
+cuffs leather~
+leather cuffs~
+Some leather cuffs lie here.~
+~
+9 68608 4097 0
+2 0 0 0
+3 20000 3000 30
+L 30
+E
+leather cuffs~
+These cuffs have small metal clasps on the sides,made of crystal.
+~
+A
+18 3
+A
+19 1
+A
+1 -1
+$~
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d3 1
+a3 1
+A Titanium Cross.~
+d6 1
+a6 1
+9 3137 5
+d8 2
+a9 1
+5 20000 2000
+a17 2
+
+L 28
+d20 1
+a20 1
+A Crystal Belt.~
+d23 1
+a23 1
+9 1537 2049
+d25 2
+a26 1
+10 50000 6500
+d34 1
+a34 1
+1 3
+a38 1
+L 25
+d41 1
+a41 1
+A Crystal Chef's Hat.~
+d44 1
+a44 1
+9 1665 17
+d46 2
+a47 1
+10 11000 1100
+d54 1
+a54 1
+12 30
+a56 1
+L 20
+d59 1
+a59 1
+A Crystal Wine Glass.~
+d62 1
+a62 1
+17 65536 1
+d64 2
+a65 1
+1 2000 200
+a68 1
+L 0
+d71 1
+a71 1
+A Crystal Key.~
+d74 1
+a74 1
+18 2 1
+d76 2
+a77 1
+1 500 50
+a80 1
+L 0
+d86 1
+a86 1
+20 32 1
+d88 2
+a89 1
+0 0 0
+a92 1
+L 0
+d98 1
+a98 1
+9 2688 16385 
+d100 2
+a101 1
+5 50000 2000
+a114 1
+L 30
+d120 1
+a120 1
+9 68608 4097
+d122 2
+a123 1
+3 20000 3000
+a133 2
+L 30
+#99999
+@
+

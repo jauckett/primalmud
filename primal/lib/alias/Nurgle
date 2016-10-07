@@ -1,0 +1,65 @@
+l cast 'summon' elf
+s1 cast 'sanctuary' $1
+gr grats %%%%% <<<<< $1 >>>>> %%%%%
+exo cast 'heal' exodus
+water cast 'waterwalk'
+ce cast 'summon' centaur
+elf summon elf guard
+bs remove hammer;wi dagger;backstab $1;remove dagger;wi hammer
+ad assist dying
+tudor s;s;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s;
+int s;s;s;w;w;w;w;w;w;w;w;w;w;
+ah assist drudge
+st steal coins $1
+po cast ' remove poison'
+ch change
+sh shadowen
+m backstab shadowen
+ti time
+te cast 'teleport'
+exc get $1 backpack;remove $2;wear $1;put $2 backpack
+c1 cast 'cure critic' $1
+h1 cast 'heal' $1
+lo cast 'locate object' $1
+hl get red backpack;q red
+ex exam $1
+he cast 'heal' $1
+h cast 'heal'
+c cast 'cure critic'
+ab assist burzum
+ae assist elementor
+rec cast 'word of recall'
+iv cast 'detect invisibility'
+pb put $1 bag
+li cast 'lightning bolt' $1
+mm cast 'magic missile' $1
+gc get all all.corpse; get all; junk all.corpse
+inf cast 'infravision'
+id get identify backpack;recite identify $1
+recall get recall backpack; recite recall
+drain cast 'energy drain' $1
+fl flee
+su cast 'summon' $1
+re cast 'refresh'
+cx crystal
+cz cast 'cure critic' $1
+sa cast 'sanctuary'
+se cast 'sense life'
+t tag $1
+b cast 'blindness' $1
+dr drink skin
+align cast 'detect alignment'
+i cast 'invisibility'
+pl cast 'plasma' $1
+loo look north;look east;look south;look west;look up;look down
+home u;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;
+ps primal scream
+wa wake;stand
+food cast 'create food';eat mushroom;cast 'create water' skin;drink skin
+cent s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;d;cast 'waterwalk';cast 'waterwalk';s;s;s;w;s;e;e;s;w;w;w;s;s;e;n;u;s;
+eq get hammer;wield hammer;get ring;get ring;wear all.ring;get medal;get medal;wear all.medal;get chitinous;wear chitinous;get wreath;wear wreath;get leggings;wear leggings;get glass;wear glass;get glased;wear glased;get claw;wear claw;
+eq1 get bracers;wear bracers;get tooth;hold tooth;get codpiece;wear codpiece;
+wh get white force;q white
+p open force;put $1 force
+fi cast 'finger' $1
+eq2 get force;open force;get green;wear green;get leg;wear leg;get pendant;get dagger;get unholy;wear unholy;get bracelet;wear braclet

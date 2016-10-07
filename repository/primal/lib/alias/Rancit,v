@@ -1,0 +1,65 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@hhf cast 'cure light' on feargal
+hj c'cure light'feargal
+hf assist feargal
+he c 'cure light'epson
+lb c 'lightning bolt'
+ct c 'chill touch'
+cs c 'color spray'
+hs assist sirgeo
+qb quaff blue potion
+qw quaff white potion
+cc c 'cure light'
+gac get all corpse
+mm cast 'magic missile'
+rs recite recall
+sg c 'shocking grasp "
+hp assist pkunk
+qr quaff red potion
+hd assist dracion
+iv c 'infravision'
+qy quaff yellow potion
+hhc cast 'cure light' on cable
+hhk cast 'cure light' on kerby
+hc cast 'cure light' on crazyone
+hr assist rangertim
+cz cast 'sleep' on 
+skd cast 'sleep' on ken
+sbd cast 'sleep' on barbie
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

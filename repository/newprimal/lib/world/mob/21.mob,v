@@ -1,0 +1,714 @@
+head	1.8;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.8
+date	2004.05.23.07.21.48;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.21.08.51.31;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.06.05.46.16;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.31.10.37.35;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.26.00.07.02;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.07;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Artus> Checking everything in again.
+@
+text
+@#2101
+bar bartress~
+the tree bartress~
+A stunning bartress is here mixing drinks behind the bar.
+~
+A young tree woman dressed to attract the men. She has on a very low cut top and a mini-skirt and you would love to have your way with her
+~
+6021210 310453416 -1000 E
+20 0 7 5d0+820 10d20+20
+18000 200000
+8 8 2
+BareHandAttack: 3
+E
+#2102
+tree chef~
+the tree chef~
+The tree chef is here cooking up a feast for his customers
+~
+A middle aged tree man dressed in a chefs outfit. He is very experienced and cooks like it's natural to him. You wouldn't mess with him if you were sensible
+~
+1764954 813761704 -1000 E
+25 -5 10 0d0+1100 10d25+29
+20000 250000
+8 8 1
+BareHandAttack: 14
+E
+#2103
+tree snake~
+a tree snake~
+A well camouflaged green tree snake is hiding here awaiting it's next meal to arrive
+~
+About three metres long, this tree snake is not to be messed with! It has huge fangs that could easily inflict a very painful bite.
+~
+5303848 276890666 -1000 E
+25 10 10 0d0+1150 10d10+10
+5000 250000
+8 8 2
+BareHandAttack: 4
+E
+T 2102
+#2104
+tree store keeper~
+the tree Store keeper~
+A kind tree store keeper is here smiling at you.
+~
+An old tree man whom has lived here for years. He is cleanly shaven and well dressed ofr his customers.
+~
+3203082 276890792 0 E
+30 -10 8 0d0+1600 10d30+30
+27000 21000
+8 8 0
+BareHandAttack: 13
+E
+#2105
+Tree inhabitant~
+a Tree inhabitant~
+An unusual inhabitant of the tree is here
+~
+A tree like human whom is proud of his home
+~
+52810 335553704 -900 E
+17 4 8 9d10+330 8d9+7
+7079 29000
+8 8 1
+BareHandAttack: 11
+E
+#2106
+tree inhabitant~
+a tree inhabitant~
+An evil tree inhabitant stands before you.
+~
+A strange human like person with leaves and small branches growing out of it! You wonder if this is an experiment gone wrong.
+~
+5269066 8397992 -1000 E
+30 -10 5 0d0+1600 10d30+30
+20000 300000
+8 8 0
+BareHandAttack: 3
+E
+T 2110
+#2107
+large bullant hunter~
+a large bullant~
+A large bullant hunter crawls around searching for food.
+~
+A large bullant 5 times the size of what we would define as a bullant's size! It's nippers are 1 inch long!
+~
+4718668 1024 -700 E
+15 15 10 0d0+640 10d5+10
+1525 100000
+8 8 0
+BareHandAttack: 4
+E
+#2108
+possum~
+a possum~
+A possum has fallen from above and wounded itself.
+~
+It's got broken legs from thinking it's a cat!
+~
+1073226 9438248 0 E
+30 0 10 0d0+1600 10d15+20
+3000 300000
+2 2 0
+BareHandAttack: 8
+E
+T 2114
+T 2116
+#2109
+bullant soldier~
+a soldier bullant~
+A soldier bullant is patroling here.
+~
+A large bullant 5 times the size of what we would define as a bullant's size! It's nippers are 1 inch long!
+~
+4718700 1064 -1000 E
+15 14 8 0d0+625 10d5+15
+2000 150000
+8 8 0
+BareHandAttack: 4
+E
+T 2117
+#2112
+worker bullant~
+a worker bullant~
+A worker bullant crawls about doing his duties.
+~
+A large bullant 5 times the size of what we would define as a bullant's size! His nippers are 1 inch long! He is very muscly and you should avoid messing with him.
+~
+5808236 1064 -1000 E
+20 0 7 0d0+800 10d20+20
+8000 200000
+8 8 1
+BareHandAttack: 4
+E
+#2113
+bullant guard~
+a bullant guard~
+A bullant guards here blocking the way.
+~
+A large bullant 5 times the size of what we would define as a bullant's size! His nippers are 1 inch long! He is very muscly and you should avoid messing with him!
+~
+7927918 880911784 -1000 E
+30 -10 3 0d0+1600 10d30+30
+25000 300000
+8 8 0
+BareHandAttack: 4
+E
+T 2121
+#2114
+queen bullant~
+the Queen Bullant~
+The Royal Queen Bullant is here laying eggs for her colony.
+~
+The Queen Bullant is HUGE. She is constantly laying egss to keep to colony alive and kicking. Her nippers are a good 5 inches long and she would certainly inflict a nasty bite if given the chance.
+~
+7928106 881951912 -1000 E
+50 -20 -3 0d0+3500 10d50+50
+45000 500000
+8 8 2
+BareHandAttack: 4
+E
+T 2124
+#2115
+baby bullant~
+Baby bullant~
+A baby bullant is exploring here.
+~
+A small bullant only a few days old if that. He has small nippers, but big enough to bite you as they are 1/2 an inch long.
+~
+98316 1032 0 E
+15 15 14 0d0+350 7d7+10
+0 50000
+8 8 1
+BareHandAttack: 4
+E
+T 2128
+#2116
+soldier bullant~
+a soldier bullant~
+A young but strong soldier bullant crawls before you.
+~
+He could possibly kick your ass
+~
+1591320 8397868 -1000 E
+25 5 10 0d0+1000 8d10+25
+10000 250000
+8 8 1
+BareHandAttack: 4
+E
+#2117
+cook fairy~
+Fairy Cook~
+A stout fairy waddles around the kitchen cooking.
+~
+A stout fairy has flour covering her arms up to her elbows and is humming
+a merry tune. You doubt whether the delicate wings on her back could support
+her weight. She's the first fairy you've seen who isn't slender. Obviously this
+cook likes to sample her own cooking just a bit too much.
+~
+6440 1024 830 E
+9 11 10 6d7+62 5d6+4
+2000 7000
+8 8 2
+E
+#2118
+catepillar giant~
+Giant Catepillar~
+A giant catepillar is munching on a giant leaf. This is one catepillar you don't want to try squashing underfoot.
+~
+Three foot high and fifteen foot long this catepillar looks like it could eat
+you in two or three gulps. Thorny bristles covering its length are several
+inches long and very sharp. Get too close and you risk impaling yourself
+on them. Luckily the beast appears more interested in eating its meal then
+acquiring you as its next one. 
+~
+2344 1024 0 E
+17 7 8 10d10+330 7d10+8
+0 30000
+8 8 0
+E
+#2133
+bullant guard~
+a bullant guard~
+A bullant guards here blocking the way.
+~
+   A large bullant 5 times the size of what we would define as a bullant's
+size!  His nippers are 1 inch long!  He is very muscly and you should avoid
+messing with him!    
+~
+5826670 805348520 -1000 E
+30 -10 3 0d0+1600 10d30+30
+25000 300000
+8 8 1
+BareHandAttack: 4
+E
+T 2121
+T 2122
+$
+@
+
+
+1.7
+log
+@Artus> Sync.
+@
+text
+@d8 1
+a8 1
+6021211 310453416 -1000 E
+d89 1
+a89 1
+10 17 10 0d0+300 10d3+10
+d172 1
+a172 1
+10 15 17 0d0+200 5d6+10
+d231 1
+a231 1
+7927918 880911784 -1000 E
+@
+
+
+1.6
+log
+@Artus> Sync.
+@
+text
+@d88 1
+a88 1
+4722764 1064 -700 E
+d116 1
+a116 1
+4722796 1064 -1000 E
+d130 1
+a130 1
+5812332 1064 -1000 E
+d171 1
+a171 1
+102444 1032 0 E
+d185 1
+a185 1
+1595448 8397868 -1000 E
+d227 3
+a229 1
+A large bullant 5 times the size of what we would define as a bullant's size! His nippers are 1 inch long! He is very muscly and you should avoid messing with him!
+@
+
+
+1.5
+log
+@Artus> Moving this stuff across, too.
+@
+text
+@d82 1
+a82 1
+bullant~
+d88 1
+a88 1
+4722764 8389672 -700 E
+d116 1
+a116 1
+4722796 276825128 -1000 E
+d130 1
+a130 1
+5812332 276825256 -1000 E
+d171 1
+a171 1
+102444 8389640 0 E
+@
+
+
+1.4
+log
+@Artus> Keeping the repository up-to-date. This is the groundwork for the
+       release.
+@
+text
+@a135 1
+T 2125
+a176 1
+T 2126
+a190 1
+T 2127
+@
+
+
+1.3
+log
+@Artus> Getting very close...
+@
+text
+@d56 1
+a56 1
+A Tree inhabitant~
+d68 9
+a76 10
+enfan black~
+the black enfan~
+There is a positively evil enfan in front of you 
+~
+A small child like being who struts about rather haughtily.
+It has a strange burnt skin that seems to glow unusually
+~
+104 168 -1000 E
+22 0 6 12d10+430 8d9+7
+9300 56000
+d78 1
+d80 1
+d82 9
+a90 9
+dog guard~
+the guard dog~
+A guard dog sits here staring hungrily
+~
+A large, ugly, evil dog.
+~
+42 8 -700 E
+5 14 12 5d4+30 3d5+1
+1525 900
+d92 1
+d95 11
+a105 10
+rat~
+the rat~
+A large mutated rat stares at you with glowing eyes
+~
+It is simply very ugly.
+~
+42 8 0 E
+9 11 10 3d5+85 5d6+4
+1850 6000
+8 8 0
+d107 2
+d110 9
+a118 9
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 13 2d5+9 2d3+0
+450 45
+d120 1
+d122 1
+d124 11
+a134 11
+gargoyle gargoyle~
+the gargoyle~
+A stone gargoyle stands before you blocking your way
+~
+Very, very ugly. Much like a stereo-typical mother-in-law,
+only a lot worse!
+~
+106 8 -1000 E
+12 5 9 12d8+200 5d8+6
+5908 14000
+8 8 0
+d136 1
+d138 9
+a146 9
+enfan tree~
+the tree enfan~
+There is a positively evil enfan in front of you
+~
+A small child like being who struts about rather haughtily.
+~
+106 170 -1000 E
+22 0 6 12d10+430 9d8+8
+9300 55000
+d148 1
+d150 1
+d152 11
+a162 11
+guard fairy~
+Fairy Guard~
+One of the fairy guards of Queen Amyst keeps a close eye on you.
+~
+A fairy guard may look like, well a fairy, but the dagger at his hip and notches
+on his shield weren't gotten from looking pretty.
+~
+6440 136192 700 E
+11 15 10 8d10+70 6d6+3
+5000 11000
+8 8 1
+d164 1
+d166 11
+a176 13
+queen fairy amyst~
+Queen Amyst.~
+Queen Amyst reclines on a throne keeping court for her few remaining people.
+~
+Queen Amyst reigned over several hundred fairies only a short time ago. Then
+the enfans found and attacked their tree. She now rules from here until the fairies
+can move far away or a bold band of adventurers can remove the enfan menace
+permanently.
+~
+8488 136200 1000 E
+21 5 6 10d10+500 9d9+10
+8500 53000
+6 6 2
+d178 2
+d181 9
+a189 14
+mage fairy magus~
+fairy mage~
+A old slender fairy with silver hair looks at you with eyes sharp as a hawks.
+~
+For as long as the fairies have existed their queens have had mages to advise
+them and help protect them and their subjects from harm. At any time anywhere
+from 5 to 20 mages used to belong to the queens court, but the Magus was the only
+one left alive after the enfans attacked the fairies. The livid scar running down the
+left side of his face marring his otherwise almost feminine features are a stark 
+reminder that he didn't escape untouched by the evil. 
+~
+6456 136236 540 E
+22 6 6 5d14+430 8d9+12
+12000 60000
+d191 1
+d193 1
+d225 15
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d2 11
+a12 11
+enfan blue~
+the blue enfan~
+There is an enfan here. It is dressed in a blue suit
+~
+A small child like being who struts about rather haughtily.
+It has a strange blue skin that seems to glow unusually
+~
+104 128 -1000 E
+9 11 10 5d10+50 6d9+4
+2175 7000
+8 8 0
+d15 11
+a25 11
+enfan grey~
+the grey enfan~
+There is an enfan here. It is dressed in a grey suit
+~
+A small child like being who struts about rather haughtily.
+It has a strange grey skin that seems to glow unusually
+~
+104 128 -850 E
+11 9 10 10d10+65 6d6+5
+3093 12000
+8 8 0
+d28 11
+a38 11
+enfan green~
+the green enfan~
+There is an enfan here. It is dressed in a green suit
+~
+A small child like being who struts about rather haughtily.
+It has a strange green skin that seems to glow unusually
+~
+104 8 -900 E
+13 7 9 8d10+170 11d8+6
+4512 16000
+8 8 0
+d40 1
+d42 3
+a44 3
+enfan purple~
+the purple enfan~
+There is an enfan here. It is dressed in a purple suit
+d46 1
+a46 2
+A small child like being who struts about rather haughtily.
+It has a strange purple skin that seems to glow unusually
+d48 3
+a50 3
+104 524288 -900 E
+15 4 8 12d10+220 7d7+8
+6029 21000
+d52 1
+d55 3
+a57 3
+enfan yellow~
+the yellow enfan~
+There is an enfan here. It is dressed in a yellow suit
+d59 1
+a59 1
+A small child like being who struts about rather haughtily.
+d61 1
+a61 1
+104 136 -900 E
+d64 2
+a65 1
+8 8 0
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d9 2
+a10 2
+96 128 -1000 S
+9 11 5 5d10+50 2d3+1
+d12 2
+a13 1
+8 8 0 7
+d22 2
+a23 2
+96 128 -850 S
+11 9 3 10d10+65 2d4+1
+d25 2
+a26 1
+8 8 0 7
+d35 2
+a36 2
+96 8 -900 S
+13 7 2 8d10+170 2d5+1
+d38 2
+a39 1
+8 8 0 7
+d48 2
+a49 2
+96 524288 -900 S
+15 4 1 12d10+220 2d6+4
+d51 2
+a52 1
+8 8 0 7
+d60 2
+a61 2
+96 136 -900 S
+17 4 1 9d10+330 2d7+2
+d63 2
+a64 1
+8 8 0 7
+d73 2
+a74 2
+96 168 -1000 S
+22 0 0 12d10+430 2d6+6
+d76 2
+a77 1
+8 8 0 7
+d85 2
+a86 2
+34 8 -700 S
+5 14 5 5d4+30 2d4+1
+d88 2
+a89 1
+8 8 0 3
+d97 2
+a98 2
+34 8 0 S
+9 11 5 1d5+45 1d5+1
+d100 14
+a113 1
+8 8 0 3
+d122 2
+a123 2
+98 8 -1000 S
+12 5 -2 12d8+200 1d8+1
+d125 2
+a126 1
+8 8 0 7
+d134 2
+a135 2
+98 170 -1000 S
+22 0 0 12d10+430 2d6+6
+d137 2
+a138 1
+8 8 0 7
+d147 2
+a148 2
+6432 136192 700 S
+11 15 2 8d10+70 2d4+3
+d150 2
+a151 1
+8 8 1 7
+d162 2
+a163 2
+8480 136200 1000 S
+21 5 -3 10d10+500 3d4+10
+d165 2
+a166 1
+6 6 2 7
+d179 2
+a180 2
+6448 136236 540 S
+22 6 -1 5d14+430 2d6+12
+d182 2
+a183 1
+8 8 1 7
+d194 2
+a195 2
+6432 1024 830 S
+9 11 5 6d7+62 2d3+1
+d197 2
+a198 1
+8 8 2 7
+d210 2
+a211 2
+2336 1024 0 S
+17 7 -1 10d10+330 2d7+3
+d213 3
+a215 3
+8 8 0 3
+#99999
+$~
+@
+

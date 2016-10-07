@@ -1,0 +1,295 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2003.10.14.05.37.25;	author mud;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.10.28.01.51.12;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Removed Zones (Sandii's Request.)
+@
+text
+@#11500
+cape~
+Shadow cape~
+Almost insubstantial, a shadow cape lies here.~
+~
+9 66156 1025 17571842
+20 0 0 0
+5 100000 10000 65
+L 65
+E
+vr booth~
+The latest in access to cyberspace.  Gone are the traditional keyboard and
+monitor, replaced with gloves and a helmet.  Its so real, you'll think you're
+there.    
+~
+A
+4 2
+A
+18 5
+A
+19 4
+#11501
+ghostly dagger~
+a ghostly dagger~
+A dagger which has crossed from the etherial plain~
+~
+5 65640 8193 536870912
+5 8 5 11
+15 75000 7500 65
+L 65
+A
+1 2
+A
+13 50
+#11502
+mace~
+unholy mace~
+An unholy looking mace with a black blade lies here~
+~
+5 2624 8193 0
+46 5 8 6
+30 75000 7500 65
+L 65
+A
+1 2
+A
+5 -1
+A
+6 -3
+A
+3 2
+A
+4 2
+#11503
+spear~
+golden spear~
+A spear made of solid gold lies against the wall waiting to be used.~
+~
+5 50334784 1 536875008
+22 6 10 11
+50 95000 9500 70
+L 70
+A
+2 2
+A
+18 6
+A
+19 6
+#11504
+whip~
+a barbed whip~
+A whip with a series of barbs along its length looks menacing~
+~
+5 0 8193 536870912
+0 6 9 2
+0 95000 9500 70
+L 70
+A
+2 2
+A
+4 2
+A
+5 2
+A
+3 -3
+A
+18 5
+A
+19 7
+#11505
+bow crossbow~
+a crossbow~
+A crossbow looks like it could do some serious damage in the right hands.~
+~
+5 0 8193 536870912
+0 8 9 1
+80 95000 9500 70
+L 70
+A
+1 -2
+A
+18 8
+A
+19 7
+A
+17 7
+A
+13 70
+A
+14 -50
+#11506
+blackened leggings~
+blackened leggings~
+A pair of iron leggings blackened by wizard's fire~
+~
+9 64 33 0
+7 0 0 0
+20 70000 7000 70
+L 70
+E
+leggings~
+A once polished iron pair of leggings has been charred permanently black by a
+direct hit from wizard's fire.  They still look as though they'd afford pretty
+good protection though.    
+~
+A
+1 2
+A
+2 -1
+A
+17 8
+A
+12 70
+#11507
+wizard's shield~
+wizard's shield~
+Some foolish wizard has forgotten his shield~
+~
+24 52478017 513 0
+75 0 0 -1
+20 85000 8500 80
+L 80
+E
+shield~
+This shield is a relic of the wizard's war.  It affords its owner protection
+against magic, and the fact that its still in one piece attests to its
+effectiveness.    
+~
+A
+20 5
+A
+21 5
+A
+22 5
+A
+23 5
+A
+24 5
+#11508
+ring~
+Wizard's ring~
+Some wizard has foolishly left behind his ring~
+~
+36 65 3 0
+0 0 0 0
+5 80000 8000 75
+L 75
+E
+ring~
+This ring is made of a special kind of metal which has been super toughened
+against heat.  It makes its wearer virtually immune to the effects of heat,
+allowing them to travel into places much hotter than would normally be possible
+for mortals.    
+~
+A
+3 2
+A
+4 2
+A
+18 7
+A
+19 7
+#11509
+spectacles~
+wizard's spectacles~
+Some wizard is now wandering around blindly without his spectacles~
+~
+9 0 32769 33555516
+5 0 0 0
+5 75000 7500 75
+L 75
+A
+5 2
+A
+12 75
+A
+13 75
+#11510
+gloves~
+blackened gloves~
+a pair of gloves that has been hardened and blackened by wizard's fire~
+~
+9 0 129 0
+6 0 0 0
+10 75000 7500 65
+L 65
+A
+18 6
+A
+19 4
+A
+17 7
+$~
+@
+
+
+1.3
+log
+@Latest Versions
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d2 3
+a4 3
+vr booth~
+a virtual reality booth~
+A virtual reality booth is here waiting to transport you to cyberspace~
+d6 4
+a9 4
+41 1 0 0
+11510 70 0 0
+0 0 0 0
+L 0
+d16 197
+@
+
+
+1.1
+log
+@
+Modified: DM
+
+Added:
+- The File
+@
+text
+@d1 16
+a16 1
+$
+@
+

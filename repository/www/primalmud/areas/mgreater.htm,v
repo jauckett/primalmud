@@ -1,0 +1,139 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD>
+<TITLE> The Greater Level Areas of PrimalMUD </TITLE>
+</HEAD>
+
+<BODY bgcolor=white text=black>
+<CENTER>
+
+The most challenging and <b>greater</b> level areas can be found here.
+<P>
+<A href="#Holy"> Holy City </a><br>
+<a href="#Spiral"> Spiral </a><BR>
+<a href="#Moanders"> Moander's Domain </a><BR>
+<A href="#Greece"> Ancient Greece </a> <BR>
+<a href="#oddhouse"> An Odd House </a> <BR>
+<A href="#Forever"> The Island Forever </a><BR>
+<P>
+<img src="../letters/separator.gif" width="400" height="18">
+
+<A name="Holy"><font color=blue><h3><u>Holy City</u></h3></font></a>
+<i>Creator - Cassandra </i><BR>(Levels 50 - 70)<BR>
+<B>Location - Through the Sandy desert the holy city raises above the hot sands into the clouds.</B>
+<P><U><B>The Zone</U></B>
+<BR>Leading from the hot sands of the desert and a long abandoned city, a great sphinx leads 
+<BR>up into the clouds. Deva's, cockatrices, giant dragonflies and other strange, 
+<BR>beautiful and deadly creatures live amongst the clouds, high above the earth.<BR>
+A tough and challenging zone, there are rewards for those who are willing to risk their 
+<BR>lives climbing ever higher above the ground.
+
+<P>
+<hr width=50%>
+
+<a name="Spiral"><font color=blue><h3><u>Spiral</u></h3></FONT></a>
+<i>Creator - Cassandra</i><BR>(Levels 50 - 70) <BR>
+<B>Location - South and east along Selva road and through the Tunnels.</B>
+<P><U><B>The Zone</U></B>
+<BR>A seemingly never ending tunnel down into the deeps of the earth, the spiral will 
+<BR>leave you wondering which way is left and which is right. A one way trip into the
+<BR>earth the zone is populated with trakkers, troglodytes, driders to name but a few. One of 
+<BR>the hardest zones for any level, it also contains lots of valuable and useful equipment for 
+<BR>higher level players.<BR>
+
+<P>
+<hr width=50%>
+
+<a name="Moanders"><font color=blue><h3><u>Moander's Domain</u></h3></FONT></a>
+<i>Creator - Drax</i><BR>(Levels 50 - 70)<BR>
+<B>Location - Travel to the Sandy Desert near the end of Darask road, through the desert to the Domain.</B>
+<P><B><U>The Zone</U></B>
+<BR>Filled with demons of fire, pantathian serpent priests and the souls of the damned, the Domain is 
+<BR>a place of horror,  and is so vile that no-one can sleep peacefully within it's twisted landscape. Foulest of 
+<BR>all the fiends within is the god Moander, a giant rotting pile of filth seeking dominion of the world.<BR>
+
+<P>
+<hr width=50%>
+
+<a name="Greece"><font color=blue><h3><u>Ancient Greece</u></h3></font></a>
+<i>Creator - Ruprect</i><BR>(Levels 60 - 70)<BR>
+<b>Location - Along Selva road, and south into the forest.</B>
+<P><B><u>The Zone</U></B>
+<BR>Heroes, villians, wild beasts and gods from ancient myth and legend all can be found in the
+<BR>lands of Ancient Greece. From the city of Troy to the Aegean sea and the throne 
+<BR>of Zeus, heroes such as Perseus, alongside villains like Medusa and gods like Neptune 
+<BR>can all be seen. Look out for Zeus though, he'll throw you into Tarterus to face Pluto and Cerberus 
+<BR>if you pester him.<BR>
+
+<P>
+<hr width=50%>
+
+<a name="oddhouse"><font color=blue><h3><u>An Odd House</u></h3></font></a>
+<i>Creator - Sandii</i><BR>(Levels 70 - 85)<BR>
+<b>Location - West out of Haven, along darask road. Find the rocky path
+that leads to Rand's valley. </b>
+<P><b><u>The Zone</u></b>
+<BR>Strange as the name suggests, this house has been infested with
+<BR>plant life that scours the woodwork for things unknown. The careful
+<BR>adventurer may survive long enough to discover some truly amazing
+<BR>treasures hoarded by the critters.
+<BR>
+
+
+<P>
+<hr width=50%>
+
+<A name="Forever"><font color=blue><h3><u>The Island Forever</u></h3></font></a>
+<i>Creator - Talisman</i><BR>(Levels 75 - 100)<BR>
+<b>Location - Undisclosed.</b>
+<P><b><u>The Zone</U></b>
+<BR>On this magical island the battle for supremacy between Good and Evil is being waged with a fury.
+<BR>Holy warriors challenge Evil knights into duels, while struggling to reach the dark <BR>
+tower atop a cliff where Arcane Magic is employed to unknown ends. 
+
+
+<P>
+<img src="../letters/separator.gif" width="400" height="18">
+</CENTER>
+</BODY>
+</HTML>
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

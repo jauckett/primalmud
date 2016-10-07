@@ -1,0 +1,1275 @@
+#3200
+master frog ~
+the master of frog~
+The Master of Frog is sitting on the top of the huge mushroom.
+~
+You see a short, but stout monster, with snapping black eyes and a wide
+mouth. Around his neck there hangs a silver amulet in the 
+shape of a frog.
+~
+4384842 128 10 E
+75 -15 -10 1d0+6801 20d25+75
+66989 750000
+6 6 1
+E
+#3201
+master wolf wolves~
+the master of wolves~
+The Master of Wolves steps out of he house and hails at you friendly.
+~
+You see a big burly man. He carries a sword and is dressed
+as a forester, but you know from the silver amulet he wears that he
+is the Master of Wolves.
+~
+5339498 128 500 E
+80 -64 -10 1d10+7600 20d20+84
+72000 800000
+8 8 1
+E
+#3202
+mistress bird~
+the mistress of birds~
+The Mistress of Birds is sitting on a low pedestal.
+~
+Seated on a low pedestal in the midst of this splendour is a lovely
+woman, who you know must be the Mistress of Birds. She greets you
+by name and asks you your business.
+~
+4454778 41088 800 E
+85 -69 -10 5d80+8500 23d17+69
+76500 850000
+6 6 2
+E
+#3203
+master garden ~
+the master of garden~
+The Master of Garden is approaching you, looking at you curiously.
+~
+You see a tall and broad-shouldered man, and he wears work-stained
+clothes. But you know from his silver Flower Amulet around his neck
+that he is no labourer, but the Master of Garden.
+~
+5470570 41088 650 E
+75 -22 -10 17d25+3696 27d27+45
+66989 750000
+8 8 1
+E
+#3204
+master spider~
+the master of spiders~
+The Master of Spider is sitting on his pavilion.
+~
+Seated in the pavilion is a tall man. His thick beard and eyebrows are
+white, and his robe is as silver-grey as his tent. Around his neck hangs
+a gleaming silver spider amulet. You know that you are in the presence
+of the Master of Spiders. 
+~
+7370858 4224 -800 E
+90 -74 -10 17d25+9500 27d29+90
+81000 900000
+5 5 1
+E
+#3205
+giant leader~
+the giant leader~
+The giant leader is standing besides the throne.
+~
+You see a tremendous Giant. He looks angry, and he brandishes a great
+spiked club.
+~
+7600202 32896 300 E
+80 -35 -10 1d1+6900 20d20+55
+72000 800000
+8 8 1
+E
+#3206
+rangers ranger leader~
+the ranger leader~
+The leader of ranger is sitting on his chair, minding his own business.
+~
+He is tall and bronzed, dressed all in green, and you know he must be
+a ranger. 
+~
+7600202 8320 900 E
+75 -35 -10 1d2+7236 10d25+70
+66954 750000
+6 6 1
+E
+#3207
+brigands brigand~
+the brigands champion~
+The Brigand's Champion is standing in front of the audience, hailing at them.
+~
+You see a man dressed in old worn out clothes. He looks tough and
+stronger than the other brigands and  challengers.
+~
+7596122 128 -200 E
+78 -40 -10 2d3+5583 28d20+68
+70200 780000
+8 8 1
+E
+#3208
+selator good wizard ~
+Selator~
+Selator, the Good Wizard is pottering in his garden.
+~
+He is a small, stout man in a white tunic and linen breeches.
+~
+4448346 8192 950 E
+85 -69 -8 1d1+8400 20d30+85
+76500 850000
+8 8 1
+E
+#3209
+grimslade evil wizard~
+Grimslade~
+Grimslade, the Evil Wizard stands here, waiting for you.
+~
+He is tall and skeletally thin. The crimson designs on his black robe
+seem to glow. He greets you pleasantly.
+~
+5500538 4106 -950 E
+90 -74 -10 1d1+9500 30d30+90
+81000 900000
+8 8 1
+E
+#3210
+poomchukker neutral wizard~
+Poomchukker~
+Poomchukker, the Neutral Wizard is sitting in the centre of the room.
+~
+He is one of the oddest men you have ever seen....very tall and 
+immensely fat, with an elaborately braided beard and bright red skin!
+~
+4451194 524288 -50 E
+87 -55 -10 1d6+8500 25d25+75
+78300 870000
+6 6 1
+E
+#3211
+dire beast~
+dire beast~
+A huge dire beast is here, glaring at you.
+~
+You see a a large grey boulder like monster, with coarse grey hair.
+Red eyes glare at you, while six clawed legs move towards you.
+~
+3334266 33920 -550 E
+82 -35 -10 2d3+7560 25d30+85
+73800 820000
+8 8 0
+E
+#3212
+huge bear~
+a huge bear~
+A huge bear pokes its head out and walks towards you.
+~
+You see a bear with a shaggy head and extremely sharp claws. It is
+hairy and brown in colours.
+~
+5259370 8 20 E
+65 -49 -7 1d0+5400 15d15+59
+58500 650000
+8 8 0
+E
+#3213
+pool beast~
+the pool beast~
+The pool beast is here, lashing at you.
+~
+You see a great, brown, rubbery creature rears up from the pool and
+lashes at you with a tentacle.
+~
+7364730 128 -700 E
+75 -35 -10 1d0+7200 25d30+79
+67500 750000
+8 8 0
+E
+#3214
+slime~
+slime~
+The slime gives off a fetid odours as it oozes slowly towards you.
+~
+You see a viscous lump of slime, two metres wide, which gives off
+fetid odour as it oozes slowly towards you.
+~
+1278188 32 10 E
+65 -10 -1 9d13+2426 24d24+25
+30000 650000
+8 8 0
+E
+#3215
+orc leaders leader~
+the orc leader~
+The Orc leader is sitting in his chair, staring at you in a evil way.
+~
+You see a mangy-looking orc, with strong muscled arms who is much
+tougher than the other orcs.
+~
+7370858 32896 -300 E
+77 -30 -10 1d0+6446 25d20+60
+69300 770000
+8 8 1
+E
+#3216
+thief thie thi~
+thief~
+A thief is here, leaning against the oak tree, eating lunch.
+~
+He is a small, cheerful man in dark clothes. His food is in a picnic
+basket.
+~
+5783758 8 -200 E
+68 -18 -6 13d20+2255 26d23+42
+58000 680000
+8 8 1
+E
+#3217
+unicorn unicor unico unic uni~
+the unicorn~
+The unicorn is here, looking peacefully with the other white horse.
+~
+You see a white creature with a huge horn on its head. 
+~
+5267468 41088 400 E
+72 -22 -7 15d22+3849 26d24+46
+64800 720000
+8 8 0
+E
+#3218
+sword swor swo trees tree tre~
+sword trees~
+A huge sword trees is here, holding its sword and moving towards you.
+~
+They are dark green and rather small, with snakey limbs. Suddenly
+you realize that each limb ends in a sword and they are moving 
+towards you.
+~
+7364712 32800 -200 E
+74 -39 -8 15d23+2981 26d26+35
+66600 740000
+8 8 0
+E
+#3219
+fear fea fe flowers flower flowe flow flo~
+fear flowers~
+The fear flowers, growing thickly along the path.
+~
+They are pretty flowers, but you see nothing special about them. You
+know that the flowers themselves are frightening you. Their pollen
+induces terror.
+~
+7594186 32928 -100 E
+65 -25 -6 13d20+2331 16d16+44
+57875 650000
+8 8 0
+E
+#3220
+crab cra grass gras gra~
+the crab grass~
+The crab grass is growing up around you, so fast you can see the movement.
+~
+You see nippers form at the end of the stalks. They snap at you. You
+are in the middle of a patch of crab grass.
+~
+5496938 32800 -50 E
+65 -16 -4 12d18+2191 19d19+34
+51025 650000
+8 8 0
+E
+#3221
+eagle eagl eag ~
+the huge eagle~
+An enormous eagle beats it's wings and lands beside you.
+~
+You see a huge eagle with a sharp beck and claws, flapping its huge
+wings and moving towards you.
+~
+7426122 41088 350 E
+75 -30 -10 17d26+3301 17d19+55
+50000 468365
+8 8 0
+E
+#3222
+white wolf~
+the white wolf~
+A pure white wolf is standing here, glaring at you.
+~
+You see its hair is pure white in colour, and it looks much stronger than
+the other wolves.
+~
+1067208 4 100 E
+75 -15 -10 1d10+4691 15d25+65
+67500 750000
+8 8 0
+E
+#3223
+frogs frog ~
+the huge green frog~
+The huge green bullfrog is sitting on the side of the lower mushroom.
+~
+You see a huge dark green bull frogs, with extremely strong legs
+and bodies.
+~
+5306474 32896 -100 E
+72 -50 -10 5d6+5900 15d15+75
+64800 720000
+5 5 0
+E
+#3224
+willow willo will wil wisp wis wi~
+the willow o' wisp~
+The willow o' wisp is here, dancing in front of you.
+~
+You see a ball of dancing light in front of you, that looks so bright and
+nearly hurt your eyes.
+~
+204 32768 100 E
+67 -7 -2 10d14+2460 14d19+30
+20000 99650
+8 8 0
+E
+#3225
+birds bird ~
+a brightly coloured bird~
+A beautiful bird is here, sleeping on the branch of a palm tree.
+~
+You see a brightly coloured birds, with a beautiful feather and a cute
+looking face.
+~
+202 8 500 E
+63 -45 -8 1d12+5341 18d15+62
+55385 630000
+4 4 0
+E
+#3226
+small scorpions scorpion~
+the small scorpion~
+A small scorpion is here, scuttling towards you.
+~
+You see a small blood red scorpion, that seems very poisonous and
+dangerous to you.
+~
+4440168 8 -400 E
+72 -30 -8 1d1+6870 15d25+59
+64800 720000
+8 8 0
+E
+#3227
+large scorpions scorpion~
+the large scorpion~
+A huge demon-look scorpion is here, glazing at you and moving towards you.
+~
+You see a huge demon-look scorpion. Its' blood red body and the poisonous
+tails give you a scary feeling.
+~
+5259368 8 -500 E
+78 -30 -10 1d1+6477 20d30+55
+70200 780000
+8 8 0
+E
+#3228
+villager fenmarge~
+villager of Fenmarge~
+The villager of Fenmarge is standing here, looking at you curiously.
+~
+You see a person with nothing special you can notice, only a simple
+looking villager.
+~
+4194508 262144 100 E
+70 -30 -8 1d1+6361 15d15+59
+63000 700000
+8 8 1
+E
+#3229
+traveller~
+a traveller~
+A traveller is here, looking for a way to Scorpion Swamp.
+~
+You see a well-prepared traveller, ready to get into the swamp.
+~
+5267656 0 200 E
+71 -55 -7 1d0+5477 15d15+70
+63900 710000
+8 8 1
+E
+#3230
+little boy~
+a little boy~
+A little boy is sitting on the street, playing and yelling
+with the other boys.
+~
+You see an ugly looking boy, yelling and teasing other people.
+~
+204 0 -200 E
+70 -25 -9 1d0+6654 15d25+55
+63000 700000
+8 8 1
+E
+#3231
+rogues rogue~
+the rogue~
+A rogue is here, staring at you with his evil eyes.
+~
+You see an ugly looking rogue, dirty and swearing all the time.
+~
+5271276 4224 -400 E
+72 -25 -8 1d0+5494 24d26+55
+64800 720000
+8 8 1
+E
+#3232
+travellers traveller swamp~
+the swamp traveller~
+A brave looking traveller is here, trying to find some monster to challenge.
+~
+You see a brave looking traveller. He looks quite sure of himself and he
+also looks very intelligent.
+~
+7530856 8324 500 E
+77 -25 -9 1d0+5891 26d29+50
+69123 770000
+8 8 1
+E
+#3233
+drunks drunk~
+a drunk~
+A drunk is here, sleeping on the floor with his wine beside him.
+~
+You see an awful looking drunk. His face is red and you are wondering
+what he has done in his past.
+~
+16456 0 20 E
+70 -35 -3 1d0+3358 10d47+74
+63000 700000
+8 8 1
+E
+#3234
+white whit whi horses horse hors hor~
+a white horse~
+A white horse is here, running with the unicorn peacefully.
+~
+You have a peaceful feeling when you look at it. It is pure white
+and looks very healthy and cute.
+~
+4821884 8192 700 E
+78 -22 -6 12d18+3156 15d25+35
+250 780000
+8 8 0
+E
+#3235
+frogs frog~
+a small frog~
+A small frog is bouncing around here, croaking at you.
+~
+You see a normal green coloured frog. It looks so funny bouncing
+around you.
+~
+4210888 8 10 E
+70 -20 -4 1d10+4541 22d22+65
+12005 700000
+8 8 0
+E
+#3236
+parrots parrot~
+a beautiful parrot~
+The beautiful looking parrot is standing on a tree.
+~
+You see an intelligent parrot. Its feather are red with  white
+between them. It looks so sure of itself and not scared of people.
+~
+4284490 8320 300 E
+80 -35 -9 1d1+8273 10d25+70
+72000 800000
+6 6 0
+E
+#3237
+doves dove~
+a pair of doves~
+A pair of doves are here, looking so lovely and wonderful.
+~
+You see pair of pink doves sitting on the tree. They look so lovely
+and cute.
+~
+4415562 8 800 E
+72 -45 -8 1d12+5197 18d15+62
+43950 720000
+8 8 0
+E
+#3238
+baby bird~
+the baby bird~
+A cute looking baby bird is sleeping here.
+~
+It is very cute and is yellow in colour. Its eyes seem to shine
+and you feel very comfortable when you look at you.
+~
+4284490 8 500 E
+70 -54 -7 7d7+6500 20d12+70
+62897 700000
+8 8 0
+E
+#3239
+rats rat warriors warrior warrio warri warr war~
+the rats warrior~
+The Rats Warrior is standing here, guarding the first level.
+~
+You see a tough looking warrior with a rats mark on his forehead.
+~
+7501898 41088 500 E
+72 -20 -11 15d1+3893 24d25+45
+64800 720000
+8 8 1
+E
+#3240
+cats cat ca generals general genera gener gene gen~
+the cats general~
+The Cats General is standing here, guarding the second level.
+~
+You see a seven feet tall man, with a strong built-up body. He is 
+holding a sharp flashing blade, ready to fight you.
+~
+4388938 41088 550 E
+74 -25 -4 16d1+2476 29d19+50
+66600 740000
+8 8 1
+E
+#3241
+dogs dog leaders leader leade lead lea~
+the dogs leader~
+The Dogs Leader is here, guarding the third level.
+~
+You see a tough looking leader. He has a sharp dogs-like teeth
+in his mouth and a tail behind his back.
+~
+1157450 32896 350 E
+76 -25 -5 16d24+2680 20d21+50
+68400 760000
+8 8 1
+E
+#3242
+wolf wol magician magicia magici magic magi mag~
+the wolf magician~
+The Wolf Magician is standing here, guarding the fourth level.
+~
+You see a weak looking man. His face looks like a wolf and he seems
+to be quite and expert in the skills of magic.
+~
+4356362 172170 520 E
+77 -30 -5 17d25+2641 25d25+50
+69300 770000
+8 8 2
+E
+#3243
+leopards leopard leopar leopa leop leo fighters fighter fighte fight figh fig~
+the leopards fighter~
+The Leopard Fighter is standing here, guarding the sixth level.
+~
+You see a strong, tough looking man, with red eyes and spots on his
+skin. 
+~
+4352298 32896 450 E
+79 -32 -6 19d28+3673 25d29+53
+71100 790000
+8 8 1
+E
+#3244
+tigers tiger tige tig prince princ prin pri~
+the tiger prince~
+The Tiger Prince is standing here, guarding the seventh level.
+~
+You see a huge man, with a sharp claw-like fingers on his hands.
+He looks like a real tiger and glares at you.
+~
+4356394 32896 520 E
+80 -32 -6 20d30+4426 28d20+53
+72000 800000
+8 8 1
+E
+#3245
+lions lion lio king kin~
+the lions king~
+The Lions King is standing here, guarding the eighth level.
+~
+You see a huge lion faced man, with extremely tough and sharp claws.
+~
+4450686 32896 550 E
+82 -35 -7 22d33+3956 19d20+57
+73800 820000
+8 8 1
+E
+#3246
+elephants elephant elephan elepha eleph elep ele lord lor~
+the lord of elephants~
+The Lord of Elephants is standing here, guarding the nineth level.
+~
+You see a huge monster-like human. He has an extremely long nose and
+two big fan-like ears...No wonder he is the lord of elephants. Though
+he looks so funny, he is tough and strong.
+~
+4451114 32896 540 E
+84 -38 -8 23d34+7063 25d31+58
+75600 840000
+8 8 1
+E
+#3247
+dragon drago drag dra knight knigh knig kni~
+dragons knight~
+The Dragon Knight is sitting here, guarding the cages and the eleventh level.
+~
+You see a tough looking knight. He is in charge of all the dragons
+in this level. He looks smart and has a pair of wings on his back.
+~
+4454762 163968 700 E
+86 -38 -8 25d37+5361 25d30+58
+77400 860000
+6 6 1
+E
+#3248
+red re dragon drago drag dra~
+the red dragon~
+The Red Dragon is flying around you, glazing and glaring at you.
+~
+You see a huge red dragon with the flaming scale on its body. It looks
+very tough and seems can burn you to death at any time.
+~
+4454762 172164 600 E
+70 -54 -10 24d36+4241 25d25+72
+63000 700000
+8 8 0
+E
+#3249
+green gree gre dragon drago drag dra~
+the green dragon~
+The Green Dragon is resting here, looking at you curiously.
+~
+You see a huge green dragon, much larger than a giant. It has a jade
+green scale and an extremely sharp claw on its hands. It produces
+twister wind when it wakes up.
+~
+4454762 172160 700 E
+81 -53 -10 24d36+4160 25d26+68
+72900 810000
+5 5 0
+E
+#3250
+black blac bla dragon drago drag dra~
+the black dragon~
+The Black Dragon is sleeping here, its eyes seem to open at any time.
+~
+You see a dark black dragon. It has poisonous gas around its body
+and large black wings behind its back. You feel dizzy when you
+get closer to it.
+~
+4454762 163968 350 E
+84 -52 -10 25d38+5695 25d25+77
+75600 840000
+4 4 0
+E
+#3251
+white whit whi dragon drago drag dra~
+the white dragon~
+The White Dragon is standing here, flapping its wings.
+~
+You see a pure white scaled dragon. The scales on its body seems to
+reflect any damage to it. It is still strong and tough, but it is
+just slightly larger than a giant. It looks quite cute in a way.
+~
+4454762 237696 800 E
+88 -55 -10 26d39+5474 28d30+72
+79159 880000
+8 8 0
+E
+#3252
+golden golde gold gol dragon drago drag dra~
+the golden dragon~
+A huge Golden Dragon is sitting here, guarding the twelfth level.
+~
+You see a huge shiny looking dragon. Its scales seem to be the most
+expensive luxury to get. It looks very tough indeed, by its golden
+sharp claws and teeth.
+~
+4454762 237696 700 E
+92 -76 -10 28d42+5941 30d30+96
+82800 800000
+8 8 0
+E
+#3253
+goddess goddes godde godd god cloud clou clo~
+the Goddess of Cloud~
+The Goddess of Cloud is flowing here, looking after the thirteenth level.
+~
+You cannot see her very clearly. She is morphed into a cloud and
+you cannot really see how she looks. 
+~
+4454490 230560 1000 E
+86 -38 -8 29d43+5066 25d30+58
+77400 860000
+8 8 2
+E
+#3254
+goddess goddes godde godd god wind win~
+the Goddess of Wind~
+The Goddess of Wind is floating around you, and looking after the fourteenth 
+level.
+~
+She is transparent and has no actual shape. You can hardly see how she 
+looks or maybe she doesn't even have a real body. All you know is
+that she is very tough.
+~
+4454490 230560 1000 E
+88 -40 -9 29d44+5341 27d27+60
+79200 880000
+8 8 2
+E
+#3255
+knight knigh knig kni ~
+the Grand Knight of challenging stairs~
+The Grand Knight of Challenging Stairs is standing here.
+~
+You see a tough looking knight, wielding his sword and ready for
+the challenge.
+~
+4454490 41088 700 E
+90 -41 -10 27d41+5601 30d30+61
+79000 900000
+8 8 1
+E
+#3256
+prince princ prin pri ~
+the Prince of challenging stairs~
+The Prince of Challenging stairs is standing here.
+~
+You feel amonst royalty  when you look at him. However he looks quite
+weak by his handsome face. He dressed up in a royal clothes way and
+is holding his royal sword.
+~
+4454778 41088 850 E
+91 -45 -10 28d41+5690 29d30+65
+81000 910000
+8 8 1
+E
+#3257
+king kin ki ~
+the King of Challenging Stairs~
+The King of the challenging stairs is standing here.
+~
+You see a middle-aged man, dressed in gold and with a golden crown 
+on his head. He looks very tough and keeps the key to the final
+challenge.
+~
+4454778 41088 880 E
+95 -47 -11 29d43+5236 30d31+67
+85499 950000
+8 8 1
+E
+#3258
+god go~
+the God of the Challenging stairs~
+The God of the challenging stairs is floating here.
+~
+He is your final challenge and sure he is the toughest you ever see...
+~
+4454778 237710 1000 E
+99 -50 -13 32d48+6159 30d31+70
+89100 990000
+8 8 0
+E
+#3259
+rats rat ra~
+a huge rat~
+A huge rat is standing beside its master.
+~
+You see a huge awful looking rat, very loyal to its master.
+~
+5398634 32768 -100 E
+69 -15 -3 11d16+3691 19d20+40
+62100 690000
+8 8 0
+E
+#3260
+siamese siames siame siam sia cats cat~
+siamese cat~
+Siamese cat is standing here, protecting its master.
+~
+It is one of the aristocrats of the short-haired cats. It is tan with
+a dark face, feet, ears and tail. The eyes are blue instead of the
+usual yellow.
+~
+3086 32768 300 E
+72 -20 -4 12d18+3783 24d25+45
+64800 720000
+8 8 0
+E
+#3261
+cape cap hunting huntin hunt hun dog~
+the cape hunting dog~
+The cape hunting dog is standing besides its master.
+~
+It has huge jaws and a short nose. It is a smooth-haired dogs and
+runs very quickly. 
+~
+4225098 32896 550 E
+74 -25 -4 1d1+2559 25d29+50
+66600 740000
+8 8 0
+E
+#3262
+jaguar jagua jagu jag~
+the jaguar~
+A large jaguar is sitting besides its master.
+~
+It has extremely sharp claws and spots on its skin. It can pull in
+it's claws when it does not need to use them. You sure know that
+it is a meat eater.
+~
+4225130 32896 100 E
+77 -30 -5 16d23+3566 25d25+50
+69300 770000
+6 6 0
+E
+#3263
+white whit whi tigers tiger tige tig~
+the white tiger~
+A pure white tiger is staring at you, standing besides its master.
+~
+You see the meat lovers. The stripes around it help it to hide in
+tall grass. Its hair is pure white and it has sharp claws and strong
+a body.
+~
+4221034 32896 100 E
+79 -32 -6 16d24+3586 20d20+53
+71100 790000
+8 8 0
+E
+#3264
+lions lion lio~
+the lion~
+The king of beast - lion is standing besides its master.
+~
+You look at the king of beasts. It has a large mane around its neck and
+which brown in colour. You sure know that it is one of the meat eaters.
+~
+4221034 32800 100 E
+80 -32 -6 17d26+4401 25d25+53
+72000 800000
+8 8 0
+E
+#3265
+african elephants elephant~
+the African elephant~
+A huge African elephant is standing here, tamed by its master.
+~
+You see the trunks, big ears, long tusks and thick legs. Its size
+is extremely huge. It is grey in colour and looks rather cute.
+~
+4286538 32896 500 E
+82 -35 -7 17d26+4351 27d29+57
+73800 820000
+8 8 0
+E
+#3266
+dragon drago drag dra soldiers soldier soldie soldi sold sol~
+the dragon's soldier~
+A tough looking soldier is standing here.
+~
+You see a tough looking soldier, with a large dragon mask on his face. 
+You wonder what he looks like.
+~
+4221290 32768 400 E
+84 -38 -8 20d29+4333 26d26+58
+75600 840000
+8 8 1
+E
+#3267
+dragon drago drag dra priests priest pries prie pri~
+the dragon's priest~
+The Dragon Priest is looking after the golden dragon.
+~
+You see a priest like man. Its dragon mask on his face makes you
+feel awful. He looks like his magic skill is very expertise.
+~
+4225114 41088 300 E
+86 -38 -8 19d28+4126 27d27+58
+77400 860000
+8 8 1
+E
+#3268
+black blac bla cloud clou clo~
+the black cloud~
+The black cloud is here, floating around the goddess of cloud.
+~
+You see a black cloud. You cannot see anything special on it, but you
+know it is very hard to kill.
+~
+4448634 163840 0 E
+80 -32 -6 21d31+5221 27d27+53
+72000 800000
+8 8 0
+E
+#3269
+thunder thunde thund thun thu cloud clou clo~
+the thunder cloud~
+The thunder cloud is here, producing a huge thunder noise.
+~
+You see a thunder cloud. All you can see is that it has lightning
+flash inside it and looks more awful than the black cloud.
+~
+4448346 163840 100 E
+70 -15 -3 22d32+5482 19d20+40
+63000 700000
+8 8 0
+E
+#3270
+lady lad wind win wi~
+the lady wind~
+The lady wind is standing here gracefully.
+~
+You see a pretty lady, producing wind with her special weapon. She
+is only a servant of the goddess of wind.
+~
+4450682 163968 0 E
+86 -38 -8 1d1+3400 29d29+58
+74400 860000
+8 8 2
+E
+#3271
+goddess goddes godde godd god go moon moo mo~
+the Goddess of Moon~
+The Goddess of Moon is sitting here, surrouded by a thick mist.
+~
+You cannot see her clearly. She is covered by a thick mist.
+All you know is that she looks like a human with  long soft hair.
+~
+4450394 435390 1000 E
+100 -55 -13 1d1+7500 31d32+75
+90000 1000000
+5 5 2
+E
+#3272
+guards guard guar gua~
+the guard of the Challenging stairs~
+The guard of the Challenging stairs is standing here, guarding the gate.
+~
+You see a tough looking guard, paying attention to his duty.
+~
+7371130 32768 100 E
+69 -15 -3 19d28+4236 19d20+40
+62100 690000
+8 8 1
+E
+#3273
+golem gole gol~
+the golem~
+The golem of Grimslade is standing here, walking slowly towards you.
+~
+You see a stone man with no feelings nor his own mind.
+It only believes its master.
+~
+5390408 32768 -200 E
+75 -10 -5 11d16+2691 25d26+33
+2000 148196
+8 8 0
+E
+#3274
+rangers ranger~
+the ranger~
+The ranger is sitting on a boulders, hailing at you.
+~
+You see a man hailing at you. He is tall and bronzed, dressed all in 
+green.
+~
+7371048 8320 700 E
+72 -15 -7 1d2+5891 26d25+55
+64800 720000
+6 6 1
+E
+#3275
+brigands brigand~
+the brigand~
+A strong looking brigand is standing here, minding his own business.
+~
+You see a tough looking man with some scars on his face and his legs.
+He has great skills in challenging people.
+~
+7366728 32896 200 E
+75 -20 -9 1d2+5566 27d25+75
+67500 750000
+8 8 1
+E
+#3276
+orc~
+an orc~
+The orc is practicing his arrow skills here.
+~
+You see a small orc about three feet tall. He is not strong, but his
+bow and arrows skill look perfect.
+~
+7366856 128 -300 E
+77 -35 -10 1d0+5259 10d50+65
+69300 770000
+8 8 1
+E
+#3277
+stone man~
+the stone man~
+The stone man is slowly walking towards you.
+~
+You see a man made of thosands of tiny stones. It seems very hard to
+break him and he looks awfully ugly.
+~
+5433450 36992 -400 E
+79 -35 -9 10d10+7900 10d25+70
+71100 790000
+8 8 1
+E
+#3278
+rock man~
+the rock man~
+The huge rock man is here, bouncing towards you.
+~
+You see a man made of hundreds of large rocks. He looks quite tough
+and he should pack a really hard and heavy punch.
+~
+5433386 36992 -500 E
+75 -59 -10 8d8+5500 17d17+79
+67500 750000
+8 8 1
+E
+#3279
+boulder man~
+the boulders man~
+The boulders man is here, banging towards you.
+~
+You see a tough man made of many large round boulders. He looks quite
+funny in way, but it could be a nightmare.
+~
+7530602 36992 -500 E
+80 -64 -10 15d15+7900 20d20+84
+72000 800000
+8 8 1
+E
+#3280
+coyote coyot coyo coy wolf wol~
+the coyote~
+A large coyote is lying besides it master.
+~
+You see an American type wolf. It is huge and has grey coloured hair.
+Its jaw is sharp and so are its claws. It is very loyal to its master.
+~
+5273674 41088 400 E
+80 -20 -6 14d21+4761 25d25+44
+3000 201040
+6 6 0
+E
+#3281
+villagers villager~
+the villager of willobend~
+A villager of Willobend is walking around here, minding his own business.
+~
+You see a normal looking human, with a strange hair cut and a large
+napkin around his neck.
+~
+16584 32768 150 E
+71 -25 -8 1d0+5358 15d15+50
+55600 710000
+8 8 1
+E
+#3282
+armourer armoure armour armou armo arm~
+the giant armourer~
+The giant armourer is standing here, looking down at you.
+~
+You see a huge giant of about four metres tall. He is well armed and
+looks so friendly.
+~
+7596126 32960 200 E
+95 -65 -11 32d48+5941 30d30+99
+85500 950000
+8 8 1
+E
+#3283
+weaponsmith giant~
+the giant weaponsmith~
+The Giant Weaponsmith is standing, looking after his weapons.
+~
+You see a warrior like weaponsmith. His eyes, his arms and his whole
+body are well trained. He looks very tough and is about five metres
+tall.
+~
+7596126 32896 300 E
+95 -79 -18 32d48+4321 30d30+99
+85500 950000
+8 8 1
+E
+#3284
+shopkeeper orc~
+an orc shopkeeper~
+The Orc shopkeeper is standing behind his table, looking after his shop.
+~
+You see a tiny little orc, selling his items and who is very aware of
+little thieves.
+~
+7596122 128 -100 E
+70 -32 -10 17d26+2351 20d20+74
+63000 700000
+8 8 1
+E
+#3285
+arrow arro arr ~
+an orc arrow keeper~
+The orc arrowkeeper is standing here, selling his bow and arrows.
+~
+You see a tiny little orc, selling his luxury look bows and arrows. 
+He look quite sure of himself and has a great skill on aiming
+at opponents.
+~
+7596122 128 -100 E
+90 -68 -10 31d46+6681 20d20+94
+81000 900000
+8 8 1
+E
+#3286
+orc guard~
+the orc guard~
+An orc guard is guarding the leaders house, paying attention to his duty.
+~
+You see a small tiny orc but he is very well trained. 
+He is aware of everything that will hurt the leader.
+~
+5437754 128 -200 E
+77 -30 -10 1d0+5979 25d25+65
+69300 770000
+8 8 1
+E
+#3287
+giant man~
+the giant man~
+The giant man is walking around, making huge footprints on the ground.
+~
+You see a 3 metres tall giant. His feet are as big as your body. He
+looks very tough, but he has a friendly looking face.
+~
+7436376 128 300 E
+70 -54 -9 15d20+6000 17d19+65
+63000 700000
+8 8 1
+E
+#3288
+giant lady~
+the giant lady~
+The giant lady is sitting here, looking at you innocently.
+~
+She looks quite pretty, but the size is not suitble for you. She is
+nearly three metres tall, but has a great body shaped.
+~
+5464152 128 500 E
+70 -54 -9 15d10+5600 16d19+55
+63000 700000
+8 8 2
+E
+#3289
+lizard lizar liza liz~
+a lizard~
+The ugly looking lizard is crawling around here.
+~
+You see dull, dark green lizard about three feet long. It looks very
+ugly and is producing a hissing sound.
+~
+24648 64 -200 E
+77 -8 -5 10d14+2460 24d29+32
+45000 770000
+8 8 0
+E
+#3290
+funnel web spiders spider~
+a funnel web spider~
+A small funnel web spider is here, hiding itself behind a rock.
+~
+You see an awful poisonous spider, making a web here. It looks very
+dangerous to you, but it seems to be quite easy to squish it.
+~
+4382824 0 -300 E
+75 -15 -10 1d15+6500 25d25+70
+67500 750000
+8 8 0
+E
+#3291
+red back spider~
+the red back spider~
+A red back spider is here, crawling inside its web.
+~
+You see a huge red dot on its back, you sure know it is a red back spider.
+It looks quite awful, but easy to kill.
+~
+4382792 0 -200 E
+75 -10 -10 2d12+3200 24d24+65
+67500 750000
+8 8 0
+E
+#3292
+crocodiles crocodile crocodil crocodi crocod croco croc cro~
+a crocodile~
+A huge crocodile is lying here, enjoying the sun.
+~
+You see a 2 feet long crocodile. It is dark green and has a really
+thick scaly body. It has extremly sharp teeth and a speedy movement.
+~
+5423208 128 -200 E
+70 -6 -3 11d16+2721 25d24+25
+55900 114599
+8 8 0
+E
+#3293
+strange strang stran stra str monsters monster monste monst mons mon~
+the strange monster~
+A strange monster is here, swimming on the river.
+~
+You see an awful looking monster. It doesn't look like anything, not
+a plant, nor an animal. It is just something that can move and will
+hurt people.
+~
+5488712 192 -400 E
+71 -11 -3 11d16+2745 25d26+24
+10000 710000
+8 8 0
+E
+#3294
+book bookworm worm~
+Bookworm~
+The Bookworm is here reading quietly.
+~
+This funny little person, if you can call him that, spends his
+whole life in the library reading books. Imagine how smart he must be.
+~
+2120 8 -50 E
+70 -15 -3 11d16+2751 25d25+35
+34025 124578
+6 6 1
+E
+#3295
+seamstress shopkeeper~
+a seamstress~
+A lovely young seamstress is sitting here
+~
+This young woman will sell you her silk scarves if you ask kindly
+~
+7596122 33554620 -100 E
+70 -32 -10 17d26+3351 20d20+74
+63000 700000
+6 6 2
+E
+#3296
+baker shopkeeper~
+a baker~
+The baker stands here trying to sell his delights
+~
+The baker is wearing his white apron covered in flower and a small
+white cap. He will sell you his fine delights if you ask kindly
+~
+7596122 33554620 -100 E
+70 -32 -10 17d26+3351 25d25+74
+63000 700000
+8 8 1
+E
+$

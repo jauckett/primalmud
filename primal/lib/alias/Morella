@@ -1,0 +1,21 @@
+kk backstab  merchant
+bb buy 5 bread;put all.bread backpack
+eb get bread backpack;eat bread
+dr drink skin
+ga get all corpse
+9 get all.gold all.corpse
+li look in corpse
+cc cast 'cure light'
+bre buy 4 recall
+rec recite recall
+br buy 10 red;put all.potion backpack
+qw get white backpack;quaff white
+qr get red backpack;quaff red
+bw buy 5 white; put all.potion backpack
+lib look in backpack
+ci cast 'infravision'
+cdi cast 'detect invis'
+ws wake;stand
+rs rem staff;hold backpack;get all corpse;rem backpack;hold staff
+k alias kk backstab $*;backstab $*
+j track buffalo

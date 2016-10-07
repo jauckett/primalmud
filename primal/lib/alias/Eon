@@ -1,0 +1,58 @@
+par c 'paralyze' $1
+sum c 'sum' $1
+sle c 'sleep' $1
+sleep c 'sleep' $1
+sense c 'sense' eon
+tsnake track snake
+he o fol assist eon
+rr cast 'word'
+cast 'word'
+r rest
+tk track knight
+ca cast 'armor' eon
+uu ungroup
+oo o followers k $
+vv cast 'infra' eon
+ts track storm
+cs cast 'sanc' eon
+5 cast 'fireball'
+rh rem hal
+rd rem dagger
+wh wie hal
+wd wie dagger
+x exit
+gac get all corpse
+cc cast 'cure light' eon
+ee l eon
+1 cast 'chill touch' 
+2 cast 'burning hands' 
+3 cast 'magicmissile' 
+4 cast 'shock'
+tt quaff tonic
+rs rem sup
+wss wie sabre
+ccs cast 'color'
+v cast 'infra' eon
+inv cast 'detect inv'
+cd cast 'dispel'
+hh quaff healing
+h cast 'heal' eon
+ii cast 'invis' eon
+dd cast 'dragon' eon
+f flee
+ff cast 'create food'
+ss o fol assist eon
+q quaff white
+det c 'detect inv' eon
+cl c 'color' l
+dl c 'dispel' l
+blind c 'blind' $1
+fire c 'fire' $1
+str c 'strength' $1
+refresh c 'refresh' $1
+charm c 'charm' $1
+plasma c 'plasma' $1
+pl c 'plasma' $1
+loc c 'locate object' $1
+heal c 'heal' $1
+gc get coin corpse

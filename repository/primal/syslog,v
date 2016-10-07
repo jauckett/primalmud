@@ -1,0 +1,1066 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.35;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.35;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@autorun starting game Mon Jan 24 10:07:54 GMT 2000
+Mon Jan 24 10:07:55 :: Running game on port 4000.
+Mon Jan 24 10:07:56 :: Using lib as data directory.
+Mon Jan 24 10:07:56 :: Opening mother connection.
+Mon Jan 24 10:07:56 :: Setting player limit to 50
+Mon Jan 24 10:07:56 :: Boot db -- BEGIN.
+Mon Jan 24 10:07:56 :: Resetting the game time:
+Mon Jan 24 10:07:56 ::    Current Gametime: 3H 15D 5M 464Y.
+Mon Jan 24 10:07:56 :: Reading news, credits, help, bground, areas, info & motds.
+Mon Jan 24 10:07:56 :: Opening help file.
+Mon Jan 24 10:07:56 :: Loading zone table.
+Mon Jan 24 10:07:57 :: Loading rooms.
+Mon Jan 24 10:08:07 :: Renumbering rooms.
+Mon Jan 24 10:08:08 :: Checking start rooms.
+Mon Jan 24 10:08:08 :: Loading mobs and generating index.
+Mon Jan 24 10:08:10 :: Loading objs and generating index.
+Mon Jan 24 10:08:12 :: Renumbering zone table.
+Mon Jan 24 10:08:12 :: Booting clan file.
+Mon Jan 24 10:08:12 :: Loading clan: rOsE cLuB.
+Mon Jan 24 10:08:12 :: Loading clan: Avengers.
+Mon Jan 24 10:08:12 :: Loading clan: Guardians of Justice.
+Mon Jan 24 10:08:12 :: Loading clan: Jedi.
+Mon Jan 24 10:08:12 :: Loading clan: USS Enterprise.
+Mon Jan 24 10:08:12 :: Generating player index.
+Mon Jan 24 10:08:12 ::    982 players in database.
+Mon Jan 24 10:08:13 :: Copying clan tables.
+Mon Jan 24 10:08:13 :: Loading fight messages.
+Mon Jan 24 10:08:13 :: Loading social messages.
+Mon Jan 24 10:08:13 :: Loading shops.
+Mon Jan 24 10:08:13 :: Assigning function pointers:
+Mon Jan 24 10:08:13 ::    Mobiles.
+Mon Jan 24 10:08:13 ::    Shopkeepers.
+Mon Jan 24 10:08:13 ::    Objects.
+Mon Jan 24 10:08:13 ::    Rooms.
+Mon Jan 24 10:08:13 ::    Spells.
+Mon Jan 24 10:08:14 :: Sorting command list and spells.
+Mon Jan 24 10:08:14 :: Booting mail system.
+Mon Jan 24 10:08:14 ::    117600 bytes read.
+Mon Jan 24 10:08:14 ::    Mail file read -- 202 messages.
+Mon Jan 24 10:08:14 :: Reading banned site and invalid-name list.
+Mon Jan 24 10:08:14 :: Deleting timed-out crash and rent files:
+Mon Jan 24 10:08:15 ::     Deleting delusion's crash file.
+Mon Jan 24 10:08:17 ::     Deleting dragonis's rent file.
+Crash_clean john
+Crash_clean drax
+Crash_clean freako
+Crash_clean drax
+Crash_clean darius
+Crash_clean vader
+Crash_clean simba
+Crash_clean ace
+Crash_clean calrain
+Crash_clean gabe
+Crash_clean shadow
+Crash_clean god
+Crash_clean darth
+Crash_clean death
+Crash_clean eldnar
+Crash_clean cassandra
+Crash_clean daishi
+Crash_clean hppy
+Crash_clean deathblade
+Crash_clean friend
+Crash_clean trist
+Crash_clean karma
+Crash_clean talisman
+Crash_clean listy
+Crash_clean ruprect
+Crash_clean josh
+Crash_clean indiana
+Crash_clean conan
+Crash_clean angel
+Crash_clean delusion
+Crash_clean tarn
+Crash_clean rosebud
+Crash_clean ashaman
+Crash_clean nakor
+Crash_clean misty
+Crash_clean rokan
+Crash_clean nightwolf
+Crash_clean chevron
+Crash_clean kaer
+Crash_clean gnol
+Crash_clean smudge
+Crash_clean morgor
+Crash_clean jesse
+Crash_clean grimreaper
+Crash_clean jimmyjam
+Crash_clean roland
+Crash_clean ranger
+Crash_clean who
+Crash_clean flyer
+Crash_clean intan
+Crash_clean qwer
+Crash_clean dingo
+Crash_clean matrix
+Crash_clean scorfio
+Crash_clean xard
+Crash_clean newbie
+Crash_clean link
+Crash_clean lefty
+Crash_clean dracion
+Crash_clean walrus
+Crash_clean sixpax
+Crash_clean enlibrite
+Crash_clean bazz
+Crash_clean ultra
+Crash_clean backspace
+Crash_clean jedi
+Crash_clean valium
+Crash_clean waserns
+Crash_clean picklehead
+Crash_clean rhcp
+Crash_clean dangermouse
+Crash_clean ll
+Crash_clean drudge
+Crash_clean fireman
+Crash_clean talon
+Crash_clean qwert
+Crash_clean lulu
+Crash_clean murf
+Crash_clean kali
+Crash_clean raistlin
+Crash_clean uther
+Crash_clean smeg
+Crash_clean lestat
+Crash_clean telstar
+Crash_clean jade
+Crash_clean kermit
+Crash_clean george
+Crash_clean funki
+Crash_clean astro
+Crash_clean jose
+Crash_clean harpo
+Crash_clean virtual
+Crash_clean kodiak
+Crash_clean tsd
+Crash_clean clumz
+Crash_clean cerin
+Crash_clean dragonball
+Crash_clean pug
+Crash_clean ironeagle
+Crash_clean slarat
+Crash_clean rasputin
+Crash_clean moridin
+Crash_clean grimlock
+Crash_clean xaviar
+Crash_clean gizzie
+Crash_clean venom
+Crash_clean sierra
+Crash_clean keelar
+Crash_clean primer
+Crash_clean davinchi
+Crash_clean talis
+Crash_clean jed
+Crash_clean tetsuo
+Crash_clean winston
+Crash_clean iolaus
+Crash_clean viper
+Crash_clean fooey
+Crash_clean qwe
+Crash_clean boz
+Crash_clean 
+Crash_clean orin
+Crash_clean may
+Crash_clean crystal
+Crash_clean mulder
+Crash_clean rask
+Crash_clean cophen
+Crash_clean bagel
+Crash_clean zimoplaz
+Crash_clean tak
+Crash_clean winfield
+Crash_clean healer
+Crash_clean jnrmafia
+Crash_clean patto
+Crash_clean aphrodite
+Crash_clean zeddie
+Crash_clean nikaron
+Crash_clean fifty
+Crash_clean dan
+Crash_clean icysting
+Crash_clean gwydion
+Crash_clean nosfuratu
+Crash_clean tanthalis
+Crash_clean poison
+Crash_clean dontknow
+Crash_clean chiefchirpa
+Crash_clean stretch
+Crash_clean sherish
+Crash_clean lasome
+Crash_clean rickstar
+Crash_clean cailette
+Crash_clean aragorn
+Crash_clean anon
+Crash_clean halt
+Crash_clean jeatalong
+Crash_clean saphirrah
+Crash_clean eom
+Crash_clean dread
+Crash_clean sarong
+Crash_clean aazza
+Crash_clean djkd
+Crash_clean pow
+Crash_clean izlude
+Crash_clean penfold
+Crash_clean jupiter
+Crash_clean thewizard
+Crash_clean derkin
+Crash_clean amarok
+Crash_clean nelson
+Crash_clean blaze
+Crash_clean calin
+Crash_clean tait
+Crash_clean nathorn
+Crash_clean saturn
+Crash_clean madoc
+Crash_clean smeghead
+Crash_clean jester
+Crash_clean xemu
+Crash_clean grilla
+Crash_clean artek
+Crash_clean jake
+Crash_clean foo
+Crash_clean nerinda
+Crash_clean tool
+Crash_clean baldor
+Crash_clean stormbringer
+Crash_clean loza
+Crash_clean fox
+Crash_clean ranther
+Crash_clean malvina
+Crash_clean seona
+Crash_clean edo
+Crash_clean gunsblazing
+Crash_clean torch
+Crash_clean splat
+Crash_clean blossum
+Crash_clean somebody
+Crash_clean testcrap
+Crash_clean crapgod
+Crash_clean wolfrat
+Crash_clean mitts
+Crash_clean zikon
+Crash_clean gorilla
+Crash_clean moe
+Crash_clean treeborn
+Crash_clean yonex
+Crash_clean apelles
+Crash_clean pete
+Crash_clean jalehven
+Crash_clean stardancer
+Crash_clean psycho
+Crash_clean barelmosi
+Crash_clean ricky
+Crash_clean axon
+Crash_clean dragonis
+Crash_clean cielo
+Crash_clean kaylee
+Crash_clean jdkbagel
+Crash_clean imp
+Crash_clean irstupid
+Crash_clean vasheen
+Crash_clean byrd
+Crash_clean metawolf
+Crash_clean corona
+Crash_clean jagger
+Crash_clean thekiller
+Crash_clean romo
+Crash_clean quigon
+Crash_clean nodamnfeet
+Crash_clean bobalu
+Crash_clean carolus
+Crash_clean erekrose
+Crash_clean dreamweaver
+Crash_clean dmoc
+Crash_clean roj
+Crash_clean redfen
+Crash_clean fireball
+Crash_clean allison
+Crash_clean hhy
+Crash_clean fluppycat
+Crash_clean hope
+Crash_clean lfhbagel
+Crash_clean melvinnn
+Crash_clean rusty
+Crash_clean abraham
+Crash_clean raggor
+Crash_clean taymiyyah
+Crash_clean sammi
+Crash_clean anvil
+Crash_clean grinnin
+Crash_clean sameri
+Crash_clean naphtali
+Crash_clean kanyo
+Crash_clean laaban
+Crash_clean saint
+Crash_clean douger
+Crash_clean sainter
+Crash_clean sensen
+Crash_clean chippa
+Crash_clean ntrium
+Crash_clean valkor
+Crash_clean trevlyn
+Crash_clean warmech
+Crash_clean eon
+Crash_clean lilmei
+Crash_clean nightly
+Crash_clean badmark
+Crash_clean fenix
+Crash_clean mus
+Crash_clean therock
+Crash_clean mustdo
+Crash_clean freon
+Crash_clean qw
+Crash_clean urgan
+Crash_clean makros
+Crash_clean lynx
+Crash_clean relic
+Crash_clean dad
+Crash_clean koplio
+Crash_clean ortega
+Crash_clean acid
+Crash_clean jaegar
+Crash_clean jello
+Crash_clean house
+Crash_clean badger
+Crash_clean quo
+Crash_clean arglebargle
+Crash_clean sandii
+Crash_clean darthmaul
+Crash_clean rod
+Crash_clean testkarm
+Crash_clean boulder
+Crash_clean aldaris
+Crash_clean karmily
+Crash_clean pablo
+Crash_clean ajax
+Crash_clean djinn
+Crash_clean tempest
+Crash_clean bagkiller
+Crash_clean jagelbagel
+Crash_clean split
+Crash_clean splot
+Crash_clean creamweaver
+Crash_clean arianus
+Crash_clean krelian
+Crash_clean tryandgagme
+Crash_clean drj
+Crash_clean kraze
+Crash_clean draven
+Crash_clean amrak
+Crash_clean nilly
+Crash_clean darimus
+Crash_clean darkinferno
+Crash_clean panamon
+Crash_clean jaina
+Crash_clean reis
+Crash_clean gman
+Crash_clean anguish
+Crash_clean claude
+Crash_clean justin
+Crash_clean kaplen
+Crash_clean dude
+Crash_clean sadira
+Crash_clean usurper
+Crash_clean sokra
+Crash_clean peter
+Crash_clean bren
+Crash_clean splattoo
+Crash_clean villinous
+Crash_clean shraki
+Crash_clean charliedaniels
+Crash_clean madnut
+Crash_clean stolly
+Crash_clean mr
+Crash_clean songai
+Crash_clean sykobyrd
+Crash_clean splut
+Crash_clean mark
+Crash_clean hangtuah
+Crash_clean impaler
+Crash_clean chojin
+Crash_clean eagleman
+Crash_clean pie
+Crash_clean joedimaggio
+Crash_clean weary
+Crash_clean timely
+Crash_clean hagar
+Crash_clean gonna
+Crash_clean spunky
+Crash_clean madhut
+Crash_clean page
+Crash_clean ehrok
+Crash_clean geev
+Crash_clean fei
+Crash_clean fine
+Crash_clean reznor
+Crash_clean vashti
+Crash_clean apocolypse
+Crash_clean lex
+Crash_clean talps
+Crash_clean ebox
+Crash_clean foreplay
+Crash_clean blitz
+Crash_clean orgy
+Crash_clean isaah
+Crash_clean eobacca
+Crash_clean jager
+Crash_clean demitry
+Crash_clean zule
+Crash_clean vegetto
+Crash_clean don
+Crash_clean ames
+Crash_clean arcam
+Crash_clean wolfiejas
+Crash_clean natedawg
+Crash_clean buffalo
+Crash_clean kcitskcuf
+Crash_clean acronym
+Crash_clean krelf
+Crash_clean wildcat
+Crash_clean atomicwar
+Crash_clean anderson
+Crash_clean youtowpeia
+Crash_clean jman
+Crash_clean manic
+Crash_clean taps
+Crash_clean vassago
+Crash_clean elad
+Crash_clean shabang
+Crash_clean saligh
+Crash_clean razor
+Crash_clean gandalf
+Crash_clean bakuryu
+Crash_clean bardock
+Crash_clean loki
+Crash_clean octopussy
+Crash_clean raven
+Crash_clean druss
+Crash_clean santos
+Crash_clean eaterofthedead
+Crash_clean keoki
+Crash_clean grim
+Crash_clean whothef
+Crash_clean drey
+Crash_clean jim
+Crash_clean anj
+Crash_clean bless
+Crash_clean nbsnotrrv
+Crash_clean pinz
+Crash_clean right
+Crash_clean ruoln
+Crash_clean enigma
+Crash_clean dipsy
+Crash_clean kalandor
+Crash_clean makar
+Crash_clean jase
+Crash_clean mulchy
+Crash_clean todkopf
+Crash_clean fistandantilus
+Crash_clean soulchaser
+Crash_clean dune
+Crash_clean athena
+Crash_clean 
+Crash_clean killion
+Crash_clean iceprincess
+Crash_clean teki
+Crash_clean darikan
+Crash_clean fortytwo
+Crash_clean macros
+Crash_clean icefox
+Crash_clean gunner
+Crash_clean baby
+CrashMon Jan 24 10:08:17 ::     Deleting hermen's rent file.
+_clean hiro
+Crash_clean doq
+Crash_clean tolann
+Crash_clean raj
+Crash_clean ahrimane
+Crash_clean potato
+Crash_clean redred
+Crash_clean gilthanas
+Crash_clean blur
+Crash_clean pizza
+Crash_clean ree
+Crash_clean orco
+Crash_clean spindrift
+Crash_clean seth
+Crash_clean lanthus
+Crash_clean kloud
+Crash_clean ada
+Crash_clean Úˇøv˝@@ÏùÏàÚˇøÚˇø∞Úˇøˇˇˇˇ∞ÚˇøÚˇøg¥Ëx	@@}
+Crash_clean foxfire
+Crash_clean adam
+Crash_clean zabra
+Crash_clean zeilb
+Crash_clean derfel
+Crash_clean jononelson
+Crash_clean oliver
+Crash_clean luke
+Crash_clean lucas
+Crash_clean xandeth
+Crash_clean sanstor
+Crash_clean darian
+Crash_clean coma
+Crash_clean eliena
+Crash_clean darkblade
+Crash_clean dangermice
+Crash_clean mousetrap
+Crash_clean carrie
+Crash_clean kronin
+Crash_clean sartori
+Crash_clean valor
+Crash_clean lore
+Crash_clean cask
+Crash_clean taigan
+Crash_clean dagger
+Crash_clean 
+Crash_clean xian
+Crash_clean callan
+Crash_clean dale
+Crash_clean telim
+Crash_clean phoenix
+Crash_clean calmarr
+Crash_clean cnt
+Crash_clean 
+Crash_clean balaban
+Crash_clean sutekh
+Crash_clean keshik
+Crash_clean dern
+Crash_clean kaine
+Crash_clean gouki
+Crash_clean carnage
+Crash_clean colleen
+Crash_clean leaper
+Crash_clean lothar
+Crash_clean alarashan
+Crash_clean centrion
+Crash_clean aclor
+Crash_clean dilgar
+Crash_clean archimedes
+Crash_clean star
+Crash_clean blurfox
+Crash_clean sorcam
+Crash_clean hctib
+Crash_clean altec
+Crash_clean marok
+Crash_clean rikk
+Crash_clean id
+Crash_clean gobo
+Crash_clean defiance
+Crash_clean deathportal
+Crash_clean nimpf
+Crash_clean urgat
+Crash_clean darchangel
+Crash_clean hermen
+Crash_clean tan
+Crash_clean test
+Crash_clean jaeuhl
+Crash_clean tereon
+Crash_clean bruenor
+Crash_clean wickedclown
+Crash_clean hunter
+Crash_clean emberdion
+Crash_clean dacron
+Crash_clean ethernet
+Crash_clean siranush
+Crash_clean warrior
+Crash_clean heeeee
+Crash_clean conor
+Crash_clean klepto
+Crash_clean sirknight
+Crash_clean cer
+Crash_clean mrmethane
+Crash_clean xemorph
+Crash_clean gemini
+Crash_clean kakarian
+Crash_clean editor
+Crash_clean annie
+Crash_clean calmer
+Crash_clean juel
+Crash_clean tilan
+Crash_clean malcolm
+Crash_clean buff
+Crash_clean samstar
+Crash_clean dsgjk
+Crash_clean suery
+Crash_clean karmasuxdrac
+Crash_clean riverwind
+Crash_clean sturm
+Crash_clean arvad
+Crash_clean mors
+Crash_clean crystalfox
+Crash_clean eros
+Crash_clean oi
+Crash_clean ithimus
+Crash_clean laz
+Crash_clean exile
+Crash_clean karadon
+Crash_clean badboy
+Crash_clean kith
+Crash_clean greenwing
+Crash_clean tanamaka
+Crash_clean morgion
+Crash_clean galimir
+Crash_clean cestral
+Crash_clean carma
+Crash_clean goose
+Crash_clean tanis
+Crash_clean savin
+Crash_clean fraser
+Crash_clean colby
+Crash_clean kenny
+Crash_clean nocturno
+Crash_clean lilith
+Crash_clean draeven
+Crash_clean skiewolf
+Crash_clean lokar
+Crash_clean mud
+Crash_clean tasha
+Crash_clean blackout
+Crash_clean narco
+Crash_clean lernin
+Crash_clean s€ ˇˇˇˇgê
+Crash_clean kaidok
+Crash_clean kodyak
+Crash_clean anallyraped
+Crash_clean farrix
+Crash_clean zugg
+Crash_clean reese
+Crash_clean 
+Crash_clean sparkle
+Crash_clean allura
+Crash_clean rocky
+Crash_clean growon
+Crash_clean caramon
+Crash_clean karms
+Crash_clean etidorpha
+Crash_clean mez
+Crash_clean uktena
+Crash_clean triana
+Crash_clean operia
+Crash_clean wtf
+Crash_clean nemisis
+Crash_clean dallandra
+Crash_clean stinky
+Crash_clean honda
+Crash_clean logo
+Crash_clean zixtoz
+Crash_clean varos
+Crash_clean nightwing
+Crash_clean strider
+Crash_clean audakar
+Crash_clean melvin
+Crash_clean enkar
+Crash_clean ilana
+Crash_clean elliot
+Crash_clean serin
+Crash_clean bethie
+Crash_clean jedah
+Crash_clean ollie
+Crash_clean haplo
+Crash_clean nagahide
+Crash_clean cataha
+Crash_clean jordash
+Crash_clean fluff
+Crash_clean torlan
+Crash_clean skadj
+Crash_clean iori
+Crash_clean doodle
+Crash_clean calibus
+Crash_clean athalia
+Crash_clean wooffee
+Crash_clean baz
+Crash_clean lucient
+Crash_clean cozmic
+Crash_clean scrooge
+Crash_clean kefka
+Crash_clean kezz
+Crash_clean malebolgia
+Crash_clean arn
+Crash_clean derick
+Crash_clean kairi
+Crash_clean lupine
+Crash_clean rune
+Crash_clean nali
+Crash_clean fors
+Crash_clean insane
+Crash_clean samMon Jan 24 10:08:17 ::     Deleting macropus's rent file.
+Mon Jan 24 10:08:17 ::     Deleting frekk's rent file.
+Mon Jan 24 10:08:17 ::     Deleting rena's rent file.
+Mon Jan 24 10:08:17 ::     Deleting merdi's rent file.
+Mon Jan 24 10:08:17 ::     Deleting killer's rent file.
+Mon Jan 24 10:08:17 ::     Deleting zilla's rent file.
+Mon Jan 24 10:08:17 ::     Deleting dakoth's rent file.
+Mon Jan 24 10:08:17 ::     Deleting aso's rent file.
+Mon Jan 24 10:08:17 ::     Deleting gwar's rent file.
+Mon Jan 24 10:08:18 ::     Deleting proteus's rent file.
+Mon Jan 24 10:08:18 ::     Deleting givrak's rent file.
+Mon Jan 24 10:08:18 ::     Deleting dream's rent file.
+
+Crash_clean valsacar
+Crash_clean laney
+Crash_clean edith
+Crash_clean myona
+Crash_clean elvander
+Crash_clean shadowmage
+Crash_clean guybrush
+Crash_clean dante
+Crash_clean impress
+Crash_clean burke
+Crash_clean devil
+Crash_clean endore
+Crash_clean ramirez
+Crash_clean meridan
+Crash_clean sephiroth
+Crash_clean bone
+Crash_clean soth
+Crash_clean bum
+Crash_clean vesher
+Crash_clean alder
+Crash_clean lonin
+Crash_clean heilan
+Crash_clean rothar
+Crash_clean sheila
+Crash_clean marauder
+Crash_clean dierdre
+Crash_clean trunks
+Crash_clean samwyse
+Crash_clean finul
+Crash_clean wilcok
+Crash_clean ren
+Crash_clean halo
+Crash_clean groth
+Crash_clean wade
+Crash_clean demosthenes
+Crash_clean kanze
+Crash_clean blex
+Crash_clean cameron
+Crash_clean altaras
+Crash_clean dominique
+Crash_clean shadowstar
+Crash_clean mina
+Crash_clean 
+Crash_clean snag
+Crash_clean curly
+Crash_clean galadriel
+Crash_clean gosshawk
+Crash_clean joshua
+Crash_clean fred
+Crash_clean style
+Crash_clean raevan
+Crash_clean yawgmoth
+Crash_clean malaclypse
+Crash_clean altaras
+Crash_clean 
+Crash_clean candy
+Crash_clean fudludru
+Crash_clean chloe
+Crash_clean nighthawk
+Crash_clean luna
+Crash_clean rappas
+Crash_clean goooooop
+Crash_clean quantumstarr
+Crash_clean gohan
+Crash_clean regrebnedor
+Crash_clean xavqwyrus
+Crash_clean goka
+Crash_clean beldin
+Crash_clean eric
+Crash_clean mariko
+Crash_clean fathom
+Crash_clean volrath
+Crash_clean fumad
+Crash_clean krogg
+Crash_clean merilla
+Crash_clean loxxy
+Crash_clean bumba
+Crash_clean charn
+Crash_clean mchammer
+Crash_clean mrhappy
+Crash_clean milana
+Crash_clean jestor
+Crash_clean siceros
+Crash_clean krothor
+Crash_clean kys
+Crash_clean amanda
+Crash_clean kyoo
+Crash_clean adilaadilaaasdad
+Crash_clean balista
+Crash_clean valamos
+Crash_clean neslor
+Crash_clean sturt
+Crash_clean melar
+Crash_clean megs
+Crash_clean james
+Crash_clean grym
+Crash_clean kaprifol
+Crash_clean abriel
+Crash_clean gandesh
+Crash_clean bathazart
+Crash_clean jack
+Crash_clean archangelx
+Crash_clean charles
+Crash_clean precipice
+Crash_clean moessteedsaphirrah
+Crash_clean moridinsbrain
+Crash_clean bbbbllllooowwwme
+Crash_clean hal
+Crash_clean cartman
+Crash_clean robby
+Crash_clean viro
+Crash_clean paul
+Crash_clean drake
+Crash_clean ddaveeqq
+Crash_clean storphi
+Crash_clean rerox
+Crash_clean guyver
+Crash_clean crosis
+Crash_clean 
+Crash_clean fecesboy
+Crash_clean jesus
+Crash_clean glenn
+Crash_clean rylen
+Crash_clean smig
+Crash_clean chris
+Crash_clean raek
+Crash_clean tonk
+Crash_clean belgarath
+Crash_clean blade
+Crash_clean duke
+Crash_clean jedicobb
+Crash_clean velluto
+Crash_clean mikey
+Crash_clean laura
+Crash_clean 
+Crash_clean aphex
+Crash_clean toran
+Crash_clean dragon
+Crash_clean slasher
+Crash_clean 
+Crash_clean fyre
+Crash_clean meryc
+Crash_clean alessio
+Crash_clean stildon
+Crash_clean horace
+Crash_clean arkias
+Crash_clean kaervek
+Crash_clean courage
+Crash_clean shifty
+Crash_clean òÛˇøv˝@@4ëyæÙˇøòÛˇø@@Ùˇøˇˇˇˇ@@ÙˇøòÛˇøodËx	@@}
+Crash_clean bane
+Crash_clean kywin
+Crash_clean chan
+Crash_clean solitude
+Crash_clean boner
+Crash_clean djaa
+Crash_clean kirlan
+Crash_clean fetch
+Crash_clean akhkharu
+Crash_clean change
+Crash_clean milk
+Crash_clean voland
+Crash_clean hook
+Crash_clean 
+Crash_clean idimmu
+Crash_clean edge
+Crash_clean demon
+Crash_clean klim
+Crash_clean method
+Crash_clean macropus
+Crash_clean judah
+Crash_clean tarkin
+Crash_clean pyrok
+Crash_clean jp
+Crash_clean smagson
+Crash_clean hellbound
+Crash_clean claw
+Crash_clean mordaken
+Crash_clean souls
+Crash_clean bruja
+Crash_clean krillen
+Crash_clean evol
+Crash_clean thewiz
+Crash_clean scorpio
+Crash_clean kurtz
+Crash_clean camber
+Crash_clean greg
+Crash_clean tweeky
+Crash_clean yoda
+Crash_clean miffen
+Crash_clean frekk
+Crash_clean leshrac
+Crash_clean rena
+Crash_clean merdi
+Crash_clean killer
+Crash_clean zilla
+Crash_clean dakoth
+Crash_clean aso
+Crash_clean genger
+Crash_clean kahmoon
+Crash_clean gwar
+Crash_clean porky
+Crash_clean proteus
+Crash_clean pez
+Crash_clean givrak
+Crash_clean dream
+Crash_clean begin
+Crash_clean valera
+Crash_clean necrophilus
+Crash_clean kronitor
+Crash_clean hayden
+Crash_clean drelic
+Crash_clean witchfire
+Crash_clean Mon Jan 24 10:08:19 :: Done.
+Mon Jan 24 10:08:19 :: Resetting Haven (rooms 0-199).
+Mon Jan 24 10:08:19 :: Resetting Estate (rooms 200-499).
+Mon Jan 24 10:08:19 :: Resetting Reception (rooms 500-599).
+Mon Jan 24 10:08:19 :: Resetting Plains (rooms 600-799).
+Mon Jan 24 10:08:19 :: Resetting Desert (rooms 800-899).
+Mon Jan 24 10:08:19 :: Resetting Gods special (rooms 900-999).
+Mon Jan 24 10:08:19 :: Resetting Moathouse (rooms 1000-1099).
+Mon Jan 24 10:08:19 :: Resetting Selva Road (rooms 1100-1599).
+Mon Jan 24 10:08:19 :: Resetting Graveyard (rooms 1600-1749).
+Mon Jan 24 10:08:19 :: Resetting Moanders Domain (rooms 1750-1899).
+Mon Jan 24 10:08:19 :: Resetting Tunnel (rooms 1900-1999).
+Mon Jan 24 10:08:19 :: Resetting The Crystal Castle (rooms 2000-2099).
+Mon Jan 24 10:08:19 :: Resetting Ershteep Road and City (rooms 2100-2199).
+Mon Jan 24 10:08:19 :: Resetting Spiral (rooms 2200-2399).
+Mon Jan 24 10:08:19 :: Resetting Magic: The Gathering (rooms 2400-2799).
+Mon Jan 24 10:08:19 :: Resetting Camelot zone (rooms 2800-3199).
+Mon Jan 24 10:08:19 :: Resetting Scorpion Swamp  (rooms 3200-3560).
+Mon Jan 24 10:08:19 :: Resetting Khulgru's Lost Empire (rooms 3561-4199).
+Mon Jan 24 10:08:19 :: Resetting The Fairytale Forest (rooms 4200-4487).
+Mon Jan 24 10:08:19 :: Resetting The Tag ARENA! (rooms 4488-4556).
+Mon Jan 24 10:08:19 :: Resetting Mortal Kombat ARENA (rooms 4557-4560).
+Mon Jan 24 10:08:19 :: Resetting The Quest (rooms 4561-4700).
+Mon Jan 24 10:08:19 :: Resetting Ancient Greece (rooms 4701-4918).
+Mon Jan 24 10:08:19 :: Resetting Wilderness (rooms 4919-5099).
+Mon Jan 24 10:08:19 :: Resetting The Holy City  (rooms 5100-5399).
+Mon Jan 24 10:08:19 :: Resetting Mountains (rooms 5400-5599).
+Mon Jan 24 10:08:19 :: Resetting Black Tower (rooms 5600-5899).
+Mon Jan 24 10:08:19 :: Resetting Aqua Marina (rooms 5900-6399).
+Mon Jan 24 10:08:19 :: Resetting Rand's Tower (rooms 6400-7051).
+Mon Jan 24 10:08:19 :: Resetting Three of Swords (rooms 7052-7175).
+Mon Jan 24 10:08:19 :: Resetting Werith's Wayhouse (rooms 7176-8040).
+Mon Jan 24 10:08:19 :: Resetting Tudor (rooms 8041-8210).
+Mon Jan 24 10:08:19 :: Resetting Lhankwood (rooms 8211-8399).
+Mon Jan 24 10:08:19 :: Resetting Eliqua River (rooms 8400-8499).
+Mon Jan 24 10:08:19 :: Resetting Rushmoor swamp (rooms 8500-8599).
+Mon Jan 24 10:08:19 :: Resetting Pirate's ship (rooms 8600-8699).
+Mon Jan 24 10:08:19 :: Resetting Island (rooms 8700-8799).
+Mon Jan 24 10:08:19 :: Resetting Danger Island (rooms 8800-8999).
+Mon Jan 24 10:08:19 :: Resetting Toyheim (rooms 9000-9050).
+Mon Jan 24 10:08:19 :: Resetting Corridor of the worlds. (rooms 9051-9090).
+Mon Jan 24 10:08:19 :: Resetting Shadow Keep (rooms 9091-9599).
+Mon Jan 24 10:08:19 :: Resetting fort hope (rooms 9600-9999).
+Mon Jan 24 10:08:19 :: Resetting Darask (rooms 10000-10050).
+Mon Jan 24 10:08:19 :: Resetting The Island Forever (rooms 10051-10350).
+Mon Jan 24 10:08:19 :: SYSERR: error in zone file: unknown cmd in reset table!
+Mon Jan 24 10:08:19 :: SYSERR: ...offending cmd: '
+Mon Jan 24 10:08:19 :: Resetting An Odd House (rooms 10351-10720).
+Mon Jan 24 10:08:19 :: Resetting The Lost Valley (rooms 10721-11129).
+Mon Jan 24 10:08:19 :: Resetting Rome (rooms 11130-12099).
+Mon Jan 24 10:08:19 :: Resetting Rockridge (rooms 12100-13199).
+Mon Jan 24 10:08:19 :: Resetting City of HOPE (rooms 13200-13299).
+Mon Jan 24 10:08:19 :: Resetting Saloon (rooms 13300-13347).
+Mon Jan 24 10:08:19 :: Resetting Whore House (rooms 13348-13547).
+Mon Jan 24 10:08:19 :: Resetting Blue Creek (rooms 13548-13900).
+Mon Jan 24 10:08:19 :: Resetting Angel Grove (rooms 13901-20150).
+Mon Jan 24 10:08:19 :: Resetting Lunar City IV (rooms 20151-22099).
+Mon Jan 24 10:08:19 :: Resetting Vader's Proc Rooms (rooms 22100-22399).
+Mon Jan 24 10:08:19 :: Resetting Moon (rooms 22400-23099).
+Mon Jan 24 10:08:19 :: Resetting Tatooine Desert (rooms 23100-24099).
+Mon Jan 24 10:08:19 :: Resetting Mos Eisley Starport (rooms 24100-25099).
+Mon Jan 24 10:08:19 :: Resetting Jabba's Palace (rooms 25100-26099).
+Mon Jan 24 10:08:19 :: Resetting The Sphere (rooms 26100-28000).
+Mon Jan 24 10:08:19 :: Resetting Perseid Mining Colony Base (rooms 28001-29100).
+Mon Jan 24 10:08:19 :: Resetting Bablyon 5 (rooms 29101-30300).
+Mon Jan 24 10:08:19 :: Booting houses.
+Mon Jan 24 10:08:19 :: Initialising gambling structures.
+Mon Jan 24 10:08:19 :: Boot db -- DONE.
+Mon Jan 24 10:08:19 :: Signal trapping.
+Mon Jan 24 10:08:20 :: Entering game loop.
+Mon Jan 24 10:08:20 :: No connections.  Going to sleep.
+Mon Jan 24 10:09:52 :: New connection.  Waking up.
+Mon Jan 24 10:09:58 :: Sandii retrieving crash-saved items and entering game.
+Mon Jan 24 10:14:59 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 10:20:01 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 10:25:03 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 10:30:01 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 10:35:03 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 10:40:06 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 10:45:12 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 10:50:13 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 10:53:49 :: Sandii has quit the game.
+Mon Jan 24 10:53:50 :: Losing player: Sandii.
+Mon Jan 24 10:53:50 :: No connections.  Going to sleep.
+Mon Jan 24 11:53:02 :: New connection.  Waking up.
+Mon Jan 24 11:53:25 :: Talisman retrieving crash-saved items and entering game.
+Mon Jan 24 11:53:44 :: Talisman has quit the game.
+Mon Jan 24 11:53:47 :: Losing player: Talisman.
+Mon Jan 24 11:53:47 :: No connections.  Going to sleep.
+Mon Jan 24 15:32:17 :: New connection.  Waking up.
+Mon Jan 24 15:32:25 :: Sandii un-renting and entering game.
+Mon Jan 24 15:32:32 :: Sandii has quit the game.
+Mon Jan 24 15:32:36 :: EOF on socket read (connection broken by peer)
+Mon Jan 24 15:32:36 :: Losing player: Sandii.
+Mon Jan 24 15:32:36 :: No connections.  Going to sleep.
+Mon Jan 24 17:45:35 :: New connection.  Waking up.
+Mon Jan 24 17:45:48 :: Dangermouse un-renting and entering game.
+Mon Jan 24 17:46:16 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 17:51:17 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 17:56:17 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:01:18 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:06:18 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:11:18 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:16:19 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:21:19 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:26:19 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:31:20 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:36:20 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:41:20 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:46:21 :: nusage: 1   sockets connected, 1   sockets playing
+Mon Jan 24 18:51:17 :: Dangermouse has quit the game.
+Mon Jan 24 18:51:17 :: Losing player: Dangermouse.
+Mon Jan 24 18:51:17 :: No connections.  Going to sleep.
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

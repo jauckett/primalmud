@@ -1,0 +1,15 @@
+km kick merchant
+tm track merchant
+joga get $1 back;junk $1
+bag put all back
+ac wake;stand
+food cast 'create food';eat mushroom
+agua get skin backpack;drink water
+pao get bread backpack;eat bread
+oi exa backpack
+come get meat backpack;eat meat
+bh cast 'burnig hands' $1
+mm cast 'magic missile' $1
+pega get all corpse
+peg get all
+cl cast 'cure light'

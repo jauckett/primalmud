@@ -1,0 +1,7 @@
+em cast 'create food' ; eat mush
+ble cast 'bless' $*
+tc tell cerin $*
+ggc get gold all.corpse
+jc get corpse 
+lic look in corpse
+ds drink skin

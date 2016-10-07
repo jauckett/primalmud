@@ -1,0 +1,60 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@mm cast 'magic missile' $1
+ad ass dracion
+loot get all all.corpse
+prb put all.red backpack
+] get all.red backpack
+rr recite recall
+slp c 'sleep' $1
+8 c 'detect invisibility' gwain
+[ q red
+4 get all.gold all.corpse
+88 c 'invisibility' gwain
+0 get all all.corpse
+bs backstab $1
+9 c 'infravision' gwain
+7 c 'creat water' skin
+1 rem oak
+1111 wield oak staff
+br buy 20 red
+tr track $1
+lb c 'lightning bolt' $1
+11 wie super soaker 2000
+111 rem super soaker 2000
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

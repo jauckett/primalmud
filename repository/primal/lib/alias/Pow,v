@@ -1,0 +1,80 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@wh c 'whirlwind'
+1 b steed
+q quaff healing
+te c 'teleport'
+ref c 'refresh'
+op order followers $1 $2
+b5 e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;e;e;s;go portal;e;s;s;s;s;s;s;e;e;e;e;go shuttle;n;w;w;n;e;u;u;u;u;u;u;u;u;w;s;w;unlock door;open door;w;get all;e;e;n;e;u;u;u;u;w;n;n;n;unlock door;open door;e;e;get all;w;c 'word';n;n;n;n;e;go box;s;e;e;s;sell star
+aa rem dagger;wield quenched
+kc kick clone
+fin c 'finger of death'
+opp order 2.clone $1 $2
+rc c 'remove curse' $1
+hl c 'heal' $1
+wr c 'word'
+ki kick
+sanc c 'sanc' $1
+10e e;e;e;e;e;e;e;e;e;e
+gac get all corpse
+ar c 'armor'
+cl c 'clone'
+inf c 'infravision'
+dr c 'dragon'
+a rem dagger;wield whip
+z rem whip;wield dagger
+lo c 'locate' $1
+sum c 'summon' $1
+gc get gold corpse
+inv c 'invis'
+di c 'detect invis'
+invs c 'invis' $1
+wb c 'waterbreath'
+arm c 'armor' $1
+2 backstab guard
+has c 'haste'
+sa c 'spirit armor'
+f retreat
+h c 'advanced heal'
+ho c 'advanced heal' $1
+sw spy west
+sn spy north
+ss spy south
+se spy east
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

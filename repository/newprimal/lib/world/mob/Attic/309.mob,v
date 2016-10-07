@@ -1,0 +1,52 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.09.16.10.26.54;	author mud;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.07.11.23.50.46;	author artus;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@$
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@@
+
+
+1.1
+log
+@Artus - For Tali.
+@
+text
+@d1 1
+@
+

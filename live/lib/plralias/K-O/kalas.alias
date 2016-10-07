@@ -1,0 +1,35 @@
+5
+water
+22
+cast 'create wat' skin
+0
+4
+detm
+22
+cast 'detect magic' $1
+1
+4
+deti
+22
+cast 'detect invis' $1
+1
+3
+hot
+14
+cast 'burn' $1
+1
+3
+sho
+15
+cast 'shock' $1
+1
+3
+foo
+16
+cast 'create foo
+0
+2
+mm
+15
+cast 'magic' $1
+1

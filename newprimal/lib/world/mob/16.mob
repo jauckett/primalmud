@@ -1,0 +1,194 @@
+#1601
+skeleton~
+a Skeleton~
+A Skeleton is standing here rattling it's bones at you
+~
+You see an extremely dead person here. It's bones have been 
+bleached white and it appears to be grinning back at you in an evil manner. 
+~
+204 1024 0 E
+5 15 12 1d20+50 3d5+3
+2012 1000
+8 8 0
+E
+#1602
+ghost~
+a ghost~
+A ghost is hovering here with evil intent
+~
+You see a ghost hovering above the ground. You can actually see 
+straight through it to the graves beyond.
+~
+18508 1066 -20 E
+7 13 11 4d20+40 6d6+5
+3700 6000
+8 8 0
+E
+#1603
+owl~
+an owl~
+A large brown owl is standing here blinking innocently 
+~
+You see a large bird with huge yellow eyes peering back at you in a 
+harmless manner. 
+~
+76 1024 100 E
+4 16 12 1d20+28 4d4+2
+600 500
+8 8 0
+E
+#1604
+spider small~
+a small spider~
+A small spider is scurrying around on the ground
+~
+You see a small spider with yellow strips on it's back. It looks 
+harmless enough but it may have a deadly bite.
+~
+109 1024 -20 E
+2 18 15 1d20+18 3d3+1
+372 490
+8 8 0
+E
+#1605
+snake brown~
+a brown snake~
+A brown snake is lying here baking it's skin in the sunshine 
+~
+You look at a long vicious looking brown snake. 
+It's fangs are awfully long and they drip with venom. 
+~
+16457 1024 -10 E
+3 17 12 1d20+30 4d4+2
+500 600
+8 8 0
+E
+#1606
+caretaker~
+the Caretaker~
+The Caretaker is standing here waiting for another corpse to bury
+~
+You see the grave digger looking back at you with anticipation. 
+He is thinking of the last grave he dug waiting to be filled.
+~
+18506 1024 0 E
+12 5 9 1d20+130 9d9+5
+6100 15000
+8 8 1
+E
+#1607
+cat~
+a black cat~
+A black cat is sitting here looking for rats to eat
+~
+You see a black cat with big green eyes looking back at you. 
+~
+76 1024 0 E
+2 18 15 1d20+18 2d3+1
+323 270
+8 8 0
+E
+#1608
+ghast~
+a ghast~
+A Ghast stands here waiting for it's next victim
+~
+You see a hideous creature that was once a citizen of Haven. 
+It's skin is a putrid grey and has a horrendous odor to it. 
+~
+46 1024 -30 E
+8 12 11 1d20+90 6d4+6
+3790 8000
+8 8 0
+E
+#1609
+mummy~
+the mummy~
+A mummy is lurking here waiting to devour someone
+~
+You see a rotting corpse wrapped in putrid rags lurching towards you. 
+The smell is horrendous and you are gasping for breath. 
+~
+204 1024 -5 E
+7 13 13 1d20+120 3d8+5
+4220 7000
+8 8 0
+E
+#1610
+shadow~
+Your shadow~
+A shadow of you stands here 
+~
+You look at the shadow and it is like looking into the mirror. 
+~
+72 1024 0 E
+4 16 13 1d20+38 2d6+1
+3000 4000
+8 8 0
+E
+#1611
+rat huge~
+a huge rat~
+A huge dirty rat is twitching it's nose in the air
+~
+You see a large black rat standing here with a long dirty tail 
+and flees jumping all over it and onto you. 
+~
+204 1024 0 E
+3 17 12 1d20+20 2d5+1
+540 1100
+8 9 0
+E
+#1612
+undead~
+the undead corpse~
+A undead corpse of a late friend of yours is standing here  
+~
+You look apon something that was once human. The stench is 
+horrendous and the flesh falling of it's body repulses you. 
+~
+78 1024 -10 E
+5 15 13 1d20+40 3d5+4
+3000 3000
+8 8 0
+E
+#1613
+solar~
+Solar~
+Solar is standing here 
+~
+You look apon a corpse that was once a god of haven. He now 
+rules the graveyard of haven with evil intent. 
+~
+18506 1160 20 E
+16 1 8 1d20+210 8d8+6
+10000 21000
+8 8 1
+E
+#1614
+undead~
+the undead corpse~
+A undead corpse of a late friend of yours is standing here  
+~
+You look apon something that was once human. The stench is 
+horrendous and the flesh falling of it's body repulses you. 
+~
+78 1024 -10 E
+5 15 14 1d20+40 3d6+4
+3000 3000
+8 8 0
+E
+#1615
+undead~
+the undead corpse~
+A undead corpse of a late friend of yours is standing here . 
+~
+You look apon something that was once human. The stench is 
+horrendous and the flesh falling of it's body repulses you. 
+~
+78 1024 -10 E
+5 15 12 1d20+40 4d4+4
+3000 3000
+8 8 0
+E
+$

@@ -1,0 +1,655 @@
+head	1.8;
+access;
+symbols
+	A3_0_59:1.2
+	LATEST:1.2
+	A3_0_1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.8
+date	2003.11.12.11.00.14;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2002.07.20.08.17.56;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2002.02.26.06.49.04;	author primal;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.02.14.06.10.19;	author primal;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.11.11.10.48.48;	author rod;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.11.11.04.58.09;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.01.22.22.16.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.01.20.16.35.18;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Artus>
+
+Files which have had log() replaced with basic_mud_log():
+
+act.informative.c, act.item.c, act.offensive.c, act.other.c, act.social.c,
+act.wizard.c, alias.c, balance.c, ban.c, boards.c, casino.c, castle.c, clan.c,
+class.c, comm.c, corpses.cpp, db.c, dg_db_scripts.c, dg_olc.c, dg_scripts.c,
+fight.c, genmob.c, genobj.c, genolc.c, genshp.c, genwld.c, genzon.c, graph.c,
+handler.c, house.c, improved-edit.c, interpreter.c, magic.c, mail.c, medit.c,
+mobact.c, modify.c, oasis.c, objsave.c, oedit.c, olc.c, redit.c, reports.cpp,
+shop.c, spec_assign.c, spec_procs.c, spell_parser.c, tedit.c, utils.c,
+utils.h, zedit.c.
+
+
+Files which have been cpp standardised (list.h => list, etc):
+
+comm.c, corpses.cpp, corpses.h, db.c, interpreter.c, modify.c, reports.cpp.
+
+
+Specific changes to reports.cpp, reports.h:
+
+Removed ofstream outReportFile, ofstream outChangeFile, and replaced them with
+FILE *s. Removed no-longer functional c++ random-access file handling and
+replaced it with straight C. Should be right from here on in..
+
+
+Specific changes to act.movement.c:
+
+Replaced log() with mudlog(), when logging players being killed by gravity.
+@
+text
+@using std::list;
+using std::ifstream;
+using std::ofstream;
+
+// Report state - used by Report::state
+#define REPORT_STATE_OPEN     0  // State is open - initial state
+#define REPORT_STATE_ASSESSED 1  // Assessed -  read by pers responsible
+#define REPORT_STATE_FEEDBACK 2  // Feedback - report has been fixed
+#define REPORT_STATE_CLOSED   3  // Closed - no longer active
+#define REPORT_STATE_DELETED  4  // Deleted - will not be loaded to list at boot
+
+#define NUM_REPORT_STATES     5
+
+// Report types - used by Report::type
+#define REPORT_TYPE_IDEA        0  // An idea
+#define REPORT_TYPE_TYPO        1  // A Typo - spelling mistake etc...
+#define REPORT_TYPE_TODO        2  // Todo report
+#define REPORT_TYPE_BUGCRASH    3  // Report causes a crash
+#define REPORT_TYPE_BUGBUILDING 4  // Report concerned with building
+#define REPORT_TYPE_BUGBALANCE  5  // Report concerned with balance (
+#define REPORT_TYPE_BUGOTHER    6  // Report doesnt fit other categories
+
+// Listing bug types only is done by displaying from
+// NUM_REPORT_TYPES - NUM_BUG_TYPES to NUM_REPORT_TYPES 
+// This way we can add additional bug types - no need to add other report
+// types on top of idea/typo/todo/bug
+#define NUM_BUG_TYPES           4  
+#define NUM_REPORT_TYPES        7
+
+// Adding/Editing state defines
+#define REPORT_STATE_MENU          0       // Add Menu
+#define REPORT_STATE_CONFIRM       1       // y or n save confirmation
+#define REPORT_STATE_LONGDESC      2       // Long Description
+#define REPORT_STATE_SHORTDESC     3       // Short Description
+#define REPORT_STATE_CHANGEDESC    4       // Change Description
+#define REPORT_STATE_TYPE          5       // Type of report 
+#define REPORT_STATE_STATE         6       // State of report
+#define REPORT_STATE_PLAYER        7       // Player ID/Name
+
+// Adding/Editing mode defines
+#define REPORT_MODE_BUG            0
+#define REPORT_MODE_TYPO           1
+#define REPORT_MODE_IDEA           2
+#define REPORT_MODE_TODO           3
+#define REPORT_MODE_LISTREPORT	   4
+#define REPORT_MODE_PRINTREPORT	   5
+
+// Adding/Editing macros
+#define REPORT(d)          ((Report *)(d)->report)
+#define REPORT_STATE(d)    (REPORT(d)->state)
+#define REPORT_MODE(d)     (REPORT(d)->mode)
+#define REPORT_MODIFIED(d) (REPORT(d)->modified)
+
+#define REPORT_SHORTDESC_LENGTH  80   // DO NOT CHANGE (read/written bin length)
+#define REPORT_LONGDESC_LENGTH  240  // DO NOT CHANGE (read/written bin length)
+
+// External vars
+extern const char *report_states[];
+extern const char *report_types[];
+
+
+void report_parse(struct descriptor_data *d, char *arg);
+void report_string_cleanup(struct descriptor_data *d, int terminator); 
+void getReportModeName(int mode, char *writeto);
+
+
+class ReportChange {
+  private:
+    int changeNum;
+    int reportNum;              // The report that this change belongs to
+    long playerId;              // The player which made this change
+    int fromState;              // The old state
+    int toState;                // The new state 
+    int fromType;               // The old type
+    int toType;                 // The new type
+    time_t changeTime;          // Time of change
+    ReleaseInfo changeRelease;  // Release info at change
+    char changeDescription[REPORT_SHORTDESC_LENGTH]; // Description of the chang
+
+  public:
+    // Default Constructor - initialise members
+    ReportChange() {
+      setChangeNum(0);
+      setReportNum(0);
+      setPlayerId(NOBODY);
+      setTime(time(0));
+      setDescription("");
+    };
+
+    // Contructs a ReportChange object with the given change details
+    ReportChange(int changeNum, int reportNum, long playerId, int fromState, 
+                 int toState, int fromType, int toType, time_t changeTime, 
+                 ReleaseInfo rel, char *changeDesc) {
+      setChangeNum(changeNum);
+      setReportNum(reportNum);
+      setPlayerId(playerId);
+      setFromState(fromState);
+      setToState(toState);
+      setFromType(fromType);
+      setToType(toType);
+      setTime(changeTime);
+      setRelease(rel);
+      setDescription(changeDesc);
+    };
+
+    // set functions
+    void setChangeNum(int changeNum) { ReportChange::changeNum = changeNum; };
+    void setReportNum(int reportNum) { ReportChange::reportNum = reportNum; };
+    void setPlayerId(long playerId) { ReportChange::playerId = playerId; };
+    void setTime(time_t time) { ReportChange::changeTime = time; };
+    void setFromState(int state) { ReportChange::fromState = state; };
+    void setToState(int state) { ReportChange::toState = state; };
+    void setFromType(int type) { ReportChange::fromType = type; };
+    void setToType(int type) { ReportChange::toType = type; };
+    void setRelease(ReleaseInfo rel) {
+      changeRelease = ReleaseInfo(rel.getMajor(), rel.getBranch(), 
+                      rel.getMinor(), rel.getTag(), rel.isCvsUpToDate(), rel.getDate());
+    }
+
+    void setDescription(char *changeDesc) {
+      if (*changeDesc) {
+        strncpy(changeDescription, changeDesc, REPORT_SHORTDESC_LENGTH); 
+	changeDescription[REPORT_SHORTDESC_LENGTH] = '\0';
+      } else {
+        changeDescription[0] = '\0';
+      }
+    };
+
+    // get functions
+    int getChangeNum() { return ReportChange::changeNum; };
+    int getReportNum() { return ReportChange::reportNum; };
+    long getPlayerId() { return ReportChange::playerId; };
+    int getFromState() { return ReportChange::fromState; };
+    int getToState() { return ReportChange::toState; };
+    int getFromType() { return ReportChange::fromType; };
+    int getToType() { return ReportChange::toType; };
+    time_t getTime() { return ReportChange::changeTime; };
+    char *getChangeDescription() { return ReportChange::changeDescription; };
+    ReleaseInfo getRelease() { return ReportChange::changeRelease; };
+
+    void printDetails(char *writeto);
+
+    // file realted functions
+    struct reportchange_file_elem toFileElem(); 
+
+    ~ReportChange() {};       // Destructor - nothing to do
+};
+
+
+class Report {
+  private:
+    long reporterId;            // Originator of report
+    long playerId;              // Person responsible for report
+    int reportNum;              // Report Number
+    int reportState;                  // Current status on report - see REPORT_STATE_XXX
+    int type;                   // Type of report reported = see REPORT_TYPE_XXX
+    char shortDescription[REPORT_SHORTDESC_LENGTH];  // Short desc about report
+    char longDescription[REPORT_LONGDESC_LENGTH];  // Long desc about report
+    room_vnum orgRoom;          // The room the player reported the report in
+    time_t orgTime;             // Time the report was reported  
+    ReleaseInfo orgRelease;     // Release information of initial report
+    list<ReportChange> changes;    // List of the changes made to report 
+
+    char changeDescription[REPORT_SHORTDESC_LENGTH]; // Reason for change - copied
+                                                  // straight to ReportChange
+                                                  // Used as temp for REPORT(d)
+
+  public:
+    int state;                  // Report adding/editing state - current state 
+    int mode;                   // Report adding/editing modes idea/report /typo/todo
+    int modified;               // Report adding/editing modified flag
+    
+    // Default Constructor - Initialise members 
+    Report() {
+      setPlayerId(NOBODY);
+      setReporterId(NOBODY);
+      setReportNum(0);
+      setState(REPORT_STATE_OPEN);
+      setType(REPORT_TYPE_BUGCRASH);
+      setShortDescription("");
+      setLongDescription("");
+      setChangeDescription("");
+      setOrgRoom(NOWHERE);
+      setOrgTime(time(0));
+
+      mode = -1;
+      modified = 0;
+    };
+    
+    // Constructs a Report object with the given report information
+    Report(long playerId, long reporterId, int reportNum, int state, int type, 
+              char *shortDesc, char *longDesc, room_vnum orgRoom, 
+              time_t orgTime, ReleaseInfo orgRel) {
+      setPlayerId(playerId);
+      setReporterId(reporterId);
+      setReportNum(reportNum);
+      setState(state);
+      setType(type);
+      setShortDescription(shortDesc);
+      setLongDescription(longDesc);
+      setChangeDescription("");
+      setOrgRoom(orgRoom);
+      setOrgTime(orgTime);
+      setRelease(orgRel);
+
+      mode = -1;
+      modified = 0;
+    };
+
+    // set functions
+    void setReporterId(long playerId) { Report::reporterId = playerId; };
+    void setPlayerId(long playerId) { Report::playerId = playerId; };
+    void setReportNum(int reportNum) { Report::reportNum = reportNum; };
+    void setState(int state) { Report::reportState = state; };
+    void setType(int type) { Report::type = type; };
+    void setOrgRoom(room_vnum orgRoom) { Report::orgRoom = orgRoom; };
+    void setOrgTime(time_t orgTime) { Report::orgTime = orgTime; };
+    void setRelease(ReleaseInfo release) { 
+      orgRelease = ReleaseInfo(release.getMajor(), release.getBranch(), 
+                      release.getMinor(), release.getTag(), 
+                      release.isCvsUpToDate(), release.getDate());
+    }; 
+    void setShortDescription(char *shortDesc) { 
+      if (*shortDesc) {
+        strncpy(shortDescription, shortDesc, REPORT_SHORTDESC_LENGTH); 
+	shortDescription[REPORT_SHORTDESC_LENGTH-1] = '\0';
+      } else {
+        shortDescription[0] = '\0';
+      }
+    };
+    void setLongDescription(char *longDesc) { 
+      if (*longDesc) {
+        strncpy(longDescription, longDesc, REPORT_LONGDESC_LENGTH); 
+	longDescription[REPORT_LONGDESC_LENGTH-1] = '\0';
+      } else {
+        longDescription[0] = '\0';
+      }
+    };
+    void setChangeDescription(char *changeDesc) {
+      if (*changeDesc) {
+        strncpy(changeDescription, changeDesc, REPORT_SHORTDESC_LENGTH);
+	changeDescription[REPORT_SHORTDESC_LENGTH-1] = '\0';
+      } else {
+        changeDescription[0] = '\0';
+      }
+    }
+
+    // get functions
+    long getReporterId() { return Report::reporterId; };
+    long getPlayerId() { return Report::playerId; };
+    int getReportNum() { return Report::reportNum; };
+    int getState() { return Report::reportState; };
+    int getType() { return Report::type; };
+    room_vnum getOrgRoom() { return Report::orgRoom; };
+    time_t getOrgTime() { return Report::orgTime; };
+    ReleaseInfo getOrgRelease() { return Report::orgRelease; };
+    char *getShortDescription() { return Report::shortDescription; };
+    char *getLongDescription() { return Report::longDescription; };
+    char *getChangeDescription() { return Report::changeDescription; };
+
+    int getReportType();
+    bool isRestricted(struct descriptor_data *d, int mode);
+    bool isViewable(struct descriptor_data *d);
+    bool isEditable(struct descriptor_data *d, int mode);
+
+
+    // ourput related functions
+    void printDetails(struct descriptor_data *d, char *writeto);
+    void printBriefDescription(struct descriptor_data *d, char *writeto);
+    void mailChanges();
+
+    // list related functions
+    void addChange(ReportChange reportChange); 
+    bool removeChange(int index);
+
+    // File related functions
+    struct report_file_elem toFileElem();
+
+    ~Report() {};
+};
+
+
+class ReportList {
+  private:
+    list<Report> reports;  // List of all the reports
+    int topReportNum;
+    int topChangeNum;
+    ifstream inReportFile;
+//    ofstream outReportFile;
+    ifstream inChangeFile;
+//    ofstream outChangeFile;
+    
+  public:
+    // Constructor 
+    ReportList() { 
+      topReportNum = 0; 
+      topChangeNum = 0;
+    };       
+
+    void setTopReportNum(int num) { ReportList::topReportNum = num; };
+    int getTopReportNum() { return ReportList::topReportNum; };
+
+    void setReport(struct descriptor_data *d);
+
+    // list related functions
+    int addReport(struct descriptor_data *d, Report *report); 
+    bool removeReport(struct descriptor_data *d, int number, int mode); 
+    bool copyReport(struct descriptor_data *d, int index, int mode);
+
+    void listReports(struct descriptor_data *d, int mode, char *arg);
+    bool printReport(struct descriptor_data *d, int number, int mode);
+
+    void getNoneExistMesg(int mode, char *writeto);
+    void getOutOfRangeMesg(int mode, char *writeto);
+    void getNotFoundMesg(int mode, char *writeto); 
+    void getRestrictedMesg(int mode, char *writeto); 
+
+    // Reporting functions (for adding/editing)
+    void dispAddMenu(struct descriptor_data *d);
+    void dispEditMenu(struct descriptor_data *d);
+    void dispStateMenu(struct descriptor_data *d);
+    void dispTypeMenu(struct descriptor_data *d);
+
+    // Notification functions
+    void notify(int number); 
+    
+    // file related functions
+    void loadFile();
+    void addReport(struct report_file_elem report);
+    void addChange(struct reportchange_file_elem reportchange);
+    void writeReport(struct report_file_elem report);
+    void writeChange(struct reportchange_file_elem changereport);
+    void load();
+    void save();
+
+    ~ReportList() {};      // Destructor - nothing to do
+};
+
+struct report_file_elem {
+  long reporterId;            // Originator of report
+  long playerId;              // Person Responsible for report
+  int reportNum;              // Report Number
+  int state;                  // Current status on report - see REPORT_STATE_XXX
+  int type;                   // Type of report reported = see REPORT_TYPE_XXX
+  char shortDescription[REPORT_SHORTDESC_LENGTH];  // Short desc about report
+  char longDescription[REPORT_LONGDESC_LENGTH];    // Long desc about report
+  room_vnum orgRoom;          // The room the player reported the report in
+  time_t orgTime;             // Time the report was reported  
+  short relMajor;       // Major release number
+  short relBranch;      // Branch release number
+  short relMinor;       // Minor release number
+  bool relCvsUpToDate;  // Release CVS up to date
+};
+
+struct reportchange_file_elem {
+  int reportNum;        // report this change belongs to
+  int changeNum;
+  long playerId;        // The player which made this change
+  int fromState;        // The old state
+  int toState;          // The new state
+  int fromType;         // The old type 
+  int toType;           // The new type
+  time_t changeTime;    // Time of change
+  short relMajor;       // Major release number
+  short relBranch;      // Branch release number
+  short relMinor;       // Minor release number
+  bool relCvsUpToDate;  // Release CVS up to date
+  char changeDescription[REPORT_SHORTDESC_LENGTH]; // Description of the change
+};
+@
+
+
+1.7
+log
+@Latest Version
+@
+text
+@d1 4
+d289 1
+a289 1
+    ofstream outReportFile;
+d291 1
+a291 1
+    ofstream outChangeFile;
+@
+
+
+1.6
+log
+@
+Modified: DM
+
+Changed: (This is a group checkin)
+- many many bug fixes
+@
+text
+@d113 1
+a113 1
+                      rel.getMinor(), rel.getTag(), rel.isCvsUpToDate());
+d217 1
+a217 1
+                      release.isCvsUpToDate());
+@
+
+
+1.5
+log
+@
+Modified: DM
+
+Changed:
+- Don't ask (large group checkin) - lots of bug fixes mainly.
+- Use cvs diff if you really wanna see the changes.
+@
+text
+@d41 2
+a140 2
+    void read();
+    void write();
+d148 2
+a149 1
+    long playerId;              // Originator of report
+d172 1
+d187 1
+a187 1
+    Report(long playerId, int reportNum, int state, int type, 
+d191 1
+d207 1
+d222 1
+a222 1
+	shortDescription[REPORT_SHORTDESC_LENGTH] = '\0';
+d230 1
+a230 1
+	longDescription[REPORT_LONGDESC_LENGTH] = '\0';
+d238 1
+a238 1
+	changeDescription[REPORT_SHORTDESC_LENGTH] = '\0';
+d245 1
+d259 1
+a259 1
+    bool isViewable(struct descriptor_data *d, int mode);
+a273 2
+    void read();
+    void write();
+d306 1
+a306 1
+    void listReports(struct descriptor_data *d, int mode);
+d336 2
+a337 1
+  long playerId;              // Originator of report
+@
+
+
+1.4
+log
+@
+Modified: DM
+
+Changed:
+- finished report notification
+@
+text
+@d117 1
+d218 1
+d226 1
+d234 1
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d58 1
+a305 1
+    void getReportModeName(int mode, char *writeto);
+@
+
+
+1.2
+log
+@
+Added:
+- Evolution - first working loadable/saveable reports version
+
+TODO:
+- report notification
+@
+text
+@d256 1
+d314 1
+a314 1
+    void notify(int number);
+@
+
+
+1.1
+log
+@
+Added:
+- Initial version of reporting system
+
+TODO:
+- restrictions, notification, loading/saving
+@
+text
+@d6 1
+d8 1
+a8 1
+#define NUM_REPORT_STATES     4
+d11 13
+a23 9
+#define REPORT_TYPE_BUGCRASH    0  // Report causes a crash
+#define REPORT_TYPE_BUGBUILDING 1  // Report concerned with building
+#define REPORT_TYPE_BUGBALANCE  2  // Report concerned with balance (
+#define REPORT_TYPE_BUGOTHER    3  // Report doesnt fit other categories
+#define REPORT_TYPE_IDEA        4  // An idea
+#define REPORT_TYPE_TYPO        5  // A Typo - spelling mistake etc...
+#define REPORT_TYPE_TODO        6  // Todo report
+
+#define NUM_BUG_TYPES           4
+d34 1
+d62 2
+d65 7
+a71 7
+    int fromState;                  // The new state
+    int toState;                  // The new state
+    int fromType;
+    int toType;
+    time_t changeTime;                // Time of change
+    ReleaseInfo changeRelease;
+    char changeDescription[REPORT_SHORTDESC_LENGTH]; // Description of the change
+d76 5
+a80 3
+      ReportChange::playerId = NOBODY;
+      ReportChange::changeTime = time(0);
+      changeDescription[0] = '\0';
+d84 5
+a88 2
+    ReportChange(long playerId, int fromState, int toState, int fromType, 
+             int toType, time_t changeTime, ReleaseInfo rel, char *changeDesc) {
+d100 2
+d122 2
+d136 1
+d247 6
+d262 1
+d274 5
+d281 5
+a285 1
+    ReportList() { topReportNum = 0; };       // Constructor - nothing to do
+d290 1
+a290 1
+    void setReport(struct descriptor_data *d, Report *report);
+d294 11
+a304 7
+    bool removeReport(Report report);
+    bool removeReport(int number); 
+    bool copyReport(struct descriptor_data *d, int index);
+
+    void printReports(struct descriptor_data *d);
+    void printReports(struct descriptor_data *d, int order);
+    bool printReport(struct descriptor_data *d, int number);
+d316 5
+d325 31
+@
+

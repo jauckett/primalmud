@@ -1,0 +1,113 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD><TITLE>
+PRIMAL - Information 
+</TITLE></HEAD>
+
+<BODY bgcolor=white text=black>
+<center>
+<img src="../letters/H.gif" width="60" height="50">ere information about playing on <i>Primal</i> 
+can be found.
+<P>
+<img src="../letters/separator.gif" width="400" height="18"><BR>
+<img src="../letters/T.gif" width="50" height="50"> he first section, is intended for players who are beginning, and need
+a few helpful<BR> tips about how to get around a Multi User Dungeon(MUD), and
+<BR> some idea about what it's all about!
+<P>
+<b><u>Downloads</u></b><BR>
+<UL>
+<li> First, read some <a href="mudhelp.zip">help</a>.
+<LI> Then see <a href="newbie.zip">Newbie</a> Guide.
+<li> Finally - <a href="conq.zip"> Conquering</a> Primal.
+</ul>
+
+<P>
+<hr width=50%>
+
+<img src="../letters/Q.gif" width="50" height="50">uesting? Perhaps some information about the
+types of quests available, and the rules <BR>and behaviour expected, may
+come in handy.<P>
+
+Always good to know the statistics of the juicy items up for grabs too!<P>
+
+Grab it <a href="quests.zip">here</a> and read it while you're resting up.
+
+<P>
+<hr width=50%>
+
+<img src="../letters/L.gif" width="50" height="50">ycanthropy, the curse of the beast.<P>
+
+Vampires and Werewolves are an integral part of <i>Primal</i>, and
+many players <br> are infected, unbeknownst to others, only to turn
+into howling beasts and fanged fiends<BR> when the moon shines fullest.
+<P>
+Read all about it <a href="werewolf.zip">offline</a> at your own leisure
+<P>
+&nbsp;
+<hr width=50%>
+
+<P><img border="0" src="../letters/F.gif" width="50" height="50">or those requiring more information
+than what is on this page.<br>
+You could always try emailing someone and see if they will<br>
+tell you what you need to know!<P><a href="../emailsub.htm">Try email here!</a><P>
+<BR>
+<a href="../index.html"><img src="../letters/back.gif" border=0 width="94" height="27"></a><BR>
+
+<img src="../letters/separator.gif" width="400" height="18">
+<BR>
+<U><b>DISCLAIMER</B></U>
+<BR>
+The contents of all pages regarding <i>PrimalMUD</i> remain the
+respective property of their original owners.<P>
+We make grateful use of these resources, and will be happy to remove<BR>
+any resource which is used in an offensive manner to the original owner,
+upon request.
+<P>
+<B><U>Thank You.</B></u>
+<P>
+<img src="../letters/separator.gif" width="400" height="18">
+
+
+</CENTER>
+</BODY>
+</HTML>
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

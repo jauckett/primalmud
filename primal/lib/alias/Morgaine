@@ -1,0 +1,4 @@
+tra train $1;train $1;train $1;train $1;train $1;
+dri get skin force; drink skin; put skin force
+eat get $* force; eat $*
+heal get heal force; q heal

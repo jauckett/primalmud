@@ -1,0 +1,400 @@
+4
+mega
+56
+rem claw;rem claw;hold mega;rem mega;wear claw;hold claw
+1
+6
+myzone
+81
+w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;s;s;d;d;d;e;e;n;n
+1
+1
+t
+15
+cast 'teleport'
+0
+5
+blast
+22
+cast 'plasma blast' $1
+1
+6
+health
+49
+rem claw;rem claw;hold health;hold claw;wear claw
+1
+7
+holyaid
+15
+cast 'holy aid'
+0
+12
+waterbreathe
+19
+cast 'waterbreathe'
+0
+3
+sum
+16
+cast 'summon' $1
+1
+6
+extras
+231
+ring is exising - ac 6, dam 3 hit 3 X3 18ac, 9dam 9 hit, earing Ac 4 hit 3 dam 4, so AC 8, hit 6 dam 8 | 2 chains on ankles ac 8 dam 6, hit 5, so 16AC, 12dam 10 hit | total extras = AC 18+8+16=42 : Dam-9+8+6 = 23 : Hit 9+6+10 = 25!
+0
+5
+charm
+15
+cast 'charm' $1
+1
+5
+fires
+18
+cast 'fire shield'
+0
+2
+dd
+5
+spy d
+0
+2
+uu
+5
+spy u
+0
+2
+ee
+5
+spy e
+0
+2
+ww
+5
+spy w
+0
+2
+ss
+5
+spy s
+0
+2
+nn
+5
+spy n
+0
+6
+weareq
+102
+wear all.seed;;wear vis eye;wear all;wield pitch;hold claw;hold jack;wear chain ankle;wear chain ankle
+1
+5
+nohas
+12
+cas t'nohas'
+0
+5
+magic
+184
+c 'armor';c 'sanc';c 'bless';c 'detect inv';c 'infra';c 'spirit arm;c 'sense life';c 'stoneskin';c 'nohas';c 'dragon';c 'divine pro';c 'detect inv';c 'detect align';c 'haste';c 'invis'
+1
+1
+r
+7
+retreat
+0
+5
+invis
+12
+cas t'invis'
+0
+4
+fear
+14
+cast 'fear' $1
+1
+1
+h
+18
+cast 'divine heal'
+0
+2
+wt
+22
+cas t'wraith touch' $1
+1
+6
+pblade
+19
+cas t'poison blade'
+0
+2
+sl
+17
+cast 'sense life'
+0
+5
+haste
+12
+cas t'haste'
+0
+2
+da
+19
+cast 'detect align'
+0
+2
+di
+19
+cast 'detect invis'
+0
+2
+dp
+18
+cas t'divine prot'
+0
+2
+rc
+22
+cast 'remove curse' $1
+1
+5
+mooga
+58
+rem claw;rem claw;hold mooga;rem mooga;hold claw;wear claw
+1
+1
+4
+91
+get ton tool;get ton tool;get ton tool;get ton tool;quaff ton;quaff ton;quaff ton;quaff ton
+1
+4
+serp
+24
+cas t'serpent skin' self
+0
+2
+hh
+55
+rem claw;rem claw;hold pac;rem pack;hold claw;wear claw
+1
+4
+fire
+18
+cast 'fireball' $*
+1
+1
+f
+25
+cast 'finger of death' $*
+1
+5
+blind
+15
+cast 'blind' $*
+1
+3
+rec
+13
+cast 'recall'
+0
+2
+ni
+15
+cast 'sleep' $1
+1
+4
+clot
+16
+cast 'clot' self
+0
+9
+stoneskin
+16
+cast 'stoneskin'
+0
+2
+fs
+18
+cast 'fire shield'
+0
+2
+dm
+19
+cast 'detect magic'
+0
+2
+id
+18
+cast 'identify' $1
+1
+5
+cloud
+17
+cast 'cloud kill'
+0
+5
+earth
+17
+cast 'earthquake'
+0
+5
+staff
+52
+rem drum;hold staff;use staff $1;rem staff;hold drum
+1
+6
+darask
+21
+s;w;w;w;w;w;w;w;w;w;w
+1
+2
+sa
+19
+cast 'spirit armor'
+0
+1
+1
+22
+cast 'fireball' jester
+0
+1
+3
+24
+get heal tool;quaff heal
+1
+4
+prot
+24
+get prot tool;quaff prot
+1
+3
+lit
+12
+look in tool
+0
+2
+10
+25
+buy 10 #10;p all.ton tool
+1
+7
+compare
+13
+compare $1 $2
+1
+5
+sancp
+14
+cast 'sanc' $1
+1
+4
+food
+111
+cast 'create food';cast 'create food';cast 'create food';cast 'create food';eat mush;eat mush;eat mush;eat mush
+1
+3
+str
+15
+cast 'strength'
+0
+5
+armor
+12
+cast 'armor'
+0
+4
+home
+13
+d;e;go in wag
+1
+2
+re
+14
+cast 'refresh'
+0
+3
+see
+12
+cast 'infra'
+0
+4
+sanc
+16
+cast 'sanc' self
+0
+5
+bless
+12
+cast 'bless'
+0
+5
+white
+26
+get white back;quaff white
+1
+4
+meat
+22
+get meat back;eat meat
+1
+1
+.
+8
+wake;sta
+1
+1
+c
+37
+get all corpse;get corpse;junk corpse
+1
+6
+waterb
+19
+cast 'waterbreathe'
+0
+4
+plas
+22
+cast 'plasma blast' $1
+1
+4
+para
+14
+cast 'para' $1
+1
+3
+fly
+10
+cast 'fly'
+0
+5
+sleep
+15
+cast 'sleep' $1
+1
+6
+locate
+23
+cast 'locate object' $1
+1
+6
+dragon
+13
+cast 'dragon'
+0
+5
+water
+24
+cast 'create water' skin
+0
+2
+cl
+25
+cast 'clone';cast 'clone'
+1
+3
+ani
+26
+cast 'animate dead' corpse
+0

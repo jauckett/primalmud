@@ -1,0 +1,3891 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2001.04.11.15.00.47;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@#29201
+Park Entrance~
+You are standing at the entrance to an old fun park
+it has a very eeerie feeling and makes you feel very uneasy.
+You are unsure of weather or not to enter as you have a fear of 
+what may await you inside the park.
+~
+292 cu 16384 0
+D1
+~
+~
+0 -1 29202
+S
+#29202
+Inside The Park Entrance~
+You have dared to venture forward into the park.You are now standing just inside
+the park entrance and are still very unsure about where you are headed.
+~
+292 u 1 0
+D1
+~
+~
+0 -1 29211
+D3
+~
+~
+0 -1 29201
+D5
+~
+Silver Key~
+2 1 29203
+S
+#29203
+The Tunnells~
+You have managed to find your way into the tunnels that run beneath the park.
+These tunnels lead to the control rooms for the parks rides
+~
+292 cghinpuzA 512 0
+D1
+~
+~
+0 -1 29204
+D4
+~
+Silver Key~
+2 1 29202
+S
+#29204
+In a Dark tunnell~
+As you head further into the tunnell the noises you could hear earlier begin to get a little louder they sound like running machinery but the park is abandoned
+so you didn't think would be possible
+~
+292 afiu 512 0
+D1
+~
+~
+0 -1 29205
+D3
+~
+~
+0 -1 29203
+S
+#29205
+In a Dark tunnell~
+Curiosity has taken the better of you and you find yourself wandering around to see if there is anything of value.But in the back of your mind you have a very uneasy feeling about what is happening and where you are headed.
+~
+292 afiu 512 0
+D0
+~
+~
+0 -1 29206
+D3
+~
+~
+0 -1 29204
+S
+#29206
+In a Dark tunnell~
+As you head further into the tunnell the noises you could hear earlier begin to get a little louder they sound like running machinery but the park is abandoned
+so you didn't think would be possible
+~
+292 afiu 1 0
+D1
+~
+~
+0 -1 29207
+D2
+~
+~
+0 -1 29205
+S
+#29207
+In a Dark tunnell~
+As you head further into the tunnell the noises you could hear earlier begin to get a little louder they sound like running machinery but the park is abandoned
+so you didn't think would be possible
+~
+292 afiu 1 0
+D2
+~
+~
+0 -1 29208
+D3
+~
+~
+0 -1 29206
+S
+#29208
+In a Dark tunnell~
+You hear some really strange noises like someone is following you.You spin around to see who is behind you but nobody is there so you put it down to the wind making wierd noises
+~
+292 afiu 0 0
+D0
+~
+~
+0 -1 29207
+D1
+~
+~
+0 -1 29209
+S
+#29209
+Before the first turn~
+You are not far from a turn in the tunnell and are begining to have a great deal of trouble seeing as it is so dark.You feel the need to rest but fear to actually sleep anywhere around here
+~
+292 afiu 13684 0
+D1
+~
+~
+0 -1 29210
+D3
+~
+~
+0 -1 29208
+S
+#29210
+In a Dark tunnell~
+As you head further into the tunnell the noises you could hear earlier begin to get a little louder they sound like running machinery but the park is abandoned
+so you didn't think would be possible
+~
+292 afiu 0 0
+D2
+~
+~
+0 -1 29298
+D3
+~
+~
+0 -1 29209
+S
+#29211
+Inside the park~
+As you look around you see all the old rides and games just rotting away from the lack of use.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29212
+D3
+~
+~
+0 -1 29202
+S
+#29212
+Before the ferris wheel~
+You are standing just before a large ferris wheel .This ferris wheel is starting to become very rusty in fact so rusty that it looks like it is ready to fall of it's mountings.
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29213
+D3
+~
+~
+0 -1 29211
+S
+#29213
+Below the ferris wheel~
+You are standing right below the ferris wheel as you look up the the seats seem to go up into the sky forever you can only just see the very top of the wheel from here.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29212
+D2
+~
+~
+0 -1 29214
+S
+#29214
+Just past the ferris wheel~
+You have just walked past the old ferris wheel and as you look back you think you see a person standing on top of the ferris wheel but upon taking a second look they seem to have dissapeared. Off in the distance to the east you can see 
+what looks like some small train tracks
+~
+292 0 0 0
+D0
+~
+~
+0 -1 29213
+D2
+~
+~
+0 -1 29215
+S
+#29215
+Before the merry go round~
+As you continue to walk through the park you see the merry go round.All the colours have faded away and it now looks more like a death trap. 
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29214
+D2
+~
+~
+0 -1 29216
+S
+#29216
+At the merry go round~
+You are standing right in front of the merry go round and upon taking a closer look the old animals of this ride look as though they are breathing.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29215
+D1
+~
+~
+0 -1 29217
+S
+#29217
+Memory lane~
+As you walk down memory lane you start to think about the fun you used to have as a child at theme parks and wish that you where back in the days of your child hood
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29218
+D3
+~
+~
+0 -1 29216
+S
+#29218
+Walking along memory lane~
+As you stroll along thinking of your past you hear noises that make your skin crawl it sounds like the scream of small children who are in great fear.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29219
+D2
+~
+~
+0 -1 29217
+S
+#29219
+Before the big dipper~
+You are standing just before the big dipper and look in awe as you realise just how big this ride is.You wonder if the noises you heard ealier where comming from this place.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29220
+D2
+~
+~
+0 -1 29218
+S
+#29220
+Before the steps of the big dipper~
+Ther are steps here leading up towards the platform that the Train of the big dipper pulls up to to collect passangers for the ride of their life
+A man stands here dressed in a tarten suit waiting to collect the tickets.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29221
+D3
+~
+~
+0 -1 29219
+D4
+~
+~
+0 -1 29327
+S
+#29221
+Alonside the big dipper~
+You continue to walk aimlessly along this path as you look ahead you see a bend in the path way and wonder what is around the corner
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29222
+D3
+~
+~
+0 -1 29220
+S
+#29222
+A bend in the path~
+You have come to a bend in the path with not many options you can either head back the way you have come or continue south and see what awaits you there.
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29223
+D3
+~
+~
+0 -1 29221
+S
+#29223
+Near the entry to the dogems~
+You have walked for what seems like an eternity/You are standing just before the entry way to the dogem cars
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29222
+D2
+~
+~
+0 -1 29224
+S
+#29224
+Entry to the dogem cars~
+You are here at every bodies favorite the dogem cars but what is more frightening is that you can hear noises coming from within the small building that house these cars and are having second thought about entering the building.
+As you try to look through the door way you realise that it is pitch black inside and unless you can see in the dark you will have no chance.
+~
+292 chu 0 0
+D0
+~
+~
+0 -1 29223
+D1
+~
+~
+0 -1 29297
+D2
+~
+~
+0 -1 29225
+S
+#29225
+A turn in the path~
+You have wandered past the dogem cars and are now standing at a turn in the roadway.To your west is the wall of the building which houses the dogem cars and there is a small window in it through which you can just make out a small figure.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29224
+D3
+~
+~
+0 -1 29226
+S
+#29226
+An ice cream stand~
+Ther is a rather large icecream stand here and you wish it was actually open so as you could by something to eat but all the windows and doors on it are borded up tight.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29225
+D3
+~
+~
+0 -1 29227
+S
+#29227
+Another turn~
+Here you find yourself looking arround to see what else you could possible get into but alas there is nothing of any real value here so you just continue onwards.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29226
+D2
+~
+~
+0 -1 29228
+S
+#29228
+The laughing clowns ~
+You are standing before a delapedated game stand.As you look at it you see the old luaghing clowns with their paint faded and the smiles on the faces of these clowns is now non existant. behind the clowns there are several shelves that still have some soft toy on them. You think that a soft toy would be a nice gift to take home.....But would it realy.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29227
+D2
+~
+~
+0 -1 29229
+S
+#29229
+Another bend~
+Here you stand looking  at the path you have just walked and are starting to feel rather tired maybe it would be a good place to sit and rest. You feel very safe here and the thought of a quick sleep isn't to bad.
+~
+292 cu 0 0
+D0
+~
+~
+0 -1 29228
+D3
+~
+~
+0 -1 29230
+S
+#29230
+After the bend~
+You feel rather refreshed after the rest you have had and i do hope you have had one.What you can see from here is a path that leads along what looks like a carnival walk. In front of you are a few stands with games and what not at them. 
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29229
+D3
+~
+~
+0 -1 29231
+S
+#29231
+The skill tester~
+Here you stand in front of the skill tester. This is where the young lads used to come to make the little ball hit the bel;l and prove their strength to their girlfriends.You consider having a go but can't see any hammers to hit it with.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29230
+D3
+~
+~
+0 -1 29232
+S
+#29232
+Pin ball arcade~
+This place has quite a few pinball machines and video games here most of them look to be ok but you are very unsure as to why they would have all been left here to rott and not moved on to a new place.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29231
+D3
+~
+~
+0 -1 29233
+S
+#29233
+The hot dog stand~
+There is a large wooden hotdog infront of you upon it is written yummy for your tummy dogs and several types of fillings and prices. All of a sudden you realize that this thing ain't so dead as it looked!
+
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29232
+D3
+~
+~
+0 -1 29234
+S
+#29234
+Before the showbag stand~
+Looking rather good considering everything else around this place is so old and all looks so poor.There are very good looking streamers and and other assorted decorations up all over the place here.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29233
+D3
+~
+~
+0 -1 29235
+S
+#29235
+Caterer's corner~
+There are several old tables and and chairs here.You assume that this is the old caferteria where people used to come and sit after their adventures on the rides.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29236
+D1
+~
+~
+0 -1 29234
+D2
+~
+solid silver key~
+2 2 29239
+S
+#29236
+Past the caterers~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29237
+D2
+~
+~
+0 -1 29235
+S
+#29237
+following a path north~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29238
+D2
+~
+~
+0 -1 29236
+S
+#29238
+On a path leading north~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29240
+D2
+~
+~
+0 -1 29237
+S
+#29239
+The kitchen~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29235
+S
+#29240
+Before a western turn~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29244
+D2
+~
+~
+0 -1 29238
+S
+#29244
+Where the path heads west~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29240
+D3
+~
+~
+0 -1 29245
+S
+#29245
+A junction in the roadway~
+Well you now stand at a junction you have 3 options available to you.You could go north,west or back the way you came east which is the right decision to make.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29251
+D1
+~
+~
+0 -1 29244
+D3
+~
+~
+0 -1 29246
+S
+#29246
+The tunnell of doom~
+You have arrived at the beggining of the tunnel of doom as you look down through the tunnell it is noticably dark and can't really see anything anyway.
+~
+292 cu 0 0
+D1
+~
+~
+0 -1 29245
+D2
+~
+~
+0 -1 29247
+S
+#29247
+The tunnell of doom~
+You have entered into the tunnell and are now starting to feel quite worried as this place gives you a eerie felling and just might be too dangerous for you to travel along
+~
+292 afgiu 0 0
+D0
+~
+~
+0 -1 29246
+D2
+~
+~
+0 -1 29248
+S
+#29248
+The tunnell of doom~
+What your still here are you mad.You should have turned back when you had the chance but you didn't and now your path is blocked so all you can do is continue forward.
+~
+292 afgiu 0 0
+D2
+~
+~
+0 -1 29249
+S
+#29249
+The tunnell of doom~
+just before the end of the line it may not be quite so wise to continue any further.
+~
+292 afgiu 0 0
+D0
+~
+~
+0 -1 29248
+D2
+~
+~
+0 -1 29250
+S
+#29250
+The end of the line~
+How stupid could you be the name says it all.Avery large and heavy boulder has just rolled right over the top of you and crushed you to death. It is the end of the line for you and sorry but you are now dead!
+~
+292 abcdfghiuzA 16384 0
+D0
+~
+~
+0 -1 29246
+S
+#29251
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29252
+D2
+~
+~
+0 -1 29245
+S
+#29252
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29253
+D2
+~
+~
+0 -1 29251
+S
+#29253
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29254
+D2
+~
+~
+0 -1 29252
+S
+#29254
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29255
+D2
+~
+~
+0 -1 29253
+S
+#29255
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29256
+D2
+~
+~
+0 -1 29254
+S
+#29256
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29257
+D2
+~
+~
+0 -1 29255
+S
+#29257
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29258
+D3
+~
+~
+0 -1 29256
+S
+#29258
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29259
+D3
+~
+~
+0 -1 29257
+S
+#29259
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29258
+D2
+~
+~
+0 -1 29260
+S
+#29260
+At the intersection~
+You are standing in the middle of an intersection.Now all you have to do is decide which is the correct way to go. 
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29259
+D1
+~
+~
+0 -1 29261
+D2
+~
+~
+0 -1 29263
+S
+#29261
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29262
+D3
+~
+~
+0 -1 29260
+S
+#29262
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29264
+D3
+~
+~
+0 -1 29261
+S
+#29263
+Just south of an intersection~
+So you have decided to travel south but this maybe just the wrong way to go.
+But it could also be the right way. So what do you do turn back or continue on?
+~
+292 u 0 0
+D0
+~
+silver key~
+0 -1 29260
+D2
+~
+~
+0 -1 29201
+S
+#29264
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29265
+D3
+~
+~
+0 -1 29262
+S
+#29265
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29266
+D2
+~
+~
+0 -1 29264
+S
+#29266
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29267
+D2
+~
+~
+0 -1 29265
+S
+#29267
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29290
+D2
+~
+~
+0 -1 29266
+S
+#29268
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29289
+D1
+~
+~
+0 -1 29269
+S
+#29269
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29270
+D3
+~
+~
+0 -1 29268
+S
+#29270
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29271
+D3
+~
+~
+0 -1 29269
+S
+#29271
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29270
+D2
+~
+~
+0 -1 29272
+S
+#29272
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29271
+D2
+~
+~
+0 -1 29273
+S
+#29273
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29272
+D2
+~
+~
+0 -1 29274
+S
+#29274
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29273
+D1
+~
+~
+0 -1 29275
+S
+#29275
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29276
+D3
+~
+~
+0 -1 29274
+S
+#29276
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29277
+D3
+~
+~
+0 -1 29275
+S
+#29277
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29278
+D3
+~
+~
+0 -1 29276
+S
+#29278
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29279
+D2
+~
+~
+0 -1 29277
+S
+#29279
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29280
+D2
+~
+~
+0 -1 29278
+S
+#29280
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29281
+D2
+~
+~
+0 -1 29279
+S
+#29281
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29282
+D2
+~
+~
+0 -1 29280
+S
+#29282
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29283
+D2
+~
+~
+0 -1 29281
+S
+#29283
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29282
+D3
+~
+~
+0 -1 29284
+S
+#29284
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29283
+D3
+~
+~
+0 -1 29285
+S
+#29285
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29284
+D3
+~
+~
+0 -1 29286
+S
+#29286
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29285
+D3
+~
+~
+0 -1 29287
+S
+#29287
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29286
+D2
+~
+~
+0 -1 29288
+S
+#29288
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29269
+D3
+~
+~
+0 -1 29289
+S
+#29289
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29288
+D2
+~
+~
+0 -1 29268
+D3
+~
+~
+0 -1 29290
+S
+#29290
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29289
+D2
+~
+~
+0 -1 29267
+D3
+~
+~
+0 -1 29291
+S
+#29291
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29290
+D3
+~
+~
+0 -1 29292
+S
+#29292
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29291
+D3
+~
+~
+0 -1 29293
+S
+#29293
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29292
+D3
+~
+~
+0 -1 29294
+S
+#29294
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29293
+D3
+~
+~
+0 -1 29295
+S
+#29295
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29294
+D3
+~
+~
+0 -1 29296
+S
+#29296
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29295
+S
+#29297
+Just inside the doorway~
+You have entered this small building to see what the noises you could hear are but all of a sudden it seems to have become very quiet and just as cold as the silence make you feel so does the wind that is belowing in from behind you
+~
+292 adfgu 512 0
+D1
+~
+~
+0 -1 29456
+D3
+~
+~
+0 -1 29224
+S
+#29298
+Water filled section of the tunnell~
+You are un to your neck in water the path ahead seems to be the same as far as you can see.
+~
+292 afiu 6 0
+D0
+~
+~
+0 -1 29210
+D2
+~
+~
+0 -1 29299
+S
+#29299
+In water deep~
+The water in this section of the tunnell is deeper than you had thought earlier.
+And with the danger that lurks ahead you feel as though you should turn back to the beggining
+~
+292 afiu 7 0
+D0
+~
+~
+0 -1 29298
+D2
+~
+~
+0 -1 29300
+S
+#29300
+In water deep~
+There is an eerie feeling about this place and you find yourself struggling to stay afloat.
+~
+292 afiu 7 0
+D0
+~
+~
+0 -1 29299
+D2
+~
+~
+0 -1 29301
+S
+#29301
+In water deep~
+The water has become rather shallow and just ahead of you is dry land again.
+You appear to be able to hear strange noises again.
+~
+292 afiu 7 0
+D0
+~
+~
+0 -1 29300
+D2
+~
+~
+0 -1 29302
+S
+#29302
+Before a turn~
+You are standing before a turn in the tunnell and wish that you had come with a friend to assist you as you fear the danger around the next bend
+~
+292 afiu 1 0
+D0
+~
+~
+0 -1 29301
+D2
+~
+~
+0 -1 29303
+S
+#29303
+A turn in the tunnell~
+As you walk into this area you noticed that a wall has risen up from the ground and blocked the only path back the way you came and that the only choice you have now is to continue further down the tunnell to what ever lies ahead!
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29302
+D3
+~
+~
+0 -1 29304
+S
+#29304
+The tunnell to the control room~
+Here we go here we go here we go.....This all that you can think as you wander through to what may be your death.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29303
+D3
+~
+~
+0 -1 29305
+S
+#29305
+Tunnell to the control room~
+You are starting to wonder where this tunnell leads to.As you wonder down this never ending path of nothing you hear and see things that don't seem to be quite right
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29304
+D3
+~
+~
+0 -1 29306
+S
+#29306
+Tunnell to the control room~
+You feel as if you have been walking along this corridor for ever and it seems like it will never end.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29311
+D1
+~
+~
+0 -1 29305
+S
+#29307
+South east corner~
+You are in the south east corner of the master control room and the machinary here seems to be so old and delapedated.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29310
+D3
+~
+~
+0 -1 29308
+S
+#29308
+The control room~
+The control room is so filthy thats its amazing even the rats want to live here
+There is a fair bit of noise howling through from the roller coaster above
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29309
+D1
+~
+~
+0 -1 29307
+D3
+~
+~
+0 -1 29317
+S
+#29309
+Behind the master control panel~
+You are behind the master control panel and there are wires and leads going all over the place you are having trouble just walking around in here
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29314
+D2
+~
+~
+0 -1 29308
+S
+#29310
+In front of the controls~
+You stand directly in front of the main control panel for the whole park.
+As you stare at the controls you begin to wonder what would it be like to fire everything up and get all of the rides functioning again.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29313
+D2
+~
+~
+0 -1 29307
+S
+#29311
+Tunnel to the control room~
+You feel as if you have been walking along this corridor for ever and it seems like it will never end.
+But just as you are starting to lose hope you see a doorway up ahead
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29312
+D2
+~
+~
+0 -1 29306
+S
+#29312
+Entry to master control room~
+You are standing in the doorway to the master control room.As you look about the thoughts of being able to run your own fun park come flooding back.But still that all to familar smell of fear is lurking in the air.
+~
+292 uzA 0 0
+D2
+~
+~
+0 -1 29311
+D3
+~
+~
+0 -1 29313
+S
+#29313
+In the control room~
+You are now standing within the control room. You can hear strange muffled noise not to far off.You begin to panic!Which way do you run or do you stand and fight what ever the foe heading towards you is
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29312
+D2
+~
+~
+0 -1 29310
+D3
+~
+~
+0 -1 29314
+S
+#29314
+Side wall~
+from here the room can be seen all the way around except for a small patch in the centre where the master control panel sits. And from behind the control panel you can here noises and arc sounds.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29313
+D2
+~
+~
+0 -1 29309
+D3
+~
+~
+0 -1 29315
+S
+#29315
+In the control room~
+The corner here is dark and smells of mildew this park hasn't been functioning from this area for some time.
+Maybe this is where all those people who worked here years ago drowned with the great flood that occured.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29314
+D2
+~
+~
+0 -1 29316
+S
+#29316
+In front of a door~
+The door to your west leads to the old park managers office and it
+is rumored that he was the only one who was never found when the 
+floods hit , he had no chance of getting out,.
+It's said that the reason they never found his corpse was that it
+was eaten by the rats that lurk around down here.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29315
+D2
+~
+~
+0 -1 29317
+D3
+~
+Silver key~
+2 1 29318
+S
+#29317
+The control room~
+The smell of mildew lingures every where you just can't seem to evade itand to make matters
+worse the vibration in the ground makes it feel as tho the
+place is about to collapse.
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29316
+D1
+~
+~
+0 -1 29308
+S
+#29318
+The office~
+The master controllers office is where the head controller ran the park from but it hasn't been used for years and years.
+There are clumps of solid pulp all over the place in here and the old desk sitting in the corner has rotted away to almost the metal frame that supported the timber overlays.
+~
+292 atu 0 0
+D1
+~
+silver key~
+2 1 29316
+S
+#29319
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29318
+D3
+~
+~
+0 -1 29320
+S
+#29320
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29469
+D3
+~
+~
+0 -1 29321
+S
+#29321
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29324
+D1
+~
+~
+0 -1 29320
+D2
+~
+~
+0 -1 29325
+S
+#29322
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29323
+D2
+~
+~
+0 -1 29326
+S
+#29323
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29324
+D2
+~
+~
+0 -1 29322
+S
+#29324
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29321
+D3
+~
+~
+0 -1 29323
+S
+#29325
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29321
+D3
+~
+~
+0 -1 29326
+S
+#29326
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29322
+D1
+~
+~
+0 -1 29325
+S
+#29327
+Middle of the platform~
+This is the exact centre of the platform and is the most likely spot to get a reasonable seat on the rolloer caoster when it pulls up. Unless of course you prefer to be at the front
+~
+292 cu 0 0
+D0
+~
+~
+0 -1 29330
+D1
+~
+~
+0 -1 29329
+D3
+~
+~
+0 -1 29328
+D5
+~
+~
+0 -1 29220
+S
+#29328
+West end of platform~
+This of course would have to be the best possible place to wait if you want a seat at the rear behind all the other party animals the only problem with being at the back is if somebody throws up you wear it.
+~
+292 cu 0 0
+D0
+~
+~
+0 -1 29331
+D1
+~
+~
+0 -1 29327
+D5
+~
+~
+0 -1 29220
+S
+#29329
+East end of platform~
+This is the best place to stand if it's a seat at the front that you seek.There is a strange looking man standing at the bottom of the platform glaring up at you.
+~
+292 cu 0 0
+D0
+~
+~
+0 -1 29334
+D3
+~
+~
+0 -1 29327
+D5
+~
+~
+0 -1 29220
+S
+#29330
+On the tracks infront of the platform~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29334
+D2
+~
+~
+0 -1 29327
+D3
+~
+~
+0 -1 29331
+S
+#29331
+On the tracks heading west~
+This seems to be a very bad idea you have wandered way out of your own realms this time. The noises of clickety clack that are coming from inside would onviously mean that there is a train on it's way.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29330
+D2
+~
+~
+0 -1 29328
+D3
+~
+~
+0 -1 29332
+S
+#29332
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29331
+D3
+~
+~
+0 -1 29333
+S
+#29333
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29332
+D3
+~
+~
+0 -1 29341
+S
+#29334
+On the tracks heading east~
+Here we go here we go here we go.....
+This could become one of the longest walks you have ever entered into and considering the tunnel ahead looks the same as the tunnel behind you it could be easy to get lost within the realms of this place
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29335
+D2
+~
+~
+0 -1 29329
+D3
+~
+~
+0 -1 29330
+S
+#29335
+Start of tunnel~
+You are about to enter the tunnel that the ride comes through just before it gets to the end of the ride.In the far distance you can hear a noise thats sounds likw a train going clickity clack along the tracks.You are contemplating whether or not you are really alone here.
+~
+292 iu 5 0
+D1
+~
+~
+0 -1 29336
+D3
+~
+~
+0 -1 29334
+S
+#29336
+In a dark tunnel~
+You are walking along a tunnel and it is very dark and smelly here.
+It is a putrid place with rubbish and old bits of rags everywhere, you are starting think about whether or not it is a good idea to continue
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29337
+D3
+~
+~
+0 -1 29335
+S
+#29337
+In the dark tunnel~
+You have ventured although you are trembling with fear your need to know has forced you to continue on with your adventure.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29465
+D2
+~
+~
+0 -1 29467
+S
+#29338
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29339
+D3
+~
+~
+0 -1 29337
+S
+#29339
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29340
+D3
+~
+~
+0 -1 29338
+S
+#29340
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29452
+D3
+~
+~
+0 -1 29339
+S
+#29341
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29333
+D3
+~
+~
+0 -1 29342
+S
+#29342
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29341
+D3
+~
+~
+0 -1 29343
+S
+#29343
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29344
+D1
+~
+~
+0 -1 29342
+S
+#29344
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29345
+D2
+~
+~
+0 -1 29343
+S
+#29345
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29346
+D2
+~
+~
+0 -1 29344
+S
+#29346
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29347
+D2
+~
+~
+0 -1 29345
+S
+#29347
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29348
+D2
+~
+~
+0 -1 29346
+S
+#29348
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29349
+D2
+~
+~
+0 -1 29347
+S
+#29349
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29350
+D2
+~
+~
+0 -1 29348
+S
+#29350
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29351
+D3
+~
+~
+0 -1 29349
+S
+#29351
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29352
+D3
+~
+~
+0 -1 29350
+S
+#29352
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29353
+D3
+~
+~
+0 -1 29351
+S
+#29353
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29354
+D3
+~
+~
+0 -1 29352
+S
+#29354
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29355
+D3
+~
+~
+0 -1 29353
+S
+#29355
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29356
+D3
+~
+~
+0 -1 29354
+S
+#29356
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29357
+D3
+~
+~
+0 -1 29355
+S
+#29357
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29358
+D3
+~
+~
+0 -1 29356
+S
+#29358
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29359
+D3
+~
+~
+0 -1 29357
+S
+#29359
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29360
+D3
+~
+~
+0 -1 29358
+S
+#29360
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29361
+D3
+~
+~
+0 -1 29359
+S
+#29361
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29362
+D3
+~
+~
+0 -1 29360
+S
+#29362
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29363
+D3
+~
+~
+0 -1 29361
+S
+#29363
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29364
+D3
+~
+~
+0 -1 29362
+S
+#29364
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29365
+D3
+~
+~
+0 -1 29363
+S
+#29365
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29366
+D3
+~
+~
+0 -1 29364
+S
+#29366
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29367
+D3
+~
+~
+0 -1 29365
+S
+#29367
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29368
+D3
+~
+~
+0 -1 29366
+S
+#29368
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29369
+D3
+~
+~
+0 -1 29367
+S
+#29369
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29370
+D3
+~
+~
+0 -1 29368
+S
+#29370
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29371
+D3
+~
+~
+0 -1 29369
+S
+#29371
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29372
+D3
+~
+~
+0 -1 29370
+S
+#29372
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29371
+D2
+~
+~
+0 -1 29373
+S
+#29373
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29372
+D2
+~
+~
+0 -1 29374
+S
+#29374
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29373
+D2
+~
+~
+0 -1 29375
+S
+#29375
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29374
+D2
+~
+~
+0 -1 29376
+S
+#29376
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29375
+D2
+~
+~
+0 -1 29377
+S
+#29377
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29376
+D2
+~
+~
+0 -1 29378
+S
+#29378
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29377
+D2
+~
+~
+0 -1 29379
+S
+#29379
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29378
+D2
+~
+~
+0 -1 29380
+S
+#29380
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29379
+D2
+~
+~
+0 -1 29381
+S
+#29381
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29380
+D2
+~
+~
+0 -1 29382
+S
+#29382
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29381
+D2
+~
+~
+0 -1 29383
+S
+#29383
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29382
+D2
+~
+~
+0 -1 29384
+S
+#29384
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29383
+D2
+~
+~
+0 -1 29385
+S
+#29385
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29384
+D2
+~
+~
+0 -1 29386
+S
+#29386
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29385
+D3
+~
+~
+0 -1 29401
+S
+#29387
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29407
+D1
+~
+~
+0 -1 29388
+S
+#29388
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29389
+D3
+~
+~
+0 -1 29387
+S
+#29389
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29390
+D3
+~
+~
+0 -1 29388
+S
+#29390
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29391
+D3
+~
+~
+0 -1 29389
+S
+#29391
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29392
+D3
+~
+~
+0 -1 29390
+S
+#29392
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29393
+D3
+~
+~
+0 -1 29391
+S
+#29393
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29394
+D3
+~
+~
+0 -1 29392
+S
+#29394
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29395
+D3
+~
+~
+0 -1 29393
+S
+#29395
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29396
+D3
+~
+~
+0 -1 29394
+S
+#29396
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29397
+D3
+~
+~
+0 -1 29395
+S
+#29397
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29398
+D3
+~
+~
+0 -1 29396
+S
+#29398
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29399
+D3
+~
+~
+0 -1 29397
+S
+#29399
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29400
+D3
+~
+~
+0 -1 29398
+S
+#29400
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29401
+D3
+~
+~
+0 -1 29399
+S
+#29401
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29386
+D3
+~
+~
+0 -1 29400
+S
+#29402
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29408
+D2
+~
+~
+0 -1 29403
+S
+#29403
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29402
+D2
+~
+~
+0 -1 29404
+S
+#29404
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29403
+D2
+~
+~
+0 -1 29405
+S
+#29405
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29404
+D2
+~
+~
+0 -1 29406
+S
+#29406
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29405
+D2
+~
+~
+0 -1 29407
+S
+#29407
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29406
+D2
+~
+~
+0 -1 29387
+S
+#29408
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29409
+D3
+~
+~
+0 -1 29402
+S
+#29409
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29410
+D3
+~
+~
+0 -1 29408
+S
+#29410
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29411
+D3
+~
+~
+0 -1 29409
+S
+#29411
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29412
+D3
+~
+~
+0 -1 29410
+S
+#29412
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29413
+D3
+~
+~
+0 -1 29411
+S
+#29413
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29414
+D3
+~
+~
+0 -1 29412
+S
+#29414
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29415
+D3
+~
+~
+0 -1 29413
+S
+#29415
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29416
+D3
+~
+~
+0 -1 29414
+S
+#29416
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29417
+D3
+~
+~
+0 -1 29415
+S
+#29417
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29418
+D3
+~
+~
+0 -1 29416
+S
+#29418
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29419
+D3
+~
+~
+0 -1 29417
+S
+#29419
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29420
+D3
+~
+~
+0 -1 29418
+S
+#29420
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29427
+D3
+~
+~
+0 -1 29419
+S
+#29421
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29422
+D3
+~
+~
+0 -1 29438
+S
+#29422
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29421
+D2
+~
+~
+0 -1 29423
+S
+#29423
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29422
+D2
+~
+~
+0 -1 29424
+S
+#29424
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29423
+D2
+~
+~
+0 -1 29425
+S
+#29425
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29424
+D2
+~
+~
+0 -1 29426
+S
+#29426
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29425
+D2
+~
+~
+0 -1 29427
+S
+#29427
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29426
+D2
+~
+~
+0 -1 29420
+S
+#29428
+In a dark corner of the tunnel~
+You are standing in a very dark area of the tunnel and with all the twisting and turning that has taken place you aren't even sure about where you have come from or where your even headed to.As you listen you can hear a muffled sound on the other side of a door which leads off to the west but are nt sure if you even want to know what it is you can hear.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29429
+D2
+~
+~
+0 -1 29439
+D3
+~
+Silver key~
+2 1 29466
+S
+#29429
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29430
+D3
+~
+~
+0 -1 29428
+S
+#29430
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29431
+D3
+~
+~
+0 -1 29429
+S
+#29431
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29432
+D3
+~
+~
+0 -1 29430
+S
+#29432
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29433
+D3
+~
+~
+0 -1 29431
+S
+#29433
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29434
+D3
+~
+~
+0 -1 29432
+S
+#29434
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29435
+D3
+~
+~
+0 -1 29433
+S
+#29435
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29436
+D3
+~
+~
+0 -1 29434
+S
+#29436
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29437
+D3
+~
+~
+0 -1 29435
+S
+#29437
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29438
+D3
+~
+~
+0 -1 29436
+S
+#29438
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29421
+D3
+~
+~
+0 -1 29437
+S
+#29439
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29428
+D2
+~
+~
+0 -1 29440
+S
+#29440
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29439
+D1
+~
+~
+0 -1 29441
+S
+#29441
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29442
+D3
+~
+~
+0 -1 29440
+S
+#29442
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29443
+D3
+~
+~
+0 -1 29441
+S
+#29443
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29444
+D3
+~
+~
+0 -1 29442
+S
+#29444
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29445
+D3
+~
+~
+0 -1 29443
+S
+#29445
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29446
+D3
+~
+~
+0 -1 29444
+S
+#29446
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29447
+D3
+~
+~
+0 -1 29445
+S
+#29447
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29448
+D3
+~
+~
+0 -1 29446
+S
+#29448
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29449
+D3
+~
+~
+0 -1 29447
+S
+#29449
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D2
+~
+~
+0 -1 29450
+D3
+~
+~
+0 -1 29448
+S
+#29450
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29449
+D2
+~
+~
+0 -1 29451
+S
+#29451
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29450
+D3
+~
+~
+0 -1 29455
+S
+#29452
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29453
+D3
+~
+~
+0 -1 29340
+S
+#29453
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29454
+D3
+~
+~
+0 -1 29452
+S
+#29454
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29455
+D3
+~
+~
+0 -1 29453
+S
+#29455
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29451
+D3
+~
+~
+0 -1 29454
+S
+#29456
+Inside the dogem cars~
+You have entered the Track of the dogem cars and all seems to be very quiet...
+You are unsure about this place as you feel like you are being drained of energy. It is very cold in here and you wish that there was some form of heating
+~
+292 adfguzA 512 0
+D0
+~
+~
+0 -1 29457
+D1
+~
+~
+0 -1 29461
+D2
+~
+~
+0 -1 29464
+D3
+~
+~
+0 -1 29297
+S
+#29457
+North West corner of the dogem cars~
+You are standing in the corner of the large track that the dogems run around as you listen you think you can hear the crackle of the electricity runing through the cyclone wire above your head.
+~
+292 adfu 512 0
+D1
+~
+~
+0 -1 29470
+D2
+~
+~
+0 -1 29456
+S
+#29459
+Inside the dogem cars~
+This corner of the room apears to be where the cars got repaired there are bits and pieces stacked up in a cupboard in the corner and as you look up yopu notice a few wires running to the cylone wire above your head,these wires obvoiusly used to supply the power to the rink for the cars to run round on.
+
+~
+292 adfu 512 0
+D2
+~
+~
+0 -1 29460
+D3
+~
+~
+0 -1 29470
+S
+#29460
+Inside the dogem cars~
+As you look across the room to the west you can just make out the way you entered the building.This part of the room has a sense of life but you can't really see much.
+~
+292 adfu 512 0
+D0
+~
+~
+0 -1 29459
+D2
+~
+~
+0 -1 29462
+D3
+~
+~
+0 -1 29461
+S
+#29461
+In the middle of the room~
+You are in the middle of the room with a few dogem cars around you.They seem like they are alive but you can't see them moving but they do seem so lifelike
+~
+292 adfu 512 0
+D0
+~
+~
+0 -1 29470
+D1
+~
+~
+0 -1 29460
+D2
+~
+~
+0 -1 29463
+D3
+~
+~
+0 -1 29456
+S
+#29462
+Inside the dogem cars~
+You are now in the south east corner of the room and have spotted movemebnt on the other side of the room should you go over there and see what it is or just wait here untill what ever it is leaves thus leaving you alone
+~
+292 adfu 512 0
+D0
+~
+~
+0 -1 29460
+D3
+~
+~
+0 -1 29463
+S
+#29463
+Inside the dogem cars~
+As you wonder why you are even here at the moment you see a little bit of a light coming from the north and think about heading that way to see wghat it is
+~
+292 adfuz 512 0
+D0
+~
+~
+0 -1 29461
+D1
+~
+~
+0 -1 29462
+D3
+~
+~
+0 -1 29464
+S
+#29464
+Southern corner of the dogem cars~
+There is a small window here in the corner from which you can see a fair amount of the park.The park looks so empty and lonely from here but as you have already discovered it's not so EMPTY!
+~
+292 adfu 512 0
+D0
+~
+~
+0 -1 29456
+D1
+~
+~
+0 -1 29463
+S
+#29465
+A little room~
+You are standing in the corner of a small room where earleir you could see some sort of flashing lights that now appear to be gone.
+~
+292 u 0 0
+D1
+~
+~
+0 -1 29466
+D2
+~
+~
+0 -1 29468
+D3
+~
+~
+0 -1 29337
+S
+#29466
+Small passage~
+You have entered through a small doorway into the passage there is a light on just ahead and some really weired flashing lights
+~
+292 fhiu 4 0
+D1
+~
+~
+1 -1 29428
+D3
+~
+~
+0 -1 29465
+S
+#29467
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29337
+D1
+~
+~
+0 -1 29468
+S
+#29468
+Deeper in the Tunnell~
+Here we go here we go here we go.....
+~
+292 u 0 0
+D0
+~
+~
+0 -1 29465
+D3
+~
+~
+0 -1 29467
+S
+#29469
+The masters box~
+As you enter this room a rather large man has jumped to his feet and stares at you.You have entered the master's box, this is where all the players on the field are supervised from and it's the masters decsion whether they stay or go and you appear to be the one he wants to go at the moment.
+~
+292 adfgu 512 0
+D2
+The bench top
+~
+~
+1 -1 29470
+S
+#29470
+In front of the master's box~
+As you look around you see a small room to the north.
+This part of the room seems to have a very cold draft rushing towards the north.
+
+~
+292 acdfu 512 0
+D0
+A bench top
+~
+~
+1 0 29469
+D1
+~
+~
+0 -1 29459
+D2
+~
+~
+0 -1 29461
+D3
+~
+~
+0 -1 29457
+S
+$~
+@

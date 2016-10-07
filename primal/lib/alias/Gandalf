@@ -1,0 +1,14 @@
+cs cast 'heal' sauron
+start group sauron;autoassist sauron;wear all;wield claymore
+cw cast 'create water' skin;drink skin
+qr get red back
+cure cast 'heal'
+par cast 'paralyze' $1
+arm cast 'armor'
+sanc cast 'sanctuary'
+cf cast 'create food';eat mushroom
+cc s:
+rec cast 'word of recall'
+h cast 'cure light'
+recall cast 'word of recall'
+ref cast 'refresh'

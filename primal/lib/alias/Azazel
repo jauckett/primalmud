@@ -1,0 +1,9 @@
+lb cast 'lightning bolt'$*
+cc cast 'cure critic'$*
+missile cast 'magic missile'$*
+chill cast 'chill touch'$*
+dinvis  cast 'detect invisibility'$*
+corpse g all corpse
+h tell uther heal
+cl cast 'cure light'$*
+invis cast 'invisibility'$*

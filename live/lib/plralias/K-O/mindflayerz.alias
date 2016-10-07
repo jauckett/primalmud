@@ -1,0 +1,50 @@
+2
+bh
+10
+bearhug $*
+1
+5
+shock
+21
+c 'shocking grasp' $*
+1
+5
+selva
+21
+s;e;e;e;e;open gate;e
+1
+4
+laby
+23
+n;n;w;w;w;n;e;e;s;s;u;n
+1
+4
+burn
+20
+c 'burning hands' $*
+1
+3
+det
+19
+c 'detect invis' $*
+1
+2
+cw
+21
+c 'create water' skin
+0
+2
+cf
+16
+c 'create food' 
+0
+3
+gac
+11
+get all cor
+0
+2
+mm
+12
+c 'magic' $*
+1

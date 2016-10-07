@@ -1,0 +1,348 @@
+#26100
+Foreign Tourist~
+the Foreign Tourist~
+A Foreign Tourist stands here.
+~
+Wearing a backpack and comfortable shoes, the tourist stands out
+a mile away.  Looking at you, he looks very nervous and he must feel 
+out of place.  It must be that stupid, 'Welcome to Hollywood' T-Shirt.
+~
+1069128 128 35 E
+82 -21 -10 30d40+4500 15d30+66
+45000 500000
+8 8 1
+E
+#26101
+Production Worker~
+Production Worker~
+A Production Worker is here looking very busy.
+~
+The Production Worker is here, running around completing
+errands and other jobs that directors either cant be stuffed
+doing, or are incapable of doing.
+~
+1308696 0 25 E
+80 -30 -6 35d50+4460 11d25+83
+71990 300000
+8 8 2
+E
+#26102
+Tough Soprano Guard Bastard~
+Soprano Security Guard~
+A Soprano Security Guard stands here.
+~
+The Soprano Security Guard looks as though he has been in a fair-few
+fights throughout his time.  He looks mean and very intimidating, hired to
+protect all the rich and famous in Hollywood.  One thing is for sure, if you want
+a hard battle... This guy will give you one!
+~
+7994744 276922536 -125 E
+100 -84 -20 40d40+10200 15d50+104
+89000 1000000
+8 8 1
+BareHandAttack: 6
+E
+#26103
+Juliet Capulet~
+Juliet~
+Juliet stands here, dwelling on the whereabouts of her lover.
+~
+Juliet Capulet stands here looking radiant and beautiful.  It is actually
+an actress portraying the part of the love-struck teenager.  She is dressed in a 
+lovely flowing dress, and is actually quite glamourous... Shame about the acting though!
+~
+3268698 32896 150 E
+90 -68 -17 50d30+8560 30d30+60
+80000 500000
+5 5 2
+BareHandAttack: 13
+E
+#26104
+Romeo Montague~
+Romeo~
+Romeo stands here, chanting to his beloved Juliet.
+~
+Here stands Romeo, love-struck and totally blown away by his adoration
+for his soul mate... Juliet Capulet.  It is an actor playing Romeo, of course, 
+but he does eem familiar.. He must have starred in another feature film that
+you have seen before.
+~
+1239114 268435584 50 E
+85 -55 -15 40d35+7500 30d20+88
+25000 500000
+8 8 1
+E
+#26105
+Studio Director Production~
+the Studio Director~
+The Studio Director stands here.
+~
+The Studio Director is here ready to soot the first scene of the day.
+He is scruffy looking, and looks as though he hasn't showered in a few days.
+He notices you wandering around the studio, and seems to be extremely agitated
+that you are in here...!
+~
+8126330 276858024 -300 E
+100 -84 -20 100d100+2090 33d30+104
+90000 1000000
+8 8 1
+BareHandAttack: 13
+E
+#26106
+Barbara Streisand~
+Barbara Streisand~
+In all her Femine Glory, Barbara Streisand stands here.
+~
+Acting as a sound consultant, Barbara Streisand is here giving 
+advice to the sounds engineers on how to get actors/actresses to propel
+their voices... And what a great job job she's doing... NOT!!
+~
+7389194 32896 1000 E
+98 -79 -12 30d30+10000 20d45+102
+88000 980000
+8 8 2
+E
+#26107
+Soprano Guard Head Security~
+the Head of Soprano Security~
+&YHere stands the Head of the Soprano Security Guards&n.
+~
+As tough-a-prick that you will find, this guard has been
+training to be a police officer for years, but due to his lack
+of intelligence, has had to settle with being head of the security
+division in Hollywood.  He is a brutal looking thug, dressed in the black
+suit and is wearing dark sunglasses.
+~
+8124506 8488124 -1000 E
+100 -84 -20 30d30+11190 25d25+104
+90000 1000000
+8 8 1
+E
+#26108
+Jack Nicholson~
+Jack Nicholson~
+Jack Nicholson, the famous actor stands here.
+~
+Standing Rich and Proud, Mr Joker himself stands here waiting for
+his manager and collegues to direct him into the meeting that's starting
+down the hall.  He is extremely well dressed, and knows everyone here by their
+first name.  Looking calm at-the-moment, we all know that he has a terrible
+temper and can really go off at any one... Especially a mortal!
+~
+8056632 8455356 -1000 E
+100 -70 -20 70d75+30000 60d80+130
+200000 1000000
+8 8 1
+BareHandAttack: 6
+E
+#26109
+Jerry Seinfeld~
+Jerry Seinfeld~
+Jerry Seinfeld, the comedian stands here.
+~
+After finishing his extremely successful show, Jerry is now contemplating
+a career in feature films.  He is fairly casually dressed, wearing a nice pair of
+designer sunglasses.  I wonder if he's still using, 'Did you every notice that?' as the 
+basis of his comedy.
+~
+7467096 8488104 400 E
+100 -80 -13 60d70+20000 12d80+103
+90000 1000000
+8 8 1
+BareHandAttack: 7
+E
+#26110
+Sharon Osbourne~
+Sharon Osbourne~
+Sharon Osbourne, protective wife of Ozzy stands here.
+~
+Busy shopping, Sharon stands here after being summoned by her husband, Ozzy.
+She is dressed as glamourous as always, and is looking around at the boutique
+stores in Hollywood while her husband is touring all of California.
+~
+1077320 32896 -100 E
+90 -70 -17 100d100+50 30d25+92
+50000 900000
+8 8 2
+E
+#26111
+Jack Osbourne~
+Jack Osbourne~
+Jack Osbourne, the son of Ozzy, stands here.
+~
+After wandering around all of hollywood, Jack has almost had enough
+and is ready to go back to the Osbourne's hotel room.
+~
+1073352 32776 -200 E
+80 -50 -10 100d50+2000 10d40+84
+20000 800000
+8 8 1
+E
+#26112
+Captain John Smith~
+Captain John Smith~
+The Captain of the RMS Titanic stands here... Blocking your Path!
+~
+Dressed in the usual early 20th Century seaman's attire, Captain
+Smith stands before you.  He seems to be displeased that you have found your
+way to the set of the Titanic.  You can see something in the pocket of the
+Captain. Prepare for a Battle... The Captain's Pissed!!!
+~
+4222794 8388776 -500 E
+100 -100 -20 3d10+9000 60d100+80
+20000 900000
+8 8 1
+BareHandAttack: 7
+E
+#26113
+mafia gangster~
+a Mafia Gangster~
+A Gangster stands here, looking at you.
+~
+Wearing a beautiful Valentino suit, hair looking sleek and gazing at you
+with hatred, power and poise, the gangster looks as though he is waiting for
+his boss to find him work... Or create some for him!
+~
+5371994 32936 -200 E
+100 -80 -15 50d30+12000 30d32+104
+76500 400000
+8 8 1
+BareHandAttack: 7
+E
+#26114
+Fat Macca Boss McNugget~
+the Boss of McNuggets~
+The Boss of McNuggets Restaurant
+~
+A HUGE Specimen of a man, the McNuggets Boss sits here looking
+at you with those evil eyes.  He's upset that you are in his office.
+He is either going to sack you if he believes you work here, or eat you
+cause you're fresh meat!
+~
+8126250 276858012 -250 E
+100 -82 -20 50d50+15000 30d40+121
+90000 1000000
+6 8 1
+BareHandAttack: 7
+E
+#26115
+Nicholas Cage Memphis Raines~
+Memphis Raines~
+The Man Himself... Memphis Raines stands here.
+~
+Standing in his leather jacket and jeans, Memphis Raines
+stands here looking very cool and dangerous.  His team are working around
+him from actors, to stand-ins and also production workers.  It looks as though
+he is ready to shoot his next scene, as you can hear him mumble his lines
+to himself.
+~
+3373128 32936 50 E
+98 -70 -19 30d30+10500 20d20+90
+88000 980000
+8 8 1
+E
+#26116
+Frankie Four Fingers~
+Frankie Four Fingers~
+Sitting here is Frankie Four Fingers.
+~
+With a keen eye for poker, and missing his right index finger,
+Frankie "Four" Fingers sits here ready to play another hand of poker.
+He is well dressed and is a fairly dark and disturbed looking mobster.
+~
+1132634 33920 -100 E
+85 -69 -10 20d20+10000 20d20+88
+15000 220000
+8 8 1
+E
+#26117
+Jimmy Tulip~
+Jimmy the Tulip~
+Jimmy "The Tulip" Tudeski sits here.
+~
+Look extremely calm, Jimmy The Tulip sits
+here wait for the next round of poker
+to start.  He grins as he sees you enter the room... Probably
+thinking to himself... Look at this sucker!
+~
+7358554 536969344 -66 E
+93 -77 -15 50d80+6500 20d20+97
+83000 900000
+8 8 1
+E
+#26118
+Bully School Bus~
+Bus Bully~
+The Local School Bus Bully stands here
+~
+The local bully stands here, tormenting those who sit towards the back of the bus.
+He is dressed in a scruffy, old school uniform that has food and drink stains all over it.  The mouth
+that this little guy has is disgusting as he yells out obscenities to both passangers and by standers.
+~
+1065034 0 -200 E
+50 -30 -3 21d23+3050 15d33+49
+30000 150000
+8 8 1
+BareHandAttack: 7
+E
+#26120
+Bus Driver~
+the Bus Driver~
+The Bus Driver is here, waiting to collect your fare.
+~
+The Bus Driver seems like he has been driving the same bus for years.  As he takes the fare
+to travel on the bus from his passengers, he grumbles something about moving to the back of the bus.
+He's wearing the local bus company's polo shirt that hasn't been washed in a while as it has food stains on his
+gut and cigarette burns on his chest.
+~
+8120394 32936 -250 E
+80 -20 -13 70d65+10000 13d60+50
+100 800000
+6 8 1
+BareHandAttack: 13
+E
+#26169
+Cashier Young McNuggets Macca~
+the McNuggets Cashier~
+The Young McNuggets Cashier stands here, ready to take your order.
+~
+Wearing a lovely green and white striped shirt, grey pants and 
+a lovely hat, the 15yr old cashier stands here ready to take your order.
+~
+7432346 8421512 20 E
+75 -30 -12 15d10+6500 10d30+55
+25000 750000
+8 8 1
+E
+#26190
+Bar Tender Foxy~
+the Foxy Bartender~
+The Foxy Bartender stands here ready to take your order.
+~
+The Bartender runs around here preparing all sorts of
+alcoholic con-coctions for her patrons.  If she can pour a
+pint as well as she can smile... You won't be seeing much more of
+Hollywood, other than from her bedroom window that is.
+~
+3670106 128 -400 E
+100 -80 -20 20d20+10000 40d20+99
+0 350000
+8 8 2
+BareHandAttack: 7
+E
+#26199
+Ozzy Osbourne Sabbath~
+Ozzy Osbourne~
+Here stands the Prince of Darkness, Ozzy Osbourne
+~
+Looking as nightmarish as ever, Ozzy stands here admiring all the 
+inhabitants of Hollywood.  He is dressed in the usual black outfit, and all
+gothic appendages.
+~
+7921752 33920 -1000 E
+95 -70 -15 50d60+15000 30d25+99
+85500 800000
+8 8 1
+BareHandAttack: 6
+E
+$

@@ -1,0 +1,52 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@qh get heal force;quaff heal
+qw get white force;quaff white
+qr get red force;quaff red
+qp get protection backpack;quaff protection
+em get meat backpack;eat meat
+gac get all corpse
+cc cast 'cure critical' Pavic
+b backstab
+cf cast 'create food';eat mushroom
+ci cast 'detect invisibility'
+ds get skin force;drink skin;put skin force
+rr get recall force;recite recall
+wr cast 'word of recall'
+cl call lightning
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,23 @@
+#10001
+Citizen~
+the Citizen~
+A Citizen of Darask is here glaring at you.
+~
+You see a Citizen of Darask.~
+64 0 800 S
+9 13 3 1d6+100 2d6+5
+3373 6000
+8 8 0
+#10002
+Assassin~
+the Assassin~
+an Assassin is slinking around here
+~
+You see an Assassin slinking around trying to look invisible...
+~
+122907 1058 800 S
+30 18 8 10d10+1500 8d6+50
+0 9000
+8 8 0
+#99999
+$~

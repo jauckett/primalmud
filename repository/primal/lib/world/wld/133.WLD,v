@@ -1,0 +1,1263 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.41;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.41;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#13300
+The Staircase~
+You are at the bottom of a staircase.  You can see to the top of the stairs but
+there is no way of knowing what is behond this.  The staircase is narrow but
+you could easily walk up it.  You smell the distinct scent of 
+stale cigars and stale liquor.  
+~
+133 8 0
+D1
+Saloon~
+~~
+0 -1 13301
+D2
+The Bar~
+~~
+0 -1 13307
+D4
+Up The Staircase~
+~
+0 0 13334                     
+E
+stairs~
+You see a rickety set of stairs.  They are old and in need of 
+repair.
+
+_______________________________________________________________
+		   |||||============|||||
+-------------------|||||            |||||----------------------   
+     @@             ||||==============||||
+-------------------||||              ||||----------------------      
+		   |||================|||                   @@
+-------------------|||                |||----------------------   
+		   ||==================||
+-------------------||                  ||----------------------
+		   ||==================|| 
+-------------------||                  ||----------------------
+		   |====================|
+-------------------|                    |----------------------
+		   |====================|
+		   |                    |
+..............................................................
+		  
+~
+S
+#13301
+Saloon~
+You are in the north end of of saloon.  To the east there is a man playing a 
+piano and singing.  There are drunks scattered as far as you can see in the 
+dim light.  To the west there is a bar.  Just to the south there is a small 
+table where men are playing poker.
+~
+133 8 0
+D1
+Saloon~
+~~
+0 -1 13302
+D2
+Middle of Saloon~
+~~
+0 -1 13308
+D3
+The Staircase~
+~~
+0 -1 13300
+S
+#13302
+Saloon~
+You are in the north end of of saloon.  To the east there is a man playing a
+piano and singing. To the south there is a table with men playing poker.
+The smell of stale alchohol and cigar smoke makes your stomach turn.
+~
+133 8 0
+D1
+Saloon~
+~~
+0 -1 13303
+D2
+Middle of Saloon~
+~~
+0 -1 13309
+D3
+Saloon~
+~~
+0 -1 13301
+S
+#13303
+Saloon~
+You are in the north end of the saloon. There are men drinking and young 
+disreputable women wearing revealing clothing sitting in the mens laps.
+The smell of stale alchohol and smoke wreaks throughout the saloon.
+~
+133 8 0
+D1
+Saloon~
+~~
+0 -1 13304
+D2
+Middle of Saloon~
+~~
+0 -1 13310
+D3
+Saloon~
+~~
+0 -1 13302
+S
+#13304
+Saloon~
+You are in the north east side of the saloon.  You can see about the room 
+from here.  There is a man just to the south of you playing the piano.
+At the other side of the room is a large bar and behind it sits a large
+bartender.
+~
+133 8 0
+D1
+Corner of Saloon~
+~~
+0 -1 13305
+D2
+Saloon~
+~~
+0 -1 13311
+D3
+Saloon~
+~~
+0 -1 13303
+S
+#13305
+Corner of Saloon~
+You are in the corner of the saloon. This is the only place in the room where
+you feel that you can not be stabbed in the back.  However you may have stepped 
+in someones spit bucket as your foot is covered in chewing tabacco.
+~
+133 8 0
+D2
+Saloon~
+~~
+0 -1 13312
+D3
+Saloon~
+~~
+0 -1 13304   
+E
+bucket~
+You see a small bucket of discusting chewy substance.
+~
+S
+#13306
+Behind the Bar~
+You are behind the bar.  There is a ugly large man here.  He has scars all over
+his face that tell you that he has been in many the bar brawl. Under the counter
+you see a large stick and a shot gun.  The floor is wet and sticky and there
+is what looks to be like human hair stuck to the shelf.   
+~
+133 8 0
+D2
+Behind the Bar~
+~~
+0 -1 13313
+S
+#13307
+The Bar~
+You are standing behind the bar in the saloon.  You see shelves filled with
+glasses and broken mugs.  There is a tray covering the length of the bar
+filled with tabacco that men have spat... Gross!
+~
+133 8 0
+D0
+The Staircase~
+~~
+0 -1 13300
+D1
+Middle of Bar~
+~~
+0 -1 13308
+D2
+Along the Bar~
+~~
+0 -1 13314    
+E
+shelf~
+
+==================================================================    
+	     ##    @@@@         $$          @@@@    %%          00
+       @@@@    ##    @@@@   ##    $$    ##    @@@@    %%    @@@@    00
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      ####  %%%%  #### 8888  ####  XXXX  ####  @@@@@@@@  ####  @@@@@@@@
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+----------------------------------------------------------------- 
+
+						      
+   |   |   |  |        |  |     |   |          |   |
+   |   |   |  |  |  |  |  |     |   |  |   |   |   | |   |
+   |___|   |__|  |__|  |__|     |___|  |___|   |___| |___|
+-----------------------------------------------------------------
+
+~
+S
+#13308
+Middle of Saloon~
+You are inside the saloon. Just North west you see a small staircase. To the 
+south of this you see a long bar and behind it is a man serving drinks.  
+Around you is drunken men and fancy women.
+~
+133 8 0
+D0
+Saloon~
+~~
+0 -1 13301
+D1
+Middle of Saloon~
+~~
+0 -1 13309
+D2
+Middle of Saloon~
+~~
+0 -1 13315
+D3
+The Bar~
+~~
+0 -1 13307
+S
+#13309
+Middle of Saloon~
+You are standing right in the middle of the saloon.  In the middle of the room
+there is a table where men are playing poker.  There is laughter and singing
+coming from the piano over on the east side of the room.  There is broken glass
+and bottles all over the floor and blood splattered over the walls.
+Looks like there has been a few bar brawls in here.
+~
+133 8 0
+D0
+Saloon~
+~~
+0 -1 13302
+D1
+Middle of Saloon~
+~~
+0 -1 13310
+D2
+Centre of Saloon~
+~~
+0 -1 13316
+D3
+Middle of Saloon~
+~~
+0 -1 13308
+S
+#13310
+Middle of Saloon~
+You are standing right in the middle of the saloon.  In the middle of the room
+there is a table where men are playing poker.  There is laughter and singing
+coming from the piano over on the east side of the room.  Ther is broken glass
+and bottles all over the floor and blood splattered over the walls.
+Looks like there has been a few bar brawls in here.
+~
+133 8 0
+D0
+Saloon~
+~~
+0 -1 13303
+D1
+Middle of Saloon~
+~~
+0 -1 13311
+D2
+Middle of Saloon~
+~~
+0 -1 13317
+D3
+Middle of Saloon~
+~~
+0 -1 13309
+S
+#13311
+Middle of Saloon~
+You are standing right in the middle of the saloon.  In the middle of the room
+there is a table where men are playing poker.  There is laughter and singing
+coming from the piano over on the east side of the room.  Ther is broken glass
+and bottles all over the floor and blood splattered over the walls.
+Looks like there has been a few bar brawls in here.
+~
+133 8 0
+D0
+Saloon~
+~~
+0 -1 13304
+D1
+Saloon~
+~~
+0 -1 13312
+D2
+Middle of Saloon~
+~~
+0 -1 13318
+D3
+Middle of Saloon~
+~~
+0 -1 13310
+S
+#13312
+Saloon~
+You are on the east wall of the tavern.  directly across the room is the bar and
+right in front of you is the piano.  A ornate light fixture hangs above you head. 
+~
+133 8 0
+D0
+Corner of Saloon~
+~~
+0 -1 13305
+D2
+Saloon~
+~~
+0 -1 13319
+D3
+Saloon~
+~~
+0 -1 13311
+S
+#13313
+Behind the Bar~
+You are behind the bar.  There is a ugly large man here.  He has scars all over
+his face that tell you that he has been in many the bar brawl.  Under the counter you see a large stick and a shot gun.  The floor is wet and sticky and there
+is what looks to be like human hair stuck to the shelf.    
+~
+133 8 0
+D0
+Behind the Bar~
+~~
+0 -1 13306
+D2
+Behind the Bar~
+~~
+0 -1 13320
+E
+shelf~
+
+==================================================================    
+	     ##    @@@@         $$          @@@@    %%          00
+       @@@@    ##    @@@@   ##    $$    ##    @@@@    %%    @@@@    00
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      ####  %%%%  #### 8888  ####  XXXX  ####  @@@@@@@@  ####  @@@@@@@@
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+----------------------------------------------------------------- 
+
+						      
+   |   |   |  |        |  |     |   |          |   |
+   |   |   |  |  |  |  |  |     |   |  |   |   |   | |   |
+   |___|   |__|  |__|  |__|     |___|  |___|   |___| |___|
+-----------------------------------------------------------------
+
+~
+S
+#13314
+The Bar~
+You are standing behind the bar in the saloon.  You see shelves filled with 
+glasses and broken mugs.  There is a tray covering the length of the bar
+filled with tabacco that men have spat... Gross!
+~
+133 8 0
+D0
+Along the Bar~
+~~
+0 -1 13307
+D1
+Middle of Saloon~
+~~
+0 -1 13315
+D2
+Along the Bar~
+~~
+0 -1 13321
+E
+shelf~
+
+==================================================================    
+	     ##    @@@@         $$          @@@@    %%          00
+       @@@@    ##    @@@@   ##    $$    ##    @@@@    %%    @@@@    00
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      ####  %%%%  #### 8888  ####  XXXX  ####  @@@@@@@@  ####  @@@@@@@@
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+----------------------------------------------------------------- 
+
+						      
+   |   |   |  |        |  |     |   |          |   |
+   |   |   |  |  |  |  |  |     |   |  |   |   |   | |   |
+   |___|   |__|  |__|  |__|     |___|  |___|   |___| |___|
+-----------------------------------------------------------------
+
+~
+S
+#13315
+Middle of Saloon~
+You are standing in the middle of the saloon.  One phrase comes to mind as you
+look around the room.  "Wine, Women and song" But joining in might mean your
+LIFE!
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13308
+D1
+Centre of Saloon~
+~~
+0 -1 13316
+D2
+Middle of Saloon~
+~~
+0 -1 13322
+D3
+The Bar~
+~~
+0 -1 13314
+S
+#13316
+Centre of Saloon~
+You are standing right in the middle of the saloon.  All around you there is
+drunken debouchery going on.  This looks like a nice place to sit and rest and
+watch the feastivites.  However watch you back.  
+		You never know when a brawl is about to start up.
+~
+133 16777224 0
+D0
+Saloon~
+~~
+0 -1 13309
+D1
+Middle of Saloon~
+~~
+0 -1 13317
+D2
+Middle of Saloon~
+~~
+0 -1 13323
+D3
+Middle of Saloon~
+~~
+0 -1 13315
+S
+#13317
+Middle of Saloon~
+You are standing right in the middle of the saloon.  In the middle of the room
+there is a table where men are playing poker.  There is laughter and singing
+coming from the piano over on the east side of the room.  Ther is broken glass
+and bottles all over the floor and blood splattered over the walls.
+Looks like there has been a few bar brawls in here.
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13310
+D1
+Middle of Saloon~
+~~
+0 -1 13318
+D2
+Middle of Saloon~
+~~
+0 -1 13324
+D3
+Centre of Saloon~
+~~
+0 -1 13316
+S
+#13318
+Middle of Saloon~
+You are standing in the saloon.  You feel a sudden urge to run and hide as
+there is gun shots wizzing past your head and broken bottles been thrown 
+across the room.
+~
+133 8 0
+D0
+~~
+~~
+0 -1 13311
+D1
+Middle of Saloon~
+~~
+0 -1 13319
+D2
+Middle of Saloon~
+~~
+0 -1 13325
+D3
+Middle of Saloon~
+~~
+0 -1 13317
+S
+#13319
+Saloon~
+You are on the east wall of the Saloon.  You can see a small table with men 
+playing poker and yelling at each other.  You can see poking out from under 
+the table two cards.  The ACE of Hearts and Diamonds.  Bah.. what cheats!!
+~
+133 8 0
+D0
+Saloon~
+~~
+0 -1 13312
+D2
+Saloon~
+~~
+0 -1 13326
+D3
+Saloon~
+~
+0 -1 13318
+E
+cards~
+		      ___________
+		      |    #  A |_________
+		      |   ###   |      A |
+		      |  #####  | ## ##  |
+		      |   ###   |####### |
+		      |A   #    | #####  |
+		      -----------  ###   |
+			       -----------
+~
+S
+#13320
+Behind the Bar~
+You are behind the bar.  There is a ugly large man here.  He has scars all over
+his face that tell you that he has been in many the bar brawl. Under the counter
+you see a large stick and a shot gun.  The floor is wet and sticky and there 
+is what looks to be like human hair stuck to the shelf. 
+~
+133 8 0
+D0
+Behind the Bar~
+~~
+0 -1 13313
+D1
+Saloon~
+~~
+0 -1 13321
+E
+shelf~
+
+==================================================================    
+	     ##    @@@@         $$          @@@@    %%          00
+       @@@@    ##    @@@@   ##    $$    ##    @@@@    %%    @@@@    00
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      ####  %%%%  #### 8888  ####  XXXX  ####  @@@@@@@@  ####  @@@@@@@@
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+----------------------------------------------------------------- 
+
+						      
+   |   |   |  |        |  |     |   |          |   |
+   |   |   |  |  |  |  |  |     |   |  |   |   |   | |   |
+   |___|   |__|  |__|  |__|     |___|  |___|   |___| |___|
+-----------------------------------------------------------------
+
+~
+S
+#13321
+The Bar~
+You are standing in front of the bar in tha saloon.  Behind the bar you see
+a mirror that allows you to see behind you.  There are small shelves that 
+house all the bars glasses.
+~
+133 8 0
+D0
+Along the Bar~
+~~
+0 -1 13314
+D1
+Middle of Saloon~
+~~
+0 -1 13322
+D2
+Saloon~
+~~
+0 -1 13327
+D3
+Behind the Bar~
+~~
+0 -1 13320
+E
+shelf~
+
+==================================================================    
+	     ##    @@@@         $$          @@@@    %%          00
+       @@@@    ##    @@@@   ##    $$    ##    @@@@    %%    @@@@    00
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      ####  %%%%  #### 8888  ####  XXXX  ####  @@@@@@@@  ####  @@@@@@@@
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+      @@@@@@@@  ####  @@@@@@@@ ####  $$$$  ####  @@@@@@@@  %%%%  @@@@@@@@  0000
+----------------------------------------------------------------- 
+
+						      
+   |   |   |  |        |  |     |   |          |   |
+   |   |   |  |  |  |  |  |     |   |  |   |   |   | |   |
+   |___|   |__|  |__|  |__|     |___|  |___|   |___| |___|
+-----------------------------------------------------------------
+
+~
+S
+#13322
+Middle of Saloon~
+You are standing in the middle of the saloon.  There are many women dressed in
+bright revealing attire. To the west is long bar.  Behind it is a large man 
+serving whisky shots to his patrons.
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13315
+D1
+Middle of Saloon~
+~~
+0 -1 13323
+D2
+Saloon~
+~~
+0 -1 13328
+D3
+The Bar~
+~~
+0 -1 13321
+S
+#13323
+Middle of Saloon~
+You are standing right in the middle of the saloon.  In the middle of the room
+there is a table where men are playing poker.  There is laughter and singing
+coming from the piano over on the east side of the room.  Ther is broken glass
+and bottles all over the floor and blood splattered over the walls.
+Looks like there has been a few bar brawls in here.
+~
+133 8 0
+D0
+Centre of Saloon~
+~~
+0 -1 13316
+D1
+MIddle of Saloon~
+~~
+0 -1 13324
+D2
+Entrance to Saloon~
+~~
+0 -1 13329
+D3
+Middle of Saloon~
+~~
+0 -1 13322
+S
+#13324
+Middle of Saloon~
+You are standing in the middle of the saloon.  Best to be inconspicous about
+what you are doing here.  Killing and pillaging might be a way of life here
+but no one acknowledge's the fact.
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13317
+D1
+Middle of Saloon~
+~~
+0 -1 13325
+D2
+Saloon~
+~~
+0 -1 13330
+D3
+Middle of Saloon~
+~~
+0 -1 13323
+S
+#13325
+Middle of Saloon~
+You are standing in the middle of the saloon.  You hear someone yell from 
+the corner of the saloon "Rupey is a star"  Immediatly you realise that this 
+is true and pledge yourself to her eternal greatness.. and feel better for it...
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13318
+D1
+Saloon~
+~~
+0 -1 13326
+D2
+Middle of Saloon~
+~~
+0 -1 13331
+D3
+Middle of Saloon~
+~~
+0 -1 13324
+S
+#13326
+Saloon~
+You are in the saloon. You sense the tension in the room.  Men are glaring at
+other men across the bar and insults are being screamed across the poker table.
+You better get out of here quick or you might just become caught up in the
+crossfire.
+~
+133 8 0
+D0
+Saloon~
+~~
+0 -1 13319
+D2
+Corner of Saloon~
+~~
+0 -1 13332
+D3
+Saloon~
+~~
+0 -1 13325
+S
+#13327
+Saloon~
+As you walk along the floor.  A piece of tabacco sticks to your foot where
+someone missed when they spat.  It is quieter on this side of the room although
+you can still heat the piano and singing from the other side of the saloon.
+~
+133 8 0
+D0
+The Bar~
+~~
+0 -1 13321
+D1
+Middle of Saloon~
+~~
+0 -1 13328
+S
+#13328
+Saloon~
+You are standing infront of a window.  It is patched up with wood in places
+but you can seen that it has had a few breakages.  As you get closer to the
+bar you can hear bartender more clearly.  He has scars all over his face.
+Probably for bar fights.
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13322
+D1
+The Saloon~
+~~
+0 -1 13329
+D3
+The Saloon~
+~~
+0 -1 13327
+S
+#13329
+The Saloon~
+The Saloon is a large room with lots of chairs and tables.  There is a bar to
+the left and a man playing piano.  There is a large man behind the bar pouring
+shots if whisky and talking.  In the middle of the room is a small green felt
+table where men are playing poker and yelling loudly.
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13323
+D1
+Saloon~
+~~
+0 -1 13330
+D2
+The Porch~
+~~
+0 -1 13333
+D3
+Saloon~
+~~
+0 -1 13328
+S
+#13330
+Saloon~
+The Saloon is a large room with lots of chairs and tables.  There is a bar to
+the left and a man playing piano.  There is a large man behind the bar pouring
+shots if whisky and talking.  In the middle of the room is a small green felt
+table where men are playing poker and yelling loudly.
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13324
+D1
+Saloon~
+~~
+0 -1 13331
+D3
+Saloon~
+~~
+0 -1 13329
+S
+#13331
+Saloon~
+The Saloon is a large room with lots of chairs and tables.  There is a bar to
+the left and a man playing piano.  There is a large man behind the bar pouring
+shots if whisky and talking.  In the middle of the room is a small green felt
+table where men are playing poker and yelling loudly.
+~
+133 8 0
+D0
+Middle of Saloon~
+~~
+0 -1 13325
+D1
+Corner of Saloon~
+~~
+0 -1 13332
+D3
+Saloon~
+~~
+0 -1 13330
+S
+#13332
+Corner of Saloon~
+You are in the corner of the saloon. This is the only place in the room where
+you feel that you can not be stabbed in the back.  However you may have stepped
+in someones spit bucket as your foot is covered in chewing tabacco. 
+~
+133 8 0
+D0
+Saloon~
+~~
+0 -1 13326
+D3
+Saloon~
+~~
+0 -1 13331
+S
+#13333
+Before Saloon~
+You are standing on the porch to the Saloon.  There is windows on either side 
+of the wooden construction.  Through the swinging doors you hear womens 
+laughter and breaking glass amongst the music and singing.  
+Sure seems to be a party going on here.
+~
+133 8 0
+D0
+Saloon
+~
+~
+0 0 13329
+D2
+Saloon Porch~
+~
+0 0 13208
+S
+#13334
+The Staircase~
+You are walking up the staircase.  You still cannot see what is at the top.
+You can still hear the laughing and music from the saloon downstairs.
+~
+133 8 0
+D4
+Up The Staircase~
+~
+0 0 13335
+D5
+Down The Staircase~
+~
+0 0 13300
+E
+stairs~
+You see a rickety set of stairs.  They are old and in need of 
+repair.
+
+_______________________________________________________________
+		   |||||============|||||
+-------------------|||||            |||||----------------------   
+     @@             ||||==============||||
+-------------------||||              ||||----------------------      
+		   |||================|||                   @@
+-------------------|||                |||----------------------   
+		   ||==================||
+-------------------||                  ||----------------------
+		   ||==================|| 
+-------------------||                  ||----------------------
+		   |====================|
+-------------------|                    |----------------------
+		   |====================|
+		   |                    |
+..............................................................
+		  
+~
+S
+#13335
+The Staircase~
+You are climbing the small staircase. The singing from the saloon is getting
+quieter and you can see that the hallway at the top of the stairs leads north.
+~
+133 8 0
+D4
+Up The Staircase~
+~
+0 0 13336
+D5
+Down The Staircase~
+~
+0 0 13334
+E
+stairs~
+You see a rickety set of stairs.  They are old and in need of 
+repair.
+
+_______________________________________________________________
+		   |||||============|||||
+-------------------|||||            |||||----------------------   
+     @@             ||||==============||||
+-------------------||||              ||||----------------------      
+		   |||================|||                   @@
+-------------------|||                |||----------------------   
+		   ||==================||
+-------------------||                  ||----------------------
+		   ||==================|| 
+-------------------||                  ||----------------------
+		   |====================|
+-------------------|                    |----------------------
+		   |====================|
+		   |                    |
+..............................................................
+		  
+~
+S
+#13336
+The Staircase~
+You are climbing the small staircase.  The rickety old rail is coming away from
+the wall.  You do not feel at all safe.  As you walk the steps creak which might
+alarm anyone who might be keeping guard.
+~
+133 8 0
+D4
+Up The Staircase~
+~
+0 0 13337
+D5
+Down The Staircase~
+~
+0 0 13335
+E
+stairs~
+You see a rickety set of stairs.  They are old and in need of 
+repair.
+
+_______________________________________________________________
+		   |||||============|||||
+-------------------|||||            |||||----------------------   
+     @@             ||||==============||||
+-------------------||||              ||||----------------------      
+		   |||================|||                   @@
+-------------------|||                |||----------------------   
+		   ||==================||
+-------------------||                  ||----------------------
+		   ||==================|| 
+-------------------||                  ||----------------------
+		   |====================|
+-------------------|                    |----------------------
+		   |====================|
+		   |                    |
+..............................................................
+		  
+~
+S
+#13337
+The Staircase~
+You are nearly at the top of the stairs.  A lantern hangs above you lighting 
+the passage but you still cannot see all the way.  However you sense movement
+at the end of the passage and noises coming from the rooms on either side of
+the passage.
+~
+133 8 0
+D4
+Up the Staircase~
+~
+0 0 13338
+D5
+Down the Staircase~
+~
+0 0 13336
+S
+#13338
+The Staircase~
+You have reached the last step of the staircase.  The step creaks at you stand
+there.  You have to be quiet so as not to alarm whoever is lurking in the
+shadows.
+~
+133 8 0
+D0
+Small Hallway~
+~
+0 0 13339
+D5
+Down the Stairs~
+~
+0 0 13337
+E
+stairs~
+You see a rickety set of stairs.  They are old and in need of 
+repair.
+
+_______________________________________________________________
+		   |||||============|||||
+-------------------|||||            |||||----------------------   
+     @@             ||||==============||||
+-------------------||||              ||||----------------------      
+		   |||================|||                   @@
+-------------------|||                |||----------------------   
+		   ||==================||
+-------------------||                  ||----------------------
+		   ||==================|| 
+-------------------||                  ||----------------------
+		   |====================|
+-------------------|                    |----------------------
+		   |====================|
+		   |                    |
+..............................................................
+		  
+~
+S
+#13339
+Small Hallway~
+You are at the top of the staircase.  There are two doors closest to you north
+down the passage.  There is noises coming from the doors.  You hear gunshots
+and wonder if you really should be here.
+~
+133 8 0
+D0
+Small Hallway~
+~
+0 0 13340
+D2
+Small Hallway~
+~
+0 0 13338
+S
+#13340
+Small Hallway~
+You are standing in a small hallway.  There is a lantern behind you which lights
+the way till the hallway ends in a mass of darkness.  You hear faint snoring
+coming from the end of the hallway.
+~
+133 8 0
+D0
+Small Hallway~
+~
+0 0 13341
+D2
+Small Hallway~
+~
+0 0 13339
+S
+#13341
+Small Hallway~
+You are walking down a small hallway.  Although it is dark you feel that 
+there is a door handle to the right and left of you.  You smell cheap 
+whisky and the snoring is becoming louder.
+~
+133 8 0
+D0
+Small Hallway~
+~
+0 0 13342
+D1
+~
+blue door~
+1 -1 13347
+D2
+Small Hallway~
+~
+0 0 13340
+D3
+~
+red door~
+1 -1 13346
+E
+door~
+There is a door to your left and right.
+~
+S
+#13342
+Small Hallway~
+You are standing in a small hallway.  The snoring is growing steadily louder 
+and you think it might burst your ear drums if you got too close.  
+There is yelling coming from room further down the hall.
+~
+133 9 0
+D0
+Small Hallway~
+~
+0 0 13343
+D2
+Small Hallway~
+~
+0 0 13341
+S
+#13343
+Small Hallway~
+You are standing before a small wooden door. There is a chair here where the
+guard sits.  The door has a small brass handle with a keyhole.  It is too
+dark to see what is inside.
+~
+133 9 0
+D0
+Boss's Office
+~
+Boss's door~
+2 -1 13344
+D2
+Small Hallway~
+~
+0 0 13342
+E
+door~
+You see a large wooden door with a big brass handle.  There is a sign on
+the door.
+~
+E
+sign~
+	     |                                            |
+	     |       _______________________________      |
+	     |       |o                           o|      |
+	     |       |                             |      |
+	     |       |                             |      |
+	     |       |        DO NOT ENTER         |      |
+	     |       |                             |      |
+	     |       |                             |      |
+	     |       |                             |      |
+	     |       |_____________________________|      |
+	     |                                            |
+	     |                                            |
+	     |                                            |
+	     |                                            |
+
+~
+S
+#13344
+Boss's Office~
+You are inside where the BIG man stays to count his money.  There is guns
+mounted all over the wall and a huge oak desk.  On the desk is pencils and
+a abacus.  The window is nailed shut and there is bars attached to the outside
+ledge.  There must be a safe here somewhere.
+~
+133 9 0
+D2
+Small Hallway
+~
+Boss's Door~
+2 -1 13343
+D5
+~
+safe~
+2 13313 13345
+E
+guns~
+You see a well polished gun collection.
+~
+E
+desk~
+You see a large Oak desk with well sharpened pencils in a cup on teh corner.
+There is a cigar left in an ash tray burning.
+~
+E
+safe~
+You see a large safe built into the floor.  Now where is the combination.
+~
+S
+#13345
+The Safe~
+
+MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!!
+
+MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! 
+
+MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!!
+
+MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! MONEY!! 
+
+		Boy! has all your christmas's come at once....
+
+~
+133 392 0
+D4
+Boss's Office
+~
+safe~
+2 -1 13344
+S
+#13346
+A Small Room~
+You are standing in a small room.  It looks like someone sleeps here. There is asmall bed in the corner with a small patchwork quilt covering it.  There is a 
+ornate jug and basin sitting on the sideboard and a small window facing another
+building on the other side of the street.
+~
+133 137 0
+D1
+Small Hallway~
+~
+0 0 13341
+S
+#13347
+The Bath Room~
+You are in a small room.  There is a large iron bath tub in the corner and the
+window has been covered with a dusty grey sheet. The bath is full of grime.
+Does not look like anyone uses this room much.  You can smell the familar 
+scent of rotting wood and whisky.
+~
+133 137 0
+D3
+Small Hallway~
+~
+0 0 13341
+S
+$~
+
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

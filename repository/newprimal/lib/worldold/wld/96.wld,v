@@ -1,0 +1,236 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.33;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.46;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#9600
+Entrance to the Chaos Guild.~
+You are standing in the entry hall to the Guild of Chaos..
+There is a Door to the North with a sign above it whic says;
+	Chaos Members ONLY.... Others enter at own Risk!!!
+
+The only other exit is West.
+~
+15 67109001 0
+D0
+Doorway to Chaos~
+door~
+2 15000 9627
+D3
+Construction Zone.
+~
+~
+0 0 103
+S
+#9601
+Teleportation Zone.~
+Sorry.. This are is still under construction.~
+15 9 0
+D1
+Chaos Square~
+~
+0 0 9627
+S
+#9617
+Entry to the meeting hall.~
+This is the Foyer to the Meeting Hall of the Guild of Chaos..
+East is the Meeting Hall. While west is the exit..
+~
+15 9 0
+D1
+Meeting Hall~
+~
+0 0 9618
+D3
+Chaos Square~
+~
+0 0 9627
+S
+#9618
+Meeting Hall of the Chaos Guild.~
+This is a large room filled with a HUGE table with chairs and places for all
+the members.~
+15 136 0
+D3
+Meeting Hall Foyer.~
+~
+0 0 9617
+S
+#9620
+The Chaos Postoffice.~
+Well What do you expect.. its just a postoffice.~
+15 136 0
+D3
+Chaos Walk.~
+~
+0 0 9621
+S
+#9621
+Chaos Walk~
+You are on Chaos Walk. To the West is the Inn of Death. East is the Postoffice.
+South is Chaos Square. Chaos Walk continues to the North.~
+15 9 0
+D0
+Chaos Walk.~
+~
+0 0 9624
+D1
+Postoffice.~
+~
+0 0 9620
+D2
+Chaos Square.~
+~
+0 0 9627
+D3
+Inn of Death.~
+~
+0 0 9622
+S
+#9622
+The Inn of Death.~
+This place looks like the Social hub of the Chaos Guild.. The only exit is East.~
+15 16777224 0
+D1
+Chaos Walk.~
+~
+0 0 9621
+S
+#9623
+Assasin's Place.~
+This is where you can hire assasins to 'HIT' people you want dead.
+Be Warned.. This is expensive and dangerous to the purchaser.~
+15 248 0
+D1
+Chaos Way.~
+~
+0 0 9624
+S
+#9624
+Chaos Walk.~
+This is as far as Chaos Walk goes. To the North is the Guilmaster's House.
+To the East is the Weapon/Armour Shop while West is the Assasin's Home.~
+15 9 0
+D0
+Gulidmaster's House
+~
+~
+0 0 9626
+D1
+Weapons Shop
+~
+~
+0 0 9625
+D2
+Chaos Way
+~
+~
+0 0 9621
+D3
+Assasin's House.~
+~
+0 0 9623
+S
+#9625
+Armour/Weapons Shop.~
+This is where the tools of the trade can be bought and sold.~
+15 67108992 0
+D3
+Chaos Way.~
+~
+0 0 9624
+S
+#9626
+Guildmaster of Chaos's House.~
+This is a spacious mansion full of chaotic battle pictures.~
+15 2568 0
+D2
+Chaos Way.~
+~
+0 0 9624
+S
+#9627
+Chaos Square.~
+You are standing in the Hub of the Chaos Guild.. Exits are in all directions.
+~
+15 9 0
+D0
+Chaos Walk.
+~
+~
+0 0 9621
+D1
+Meeting hall.~
+~
+0 0 9617
+D2
+Exit Guild.~
+~
+0 0 9600
+D3
+Teleportation Zone.~
+~
+0 0 9601
+S
+#99999
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

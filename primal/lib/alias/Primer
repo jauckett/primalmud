@@ -1,0 +1,136 @@
+1 sum jester
+firewall cast 'fire wall'
+trog goto 2281
+can give cannon cl;give cannon 2.cl;order clones wield can
+mor goto 2235
+pos goto 6104;cast 'cloud'
+tardis goto 22399
+h cast 'divine heal'
+4 get ton tool;get ton tool;get ton tool;get ton tool;quaff ton;quaff ton;quaff ton;quaff ton
+gate cast 'dimension gate' $1;open gate
+oddhouse goto 7050
+black goto 11090
+white goto 11113
+csarmor cast 'spirit armor' $1
+carmor cast 'armor' $1
+cbless cast 'bless' $1
+6 rem blade;wield can
+5 rem can;wield blade
+tudor7 goto miggins;backstab miggins
+tudor5 goto 8119;backstab armourer
+tudor4 goto 8118;backstab weapon
+tudor3 goto 8117;backstab store
+imm goto 100
+tudor12 goto 8203;backstab look
+tudor11 goto 8148;backstab look
+tudor10 goto flashard;backstab flash
+tudor9 goto caretaker;backstab care
+tudor8 goto 8168;backstab head
+tudor6 goto 8150;backstab wiz
+tudor2 goto baldric;backstab baldric
+tudor1 goto 8112;backstab lord
+home goto 346
+inv cast 'invis'
+magic cast 'sanc';cast 'bless';cast 'armor';cast 'detect invis';cast 'drag';cast 'sense li';cast 'holy';cast 'spirit ar';cast 'fire shi';cast 'haste';cast 'divine prot';cast 'stone';cast 'nohas';cast 'fire wall';cast 'lightning shield';cast 'inv'
+cl cast 'clone';cast 'clone'
+40 buy 40 #10;p all.tonic force
+str cast 'str'
+detectinvis cast 'detect invis'
+serp cast 'serpent skin'
+ss spy south
+nn spy north
+ww spy west
+ee spy east
+cdi cast 'detect invis' cl;cast 'detect invis' 2.cl
+di cast 'detect invis' cl;cast 'detect invis' 2.cl
+garmour group all;cast 'group armour';ungroup
+fixac cast 'holyaid';cast 'divine protection';cast 'armor' self;cast 'bless';cast 'spirit armor';cast 'fire shield';cast 'stoneskin' self;cast 'invis'
+gsanc group all;cast 'group sanc';ungroup
+gbless cast 'bless' cl;cast 'bless' 2.cl
+. wake;sta;l
+drill hold drill
+detectmagic cast 'detect magic'
+stoneskin cast 'stoneskin' self
+swapf drop 2.force;get force
+cloud cast 'cloud kill' $1
+lif l in force
+csense cast 'sense life' cl;cast 'sense life' 2.cl
+wh cast 'whirlwind'
+infra cast 'infra' $1
+csanc cast 'sanc' $1
+charm cast 'charm' $1
+csee cast 'infra' clone;cast 'infra' 2.clone
+sa cast 'spirit armor'
+holyaid cast 'holyaid' self
+dragon cast 'dragon'
+r retreat
+bless cast 'bless' self
+rec cast 'word of recall' self
+armor cast 'armor' self
+sanc cast 'sanc' self
+sum cast 'summon' $1
+para cast 'paralyze' $1
+blind cast 'blindness' $1
+blast cast 'plasma blast' $1
+wr cast 'wraith touch' $1
+ni cast 'sleep' $1
+wt cast 'wraith touch' $1
+rc cast 'remove curse' $1
+see cast 'infravision'
+ew cast 'enchant weapon' $1
+locate cast 'locate object' $1
+m cast 'meteor swarm' $1
+sl cast 'sense life'
+cinvis cast 'invis' clone;cast 'invis' 2.clone
+fear cast 'fear' $1
+clone cast 'clone'
+re cast 'refresh'
+hunt autoexit;cast 'invis';hunt $1
+shield cast 'lightning shield'
+haste cast 'haste'
+waterwalk cast 'waterwalk' self
+` scan
+waterbreathe cast 'waterbreathe' self
+id cast 'identify' $1
+dp cast 'divine protection'
+ad cast 'advanced heal' $1
+unblind cast 'cure blind' $1
+unpara cast 'remove paralysis' $1
+away title is away: $1;gos I'm away: $1;afk
+in cast 'invis' $1
+t cast 'teleport'
+lif2 l in 2.for
+lif3 l in 3.for
+f cast 'finger' $1
+cd order clones die
+q get tonic force;quaff tonic
+uu spy up
+dd spy down
+2 get all.tonic;p all.tonic force
+ginvis cast 'invis' clone;cast 'invis' 2.clone;cast 'invis' self
+da cast 'detect align'
+serve rem all.lich;rem belt;rem leg;order clones serve;order clones serve;wear leg;wear belt;wear lich;wear lich
+heal cast 'divine heal' $1
+weareq hold jack;hold drill;wield dark;wear silver;wear all
+fires cast 'fire shield'
+remieq rem all.lich;p all.lich force;rem blade;p all.blade force;rem gaunt;p gaunt force;rem belt;p belt force;rem ven;p ven force
+ls cast 'lightning shield'
+curse cast 'curse' $1
+ani cast 'animate dead' corpse;o fol sle
+portal goto 10330
+nimob switch $1;sle;return
+main goto 15
+tavern goto 12
+sancp cast 'sanc' $1
+tudor13 goto 8174;cast 'cloud'
+1st goto 3212
+g goto $1;kill $1
+tav goto 12
+b backstab $1
+all gos $*;/ $*;- $*;holler $*;auct $*;new $*;shout $*;say $*
+3 rem cannon;wield blade;backstab $1;rem blade;wield can
+cdie order clones die
+fly cast 'fly'
+lit look in tool
+c cast 'cloud kill'
+bank goto 20

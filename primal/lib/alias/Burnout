@@ -1,0 +1,19 @@
+[ say now
+8 say heal
+9 say now
+qu quaff heal
+q quaff heal
+2 c 'word'
+' c 'fire'
+gg c 'word'; n; n; n; n; e; go b
+0 quitr
+h get heal bac; quaff heal
+tt train hit; train hit; train hit; train hit; train hit
+3 get all cor
+ag n; n; e; e; s; go p; e; s; s; s; w
+ht n; n; w; w; w; s; go st; e; e; e; e; u; buy 20 heal
+b bash
+] primal
+6 c 'inv'
+j junk cor
+11 get cor

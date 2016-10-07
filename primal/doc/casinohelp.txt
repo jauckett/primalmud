@@ -1,0 +1,108 @@
+CASINO GAMBLE GAMBLING
+
+Casinos are rooms where gambling is allowed on Primal MUD.
+
+Many different games can be played at one time, the only 
+limit being your supply of cash. At the moment there are
+3 games available for your entertainment.
+
+	- Horse Racing 
+	- Blackjack
+	- Slots
+
+See: Race, Blackjack, Slots
+
+RACING RACE HORSE
+
+Horse races run approximately every minute on Primal.
+
+To be part of a race you must go to a casino, and use
+the "race" command to bet. The bet is done by putting
+an amount after the command. Ie, "race 1000" will put
+1000 coins on the next race. In order to influence 
+the amount you win, you can bet on shorter or longer
+chances. This represents a bet on a horse with a higher
+or lesser chance of winning, respectively.
+
+Eg:
+	race 1000 	- Bet 1000 on next race (Regular)
+	race 1000 short - Bet 1000 on a good horse
+	race 1000 long	- Bet 1000 on an unlikely horse
+
+Depending on your bet type, if you win you will be
+reimbursed appropriately. If you leave the casino
+with a bet on a horse, the casino will inform you of 
+the result as soon as the race is completed.
+
+See: Casino
+
+BLACKJACK BJ
+
+Blackjack is otherwise known as "21", and the casino
+provides several tables at which the game may be
+legally played with primal cash.
+
+The rules:
+The aim of the game is to get a score of 21 or less 
+given 5 or fewer cards. The player plays against
+the dealer, and has the advantage of going first.
+
+Card Values:
+-Face cards(Jack, Queen, King) are worth ten points.
+-Number cards(2 -> 10) are valued at their own number.
+-Aces are worth either 1 or 11 points. The default
+  value is 11 points unless that would take the score
+  above 21, in which case it is set to 1.
+
+Winning:
+Blackjack - 2 cards - an ace and a card worth 10 points.
+High Score - Having a higher score than the dealer.
+Player gets 5 cards and is still at 21 or less.
+Dealer Bust - Dealer goes over 21.
+
+Losing:
+Player Bust - Player goes over 21
+Dealer Blackjack.
+Dealer gets 5 cards and is still 21 or less.
+Leaving casino premises for longer than 15 seconds.
+
+Drawing:
+Push - If player and dealer have same score.
+
+Splitting:
+When given the initial 2 cards, if they are of equal value
+(except ACEs), the player can opt to double up and play two
+games. A prompt will come up indicating this option.
+Once a game is split, you will be dealt a new card 
+to the first game, and the second game will be ready
+once the first is completed.
+
+Playing:
+bj 1000		- Starts a game, with a bet of 1000
+bj hit		- Asks the dealer for another card
+bj stay		- Tells the dealer you are done
+bj split	- Indicates a desire to split the game
+bj		- If playing, this will show a player
+		  their hand.
+
+*NOTE: "bj" may be used in lieu of the "blackjack" command*
+
+SLOT SLOTS 
+
+This game is quite simple, and just involves putting 
+money into a machine, and hoping for the best as 
+reels spin. The payouts can be staggeringly large
+if the player is lucky enough.
+
+Playing:
+	slots 1000	- Puts 1000 coins in, and starts
+
+Winning:
+5 reels will show up, each with a value. If there is a 
+winning combination, the player is informed, and their
+money credited appropriately. Free spins can also be 
+won if a Straight shows up (5 sequential cards).
+
+See: Casino
+
+

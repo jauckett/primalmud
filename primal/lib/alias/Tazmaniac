@@ -1,0 +1,12 @@
+tm train mana;train mana;train mana;train mana;train mana
+2 rem soaker;wield fist
+1 rem fist;wield soaker
+recall cast 'word of recall'
+cc cast 'cure critic' tazmaniac
+ds cast 'dragon' tazmaniac
+th train hit;train hit;train hit;train hit;train hit
+wawa get skin backpack;drink skin;put skin backpack
+ht get healing backpack;q healing
+wt get white backpack;q white
+heal cast 'heal' tazmaniac
+intro wear all;hold knife;wield fist;hold stone

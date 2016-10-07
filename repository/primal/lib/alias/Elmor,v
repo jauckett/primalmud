@@ -1,0 +1,45 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@bb c 'burning' $1
+magic c 'magic' $1
+aa get all all
+ch c 'chill' $1
+8 ba mummy
+sh c 'shocking' $1
+inv c 'invisibility' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

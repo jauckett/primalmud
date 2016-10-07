@@ -1,0 +1,5 @@
+wa wake; stand
+dr get skin back; cast 'create water' skin; drink skin
+cf cast 'create food' ;eat mushroom
+inf cast 'infravis' $*
+c get coins all.corpse

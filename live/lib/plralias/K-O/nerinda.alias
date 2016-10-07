@@ -1,0 +1,400 @@
+1
+k
+12
+backstab  ec
+0
+4
+unwb
+33
+rem aqua;wear cloak;put aqua back
+1
+2
+wb
+33
+get aqua back;rem cloak;wear aqua
+1
+2
+tt
+6
+tag $*
+1
+2
+as
+15
+rescue boofhead
+0
+5
+unvac
+35
+rem decom;put decom back;wear major
+1
+3
+vac
+35
+get decom back;rem major;wear decom
+1
+9
+unvac;rem
+66
+space;rem space;put space back;put space back;wear helm;wear major
+1
+6
+unchem
+32
+rem mask;wear helm;put mask back
+1
+4
+chem
+32
+rem helm;get mask back;wear mask
+1
+2
+pk
+36
+get dagger back;rem cue;wield dagger
+1
+6
+uncold
+32
+rem cold;put cold back;wear ring
+1
+2
+jj
+18
+battlecry $*;stand
+1
+1
+4
+4
+head
+0
+1
+5
+4
+bash
+0
+1
+6
+9
+piledrive
+0
+2
+ss
+14
+sense stats $*
+1
+4
+grat
+35
+grats &r <<<<<&c<<<&B $* &c>>>&r>>>
+1
+6
+unheat
+32
+rem fire;put fire back;wear ring
+1
+4
+heat
+32
+get fire back;rem ring;wear fire
+1
+2
+pp
+13
+get dust cart
+0
+1
+t
+14
+bodyslam teach
+0
+1
+3
+9
+piledrive
+0
+1
+2
+7
+bearhug
+0
+1
+1
+4
+kick
+0
+1
+j
+8
+bodyslam
+0
+2
+rr
+29
+get recall back;recite recall
+1
+3
+med
+7
+htrance
+0
+2
+rp
+18
+say refresh please
+0
+2
+sp
+17
+say spells please
+0
+2
+hp
+15
+say heal please
+0
+3
+bhb
+20
+put all.healing back
+0
+2
+qr
+48
+open force;get heal force;quaff heal;close force
+1
+2
+br
+51
+buy 10 heal;open force;put all.heal force;clo force
+1
+2
+rb
+19
+rem back;hold sapph
+1
+2
+hb
+21
+rem sapph;hold 2.back
+1
+2
+ff
+7
+retreat
+0
+1
+8
+11
+drop 1 coin
+0
+3
+cin
+17
+rem sapp;hold sap
+1
+4
+cold
+32
+get cold back;rem ring;wear cold
+1
+1
+h
+12
+flytackle $*
+1
+1
+9
+18
+get all all.corpse
+0
+3
+bsl
+27
+buy 10 eye;put all.eye back
+1
+4
+lib2
+14
+look in 2.back
+0
+3
+grb
+63
+get all.healing back;open force;put all.tonic force;close force
+1
+6
+gohome
+15
+n;n;w;w;w;w;w;d
+1
+3
+csl
+23
+get eye back;recite eye
+1
+2
+cf
+26
+get peach back;quaff peach
+1
+3
+cdh
+23
+get eye back;recite eye
+1
+3
+bdh
+27
+buy 10 eye;put all.eye back
+1
+3
+cda
+26
+get allia back;quaff allia
+1
+3
+bda
+31
+buy 10 allia;put all.allia back
+1
+3
+cdi
+28
+get yellow back;quaff yellow
+1
+2
+by
+33
+buy 10 yellow;put all.yellow back
+1
+3
+bre
+32
+buy 8 recall;put all.recall back
+1
+3
+jjj
+4
+trip
+0
+2
+qw
+60
+open force;get protection force;close force;quaff protection
+1
+2
+bw
+65
+buy 10 protection;open force;put all.protection force;close force
+1
+3
+lif
+36
+open force;look in force;close force
+1
+2
+ll
+47
+open door w;open door e;open door n;open door s
+1
+5
+gofut
+27
+u;e;e;e;e;e;e;e;s;go portal
+1
+6
+gowest
+26
+u;e;e;s;go stage;e;e;e;e;u
+1
+6
+gotown
+15
+u;e;e;e;e;e;s;s
+1
+8
+godarask
+79
+s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+1
+2
+ws
+22
+rem soaker;wield sword
+1
+2
+mm
+14
+hide;ambush $*
+1
+5
+golab
+119
+n;n;w;w;w;n;e;e;s;s;u;n;open french;n;d;d;n;n;n;e;e;open quest;n;e;e;e;e;e;e;open illus;s;e;s;e;s;e;s;e;e;n;n;n;w;s;n;s
+1
+2
+hi
+4
+hide
+0
+2
+ha
+14
+hide;ambush $*
+1
+2
+kk
+31
+backstab $*;alias k backstab $*
+1
+2
+bs
+24
+rem blaster;wield soaker
+1
+6
+gosand
+29
+e;s;e;s;e;s;e;e;n;n;n;w;s;n;s
+1
+3
+lib
+12
+look in back
+0
+3
+ccw
+24
+cast 'create water' skin
+0
+1
+0
+14
+get all corpse
+0
+2
+wa
+10
+wake;stand
+1
+3
+lis
+9
+listen $*
+1
+2
+li
+14
+look in corpse
+0
+2
+sn
+9
+sneak;aff
+1
+2
+eb
+31
+cast 'create food';eat mushroom
+1

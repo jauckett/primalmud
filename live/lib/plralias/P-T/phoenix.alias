@@ -1,0 +1,265 @@
+8
+remcurse
+22
+cast 'remove curse' $1
+1
+5
+storm
+13
+cast 'meteor'
+0
+5
+haste
+15
+cast 'haste' $1
+1
+5
+clone
+12
+cast 'clone'
+0
+5
+cloud
+17
+cast 'cloud kill'
+0
+1
+h
+26
+cast 'divine heal' phoenix
+0
+6
+wraith
+22
+cast 'wraith touch' $1
+1
+6
+finger
+25
+cast 'finger of death' $1
+1
+6
+dragon
+16
+cast 'dragon' $1
+1
+7
+breathe
+22
+cast 'waterbreathe' $1
+1
+5
+stone
+19
+cast 'stoneskin' $1
+1
+4
+heal
+21
+cast 'divine heal' $1
+1
+6
+plasma
+22
+cast 'plasma blast' $1
+1
+3
+com
+14
+compost corpse
+0
+4
+para
+18
+cast 'paralyze' $1
+1
+5
+wwalk
+19
+cast 'waterwalk' $1
+1
+5
+dprot
+27
+cast 'divine protection' $1
+1
+3
+fly
+13
+cast 'fly' $1
+1
+8
+teleport
+15
+cast 'teleport'
+0
+6
+locate
+23
+cast 'locate object' $1
+1
+8
+fireball
+18
+cast 'fireball' $1
+1
+4
+harm
+14
+cast 'harm' $1
+1
+6
+summon
+16
+cast 'summon' $1
+1
+6
+recall
+13
+cast 'recall'
+0
+5
+blind
+19
+cast 'blindness' $1
+1
+5
+lbolt
+24
+cast 'lightning bolt' $1
+1
+5
+shock
+24
+cast 'shocking grasp' $1
+1
+6
+msleep
+15
+cast 'sleep' $1
+1
+7
+holyaid
+18
+cast 'holy aid' $1
+1
+5
+gheal
+18
+cast 'group heal' 
+0
+7
+rempara
+26
+cast 'remove paralysis' $1
+1
+6
+gsanct
+22
+cast 'group sanctuary'
+0
+6
+garmor
+18
+cast 'group armor'
+0
+4
+bear
+10
+bearhug $1
+1
+7
+control
+25
+cast 'control weather' $1
+1
+8
+protevil
+30
+cast 'protection from evil' $1
+1
+8
+identify
+18
+cast 'identify' $1
+1
+6
+sensel
+20
+cast 'sense life' $1
+1
+6
+sarmor
+22
+cast 'spirit armor' $1
+1
+5
+sanct
+19
+cast 'sanctuary' $1
+1
+8
+strength
+18
+cast 'strength' $1
+1
+6
+sensew
+19
+cast 'sense wounds'
+0
+5
+curep
+23
+cast 'remove poison' $1
+1
+8
+detalign
+23
+cast 'detect alignment'
+0
+5
+cureb
+20
+cast 'cure blind' $1
+1
+5
+infra
+21
+cast 'infravision' $1
+1
+7
+refresh
+17
+cast 'refresh' $1
+1
+2
+cc
+21
+cast 'cure critic' $1
+1
+5
+bless
+15
+cast 'bless' $1
+1
+5
+water
+22
+cast 'create water' $1
+1
+5
+armor
+15
+cast 'armor' $1
+1
+6
+detinv
+29
+cast 'detect invisibility' $1
+1
+4
+food
+18
+cast 'create food'
+0

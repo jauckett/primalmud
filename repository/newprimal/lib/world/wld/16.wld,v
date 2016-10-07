@@ -1,0 +1,2532 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2004.01.21.08.53.42;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.31.10.40.48;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.27;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> Sync.
+@
+text
+@#1600
+Path to graveyard.~
+You are walking down a pathway that leads towards the graveyard.
+Strange eerie sounds come wailing up the path that make your skin crawl
+with goosebumps and fear. Venturing ahead may not be wise. As you look
+around you see large elm trees on either side of the path and ahead you can
+see a large iron gate that rattles in the wind.
+~
+16 0 0 0
+D0
+Looking north you see a long winding road that leads away from town.
+~
+~
+0 -1 1532
+D2
+As you look south you see the dirt path leads towards a large iron gate
+~
+~
+0 -1 1601
+S
+#1601
+Path to graveyard.~
+As you walk along the small dirt path you hear a strange wailing sound 
+that comes from the south. The large elm trees that surround the dirt path
+bend and sway in the wind as you walk past. As you look closer the seem 
+to be reaching out towards you in a sinister manner that makes you feel
+very fearful of what lies behind the gate to your south.
+~
+16 0 0 0
+D0
+A small dirt path lined with large elm trees lies to the north
+~
+~
+0 -1 1600
+D2
+As you look to the south you see a large iron gate rattling in the wind
+~
+~
+0 -1 1602
+S
+#1602
+Path to graveyard.~
+You are walking down a pathway that leads towards the graveyard.
+Strange eerie sounds come wailing up the path that make your skin crawl
+with goosebumps and fear. Venturing ahead may not be wise. As you look
+around you see large elm trees on either side of the path and ahead you can
+see a large iron gate that rattles in the wind.
+~
+16 0 0 0
+D0
+A small dirt path lined with large elm trees lies to the north
+~
+~
+0 -1 1601
+D2
+As you look to the south you see a large iron gate rattling in the wind
+~
+~
+0 -1 1603
+S
+#1603
+Path to graveyard.~
+You are walking down a pathway that leads towards the graveyard.
+There are large elm trees on either side of the path and ahead you can
+see a large iron gate.
+~
+16 0 0 0
+D0
+A small dirt path lined with large elm trees lies to the north
+~
+~
+0 -1 1602
+D2
+You see a large iron gate that rattles in the wind and behind that a desolete
+looking graveyard
+~
+gate iron~
+1 -1 1611
+S
+#1604
+Pebbled path.~
+You have reached a turn in the pebbled path. Here the large elms seem to 
+crowd in around you and try and grap you by the clothes. If you didn't 
+know better you would say they were alive. This cementary has a sinister 
+air to it that makes you extremely apprehensive about continuing any 
+futher. From here the pebbled path leads east towards the center path and 
+south along a white picket fence. 
+~
+16 0 0 0
+D1
+To your east you see dark shadows quickly crossing the path
+~
+~
+0 -1 1605
+D2
+Looking south you see the outer path and in the distance the city of Haven
+~
+~
+0 -1 1617
+S
+#1605
+Pebbled path.~
+You are walking along a pebbled path in the graveyard. Nearby are the 
+graves of the dead citizens of Haven who have died in battle.This place has
+an eerie quite to it that makes your skin crawl.
+~
+16 0 0 0
+D1
+As you look east the large elm trees that line the path seem to move 
+strangely 
+~
+~
+0 -1 1606
+D3
+Looking west you see the pebbled path and in the distance you see the 
+city of Haven
+~
+~
+0 -1 1604
+S
+#1606
+Pebbled path.~
+As you walk along the pebbled path the large elm trees that surround you on
+either side bend over and catch in your clothing. The trees are beginning to
+seem alive in this strange wind and you start to feel fearful of the strange
+dark shadows that keep luriking just ahead of you.
+~
+16 0 0 0
+D1
+Looking east you see the pebbled path and in the distance the center path 
+and large iron gate
+~
+~
+0 -1 1607
+D3
+West you can just make out the end of the pebbled path and a white picket 
+fence 
+~
+~
+0 -1 1605
+S
+#1607
+Pebbled path.~
+You are standing on a small pebbled path that leads around the cemetary's 
+tombstones. To your south you can see a deep hole that looks like an empty
+gravesite, but then again maybe it isn't empty. To your north are large 
+elm trees that lean over the path and nearly touch your head. In the 
+strange wind that is blowing around the cemetary these trees seem almost 
+alive. 
+~
+16 0 0 0
+D1
+As you look east the large elm trees close in and block your view
+~
+~
+0 -1 1608
+D2
+Looking south you see a dark, deep grave
+~
+~
+0 -1 1618
+D3
+Looking west you see the pebbled path stretching towards a picket fence
+~
+~
+0 -1 1606
+S
+#1608
+Pebbled path.~
+As you walk along the pebbled path the large elm trees that surround you on
+either side bend over and catch in your clothing. The trees are beginning to
+seem alive in this strange wind and you start to feel fearful of the strange
+dark shadows that keep luriking just ahead of you.
+~
+16 0 0 0
+D1
+Looking east you see dark shadows lurking along the path
+~
+~
+0 -1 1609
+D3
+Looking west you see the pebbled path stretching towards a picket fence
+~
+~
+0 -1 1607
+S
+#1609
+Pebbled path.~
+You are walking down a pebbled path in the graveyard.Nearby are the 
+graves of the dead citizens of Haven who have died in battle.This place has
+an eerie quite to it that makes your skin crawl. The path continues to 
+your east and west and as you peer around you see strange ghost like 
+creatures lurking in the shadows. To your south you see a large grave 
+that looks rather sinister.
+~
+16 0 0 0
+D1
+Looking east you see strange shadows crossing the pebbled path
+~
+~
+0 -1 1610
+D2
+As you look south into the grave your skin crawls with what possibly lies 
+in there
+~
+~
+0 -1 1619
+D3
+To your west the large elm trees a swaying strangly in the breeze
+~
+~
+0 -1 1608
+S
+#1610
+Pebbled path.~
+You are walking along the small pebbled path that leads around the 
+gravestones of the deceased citizen's of Haven. As you look around you 
+think you see strange shadows lurking on the path ahead, but then again you
+aren't sure, maybe you're imagining things. This place is so eerie that 
+you wouldn't be surprised if you were seeing things that aren't really 
+there.
+~
+16 0 0 0
+D1
+Looking east you see the center pathway and a large iron gate
+~
+~
+0 -1 1611
+D3
+Looking west you see the pebbled path
+~
+~
+0 -1 1609
+S
+#1611
+Centre pathway.~
+You are walking down the center pathway within the graveyard.Large elm 
+trees are growing on both sides of the pathway and beyond are smaller 
+paths with many graves of the dead and undead. To your north there is a large
+iron gate that rattles in the strong wind that blows around the graveyard.
+~
+16 0 0 0
+D0
+As you look north you see a large iron gate swinging in the wind
+~
+gate iron~
+1 -1 1603
+D1
+Looking east you see a small pebbled path that leads around many tombstones.
+~
+~
+0 -1 1612
+D2
+Looking south you see the center path that leads through the middle of the
+cemetary
+~
+~
+0 -1 1620
+D3
+Looking west you see many tombstones and several ghostly type figures
+~
+~
+0 -1 1610
+S
+#1612
+Pebbled path.~
+You are walking down a pebbled path in the graveyard.Nearby are the 
+graves of the dead citizens of Haven who have died in battle.This place has
+an eerie quite to it that makes your skin crawl. The path continues to 
+your east and west and as you peer around you see strange ghost like 
+creatures lurking in the shadows.
+~
+16 0 0 0
+D1
+Looking east you see strange creatures lurking in the shadows
+~
+~
+0 -1 1613
+D3
+As you look west you can just make out the centre pathway and a large 
+iron gate
+~
+~
+0 -1 1611
+S
+#1613
+Pebbled path.~
+You are standing on a small pebbled path that leads around the cemetary's 
+tombstones. To your south you can see a deep hole that looks like an empty
+gravesite, but then again maybe it isn't empty. To your north are large 
+elm trees that lean over the path and nearly touch your head. In the 
+strange wind that is blowing around the cemetary these trees seem almost 
+alive. 
+~
+16 0 0 0
+D1
+To your east the pebbled path continues around the cemetary
+~
+~
+0 -1 1614
+D2
+Looking south you see a large hole in the ground 
+~
+~
+0 -1 1621
+D3
+As you look west you see the pebbled path leading towards the centre of the
+cemetary.
+~
+~
+0 -1 1612
+S
+#1614
+Pebbled path.~
+As you walk along the pebbled path the large elm trees that surround you on
+either side bend over and catch in your clothing. The trees are beginning to
+seem alive in this strange wind and you start to feel fearful of the strange
+dark shadows that keep lurking just ahead of you.
+~
+16 0 0 0
+D1
+You see a strange black shadow cross over the pebbled path ahead making you
+wonder if you should continue
+~
+~
+0 -1 1615
+D3
+Looking to the west you see a large tombstone and a black hole in the ground
+~
+~
+0 -1 1613
+S
+#1615
+Pebbled path.~
+As you walk along the pebbled path you can just make out the roof of a 
+small house towards you east and slighly south. It is a beautiful red 
+colored tile, about the only thing in this cemetary with any color. 
+~
+16 0 0 0
+D1
+To your east you can see the end of the pebbled path
+~
+~
+0 -1 1616
+D3
+In the dark shadows to your west you see strange creatures lurking 
+~
+~
+0 0 1614
+S
+#1616
+Pebbled path.~
+You are standing at the end of the pebbled path where many large elms 
+crowd around you blocking most of your view. However to the south you can
+just make out a small house with a beautiul red roof and to your west you
+think you see strange shadows moving about in an eerie manner.
+~
+16 0 0 0
+D2
+Looking south you can see a door leadinging into the Caretaker's house.
+~
+~
+0 -1 1623
+D3
+Looking to your west you see the pebbled path stretching ahead.
+~
+~
+0 -1 1615
+S
+#1617
+Outer pathway.~
+You are walking along the outer path of the graveyard. A large white 
+picket fence runs along this path and beyond the fence you can just make 
+out the city of haven. Along the fence large elm trees grow, and they 
+have a strange sinister quality about them. These trees nearly seem alive
+as they move strangely in this vicious wind that blows through the cemetary
+Looking north you can see a small pebbled path that is scattered with 
+gravestones and to your south the outer path continues. 
+~
+16 0 0 0
+D0
+Looking north you see a small pebbled path
+~
+~
+0 -1 1604
+D2
+As you look south you see the white picket fence running all the way along
+~
+~
+0 -1 1626
+S
+#1618
+Grave.~
+You have fallen into the grave of Simon Simms. Oh no his undead corpse is 
+still here, how discusting! The rotting flesh from Simon's corpse drops off
+as you look, fallen onto your boots. The smell in this hole is so discusting
+that it nearly makes you physically sick.
+~
+16 aci 0 0
+D0
+Looking north you see the small pebbled path
+~
+~
+0 -1 1607
+S
+#1619
+Grave.~
+You have fallen into the grave of Victor Victorious and as you look 
+closesly he seems to wink at you from his rotting eye. The other eye has
+long since decayed leaving a dark empty socket.
+~
+16 aci 0 0
+D0
+Looking north you see the small pebbled path
+~
+~
+0 -1 1609
+S
+#1620
+Center pathway.~
+You are walking down the center pathway within the graveyard.Large elm 
+trees are growing on both sides of the pathway and beyond are smaller 
+paths with many graves of the dead and undead. This section of the cemetary
+is wide and well pathed making travelling relatively easy.
+~
+16 0 0 0
+D0
+Looking north you can see a large iron gate ratteling in the wind
+~
+~
+0 -1 1611
+D2
+Looking north you see the center path continues through the cemetary 
+~
+~
+0 -1 1625
+S
+#1621
+Grave.~
+You have fallen into the grave of Peter Putrid. Oh no his undead corpse is 
+still here!!! This is a hideous place to have fallen into as his rotting
+flesh falls onto your cloths, boots and hands.
+~
+16 aci 0 0
+D0
+Looking to your north you see the pebbled path
+~
+~
+0 -1 1613
+S
+#1622
+Caretakers House~
+You are standing in the entrance way of the Caretakers House. A 
+small wooden hatstand lies to your west with an old brown hat on it. There 
+is also a small table in the corner with a vase of small flowers sitting 
+on the top,but there is no sign of the Caretaker. 
+~
+16 d 0 0
+D1
+Looking east you see the outer pathway that leads around the cemetray
+~
+wooden door~
+1 1614 1623
+D2
+Looking south you see a small hallway leading into the lounge room
+~
+~
+0 -1 1624
+S
+#1623
+Outer path~
+You are walking along the outer pathway of the graveyard. There is a large 
+white picket fence that runs along the path and beyond the fence you can see
+the ocean. There is a small house standing to your west and an old wooden 
+door that leads into the house. If you can find the key that opens this 
+door you might be able to see the Caretaker, but then again maybe he 
+would think your here to join his other strange 'pets.' 
+~
+16 0 0 0
+D0
+Looking north you see a small pebbled path
+~
+~
+0 -1 1616
+D2
+Looking south you see the outer path of the cemetary and a long white 
+picket fence
+~
+~
+0 -1 1630
+D3
+You see a small wooden door that leads into the Caretaker's house
+~
+door wooden~
+1 1614 1622
+S
+#1624
+Short Hallway.~
+You are in the hallway of the Caretakers House.On the walls of this short 
+hallway are many photos of deceased citizens of Haven. You know they are 
+deceased by the way they are dressed, no one has worm those type of clothes
+for well over seventy years. To your north you can make out the entrance hall
+and and to your south you can see the lounge room
+~
+16 d 0 0
+D0
+Looking north you see the entrance hall
+~
+~
+0 -1 1622
+D2
+Looking south you see the lounge-room
+~
+~
+0 -1 1628
+S
+#1625
+Center pathway.~
+As you walk along the center path the large elm trees seem to catch on your
+closes and hair as if they are alive. This makes you feel extremely 
+apprehensive about what possibly lies ahead. As you peer around you also 
+seem to see many strange shadows moving in amonst the trees that don't look
+particularly friendly.
+~
+16 0 0 0
+D0
+As you look to your north a black evil shadow closes in on you
+~
+~
+0 -1 1620
+D2
+Looking south you see the pebbled path continue
+~
+~
+0 -1 1638
+S
+#1626
+Outer pathway.~
+You are walking along the outer path of the graveyard you see a large 
+white picket fence running along the path to your west, and beyond you see 
+the city of haven. You are beggining to feel slightly spooked also at the 
+strange wailing sounds you are hearing from the paths that surround you. 
+~
+16 0 0 0
+D0
+As you look north you see the large elm trees close in around you
+~
+~
+0 -1 1617
+D2
+Looking south you see the outer path and a smaller pebbled path leading 
+off it
+~
+~
+0 -1 1633
+S
+#1627
+Caretakers Kitchen.~
+You are standing in the kitchen of the Caretakers house. There is a large 
+wood burning stove in one corner and above the stove hang many large pots 
+and pans. There is a small wooden table and chairs in one corner and you 
+also notice some stairs leading down towards the cellar.
+~
+16 d 0 0
+D1
+Looking east you see the loung room
+~
+~
+0 -1 1628
+D5
+Looking down you see the dark, damp cellar
+~
+~
+0 -1 1631
+S
+#1628
+Lounge room.~
+You are standing in the elaborately furnished lounge room of the Caretaker.
+In one corner you can see a huge, comfortable chair that makes you want to
+put your feet up. The walls on both side are lined with millions of books
+and a beautiful grandfather clock stands in another corner. There is a 
+nice, warm fireplace burning brightly and warming the whole room up. This
+is definately a room to relax in.
+~
+16 d 0 0
+D0
+Looking north you see the small hallway that leads to the entrance
+~
+~
+0 -1 1624
+D1
+Looking east you see a small study
+~
+~
+0 -1 1629
+D3
+Looking west you see the kitchen
+~
+~
+0 -1 1627
+S
+#1629
+Small Study.~
+You are standing in a small room that is where the Caretaker does his 
+bookeeping and any paper work that needs attending to. There is a large 
+teak desk in the corner with a small wooden chair and millions of pieces 
+of writting paper on top of the desk. Above the desk is a picture of the 
+Caretaker's deceased wife and one of his deceased parents. On the floor is
+a small rug and as you look up the two small steps in the corner you see the 
+Caretaker's bedroom. 
+~
+16 d 0 0
+D3
+Looking west you see the lounge room
+~
+~
+0 -1 1628
+D4
+Looking up the stairs you see the Caretaker's bedroom
+~
+~
+0 -1 1632
+S
+#1630
+Outer path~
+As you walk along the outer pathway of the graveyard you notice a small 
+house with a beautiful red roof nearby to your north. Along the path a large 
+white picket fence runs and beyond that you can just make out the ocean.
+~
+16 0 0 0
+D0
+Looking north you see the Caretaker's house
+~
+~
+0 -1 1623
+D2
+Looking south you see the outer path and a long white fence running along it
+~
+~
+0 -1 1642
+S
+#1631
+Cellar.~
+You are standing in the cellar where you feel terribly cold, due to the 
+damp walls and water that drips down them. In the far corner you can see
+racks of wine that are covered in cobwebs and My God what else does he keep
+down here !! Buried corpses !
+~
+16 a 0 0
+D4
+Looking up you see the kitchen
+~
+~
+0 -1 1627
+S
+#1632
+Caretakers bedroom.~
+You are standing in the Caretakers bedroom and here also stands the Caretaker
+getting ready to dig some more graves! It might be your grave he is 
+thinking of so you should try not to annoy him. There is also a large bed 
+with a beautifully woven bedspread covering in that lies in the center of 
+the room. 
+~
+16 0 0 0
+D5
+looking down the two steps you see the Caretaker's study
+~
+~
+0 -1 1629
+S
+#1633
+Outer pathway.~
+As you walk along the outer path that is lined with large elm trees that 
+move mysteriously in the strange, eerie wind you also notice a small 
+pebbled path that leads of to your east. To your west you can see a long,
+white picket fence running along the path and beyond the fence and elm trees
+you can just see the city of Haven.
+~
+16 0 0 0
+D0
+As you look north you see strange shadows lurking along the path
+~
+~
+0 -1 1626
+D1
+Looking east you see the outer path continue
+~
+~
+0 -1 1634
+D2
+As you look south you see the outer path stretching ahead
+~
+~
+0 -1 1646
+S
+#1634
+Pebbled path.~
+You are standing on a pebbled path in the graveyard that continues to 
+your east. To your west you can see an outer path and a white picket 
+fence. Beyond the fence you see many large elm tree and through the  
+trees you can just make out the city of Haven. Along the pebbled path are 
+the graves of the dead citizens of Haven who have died in battle.
+This place has an eerie quite to it that makes your skin crawl.
+~
+16 0 0 0
+D1
+Looking east you see the pebbled path stretching ahead
+~
+~
+0 -1 1635
+D3
+As you look west the large elm trees seem to be moving other than just by 
+the wind
+~
+~
+0 -1 1633
+S
+#1635
+Pebbled path.~
+You are walking along a pebbled path in the graveyard and directly to the 
+south you see a large grave and above it a huge tombstone. The pebbled 
+path continues to your west and east and as you look around you see 
+strange shadows lurking amonst the large elm trees that line the path.
+~
+16 0 0 0
+D1
+You see a dark ominous shadow crossing the path to your east
+~
+~
+0 -1 1636
+D2
+As you look south you see a dark hole that is obviously a grave
+~
+~
+0 -1 1643
+D3
+As you look west the large elm trees seem to be moving other than just by 
+the wind
+~
+~
+0 -1 1634
+S
+#1636
+Pebbled path.~
+As you walk along the pebbled path the large elm trees that surround you on
+either side bend over and catch in your clothing. The trees are beginning to
+seem alive in this strange wind and you start to feel fearful of the strange
+dark shadows that keep luriking just ahead of you.
+~
+16 0 0 0
+D1
+Looking east you see the pebbled path stretching ahead
+~
+~
+0 -1 1637
+D3
+Looking west you see the pebbled path and a large grave
+~
+~
+0 -1 1635
+S
+#1637
+Pebbled path.~
+You are walking along the small pebbled path that leads around the 
+gravestones of the deceased citizen's of Haven. As you look around you 
+think you see strange shadows lurking on the path ahead, but then again you
+aren't sure, maybe you're imagining things. This place is so eerie that 
+you wouldn't be surprised if you were seeing things that aren't really 
+there. Directly to your east you can see the center path and further west
+the pebbled path continues
+~
+16 0 0 0
+D1
+Looking east you see the center path
+~
+~
+0 -1 1638
+D3
+
+As you look to your west you notice that shadows lurking amonst the elms
+~
+~
+0 -1 1636
+S
+#1638
+Center pathway.~
+You are standing at a large intersection in the center path. To your east 
+and west lies a small pebbled path that leads around many gravestones. To
+your north and south the Center path continues cutting around many of the
+smaller paths. There are many large elms that line this well worn section
+of the center path and the wind that rushes through the cemetary seems 
+extemely strong here.
+~
+16 0 0 0
+D0
+As you look north you can just see the entrance to the cemenary
+~
+~
+0 -1 1625
+D1
+The pebbled path continues around the grave stones
+~
+~
+0 -1 1639
+D2
+As you look south you see the center path continues through the cemetary
+~
+~
+0 -1 1647
+D3
+The pebbled path continues around the grave stones
+~
+~
+0 -1 1637
+S
+#1639
+Pebbled path.~
+You are walking along the small pebbled path that leads around the 
+gravestones of the deceased citizen's of Haven. As you look around you 
+think you see strange shadows lurking on the path ahead, but then again you
+aren't sure, maybe you're imagining things. This place is so eerie that 
+you wouldn't be surprised if you were seeing things that aren't really 
+there. Directly to your west you can see the center path and further east
+the pebbled path continues
+~
+16 0 0 0
+D1
+As you look east you see large elms looming over the path
+~
+~
+0 -1 1640
+D3
+Looking west you see the center pathway
+~
+~
+0 -1 1638
+S
+#1640
+Pebbled path.~
+You are walking along a pebbled path in the graveyard and directly to the 
+south you see a large grave and above it a huge tombstone. The pebbled 
+path continues to your west and east and as you look around you see 
+strange shadows lurking amonst the large elm trees that line the path.
+~
+16 0 0 0
+D1
+As you look east you see dark shadows lurking in the trees
+~
+~
+0 -1 1641
+D2
+You see a large hole, obviously a gravesite
+~
+~
+0 -1 1644
+D3
+Looking west you see the pebbled path continuing through the cemetary
+~
+~
+0 -1 1639
+S
+#1641
+Pebbled path.~
+You are standing on a small pebbled path that leads around the cemetary's 
+tombstones. To your south you can see a deep hole that looks like an empty
+gravesite, but then again maybe it isn't empty. To your north are large 
+elm trees that lean over the path and nearly touch your head. In the 
+strange wind that is blowing around the cemetary these trees seem almost 
+alive. 
+~
+16 0 0 0
+D1
+As you look east you see the outer path and a white fence
+~
+~
+0 -1 1642
+D2
+You see a large hole, obviously a gravesite
+~
+~
+0 -1 1645
+D3
+As you look west you see dark shadows lurking in the trees
+~
+~
+0 -1 1640
+S
+#1642
+Outer path~
+You are walking along the outer pathway of the graveyard that continues 
+to your north and south you also see the pebbled path leading off to your 
+east. To your west a large white picket fence runs along the path and beyond 
+the fence you can just make out a large  ocean. 
+~
+16 0 0 0
+D0
+Looking north you see large elms swaing in the strange wind
+~
+~
+0 -1 1630
+D2
+You see the beginning of a pebbled path
+~
+~
+0 -1 1648
+D3
+Looking south you see the outer path stretching around the cemetary
+~
+~
+0 -1 1641
+S
+#1643
+Grave.~
+You have fallen into the grave of Rodney Rotten. Oh no his undead corpse is 
+still here and the horrific and repulsive smell the assaults you makes you
+physically sick. The flesh from Rodney's corpse falls from the bleached bones
+onto your boots as you look down. This makes you want to retreat as 
+quickly as possible
+~
+16 aci 0 0
+D0
+Looking north you see the pebbled path
+~
+~
+0 -1 1635
+S
+#1644
+Grave.~
+You have fallen into the grave of Harry Horrid. Oh no his undead corpse is 
+still here!!!
+~
+16 aci 0 0
+D0
+Looking north you see the pebbled path
+~
+~
+0 -1 1640
+S
+#1645
+Grave.~
+You have fallen into the grave of David Dead, whose rotting corpse lies 
+in a decaying mess at your feet. The small that assails your nostrils nearly
+makes you physically sick and as you look down you think you see the corpse
+grinning evilly at you.
+~
+16 aci 0 0
+D0
+Looking north you see the pebbled path
+~
+~
+0 -1 1641
+S
+#1646
+Outer pathway.~
+As you walk along the outer path of the graveyard where a large white 
+picket fence runs along this path to your east and beyond you see the 
+city of haven you also notice a eerie, large building directly to your 
+south. 
+~
+16 0 0 0
+D0
+Looking north you see large elms crowding in on the outer path
+~
+~
+0 -1 1633
+D2
+Looking south you see a large mausoleum
+~
+~
+0 -1 1649
+S
+#1647
+Center pathway.~
+As you walk along the center path the large elm trees seem to catch on your
+closes and hair as if they are alive. This makes you feel extremely 
+apprehensive about what possibly lies ahead. As you peer around you also 
+seem to see many strange shadows moving in amonst the trees that don't look
+particularly friendly.
+~
+16 0 0 0
+D0
+Looking north you see large elms shading the path
+~
+~
+0 -1 1638
+D2
+Looking south you see the center path continue
+~
+~
+0 -1 1651
+S
+#1648
+Outer path~
+As you walk along the outer pathway in this eerie cemetary where the wind 
+blows constantly you also notice large elms shading the path and moving 
+strangly in the wind. There are also many strange and unexplained shadows
+that dart through these large elms that make you tremble with fear.  
+~
+16 0 0 0
+D0
+Looking north you see the path continue
+~
+~
+0 -1 1642
+D2
+looking south you see dark shadows lurking on the path
+~
+~
+0 -1 1652
+S
+#1649
+Outer pathway.~
+As you stand on this section of the outer path not only do you notice the 
+large elms and white picket fence on your west and the continuing of the 
+path to your north and south but you are also standing directly in front 
+of a large metal door to your east. This large door leads into the Mausoleum
+which has obviously been erected at great expense as you notice the 
+beuatiful white marble it is made from. You wonder what is inside and 
+whether you will be able to open the door. 
+~
+16 0 0 0
+D0
+Looking north you see the path continue
+~
+~
+0 -1 1646
+D1
+As you look east not only do you see the large door but the beuatiful marble
+engravings on the wall of the Mausoleum 
+~
+door metal~
+1 1615 1650
+D2
+looking south you see dark shadows lurking on the path
+~
+~
+0 -1 1668
+S
+#1650
+Entrance to the Mausoleum.~
+You look apon this magnificent tomb with wonder as you see the 
+beuatiul grey, black and white marble that it has been made of.Should you 
+enter it though? As you think these thoughts you hear a terrible wailing 
+sound coming from the south and that seems to echo through the rooms
+~
+16 0 0 0
+D2
+Looking south you see the mausoleum 
+~
+~
+0 -1 1653
+D3
+As you look west you see a large door and beyond that is the outer path
+~
+door metal~
+1 1615 1649
+S
+#1651
+Center pathway.~
+You are walking down the center pathway within the graveyard.Large elm 
+trees are growing on both sides of the pathway and beyond are smaller 
+paths with many graves of the dead and undead. As you look to your south
+you notice that the path begins to turn slightly.
+~
+16 0 0 0
+D0
+Looking north you see large elms on either side of the center path
+~
+~
+0 -1 1647
+D2
+Looking south you see the center path continue
+~
+~
+0 -1 1656
+S
+#1652
+Outer path~
+You are walking along the outer pathway of the graveyard that continues 
+to your north and south you also see the pebbled path leading off to your 
+east. To your west a large white picket fence runs along the path and beyond 
+the fence you can just make out a large  ocean. 
+~
+16 0 0 0
+D0
+Looking north you see strange shadows lurking in the distance
+~
+~
+0 -1 1648
+D2
+Looking south you see strange shadows lurking in the distance
+~
+~
+0 -1 1661
+S
+#1653
+Mausoleum.~
+This must be a shrine to someone of great importance. The place is full 
+of magnificent gold artifacts and treasure. The walls are made of beautiful
+and also expensive marble in the colors of black, grey and white. You 
+hear errie wailing sound coming from the steps that lead directly up and
+you wonder if it is safe to continue
+~
+16 0 0 0
+D0
+Looking north you see the entrance 
+~
+~
+0 -1 1650
+D4
+As you look up you see a strange apparition dart acroos the steps
+~
+~
+0 -1 1654
+S
+#1654
+Mausoleum.~
+As you stand in this magnificent Mausoleum that is made from the finest
+marble in the land you begin to wonder who deserved such reverance when
+they died. Maybe a lord or King is buried in the depths of this place.
+The gold and treasures that surround you make you think that this is 
+probably the case as no mortal would have had the money to buy such and
+expensive tomb.
+~
+16 0 0 0
+D1
+Looking east you see many gold items shinning in the semi-darkness
+~
+~
+0 -1 1655
+D5
+As you look down you see the entrance to the Mausoleum
+~
+~
+0 -1 1653
+S
+#1655
+Mausoleum.~
+This must be a shrine to someone of great importance. The place is full 
+of magnificent gold artifacts and treasure. The Mausoleum continues to your
+south and west but the horrible wailing sounds you hear from the south make
+you want to turn back and run out of here as quickly as possible.
+~
+16 0 0 0
+D2
+Looking south you see a dark shadow  lurking in the corner
+~
+~
+0 -1 1662
+D3
+Looking west you see many gold items shinning in the semi-darkness
+~
+~
+0 -1 1654
+S
+#1656
+Turn in the path.~
+You are standing at a turn in the path that leads to the outer path. You 
+notice that there are many graves in this graveyard and hope that you will
+not be joining them. To your north you see the center path and directly to
+your east there is a small path.
+~
+16 0 0 0
+D0
+Looking north you see the center path
+~
+~
+0 -1 1651
+D1
+As you look east you see a small path in the cemetary
+~
+~
+0 -1 1657
+S
+#1657
+Small path.~
+You are walking down a small path on the ground are small flowers ,the 
+only sign of life you have seen here other than the strange elm trees. 
+Everything else you have seen in this cemetary is in a dreadful state of
+undead. The path continues to your east and to your west
+~
+16 0 0 0
+D1
+As you look east you see strange shadows lurking along the path
+~
+~
+0 -1 1658
+D3
+As you look west you see strange shadows lurking along the path
+~
+~
+0 -1 1656
+S
+#1658
+Small path.~
+You are walking along a small path that is scattered with small violet 
+flowers. This path is just as dark and eerie as every other path in this 
+dismal cementary where the only sign of life you have seen here is of the 
+'undead'. As you look around you notice a dark grave directly to your south
+and the path continues to your east and west.
+~
+16 0 0 0
+D1
+As you look east you see the small path continues
+~
+~
+0 -1 1659
+D2
+Looking south you see a dark gravestone
+~
+~
+0 -1 1666
+D3
+As you look west you see strange shadows lurking along the path
+~
+~
+0 -1 1657
+S
+#1659
+Small path.~
+You are walking down a small path on the ground are small flowers ,the 
+only sign of life you have seen here.
+~
+16 0 0 0
+D1
+As you look east you see strange shadows lurking along the path
+~
+~
+0 -1 1660
+D3
+As you look west you see strange shadows lurking along the path
+~
+~
+0 -1 1658
+S
+#1660
+Small path.~
+You are walking along a small path that is scattered with small violet 
+flowers. This path is just as dark and eerie as every other path in this 
+dismal cementary where the only sign of life you have seen here is of the 
+'undead'. As you look around you notice a dark grave directly to your south
+and the path continues to your west and to your east you can see the 
+outer path.
+~
+16 0 0 0
+D1
+Looking east you see the outer path and a white picket fence
+~
+~
+0 -1 1661
+D2
+As you look south into the grave you feel rather fearful
+~
+~
+0 -1 1667
+D3
+As you look west you see strange shadows lurking along the path
+~
+~
+0 -1 1659
+S
+#1661
+Outer path~
+You are walking down the outer pathway of the graveyard. A large white 
+picket fence runs along the path and beyond that you can see the ocean.
+The path continues to your north and south and directly to your west you 
+can see a small path that is scattered with grave sites.
+~
+16 0 0 0
+D0
+Looking north you see larhe elms on both sides of the path
+~
+~
+0 -1 1652
+D2
+As you look south you see the elms swaying in the eerie wind
+~
+~
+0 -1 1669
+D3
+Looking west you see a small path scattered with graves
+~
+~
+0 -1 1660
+S
+#1662
+Mausoleum.~
+You are standing in a shrine that is obviously been made for someone of 
+great importance. The place is full of magnificent gold artifacts and treasure
+You have entered into the very depths of the mausoleum and as you lookd 
+down you see dark shadows crossing the marble steps. You begin to wonder if 
+you really want to know who is buried here as the horrible wailing sounds 
+become louder. 
+~
+16 0 0 0
+D0
+Looking north you see many gold artifacts shinning in the semi-darkness
+~
+~
+0 -1 1655
+D5
+Looking down you see dark shadows crossing the path
+~
+~
+0 -1 1663
+S
+#1663
+Mausoleum.~
+You are standing in the most maginificent area in this strange and eerie 
+shrine. The gold and jewels that lay scattered on the marble floor here
+would keep you wealthy for life. As you look to your east you see that 
+you have entered into the most sacred and important area of this 
+Mausoleum. You begin to think that you will soon find out who is
+buried in here. 
+~
+16 0 0 0
+D1
+Looking east you see many gold artifacts and jewels
+~
+~
+0 -1 1664
+D4
+Looking up you see a dark shadow cross over the steps
+~
+~
+0 -1 1662
+S
+#1664
+Mausoleum.~
+You are standing in the most maginificent area in this strange and eerie 
+shrine. The gold and jewels that lay scattered on the marble floor here
+would keep you wealthy for life. As you look to your east you see that 
+you have entered into the most sacred and important area of this 
+Mausoleum. You begin to think that you will soon find out who is
+buried in here and as you peer east you see the magnificent altar.
+~
+16 0 0 0
+D1
+Looking east you see many gold artifacts and jewels
+~
+~
+0 -1 1665
+D3
+Looking west you see many gold artifacts and jewels
+~
+~
+0 -1 1663
+S
+#1665
+Altar in the Mausoleum.~
+You have finally found out who lives in this Mausoleum. This is the 
+corpse of Solar, a fallen god of haven and the reason why the surrounding
+country side is now plagued with many vile and vicious creatures. The 
+gold that lies scattered in this room would make you a wealthy person
+but you have to kill Solar to get it. 
+~
+16 0 0 0
+D3
+Looking west you see many gold artifacts and jewels
+~
+~
+0 -1 1664
+S
+#1666
+Grave.~
+You have fallen into the grave of Donald Decapatated. Oh no his undead 
+corpse is still here!
+~
+16 aci 0 0
+D0
+Looking north you see a small path
+~
+~
+0 -1 1658
+S
+#1667
+Grave.~
+You have fallen into the grave of Ivan Incinerated. Oh no his undead 
+corpse is still here!
+~
+16 aci 0 0
+D0
+Looking north you see a small path
+~
+~
+0 -1 1660
+S
+#1668
+Outer pathway.~
+As you walk along the outer pathway in this eerie cemetary where the wind 
+blows constantly you also notice large elms shading the path and moving 
+strangly in the wind. There are also many strange and unexplained shadows
+that dart through these large elms that make you tremble with fear.  
+~
+16 0 0 0
+D0
+Looking north you can just make out a large mausoleum
+~
+~
+0 -1 1649
+D2
+Looking south you see the outer path continue
+~
+~
+0 -1 1670
+S
+#1669
+Outer path~
+You are walking down the outer pathway of the graveyard. A large white 
+picket fence runs along the path and beyond that you can see the ocean.
+~
+16 0 0 0
+D0
+As you peer to your north you see strange shadows lurking amonst the trees
+~
+~
+0 -1 1661
+D2
+Looking south you see the outer path continue
+~
+~
+0 -1 1678
+S
+#1670
+Outer pathway.~
+You are walking along the outer pathway of the graveyard that continues 
+to your north and south you also see the pebbled path leading off to your 
+east. To your west a large white picket fence runs along the path and beyond 
+the fence you can just make out a large  ocean.  To your east you see a small
+pebbled path that runs directly to the other end of the cemetary.
+~
+16 0 0 0
+D0
+As you peer to your north you see strange shadows lurking amonst the trees
+~
+~
+0 -1 1668
+D1
+Looking east you see the pebbled path
+~
+~
+0 -1 1671
+D2
+As you peer to your south you see strange shadows lurking amonst the trees
+~
+~
+0 -1 1681
+S
+#1671
+Pebbled path.~
+You are walking down a pebbled path in the graveyard.Nearby are the 
+graves of the dead citizens of Haven who have died in battle.This place has
+an eerie quite to it that makes your skin crawl.
+~
+16 0 0 0
+D1
+Looking east you see large elms looming over the path
+~
+~
+0 -1 1672
+D3
+Looking west you see the outer path
+~
+~
+0 -1 1670
+S
+#1672
+Pebbled path.~
+You are standing on a small pebbled path that leads around the cemetary's 
+tombstones. To your south you can see a deep hole that looks like an empty
+gravesite, but then again maybe it isn't empty. To your north are large 
+elm trees that lean over the path and nearly touch your head. In the 
+strange wind that is blowing around the cemetary these trees seem almost 
+alive. 
+~
+16 0 0 0
+D1
+Looking east you see large elms looming over the path
+~
+~
+0 -1 1673
+D2
+Looking south you see a dark grave
+~
+~
+0 -1 1679
+D3
+As you peer to your west you see dark shadows lurking amonst the elms
+~
+~
+0 -1 1671
+S
+#1673
+Pebbled path.~
+You are walking along the small pebbled path that leads around the 
+gravestones of the deceased citizen's of Haven. As you look around you 
+think you see strange shadows lurking on the path ahead, but then again you
+aren't sure, maybe you're imagining things. This place is so eerie that 
+you wouldn't be surprised if you were seeing things that aren't really 
+there. Directly to your east and west you see the pebbled path continue.
+~
+16 0 0 0
+D1
+Looking east you see large elms looming over the path
+~
+~
+0 -1 1674
+D3
+As you peer to your west you see dark shadows lurking amonst the elms
+~
+~
+0 -1 1672
+S
+#1674
+Pebbled path.~
+As you walk along the pebbled path the large elm trees that surround you on
+either side bend over and catch in your clothing. The trees are beginning to
+seem alive in this strange wind and you start to feel fearful of the strange
+dark shadows that keep luriking just ahead of you.
+~
+16 0 0 0
+D1
+Looking east you see large elms looming over the path
+~
+~
+0 -1 1675
+D3
+As you peer to your west you see dark shadows lurking amonst the elms
+~
+~
+0 -1 1673
+S
+#1675
+Pebbled path.~
+You are walking along a pebbled path in the graveyard and directly to the 
+south you see a large grave and above it a huge tombstone. The pebbled 
+path continues to your west and east and as you look around you see 
+strange shadows lurking amonst the large elm trees that line the path.
+~
+16 0 0 0
+D1
+Looking east you see notice the trees moving in the strange wind
+~
+~
+0 -1 1676
+D2
+As you peer to the south you see a dark grave
+~
+~
+0 -1 1680
+D3
+Looking west you see dark shadows lurking along the path
+~
+~
+0 -1 1674
+S
+#1676
+Pebbled path.~
+You are walking down a pebbled path in the graveyard.Nearby are the 
+graves of the dead citizens of Haven who have died in battle.This place has
+an eerie quite to it that makes your skin crawl.
+~
+16 0 0 0
+D1
+Looking east you see notice the trees moving in the strange wind
+~
+~
+0 -1 1677
+D3
+Looking west you see dark shadows lurking along the path
+~
+~
+0 -1 1675
+S
+#1677
+Pebbled path.~
+As you walk along the pebbled path the large elm trees that surround you on
+either side bend over and catch in your clothing. The trees are beginning to
+seem alive in this strange wind and you start to feel fearful of the strange
+dark shadows that keep luriking just ahead of you.
+~
+16 0 0 0
+D1
+Looking east you see notice the trees moving in the strange wind
+~
+~
+0 -1 1678
+D3
+Looking west you see dark shadows lurking along the path
+~
+~
+0 -1 1676
+S
+#1678
+Outer path~
+You are walking along the outer pathway of the graveyard that continues 
+to your north and south you also see the pebbled path leading off to your 
+east. To your west a large white picket fence runs along the path and beyond 
+the fence you can just make out a large  ocean. 
+~
+16 0 0 0
+D0
+As you look north you see the outer path continue
+~
+~
+0 -1 1669
+D2
+Looking south you see the outer path continue
+~
+~
+0 -1 1688
+D3
+To your west you see dark shadows crossing the pebbled path
+~
+~
+0 -1 1677
+S
+#1679
+Grave.~
+You have fallen into the grave of Vlad Vampire. Oh no his undead corpse is 
+still here and the horrific and repulsive smell the assaults you makes you
+physically sick. The flesh from Rodney's corpse falls from the bleached bones
+onto your boots as you look down. This makes you want to retreat as 
+quickly as possible
+~
+16 aci 0 0
+D0
+Looking north you see the pebbled path
+~
+~
+0 -1 1672
+S
+#1680
+Grave.~
+You have fallen into the grave of Nevin Necrosis. Oh no his undead 
+corpse is still here!!!
+~
+16 aci 0 0
+D0
+Looking north you see the pebbled path
+~
+~
+0 -1 1675
+S
+#1681
+Outer pathway.~
+You are walking down the outer path of the graveyard. A large white 
+picket fence runs along this path and beyond you see the city of haven.
+The outer pathway continues to your east and beyond that you can see a 
+large forest and mountain area.
+~
+16 0 0 0
+D0
+As you look north you see the outer pathway continue
+~
+~
+0 -1 1670
+D1
+As you look east you see the outer pathway continue
+~
+~
+0 -1 1682
+S
+#1682
+Outer pathway~
+You are walking along the outer path of the graveyard. A large white 
+picket fence runs all the way along this path and beyond you can see large
+mountains and forest.
+~
+16 0 0 0
+D1
+Looking east you see the outer pathway continue and turn to the north
+~
+~
+0 -1 1683
+D3
+Looking west you see the outer pathway continue 
+~
+~
+0 -1 1681
+S
+#1683
+Outer pathway~
+As you walk along the outer pathway in this eerie cemetary where the wind 
+blows constantly you also notice large elms shading the path and moving 
+strangly in the wind. There are also many strange and unexplained shadows
+that dart through these large elms that make you tremble with fear.  
+~
+16 0 0 0
+D1
+As you peer to the east you see strange shadows pass across the path
+~
+~
+0 -1 1684
+D3
+As you peer to the west you see the elms luming above you
+~
+~
+0 -1 1682
+S
+#1684
+Outer pathway~
+You are walking along the outer path of the graveyard. A large white 
+picket fence runs all the way along this path and beyond you can see large
+mountains and forest.
+~
+16 0 0 0
+D1
+As you peer to the east you see strange shadows pass across the path
+~
+~
+0 -1 1685
+D3
+As you peer to the west you see the elms luming above you
+~
+~
+0 -1 1683
+S
+#1685
+Outer pathway~
+You are walking along the outer path of the graveyard. A large white 
+picket fence runs all the way along this path and beyond the ence you can 
+see large mountains and forest. The wind from the cementary howls viciously
+around you and you notice that amongst the large elms that grow along the 
+path that strange dark apparitions lurk.
+~
+16 0 0 0
+D1
+As you peer to the east you see strange shadows pass across the path
+~
+~
+0 -1 1686
+D3
+As you peer to the west you see the elms luming above you
+~
+~
+0 -1 1684
+S
+#1686
+Outer pathway~
+You are walking along the outer path of the graveyard. A large white 
+picket fence runs all the way along this path and beyond you can see large
+mountains and forest.To the south you see a gate here leading out towards 
+the wilderness. ~
+16 0 0 0
+D1
+As you peer to the east you see strange shadows pass across the path
+~
+~
+0 -1 1687
+D2
+As you look south you see a small path leading into the forest and a 
+large iron gate
+~
+gate iron~
+1 -1 1689
+D3
+As you peer to the west you see the elms luming above you
+~
+~
+0 -1 1685
+S
+#1687
+Outer pathway~
+As you walk along the outer pathway in this eerie cemetary where the wind 
+blows constantly you also notice large elms shading the path and moving 
+strangly in the wind. There are also many strange and unexplained shadows
+that dart through these large elms that make you tremble with fear.  
+~
+16 0 0 0
+D1
+As you peer to the east you see strange shadows pass across the path
+~
+~
+0 -1 1688
+D3
+As you peer to the west you see the elms luming above you
+~
+~
+0 -1 1686
+S
+#1688
+Outer pathway~
+You are walking along the outer path of the graveyard. A large white 
+picket fence runs all the way along this path and beyond you can see large
+mountains and forest. The path turn here to your south where you can just
+make out the ocean through the large elm trees
+~
+16 0 0 0
+D0
+As you peer to the south you see strange shadows pass across the path
+~
+~
+0 -1 1678
+D3
+As you peer to the west you see the elms luming above you
+~
+~
+0 -1 1687
+S
+#1689
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary and 
+into the wild dangerous mountains. The highest peak seems to have some 
+sort of structure on top of it.
+~
+16 0 0 0
+D0
+Looking north you see the cemetary and a large iron gate
+~
+gate iron~
+1 -1 1686
+D1
+As you look east you see the rocky path continue
+~
+~
+0 -1 1690
+S
+#1690
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary and 
+into the wild dangerous wilderness. Here the elm trees and fir trees are 
+extremely dense and you find it difficult to see through them. You can 
+still here the horrible wailing wind that surrounded you in the cemetary 
+from here. Lost in the jungle of trees, you can still feel yourself 
+climbing upwards.
+~
+16 0 0 0
+D1
+As you look east you see large trees shading the rocky path
+~
+~
+0 -1 1691
+D3
+As you look west you can see the white picket fence and the cemetary
+~
+~
+0 -1 1689
+S
+#1691
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary and 
+into the wild dangerous mountains. Trees still cover the path, 
+occasionally you get a clear view up to the mountains. Dark clouds loom 
+above the higher peaks.
+~
+16 0 0 0
+D1
+As you look east you see large trees shading the rocky path
+~
+~
+0 -1 1692
+D3
+Looking west you see the rocky path winding through the dense forest
+~
+~
+0 -1 1690
+S
+#1692
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary and 
+into the wild dangerous mountains. Here the elm trees and fir trees are 
+extremely dense and you find it difficult to see through them. You can 
+still here the horrible wailing wind that surrounded you in the cemetary 
+from here. Large footprints occasionally appear as you climb upwards. You 
+should be feeling cooler as you climb up, but quite the opposite happens. 
+You can feel it getting distinctly warmer.
+~
+16 0 0 0
+D1
+As you look east you see large trees shading the rocky path
+~
+~
+0 -1 1693
+D3
+Looking west you see the rocky path winding through the dense forest
+~
+~
+0 -1 1691
+S
+#1693
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary and 
+into the wild dangerous mountains. Here the path turns around the dense 
+foliage and heads to your south. You can not see very far ahead or around
+you because the trees are so thick here. On the ground at your feet small
+flowers begin to wilt and die, an overwhelming feeling of evil comes over 
+you.
+~
+16 0 0 0
+D2
+As you look south you see the rocky path continue
+~
+~
+0 -1 1697
+D3
+Looking west you see the rocky path winding through the dense forest
+~
+~
+0 -1 1692
+S
+#1694
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary and 
+into the wild dangerous mountains. Here the path turns around the dense 
+foliage and heads to your north and west. You can not see very far ahead or 
+around you because the trees are so thick here. On the ground at your 
+feet small flowers once pretty and colourful are becoming brown and 
+withered, even some of the trees are looking wilted.
+~
+16 0 0 0
+D1
+As you look around all you can see is dense foliage and trees
+~
+~
+0 -1 1695
+D2
+As you look around all you can see is dense foliage and trees
+~
+~
+0 -1 1698
+S
+#1695
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary and 
+into the wild dangerous wilderness. Still climbing, the air around you 
+becomes warmer and more humid, you find your self panting, not at the 
+lack of air, but at the quality of it.
+~
+16 0 0 0
+D1
+As you look around all you can see is dense foliage and trees
+~
+~
+0 -1 1696
+D3
+As you look around all you can see is dense foliage and trees
+~
+~
+0 -1 1694
+S
+#1696
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary and 
+into the wild dangerous mountians. Here the elm trees and fir trees are 
+extremely dense and you find it difficult to see through them. You can 
+still turn back... there is definatly something wrong here.
+~
+16 0 0 0
+D1
+As you look east through the fir trees and elm tress you see the rocky path
+~
+~
+0 -1 1697
+D3
+As you look west through the fir trees and elm tress you see the rocky path
+~
+~
+0 -1 1695
+S
+#1697
+Rocky path~
+As you wander along the rocky path that is surrounded by huge fir and elm
+trees that are so dense you can barely see the path ahead, you wonder where
+this path is taking you. Many leaves are falling from the trees, the 
+small shrubs that were growing no longer do. You know that Havens cemetary 
+is to your north but you can no longer hear the horrible sounds that come 
+from there.
+~
+16 0 0 0
+D0
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1693
+D3
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1696
+S
+#1698
+Rocky path~
+You are travelling along a rocky path that leads away from the cemetary 
+and into the wild dangerous wilderness. From up ahead in the mountains you 
+hear several really really really scarey noises. Looking out through the trees 
+occasionally you can catch a glimpse of the Graveyard far below you.
+~
+16 0 0 0
+D0
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1694
+D1
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1699
+S
+#1699
+Rocky path~
+As you wander along the rocky path that is surrounded by huge fir and elm
+trees that are so wilted you can barely see the path ahead, you wonder where
+this path is taking you. You know that Havens cemetary is to your west 
+but you can no longer hear the horrible sounds that come from there.
+Still climbing steadily, you can feel the warm ground under your feet, 
+many of the trees are dying and look very sick.
+~
+16 0 0 0
+D1
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1700
+D3
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1698
+S
+#1700
+Rocky Path~
+Large patches of dead fir and elm trees lie everywhere, not all the trees 
+have died from the toxins in the air, many have just been snapped at the 
+base, pushed over and branches stripped. The ground is quite hot and the 
+air almost unbreathable.
+~
+16 0 0 0
+D1
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1701
+D3
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1699
+S
+#1701
+Rocky path~
+Only burnt stumps of trees lie around you, you can't see anything green 
+except for perhaps the trees beneath you. You can get a clear view of the 
+structure on top of the mountain now. Unfortunatly if thats your 
+destination you have some serious climbing to do to get there...
+~
+16 0 0 0
+D2
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1702
+D3
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1700
+S
+#1702
+Rocky path~
+Only burnt stumps of trees lay around you, you can't see anything green  
+except for perhaps the trees beneath you. You can get a clear view of the  
+structure on top of the mountain now. Unfortunatly if thats your 
+destination you are going to have to deal with some of the ugliest 
+creatures you have seen since... since the graveyard.
+~
+16 0 0 0
+D0
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1701
+D2
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1703
+S
+#1703
+Rocky path~
+The last uphill pinch is ahead of you, from there the mountain flattens  
+out. There are hardly any trees or any stumps left here. Most have been  
+carted away for something or another. The black cloud you could see from  
+the ground is hovering about you. No wonder trees cant live here. 
+~
+16 0 0 0
+D0
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1702
+D1
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 1704
+S
+#1704
+Rocky path~
+   As you continue walking along the rocky path, the black cloud hovers near,
+above.  There is no path to continue as the mountain suddenly falls away at
+your feet, as though someone has taken a knife, and cut the rest of it away.  
+Your only option is to return back to the west.    
+~
+16 0 0 0
+D0
+As you peer around you can barely see anything other than trees
+~
+~
+0 -1 -1
+D3
+~
+~
+0 -1 1703
+S
+$~
+@
+
+
+1.2
+log
+@Artus> Moving this stuff across, too.
+@
+text
+@d349 1
+a349 1
+0 -1 1614
+d463 1
+a463 1
+2 1614 1623
+d495 1
+a495 1
+2 1614 1622
+d1032 1
+a1032 1
+2 1615 1650
+d1056 1
+a1056 1
+2 1615 1649
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d9 1
+a9 1
+16 0 0
+d29 1
+a29 1
+16 0 0
+d49 1
+a49 1
+16 0 0
+d67 1
+a67 1
+16 0 0
+d88 3
+a90 3
+~ 
+16 0 0 
+D1 
+d107 1
+a107 1
+16 0 0
+d128 1
+a128 1
+16 0 0
+d151 1
+a151 1
+16 0 0
+d175 1
+a175 1
+16 0 0
+d196 1
+a196 1
+16 0 0
+d222 2
+a223 2
+~ 
+16 0 0 
+d242 1
+a242 1
+16 0 0
+d272 2
+a273 2
+~ 
+16 0 0
+d294 3
+a296 3
+~ 
+16 0 0 
+D1 
+d320 1
+a320 1
+16 0 0
+d338 3
+a340 3
+~ 
+16 0 0 
+D1 
+d358 1
+a358 1
+16 0 0
+d380 1
+a380 1
+16 0 0
+d399 1
+a399 1
+16 261 0
+d412 1
+a412 1
+16 261 0
+d426 1
+a426 1
+16 0 0
+d444 1
+a444 1
+16 261 0
+d458 1
+a458 1
+16 8 0
+d478 2
+a479 2
+~ 
+16 0 0 
+d495 1
+a495 1
+2 1614  1622
+d505 1
+a505 1
+16 8 0
+d525 1
+a525 1
+16 0 0
+d544 1
+a544 1
+16 0 0
+d563 2
+a564 2
+~ 
+16 8 0
+d585 1
+a585 1
+16 8 0
+d611 3
+a613 3
+~ 
+16 8 0 
+D3 
+d630 1
+a630 1
+16 0 0
+d649 1
+a649 1
+16 1 0
+d663 2
+a664 2
+~ 
+16 0 0 
+d678 2
+a679 2
+~ 
+16 0 0
+d705 1
+a705 1
+16 0 0
+d724 2
+a725 2
+~ 
+16 0 0
+d750 1
+a750 1
+16 0 0
+d772 1
+a772 1
+16 0 0
+d794 1
+a794 1
+16 0 0
+d826 1
+a826 1
+16 0 0
+d845 1
+a845 1
+16 0 0
+d871 1
+a871 1
+16 0 0
+d895 1
+a895 1
+16 0 0
+d920 1
+a920 1
+16 261 0
+d932 1
+a932 1
+16 261 0
+d946 1
+a946 1
+16 261 0
+d960 1
+a960 1
+16 0 0
+d980 1
+a980 1
+16 0 0
+d998 2
+a999 2
+~ 
+16 0 0 
+d1020 2
+a1021 2
+~ 
+16 0 0 
+d1046 1
+a1046 1
+16 0 0
+d1065 1
+a1065 1
+16 0 0
+d1084 1
+a1084 1
+16 0 0
+d1104 1
+a1104 1
+16 0 0
+d1125 1
+a1125 1
+16 0 0
+d1144 1
+a1144 1
+16 0 0
+d1163 1
+a1163 1
+16 0 0
+d1182 1
+a1182 1
+16 0 0
+d1201 2
+a1202 2
+~ 
+16 0 0 
+d1224 1
+a1224 1
+16 0 0
+d1245 1
+a1245 1
+16 0 0
+d1269 1
+a1269 1
+16 0 0
+d1294 2
+a1295 2
+~ 
+16 0 0 
+d1315 2
+a1316 2
+~ 
+16 0 0 
+d1337 1
+a1337 1
+16 0 0
+d1357 1
+a1357 1
+16 0 0
+d1369 1
+a1369 1
+16 261 0
+d1381 1
+a1381 1
+16 261 0
+d1395 1
+a1395 1
+16 0 0
+d1412 1
+a1412 1
+16 0 0
+d1432 1
+a1432 1
+16 0 0
+d1455 1
+a1455 1
+16 0 0
+d1476 1
+a1476 1
+16 0 0
+d1502 1
+a1502 1
+16 0 0
+d1521 1
+a1521 1
+16 0 0
+d1540 1
+a1540 1
+16 0 0
+d1563 1
+a1563 1
+16 0 0
+d1582 1
+a1582 1
+16 0 0
+d1601 1
+a1601 1
+16 0 0
+d1626 1
+a1626 1
+16 261 0
+d1638 1
+a1638 1
+16 261 0
+d1652 1
+a1652 1
+16 0 0
+d1670 1
+a1670 1
+16 0 0
+d1689 1
+a1689 1
+16 0 0
+d1707 1
+a1707 1
+16 0 0
+d1727 1
+a1727 1
+16 0 0
+d1745 1
+a1745 1
+16 0 0
+d1770 1
+a1770 1
+16 0 0
+d1789 1
+a1789 1
+16 0 0
+d1807 1
+a1807 1
+16 0 0
+d1827 2
+a1828 2
+~ 
+16 0 0 
+d1847 1
+a1847 1
+ 16 0 0
+d1869 1
+a1869 1
+ 16 0 0
+d1890 1
+a1890 1
+16 0 0
+d1911 1
+a1911 1
+16 0 0
+d1930 1
+a1930 1
+16 0 0
+d1949 1
+a1949 1
+16 0 0
+d1970 1
+a1970 1
+16 0 0
+d1989 1
+a1989 1
+16 0 0
+d2010 1
+a2010 1
+16 0 0
+d2029 1
+a2029 1
+16 0 0
+d2048 1
+a2048 1
+16 0 0
+d2068 1
+a2068 1
+16 0 0
+d2087 1
+a2087 1
+16 0 0
+d2101 4
+a2104 5
+At last you up the mountain, the structure you could see before is
+much more clear now... the black haze is thinner as you get closer and you 
+can see its actually a fortress, a huge black castle surrounded by black soil 
+and lots of nothing... except for all those wierd creatures just waiting  
+to pay you a visit. 
+d2106 1
+a2106 1
+16 0 0
+d2111 1
+a2111 1
+0 -1 1100
+@
+

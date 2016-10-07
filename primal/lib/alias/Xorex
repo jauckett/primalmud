@@ -1,0 +1,17 @@
+haven!  d;s;e;e;e;e;e;e;e;e;s;s;e;e;e;s;s
+start wear all;hold drum;put all.meat back;put all.mush back;open force;put can back;wield pool;put all.recall back;put all.bread back;drop back;put all for;get back
+earth cast 'earthquake'
+detinvis cast 'detect invis' me
+` quitreally
+he say heal me
+thp! train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+cure cast 'cure light' me
+li cast 'lightning' $1
+arm cast 'armor' me
+rome! s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+gcorp get all corpse;get corpse; junk corpse
+col cast 'color spray' $1
+recall cast 'word of recall'
+summon cast 'summon' $1
+invisme cast 'invisibility' me
+sanc say sanct

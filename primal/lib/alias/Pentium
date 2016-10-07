@@ -1,0 +1,23 @@
+teleport cast 'teleport' $*
+sanc cast 'sanctuary' $*
+as assist kaer
+q take white crate;quaff white
+charm cast 'charm' $*
+summon cast 'summon' $*
+home n;w;w;n;n;w;w;d
+locate cast 'locate object' $*
+1 take all.coins all.corpse;take all.coins
+identify take identify crate;rec identify $*
+infra cast 'infra'
+tavern u;e;e;s;s;e;e;e;e;s
+word cast 'word of recall' $*
+age rem sword;wield blade
+death rem blade;wield sword
+invis cast 'invisibility' $*
+0 cast 'heal' $*
+det cast 'detect invisibility';cast 'detect alignment';cast 'sense life'
+fear cast 'fear' $*
+bs rem predator;wield dagger;backstab $*;rem dagger;wield predator
+waterwalk cast 'waterwalk' $*
+mount1 e;e;e;e;open gate;e;e;e;e;s;e;e;s;e;e;e;s;s;e;e;e
+mount2 e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;d

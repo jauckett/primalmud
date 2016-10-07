@@ -1,0 +1,20 @@
+tt track $1
+ar assist rhcp
+pack lo in backpack
+gac get all corpse
+eb get bread backpack; eat bread
+em get meat backpack; eat meat
+ps tell pseudomorph $*
+gav tell gav $*
+pb put all backpack
+white get white backpack; q white
+red get red backpack; q red
+blue get blue backpack; q blue
+bad drop bandanna
+ap assist pseudomorph
+wt get skin backpack; drink water; put skin backpack
+sr get scroll backpack; recite recall
+bs rem halberd; wi sword; back $1; rem sword; wi halberd; k $1
+qall get red backpack; q red; get blue backpack; q blue; get white backpack; q white
+gb get $1 backpack
+cb goss --------========>>>> $* <<<<========--------

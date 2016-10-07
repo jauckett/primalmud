@@ -1,0 +1,1946 @@
+head	1.8;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.8
+date	2004.06.04.13.01.00;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.05.29.01.31.19;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.14.05.28.32;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.25.03.35.28;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.37;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Artus> Sync.
+@
+text
+@#10100
+thin crowbar~
+a thin crowbar~
+Small and thin, a crowbar has been left here.~
+~
+18 0 1 0
+0 0 0 0
+1 0 0 0
+L 0
+#10101
+hand fate~
+the Hand of Fate~
+A hand made up of stars floats here.~
+~
+11 65613 16385 0
+0 0 0 0
+8 0 0 85
+L 85
+E
+hand fate~
+A dazzling hand made from the very fabric of the universe, it emanates an
+aura of incredible power.
+~
+A
+12 85
+A
+18 9
+A
+19 6
+A
+17 -10
+#10102
+portal white~
+a white portal~
+A shimmering white portal stands in the middle of the room.~
+enters the white portal which flickers brightly.~
+41 83 0 0
+10212 0 0 0
+11 0 0 0
+L 0
+E
+white portal~
+A white portal shimmers constantly here, but seems quite stable.
+~
+#10103
+portal blue~
+a blue portal~
+A shimmering blue portal stands in the middle of the room.~
+enters the blue portal which flickers brightly.~
+41 83 0 0
+10270 0 0 0
+11 0 0 0
+L 0
+E
+blue portal~
+A blue portal shimmers constantly here, and seems extremely stable.
+~
+#10104
+portal white~
+a white portal~
+A shimmering white portal stands in the middle of the room.~
+enters the white portal which flickers brightly.~
+41 83 0 0
+10229 0 0 0
+11 0 0 0
+L 0
+E
+white portal~
+A white portal shimmers constantly here, and seems extremely stable.
+~
+#10105
+red portal unstable~
+an unstable red portal~
+A red portal stands here, fluctuating wildly.~
+enters the red portal which wanes and then sparks back to life brilliantly.~
+41 83 0 0
+10300 0 0 0
+11 0 0 0
+L 0
+E
+red portal~
+A red portal fluctuates from bright colours to lighter, varying in
+intensity and changing shape around the edges. Not a good thing, you
+suspect.
+~
+#10106
+dark portal~
+a dark portal~
+Black as night, a dark portal stands here, drained of power.~
+~
+12 0 0 0
+0 0 0 0
+11 0 0 0
+L 0
+E
+portal dark black~
+This portal has been totally drained of all power by some unknown source. 
+~
+#10107
+dark portal vibrant~
+a dark portal~
+Radiating energy, a vibrant black portal stands here.~
+enters the black portal which swallows them completely.
+~
+41 83 0 0
+10349 0 0 0
+11 0 0 0
+L 0
+E
+vibrant dark portal~
+Humming with hidden power, this portal is on the verge of exploding from
+overload.
+~
+#10108
+green portal~
+a green portal~
+Glowing deep green, a portal stands in the middle of the room.~
+enters the portal, vanishing immediately.
+~
+41 83 0 0
+10253 0 0 0
+11 0 0 0
+L 0
+E
+green portal~
+A soft green glow suffuces the room as the portal radiates a strong green
+aura.
+~
+#10109
+white weak portal~
+a weak white portal~
+A weak white portal gives out grey light here.~
+enters the weak white portal which barely shimmers.
+~
+41 83 0 0
+10231 0 0 0
+11 0 0 0
+L 0
+E
+white weak portal~
+Glowing with a sickly white light, verging on grey, and you are not sure
+how much longer it will be able to function.
+~
+#10110
+cache treasure pile~
+a treasure pile~
+A pile of treasure has been left in a chest here!~
+~
+20 0 1 0
+250000 0 0 0
+10 0 0 0
+L 0
+E
+pile treasure~
+You sift through the pile of treasure, admiring the small glittering
+gems, and the varied assortment of coins.
+~
+#10111
+iron food ration~
+an iron ration~
+A well packed iron ration lies here, prepared for a long journey.~
+~
+19 0 1 0
+5 0 0 5
+1 150 10 0
+L 0
+E
+food ration iron~
+Crammed with all sorts of resilient food, this packet has been prepared
+with a long journey in mind.
+~
+#10112
+archer bow long longbow~
+an archer's longbow~
+Almost six feet long, an archer's powerful longbow lies here.~
+~
+5 4672 8193 0
+11 8 9 1
+10 126000 25000 70
+L 70
+E
+bow longbow archer~
+The bow appears to be sturdy and made with pliable limber wood, bent
+slightly and designed for solid impact.
+~
+A
+18 2
+A
+19 2
+#10113
+bow composite~
+a composite bow~
+An intricate bow made of several parts lies here.
+~
+~
+5 356 8193 0
+0 10 7 1
+10 135000 30000 75
+L 75
+E
+bow composite~
+Interlocking parts of the bow has created this composite item, which is
+enhanced to use the wielder's strength, and thus do more damage.
+~
+A
+1 2
+A
+18 3
+A
+19 3
+#10114
+foot footman tabard~
+a footman's tabard~
+A white tabard is folded here.
+~
+~
+9 1280 1025 0
+2 0 0 0
+1 15000 1000 60
+L 60
+E
+footman tabard~
+Pure white and pristine clean, this tabard is a blessed item for the
+champions of good, and has a long pike imprinted on the front and back.
+~
+A
+1 2
+A
+18 2
+A
+19 1
+A
+4 -2
+#10115
+sneer face permanant~
+a permanant sneer~
+A face lies here sneering at you.~
+~
+9 2624 17 0
+8 0 0 0
+10 50000 0 72
+L 72
+E
+sneer face~
+You see very lifelike mask set into a permanant sneer. What a strange item.
+~
+A
+18 6
+A
+19 4
+A
+6 -3
+A
+4 -1
+A
+12 -50
+#10116
+biceps strong muscular~
+a strong set of biceps~
+A muscular pair of biceps are here, flexing.~
+~
+9 66121 257 0
+3 0 0 0
+10 100000 0 73
+L 73
+E
+biceps strong set pair~
+Flexing powerfully, these biceps look quite impressive, and would make a
+great accessory!
+~
+A
+1 3
+A
+5 2
+A
+18 3
+A
+19 5
+#10117
+avenger avengers gauntlets silver~
+an avenger's gauntlets~
+Reflecting silver light, a pair of gauntlets lie here.~
+~
+9 1389 129 0
+8 0 0 0
+8 144000 15000 80
+L 80
+E
+avenger gauntlets~
+Silver gauntlets made of fine steel by a master craftsman, they provide
+comfortable protection for hands, and glow with an inner power.
+~
+A
+6 2
+A
+1 2
+A
+12 -75
+A
+18 7
+A
+19 4
+#10118
+avenger avengers silver cape~
+an avenger's cape~
+Rippling gently, a silver coloured cape has been left here.~
+~
+9 1317 5 0
+4 0 0 0
+2 75000 15000 80
+L 80
+E
+avenger silver cape~
+This cape is woven from fine silver strands, and reflects light quite
+admirably.
+~
+A
+14 75
+A
+6 2
+A
+12 -50
+A
+18 3
+A
+19 2
+#10119
+avenger greaves silver~
+an avenger's greaves~
+Reflecting silver light, a twin pair of greaves is lying here.~
+~
+9 3437 33 0
+10 0 0 0
+15 80000 20000 80
+L 80
+E
+avenger greaves silver~
+Fine craftmanship and strong material, these greaves reflect a silvery light 
+and will fit comfortably on your legs, providing excellent protection.
+~
+A
+2 -1
+A
+6 1
+A
+12 -25
+A
+14 80
+A
+18 4
+A
+19 2
+#10120
+spy glass spyglass~
+a spyglass~
+A small brass spyglass is here.~
+~
+9 68200 16385 0
+0 0 0 0
+3 138600 0 77
+L 77
+E
+spy glass spyglass~
+A small tube with a piece of glass at either end, it has been magically
+enchanted to allow the user to look at distant objects as if they were
+right in front of them. Amazing!
+~
+A
+3 2
+A
+12 60
+A
+18 7
+A
+19 2
+#10121
+loot war treasure~
+a pile of loot~
+A small pile of assorted coins lies here, looted from a battlefield.~
+~
+20 0 1 0
+150000 0 0 0
+10 0 0 0
+L 0
+E
+loot treasure war~
+Bloodied and soiled with the remains of hundreds of unlucky soldiers,
+this pile of treasure is dirty money, gained from the suffering of others
+by battlefield scavengers.
+~
+#10122
+control belt~
+a belt of control~
+Thin and almost ropelike, you feel a strange need to pick up this belt.~
+~
+9 66278 2049 0
+10 0 0 0
+18 153000 0 85
+L 85
+E
+belt control~
+You admire the belt, and are so glad to have found it. Only a truly
+marvellous person could own such an item. How could you have done without
+it for so long?
+You feel complete.
+~
+A
+1 4
+A
+4 -5
+A
+6 -2
+A
+18 -2
+A
+12 85
+A
+19 8
+#10123
+bauble toy~
+a child's bauble~
+A small well loved child's bauble is here. ~
+~
+12 0 16385 0
+0 0 0 0
+1 10 0 50
+L 50
+E
+bauble toy~
+A mindless amusement, toys like this provide parents everywhere with some
+peace of mind.
+~
+A
+9 -10
+#10124
+head child childs~
+a child's severed head~
+Some beast has slaughtered a child, severing its head, which lies on the ground here.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0 0
+L 0
+E
+head child childs~
+This pitiful example of monstrousity is sad to behold. You turn away,
+unable to look closely at it. 
+~
+#10125
+arm severed~
+a severed arm~
+Severed from a body, an arm lies here in a pool of blood.~
+~
+12 0 1 0
+0 0 0 0
+1 0 0 0
+L 0
+E
+severed arm~
+This was definitely once part of a humanoid creature. Tattered rags still
+cling to the arm, soaked with blood and the fingers are still curled and
+seem to be pitifully asking for help that is beyond your ability to give.
+~
+#10126
+cloak protection~
+a cloak of protection~
+Strangely free of dirt and grime, a cloak is heaped on the floor here.~
+~
+24 66116 1025 0
+1 0 0 -1
+3 144000 0 80
+L 80
+E
+cloak protection~
+There doens't seem to be a speck of dust on this cloak. It is as if
+anything that comes near it just slides straight off, unable to get a
+grip. Very strange.
+~
+A
+1 2
+A
+5 2
+A
+12 -50
+A
+17 -8
+A
+18 5
+A
+19 4
+#10127
+chalice golden holy~
+a golden chalice~
+Emitting a soft glow, a golden chalice has been left here.~
+~
+10 257 1 0
+75 1 36 28
+1 0 0 0
+L 0
+E
+chalice golden holy~
+Obviously a holy relic, this chalice contains some liquid that seems to
+glow, as the chalice does. 
+~
+#10128
+portal purple~
+a purple portal~
+Bathing the room a deep purple, a portal stands here.~
+enter the purple portal, which lightens briefly.~
+41 83 0 0
+10170 0 0 0
+11 0 0 0
+L 0
+E
+purple portal~
+Royal purple, this portal is dignified and powerful, making
+you yearn to enter it and discover it's secrets.
+~
+#10129
+madness robes~
+some robes of madness~
+Some robes lie here, flickering from one colour to another.~
+~
+9 67649 1025 0
+13 0 0 0
+15 162000 100000 90
+L 90
+E
+madness robes~
+These robes have been perverted by strange magic, which has then
+embedded itself into the fabric, making it unstable. It does 
+however seem to have created a unique combination, and if
+nothing else, is definitely pretty. 
+~
+A
+6 2
+A
+12 90
+A
+18 4
+A
+19 7
+A
+20 5
+A
+24 5
+#10130
+clue newbie stick training~
+a clue-in stick~
+Moridin's newbie training stick has been left here.~
+~
+5 64 8193 0
+0 1 1 5
+1 1 1 0
+L 0
+E
+clue newbie stick training~
+Used for clueing in those particularly troublesome newbies, this 
+stick looks well worn. Its effectiveness has been called into dispute,
+but it provides a definite satisfaction in use.
+'Spare the rod and spoil the newbie'.
+~
+#10131
+golden box~
+a golden box~
+Letting off a rich gleam, a golden box has been left here.~
+~
+14 262145 1 0
+1 100 100 10200
+3 10000 10000 50
+L 50
+#10199
+word power~
+a word of power~
+Humming softly, a word of power has been left here.~
+~
+18 2 16385 0
+0 0 0 0
+1 0 0 0
+L 0
+E
+word power~
+A strange item, you cannot quite understand the concept, but know that
+this is a powerful item with a specific use.
+~
+#10200
+blue gem apocalypse~
+a blue gem of the apocalypse~
+A blue gem lies here glowing powerfully.~
+~
+25 351 1 0
+10201 0 0 10205
+1 144000 0 80
+L 80
+E
+blue gem apocalypse~
+This fist sized blue gem gives out a small aura and feels comfortable in
+your hand, as it's sound vibrates it gently. Staring into it you can see
+some shapes swirling deep inside it, but are unable to make them out.
+~
+#10201
+red gem apocalypse~
+a red gem of the apocalypse~
+A red gem lies here glowing powerfully.~
+~
+25 351 1 0
+10200 0 0 10205
+1 144000 0 80
+L 80
+E
+red gem apocalypse~
+This fist sized red gem gives out a small aura and feels comfortable in
+your hand, as it vibrates gently with sound. Staring into it you can see
+some shapes swirling deep inside it, but are unable to make them out.
+~
+#10202
+green gem apocalypse~
+a green gem of the apocalypse~
+A green gem lies here glowing powerfully.~
+~
+25 351 1 0
+10203 0 0 10204
+1 144000 0 80
+L 80
+E
+green gem apocalypse~
+This fist sized green gem gives out a small aura and feels comfortable in
+your hand, as it vibrates gently with sound. Staring into it you can see
+some shapes swirling deep inside it, but are unable to make them out.
+~
+#10203
+clear gem apocalypse~
+a clear gem of the apocalypse~
+A clear gem lies here glowing powerfully.~
+~
+25 351 1 0
+10202 0 0 10204
+1 144000 0 80
+L 80
+E
+clear gem apocalypse~
+This fist sized clear gem gives out a small aura and feels comfortable in
+your hand, as it vibrates gently with sound. Staring into it you can see
+some shapes swirling deep inside it, but are unable to make them out.
+~
+#10204
+lesser gem apocalypse~
+a lesser gem of the apocalypse~
+A large gem lies here flickering.~
+~
+25 351 1 0
+10205 0 0 10206
+1 144000 0 80
+L 80
+E
+lesser gem apocalypse~
+This strange gem flickers strangely, alternating between colours as you
+watch, and almost writhes in your hand. 
+~
+#10205
+greater ball gem apocalypse~
+a greater gem of the apocalypse~
+A ball sized gem lies here flickering.~
+~
+25 351 1 0
+10204 0 0 10206
+1 144000 0 80
+L 80
+E
+greater ball gem apocalypse~
+This strange gem flickers strangely, alternating between colours as you
+watch, and almost writhes in your hand. 
+~
+#10206
+power gem~
+a Power Gem~
+Vast powers have gone into creating the tiny gem that glows here.~
+~
+24 349 1 0
+0 0 0 0
+1 144000 0 80
+L 80
+E
+gem power~
+Can this truly be the culmination of four powerful artifacts? So small,
+so insignificant, so ... inconspicuous.
+~
+#10207
+shell titan~
+a titan's shell~
+An immense shell made of blue-silver material glimmers here.~
+~
+25 327 1 0
+10208 0 0 10212
+90 144000 250000 80
+L 80
+E
+titan shell~
+This is actually the body of a huge titan, and is incredibly heavy.
+Considering the powerful nature of the material, you believe it would make
+an outstanding body armour, if only you could re-fit it down to your size.
+~
+#10208
+anvil divine~
+a Divine Anvil~
+The Anvil used to forge the Universe sits here glowing brightly.~
+~
+25 321 1 0
+10207 0 0 10212
+90 0 0 80
+L 80
+E
+divine anvil~
+You see an unmarred anvil that glows brightly. The god's pounded their
+creations against this when they first created the Universe. It still has
+enough power residing within it to be used to create powerful artifacts.
+~
+#10209
+body armor suit armour titan~
+a Titan's modified body suit~
+A silver-blue suit made from a Titan's body glows here.~
+~
+24 536936793 9 0
+78 39 75 -1
+18 153000 0 85
+L 85
+E
+body armor suit armour titan~
+Powerful, yet yielding, this strange silver-blue material is made from an
+unknown substance using arts lost with the sanity of the Arch-Mages of
+Kana. Originally given life as a Titan, the victor has somehow modified
+the body into a suit that can be worn.
+~
+A
+18 9
+A
+19 9
+A
+13 85
+A
+12 85
+A
+14 85
+A
+17 -25
+#10210
+tower fragment colour color~
+a colourful fragment~
+A small fragment of the tower has become dislodged, and lies here glowing
+colourfully.~
+~
+1 65569 16385 0
+0 0 -1 0
+1 150000 15000 85
+L 85
+E
+light colourful fragment~
+This small fragment is a chip off the old block. It gives out a strong
+light, that is regularly interspersed with wild and unpredictable
+colours.
+~
+A
+12 75
+A
+17 -3
+A
+18 4
+A
+19 2
+#10211
+ring mage~
+an ornate mage's ring~
+Made of small blue gemstones, a ring has been left here.~
+~
+9 68709 3 0
+6 0 0 0
+1 162000 0 90
+L 90
+E
+ring mage ornate~
+Simply a small circular band of blue gems, this ring must be held
+together by arcane arts. It glows strongly, emitting a friendly blue
+light.
+~
+A
+3 3
+A
+4 3
+A
+12 75
+A
+13 -50
+A
+18 7
+A
+19 3
+#10212
+divine anvil titan shell~
+an anvil with a titan's shell~
+A titan's shell lies atop a Divine Anvil, waiting to be forged into an
+item of power.~
+~
+12 321 0 0
+0 0 0 0
+90 0 0 80
+L 80
+E
+divine anvil titan shell~
+An anvil made of the essence of stars rests here, with a huge titan's
+shell resting atop. If only there was some item powerful enough to forge
+upon the Divine Anvil of the god's.
+~
+#10213
+spell book spellbook runes~
+an arch-mage's spellbook~
+Covered in ancient runes, a well bound book is closed here.~
+~
+2 75 1 0
+75 76 76 -1
+1 50000 0 80
+L 80
+E
+spell book spellbook runes~
+Heavily bound with leather, this book contains several powerful spells
+for the experienced spellcaster to employ.
+~
+#10214
+rod enchantment~
+a rod of enchantment~
+An intricate magical rod lies here, with powers unknown.~
+~
+3 98 16385 0
+70 4 4 24
+2 0 0 0
+L 0
+#10215
+rod enchantment~
+a rod of enchantment~
+An intricate magical rod lies here, with powers unknown.~
+~
+3 98 16385 0
+70 4 4 7
+2 0 0 0
+L 0
+#10216
+rod enchantment~
+a rod of enchantment~
+An intricate magical rod lies here, with powers unknown.~
+~
+3 98 16385 0
+70 4 4 29
+2 0 0 0
+L 0
+#10217
+rod enchantment~
+a rod of enchantment~
+An intricate magical rod lies here, with powers unknown.~
+~
+3 98 16385 0
+70 4 4 39
+2 0 0 0
+L 0
+#10218
+rod enchantment~
+a rod of enchantment~
+An intricate magical rod lies here, with powers unknown.~
+~
+3 98 16385 0
+70 4 4 70
+2 0 0 0
+L 0
+#10219
+hole wall~
+a hole in the wall~
+A round hole leading out to a platform is here.~
+~
+41 0 0 0
+10331 0 0 0
+1 0 0 0
+L 0
+E
+hole wall~
+You see a hole in the wall that opens out to a platform on the top of a tower.
+~
+#10220
+gap opening arm~
+an opening to an arm~
+A gap is here, leading into a huge arm.~
+~
+41 0 0 0
+10335 0 0 0
+1 0 0 0
+L 0
+E
+gap arm~
+You see a gap in a large arm, which you think you can fit through to
+enter the arm.
+~
+#10221
+hole wall~
+a hole in the wall~
+A round hole leading out to a platform is here.~
+~
+41 0 0 0
+10332 0 0 0
+1 0 0 0
+L 0
+E
+hole wall~
+You see a hole in the wall that opens out to a platform on the top of a tower.
+~
+#10222
+gap opening arm~
+an opening to an arm~
+A gap is here, leading into a huge arm.~
+~
+41 0 0 0
+10336 0 0 0
+1 0 0 0
+L 0
+E
+gap arm~
+You see a gap in a large arm, which you think you can fit through to
+enter the arm.
+~
+#10223
+hole wall~
+a hole in the wall~
+A round hole leading out to a platform is here.~
+~
+41 0 0 0
+10333 0 0 0
+1 0 0 0
+L 0
+E
+hole wall~
+You see a hole in the wall that opens out to a platform on the top of a tower.
+~
+#10224
+gap opening arm~
+an opening to an arm~
+A gap is here, leading into a huge arm.~
+~
+41 0 0 0
+10337 0 0 0
+1 0 0 0
+L 0
+E
+gap arm~
+You see a gap in a large arm, which you think you can fit through to
+enter the arm.
+~
+#10225
+hole wall~
+a hole in the wall~
+A round hole leading out to a platform is here.~
+~
+41 0 0 0
+10334 0 0 0
+1 0 0 0
+L 0
+E
+hole wall~
+You see a hole in the wall that opens out to a platform on the top of a tower.
+~
+#10226
+gap opening arm~
+an opening to an arm~
+A gap is here, leading into a huge arm.~
+~
+41 0 0 0
+10338 0 0 0
+1 0 0 0
+L 0
+E
+gap arm~
+You see a gap in a large arm, which you think you can fit through to
+enter the arm.
+~
+#10227
+ring lich red~
+a dark red Lich ring~
+Glowing a dull red, a ring made of some dark substance has been left here.~
+~
+9 66149 3 0
+9 0 0 0
+1 162000 0 90
+L 90
+E
+ring lich red~
+It looks as if the ring is so hot that it is glowing, but it is
+reasonably cool to touch, except for the tingling sensation you seem to
+get crawling up your spine while you are in contact with it. 
+~
+A
+3 4
+A
+4 -2
+A
+12 50
+A
+13 20
+A
+18 2
+A
+19 6
+#10228
+Greater lich ring black~
+a pitch black Greater Lich ring~
+Made from ebony, a pitch black ring writhes here.~
+~
+9 68197 3 0
+10 0 0 0
+1 171000 0 95
+L 95
+E
+greater lich ring black ebony~
+This ring crawls. Literally. It seems to slither where it lies, and when
+you touch it you can feel it writhing beneath you, as if some trapped
+lifeform is moving about inside it.
+~
+A
+1 3
+A
+4 -4
+A
+9 15
+A
+12 -75
+A
+13 -75
+A
+19 10
+#10229
+recess~
+a recess~
+A small recess is embedded into the wall here.~
+~
+15 0 0 0
+1 0 -1 0
+0 0 0 0
+L 0
+#10230
+dark portal~
+a dark portal~
+Black as night, a dark portal stands here, leaking evil energy.~
+~
+41 0 0 0
+10330 0 0 0
+11 0 0 0
+L 0
+E
+portal dark black~
+This portal has been warped by strange unknown entities, toward purposes
+you can only guess at, but from your previous experience with portals
+you think that it will probably work. Probably.
+~
+#10231
+dark stalker blade~
+a dark stalker's blade~
+Virtually unseen, a thin blade has dropped here.~
+~
+5 74337 8193 0
+52 9 10 11
+5 171000 50000 95
+L 95
+E
+dark stalker blade~
+Although almost transparent, this blade has a certain presence to it that 
+makes you somewhat cautious around it.
+~
+A
+1 -3
+A
+2 3
+A
+18 10
+A
+19 8
+#10232
+stalker blade~
+a stalker's blade~
+Virtually unseen, a thin blade has dropped here.~
+~
+5 74337 8193 0
+0 9 10 11
+5 162000 10000 90
+L 90
+E
+stalker blade~
+Almost transparent, this blade looks quite sharp and deadly.
+~
+A
+1 -3
+A
+2 3
+A
+18 7
+A
+19 5
+$~
+@
+
+
+1.7
+log
+@Artus> Sync.
+@
+text
+@d15 1
+a15 1
+24 65613 16385 0
+d193 1
+a193 1
+An intricate bow made of several parts lies here.
+d214 1
+a214 1
+A white tabard is folded here.
+d749 1
+a749 1
+A small fragment of the tower has become dislodged, and lies here glowing
+d800 1
+a800 1
+A titan's shell lies atop a Divine Anvil, waiting to be forged into an
+@
+
+
+1.6
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@d193 1
+a193 1
+An intricate bow made of several parts lies here.
+d214 1
+a214 1
+A white tabard is folded here.
+d749 1
+a749 1
+A small fragment of the tower has become dislodged, and lies here glowing
+d800 1
+a800 1
+A titan's shell lies atop a Divine Anvil, waiting to be forged into an
+d1064 1
+a1064 1
+14 9 10 11
+@
+
+
+1.5
+log
+@Artus> Checking In.
+@
+text
+@d193 1
+a193 1
+An intricate bow made of several parts lies here.
+d214 1
+a214 1
+A white tabard is folded here.
+d749 1
+a749 1
+A small fragment of the tower has become dislodged, and lies here glowing
+d800 1
+a800 1
+A titan's shell lies atop a Divine Anvil, waiting to be forged into an
+d1063 1
+a1063 1
+5 66145 8193 0
+d1085 1
+a1085 1
+5 66145 8193 0
+@
+
+
+1.4
+log
+@Latest Versions
+@
+text
+@d193 1
+a193 1
+An intricate bow made of several parts lies here.
+d214 1
+a214 1
+A white tabard is folded here.
+d723 1
+a723 1
+24 65881 9 0
+d749 1
+a749 1
+A small fragment of the tower has become dislodged, and lies here glowing
+d800 1
+a800 1
+A titan's shell lies atop a Divine Anvil, waiting to be forged into an
+@
+
+
+1.3
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@d178 1
+a178 1
+32 8 9 1
+d193 1
+a193 1
+An intricate bow made of several parts lies here.
+d214 1
+a214 1
+A white tabard is folded here.
+d570 2
+a571 2
+3 10000 10000 0
+L 0
+d749 1
+a749 1
+A small fragment of the tower has become dislodged, and lies here glowing
+d800 1
+a800 1
+A titan's shell lies atop a Divine Anvil, waiting to be forged into an
+d1064 1
+a1064 1
+52 10 15 11
+d1086 1
+a1086 1
+0 10 15 11
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d17 2
+a18 2
+8 0 0 0
+L 0
+d25 1
+a25 1
+12 125
+d39 1
+a39 1
+1111 0 0 0
+d52 1
+a52 1
+1111 0 0 0
+d65 1
+a65 1
+1111 0 0 0
+d78 1
+a78 1
+1111 0 0 0
+d93 1
+a93 1
+1111 0 0 0
+d107 1
+a107 1
+1111 0 0 0
+d122 1
+a122 1
+1111 0 0 0
+d137 1
+a137 1
+1111 0 0 0
+d178 3
+a180 3
+32 9 9 1
+10 250000 25000 0
+L 0
+d193 1
+a193 1
+An intricate bow made of several parts lies here.
+d197 3
+a199 3
+0 10 9 1
+10 300000 30000 0
+L 0
+d214 1
+a214 1
+A white tabard is folded here.
+d219 2
+a220 2
+1 15000 1000 0
+L 0
+d241 2
+a242 2
+10 50000 0 0
+L 0
+d264 2
+a265 2
+10 100000 0 0
+L 0
+d272 1
+a272 1
+1 5
+d286 2
+a287 2
+8 150000 15000 0
+L 0
+d310 2
+a311 2
+2 75000 15000 0
+L 0
+d334 2
+a335 2
+15 80000 20000 0
+L 0
+d348 1
+a348 1
+14 100
+d360 2
+a361 2
+3 250000 0 0
+L 0
+d398 2
+a399 2
+18 5000000 0 0
+L 0
+d416 1
+a416 1
+12 125
+d426 2
+a427 2
+1 10 0 0
+L 0
+d471 2
+a472 2
+3 650000 0 0
+L 0
+d512 1
+a512 1
+1111 0 0 0
+d526 2
+a527 2
+15 250000 100000 0
+L 0
+d538 1
+a538 1
+12 95
+d593 2
+a594 2
+1 1000000 0 0
+L 0
+d608 2
+a609 2
+1 1000000 0 0
+L 0
+d623 2
+a624 2
+1 1000000 0 0
+L 0
+d638 2
+a639 2
+1 1000000 0 0
+L 0
+d653 2
+a654 2
+1 1500000 0 0
+L 0
+d667 2
+a668 2
+1 1500000 0 0
+L 0
+d681 2
+a682 2
+1 5000000 0 0
+L 0
+d695 2
+a696 2
+210 250000 250000 0
+L 0
+d710 2
+a711 2
+750 0 0 0
+L 0
+d725 2
+a726 2
+18 2500000 0 0
+L 0
+d735 1
+a735 1
+18 12
+d737 1
+a737 1
+19 12
+d739 1
+a739 1
+13 125
+d741 1
+a741 1
+12 125
+d743 1
+a743 1
+14 125
+d749 1
+a749 1
+A small fragment of the tower has become dislodged, and lies here glowing
+d754 2
+a755 2
+1 150000 15000 0
+L 0
+d777 2
+a778 2
+1 500000 0 0
+L 0
+d800 1
+a800 1
+A titan's shell lies atop a Divine Anvil, waiting to be forged into an
+d805 2
+a806 2
+1111 0 0 0
+L 0
+d820 2
+a821 2
+1 50000 0 0
+L 0
+d987 2
+a988 2
+1 750000 0 0
+L 0
+d996 1
+a996 1
+3 5
+d1014 2
+a1015 2
+1 1000000 0 0
+L 0
+d1050 1
+a1050 1
+1111 0 0 0
+d1065 2
+a1066 2
+5 750000 50000 0
+L 0
+d1077 1
+a1077 1
+18 12
+d1087 2
+a1088 2
+5 250000 10000 0
+L 0
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+18 0 1
+d8 2
+a9 1
+1 0 0  
+d15 4
+a18 3
+24 65613 16385
+0 0 0 0 
+8 0 0
+a31 1
+L 85
+d37 4
+a40 3
+41 83 0
+10212 0 0 0 
+1111 0 0  
+d50 4
+a53 3
+41 83 0
+10270 0 0 0 
+1111 0 0  
+d63 4
+a66 3
+41 83 0
+10229 0 0 0 
+1111 0 0  
+d76 4
+a79 3
+41 83 0
+10300 0 0 0 
+1111 0 0  
+d91 1
+a91 1
+12 0 0
+d93 2
+a94 1
+1111 0 0 
+d105 4
+a108 3
+41 83 0
+10349 0 0 0 
+1111 0 0 
+d120 4
+a123 3
+41 83 0
+10253 0 0 0 
+1111 0 0 
+d135 4
+a138 3
+41 83 0
+10231 0 0 0 
+1111 0 0 
+d149 4
+a152 3
+20 0 1
+250000 0 0 0 
+10 0 0
+d163 1
+a163 1
+19 0 1
+d165 2
+a166 1
+1 150 10
+d171 1
+a171 1
+~ 
+d177 4
+a180 3
+5 4672 8193
+32 9 9 1 
+10 250000 25000
+a189 1
+L 70
+d193 1
+a193 1
+An intricate bow made of several parts lies here.
+d196 1
+a196 1
+5 356 8193
+d198 2
+a199 1
+10 300000 30000
+a210 1
+L 75
+d214 1
+a214 1
+A white tabard is folded here.
+d217 4
+a220 3
+9 1280 1025
+2 0 0 0 
+1 15000 1000
+a233 1
+L 60
+d239 4
+a242 3
+9 2624 17
+8 0 0 0 
+10 50000 0
+a256 1
+L 72
+d262 1
+a262 1
+9 66121 257
+d264 2
+a265 1
+10 100000 0
+d275 1
+a275 1
+A 
+a278 1
+L 73
+d284 4
+a287 3
+9 1389 129
+8 0 0 0 
+8 150000 15000
+a302 1
+L 80
+d308 4
+a311 3
+9 1317 5
+4 0 0 0 
+2 75000 15000
+a326 1
+L 80
+d332 4
+a335 3
+9 3437 33
+10 0 0 0 
+15 80000 20000
+a352 1
+L 80
+d358 4
+a361 3
+9 68200 16385
+0 0 0 0 
+3 250000 0
+a375 1
+L 77
+d381 1
+a381 1
+20 0 1
+d383 2
+a384 1
+10 0 0 
+d396 4
+a399 3
+9 66278 2049
+10 0 0 0 
+18 5000000 0
+a418 1
+L 85
+d424 1
+a424 1
+12 0 16385
+d426 2
+a427 1
+1 10 0
+a434 1
+L 50
+d440 4
+a443 3
+12 0 0
+0 0 0 0 
+1 0 0 
+d454 4
+a457 3
+12 0 1
+0 0 0 0 
+1 0 0
+d469 1
+a469 1
+24 66116 1025
+d471 2
+a472 1
+3 650000 0
+a490 1
+L 80
+d496 4
+a499 3
+10 257 1
+75 1 36 28 
+1 0 0 
+d510 5
+a514 4
+41 83 0
+10170 0 0 0 
+1111 0 0 
+E 
+d524 4
+a527 3
+9 67649 1025
+13 0 0 0 
+15 250000 100000
+a546 1
+L 90
+d552 1
+a552 1
+5 64 8193
+d554 2
+a555 1
+1 1 1
+a562 1
+L 125
+d568 1
+a568 1
+14 as a
+d570 2
+a571 1
+3 10000 10000
+d577 1
+a577 1
+18 2 16385
+d579 2
+a580 1
+1 0 0 
+d591 1
+a591 1
+25 351 1
+d593 2
+a594 1
+1 1000000 0
+d606 1
+a606 1
+25 351 1
+d608 2
+a609 1
+1 1000000 0
+d621 1
+a621 1
+25 351 1
+d623 2
+a624 1
+1 1000000 0
+d636 1
+a636 1
+25 351 1
+d638 2
+a639 1
+1 1000000 0
+d651 1
+a651 1
+25 351 1
+d653 2
+a654 1
+1 1500000 0
+d665 1
+a665 1
+25 351 1
+d667 2
+a668 1
+1 1500000 0
+d679 4
+a682 3
+24 349 1
+0 0 0 0 
+1 5000000 0 
+d693 4
+a696 3
+25 327 1
+10208 0 0 10212 
+210 250000 250000
+d708 4
+a711 3
+25 321 1
+10207 0 0 10212 
+750 0 0 
+d723 4
+a726 3
+24 65881 9
+78 39 75 -1 
+18 2500000 0
+a745 1
+L 80
+d749 1
+a749 1
+A small fragment of the tower has become dislodged, and lies here glowing
+d752 1
+a752 1
+1 65569 16385
+d754 2
+a755 1
+1 150000 15000
+a769 1
+L 85
+d775 4
+a778 3
+9 68709 3
+6 0 0 0 
+1 500000 0
+a796 1
+L 90
+d800 1
+a800 1
+A titan's shell lies atop a Divine Anvil, waiting to be forged into an
+d803 1
+a803 1
+12 321 0
+d805 2
+a806 1
+1111 0 0 
+d818 1
+a818 1
+2 75 1
+d820 2
+a821 1
+1 50000 0
+d832 1
+a832 1
+3 98 16385
+d834 2
+a835 1
+2 0 0 
+d841 1
+a841 1
+3 98 16385
+d843 2
+a844 1
+2 0 0 
+d850 1
+a850 1
+3 98 16385
+d852 2
+a853 1
+2 0 0 
+d859 1
+a859 1
+3 98 16385
+d861 2
+a862 1
+2 0 0 
+d868 4
+a871 3
+3 98 16385
+70 4 4 201
+2 0 0 
+d877 4
+a880 3
+41 0 0 
+10331 0 0 0 
+1 0 0 
+d890 4
+a893 3
+41 0 0
+10335 0 0 0 
+1 0 0 
+d904 4
+a907 3
+41 0 0 
+10332 0 0 0 
+1 0 0 
+d917 4
+a920 3
+41 0 0
+10336 0 0 0 
+1 0 0 
+d931 4
+a934 3
+41 0 0 
+10333 0 0 0 
+1 0 0 
+d944 4
+a947 3
+41 0 0
+10337 0 0 0 
+1 0 0 
+d958 4
+a961 3
+41 0 0 
+10334 0 0 0 
+1 0 0 
+d971 4
+a974 3
+41 0 0
+10338 0 0 0 
+1 0 0 
+d985 4
+a988 3
+9 66149 3
+9 0 0 0 
+1 750000 0
+a1006 1
+L 90
+d1012 1
+a1012 1
+9 68197 3
+d1014 2
+a1015 1
+1 1000000 0
+a1033 1
+L 95
+d1039 4
+a1042 3
+15 0 0 
+1 0 -1 0 
+0 0 0 
+d1048 1
+a1048 1
+41 0 0
+d1050 2
+a1051 1
+1111 0 0 
+d1063 1
+a1063 1
+5 66145 8193
+d1065 2
+a1066 1
+5 750000 50000
+d1076 1
+a1076 1
+A 
+a1079 1
+L 95
+d1085 1
+a1085 1
+5 66145 8193
+d1087 2
+a1088 1
+5 250000 10000
+d1097 1
+a1097 1
+A 
+d1101 1
+a1101 2
+L 90
+$
+@
+

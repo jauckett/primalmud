@@ -1,0 +1,138 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.07.13.18.29.40;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+Added:
+- primalClasses, primalRaces (info about classes and races)
+
+Changed:
+- everything with respect to meeting held 13/7/2000
+@
+text
+@================================================================================
+                                Primal Classes 
+================================================================================
+ 
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+
+                                PrimalMUD v3.0
+                    Revamped by Michael Dishon, Jason Theofiles
+                               and Sandii Barrat
+ 
+================================================================================
+
+Max Stat Values:
+================
+
+             -------------------------------------------------
+             |  Int  |  Wis  |  Str  |  Dex  |  Con  |  Cha  |   
+             -------------------------------------------------  
+Deva         |  21   |  21   |  16   |  18   |  16   |  19   | 
+Minatour     |  16   |  15   |  21   |  16   |  20   |  14   |
+Human        |  18   |  18   |  18   |  18   |  18   |  18   |
+Dwarf        |  16   |  19   |  19   |  17   |  20   |  16   |
+Elf          |  19   |  18   |  16   |  21   |  16   |  19   |
+Pixie        |  19   |  17   |  16   |  19   |  16   |  21   |
+Ogre         |  16   |  16   |  21*  |  14   |  21   |  11   |
+             -------------------------------------------------
+
+Note: * denotes that the character starts with this value.
+
+Equipment Positions:
+====================
+
+                     -------------------------------------------
+New Positions        | Dev | Min | Hum | Dwa | Elf | Pix | Ogr |
+-------------        -------------------------------------------
+Eyes                 |  x  |  x  |  x  |  x  |  x  |  x  |     |
+Ear 1                |     |  x  |     |  x  |  x  |  x  |  x  |
+Ear 2                |     |  x  |     |  x  |     |  x  |  x  |
+Anklet 1             |  x  |     |     |  x  |  x  |  x  |     |
+Anklet 2             |  x  |     |     |  x  |  x  |  x  |     |
+Finger 1             |  *  |  *  |  *  |  *  |  *  |  *  |  *  |
+Finger 2             |  *  |  *  |  *  |  *  |  *  |  *  |  *  |
+Finger 3             |  *  |  *  |  *  |  *  |  *  |  *  |  *  |
+Finger 4             |  *  |  *  |  *  |  *  |  *  |  *  |  *  |
+Finger 5             |  *  |  *  |  *  |  *  |  *  |  *  |  *  |
+-------------        -------------------------------------------
+
+The ring positions are class dependent as follows:
+
+Class:          Number Rings
+-----------------------------
+Warrior             1
+Thief               2
+Cleric              2
+Mage                3
+
+Paladin    (wc)     3
+Priest     (tc)     3
+Nightblade (wt)     3
+Spellsword (tm)     4
+Battlemage (wm)     4
+Druid      (cm)     5
+ 
+Master     (wtcm)   5
+
+
+Old Positions
+-------------        -------------------------------------------
+Light                |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Finger (moved above) |-----------------------------------------|
+Finger (moved above) |-----------------------------------------|
+Neck                 |  x  |  x  |  x  |  x  |  x  |  x  |     |
+Neck                 |  x  |  x  |  x  |  x  |  x  |  x  |     |
+Body                 |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Head                 |  x  |     |  x  |  x  |  x  |  x  |  x  |
+Legs                 |  x  |     |  x  |  x  |  x  |  x  |  x  |
+Feet                 |  x  |     |  x  |  x  |  x  |  x  |     |
+Hands                |  x  |  x  |  x  |  x  |  x  |  x  |     |
+Arms                 |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Shield               |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Body                 |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Waist                |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Wrist                |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Wrist                |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Wielded              |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+Held                 |  x  |  x  |  x  |  x  |  x  |  x  |  x  |
+-------------        -------------------------------------------
+
+Sizes for eq tailoring/blacksmithing (if we decide to implement):
+=================================================================
+
+Deva            Large     
+Minatour        Large
+Human           Normal
+Dwarf           Small
+Elf             Normal
+Pixie           Small
+Ogre            Large
+
+Other Misc Race-Equipment-Vunerablity Attributes:
+=================================================
+Pixie           No metal armour (heavy)         (probably just stat restricted)
+Changling
+Dwarf           Axes only
+Elf             No heavy armour
+Deva            Physical Damage Vunerable, Magical Damage Resistant
+@

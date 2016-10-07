@@ -1,0 +1,267 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.01.26.15.41.25;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Added the object files which didn't import.
+@
+text
+@#8301
+chain elven~
+some elven chain~
+Some elven chain mail is lying on the ground here~
+~
+9 3105 9
+6 0 0 0
+19 17000 1700
+E
+chain elven ~
+This is a magical item that has a strong yellow glow. It comes from the 
+Lhankwood forest and was once worn by a young elven citizen.
+~
+A
+12 30
+A
+1 -2
+A
+18 1
+L 15
+#8302
+boots elven~
+some elven boots~
+Some elven boots have been left here.~
+~
+9 3073 65
+3 0 0 0
+2 4000 400
+E
+boots elven~
+The magical boots look extremely comfortable and they also have a strong
+magical aura about them.
+~
+A
+12 25
+L 10
+#8304
+bow long~
+a long bow~
+A fine long bow has been left here.~
+~
+5 3073 8193
+0 2 11 11
+4 3250 650
+E
+bow long ~
+The string on this bow gives off a strange humming sound and the wood 
+looks like it is unbreakable.
+~
+A 
+5 -1
+A
+12 20
+L 17
+#8305
+cloak green~
+a fine green cloak~
+A fine green cloak has been left here.~
+~
+9 3072 5
+2 0 0 0
+6 2000 200
+E
+cloak green~
+There are small leaves clinging to this green cloak. No, as you look closer
+you realise they are actually growing on it.
+~
+A
+12 15
+L 10
+#8306
+charm elven~
+an elven charm~
+A fine elven charm bracelet has been dropped here.~
+~
+9 3072 4097
+2 0 0 0
+2 6700 670
+E
+charm elven~
+The charm bracelet is made from fine silver and has small magical
+symbols that give of a slight blue glow.
+~
+A
+18 3
+A
+12 10
+A
+1 -1
+L 15
+#8308
+staff elven~
+an elven staff~
+An elven staff has been carelessly left here.~
+~
+3 1025 16385
+20 4 4 29
+11 18000 1800
+E
+staff elven~
+It appears to be just a small piece of worn out wood but on closer 
+inspection you see that it is a magical weapon.
+~
+L 0
+#8309
+claws green~
+a pair of green dragon claws~
+A pair of green dragon claws have been left here.~
+~
+9 2561 129
+4 0 0 0
+8 24500 2450
+E
+claws green~
+Long talons protrude from what looks like a glove made of dragon skin.
+The talons have small drops of poison on the tips so be careful when you
+handle them.
+~
+A
+12 25
+A
+18 5
+A
+19 4
+A
+13 -10
+L 35
+#8310
+emerald stone~
+a glowing emerald~
+A glowing emerald has been carelessly left here.~
+~
+1 2569 16385
+0 0 -1 0
+3 60000 6000
+E
+stone emerald~
+The stone glows with a bright green light that shines brightly in your face.
+~
+A
+12 25
+A
+17 10
+L 20
+#8311
+club branch~
+a club made of treant wood~
+A club carved from treant wood is here.~
+~
+5 1545 8193
+0 3 8 7
+22 74316 14863
+E
+club branch~
+You see a strong solid club that looks like it could kill any opponent.
+Small spikes of wood stick out from all angles and you just miss hurting 
+yourself.
+~
+A
+19 2
+A
+18 3
+A
+2 -1
+L 19
+#8312
+tiara crown~
+a golden tiara~
+A golden tiara has been left here.~
+~
+9 2569 17
+4 0 0 0
+145 24000 2400
+E
+tiara crown~
+Small diamond, rubies and sapphires encrust the ring of this magnificent
+gold crown.
+~
+A
+12 40
+A
+19 -2
+L 20
+#8313
+ring pearl~
+a pearl ring~
+A shiny pearl ring has been left here.~
+~
+9 2569 3
+3 0 0 0
+1 8500 850
+E
+ring pearl~
+A large pearl is set in gold, there are small marks on the sides that look
+mysterious and slightly sinister.
+~
+A
+12 30
+L 15
+#8314
+staff oak~
+an oak staff~
+A heavy oaken staff has been dropped here.~
+~
+5 3027 8193
+0 3 5 7
+20 23708 4741
+E
+Staff oak~
+
+A small piece of gnarled wood that looks completely harmless until you hold
+it and it starts to glow with a strange red aura.
+~
+A
+19 2
+A
+18 2
+A
+17 -5
+L 5 
+#8315
+bow elven~
+an elven bow~
+An elven bow has been left here.~
+~
+5 3027 8193
+0 4 6 7
+10 68320 13664
+E
+bow elven ~
+The string on this bow gives off a strange humming sound and the wood 
+looks like it is unbreakable.
+~
+A
+2 -1
+A
+19 2
+A
+18 1
+A
+12 15
+L 19
+#99999
+$~
+@

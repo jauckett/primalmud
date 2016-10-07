@@ -1,0 +1,119 @@
+vs tell valium summon me please
+dim cast 'dim' $1;open gate;go gate;stand
+ch2 cast 'adva' 2.clone
+ch1 cast 'adva' clone
+f2w cast 'fear' 2.worm
+bw rem whip;wie dagger;bac sandworm;rem dagger;wie whip
+bs rem whip;wie dagger;bac $1;rem dagger;wie whip
+bc rem whip;wie dagger;bac crystal;rem dagger;wie whip
+d6 d;d;d;d;d;d;
+u6 u;u;u;u;u;u;
+met  cast 'meteor swarm' $1
+hs hunt sandworm
+tooth rem eye;hold tooth
+eye rem tooth;hold eye
+spir5 e;e;e;e;s;s;s;s;s;e;e;op rock
+spir4 s;s;d;d;d;e;e;e;e;e;s;e;s;d
+abys3 e;e;n;e;e;e;e;s;e;u;u;u;
+abys2 w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;
+abys e;n;n;n;w;n;w;n;n;n;n;n;w;w;w;
+str cast 'str' shujill
+fly cast 'fly' shujill
+pb cast 'plasma' $1
+dri get skin backpack;drink skin; put skin backpack
+emt get meat bag;eat meat
+ps primal scream
+fear cast 'fear' $1
+grats grats --==***{{<<(([[ $1 ]]))>>}}***==--
+bli cast 'blind' $1
+blu get thick backpack;qua thick
+sl sleep
+ww cast 'waterwalk' shujill
+cc cast 'cure crit' $1
+n6 n;n;n;n;n;n;
+harm cast 'harm' $1
+loc cast 'locate object' $1
+fill get skin backpack;cast 'create water' skin
+ref cast 'refresh'
+goba2 d;e;e;e;e;s;s;s;w;s;w;s;e;
+goba1 s;s;e;e;s;s;s;s;e;e;e;e;e;e;
+dr cast 'energy drain' $1
+s10 s;s;s;s;s;s;s;s;s;s;
+su cast 'summon' $1
+pro cast 'prot' Shujill
+ert cast 'earthquake'
+red get red backpack;quaff red
+hom cast 'word' Shujill
+gobu n;w;s;s;s;s;e;e;s;s;s;e;e;s;tim
+bac exa backpack
+mag cast 'detect magic' Shujill
+white get white backpack;quaff white
+troll n;n;n;w;w;s;s;w;w;
+din cast 'detect invisibility' Shujill
+out get recall backpack; recite recall Shujill
+leave n;w;s;s;s;w;w;w;w;time
+s6 s;s;s;s;s;s;
+id get identify backpack;recite identify $1
+see cast 'infravision' Shujill
+w6 w;w;w;w;w;w;
+e6 e;e;e;e;e;e;
+bag exa bag
+arm cast 'armor' Shujill
+unsl wake; stand
+invi cast 'invisibility' Shujill
+ali cast 'detect alignment' Shujill
+cr cast 'cure crit' Shujill
+snz cast 'sleep' $1
+gall get all $1.corpse
+ev cast 'dispel evil' $1
+fir cast 'fireball' $1
+hea cast  'heal' Shujill
+food cast 'create food';eat mushroom
+san cast 'sanctuary'
+dar w;w;w;s;w;w;w;n;w;w;w;
+dar2 e;n;n;n;w;n;w;n;n;n;n;n;n;n;w;w;
+lif cast 'sense life' Shujill
+for1 s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;
+for2 w;n;w;w;s;s;s;w;w;d;s;e;e;
+som rem mask;wear sombrero
+mas rem sombrero;wear mask
+tud1 d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;
+tud2 e;e;s;s;s;w;w;s;w;w;s;s;
+cha cast 'charm' $1
+cs cast 'sanctuary' $1
+tele cast 'teleport'
+ah cast 'advan' shujill
+gg go gangway
+ec examine corpse
+rp cast 'remove pois' shujill
+cl cast 'call' $1
+fd cast 'finger' $1
+kp kill pirate
+fin cast 'finger' $1
+gs cast 'group sanc'
+pack1 get bag;get all.meat;put all.meat bag;get backpack;get all.scroll;put all.scroll backpack;get all.potion;put all.potion backpack
+tav e;n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;
+spiral n;w;s;s;s;e;e;e;e;op gate;
+spir1 n;w;s;s;s;e;e;e;e;op gate;e;e;e;e;e;e;
+spir2 e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;
+spir3 e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;d;
+cb cast 'cure blind' shujill
+bsp rem sword;wie dagger;bac priest;rem dagger;wie sword
+bsh rem hammer;wie dagger;bac $1;rem dagger;wie hammer
+cor get all all.corpse
+jc get gold all.corpse;get all.corpse;junk all.corpse
+fv cast 'finger' vine
+bone u;s;s;s;s;s;e;e;e;e;e;e;e;e;e;s;s;e;n;e;e;n;n;e;
+gh cast 'group heal'
+ok order followers kill $1
+fc cast 'finger of' crystal
+nod1 emote nods in understanding
+nod2 emote nods her head vigorously
+pack5 open crate;get fist;get all.bracelet;get hide;put all.bracelet crate;put fist crate;put hide crate
+m, e;recite identify moander;w
+rb read board
+be rem mace;wie dagger;bac elf;;rem dagger;wie mace
+ck cast 'cloud'
+of order followers $1
+hc hunt crystal
+pack2 get all;wear all;hold tooth;hold pen;wie whip;drop hammer;drop stone;drop sword;drop crate

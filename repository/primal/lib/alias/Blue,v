@@ -1,0 +1,66 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@blue get blue backpack; qu blue
+smiley emote smiles from ear to ear.  Irritating isn't it?
+book remove staff; hold book; use book $1; remove book; hold staff
+run cast 'word of recall' $1
+1 split $1
+meat get meat backpack; eat meat
+drink drink skin
+redi remove backpack; hold staff
+redo remove staff; hold backpack
+red remove staff; hold backpack; get all all.corpse; remove backpack; hold staff
+cure cast 'cure critic' $1
+infra cast 'infravision' blue
+mush cast 'creat food'; eat mushroom
+stren cast 'strength' blue
+white get white backpack; qu white
+devis cast 'detect invisibility' blue
+he get red backpack; q red
+ba remove sword; wield soaker; ba $1; remove soaker; wield sword
+strength cast 'strength' blue
+heal cast 'cure light' $1
+earth cast 'earthquake'; $1
+invis cast 'invisibility'; $1
+nogar 
+2 cast 'cure critic' blue
+fire cast 'fireball' $1
+kool Emote smiles her kool-aid smile.
+as assist $1
+full cast 'heal' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

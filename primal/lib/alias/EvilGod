@@ -1,0 +1,16 @@
+dw take skin from backpack;drink water;put skin in backpack
+[c e
+[d w
+[b s
+[a n
+massmm cast 'magic missile' at $1 ; cast 'magic missile' at $1 ; cast 'magic missile' at $1 ; cast 'magic missile' at $1 ; cast 'magic missile' at $1 ; cast 'magic missile' at $1 ;cast 'magic missile' at $1 ;cast 'magic missile' at $1
+bh cast 'burning hands' at $1
+mm cast 'magic missile' at $1
+armor cast 'armor' at me
+t tag $0
+mush cast 'create food' at me ; eat mushroom
+infra cast 'infravision' at me
+det cast 'detect invisibility' at me
+getgate cast 'magic missile' at gateguard
+getall e;take all from corpse;w
+getbod s;take corpse;n

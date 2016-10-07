@@ -1,0 +1,300 @@
+head	1.12;
+access;
+symbols
+	A3_0_59:1.6
+	LATEST:1.6
+	A3_0_1:1.6;
+locks; strict;
+comment	@ * @;
+
+
+1.12
+date	2004.08.27.01.47.31;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2001.11.20.05.00.52;	author artus;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2001.05.05.12.01.17;	author rod;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2001.04.11.14.31.37;	author artus;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2001.02.02.07.04.59;	author primal;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2001.02.02.04.34.46;	author primal;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2001.01.20.23.40.32;	author primal;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.12.17.13.16.48;	author primal;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.08.05.02.28.46;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.07.26.07.52.27;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.07.13.00.59.19;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.58;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@Artus> Added thaco_ac for levels 101-105.
+@
+text
+@extern const char *circlemud_version;
+extern const char *dirs[];
+extern const char *room_bits[];
+extern const char *exit_bits[];
+extern const char *sector_types[][11];
+extern const char *genders[];
+extern const char *position_types[];
+extern const char *player_bits[];
+extern const char *action_bits[];
+extern const char *preference_bits[];
+extern const char *extended_bits[];
+extern const char *affected_bits[];
+extern const char *timer_types[];
+extern const char *battery_types[];
+extern const char *connected_types[];
+extern const int  wear_positions[];
+extern const char *punish_types[]; // ARTUS
+extern const char *offence_types[]; // ARTUS
+extern const char *where[];
+extern const char *equipment_types[];
+extern const char *item_types[];
+extern const char *wear_bits[];
+extern const char *extra_bits[];
+extern const char *apply_types[];
+extern const char *container_bits[];
+extern const char *drinks[];
+extern const char *drinknames[];
+extern const char *color_liquid[];
+extern const char *fullness[];
+extern const char *spell_wear_off_msg[];
+extern const char *pc_class_types[];
+extern const char *pc_race_types[];
+extern const char *npc_class_types[];
+extern const char *weekdays[];
+extern const char *month_name[];
+extern const char *moon_mesg[];
+extern const char *sort_names[];
+extern const char *world_names[]; 
+extern const char *zone_flagbits[];
+extern const char *stat_names[];
+
+extern const struct str_app_type str_app[];
+extern const struct dex_skill_type dex_app_skill[];
+extern const struct dex_app_type dex_app[];
+extern const struct con_app_type con_app[];
+extern const struct int_app_type int_app[];
+extern const struct wis_app_type wis_app[];
+extern const float class_modifiers[];
+extern const float race_modifiers[];
+extern const int default_item_damage[];
+extern int rev_dir[];
+extern int movement_loss[];
+extern int drink_aff[][3];
+extern const int default_colour_codes[];
+extern const int thaco_ac[LVL_CHAMP][NUM_CLASSES];
+extern char *colour_headings[];
+extern const long pc_race_eq_masks[];
+extern const int pc_class_primary_stats[];
+extern const int pc_max_race_stats[][6];
+extern const int pc_max_class_points[][3];
+extern const int stat_costs[];
+extern const float stat_mods[];
+extern const char *burgle_rooms[];
+extern const char *mobprog_types[];
+extern const char *race_abbrevs[];
+extern const char *class_abbrevs[];
+extern const char *cmd_types[];
+extern const char *cmd_bhelp[];
+@
+
+
+1.11
+log
+@Artus: Modified thaco calculations..
+@
+text
+@d55 1
+a55 1
+extern const int thaco_ac[LVL_IMMORT][NUM_CLASSES];
+@
+
+
+1.10
+log
+@Modified: Rod
+
+Added:
+- cmd_types and cmd_bhelp (for commands command)
+@
+text
+@d55 1
+@
+
+
+1.9
+log
+@Modified: Artus - Punishment
+@
+text
+@d66 2
+@
+
+
+1.8
+log
+@
+Added:
+- class_abbrevs, race_abbrevs defs
+@
+text
+@d17 2
+@
+
+
+1.7
+log
+@
+Added:
+- Initial inclusion of dgscripts
+@
+text
+@d62 2
+@
+
+
+1.6
+log
+@
+Added:
+> extern const char *stat_names[];		Stat names
+> extern const long pc_race_eq_masks[];		race eq positions
+> extern const int pc_class_primary_stats[];	race stat restrictions
+> extern const int pc_max_race_stats[][6];	race stat restrictions
+> extern const int pc_max_class_points[][3];	class HMV limits
+> extern const int stat_costs[];		training costs
+> extern const float stat_mods[];		training costs
+> extern const char *burgle_rooms[];		burgle room flag names
+@
+text
+@d61 1
+@
+
+
+1.5
+log
+@
+Added:
+- New eq position arrays:
+  - wear_positions
+  - pc_race_eq_masks
+@
+text
+@d38 1
+d54 7
+a60 1
+extern const long pc_race_eq_masks[MAX_RACES];
+@
+
+
+1.4
+log
+@
+Added:
+- Cant remember
+@
+text
+@d16 1
+d53 1
+@
+
+
+1.3
+log
+@
+Added:
+- timers (like affects)
+- new skills, fixes
+
+TODO:
+- test timers on objects - add to stat obj screen
+@
+text
+@d14 1
+@
+
+
+1.2
+log
+@
+Added:
+- olc stuff - sectors, zone flags
+
+Changed:
+- Heaps of little fixes ....
+@
+text
+@d13 1
+a13 1
+extern const char *timer_bits[];
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d5 1
+a5 1
+extern const char *sector_types[];
+d35 1
+@
+

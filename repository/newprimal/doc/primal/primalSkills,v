@@ -1,0 +1,627 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.12.01.03.31.41;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.07.13.18.29.40;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.07.06.10.17.21;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@
+Added:
+- 4 skills at end - mapmaking, gambling etc ...
+@
+text
+@================================================================================
+                                Primal Skills
+================================================================================
+ 
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+ 
+                                PrimalMUD v3.0
+                    Revamped by Michael Dishon, Jason Theofiles
+                               and Sandii Barrat
+                                                                 
+================================================================================
+
+********************************************************************************
+> Duration:               Instantaneous / <Time> / Automatic / random
+> Skill Type:             Neutral / Knowledge(pre-req) / Special / Attack
+> Affecting Stats:        dex/int/wis/con/cha/str/level
+>
+********************************************************************************
+> TODO - make it so that you cannot remove cursed items - you must have a
+>         remove curse spell placed upon the item.
+>      - decide whether we want to have damageable eq ...
+>      - I think it would be a nice feature ... then you have to either repair,
+>         or collect new eq which is badly damaged or destroyed.
+>      - decide whether we want to make spells skills trained to a certain
+value,
+>         and then mastered by use ... (another more interesting feature).
+>      - go through this list and check durations, affecting stats, and
+>         decide for classes.
+>
+********************************************************************************
+>
+> SKILLS
+> ======
+>
+> ADRENALINE:
+> The player force the pumping of adrenaline through their bodies giving
+greater
+> strength and quickness, enhancements last a short while and the player finds
+> it difficult to summon the strength to do it again quickly.
+> Duration:               3
+> Skill Type:             Special
+> Affecting Stats:        STR/DEX
+>
+> AMBIDIDEXTERITY:
+> Allows the player to use both hands and feet.
+> Duration:               Automatic
+> Skill Type:             Knowledge(pre-req) for double wield/kick.
+> Affecting Stats:        DEX
+>
+> AMBUSH:
+> Hide and set ready to ambush passing player. When the player ambushes
+> something, they shall catch the victim unaware and the victim will not be
+> able to leave the room for a while, include a bonus attack?? ...
+> Duration:               1
+> Skill Type:             Neutral
+> Affecting Stats:        Dex
+>
+> ARCHERY:
+> Used when firing arrows.
+> Duration:               Automatic
+> Skill Type:             Knowledge(pre-req) for using bows.
+> Affecting Stats:        Dex
+>
+> ARMORCRAFT:
+> Allows the player to repair non-magical armor. Once mastered the skil will
+> always repair the armor.
+> Duration:               -
+> Skill Type:             Knowledge(pre-req) for repair.
+> Affecting Stats:        ??
+>
+> ASTRONOMY:
+> Allows the player to project future conjunctions of nature between moons and
+> planets.
+> Duration:               Automatic
+> Skill Type:             Knowledge(pre-req)/special for moon/planet
+spell/skills.
+> Affecting Stats:        INT
+>
+> ATTEND WOUNDS:
+> Allows the player to patch up minor damage to a player.
+> Duration:               Instantaneous
+> Skill Type:             Regenerative
+> Affecting Stats:        Level
+>
+> AXE MASTERY:
+> This skill allows the player to fight better with axes, and if used with
+> ambidexterity the player is able to wield two axes. The player will also be
+> able to throw/hurl axes.
+> Duration:               Automatic
+> Skill Type:             Knowledge(pre-req)for axe related stuff.
+> Affecting Stats:        DEX
+>
+> BATTLECRY:
+> This skill allows you to start off an attack with a brutal yell and attack
+> combination. If the skill is executed sucessfully, the oponnent will be
+> stunned. You must be wielding a weapon to use this skill.
+> Duration:               Instantaneous
+> Skill Type:             Attack
+> Affecting Stats:        STR/DEX, Level
+>
+> BARGAIN:
+> This skill allows you to effectively haggle purchases to a lower price.
+> Duration:               Automatic
+> Skill Type:             Special
+> Affecting Stats:        CHA/WIS, Level
+>
+> BEARHUG:
+> This skill allows you to bear hug your opponent.
+> Duration:               Instantaneous
+> Skill Type:             Attack
+> Affecting Stats:        STR, Level
+>
+> BESERK:
+> This skill allows the fighter to go beserk (something like haste I guess).
+> Duration:               Instantaneous
+> Skill Type:             Attack
+> Affecting Stats:        CON
+>
+> BLADE MASTERY:
+> This skill allows the players ability to handle the blade and extends the
+> duration of enchant spells.
+> Duration:               Automatic
+> Skill Type:             Knowledge(pre-req)for blade related stuff.
+> Affecting Stats:        DEX
+>
+> BODYSLAM:
+> This skill allows a player to eject an apponent from its room.
+> Duration:               Instantaneous
+> Skill Type:             Attack
+> Affecting Stats:        STR
+>
+> BOWCRAFT:
+> As for armor armor ...
+> Duration:               -
+> Skill Type:             Knowledge(pre-req) for repair.
+> Affecting Stats:        ??
+>
+> BALANCE - magic casters have spells for repairing magic items ...
+>
+> CAMOUFLAGE:
+> This kill allows the player to hide so that others cannot see you. It only
+> works outdoors.
+> Duration:               2
+> Skill Type:             Neutral
+> Affecting Stats:        CON
+>
+> CAMPING:
+> This skill allows the player to rest and regenerate lost hps an mps. Skill
+> wilderness survival will make the resting more effective.
+> Duration:               Automatic
+> Skill Type:             Special
+> Affecting Stats:        DEX/CON
+>
+> CLOT WOUNDS:
+> This skill allows the player to concentrate mental powers on bleeding wounds
+> and regenerate some of the damage.
+> Duration:               Instantaneous
+> Skill Type:             Regenerative
+> Affecting Stats:        Level and skill percentage.
+>
+> COMPOSTING:     (Druid)
+> This skill allows the player to turn corpses into small mounds of compost.
+The
+> druid profits by receiving a small amount of mana.
+> Duration:               Instantaneous
+> Skill Type:             Regenerative
+> Affecting Stats:        Level and skill percentage.
+>
+> CONTROL SUMMONING:
+> This skill allows the player to help control the mobs being summoned.
+> Duration:               Automatic
+> Skill Type:             Special
+> Affecting Stats:        INT, Level
+>
+> CONCEAL SPELL CASTING:
+> This skill allows the player to discretely cast spells without being noticed.
+> Duration:               Automatic
+> Skill Type:             Special
+> Affecting Stats:        INT/WIS, Level
+>
+> CREATE PITFALL:
+> This skill allows you create a trap that will
+> cause anyone entering the room to fall and take
+> damage from. This skill may only be used outdoors
+> and requires a shovel.
+> Duration:               30
+> Skill type:             neutral
+> Affecting Stats:
+>
+> DARK RITUAL:
+> A succesfull dark ritual will enhance your chance to control your
+> next summoned demon. With some spells this skill might lower the sp cost
+> , but only if the dark ritual has been made succesfully. Higher the skill
+> percent the better are the effects. There is no way to find out if the ritual
+> was succesfull or not.
+> Duration:               3
+> Skill type:             neutral
+> Affecting Stats:
+>
+> DEFEND:
+> This skill allows you to defend yourself from all physical damage for
+> a round. The higher your skill percent the faster the skill has
+> a chance of going off.
+> Duration:               random
+> Skill type:             defensive
+> Affecting Stats:
+>
+> DISARM:
+> This skill allows a monster to disarm an opponent.
+> Duration:               Instantaneous
+> Skill type:             neutral
+> Affecting Stats:
+>
+> DISARM TRAPS:
+> This skill is used to disarm traps. To use it, you must have found the
+> trap with the skill searching. Disarming your own traps is easier
+> than the others.
+> Duration:               Instantaneous
+> Skill type:             special
+> Affecting stat(s):      Dex
+>
+> DISGUISE:
+> With this skill the user can disguise himself to be any living
+> creature that is in the same room with him. The skill needs some
+> wax as a material. If you want to disguise yourself as an orc and
+> there is an orc in the same room, use disguise at orc.
+> The duration of the disguise is dependant on users level and skill.
+> You can remove your disguise at anytime with command 'remove disguise'
+> Duration:               Instantaneous
+> Skill type:             neutral
+>
+> DOUBLE BACKSTAB:
+> This skill will allow you to augment the damage of a backstab.
+> You must first succeed with your backstab.
+> Duration:               automatic
+> Skill type:             attack
+> Affecting stat(s):      Str/Dex, Level
+>
+> DOUBLE KICK:
+>
+> DOUBLE WIELD:
+>
+> ESSENCE EYE:
+> (Affects).
+> With this skill a player can sense the time when
+> the spell he/she is casting will go off
+> Duration:               automatic
+> Skill type:             special
+>
+> FIND TRAPS:
+> You can find hidden traps with this skill.
+> Duration:               automatic
+> Skill type:             special
+>
+> FIRST AID:
+> This skill is used for caring wounds after a battle. It can only be
+> used once after each fight.
+> Duration:               instananeous
+> Skill type:             heal
+> Affecting stat(s):      Wis
+>
+> FLYING TACKLE:
+> This skill allows the user to jump and tackle his opponent, doing
+> some damage and keeping himself and his opponent from attacking quickly.
+> Duration:               3 round wait
+> Skill type:             attack
+> Affecting stat(s):      Str/Dex/Con, Level
+>
+> GLANCE:
+> This skill works like the command 'look at' but other people will not
+> notice you looking, if the skill is succesful. The target must be in
+> the same room as you are.
+> Duration:               Intantaneous
+> Skill type:             neutral
+>
+> HACK-N-SLASH:
+> This skill is used for devastating attack maneuvers with
+> axes. This skill is based upon knowledge of the art of
+> bladed fury. With this skill you can use your axes to
+> butcher your opponent so badly, his own mother will not
+> recognize him.
+> Duration:               Instantaneous
+> Skill type:             attack
+>
+> HAND OF EVIL POISON:
+> This skill is used to create weapon poison that will cause
+> additional damage on target. The poison will wear off after a few hits.
+> This skill is used in conjunction with the skill herb mixing.
+> Using this skill will show you the correct reagents.
+> This poison is a bit more powerful than thieves kiss poison.
+> The power of the poison is dependant on your skill and level.
+> Duration:               automatic
+> Skill type:             knowledge
+>
+> HEALING EFFICIENCY:
+> This skill is checked every time you cast a healing spell. It
+> helps make healing spells more efficient.
+> Duration:               automatic
+> Skill type:             special
+> Affecting stat(s):      con
+>
+> HEALING TRANCE:
+> This skill allows those with mastery over both mind and
+> body to enter healing trance which allows faster regening
+> both mental fatique and bodily harm.
+> Duration:               2
+> Skill type:             neutral
+>
+> HEAR NOISES:
+> This skill can be used to check if there are living
+> things in an adjacent room.
+> Usage duration:         instananeous
+> Skill type:             neutral
+>
+> HERBAL INVISIBILITY
+> This skill is used to create herbal mixture that will turn the user
+> invisible. The duration of invisibility is dependant on users level.
+> This skill is used in conjunction with the skill herb mixing.
+> Using this skill will show you the correct reagents.
+> Duration:               automatic
+> Skill type:             knowledge
+>
+> HERBEL SEE INVISIBLE:
+> This skill is used to create herbal mixture that will allow you to
+> see invisible targets.
+> This skill is used in conjunction with the skill herb mixing.
+> Using this skill will show you the correct reagents.
+> Duration:               automatic
+> Skill type:             knowledge
+> Affecting stat(s):      Wis
+>
+> HURL AXES:
+> With this skill the ranger can hurl his balanced axes towards his
+> or her enemy. Due to the magical nature of the axes enchanted with
+> the spell 'balance axe' they will return to the wielder after
+> they are thrown.
+> Knowledge in the skill 'Axe mastery' will increase the damage.
+> Knowledge in the skill 'Spot weakness' will increase the damage.
+> Rangers who are highly skilled in 'Bladed fury' sometimes gain an
+> aditional attack if the axes are hurled with great precision.
+> Duration:               Automatic
+> Skill type:             knowledge
+> Affecting stat(s):      Dex, Str
+>
+> IMITATION:
+> This skill is automatically checked when you are wearing a disguise and
+> say something. If it succeeds, all the people in the room think it was
+> the person you are disguised as who said the message.
+> Duration:               automatic
+> Skill type:             special
+>
+> JUMP
+> Skip over 1-5 spaces (weight, strength) can be used in combat.?
+> Duration:               Instantaneous
+> Skill Type:             Neutral
+> Affecting Stats:        STR/DEX/WEIGHT
+>
+> MASTERY OF HEALING TRANCE:
+> This skill allows you to regen damage faster when in
+> healing trance. It is automatically in use.
+> Duration:               automatic
+> Skill type:             neutral
+> Affecting stat(s):      WIS, LEVEL
+>
+> make it you can only choose one of the following masterys in
+medicine/shielding.
+>
+> MASTERY OF MEDICINE:
+> This skill is checked every time you cast a healing spell. It
+> helps increase the max healing done with healing spells.
+> Duration:               automatic
+> Skill type:             special
+> Affecting stat(s):      WIS, LEVEL
+>
+> MASTERY OF SHIELDING:
+> This skill will help increase the duration of
+> of invulnerability spells.
+> It is automatically in use.
+> Duration:               automatic
+> Skill type:             special
+> Affecting stat(s):      WIS, LEVEL
+>
+> MEDITATION:
+> Allows the player to heal at a faster rate.
+> BALANCE - make something similar for magic caster..
+> Duration:               5 Max
+> Skill Type:             Special
+> Affecting Stats:        CON
+>
+> MEMORIZE FEATURES:
+> Using this skill allows you to memorize the features of someone.
+> This will allow you to use disguise later on at the desired target,
+> without being in the same room. You can only remember the features
+> of one creature at a time and this for a limited time. The usage
+> duration of this skill is dependant of your intelligence.
+> Duration:               random
+> Skill type:             neutral
+>
+> MOUNTAINEER:
+> This skill aloows the player to move quickly through hilly terrain.
+> When mastered the player will become less fatigued while traveling through
+> hilly terrain. BALANCE - others use fly etc ...
+> Duration:               Automatic
+> Skill Type:             Neutral
+> Affecting Stats:        Dex
+>
+> PERCEVING EYE:
+> Locate ambused while traveling indoors, only available indoors, once mastered
+> it will be very difficult for opponents to ambush the player.
+> Duration:               Automatic
+> Skill Type:             Special
+> Affecting Stats:        Level
+>
+> POSSESSIONS:
+> This skill allows you to view the possessions of the target
+> without being noticed.
+> Duration:               instantaneous
+> Skill type:             neutral, LEVEL
+>
+> POWER KICK:
+> With this skill young monks can deliver fast and painful
+> attacks with their feets.
+> Duration:               random
+> Skill type:             attack.
+> Affecting stat(s):      Str/Dex.
+>
+> PURSE EVALUTAION:
+> This skill allows you to evaluate the amount of money carried
+> by someone without being noticed.
+> Duration:               instantaneous
+> Skill type:             neutral
+>
+> SENSE CURSE:
+> Allows the player to determine if a weapon or armor is cursed before they
+> wield/use the item. When mastered the player has a 75% chance of determining
+> if the item is cursed. If the curse is a high-level this skill will fail.
+> BALANCE - magic caster have a similar spell.
+> Duration:               Automatic
+> Skill Type:             Neutral
+> Affecting Stats:        ??
+>
+> SENSE STATS:
+> This skill shows you some info about target resistances.
+> Duration:               instantaneous
+> Skill type:             neutral
+>
+> SENSE WEAKNESS:
+> With this skill Sorcerers can sense
+> the weaknesses of their targets and
+> focus their death wish at it.
+> It is automatically in use.
+> Duration:               intsantaneous
+> Skill type:             neutral
+>
+> SKILLED MIND:
+> Increases the players magic resistance. This will protect the player from
+> mind-altering spells and some controlling type spells or skills.
+> Once mastered the player has a 75% defence against all types of mind-altering
+> spells/skills (but also level dependent).
+> BALANCE - others have mind altering spells
+> Duration:               Automatic
+> Skill Type:             Special
+> Affecting Stats:        ??
+>
+> SLEIGHT:
+> With this skill, you can pick up objects without being noticed.
+> The size of the item affects the possibility of success in this skill.
+> Duration:               random
+> Skill type:             neutral
+> Affecting stat(s):      Dex
+>
+> SLIP:
+> This skill is used to give items to the target unnoticed.
+> The item to be given must be in your inventory. You can also
+> drop items quietly by using this skill at an item only.
+> Duration:               random
+> Skill type:             neutral
+> Affecting stat(s):      Dex
+>
+> SUICIDE:
+> Sometimes for a thief it is better to die than to be caught.
+> Using this skill affects like a normal death.
+> Duration:               instantaneous
+> Skill type:             neutral
+>
+> TAXIDERMY:
+> This skill allows you to stuff a slain foe, making a cute, cuddly,
+> and potentially valuable trophy.
+> Duration:               instantaneous
+> Skill type:             neutral
+>
+> TORCH CREATION:
+> This skill can be used for creating a torch when you are outdoors.
+> If you are skilled enough with the skill wilderness survival, you
+> might find more than just one torch.
+> Duration:               30
+> Skill type:             neutral
+>
+> TUMBLE:
+> This skill allows user to sometimes dodge attack spells
+> and avoids damage altogether. It is automatically is use.
+> Duration:               automatic
+> Skill type:             neutral
+>
+> WANDMAKING:
+> This skill allows you to create a wand charged with one of your known
+> spells. To use this skill you need to have a wand of nothing in your
+> inventory and your target spell at a minimum of 60%.
+> Duration:               instantaneous
+> Skill type:             neutral
+> Affecting stat(s):      Wis/Dex
+>
+> WEAPONCRAFT:
+> As for armorcraft ...
+> Duration:               -
+> Skill Type:             Knowledge(pre-req) for repair.
+> Affecting Stats:        ??
+>
+> WILDERNESS SURVIVAL:
+> This skill increased the effectiveness of camping. (WHAT ELSE?)
+> Duration:               automatic
+> Skill type:             special
+>
+> ZAPPING:
+> This skill is required to successfully used wands.
+> Duration:               automatic
+> Skill type:             special
+
+
+Mapmaking: This skill allows the players to map the areas they have explored.
+Once mastered the player will be able to map a room upon site. This skill combined with other skills, like search, will reveal hidden objects on the map...possibly.
+
+Gambling: This skill allows the player to increase their luck percentage while
+gambling. Once mastered the players winning percentage will increase by 50 percent.
+
+Leadership: This skill allows the player to increase their personality. Once
+mastered, the player can attract numerous followers (NPC/PC). These followers will protect and serve the player. These type of followers are a good defense to your strongholds (castle warfare).
+
+Train: This skill allows the players to train their followers (PC Only). The
+player can only train the followers with skill they master themselves. Teaching of a skill may be in vain if the followers do not possess the stats to learn the skill.
+@
+
+
+1.2
+log
+@
+Added:
+- primalClasses, primalRaces (info about classes and races)
+
+Changed:
+- everything with respect to meeting held 13/7/2000
+@
+text
+@d532 13
+a544 15
+================================================================================
+                                Document Name
+================================================================================
+ 
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+ 
+                                PrimalMUD v3.0
+                    Revamped by Michael Dishon, Jason Theofiles
+                               and Sandii Barrat
+                                                                 
+================================================================================
+@
+
+
+1.1
+log
+@
+Changed:
+- Directory cleanup
+
+TODO:
+- Make README and filenaming standards
+@
+text
+@d1 16
+a16 1
+>
+d532 15
+@
+

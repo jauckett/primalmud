@@ -1,0 +1,66 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@1 look warrior
+bs backstab $1
+2 ass eledar
+fbt c 'fireball' transformer
+start wear all;wield sword;hold staff;put all backpack;get soaker backpack
+dinv c 'detect invisibility
+fc c 'fireball' caesar
+cl cast 'call lightning' $1
+fh c 'fireball' high
+ff c 'fireball' farlenian
+ed cast 'energy drain' $1
+cs cast 'colorspray' $1
+infra cast 'infravision' jadefire
+inv cast 'invisibility' jadefire
+` get all corpse
+li cast 'lightning bolt' $1
+armor cast 'armor' jadefire
+k kick $1
+sh cast 'shocking grasp' $1
+cc cast 'cure critic' jadefire
+fb cast 'fireball' $1
+charm c 'charm person' $1
+quake c 'earthquake'
+harm c 'harm' $1
+heal c 'heal' jadefire
+ft c 'fireball' treant
+fm c 'fireball' mars
+re rescue $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

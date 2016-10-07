@@ -1,0 +1,63 @@
+q get corpse
+jewel e;e;e;s;s;s;pick sand;open sand;swim;d;e;e;u;n;e;e;u;s;s;w;w;w;w;w;w;w;pick sto;open sto;u;s;s;s;w;d;w;w;w;s;w;s;u;e;s;pick dia;open dia;d
+start get all;hold jack;hold drill;wield blade;wear all
+b backstab $1
+hurt rem blade;get blade field;wield blade
+sp bri;autoe;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n;n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open oce;s;e;e;s;s;pick door;open door;s;open door s;s;s;s;s;u;s;e;e;s;bri;autoe;w
+odd bri;autoe;u;s;e;e;e;e;e;e;e;e;e;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;bri;autoe;n
+tud bri;autoe;u;e;e;e;e;e;e;e;e;e;s;s;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;autoe;bri;s
+spi bri;autoe;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;autoe;bri;e
+cav autoe;bri;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;autoe;bri;d
+po c 'remove poison'
+me stat tarn
+h get blade field;rem cann;wield blade
+re rem belt;rem red;rem red;rest
+lvl rem diamond;rem belt;rem red;rem red
+shield c 'fire wall'
+wa wake;stand;wear red;wear red;wear belt
+sl rem belt;rem red;rem red;sleep
+cha c 'charm person' $1
+au autoloot
+unc c 'remove curse' $1
+clo c 'clone';c 'clone'
+lo get gold all.corpse
+mov c 'teleport
+sto c 'stoneskin
+serp get eye field;c 'serpent skin
+z c 'divine heal
+x retreat
+san c 'sanctuary
+sanc get white field;quaff white
+haste c 'haste
+pro c 'dragon;c 'spirit armor;c 'holy aid;c 'bless;c 'armor;c 'divine
+see c 'infravision ;c 'detect invisibility ;c 'sense life
+sum c 'summon' $1
+wr cast 'wraith touch' $1
+g get all all.corpse
+cl c 'cloud
+rec c 'word
+mo2 n;e;e;e;e;e;n;e;e;e;e;s;e
+mo1 w;w;w;w;n;n;n;w;s;w;n;w;w;n
+cheer emote cheers wildly
+locate c 'locate object' $1
+dri n;n;n;w;w;s;s;w;w;w;w;w;s
+des w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+fi c 'finger' $1
+swim c 'waterbreathe
+serpent c 'serpent skin
+grs grat &f&C>------>&f&R $1 &f&C<------< 
+p buy 50 $1;put all.$1 field
+op unlock $1;pick $1;open $1
+ope unlock $1 $2;pick $1 $2;open $1 $2
+fig ord fol ass tarn
+holy w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w;s;s;s;s
+pr primal;ord fol ass tarn
+rec2 c 'word of recall';e;s;s;s;e;go box;c 'word of recall'
+rec1 c 'word of recall';e;e;e;e;e;go wagon;c 'word of recall'
+fix c 'remove curse' 1.laser;c 'remove curse' 2.laser;c 'remove curse' 3.laser;c 'remove curse' 4.laser;c 'remove curse' 5.laser;c 'remove curse' 6.laser;c 'remove curse' 7.laser;c 'remove curse' 8.laser;c 'remove curse' 9.laser;c 'remove curse' 10.las
+fixx c 'remove curse' $1.laser
+k kill $1;ord fol ass tarn
+isl bri;autoe;u;s;e;e;e;e;e;e;e;e;e;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;bri;autoe;n
+id c 'identify' $1
+end get all.white field;junk all.white
+1 stat obj $1.eye

@@ -1,0 +1,21 @@
+cf cast 'fireball'
+t track gwain
+2 put all.potion in backpack
+1 buy 16 #3
+h cast 'heal' pepsi
+kg kill guard
+q cast 'word of recall'
+g get all from corpse
+p quaff potion
+ad assist darkan
+ab assist bigo
+o get all.potion from backpack
+3 get bread from 2.backpack
+4 eat bread
+5 drink skin
+cs consider specialist
+ss steal suit specialist
+k kick
+6 get potion from 2.backpack
+lm look jupiter
+cj consider jupiter

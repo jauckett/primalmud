@@ -1,0 +1,82 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@od order foll ass her
+gcc get coins all.corpse
+gun rem silver; wi pulse
+dag rem pulse; wi silver
+sa cast 'sanc'; cast 'divine'; cast 'lightning shield'
+op open trap
+wake wake ; stand
+shore e;e;e;e;e;open gatee;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;nn;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e cast waterbreathe
+water cast 'waterbreathe' ; cast 'waterwalk'
+whirl cast 'whirlwind'$*
+haste cast 'haste'$*
+plasma cast 'plasma blast'$*
+div cast 'divine protection'$*
+he cast 'advanced heal'$*
+heal cast 'heal'$*
+find cast 'locate'$*
+pab put all back
+ghb get all.heal back
+dragon cast 'dragon'
+bless cast 'bless'$*
+sanc cast 'sanc'$*
+gac get all all.corpse
+infra cast 'infra
+see cast 'detect invis
+invis cast 'invis
+food cast 'create food'
+home cast 'word of recall'
+bring cast 'summon'$*
+armor cast 'armor'; cast 'spirit armor'
+holy cast 'holy aid'
+walk cast 'refresh'$*
+tudor w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+darask w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+para cast 'para'$*
+gate cast 'dimensional gate'$*
+clone cast 'clone'
+cloned cast 'infra'clone; cast 'detect invis' clone; cast 'sanc'clone
+life cast 'sense life'$*
+ass oder follow assist hermen
+remove cast 'remove curse'$*
+gated open gate ; go gate
+shield cast 'lightning shield'
+set cast 'sanc' ; cast 'bless' ; cast 'div' ; cast 'spirit' ;cast 'holy'; cast 'lightning shield';cast 'dragon'
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

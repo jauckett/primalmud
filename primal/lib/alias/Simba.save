@@ -1,0 +1,29 @@
+dead gecho $1 gossips, 'Hah! $2 is no match for me! I want a tougher challenge!'
+club goto 100
+home goto 282
+eatc g corpse;eat corpse;echo eew....gross!!
+imm send robohelp [ $1 advanced to level 60 ]
+qf questoff $1
+qo queston $1
+. wiznet #90$*
+nafk afk;gos I'm back :) Did I missed anything???;title is in schmick mood... [rOsE cLuB - hEaD hOnChO]
+afk afk;wiz afk;gos AFK;title the God of Mercy [rOsE cLuB - kInG];brb
+zz goto $1
+z emote stares and utters the words, 'gewbar'. ;echo A Chariot of FIRES arrives in a puff of smoke. ; emote aboards his Chariot...;wave;at $* emote surfs in from space on his cyber buggy.;goto $*
+pow c 'a' simba;c 'b' simba;c 's' simba;resto simba
+gra grats -----=)----`-,--{@ $1 @}--,--`----(=-----;loa o 9027;g ice;at $* gi ice $*;send $* Simba high-fives you.;tell $* Well done mate..*Woo-hoo*
+1 poofin roars in and flexes his biceps!! You're quite SHOCKED to see such a fine specimen.;poofout leaves in a Chariot of FIRES!! Your engulfed in the flames. OUCH!!!
+2 loa o 9516;loa o 9528;loa o 9528;loa o 10015;loa o 10015;loa o 9026;loa ob 1806;loa o 1804;loa o 9032;loa o 12017;loa o 1808;loa o 8816;loa o 1803;loa o 8306;loa o 8306;loa o 10001;loa o 9519;g all;wea all;ho pen;wi sword;ho enlibrite;resto simba
+3 loa o 121;loa o 5;loa o 26;loa o 1;loa o 60;loa o 70;loa o 90;loa o 100;loa o 110;loa o 80
+cl clear
+boxer emote reveals his LION KING BOXER SHORTS.;echo Your cheeks are burning.
+chuck emote chuckles softly under his breath.
+gasp emote gasps in astonishment as an extra paw appears from his whiskers.
+lion emote demonstrates his LION DANCE prowess.
+rod emote demonstrates how to use a rod.;echo It even hurts to watch :)
+rose emote gives you a red ------)----`-,--{@ How Sweet!!!:)
+shoe emote notices that his shoelaces are untied.
+tea emote searches for a nice cup of tea.
+walt emote sings a verse of Waltzing Matilda, his heart bursting with pride!
+lo quitreally
+par send $1 Simba bestows upon you his mighty lightning bolt.;pardon $1;gecho $1 has been pardoned by the GODS.

@@ -1,0 +1,178 @@
+#98 2
+fort hope~
+9999 60 2 32
+M 0 9800 1 9820		; colonel lukey
+E 1 9801 1 17			; paper weight
+M 0 9801 1 9825		; ironhawk
+E 1 9803 1 0			; dream catcher
+M 0 9802 1 9808		; colonels secretary
+E 1 9804 1 3                                    ; neck tie
+M 0 9803 1 9824               ;colonels daughter 
+E 1 9805 1 14                                  ;ruby bracelet
+M 0 9804 1 9851               ; colonels wife      
+E 1 9806 1 4                                    ; emerald cape
+M 0 9805 1 9937		; henry wagon driver
+E 1 9807 1 16                                  ; horse whip
+M 0 9806 1 9945               ; jane the laundry maid     
+E 1 9808 1 17                                    ; soap
+M 0 9807 1 9932		; chris the guitarist
+E 1 9800 1 17                                   ; guitar
+M 0 9808 1 9816               ; barry the gold digger
+E 1 9809 1 16                                   ; pick-axe
+M 0 9809 1 9920               ; brown stallion
+E 1 9810 1 17			; saddle bag
+M 0 9810 1 9855                ; apprentice cook
+E 1 9811 1 16                                  ; skinning knife
+M 0 9811 1 9964                ; indian brave
+E 1 9812 1 8                                    ; moccasins
+M 0 9812 10  9902             ; foot soldier 
+M 0 9812 10 9813              ; foot soldier  
+M 0 9812 10 9828              ; foot soldier
+M 0 9812 10 9834              ; foot soldier            
+M 0 9812 10 9842              ; foot soldier     
+M 0 9812 10 9853              ; foot soldier     
+M 0 9812 10 9860              ; foot soldier
+M 0 9812 10 9880              ; foot soldier
+M 0 9812 10 9887              ; foot soldier    
+M 0 9812 10 9904              ; foot soldier  
+M 0 9813 2 9863                ; cell guard
+E 1 9813 2 13                                   ; belt
+M 0 9813 2 9863                ; cell guard
+E 1 9813 2 13                                   ; belt
+M 0 9814 2 9976                 ; lookout guard
+E 1 9814 2 5                                     ; coat
+M 0 9814 2 9976                 ; lookout guard
+E 1 9814 2 5                                     ; coat
+M 0 9815 2 9943                 ; gate sentry
+E 1 9815 2 2                                      ; ring
+M 0 9814 2 9976                 ; gate sentry
+E 1 9815 2 2                                       ; ring
+M 0 9816 1 9998                 ; lookout sentry
+E 1 9816 1 5                                       ; shirt
+M 0 9817 4 9872                 ; sleeping soldier
+E  1  9817 4 7                                     ; pants
+ M 0 9817 4 9927                ; sleeping soldier
+E  1  9817 4 7                                     ; pants
+M 0 9817 4 9939                 ; sleeping soldier
+E  1  9817 4 7                                     ; pants
+M 0 9817 4 9823                 ; sleeping soldier
+E  1  9817 4 7                                     ; pants
+M 0 9818 2 9882                 ; corporal
+E 1 9818 2 6                                       ; hat
+M 0 9818 2 9986                 ; corporal
+E 1 9818 2 6                                       ; hat
+M 0 9819 1 9830                 ; dishwasher joe
+E 1 9819 1 17                                     ; dishwashing cloth
+M 0 9820 1 9929                 ; soldier fred (toilet)
+E 1 9820 1 17                                     ; newspaper
+M 0 9821 1 9935                 ; cavalry soldier
+E 1 9821 1 8                                       ; riding boots
+M 0 9822 1 9865                 ; head cook frank
+E 1 9822 1 16                                      ; knife sharpener
+M 0 9823 1 9829                 ; scullery maid
+E 1 9823 1 13	                                 ; apron
+M 0 9824 3 9861                 ; sergeant major
+E 1 9824 3 9 			     ; gloves
+M 0 9824 3 9952		   ; sergeant major
+E 1 9824 3 9                                        ; gloves
+M 0 9824 3 9844                  ; sergeant major
+E 1 9824 3 9                                        ; gloves
+M 0 9825 1 9938                   ; patty wagon drivers wife
+E 1 9825 1 7                                        ; bloomers
+M 0 9826 10 9906                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9949                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9971                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9982                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9990                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9916                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9900                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9818                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9846                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9826 10 9857                  ; private
+E 1 9826 10 3                                       ; scarf
+M 0 9827 1 9937                     ; loiuse w.d. daughter
+E 1 9827 1 15                                       ; beaded bracelet
+M 0 9828 1 9895                     ; eddie boy in the hay
+E 1 9828 1 17                                       ; lollipop
+M 0 9829 1 9947                      ; bathing soldier
+E 1 9829 1 13                                       ; towel
+M 0 9830 4 9923                      ; snoozing guard
+E 1 9830 4 11                                       ; plank of wood
+M 0 9830 4 9870                      ; snoozing guard
+E 1 9830 4 11                                       ; plank of wood
+M 0 9830 4 9941                     ; snoozing guard
+E 1 9830 4 11                                       ; plank of wood
+M 0 9830 4 9797                     ; snoozing guard
+E 1 9830 4 11                                       ; plank of wood
+M 0 9831 1 9876                      ; lobo the drunk 
+E 1 9831 1 17                                        ; bottle
+M 0 9832 1 9895                       ; betty in the hay
+E 1 9832  1 17                                        ; purse   
+M 0 9833 1 9831                       ; fred the storeman
+E 1 9833 1 0                                            ; glowing ember
+M 0 9834 1 9864                        ; sleeping guard
+E 1 9834 1 17                                           ; keys to cell (treasure)
+M 0 9835 1 9921                        ; stable boy
+E 1 9835 1 16                                           ; broom
+M 0 9836 1 9938                        ; matthew w.d son
+E 1 9836 1 7                                             ; ripped pants
+M 0 9837 1 9914                        ; dirty donkey
+E 1 9837 1 17                                            ; clump of dirt
+M 0 9838 1 9975                        ; noisy guard
+E 1 9838 1 10                                            ; buttoned sleeves
+M 0 9839 1 9841                        ; cowboy jed
+E 1 9839 1 16                                            ; lasso
+M 0 9840 1 9997                        ; sentry
+E 1 9840 1 17                                            ; sandwich
+M 0 9841 1 9892                        ; bugle player
+E 1 9841 1 17                                            ; bugle
+M 0 9842 1 9885                         ; captain bruce
+E 1 9842 1 17                                            ; flag
+M 0 9843 1 9912                         ; bandit the stallion
+E 1 9843 1 12
+D 0 9814 1 1                            ; celldoor1
+D 0 9815 1 1                            ; celldoor1 
+D 0 9815 3 1                            ; celldoor2
+D 0 9816 3 1                            ; celldoor2
+D 0 9825 1 1                            ; celldoor3
+D 0 9826 1 1                            ; celldoor3
+D 0 9826 3 1                            ; celldoor4
+D 0 9827 3 1                            ; celldoor4 
+D 0 9832 1 1 				; storeroom out                
+D 0 9833 3 1                            ; storeroom in 
+D 0 9839 1 1                            ; celldoor5
+D 0 9840 1 1                            ; celldoor5
+D 0 9840 3 1                            ; celldoor6
+D 0 9841 3 1                            ; celldoor6
+D 0 9852 1 1                            ; celldoor7
+D 0 9853 1 1                            ; celldoor7
+D 0 9853 3 1                            ; celldoor8
+D 0 9854 3 1                            ; celldoor8
+D 0 9876 1 1                            ; celldoor9
+D 0 9877 1 1                            ; celldoor9
+D 0 9877 3 1                            ; celldoor10
+D 0 9878 3 1                            ; celldoor10
+D 0 9894 1 1                            ; stable door
+D 0 9895 3 1                            ; stable door
+D 0 9911 1 1                            ; stable door2
+D 0 9912 3 1                            ; stable door2
+D 0 9913 1 1                            ; stable door3
+D 0 9914 3 1                            ; stable door3
+D 0 9919 1 1                            ; stable door4
+D 0 9920 3 1                            ; stable door4
+D 0 9921 1 1                            ; stable door5
+D 0 9922 3 1                            ; stable door5
+D 0 9935 1 1                            ; stable door6
+D 0 9936 3 1                            ; stable door6 
+S
+#99999
+$~

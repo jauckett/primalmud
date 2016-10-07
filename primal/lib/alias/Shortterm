@@ -1,0 +1,41 @@
+wq wield quenched
+9 cast 'cure critic' self
+cis cast 'invis' self
+bb con mercury
+bw back worm
+bc back crab
+rr recite recall
+xx back wicked
+0 cast 'advanced heal' self
+corspe corpse
+yy cast 'finger' captain
+00 cast 'sanctuary' self
+fff cast 'finger' guard
+t4 track 4.crab
+t3 track 3.crab
+t2 track 2.crab
+wd wield dagger
+wc wear claws
+jj back fish
+cc back worm
+uu use wand $*
+tb tell bigo $*
+66 cast 'word' self
+civ cast 'invisibility' self
+examnie examine 
+da wield dagger
+qb quaff egg
+zz quaff red;quaff red;quaff red;quaff red
+gw get white 2.backpack
+vv quaff white
+ws wake;stand
+gcc get coins corpse;save
+gc get all corpse;save
+tt track caveman
+dd steal key captain
+qq remove dagger
+aa wield mace
+unwield remove $*
+ff use staff picklehead
+pp punch helmsman
+kk kill caveman

@@ -1,0 +1,7 @@
+mm cast 'magic missile'
+gr get red back ; quaff red
+gal get all corpse
+tj tell jeatalong
+qr get red bag
+ga 
+k back $1 

@@ -1,0 +1,7 @@
+di cast 'detect invisibility' $1
+infra cast 'infravision' $1
+invis cast 'invisibility' $1
+sg cast 'shocking grasp' $1
+lo cast 'locate object' $1 $2
+armor cast 'armor' $1
+cl cast 'cure light' $1

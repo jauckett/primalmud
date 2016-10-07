@@ -1,0 +1,5 @@
+gac get all.all.corpse
+qy cast 'detect invisibility'
+inf cast 'infravision' 
+o cast 'cure critical' dying
+cc cast 'cure critical' 

@@ -1,0 +1,2265 @@
+head	1.4;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2004.05.23.07.21.51;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.02.09.23.59.55;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.32;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Checking everything in again.
+@
+text
+@#22000
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry about
+their daily business. To the east is Shuttle Pad 6 and this street continues to
+the west.
+~
+220 d 1 0
+D1
+You see Shuttle Pad 6
+~
+east~
+0 0 22035
+D2
+~
+~
+0 0 22055
+D3
+You see Nova Street.
+~
+west~
+0 0 22001
+S
+#22001
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry 
+about their daily business. To the north is Droids R Us, Nova Street 
+continues to the east and west.
+~
+220 d 1 0
+D0
+You see Droids R Us.
+~
+north~
+0 0 22037
+D1
+You see Nova Street.
+~
+east~
+0 0 22000
+D3
+You see Nova Street.
+~
+west~
+0 0 22002
+S
+#22002
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry about
+their daily business. To the south is the bank, Nova Street continues to the
+east and west.
+~
+220 d 1 0
+D1
+You see Nova Street.
+~
+east~
+0 0 22001
+D2
+You see the Lunar City Bank.
+~
+south~
+0 0 22038
+D3
+You see Nova Street.
+~
+west~
+0 0 22003
+S
+#22003
+Intersection of Main and Nova~
+You are standing at the intersection of Nova Street and Main in 
+Luna City IV on the surface of Earth's moon. All around you strange 
+beings and droids hurry about their daily business. To the north is 
+Main Street, Shuttle Pad 1 is south and Nova Street continues east 
+and west.
+~
+220 d 1 0
+D0
+You see Main Street.
+~
+north~
+0 0 22026
+D1
+You see Nova Street.
+~
+east~
+0 0 22002
+D2
+You see Shuttle Pad 1.
+~
+south~
+0 0 22031
+D3
+You see Nova Street.
+~
+west~
+0 0 22004
+S
+#22004
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry 
+about their daily business. Nova street continues east and west.
+~
+220 d 1 0
+D1
+You see the intersection.
+~
+east~
+0 0 22003
+D3
+You see Nova Street.
+~
+west~
+0 0 22005
+S
+#22005
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry about
+their daily business. To the south is the guild of the Intergalactic Monks.
+Nova street continues east and west.
+~
+220 d 1 0
+D1
+You see Nova Street.
+~
+east~
+0 0 22004
+D2
+You see the guild.
+~
+south~
+0 0 22039
+D3
+You see Nova Street.
+~
+west~
+0 0 22006
+S
+#22006
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry about
+their daily business. Nova street continues east and west.
+~
+220 d 1 0
+D1
+You see Nova Street.
+~
+east~
+0 0 22005
+D3
+You see Nova Street.
+~
+west~
+0 0 22007
+S
+#22007
+Intersection of Nova and Comet~
+You are standing at the cormer of Nova Street and Comet Way  in Luna City IV
+on the surface of Earth's moon. All around you strange beings and droids hurry
+about their daily business. Nova street is east and Comet Way is to the north.
+~
+220 d 1 0
+D0
+You see Comet Way.
+~
+north~
+0 0 22008
+D1
+You see Nova Street.
+~
+east~
+0 0 22006
+D2
+~
+~
+0 0 22054
+S
+#22008
+Comet Way~
+You are walking along Comet Way on the westerm side of Lunar City IV.
+Looking up through the glass dome, that protects the cities inhabitants from
+the vacuum of space, you can see an assortment of space craft ranging from
+large frieghters to small passenger shuttles. This street continues north and
+south.
+~
+220 d 1 0
+D0
+You see Comet Way.
+~
+north~
+0 0 22009
+D2
+You see Comet Way.
+~
+south~
+0 0 22007
+S
+#22009
+Comet Way~
+You are walking along Comet Way on the westerm side of Lunar City IV.
+Looking up through the glass dome, that protects the cities inhabitants from
+the vacuum of space, you can see an assortment of space craft ranging from
+large frieghters to small passenger shuttles. This street continues north and
+south. To the west is Shuttle Pad 5.
+~
+220 d 1 0
+D0
+You see Comet Way.
+~
+north~
+0 0 22010
+D2
+You see Comet Way.
+~
+south~
+0 0 22008
+D3
+You see Shuttle Pad 5.
+~
+west~
+0 0 22036
+S
+#22010
+Comet Way~
+You are walking along Comet Way on the westerm side of Lunar City IV.
+Looking up through the glass dome, that protects the cities inhabitants from
+the vacuum of space, you can see an assortment of space craft ranging from
+large frieghters to small passenger shuttles. This street continues north and
+south.
+~
+220 d 1 0
+D0
+You see Comet Way.
+~
+north~
+0 0 22011
+D2
+You see Comet Way.
+~
+south~
+0 0 22009
+S
+#22011
+Intersection of Comet and Orion~
+You are standing at the intersection of Comet Way and Orion Road. A hover car
+floats past you at a very high speed, almost taking you with it as it turns the
+corner into Orion Road. Comet Way is to the south and Orion Road goes east.
+~
+220 d 1 0
+D1
+You see Orion Road.
+~
+east~
+0 0 22012
+D2
+You see Comet Way.
+~
+south~
+0 0 22010
+S
+#22012
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the east and west. To the north is Crazy Joe's 
+Used Cybernetic Body Part Emporium.
+~
+220 d 1 0
+D0
+You see the shop.
+~
+north~
+0 0 22040
+D1
+You see Orion Road.
+~
+east~
+0 0 22013
+D3
+You see Orion Road.
+~
+west~
+0 0 22011
+S
+#22013
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the east and west.
+~
+220 d 1 0
+D1
+You see Orion Road.
+~
+east~
+0 0 22014
+D3
+You see Orion Road.
+~
+west~
+0 0 22012
+S
+#22014
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the east and west. There is a small alley way,
+between two tall buildings, to the south.
+~
+220 d 1 0
+D1
+You see Orion Road.
+~
+east~
+0 0 22015
+D2
+You see a dark alley.
+~
+south~
+0 0 22041
+D3
+You see Orion Road.
+~
+west~
+0 0 22013
+S
+#22015
+Intersection of Orion and Main~
+You are standing at the intersection of Main street and Orion road.
+All around Humans and other beings are busy going about their business.
+Through the transparent protective dome of the city you can see the Earth,
+surrounded by the blackness of space. The road you are on continues to
+the east and west. Main Street goes north and south.
+~
+220 d 1 0
+D0
+You see Main Street.
+~
+north~
+0 0 22029
+D1
+You see Orion Road.
+~
+east~
+0 0 22016
+D2
+You see Main Street.
+~
+south~
+0 0 22028
+D3
+You see Orion Road.
+~
+west~
+0 0 22014
+S
+#22016
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the east and west. To the north is a small food
+outlet called the Chatsubo.
+~
+220 d 1 0
+D0
+You see the Chatsubo.
+~
+north~
+0 0 22042
+D1
+You see Orion Road.
+~
+east~
+0 0 22017
+D3
+You see Orion Road.
+~
+west~
+0 0 22015
+S
+#22017
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the west. To the south is the Space Corp.
+Surplus Store. To the east is Shuttle Pad 4.
+~
+220 d 1 0
+D1
+You see Shuttle Pad 4.
+~
+east~
+0 0 22034
+D2
+You see the store.
+~
+south~
+0 0 22043
+D3
+You see Orion Road.
+~
+west~
+0 0 22016
+S
+#22018
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east. To the west is
+Shuttle Pad 3, and to the south is a VR Arcade.
+~
+220 d 1 0
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22019
+D3
+You see Shuttle Pad 3.
+~
+west~
+0 0 22033
+S
+#22019
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west. To the 
+north is the Zero Gravity Training Guild.
+~
+220 d 1 0
+D0
+You see the guild.
+~
+north~
+0 0 22045
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22020
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22018
+S
+#22020
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west.
+~
+220 d 1 0
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22021
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22019
+S
+#22021
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west.
+~
+220 d 1 0
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22022
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22020
+S
+#22022
+Intersection of Galaxy and Main~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west. Main
+Street is to the south and to the north is Shuttle Pad 2.
+~
+220 d 1 0
+D0
+You see Shuttle Pad 2.
+~
+north~
+0 0 22032
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22023
+D2
+You see Main Street.
+~
+south~
+0 0 22030
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22021
+S
+#22023
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west. There is
+a small Bar to the south.
+~
+220 d 1 0
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22024
+D2
+You see a small Bar.
+~
+south~
+0 0 22046
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22022
+S
+#22024
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west.
+~
+220 d 1 0
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22025
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22023
+S
+#22025
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes west. To the south is
+an airlock leading outside the dome.
+~
+220 d 1 0
+D2
+You see the airlock.
+~
+south~
+0 0 22048
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22024
+S
+#22026
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north, south and west.
+~
+220 d 1 0
+D0
+You see Main Street.
+~
+north~
+0 0 22027
+D2
+You see an intersection.
+~
+south~
+0 0 22003
+D3
+~
+~
+0 0 22053
+S
+#22027
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north and south.
+To the west is a large weapons outlet. To the east is a store where armor 
+can be purchased.
+~
+220 d 1 0
+D0
+You see Main Street.
+~
+north~
+0 0 22028
+D1
+You see the armourers shop.
+~
+east~
+0 0 22050
+D2
+You see Main Street.
+~
+south~
+0 0 22026
+D3
+You see the weapons shop.
+~
+west~
+0 0 22049
+S
+#22028
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north and south.
+~
+220 d 1 0
+D0
+You see Main Street.
+~
+north~
+0 0 22015
+D1
+The VR arcade
+~
+~
+0 0 22044
+D2
+You see Main Street.
+~
+south~
+0 0 22027
+D3
+~
+~
+0 -1 20000
+S
+#22029
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north and south.
+~
+220 d 1 0
+D0
+You see Main Street.
+~
+north~
+0 0 22030
+D2
+You see Main Street.
+~
+south~
+0 0 22015
+S
+#22030
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north and south.
+To the west is a cryogenic hotel.
+~
+220 d 1 0
+D0
+You see an intersection.
+~
+north~
+0 0 22022
+D2
+You see Main Street.
+~
+south~
+0 0 22029
+D3
+You see the hotel.
+~
+west~
+0 0 22047
+S
+#22031
+Shuttle Pad 1~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the north is Main Street and Nova Road.
+~
+220 d 1 0
+D0
+You see an intersection.
+north
+~
+~
+0 0 22003
+S
+#22032
+Shuttle Pad 2~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the south is the intersection of Galaxy Drive and Main Street.
+~
+220 d 1 0
+D2
+You see the intersection.
+~
+south~
+0 0 22022
+S
+#22033
+Shuttle Pad 3~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the east is Galaxy Drive.
+~
+220 d 1 0
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22018
+S
+#22034
+Shuttle Pad 4~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the west is Orion Road.
+~
+220 d 1 0
+D3
+You see Orion Road.
+~
+west~
+0 0 22017
+S
+#22035
+Shuttle Pad 6~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the west is Nova Street.
+~
+220 d 1 0
+D3
+You see Nova Street.
+~
+west~
+0 0 22000
+D4
+~
+backdoor~
+2 4552 30056
+S
+#22036
+Shuttle Pad 5~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the east is Comet Way.
+~
+220 d 1 0
+D1
+You see Comet Way.
+~
+east~
+0 0 22009
+D4
+~
+backdoor~
+2 4552 25044
+S
+#22037
+Droids R Us Guild~
+You are inside the Droids R Us Guild where you can be taut an assortment
+of skills that will help you in your adventures. There are also facilities 
+available to teach you how to use your skills in a zero gravity enviroment, 
+just incase you are ever caught in space without a spaceship. To the south
+is Galaxy Drive. To the south is Nova Street.
+~
+220 dh 1 0
+D2
+You see Nova Street.
+~
+south~
+0 0 22001
+S
+#22038
+Lunar City Bank~
+This is the bank of Lunar City IV. Facilities are available here to help with 
+all you banking needs. To the north is Nova Street.
+~
+220 d 1 0
+D0
+You see Nova Street.
+~
+north~
+0 0 22002
+S
+#22039
+Guild of the Intergalactic Monks.~
+You are standing inside the training centre of the Intergalactic Monks. Here
+you can practice your skills and learn new ones from the wise monks of the
+stars. All around you are different pieces of training equipment, some of which
+looks quite dangerous. Nova Street is to the north.
+~
+220 d 1 0
+D0
+You see Nova Street.
+~
+north~
+0 0 22005
+S
+#22040
+Crazy Joe's Used Cybernetic Body Part Emporium~
+You are standing inside a very dark room. All around you, hanging on racks
+and hooks, are new and used cybernetic replacements for almost all the body
+parts you can think of. There is an operating table in the corner which is 
+probably where Crazy Joe helps install you purchase, or helps remove your
+old body part. To the south is Orion Road.
+~
+220 dh 1 0
+D2
+You see Orion Road.
+~
+south~
+0 0 22012
+S
+#22041
+Dark Alley~
+You are standing in a dark alleyway between two large buildings. There is a
+table here covered with derms of all the colors of the rainbow. This must be
+where you come to buy performance enhancing and healing drugs that
+haven't been approved by the Federation. To the north is Orion Road.
+~
+220 dh 1 0
+D0
+You see Orion Road.
+~
+north~
+0 0 22014
+S
+#22042
+Chatsubo Tavern~
+You are standing inside a small tavern where it is safe to rest.
+There is a warm, radiating heat coming from several metal bars
+on the left and the light is dimmed to a soft hue.
+There is also a nice postman here who will help you post any mail
+
+~
+220 cdehy 1 0
+D2
+You see Orion Road.
+~
+south~
+0 0 22016
+S
+#22043
+Space Corp. Surplus Store~
+You are standing inside the Space Corp. Surplus Store. This is where the
+Space Corp. sell off there surplus items. You can buy a large assortment
+of military issue items ranging from combat space suits to thermal 
+detonaters. Orion Road is to the north.
+~
+220 dh 1 0
+D0
+You see Orion Road.
+~
+north~
+0 0 22017
+S
+#22044
+VR Arcade~
+You are standing inside what used to be a Virtual Reality entertainment 
+centre but which has since been replaces by a transport centre.
+There is a strange metal box in the left hand corner that requires
+closer inspection.
+ To the west is the main street
+~
+220 d 1 0
+D3
+You see Galaxy Drive.
+~
+~
+0 0 22028
+S
+#22045
+Zero Gravity Guild~
+You are inside the Zero Gravity Guild where you can be taut an assortment
+of skills that will help you in your adventures. There are also facilities 
+available to teach you how to use your skills in a zero gravity enviroment, 
+just incase you are ever caught in space without a spaceship. To the south
+is Galaxy Drive.
+~
+220 dy 1 0
+D2
+You see Galaxy Drive.
+~
+south~
+0 0 22019
+S
+#22046
+Bar~
+You are standing inside a cheap dirty bar called the Holographic Hooker.
+In here you can view holographic movies of almost any being you can think of
+while relaxing with a nice cold drink. Actually it looks like a great
+place to take a break. To the north is Galaxy Drive.
+~
+220 dh 1 0
+D0
+You see Galaxy Drive.
+~
+north~
+0 0 22023
+S
+#22047
+Cryogenic Hotel~
+You are standing inside the Cryogenic Hotel. This is where you come if you 
+have the urge to be frozen solid and stored in a box the size of a small
+coffin. It gives you a chill just thinking about it but it is supposed to be a 
+good way to prolong you life. 
+To the east is Main Street.
+~
+220 dh 1 0
+D1
+You see Main Street.
+~
+east~
+0 0 22030
+S
+#22048
+Inner Airlock~
+You are standing just outside the airlock that leads to outside the dome.
+There is a LARGE WARNING SIGN here on the wall. The airlock itself is to the 
+east. To the north is Galaxy Drive.
+~
+220 cd 1 0
+D0
+You see Galaxy Drive.
+~
+north~
+0 0 22025
+D1
+You see the airlock.
+~
+east~
+0 0 22051
+E
+warning sign~
+WARNING:
+       Some beings cannot survive in space without breathing aparatus,
+       Make sure you are fully prepared before venturing outside the
+       dome.
+~
+S
+#22049
+The Big Bang Weapons Store~
+You are standing inside a large weapons shop. The walls are lined with weapons
+of all shapes and sizes from all around the known universe, ranging from small
+hand-held laser cannons to large anti-orbit phasors. There should be something
+here that will suit your needs. To the east is Main Street.
+~
+220 dh 1 0
+D1
+You see Main Street.
+~
+east~
+0 0 22027
+S
+#22050
+Big Al's Armoury~
+The walls of this rather small shop are covered with armor and clothing of
+all types. Big Al claims that he has sold armor to aliens all over the Alpha 
+Quadrant and hasn't had one complaint. You start to wonder if thats because
+the armor is good or if its so bad that his customers dont live to complain...
+To the west is Main Street.
+~
+220 dh 1 0
+D3
+You see Main Street.
+~
+west~
+0 0 22027
+S
+#22051
+Airlock~
+You are standing inside the airlock that allows people to venture out of the
+protective dome and onto the surface of the moon. The walls are covered with 
+warning signs reminding you to be prepared. The room is totally sealed with
+force fields to keep the air in while still allowing you to pass through them 
+into the vacuum of space. The moon surface is east, and the dome is west.
+~
+220 cd 17 0
+D1
+You see the moons surface.
+~
+east~
+0 0 22052
+D3
+You see the inner airlock.
+~
+west~
+0 0 22048
+E
+warning sign~
+WARNING:
+       Some beings cannot survive in space without breathing aparatus,
+       Make sure you are fully prepared before venturing outside the
+       dome.
+~
+S
+#22052
+Moon Surface~
+You are standing in the vacuum of space on the surface of the moon.
+~
+220 d 17 0
+D1
+~
+~
+0 -1 23023
+D3
+You see the airlock.
+~
+west~
+0 0 22051
+S
+#22053
+Cryo Storage Room~
+This room is full of items of clothing and weapons
+that have been left here for anyone to pick up and
+take. Feel free to help yourself to anything you want
+~
+220 0 65556 0
+D1
+~
+~
+0 0 22026
+S
+#22054
+Dino Adventure's Inc.~
+You enter a a large open area with shiny polished floors. Large TV
+moniters line the walls displaying footage of all kinds of dinosaures.
+At the other end of the room is a reception desk with many customers
+waiting to be served. 
+~
+220 0 0 0
+D0
+~
+~
+0 0 22007
+D2
+~
+~
+0 0 11121
+S
+#22055
+Starfleet HQ~
+Here are the headquarters of the United Federation of Planets.  This is one of
+the most impressive buildings in lunar city IV, unfortunately for would-be
+adventurers though, most of it is off limits to civilians.  In fact, just about
+all you can do here is to use one of the transporters.    
+~
+220 0 0 0
+D0
+~
+~
+0 0 22000
+D4
+~
+backdoor~
+2 4552 7501
+S
+$~
+@
+
+
+1.3
+log
+@Artus> Sync.
+@
+text
+@d789 4
+d806 4
+d1106 4
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d783 1
+a783 1
+220 dv 1 0
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d1 1099
+a1099 1082
+#22000
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry about
+their daily business. To the east is Shuttle Pad 6 and this street continues to
+the west.
+~
+220 8 1
+D1
+You see Shuttle Pad 6
+~
+east~
+0 0 22035
+D3
+You see Nova Street.
+~
+west~
+0 0 22001
+S
+#22001
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry 
+about their daily business. To the north is Droids R Us, Nova Street 
+continues to the east and west.
+~
+220 8 1
+D0
+You see Droids R Us.
+~
+north~
+0 0 22037
+D1
+You see Nova Street.
+~
+east~
+0 0 22000
+D3
+You see Nova Street.
+~
+west~
+0 0 22002
+S
+#22002
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry about
+their daily business. To the south is the bank, Nova Street continues to the
+east and west.
+~
+220 8 1
+D1
+You see Nova Street.
+~
+east~
+0 0 22001
+D2
+You see the Lunar City Bank.
+~
+south~
+0 0 22038
+D3
+You see Nova Street.
+~
+west~
+0 0 22003
+S
+#22003
+Intersection of Main and Nova~
+You are standing at the intersection of Nova Street and Main in 
+Luna City IV on the surface of Earth's moon. All around you strange 
+beings and droids hurry about their daily business. To the north is 
+Main Street, Shuttle Pad 1 is south and Nova Street continues east 
+and west.
+~
+220 8 1
+D0
+You see Main Street.
+~
+north~
+0 0 22026
+D1
+You see Nova Street.
+~
+east~
+0 0 22002
+D2
+You see Shuttle Pad 1.
+~
+south~
+0 0 22031
+D3
+You see Nova Street.
+~
+west~
+0 0 22004
+S
+#22004
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry 
+about their daily business. Nova street continues east and west.
+~
+220 8 1
+D1
+You see the intersection.
+~
+east~
+0 0 22003
+D3
+You see Nova Street.
+~
+west~
+0 0 22005
+S
+#22005
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry about
+their daily business. To the south is the guild of the Intergalactic Monks.
+Nova street continues east and west.
+~
+220 8 1
+D1
+You see Nova Street.
+~
+east~
+0 0 22004
+D2
+You see the guild.
+~
+south~
+0 0 22039
+D3
+You see Nova Street.
+~
+west~
+0 0 22006
+S
+#22006
+Nova Street~
+You are walking down Nova Street on the south side of Luna City IV on the
+surface of Earth's moon. All around you strange beings and droids hurry about
+their daily business. Nova street continues east and west.
+~
+220 8 1
+D1
+You see Nova Street.
+~
+east~
+0 0 22005
+D3
+You see Nova Street.
+~
+west~
+0 0 22007
+S
+#22007
+Intersection of Nova and Comet~
+You are standing at the cormer of Nova Street and Comet Way  in Luna City IV
+on the surface of Earth's moon. All around you strange beings and droids hurry
+about their daily business. Nova street is east and Comet Way is to the north.
+~
+220 8 1
+D0
+You see Comet Way.
+~
+north~
+0 0 22008
+D1
+You see Nova Street.
+~
+east~
+0 0 22006
+D2
+~
+~
+0 0 22054
+S
+#22008
+Comet Way~
+You are walking along Comet Way on the westerm side of Lunar City IV.
+Looking up through the glass dome, that protects the cities inhabitants from
+the vacuum of space, you can see an assortment of space craft ranging from
+large frieghters to small passenger shuttles. This street continues north and
+south.
+~
+220 8 1
+D0
+You see Comet Way.
+~
+north~
+0 0 22009
+D2
+You see Comet Way.
+~
+south~
+0 0 22007
+S
+#22009
+Comet Way~
+You are walking along Comet Way on the westerm side of Lunar City IV.
+Looking up through the glass dome, that protects the cities inhabitants from
+the vacuum of space, you can see an assortment of space craft ranging from
+large frieghters to small passenger shuttles. This street continues north and
+south. To the west is Shuttle Pad 5.
+~
+220 8 1
+D0
+You see Comet Way.
+~
+north~
+0 0 22010
+D2
+You see Comet Way.
+~
+south~
+0 0 22008
+D3
+You see Shuttle Pad 5.
+~
+west~
+0 0 22036
+S
+#22010
+Comet Way~
+You are walking along Comet Way on the westerm side of Lunar City IV.
+Looking up through the glass dome, that protects the cities inhabitants from
+the vacuum of space, you can see an assortment of space craft ranging from
+large frieghters to small passenger shuttles. This street continues north and
+south.
+~
+220 8 1
+D0
+You see Comet Way.
+~
+north~
+0 0 22011
+D2
+You see Comet Way.
+~
+south~
+0 0 22009
+S
+#22011
+Intersection of Comet and Orion~
+You are standing at the intersection of Comet Way and Orion Road. A hover car
+floats past you at a very high speed, almost taking you with it as it turns the
+corner into Orion Road. Comet Way is to the south and Orion Road goes east.
+~
+220 8 1
+D1
+You see Orion Road.
+~
+east~
+0 0 22012
+D2
+You see Comet Way.
+~
+south~
+0 0 22010
+S
+#22012
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the east and west. To the north is Crazy Joe's 
+Used Cybernetic Body Part Emporium.
+~
+220 8 1
+D0
+You see the shop.
+~
+north~
+0 0 22040
+D1
+You see Orion Road.
+~
+east~
+0 0 22013
+D3
+You see Orion Road.
+~
+west~
+0 0 22011
+S
+#22013
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the east and west.
+~
+220 8 1
+D1
+You see Orion Road.
+~
+east~
+0 0 22014
+D3
+You see Orion Road.
+~
+west~
+0 0 22012
+S
+#22014
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the east and west. There is a small alley way,
+between two tall buildings, to the south.
+~
+220 8 1
+D1
+You see Orion Road.
+~
+east~
+0 0 22015
+D2
+You see a dark alley.
+~
+south~
+0 0 22041
+D3
+You see Orion Road.
+~
+west~
+0 0 22013
+S
+#22015
+Intersection of Orion and Main~
+You are standing at the intersection of Main street and Orion road.
+All around Humans and other beings are busy going about their business.
+Through the transparent protective dome of the city you can see the Earth,
+surrounded by the blackness of space. The road you are on continues to
+the east and west. Main Street goes north and south.
+~
+220 8 1
+D0
+You see Main Street.
+~
+north~
+0 0 22029
+D1
+You see Orion Road.
+~
+east~
+0 0 22016
+D2
+You see Main Street.
+~
+south~
+0 0 22028
+D3
+You see Orion Road.
+~
+west~
+0 0 22014
+S
+#22016
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the east and west. To the north is a small food
+outlet called the Chatsubo.
+~
+220 8 1
+D0
+You see the Chatsubo.
+~
+north~
+0 0 22042
+D1
+You see Orion Road.
+~
+east~
+0 0 22017
+D3
+You see Orion Road.
+~
+west~
+0 0 22015
+S
+#22017
+Orion Road~
+You are walking along Orion Road. All around Humans and other beings are
+busy going about their business. Through the transparent protective dome of
+the city you can see the Earth, surrounded by the blackness of space. The 
+road you are on continues to the west. To the south is the Space Corp.
+Surplus Store. To the east is Shuttle Pad 4.
+~
+220 8 1
+D1
+You see Shuttle Pad 4.
+~
+east~
+0 0 22034
+D2
+You see the store.
+~
+south~
+0 0 22043
+D3
+You see Orion Road.
+~
+west~
+0 0 22016
+S
+#22018
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east. To the west is
+Shuttle Pad 3, and to the south is a VR Arcade.
+~
+220 8 1
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22019
+D3
+You see Shuttle Pad 3.
+~
+west~
+0 0 22033
+S
+#22019
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west. To the 
+north is the Zero Gravity Training Guild.
+~
+220 8 1
+D0
+You see the guild.
+~
+north~
+0 0 22045
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22020
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22018
+S
+#22020
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west.
+~
+220 8 1
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22021
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22019
+S
+#22021
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west.
+~
+220 8 1
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22022
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22020
+S
+#22022
+Intersection of Galaxy and Main~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west. Main
+Street is to the south and to the north is Shuttle Pad 2.
+~
+220 8 1
+D0
+You see Shuttle Pad 2.
+~
+north~
+0 0 22032
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22023
+D2
+You see Main Street.
+~
+south~
+0 0 22030
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22021
+S
+#22023
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west. There is
+a small Bar to the south.
+~
+220 8 1
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22024
+D2
+You see a small Bar.
+~
+south~
+0 0 22046
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22022
+S
+#22024
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes east and west.
+~
+220 8 1
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22025
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22023
+S
+#22025
+Galaxy Drive~
+You are walking along Galaxy Drive at the north end of Lunar City IV. Outside
+the clear dome that encases the city you can see the vastness of space and
+can't help being excited about all the adventures you will have on all sorts of
+strange planets in the known galaxy. This road goes west. To the south is
+an airlock leading outside the dome.
+~
+220 8 1
+D2
+You see the airlock.
+~
+south~
+0 0 22048
+D3
+You see Galaxy Drive.
+~
+west~
+0 0 22024
+S
+#22026
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north, south and west.
+~
+220 8 1
+D0
+You see Main Street.
+~
+north~
+0 0 22027
+D2
+You see an intersection.
+~
+south~
+0 0 22003
+D3
+~
+~
+0 0 22053
+S
+#22027
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north and south.
+To the west is a large weapons outlet. To the east is a store where armor 
+can be purchased.
+~
+220 8 1
+D0
+You see Main Street.
+~
+north~
+0 0 22028
+D1
+You see the armourers shop.
+~
+east~
+0 0 22050
+D2
+You see Main Street.
+~
+south~
+0 0 22026
+D3
+You see the weapons shop.
+~
+west~
+0 0 22049
+S
+#22028
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north and south.
+~
+220 8 1
+D0
+You see Main Street.
+~
+north~
+0 0 22015
+D1
+The VR arcade
+~
+~
+0 0 22044
+D2
+You see Main Street.
+~
+south~
+0 0 22027
+D3
+~
+~
+0 -1 20000
+S
+#22029
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north and south.
+~
+220 8 1
+D0
+You see Main Street.
+~
+north~
+0 0 22030
+D2
+You see Main Street.
+~
+south~
+0 0 22015
+S
+#22030
+Main Street~
+You are walking along the Main Street of Lunar City IV. In all directions you
+can see aliens from all over the known galaxy who have come to the famed
+Lunar City IV in search of adventure and fortune. The sterile smell of the
+recycled air that fills the dome stings your nostrils and you long to breathe
+the fresh air of your homeworld again. The street goes north and south.
+To the west is a cryogenic hotel.
+~
+220 8 1
+D0
+You see an intersection.
+~
+north~
+0 0 22022
+D2
+You see Main Street.
+~
+south~
+0 0 22029
+D3
+You see the hotel.
+~
+west~
+0 0 22047
+S
+#22031
+Shuttle Pad 1~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the north is Main Street and Nova Road.
+~
+220 8 1
+D0
+You see an intersection.
+north
+~
+~
+0 0 22003
+S
+#22032
+Shuttle Pad 2~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the south is the intersection of Galaxy Drive and Main Street.
+~
+220 8 1
+D2
+You see the intersection.
+~
+south~
+0 0 22022
+S
+#22033
+Shuttle Pad 3~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the east is Galaxy Drive.
+~
+220 8 1
+D1
+You see Galaxy Drive.
+~
+east~
+0 0 22018
+S
+#22034
+Shuttle Pad 4~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the west is Orion Road.
+~
+220 8 1
+D3
+You see Orion Road.
+~
+west~
+0 0 22017
+S
+#22035
+Shuttle Pad 6~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the west is Nova Street.
+~
+220 2097160 1
+D3
+You see Nova Street.
+~
+west~
+0 0 22000
+S
+#22036
+Shuttle Pad 5~
+This is one of the shuttle pads in Lunar City IV where you can catch a 
+passenger shuttle to take you to almost anywhere in the known universe.
+To the east is Comet Way.
+~
+220 8 1
+D1
+You see Comet Way.
+~
+east~
+0 0 22009
+S
+#22037
+Droids R Us Guild~
+You are inside the Droids R Us Guild where you can be taut an assortment
+of skills that will help you in your adventures. There are also facilities 
+available to teach you how to use your skills in a zero gravity enviroment, 
+just incase you are ever caught in space without a spaceship. To the south
+is Galaxy Drive. To the south is Nova Street.
+~
+220 136 1
+D2
+You see Nova Street.
+~
+south~
+0 0 22001
+S
+#22038
+Lunar City Bank~
+This is the bank of Lunar City IV. Facilities are available here to help with 
+all you banking needs. To the north is Nova Street.
+~
+220 8 1
+D0
+You see Nova Street.
+~
+north~
+0 0 22002
+S
+#22039
+Guild of the Intergalactic Monks.~
+You are standing inside the training centre of the Intergalactic Monks. Here
+you can practice your skills and learn new ones from the wise monks of the
+stars. All around you are different pieces of training equipment, some of which
+looks quite dangerous. Nova Street is to the north.
+~
+220 8 1
+D0
+You see Nova Street.
+~
+north~
+0 0 22005
+S
+#22040
+Crazy Joe's Used Cybernetic Body Part Emporium~
+You are standing inside a very dark room. All around you, hanging on racks
+and hooks, are new and used cybernetic replacements for almost all the body
+parts you can think of. There is an operating table in the corner which is 
+probably where Crazy Joe helps install you purchase, or helps remove your
+old body part. To the south is Orion Road.
+~
+220 136 1
+D2
+You see Orion Road.
+~
+south~
+0 0 22012
+S
+#22041
+Dark Alley~
+You are standing in a dark alleyway between two large buildings. There is a
+table here covered with derms of all the colors of the rainbow. This must be
+where you come to buy performance enhancing and healing drugs that
+haven't been approved by the Federation. To the north is Orion Road.
+~
+220 136 1
+D0
+You see Orion Road.
+~
+north~
+0 0 22014
+S
+#22042
+Chatsubo Tavern~
+You are standing inside a small tavern where it is safe to rest.
+There is a warm, radiating heat coming from several metal bars
+on the left and the light is dimmed to a soft hue.
+There is also a nice postman here who will help you post any mail
+
+~
+220 16777372 1
+D2
+You see Orion Road.
+~
+south~
+0 0 22016
+S
+#22043
+Space Corp. Surplus Store~
+You are standing inside the Space Corp. Surplus Store. This is where the
+Space Corp. sell off there surplus items. You can buy a large assortment
+of military issue items ranging from combat space suits to thermal 
+detonaters. Orion Road is to the north.
+~
+220 136 1
+D0
+You see Orion Road.
+~
+north~
+0 0 22017
+S
+#22044
+VR Arcade~
+You are standing inside what used to be a Virtual Reality entertainment 
+centre but which has since been replaces by a transport centre.
+There is a strange metal box in the left hand corner that requires
+closer inspection.
+ To the west is the main street
+~
+220 8 1
+D3
+You see Galaxy Drive.
+~
+~
+0 0 22028
+S
+#22045
+Zero Gravity Guild~
+You are inside the Zero Gravity Guild where you can be taut an assortment
+of skills that will help you in your adventures. There are also facilities 
+available to teach you how to use your skills in a zero gravity enviroment, 
+just incase you are ever caught in space without a spaceship. To the south
+is Galaxy Drive.
+~
+220 16777224 1
+D2
+You see Galaxy Drive.
+~
+south~
+0 0 22019
+S
+#22046
+Bar~
+You are standing inside a cheap dirty bar called the Holographic Hooker.
+In here you can view holographic movies of almost any being you can think of
+while relaxing with a nice cold drink. Actually it looks like a great
+place to take a break. To the north is Galaxy Drive.
+~
+220 136 1
+D0
+You see Galaxy Drive.
+~
+north~
+0 0 22023
+S
+#22047
+Cryogenic Hotel~
+You are standing inside the Cryogenic Hotel. This is where you come if you 
+have the urge to be frozen solid and stored in a box the size of a small
+coffin. It gives you a chill just thinking about it but it is supposed to be a 
+good way to prolong you life. 
+To the east is Main Street.
+~
+220 136 1
+D1
+You see Main Street.
+~
+east~
+0 0 22030
+S
+#22048
+Inner Airlock~
+You are standing just outside the airlock that leads to outside the dome.
+There is a LARGE WARNING SIGN here on the wall. The airlock itself is to the 
+east. To the north is Galaxy Drive.
+~
+220 12 1
+D0
+You see Galaxy Drive.
+~
+north~
+0 0 22025
+D1
+You see the airlock.
+~
+east~
+0 0 22051
+E
+warning sign~
+WARNING:
+       Some beings cannot survive in space without breathing aparatus,
+       Make sure you are fully prepared before venturing outside the
+       dome.
+~
+S
+#22049
+The Big Bang Weapons Store~
+You are standing inside a large weapons shop. The walls are lined with weapons
+of all shapes and sizes from all around the known universe, ranging from small
+hand-held laser cannons to large anti-orbit phasors. There should be something
+here that will suit your needs. To the east is Main Street.
+~
+220 136 1
+D1
+You see Main Street.
+~
+east~
+0 0 22027
+S
+#22050
+Big Al's Armoury~
+The walls of this rather small shop are covered with armor and clothing of
+all types. Big Al claims that he has sold armor to aliens all over the Alpha 
+Quadrant and hasn't had one complaint. You start to wonder if thats because
+the armor is good or if its so bad that his customers dont live to complain...
+To the west is Main Street.
+~
+220 136 1
+D3
+You see Main Street.
+~
+west~
+0 0 22027
+S
+#22051
+Airlock~
+You are standing inside the airlock that allows people to venture out of the
+protective dome and onto the surface of the moon. The walls are covered with 
+warning signs reminding you to be prepared. The room is totally sealed with
+force fields to keep the air in while still allowing you to pass through them 
+into the vacuum of space. The moon surface is east, and the dome is west.
+~
+220 12 17
+D1
+You see the moons surface.
+~
+east~
+0 0 22052
+D3
+You see the inner airlock.
+~
+west~
+0 0 22048
+E
+warning sign~
+WARNING:
+       Some beings cannot survive in space without breathing aparatus,
+       Make sure you are fully prepared before venturing outside the
+       dome.
+~
+S
+#22052
+Moon Surface~
+You are standing in the vacuum of space on the surface of the moon.
+~
+220 8 17
+D1
+~
+~
+0 -1 23023
+D3
+You see the airlock.
+~
+west~
+0 0 22051
+S
+#22053
+Cryo Storage Room~
+This room is full of items of clothing and weapons
+that have been left here for anyone to pick up and
+take. Feel free to help yourself to anything you want
+~
+220 0 65556
+D1
+~
+~
+0 0 22026
+S
+#22054
+Dino Adventure's Inc.~
+You enter a a large open area with shiny polished floors. Large TV
+moniters line the walls displaying footage of all kinds of dinosaures.
+At the other end of the room is a reception desk with many customers
+waiting to be served. 
+~
+220 0 0
+D0
+~
+~
+0 0 22007
+D2
+~
+~
+0 0 11121
+S
+$
+@
+

@@ -1,0 +1,56 @@
+recall cast 'word of recall' $*
+iden cast 'identify' $*
+sense cast 'sense life' $*
+str cast 'strength' $*
+blind cast 'blindness' $*
+town 19e ;s ;s ;e ;e ;e
+sl cast 'sense life $*
+animate cast 'animate dead' $*
+wb cast 'waterbreath' $*
+dragon cast 'dragon' $*
+rs recite scroll $*
+plasma cast 'plasma' $*
+h cast 'advanced heal' $*
+haste cast 'haste' $*
+buff cast 'holy aid' ; cast 'holy aid' ; cast 'holy aid' $*
+clo cast 'clone' $*
+gate cast 'dimension gate' $*
+prepare cast 'spirit armor' ; cast 'armor' ; cast 'sanc' ; cast 'dragon' ; cast 'bless' $*
+op open secret$*
+pla cast 'plasma blast' $*
+19e e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e
+cha cast 'charm person' $*
+de cast 'detect invis' $*
+f cast 'fireball' $*
+mete cast 'meteor swarm'
+sanc cast 'sanctuary' $*
+rh wear renewal 
+beam cast 'teleport' $*
+p wield hammer
+hp rem hammer
+rr wield dagger
+loc cast 'locate object' $*
+sum cast 'summon' $*
+invis cast 'invis' $*
+infra cast 'infravision' $*
+ref cast 'refresh' $*
+killer cast 'finger of death' $*
+bless cast 'bless' $*
+curse cast 'curse' $*
+armor cast 'armor' $*
+nh cast 'heal' $*
+gac get all corpse $*
+web cast 'waterwalk' $*
+lie cast 'sleep' $*
+gcj get corpse ; junk corpse
+para cast 'paralyze' $*
+rc cast 'remove curse' $*
+rsj recite scroll jalehven $*
+uncurse cast 'remove curse' $*
+fly cast 'fly' $*
+ass o fol ass enli $*
+wake wake ; stand $*
+deadmob cast 'plasma blast' $1; cast 'plasma blast' $1; cast 'fireball' $1; cast 'fireball' $1; cast 'finger of death' $1
+newbiehelp emote closes his eyes and mutters the words, "sariarocorabola". ; cast 'heal' $1; cast 'heal' $1; cast 'bless' $1; cast 'bless' $1; cast 'bless' $1; cast 'sanctuary' $1; cast 'armor' $1; cast 'armor' $1; cast 'invis' $1
+b rem pulse ; wield coral ; backstab $1 ; rem coral ; wield pulse $1
+annoy order cat holler $*

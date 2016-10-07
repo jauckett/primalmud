@@ -1,0 +1,105 @@
+head	1.1;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.10.14.01.01.09;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@CircleMUD v3.0 Shop File~
+#301~
+30004
+30005
+30009
+-1
+0.75
+1.2
+11 
+32 
+-1
+What! Are you blind! I don't sell that.~
+Your about as honest as a Centauri if you expect me to buy something you don't have.~
+Find someone else to offload that on you degenerate.~
+Maybe I'd buy it if didn't cost as much as a small ship.~
+What! Do you think I'm as stupid as you look ? No charity you cheapskate.~
+Alright, your robbing me blind, but I'll let you have it for %d.~
+Fine. Go spend %d of my money you thief, I'll take it.~
+0
+0
+30064
+2
+30201
+-1
+0
+12
+14
+24
+#302~
+30024
+30025
+-1
+0.8
+1.25
+17 
+19 
+-1
+This is a bar! If you want that go elsewhere.~
+You've obviously had too much to drink if your trying to sell that.~
+I sell drinks, if you want to sell that go elsewhere, buy a drink or get out!~
+Maybe I'd buy it - if you weren't trying to ask so much.~
+This is a bar, not a charity, if you can't afford anything, your just taking up space.~
+Alright you can have it for %d, enjoy.~
+Your robbing me blind, but I'll take it for %d.~
+0
+0
+30032
+0
+30141
+-1
+0
+28
+0
+0
+#303~
+30022
+30023
+30031
+30032
+-1
+1.35
+0.7
+-1
+Hmmpph! We don't sell THAT sort of thing here.~
+If you've drunk so much your trying to sell that, then please leave this establishment.~
+We're a restaurant not a second goods store~
+Look, I'd like to buy, but I have a family to feed as well.~
+We only feed those who can pay, pay up or shut up!~
+Ok, %d is a steal, but I'll take it.~
+Enjoy! For only %d your getting the finest fair on the station.~
+2
+0
+30031
+0
+30069
+-1
+0
+28
+0
+0
+$~
+@

@@ -1,0 +1,71 @@
+dj cast 'adv heal' dj
+moe cast 'adv' moe
+tele cast 'teleport'
+kk order clones assist firin
+gh cast 'group heal'
+garm cast 'group armor'
+gsan cast 'group sanctuary'
+sleep cast 'sleep' $1
+blind cast 'blindness' $1
+ls cast 'lightning shield'
+water cast 'create water' canteen;drink canteen
+start wear all;wield rifle;hold hammer
+food cast 'create food'; eat mushroom
+gate cast 'dimension gate' $1
+dp cast 'divine protection' firin
+hb cast 'advanced heal' blackwolf
+h cast 'advanced heal' firin
+bless cast 'bless' firin
+ck order clones kill $1
+c tell cerin heal
+loc cast 'locate object' $1
+sheal open force;put all.heal force;close force
+healb open force;get heal for;get heal for;get heal for;get heal for;get heal for;get heal for;get heal for;get heal for;get heal for;get heal for;give all.heal blackwolf;close for
+dinv cast 'detect invisibility' firin
+sanb cast 'sanctuary' blackwolf
+bheal open force;buy 20 heal;put all.heal force;close force
+xforce open force;examine force;close force
+infb cast 'infravision' blackwolf
+th train hit;train hit;train hit;train hit
+ga get all corpse
+inf cast 'infra' firin
+rec cast 'word of recall' firin
+sum cast 'summon' $1
+recb cast 'word of recall' blackwolf
+cure cast 'cure critic' firin
+bpotions open force;buy 20 white;put all.white force;buy 20 red;put all.red force;close force
+cha cast 'charm person' $1
+meat open force;get meat force;eat meat;close force
+qr open force;get red force;quaff red;close force
+bli cast 'blindness' $1
+drag cast 'dragon' firin
+b bash $1
+qw open force;get white force;quaff white;close force
+da cast 'detect alignment' firin
+he ope for;get heal for;quaff heal;close for
+hh cast 'heal' hairy
+hp cast 'cure light' $1
+clo cast 'clone'
+hc cast 'heal' clone
+hc2 alias cast 'heal' 2.clone
+grats grats >>>>> &f $1 &n <<<<<
+armor cast 'armor' firin
+gsanc cast 'group sanctuary'
+ref cast 'refresh' firin
+par cast 'para' $1
+rc cast 'remove curse' $1
+ha cast 'holy aid'
+has cast 'haste'
+dh cast 'divine heal'
+waterbreathe cast 'waterbreathe'
+invis cast 'invisibility' firin
+now e
+fshield cast 'fire shield'
+home w
+stone cast 'stoneskin'
+fw cast 'fire wall'
+change black:
+recall cast 'word of recall'
+/100 / #100
+id cast 'identify' $1
+nohas cast 'nohassle'

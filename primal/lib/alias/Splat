@@ -1,0 +1,104 @@
+talon cast 'remove curse' talon;e;sell talon;w
+fear cast 'fear' $*
+ww cast 'whirl'
+a6 cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;group all
+cd cast 'clone';cast 'clone';order followers die;cast 'clone';cast 'clone';order followers die;cast 'clone';cast 'clone';order followers die
+sumall cast 'summon' latona;cast 'summon' polgara;cast 'summon' latona;cast 'summon' knuckle;cast 'summon' mephysto
+gh cast 'divine heal' mephysto;cast 'divine heal' knuckle
+7 cast 'divine heal' bloss
+rome1 wake;stand;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;s;w;s;s
+bs rem plasma;wield trident;backstab $1;rem trident;wield plasma
+3 cast 'divine heal' $*
+id cast 'ident' $*
+8 cast 'sanct' $*
+0 group all;cast 'group sanct';ungroup
+dim cast 'dimension' $1
+tra train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;
+gr group all;cast 'group sanct';ungroup
+tele cast 'teleport'
+clone cast 'clone'
+book get spell force;recite book
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+can  get cannon force;rem pulse;rem stalk;wield cannon;put pulse force;put stalker force
+pul get pulse force;rem cannon;rem stalker;wield pulse;put cannon for;put stalker force
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+lev1 e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+port4 e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;
+` get corpse;junk corpse
+serve order clones serve
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+c get coins all.corps
+die order follow die
+moc rem moc;wear moc
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+water cast 'waterbr' $*
+tal cast 'remove curse' talon;e;sell talon;w
+wh cast 'whirlwind'
+cb charge battery $1
+walk cast 'waterwalk' $*
+2 cast 'advanced heal' $*
+par cast 'paralyze' $*
+rc cast 'remove curse' $1
+sanc cast 'sanctuary' $*
+drag cast 'dragon' $*
+sum cast 'summon' $*
+re cast 'word of recall'
+det cast 'detect invis'$*
+loc cast 'locate obj' $*
+qh get heal force;quaff heal
+inv cast 'invisib' $*
+wa wake;stand
+inf cast 'infravision' $*
+qw get white force; quaff white
+cw get skin force; cast 'create water' skin;drink skin; put skin force
+life cast 'sense life' $*
+ref cast 'refresh'$*
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+9 charge battery self
+ord order follow kill $1;kill $1
+protg cast 'protection from good'
+prote cast 'protection from evil'
+fi cast 'finger of death'$*
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+stone cast 'stoneskin'
+noh cast 'nohassle'
+b bash moe;cast 'advanced heal'
+port2 n;w;n;e;n;n;e
+port3 n;w;n;w;s;s;n;n
+main n;n;e;e;e;e;e;s;s
+sb get stalk force;rem pulse; wield stalk;backstab $1; rem stalk;wield pulse;put stalk for
+clan n;n;e;e;e;e;e;s;s;d;s;s;s
+z show zone $1
+serp get serpent force;cast 'serpent'
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+haste cast 'haste'
+getd get all;hold drill;hold jack;wield plasma;wear all;open force;put all force;get word force;get crowbar force
+plas rem stalker;get plasma force;wield plasma;put stalker force
+ds rem plasma;get stalker force;wield stalker;put plasma force
+back get stalker force;rem plasma;wield stalker;backstab $1;rem stalker;wield plasma
+rope cast 'remove curse' rope;e;sell rope;w
+sleep cast 'sleep' $*
+100 / #100 $*
+plasma rem stalker;wield plasma
+stalk rem plasm;wield stalk
+bh buy 20 heal;put all.heal tool
+1 get heal tool;get heal tool;get heal tool;get heal tool;get heal tool;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put tool 2.tool
+gt get tool tool
+5 cast 'haste'
+a2 cast 'animate' corpse;cast 'animate' corpse;group all
+a4 cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;group all
+tav n;n;e;e;e;e;e;e;s;sleep
+portal s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+gc get corpse;junk corps
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+tool put tool 2.tool
+scylla d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;unlock sand;open sand;w;w;w;n;n;e;e;s;w
+x get all corpse
+4 cast 'summon' lister

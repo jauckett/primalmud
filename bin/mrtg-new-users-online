@@ -1,0 +1,13 @@
+#!/bin/sh
+
+
+ASLEEP=`tail -n 1 /home/mud/newprimal/syslog | grep sleep`
+UPTIME=`uptime`
+
+if [ "$ASLEEP" != "" ] ; then
+  echo "0"
+  echo "0"
+  cat /home/mud/newprimal/syslog | grep nusage | tail -n 1 | awk '{ print "Max Users during Uptime: " $18 " (mud currently asleep)"}'  
+else
+  cat /home/mud/newprimal/syslog | grep nusage | tail -n 1 | awk '{ print $6 "\n" $9 "\nMax Users during Uptime: " $18}'  
+fi

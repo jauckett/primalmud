@@ -1,0 +1,196 @@
+head	1.3;
+access;
+symbols
+	A3_0_59:1.1
+	LATEST:1.1
+	A3_0_1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.3
+date	2003.11.12.11.00.13;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.11.01.00.23.51;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.57;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus>
+
+Files which have had log() replaced with basic_mud_log():
+
+act.informative.c, act.item.c, act.offensive.c, act.other.c, act.social.c,
+act.wizard.c, alias.c, balance.c, ban.c, boards.c, casino.c, castle.c, clan.c,
+class.c, comm.c, corpses.cpp, db.c, dg_db_scripts.c, dg_olc.c, dg_scripts.c,
+fight.c, genmob.c, genobj.c, genolc.c, genshp.c, genwld.c, genzon.c, graph.c,
+handler.c, house.c, improved-edit.c, interpreter.c, magic.c, mail.c, medit.c,
+mobact.c, modify.c, oasis.c, objsave.c, oedit.c, olc.c, redit.c, reports.cpp,
+shop.c, spec_assign.c, spec_procs.c, spell_parser.c, tedit.c, utils.c,
+utils.h, zedit.c.
+
+
+Files which have been cpp standardised (list.h => list, etc):
+
+comm.c, corpses.cpp, corpses.h, db.c, interpreter.c, modify.c, reports.cpp.
+
+
+Specific changes to reports.cpp, reports.h:
+
+Removed ofstream outReportFile, ofstream outChangeFile, and replaced them with
+FILE *s. Removed no-longer functional c++ random-access file handling and
+replaced it with straight C. Should be right from here on in..
+
+
+Specific changes to act.movement.c:
+
+Replaced log() with mudlog(), when logging players being killed by gravity.
+@
+text
+@/* ***********************************************************************
+*  File: alias.c				A utility to CircleMUD	 *
+* Usage: writing/reading player's aliases.				 *
+*									 *
+* Code done by Jeremy Hess and Chad Thompson				 *
+* Modifed by George Greer for inclusion into CircleMUD bpl15.		 *
+*									 *
+* Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
+* CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.		 *
+*********************************************************************** */
+
+#include "conf.h"
+#include "sysdep.h"
+#include "structs.h"
+#include "utils.h"
+#include "interpreter.h"
+#include "db.h"
+
+void write_aliases(struct char_data *ch);
+void read_aliases(struct char_data *ch);
+
+void write_aliases(struct char_data *ch)
+{
+  FILE *file;
+  char fn[MAX_STRING_LENGTH];
+  struct alias_data *temp;
+
+  get_filename(GET_NAME(ch), fn, ALIAS_FILE);
+  remove(fn);
+
+  if (GET_ALIASES(ch) == NULL)
+    return;
+
+  if ((file = fopen(fn, "w")) == NULL) {
+    basic_mud_log("SYSERR: Couldn't save aliases for %s in '%s'.", GET_NAME(ch), fn);
+    perror("SYSERR: write_aliases");
+    return;
+  }
+
+  for (temp = GET_ALIASES(ch); temp; temp = temp->next) {
+    int aliaslen = strlen(temp->alias);
+    int repllen = strlen(temp->replacement) - 1;
+
+    fprintf(file, "%d\n%s\n"	/* Alias */
+		  "%d\n%s\n"	/* Replacement */
+		  "%d\n",	/* Type */
+		aliaslen, temp->alias,
+		repllen, temp->replacement + 1,
+		temp->type);
+  }
+  fflush(file); 
+  fclose(file);
+}
+
+void read_aliases(struct char_data *ch)
+{   
+  FILE *file;
+  char xbuf[MAX_STRING_LENGTH];
+  struct alias_data *t2;
+  int length;
+
+  get_filename(GET_NAME(ch), xbuf, ALIAS_FILE);
+
+  if ((file = fopen(xbuf, "r")) == NULL) {
+    if (errno != ENOENT) {
+      basic_mud_log("SYSERR: Couldn't open alias file '%s' for %s.", xbuf, GET_NAME(ch));
+      perror("SYSERR: read_aliases");
+    }
+    return;
+  }
+ 
+  CREATE(GET_ALIASES(ch), struct alias_data, 1);
+  t2 = GET_ALIASES(ch); 
+
+  for (;;) {
+    /* Read the aliased command. */
+    fscanf(file, "%d\n", &length);
+    fgets(xbuf, length + 1, file);
+    t2->alias = str_dup(xbuf);
+
+    /* Build the replacement. */
+    fscanf(file, "%d\n", &length);
+    *xbuf = ' ';		/* Doesn't need terminated, fgets() will. */
+    fgets(xbuf + 1, length + 1, file);
+    t2->replacement = str_dup(xbuf); 
+
+    /* Figure out the alias type. */
+    fscanf(file, "%d\n", &length);
+    t2->type = length; 
+
+    if (feof(file))
+      break;
+
+    CREATE(t2->next, struct alias_data, 1);
+    t2 = t2->next;
+  }; 
+  
+  fclose(file);
+} 
+@
+
+
+1.2
+log
+@Artus> Added extra fflush() calls.. May/not help crash saves recovering ;o)
+@
+text
+@d35 1
+a35 1
+    log("SYSERR: Couldn't save aliases for %s in '%s'.", GET_NAME(ch), fn);
+d66 1
+a66 1
+      log("SYSERR: Couldn't open alias file '%s' for %s.", xbuf, GET_NAME(ch));
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d51 1
+a51 1
+  
+@
+

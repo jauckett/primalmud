@@ -1,0 +1,722 @@
+#6600
+Stumbling Through Darkness~
+You stumble through this seemingly endless ....  Forest?  Forest is the best
+word you can find to describe it...  There are trees and thorn bushes
+everywhere.  You see what appears to be a faint blue light up ahead...  But you
+have a very uneasy feeling.    
+~
+66 chA 0 0
+D0
+~
+~
+0 0 6601
+S
+#6601
+Close To The House~
+You can see what appears to be a massive house up ahead.  It glows with a black
+aura..?!?  You are more scared than you have ever been in your life...  But the
+house seems to be beckoning you.    
+~
+66 g 0 0
+D0
+~
+~
+0 0 6602
+D2
+~
+~
+0 0 6600
+S
+#6602
+At The Front Door~
+An odd smell seeps from underneath the little wooden door.  What lies beyond it
+is a mystery that can only be solved by entering.    
+~
+66 g 0 0
+D0
+~
+door~
+1 0 6603
+D2
+~
+~
+0 0 6601
+S
+#6603
+Gallery of Suicide~
+The door from which you entered has melted away, now there is nothing but
+wall...!  Human skin has been ripped from their owners and have been stitched
+together to form this wall covering.  Breathing in the putrid smell would bring
+any man to his knees.  All over the place lie the remains of people who have
+taken their own lives...  They are the lucky ones, they are now free.  Slit
+wrists, cut throats, hanging, drowning, overdose on pills..  Its all here in
+the gallery of suicide.    
+~
+66 g 64 0
+D0
+~
+~
+0 0 6604
+S
+#6604
+Gallery of Suicide~
+It's hard to carry on, but you have to find a way out.  The displays of people
+who have taken their own lives gives you a horrible feeling in your heart.  
+This is sick, but you feel something urging you to carry on....  You hear
+bizarre echoes echoing throughout this dim hallway of death.  The sounds of
+babies crying, people screaming, flesh ripping, and insane cackling fill your
+ears.    
+~
+66 fgA 0 0
+D1
+~
+~
+0 0 6605
+D2
+~
+~
+0 0 6603
+S
+#6605
+Gallery of Suicide~
+The invisible force beckoning you to travel farther grows stronger.  You feel
+so sick by being here, you can hardly stand it.  You just want out, but you
+have to go further.  The corpses along the wall seem to be smiling at you.    
+~
+66 0 0 0
+D1
+~
+~
+0 0 6606
+D3
+~
+~
+0 0 6604
+S
+#6606
+Gallery of Suicide~
+Deeper into the gallery, the walls become more gruesome.  No longer is it just
+skin, but now the faces of human beings have been torn off and flattened.  
+Incisions into the top of the head indicate the area where the skulls have bee
+removed, it seems they are fresh because blood still trickles from the wounds.
+  
+~
+66 0 0 0
+D0
+~
+~
+0 0 6607
+D3
+~
+~
+0 0 6605
+S
+#6607
+Gallery of Suicide~
+Feeling extremely faint of heart, the sound of clanging metal makes you jump!
+You have stepped on something.  There appears to be a steal grate on the
+ground, perhaps leading to some underground escape route.  You try to fight off
+the corpses as you want to descend.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6617
+D2
+~
+~
+0 0 6606
+D5
+A rusty grate..    
+~
+grate~
+1 0 6608
+S
+#6608
+Descending~
+You try to escape down this tiny hole, its one hell of a tight squeeze.  Blood
+tickles down around you, the smell making you horribly sick.  The cold,
+blood-stained walls seem to be closing in on you, you should hurry.    
+~
+66 acfi 0 0
+D4
+~
+grate~
+1 0 6607
+D5
+~
+~
+0 0 6609
+S
+#6609
+Tomb of the Mutilated~
+There are coffins everywhere.  The stench is AWFUL (as usual), but you are used
+to it now.  Theres a hint of light coming from somewhere near.  The room is
+barely illuminated enough to see all the dusty, dirty coffins.  The sound of
+shuffling feet can be heard from every direction, you are not alone here.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6610
+D1
+~
+~
+0 0 6613
+D2
+~
+~
+0 0 6611
+D3
+~
+~
+0 0 6612
+D5
+~
+slab~
+1 0 6615
+S
+#6610
+Tomb of the Mutilated~
+Coffins, corpses, and blood are everywhere.  Cobwebs are all over everything,
+and its hard to see with the thick layer of dust and dirt.  Claustrophobia
+starts to set in when you realize this isnt the biggest of places, there are
+probably things in here that you don't want to be in here with either.    
+~
+66 0 0 0
+D2
+~
+~
+0 0 6609
+D3
+~
+~
+0 0 6616
+S
+#6611
+Tomb of the Mutilated~
+You are in an unfinished room.  Bodies that have been gored beyond all
+recognition are strewn about, some hanging out of coffins, others propped up in
+corners.  The floor is a pool of blood that is about an inch deep...  You seem
+to be closer to that light.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6609
+S
+#6612
+Tomb of the Mutilated~
+The ground is extra wet here.  What appears to be a skinned human being is
+laying here..  And whatta ya know, theres the skin right next to it.  The
+cannibalistic monsters havent gotten to this one yet apparently.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6616
+D1
+~
+~
+0 0 6609
+S
+#6613
+Tomb of the Mutilated~
+There seems to be a dead-end up ahead.  That's just what you need, a dead end,
+you wish you could stay here forever (not really).  This is just beyond belief,
+you think to yourself "LET ME OUT NOW!!  ".    
+~
+66 0 0 0
+D1
+~
+~
+0 0 6614
+D3
+~
+~
+0 0 6609
+S
+#6614
+Tomb of the Mutilated (Dead End)~
+You hit a dead-end, better turn around now before something backs you up
+against this wall.  There is an odd hole that looks as if it might hold
+something in the wall here.    
+~
+66 0 0 0
+D3
+~
+~
+0 0 6613
+S
+#6615
+Sacrificial Pit~
+You stand in a small stone room, you are knee deep in blood.  The smell of
+decaying flesh assaults your nostrils.  This place has an extremely unholy
+feeling, it appears to be used for sacrifice.    
+~
+66 cfhiA 32 0
+D4
+~
+slab~
+1 0 6609
+S
+T 6600
+#6616
+Tomb of the Mutilated~
+The remains of an unfortunate individual is propped up in the corner.  His
+torso has been torn to shreds, entrails have been torn out and lie half-eaten
+all around him.  His blood has dried all over the stone walls and has combined
+with the dirt leaving large clumps.  Cobwebs are all over the corner where the
+walls meet the ceiling.    
+~
+66 0 0 0
+D1
+~
+~
+0 0 6610
+D2
+~
+~
+0 0 6612
+S
+#6617
+End of the Gallery~
+The seemingly endless gallery has in fact reached its end.  The light here is
+very dim, a small wooden door is the only thing that stands between you and
+freedom.  The gorey wallpaper has stopped, now just old wooden walls, floor,
+and ceiling surround you.  You hear various noises coming from the other side
+of the door.    
+~
+66 0 0 0
+D0
+a small wooden door.
+~
+door~
+1 0 6618
+D2
+~
+~
+0 0 6607
+S
+#6618
+Dead Human Collection~
+Maimed, repulsive managerie.  Collection for the insane, you've died into the
+Dead Human Collection.  Everywhere you look, you see dead bodies hanging upside
+down from hooks.  Their faces haunt you with their final dying expressions
+staring you in the face.  Severed heads mounted on pikes line the walls, blood
+pools up on the floor from all the dripping bodies.  The sound of quick,
+shuffling feet snap you out of your daze...  Someone is quickly making their
+way toward you.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6622
+D1
+~
+~
+0 0 6619
+D2
+a small wooden door.
+~
+door~
+1 0 6617
+D3
+~
+~
+0 0 6620
+S
+#6619
+Dead Human Collection~
+The sound of quick shuffling feet gets louder with every step, something else
+is definately in here.  An odd mist fills the room, making it hard to see, you
+can just make out the dead bodies swinging from hooks above.  The smell of
+decay is awful.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6621
+D3
+~
+~
+0 0 6618
+S
+#6620
+Dead Human Collection~
+I'm sure someone would LOVE to make you a part of this nice little collection.
+Though right now, you feel that THEY are the lucky ones...    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6623
+D1
+~
+~
+0 0 6618
+S
+#6621
+Dead Human Collection~
+Life is nothing without death, and death is all around you.  Nausea sets in as
+you stumble through this dim display of decease.    
+~
+66 0 0 0
+D2
+~
+~
+0 0 6619
+D3
+~
+~
+0 0 6622
+S
+#6622
+Dead Human Collection~
+A large drain is here on the floor, the blood from the bodies all drain out
+here.  There is a latch on the drain, making it possible to open.  Aside from
+that, there is an empty hook hanging here, waiting for someone to occupy it...
+This is clearly the center of the whole collection.  It must be for someone
+very special.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6625
+D1
+~
+~
+0 0 6621
+D2
+~
+~
+0 0 6618
+D3
+~
+~
+0 0 6623
+D5
+a huge drain.
+~
+drain~
+1 0 6624
+S
+#6623
+Dead Human Collection~
+The hypnotic swaying of the bodies is enough to make anyone fall into a deep
+trance.  In a state of both fear and disbelief, making you uncoordinated enoguh
+for someone to easily take advantage of you.  Perhaps they will add you to the
+little gallery.    
+~
+66 0 0 0
+D1
+~
+~
+0 0 6622
+D2
+~
+~
+0 0 6620
+S
+#6624
+Chamber of Blood~
+The blood is a thick pool here, it goes up past your waist.  The bloody
+sloshing breaks the silence when you notice you are not alone.  Vicious
+creatures that are hellbent for blood come here to soak it up, now that there
+is some fresh meat, they are in for a treat.    
+~
+66 fh 0 0
+D4
+a huge drain.
+~
+drain~
+1 0 6622
+S
+#6625
+Beginning of the Bridge~
+This ragged old bridge doesn't look sturdy at all...  Actually, I'm pretty sure
+it violates some type of safety code.  It swings high above a sea of gore,
+rotting remains, bones, maggots, and vermin all washing swiftly down a rushing
+river of entrails, bile, and blood.  The stench is truly horrible and would
+make a person feel rather faint.    
+~
+66 cfgh 0 0
+D0
+~
+~
+0 0 6626
+D2
+~
+~
+0 0 6622
+S
+#6626
+Along the Bridge~
+The swinging combined with the height and stench make you puke over the side of
+the bridge.  Hopefully this will be over soon.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6627
+D2
+~
+~
+0 0 6625
+S
+#6627
+Other Side of Bridge~
+Finally over that horrible bridge... *shudder*
+~
+66 0 0 0
+D0
+~
+~
+0 0 6628
+D2
+~
+~
+0 0 6626
+S
+#6628
+Decisions, Decisions...~
+A rather plain room, very quiet.  There is a painting of something on the
+ceiling, it's too dirty to make out.  There are three doors...  Each door has a
+word written on it.  The doors are: "Cephalic", "Visceral", and "Vaginal"....
+Choose wisely.    
+~
+66 0 16400 0
+D0
+A door with the word "Eviscerate" written on it.    
+~
+visceral~
+1 0 6637
+D2
+~
+~
+0 0 6627
+D3
+a door with the word "Cephalic Carnage" engraved on it.
+~
+cephalic~
+1 0 6629
+S
+#6629
+A White Hallway~
+It's a nice little hallway.  The end of the hallway looks rather dark, because
+the entire hallway is illuminated by one little light bulb which lies above
+your head.  The walls are totally blank, and there is no activity around you
+whatsoever.  The stench of decay is not present here, the only sound you hear
+is yor footsteps as you walk across the wooden floor.    
+~
+66 f 0 0
+D3
+~
+~
+0 0 6630
+S
+#6630
+Darkening Hallway~
+The Hallway gets darker the further down you travel.  It feels as if someone is
+standing over your shoulder, watching your every move.  A faint hummong sound
+can be heard farther down.    
+~
+66 f 0 0
+D1
+~
+~
+0 0 6629
+D3
+~
+~
+0 0 6631
+S
+#6631
+End of Hallway~
+It's pitch black, there seems to be a door on the wall...    
+~
+66 af 0 0
+D1
+~
+~
+0 0 6630
+D3
+a door
+~
+door~
+1 0 6632
+S
+#6632
+Operating Room~
+The scent of blood invades your nostrils and induces gagging.  You feel the
+bile creep up your throat, but you try to be brave and swallow it back down.  
+The white tiles are blood-stained..  Some bits and pieces of human remains are
+scattered sparratically through the room.    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6633
+D1
+a door
+~
+door~
+1 0 6631
+D2
+~
+~
+0 0 6635
+D3
+~
+~
+0 0 6634
+S
+#6633
+Operating Room~
+There must be more rooms around here somewhere, because screams fill the air,
+yet there is nothing but any empty table in this room.  You can tell from a
+distance that the table is gore soaked, shckles and chains are attached to it.
+  
+~
+66 0 0 0
+D0
+~
+backdoor~
+2 4552 6699
+D2
+~
+~
+0 0 6632
+S
+#6634
+Operating Table~
+Your intentions were to check out the table, but apparently, these cannibal
+doctors feel you need some surgery.  A couple of freakishly strong zombie
+doctors hold you down and chain you.  Your arms and legs get shackled to the
+table, your heart is now pounding.  They have you so you can't move, now it is
+time to silence you...  They begin to sew your mouth shut.  Fear has consumed
+you, all you can do now is think about what is to come, tears of agony creep
+down your face...  You see them sharpening their rusty tools.  Your eyes light
+up as the hooks go through your crotch, ripping out your bowels through the
+wound, the other doctor begins to perform his OPEN FACE SURGERY....  Goodbye.
+  
+~
+66 bch 0 0
+S
+#6635
+Operating Room~
+This place would give any man a very discomforting feeling, this entire world
+must be hell...    
+~
+66 0 0 0
+D0
+~
+~
+0 0 6632
+D3
+~
+~
+0 0 6636
+S
+#6636
+Equipment Room~
+A small stone room with the word "Equipment" painted in gore on the wall.  
+There are many boxes and many random items lining the walls on shelves and on
+the floor.    
+~
+66 0 0 0
+D1
+~
+~
+0 0 6635
+S
+#6637
+Autopsy Room~
+Holy Shit!  Apparently things have gotten a little out of hand here.  
+Half-eaten humans crawl across the floor screaming for their lives, operation
+tables have been overturned, bloods everywhere, doctors running through with
+chainsaws violently dissect
+~
+66 0 0 0
+D1
+~
+~
+0 0 6639
+D3
+~
+~
+0 0 6638
+S
+#6638
+Autopsy Room~
+Mutilated cadavers run about spewing blood from their open wounds.  The
+"doctors" try to keep them at bay by savagely dismembering anything that
+appears "undead".  Hopefully, you can just get out of here before you are
+killed, or perhaps youll choke do death on the stench of death.    
+~
+66 0 0 0
+D1
+~
+~
+0 0 6637
+S
+#6639
+Autopsy Room~
+Hack.  Slash.  Stab.  Kill...  That is exactly what would describe this place.
+This is basically just a small pond of blood, the walls virtually papered in
+gore.    
+~
+66 0 0 0
+D3
+~
+~
+0 0 6637
+S
+#6660
+Staring Through the Eyes of the Dead~
+This is death, its as plain and simple as that.  You are staring through the
+eyes of your corpse.  You see the operating table all around you, you see the
+autopsy people cutting you open.  You feel the pain, but you can do nothing,
+you are dead.    
+~
+66 cglmy 0 0
+S
+#6698
+Hanging from a Hook~
+You feel the sharp steel slowly slide through your back, piercing through your
+spine.  Pieces of rust chip off inside of you as it impales.  The hook now
+gouges through your stomach, spilling your intestines out, leaving them hanging
+from your body.  You feel your ribcage begin to break with sickening SNAPPING
+and CRACKING sounds.  This is where it all ends, you'l be left to hang here.  
+Your bones breaking under your own weight, you now belong to the Dead Human
+Collection.    
+~
+66 bch 0 0
+S
+#6699
+The Corpsegrinder's Lair~
+This is a large square room made of stones.  The lighting is very dim, the
+source of it cannot be seen.  People hang from rusty hooks that line the
+ceiling, the writhe in agony as the hooks will slowly tear them in half.  The
+hooks have been stuck through the middle of the back, puncturing through the
+stomach.  Their intestines hang out, some falling to the floor..  They will
+eventually split in two under their own weight.  People along the wall in cages
+are getting slowly eaten alive by rats, a steady flow of blood trickles from
+every direction.  Stripped young girls have been tied down to wooden tables,
+and these sick Cannibals insert knives into the girls' every orifice.  Looking
+to the back, standing on a pile of mutilated bodies, the ruler of this place...
+The Corpsegrinder.    
+~
+66 fgA 64 0
+S
+$~

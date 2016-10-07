@@ -1,0 +1,52 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@k kill trickster
+lb cast 'lightning bolt' $*
+cg cast 'shocking grasp' ghast
+cs cast 'shocking grasp' $*
+lc get all from corpse
+cm cast 'magic missile' $*
+cb cast 'burning hands' $*
+rr recite recall
+c consider $*
+r quaff red
+q quaff white
+p put $* in backpack
+gos gossip $*
+g get $* from backpack
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

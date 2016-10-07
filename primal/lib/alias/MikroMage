@@ -1,0 +1,53 @@
+gac get all all.corpse
+travtree autoexit;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w;w;autoexit
+wince emote winces in pain.
+blup cast 'word' $* ; cast 'summon' $*
+8 cast 'harm' $*
+travlake autoexit;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;d;s;s;s;w;s;e;e;s;autoexit
+travrain autoexit;w;w;w;w;s;e;s;e;n;e;e;s;w;s;e;s;w;w;n;w;w;s;s;e;e;e;e;u;e;e;open wall;n;autoexit
+trav2rain autoexit;n;n;e;e;e;open wall;n;u;w;w;w;w;s;s;s;s;e;e;e;e;n;n;n;n;u;autoexit
+travkeep autoexit;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;e;n;e;n;autoexit
+bow3 : bows before you and kisses your hand.
+of order followers $*
+slip2 : , while appearing out of thin air, stumbles and crashes into the board hard.
+crazy emote twirls his finger next to his ear.
+7 cast 'fireball' $1
+sanc cast 'sanctuary'
+inv cast 'invisibility'
+rise wake ; stand ; l
+songhat emote passes around his hat hopefully...
+wait tell $1 Hi, you have reached MikroMage.  Unfortunately I am unavailable right now as I am probably battling bloodthirsty monsters or flirting with luscious femmes.  I will get back to you soon... if I don't in 5 minutes please call back... :)
+tongue $1 emote sticks his tongue out at $1 .
+see con $1 ; examine $1
+qqq recite recall
+seeinv cast 'detect invisibility'
+ir cast 'infravision'
+jump emote jumps up and down SCREAMING with JOY!!!!
+www cast 'word'
+qw get white backpack ; quaff white
+bow2 : bows with a majestic flourish.
+slip : attempts a dramatic entrance, slips in the mud and lands on his butt.
+ofam order followers assist mikromage
+g sneak ; echo The puma leaves$*. ; $* ; echo The puma has arrived. ; hide ; hide ; hide
+dis hide ; hide ; hide
+purrp echo The puma purrs softly.
+slashp echo The puma slashes at$* ferociously.
+chh at hykrion cast 'heal' hykrion
+bset alias bs 'rem sword ; wield dagger ; backstab $$* ; rem dagger ; wield sword'
+tr track $*
+cx cast 'charm' $*
+fk order crab k $* ; order followers assist crab
+travtav autoexit;s;e;e;e;e;s;s;e;e;e;e;s;autoexit
+calm cast 'charm' $* ; order followers sit
+travdes autoexit;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;autoexit
+travab autoexit;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;e;e;e;s;e;u;u;u;u;autoexit
+chp cast 'advanced heal' $*
+songban1 gos <sings> Banshee, Banshee, I'm half pansy, ; gos <sings> Without the aid of youuuuuu ...
+songban2 gos <sings> It won't be stylish battle, nay, ; gos <sings> We'll slaughter em like cattle, aye, ;
+songban3 gos <sings> But you'll look cute, ; gos <sings> With your ghostly boot, ; gos <sings> In the gut of a mob or twoooooo ...
+xx e ; cast 'charm' wailing ; w
+grp cast 'charm' $* ; group all
+rid ungroup $* ; cast 'fear' $* ; cast 'fear' $* ; cast 'fear' $*
+ch cast 'heal'
+x e;cast 'charm' banshee;w
+ca cast 'advanced'

@@ -1,0 +1,100 @@
+5
+curse
+12
+c 'curse' $*
+1
+2
+mm
+20
+c 'magic missile' $*
+1
+2
+lg
+11
+look ground
+0
+4
+quit
+9
+save;quit
+1
+7
+buyheal
+31
+buy 100 heal;put all.heal force
+1
+4
+wake
+18
+wake;stand;l;where
+1
+2
+lb
+21
+c 'lightning bolt' $*
+1
+2
+id
+12
+rec ident $*
+1
+8
+fillskin
+51
+get skin force;c 'create water' skin;put skin force
+1
+3
+gag
+15
+get gold corpse
+0
+6
+locate
+13
+c 'locate' $*
+1
+2
+em
+75
+c 'create food';c 'create food';eat mushroom;eat mushroom;junk all.mushroom
+1
+4
+heal
+21
+get heal force;q heal
+1
+2
+th
+100
+train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;
+1
+2
+di
+19
+c 'detect invis' $*
+1
+2
+lf
+13
+look in force
+0
+2
+lc
+14
+look in corpse
+0
+4
+word
+27
+get scroll force;rec scroll
+1
+2
+ds
+51
+get skin force;drink skin;drink skin;put skin force
+1
+3
+gac
+18
+get all all.corpse
+0

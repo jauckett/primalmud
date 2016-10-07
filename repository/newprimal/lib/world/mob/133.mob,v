@@ -1,0 +1,277 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.10.14.05.26.00;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.04;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> Checking In.
+@
+text
+@#13300
+bartender~
+Bartender~
+The large scar faced bartender is here glaring at you.
+~
+You see a heavy mean looking man.  His face is covered with scars, one that
+runs through his left eyebrow and across his nose and down to the right side of his face.  He never takes his eyes off the seedy crowd of the etablishment.
+His dirty bloodstained shirt and torn grey pants are badly in need of a wash.
+~
+16458 0 0 E
+99 -35 -15 1d5+3000 25d30+65
+1235 318117
+8 8 1
+E
+#13301
+bar maid~
+bar maid~
+A pretty bar maid is here serving drinks.
+~
+You see here a small framed bar maid.  She is dressed in a plain long flowing   
+skirt and is carrying an order of drinks. 
+~
+140 0 0 E
+2 18 13 4d1+40 2d3+5
+200 490
+8 8 2
+E
+#13302
+bar wench~
+wench bar~
+A seductive bar wench is rubbing up against you.
+~
+A seductive woman is standing here before you.  She is wearing a very
+low cut  
+dress and is very proud of her assets. 
+~
+2060 1024 0 E
+4 16 12 1d5+60 4d4+2
+561 560
+8 8 2
+E
+#13303
+man pianist~
+Pianist~
+You see a small balding man sitting here playing a old piano.
+~
+You see a small man here playing a old piano and singing.  He is wearing a large
+red bow tie and a striped shirt.  He looks like he enjoys his job.
+~
+41034 128 -1 E
+10 15 10 5d5+200 5d10+10
+1000 10050
+8 6 1
+E
+#13304
+man poker~
+poker man~
+An angry looking man is sitting at a table here playing poker.
+~
+You see a dirty smelly man here.  He has a hand full of cards and is covering
+them with both fists.  His eyes are bloodshot and beneath his jacket you see
+a gun in its holster.
+~
+74 1024 200 E
+8 17 11 5d5+200 5d5+10
+1500 8000
+8 6 1
+E
+#13305
+boy teenage~
+boy~
+A teenage boy is here looking around like he is rather out of place.
+~
+You see a small pimple faced teenage boy.  His eyes are wide as dinner plates
+as he weatched the women move about the room.  He looks totally out of place
+and you wonder who let this young boy in.
+~
+10 0 -10 E
+5 16 12 5d10+65 5d4+2
+500 950
+8 8 1
+E
+#13306
+the boss~
+boss~
+The Boss sits here counting his money.
+~
+You see a large angry looking man.  He is sitting behind a desk and is counting
+aloud.  He doesnt look like a man you should mess with.
+~
+106 8 -10 E
+10 11 10 13d10+100 6d6+8
+3000 10945
+8 8 1
+E
+#13307
+guard~
+guard~
+An armed guard is sitting here dozing.
+~
+You see a man who is nearly asleep.  However the slightest noise may wake him.
+~
+2122 1032 -100 E
+7 12 11 5d5+60 6d6+3
+800 4500
+8 8 1
+E
+#13308
+old alcoholic~
+alcoholic~
+An old alcoholic is slouching here.
+~
+You see a old man standing here.  His clothes dirty and torn.  He smells like
+a barrel of rum and is twice as round.
+~
+200 1 -20 E
+4 17 12 4d5+30 4d4+2
+450 400
+8 8 1
+E
+#13309
+con artist~
+con artist~
+A shifty con artist is scanning the room looking for his next prey.
+~
+You see a well dress man.  He has shifty eyes and large feet.  You know htat if you talk to him he will certainly take you for all you have got.
+~
+32840 136 200 E
+9 12 10 10d8+62 5d6+4
+1546 4064
+8 8 1
+E
+#13310
+rat~
+rat~
+A smelly rat scampers past you.
+~
+You see a small smelly rat with pointy white teeth scamper past you.  You catch
+a glimpse of its stone cold eyes.  
+~
+72 0 0 E
+1 20 13 2d4+10 2d2+1
+100 150
+8 8 0
+E
+$
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d11 2
+a12 2
+70 -25 -10 1d5+3000 4d4+5
+1235 10000
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d10 1
+a10 1
+16458 0 0 S
+d13 2
+a14 1
+8 8 1 2
+d23 2
+a24 2
+140 0 0 S
+2 18 1 4d1+40 2d1+5
+d26 2
+a27 1
+8 8 2 2
+d37 2
+a38 2
+2060 1024 0 S
+4 16 1 1d5+60 2d1+2
+d40 2
+a41 1
+8 8 2 2
+d50 2
+a51 2
+41034 128 -1 S
+10 15 5 5d5+200 5d10+10
+d54 1
+d64 2
+a65 2
+74  1024 200 S
+8 17 2 5d5+200 5d1+10
+d67 2
+a68 1
+8 6 1 2
+d78 2
+a79 2
+2 0 -10 S
+5 16 4 5d10+65 1d4+2
+d81 2
+a82 1
+8 8 1 2
+d91 2
+a92 2
+106 8 -10 S
+10 11 3 13d10+100 1d1+8
+d94 2
+a95 1
+8 8 1 2
+d103 2
+a104 2
+2122 1032 -100 S
+7 12 5 5d5+60 2d3+1
+d106 2
+a107 1
+8 8 1 2
+d116 2
+a117 2
+200 1 -20 S
+4 17 8 4d5+9 1d2+2
+d119 2
+a120 1
+8 8 1 2
+d128 2
+a129 2
+32840 136 200 S
+9 12 7 10d8+62 1d2+1
+d131 2
+a132 1
+8 8 1 2
+d141 2
+a142 2
+72 0 0 S
+1 20 9 5d4+10 2d2+1
+d144 3
+a146 3
+8 8 0 2
+#99999
+$~
+@
+

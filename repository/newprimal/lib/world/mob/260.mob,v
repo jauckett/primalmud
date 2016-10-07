@@ -1,0 +1,299 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.08;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@#26000
+gamorrean guard~
+a Gamorrean guard~
+A large Gamorrean guard is standing here, blocking your way.
+~
+Gamorreans are large green pig-like creatures who are known for their
+strength and stupidity. This one looks alot stronger than average and
+alot dumber than average.
+~
+42 1024 0 E
+18 1 7 1d12+223 12d12+8
+1000 24000
+8 8 1
+E
+#26001
+twi'lek servant~
+the twi'lek~
+The Twi'lek servant of Jabba the Hutt is standing here.
+~
+Twi'leks are strange looking creatures who have two long tantacles
+coming out of the back of their heads. They are known to be quite weak
+minded and are not very strong fighters.
+~
+72 0 0 E
+12 5 9 1d12+148 7d7+6
+2000 11000
+8 8 1
+E
+#26002
+tessek quarren~
+Tessek~
+Tessek, the Quarren bounty hunter, is standing here.
+~
+Tessek is a squid-faced Quarren from the planet Calamari. He is an 
+employee of Jabba the Hutt and only does bounty hunter work for him.
+~
+2120 1024 0 E
+20 1 7 1d12+248 9d9+7
+6000 35000
+8 8 1
+E
+#26003
+burnt out droid~
+the burnt out droid~
+A burnt out protocol droid is lying here, looking burnt out.
+~
+This droid has obviously seen better days. He has probably upset is
+master is some way and so he has been sent here to pay for what
+he has done.
+~
+42 1024 0 E
+13 7 9 1d12+161 8d7+7
+900 13000
+8 8 0
+E
+#26004
+jabba the hutt~
+Jabba the Hutt~
+Jabba the Hutt, the intergalactic crimelord, is sitting here.
+~
+Jabba the Hutt is one of the most notorious gangsters in the galaxy.
+He runs a very successful spice smuggling operartion and has no mercy
+on those who disapoint him. He is an extremely large creature and he 
+spends most of his time these days lying on a large floating slab.
+~
+2059 128 0 E
+40 -14 0 1d49+2001 15d18+18
+36000 400000
+8 8 1
+E
+#26005
+rancor~
+the rancor~
+The Rancor is standing here, towering over you.
+~
+The rancor is a massive creature towering over you. It stands well 
+20 feet tall and could easily tear you apart without even thinking, 
+and thats exactly what it looks like it wants to do!
+~
+104 1152 -1000 E
+30 -8 3 1d49+1201 16d14+17
+27000 120000
+8 8 0
+E
+#26006
+torture droid~
+the torture droid~
+A torture droid is standing here, scanning you.
+~
+This torture droid has a large assortment of gadgets on its body
+all of which look like they have been made to cause pain. The series 7
+torture droids are known for being very effitient and their ability to
+cause an extreme amount of pain without killing their victims.
+~
+2090 1024 0 E
+20 1 9 1d12+248 5d15+10
+3000 33000
+8 8 0
+E
+#26007
+boba fett~
+Boba Fett~
+Boba Fett the bounty hunter, is standing here.
+~
+Boba Fett is probably the most notorious bounty hunter in the galaxy. 
+It is said that he has never failed a hunt. He wears strong armour and
+carries a deadly arsenal of weapons.
+~
+258075 1192 -500 E
+28 -10 4 2d25+1050 16d16+10
+20000 180000
+8 8 1
+E
+#26008
+jawa~
+a jawa~
+A jawa is standing here, trying to sell you a droid.
+~
+The Jawa is very short and is wearing a brown, hooded cloak that
+covers its whole body. All you can see of its face are its glowing
+eyes that shine out from under its hood.
+~
+12 1024 0 E
+7 12 11 1d11+86 6d7+3
+150 2200
+8 8 0
+E
+#26009
+wookiee~
+a wookiee~
+A large hairy wookiee is standing here, growling.
+~
+Wookiees are large hairy beasts from the jungle world of Kashyyyk.
+This wookie stands at least 7 feet tall and looks incredibly strong.
+~
+2074 0 400 E
+25 0 5 1d49+701 15d16+12
+8000 80000
+8 8 0
+E
+#26010
+oola~
+Oola~
+Oola, Jabba's dancing girl, is dancing here.
+~
+Oola is an attractive young alien who dances to entertain
+Jabba the Hutt. Her arms and legs are chained so that she will not
+escape and she does not look very happy.
+~
+200 0 400 E
+9 12 10 1d11+95 6d5+5
+340 4000
+8 8 2
+E
+$
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d38 1
+a38 1
+20 1 0 1d12+248 4d6+4
+d67 2
+a68 2
+40 -14 -40 1d49+2001 5d8+5
+50000 600000
+d81 2
+a82 2
+30 -8 -20 1d49+1201 6d4+7
+50000 120000
+d96 1
+a96 1
+20 1 -1 1d12+248 4d6+4
+d110 1
+a110 1
+28 -10 -30 2d25+1050 6d6+5
+d137 1
+a137 1
+25 0 -4 1d49+701 5d6+4
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d10 2
+a11 2
+34 1024 0 S
+18 1 1 1d12+223 2d6+2
+d13 2
+a14 1
+8 8 1 3
+d24 2
+a25 2
+64 0 0 S
+12 5 2 1d12+148 2d7+1
+d27 2
+a28 1
+8 8 1 3
+d37 1
+a37 1
+2120 1024 0 S
+d40 2
+a41 1
+8 8 1 3
+d51 2
+a52 2
+34 1024 0 S
+13 7 2 1d12+161 2d7+1
+d54 2
+a55 1
+8 8 0 2
+d66 1
+a66 1
+2051 128 0 S
+d69 2
+a70 1
+8 8 1 3
+d80 1
+a80 1
+96 1152 -1000 S
+d83 2
+a84 1
+8 8 0 5
+d95 1
+a95 1
+2090 1024 0 S
+d98 2
+a99 1
+8 8 0 2
+d109 1
+a109 1
+258067 1192 -500 S
+d112 3
+a114 2
+8 8 1 2
+#26008 
+d123 2
+a124 2
+4 1024 0 S
+7 12 4 1d11+86 3d3+1
+d126 2
+a127 1
+8 8 0 2
+d136 1
+a136 1
+2074 0 400 S
+d139 2
+a140 1
+8 8 0 3
+d150 2
+a151 2
+192 0 400 S
+9 12 3 1d11+11 2d5+1
+d153 3
+a155 2
+8 8 2 2
+$~
+@
+

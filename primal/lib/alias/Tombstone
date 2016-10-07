@@ -1,0 +1,72 @@
+ord order followers kill $*;kill $*
+odr order followers kill $*;kill $*
+cl cast 'clone';cast 'clone'
+4 order followers sleep;ungroup;d
+scylla d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;unlock sand;open sand;w;w;w;n;n;e;e;s;w
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+lev1 e;e;e;e;s;s;e;unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e;unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+spiral d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+gra grats --'--,-@ $1 @-'--,-- on reaching level $2
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+talon cast 'remove curse' talon;e;sell talon;w
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+tele cast 'teleport' 
+2 cast 'advanced heal' $*
+c get coin all.corpse
+x get all corpse
+life cast 'sense life' $*
+water cast 'waterwalk' $*
+loc cast 'locate' $*
+drag cast 'dragon' $*
+anim cast 'animate' corpse;group all
+gc drop tool;get corpse;junk corpse;get tool
+ref cast 'refresh' $*
+bl cast 'blind' $*
+tra train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*
+ammo buy 5 ammo;put all.ammo back
+ki get ammo backpack;reload;put ammo backpack;kick $*
+bp buy 5 prot;put all.prot backpack
+bh buy 20 heal;put all.heal tool
+gt get tool tool
+tool put tool 2.tool
+det cast 'detect inv' $*
+inf cast 'infrav' $*
+inv cast 'invis' $*
+sl cast 'sleep' $*
+wa wake;stand
+re cast 'word'
+sum cast 'summon' $*
+8 cast 'sanc' $*
+5 cast 'haste'
+id cast 'identif' $*
+ww cast 'whirlwind'
+par cast 'paral' $*
+fi cast 'finger' $*
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+rope cas 'remove curse' rope;e;sell rope;w
+cd2 cast 'clone';cast 'clone';order followers die
+a4 cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;group all
+a2 cast 'animate' corpse;cast 'animate' corpse;group all
+cd4 cast 'clone';cast 'clone';order followers die;cast 'clone';cast 'clone';order followers die
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n;open gate
+back n;n;n;n;n;n;open front;n;n;n;open door;n;n;e;open slid;n;n;d;n;w;w;w
+ret cast 'word';n;n;e;s;sle
+cd cast 'clone';cast 'clone';order followers die;cast 'clone';cast 'clone';order followers die;cast 'clone';cast 'clone';order followers die
+a6 cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;group all
+cd1 cast 'clone';order followers die
+rc cast 'remove curse' $*
+getd hold lant;hold drill;wield laser;wear black body;wear all;put tool 2.tool;put tool 2.tool
+noh cast 'nohassle'
+1 get heal tool;get heal tool;get heal tool;get heal tool;get heal tool;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put tool 2.tool
+rome1 wake;stand;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;s;w;s;s
+z show zone $*

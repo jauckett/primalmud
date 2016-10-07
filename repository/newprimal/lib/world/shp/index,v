@@ -1,0 +1,255 @@
+head	1.14;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.14
+date	2004.05.23.07.21.50;	author mud;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.31.03.11.55;	author mud;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.04.12.51.43;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.12.31.10.39.19;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.09.05.45.01;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.11.25.05.38.05;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.11.08.11.59.20;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.20.12.01.51;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.14.05.31.38;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.01.17.04.52.08;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.17.00.05.14;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.11.15.04.52;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.11;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.14
+log
+@Artus> Checking everything in again.
+@
+text
+@11.shp
+20.shp
+24.shp
+32.shp
+36.shp
+60.shp
+64.shp
+67.shp
+100.shp
+113.shp
+116.shp
+119.shp
+132.shp
+220.shp
+250.shp
+261.shp
+300.shp
+310.shp
+315.shp
+316.shp
+317.shp
+
+$
+@
+
+
+1.13
+log
+@Artus> 100: Sync. Others: New.
+@
+text
+@d7 1
+d20 2
+@
+
+
+1.12
+log
+@Artus> Migration time!
+@
+text
+@d7 3
+d18 1
+@
+
+
+1.11
+log
+@Artus> Moving agross to live.
+@
+text
+@d11 1
+@
+
+
+1.10
+log
+@Artus> Synchronising.
+@
+text
+@d8 1
+@
+
+
+1.9
+log
+@Artus> Keeping everything up to date..
+@
+text
+@d5 1
+@
+
+
+1.8
+log
+@Artus> Just up-to-dating....
+@
+text
+@d2 1
+d11 1
+@
+
+
+1.7
+log
+@Artus> A3_0_315
+@
+text
+@d8 1
+d10 1
+@
+
+
+1.6
+log
+@Artus> Added to Repository.
+@
+text
+@a4 1
+115.shp
+a7 1
+250.shp
+@
+
+
+1.5
+log
+@Latest Versions
+@
+text
+@d6 1
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@a4 1
+69.shp
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@a9 1
+281.shp
+@
+
+
+1.2
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d10 1
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d5 2
+@
+

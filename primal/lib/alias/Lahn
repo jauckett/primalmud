@@ -1,0 +1,79 @@
+sanc cast 'sanc' $1
+se sneak; e ; hide
+ss sneak; s ; hide
+sw sneak; w; hide
+sn sneak; n ; hide
+be rem blade; wield ivory; backstab $1; rem ivory; wield blade
+bs cast 'sleep' $1; rem blade; wield ivory; backstab $1; rem ivory; wield blade
+sleep cast 'sleep' $1
+cong grat ----------------------------------------------------------------<<<<<<<<<<<<<<<<<<<<((((((((((Go Go Go $1 GO ))))))))))>>>>>>>>>>>>>>>>>>>>----------------------------------------------------------------------------
+roar holler RRRRRROOOOOOAAAAAARRRRRR!!!!!!
+wea cast 'control' better
+recall rem sceptre; rem enlibrite; hold rod; use rod lahn
+tel cast 'teleport' lahn
+6 cast 'word' bort
+edih rem hide; wear chain
+water cast 'waterwalk' $1
+sl sleep
+4 rec recall lefty
+5 rec recall ordos
+ai assist intan
+loc cast 'locate object' $1
+haven n; e; e; e; e; e; e; e; e; e; e; e; e; e; e; s; s;  e; e; e; 
+su cast 'summon' $1
+lb cast 'call lightning' $1
+summon cast 'summon' $1
+k cast 'heal' lahn
+ab assist bort
+cif c 'infravision' $1
+ref c 'refresh' $1
+pp open crate; get white crate; quaff white; close crate
+em open crate; get meat crate; eat meat; close crate
+dr open crate; get skin crate; drink skin; put skin crate; close crate
+gc open crate; get $1 crate; close crate
+h get all.coins all.corpse
+lag : FUBARS the lag monster
+pou : pounds the $1 hard
+gg get all corpse; get corpse; junk corpse
+hh c 'cure critical' lahn
+hg c 'cure light' grumpy
+rr get red backpack; quaff red
+al assist liaison
+hiho gos hiho hiho its off to hunt $1 we go
+cf c 'cure critical' fenn
+ci c 'invisibility' $1
+cdi c 'detect invisibility' lahn
+g get all all.corpse
+rre c 'word of recall' lahn
+robo n; e; s ;s
+tem s;s;e;e;s;s;s;e;e;
+rome s;s;s;s;s;s;s;s;s;s;s
+cap w;w;w;w;w;w;u;u;n
+sb open crate; get knife crate; get vorpal crate; close crate
+pc open crate; put $1 crate; close crate
+9 : conjures up a snowball and shoves it in $1 face
+0 : punches $1 right in the face! Yuck, the BLOOD!
+refresh cast 'refresh' lahn
+q recite recall zilt
+id open crate; get identify crate; rec identify $1; close crate
+ex open crate; examine crate; close crate
+silver : wields a Silver Dager.
+rl cast 'word of recall' lilitu
+axe rem cutlass; wield axe
+exa rem axe; wield cutlass
+ad assist dracion
+howl holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+dead cast 'animate' corpse
+mad rem pen; rem enlibrite; rem hide; wear chain; hold skull; hold sceptre
+dam hold tooth; hold pen
+slife cast 'sense life' lahn
+slay wield silver; slay $1; rem silver
+stake wield stake; stake $1; rem stake
+2 tag varga
+3 tag misty
+1 tag listy
+[d w; tag listy
+[a n; tag listy
+[c e; tag list1
+hunter title of Hunters Inc. {Chief Undead Healer} {$1}
+holler holler $*; cast 'refresh' lahn

@@ -1,0 +1,38 @@
+fris throw frisbee $*
+holy cast 'bless' Barelmosi; cast 'armor' Barelmosi; cast 'sanctuary' Barelmosi $*
+water get skin back; drink skin; put skin back
+mjkget gold all.cor
+locate cast 'locate object' $*
+lig cast 'lightning bolt' $*
+cosas exa 2.back
+ruby get all.ruby back
+eld rem drum;put drum back;get eld back;hold eld; use eld $*; rem eld; junk eld; get drum back;hold drum
+j tell jale $*
+y cast 'cure critical' Barelmosi
+= tell psy $*
+bu cast 'burning hands' $*
+mjk get gold cor
+back get all.doughnut back;junk all.doughnut; exa back $*
+red get red back; q red $*
+white get white back; q white $*
+cfd get all all.cor
+meat get meat back; eat meat $*
+call get rec back; rec rec $*
+p assist psycho $*
+burn cast 'burning hands' $*
+armor cast 'armor' $*
+bless cast 'bless' $*
+food cast 'create food'; eat mush $*
+cure cast 'cure critic' $*
+alig cast 'detect alignment' $*
+detect cast 'detect invis' $*
+infra cast 'infravision' $*
+invis cast 'invis' $*
+mm cast 'magic missile' $*
+cry tell psy I need to be summoned!!!
+buf kill buf
+wolf change; moon; time $*
+ton get tonic back; q tonic; $*
+h assis jale $*
+g track guard dog
+fire cast 'fireball' $*

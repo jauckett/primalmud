@@ -1,0 +1,5 @@
+dw get skin backpack; drink water ; drink skin; put skin backpack
+em get meat backpack; eat meat
+pab put all backpack
+lib look in backpack
+bs rem club; get dagger backpack;wi dagger; backstab $1; rem dagger; wi club ; put dagger backpack

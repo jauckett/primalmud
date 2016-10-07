@@ -1,0 +1,76 @@
+head	1.2;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.07.20.08.21.02;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@
+
+			  PrimalMUD v3.0
+
+		            Created by
+		  John Auckett and Brett Murphy
+
+	              Based on CircleMUD 3.17
+	              Created by Jeremy Elson
+
+
+By what name are you known? 
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d3 1
+a3 1
+			  &yPrimalMUD v3.0&n
+d6 1
+a6 1
+		  &WJohn Auckett&n and &WBrett Murphy&n
+d8 1
+a8 1
+	              Based on CircleMUD &g3.17&n
+d12 1
+a12 1
+&yBy what name are you known? &n
+@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

@@ -1,0 +1,15 @@
+hb hold backpack
+k kill skeleton
+kk kill owl
+ci cast 'infra'
+ca cast 'armor'
+cdi cast 'detect invis'
+cc cast 'cure light'
+0 get all corpse
+eb get bread backpack;eat bread
+bb buy 5 bread;put all.bread backpack
+ga get all corpse
+9 get all.gold all.corpse
+ds drink skin
+lib look in backpack
+ws wake;stand

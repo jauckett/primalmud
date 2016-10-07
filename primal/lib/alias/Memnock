@@ -1,0 +1,15 @@
+lp look in backpack
+qy get yellow backpack;quaff yellow
+ds get skin back;drink skin;put skin back
+em get meat back;eat meat
+qw get white backpack;quaff white
+pack put all.$1 backpack
+gac get all corpse
+pa put all backpack
+rm get map backpack;read map;put map backpack
+qr get red backpack;quaff red
+ll get lantern backpack; hold lantern
+pl put lantern backpack
+rl remove lantern;put lantern backpack
+gap get all.potion backpack
+eb get bread backpack;eat bread

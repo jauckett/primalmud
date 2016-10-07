@@ -1,0 +1,55 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@i cast 'invisibility' raffang
+summon cast 'summon' $1
+ar cast 'armor' me
+$$ get gold corpse
+mm cast 'magic missile' $1
+ws wake;stand
+bh cast 'burning hands' $1
+gw get white back; quaff white
+gr get red back; quaff red
+blind cast 'blindness' $1
+in cast 'invisibility' me
+home cast 'word of recall'
+start wear all ; hold stone ; hold drum; wield super ; junk all.doughnut ; put all back
+h get heal bac ; quaff heal
+k back $1
+gal get all corpse ; get corpse ; junk corpse
+heal cast 'cure critic' me
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

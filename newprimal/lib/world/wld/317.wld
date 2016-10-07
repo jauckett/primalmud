@@ -1,0 +1,856 @@
+#31700
+Under the Lake!~
+So you went through the shiny orange swirly thing and now you have crash landed
+in a lake!  Through starbugs windows you can see fish swimming around.  You
+have climbed out of starbug and I think you NEED to swim to the surface before
+you run out of air!    
+~
+317 r 7 0
+D4
+~
+~
+0 0 31701
+S
+#31701
+Beside the Lake~
+Standing on the edge of the lake, there is a nice green forest in front of you.
+There are tall trees all around you and a grassy area just off to your west.  
+~
+317 r 0 0
+D3
+~
+~
+0 0 31702
+D5
+~
+~
+0 0 31700
+S
+#31702
+Grassy Area~
+You are standing in a little grassy paddock!  To your east you can see trees
+and to your north there is a track leading out of this park area.    
+~
+317 r 0 0
+D0
+~
+~
+0 0 31703
+D1
+~
+~
+0 0 31701
+S
+#31703
+Through the Park!~
+As you move along the track that leads you out of the park you notice signs on
+the trees that are at the edge of the track!    
+~
+317 r 0 0
+D0
+~
+~
+0 0 31704
+D2
+~
+~
+0 0 31702
+S
+#31704
+On a Road~
+As you walk through the park you come to a road that runs through the heart of
+the park!  The road shows signs of being well used.  This road runs east to
+west through the park!    
+~
+317 0 0 0
+D0
+~
+~
+0 0 31707
+D1
+~
+~
+0 0 31705
+D2
+~
+~
+0 0 31703
+D3
+~
+~
+0 0 31706
+S
+#31705
+Along the Road~
+As you walk down the road you notice that the trees start to thin out and the
+parkland starts to take on the feel of a well kept garden!  There are hedges to
+your left and right and ahead you can see the track improves to a road!    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31709
+D3
+~
+~
+0 0 31704
+S
+#31706
+Along the Road~
+As you walk down the road heading west you find yourself walking for miles
+before you think you will find a town or a city!  The park that surrounds this
+road is rather big and peaceful!  It seems to be endless!    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31704
+D3
+~
+~
+0 0 31706
+S
+#31707
+Through the Park~
+As you walk over the road and back into the park the trees become sllightly
+more denser around here!  There is a lot of dead leaves on the track and you
+notice that the track becomes smaller as you walk along.    
+~
+317 0 0 0
+D0
+~
+~
+0 0 31708
+D2
+~
+~
+0 0 31704
+S
+#31708
+Through the Park~
+The track is fading away to a small trail!  More like an animal trail than a
+track!  The density of the trees has increased and it looks like you are the
+only person that has travelled this path for a very very long time!    
+~
+317 0 0 0
+D0
+~
+~
+0 0 31708
+D2
+~
+~
+0 0 31707
+S
+#31709
+Along the Road~
+As you continue walking down the road you can hear the sound of a truck coming
+along behind you!  There is a lawn area to the north of you.  To the south is
+more garden that has been roped off.    
+~
+317 0 0 0
+D0
+~
+~
+0 0 31710
+D1
+~
+~
+0 0 31709
+D3
+~
+~
+0 0 31705
+S
+#31710
+On the Lawn~
+You have walked off the road and are now standing on a very well kept lawn
+section of the garden!  This lawn runs along the edge of the road for as far as
+you can see!  At the top of the lawn there is a very large hedge that shows no
+sign of opening all the way along!  Obviously whoever keeps this garden does not
+want anyone moving past the lawn!    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31710
+D2
+~
+~
+0 0 31709
+S
+#31711
+In the City~
+As the truck drops you off on the corner of Mortimer Street you see that you
+are on the fringe of the busy city called London!  There are people everywhere
+walking about minding their own business!  There are lots of cars, buses and
+trucks on the roads and things seem to be back to normal for those who are in
+the know!    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31715
+S
+#31712
+Mortimer Street~
+You are standing on Mortimer Street there are buildings on either side of you
+and lots of people wandering around doing what people do in the middle of the
+day or night.  From here the street runs west as far as the eye can see.    
+~
+317 0 0 0
+D2
+~
+~
+0 0 31728
+D3
+~
+~
+0 0 31713
+S
+#31713
+Mortimer Street~
+You are standing on Mortimer Street there are buildings on either side of you
+and lots of people wandering around doing what people do in the middle of the
+day or night.  From here the street runs east and west and also Dean Street
+runs south from here.    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31712
+D2
+~
+~
+0 0 31732
+D3
+~
+~
+0 0 31714
+S
+#31714
+Mortimer Street~
+You are standing on Mortimer Street there are buildings on either side of you
+and lots of people wandering around doing what people do in the middle of the
+day or night.  From here the street runs east to west and south is Wardour
+Street.    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31713
+D2
+~
+~
+0 0 31736
+D3
+~
+~
+0 0 31715
+S
+#31715
+Mortimer Street~
+You are standing on Mortimer Street there are buildings on either side of you
+and lots of people wandering around doing what people do in the middle of the
+day or night.  From here the street runs east and south is Regent street.    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31714
+D2
+~
+~
+0 0 31740
+D3
+~
+~
+0 0 31711
+S
+#31716
+New Oxford Street~
+New Oxford Street.    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31729
+D3
+~
+~
+0 0 31717
+S
+#31717
+New Oxford Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31716
+D3
+~
+~
+0 0 31718
+S
+#31718
+New Oxford Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31717
+D3
+~
+~
+0 0 31719
+S
+#31719
+New Oxford Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31718
+D3
+~
+~
+0 0 31741
+S
+#31720
+Shaftsbury Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31730
+D3
+~
+~
+0 0 31721
+S
+#31721
+Shaftsbury Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31720
+D3
+~
+~
+0 0 31722
+S
+#31722
+Shaftsbury Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31737
+D1
+~
+~
+0 0 31721
+D2
+~
+~
+0 0 31738
+D3
+~
+~
+0 0 31723
+S
+#31723
+Shaftsbury Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31722
+D3
+~
+~
+0 0 31742
+S
+#31724
+The Strand~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31731
+D3
+~
+~
+0 0 31725
+S
+#31725
+The Strand~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31735
+D1
+~
+~
+0 0 31724
+D3
+~
+~
+0 0 31726
+S
+#31726
+The Strand~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31739
+D1
+~
+~
+0 0 31725
+D3
+~
+~
+0 0 31727
+S
+#31727
+The Strand~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31726
+D3
+~
+~
+0 0 31743
+S
+#31728
+Charing Cross Road~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31712
+D2
+~
+~
+0 0 31729
+S
+#31729
+Charing Cross Road~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31728
+D2
+~
+~
+0 0 31730
+D3
+~
+~
+0 0 31716
+S
+#31730
+Charing Cross Road~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31729
+D2
+~
+~
+0 0 31731
+S
+#31731
+Charing Cross Road~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31730
+D3
+~
+~
+0 0 31724
+S
+#31732
+Dean Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31713
+D2
+~
+~
+0 0 31733
+S
+#31733
+Dean Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31732
+D1
+~
+~
+0 0 31716
+D2
+~
+~
+0 0 31734
+D3
+~
+~
+0 0 31717
+S
+#31734
+Dean Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31733
+D2
+~
+~
+0 0 31735
+S
+#31735
+Dean Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31734
+D2
+~
+~
+0 0 31725
+S
+#31736
+Wardour Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31714
+D2
+~
+~
+0 0 31737
+S
+#31737
+Wardour Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31736
+D2
+~
+~
+0 0 31738
+S
+#31738
+Wardour Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31737
+D1
+~
+pub~
+1 0 31744
+D2
+~
+~
+0 0 31739
+S
+#31739
+Wardour Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31738
+D2
+~
+~
+0 0 31726
+S
+#31740
+Regent Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31715
+D2
+~
+~
+0 0 31741
+S
+#31741
+Regent Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31740
+D2
+~
+~
+0 0 31742
+S
+#31742
+Regent Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31741
+D1
+~
+~
+0 0 31723
+D2
+~
+~
+0 0 31743
+S
+#31743
+Regent Street~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31742
+D1
+~
+~
+0 0 31727
+S
+#31744
+Stairs Leading to the pub!~
+You have noticed the door in the building and as you open it you see a set of
+stairs leading down to the pub!    
+~
+317 0 0 0
+D3
+~
+pub~
+1 0 31738
+D5
+~
+~
+0 0 31745
+S
+#31745
+In the Pub!~
+You are standing at the door of the pub!  There is a bar to your right and to
+your left is a small stage with a piano on it all around you there are table
+and chairs and people sitting around them waiting for the show!    
+~
+317 0 0 0
+D1
+~
+~
+0 0 31746
+D3
+~
+~
+0 0 31748
+D4
+~
+~
+0 0 31744
+S
+#31746
+The Bar~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31747
+D3
+~
+~
+0 0 31745
+S
+#31747
+The Bar~
+You are in an unfinished room.
+~
+317 0 0 0
+D2
+~
+~
+0 0 31746
+S
+#31748
+At the foot of the stage~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31745
+D4
+~
+~
+0 0 31749
+S
+#31749
+On the stage~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+~
+0 0 31750
+D5
+~
+~
+0 0 31748
+S
+#31750
+Behind the stage~
+You are in an unfinished room.
+~
+317 0 0 0
+D3
+~
+~
+0 0 31749
+D5
+~
+~
+0 0 31751
+S
+#31751
+Down to the change rooms~
+You are in an unfinished room.
+~
+317 0 0 0
+D0
+~
+~
+0 0 31752
+D4
+~
+~
+0 0 31750
+S
+#31752
+End of the short corridor~
+You are in an unfinished room.
+~
+317 0 0 0
+D1
+~
+change~
+1 0 31753
+D2
+~
+~
+0 0 31751
+S
+#31753
+In the Changing Room~
+You are in an unfinished room.
+~
+317 0 0 0
+D3
+~
+change~
+1 0 31752
+S
+#31754
+31754~
+You are in an unfinished room.
+~
+317 0 0 0
+S
+#31755
+31755~
+You are in an unfinished room.
+~
+317 0 0 0
+S
+$~

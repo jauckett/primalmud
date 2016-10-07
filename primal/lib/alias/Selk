@@ -1,0 +1,4 @@
+clw cast 'cure light' self
+scab examine corpse; get gold corpse;
+mm cast 'magic missile' $1
+cast 'magic missile'

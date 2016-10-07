@@ -1,0 +1,51 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cl c 'cure light' $1
+g gos $*
+cls c 'cure light' self
+wak wake; stand
+gcc get coins all.corpse
+gac get all corpse
+mm c 'magic missile' $1
+schu : explodes into uncontrollable satanic laughter.
+vague : waves his arms around vaguely.
+as assist stab
+ct c 'chill touch' $1
+rr recite recall
+bh c 'burning hands' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

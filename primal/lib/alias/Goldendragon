@@ -1,0 +1,16 @@
+quit quitreally
+rr recite recall
+ca cast 'armor'
+cw cast 'cure light'
+ga get all all.corpse
+ec exa corpse
+fs fill skin fountain
+ds drink skin
+mm cast 'magic missile' $1
+gg get all.gold all.corpse
+gc get all.coins
+al assist lancex
+tm tell mek $*
+bl cast 'bless'
+aa assist Atreides
+t tell luna $*

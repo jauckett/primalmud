@@ -1,0 +1,22 @@
+aa assasinate
+stab rem halb;wield dag;backst $1;rem dagg;wield halb
+grug group all;ungroup
+exc examine corpse
+cg grats Wooo... Great stuff,$*
+ggc get gold corpse
+gac get all corpse
+pb put $1 backpack
+lb look in backpack
+gb get $1 backpack
+tt track traveller
+h cast 'cure light'
+pf open force;put $1 force;close force
+gf open force;get $1 force;close force
+lf open force;look in force;close force
+ef open force;get $1 force;eat $1;close force
+dskin open force;get skin force;drink skin;put skin force;close force
+fskin open force;get skin force;fill skin $1;put skin force;close force
+gomain u;e;e;e;e;e;e;e;e;e;s;s;e;e;e
+white open force;get white force;quaff white;close force
+rec open force;get recall force;recite recall;close force
+temp n;get all;s

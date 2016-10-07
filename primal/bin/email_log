@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# Written by Michael Dishon, September 1999.
+
+# email_log: called from execute_script in utils.c
+# emails ADMIN with the given subject
+
+ADMIN="mbd@ecr.mu.oz.au sandii@scuis.net.au"
+ATTACH=0
+DATE=`date`
+ATTACHMENT=""
+SYSLOG="/home/primal/primal/log/syslog.6"
+
+# Process the arguments
+while getopts a:s: flag ; do
+  case $flag in
+    a) ATTACH=1 ; ATTACHMENT="$OPTARG" ;;
+    s) SUBJECT="$OPTARG" ;;
+  esac
+done
+
+shift `expr "$OPTIND" - 1`
+
+if [ $ATTACH -eq 1 ] ; then
+  SUBJECT="$SUBJECT:$DATE"
+  elm -s "$SUBJECT" "$ADMIN" < "$ATTACHMENT"
+else
+  SUBJ=`echo "$SUBJECT" | tr 'A-Z' 'a-z'`
+  SUBJECT="$SUBJECT:$DATE"
+  if [ "$SUBJ" = "primalmud: reboot" ] ; then
+    elm -s "$SUBJECT" "$ADMIN" < "$SYSLOG"
+  else
+    elm -s "$SUBJECT" "$ADMIN" 
+  fi
+fi

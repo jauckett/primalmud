@@ -1,0 +1,70 @@
+2
+cc
+14
+compost corpse
+0
+2
+fd
+13
+c 'finger' $*
+1
+2
+ck
+14
+c 'cloud kill'
+0
+2
+id
+15
+c 'identify' $*
+1
+5
+train
+43
+train 100 hit;train 100 mana;train 100 move
+1
+4
+heal
+32
+c 'adv heal' $*;c 'adv heal' $* 
+1
+7
+manager
+50
+k manager;k manager;k manager;k manager;k manager;
+1
+2
+dh
+11
+c 'heal' $*
+1
+7
+protect
+36
+c 'bless' $*;c 'armo' $*;c 'sanc' $*
+1
+3
+gac
+18
+get all all.corpse
+0
+6
+locate
+13
+c 'locate' $*
+1
+6
+recall
+10
+c 'recall'
+0
+2
+em
+57
+c 'create food';c 'create food';eat mushroom;eat mushroom
+1
+2
+lc
+14
+look in corpse
+0

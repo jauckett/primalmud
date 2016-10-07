@@ -1,0 +1,56 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@dp get red from backpack;drop red
+skb cast 'shocking grasp' boar
+sg cast 'shocking grasp'
+lc cast 'cure light' Logres
+mr get map from backpack;read map;put map in backpack
+dw get skin from backpack;drink skin;put skin in backpack
+wp get white from backpack;quaff white
+eb get bread from backpack;eat bread
+et get meat from backpack;eat meat
+rp get red from backpack;quaff red
+gc get all from corpse
+hs cast 'cure light' Paula
+fs get skin from backpack;fill skin fountain;put skin in backpack
+cf cast 'create food';eat mushroom
+as cast 'armor' Paula
+op get orange from backpack;quaff orange
+yp get yellow from backpack;quaff yellow
+sr recite recall
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

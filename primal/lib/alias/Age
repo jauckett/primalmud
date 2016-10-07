@@ -1,0 +1,90 @@
+g go
+xs cast 'spitir armor' xgamer
+1 cast 'sleep' latona;cast 'para' latona;cast 'blindness' latona
+colo cast 'color spray' $1
+godbless c 'divine prot' self;c 'holy aid' age;c 'spirit armor' age
+dh c 'divine heal' $*
+clo order fol auto age
+rome! s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+water cast 'create water'
+armor cast 'spirit armor'
+teleport cast 'teleport'
+wa wake;stand
+wak wake;stand
+blind cast 'blind' $1
+boot banish devin
+snap a
+stone cast 'stoneskin' self
+sanc cast 'sanc' me
+tudor!  w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+- w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s
+life cast 'sense life' me
+harm cast 'harm' $1
+prot cast 'divine protection' me
+spirit cast 'spirit armor' me
+whirl cast 'whirlwind'
+heal cast 'divine heal' $1
+serpent cast 'serpent skin' $1
+shield cast 'lightning shield'
+dead cast 'animate dead' $1
+cloud cast 'cloud
+0 ord fol k $*
+t train hit
+swarm cast 'meteor swarm'
+scream primal scream
+poison cast 'remove poison' $1
+waterwalk cast 'waterwalk' $1
+see cast 'infravision' age
+lig cast 'lightning' $1
+stren cast 'strength' age
+dragon cast 'dragon' age
+refresh cast 'refresh' me
+earth cast 'earthquake'
+bless cast 'bless' $1
+dete cast 'detect invis' $1
+invis cast 'invis' $1
+blast cast 'plasma' $1
+object cast 'locate' $1
+para cast 'para' $1
+charm cast 'charm' $1
+ident cast 'ident' $1
+` quitreally
+xg cast 'advanced' xgamer
+sc cast 'advanced' scorpion
+ssc cast 'sanc' scorpion
+sxg cast 'sanc' xgamer
+bsc cast 'bless' scorpion
+bxg cast 'bless' xgamer
+summon cast 'summon' $1
+finger cast 'finger' $1
+gate cast 'dimensional gate' $1
+clone cast 'clone'
+fly cast 'fly' me
+holy cast 'holy' me
+gsanc cast 'group sanc'
+recall cast 'word of recall' 
+* say lets move!!!
+remcur cast 'remove curse' $1
+haste cast 'haste' me
+fire cast 'fire shield'
+wraith cast 'wraith touch' $1
+ret retreat
+fear cast 'fear' $1
+waterbreathe cast 'waterbreathe' me
+gheal cast 'group heal'
+garmor cast 'group armor'
+food cast 'create food'
+2clone cast 'sanc' 2.clone
+1clone cast 'sanc' 1.clone
+queen rem pulse;open for;get queen for;wi queen;back $1;rem queen;wi pulse;put queen for;
+cli cast 'cure light' rav
+clonelife cast 'sense' 1.clone;cast 'sense' 2.clone
+cloneinv cast 'detect inv' 1.clone;cast 'detect inv' 2.clone
+come tell djkd come
+hm tell djkd heal
+mana tell djkd mana
+z snap
+color cast 'color spray' $1
+he cast 'divine heal' me
+h cast 'heal' treach
+sanct cast 'sanc' treach

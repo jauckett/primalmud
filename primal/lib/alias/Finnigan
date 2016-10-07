@@ -1,0 +1,14 @@
+cure cast 'cure light'
+wat drink skin
+rec get recall bag ; recite recall finnigan
+food get meat bag; eat meat
+jc get corpse ; junk corpse
+ga get all corpse
+qw get white backpack ; q white
+kb kick bandit
+lb c 'light' bandit
+qr get red backpack ; q red
+wake wake ; stand
+rc get recall backpack ; recite recall finnigan
+ks kick soldier
+ls c 'light' soldier

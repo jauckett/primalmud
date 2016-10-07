@@ -1,0 +1,39 @@
+0 get tonic tool;q tonic
+qq get heal force;q heal
+rc cast 'remove curse' $1
+fa order follow assist
+fk order follow kill $1
+islandforever autoexit;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;u;open dock;u;e;e;autoexit
+ref cast 'refresh'
+d sneak;d;hide
+u sneak;u;hide
+n sneak;n;hide
+s sneak;s;hide
+w sneak;w;hide
+e sneak;e;hide
+cf c 'create food'; eat mush
+sc score;save
+eq eq;i;save
+gcc get all.coins all.corpse
+gac get all all.corpse
+cc scan
+re c 'word'
+se spy e
+sw spy w
+sn spy n
+su spy u
+sd spy d
+sx spy s
+jc get corpse;junk corpse
+holycity autoexit;rem skull;wear sombrero;w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w;s;rem sombrero;wear skull;autoexit;l
+desert autoexit;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;autoexit;l
+abyss autoexit;rem skull;wear sombrero;w;w;w;w;n;n;n;w;s;n;s;w;n;w;w;n;n;e;e;e;e;e;n;e;e;e;e;s;e;u;u;u;u;s;s;s;s;rem sombrero;wear skull;autoexit;l
+saurialwizfromabbys s;w;w;s;s;w;w;s;s;s;e;n;e;s;s;s;s
+holycitypazuzu s;s;s;e;e;e;s;s;s;open sandstone
+cryptfromtunnel d;e;e;u;n;e;e;u;s;s;w;w;w;w;w;w;w;open stone;u;s;s;s;w;d;w;w;w;s;w;s;u;e;s
+cloudfrom tunnel autoexit;n;w;d;s;u;w;w;u;u;u;e;e;u;s;e;e;e;s;u;s;w;w;w;u;u;w;u;u;e;u;autoexit;l
+blue get blue back;q blue
+ck order clone kill $1;order 2.clone assist clone;kill $1
+dw get skin tool;drink skin;put skin tool
+zz back zombie
+fs order fol serve

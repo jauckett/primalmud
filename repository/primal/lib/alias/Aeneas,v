@@ -1,0 +1,223 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@pl4 cast 'chill touch' plaintiff
+pl3 cast 'burning hands' plaintiff
+pl2 cast 'magic missile' plaintiff
+pl1 backstab plaintiff
+def4 cast 'chill touch' defendant
+def3 cast 'burning hands' defendant
+def2 cast 'magic missile' defendant
+def1 backstab defendant
+pg1 backstab page
+ia cast 'invisibility' Aeneas
+buf4 cast 'chill touch' buffalo
+buf3 cast 'burning hands' buffalo
+buf2 cast 'magic missile' buffalo
+buf1 backstab buffalo
+vul4 cast 'chill touch' vulture
+vul3 cast 'burning hands' vulture
+vul2 cast 'magic missile' vulture
+vul1 backstab vulture
+un2 cast 'magic missile' undead
+un1 backstab undead
+sk2 cast 'magic missile' skeleton
+sk1 backstab skeleton
+sn2 cast 'magic missile' snake
+sn1 backstab snake
+rat2 cast 'magic missile' rat
+rat1 backstab rat
+owl2 cast 'magic missile' owl
+owl1 backstab owl
+sp4 cast 'chill touch' spectator
+sp3 cast 'burning hands' spectator
+sp2 cast 'magic missile' spectator
+sp1 backstab spectator
+v4 cast 'chill touch' vendor
+v3 cast 'burning hands' vendor
+v2 cast 'magic missile' vendor
+v1 backstab vendor
+n4 cast 'chill touch' nobleman
+n3 cast 'burning hands' nobleman
+n2 cast 'magic missile' nobleman
+n1 backstab nobleman
+pg4 cast 'chill touch' page
+pg3 cast 'burning hands' page
+pg2 cast 'magic missile' page
+btr backstab troll
+cmtr cast 'magic missile' troll
+cttr cast 'chill touch' troll
+bhtr cast 'burning hands' troll
+cmsp cast 'magic missile' spider
+bsp backstab spider
+ms cast 'magic missile' slave
+ss backstab slave
+bhl cast 'burning hands' lion
+ctl cast 'chill touch' lion
+cml cast 'magic missile' lion
+bl backstab lion
+ao assist Oculus
+ag assist grapeape
+bf backstab frog
+ctd cast 'chill touch' drunk
+ctj cast 'chill touch' janitor
+ctm cast 'chill touch' merchant
+ctc cast 'chill touch' citizen
+mo cast 'magic missile' ogre
+so backstab ogre
+cmt cast 'magic missile' trickster
+kb kill beggar
+cmf cast 'magic missile' frog
+cmc cast 'magic missile' citizen
+cmd cast 'magic missile' drunk
+kg kill goblin
+kd kill drunk
+kc kill citizen
+kj kill janitor
+cmj cast 'magic missile' janitor
+cbt cast 'lightningbolt' traveller
+cca cast 'cure critic' Aeneas
+cbw cast 'lightningbolt' wolf
+kw kick wolf
+cbb cast 'lightningbolt' buffalo
+5 assist kaso
+4 assist prannah
+3 assist ria
+2 assist gemini
+1 assist Kurgen
+hey gossip hello everyone!
+clb cast 'lightningbolt' $1
+ds drink skin
+cia cast 'infravision' Aeneas
+x1 examine 1.bag
+x2 examine 2.bag
+x3 examine 3.bag
+wa wear all
+eb eat bread
+em eat meat
+gcc get coins corpse
+gc get corpse
+jc junk corpse
+qr quaff red
+qw quaff white
+qb quaff blue
+ga1 get all 1.corpse
+ga2 get all 2.corpse
+ga3 get all 3.corpse
+wv wield vorpal
+gbb get blue backpack
+gwb get white backpack
+pap put all.potion backpack
+grb get red backpack
+gb get bread backpack
+gmb get meat 1.bag
+km kick merchant
+cbm cast 'lightningbolt' merchant
+cbc cast 'lightningbolt'citizen
+kv kick vendor
+cbv cast 'lightningbolt' vendor
+ks kick spectator
+cbs cast 'lightningbolt' spectator
+kn kick nobleman
+cmn cast 'magic missile' nobleman
+cbn cast 'lightningbolt' nobleman
+cbh cast 'lightningbolt' healer
+kl kick lady
+cbl cast 'lightningbolt' lady
+6 assist Bigo
+rr recite recall
+cmm cast 'magic missile' merchant
+cmp cast 'magic missile' page
+cmh cast 'magic missile' healer
+kh kick healer
+gac get all corpse
+bd backstab drunk
+bc backstab citizen
+bj backstab janitor
+bb backstab beggar
+pmb put meat backpack
+gmp get meat backpack
+rk remove knife
+wk wield knife
+ws wield sword
+rs remove sword
+bhc cast 'burning hands' citizen
+bhm cast 'burning hands' merchant
+bhj cast 'burning hands' janitor
+bht cast 'burning hands' trickster
+bm backstab merchant
+pab put all backpack
+kt kill trickster
+bt backstab trickster
+gsb get skin backpack
+gkb get knife backpack
+gsp get sword backpack
+df drink fountain
+bo backstab orc
+cmo cast 'magic missile' orc
+glb get lantern backpack
+plb put lantern backpack
+bp backstab peddler
+bs backstab spectator
+cms cast 'magic missile' spectator
+cts cast 'chill touch' spectator
+bhs cast 'burning hands' spectator
+rl remove lantern
+t time
+sc backstab camel
+bhv cast 'burning hands' vendor
+ctv cast 'chill touch' vendor
+ctw cast 'chill touch' warrior
+bhw cast 'burning hands' warrior
+cmw cast 'magic missile' warrior
+b2 cast 'magic missile' boar
+b3 cast 'burning hands' boar
+b4 cast 'chill touch' boar
+b1 backstab boar
+cat1 backstab cat
+cat2 cast 'magic missile' cat
+cat3 cast 'burning hands' cat
+cat4 cast 'chill touch' cat
+war1 backstab warrior
+war2 cast 'magic missile' warrior
+war3 cast 'burning hands' warrior
+war4 cast 'chill touch' warrior
+gh1 backstab ghast
+gh2 cast 'magic missile' ghast
+gh3 cast 'burning hands' ghast
+gh4 cast 'chill touch' ghast
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

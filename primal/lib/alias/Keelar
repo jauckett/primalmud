@@ -1,0 +1,25 @@
+spellme armor;bless;sanc;haste;dragon;aid;divine;
+zombie cast 'animate dead' corpse
+hh cast 'advanced heal'
+recall cast 'word of recall'
+invis cast 'invis' self
+drag cast 'dragon' self
+70 / #70 $*
+clone cast 'clone' self
+detinv cast 'detect invis' self
+sum cast 'summon' $*
+para cast 'paralyze' $*
+gac get all all.corpse
+haste cast 'haste' self
+spirit remove gloves; cast 'spirit armor' self;wear gloves
+armor cast 'armor' self
+bless cast 'bless' self
+sanc cast 'sanc' self
+dragon cast 'dragon
+divine cast 'divine' self
+aid cast 'holy aid' self
+locate cast 'locate object' $*
+fj flee;goto jale
+spellemup cast 'armor' $*;cast 'bless' $*;cast 'sanc' $*;cast 'strength' $*
+ls cast 'lightning shield' self
+infra cast 'infra' self

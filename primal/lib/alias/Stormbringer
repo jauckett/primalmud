@@ -1,0 +1,86 @@
+prime goto primer;force primer rem gaunt;force primer give gaunt storm
+rest restore polgara;restore splat;restore blossum;restore mephysto;restore latona
+sp spank latona
+swit switch zombie;say please don't kill me anymore
+inf cast 'infrav' $*
+serpent goto serpent;switch serp;drop serp;return;get serp;goto 2.serpent;switch serp;drop serp;return;get serp;goto 3.serpent;switch serp;drop serp;return;get serp;goto 4.serpent;switch serp;drop serp;return;get serp
+110 / #110 $*
+tele cast 'teleport'
+id cast 'ident' $*
+spec1 s;switch magician;wake;stand;go box;sleep;return;go box;goto 10170;exit
+keys goto 10160;switch leader;rem word;drop word;return;get word;at torch give word torch;at 10133 get crowbar;at torch give crowbar torch;goto 100
+ser order follow serve
+sw switch $1;$2;sleep;return
+sleep cast 'sleep'$*
+8 cast 'sanct'$*
+0 group all;cast 'group sanct';group clone;group 2.clone;ungroup
+tel cast 'teleport'
+atg at $1 give $2 $1
+kosh goto kosh;switch kosh;give 9000000 coin storm;return;goto 12
+maze e;n;n;e;e;
+3 cast 'divine heal' $*
+z show zone $1
+ncto emote imitates Daffy Duck and quacks NCTO!!!!
+fsandii emote pulls your cfm boots off and starts to massage your poor tired feet.
+hsandii emote grabs you around the waist and pulls you to him
+haste cast 'haste' $*
+see cast 'infravision' $*
+spiral d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+ref cast 'refresh' $*
+serp cast 'serpent skin' $*
+toy n;n;w;w;u;u;u;u
+x get coins all.corpse
+tunnel e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w
+red open force; get uneartly force; rem sombr; wear uneartly; put sombr force
+som open force; get sombr force; rem uneartly; wear sombr; put uneartly force
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n
+darask w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+lostworld e;s;s;w;w;w;w;s;s;s;s;s;s
+tudor w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+getb get queen; get comm; get blood; get topaz; wear all; get major; wear major about; get force; open force; get somb; get crystal; put all force; get shield; get horn; get bracer; get cloak; get cloak
+getc put all force; get serrate; get mox; get snake; get snake; get pirate; get pirate; put all force
+geta get riding; get armor; get slizz; wear all;get pants; get comm; get honour; get honour; get uneartly ; wear all; get pulse; wield pulse; get uneartly ; hold uneartly; get flint; hold flint; get apron; get queen
+inv cast 'invisibility' $*
+sum cast 'summon'$*
+loc cast 'locate object'$*
+re cast 'word of recall'$*
+wh cast 'whirlwind'$*
+cur cast 'remove curse'$*
+water cast 'waterbreathe'$*
+walk cast 'waterwalk'$*
+par cast 'paralyze' $*
+fi cast 'finger' $*
+fly cast 'fly' $*
+wake wake;stand
+good open force; rem mox; rem horn; rem pirate; rem pirate; rem serrate; rem snake; rem snake; rem bracers; rem cloak; rem shield; rem cloak; put all force; get queen force; get queen force
+good1 get riding force; get blood force; get comm force; get comm force; get topaz force; get flint force;  hold flint; get armor force; wear all; get honour force; get honour force; wear all
+evil open force; rem blood; rem queen; rem queen; rem riding; rem topaz; rem comm; rem comm; rem flint; rem armor; rem honour; rem honour; put all force; get mox force; get pirate force
+evil1 get pirate force; get cloak force; get cloak force; get skull force; get cloak force; get serrated force; get 2.shield force; get horn force; get snake force; get snake force; wear all; hold mox; wear all
+pl cast 'whirlwind';cast 'advanced heal'
+dragon cast 'dragon' $*
+rc cast 'remove curse' $*
+wa wake; stand
+po poofout calls upon the God of Lightning and disappears in a blinding flash of light.
+undress rem all;put all force;drop force
+vo vstat obj $1
+treasure  goto 10168;get treas;goto 10167;get treas;goto 10166;get treas;goto 10165;get treas;goto 2000;get treas; goto 8925; get treas;goto 100
+vno vnum obj $1
+vso vstat obj $1
+dclone cast 'detect invis' clone
+iclone cast 'infravision' clone
+1 cast 'summon' batfink
+sw1 switch master;go box;sleep; return
+sw2 switch master;wake;stand;s;sleep;return
+charm cast 'charm' $*
+test cast 'sanc' ma;cast 'sanc' 2.m;cast 'sanc' 3.ma;cast 'sanc' 4.ma;cast 'sanc' 5.ma;cast 'sanc' 6.ma;cast 'sanc' 7.ma;cast 'sanc' 8.ma;cast 'sanc' 9.ma
+spec goto 102$1;exit;s;switch magician;go box;sleep;return;go box;where magician
+st goto 10212;cast 'sum' torch;goto 100
+lev1 e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n;n;
+jedi at 122 read $*
+guardian at 112 read $1
+uss at 134 read $*
+100 / #100 $*
+load load obj $*
+loadm load mob $*

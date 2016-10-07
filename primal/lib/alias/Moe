@@ -1,0 +1,15 @@
+ac c 'animate dead' corpse
+od o fol die
+cc cast 'clone'
+ccbc c 'clone'; bash clone
+spellup cast 'drag'; cast 'nohassle'; cast 'firesh'; cast 'divine p'; cast 'holy a'; c 'stone'; c 'spirit a'
+tali s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;u;u;u;u;u; cast 'waterwalk' ;n;u; open dock; u
+heal rem glove; wear glove
+exp1             u;s;e;e;e;s;s;s;e;e;e;e;open gate
+exp2             e;e;e;e;e;e;e;e;e;;n;n;e;e;e;e;n;w;w;w;w;n;n;n;n;n;n;n;d;w;n;e;n;n;w;w;e;s;w;s;w;w;w;s;n;n;n;n;n;n;e;e;e
+exp3             d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;w;n;w;n;n;w;w;n;n;w;w;s;s;s;s;open ocean;s
+oddhouse s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+maze c 'create food'; drop mush
+arm d; n; e; s; s
+clan u; s; e; e; e; s; s; d; n; n; n
+sccbc wake; stand; up; c 'clone'; back clone

@@ -1,0 +1,74 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@normal rem sombrero;detect;wear helm;p sombrero back
+heat rem helm;g sombrero back;wear sombrero
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;ref;n;e;n;n;n;n;n
+desert w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;ref;crystal
+bs g super back;rem chain;wi super;backstab$*;rem super;wi chain;p super back
+tag e;e;e;e;e;s;s;w;w;
+tf tag fifty
+tl tag luna
+ts tag scorfio
+rec cast 'word of recall'$*
+h tell uther heal
+recall cast 'word of recall'
+invis cast 'invisibility'$*
+sum cast 'summon'$*
+hide hide
+str cast 'strength'$*
+rome e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+armor cast 'armor'$*
+corpse g all corpse;g corpse;j corpse
+wake wake;stand
+detect cast 'detect invisibility'
+curel cast 'cure light' $*
+infra cast 'infravision'
+chill cast 'chill touch'$*
+curec cast 'cure critical'$*
+toyheim w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n;n;w;w;w
+fire cast 'fireball'$*
+sanc cast 'sanctuary'$*
+meat g meat back;eat meat
+q g$* back;q$*
+heal cast 'heal'$*
+ref cast 'refresh' $*
+loc cast 'locate object'$*
+ta tag abulafia
+tu tag uther
+bless cast 'bless'$*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

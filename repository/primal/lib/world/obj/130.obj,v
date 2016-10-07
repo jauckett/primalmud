@@ -1,0 +1,138 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.01.26.15.41.24;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Added the object files which didn't import.
+@
+text
+@#13000
+shiny gold key~
+a shiny gold key~
+A shiny gold key has been left here.~
+~
+18 4096 5
+2 0 0 0
+5 100 0
+L 0
+#13001
+small key~
+a small key~
+A small key has been left here.~
+~
+18 4096 5
+1 0 0 0
+5 100 0
+L 0
+#13002
+upright piano~
+an upright piano~
+A dusty upright piano stands here against the wall.~
+~
+12 0 0
+0 0 0 0
+0 0 0
+L 0
+#13003
+broken bottle~
+a broken bottle~
+A smashed whiskey bottle is lying here. It has a sharp jagged edge.~
+~
+5 0 24577
+0 2 6 11
+5 100 10
+L 0
+#13004
+bottle whiskey~
+a bottle of whiskey~
+A bottle of whiskey has been left here.~
+~
+17 0 1
+10 10 5 0
+10 200 100
+L 0
+#13005
+can coke~
+a can of Coke~
+a can of Coke has been left here. ~
+~
+17 0 1
+1 1 15 0
+5 75 50
+L 0
+#13006
+homebrew bottle~
+a bottle of Vader's homebrew~
+A bottle of Vader's homebrew has been left here.~
+~
+17 0 1
+5 5 7 0
+10 300 150
+L 0
+#13007
+gun~
+a prototype gun~
+A prototype of a Gun is here, waiting to be tested.~
+~
+5 0 16385
+6 2 50 32788
+7 500 250
+L 0
+#13008
+holster belt~
+a gun holster belt~
+A gun holster belt has been left here.~
+~
+15 0 2049
+7 0 -1 0
+0 0 0
+A
+17 2
+L 0
+#13009
+bullets ammo~
+some bullets~
+Some 38 calibre bullets have been dropped on the ground here.~
+~
+5 0 8193
+18 2 50 49172
+7 25 3
+#13010
+wagon medieval~
+a Magical Medieval Wagon~
+a Magical Medieval Wagon stands here shimmering eerily.~
+~
+41 1 0
+15 0 0 0
+5000 10 10
+L 0
+#13011
+stagecoach stage coach~
+a Magical Stagecoach~
+a Magical Stagecoach Wagon is here humming eerily.~
+~
+41 1 0
+13235 0 0 0
+5000 10 10
+E
+stagecoach stage coach~
+You see a large stagecoach here which seems out of place.
+You feel the Need to GO into it....
+~
+$~
+
+@

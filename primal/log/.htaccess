@@ -1,0 +1,4 @@
+AuthName "System Stats"
+AuthType Basic
+AuthUserFile /etc/apache/htpasswd
+require valid-user

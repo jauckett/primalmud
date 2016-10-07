@@ -1,0 +1,94 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@xxx cast 'sleep' on guard
+storm cast 'control weather' worse
+op cast 'call lightning' guard
+jo cast 'cure light' on jolt
+stab remove chain ; wi super ; backstab $1 ; remove super ; wi chain
+ooo n ; con lovely ; s
+congrats grats yay $1!
+poi cast 'sleep' on guard
+kl cast 'colorspray' on healer
+nm cast 'colorspray' on guard ; cast 'cure light' on self
+aaaa s ; get corpse ; n
+puke w ; con guard ;con caesar ; e
+ki cast 'colorspray' on master
+ff cast 'colorspray' on soldier
+cxz cast 'shocking grasp' on guard
+zzz cast 'lightning bolt' on gladiator
+ml cast 'lightning bolt' on buffalo
+kop cast 'cure light' on kopje
+gg cast 'sleep' on executioner
+ddd cast 'shocking grasp' on merchant
+zxc cast 'lightning bolt' on guard
+kg kick gladiator
+ex cast 'lightning bolt' on executioner
+drug get red from backpack ; q red
+qq get white from backpack ; q white
+emt get meat from bag ; eat meat
+zn cast 'lightning bolt' on nobleman
+kn kick nobleman
+burn cast 'burning hands' on nobleman
+km kick merchant
+heal cast 'cure light' on self
+sh cast 'shocking grasp' on merchant
+mm cast 'shocking grasp' on master
+eet get bread from bag ; eat bread
+f flee
+zap cast 'lightning bolt' on traveller
+zzp cast 'shocking grasp' on guard
+zz cast 'lightning bolt' on judge ; cast 'lightning bolt' on judge ; cast 'cure light' on self
+zg cast 'lightning bolt' on guard
+xe cast 'dispel evil' on executioner
+gdins s ; fill skin from fountain ; n
+vv cast 'cure light' on valium
+wolf cast 'colorspray' on wolf
+hh cast 'colorspray' on caesar ; cast 'cure light' on self
+vvv cast 'cure light' on valium
+rg cast 'colorspray' on gladiator
+ppp get blue backpack ; q blue
+night cast 'infravision' on self
+spec backstab spectator ; kick spectator
+loot get all from corpse ; get corpse ; junk corpse
+mmm cast 'colorspray' on transformer
+bbb cast 'colorspray' on buffalo
+lll cast 'colorspray' on bandit
+gr cast 'cure light' on grr
+ko cast 'colorspray' on guard
+yy get yellow backpack ; q yellow
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

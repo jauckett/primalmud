@@ -1,0 +1,66 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cl cast 'cure light' $*
+meat open crate;get meat crate;close crate;eat meat;
+house3 open crate;put all.potion crate;put all.scroll crate;put all.skin crate;put all.meat crate;close crate;
+quit1 rem all;drop all;rem all;drop all;quitreally;
+house2 get bandanna;get jade;get vest;wear all;get halberd;wield halberd;get crate;
+house1 get lantern;hold lantern;get all.iron;get all.leather;get sleeves;get shield;get beret;wear all;
+bh cast 'burning hands' $*
+e5 emote greats you happily; emote gives you an enormous amount of money; emote don't take it seriously
+e2 emote pulls out two shot glasses, he pours some JD in the glasses and offers one to$*, damn good stuff!
+e1 emote slams a thunderous hi5 with$*
+inf cast 'infravision' $*
+di cast 'detect invisibility' $*
+recall open crate;get recall crate;close crate;recite recall;
+qb open crate;get blue crate;close crate;quaff blue
+ge get all all.corpse
+ec open crate;examine crate;close crate;
+gc open crate;get $* crate;close crate;
+blood open crate;get blood crate;close crate;quaff blood;
+id open crate;get identify crate;close crate;recite identify $*;
+pc open crate;put $* crate;close crate;
+tav u;e;e;e;e;s;s;e;e;e;e;s;
+he cast 'cure light' $*
+skin open crate;get skin crate;drink skin;put skin crate;close crate;
+mag cast 'magic missile' $*
+qr open crate;get red crate;close crate;quaff red;
+qw open crate;get white crate;close crate;quaff white;
+qy open crate;get yellow crate;close crate;quaff yellow;
+bs backstab $*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

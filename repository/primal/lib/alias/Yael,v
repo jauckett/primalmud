@@ -1,0 +1,88 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@k kill  servant
+kk alias k kill $*;rem tor;wie soaker;back $*;rem soaker;wie tor;kill $*;order followers assist yael
+cl cast 'locate' $*
+summon cast 'summon' $*
+rand1 d;open door;w;open bookcase;w;open trapdoor;d
+ofk order followers kill $*;kill $*;alias k kill $*
+hh cast 'heal' berserker
+rand cast 'invis';s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;open trapdoor;d;d;open door w;w;open bookcase;w;open trapdoor;d
+tk track kobold
+tn tell nightmare hi
+sum cast 'summon' $*
+camelot e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;e;e;e;e;e;n;n;n;e;e;s;e;e;n;n;n;e;e;e;e;e
+cross s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+rr rem moccasins;wear moccasins
+br buy 5 red;put all.potion force
+ef exa force
+3 get red force;quaff red
+bw buy 5 white;put all.potion force
+qw get white force;quaff white
+zx get all corpse
+inf cast 'infravision' self
+di cast 'detect invis' self
+ww where warrior
+kw kill warrior
+000 recite recall self
+9 get all.gold all.corpse
+99 get all all.corpse
+sl sleep
+wa wake;stand
+kj kill janitor
+jjj junk all.shot;junk all.bandanna;junk all.glass;junk all.beret
+ds drink skin
+0 exa corpse
+00 cast 'word' self
+eb cast 'create food';eat mushroom
+tt track gi
+ce cast 'earthq' 
+x get all.white force;drop all.white
+ga get all
+aa assist berserker
+ci cast 'invis' $*
+ccc pick chest;open chest;get bag chest;get amulet chest
+1 cast 'heal' $*
+2 cast 'cure critic' $*
+ss cast 'sanct' $*
+id recite identify $*
+charm cast 'charm' $*
+of order followers $*
+ofa order followers assist yael
+str cast 'str' self
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

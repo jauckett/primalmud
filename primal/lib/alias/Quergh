@@ -1,0 +1,10 @@
+mk cast 'magic missile' $1;kill $1
+m5 cast 'magic missile' $1;cast 'magic missile' $1;cast 'magic missile' $1;cast 'magic missile' $1;cast 'magic missile' $1
+gc get all from corpse
+pb put $1 in backpack
+m3 cast 'magic missile' $1;cast 'magic missile' $1;cast 'magic missile' $1
+mm cast 'magic missile' $1
+mf cast 'magic missile'  $1;flee
+cm commands
+gb get $1 from backpack
+gf get all from $1

@@ -1,0 +1,177 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.56;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@#20 1
+The Crystal Castle~
+2099 30 1 17
+D 0 2041 4 1 	(The cellar.)
+D 0 2024 0 1 	(A dark hallway.)
+D 0 2027 2 1 	(The Royal Bedroom)
+D 0 2022 2 1 	(A dark hallway.)
+D 0 2026 0 1 	(A guest Room)
+D 0 2013 2 1 	(A dark hallway.)
+D 0 2016 0 1 	(A guest Room)
+D 0 2017 2 1 	(A guest Room)
+D 0 2011 0 1 	(A dark hallway.)
+D 0 2035 0 1 	(A dark hallway)
+D 0 2037 2 1 	(The Chapel)
+D 0 2008 5 1 	(The Pantry.)
+D 0 2053 5 2 	(The Foggy Dungeon)
+M 0 2000 1 2029 	(the Crystal King )
+E 1 2002 30 13 	(a Crystal Belt.)
+M 0 2001 1 2007 	(the Crystal Chef)
+E 1 2003 30 6 	(a Crystal Chef's Hat.)
+M 0 2002 10 2005 	(a Crystal guard )
+M 0 2002 10 2005 	(a Crystal guard )
+M 0 2002 10 2012 	(a Crystal guard )
+M 0 2002 10 2012 	(a Crystal guard )
+M 0 2002 10 2019 	(a Crystal guard )
+M 0 2002 10 2019 	(a Crystal guard )
+M 0 2002 10 2023 	(a Crystal guard )
+M 0 2002 10 2023 	(a Crystal guard )
+M 0 2002 10 2032 	(a Crystal guard )
+M 0 2002 10 2032 	(a Crystal guard )
+M 0 2003 3 2028 	(a Crystal servant)
+G 1 2004 3 -1 	(a Crystal Wine Glass.)
+M 0 2003 3 2006 	(a Crystal servant)
+G 1 2004 3 -1 	(a Crystal Wine Glass.)
+M 0 2003 3 2006 	(a Crystal servant)
+G 1 2004 3 -1 	(a Crystal Wine Glass.)
+M 0 2004 4 2037 	(a Crystal Monk)
+E 1 2008 20 14 	(leather cuffs)
+M 0 2004 4 2037 	(a Crystal Monk)
+E 1 2008 20 14 	(leather cuffs)
+M 0 2004 4 2038 	(a Crystal Monk)
+M 0 2004 4 2038 	(a Crystal Monk)
+M 0 2005 1 2038 	(a Crystal Bishop)
+E 1 2001 25 3 	(a Titanium Cross.)
+O 0 2006 1 2000 	(a Crystal Treasure)
+M 0 2006 4 2029 	(a Crystal Jester)
+M 0 2006 4 2029 	(a Crystal Jester)
+M 0 2006 4 2029 	(a Crystal Jester)
+M 0 2006 4 2029 	(a Crystal Jester)
+M 0 2007 1 2002 	(a Crystal Knight)
+M 0 2008 2 2069 	(a Crystal Dragon )
+E 1 2007 20 17 	(dragon's tooth )
+M 0 2008 2 2061 	(a Crystal Dragon )
+G 1 2005 1 -1 	(a Crystal Key.)
+M 0 2010 5 2043 	(a Crystal Rogue)
+M 0 2010 5 2054 	(a Crystal Rogue)
+M 0 2010 5 2079 	(a Crystal Rogue)
+M 0 2010 5 2062 	(a Crystal Rogue)
+M 0 2010 5 2057 	(a Crystal Rogue)
+M 1 2011 5 2053 	(a nasty snatcher)
+M 0 2011 5 2071 	(a nasty snatcher)
+M 0 2011 5 2069 	(a nasty snatcher)
+M 0 2011 5 2060 	(a nasty snatcher)
+M 0 2011 5 2049 	(a nasty snatcher)
+M 0 2009 3 2002 	(a Crystal Sentry )
+M 0 2009 3 2029 	(a Crystal Sentry )
+M 0 2009 3 2029 	(a Crystal Sentry )
+S
+$
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d4 64
+a67 64
+
+D 0 2024 0 1         door close
+D 0 2027 2 1         door close
+D 0 2022 2 1         door close
+D 0 2026 0 1         door close
+D 0 2013 2 1         door close
+D 0 2016 0 1         door close
+D 0 2017 2 1         door close
+D 0 2011 0 1         door close
+D 0 2035 0 1         door close
+D 0 2037 2 1         door close
+D 0 2008 5 1         door close
+D 0 2053 5 2         door close
+M 0 2000 1 2029      king
+E 1 2002 30 13        give belt king
+M 0 2001 1 2007      chef
+E 1 2003 30 6        chef
+M 0 2002 10 2005     guard 1
+M 0 2002 10 2005     guard 2
+M 0 2002 10 2012     guard 3
+M 0 2002 10 2012     guard 4
+M 0 2002 10 2019     guard 5
+M 0 2002 10 2019     guard 6
+M 0 2002 10 2023     guard 7
+M 0 2002 10 2023     guard 8
+M 0 2002 10 2032     guard 9
+M 0 2002 10 2032     guard 10
+M 0 2003 3 2028      serv 1
+G 1 2004 3           serv 1
+M 0 2003 3 2006      serv 2
+G 1 2004 3           serv 2
+M 0 2003 3 2006      serv 3
+G 1 2004 3           serv 3
+M 0 2004 4 2037      monk
+E 1 2008 20 14
+M 0 2004 4 2037      monk
+E 1 2008 20 14
+M 0 2004 4 2038      monk
+M 0 2004 4 2038      monk
+M 0 2005 1 2038      bishop
+E 1 2001 25 3          cross
+O 0 2006 1 2000      treasure
+M 0 2006 4 2029      jester 1
+M 0 2006 4 2029      jester 2
+M 0 2006 4 2029      jester 3
+M 0 2006 4 2029      jester 4
+M 0 2007 1 2002      knight
+M 0 2008 2 2069      dragon1
+E 1 2007 20 17
+M 0 2008 2 2061      dragon2
+G 1 2005 1           key
+M 0 2010 5 2043      rogue 1
+M 0 2010 5 2054      rogue 2
+M 0 2010 5 2079      rogue 3
+M 0 2010 5 2062      rogue 4
+M 0 2010 5 2057      rogue 5
+M 1 2011 5 2053      snatcher 1
+M 0 2011 5 2071      snatcher 2
+M 0 2011 5 2069      snatcher 3
+M 0 2011 5 2060      snatcher 4
+M 0 2011 5 2049      snatcher 5
+M 0 2009 3 2002
+M 0 2009 3 2029
+M 0 2009 3 2029
+d69 1
+a69 2
+#99999
+$~
+@
+

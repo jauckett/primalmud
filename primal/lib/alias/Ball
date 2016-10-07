@@ -1,0 +1,10 @@
+kw kill worker
+f flee
+ga get all
+gc get all all.corpse
+ggold get gold all.corpse
+qw q white
+qr q red
+wa wear all;wi halberd;hold lantern;open field;
+bs1 rem halberd;wi dagger;backstab $*;rem dagger;wi halberd;
+ppi put all.potion field

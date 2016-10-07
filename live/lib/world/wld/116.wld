@@ -1,0 +1,2123 @@
+#11600
+FootPath~
+You walk along side a big concert wall that has a collage of posters
+advertising bands from the past and present.    
+~
+116 0 0 0
+D0
+More FootPath
+~
+~
+0 0 11601
+D2
+~
+backdoor~
+2 4552 20002
+S
+#11601
+FootPath~
+You walk along side a big concert wall that has a collage of posters
+advertising bands from the past and present.    
+~
+116 0 0 0
+D0
+More FootPath
+~
+~
+0 0 11602
+D2
+More FootPath
+~
+~
+0 0 11600
+S
+#11602
+FootPath~
+You walk along side a big concert wall that has a collage of posters
+advertising bands from the past and present.    
+~
+116 0 0 0
+D0
+More FootPath
+~
+~
+0 0 11603
+D2
+More FootPath
+~
+~
+0 0 11601
+D3
+A Bussy road
+~
+~
+0 0 11606
+S
+#11603
+FootPath~
+You walk along side a big concert wall that has a collage of posters
+advertising bands from the past and present.    
+~
+116 0 0 0
+D0
+More FootPath
+~
+~
+0 0 11604
+D2
+More FootPath
+~
+~
+0 0 11602
+S
+#11604
+FootPath~
+You walk along side a big concert wall that has a collage of posters
+advertising bands from the past and present.    
+~
+116 0 0 0
+D0
+More FootPath
+~
+~
+0 0 11605
+D1
+The Concert Hall
+~
+~
+0 0 11607
+D2
+More FootPath
+~
+~
+0 0 11603
+S
+#11605
+FootPath~
+You walk along side a big concert wall that has a collage of posters
+advertising bands from the past and present.    
+~
+116 0 0 0
+D0
+~
+~
+0 0 -1
+D2
+More FootPath
+~
+~
+0 0 11604
+S
+#11606
+The road~
+   You are standing in the middle of the road And have been hit by a Car
+~
+116 bch 0 0
+D1
+~
+~
+0 0 11602
+D2
+~
+~
+0 0 -1
+S
+#11607
+The Steps~
+   You head up the Steps towards the Great Concert Hall
+~
+116 cd 0 0
+D0
+The Box Office
+~
+~
+0 0 11608
+D1
+The Concert Hall
+~
+~
+0 0 11609
+D2
+~
+~
+0 0 -1
+D3
+A footPath
+The FootPath
+~
+~
+0 0 11604
+S
+#11608
+The Box Office~
+   You are standing before the window of the Box Office.  Thier is a young lady
+sitting on the other side of the Window issuing concert goers with thier
+tickets
+~
+116 dz 0 0
+D2
+The Steps
+~
+~
+0 0 11607
+S
+#11609
+The Entrance~
+2 Large steel doors stand before you.  From beyond these doors you can here the
+sounds of the supporting act warming up
+~
+116 d 0 0
+D1
+2 Large stell doors stand before you
+~
+Steel Door~
+2 11613 11610
+D3
+The Steps
+~
+~
+0 0 11607
+S
+#11610
+The foyer~
+   You are now standing in the foyer of the Concert Hall.  You can now clearly
+hear the sounds of the support band.  Your feet squelch as you walk across the
+alcohol soaked carpet.    
+~
+116 dfA 0 0
+D1
+The foyer
+~
+~
+0 0 11611
+D2
+The foyer
+~
+~
+0 0 11612
+D3
+~
+~
+0 0 -1
+S
+T 11690
+#11611
+The foyer~
+   You are now standing in the foyer of the Concert Hall.  You can now clearly
+hear the sounds of the support band.  Your feet squelch as you walk across the
+alcohol soaked carpet.    
+~
+116 cdfA 0 0
+D0
+Concert goers eats
+~
+~
+0 0 11697
+D1
+NoWhere
+~
+~
+0 0 11621
+D2
+The foyer
+~
+~
+0 0 11613
+D3
+The foyer
+~
+~
+0 0 11610
+S
+#11612
+The foyer~
+   You are now standing in the foyer of the Concert Hall.  You can now clearly
+hear the sounds of the support band.  Your feet squelch as you walk across the
+alcohol soaked carpet.    
+~
+116 dfA 0 0
+D0
+The foyer
+~
+~
+0 0 11610
+D1
+The foyer
+~
+~
+0 0 11613
+D3
+The Way Out
+~
+~
+0 0 11609
+S
+#11613
+The foyer~
+   You are now standing in the foyer of the Concert Hall.  You can now clearly
+hear the sounds of the support band.  Your feet squelch as you walk across the
+alcohol soaked carpet.    
+~
+116 dfA 0 0
+D0
+The foyer
+~
+~
+0 0 11611
+D2
+A dim corridor
+~
+~
+0 0 11614
+D3
+The foyer
+~
+~
+0 0 11612
+S
+#11614
+A dimly lite corridor~
+   You are heading down a dimly lite corridor, You aren't really sure were it
+will take you but their seems to be heaps of girls queuing for something?    
+~
+116 df 0 0
+D0
+The foyer
+~
+~
+0 0 11613
+D2
+Along the dim corridor
+~
+~
+0 0 11615
+S
+#11615
+A dimly lite corridor~
+   You are heading down a dimly lite corridor, You aren't really sure were it
+will take you but their seems to be heaps of girls queuing for something?    
+~
+116 df 0 0
+D0
+Along the dim corridor
+~
+~
+0 0 11614
+D2
+Along the dim corridor
+~
+~
+0 0 11616
+S
+#11616
+A dimly lite corridor~
+   You are heading down a dimly lite corridor, You aren't really sure were it
+will take you but their seems to be heaps of girls queuing for something?    
+~
+116 df 0 0
+D0
+Along the dim corridor
+~
+~
+0 0 11615
+D2
+Along the dim corridor
+~
+~
+0 0 11617
+D3
+~
+male~
+1 0 11619
+S
+#11617
+A dimly lite corridor~
+   You are heading down a dimly lite corridor, You aren't really sure were it
+will take you but their seems to be heaps of girls queuing for something?    
+~
+116 df 0 0
+D0
+Along the dim corridor
+~
+~
+0 0 11616
+D2
+Along the dim corridor
+~
+~
+0 0 11618
+S
+#11618
+A dimly lite corridor~
+   You are the end of the dimly lite corridor, you aren't really sure were it
+has got you but there is still heaps of girls lining the walls for something?
+  
+~
+116 df 0 0
+D0
+Along the dim corridor
+~
+~
+0 0 11617
+D3
+~
+female~
+1 0 11620
+S
+#11619
+The Men's Room~
+   You are standing in the middle of the Men's bathroom, But it seems that
+there is plenty of unexpected activity going on in here.    
+~
+116 df 144 0
+D1
+~
+male~
+1 0 11616
+S
+#11620
+The Ladies Room~
+   You are standing in the ladys bathroom, well at least you now know what they
+were all queuing for!!    
+~
+116 dfy 0 0
+D1
+~
+female~
+1 0 11618
+S
+#11621
+NoWhere~
+   You are nowhere
+~
+116 cdz 0 0
+D1
+The Hall
+~
+Hall Door~
+2 11613 11624
+D3
+The foyer
+~
+~
+0 0 11611
+S
+#11622
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D1
+The Hall
+~
+~
+0 0 11631
+D2
+The Hall
+~
+~
+0 0 11623
+S
+#11623
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11622
+D1
+The Hall
+~
+~
+0 0 11632
+D2
+The Hall
+~
+~
+0 0 11624
+D3
+~
+~
+0 0 -1
+S
+#11624
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11623
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11625
+D3
+The Foyer
+~
+~
+0 0 11611
+S
+#11625
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11624
+D1
+The Hall
+~
+~
+0 0 11634
+D2
+The Hall
+~
+~
+0 0 11626
+S
+#11626
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11625
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11627
+S
+#11627
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11626
+D1
+The Hall
+~
+~
+0 0 11636
+D2
+The Hall
+~
+~
+0 0 11628
+S
+#11628
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11627
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11629
+S
+#11629
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11628
+D1
+The Hall
+~
+~
+0 0 11638
+D2
+The Hall
+~
+~
+0 0 11630
+S
+#11630
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11629
+D1
+The Hall
+~
+~
+0 0 11639
+S
+#11631
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D1
+The Hall
+~
+~
+0 0 11641
+D2
+The Hall
+~
+~
+0 0 11632
+D3
+The Hall
+~
+~
+0 0 11622
+D4
+Up to the rafters
+~
+Man hole~
+1 0 11671
+S
+#11632
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11631
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11633
+D3
+The Hall
+~
+~
+0 0 11623
+S
+#11633
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11632
+D1
+The Hall
+~
+~
+0 0 11643
+D2
+The Hall
+~
+~
+0 0 11634
+D3
+The Hall
+~
+~
+0 0 11624
+S
+#11634
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11633
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11635
+D3
+~
+~
+0 0 11625
+S
+#11635
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11634
+D1
+The Hall
+~
+~
+0 0 11645
+D2
+~
+~
+0 0 11636
+D3
+The Hall
+~
+~
+0 0 11626
+S
+#11636
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11635
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11637
+D3
+The Hall
+~
+~
+0 0 11627
+S
+#11637
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11636
+D1
+The Hall
+~
+~
+0 0 11647
+D2
+The Hall
+~
+~
+0 0 11638
+D3
+The Hall
+~
+~
+0 0 11628
+S
+#11638
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11637
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11639
+D3
+The Hall
+~
+~
+0 0 11629
+S
+#11639
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11638
+D1
+The Hall
+~
+~
+0 0 11649
+D3
+The Hall
+~
+~
+0 0 11630
+D4
+~
+Man Hole~
+1 0 11640
+S
+#11640
+Up to the Rafters~
+   You are up in the cable & lighting run Thier are plenty of cables and lights
+set up all over the place
+~
+116 dfA 9 0
+D0
+Along the run
+~
+~
+0 0 11650
+D5
+~
+Man Hole~
+1 0 11639
+S
+#11641
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D1
+The Hall
+~
+~
+0 0 11651
+D2
+The Hall
+~
+~
+0 0 11642
+D3
+The Hall
+~
+~
+0 0 11631
+S
+#11642
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11641
+D1
+The Hall
+~
+~
+0 0 11652
+D2
+The Hall
+~
+~
+0 0 11643
+D3
+The Hall
+~
+~
+0 0 -1
+S
+#11643
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11642
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11644
+D3
+The Hall
+~
+~
+0 0 11633
+S
+#11644
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11643
+D1
+The Hall
+~
+~
+0 0 11654
+D2
+The Hall
+~
+~
+0 0 11645
+D3
+The Hall
+~
+~
+0 0 -1
+S
+#11645
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11644
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11646
+D3
+The Hall
+~
+~
+0 0 11635
+S
+#11646
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11645
+D1
+~
+~
+0 0 11656
+D2
+The Hall
+~
+~
+0 0 11647
+D3
+The Hall
+~
+~
+0 0 -1
+S
+#11647
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11646
+D1
+The Hall
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11648
+D3
+The Hall
+~
+~
+0 0 11637
+S
+#11648
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11647
+D1
+The Hall
+~
+~
+0 0 11658
+D2
+The Hall
+~
+~
+0 0 11649
+D3
+The Hall
+~
+~
+0 0 -1
+S
+#11649
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11648
+D1
+The Hall
+~
+~
+0 0 11659
+D3
+The Hall
+~
+~
+0 0 11639
+S
+#11650
+Up in the Rafters~
+   You are up in the cable && lighting run Thier are plenty of cables and
+lights set up all over the place
+~
+116 dfA 0 0
+D0
+Along the run
+~
+undefined~
+0 0 11660
+D2
+The Way back down
+~
+~
+0 0 11640
+S
+#11651
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D1
+~
+~
+0 0 -1
+D2
+The Hall
+~
+~
+0 0 11652
+D3
+The Hall
+~
+~
+0 0 11641
+S
+#11652
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11651
+D2
+The Hall
+~
+~
+0 0 11653
+D3
+The Hall
+~
+~
+0 0 11643
+S
+#11653
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11652
+D1
+The Pit
+~
+~
+0 0 11661
+D2
+The Hall
+~
+~
+0 0 11654
+D3
+The Hall
+~
+~
+0 0 11643
+S
+#11654
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11653
+D2
+The Hall
+~
+~
+0 0 11655
+D3
+The Hall
+~
+~
+0 0 11644
+S
+#11655
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11654
+D2
+The Hall
+~
+~
+0 0 11656
+D3
+The Hall
+~
+~
+0 0 11645
+S
+#11656
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11655
+D2
+The Hall
+~
+~
+0 0 11657
+D3
+The Hall
+~
+~
+0 0 11646
+S
+#11657
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11656
+D1
+The Pit
+~
+~
+0 0 11665
+D2
+The Hall
+~
+~
+0 0 11658
+D3
+The Hall
+~
+~
+0 0 11647
+S
+#11658
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11657
+D2
+The Hall
+~
+~
+0 0 11659
+D3
+The Hall
+~
+~
+0 0 11648
+S
+#11659
+The Hall~
+   You are now standing in the within the walls of the concert hall.  The music
+is that loud that it is impossible to even here the person next to you speak.
+  
+~
+116 dfA 0 0
+D0
+The Hall
+~
+~
+0 0 11658
+D3
+The Hall
+~
+~
+0 0 11649
+S
+#11660
+Along the run~
+   You are up in the cable lighting run Thier are plenty of cables and lights
+set up all over the place
+~
+116 dfA 9 0
+D2
+Back along the run
+~
+~
+0 0 11650
+D5
+Down to the floor
+~
+~
+0 0 11636
+S
+#11661
+The Pit~
+   You are up against the fence in the moosh pit.  People are crowd surfing all
+over the place The guy standing next to you is offering you a leg up, It is
+your choose if you take it or not.    
+~
+116 dfA 0 0
+D1
+The Stage
+~
+~
+0 0 -1
+D2
+The Pit
+~
+~
+0 0 11662
+D3
+The Hall
+~
+~
+0 0 11653
+S
+#11662
+The Pit~
+   You are up against the fence in the moosh pit.  People are crowd surfing all
+over the place The guy standing next to you is offering you a leg up, It is
+your choose if you take it or not.    
+~
+116 dfA 0 0
+D0
+The Pit
+~
+~
+0 0 11661
+D1
+The Stage
+~
+~
+0 0 -1
+D2
+The Pit
+~
+~
+0 0 11663
+D3
+The Hall
+~
+~
+0 0 11654
+S
+#11663
+The Pit~
+   You are up against the fence in the moosh pit.  People are crowd surfing all
+over the place The guy standing next to you is offering you a leg up, It is
+your choose if you take it or not.    
+~
+116 dfA 0 0
+D0
+The Pit
+~
+~
+0 0 11662
+D1
+The stage
+~
+~
+0 0 -1
+D2
+The Pit
+~
+~
+0 0 11664
+D3
+The Hall
+~
+~
+0 0 11655
+S
+#11664
+The Pit~
+   You are up against the fence in the moosh pit.  People are crowd surfing all
+over the place The guy standing next to you is offering you a leg up, It is
+your choose if you take it or not.    
+~
+116 dfA 0 0
+D0
+The Pit
+~
+~
+0 0 11663
+D1
+The Stage
+~
+~
+0 0 -1
+D2
+The Pit
+~
+~
+0 0 11665
+D3
+The Hall
+~
+~
+0 0 11656
+S
+#11665
+The Pit~
+   You are up against the fence in the moosh pit.  People are crowd surfing all
+over the place The guy standing next to you is offering you a leg up, It is
+your choose if you take it or not.    
+~
+116 dfA 0 0
+D0
+The Pit
+~
+~
+0 0 11664
+D1
+The Stage
+~
+~
+0 0 -1
+D3
+The Hall
+~
+~
+0 0 11657
+S
+#11666
+Behind the fence~
+   You have made it behind the fence before the bouncer got to you Quick you
+better hurry onto the stage before the get you
+~
+116 dfA 0 0
+D0
+~
+~
+0 0 -1
+D2
+Back to the Pit
+~
+~
+0 0 -1
+D4
+The Stage
+~
+~
+0 0 11669
+S
+#11667
+The way Out~
+   You have been dragged over the fence by a boucer.  The bouncer has pushed
+you off to the left of the stage and off into this room that has only one EXIT
+which happens to be out.    
+~
+116 0 0 0
+D0
+The Foot Path
+~
+~
+0 0 11602
+S
+#11668
+The Stage~
+   You are standing on the front of the stage.  From here I am sure you could
+easily surf off the off into the crowed
+~
+116 dfA 0 0
+D1
+The Stage
+~
+~
+0 0 11675
+D2
+The Stage
+~
+~
+0 0 11669
+D3
+Back to the Pit
+~
+~
+0 0 11696
+S
+#11669
+The Stage~
+   You are standing on the front of the stage.  From here I am sure you could
+easily surf off the off into the crowed
+~
+116 dfA 0 0
+D0
+The Stage
+~
+~
+0 0 11668
+D1
+The Stage
+~
+~
+0 0 11676
+D2
+The Stage
+~
+~
+0 0 11670
+D3
+Back to the Pit
+~
+~
+0 0 11696
+D5
+Trap
+~
+Trap~
+1 0 11679
+S
+#11670
+The Stage~
+   You are standing on the front of the stage.  From here I am sure you could
+easily surf off the off into the crowed
+~
+116 dfA 0 0
+D0
+The Stage
+~
+~
+0 0 11669
+D1
+The Stage
+~
+~
+0 0 11677
+D2
+The Stage
+~
+~
+0 0 11674
+D3
+Back to the Pit
+~
+~
+0 0 11696
+S
+#11671
+Up to the Rafters~
+   You are up in the cable && lighting run Thier are plenty of cables and
+lights set up all over the place
+~
+116 dfA 9 0
+D2
+Along the run
+~
+~
+0 0 11672
+D5
+~
+~
+0 0 11631
+S
+#11672
+Up in the Rafters~
+   You are up in the cable & lighting run Thier are plenty of cables and lights
+set up all over the place
+~
+116 dfA 0 0
+D0
+The Way back down
+~
+~
+0 0 11671
+D2
+Along the run
+~
+~
+0 0 11673
+S
+#11673
+Along the run~
+   You are up in the cable & lighting run Thier are plenty of cables and lights
+set up all over the place
+~
+116 dfA 9 0
+D0
+Back along the run
+~
+~
+0 0 11672
+D5
+Down to the floor
+~
+~
+0 0 11634
+S
+#11674
+The Stage~
+   You are standing on the front of the stage.  From here I am sure you could
+easily surf off the off into the crowed
+~
+116 dfA 0 0
+D0
+The Stage
+~
+~
+0 0 11670
+D1
+The Stage
+~
+~
+0 0 11678
+D3
+Back to the Pit
+~
+~
+0 0 11696
+S
+#11675
+The Stage~
+   You are now standing at the back of the stage.  This area is full of amps,
+speakers and cables
+~
+116 dfA 0 0
+D0
+Behind the Stage
+~
+~
+0 0 11683
+D2
+The Stage
+~
+~
+0 0 11676
+D3
+The Stage
+~
+~
+0 0 11668
+S
+#11676
+The Stage~
+   You are now standing at the back of the stage.  This area is full of amps,
+speakers and cables
+~
+116 dfA 0 0
+D0
+The Stage
+~
+~
+0 0 11675
+D2
+The Stage
+~
+~
+0 0 11677
+D3
+The Stage
+~
+~
+0 0 11669
+D4
+Up
+~
+up~
+1 0 11680
+S
+#11677
+The Stage~
+   You are now standing at the back of the stage.  This area is full of amps,
+speakers and cables
+~
+116 dfA 0 0
+D0
+The Stage
+~
+~
+0 0 11676
+D2
+The Stage
+~
+~
+0 0 11678
+D3
+The Stage
+~
+~
+0 0 11670
+S
+#11678
+The Stage~
+   You are now standing at the back of the stage.  This area is full of amps,
+speakers and cables
+~
+116 dfA 0 0
+D0
+The Stage
+~
+~
+0 0 11677
+D2
+A corridor behind the Stage
+~
+~
+0 0 11686
+D3
+The Stage
+~
+~
+0 0 11674
+S
+#11679
+Under the Stage~
+   You are in a very dark small room You really don't want to spend to much
+time in here
+~
+116 dfiA 0 0
+D4
+Up to the stage
+~
+Trap~
+1 0 11669
+S
+#11680
+Up above the stage~
+   You are up above the stage
+~
+116 dfA 9 0
+D5
+The Stage
+~
+Above~
+1 0 11676
+S
+#11681
+The Back Door~
+   You have came to the end of the corridor and it would seem You have made a
+mistake taking this route as the only way from here is back onto the street
+~
+116 d 0 0
+D0
+The Street
+~
+~
+0 0 11600
+S
+#11682
+Another Corridor~
+   You are now walking down another corridor It seems you have walked into a
+one way street which is head straight for the back door
+~
+116 df 0 0
+D1
+On the way Out
+~
+~
+0 0 11687
+D3
+~
+~
+0 0 -1
+S
+#11683
+Behind the Stage~
+   You are standing in a corridor behind the stage
+~
+116 cdfA 0 0
+D0
+The Stage
+~
+~
+0 0 11675
+D1
+Another Corridor
+~
+~
+0 0 11682
+D2
+A corridor behind
+~
+~
+0 0 11684
+S
+#11684
+Behind the Stage~
+   You are standing in a corridor behind the stage
+~
+116 dfA 0 0
+D0
+A corridor behind the Stage
+~
+~
+0 0 11683
+D1
+Dressing Room A
+~
+Private~
+1 0 11688
+D2
+A corridor behind the Stage
+~
+~
+0 0 11685
+S
+#11685
+Behind the Stage~
+   You are standing in a corridor behind the stage
+~
+116 dfA 0 0
+D0
+A corridor behind the Stage
+~
+~
+0 0 11684
+D2
+A corridor behind the Stage
+~
+~
+0 0 11686
+S
+#11686
+Behind the Stage~
+   You are standing in a corridor behind the stage
+~
+116 cdfA 0 0
+D0
+A corridor behind the Stage
+~
+~
+0 0 11685
+D1
+Dressing Room B
+~
+Private~
+1 0 11690
+D2
+The Stage
+~
+~
+0 0 11678
+S
+#11687
+Another Corridor~
+   You are now walking down another corridor It seems you have walked into a
+one way street which is head straight for the back door
+~
+116 df 0 0
+D0
+On the way Out
+~
+~
+0 0 11681
+S
+#11688
+Dressing Room A~
+   You are standing in the doorway of a large office like room.    
+~
+116 0 0 0
+D1
+~
+~
+0 0 11692
+D2
+~
+~
+0 0 11689
+D3
+Behind the Stage
+~
+Behind~
+1 0 11684
+S
+#11689
+Dressing Room A~
+   This coner of the office must be used when the owner of this office has had
+a hard day playing solitair as that lounge looks very inviting.    
+~
+116 0 0 0
+D0
+~
+~
+0 0 11688
+D1
+~
+~
+0 0 11693
+S
+#11690
+Dressing Room B~
+   You are currently standing in Chad's corner of the dressing room, This is
+made very noticeable due to the boxes apon boxes of drum sticks he has sitting
+ready to be used.    
+~
+116 0 0 0
+D1
+~
+~
+0 0 11694
+D2
+~
+~
+0 0 11691
+D3
+Behind the Stage
+~
+Behind~
+1 0 11686
+S
+#11691
+Dressing Room B~
+   Clearly you can see that none of these boy's have thier mothers on tour with
+them.  This corner of the room has been littered with cans from the last few
+nights.    
+~
+116 0 0 0
+D0
+~
+~
+0 0 11690
+D1
+~
+~
+0 0 11695
+S
+#11692
+Dressing Room A~
+   You are currently infrount of a big oak desk.  Someone who things thier very
+important must use This office.    
+~
+116 0 0 0
+D2
+~
+~
+0 0 11693
+D3
+~
+~
+0 0 11688
+S
+#11693
+Dressing Room A~
+   You are behind the big oak desk.  Seeing that thier is a half finnished game
+of solitair on the computer screen.  You guess that this person most likley
+doesn't do much with hsi time.    
+~
+116 0 0 0
+D0
+~
+~
+0 0 11692
+D3
+~
+~
+0 0 11689
+S
+#11694
+Dressing Room B~
+   You are standing in Flea's corner.  A mirror stands before you that is
+boarded by little Black & White Sketches, that Flea himself has used.    
+~
+116 0 0 0
+D2
+~
+~
+0 0 11695
+D3
+~
+~
+0 0 11689
+S
+#11695
+Dressing Room B~
+   You are now standing in Anthony's corner.  Anothony doesn't realy leave any
+tell tail signs only that thier are no instruments lying around.    
+~
+116 0 0 0
+D0
+~
+~
+0 0 11694
+D3
+~
+~
+0 0 11691
+S
+#11696
+The Pit~
+   You are crowd surfing above the mosh Pit
+~
+116 cdf 0 0
+D0
+The Pit
+~
+~
+0 0 11661
+D1
+The Pit
+~
+~
+0 0 11662
+D2
+The Pit
+~
+~
+0 0 11664
+D3
+The Pit
+~
+~
+0 0 11665
+D5
+The Pit
+~
+~
+0 0 11663
+S
+#11697
+Concert Goers food~
+   You are standing in the middle of a big clean shop It looks like it is some
+sort of fast food place.  I wonder if anyone is going to serve you.  Hmmm
+~
+116 dehE 0 0
+D2
+~
+~
+0 0 11611
+S
+T 11607
+T 11610
+T 11612
+T 11616
+T 11617
+T 11618
+T 11636
+#11698
+At the front of the bus~
+You have just entered the 420 bus, taking passengers between &[&cAngel Grove&],
+&[&cThe City Hall&], and &[&cHollywood&].  As you pay your fare, you notice the bus
+has made many trips.  Passengers patiently wait inside to arrive at their
+destination.    
+~
+116 dgA 0 0
+D1
+You see the dark and gloomy rear bus seats.
+~
+~
+0 0 11699
+S
+#11699
+At the back of the bus~
+You are at the back the 420 bus, which takes passengers between &[&cAngel Grove&],
+&[&cThe Concert Hall&] and &[&cHollywood&].  The view from here is comparable to that at
+the front of the bus, where the doors are located. A musky smell wafts past
+your nose.
+~
+116 dgA 0 0
+D3
+You see the brighter section towards the front of the bus.
+~
+~
+0 0 11698
+S
+$~

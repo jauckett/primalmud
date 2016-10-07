@@ -1,0 +1,20 @@
+sanc cast 'sanctuary' self
+rc cast 'word of recall' self
+whi get white from force; quaff white
+red get red from force; quaff red
+eyes cast 'infravision'
+food cast 'create food'
+sore cast 'cure light'
+cc cast 'cure critic'
+mm cast 'magic missile'
+em get meat from bag; eat meat
+invis cast 'invisibility'
+eb get bread from bag; eat bread
+ehd get hotdog from  bag; eat hotdog
+arm cast 'armor'
+dw dr wa
+det cast 'detect invisibility'
+ff look in force
+cs cast 'color spray' $1
+drag cast 'dragon' self
+ready wear all; wi pool; hold wand; op for; put all for;

@@ -1,0 +1,98 @@
+head	1.5;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2002.07.20.08.21.02;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.10.14.00.59.19;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.08.28.20.16.24;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.08.28.20.14.30;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Latest Versions
+@
+text
+@# This is the randomly displayed hints
+# The file is ended with a $
+If you are wanting help please type <help> and see available commands.
+Finding you can't see anything? Try the spell Infravision.
+As a newbie please use help <command> before you ask!
+The Donation room is really good for finding equipment!
+The Riverside Tavern is a good place to rejuvinate!
+The area command is fantastic for finding zones to play in!
+We have a remort system type help <remort> to learn about it!
+$
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d3 7
+a9 3
+This is a random hint displayed currently every 10 mins ...
+This is another random hint.
+Subliminal Message: You love artus.
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d5 1
+@
+
+
+1.2
+log
+@
+Added:
+- brief header comment, end of file marker and one hint
+@
+text
+@d4 1
+@
+
+
+1.1
+log
+@
+Added:
+- The hints file
+@
+text
+@d1 4
+@
+

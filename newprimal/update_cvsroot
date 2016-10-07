@@ -1,0 +1,20 @@
+#!/bin/sh
+
+#REPOSITORY="mud@mud.alphalink.com.au:/home/mud/repository"
+REPOSITORY="/home/mud/repository"
+
+base=`basename $0`
+
+for file in *; do
+  if [ -d $file ] ; then
+    if [ "$file" != "CVS" ] ; then
+      orgdir=`pwd`
+      cd $file
+      /home/mud/newprimal/$base
+      cd $orgdir
+    else
+      pwd
+      echo "$REPOSITORY" > CVS/Root
+    fi
+  fi
+done

@@ -1,0 +1,17 @@
+rr c 'word
+elf e;s;d;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w
+wake gs wakepk;wake;stand
+sleep gs sleeppk;sleep
+k gs attackhim;kill $1
+ga get all all.corpse
+hhh c 'advan'
+hh c 'heal'
+gac get all all.corpse
+san c 'san'
+infra c 'infra'
+summon c 'summon' $1
+ch c 'charm' $1
+fin c 'fin' $1
+cp c 'plasma' $1
+ef eat meat
+dw drink skin

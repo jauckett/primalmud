@@ -1,0 +1,6229 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#10100
+Forbidden Docks~
+Rather plain docks made of mouldy timber provide entrance onto this fabled 
+island fortress. The state of the docks seems to imply a discouragement of
+visitors to the land. The native islanders already approach in the
+distance, wielding sharp weapons and items of power. 
+~
+101 64 1
+D1
+A small heavily fortified town lies at the base of a cliff, upon which 
+stands a tall tower. 
+~
+town~
+0 0 10101
+E
+dock docks~
+The docks are crumbly and unused except by sole fishermen who provide food 
+to the town.
+~
+S
+#10101
+Forbidden Docks~
+The timbers in this section of the docks are even worse, and blood lies in 
+thick pools where it has not been absorbed yet, or fallen through the gaps
+into the sea beneath. Peering downward you can make out shark fins
+circling. 
+~
+101 0 1
+D1
+The small town looks even more forboding now that you are closer. The tower 
+almost leers down at you.
+~ 
+town tower~
+0 0 10102
+D3
+To the west the dock ends, and the sea surrounding this island disappears 
+into a mountainous horizon.
+~
+~
+0 0 10100
+D5
+You spot a large gap in the docks, and think you can manage to wedge your 
+way down.
+~
+dock docks gap~
+1 -1 10103
+S
+
+#10102
+Forbidden Dock Steps~
+Rickety wooden steps lead down to a rocky pathway that leads into the 
+fortified town, and back up to the relative safety of the docks. There is
+an almost unnatural hush in the area, a suspicious lull like the calm
+before a storm.
+~
+101 0 1
+D0
+Northward a thin sandy beach holds remnants of ships and boats from long ago.
+~
+beach ships~
+0 0 10104
+D1
+Low walls surround the town, while tall observation towers look down at you.
+~
+wall walls tower towers observation~
+0 0 10105
+D3
+The crumbly dock begins it's brief run into the sea and the outside world.
+~
+dock docks~
+0 0 10101
+S
+
+#10103
+Under the Forbidden Docks~
+The sea here is infested with sharks waiting for food scraps to fall from 
+the docks above. They look quite lazy and slow, obviously used to
+frequent easy meals. From the small number of fishing boats you have
+spotted so far, you deduce that their meals aren't strictly kept to ocean
+faring creatures.
+~
+101 1 7
+D4
+The dingy docks above look almost inviting compared to this bloody feeding 
+ground.
+~
+dock docks gap~
+1 -1 10101
+D5
+~
+~
+0 0 7180
+S
+
+#10104
+Deserted Beach~
+Littered across the span of this small beach are remnants of warships and 
+dragoons. From the tall masted to strangely shaped, they have all fallen
+prey to the denizens of this island, driven into the sand and their crews
+slaughtered. 
+~
+101 0 2
+D2
+The dock steps are to the south, leading into the town, or up to the docks 
+and freedom.
+~
+dock docks~
+0 0 10102
+E
+ship ships boats remnants warships dragoons~
+Many different types of ships are rotting slowly here, abused by the ocean 
+and forgotten by the world. You stagger at the thought of the sheer number
+of people that must have died at the hands of the masters of this island.
+~
+S
+
+#10105 
+Forbidden Gates~
+Not very tall, the gates stand open on hinges long rusted in place. You 
+wonder at the sort of town that feels safe enough to leave itself so open
+to invading forces. Tall observation towers thrust into the sky, small 
+flickering lights can occasionally be seen sparking briefly. To the east 
+lies a town that is drab, with buildings flat rooved and square walled. 
+~
+101 68 1
+D1
+Small squat buildings can be seen through the gates, grey in colour and 
+with slits for windows.
+~
+gate town buildings~
+0 0 10106
+D3
+A short stone pathway leads up to the docks and the sea beyond it.
+~
+pathway docks~
+0 0 10102
+D4
+Twin towers reach high, built of grey closely interlocked stone, they look 
+weathered and worn, scorch marks from ship catapults testifying to their
+solidity.
+~
+tower towers observation~
+0 0 -1
+S  
+
+#10106
+The compound~
+You are in a square area defined by houses facing away into unknown streets. 
+The only two pathways from this killing ground lie on opposite ends, and
+the reason for the deceptively open gate becomes apparent. 
+~
+101 0 1
+D1
+A narrow street leads away from the compound, into a maze.
+~
+maze pathway town~
+0 0 10107
+D3
+Gates lead out onto the docks of this fortified slaughtering pen.
+~
+gate gates~
+0 0 10105
+E
+square compound killing ground houses~
+A large square area, the ground is bloodied and stained, and metallic objects 
+reflect what light there is, as they slowly rust. The backs of the houses
+seem lined with grooves where objects have scratched hard, perhaps even
+fighters using their fingers in desperate attempts to escape.
+~
+S
+
+#10107
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10108
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10109
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10110
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10109
+S
+#10108
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be 
+heard  through the walls, tantalizing signs of life other than the burly
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10111
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10108
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10107
+S
+#10109
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small  sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10109
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10109
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10109
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10107
+S
+
+
+#10110
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be 
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10107
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10110
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10112
+S
+
+#10111
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10114
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10115
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10108
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10113
+D5
+One of the stones in the floor seems loose.
+~
+stone floor trapdoor cache~
+1 0 10167
+
+S
+
+#10112
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10110
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10116
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10117
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10118
+S
+
+#10113
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be 
+heard through the walls, tantalizing signs of life other than the burly
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10111
+D3
+A doorway! 
+~
+door~
+2 10100 10119
+S
+
+#10114
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10120
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10121
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10111
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10114
+S
+
+#10115
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10115
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10132
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10111
+S
+
+#10116
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be 
+heard through the walls, tantalizing signs of life other than the burly
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+A doorway!
+~
+door~
+2 10100 10134 
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10112
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10117
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10112
+D5
+One of the stones in the floor seems loose.
+~
+stone floor trapdoor cache~
+1 0 10165
+S
+
+#10117
+Outer maze~
+A dead end. That has to be something. You suspect you are slowly going insane 
+within these walls, and that if the warriors do not get you soon, you may
+have to fall on your sword to end it.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10112
+S
+
+#10118
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10116
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10112
+D3
+A doorway! 
+~
+door~
+2 10100 10124
+S
+
+#10119
+Fortified room~
+This room is unremarkable in every way. It is simply enclosed by a roof 
+and has two doorways, to differentiate from the maze outside.
+~
+101 65 0
+D1
+A doorway locked from the inside leads out to the maze.
+~
+door east~
+1 0 10113
+D3
+A doorway locked from the inside leads out to the maze.
+~
+door west~
+0 0 10126
+S
+
+#10120
+Outer maze~
+A dead end. That has to be something. You suspect you are slowly going insane 
+within these walls, and that if the warriors do not get you soon, you may
+have to fall on your sword to end it.
+~
+101 64 1
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10114
+S
+
+#10121
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10122
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10114
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10121
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10114
+S
+
+#10122
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10122
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10122
+D2
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10121
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10123
+D5
+One of the stones in the floor seems loose.
+~
+stone floor trapdoor cache~
+1 0 10166
+S
+
+#10123
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 68 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10123
+D1
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10122
+D3
+The compound! Even that bloodied killing ground has to be better than the maze.
+~
+~
+0 0 10106
+S
+
+#10124
+Fortified room~
+This room is unremarkable in every way. It is simply enclosed by a roof and 
+has two doorways, to differentiate from the maze outside.
+~
+101 65 0
+D0
+A doorway locked from the inside leads out of the room.
+~
+door north~
+1 0 10125
+D1
+A doorway locked from the inside leads out to the maze.
+~
+door east~
+1 0 10118
+S
+
+#10125
+South observation tower~
+Spiralling stairs lead up this thin tower, solidly constructed with the 
+same grey stone that plagues the town. You sense a small draft coming down
+the stairs, along with a tiny bit of light.
+~
+101 5 0
+D2
+A small corridor leads to a doorway.
+~
+corridor door~
+1 0 10124
+D4
+Stairs spiral upward into a thin light.
+~
+stairs spiral~
+0 0 10128
+S
+
+#10126
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be 
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10126
+D1
+A doorway!
+~
+door~
+2 10100 10119
+D2
+You spot the doorway to the North Observation Tower.
+~
+tower~
+0 0 10127
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10126
+D5
+One of the stones in the floor seems loose.
+~
+stone floor trapdoor cache~
+1 0 10168
+S
+
+#10127
+North Observation Tower~
+You stand at the base of the north observation tower, and spot some wooden 
+steps strolling up to a higher platform before ending at a trapdoor. 
+~ 
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10126
+D4
+Wooden steps lead up to a platform.
+~
+steps wooden platform~
+0 0 10130
+S
+
+#10128
+Inside the South Tower~
+A small platform interrupts the spiral stairs which continue up, and allows 
+archers to look down at the compound and gate through thin arrow slits.
+Large crossbows are fixed on stands near the slits for the defenders to
+rain powerful bolts of death down on invaders.
+~
+101 65 0
+D4
+The stairs continue up through an open trapdoor into a brighter room.
+~
+stairs trapdoor~
+1 0 10129
+D5
+The stairs wind down to the base of the tower.
+~
+base~
+0 0 10125
+E
+crossbow crossbows stand~
+Standing near the arrow slits, the large crossbows are smaller versions of 
+the ballista. Ingenious, and deadly, but too heavy to use without a stand
+to rest them on. 
+~
+E
+slit arrow slits~
+Peering through the slits you can make out the compound you came through 
+before entering this cursed maze. The gate still stands open, and to the
+east you can spot the docks. 
+~
+S
+
+#10129
+Top of the South Tower~
+Running all around this tower are slits similar to the ones below, with 
+equally powerful modified crossbows on stands nearby. There is enough room
+for many men to spead out inside this tower and dish out damage to those
+unfortunates below. A large beacon light sits housed in the roof, half
+inside and half out, perhaps for passing messages to other areas of the town.
+~
+101 64 0
+D5
+Stairs lead downward to the rest of the tower.
+~
+stair stairs~
+0 0 10128
+E
+slit slits~
+The slits give you a stunning view of the whole area. To the north you can 
+see a deserted beach littered with various beached boats, while to the
+west lies the sea you came across. To the south there is mountain that
+runs straight into the sea, blocking off travel. To the east you see the 
+eerie tower standing high, four arms reaching out in the cardinal
+directions attached to the top of the huge structure. Behind it tall
+mountains provide a snowy backdrop, leading up and through the clouds.
+~
+E
+crossbow crossbows stand~ 
+Standing near the arrow slits, the large crossbows are smaller versions of 
+the ballista. Ingenious, and deadly, but too heavy to use without a stand
+to rest them on. 
+~
+S
+
+#10130
+Inside the North Tower~
+A wide open platform looks down into the compound below. Large stained 
+cauldrons sit ready to be filled and heated, ready to pour down on the
+besiegers. A trapdoor leads up into the highest part of the tower.  
+~
+101 64 1
+D4
+A small trapdoor allows entry upward.
+~
+door trapdoor~
+1 0 10131
+D5
+Wooden stairs lead down to the base of the North Tower.
+~
+wooden base~
+0 0 10127
+E
+cauldron~
+The large caulrons are held in place by large steel rods, that are attached 
+to gears cunningly wrought to tip the contents down on those at the gate. 
+~
+S
+
+#10131
+Top of the North Tower~
+Running all around this tower are slits similar to the ones below, with 
+equally powerful modified crossbows on stands nearby. There is enough room
+for many men to spead out inside this tower and dish out damage to those
+unfortunates below. A large beacon light sits housed in the roof, half
+inside and half out, perhaps for passing messages to other areas of the town.
+~
+101 64 0
+D5
+A trapdoor leads onto the platform below.
+~
+trapdoor platform~
+1 0 10130
+E
+slit slits~
+The slits give you a stunning view of the whole area. To the north you can 
+see a deserted beach littered with various beached boats, while to the
+west lies the sea you came across. To the south there is mountain that
+runs straight into the sea, blocking off travel. To the east you see the
+eerie tower standing high, four arms reaching out in the cardinal
+directions attached to the top of the huge structure. Behind it tall
+mountains provide a snowy backdrop, leading up and through the clouds.
+~
+E
+crossbow crossbows stand~ 
+Standing near the arrow slits, the large crossbows are smaller versions of 
+the ballista. Ingenious, and deadly, but too heavy to use without a stand
+to rest them on. 
+~
+S
+
+#10132
+Outer maze~
+The drab grey walls seem to fold in on you, surrounding you with their 
+sameness. Almost blending in with the walls, the path has no markings and
+no signs point the way through this narrow maze. Small sounds can be
+heard through the walls, tantalizing signs of life other than the burly 
+warriors who stalk the streets in search of lost invaders.
+~
+101 64 1
+D0
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10121
+D2
+A doorway!
+~
+door~
+1 0 10133
+D3
+The maze continues, no sign of relief from the greyness there.
+~
+~
+0 0 10115
+S
+
+#10133
+Fortified room~
+This room is unremarkable in every way. It is simply enclosed by a roof
+and has two doorways, to differentiate from the maze outside.
+~
+101 65 0
+D0
+A doorway locked from the inside leads out of the room.
+~
+door north~
+1 0 10132
+D2
+A doorway locked from the inside leads out to the maze.
+~
+door south~
+1 0 10115
+S
+
+#10134
+Fortified room~
+This room is unremarkable in every way. It is simply enclosed by a roof 
+and has two doorways, to differentiate from the maze outside.
+~
+101 65 0
+D1
+A doorway locked from the inside leads out of the room.
+~
+door east~
+1 0 10135
+D2
+A doorway leads out of the room.
+~
+door south~
+1 0 10116
+S
+
+#10135
+Kana~
+An orderly street devoid of filth and solidly built leads east into the 
+centre of the town. The street is wide and in normal times could easily
+be mistaken for belonging in your home town of Haven. The houses have
+large windows and decorated doorways, showing a craftmanship high in  
+quality and aesthetic taste. Sounds of children laughing can be heard as
+life continues normally behind the relative safety of the town's
+safeguards, beneath the watchful eye of the Tower on top of the cliff to
+the east, and protected by the mountains around it. 
+~
+101 4 1
+D1 
+A wide pathway leads eastward into the town proper.
+~
+street path~
+0 0 10136
+D3
+A doorway leads back into the fortified room that is the entrance to the 
+outer maze of Kana.
+~
+door room~
+1 0 10134
+E
+town kana~
+You see a tidy town, hushed by a constant need for vigilance against the 
+invader. Innocent sounds drift from some of the buildings, and you feel
+like an aggressive monster about to destroy lives and people forever,
+despite the hardships the maze put up against you.
+~
+S
+
+#10136
+Kana~
+Leading off in every direction, straight tidy streets wind through Kana, 
+neat doorways lead the way into the residences, on side streets.
+~
+101 0 1
+D0
+A street leads northward.
+~
+~
+0 0 10145
+D1
+A street leads eastward.
+~
+~
+0 0 10144
+D2
+A street leads southward.
+~
+~
+0 0 10137
+D3
+A street leads westward.
+~
+~
+0 0 10135
+S
+
+#10137
+Kana~
+Going north and south, this tidy street has a door to the east leading into 
+a house.
+~
+101 0 1
+D0
+A street leads northward.
+~
+~
+0 0 10136
+D1
+A doorway into a house.
+~
+~
+0 0 10149
+D2
+A street leads southward.
+~
+~
+0 0 10138
+S
+
+#10138
+Kana~
+Going north and east, tidy streets wind through this part of the town where 
+the residents live in isolated solitude.
+~
+101 0 1
+D0
+A street leads northward.
+~
+~
+0 0 10137
+D1
+A street leads eastward.
+~
+~
+0 0 10139
+S
+
+#10139
+Kana~
+Going east and west, this tidy street is wide and well kept. A strong 
+seeming door on the north wall leads into someone's house.
+~
+101 0 1
+D0
+This door leads into a house.
+~
+~
+1 0 10147
+D1
+A street leads eastward.
+~
+~
+0 0 10140
+D3
+A street leads westward.
+~
+~
+0 0 10138
+S
+
+#10140
+Kana~
+Leading north, and west, this street stands against the mountains to the 
+east which tower above the town and protect it from invasion.
+~
+101 0 1
+D0
+A street leads northward.
+~
+~
+0 0 10157
+D3
+A street leads westward.
+~
+~
+0 0 10139
+E
+mountain cliff mountains~
+The cliff rises sharply into the clouds above.
+~
+S
+
+#10141
+Kana~
+A T-intersection leading north and south connects with a wide street to 
+the west. A sheer cliff face to the east rises into the clouds. 
+~
+101 0 1
+D0
+A street leads northward.
+~
+~
+0 0 10155
+D2
+A street leads southward.
+~
+~
+0 0 10157
+D3
+A street leads westward.
+~
+~
+0 0 10144
+E
+cliff~
+A rugged and sharp cliff rises high into the clouds above.
+~
+S
+
+#10142
+Kana~
+Running against the cliff face this street bends to the west and south, 
+into the town. The cliff here looks rugged but you think you can see a
+handle in the wall. Strange.
+~
+101 0 1
+D1
+The cliff face is rugged and sharp. 
+~
+cliff handle~
+1 0 10160
+D2
+A street leads southward.
+~
+~
+0 0 10155
+D3
+A street leads westward.
+~
+~
+0 0 10146
+E
+cliff handle~
+The cliff is rugged and sharp, but you can spot a handle cunningly fastened 
+to the wall.
+~
+S
+
+#10143
+Kana~
+Bending east and south this street is neat like much the rest of this town. 
+~
+101 0 1
+D1
+A street leads eastward.
+~
+~
+0 0 10146
+D2
+A street leads southward.
+~
+~
+0 0 10145
+S
+
+#10144
+Kana Market~
+Going east and west, this section of Kana would normally house a market, but 
+now the stalls lie deserted and turned over, as the citizens rushed off
+to defend their town and way of life. Two houses on the north and south
+walls look down into the market area.
+~
+101 0 1
+D0
+A large door leads into the house to the north.
+~
+door large north~
+1 0 10151
+D1
+A street leads eastward.
+~
+~
+0 0 10141
+D2
+A large door leads into the house to the south.
+~
+large door south~
+1 0 10150
+D3
+A street leads westward.
+~
+~
+0 0 10136
+E
+market stalls~
+Upturned stalls and tables bear rotting remains of food probably best left 
+untouched. 
+~
+S
+
+#10145
+Kana~
+Heading north and south, a door to the east lies strangely open.
+~
+101 0 1
+D0
+A street leads northward.
+~
+~
+0 0 10143
+D1
+An doorway leads into a house.
+~
+door~
+1 0 10152
+D2
+A street leads southward.
+~
+~
+0 0 10136
+S
+
+#10146
+Kana~
+Going east and west, this street continues up to the cliff face. On the  
+south wall a door leads into a household, while to the north you see the
+opening of a cavern. 
+~
+101 0 1
+D0
+A cavern opens up into the cliff.
+~
+cavern~
+0 0 10159
+D1
+A street leads eastward.
+~
+~
+0 0 10142
+D2
+A door stands stolidly against invasion.
+~
+door south~
+1 0 10153
+D3
+A street leads westward.
+~
+~
+0 0 10143
+E 
+cavern~
+It almost looks like the cliff is yawning. Peering closely, you see some
+strange symbols at the top of the cavern mouth.
+~
+E
+symbols~
+You can't understand them.
+~
+S
+
+#10147
+A house in Kana~
+Colourful drawings line the single room that passes for a house in this
+town. Furniture is solid but fairly bland in design, and without a
+fireplace you suspect there is a reason for all the rugs that lie strewn
+on the floor. 
+~
+101 9 0
+D2
+The door leads back outside onto the street.
+~
+door south~
+1 0 10139
+S
+
+#10148
+A house in Kana~
+Colourful drawings line the single room that passes for a house in this
+town. Furniture is solid but fairly bland in design, and without a
+fireplace you suspect there is a reason for all the rugs that lie strewn
+on the floor. 
+~
+101 9 0
+D1
+The door leads back outside onto the street.
+~
+door east~
+1 0 10157
+S
+
+#10149
+A house in Kana~
+Colourful drawings line the single room that passes for a house in this
+town. Furniture is solid but fairly bland in design, and without a
+fireplace you suspect there is a reason for all the rugs that lie strewn
+on the floor. 
+~
+101 9 0
+D3
+The door leads back outside onto the street.
+~
+door west~
+1 0 10137
+S
+
+#10150
+A house in Kana~
+This house must represent what passes for luxury in this town. It is
+certainly wider than the rest but remains single roomed, despite the
+necessity for columns to hold up the roof. The decorations are quite
+impressive, and are probably kept more as a sign of status rather than
+any personal reason. Some sturdy furniture seems comfortable in the light
+of the torches which line the walls.
+~
+101 8 0
+D0
+The door leads back outside onto the street.
+~
+door north~
+1 0 10144
+D5
+This trapdoor leads into a dark basement.
+~
+trapdoor basement down~
+1 0 10162
+S
+
+#10151
+A house in Kana~
+This house must represent what passes for luxury in this town. It is
+certainly wider than the rest but remains single roomed, despite the
+necessity for columns to hold up the roof. The decorations are quite
+impressive, and are probably kept more as a sign of status rather than
+any personal reason. Some sturdy furniture seems comfortable in the light
+of the torches which line the walls.
+~
+101 8 0
+D2
+The door leads back outside onto the street.
+~
+door south~
+1 0 10144
+D5
+This trapdoor leads into a dark basement.
+~
+trapdoor basement down~
+1 0 10161
+S
+
+#10152
+A house in Kana~
+This house has quite obviously been ravaged. Previous invaders must have 
+reached the town proper and the residents have not rebuilt it, or
+populated it since then. 
+~
+101 9 0
+D3
+The door leads back outside onto the street.
+~
+door west~
+1 0 10145
+S
+
+#10153
+A house in Kana~
+Colourful drawings line the single room that passes for a house in this
+town. Furniture is solid but fairly bland in design, and without a
+fireplace you suspect there is a reason for all the rugs that lie strewn
+on the floor. 
+~
+101 9 0
+D0
+The door leads back outside onto the street.
+~
+door north~
+1 0 10146
+S
+
+
+#10154
+A house in Kana~
+Colourful drawings line the single room that passes for a house in this
+town. Furniture is solid but fairly bland in design, and without a
+fireplace you suspect there is a reason for all the rugs that lie strewn
+on the floor. 
+~
+101 9 0
+D1
+The door leads back outside onto the street.
+~
+door east~
+1 0 10155
+S
+
+#10155
+Kana~
+Heading north and south, this street has twin doors on the east and west
+walls leading into houses.
+~
+101 0 1
+D0
+A street leads northward.
+~
+~
+0 0 10142
+D1
+An doorway leads into a house.
+~
+door east~
+1 0 10156
+D2
+A street leads southward.
+~
+~
+0 0 10141
+D3
+A doorway leads into a house.
+~
+door west~
+1 0 10154
+S
+
+#10156
+A house in Kana~
+Colourful drawings line the single room that passes for a house in this
+town. Furniture is solid but fairly bland in design, and without a
+fireplace you suspect there is a reason for all the rugs that lie strewn
+on the floor. 
+~
+101 9 0
+D3
+The door leads back outside onto the street.
+~
+door west~
+1 0 10155
+S
+
+#10157
+Kana~
+Heading north and south, this street has twin doors on the east and west
+walls leading into houses.
+~
+101 0 1
+D0
+A street leads northward.
+~
+~
+0 0 10141
+D1
+An doorway leads into a house.
+~
+door east~
+1 0 10158
+D2
+A street leads southward.
+~
+~
+0 0 10140
+D3
+A doorway leads into a house.
+~
+door west~
+1 0 10148
+S
+
+#10158
+A house in Kana~
+Colourful drawings line the single room that passes for a house in this
+town. Furniture is solid but fairly bland in design, and without a
+fireplace you suspect there is a reason for all the rugs that lie strewn
+on the floor. 
+~
+101 9 0
+D3
+The door leads back outside onto the street.
+~
+door west~
+1 0 10157
+S
+
+#10159
+Holy Cavern~
+A light shines through the top of this cavern, straight down onto an
+altar that sits in the back of the room. It is a roughly cut room, and
+could be natural, but there seems no way to explain the light shining
+through solid rock to illuminate the stone altar. Reverberating through
+the cave you can almost hear the sound of age old chanting. 
+~
+101 137 0
+D2
+A rough cavern mouth leads out onto a neatly paved street.
+~
+~
+0 0 10146
+E 
+holy altar~
+The altar seems to glow, despite the light shining down on it, and seems
+infused with energy.
+~
+S
+
+#10160
+War Leader's Chamber~
+This huge room has been excavated deeply into the cliff, and if it has a
+roof, your eyes cannot see that high. Riches lie strewn around the
+chamber, in chests and in the form of rich rugs which decorate the walls.
+A fireplace blazes hotly on the far east wall, the chimney disappearing
+into the cliff. A table sits in the middle of the room, that could easily
+seat twenty warriors in comfort, and at the head an almost throne like
+seat dominates the room. 
+~
+101 72 0
+D0
+Behind a tapestry you spot an archway leading north into the cliff.
+~
+tapestry north~
+2 10199 10200
+D3
+The cliff face itself swings open into a tidy street.
+~
+cliff west~
+1 0 10142
+E
+table~
+This large table holds many tactical maps, and a detailed layout of the
+town of Kana, with notes joted down in critical areas.
+~
+E
+throne seat~
+A large throne, the person who sits here must be either incredibly vain
+or a giant.
+~
+E
+fireplace~
+Incredibly wrought, this is a miracle in construction. The smoke
+disappears high up into the cliff, without stinking up the room, or
+suffocating the residents.
+~
+E
+tactical notes maps~
+You peer at the maps, and spot a particularly interesting item that
+outlines the use of underground cache rooms in the outer maze. Apparently
+these are traps to fool invaders, by containing treasure, as well as
+poisoned food. 
+~
+S
+
+#10161
+Basement~
+Dark and dingy, the smell of spilt wine is still strong. This unaired
+basement has been pillaged and everything of value taken away. 
+~
+101 193 0
+D3
+A dark tunnel runs westward underground.
+~
+tunnel west~
+1 0 10163
+D4
+Steps lead up into a mansion.
+~
+steps up~
+1 0 10151
+S
+
+#10162
+Basement~
+This small basement holds sumptous wines of all assortments, protected
+from the elements and well cared for. 
+~
+101 192 0
+D3
+A dark tunnel runs westward underground.
+~
+tunnel west~
+1 0 10164
+D4
+Steps lead up into a mansion.
+~
+steps up~
+1 0 10150
+S
+
+#10163
+Underground Tunnel~
+After some time walking down this tunnel you arrive at a trapdoor that
+opens upward. On close inspection, the trapdoor reveals itself to be of
+some unknown substance, and triggered to lock itself once closed. Should
+it be used, you would be trapped on the other side.
+~
+101 385 4
+D1
+The tunnel runs back to the basement.
+~
+tunnel east~
+0 0 10161
+D4
+This trapdoor leads up into some unknown place, and will shut and lock
+itself behind you.
+~
+trapdoor up~
+1 0 10123
+S
+
+#10164
+Underground Tunnel~
+After some time walking down this tunnel you arrive at a trapdoor that
+opens upward. On close inspection, the trapdoor reveals itself to be of
+some unknown substance, and triggered to lock itself once closed. Should
+it be used, you would be trapped on the other side.
+~
+101 385 4
+D1
+The tunnel runs back to the basement.
+~
+tunnel east~
+0 0 10162
+D4
+This trapdoor leads up into some unknown place, and will shut and lock
+itself behind you.
+~
+trapdoor up~
+1 0 10123
+S
+
+#10165
+Underground Cache~
+You have stumbled across one of the defender's underground caches! Here
+is where they store food for sieges, and treasure to make good their
+escape with.
+~
+101 457 0
+D4
+A loose stone is at the end of a thin staircase leading up into the outer
+maze.
+~
+stone up~
+1 0 10116
+S
+
+#10166
+Underground Cache~
+You have stumbled across one of the defender's underground caches! Here
+is where they store food for sieges, and treasure to make good their
+escape with.
+~
+101 457 0
+D4
+A loose stone is at the end of a thin staircase leading up into the outer
+maze.
+~
+stone up~
+1 0 10122
+S
+
+#10167
+Underground Cache~
+You have stumbled across one of the defender's underground caches! Here
+is where they store food for sieges, and treasure to make good their
+escape with.
+~
+101 457 0
+D4
+A loose stone is at the end of a thin staircase leading up into the outer
+maze.
+~
+stone up~
+1 0 10111
+S
+
+#10168
+Underground Cache~
+You have stumbled across one of the defender's underground caches! Here
+is where they store food for sieges, and treasure to make good their
+escape with.
+~
+101 457 0
+D4
+A loose stone is at the end of a thin staircase leading up into the outer
+maze.
+~
+stone up~
+1 0 10126
+S
+
+#10170
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10172
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10171
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10173
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10181
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10171
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. A familiar looking shape sits
+in the middle of this room, charred slightly, but recognisable as a desk.
+~
+101 72 1
+D0
+A portal fluctuates interestingly in the room within, the magic stabilised.
+Somewhat.
+~
+~
+0 0 10179
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10171
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10171
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10170
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10172
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10172
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10172
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10170
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10176
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10173
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10170
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10173
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10173
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10173
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10174
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10181
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10174
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10173
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10175
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10175
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10181
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10174
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10182
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10175
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10176
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10177
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10172
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10170
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10176
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10177
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10178
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10177
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10180
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10177
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10178
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10172
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10178
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10177
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10178
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10179
+Portal Room on Level 4~
+Stabilised quite nicely, you admire the intricate work on the walls of the
+tower, realising that this is the only place that it has been visible to your
+eye. More of immediate interest is the shimmering green portal flickering 
+in the middle of the room, surrounded by the tell-tale stabilising poles.
+~
+101 200 1
+D2
+Madness awaits outside the temporal safety of the room.
+~
+south~
+0 0 10171
+S
+
+
+#10180
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10177
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10180
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10180
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10180
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10181
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10181
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10170
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10174
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10181
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10182
+Level 4~
+The tower almost sizzles to the touch here, and while there is very little
+of the structure itself that can be seen, you can feel the magical energies
+almost forming a physical presence around you. Furniture remains stable, 
+but some of the denizens seem as disrupted as the building. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10175
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10182
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10182
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10182
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+#10200
+Stair Base~
+Marble stairs lead up through the mountain, climbing into darkness for
+what seems like an eternity. You suspect you know what will be at the end
+of the stairs, and wonder at the wisdom in continuing. 
+~
+101 329 0
+D2
+The large War Leader's Chamber lies on the other side of rich tapestry.
+~
+tapestry chamber south~
+1 0 10160
+D4
+Marble steps lead upward into the unknown.
+~
+steps stairs marble up~
+0 0 10201
+S
+
+#10201
+Marble Stairs~
+Marble stairs lead up through the mountain, climbing into darkness for
+what seems like an eternity. You suspect you know what will be at the end
+of the stairs, and wonder at the wisdom in continuing. 
+~
+101 333 5
+D4
+Marble steps lead upward into the unknown.
+~
+steps stairs marble up~
+0 0 10202
+D5
+The stairs go downward, back to Kana.
+~
+down~
+0 0 10200
+S
+
+#10202
+Marble Stairs~
+Marble stairs lead up through the mountain, climbing into darkness for
+what seems like an eternity. You suspect you know what will be at the end
+of the stairs, and wonder at the wisdom in continuing. 
+~
+101 333 5
+D4
+Marble steps lead upward, into the light.
+~
+steps stairs marble up~
+0 0 10203
+D5
+The stairs go downward, back to Kana.
+~
+down~
+0 0 10201
+S
+
+#10203
+Top of the Marble Stairs~
+Standing at the top of the marble stairs you stare down into the darkness
+into which they descend. To the north you can make out two huge pillars
+standing before a large tower that reaches high into the sky, and the
+four strange arms that extend outward, at the summit. The cliff continues
+upward around you, making navigation in any other direction impossible.
+~
+101 64 4
+D0
+Two pillars stand on either side of the rough path that leads to the tower.
+~
+pillars north~
+0 0 10204
+D5
+The marble stairs begin their rapid descent into the mountain.
+~
+stairs marble down~
+0 0 10202 
+E
+tower~
+It rises steeply, and seems to have a flat top, open to the elements
+although it is hard to tell from this angle. The arms extend in the four
+cardinal directions and their palms are open to the sky, almost in a
+grasping motion. 
+~
+S
+
+#10204
+The Twin Pillars of Kana~
+Almost pencil thin, the two pillars stand on either side of the path that
+leads to the tower further north, and the marble steps to the south.
+Looking closely at the pillars you can almost feel the power radiating
+from them. Considering the town beneath you, protecting the passage up
+here, you strongly suspect this to be some last elaborate trap. 
+~
+101 64 2
+D0
+The mysterious tower stands at the edge of a cliff.
+~
+tower~
+0 0 10205
+D2
+The marble stairway that leads back to Kana, can be seen beginning its
+descent.
+~
+stairs marble
+~
+0 0 10203
+E
+pillar pillars twin~
+You hesitate to go much closer to the eerie objects, but manage to get
+the courage to reach out and touch one... 
+
+Nothing seems to happen!
+~
+S
+
+#10205
+Tower Entrance~
+Looking up you see the grey stone of the tower absorbing what light there
+is, hoarding it into itself. You realise that the arms outstretched at the
+summit are not hands open in supplication, but are instead reaching out
+to grab some unknown. Directly in front of you there is a tube that leads
+up to the tower, and, presumably, the interior of the structure.
+~
+101 4 2
+D0
+A long tube leads up to the tower, attached to the base like some kind of
+phalic symbol.
+~
+tube base~
+0 0 10207
+D2
+The twin pillars stand to the south, exerting their invisible barrier.
+~
+pillar pillars twin barrier~
+0 0 10204
+D3
+The cliff edge drops abruptly down into the town below.
+~
+edge cliff~
+0 0 10206
+E
+arms hands~
+You take some time to look at the outstretched arms, and realise that
+they are slowly rotating! The whole top of the tower must be turning,
+slowly, but surely.
+~
+S
+
+#10206
+Over the Cliff~
+You step over the edge of the cliff, into open air.
+~
+101 4 9
+D1
+The tower entrance is to the east, the base seems featureless except for
+the tube.
+~
+tower~
+0 0 10205
+D5
+You can go down to the street far below.
+~
+street~
+0 0 10142
+S
+
+#10207
+Entrance to the Tube Corridor~
+This strange hollow structure leads northward into the tower. At the end
+you can see a portcullis raised high. It seems completely featureless and
+unremarkable otherwise, and you wonder what purpose it may serve.
+~
+101 76 0
+D0
+The tube continues toward the portcullis at the end.
+~
+tube portcullis~
+0 0 10208
+D2
+The cliff edge before the twin pillars lies to the south.
+~
+cliff pillars~
+0 0 10205
+E
+tube corridor~
+The tube continues for a bit, culminating with a portcullis through which
+you cannot make anything.
+~
+S
+
+#10208
+The Gauntlet~
+You are running the gauntlet! This tube is a big trap, and the walls
+themselves seem to be throwing powerful spells at you. Worse, there is a
+force that has moved in to block your way back, and you can only press
+onward now, toward the portcullis.
+~
+101 489 0
+D0
+The portcullis beckons at you, taunting you through the haze of magic.
+~
+portcullis~
+0 0 10209
+D2
+There is a magical force field in place here. You can see nothing but
+your own vague reflection, and cannot force your way past it.
+~
+force magical back field~
+0 0 -1
+E
+wall spell magic~
+You quickly spare a glance at the walls, and see nothing out of the
+ordinary, but spells are spewing forth from them just the same!
+~
+S
+
+#10209
+The Gauntlet~ 
+You are running the gauntlet! This tube is a big trap, and the walls
+themselves seem to be throwing powerful spells at you. Another force field
+has put itself in place behind you, and you can only keep on pushing on
+for the portcullis.
+~
+101 489 0
+D0
+The portcullis beckons at you, taunting you through the haze of magic.
+~
+portcullis~
+0 0 10210
+D2
+There is a magical force field in place here. You can see nothing but
+your own vague reflection, and cannot force your way past it.
+~
+force magical back field~
+0 0 -1
+E
+wall spell magic~
+You quickly spare a glance at the walls, and see nothing out of the
+ordinary, but spells are spewing forth from them just the same!
+~
+S
+
+#10210
+The Gauntlet~
+You are running the gauntlet! This tube is a big trap, and the walls
+themselves seem to be throwing powerful spells at you. Another force field
+has put itself in place behind you, and you can only keep on pushing on
+for the portcullis.
+~
+101 489 0
+D0
+The portcullis beckons at you, taunting you through the haze of magic.
+~
+portcullis~
+0 0 10211
+D2
+There is a magical force field in place here. You can see nothing but
+your own vague reflection, and cannot force your way past it.
+~
+force magical back field~
+0 0 -1
+E
+wall spell magic~
+You quickly spare a glance at the walls, and see nothing out of the
+ordinary, but spells are spewing forth from them just the same!
+~
+S
+
+#10211
+The Portcullis~
+Standing underneath the portcullis you see that it has long since rusted
+in place, the masters of the tower deciding that if something could bypass
+their magical defences, then a few bits of iron would be no match for
+them. The tower itself lies open before you, to the north through a short 
+corridor.
+~
+101 76 0
+D0 
+A short corridor leads into the tower proper.
+~
+corridor tower~
+0 0 10212
+D2
+There is a magical force field in place here. You can see nothing but
+your own vague reflection, and cannot force your way past it.
+~
+force magical back field~
+0 0 -1
+S
+
+#10212
+Level 1~
+You stand inside the tower. Or do you? You cannot see any walls, any
+furniture, nor, in fact, any building at all! Even behind you the
+portcullis is vanished, and you now seem to be standing on ... nothing.
+Your feet are slightly above the soil beneath you, however. Whatever it
+is that you are standing on, it seems to be invisible! You look around and
+spot figures moving about, some of them so high up it seems to make your 
+neck ache. You are in the tower, after all, but navigating in this
+building made of nothing will be challenging.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10213
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10212
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10212
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10212
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+
+E
+figures people~
+You look at the figures, and see that some are sitting, while others are
+walking around in the upper levels. There must be furniture much like a
+normal place in the tower. How can they see it though?
+~
+E
+wall walls~
+What walls?!?
+~
+S
+
+
+#10213
+Level 1~
+As you enter this room some objects come into focus. Whatever spell is on
+the items seems to weaken upon proximity. At least you won't be walking
+into any furniture more than usual. The walls remain stubbornly invisible
+to your eye, however.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10213
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10214
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10212
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10215
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+
+#10214
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10214
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10218
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10214
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10213
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10215
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10217
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10213
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10215
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10216
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10216
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10216
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10215
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10216
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10219
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10217
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10221
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10222
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10215
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10220
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10218
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10223
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10215
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 20118
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10214
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10219
+Level 1~
+Stunning. This part of the tower leans over the cliff, and you can see
+down into the town of Kana. The war still rages hotly, as the invaders
+seek to purge the evil of the island, and claim the fabled treasures
+of the tower. 
+~
+101 72 1
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10216
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down at the scenery unfolding beneath you, and enjoy the view.
+~
+~
+0 0 -1
+S
+
+#10220
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10220
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10217
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10224
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10220
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+
+#10221
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10221
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10221
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10217
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10221
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10222
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10226
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10222
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10222
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10217
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10223
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10223
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10223
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10218
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10214
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10224
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10224
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10224
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10225
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10224
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10225
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10227
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10225
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10225
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10216
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10226
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10230
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10226
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10222
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10226
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10227
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out. Wait, is that something?
+Can't quite make it out.
+~
+~
+0 0 10229
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10228
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10225
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10227
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10228
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways.
+A small desk sits in the middle of the room, facing the door you came in
+from. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10228
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10228
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10228
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10227
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10229
+Portal Room on Level 1~
+This room has four smaller versions of the twin pillars outside the
+tower, in each corner. They seem to be having some sort of stabilizing
+affect on the room, and allow you to make out a blurry form where the
+walls are. More importantly, there is a blue portal shimmering in the
+middle of the room.
+~
+101 200 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 -1
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 -1
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10227
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 -1
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+E
+portal blue~
+The portal is round, and spans from a blurry roof to a blurry floor. It
+glows brightly with a blue colour, and you can walk around it, but see
+nothing when peering into it.
+~
+S
+
+#10230
+Level 1~
+You are surrounded by nothing. You see only what is natural to the world
+and in its original form. Small sounds echo down through unseen hallways.
+A small desk sits in the middle of the room, facing to the south.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10230
+D1
+You look east and see only the mountains rising up into the clouds. Wait,
+is that something? Can't quite make it out.
+~
+~
+0 0 10231
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10226
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10230
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+S
+
+#10231
+Portal Room on Level 1~
+This room has four smaller versions of the twin pillars outside the
+tower, in each corner. They seem to be having some sort of stabilizing
+affect on the room, and allow you to make out a blurry form where the
+walls are. More importantly, there is a green portal shimmering in the
+middle of the room.
+~
+101 200 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 -1
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 -1
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 -1
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10230
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and stare at the soil a few inches beneath your feet.
+~
+~
+0 0 -1
+E
+portal green~
+The portal is round, and spans from a blurry roof to a blurry floor. It
+glows brightly with a green hue, and you can walk around it, but see
+nothing when peering into it.
+~
+S
+
+#10240
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10241
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10242
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10243
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10244
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10241
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10242
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10241
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10240
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10241
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10242
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10242
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10242
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10248
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10240
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10243
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10240
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10248
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10243
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10244
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~ 
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10244
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10245
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10240
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10249
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10244
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10245
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10241
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10245
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10244
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10245
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10246
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10246
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10249
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10246
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10247
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10247
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10250
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10246
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10247
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10259
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10248
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10242
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10256
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10252
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10243
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10249
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10244
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10246
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10249
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10249
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10250
+Level 2~
+Almost invisible to the eye, a faint outline of a desk sits in the middle
+of this room. It almost seems to pulse with life, waning and waxing out of
+existance.
+~
+101 72 1
+D0
+You look north and see the sea spreading out. Wait a minute. Is that a
+familiar blur?
+~
+~
+0 0 10251
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10250
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10247
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10250
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10251
+Portal Room on Level 2~
+Four familiar pillars stand in the corners of this room, stabilising the
+environment enough to maintain a blue portal. It shimmers lightly as you
+walk near it, and in some strange way it seems to welcome your presence.
+~
+101 200 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 -1
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 -1
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10250
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 -1
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+E
+portal blue~
+The blue portal shimmers when you inspect it, almost flaunting itself to
+your scrutiny.
+~
+S
+
+#10252
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10248
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10252
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10252
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10252
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+#10253
+Portal Room on Level 2~
+Four pillars stand at each corner of this portal room. The portal in the
+middle of the room is a white portal, but seems weaker than the other
+portals you have seen, and seems almost grey.
+~
+101 200 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 -1
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10254 
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 -1
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 -1
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+E
+portal white~
+This portal seems to be the runt of the litter, and glows with a feeble
+white colour.
+~
+S
+
+
+#10254
+Level 2~
+An oaken desk sits in the middle of this room, looking quite smug and
+official. It has some nice carving, but the sides of the desk have been
+severely mauled by some creature. 
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10255
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10254
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10254
+D3
+You look west and see the sea spreading out into the horizon. Wait a
+minute. Is that a familiar blur?
+~
+~
+0 0 10253
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10255
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10256
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10255
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10254
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10255
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10256
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10256
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10257
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10255
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10248
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+
+#10257
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye. There seems to be some
+substance on the east wall.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10257
+D1
+You look east and see a dark gooey substance.
+~
+~
+0 0 10257
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10257
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10256
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+E
+substance gooey wall~
+You look closely at the east wall, and while you can't actually touch the
+substance, it seems to be at least a foot away from your hand, you are
+fairly sure that it's what comes out of the rough end of a seagull! This
+room must be in the eastern area of the tower, near the mountains,
+and whatever magic keeps this building up, must also give it a regular
+wash. But it missed a spot.
+~
+S
+
+
+#10258
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10259
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10258
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10258
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10247
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+#10259
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10259
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10247
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10260
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10259
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+#10260
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10261
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10258
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10260
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10260
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+#10261
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10262
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10259
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10260
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10261
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+#10262
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10263
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10262
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10261
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10264
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+#10263
+Level 2~
+All around you there is nothing. You are disoriented by the height at
+which you travel, while seeming to not even touch the ground. Some
+furniture is visible occasionally, and sounds sporadically come at you,
+but the walls remain invisible to your eye.
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10263
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10263
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10262
+D3
+You look west and see the sea spreading out into the horizon.
+~
+~
+0 0 10263
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+#10264
+Level 2~
+Leaning askew against a wall, a desk has been toppled and left to rest
+at an ackward angle. These desks seem to signify a portal is nearby.
+Now, which direction would be likely in this house of madness?
+~
+101 72 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10264
+D1
+You look east and see only the mountains rising up into the clouds.
+~
+~
+0 0 10262
+D2
+You look south and see mountains rising up into the clouds.
+~
+~
+0 0 10264
+D3
+A more stable room appears to the west. A portal room out of here perhaps?
+~
+~
+0 0 10265
+D4
+You look up and see the sky, and notice a slight blurring of your vision
+when looking directly up.
+~
+~
+0 0 -1
+D5
+You look down and see the world some few dozen feet below you.
+~
+~
+0 0 -1
+S
+
+#10265
+Portal Room on Level 2~
+A soft purple portal shimmers politely in the centre of the room, surrounded
+by four poles which seem to be required to make anything stable in this
+bewildering building. The walls are visible enough so that you can make out 
+the general shape of the room, but seem to gently flow in hypnotic patterns.
+~
+101 72 1
+D1
+You can see clearly out of the archway, and ... into the mountains!
+~
+~
+0 0 10264
+S
+
+#10270
+Level 3~
+The magical disruption seems even more unstable here, and you
+occasionally see some furniture fade out of existance, only to reappear
+suddenly a few seconds later. There is virtually no sound to be heard,
+and the eerie silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10275
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10276
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10274
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10271
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10271
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally  
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10271
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10270
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10272
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10271
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10272
+Level 3~
+Two desks sit in the middle of this room. One of them is a large oak
+desk, and the other a smaller less strong desk used by students. The
+distortion up here seems to have gone wrong and merged the two desks into
+each other creating an ugly hybrid that is lopsided and almost sad to 
+look at.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10271
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10272
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10272
+D3
+The distortion in reality seems to travel time as you look into this
+room, and you see a much younger version of yourself looking back. 
+~
+~
+0 0 10273
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10273
+Portal Room on Level 3~
+Four large pillars stand in the corners of this room, surrounding a
+bright white portal.
+~
+101 232 1
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10272
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+E
+portal white~
+This bright white portal shimmers constantly, but seems quite stable.
+~
+S
+
+#10274
+Level 3~
+The magical disruption seems even more unstable here, and you
+occasionally see some furniture fade out of existance, only to reappear
+suddenly a few seconds later. There is virtually no sound to be heard,
+and the eerie silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10270
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10274
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10274
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10274
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10275
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10283
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10275
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10270
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10284
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10276
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10277
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10286
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10278
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10270
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10277
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+200 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10277
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10285
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10278
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10277
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10278
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10277
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10279
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10278
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10278
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10279
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10279
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10287
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10289
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10280
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10280
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10288
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10279
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10281
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10280
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10281
+Level 3~
+Ash lies in a small stack where a desk once stood. The charred remains
+look fairly recent, and whatever caused the disintegration may still be
+around. Some bright colours coming from the east catch your eye.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10280
+D1
+To the east you see a rainbow of colours lashing out toward you. It looks
+very unstable, and potentially dangerous in there.
+~
+~
+0 0 10282
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10281
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10281
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+E
+desk ash charred~
+You sift through the ash, but find nothing solid remaining.
+~
+S
+
+
+#10282
+Portal Room on Level 3~
+Riotous colours splash the room, lashing in every direction and bouncing
+off invisible walls. It is hard to tell, but you think a red portal may
+be at the centre of the storm. 
+~
+101 232 1
+D0
+You look north but are unable to make anything out through the colours.
+~
+~
+0 0 -1
+D1
+You look east but are unable to make anything out through the colours.
+~
+`~
+0 0 -1
+D2
+You look south but are unable to make anything out through the colours.
+~
+~
+0 0 -1
+D3
+You look west but are unable to make anything out through the colours.
+~
+~
+0 0 10271
+D4
+You look up but are unable to make anything out through the colours.
+~
+~
+0 0 -1
+D5
+You peer down at where you think the earth might be, but see only colours.
+~
+~
+0 0 -1
+E
+portal red~
+Violent convulsions from the centre of the room spew out rainbows of
+colours which seem to bounce off you harmlessly. The source of it appears
+to be a red portal.
+~
+S
+
+#10283
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10283
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10283
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10275
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10283
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10284
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10284
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10275
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10284
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10284
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10285
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be  heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10285
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10285
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10286
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10277
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10286
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10285
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10286
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10286
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10276
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10287
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10287
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10287
+D2
+Strange, you can see some bright lights flickering to the south. 
+~
+~
+0 0 10287
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10279
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+E
+lights light flickering~
+You peer a bit more closely, but can't make anything more out from this
+distance.
+~
+S
+
+
+#10288
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10288
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10288
+D2
+You look south and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10280
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10288
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+S
+
+
+#10289
+Level 3~
+The magical disruption seems even more unstable here, and you occasionally 
+see some furniture fade out of existance, only to reappear suddenly a few
+seconds later. There is virtually no sound to be heard, and the eerie
+silence is somehow more discomforting than the warped building.
+~
+101 104 1
+D0
+You look north and see the sea spreading out.
+~
+~
+0 0 10279
+D1
+You look east and see mountains rising up into clouds close enough to touch.
+~
+~
+0 0 10289
+D2
+You see some coloured lights in the distance.
+~
+~
+0 0 10289
+D3
+You look west and see the sea fan out, and a distant land on the horizon.
+~
+~
+0 0 10289
+D4
+Looking up your eyes almost slide off the distorted reality above you.
+~
+~
+0 0 -1
+D5
+You peer down at the earth some distance beneath you.
+~
+~
+0 0 -1
+E
+light lights~
+You go right up to the south wall, and look southward, where you can make
+out some flashing lights flickering in all sorts of wild combinations.
+~
+S
+
+#10300
+Portal Room on Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing and
+running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes. There
+is a colourful portal in the middle of the room, spraying colour in all
+directions.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10301
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10308
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+E
+colour colourful portal rainbow~
+The portal is a writhing mass of colour, and you can only hope that it is
+still functional.
+~
+S
+
+#10301
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10302
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10300
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10302
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10303
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10301
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10303
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing 
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10304
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10302
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10304
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10303
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10313
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10305
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10305
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10304
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10312
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10306
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10306
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10305
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10311
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10307
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10307
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10306
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10310
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10308
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10308
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10300
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10307
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10309
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10310
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10318
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10310
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10307
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10317
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10309
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10311
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10306
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10312
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10316
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10312
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10305
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 10315
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10311
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10313
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+You don't like the look of the room to the south.
+~
+101 76 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10304
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D2
+A dark blackness lies over the room, and the doorway leading into it.
+~
+~
+0 0 10314
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+E
+black dark darkness~
+Your eyes cannot penetrate the dark. It is not natural, and it is most
+definitely not friendly.
+~
+S
+
+#10314
+Portal Room on Level 5~
+Darkness seeps out from the centre of this room. You can just make out
+the source of it, a dark portal in the middle leaking evil energy. You
+sense that it is only now beginning to gain momentum, and once this tower
+has been consumed, whatever force these mages have unleashed on the world
+will expand outward, forever consuming, until there is nothing left.
+~
+101 73 1
+D0
+Blackness.
+~
+~
+0 0 -1
+D1
+Blackness.
+~
+~
+0 0 -1
+D2
+Blackness.
+~
+~
+0 0 -1
+D3
+Is that a glimmer? No. Blackness.
+~
+~
+0 0 -1
+D4
+Blackness.
+~
+~
+0 0 -1
+D5
+Blackness.
+~
+~
+0 0 -1
+E
+portal black dark~
+The power behind the portal has wrought dark magic and shuttered off the
+room. Only by your own magic will you now escape without entering the
+portal.
+~
+S
+
+#10315
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10312
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10316
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10311
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10317
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10317
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10310
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10316
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 10318
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10318
+Level 5~
+Rainbows crawl over the walls in bursts, outlining the structure of the
+room. The furniture and walls keep changing colours, stripes appearing
+and running in random directions, as if a psychotic invisible clown is
+maniacally running through the room with handfuls of paintbrushes.
+~
+101 72 1
+D0
+Wild rainbows run over the wall.
+~
+~
+0 0 10309
+D1
+Wild rainbows run over the wall.
+~
+~
+0 0 10317
+D2
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D3
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D4
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+D5
+Wild rainbows run over the wall.
+~
+~
+0 0 -1
+S
+
+#10330
+Dark Portal~
+Standing on the roof of the tower, no wind disturbs you despite the
+incredible height. You suspect that the view would be magnificent, but
+darkness lies like a blanket over the tower, smothering it. Through your
+own arts you are able to penetrate the gloom and spot four short bridges  
+leading north, south, east and west toward platforms that stand in front
+of the arms you saw on the tower.
+A dark portal is in the centre of the roof.
+~
+101 69 1
+D0
+A stout bridge made of some unknown material spans the distance between
+the roof and the northern platform. 
+~
+~
+0 0 10331
+D1
+A stout bridge made of some unknown material spans the distance between
+the roof and the eastern platform. 
+~
+~
+0 0 10332
+D2
+A stout bridge made of some unknown material spans the distance between
+the roof and the southern platform. 
+~
+~
+0 0 10333
+D3
+A stout bridge made of some unknown material spans the distance between
+the roof and the western platform. 
+~
+~
+0 0 10334
+E
+portal dark~
+The dark portal is just a black hole standing on the roof of this twisted
+tower. You sense power dormant within it, but apparently not enough to get
+you out of here.
+~
+E
+arms platform arm~
+You look at the platforms standing out over thin air and dread going out
+there. The arms that are attached to the tower are rotating slowly around
+you, and periodically pass the platforms.
+~
+S
+
+#10331
+Northern Platform~
+This stout platform stands flat over the edge of the roof of the tower,
+waiting for an arm to rotate in front of it.
+~
+101 321 2
+D0 
+A small railing stands here to lean against.
+~
+~
+0 0 -1
+D1
+Death awaits in the arms of the darkness.
+~
+death dark~
+0 0 10350
+D2
+The dark portal sits in the centre of the roof.
+~
+dark portal~
+0 0 10330
+D3
+Death awaits in the arms of darkness.
+~
+death dark~
+0 0 10350
+D4
+Your eyes cannot pierce the dark.
+~
+~
+0 0 -1
+D5
+Your eyes cannot pierce the dark.
+~
+~
+0 0 -1
+S
+
+#10332
+Eastern Platform~
+This stout platform stands flat over the edge of the roof of the tower,
+waiting for an arm to rotate in front of it.
+~
+101 321 2
+D1
+A small railing stands here to lean against.
+~
+~
+0 0 -1
+D0
+Death awaits in the arms of the darkness.
+~
+death dark~
+0 0 10350
+D3
+The dark portal sits in the centre of the roof.
+~
+dark portal~
+0 0 10330
+D2
+Death awaits in the arms of darkness.
+~
+death dark~
+0 0 10350
+D4
+Your eyes cannot pierce the dark.
+~
+~
+0 0 -1
+D5
+Your eyes cannot pierce the dark.
+~
+~
+0 0 -1
+S
+
+#10333
+Southern Platform~
+This stout platform stands flat over the edge of the roof of the tower,
+waiting for an arm to rotate in front of it.
+~
+101 321 2
+D3
+A small railing stands here to lean against.
+~
+~
+0 0 -1
+D1
+Death awaits in the arms of the darkness.
+~
+death dark~
+0 0 10350
+D0
+The dark portal sits in the centre of the roof.
+~
+dark portal~
+0 0 10330
+D3
+Death awaits in the arms of darkness.
+~
+death dark~
+0 0 10350
+D4
+Your eyes cannot pierce the dark.
+~
+~
+0 0 -1
+D5
+Your eyes cannot pierce the dark.
+~
+~
+0 0 -1
+S
+
+#10334
+Western Platform~
+This stout platform stands flat over the edge of the roof of the tower,
+waiting for an arm to rotate in front of it.
+~
+101 321 2
+D3 
+A small railing stands here to lean against.
+~
+~
+0 0 -1
+D0
+Death awaits in the arms of the darkness.
+~
+death dark~
+0 0 10350
+D1
+The dark portal sits in the centre of the roof.
+~
+dark portal~
+0 0 10330
+D2
+Death awaits in the arms of darkness.
+~
+death dark~
+0 0 10350
+D4
+Your eyes cannot pierce the dark.
+~
+~
+0 0 -1
+D5
+Your eyes cannot pierce the dark.
+~
+~
+0 0 -1
+S
+
+#10335
+Inside an Arm~
+You stand in a large tubular room. The tube is very large, extending high
+above you, and there is no furniture that you can see. At the far end you
+spot a strange recess in the wall.
+~
+101 365 0
+S
+
+#10336
+Inside an Arm~
+You stand in a large tubular room. The tube is very large, extending high
+above you, and there is no furniture that you can see. At the far end you
+spot a strange recess in the wall.
+~
+101 365 0
+S
+
+#10337
+Inside an Arm~
+You stand in a large tubular room. The tube is very large, extending high
+above you, and there is no furniture that you can see. At the far end you
+spot a strange recess in the wall.
+~
+101 365 0
+S
+
+#10338
+Inside an Arm~
+You stand in a large tubular room. The tube is very large, extending high
+above you,  and there is no furniture that you can see. At the far end you
+spot a strange recess in the wall.
+~
+101 365 0
+S
+
+#10349
+Throne of Destiny~
+Surrounded by eternity, and stars beyond counting, you stand upon a
+platform that contains  thousands of small planets slowly going around
+thousands of small suns. The universe unfolds around you, and secrets
+untold beg to be discovered, as they whisper their names to you, tempting
+you. Here lies the centre of what the masters of the tower had hoped to
+reach with their meddling. 
+And here they met their match.
+~
+101 864 0
+E 
+platform~
+You peer at the platform, shuffling your feet and rocking several
+galaxies in the process.
+~
+E
+stars sky eternity sun star~
+Looking in the face of eternity is not a wise move if you want to remain
+sane.
+~
+S
+
+#10350
+Dark Death~
+You have given yourself to the darkness, and been swallowed up. You join
+the ranks of the legion of doom.
+~
+101 70 2
+S
+$
+
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

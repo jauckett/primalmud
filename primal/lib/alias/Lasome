@@ -1,0 +1,38 @@
+em open force;get meat force;close force;eat meat
+sap tel saph heal
+gf open force;get $* force;close force
+pf open force;put $* force;close force
+invis cast 'invisibility' $*
+heal cast 'heal' $*
+sw rem supe;wie chain
+ws rem chain;wie supe;backstab $*
+cc cast 'cure critic' $*
+wr cast 'word of recall'
+arm cast 'armor' $*
+cf cast 'create food'; eat mush
+gb get $* bac
+gac get all corpse
+qw get white bac;quaff white
+qr get red bac;quaff red
+ga get all
+od open door
+pb put $* bac
+wa wear all
+ggc get gold corpse
+cl cast 'cure light' $*
+rr get scroll bac; recite recall
+bl cast 'blind' $*
+if cast 'infravision' $*
+sum cast 'summon' $*
+bless cast 'bless' $*
+detinv cast 'detect invisibility' $*
+sanc cast 'sanctuary' $*
+dragon cast 'dragon' $*
+loc cast 'locate object' $*
+refresh cast 'refresh' $*
+h tel uth heal
+unlvl rem all.pend;put all.jade bac;wear all.pend;rem doll;put doll bac;hol stic;wear medal
+level rem all.pend;get all.pend bac;rem medal;wear all.jade;rem drum;get doll bac;hol doll
+sense cast 'sense life' $*
+ds  open force;get skin force;drink skin;put skin force;close force
+strength cast 'strength' $*

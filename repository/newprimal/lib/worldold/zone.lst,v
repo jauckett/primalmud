@@ -1,0 +1,87 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.18;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.26;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@Zone Vnum List
+**************
+
+0       - Limbo - Internal              54      - New Thalos
+9       - The River Island              55      - New Thalos
+12      - God Simplex                   56      - New Thalos Wilderness
+15      - The Straight Path             60      - Haon-Dor-Light Forest
+25      - High Tower Of Sorcery         61      - Haon-Dor-Dark Forest
+26      - High Tower Of Sorcery         62      - Orc Enclave
+30      - Midgaard City                 63      - Arachnos
+31      - Midgaard City                 64      - Rand's Tower
+32      - Midgaard River                65      - Dwarven Kingdom
+33      - Three Of Swords               70      - Sewers
+35      - Miden'nir                     71      - Sewers
+36      - Chessboard                    72      - Sewers
+40      - Moria                         73      - Sewers
+41      - Moria                         79      - Redferne's Residence
+50      - Great Eastern Desert          120     - Rome
+51      - Drow City                     150     - King Welmar's Castle
+52      - Old Thalos                    186     - Newbie Zone
+53      - Great Pyramid                 
+
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

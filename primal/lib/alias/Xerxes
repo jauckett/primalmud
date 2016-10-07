@@ -1,0 +1,13 @@
+' ca 'advanced heal'
+l track godslayer
+back ca 'word' self
+3 ca 'create water' skin
+1 ca 'create' ; eat mushroom
+] rem mace ; wield dagger
+[ rem dagger ; wield mace
+o get all corpse
+; ca 'advanced' self
+2 drink skin
+b ca 'word' self
+k ba moander
+q quaff white

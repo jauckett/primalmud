@@ -1,0 +1,34 @@
+wb cast 'waterb'
+od open door
+da cast 'detect align'
+start get all;wear mask;wear all;wield hammer;hold red;hold ruby
+gate cast 'dime' $1;open gate;go gate;stand
+gr grat --- === > > > $1 < < < === ---
+jc get corpse;junk corpse
+ds drink skin
+ws wake;stand
+gag get all.gold corpse
+qw get white force;q white
+un ungroup
+ga group all
+og open gate
+pac put all.$1 force
+tav u;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s
+inv cast 'invisibility'
+cf cast 'create food';eat mushroom
+bs rem hammer;wield dagger;backstab $1;rem dagger;wield hammer
+cl cast 'clone'; cast 'infravision' clone
+cc cast 'advanced heal'
+inf cast 'infravision'
+su cast 'summon' $1
+wr cast 'word'
+di cast 'detect invisibility'
+cs cast 'sleep' $1
+lo cast 'locate' $1
+gac get all corpse
+pa cast 'para' $1
+id get iden force; recit iden $1
+pd pick door
+xx cast 'adva' xemu
+zz cast 'adva' $1
+mm cast 'adva' memn

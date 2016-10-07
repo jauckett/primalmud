@@ -1,0 +1,48 @@
+1 assist priest
+deti cast 'detect invisibility'
+assme order followers assist sathias
+blue get blue backpack; quaff blue
+meal get meat backpack; eat meat; drink skin
+bless cast 'bless' $1
+track track $*; alias tt track $*
+recall cast 'word of recall'
+gloot get all.coins all.corpse
+locate cast 'locate object' $1
+necro emote rips $1 apart with his bare hands and eats their $2!!!
+cc cast 'cure critic'
+invis cast 'invisibility'
+sl cast 'sleep' $1
+getup wake; stand
+infra cast 'infravision'
+lb look in bag
+pb put $1 bag
+gb get $1 bag
+loot get all all.corpse
+cl cast 'cure light'
+stab backstab $1
+arm cast 'armor'
+thumb emote gives the ol' thumbs up!!
+pack emote packs a cone for $1 and says "Here, that ones yours!"
+color cast 'color spray' $1
+grat grats ---------> $1 <---------
+3cheers grat Three Cheers for $1!!!; grat HOORAY!; grat HOORAY!; grat HOORAY!
+nrg cast 'energy drain' $1
+bury get corpse; junk corpse
+lk look in backpack
+pk put $1 backpack
+gk get $1 backpack
+white get white backpack; quaff white
+red get red backpack; quaff red
+scab look in $1.corpse
+deta cast 'detect alignment'
+disg cast 'dispel good' $1
+dise cast 'dispel evil' $1
+str cast 'strength'
+charm cast 'charm person' $1
+hl cast 'heal'
+hlo cast 'heal' $1
+k remove vorpal; wield dagger; backstab $1; remove dagger; wield vorpal
+o order followers $*
+sanc cast 'sanctuary' self
+sanco cast 'sanctuary' $1
+tt track  soldire

@@ -1,0 +1,104 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@stuff w
+g grats --==(( $* ))==--
+7 q queen
+0 put all.q field
+9 get all.q
+4 q queen
+6 get queen force
+2 q white
+> cast 'summon' on 3.stallion
+darask aut;bri;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n;au
+pois cast 'remove poison' on $*
+' cast 'advanced heal' on $*
+detect cast 'detect invisibility'
+loc cast 'locate object' on $*
+fear cast 'fear' on $*
+pb cast 'plasma blast' on $*
+t cast 'teleport' on $*
+fin cast 'finger of death' on $*
+] cast 'advanced heal' on $*
+ds cast 'dimension gate' $*
+dg cast 'dimensional gate' on $*
+sob emote sobs uncontrollably.
+eatm cast'create food' on lanfeer;eat mushroom
+kim kill maid
+ref cast 'refresh' on lanfeer
+equ get pendant;get pen;get stone;get vorpal;get nasty;get moorish;get bracelet;get bracelet;get loincloth;get kevlar;get kevlar;get necklace;get charm
+koo kill oompa
+kb kill bear
+kjl kill gladiator
+cs cast 'sanctuary' on me
+li cast 'lightning bolt' on $*
+cure cast 'cure critic' on lanfeer
+gac get all all.corpse
+dr drink from skin
+mer kill merchant
+adv kill traveller
+` q red
+see cast 'infravision' on lanfeer
+1 get red backpack;q red
+gua kill guard
+r cast 'word of recall' on me
+k kick $*
+km kick merchant
+kt kill traveller
+tre train mana
+cv con rocking horse
+p tag pkunk
+m tag misty
+hav aut;bri;w;s;s;s;e;e;e;aut;bri
+pra prac $*
+cast 'sense life' on me
+sense cast 'sense life' on $*
+sum cast 'summon' on $*
+back rem hammer;wie dagger;backstab $*;rem dagger;wie hammer
+rec recite identify on $*
+drie aut;bri;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;d;s;s;aut;bri
+= cast 'summon' on stallion
+charm cast 'charm person' on $*
+cl cast 'clone' on me
+abyss aut
+drag cast 'dragon' on $*
+water cast 'waterbreathe' on $*
+3 get white force
+tunnel cast 'invisibility' on me
+invis cast 'invisibility' on $*
+greece aut
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

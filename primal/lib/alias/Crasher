@@ -1,0 +1,4 @@
+wa wear all; wi scythe; put all backpack
+em get meat backpack;eat meat
+pamb put all.meat backpack $*
+gac get all all.corpse

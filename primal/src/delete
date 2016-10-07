@@ -1,0 +1,36 @@
+
+/* JA 8/3/95 added some code for bank transaction fees */
+    GET_GOLD(ch) -= amount;
+    fee = (amount * percent) /100;
+    if (fee<10)
+      fee=10;
+    GET_BANK_GOLD(ch) += amount;
+    GET_BANK_GOLD(ch) -= fee;
+    sprintf(buf, "You deposit %d coins.\r\n", amount);
+    send_to_char(buf, ch);
+    sprintf(buf, "The transaction fee is %d percent which is %d coins", percent, fee);
+    send_to_char(buf, ch);
+    act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
+    return 1;
+  } else if (CMD_IS("withdraw")) {
+    if ((amount = atoi(argument)) <= 0) {
+      send_to_char("How much do you want to withdraw?\r\n", ch);
+      return 1;
+    }
+    if (GET_BANK_GOLD(ch) < amount) {
+      send_to_char("You don't have that many coins deposited!\r\n", ch);
+      return 1;
+    }
+    GET_GOLD(ch) += amount;
+/*    fee = (amount * percent) / 100;
+    GET_GOLD(ch) -= fee;*/
+    GET_BANK_GOLD(ch) -= amount;
+    sprintf(buf, "You withdraw %d coins.\r\n", amount);
+    send_to_char(buf, ch);
+/*    sprintf(buf, "The transaction fee is %d percent which is %d coins", percent, fee);
+    send_to_char(buf, ch);*/
+    act("$n makes a bank transaction.", TRUE, ch, 0, FALSE, TO_ROOM);
+    return 1;
+  } else
+    return 0;
+

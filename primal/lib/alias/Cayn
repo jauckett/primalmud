@@ -1,0 +1,17 @@
+map get map back; exa map ; put map back
+leave tell gamina summon; n; n; w; s
+goinn n; n; w; s
+cure cast 'Cure Light' $1
+rep report
+dark remove lantern; put lantern back
+light get lantern back; hold lantern
+ds get skin back; drink skin; put skin back
+eb get bread back; eat bread
+kb kill beggar
+kg kill goblin
+gohome tell gamina summon
+kd kill drunk
+pib put $1 back
+kc kill citizen
+armour cast 'armor' $1
+kj kill janitor

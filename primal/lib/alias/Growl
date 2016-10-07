@@ -1,0 +1,5 @@
+p put $1 backpack
+id take identify backpack;rec identify $1
+t take $1 backpack
+lib look in backpack
+z scan

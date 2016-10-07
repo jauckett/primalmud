@@ -1,0 +1,33 @@
+tk kick transformer
+tb cast 'lightning bolt ' transformer
+vb cast 'lightning bolt ' caesar
+bs remove club ; wield knife ; backstab $1 ; remove knife ; wield club
+bbb kick bandit
+kb ki bandit
+cbb cast 'magic missile' bandit ; kick bandit
+ob cast 'locate object' $1
+fb cast 'fireball' $1
+vis cast 'infravision' doth
+rrr recite recall
+xxx cast 'magice missile' executioner
+dd drink water
+jj get corpse ; junk corpse
+ff get meat backpack ;eat meat
+cc get corpse
+mm put all.meat backpack
+zz get all corpse
+gp get all.potion ; put all.potion backpack
+pp get all.potion backpack ; put all.potion bag
+cmm cast 'magic missile' $1
+qr get red bag ; quaff red
+cll cast 'cure light' $1
+qw get white bag ; q white
+xz get gold all.corpse
+vv cast 'magic missile' caesar ; kick caesar
+ccd cast 'cure light' doth
+xxb cast 'lightning bolt 'executioner
+clb cast 'lightning bolt' $1
+start open crate ; put all.jade crate ; put all.meat backpack ;wear all ; hold staff ; wield club ; close crate
+kk kick knight
+dp cast 'dispel evil' $1
+kkb cast 'lightning bolt' knight

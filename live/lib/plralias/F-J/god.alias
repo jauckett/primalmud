@@ -1,0 +1,25 @@
+1
+;
+9
+gossip $*
+1
+2
+aa
+15
+cast 'armor' $*
+1
+4
+heal
+20
+cast 'cure light' $*
+1
+2
+11
+19
+cast 'create water'
+0
+2
+``
+18
+cast 'create food'
+0

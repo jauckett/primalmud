@@ -1,0 +1,275 @@
+head	1.6;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2004.01.25.07.45.23;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.25.07.41.28;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.25.07.34.01;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.23.05.41.09;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.31.10.10.33;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.03.23.17.16.52;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Artus> Sync.
+@
+text
+@&y=======================+====+==========+========================
+                         &cMedieval
+&y=======================+====+==========+========================
+     &gZone Name           LR  Zone type    Author
+&y=======================+====+==========+========================&n
+Graveyard              &y|&n  0 &y|&n    -     &y|&n  Cassandra
+Haven                  &y|&n  0 &y|&n    -     &y|&n  John
+MoatHouse              &y|&n  0 &y|&n    -     &y|&n  John
+Primal Street          &y|&n  0 &y|&n    -     &y|&n  Sandii
+Selva Road             &y|&n  0 &y|&n    -     &y|&n  Cassandra
+Wilderness             &y|&n  0 &y|&n    -     &y|&n  John
+Aqua Marina            &y|&n  5 &y|&n    -     &y|&n  Abulafia
+Darask                 &y|&n  5 &y|&n    -     &y|&n  Murf
+Labyrinth              &y|&n  5 &y|&n    -     &y|&n  Sandii
+LhankWood              &y|&n  5 &y|&n    -     &y|&n  John
+Mountains              &y|&n  5 &y|&n    -     &y|&n  John
+Plains                 &y|&n  5 &y|&n    -     &y|&n  John
+Sewers of Haven        &y|&n  5 &y|&n    -     &y|&n  Bobsyauncle
+Desert                 &y|&n 10 &y|&n    -     &y|&n  ??
+Toyheim                &y|&n 10 &y|&n    -     &y|&n  Drax
+Path of Mystery        &y|&n 15 &y|&n    -     &y|&n  Primer
+Camelot                &y|&n 20 &y|&n    -     &y|&n  Backspace
+Fairytale Forest       &y|&n 20 &y|&n    -     &y|&n  Ruprect
+Crystal Castle         &y|&n 25 &y|&r  PKILL   &y|&n  Freako
+The South Pole         &y|&n 25 &y|&n    -     &y|&n  Artus
+Black Tower            &y|&n 30 &y|&n    -     &y|&n  Cassandra
+Island                 &y|&n 30 &y|&r  PKILL   &y|&n  Cassandra
+Pirates Ship           &y|&n 30 &y|&r  PKILL   &y|&n  John
+Shadow Keep            &y|&n 30 &y|&r  PKILL   &y|&n  Gabe
+Khulgur's Lost Empire  &y|&n 35 &y|&n    -     &y|&n  Calrain
+Magic: The Gathering   &y|&n 35 &y|&r  PKILL   &y|&n  Deathblade && Pkunk
+Tudor                  &y|&n 35 &y|&r  PKILL   &y|&n  John
+Danger Island          &y|&n 40 &y|&r  PKILL   &y|&n  John
+Moanders Domain(Abyss) &y|&n 40 &y|&r  PKILL   &y|&n  Drax
+Tunnel                 &y|&n 40 &y|&r  PKILL   &y|&n  Cassandra
+Holy City              &y|&n 45 &y|&r  PKILL   &y|&n  Cassandra
+Eliqua River           &y|&n 50 &y|&n    -     &y|&n  John
+Spiral                 &y|&n 50 &y|&r  PKILL   &y|&n  Cassandra
+Ancient Greece         &y|&n 55 &y|&n    -     &y|&n  Ruprect
+The Odd House          &y|&n 60 &y|&r  PKILL   &y|&n  Sandii
+Scorpion Swamp         &y|&n 60 &y|&r  PKILL   &y|&n  Luna modif. Sandii
+Death Castle           &y|&n 70 &y|&n    -     &y|&n  Primer
+The Island Forever     &y|&n 70 &y|&n    -     &y|&n  Talisman
+&y=======================+====+==========+========================
+                       &cWest World
+&y=======================+====+==========+========================
+     &gZone Name           LR  Zone type    Author
+&y=======================+====+==========+========================&n
+City of HOPE           &y|&n  0 &y|&n    -     &y|&n  Ruprect
+Saloon                 &y|&n  0 &y|&n    -     &y|&n  Ruprect
+Whore House            &y|&n 15 &y|&n    -     &y|&n  Ruprect
+Rockbridge             &y|&n 20 &y|&n    -     &y|&n  Ruprect
+Fort Hope              &y|&n 20 &y|&n    -     &y|&n  Tsd
+Blue Creek             &y|&n 30 &y|&n    -     &y|&n  Ruprect
+&y=======================+====+==========+========================
+                      &cFuture World
+&y=======================+====+==========+========================
+     &gZone Name           LR  Zone type    Author&n
+&y=======================+====+==========+========================&n
+Jabba's Palace         &y|&n  0 &y|&n    -     &y|&n  ??
+Lunar City IV          &y|&n  0 &y|&n    -     &y|&n  ??
+Moon                   &y|&n  0 &y|&n    -     &y|&n  ??
+Mos Eisley Starport    &y|&n  0 &y|&n    -     &y|&n  ??
+Tatooine Desert        &y|&n  0 &y|&n    -     &y|&n  ??
+Angel Grove            &y|&n 25 &y|&r  PKILL   &y|&n  Boz
+The Lost Valley        &y|&n 45 &y|&r  PKILL   &y|&n  Boz
+Perseid Mining Colony  &y|&n 30 &y|&n    -     &y|&n  Intan
+Babylon 5              &y|&n 65 &y|&r  PKILL   &y|&n  Moridin
+The Sphere             &y|&n 70 &y|&r  PKILL   &y|&n  Cassandra
+Hollywood              &y|&n 80 &y|&r  PKILL   &y|&n  RatsleT
+The Concert Hall       &y|&n 80 &y|&n    -     &y|&n  Rhcp
+Star Trek U.S.S. Ent.  &y|&n 80 &y|&n    -     &y|&n  Kitten
+@
+
+
+1.5
+log
+@Artus> Sync.
+@
+text
+@d41 2
+a42 2
+Scorpion Swamp         &y|&n 60 &y|&r  PKILL   &y|&n  ? modfied Sandii
+Death Castle           &y|&n 70 &y|&n    -     &y|&n  Bobsyauncle
+@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@d1 1
+a1 1
+&y=======================+=========+==========+=============
+d3 3
+a5 3
+&y=======================+=========+==========+=============
+     &gZone Name          Lev  Zone type    Author
+&y=======================+=========+==========+=============
+d44 1
+a44 1
+&y=======================+=========+==========+=============
+d46 3
+a48 3
+&y=======================+=========+==========+=============
+     &gZone Name          Lev  Zone type    Author
+&y=======================+=========+==========+=============&n
+d55 1
+a55 1
+&y=======================+=========+==========+=============
+d57 3
+a59 3
+&y=======================+=========+==========+=============
+     &gZone Name          Lev  Zone type    Author&n
+&y=======================+=========+==========+=============&n
+@
+
+
+1.3
+log
+@Artus> Sync.
+@
+text
+@d1 72
+a72 69
+&y=======================+=========+==========+=============&n
+                         &cMedieval&n
+&y=======================+=========+==========+=============&n
+     &gZone Name          Zone Lev  Zone type    Author&n
+&y=======================+=========+==========+=============&n
+Haven                  &y|&n (0-10)  &y|&n    -     &y|&n  John
+MoatHouse              &y|&n (0-10)  &y|&n    -     &y|&n  John
+Selva Road             &y|&n (0-10)  &y|&n    -     &y|&n  Cassandra
+Graveyard              &y|&n (0-10)  &y|&n    -     &y|&n  Cassandra
+Plains                 &y|&n (0-10)  &y|&n    -     &y|&n  John
+Mountains              &y|&n (0-10)  &y|&n    -     &y|&n  John
+Wilderness             &y|&n (0-10)  &y|&n    -     &y|&n  John
+Primal Street          &y|&n (0-10)  &y|&n    -     &y|&n  Sandii
+Labyrinth              &y|&n (5-100) &y|&n    -     &y|&n  Sandii
+Sewers                 &y|&n (5-10)  &y|&n    -     &y|&n  Bobsyauncle
+Aqua Marina            &y|&n (5-80)  &y|&n    -     &y|&n  Abulafia
+Darask                 &y|&n (10-20) &y|&n    -     &y|&n  Murf
+Toyheim                &y|&n (10-20) &y|&n    -     &y|&n  Drax
+LhankWood              &y|&n (10-20) &y|&n    -     &y|&n  John
+Ersheep Road           &y|&n (10-20) &y|&n    -     &y|&n  Gabe
+Rushmoor Swamp         &y|&n (20-30) &y|&n    -     &y|&n  John
+Fairytale Forest       &y|&n (20-30) &y|&n    -     &y|&n  Ruprect
+Camelot                &y|&n (25-40) &y|&n    -     &y|&n  Backspace
+Crystal Castle         &y|&n (25-40) &y|&n  &rPKILL&n   &y|&n  Freako
+The South Pole         &y|&n (25-45) &y|&n    -     &y|&n  Artus
+Island                 &y|&n (30-40) &y|&n  &rPKILL&n   &y|&n  Cassandra
+Pirates Ship           &y|&n (30-40) &y|&n  &rPKILL&n   &y|&n  John
+Khulgur's Lost Empire  &y|&n (30-40) &y|&n    -     &y|&n  Calrain
+Tunnel                 &y|&n (35-45) &y|&n  &rPKILL&n   &y|&n  Cassandra
+Tudor                  &y|&n  (35+)  &y|&n  &rPKILL&n   &y|&n  John
+Magic: The Gathering   &y|&n  (35+)  &y|&n  &rPKILL&n   &y|&n  Deathblade & Pkunk
+Eliqua River           &y|&n  (35+)  &y|&n    -     &y|&n  John
+Shadow Keep            &y|&n (30-50) &y|&n  &rPKILL&n   &y|&n  Gabe
+Black Tower            &y|&n (30-50) &y|&n    -     &y|&n  Cassandra
+Danger Island          &y|&n (40-50) &y|&n  &rPKILL&n   &y|&n  John
+Holy City              &y|&n  (50+)  &y|&n  &rPKILL&n   &y|&n  Cassandra
+Spiral                 &y|&n  (50+)  &y|&n  &rPKILL&n   &y|&n  Cassandra
+Moanders Domain(Abyss) &y|&n  (50+)  &y|&n  &rPKILL&n   &y|&n  Drax
+Ancient Greece         &y|&n  (60+)  &y|&n    -     &y|&n  Ruprect
+Scorpion Swamp         &y|&n  (60+)  &y|&n  &rPKILL&n   &y|&n  ? modfied Sandii
+The odd house          &y|&n  (70+)  &y|&n  &rPKILL&n   &y|&n  Sandii
+The Island Forever     &y|&n  (70+)  &y|&n    -     &y|&n  Talisman
+Death Castle           &y|&n  (70+)  &y|&n    -     &y|&n  Bobsyauncle
+&y=======================+=========+==========+=============&n
+                       &cWest World&n
+&y=======================+=========+==========+=============&n
+     &gZone Name          Zone Lev  Zone type    Author&n
+&y=======================+=========+==========+=============&n
+City of HOPE           &y|&n (0-20)  &y|&n    -     &y|&n  Ruprect
+Saloon                 &y|&n (0-20)  &y|&n    -     &y|&n  Ruprect
+Whore House            &y|&n  (15+)  &y|&n    -     &y|&n  Ruprect
+Blue Creek             &y|&n  (30+)  &y|&n    -     &y|&n  Ruprect
+Rockbridge             &y|&n  (20+)  &y|&n    -     &y|&n  Ruprect
+Fort Hope              &y|&n  (35+)  &y|&n    -     &y|&n  Tsd
+&y=======================+=========+==========+=============&n
+                      &cFuture World&n
+&y=======================+=========+==========+=============&n
+     &gZone Name          Zone Lev  Zone type    Author&n
+&y=======================+=========+==========+=============&n
+Mos Eisley Starport    &y|&n         &y|&n    -     &y|&n  ??
+Jabba's Palace         &y|&n         &y|&n    -     &y|&n  ??
+Lunar City IV          &y|&n (0-20)  &y|&n    -     &y|&n  ??
+Angel Grove            &y|&n  (25+)  &y|&n  &rPKILL&n   &y|&n  Boz
+Babylon 5              &y|&n  (25+)  &y|&n  &rPKILL&n   &y|&n  Moridin
+The Lost Valley        &y|&n  (45+)  &y|&n  &rPKILL&n   &y|&n  Boz
+Perseid Mining Colony  &y|&n  (30+)  &y|&n    -     &y|&n  Intan
+The Sphere             &y|&n (70-85) &y|&n  &rPKILL&n   &y|&n  Cassandra
+The Concert Hall       &y|&n  (80+)  &y|&n    -     &y|&n  Rhcp
+Star Trek U.S.S. Ent.  &y|&n  (80+)  &y|&n    -     &y|&n  Kitten
+@
+
+
+1.2
+log
+@Artus> This stuff is all good.
+@
+text
+@d25 1
+@
+
+
+1.1
+log
+@The missing areas file :p
+@
+text
+@d13 3
+a15 1
+Rome                   &y|&n (5-100) &y|&n    -     &y|&n  Circle Def
+a16 1
+Werith's Wayhouse      &y|&n (10-20) &y|&n    -     &y|&n  Circle Def
+a18 2
+Rands Tower            &y|&n (10-20) &y|&n    -     &y|&n  Circle Def
+3 of Swords            &y|&n (10-20) &y|&n    -     &y|&n  Circle Def
+d42 1
+d50 2
+a51 2
+Whore House            &y|&n (0-20)  &y|&n    -     &y|&n  Ruprect
+Blue Creek             &y|&n (0-20)  &y|&n    -     &y|&n  Ruprect
+d67 2
+@
+

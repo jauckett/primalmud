@@ -1,0 +1,14 @@
+ident cast 'ident' $1
+remcur cast 'remove curse' $1
+bless say bless
+t train hit
+he say heal me
+` quitreally
+heal say heal me
+sanc say sanc
+h say heal
+color cast 'color spray' $1
+recall cast 'word of recall'
+dragon cast 'dragon'
+fire cast 'fireball' $1
+lig cast 'call lightning' $1

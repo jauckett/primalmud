@@ -1,0 +1,52 @@
+c cast 'advanced heal' $1.cl;look $1.cl
+x kill $1;ord fol assist
+haste c 'haste' nakor
+8 hunt $1.shadowen
+lvl rem armor
+bless cast 'bless' nakor
+fi cast 'finger of death' $1
+3 cast 'create water' skin;drink skin
+me get all.meat field;eat meat;eat meat;drink skin;drink skin;put all.meat field
+z cast 'heal' nakor
+q cast 'advanced heal' nakor
+des ref;ref;w;w;n;n;n;n;n;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n;n
+dri w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;
+ki kill $1
+jump emote jumps up and down.
+ch cast 'charm person' $1
+sum cast 'summon' $1
+rec get recall backpack;recite recall
+dest junk all.$1
+mm cast 'magic missile' $1;alias 2 cast 'magic missile' $1
+g get all all.corpse
+ti title the $1 Rider.
+way w;w;w;n;w;w;n;n;w;w;n;w;w;s
+op unlock $1;pick $1;open $1
+word cast 'word of recall
+ref cast 'refresh
+hits train hit;train hit;train hit;train hit;train hit
+see cast 'detect invisibility';cast 'sense life';cast 'infravision'
+grs grat >>>>>>>>>>>>> $1 <<<<<<<<<<<<<<<<<
+loc cast 'locate object' $1
+1 cast 'create food';eat mushroom
+fb cast 'fireball' $1
+v cast 'advanced heal' tarn
+p buy 20 $1;put all.$1 field
+7 hunt $1.soldier;hunt
+2 cast 'haste
+mov train move;train move;train move;train move;train move;train move;train move;train move;train move
+cl cast 'clone
+lo get gold all.corpse
+9 c 'sanctuary' 1.clone
+0 c 'sanctuary' 2.clone
+invis c 'invisibility' nakor;sneak
+mv train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;
+wa wake;stand;wear all;wield trident;hold tent;hold jewel
+start open field;wear all;wield trident;hold tent;hold jewel;put all.scroll field
+pro cast 'dragon';cast 'divine protection';cast 'spirit armor';cast 'holy aid';cast 'lightning shield'
+id c 'identify' $1
+uncurse c 'remove curse' $1
+sl sleep
+sanc cast 'sanctuary' nakor
+charm cast 'charm person' $1
+b kill $1;ord fol assist

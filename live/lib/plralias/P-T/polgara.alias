@@ -1,0 +1,310 @@
+5
+invis
+15
+cast 'invis' $*
+1
+2
+pb
+22
+cast 'plasma blast' $*
+1
+3
+lob
+23
+cast 'locate object' $*
+1
+2
+wt
+22
+cast 'wraith touch' $*
+1
+2
+cs
+21
+cast 'color spray' $*
+1
+4
+getd
+76
+wear towel neck; wear sunn eye; wield mace; hold skull; wear apron; wear all
+1
+2
+gs
+18
+cast 'group sanc' 
+0
+2
+gh
+17
+cast 'group heal'
+0
+4
+garm
+17
+cast 'group arm' 
+0
+2
+ef
+38
+open force; examine force; close force
+1
+4
+buyp
+52
+open force; buy 10 prot; put all.prot for; close for
+1
+4
+buyr
+52
+open force; buy 10 heal; put all.heal for; close for
+1
+1
+2
+43
+open force; get prot for; q prot; close for
+1
+1
+1
+43
+open force; get heal for; q heal; close for
+1
+2
+ks
+7
+k guard
+0
+4
+pois
+16
+cast 'poison' $*
+1
+4
+para
+18
+cast 'paralyze' $*
+1
+4
+iden
+18
+cast 'identify' $*
+1
+2
+ha
+18
+cast 'holy aid' $*
+1
+2
+rp
+23
+cast 'remove poison' $*
+1
+3
+com
+14
+compost corpse
+0
+3
+cur
+15
+cast 'curse' $*
+1
+4
+fear
+14
+cast 'fear' $*
+1
+2
+ah
+23
+cast 'advanced heal' $*
+1
+1
+9
+42
+grats &y---------->&n&C$*&n&y<----------&n
+1
+3
+ear
+17
+cast 'earthquake'
+0
+2
+fb
+18
+cast 'fireball' $*
+1
+2
+lb
+24
+cast 'lightning bolt' $*
+1
+4
+tunn
+93
+s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+1
+2
+pe
+27
+cast 'protect from evil' $*
+1
+3
+sen
+20
+cast 'sense life' $*
+1
+2
+rc
+22
+cast 'remove curse' $*
+1
+2
+sa
+18
+cast 'spirit arm' 
+0
+5
+blind
+15
+cast 'blind' $*
+1
+3
+san
+14
+cast 'sanc' $*
+1
+2
+dm
+22
+cast 'detect magic' $*
+1
+2
+de
+21
+cast 'dispel evil' $*
+1
+2
+dp
+23
+cast 'detect poison' $*
+1
+2
+dg
+21
+cast 'dispel good' $*
+1
+1
+4
+30
+cast 'heal' $*; cast 'heal' $*
+1
+7
+darask1
+33
+s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+1
+6
+darask
+43
+w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w
+1
+5
+homew
+30
+cast 'recall';e;e;e;e;e;go med
+1
+5
+westw
+18
+e;d;e;e;s;go stage
+1
+5
+jimmy
+28
+e;d;e;e;s;go stage;e;e;e;e;u
+1
+2
+sw
+22
+cast 'sense wounds' $*
+1
+4
+stre
+18
+cast 'strength' $*
+1
+3
+sum
+16
+cast 'summon' $*
+1
+6
+gamina
+18
+e;d;e;e;e;e;e;s;s;
+1
+4
+wall
+67
+n;u;u;u;u;n;w;w;w;w;n;n;n;n;open hedge;w;w;n;n;e;n;e;open howling;n
+1
+5
+oubli
+30
+w;n;open door;w;e;open path;w;
+1
+4
+maze
+43
+s;e;s;e;s;e;s;e;e;n;n;n;w;s;n;s;open blue;w
+1
+4
+laby
+55
+d;d;n;n;n;e;e;open question;n;e;e;e;e;e;e;open illusion
+1
+3
+lab
+37
+n;n;w;w;w;n;e;e;s;s;u;n;open french;n
+1
+4
+home
+13
+cast 'recall'
+0
+3
+ble
+15
+cast 'bless' $*
+1
+3
+arm
+15
+cast 'armor' $*
+1
+5
+infra
+15
+cast 'infra' $*
+1
+2
+da
+22
+cast 'detect align' $*
+1
+2
+di
+22
+cast 'detect invis' $*
+1
+4
+food
+18
+cast 'create food'
+0
+4
+walk
+17
+cast 'refresh' $*
+1

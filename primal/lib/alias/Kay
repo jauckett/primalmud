@@ -1,0 +1,11 @@
+pr practice $1
+pu put $1 in backpack
+gob k goblin
+qy quaff yellow
+qw quaff white
+em get meat from backpack;eat meat
+eb get bread from backpack;eat bread
+beg k beggar
+jun get all from corpse
+qr quaff red
+gat get $1 from backpack

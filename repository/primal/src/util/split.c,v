@@ -1,0 +1,88 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @ * @;
+
+
+1.1
+date     2000.01.26.14.31.02;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.31.02;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@/* ************************************************************************
+*  file:  split.c                                     Part of CircleMud   *
+*  Usage: split one large file into multiple smaller ones, with index     *
+*  Written by Jeremy Elson                                                *
+*  All Rights Reserved                                                    *
+*  Copyright (C) 1993 The Trustees of The Johns Hopkins University        *
+************************************************************************* */
+
+
+#define INDEX_NAME "index"
+#define BSZ 256
+#define MAGIC_CHAR '='
+
+#include <stdio.h>
+#include <string.h>
+
+main () 
+{
+   char	line[BSZ+1];
+   FILE * index = 0, *outfile = 0;
+
+   if (!(index = fopen(INDEX_NAME, "w"))) {
+      perror("error opening index for write");
+      exit();
+   }
+
+   while (fgets(line, BSZ, stdin)) {
+      if (*line == MAGIC_CHAR) {
+	 *(strchr(line, '\n')) = '\0';
+	 if (outfile) {
+	    fputs("#99999\n$~\n", outfile);
+	    fclose(outfile);
+	 }
+	 if (!(outfile = fopen((line + 1), "w"))) {
+	    perror("Error opening output file");
+	    exit();
+	 }
+	 fputs(line + 1, index);
+	 fputs("\n", index);
+      } else if (outfile)
+	 fputs(line, outfile);
+   }
+
+   fputs("$\n\r", index);
+   fclose(index);
+   if (outfile)
+      fclose(outfile);
+}
+
+
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

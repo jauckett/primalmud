@@ -1,0 +1,75 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#290 3
+Perseid Mining Colony Base~
+29100 25 2 128
+
+M 0 29001 1 29081
+E 1 29001 1 16
+
+
+M 0 29002 5 29017
+M 0 29002 5 29030
+M 0 29002 5 29067
+M 0 29002 5 29092
+M 0 29002 5 29076
+
+M 0 29003 8 29022
+M 0 29003 8 29027
+M 0 29003 8 29037
+M 0 29003 8 29055
+M 0 29003 8 29067
+M 0 29003 8 29084
+M 0 29003 8 29092
+M 0 29003 8 29096
+
+M 0 29004 7 29007
+M 0 29004 7 29032
+M 0 29004 7 29041
+M 0 29004 7 29053
+M 0 29004 7 29081
+M 0 29004 7 29089
+M 0 29004 7 29067
+
+O 0 29002 1 29018
+O 0 29003 1 29005
+
+S
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

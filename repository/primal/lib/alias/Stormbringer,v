@@ -1,0 +1,89 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@maze e;n;n;e;e;
+3 cast 'divine heal' $*
+z show zone $1
+ncto emote imitates Daffy Duck and quacks NCTO!!!!
+fsandii emote pulls your cfm boots off and starts to massage your poor tired feet.
+hsandii emote grabs you around the waist and pulls you to him
+charm cast 'charm' $*
+haste cast 'haste' $*
+see cast 'infravision' $*
+spiral d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+ref cast 'refresh' $*
+serp cast 'serpent skin' $*
+toy n;n;w;w;u;u;u;u
+x get coins all.corpse
+tunnel e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w
+red open force; get uneartly force; rem sombr; wear uneartly; put sombr force
+som open force; get sombr force; rem uneartly; wear sombr; put uneartly force
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n
+darask w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+lostworld e;s;s;w;w;w;w;s;s;s;s;s;s
+tudor w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+getb get queen; get comm; get blood; get topaz; wear all; get major; wear major about; get force; open force; get somb; get crystal; put all force; get shield; get horn; get bracer; get cloak; get cloak
+getc put all force; get serrate; get mox; get snake; get snake; get pirate; get pirate; put all force
+geta get riding; get armor; get slizz; wear all;get pants; get comm; get honour; get honour; get uneartly ; wear all; get pulse; wield pulse; get uneartly ; hold uneartly; get flint; hold flint; get apron; get queen
+inv cast 'invisibility' $*
+sum cast 'summon'$*
+loc cast 'locate object'$*
+re cast 'word of recall'$*
+1 cast 'advanced heal'$*
+wh cast 'whirlwind'$*
+cur cast 'remove curse'$*
+water cast 'waterbreathe'$*
+walk cast 'waterwalk'$*
+par cast 'paralyze' $*
+fi cast 'finger' $*
+fly cast 'fly' $*
+wake wake;stand
+good open force; rem mox; rem horn; rem pirate; rem pirate; rem serrate; rem snake; rem snake; rem bracers; rem cloak; rem shield; rem cloak; put all force; get queen force; get queen force
+good1 get riding force; get blood force; get comm force; get comm force; get topaz force; get flint force;  hold flint; get armor force; wear all; get honour force; get honour force; wear all
+evil open force; rem blood; rem queen; rem queen; rem riding; rem topaz; rem comm; rem comm; rem flint; rem armor; rem honour; rem honour; put all force; get mox force; get pirate force
+evil1 get pirate force; get cloak force; get cloak force; get skull force; get cloak force; get serrated force; get 2.shield force; get horn force; get snake force; get snake force; wear all; hold mox; wear all
+pl cast 'whirlwind';cast 'advanced heal'
+dragon cast 'dragon' $*
+id recite identify $*
+rc cast 'remove curse' $*
+wa wake; stand
+po poofout calls upon the God of Lightning and disappears in a blinding flash of light.
+undress rem all;put all force;drop force
+getd get all;open force;get all force;hold jack;hold drill;wield plasma;wear all;put all force
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,10 @@
+hs cast 'cure critic' unknown
+cg grats <****===-- $1 --===****>
+bye gossip cya later, $1
+heal cast 'cure critic' $1
+mana tell robohelp mana
+corpse get all corpse;get corpse;junk corpse
+hi gossip Hey $1
+skin get skin backpack; drink skin;put skin backpack
+bbstitle title has a bbs on +613 9776-5495, In melbourn, vic, aust
+bread get bread backpack; eat bread

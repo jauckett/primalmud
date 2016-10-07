@@ -1,0 +1,27 @@
+kk hit  chick
+t track ratt
+tt train hit;train hit;train hit;train hit
+br buy 10 red;put all.red force
+qr get red force;quaff red
+cc cast 'cure critical' $*
+ll cast 'lightning bolt' $*
+b1 tell gamina sanc
+b2 tell gamina bless
+mm cast 'magic missile' $*
+b3 tell gamina arm
+b4 tell gamina bless
+sum tell gamina summon
+heal tell gamina heal
+ws wake;stand
+bb cast 'burning hands' $*
+ref tell gamina refresh
+qw get white force;quaff white
+ea cast 'earth'
+wc cast 'word of recall
+dr cast 'dragon' $*
+ff cast 'fireball' $*
+tc track chicken
+bh buy 10 healing;put all.healing force
+hh cast 'heal' $*
+qp get tonic force;quaff tonic
+k hit $*;alias kk hit $*

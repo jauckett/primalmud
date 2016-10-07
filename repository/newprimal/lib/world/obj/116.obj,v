@@ -1,0 +1,1180 @@
+head	1.11;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.11
+date	2004.11.24.05.50.57;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.05.29.01.28.35;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.05.23.07.21.50;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.03.15.02.19.44;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.21.08.52.11;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.04.12.50.43;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.31.10.38.33;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.11.08.11.59.20;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.20.12.01.51;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.14.05.30.36;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@Artus> Sync.
+@
+text
+@#11601
+A concert Ticket~
+a concert Ticket~
+A yellow && black object~
+~
+18 4 16385 0
+0 0 0 0
+0 400000 10 0
+L 0
+#11603
+A Large Vibrator~
+a Large Black Vibrator~
+A Large Black Vibrator is lying here.~
+~
+5 48 24707 0
+0 4 4 11
+0 0 0 25
+L 25
+A
+16 20
+#11604
+Crowd surf~
+Guy offering you a crowd surf~
+&yGuy offering you a crowd surf is standing here.~
+~
+41 0 0 0
+11667 0 0 0
+0 0 0 0
+L 0
+#11605
+Crowd surf~
+Guy offering you a crowd surf~
+&yGuy offering you a crowd surf is standing here.~
+~
+41 0 0 0
+11666 0 0 0
+0 0 0 0
+L 0
+T 11602
+#11606
+concert T-Shirt~
+the latest concert T-Shirt~
+A T-Shirt is lying here~
+~
+9 128 9 0
+30 0 0 0
+10 1000 0 75
+L 75
+A
+24 -2
+A
+18 -4
+#11607
+G-String~
+a Pink G-string~
+A scrape of cloth is lying here.~
+~
+9 117440512 2049 0
+0 0 0 0
+15 4000 400 80
+L 80
+A
+13 -100
+A
+18 -2
+A
+19 -2
+#11608
+A pink belt~
+a very mini skirt~
+What looks like a belt is lying here~
+~
+9 0 33 0
+0 0 0 0
+5 2000 0 82
+L 82
+A
+18 2
+A
+19 3
+A
+14 50
+A
+17 -4
+#11609
+Black Boots~
+Long Black Boots~
+A pair of long back boots are lying here.~
+~
+11 0 65 0
+0 0 0 0
+10 500 0 83
+L 83
+A
+13 60
+A
+18 4
+A
+17 -10
+A
+19 -2
+#11610
+A Boob Tube~
+a Boob Tube~
+A boob Tube is lying here.~
+~
+11 0 9 0
+0 0 0 0
+0 0 0 84
+L 84
+A
+2 2
+A
+1 2
+A
+19 5
+A
+18 2
+#11611
+CD~
+a CD~
+A CD is lying here.~
+~
+9 0 513 65536
+0 0 0 0
+40 1000 0 85
+L 85
+A
+18 7
+A
+19 7
+A
+17 -15
+#11612
+Lighter~
+a Cigarette Lighter ~
+A Cigarette Lighter is lying here.~
+~
+1 1 16385 0
+0 0 -1 0
+1 40 0 86
+L 86
+A
+17 -5
+A
+19 3
+#11613
+Security Pass~
+a Security Pass~
+A Security Pass has been droped here.~
+~
+18 262144 1 0
+0 0 0 0
+2147483647 0 0 100
+L 100
+#11614
+Pink Handbag~
+a Pink Handbag~
+A Pink Handbag has been left behind.~
+~
+9 0 4097 0
+0 0 0 0
+0 0 0 87
+L 87
+A
+18 3
+A
+19 1
+A
+17 -7
+#11615
+Black Choker~
+a Black Choker~
+Someone has lost thier choker.~
+~
+9 0 5 0
+0 0 0 0
+0 0 0 88
+L 88
+A
+18 5
+A
+19 5
+A
+13 60
+A
+12 -40
+A
+17 -10
+#11616
+Engagement Ring~
+an Engagement Ring~
+An Engagement Ring has been droped here.~
+~
+11 0 3 128
+0 0 0 0
+0 0 0 89
+L 89
+A
+18 9
+A
+19 -9
+A
+13 75
+A
+17 -30
+#11617
+Contact lenses~
+Contact lenses~
+Contact lenses are lying here.~
+~
+9 1 32769 0
+0 0 0 0
+0 0 0 90
+L 90
+A
+18 -9
+A
+19 9
+#11618
+Red corkscrew curls~
+Red corkscrew curls~
+A fashion hair cut.~
+~
+9 0 17 0
+-20 0 0 0
+5 0 0 81
+L 81
+A
+18 2
+A
+19 3
+A
+12 45
+#11619
+Pink Handbag~
+a Pink Handbag~
+A very small handbag is lying here.~
+~
+9 0 4097 0
+0 0 0 0
+0 0 0 0
+L 0
+#11620
+A Red Condom~
+a Red Condom~
+A Red Condom is lying here.~
+~
+3 68 16385 0
+100 3 3 79
+3 100000 0 70
+L 70
+#11621
+A Blue Condom~
+a Blue Condom~
+A Blue Condom is lying here.~
+~
+3 68 16385 0
+100 3 3 67
+3 100000 0 70
+L 70
+#11622
+A Pink Condom~
+a Pink Condom~
+A Pink Condom is lying here.~
+~
+3 68 16385 0
+80 3 3 59
+3 100000 0 70
+L 70
+#11623
+A Black Condom~
+a Black Condom~
+A Black Condom is lying here.~
+~
+3 68 16385 0
+100 3 3 53
+30 30000 0 70
+L 70
+#11624
+A Ribbed Condom~
+a Ribbed Condom~
+A Ribbed Condom is lying here.~
+~
+3 68 16385 0
+100 3 3 73
+5 100000 0 70
+L 70
+#11625
+An eatable Condom~
+an eatable Condom~
+An eatable Condom is lying here.~
+~
+4 68 16385 0
+100 3 3 62
+5 100000 0 70
+L 70
+#11626
+Tommy Tickler~
+a Tommy Tickler~
+A Tommy Tickler is lying here.~
+~
+3 68 16385 0
+100 3 3 74
+5 100000 0 85
+L 85
+#11627
+A reusable Condom~
+a reusable Condom~
+A reusable Condom is lying here.~
+~
+4 68 16385 0
+80 3 3 75
+5 100000 0 70
+L 70
+#11630
+Drum Kit~
+a Drum Kit~
+&G A Drum Kit has been set up here~
+~
+15 0 0 0
+100 5 -1 0
+0 0 0 0
+L 0
+#11631
+bass~
+a Bass Amp~
+&m A Bass Amp has been set up here.~
+~
+8 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#11632
+Foldback~
+a Foldback speaker~
+&M A Foldback speak is lying here.~
+~
+0 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#11633
+Guitar AMP~
+a Guitar AMP~
+&y A Guitar AMP has been set up here.~
+~
+8 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#11634
+Mic~
+a Mic Stand~
+&Y An old bent Mic stands has been placed here.&n~
+This Mic stand looks like it has xeen better days
+Many a muso has danced off it, and thrown it around the stage
+~
+5 65601 8193 268435456
+52 9 9 11
+5 153000 0 85
+L 85
+A
+18 9
+A
+19 -9
+A
+13 85
+#11635
+Flea's Bass~
+Flea's Bass Guitar~
+Flea has foolishly left his bass here.~
+~
+5 0 8193 401552638
+52 11 11 10
+0 0 0 125
+L 125
+A
+17 -50
+A
+18 13
+A
+19 13
+#11636
+Black Jeans~
+Black Jeans~
+A pile of clothing~
+~
+9 0 1 0
+0 0 0 0
+0 0 0 0
+L 0
+#11637
+Towel~
+a Towel~
+A wet Towel is lying here.~
+~
+37 0 1025 0
+0 0 0 0
+0 0 0 0
+L 0
+#11638
+Couch~
+a Big 3 seater couch~
+A nice 3 seater couch~
+~
+41 0 0 0
+11601 0 0 0
+0 0 0 0
+L 0
+#11650
+Apron~
+an Apron~
+Someone has left thier Apron lying here.~
+This is uniform apron for Concert goer's food, It is a green color with the company name
+brightly printed across the brest.
+~
+0 0 2049 67108864
+0 0 0 0
+2 6000 60 50
+L 50
+A
+18 -7
+A
+13 -70
+#11651
+Hat Chef~
+a chef's hat~
+A chef has left his hat behind.~
+A White Chef's Hat
+~
+0 0 17 0
+0 0 0 0
+2 8000 60 50
+L 50
+A
+12 -80
+A
+9 8
+#11652
+Food Burger Warmer~
+a food warmer~
+Food Warmer~
+A big stainless steel object as you would find at any fast food place
+~
+15 0 0 0
+100000 0 -1 0
+0 0 0 100
+L 100
+#11653
+Drink machine~
+Drink machine~
+Drink Machine~
+A Postmix softdrink machine
+~
+23 0 0 0
+1000000000 1000000000 6 0
+0 0 0 0
+L 0
+#11654
+Chip machine Warmer~
+Chip machine~
+Chip Warmer~
+This chip machine combines a warmer with the fryer's 
+On the left is the fryer's to cook to the chips and on the 
+right is the warming area.
+~
+15 0 0 0
+100000 0 -1 0
+0 0 0 0
+L 0
+#11655
+Cheese Burger~
+Cheese Burger~
+Cheese Burger~
+Sesame bun
+Sause
+Cheese
+Bun
+~
+19 4 1 0
+2 0 0 0
+1 10 0 0
+L 0
+#11656
+Bucket Chips~
+a Bucket of Chips~
+A Bucket of Chips~
+A small buget with some very dry chips 
+~
+19 4 1 0
+1 0 0 0
+1 0 0 0
+L 0
+#11657
+Coke cup~
+Coke cup~
+Coke cup~
+A cup covered in coke advertising
+~
+17 4 17 0
+2 0 6 0
+1 0 0 0
+L 0
+T 11639
+#11658
+Veggie Burger~
+Veggie Burger~
+Veggie Burger~
+Sour doe Bun
+Lettuce
+Cheese
+Beetroot
+Chickpea Patty
+Bun
+~
+19 4 1 0
+-1 0 0 0
+1 0 0 0
+L 0
+#11659
+Beef Nuggets ~
+Beef Nuggets ~
+6 pack of Beef Nuggets~
+A recycled cardboard box containing 6 Nuggets
+~
+19 4 1 0
+2 0 0 0
+1 0 0 0
+L 0
+#11660
+Food token~
+Food token~
+A Food token is lying here.~
+Yellow plastic token with something written on it. 
+~
+8 4 1 0
+0 0 0 0
+2 0 0 0
+L 0
+#11661
+Cash register~
+a cash register~
+A bench with 3 cash registers sitting on it stands in front of you.~
+This is as you would expect to find in any fast food outlet
+~
+15 0 0 0
+1000000 0 -1 0
+10 0 0 0
+L 0
+T 11631
+T 11620
+#11662
+Clip Board~
+a Clip board~
+A Clip board has been left here.~
+&YConcert Goers food&n
+&YInduction Manual&n
+
+&yVery soon customers will start to enter the store, wanting you to serve 
+them food. Your job is the call out the orders so that the Burger Flipper
+can make the items and put them in the warmers. You then need to collect
+the order and have it to the customer in a timely fashion.
+
+&r****************************************&n 
+&r*        &YConcert Goers food  &r          *&n 
+&r*          &Y     MENU           &r        *&n 
+&r*                                      *&n 
+&r* &MCheese Burger &c---  &M"Cheese  Please"  &r*&n 
+&r* &MVeggie Burger &c---  &M"Veggie Please"   &r*&n 
+&r* &MBeef Nuggets  &c---  &M"Beef  Please"    &r*&n 
+&r* &MChips         &c---  &M"Chips  Please"   &r*&n 
+&r* &MCoke          &c---  &M"Coke  Please"    &r*&n 
+&r*                                      *&n 
+&r****************************************&n 
+&cTo show the menu at any time say "Show Menu"
+
+&YWhen the Burger Flipper has completed your order, he will place it as follows:
+
+&YCheese Burger, Veggie Burger, Beef Nuggets
+   &yThese items will be in the Food Warmer
+&YChips
+   &yThese will be in the Chip Machine
+&YCoke
+   &yThese will be stacked on the ground
+   You will need to fill the coke from the Drink machine.
+
+&YThe following is the list of examples
+
+&YOrder eg. (cheese Burger)&n
+say Cheese  please
+get cheese Warmer
+give cheese Xxxxx
+
+&YOrder eg. (Chips)&n
+say Chips  please
+get Chips machine
+give Chips xxxxx
+
+&YOrder eg. (Coke)&n
+say Coke  please
+get Coke
+fill Coke drink
+say "Customers Please"
+And your working day will begin.
+
+
+&yIf you get the order ready and hand it to the customer on time the 
+customer will put tokens in the register.
+
+&yOnce a week the owner of "Concert Goers Food" will come to collect the 
+tokens from the register. When he collects the tokens you will be rewarded 
+for your work. This reward will vary depending on how many orders you serve 
+in that time.
+
+&YFor this you will need to:
+&yCollect the tokens from the register, hand them to him and ask him to
+count them.
+
+&YGive Manager Money eg.&n
+get all.token reg
+give all,tokens manager
+say count please
+
+
+&yYou also had better be on the look out for a Robber, who from time to time,
+will drop in and steal all the money in the register.
+
+&yAfter you have had time to read through this info
+say "Customers Please"
+And your working day will begin.
+
+~
+16 4 1 0
+0 0 0 0
+2 0 0 0
+L 0
+#11663
+Glow Stick~
+a Green Glow Stick~
+A green glow stick has been left here.~
+~
+1 0 1 1024
+0 0 -1 0
+3 10000 0 50
+L 50
+#11664
+Hair Tie~
+Hair Tie~
+One of the girls hair ties is lying here.~
+~
+11 0 17 134217728
+0 0 0 0
+1 100 0 70
+L 70
+A
+13 70
+A
+14 40
+#11665
+Backstage Pass~
+Backstage Pass~
+Some fool has drop htier backstage pass here.~
+~
+18 0 5 0
+0 0 0 0
+0 0 0 60
+L 60
+A
+18 6
+A
+19 -1
+#11666
+tattoo~
+a Tattoo~
+A Drawing of a tattoo is lying here.~
+~
+9 0 131329 0
+0 0 0 0
+3 1000 0 80
+L 80
+#11667
+Ring Of Fear~
+Ring Of Fear~
+A Ring Of Fear has been pounded into the ground here~
+~
+5 1 24577 0
+52 8 8 7
+5 100000 0 85
+L 85
+A
+18 7
+A
+19 7
+A
+17 -30
+A
+12 80
+#11668
+Brief case~
+a Black Brief Case~
+A Black Brief Case is lying here.~
+~
+15 0 16385 0
+1000000 0 -1 0
+0 0 0 0
+L 0
+#11693
+bus door exit~
+the bus door~
+The bus door is open, allowing you to disembark.~
+~
+41 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#11694
+bus~
+the 406 Bus~
+A bus has parked here, allowing passengers to embark.~
+~
+41 2 0 0
+11698 50 0 0
+0 0 0 50
+L 50
+#11697
+bus shelter stop~
+a Bus Shelter~
+A bus shelter stands here to keep you dry whilst waiting for the bus.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+bus stop shelter~
+&[&y*******************
+&y* &y                *
+&y* &W   NEXT STOP&y    *
+&y* &y                *
+&y* &W  Angel Grove &y  *
+&y* &y                *
+&y*******************&]
+~
+#11698
+Bus Stop Shelter~
+a Bus Shelter~
+A bus shelter stands here to keep you dry whilst waiting for the bus.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+bus stop shelter~
+&[&y*******************
+&y* &y                *
+&y* &W   NEXT STOP&y    *
+&y* &y                *
+&y* &W The City Hall&y  *
+&y* &y                *
+&y*******************&]
+~
+#11699
+Bus Stop Shelter~
+a Bus Shelter~
+A bus shelter stands here to keep you dry whilst waiting for the bus.~
+~
+13 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+bus stop shelter~
+&[&y*******************
+&y* &y                *
+&y* &W   NEXT STOP&y    *
+&y* &y                *
+&y* &W   Hollywood&y    *
+&y* &y                *
+&y*******************&]
+~
+$~
+@
+
+
+1.10
+log
+@Artus> Sync.
+@
+text
+@a0 27
+#11600
+Bus Shelter~
+a Bus Shelter~
+A Bus Shelter~
+*******************
+*  406 BUS ROUTE  *
+*******************
+~
+41 0 0 0
+11605 60 0 0
+0 0 0 0
+L 0
+E
+Bus shelter~
+*******************
+*  406 BUS ROUTE  *
+*******************
+~
+E
+timetable~
+*******************
+*    NEXT STOP    *
+*                 *
+*  The City Hall  *
+*                 *
+*******************
+~
+a9 25
+#11602
+Bus Stop Shelter~
+a Bus Shelter~
+A Bus Shelter~
+This bus shelter is totaly covered in TAG's
+~
+41 1 0 0
+20002 0 0 0
+0 0 0 0
+L 0
+E
+Timetable~
+*******************
+*    NEXT STOP    *
+*                 *
+*   Angel Grove   *
+*                 *
+*******************
+~
+E
+Bus Shelter~
+*******************
+*  406 BUS ROUTE  *
+*******************
+~
+d16 1
+a16 1
+0 0 0 0
+d41 1
+a41 1
+A T-Shirt~
+d708 56
+d765 3
+a767 3
+Bus Shelter~
+an unfinished object~
+An unfinished object is lying here.~
+d769 1
+a769 1
+0 0 1 0
+d773 10
+@
+
+
+1.9
+log
+@Artus> Checking everything in again.
+@
+text
+@d14 6
+a27 6
+E
+Bus shelter~
+*******************
+*  406 BUS ROUTE  *
+*******************
+~
+a47 6
+Bus Shelter~
+*******************
+*  406 BUS ROUTE  *
+*******************
+~
+E
+d56 6
+d739 1
+a739 1
+5 536870912 24577 0
+@
+
+
+1.8
+log
+@Artus> Sync Zone 116.
+@
+text
+@d352 1
+a352 1
+A Tommy Tickler~
+@
+
+
+1.7
+log
+@Artus> Sync.
+@
+text
+@d97 1
+a97 1
+9 128 8 0
+d112 2
+a113 2
+15 4000 400 81
+L 81
+d115 1
+a115 1
+18 2
+d117 1
+a117 1
+19 5
+d119 1
+a119 5
+12 -40
+A
+13 80
+A
+17 -5
+d303 1
+a303 1
+3 10000 0 70
+d312 1
+a312 1
+3 10000 0 70
+d321 1
+a321 1
+3 10000 0 70
+d329 2
+a330 2
+100 3 3 76
+30 10000 0 70
+d339 1
+a339 1
+5 10000 0 70
+d348 1
+a348 1
+5 10000 0 70
+d351 2
+a352 2
+A Tommy Tickler ~
+a Tommy Tickler ~
+d357 2
+a358 2
+5 10000 0 70
+L 70
+d366 1
+a366 1
+5 10000 0 70
+d411 1
+a411 1
+5 65857 8193 67174400
+d418 1
+a418 5
+19 9
+A
+1 3
+A
+2 4
+a420 2
+A
+12 75
+d591 1
+a591 1
+-1 0 0 0
+@
+
+
+1.6
+log
+@Artus> Migration time!
+@
+text
+@a13 6
+Bus shelter~
+*******************
+*  406 BUS ROUTE  *
+*******************
+~
+E
+d22 6
+d48 6
+a61 6
+E
+Bus Shelter~
+*******************
+*  406 BUS ROUTE  *
+*******************
+~
+d334 1
+a334 1
+3 10000 0 70
+d411 1
+a411 1
+&Y An old bent Mic stands has been placed here.~
+d415 1
+a415 1
+5 65857 8193 75563008
+d417 1
+a417 1
+5 153000 200000 85
+@
+
+
+1.5
+log
+@Artus> Moving this stuff across, too.
+@
+text
+@d39 1
+a39 1
+A Bus Shelter~
+@
+
+
+1.4
+log
+@Artus> Just up-to-dating....
+@
+text
+@d1 27
+d38 3
+a40 3
+A Bus Stop~
+Here stands a Bus Shelter~
+Here stands a Bus Shelter~
+d44 1
+a44 1
+1115 0 0 3
+d47 15
+d770 9
+@
+
+
+1.3
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@d251 1
+a251 1
+A Pink Handbag~
+d394 1
+a394 1
+5 0 8193 399455486
+d415 1
+a415 1
+A Towel~
+d424 1
+a424 1
+A Big 3 seater couch~
+d525 1
+@
+
+
+1.2
+log
+@Artus> A3_0_315
+@
+text
+@d249 9
+d394 2
+a395 2
+5 0 8193 401585406
+52 13 13 10
+d399 1
+a399 1
+17 -100
+d401 1
+a401 1
+18 123
+d403 28
+a430 1
+19 123
+d684 1
+a684 1
+18 536870912 5 0
+d697 1
+a697 1
+9 536870912 257 0
+d718 9
+@
+
+
+1.1
+log
+@Artus> Adding To Repository.
+@
+text
+@d386 1
+a386 1
+52 100 50 10
+d392 1
+a392 1
+18 127
+d394 288
+a681 1
+19 127
+@
+

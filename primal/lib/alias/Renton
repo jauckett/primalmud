@@ -1,0 +1,12 @@
+gac get all corpse
+ds get skin bac;drink skin;put skin bac
+em get meat bac;eat meat
+sg cast 'shocking grasp'$*
+infra cast 'infravision'$*
+invis cast 'invisibility'$*
+cl cast 'cure light' $*
+wa wear all
+cure light cl
+ta take all corpse
+pb put $* bac
+h tel uther heal

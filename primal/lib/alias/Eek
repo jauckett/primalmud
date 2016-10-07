@@ -1,0 +1,37 @@
+c4 cast 'cure critic' $1
+gac get all all.corpse; get all.corpse; junk all.corpse
+ds get skin backpack; drink skin; put skin backpack
+em get meat backpack; eat meat
+qr get red backpack; q red
+qw get white backpack; q white
+rr recite recall
+eb eat bread
+xb exam backpack
+c2 cast 'cure light' me
+c1 cast 'infravision' me
+ec examine corpse
+ggc get gold corpse
+bp backpack
+psb put sword backpack
+pshb put shield backpack
+gshb get shield backpack
+gsb get sword backpack
+pmb put all.meat backpack
+pbb put bread backpack
+gbb get bread backpack
+gall get all corpse
+xbp exam backpack
+c3 cast 'strength' me
+ghd get hotdog backpack
+ehd eat hotdog
+hw hold wand
+uw use wand me
+bs rem oak; wi dagger; backstab $1; rem dagger; wi oak; k $1;
+c5 cast 'bless' me
+pa put all.potion backpack
+c6 cast 'summon' $1
+w1 wi oak
+w2 get 2000 backpack; wi 2000
+r2 rem 2000; put 2000 backpack
+ss rem oak; get 2000 backpack; wi 2000; bs $1 ; rem 2000; wi oak; k $1;
+gr grats ---=====>>>> $1 <<<<<========-------

@@ -1,0 +1,144 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@weed remo eye;hold weed;use weed self;remo weed;hold eye
+ss c 'sanctuary' self
+set open crate;put all.potion crate;put all.jade crate;drop crate;drop raft;drop blade;drop canoe;put all backpack
+ready take all;wear all.pirate;wear all.ningauble;wear all;hold eye;hold crystal
+ite get potion crate;q potion
+quit quitreally;0
+dec steal gold deckhand
+sai steal gold sailor
+rd get red crate;q red
+hj stand;scan;rest
+rh tell robohelp heal
+wi track wicked
+cit kill citizen
+charm c 'charm person' $*
+dumb remove all.jade;remove all.wooden;remove all.stone;wear all.gold;wear all.cloak;wear boots;hold staff;hold stone;hold 2.stone
+blink emo blinks...
+whites cast 'word of recall'self;s;e;e;e;e;e;e;s;s;e;e;e;s;s;s;e;e;e;n;buy 10 white;put all.white crate
+mask remove sombrero;wear mask
+som remove mask wear sombrero
+rup tell ruprect $*
+9574 n;e;e;s;w;s;e;s;w;w;n
+ness d;s;s;s;w;s;e;e;s;e;e;e;s
+nyrond s;w;w;w;w;w;w;w;w;w;w;w
+brac remove  charm;wear bracelet
+drieland s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s
+rushmoor s;s;e;s;s;s;s;s;s;s;e;e;e;e;s;s;w;w;n;w;w;s;s;s;s;w;w;d;s;e;e;d;s;s;s
+lite c 'lightning bolt' $*
+sanc cast 'sanctuary' $*
+heal cast 'heal' $*
+harm cast 'harm' $*
+recall cast 'word of recall' $*
+sum cast 'summon' $*
+darask2  n;n;n;w;w;n;n;n;n;n
+darask s;w;w;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w
+ta tell abulafia $*
+tk take all
+2g take all.gold 2.corpse
+2 take all 2.corpse
+1g take all.gold corpse
+1 take all corpse
+inf cast 'infravision' self
+re cast 'word of recall' self
+di cast 'detect invisibility' self
+g group
+lc look in crate
+ws wake;stand
+ngods n;w;w;n;n;n
+link emo has lost his link.
+recon emo has reconnected.
+fire cast 'fireball' $*
+loc cast 'locate object' $*
+drain cast 'energy drain' $*
+3 take all 3.corpse
+blind cast 'blindness' $*
+jc junk all.corpse
+lbk look in backpack
+fin c 'finger' $*
+gods s;w;s;s
+t track $*
+back drop crate;drop raft;drop canoe;drop hide;drop bag;put all backpack
+tudor s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+invis c 'invisibility' self
+3g take all.gold 3.corpse
+ior s;s;e;e;s;s;s;s;e;e;e;s;s;s;s;s;s;s;s;s;s;s
+shadowkeep s;s;e;e;e;s;s;s;s;e;e;e;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;e;n;e;n;n;
+rainbowmaze w;w;w;s;e;s;e;n;e;e;s;w;s;e;s;w;w;n;w;w;s;s;e;e;e;u
+rainbow n;e;e;e;open wall;n;u;w;w;w;w;s;s;s;s;e;e;e;e;n;n;n;n;u;w
+warrior e;u;e;e;e;open wall;n;close door;get white crate;q white
+home n;n;w;w;w;n;n;w;w;w;w;w;w;n
+bb s;e;e;e;e;e;e;s;s;e;e;e;s;s
+qu c 'earthquake' $*
+cass tell cassandra $*
+rec c 'word of recall' self;s;e;e;e;e;e;e;s;s;e;e;e;e;s;remove blade;sleep
+cc cast 'cure critic' $*
+de cast 'dispel evil' $*
+a assist cerebus
+tele c 'teleport' self
+lcit look at citizen
+h hide
+smart remove all.cloak;remove all.ring;remove all.stone;remove staff;get all.wooden crate;get all.jade crate;get stone crate;wear all;hold stone
+tt cast 'teleport' $*
+st remove blade;wield dagger;backstab;remove dagger;wield blade
+ship n;e;n;n;n;n;n;n;go ship
+scn scan
+gg go gangway;get white crate;q white
+enf steal gold enfan
+kenf kill enfan
+sta use staff $*
+arm cast 'armor' self
+deck track deckhand
+pir kill pirate
+ps primal scream
+pot get potion crate;q potion
+rebl remove blade
+wic c 'sanctuary' self;primal scream
+he c 'heal' self
+incrate put all.potion crate;put all.jade crate
+call recite recall
+corpse take corpse;junk corpse
+gri tell grimthefriendly $*
+f flee
+bucc kill buccaneer
+k kick
+wb wield sword
+powder pick chest;open chest;get bag chest;get all.amulet chest
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

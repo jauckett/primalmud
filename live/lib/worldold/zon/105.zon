@@ -1,0 +1,199 @@
+#105 1
+An Odd House~
+10720 70 1 8193
+
+*Mobiles*
+
+*Front Yard - 10501-506*
+M 0 10506 2 10504       *Ants in front yard*
+M 0 10518 6 10503       *Bees in front yard*
+E 1 10510 20 16         *Stinger as a weapon
+M 0 10531 1 10502       *Cat in front yard*
+
+*Inside the house - 10507-509*
+M 0 10533 1 10509       *Cat in house*
+
+*The lounge room - 10511-518*
+M 0 10534 1 10517       *Cat on the couch*
+M 0 10505 1 10517       *Couch potatoe*
+
+*The window sill - 10512-513*
+M 0 10532 1 10512       *Vine at windows*
+G 1 10503 20            *Rose seed*
+
+*Paper tower - 10522,10525-529
+M 0 10525 2 10529       *book worm in tower*
+M 0 10525 2 10527       *book worms in tower*
+M 0 10526 2 10522       *paper mite in tower*
+M 0 10526 2 10526       *paper mite in tower*
+
+*Backyard - 10533-539, 10552-555*
+M 0 10530 1 10530       *Don Bourke*
+E 1 10513 20 16         *chain saw*
+M 0 10508 3 10539	*killer tomatoes*
+
+*Tomato Plantation - 10540-42
+M 0 10504 3 10540       *tomatoes*
+M 0 10504 3 10541
+M 0 10508 3 10542       *killer tomatoes*
+
+*Wild Beans - 10543-545*
+M 0 10508 3 10545	*killer tomatoes*
+M 0 10504 3 10545	*tomatoes*
+
+*Killer Bees - 10584-585*
+M 0 10521 6 10584       *Small killer Bees*
+M 0 10522 4 10585       *Medium killer bees*
+
+*Bee Hive top tier - 10668-676*
+M 0 10520 1 10676       *Queen Bee*
+E 1 10511 20 16                 *qbstinger weapon*
+M 0 10519 6 10676       *Drone protection queen*
+M 0 10519 6 10676
+M 0 10524 1 10675	*Queen killer bee*
+E 1 10511 20 16			*qbstinger weapon*
+G 1 10515 1			*royal jelly*
+M 0 10523 2 10675	*qkb protectors*
+M 0 10523 2 10675	*qkb protectors*
+*Bee Hive Middle Tier - 10660-667*
+M 0 10522 4 10663       *Medium Killer Bee*
+E 1 10517 20 5                  *wings on the bee*
+
+*Bee Hive Bottom Tier - 10652-659*
+M 0 10519 6 10657       *Drone bee*
+M 0 10519 6 10659	*Drone Bee*
+G 1 10517 20 5                  *wings on the bee*
+
+*Chicken House*
+M 0 10503 1 10579       *rooster*
+M 0 10535 1 10580       *half dead rooster*
+M 0 10502 4 10577       *brown chicken*
+M 0 10502 4 10552       *brown chicken*
+M 0 10539 1 10581
+G 1 10509 1
+M 0 10540 1 10581
+
+*Ferret Run - 10708-712*
+M 0 10515 3 10709       *creamy ferret*
+M 0 10516 3 10712       *black ferret*
+M 0 10517 3 10707       *mottley ferret*
+M 0 10515 3 10708	*creamy ferret*
+M 0 10516 3 10710	*black ferret*
+M 0 10517 3 10710	*mottley ferret*
+M 0 10515 3 10711	*creamy ferret*
+M 0 10516 3 10711	*black ferret*
+
+*Rabbit warren - 10688-696*
+M 0 10527 3 10688       *cute bunny*
+M 0 10528 3 10696       *a wascally*
+G 1 10505 20            *rabbit foot*
+M 0 10529 2 10692       *the hare*
+
+*carport - 10570-76*
+M 0 10517 3 10572       *mottley ferret*
+G 1 10502 20            *garden gloves*
+M 0 10541 1 10574	*tim taylor*
+O 0 10518 20 10573      *motor bike chain*
+
+*the shed - 10586-91*
+O 0 10518 20 10590      *motor bike chain*
+O 0 10516 20 10589      *pool cue*
+
+*the cupboard - 10593-94*
+O 0 10501 50 10594      *gumboots*
+M 0 10509 4 10593       *soldier Ant*
+
+*carrot patch 10564-65*
+M 0 10528 3 10564       *wascally wabbit*  
+G 1 10505 20            *rabbit foot*
+M 0 10514 4 10564       *carrot*
+M 0 10514 4 10565       *carrot*
+
+*zuchini patch 10567-66*
+M 0 10507 3 10567       *zucchini*
+M 0 10507 3 10566       *zucchini*
+
+*pumpkin patch 10568-69*
+M 0 10510 3 10568
+M 0 10510 3 10569       *jack-o-lantern*
+E 1 10512 20 0          *jack-o-lantern lantern*
+
+*the corn 10556-58*
+M 0 10513 3 10557
+M 0 10513 3 10556
+M 0 10513 3 10558       *corn kernal*
+
+*grape vine 10559-61*
+M 0 10511 3 10559
+M 0 10511 3 10560       *grape vine*
+M 0 10511 3 10561
+G 1 10504 20            *rose thorn*
+
+*underground jungle - 10703-706*
+M 0 10512 6 10702       *root*
+M 0 10512 6 10705       *root*
+M 0 10537 6 10703
+M 0 10536 6 10703
+M 0 10512 6 10703
+M 0 10536 6 10704
+M 0 10512 6 10704
+M 0 10537 6 10704
+M 0 10537 6 10705
+M 0 10536 6 10705	
+G 1 10506 20            *blackberry thorn*
+
+*worm tunnel - 10678-686*
+M 0 10509 6 10678
+M 0 10509 6 10679
+M 0 10509 6 10680
+M 0 10509 6 10685       *soldier ant*
+M 0 10509 6 10686       *soldier ant*
+M 0 10509 6 10682       *soldier ant*
+M 0 10506 6 10681       *ant*
+M 0 10538 3 10679
+M 0 10538 3 10580
+
+*Vegie patch 2 - 10551-546
+M 0 10513 3 10550
+M 0 10510 3 10546
+M 0 10512 6 10548
+M 0 10536 6 10549
+M 0 10538 3 10548
+
+* Doors *
+D 0 10501 2 1
+D 0 10506 0 1
+D 0 10507 2 1
+D 0 10509 0 1
+D 0 10510 2 1
+D 0 10510 3 1
+D 0 10518 1 1
+D 0 10524 0 1
+D 0 10530 2 1
+D 0 10589 0 1
+D 0 10593 2 1 
+D 0 10585 4 1
+D 0 10652 5 1
+D 0 10659 4 1
+D 0 10660 5 1
+D 0 10667 4 1
+D 0 10668 5 1
+D 0 10676 3 1 
+D 0 10675 1 1
+D 0 10675 5 1
+D 0 10586 4 1
+D 0 10562 5 1
+D 0 10677 4 1
+D 0 10700 2 1
+D 0 10701 0 1
+D 0 10707 4 1
+D 0 10712 4 1
+D 0 10570 5 1
+D 0 10577 5 1
+D 0 10593 2 1
+D 0 10589 0 1
+
+* NO more Doors *
+S
+#99999
+$~

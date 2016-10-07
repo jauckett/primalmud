@@ -1,0 +1,106 @@
+tav s;e;e;e;e;e;e;s;sl
+bn tr banshee
+b2 e;e;e;e;e;s;s;e;s;s;e
+ggc. get gold all.corpse;sav
+sw2 rem dagger;wi hammer
+sw1 rem hammer;wi dagger
+qb q blue
+b3 n;e;e;n;n;e;e;
+b1 u;s;s;s;s;s;e;e;e;
+refr c 'refresh'
+bp back priest
+tp3 tr 3.pantathian
+tp2 tr 2.pantathian
+tp tr pantathian
+cfr c 'fear' $*
+bo tr bone
+rec c 'word of recall'
+ggc get gold all.corpse;sav
+gac. get all all.corpse;save
+gac get all corpse;sav
+th trac thief
+d1 w;w;w;n;w;w;n;n
+rin rem all.ring;wear 3.ring;wear 3.ring
+gl3 s;d;u;u;s;e;w;e;e
+gl4 s;s;u;s;u;u;u;u
+gl5 u;u;s;w;s;u;u;u
+gl6  u;u;u;u;u
+cor n;n;n;w;w;s;s;w;w;w;w;w;s
+quitreally j key;j key;j key; quitreally
+gl2 e;s;w;u;s;e;e;s
+gl1 w;s;d;s;w;u;u;u
+ggar u;n;e;e;e;e;s
+gch e;s;w;w;w;s;s;e;n
+gf1 d;s;s;s;w;s;e
+g4 e;e;e;e;e;e;e;e;e;n;e;n
+5m s;e;e;n
+4m s;s;s;e;e;s;s;s
+3m e;e;n;n;e;s;s;e
+2m e;e;e;e;e;s;s;e;n
+1m u;s;s;s;s;s;e;e;e;e
+m1g w;w;w;w;n;n;n;w
+m1 tel gor are u dressed properly?
+d2 n;w;w;n;n;n;n;n
+m2 s;w;n;w;w;n;n;e
+m3 e;e;e;e;n;e;e;e
+m4 e;s;e;u;u;u
+tg2 trac 2.gargoyle
+tww trac warrior
+dag remove sword;wield dagger
+sw remove dagger;wield sword
+tm trac marilith
+ab assist brett
+bg back guard
+cpt track captain
+tw2 track 2.warrior
+bos trac bosun
+ts2 track 2.shadowen
+prbp p all.red backpack
+bb back buccaneer
+gabp g all backpack
+trl trac lookout
+van c 'invisibility'
+tw5 track 5.wicked
+chn c 'heal' nik
+cde c 'dispel evil'
+dgs c 'dispel good' saint
+cfs c 'fireball' saint
+r3 q red; q red; q red
+cfm c 'fireball' mercury
+grt grats .  *Hip!*;grats .  **HIP!!**;grats .  ***HOORAY!!!***
+g3 s;e;e;s;s;s;s;s;s;s;s;s;s;s
+g2 n;w;s;s;s;s;e;e;s;s;
+ko kill orc
+fb fart; burp;bow;cac
+cd c 'energy drain' $*
+kt kill traveller
+km k merchant
+ce c 'earthquake'
+fi c 'fireball' $*
+ci c 'infravision'
+qr quaff red
+dsk drink skin
+qw q white
+g1 n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;
+invi c 'invisibility'
+gab get all bag
+ws wake;stand
+cc c 'heal'
+ca c 'armor'
+fd c 'finger of death' $*
+gabp2 get all 2.backpack
+ah c 'advanced heal'
+wic tr wicked
+rs recite recall
+cf c 'create food'
+cfe c 'create food';eat mushroom
+ct c 'teleport'
+sbp steal blue priest
+uw use wand bone;use wand bone;use wand bone
+horn rem wand;grab horn
+san tr sandworm
+cap tr captain
+vote Gos Good Ole Robo! Vote YES Robohelp!
+tg tra ghoul
+tb tr 2.brigand
+tl tr lich

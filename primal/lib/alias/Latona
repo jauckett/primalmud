@@ -1,0 +1,64 @@
+7 ungroup; down
+9 cast 'divine heal' self; cast 'divine heal' mephysto; cast 'divine heal' polgara
+cor get corpse; junk corpse; get corpse; junk corpse; get corpse; junk corpse
+sl cast 'sense life' $*
+4 follow self; group all
+hrun1 d;e; go med
+hrun n;n;w;w;w;s; go stage; e;e;e;e;u
+3 q prot
+z tell severian $*
+an cast 'animate dead' $*
+dg cast 'dimensional gate' $*
+kana e;e;e;e;s;s;e;unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e;unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+is s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+sk cast 'stoneskin' $*
+fs cast 'fire shield' $*
+dh cast 'divine heal' $*
+id cast 'identify' $*
+da1 cast 'detect invis' clone; cast 'detect invis' 2.clone; cast 'infra' clone; cast 'infra' 2.clone
+dp cast 'divine protection' $*
+wb cast 'waterbreath' $*
+clone cast 'clone'
+main n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;s;s
+rc cast 'remove curse' $*
+pb buy 5 prot
+gf get force force
+ha cast 'holy aid' $*
+ww cast 'whirlwind' $*
+slp cast 'sleep' $*
+san cast 'sanct' $*
+has cast 'haste' $*
+da cast 'detect align' $*
+sp cast 'spirit armor' $*
+dra cast 'dragon' $*
+sli cast 'sense life' $*
+lb cast 'lightning bolt' $*
+di cast 'detect invis' $*
+inv cast 'invi' $*
+wake wake; stand; l
+infra cast 'infra' $*
+trhit train hit; train hit; train hit; train hit; train hit
+home cast 'word' 
+gra grats &R-------> $1 <-------&n &YFor reaching Level &f$2&n
+ah cast 'advanced heal' $*
+ord order follow kill $1; kill $1
+clo group all; cast 'group san'; cast 'group arm'; ungroup
+para cast 'para' $*
+rf cast 'refresh' $*
+lo cast 'locate object' $*
+tp cast 'teleport' $*
+nh cast 'nohassle' $*
+ser order clone serve; order clone serve
+spe cast 'detect invis' self; cast 'detect align' self; cast 'dragon' self; cast 'sense life' self; cast 'invis' self; cast 'nohassle' self
+spell cast 'infra' self; cast 'stoneskin' self; cast 'fire shield' self; cast 'divine protection' self; cast 'haste' self; q prot; sneak
+spellup cast 'holy aid' self
+lvl4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+bh buy 50 heal; put all.heal tool
+2 get heal tool; get heal tool; get heal tool; get heal tool; quaff heal; quaff heal; quaff heal; quaff heal
+anim cast 'animate' corpse;cast 'animate' corpse;group all
+cd cast 'clone';cast 'clone';order followers die
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+gsan cast 'group sanc'
+sum cast 'summon' $*
+5 follow mephysto; auto; auto mephysto
+getd wear black bod; hold jack; hold drill; wield cannon; wear all

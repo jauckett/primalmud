@@ -1,0 +1,187 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@house2 get whip;get shield;get boots;get pen;wear all;hold pen;hold crystal;wield whip;drop all;
+7 at 2261 ba king
+8 at 2261 get corpse
+2 at 1886 get corpse
+1 at 1886 backstab xaran
+5 at corpse get corpse
+/// / #69 $*
+house5 rem jade;drop jade;drop cloak;wear all;
+house4 get atlas;put atlas crate;close crate;get dagger;get canoe;get eye; who
+house3 get crate;get whip;wield whip;open crate;get all.potion;get all.scroll;put all.potion crate;put all.scroll crate;
+6 train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;
+2h cast 'advance heal' self; cast 'advance heal' self;
+ss cast 'serpent skin' $*
+3 train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+cry e;e;e;e;e;n;n;n;n;n;
+gcoi get all.coins all.corpse
+des2 e;e;e;e;n;e;e;e;e;s;e;u;u;u;u;
+des1 n;n;n;n;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;
+go_wer1_des n;n;n;n;w;w;
+go_wer1_dar n;n;n;n;n
+wer1 n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;
+clo cast 'clone' $*
+hut1 s;u;u;e;u;s;d;d;s;s;s;s;s;s;s;s;s;s;
+hut2 s;s;s;s;s;s;u;s;d;d;d;d;s;e;e;s;d;d;d;d;d;
+jcor get corpse;junk corpse
+dp cast 'detect poison' $*
+dm cast 'detect magic' $*
+ah cast 'advanced heal' $*
+dg cast 'dimensional gate' $*
+9 ord zombie $*
+e3 emote forces a shot of Tequila down$* throat.
+fd cast 'finger' $*
+e5 emote singing 'Fighting evil by moonlight, winning love by daylight, I'm the one ...
+g1 grat 0=={+:::::::>$* <:::::::+}==0
+light1 rem pen;hold crystal;
+light rem crystal;hold pen;
+boots rem boots;wear 2.boots
+shield rem shield;wear 2.shield
+atlas open crate;get atlas crate;read atlas;put atlas crate;close crate;
+ps primal scream $*
+sl cast 'sense life' $*
+lo cast 'locate object' $*
+fea cast 'fear' $*
+ew cast 'enchant weapon' $*
+cp cast 'charm person' $*
+wat cast 'waterwalk' $*
+hea cast 'heal' $*
+cl cast 'cure light' $*
+re cast 'word of recall' $*
+ref cast 'refresh' $*
+har cast 'harm' $*
+arm cast 'armor' $*
+rec cast 'word of recall' $*
+mm cast 'magic missile' $*
+ed cast 'energy drain' $*
+tel cast 'teleport' $*
+quit1 drop all;rem all;drop all;rem all;drop all;gos l8r all;quitreally;
+cc cast 'cure critic' $*
+qt open crate;get thick crate;close crate;quaff thick;
+inf cast 'infravision' $*
+str cast 'strength' $*
+gonig2 w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;
+gonig n;n;n;w;w;s;s;w;w;w;w;
+ho s;w;w;n;n;w;w;w;w;d;
+enc cast 'enchant weapon' $*
+gotre n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;
+tav u;e;e;e;e;s;s;e;e;e;e;s;
+e1 emote slams a thunderous high5 with$*
+loc cast 'locate object' $*
+san cast 'sanctuary' $*
+mush cast 'create food';eat mushroom
+meat open crate;get mushroom crate;close crate;eat mushroom
+id open crate;get identify crate;close crate;recite identify $*
+qo open crate;get orange crate;close crate;quaff orange
+qy open crate;get yellow crate;close crate;quaff yellow
+qr open crate;get red crate;close crate;quaff red
+qw open crate;get white crate;close crate;quaff white
+recall open crate;get recall crate;close crate;recite recall
+skin open crate;get skin crate;drink skin;put skin crate;close crate
+gc open crate;get $* crate;close crate
+pc open crate;put $* crate;close crate
+ec open crate;exa crate;close crate
+ge get all all.corpse
+sum cast 'summon' $*
+qb open crate;get blue crate;close crate;quaff blue
+cf cast 'create food'
+blood open crate;get blood crate;close crate;quaff blood;
+cha cast 'charm person' $*
+ord order $*
+fir cast 'fireball' $*
+gotre2 s;s;e;s;s;s;s;s;e;track treant;
+gotre3 e;e;n;n;
+gotre4 s;s;s;s;e;e;e;e;n;n;track treant
+heal cast 'heal' $*
+e2 emote takes out two shot glasses.  He pours himself one and pours a shot for $*.  That's real good.
+goship n;e;n;n;n;n;n;n;
+gosha1 n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+gosha2 e;e;e;e;e;e;e;e;e;e;n;e;n;
+gosha3 n;n;n;w;w;s;
+goalc n;w;s;s;s;e;e;e;n;buy 7 white;put all.white crate;s;w;w;w;n;n;n;e;s;sleep
+inv cast 'invisibility' $*
+di cast 'detect invisibility' $*
+wtav s;s;s;s;s;s;w;s;
+ble cast 'bless' $*
+sle emote utters the mystical words 'drofwarc ydnic'.  Suddenly, Cindy Crawford appears.  They cuddle under a blanket;sle
+ad cast 'animate dead' $*
+res cast 'rescue' $*
+bli cast 'blindness' $*
+rp cast 'remove poison' $*
+horn rem horn;rem cloner;hold cloner;rem cloner;hold cloner;rem cloner;hold horn
+dri1 n;n;n;w;w;s;s;w;w;w;w;w;s;d;s;
+dri2 s;s;w;s;e;e;s;w;w;w;s;s;e;
+dri3 n;u;n;e;e;e;e;s;
+da cast 'detect alignment' $*
+fly cast 'fly' $*
+sleep cast 'sleep' $*
+sla get silver crate;rem whip;wield silver;slay $*;rem silver;wield whip;put silver crate;
+spi1 n;w;s;s;s;e;e;e;e;open gate;e;e;e;e;s;e;e;s;e;e;e
+spi2 s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;s;s;w;w;w;w;w;w
+spi3 u;u;u;w;w;d;s;s;d;d;d;e;e;e;e;e;s;e;s;d;e;e;e;e;
+spi4 s;s;s;s;s;e;e;open rock;d;
+2ah cast 'advance heal' self;cast 'advance heal' self
+spi5 w;w;w;w;w;w;w;w;w;d;
+aclo order followers assist delusion
+spi6 s;s;s;s;s;s;d;e;e;e;e;
+spi7 e;e;e;e;e;d;w;w;w;w;w;w;w;w;w;
+hol1 holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+ck cast 'cloud kill' $*
+spi cast 'clone';cast 'clone';cast 'clone';cast 'detect invisibility' clone;cast 'detect invisibility 2.clone';
+spi0 cast 'infravision' clone;cast 'infravision' 2.clone;group all;aff;
+kclo cast 'fireball' clone;cast 'fireball' 2.clone;cast 'fireball' clone;cast 'fireball' 2.clone;
+tabig tag bigbert
+tamis tag misty
+tagno tag gnol
+tawas tag waserns
+taate tag ate
+tamia tag miao
+sal1 gossip <== *Salutes* $*
+// / #68 $*
+///// / #70 $*
+house1 get all.crystal;get all.bracelet;get all.diamond;get all.cloak;get all.lord;get claws;get dagger;wear all;
+club1 n;w;s;s;u;u;
+club2 d;d;n;n;e;s;
+bs rem whip;wield dagger;ba $*;rem dagger;wield whip;
+house0 s;s;s;s;cast 'detect invisibility' self; who;
+pfe cast 'protection from evil' $*
+gogod1 n;w;s;s;s;s;e;e;s;s;s;e;e;
+gogod2 s;s;s;s;s;s;s;s;s;s;s;
+gogod3 w;w;w;w;w;w;w;s;e;n;s;
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

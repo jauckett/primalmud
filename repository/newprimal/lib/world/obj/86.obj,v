@@ -1,0 +1,477 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.01.25.03.35.29;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.45;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@#8600
+ring pirates pirate~
+a pirate's ring~
+A pirate's ring has been dropped here.~
+~
+9 2560 3 0
+3 0 0 0
+3 36000 4000 20
+L 20
+E
+a pirate's ring~
+A shinning gold band of pure gold with the largest red stone
+protruding from the top.
+~
+A
+14 10
+A
+12 20
+#8602
+cutlass~
+a cutlass~
+A pirate's cutlass has been left here~
+~
+5 2560 8193 0
+0 3 10 3
+10 45000 18942 25
+L 25
+E
+a cutlass~
+A sharp glistening blade that looks so deadly it would kill
+enemies with one swoop.
+~
+A
+13 1
+A
+19 3
+A
+12 -25
+#8603
+belt captain~
+captain Rum's belt~
+Captain Rum's belt has been left here.~
+~
+9 2560 2049 0
+4 0 0 0
+9 36000 3600 30
+L 30
+E
+captain Rum's belt~
+The jewel encrusted belt of the late Captain Rum, a worthy treasure
+that is much sort after.
+~
+A
+1 2
+A
+4 -2
+A
+13 20
+#8604
+captains cape~
+a captains cape~
+A captain's cape has been left here.~
+~
+9 2561 5 0
+3 0 0 0
+10 12000 1200 30
+L 30
+E
+a captains cape~
+A bright red and orange cape with many small tears in it.
+~
+A
+13 20
+A
+3 -2
+A
+18 1
+#8605
+flag pirates~
+a pirates flag~
+A pirates flag has been left here.~
+~
+4 1 1 0
+20 5 5 36
+4 18000 2000 10
+L 10
+E
+a pirates flag~
+A bright red,green and orange piece of sheeting.
+~
+#8606
+whisky bottle~
+a bottle of whisky~
+A bottle of whisky has been dropped here.~
+~
+17 0 1 0
+2 2 5 0
+2 20 2 0
+L 0
+E
+a bottle of whisky~
+Some amber liquid.
+~
+#8607
+knife dagger~
+a nasty looking knife~
+A nasty looking knife has been left here.~
+~
+5 2560 8193 0
+0 10 3 11
+5 14910 2982 25
+L 25
+E
+a nasty looking knife~
+A small thin blade with the sharpest tipped edges.
+~
+A
+13 1
+A
+19 2
+A
+12 -15
+#8608
+skull glowing~
+a glowing skull~
+An evil looking skull is here.~
+~
+1 2561 16385 0
+2 0 -1 0
+6 54000 6000 30
+L 30
+E
+a glowing skull~
+Large empty sockets and a wicked grinning mouth stare back at you.
+~
+A
+12 30
+A
+13 -3
+A
+17 -3
+#8609
+key small brass~
+a small brass key~
+A small brass key has been left here.~
+~
+18 65540 1 0
+1 0 0 0
+1 10 1 0
+L 0
+E
+a small brass key~
+Long brass item that must open something ! 
+~
+#8610
+chest treasure~
+a small treasure chest~
+A small treasure chest has been left here.~
+~
+15 0 1 0
+10 15 8609 0
+20 10000 1000 15
+L 15
+#8611
+key skeleton~
+a skeleton key~
+A skeleton key has been dropped here.~
+~
+18 4 1 0
+1 0 0 0
+1 1 1 0
+L 0
+E
+A skeleton key~
+A long boned object with a small rats skull at the top.
+~
+#8612
+shirt ragged~
+a ragged shirt~
+A ragged shirt has been dumped here.~
+~
+9 0 9 0
+3 0 0 0
+5 1500 150 10
+L 10
+E
+A ragged shirt~
+A pile of red cloth. 
+~
+A
+12 10
+A
+13 -1
+#8613
+pants baggy~
+a pair of baggy pants~
+A pair of baggy pants has been dropped here.~
+~
+9 0 33 0
+3 0 0 0
+5 3000 300 19
+L 19
+E
+A pair of baggy pants~
+A pile of dirt cloth covered in salt from the ocean.
+~
+A
+12 19
+A
+13 -2
+#8614
+brass knuckles~
+a pair of brass knuckles~
+A pair of brass knuckles has been dropped here.~
+~
+9 1536 129 0
+3 0 0 0
+8 4000 400 25
+L 25
+A
+13 3
+A
+19 3
+A
+12 -10
+#8615
+ship~
+the Pirate's ship~
+The Pirate's ship is tied up alongside the wharf here.~
+~
+41 0 0 0
+8669 0 0 0
+11 1 1 0
+L 0
+#8616
+plank gangway~
+a gangway~
+A gangway is here leading down to the jetty.~
+~
+41 0 0 0
+8690 0 0 0
+11 0 1 0
+L 0
+#8617
+ship~
+the Pirate's ship~
+The Pirate's ship is tied up alongside the wharf here.~
+~
+41 0 0 0
+8629 0 0 0
+0 0 1 0
+L 0
+#8618
+plank gangway~
+a gangway~
+A gangway is here leading down to the jetty.~
+~
+41 0 0 0
+8854 0 0 0
+11 0 1 0
+L 0
+$~
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+9 2560 3
+d8 2
+a9 1
+3 40000 4000
+a18 1
+L 20
+d24 1
+a24 1
+5 2560 8193
+d26 2
+a27 1
+10 94710 18942
+d36 1
+a36 1
+19 6
+a38 1
+L 25
+d44 1
+a44 1
+9 2560 2049
+d46 2
+a47 1
+9 36000 3600
+a58 1
+L 30
+d64 1
+a64 1
+9 2561 5
+d66 2
+a67 1
+10 12000 1200
+a77 1
+L 30
+d83 1
+a83 1
+4 1 1
+d85 2
+a86 1
+4 20000 2000
+a90 1
+L 10
+d96 1
+a96 1
+17 0 1
+d98 2
+a99 1
+2 20 2
+a103 1
+L 0
+d109 1
+a109 1
+5 2560 8193
+d111 2
+a112 1
+5 14910 2982
+a122 1
+L 25
+d128 1
+a128 1
+1 2561 16385
+d130 2
+a131 1
+6 60000 6000
+d137 1
+a137 1
+12 50
+a141 1
+L 30
+d147 1
+a147 1
+18 65540 1
+d149 2
+a150 1
+1 10 1
+a154 1
+L 0
+d157 1
+a157 1
+A small treasure chest~
+d160 1
+a160 1
+15 0 1
+d162 2
+a163 2
+20 10000 1000
+L 0
+d166 1
+a166 1
+A skeleton key~
+d169 1
+a169 1
+18 4 1
+d171 2
+a172 1
+1 1 1
+a176 1
+L 0
+d179 1
+a179 1
+A ragged shirt~
+d182 1
+a182 1
+9 0 9
+d184 2
+a185 1
+5 1500 150
+a193 1
+L 10
+d196 1
+a196 1
+A pair of baggy pants~
+d199 1
+a199 1
+9 0 33
+d201 2
+a202 1
+5 3000 300
+d208 1
+a208 1
+12 25
+a210 1
+L 10
+d213 1
+a213 1
+A pair of brass knuckles~
+d216 1
+a216 1
+9 1536 129
+d218 2
+a219 1
+8 4000 400
+a225 1
+L 25
+d228 1
+a228 1
+The Pirate's ship~
+d231 1
+a231 1
+41 0 0
+d233 1
+a233 1
+5000 1000000 1
+d237 1
+a237 1
+A gangway~
+d240 1
+a240 1
+41 0 0
+d242 1
+a242 1
+5000 1000000 1
+d246 1
+a246 1
+The Pirate's ship~
+d249 1
+a249 1
+41 0 0
+d251 1
+a251 1
+5000 1000000 1
+d255 1
+a255 1
+A gangway~
+d258 1
+a258 1
+41 0 0
+d260 1
+a260 1
+5000 1000000 1
+a261 1
+#99999
+@
+

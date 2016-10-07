@@ -1,0 +1,20 @@
+bb ba worker
+tim assist timmy
+start s ; s ; s ; s ; wear all
+ff ba merchant
+mm cast 'magic missile' $1
+ba backstab $1
+pt puke on timmy
+bh cast 'burning hands' $1
+cas cast 'cure light'
+gc get all corpse
+dr get skin from backpack ; cast 'create water' on skin ; drink skin ; put skin in backpack
+fud_me get meat from backpack ; eat meat
+ww cast 'create food' ; eat mushroom
+gfd ba trickster
+sw save 
+be ba traveller
+aa ba merchant
+bo sell leather
+fa bh merchant
+fg j yellow

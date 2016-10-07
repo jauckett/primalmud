@@ -1,0 +1,62 @@
+t track  mars
+h cast 'heal'  porcelina
+sanx cast 'sanctuary' $*
+0 cast 'cure critical' $*
+cl cast 'call lightning' $*
+a assist  ruprect
+scr emote scratches his head in deep thought.
+wr cast 'word of recall' $*
+lo cast 'locate object' $*
+homex e;s;e;e;e;e;s
+strx cast 'strength' $*
+home n;w;w;w;w;n;w
+q steal coins  citizen
+innx n;e;s;s;s
+inn n;n;n;w;s
+tavernx n;w;s;s;s
+tavern n;n;n;e;s
+alchem e;e;e;n
+alchemx s;w;w;w
+cp cast 'charm person' $*
+str cast 'strength' camber
+rrb buy 10 red;put all.red backpack
+rr get red backpack;qu red;get red backpack;qu red;get red backpack;qu red;get red backpack;qu red;get red backpack;qu red
+hh alias h cast 'heal' $*;cast 'heal' $*
+wa wake;stand
+res rescue $*
+aa alias a assist $*;assist $*
+6 cast 'heal' camber
+wh get white backpack;q white
+re cast 'word of recall' camber
+invis cast 'invisibility' camber
+r get red backpack;get red backpack;get red backpack;get red backpack;q red;q red;q red;q red
+7 cast 'advanced heal' camber
+1 get all from all.corpse
+tt alias t track $*;track $*
+sum cast 'summon' $*
+sk get skin backpack;drink skin;put skin backpack
+9 cast 'create food';cast 'create food';eat mushroom;eat mushroom
+dt cast 'detect invisibility'
+infra cast 'infravision
+fb cast 'fireball' $*
+san cast 'sanctuary' camber
+te cast 'teleport'
+kk alias k kill $*;kill $*
+11 get coins all.corpse
+cw get skin backpack;cast 'create water' skin;put skin backpack
+bl cast 'blindness' $*
+fe cast 'fear' $*
+id buy identify;recite identify $*
+5 rem blade;wield dagger;backstab $*;rem dagger;wield blade
+b1 exam backpack
+b2 exam 2.backpack
+b3 exam 3.backpack
+g1 get backpack
+g2 get 2.backpack
+g3 get 3.backpack
+c1 exam crate
+gh cast 'group heal'
+k kill  jelly
+ha cast 'harm' $*
+we cast 'control weather' $*
+qq s;s;s;s;e;murder warder

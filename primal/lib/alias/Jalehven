@@ -1,0 +1,12 @@
+bs remove sword;wield soaker;backstab $1;remove soaker;wield sword
+heal cast 'heal' $1
+cure cast 'cure light'
+skin cast 'create water' skin
+mush cast 'create food'
+gafc get all from all.corpse
+gac get all corpse
+atl junk all.atl
+blind cast 'blind' $1
+invis cast 'invis' $1
+sanc cast 'sanc' $1
+bless cast 'bless' $1

@@ -1,0 +1,45 @@
+#!/bin/sh
+
+# Written by Michael Dishon, September 1999.
+
+# email_log: called from execute_script in utils.c
+# emails ADMIN with the given subject
+
+ADMIN="deadinside@karmy.org talis123@yahoo.com"
+ATTACH=0
+DATE=`date`
+ATTACHMENT=""
+SYSLOG="/home/primal/primal/log/syslog.6"
+SERVER_NAME="primal.alphalink.com.au"
+
+# Process the arguments
+while getopts a:s: flag ; do
+  case $flag in
+    a) ATTACH=1 ; ATTACHMENT="$OPTARG" ;;
+    s) SUBJECT="$OPTARG" ;;
+  esac
+done
+
+shift `expr "$OPTIND" - 1`
+
+# Exit script unless on proper server
+if [ $HOSTNAME != $SERVER_NAME ] ; then
+  echo "Proper server name not detected, Exiting..."
+  exit 1
+fi
+
+if [ $ATTACH -eq 1 ] ; then
+  SUBJECT="$SUBJECT:$DATE"
+  mailx -s "$SUBJECT" "$ADMIN" < "$ATTACHMENT"
+  echo "mailx -s $SUBJECT $ADMIN < $ATTACHMENT"
+else
+  SUBJ=`echo "$SUBJECT" | tr 'A-Z' 'a-z'`
+  SUBJECT="$SUBJECT:$DATE"
+  if [ "$SUBJ" = "primalmud: reboot" ] ; then
+    mailx -s "$SUBJECT" "$ADMIN" < "$SYSLOG"
+    echo "mailx -s $SUBJECT $ADMIN < $SYSLOG"
+  else
+    mailx -s "$SUBJECT" "$ADMIN" 
+    echo "mailx -s $SUBJECT $ADMIN"
+  fi
+fi

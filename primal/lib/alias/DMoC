@@ -1,0 +1,120 @@
+nh cast 'nohassle' self
+spells5 cast 'waterbreath' self; cast 'waterwalk' self; cast 'stoneskin' self
+sd get silver force; remove pulse; wield silver
+remsd remove silver; wield pulse; put silver force
+tele cast 'teleport'
+spells4 cast 'detect invisibility' self; cast 'sense life' self; cast 'detect alignment' self
+spells3 cast 'divine protection' self; cast 'fire shield' self; cast 'invisibility' self
+fs cast 'fire shield'
+remsuit remove suit;wear uniform;put suit force
+suit get suit force;remove uniform;wear suit
+ident cast 'identify' $1
+spells2 cast 'armor' self; cast 'bless' self; cast 'dragon' self
+remsomb remove sombrero; wear jewel; put sombrero force
+somb get sombrero force; remove jewel; wear sombrero;
+recall cast 'word of recall'
+ls cast 'lightning shield'
+haven u;w;s;s;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s
+cr group all; order clones report; ungroup
+curebs cast 'cure blind' $1
+cureb cast 'cure blind' self
+sskins cast 'serpent skin' $1
+sskin cast 'serpent skin' self
+disg cast 'dispel good' $1
+dise cast 'dispel evil' $1
+par cast 'paralyze' $1
+ws get wooden force; remove short; wield wooden
+remws remove wooden; wield short; put wooden force
+erecall get recall force; recite recall
+heal get healing crate; quaff healing
+white get white crate; quaff white
+fillskin get skin force; fill skin fountain; put skin force; drink fountain; drink fountain
+skin get skin force; drink skin; put skin force
+spells cast 'sanctuary' self; cast 'holy aid' self; cast 'spirit armor' self
+dg cast 'dimensional gate' $1
+ww cast 'whirlwind'
+ms cast 'meteor swarm' $1
+cp cast 'charm person' $1
+ha cast 'holy aid' self
+sa cast 'spirit armor' self
+curehs cast 'heal' $1
+cureh cast 'heal' self
+ew cast 'enchant weapon' $1
+recalls get recall crate;recite recall
+tonics put all.healing crate
+curecs cast 'cure critic' $1
+curec cast 'cure critic' dmoc
+ed cast 'energy drain' $1
+sancs cast 'sanctuary' $1
+sanc cast 'sanctuary' dmoc
+fb cast 'fireball' $1
+bles cast 'bless' $1
+ble cast 'bless' dmoc
+ggc get gold corpse
+curels cast 'cure light' $1
+curel cast 'cure light' dmoc
+armors cast 'armor' $1
+armor cast 'armor' dmoc
+lb cast 'lightning bolt' $1
+strs cast 'strength' $1
+str cast 'strength' dmoc
+loc cast 'locate object' $1
+bh cast 'burning hands' $1
+detinvs cast 'detect invisibility' $1
+detinv cast 'detect invisibility' dmoc
+invs cast 'invisibility' $1
+inv cast 'invisibility' dmoc
+ct cast 'chill touch' $1
+mm cast 'magic missile' $1
+gaac get all all.corpse
+gac get all corpse
+summon cast 'summon' $1
+sle cast 'sleep' $1
+cs cast 'color spray' $1
+refresh cast 'refresh' dmoc
+refreshs cast 'refresh' $1
+harm cast 'harm' $1
+food cast 'create food';eat mushroom
+dragon cast 'dragon' dmoc
+infra cast 'infravision' dmoc
+infras cast 'infravision' $1
+pb cast 'plasma blast' $1
+fd cast 'finger of death' $1
+ggac get gold all.corpse
+sl cast 'sense life' self
+da cast 'detect alignment' self
+td tell dream $*
+rp cast 'remove poison' dmoc
+rps cast 'remove poison' $1
+pe cast 'protection from evil' self
+clone cast 'clone' self
+co order clones $*
+ca order clones assist dmoc
+fly cast 'fly' dmoc
+werewolf holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+wake wake; stand; l
+rempar cast 'remove paralysis' self
+rempars cast 'remove paralysis' $1
+tj tell jalehven $*
+waterb cast 'waterbreathe' self
+waterw cast 'waterwalk' self
+waterws cast 'waterwalk' $1
+haste cast 'haste' self
+dp cast 'divine protection' self
+wt cast 'wraith touch' $1
+grat grats &c$1&r!&m!&b!
+orange get orange force;quaff orange
+blind cast 'blindness' $1
+ck cast 'cloud kill'
+bs remove pulse;wield short;backstab $1;remove short;wield pulse
+sphere1 hunt 8.mech
+sphere2 hunt mech
+gate open gate;go gate
+curea cast 'advanced heal' self
+cureas cast 'advanced heal' $1
+cure cast 'divine heal' self
+cures cast 'divine heal' $1
+remlife remove bracelet; get chain force; wear chain; put bracelet force
+life remove chain; get bracelet force; wear bracelet; put chain force
+ss cast 'stoneskin' self
+tudor w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s

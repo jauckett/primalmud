@@ -1,0 +1,1156 @@
+head	1.2;
+access;
+symbols
+	rel1:1.1.1.1 prim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.01.27.15.31.12;	author talisman;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.01.26.14.30.39;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.01.26.14.30.39;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#30000
+soul hunter~
+soul hunter~
+A soul hunter, thief or protector of souls depending on your view, waits for death
+~
+Feared by the Minbari and many of the other alien races the
+Soul Hunters collect the souls of the great at the point of death
+giving them eternal life - or eternal imprisonment, depending
+on your point of view.
+~
+3270657 304314 -300 S
+83 -60 -10 1d1+7200 25d25+85
+255000 1000000
+8 8 1
+#30001
+duncan~
+Duncan~
+An old man in shabby robes, has obviously seen better days.
+~
+Duncan is an old tired man, who looks like he's seen
+better times. Despite this his eyes are merry and his
+ready smile is without any bitterness. 
+~
+3145924 0 270 S
+61 -30 -5 1d1+7510 10d9+70
+10 900000
+6 6 1
+#30002
+drak shimmering beast~
+Drak~
+A shimmering ugly beast stands here.
+~
+Dark allies of the Shadows, the drak are a strange and
+shadowy race seen so little that many think them only
+stories used to frighten small children. But the drak are
+only all to real - and all to deadly.
+~
+3157541 8397994 -800 S
+87 -70 -8 20d60+6000 30d20+60
+110000 900000
+8 8 0
+#30003
+lamate~
+Lamate~
+A vaguely human like alien stares back at you, not speaking to the impure
+~
+The lamate are an advanced civilised race. However they
+have many strange beliefs about who should live and who 
+should die. Oh and don't ask how the conclude any business
+dealings!
+~
+3162112 1193 -50 S
+77 -60 -6 50d10+3500 15d25+52
+43000 365000
+8 8 1
+#30004
+sheridan captain~
+Captain Sheridan~
+Captain Sheridan commands Bablyon 5 with a firm, but fair hand
+~
+Tall, strong and compassionate. All are welcome at Babylon 5
+under Sheridan's command. But beware those who stand against
+the light, for the captain is a brilliant tactian and commander of
+soldiers.
+~
+3406161 8389800 800 S
+95 -75 -8 100d500+16200 30d30+70
+755000 3000000
+8 8 0
+#30005
+franklin dr doctor~
+Franklin~
+Doctor Franklin is in charge of the stations medical facilities
+~
+Dr. Franklin is a strong willed doctor, dedicated to saving all
+life, both human and alien.
+~
+3193091 5176 700 S
+70 -60 -6 100d20+3333 10d13+50
+100000 450000
+8 8 1
+#30006
+ivanova commander~
+Ivanova~
+Commander Ivanova is the stations executive officer
+~
+Commander Ivanova is a Russian and has an acidic tongue
+and pessimistic attitude, but with a never say die will.
+~
+3160385 8651936 350 S
+89 -75 -9 80d40+8800 25d35+75
+190500 920000
+8 8 2
+#30007
+kosh vorlon ambassador~
+Kosh~
+No one knows what Kosh looks like, he's always in his encounter suit
+~
+Ambassador Kosh is an enigma, incredibly powerful and intelligent,
+yet 'it' often seems to talk in riddles. The Ambassador could wipe
+the floor with you without breaking a sweat, so don't push your luck!
+~
+7600497 9016508 3000 S
+120 -100 -13 1d1+30003 100d100+100
+9000000 8000000
+8 8 0
+#30008
+delenn ambassador minbari~
+Delenn~
+Part Minbari, part human ambassador Delenn stands between two worlds
+~
+Ambassador Delenn underwent a startling transformation a couple
+of years ago, using a Triluminari to turn herself part human in order
+to be a bridge between the two former enemies.
+~
+3324257 8389806 450 S
+90 -75 -9 1d1+10500 27d35+75
+300000 925000
+8 8 2
+#30009
+vir Cotto~
+Vir~
+A large centauri looks harried from running too many errands
+~
+Vir Cotto has a harrassed look about him, Ambassador Molari
+has him running errands at all hours of the day and night, many
+he would rather not know about.
+~
+3151936 1152 150 S
+78 -55 -5 50d12+5000 10d25+55
+245000 550000
+8 8 1
+#30010
+londo molari ambassador centauri~
+Londo~
+Ambassador Londo Molari is not very popular right now, after been allied with the Shadows
+~
+Ambassador Molari obtained his position on Bablyon 5 only
+because no else wanted it, but since then has grown in influence
+and power since. Now he is Prime Minister of the Centauri people
+after helping to save them from the Vorlons.
+~
+3148484 8389768 -150 S
+86 -75 -6 45d60+7100 30d17+55
+500000 920000
+8 8 1
+#30011
+draal~
+Draal~
+A tall Minbari stands here, but he looks .. insubstantial
+~
+Draal resides on the planet Epsilon 3 that the Bablyon 5 station
+orbits.  He is in the heart of the great machine on the planet, which
+enables him to 'see' the area of space all around the station and for
+light years in every direction. Before you is a projection of Draal
+insubstantial and glowing.
+~
+3406193 8459454 600 S
+100 -81 -12 1d1+25000 40d40+80
+1000000 4000000
+8 8 1
+#30012
+morden~
+Morden~
+Mr. Morden has some heavy - associates, so watch out!
+~
+Mr. Morden is an associate of the Shadows and not to be
+taken lightly.
+~
+3148321 271496 -1000 S
+75 -60 -4 10d40+4500 10d30+50
+160000 350000
+8 8 1
+#30013
+garibaldi~
+Garibaldi~
+A bald tough paranoid looking man has a haunted look in his eyes.
+~
+Garibaldi was chief of security of Babylon 5, but has never
+been quite the same since he went missing from outside Bablyon 5
+when the Shadows encircled the station.
+~
+3164420 263208 100 S
+84 -75 -10 25d25+7200 25d25+65
+220000 1000000
+8 8 1
+#30014
+g'kar~
+G'Kar~
+A large  Narn, with only one natural eye looks like the sort to avoid if possible
+~
+Ambassador G'Kar looks even more imidating then the average Narn,
+due to only having one natural eye - the other having been removed
+by the Centauri with a blunt instrument.
+~
+3168512 8389820 100 S
+87 -75 -8 10d15+8000 25d26+67
+100000 1100000
+8 8 1
+#30015
+bester~
+Bester~
+One of the hated PSI Corps is standing here
+~
+Bester is a P12 rated PSI Cop - the strongest (known) a human
+telepath can be. He is untrustworthy, deceptive and manipulative
+and dislikes the command staff of Babylon 5, but is not above trying
+to manipulate them for his own ends.
+~
+3288805 8660158 -900 S
+88 -75 -8 1d50+11100 25d28+72
+25000 1165000
+8 8 1
+#30016
+lyta~
+Lyta~
+A tall beautiful red head stands here, ready to scan minds for people
+~
+Lyta was a member of the PSI Corps., a P5 rated telepath - until
+she went to the Vorlon homeworld and was 'changed'. No one
+knows how strong she is now - but stronger then a  PSI Cop.
+~
+3340373 8688828 600 S
+92 -75 -9 10d100+12000 29d29+73
+345000 1280000
+8 8 2
+#30017
+marcus~
+Marcus~
+A rangy ranger, a soldier of light, looks harmless enough, but appearances can be decieving
+~
+Marcus is strong willed, independent and self-reliant. Trained
+on Minbar by the Minbari as a ranger he is a deadly unarmed
+weapon.
+~
+3152164 8656008 750 S
+85 -70 -9 1d1+9600 28d22+67
+170000 1150000
+8 8 1
+#30018
+zak~
+Zak~
+The chief of security Zak Allen, looks over all people passing by with a searching eye
+~
+~
+3151936 1160 400 S
+83 -70 -9 25d25+7300 24d23+65
+180000 980000
+8 8 1
+#30019
+sinclair~
+Sinclair~
+The stations first commander is a man of peace, some say he's more like a minbari then a human
+~
+Commander Sinclair is Ranger One, the leader of the Rangers and
+was Ambassador to Minbar. He has found his direction in life while
+on the Minbari homeworld. He fits in more there then he does amongst
+other humans.
+~
+3283296 8393916 1000 S
+94 -75 -10 100d10+18300 30d30+80
+680000 5000000
+8 8 1
+#30020
+minbari~
+Minbari~
+A humanoid with looking alien with a bone protuding from her head stands quietly here, praying.
+~
+The minbari are a high advanced race divided into three casts - the
+warrior, the holy and the worker cast. They were a people often at
+war amongst themselves until Valen united them a thousand years
+and created the grey council to rule them.
+~
+3151936 1160 800 S
+79 -60 -5 100d80+4000 20d18+65
+5000 695000
+8 8 2
+#30021
+shadow~
+Shadow~
+Out of the corner of your eye you glimpse a creature of darkness, but you can hardly see it.
+~
+The Shadows are an ancient race who manipulate other races into
+war with one another in order to promote evolution. They are
+very powerful, their known weakness is a fear of telepaths. 
+~
+3402353 8856750 -4000 S
+112 -80 -10 15d5+34950 75d75+80
+3000000 4000000
+8 8 0
+#30022
+vorlon~
+Vorlon~
+A tall being in an encounter suit, could like like anything - you can't tell what under that suit.
+~
+The Vorlons are one of the first ones - ancient races millions of years
+older then the younger races like the human and minbari. Their
+appearance is a matter of conjecture as no human has ever seen
+one outside their encounter suit.
+~
+3393889 8721598 30 S
+112 -80 -10 1d1+35000 75d80+80
+3000000 4200000
+8 8 0
+#30023
+drazi~
+Drazi~
+A drazi wanders along the corridor.
+~
+~
+3145924 1024 -30 S
+67 -50 -9 1d1000+8014 15d15+75
+150000 1300000
+8 8 1
+#30024
+pak'ma'ra~
+Pak'Ma'Ra~
+A Pak'Ma'Ra is looking through the garbage  - for anything living to eat.
+~
+~
+3147972 1032 250 S
+73 -45 -7 1d1+7500 10d15+60
+80000 650000
+8 8 2
+#30025
+psi cop~
+PSI Cop~
+A hated PSI Cop is standing here, watch your mind!
+~
+The PSI Cops are an elite division of telepaths who police
+other telepaths. Many of them think that they are above and
+beyond the law and on the whole they can be trusted as far
+as you could throw the station.
+~
+3278913 8660158 -250 S
+86 -65 -8 60d25+6100 25d27+75
+275000 1350000
+8 8 2
+#30026
+ranger~
+Ranger~
+A ranger, a soldier against the shadows glances around.
+~
+The rangers are soldiers trained by the Minbari to fight the shadows.
+~
+3332384 267436 600 S
+82 -60 -6 1d1+8000 25d22+70
+65750 950000
+8 8 1
+#30027
+earthforce soldier~
+earthforce soldier~
+An earthforce soldier stands here looking furitive.
+~
+~
+3164352 1032 -100 S
+72 -55 -6 1d1+5400 10d15+55
+70000 595500
+8 8 1
+#30028
+narn~
+Narn~
+The Narn are a fierce race, not the sort to tangle with without good reason.
+~
+~
+3160420 1160 0 S
+76 -50 -7 30d30+7500 10d19+62
+70000 800000
+8 8 1
+#30029
+centauri~
+Centauri~
+More interested in self satisfaction and glory then almost anything else the Centauri can't be trusted.
+~
+~
+3145920 1160 -175 S
+71 -60 -6 50d50+4500 10d13+50
+50000 495000
+8 8 0
+#30030
+Lurker~
+Lurker~
+A recked, desperate looking man scrounges through the garbage looking for food.
+~
+~
+1048768 262144 50 S
+50 -11 2 1d1+2500 3d9+28
+100 82000
+8 8 1
+#30031
+Waiter~
+Waiter~
+A waiter waits for your order - makes a change from most restuarants!
+~
+~
+66 1032 0 S
+45 -60 6 1d1+20000 3d3+80
+50 50000
+8 8 2
+#30032
+barkeep burly~
+Barkeep~
+A burly barkeep serves drinks from all over the galaxy.
+~
+~
+66 1032 43 S
+73 -40 -5 1d1+10000 100d120+80
+53544 100000
+8 8 1
+#30033
+theo brother~
+Brother Theo~
+An old monk is here helping the needy.
+~
+~
+3152320 5284 2000 S
+70 -60 0 100d35+5333 45d40+50
+500 2000000
+8 8 1
+#30034
+edward brother~
+Brother Edward~
+A monk wanders around with a troubled look on his face.
+~
+~
+3152214 4260 3000 S
+68 -40 0 1d500+3500 15d9+60
+200 390000
+8 8 1
+#30035
+corwin lieutenant~
+Leiutenant Corwin~
+A young serious looking man has his attention on the console in front of him.
+~
+~
+3201090 1192 200 S
+73 -45 -8 25d50+7400 10d15+60
+112560 659500
+6 6 1
+#30036
+cultist~
+Cultist~
+A grubby looking man peers at you, with the light of madness blazing forth from them.
+~
+~
+1048772 787466 -150 S
+60 -30 -5 1d1000+6550 10d9+70
+112000 1020000
+8 8 1
+#30037
+lennier~
+Lennier~
+Ambassador Delenn's aid is running past on an errand for her.
+~
+Lennier is the diplomatic attache for ambassador Delenn of
+the Minbari. He is a member of the religious caste, but will
+fight any who stand against Delenn or his people.
+~
+3168608 8393916 600 S
+80 -72 -8 1d1000+7000 15d30+80
+153000 850000
+8 8 1
+#30038
+adira~
+Adira~
+The 'lady' Adira, an exotic Centauri dancer is performing here.
+~
+The 'lady' Adira is the light of Ambassador Mollari's life. He is
+completely besotted by her, and it is not hard to see why. Adira
+is a strikingly beautiful Centauri, with eyes that ask for help.
+~
+3145920 1024 150 S
+51 0 6 1d1+4700 8d8+20
+200 330000
+8 8 2
+#30039
+ashi~
+Ashi~
+One of the stations least reputable 'businessmen' is busy extorting money from one of the locals.
+~
+Ashi is one of the stations less reputable 'buinessmen'. While never
+having actually been arrested, he walks a fine line and is well
+known to station security.
+~
+3164868 271496 -450 S
+68 -55 -3 1d1000+9100 15d15+75
+252000 1238500
+8 8 0
+#30040
+zarg~
+Zarg~
+A Zarg has somehow made it onto the station and is living here in Gray 17.
+~
+~
+3238468 8660138 -600 S
+85 -75 -6 1d1+8000 25d25+70
+250000 1150000
+8 8 0
+#30041
+brakiri~
+Brakiri~
+A Brakiri is here listening to the council proceedings.
+~
+The Brakiri is one of weaker races and a member of the
+league of non-aligned worlds.
+~
+3147910 1160 150 S
+66 -50 -6 50d50+6000 16d12+75
+112000 780000
+6 6 1
+#30042
+gaim~
+Gaim~
+The Gaim ambassador is wearing an environment suit in order to breath the stations air.
+~
+The Gaim are a strange insect like race. Not much has been seen
+of them until recently as their planet has a harsh atmosphere and 
+the Gaim have only recently gone to the stars.
+~
+3287040 1160 0 S
+69 -50 -4 100d10+6700 15d15+75
+121000 850000
+8 8 1
+#30043
+prisoner~
+Prisoner~
+A dejected looking prisoner sits on a bed, regretting his crimes
+~
+~
+3145926 1032 -150 S
+55 -30 -3 1d1+3650 10d10+50
+500 450000
+6 6 0
+#30044
+thug~
+Thug~
+A small time thug is looking for someone to exploit.
+~
+~
+3149540 271496 -600 S
+67 -60 -5 100d35+5000 20d12+70
+12000 870000
+8 8 1
+#30045
+patient medlab~
+Medlab patient~
+An injured patient is lying on an eximation table waiting for treatment.
+~
+~
+1048770 1024 0 S
+47 2 6 1d1+2200 8d4+25
+0 157000
+4 4 2
+#30046
+dock worker~
+Dock Worker~
+A rugged looking dock worker is busy unloading a ship.
+~
+~
+3147844 1032 50 S
+68 -60 -1 1d50+5200 18d18+72
+100000 886000
+8 8 1
+#30047
+officer station~
+Station Officer~
+A station officer is diligently working at her tasks and has no time for you.
+~
+~
+3152192 1160 175 S
+73 -50 -3 100d30+6000 17d15+75
+40000 1000000
+8 8 2
+#30048
+maintenance worker~
+Maintenance Worker~
+A maintenance worker is busy checking the hull of the station.
+~
+~
+3147840 1160 75 S
+63 -60 -7 40d10+5300 20d12+70
+85000 814000
+8 8 1
+#30049
+customs officer~
+Customs Officer~
+A uniformed Narn is busing checking the identity of each traveller to the station.
+~
+~
+3152226 1164 230 S
+77 -37 -6 50d12+4000 7d8+61
+206000 800000
+8 8 1
+#30050
+officer off duty~
+Off Duty Officer~
+An off duty officer looks relieved that his shift has ended.
+~
+~
+3151936 1160 160 S
+75 -61 -4 10d90+5000 15d15+75
+125000 925000
+8 8 1
+#30051
+traveller~
+Traveller~
+A weary traveller has travelled a long way to reach Babylon 5 and looks around with wonder.
+~
+~
+3147972 1160 50 S
+63 -50 -6 50d50+4900 18d13+70
+20000 78000
+8 8 2
+#30052
+smuggler~
+Smuggler~
+A smuggler is looking furitive, trying to smuggle goods out of Babylon 5.
+~
+~
+3146336 271496 -270 S
+73 -50 -2 1d1+4900 17d15+65
+260000 900000
+8 8 1
+#30053
+security guard~
+Security Guard~
+A security guard keeps a vigilant eye over the citizens of the station.
+~
+~
+3193184 5292 110 S
+80 -70 -4 50d50+8000 17d27+78
+224000 600000
+8 8 1
+#30054
+businessman~
+Businessman~
+A smartly dressed man is waiting for a customer.
+~
+Babylon 5 is a port of call for many races and businessmen, women
+and aliens come here from all other the galaxy trading goods and
+information.
+~
+3147840 1032 0 S
+75 -60 -4 10d50+6500 10d20+75
+56000 475000
+6 6 1
+#30055
+techno mage~
+Techno-Mage~
+An imposing man dressed completely in black writes glowing symbols in the air in front of him.
+~
+Techo-Mages are rarely seen, with many thinking them only legends.
+Using technology to give the illusion of magic, the Techno-mages are
+scholars, philosphers and dreamers. They are passing through Babylon 5
+from the rim, leaving before the shadows can come to their places of
+power.
+~
+3340656 8852670 400 S
+91 -50 -5 1d600+14600 80d90+70
+50000 700000
+8 8 1
+#30056
+shadow telepath~
+Shadow Telepath~
+A telepath is clutching her head trying to remove some sort of device from it.
+~
+The telepath standing before you has some sort of device attached
+to the side of her skull, from the way she looks at you and asks for
+help, you surmise that has some sort of control over her. 
+~
+3361376 8463548 -500 S
+90 -62 -4 1d1+15000 20d20+68
+500000 3000000
+8 8 2
+#30057
+kalika qwal'mizra ambassador~
+Ambassador Kalika~
+Ambassador Kalika Qwal'Mizra of the Abbai Matriarchate walks by with a respective nod for you.
+~
+The Abbai are a matriachal people, who are not at all warlike.
+They seek alliances with other races to help protect their homeworld
+as they don't have the strength to defend themselves from a powerful
+invader.
+~
+1054912 1160 1500 S
+72 -60 -8 10d100+5000 15d20+65
+125000 425000
+8 8 2
+#30058
+marga chulda ambassador~
+Ambassador Marga~
+The Grome ambassador stalks by you with a fierce expression on his face.
+~
+The Grome are an aggresive people, it's government rife with
+corruption. The large scale corruption and brutality of Grome
+soceity has kept them at a low level of technology. They are
+probably the weakest member of the league of non-aligned worlds.
+~
+3147840 1160 -50 S
+76 -55 -6 10d110+4500 10d26+60
+312000 675000
+8 8 1
+#30059
+miziri tal ambassador~
+Ambassador Miziri~
+The Hyach ambassador nods a greeting too you as you pass near him.
+~
+The Hyach believe age provides the necessary wisdom for
+leadership, and are ruled by their elders. They have a military,
+but don't believe in conquest or force.
+~
+3278912 5128 250 S
+78 -70 -7 50d15+7600 15d27+75
+150000 590000
+8 8 1
+#30060
+juphar trkider ambassador~
+Ambassador Juphar~
+A Drazi with a green sash around his neck is standing here waiting for someone.
+~
+The Drazi are an honest and loyal people. They have lost much
+of their military forces battling the Centauri and the Shadows, but
+are still one of the more powerful members of the league of non-aligned
+worlds.
+~
+3147968 1032 50 S
+71 -60 -1 10d150+5000 10d13+50
+5000 522000
+8 8 1
+#30061
+sleng horst ambassador~
+Hurr Ambassador~
+The Hurr ambassador looks around belligerently.
+~
+The Hurr are a belligerent race, but fortunately they lack the
+technology and the resources to be a real threat to any other
+race.
+~
+3295296 1032 -75 S
+70 -60 -7 10d1000+5200 11d13+50
+20000 470000
+8 8 1
+#30062
+vlur nhar ambassador~
+Ambassador Vlur/Nhar~
+The Pak'Ma'Ra ambassador is here - and the smell is awful!
+~
+The Pak'ma'ra prize individuality, with communities been almost
+non-existant on their homeworld. They have only the loosed form
+of government, believing all Pak'ma'ra should be consulted about
+decisions.
+~
+3164224 1160 0 S
+76 -48 -5 1d1+6600 11d18+61
+23550 680000
+8 8 1
+#30063
+chai zillah ambassador yolu~
+Yolu Ambassador~
+Yolu Ambassador
+~
+The Yolu are a tolerant and peaceful people, who praise diversity.
+They possess a strong military, but it is only for defensive purposes,
+they seek knowledge of other civilisations, not conquests of them.
+~
+3147840 1192 800 S
+77 -55 -9 1d1+3635 10d25+55
+210000 500000
+8 8 1
+#30064
+drazi shopkeeper~
+Drazi Shopkeeper~
+Drazi Shopkeeper
+~
+~
+1058882 1192 0 S
+67 -15 -2 1d1+10000 30d30+35
+40000 8000
+8 8 1
+#99999
+$~
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d11 3
+a13 3
+3260417 303234 -300 S
+53 -32 -10 1d1+3200 10d10+65
+57000 820000
+d24 3
+a26 3
+196 0 270 S
+21 8 1 1d1+510 3d5+8
+10 14000
+d29 1
+a29 1
+drak~
+d38 2
+a39 2
+3157509 9376 -800 S
+57 -35 -7 20d60+3000 11d10+63
+d52 3
+a54 3
+1064960 1193 -50 S
+47 -20 -4 50d10+500 8d7+41
+43000 82000
+d66 3
+a68 3
+3406161 1192 800 S
+67 -51 -8 1d1+9200 12d12+75
+225000 1500000
+d78 3
+a80 3
+1095939 5304 700 S
+40 -20 1 1d1+3333 7d8+40
+10000 10000
+d90 3
+a92 3
+3160385 263328 350 S
+59 -36 -7 80d10+5800 11d11+64
+190500 450000
+d103 3
+a105 3
+7600465 627900 3000 S
+90 -100 -13 1d1+30003 50d50+100
+4000000 8000000
+d116 3
+a118 3
+3324257 1198 450 S
+60 -40 -9 1d1+7500 11d12+65
+200000 500000
+d129 3
+a131 3
+1054784 1152 150 S
+48 -21 -5 50d12+5000 7d8+41
+45000 85000
+d143 3
+a145 3
+3148484 1160 -150 S
+56 -33 -6 25d60+3100 10d10+61
+100000 370000
+d158 3
+a160 3
+3406193 70846 600 S
+70 -64 -12 1d1+16000 20d20+65
+3500000 3000000
+d170 3
+a172 3
+1051168 271368 -1000 S
+45 -19 -4 1d1+4500 7d7+38
+60000 75000
+d184 2
+a185 2
+54 -40 -5 1d1+7200 8d8+60
+20000 140000
+d196 3
+a198 3
+3168512 1212 100 S
+57 -51 -8 1d1+8000 8d9+67
+100000 160000
+d210 3
+a212 3
+3288805 271550 -900 S
+58 -51 -8 1d5+8100 9d8+68
+25000 165000
+d223 3
+a225 3
+3340373 300220 600 S
+62 -51 -9 10d100+8000 9d9+70
+1600 180000
+d236 3
+a238 3
+3152164 267400 750 S
+55 -50 -9 1d1+7600 8d8+67
+70000 150000
+d247 2
+a248 2
+53 -40 -6 1d1+7000 8d7+50
+80000 130000
+d260 3
+a262 3
+3283296 5308 1000 S
+64 -54 -10 100d10+8300 10d8+70
+180000 200000
+d274 3
+a276 3
+1054784 1160 800 S
+49 -21 -5 100d80+1 8d8+43
+5000 95000
+d287 2
+a288 2
+3402353 468142 -4000 S
+82 -80 -10 15d5+24950 40d40+80
+d301 3
+a303 3
+3393889 332990 30 S
+82 -80 -10 1d1+25000 40d40+80
+3000000 4000000
+d311 3
+a313 3
+1048772 1024 -30 S
+37 -15 -2 1d1000+2000 6d6+35
+1000 8000
+d321 3
+a323 3
+1050820 1032 250 S
+43 -20 -3 1d1+3500 8d6+40
+8000 10000
+d335 3
+a337 3
+3278913 271550 -250 S
+56 -40 -8 60d25+3100 10d10+53
+75000 350000
+d347 2
+a348 2
+52 -37 -6 1d1+6000 7d7+50
+65750 110000
+d356 3
+a358 3
+1067200 1032 -100 S
+42 -20 -3 1d1+3400 6d8+37
+7000 5500
+d366 3
+a368 3
+1063268 1160 0 S
+46 -20 -6 1d1+5000 8d7+40
+70000 80000
+d376 3
+a378 3
+1048768 1160 -175 S
+41 -20 -3 1d1+3000 6d8+35
+50000 95000
+d386 2
+a387 2
+192 262144 50 S
+20 9 2 1d1+500 3d5+8
+d397 1
+a397 1
+15 -60 6 1d1+20000 3d3+80
+d407 1
+a407 1
+43 -40 -5 1d1+10000 100d120+80
+d416 3
+a418 3
+1055168 5284 2000 S
+40 -20 0 1d1+3333 7d7+40
+500 10000
+d426 3
+a428 3
+1055062 4260 3000 S
+38 -14 3 1d1+2500 5d7+30
+200 9000
+d436 3
+a438 3
+1103938 1192 200 S
+43 -22 -2 1d1+3400 8d7+38
+560 9500
+d446 3
+a448 3
+196 787466 -150 S
+30 -10 3 1d1000+1000 6d5+30
+2000 7500
+d459 3
+a461 3
+3168608 5308 600 S
+50 -49 -6 1d1000+7000 8d8+68
+3000 150000
+d470 1
+a470 1
+is a strikingly beautiful Centauri, with eyes filled that ask for help.
+d472 3
+a474 3
+192 1024 150 S
+21 9 6 1d1+470 4d4+9
+200 13000
+d485 3
+a487 3
+1067716 271496 -450 S
+38 -16 -3 1d1000+2100 6d6+36
+52000 8500
+d495 3
+a497 3
+3238468 271530 -600 S
+55 -49 -6 1d1+8000 8d8+68
+50000 150000
+d507 3
+a509 3
+1050758 1032 150 S
+36 -16 -2 50d50+1000 6d5+33
+5000 7800
+d520 3
+a522 3
+1189888 1032 0 S
+39 -20 0 100d10+2700 7d8+39
+10006 10000
+d530 3
+a532 3
+198 1032 -150 S
+25 6 0 1d1+650 3d6+10
+500 15000
+d540 3
+a542 3
+1052388 271496 -600 S
+37 -17 -2 100d35+1 6d6+33
+12000 15000
+d550 3
+a552 3
+194 1024 0 S
+17 12 6 1d1+200 3d4+8
+0 7000
+d560 3
+a562 3
+2116 1032 50 S
+28 0 -1 1d1+890 4d5+15
+1000 16000
+d570 3
+a572 3
+1055040 1032 175 S
+43 -20 -1 100d30+600 7d8+40
+40 10000
+d580 3
+a582 3
+2112 1032 75 S
+29 6 -1 40d10+300 4d6+15
+5000 14000
+d590 3
+a592 3
+1055074 1164 230 S
+47 -37 -6 50d12+400 7d8+61
+15000 80000
+d600 3
+a602 3
+1054784 1160 160 S
+45 -21 -4 10d90+3000 6d8+37
+12500 65000
+d610 3
+a612 3
+2244 1032 50 S
+33 -13 -2 50d50+700 6d4+30
+2000 7800
+d620 3
+a622 3
+1049184 271496 -270 S
+38 -10 2 1d1+2900 7d6+34
+26000 9000
+d631 2
+a632 2
+50 -45 -4 50d50+6000 8d8+65
+4000 100000
+d643 3
+a645 3
+1050688 1032 0 S
+45 -19 -5 10d50+4500 8d7+39
+56000 75000
+d658 3
+a660 3
+3340912 201918 400 S
+61 -50 -5 1d600+8600 10d10+70
+50000 160000
+d671 3
+a673 3
+3361376 74940 -500 S
+60 -48 -4 1d1+8000 10d9+68
+500 150000
+d686 2
+a687 2
+42 -20 -2 10d100+5000 8d8+39
+5000 25000
+d699 3
+a701 3
+1050688 1160 -50 S
+46 -21 -2 10d110+3500 6d5+40
+12000 75000
+d712 3
+a714 3
+1181760 5128 250 S
+48 -40 -7 50d15+760 10d10+62
+15000 90000
+d726 3
+a728 3
+1050816 1032 50 S
+41 -20 -1 10d150+3000 8d7+38
+5000 22000
+d739 3
+a741 3
+1198144 1032 -75 S
+40 -20 -1 10d1000+5200 8d8+40
+2000 20000
+d753 3
+a755 3
+1050688 1160 0 S
+46 -38 -5 1d1+6000 8d8+61
+23550 80000
+d760 1
+a760 1
+
+d764 1
+a764 1
+the seek knowledge of other civilaztions, not conquests of them.
+d766 3
+a768 3
+1050688 1192 800 S
+47 -40 -3 1d1+6500 9d8+60
+21000 26000
+d777 2
+a778 2
+37 -15 -2 1d1+10000 20d20+35
+10000 8000
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,34 @@
+locate c 'locate' $*
+invis c 'invisibility' $*
+sum c 'summon' $*
+sle c 'sleep' $*
+par c 'paralyze' $*
+ww c 'whirlwind' $*
+gh get heal force;get heal force;get heal force;get heal force;get heal force;get heal force
+infra c 'infravision'
+di c 'detect invis'
+cw c 'create water'
+cf c 'create food'
+tm train move;train move;train move;train move;train move
+th train hit;train hit;train hit;train hit;train hit
+ref c 'refresh'
+h c 'heal' $*
+re c 'word of recall'
+drag c 'dragon'
+bh buy 40 heal
+mm c 'magic missile' $*
+sa c 'spirit armor' $*
+haid c 'holy aid'
+met c 'meteor' $*
+plas c 'plasma' $*
+sense c 'sense' $*
+ide c 'identify' $*
+blind c 'blind' $*
+qh q h;q h;q h;q h;q h;q h;q h;
+dp c 'divine prot'
+haste c'haste'
+ah c 'advanced heal' $*
+tudor w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;s;w;w;s;s
+gp get prot force
+sanc c 'sanc' $*
+clone c 'clone'

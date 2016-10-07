@@ -1,0 +1,524 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2003.10.27.06.33.57;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.20.12.02.24;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.16.10.29.21;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.01.22.22.27.35;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@Jan 23 23:16:03 :: REPORT: Rod added report number 4
+Jan 23 23:50:36 :: REPORT: Hermen added report number 5
+Jan 23 23:53:05 :: REPORT: Rod edited report number 5
+Y               :: REPORT: Rod added report number 6
+Y               :: REPORT: Rod added report number 7
+Y               :: REPORT: Rod added report number 8
+Y               :: REPORT: Rod added report number 9
+Y               :: REPORT: Rod added report number 10
+Y               :: REPORT: Rod added report number 11
+Y               :: REPORT: Rod added report number 12
+Y               :: REPORT: Rod added report number 13
+Y               :: REPORT: Rod added report number 14
+Y               :: REPORT: Rod edited report number 8
+Y               :: REPORT: Rod added report number 15
+Y               :: REPORT: Rod added report number 16
+Y               :: REPORT: Sandii added report number 17
+Y               :: REPORT: Sandii edited report number 17
+Y               :: REPORT: Rod added report number 18
+Y               :: REPORT: Rod added report number 19
+Y               :: REPORT: Rod edited report number 6
+Y               :: REPORT: Rod edited report number 7
+Y               :: REPORT: Rod edited report number 5
+Y               :: REPORT: Rod edited report number 12
+Y               :: REPORT: Rod edited report number 4
+Y               :: REPORT: Rod edited report number 19
+Y               :: REPORT: Rod edited report number 18
+Y               :: REPORT: Rod edited report number 17
+Y               :: REPORT: Sandii added report number 20
+Y               :: REPORT: Phoenix edited report number 7
+Y               :: REPORT: Rod edited report number 1
+Y               :: REPORT: Tester added report number 21
+Y               :: REPORT: Tester edited report number 21
+Y               :: REPORT: Tester edited report number 21
+Y               :: REPORT: Rod edited report number 21
+Y               :: REPORT: Tester added report number 22
+Y               :: REPORT: Tester edited report number 22
+Y               :: REPORT: Rod edited report number 22
+Y               :: REPORT: Sandii edited report number 4
+Y               :: REPORT: Sandii edited report number 5
+Y               :: REPORT: Sandii edited report number 5
+Y               :: REPORT: Sandii edited report number 5
+Y               :: REPORT: Rod deleted report number 22
+Y               :: REPORT: Sandii added report number 23
+Y               :: REPORT: Sandii added report number 24
+Y               :: REPORT: Sandii edited report number 17
+Y               :: REPORT: Sandii edited report number 17
+Y               :: REPORT: Phoenix added report number 24
+Y               :: REPORT: Hermen added report number 25
+Y               :: REPORT: Rod added report number 26
+Y               :: REPORT: Stormbringer added report number 27
+Y               :: REPORT: Rod edited report number 27
+Y               :: REPORT: Stormbringer added report number 28
+Y               :: REPORT: Rod edited report number 28
+Y               :: REPORT: Rod added report number 29
+Y               :: REPORT: Rod edited report number 11
+Y               :: REPORT: Rod deleted report number 22
+Y               :: REPORT: Rod edited report number 5
+Y               :: REPORT: Rod edited report number 15
+Y               :: REPORT: Rod edited report number 25
+Y               :: REPORT: Hermen added report number 30
+Y               :: REPORT: Rod added report number 31
+Y               :: REPORT: Rod edited report number 25
+Y               :: REPORT: Rod edited report number 30
+Y               :: REPORT: Blossum added report number 32
+Y               :: REPORT: Rod edited report number 27
+Y               :: REPORT: Rod edited report number 28
+Y               :: REPORT: Rod edited report number 32
+Y               :: REPORT: Sandii added report number 33
+Y               :: REPORT: Sandii edited report number 32
+Y               :: REPORT: Rod edited report number 1
+Y               :: REPORT: Rod deleted report number 1
+Y               :: REPORT: Rod deleted report number 5
+Y               :: REPORT: Rod deleted report number 25
+Y               :: REPORT: Rod deleted report number 30
+Y               :: REPORT: Rod deleted report number 15
+Y               :: REPORT: Rod edited bug report number 1
+Y               :: REPORT: Rod deleted report number 1
+Y               :: REPORT: Rod edited bug report number 1
+Y               :: REPORT: Rod deleted report number 11
+Y               :: REPORT: Rod deleted report number 27
+Y               :: REPORT: Rod deleted report number 28
+Y               :: REPORT: Rod edited bug report number 32
+Y               :: REPORT: Rod deleted report number 1
+Y               :: REPORT: Rod deleted report number 1
+Y               :: REPORT: Rod edited todo report number 7
+Y               :: REPORT: Rod edited todo report number 7
+Y               :: REPORT: Rod edited todo report number 7
+Y               :: REPORT: Rod edited todo report number 13
+Y               :: REPORT: Rod edited todo report number 13
+Y               :: REPORT: Rod edited bug report number 24
+Y               :: REPORT: Rod edited todo report number 14
+Y               :: REPORT: Rod deleted report number 17
+Y               :: REPORT: Rod deleted report number 1
+Y               :: REPORT: Rod edited bug report number 24
+Y               :: REPORT: Rod edited todo report number 23
+Y               :: REPORT: Rod added todo report number 34
+Y               :: REPORT: Rod edited todo report number 29
+Y               :: REPORT: Rod edited todo report number 31
+Y               :: REPORT: Rod deleted report number 7
+Y               :: REPORT: Phoenix added todo report number 35
+Y               :: REPORT: Phoenix edited todo report number 6
+Y               :: REPORT: Phoenix added todo report number 36
+Y               :: REPORT: Phoenix added todo report number 37
+Y               :: REPORT: Phoenix edited bug report number 37
+Y               :: REPORT: Phoenix edited bug report number 36
+Y               :: REPORT: Splat added bug report number 38
+Y               :: REPORT: Splat added bug report number 39
+Y               :: REPORT: Rod edited todo report number 6
+Y               :: REPORT: Rod edited bug report number 38
+Y               :: REPORT: Rod edited bug report number 33
+Y               :: REPORT: Rod edited bug report number 36
+Y               :: REPORT: Rod edited bug report number 37
+Y               :: REPORT: Rod edited todo report number 35
+Y               :: REPORT: Rod edited todo report number 26
+Y               :: REPORT: Rod deleted report number 26
+Y               :: REPORT: Rod edited todo report number 31
+Y               :: REPORT: Rod added todo report number 39
+Y               :: REPORT: Rod deleted report number 7
+Y               :: REPORT: Rod deleted report number 31
+Y               :: REPORT: Rod deleted report number 34
+Y               :: REPORT: Rod deleted report number 4
+Y               :: REPORT: Rod added bug report number 1
+Y               :: REPORT: Rod edited bug report number 1
+Y               :: REPORT: Rod deleted report number 1
+Y               :: REPORT: Rod added bug report number 2
+Y               :: REPORT: Rod edited bug report number 2
+Y               :: REPORT: Rod edited bug report number 1
+Y               :: REPORT: Rod edited bug report number 1
+Y               :: REPORT: Sandii added todo report number 3
+Y               :: REPORT: Sandii added todo report number 4
+Y               :: REPORT: Phoenix edited todo report number 3
+Y               :: REPORT: Phoenix edited todo report number 4
+Y               :: REPORT: Rod added todo report number 5
+Y               :: REPORT: Rod added todo report number 6
+Y               :: REPORT: Rod added todo report number 7
+Y               :: REPORT: Rod added todo report number 8
+Y               :: REPORT: Rod added todo report number 9
+Y               :: REPORT: Rod added todo report number 10
+Y               :: REPORT: Rod edited todo report number 8
+Y               :: REPORT: Rod edited todo report number 8
+Y               :: REPORT: Phoenix added bug report number 11
+Y               :: REPORT: Rod added todo report number 11
+Y               :: REPORT: Rod deleted report number 11
+Y               :: REPORT: Rod added todo report number 12
+Y               :: REPORT: Rod added todo report number 13
+Y               :: REPORT: Rod added todo report number 14
+Y               :: REPORT: Rod added todo report number 15
+Y               :: REPORT: Rod added todo report number 16
+Y               :: REPORT: Rod added bug report number 17
+Y               :: REPORT: Rod deleted report number 17
+Y               :: REPORT: Rod deleted report number 2
+Y               :: REPORT: Rod added bug report number 18
+Y               :: REPORT: Rod added bug report number 19
+Y               :: REPORT: Rod added idea report number 20
+Y               :: REPORT: Rod added idea report number 21
+Y               :: REPORT: Rod added todo report number 22
+Y               :: REPORT: Rod added idea report number 23
+Y               :: REPORT: Rod added todo report number 24
+Y               :: REPORT: Rod edited todo report number 24
+Y               :: REPORT: Rod edited bug report number 18
+Y               :: REPORT: Rod edited bug report number 19
+Y               :: REPORT: Rod added bug report number 25
+Y               :: REPORT: Rod added todo report number 26
+Y               :: REPORT: Sandii added todo report number 27
+Y               :: REPORT: Sandii edited todo report number 3
+Y               :: REPORT: Sandii edited todo report number 4
+Y               :: REPORT: Phoenix edited todo report number 22
+Y               :: REPORT: Rod edited todo report number 27
+Y               :: REPORT: Sandii edited todo report number 27
+Y               :: REPORT: Sandii added idea report number 28
+Y               :: REPORT: Sandii added bug report number 29
+Y               :: REPORT: Rod edited todo report number 22
+Y               :: REPORT: Rod edited idea report number 28
+Y               :: REPORT: Rod edited todo report number 27
+Y               :: REPORT: Rod edited bug report number 29
+Y               :: REPORT: Phoenix added bug report number 30
+Y               :: REPORT: Rod edited bug report number 19
+Y               :: REPORT: Rod added bug report number 31
+Y               :: REPORT: Rod edited todo report number 16
+Y               :: REPORT: Rod edited bug report number 19
+Y               :: REPORT: Rod edited bug report number 30
+Y               :: REPORT: Phoenix edited bug report number 30
+Y               :: REPORT: Rod edited bug report number 30
+Y               :: REPORT: Sandii added todo report number 31
+Y               :: REPORT: Sandii edited bug report number 29
+Y               :: REPORT: Sandii edited bug report number 30
+Y               :: REPORT: Phoenix added bug report number 32
+Y               :: REPORT: Phoenix added bug report number 33
+Y               :: REPORT: Rod edited todo report number 31
+Y               :: REPORT: Rod edited todo report number 22
+Y               :: REPORT: Rod edited idea report number 28
+Y               :: REPORT: Rod edited bug report number 32
+Y               :: REPORT: Rod edited idea report number 28
+Y               :: REPORT: Rod edited bug report number 33
+Y               :: REPORT: Phoenix edited bug report number 32
+Y               :: REPORT: Sandii added bug report number 34
+Y               :: REPORT: Sandii added todo report number 35
+Y               :: REPORT: Sandii edited todo report number 24
+Y               :: REPORT: Sandii edited todo report number 27
+Y               :: REPORT: Sandii edited todo report number 31
+Y               :: REPORT: Sandii edited todo report number 13
+Y               :: REPORT: Sandii edited bug report number 32
+Y               :: REPORT: Sandii edited idea report number 28
+Y               :: REPORT: Sandii added bug report number 35
+Y               :: REPORT: Sandii added bug report number 36
+Y               :: REPORT: Sandii edited bug report number 35
+Y               :: REPORT: Sandii edited bug report number 36
+Y               :: REPORT: Artus added todo report number 37
+Y               :: REPORT: Artus deleted report number 1
+Y               :: REPORT: Artus added bug report number 38
+Y               :: REPORT: Artus added bug report number 39
+Y               :: REPORT: Phoenix added bug report number 40
+Y               :: REPORT: Phoenix added bug report number 41
+Y               :: REPORT: Alica added idea report number 41
+Y               :: REPORT: Sandii added bug report number 41
+Y               :: REPORT: Sandii edited bug report number 35
+Y               :: REPORT: Sandii edited bug report number 36
+Y               :: REPORT: Sandii edited bug report number 32
+Y               :: REPORT: Sandii edited idea report number 28
+Y               :: REPORT: Sandii edited todo report number 8
+Y               :: REPORT: Sandii added typo report number 42
+Y               :: REPORT: Sandii added typo report number 43
+Y               :: REPORT: Alica added idea report number 44
+Y               :: REPORT: Sandii added todo report number 45
+Y               :: REPORT: Phoenix edited typo report number 43
+Y               :: REPORT: Sandii edited typo report number 43
+Y               :: REPORT: Alica added idea report number 45
+Y               :: REPORT: Sandii edited idea report number 45
+Y               :: REPORT: Sandii added todo report number 46
+Y               :: REPORT: Rod edited bug report number 40
+Y               :: REPORT: Rod edited bug report number 42
+Y               :: REPORT: Rod edited typo report number 42
+Y               :: REPORT: Rod edited todo report number 46
+Y               :: REPORT: Phoenix edited todo report number 7
+Y               :: REPORT: Sandii added bug report number 47
+Y               :: REPORT: Alica added typo report number 48
+Y               :: REPORT: Sandii added todo report number 49
+Y               :: REPORT: Sandii added todo report number 49
+Y               :: REPORT: Rod edited bug report number 34
+Y               :: REPORT: Rod edited bug report number 41
+Y               :: REPORT: Rod edited idea report number 45
+Y               :: REPORT: Rod edited bug report number 47
+Y               :: REPORT: Rod edited bug report number 33
+Y               :: REPORT: Rod edited bug report number 39
+Y               :: REPORT: Rod edited todo report number 7
+2002-03-16 13:24:08 :: REPORT: Artus edited bug report number 33
+2002-03-16 13:41:17 :: REPORT: Artus edited bug report number 33
+2002-03-16 18:53:49 :: REPORT: Phoenix edited todo report number 46
+2002-03-17 09:37:24 :: REPORT: Hermen added bug report number 50
+2002-03-19 01:01:10 :: REPORT: Rod edited bug report number 50
+2002-03-19 18:31:56 :: REPORT: Hermen added bug report number 51
+2002-03-24 11:58:37 :: REPORT: Artus edited bug report number 51
+2002-03-24 15:01:58 :: REPORT: Artus edited bug report number 51
+2002-03-25 10:44:43 :: REPORT: Alica added bug report number 52
+2002-03-28 13:30:48 :: REPORT: Hermen added bug report number 53
+2002-03-28 13:34:00 :: REPORT: Hermen added bug report number 54
+2002-03-28 14:26:36 :: REPORT: Hermen added bug report number 55
+2002-03-29 22:30:50 :: REPORT: Phoenix added todo report number 56
+2002-04-01 23:20:25 :: REPORT: Hermen added bug report number 57
+2002-04-12 18:58:49 :: REPORT: Hermen edited bug report number 55
+2002-04-13 02:35:15 :: REPORT: Rod added bug report number 1
+2002-04-13 02:52:16 :: REPORT: Rod added bug report number 1
+2002-04-13 02:53:33 :: REPORT: Rod added bug report number 2
+2002-04-13 02:53:45 :: REPORT: Rod edited bug report number 2
+2002-10-06 14:00:21 :: REPORT: Lucy added bug report number 3
+2002-10-09 11:32:16 :: REPORT: Rod added idea report number 4
+2002-10-11 21:23:20 :: REPORT: Lucy added idea report number 5
+2002-10-12 17:20:17 :: REPORT: Lucy added bug report number 6
+2002-12-01 22:43:08 :: REPORT: Phoenix added bug report number 6
+2003-01-12 14:39:49 :: REPORT: Cassandra added bug report number 6
+2003-01-12 14:44:20 :: REPORT: Cassandra added bug report number 6
+2003-03-20 11:08:29 :: REPORT: Artus added todo report number 7
+2003-03-20 11:14:27 :: REPORT: Artus added bug report number 8
+2003-03-20 12:08:37 :: REPORT: Artus added todo report number 9
+2003-03-20 12:25:38 :: REPORT: Artus added todo report number 10
+2003-05-02 21:18:21 :: REPORT: Bobsyauncle added bug report number 10
+2003-05-02 21:23:00 :: REPORT: Bobsyauncle edited bug report number 10
+2003-05-02 21:39:43 :: REPORT: Bobsyauncle added bug report number 11
+2003-05-03 11:05:43 :: REPORT: RatsleT added bug report number 11
+2003-05-03 21:28:09 :: REPORT: Bobsyauncle added bug report number 12
+2003-05-05 14:00:38 :: REPORT: Bobsyauncle added bug report number 12
+2003-05-05 19:51:48 :: REPORT: Bobsyauncle added bug report number 12
+2003-05-06 19:43:21 :: REPORT: Bobsyauncle added bug report number 12
+2003-05-06 19:47:57 :: REPORT: Bobsyauncle added bug report number 13
+2003-05-07 19:53:42 :: REPORT: Bobsyauncle added bug report number 13
+2003-05-08 09:18:25 :: REPORT: Bobsyauncle added bug report number 14
+2003-06-04 17:42:01 :: REPORT: Bobsyauncle added bug report number 15
+2003-06-10 23:11:10 :: REPORT: Bobsyauncle added bug report number 15
+2003-06-18 11:38:31 :: REPORT: RatsleT added bug report number 15
+2003-09-21 16:59:40 :: REPORT: Artus edited bug report number 3
+2003-09-21 17:07:44 :: REPORT: Artus edited bug report number 3
+2003-09-21 17:09:38 :: REPORT: Artus edited bug report number 11
+2003-09-21 17:10:29 :: REPORT: Artus edited bug report number 15
+2003-09-21 17:13:59 :: REPORT: Artus deleted report number 6
+2003-10-02 15:17:43 :: REPORT: Plasma added bug report number 16
+2003-10-02 15:21:17 :: REPORT: Plasma edited bug report number 16
+2003-10-02 15:36:28 :: REPORT: Artus edited bug report number 16
+2003-10-02 15:37:54 :: REPORT: Artus edited bug report number 16
+2003-10-02 15:39:59 :: REPORT: Artus edited bug report number 16
+2003-10-02 15:55:13 :: REPORT: Plasma added bug report number 17
+2003-10-06 18:13:22 :: REPORT: Bobsyauncle added bug report number 17
+2003-10-06 18:17:26 :: REPORT: Bobsyauncle added bug report number 18
+2003-10-09 09:03:46 :: REPORT: Batfink added bug report number 18
+2003-10-09 10:11:52 :: REPORT: Batfink added bug report number 19
+2003-10-09 10:35:40 :: REPORT: Batfink added bug report number 19
+2003-10-09 13:21:08 :: REPORT: Sandii deleted report number 18
+2003-10-11 22:09:56 :: REPORT: Artus added todo report number 19
+2003-10-12 09:56:13 :: REPORT: Sandii deleted report number 18
+2003-10-12 10:19:51 :: REPORT: Sandii edited todo report number 9
+2003-10-12 22:20:06 :: REPORT: Sandii added bug report number 19
+2003-10-12 22:20:45 :: REPORT: Sandii deleted report number 19
+2003-10-13 08:03:56 :: REPORT: Sandii added todo report number 20
+2003-10-13 08:04:33 :: REPORT: Sandii added todo report number 21
+2003-10-13 08:30:03 :: REPORT: Artus added todo report number 22
+2003-10-13 13:38:47 :: REPORT: Artus added todo report number 22
+2003-10-13 13:42:46 :: REPORT: Artus deleted report number 22
+2003-10-13 13:43:53 :: REPORT: Artus added todo report number 23
+2003-10-13 13:56:36 :: REPORT: Artus added bug report number 24
+2003-10-13 13:57:12 :: REPORT: Artus edited bug report number 24
+2003-10-13 14:12:43 :: REPORT: Artus edited bug report number 24
+2003-10-13 18:42:44 :: REPORT: Batfink added bug report number 25
+2003-10-14 09:12:36 :: REPORT: Batfink added idea report number 26
+2003-10-14 16:02:00 :: REPORT: Artus edited todo report number 7
+2003-10-14 16:02:25 :: REPORT: Artus edited todo report number 9
+2003-10-14 16:02:49 :: REPORT: Artus edited todo report number 21
+2003-10-14 16:06:09 :: REPORT: Artus edited todo report number 20
+2003-10-14 16:09:31 :: REPORT: Artus edited bug report number 25
+2003-10-14 16:10:07 :: REPORT: Artus deleted report number 24
+2003-10-14 16:10:22 :: REPORT: Artus deleted report number 3
+2003-10-14 16:16:43 :: REPORT: Artus edited bug report number 17
+2003-10-14 16:19:32 :: REPORT: Artus edited bug report number 19
+2003-10-14 16:20:38 :: REPORT: Artus edited bug report number 6
+2003-10-14 16:28:06 :: REPORT: Artus edited bug report number 8
+2003-10-14 16:28:09 :: REPORT: Artus deleted report number 8
+2003-10-14 16:31:13 :: REPORT: Artus edited bug report number 10
+2003-10-14 16:32:36 :: REPORT: Artus edited bug report number 11
+2003-10-14 16:37:18 :: REPORT: Artus deleted report number 11
+2003-10-14 16:55:15 :: REPORT: Artus edited bug report number 12
+2003-10-14 16:56:40 :: REPORT: Artus edited bug report number 14
+2003-10-14 17:14:40 :: REPORT: Sandii deleted report number 19
+2003-10-14 17:15:48 :: REPORT: Sandii edited todo report number 20
+2003-10-14 20:16:04 :: REPORT: Artus deleted report number 13
+2003-10-14 20:18:49 :: REPORT: Artus deleted report number 12
+2003-10-14 20:18:56 :: REPORT: Artus deleted report number 14
+2003-10-14 20:19:02 :: REPORT: Artus deleted report number 10
+2003-10-14 20:26:46 :: REPORT: Artus deleted report number 17
+2003-10-15 13:49:25 :: REPORT: Artus edited bug report number 15
+2003-10-15 14:21:29 :: REPORT: Artus edited bug report number 15
+2003-10-15 14:28:00 :: REPORT: Artus edited bug report number 25
+2003-10-15 16:42:40 :: REPORT: Batfink edited bug report number 25
+2003-10-15 17:22:30 :: REPORT: Artus deleted report number 25
+2003-10-15 17:29:22 :: REPORT: Artus deleted report number 6
+2003-10-15 21:47:21 :: REPORT: Sandii added idea report number 27
+2003-10-15 22:08:34 :: REPORT: Artus added todo report number 28
+2003-10-15 23:17:59 :: REPORT: Artus added bug report number 29
+2003-10-15 23:19:34 :: REPORT: Artus edited bug report number 29
+2003-10-16 11:14:48 :: REPORT: Artus added bug report number 30
+2003-10-16 18:42:29 :: REPORT: Sandii added todo report number 31
+2003-10-16 18:45:07 :: REPORT: Sandii added todo report number 32
+2003-10-16 23:07:38 :: REPORT: Artus edited bug report number 30
+2003-10-16 23:08:50 :: REPORT: Artus edited bug report number 29
+2003-10-16 23:24:43 :: REPORT: Artus edited todo report number 28
+2003-10-16 23:59:03 :: REPORT: Artus edited todo report number 31
+2003-10-17 06:12:37 :: REPORT: Batfink added bug report number 33
+2003-10-17 07:40:48 :: REPORT: Sandii edited todo report number 9
+2003-10-17 07:42:44 :: REPORT: Sandii edited idea report number 27
+2003-10-17 07:43:17 :: REPORT: Sandii edited idea report number 5
+2003-10-17 07:43:46 :: REPORT: Sandii edited idea report number 4
+2003-10-17 07:44:32 :: REPORT: Sandii edited idea report number 4
+2003-10-17 07:46:03 :: REPORT: Sandii edited idea report number 26
+2003-10-17 11:04:00 :: REPORT: Artus edited todo report number 32
+2003-10-17 11:04:30 :: REPORT: Artus deleted report number 28
+2003-10-17 11:05:46 :: REPORT: Artus edited bug report number 33
+2003-10-17 11:06:30 :: REPORT: Artus deleted report number 29
+2003-10-17 12:39:08 :: REPORT: Artus edited idea report number 27
+2003-10-17 16:52:48 :: REPORT: Batfink edited bug report number 33
+2003-10-17 17:03:05 :: REPORT: Batfink added bug report number 34
+2003-10-17 17:04:24 :: REPORT: Batfink added bug report number 35
+2003-10-17 18:14:17 :: REPORT: Sandii edited bug report number 35
+2003-10-17 18:15:21 :: REPORT: Sandii deleted report number 34
+2003-10-17 18:15:59 :: REPORT: Sandii deleted report number 33
+2003-10-17 19:38:59 :: REPORT: Batfink added bug report number 36
+2003-10-17 19:40:03 :: REPORT: Sandii edited bug report number 36
+2003-10-17 22:01:48 :: REPORT: Rod added bug report number 37
+2003-10-18 07:27:08 :: REPORT: Artus edited bug report number 36
+2003-10-18 07:28:22 :: REPORT: Artus edited bug report number 37
+2003-10-18 07:30:21 :: REPORT: Batfink added bug report number 38
+2003-10-18 07:53:40 :: REPORT: Artus edited bug report number 38
+2003-10-19 07:02:06 :: REPORT: Batfink added bug report number 39
+2003-10-19 10:32:41 :: REPORT: Sandii edited todo report number 31
+2003-10-19 10:35:27 :: REPORT: Sandii deleted report number 38
+2003-10-19 10:37:00 :: REPORT: Sandii deleted report number 36
+2003-10-19 10:40:54 :: REPORT: Sandii added typo report number 40
+2003-10-19 10:52:25 :: REPORT: Sandii deleted report number 35
+2003-10-19 10:52:44 :: REPORT: Artus edited typo report number 40
+2003-10-19 10:53:30 :: REPORT: Sandii deleted report number 30
+2003-10-19 10:53:37 :: REPORT: Sandii deleted report number 40
+2003-10-19 11:02:48 :: REPORT: Sandii edited idea report number 27
+2003-10-19 11:04:48 :: REPORT: Artus edited todo report number 31
+2003-10-19 11:21:26 :: REPORT: Sandii edited todo report number 31
+2003-10-19 11:22:00 :: REPORT: Sandii edited todo report number 32
+2003-10-19 11:29:04 :: REPORT: Sandii edited todo report number 20
+2003-10-19 11:31:54 :: REPORT: Sandii edited todo report number 20
+2003-10-19 13:15:53 :: REPORT: Sandii added todo report number 41
+2003-10-19 13:32:42 :: REPORT: Sandii edited todo report number 41
+2003-10-19 22:02:59 :: REPORT: Sandii edited todo report number 41
+2003-10-19 22:03:45 :: REPORT: Sandii deleted report number 31
+2003-10-19 22:03:50 :: REPORT: Sandii deleted report number 32
+2003-10-20 09:09:29 :: REPORT: Plasma added idea report number 42
+2003-10-20 10:14:09 :: REPORT: Artus added bug report number 43
+2003-10-20 12:14:48 :: REPORT: RatsleT added bug report number 44
+2003-10-20 22:03:06 :: REPORT: Plasma added typo report number 45
+2003-10-20 23:02:17 :: REPORT: Sandii edited typo report number 45
+2003-10-21 10:58:53 :: REPORT: Artus edited bug report number 43
+2003-10-21 10:59:27 :: REPORT: Artus deleted report number 44
+2003-10-21 11:00:11 :: REPORT: Artus edited bug report number 15
+2003-10-21 13:53:56 :: REPORT: Artus edited idea report number 42
+2003-10-21 15:22:50 :: REPORT: Artus added bug report number 46
+2003-10-21 15:23:10 :: REPORT: Artus edited bug report number 46
+2003-10-21 17:13:47 :: REPORT: Sandii added idea report number 47
+2003-10-21 17:15:13 :: REPORT: Sandii added idea report number 48
+2003-10-21 17:16:03 :: REPORT: Sandii added idea report number 49
+2003-10-21 17:16:44 :: REPORT: Sandii added idea report number 50
+2003-10-21 17:21:17 :: REPORT: Sandii edited bug report number 43
+2003-10-21 18:44:11 :: REPORT: Artus deleted report number 43
+2003-10-21 19:13:56 :: REPORT: Artus added bug report number 51
+2003-10-21 19:14:10 :: REPORT: Artus edited bug report number 51
+2003-10-22 07:50:26 :: REPORT: Sandii deleted report number 51
+2003-10-22 07:51:01 :: REPORT: Sandii deleted report number 26
+2003-10-22 07:51:40 :: REPORT: Sandii deleted report number 45
+2003-10-22 12:40:37 :: REPORT: Bobsyauncle added bug report number 52
+2003-10-22 12:54:47 :: REPORT: Artus edited bug report number 52
+2003-10-22 13:56:37 :: REPORT: Plasma added typo report number 53
+2003-10-22 14:07:25 :: REPORT: Plasma added idea report number 54
+2003-10-22 14:10:58 :: REPORT: Plasma edited idea report number 54
+2003-10-23 14:22:51 :: REPORT: Moe added bug report number 55
+2003-10-24 20:58:13 :: REPORT: Phoenix added bug report number 56
+2003-10-24 21:13:31 :: REPORT: Phoenix added bug report number 57
+2003-10-24 21:16:29 :: REPORT: Phoenix edited bug report number 57
+2003-10-24 21:19:41 :: REPORT: Sandii deleted report number 55
+2003-10-24 21:20:45 :: REPORT: Sandii edited bug report number 57
+2003-10-24 21:22:01 :: REPORT: Sandii edited bug report number 56
+2003-10-25 11:20:05 :: REPORT: Plasma added bug report number 58
+2003-10-25 21:52:53 :: REPORT: Phoenix added bug report number 59
+2003-10-25 22:31:23 :: REPORT: Phoenix added bug report number 60
+2003-10-26 22:08:43 :: REPORT: Artus edited bug report number 58
+2003-10-26 22:10:16 :: REPORT: Artus edited bug report number 59
+2003-10-26 22:14:52 :: REPORT: Artus edited bug report number 60
+2003-10-27 07:41:16 :: REPORT: Sandii deleted report number 52
+2003-10-27 07:49:57 :: REPORT: Sandii edited bug report number 60
+2003-10-27 07:52:55 :: REPORT: Sandii edited idea report number 5
+2003-10-27 10:28:31 :: REPORT: Sandii deleted report number 58
+2003-10-27 10:28:56 :: REPORT: Artus deleted report number 60
+2003-10-27 10:29:23 :: REPORT: Sandii deleted report number 9
+2003-10-27 10:34:10 :: REPORT: Sandii edited bug report number 57
+2003-10-27 12:51:01 :: REPORT: Artus edited bug report number 57
+@
+
+
+1.3
+log
+@Artus> A3_0_315
+@
+text
+@d412 45
+@
+
+
+1.2
+log
+@Artus> In Progress. Just wishing to c
+@
+text
+@d290 122
+@
+
+
+1.1
+log
+@
+Added:
+- reports log file
+@
+text
+@d1 289
+@
+

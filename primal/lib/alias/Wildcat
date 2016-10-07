@@ -1,0 +1,14 @@
+gq get queen force; q queen
+da drop all;get force; save
+cc c 'cure critic'
+gb get blue force; q blue
+em eat mush;eat mush;eat mush; eat mush
+cf cast 'create food' wildcat;create food' wildcat;create food' wildcat;create food' wildcat
+di cast 'detect invisibility' wildcat
+inf cast 'infravision' wildcat
+cl cast 'cure light' wildcat
+qw q white
+gr get red force;q red
+gw get white force;q white
+rr c 'word of recall'
+invis c 'invisibility'

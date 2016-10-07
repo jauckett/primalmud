@@ -1,0 +1,63 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@infra cast 'infra' self
+ls cast 'lightning shield' self
+spellemup cast 'armor' $*;cast 'bless' $*;cast 'sanc' $*;cast 'strength' $*
+fj flee;goto jale
+locate cast 'locate object' $*
+aid cast 'holy aid' self
+divine cast 'divine' self
+dragon cast 'dragon
+sanc cast 'sanc' self
+bless cast 'bless' self
+armor cast 'armor' self
+spirit remove gloves; cast 'spirit armor' self;wear gloves
+haste cast 'haste' self
+gac get all all.corpse
+para cast 'paralyze' $*
+sum cast 'summon' $*
+detinv cast 'detect invis' self
+clone cast 'clone' self
+70 / #70 $*
+drag cast 'dragon' self
+invis cast 'invis' self
+recall cast 'word of recall'
+hh cast 'advanced heal'
+zombie cast 'animate dead' corpse
+spellme armor;bless;sanc;haste;dragon;aid;divine;
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

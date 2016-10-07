@@ -1,0 +1,123 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@- get all.coins all.corpse
+kc cast 'fireball' clone
+as order followers assist jaddie
+dw drink skin
+life remove charm;wear life
+dim cast 'dimension gate' $1
+ch remove life;wear charm
+bac remove whip;wield dagger;backstab $1;remove dagger;wield whip
+mor n;e;n;n;n;e;e;n;n;n
+rr rescue bodycount
+kk k buccaneer
+goto echo A distortion in the fabric of the universe expands from a point in front of you ...;at $1 echo A wrinkle in the structure of the matter around you captures your attention ...;goto $1
+ee track caretaker
+sr remove lord;wear cold
+bb get thick backpack;quaff thick
+ff cast 'fear' $1
+gg cast 'heal' geshp
+sle remove hammer;wield blade;sleep
+tea emote hands you a strong cup of tea
+nod emote nods affirmatively
+0 get all all.corpse
+b2 remove dagger;wield hammer
+b1 remove hammer;wield dagger
+da w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+6 remove hammer;hold wand;use wand jaddie;remove wand;hold hammer
+ww cast 'waterwalk' jaddie
+cf cast 'create food';eat mushroom
+cw cast 'create water' skin
+hh cast 'heal' jaddie
+1 quaff red
+jj get jelly backpack;quaff jelly
+elf w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s
+dr w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s
+qq cast 'earthquake'
+nn n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+8 order followers rescue jaddie
+of order followers
+fa order followers assist jaddie
+vv e;e;e;s;s;s;w;w;s;w;w;s;s
+bl cast 'bless' jaddie
+bs backstab
+aw cast 'cure critical' explorer
+de cast 'dispel evil'
+r cast 'word of recall'
+pl pick lock
+4 get meat backpack;eat meat
+dis cast 'inv'
+sg cast 'shocking grasp'
+bh cast 'burning hands'
+a cast 'armor'
+in cast 'inf'
+2 get red backpack;quaff red
+di cast 'detect invisibility'
+3 get white backpack;quaff white
+km k merchant
+lb cast 'lightning bolt'
+cc cast 'cure critic' jaddie
+q l onyx
+co cast 'cure light' onyx
+ed cast 'energy drain'
+sa cast 'sanctuary'
+f flee
+tav n;e;e;s;s;e;e;e;e;s
+zz s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w
+xx d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e
+tb track bosun
+5 get yellow backpack;quaff yellow
+te cast 'teleport'
+yy cast 'advanced heal' jaddie
+ss steal jelly jelly
+mo w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;e;n;e;e;s;e
+pp remove idol;hold pen;remove jeweled;wear charm
+rp cast 'remove poison' $1
+ll remove all.ring; wear all.lord
+dd cast 'finger of death' $1
+cave e;e;e;e;open gate;e;e;e;e;s;e;e;s;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;
+mm cast 'meteor swarm'
+cl cast 'clone'
+uu cast 'group heal'
+9 rescue kreep
+eye remove orb;hold eye
+orb remove eye;hold orb
+getup wake;stand;remove life;wear charm;remove eye;hold orb
+fb cast 'fireball' $1
+tt d;d;d;d;d;s
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

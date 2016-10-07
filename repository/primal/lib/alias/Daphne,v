@@ -1,0 +1,85 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@man rem cutlass; get spike crate; wi spike; backstab $1; rem spike; wi cutlass; put spike crate
+bs backstab $1
+home n;w;w;n;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;
+ss get silver backpack;rem cutlass;wi silver;slay $1;rem silver; wi cutlass; put silver backpack
+mc get knife crate; rem cutlass;wi knife; backstab crystal; rem knife; wi cutlass; put knife crate
+ph t picklehead $*
+] scan
+san c 'sanctuary' $*
+poi c 'remove poison' $*
+sen c 'sense life' $*
+id recite identify $*
+exac exa crate
+ref c 'refresh' $*
+nan get soaker crate; rem axe; wi soaker; backstab $1; rem soaker; wi axe; put soaker crate
+if get identify backpack; recite identify $*
+bless cast 'bless' $*
+str cast 'strength' $*
+armor cast 'armor' $*
+refil cast 'create water' skin; cast 'create water' skin; cast 'create water' skin
+tucker cast 'create food';cast 'create food';cast 'create food';cast 'create food';cast 'create food';eat mushroom;eat mushroom;eat mushroom;eat mushroom;eat mushroom;
+rrr cast 'word of recall' $*
+locate cast 'locate object' $1
+hh cast 'heal' $*
+ht hit traveller
+` train hit; train hit; train hit; train hit; train hit; train hit; train hit; train hit; train hit; train hit;
+start put all.meat backpack; put all.bread backpack; put dagger backpack; put skin backpack; wi sword
+ws wake; stand
+exab exa backpack
+jc get corpse; junk corpse
+gac get all corpse
+ggc get gold corpse; exa corpse
+qr get red backpack; q red
+nv cast 'infravision' self
+qq drink rum
+daphenestart get bag; get backpack; get staff; get fine; get bow; get charm; get charm; 
+invis cast 'invisibility' $*
+ret get recall backpack; recite recall self
+see cast 'detect invisibility' $*
+\ train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;
+bb tell bigbert $*
+merc rem boots; wear sandals
+boots rem sandals; wear boots
+em get meat crate; eat meat
+ds get skin crate; drink skin; put skin crate
+qw get white crate; q white
+sum c 'summon' $1
+1 t delusion $*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

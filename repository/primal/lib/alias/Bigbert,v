@@ -1,0 +1,153 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cww2 cast 'waterwalk' 2.clone
+cww1 cast 'waterwalk' clone
+i2 cast 'infravision' 2.clone
+i1 cast 'infravision' clone
+water cast 'create water' barrel
+db drink barrel
+para cast 'paralyze' $1
+white buy 10 white
+b rem sword
+1 train hit
+cong grats $1 !!!!!!
+tudor2 w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s;s
+tudor1 s;w;w;w;w;w;w;s;e;s;n;w;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s
+cave s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w
+gum emote closes his eyes and utters the words 'Bubble Gum';emote grabs the gum and starts to chew on it
+blow emote blows a big bubble which bursts in your face
+cb cast 'cure blindness' self
+ser cast 'serpent skin' self
+nuts emote closes his eyes and utters the words 'kachang puteh';emote grabs the nuts and starts eating them
+ms cast 'meteor swarm' $1
+cu cast 'curse' $1
+rp cast 'remove poison' self
+fb cast 'fireball' $1
+hr cast 'harm' $1
+cble cast 'bless' $1
+car cast 'armor' $1
+csan cast 'sanctuary' $1
+ps primal scream
+ga cast 'group armor'
+gs cast 'group sanctuary'
+gh cast 'group heal'
+em get meat crate;eat meat
+putm put all.meat crate
+aa cast 'advanced heal' self
+fly cast 'fly' self
+ble cast 'bless' self
+cin cast 'infravision' $1
+cinv cast 'invisibility' $1
+cdi cast 'detect invisibility' $1
+cww cast 'waterwalk' $1
+ww cast 'waterwalk' self
+bl cast 'blindness' $1
+chh cast 'heal' $1
+city n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;s;s
+cst cast 'strength' $1
+sl cast 'sleep' $1
+howl holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+ar cast 'armor' self
+ch cast 'charm person' $1
+al cast 'detect alignment' self
+toy3 w;w;u;u;u;u;e
+loc cast 'locate object' $1
+cc cast 'cure critic' $1
+ccs cast 'cure critic' self
+eb examine bag
+ep examine backpack
+puts put all.scroll bag
+fl flee
+jc get corpse; junk corpse
+ec examine corpse
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w
+toy1 s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s
+toy2 w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n
+id get identify bag;recite identify $1
+ceat cast 'create food';eat mushroom
+ref cast 'refresh' self
+cc1 s;s;s;w;w;w;w;n;n;n;w;s;w;n;n;e;s;w;s;s;w;n;w;w;n;n;e
+cc2 e;e;e;e;n;e;n;n;n
+sense cast 'sense life' self
+ws wake;stand
+bcave s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s;e
+sum cast 'summon' $1
+cref cast 'refresh' $1
+cret cast 'word of recall' $1
+ret cast 'words of recall' self
+storybook w;w;u;u;u;u;e;e;s;w;s;w;w;s;go book;u;u;u;u;u;e
+shadow s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;n;e;n
+enchant cast 'enchant weapon' $1
+gg get gold corpse;get corpse;junk corpse
+tele cast 'teleport' self
+gac get all corpse;get corpse;junk corpse
+crp cast 'remove poison' $1
+hh cast 'heal' self
+in cast 'infravision' self
+inv cast 'invisibility' self
+qr get red crate;quaff red
+qw get white crate;quaff white
+putw put all.white crate
+putr put all.red crate
+st cast 'strength' self
+ecr examine crate
+dropp get all.white crate;drop all.white;get all.red crate;drop all.red
+san cast 'sanctuary' self
+cw cast 'create water' bucket
+putrest open crate;put sombrero crate
+caa cast 'advanced heal' $1
+pl cast 'plasma blast' $1
+fi cast 'fireball' $1
+fing cast 'finger of death' $1
+cl cast 'clone'
+ass o f assist bigbert
+2 look 2.clone
+spiral u;u;u;w;w;d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e
+gr group all
+dim cast 'dimension gate' $1;open gate;go gate;stand;say What a way to travel!!!
+ring rem pirate;wear cold;rem pirate;wear fire
+remring rem cold;wear pirate;rem fire;wear pirate
+ed cast 'energy drain' $1
+start get all;wear all;wi hammer;hold pen;hold tooth;open crate;drop whip;drop all.eye;get eye
+lair d;w;w;w;w;w;w;w;w;w;d;s;s;s;s;s;s;d;e;e;e;e;e;e;e;e;e;d
+bottom w;w;w;w;w;w;w;w;w;d;n;n;n;n;e;e;e;e;e;e;e;e;d;d;d;d;w;w;w
+0 open trapdoor
+qb quaff blue
+ad cast 'animate dead' corpse
+gaa get all corpse;get all 2.corpse;get all 3.corpse
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

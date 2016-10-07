@@ -1,0 +1,17 @@
+lin look in corpse
+cw cast 'create water' canteen
+x remove vorpal;;wield soaker
+z remove soaker;;wield vorpal
+rr rec recall
+ws wake;;stand
+sl sleep
+fsf fill skin fountain
+df drink fountain
+gac get all corpse
+ggc get gold corpse
+eb get bread backpack;;eat bread
+food cast 'create food';;eat mushroom
+fc fill canteen fountain
+dc drink canteen
+cc cast 'cure critical'
+a s;;ba cloaker

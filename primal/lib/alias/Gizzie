@@ -1,0 +1,21 @@
+bs backstab $*
+gw get white back;quaff white
+pw put all.white backpack
+cc cast 'cure critic' gizzie
+cinv cast 'invisibility' gizzie
+ci cast 'infravision' gizzie
+ca cast 'armor' gizzie
+pp put all.potion backpack
+em eat mushroom;eat mushroom;eat mushroom;eat mushroom;eat mushroom
+cf cast 'create food';cast 'create food';cast 'create food';cast 'create food';cast 'create food'
+cl cast 'cure light' gizzie
+di cast 'detect invisibility' gizzie
+gb get bread backpack;eat bread;get bread backpack;eat bread
+pb put all.bread backpack
+ds drink skin
+qr quaff red
+qw quaff white
+giz look at gizzie
+cslp cast 'sleep' $*
+tc get all corpse;get corpse;junk corpse
+cs cast 'strength' gizzie

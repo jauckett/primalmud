@@ -1,0 +1,59 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.31.01;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.31.01;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@syslog.1:Mon Sep 21 21:34:41 :: Lyxicarn killed by the judge at Judge's Chambers
+syslog.1:Mon Sep 21 21:35:54 :: Lyxicarn killed by the Rabid Dog at Entrance to the Wayfarer's Inn.
+syslog.1:Tue Sep 22 05:37:57 :: Horkdoom killed by Mercury at A Mountain Path
+syslog.1:Tue Sep 22 07:31:40 :: Lopedawg killed by the City Guard at Crossroads of Main and Regiment.
+syslog.2:Tue Sep 22 12:01:53 :: Zimoplaz killed by the werewolf at River Road.
+syslog.3:Tue Sep 22 12:33:13 :: Zimoplaz killed by the City Guard at Crossroads of Main and Regiment.
+syslog.4:Tue Sep 22 15:17:13 :: Calin killed by Caesar at The Emperor's Private Office
+syslog.4:Tue Sep 22 20:15:08 :: Tupac killed by the Assassin at Southbank Road.
+syslog.4:Tue Sep 22 20:19:42 :: Cailette killed by Kosh at Southbank Road.
+syslog.4:Tue Sep 22 20:50:56 :: Tupac killed by the Assassin at Riverside Tavern.
+syslog.4:Tue Sep 22 21:09:03 :: Gangsta killed by the janitor at Market Way.
+syslog.4:Tue Sep 22 21:57:18 :: TheWizard killed by the Child ghost at Blue Creek Rd
+syslog.4:Tue Sep 22 23:03:29 :: Moe killed by Kosh at Market Way.
+syslog.4:Wed Sep 23 04:46:56 :: Frunobulax killed by the Sentinel of Guardian Hall at The Guardians of Justice guard post
+syslog.4:Wed Sep 23 05:50:24 :: Horkdoom killed by the guard at End of Dully Lit Corridor
+syslog.4:Wed Sep 23 05:56:21 :: KillemAll killed by the guard at End of Dully Lit Corridor
+syslog.5:Wed Sep 23 07:26:08 :: Gauge killed by the gypsy at Darask Road.
+syslog.6:Wed Sep 23 17:04:48 :: Bloodfang killed by the hungry wolf at Beginning of a dry creek bed.
+syslog.6:Thu Sep 24 01:22:52 :: Lyxicarn killed by the Golem Fisherman at Underground river
+syslog.6.save:Tue Jun 16 01:42:40 :: Kanze killed by Moe at Mortal Kombat Battle ARENA!! (fight in dark)
+syslog.6.save:Tue Jun 16 02:41:56 :: Ravin killed by the hungry wolf at Atop a small rise
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

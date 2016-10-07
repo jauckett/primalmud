@@ -1,0 +1,14 @@
+ch rem knife; wi vorpal
+b rem sword; wield knife; backstab $1; rem knife; wield sword
+bs cast 'backstab'
+mm cast 'magic missile'
+gac get all corpse
+cc cast 'cure critic'
+cl cast 'cure light' 
+tm tell muldar
+am assist muldar
+cast '
+ci cast 'infravision'
+hm cast 'cure critic' muldar
+t tag 
+bb rem vorpal; wield dagger; backstab $1; rem dagger; wield vorpal

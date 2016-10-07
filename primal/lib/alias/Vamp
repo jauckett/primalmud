@@ -1,0 +1,23 @@
+inv cast 'invis
+km kill merchant
+= get recall crate;recite recall
+m get meat crate;eat meat
+ks kill skeleton
+yellow get yellow crate;quaff yellow
+4 put all crate
+water get skin crate;drink skin;put skin crate
+kt kill trickster
+cr loo in crate
+x examine corpse
+c get all.coins all.corpse
+r get red crate;quaff red
+white get white crate;quaff white
+a alias $*
+gac get all all.corpse
+h cast 'cure light'
+f cast 'infra
+kl kill traveller
+nm kil nobleman
+sw remove dagger;wield sword
+da remove sword;wield dagger
+b kill bandit

@@ -1,0 +1,494 @@
+head	1.4;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2000.03.13.17.11.47;	author talisman;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.03.08.12.34.21;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.30;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Clases fully implemented into this along with some revision sto quest code, and minor other modifications.
+@
+text
+@#10101
+fate cruel~
+your Cruel Fate~
+Cruel Fate stands here, waiting to pounce on you and all you hold dear.
+~
+Your fate looks back at you, but you find yourself unable to stare into
+the eyes of that which comes. Face the future or destroy it.
+~
+59409 32956 0 S
+110 -15 -15 20d250+20000 100d10+250
+0 2500000 
+8 8 0
+#10102
+warrior burly guardian~
+a burly warrior~
+A strong warrior and guardian of Kana stands here ready to kill anything
+that moves.
+~
+A muscular man with many scars to prove his battle readiness with. Armed
+to the teeth and dedicated to his own life, this warrior would kill you as
+soon as look at you.
+~
+31476 8204 -500 S
+78 -65 -8 1d500+6000 20d20+65
+175000 650000
+8 8 1 
+#10103
+fighter~
+a powerful fighter~
+A powerful fighter stands here, arrogant in his own force of arms.
+~
+The permanant sneer on this fighter's face makes you want to break a few
+teeth and put him in his place.
+~
+28241 32780 -600 S
+80 -60 -9 1d1000+6500 20d25+75
+200000 700000
+8 8 1
+#10104
+knight protector~
+a knight protector~
+Fully clad in plate armor, a tall knight protector stands vigil here.
+~
+You cannot see the knight's face, but from the look of the well polished
+armour and upright stance, you sense that here truly stands a warrior to
+be respected. He will stand his watch and never falter, do his duty
+without question, and protect his code of ethics unto death.
+~
+227378 42124 -750 S
+84 -65 -10 1d1500+6500 25d25+70
+225000 1000000 
+8 8 1
+#10105
+avenger~
+an avenger~
+Polished silver armour encases an avenger questing here.
+~
+Holy warriors of great reknown, this man represents the undoing of all
+that is evil. Questing through the world in defence good, these knights
+are rarely seen in great numbers, such is their power and
+fame. 
+~
+260369 37004 750 S
+84 -75 -10 1d1000+7000 25d25+65
+125000 1000000
+8 8 1
+#10106
+infiltrator spy~
+an infiltrator~
+An infiltrator is here, spying for the invaders.
+~
+A weasel like stick of a man, you almost over looked him as you entered
+the room but your instincts remind you that information is power, and in a
+war spies are a powerful tool to be used like a sharp sword. And be
+disposed of when their usefulness comes to an end.
+~
+26774 820256 -100 S
+77 -55 -9 1d500+3500 10d25+55
+200000 500000
+8 8 1
+#10107
+footman pikeman~
+a footman~
+A footman holding a long pike stands here.
+~
+The standard fare of every army, the footman is a stolid trooper that can
+unhorse a man with a pike and then bring their short sword to bear. 
+~
+63764 294916 200 S
+79 -75 -6 1d1500+4500 15d30+80
+175000 750000
+8 8 1
+#10108
+war hound warhound~
+a warhound~
+An alert warhound stands here panting with excitement.
+~
+You see a powerful and sleek animal, trained in the art of man-killing.
+This dog is ferocious when attacked, and when travelling in a pack can
+bring down the strongest opponent.
+~
+63507 33832 0 S
+70 -60 -8 1d1000+4000 10d13+50
+100000 450000
+8 8 0
+#10109
+trainer warhound warrior~ 
+a warhound warrior~
+A warrior specialising in the art of combat with warhounds stands here.
+~
+This warrior is relatively smaller and weaker than many of the other fighters
+you have seen, but can be very deadly when they have a pack of warhounds under
+their command.
+~
+32405 33804 -400 S
+75 -50 -7 1d1000+7500 10d18+60
+150000 700000
+8 8 1
+#10110
+scavenger war~
+a war scavenger~
+A dirty scavenger stoops over corpses here, looking for loot.
+~
+Filth encrusted and unwashed, these creatures barely resemble humans any
+longer, so degraded are they. Left with no choice but to scavenge for
+their fare now that their homes have been destroyed, and their past lives
+long gone, they plod through the battlefield looting what they can.
+~
+26852 33792 0 S
+75 -55 -9 1d1500+5000 10d25+55
+100000 650000
+8 8 1
+#10111
+archer~
+an archer~
+Wielding a longbow, an archer stands here sighting you.
+~
+Well trained archers, the longbow men are a necessity in any army that
+wishes to win a war with minimum casualties. They are a tactical troop
+that can provide devastating damage to the enemy and protect retreating
+allies.
+~
+63538 32938 0 S
+82 -70 -7 1d500+4500 25d15+45
+200000 800000
+8 8 1
+#10112
+elite master archer~
+a master archer~
+Wielding a powerful composite bow, an elite master archer eyes you with
+disdain.
+~
+True marksmen, master archers are reputed to be the finest shots with the
+bow in all the lands. Trained to their status by other marksmen, they are
+highly sought after to train and lead lesser archers.
+~
+63602 557192 0 S
+85 -75 -8 1d1000+6500 28d17+50
+250000 900000
+8 8 1
+#10113
+war leader~
+the war leader~
+The leader of the defence effort stands here discussing strategies.
+~
+Tall and muscular, this impressive woman leads Kana's defences, responding 
+to the invader's every strike, and anticipating their counter moves with 
+incredible cunning.
+~
+130643 41132 -500 S
+90 -75 -9 1d500+10000 25d40+60
+275000 920000
+8 8 2
+#10114
+silver knight fierce attack leader~
+the attack leader~
+A fierce knight in silver armour stands here, valiantly co-ordinating the
+attack.
+~
+Black hair frames the surprisingly young face of this haggard man who
+leads the forces of good against the town of Kana. Looking closely you can
+detect an aura of power that inspires you, as it must his men.
+~
+130643 41132 500 S
+90 -75 -9 1d1000+9500 27d35+75
+275000 920000
+8 8 1
+#10115
+defender woman lovely wife~
+a defender's wife~
+A lovely looking woman stands here, anxiously waiting the return of her man.
+~
+This woman is a lovely reminder of what wars are all about, and
+why anyone would defend their homeland and family from all that would seek
+to destroy them. 
+~
+28866 33792 -250 S
+75 -60 -6 1d500+4000 10d30+50
+100000 350000
+8 8 2
+#10116
+innocent young child~
+an innocent child~
+A young child is here, innocent, and confused by the events around him.
+~
+Small and innocent this little boy is confused with these complicated games
+the adults play, but will valiantly do what he can if he sees someone he
+knows being attacked.
+~
+28806 1026 0 S
+70 -65 -5 1d100+3500 5d30+50
+50000 250000
+8 8 1
+#10117
+pretty young girl~
+a pretty young girl~
+A pretty young girl stands here biting on the tip of her hair worriedly.
+~
+This pretty young lass looks back at you with the defiance of youth, and
+is just starting to blossom into life.
+~
+30854 33800 200 S
+73 -65 -6 1d1500+3500 10d25+50
+100000 375000
+8 8 2
+#10118
+crazed crazy looter sacker attacker~
+a crazed looter~
+An attacker has lost all control and is madly sacking everything in sight.
+~
+This once noble fighter has lost all control in the heat of battle and 
+become a wild animal interested only in pillaging.
+~
+59428 4228264 -400 S
+80 -75 -8 1d1000+4000 15d25+75
+200000 850000
+8 8 1
+#10119
+battle advisor intelligent man~
+a battle advisor~
+An intelligent looking man stands here, advising the leader with the
+battle at hand.
+~
+Obviously an aged veteran of many wars, this man has survived through his
+own cunning and skill in battle, and now provides invaluable advice to
+those in charge of battles.
+~
+260178 32904 0 S
+88 -75 -8 1d500+5500 20d30+60
+175000 880000
+8 8 1
+#10120
+shark lazy fat~
+a fat lazy shark~
+A shark that looks quite fat and well fed is lazily swimming here.
+~
+This creature looks almost tame. It has become so used to easy feeding that
+you get the feeling with the right words you could make it roll over so you 
+could tickle its belly.
+~
+59478 33920 -250 S
+73 -50 -6 1d1000+2500 10d20+55
+75000 400000
+8 8 0
+#10121
+survivor sailor~
+an unconscious sailor~
+An unconscious sailor is lying here, having survived his ship.
+~
+The sailor looks like he's in a pretty bad way. Beaten, bruised, bleeding and
+half-drowned, he has been washed up on the beach and is on the verge of death.
+~
+0 1048576 0 S
+75 -60 -6 0d0+1 20d20+50
+50000 1
+4 4 1
+#10122
+old venerable knight protector~
+the venerable knight protector~
+Wrinkled and weathered, an old knight prays here for salvation.
+~
+Although still built powerfully, and wielding a sharp edged sword by his side,
+this knight was at his pinacle a long time ago. That fact that he lives
+on even now says much for his skill.
+~
+90258 33920 0 S
+86 -50 -8 1d1500+6000 10d55+50
+300000 900000
+6 6 1
+#10123
+wounded footman pikeman~
+a wounded footman~
+A wounded footman holding a long pike is panicking here.
+~
+The standard fare of every army, the footman is a stolid trooper that can
+unhorse a man with a pike and then bring their short sword to bear. This
+particular specimen seems to have a few arrows poking out from his
+back and chest.
+~
+63766 294916 200 S
+79 -75 -6 1d1500+3500 15d30+80
+175000 750000
+8 8 1
+#10150
+purple insane mage arch archmage~
+an insane archmage~
+An archmage in purple robes stands here drooling at you.
+~
+This once sophisticated and incredibly intelligent being has been twisted
+and warped by strange energies. From his strange babblings you deduce that he 
+has seen the face of god, and been driven crazy by the experience. 
+He's insane, at any rate.
+~
+260213 32952 0 S
+95 -100 -10 1d2000+11000 12d65+90
+300000 1000000
+8 8 1
+#10151
+animated gargoyle stone~
+an animated gargoyle~
+An animated stone gargoyle is stomping around here with jerky movements.
+~
+This creature is quite obviously made of stone, by a mediocre craftsman. 
+It looks very tough, and you suspect the hide will be almost impossible
+to pierce should it attack you.
+~
+256064 33800 0 S
+85 -80 -11 1d2000+8000 15d35+70
+150000 750000
+8 8 0
+#10152
+master magician~
+a master magician~
+A master magician is here researching arcane arts.
+~
+Robed in blue, with a flowing cape, this mage has long since mastered the
+lesser realms of magic, and is delving into unplumbed depths, probing the
+secrets of the universe.
+~
+64784 32940 450 S
+92 -80 -11 10d100+10000 20d35+70
+250000 920000
+8 8 1
+#10153
+familiar mage~
+a mage's familiar~
+Flying here, a mage's familiar peers about curiously.
+~
+If this creature wasn't so small you might be intimidated by the
+similiarity it bears to evil imps and legendary demons reputed to frequent
+hell. It seems friendly enough and it's long pointy tail is amusing more
+than dangerous.
+~
+8450196 196744 350 S
+85 -65 -7 1d500+5000 20d15+65
+200000 650000
+8 8 0 
+#10154
+power lich~
+a power lich~
+Haunted by dreams of power, a lich plots here.
+~
+Cadaverous in appearance, and clothed in rags, this creature was once a
+powerful mage who applied arcane arts to extending life beyond the normal
+span. Now that it is undead the mage plots to find a way to reverse the
+process and become immortal.
+~
+256113 99518 -750 S
+98 -90 -13 10d500+10000 30d25+85
+250000 1000000
+8 8 0 1
+#10155
+enchanter~
+an enchanter~
+Preoccupied with the material world, an enchanter stands here playing
+with an object.
+~
+Almost constantly frowning, enchanters are distracted beings who find
+pleasure in the enhancement of the world around them. 
+~
+57364 33936 100 S
+87 -75 -7 5d500+6500 10d50+65
+250000 800000
+8 8 1
+#10156
+invisible stalker~
+an invisible stalker~
+An invisible stalker is here hunting someone.
+~
+Created to punish those who go against a mage's bidding, these stalkers
+are invisible beings of great power, and are hard to hit due to their
+immaterial nature. The only time they are usually seen is right before the
+victim feels their deadly touch.
+~
+256785 930988 0 S
+91 -90 -11 10d100+9000 25d25+70
+1 920000
+8 8 0
+#10157
+titan~
+a monstrous titan~
+A monstrous titan towers over you, glaring down with fierce eyes.
+~
+Made of shiny silver-blue metallic substance, this titan is a wonder of
+creation, an ingenious creature of artificial manufacture. It is vast and
+moves smoothly, while the shell of its body is virtually impenetrable, and
+lightning dances about its head and shoulders.
+~
+260211 33976 0 S
+99 -100 -15 5d1000+18000 45d20+90
+500000 1250000
+8 8 0
+$
+@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@d371 1
+a371 1
+8 8 0
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

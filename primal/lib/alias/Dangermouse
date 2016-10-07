@@ -1,0 +1,13 @@
+// immnet #101 $*
+/. / #100 $*
+hd hc destroy $*
+hb hc build $*
+po poofout crawls back into the same hole that he came from
+pi poofin crawls through a miniscule hole in time
+lo load obj $*
+vno vnum obj $*
+vso vstat obj $*
+vnm vnum mob $*
+vsm vstat mob $*
+lm load mob $*
+heal cast 'heal' $1

@@ -1,0 +1,8 @@
+ref cast ' refresh' $1
+rr recite recall
+sg cast 'shocking grab'
+gag get gold all.corpse
+dra cast 'dragon'
+cb cast 'bless' $1
+cen cast 'ene' $1
+cll cast 'call' $1

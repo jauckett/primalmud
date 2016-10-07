@@ -1,0 +1,190 @@
+3
+met
+20
+cast 'meteor swarm' 
+0
+4
+serp
+19
+cast 'serpent skin'
+0
+4
+fing
+25
+cast 'finger of death' $1
+1
+4
+comp
+14
+compost corpse
+0
+5
+stone
+19
+cast 'stoneskin' $1
+1
+2
+fh
+16
+get 5 heal field
+0
+5
+ident
+15
+cast 'identify'
+0
+6
+sarmor
+22
+cast 'spirit armor' $1
+1
+5
+sanct
+19
+cast 'sanctuary' $1
+1
+5
+aheal
+23
+cast 'advanced heal' $1
+1
+8
+strength
+18
+cast 'strength' $1
+1
+4
+heal
+14
+cast 'heal' $1
+1
+2
+cc
+23
+cast 'cure critical' $1
+1
+5
+bless
+15
+cast 'bless' $1
+1
+5
+armor
+15
+cast 'armor' $1
+1
+5
+magic
+23
+cast 'magic missile' $1
+1
+5
+swarm
+19
+cast 'meteor swarm'
+0
+4
+fear
+14
+cast 'fear' $1
+1
+5
+drain
+22
+cast 'energy drain' $1
+1
+7
+enchant
+24
+cast 'enchant weapon' $1
+1
+4
+para
+18
+cast 'paralyze' $1
+1
+2
+cw
+22
+cast 'control weather'
+0
+3
+inv
+22
+cast 'invisibility' $1
+1
+2
+pb
+22
+cast 'plasma blast' $1
+1
+2
+gp
+20
+get 2 protection bag
+0
+2
+gh
+19
+get 5 heal backpack
+0
+2
+qp
+16
+quaff protection
+0
+2
+qh
+10
+quaff heal
+0
+2
+da
+23
+cast 'detect alignment'
+0
+2
+fb
+18
+cast 'fireball' $1
+1
+2
+di
+29
+cast 'detect invisibility' $1
+1
+2
+lb
+24
+cast 'lightning bolt' $1
+1
+2
+sh
+24
+cast 'shocking grasp' $1
+1
+2
+em
+12
+eat mushroom
+0
+2
+ds
+10
+drink skin
+0
+4
+food
+18
+cast 'create food'
+0
+2
+df
+14
+drink fountain
+0
+2
+fs
+18
+fill skin fountain
+0

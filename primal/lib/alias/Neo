@@ -1,0 +1,23 @@
+dwat get can back;drink can;put can back
+earth cast 'earthquake'
+home! n;n;w;w;w;n;n;w;w;w;w;w;w;w;n;u;
+graveyard! e;e;e;e;open gate; e;e;e;e;e;s;s;s;s;s;s;s;s
+rome! s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+start wear all
+1 snap
+gcorp get corpse;junk corpse
+ween cast 'cure light' weenie
+col cast 'color spray' $1
+x cast 'cure light' guard; cast 'cure light' guard; cast 'cure light' guard
+z train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+drag cast 'dragon' neo
+sn snap
+cure cast 'cure light' neo
+magic cast 'magic missile'$1
+det cast 'detect invisibility'
+arm cast 'armor' neo
+burn cast 'burning hands' $1
+li cast 'lightning' $1
+` quitreally
+haven! d;s;e;e;e;e;e;e;e;e;s;s;e;e;e;s;s
+thp! train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;

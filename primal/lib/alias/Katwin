@@ -1,0 +1,12 @@
+cf cast 'create food'
+1 get all corpse
+arm cast 'armor'
+ble cast 'bless'
+curc cast 'cure critic'
+sum cast 'summon'
+recall cast 'word of recall'
+gw get white force
+gr get red force
+qw quaff white
+qr quaff red
+heal cast 'heal'

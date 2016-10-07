@@ -1,0 +1,93 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Long ago when the tyranny of The Avengers reigned supreme over the land</title>
+</head>
+
+<body>
+
+<p align="left"><img border="0" src="guardians2.gif" width="95" height="94"> <img border="0" src="../letters/G.gif" width="60" height="50"><font size="5">uardians</font><font size="5" color="#6868FF">
+</font><img border="0" src="../letters/O.gif" width="50" height="50"><font size="5">f</font><img border="0" src="../letters/J.gif" width="35" height="50">
+<font size="5">ustice</font></p>
+
+<p align="left">&nbsp;</p>
+
+<p align="left"><img border="0" src="../letters/L.gif" width="50" height="50">ong ago when the tyranny of The Avengers reigned supreme over the land, it was
+a dark and evil place. Moe, the leader of The Avengers was a cruel tyrant, feared by all the newbies. For when he would become bored, this terrible king
+would take up arms, and lay waste to new players everywhere. Thus he was dubbed The Butcher.&nbsp;<br>
+<br>
+<img border="0" src="../letters/T.gif" width="50" height="50">here also existed two smaller clans. The Primal Knights, and The Astral
+Wraiths. They both suffered under the curse of Moe, until one day, they could bear it no more. Being too small to fight the Avengers individually, they&nbsp;<br>
+united to form a tough but short lived clan called The Astral Knights, but due to the lies and deception of Moe, our numbers slowly dwindled into a handful of
+loyal members. Not to be discouraged, we took our small army, and passed ourselves off as clanless fighters, so The Evil One would not watch us.<br>
+<br>
+<img border="0" src="../letters/F.gif" width="50" height="50">inally the day came. We threw off our masks of clanlessness, and rose once more
+as The Guardians of Justice! Since then, we have remained one of the two major clans of the mud, and a force to be reckoned with. A while after the clan was
+formed, Raistlin was reincarnated as the god Moridin. He is no longer a clan&nbsp;<br>
+leader, but supports us in spirit, and we pay our respects to him.&nbsp;</p>
+<p align="left"><br>
+<img border="0" src="../letters/T.gif" width="50" height="50">he current leaders of the clan are Dracion, Roj, and Tarn. If you are a
+Guardian, and have been attacked by an opposing clan, these are the people you should speak to. Essentially, The Guardians of Justice are the watchdogs of the
+mud, and will defend the innocent and helpless against Moe's army of darkness. All you need do is call, and a Guardian will help.<br>
+<br>
+</p>
+<p align="center"><br>
+                         FOR THE HONOUR OF ODIN<br>
+<br>
+<br>
+                          FOR THE GLORY OF WAR<br>
+<br>
+<br>
+                    FOR THE PROTECTION OF THE INNOCENT<br>
+<br>
+<br>
+                      FIGHT TO THE DEATH GUARDIANS!<br>
+</p>
+
+</body>
+
+</html>
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

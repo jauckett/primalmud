@@ -1,0 +1,4 @@
+r read $*
+gc get coins all.corpse
+ga get all all.corpse
+mm cast 'magic missile' $*

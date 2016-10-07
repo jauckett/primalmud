@@ -1,0 +1,42 @@
+getd wear all; wield pulse; hold knife; hold dream
+away put all.heal tool
+gi get all.heal tool; give all.heal xena
+gam d;e;go med
+jim n;n;w;w;w;s;go stage;e;e;e;e;u
+dp cast 'divine prot'
+sa cast 'spirit armor' $*
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+2 get prot tool; q prot
+sum cast 'summon' $*
+home cast 'word' 
+drag cast 'dragon'
+trainh train hit; train hit; train hit; train hit; train hit
+da cast 'detect align' $*
+di cast 'detect invis' $*
+invis cast 'invis' $*
+infra cast 'infra' $*
+wake wake; stand; look
+ghea cast 'group heal'
+sli cast 'sense life' $*
+garm cast 'group armor'
+gsan cast 'group sanc'
+ha cast 'holy aid' $*
+7 cast 'advanced heal' $*
+8 cast 'haste'
+ww cast 'whirlwind' $*
+buyh buy 20 heal; put all.heal tool
+buyp buy 10 prot; put all.prot tool
+rc cast 'remove curse' $*
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+walk cast 'refresh' $*
+gt get tool tool
+tool put tool 2.tool
+1 get heal tool; get heal tool; get heal tool; get heal tool; get heal tool; q heal; q heal; q heal; q heal; q heal; put tool 2.tool
+5 cast 'divine heal' xena
+6 cast 'divine heal' $*
+main s;e;e;e;e;s;s;e;e;e;s;s
+rs cast 'word' ;s;e;e;e;e;s;s;e;e;e;e;s; sleep

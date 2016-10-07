@@ -1,0 +1,28 @@
+================================================================================
+                               Primal Colours
+================================================================================
+ 
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+ 
+                                PrimalMUD v3.0
+                    Revamped by Michael Dishon, Jason Theofiles
+                               and Sandii Barrat
+                                                                 
+================================================================================
+&0 Heading                      GRN
+&1 Sub-Heading                  YEL
+&2 Help Headings                BWHT *
+&3 Help Attribute Headings      GRN *
+&4 Commands                     CYN
+&5 Objects                      GRN
+&6 Mobs                         YEL
+&7 PC's                         YEL
+&8 Room Headings                CYN 
+&9 Unused                       WHT
+
+* Open to colour suggestion - If you want it changed, you have to let me know.
+DM

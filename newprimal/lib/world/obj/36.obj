@@ -1,0 +1,162 @@
+#3600
+sewer access pit~
+the Sewer access~
+A sewer access pit is here~
+~
+41 0 0 0
+3601 5 0 0
+0 0 0 5
+L 5
+#3601
+Limestone pillar~
+Limestone pillar~
+A huge limestone pillar stands here from floor to ceiling~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#3602
+old portal~
+an old portal~
+An old portal stands here, powerless~
+~
+41 0 0 0
+3640 5 0 0
+0 0 0 5
+L 5
+#3603
+tree root~
+tree root~
+A tree root has forced its way through the ceiling and feeds off the contents of the sewer~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#3604
+pile~
+A pile of... stuff~
+A pile of god knows what lies here built up against the roots.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+pile~
+A pile of turds, condoms, pads and other disgusting vile items form a pile of rotting shit feeding the tree roots here
+~
+E
+shit~
+A pile of turds, condoms, pads and other disgusting vile items form a pile of rotting shit feeding the tree roots here
+~
+#3605
+blaster blob~
+the BloB's blaster~
+A strange blaster lies here, covered in a strange blobby goo~
+~
+5 49664 8193 0
+0 5 4 12
+4 15000 0 15
+L 15
+A
+18 2
+A
+19 2
+A
+12 -30
+#3606
+portal~
+an old portal~
+An old portal stands here, powerless~
+~
+41 0 0 0
+3639 5 0 0
+0 0 0 0
+L 0
+#3607
+Chest~
+Chest~
+A chest of marble lies here~
+~
+15 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+T 3604
+#3608
+gold coins~
+a pile of gold coins~
+A pile of gold coins lies here~
+~
+20 0 1 0
+10000 0 0 0
+0 0 0 0
+L 0
+T 3604
+#3609
+Sunnies~
+a pair of Sunnies~
+A pair of Sunnies lies here~
+~
+35 520 32785 0
+0 0 0 0
+1 3500 0 10
+L 10
+A
+6 1
+#3610
+Six pack beer~
+Six pack of beer~
+A Six pack of beer lies here~
+~
+17 65536 16385 0
+6 0 1 0
+2 0 0 0
+L 0
+#3611
+Combat bracers~
+a pair of Combat bracers~
+A pair of Combat bracers lies here~
+~
+9 512 257 0
+4 0 0 0
+2 5000 0 10
+L 10
+A
+18 1
+#3612
+Ring emerald~
+an Emerald ring~
+An Emerald ring lies here~
+~
+11 536577 3 0
+0 0 0 0
+1 15000 0 15
+L 15
+A
+19 1
+A
+13 5
+#3613
+glowing ball~
+a glowing ball~
+A shiny ball glows here~
+~
+1 513 16385 0
+0 0 -1 0
+1 15000 0 10
+L 10
+A
+11 2
+#3614
+maintenance hatch~
+A maintenance hatch~
+A maintenance hatch is jammed half open here.~
+~
+41 0 1 0
+3642 15 0 0
+0 0 0 15
+L 15
+$~

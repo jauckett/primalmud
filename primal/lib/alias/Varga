@@ -1,0 +1,17 @@
+ec examine corpse
+& cast 'fireball' $1
+sum c 'summon' $1
+arm cast 'armor' varga
+f french
+gcc get coins corpse
+cure cast 'cure critic' varga
+gmc get meat crate
+ds drink skin
+eb eat bread
+gbb get bread bag
+em eat meat
+gac get all corpse
+gmb get meat bag
+str cast 'str' varga
+# cast 'word of recall'
+cast 'frieball' guard

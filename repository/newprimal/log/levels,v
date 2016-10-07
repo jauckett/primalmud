@@ -1,0 +1,2674 @@
+head	1.5;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2003.10.27.06.33.51;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.20.12.02.19;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.16.10.29.19;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.01.16.22.43;	author sandii;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@Feb 15 01:34:43 :: Penfold advanced to level 1
+Feb 15 02:10:08 :: Newbie advanced to level 1
+Feb 15 22:03:12 :: Talisman advanced to level 1
+Feb 20 16:10:59 :: Sokra advanced to level 1
+Feb 20 16:17:29 :: Sokra advanced to level 1
+Feb 20 16:22:40 :: Sokra advanced to level 1
+Feb 20 16:27:23 :: Sokra advanced to level 1
+Feb 20 17:20:08 :: Sokra advanced to level 1
+Feb 20 17:37:19 :: Sokra advanced to level 1
+Feb 20 17:42:10 :: Sokra advanced to level 1
+Feb 20 17:47:03 :: Sokra advanced to level 1
+Feb 20 19:15:38 :: Test advanced to level 1
+Feb 20 19:41:05 :: Moi advanced to level 1
+Feb 20 20:01:58 :: Sokra advanced to level 1
+Feb 20 20:07:12 :: Sokra advanced to level 1
+Feb 20 20:40:56 :: Sokra advanced to level 1
+Feb 20 23:36:33 :: Sokra advanced to level 1
+Feb 20 23:39:19 :: Dangermouse advanced to level 1
+Feb 21 20:20:53 :: Penfold advanced to level 1
+Feb 22 03:08:21 :: Penfold advanced to level 1
+advanced heal         (superb)  70  [32mWis: [36m20[0m 
+Feb 29 16:20:14 :: &GDangermouse&g advanced to level &c1&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c2&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c3&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c4&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c5&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c6&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c7&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c8&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c9&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c10&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c11&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c12&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c13&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c14&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c15&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c16&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c17&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c18&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c19&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c20&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c21&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c22&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c23&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c24&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c25&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c26&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c27&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c28&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c29&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c30&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c31&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c32&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c33&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c34&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c35&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c36&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c37&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c38&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c39&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c40&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c41&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c42&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c43&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c44&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c45&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c46&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c47&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c48&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c49&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c50&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c51&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c52&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c53&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c54&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c55&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c56&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c57&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c58&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c59&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c60&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c61&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c62&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c63&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c64&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c65&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c66&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c67&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c68&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c69&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c70&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c71&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c72&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c73&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c74&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c75&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c76&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c77&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c78&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c79&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c80&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c81&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c82&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c83&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c84&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c85&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c86&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c87&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c88&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c89&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c90&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c91&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c92&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c93&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c94&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c95&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c96&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c97&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c98&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c99&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c100&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c101&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c102&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c103&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c104&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c105&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c106&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c107&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c108&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c109&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c110&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c111&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c112&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c113&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c114&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c115&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c116&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c117&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c118&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c119&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c120&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c121&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c122&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c123&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c124&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c125&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c126&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c127&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c128&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c129&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c130&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c131&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c132&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c133&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c134&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c135&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c136&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c137&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c138&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c139&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c140&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c141&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c142&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c143&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c144&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c145&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c146&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c147&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c148&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c149&g
+Feb 29 16:21:06 :: &GDangermouse&g advanced to level &c150&g
+Jan 17 19:07:46 :: Splat advanced to level 20
+Jan 17 23:52:17 :: Dangermouse advanced to level 1
+Jan 18 05:12:10 :: Splat advanced to level 21
+Jan 18 06:12:36 :: Splat advanced to level 22
+Jan 18 21:58:12 :: Splat advanced to level 23
+Jan 19 08:43:06 :: Splat advanced to level 24
+Jan 19 09:44:24 :: Splat advanced to level 25
+Jan 19 11:11:04 :: Splat advanced to level 26
+Jan 19 13:47:59 :: Splat advanced to level 27
+Jan 19 14:15:25 :: Splat advanced to level 28
+Jan 20 11:50:04 :: Tester advanced to level 1
+Jan 20 11:51:14 :: Batfink advanced to level 1
+Jan 20 13:01:46 :: Splat advanced to level 29
+Jan 20 20:02:27 :: Splat advanced to level 30
+Jan 21 21:10:22 :: Talisman advanced to level 1
+Jan 21 21:13:29 :: Splat advanced to level 31
+Jan 23 15:52:26 :: Tester advanced to level 2
+Jan 23 16:11:14 :: Tester advanced to level 3
+Jan 23 16:21:46 :: Tester advanced to level 4
+Jan 23 17:29:07 :: Roar advanced to level 1
+Jan 23 18:04:39 :: Splat advanced to level 32
+Jan 23 19:51:57 :: Blossum advanced to level 1
+Jan 23 19:56:22 :: Blossum advanced to level 2
+Jan 23 20:00:19 :: Blossum advanced to level 3
+Jan 23 21:43:50 :: Splat advanced to level 33
+Jan 23 22:32:24 :: Seth advanced to level 1
+Jan 23 22:51:00 :: Seth advanced to level 2
+Jan 23 22:51:00 :: Seth advanced to level 3
+Jan 23 22:51:00 :: Seth advanced to level 4
+Jan 23 22:51:00 :: Seth advanced to level 5
+Jan 23 22:51:00 :: Seth advanced to level 6
+Jan 23 22:51:00 :: Seth advanced to level 7
+Jan 23 22:51:00 :: Seth advanced to level 8
+Jan 23 22:51:00 :: Seth advanced to level 9
+Jan 23 22:51:00 :: Seth advanced to level 10
+Jan 23 22:51:00 :: Seth advanced to level 11
+Jan 23 22:51:00 :: Seth advanced to level 12
+Jan 23 22:51:00 :: Seth advanced to level 13
+Jan 23 22:51:00 :: Seth advanced to level 14
+Jan 23 22:51:00 :: Seth advanced to level 15
+Jan 23 23:25:57 :: Seth advanced to level 16
+Jan 24 08:30:01 :: Splat advanced to level 34
+Jan 24 10:07:43 :: Splat advanced to level 35
+Y               :: Splat advanced to level 36
+Y               :: Splat advanced to level 37
+Y               :: Splat advanced to level 38
+Y               :: Splat advanced to level 39
+Y               :: Nerinda advanced to level 1
+Y               :: John advanced to level 1
+Y               :: Splat advanced to level 40
+Y               :: Splat advanced to level 41
+Y               :: Splat advanced to level 42
+Y               :: Splat advanced to level 43
+Y               :: Splat advanced to level 44
+Y               :: Splat advanced to level 45
+Y               :: Splat advanced to level 46
+Y               :: Splat advanced to level 47
+Y               :: Splat advanced to level 48
+Y               :: Splat advanced to level 49
+Y               :: Splat advanced to level 50
+Y               :: Splat advanced to level 2
+Y               :: Splat advanced to level 3
+Y               :: Splat advanced to level 4
+Y               :: Splat advanced to level 5
+Y               :: Splat advanced to level 6
+Y               :: Splat advanced to level 7
+Y               :: Splat advanced to level 8
+Y               :: Splat advanced to level 9
+Y               :: Splat advanced to level 10
+Y               :: Splat advanced to level 11
+Y               :: Splat advanced to level 12
+Y               :: Splat advanced to level 13
+Y               :: Splat advanced to level 14
+Y               :: Splat advanced to level 15
+Y               :: Splat advanced to level 16
+Y               :: Splat advanced to level 17
+Y               :: Splat advanced to level 18
+Y               :: Splat advanced to level 19
+Y               :: Splat advanced to level 20
+Y               :: Splat advanced to level 21
+Y               :: Splat advanced to level 22
+Y               :: Splat advanced to level 23
+Y               :: Splat advanced to level 24
+Y               :: Splat advanced to level 25
+Y               :: Splat advanced to level 26
+Y               :: Splat advanced to level 27
+Y               :: Splat advanced to level 28
+Y               :: Splat advanced to level 29
+Y               :: Splat advanced to level 30
+Y               :: Splat advanced to level 31
+Y               :: Splat advanced to level 32
+Y               :: Splat advanced to level 33
+Y               :: Splat advanced to level 34
+Y               :: Splat advanced to level 35
+Y               :: Splat advanced to level 36
+Y               :: Splat advanced to level 37
+Y               :: Splat advanced to level 38
+Y               :: Splat advanced to level 39
+Y               :: Splat advanced to level 40
+Y               :: Splat advanced to level 41
+Y               :: Splat advanced to level 42
+Y               :: Splat advanced to level 43
+Y               :: Splat advanced to level 44
+Y               :: Splat advanced to level 45
+Y               :: Splat advanced to level 46
+Y               :: AmatesT advanced to level 1
+Y               :: Anotherbloodytester advanced to level 1
+Y               :: Anotherbloodytester advanced to level 2
+Y               :: Anotherbloodytester advanced to level 3
+Y               :: Anotherbloodytester advanced to level 4
+Y               :: Anotherbloodytester advanced to level 5
+Y               :: Anotherbloodytester advanced to level 6
+Y               :: Tester advanced to level 6
+Y               :: Tester advanced to level 7
+Y               :: Tester advanced to level 8
+Y               :: Tester advanced to level 9
+Y               :: Tester advanced to level 10
+Y               :: Tester advanced to level 11
+Y               :: Tester advanced to level 12
+Y               :: Dangermouse advanced to level 2
+Y               :: Dangermouse advanced to level 3
+Y               :: Dangermouse advanced to level 4
+Y               :: Dangermouse advanced to level 5
+Y               :: Dangermouse advanced to level 6
+Y               :: Splat advanced to level 47
+Y               :: Splat advanced to level 48
+Y               :: Anotherbloodytester advanced to level 7
+Y               :: Anotherbloodytester advanced to level 8
+Y               :: Anotherbloodytester advanced to level 9
+Y               :: Splat advanced to level 49
+Y               :: Splat advanced to level 50
+Y               :: Splat advanced to level 51
+Y               :: Splat advanced to level 52
+Y               :: Rand advanced to level 1
+Y               :: Megan advanced to level 1
+Y               :: Vampite advanced to level 1
+Y               :: Splat advanced to level 53
+Y               :: Cerin advanced to level 1
+Y               :: Cerin advanced to level 2
+Y               :: Cerin advanced to level 3
+Y               :: Cerin advanced to level 4
+Y               :: Cerin advanced to level 5
+Y               :: Cerin advanced to level 6
+Y               :: Rand advanced to level 2
+Y               :: Rand advanced to level 3
+Y               :: Cerin advanced to level 7
+Y               :: Rand advanced to level 4
+Y               :: Rand advanced to level 5
+Y               :: Rand advanced to level 6
+Y               :: Splat advanced to level 54
+Y               :: Rand advanced to level 7
+Y               :: Cerin advanced to level 8
+Y               :: Rand advanced to level 8
+Y               :: Cerin advanced to level 9
+Y               :: Rand advanced to level 9
+Y               :: Splat advanced to level 55
+Y               :: Rand advanced to level 10
+Y               :: Cerin advanced to level 10
+Y               :: Rand advanced to level 11
+Y               :: Cerin advanced to level 11
+Y               :: Splat advanced to level 56
+Y               :: Splat advanced to level 57
+Y               :: Splat advanced to level 58
+Y               :: Splat advanced to level 59
+Y               :: Splat advanced to level 60
+Y               :: Splat advanced to level 61
+Y               :: Splat advanced to level 62
+Y               :: Splat advanced to level 63
+Y               :: Splat advanced to level 64
+Y               :: Splat advanced to level 65
+Y               :: Splat advanced to level 66
+Y               :: Splat advanced to level 67
+Y               :: Splat advanced to level 68
+Y               :: Splat advanced to level 69
+Y               :: Splat advanced to level 70
+Y               :: Splat advanced to level 71
+Y               :: Splat advanced to level 72
+Y               :: Splat advanced to level 73
+Y               :: Splat advanced to level 74
+Y               :: Splat advanced to level 75
+Y               :: Splat advanced to level 2
+Y               :: Splat advanced to level 3
+Y               :: Splat advanced to level 4
+Y               :: Splat advanced to level 5
+Y               :: Splat advanced to level 6
+Y               :: Splat advanced to level 7
+Y               :: Splat advanced to level 8
+Y               :: Splat advanced to level 9
+Y               :: Splat advanced to level 10
+Y               :: Splat advanced to level 11
+Y               :: Splat advanced to level 12
+Y               :: Splat advanced to level 13
+Y               :: Splat advanced to level 14
+Y               :: Splat advanced to level 1
+Y               :: Splat advanced to level 2
+Y               :: Splat advanced to level 3
+Y               :: Splat advanced to level 4
+Y               :: Splat advanced to level 5
+Y               :: Splat advanced to level 6
+Y               :: Splat advanced to level 7
+Y               :: Splat advanced to level 8
+Y               :: Rand advanced to level 12
+Y               :: Splat advanced to level 9
+Y               :: Splat advanced to level 10
+Y               :: Splat advanced to level 11
+Y               :: Splat advanced to level 12
+Y               :: Splat advanced to level 13
+Y               :: Splat advanced to level 14
+Y               :: Splat advanced to level 15
+Y               :: Splat advanced to level 16
+Y               :: Splat advanced to level 17
+Y               :: Splat advanced to level 18
+Y               :: Splat advanced to level 19
+Y               :: Splat advanced to level 20
+Y               :: Splat advanced to level 21
+Y               :: Splat advanced to level 22
+Y               :: Splat advanced to level 23
+Y               :: Splat advanced to level 24
+Y               :: Splat advanced to level 25
+Y               :: Splat advanced to level 26
+Y               :: Splat advanced to level 27
+Y               :: Splat advanced to level 28
+Y               :: Splat advanced to level 29
+Y               :: Splat advanced to level 30
+Y               :: Splat advanced to level 31
+Y               :: Splat advanced to level 32
+Y               :: Splat advanced to level 33
+Y               :: Splat advanced to level 34
+Y               :: Splat advanced to level 35
+Y               :: Splat advanced to level 36
+Y               :: Splat advanced to level 37
+Y               :: Splat advanced to level 38
+Y               :: Splat advanced to level 39
+Y               :: Splat advanced to level 40
+Y               :: Splat advanced to level 41
+Y               :: Splat advanced to level 42
+Y               :: Splat advanced to level 43
+Y               :: Splat advanced to level 44
+Y               :: Splat advanced to level 45
+Y               :: Splat advanced to level 46
+Y               :: Splat advanced to level 47
+Y               :: Splat advanced to level 48
+Y               :: Splat advanced to level 49
+Y               :: Splat advanced to level 50
+Y               :: Splat advanced to level 2
+Y               :: Polgara advanced to level 1
+Y               :: Polgara advanced to level 2
+Y               :: Polgara advanced to level 3
+Y               :: Polgara advanced to level 4
+Y               :: Polgara advanced to level 5
+Y               :: Polgara advanced to level 6
+Y               :: Polgara advanced to level 7
+Y               :: Splat advanced to level 1
+Y               :: Splat advanced to level 2
+Y               :: Splat advanced to level 3
+Y               :: Splat advanced to level 4
+Y               :: Splat advanced to level 5
+Y               :: Splat advanced to level 1
+Y               :: Dangermouse advanced to level 2
+Y               :: Dangermouse advanced to level 3
+Y               :: Polgara advanced to level 1
+Y               :: Polgara advanced to level 2
+Y               :: Saphirrah advanced to level 1
+Y               :: Neroli advanced to level 1
+Y               :: Moridin advanced to level 1
+Y               :: Nakomis advanced to level 1
+Y               :: Testie advanced to level 1
+Y               :: FuckUp advanced to level 1
+Y               :: Splat advanced to level 1
+Y               :: Splat advanced to level 2
+Y               :: Splat advanced to level 3
+Y               :: Splat advanced to level 4
+Y               :: Splat advanced to level 5
+Y               :: Splat advanced to level 6
+Y               :: Splat advanced to level 7
+Y               :: Splat advanced to level 8
+Y               :: Splat advanced to level 9
+Y               :: Splat advanced to level 10
+Y               :: Splat advanced to level 11
+Y               :: Splat advanced to level 12
+Y               :: Splat advanced to level 13
+Y               :: Splat advanced to level 14
+Y               :: Splat advanced to level 15
+Y               :: Splat advanced to level 16
+Y               :: Splat advanced to level 17
+Y               :: Splat advanced to level 18
+Y               :: Splat advanced to level 19
+Y               :: Splat advanced to level 20
+Y               :: TombStone advanced to level 1
+Y               :: TombStone advanced to level 2
+Y               :: TombStone advanced to level 3
+Y               :: TombStone advanced to level 4
+Y               :: TombStone advanced to level 5
+Y               :: TombStone advanced to level 6
+Y               :: TombStone advanced to level 7
+Y               :: Tester advanced to level 2
+Y               :: Tester advanced to level 3
+Y               :: Latona advanced to level 1
+Y               :: Tester advanced to level 1
+Y               :: Tester advanced to level 2
+Y               :: Latona advanced to level 2
+Y               :: Latona advanced to level 3
+Y               :: Tester advanced to level 3
+Y               :: Tester advanced to level 4
+Y               :: Tester advanced to level 5
+Y               :: TombStone advanced to level 8
+Y               :: Alica advanced to level 1
+Y               :: Alica advanced to level 2
+Y               :: Alica advanced to level 3
+Y               :: Alica advanced to level 4
+Y               :: Alica advanced to level 5
+Y               :: Alica advanced to level 6
+Y               :: Alica advanced to level 7
+Y               :: Alica advanced to level 8
+Y               :: Alica advanced to level 9
+Y               :: Latona advanced to level 1
+Y               :: Latona advanced to level 2
+Y               :: Latona advanced to level 3
+Y               :: Latona advanced to level 4
+Y               :: Latona advanced to level 5
+Y               :: TombStone advanced to level 9
+Y               :: Latona advanced to level 6
+Y               :: Alica advanced to level 10
+Y               :: TombStone advanced to level 10
+Y               :: Alica advanced to level 11
+Y               :: TombStone advanced to level 11
+Y               :: Alica advanced to level 12
+Y               :: TombStone advanced to level 12
+Y               :: Alica advanced to level 13
+Y               :: TombStone advanced to level 13
+Y               :: Alica advanced to level 14
+Y               :: TombStone advanced to level 14
+Y               :: Alica advanced to level 15
+Y               :: TombStone advanced to level 15
+Y               :: Alica advanced to level 16
+Y               :: Alica advanced to level 17
+Y               :: TombStone advanced to level 16
+Y               :: Alica advanced to level 18
+Y               :: TombStone advanced to level 17
+Y               :: TombStone advanced to level 18
+Y               :: Alica advanced to level 19
+Y               :: TombStone advanced to level 19
+Y               :: Alica advanced to level 20
+Y               :: Latona advanced to level 7
+Y               :: Latona advanced to level 8
+Y               :: Latona advanced to level 9
+Y               :: Latona advanced to level 10
+Y               :: Dredd advanced to level 1
+Y               :: Dredd advanced to level 2
+Y               :: Dredd advanced to level 3
+Y               :: Dredd advanced to level 4
+Y               :: Dredd advanced to level 5
+Y               :: Dredd advanced to level 6
+Y               :: Dredd advanced to level 7
+Y               :: Dredd advanced to level 8
+Y               :: Dredd advanced to level 9
+Y               :: Latona advanced to level 11
+Y               :: Dredd advanced to level 10
+Y               :: Dredd advanced to level 11
+Y               :: Latona advanced to level 12
+Y               :: Dredd advanced to level 12
+Y               :: Latona advanced to level 13
+Y               :: Dredd advanced to level 13
+Y               :: Latona advanced to level 14
+Y               :: Dredd advanced to level 14
+Y               :: Latona advanced to level 15
+Y               :: Dredd advanced to level 15
+Y               :: Latona advanced to level 16
+Y               :: Dredd advanced to level 16
+Y               :: Latona advanced to level 17
+Y               :: Dredd advanced to level 17
+Y               :: Dredd advanced to level 18
+Y               :: Alica advanced to level 21
+Y               :: Alica advanced to level 22
+Y               :: TombStone advanced to level 20
+Y               :: TombStone advanced to level 21
+Y               :: Alica advanced to level 23
+Y               :: Nemreh advanced to level 2
+Y               :: Nemreh advanced to level 3
+Y               :: Nemreh advanced to level 4
+Y               :: Nemreh advanced to level 5
+Y               :: Nemreh advanced to level 6
+Y               :: TombStone advanced to level 22
+Y               :: Alica advanced to level 24
+Y               :: TombStone advanced to level 23
+Y               :: Nemreh advanced to level 7
+Y               :: Alica advanced to level 25
+Y               :: Nemreh advanced to level 8
+Y               :: TombStone advanced to level 24
+Y               :: Alica advanced to level 26
+Y               :: Nemreh advanced to level 9
+Y               :: Nemreh advanced to level 10
+Y               :: TombStone advanced to level 25
+Y               :: Nemreh advanced to level 11
+Y               :: TombStone advanced to level 26
+Y               :: Alica advanced to level 27
+Y               :: Alica advanced to level 28
+Y               :: TombStone advanced to level 27
+Y               :: Alica advanced to level 29
+Y               :: TombStone advanced to level 28
+Y               :: Alica advanced to level 30
+Y               :: TombStone advanced to level 29
+Y               :: Alica advanced to level 31
+Y               :: TombStone advanced to level 30
+Y               :: TombStone advanced to level 31
+Y               :: Alica advanced to level 32
+Y               :: TombStone advanced to level 32
+Y               :: Alica advanced to level 33
+Y               :: TombStone advanced to level 33
+Y               :: Alica advanced to level 34
+Y               :: TombStone advanced to level 34
+Y               :: Alica advanced to level 35
+Y               :: TombStone advanced to level 35
+Y               :: Alica advanced to level 36
+Y               :: TombStone advanced to level 36
+Y               :: TombStone advanced to level 37
+Y               :: Alica advanced to level 37
+Y               :: TombStone advanced to level 38
+Y               :: Alica advanced to level 38
+Y               :: TombStone advanced to level 39
+Y               :: Alica advanced to level 39
+Y               :: TombStone advanced to level 40
+Y               :: Alica advanced to level 40
+Y               :: TombStone advanced to level 41
+Y               :: Alica advanced to level 41
+Y               :: TombStone advanced to level 42
+Y               :: Alica advanced to level 42
+Y               :: TombStone advanced to level 43
+Y               :: Alica advanced to level 43
+Y               :: TombStone advanced to level 44
+Y               :: Alica advanced to level 44
+Y               :: Latona advanced to level 18
+Y               :: TombStone advanced to level 45
+Y               :: Alica advanced to level 45
+Y               :: TombStone advanced to level 46
+Y               :: Alica advanced to level 46
+Y               :: TombStone advanced to level 47
+Y               :: Alica advanced to level 47
+Y               :: TombStone advanced to level 48
+Y               :: Alica advanced to level 48
+Y               :: TombStone advanced to level 49
+Y               :: Alica advanced to level 49
+Y               :: TombStone advanced to level 50
+Y               :: Alica advanced to level 50
+Y               :: Latona advanced to level 19
+Y               :: Latona advanced to level 20
+Y               :: Latona advanced to level 21
+Y               :: Latona advanced to level 22
+Y               :: Latona advanced to level 23
+Y               :: Latona advanced to level 24
+Y               :: Latona advanced to level 25
+Y               :: Latona advanced to level 26
+Y               :: Latona advanced to level 27
+Y               :: Latona advanced to level 28
+Y               :: Latona advanced to level 29
+Y               :: Latona advanced to level 30
+Y               :: Latona advanced to level 31
+Y               :: Latona advanced to level 32
+Y               :: Latona advanced to level 33
+Y               :: Latona advanced to level 34
+Y               :: Latona advanced to level 35
+Y               :: Latona advanced to level 36
+Y               :: Latona advanced to level 37
+Y               :: Latona advanced to level 38
+Y               :: Latona advanced to level 39
+Y               :: Latona advanced to level 40
+Y               :: Latona advanced to level 41
+Y               :: Latona advanced to level 42
+Y               :: Latona advanced to level 43
+Y               :: Latona advanced to level 44
+Y               :: Latona advanced to level 45
+Y               :: Latona advanced to level 46
+Y               :: Latona advanced to level 47
+Y               :: Latona advanced to level 48
+Y               :: Latona advanced to level 49
+Y               :: Latona advanced to level 50
+Y               :: Bullwhackers advanced to level 1
+Y               :: Bullwhackers advanced to level 2
+Y               :: Bullwhackers advanced to level 3
+Y               :: Bullwhackers advanced to level 4
+Y               :: Bullwhackers advanced to level 5
+Y               :: Bullwhackers advanced to level 6
+Y               :: Bullwhackers advanced to level 7
+Y               :: Bullwhackers advanced to level 8
+Y               :: Bullwhackers advanced to level 9
+Y               :: Bullwhackers advanced to level 10
+Y               :: Bullwhackers advanced to level 11
+Y               :: Bullwhackers advanced to level 12
+Y               :: Bullwhackers advanced to level 13
+Y               :: Bullwhackers advanced to level 14
+Y               :: Bullwhackers advanced to level 15
+Y               :: Bullwhackers advanced to level 16
+Y               :: Bullwhackers advanced to level 17
+Y               :: Bullwhackers advanced to level 18
+Y               :: Bullwhackers advanced to level 19
+Y               :: Bullwhackers advanced to level 20
+Y               :: Bullwhackers advanced to level 21
+Y               :: Bullwhackers advanced to level 22
+Y               :: Bullwhackers advanced to level 23
+Y               :: Bullwhackers advanced to level 24
+Y               :: Bullwhackers advanced to level 25
+Y               :: Bullwhackers advanced to level 26
+Y               :: Bullwhackers advanced to level 27
+Y               :: Bullwhackers advanced to level 28
+Y               :: Bullwhackers advanced to level 29
+Y               :: Bullwhackers advanced to level 30
+Y               :: Bullwhackers advanced to level 31
+Y               :: Bullwhackers advanced to level 32
+Y               :: Bullwhackers advanced to level 33
+Y               :: Bullwhackers advanced to level 34
+Y               :: Bullwhackers advanced to level 35
+Y               :: Bullwhackers advanced to level 36
+Y               :: Bullwhackers advanced to level 37
+Y               :: Bullwhackers advanced to level 38
+Y               :: Bullwhackers advanced to level 39
+Y               :: Bullwhackers advanced to level 40
+Y               :: Bullwhackers advanced to level 41
+Y               :: Bullwhackers advanced to level 42
+Y               :: Bullwhackers advanced to level 43
+Y               :: Bullwhackers advanced to level 44
+Y               :: Bullwhackers advanced to level 45
+Y               :: Bullwhackers advanced to level 46
+Y               :: Bullwhackers advanced to level 47
+Y               :: Bullwhackers advanced to level 48
+Y               :: Bullwhackers advanced to level 49
+Y               :: Bullwhackers advanced to level 50
+Y               :: Shifighter advanced to level 1
+Y               :: Shifighter advanced to level 2
+Y               :: Shifighter advanced to level 3
+Y               :: Shifighter advanced to level 4
+Y               :: Shifighter advanced to level 5
+Y               :: Shifighter advanced to level 6
+Y               :: Shifighter advanced to level 7
+Y               :: Shifighter advanced to level 8
+Y               :: Shifighter advanced to level 9
+Y               :: Shifighter advanced to level 10
+Y               :: Shifighter advanced to level 11
+Y               :: Shifighter advanced to level 12
+Y               :: Shifighter advanced to level 13
+Y               :: Shifighter advanced to level 14
+Y               :: Shifighter advanced to level 15
+Y               :: Shifighter advanced to level 16
+Y               :: Shifighter advanced to level 17
+Y               :: Shifighter advanced to level 18
+Y               :: Shifighter advanced to level 19
+Y               :: Shifighter advanced to level 20
+Y               :: Shifighter advanced to level 21
+Y               :: Shifighter advanced to level 22
+Y               :: Shifighter advanced to level 23
+Y               :: Shifighter advanced to level 24
+Y               :: Shifighter advanced to level 25
+Y               :: Shifighter advanced to level 26
+Y               :: Shifighter advanced to level 27
+Y               :: Shifighter advanced to level 28
+Y               :: Shifighter advanced to level 29
+Y               :: Shifighter advanced to level 30
+Y               :: Shifighter advanced to level 31
+Y               :: Shifighter advanced to level 32
+Y               :: Shifighter advanced to level 33
+Y               :: Shifighter advanced to level 34
+Y               :: Shifighter advanced to level 35
+Y               :: Shifighter advanced to level 36
+Y               :: Shifighter advanced to level 37
+Y               :: Shifighter advanced to level 38
+Y               :: Shifighter advanced to level 39
+Y               :: Shifighter advanced to level 40
+Y               :: Shifighter advanced to level 41
+Y               :: Shifighter advanced to level 42
+Y               :: Shifighter advanced to level 43
+Y               :: Shifighter advanced to level 44
+Y               :: Shifighter advanced to level 45
+Y               :: Shifighter advanced to level 46
+Y               :: Shifighter advanced to level 47
+Y               :: Shifighter advanced to level 48
+Y               :: Shifighter advanced to level 49
+Y               :: Shifighter advanced to level 50
+Y               :: Torch advanced to level 1
+Y               :: Torch advanced to level 2
+Y               :: Torch advanced to level 3
+Y               :: Torch advanced to level 4
+Y               :: Torch advanced to level 5
+Y               :: Torch advanced to level 6
+Y               :: Torch advanced to level 7
+Y               :: Torch advanced to level 8
+Y               :: Torch advanced to level 9
+Y               :: Torch advanced to level 10
+Y               :: Torch advanced to level 11
+Y               :: Torch advanced to level 12
+Y               :: Torch advanced to level 13
+Y               :: Torch advanced to level 14
+Y               :: Torch advanced to level 15
+Y               :: Torch advanced to level 16
+Y               :: Torch advanced to level 17
+Y               :: Torch advanced to level 18
+Y               :: Torch advanced to level 19
+Y               :: Torch advanced to level 20
+Y               :: Torch advanced to level 21
+Y               :: Torch advanced to level 22
+Y               :: Torch advanced to level 23
+Y               :: Torch advanced to level 24
+Y               :: Torch advanced to level 25
+Y               :: Torch advanced to level 26
+Y               :: Torch advanced to level 27
+Y               :: Torch advanced to level 28
+Y               :: Torch advanced to level 29
+Y               :: Torch advanced to level 30
+Y               :: Torch advanced to level 31
+Y               :: Torch advanced to level 32
+Y               :: Torch advanced to level 33
+Y               :: Torch advanced to level 34
+Y               :: Torch advanced to level 35
+Y               :: Torch advanced to level 36
+Y               :: Torch advanced to level 37
+Y               :: Torch advanced to level 38
+Y               :: Torch advanced to level 39
+Y               :: Torch advanced to level 40
+Y               :: Torch advanced to level 41
+Y               :: Torch advanced to level 42
+Y               :: Torch advanced to level 43
+Y               :: Torch advanced to level 44
+Y               :: Torch advanced to level 45
+Y               :: Torch advanced to level 46
+Y               :: Torch advanced to level 47
+Y               :: Torch advanced to level 48
+Y               :: Torch advanced to level 49
+Y               :: Torch advanced to level 50
+Y               :: Alica advanced to level 2
+Y               :: TombStone advanced to level 2
+Y               :: TombStone advanced to level 3
+Y               :: Alica advanced to level 3
+Y               :: TombStone advanced to level 4
+Y               :: Alica advanced to level 4
+Y               :: Alica advanced to level 5
+Y               :: TombStone advanced to level 5
+Y               :: Alica advanced to level 6
+Y               :: Alica advanced to level 7
+Y               :: Alica advanced to level 8
+Y               :: Nemreh advanced to level 12
+Y               :: Angelina advanced to level 1
+Y               :: Alica advanced to level 9
+Y               :: Alica advanced to level 10
+Y               :: Alica advanced to level 11
+Y               :: Alica advanced to level 12
+Y               :: Tak advanced to level 1
+Y               :: Alica advanced to level 13
+Y               :: Alica advanced to level 14
+Y               :: Pkunk advanced to level 1
+Y               :: Marc advanced to level 1
+Y               :: Artus has advanced to level 199 (do_cheat)
+Y               :: TombStone advanced to level 6
+Y               :: TombStone advanced to level 7
+Y               :: TombStone advanced to level 8
+Y               :: TombStone advanced to level 9
+Y               :: TombStone advanced to level 10
+2002-03-10 07:11:44 :: TombStone advanced to level 11
+2002-03-10 08:30:33 :: TombStone advanced to level 12
+2002-03-10 08:46:47 :: TombStone advanced to level 13
+2002-03-10 09:01:11 :: TombStone advanced to level 14
+2002-03-10 09:15:53 :: Splat advanced to level 21
+2002-03-10 09:16:41 :: TombStone advanced to level 15
+2002-03-10 09:56:49 :: Splat advanced to level 22
+2002-03-10 10:02:11 :: TombStone advanced to level 16
+2002-03-10 10:13:45 :: TombStone advanced to level 17
+2002-03-10 10:27:37 :: TombStone advanced to level 18
+2002-03-10 10:43:37 :: TombStone advanced to level 19
+2002-03-10 10:52:11 :: Splat advanced to level 23
+2002-03-10 11:03:47 :: TombStone advanced to level 20
+2002-03-10 11:28:53 :: TombStone advanced to level 21
+2002-03-10 11:53:35 :: TombStone advanced to level 22
+2002-03-10 12:01:07 :: Splat advanced to level 24
+2002-03-10 12:56:37 :: TombStone advanced to level 23
+2002-03-10 16:00:57 :: Splat advanced to level 25
+2002-03-10 16:12:53 :: TombStone advanced to level 24
+2002-03-10 16:37:25 :: Splat advanced to level 26
+2002-03-10 17:03:23 :: Nightwolf advanced to level 1
+2002-03-10 22:23:14 :: TombStone advanced to level 25
+2002-03-10 22:28:46 :: Splat advanced to level 27
+2002-03-11 21:35:37 :: TombStone advanced to level 26
+2002-03-11 23:51:55 :: Sixx advanced to level 1
+2002-03-12 05:51:23 :: TombStone advanced to level 27
+2002-03-12 06:03:05 :: TombStone advanced to level 28
+2002-03-12 06:03:05 :: Splat advanced to level 28
+2002-03-12 17:45:39 :: TombStone advanced to level 29
+2002-03-12 17:47:41 :: Splat advanced to level 29
+2002-03-12 18:04:59 :: TombStone advanced to level 30
+2002-03-12 18:05:47 :: Splat advanced to level 30
+2002-03-12 18:11:55 :: Alica advanced to level 15
+2002-03-12 18:29:55 :: TombStone advanced to level 31
+2002-03-12 18:38:35 :: Alica advanced to level 16
+2002-03-13 09:18:11 :: Splat advanced to level 31
+2002-03-13 09:29:05 :: TombStone advanced to level 32
+2002-03-13 09:46:57 :: TombStone advanced to level 33
+2002-03-13 09:59:31 :: Splat advanced to level 32
+2002-03-13 10:02:25 :: TombStone advanced to level 34
+2002-03-13 10:16:13 :: Splat advanced to level 33
+2002-03-13 10:22:51 :: TombStone advanced to level 35
+2002-03-13 10:36:07 :: Splat advanced to level 34
+2002-03-13 10:48:27 :: TombStone advanced to level 36
+2002-03-13 10:53:07 :: Splat advanced to level 35
+2002-03-13 10:58:53 :: TombStone advanced to level 37
+2002-03-13 11:02:13 :: Splat advanced to level 36
+2002-03-13 11:14:43 :: TombStone advanced to level 38
+2002-03-13 11:15:39 :: Splat advanced to level 37
+2002-03-13 11:25:45 :: Splat advanced to level 38
+2002-03-13 11:28:03 :: TombStone advanced to level 39
+2002-03-13 11:38:01 :: Splat advanced to level 39
+2002-03-15 11:03:45 :: TombStone advanced to level 40
+2002-03-15 11:24:13 :: Splat advanced to level 40
+2002-03-15 12:06:41 :: Splat advanced to level 41
+2002-03-15 12:09:55 :: TombStone advanced to level 41
+2002-03-15 12:15:57 :: Splat advanced to level 42
+2002-03-15 12:21:15 :: TombStone advanced to level 42
+2002-03-15 16:32:13 :: Splat advanced to level 43
+2002-03-15 16:33:55 :: TombStone advanced to level 43
+2002-03-15 16:51:11 :: TombStone advanced to level 44
+2002-03-15 16:58:17 :: Splat advanced to level 44
+2002-03-15 17:06:57 :: TombStone advanced to level 45
+2002-03-15 17:06:57 :: Splat advanced to level 45
+2002-03-16 11:31:12 :: Him advanced to level 1
+2002-03-16 12:04:51 :: Him advanced to level 2
+2002-03-16 16:33:49 :: Splat advanced to level 46
+2002-03-16 16:34:27 :: TombStone advanced to level 46
+2002-03-16 16:52:37 :: Splat advanced to level 47
+2002-03-16 16:53:11 :: TombStone advanced to level 47
+2002-03-16 17:16:57 :: TombStone advanced to level 48
+2002-03-16 17:24:37 :: Splat advanced to level 48
+2002-03-16 18:12:57 :: TombStone advanced to level 49
+2002-03-16 18:23:39 :: Splat advanced to level 49
+2002-03-16 18:33:27 :: TombStone advanced to level 50
+2002-03-16 19:04:03 :: Splat advanced to level 50
+2002-03-17 08:05:02 :: TombStone advanced to level 51
+2002-03-17 08:08:56 :: Splat advanced to level 51
+2002-03-17 08:22:20 :: TombStone advanced to level 52
+2002-03-17 08:39:58 :: Splat advanced to level 52
+2002-03-17 09:03:58 :: Splat advanced to level 53
+2002-03-17 09:28:46 :: Him advanced to level 3
+2002-03-17 09:57:46 :: Him advanced to level 4
+2002-03-17 10:31:34 :: Him advanced to level 5
+2002-03-17 11:11:32 :: Him advanced to level 6
+2002-03-17 14:28:22 :: Him advanced to level 7
+2002-03-18 01:18:26 :: Him advanced to level 8
+2002-03-18 01:18:30 :: Him advanced to level 9
+2002-03-18 01:18:46 :: Him advanced to level 10
+2002-03-18 01:18:50 :: Him advanced to level 11
+2002-03-18 01:19:02 :: Him advanced to level 12
+2002-03-18 01:19:20 :: Him advanced to level 13
+2002-03-18 07:06:36 :: TombStone advanced to level 53
+2002-03-18 07:09:36 :: Splat advanced to level 54
+2002-03-18 07:51:12 :: TombStone advanced to level 54
+2002-03-18 07:58:08 :: Splat advanced to level 55
+2002-03-18 08:40:54 :: TombStone advanced to level 55
+2002-03-18 08:45:34 :: Splat advanced to level 56
+2002-03-18 09:05:48 :: TombStone advanced to level 56
+2002-03-18 09:06:38 :: Splat advanced to level 57
+2002-03-18 09:46:38 :: Splat advanced to level 58
+2002-03-18 09:48:12 :: TombStone advanced to level 57
+2002-03-18 10:28:06 :: TombStone advanced to level 58
+2002-03-19 18:06:15 :: Him advanced to level 14
+2002-03-19 18:06:31 :: Him advanced to level 15
+2002-03-19 18:08:41 :: Him advanced to level 16
+2002-03-19 19:25:26 :: Sparafucile advanced to level 1
+2002-03-22 18:01:40 :: TombStone advanced to level 59
+2002-03-22 18:25:46 :: Splat advanced to level 59
+2002-03-23 06:05:24 :: TombStone advanced to level 60
+2002-03-23 06:37:56 :: Splat advanced to level 60
+2002-03-23 08:00:18 :: TombStone advanced to level 61
+2002-03-23 08:35:34 :: Splat advanced to level 61
+2002-03-23 10:14:10 :: TombStone advanced to level 62
+2002-03-23 10:21:00 :: Splat advanced to level 62
+2002-03-23 10:39:32 :: Splat advanced to level 63
+2002-03-23 10:41:22 :: TombStone advanced to level 63
+2002-03-23 16:23:14 :: Splat advanced to level 64
+2002-03-23 16:33:02 :: TombStone advanced to level 64
+2002-03-23 17:14:54 :: Splat advanced to level 65
+2002-03-23 17:25:54 :: TombStone advanced to level 65
+2002-03-24 09:06:42 :: Splat advanced to level 66
+2002-03-24 09:30:26 :: TombStone advanced to level 66
+2002-03-24 09:59:32 :: Splat advanced to level 67
+2002-03-24 11:56:10 :: Sparafucile advanced to level 2
+2002-03-24 11:56:44 :: Sparafucile advanced to level 3
+2002-03-24 11:56:44 :: Sparafucile advanced to level 4
+2002-03-24 11:56:44 :: Sparafucile advanced to level 5
+2002-03-25 09:11:48 :: TombStone advanced to level 67
+2002-03-25 10:54:44 :: Alica advanced to level 17
+2002-03-25 10:58:32 :: Alica advanced to level 18
+2002-03-25 11:01:00 :: Alica advanced to level 19
+2002-03-26 11:06:48 :: Him advanced to level 17
+2002-03-26 11:14:10 :: Him advanced to level 18
+2002-03-26 11:14:13 :: Him advanced to level 19
+2002-03-26 11:14:20 :: Him advanced to level 20
+2002-03-26 11:14:25 :: Him advanced to level 21
+2002-03-26 11:14:28 :: Him advanced to level 22
+2002-03-26 11:15:06 :: Him advanced to level 23
+2002-03-26 11:15:09 :: Him advanced to level 24
+2002-03-26 11:15:14 :: Him advanced to level 25
+2002-03-26 11:15:16 :: Him advanced to level 26
+2002-03-26 11:15:20 :: Him advanced to level 27
+2002-03-26 11:34:40 :: Him advanced to level 28
+2002-03-26 11:34:42 :: Him advanced to level 29
+2002-03-26 11:34:44 :: Him advanced to level 30
+2002-03-26 11:34:47 :: Him advanced to level 31
+2002-03-26 11:34:50 :: Him advanced to level 32
+2002-03-26 11:34:57 :: Him advanced to level 33
+2002-03-27 19:14:18 :: Him advanced to level 34
+2002-03-27 19:20:17 :: Him advanced to level 35
+2002-03-27 19:24:37 :: Him advanced to level 36
+2002-03-27 19:24:40 :: Him advanced to level 37
+2002-03-27 19:24:46 :: Him advanced to level 38
+2002-03-27 19:24:53 :: Him advanced to level 39
+2002-03-27 19:25:45 :: Him advanced to level 40
+2002-03-27 19:25:50 :: Him advanced to level 41
+2002-03-27 19:25:54 :: Him advanced to level 42
+2002-03-27 19:26:43 :: Him advanced to level 43
+2002-03-27 19:26:47 :: Him advanced to level 44
+2002-03-27 19:27:24 :: Him advanced to level 45
+2002-03-27 19:27:30 :: Him advanced to level 46
+2002-03-27 19:27:38 :: Him advanced to level 47
+2002-03-27 19:28:30 :: Him advanced to level 48
+2002-03-27 19:29:18 :: Him advanced to level 49
+2002-03-27 19:30:14 :: Him advanced to level 50
+2002-03-27 19:43:02 :: Him advanced to level 2
+2002-03-27 19:53:56 :: Him advanced to level 3
+2002-03-27 20:12:28 :: Him advanced to level 4
+2002-03-27 20:15:36 :: Him advanced to level 5
+2002-03-27 20:15:36 :: Him advanced to level 6
+2002-03-27 20:15:50 :: Him advanced to level 7
+2002-03-27 20:16:20 :: Him advanced to level 8
+2002-03-28 13:36:55 :: Him advanced to level 9
+2002-03-28 13:36:58 :: Him advanced to level 10
+2002-03-28 13:37:02 :: Him advanced to level 11
+2002-03-28 13:37:06 :: Him advanced to level 12
+2002-03-28 13:37:07 :: Him advanced to level 13
+2002-03-28 14:10:24 :: Him advanced to level 14
+2002-03-28 14:23:24 :: Him advanced to level 15
+2002-03-28 21:08:00 :: Splat advanced to level 68
+2002-03-29 09:09:27 :: TombStone advanced to level 68
+2002-03-29 09:26:19 :: Jezhara advanced to level 1
+2002-03-29 09:29:17 :: Jezhara advanced to level 2
+2002-03-29 09:35:23 :: Jezhara advanced to level 3
+2002-03-29 09:56:57 :: Jezhara advanced to level 4
+2002-03-29 10:09:11 :: Jezhara advanced to level 5
+2002-03-30 19:49:56 :: Him advanced to level 16
+2002-03-30 21:41:13 :: Him advanced to level 17
+2002-03-30 21:41:16 :: Him advanced to level 18
+2002-03-30 21:41:18 :: Him advanced to level 19
+2002-03-30 21:41:20 :: Him advanced to level 20
+2002-03-30 21:41:22 :: Him advanced to level 21
+2002-03-30 21:41:46 :: Him advanced to level 22
+2002-03-30 21:47:37 :: Him advanced to level 23
+2002-04-02 18:49:07 :: Him advanced to level 24
+2002-04-02 18:49:14 :: Him advanced to level 25
+2002-04-02 18:49:23 :: Him advanced to level 26
+2002-04-02 18:49:43 :: Him advanced to level 27
+2002-04-02 18:51:46 :: Him advanced to level 28
+2002-04-02 18:52:28 :: Him advanced to level 29
+2002-04-02 20:06:52 :: Him advanced to level 30
+2002-04-02 20:59:48 :: Him advanced to level 31
+2002-04-02 20:59:51 :: Him advanced to level 32
+2002-04-05 23:06:42 :: Him advanced to level 33
+2002-04-05 23:06:49 :: Him advanced to level 34
+2002-04-05 23:08:07 :: Him advanced to level 35
+2002-04-05 23:37:04 :: Him advanced to level 36
+2002-04-05 23:37:08 :: Him advanced to level 37
+2002-04-05 23:37:20 :: Him advanced to level 38
+2002-04-05 23:38:15 :: Him advanced to level 39
+2002-04-05 23:38:18 :: Him advanced to level 40
+2002-04-05 23:39:23 :: Him advanced to level 41
+2002-04-05 23:39:26 :: Him advanced to level 42
+2002-04-05 23:39:29 :: Him advanced to level 43
+2002-04-05 23:39:32 :: Him advanced to level 44
+2002-04-05 23:39:36 :: Him advanced to level 45
+2002-04-05 23:39:50 :: Him advanced to level 46
+2002-04-05 23:40:28 :: Him advanced to level 47
+2002-04-05 23:40:33 :: Him advanced to level 48
+2002-04-05 23:40:41 :: Him advanced to level 49
+2002-04-05 23:41:14 :: Him advanced to level 50
+2002-04-06 10:27:02 :: Blackout advanced to level 1
+2002-04-06 14:56:47 :: Him advanced to level 51
+2002-04-06 15:09:18 :: Him advanced to level 52
+2002-04-07 08:59:40 :: Him advanced to level 53
+2002-04-07 09:11:44 :: Him advanced to level 54
+2002-04-08 08:46:02 :: Splat advanced to level 69
+2002-04-08 08:49:22 :: TombStone advanced to level 69
+2002-04-08 14:55:02 :: Him advanced to level 55
+2002-04-08 14:55:26 :: Him advanced to level 56
+2002-04-08 14:57:34 :: Him advanced to level 57
+2002-04-08 14:59:35 :: Him advanced to level 58
+2002-04-08 15:01:53 :: Him advanced to level 59
+2002-04-08 15:03:51 :: Him advanced to level 60
+2002-04-08 15:14:30 :: Him advanced to level 61
+2002-04-09 08:33:54 :: Him advanced to level 62
+2002-04-09 08:54:28 :: Him advanced to level 63
+2002-04-09 09:03:36 :: Him advanced to level 64
+2002-04-09 09:18:46 :: Him advanced to level 65
+2002-04-09 09:44:45 :: Him advanced to level 66
+2002-04-09 09:47:47 :: Him advanced to level 67
+2002-04-09 09:48:36 :: Him advanced to level 68
+2002-04-09 09:50:13 :: Him advanced to level 69
+2002-04-09 09:51:49 :: Him advanced to level 70
+2002-04-09 09:57:11 :: Him advanced to level 71
+2002-04-09 09:57:38 :: Him advanced to level 72
+2002-04-09 09:57:58 :: Him advanced to level 73
+2002-04-09 10:01:05 :: Him advanced to level 74
+2002-04-09 10:01:49 :: Him advanced to level 75
+2002-04-09 10:09:04 :: Him advanced to level 2
+2002-04-09 10:09:26 :: Him advanced to level 3
+2002-04-09 10:09:26 :: Him advanced to level 4
+2002-04-09 10:09:26 :: Him advanced to level 5
+2002-04-09 10:11:16 :: Him advanced to level 6
+2002-04-09 22:57:22 :: Him advanced to level 7
+2002-04-09 23:04:23 :: Him advanced to level 8
+2002-04-09 23:08:29 :: Him advanced to level 9
+2002-04-09 23:09:46 :: Him advanced to level 10
+2002-04-10 07:53:58 :: Him advanced to level 11
+2002-04-10 07:59:38 :: Him advanced to level 12
+2002-04-10 08:14:24 :: Him advanced to level 13
+2002-04-10 08:37:48 :: Him advanced to level 14
+2002-04-10 08:42:06 :: Him advanced to level 15
+2002-04-10 08:42:50 :: Him advanced to level 16
+2002-04-11 19:26:04 :: Him advanced to level 17
+2002-04-11 19:45:18 :: Him advanced to level 18
+2002-04-11 19:46:32 :: Him advanced to level 19
+2002-04-11 19:54:29 :: Him advanced to level 20
+2002-04-11 19:57:01 :: Him advanced to level 21
+2002-04-11 19:57:48 :: Him advanced to level 22
+2002-04-11 20:01:08 :: Him advanced to level 23
+2002-04-12 00:56:22 :: Him advanced to level 24
+2002-04-12 00:56:32 :: Him advanced to level 25
+2002-04-12 00:56:41 :: Him advanced to level 26
+2002-04-12 00:57:16 :: Him advanced to level 27
+2002-04-12 01:04:34 :: Him advanced to level 28
+2002-04-12 01:14:58 :: Him advanced to level 29
+2002-04-12 01:25:28 :: Him advanced to level 30
+2002-04-12 10:48:10 :: Him advanced to level 31
+2002-04-12 10:58:26 :: Him advanced to level 32
+2002-04-12 10:59:51 :: Him advanced to level 33
+2002-04-12 16:47:24 :: Splat advanced to level 70
+2002-04-12 17:09:34 :: TombStone advanced to level 70
+2002-04-12 17:19:21 :: Him advanced to level 34
+2002-04-12 17:48:04 :: Splat advanced to level 71
+2002-04-12 17:50:04 :: Him advanced to level 35
+2002-04-12 18:11:36 :: Him advanced to level 36
+2002-04-12 18:21:54 :: Him advanced to level 37
+2002-04-12 18:22:08 :: TombStone advanced to level 71
+2002-04-12 19:00:26 :: Him advanced to level 38
+2002-04-12 21:39:06 :: Him advanced to level 39
+2002-04-12 21:39:09 :: Him advanced to level 40
+2002-04-12 21:39:29 :: Him advanced to level 41
+2002-04-12 21:40:32 :: Him advanced to level 42
+2002-04-12 21:40:55 :: Him advanced to level 43
+2002-04-12 21:41:39 :: Him advanced to level 44
+2002-04-12 21:51:38 :: Him advanced to level 45
+2002-04-12 22:00:58 :: Him advanced to level 46
+2002-04-12 22:17:04 :: Him advanced to level 47
+2002-04-12 22:17:09 :: Him advanced to level 48
+2002-04-12 22:17:15 :: Him advanced to level 49
+2002-04-12 22:17:21 :: Him advanced to level 50
+2002-04-12 22:21:16 :: Him advanced to level 51
+2002-04-13 05:56:06 :: Blackout advanced to level 2
+2002-04-13 06:07:30 :: Blackout advanced to level 3
+2002-04-13 10:11:24 :: Blackout advanced to level 4
+2002-06-16 01:04:16 :: Aphrodisia advanced to level 1
+2002-06-27 00:10:50 :: Aphrodisia advanced to level 1
+2002-07-21 13:05:55 :: Moo advanced to level 1
+2002-09-30 16:43:54 :: Nerinda advanced to level 2
+2002-10-01 11:41:40 :: Nerinda advanced to level 3
+2002-10-01 11:57:52 :: Nerinda advanced to level 4
+2002-10-01 12:04:18 :: Nerinda advanced to level 5
+2002-10-01 19:03:39 :: Nerinda advanced to level 6
+2002-10-01 19:11:48 :: Cassandra advanced to level 1
+2002-10-01 19:20:42 :: Nerinda advanced to level 1
+2002-10-01 19:26:17 :: Cassandra advanced to level 1
+2002-10-01 19:40:17 :: Neroli advanced to level 1
+2002-10-01 19:42:11 :: Neroli advanced to level 1
+2002-10-01 19:43:23 :: Neroli advanced to level 1
+2002-10-02 18:46:30 :: Grimthor advanced to level 1
+2002-10-02 19:41:47 :: Lucy advanced to level 1
+2002-10-02 19:55:42 :: Grimthor advanced to level 2
+2002-10-02 20:32:26 :: Grimthor advanced to level 3
+2002-10-02 20:37:14 :: John advanced to level 2
+2002-10-02 20:46:42 :: John advanced to level 3
+2002-10-02 20:47:06 :: Jody advanced to level 1
+2002-10-02 20:51:16 :: Grimthor advanced to level 4
+2002-10-02 20:51:56 :: John advanced to level 4
+2002-10-02 20:57:36 :: Grimthor advanced to level 5
+2002-10-02 21:02:02 :: John advanced to level 5
+2002-10-02 21:03:58 :: Lucy advanced to level 2
+2002-10-02 21:11:32 :: Grimthor advanced to level 6
+2002-10-02 21:12:28 :: Lucy advanced to level 3
+2002-10-02 21:12:28 :: Jody advanced to level 2
+2002-10-02 21:15:34 :: John advanced to level 6
+2002-10-02 21:17:10 :: Jody advanced to level 3
+2002-10-02 21:17:40 :: Lucy advanced to level 4
+2002-10-02 21:23:18 :: Jody advanced to level 4
+2002-10-02 21:25:30 :: Lucy advanced to level 5
+2002-10-02 21:33:16 :: Many advanced to level 1
+2002-10-02 21:35:58 :: Many advanced to level 2
+2002-10-02 21:36:46 :: Many advanced to level 3
+2002-10-02 21:36:46 :: Jody advanced to level 5
+2002-10-02 21:49:32 :: Many advanced to level 4
+2002-10-02 22:45:02 :: Grimthor advanced to level 7
+2002-10-02 23:26:56 :: John advanced to level 7
+2002-10-02 23:40:10 :: Grimthor advanced to level 8
+2002-10-03 00:06:27 :: Lucy advanced to level 6
+2002-10-03 00:08:13 :: Many advanced to level 5
+2002-10-03 00:08:37 :: Jody advanced to level 6
+2002-10-03 00:14:15 :: John advanced to level 8
+2002-10-03 00:30:31 :: Many advanced to level 6
+2002-10-03 00:43:23 :: Lucy advanced to level 7
+2002-10-05 00:31:48 :: Grimthor advanced to level 9
+2002-10-05 21:56:19 :: Jody advanced to level 7
+2002-10-05 22:15:45 :: John advanced to level 9
+2002-10-05 22:42:47 :: Many advanced to level 7
+2002-10-05 22:46:57 :: Lucy advanced to level 8
+2002-10-05 23:19:59 :: Jody advanced to level 8
+2002-10-05 23:29:17 :: Grimthor advanced to level 10
+2002-10-05 23:32:35 :: Many advanced to level 8
+2002-10-05 23:35:19 :: Lucy advanced to level 9
+2002-10-05 23:45:21 :: Many advanced to level 9
+2002-10-05 23:45:21 :: Jody advanced to level 9
+2002-10-05 23:49:43 :: Lucy advanced to level 10
+2002-10-06 00:03:38 :: Many advanced to level 10
+2002-10-06 00:03:38 :: Jody advanced to level 10
+2002-10-06 00:06:01 :: John advanced to level 10
+2002-10-06 00:56:07 :: Lucy advanced to level 11
+2002-10-06 02:18:15 :: Jody advanced to level 11
+2002-10-06 04:04:47 :: Many advanced to level 11
+2002-10-06 04:34:57 :: Lucy advanced to level 12
+2002-10-06 13:08:22 :: Jody advanced to level 12
+2002-10-06 13:46:55 :: Many advanced to level 12
+2002-10-06 13:50:16 :: Lucy advanced to level 13
+2002-10-06 14:06:03 :: Jody advanced to level 13
+2002-10-06 18:05:01 :: Many advanced to level 13
+2002-10-06 18:37:21 :: Lucy advanced to level 14
+2002-10-06 19:29:52 :: Jody advanced to level 14
+2002-10-06 22:49:06 :: Lucy advanced to level 15
+2002-10-06 23:04:17 :: Many advanced to level 14
+2002-10-06 23:33:14 :: Lucy advanced to level 16
+2002-10-06 23:37:53 :: Jody advanced to level 15
+2002-10-07 19:10:29 :: Many advanced to level 15
+2002-10-08 16:39:41 :: Lucy advanced to level 17
+2002-10-08 17:25:43 :: Jody advanced to level 16
+2002-10-09 23:16:02 :: Many advanced to level 16
+2002-10-10 22:31:08 :: Lucy advanced to level 18
+2002-10-10 23:23:02 :: Jody advanced to level 17
+2002-10-12 16:56:14 :: Jody advanced to level 18
+2002-10-12 16:58:05 :: Many advanced to level 17
+2002-10-12 17:51:40 :: Lucy advanced to level 19
+2002-10-12 18:18:30 :: Many advanced to level 18
+2002-10-12 19:24:50 :: Nemreh advanced to level 13
+2002-10-12 19:25:04 :: Nemreh advanced to level 14
+2002-10-12 19:25:42 :: Nemreh advanced to level 15
+2002-10-12 19:25:56 :: Nemreh advanced to level 16
+2002-10-12 19:26:26 :: Nemreh advanced to level 17
+2002-10-12 19:28:32 :: Nemreh advanced to level 18
+2002-10-12 19:28:48 :: Nemreh advanced to level 19
+2002-10-12 19:29:16 :: Nemreh advanced to level 20
+2002-10-12 19:34:44 :: Nemreh advanced to level 21
+2002-10-12 19:36:46 :: Nemreh advanced to level 22
+2002-10-12 19:41:56 :: Nemreh advanced to level 23
+2002-10-12 20:24:00 :: Jody advanced to level 19
+2002-10-13 09:45:26 :: Nemreh advanced to level 24
+2002-10-13 09:45:38 :: Nemreh advanced to level 25
+2002-10-13 09:48:44 :: Nemreh advanced to level 26
+2002-10-13 09:49:04 :: Nemreh advanced to level 27
+2002-10-13 09:49:41 :: Nemreh advanced to level 28
+2002-10-13 09:53:05 :: Nemreh advanced to level 29
+2002-10-13 09:54:00 :: Nemreh advanced to level 30
+2002-10-13 09:54:02 :: Nemreh advanced to level 31
+2002-10-13 09:54:37 :: Nemreh advanced to level 32
+2002-10-13 09:54:39 :: Nemreh advanced to level 33
+2002-10-13 09:54:41 :: Nemreh advanced to level 34
+2002-10-13 09:54:46 :: Nemreh advanced to level 35
+2002-10-13 09:54:58 :: Nemreh advanced to level 36
+2002-10-13 09:55:36 :: Nemreh advanced to level 37
+2002-10-13 09:55:39 :: Nemreh advanced to level 38
+2002-10-13 09:55:42 :: Nemreh advanced to level 39
+2002-10-13 09:55:58 :: Nemreh advanced to level 40
+2002-10-13 10:00:11 :: Nemreh advanced to level 41
+2002-10-13 10:00:14 :: Nemreh advanced to level 42
+2002-10-13 10:01:48 :: Nemreh advanced to level 43
+2002-10-13 10:01:50 :: Nemreh advanced to level 44
+2002-10-13 10:01:56 :: Nemreh advanced to level 45
+2002-10-13 10:02:50 :: Nemreh advanced to level 46
+2002-10-13 10:06:18 :: Nemreh advanced to level 47
+2002-10-13 10:06:18 :: Nemreh advanced to level 48
+2002-10-13 10:07:14 :: Nemreh advanced to level 49
+2002-10-13 10:07:14 :: Nemreh advanced to level 50
+2002-10-13 10:07:14 :: Nemreh advanced to level 51
+2002-10-13 10:07:14 :: Nemreh advanced to level 52
+2002-10-25 14:14:33 :: Althalus advanced to level 1
+2002-10-25 14:19:11 :: Althalus advanced to level 1
+2002-10-29 17:11:13 :: Althalus advanced to level 1
+2002-10-29 17:26:43 :: Althalus advanced to level 2
+2002-10-29 17:29:19 :: Althalus advanced to level 3
+2002-10-29 18:05:57 :: Althalus advanced to level 4
+2002-10-29 18:57:01 :: Althalus advanced to level 5
+2002-10-29 19:08:13 :: Althalus advanced to level 6
+2002-10-30 17:30:12 :: Althalus advanced to level 7
+2002-10-30 18:42:56 :: PrimR advanced to level 1
+2002-11-02 11:14:44 :: Althalus advanced to level 8
+2003-01-12 13:27:43 :: Lucy advanced to level 20
+2003-01-12 13:27:43 :: Lucy advanced to level 21
+2003-01-12 13:27:43 :: Lucy advanced to level 22
+2003-01-12 13:27:43 :: Lucy advanced to level 23
+2003-01-12 13:27:43 :: Lucy advanced to level 24
+2003-01-12 13:27:43 :: Lucy advanced to level 25
+2003-01-12 13:27:43 :: Lucy advanced to level 26
+2003-01-12 13:27:43 :: Lucy advanced to level 27
+2003-01-12 13:27:43 :: Lucy advanced to level 28
+2003-01-12 13:27:43 :: Lucy advanced to level 29
+2003-01-12 13:27:43 :: Lucy advanced to level 30
+2003-01-12 13:27:43 :: Lucy advanced to level 31
+2003-01-12 13:27:43 :: Lucy advanced to level 32
+2003-03-20 10:34:56 :: Plasma advanced to level 1
+2003-03-20 10:48:48 :: Plasma advanced to level 2
+2003-03-20 10:48:48 :: Plasma advanced to level 3
+2003-03-20 10:48:48 :: Plasma advanced to level 4
+2003-03-20 10:48:48 :: Plasma advanced to level 5
+2003-03-20 10:48:48 :: Plasma advanced to level 6
+2003-03-20 10:48:48 :: Plasma advanced to level 7
+2003-03-20 10:48:48 :: Plasma advanced to level 8
+2003-03-20 10:48:48 :: Plasma advanced to level 9
+2003-03-20 10:48:48 :: Plasma advanced to level 10
+2003-03-20 10:48:48 :: Plasma advanced to level 11
+2003-03-20 10:48:48 :: Plasma advanced to level 12
+2003-03-20 10:48:48 :: Plasma advanced to level 13
+2003-03-20 10:48:48 :: Plasma advanced to level 14
+2003-03-20 10:48:48 :: Plasma advanced to level 15
+2003-03-20 10:48:48 :: Plasma advanced to level 16
+2003-03-20 10:48:48 :: Plasma advanced to level 17
+2003-03-20 10:48:48 :: Plasma advanced to level 18
+2003-03-20 10:48:48 :: Plasma advanced to level 19
+2003-03-20 10:48:48 :: Plasma advanced to level 20
+2003-03-20 10:48:48 :: Plasma advanced to level 21
+2003-03-20 10:48:48 :: Plasma advanced to level 22
+2003-03-20 10:48:48 :: Plasma advanced to level 23
+2003-03-20 10:48:48 :: Plasma advanced to level 24
+2003-03-20 10:48:48 :: Plasma advanced to level 25
+2003-03-20 10:48:48 :: Plasma advanced to level 26
+2003-03-20 10:48:48 :: Plasma advanced to level 27
+2003-03-20 10:48:48 :: Plasma advanced to level 28
+2003-03-20 10:48:48 :: Plasma advanced to level 29
+2003-03-20 10:48:48 :: Plasma advanced to level 30
+2003-03-20 10:48:48 :: Plasma advanced to level 31
+2003-03-20 10:48:48 :: Plasma advanced to level 32
+2003-03-20 10:48:48 :: Plasma advanced to level 33
+2003-03-20 10:48:48 :: Plasma advanced to level 34
+2003-03-20 10:48:48 :: Plasma advanced to level 35
+2003-03-20 10:48:48 :: Plasma advanced to level 36
+2003-03-20 10:48:48 :: Plasma advanced to level 37
+2003-03-20 10:48:48 :: Plasma advanced to level 38
+2003-03-20 10:48:48 :: Plasma advanced to level 39
+2003-03-20 10:48:48 :: Plasma advanced to level 40
+2003-03-20 10:48:48 :: Plasma advanced to level 41
+2003-03-20 10:48:48 :: Plasma advanced to level 42
+2003-03-20 10:48:48 :: Plasma advanced to level 43
+2003-03-20 10:48:48 :: Plasma advanced to level 44
+2003-03-20 10:48:48 :: Plasma advanced to level 45
+2003-03-20 10:48:48 :: Plasma advanced to level 46
+2003-03-20 10:48:48 :: Plasma advanced to level 47
+2003-03-20 10:48:48 :: Plasma advanced to level 48
+2003-03-20 10:48:48 :: Plasma advanced to level 49
+2003-03-20 10:48:48 :: Plasma advanced to level 50
+2003-03-20 10:48:48 :: Plasma advanced to level 51
+2003-03-20 10:48:48 :: Plasma advanced to level 52
+2003-03-20 10:48:48 :: Plasma advanced to level 53
+2003-03-20 10:48:48 :: Plasma advanced to level 54
+2003-03-20 10:48:48 :: Plasma advanced to level 55
+2003-03-20 10:48:48 :: Plasma advanced to level 56
+2003-03-20 10:48:48 :: Plasma advanced to level 57
+2003-03-20 10:48:48 :: Plasma advanced to level 58
+2003-03-20 10:48:48 :: Plasma advanced to level 59
+2003-03-20 10:48:48 :: Plasma advanced to level 60
+2003-03-20 12:09:52 :: PrimR advanced to level 2
+2003-03-20 12:09:52 :: PrimR advanced to level 3
+2003-03-20 12:09:52 :: PrimR advanced to level 4
+2003-03-20 12:09:52 :: PrimR advanced to level 5
+2003-03-20 12:09:52 :: PrimR advanced to level 6
+2003-03-20 12:09:52 :: PrimR advanced to level 7
+2003-03-20 12:09:52 :: PrimR advanced to level 8
+2003-03-20 12:09:52 :: PrimR advanced to level 9
+2003-03-20 12:09:52 :: PrimR advanced to level 10
+2003-03-20 12:09:52 :: PrimR advanced to level 11
+2003-03-20 12:09:52 :: PrimR advanced to level 12
+2003-03-20 12:09:52 :: PrimR advanced to level 13
+2003-03-20 12:09:52 :: PrimR advanced to level 14
+2003-03-20 12:09:52 :: PrimR advanced to level 15
+2003-03-20 12:09:52 :: PrimR advanced to level 16
+2003-03-20 12:09:52 :: PrimR advanced to level 17
+2003-03-20 12:09:52 :: PrimR advanced to level 18
+2003-03-20 12:09:52 :: PrimR advanced to level 19
+2003-03-20 12:09:52 :: PrimR advanced to level 20
+2003-03-20 12:09:52 :: PrimR advanced to level 21
+2003-03-20 12:09:52 :: PrimR advanced to level 22
+2003-03-20 12:09:52 :: PrimR advanced to level 23
+2003-03-20 12:09:52 :: PrimR advanced to level 24
+2003-03-20 12:09:52 :: PrimR advanced to level 25
+2003-03-20 12:09:52 :: PrimR advanced to level 26
+2003-03-20 12:09:52 :: PrimR advanced to level 27
+2003-03-20 12:09:52 :: PrimR advanced to level 28
+2003-03-20 12:09:52 :: PrimR advanced to level 29
+2003-03-20 12:09:52 :: PrimR advanced to level 30
+2003-03-20 12:09:52 :: PrimR advanced to level 31
+2003-03-20 12:09:52 :: PrimR advanced to level 32
+2003-03-20 12:09:52 :: PrimR advanced to level 33
+2003-03-20 12:09:52 :: PrimR advanced to level 34
+2003-03-20 12:09:52 :: PrimR advanced to level 35
+2003-03-20 12:09:52 :: PrimR advanced to level 36
+2003-03-20 12:09:52 :: PrimR advanced to level 37
+2003-03-20 12:09:52 :: PrimR advanced to level 38
+2003-03-20 12:09:52 :: PrimR advanced to level 39
+2003-03-20 12:09:52 :: PrimR advanced to level 40
+2003-03-20 12:09:52 :: PrimR advanced to level 41
+2003-03-20 12:09:52 :: PrimR advanced to level 42
+2003-03-20 12:09:52 :: PrimR advanced to level 43
+2003-03-20 12:09:52 :: PrimR advanced to level 44
+2003-03-20 12:09:52 :: PrimR advanced to level 45
+2003-03-20 12:09:52 :: PrimR advanced to level 46
+2003-03-20 12:09:52 :: PrimR advanced to level 47
+2003-03-20 12:09:52 :: PrimR advanced to level 48
+2003-03-20 12:09:52 :: PrimR advanced to level 49
+2003-03-20 12:09:52 :: PrimR advanced to level 50
+2003-03-20 12:09:52 :: PrimR advanced to level 51
+2003-03-20 12:09:52 :: PrimR advanced to level 52
+2003-03-20 12:09:52 :: PrimR advanced to level 53
+2003-03-20 12:09:52 :: PrimR advanced to level 54
+2003-03-20 12:09:52 :: PrimR advanced to level 55
+2003-03-20 12:09:52 :: PrimR advanced to level 56
+2003-03-20 12:09:52 :: PrimR advanced to level 57
+2003-03-20 12:09:52 :: PrimR advanced to level 58
+2003-03-20 12:09:52 :: PrimR advanced to level 59
+2003-03-20 12:09:52 :: PrimR advanced to level 60
+2003-03-20 12:09:52 :: PrimR advanced to level 61
+2003-03-20 12:09:52 :: PrimR advanced to level 62
+2003-03-20 12:09:52 :: PrimR advanced to level 63
+2003-03-20 12:09:52 :: PrimR advanced to level 64
+2003-03-20 12:09:52 :: PrimR advanced to level 65
+2003-03-20 12:09:52 :: PrimR advanced to level 66
+2003-03-20 12:09:52 :: PrimR advanced to level 67
+2003-03-20 12:09:52 :: PrimR advanced to level 68
+2003-03-20 12:09:52 :: PrimR advanced to level 69
+2003-03-20 12:09:52 :: PrimR advanced to level 70
+2003-03-20 12:09:52 :: PrimR advanced to level 71
+2003-03-20 12:09:52 :: PrimR advanced to level 72
+2003-03-20 12:09:52 :: PrimR advanced to level 73
+2003-03-20 12:09:52 :: PrimR advanced to level 74
+2003-03-20 12:09:52 :: PrimR advanced to level 75
+2003-03-20 12:09:52 :: PrimR advanced to level 76
+2003-03-20 12:09:52 :: PrimR advanced to level 77
+2003-03-20 12:09:52 :: PrimR advanced to level 78
+2003-03-20 12:09:52 :: PrimR advanced to level 79
+2003-03-20 12:09:52 :: PrimR advanced to level 80
+2003-03-20 12:15:19 :: Dhcp advanced to level 1
+2003-03-20 12:30:38 :: Dhcp advanced to level 2
+2003-03-20 13:26:56 :: PrimR advanced to level 2
+2003-03-22 16:14:25 :: Cophen advanced to level 1
+2003-04-06 17:42:20 :: Moe advanced to level 1
+2003-04-11 22:31:58 :: PrimR advanced to level 3
+2003-04-11 22:35:36 :: PrimR advanced to level 4
+2003-04-11 23:04:10 :: PrimR advanced to level 5
+2003-04-11 23:25:50 :: PrimR advanced to level 6
+2003-04-12 18:24:34 :: PrimR advanced to level 7
+2003-04-14 10:30:20 :: PrimR advanced to level 8
+2003-04-14 10:50:06 :: PrimR advanced to level 9
+2003-04-26 19:51:48 :: Bobsyauncle advanced to level 1
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 2
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 3
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 4
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 5
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 6
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 7
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 8
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 9
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 10
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 11
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 12
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 13
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 14
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 15
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 16
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 17
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 18
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 19
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 20
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 21
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 22
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 23
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 24
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 25
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 26
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 27
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 28
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 29
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 30
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 31
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 32
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 33
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 34
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 35
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 36
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 37
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 38
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 39
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 40
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 41
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 42
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 43
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 44
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 45
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 46
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 47
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 48
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 49
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 50
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 51
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 52
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 53
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 54
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 55
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 56
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 57
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 58
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 59
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 60
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 61
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 62
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 63
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 64
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 65
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 66
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 67
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 68
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 69
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 70
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 71
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 72
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 73
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 74
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 75
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 76
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 77
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 78
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 79
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 80
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 81
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 82
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 83
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 84
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 85
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 86
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 87
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 88
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 89
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 90
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 91
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 92
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 93
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 94
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 95
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 96
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 97
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 98
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 99
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 100
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 101
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 102
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 103
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 104
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 105
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 106
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 107
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 108
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 109
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 110
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 111
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 112
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 113
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 114
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 115
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 116
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 117
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 118
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 119
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 120
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 121
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 122
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 123
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 124
+2003-04-26 19:52:01 :: Bobsyauncle advanced to level 125
+2003-04-27 14:40:51 :: PrimR advanced to level 10
+2003-04-27 14:44:17 :: PrimR advanced to level 11
+2003-04-27 15:03:47 :: PrimR advanced to level 12
+2003-04-27 15:10:47 :: PrimR advanced to level 13
+2003-04-27 15:39:55 :: PrimR advanced to level 14
+2003-04-29 23:29:04 :: PrimR advanced to level 15
+2003-04-30 10:29:01 :: PrimR advanced to level 16
+2003-04-30 10:34:23 :: PrimR advanced to level 17
+2003-05-02 09:43:07 :: Rhcp advanced to level 1
+2003-05-03 21:53:59 :: PrimR advanced to level 18
+2003-05-03 21:54:43 :: PrimR advanced to level 19
+2003-05-03 21:55:23 :: PrimR advanced to level 20
+2003-05-03 21:56:03 :: PrimR advanced to level 21
+2003-05-03 21:57:19 :: PrimR advanced to level 22
+2003-05-03 21:58:07 :: PrimR advanced to level 23
+2003-05-03 22:08:43 :: PrimR advanced to level 24
+2003-05-03 22:10:47 :: PrimR advanced to level 25
+2003-05-03 22:13:59 :: PrimR advanced to level 26
+2003-05-03 22:18:31 :: PrimR advanced to level 27
+2003-05-03 22:19:29 :: PrimR advanced to level 28
+2003-05-03 22:21:51 :: PrimR advanced to level 29
+2003-05-03 22:27:55 :: PrimR advanced to level 30
+2003-05-03 22:36:21 :: PrimR advanced to level 31
+2003-05-03 22:37:03 :: PrimR advanced to level 32
+2003-05-03 22:37:39 :: PrimR advanced to level 33
+2003-05-03 22:38:13 :: PrimR advanced to level 34
+2003-05-03 22:38:49 :: PrimR advanced to level 35
+2003-05-03 22:39:31 :: PrimR advanced to level 36
+2003-05-03 22:40:21 :: PrimR advanced to level 37
+2003-05-03 22:43:05 :: PrimR advanced to level 38
+2003-05-03 22:44:05 :: PrimR advanced to level 39
+2003-05-03 22:44:55 :: PrimR advanced to level 40
+2003-05-03 22:45:41 :: PrimR advanced to level 41
+2003-05-03 22:46:29 :: PrimR advanced to level 42
+2003-05-03 22:49:15 :: PrimR advanced to level 43
+2003-05-03 22:50:21 :: PrimR advanced to level 44
+2003-05-03 22:51:29 :: PrimR advanced to level 45
+2003-05-03 22:52:33 :: PrimR advanced to level 46
+2003-05-03 22:57:15 :: PrimR advanced to level 47
+2003-05-03 22:58:27 :: PrimR advanced to level 48
+2003-05-03 23:00:03 :: PrimR advanced to level 49
+2003-05-03 23:01:31 :: PrimR advanced to level 50
+2003-05-03 23:03:31 :: PrimR advanced to level 51
+2003-05-03 23:05:15 :: PrimR advanced to level 52
+2003-05-03 23:15:49 :: PrimR advanced to level 53
+2003-05-03 23:17:55 :: PrimR advanced to level 54
+2003-05-03 23:24:01 :: PrimR advanced to level 55
+2003-05-03 23:26:09 :: PrimR advanced to level 56
+2003-05-03 23:37:03 :: PrimR advanced to level 57
+2003-05-03 23:39:37 :: PrimR advanced to level 58
+2003-05-03 23:42:37 :: PrimR advanced to level 59
+2003-05-03 23:47:37 :: PrimR advanced to level 60
+2003-05-03 23:52:09 :: PrimR advanced to level 61
+2003-05-03 23:54:53 :: PrimR advanced to level 62
+2003-05-03 23:57:29 :: PrimR advanced to level 63
+2003-05-04 00:00:27 :: PrimR advanced to level 64
+2003-05-04 00:04:57 :: PrimR advanced to level 65
+2003-05-04 00:09:29 :: PrimR advanced to level 66
+2003-05-04 00:17:25 :: PrimR advanced to level 67
+2003-05-04 00:26:59 :: PrimR advanced to level 68
+2003-05-04 00:33:09 :: PrimR advanced to level 69
+2003-05-04 00:40:47 :: PrimR advanced to level 70
+2003-05-08 09:40:50 :: PrimR advanced to level 71
+2003-05-08 11:10:13 :: New advanced to level 1
+2003-05-18 16:26:01 :: XxXx advanced to level 1
+2003-05-18 16:38:19 :: XxXx advanced to level 2
+2003-05-18 16:38:21 :: XxXx advanced to level 3
+2003-05-18 16:39:51 :: XxXx advanced to level 4
+2003-05-18 16:39:59 :: XxXx advanced to level 5
+2003-05-18 16:40:35 :: XxXx advanced to level 6
+2003-05-18 16:41:37 :: XxXx advanced to level 7
+2003-05-18 16:43:25 :: XxXx advanced to level 8
+2003-05-18 16:44:15 :: XxXx advanced to level 9
+2003-06-04 12:05:30 :: Apollo advanced to level 1
+2003-06-04 12:13:23 :: Farington advanced to level 1
+2003-06-04 13:55:54 :: Telstar advanced to level 2
+2003-06-04 13:55:56 :: Telstar advanced to level 3
+2003-06-04 13:56:46 :: Telstar advanced to level 4
+2003-06-04 13:56:50 :: Telstar advanced to level 5
+2003-06-04 13:57:12 :: Telstar advanced to level 6
+2003-06-04 13:57:32 :: Telstar advanced to level 7
+2003-06-04 13:57:58 :: Telstar advanced to level 8
+2003-06-27 21:51:34 :: Aphrodite advanced to level 1
+2003-09-16 21:54:19 :: Cophen advanced to level 1
+2003-09-19 20:11:52 :: PrimR advanced to level 1
+2003-09-19 20:12:22 :: PrimR advanced to level 2
+2003-09-19 20:12:22 :: PrimR advanced to level 3
+2003-09-19 20:12:22 :: PrimR advanced to level 4
+2003-09-19 20:12:22 :: PrimR advanced to level 5
+2003-09-19 20:12:22 :: PrimR advanced to level 6
+2003-09-19 20:12:22 :: PrimR advanced to level 7
+2003-09-19 20:12:22 :: PrimR advanced to level 8
+2003-09-19 20:12:22 :: PrimR advanced to level 9
+2003-09-19 20:12:22 :: PrimR advanced to level 10
+2003-09-19 20:12:22 :: PrimR advanced to level 11
+2003-09-19 20:12:22 :: PrimR advanced to level 12
+2003-09-19 20:12:22 :: PrimR advanced to level 13
+2003-09-19 20:12:22 :: PrimR advanced to level 14
+2003-09-19 20:12:22 :: PrimR advanced to level 15
+2003-09-19 20:12:22 :: PrimR advanced to level 16
+2003-09-19 20:12:22 :: PrimR advanced to level 17
+2003-09-19 20:12:22 :: PrimR advanced to level 18
+2003-09-19 20:12:22 :: PrimR advanced to level 19
+2003-09-19 20:12:22 :: PrimR advanced to level 20
+2003-09-19 20:12:22 :: PrimR advanced to level 21
+2003-09-19 20:12:22 :: PrimR advanced to level 22
+2003-09-19 20:12:22 :: PrimR advanced to level 23
+2003-09-19 20:12:22 :: PrimR advanced to level 24
+2003-09-19 20:12:22 :: PrimR advanced to level 25
+2003-09-19 20:12:22 :: PrimR advanced to level 26
+2003-09-19 20:12:22 :: PrimR advanced to level 27
+2003-09-19 20:12:22 :: PrimR advanced to level 28
+2003-09-19 20:12:22 :: PrimR advanced to level 29
+2003-09-19 20:12:22 :: PrimR advanced to level 30
+2003-09-19 20:12:22 :: PrimR advanced to level 31
+2003-09-19 20:12:22 :: PrimR advanced to level 32
+2003-09-19 20:12:22 :: PrimR advanced to level 33
+2003-09-19 20:12:22 :: PrimR advanced to level 34
+2003-09-19 20:12:22 :: PrimR advanced to level 35
+2003-09-19 20:12:22 :: PrimR advanced to level 36
+2003-09-19 20:12:22 :: PrimR advanced to level 37
+2003-09-19 20:12:22 :: PrimR advanced to level 38
+2003-09-19 20:12:22 :: PrimR advanced to level 39
+2003-09-19 20:12:22 :: PrimR advanced to level 40
+2003-09-19 20:12:22 :: PrimR advanced to level 41
+2003-09-19 20:12:22 :: PrimR advanced to level 42
+2003-09-19 20:12:22 :: PrimR advanced to level 43
+2003-09-19 20:12:22 :: PrimR advanced to level 44
+2003-09-19 20:12:22 :: PrimR advanced to level 45
+2003-09-19 20:12:22 :: PrimR advanced to level 46
+2003-09-19 20:12:22 :: PrimR advanced to level 47
+2003-09-19 20:12:22 :: PrimR advanced to level 48
+2003-09-19 20:12:22 :: PrimR advanced to level 49
+2003-09-19 20:12:22 :: PrimR advanced to level 50
+2003-09-19 20:12:22 :: PrimR advanced to level 51
+2003-09-19 20:12:22 :: PrimR advanced to level 52
+2003-09-19 20:12:22 :: PrimR advanced to level 53
+2003-09-19 20:12:22 :: PrimR advanced to level 54
+2003-09-19 20:12:22 :: PrimR advanced to level 55
+2003-09-19 20:12:22 :: PrimR advanced to level 56
+2003-09-19 20:12:22 :: PrimR advanced to level 57
+2003-09-19 20:12:22 :: PrimR advanced to level 58
+2003-09-19 20:12:22 :: PrimR advanced to level 59
+2003-09-19 20:12:22 :: PrimR advanced to level 60
+2003-09-19 20:12:22 :: PrimR advanced to level 61
+2003-09-19 20:12:22 :: PrimR advanced to level 62
+2003-09-19 20:12:22 :: PrimR advanced to level 63
+2003-09-19 20:12:22 :: PrimR advanced to level 64
+2003-09-19 20:12:22 :: PrimR advanced to level 65
+2003-09-19 20:12:22 :: PrimR advanced to level 66
+2003-09-19 20:12:22 :: PrimR advanced to level 67
+2003-09-19 20:12:22 :: PrimR advanced to level 68
+2003-09-19 20:12:22 :: PrimR advanced to level 69
+2003-09-19 20:12:22 :: PrimR advanced to level 70
+2003-09-20 15:33:43 :: PrimR advanced to level 2
+2003-09-20 15:33:50 :: PrimR advanced to level 3
+2003-09-20 15:35:18 :: PrimR advanced to level 4
+2003-09-20 15:35:23 :: PrimR advanced to level 5
+2003-09-20 15:35:33 :: PrimR advanced to level 6
+2003-09-20 15:35:55 :: PrimR advanced to level 7
+2003-09-20 15:36:23 :: PrimR advanced to level 8
+2003-09-20 15:36:57 :: PrimR advanced to level 9
+2003-09-20 15:38:19 :: PrimR advanced to level 10
+2003-09-20 15:38:51 :: PrimR advanced to level 11
+2003-09-20 15:43:09 :: PrimR advanced to level 12
+2003-09-20 15:44:29 :: PrimR advanced to level 13
+2003-09-20 17:28:52 :: PrimR advanced to level 1
+2003-09-20 17:29:15 :: PrimR advanced to level 2
+2003-09-20 17:29:15 :: PrimR advanced to level 3
+2003-09-20 17:29:15 :: PrimR advanced to level 4
+2003-09-20 17:29:15 :: PrimR advanced to level 5
+2003-09-20 17:29:15 :: PrimR advanced to level 6
+2003-09-20 17:29:15 :: PrimR advanced to level 7
+2003-09-20 17:29:15 :: PrimR advanced to level 8
+2003-09-20 17:29:15 :: PrimR advanced to level 9
+2003-09-20 17:29:15 :: PrimR advanced to level 10
+2003-09-20 17:29:15 :: PrimR advanced to level 11
+2003-09-20 17:29:15 :: PrimR advanced to level 12
+2003-09-20 17:29:15 :: PrimR advanced to level 13
+2003-09-20 17:29:15 :: PrimR advanced to level 14
+2003-09-20 17:29:15 :: PrimR advanced to level 15
+2003-09-20 17:29:15 :: PrimR advanced to level 16
+2003-09-20 17:29:15 :: PrimR advanced to level 17
+2003-09-20 17:29:15 :: PrimR advanced to level 18
+2003-09-20 17:29:15 :: PrimR advanced to level 19
+2003-09-20 17:29:15 :: PrimR advanced to level 20
+2003-09-20 17:29:15 :: PrimR advanced to level 21
+2003-09-20 17:29:15 :: PrimR advanced to level 22
+2003-09-20 17:29:15 :: PrimR advanced to level 23
+2003-09-20 17:29:15 :: PrimR advanced to level 24
+2003-09-20 17:29:15 :: PrimR advanced to level 25
+2003-09-20 17:29:15 :: PrimR advanced to level 26
+2003-09-20 17:29:15 :: PrimR advanced to level 27
+2003-09-20 17:29:15 :: PrimR advanced to level 28
+2003-09-20 17:29:15 :: PrimR advanced to level 29
+2003-09-20 17:29:15 :: PrimR advanced to level 30
+2003-09-20 17:29:15 :: PrimR advanced to level 31
+2003-09-20 17:29:15 :: PrimR advanced to level 32
+2003-09-20 17:29:15 :: PrimR advanced to level 33
+2003-09-20 17:29:15 :: PrimR advanced to level 34
+2003-09-20 17:29:15 :: PrimR advanced to level 35
+2003-09-20 17:29:15 :: PrimR advanced to level 36
+2003-09-20 17:29:15 :: PrimR advanced to level 37
+2003-09-20 17:29:15 :: PrimR advanced to level 38
+2003-09-20 17:29:15 :: PrimR advanced to level 39
+2003-09-20 17:29:15 :: PrimR advanced to level 40
+2003-09-20 17:29:15 :: PrimR advanced to level 41
+2003-09-20 17:29:15 :: PrimR advanced to level 42
+2003-09-20 17:29:15 :: PrimR advanced to level 43
+2003-09-20 17:29:15 :: PrimR advanced to level 44
+2003-09-20 17:29:15 :: PrimR advanced to level 45
+2003-09-20 17:29:15 :: PrimR advanced to level 46
+2003-09-20 17:29:15 :: PrimR advanced to level 47
+2003-09-20 17:29:15 :: PrimR advanced to level 48
+2003-09-20 17:29:15 :: PrimR advanced to level 49
+2003-09-20 17:29:15 :: PrimR advanced to level 50
+2003-09-20 17:29:15 :: PrimR advanced to level 51
+2003-09-20 17:29:15 :: PrimR advanced to level 52
+2003-09-20 17:29:15 :: PrimR advanced to level 53
+2003-09-20 17:29:15 :: PrimR advanced to level 54
+2003-09-20 17:29:15 :: PrimR advanced to level 55
+2003-09-20 17:29:15 :: PrimR advanced to level 56
+2003-09-20 17:29:15 :: PrimR advanced to level 57
+2003-09-20 17:29:15 :: PrimR advanced to level 58
+2003-09-20 17:29:15 :: PrimR advanced to level 59
+2003-09-20 17:29:15 :: PrimR advanced to level 60
+2003-09-20 17:29:15 :: PrimR advanced to level 61
+2003-09-20 17:29:15 :: PrimR advanced to level 62
+2003-09-20 17:29:15 :: PrimR advanced to level 63
+2003-09-20 17:29:15 :: PrimR advanced to level 64
+2003-09-20 17:29:15 :: PrimR advanced to level 65
+2003-09-20 17:29:15 :: PrimR advanced to level 66
+2003-09-20 17:29:15 :: PrimR advanced to level 67
+2003-09-20 17:29:15 :: PrimR advanced to level 68
+2003-09-20 17:29:15 :: PrimR advanced to level 69
+2003-09-20 17:29:15 :: PrimR advanced to level 70
+2003-09-20 17:29:15 :: PrimR advanced to level 71
+2003-09-20 17:29:15 :: PrimR advanced to level 72
+2003-09-20 17:29:15 :: PrimR advanced to level 73
+2003-09-20 17:29:15 :: PrimR advanced to level 74
+2003-09-20 17:29:15 :: PrimR advanced to level 75
+2003-09-20 17:47:24 :: PrimR advanced to level 76
+2003-09-20 18:53:23 :: PrimR advanced to level 1
+2003-09-20 18:54:14 :: PrimR advanced to level 2
+2003-09-20 18:54:14 :: PrimR advanced to level 3
+2003-09-20 18:54:14 :: PrimR advanced to level 4
+2003-09-20 18:54:14 :: PrimR advanced to level 5
+2003-09-20 18:54:14 :: PrimR advanced to level 6
+2003-09-20 18:54:14 :: PrimR advanced to level 7
+2003-09-20 18:54:14 :: PrimR advanced to level 8
+2003-09-20 18:54:14 :: PrimR advanced to level 9
+2003-09-20 18:54:14 :: PrimR advanced to level 10
+2003-09-20 18:54:14 :: PrimR advanced to level 11
+2003-09-20 18:54:14 :: PrimR advanced to level 12
+2003-09-20 18:54:14 :: PrimR advanced to level 13
+2003-09-20 18:54:14 :: PrimR advanced to level 14
+2003-09-20 18:54:14 :: PrimR advanced to level 15
+2003-09-20 18:54:14 :: PrimR advanced to level 16
+2003-09-20 18:54:14 :: PrimR advanced to level 17
+2003-09-20 18:54:14 :: PrimR advanced to level 18
+2003-09-20 18:54:14 :: PrimR advanced to level 19
+2003-09-20 18:54:14 :: PrimR advanced to level 20
+2003-09-20 18:54:14 :: PrimR advanced to level 21
+2003-09-20 18:54:14 :: PrimR advanced to level 22
+2003-09-20 18:54:14 :: PrimR advanced to level 23
+2003-09-20 18:54:14 :: PrimR advanced to level 24
+2003-09-20 18:54:14 :: PrimR advanced to level 25
+2003-09-20 18:54:14 :: PrimR advanced to level 26
+2003-09-20 18:54:14 :: PrimR advanced to level 27
+2003-09-20 18:54:14 :: PrimR advanced to level 28
+2003-09-20 18:54:14 :: PrimR advanced to level 29
+2003-09-20 18:54:14 :: PrimR advanced to level 30
+2003-09-20 18:54:14 :: PrimR advanced to level 31
+2003-09-20 18:54:14 :: PrimR advanced to level 32
+2003-09-20 18:54:14 :: PrimR advanced to level 33
+2003-09-20 18:54:14 :: PrimR advanced to level 34
+2003-09-20 18:54:14 :: PrimR advanced to level 35
+2003-09-20 18:54:14 :: PrimR advanced to level 36
+2003-09-20 18:54:14 :: PrimR advanced to level 37
+2003-09-20 18:54:14 :: PrimR advanced to level 38
+2003-09-20 18:54:14 :: PrimR advanced to level 39
+2003-09-20 18:54:14 :: PrimR advanced to level 40
+2003-09-20 18:54:14 :: PrimR advanced to level 41
+2003-09-20 18:54:14 :: PrimR advanced to level 42
+2003-09-20 18:54:14 :: PrimR advanced to level 43
+2003-09-20 18:54:14 :: PrimR advanced to level 44
+2003-09-20 18:54:14 :: PrimR advanced to level 45
+2003-09-20 18:54:14 :: PrimR advanced to level 46
+2003-09-20 18:54:14 :: PrimR advanced to level 47
+2003-09-20 18:54:14 :: PrimR advanced to level 48
+2003-09-20 18:54:14 :: PrimR advanced to level 49
+2003-09-20 18:54:14 :: PrimR advanced to level 50
+2003-09-20 18:54:14 :: PrimR advanced to level 51
+2003-09-20 18:54:14 :: PrimR advanced to level 52
+2003-09-20 18:54:14 :: PrimR advanced to level 53
+2003-09-20 18:54:14 :: PrimR advanced to level 54
+2003-09-20 18:54:14 :: PrimR advanced to level 55
+2003-09-20 18:54:14 :: PrimR advanced to level 56
+2003-09-20 18:54:14 :: PrimR advanced to level 57
+2003-09-20 18:54:14 :: PrimR advanced to level 58
+2003-09-20 18:54:14 :: PrimR advanced to level 59
+2003-09-20 18:54:14 :: PrimR advanced to level 60
+2003-09-20 18:54:14 :: PrimR advanced to level 61
+2003-09-20 18:54:14 :: PrimR advanced to level 62
+2003-09-20 18:54:14 :: PrimR advanced to level 63
+2003-09-20 18:54:14 :: PrimR advanced to level 64
+2003-09-20 18:54:14 :: PrimR advanced to level 65
+2003-09-20 18:54:14 :: PrimR advanced to level 66
+2003-09-20 18:54:14 :: PrimR advanced to level 67
+2003-09-20 18:54:14 :: PrimR advanced to level 68
+2003-09-20 18:54:14 :: PrimR advanced to level 69
+2003-09-20 18:54:14 :: PrimR advanced to level 70
+2003-09-20 18:54:14 :: PrimR advanced to level 71
+2003-09-20 18:54:14 :: PrimR advanced to level 72
+2003-09-20 18:54:14 :: PrimR advanced to level 73
+2003-09-20 18:54:14 :: PrimR advanced to level 74
+2003-09-20 18:54:14 :: PrimR advanced to level 75
+2003-09-20 18:59:33 :: PrimR advanced to level 76
+2003-09-21 16:56:06 :: Testchar advanced to level 1
+2003-09-21 17:12:04 :: Testchar advanced to level 1
+2003-09-21 17:12:17 :: Testchar advanced to level 2
+2003-09-21 17:12:17 :: Testchar advanced to level 3
+2003-09-21 17:12:17 :: Testchar advanced to level 4
+2003-09-21 17:12:17 :: Testchar advanced to level 5
+2003-09-21 17:12:17 :: Testchar advanced to level 6
+2003-09-21 17:12:17 :: Testchar advanced to level 7
+2003-09-21 17:12:17 :: Testchar advanced to level 8
+2003-09-21 17:12:30 :: Testchar advanced to level 9
+2003-09-21 17:12:30 :: Testchar advanced to level 10
+2003-09-21 17:12:30 :: Testchar advanced to level 11
+2003-09-21 17:12:30 :: Testchar advanced to level 12
+2003-09-21 17:12:30 :: Testchar advanced to level 13
+2003-09-21 17:12:30 :: Testchar advanced to level 14
+2003-09-21 17:12:30 :: Testchar advanced to level 15
+2003-09-21 17:12:30 :: Testchar advanced to level 16
+2003-09-21 17:12:30 :: Testchar advanced to level 17
+2003-09-21 17:12:30 :: Testchar advanced to level 18
+2003-09-21 17:12:30 :: Testchar advanced to level 19
+2003-09-21 17:12:30 :: Testchar advanced to level 20
+2003-09-21 17:12:30 :: Testchar advanced to level 21
+2003-09-21 17:12:30 :: Testchar advanced to level 22
+2003-09-21 17:12:30 :: Testchar advanced to level 23
+2003-09-21 17:12:30 :: Testchar advanced to level 24
+2003-09-21 17:12:30 :: Testchar advanced to level 25
+2003-09-21 17:12:30 :: Testchar advanced to level 26
+2003-09-21 17:12:30 :: Testchar advanced to level 27
+2003-09-21 17:12:30 :: Testchar advanced to level 28
+2003-09-28 22:57:50 :: Plasma advanced to level 2
+2003-09-28 22:57:50 :: Plasma advanced to level 3
+2003-09-28 22:57:50 :: Plasma advanced to level 4
+2003-09-28 22:57:50 :: Plasma advanced to level 5
+2003-09-28 22:57:50 :: Plasma advanced to level 6
+2003-09-28 22:57:50 :: Plasma advanced to level 7
+2003-09-28 22:57:50 :: Plasma advanced to level 8
+2003-09-28 22:57:50 :: Plasma advanced to level 9
+2003-09-28 22:57:50 :: Plasma advanced to level 10
+2003-09-28 22:57:50 :: Plasma advanced to level 11
+2003-09-28 22:57:50 :: Plasma advanced to level 12
+2003-09-28 22:57:50 :: Plasma advanced to level 13
+2003-09-28 22:57:50 :: Plasma advanced to level 14
+2003-09-28 22:57:50 :: Plasma advanced to level 15
+2003-09-28 22:57:50 :: Plasma advanced to level 16
+2003-09-28 22:57:50 :: Plasma advanced to level 17
+2003-09-28 22:57:50 :: Plasma advanced to level 18
+2003-09-28 22:57:50 :: Plasma advanced to level 19
+2003-09-28 22:57:50 :: Plasma advanced to level 20
+2003-09-28 22:57:50 :: Plasma advanced to level 21
+2003-09-28 22:57:50 :: Plasma advanced to level 22
+2003-09-28 22:57:50 :: Plasma advanced to level 23
+2003-09-28 22:57:50 :: Plasma advanced to level 24
+2003-09-28 22:57:50 :: Plasma advanced to level 25
+2003-09-28 22:57:50 :: Plasma advanced to level 26
+2003-09-28 22:57:50 :: Plasma advanced to level 27
+2003-09-28 22:57:50 :: Plasma advanced to level 28
+2003-09-28 22:57:50 :: Plasma advanced to level 29
+2003-09-28 22:57:50 :: Plasma advanced to level 30
+2003-09-28 22:57:50 :: Plasma advanced to level 31
+2003-09-28 22:57:50 :: Plasma advanced to level 32
+2003-09-28 22:57:50 :: Plasma advanced to level 33
+2003-09-28 22:57:50 :: Plasma advanced to level 34
+2003-09-28 22:57:50 :: Plasma advanced to level 35
+2003-09-28 22:57:50 :: Plasma advanced to level 36
+2003-09-28 22:57:50 :: Plasma advanced to level 37
+2003-09-28 22:57:50 :: Plasma advanced to level 38
+2003-09-28 22:57:50 :: Plasma advanced to level 39
+2003-09-28 22:57:50 :: Plasma advanced to level 40
+2003-09-28 22:57:50 :: Plasma advanced to level 41
+2003-09-28 22:57:50 :: Plasma advanced to level 42
+2003-09-28 22:57:50 :: Plasma advanced to level 43
+2003-09-28 22:57:50 :: Plasma advanced to level 44
+2003-09-28 22:57:50 :: Plasma advanced to level 45
+2003-09-28 22:57:50 :: Plasma advanced to level 46
+2003-09-28 22:57:50 :: Plasma advanced to level 47
+2003-09-28 22:57:50 :: Plasma advanced to level 48
+2003-09-28 22:57:50 :: Plasma advanced to level 49
+2003-09-28 22:57:50 :: Plasma advanced to level 50
+2003-09-28 22:57:50 :: Plasma advanced to level 51
+2003-09-28 22:57:50 :: Plasma advanced to level 52
+2003-09-28 22:57:50 :: Plasma advanced to level 53
+2003-09-28 22:57:50 :: Plasma advanced to level 54
+2003-09-28 22:57:50 :: Plasma advanced to level 55
+2003-09-28 22:57:50 :: Plasma advanced to level 56
+2003-09-28 22:57:50 :: Plasma advanced to level 57
+2003-09-28 22:57:50 :: Plasma advanced to level 58
+2003-09-28 22:57:50 :: Plasma advanced to level 59
+2003-09-28 22:57:50 :: Plasma advanced to level 60
+2003-10-02 08:09:51 :: Telstar advanced to level 9
+2003-10-02 08:09:52 :: Telstar advanced to level 10
+2003-10-02 08:09:54 :: Telstar advanced to level 11
+2003-10-02 08:09:57 :: Telstar advanced to level 12
+2003-10-02 08:09:58 :: Telstar advanced to level 13
+2003-10-03 11:45:58 :: Rhcp advanced to level 2
+2003-10-03 11:45:58 :: Rhcp advanced to level 3
+2003-10-03 11:45:58 :: Rhcp advanced to level 4
+2003-10-03 11:45:58 :: Rhcp advanced to level 5
+2003-10-03 11:45:58 :: Rhcp advanced to level 6
+2003-10-03 11:45:58 :: Rhcp advanced to level 7
+2003-10-03 11:45:58 :: Rhcp advanced to level 8
+2003-10-03 11:45:58 :: Rhcp advanced to level 9
+2003-10-03 11:45:58 :: Rhcp advanced to level 10
+2003-10-03 11:45:58 :: Rhcp advanced to level 11
+2003-10-03 11:45:58 :: Rhcp advanced to level 12
+2003-10-03 11:45:58 :: Rhcp advanced to level 13
+2003-10-03 11:45:58 :: Rhcp advanced to level 14
+2003-10-03 11:45:58 :: Rhcp advanced to level 15
+2003-10-03 11:45:58 :: Rhcp advanced to level 16
+2003-10-03 11:45:58 :: Rhcp advanced to level 17
+2003-10-03 11:45:58 :: Rhcp advanced to level 18
+2003-10-03 11:45:58 :: Rhcp advanced to level 19
+2003-10-03 11:45:58 :: Rhcp advanced to level 20
+2003-10-03 11:45:58 :: Rhcp advanced to level 21
+2003-10-03 11:45:58 :: Rhcp advanced to level 22
+2003-10-03 11:45:58 :: Rhcp advanced to level 23
+2003-10-03 11:45:58 :: Rhcp advanced to level 24
+2003-10-03 11:45:58 :: Rhcp advanced to level 25
+2003-10-03 11:45:58 :: Rhcp advanced to level 26
+2003-10-03 11:45:58 :: Rhcp advanced to level 27
+2003-10-03 11:45:58 :: Rhcp advanced to level 28
+2003-10-03 11:45:58 :: Rhcp advanced to level 29
+2003-10-03 11:45:58 :: Rhcp advanced to level 30
+2003-10-03 11:45:58 :: Rhcp advanced to level 31
+2003-10-03 11:45:58 :: Rhcp advanced to level 32
+2003-10-03 11:45:58 :: Rhcp advanced to level 33
+2003-10-03 11:45:58 :: Rhcp advanced to level 34
+2003-10-03 11:45:58 :: Rhcp advanced to level 35
+2003-10-03 11:45:58 :: Rhcp advanced to level 36
+2003-10-03 11:45:58 :: Rhcp advanced to level 37
+2003-10-03 11:45:58 :: Rhcp advanced to level 38
+2003-10-03 11:45:58 :: Rhcp advanced to level 39
+2003-10-03 11:45:58 :: Rhcp advanced to level 40
+2003-10-03 11:45:58 :: Rhcp advanced to level 41
+2003-10-03 11:45:58 :: Rhcp advanced to level 42
+2003-10-03 11:45:58 :: Rhcp advanced to level 43
+2003-10-03 11:45:58 :: Rhcp advanced to level 44
+2003-10-03 11:45:58 :: Rhcp advanced to level 45
+2003-10-03 11:45:58 :: Rhcp advanced to level 46
+2003-10-03 11:45:58 :: Rhcp advanced to level 47
+2003-10-03 11:45:58 :: Rhcp advanced to level 48
+2003-10-03 11:45:58 :: Rhcp advanced to level 49
+2003-10-03 11:45:58 :: Rhcp advanced to level 50
+2003-10-03 11:45:58 :: Rhcp advanced to level 51
+2003-10-03 11:45:58 :: Rhcp advanced to level 52
+2003-10-03 11:45:58 :: Rhcp advanced to level 53
+2003-10-03 11:45:58 :: Rhcp advanced to level 54
+2003-10-03 11:45:58 :: Rhcp advanced to level 55
+2003-10-03 11:45:58 :: Rhcp advanced to level 56
+2003-10-03 11:45:58 :: Rhcp advanced to level 57
+2003-10-03 11:45:58 :: Rhcp advanced to level 58
+2003-10-03 11:45:58 :: Rhcp advanced to level 59
+2003-10-03 11:45:58 :: Rhcp advanced to level 60
+2003-10-03 11:45:58 :: Rhcp advanced to level 61
+2003-10-03 11:45:58 :: Rhcp advanced to level 62
+2003-10-03 11:45:58 :: Rhcp advanced to level 63
+2003-10-03 11:45:58 :: Rhcp advanced to level 64
+2003-10-03 11:45:58 :: Rhcp advanced to level 65
+2003-10-03 11:45:58 :: Rhcp advanced to level 66
+2003-10-03 11:45:58 :: Rhcp advanced to level 67
+2003-10-03 11:45:58 :: Rhcp advanced to level 68
+2003-10-03 11:45:58 :: Rhcp advanced to level 69
+2003-10-03 11:45:58 :: Rhcp advanced to level 70
+2003-10-03 11:45:58 :: Rhcp advanced to level 71
+2003-10-03 11:45:58 :: Rhcp advanced to level 72
+2003-10-03 11:45:58 :: Rhcp advanced to level 73
+2003-10-03 11:45:58 :: Rhcp advanced to level 74
+2003-10-03 11:45:58 :: Rhcp advanced to level 75
+2003-10-03 11:45:58 :: Rhcp advanced to level 76
+2003-10-03 11:45:58 :: Rhcp advanced to level 77
+2003-10-03 11:45:58 :: Rhcp advanced to level 78
+2003-10-03 11:45:58 :: Rhcp advanced to level 79
+2003-10-03 11:45:58 :: Rhcp advanced to level 80
+2003-10-03 11:45:58 :: Rhcp advanced to level 81
+2003-10-07 13:39:49 :: Sexy advanced to level 1
+2003-10-07 15:51:47 :: Sexy advanced to level 2
+2003-10-07 15:51:47 :: Sexy advanced to level 3
+2003-10-07 15:51:47 :: Sexy advanced to level 4
+2003-10-07 15:51:47 :: Sexy advanced to level 5
+2003-10-07 15:51:47 :: Sexy advanced to level 6
+2003-10-07 15:51:47 :: Sexy advanced to level 7
+2003-10-07 15:51:47 :: Sexy advanced to level 8
+2003-10-07 15:51:47 :: Sexy advanced to level 9
+2003-10-07 15:51:47 :: Sexy advanced to level 10
+2003-10-07 15:51:47 :: Sexy advanced to level 11
+2003-10-07 15:51:47 :: Sexy advanced to level 12
+2003-10-07 15:51:47 :: Sexy advanced to level 13
+2003-10-07 15:51:47 :: Sexy advanced to level 14
+2003-10-07 15:51:47 :: Sexy advanced to level 15
+2003-10-07 15:51:47 :: Sexy advanced to level 16
+2003-10-07 15:51:47 :: Sexy advanced to level 17
+2003-10-07 15:51:47 :: Sexy advanced to level 18
+2003-10-07 15:51:47 :: Sexy advanced to level 19
+2003-10-07 15:51:47 :: Sexy advanced to level 20
+2003-10-07 15:51:47 :: Sexy advanced to level 21
+2003-10-07 15:51:47 :: Sexy advanced to level 22
+2003-10-07 15:51:47 :: Sexy advanced to level 23
+2003-10-07 15:51:47 :: Sexy advanced to level 24
+2003-10-07 15:51:47 :: Sexy advanced to level 25
+2003-10-07 15:51:47 :: Sexy advanced to level 26
+2003-10-07 15:51:47 :: Sexy advanced to level 27
+2003-10-07 15:51:47 :: Sexy advanced to level 28
+2003-10-07 15:51:47 :: Sexy advanced to level 29
+2003-10-07 15:51:47 :: Sexy advanced to level 30
+2003-10-07 15:51:47 :: Sexy advanced to level 31
+2003-10-07 15:51:47 :: Sexy advanced to level 32
+2003-10-07 15:51:47 :: Sexy advanced to level 33
+2003-10-07 15:51:47 :: Sexy advanced to level 34
+2003-10-07 15:51:47 :: Sexy advanced to level 35
+2003-10-07 15:51:47 :: Sexy advanced to level 36
+2003-10-07 15:51:47 :: Sexy advanced to level 37
+2003-10-07 15:51:47 :: Sexy advanced to level 38
+2003-10-07 15:51:47 :: Sexy advanced to level 39
+2003-10-07 15:51:47 :: Sexy advanced to level 40
+2003-10-07 15:51:47 :: Sexy advanced to level 41
+2003-10-07 15:51:47 :: Sexy advanced to level 42
+2003-10-07 15:51:47 :: Sexy advanced to level 43
+2003-10-07 15:51:47 :: Sexy advanced to level 44
+2003-10-07 15:51:47 :: Sexy advanced to level 45
+2003-10-07 15:51:47 :: Sexy advanced to level 46
+2003-10-07 15:51:47 :: Sexy advanced to level 47
+2003-10-07 15:51:47 :: Sexy advanced to level 48
+2003-10-07 15:51:47 :: Sexy advanced to level 49
+2003-10-07 15:51:47 :: Sexy advanced to level 50
+2003-10-07 15:51:47 :: Sexy advanced to level 51
+2003-10-07 15:51:47 :: Sexy advanced to level 52
+2003-10-07 15:51:47 :: Sexy advanced to level 53
+2003-10-07 15:51:47 :: Sexy advanced to level 54
+2003-10-07 15:51:47 :: Sexy advanced to level 55
+2003-10-07 15:51:47 :: Sexy advanced to level 56
+2003-10-07 15:51:47 :: Sexy advanced to level 57
+2003-10-07 15:51:47 :: Sexy advanced to level 58
+2003-10-07 15:51:47 :: Sexy advanced to level 59
+2003-10-07 15:51:47 :: Sexy advanced to level 60
+2003-10-07 15:51:47 :: Sexy advanced to level 61
+2003-10-07 15:51:47 :: Sexy advanced to level 62
+2003-10-07 15:51:47 :: Sexy advanced to level 63
+2003-10-07 15:51:47 :: Sexy advanced to level 64
+2003-10-07 15:51:47 :: Sexy advanced to level 65
+2003-10-07 15:51:47 :: Sexy advanced to level 66
+2003-10-07 15:51:47 :: Sexy advanced to level 67
+2003-10-07 15:51:47 :: Sexy advanced to level 68
+2003-10-07 15:51:47 :: Sexy advanced to level 69
+2003-10-07 15:51:47 :: Sexy advanced to level 70
+2003-10-07 15:51:47 :: Sexy advanced to level 71
+2003-10-07 15:51:47 :: Sexy advanced to level 72
+2003-10-07 15:51:47 :: Sexy advanced to level 73
+2003-10-07 15:51:47 :: Sexy advanced to level 74
+2003-10-07 15:51:47 :: Sexy advanced to level 75
+2003-10-07 15:51:47 :: Sexy advanced to level 76
+2003-10-07 15:51:47 :: Sexy advanced to level 77
+2003-10-07 15:51:47 :: Sexy advanced to level 78
+2003-10-07 15:51:47 :: Sexy advanced to level 79
+2003-10-07 15:51:47 :: Sexy advanced to level 80
+2003-10-07 15:51:47 :: Sexy advanced to level 81
+2003-10-07 15:51:47 :: Sexy advanced to level 82
+2003-10-07 15:51:47 :: Sexy advanced to level 83
+2003-10-07 15:51:47 :: Sexy advanced to level 84
+2003-10-07 15:51:47 :: Sexy advanced to level 85
+2003-10-08 18:29:02 :: Batfink advanced to level 1
+2003-10-08 18:41:06 :: Yamum advanced to level 1
+2003-10-09 08:31:46 :: Batfink advanced to level 2
+2003-10-09 08:58:08 :: Batfink advanced to level 3
+2003-10-09 09:47:46 :: Batfink advanced to level 4
+2003-10-09 10:29:40 :: Batfink advanced to level 5
+2003-10-09 10:57:54 :: Yamum advanced to level 2
+2003-10-09 11:06:54 :: Batfink advanced to level 6
+2003-10-09 11:21:18 :: Batfink advanced to level 7
+2003-10-09 11:37:38 :: Yamum advanced to level 3
+2003-10-09 11:57:06 :: Yamum advanced to level 4
+2003-10-09 12:04:42 :: Batfink advanced to level 8
+2003-10-09 12:23:40 :: Yamum advanced to level 5
+2003-10-09 12:35:38 :: Batfink advanced to level 9
+2003-10-09 13:11:00 :: Sandii changed Sexy's advanced heal to 100.
+2003-10-09 14:14:45 :: Yamum advanced to level 6
+2003-10-09 16:56:58 :: Yamum advanced to level 7
+2003-10-09 20:12:06 :: Yamum advanced to level 8
+2003-10-09 21:40:47 :: Batfink advanced to level 10
+2003-10-09 21:54:51 :: Batfink advanced to level 11
+2003-10-10 08:56:51 :: Batfink advanced to level 12
+2003-10-10 11:39:39 :: NormaJean advanced to level 1
+2003-10-10 18:38:51 :: Batfink advanced to level 13
+2003-10-10 18:59:14 :: Takkarin advanced to level 1
+2003-10-10 19:04:27 :: Batfink advanced to level 14
+2003-10-10 19:33:12 :: Batfink advanced to level 15
+2003-10-11 14:03:17 :: Xena advanced to level 1
+2003-10-11 14:04:09 :: Gabrielle advanced to level 1
+2003-10-11 14:09:03 :: Xena advanced to level 2
+2003-10-11 14:09:15 :: Gabrielle advanced to level 2
+2003-10-11 14:18:43 :: Xena advanced to level 3
+2003-10-11 14:18:57 :: Gabrielle advanced to level 3
+2003-10-11 14:29:11 :: Xena advanced to level 4
+2003-10-11 14:29:13 :: Gabrielle advanced to level 4
+2003-10-11 14:38:43 :: Xena advanced to level 5
+2003-10-11 14:44:49 :: Gabrielle advanced to level 5
+2003-10-11 14:48:05 :: Xena advanced to level 6
+2003-10-11 14:50:35 :: Gabrielle advanced to level 6
+2003-10-11 15:08:21 :: Xena advanced to level 7
+2003-10-11 15:09:13 :: Gabrielle advanced to level 7
+2003-10-11 15:51:17 :: Xena advanced to level 8
+2003-10-11 15:51:43 :: Gabrielle advanced to level 8
+2003-10-12 01:35:10 :: NormaJean advanced to level 2
+2003-10-12 01:35:10 :: NormaJean advanced to level 3
+2003-10-12 01:35:10 :: NormaJean advanced to level 4
+2003-10-12 01:35:10 :: NormaJean advanced to level 5
+2003-10-12 01:35:10 :: NormaJean advanced to level 6
+2003-10-12 01:35:10 :: NormaJean advanced to level 7
+2003-10-12 01:35:10 :: NormaJean advanced to level 8
+2003-10-12 01:35:10 :: NormaJean advanced to level 9
+2003-10-12 01:35:10 :: NormaJean advanced to level 10
+2003-10-12 01:35:10 :: NormaJean advanced to level 11
+2003-10-12 01:35:10 :: NormaJean advanced to level 12
+2003-10-12 01:35:10 :: NormaJean advanced to level 13
+2003-10-12 01:35:10 :: NormaJean advanced to level 14
+2003-10-12 01:35:10 :: NormaJean advanced to level 15
+2003-10-12 01:35:10 :: NormaJean advanced to level 16
+2003-10-12 01:35:10 :: NormaJean advanced to level 17
+2003-10-12 01:35:10 :: NormaJean advanced to level 18
+2003-10-12 01:35:10 :: NormaJean advanced to level 19
+2003-10-12 01:35:10 :: NormaJean advanced to level 20
+2003-10-12 01:35:10 :: NormaJean advanced to level 21
+2003-10-12 01:35:10 :: NormaJean advanced to level 22
+2003-10-12 01:35:10 :: NormaJean advanced to level 23
+2003-10-12 01:35:10 :: NormaJean advanced to level 24
+2003-10-12 01:35:10 :: NormaJean advanced to level 25
+2003-10-12 01:35:10 :: NormaJean advanced to level 26
+2003-10-12 01:35:10 :: NormaJean advanced to level 27
+2003-10-12 01:35:10 :: NormaJean advanced to level 28
+2003-10-12 01:35:10 :: NormaJean advanced to level 29
+2003-10-12 01:35:10 :: NormaJean advanced to level 30
+2003-10-12 01:35:10 :: NormaJean advanced to level 31
+2003-10-12 01:35:10 :: NormaJean advanced to level 32
+2003-10-12 01:35:10 :: NormaJean advanced to level 33
+2003-10-12 01:35:10 :: NormaJean advanced to level 34
+2003-10-12 01:35:10 :: NormaJean advanced to level 35
+2003-10-12 01:35:10 :: NormaJean advanced to level 36
+2003-10-12 01:35:10 :: NormaJean advanced to level 37
+2003-10-12 01:35:10 :: NormaJean advanced to level 38
+2003-10-12 01:35:10 :: NormaJean advanced to level 39
+2003-10-12 01:35:10 :: NormaJean advanced to level 40
+2003-10-12 01:35:10 :: NormaJean advanced to level 41
+2003-10-12 01:35:10 :: NormaJean advanced to level 42
+2003-10-12 01:35:10 :: NormaJean advanced to level 43
+2003-10-12 01:35:10 :: NormaJean advanced to level 44
+2003-10-12 01:35:10 :: NormaJean advanced to level 45
+2003-10-12 01:35:10 :: NormaJean advanced to level 46
+2003-10-12 01:35:10 :: NormaJean advanced to level 47
+2003-10-12 01:35:10 :: NormaJean advanced to level 48
+2003-10-12 01:35:10 :: NormaJean advanced to level 49
+2003-10-12 01:35:10 :: NormaJean advanced to level 50
+2003-10-12 01:35:10 :: NormaJean advanced to level 51
+2003-10-12 01:35:10 :: NormaJean advanced to level 52
+2003-10-12 01:35:10 :: NormaJean advanced to level 53
+2003-10-12 01:35:10 :: NormaJean advanced to level 54
+2003-10-12 01:35:10 :: NormaJean advanced to level 55
+2003-10-12 01:35:10 :: NormaJean advanced to level 56
+2003-10-12 01:35:10 :: NormaJean advanced to level 57
+2003-10-12 01:35:10 :: NormaJean advanced to level 58
+2003-10-12 01:35:10 :: NormaJean advanced to level 59
+2003-10-12 01:35:10 :: NormaJean advanced to level 60
+2003-10-12 01:35:10 :: NormaJean advanced to level 61
+2003-10-12 01:35:10 :: NormaJean advanced to level 62
+2003-10-12 01:35:10 :: NormaJean advanced to level 63
+2003-10-12 01:35:10 :: NormaJean advanced to level 64
+2003-10-12 01:35:10 :: NormaJean advanced to level 65
+2003-10-12 01:35:10 :: NormaJean advanced to level 66
+2003-10-12 01:35:10 :: NormaJean advanced to level 67
+2003-10-12 01:35:10 :: NormaJean advanced to level 68
+2003-10-12 01:35:10 :: NormaJean advanced to level 69
+2003-10-12 01:35:10 :: NormaJean advanced to level 70
+2003-10-12 01:35:10 :: NormaJean advanced to level 71
+2003-10-12 01:35:10 :: NormaJean advanced to level 72
+2003-10-12 01:35:10 :: NormaJean advanced to level 73
+2003-10-12 01:35:10 :: NormaJean advanced to level 74
+2003-10-12 01:35:10 :: NormaJean advanced to level 75
+2003-10-12 01:35:10 :: NormaJean advanced to level 76
+2003-10-12 01:35:10 :: NormaJean advanced to level 77
+2003-10-12 01:35:10 :: NormaJean advanced to level 78
+2003-10-12 01:35:10 :: NormaJean advanced to level 79
+2003-10-12 01:35:10 :: NormaJean advanced to level 80
+2003-10-12 01:35:10 :: NormaJean advanced to level 81
+2003-10-12 01:35:10 :: NormaJean advanced to level 82
+2003-10-12 01:35:10 :: NormaJean advanced to level 83
+2003-10-12 01:35:10 :: NormaJean advanced to level 84
+2003-10-12 01:35:10 :: NormaJean advanced to level 85
+2003-10-12 01:35:10 :: NormaJean advanced to level 86
+2003-10-12 01:35:10 :: NormaJean advanced to level 87
+2003-10-12 01:35:10 :: NormaJean advanced to level 88
+2003-10-12 01:35:10 :: NormaJean advanced to level 89
+2003-10-12 01:35:10 :: NormaJean advanced to level 90
+2003-10-12 01:35:10 :: NormaJean advanced to level 91
+2003-10-12 01:35:10 :: NormaJean advanced to level 92
+2003-10-12 01:35:10 :: NormaJean advanced to level 93
+2003-10-12 01:35:10 :: NormaJean advanced to level 94
+2003-10-12 01:35:10 :: NormaJean advanced to level 95
+2003-10-12 01:35:10 :: NormaJean advanced to level 96
+2003-10-12 01:35:10 :: NormaJean advanced to level 97
+2003-10-12 01:35:10 :: NormaJean advanced to level 98
+2003-10-12 01:35:10 :: NormaJean advanced to level 99
+2003-10-12 01:35:10 :: NormaJean advanced to level 100
+2003-10-12 01:35:10 :: NormaJean advanced to level 101
+2003-10-12 01:35:10 :: NormaJean advanced to level 102
+2003-10-12 01:35:10 :: NormaJean advanced to level 103
+2003-10-12 01:35:10 :: NormaJean advanced to level 104
+2003-10-12 01:35:10 :: NormaJean advanced to level 105
+2003-10-12 01:35:10 :: NormaJean advanced to level 106
+2003-10-12 01:35:10 :: NormaJean advanced to level 107
+2003-10-12 01:35:10 :: NormaJean advanced to level 108
+2003-10-12 01:35:10 :: NormaJean advanced to level 109
+2003-10-12 01:35:10 :: NormaJean advanced to level 110
+2003-10-12 11:23:44 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 11:25:03 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 11:26:37 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 11:32:55 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 11:33:38 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 11:49:19 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 11:57:24 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 12:05:59 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 14:56:07 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 15:05:25 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-12 16:46:33 :: Xena advanced to level 9
+2003-10-12 16:47:07 :: Gabrielle advanced to level 9
+2003-10-12 17:40:53 :: Xena advanced to level 10
+2003-10-12 17:42:07 :: Gabrielle advanced to level 10
+2003-10-12 21:09:07 :: Karma advanced to level 1
+2003-10-12 22:21:16 :: Batfink advanced to level 16
+2003-10-12 22:43:36 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 09:36:42 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 12:29:42 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 13:39:53 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 13:54:15 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 14:11:43 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 14:28:50 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 17:58:31 :: Batfink advanced to level 17
+2003-10-13 18:50:30 :: Batfink advanced to level 18
+2003-10-13 18:52:52 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 18:59:11 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 19:17:41 :: Hitek advanced to level 1
+2003-10-13 19:41:44 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 20:10:47 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-13 23:01:25 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-14 08:38:53 :: Batfink advanced to level 19
+2003-10-14 09:02:39 :: Batfink advanced to level 20
+2003-10-14 14:07:51 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-14 14:23:29 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-14 15:42:04 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-14 15:44:41 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-14 16:51:14 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-14 17:11:58 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-14 19:12:52 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-14 23:29:05 :: Cophen advanced to level 2
+2003-10-14 23:35:27 :: Belthaza advanced to level 1
+2003-10-15 01:23:40 :: Seth advanced to level 17
+2003-10-15 01:23:40 :: Seth advanced to level 18
+2003-10-15 01:24:47 :: Seth advanced to level 19
+2003-10-15 01:24:59 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-15 01:30:28 :: Seth advanced to level 20
+2003-10-15 01:30:35 :: Seth advanced to level 21
+2003-10-15 01:31:31 :: Seth advanced to level 22
+2003-10-15 01:31:31 :: Seth advanced to level 23
+2003-10-15 01:31:45 :: Seth advanced to level 24
+2003-10-15 01:32:11 :: Seth advanced to level 25
+2003-10-15 01:32:34 :: Seth advanced to level 26
+2003-10-15 01:33:38 :: Seth advanced to level 27
+2003-10-15 01:33:38 :: Seth advanced to level 28
+2003-10-15 01:33:38 :: Seth advanced to level 29
+2003-10-15 01:33:53 :: Seth advanced to level 30
+2003-10-15 01:34:04 :: Seth advanced to level 31
+2003-10-15 01:34:29 :: Seth advanced to level 32
+2003-10-15 01:34:47 :: Seth advanced to level 33
+2003-10-15 01:35:32 :: Seth advanced to level 34
+2003-10-15 01:35:32 :: Seth advanced to level 35
+2003-10-15 01:35:49 :: Seth advanced to level 36
+2003-10-15 01:36:26 :: Seth advanced to level 37
+2003-10-15 01:38:17 :: Seth advanced to level 38
+2003-10-15 01:38:17 :: Seth advanced to level 39
+2003-10-15 01:38:28 :: Spell_Ident: s, Spell Name: advanced heal
+2003-10-15 01:40:39 :: Seth advanced to level 40
+2003-10-15 01:41:09 :: Seth advanced to level 41
+2003-10-15 01:41:33 :: Seth advanced to level 42
+2003-10-15 01:41:59 :: Seth advanced to level 43
+2003-10-15 01:51:44 :: Seth advanced to level 44
+2003-10-15 01:53:28 :: Seth advanced to level 45
+2003-10-15 01:55:00 :: Seth advanced to level 46
+2003-10-15 01:55:36 :: Seth advanced to level 47
+2003-10-15 01:56:27 :: Seth advanced to level 48
+2003-10-15 01:57:42 :: Seth advanced to level 49
+2003-10-15 01:58:18 :: Seth advanced to level 50
+2003-10-15 06:04:08 :: Batfink advanced to level 21
+2003-10-15 08:06:03 :: Stereo advanced to level 1
+2003-10-15 10:55:38 :: Cophen advanced to level 3
+2003-10-15 10:55:38 :: Cophen advanced to level 4
+2003-10-15 11:05:39 :: Cophen advanced to level 5
+2003-10-15 16:54:13 :: Batfink advanced to level 22
+2003-10-15 17:53:43 :: Batfink advanced to level 23
+2003-10-15 18:48:04 :: Batfink advanced to level 24
+2003-10-15 19:38:06 :: Batfink advanced to level 25
+2003-10-15 22:09:18 :: Batfink advanced to level 26
+2003-10-16 00:16:53 :: Karma has advanced to level 199 (do_cheat)
+2003-10-16 14:09:45 :: SCRIPT ERR: Obj (health shot, VNum 30842): Unknown object cmd: 'cast 'advanced heal' 137'
+2003-10-16 14:09:45 :: SCRIPT ERR: Obj (health shot, VNum 30842): Unknown object cmd: 'cast 'advanced heal' 137'
+2003-10-16 16:14:30 :: Batfink advanced to level 27
+2003-10-16 16:36:06 :: Batfink advanced to level 28
+2003-10-16 16:58:03 :: Batfink advanced to level 29
+2003-10-16 17:44:14 :: Batfink advanced to level 30
+2003-10-16 18:51:00 :: Batfink advanced to level 31
+2003-10-16 19:32:41 :: Batfink advanced to level 32
+2003-10-16 20:57:50 :: Batfink advanced to level 33
+2003-10-17 00:53:56 :: Seth advanced to level 2
+2003-10-17 01:00:58 :: Seth advanced to level 3
+2003-10-17 01:11:42 :: Seth advanced to level 4
+2003-10-17 01:36:30 :: Seth advanced to level 5
+2003-10-17 05:49:30 :: Batfink advanced to level 34
+2003-10-17 17:19:33 :: Batfink advanced to level 35
+2003-10-17 19:54:35 :: Batfink advanced to level 36
+2003-10-18 07:24:03 :: Batfink advanced to level 37
+2003-10-18 07:42:45 :: Zero advanced to level 1
+2003-10-18 08:01:04 :: Batfink advanced to level 38
+2003-10-18 08:38:26 :: Batfink advanced to level 39
+2003-10-18 10:38:32 :: Phoenix advanced to level 2
+2003-10-18 10:38:58 :: Phoenix advanced to level 3
+2003-10-18 10:41:09 :: Phoenix advanced to level 4
+2003-10-18 10:43:58 :: Phoenix advanced to level 5
+2003-10-18 10:50:38 :: Phoenix advanced to level 6
+2003-10-18 10:51:48 :: Phoenix advanced to level 7
+2003-10-18 10:58:56 :: Phoenix advanced to level 8
+2003-10-18 11:32:52 :: Batfink advanced to level 40
+2003-10-18 15:00:12 :: Zero advanced to level 2
+2003-10-18 17:38:14 :: Batfink advanced to level 41
+2003-10-18 20:42:56 :: Batfink advanced to level 42
+2003-10-18 22:53:51 :: Sven advanced to level 1
+2003-10-18 23:52:03 :: Sven advanced to level 2
+2003-10-18 23:52:03 :: Sven advanced to level 3
+2003-10-19 01:29:28 :: Seth advanced to level 6
+2003-10-19 02:04:46 :: Seth advanced to level 7
+2003-10-19 02:07:34 :: Seth advanced to level 8
+2003-10-19 02:34:25 :: Seth advanced to level 9
+2003-10-19 07:24:24 :: Batfink advanced to level 43
+2003-10-19 07:54:38 :: Batfink advanced to level 44
+2003-10-19 08:34:10 :: Batfink advanced to level 45
+2003-10-19 09:08:52 :: Batfink advanced to level 46
+2003-10-19 09:59:34 :: Batfink advanced to level 47
+2003-10-19 11:07:05 :: Batfink advanced to level 48
+2003-10-19 12:01:11 :: Batfink advanced to level 49
+2003-10-19 12:49:42 :: Batfink advanced to level 50
+2003-10-19 13:08:50 :: Gabrielle advanced to level 11
+2003-10-19 13:08:50 :: Gabrielle advanced to level 12
+2003-10-19 13:08:50 :: Gabrielle advanced to level 13
+2003-10-19 13:08:50 :: Gabrielle advanced to level 14
+2003-10-19 13:08:50 :: Gabrielle advanced to level 15
+2003-10-19 13:08:50 :: Gabrielle advanced to level 16
+2003-10-19 13:08:50 :: Gabrielle advanced to level 17
+2003-10-19 13:08:50 :: Gabrielle advanced to level 18
+2003-10-19 13:08:50 :: Gabrielle advanced to level 19
+2003-10-19 13:08:50 :: Gabrielle advanced to level 20
+2003-10-19 13:08:59 :: Gabrielle advanced to level 21
+2003-10-19 13:08:59 :: Gabrielle advanced to level 22
+2003-10-19 13:08:59 :: Gabrielle advanced to level 23
+2003-10-19 13:08:59 :: Gabrielle advanced to level 24
+2003-10-19 13:08:59 :: Gabrielle advanced to level 25
+2003-10-19 13:08:59 :: Gabrielle advanced to level 26
+2003-10-19 13:08:59 :: Gabrielle advanced to level 27
+2003-10-19 13:08:59 :: Gabrielle advanced to level 28
+2003-10-19 13:08:59 :: Gabrielle advanced to level 29
+2003-10-19 13:08:59 :: Gabrielle advanced to level 30
+2003-10-19 13:09:08 :: Gabrielle advanced to level 31
+2003-10-19 13:09:08 :: Gabrielle advanced to level 32
+2003-10-19 13:09:08 :: Gabrielle advanced to level 33
+2003-10-19 13:09:08 :: Gabrielle advanced to level 34
+2003-10-19 13:09:08 :: Gabrielle advanced to level 35
+2003-10-19 13:09:08 :: Gabrielle advanced to level 36
+2003-10-19 13:09:08 :: Gabrielle advanced to level 37
+2003-10-19 13:09:08 :: Gabrielle advanced to level 38
+2003-10-19 13:09:08 :: Gabrielle advanced to level 39
+2003-10-19 13:09:08 :: Gabrielle advanced to level 40
+2003-10-19 13:09:16 :: Gabrielle advanced to level 41
+2003-10-19 13:09:16 :: Gabrielle advanced to level 42
+2003-10-19 13:09:16 :: Gabrielle advanced to level 43
+2003-10-19 13:09:16 :: Gabrielle advanced to level 44
+2003-10-19 13:09:16 :: Gabrielle advanced to level 45
+2003-10-19 13:09:16 :: Gabrielle advanced to level 46
+2003-10-19 13:09:16 :: Gabrielle advanced to level 47
+2003-10-19 13:09:16 :: Gabrielle advanced to level 48
+2003-10-19 13:09:16 :: Gabrielle advanced to level 49
+2003-10-19 13:09:16 :: Gabrielle advanced to level 50
+2003-10-19 13:25:57 :: Gabrielle advanced to level 1
+2003-10-19 13:45:16 :: Batfink advanced to level 2
+2003-10-19 14:17:58 :: Batfink advanced to level 3
+2003-10-19 14:34:02 :: Seth advanced to level 10
+2003-10-19 14:57:52 :: Batfink advanced to level 4
+2003-10-19 18:12:30 :: Batfink advanced to level 5
+2003-10-19 18:20:38 :: Batfink advanced to level 6
+2003-10-19 20:20:33 :: Batfink advanced to level 7
+2003-10-19 21:01:30 :: Batfink advanced to level 8
+2003-10-19 21:35:42 :: Batfink advanced to level 9
+2003-10-19 21:46:38 :: Batfink advanced to level 10
+2003-10-19 22:19:26 :: Batfink advanced to level 11
+2003-10-20 05:26:06 :: Batfink advanced to level 12
+2003-10-20 05:52:18 :: Batfink advanced to level 13
+2003-10-20 06:03:50 :: Batfink advanced to level 14
+2003-10-20 06:44:08 :: Batfink advanced to level 15
+2003-10-20 07:58:16 :: Batfink advanced to level 16
+2003-10-20 08:36:58 :: Batfink advanced to level 17
+2003-10-20 08:53:09 :: Batfink advanced to level 18
+2003-10-20 10:02:48 :: Batfink advanced to level 19
+2003-10-20 11:04:53 :: AmaroK advanced to level 2
+2003-10-20 11:05:22 :: AmaroK advanced to level 3
+2003-10-20 11:08:12 :: AmaroK advanced to level 4
+2003-10-20 11:11:00 :: AmaroK advanced to level 5
+2003-10-20 11:16:50 :: AmaroK advanced to level 6
+2003-10-20 11:46:20 :: AmaroK advanced to level 7
+2003-10-20 11:53:52 :: AmaroK advanced to level 8
+2003-10-20 12:07:10 :: AmaroK advanced to level 9
+2003-10-20 12:18:41 :: AmaroK advanced to level 10
+2003-10-20 12:21:09 :: AmaroK advanced to level 11
+2003-10-20 12:26:17 :: AmaroK advanced to level 12
+2003-10-20 12:37:37 :: AmaroK advanced to level 13
+2003-10-20 13:18:41 :: AmaroK advanced to level 14
+2003-10-20 13:37:40 :: AmaroK advanced to level 15
+2003-10-20 14:18:21 :: AmaroK advanced to level 16
+2003-10-20 14:30:13 :: AmaroK advanced to level 17
+2003-10-20 14:46:35 :: AmaroK advanced to level 18
+2003-10-20 15:17:17 :: AmaroK advanced to level 19
+2003-10-20 15:31:07 :: AmaroK advanced to level 20
+2003-10-20 15:58:47 :: AmaroK advanced to level 21
+2003-10-20 16:10:39 :: AmaroK advanced to level 22
+2003-10-20 16:47:35 :: AmaroK advanced to level 23
+2003-10-20 16:57:28 :: Moe advanced to level 1
+2003-10-20 17:02:11 :: AmaroK advanced to level 24
+2003-10-20 17:32:37 :: AmaroK advanced to level 25
+2003-10-20 18:06:05 :: AmaroK advanced to level 26
+2003-10-20 20:14:36 :: AmaroK advanced to level 27
+2003-10-20 22:13:02 :: Artus has advanced to level 199 (do_cheat)
+2003-10-21 05:52:31 :: Batfink advanced to level 20
+2003-10-21 13:05:24 :: Moe advanced to level 2
+2003-10-21 13:36:55 :: Moe advanced to level 3
+2003-10-21 13:36:55 :: Moe advanced to level 4
+2003-10-21 13:37:46 :: Moe advanced to level 5
+2003-10-21 13:37:46 :: Moe advanced to level 6
+2003-10-21 13:50:55 :: Moe advanced to level 7
+2003-10-21 16:32:34 :: Yamum advanced to level 9
+2003-10-21 17:03:00 :: Batfink advanced to level 21
+2003-10-21 18:22:29 :: Batfink advanced to level 22
+2003-10-22 08:11:46 :: Batfink advanced to level 23
+2003-10-22 08:44:28 :: Batfink advanced to level 24
+2003-10-22 09:36:52 :: Batfink advanced to level 25
+2003-10-22 10:29:47 :: Hetfield advanced to level 1
+2003-10-22 11:37:26 :: Batfink advanced to level 26
+2003-10-22 21:54:13 :: Zeneth advanced to level 1
+2003-10-23 06:18:57 :: Batfink advanced to level 27
+2003-10-23 07:02:51 :: Batfink advanced to level 28
+2003-10-23 07:43:23 :: Batfink advanced to level 29
+2003-10-23 08:30:15 :: Batfink advanced to level 30
+2003-10-23 10:09:00 :: Batfink advanced to level 31
+2003-10-23 11:34:33 :: Cophen advanced to level 6
+2003-10-23 11:35:51 :: Cophen advanced to level 7
+2003-10-23 14:18:54 :: Batfink advanced to level 32
+2003-10-23 18:51:10 :: Batfink advanced to level 33
+2003-10-23 20:18:10 :: Batfink advanced to level 34
+2003-10-23 22:26:10 :: Flea advanced to level 1
+2003-10-23 22:39:31 :: Flea advanced to level 2
+2003-10-23 23:16:28 :: Flea advanced to level 3
+2003-10-24 06:00:21 :: Batfink advanced to level 35
+2003-10-24 13:08:04 :: Flea advanced to level 4
+2003-10-24 14:01:24 :: Flea advanced to level 5
+2003-10-24 16:17:37 :: Flea advanced to level 6
+2003-10-24 21:00:02 :: Phoenix advanced to level 9
+2003-10-24 21:02:05 :: Phoenix advanced to level 10
+2003-10-24 21:17:49 :: Phoenix advanced to level 11
+2003-10-24 23:03:14 :: Flea advanced to level 7
+2003-10-25 15:25:53 :: Phoenix advanced to level 12
+2003-10-25 15:44:52 :: Phoenix advanced to level 13
+2003-10-25 20:04:10 :: Flea advanced to level 8
+2003-10-25 21:43:38 :: Flea advanced to level 9
+2003-10-25 21:53:38 :: Batfink advanced to level 36
+2003-10-25 21:53:42 :: Flea advanced to level 10
+2003-10-25 22:15:38 :: Phoenix advanced to level 14
+2003-10-25 22:57:16 :: Flea advanced to level 11
+2003-10-25 23:06:08 :: Flea advanced to level 12
+2003-10-25 23:09:44 :: Flea advanced to level 13
+2003-10-25 23:10:24 :: Flea advanced to level 14
+2003-10-25 23:12:06 :: Flea advanced to level 15
+2003-10-25 23:38:40 :: Flea advanced to level 16
+2003-10-25 23:39:42 :: Flea advanced to level 17
+2003-10-25 23:40:00 :: Flea advanced to level 18
+2003-10-25 23:40:56 :: Flea advanced to level 19
+2003-10-25 23:42:00 :: Flea advanced to level 20
+2003-10-25 23:46:04 :: Flea advanced to level 21
+2003-10-26 05:11:12 :: Batfink advanced to level 37
+2003-10-26 13:56:54 :: Seth advanced to level 11
+2003-10-26 14:33:32 :: Seth advanced to level 12
+2003-10-26 21:35:34 :: Batfink advanced to level 38
+2003-10-26 22:57:52 :: Batfink advanced to level 39
+2003-10-27 06:53:46 :: Batfink advanced to level 40
+2003-10-27 07:30:00 :: Batfink advanced to level 41
+2003-10-27 08:07:08 :: Batfink advanced to level 42
+2003-10-27 08:46:24 :: Batfink advanced to level 43
+2003-10-27 09:17:20 :: Batfink advanced to level 44
+2003-10-27 11:48:28 :: Murf advanced to level 1
+2003-10-27 12:31:17 :: Cophen advanced to level 8
+@
+
+
+1.4
+log
+@Artus> A3_0_315
+@
+text
+@d2510 69
+@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to c
+@
+text
+@d1645 865
+@
+
+
+1.2
+log
+@ What the hell is happening with this?  From Sandii's Directory changes made to obj's Fro Example of help file from Sandii's directory
+From sandii's directory
+@
+text
+@d172 1473
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d22 150
+@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

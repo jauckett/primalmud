@@ -1,0 +1,90 @@
+1
+k
+11
+bearhug  jo
+0
+2
+tt
+9
+track ken
+0
+2
+cc
+15
+tell lizza heal
+0
+1
+1
+7
+bearhug
+0
+1
+h
+10
+track deaf
+0
+3
+cdi
+28
+get yellow back;quaff yellow
+1
+2
+rp
+16
+' refresh please
+0
+3
+lib
+16
+look in backpack
+0
+2
+by
+33
+buy 10 yellow;put all.yellow back
+1
+1
+9
+14
+get all corpse
+0
+2
+dr
+10
+drink skin
+0
+2
+eb
+22
+get meat back;eat meat
+1
+2
+bb
+28
+buy 8 meat;put all.meat back
+1
+1
+j
+4
+kick
+0
+2
+hp
+13
+' heal please
+0
+2
+sp
+15
+' spells please
+0
+2
+rr
+6
+recall
+0
+2
+kk
+29
+bearhug $*;alias k bearhug $*
+1

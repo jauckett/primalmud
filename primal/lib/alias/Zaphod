@@ -1,0 +1,24 @@
+t track bunny
+see cast 'detect invisibility'
+qw quaff white
+gw get white backpack
+invis remove rod;put rod backpack;get wand backpack;hold wand;use wand zaphod;remove wand;put wand backpack;get rod backpack;hold rod
+eb eat bread
+gb get bread backpack
+dw drink water
+stab backstab $1
+as assist $1
+h cast 'cure critic' zaphod
+hh cast 'cure light' zaphod
+rr rec recall
+a cast 'armor' zaphod
+mm cast 'magic missile'
+gg get all all.corpse
+cc cast 'chill touch'
+granite remove iron; remove iron; wear granite; wear granite
+iron remove granite; remove granite; wear iron; wear iron
+tt alias t track $1
+sg cast 'shocking grasp'
+fight remove silver;put silver backpack;remove silver;put silver backpack;get opal backpack;wear opal;get opal backpack;wear opal
+rest remove opal;put opal backpack;remove opal;put opal backpack;get silver backpack;wear silver;get silver backpack;wear silver
+ggg get gold all.corpse

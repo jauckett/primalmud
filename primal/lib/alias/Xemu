@@ -1,0 +1,29 @@
+cl cast 'call light' $1
+fb cast 'fireball' $1
+bs rem light;wield soak;backstab $1;rem soak;wield light
+qh get heal force; quaff heal
+lf look in force
+ds get skin force; drink skin
+id get iden force;recite ident $1
+qr get red force; quaff red
+pac put all.$1 force field
+lm look map
+cf cast ' create food' 
+cs cast ' sleep' $1
+cm cast ' magic missile' $1
+ps prac sleep
+th train hit
+gac get all corpse
+eb get bread force; eat bread
+qw get white force; quaff white
+wr get recal force; recite recal
+iv cast 'infravision'
+cd cast 'dragon'
+cc cast 'cure critical'
+la get atlas force;look atlas
+ci cast 'invisibility'
+wor cast 'word of recall'
+ce cast 'earthquake'
+div cast 'detect invis'
+hm cast 'cure crit' memnock
+ed cast 'energy drain' $1

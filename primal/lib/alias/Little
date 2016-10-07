@@ -1,0 +1,7 @@
+i cast 'invisibility'$*
+di cast 'detect invisibility'$*
+tr track$*
+cl cast 'cure light'$*
+v cast 'infravision'$*
+b backstab$*
+g get all corpse

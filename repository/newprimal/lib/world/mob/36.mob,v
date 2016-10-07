@@ -1,0 +1,384 @@
+head	1.6;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2004.03.10.23.44.56;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.21.08.51.31;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.06.05.46.16;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.31.10.37.35;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.09.05.47.02;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Artus> Sync. Zone 36.
+@
+text
+@#3600
+sewer rat~
+a sewer rat~
+A mutated rat of the sewer is here
+~
+   Twice the size of a normal rat, this rat could inflict a bit of damage if it
+was hungry enough
+~
+76 1064 -400 E
+15 10 10 1d1+300 2d50+14
+0 15000
+8 8 0
+BareHandAttack: 4
+E
+#3601
+Blob~
+the BloB~
+A blob of sewage gluggles before you
+~
+utter shit
+~
+32842 1064 -500 E
+15 5 10 1d1+625 3d50+15
+8500 35000
+8 8 0
+E
+T 3602
+#3602
+baby rat~
+a baby mutated rat~
+A baby mutated rat scampers around
+~
+A baby mutated rat, twice the size of a normal rat
+~
+12 1024 -350 E
+12 13 11 1d0+200 10d7+7
+1000 10000
+8 8 0
+BareHandAttack: 4
+E
+#3603
+portal serpent~
+the Portal serpent~
+The Portal serpent slithers here
+~
+A serpent of the ancestors of Haven, raised to protect intruders from entering the secret room
+~
+32874 33832 -600 E
+10 11 10 1d1+300 10d10+10
+1500 15000
+8 8 0
+BareHandAttack: 6
+E
+T 3603
+T 3605
+T 3627
+T 3628
+#3604
+ghost serpent~
+Ghost of the portal serpent~
+The ghost of the portal serpent hovers here
+~
+l
+~
+106602 140330 -600 E
+10 10 10 1d0+315 10d10+10
+1000 17500
+8 8 0
+BareHandAttack: 6
+E
+T 3603
+T 3605
+#3605
+Frog~
+a small frog~
+A frog tries to hide from you here
+~
+Covered in sludge this frog is better left to roam freely on its own.
+~
+12 0 -350 E
+10 16 12 1d10+250 3d10+5
+1000 7500
+8 8 0
+BareHandAttack: 4
+E
+#3606
+town drunk~
+the town drunk~
+The town drunk struggles to stand here
+~
+This old man is constantly drunk. Unshaven and unbathed he only lives for his grog.
+~
+4204552 1024 -500 E
+15 8 10 1d1+600 10d15+13
+5000 35000
+8 8 1
+BareHandAttack: 13
+E
+T 3606
+T 3609
+#3607
+ninja turtle~
+a mutated turtle~
+A mutated turtle wonders here
+~
+This turtle has bee exposed too long to the sewers of Haven.  He has mutated
+into a turtle that thinks and talks!  He has been trained in the martials arts!
+So is now known as a ninja turtle!    
+~
+524440 1064 0 E
+15 12 10 1d1+450 7d9+9
+100 30000
+8 8 1
+BareHandAttack: 13
+E
+#3608
+Feral cat~
+a feral cat~
+A fugly feral cat hisses at you here
+~
+A black feral cat, abondoned by it's owner has take up refuge in the sewers
+~
+581676 1064 -1000 E
+13 10 10 1d1+500 10d10+13
+2000 24000
+8 8 0
+BareHandAttack: 8
+E
+T 3610
+#3609
+Platypus~
+the female platypus~
+The female platypus lies here resting
+~
+Lined with waterproof fur from head to tail, and a black bill a few inches long. She doesn't leave the nest as she is carrying some young platypus' in her pouch.
+~
+4845674 272639080 -800 E
+20 5 8 100d0+824 10d15+15
+12000 75000
+5 5 2
+BareHandAttack: 8
+E
+#3610
+male platypus~
+the Male platypus~
+The Male platypus is here searching for food
+~
+Lined with waterproof fur from head to tail, and a black bill a few inches long. His tail is a very efficient swimming device. He is the food searcher while his partner raises the young.
+~
+1697850 281018472 -800 E
+20 5 8 1d0+824 10d15+15
+13000 75000
+8 8 1
+BareHandAttack: 8
+E
+#3611
+flushed gold goldfish fish~
+a flushed goldfish~
+A flushed goldfish swims here, free!
+~
+   Once someone's pride and joy, this poor fishy got flushed down the dunny
+when the owner decided owning a fish was too hard.  It has grown to a gigantic
+preportion, atleast twice the size of a standard fully grown gold fish!    
+~
+16524 4195560 0 E
+20 10 10 1d5+800 10d10+10
+100 100000
+8 8 0
+BareHandAttack: 4
+E
+$
+@
+
+
+1.5
+log
+@Artus> Sync.
+@
+text
+@d24 1
+a24 1
+12000 150000
+d50 1
+a50 1
+1500 10000
+d67 1
+a67 1
+1000 1000
+d78 1
+a78 1
+Covered in shit this frog is better left to roam freely on its own.
+d82 1
+a82 1
+1000 25000
+d95 1
+a95 1
+5000 150000
+d102 7
+a108 5
+lost child~
+a lost child~
+A lost child wonders here
+~
+A young boy of about 8 years of age wonders around here, exploring the sewers. He may seem lost but he is trying to find his ball that went down the gutter in Haven
+d111 2
+a112 2
+10 12 10 1d1+300 7d9+9
+100 100000
+d125 1
+a125 1
+2000 130000
+d138 2
+a139 2
+15 5 8 1d0+645 10d15+15
+12000 150000
+d151 2
+a152 2
+15 5 8 1d0+645 10d15+15
+13000 150000
+d165 1
+a165 1
+16524 4195432 0 E
+@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@d6 2
+a7 1
+Twice the size of a normal rat, this bastard could inflict a bit of damage if it was hungry enough
+d9 3
+a11 3
+4206 1064 -400 E
+10 10 10 1d1+300 2d50+14
+0 10000
+d35 3
+a37 3
+4108 1064 -350 E
+7 13 11 1d0+200 10d7+7
+1000 70000
+d43 1
+a43 1
+The Portal serpent~
+d67 1
+a67 1
+1000 100000
+d80 3
+a82 3
+12 1058 -350 E
+5 18 12 1d1+100 3d5+2
+200 25000
+d159 3
+a161 1
+Once someone's pride and joy, this poor fishy got flushed down the dunny when the owner decided owning a fish was too hard. It has grown to a gigantic preportion, atleast twice the size of a standard fully grown gold fish!
+d163 2
+a164 2
+16524 4260968 0 E
+10 10 10 1d0+310 10d10+10
+@
+
+
+1.3
+log
+@Artus> Moving this stuff across, too.
+@
+text
+@d41 3
+a43 3
+Portal serpant~
+the Portal serpant~
+The Portal serpant slithers here
+d55 2
+d70 2
+@
+
+
+1.2
+log
+@Artus> Getting very close...
+@
+text
+@d8 1
+a8 1
+4206 1192 -400 E
+d21 1
+a21 1
+32842 1192 -500 E
+d34 1
+a34 1
+4236 1064 -350 E
+d47 1
+a47 1
+32874 33960 -600 E
+d62 1
+a62 1
+106602 140458 -600 E
+d75 1
+a75 1
+140 1058 -350 E
+d88 1
+a88 1
+4204552 1152 -500 E
+d103 1
+a103 1
+524440 1192 0 E
+d116 1
+a116 1
+581676 1192 -1000 E
+d130 1
+a130 1
+4845674 272639208 -800 E
+d143 1
+a143 1
+1697850 281018600 -800 E
+@
+
+
+1.1
+log
+@Artus> Start of 310 (The South Pole - Artus) and 36 (Sewers of Haven - Primr)
+@
+text
+@d83 1
+a83 1
+The town drunk~
+d98 1
+a98 1
+A lost child~
+d111 1
+a111 1
+A feral cat~
+d123 39
+@
+

@@ -1,0 +1,83 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ea c 'earth'
+toy w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+wak wake; stand
+wake wake; stand
+plains s; e; e; s; s; s; e; e; s; s; s; s; s; s; s; s; s; s; s; e
+cc c 'cure critical' quo
+exe e; bac exe; c 'lightning' exe
+cor get all all.cor
+rome s; e; e; s; s; s; e; e; s; s; s; s; s; s; s; s; s; s; s; w; w; w; w; w
+cl cast 'cure light' quo
+see c 'detect invisi' quo; c 'detect alignment' quo
+wa wake; stand
+lem get lem for; dri lem; put lem for
+pf put all for
+dri get skin for; dri skin; dri skin; put skin for
+whit get whit for; q whit
+red get red for; q red
+/ get recall for; rec recall
+et get meat for; get meat for; eat meat; eat meat
+starter open for; wear all; hold wand; hold stone; wie super; put all for
+buf b buf; c 'lightning' buf
+og trac ogre
+sol b sol; c 'color spray' sol
+cae unlock door; open door; w; b bod; c 'color spray' bod
+bod c 'color spray' bod
+nob b nob; c 'color spray' nob
+coin get  coins all.cor
+bail b bailiff; c 'color spray' bailiff
+bs b gla; c 'color spray' gla
+id get ide for
+pr put all.red for
+moo.geeky.com.tj port 4000
+gat b gat; c 'color spray' gat
+pm put all.meat for
+tru w b cae; c 'color spray' cae; c 'energy drain' cae
+master b master; c 'color spray' master; c 'energy drain' master
+sen b sen; c 'color spray' sen
+tb trac bouncer
+key b 2.guard; c 'color spray' 2.guard; c 'energy drain 2.gua
+gua e; b gua; c 'color spray' gua
+pw put all.white for
+ready c 'dragon' quo; c 'bless' quo; c 'armor' quo;c 'strength' quo
+tj trac roj
+ps put all.scroll for
+tc trac cloc
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,1942 @@
+head	1.1;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.10.14.00.59.59;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@#7000
+Mountain Trail~
+   This trail leads up, up, up into the mountains.  You
+hope you don't fall down, because that would hurt, hurt,
+hurt!  The trail continues to the east, and you can go
+back to the main trail to the west.
+~
+70 0 5
+D0
+You see a beautiful view of the valley from here.
+~
+~
+0 0 0
+D1
+A rocky mountain trail lies ahead.
+~
+~
+0 -1 7001
+D2
+You see huge  snow capped moutains above and a small road bellow.
+~
+~
+0 0 0
+D3
+A steepe path lies to the west.
+~
+~
+0 -1 5536
+D4
+The blue sky is above with storm cloud forming in the distance.
+~
+~
+0 0 0
+D5
+at your feet are small white flowers that surround the path.
+~
+~
+0 0 0
+S
+#7001
+Mountain Trail~
+You're really high up now.  You can keep going even
+farther up into the mountains to the east, or go back
+down to the west.
+~
+70 0 5
+D0
+You see the tops of the mountains above and small caps of snow on top of 
+them.
+~
+~
+0 0 0 
+D1
+The rocky mountain trail is ahead.
+~
+~
+0 -1 7002
+D2
+You see the road bellow that you have travelled up.
+~
+~
+0 0 0
+D3
+The rocky mountain trail lies ahead.
+~
+~
+0 -1 7000
+D4
+Above is the beautiful blue sky but strom clouds are gathering in the 
+distance.
+~
+~
+0 0 0
+D5
+Small flowers are at your feet. Some have been eaten partially by goats.
+~
+~
+0 0 0 
+S
+#7002
+Mountain Trail~
+Wispy clouds are beginning to surround you now, and
+your ears pop due to the altitude.  To the east, you see
+the summit of the mountain, and from the way the nearby
+mountains are arranged behind it, you believe you're
+on your way to a big valley.  You can also go down
+to the west.
+~
+70 0 5
+D0
+The top of this large mountain is just visible through the mist.
+~
+~
+0 0 0
+D1
+What looks like the mountains speak lies ahead.
+~
+~
+0 -1 7003
+D2
+The small road is below you and what looks like ants are walking along it.
+~
+~
+0 0 0
+D3
+The mountain path is down below.
+~
+~
+0 -1 7001
+D4
+Mist surrounds you as you near the moutains peak.
+~
+~
+0 0 0
+D5
+Mist covers you feet so you can only see to your knees.
+~
+~
+0 0 0
+S
+#7003
+Near the Mountain's Peak~
+The peak of this mountain is another couple hundred
+feet above you, but here is where the trail leads down
+into the valley...  What an odd valley!
+The valley seems to have been filled up by a hundreds of 
+feet of lava many years ago.  It gives the valley an
+odd, 'flat' look and darkish ground.  The path leads
+down east into the valley, and west back to civilization.
+~
+70 0 5
+D0
+Mist surrounds you so visiblity is now impossible.
+~
+~
+0 0 0
+D1
+A small valley lies ahead.
+~
+~
+0 -1 7004
+D2
+Mist surrounds you so visiblity is now impossible.
+~
+~
+0 0 0
+D3
+Below is the long mountain trail.
+~
+~
+0 -1 7002
+D4
+Mist surrounds you so visible is now impossible.
+~
+~
+0 0 0
+D5
+Mist surrounds you so visiblity is now impossible.
+~
+~
+0 0 0
+S
+#7004
+Trail to the Valley~
+   The trail leads down into the valley, where, by judging
+by the height of the trees, the lava had cooled tens
+of decades ago.  Down below you see the path lead into
+the small forest in the valley, and disappear out of
+sight.  East leads into the valley, West back to civilization.
+~
+70 0 5
+D0
+You see the largest mountain with snow covering the very peak.
+~
+~
+0 0 0
+D1
+You see a misty valley up ahead.
+~
+~
+0 -1 7005
+D2
+You see Darask road from this point. The people walking along it look 
+like ants.
+~
+~
+0 0 0
+D3
+You see the trail you have been followed .
+~
+~
+0 -1 7003
+D4
+Mist surrounds you and you can no longer see the sky.
+~
+~
+0 0 0
+D5
+At your feet is a thick blanket of mist.
+~
+~
+0 0 0
+S
+#7005
+In the Valley~
+   The ground has taken on the texture of dirt on the top,
+but this valley is far too flat and too rocky to disguise
+the catastrophe that happened here so long ago.  Looking
+up to the mountains ringing this area, you notice several
+mountains look as if they had 'exploded', which is strange,
+considering that they are not volcanos.
+   The path leads into the woods to the east, and back up
+the mountain to the west.
+~
+70 0 3
+D0
+A thick blanket of mist surrounds you and you can barely make out the 
+mountains above.
+~
+~
+0 0 0
+D1
+You see a small clearing lies ahead.
+~
+~
+0 -1 7006
+D2
+Thick mist surrounds you and you can barely make out the road below.
+~
+~
+0 0 0
+D3
+You try and peer through the mist to the trail below.
+~
+~
+0 -1 7004
+D4
+Above you is a thick blanket of mist
+~
+~
+0 0 0
+D5
+You see a blanket of mist and fog covering your boots.
+~
+~
+0 0 0
+S
+#7006
+In a Clearing~
+You come to a small clearing now, after walking for several
+minutes through the silent woods.  An odd block sticks up
+here and there in   the ground...  wait a minute.  These
+stones seem a little too regular, and from the circle 
+formation and size you could almost swear that they were...
+crenellations?  Could some sort of building been buried
+by the lava here?  A rusty ring sticks out of the earth
+in the center...a trapdoor?  This is almost too good to
+be true!
+~
+70 0 3
+D0
+You can see more clearly here and the mountains look huge.
+~
+~
+0 0 0
+D1
+A small grassy slope leads up the mountain.
+~
+~
+0 -1 7046
+D2
+A thick haze of mist covers all that is below.
+~
+~
+0 0 0
+D3
+You see a thick haze of mist along the path you just travelled.
+~
+~
+0 -1 7005
+D4
+Above you is the biggest mountain you have ever seen.
+~
+~
+0 0 0
+D5
+An ancient trapdoor, grimed with earth and age.
+~
+trapdoor trap~
+1 -1 7007
+S
+#7007
+A Stairwell~
+This small room is the top of a stairwell leading down
+deep into the tower.  A small trapdoor overhead leaks
+the light of day around its edges.  To the south is a 
+wooden door, preserved through the ages by means 
+unknown.  To the west is a short hall.
+~
+70 9 0
+D0
+The cold stone wall of this under ground tower is covered in cobwebs.
+~
+~
+0 0 0
+D1
+The cold stone wall of this under ground tower is covered in cobwebs.
+~
+~
+0 0 0
+
+D2
+There is a small door here leading to a linen closet.
+~
+door~
+1 -1 7008
+D3
+A short dark corridor leads towards two small rooms.
+~
+~
+0 -1 7009
+D4
+An ancient trapdoor, grimed with earth and age.
+~
+trapdoor trap~
+1 -1 7006
+D5
+The rickety stairs lead down into the tower.
+~
+~
+0 -1 7013
+S
+#7008
+A Linen Closet~
+This small room holds many types of linen on shelves 
+along the walls.  They are undoubtedly preserved by
+magic against the toil of the ages, since they seem
+freshly washed and folded.  You wonder what sort of
+mage could wield so much power to waste on such little
+things.
+~
+70 9 0
+D0
+The door leads back into the stairwell.
+~
+door~
+1 -1 7007
+D1
+Linen shelves lined with clean white sheets.
+~
+~
+0 0 0
+D2
+Linen shelves lined with clean white sheets.
+~
+~
+0 0 0
+D3
+Linen shelves lined with clean white sheets.
+~
+~
+0 0 0
+D4
+There is a small lightbulb in the ceiling dimly lighting the closet.
+~
+~
+0 0 0
+D5
+At your feet are mothballs and papers.
+~
+~
+0 0 0
+E
+linen shelf shelves~
+White sheets, pillow-cases, etc.  Not really 
+anything that you need, but interesting.
+~
+S
+#7009
+Corridor~
+This is only a clean corridor, that leads back to the 
+stairwell to the east, and has doors leading to other
+rooms to the north and south.
+~
+70 9 0
+D0
+A wooden door leads into a large bedroom.
+~
+door north~
+1 -1 7011
+D1
+The stairwell leading down into the tower is to your east.
+~
+~
+0 -1 7007
+D2
+A small wooden door leading into  a bathroom.
+~
+door south~
+1 -1 7010
+D3
+You see a small painting of a Evil Wizard dressed in purple robes.
+~
+~
+0 0 0
+D4
+The ceiling has a small light in it that dimly lights the corridor.
+~
+~
+0 0 0
+D5
+At your feet are cold slate tiles.
+~
+~
+0 0 0
+S
+#7010
+Bathroom~
+This is some sort of bathroom, like you've never seen
+before...  Water appliances leading from nowhere deliver
+hot and cold running water to basins that drain to...
+where?  How strange!
+~
+70 9 0
+D0
+A small wooden door leads back into the corridor.
+~
+door~
+1 -1 7009
+D1
+On the east wall you see a small towel on a rack.
+~
+~
+0 0 0
+D2
+There is a bath filled with tepid water in the corner.
+~
+~
+0 0 0
+D3
+A handbasin lies here.
+~
+~
+0 0 0
+D4
+A small light in the ceiling lights this small bathroom.
+~
+~
+0 0 0
+D5
+At your feet is a small bath mat.
+~
+~
+0 0 0
+S
+#7011
+Master Bedroom~
+This is an opulent room, decorated in silks and gold.
+There is an ebony desk against one wall, cooled lava rock
+spilling over its surface from the window it once looked
+out at.  A nice, spacious closet is filled with clothes
+just cleaned and pressed.
+~
+70 9 0
+D0
+A closet is in the corner and you can see a purple robe in the slightly 
+ajar door.
+~
+~
+0 0 0
+D1
+This looks like it was once a window but now it is just a mass of rock.
+~
+~
+0 0 0
+D2
+A small wooden door leads back into the corridor.
+~
+door~
+1 -1 7009
+D3
+A small writting desk likes in the west corner.
+~
+~
+0 0 0
+D4
+A small light is in the ceiling and dimly light the bedroom.
+~
+~
+0 0 0
+D5
+At your feet is a beautiful red rug.
+~
+~
+0 0 0
+E
+desk~
+The desk is basically uninteresting, as are the papers 
+on top of it...
+~
+E
+closet~
+Nice clothes, but not your size at all.
+~
+S
+#7012
+The Library~
+A great mages' library is contained on this floor of 
+the tower.  You feel you could learn anything you wanted
+to if you only looked and read long enough.  A door
+opens up back on the stairwell to the east.
+~
+70 9 0
+D0
+Books line this entire wall. All are written in a mysterious writting.
+~
+~
+0 0 0
+D1
+A wooden door leads back into the stairwell.
+~
+door~
+1 -1 7013
+D2
+Books line this entire wall. All are written in a mysterious writting.
+~
+~
+0 0 0
+D3
+A big bookcase, that looks rather odd.
+~
+bookcase~
+1 -1 7014
+D4
+On the ceiling is a beautiful lamp that lights the entire room.
+~
+~
+0 0 0
+D5
+At your feet is a small rug covering the slate floor.
+~
+~
+0 0 0
+E
+book books~
+There's lots of books about everything here!
+~
+S
+#7013
+Stairwell~
+This stairwell continues up and down, and there is
+a door to the west.
+~
+70 9 0
+D0
+Slate and stone is all you see on this wall.
+~
+~
+0 0 0
+D1
+There is a small picture of an animal being tortured by and Evil Wizard.
+~
+~
+0 0 0
+D2
+Slate and stone is all you see on this wall.
+~
+~
+0 0 0
+
+D3
+A wooden door leads into the library.
+~
+door~
+1 -1 7012
+D4
+A dimly lite light shows you where the stairs are.
+~
+~
+0 -1 7007
+D5
+Some rickety stairs lead further down into the tower.
+~
+~
+0 -1 7015
+S
+#7014
+A Hidden Hall~
+This is a small hidden hall with a secret entrance to the
+library on the north end of the west wall, and a trapdoor 
+on the south end.
+~
+70 9 0
+D0
+Slimy walls surround you.
+~
+~
+0 0 0
+D1
+The backside of a movable bookcase.
+~
+book bookcase~
+1 -1 7012
+D2
+Slimy walls surround you.
+~
+~
+0 0 0
+D3
+Slimy walls surround you.
+~
+~
+0 0 0
+D4
+Slimy walls surround you.
+~
+~
+0 0 0
+D5
+A small trapdoor is here.
+~
+trapdoor trap~
+1 -1 7016
+S
+#7015
+A Stairwell~
+This stairwell continues up and down, and there is a door
+to the west opening up onto this level.
+~
+70 9 0
+D0
+Small tapestrys of evil wizards cover the wall.
+~
+~
+0 0 0
+D1
+Slate and slime cover the wall.
+~
+~
+0 0 0
+D2
+Small tapestrys of evil wizards cover the wall.
+~
+~
+0 0 0
+D3
+A large oak door is here leading into a hallway.
+~
+door~
+1 -1 7017
+D4
+The rickety stairs lead up into the tower. 
+~
+~
+0 -1 7013
+D5
+The rickety stairs lead down into the depths of the tower. 
+~
+~
+0 -1 7022
+S
+#7016
+Hidden Treasure Room~
+Jackpot!  A small room filled with treasure chests!  Go get it!
+~
+70 9 0
+D0
+Slime, filthy and grim covers the entire wall. It looks like no-one has 
+been here in years.
+~
+~
+0 0 0
+D1
+Slime, filthy and grim covers the entire wall. It looks like no-one has 
+been here in years.
+~
+~
+0 0 0
+D2
+Slime, filthy and grim covers the entire wall. It looks like no-one has 
+been here in years.
+~
+~
+0 0 0
+D3
+Slime, filthy and grim covers the entire wall. It looks like no-one has 
+been here in years.
+~
+~
+0 0 0
+D4
+A tradoor is here.
+~
+trapdoor trap~
+1 -1 7014
+D5
+At your feet are three amazing chests all filled with treasures.
+~
+~
+0 0 0
+S
+#7017
+Hallway~
+This hall runs through the tower.  There's more hall to
+the west, and doors to your north and south.  A door to
+the east leads back to the stairwell.
+~
+70 9 0
+D0
+~
+door north~
+1 -1 7019
+D1
+A small wooden door leads back into the stairwell.
+~
+door east~
+1 -1 7015
+D2
+A small wooden door leads into the servants room.
+~
+door south~
+1 -1 7018
+D3
+The hallway leads you towards more rooms.
+~
+~
+0 -1 7020
+D4
+A small lamp in the ceiling light the hallway.
+~
+~
+0 0 0
+D5
+At your feet is a small worn rug.
+~
+~
+0 0 0
+S
+#7018
+Servant's Room~
+This seems to be a small servant's bedroom, sparsely
+decorated and outfitted with a bed, nightstand, chair
+and table, etc.  Nothing real important here.
+~
+70 9 0
+D0
+A small door leads back into the hallway.
+~
+door~
+1 -1 7017
+D1
+A small unmade bed lies in the corner.
+~
+~
+0 0 0
+D2
+What once appears to have been a window is here. It is now full of rock 
+and lava.
+~
+~
+0 0 0
+D3
+A small chair lies in the corner with clothes thrown over it.
+~
+~
+0 0 0
+D4
+A small lamp hangs from the ceiling.
+~
+~
+0 0 0
+D5
+A small, well worn, rug lies at your feet.
+~
+~
+0 0 0
+S
+#7019
+Servant's Room~
+This seems to be a small servant's bedroom, sparsely 
+decorated and outfitted with a bed, nightstand, chair
+and table, etc.  Nothing real important here.
+~
+70 9 0
+D0
+A small door leads back into the hallway.
+~
+~
+0 0 0
+D1
+A small cuboard is standing here, but it looks rather empty.
+~
+~
+0 0 0
+D2
+A small wooden door leads into the hallway.
+~
+door~
+1 -1 7017
+D3
+A small chair is in the corner. Upon the chair is a embroided cushion.
+~
+~
+0 0 0
+D4
+A small lamp is alight in the ceiling.
+~
+~
+0 0 0
+D5
+At your feet is a small worn rug.
+~
+~
+0 0 0
+S
+#7020
+Hallway~
+This hallway continues to the east, and has a door to 
+the north.  You could swear that the way this level
+is arranged...nah, couldn't be.
+~
+70 9 0
+D0
+A small wooden door leads into a servants room.
+~
+door~
+1 -1 7021
+D1
+The hallway is east leading off into small servants rooms.
+~
+~
+0 -1 7017
+D2
+The walls are rather bare here. All you see is cold slate and stone.
+~
+~
+0 0 0
+D3
+The walls are rather bare here. All you see is cold slate and stone.
+~
+~
+0 0 0
+D4
+In the ceiling is a dimly lite light.
+~
+~
+0 0 0
+D5
+At your feet are cold slate tiles.
+~
+~
+0 0 0
+S
+#7021
+Servant's Room~
+This seems to be a small servant's bedroom, sparsely
+decorated and outfitted with a bed, nightstand, chair
+and a table, etc.  Nothing real important here.
+~
+70 9 0
+D0
+A small unmade bed lies in in the corner.
+~
+~
+0 0 0
+D1
+A chair covered in discarded clothes stands in the corner.
+~
+~
+0 0 0
+D2
+A small wooden door leads back into the hallway.
+~
+door~
+1 -1 7020
+D3
+What once was a window but is now a lump of huge rock is here.
+~
+~
+0 0 0
+D4
+A dimly lite lamp is hanging precariously from the ceiling.
+~
+~
+0 0 0
+D5
+At your feet are the cold slate tiles.
+~
+~
+0 0 0
+S
+#7022
+Stairwell~
+This stairwell leads up and down, and there is a big
+open room to your west.
+~
+70 9 0
+D0
+A large tapestry covers the entire wall. It depicts a scene of magic with 
+wizards and warlocks.
+~
+~
+0 0 0
+D1
+The wall here is covered with small cobwebs that cling to your face as 
+you pass.
+~
+~
+0 0 0
+D2
+The wall here is covered with small cobwebs that cling to your face as 
+you pass.
+~
+~
+0 0 0
+D3
+You see a large dinning hall to your west.
+~
+~
+0 -1 7023
+D4
+The stairs lead up into the tower.
+~
+~
+0 -1 7015
+D5
+The stairs lead down into the deepest depths of the tower.
+~
+~
+0 -1 7025
+S
+#7023
+Dining Hall~
+This is a large dining hall, with a long table that runs
+down the length of it.  Chairs are set up along the sides
+to accomodate approximately 10 people.  There are paintings
+and tapestries on the walls, adding color to the stonework,
+The cooled lava that had poured in the windows makes the place 
+seem eerie somehow .  There is a door to the north, and
+the stairwell is to the east.
+~
+70 9 0
+D0
+A door leads into the kitchen area.
+~
+door~
+1 -1 7024
+D1
+The stairwell is to your east leading into the centre of the tower.
+~
+~
+0 -1 7022
+D2
+On the Wall is a large tapestry.
+~
+~
+
+0 0 0
+D3
+A large oak table is here surrounded by ten strong sturdy chairs.
+~
+~
+0 0 0
+D4
+A large chandalier is in the ceiling brightly lighting this room.
+~
+~
+0 0 0
+D5
+At your feet is a large rug with w scene of wizards,witches and warlocks 
+around a large pot.
+~
+~
+0 0 0
+E
+tapestry tapestries painting paintings~
+Many of these show scenes of high magic and heroism.
+Just like almost every tapestry and painting you've seen.
+~
+S
+#7024
+Kitchen Area~
+This is a well-stocked kitchen, the larders still fresh
+and full as if by magic.  Perhaps this would be a good
+place to take a break.
+~
+70 9 0
+D0
+You see a large larder full of all tyes of food.
+~
+~
+0 0 0
+D2
+A door leads back into the dinning hall.
+~
+door~
+0 -1 7023
+D3
+A large shelf is covered with pots,pans and plates.
+~
+~
+0 0 0
+D4
+The ceiling does not look very interesting at all.
+~
+~
+0 0 0
+D5
+On the floor you see some food that has been carelessly discarded.
+~
+~
+0 0 0
+S
+#7025
+Stairwell~
+The stairwell leads up and down here, and there is a hall
+you can enter to the west.
+~
+70 9 0
+D0
+A large tapestry covers the entire wall. It depicts a scene of magic with 
+wizards and warlocks.
+~
+~
+0 0 0
+D1
+The wall here is covered with small cobwebs that cling to your face as 
+you pass.
+~
+~
+0 0 0
+D2
+The wall here is covered with small cobwebs that cling to your face as 
+you pass.
+~
+~
+0 0 0
+D3
+To the west is  a large hall.
+~
+~
+0 -1 7026
+D4
+Upwards are the stairs leading back out of the tower.
+~
+~
+0 -1 7022
+D5
+The stairs lead down into the deep dark depths of the tower.
+~
+~
+0 -1 7029
+S
+#7026
+Hall~
+This area of the tower seems dank and oppressive.  The
+hall runs north-south, and there is an empty cell to your
+west.  The stairwell is to your east.
+~
+70 9 0
+D0
+The hall is to your north but the light is so poor you can barely see in.
+~
+~
+0 -1 7027
+D1
+To your east is the stariwell leading into the centre of the tower.
+~
+~
+0 -1 7025
+D2
+The hall is to your south but the light is so poor you can barely see in.
+
+~
+~
+0 -1 7028
+D3
+You see an dark damp empty cell.
+~
+~
+0 0 0
+D4
+In the roof is a dim light that has nearly gone out.
+~
+~
+0 0 0
+D5
+On the floor is a great deal of litter and rubbish.
+~
+~
+0 0 0
+E
+cell cells~
+It's open, empty, and uninteresting.
+~
+S
+#7027
+Hall~
+This is the northern end of the hall.  There are cells to
+your right and left, empty and awaiting occupants.
+~
+70 9 0
+D0
+You see an dark damp empty cell.
+~
+~
+0 0 0
+D1
+You see a dark slim covered wall.
+~
+~
+0 0 0
+D2
+South leads back into the centre of the dark hall.
+~
+~
+0 -1 7026
+D3
+You see an dark damp empty cell.
+~
+~
+0 0 0
+D4
+There is a small light on the ceiling.
+~
+~
+0 0 0
+D5
+At your feet are cold slate tiles covered with litter.
+~
+~
+0 0 0
+E
+cell cells~
+It's open, empty, and uninteresting.
+~
+S
+#7028
+Hall~
+This is the southern end of the hall.  There are cells to
+your right and left, empty and awaiting occupants.
+~
+70 9 0
+D0
+To your north is the centre of this dank hall.
+~
+~
+0 -1 7026
+D1
+You see an dark damp empty cell.
+~
+~
+0 0 0
+D2
+The wall is rather uniteresting all you see is cold slate stone.
+~
+~
+0 0 0
+D3
+You see an dark damp empty cell.
+~
+~
+0 0 0
+D4
+There is a small lamp in the ceiling that looks like it is about to go out.
+~
+~
+0 0 0
+D5
+At your feet is a large heap of slime. Becareful you nearly stept in it.
+~
+~
+0 0 0
+E
+cell cells~
+It's open, empty, and uninteresting.
+~
+S
+#7029
+Stairwell~
+The stairwell continues up and down here.  A large room
+opens up to the west.
+~
+70 9 0
+D0
+You see a large painting on the wall depicting fierce demons who guard 
+the tower.
+~
+~
+0 0 0
+D1
+You see a slime covered wall and can barely make out the slate beneath.
+~
+~
+0 0 0
+D2
+You see a slime covered wall and can barely make out the slate beneath.
+~
+~
+0 0 0
+D3
+You see the mages office to the west.
+~
+~
+0 -1 7030
+D4
+The stairs lead up to the entrace of the tower
+~
+~
+0 -1 7025
+D5
+The  stairs lead down into the darkest depths of the tower.
+~
+~
+0 -1 7031
+S
+#7030
+Mage's Office~
+A small desk here is cluttered with magically preserved
+papers and documents.  None seem of value, except perhaps
+to a historian.  This place seems vaguely uninteresting...
+~
+70 9 0
+D0
+You see a small writting desk covered in papers.
+~
+~
+0 0 0
+D1
+The stairwell is east leading into the centre of the tower.
+~
+~
+0 -1 7029
+D2
+A large window is here but it is now filled with solidified lava.
+~
+~
+0 0 0
+D3
+You see a bookcase full of books on how to cast magical spells.
+~
+~
+0 0 0
+D4
+The ceiling is not very interesting all you see is a small lamp.
+~
+~
+0 0 0
+D5
+Apon the floor is a large fur rug.
+~
+~
+0 0 0
+E
+paper papers documents document~
+   Well, one of the papers relate a story about how the mage
+of this tower, Rand, angered many kings, and relates how
+they set his armies on him.  You wonder if the lava
+outside was a failed attempt to destroy the armies...
+~
+E
+desk~
+It's cluttered with all sorts of papers.  Some look
+half interesting, actually.
+~
+S
+#7031
+Stairwell~
+The stairs go up and down here, and there is a room to the
+west...
+~
+70 9 0
+D0
+You see nothing but cold slate and stone covered with cobwebs.
+~
+~
+0 0 0
+D1
+You see nothing but cold slate and stone covered with cobwebs.
+~
+~
+0 0 0
+D2
+You see nothing but cold slate and stone covered with cobwebs.
+~
+~
+0 0 0
+D3
+To the east is a small sitting room .
+~
+~
+0 -1 7032
+D4
+The stairs lead up back to the entrance of the tower.
+~
+~
+0 -1 7029
+D5
+The stairs lead downwards to the bottom of the tower.
+~
+~
+0 -1 7033
+S
+#7032
+Sitting Room~
+This is a simply furnished room, with chairs all about.
+A fireplace is inset into an inner wall, the chimney
+undoubtedly directed by magic...
+This would be a nice place to rest awhile...
+~
+70 9 0
+D0
+You see a fireplace blazing with a warm, cozy fire.
+~
+~
+0 0 0
+D1
+East leads back to the stairwell.
+~
+~
+0 -1 7031
+D2
+A couch is pushed up against the wall. It is covered in red and purple 
+cushions.
+~
+~
+0 0 0
+D3
+You see a large fur rug lying on the floor.
+~
+~
+0 0 0
+D4
+There are several lamps on the ceiling lighting this room.
+~
+~
+0 0 0
+D5
+You see a large fur rug lying on the floor.
+~
+~
+0 0 0
+
+S
+#7033
+Stairwell~
+This is where the stairwell finally ends.  There is a hall
+to your west.
+~
+70 9 0
+D0 
+Tapestries cover the walls here. They are made of the finest silk.
+~
+~
+0 0 0
+D1
+D0 
+Tapestries cover the walls here. They are made of the finest silk.
+~
+~
+0 0 0
+D2 
+Tapestries cover the walls here. They are made of the finest silk.
+~
+~
+0 0 0
+D3
+There is a dark hallway to the west.
+~
+~
+0 -1 7034
+D4
+Up are the stairs leading back to the center and entrance of the tower.
+~
+~
+0 -1 7031
+D5
+A small lamp dimly lights the hallway to your west.
+~
+~
+0 0 0
+S
+#7034
+Hallway~
+This small hallway on the former 'ground floor' ran north-
+south.  To the east is the stairwell that leads up into 
+the shadowy recesses of the tower.  To the west is the
+entrance way to the tower.  The north is completely blocked
+off by lava, and the way south is still clear.
+~
+70 9 0
+D0
+All you can see is large lava that has spilled through what once was a door.
+~
+~
+0 0 0
+D1
+East leads back to the stairwell.
+~
+~
+0 -1 7033
+D2
+South is a hallway that leads down into the bottom of the tower.
+~
+~
+0 -1 7037
+D3
+West is an entrance to what looks like a secret door.
+~
+~
+0 -1 7035
+D4
+A small light lights the room.
+~
+~
+0 0 0
+D5
+On the floor are cold slate tiles.
+~
+~
+0 0 0
+S
+#7035
+Entranceway~
+This is a grand chamber with giant double-doors to the
+west.  To the east is the main floor of the tower.
+This room is arranged highly attractively and very
+impressively, with sculptures and tapistries everywhere.
+The doors seem impenetrable...you don't think you'd be able to 
+get through them if you really had to...
+~
+70 9 0
+D0
+A large statue stands here. It is of the Evil wizard and is made out of 
+granite.
+~
+~
+0 0 0
+D1
+The hallway is to your east.
+~
+~
+0 -1 7034
+D2
+A large statue stands here. It is of the Evil wizard and is made out of 
+granite.
+~
+~
+0 0 0
+D3
+These doors seem incredible.  Unfortunately, they're locked.
+~
+door double~
+1 0 7036
+D4
+There is a large lamp lighting the entrance.
+~
+~
+0 0 0
+D5
+Apon the floor is a large red rug that leads right under the door.
+~
+~
+0 0 0
+E
+sculpture tapestry sculptures tapestries~
+They look nice, but aren't very valuble.
+~
+S
+#7036
+Doorway~
+This was the entrance to the tower.  Now lava has blocked
+it up completely.  However: It seems when the lava came down a man was 
+outside the doors.  He was blasted into the doors, and died instantly. 
+The Evil wizard is standing here looking for yet another victim.
+~
+70 9 0
+D0
+You see a painting that covers the entire wall.  It is of the Evil Wizard 
+himself.
+~
+~
+0 0 0
+D1
+These double doors have the outline of a man blasted into them...
+~
+double doors~
+1 0 7035
+D2
+Beautiful tapestries adorn the wall here. They are made from the finest silk.
+~
+~
+0 0 0
+D
+Beautiful tapestries adorn the wall here. They are made from the finest silk.
+~
+~
+0 0 0
+D4 
+On the ceiling is a mural of the Evil Wizard.
+~
+~
+0 0 0
+D5
+You see the red rug under your feet.
+~
+~
+0 0 0
+S
+#7037
+Hallway~
+This is the southern part of the hallway.  There is 
+a door to the west, barred with gleaming bands of lights.
+To the north is more hallway.
+~
+70 9 0
+D0
+The hallway is to your north.
+~
+~
+0 -1 7034
+D1
+You see a large window here but you can not look out because if is filled 
+with lava.
+D2
+The wall is covered in nothing but hundreds of spider webs.
+~
+~
+0 0 0
+D3
+A large oak door is here.
+~
+door~
+2 -1 7038
+D4
+All you can see when you look up are millions of small spiders.
+~
+~
+0 0 0
+D5
+On the floor at your feet small spider scurry back and forth.
+~
+~
+0 0 0
+S
+#7038
+Stairs~
+Stairs lead down here into the tower's basement, or you
+can head east into the main floor of the tower.
+~
+70 9 0
+D0
+~
+~
+0 0 0
+D1
+A large oak door is here.
+~
+door~
+2 -1 7037
+D2
+The wall is covered in nothing but hundreds of spider webs.
+~
+~
+0 0 0
+D4
+On the ceiling is a small lamp lighting the stairs below.
+~
+~
+0 0 0
+D5
+Down are the stairs leading into the basement of the tower.
+~
+~
+0 -1 7039
+S
+#7039
+Stairs~
+Stairs lead up here to the main level, or you can go east
+to the basement of the tower.
+~
+70 9 0
+D0
+The wall is covered in slime and dirt and small evil insects crawl all 
+over it.
+~
+~
+0 0 0
+D1
+An aclove is to your east.
+~
+~
+0 -1 7040
+D2
+The wall is covered in slime and dirt and small evil insects crawl all 
+over it.
+~
+~
+0 0 0
+D3
+The wall is covered in slime and dirt and small evil insects crawl all 
+over it.
+~
+~
+0 0 0
+
+D4
+Stairs lead back up into the centre of the tower.
+~
+~
+0 -1 7038
+D5
+At your feet are small spiders scurrying around.
+~
+~
+0 0 0
+S
+#7040
+Alcove~
+This alcove leads into a huge room to your north, and
+to stairs leading down to the east, and stairs going 
+up to your west.
+~
+70 9 0
+D0
+North is the labratory where evil magic is experemented with.
+~
+~
+0 -1 7041
+D1
+East are the stairs leading back to the centre of the tower.
+~
+~
+0 -1 7042
+D2
+On the south wall you see a painting that demonstrates how to torture 
+your victims.
+~
+~
+0 0 0
+D3
+West are the stairs leading into the basement of the tower.
+~
+~
+0 -1 7039
+D4
+There is a large lamp thet lights the stairs and labratory.
+~
+~
+0 0 0
+D5
+On the floor at your feet you see what looks like human bones.
+~
+~
+0 0 0
+S
+#7041
+Laboratory~
+This laboratory has lots of stuff in it.  Beakers, flasks,
+burners, tongs, mortars and pestles, jars filled with
+normal things, jars filled with abnormal things, jars
+filled with things you'd rather not think about...
+A search could reveal many things...
+~
+70 9 0
+D0
+You see a large bench covered with hundreds of magic items.
+~
+~
+0 0 0
+D1
+A large cuboard stands here and inside you can see more magical items.
+~
+~
+0 0 0
+D2
+South leads back to the aclove.
+~
+~
+0 -1 7040
+D3
+Millions of jars line the bench here. Inside the jar you think you see 
+human parts.
+~
+~
+0 0 0
+D4
+A large light brightly shines down onto the benches.
+~
+~
+0 0 0
+D5
+At your feet you notice that the rubbish looks  rather like human bones.
+~
+~
+0 0 0
+E
+beaker beakers flask flasks burner burners tong tongs mortar mortars pestle pestles jar jars~
+Looks like normal, fragile lab equipment to you.
+~
+S
+#7042
+Stairs~
+Stairs lead down here to the second level of the basement,
+or back west to the alcove.
+~
+70 9 0
+D0
+Millions of cobwebs line the walls giving it a white shinny appearance.
+~
+~
+0 0 0
+D2
+Millions of cobwebs line the walls giving it a white shinny appearance.
+~
+~
+0 0 0
+D3
+West leads back to the aclove.
+~
+~
+0 -1 7040
+
+D4
+Millions of cobwebs line the walls giving it a white shinny appearance.
+~
+~
+0 0 0
+D5
+The stairs lead down into the very basement of the tower.
+~
+~
+0 -1 7043
+S
+#7043
+Stairs~
+Stairs lead up here to the first level of the basement, or
+you can go east to another big room.
+~
+70 9 0
+D0
+Millions of cobwebs line the walls giving it a white shinny appearance.
+~
+~
+0 0 0
+D1
+East leads into a very magical room.
+~
+~
+0 -1 7044
+D2
+Millions of cobwebs line the walls giving it a white shinny appearance.
+~
+~
+0 0 0
+D3
+Millions of cobwebs line the walls giving it a white shinny appearance.
+~
+~
+0 0 0
+D4
+The stairs lead back up onto the first level of the basement.
+~
+~
+0 -1 7042
+D5
+At your feet millions of tiny black spiders scurry around.
+~
+~
+0 0 0
+S
+#7044
+Summoning Room~
+This room is darkly lit by a giant glowing pentagram in
+the center of the room.  Bands of force encircle some
+sort of being trapped inside.  You think that going
+inside would be an EXTREMELY BAD idea...
+~
+70 9 0
+D0
+North is the large evil looking pentagram.
+~
+~
+0 -1 7045
+D1
+Millions of cobwebs line the walls giving it a white shinny appearance.
+~
+~
+0 0 0
+D2
+Millions of cobwebs line the walls giving it a white shinny appearance.
+~
+~
+0 0 0
+D3
+West leads back towards the stairs.
+~
+~
+0 -1 7043
+D4
+Millions of cobwebs line the ceiling giving it a white shinny appearance.
+~
+~
+0 0 0
+D5
+At your feet millions of tiny black spiders scurry around.
+~
+~
+0 0 0
+E
+pentagram~
+It's centuries old.  You don't think standing close by would be a good idea.
+~
+E
+being~
+You can't see it clearly through the energy field
+of the pentagram, but you sense that whatever it is,
+it is very, very, very, very angry.
+~
+S
+#7045
+Inside a Pentagram~
+The small god entrapped by the wizard looks at you with
+an insane expression.  Four hundred years of imprisonment
+doesn't do much for ones...
+
+OOPS!
+
+He killed you!
+You are dead, R.I.P.
+~
+70 0 0
+D2
+~
+~
+0 -1 7044
+S
+#7046
+Up the slop to the Mountains~
+As you wander further up the mountain, you see dense growth all around you.
+You are only following a small trail that leads you north up hte mountain.
+~
+70 0 0 
+D0
+~
+~
+0 -1 7047
+D3
+~
+~
+0 -1 7006
+S
+#7047
+Platue on the Mountain~
+You have made it about half way on the mountain. Here is a flat peace of land
+that has a well worn trail leading off to your east and further to the north
+you can see the mountain begin to slop upwards again.
+~
+70 0 0 
+D0
+~
+~
+0 -1 7048
+D2
+~
+~
+0 -1 7046
+D3
+~
+~
+0 -1 7049
+S
+#7048
+Up The mountain Again~
+You have reached the end of the platue and the Mountain rises above you in a 
+sheer vertical wall. You can not see any foot holes or any way to ascend this
+rugged face. It seems you have reached the end of the line!
+~
+70 0 0
+D2
+~
+~
+0 -1 7047
+S
+#7049
+A Well worn trail~
+As you follow this trail you can see it meandering off into the distance. It
+is used very frequently as it is a distinct trail right through the platue.
+In the near distance you can make out a hedge and a small gate!
+~
+70 0 0
+D0
+~
+~
+0 -1 7050
+D1
+~
+~
+0 -1 7047
+S
+#7050
+A Gate~
+You are standing infront of a reasonable sized country gate. You can't
+quite peer over it as it is a fraction higher than you. You can try and jump
+up and down but you just can't make out what is over the gate.
+~
+70 0 0
+D0
+~
+Gate~
+1 -1 10501
+D2
+~
+~
+0 -1 7049
+S
+#99999
+$~
+@

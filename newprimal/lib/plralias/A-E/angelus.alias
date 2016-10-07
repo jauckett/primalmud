@@ -1,0 +1,20 @@
+5
+bless
+15
+cast 'bless' $1
+1
+2
+cc
+23
+cast 'cure critical' $1
+1
+6
+detinv
+29
+cast 'detect invisibility' $1
+1
+5
+infra
+15
+cast 'infra' $1
+1

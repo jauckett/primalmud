@@ -1,0 +1,40 @@
+invis cast 'invisibility' $1
+heal cast 'heal' $1
+back remove vorpal; wield soaker; backstab $1; remove soaker; wield vorpal;
+tb track bandit
+ad assist davinchi
+ed cast 'energy drain' $1
+luna tell luna $*
+tsd tell tsd $*
+nn e; backstab nobleman; w;
+bt backstab traveller
+red get red force; q red
+white get white force; q white
+kt kill traveller
+id recite identify $1
+tav e;s;s;e;e;e;e;e;e;e;e;e;e;e;
+rup tell ruprect $*
+ca cast 'armor' $1
+cl cast 'cure light' $1
+cor get all all.corpse
+ci cast 'infravision' $1
+mm cast 'magic missile' $1
+rr recite recall
+dm cast 'detect magic' $1
+bh cast 'burning hands' $1
+raise emote raises an eyebrow.
+gold get all.gold all.corpse
+ds drink skin
+dra tell drax $*
+km kill merchant
+cc cast 'cure critic' $1
+lb cast 'lightning bolt' $1
+bm backstab merchant
+giz tell gizzie $*
+ag assist gizzie
+hg cast 'cure critic' gizzie
+sob emote sobs artfully.
+buff emote buffs his fingers on his coat.
+cf cast 'fireball' $1
+bg backstab guard
+bb get bread force; eat bread;

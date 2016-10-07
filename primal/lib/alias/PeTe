@@ -1,0 +1,65 @@
+of order followers $*
+gs cast 'sanc';cast 'sanc' clone;cast 'sanc' 2.clone
+para cast 'paralyze' $1
+charm cast 'charm person' $1
+protd cast 'protection from good'
+prote cast 'protection from evil'
+peek spy $1
+gh cast 'group heal'
+sc cast 'sanc' $1
+oa order followers assist pete
+f flee
+lo cast 'locate' $1
+or order followers $1
+clone cast 'clone'
+wb cast 'waterbreath'
+fd cast 'finger of death'
+a4 cast 'dragon'
+bless cast 'bless'
+rec recite recall
+imp cast 'invisibility'
+rev cast 'refresh'
+wt cast 'waterwalk'
+da cast 'detect alignment'
+cc cast 'cure critical'
+if cast 'infravision'
+i cast 'energy drain'
+m cast 'lightning bolt'
+str cast 'strength'
+ea get bread back;eat bread
+wa wake;stand
+gg get gold corpse
+di cast 'detect invis'
+a assist jaleh
+r cast 'word of recall'
+sf cast 'sense life'
+sanc cast 'sanctuary'
+fly cast 'fly'
+a1 cast 'arm'
+a2 cast 'spirit armor'
+a3 cast 'divine prot'
+ha cast 'holy aid'
+ap cast 'earthquake'
+bb backstab $1;rem dagg;wie pulse
+bn rem pulse;wie dagg
+holy cast 'group sanctuary'
+garm cast 'group armor'
+id cast 'identify'$1
+blind cast 'blind' $1
+summon cast 'summon' $1
+rp cast 'remove poison' $1
+rc cast 'remove curse' $1
+cf cast 'create food';eat mushroom
+g get all all.corpse
+sum cast 'summon' $1
+cr cast 'create water' $1
+ls cast 'lightning shield'
+p spy $1
+h cast 'heal' $1
+o slay danath
+haste cast 'haste'
+sk cast 'serpent skin'
+ad cast 'animate dead' $1
+heal cast 'advanced heal'
+hh cast 'divine heal'
+glance diagnose $1

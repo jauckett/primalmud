@@ -1,0 +1,85 @@
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+7 cast 'summon' odin
+lev1 e;e;e;e;s;s;e;unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e;unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+las rem stalker;wield laser
+ds rem laser;wield stalker
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+charity get all.heal for;drop all.heal
+holy cast 'holy aid'
+lifec cast 'sense life' clone;cast 'sense life' 2.clone
+noh cast 'nohassle'
+` get laser corpse;get laser 2.corpse;get laser 3.corpse
+die order follower die;get laser corpse;get laser 2.corpse;get laser 3.corpse
+arm give laser clone;give laser 2.clone;order clone wield laser;order 2.clone wield laser
+detc cast 'detect inv' clone;cast 'detect inv' 2.clone
+armed give pulse clone;give pulse 2.clone;order clone wield pulse;order 2.clone wield pulse
+wh cast 'whirlwind'
+1 get heal force;get heal force;get heal force;get heal force;get heal force;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put force 2.force
+serp cast 'serpent' $*
+rc cast 'remove curse' $*
+5 cast 'haste'
+loc cast 'locate obj' $*
+det cast 'detect inv' $*
+4 get meat backpack;eat meat
+qp get protect backpack;quaff prot
+tra train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1
+inf cast 'infrav' $*
+cf cast 'create food';eat mushroom
+cw cast 'create water' skin;drink skin
+wa wake;stand
+re cast 'word of recall'
+sum cast 'summon' $*
+drag cast 'dragon' $*
+sleep cast 'sleep' $*
+8 cast 'sanct' $*
+str cast 'stre' $*
+ref cast 'refresh' $*
+bh buy 20 heal;put all.heal force
+ba buy 5 ammo;put all.ammo force
+kick get ammo force;reload winch;put ammo force;kick $*
+inv cast 'invis' $*
+life cast 'sense life' $*
+x get all corpse
+par cast 'paral' $*
+2 cast 'advanced' $*
+beach  s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+talon cast 'remove curse' talon;e;sell talon;w
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+spiral d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+a aff
+c get coin all.corpse
+id cast 'identify' $*
+gf get force force
+for put force  2.force
+water cast 'waterb' $*
+walk cast 'waterw' $*
+rp cast 'remove par' $*
+clone cast 'clone';cast 'clone'
+0 group all;cast 'group sanc';cast 'group arm';ungroup
+ord order follow kill $1;kill $1
+cl cast 'clone'
+ass order follow assist loki
+fly cast 'fly'
+tele cast 'teleport'
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+infc cast 'infra' clone;cast 'infra' 2.clone
+serve order clones serve
+getw n;n;w;w;w;w;w;s;d;get word;get crowbar;u;n;e;e;e;e;e;s;s
+remw n;n;w;w;w;w;w;s;d;drop word;drop crowbar;u;n;e;e;e;e;e;s;s
+3 cast 'divine heal' $*
+stone cast 'stoneskin' $*
+z show zone $1
+getd hold lantern;wear total body;wear all;wield laser;hold drill;open force;open 2.force;open 3.force;put for 2.for;put for 2.for
+rope cast 'remove curse' rope;e;sell rope;w
+6 cast 'advanced heal' het

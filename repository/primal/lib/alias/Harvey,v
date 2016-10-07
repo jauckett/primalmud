@@ -1,0 +1,166 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ss cast 'summon' citizen
+bs back pirate
+kp kill pirate
+sg cast 'summon' goblin
+gg get chest
+gc get all corpse
+kg kill goose
+wh wield hammer
+bb back buccaneer
+kb kill buccaneer
+rc rescue corky
+bg back guard
+kk kill sentry
+cw cast 'waterwalk' harvey
+rs remove sword
+wd wield dagger
+rrd remove dagger
+ht hold tooth
+wand use elder giant
+ko kill oompa
+gar get all.red backpack
+tl track lahn
+cii cast 'infravision'
+ci cast 'detect invisibility'
+grc get all.red crate
+prc put all.red crate
+lic look in crate
+gr get all.red crate
+pac put all crate
+sk cast 'summon' keep servant
+daw drop all.white
+gaw get all.white backpack
+dar drop all.red
+sb cast 'summon' energizer bunny
+jar junk all.red
+ts track snes
+tgj track gi joe
+tr tag radix
+tp tag pkunk
+te tag elementor
+tww track werewolf
+gm get mushroom backpack
+elf cast 'summon' elven guard
+cit cast 'summon' elven soldier
+sol cast 'summon' roman soldier
+gj cast 'summon' gi joe
+ch cast 'heal'
+km kill merchant
+1 q white
+r q red
+jb junk boots
+kw kill worker
+kv kill vendor
+gsb get skin backpack
+lib look in backpack
+c kill tricksters
+paw put all.white backpack
+par put all.red backpack
+wa 
+cf cast 'create food'
+mf cast 'create food'
+qr q red
+db drink bucket
+gcc get all all.corpse
+em eat mushroom
+inv inventory
+pab put all backpack
+gab get all backpack
+gwb get white backpack
+jp junk pants
+jj junk jacket
+g get corpse
+j junk corpse
+k1 kill master
+pwb put white backpack
+tn track snes
+ciii cast 'invisibility'
+snes cast 'summon' snes
+pam put all.mushroom backpack
+tb track energizer bunny
+br buy 20 red
+bw buy 5 white
+pwc put all.white crate
+pmb put all.mushroom backpack
+gwc get all.white crate
+sw cast 'summon' werewolf
+aa cast 'word of recall'
+gw get white crate
+cs cast 'strength' harvey
+sd cast 'summon' druid
+he hold enlibrite
+chaos use chaos cinderella
+td use sceptre willy
+si cast 'summon' snes
+re remove enlibrite
+hc hold chaos
+uc use chaos stone
+ke kill slave
+ksl kill slave
+kt kill traveller
+ct cast 'teleport'
+kj kill jester
+kd kill dwarf
+ka kill apprentice
+bk back king
+ca cast 'armor' harvey
+js junk sombrero
+ws wield sword
+kn kill nomad
+kc kill citizen
+bc back crawler
+bd back dragon
+ks kill servant
+bj back jester
+bm back monk
+jaw junk all.white
+hp hold skull
+sc cast 'summon' citizen
+dc drop crate
+ds drink skin
+hd hold diamond
+rt rem tooth
+rh remove hammer
+rd rem dagger
+tc track captain
+rm rem mace
+wm wield mace
+tt track crystal
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

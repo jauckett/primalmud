@@ -1,0 +1,12 @@
+as assist slayor
+skin drink skin
+meat eat meat
+mm cast 'magic missile' $1
+cast 'armor' self
+arm cast 'armor' rabid
+b buy #$1
+wa wear all; wield sword
+0 get all all.corpse
+9 get gold all.corpse
+sl sleep
+up wa;st

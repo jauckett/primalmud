@@ -1,0 +1,33 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2003.10.14.05.19.33;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Artus> Adding hints for primal street to repository.
+@
+text
+@Primal Street was designed as a newbie start zone!
+If you type help <command> you will see the help on that word!
+If you type l <direction> you will see a description in that direction!
+If you type l <object> you will see the description of the object!
+If you type l <mobname> you will see the description of the mob!
+If you type l <playername> you will see what the player is wearing and holding!
+If you type prompt you will be able to add features to your prompt!
+Try typing prompt all to see Hit Mana Movement Exp Req And Align!
+If playing multiple characters type "whoami" if you forget which screen you are on!
+$
+@

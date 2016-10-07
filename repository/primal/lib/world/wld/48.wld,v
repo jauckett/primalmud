@@ -1,0 +1,2633 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.41;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.41;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#4800
+The Woods~
+You are wandering in a strange forest where you can hear a magical 
+entrancing musical tune that sounds like it is being played on wind pipes.  
+This music makes you want to find the person or creature who is playing it
+so you can follow them devotedly. The small narrow path leading through 
+the woods heads east and south from here.
+~
+48 65 3
+D1
+Looking east you see a strange beast playing a magical pipe
+~
+~
+0 -1 4801
+D2
+The Wood
+Looking south you see a large tree blocking your view
+~
+~
+0 -1 4808
+S
+#4801
+The Woods~
+The narrow path continues south and west here in this strange woods that
+you are wandering aimlessly in. As you peer around you see very little 
+through the dense foliage, however you do hear a strange pipe music that 
+entrances you into wanting to follow it.    
+~
+48 65 3
+D2
+Looking south you see a large tree blocking your view
+~
+~
+0 -1 4809
+D3
+Looking west you see a strange creature dancing on a small rise
+~
+~
+0 -1 4800
+S
+#4802
+The Woods~
+You are wandering a strange, mysterious forest. There are many unidentifable 
+noises coming from the land beyond. It is hard to tell if they are friend or
+foe. To your south the woods continue and to your east you can see a 
+small path that leads back towards Selva Road.
+~
+48 65 3
+D2
+The dense forest spreading for miles
+~
+~
+0 -1 4811
+D3
+A forest path that leads towards Selva Road
+~
+~
+0 -1 1533
+S
+#4803
+The Woods~
+You are wandering aimlessly in a strange forest that you have become quickly
+lost in. You can hear and enchanting pipe music that flows magically through
+the trees and makes you want to find it source. You can then follow this 
+magical music until you die. 
+~
+48 65 3
+D1
+The dense forest spreading for miles
+~
+~
+0 -1 4804
+D2
+The dense forest spreading for miles
+~
+~
+0 -1 4813
+S
+#4804
+The Woods~
+The narrow path continues south, east and west here in this strange woods 
+that you are wandering aimlessly in. As you peer around you see very little 
+through the dense foliage, however you do hear a strange pipe music that 
+entrances you into wanting to follow it.    
+~
+48 65 3
+D1
+The dense forest spreading for miles
+~
+~
+0 -1 4805
+D2
+There is a strange creature playing a beautiful pipe
+~
+~
+0 -1 4814
+D3
+You see a large tree blocking your view
+~
+~
+0 -1 4803
+S
+#4805
+The Woods~
+You are wandering in a strange forest where there are many noises coming 
+from the land past the dense trees. It is hard to tell if the persons or 
+creatures making these noises are actually friend or foe, therefore you will
+walk through here in a wary manner. 
+~
+48 65 3
+D2
+You see a large tree blocking your view
+~
+~
+0 -1 4815
+D3
+There is a strange creature playing a beautiful pipe
+~
+~
+0 -1 4804
+S
+#4806
+The Woods~
+You have reached a section in the path where a large old tree block your
+way and you have no alternative but to turn back towards the south and 
+retrace your tracks. You are feeling rather lost in this dense forest as
+there are very few land marks to help guide you. 
+Sitting under this tree is a beautiful Goddess who entrances you with her
+glamourous looks.
+~
+48 65 3
+D2
+You see two nymphs dancing together on a small rise
+~
+~
+0 -1 4817
+S
+#4807
+The Woods~
+The narrow path continues south and east here in this strange woods that
+you are wandering aimlessly in. As you peer around you see very little 
+through the dense foliage, however you do hear a strange pipe music that 
+entrances you into wanting to follow it.    
+~
+48 65 3
+D1
+You see two nymphs dancing together on a small rise
+~
+~
+0 -1 4808
+D2
+The narrow path joins several other small paths
+~
+~
+0 -1 4820
+S
+#4808
+The Woods~
+As you wander the winding path in this strange and magical forest you 
+hear some very strange sounds coming from a land nearby. It is difficult for
+you to determine who or what is making these noises, so you decide to walk
+through here very cautiously. The narrow path heads in three directions here
+and you find yourself rather confused as to which direction you shoul 
+head in.
+~
+48 65 3
+D0
+You see a large tree blocking your view
+~
+~
+0 -1 4800
+D2
+You see a strange beast playing a magical pipe
+~
+~
+0 -1 4821
+D3
+You see a nymph like creature dancing in the path
+~
+~
+0 -1 4807
+S
+#4809
+The Woods~
+As you wander the winding path in this strange and magical forest you 
+hear some very strange sounds coming from a land nearby. It is difficult for
+you to determine who or what is making these noises, so you decide to walk
+through here very cautiously.
+~
+48 65 3
+D0
+Looking north you see the path becomes even denses with trees if that is 
+possible. 
+~
+~
+0 -1 4801
+D1
+Looking east you see a strange beast playing a pipe
+~
+~
+0 -1 4810
+S
+#4810
+The Woods~
+You are wandering in a strange, eerie wood that is so dense with foliage 
+that you can barely see the path you are following. To your south you can 
+just make out the Aegean Sea and to your west and east the dense forest
+crowds in around you. 
+~
+48 68 3
+D1
+To your east you see large fir trees crowding around the path.
+~
+~
+0 -1 4811
+D2
+Looking south you see the Aegean Sea where many strange creatures live
+~
+~
+0 -1 4822
+D3
+Looking west you see a nymph dancing on a small hill
+~
+~
+0 -1 4809
+S
+#4811
+The Woods~
+You are wandering in a strange, dense forest where it is easy to get lost 
+in. You can hear strange sounds echoing through the trees that crowd in 
+around you and they seem to be coming from the land beyond these woods.  
+It is hard to tell if the creatures making these strange sounds are 
+friend or foe, so extreme caution is required to survive. 
+~
+48 65 0
+D0
+Looking north you see the dense woods surrounding you
+~
+~
+0 -1 4802
+D1
+The Woods to your east are extremelt dense and you find it difficult to see
+past the trees
+~
+~
+0 -1 4812
+D3
+Looking west you see a nymph like creature dancing in circles
+~
+~
+0 -1 4810
+S
+#4812
+The Woods~
+The woods are so dense here that you find yourself nolonger on a path. 
+You are now walking amonst the large trees that loom over you. There are 
+small yellow flowers and moss growing at your feet put you can nolonger
+see any path. You are begining to feel hoplessly lost in these woods 
+To your south you can see the Aegean sea and strange beasts swiming on it.
+~
+48 69 3
+D1
+There is a young man wandering aimlessly and looking rather lost
+~
+~
+0 -1 4813
+D2
+Looking south you see a beautiful blue sea
+~
+~
+0 -1 4824
+D3
+There is a young man wandering aimlessly and looking rather lost
+~
+~
+0 -1 4811
+S
+#4813
+The Woods~
+You are wandering a strange forest where you are feeling hoplessly lost. 
+To your west you can just make out the Aegean Sea and the woods continues
+to your north. You hear strange music coming from the woods that surround
+you and it makes you feel like finding it and joining in forever. 
+~
+48 65 3
+D0
+There is a small nymph dancing on a rise in the woods
+~
+~
+0 -1 4803
+D3
+Looking west you see the woods and the beautiful blue sea
+~
+~
+0 -1 4812
+S
+#4814
+The Woods~
+You are wandering in a strange, dense forest where it is easy to get lost 
+in. You can hear strange sounds echoing through the trees that crowd in 
+around you and they seem to be coming from the land beyond these woods.  
+It is hard to tell if the creature making these strange sounds are friend or 
+foe, so extreme caution is required to survive. 
+~
+48 65 3
+D0
+There is a strange beast playing a magical pipe
+~
+~
+0 -1 4804
+D1
+You see two nymphs dancing together in wild abandon
+~
+~
+0 -1 4815
+D2
+There is a young man wandering aimlessly and looking rather lost
+~
+~
+0 -1 4826
+S
+#4815
+The Woods~
+The woods are so dense here that you find yourself nolonger on a path. 
+You are now walking amonst the large trees that loom over you. There are 
+small yellow flowers and moss growing at your feet put you can nolonger
+see any path. You are begining to feel hoplessly lost in these woods 
+~
+48 65 3
+D0
+You see two nymphs dancing together in wild abandon
+~
+~
+0 -1 4805
+D1
+There is a young man wandering aimlessly and looking rather lost
+~
+~
+0 -1 4816
+D3
+There is a strange beast playing a magical pipe
+~
+~
+0 -1 4814
+S
+#4816
+The Woods~
+There are strange sounds coming from the woods that surround you, but as you
+peer through the trees you can see very little. There are a few timid 
+squirrel and rabbits, however no creature to explain these weird noises that 
+you keep hearing, or is it music that you are hearing.  
+~
+48 65 3
+D1
+There is a strange beast playing a magical pipe
+~
+~
+0 -1 4817
+D2
+You see a timid squirrel darting through the trees
+~
+~
+0 -1 4827
+D3
+The dense woods surrounding you
+~
+~
+0 -1 4815
+S
+#4817
+The Woods~
+As you wander the winding path in this strange and magical forest you 
+hear some very strange sounds coming from a land nearby. It is difficult for
+you to determine who or what is making these noises, so you decide to walk
+through here very cautiously.
+~
+48 64 3
+D0
+You see two nymphs dancing together in wild abandon
+~
+~
+0 -1 4806
+D3
+The dense woods surrounding you
+~
+~
+0 -1 4816
+S
+#4818
+The Woods~
+You are walking in a deep dark forest.  All around you are strange noises
+that come from every direction.  You are unable to tell if they are 
+friend or foe. You have reached a large tree that blocks your path so you 
+will have to turn back and retrace your steps. These woods are so dense and
+dark that you have become hoplessly lost in them.
+~
+48 65 0
+D1
+The dark forest 
+~
+~
+0 -1 4819
+S
+#4819
+The Woods~
+There are strange sounds coming from the woods that surround you, but as you
+peer through the trees you can see very little. There are a few timid 
+squirrel and rabbits, however no creature to explain these weird noises that 
+you keep hearing, or is it music that you are hearing.  
+~
+48 65 3
+D1
+There is a young girl looking hopelessly lost
+~
+~
+0 -1 4820
+D3
+The dark forest and a large tree blocking your path
+~
+~
+0 -1 4818
+S
+#4820
+The Woods~
+You are standing at a crossroads in this dense forest where you can go either
+north, south, east or west. The only problem is every direction looks exactly
+the same as the other. You are at a loss as to which path you should 
+take. You may as well flip a coin to decide seeing you have no idea which
+direction you should head in.
+~
+48 65 3
+D0
+There is a young girl looking hopelessly lost
+~
+~
+0 -1 4807
+D1
+The dense woods surrounding you
+~
+~
+0 -1 4821
+D2
+The dense woods surrounding you
+~
+~
+0 -1 4829
+D3
+There is a young girl looking hopelessly lost
+~
+~
+0 -1 4819
+S
+#4821
+The Woods~
+You are wandering aimlessly in a strange forest.  There are many noises 
+coming from the land beyond this dense forest. However it is hard to tell if 
+they are friend or foe. To your west you see a large crossroads in these 
+woods but there are no signs telling you which path you should take. 
+~
+48 65 3
+D0
+You see two nymphs dancing together in wild abandon
+~
+~
+0 -1 4808
+D3
+Looking west you see a crossroads in the dense woods
+~
+~
+0 -1 4820
+S
+#4822
+Aegean Sea~
+You are sailing on the Aegean Sea where many strange creatures live. To your
+north you can see the dense woods where a person can become quickly lost. 
+Looking east and south you see the that this masive ocean stretches as far
+as they eye can see. 
+~
+48 64 7
+D0
+Looking north you can see the dense woods
+~
+~
+0 -1 4810
+D1
+The sea looks very calm and relaxing
+~
+~
+0 -1 4823
+D2
+You see another travelling sailing the seas
+~
+~
+0 -1 4832
+S
+#4823
+Aegean Sea~
+You are traveling on the Aegean Sea. It seems to be controlled by a higher
+force far beyond your comprehension. There are many strange water beasts 
+swiming nearby and you sense the presence of a great god.
+~
+48 64 7
+D2
+The Aegean sea looks very calm and relaxing
+~
+~
+0 -1 4833
+D3
+The Aegean sea looks very calm and relaxing
+~
+~
+0 -1 4822
+S
+#4824
+Aegean Sea~
+The Aegean Sea stretches before you to the east, where you can see many 
+strange and wonderful creature unlike any you have seen before.  To your 
+north are the dark mysterious woods, where a person can become quickly 
+lost. There is a cool breeze that blows in from your east that refreshes your
+hot face.
+ ~
+48 64 7
+D0
+Looking north you see the dense, dark woods
+~
+~
+0 -1 4812
+D1
+Looking east you see the Aegean Sea with a strange water creature swiming 
+around. 
+~
+~
+0 -1 4825
+S
+#4825
+Aegean Sea~
+You are sailing on the Aegean Sea where you may meet up with many 
+strange and mysterious creatures. This strange sea seems to be controlled 
+by a higher force far beyond your comprehension. The sea stretches before you
+to your south and west. To your east you see the dark woods where a magical
+music is coming from.
+~
+48 68 7
+D1
+You see a strange creature playing a magical pipe
+~
+~
+0 -1 4826
+D2
+A strange water nymph is swiming 
+~
+~
+0 -1 4834
+D3
+A hideous creature lurks in the waters depths
+~
+~
+0 -1 4824
+S
+#4826
+The Woods~
+You are standing in the dark woods that surround you on your north and 
+south. To your west you make out a large body of water where some 
+strange and hideous creatures dwell.  
+~
+48 65 0
+D0
+There is a young girl wandering the woods aimlessly
+~
+~
+0 -1 4814
+D2
+There is a small nymph dancing merrily
+~
+~
+0 -1 4835
+D3
+You see a strange creature floating on top of the water
+~
+~
+0 -1 4825
+S
+#4827
+The Woods~
+You are wandering in a strange forest where you hear many noises coming 
+from a land beyond nearby. The forest path continues here towards your 
+north and south. To your east you see a large tree blocking the way.
+~
+48 65 3
+D0
+There is a small nymph dancing merrily
+~
+~
+0 -1 4816
+D1
+A strange creature sitting by the tree
+~
+~
+0 -1 4828
+D2
+There is a small nymph dancing merrily
+~
+~
+0 -1 4836
+S
+#4828
+A large tree~
+You are standing by a large tree that blocks your path. You will have to 
+retrace your steps back into a thicker part of these woods. As you look 
+around this shady glade you notice a strange beast sitting by the tree 
+and waiting for you to attack.
+~ 
+48 65 3 
+D3
+There is a small nymph dancing merrily
+~
+~
+0 -1 4827
+S
+#4829
+The Woods~
+This section of the woods heads off in three different directions. You can
+go south to Mount Olympus or east onto the Aegean Sea. To your north the 
+dark woods continue. The choice is yours but BEWARE there is a great danger
+lurking nearby.
+~
+48 64 3
+D0
+You see a poor old man wandering around aimlessly
+~
+~
+0 -1 4820
+D1
+Aegean Sea looks rather rough and choppy
+~~
+0 -1 4830
+D2
+Looking south you see the base of Mount Olympus
+~~
+0 -1 4844
+S
+#4830
+Aegean Sea~
+You are traveling on the Aegean Sea which heads off to your east. To your
+west you can see the dense forest where many strange creature reside.
+The water is rather choppy on the sea as there is a strong wind blowing of
+Mount Olympus, as if the Gods are angry.
+~
+48 68 7
+D1
+Looking east you see a man sailing on the sea
+~
+~
+0 -1 4831
+D3
+Looking west you see the dark forest
+~
+~
+0 -1 4829
+S
+#4831
+Aegean Sea~
+You are traveling on the Aegean Sea that stretches before you to your 
+south, east and west. The water is rather rough here as there is a strong 
+wind blowing off Mount Olympus. As if someone has angered the Gods there. 
+~
+48 64 7
+D1
+The Aegean Sea looks rough and choppy
+~
+~
+0 -1 4832
+D2
+You see a man battleing the elements
+~
+~
+0 -1 4845
+D3
+You see a strange sea creature swimming on the surface
+~
+~
+0 -1 4830
+S
+#4832
+Aegean Sea~
+You are traveling on the Aegean Sea. It seems to be controlled by a higher
+force far beyond your comprehension. Maybe some powerful God is the one who
+is controlling the elements though you really can't be sure.
+~
+48 64 7
+D0
+You see a strange sea creature swimming on the surface
+~
+~
+0 -1 4822
+D3
+The Aegean Sea looks rough and choppy
+~
+~
+0 -1 4831
+S
+#4833
+Aegean Sea~
+You are traveling on the Aegean Sea. It seems to be controlled by a higher
+force far beyond your comprehension. Maybe some powerful God is the one who
+is controlling the elements though you really can't be sure.
+~
+48 64 7
+D0
+You see a strange sea creature swimming on the surface
+~
+~
+0 -1 4823
+D2
+The Aegean Sea looks rough and choppy
+~
+~
+0 -1 4846
+S
+#4834
+Aegean Sea~
+You are traveling on the Aegean Sea that stretches before you to your 
+south, east and west. The water is rather rough here as there is a strong 
+wind blowing off Mount Olympus. As if someone has angered the Gods there. 
+~
+48 64 7
+D0
+You see a strange sea creature swimming on the surface
+~
+~
+0 -1 4825
+D2
+The Aegean Sea looks rough and choppy
+~
+~
+0 -1 4848
+S
+#4835
+The Woods~
+You are wandering a strange forest. There are many noises coming from the
+land beyond these woods and it is hard to tell if they are friend or foe.
+You decide to travel through these woods as quietly as possible as you sense
+that there is great danger lurking all around you
+~
+48 65 3
+D0
+You see a man wandering aimlessly as if lost
+~
+~
+0 -1 4826
+D2
+You see three nymphs danceing merrily
+~
+~
+0 -1 4849
+S
+#4836
+The Wood~
+You are wandering aimlessly in strange forest that you feel you have lost 
+your way in. You have reached a crossroads in this section of the woods
+and you sense great danger from the narrow path to your east. 
+~
+48 65 0
+D0
+You see a man wandering aimlessly as if lost
+~
+~
+0 -1 4827
+D1
+You see a great warrior waiting to attack
+~
+~
+0 -1 4837
+D2
+You see a man wandering aimlessly as if lost
+~
+~
+0 -1 4851
+S
+#4837
+The Woods~
+You are wandering along a very dangerous path in these woods. As you look 
+around at the large trees that surround you a great warrior steps out and
+gets ready to attack you. To your west you see a crossroads in the woods
+and to your east you sense more danger.
+~
+48 65 3
+D1
+Looking east you see a hideous Gorgon
+~
+~
+0 -1 4838
+D3
+Looking west you see a crossroads in the woods
+~
+~
+0 -1 4836
+S
+#4838
+The Woods~
+As you wander along a very dangerous path in the woods you start to walk
+very carefully and look around you with caution. As you stand here a large
+Gorgon steps out from behind a tree and gets ready to attack you.
+~
+48 65 3
+D1
+Looking east you see a large Gorgon
+~
+~
+0 -1 4839
+D3
+Looking west you see a great warrior
+~
+~
+0 -1 4837
+S
+#4839
+The Woods~
+As you wander along a very dangerous path in the woods you start to walk
+very carefully and look around you with caution. As you stand here a large
+Gorgon steps out from behind a tree and gets ready to attack you.
+~
+48 65 3
+D1
+Looking east you see the hideous Medusa
+~
+~
+0 -1 4840
+D3
+Looking west you see a large Gorgon
+~
+~
+0 -1 4838
+S
+#4840
+The Woods~
+You have reached the end of this dangerous path in the woods and the hideous
+creture that awaits for you in the shade ofthe trees is so ugly you turn your
+head in discust. Her name is Medusa and she is a vile and vicious woman/beast
+who will kill you with a glance if you don't flee now.
+~
+48 65 3
+D3
+Looking west you see a large Gorgon
+~
+~
+0 -1 4839
+S
+#4841
+Climbing Mount Olympus~
+As you climb higher up on Mount Olympus you look down and see the woods 
+and sea bellow you. Looking up all you can see is are large white billowing
+clouds  obscuring the top of the mountain from view.
+~
+48 64 4
+D2
+Mount Olympus
+~
+~
+0 -1 4852
+D5
+Down Mount Olympus
+~
+~
+0 0 4842
+S
+#4842
+Climbing Mount Olympus~
+As you stand at the base of the legendary Mount Olympus you  see the 
+the cloud cover that blocks the view of the top. However, it is told that 
+great gods live at the top of this mountain.  Gods of ultimate power and 
+limited patience that would be best not to test.
+~
+48 64 4
+D4
+Up Mount Olympus
+~
+~
+0 0 4841
+D5
+Down Mount Olympus
+~
+~
+0 0 4843
+S
+#4843
+Bottom of Mount Olympus~
+You are climbing the legendary Mount Olympus.  When you LOOK at the 
+mountain you can not see the top as it is surrounded by cloud cover.  It 
+is told that great gods live at the top of this mountain.  God of ultimate 
+power and limited patience that would be best not to test.
+~
+48 68 4
+D1
+Bottom of Mount Olympus
+~
+~
+0 -1 4844
+D4
+Up Mount Olympus
+~
+~
+0 0 4842
+E
+mountain~
+ $$$$$$$$$$$$##$$$$$$&&&&&$$$$$$$$$$$$$  $$$$$$$$$$$$ $$$$$$$$ $$$##$$$$$$
+$$$$$$$$&$$$&$$$$$$ $$$$$&$$$$$$$$$$$$$$$$$$$$&$$$$$$$ $$&$$$$$$##$$$$$$$$$
+$$$$$$$&&&$&$$##$$$$ $$$&$$$$$$$$$$$$$$$&&&$$&$$$$$$$$$$&$$$$$$$$$$$#$$$$$$
+ $$$$$$$&&&$$$$$$$$$$$$$$$$$$$$#$$$$$&&&$$$&&$$$$$$$$$$&$$$$#####$##$$$$$$
+  $$$$$$$$$$###$$$$$$$$$$$$$$$###$$$$$$$$$$$$$$$$$$$$$&$$$$$$$####$$$$$$$
+   $$$$$$$$$$##$$$ $$$$$$$$$$#####$$$$$$$$$$$$$  $$$$$$$$$$$$$$$$$$$$$$$
+     $$$$$$$$$$$$  $$$   $$$#######$$$$######$  : $##$  :$$$$$$$$$$##$$
+     :   :  /  :   \       *********       :       :      \  :   \  ;
+           /        \     ***********      .    :       :  \      \
+     :    /\   .    /\   *************                     / :    /\.
+         /  \      / /  @@**************    .    .  .    : /\     / /
+        /    \    /\ \  **@@******@@**@@***                 /  \.  /  \.
+     :  \:   / . /    \***@@*@@****@@**@@@@@@*   .            /    \  \   \
+         .   \   \   @@@@**@@*@@@@@@**@@@@@@*@@@@@@**       .   .   \    .\      \
+              \. /   @@*@@@@*@@@@@@@@*@@@@@@@@@@*@@@@@@*                \    @@@@@@   .
+     .   .       \  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*@@@@@@@@@@@@ .       .    ./   @@@@@@@@@@
+                  \@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    .        \@@@@@@@@@@@@@@@@@@ .
+                   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@@
+               .  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+     .   .     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@########@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#####@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+              @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+          .  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+     .      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+~         
+S
+#4844
+Before Mount Olympus~
+You are standing before a great mountain.  You cannot see the top at it is
+obscured with thick billowing clouds.  To conquer the mountain would be a test
+not only of courage but of stamina.  Only legend tells of the place at the 
+top of the mountain.To your north you see the dense woods and to your 
+west you can see the bottom of the mountain.
+~
+48 64 3
+D1
+The dense woods
+~
+~
+0 -1 4829
+D3
+Bottom of Mount Olympus
+~
+~
+0 -1 4843
+S
+#4845
+Aegean Sea~
+You are sailing on the Aegean Sea and to your south you can see the Isle 
+of Crete. The ocean is rather calm in this area as the Isle of Crete 
+protects it from all the elements. You find it much easier to sail upon here
+and you are feeling slightly safer.
+~
+48 68 7
+D0
+Looking north you spy a large sea monster
+~
+~
+0 -1 4831
+D2
+Looking south you see the Isle of Crete
+~
+~
+0 -1 4855
+S
+#4846
+Aegean Sea~
+As you sail across the Aegean Sea the winds blow your small craft around 
+quite violently. It as if the Gods have been made very angry by something
+and they are now letting off steam on your small canoe. You are feeling
+very vunerable as you try and find some dry land.
+~
+48 64 7
+D0
+Looking north you spy a large sea monster
+~
+~
+0 -1 4833
+D1
+The sea looks extremely dangerous 
+~
+~
+0 -1 4847
+S
+#4847
+Aegean Sea~
+As you sail across the Aegean Sea you see many strange creatures swimming 
+around you. There is a dark opening below you with water rushing down 
+into it that looks rather dangerous.  As you peer down you find that it 
+is too dark for you to see anything clearly. The Aegean Sea continues to 
+your east and west from here.
+~ 
+48 68 7
+D1
+The sea looks extremely dangerous 
+~
+~
+0 -1 4848
+D3
+The sea looks extremely dangerous 
+~
+~
+0 -1 4846
+D5
+Looking down you see a dark Cavern
+~
+~
+0 0 4857
+S
+#4848
+Aegean Sea~
+You are traveling on the Aegean Sea. It seems to be controlled by a higher
+force far beyond your comprehension. There are many strange water beasts 
+swiming nearby and you sense the presence of a great god.
+~
+48 64 7
+D0
+Looking north you see a man sailing on the sea
+~
+~
+0 -1 4834
+D3
+The sea looks extremely dangerous 
+~
+~
+0 -1 4847
+S
+#4849
+The Woods~
+You are standing at a crossroads in these dense woods. There is a large 
+beast guarding the clearing to your south, though he is not a nasty beast
+and will let you pass without provoking you into a fight. The woods continues
+to your north and east from here.
+~
+48 65 3
+D0
+There are three nymphs dancing on a small rise
+~
+~
+0 -1 4835
+D1
+There is a young man wandering aimlessly
+~
+~
+0 -1 4850
+D2
+Looking south you see a small clearing
+~
+~
+0 -1 4858
+S
+#4850
+The Woods~
+You are wandering in a strange forest. There are many noises coming from the
+land beyond these woods and it is hard to tell if they are friend or foe.
+~
+48 65 3
+D1
+There are three nymphs dancing on a small rise
+~
+~
+0 -1 4851
+D3
+There are three nymphs dancing on a small rise
+~
+~
+0 -1 4849
+S
+#4851
+The Wood~
+You are wandering in a strange, dense forest where it is easy to get lost 
+in. You can hear strange sounds echoing through the trees that crowd in 
+around you and they seem to be coming from the land beyond these woods.  
+It is hard to tell if the creature making these strange sounds are friend or 
+foe, so extreme caution is required to survive. 
+~
+48 65 3
+D0
+There is a young man wandering aimlessly
+~
+~
+0 -1 4836
+D3
+There is a young man wandering aimlessly
+~
+~
+0 -1 4850
+S
+#4852
+Mount Olympus~
+Here the mountain starts to level off and to your south you notice that there
+is a large cloud bank covering what appears to be the top of the mountain.
+It has been told that a legendary God resides on this Mountain. A God who is
+so powerful that no mortal man can defeat him.
+~
+48 64 4
+D0
+Path Leading Down the Mountain~
+~~
+0 -1 4841
+D2
+Mount Olympus~
+~~
+0 -1 4865
+S
+#4853
+Crete~
+You are standing on the west side of Crete.  Directly south you can see a
+large castle with ornate sculpturing.  From this angle you cannot make your
+way to the castle. You will have to approach it from the front.
+~
+48 64 1
+D1
+Looking east you see several people wandering around
+~
+~
+0 -1 4854
+S
+#4854
+Crete~
+You see a great civilization before you.  Slightly more advanced that any you
+have seen before.  As you peer around you see many works of art.  Most of them
+featuring an animal commonly known as the Bull.
+~
+48 64 1
+D1
+Looking east you can see the Aegean Sea and the Isle of Crete
+~
+~
+0 -1 4855
+D2
+You see a few traveller wandering through Crete
+~
+~
+0 -1 4868
+D3
+You see a woman with a young child walking the streets of Crete
+~
+~
+0 -1 4853
+S
+#4855
+Isle of Crete~
+You see a great civilization before you.  Slightly more advanced that any you 
+have seen before.  As you peer around you see many works of art.  Most of them
+featuring an animal commonly known as the Bull. To your north is the 
+Aegean Sea and south,east and west is Crete
+~
+48 64 1
+D0
+Looking north you see the great Aegean Sea spreading for miles
+~
+~
+0 -1 4845
+D1
+You see a young woman washing her clothes in the street
+~
+~
+0 -1 4856
+D2
+You see a young woman washing her clothes in the street
+~
+~
+0 -1 4869
+D3
+You see a small child sitting on the side of the road
+~
+~
+0 -1 4854
+S
+#4856
+Crete~
+You are on the east side of the Island of Crete.  You can see in the distance
+towards the south east a large castle whose owner is extremly wealth and 
+powerful. 
+~
+48 64 1
+D2
+You see a small child sitting on the side of the road
+~
+~
+0 -1 4870
+D3
+You see a young woman washing her clothes in the street
+~
+~
+0 -1 4855
+S
+#4857
+Dark Watery Cavern~
+You cant see anything because it is too dark but you know that up is the
+Aegean Sea. You sense that the dark cavern continues to your south.
+~
+48 193 8
+D2
+Dark Cavern
+~
+~
+0 -1 4872
+D4
+Out of Cavern
+~
+~
+0 0 4847
+S
+#4858
+A Clearing~
+You are standing in a small clearing.  From here you can see the sea to your 
+west and a city surrounded by large walls to your east. Looking north you see
+the dense woods.
+~
+48 65 2
+D0
+Looking north you see a nymph dancing merrily
+~
+~
+0 -1 4849
+D1
+You see the great wall of troy
+~
+~
+0 -1 4859
+S
+#4859
+Great Wall of Troy~
+If you LOOK at TROY you can see a large City surrounded by a large sturdy 
+wall that look very impressive.  The walls are battle worn but still strong 
+and tough. From inside the city of Troy you can heat the hustle and 
+bustle of the citizens going about their daily tasks.
+~
+48 69 3
+D1
+Looking east you see a large gate and the great wall of Troy
+~
+gate~
+1 0 4860
+D3
+Looking west you see a small clearing just before the woods
+~
+~
+0 -1 4858
+E
+troy~
+                                       +-+ +-+ +-+
+                                       |_|_|_|_|_|
+                                       |;|;;|;;|;|
+                                       |_|__|__|_|
+                                       ||;;|;;|;;|
+         _-+   +---+   +---+   +---+   ||__|__|__|   +---+   +--
+        /::| O/|:::| O |:::| O_|:::|\O |:|::|::|:|\o |:::| O |::\
+       |;;;|/| |;;;|/|\|;;;|<| |;;;| |>|;|;;|;;|;| |\|;;;|<|>|;;;|
++------+---+---+---+---+---+---+---+---+---------+---+---+---+---+-------+
+|::::::|:::::|::::::|::::::|::::::|:::::|:::::|::::::|::::::|::::::|:::::}
+|;;;;;;|;;;;;|;;;;;;|;;;;;;|;;;;;;|;;;;;|;;;;;|;;;;;;|;;;;;;|;;;;;;|;;;;;|
+|______|_____|______|______|______|_____|_____|______|______|______|_____|
+|::|:::::|::::::|::::::|::::::|::::::|::::::|::::::|::::::|::::::|:::::::|
+|;;|;;;;;|;;;;;;|;;;;;;|;;;;;;|;;;;;;|;;;;;;|;;;;;;|;;;;;;|;;;;;;|;;;;;;;|
+|__|_____|______|______|______|_-----------------------___|______|_______|
+|:::::|:::::|::::::|::::::|::::/########## ############\:|::::::|:::::|::|
+|;;;;;|;;;;;|;;;;;;|;;;;;;|;;;/########### #############\|;;;;;;|;;;;;|;;|
+|_____|_____|______|______|__/############ ##############\______|_____|__|
+|::|::::::|::::::|::::::|:::/############# ###############\::|::::::|::::|
+|::|::::::|::::::|::::::|::|############## ################|:|::::::|::::|
+|;;|;;;;;;|;;;;;;|;;;;;;|;;|############## ################|;|;;;;;;|;;;;|
+|__|______|______|______|__|############## ################|_|______|____|
+|:::::|:::::|::::::*:::::::|############## ################|::::|:::::|::|
+|:::::|:::::|:::::***::::::|############@@@@ @@@@##############|::::|:::::|::|
+|;;;;;|;;;;;|;;;;*****;;;;;|###########@@## ##@@#############|;;;;|;;;;;|;;|
+|_____|_____|___*******____|###########@@## ##@@#############|____|_____|__|
+|::|::::::|::::*********|::|############@@@@ @@@@##############|:|::::::|::::|
+|::|::::::|::::*********|::|############## ################|:|::::::|::::|
+|;;|;;;;;;|;;;;;********|;;|############## ################|;|;;;;;;|;;;;|
+|__|______|_____********|__|############## ################|_|______|____|
+                  **#**                                     
+                    #                                        
+~
+S
+#4860
+City of Troy~
+You are in the City of Troy.  The city has been ravaged by war but has stood
+up well to the many years of punishment it has endured. The citizens of Troy
+are very industrious and keep themselves busy with warcraft and training. 
+They way they act you would be sure they are expecting another fight any 
+day now. 
+~ 
+48 68 1
+D1
+You see a large burly warrior sharpening his sword
+~
+~
+0 -1 4861
+D2
+You see a beautiful maiden washing her clothes
+~
+~
+0 -1 4874
+D3
+You see the large walls of Troy and the gate
+~
+gate~
+1 0 4859
+S
+#4861
+Main square in Troy~
+You are standing in the main square of Troy where the citizens hold there 
+markets on certain days and all executions take place.  Today the main square
+is rather quiet. There are a few citizens chatting and selling their 
+wares, but you have obviously arrived on the wrong day for the market.
+~
+48 64 1
+D2
+Looking south you see a young child playing in the street
+~
+~
+0 -1 4875
+D3
+You see the main entrance into Troy
+~
+~
+0 -1 4860
+S
+#4862
+City of Troy~
+You are in the City of Troy.  The city has been ravaged by war but has stood
+up well to the many years of punnishment it has endured.
+~
+48 64 1
+D1
+You see an old man shinning his son's sword
+~
+~
+0 -1 4863
+D2
+There are two young maidens gathering water at a well
+~
+~
+0 -1 4877
+S
+#4863
+City of Troy~
+You are walking through the streets of Troy. All around you are the residents fo Troy going about
+their daily tasks. The citizens look frightened at the idea that there may be another war. 
+There is a beautiful maiden in Troy who may cause the city to fall.
+~
+48 64 1
+D2
+There is a young warrior preparing for battle
+~
+~
+0 -1 4878
+D3
+You see an old man shinning his son's sword
+~
+~
+0 -1 4862
+S
+#4864
+Mount Olympus~
+You are climbing at the top of the legendary Mount Olympus.  Things seem
+quite peaceful from where you stand.  It is told that great gods live here
+on this mountain.  Gods of ultimate power and limited patience that would be
+best not to test.
+~
+48 64 4
+D1
+Beautiful clouds that billow past you 
+~
+~
+0 -1 4865
+D2
+The steep slope on Mount Olympus 
+~
+~
+0 -1 4879
+S
+#4865
+Mount Olympus~
+You are climbing at the top of the legendary Mount Olympus.  Things seem
+quite peaceful from where you stand.  It is told that great gods live here
+on this mountain.  Gods of ultimate power and limited patience that would be
+best not to test. As you stand on the mountain the clouds go billowing past you.
+If they cleared the view from here would be incredible.
+~
+48 64 4
+D0
+Mount Olympus
+~
+~
+0 -1 4852
+D1
+Beautiful clouds that billow past you 
+~
+~
+0 -1 4866
+D2
+The steep slope on Mount Olympus 
+~
+~
+0 -1 4880
+D3
+Mount Olympus~
+~~
+0 -1 4864
+S
+#4866
+Mount Olympus~
+As you stand on a level section of the legendary Mount Olympus you see 
+the beautiful white clouds that go billowing past you. If this thick 
+cloud cover would clear the view from this section of the mountain would 
+be absolutely incredible. It has been told that on this mountain resides 
+a great god, that no mortal man can defeat and you wonder if you will 
+~
+48 64 4
+D1
+The steep slope on Mount Olympus 
+~
+~
+0 -1 4867
+D2
+Beautiful clouds that billow past you 
+~
+~
+0 -1 4881
+D3
+You see a small break in the clouds
+~
+~
+0 -1 4865
+S
+#4867
+Mount Olympus~
+You are climbing at the top of the legendary Mount Olympus.  Things seem
+quite peaceful from where you stand.  It is told that great gods live here
+on this mountain.  Gods of ultimate power and limited patience that would be
+best not to test. As you look around there is a break in the cloud cover and you
+see below you you the Aegean Sea and the Great City of Troy.
+~
+48 64 4
+D2
+You see a small break in the clouds
+~
+~
+0 -1 4882
+D3
+The steep slope on Mount Olympus 
+~
+~
+0 -1 4866
+S
+#4868
+Crete~
+You see a great civilization before you.  Slightly more advanced that any you
+have seen before.  As you peer around you see many works of art.  Most of them
+featuring an animal commonly known as the Bull.
+You can see a large Castle where the King must live
+~
+48 64 1
+D0
+Looking north you see the wides streets of Crete
+~
+~
+0 -1 4854
+D1
+You see many of Cretes dejected citizens talking in a group
+~
+~
+0 -1 4869
+S
+#4869
+Crete~
+You are standing in the middle of Crete.  You can see just to your south a 
+large castle . The whole island has many stone carvings of Bulls and other
+such alike animals. They are rather daunting.
+~
+48 64 1
+D0
+Looking north you see the Aegean Sea
+~
+~
+0 -1 4855
+D1
+You see a young child crying in the street
+~
+~
+0 -1 4870
+D2
+You see a young man ridding a horse
+~
+~
+0 -1 4884
+D3
+You see a young child crying in the street
+~
+~
+0 -1 4868
+S
+#4870
+Crete~
+You are standing on the south east side of the Isle of Crete.  In the distance
+you can see a large castle of great wealth and beauty.  
+~
+48 64 1
+D0
+Crete
+~
+~
+0 -1 4856
+D2
+You see a young woman washing her clothes in the street
+~
+~
+0 -1 4885
+D3
+You see a young child crying in the street
+~
+~
+0 -1 4869
+S
+#4871
+Dark Watery Cavern~
+The dark cavern surrounds you and makes you feel extremly frightened. 
+You can not see anything in here so you grope around in the dark trying 
+to find an exit before you are attacked
+~
+48 65 8
+D1
+Dark Cavern
+~
+~
+0 -1 4872
+S
+#4872
+Dark Cavern~
+You are standing in the centre of a dark Cavern that leads in ever direction. 
+The problem is that you really have no idea which way is safest to travel in.
+This cavern is far too dark for you too see anything clearly so you have to 
+blindly take a guess.
+~
+48 65 8
+D0
+Dark Cavern
+~
+~
+0 -1 4857
+D1
+Dark Cavern
+~
+~
+0 -1 4873
+D2
+Dark Cavern
+~
+~
+0 -1 4886
+D3
+Dark Cavern
+~
+~
+0 -1 4871
+S
+#4873
+Dark Cavern~
+The dark cavern surrounds you and makes you feel extremly frightened. 
+You can not  see anything in here so you grope around in the dark trying 
+to find an exit before you are attacked
+~
+48 65 8
+D3
+Dark Cavern
+~
+~
+0 -1 4872
+S
+#4874
+City of Troy~
+As you walk through the streets in the city of Troy you notice that it has 
+been ravaged by many wars. The people of Troy look slightly down-trodden 
+and dejected, yet they still manage to go about their daily tasks.
+~
+48 64 1
+D0
+You see a young girl washing her hair near a well
+~
+~
+0 -1 4860
+D1
+You see several young children playing in the street
+~
+~
+0 -1 4875
+D2
+You see an old man whittling on a piece off driftwood
+~
+~
+0 -1 4887
+S
+#4875
+City of Troy~
+You are in the City of Troy.The city has been ravaged by war but has stood
+up well to the many years of punnishment it has endured. The local residents 
+shy away from you in a frightened manner, as if they have been abused by 
+strangers beforehand. 
+~
+48 64 1
+D0
+You see an old man whittling on a piece off driftwood
+Troy~
+~~
+0 -1 4861
+D1
+You see several young children playing in the street
+~
+~
+0 -1 4876
+D2
+You see a young girl washing her hair near a well
+~
+~
+0 -1 4888
+D3
+You see a young warrior sharpening his weapon
+~
+~
+0 -1 4874
+S
+#4876
+City of Troy~
+You are in the City of Troy.  The city has been ravaged by war but has stood
+up well to the many years of punnishment it has endured.
+~
+48 64 1
+D1
+You see a young warrior sharpening his weapon
+~
+~
+0 -1 4877
+D2
+You see a young girl washing her hair near a well
+~
+~
+0 -1 4889
+D3
+Troys widdening streets
+~
+~
+0 -1 4875
+S
+#4877
+City of Troy~
+There is a definate atmosphere in this city that speaks of dejection and
+approaching war. The citizens looks extremely fightened and the warriors 
+are busy sharpening and shinning their weapons and armour. You begin to wonder
+who they may be fighting and why. Maybe you will find the answer here.
+~
+48 64 1
+D0
+You see a young girl washing her hair near a well
+~
+~
+0 -1 4862
+D1
+You see a young warrior sharpening his weapon
+~
+~
+0 -1 4878
+D2
+You see a young warrior sharpening his weapon
+~
+~
+0 -1 4890
+D3
+You see several young children fighting with long sticks
+~
+~
+0 -1 4876
+S
+#4878
+City of Troy~
+There is a definate atmosphere in this city that speaks of dejection and
+approaching war. The citizens looks extremely fightened and the warriors 
+are busy sharpening and shinning their weapons and armour. You begin to wonder
+who they may be fighting and why. Maybe you will find the answer here.
+~
+48 64 1
+D0
+You see several young children fighting with long sticks
+~
+~
+0 -1 4863
+D2
+You see a young warrior sharpening his weapon
+~
+~
+0 -1 4891
+D3
+There is an old man shinning is son's armour
+~
+~
+0 -1 4877
+S
+#4879
+Mount Olympus~
+As you stand on a level section of the legendary Mount Olympus you see 
+the beautiful white clouds that go billowing past you. If this thick 
+cloud cover would clear the view from this section of the mountain would 
+be absolutely incredible. It has been told that on this mountain resides 
+a great god, that no mortal man can defeat and you wonder if you will 
+~
+48 64 4
+D0
+Mount Olympus
+~
+~
+0 -1 4864
+D1
+Mount Olympus
+~
+~
+0 -1 4880
+D2
+Mount Olympus
+~
+~
+0 -1 4892
+S
+#4880
+Mount Olympus~
+On this section of the mountain the clouds seem to be slightly less dense 
+and you manage to get quick glimpses of the wood, sea and a magnificent city
+below you. The clouds then quickly cover over and this incredible view is 
+lost. You have also heard a rumour that on this mountain resides many 
+Great Gods who no mortal man has ever defeated. You wonder if you will be 
+the first.
+~ 
+48 64 4 
+D0 Mount Olympus
+~
+~
+0 -1 4865
+D1
+Mount Olympus
+~
+~
+0 -1 4881
+D2
+Mount Olympus
+~
+~
+0 -1 4893
+D3
+Mount Olympus
+~
+~
+0 -1 4879
+S
+#4881
+Mount Olympus~
+You are climbing at the top of the legendary Mount Olympus.  Things seem
+quite peaceful from where you stand.  It is told that great gods live here
+on this mountain.  Gods of ultimate power and limited patience that would be
+best not to test.
+~
+48 64 4
+D0
+Mount Olympus
+~
+~
+0 -1 4866
+D1
+Mount Olympus
+~
+~
+0 -1 4882
+D2
+Mount Olympus
+~
+~
+0 -1 4894
+D3
+Mount Olympus
+~
+~
+0 -1 4880
+S
+#4882
+Mount Olympus~
+On this section of the mountain the clouds seem to be slightly less dense 
+and you manage to get quick glimpses of the wood, sea and a magnificent city
+below you. The clouds then quickly cover over and this incredible view is 
+lost. You have also heard a rumour that on this mountain resides many 
+Great Gods who no mortal man has ever defeated. You wonder if you will be 
+the first.
+~
+48 64 4
+D0
+Mount Olympus
+~
+~
+0 -1 4867
+D2
+Mount Olympus
+~
+~
+0 -1 4895
+D3
+Mount Olympus
+~
+~
+0 -1 4881
+S
+#4883
+Throne room~
+You are standing in the rich and ornate throne room of King Minos.  There 
+is a huge throne in the middle of the room facing a table. on the throne 
+is the large and majestic King Minos who looks extremely tough. On floor 
+has a rug that covers almost the entire room. You notice that there is a 
+slight rise in one corner of the rug and you wonder what is underneath. 
+~
+48 64 1
+D1
+Looking east you see the wide streets of crete
+~
+~
+0 -1 4884
+D5
+~
+trapdoor~
+2 4816 4901
+S
+#4884
+Crete~
+As you wonder aroung the Crete many wondrous things capture your attention
+However, don't be too off guard as danger still surrounds you. As you 
+look around the island you see a large door directly to your west. 
+You wonder what is behind it and whether you can open it. 
+~ 
+48 64 1
+D0
+Looking north you see the wide streets of Crete
+~
+~
+0 -1 4869
+D1
+Looking east you see a young women who looks slightly dazed
+~
+~
+0 -1 4885
+D3
+Looking west you see a large door and King Minos throne room
+~
+door~
+2 4816 4883
+S
+#4885
+Crete~
+Here the wide streets of Crete look like they have been paved with gold. 
+There are many amazing things that capture your attention, but the 
+residents of Crete look very unhappy and you wonder why. 
+~ 
+48 64 1
+D0
+Looking north you see a wide street
+~
+~
+0 -1 4870
+D3
+Looking west you see a wide street
+~
+~
+0 -1 4884
+S
+#4886
+Dark Watery Cavern~
+You cant see anything because it is too dark but you do sense a terrible evil 
+that is surrounding you. This place gives you the creeps and you grope around in 
+the dark trying to find the exit.
+~
+48 65 8
+D0
+Dark Cavern~
+~~
+0 -1 4872
+S
+#4887
+City of Troy~
+As you wall through the streets of Troy you hear the citizens whispering about a
+beautiful maiden who is here in the city. In the same breath they whisper 
+about the approaching war and how they wish she was never brought here.
+~
+48 64 1
+D0
+You see several young children squabbling
+~
+~
+0 -1 4874
+D1
+You see two warriors talking ernestly
+~
+~
+0 -1 4888
+D2
+You see an old man shinning his son's armour
+~
+~
+0 -1 4896
+S
+#4888
+City of Troy~
+There is a definate atmosphere in this city that speaks of dejection and
+approaching war. The citizens looks extremely fightened and the warriors 
+are busy sharpening and shinning their weapons and armour. You begin to wonder
+who they may be fighting and why. Maybe you will find the answer here.
+~
+48 64 1
+D0
+You see an old man shinning his son's armour
+~
+~
+0 -1 4875
+D1
+You see several young children squabbling
+~
+~
+0 -1 4889
+D2
+You see two warriors talking ernestly
+~
+~
+0 -1 4897
+D3
+You see two warriors talking ernestly
+~
+~
+0 -1 4887
+S
+#4889
+City of Troy~
+As you wall through the streets of Troy you hear the citizens whispering about a
+beautiful maiden who is here in the city. In the same breath they whisper 
+about the approaching war and how they wish she was never brought here.
+~
+48 64 1
+D0
+You see two warriors talking ernestly
+~
+~
+0 -1 4876
+D1
+You see an old man shinning his son's armour
+~
+~
+0 -1 4890
+D2
+You see a young maiden weeping loudly
+~
+~
+0 -1 4898
+D3
+You see several children playing in the streets
+~
+~
+0 -1 4888
+S
+#4890
+City of Troy~
+There is a definate atmosphere in this city that speaks of dejection and
+approaching war. The citizens looks extremely fightened and the warriors 
+are busy sharpening and shinning their weapons and armour. You begin to wonder
+who they may be fighting and why. Maybe you will find the answer here.
+You are in the City of Troy.  The city has been ravaged by war but has stood
+up well to the many years of punnishment it has endured.
+~
+48 64 1
+D0
+You see several children playing in the streets
+~
+~
+0 -1 4877
+D1
+You see an old man shinning his son's armour
+~
+~
+0 -1 4891
+D2
+You see a young women drawing water from a well
+~
+~
+0 -1 4899
+D3
+You see a young maiden selling pots and pans
+~
+~
+0 -1 4889
+S
+#4891
+City of Troy~
+You are in the City of Troy.The city has been ravaged by war but has stood
+up well to the many years of punnishment it has endured. There is a definate
+atmosphere in the air of oncoming war. The citizens are rushing about their
+chores in a frightened manner and the warrior are diligently sharpening their 
+weapons. You hear a whiper in the air of a beautiful women who has caused this
+strife and you wonder just how beautiful she really is.
+~
+48 64 1
+D0
+You see a young maiden selling pots and pans
+~
+~
+0 -1 4878
+D3
+You see a young women drawing water from a well
+~
+~
+0 -1 4890
+S
+#4892
+Mount Olympus~
+As you stand on a level section of the legendary Mount Olympus you see 
+the beautiful white clouds that go billowing past you. If this thick 
+cloud cover would clear the view from this section of the mountain would 
+be absolutely incredible. It has been told that on this mountain resides 
+a great god, that no mortal man can defeat and you wonder if you will 
+~
+48 64 4
+D0
+Mount Olympus
+~
+~
+0 -1 4879
+D1
+Mount Olympus
+~
+~
+0 -1 4893
+S
+#4893
+Mount Olympus~
+You are climbing at the top of the legendary Mount Olympus.  Things seem
+quite peaceful from where you stand.  It is told that great gods live here
+on this mountain.  Gods of ultimate power and limited patience that would be
+best not to test. As you look around you see a break in the clouds and an
+incredible view of the City of Troy is visible below.
+~
+48 64 4
+D0
+Mount Olympus
+~
+~
+0 -1 4880
+D1
+Mount Olympus
+~
+~
+0 -1 4894
+D3
+Mount Olympus
+~
+~
+0 -1 4892
+S
+#4894
+Mount Olympus~
+You are climbing at the top of the legendary Mount Olympus.  Things seem
+quite peaceful from where you stand.  It is told that great gods live here
+on this mountain.  Gods of ultimate power and limited patience that would be
+best not to test. Looking south you see a great god who rules over everyone
+below him.
+~
+48 64 4
+D0
+Mount Olympus
+~
+~
+0 -1 4881
+D1
+Throne of Zeus
+~
+~
+0 -1 4895
+D3
+Mount Olympus
+~
+~
+0 -1 4893
+S
+#4895
+Throne of Zeus~
+Here is the throne of Zeus.  King of the gods.  From here you can see heaven
+and earth from under a canopy of clouds. This is a place where decisions 
+are made and are not negotiable.  All law made here is mans law and is 
+abided without argument.
+~
+48 64 4
+D0
+Mount Olympus
+~
+~
+0 -1 4882
+D3
+Mount Olympus
+~
+~
+0 -1 4894
+S
+#4896
+City of Troy~
+You are in the City of Troy.  The city has been ravaged by war but has 
+stood up with amazing strength.  The people who live here must feel very
+safe that they will never be penetrated.
+~
+48 64 1
+D0
+You see a burly warrior putting on his armour
+~
+~
+0 -1 4887
+D1
+You see an old man whittling some driftwood
+~
+~
+0 -1 4897
+S
+#4897
+City of Troy~
+As you wall through the streets of Troy you hear the citizens whispering about a
+beautiful maiden who is here in the city. In the same breath they whisper about the
+approaching war and how they wish she was never brought here.
+~
+48 64 1
+D0
+You see an old man whittling some driftwood
+~
+~
+0 -1 4888
+D1
+You see a burly warrior putting on his armour
+~
+~
+0 -1 4898
+D3
+You see several children fighting in the street
+Troy~
+~~
+0 -1 4896
+S
+#4898
+City of Troy~
+You are in the City of Troy.The city has been ravaged by war but has stood
+up well to the many years of punnishment it has endured. There is a definate
+atmosphere in the air of oncoming war. The citizens are rushing about their
+chores in a frightened manner and the warriors are diligently sharpening 
+their weapons. You hear a whisper in the air of a beautiful women who has 
+caused this strife and you wonder just how beautiful she really is.
+~
+48 64 1
+D0
+You see several children fighting in the street
+~
+~
+0 -1 4889
+D1
+You see several children fighting in the street
+~
+~
+0 -1 4899
+D3
+You see an old man whittling some driftwood
+~
+~
+0 -1 4897
+S
+#4899
+City of Troy~
+You are in the City of Troy.The city has been ravaged by war but has stood
+up well to the many years of punnishment it has endured. There is a definate
+atmosphere in the air of oncoming war. The citizens are rushing about their
+chores in a frightened manner and the warrior are diligently sharpening their 
+weapons. You hear a whiper in the air of a beautiful women who has caused this
+strife and you wonder just how beautiful she really is. Maybe if you open the
+large ornate door to your east you will find out.
+~
+48 64 1
+D0
+The wide streets of Troy
+~
+~
+0 -1 4890
+D1
+Looking east you see a ornate door leading into a small room
+~
+door~
+2 4818 4900
+D3
+You see an old man whittling some driftwood
+~
+~
+0 -1 4898
+S
+#4900
+Small room~
+You are standing in a small room that is slightly hidden in the City of Troy.
+Before you stands the most beautiful women you have ever seen. You can understand
+now why men will go to war over her and risk their lives. You would do exactly the
+same thing yourself. She has definatly been blessed by the Gods. 
+~
+48 64 1
+D3
+The streets of Troy
+~
+door~
+1 0 4899
+S
+#4901
+The Labyrinth~
+You are standing in the Labyrinth.  You are a bit confused as to where it goes as the rooms
+seem to loop around each other and you keep ending up where you started.
+~
+48 261 0
+D5
+The confusing Labyrinth
+~
+~
+0 0 4902
+S
+#4902
+The Labyrinth~
+You are standing in the Labyrinth.  You are a bit confused as to where it goes.
+~
+48 261 0
+D3
+You see a maze of rooms
+~
+~
+0 0 4901
+D5
+The Labyrinth looks similar no matter where you look
+~
+~
+0 0 4903
+S
+#4903
+The Labyrinth~
+As you walk through the labyrinth you quickly become confused as to which way
+you should travel. Maybe you should start dropping breadcrumbs on the floor
+so you don't loose your way. Whatever you decide you better do it soon before you
+become hoplessly lost
+~
+48 65 0
+D1
+You see a maze of rooms that looks similar no matter where you look
+~
+~
+0 0 4904
+D3
+You see a maze of rooms
+~
+~
+0 0 4902
+S
+#4904
+The Labyrinth~
+You are standing in the Labyrinth.  You are a bit confused as to where it goes.
+~
+48 65 0
+D0
+You see a maze of rooms
+~
+~
+0 0 4901
+D2
+You see a maze of rooms
+~
+~
+0 0 4903
+D5
+You see a maze of rooms
+~
+~
+0 0 4905
+S
+#4905
+The Labyrinth~
+As you walk through the labyrinth you quickly become confused as to which way
+you should travel. Maybe you should start dropping breadcrumbs on the floor
+so you don't loose your way. Whatever you decide you better do it soon before you
+become hoplessly lost.
+~
+48 65 0
+D0
+You see a maze of rooms
+~
+~
+0 0 4904
+D2
+You see a maze of rooms
+~
+~
+0 0 4905
+D3
+You see a maze of rooms
+~
+~
+0 0 4906
+S
+#4906
+The Labyrinth~
+You are standing in the Labyrinth.  You are a bit confused as to where it goes. 
+You have made it this far but now it becomes even more confusing with few to no 
+clues as which way you should head. You heard a rumour that there is a horrible
+beast at the end of the labyrinth who you aren't sure you wanted to meet up with
+anyway. Maybe it is for the best if you can't find your way through here.
+~
+48 65 0
+D0
+You see a maze of rooms but this looks like it is the right direction
+~
+~
+0 0 4907
+D4
+You see a maze of rooms
+~
+~
+0 0 4905
+S
+#4907
+The Labyrinth~
+You are standing in the Labyrinth.  You are a bit confused as to where it goes.
+~
+48 65 0
+D2
+You see a maze of rooms
+~
+~
+0 0 4906
+D3
+You see a maze of rooms
+~
+~
+0 0 4901
+D4
+You see a maze of rooms but this looks like it might be the right way
+~
+~
+0 0 4908
+S
+#4908
+The Labyrinth~
+You are standing in the Labyrinth.  You are a bit confused as to where it goes.
+~
+48 65 0
+D0
+You see a maze of rooms
+~
+~
+0 0 4908
+D1
+You see a maze of rooms but this could be the right direction
+~
+~
+0 0 4909
+D3
+You see a maze of rooms
+~
+~
+0 0 4902
+S
+#4909
+The Labyrinth~
+You are standing in the Labyrinth.  You are a bit confused as to where it goes.
+~
+48 65 0
+D0
+You see a maze of rooms
+~
+~
+0 0 4901
+D1
+You see a maze of rooms
+~
+~
+0 0 4901
+D2
+You see a maze of rooms
+~
+~
+0 0 4901
+D3
+You see a maze of rooms
+~
+~
+0 0 4901
+D4
+You see a maze of rooms
+~
+~
+0 0 4901
+D5
+Looking down you see a small trap door
+~
+trapdoor~
+2 0 4910
+S
+#4910
+The Labyrinth~
+You are standing in the heart of the Labyrinth where a large vicious 
+Minotaur lives.  At this point it would be safer for you to flee as he is
+a vicious creature that resents your presence in his abode.
+~
+48 67108929 0
+D4
+Looking up you see the maze of rooms
+~
+~
+2 0 4909
+S
+#4911
+Tartarus~
+This is a terrible place.  How did you come across this?  This is a place where
+everyone goes when they die. It is hot and suffocating.  In the distance you
+can see volcano's and boiling seas.  This isnt a good place to stay.
+~
+48 65 256
+D2
+Tartarus
+~
+~
+0 0 4914
+S
+#4912
+Tartarus~
+This is a terrible place.  How did you come across this?  This is a place where
+everyone goes when they die. It is hot and suffocating.  In the distance you
+can see volcano's and boiling seas.  This isnt a good place to stay.
+~
+48 65 256
+D1
+Tantarus
+~
+~
+0 0 4913
+D2
+Tantarus~
+~
+0 0 4915
+S
+#4913
+Tartarus~
+This is a terrible place.  How did you come across this?  This is a place where
+everyone goes when they die. It is hot and suffocating.  In the distance you
+can see volcano's and boiling seas.  This isnt a good place to stay.
+~
+48 65 256
+D1
+Tartarus
+~
+~
+0 0 4914
+D2
+Tartarus
+~
+~
+0 0 4916
+D3
+Tartarus
+~
+~
+0 0 4912
+S
+#4914
+Tartarus~
+This is a terrible place.  How did you come across this?  This is a place where
+everyone goes when they die. It is hot and suffocating.  In the distance you
+can see volcano's and boiling seas.  This isnt a good place to stay.
+~
+48 65 256
+D0
+Tartarus
+~
+~
+0 0 4911
+D2
+Tartarus
+~
+~
+0 0 4917
+D3
+Tartarus
+~
+~
+0 0 4913
+S
+#4915
+Tartarus~
+This is a terrible place.  How did you come across this?  This is a place where
+everyone goes when they die. It is hot and suffocating.  In the distance you
+can see volcano's and boiling seas.  This isnt a good place to stay.
+~
+48 65 256
+D0
+Tartarus
+~
+~
+0 0 4912
+D1
+Tartarus
+~
+~
+0 0 4916
+S
+#4916
+Tartarus~
+This is a terrible place.  How did you come across this?  This is a place where
+everyone goes when they die. It is hot and suffocating.  In the distance you
+can see volcano's and boiling seas.  This isnt a good place to stay.
+~
+48 65 256
+D0
+Tartarus
+~
+~
+0 0 4913
+D1
+Tartarus
+~
+~
+0 0 4917
+D3
+Tartarus
+~
+~
+0 0 4915
+S
+#4917
+Tartarus~
+This is a terrible place.  How did you come across this?  This is a place where
+everyone goes when they die. It is hot and suffocating.  In the distance you
+can see volcano's and boiling seas.  This isnt a good place to stay.
+~
+48 65 256
+D0
+Tartarus
+~
+~
+0 0 4914
+D2
+Tartarus
+~
+~
+0 0 4918
+D3
+Tartarus
+~
+~
+0 0 4916
+S
+#4918
+Tartarus~
+This is a terrible place.  How did you come across this?  This is a place where
+everyone goes when they die. It is hot and suffocating.  In the distance you
+can see volcano's and boiling seas.  This isnt a good place to stay.
+There is a sign on the rock face. And as you look up you see a small opening.
+~
+48 65 256
+D0
+Tantarus
+~
+~
+0 0 4917
+D4
+Looking up you see a small trapdoor 
+~
+trap~
+2 4817 4892
+E
+sign~
+
+	If you die here, GOOD!.  That was what you were sent here for.
+	
+	
+	       	I thank all who helped me with this zone.
+	    
+             Most importantly Cassandra, Vader, Nightwolf and 
+	     thanks to Drax who put up with all my stupidity.
+
+
+~					
+S
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

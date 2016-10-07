@@ -1,0 +1,10 @@
+2
+cl
+20
+cast 'cure light' $*
+1
+2
+fa
+8
+first $*
+1

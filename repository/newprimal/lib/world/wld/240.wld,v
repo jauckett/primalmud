@@ -1,0 +1,1366 @@
+head	1.1;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.10.14.01.01.34;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@#24000
+Entrance to Mos Eisley~
+You are standing at the end of the road leading out of Mos Eisley into the
+hot desert of Tatooine. There are many dangers in the desert and it is said
+that somewhere in the desert is Jabba the Hutt's palace, so you had better
+be prepared for the heat and any trouble you may find. To the west is
+Mos Eisley star port. A trail goes out into the desert to the east.
+~
+240 0 2
+D1
+You see the desert.
+~
+east~
+0 0 24001
+D3
+You see Mos Eisley space port.
+~
+west~
+0 0 25005
+S
+#24001
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24002
+D3
+You see the end of a road.
+~
+west~
+0 0 24000
+S
+#24002
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24003
+D3
+You see the desert.
+~
+west~
+0 0 24001
+S
+#24003
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go south and west.
+~
+240 0 130
+D2
+You see the desert.
+~
+south~
+0 0 24004
+D3
+You see the desert.
+~
+west~
+0 0 24002
+S
+#24004
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24003
+D2
+You see the desert.
+~
+south~
+0 0 24005
+S
+#24005
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go north, south and east.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24004
+D1
+You see the desert.
+~
+east~
+0 0 24006
+D2
+You see the desert.
+~
+south~
+0 0 24008
+S
+#24006
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24007
+D3
+You see the desert.
+~
+west~
+0 0 24005
+S
+#24007
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go east and west and directly to your south you see a
+large mine.
+~
+240 0 130
+DO
+You see the a large mine.
+~
+~
+0 0 29001
+D1
+You see the desert.
+~
+east~
+0 0 24007
+D3
+You see the desert.
+~
+west~
+0 0 24006
+S
+#24008
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24005
+D2
+You see the desert.
+~
+south~
+0 0 24009
+S
+#24009
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go north, south and east.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24008
+D1
+You see the desert.
+~
+east~
+0 0 24010
+D2
+You see the desert.
+~
+south~
+0 0 24012
+S
+#24010
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24011
+D3
+You see the desert.
+~
+west~
+0 0 24009
+S
+#24011
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24011
+D3
+You see the desert.
+~
+west~
+0 0 24010
+S
+#24012
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24009
+D2
+You see the desert.
+~
+south~
+0 0 24013
+S
+#24013
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go north, south and west.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24012
+D2
+You see the desert.
+~
+south~
+0 0 24016
+D3
+You see the desert.
+~
+west~
+0 0 24014
+S
+#24014
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24013
+D3
+You see the desert.
+~
+west~
+0 0 24015
+S
+#24015
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24014
+D3
+You see the desert.
+~
+west~
+0 0 24015
+S
+#24016
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail leading through the desert.
+The trail seems to go north and west. There is a trail of foot prints going
+south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24013
+D2
+You see the desert.
+~
+south~
+0 0 24017
+D3
+You see the desert.
+~
+west~
+0 0 24019
+S
+#24017
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a strange trail of foot prints. The trail goes
+north and east.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24016
+D1
+You see the desert.
+~
+east~
+0 0 24018
+S
+#24018
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a strange trail of foot prints. The trail seems 
+to have led you to a small stairway leading down into underground caves, and
+proably a hide out for Tuskan Radiers. You can also go west.
+~
+240 0 130
+D3
+You see the desert.
+~
+west~
+0 0 24017
+D5
+You see a small stairway.
+~
+down~
+0 0 24046
+S
+#24019
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24020
+D2
+You see the desert.
+~
+south~
+0 0 24016
+S
+#24020
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north, south and west.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24021
+D2
+You see the desert.
+~
+south~
+0 0 24019
+D3
+You see the desert.
+~
+west~
+0 0 24036
+S
+#24021
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24022
+D2
+You see the desert.
+~
+south~
+0 0 24020
+S
+#24022
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24023
+D2
+You see the desert.
+~
+south~
+0 0 24021
+S
+#24023
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go south and west.
+~
+240 0 130
+D2
+You see the desert.
+~
+south~
+0 0 24022
+D3
+You see the desert.
+~
+west~
+0 0 24024
+S
+#24024
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go south, east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24023
+D2
+You see the desert.
+~
+south~
+0 0 24025
+D3
+You see the desert.
+~
+west~
+0 0 24027
+S
+#24025
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go south.
+~
+240 0 130
+D2
+You see the desert.
+~
+south~
+0 0 24026
+S
+#24026
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north, south and west.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24025
+D2
+You see the desert.
+~
+south~
+0 0 24030
+D3
+You see the desert.
+~
+west~
+0 0 24029
+S
+#24027
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24024
+D2
+You see the desert.
+~
+south~
+0 0 24028
+S
+#24028
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24027
+D2
+You see the desert.
+~
+south~
+0 0 24029
+S
+#24029
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and east.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24028
+D1
+You see the desert.
+~
+east~
+0 0 24026
+S
+#24030
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and west.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24026
+D3
+You see the desert.
+~
+west~
+0 0 24031
+S
+#24031
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go south and east.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24030
+D2
+You see the desert.
+~
+south~
+0 0 24032
+S
+#24032
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24031
+D2
+You see the desert.
+~
+south~
+0 0 24033
+S
+#24033
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and east.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24032
+D1
+You see the desert.
+~
+east~
+0 0 24034
+S
+#24034
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north, west and east.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24035
+D1
+You see the desert.
+~
+east~
+0 0 24037
+D3
+You see the desert.
+~
+west~
+0 0 24033
+S
+#24035
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24036
+D2
+You see the desert.
+~
+south~
+0 0 24034
+S
+#24036
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go south.
+~
+240 0 130
+D2
+You see the desert.
+~
+south~
+0 0 24035
+S
+#24037
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go south and west.
+~
+240 0 130
+D2
+You see the desert.
+~
+south~
+0 0 24038
+D3
+You see the desert.
+~
+west~
+0 0 24034
+S
+#24038
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and west.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24037
+D3
+You see the desert.
+~
+west~
+0 0 24039
+S
+#24039
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go south and east.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24038
+D2
+You see the desert.
+~
+south~
+0 0 24040
+S
+#24040
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and south.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24039
+D2
+You see the desert.
+~
+south~
+0 0 24041
+S
+#24041
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go north and west.
+~
+240 0 130
+D0
+You see the desert.
+~
+north~
+0 0 24040
+D3
+You see the desert.
+~
+west~
+0 0 24042
+S
+#24042
+The Desert of Tatooine~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. The sand seems to go out in all directions 
+forever as you stumble along a vague trail through the desert. The trail seems
+to go east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24041
+D3
+You see the desert.
+~
+west~
+0 0 24043
+S
+#24043
+Trail to Jabba's Palace~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. Up ahead on this path you can see a large
+building. Could this be Jabba the Hutt's hidden palace? You had better be 
+prepared for trouble if you plan to continue...
+The trail goes east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24042
+D3
+You see the desert.
+~
+west~
+0 0 24044
+S
+#24044
+Trail to Jabba's Palace~
+You are walking through the hot desert of Tatooine. The heat is almost
+unbearable as it beats down on you. Up ahead on this path you can see a large
+building. Could this be Jabba the Hutt's hidden palace? You had better be 
+prepared for trouble if you plan to continue...
+The trail goes east and west.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24043
+D3
+You see the desert.
+~
+west~
+0 0 24045
+S
+#24045
+Entrance to Jabba's Palace~
+You are standing before the large door that leads into Jabba's palace. 
+You find it very strange that the large door is open but this will make it very
+easy for you to get inside. You have heard alot of stories about what happens
+to Jabba's unwanted guests but you are hardly an unwanted guest... are you?
+The entrance is to the west, or a trail leads back into the desert to the east.
+~
+240 0 130
+D1
+You see the desert.
+~
+east~
+0 0 24044
+D3
+You see the desert.
+~
+west~
+0 0 26000
+S
+#24046
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+You can go up back to the desert or south into the caves.
+~
+240 0 0
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24047
+D4
+You see the hot desert.
+~
+up~
+0 0 24018
+S
+#24047
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and south from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24046
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24048
+S
+#24048
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and south from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24047
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24049
+S
+#24049
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north, south, east and west from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24048
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24050
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24064
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24054
+S
+#24050
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go east and west from here.
+~
+240 9 0
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24051
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24049
+S
+#24051
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go east and west from here.
+~
+240 9 0
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24052
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24050
+S
+#24052
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go east and west from here.
+~
+240 9 0
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24053
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24051
+S
+#24053
+Tuskan Raiders' Hideout~
+You are standing at the end of the tunnel. There seems to have been a
+cave in here which has blocked off the rest of this tunnel. It looks like
+one of the sand people was not fast enough to get out of the way
+of the cave in as there is an arm sticking out of the rubble here.
+The tunnel goes back to the west.
+~
+240 9 0
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24052
+S
+#24054
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and south from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24049
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24055
+S
+#24055
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and south from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24054
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24056
+S
+#24056
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and south from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24055
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24057
+S
+#24057
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and east from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24056
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24058
+S
+#24058
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go west and east from here.
+~
+240 9 0
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24059
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24057
+S
+#24059
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go west and east from here.
+~
+240 9 0
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24060
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24058
+S
+#24060
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go west and east from here.
+~
+240 9 0
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24061
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24059
+S
+#24061
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north, east and west from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24062
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24065
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24060
+S
+#24062
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and south from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24063
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24061
+S
+#24063
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and south from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24064
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24062
+S
+#24064
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go north and south from here.
+~
+240 9 0
+D0
+You see a dark tunnel.
+~
+north~
+0 0 24049
+D2
+You see a dark tunnel.
+~
+south~
+0 0 24063
+S
+#24065
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go east and west from here.
+~
+240 9 0
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24066
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24061
+S
+#24066
+Tuskan Raiders' Hideout~
+You are standing in the underground caves used by the Tuskan raiders of the 
+Tatooine desert as a hideout. These Tuskan Raiders, or sand people, are known
+to be extremely violent so you decide to continue very cautiously.
+The tunnels go east and west from here.
+~
+240 9 0
+D1
+You see a dark tunnel.
+~
+east~
+0 0 24067
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24065
+S
+#24067
+Tuskan Raiders' Hideout~
+You are standing in a large cave at the end of the underground tunnels.
+This seems to be where the sand people store all the things they steal from
+desert travelers. An amazing assortment of items line the walls of the cave.
+The tunnels go west from here.
+~
+240 9 0
+D3
+You see a dark tunnel.
+~
+west~
+0 0 24066
+S
+$~
+
+@

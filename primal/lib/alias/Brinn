@@ -1,0 +1,54 @@
+dv cast 'detect invisibility' self
+cl cast 'cure light' self
+cc cast 'cure critic' self
+sne sneak;affect
+pm put all.meat backpack
+mel get melon force;eat melon
+pr put all.red force
+exf examine force
+wa wake;stand
+infra c 'infravision' self
+mis c 'magic missile' $*
+ea eat apple
+sum tell gamina summon
+ds drink skin
+x exp
+$$ gold
+g$$c get gold corpse
+sanc tell gamina sanc
+bless tell gamina bless
+armor tell gamina armor
+f flee
+gac get all corpse
+all tell gamina sanc; tell gamina armor; tell gamina bless
+hey gos hey $*
+sl sleep
+exb examine backpack
+ed get hotdog backpack;eat hotdog
+burn cast 'burning hands' $*
+le look executioner
+exc examine corpse
+plain get plain force;recite plain self
+ornate get ornate force;recite plain $*
+brac get all.bracelet force;wear all.bracelet
+nobrac rem all.bracelet;put all.bracelet force
+gc get corpse
+jc junk corpse
+ag assist gambet
+qr get red backpack;quaff red
+qw get white backpack;quaff white
+4 buy 4 white;put all.white backpack
+2 buy 2 recall;put all.recall backpack
+id get identify backpack;recite identify $*
+pw put all.white backpack
+6 buy 6 red;put all.red backpack
+3 buy 3 identify;put all.identify backpack
+rr get recall backpack;recite recall self
+pb put all.bread backpack
+eb get bread backpack;eat bread
+em get meat backpack;eat meat
+ghey gos hey $* :)
+later gos later $* :)
+eld rem drum;hold elder;use elder self;rem elder;hold drum
+chaos rem drum;hold chaos;use chaos $*;rem chaos;hold drum
+bs rem sword;wi super;backstab$*;rem super;wi sword

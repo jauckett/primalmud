@@ -1,0 +1,77 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@pw put all.water field
+bh cast 'burning hands'
+gu wake;stand;n
+cc cast 'cure critic'
+bi buy identify
+ss sell sword
+br buy red
+bl cast 'bless'
+ud unlock door;open door
+mm cast 'magic missile'
+db donate bandanna
+gc get all corpse
+lm look map
+sc score
+qp quaff potion
+bm buy #7
+km kill mummy
+og open gate
+ri recite identify
+ra remove aqua;put aqua in back
+ct cast 'chill touch'
+bw buy white
+in cast 'infravision'
+wa wear all
+ww cast 'word of recall'
+lf look in field
+ws remove vorpal;get soaker from field;wield soaker;put vorpal in field
+wv remove soaker;get vorpal from field;wield vorpal;put soaker in field
+dw get skin from field;drink water;put skin in field
+pp put all.red field;put all.white field
+gw get white from field;quaff white
+gk get key from field
+rr get recall from field;recite recall
+pk put key in field
+pm put all.meat in field
+gr get red from field;quaff red
+em get meat from field;eat meat
+ps put scroll field
+gs get scroll from field
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

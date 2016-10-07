@@ -1,0 +1,9 @@
+cl c 'cure light' $1
+sl sleep
+wak wake; stand
+r rec recall
+rs rec recall
+tidy get all.corpse; junk all.corpse
+g gos $*
+ac assist cal
+gac get all all.corpse

@@ -1,0 +1,1198 @@
+#2101
+A narrow path~
+   You are on an thickly overgrown narrow trail heading into the forest.  The
+forest to the North and South is impasable, forcing you to the East.  You can
+head back East to Gambol Road or continue further into the forest to the West.
+  
+~
+21 0 3 0
+D1
+You see the intersection of Ershteep and Gambol Road&n
+~
+~
+0 -1 1175
+D3
+~
+~
+0 0 2102
+S
+#2102
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the North and South is impasable, forcing you to take the path to
+the East.  You can head East out of the forest or continue further into the
+forest to the West
+~
+21 c 3 0
+D1
+~
+~
+0 0 2101
+D3
+~
+~
+0 0 2103
+S
+#2103
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the North and South is impasable, forcing you to take the path to
+the East.  You can head East or West along the path.    
+~
+21 0 3 0
+D1
+~
+~
+0 0 2102
+D3
+A trail through the forest.
+~
+~
+0 -1 2104
+S
+#2104
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the North and East is impasable, forcing you to take the path to
+the South.  You can head South deeper into the forest, or East along the path
+from where you en
+~
+21 d 0 0
+D1
+~
+~
+0 0 2103
+D2
+~
+~
+0 0 2105
+E
+painting picture~
+   A wonderfully crafted oil which depicts a scene outside a
+jewellers in a busy city street.
+~
+E
+lock grate~
+   A lock made of a fine metal seems to be locking the grate in
+place.
+~
+E
+fireplace~
+   It looks like an ordinary fireplace but then a lock on the
+grate catches your eye. You have a distinct feeling they key is
+not here!
+~
+S
+#2105
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the East and West is impasable, forcing you to take the path to
+the South.  You can head South deeper into the forest, or North along the path
+from where you en
+~
+21 0 3 0
+D0
+~
+~
+0 0 2104
+D2
+~
+~
+0 0 2106
+S
+#2106
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the East and West is impasable, forcing you to take the path to
+the South.  You can head South deeper into the forest, or North along the path
+from where you en
+~
+21 0 3 0
+D0
+More trail
+~
+~
+0 -1 2105
+D2
+~
+~
+0 0 2107
+S
+#2107
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the South and West is impasable, forcing you to take the path to
+the East.  You can head East deeper into the forest, or North along the path
+from where you ent
+~
+21 0 5 0
+D0
+~
+~
+0 0 2106
+D1
+~
+~
+0 0 2108
+S
+#2108
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the South and West is impasable, forcing you to take the path to
+the East.  You can head deeper East or head back out to the West.    
+~
+21 p 5 0
+D1
+~
+~
+0 0 2109
+D3
+A field
+~
+~
+0 -1 2107
+S
+#2109
+A narrow path~
+   You are above the entrance to a huge bullant nest!  Judging by the sheer
+size of the entrance you think this used to be a wombat burrow.  The forest to
+the North and South is impasable, forcing you to take the path to the East.  
+You can head South deepe
+~
+21 0 3 0
+D2
+~
+~
+0 0 2110
+D3
+~
+~
+0 0 2108
+D5
+~
+~
+0 0 2134
+S
+T 2113
+#2110
+A narrow path~
+   You are on an thickly overgrown narrow trail heading deeper into the forest.
+The forest to the East and West is impasable, forcing you to take the path to
+the South.  You can head South deeper into the forest, or back out to the
+North.    
+~
+21 p 3 0
+D0
+A road
+~
+~
+0 -1 2109
+D2
+A road
+~
+~
+0 -1 2111
+S
+#2111
+End of a narrow path~
+   You are in an open grassy area deep in the forest, surrounded by vastly
+overgrown fauna.  The forest to the South, East and West is impassable.  A HUGE
+tree stands to the East, towering over the forest around you.  You can either
+head back out of the forest to the North, or try to find a way up this HUGE
+tree before you.    
+~
+21 p 3 0
+D0
+The city.
+~
+~
+0 -1 2110
+D1
+~
+entrance~
+1 0 2112
+E
+moat~
+You look into the murky water below you and surmise that
+jumping in there would not be a wise thing to do. A number of
+rather heavy objects seem to be floating on the surface!
+~
+S
+#2112
+Inside the tree~
+   You are inside the huge tree which has been carefully carved out to allow
+movement inside.  The core of the tree remains intact keeping it alive.  The
+solid wooden door to the East keeps this place secure when required, and keeps
+in the heat in winter.  There is a spiral staircase leading up to another level
+inside the tree.    
+~
+21 cd 0 0
+D3
+~
+exit~
+1 0 2111
+D4
+~
+~
+0 0 2119
+E
+door~
+A narrow wooden door with a rusted keyhole.
+~
+S
+#2113
+Entertainment foyer~
+   You have entered the entertainment foyer of the tree.  Card and board games
+are only the start of the selection of activities available.  A mini cinema
+lies to the East while a general store lies to the West.  The spiral staircase
+continues upwards to yet another level, and back down to the foyer
+~
+21 d 0 0
+D1
+The city gates
+~
+~
+0 -1 2114
+D3
+~
+~
+0 0 2115
+D4
+~
+~
+0 0 2116
+D5
+~
+~
+0 0 2119
+S
+#2114
+Tree cinema~
+   You are inside a hollowed out branch in the tree that has been converted
+into a mini cinema for the locals.  There is enough room for 10 persons to sit
+here comfortably without blocking eachothers view.  Why don't you stay for a
+movie!    
+~
+21 d 0 0
+D3
+~
+~
+0 0 2113
+S
+#2115
+General store~
+   You are in the general store of the tree city, where a number of items area
+available for purchase.    
+~
+21 d 0 0
+D1
+~
+~
+0 0 2113
+S
+#2116
+Below the sleeping quarters~
+   You are on the spiral staircase leading upto the sleeping quarters of the
+tree.    
+~
+21 d 0 0
+D4
+~
+~
+0 0 2117
+D5
+~
+~
+0 0 2113
+E
+door~
+A narrow wooden door with a rusted keyhole.
+~
+S
+#2117
+Outside the Sleeping quarters~
+   You are outside the sleeping quarters of the tree.  There are three doors,
+one to the North, one to the East and one to the West.    
+~
+21 d 0 0
+D0
+~
+Door2~
+1 0 2129
+D1
+~
+Door3~
+1 0 2130
+D3
+~
+Door1~
+1 0 2128
+D5
+~
+~
+0 0 2116
+S
+T 2107
+#2118
+Inside the tree~
+   You are inside this huge tree in the middle of the forest.  It has been
+carved out enough to be able to move about freely inside, yet without killing
+the tree.  The centre core of the tree remains intact, allowing it to survive.
+You are able to exit the tree to the North or venture upwards and explore.    
+~
+21 0 0 0
+D0
+~
+Entrance~
+1 0 2117
+D4
+~
+~
+0 0 2119
+S
+#2119
+Tree foyer~
+   You are inside this huge tree in the middle of the forest.  It has been
+carved out enough to be able to move about freely inside, yet without killing
+the tree.  The centre core of the tree remains intact, allowing it to survive.
+This is the junction for access to the eating area for the inhabitants of the
+tree.  A small bar is here to the West and a kitchen is to the North.  To the
+East lies a wooden door leading outside.  The spiral staircase continues
+upwards to yet another level inside the tree.    
+~
+21 0 0 0
+D0
+~
+~
+0 0 2123
+D1
+~
+Door~
+1 0 2120
+D3
+~
+~
+0 0 2122
+D4
+~
+~
+0 0 2113
+D5
+~
+~
+0 0 2112
+S
+T 2112
+#2120
+On a huge branch~
+   You are out on one of the many huge branches of this tree overlooking the
+forest beneath.  You could sit here and enjoy the serenity.    
+~
+21 y 3 0
+D1
+Road
+~
+~
+0 -1 2121
+D3
+Entrance into the tree
+~
+Door~
+1 -1 2119
+S
+T 2111
+#2121
+On a huge branch~
+   You are further out on the huge branch of the tree, overlooking the forest
+beneath.  You could sit here and enjoy the serenity.    
+~
+21 y 3 0
+D1
+~
+~
+0 0 2124
+D3
+Road
+~
+~
+0 -1 2120
+S
+#2122
+The treebar~
+   Carved into a large branch this bar is quite amazing.  Lined with wooden
+panels and a wooden top, you'd want to sit here and enjoy a drink or two.    
+~
+21 0 0 0
+D1
+Road
+~
+~
+0 -1 2119
+S
+#2123
+The tree-in~
+   You are in the dining section of the tree-in, which has been carved into
+what you imagine to be another branch of the tree.  Tables line each side and
+there are a few customers enjoying a meal.    
+~
+21 0 0 0
+D2
+Road
+~
+~
+0 -1 2119
+S
+#2124
+On a huge branch~
+   You are quite far out on the huge branch of the tree unable to go out any
+further.  The forest beneath reveals a swamp.  Upon looking around you notice
+there is some kind of vine growing from this branch, hanging down into the
+swamp below.    
+~
+21 cy 3 0
+D3
+~
+~
+0 0 2121
+D5
+~
+~
+0 0 2125
+S
+T 2103
+#2125
+On the vine~
+   You are climbing on a vine that hangs from a huge tree branch above.  It is
+thick and strong and could possibly support two people without a worry.  You
+can head up to the branch above or climb down the vine to the swamp below.    
+~
+21 0 3 0
+D4
+~
+~
+0 0 2124
+D5
+~
+~
+0 0 2126
+S
+T 2101
+#2126
+On the vine~
+   You are climbing on a vine that hangs from a huge tree branch above.  It is
+thick and strong and could possibly support two people without a worry.  You
+can head up the vine to the branch above or climb down the vine to the swamp
+below.    
+~
+21 0 3 0
+D4
+~
+~
+0 0 2125
+D5
+~
+~
+0 0 2127
+E
+symbols~
+Strange symbols all in yellow and black are written on the walls. You have
+never seen anything like it before in your life. The strangest thing is
+that you seem to think the symbols say something important.
+~
+S
+T 2101
+#2127
+On the vine~
+   You are climbing on a vine that hangs from a huge tree branch high above.  
+It is thick and strong and could possibly support two people without a worry.
+You can head up the vine or head down into the swamp below.    
+~
+21 c 3 0
+D4
+~
+~
+0 0 2126
+D5
+~
+~
+0 0 3660
+S
+T 2101
+#2128
+Sleeping quarters - Room 1~
+   You are in one of the room designated for sleeping.  There is a small bed
+lined with a bedside table on each side.  A wardrobe stands to the South, and
+an ensuite lies to the North.  The only way out of here is to the East.    
+~
+21 d 0 0
+D0
+~
+Ensuite~
+1 0 2131
+D1
+~
+Door1~
+1 0 2117
+S
+T 2104
+#2129
+Sleeping quarters - Room 2~
+   You are in one of the room designated for sleeping.  There is a small bed
+lined with a bedside table on each side to the North.  A wardrobe stands to the
+West, and an ensuite lies to the East.  The only way out of here is to the
+South.    
+~
+21 d 0 0
+D1
+~
+Ensuite~
+1 0 2132
+D2
+Road
+~
+Door2~
+1 -1 2117
+S
+T 2105
+T 2108
+#2130
+Sleeping quarters - Room 3~
+   You are in one of the room designated for sleeping.  There is a small bed
+lined with a bedside table on each side to the East.  A wardrobe stands to the
+South, and an ensuite lies to the North.  The only way out of here is to the
+West.    
+~
+21 d 0 0
+D0
+~
+Ensuite~
+1 0 2133
+D3
+~
+Door3~
+1 0 2117
+E
+bones~
+The last remains of the weaponsmith.
+~
+S
+T 2106
+#2131
+Ensuite~
+   You are in a perfectly clean ensuite.  The polished floor boards, walls and
+ceiling give this room a very relaxed, peaceful feeling.  It contains a shower
+with a glass door and sides, a two person spa bath and vanity unit with a
+mirror.  The only exit is back into the bedroom to the South.    
+~
+21 d 0 0
+D2
+~
+Ensuite~
+1 0 2128
+S
+#2132
+Ensuite~
+   You are in a perfectly clean ensuite.  The polished floor boards, walls and
+ceiling give this room a very relaxed, peaceful feeling.  It contains a shower
+with a glass door and sides, a two person spa bath and vanity unit with a
+mirror.  The only exit is back into the bedroom to the West.    
+~
+21 d 0 0
+D3
+~
+Ensuite~
+1 0 2129
+S
+#2133
+Ensuite~
+   You are in a perfectly clean ensuite.  The polished floor boards, walls and
+ceiling give this room a very relaxed, peaceful feeling.  It contains a shower
+with a glass door and sides, a two person spa bath and vanity unit with a
+mirror.  The only exit is back into the bedroom to the South.    
+~
+21 de 0 0
+D2
+~
+Ensuite~
+1 0 2130
+S
+#2134
+Bullant nest entrance~
+   This huge hole leading to the bullant nest is amazing.  You can actually fit
+inside it as if it was originally inhabited by another animal, a much larger
+animal.    
+~
+21 agA 0 0
+D0
+~
+~
+0 0 2135
+D4
+~
+~
+0 0 2109
+E
+grate~
+It looks unlocked.
+~
+S
+#2135
+Bullant tunnel~
+   This huge hole leading to the bullant nest is amazing.  You can actually fit
+inside it as if it was originally inhabited by another animal, a much larger
+animal.  You wonder where it may really lead to.    
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2134
+D5
+~
+~
+0 0 2136
+S
+#2136
+Bullant tunnel~
+   You are continuing along the main tunnel leading even deeper into the Earth.
+  
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2137
+D4
+~
+~
+0 0 2135
+S
+#2137
+Main Bullant Tunnel~
+   You are continuing along the main tunnel leading even deeper into the Earth.
+Could this lead to the Queen bullant herself?    
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2136
+D5
+~
+~
+0 0 2138
+S
+#2138
+Main Bullant Tunnel~
+   You are continuing along the main tunnel leading even deeper down into the
+Earth.  You suspect you may be heading to a dangerous place as these guards are
+not here for no reason.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2137
+D5
+~
+~
+0 0 2139
+E
+tree~
+Why not go and take a closer look yourself?
+~
+S
+#2139
+Main Bullant Tunnel~
+   After fighting your way in you know your close to the main nest of the
+bullants.  Perhaps you should turn back before you get ahnialated and eaten to
+death as there are certainly going to be alot of bullants down here.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2138
+D5
+~
+~
+0 0 2140
+S
+#2140
+Before the nest chamber~
+   You can hear all the activity below and somehow manage to remain hidden from
+view.  The tunnel widens out like a funnel into what you imaging to be a HUGE
+underground chamber.  You really should get the hell out of here!    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2139
+D5
+~
+~
+0 0 2141
+S
+#2141
+Bullant chamber~
+   This section of the nest is huge.  It is like an underground city in
+darkness!  The number of tunnels feeding off here is amazing.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2146
+D3
+~
+~
+0 0 2142
+D4
+~
+~
+0 0 2140
+S
+#2142
+Bullant tunnel~
+   This tunnel is rather small considerng where is leads to.  It seems to be a
+very well used tunnel considering the size of it.    
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2141
+D3
+~
+~
+0 0 2143
+S
+#2143
+Bullant tunnel~
+   This tunnel is rather small considerng where is leads to.  It seems to be a
+very well used tunnel considering the size of it.    
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2142
+D5
+~
+~
+0 0 2144
+S
+#2144
+Bullant tunnel~
+   The tunnel heads even deeper and continues its size.  It seems to be a very
+well used tunnel considering the size of it....    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2143
+D5
+~
+~
+0 0 2145
+S
+#2145
+Bullant tunnel~
+   The tunnel comes to a sudden end.  Strange.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2144
+S
+#2146
+Bullant tunnel~
+   This tunnel you would assume to be a main tunnel to the Queen as the
+security here is overwhelming.  It seems to be a very well guarded, protecting
+the most important asset of the bullants.    
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2141
+D5
+~
+~
+0 0 2147
+S
+#2147
+Bullant tunnel~
+   The well guarded tunnel probably leading to the Queen ascends down deep,
+forbidding any exit back up from here, unless you can fly.  Protecting the most
+important asset of the bullants is their life duty.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2146
+D5
+~
+~
+0 0 2148
+S
+#2148
+Bullant tunnel~
+   The well guarded tunnel probably leading to the Queen ascends down even
+deeper, preventing any exit back up from here, unless you can fly.  Protecting
+what lies down here has been given careful thought.    
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2147
+D5
+~
+~
+0 0 2149
+S
+#2149
+Bullant tunnel~
+   The tunnel reveals an intersection.  You may opt to take the route down or
+to the West.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2150
+D4
+~
+~
+0 0 2148
+D5
+~
+~
+0 0 2152
+S
+#2150
+Minor bullant tunnel~
+   You have opted to take the smaller tunnel, probably a wiser choice if one
+were to head down into a bullant nest where the residents are 5 times larger
+then normal.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2151
+D2
+~
+~
+0 0 2149
+S
+#2151
+Minor bullant tunnel~
+   You are moving along another bullant tunnel
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2150
+D5
+~
+~
+0 0 2155
+S
+#2152
+Bullant Tunnel~
+   The tunnel becomes a straight drop and you slide down into the darnkess
+below....    
+~
+21 acdgi 0 0
+D4
+~
+~
+0 0 2149
+D5
+~
+~
+0 0 2153
+S
+T 2119
+#2153
+Bullant tunnel~
+   You slide down further into the darnkess below....    
+~
+21 ad 0 0
+D5
+~
+~
+0 0 2154
+E
+door~
+A plain wooden door
+~
+S
+T 2119
+#2154
+Bullant Chamber~
+   You land with a great thud and are stunned momentarily...  Where the hell
+are you?    
+~
+21 acd 0 0
+D0
+~
+~
+0 0 2158
+S
+T 2120
+#2155
+Bullant tunnel~
+   You are moving along another bullant tunnel
+~
+21 ad 0 0
+D3
+~
+~
+0 0 2156
+D4
+~
+~
+0 0 2151
+S
+#2156
+Bullant tunnel~
+   You are moving along another bullant tunnel
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2155
+D5
+~
+~
+0 0 2157
+E
+door~
+A plain wooden door
+~
+S
+#2157
+Bullant tunnel~
+   You are moving along another bullant tunnel
+~
+21 adg 0 0
+D3
+~
+~
+0 0 2175
+D4
+~
+~
+0 0 2156
+S
+#2158
+Bullant Chamber~
+   Deep underground and seemingly trapped you try to figure out where you have
+slipped down into.  Piles of bones and skulls lie against the walls of the
+tunnel to the North, East and West.  You must be close to to her!    
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2154
+D5
+~
+~
+0 0 2159
+S
+#2159
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D5
+~
+~
+0 -1 2160
+S
+#2160
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 ad 0 0
+D5
+~
+~
+0 0 2161
+S
+#2161
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2162
+S
+#2162
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 a 0 0
+D5
+~
+~
+0 0 2163
+S
+#2163
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 ad 0 0
+D5
+~
+~
+0 0 2164
+S
+#2164
+Breeding tunnel~
+   You are in the breeding tunnel where all the eggs laid by the Queen are
+transported via this tunnel to the hatching chamber.    
+~
+21 ad 0 0
+D0
+~
+~
+0 0 2165
+S
+#2165
+Breeding chamber~
+   You have reached the breeding chamber where all the eggs laid by the Queen
+are incubated until they hatch.    
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2166
+S
+T 2124
+#2166
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2167
+S
+#2167
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 d 0 0
+D4
+~
+~
+0 0 2168
+S
+#2168
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2169
+S
+#2169
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2170
+S
+#2170
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2171
+E
+map~
+A large map on the wall has the words 'Enfan Town' at the top. On the map
+you can see the layout of the Enfan town as well as scribbled notes attached
+detailing estimates of the Enfans forces and locations. Several sheets of 
+pinned paper at the bottom of the map detail the forces the fairies require
+in order to launch an attack on the Enfans.
+~
+S
+#2171
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D2
+~
+~
+0 0 2172
+S
+#2172
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2173
+S
+#2173
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2174
+S
+#2174
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D4
+~
+~
+0 0 2175
+S
+#2175
+Breeding area~
+   You are in the out tunnel of the bullant breeding chamber
+~
+21 ad 0 0
+D1
+~
+~
+0 0 2157
+S
+$~

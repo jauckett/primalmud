@@ -1,0 +1,13 @@
+#5 1
+Reception~
+599 10 2 0
+
+M 0 501 2 506           guards  loads up stuff (medieval)
+M 0 501 2 505                                  (future)
+O 0 910 1 501           newbie sign
+*M 0 502 3 501
+*M 0 502 3 500
+*M 0 502 3 504
+S
+#5
+$~

@@ -1,0 +1,143 @@
+================================================================================
+                                New Base TODO 
+================================================================================
+ 
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+ 
+                                PrimalMUD v3.0
+                    Revamped by Michael Dishon, Jason Theofiles,
+                   Justin Katz, Sandii Barrat and the many others.
+                Based on CircleMUD 3.17, created by Jeremy Elson, and
+               PrimalMUD 2.0, created by John Auckett and Brett Murphy.
+                                                                 
+================================================================================
+
+This file is kept under the repository at:
+newprimal/docs/primal/TODO
+
+If any changes are made and you do not have access to them, please contact 
+Dangermouse or Artus to have them updated. Further please note that this is a 
+text file, and if any changes are made, they should be saved as text only.
+
+Add names of emails if they dont exist here:
+-==========================================-
+Coders:
+-------
+karma@evilkarma.com             Artus
+mbdishon@optushome.com.au	Dangermouse
+tali@ains.net.au		Talisman
+
+Builders/Helpers:
+-----------------
+Shadow_apathy@hotmail.com	Amarok
+boz@thespark.com                Boz
+furst@eisa.net.au               Moridin
+tell.me@now!			Phoenix
+sandii@sandiis.com		Sandii
+slaving@sandiis.com		Stormbringer
+tell.me@now!			Telstar
+oztsd@eisa.net.au               Tsd
+
+Notes:
+-====-
+Colour codes for the personal colour system (see primalColours) should be used
+now where appropiate.
+
+If you feel like contributing or know anyone that does, email artus or myself, 
+and myself and I'm sure we'll find something for you to do.
+
+
+Legend:
+-=====-
+P1 - Must be done for release
+P2 - Would be nice to have done for release
+P3 - Can be done after release
+
+
+Coders:
+-------
+P1!(DM) score command - just fix up existing.
+P1 (DM)	Stat training to exp, not quest points - implement quest points
+	down the track ...
+P1 (DM)	corpse system testing - have seen it fuck up
+P1 (DM) Limit bank balance.
+P1 (DM)	Wait duration on lost concentration less
+     	> currently half a violence round - perhaps base it on character stat or
+        > the ability level of the spell...
+P1 (DM) Double check page code on easy colour
+      	> AR - tedit prob perhaps..?	
+P1 (DM)	Gun code
+P1 (DM) Death Trap detection for thieves 		
+	> check abnormalities - sometimes it comes up when it shoudln't?
+P1 (DM)	Reloading system (help, text files, vars etc...)
+	> check for new stuff
+P1 (DM)	Clones - 1. 2. 3. problem
+P1 (DM) Game Entering States
+	> check and update for existing help on classes/races 
+	> stat rolling, remove colour prompt?
+P1 (DM) Addition of all commands - check levels
+P3 (DM) Take out punishment reason stuff, keep channel ...
+P3 (DM)	Add field for ip and hostname - so they can be both displayed at the
+      	same time, as it does a reverse lookup on ip, can then verify the ip 
+
+P1 (AR) fight memory leak
+P1 (AR) Base bare hand and fight damage on char strength/applied str, dex
+	> DM has done, maybe balance with fight system
+P1 (AR) fight buf crap - Ompa Loompa stuff
+P1 (AR) colour bleed - may be because of fight buf problem ...
+P1 (AR) Change exp lost when killed, and gold (lose more gold, less exp)
+P1 (AR) Info commands - do something with newbie handbook
+P1 (AR) Immlist - check for bugs
+P1 (AR)	PK code - (exp, define - must talk about in meeting)
+      	- exp for pkilling
+      	- Champs frozen if level diff > 10, timer (aff) based on level diff.
+      	- Exemption for clan members avenging - store last clanid killed by.
+P1 (AR)	Set Commands - check restrictions/ranges
+P1 (AR)	Check class/race/remort modifiers (Keep an array of kills)
+P1 (AR) Disguise bugs
+P2 (AR)	(check) Mounts - breakin skill - make mounts cha dependent, add buck etc
+P2 (AR) olc del commands
+P2 (AR)	redo the fighting loop anyhow for compact fighting messages??:
+   	> eg: you hit xxx 4 times of 5 hits and cause 264 damage
+   	> or something like that?
+   	> not sure if it is possible, nice for easing some fight spam
+P3 (AR) Auction - random items (check talis existing code)
+
+P1 (All)help files (co-ordinated by Amarok)	
+P1 (All)spells and skills
+P2 (All)Update all code associated with personal colour system as required ...
+P3 (All)check define rules and policys (immort and mortal)
+P3 (All)Document all new features, changes in primalChanges
+	(P1) To include in some help file on live release
+
+P2 (?) 	Quest Log Code (add quest obj types)
+       	- restrict usage of quest eq to owners
+       	- search on player/objs for quest items
+       	- renaming of title of quest eq - keywords?
+P3 (?)	Extend voting idea - similar to web voting booth
+
+
+Builders:
+---------
+P1 (All)Spells and skills - ok we need a spreadsheet, major job!
+P1 (ROK)Commands command - just check unassigned and descrepencies
+P1 (ROK)Help files - coordinate and assign ... (blackout said he would help)
+	> All help files, incorporate colour
+	> Incorporate spell help to spells file
+P1 (SAN)Estate
+P1 (?) New Quest Eq, initially just modify existing stats
+P1 (?) Write help for classes and races
+
+P2 (All)Traps and hidden items	
+P2 (All)Add burgle rooms and other stuff tali has introduced
+	> poor/house/warehouse/rich stuff as it is ...
+P2 (?) Processing latest "typos", "ideas" and "bugs" file
+P2 (?) Update primal_building_doc - incorporate circle v3.0 building doc
+
+P3 (All)quest systems - ideas etc
+P3 (All)Punishment policy/rules?
+P3 (All)Socials text file typos, relevance

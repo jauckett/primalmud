@@ -1,0 +1,18 @@
+x c 'cure light
+id get identify field;recite identify $1
+rec get recall field;recite recall
+q get red field;quaff red
+p buy 10 $1;put all.$1 field
+dr2 get skin field;c 'create water' skin;put skin field
+dr get skin field;drink skin;drink skin;put skin field
+ea get all.meat field;eat meat;eat meat;put all.meat field
+1 cast 'magic missile' $1
+g get all all.corpse
+wa wake;stand
+sl sleep
+0 junk all.atlas
+tr train hit;train hit;train hit;train hit;train hit
+me c 'create food';eat mushroom
+sanc get white crate;quaff white
+2 cast 'lightning bolt' $1
+cha rem stick;wield blaster

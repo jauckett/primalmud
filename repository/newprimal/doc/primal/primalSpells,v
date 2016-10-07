@@ -1,0 +1,1331 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.12.01.03.34.21;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+Added:
+- Initial version of spells doc
+@
+text
+@================================================================================
+                                Primal Skills
+================================================================================
+ 
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+ 
+                                PrimalMUD v3.0
+                    Revamped by Michael Dishon, Jason Theofiles
+                               and Sandii Barrat
+                                                                 
+================================================================================
+
+********************************************************************************
+> Duration:               Instantaneous / <Time> / Automatic / random
+> Skill Type:             Neutral / Knowledge(pre-req) / Special / Attack
+> Affecting Stats:        dex/int/wis/con/cha/str/level
+>
+********************************************************************************
+> TODO - make it so that you cannot remove cursed items - you must have a
+>         remove curse spell placed upon the item.
+>      - decide whether we want to have damageable eq ...
+>      - I think it would be a nice feature ... then you have to either repair,
+>         or collect new eq which is badly damaged or destroyed.
+>      - decide whether we want to make spells skills trained to a certain
+value,
+>         and then mastered by use ... (another more interesting feature).
+>      - go through this list and check durations, affecting stats, and
+>         decide for classes.
+>
+> IDEAS - make powerful spells delay based (ie. takes some time to take affect
+> since cast)
+********************************************************************************
+>
+> SPELLS
+> ======
+>
+Anti-magic field.
+
+
+Casting time: 20 rounds.
+Spell cost: 500 SPs.
+Spell type: neutral.
+Spell words: 'chik chikky boom!'.
+Affecting stat: Wis.
+This spell will create a magical field that is
+known to disrupt all spellcasting in its vicinity.
+
+Barkskin.
+
+
+Casting time: 2 rounds.
+Spell cost: 101 SPs.
+Spell type: defensive.
+Spell words: 'I wanna be an ent'.
+This spell creates a protective layer of bark over the target's skin.
+The protection given depends on the caster's level and spell knowledge.
+
+Blizzard.
+
+
+Casting time: 5 rounds.
+Spell cost: 350 SPs.
+Spell type: area attack.
+Damage type: cold.
+Maximum damage: 1400.
+Spell words: 'cie tylscars'.
+Affecting stat: Level.
+This spell creates a biting cold wind, chilling everyone
+in the area to the bone unless they bundle up or are naturally
+resistant to cold.
+
+Casting time: 2 rounds.
+Spell cost: 2000 SPs.
+Spell type: area attack.
+Damage type: cold.
+Maximum damage: 1306.
+Spell words: 'BurrR froost vycolDd'.
+This spell causes a strong winter snow storm to surround the targets.
+Affecting stat: Level and Int
+
+Brain unpain.
+
+
+Casting time: 4 rounds.
+Spell cost: 0 SPs.
+Spell type: neutral.
+Spell words: 'tola pu niarbi'.
+This spell will increase the target's
+number of spell points. The duration of
+this spell is based on your wisdom. The
+strength and spell cost of the brain unpain
+is dependent on your spell percent.
+
+Brew Exilir's/Potions ...
+
+Call demonic armour.
+
+
+Casting time: 3 rounds.
+Spell cost: 100 SPs.
+Spell type: neutral.
+Spell words: 'Deemo argoth'.
+You can summon a nice demonic armour to protect your adventure.
+
+Call for sword.
+
+
+Casting time: 6 rounds.
+Spell cost: 0 SPs.
+Spell type: neutral.
+Spell words: 'Xeratox daimio sword'.
+This spell will create to you the magical samurai sword. It is the
+Samurai's primary weapon. You can't use other weapons with this spell. The
+weapon that you get highly depends on the level that you are in. High
+level samurai will cast at the blade many spells and that supplies you
+with incredible weapon.
+Syntax: cast call for sword.
+
+Call grimoire.
+
+
+Casting time: 1 round.
+Spell cost: 100 SPs.
+Spell type: neutral.
+Spell words: 'Asgalh dareth'.
+Warlock who serves the dark gods of the multiverse can summon forth an item
+that will serve as focus for many of warlocks spells an abilities. On this
+realm the focus is known as Necronomicon ex Mortis.
+
+Chaos bolt.
+
+
+Casting time: 3 rounds.
+Spell cost: 90 SPs.
+Spell type: attack.
+Damage type: random.
+Spell words: 'SUMANI BUUM'.
+Affecting stat: Int.
+This spell will send an uncontrolled bolt of energy
+at the target, causing variable types and amounts of
+damage. The sp cost of this spell is
+also known to vary randomly.
+
+Clairvoyance.
+
+
+Casting time: 1 round.
+Spell cost: 10 SPs.
+Spell type: neutral.
+Spell words: 'ala tule paha kakku tule hyva'.
+With this spell caster can concentrate on his
+surroundings.
+Optional argument is a direction the caster
+wants to really concentrate on.
+example: 'cast clairvoyance at north'.
+
+Commune with nature.
+
+
+Casting time: 2 rounds.
+Spell cost: 25 SPs.
+Spell type: neutral.
+Spell words: 'raiale yursev pmas'.
+This spell calls upon a Druid's innate connection to nature
+to provide a great deal of information about his/her surroundings.
+
+Creeping doom.
+
+
+Casting time: 3 rounds.
+Spell cost: 96 SPs.
+Spell type: attack.
+Damage type: poison.
+Maximum damage: 467.
+Spell words: 'tarenu sedton vigefor'.
+This spell buries a victim in a mass of venemous, biting and
+stinging arachnids, insects and myriopods. Each of the small
+horrors inflicts a tiny amount of damage which very quickly
+rises to vast proportions. This spell can only be cast outdoors.
+
+Dark absolution.
+
+
+Casting time: 4 rounds.
+Spell cost: 1 SPs.
+Spell type: attack.
+Damage type: cold.
+Maximum damage: 1.
+Spell words: 'Evilth dah triumpht'.
+This spell is the warlocks ultimate weapon against those of good alignment
+The damage made by this spell depends on your level,intelligence,spell percent
+and alignment of both you and your target. Skill: demonic tutor allows you to
+do even more damage with this spell. To cast this spell you need to have
+stored atleast 666 spell points and 50 soul points to your grimoire.
+You increase the power of this spell by allocating even more spell points.
+It is known that this spell has the ability to stun the opponents sometimes.
+Succesful dark ritual can lower the sp cost of this spell.
+
+Darkfire.
+
+
+Casting time: 2 rounds.
+Spell cost: 18 SPs.
+Spell type: attack.
+Damage type: cold.
+Maximum damage: 54.
+Spell words: 'Asgarth fakur burnth'.
+Darkfire summons forth a powerful bolt of dark energy which is rumored to
+have the feature of being very chaotic in the sense that it might be burn
+with the fires of hell or be as chilling as the empty void. Skill
+power saving helps to reduce the sp cost of this spell.
+
+Death armour.
+
+
+Casting time: 4 rounds.
+Spell cost: 125 SPs.
+Spell type: defensive.
+Spell words: 'damaa bounchiii'.
+This spell surrounds the target with a magical armour.
+The armour is known to bounce some of the possible
+
+Demonic rage.
+
+
+Casting time: 6 rounds.
+Spell cost: 200 SPs.
+Spell type: neutral.
+Spell words: 'demonicus spiritus'.
+Caster summons forth a demonic spirit that engulfs casters mind giving
+him inhuman strenght. Amount of strengt depends on casters level and spell
+percent. This spell also takes 1 soul point/lvl of caster.
+
+Dragon breath.
+
+
+Casting time: 1 round.
+Spell cost: 28 SPs.
+Spell type: area attack.
+Damage type: fire.
+Maximum damage: 112.
+Spell words: 'Roarrrrrrrin RRRRRRROASTIM'.
+Affecting stat: Int
+
+Enchanted blast.
+
+
+Casting time: 4 rounds.
+Spell cost: 270 SPs.
+Spell type: attack.
+Damage type: magic.
+Maximum damage: 620.
+Spell words: 'tsalb meht'.
+This spell creates a great blast of light. The damage type varies
+from time to time. The advanced magic skill is essential for studying
+this spell.
+
+Entangle.
+
+
+Casting time: 5 rounds.
+Spell cost: 145 SPs.
+Spell type: attack.
+Damage type: physical.
+Spell words: 'kacj asw v colo ikd'.
+This spell causes powerful tendril-like vines to erupt from the ground
+and ensnare its victim. The victim will be hindered in combat, easier
+to hit and will have trouble fleeing until the spell expires.
+
+Ethereal gate.
+
+
+Casting time: 7 rounds.
+Spell cost: 450 SPs.
+Spell type: teleport.
+Spell words: 'WARP SPEED'.
+This spell allows navigator teleport to known navigator obelisk.
+Due to the guidance from the obeliskes this spell is risk free.
+This spell works also when used on other targets than caster.
+Skill navigators way helps to lower both casting time and sp cost.
+Usage: 'cast ethereal gate at '
+or 'cast ethereal gate at list' to see the list of locations
+known to you.
+
+Fire breathing act.
+
+
+Casting time: 3 rounds.
+Spell cost: 65 SPs.
+Spell type: attack.
+Damage type: fire.
+Maximum damage: 102.
+Spell words: 'sip of oil'.
+This spell allows spit burning oil onto the target.
+
+Giant strength.
+
+
+Casting time: 5 rounds.
+Spell cost: 58 SPs.
+Spell type: neutral.
+Spell words: 'soooooooooo strong'.
+This spell raises the target's strength for an amount
+of time depending on the caster's level.
+
+Golden arrow.
+
+
+Casting time: 3 rounds.
+Spell cost: 78 SPs.
+Spell type: attack.
+Damage type: magical.
+Maximum damage: 314.
+Spell words: 'rexx plukk'.
+Affecting stat: Wis.
+
+Good berry.
+
+
+Casting time: 7 rounds.
+Spell cost: 120 SPs.
+Spell type: heal.
+Spell words: 'inionican revibalana'.
+This spell summons many berries which can heal you when they are eaten.
+The number of berries depends on the casters spell percentage.
+
+Hallucinatory forest.
+
+
+Casting time: 5 rounds.
+Spell cost: 150 SPs.
+Spell type: neutral.
+Spell words: 'ti yirnactel sloko kile u tere'.
+Affecting stats: Wisdom and Level.
+This spell creates a convincing illusion of a forest. The illusion
+is so 'real' that spells and skill that only work outdoors can be
+used while the hallucinatory forest remains.
+
+Harmony armour.
+
+
+Casting time: 10 rounds.
+Spell cost: 250 SPs.
+Spell type: defensive.
+Spell words: 'hcout tnod'.
+This spell will reflect some of the damage back at the attacker
+based partially on the % the spell has been studied, and partly
+on the harmoniousness of the target. The duration is dependent on
+casters wisdom, level, and their ability to contemplate the meaning of
+harmony.
+
+Harmony hand.
+
+
+Casting time: 8 rounds.
+Spell cost: 1 SPs.
+Spell type: heal.
+Spell words: 'won lluf ruoy knihti'.
+This is the most powerful of all healing spells. It will heal
+a player or monster to full regardless of the amount of damage
+they have taken. The cost of the spell is based on the amount of
+damage the targest has. The spell cost varies depending on the
+healing done. Healing efficiency will help reduce the randomness
+of this spells casting time.
+
+
+
+Haunt.
+
+
+Casting time: 3 rounds.
+Spell cost: 150 SPs.
+Spell type: neutral.
+Spell words: 'BuuUuUu de ruumeee!!!'.
+This spell haunts a room, the next person to enter the room gets
+the shit scared out of them. The effects are that of random.
+Please don't abuse this spell by casting it everywhere for no reason at all,
+or it will be removed.
+
+Healing smoke.
+
+
+Casting time: 14 rounds.
+Spell cost: 0 SPs.
+Spell type: neutral.
+Spell words: 'pleh dluohs siht'.
+This spell a floating smoke which follows the caster
+around. It will aid in the regeneration of mana for
+those in the same room.
+
+Hellfire.
+
+
+Casting time: 5 rounds.
+Spell cost: 123 SPs.
+Spell type: area attack.
+Damage type: fire.
+Maximum damage: 562.
+Spell words: 'SAATANA'.
+Affecting stat: Int
+
+Hypnotic gaze.
+
+
+Casting time: 4 rounds.
+Spell cost: 69 SPs.
+Spell type: neutral.
+Spell words: 'leeeewwwwk iiiintoo miii eeeeeeeeeeyezzzz'.
+This spell will hypnotize the target disallowing skill use,
+spellcasting, movement or initiation combat. It lasts a limited
+time and will be ended prematurely if the caster breaks his
+concentration.
+
+Illusion.
+
+
+Casting time: 8 rounds.
+Spell cost: 225 SPs.
+Spell type: neutral.
+Spell words: 'Crieite feik obtjeect'.
+This spell will create an illusion to the room where it is cast.
+The caster of this spell must declare what kind of illusion
+he wants to be created. For example if the caster wants to create
+illusionary pile of gold coins, do cast illusion at Pile of gold coins
+
+Insect plague.
+
+
+Casting time: 3 rounds.
+Spell cost: 2 SPs.
+Spell type: attack.
+Damage type: Poison.
+Spell words: 'Beeezzzsss'.
+This spell will summon a huge swarm of insects, stinging and annoying
+the target. Due to the poison of the insects the strength of the victim
+may decrease. The many small stinging insects might distract the victim
+long enough to interupt it.
+
+Lava storm.
+
+
+Casting time: 4 rounds.
+Spell cost: 102 SPs.
+Spell type: area attack.
+Damage type: fire.
+Maximum damage: 158.
+Spell words: 'helvetin hornaan'.
+Affecting stat: Int
+
+
+
+Life beyond death.
+
+
+Casting time: 12 rounds.
+Spell cost: 600 SPs.
+Spell type: neutral.
+Spell words: 'shesa ot shesa...tusd ot tusd'.
+Affecting stat: Wisdom.
+This spell makes it possible for the subject to survive
+death. The exact chance is based on the caster's wisdom.
+
+
+Light.
+
+
+Casting time: 1 round.
+Spell cost: 10 SPs.
+Spell type: neutral.
+Spell words: 'lux'.
+This spell creates a magical ball of light
+which follows the caster.
+
+
+
+Locate animals.
+
+
+Casting time: 4 rounds.
+Spell cost: 15 SPs.
+Spell type: neutral.
+Spell words: 'yee tletli ym twih ysp yae'.
+This spell calls upon a Druid's innate connection to life
+to locate all of the living beings nearby.
+
+
+Mages bane.
+
+
+Casting time: 2 rounds.
+Spell cost: 150 SPs.
+Spell type: neutral.
+Spell words: 'Czruxh dz mxanaregpx'.
+Targets sp regen gets lowered for a duration that depends on casters
+level. Target is allowed a saving throw. The power of this spell depends on
+casters level and spell percent.
+
+Major distant heal.
+
+
+Casting time: 3 rounds.
+Spell cost: 75 SPs.
+Spell type: heal.
+Maximum healing: 13.
+Spell words: 'struh yawa rojami'.
+This spell allows you to heal a person who is not present.
+The amount of healing done is equal to 20+2dwis + con/3
+
+Major distant transfer.
+
+
+Casting time: 3 rounds.
+Spell cost: 65 SPs.
+Spell type: transfer.
+Spell words: 'struhti yawa raf'.
+This spell allows you to transfer some of your hit points to the target.
+The target need not be present for this spell to take effect.
+The amount of healing done is (2d(2*wis) + 1d(con)).
+Maximum healing: 130
+
+Mana drain.
+
+
+Casting time: 8 rounds.
+Spell cost: 200 SPs.
+Spell type: area attack.
+Damage type: magical.
+Spell words: 'suuuuck suuck BURP'.
+When this spell is successful it will
+drain spell points from all in the room.
+
+Mana leech.
+
+
+Casting time: 35 rounds.
+Spell cost: 666 SPs.
+Spell type: neutral.
+Spell words: 'I LOVE MAGIC'.
+This spell will draw a variable amount of
+spell points to the caster from all the
+other players. It is rumored that casting this
+spell too many times in a row can be hazardous
+to the caster.
+
+Mental glance.
+
+
+Casting time: 5 rounds.
+Spell cost: 15 SPs.
+Spell type: neutral.
+Spell words: 'vaxtextraktdryck'.
+This spell allows you to view the current location of the target.
+The target can feel someone is looking at them but does not know who.
+
+Mental vision.
+
+
+Casting time: 50 rounds.
+Spell cost: 125 SPs.
+Spell type: neutral.
+Spell words: 'vaxtextraktdryck'.
+This spell allows you to view the actions of another player. The target
+need not be present. The target can feel that someone is viewing him, but
+usually doesn't know who.
+
+Mental watch.
+
+
+Casting time: 2 rounds.
+Spell cost: 66 SPs.
+Spell type: neutral.
+Spell words: 'hiiiiiii hiiii hi'.
+This spell will leave a mental watch in the current room you are in.
+All actions that players make in that room will automatically be told
+to you via a mental link. This spell lasts your level minutes, or until
+you return to the room and type: remove watch.
+
+Migraine.
+
+
+Casting time: 1 round.
+Spell cost: 85 SPs.
+Spell type: area attack.
+Damage type: psionic.
+Maximum damage: 65.
+Spell words: 'asspurrinn aspperin ASPIRIN'.
+
+Mind barrier.
+
+
+Casting time: 4 rounds.
+Spell cost: 125 SPs.
+Spell type: neutral.
+Spell words: 'psssiiiiis wanna beeaaaloonne toooo'.
+Affecting stat: Int.
+This spell creates a telekinetic barrier that prevents others from entering
+the room. The barrier will vanish soon if there are no living beings
+in the room.
+The caster may also remove the barrier by 'disrupt'ing it.
+
+Mind control.
+
+
+Casting time: 9 rounds.
+Spell cost: 800 SPs.
+Spell type: neutral.
+Spell words: 'WORDISBOND'.
+This spell allows a Psionicist to bully the
+brains of others and force them to do things
+they would not normally do.
+
+Usage: cast mind control at to 
+
+
+Mind melt.
+
+
+Casting time: 3 rounds.
+Spell cost: 88 SPs.
+Spell type: attack.
+Damage type: psionic.
+Maximum damage: 10.
+Spell words: 'ala kazam bam'.
+This spell causes 10d(lvl)*2+10 damage.
+
+Mind tempest.
+
+
+Casting time: 5 rounds.
+Spell cost: 152 SPs.
+Spell type: area attack.
+Damage type: electric.
+Maximum damage: 514.
+Spell words: 'Knarf appaz ZAP!'.
+This spell is an electrical areaspell, which fries the brains of the poor
+bastards you zap with it.
+Affecting stat: Wis
+
+Mirror image.
+
+
+Casting time: 12 rounds.
+Spell cost: 85 SPs.
+Spell type: defensive.
+Spell words: 'ken on maassa kaunehin'.
+This spell creates mirror images of the target.
+The amount of images created is dependant upon the caster's level.
+This spell is not stackable.
+
+
+Mist haze.
+
+
+Casting time: 2 rounds.
+Spell cost: 250 SPs.
+Spell type: attack.
+Damage type: physical.
+Spell words: 'fizzzmo h2o'.
+This spell summons water out of the air and surrounds the target
+with an annoying misty haze. The spellcaster may enhance the effects
+of this spell by including illusions. Duration and effectiveness are
+dependent on casters wisdom, knowledge of spell and illusionary skills.
+
+
+Moonbeam.
+
+
+Casting time: 7 rounds.
+Spell cost: 240 SPs.
+Spell type: neutral.
+Spell words: 'ceon ni u lueb nomo'.
+affecting stat: Spell percentage.
+This spell calls down a beam of pure light from the moons of
+Zombiemud. This beam of moonlight rejuvenates those who bask
+in its radiance. Moonbeam can only be cast outdoors, at night.
+The brightness of the moons affects this spells power, cost and
+casting time dirrectly.
+
+Mystic vision.
+
+
+Casting time: 5 rounds.
+Spell cost: 125 SPs.
+Spell type: neutral.
+Spell words: 'vaxtextraktdryck'.
+This spell allows you to view the actions of another player. The target
+need not be present. The target can feel that someone is viewing him, but
+doesn't know who.
+
+Nature's portal.
+
+
+Casting time: 1 round.
+Spell cost: 75 SPs.
+Spell type: teleport.
+Spell words: 'kratam si feras'.
+With this spell you can teleport yourself to another player.
+
+Northwind.
+
+
+Casting time: 3 rounds.
+Spell cost: 40 SPs.
+Spell type: area attack.
+Damage type: cold.
+Maximum damage: 160.
+Spell words: 'lluoy tcahc uroy hadte'.
+Affecting stat: Level.
+This spell creates a biting cold wind, chilling everyone
+in the area to the bone unless they bundle up or are naturally
+resistant to cold.
+
+Obscurement.
+
+
+Casting time: 4 rounds.
+Spell cost: 50 SPs.
+Spell type: neutral.
+Spell words: 'tca'n ese stih'.
+Affecting stats: Wisdom and Level.
+This spell fills a room with a thick cloud of mist, almost
+completely obscuring sight within the room.
+
+Party summon.
+
+
+Casting time: 7 rounds.
+Spell cost: 750 SPs.
+Spell type: teleport.
+Spell words: 'jummp noisnemid ehla partyx'.
+This spell transfers all other members of the party
+to casters location if possible. Skill navigators way
+lowers both the sp cost and casting time of this spell.
+
+Party teleport.
+
+
+Casting time: 5 rounds.
+Spell cost: 450 SPs.
+Spell type: teleport.
+Spell words: 'FINNAIR FINNAIR'.
+This will instantly teleport all members of the casters party to church
+Unlike party teleport with error, this spell is incapable of error.
+Skill navigators way lowers both the sp cost and casting time.
+
+Pass plant.
+
+
+Casting time: 2 rounds.
+Spell cost: 50 SPs.
+Spell type: teleport.
+Spell words: 'tsalpn rea vheewyerre'.
+This simple spell allows the Druid to step into any tree or
+other large plant and step out again at Tir-na-N'og. Given
+the simple nature of this spell however, the transport is not
+entirely reliable and the Druid may emerge ANYWHERE. This
+spell can only be cast outdoors.
+
+Phantom armour.
+
+
+Casting time: 4 rounds.
+Spell cost: 246 SPs.
+Spell type: defensive.
+Spell words: 'phho samani'.
+This protection spell involves the creation of a quasi-real
+suit of plate armour that covers the targets regular armour.
+The protection from this spell depends on casters int/wis and
+knowledge of illusions. Level affects duration.
+This spell is stackable.
+
+Phaze shift.
+
+
+Casting time: 5 rounds.
+Spell cost: 185 SPs.
+Spell type: teleport.
+Spell words: 'armie arma geddon'.
+This spell allows you to teleport yourself to another player, or a
+location memorized with the mind store spell. To teleport to your
+memorized location, cast the spell at yourself.
+
+Planar rescue.
+
+
+Casting time: 1 round.
+Spell cost: 66 SPs.
+Spell type: teleport.
+Spell words: 'Dimenxsioz azylum'.
+This spell transports the caster to pocket dimension where caster can regen
+his/hers wounds and then return back to the place he/she left. This happens
+when you would normally wimpy. Greater the spell percent, bigger the chance
+for this spell to work. Failure results in normal wimpy. After every
+successful use this spell needs to be recast.
+
+Poison cloud.
+
+
+Casting time: 3 rounds.
+Spell cost: 110 SPs.
+Spell type: neutral.
+Spell words: 'SAUGIII nyt mua pierettaa'.
+This spell will create a poisoness cloud that will randomly
+poison those present.
+
+Preservation.
+
+
+Casting time: 1 round.
+Spell cost: 33 SPs.
+Spell type: neutral.
+Spell words: 'kaltcorpore brrrhhh'.
+This spell freezes the corpse preventing it from decaying.
+
+Prismatic spray.
+
+
+Casting time: 5 rounds.
+Spell cost: 31 SPs.
+Spell type: attack.
+Damage type: acid.
+Maximum damage: 230.
+Spell words: 'caa cai cyyrola'.
+Bringing forth the elements of a total illusion, the sorcerer
+forces his adverssary to be immersed in a universe of changing
+time, light and sound. This sudden change of enviroment overwhelms
+the auditory and visual senses reducing the attacking and skills.
+At higher levels this spell may also stun.
+
+Produce fire.
+
+
+Casting time: 2 rounds.
+Spell cost: 0 SPs.
+Spell type: attack.
+Damage type: fire.
+Maximum damage: 2.
+Spell words: 'tegntig durben stuht'.
+Affecting stats: Wisdom and Level.
+This spell causes a fan-shaped wedge of magical fire
+to wash over the target.
+
+Pyrotechnics.
+
+
+Casting time: 1 round.
+Spell cost: 0 SPs.
+Spell type: attack.
+Damage type: fire.
+Maximum damage: 1.
+Spell words: 'rehwe ser'he ifre ser'he kemso'.
+Affecting stats: Wisdom and Level.
+This spell requires open flame as a material component. A torch
+will do, but a campfire is better. When cast this spell causesthe
+flame to explode into a cloud of multicolored fireworks, burning its
+victim. Sometimes, the spell produces thick clouds of smoke instead,
+sufficating the victim.
+
+Reflector shield.
+
+
+Casting time: 9 rounds.
+Spell cost: 450 SPs.
+Spell type: defensive.
+Spell words: 'BOING booooooiiiiiiing'.
+This spell summons a powerful magical shield that
+is capable of returning some of the damage taken by
+the target onto its attacker.
+
+Regeneration.
+
+
+Casting time: 8 rounds.
+Spell cost: 5 SPs.
+Spell type: heal.
+Spell words: 'pu deepsi'.
+This spell will increase the target's
+ability to regen damage. The duration of
+this spell is based on your wisdom. The
+strength and spell cost of the regeneration
+is dependent on level.
+
+Reincarnation.
+
+
+Casting time: 20 rounds.
+Spell cost: 275 SPs.
+Spell type: neutral.
+Spell words: 'lihaa lakoon'.
+This spell will count the total exp the player has
+made so far and give a bit more than 90% of it.
+Then player is transfered to character creation and
+he/she can start all over with that given exp.
+NOTICE: All items carried by the target will be sent
+to another plane of existence. Maybe it would be wise not
+to carry anything...
+
+Relocate.
+
+
+Casting time: 2 rounds.
+Spell cost: 75 SPs.
+Spell type: teleport.
+Spell words: 'ja maisemat vaihtuu'.
+With this spell you can teleport yourself to another
+player.
+
+Resist heal.
+
+
+Casting time: 4 rounds.
+Spell cost: 1 SPs.
+Spell type: offensive.
+Spell words: 'ON Selppa'.
+This spell will make the target resistant to healing spells.
+The target will get a chance of a saving throw based on level.
+The strength of the resistance is based on spell percent.
+The duration of the spell is dependent on the casters wisdom.
+
+Resurrect.
+
+
+Casting time: 15 rounds.
+Spell cost: 333 SPs.
+Spell type: neutral.
+Spell words: 'henget uusix'.
+This spell brings the target back to life, minimizing
+experience losses.
+
+Transmute rock to mud.
+
+
+Casting time: 5 rounds.
+Spell cost: 170 SPs.
+Spell type: neutral.
+Spell words: 'yast lstli ro ide'.
+Affecting stat: Wisdom.
+This spell converts the ground in a room to a pool of clinging
+mud that may suck down and drown anyone strugling to escape it.
+
+Sacred ritual.
+
+
+Casting time: 40 rounds.
+Spell cost: 1000 SPs.
+Spell type: neutral.
+Spell words: 'dhlordz hengeh meniuusiks'.
+This spell granted only to the most powerful servants of the
+gods gives the cleric the power to call upon the most sacred
+rites and to ressurect all dead players that are at his location.
+
+Shelter.
+
+
+Casting time: 4 rounds.
+Spell cost: 106 SPs.
+Spell type: neutral.
+Spell words: 'wanna beeaaaloonne'.
+Affecting stat: Wis.
+This spell creates a force field that prevents other livings entering
+the room. It also provides some healing to the people inside.
+The shelter will vanish soon if there are no living beings in the room.
+The caster may also remove the field at any time by touching it.
+
+Silence.
+
+
+Casting time: 6 rounds.
+Spell cost: 999 SPs.
+Spell type: neutral.
+Spell words: 'ANTI-SPAM-RAY'.
+The target of this spell is silenced, thus making it impossible
+for him to say, shout, tell or cast anything or send messages to
+channels.
+
+Skyfire.
+
+
+Casting time: 2 rounds.
+Spell cost: 61 SPs.
+Spell type: attack.
+Damage type: electric.
+Maximum damage: 306.
+Spell words: 'ays eeshec'.
+Affecting stat: Level.
+This spell calls a deadly stroke of lightning down from the
+sky to smite an enemy. This spell does more damage if there
+water in the room, and even more damage if there is some sort
+of precipitation falling or storm present. This spell can only
+be cast outside.
+
+Slow poison.
+
+
+Casting time: 6 rounds.
+Spell cost: 50 SPs.
+Spell type: neutral.
+Spell words: 'slo saugiii'.
+This spell will lessen the effects of poison present in the target's system.
+
+Snowstorm.
+
+
+Casting time: 3 rounds.
+Spell cost: 110 SPs.
+Spell type: area attack.
+Damage type: cold.
+Maximum damage: 44.
+Spell words: 'DAMN ITS COLD!'.
+Affecting stat: Int
+
+Spacial barrier.
+
+
+Casting time: 6 rounds.
+Spell cost: 10 SPs.
+Spell type: defensive.
+Spell words: 'zruphture cspace'.
+This spell allows the sorcerer to cause space to warp around his
+present location, thus disturbing the effects of area attack spells.
+Any area attack spell casted while this spell is active will be
+reduced in power. The effectiveness of this spell is based on the
+casters level and knowledge of spacial manipulation.
+
+Sunray.
+
+
+Casting time: 6 rounds.
+Spell cost: 120 SPs.
+Spell type: attack.
+Damage type: fire.
+Maximum damage: 724.
+Spell words: 'sendraks nca nto cefa eth ghilt'.
+Affecting stat: Level.
+This spell calls down a beam of purifying sunlight to
+incinerate any undead being in the Druid's presence.
+The damage is dependant on the brightness of the sun at
+the time of casting. This spell can only be cast outside,
+under clear skies and while the sun is shining.
+
+Terror.
+
+
+Casting time: 1 round.
+Spell cost: 30 SPs.
+Spell type: neutral.
+Spell words: 'BOOOOOOO!!!!'.
+This spell makes the target run in fear. It's good for
+showing those damn Mages who's the boss!
+
+Thorn spray.
+
+
+Casting time: 1 round.
+Spell cost: 40 SPs.
+Spell type: attack.
+Damage type: physical.
+Maximum damage: 200.
+Spell words: 'racha on pun lon cordso jompon'.
+This spell attacks the target with a spray of thorns.
+
+Vaporic armour.
+
+
+Casting time: 3 rounds.
+Spell cost: 135 SPs.
+Spell type: defensive.
+Spell words: 'YaaaaAAAA Zhu'.
+This spell creates an amorphic barrier around the target.
+The protection of the barrier depends on casters level.
+Level affects duration. This spell is stackable.
+
+Wall of thorns.
+
+
+Casting time: 8 rounds.
+Spell cost: 240 SPs.
+Spell type: neutral.
+Spell words: 'oyu ranet vanlieg rhee noso'.
+Affecting stat: Level
+This spell creates a barrier of very tough, pliable green
+tangled brush bearing needle sharp thorns as long as a
+person's finger. Anyone attempting to pass throug this
+wall will end up with more holes than swiss cheese. The
+caster can remove the thorns at any time by typing touch
+wall. The caster can also type burn wall to convert the
+wall of thorns into a wall of fire for the remainder of
+its duration.
+
+Wolf eyes.
+
+
+Casting time: 3 rounds.
+Spell cost: 35 SPs.
+Spell type: special.
+Spell words: 'Hoppers vision'.
+With this spell you will give the target wolf eyes, thus allowing
+the target to see in the dark.
+
+
+Aura: Allows the player to produce a magical aura around a player. player must
+be with in 5 squares (any direction) of the caster, this aura will heal the player 10-25 hit points. This spell will only work in battle.
+         Social = Master, Prerequisite = Cure serious wounds.
+
+Circle of Protection: This spell will encompass the player protecting them from
+all low level spells (apprentice to master) . Once the player moves out of the
+circle they can be effected by magic. 
+         Social = Master
+
+Wall of Fire: This spell will half the damage of an ice storm and protect the
+player from standard range attacks (Arrows spears Etc..) 
+         Social = Merchant
+
+Wall of Water: This spell will half the damage of fire attacks
+ (fireball, heat wave etc..)
+         Social = Merchant.
+
+Wall of Stone: This spell will increase the players defense value
+by 10 and protect the player from normal missile attacks. 
+         Social = Squire
+
+Poison Detection: This spell detects the presence of poison in food or drink. 
+         Social = Merchant. Prerequisite = Poison lore
+
+Mystic Fog: This spell reveals all manner of invisible, hidden, and sneaking
+creatures in the same room as player. 
+         Social = Squire, Prerequisite = Fog spell
+
+Sphere of Protection: This spell defends the caster from mid-ranged spells
+(Merchant to Lord).  If successful the player will take no damage, if the spell fails the player will only take half damage.
+         Social = Lord, Prerequisite = Circle of Protection
+
+
+Inferno Glyph: This wall of flame will protect the caster from all ranged
+attacks, half the damage from cold attacks and will damage any player/opponent 2 squares in front of the caster. The damage will be from 5-30 fire damage.
+         Social = Lord, Prerequisite Wall of Fire
+
+
+Mass Protection: This spell will increase the armor of all players in a 4X4
+Square by 5.
+         Social = Squire
+
+Pyrotechnics: This spell causes the player to distract its opponent so the
+player/party can flee the battle.
+         Social = Master
+
+Resist Weather: This spell allows the caster to be unhindered by bad weather.
+The player will have full movement in wind and other storms that would hinder
+movement. This spell will not protect the caster from damage a storm may cause. 
+         Squire
+
+Horrendous Site: Allows the caster to form an extremely horrendous image. This
+spell will put fear into any opponent/player. Any opponent/player one social classes lower then the caster will be effected. Effects can be run in terror, become paralyzed or die (non intelligence). 
+         Social = Squire, Prerequisite, Fear Spell
+
+Scry: Allows the player to see what is waiting in a room that is ahead of the
+party (this can be an ambush, items, artifacts etc..) The player will not be able to ID items but will know they are in that room somewhere. 
+         Social = Squire. Prerequisite = 45 intelligence, 50 wisdom
+
+Slyter's Serenity: When cast at an opponent, the opponent will not be able to
+cast any spells. The more intelligent the opponent the less effective this spell is. 
+         Social = Lord
+
+Wizard's Armor: This spell will increase the caster magic resistance by 10
+percent. 
+         Social = Squire
+
+Mist Form: This spell turns the caster into a mist form allowing the caster to
+move around the battle field with out being attacked (this is not like invisibility, invisible players can be spotted). As soon as the caster is set and attacks the spell is dispersed. 
+         Social = Squire, Prerequisite = 50 Dexterity, 40 intelligence
+
+Spell Shield: Allows the player to increase their magic resistance. Once
+mastered this spell will increase the players magic resistance by 35 percent.
+         Social = Lord Prerequisite = Wizards Armor
+
+Cloaked Mind: Allows the player to defend against mind altering spells. Once
+mastered the players mind will withstand the most powerful mind altering spells.  Social = Prince
+
+Divine Blessing: When cast, all players in a 4x4 square will gain +7 to their
+armor class and +5 to magic resistance.
+         Social = Squire, Prerequisite = Bless
+
+Wall of Swords: This spell will cause several spinning blades around the
+caster. This spell will defend the cast from all attacks for the duration of the spell. Any opponent walking into the blades will take 20-150 damage. A dispel magic spell has a 50 percent chance to disperse the blades.
+         Social = Prince
+
+Battle Jump: This will allow the caster to jump across a battle field. This
+allows a ranged player (mage, archer) to move away from melee engagement. 
+         Social = Squire
+
+Fog: This spell will increase the casters defense against ranged attacks by
++15. The fog will make it difficult to target the player. 
+         Social = Master
+
+Clone: This spell will duplicate the caster image. The caster will not be hit
+until all its clones have been killed/discovered.
+         Social = Squire 
+
+Holy Word: This spell will increase the defense, attack magic & poison
+resistance +25 for all players with in a 5x5 square of the caster. If cast in-camp all players on the same square of the caster will be effected. 
+         Social = King
+
+Intoxicate: This spell makes an opponent seem drunk. This will make the
+opponent stumble around the battle field, the opponents Armor class, magic resistance, spell casting ability, attacking movement will be decreased by 75 percent for the duration of the spell. 
+         Social = Emperor
+
+Physically Resisting Orb: This spell causes an Orb to appear in the casters
+hands. While the caster holds the Orb no physical damage can be sustained. (only one orb can be held at a time.) 
+         Social = Emperor
+
+Magically resisting Orb: This spell causes an Orb to appear in the casters hand. While the caster hold the Orb No Magical damage can be sustained. (only one orb can be held at a time). 
+         Social = Emperor 
+
+Detect Enemy: After casing this spell, the caster can determine whether there are creatures within the area that bear hostile intent toward him. 
+         Social = Squire
+
+Nauseous Cloud: This spell causes a target fall to its knees and choke, gag and
+vomit. If the opponent is hut during this time it will be killed. 
+         Social = Squire
+
+
+Halt: This spell stop an army of opponents racing towards the caster. This
+spell is only useful during a stronghold war. 
+         Social = Emperor
+
+Greater Sphere of Protection: This spell defends the caster from all types of
+high level Lord to Emperor) spells. If successful the caster will take no damage from the spells.
+         Social Emperor. Prerequisite = Sphere of Protection
+
+Runes: Allows player to identify/read magical scrolls. Success will depend on
+the casters level and the runes magic level. 
+            Social = Journeyman
+
+Magical Writings: Allows player to create scrolls. The level of the scroll will
+depend in the casters skill level and intelligence. 
+            Social = Prince
+
+Magical Powders: Gives the player the basic knowledge of magical powders. This
+skill is need if the player want to conjure magical potions (other requirements are needed for the type of potion.) 
+            Social = Journeyman Prerequisite = Root Lore
+
+Light: Allows the caster to illuminate a room 24x24, the duration of this spell
+will be 5 minutes.
+             Social = Apprentice 
+
+Comprehend Languages: Allows the caster to understand other languages. The
+success of this spell is determined by the casters intelligence and wisdom. 
+            Social = Prince. Prerequisite = Wisdom of the Ancients, 70
+intelligence 65 Wisdom
+
+Slow: Decrease the targets movement and attacks by 50 percent. Area of effect
+will be 5x5. 
+            Social = Merchant
+
+Sphere of light: This spell creates a sphere of light, The sphere will last
+indefinitely. 
+            Social = Merchant
+
+Spiritual Spores: This spell creates a Magic Mushrooms which the player or
+anyone else can eat. These mushrooms will temporally increase your intelligence 1-5.  (eating more then 2 will lower intelligence) (Don't eat to many).
+            Social = Squire
+
+Birthing Spring: This spell brings forth a magical spring from the ground,
+allowing several players to drink from it. Water increase life. 
+            Social = Squire
+
+Peeking Eye: The peek skill is useful for seeing what a player or monster is
+carrying, More intelligent characters are harder to peek at. All characters may learn peek, but thieves are the most common practitioners. 
+            Social = Lord
+
+Imprisonment Rune: Allows the caster to imprison an evil artifact, potions or
+being. 
+            Social = King, prerequisite = 90 intelligence 85 wisdom
+
+Power Wand: Allows the player to recharge a spent wand to a Maximum of 20
+charges. To succeed the caster must know the magic of the wand (what it did). 
+            Social = Prince, Prerequisite = 85 intelligence 70 wisdom
+
+Jeweler: Allows the player to identify gem values. With the craftsman skill the
+player will be able to inset the gems into items. Only "VERY" high level players will be able to inset magical gems into items. If the gem is magical then the player can use that item as an attack. Ex. Gem of fire ball on a sword, player will get sword damage plus a fire ball will be generated if the player wishes.  There is also a possibility the jeweler will damage the gem loosing its magical properties.  Social or Gem Iding is Merchant, Prince to inset into items. Need
+70 intelligence Weapon lore.
+
+Craftsman: This skill allows the player to create certain items. this spell is
+used in-conjunction with other skills... ex Jeweler's skill, weaponcraft etc. 
+            Social = Master
+
+Energy Arc: This is the first long range spell. Energy jumps from your finger
+tips and strikes your victim (who gets quite a jolt). Make sure nothing is between you and your victim or they may get hit by accident. This spell may cause up to 25 points of damage and has a range of 8 battle grid units.
+         Duration: Instant, Energy: 10, Delay: 5 Seconds
+
+Blaze: This is the first mass damage spell. Blaze creates a huge fire in a cross shape from the position of origin (hits the square you cast it on, plus the 4 squares to the North, East, South, and West). This spell may inflict up to 25 points of damage to all caught in its vicinity. The range of this spell is 8 battle grid units.
+         Duration: Instant, Energy: 10, Delay: 5 Seconds
+
+Inferno: Inferno is a more powerful version of Blaze. This creates an inferno
+of flames over a broad area. The range of this spell is 6 battle grid units and the shape of the area of effect is a box (hits the grid you aim for plus every grid adjacent to that grid).  This spell may cause up to 50 points of damage to everyone caught in its range.
+         Prerequisites: Blaze, Duration: Instant, Energy: 25, Delay:8 Seconds
+
+Ball Lightning: This the most powerful ranged, electricity-based spell available.  Ball Lightning allows the caster to literally concentrate their energy into a ball and shoot it at their target. The range on this spell is 3 battle grid units. This can cause a maximum of 100 points of damage to its victim.
+         Prerequisites: Lightning Bolt, Duration: Instant, Energy: 50, Delay:
+10 Seconds
+
+
+@

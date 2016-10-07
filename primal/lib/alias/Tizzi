@@ -1,0 +1,15 @@
+gomain color off;aut;e;s;s;e;e;e;e;e;e;e;e;e;e;aut;color complete
+tg tell gorilla $*
+stab open force;get dagger force;remove halberd;wield dagger;backstab $1;;remove dagger;put dagger force;close force;wield halberd
+white open force;get white force;close force;quaff white
+gforce open force;get $1 force;close force
+pforce open force;put $1 force; close force
+dskin open force;get skin force;drink skin;put skin force;close force
+eatit open force;get $1 force;close force;eat $1
+eh eat hotdog
+gtc get gold corpse;get corpse;junk corpse
+cg grats ---'---,---@ $* @---'---,---
+cc cast 'cure light'
+eb eat bread;
+red quaff red
+dtc get all corpse;get corpse;junk corpse

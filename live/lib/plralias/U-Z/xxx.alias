@@ -1,0 +1,125 @@
+5
+start
+70
+rem sword;rem sword;rem moc;rem claw;wear moc;wi swor;wi swor;wear all
+1
+8
+immortal
+9
+goto 1200
+0
+6
+tavern
+9
+goto 1112
+0
+4
+slay
+160
+rem sword;rem sword;get silver force;get wooden force;wi dagger;slay $*;rem dagger;wi stake;slay $*;rem stake;wi sword;wi sword;put stake force;put dagger force
+1
+5
+aware
+50
+c 'detect invis' $*;c 'sense life' $*;c 'infra' $*
+1
+6
+spells
+156
+c 'dragon' $*;c 'stone' $*;c 'holy' $*;c 'fire wall' $*;c 'divine pr' $*;c 'spirit arm' $*;c 'bless' $*;c 'armor' $*;c 'sanc' $*;c 'serpent' $*;c 'haste' $*
+1
+4
+stun
+38
+c 'sleep' $*; c 'blind' $*;c 'para' $*
+1
+2
+ck
+14
+c 'cloud kill'
+0
+2
+fd
+13
+c 'finger' $*
+1
+5
+tport
+12
+c 'teleport'
+0
+6
+summon
+13
+c 'summon' $*
+1
+2
+id
+15
+c 'identify' $*
+1
+4
+heal
+37
+c 'divine heal' $*;c 'divine heal' $*
+1
+2
+dh
+18
+c 'divine heal' $*
+1
+2
+cc
+14
+compost corpse
+0
+4
+para
+11
+c 'para' $*
+1
+8
+godbless
+52
+c 'spirit arm' $*;c 'holy aid' $*;c 'divine prot' $*
+1
+2
+ah
+20
+c 'advanced heal' $*
+1
+6
+locate
+13
+c 'locate' $*
+1
+6
+recall
+21
+c 'recall';c 'recall'
+1
+7
+protect
+37
+c 'bless' $*;c 'armor' $*;c 'sanc' $*
+1
+1
+b
+26
+battlecry $*;stand;head $*
+1
+2
+lf
+13
+look in force
+0
+3
+gac
+18
+get all all.corpse
+0
+2
+lc
+14
+look in corpse
+0

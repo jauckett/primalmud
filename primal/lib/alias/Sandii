@@ -1,0 +1,25 @@
+ck cast 'cloud kill' kosh
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+tudor  s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s'
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+cor get corpse; junk corpse; get corpse; junk corpse; get corpse; junk corpse
+v vstat obj $*
+/// / #150 $*
+avengers at 117 read $*
+100 mgrin; salute $*; goto 100
+vsm vstat mob $1
+vnm vnum mob $1
+vno vnum obj $1
+vso vstat obj $1
+pi poofin steps into the world with a cheeky grin and mischief in her eyes!
+po poofout creates a hole in the fabric of time and stepping backwards disappears within it.
+5 goto $*; chuckle; ' Can I assist in any way?
+lo load obj $*
+lm load mob $&
+// / #101 $*
+rc cast 'remove curse' $*
+;;; wiznet #150 $*
+dm cast 'detect magic' $*
+di cast 'detect invis' $*
+infra cast 'infra' $*
+da cast 'detect align' $*

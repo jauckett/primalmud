@@ -1,0 +1,35 @@
+charm cast 'charm person' $1
+harm cast 'harm' $1
+bs backstab $1
+id recite identify $1
+elder use elder me; remove elder; hold staff; junk elder
+fb cast 'fireball' $1
+heal cast 'heal'
+sum cast 'summon' $1
+en cast 'energy drain' $1
+bread get bread backpack; eat bread
+quake cast 'earthquake'
+strength cast 'strength'
+recall cast 'word of recall'
+armor cast 'armor'
+invis cast 'invisibility'
+infra cast 'infravision'
+loot get all all.corpse
+cc cast 'cure critical'
+chaos get chaos backpack; remove staff; remove staff; wield oak; hold chaos; use chaos $1; remove chaos; hold staff
+object cast 'locate object' $1
+di cast 'detect invisibility'
+da cast 'detect alignment'
+arena mortalk
+chest pick chest; open chest; get bag chest; get amulet chest
+to_cave e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s;e
+end_gambol s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+sanc get white crate; quaff white
+cure get red crate; quaff red
+mush get mushroom crate; eat mushroom
+meat get meat crate; eat meat
+water get skin crate; drink skin; put skin crate
+cw get skin crate; cast 'create water' skin; put skin crate
+ref cast 'refresh'
+food cast 'create food'; put mushroom crate
+sl cast 'sense life'

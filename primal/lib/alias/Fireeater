@@ -1,0 +1,7 @@
+c cast 'chill touch' brigand
+loot get all corpse
+chill cast 'chill touch' $1
+stare cast 'chill touch'
+munch get bread backpack ; eat bread
+backpack bp
+end get corpse ; junk corpse ; emote does ritual dance

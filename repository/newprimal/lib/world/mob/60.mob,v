@@ -1,0 +1,1238 @@
+head	1.7;
+access;
+symbols
+	A3_0_1:1.2;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	2004.03.15.02.19.16;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.10.13.10.23;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.14.05.22.05;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.01.22.22.45.43;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.13;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Artus> Sync.
+@
+text
+@#6001
+angler fish~
+an angler fish~
+An angler fish lures prey with its tiny fluorescent lantern here.
+~
+The spindly killer fish is a prehistorical creature, it looks tough
+you don't want to get near him... a small tentacle is attached to its head.
+~
+3156328 1184 -600 E
+75 -35 -10 1d1+7345 20d30+70
+67500 750000
+8 8 0
+E
+#6002
+scylla~
+Scylla~
+Scylla the fearsome giant sea monster is waiting here for YOU!
+~
+Scylla was once a beautiful young woman but she got transformed into the six
+headed, man-eating monster you see before you now. There is seaweed and 
+algae hanging from her huge, dark scales and her body reeks of decaying flesh.
+~
+3403386 566432 -1000 E
+90 -74 -10 1d1+10000 30d30+94
+35000 900000
+8 8 2
+E
+#6003
+poseidon~
+Poseidon~
+Poseidon, King of the Seven Seas is sitting on his shell throne here.
+~
+Poseidon's eyes express kindness, the rest of his face is hidden under a long,
+curled beard. His upper body is muscular and his huge fishtail shines in all 
+the colours of the rainbow.
+~
+3405914 5280 1000 E
+85 -69 -10 1d1+9100 25d30+89
+76500 850000
+6 6 1
+E
+#6004
+shark~
+a shark~
+A shark swims around, observing you very closely!
+~
+You see the perfect killing machine of the sea before you... specially 
+designed to match one purpose... to kill efficiently.
+~
+3403900 1176 -1000 E
+79 -35 -9 1d1+8000 10d25+70
+71100 790000
+8 8 0
+E
+#6005
+stonefish~
+a stonefish~
+A stonefish is hiding here in the sand.
+~
+The stonefish tries to hide its ugliness by trying to hide in the loose
+underground.
+~
+3170408 787626 -350 E
+75 -30 -8 1d1+7400 19d32+70
+67500 750000
+8 8 0
+E
+#6006
+octopus~
+a giant octopus~
+A giant octopus is here changing colours.
+~
+A giant octopus is guarding its thousands of eggs here, as it sees you it
+rapidly changes its colour to a bright red. The motherly instincts makes
+it extremely aggressive towards intruders.
+Maybe it would be better to leave QUICKLY!
+~
+3401850 1184 0 E
+77 -35 -10 1d1+7700 25d30+81
+69300 770000
+8 8 2
+E
+#6007
+mermaid~
+a mermaid~
+A beautiful mermaid is here grooming her colourful tail.
+~
+The mermaid is one tough cookie... did she grew up in a gym???
+Her muscular fish tail changes colour all the time.
+Don't get fooled by her beauty, she knows how to fight!
+~
+125004 263208 0 E
+55 -15 -5 1d1+3000 19d22+45
+49500 550000
+8 8 2
+E
+#6008
+salvatore~
+Salvatore~
+Salvatore greets you with a broad smile as you enter.
+~
+Black friendly eyes stare back at you. Salvatore is the typical Italian
+type... he is sunburnt, has dark hair and you notice the muscles he
+certainly didn't get by making ice cream.
+~
+10 33554492 0 E
+97 -30 -13 1d1+11400 20d20+50
+10000 299188
+8 8 1
+E
+#6009
+perpetual traveller~
+a perpetual traveller~
+The perpetual traveller is standing here, taking a brief rest from 
+sightseeing.
+~
+You see the typical tourist before you, always on the run to the next 
+sight. A camera hangs from his neck and he wears black sunglasses.
+~
+72 0 0 E
+10 13 10 1d1+120 7d7+6
+4905 10000
+8 8 0
+E
+#6010
+sunbather~
+a sunbather~
+A sunbather is lying here in the sun, waiting to get a tan.
+~
+You see a brown tanned body frying in the sun. The sunbather rubs some
+lotion into his skin.
+~
+74 0 50 E
+6 15 11 1d1+105 5d4+6
+3400 4600
+8 8 0
+E
+#6011
+trevia~
+Trevia~
+Trevia the fountain nymph is sitting in a golden bathtub here.
+~
+Trevia's body is covered in bubbles, she looks a bit bored and it seems to you
+she is only taking that bath to kill time. But as she notices you, her
+expression changes completely and she beckons you to come closer and as
+you do she whispers in a erotic voice:
+"Sweetie, pass me that soap over there."
+~
+3164234 33960 0 E
+72 -35 -7 1d1+6950 23d25+72
+64800 720000
+6 6 2
+E
+#6012
+sylvia~
+Sylvia~
+Sylvia the forest nymph is combing her shiny knee long hair here.
+~
+A hot sweat runs over your body like a tidal wave as Sylvia turns around and
+smiles at you. Sylvia asks you to help her comb her knee long hair.
+~
+3164234 33960 0 E
+73 -47 -9 1d1+7120 23d25+73
+65700 730000
+8 8 2
+E
+#6013
+afra~
+Afra~
+Afra the Nile nymph is putting perfumed oil on her gorgeous body.
+~
+Afra's body has the colour of ebony. In order not to faint you look away.
+Never have you seen such a beauty before... your knees tremble and your heart races.
+~
+3164234 33960 0 E
+60 -30 -7 1d1+5200 18d20+60
+54000 600000
+8 8 2
+E
+#6014
+jacinta~
+Jacinta~
+Jacinta the spring water nymph admires her beauty in a mirror.
+~
+As you look at Jacinta she notices you in her mirror and observes you
+amusedly. The curve of her back seems more beautiful than anything you have
+ever seen before.
+~
+3164234 33960 0 E
+60 -30 -7 1d1+5250 20d20+60
+54000 600000
+6 6 2
+E
+#6015
+amphitrite~
+Amphitrite~
+Amphitrite is sitting here chatting with Poseidon.
+~
+You wouldn't call her a beauty, but she certainly is an impressive woman,
+tall, muscular and intelligent. Her waist-long hair covers her body like
+a black cape.
+~
+3369338 38060 350 E
+80 -40 -10 1d1+8250 25d25+84
+72000 800000
+6 6 2
+E
+#6016
+triton~
+Triton~
+Triton is here controlling the seas with the melody he plays on his 
+shell trombone.
+~
+Triton isn't too handsome but he seems a decent person. He is the
+intellectual type, the thinker. So no wonder he doesn't see you and
+is fully concentrating on beating Anateus in the chess match.
+~
+3401818 33960 500 E
+83 -55 -10 1d1+8750 22d30+87
+74700 830000
+8 8 1
+E
+#6017
+orion~
+Orion~
+Orion is sitting here playing chess with Anateus.
+~
+You see before you the typical Adonis type, well groomed, handsome
+and muscular. His long curly hair has a soft green tone, the colourful
+fishtail reminds you of a painting by Gauguin.
+~
+3401818 33960 500 E
+79 -40 -8 1d1+8100 15d30+75
+71100 790000
+6 6 1
+E
+#6018
+anateus~
+Anateus~
+Anateus is sitting by the chess board, trying to beat Orion.
+~
+Anateus is the playboy type. Although it is not very bright light here, 
+he wears dark sunglasses. His body seems well trained and in good shape.
+~
+3401818 33960 500 E
+81 -60 -9 1d1+8430 26d25+77
+72900 810000
+6 6 1
+E
+#6019
+dolphenya~
+Dolphenya~
+Dolphenya is on the bass doing her finger excercises.
+~
+Dolphenya is busy with her finger excercises she doesn't take any notice
+of you.
+~
+3164234 33832 150 E
+68 -35 -9 1d1+6350 15d20+60
+61200 680000
+8 8 2
+E
+#6020
+octophil~
+Octophil~
+Octophil is busy adjusting his drums.
+~
+Octophil adjusts his snare drum and then starts a drum solo which ends
+with his typical "boom bash bash boom boom booboorroom boom boom 
+boom boom boom boom boom BASHHHH!!!!!" 
+Ouch! your ears hurt and you instinctively take a step back.
+~
+3164234 33832 150 E
+68 -35 -8 1d1+6350 15d20+60
+61200 680000
+8 8 1
+E
+#6021
+sharkymark~
+Sharkymark~
+Sharkymark sits at his piano, slowly nodding from time to time.
+~
+Sharkymark shakes his head again and says:
+"Oh no man! I am not feeling the blues man, do you understand?
+Today is not my day, man... just go away."
+He lights himself a cigarette and ignores you.
+~
+3164234 33832 150 E
+68 -35 -8 1d1+6350 15d20+60
+61200 680000
+8 8 2
+E
+#6022
+crabarotti~
+Crabarotti~
+Crabarotti is the best aqua-rapper in the kingdom.
+~
+Crabarotti looks at you and says:
+"Hey man! cool... wanna do the rap with me?" He puts his arm on your 
+shoulder and starts to snap his fingers to a rhythm only he seems to hear.
+Then he starts to rap: 
+* My momma always said to me,
+* Crabbo come over here,
+* If you wanna be famous, boy
+* Don't loose control, just get into the groove, son...
+~
+3164234 33832 150 E
+68 -35 -8 1d1+6360 15d20+60
+61200 680000
+8 8 1
+E
+#6023
+diver~
+a diver~
+A deep sea diver is floating here, exploring the unknown.
+~
+The diver is well experienced and as you look at him he winks at you
+and gives you the sign, that everything is OK... so no need to worry
+about his well-being.  He does look just like the guy you met the 
+other day in the dive shop.  You greet him friendly and smile at him.
+~
+3164380 33832 50 E
+50 -25 0 1d1+3000 10d15+50
+45000 500000
+8 8 1
+E
+#6024
+waterbaby~
+a waterbaby~
+A waterbaby is paddling contentedly here, playing with the fishes.
+~
+The waterbaby is just like any other baby, cute, the only difference
+is that it was born in the water and swims naturally. As other babies
+play with toys, it's favourite toys are the fishes and dolphins.
+And of course it likes to provocate the octopuses and crabs until
+they try to grab or pinch it, then it vanishes quickly, gurgling
+happily.
+~
+16456 1040 800 E
+30 0 3 1d1+900 15d17+20
+27000 55000
+8 8 0
+E
+#6025
+seagull~
+a seagull~
+A seagull is looking for a crab here.
+~
+A seagull waddles along, pecking in the sand in search for food here.
+~
+92 64 0 E
+5 19 12 1d1+65 5d5+5
+35 650
+8 8 0
+E
+#6026
+giant clam~
+a giant clam~
+A giant clam sits here in the sand.
+~
+The thick mantle of the giant clam is blue-green in color.  Through a whole
+it filters water to eat algae and small particles in the water.
+~
+16474 1216 100 E
+35 4 5 1d1+800 13d19+22
+30500 126000
+8 8 0
+E
+#6027
+jellyfish~
+a jellyfish~
+A jellyfish is floating here.
+~
+The jellyfish's stinging tentacles reach far, keep your distance!
+The body looks like a purplish transparent bubble floating in the sea.
+~
+246008 1254 -100 E
+28 11 4 1d1+900 12d11+18
+25200 90000
+8 8 0
+E
+#6028
+dragonfly~
+a dragonfly~
+A dragonfly is buzzing here.
+~
+The colors of the rainbow are reflected on the wings of the dragonfly.
+It seems to stand still in the air while you take a brief look at it.
+~
+72 0 0 E
+2 18 13 1d1+20 2d5+2
+350 250
+8 8 0
+E
+#6029
+seahorse~
+a seahorse~
+A seahorse is clasping its tail around some seaweed.
+~
+The seahorse throws back its head and neighs loudly, then it shakes its mane 
+and stares curiously at you.
+~
+1132760 1192 -200 E
+42 0 -1 1d1+2200 5d42+22
+37800 130000
+8 8 0
+E
+#6030
+dugong~
+a dugong~
+A huge friendly dugong is feeding on some seaweed here.
+~
+The seacow shyly looks back at you and then keeps on tearing off grass with
+its muscular lips.~
+1130696 1192 150 E
+44 -10 -1 1d1+2600 15d16+24
+36900 260000
+8 8 0
+E
+#6031
+dolphin~
+a dolphin~
+A friendly dolphin observes you curiously.
+~
+As you look in the eyes of the friendly dolphin you see understanding and
+wisdom...the dolphin playfully splashes some water over you and pokes you
+in the ribs with its nose...
+~
+1071448 5292 750 E
+46 -7 0 1d1+3000 15d15+26
+41400 160000
+8 8 0
+E
+#6032
+barracuda~
+a barracuda~
+A barracuda swimms around you.
+~
+It is a long toothy savage looking fish.
+~
+18552 1128 -300 E
+30 -7 5 1d1+1000 13d20+20
+27000 118000
+8 8 0
+E
+#6033
+anemone~
+an anemone~
+An anemone sits here, its sticky tentacles waiting to trap prey.
+~
+The anemone is attached on the ground. It is one big network of nerve cells,
+with only one opening for feeding and waste products. It has whether heart 
+nor blood vessels.~
+16458 1088 -100 E
+30 10 5 1d1+500 15d19+10
+27000 90000
+6 6 0
+E
+#6034
+clownfish~
+a clownfish~
+A clownfish is swimming in and out of the anemone.
+~
+This beautiful little fish is brightly colored in white and orange.
+It has a close relationship with the anemone it lives in and attracts prey
+for it in return it gets a safe home from the anemone.~
+22728 1128 50 E
+30 9 6 1d1+700 13d15+10
+27000 95000
+8 8 0
+E
+#6035
+captain nepomuk~
+Captain Nepomuk~
+Captain Nepomuk is sitting here playing cards and drinking beer.
+~
+Captain Nepomuk was once a very famous man. He was feared by the pirates and
+known for his bravery. But now he cannot cope with the fact that his ship
+sank, he still pretends to have command. He now regularly gives orders to the
+fishes and mermaids since most of his crew died. Although they ignore him it
+keeps his spirits high.
+~
+3393626 1192 200 E
+55 -10 -5 1d1+3000 17d17+55
+49500 550000
+6 6 1
+E
+#6036
+sepp the immigrant~
+Sepp the immigrant~
+Sepp the immigrant has been playing cards here for centuries.
+~
+Sepp is the typical immigrant. His eyes full of hopes and expectations.
+His face shows the traces of hard work. The ship that should have brought him
+to a new world sank halfway through the journey. Ever since he with a few 
+survivors live in the dephts of the sea, rescued by mermaids. Forgotten by the
+world and lost forever, Sepp along with the rest of the survivors party most
+of the time, playing cards and having fun with the mermaids.
+~
+1294540 33792 100 E
+45 -10 -2 1d1+2000 16d17+25
+40500 450000
+8 8 1
+E
+#6037
+niklaas~
+Old Niklaas~
+Old Niklaas is standing behind the counter, grumbling in his foot long beard.
+~
+Old Niklaas stares back at you with a mischievous look in his eyes. He spent
+most of his life on sea or diving for lost treasures. His face bears the
+adventures of his long journeys, every wrinkle telling a different story
+of his numerous adventures.
+~
+2138 33554492 700 E
+30 -14 3 1d1+601 10d10+34
+27000 9225
+8 8 1
+E
+#6038
+nereus~
+Nereus~
+Nereus, the old man of the sea is sitting in a sofa, reading. 
+~
+Nereus didn't grow old - he always was old!
+His long beard almost touches the floor, interwoven in his hair you see
+some shells and algae - lord have mercy! Get this man to a barber!
+~
+3401816 33960 600 E
+60 -40 -7 1d1+4500 20d25+60
+54000 500000
+8 8 1
+E
+#6039
+sea turtle~
+a sea turtle~
+A sea turtle tries to get out of your way.
+~
+This old battered sea turtle has seen better days. It's hard shell is
+covered in old seaweed and barnacles.
+~
+72 64 50 E
+3 17 12 1d1+35 2d8+3
+1094 400
+8 8 0
+E
+#6040
+doris woman~
+Doris~
+A woman is sitting on the sofa, clearing her throat.
+~
+Doris is dressed in a long greenish seaweed gown. Everything about her has
+seen better days. Her oily hair has been put up, making her a foot or so
+taller than you!
+~
+3401816 33960 900 E
+57 -30 -6 1d1+4850 20d18+57
+51300 480000
+6 6 2
+E
+#6041
+spirit drowned~
+a Spirit of the Drowned~
+A Spirit of the Drowned is slowly drifting in the current.
+~
+This poor soul lost his life out here at sea, and now spending eternity
+wandering the depths of the ocean.
+~
+1048680 1152 -700 E
+50 -5 1 1d1+3490 10d15+50
+45000 270000
+8 8 0
+E
+#6042
+galatea~
+Galatea~
+Galatea is busy looking for a lost necklace. 
+~
+Daughter of Nereus and Doris, Sister of Thetis, Galatea is searching 
+for her lost amulet from an important suitor.
+~
+1304664 33960 400 E
+52 -20 -2 1d1+3200 15d20+52
+46800 400000
+8 8 2
+E
+#6043
+thetis~
+Thetis~
+Thetis is swimming around looking for Galatea.
+~
+One of the many beautiful Nereids borne to the Nereus household.  Her
+glistening fishtail slowly pushes her through the warm waters.
+~
+1304664 33960 400 E
+52 -20 -4 1d1+3200 15d19+52
+46800 520000
+8 8 2
+E
+#6044
+mer maid mermaid~
+the Mer Maid~
+A Mer Maid is swimming around wondering what to clean next.
+~
+Her work is never done, but if she ever started she might at least get
+something done!
+~
+1300700 263336 900 E
+50 -10 -2 1d1+3450 15d20+50
+45000 400000
+8 8 2
+E
+#6045
+soldier crab~
+the Soldier Crab~
+A cocky little Soldier Crab, fresh out of training camp, struts his stuff.
+~
+This little guy is amazing, his little eyes are looking all around as he tries
+to act as tough as possible.  His little claws and arms are slowly going thru
+the motions of his well practiced 'Killer Ninja Moves'.
+~
+3145800 0 10 E
+1 20 13 1d1+9 2d4+1
+900 250
+8 8 1
+E
+#6046
+albatross~
+a large albatross~
+A large albatross is busy preening his feathers.
+~
+A large white bird that flies across oceans to search for prey.  This guy
+looks like he is enjoying just standing in the sun and relaxing.
+~
+72 0 -900 E
+4 16 12 1d1+80 4d4+4
+2700 4000
+8 8 1
+E
+#6047
+swamp beast~
+a filthy swamp beast~
+A filthy little swamp beast is scurrying through the undergrowth.
+~
+This dirty little seaweed covered mini monster looks at you and gives you
+his meanest little growl. You feel like throwing him some food or giving
+him a scratch under the chin.
+~
+2120 0 -100 E
+2 18 13 1d1+19 2d3+2
+130 220
+8 8 1
+E
+$
+@
+
+
+1.6
+log
+@Artus> Sync.
+@
+text
+@d45 1
+a45 1
+A shark swimms around, observing you very closely!
+d47 1
+a47 1
+You see the perfect killer machine of the sea before you... specially 
+@
+
+
+1.5
+log
+@Artus> Checking In.
+@
+text
+@d106 1
+a106 1
+10 8 0 E
+d515 1
+a515 1
+2138 0 700 E
+@
+
+
+1.4
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@d10 2
+a11 2
+75 -35 -10 1d1+9000 10d20+70
+188000 2273000
+d24 2
+a25 2
+90 -80 -10 1d1+20000 40d30+95
+35000 7900000
+d38 2
+a39 2
+85 -80 -10 1d1+16000 25d40+90
+3000000 5200000
+d51 2
+a52 2
+79 -35 -9 1d1+11000 10d25+70
+116000 1800000
+d64 2
+a65 2
+75 -30 -8 1d1+11000 9d22+70
+196000 1730000
+d79 2
+a80 2
+77 -35 -10 1d1+12500 25d30+85
+308000 2350000
+d93 2
+a94 2
+55 -15 -10 1d1+3000 9d12+45
+100000 1020000
+d107 2
+a108 2
+97 -30 -10 1d1+30000 10d10+50
+10000 10
+d150 2
+a151 2
+72 -35 -7 1d1+9500 23d25+72
+290000 2300000
+d163 2
+a164 2
+73 -47 -9 1d1+11000 23d25+73
+300000 1350000
+d176 2
+a177 2
+60 -30 -7 1d1+9000 18d20+60
+280000 1550000
+d190 2
+a191 2
+60 -30 -7 1d1+7500 20d20+60
+310000 1700000
+d204 2
+a205 2
+80 -40 -10 1d1+10000 25d25+90
+900000 3900000
+d219 2
+a220 2
+83 -55 -10 1d1+21000 22d30+95
+960000 6000000
+d233 2
+a234 2
+79 -40 -8 1d1+19000 15d30+75
+800000 3800000
+d246 2
+a247 2
+81 -60 -9 1d1+20000 26d25+77
+700000 4500000
+d259 2
+a260 2
+68 -35 -70 1d1+9000 15d20+60
+303000 900000
+d274 2
+a275 2
+68 -35 -8 1d1+9000 15d20+60
+306000 900000
+d289 2
+a290 2
+68 -35 -8 1d1+9000 15d20+60
+312000 900000
+d308 2
+a309 2
+68 -35 -8 1d1+9000 15d20+60
+309000 900000
+d484 2
+a485 2
+55 -10 -8 1d1+3000 7d7+55
+300000 900000
+d530 2
+a531 2
+60 -40 -7 1d1+4500 10d15+60
+280000 500000
+d557 2
+a558 2
+57 -30 -7 1d1+7000 10d8+57
+250000 480000
+d596 2
+a597 2
+52 -20 -9 1d1+3200 15d19+52
+200000 400000
+@
+
+
+1.3
+log
+@Latest Versions
+@
+text
+@d323 2
+a324 2
+50 -25 -7 1d1+4000 10d15+50
+110000 600000
+d340 2
+a341 2
+30 0 0 1d1+900 7d7+20
+30000 55000
+d365 2
+a366 2
+35 15 5 1d1+800 3d9+22
+55000 126000
+d378 2
+a379 2
+28 12 2 1d1+900 2d11+18
+70000 90000
+d404 2
+a405 2
+42 0 -2 1d1+2200 5d42+22
+110000 130000
+d416 2
+a417 2
+44 -10 -3 1d1+2600 5d6+24
+120000 260000
+d430 2
+a431 2
+46 -7 -4 1d1+3000 5d5+26
+80000 160000
+d442 2
+a443 2
+30 -7 -3 1d1+1000 3d25+20
+70000 118000
+d455 2
+a456 2
+30 10 -1 1d1+500 5d9+10
+40000 90000
+d468 2
+a469 2
+30 13 -3 1d1+700 3d5+10
+45000 95000
+d501 2
+a502 2
+45 -10 -7 1d1+2000 6d7+10
+200000 500000
+d516 2
+a517 2
+30 -70 -10 1d1+29999 10d10+90
+350000 10
+d570 2
+a571 2
+50 -5 -5 1d1+5000 10d15+50
+180000 270000
+d583 2
+a584 2
+52 -20 -9 1d1+3200 15d20+52
+200000 400000
+d609 2
+a610 2
+50 -10 -9 1d1+3800 15d20+50
+200000 400000
+@
+
+
+1.2
+log
+@
+Changed:
+- Initial alpha commit on modified lib/world files
+@
+text
+@d121 1
+a121 1
+10 13 7 1d1+120 1d7+6
+d134 1
+a134 1
+6 15 7 1d1+105 2d4+6
+d352 1
+a352 1
+5 19 9 1d1+40 2d3+5
+d391 1
+a391 1
+2 18 9 1d1+18 1d5+2
+d543 1
+a543 1
+3 17 5 1d1+35 1d8+3
+d623 2
+a624 2
+1 20 9 1d1+9 1d1+1
+1234 250
+d636 1
+a636 1
+4 16 8 1d1+80 2d3+4
+d650 1
+a650 1
+2 18 9 1d1+19 2d3+2
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d9 1
+a9 1
+3156320 1184 -600 S
+d11 3
+a13 2
+188000 2273000 
+8 8 0 6
+d23 1
+a23 1
+3403378 566432 -1000 S
+d25 3
+a27 2
+3500000 7900000
+8 8 2 6
+d37 1
+a37 1
+3405906 5280 1000 S
+d40 2
+a41 1
+6 6 1 2
+d50 1
+a50 1
+3403892 1176 -1000 S
+d53 2
+a54 1
+8 8 0 6
+d63 1
+a63 1
+3170400 787626 -350 S
+d66 2
+a67 1
+8 8 0 6
+d78 1
+a78 1
+3401842 1184 0 S
+d81 2
+a82 1
+8 8 2 6
+d92 1
+a92 1
+124996 263208 0 S
+d95 2
+a96 1
+8 8 2 6
+d106 1
+a106 1
+2 8 0 S
+d109 2
+a110 1
+8 8 1 2
+d120 1
+a120 1
+64 0 0 S
+d123 2
+a124 1
+8 8 0 2
+d133 1
+a133 1
+66 0 50 S
+d136 2
+a137 1
+8 8 0 2
+d149 1
+a149 1
+3164226 33960 0 S
+d152 2
+a153 1
+6 6 2 6
+d162 1
+a162 1
+3164226 33960 0 S
+d165 2
+a166 1
+8 8 2 7
+d175 1
+a175 1
+3164226 33960 0 S
+d178 2
+a179 1
+8 8 2 7
+d189 1
+a189 1
+3164226 33960 0 S
+d192 2
+a193 1
+6 6 2 7
+d203 1
+a203 1
+3369330 38060 350 S
+d206 2
+a207 1
+6 6 2 2
+d218 1
+a218 1
+3401810 33960 500 S
+d221 2
+a222 1
+8 8 1 2
+d232 1
+a232 1
+3401810 33960 500 S
+d235 2
+a236 1
+6 6 1 2
+d245 1
+a245 1
+3401810 33960 500 S
+d248 2
+a249 1
+6 6 1 2
+d258 1
+a258 1
+3164226 33832 150 S
+d261 2
+a262 1
+8 8 2 6
+d273 1
+a273 1
+3164226 33832 150 S
+d276 2
+a277 1
+8 8 1 6
+d288 1
+a288 1
+3164226 33832 150 S
+d291 2
+a292 1
+8 8 2 6
+d307 1
+a307 1
+3164226 33832 150 S
+d310 2
+a311 1
+8 8 1 6
+d322 1
+a322 1
+3164372 33832 50 S
+d325 2
+a326 1
+8 8 1 6
+d339 1
+a339 1
+16456 1040 800 S
+d342 2
+a343 1
+8 8 0 6
+d351 1
+a351 1
+84 64 0 S
+d354 2
+a355 1
+8 8 0 8
+d364 1
+a364 1
+16466 1216 100 S
+d367 2
+a368 1
+8 8 0 6
+d377 1
+a377 1
+246000 1254 -100 S
+d380 2
+a381 1
+8 8 0 6
+d390 1
+a390 1
+64 0 0 S
+d393 2
+a394 1
+8 8 0 8
+d403 1
+a403 1
+1132752 1192 -200 S
+d406 2
+a407 1
+8 8 0 6
+d415 1
+a415 1
+1130688 1192 150 S
+d418 2
+a419 1
+8 8 0 6
+d429 1
+a429 1
+1071440 5292 750 S
+d432 2
+a433 1
+8 8 0 6
+d441 1
+a441 1
+18544 1128 -300 S
+d444 2
+a445 1
+8 8 0 6
+d454 1
+a454 1
+16450 1088 -100 S
+d457 2
+a458 1
+6 6 0 6
+d467 1
+a467 1
+22720 1128 50 S
+d470 2
+a471 1
+8 8 0 6
+d483 1
+a483 1
+3393618	1192 200 S
+d486 2
+a487 1
+6 6 1 1
+d500 1
+a500 1
+1294532 33792 100 S
+d503 2
+a504 1
+8 8 1 1
+d515 1
+a515 1
+2130 0 700 S
+d518 2
+a519 1
+8 8 1 2
+d529 1
+a529 1
+3401808 33960 600 S
+d532 2
+a533 1
+8 8 1 2
+d542 1
+a542 1
+64 64 50 S
+d545 2
+a546 1
+8 8 0 6
+d556 1
+a556 1
+3401808 33960 900 S
+d559 2
+a560 1
+6 6 2 6
+d569 1
+a569 1
+1048672 1152 -700 S
+d572 2
+a573 1
+8 8 0 6
+d582 1
+a582 1
+1304656 33960 400 S
+d585 2
+a586 1
+8 8 2 6
+d595 1
+a595 1
+1304656 33960 400 S
+d598 2
+a599 1
+8 8 2 6
+d608 1
+a608 1
+1300692 263336 900 S
+d611 2
+a612 1
+8 8 2 6
+d622 1
+a622 1
+3145792 0 10 S
+d625 2
+a626 1
+8 8 1 6
+d635 1
+a635 1
+64 0 -900 S
+d638 2
+a639 1
+8 8 1 8
+d649 1
+a649 1
+2112 0 -100 S
+d652 3
+a654 3
+8 8 1 6
+#99999
+$~
+@
+

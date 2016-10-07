@@ -1,0 +1,166 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.08;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@#24000
+sand person tuskan raider~
+the sand person~
+A Tuskan Raider is standing here, preparing to attack.
+~
+The Tuskan Raider, or sand person, is dressed in a strange brown
+cloak. It seems to have its head rapped in some sort of cloth with 
+small lens' sticking out for it to see through. These things roam the
+desert attacking unsuspecting travellers, stealing their belonging, 
+and leaning them for dead in the desert.
+~
+236 1024 -610 E
+13 3 9 1d12+161 7d7+12
+900 15000
+8 8 0
+E
+#24001
+sand person tuskan raider~
+the sand person~
+A sand person is standing here, preparing to attack.
+~
+The Tuskan Raider, or sand person, is dressed in a strange brown
+cloak. It seems to have its head rapped in some sort of cloth with 
+small lens' sticking out for it to see through. These things roam the
+desert attacking unsuspecting travellers, stealing their belonging, 
+and leaning them for dead in the desert.
+~
+236 1024 -610 E
+13 3 9 1d12+161 7d7+6
+900 15000
+8 8 0
+E
+#24002
+sand person tuskan raider leader~
+the leader of the sand people~
+The leader of the sand people is standing here.
+~
+The Tuskan Raider, or sand person, is dressed in a strange brown
+cloak. It seems to have its head rapped in some sort of cloth with 
+small lens' sticking out for it to see through. These things roam the
+desert attacking unsuspecting travellers, stealing their belonging, 
+and leaning them for dead in the desert.
+~
+59498 1024 -610 E
+25 0 5 1d49+501 10d10+10
+20000 90000
+8 8 0
+E
+#24003
+jawa~
+a jawa~
+A jawa is standing here, trying to sell you a droid.
+~
+The Jawa is very short and is wearing a brown, hooded cloak that
+covers its whole body. All you can see of its face are its glowing
+eyes that shine out from under its hood.
+~
+12 1024 0 E
+7 12 11 1d11+86 5d5+3
+150 2200
+8 8 0
+E
+#24004
+bantha~
+a bantha~
+A large wooly bantha is standing here.
+~
+Bantha's are large hairy beasts that are native to the deserts of 
+Tatooine. They are fairly tame and are used by the sand people as
+a form of transport.
+~
+200 0 0 E
+11 10 10 1d12+136 8d6+3
+750 9500
+8 8 0
+E
+$
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d45 1
+a45 1
+25 0 -4 1d49+501 5d6+4
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d12 2
+a13 2
+228 1024 -610 S
+13 2 2 1d12+161 3d7+1
+d15 2
+a16 1
+8 8 0 2
+d28 2
+a29 2
+228 1024 -610 S
+13 2 2 1d12+161 3d7+1
+d31 2
+a32 1
+8 8 0 2
+d44 1
+a44 1
+59490 1024 -610 S
+d47 2
+a48 1
+8 8 0 2
+d58 2
+a59 2
+4 1024 0 S
+7 12 4 1d11+86 3d3+1
+d61 2
+a62 1
+8 8 0 2
+d72 2
+a73 2
+192 0 0 S
+11 10 2 1d12+136 2d6+1
+d75 3
+a77 2
+8 8 0 3
+$~
+@
+

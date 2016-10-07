@@ -1,0 +1,54 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@tg tag $*
+pp put all.red backpack
+av assist valium
+tr track grand
+gimme get all.coins all.corpse
+gac get all corpse
+qr q red
+home reci recall
+km kill merchant
+gr grats .oOo.$* .oOo.
+grr get all.potion backpack drop all.potion
+bt rem oak ; wiled dagger
+arm rem oak ; wield dagger
+dis rem dagger ; wield oak
+rr reci recall $*
+gg get all.potion backpack ; drop all.potion
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

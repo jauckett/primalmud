@@ -1,0 +1,62 @@
+sl cast 'sense life' mrflib
+ga get gold corpse
+qw get white kit;q white
+dg cast 'dimension gate' $*
+dra cast 'dragon' mrflib
+ew cast 'enchant weapon' $*
+sa cast 'spirit armor' mrflib
+da cast 'detect alignment' $*
+fi cast 'finger of death' $*
+pg cast 'protection from good' mrflib
+pe cast 'protection from evil' mrflib
+wb cast 'waterbreath' mrflib
+ps primal scream
+ha cast 'haste' mrflib
+id cast 'identify' $*
+lc2 l in 2.corpse
+3 get prot crate;q prot
+sum cast 'summon' $*
+bo n;e;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;e;e;e;e;e;e;e
+rp cast 'remove poison' mrflib
+ref cast 'refresh' mrflib
+h cast 'heal' mrflib
+r cast 'word of recall'
+qc get corpse;junk corpse
+lb cast 'lightning bolt' $*
+ho recite scroll recall
+bh cast 'burning hands' $*
+lc look in corpse
+ws wake;stand
+gc get all corpse
+infra cast 'infravision'
+kb kill beggar
+gag get gold all.corpse
+li cast 'lightning bolt' $*
+inv cast 'invisibility' mrflib
+cc cast 'cure critical' mrflib
+di cast 'detect invisibility' mrflib
+loc cast 'locate object' $*
+gocry w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;n;e;e;n;n;n;n
+he gos Howdy :)
+dar n;e;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n
+rom n;e;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w
+sanc cast 'sanctuary' mrflib
+gk get key corpse
+ww cast 'waterwalk' mrflib
+str cast 'strength' mrflib
+tel cast 'teleport'
+hh cast 'advanced heal' mrflib
+gocloud autoexit;s;s;s;w;w;w;s;s;s;s;u;u;u;u;n;n;e;n;e;open tooth;d;s;s;e;s;w;s;s;autoexit
+fl cast 'fly' mrflib
+cl cast 'clone' mrflib
+4 get heal kit;q heal
+7 order clone assist mrflib;order 2.clone assist mrflib
+8 order followers autoassist mrflib
+bl cast 'bless' mrflib
+ar cast 'armor' mrflib
+pa cast 'paralyze' $*
+2 rem hat;wear helm
+1 rem helm;wear sombrero
+re retreat
+og open gate;go gate; stand
+ear cast 'earthquake'

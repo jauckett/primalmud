@@ -1,0 +1,4 @@
+kk kick $*
+mm cast 'magic missile' $*
+cl cast 'cure light' $*
+a cast 'armor' $*

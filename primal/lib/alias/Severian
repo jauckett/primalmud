@@ -1,0 +1,75 @@
+fshi cast 'fire shield'
+greece s;e;e;e;e; open gate;e;e;e;e;e;e;e;e;s;s;s;s;e
+gate cast 'dimensional gate' $*
+walk cast 'waterwalk' Severian
+whir cast 'whirlwind'
+loot get corpse; get all corpse; junk corpse
+camelot e;d;e;e;e;e;s;s;e;e;e;e;e;n;n;n
+quak cast 'earthquake'
+fear cast 'fear' $*
+loc cast 'locate object' $*
+water cast 'waterbreath' Severian
+sarm cast 'spirit armor' Severian
+aid cast 'holy aid' Severian
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+harm cast 'harm' $*
+id cast 'identify' $*
+heal cast 'heal' Severian
+para cast 'paralyze' $*
+darask n;n;n;w;w;n;n;n;n;n
+swords e;e;e;s;s;e;e;s;s;s;s;e;e;e;e;e
+charm cast 'charm' $*
+summon cast 'summon' $*
+sanc cast 'sanctuary' Severian
+ref cast 'refresh' Severian
+infra cast 'infravision' Severian
+dali cast 'detect alignment' Severian
+inv cast 'invisibility' Severian
+drag cast 'dragon' Severian
+dmag cast 'detect magic' Severian
+dinv cast 'detect invisibility' Severian
+arm cast 'armor' Severian
+z tell latona $*
+f cast 'fireball' $*
+9 cast 'word of recall'
+l cast 'lightning bolt' $*
+pad5 e;s;s;w;w;w;w;s;s;w
+4 get red tool; q red
+2 get prot tool; q prot
+3 get heal tool; q heal
+main w;s;e;e;e;e;s;s;
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+0 flee
+plains s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e
+1 get white tool; q white
+8 get recall tool; recite recall
+b backstab $*
+jimmy w;s;e;s; go stage;e;e;e;e;u
+home n;n;w;w;w;w;n;e
+mountains s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w
+rand w;s;s;e;e;e;e;e;e;e
+cl cast 'call lightning' $*
+bl cast 'bless' Severian
+thalos w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+oasis w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;s;w;n;n;e;e;e;e;e;n;e
+blind cast 'blindness' $*
+zzz cast 'sleep' $*
+sens cast 'sense life' Severian
+de cast 'dispel evil' $*
+dg cast 'dispel good' $*
+dprot cast 'divine protection' Severian
+plas cast 'plasma blast' $*
+str cast 'strength' Severian
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+fing cast 'finger' $*
+met cast 'meteor swarm'
+fly cast 'fly' Severian
+hast cast 'haste' Severian
+wra cast 'wraith touch' $*
+shi cast 'lightning shield'
+aheal cast 'advanced heal' Severian
+clon cast 'sanc' clone; cast 'sanc' 2.clone; cast 'sense life' clone; cast 'sense life' 2.clone; cast 'infravision' clone; cast 'infravision' 2.clone; cast 'bless' clone; cast 'bless' 2.clone; cast 'armor' clone; cast 'armor' 2.clone
+dheal cast 'divine heal' Severian
+cloud cast 'cloud kill'
+scorpion s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;e;s;s;s;cast 'waterwalk';s;s;s;s;s;w;w;s;s;s;e;s;s;s;s;w;w;s;s;s
+init wear all; wield pistol; hold chef; hold jack

@@ -1,0 +1,7 @@
+qw quaff white
+wr cast 'word'
+ch cast 'heal' $*
+gac get all corpse
+gacget all corpse
+lic look in corpse
+hm tell cerin heal

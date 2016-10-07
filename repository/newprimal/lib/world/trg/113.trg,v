@@ -1,0 +1,36 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2004.01.31.03.17.44;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Artus> 100: Sync, the rest are additions.
+@
+text
+@#11300
+Bus~
+1 f 100
+~
+say My trigger commandlist is not complete!
+~
+#11301
+door 1 opens~
+1 fg 100
+~
+say My trigger commandlist is not complete!
+~
+$~
+@

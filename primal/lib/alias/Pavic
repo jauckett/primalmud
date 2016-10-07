@@ -1,0 +1,26 @@
+ci c 'infravision'
+cd c 'dragon'
+cin c 'invisibility'
+inv inventory
+in c 'infravision'
+cp c 'plasma'
+ah c 'advanced heal' pavic
+ha cast 'holy aid' 
+di cast 'detect invisibility'
+qp get protection force;quaff protection
+phf put all.heal force
+qh get heal force;quaff heal
+qw get white force;quaff white
+qr get red force;quaff red
+em get meat backpack;eat meat
+gac get all corpse
+cc cast 'cure critical' Pavic
+b backstab
+cf cast 'create food';eat mushroom
+ds get skin force;drink skin;put skin force
+rr get recall force;recite recall
+wr cast 'word of recall'
+cl call lightning
+cb c 'bless'
+cv c 'invisibility'
+san c 'sanctuary'

@@ -1,0 +1,68 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@recall cast 'w o r' $1
+heal cast 'cure critic' self
+id rec identify $1
+sac get corpse; junk corpse
+hi gos Hello World; wear all
+equ : Hits the ground with his fist....and there is an earthquake!;c 'earthquake'
+da c 'detect alignment' Hppy
+bye gossip Good bye cruel MUD. :) Just kidding about the cruel part.  I will be back.;rent
+food c 'create food' Hppy;eat mushroom
+red get red backpack;q red
+rr recite recall
+infra c 'infravision' Hppy
+water c 'create water' skin
+str c 'strength' Hppy
+p practice
+pabp put all backpack
+meat get meat backpack;eat meat
+gac get all all.corpse
+ah say ahh right.
+lvl gossip I have L E V E L E D ! ! !
+a assist pirate
+cure c 'cure critic' $1
+inv c 'invisibility' $1
+sum c 'summon' $1
+@@ gos $*
+mm c 'magic missile' $*
+- sleep
++ wake;st
+armor c 'armor' self
+r get red backpack;q red
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,608 @@
+#1100
+featureless mob proxy~
+the featureless mob~
+A mob stands here, completely void of features.
+~
+Yet to be defined, there is nothing of all interesting about this mob.
+~
+24371226 637665440 0 E
+99 -79 -20 1d1+11880 99d10+99
+0 318117
+8 8 0
+E
+#1101
+jeweler~
+the Jeweler~
+This is the Jeweler, don't mess with him.
+~
+The Jeweler.
+~
+17031194 33566888 0 E
+99 -13 -15 1d1+1070 9d110+33
+89100 318117
+8 8 1
+E
+#1102
+storekeeper~
+the Storekeeper~
+The storekeeper stands behind the counter, with a slightly impatient look on his face.
+~
+The tall storekeeper, who moves two 100 pound bags of flour around on his shoulders.
+~
+253978 33566888 0 E
+89 -20 -16 1d1+9000 80d10+30
+15000 890000
+8 8 1
+E
+#1103
+weaponsmith~
+the Weaponsmith~
+The weaponsmith stands confidently behind the counter.
+~
+The weaponsmith looks like a master in the use of all types of weapons.
+~
+17031194 33566856 0 E
+89 -20 -16 1d1+2500 15d20+30
+15000 231001
+8 8 1
+E
+#1104
+armourer~
+the Armourer~
+The Armourer stands behind the counter.
+~
+An old but strong looking armourer.
+~
+17031194 33566856 0 E
+89 -20 -16 1d1+2500 25d20+30
+15000 231001
+8 8 1
+E
+#1105
+receptionist~
+the Receptionist~
+A receptionist is standing behind the counter here, smiling at you.
+~
+You notice a tired look in her face.  She looks like she isn't paid well
+enough to put up with any crap from mud players with attitudes.
+~
+16787467 32 900 E
+89 -10 -10 1d1+5000 20d20+85
+0 231001
+8 8 2
+E
+#1107
+blacksmith repairer~
+the drunken blacksmith~
+The very drunk blacksmith is swaying here.
+~
+Once a very strong man who was capable of knocking a clyesdale horse out cold
+but now a drunken mess of a man.  The death of his wife has shattered his life,
+he has turned to the ale to drown his sorrows.  Somehow he still manages to get
+his job done!  But god only knows how!    
+~
+24373258 570425388 0 E
+95 -55 -15 1d1+1025 3d127+75
+0 950000
+8 8 1
+BareHandAttack: 7
+E
+#1108
+alchemist~
+the Alchemist~
+An Alchemist walks around behind the counter, talking to himself.
+~
+The alchemist looks old and senile, and yet he looks like a very powerful
+wizard. He is equipped with fine clothing, and is wearing many fine
+rings and braclets.
+~
+17031194 33566888 0 E
+89 -20 -16 1d1+2500 15d20+30
+15000 231001
+8 8 1
+E
+#1109
+wizard~
+the Wizard~
+A Wizard walks around behind the counter, talking to himself.
+~
+The wizard looks old and senile, and yet he looks like a very powerful
+wizard. He is equipped with fine clothing, and is wearing many fine
+rings and braclets.
+~
+17031194 33566888 0 E
+89 -20 -16 1d1+2500 25d20+30
+15000 231001
+8 8 1
+E
+#1110
+guildmaster master ageing witch~
+an Ageing Witch~
+A powerful, yet frail old witch stands before you.
+~
+Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge she possesses.  She is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.
+~
+17033242 12416 0 E
+89 -20 -16 1d1+2500 25d20+30
+0 231001
+8 8 2
+E
+T 1151
+#1111
+guildmaster master cleric~
+an Old Cleric~
+An Old Cleric dressed in a loose white robe is here to assist you.
+~
+You are in no doubt that this guildmaster is truly close to your god; he has
+a peaceful, loving look.  You notice that he is surrounded by a white aura.
+~
+17033242 12416 0 E
+89 -20 -16 1d1+2500 25d20+30
+0 231001
+8 8 1
+E
+T 1150
+#1112
+master guildmaster thief shady character~
+the Master of Thieves~
+A very wise, yet shady looking character is standing here.
+~
+You realise that whenever your guildmaster moves, you fail to notice it -
+the way of the true thief. He is dressed in poor clothing, having the
+appearance of a beggar.
+~
+17557530 13440 0 E
+89 -20 -16 1d1+2500 20d25+30
+0 231001
+8 8 1
+E
+T 1153
+#1113
+guildmaster master burly warrior~
+a Seasoned Warrior~
+A burly battle-scarred warrior stands here.
+~
+This is your master. Big and strong with bulging muscles. Several scars
+across his body proves that he was using arms before you were born. He
+has a calm look on his face.
+~
+17033243 12416 0 E
+89 -20 -16 1d1+2500 20d25+30
+0 231001
+8 8 1
+E
+T 1152
+#1114
+guildmaster master~
+Priest~
+Your guildmaster is standing here.
+~
+If you look closely at the Priest standing in front of you
+you may be able to see the slight crazy glint to his eye.
+All the years of hard practice has taken its toll on this
+poor man.
+~
+24371290 65536 -1000 E
+100 -30 -13 30d150+0 30d20+50
+0 327875
+8 8 1
+BareHandAttack: 8
+E
+T 1154
+#1115
+guildmaster master spellsword~
+the Spellsword Master~
+The Spellsword master stands here waiting to assist you.
+~
+The spellsword guildmaster is a man who was once a thief but decided
+he wanted to learn the arts of a magician. He discovered his true
+calling in life and has devoted his time to other thieves who want
+to learn the art of the mage.  He is also very happy to teach a magician
+the arts of the thief!
+~
+24371290 65536 0 E
+100 -30 -20 30d100+0 30d10+50
+1 327875
+8 8 1
+E
+T 1156
+#1116
+guildmaster master nightblade~
+the NightBlade Guildmaster~
+A battle scarred NightBlade guildmaster is quietly moving around here.
+~
+A graceful, yet powerful woman stands before you. She is
+dressed in close fitting black leggings and a tight,
+thin jacket, under which you catch a glimpse of chain
+mail armour and the handle of a dagger.
+~
+20176970 8650880 0 E
+89 -30 -10 30d100+5000 20d25+50
+0 231001
+8 8 2
+BareHandAttack: 11
+E
+T 1155
+#1117
+armour clad mage guildmaster master battlemage~
+the BattleMage master~
+The armour clad Battlemage stands before you.
+~
+A strong and powerful man stand before you. He is dressed in heavy
+plate mail armour, which has served him well, judging by the dents.
+You notice a small amulet around his neck and a red glow in his
+eyes, he must posses some supernatural powers.
+~
+20176970 130 1000 E
+100 -30 -20 30d3+11999 20d50+50
+2 1000000
+8 8 1
+E
+T 1157
+#1118
+warrior paladin master guildmaster~
+the Paladin Master~
+A warrior stands before you, his armour is covered by a priestly robe.
+~
+You see a strong young man who wears a long robe over his armour.
+At closer examination you notice that religious insignia adorns
+not only the robe, but the armour itself.
+~
+20176970 4264 1000 E
+100 -30 -20 1d1+2500 30d30+50
+2 327875
+8 8 1
+E
+T 1158
+#1119
+amorphous presence guildmaster master~
+the Amorphous Being~
+An Amorphous Being is here, without being present, it is real, although it does not exist.
+~
+As you stare intensely into the point where your senses tell you the
+being must be, you see nothing but the ever changing wall of the room
+You realise that the being in question is perfect, and you only sense
+it because it wishes to be sensed. The being has mastered the universe.
+~
+20176970 917514 0 E
+100 -30 -20 1d1+2580 30d30+50
+0 327875
+8 8 1
+E
+#1120
+guard~
+the City Guard~
+A City Guard is here keeping law and order.
+~
+The guard is heavily armoured and looks like a very skilled warrior.
+~
+2191 0 1000 E
+15 5 8 8d10+450 7d7+5
+8829 20000
+8 8 1
+E
+#1121
+postmaster post master~
+the Postmaster~
+The head Postmaster is standing here, waiting to help you with your mail.
+~
+The Postmaster seems like a happy old man, though a bit sluggish.  He worries
+about the reputation of the HMS (Haven Mail Service), as many people seem to
+think that it's slow. Perhaps if he were to brush the cobwebs from his uniform
+it'd help to make a better impression.
+~
+16779275 8 1000 E
+33 0 2 1d1+1500 10d30+18
+0 300000
+8 8 1
+E
+#1135
+druid guild guildmaster master~
+the Druid Guildmaster~
+A druid is here mixing herbs and muttering incantations.
+~
+As you peer into the Guildmaster's eyes you are mesmerized by the mystical
+powers this man possesses.  Once a simple cleric, this man's knowledge of
+plants and animals gives him mastery over forests and woodlands.  You are sure
+he can teach you many useful things.    
+~
+24895578 75576508 0 E
+100 -30 -20 30d150+0 30d30+50
+0 327875
+8 8 1
+E
+T 1159
+#1140
+Gamina newbie helper~
+Gamina the newbie helper~
+Radiating goodness and kindness, Gamina the newbie helper stands here.
+~
+She's a striking young woman in her early 20s.  Long dark brown hair falls in
+waves over her shoulders, and her piercing blue eyes stare back at you
+intently.  You get the impression she is wise beyond her years, and could be of
+great assistance to you in starting out on your adventures.    
+~
+24895578 637547656 1000 E
+100 -30 -20 1d1+11090 30d30+50
+1 327875
+8 8 2
+BareHandAttack: 13
+E
+T 1160
+T 1161
+T 1162
+T 1163
+T 1167
+T 1168
+T 1169
+T 1170
+#1200
+dog rabid~
+the Rabid Dog~
+A Rabid Dog is here snarling at you.
+~
+The dog completely mad and foaming at the mouth.
+It looks like it would attack anything on site.
+~
+104 0 -500 E
+1 20 13 1d6+4 1d4+0
+10 100
+8 8 1
+BareHandAttack: 4
+E
+#1201
+beggar~
+the Beggar~
+A Beggar is here asking for a few coins.
+~
+The begger looks undernourished and sickly.
+~
+76 0 0 E
+1 20 13 1d6+10 2d2+0
+10 100
+8 8 1
+E
+#1202
+Travelling salesman~
+the travelling salesman~
+A travelling salesman is wandering the streets.
+~
+This poor guy has lead a hard life on the road trying to sell his wares.  He
+moves from house to house and hopes to sell what he has!    
+~
+8 0 0 E
+0 20 14 1d1+15 2d3+0
+0 350
+8 8 1
+E
+#1203
+goblin~
+the Goblin~
+A small ugly Goblin is here
+~
+The goblin looks repuslive, and sneaky.
+~
+76 0 -100 E
+1 19 14 1d8+3 1d6+1
+571 100
+8 8 1
+E
+#1204
+wight~
+the Wight~
+A Disgusting Wight is here, looking at you with evil red eyes.
+~
+The wight is an abomination and the product of some evil magic. The can vaguely
+make out the human features of this hideous creature but the wight is now far
+from human...
+~
+106 138 -1000 E
+5 15 13 5d8+55 2d8+5
+2542 900
+8 8 1
+E
+#1205
+merchant~
+the merchant~
+A merchant is standing here in fine robes.
+~
+The merchant looks pretty tough.
+~
+140 0 100 E
+9 11 10 3d10+120 3d9+3
+3512 6000
+8 8 1
+E
+#1206
+traveller~
+the traveller~
+A seasoned traveller stands here enjoying the fresh air.
+~
+The traveller looks like he has travelled throughout the land.
+~
+140 0 0 E
+15 5 8 3d10+190 4d12+5
+5650 20000
+8 8 1
+E
+#1207
+drunk~
+the drunk~
+A singing happy drunk is here.
+~
+The drunk is pissed out of his head.
+~
+8 0 0 E
+2 20 13 1d8+25 2d4+4
+80 200
+8 8 1
+E
+#1208
+citizen~
+the citizen~
+A citizen of Haven is here going about their business.
+~
+The citizen looks quite bored.
+~
+8 0 0 E
+3 17 14 3d9+10 2d7+3
+1193 350
+8 8 1
+E
+#1209
+trickster~
+the trickster~
+A trickster is here practicing magic tricks.
+~
+The trickster still has a lot to learn.
+~
+201 24 0 E
+8 12 11 3d6+68 5d5+3
+1947 3750
+8 8 1
+E
+#1210
+janitor~
+the janitor~
+A janitor is here sweeping the street.
+~
+The janitor looks quite bored.
+~
+9 0 0 E
+3 17 16 3d9+10 3d7+3
+500 350
+8 8 1
+E
+#1211
+deadly virus~
+a Deadly Virus~
+a Deadly Virus is floating in the air around here.
+~
+the deadly virus is moving towards you.
+~
+254024 50 0 E
+3 17 13 3d9+10 3d7+3
+1 350
+8 8 0
+E
+#1212
+bacteria~
+a Bacteria~
+a Bacteria is here hunting virii
+~
+the Bacteria is looking for a virus
+~
+254024 58 0 E
+30 0 3 3d6+1000 10d9+15
+500 45960
+8 8 0
+E
+#1213
+altar priest~
+an Altar priest~
+An altar priest is here, he is very busy.
+~
+The priest hold a blooded dagger and looks Excited!
+~
+11 0 0 E
+3 17 12 3d9+10 2d7+3
+1193 350
+8 8 1
+E
+#1214
+master trainer~
+the Master Trainer~
+Master Trainer is standing here.
+~
+Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge she possesses.  She is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.
+~
+17033243 33566888 0 E
+89 -20 -16 1d1+2500 40d20+93
+0 231001
+8 8 2
+E
+#1215
+citizen~
+the citizen~
+A citizen of Haven is here going about their business.
+~
+The citizen looks quite bored.
+~
+72 0 0 E
+3 17 12 3d9+10 2d7+3
+1193 350
+8 8 1
+E
+#1216
+werewolf wolf~
+the werewolf~
+A large viscious looking wolf is standing here, growling softly.
+~
+This large beast could be the fabled Werewolf of Haven. You have
+heard some very disturbing stories about what this thing has done
+to some of the citizens of Haven, but surely they're just stories...
+~
+1056781 1024 -1000 E
+20 0 7 10d10+725 10d10+7
+0 100000
+8 8 0
+BareHandAttack: 4
+E
+#1223
+bartender innkeep fat lazy slob~
+fat lazy slob~
+A fat burly slob makes a half hearted effort at cleaning the bar, running his rag through the dirt.
+~
+The bartender is a fat lazy slob, this bar makes enough money to employ several
+helpers and renovate the place. Instead he guards every coin that crosses his
+palm with the jealousy of a dragon protecting its hoard.
+~
+3399690 1192 0 E
+89 -70 -9 50d50+5000 10d50+90
+80100 231001
+8 8 1
+E
+T 1100
+#1224
+Guard~
+the Guard~
+A very tough looking guard is here, waiting for money.
+~
+Very tough, and somewhat surly, this guard won't let you past without paying
+the toll.
+~
+124954 13480 0 E
+89 -18 -16 1d1+9890 20d20+93
+0 890000
+8 8 1
+E
+#1225
+sexy dgbitch~
+the sexy dgbitch~
+The sexy dgbitch stands here demonsrating her simple dgscript capabilities.
+~
+She looks rather sexy.
+~
+524362 0 0 E
+50 4 4 1d1+540 20d20+16
+0 41156
+8 8 2
+E
+T 1105
+#1226
+an unfinished mob~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+8 8 0
+E
+$

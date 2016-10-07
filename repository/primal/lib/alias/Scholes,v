@@ -1,0 +1,155 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@; cast 'heal' guard
+o cast 'heal' guard
+da cast 'detect alignment'
+tudor e;n;e;e;e;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;d;e;d;cast 'refresh' self' ;s;s;s;s;s;e;s;s;n;n;n;n;e;e;cast 'refresh' self;e;e;s;w;w;s;w;w;s;s;s;s;
+howl holl HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+rp cast 'remove poison' self
+. cast 'heal' scorfio
+g group all
+cus cast 'curse' $1
+app n;n;n;e;e;
+cgs cast 'group sanctuary'
+ug ungroup
+fly cast 'fly' self
+cms cast 'meteor swarm' $1
+cur cast 'curse' $1
+4 emote closes his eyes and utters the words 'Elephant'; A elephant appears on top of $1 head; $1 is CRUSHED by the elephant
+5 say heal me
+ungroup 
+cdg cast 'dimension gate' $1 ; open gate; go gate; say wow what a way to travel through time and space....hmmmm I think I saw John lennon; stand
+- train mana
+3 emote closes his eyes and utter the words 'bugis';emote now have a durain in his hands; emote throw the durain at $1
+2 emote stare at $1 and utters the words 'level' and $1 levelled
+1 emote closes his eyes and utters the words 'durain';emote peel open the durain and finish it in one big mouth
+db cast 'clone' self
+cw cast 'sanctuary' self
+cf cast 'finger of death' $1
+ca cast 'advance heal' self
+cha cast 'charm' $1
+bs rem hammer; open crate; get dagger crate; wi dagger; backstab $1 ;rem dagger; wi hammer; 
+chm cast 'harm' $1
+ccl cast 'cure light' shar
+sa get all;wear all;get all;hold pen; hold dragon;wi fist; open crate; put all crate; close crate;
+q n backstab loke
+a1 open crate; get fist crate; rem sword; wi fist
+a2 rem fist; wi sword
+tp track apprentice
+t1 track spider
+havcc w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;cast 'refresh' self;e;e;e;e;e;n;e;n;n;n;n
+po open crate; get orange crate; quaff orange; close crate
+t track $1
+pb open crate; get blue crate; quaff blue; close crate
+fill open crate; get skin crate; fill skin fountain; put skin crate; close crate
+dw open crate; get skin crate; drink skin; put skin crate; close crate
+tz track soldier
+refresh cast 'refresh' $1
+rrc cast 'word of recall' self
+py open crate; get yellow crate; quaff yellow; close crate
+pab put all backpack; take crate backpack
+oc open crate
+lic open crate; look in crate; close crate
+cs cast 'strength' self
+lbp look in backpack
+cinv cast 'invisibility' self
+putm put all.meat backpack
+ec examine corpse
+cifv cast 'infravision' self
+gac get all corpse
+tbr track brigand
+dingo gossip dingooooooooooooooooooooooooooooooo
+gc get corpse
+em open crate; get meat crate; eat meat; close crate
+pw open crate; get white crate;quaff white; close crate
+pr open crate;get red crate; quaff red; close crate
+tb track bandit
+tm track merchant
+romehav e;e;e;e;e;e;n;n;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w
+havrome e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w
+havelf w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w
+elfhav e;n;e;e;e;n;n;n;n;n;w;n;n;e;e;e;e;e;e;e;e;e;e
+hav3swd s
+havswd s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s
+swdhav n;e;n;e;n;n;n;w;w;w;w;u;w;w;w;w;w;w;n;n;n;n;w;w;w;n;n;w;w;w;w;n;n;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w;n
+cc cast 'cure critic' self
+crf cast 'refresh' self
+sell open crate; get all.$2 crate; sell $1 $2; close crate
+havdar w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;cast 'refresh' self; cast 'refresh' self; n;n;n;n;n;n
+dinv cast 'detect invisibility' self
+csl cast 'sense life' self
+ch cast 'heal' self
+car cast 'armor' self
+summon cast 'summon' $1
+ts track scarecrow
+recall cast 'word of recall' $1
+grat +++++++++++>>>>>>>>>> $1 <<<<<<<<<<+++++++++++
+locate cast 'locate object' $1
+heal cast 'heal' $1
+pac open crate; put all crate; close crate
+id open crate; get scroll crate; get $1 crate; recite scroll $1; put $1 crate
+havsha s;e;e;e;s;s;s;s;s;s;e;e;e;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;e;n;e;e;e;e;e;e;e;e;e
+j get corpse;get gold corpse;junk corpse
+cong congs {{+++++++++ $1 +++++++++}}
+grats grats -_-_-_-_-  ||| $1 ||| -_-_-_-_-
+gg get gold corpse
+crp cast 'remove poison' self
+start u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e
+cww cast 'waterwalk' self
+tun e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;
+[ cast 'heal' moonblade; look at moonblade
+bye gossip ~~~~~~~~ BYE $1 ~~~~~~~~
+tc hunt crystal
+ww cast 'waterwalk' self
+dried w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;
+ps primal scream
+rat rem hammer; open crate; get dagger crate; wi dagger; backstab wererat; rem dagger; wi hammer;
+wh rem hat; open crate; get helm crate; wear helm; put hat crate
+ws rem helm; open crate; get sombrero crate; wear sombrero;
+hit train hit
+= train hit
+lb cast 'lightning bolt' $1
+kt cast 'curse' trakker; rem hammer; wi dagger; backstab trakker;rem dagger;wi hammer
+abyss s;s;s;e;e;e;s;e;u
+0 rem eye;hold dragon
+9 rem dragon; hold eye
+wak wake; stand
+ut cast 'word of recall' uther
+z cast 'cure critic' jade
+7 summon citizen
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

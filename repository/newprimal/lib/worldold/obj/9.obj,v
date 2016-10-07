@@ -1,0 +1,238 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.48.05;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.35;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.29.14.28.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back in.
+@
+text
+@#900
+sign billboard~
+a huge sign~
+A huge billboard painted in tacky shades of pink stands here.~
+~
+13 3 1
+0 0 0 0
+5000 10000 1000
+E
+sign billboard~        ~
+                  ___       ___            ___       ___                        
+                 abuab\    abuab\         calca\    calca\
+                abuabua\__abuabua\       calcalc\__calcala\    Tr
+   \  \  \     abuabuabuabuabuabua|     calcalcalcalcalcalc|    Tru
+     \  \  \   abuabuabuabuabuabua|     calcalcalcalcalcalc|     True
+   TrueLoveTrueLoveTruebuabuabuab/TrueLoveTrueLolcalcalcal/TrueLoveTrue
+     /  /  /    abuabuabuabuabua/        calcalcalcalcalc/       Love
+   /  /  /       abuabuabuabuab/          calcalcalcalca/       Lov
+                   abuabuabuab/             calcalcalca/       Lo
+                     abuabuab/                calcalca/
+                      abuabu/                  calcal/
+                        abu/                     cal/
+ 
+                     >---===---< INVITATION >---===---<
+ 
+                 You are cordially invited to the wedding of:
+ 
+                          CALRAIN   and   ABULAFIA
+ 
+              As this is a global wedding, dates are as follows:
+                                                                                                                                                                
+                Melbourne, Australia        10th of June 3am
+                New York, US                 9th of June 1pm
+                London, UK                   9th of June 5pm
+                Hong Kong                   10th of June 1am
+                Tokyo, Japan                10th of June 2am
+ 
+        The wedding will take place at the Elemental Temple in Haven
+ 
+                   We would be honored by your attendance                
+~
+#901
+box gift~
+a gift-wrapped box~
+A pretty looking gift-wrapped box is here.~
+~
+15 65549 1
+100 1 -1 0
+1 1 0
+#902
+hat jester~
+a pointy jester's hat~
+A brightly coloured jester's hat has been left here.~
+~
+9 327689 17
+10 0 0 0
+5 1344000 134400
+A
+3 -3
+A
+6 5
+A
+2 -4
+A
+14 20
+A
+13 10
+A
+9 -10
+#903
+ring band wedding~
+a Ring Of Ananda~
+A Ring Of Ananda is here on the ground.~
+~
+9 65549 3
+0 0 0 0
+1 4010 401
+E
+ring~
+This ring symbolises the eternal love between Calrain and Abulafia!~
+#904
+pedastal~
+a pedastal~
+A large white marble pedastal, inlaid with gold and silver is here.~
+~
+13 0 0
+0 0 0 0
+5000 1000 100
+#905
+key pearl~
+a glowing perly key~
+A glowing perly key is here on the ground.~
+~
+18 0 1
+1 0 0 0
+1 1 0
+#910
+board newbies~
+Newbie board~
+NEWBIES :- read board .~
+~
+13 0 0
+0 0 0 0
+30000 2000 200
+E
+board sign~
+
+                            WELCOME TO PRIMAL MUD.
+
+
+           You are about to embark on the adventure of a lifetime.
+
+
+       As a Newbie you have started the game with 500 gold goins and a
+       map of the city of Haven in Medieval. To begin the game you must
+       enter Medieval and find the donation room to equip yourself and
+       the General Store to buy supplies (look map). If you have difficulty
+       locating these places ask another player for help :
+       tell <players name> help
+
+
+        * DO NOT ATTEMPT TO KILL ANYTHING TILL EQUIPMENT IS WORN *
+
+
+        ALSO type INFO and HELP  for more information.
+
+
+                          GOOD LUCK..you may need it.
+
+~
+#910
+board newbies~
+Newbie board~
+NEWBIES BOARD (please read)~
+~
+13 0 0
+0 0 0 0
+30000 2000 200
+E
+board sign~
+
+                            WELCOME TO PRIMAL MUD.
+
+
+           You are about to embark on the adventure of a lifetime.
+
+
+       As a Newbie you have started the game with 500 gold goins and a
+       map of the city of Haven in Medieval. To begin the game you must
+       enter Medieval and find the donation room to equip yourself and
+       the General Store to buy supplies (look map). If you have difficulty
+       locating these places ask another player for help :
+       tell <players name> help
+
+
+        * DO NOT ATTEMPT TO KILL ANYTHING TILL EQUIPMENT IS WORN *
+
+
+        ALSO type INFO and HELP  for more information.
+
+
+                          GOOD LUCK..you may need it.
+
+~
+#911
+sign post message~
+Sign post~
+A tall metal Sign Post stands here~
+~
+13 0 0
+0 0 0 0
+30000 2000 200
+E
+sign post~
+
+                 To your west -Falcon docking bay 
+
+                 Departs to - Mos Eisley Starport
+                            - Tatooine Desert
+                            - Jabba's Palace
+
+
+
+~
+
+#99999
+$~
+
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Adding all obj files to director
+@
+text
+@@
+

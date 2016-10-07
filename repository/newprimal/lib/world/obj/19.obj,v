@@ -1,0 +1,202 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2004.03.17.23.29.31;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.42;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> Sync.
+@
+text
+@#1900
+gloves taloned~
+a pair of taloned gloves~
+A pair of taloned gloves are here.~
+~
+9 2700 129 0
+3 0 0 0
+10 81000 5000 45
+L 45
+E
+taloned gloves~
+Long sharp talons protrude from a leather gloves giving this item a very
+vicious and evil appearance
+~
+A
+12 35
+A
+18 1
+A
+1 -3
+A
+19 3
+#1901
+hide lurker~
+lurker's hide~
+A lurker's hide lies here.~
+~
+9 66208 1025 0
+3 0 0 0
+2 66600 90000 37
+L 37
+E
+hide lurkers~
+A long piece of leathery hide that has a strange and repulsive smell 
+~
+A
+2 -2
+A
+13 37
+#1902
+club stone~
+stone club~
+A large stone club lies here.~
+~
+5 1672 8193 0
+0 9 5 7
+15 60000 6000 40
+L 40
+E
+club stone ~
+A large grey stone weapon with small stone spikes that protrude of its tip
+~
+A
+5 -3
+A
+13 25
+A
+18 4
+A
+19 2
+#1903
+coal black~
+black coal~
+Some black coal lies here.~
+~
+8 0 1 0
+0 0 0 0
+1 54000 1 30
+L 30
+E
+coal black~
+A small piece of black rock that leaves stains on your hands when you 
+touch it
+~
+#1904
+wreath black blackness~
+Wreath of Blackness~
+A Wreath of Blackness lies here.~
+~
+9 68129 17 0
+3 0 0 0
+3 70200 10000 39
+L 39
+E
+wreath blackness~
+A thorn black crown that looks like it would be painful to wear
+~
+A
+2 2
+A
+12 39
+A
+13 -15
+A
+18 1
+A
+19 3
+$~
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d47 1
+a47 1
+22 60000 6000 40
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d3 1
+a3 1
+A pair of taloned gloves~
+d6 1
+a6 1
+9 2700 129
+d8 2
+a9 1
+10 500000 5000
+a22 1
+L 45
+d28 1
+a28 1
+9 66208 1025
+d30 2
+a31 1
+2 900000 90000
+d39 1
+a39 2
+13 40
+L 37
+d45 1
+a45 1
+5 1672 8193
+d47 2
+a48 1
+22 60000 6000
+a60 1
+L 40
+d66 1
+a66 1
+8 0 1
+d68 2
+a69 1
+1 50000 1
+a74 2
+A
+15 0
+d80 1
+a80 1
+9 68129 17
+d82 2
+a83 1
+3 100000 10000
+d91 1
+a91 1
+12 50
+a97 2
+L 39
+#99999
+@
+

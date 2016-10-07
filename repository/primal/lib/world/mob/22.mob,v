@@ -1,0 +1,634 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.38;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.38;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#2200
+morkoth~
+Morkoth~
+The Morkoth waits here in it's lair for victims. 
+~
+You see a dim shadowy monster with green slime covering his body. He has a 
+hypnotic power that has drawn you into his lair , where he devoures his prey. 
+~
+3238011 1192 -100 S
+85 -70 -9 4d80+7400 15d20+85
+150000 1000000
+8 8 0
+#2201
+retriever~
+Retriever~
+The Retriever is waiting here in it's lair for it's next victim. 
+~
+You see a horrible monster appearing as hideous flying heads crowned with 
+writhing tentacles. 
+~
+3238011 33960 -100 S
+95 -90 -10 5d80+11700 15d20+90
+210000 1036922
+8 8 0
+#2202
+llolth~
+Llolth~
+Llolth is waiting here in her lair for her next victim. 
+~
+You see a beautiful woman with long golden hair but her lower body is that of 
+a large spider . When you look closely at her face you see that her eyes 
+resemble a spiders black piercing eyes and she is looking at you in hunger. 
+~
+3238011 1192 -100 S
+80 -75 -9 5d60+11400 15d20+90
+255000 1050000
+8 8 2
+#2203
+ogremoch~
+Ogremoch~
+Ogremoch is waiting here, in his lair, for his next victim. 
+~
+You see a hideous monster with one eye, he is about 15 foot long and he has 
+four long arms protruding from his torso. His body is covered in large warts 
+and fungi and as he grins at you evilly you notice his teeth are a rotting 
+green. 
+~
+3238011 1192 -500 S
+85 -75 -10 10d90+9900 15d20+85
+200000 1017000
+8 8 1
+#2204
+drider~
+Drider~
+A drider is waiting here for Lloth's command. 
+~
+You see a half man half spider type creature. It is under the command of Lloth 
+and will do anything to protect her even if it means death. 
+~
+1106024 525352 -100 S
+57 -40 -9 5d10+6500 10d8+80 
+99500 690000
+8 8 0
+#2205
+troglodyte~
+Troglodyte~
+A Troglodyte is standing here ready to attack. 
+~
+You see a reptilian type creature and as you look at it it's skin color 
+changes from grey to brown as it trys to blend into it's surrroundings. 
+~
+1163379 1066 -100 S
+58 -40 -9 1d1+7200 6d7+60
+94500 710000
+8 8 0
+#2206
+tracker slithering~
+Slithering tracker~
+A Slithering Tracker is crawling along the damp ground at your feet. 
+~
+You see a transparent creature whose body moulds itself around the walls and 
+floor. It is almost impossible to see this creature and the only thing that 
+makes it visible is it's last dinner. 
+~
+1161533 1192 100 S
+56 -30 -8 9d70+5000 7d5+80
+99000 700000
+8 8 0
+#2207
+roper~
+Roper~
+A Roper is slithering along the cave floor. 
+~
+You see a yellowish grey monster with strands of long sticky rope like 
+substance waving around it's body. As you watch it moulds itself into another 
+shape and the rope like tendrils hit you in the face. 
+~
+1065008 1064 100 S
+58 -40 -7 5d80+5200 8d5+50
+99000 670000
+8 8 0
+#2208
+piercer~
+Piercer~
+A large stalagmite is here rising from the floor. 
+~
+You look and see to your amazement that this is a well disguised creature but 
+it's small eyes give it away. 
+~
+1079346 1064 0 S
+55 -30 -8 9d90+5000 6d7+40
+95000 690000
+8 8 0
+#2209
+piercer~
+piercer~
+A large stalactite hangs from the roof of the cave. 
+~
+You look and see to your amazement that this is actually a creature.
+~
+1079346 1064 0 S
+55 -30 -8 9d90+5000 6d7+40
+95000 770000
+8 8 0
+#2210
+bat fire~
+fire bat~
+A large fire bat is circling above you. 
+~
+You see a large bat reddish in colour that breaths fire,hence it's name. 
+Although this bat is no-where near the size of a dragon, it is definately a 
+distant relation. 
+~
+106622 1064 0 S
+59 -20 -8 12d100+4300 2d10+50
+65000 621000
+8 8 0
+#2211
+mouther gibbering~
+Gibbering Mouther~
+A large Gibbering Mouther is sitting here looking like a mound of rock. 
+~
+You see a large mound composed of all mouths and eyes that open and close 
+slowly.It has flesh that looks like stone and it resembles a large rock. 
+~
+1130626 1192 0 S
+57 -40 -8 9d100+4250 6d6+50
+99000 710000
+8 8 0
+#2212
+jubilex~
+jubilex~
+The jubilex lurkes here. 
+~
+As you look at this creature it begins to change form. It originally appeared 
+to be a vast pool of slime,but it now looks like a towering column of 
+discusting odour. 
+~
+1159244 1192 0 S
+59 -40 -9 8d100+4790 8d6+50
+92000 830000
+8 8 0
+#2213
+shrieker~
+shrieker~
+A shrieker stands here.
+~
+You see a hideous creature with a large gapping mouth. It's skin is a mottled 
+green and you can't see any eyes on it at all. 
+~
+1079346 1192 0 S
+57 -30 -8 4d100+4800 6d5+50
+96000 710000
+8 8 0
+#2214
+norker~
+norker~
+A large norker is here waiting for it's dinner.
+~
+You see a large creature that resembles a hobgoblin but with large fangs and 
+claws. It looks like it hasn't eating in a while and is eyeing you as it's 
+next meal. 
+~
+1058920 1192 -100 S
+55 -40 -8 5d90+4000 5d6+60
+88000 690000
+8 8 0
+#2215
+Trakker~
+Trakker~
+The large Trakker guards the entrance to the tunnels below. 
+~
+You see a half man half beast type creature whose evil pointed teeth nash 
+with delite as he contemplaits his next meal. You !!  
+~
+3238011 33960 0 S
+69 -90 -10 5d80+3700 8d6+90
+100200 929000
+8 8 0
+#2216
+Troglodyte Guard~
+Troglodyte Guard~
+The Troglodyte Guard is viciously guarding the tunnels passage. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+~
+3238011 1192 -100 S
+75 -70 -9 5d60+7400 7d8+80
+100200 999000
+
+8 8 1
+#2217
+Trakker Knight~
+Trakker Knight~
+The large Trakker Knight guards the entrance to the tunnels below. 
+~
+You see a half man half beast type creature whose evil pointed teeth nash 
+with delite as he contemplaits his next meal. His armor is slimly and 
+smells repugnant and you wonder how he could wear it.
+~
+1140859 1192 300 S
+65 -70 -10 10d90+8400 12d15+50
+200200 1019000
+8 8 1
+#2218
+Trakker priest~
+Trakker priest~
+The evil Trakker priest guards the entrance to the tunnels below. 
+~
+You see a half man half beast type creature whose evil pointed teeth nash 
+with delite as he contemplaits his next meal. His cloak is slimly and 
+smells repugnant and you wonder how he could wear it.
+~
+1140859 1192 200 S
+69 -70 -10 10d90+8100 12d15+55
+200200 1059000
+8 8 1
+#2219
+Trakker High priest~
+Trakker High priest~
+The evil Trakker High priest guards the entrance to the tunnels below. 
+~
+You see a half man half beast type creature whose evil pointed teeth nash 
+with delite as he contemplaits his next meal. His cloak and dagger are 
+slimly and smells repugnant and you wonder how he could wear them.
+~
+3238011 1192 300 S
+70 -70 -10 10d90+8400 12d15+65
+100200 1079000
+8 8 1
+#2220
+Trakker Cardinal~
+Trakker Cardinal~
+The evil Trakker Cardinal guards the entrance to the tunnels below. 
+~
+You see a half man half beast type creature whose evil pointed teeth nash 
+with delite as he contemplaits his next meal. His cloak and beads are slimly 
+and smells repugnant and you wonder how he could wear them.
+~
+3238011 1192 -100 S
+70 -70 -10 10d90+9700 12d15+70
+200200 1559000
+8 8 1
+#2221
+Trakker apprentice~
+Trakker apprentice~
+The evil Trakker apprentice guards the entrance to the tunnels below. 
+~
+You see a half man half beast type creature whose evil pointed teeth nash 
+with delite as he contemplaits his next meal. His cloak is slimly and 
+smells repugnant and you wonder how he could wear it.
+~
+1140859 1192 0 S
+70 -70 -10 10d90+9100 12d15+60
+200200 1065000
+8 8 1
+#2222
+Trakker Mistress~
+Trakker Mistress~
+The evil Trakker Mistress guards the entrance to the tunnels below. 
+~
+You see a half woman half beast type creature whose evil pointed teeth nash 
+with delite as she contemplaits her next meal. Her cloak and staff are 
+slimly and smells repugnant and you wonder how she could wear them.
+~
+3238011 1192 -100 S
+70 -70 -10 10d90+10500 13d17+80
+299200 1159000
+8 8 2
+#2223
+Trakker Master~
+Trakker Master~
+The evil Trakker Master guards the entrance to the tunnels below. 
+~
+You see a half man half beast type creature whose evil pointed teeth nash 
+with delite as he contemplaits his next meal. His cloak and staff are slimly 
+and smells repugnant and you wonder how he could wear them.
+~
+3238011 1192 -100 S
+70 -70 -10 10d90+10600 13d17+85
+299200 1299000
+8 8 1
+#2224
+Trakker Queen~
+Trakker Queen~
+The evil Trakker Queen guards the entrance to the tunnels below. 
+~
+You see a half woman half beast type creature whose evil pointed teeth nash 
+with delite as she contemplaits her next meal. Her crown and rings are 
+slimly and smells repugnant and you wonder how she could wear them.
+~
+3238011 33960 100 S
+75 -90 -10 5d80+11700 13d17+90
+200200 1379000
+8 8 2
+#2225
+Trakker King~
+Trakker King~
+The evil Trakker King guards the entrance to the tunnels below. 
+~
+You see a half man half beast type creature whose evil pointed teeth nash 
+with delite as he contemplaits his next meal. His crown and rings are 
+slimly and smells repugnant and you wonder how he could wear them.
+~
+3238011 33960 100 S
+75 -90 -10 5d80+12700 13d16+90
+209200 1499000 
+8 8 1
+#2226
+Troglodyte Knight ~
+Troglodyte Knight~
+The Troglodyte Knight is viciously guarding the tunnels passage. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+He grins wickedly at you as you bed for mercy.
+~
+1140859 1192 500 S
+65 -70 -10 10d90+8400 12d15+50
+200200 1019000
+8 8 1
+#2227
+Troglodyte priest~
+Troglodyte priest~
+The evil Troglodyte priest guards the entrance to the tunnels below. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+He grins wickedly at you as you beg for mercy and he contemplaits his 
+next meal His cloak is slimly and smells repugnant and you wonder how he could wear it.
+~
+1140859 1192 100 S
+65 -70 -10 10d90+8100 12d15+55
+200200 1029000
+8 8 1
+#2228
+Troglodyte High priest~
+Troglodyte High priest~
+The evil Troglodyte High priest guards the entrance to the tunnels below. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+He grins wickedly at you as you beg for mercy and he contemplaits his 
+next meal. His cloak is slimly and smells repugnant and you wonder how he 
+could wear it.
+~
+3238011 1192 200 S
+70 -70 -10 10d90+8400 12d15+65
+207200 1039000
+8 8 1
+#2229
+Troglodyte Cardinal~
+Troglodyte Cardinal~
+The evil Troglodyte Cardinal guards the entrance to the tunnels below. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+He grins wickedly at you as you beg for mercy and he contemplaits his 
+next meal. His cloak and beads are slimly and smells repugnant and you 
+wonder how he could wear it.
+~
+3238011 1192 300 S
+70 -70 -10 10d90+9700 12d15+70
+262200 1509000
+8 8 1
+#2230
+Troglodyte apprentice~
+Troglodyte apprentice~
+The evil Troglodyte apprentice guards the entrance to the tunnels below. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+He grins wickedly at you as you beg for mercy and he contemplaits his 
+next meal. His cloak and beads are slimly and smells repugnant and you 
+wonder how he could wear it.
+
+~
+1140859 1192 0 S
+70 -70 -10 10d90+9100 12d15+60
+300200 1009000
+8 8 1
+#2231
+Troglodyte Mistress~
+Troglodyte Mistress~
+The evil Troglodyte Mistress guards the entrance to the tunnels below. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+She grins wickedly at you as you beg for mercy and she contemplaits her 
+next meal. Her staff and cloak are slimly and smells repugnant and you 
+wonder how she can wear them.
+~
+3238011 1192 -100 S
+70 -70 -10 10d90+10500 13d17+70
+270200 1109000
+8 8 2
+#2232
+Troglodyte Master~
+Troglodyte Master~
+The evil Troglodyte Master guards the entrance to the tunnels below. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+He grins wickedly at you as you beg for mercy and he contemplaits his 
+next meal. His staff and cloak are slimly and smells repugnant and you 
+wonder how he can wear them.
+~
+3238011 1192 -100 S
+70 -70 -10 10d90+10600 13d17+75
+290200 1209000
+8 8 1
+#2233
+Troglodyte Queen~
+Troglodyte Queen~
+The evil Troglodyte Queen guards the entrance to the tunnels below. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+She grins wickedly at you as you beg for mercy and she contemplaits his 
+next meal. Her crown and rings are slimly and smells repugnant and you 
+wonder how she can wear them.
+~
+3238011 33960 100 S
+75 -90 -10 5d80+11700 13d17+90
+290200 1309000
+8 8 2
+#2234
+Troglodyte King~
+Troglodyte King~
+The evil Troglodyte King guards the entrance to the tunnels below. 
+~
+You see a large reptilian type creature  and as you look at it it's skin 
+color changes from grey to brown as it trys to blend into it's surrroundings. 
+He grins wickedly at you as you beg for mercy and he contemplaits his 
+next meal. His crown and rings are slimly and smells repugnant and you 
+wonder how he can wear them.
+~
+3238011 33960 100 S
+80 -90 -10 5d80+12700 13d17+90
+290200 1409000
+8 8 1
+#2235
+Drider Knight ~
+Drider Knight~
+The Drider Knight is viciously guarding the tunnels passage. 
+~
+You see a half man half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+1140859 1192 500 S
+65 -70 -10 10d90+8400 13d17+50
+200200 1019000
+8 8 1
+#2236
+Drider priest~
+Drider priest~
+The evil Drider priest guards the entrance to the tunnels below. 
+~
+You see a half man half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+1140859 1192 100 S
+65 -70 -10 10d90+8100 13d17+55
+200200 1009000
+8 8 1
+#2237
+Drider High priest~
+Drider High priest~
+The evil Drider High priest guards the entrance to the tunnels below. 
+~
+You see a half man half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+3238011 1192 200 S
+70 -70 -10 10d90+8400 12d15+70
+210200 1029000
+8 8 1
+#2238
+Drider Cardinal~
+Drider Cardinal~
+The evil Drider Cardinal guards the entrance to the tunnels below. 
+~
+You see a half man half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+3238011 1192 300 S
+70 -70 -10 10d90+9700 12d15+75
+270200 1509000
+8 8 1
+#2239
+Drider apprentice~
+Drider apprentice~
+The evil Drider apprentice guards the entrance to the tunnels below. 
+~
+You see a half man half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+1140859 1192 0 S
+70 -70 -10 10d90+9100 12d15+60
+200200 1009000
+8 8 1
+#2240
+Drider Mistress~
+Drider Mistress~
+The evil Drider Mistress guards the entrance to the tunnels below. 
+~
+You see a half woman half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+3238011 1192 -100 S
+70 -70 -10 10d90+10500 13d17+80
+200200 1189000
+8 8 2
+#2241
+Drider Master~
+Drider Master~
+The evil Drider Master guards the entrance to the tunnels below. 
+~
+You see a half man half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+3238011 1192 -100 S
+75 -70 -10 10d90+10600 13d17+85
+200200 1209000
+8 8 1
+#2242
+Drider Queen~
+Drider Queen~
+The evil Drider Queen guards the entrance to the tunnels below. 
+~
+You see a half man half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+3238011 33960 100 S
+85 -90 -10 5d80+11700 13d17+90
+205200 1319000
+8 8 2
+#2243
+Drider King~
+Drider King~
+The evil Drider King guards the entrance to the tunnels below. 
+~
+You see a half man half spider type creature. It is under the command of 
+Llolth and will do anything to protect her even if it means death. He is sitting 
+here in his lair waiting to attack.
+~
+3238011 33960 100 S
+85 -90 -10 5d80+12700 13d17+90
+206000 1480000
+8 8 1
+#2244
+Hideous Beast~
+Hideous beast~
+The Hideous beast sits here with it larg mouth gapping for food 
+~
+This is the most hideous creature you have ever seen. It resembles a
+large piece of green slim with a gapping hole for a mouth. Small pieces
+of human remains, spiders and other undescribable objects cling to it's
+slimy skin. Its mouth opens and shuts waiting for a poor soul to fall into
+its pit.
+~
+3238010 33960 100 S
+85 -98 -10 5d80+22700 40d50+90
+206000 1980000
+8 8 0
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

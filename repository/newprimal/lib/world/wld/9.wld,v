@@ -1,0 +1,53 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.12.17.02.26.05;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.40;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Artus> Getting very close...
+@
+text
+@#900
+Testing Room~
+You are in an unfinished room.
+~
+9 d 0 0
+S
+$~
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d1 5
+a5 4
+#0
+A dummy room~
+You are standing inside a dummy room, which should get real.~
+0 0 0
+a6 1
+#9999
+@
+

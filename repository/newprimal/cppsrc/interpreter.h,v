@@ -1,0 +1,707 @@
+head	1.17;
+access;
+symbols
+	A3_0_59:1.3
+	LATEST:1.3
+	A3_0_1:1.3;
+locks; strict;
+comment	@ * @;
+
+
+1.17
+date	2004.11.24.01.55.26;	author mud;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.11.24.01.38.10;	author mud;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.06.04.12.32.40;	author mud;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.05.21.14.15.55;	author mud;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.29.11.12.19;	author mud;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.10.12.02.26;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.11.17.12.36.24;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.11.15.01.42.17;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2002.01.25.03.52.23;	author primal;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2001.06.09.03.33.42;	author artus;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2001.05.26.07.45.26;	author primal;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2001.05.05.12.06.11;	author rod;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2001.04.11.14.34.43;	author artus;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.02.02.04.34.48;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.01.20.16.50.15;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.08.28.21.12.22;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.59;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.17
+log
+@Artus> Finished off movement changes.
+@
+text
+@/* ************************************************************************
+*   File: interpreter.h                                 Part of CircleMUD *
+*  Usage: header file: public procs, macro defs, subcommand defines       *
+*                                                                         *
+*  All rights reserved.  See license.doc for complete information.        *
+*                                                                         *
+*  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
+*  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
+************************************************************************ */
+
+#define ACMD(name)  \
+   void name(struct char_data *ch, char *argument, int cmd, int subcmd)
+
+ACMD(do_move);
+
+#define CMD_NAME (cmd_info[cmd].command)
+#define CMD_IS(cmd_name) (!strcmp(cmd_name, cmd_info[cmd].command))
+#define IS_MOVE(cmdnum) (cmd_info[cmdnum].command_pointer == do_move)
+
+void	command_interpreter(struct char_data *ch, char *argument);
+int	search_block(char *arg, const char **list, int exact);
+int	search_block_case_insens(const char *arg, const char **list, int exact);
+char	lower( char c );
+char	*one_argument(char *argument, char *first_arg);
+char	*one_word(char *argument, char *first_arg);
+char	*any_one_arg(char *argument, char *first_arg);
+char	*any_one_arg_case_sens(char *argument, char *first_arg);
+char	*two_arguments(char *argument, char *first_arg, char *second_arg);
+int	fill_word(char *argument);
+void	half_chop(char *string, char *arg1, char *arg2);
+void	half_chop_case_sens(char *string, char *arg1, char *arg2);
+void	nanny(struct descriptor_data *d, char *arg);
+int	is_abbrev(const char *arg1, const char *arg2);
+int	is_number(const char *str);
+int	find_command(const char *command);
+void	skip_spaces(char **string);
+char	*delete_doubledollar(char *string);
+
+/* for compatibility with 2.20: */
+#define argument_interpreter(a, b, c) two_arguments(a, b, c)
+
+
+struct command_info {
+   const char *command;
+   byte minimum_position;
+   void	(*command_pointer)
+	   (struct char_data *ch, char * argument, int cmd, int subcmd);
+   sh_int minimum_level;
+   int	subcmd;
+   ubyte type;
+   bool helpAssigned;
+};
+
+/*
+ * Necessary for CMD_IS macro.  Borland needs the structure defined first
+ * so it has been moved down here.
+ */
+#ifndef __INTERPRETER_C__
+extern const struct command_info cmd_info[];
+#endif
+
+/*
+ * Alert! Changed from 'struct alias' to 'struct alias_data' in bpl15
+ * because a Windows 95 compiler gives a warning about it having similiar
+ * named member.
+ */
+struct alias_data {
+  char *alias;
+  char *replacement;
+  int type;
+  struct alias_data *next;
+};
+
+#define ALIAS_SIMPLE	0
+#define ALIAS_COMPLEX	1
+
+#define ALIAS_SEP_CHAR	';'
+#define ALIAS_VAR_CHAR	'$'
+#define ALIAS_GLOB_CHAR	'*'
+
+/*
+ * COMMANDS
+ *   Each command is now classified as one of the following types.
+ *   
+ *   CMD_NONE types are not displayed under command sub menus. 
+ *   CMD_SKILL commands unknown to the player are not shown in sub menus.
+ *   CMD_WIZ commands are only shown to players that meet the level restriction.
+ *
+ *   All other command types are shown in command sub menus.
+ */
+
+#define CMD_NONE        0       // Special, hidden commands ...
+#define CMD_WIZ         1       // Wizard Commands
+#define CMD_SKILL       2       // Skill commands
+
+#define CMD_COMM        3       // Communication
+#define CMD_COMBAT      4       // Combat/Fighting
+#define CMD_INFO        5       // Informative
+#define CMD_MOVE        6       // Movement 
+#define CMD_OBJ         7       // Object (Item) related
+#define CMD_SOCIAL      8       // Socials
+#define CMD_UTIL        9       // Utilities
+#define CMD_SHOP        10      // Shop commands
+#define CMD_MISC        11      // Misc, uncategorised commands
+#define CMD_MAIL        12      // Mail, board commands
+#define CMD_SPEC        13      // Player Special commands
+
+#define NUM_CMD_TYPES   14
+  
+  
+/*
+ * SUBCOMMANDS
+ *   You can define these however you want to, and the definitions of the
+ *   subcommands are independent from function to function.
+ */
+
+/* directions */
+#define SCMD_NORTH	1
+#define SCMD_EAST	2
+#define SCMD_SOUTH	3
+#define SCMD_WEST	4
+#define SCMD_UP		5
+#define SCMD_DOWN	6
+
+/* do_gen_ps */
+#define SCMD_INFO       0
+#define SCMD_HANDBOOK   1 
+#define SCMD_CREDITS    2
+#define SCMD_NEWS       3
+#define SCMD_WIZLIST    4
+#define SCMD_POLICIES   5
+#define SCMD_VERSION    6
+#define SCMD_IMMLIST    7
+#define SCMD_MOTD	8
+#define SCMD_IMOTD	9
+#define SCMD_CLEAR	10
+#define SCMD_WHOAMI	11
+#define SCMD_AREAS	12
+
+/* do_gen_tog */
+#define SCMD_NOSUMMON   0
+#define SCMD_NOHASSLE   1
+#define SCMD_BRIEF      2
+#define SCMD_COMPACT    3
+#define SCMD_NOTELL	4
+#define SCMD_NOAUCTION	5
+#define SCMD_DEAF	6
+#define SCMD_NOGOSSIP	7
+#define SCMD_NOGRATZ	8
+#define SCMD_NOWIZ	9
+#define SCMD_ROOMFLAGS	11
+#define SCMD_NOREPEAT	12
+#define SCMD_HOLYLIGHT	13
+#define SCMD_SLOWNS	14
+#define SCMD_AUTOEXIT	15
+#define SCMD_NOIMMNET   16
+#define SCMD_AFK        17
+#define SCMD_NOINFO     18
+#define SCMD_NONEWBIE   19
+#define SCMD_AUTOLOOT   20
+#define SCMD_AUTOGOLD   21
+#define SCMD_AUTOSPLIT  22
+#define SCMD_TRACK	23
+#define SCMD_NOHINTS    24
+#define SCMD_NOCT       25 /* ARTUS - Clan Channels */
+#define SCMD_NOCI       26 /* ARTUS - Clan Info     */
+#define SCMD_AUTOCORPSE 27
+#define SCMD_AUTOEAT    28 /* Artus> Automatic Eating */
+
+/* do_wizutil */
+#define SCMD_REROLL	0
+#define SCMD_PARDON     1
+#define SCMD_NOTITLE    2
+#define SCMD_SQUELCH    3
+#define SCMD_FREEZE	4
+#define SCMD_THAW	5
+#define SCMD_UNAFFECT	6
+#define SCMD_IMMNET     7
+#define SCMD_ANGNET     8 
+
+/* do_spec_com */
+#define SCMD_WHISPER	0
+#define SCMD_ASK	1
+
+/* do_gen_com */
+#define SCMD_HOLLER	0
+#define SCMD_SHOUT	1
+#define SCMD_GOSSIP	2
+#define SCMD_AUCTION	3
+#define SCMD_GRATZ	4
+#define SCMD_NEWBIE     5
+//#define SCMD_CTALK      6 
+
+/* do_shutdown */
+#define SCMD_SHUTDOW	0
+#define SCMD_SHUTDOWN   1
+
+/* do_quit */
+#define SCMD_QUI	0
+#define SCMD_QUIT	1
+#define SCMD_QUITR	2 // Artus> Quitting outside haven.
+
+/* do_date */
+#define SCMD_DATE	0
+#define SCMD_UPTIME	1
+
+/* do_commands */
+#define SCMD_COMMANDS	0
+#define SCMD_SOCIALS	1
+#define SCMD_WIZHELP	2
+
+/* do_drop */
+#define SCMD_DROP	0
+#define SCMD_JUNK	1
+#define SCMD_DONATE	2
+#define SCMD_IS_PUT	3 // Artus> for drop_otrigger.
+
+/* do_gen_write */
+#define SCMD_BUG	0
+#define SCMD_TYPO	1
+#define SCMD_IDEA	2
+
+/* do_look */
+#define SCMD_LOOK	0
+#define SCMD_READ	1
+
+/* do_qcomm */
+#define SCMD_QSAY	0
+#define SCMD_QECHO	1
+
+/* do_pour */
+#define SCMD_POUR	0
+#define SCMD_FILL	1
+
+/* do_poof */
+#define SCMD_POOFIN	0
+#define SCMD_POOFOUT	1
+
+/* do_hit */
+#define SCMD_HIT	0
+#define SCMD_MURDER	1
+#define SCMD_KILL       2
+
+/* do_eat */
+#define SCMD_EAT	0
+#define SCMD_TASTE	1
+#define SCMD_DRINK	2
+#define SCMD_SIP	3
+
+/* do_use */
+#define SCMD_USE	0
+#define SCMD_QUAFF	1
+#define SCMD_RECITE	2
+
+/* do_echo */
+#define SCMD_ECHO	0
+#define SCMD_EMOTE	1
+
+/* do_gen_door */
+#define SCMD_OPEN       0
+#define SCMD_CLOSE      1
+#define SCMD_UNLOCK     2
+#define SCMD_LOCK       3
+#define SCMD_PICK       4
+
+/*. do_olc .*/
+#define SCMD_OASIS_REDIT       0
+#define SCMD_OASIS_OEDIT       1
+#define SCMD_OASIS_ZEDIT       2
+#define SCMD_OASIS_MEDIT       3
+#define SCMD_OASIS_SEDIT       4
+#define SCMD_OASIS_TRIGEDIT    5
+#define SCMD_OLC_SAVEINFO      7
+
+/* do_track (for hunt) */
+#define SCMD_HUNT       1
+#define SCMD_AUTOHUNT   2
+
+/* do_give */
+#define SCMD_GIVE               0
+#define SCMD_SLIP               1 /* SKILL_SLIP ... */
+
+/* do_auction */
+#define AUC_NONE		0
+#define AUC_BID			1
+#define AUC_CANCEL		2
+#define AUC_LIST		3
+#define AUC_SELL		4
+#define AUC_SOLD		5
+#define AUC_STAT		6
+#define AUC_PURGE		7
+@
+
+
+1.16
+log
+@Artus> Mostly looks like indent changes.. And a modification to determine
+       whether we're moving, or fleeing.
+@
+text
+@a282 4
+/* Movement Subcommands */
+#define SCMD_MOVE		0
+#define SCMD_FLEE		1
+
+@
+
+
+1.15
+log
+@Artus> Removed old SCMD_QUEST_xxx defined.
+@
+text
+@d283 4
+@
+
+
+1.14
+log
+@Artus> Removed SCMD_QUEST.
+@
+text
+@a278 7
+/* do_quest_log */
+#define SCMD_QUEST_LIST 	0
+#define SCMD_QUEST_ADD		1
+#define SCMD_QUEST_DELETE	2
+#define SCMD_QUEST_ENHANCE      3
+#define SCMD_QUEST_STAT         4
+
+@
+
+
+1.13
+log
+@Artus> Added SCMD_QUITR for quitreally.
+@
+text
+@a150 1
+#define SCMD_QUEST	10
+@
+
+
+1.12
+log
+@Artus>
+act.comm.c       : Completely rewrote the auction code.
+act.informative.c: New event type: Fire.
+                   Fixed colour bleed in exits.
+act.item.c       : invalid_level() now only allows remort classes to use eq
+                   earlier if it was usable before they remorted.
+act.movement.c   : Gateways now pass through the standard invalid_level()
+                   check. This should make it possible to restrict entrance
+                   based on class.
+act.offensive.c  : Cleaned up.
+act.other.c      : Hide now applies to spell/skill ability.
+                   Title length limit removed, title restricted level 5.
+act.wizard.c     : "debug sm" will now display the integer value of current
+                   rooms "small_bits"
+                   Added annoying poofin for me.
+                   New event type: Fire.
+boards.c         : Boards now use max level as opposed to level.
+clan.c           : Cleaned up.
+class.c          : Cleaned up.
+comm.c           : Minor changes for remort max levels to exp prompt.
+db.c             : Auctions are now stored in file.
+                   Initial zone resets moved before houses and auctions load.
+db.h             : Auctions are now stored in file.
+dg_mobcmd.c      : Cleaned up.
+dg_objcmd.c      : Cleaned up.
+dg_scripts.c     : Cleaned up.
+dg_wldcmd.c      : Cleaned up.
+fight.c          : Added pcorpse alias to corpses.
+graph.c          : Cleaned up.
+handler.c        : Item counter changed so item count won't be reduced below
+                   zero.
+house.c          : Removed item decrementor.
+interpreter.c    : Command level checks are now done against max level.
+interpreter.h    : Removed old auction SCMD_xxx, Added new auction AUC_xxx
+limits.c         : First remort max exp * 12500, second max exp * 15000
+magic.c          : Cleaned up.
+mail.c           : Added support for mail from auction system.
+mail.h           : Added support for mail from auction system.
+medit.c          : Cleaned up.
+modify.c         : Cleaned up.
+oasis.c          : Added zedit sect # support - Sets the base sect to the
+                   same value in all rooms in zone.
+oasis.h          : Added zedit sect # support.
+objsave.c        : Added Obj_to_file_elem routine.
+reports.cpp      : Replaced 0 with MAIL_FROM_REPORT in store_mail calls.
+shop.c           : Replaced GET_OBJ_LR() check with invalid_level() call.
+spec_procs.c     : Fixed bug where repair wasn't listing costs.
+                   Cleaned up.
+spell_parser.c   : Replaced various damage calcs with calc_dam_amt.
+spells.c         : Added identify_obj_to_char, called by SPELL_IDENTIFY and
+                   auction stat.
+                   Colourised identify output.
+structs.h        : Added EVENT_FIRE macro.
+                   Removed old auction defines.
+                   Added auction structures auc_data, auc_file_elem.
+                   Added auction macros AUC_STAT_COST, AUC_ROOM< AUC_LIMIT.
+                   Added RMSM_BURNED macro to identify burned rooms.
+                   Added small_bits to room structure. Unsaved bitvector.
+tedit.c          : Cleaned up.
+utils.c          : Added calc_dam_amt to separate damage calculations for
+                   skills.
+                   Added init_auctions and write_auction_file for storage
+                   and retrieval of auctions.
+utils.h          : RMSM_FLAGS(room_rnum) - Room's Small Bits.
+                   RMSM_FLAGS(room_rnum, bit) - Check small bits.
+                   LR_FAIL(ch, lvl) - Basic level test.
+                   LR_FAIL_MAX(ch, lvl) - Level test against max level,
+                   unless lvl > LVL_IMMORT.
+                   CAN_LEVEL(ch) macro.
+                   STRTODAM(ch) macro - str_app.todam
+zedit.c          : Added zedit_sect_all().
+@
+text
+@d202 1
+@
+
+
+1.11
+log
+@Artus>
+---
+drop_otrigger takes an extra paramater for subcmd. With drop triggers you can
+now specify whether the trigger is for drop, junk, donate and put. Specify
+in the argument either/combination of 'junk', 'drop', 'donate', 'put'. No
+argument means any type will be triggered:
+
+act.item.c, dg_scripts.h, dg_triggers.c, interpreter.h
+---
+fixed colour bleed in dc:
+
+act.wizard.c
+---
+Not reapplying empty timers in char_to_store:
+Not calling object triggers from char_to_store:
+
+db.c
+---
+Modified hunt so that with special_elf you can track through !TRACK rooms
+(Modifier for Elf has been increased from 0.02 to 0.07%):
+
+graph.c, utils.c
+---
+Timers should only show remove messages when being removed because they're
+wearing off (duration = 0):
+
+handler.c
+---
+Not calling object triggers when auto_equipping.
+
+objsave.c
+---
+#defined around love_ring specproc. What a joke. define DRAX_IS_TEH_SUXOR if
+you want it back ;o)
+
+spec_assign.c, spec_procs.c
+---
+@
+text
+@a278 7
+/* do_auction */
+#define SCMD_CANCEL             0
+#define SCMD_SOLD               1
+#define SCMD_NEW                2
+#define SCMD_BID                3
+#define SCMD_WELCH              4 
+
+d289 10
+@
+
+
+1.10
+log
+@Artus> Implemented Autoeat.
+       Putting objs in cursed containers now results in obj being cursed :o)
+@
+text
+@d216 1
+@
+
+
+1.9
+log
+@
+Modified: DM
+
+Added:
+- autocorpse command
+@
+text
+@d169 1
+@
+
+
+1.8
+log
+@SCMD_SLIP define.
+@
+text
+@d168 1
+@
+
+
+1.7
+log
+@Artus - Removed SCMD_CTALK - Redundant.
+@
+text
+@d289 4
+@
+
+
+1.6
+log
+@Modified: Rod
+
+Added:
+- classification of commands:
+  - extra 2 fields in cmd_info (command type, if help is associated)
+  - command type defines
+- defined all command types
+@
+text
+@d191 1
+a191 1
+#define SCMD_CTALK      6 
+@
+
+
+1.5
+log
+@Modified: Artus - Clans
+@
+text
+@d50 2
+d81 30
+@
+
+
+1.4
+log
+@
+Added:
+- Initial inclusion of dgscripts
+@
+text
+@d129 7
+a135 6
+#define SCMD_NOCTALK    20
+#define SCMD_AUTOLOOT   21
+#define SCMD_AUTOGOLD   22
+#define SCMD_AUTOSPLIT  23
+#define SCMD_TRACK	24
+#define SCMD_NOHINTS    25
+@
+
+
+1.3
+log
+@
+Added:
+- SCMD_KILL - for do_violent_skill
+@
+text
+@d236 1
+@
+
+
+1.2
+log
+@
+Added:
+- newbie logging
+- random hint channel
+
+Changed:
+- Rewrote the ignore code, ignore char all/tells, ignore level all/tells
+@
+text
+@d206 1
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d134 1
+@
+

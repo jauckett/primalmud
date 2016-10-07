@@ -1,0 +1,149 @@
+#8600
+sailor~
+the sailor~
+A sailor is here enjoying the sea air.
+~
+The sailor looks rather weather beaten and tough.~
+72 0 700 E
+30 -10 3 10d8+900 13d17+34
+12500 79000
+8 8 0
+E
+#8601
+pirate~
+the drunken pirate~
+A very drunk pirate is here cursing you.
+~
+The pirate is filthy and slobbering all over himself, and mumbling
+away to himself.
+~
+232 1024 0 E
+35 -10 2 10d8+1800 15d17+35
+30000 120000
+8 8 0
+E
+#8602
+buccaneer~
+the buccaneer~
+A buccaneer is here keeping an eye on you.
+~
+The buccaneer looks wise and very cunning.
+~
+1065192 1024 1000 E
+38 -10 1 10d8+1900 16d17+42
+34200 250000
+8 8 0
+E
+#8603
+deckhand~
+the deckhand~
+A tough looking deckhand is here.
+~
+The deckhand has a determined look as he swaps the deck.
+~
+72 0 0 E
+25 -9 5 10d8+700 5d15+20
+17500 70000
+8 8 0
+E
+#8604
+lookout~
+the lookout~
+The ship's lookout is here keeping a keen eye out. 
+~
+Nothing goes unoticed to the lookout.
+~
+74 1152 1000 E
+40 -15 0 10d8+2200 16d17+34
+36000 230000
+8 8 0
+E
+#8605
+captain run redbeard~
+Captain Redbeard Rum~
+Captain Redbeard Rum is here.
+~
+The captain seems to have a nasty streak to him, and he dosn't seem to
+pleased that you are here.
+~
+106 1160 -1000 E
+49 -20 -3 10d8+2900 16d17+45
+44100 490000
+8 8 0
+E
+#8606
+bosun~
+the bosun~
+The bosun of the ship is here keeping an eye on the crew.
+~
+The bosun is one tough son of a bitch and takes no crap from anyone.
+~
+72 1152 -600 E
+40 -20 0 10d8+2300 16d17+44
+36000 310000
+8 8 0
+E
+#8607
+pirate wicked~
+the wicked pirate~
+A wicked looking pirate is standing here chortling.
+~
+This pirate has his wits about him and his eyes stare right into you.
+~
+104 1024 -1000 E
+38 -20 1 10d8+2000 13d19+35
+34200 210000
+8 8 0
+E
+#8608
+helmsman~
+the helmsman~
+The helmsman of the ship is standing here.
+~
+The helmsman is a huge man who needs all his strength to steer the
+ship in all weather.
+~
+74 1152 1000 E
+35 -10 2 10d8+1900 13d19+29
+31500 310000
+8 8 0
+E
+#8609
+rat bilgerat~
+the bilgerat~
+A huge bilge rat is here swimming around you.
+~
+The rat is bigger than any you have seen before and has teeth 
+like ivory shortswords.
+~
+104 1152 -100 E
+15 5 8 10d8+120 10d10+15
+500 12000
+8 8 0
+E
+#8610
+cook~
+the cook~
+The cook of the ship is here.
+~
+The cook is a giant of a man who sure enjoys his ale and food.
+~
+72 1024 0 E
+28 -12 4 10d8+900 13d18+32
+15972 160000
+8 8 0
+E
+#8611
+thug guard~
+the thug~
+One of the captain's nasty looking thugs is here.
+~
+The thug has a beaten up face and looks like he's been in more
+brawls than you've had hot diners.
+~
+106 1160 -1000 E
+38 -19 1 10d8+2400 10d19+35
+34200 330000
+8 8 0
+E
+$

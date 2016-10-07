@@ -1,0 +1,9 @@
+bs backstab $1
+inf c 'infravision' self
+em get meat backpack; eat meat
+di c 'det invis'
+ds drink skin
+kc kick
+kk kick $1
+gac get all corpse
+lib look in backpack

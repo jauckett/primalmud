@@ -1,0 +1,67 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@start op crate;wear all;wield sword;hold pen;hold enlibrite;put all.scroll crate;put all.meat crate
+me drink water;drink water;get meat crate;get meat crate;eat meat;eat meat;put all.meat crate
+fi c 'fireball' $1
+cha c 'charm person' $1
+m c 'magic missile' $1
+g get all all.corpse
+fill fill skin fountain
+lo get gold all.corpse
+grs grat ******>$1<******
+cle get all.corpse;junk all.corpse
+wa wake;stand
+invis c 'invisibility
+op unlock $1;pick $1;open $1
+dri n;n;n;w;w;s;s;w;w;w;w;w;s
+li cast 'lightning bolt' $1
+sl sleep
+q c 'heal
+p buy 5 $1;put all.$1 crate
+rec get recall crate;recite recall
+sanc get white crate;quaff white
+id get identify crate;recite identify $1
+locate c 'locate object' $1
+sum c 'summon' $1
+end get all.potion crate;donate all.potion
+ref c 'refresh
+walk rem coif;wear hat
+fight rem hat;wear coif
+see c 'detect invisibility ;c 'infravision ; c 'sense life
+b rem fist;wield dagger;backstab $1;rem dagger;wield fist
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

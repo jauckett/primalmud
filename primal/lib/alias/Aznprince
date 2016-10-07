@@ -1,0 +1,101 @@
+island s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;waterb;u;open dock;u;e;e;
+compare cast 'compare
+bb bj stay
+sl slot 83000
+poison cast 'remove poison
+bst blackjack stay
+bh blackjack hit
+bs blackjack split
+skin cast 'serpent skin
+align cast 'detect alignment
+no cast 'nohassle
+2cldetect cast 'detect '2.cl
+cleq give ppg cl; give seed cl; give seed cl; give cl cl; give cl cl; give sh cl; give dream cl; 
+fsh cast 'fire shield
+he cast 'divine heal
+sense cast 'sense life
+pm primal scream
+touch cast 'wraith touch
+fly cast 'fly
+2clinv cast 'invisibility '2.cl
+bd 'bj double
+good cast 'protection from good
+evil cast 'protection from evil
+2clinfra cast 'infravision '2.cl
+clinv cast 'invisibility 'cl
+clinfra cast 'infravision 'clone
+cldetect cast 'detect invisibility 'clone
+haste cast 'haste 
+2cleq give ch cl; give rul cl; give cow cl; give maj cl; give sk cl;
+prot2cl cast 'protection '2.clone
+protcl cast 'protection 'clone
+str2cl cast 'strength '2.clone
+strcl cast 'strength 'clone
+sarm2cl cast 'spirit armor '2.clone
+sarmcl cast 'spirit armor 'clone
+arm2cl cast 'armor '2.clone
+armcl cast 'armor 'clone
+sanc2cl cast 'sanctuary '2.clone
+sanccl cast 'sanctuary 'clone
+bless2cl cast 'bless '2.clone
+blesscl cast 'bless 'clone
+clone cast 'clone
+gate cast 'dimension gate
+prot cast 'divine protection
+detect cast 'detect invisibility 
+box n; n; n; n; e; go box;
+id cast 'identify 
+sarm cast 'spirit armor
+weap cast 'enchant weapon
+sanc cast 'sanctuary
+home cast 'word of recall
+str cast 'strength
+magic cast 'magic missile
+cure cast 'cure light
+bless cast 'bless
+gc get all in corpse
+shg cast 'shocking grasp
+color cast 'color spray
+infra cast 'infravision
+bolt cast 'lightning bolt
+dragon cast 'dragon
+arm cast 'armor
+gac get all in corpse
+ref cast 'refresh
+fire cast 'fireball
+adv cast 'advanced heal
+post d; n; e; e; e; n
+inv cast 'invisibility
+waterb cast 'waterbreathe
+wind cast 'whirlwind
+bring cast 'summon 'clone
+2cl cast 'identify '2.cl
+2.cl cast 'identify '2.cl
+mush cast 'create food
+invcl cast 'invisibility 'cl
+holy cast 'holy aid
+finger cast 'finger of death
+sh cast 'lightning shield
+tel cast 'teleport
+iden cast 'identify 
+cloud cast 'cloud kill
+stsk cast 'stoneskin
+1 q heal; q heal; q heal; q heal; q heal; q heal; q heal; q heal; q heal; q heal; q heal;
+2 q heal; q heal;
+f get all for
+ff get all 2.for
+fff get all for
+ss cast 'sanctuary 'soulblaze
+as cast 'armor 'soulblaze
+spscast 'spirit armor 'soulblaze
+sps cast 'spirit armor 'soulblaze
+main e; n; e; e; e; e; e; e; e; e; e; e; e; e; e;
+dead cast 'animate dead 'corpse
+waterw cast 'waterwalk
+wt cast 'wraith touch
+zst o zom st; o 2.zom st; o 3.zom st; o 4.zom st; o 5.zom st; o 6.zom st;
+zsit o zom sit; o 2.zom sit; o 3.zom sit; o 4.zom sit; o 5.zom sit; o 6.zom sit;
+cl clone
+cd o cl die
+c ' cast 'remove curse 
+plas cast 'plasma blast

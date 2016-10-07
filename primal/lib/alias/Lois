@@ -1,0 +1,9 @@
+dri c 'create water' skin; drink skin
+cc c 'cure critic' $1
+bs rem staff; wield dagger; backstab $1; rem dagger; wield staff
+white take white bag; quaff white
+bre take bread bag; eat bread
+rc rescue clark
+tac get all corpse
+ac ass clark
+cl c 'cure light' $1

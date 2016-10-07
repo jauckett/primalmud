@@ -1,0 +1,8 @@
+ss steal gold $1
+z assist Scabb
+mm cast 'magic missile' $1
+2 cast 'shocking grasp' $1
+0 hide
+1 sneak
+cc cast 'cure light' $1
+3 backstab $1

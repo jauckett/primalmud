@@ -1,0 +1,90 @@
+3
+phk
+20
+tell artus phone brb
+0
+2
+ph
+21
+tell mandor phone brb
+0
+4
+bail
+51
+flee;flee;recall;say heal please; say spells please
+1
+3
+tah
+15
+tell artus heal
+0
+7
+pastlab
+127
+n;n;w;w;w;n;e;e;s;s;u;n;open french;n;d;d;n;n;n;e;e;open question;n;e;e;e;e;e;e;open illusion;s;e;s;e;s;s;e;s;e;e;n;n;n;w;s;n;s
+1
+10
+drinkfount
+167
+s;s;s;s;s;s;drink fount;drink fount;drink fount;drink fount;drink fount;drink fount;drink fount;drink fount;drink fount;drink fount;drink fount;drink fount;drink fount
+1
+5
+fount
+11
+s;s;s;s;s;s
+1
+9
+gototrain
+13
+s;s;s;s;s;w;w
+1
+6
+plains
+45
+s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e
+1
+5
+grave
+47
+s;e;e;e;e; open gate; e;e;e;e;e;s;s;s;s;s;s;s;s
+1
+3
+lab
+23
+n;n;w;w;w;n;e;e;s;s;u;n
+1
+3
+alc
+52
+s;e;e;e;n;buy $1 $2; put all.$2 back;recall;exa back
+1
+3
+gen
+14
+recall;s;s;e;s
+1
+1
+2
+27
+get white back; quaff white
+1
+1
+1
+23
+get red back; quaff red
+1
+6
+spells
+17
+say spells please
+0
+7
+refresh
+18
+say refresh please
+0
+4
+heal
+15
+say heal please
+0

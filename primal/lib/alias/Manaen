@@ -1,0 +1,11 @@
+ws wake; stand
+di cast 'detect invisibility' manaen
+inf cast 'infravision' manaen
+arm cast 'armor' manaen
+gc get all.coins corpse
+rr open force; get recall force; recite recall
+qr open force; get red force; quaff red
+qw open force; get white force; quaff white
+ct cast 'chill touch' $1
+gac get all corpse
+bs rem hal; wie knife; backstab $1; rem knife; wie hal

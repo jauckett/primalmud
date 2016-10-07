@@ -1,0 +1,52 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@rr get recall back; recite recall
+healme get red back; get red back; q red; q red
+gac get all corpse
+breadme get bread bag; eat bread
+drinkme get skin bag; drink skin; drin skin; put skin bag
+dress wear all; grab lantern; wield whip; put all bag
+buywhite buy 6.white
+buywhi buy whi; buy whi; buy whi; buy whi; buy whi; buy whi; buy whi; buy whi;
+back1 look in back
+bag1 look in bag
+buyheal buy red; buy red; buy red; buy red; buy red; buy red; buy red; buy red; put all.red back
+buymeat buy meat; buy meat; buy meat; buy meat; buy meat; buy meat; buy meat; buy meat; buy meat; buy meat; buy meat; buy meat; put all.meat bag
+meatme get meat bag; get meat bag; eat meat; eat meat
+blessme get whi back; q whi
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,51 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@kc kill citizen
+tac take all corpse
+qw quaff white
+tcc take coins corpse
+li look iolaus
+qr quaff red
+ws wake;stand
+m eat meat
+ds drink skin
+og open gate
+gw get white backpack
+rr recite recall
+kb kill buff
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

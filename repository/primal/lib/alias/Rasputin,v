@@ -1,0 +1,69 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@brightgos gos Always look on the bright side of life; gos <------ whistles a fancy tune.
+bright say Always look on the bright side of life; emote whistles a fine tune.
+skin g skin force;drink skin;p skin force
+bs g super force;rem rune;wi super;backstab$*;rem super;wi rune;p super force
+wake wake;stand
+hi gos hey$*
+bye gos bye$*
+detect cast 'detect invisibility'
+heal cast 'heal'$*
+harm cast 'harm'$*
+corpse g all corpse;g corpse;j corpse
+paralyze cast 'paralyze'$*
+blast cast 'plasma blast'$*
+infra cast 'infravision'$*
+invis cast 'invisibility'$*
+refresh cast 'refresh'$*
+armor cast 'armor'$*
+sanc cast 'sanctuary'$*
+sum cast 'summon'$*
+recall cast 'word of recall'$*
+teleport cast 'teleport'
+rome e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+heat rem helm;g sombrero force;wear sombrero
+normal rem sombrero;wear helm;p sombrero force
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;refresh;n;e;n;n;n;n;n
+desert w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;refresh;crystal
+toyheim w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n;n;w;w;w;refresh
+meat g meat back; eat meat
+dragon cast 'dragon'$*
+drink g skin back;drink skin;p skin back
+rec cast 'word of recall
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

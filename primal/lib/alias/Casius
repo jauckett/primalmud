@@ -1,0 +1,6 @@
+qw quaff white &*
+x examine corpse &*
+c get coins corpse &*
+cw cast 'create water' $*
+ef eat mushroom &*
+cf cast 'create food' $*

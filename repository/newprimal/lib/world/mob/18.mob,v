@@ -1,0 +1,432 @@
+head	1.4;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2004.05.23.07.21.48;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.14.05.25.03;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.06;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Checking everything in again.
+@
+text
+@#1800
+Decay Daemon~
+Decay Daemon~
+A rotting daemon shambles through the corridor.  Its twisted features are
+revolting to the eye.
+~
+You see a grotesque face stearing back at you.  Its fangs drip blood and
+saliva.  Its red piercing eyes send a shiver down your spine.
+~
+1058415 8196 -1000 E
+55 -39 -4 5d20+4500 15d15+55
+20000 550000
+8 8 0
+E
+#1801
+Daemon of fire~
+Daemon of fire~
+A flaming daemon shambles through the corridor.  It grins at you. <shudder>
+~
+You see a grotesque face stearing back at you.  Its fangs drip blood and
+saliva.  Its red piercing eyes send a shiver down your spine.
+Heat radiates from its body causing you to be nauseous.
+~
+1058415 8204 -1000 E
+58 -40 -4 5d10+4500 13d15+60
+25000 580000
+8 8 0
+E
+#1802
+Tentacle daemon~
+Tentacle daemon~
+A daemon with a multitude of tentacles stands before you.  Each tendril 
+holds a mouth. ~
+This daemon is revolting slime oozes from its body.  And its tendril whip
+frantically in random directions.  A mouth chanting Moanders name can be seen
+on every tendril.  Absolutely revolting.
+~
+1058414 8204 -1000 E
+56 -40 -4 5d10+4600 11d16+55
+25000 560000
+8 8 0
+E
+#1803
+Small Imp~
+Small Imp~
+An ugly small Imp is feeding here on rotting corpses.
+~
+looking at the creature reveals it was once a human baby. Twisted my some
+evil magic into this most grotesque form.  It makes you shudder in disgust.
+~
+7784 8204 -600 E
+45 -29 -1 5d10+2100 13d13+49
+10000 450000
+8 8 0
+E
+#1804
+Xaran the Beholder~
+Xaran Beholder~
+Xaran the beholder hovers before you.  "Ummm LUNCH" it slobbers.
+~
+You look at the creature.  It is revolting.  A huge mouth drips with blood
+and bits of human flesh cling to its teeth.  It grins at you like you are it's
+lunch.  A rime comes to your mind from the past.
+
+One eye to lift and one eye to sleep,
+One to charm man and one for beast.
+One eye to wound and one eye to slow,
+One to bring fear and one to make stone.
+One eye makes dust and one eye brings death,
+But the last eye kills wizard more than all the rest.
+
+You realize that the last eye is the eye that disrupts magic.
+~
+1050747 8364 -1000 E
+65 -49 -7 10d10+5500 11d19+69
+58500 650000
+8 8 1
+E
+#1805
+Vine of possession~
+Vine of possession~
+Some vicheous looking vines slash around your legs here.  You feel drawn to them.
+~
+This moldy green plant like creature is quick.  And more powerful than it
+seems.  This is one of Moanders most valuable minions.  For it holds the
+power to entrap a mans soul and bend it to Moanders will.
+~
+1054824 9344 -500 E
+55 -39 -4 10d10+4000 15d15+59
+25000 550000
+8 8 0
+E
+#1806
+Saurial Wizard~
+Saurial Wizard~
+The Saurial Wizard stands here.  It appears to be possessed.
+~
+You see a creature which almost looks prehistoric.  Its lizard like features
+dont cover the beasts obvious intelligence.
+It makes no discernable sounds.  A strange fine grows from its head.
+You smell the scent of freshly mown grass.  How strange.
+~
+3172363 168 -400 E
+62 -46 -6 5d60+5000 16d16+60
+35000 620000
+8 8 1
+E
+#1807
+Bit O Moander~
+Bit O Moander~
+You see a bit O moander standing before you.
+~
+It's an animated pile of garbage.  Made in the form of a human to mock you.
+~
+1074734 9216 -600 E
+55 -30 -4 2d50+4430 16d16+55
+10000 550000
+8 8 0
+E
+#1808
+Lost Soul~
+Lost Soul~
+A Lost Soul hovers before you.
+~
+When you look at the spectre.  The urge to cry overwhelms you.  The look of
+despair and anguish on the face of the specter is terrifying.  You definitely
+dont want to end up like this.
+~
+1058414 8204 -1000 E
+55 -29 -4 5d20+4000 16d16+59
+49500 550000
+8 8 0
+E
+#1809
+Wailing Spectre~
+Wailing spectre~
+A transparent figure hovers before you.  It's wailing is driving you insane.
+~
+When you look at the spectre.  The urge to cry overwhelms you.  The look of
+despair and anguish on the face of the specter is terrifying.  You definitely
+dont want to end up like this.
+~
+1058414 8236 -1000 E
+55 -34 -5 10d20+2000 18d16+59
+49500 550000
+8 8 0
+E
+#1810
+Banshee~
+Banshee~
+A grotesque Banshee hovers before you.
+~
+When you look at the spectre.  The urge to cry overwhelms you.  The look of
+despair and anguish on the face of the specter is terrifying.  You definitely
+dont want to end up like that.
+~
+1058414 8236 -500 E
+62 -45 -6 5d20+4000 18d16+66
+15000 620000
+8 8 0
+E
+#1811
+Mirror Image~
+Mirror Image~
+Your mirror image stands before you.  Its body twisted into a grotesque parody.
+~
+Looking at your mirror image you see your own face stearing back at you.
+However all the gentleness of you eyes is devoid in this grotesque parody of
+you.  You see nothing but evil stearing back at you.
+It speaks to you in your own voice. "WHAT ARE YOU LOOKING AT".  It makes you
+jump out of your socks. <grin>
+~
+1058414 8196 -800 E
+60 -40 -7 5d20+4500 17d16+64
+54000 600000
+8 8 0
+E
+#1812
+Pantathian Serpent Priest~
+Pantathian Serpent Priest~
+You See a Pantathian Serpent Priest. It chants monotonously.
+~
+This reptilian creature oozes with pure evil.  It stares at you chanting
+menacingly.
+~
+3176556 172 -850 E
+60 -44 -4 10d10+4560 13d15+64
+54000 600000
+8 8 1
+E
+#1813
+Bone Guard~
+Bone guard~
+A Bone guard stands before you.
+~
+A Skeleton in full battle armor stands before you.  It radiates power.
+Its weapons are merciless and its eyes only reveal death.
+~
+5261419 1160 0 E
+58 -40 -5 10d20+4000 16d18+62
+52200 580000
+8 8 0
+E
+#1814
+Moander~
+Moander~
+Moander stands here ruling his realm.
+~
+You see a giant figure standing before you.  You look up but you cannot see
+the peak of this mountain of a GOD.  Tendrils wave rythmically from its
+body.  Each tendril either holds an eye or a mouth.  All the mouths 
+chant his name in chorus.  "MOANDER ..  MOANDER"
+You realize u have made the mistake in confronting moander.
+~
+7366779 1192 0 E
+75 -59 -10 20d40+6545 24d30+70
+67500 750000
+8 8 1
+E
+#1815
+daemon blink~
+Blink Daemon~
+A strange deamon stands before you.  Its body in constant flux.
+~
+There is not much to see.  No discernable features can be spotted.  There is
+only one thing which catches your eye.  The deamons flesh and whole body
+seems to move and shiflt like it is in 2 places at the one time.  How
+strange.
+~
+1058415 8196 -1000 E
+57 -39 -5 10d10+3800 17d16+61
+51300 570000
+8 8 0
+E
+$
+@
+
+
+1.3
+log
+@Artus> Checking In.
+@
+text
+@d10 1
+a10 1
+1058415 8236 -1000 E
+d24 1
+a24 1
+1058415 8236 -1000 E
+d38 1
+a38 1
+1058414 8236 -1000 E
+d51 1
+a51 1
+7784 8236 -600 E
+d88 1
+a88 1
+1054840 9384 -500 E
+d115 1
+a115 1
+1074734 8232 -600 E
+d129 1
+a129 1
+1058414 8236 -1000 E
+d173 1
+a173 1
+1058414 8236 -800 E
+d199 1
+a199 1
+5261435 1192 0 E
+d230 1
+a230 1
+1058415 8236 -1000 E
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d216 2
+a217 2
+75 -70 -10 20d40+18000 4d50+70
+200000 1000000
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d10 3
+a12 3
+1058415 8236 -1000 S
+55 -45 -7 5d20+4500 7d6+55
+20000 609000
+d14 1
+d24 3
+a26 3
+1058415 8236 -1000 S
+58 -45 -7 5d10+6000 7d6+60
+25000 690000
+d28 1
+d38 3
+a40 3
+1058414 8236 -1000 S
+56 -45 -8 5d10+6600 8d6+55
+25000 680000
+d42 1
+d51 3
+a53 3
+7784 8236 -600 S
+45 -30 -8 5d10+3800 6d6+50
+10000 630000
+d55 1
+d74 3
+a76 3
+1050747 8364 -1000 S
+65 -57 -10 10d10+9900 8d6+80
+200000 1000000
+d78 1
+d88 5
+a92 4
+1054832 9384 -500 S
+55 -40 -7 5d10+6600 2d10+60
+25000 790000
+8 8 0 9
+d103 5
+a107 4
+3172363 168 -400 S
+62 -59 -10 5d60+9000 8d5+90
+35000 910000
+8 8 1 3
+d115 5
+a119 4
+1074734 8232 -600 S
+55 -40 -7 2d50+5500 6d6+65
+10000 670000
+8 8 0 9
+d129 5
+a133 4
+1058414 8236 -1000 S
+55 -40 -7 5d20+5000 6d6+70
+50000 740000
+8 8 0 1
+d143 5
+a147 4
+1058414 8236 -1000 S
+55 -45 -8 10d20+5000 8d6+70
+62000 720000
+8 8 0 1
+d157 5
+a161 4
+1058414 8236 -500 S
+62 -45 -8 5d20+4000 8d6+80
+15000 800000
+8 8 0 1
+d173 5
+a177 4
+1058414 8236 -800 S
+60 -47 -10 5d20+6500 7d6+80
+100000 810000
+8 8 0 1
+d186 5
+a190 4
+3176556 172 -850 S
+60 -50 -10 10d10+6000 3d15+80
+95000 850000
+8 8 1 3
+d199 5
+a203 4
+5261435 1192 0 S
+58 -57 -10 10d20+7000 6d8+80
+66000 990000
+8 8 0 1
+d215 1
+a215 1
+7366779 1192 0 S
+d218 2
+a219 1
+8 8 1 9
+d230 3
+a232 3
+1058415 8236 -1000 S
+57 -45 -7 5d10+5000 7d6+70
+85000 700000
+d234 2
+a235 2
+#99999
+$~
+@
+

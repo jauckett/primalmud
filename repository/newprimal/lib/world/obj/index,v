@@ -1,0 +1,321 @@
+head	1.12;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.12
+date	2004.05.23.07.21.50;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.04.14.05.45;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.09.05.45.01;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.11.25.05.38.05;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.20.12.01.51;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.14.05.29.35;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.16.10.27.03;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.01.17.04.52.08;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.17.00.05.14;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.11.15.08.50;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.45;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@Artus> Checking everything in again.
+@
+text
+@2.obj
+8.obj
+9.obj
+11.obj
+15.obj
+16.obj
+18.obj
+19.obj
+20.obj
+21.obj
+22.obj
+24.obj
+31.obj
+32.obj
+36.obj
+40.obj
+43.obj
+45.obj
+48.obj
+52.obj
+55.obj
+56.obj
+60.obj
+64.obj
+66.obj
+67.obj
+75.obj
+81.obj
+83.obj
+84.obj
+85.obj
+86.obj
+87.obj
+88.obj
+90.obj
+95.obj
+98.obj
+100.obj
+101.obj
+105.obj
+108.obj
+110.obj
+113.obj
+116.obj
+119.obj
+130.obj
+132.obj
+133.obj
+135.obj
+136.obj
+200.obj
+220.obj
+223.obj
+230.obj
+240.obj
+250.obj
+255.obj
+260.obj
+261.obj
+270.obj
+290.obj
+300.obj
+308.obj
+310.obj
+315.obj
+316.obj
+317.obj
+
+$
+@
+
+
+1.11
+log
+@Artus> Syncing.
+@
+text
+@d24 1
+d26 1
+d43 1
+d65 3
+@
+
+
+1.10
+log
+@Artus> Synchronising.
+@
+text
+@d1 1
+@
+
+
+1.9
+log
+@Artus> Keeping everything up to date..
+@
+text
+@d14 1
+d61 1
+@
+
+
+1.8
+log
+@Artus> A3_0_315
+@
+text
+@d59 1
+a59 1
+
+@
+
+
+1.7
+log
+@Artus> Checking In. (Index: New Zone 116)
+@
+text
+@a23 3
+77.obj
+79.obj
+80.obj
+a35 1
+103.obj
+a38 1
+115.obj
+a45 1
+150.obj
+a55 1
+281.obj
+a58 1
+314.obj
+@
+
+
+1.6
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@d44 1
+@
+
+
+1.5
+log
+@Latest Versions
+@
+text
+@d25 2
+a64 1
+309.obj
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@a11 2
+30.obj
+30.obj
+d22 1
+a22 1
+69.obj
+d24 1
+d57 1
+d59 1
+d63 3
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@a0 1
+2.obj
+a11 1
+28.obj
+a48 1
+140.obj
+a57 1
+261.obj
+a58 1
+281.obj
+a59 1
+292.obj
+a60 1
+303.obj
+a61 1
+
+@
+
+
+1.2
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@a0 1
+1.obj
+d13 2
+d27 1
+d40 1
+d52 1
+d61 1
+d63 1
+d65 1
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d25 1
+d41 1
+d48 1
+d55 1
+d61 2
+@
+

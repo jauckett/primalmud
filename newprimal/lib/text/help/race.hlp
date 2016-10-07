@@ -1,0 +1,158 @@
+RACE
+
+The race system used in PrimalMUD allows for a wider range of character
+statistics than that of the 4 'class' system used earlier. The races that
+a character can be are:
+
+       RACE       STR CON DEX INT WIS CHA
+[ 1]  Ogre        21  21  14  16  16  11
+[ 2]  Deva        16  16  18  21  21  19
+[ 3]  Elf         16  16  21  19  18  19
+[ 4]  Human       18  18  18  18  18  18
+[ 5]  Dwarf       19  20  17  16  19  16
+[ 6]  Pixie       16  16  19  19  17  21
+[ 7]  Minatour	  21  20  16  16  15  14
+
+Type 'help <race>' for help on any specific race, ie:
+
+> help Elf
+
+#
+DWARF DWARVES DWARFS
+
+&2Dwarf&n
+
+Stocky and powerful, dwarves make excellent warriors, aided by their legendary 
+constitution, they are amongst the most effective indoor fighters, able to use 
+their small stature to maximal potency.
+
+Spending much of their time indoors has allowed them to develop the ability to 
+see in the dark at all times.
+
+Their main talent however, lies in their ability to navigate underground, and 
+escape from the most unlikely of places, leading themselves and their allies to 
+safe shelter.
+
+
+&2Extra Abilities&n
+-------------------
+&3Enhanced Thief Abilities
+Escape
+Indoor battle bonus&n
+#
+ELF ELFS ELVES
+
+&2Elf&n
+
+Lithe yet strong, Elves are versatile beings most at home in Forested areas. 
+Because of their affinity with nature, many Elves become Druids at some stage 
+of their existance, as a way of giving back to nature in return for the gifts 
+it has bestowed upon them.
+
+Their prowess in Forests is legendary, and their eyesight so keen that it can 
+penetrate the night. With their affinity with the land they are able to see 
+a path were no other can see one!
+
+
+&2Extra Abilities&n
+-------------------
+&3Permanant Infravision
+Tracker
+Forest battle bonus&n
+#
+HUMAN HUMANS 
+
+&2Human&n
+
+Not cursed with strange mutated abilities, Humans are the pure stock of the 
+land. They are most able to adapt to new situations, and advance the fastest 
+as they do not have any hampering skills to develop, on their way to supremacy.
+
+
+&2Extra Abilities&n
+-------------------
+&3None&n
+
+#
+MINOTAUR MINOTAURS
+
+&2Minotaur&n
+
+Tall and muscular, these brutes are reputed to be a mix of Bull and Man. Horned 
+bull-like heads on top of broad shouldered human bodies intimidate even the
+staunchest of opponents.
+
+Furious in battle, and extraordinarily strong, their horns are vicious and 
+tearing, often brutalising enemies. Their focus on battle gives them an edge,
+and their barbaric strength lends their weapons extra damage.
+
+
+&2Extra Abilities&n
+-------------------
+&3Gore attack
+Battle damage bonus&n
+
+#
+OGRE OGRES
+
+&2Ogre&n
+
+Large and warty, Ogres are muscular brutes with a greenly tinged skin colour, 
+similar to that of Orcs, whom they are said to be distantly related to.
+
+Ogres are brutish unthinking killing machines, concerned with muscular 
+development which they have mastered even from a young age. They are not mad
+uncontrolled berserkers in battle, as Minotaurs are, but they are able to 
+inflict more damage with their weapons of choice than most other creatures.
+
+Their hide is a thick skin, which resists all attempts to pierce it, to the 
+extent of making them much more impervious to physical attacks. The only
+downfall of an ogre is he can never find a pair of gloves big enough for 
+him to wear on his enormous hands, Rings however are expandable to fit his
+brutish size!
+
+ 
+&2Extra Abilities&n
+-------------------
+&3Brutish Strength
+Brutish Constitution
+Thick Skin
+Battle damage bonus&n
+
+#
+PIXIE PIXIES
+
+&2Pixie&n
+
+Flighty and small, Pixies are a wonder to behold.
+
+Beautiful creatures, full of grace and life, they have small wings on their 
+backs which can easily lift them above the troubles of the world. 
+
+Their unearthly eyes penetrate the dark at all times, and their bodies are such 
+that they can channel powerful magics if they are so inclined.
+
+Being a forest creature, other forest creatures are allies, and when faced with 
+danger inside a Forested area, it is not uncommon to see their allies come out 
+to aid them against their foes.
+
+
+&2Extra Abilities&n
+-------------------
+&3Permanant Fly
+Forest allies&n
+#
+DEVA DEVAS
+
+&2Deva&n
+
+Mysterous in nature nobody really knows what a Deva looks like! 
+
+The only thing known about them is they have incredibly sensitive
+ears in which they refuse to put anything on!
+
+&2Extra Abilities&n
+-------------------
+&3None at this stage&n
+#
+$

@@ -1,0 +1,50 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@b backstab $*
+buywhite s;e;e;e;n;buy 100 white;put all.white in backpack;s;w;w;w;n
+see cast 'infravision';look
+tc take all corpse
+white take white from backpack;quaff white
+tg take all.gold corpse
+up wake;stand;look
+gods s;w;s;s;u
+losewhite take all.white backpack;junk all.white
+quit save;quitreally
+c remove soaker;wield axe
+a remove axe;wield soaker
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

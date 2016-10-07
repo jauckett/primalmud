@@ -1,0 +1,7757 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.03.08.13.17.29;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Added zone 303.
+@
+text
+@#30300
+Outside gates~
+Solid steel gates stand wide open as you approach the city. The gates are a 
+foot wide! Magic must help open and close them, they are far too heavy to be 
+moved by the hand of man. The tall city walls stretch 50 feet above the ground 
+and through the open gates you can see the walls themselve are 30 or 40 feet 
+of solid stone. Only a very large army or one with powerful magic wielding 
+allies could hope to take the city without been slaughtered.
+~
+400 0 0
+D0
+~
+~
+0 -1 30372
+D2
+~
+~
+0 -1 30301
+S
+#30301
+Southern highway~
+Filling your vision to the north is the great wall surrounding the city
+of Impulzarr. The wall stretchs for miles across to the east and out west
+across the sea, guarding the large harbour of this coastal city.
+~
+400 0 0
+D0
+~
+~
+0 -1 30300
+D2
+~
+~
+0 -1 30302
+S
+#30302
+Southern highway~
+The Southern highway is the least busy of the three land bound ways into the
+city of Impulzarr - but the paved road is still wide enough forthree wagons 
+to travel abreast and the city still patrols it vigilantly. 
+~
+400 0 0
+D0
+~
+~
+0 -1 30301
+D2
+~
+~
+0 -1 30303
+S
+#30303
+Southern highway~
+A small troop of cavalry from the city to the north travels down the highway.
+The paved stone road is wide enough that neither you nor they need move aside.
+With a searching glance the troop dig their heels in and continue southwards,
+ensuring bandits and smaller jealous cities don't stop trade into or out
+of the city.
+~
+400 0 0
+D0
+~
+~
+0 -1 30302
+D2
+~
+~
+0 -1 30304
+D3
+~
+~
+0 -1 30310
+S
+#30304
+Southern highway~
+Travelling along the smooth paved highway, runnning directly south from
+the city, you can see a small campsite to the east - a regular stopping
+point for weary travellers and traders making their way to the city.
+~
+400 0 0
+D0
+~
+~
+0 -1 30303
+D1
+~
+~
+0 -1 30312
+D2
+~
+~
+0 -1 30305
+S
+#30305
+Southern highway~
+A small marker by the side of the road has a 5 written on it. Five leagues
+further to the north is the southern gate of Impulzarr.
+~
+400 0 0
+D0
+~
+~
+0 -1 30304
+D1
+~
+~
+0 -1 30306
+D2
+~
+~
+0 -1 30313
+D3
+~
+~
+0 -1 30311
+S
+#30306
+Southern highway~
+Small hills rise up on either side of the wide road, but it carves through
+them, turning to the west to the north. The hills here would make a perfect
+place for an ambush by bandits, so keep a close eye out.
+~
+400 0 0
+D0
+~
+~
+0 -1 30312
+D1
+~
+~
+0 -1 30307
+D2
+~
+~
+0 -1 30314
+D3
+~
+~
+0 -1 30305
+S
+#30307
+Southern highway~
+Travelling along the highway you pass a merchants caravan heading towards
+the city. A handful of guards ride alongside the wagons, looking like tree
+trunks on horses, their arms as thick as most mens thighs. The only thing
+harder then their muscles is probably the 'wood' between their ears.
+~
+400 0 0
+D1
+~
+~
+0 -1 30308
+D3
+~
+~
+0 -1 30306
+S
+#30308
+A small hamlet~
+Little more then an inn for passing travellers and a granary to serve the
+surrounding farms. Bleary eyed wagoneers and merchant guards lounge around
+outside the small inn waiting for opening time. 
+~
+400 0 0
+D0
+~
+~
+0 -1 30316
+D1
+~
+~
+0 -1 30309
+D2
+~
+~
+0 -1 30315
+D3
+~
+~
+0 -1 30307
+S
+#30309
+A small hamlet~
+Small children accompaning their parents into town to buy supplies woop 
+and shout as they run back and forth across the street, smiles wide on 
+their young faces.
+~
+400 0 0
+D0
+~
+~
+0 -1 30318
+D1
+~
+~
+0 -1 30320
+D2
+~
+~
+0 -1 30317
+D3
+~
+~
+0 -1 30308
+S
+#30310
+Grasslands~
+Off the highway grasslands stretch away to the east and south. Miles to the
+north the city of Impulzarr dominates the horizon, the largest city for
+many thousands of leagues. Out to the west cliffs overlook a vast ocean,
+strong winds and crashing waves pounding against the cliff face.
+~
+400 0 0
+D1
+~
+~
+0 -1 30303
+S
+#30311
+Cliff face~
+Near the Southern highway out of the city great cliffs overlook a vast ocean
+of water. Looking over the cliff face far below you can see waves crash onto
+sharp rocks. Even if you survived a fall from this height you'd soon be
+pounded into small pieces in the large waves below.
+~
+400 0 0
+D1
+~
+~
+0 -1 30305
+S
+#30312
+Grasslands~
+Off to the side of the highway the grass is trampled from regular use as
+a camping ground by weary travellers before the last leg to the city.
+A small fire pit in the ground shows signs of regular use, blackened
+bones from a recent meal still unclaimed by predators. 
+~
+400 0 0
+D2
+~
+~
+0 -1 30306
+D3
+~
+~
+0 -1 30304
+S
+#30313
+A copse of trees~
+A small copse of trees is the first sign of plant life taller then your
+ankle you've seen for many miles, though the trees look sickly, leaves
+scattered around the roots and leaking sap. 
+~
+400 0 0
+D0
+~
+~
+0 -1 30305
+D1
+~
+~
+0 -1 30314
+S
+#30314
+Grasslands~
+Short stunted growth no higher then your ankles are the only foliage over
+the grass nearby, though you can see a small copse of trees off to the
+west. A gopher raises its head out of a hole near your feet, but with
+one glance at you it dives back in quick enough to make you doubt your
+eyes.
+~
+400 0 0
+D0
+~
+~
+0 -1 30306
+D3
+~
+~
+0 -1 30313
+S
+#30315
+Inn~
+A handful of empty tables and a small dirty fire place are the 'highlights'
+of the towns inn. The few locals having a quiet drink stop talking and
+look at you when you open the door. I don't think they get too many
+strangers passing through these parts.
+~
+400 d 0
+D0
+~
+~
+0 -1 30308
+D1
+~
+~
+0 -1 30317
+S
+#30316
+House~
+Dusty shelves along one wall and dust covered rotting furniture in a way
+tell the tale of the town. Perched near the Southern Highway of Impulzarr
+the town has fallen on hard times of late due to war in the lands to the
+south drying up much of the trade.
+~
+400 d 0
+D1
+~
+~
+0 -1 30318
+D2
+~
+~
+0 -1 30308
+S
+#30317
+Stables~
+Horses from a traders caravan are tied up while their owners are in the
+inn next door feeding their own hungry. An unshaven stablehand pokes 
+half-heartedly at a bale of hay, laying out food for the horses.
+~
+400 d 0
+D0
+~
+~
+0 -1 30309
+D3
+~
+~
+0 -1 30315
+S
+#30318
+Granary~
+Filled with the produce of the local farmers. Cracked bricks to the rear of 
+the granary are letting small rodents in though. Maybe you tell the village
+people, they don't look like they can afford the loss of even a small portion
+of the meager crop.
+~
+400 d 0
+D2
+~
+~
+0 -1 30309
+D3
+~
+~
+0 -1 30316
+S
+#30319
+Farmhouse~
+Smells of freshly baked rolls of bread permeate a small yet homely cottage.
+The old farmer and his wife may not have much, but you can see the love
+that has gone into this cottage and in their eyes when they look at one another.
+For a brief instant you find yourself envying their simple life.
+~
+400 d 0
+D2
+~
+~
+0 -1 30323
+S
+#30320
+Sun road~
+Leading into a small hamlet to the west the run soad is little more then a
+beaten track through the plains towards the desert.
+~
+400 0 0
+D1
+~
+~
+0 -1 30321
+D3
+~
+~
+0 -1 30309
+S
+#30321
+Sun road~
+A small dirt path through the grasslands leads off to the north towards a 
+small farm house. With the desert to the west slowly expanding at an 
+inexorable rate the lands around here have gotten sandier and sandier
+as the years past, now barely able to support livestock and crops anymore.
+~
+400 0 0
+D0
+~
+~
+0 -1 30323
+D2
+~
+~
+0 -1 30322
+D3
+~
+~
+0 -1 30320
+S
+#30322
+Sun Road~
+Heading along the Sun Road you can see a small hamlet to the north-west.
+The lands on either side of the sand-blasted road are half grass and half
+sand, the remaining small foliage dying a slow death from the ground
+becoming too sandy.
+~
+400 0 0
+D0
+~
+~
+0 -1 30321
+D1
+~
+~
+0 -1 30325
+S
+#30323
+Dirt Path~
+A rough beaten dirt path is little more then two grooves - set wide enough
+apart that they must be from a wagon. The track leads to a small farm house,
+a plume of smoke rising from a chimmey and the smell of baking making your
+mouth water.
+~
+400 0 0
+D0
+~
+~
+0 -1 30319
+D2
+~
+~
+0 -1 30321
+S
+#30324
+Sun Road~
+Heading along the Sun Road you can see a small hamlet to the north-west,
+while the road curves around also to the south. Much of the lands to either
+side are grassy fields, but also large patches of sand that get worse the
+further east you look.
+~
+400 0 0
+D2
+~
+~
+0 -1 30328
+D3
+~
+~
+0 -1 30325
+S
+#30325
+Sun Road~
+Heading along the Sun Road you can see a small hamlet to the north-west.
+The lands on either side of the sand-blasted road are most sand now, only
+a few small patches of grass surviving.
+~
+400 0 0
+D1
+~
+~
+0 -1 30324
+D3
+~
+~
+0 -1 30322
+S
+#30326
+Grasslands~
+A wide open expanse of grass is only broken by the occasional small stunted
+bush, the land rolling gently, no hills you can't see over. 
+~
+400 0 0
+D1
+~
+~
+0 -1 30327
+D2
+~
+~
+0 -1 30330
+S
+#30327
+Grasslands~
+Flat expanses of grass stretch towards the horizon, but the growth starts
+dying off over to the east, as the ground gets sandier.
+~
+400 0 0
+D3
+~
+~
+0 -1 30326
+S
+#30328
+Sun Road~
+Cracked stones are half-turned over and blasted by hot swirling sands
+from the encroaching desert to the east. The road becomes more broken
+to the east and harder to see as the sand becomes more and more apparent.
+The small road turns to the north, heading along to the north and west
+towards the city of Impulzarr.
+~
+400 0 0
+D0
+~
+~
+0 -1 30324
+D1
+~
+~
+0 -1 30329
+S
+#30329
+Sun Road~
+Cracked stones are half-turned over and blasted by hot swirling sands
+from the encroaching desert to the east. The road becomes more broken
+to the east and harder to see as the sand becomes more and more apparent.
+~
+400 0 0
+D1
+~
+~
+0 -1 30330
+D3
+~
+~
+0 -1 30328
+S
+#30330
+Sun Road~
+Just visible under the swirling sands the Sun Road leads nort-west, eventually
+to the great city of Impulzarr. Once it also lead to lands to the east,
+before the desert appeared a century ago. Some say it was an act of a
+vengeful god against the arrogance of man, others the work of a mad mage,
+whatever the cause the lands are slowly, but surely been buried under the
+sands over the course of decades.
+~
+400 0 0
+D0
+~
+~
+0 -1 30326
+D2
+~
+~
+0 -1 30331
+D3
+~
+~
+0 -1 30329
+S
+#30331
+Sun Road~
+Just visible under the swirling sands the Sun Road leads north-west, eventually 
+to the great city of Impulzarr. Once it also lead to lands to the east,
+before the desert appeared a century ago. Some say it was an act of a
+vengeful god against the arrogance of man, others the work of a mad mage,
+whatever the cause the lands are slowly, but surely been buried under the
+sands over the course of decades.
+~
+400 0 0
+D0
+~
+~
+0 -1 30330
+D1
+~
+~
+0 -1 30332
+S
+#30332
+Sun Road~
+Scoured almost away by the hot swirling winds and sands from the desert you can
+see on the eastern horizon this road may once have led to a town or city to the
+east, but whichever it was has since been buried under the unstoppable sea
+of sand. Best to retreat back along the road to the west then face that fierce
+cauldron.
+~
+400 0 0
+D1
+~
+~
+0 -1 30333
+D3
+~
+~
+0 -1 30331
+S
+#30333
+Edge of desert~
+Tall sand dunes rise high out of the desert sands to the east, running
+down to low spindly bushes. A rough beaten track leads to the west, its
+eastern edge buried under the desert dunes. 
+~
+400 0 0
+D1
+~
+~
+0 -1 813
+D3
+~
+~
+0 -1 30332
+S
+#30334
+Wall~
+Running west across the harbour the wall continues away from land encircling 
+the vast bay, keeping both the elements and hostile forces at bay.
+~
+400 0 1
+D1
+~
+~
+0 -1 30335
+D3
+~
+~
+0 -1 30675
+S
+#30335
+Wall~
+Looking down from the heights of the wall you look out over the docks
+of the city. Large warehouses hold produce been brought into or been
+shipped out of the city. Traders and merchants haggle trying to get
+the best - or cheapest, depending on which side they are on - price for
+their goods. Sailors lustfully wander along the low class waterfront
+dives, soaking up alcohol as fast as possible before they have to sail
+out again to sea.
+~
+400 0 1
+D1
+~
+~
+0 -1 30336
+D3
+~
+~
+0 -1 30334
+S
+#30336
+Wall~
+Looking down from the heights of the wall you look out over the docks
+of the city. Large warehouses hold produce been brought into or been
+shipped out of the city. Traders and merchants haggle trying to get
+the best - or cheapest, depending on which side they are on - price for
+their goods. Sailors lustfully wander along the low class waterfront
+dives, soaking up alcohol as fast as possible before they have to sail
+out again to sea.
+~
+400 0 1
+D1
+~
+~
+0 -1 30337
+D3
+~
+~
+0 -1 30335
+S
+#30337
+Wall~
+Looking down from the heights of the wall you look out over the docks
+of the city. Large warehouses hold produce been brought into or been
+shipped out of the city. Traders and merchants haggle trying to get
+the best - or cheapest, depending on which side they are on - price for
+their goods. Sailors lustfully wander along the low class waterfront
+dives, soaking up alcohol as fast as possible before they have to sail
+out again to sea.
+~
+400 0 1
+D1
+~
+~
+0 -1 30338
+D3
+~
+~
+0 -1 30336
+S
+#30338
+Wall~
+Looking out along the wall soldiers patrol up and down its length, 
+keeping a close eye across the surrounding countryside. Watchtowers
+at regular intervals look out even further, seeing for miles around.
+~
+400 0 1
+D1
+~
+~
+0 -1 30339
+D3
+~
+~
+0 -1 30337
+S
+#30339
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D1
+~
+~
+0 -1 30340
+D3
+~
+~
+0 -1 30338
+D4
+~
+~
+0 -1 30352
+D5
+~
+~
+0 -1 30353
+S
+#30340
+Wall~
+Walking along the top of the city wall you get many close looks from the
+guards. While it is not illegal for citizens to walk along the city walls
+except in emergencies the guard tends to look dimly on those that do.
+~
+400 0 1
+D1
+~
+~
+0 -1 30341
+D3
+~
+~
+0 -1 30339
+S
+#30341
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 1
+D1
+~
+~
+0 -1 30342
+D3
+~
+~
+0 -1 30340
+S
+#30342
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 1
+D1
+~
+~
+0 -1 30343
+D3
+~
+~
+0 -1 30341
+S
+#30343
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D1
+~
+~
+0 -1 30344
+D3
+~
+~
+0 -1 30342
+S
+#30344
+Wall~
+Below you within the city you look over the unofficial poor quarter of 
+Impulzarr. The streets are rabbits warren of twists and turns, the 
+buildings in some cases half falling down. Though given the reputation 
+of these streets perhaps if they all did collapse it would be a boon for 
+the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30345
+D3
+~
+~
+0 -1 30343
+S
+#30345
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D1
+~
+~
+0 -1 30346
+D3
+~
+~
+0 -1 30344
+D4
+~
+~
+0 -1 30357
+D5
+~
+~
+0 -1 30358
+S
+#30346
+Wall~
+Below you within the city you look over the unofficial poor quarter of 
+Impulzarr. The streets are rabbits warren of twists and turns, the 
+buildings in some cases half falling down. Though given the reputation 
+of these streets perhaps if they all did collapse it would be a boon for 
+the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30347
+D3
+~
+~
+0 -1 30345
+S
+#30347
+Wall~
+Below you within the city you look over the unofficial poor quarter of 
+Impulzarr. The streets are rabbits warren of twists and turns, the 
+buildings in some cases half falling down. Though given the reputation 
+of these streets perhaps if they all did collapse it would be a boon for 
+the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30348
+D3
+~
+~
+0 -1 30346
+S
+#30348
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D1
+~
+~
+0 -1 30349
+D3
+~
+~
+0 -1 30347
+S
+#30349
+Southern gate~
+Standing atop the southern gates you watch as a steady flow of traffic passes
+below, moving in and out of the city - like life blood flowing through a living
+entity. 
+~
+400 0 1
+D1
+~
+~
+0 -1 30350
+D3
+~
+~
+0 -1 30348
+D5
+~
+~
+0 -1 30373
+S
+#30350
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D1
+~
+~
+0 -1 30351
+D3
+~
+~
+0 -1 30349
+S
+#30351
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 1
+D1
+~
+~
+0 -1 30362
+D3
+~
+~
+0 -1 30350
+S
+#30352
+Watch tower~
+Standing high on the watchtower, you can see for miles in every direction. 
+To the south the fiery desert, east across the vast plains of fields feeding 
+the mighty city. To the west the sea of Stars, stretching to the horizon, 
+beautiful, enchanting, merciless. And to the north, Impulzarr. Impulzarr. 
+Called the Jewel of the North by it's citizens, less flattering things by 
+smaller cities jealous of its power.
+~
+400 0 1
+D5
+~
+~
+0 -1 30339
+S
+#30353
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30355
+D1
+~
+~
+0 -1 30354
+D4
+~
+~
+0 -1 30339
+S
+#30354
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30356
+D3
+~
+~
+0 -1 30353
+S
+#30355
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30353
+S
+#30356
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30354
+S
+#30357
+Watch tower~
+Standing high on the watchtower, you can see for miles in every direction. 
+To the south the fiery desert, east across the vast plains of fields feeding 
+the mighty city. To the west the sea of Stars, stretching to the horizon, 
+beautiful, enchanting, merciless. And to the north, Impulzarr. Impulzarr. 
+Called the Jewel of the North by it's citizens, less flattering things by 
+smaller cities jealous of its power.
+~
+400 0 1
+D5
+~
+~
+0 -1 30345
+S
+#30358
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30359
+D1
+~
+~
+0 -1 30360
+D4
+~
+~
+0 -1 30345
+S
+#30359
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D1
+~
+~
+0 -1 30361
+D2
+~
+~
+0 -1 30358
+S
+#30360
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D3
+~
+~
+0 -1 30358
+S
+#30361
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D3
+~
+~
+0 -1 30359
+S
+#30362
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D1
+~
+~
+0 -1 30363
+D3
+~
+~
+0 -1 30351
+S
+#30363
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D1
+~
+~
+0 -1 30364
+D3
+~
+~
+0 -1 30362
+S
+#30364
+Wall~
+A young looking guard trying to look older by growing a patchy beard,
+tries to glare at you and look intimidating. It takes an effort not
+to laugh at his attempt to look fearsome.
+~
+400 0 1
+D1
+~
+~
+0 -1 30365
+D3
+~
+~
+0 -1 30363
+S
+#30365
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D1
+~
+~
+0 -1 30366
+D3
+~
+~
+0 -1 30364
+D4
+~
+~
+0 -1 30376
+D5
+~
+~
+0 -1 30377
+S
+#30366
+Wall~
+Crossing this part of the wall you feel the temperature drop several 
+degrees as a cold breeze from the west blows over you. Looking into 
+the city you see the City of the Dead, a city within the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30367
+D3
+~
+~
+0 -1 30365
+S
+#30367
+Wall~
+Crossing this part of the wall you feel the temperature drop several 
+degrees as a cold breeze from the west blows over you. Looking into 
+the city you see the City of the Dead, a city within the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30368
+D3
+~
+~
+0 -1 30366
+S
+#30368
+Wall~
+Crossing this part of the wall you feel the temperature drop several 
+degrees as a cold breeze from the west blows over you. Looking into 
+the city you see the City of the Dead, a city within the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30369
+D3
+~
+~
+0 -1 30367
+S
+#30369
+Wall~
+Crossing this part of the wall you feel the temperature drop several 
+degrees as a cold breeze from the west blows over you. Looking into 
+the city you see the City of the Dead, a city within the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30370
+D3
+~
+~
+0 -1 30368
+S
+#30370
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D1
+~
+~
+0 -1 30371
+D3
+~
+~
+0 -1 30369
+D4
+~
+~
+0 -1 30381
+D5
+~
+~
+0 -1 30382
+S
+#30371
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D1
+~
+~
+0 -1 30386
+D3
+~
+~
+0 -1 30370
+S
+#30372
+Passing through gates~
+Passing between the two large sets of gate - one on either side of the wall,
+there is a small iron banded door to the east leading up to along the top
+of the city wall. Along the roof are killing holes where archers could 
+decimate any forces managing to breach the outer gates.
+~
+400 d 1
+D0
+~
+~
+0 -1 30374
+D1
+~
+~
+0 -1 30373
+D2
+~
+~
+0 -1 30300
+S
+#30373
+Stairs up to wall~
+Small stairs lead up to the top of the city walls. The stairs are rounded
+so anyone scaling them can't see far up, allowing multiple ambushes to
+be set. 
+~
+400 d 0
+D3
+~
+~
+0 -1 30372
+D4
+~
+~
+0 -1 30349
+S
+#30374
+Inside Impulzarr~
+Standing inside the Southern gates of the city you can hear a hum from 
+all the activity, almost as if the city itself was alive. Everywhere 
+people are moving - travellers walking wide eyed, citizens shopping, 
+guards patrolling, none with any time to stop and talk to the likes 
+of you.
+~
+400 0 1
+D2
+~
+~
+0 -1 30372
+D3
+~
+~
+0 -1 30375
+S
+#30375
+Stables~
+Alongside the city walls stables hold the horses of the city patrols when 
+they are not out protecting the highways and surrounding countryside.
+~
+400 d 0
+D1
+~
+~
+0 -1 30374
+S
+#30376
+Watch tower~
+Standing high on the watchtower, you can see for miles in every direction. 
+To the south the fiery desert, east across the vast plains of fields feeding 
+the mighty city. To the west the sea of Stars, stretching to the horizon, 
+beautiful, enchanting, merciless. And to the north, Impulzarr. Impulzarr. 
+Called the Jewel of the North by it's citizens, less flattering things by 
+smaller cities jealous of its power.
+~
+400 0 1
+D5
+~
+~
+0 -1 30365
+S
+#30377
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30379
+D1
+~
+~
+0 -1 30378
+D4
+~
+~
+0 -1 30365
+S
+#30378
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30380
+D3
+~
+~
+0 -1 30377
+S
+#30379
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30377
+S
+#30380
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30378
+S
+#30381
+Watch tower~
+Rising up above the city walls the watch towers at regular intervals 
+stand ready to signal into the city itself if invaders approach by land.
+If the watchers signal into the city, the cities soldiers can ride
+forth from the barracks or fortress within the heart of the city.
+~
+400 0 1
+D5
+~
+~
+0 -1 30370
+S
+#30382
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30383
+D1
+~
+~
+0 -1 30384
+D4
+~
+~
+0 -1 30370
+S
+#30383
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D1
+~
+~
+0 -1 30385
+D2
+~
+~
+0 -1 30382
+S
+#30384
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D3
+~
+~
+0 -1 30382
+S
+#30385
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D3
+~
+~
+0 -1 30383
+S
+#30386
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 1
+D1
+~
+~
+0 -1 30387
+D3
+~
+~
+0 -1 30371
+S
+#30387
+Wall~
+Both archers and infantry patrol along the wall. The walls are wide enough
+that enough a small cavalry charge could be mounted along it. An archer
+walks past you her finger hovering near the bowstring of her long bow.
+~
+400 0 1
+D1
+~
+~
+0 -1 30388
+D3
+~
+~
+0 -1 30386
+S
+#30388
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 1
+D1
+~
+~
+0 -1 30389
+D3
+~
+~
+0 -1 30387
+S
+#30389
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D1
+~
+~
+0 -1 30390
+D3
+~
+~
+0 -1 30388
+S
+#30390
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D1
+~
+~
+0 -1 30396
+D3
+~
+~
+0 -1 30389
+D4
+~
+~
+0 -1 30391
+D5
+~
+~
+0 -1 30392
+S
+#30391
+Watchtower~
+Rising up above the city walls the watch towers at regular intervals 
+stand ready to signal into the city itself if invaders approach by land.
+If the watchers signal into the city, the cities soldiers can ride
+forth from the barracks or fortress within the heart of the city.
+~
+400 0 1
+D5
+~
+~
+0 -1 30390
+S
+#30392
+Steps up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30394
+D1
+~
+~
+0 -1 30393
+D4
+~
+~
+0 -1 30390
+S
+#30393
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30395
+D3
+~
+~
+0 -1 30392
+S
+#30394
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30392
+S
+#30395
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30393
+S
+#30396
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D1
+~
+~
+0 -1 30397
+D3
+~
+~
+0 -1 30390
+S
+#30397
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 1
+D1
+~
+~
+0 -1 30398
+D3
+~
+~
+0 -1 30396
+S
+#30398
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D1
+~
+~
+0 -1 30399
+D3
+~
+~
+0 -1 30397
+S
+#30399
+Wall~
+The lands to the south of the city wall roll over gentle hills, none
+of them tall enough to tax anyone walking on foot. Farms dot the landscape,
+providing the much of the food and trade for the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30400
+D3
+~
+~
+0 -1 30398
+S
+#30400
+Wall~
+The lands to the south of the city wall roll over gentle hills, none
+of them tall enough to tax anyone walking on foot. Farms dot the landscape,
+providing the much of the food and trade for the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30401
+D3
+~
+~
+0 -1 30399
+S
+#30401
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D1
+~
+~
+0 -1 30407
+D3
+~
+~
+0 -1 30400
+D4
+~
+~
+0 -1 30402
+D5
+~
+~
+0 -1 30403
+S
+#30402
+Watch tower ~
+The watch tower provides you with a commanding view of the city and 
+surrounding lands. Within the city itself, three structures dominate
+more then any other. The barracks - home to the bulk of the army,
+the prison and the grand palace of the cities rulers, set within the
+inner city. 
+~
+400 0 1
+D5
+~
+~
+0 -1 30401
+S
+#30403
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 0
+D0
+~
+~
+0 -1 30404
+D1
+~
+~
+0 -1 30405
+D4
+~
+~
+0 -1 30401
+S
+#30404
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 0
+D2
+~
+~
+0 -1 30403
+S
+#30405
+Mess Hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 0
+D0
+~
+~
+0 -1 30406
+D3
+~
+~
+0 -1 30403
+S
+#30406
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 0
+D2
+~
+~
+0 -1 30405
+S
+#30407
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 0
+D1
+~
+~
+0 -1 30408
+D3
+~
+~
+0 -1 30401
+S
+#30408
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 0
+D1
+~
+~
+0 -1 30409
+D3
+~
+~
+0 -1 30407
+S
+#30409
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 0
+D1
+~
+~
+0 -1 30410
+D3
+~
+~
+0 -1 30408
+S
+#30410
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 0
+D1
+~
+~
+0 -1 30411
+D3
+~
+~
+0 -1 30409
+S
+#30411
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 0
+D1
+~
+~
+0 -1 30412
+D3
+~
+~
+0 -1 30410
+S
+#30412
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 0
+D0
+~
+~
+0 -1 30418
+D3
+~
+~
+0 -1 30411
+D4
+~
+~
+0 -1 30413
+D5
+~
+~
+0 -1 30414
+S
+#30413
+Watch Tower~
+Rising up above the city walls the watch towers at regular intervals 
+stand ready to signal into the city itself if invaders approach by land.
+If the watchers signal into the city, the cities soldiers can ride
+forth from the barracks or fortress within the heart of the city.
+~
+400 0 0
+D5
+~
+~
+0 -1 30412
+S
+#30414
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 0
+D0
+~
+~
+0 -1 30417
+D1
+~
+~
+0 -1 30415
+D4
+~
+~
+0 -1 30412
+S
+#30415
+Mess Hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 0 0
+D0
+~
+~
+0 -1 30416
+D3
+~
+~
+0 -1 30414
+S
+#30416
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 0 0
+D2
+~
+~
+0 -1 30415
+S
+#30417
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 0 0
+D2
+~
+~
+0 -1 30414
+S
+#30418
+Wall~
+Curving around from the west to the north, the seams in the great wall
+are so seamless, you can only see them when you bring your eye almost
+to touching the stone wall.
+~
+400 0 0
+D1
+~
+~
+0 -1 30419
+D2
+~
+~
+0 -1 30412
+S
+#30419
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 0
+D1
+~
+~
+0 -1 30420
+D3
+~
+~
+0 -1 30418
+S
+#30420
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 0
+D0
+~
+~
+0 -1 30421
+D3
+~
+~
+0 -1 30419
+S
+#30421
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 0
+D0
+~
+~
+0 -1 30422
+D2
+~
+~
+0 -1 30420
+S
+#30422
+Wall~
+The lands to the south-east of the city wall roll over gentle hills, none
+of them tall enough to tax anyone walking on foot. Farms dot the landscape,
+providing the much of the food and trade for the city.
+~
+400 0 0
+D1
+~
+~
+0 -1 30423
+D2
+~
+~
+0 -1 30421
+S
+#30423
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 0
+D1
+~
+~
+0 -1 30424
+D3
+~
+~
+0 -1 30422
+D4
+~
+~
+0 -1 30440
+D5
+~
+~
+0 -1 30441
+S
+#30424
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 0
+D0
+~
+~
+0 -1 30425
+D3
+~
+~
+0 -1 30423
+S
+#30425
+Wall~
+Walking along the top of the city wall you get many close looks from the
+guards. While it is not illegal for citizens to walk along the city walls
+except in emergencies the guard tends to look dimly on those that do.
+~
+400 0 0
+D0
+~
+~
+0 -1 30426
+D2
+~
+~
+0 -1 30424
+S
+#30426
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 0
+D1
+~
+~
+0 -1 30427
+D2
+~
+~
+0 -1 30425
+S
+#30427
+Wall~
+Walking along the top of the city wall patrolling, the heavy boots
+of the city guard sound more like the tread of iron on iron then 
+stepping on stone. Whatever the wall is made of it isn't just stone
+from a quarry.
+~
+400 0 0
+D1
+~
+~
+0 -1 30428
+D3
+~
+~
+0 -1 30426
+S
+#30428
+Wall~
+Walking along the wall you come along two young guards in a heated
+argument. "No I tell you the Mayflower is THE place to visit" a small
+weasly looking guard is telling a tall blonde warrior. "Bah! For
+my taste nothing beats The Black Lotus.". "No! The girls at the Mayflower
+have the largest ....". The two guards break off their 'discussion'
+when they notice you. The tall warrior tells you to move along - unless
+you want to be arrested for disturbing the peace - but his red face
+spoils the stern look.
+~
+400 0 0
+D0
+~
+~
+0 -1 30429
+D3
+~
+~
+0 -1 30427
+S
+#30429
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 0
+D0
+~
+~
+0 -1 30430
+D2
+~
+~
+0 -1 30428
+D4
+~
+~
+0 -1 30445
+D5
+~
+~
+0 -1 30446
+S
+#30430
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 0
+D1
+~
+~
+0 -1 30431
+D2
+~
+~
+0 -1 30429
+S
+#30431
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 0
+D1
+~
+~
+0 -1 30432
+D3
+~
+~
+0 -1 30430
+S
+#30432
+Wall~
+Walking along the top of the city wall patrolling, the heavy boots
+of the city guard sound more like the tread of iron on iron then 
+stepping on stone. Whatever the wall is made of it isn't just stone
+from a quarry.
+~
+400 0 0
+D0
+~
+~
+0 -1 30433
+D3
+~
+~
+0 -1 30431
+S
+#30433
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 0
+D0
+~
+~
+0 -1 30434
+D2
+~
+~
+0 -1 30432
+S
+#30434
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 0
+D1
+~
+~
+0 -1 30435
+D2
+~
+~
+0 -1 30433
+D4
+~
+~
+0 -1 30450
+D5
+~
+~
+0 -1 30451
+S
+#30435
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 0
+D1
+~
+~
+0 -1 30436
+D3
+~
+~
+0 -1 30434
+S
+#30436
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 0
+D1
+~
+~
+0 -1 30437
+D3
+~
+~
+0 -1 30435
+S
+#30437
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 0
+D1
+~
+~
+0 -1 30438
+D3
+~
+~
+0 -1 30436
+S
+#30438
+Wall~
+Standing atop the south-eastern gates you watch as a steady flow of traffic 
+passes below, moving in and out of the city - like life blood flowing through 
+a living entity. 
+~
+400 0 0
+D1
+~
+~
+0 -1 30439
+D3
+~
+~
+0 -1 30437
+D5
+~
+~
+0 -1 30456
+S
+#30439
+Wall~
+Curving around from the west to the north, the seams in the great wall
+are so seamless, you can only see them when you bring your eye almost
+to touching the stone wall.
+~
+400 0 0
+D0
+~
+~
+0 -1 30459
+D3
+~
+~
+0 -1 30438
+S
+#30440
+Watchtower~
+The watch tower provides you with a commanding view of the city and 
+surrounding lands. Within the city itself, three structures dominate
+more then any other. The barracks - home to the bulk of the army,
+the prison and the grand palace of the cities rulers, set within the
+inner city. 
+~
+400 0 0
+D5
+~
+~
+0 -1 30423
+S
+#30441
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 0
+D0
+~
+~
+0 -1 30444
+D1
+~
+~
+0 -1 30442
+S
+#30442
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 0
+D0
+~
+~
+0 -1 30443
+D3
+~
+~
+0 -1 30441
+S
+#30443
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 0 0
+D2
+~
+~
+0 -1 30442
+S
+#30444
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 0 0
+D2
+~
+~
+0 -1 30441
+D4
+~
+~
+0 -1 30423
+S
+#30445
+Watch tower~
+Rising up above the city walls the watch towers at regular intervals 
+stand ready to signal into the city itself if invaders approach by land.
+If the watchers signal into the city, the cities soldiers can ride
+forth from the barracks or fortress within the heart of the city.
+~
+400 0 0
+D5
+~
+~
+0 -1 30429
+S
+#30446
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 0 0
+D0
+~
+~
+0 -1 30448
+D1
+~
+~
+0 -1 30447
+D4
+~
+~
+0 -1 30429
+S
+#30447
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 0 0
+D3
+~
+~
+0 -1 30446
+S
+#30448
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 0 0
+D1
+~
+~
+0 -1 30449
+D2
+~
+~
+0 -1 30446
+S
+#30449
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 0 0
+D3
+~
+~
+0 -1 30448
+S
+#30450
+Watch tower~
+Looking out south-east over the farmlands surrounding the town, you can
+see two farmers struggling to pull an uncooperative donkey towards the
+city. Everytime one of the farmers gets a good grip the beast turns
+around and tries to bite him, forcing him to back off. The sight has
+several guards close by putting wagers on who will win in the end - the
+farmers or the beast.
+~
+400 0 0
+D5
+~
+~
+0 -1 30434
+S
+#30451
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 0 0
+D0
+~
+~
+0 -1 30454
+D1
+~
+~
+0 -1 30452
+D4
+~
+~
+0 -1 30434
+S
+#30452
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 0 0
+D0
+~
+~
+0 -1 30453
+D3
+~
+~
+0 -1 30451
+S
+#30453
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 0 0
+D2
+~
+~
+0 -1 30452
+S
+#30454
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 0 0
+D2
+~
+~
+0 -1 30451
+S
+#30455
+Passing through south-east gates~
+Passing between the two large sets of gate - one on either side of the wall,
+there is a small iron banded door to the east leading up to along the top
+of the city wall. Along the roof are killing holes where archers could 
+decimate any forces managing to breach the outer gates.
+~
+400 i 0
+D0
+~
+~
+0 -1 30457
+D1
+~
+~
+0 -1 30456
+S
+#30456
+Stairs up~
+Small stairs lead up to the top of the city walls. The stairs are rounded
+so anyone scaling them can't see far up, allowing multiple ambushes to
+be set. 
+~
+400 0 0
+D3
+~
+~
+0 -1 30455
+D4
+~
+~
+0 -1 30437
+S
+#30457
+Inside SE gates~
+Passing through the gates to the city within you are have to keep a close
+eye about you to avoid been crushed by the crowds. Everywhere people are
+going about their business - traders buying and selling goods, nobles
+in their carriages on the way to balls, guards patrolling the streets,
+beggars begging - from the mighty to the meek all are here - and all
+seemingly oblivious to you.
+~
+400 0 1
+D2
+~
+~
+0 -1 30455
+D3
+~
+~
+0 -1 30458
+S
+#30458
+Stables~
+Alongside the city walls stables hold the horses of the city patrols when 
+they are not out protecting the highways and surrounding countryside.
+~
+400 d 1
+D1
+~
+~
+0 -1 30457
+S
+#30459
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D0
+~
+~
+0 -1 30460
+D2
+~
+~
+0 -1 30439
+S
+#30460
+Wall~
+Walking along the top of the city wall patrolling, the heavy boots
+of the city guard sound more like the tread of iron on iron then 
+stepping on stone. Whatever the wall is made of it isn't just stone
+from a quarry.
+~
+400 0 1
+D0
+~
+~
+0 -1 30461
+D2
+~
+~
+0 -1 30459
+S
+#30461
+Wall~
+Walking along the top of the cities sea wall you get many close looks from the
+guards. While it is not illegal for citizens to walk along the city walls
+except in emergencies the guard tends to look dimly on those that do.
+~
+400 0 1
+D1
+~
+~
+0 -1 30462
+D2
+~
+~
+0 -1 30460
+S
+#30462
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D1
+~
+~
+0 -1 30463
+D3
+~
+~
+0 -1 30461
+D4
+~
+~
+0 -1 30480
+D5
+~
+~
+0 -1 30481
+S
+#30463
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D0
+~
+~
+0 -1 30464
+D3
+~
+~
+0 -1 30462
+S
+#30464
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 1
+D0
+~
+~
+0 -1 30465
+D2
+~
+~
+0 -1 30463
+S
+#30465
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D1
+~
+~
+0 -1 30466
+D2
+~
+~
+0 -1 30464
+S
+#30466
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 1
+D1
+~
+~
+0 -1 30467
+D3
+~
+~
+0 -1 30465
+S
+#30467
+Wall~
+Both archers and infantry patrol along the wall. The walls are wide enough
+that enough a small cavalry charge could be mounted along it. An archer
+walks past you her finger hovering near the bowstring of her long bow.
+~
+400 0 1
+D0
+~
+~
+0 -1 30468
+D3
+~
+~
+0 -1 30466
+S
+#30468
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D0
+~
+~
+0 -1 30469
+D2
+~
+~
+0 -1 30467
+D4
+~
+~
+0 -1 30485
+D5
+~
+~
+0 -1 30486
+S
+#30469
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D1
+~
+~
+0 -1 30470
+D2
+~
+~
+0 -1 30468
+S
+#30470
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D1
+~
+~
+0 -1 30471
+D3
+~
+~
+0 -1 30469
+S
+#30471
+Wall~
+Looking out over the sea of building in the city, one building towers
+above all others. The grand palace of the rulers of Impulzarr. More
+then just home to the leaders of the city, it is also the seat of
+government and the centre around which the city revolves.
+~
+400 0 1
+D0
+~
+~
+0 -1 30472
+D3
+~
+~
+0 -1 30470
+S
+#30472
+Wall~
+Two guards rush past you jostling you. Turning around to see what
+the commotion is all about you see them wrestling a ragged looking
+man to the ground. "Let me jump! My god has given me wings to fly
+away!". The guards drag the deluded soul away - a city this size
+is bound to have its fair share of nutcases.~
+400 0 1
+D0
+~
+~
+0 -1 30473
+D2
+~
+~
+0 -1 30471
+S
+#30473
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 1
+D1
+~
+~
+0 -1 30474
+D2
+~
+~
+0 -1 30472
+S
+#30474
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D1
+~
+~
+0 -1 30475
+D3
+~
+~
+0 -1 30473
+D4
+~
+~
+0 -1 30490
+D5
+~
+~
+0 -1 30491
+S
+#30475
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D0
+~
+~
+0 -1 30476
+D3
+~
+~
+0 -1 30474
+S
+#30476
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 1
+D0
+~
+~
+0 -1 30477
+D2
+~
+~
+0 -1 30475
+S
+#30477
+Wall~
+A burly guard has slipped off his coat and flexes his biceps trying
+to impress a pair of 'ladies' walking along the wall. The largest
+muscle on this oaf is between his ears.~
+400 0 1
+D0
+~
+~
+0 -1 30478
+D2
+~
+~
+0 -1 30476
+S
+#30478
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D0
+~
+~
+0 -1 30479
+D2
+~
+~
+0 -1 30477
+S
+#30479
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D0
+~
+~
+0 -1 30495
+D2
+~
+~
+0 -1 30478
+S
+#30480
+Watch tower~
+Rising up above the city walls the watch towers at regular intervals 
+stand ready to signal into the city itself if invaders approach by land.
+If the watchers signal into the city, the cities soldiers can ride
+forth from the barracks or fortress within the heart of the city.
+~
+400 0 1
+D5
+~
+~
+0 -1 30462
+S
+#30481
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30484
+D1
+~
+~
+0 -1 30482
+D4
+~
+~
+0 -1 30462
+S
+#30482
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30483
+D3
+~
+~
+0 -1 30481
+S
+#30483
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30482
+S
+#30484
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30481
+S
+#30485
+Watch tower~
+Rising up above the city walls the watch towers at regular intervals 
+stand ready to signal into the city itself if invaders approach by land.
+If the watchers signal into the city, the cities soldiers can ride
+forth from the barracks or fortress within the heart of the city.
+~
+400 0 1
+D5
+~
+~
+0 -1 30468
+S
+#30486
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30489
+D1
+~
+~
+0 -1 30487
+D4
+~
+~
+0 -1 30468
+S
+#30487
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30488
+D3
+~
+~
+0 -1 30486
+S
+#30488
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30487
+S
+#30489
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30486
+S
+#30490
+Watch tower~
+The watch tower provides you with a commanding view of the city and 
+surrounding lands. Within the city itself, three structures dominate
+more then any other. The barracks - home to the bulk of the army,
+the prison and the grand palace of the cities rulers, set within the
+inner city. 
+~
+400 0 1
+D5
+~
+~
+0 -1 30474
+S
+#30491
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30493
+D1
+~
+~
+0 -1 30492
+D4
+~
+~
+0 -1 30474
+S
+#30492
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30494
+D3
+~
+~
+0 -1 30491
+S
+#30493
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30491
+S
+#30494
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30492
+S
+#30495
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D0
+~
+~
+0 -1 30496
+D2
+~
+~
+0 -1 30479
+D4
+~
+~
+0 -1 30500
+D5
+~
+~
+0 -1 30501
+S
+#30496
+Wall~
+Walking along the top of the city wall patrolling, the heavy boots
+of the city guard sound more like the tread of iron on iron then 
+stepping on stone. Whatever the wall is made of it isn't just stone
+from a quarry.
+~
+400 0 1
+D0
+~
+~
+0 -1 30497
+D2
+~
+~
+0 -1 30495
+S
+#30497
+Wall~
+'Ladies of the night' walk along the wall, flirting with the guards,
+trying to intice them to spend their hard earned coin on them when
+they finish their watch. The practice is ignored, provided it doesn't
+get out of hand.~
+400 0 1
+D0
+~
+~
+0 -1 30498
+D2
+~
+~
+0 -1 30496
+S
+#30498
+Wall~
+Looking out over the sea of building in the city, one building towers
+above all others. The grand palace of the rulers of Impulzarr. More
+then just home to the leaders of the city, it is also the seat of
+government and the centre around which the city revolves.
+~
+400 0 1
+D0
+~
+~
+0 -1 30499
+D2
+~
+~
+0 -1 30497
+S
+#30499
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 1
+D0
+~
+~
+0 -1 30505
+D2
+~
+~
+0 -1 30498
+S
+#30500
+Watch tower~
+Rising up above the city walls the watch towers at regular intervals 
+stand ready to signal into the city itself if invaders approach by land.
+If the watchers signal into the city, the cities soldiers can ride
+forth from the barracks or fortress within the heart of the city.
+~
+400 0 1
+D5
+~
+~
+0 -1 30495
+S
+#30501
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30504
+D1
+~
+~
+0 -1 30502
+D4
+~
+~
+0 -1 30495
+S
+#30502
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30503
+D3
+~
+~
+0 -1 30501
+S
+#30503
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30502
+S
+#30504
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30501
+S
+#30505
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D0
+~
+~
+0 -1 30506
+D2
+~
+~
+0 -1 30499
+D4
+~
+~
+0 -1 30569
+D5
+~
+~
+0 -1 30570
+S
+#30506
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D0
+~
+~
+0 -1 30507
+D2
+~
+~
+0 -1 30505
+S
+#30507
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D0
+~
+~
+0 -1 30508
+D2
+~
+~
+0 -1 30506
+S
+#30508
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D0
+~
+~
+0 -1 30509
+D2
+~
+~
+0 -1 30507
+D5
+~
+~
+0 -1 30522
+S
+#30509
+Wall~
+Looking out eastwards from the watchtower you can see farms dotting the 
+surrounds of the city. Like a curtain the Impulzarr range draws off your 
+view of the northlands. Far below in the city steets the din is less then 
+in most of the city, the great temples of the gods make this area a solemn one.
+~
+400 0 1
+D0
+~
+~
+0 -1 30510
+D2
+~
+~
+0 -1 30508
+S
+#30510
+Wall~
+Looking out eastwards from the watchtower you can see farms dotting the 
+surrounds of the city. Like a curtain the Impulzarr range draws off your 
+view of the northlands. Far below in the city steets the din is less then 
+in most of the city, the great temples of the gods make this area a solemn one.
+~
+400 0 1
+D0
+~
+~
+0 -1 30512
+D2
+~
+~
+0 -1 30509
+S
+#30512
+Wall~
+Looking out eastwards from the watchtower you can see farms dotting the 
+surrounds of the city. Like a curtain the Impulzarr range draws off your 
+view of the northlands. Far below in the city steets the din is less then 
+in most of the city, the great temples of the gods make this area a solemn one.
+~
+400 0 1
+D0
+~
+~
+0 -1 30513
+D2
+~
+~
+0 -1 30510
+S
+#30513
+Wall~
+Both archers and infantry patrol along the wall. The walls are wide enough
+that enough a small cavalry charge could be mounted along it. An archer
+walks past you her finger hovering near the bowstring of her long bow.
+~
+400 0 1
+D0
+~
+~
+0 -1 30514
+D2
+~
+~
+0 -1 30512
+S
+#30514
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D0
+~
+~
+0 -1 30515
+D2
+~
+~
+0 -1 30513
+S
+#30515
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D0
+~
+~
+0 -1 30579
+D2
+~
+~
+0 -1 30514
+D4
+~
+~
+0 -1 30516
+D5
+~
+~
+0 -1 30517
+S
+#30516
+Watch tower~
+Looking out to the south-west you can see the 'temple ward' of the city.
+Temples to each of the major gods worshipped by the various citizens of
+the city are layed out within close proximity to one another. The largest
+is the temple of the Bitch Goddess.
+~
+400 0 1
+D5
+~
+~
+0 -1 30515
+S
+#30517
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30520
+D1
+~
+~
+0 -1 30518
+D4
+~
+~
+0 -1 30517
+S
+#30518
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30519
+D3
+~
+~
+0 -1 30517
+S
+#30519
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30518
+S
+#30520
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30517
+S
+#30521
+Passing between eastern gates~
+Passing between the two large sets of gate - one on either side of the wall,
+there is a small iron banded door to the east leading up to along the top
+of the city wall. Along the roof are killing holes where archers could 
+decimate any forces managing to breach the outer gates.
+~
+400 d 1
+D0
+~
+~
+0 -1 30522
+D3
+~
+~
+0 -1 30523
+S
+#30522
+Stairs up~
+Small stairs lead up to the top of the city walls. The stairs are rounded
+so anyone scaling them can't see far up, allowing multiple ambushes to
+be set. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30521
+D4
+~
+~
+0 -1 30508
+S
+#30523
+Inside eastern gates~
+Inside the eastern gates of the city you are in one of the wealthier parts
+of the city. The eastern side of the city contains the temples to the
+gods worshipped by its citizens as well as the homes of many of the 
+wealthier merchants. 
+~
+400 0 1
+D1
+~
+~
+0 -1 30521
+D2
+~
+~
+0 -1 30524
+S
+#30524
+Stables~
+Alongside the city walls stables hold the horses of the city patrols when 
+they are not out protecting the highways and surrounding countryside.
+~
+400 d 1
+D0
+~
+~
+0 -1 30523
+S
+#30525
+Wall~
+Walking along the top of the city wall patrolling, the heavy boots
+of the city guard sound more like the tread of iron on iron then 
+stepping on stone. Whatever the wall is made of it isn't just stone
+from a quarry.
+~
+400 0 1
+D0
+~
+~
+0 -1 30526
+D2
+~
+~
+0 -1 30582
+S
+#30526
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D0
+~
+~
+0 -1 30527
+D2
+~
+~
+0 -1 30525
+D4
+~
+~
+0 -1 30533
+D5
+~
+~
+0 -1 30534
+S
+#30527
+Wall~
+"For the lord of chaos shall cast yeah down into the fires of hell! Yes
+you" - oh no, this lunatic stumbling along has looked at you - "are
+forsaken!" Thankfully his attention is soon captured by something else
+and he stumbles away muttering and shouting alternately, obviously
+as mad as can be.~
+400 0 1
+D0
+~
+~
+0 -1 30528
+D2
+~
+~
+0 -1 30526
+S
+#30528
+Wall~
+A young female archer and male guard spring apart hastily when they here
+you approach. Blushing furiously they seperate and walk apart in opposite
+directions, almost running, without a backward glance. ~
+400 0 1
+D0
+~
+~
+0 -1 30529
+D2
+~
+~
+0 -1 30527
+S
+#30529
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D0
+~
+~
+0 -1 30530
+D2
+~
+~
+0 -1 30528
+S
+#30530
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D0
+~
+~
+0 -1 30531
+D2
+~
+~
+0 -1 30529
+S
+#30531
+Wall~
+Looking out over the sea of building in the city, one building towers
+above all others. The grand palace of the rulers of Impulzarr. More
+then just home to the leaders of the city, it is also the seat of
+government and the centre around which the city revolves.
+~
+400 0 1
+D0
+~
+~
+0 -1 30532
+D2
+~
+~
+0 -1 30530
+S
+#30532
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D0
+~
+~
+0 -1 30543
+D2
+~
+~
+0 -1 30531
+D4
+~
+~
+0 -1 30538
+D5
+~
+~
+0 -1 30539
+S
+#30533
+Watch Tower~
+Rising up above the city walls the watch towers at regular intervals 
+stand ready to signal into the city itself if invaders approach by land.
+If the watchers signal into the city, the cities soldiers can ride
+forth from the barracks or fortress within the heart of the city.
+~
+400 0 1
+D5
+~
+~
+0 -1 30526
+S
+#30534
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30537
+D1
+~
+~
+0 -1 30535
+D4
+~
+~
+0 -1 30526
+S
+#30535
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30536
+D3
+~
+~
+0 -1 30534
+S
+#30536
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30535
+S
+#30537
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30534
+S
+#30538
+Watch tower~
+The watch tower provides you with a commanding view of the city and 
+surrounding lands. Within the city itself, three structures dominate
+more then any other. The barracks - home to the bulk of the army,
+the prison and the grand palace of the cities rulers, set within the
+inner city. 
+~
+400 0 1
+D5
+~
+~
+0 -1 30532
+S
+#30539
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30542
+D1
+~
+~
+0 -1 30540
+D4
+~
+~
+0 -1 30532
+S
+#30540
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30541
+D3
+~
+~
+0 -1 30539
+S
+#30541
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30540
+S
+#30542
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30539
+S
+#30543
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D0
+~
+~
+0 -1 30544
+D2
+~
+~
+0 -1 30532
+S
+#30544
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D0
+~
+~
+0 -1 30545
+D2
+~
+~
+0 -1 30543
+S
+#30545
+Wall~
+Walking along the top of the city wall you get many close looks from the
+guards. While it is not illegal for citizens to walk along the city walls
+except in emergencies the guard tends to look dimly on those that do.
+~
+400 0 1
+D0
+~
+~
+0 -1 30546
+D2
+~
+~
+0 -1 30544
+S
+#30546
+Wall~
+Walking along the top of the city wall patrolling, the heavy boots
+of the city guard sound more like the tread of iron on iron then 
+stepping on stone. Whatever the wall is made of it isn't just stone
+from a quarry.
+~
+400 0 1
+D0
+~
+~
+0 -1 30547
+D2
+~
+~
+0 -1 30545
+S
+#30547
+Wall~
+Walking along the wall you come across a young and zealous junior officer
+berating one of the guards that momentarily rested against the wall. The
+poor guard looks torn between turning and running when he sees you glance
+their way and punching out his superior. 
+~
+400 0 1
+D0
+~
+~
+0 -1 30548
+D2
+~
+~
+0 -1 30546
+S
+#30548
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D0
+~
+~
+0 -1 30549
+D2
+~
+~
+0 -1 30547
+D4
+~
+~
+0 -1 30552
+D5
+~
+~
+0 -1 30553
+S
+#30549
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D0
+~
+~
+0 -1 30550
+D2
+~
+~
+0 -1 30548
+S
+#30550
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 1
+D0
+~
+~
+0 -1 30551
+D2
+~
+~
+0 -1 30549
+S
+#30551
+Wall~
+West over the city you can see a sea of building covering most of the ground 
+within the city walls. The city is divided into two parts, the outer city 
+and the inner city, nestled at the foot of a 'curve' in the mountain, 
+protected along its southern edge by another wall. All are welcome in the 
+main part of the city, but the inner city contains the wheels of government 
+and homes of the cities nobles and the likes of you aren't allowed entry 
+without a gate pass.
+~
+400 0 1
+D0
+~
+~
+0 -1 30557
+D2
+~
+~
+0 -1 30550
+S
+#30552
+Watch tower~
+Looking out eastwards from the watchtower you can see farms dotting the 
+surrounds of the city. Like a curtain the Impulzarr range draws off your 
+view of the northlands. 
+~
+400 0 1
+D5
+~
+~
+0 -1 30548
+S
+#30553
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30556
+D1
+~
+~
+0 -1 30554
+D4
+~
+~
+0 -1 30548
+S
+#30554
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30555
+D3
+~
+~
+0 -1 30553
+S
+#30555
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30554
+S
+#30556
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30553
+S
+#30557
+Wall~
+Mounted alongside the far wall looking out from the city is a large crossbow.
+In times of need 2 or 3 soldiers would man the crossbow. One to aim the
+device and another 1 or 2 ready to reload it as soon as a bolt is fired.
+Although they take many times longer to load and fire the a longbow the
+range of the device is a 100 yards further, able to reach beyond the
+front lines of an incatious enemy.
+~
+400 0 1
+D0
+~
+~
+0 -1 30558
+D2
+~
+~
+0 -1 30551
+S
+#30558
+Wall~
+Set into the back of the wall stone stairs lead down into the wall itself. 
+Back along the wall soldiers march up and down it's length, keeping their 
+eyes cast outward. Though they stand here to protect the city, they never 
+look into it, leaving the city watch to patrol within its walls.
+~
+400 0 1
+D0
+~
+~
+0 -1 30559
+D2
+~
+~
+0 -1 30557
+D4
+~
+~
+0 -1 30563
+D5
+~
+~
+0 -1 30564
+S
+#30559
+Wall~
+Both archers and infantry patrol along the wall. The walls are wide enough
+that enough a small cavalry charge could be mounted along it. An archer
+walks past you her finger hovering near the bowstring of her long bow.
+~
+400 0 1
+D0
+~
+~
+0 -1 30560
+D2
+~
+~
+0 -1 30558
+S
+#30560
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 1
+D0
+~
+~
+0 -1 30561
+D2
+~
+~
+0 -1 30559
+S
+#30561
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D0
+~
+~
+0 -1 30562
+D2
+~
+~
+0 -1 30560
+S
+#30562
+Wall~
+Walking along the wall you hear a high pitched scream pierce the air. Looking
+down you see a pair of thugs dragging a woman into a dark alley. You shout
+and gesture, but the thugs just laugh at you and disappear with their
+'prize', safe in the knowledge if you tried to leap off the wall you'd break
+almost every bone in your body upon landing.
+~
+400 0 1
+D0
+~
+~
+0 -1 30568
+D2
+~
+~
+0 -1 30561
+S
+#30563
+Watch tower~
+Looking out eastwards from the watchtower you can see farms dotting the 
+surrounds of the city. Like a curtain the Impulzarr range draws off your 
+view of the northlands. 
+~
+400 0 1
+D5
+~
+~
+0 -1 30558
+S
+#30564
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30566
+D1
+~
+~
+0 -1 30565
+D4
+~
+~
+0 -1 30558
+S
+#30565
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30567
+D3
+~
+~
+0 -1 30564
+S
+#30566
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30564
+S
+#30567
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30565
+S
+#30568
+Wall~
+Running straight north into a sheer part of Mount Impulzarr the wall stops, 
+the north side of the city defended by the mountain range.
+~
+400 0 1
+D2
+~
+~
+0 -1 30562
+S
+#30569
+Watch tower~
+Looking out to the north-west you can see the 'temple ward' of the city.
+Temples to each of the major gods worshipped by the various citizens of
+the city are layed out within close proximity to one another. The largest
+is the temple of the Bitch Goddess.
+~
+400 0 1
+D5
+~
+~
+0 -1 30505
+S
+#30570
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30573
+D1
+~
+~
+0 -1 30571
+D5
+~
+~
+0 -1 30505
+S
+#30571
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30572
+D3
+~
+~
+0 -1 30570
+S
+#30572
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30571
+S
+#30573
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30570
+S
+#30574
+Watch tower~
+Looking out westward across the Sea of Stars, the watch tower is one of
+many at regular intervals along the sea wall. On one side of the tower
+is a small basin for a signal fire and below it several bags of chemicals 
+to make plumes of smoke when thrown in the small fire to signal the 
+mainland at night if any trouble is detected.
+~
+400 0 1
+D5
+~
+~
+0 -1 30655
+S
+#30575
+Watch tower~
+Looking out westward across the Sea of Stars, the watch tower is one of
+many at regular intervals along the sea wall. On one side of the tower
+is a small basin for a signal fire and below it several bags of chemicals 
+to make plumes of smoke when thrown in the small fire to signal the 
+mainland at night if any trouble is detected.
+~
+400 0 1
+D5
+~
+~
+0 -1 30607
+S
+#30576
+Watch tower~
+Looking out westward across the Sea of Stars, the watch tower is one of
+many at regular intervals along the sea wall. On one side of the tower
+is a small basin for a signal fire and below it several bags of chemicals 
+to make plumes of smoke when thrown in the small fire to signal the 
+mainland at night if any trouble is detected.
+~
+400 0 1
+D5
+~
+~
+0 -1 30621
+S
+#30577
+Watch tower~
+Looking out westward across the Sea of Stars, the watch tower is one of
+many at regular intervals along the sea wall. On one side of the tower
+is a small basin for a signal fire and below it several bags of chemicals 
+to make plumes of smoke when thrown in the small fire to signal the 
+mainland at night if any trouble is detected.
+~
+400 0 1
+D5
+~
+~
+0 -1 30660
+S
+#30578
+Watch tower~
+Looking out westward across the Sea of Stars, the watch tower is one of
+many at regular intervals along the sea wall. On one side of the tower
+is a small basin for a signal fire and below it several bags of chemicals 
+to make plumes of smoke when thrown in the small fire to signal the 
+mainland at night if any trouble is detected.
+~
+400 0 1
+D5
+~
+~
+0 -1 30674
+S
+#30579
+Wall~
+Stretching feet 50 feet high and 30 or 40 feet thick the strong stones walls
+of the city have never been breached by hostile forces. Soldiers of the
+city patrol along its length keeping an eye out for trouble.
+~
+400 0 1
+D0
+~
+~
+0 -1 30580
+D2
+~
+~
+0 -1 30515
+S
+#30580
+Wall~
+The walls of the city are incredibly thick - 30 to 40 wide. Even with
+the magical aid used in its construction the vast walls took decades
+to construct. When the walls were started barely a fifth of the area
+inside the walls was covered with buildings. Now there is hardly any
+space left unclaimed.
+~
+400 0 1
+D0
+~
+~
+0 -1 30581
+D2
+~
+~
+0 -1 30579
+S
+#30581
+Wall~
+The walls around the city are thick and solid rock. Mounted at regular
+intervals are holes in the walls for archers to shoot down on targets 
+below without exposing themselves to return fire. The walls are smooth
+and hard - making it hard for scaling ladders and climbing invaders
+to find purchase.
+~
+400 0 1
+D0
+~
+~
+0 -1 30582
+D2
+~
+~
+0 -1 30580
+S
+#30582
+Wall~
+Mounted along the city wall is a large catapult, ready to hurl large boulders
+at approaching invaders. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D0
+~
+~
+0 -1 30525
+D2
+~
+~
+0 -1 30581
+S
+#30601
+Sea wall~
+Running up to the cliff face the wall ends to the north, buttressed against 
+Mount Impulzarr. Waves crash against the western side of the wall, but within 
+the harbour on the eastern side the waters are placid, barely a ripple on the 
+surface.
+~
+400 0 1
+D2
+~
+~
+0 -1 30602
+S
+#30602
+Sea wall~
+The waters inside the sea wall to the west are quiet. The ships moving
+in and out stay close to the main channel from the harbour mouth before
+moving north or south to their dock. 
+~
+400 0 1
+D0
+~
+~
+0 -1 30601
+D2
+~
+~
+0 -1 30603
+S
+#30603
+Sea wall~
+Mounted along the sea wall is a large catapult, ready to hurl large boulders
+at approaching ships. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D0
+~
+~
+0 -1 30602
+D3
+~
+~
+0 -1 30604
+S
+#30604
+Sea wall~
+Walking along the top of the cities sea wall you get many close looks from the
+guards. While it is not illegal for citizens to walk along the city walls
+except in emergencies the guard tends to look dimly on those that do.
+~
+400 0 1
+D1
+~
+~
+0 -1 30603
+D2
+~
+~
+0 -1 30605
+S
+#30605
+Sea wall~
+Walking along the top of the city wall patrolling, the heavy boots
+of the city guard sound more like the tread of iron on iron then 
+stepping on stone. Whatever the wall is made of it isn't just stone
+from a quarry.
+~
+400 0 1
+D0
+~
+~
+0 -1 30604
+D2
+~
+~
+0 -1 30606
+S
+#30606
+Sea wall~
+Guards moving north and south cross paths patrolling the wall and for
+a moment you have a small part of the wall to yourself, the only sounds
+the crashing of waves and the piercing cry of an eagle as it swoops
+down from the sky to the seas surface, rising again, a fish held in
+its claws.
+~
+400 0 1
+D0
+~
+~
+0 -1 30605
+D2
+~
+~
+0 -1 30607
+S
+#30607
+Sea wall~
+Set into the back of the sea wall stone stairs lead down into the sea wall 
+itself. Back along the wall soldiers march up and down it's length, keeping 
+their eyes cast out to see. Though they stand here to protect the city, they 
+are concerned with ships heading in - not the harbour.
+~
+400 0 1
+D0
+~
+~
+0 -1 30606
+D2
+~
+~
+0 -1 30608
+D4
+~
+~
+0 -1 30575
+D5
+~
+~
+0 -1 30609
+S
+#30608
+Sea wall~
+Throwing small stones out to sea and slowly twirling a flower between
+his right thumb and forefinger, a young guard is oblivious to your
+presence alongside him. It looks as if cupids arrow has pierced his heart.
+~
+400 0 1
+D0
+~
+~
+0 -1 30607
+D2
+~
+~
+0 -1 30613
+S
+#30609
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30612
+D1
+~
+~
+0 -1 30610
+D4
+~
+~
+0 -1 30607
+S
+#30610
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30611
+D3
+~
+~
+0 -1 30609
+S
+#30611
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30610
+S
+#30612
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30609
+S
+#30613
+Sea Wall~
+Out to the west you can see several fins cutting through the water.
+You worry for an instant that sharks could be gathering for a feeding
+frenzy before several dolphins leap out of the surf. They swim close
+to the wall and make what could be a greeting to you in their high
+pitched 'voices' before swimming back out to sea, leaping and diving
+in their playful fashion on the way.
+~
+400 0 1
+D0
+~
+~
+0 -1 30608
+D3
+~
+~
+0 -1 30614
+S
+#30614
+Sea Wall~
+Walking along the top of the cities sea wall you get many close looks from the
+guards. While it is not illegal for citizens to walk along the city walls
+except in emergencies the guard tends to look dimly on those that do.
+~
+400 0 1
+D1
+~
+~
+0 -1 30613
+D2
+~
+~
+0 -1 30619
+S
+#30615
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30617
+S
+#30616
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30618
+S
+#30617
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30615
+D3
+~
+~
+0 -1 30618
+S
+#30618
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30616
+D1
+~
+~
+0 -1 30617
+D4
+~
+~
+0 -1 30621
+S
+#30619
+Sea wall~
+Walking along the sea wall you catch the eye of a furitive looking guard.
+You wonder what he has to worry about till you see the fishing line hanging
+over the wall. "Just to feed my children you understand?" he says to you.
+You have your doubts, but no one is harmed by his bit of rule bending.
+~
+400 0 1
+D0
+~
+~
+0 -1 30614
+D2
+~
+~
+0 -1 30620
+S
+#30620
+Sea wall~
+Standing on the sea wall, you can feel the cool breezes on your face and 
+hear the crashes as the sea pounds into the wall protecting the harbour. 
+To the west rough, choppy seas, water too turbulent to see beneath the 
+surface. Within the harbour, clear seas, barely a ripple crossing the 
+surface, allowing you to see deep into the harbour.
+~
+400 0 1
+D0
+~
+~
+0 -1 30619
+D2
+~
+~
+0 -1 30621
+S
+#30621
+Sea wall~
+Set into the back of the sea wall stone stairs lead down into the sea wall 
+itself. Back along the wall soldiers march up and down it's length, keeping 
+their eyes cast out to see. Though they stand here to protect the city, they 
+are concerned with ships heading in - not the harbour.
+~
+400 0 1
+D0
+~
+~
+0 -1 30620
+D2
+~
+~
+0 -1 30622
+D4
+~
+~
+0 -1 30576
+D5
+~
+~
+0 -1 30618
+S
+#30622
+Sea wall~
+Mounted along the sea wall is a large catapult, ready to hurl large boulders
+at approaching ships. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D0
+~
+~
+0 -1 30621
+D2
+~
+~
+0 -1 30623
+S
+#30623
+Sea wall~
+East towards the city you can see another sea - a sea of building covering
+most of the ground within the city walls. The city is divided into two
+parts, the outer city and the inner city, nestled at the foot of a 'curve'
+in the mountain, protected along its southern edge by another wall. All
+are welcome in the main part of the city, but the inner city contains
+the wheels of government and homes of the cities nobles and the likes
+of you aren't allowed entry without a gate pass.
+~
+400 0 1
+D0
+~
+~
+0 -1 30622
+D3
+~
+~
+0 -1 30624
+S
+#30624
+Sea wall~
+Standing on the sea wall, you can feel the cool breezes on your face and 
+hear the crashes as the sea pounds into the wall protecting the harbour. 
+To the west rough, choppy seas, water too turbulent to see beneath the 
+surface. Within the harbour, clear seas, barely a ripple crossing the 
+surface, allowing you to see deep into the harbour.
+~
+400 0 1
+D1
+~
+~
+0 -1 30623
+D2
+~
+~
+0 -1 30625
+S
+#30625
+Sea wall~
+Along the sea wall, you look down and see a natural island almost covered
+completely by the fortress to the south. Protecting the harbour mouth
+the gate fortress houses sailors and soldiers of the city as well as
+been one of the main defensive structures of the city.
+~
+400 0 1
+D0
+~
+~
+0 -1 30624
+D2
+~
+~
+0 -1 30643
+S
+#30626
+Gate Fortress~
+The gate fortress barracks troops and sailors for the cities warships.
+It also guards the harbour mouth. Within the fortress itself is a mechanism
+to raise a large chain across the harbour mouth, preventing all but the
+smallest ships from entering or leaving the harbour.
+~
+400 0 1
+D1
+~
+~
+0 -1 30638
+D2
+~
+~
+0 -1 30627
+D3
+~
+~
+0 -1 30630
+S
+#30627
+Gate Fortress~
+Atop the fortress broad stone stairs lead down into the main structure.
+The fortress covers a small island and houses sailors and soldiers from
+the cities ships and wall patrols between turns of duty.
+~
+400 0 1
+D0
+~
+~
+0 -1 30626
+D1
+~
+~
+0 -1 30639
+D2
+~
+~
+0 -1 30628
+D3
+~
+~
+0 -1 30631
+D4
+~
+~
+0 -1 30641
+D5
+~
+~
+0 -1 30642
+S
+#30628
+Gate Fortress~
+Atop the gate fortress guarding the harbour mouth you can see all of the
+great harbour the fortress stands to protect from attack. Ships move in
+and out, fishing boats dodging in amongst the larger trading vessels,
+tempting their fate.
+~
+400 0 1
+D0
+~
+~
+0 -1 30627
+D1
+~
+~
+0 -1 30640
+D2
+~
+~
+0 -1 30629
+D3
+~
+~
+0 -1 30632
+S
+#30629
+Map Room~
+Laid out along one of the walls is a giant map of the seas around the
+city. Drawn in various shades of blue are the currents and prevailing
+winds. With this the captains of the cities warships can best plot the
+courses to take when patrolling the seas around the great harbour
+city.
+~
+400 0 1
+D0
+~
+~
+0 -1 30628
+S
+#30630
+Gate Fortress~
+On the north-west corner of the fortress protecting the harbour mouth
+you can see all the harbour of Impulzarr laid out before you. Ships
+move into and out of dock, small fishing boats weave there way amongst
+the larger vessels and every manner of person seems to be going someplace -
+all in rush.
+~
+400 0 1
+D1
+~
+~
+0 -1 30626
+D2
+~
+~
+0 -1 30631
+S
+#30631
+Gate Fortress~
+Shouts and curses suddenly erupt from below and looking down you can see
+two small fishing boats, each with two crew a piece jostling and arguing.
+No one could ever accuse the fisherman of fine speech - insults are traded,
+ancestory is called in question and suggestions to go perform clearly
+humanely impossible acts with small animals are shouted back and forth
+until one of the vessels manages to knock over the other and the laughing
+guards along the docks turn serious and demand the two boats seperate.
+~
+400 0 1
+D0
+~
+~
+0 -1 30630
+D1
+~
+~
+0 -1 30627
+D2
+~
+~
+0 -1 30632
+S
+#30632
+Gate Fortress~
+Two crusty old guards sit in one corner tossing a pair of dice, more
+interested in reminiscing about the 'good old days' then whos winning
+their friendly wager.
+~
+400 0 1
+D0
+~
+~
+0 -1 30631
+D1
+~
+~
+0 -1 30628
+S
+#30633
+Leading down to docks~
+Stairs lead down from the fortress to the small dock outside the sea
+wall where several warships can be docked. A large iron banded gate
+to the east is kept open as it is now - except in times of war.
+~
+400 0 1
+D1
+~
+~
+0 -1 30645
+D3
+~
+~
+0 -1 30634
+S
+#30634
+Docks~
+The small docks alongside the Gate Fortress can keep dock several small
+warships if need be, though only one is currently docked, under repair.
+~
+400 0 1
+D1
+~
+~
+0 -1 30633
+D3
+~
+~
+0 -1 30635
+S
+#30635
+Docks~
+Tied alongside the docks you can see one of the small warships that 
+patrol the seas around the city. Several ropes are lowered, workmen 
+moving up and down them patching the ship up.
+~
+400 0 1
+D0
+~
+~
+0 -1 30636
+D1
+~
+~
+0 -1 30634
+D2
+~
+~
+0 -1 30637
+D3
+~
+~
+0 -1 30722
+S
+#30636
+Docks~
+Tied alongside the dock is a small warship, a single lines of oars visible 
+just above the waterline. Workmen scurry over the decks making hasty repairs 
+to the damaged vessel. The seas around the city have been unusually rough of 
+late, making travel by ship even more hazardous then usual.
+~
+400 0 1
+D0
+~
+~
+0 -1 30719
+D2
+~
+~
+0 -1 30635
+D3
+~
+~
+0 -1 30721
+D4
+~
+~
+0 -1 30745
+S
+#30637
+Docks~
+The small docks alongside the Gate Fortress can keep dock several small
+warships if need be, though only one is currently docked, under repair.
+~
+400 0 1
+D0
+~
+~
+0 -1 30635
+D2
+~
+~
+0 -1 30725
+D3
+~
+~
+0 -1 30723
+S
+#30638
+Gate Fortress~
+A heavier concentration of troops is posted in the Gate Fortress then
+elsewhere along the sea wall, and troops marching along the length
+of the wall report in to superior officers stationed here at regular
+intervals - the patrols are like a well oiled machine, running smoothly.
+~
+400 0 1
+D2
+~
+~
+0 -1 30639
+D3
+~
+~
+0 -1 30626
+S
+#30639
+Sea Fortress~
+A young looking group of off duty soldiers huddle alongside the wall
+seeking protection from the wind, each with a mug of ale in their hand.
+They laugh loudly and boast of the women they have waiting for them
+in the city proper when they finish their watch in a few days.
+~
+400 0 1
+D0
+~
+~
+0 -1 30638
+D2
+~
+~
+0 -1 30640
+D3
+~
+~
+0 -1 30627
+S
+#30640
+Sea Fortress~
+On the south-east corner of the fortress protecting the harbour mouth
+you can see all the harbour of Impulzarr laid out before you. Ships
+move into and out of dock, small fishing boats weave there way amongst
+the larger vessels and every manner of person seems to be going someplace -
+all in rush.
+~
+400 0 1
+D0
+~
+~
+0 -1 30639
+D3
+~
+~
+0 -1 30628
+S
+#30641
+Watch tower~
+Rising from the top of the Gate Fortress guarding the mouth of the harbour,
+this watch tower keeps a close eye on ships passing through the narrow
+harbour mouth. Any ship seen acting in a way endangering other vessels
+will soon enough face the wrath of the Harbourmaster.
+~
+400 0 1
+D5
+~
+~
+0 -1 30627
+S
+#30642
+Inside Fortress  - stairs~
+Standing at the centre of the fortress you are before two staircases. One
+broad set of stairs leads up to the top of the wall, where soldiers patrol
+along its length. A small set of stairs in one dark corner lead down to
+the dungeon.
+~
+400 d 1
+D0
+~
+~
+0 -1 30643
+D1
+~
+~
+0 -1 30649
+D2
+~
+~
+0 -1 30647
+D3
+~
+~
+0 -1 30645
+D4
+~
+~
+0 -1 30627
+D5
+~
+~
+0 -1 30652
+S
+#30643
+Inside Fortress~
+Inside the fortress a small corridor has doors in both the east and
+west walls, soldiers quarters visible through the open doors.
+~
+400 d 1
+D0
+~
+~
+0 -1 30625
+D1
+~
+~
+0 -1 30650
+D2
+~
+~
+0 -1 30642
+D3
+~
+~
+0 -1 30644
+S
+#30644
+Barracks~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. Weapons and armor
+are stacked neatedly in the remaining corners of the room - the weapons
+kept sharp and the armour shiny.
+~
+400 d 1
+D1
+~
+~
+0 -1 30643
+D2
+~
+~
+0 -1 30645
+S
+#30645
+Inside Fortress~
+Inside the fortress a small corridor has doors in both the north and
+south walls, soldiers quarters visible through the open doors. A large
+door in the west wall remains open, leading down to the small dock
+for the cities military vessels.
+~
+400 d 1
+D0
+~
+~
+0 -1 30644
+D1
+~
+~
+0 -1 30642
+D2
+~
+~
+0 -1 30646
+D3
+~
+~
+0 -1 30633
+S
+#30646
+Barracks~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. Weapons and armor
+are stacked neatedly in the remaining corners of the room - the weapons
+kept sharp and the armour shiny.
+~
+400 d 1
+D0
+~
+~
+0 -1 30645
+D1
+~
+~
+0 -1 30647
+S
+#30647
+Chain Room~
+A huge chain mechanism dominates the room, the links of the chain as 
+thick as your thigh. A minor wizard, the livery of the city emblazoned 
+upon the breast of his cloak, stands ready to activate the mechanism and 
+raise the chain across the harbour gates, sealing it from invaders.
+~
+400 d 1
+D0
+~
+~
+0 -1 30642
+D1
+~
+~
+0 -1 30648
+D3
+~
+~
+0 -1 30646
+S
+#30648
+Barracks~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. Weapons and armor
+are stacked neatedly in the remaining corners of the room - the weapons
+kept sharp and the armour shiny.
+~
+400 d 1
+D0
+~
+~
+0 -1 30649
+D3
+~
+~
+0 -1 30647
+S
+#30649
+Mess Hall~
+A large mess hall within wooden benches is used by soldiers of the fortress
+at all different hours of the day - the various watches change regularly
+throughout the day and night and the soldiers and sailors need food
+before and after their turns of duty. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30650
+D2
+~
+~
+0 -1 30648
+D3
+~
+~
+0 -1 30642
+S
+#30650
+Barracks~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. Weapons and armor
+are stacked neatedly in the remaining corners of the room - the weapons
+kept sharp and the armour shiny.
+~
+400 d 1
+D2
+~
+~
+0 -1 30649
+D3
+~
+~
+0 -1 30643
+S
+#30651
+Dungeons~
+An unfinished passage way carved through the bedrock under the fortress
+was never completed during construction of the fortress. More dungeons
+were initially planned for here, but before it was completed the large
+prison on the mainland was completed.
+~
+400 d 1
+D0
+~
+~
+0 -1 30652
+S
+#30652
+Dungeons~
+Only a small stool for the guard and a hook to hang the cell door key on 
+are along the wall here. Curses and imprecations to the god of thieves 
+eminate from behind the door.
+~
+400 d 1
+D0
+~
+~
+0 -1 30653
+D2
+~
+~
+0 -1 30651
+D4
+~
+~
+0 -1 30642
+D5
+~
+~
+0 -1 30680
+S
+#30653
+Cell~
+A hard stone bench to sleep on and a slop bucket are the only 'comforts'
+prisoners get in a small cell. The cell has no windows been down within
+the fortress. The air is dank and humid, but the cell is only for short
+term holding of prisoners caught in the seas surrounding the city, till
+they can be shipped to the cities prisons on the mainland.
+~
+400 d 1
+D2
+~
+~
+0 -1 30652
+S
+#30654
+Sea wall~
+Mounted along the sea wall is a large catapult, ready to hurl large boulders
+at approaching ships. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+Stairs lead down into down, to a passage deep beneath the harbours surface.
+~
+400 0 1
+D2
+~
+~
+0 -1 30655
+D5
+~
+~
+0 -1 30694
+S
+#30655
+Sea wall~
+Set into the back of the sea wall stone stairs lead down into the sea wall 
+itself. Back along the wall soldiers march up and down it's length, keeping 
+their eyes cast out to see. Though they stand here to protect the city, they 
+are concerned with ships heading in - not the harbour.
+~
+400 0 1
+D0
+~
+~
+0 -1 30654
+D2
+~
+~
+0 -1 30656
+D4
+~
+~
+0 -1 30574
+D5
+~
+~
+0 -1 30362
+S
+#30656
+Sea wall~
+Standing on the sea wall, you can feel the cool breezes on your face and 
+hear the crashes as the sea pounds into the wall protecting the harbour. 
+To the west rough, choppy seas, water too turbulent to see beneath the 
+surface. Within the harbour, clear seas, barely a ripple crossing the 
+surface, allowing you to see deep into the harbour.
+~
+400 0 1
+D0
+~
+~
+0 -1 30655
+D1
+~
+~
+0 -1 30657
+S
+#30657
+Sea wall~
+Walking along the top of the cities sea wall you get many close looks from the
+guards. While it is not illegal for citizens to walk along the city walls
+except in emergencies the guard tends to look dimly on those that do.
+~
+400 0 1
+D2
+~
+~
+0 -1 30658
+D3
+~
+~
+0 -1 30656
+S
+#30658
+Sea wall~
+Outside the harbour you can see small fishing boats riding the rough
+seas, the local fisherman trying to bring in their daily catches and
+earn a living supplying the local markets. 
+~
+400 0 1
+D0
+~
+~
+0 -1 30657
+D1
+~
+~
+0 -1 30659
+S
+#30659
+Sea wall~
+Standing on the sea wall, you can feel the cool breezes on your face and 
+hear the crashes as the sea pounds into the wall protecting the harbour. 
+To the west rough, choppy seas, water too turbulent to see beneath the 
+surface. Within the harbour, clear seas, barely a ripple crossing the 
+surface, allowing you to see deep into the harbour.
+~
+400 0 1
+D1
+~
+~
+0 -1 30660
+D3
+~
+~
+0 -1 30658
+S
+#30660
+Sea wall~
+Set into the back of the sea wall stone stairs lead down into the sea wall 
+itself. Back along the wall soldiers march up and down it's length, keeping 
+their eyes cast out to see. Though they stand here to protect the city, they 
+are concerned with ships heading in - not the harbour.
+~
+400 0 1
+D1
+~
+~
+0 -1 30661
+D3
+~
+~
+0 -1 30659
+D4
+~
+~
+0 -1 30577
+D5
+~
+~
+0 -1 30668
+S
+#30661
+Sea wall~
+Mounted along the sea wall is a large catapult, ready to hurl large boulders
+at approaching ships. The device would be devastating enough on its own,
+but some of the boulders have been enchanted by mages in the service of
+the city to explode upon impact, greatly enhancing their destructive power.
+~
+400 0 1
+D2
+~
+~
+0 -1 30666
+D3
+~
+~
+0 -1 30660
+S
+#30662
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30671
+D1
+~
+~
+0 -1 30663
+D4
+~
+~
+0 -1 30655
+S
+#30663
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30670
+D3
+~
+~
+0 -1 30662
+S
+#30664
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D3
+~
+~
+0 -1 30669
+S
+#30665
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D3
+~
+~
+0 -1 30668
+S
+#30666
+Sea wall~
+Both archers and infantry patrol along the sea wall. The walls are wide enough
+that enough a small cavalry charge could be mounted along it. An archer
+walks past you her finger hovering near the bowstring of her long bow.
+~
+400 0 1
+D0
+~
+~
+0 -1 30661
+D1
+~
+~
+0 -1 30667
+S
+#30667
+Sea wall~
+With a commanding view of the harbour you can see a large trading vessel
+slow, lowering its sails as it slows on approach to one of the southern
+docks. Wharfies stand ready along the dock to unload the vessel - and like
+wharfies everywhere no doubt pilfer anything they can get away with.
+~
+400 0 1
+D1
+~
+~
+0 -1 30672
+D3
+~
+~
+0 -1 30666
+S
+#30668
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30669
+D1
+~
+~
+0 -1 30665
+D4
+~
+~
+0 -1 30660
+S
+#30669
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D1
+~
+~
+0 -1 30664
+D2
+~
+~
+0 -1 30668
+S
+#30670
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30663
+S
+#30671
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30662
+S
+#30672
+Sea wall~
+Up and down the docks are a hive of activity, ships moving in and out, 
+traders haggling with merchants off of the ships, trying to look
+uninterested enough to get the lowest price possible, but not let
+the competition in. But don't you notice traders everywhere have poor
+sick children they can barely afford to feed ? 
+~
+400 0 1
+D1
+~
+~
+0 -1 30673
+D3
+~
+~
+0 -1 30667
+S
+#30673
+Sea wall~
+Looking out from the wall you can see ships docked along the many wharves
+of the city, loading and unloading goods of trade. The docks never truly
+shut down, the activity of ships been worked on during the day, replaced
+by sailors drinking the night away, moving from pub to pub - or to the 
+abodes of the ladies of the night. 
+~
+400 0 1
+D1
+~
+~
+0 -1 30674
+D3
+~
+~
+0 -1 30672
+S
+#30674
+Sea wall~
+Set into the back of the sea wall stone stairs lead down into the sea wall 
+itself. Back along the wall soldiers march up and down it's length, keeping 
+their eyes cast out to see. Though they stand here to protect the city, they 
+are concerned with ships heading in - not the harbour.
+~
+400 0 1
+D1
+~
+~
+0 -1 30675
+D3
+~
+~
+0 -1 30673
+D4
+~
+~
+0 -1 30578
+D5
+~
+~
+0 -1 30676
+S
+#30675
+Sea wall~
+The sea wall is as thick and strong as the rest of the walls around the 
+city. Extending in part hundreds of feet below the waters surface there 
+is only one gap for ocean going vessels moving in and out of the city.
+~
+400 0 1
+D1
+~
+~
+0 -1 30334
+D3
+~
+~
+0 -1 30674
+S
+#30676
+Stairs up~
+A small set of stone stairs set within the wall will take you up to the 
+top of the city wall. Next to the stairs are two doors, banded with iron 
+and very thick. Glancing through the open doors you can see what appears 
+to be quarters through one door, a small mess hall through the other. 
+~
+400 d 1
+D0
+~
+~
+0 -1 30679
+D3
+~
+~
+0 -1 30677
+D4
+~
+~
+0 -1 30674
+S
+#30677
+Mess hall~
+Built into the walls of the city, the mess hall is spartan. Every three 
+days, the watch changes and there is nothing to say soldiers will serve 
+at the same place along the wall again soon. A rough wooden bench and 
+table are jammed into the room, with barely room to sit without been 
+squashed against the walls. Two small doors, iron banded and with heavy 
+locks lead out to the stairs up to the wall top and to the stores for 
+this part of the wall.
+~
+400 d 1
+D0
+~
+~
+0 -1 30678
+D1
+~
+~
+0 -1 30676
+S
+#30678
+Stores~
+Stacked neatly into the small storeroom are all the supplies for this 
+portion of the cities walls. Small stores along the wall keep the speed
+of any response to attack very quick. Neatly laid out quivers of arrows,
+iron rations for the soldiers, sharpening stones for swords, straps and 
+a dozen other small items laid out with military precision. Quite an 
+arsenal has been packed into the limited space. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30677
+S
+#30679
+Quarters~
+Small bunks, barely wide enough to lie in without rolling off the side 
+are stacked three high along either side of the wall. A compliment of 
+eighteen soldiers maintains each section of wall. Three groups of six 
+soldiers, each working two of three shifts during a day for three days 
+before a change in duty so none of the soldiers become complacent. 
+~
+400 d 1
+D2
+~
+~
+0 -1 30676
+S
+#30680
+Stairs down ~
+Stairs lead down from the gate fortress above to ... well wherever they
+lead. From the dust on the steps it doesn't look like these stairs have
+been used in a while.
+~
+400 d 1
+D4
+~
+~
+0 -1 30652
+D5
+~
+~
+0 -1 30681
+S
+#30681
+Stairs down~
+Stairs lead down from the gate fortress above to ... well wherever they
+lead. From the dust on the steps it doesn't look like these stairs have
+been used in a while.
+~
+400 d 1
+D4
+~
+~
+0 -1 30680
+D5
+~
+~
+0 -1 30682
+S
+#30682
+Stairs down~
+Moving along the seemingly endless stairs you feel the air get cooler 
+and cooler as you move further underground. Surely you must be close to 
+the bottom of the harbour by now.
+~
+400 d 1
+D4
+~
+~
+0 -1 30681
+D5
+~
+~
+0 -1 30683
+S
+#30683
+Deep under harbour~
+Walking deep beneath the harbour surface the smmooth stone walls of the 
+passage are covered in green moss. The footing beneath your feet is 
+slippery at best, the damp air leaving everything slick. The place is 
+eerily silent, the only sound the soft dripping of water from the roof.
+~
+400 d 1
+D2
+~
+~
+0 -1 30684
+D4
+~
+~
+0 -1 30682
+S
+#30684
+Deep under harbour~
+Walking deep beneath the harbour surface the smmooth stone walls of the 
+passage are covered in green moss. The footing beneath your feet is 
+slippery at best, the damp air leaving everything slick. The place is 
+eerily silent, the only sound the soft dripping of water from the roof.
+~
+400 d 1
+D0
+~
+~
+0 -1 30683
+D2
+~
+~
+0 -1 30685
+S
+#30685
+Deep under harbour~
+Deeper within the passage beneath the harbour the walls seem smaller 
+and smaller, the thick stone a poor defence against the vast sea of 
+water only feet above the tunnel roof. The sound of water dripping 
+is getting louder, an uncomfortable reminder of where you are.
+~
+400 d 1
+D0
+~
+~
+0 -1 30684
+D2
+~
+~
+0 -1 30686
+S
+#30686
+Deep under harbour~
+Deeper within the passage beneath the harbour the walls seem smaller 
+and smaller, the thick stone a poor defence against the vast sea of 
+water only feet above the tunnel roof. The sound of water dripping 
+is getting louder, an uncomfortable reminder of where you are.
+~
+400 d 1
+D0
+~
+~
+0 -1 30685
+D2
+~
+~
+0 -1 30687
+S
+#30687
+Deep under harbour~
+Moving towards the  centre of the harbour, or what would be the centre
+high above you see the source of the loud dripping sounds. The stones 
+of the walls here have cracked and water is trickling down the walls. 
+Only a small flow, but with nowhere to go a small lake of water has 
+formed, with no way past without getting wet.
+~
+400 d 1
+D0
+~
+~
+0 -1 30686
+D2
+~
+~
+0 -1 30688
+S
+#30688
+Deep under harbour~
+Deeper within the passage beneath the harbour the walls seem smaller 
+and smaller, the thick stone a poor defence against the vast sea of 
+water only feet above the tunnel roof. The sound of water dripping 
+is getting louder, an uncomfortable reminder of where you are.
+~
+400 d 1
+D0
+~
+~
+0 -1 30687
+D2
+~
+~
+0 -1 30689
+S
+#30689
+Deep under harbour~
+Deeper within the passage beneath the harbour the walls seem smaller 
+and smaller, the thick stone a poor defence against the vast sea of 
+water only feet above the tunnel roof. The sound of water dripping 
+is getting louder, an uncomfortable reminder of where you are.
+~
+400 d 1
+D0
+~
+~
+0 -1 30688
+D2
+~
+~
+0 -1 30690
+S
+#30690
+Deep under harbour~
+Walking deep beneath the harbour surface the smmooth stone walls of the 
+passage are covered in green moss. The footing beneath your feet is 
+slippery at best, the damp air leaving everything slick. The place is 
+eerily silent, the only sound the soft dripping of water from the roof.
+~
+400 d 1
+D0
+~
+~
+0 -1 30689
+D2
+~
+~
+0 -1 30691
+S
+#30691
+Deep under harbour~
+Walking deep beneath the harbour surface the smmooth stone walls of the 
+passage are covered in green moss. The footing beneath your feet is 
+slippery at best, the damp air leaving everything slick. The place is 
+eerily silent, the only sound the soft dripping of water from the roof.
+~
+400 d 1
+D0
+~
+~
+0 -1 30690
+D4
+~
+~
+0 -1 30692
+S
+#30692
+Stairs down~
+Moving along the seemingly endless stairs you feel the air get cooler 
+and cooler as you move further underground. Surely you must be close to 
+the bottom of the harbour by now.
+~
+400 d 1
+D4
+~
+~
+0 -1 30693
+D5
+~
+~
+0 -1 30691
+S
+#30693
+Stairs down~
+Further away from the elements above there are patches of dust on the
+stairs, though some areas are also washed clean by water flowing down
+from above when the weather gets rough. The stone steps are slick
+though and hard to keep your footing on.
+~
+400 d 1
+D4
+~
+~
+0 -1 30694
+D5
+~
+~
+0 -1 30692
+S
+#30694
+Stairs down~
+Almost hidden from above a small staircase leading down into the wall
+is barely wide enough for you to move on without banging your shoulders
+and elbows into the walls everytime you move. Open even partially to 
+the elements above you can't tell if anyone has descended these stairs
+recently.
+~
+400 d 1
+D4
+~
+~
+0 -1 30654
+D5
+~
+~
+0 -1 30693
+S
+#30695
+Sea cave~
+With an enterance only visible at low tide and close to the city, the 
+caves along the coast north and west of the city have long been used by 
+smugglers moving goods in or out of Impulzarr. Rough hewn steps lead up 
+past the high tide line, but you can see no smuggled goods up there right 
+now.
+~
+400 di 6
+D3
+~
+~
+0 -1 30702
+S
+#30696
+Sea Cave~
+With an enterance only visible at low tide and close to the city, the 
+caves along the coast north and west of the city have long been used by 
+smugglers moving goods in or out of Impulzarr. Rough hewn steps lead up 
+past the high tide line, but you can see no smuggled goods up there right 
+now.
+~
+400 di 6
+D3
+~
+~
+0 -1 30697
+S
+#30697
+Outside sea caves~
+Sheer cliffs rise out of the water, the sea pounding up against them, ready 
+to crush anyone foolish enough to venture too close. A small cave enterance 
+is visible between the rocks, but it would take a brave sailor to try and 
+move a boat in that close without magic as an aid.
+~
+400 0 6
+D0
+~
+~
+0 -1 30698
+D1
+~
+~
+0 -1 30696
+D3
+~
+~
+0 -1 30700
+S
+#30698
+On the seas~
+Out to the north-west from the city the sight of it gets smaller in your
+eyes, the large mountain range to the north still dominating the skyline,
+but the city itself slowly shrinking - though given you can still see it
+from here at all tells you its sheer size.
+~
+400 0 7
+D2
+~
+~
+0 -1 30697
+D3
+~
+~
+0 -1 30699
+S
+#30699
+On the seas~
+Moving out to sea the shoreline gets smaller, but the eastern skyline is
+still dominated by Mount Impulzarr. Down the southern coast you can see the
+edge of the great city of the same name nestled at the base of the mountain.
+Deep blue seas in every other direction lead to other far away lands, but where?
+~
+400 0 7
+D1
+~
+~
+0 -1 30698
+D2
+~
+~
+0 -1 30700
+S
+#30700
+On the seas~
+Moving out to sea the shoreline gets smaller, but the eastern skyline is
+still dominated by Mount Impulzarr. Down the southern coast you can see the
+edge of the great city of the same name nestled at the base of the mountain.
+Deep blue seas in every other direction lead to other far away lands, but where ?
+~
+400 0 7
+D0
+~
+~
+0 -1 30699
+D1
+~
+~
+0 -1 30697
+D2
+~
+~
+0 -1 30701
+S
+#30701
+On the seas~
+To the north of the city the rough seas push you around with waves
+sometimes ten feet or higher. Moving from the west to the cliffs to
+the east the waves crash into the high cliff face with enough force
+to pound you to a bloody pulp if you are unwary and lose concentration.
+~
+400 0 7
+D0
+~
+~
+0 -1 30700
+D2
+~
+~
+0 -1 30702
+S
+#30702
+On the seas~
+To the north of the city the rough seas push you around with waves
+sometimes ten feet or higher. Moving from the west to the cliffs to
+the east the waves crash into the high cliff face with enough force
+to pound you to a bloody pulp if you are unwary and lose concentration.
+~
+400 0 7
+D0
+~
+~
+0 -1 30701
+D1
+~
+~
+0 -1 30695
+D2
+~
+~
+0 -1 30705
+D3
+~
+~
+0 -1 30703
+S
+#30703
+On the seas~
+Moving out further away from the city walls the guards walking along the 
+sea wall patrolling it get smaller and smaller. At this distance if you 
+ran into trouble help would arrive too late to help you.
+~
+400 0 7
+D1
+~
+~
+0 -1 30702
+D2
+~
+~
+0 -1 30704
+S
+#30704
+On the seas~
+Moving out to sea the shoreline gets smaller, but the eastern skyline is
+still dominated by Mount Impulzarr and the great city at its base. Deep
+blue seas in every other direction lead to other far away lands, but 
+where ?
+~
+400 0 7
+D0
+~
+~
+0 -1 30703
+D1
+~
+~
+0 -1 30705
+D2
+~
+~
+0 -1 30707
+S
+#30705
+On the seas~
+To the north of the city the rough seas push you around with waves
+sometimes ten feet or higher. Moving from the west to the cliffs to
+the east the waves crash into the high cliff face with enough force
+to pound you to a bloody pulp if you are unwary and lose concentration.
+~
+400 0 7
+D0
+~
+~
+0 -1 30702
+D2
+~
+~
+0 -1 30706
+D3
+~
+~
+0 -1 30704
+S
+#30706
+On the seas~
+Running up to the edge of Mount Impulzarr a large sea wall starts to extend
+along to the south west. It rises upwards 50 feet from the waters surface.
+Running your hand along it is as smooth as glass, but there are no chip
+marks or hand holds anywhere across its surface that you can see. 
+~
+400 0 7
+D0
+~
+~
+0 -1 30705
+D2
+~
+~
+0 -1 30708
+D3
+~
+~
+0 -1 30707
+S
+#30707
+On the seas~
+Moving out to sea the shoreline gets smaller, but the eastern skyline is
+still dominated by Mount Impulzarr and the great city at its base. Deep
+blue seas in every other direction lead to other far away lands, but 
+where ?
+~
+400 0 7
+D0
+~
+~
+0 -1 30704
+D1
+~
+~
+0 -1 30706
+D2
+~
+~
+0 -1 30708
+S
+#30708
+On the seas~
+Running up to the edge of Mount Impulzarr a large sea wall extends along 
+to the south west. It rises upwards 50 feet from the waters surface.
+Running your hand along it is as smooth as glass, but there are no chip
+marks or hand holds anywhere across its surface that you can see. 
+~
+400 0 7
+D0
+~
+~
+0 -1 30707
+D2
+~
+~
+0 -1 30709
+S
+#30709
+On the seas~
+Alongside the sea wall, the waves lap up against the wall rising high
+out of the water. Looking down below beneath the surface of the water
+the wall heads down as far as you can, the water here from 50 to 150
+feet deep in places, the wall as thick all the way to the oceans floor.
+~
+400 0 7
+D0
+~
+~
+0 -1 30708
+D2
+~
+~
+0 -1 30711
+D3
+~
+~
+0 -1 30710
+S
+#30710
+On the seas~
+Moving out further away from the city walls the guards walking along the 
+sea wall patrolling it get smaller and smaller. At this distance if you 
+ran into trouble help would arrive too late to help you.
+~
+400 0 7
+D1
+~
+~
+0 -1 30709
+D2
+~
+~
+0 -1 30711
+S
+#30711
+On the seas~
+Alongside the sea wall, the waves lap up against the wall rising high
+out of the water. Looking down below beneath the surface of the water
+the wall heads down as far as you can, the water here from 50 to 150
+feet deep in places, the wall as thick all the way to the oceans floor.
+~
+400 0 7
+D0
+~
+~
+0 -1 30710
+D2
+~
+~
+0 -1 30713
+D3
+~
+~
+0 -1 30712
+S
+#30712
+On the seas~
+Moving out further away from the city walls the guards walking along the 
+sea wall patrolling it get smaller and smaller. At this distance if you 
+ran into trouble help would arrive too late to help you.
+~
+400 0 7
+D1
+~
+~
+0 -1 30711
+D2
+~
+~
+0 -1 30714
+S
+#30713
+On the seas~
+High above the waters surface at the top of the walls, infantry and
+archers patrol along the top of the sea wall running around the city
+harbour. Occasionally one glances down at you, but only briefly - one
+person is no threat to a city this size - at least in their eyes.
+~
+400 0 7
+D0
+~
+~
+0 -1 30711
+D2
+~
+~
+0 -1 30715
+D3
+~
+~
+0 -1 30714
+S
+#30714
+On the seas~
+Moving out further away from the city walls the guards walking along the 
+sea wall patrolling it get smaller and smaller. At this distance if you 
+ran into trouble help would arrive too late to help you.
+~
+400 0 7
+D0
+~
+~
+0 -1 30712
+D1
+~
+~
+0 -1 30713
+D2
+~
+~
+0 -1 30715
+S
+#30715
+On the seas~
+High above the waters surface at the top of the walls, infantry and
+archers patrol along the top of the sea wall running around the city
+harbour. Occasionally one glances down at you, but only briefly - one
+person is no threat to a city this size - at least in their eyes.
+~
+400 0 7
+D0
+~
+~
+0 -1 30714
+D2
+~
+~
+0 -1 30716
+S
+#30716
+On the seas~
+Alongside the sea wall, the waves lap up against the wall rising high
+out of the water. Looking down below beneath the surface of the water
+the wall heads down as far as you can, the water here from 50 to 150
+feet deep in places, the wall as thick all the way to the oceans floor.
+~
+400 0 7
+D0
+~
+~
+0 -1 30715
+D3
+~
+~
+0 -1 30717
+S
+#30717
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D1
+~
+~
+0 -1 30716
+D3
+~
+~
+0 -1 30718
+S
+#30718
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D1
+~
+~
+0 -1 30717
+D3
+~
+~
+0 -1 30719
+S
+#30719
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D1
+~
+~
+0 -1 30718
+D2
+~
+~
+0 -1 30636
+D3
+~
+~
+0 -1 30720
+S
+#30720
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D1
+~
+~
+0 -1 30719
+D2
+~
+~
+0 -1 30721
+S
+#30721
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D0
+~
+~
+0 -1 30720
+D1
+~
+~
+0 -1 30636
+D2
+~
+~
+0 -1 30722
+S
+#30722
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D0
+~
+~
+0 -1 30721
+D1
+~
+~
+0 -1 30635
+D2
+~
+~
+0 -1 30723
+S
+#30723
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D0
+~
+~
+0 -1 30722
+D1
+~
+~
+0 -1 30637
+D2
+~
+~
+0 -1 30724
+S
+#30724
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D0
+~
+~
+0 -1 30723
+D1
+~
+~
+0 -1 30725
+S
+#30725
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D0
+~
+~
+0 -1 30637
+D1
+~
+~
+0 -1 30726
+D3
+~
+~
+0 -1 30724
+S
+#30726
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D1
+~
+~
+0 -1 30727
+D2
+~
+~
+0 -1 30728
+D3
+~
+~
+0 -1 30725
+S
+#30727
+On the seas~
+Travelling on the ocean you come alongside the docks. But they are set to 
+high to reach from down at this level.
+~
+400 0 7
+D1
+~
+~
+0 -1 30730
+D2
+~
+~
+0 -1 30729
+D3
+~
+~
+0 -1 30726
+S
+#30728
+On the seas~
+Moving out further away from the harbour mouth and city walls the guards
+walking along the sea wall patrolling it get smaller and smaller. At this 
+distance if you ran into trouble help would arrive too late to help you.
+~
+400 0 7
+D0
+~
+~
+0 -1 30726
+D1
+~
+~
+0 -1 30729
+D2
+~
+~
+0 -1 30731
+S
+#30729
+On the seas~
+Moving out further away from the harbour mouth and city walls the guards
+walking along the sea wall patrolling it get smaller and smaller. At this 
+distance if you ran into trouble help would arrive too late to help you.
+~
+400 0 7
+D0
+~
+~
+0 -1 30727
+D1
+~
+~
+0 -1 30730
+D2
+~
+~
+0 -1 30731
+D3
+~
+~
+0 -1 30728
+S
+#30730
+On the seas~
+Alongside the enterance to the harbour you can see several small fishing
+boats slowly making there way towards the open passage through the sea
+wall. Within the harbour gentle waves barely ripple the deep blue waters,
+the harbour is very deep. Several ships have sunk in their time, but
+goods and most of the unfortunate crews have been saved by the merfolk
+living on the bottom of the harbour.
+~
+400 0 7
+D1
+~
+~
+0 -1 30732
+D2
+~
+~
+0 -1 30731
+D3
+~
+~
+0 -1 30729
+S
+#30731
+On the seas~
+Outside the harbour mouth you can travel into the cities great harbour or
+venture out on the wide seas. Beyond the harbour mouth without the sea
+wall to keep the seas calm the surf is rough and ship captains can't
+afford to relax on the final run into the city - losing their cargo or
+ship at the end of the journey wouldn't do any captains reputation good.
+~
+400 0 7
+D0
+~
+~
+0 -1 30729
+D1
+~
+~
+0 -1 30732
+D2
+~
+~
+0 -1 30733
+S
+#30732
+On the seas~
+Passing between the Gate Fortress and the opposite side of the sea wall, 
+the narrow passage through to the harbour is only wide enough for 2 or 3 
+large ships to pass at a time. It keeps the harbourmaster busy scheduling 
+traders in and out, but ensures the city is easily protected by attack 
+from sea.
+~
+400 0 7
+D2
+~
+~
+0 -1 30734
+D3
+~
+~
+0 -1 30730
+S
+#30733
+On the seas~
+Outside the harbour mouth you can travel into the cities great harbour or
+venture out on the wide seas. Beyond the harbour mouth without the sea
+wall to keep the seas calm the surf is rough and ship captains can't
+afford to relax on the final run into the city - losing their cargo or
+ship at the end of the journey wouldn't do any captains reputation good.
+~
+400 0 7
+D0
+~
+~
+0 -1 30731
+D1
+~
+~
+0 -1 30734
+D2
+~
+~
+0 -1 30733
+S
+#30734
+On the seas~
+Passing between the Gate Fortress and the opposite side of the sea wall, 
+the narrow passage through to the harbour is only wide enough for 2 or 3 
+large ships to pass at a time. It keeps the harbourmaster busy scheduling 
+traders in and out, but ensures the city is easily protected by attack 
+from sea.
+~
+400 0 7
+D0
+~
+~
+0 -1 30732
+D2
+~
+~
+0 -1 30736
+D3
+~
+~
+0 -1 30733
+S
+#30735
+On the seas~
+Outside the harbour mouth you can travel into the cities great harbour or
+venture out on the wide seas. Beyond the harbour mouth without the sea
+wall to keep the seas calm the surf is rough and ship captains can't
+afford to relax on the final run into the city - losing their cargo or
+ship at the end of the journey wouldn't do any captains reputation good.
+~
+400 0 7
+D0
+~
+~
+0 -1 30733
+D1
+~
+~
+0 -1 30736
+D2
+~
+~
+0 -1 30737
+S
+#30736
+On the seas~
+Passing between the Gate Fortress and the opposite side of the sea wall, 
+the narrow passage through to the harbour is only wide enough for 2 or 3 
+large ships to pass at a time. It keeps the harbourmaster busy scheduling 
+traders in and out, but ensures the city is easily protected by attack 
+from sea.
+~
+400 0 7
+D0
+~
+~
+0 -1 30734
+D3
+~
+~
+0 -1 30735
+S
+#30737
+On the seas~
+Alongside the enterance to the harbour you can see several small fishing
+boats slowly making there way towards the open passage through the sea
+wall. Within the harbour gentle waves barely ripple the deep blue waters,
+the harbour is very deep. Several ships have sunk in their time, but
+goods and most of the unfortunate crews have been saved by the merfolk
+living on the bottom of the harbour.
+~
+400 0 7
+D0
+~
+~
+0 -1 30735
+D2
+~
+~
+0 -1 30739
+D3
+~
+~
+0 -1 30738
+S
+#30738
+On the seas~
+Moving out further away from the harbour mouth and city walls the guards
+walking along the sea wall patrolling it get smaller and smaller. At this 
+distance if you ran into trouble help would arrive too late to help you.
+~
+400 0 7
+D0
+~
+~
+0 -1 30735
+D1
+~
+~
+0 -1 30737
+S
+#30739
+On the seas~
+Moving round a corner in the sea wall you can see the harbour mouth to 
+the north. A large trading vessel is riding the waves past the harbour
+fortress with abandon. If theres another vessel coming from the other
+direction there may be trouble.
+~
+400 0 7
+D0
+~
+~
+0 -1 30737
+D2
+~
+~
+0 -1 30740
+S
+#30740
+On the seas~
+Waves lap up against the wall on your east flank, while to the north you can
+see ships tack as they line up with the enterance to the harbour.
+~
+400 0 7
+D0
+~
+~
+0 -1 30739
+D2
+~
+~
+0 -1 30741
+S
+#30741
+On the seas~
+The great sea wall around the harbour of Impulzarr curves around from the
+east to the north here. Running your hand over the wall it is seemless, 
+as smooth as glass, but as hard as iron.
+~
+400 0 7
+D0
+~
+~
+0 -1 30740
+D1
+~
+~
+0 -1 30742
+S
+#30742
+On the seas~
+Alongside the sea wall you can see the the ocean come up against high cliffs
+to the east. Waves crash and pound against the cliffs, smashing with great
+force. YOu would be pounded to a pulp by those waves.
+~
+400 0 7
+D1
+~
+~
+0 -1 30743
+D3
+~
+~
+0 -1 30741
+S
+#30743
+On the seas~
+At the edge of the water you are boxed in on two sides. To the north by the
+wall around the city stretching up high above, to the east by a cliff face.
+The strong ocean waves pound you against the cliff face, lifting you out
+of the water and smashing you against the rocks.
+~
+400 b 7
+D3
+~
+~
+0 -1 30742
+S
+#30744
+Forward of ship~
+Attached to the front of the ship is a battering ram, intended for when
+the warship is required to take out pirates and raiders who refuse to
+yield to more 'civilised' means.
+~
+400 0 0
+D1
+~
+~
+0 -1 30745
+S
+#30745
+Center of ship~
+Tied up alongside the small dock alongside the sea fortress, the small
+warship is battered after been caught out at sea in a heavy storm. Workmen
+swarm over the decks making repairs so the ship will soon be ready to chase
+smugglers or pirates coming too close to the city.
+~
+400 0 0
+D1
+~
+~
+0 -1 30746
+D3
+~
+~
+0 -1 30744
+D4
+~
+~
+0 -1 30750
+D5
+~
+~
+0 -1 30636
+S
+#30746
+Rear of ship~
+A small open hatch has wooden stairs running down into the hold below,  
+where the ships rowers sit. The ships helmsman stands a little further 
+back, almost at the very rear of the ship.
+~
+400 0 0
+D3
+~
+~
+0 -1 30745
+D5
+~
+~
+0 -1 30749
+S
+#30747
+Rowing deck~
+Below the main deck of the ship rows of benches for the rowers line 
+either side of a plank running the length of the ship. Cracked boards 
+let sunlight into the hull and several of the oars are broken or missing. 
+~
+400 d 0
+D1
+~
+~
+0 -1 30748
+S
+#30748
+Rowing deck~
+Below the main deck of the ship rows of benches for the rowers line 
+either side of a plank running the length of the ship. Cracked boards 
+let sunlight into the hull and several of the oars are broken or missing. 
+~
+400 d 0
+D1
+~
+~
+0 -1 30749
+D3
+~
+~
+0 -1 30747
+S
+#30749
+Rowing deck~
+Below the main deck of the ship rows of benches for the rowers line 
+either side of a plank running the length of the ship. Cracked boards 
+let sunlight into the hull and several of the oars are broken or missing. 
+~
+400 d 0
+D3
+~
+~
+0 -1 30748
+D4
+~
+~
+0 -1 30746
+S
+#30750
+Climbing the mast~
+Rising up out from the deck, the mast is fitted with rigging you can climb
+up to the crows nest above. Though why you'd want to climb up to the crows
+nest of a docked ship is another matter ....
+~
+400 0 5
+D4
+~
+~
+0 -1 30751
+D5
+~
+~
+0 -1 30745
+S
+#30751
+Crows nest~
+Looking out from the crows nest you can see the workmen scurrying on the 
+deck below, making repairs. Out to the west no other vessels can be seen 
+approaching the harbour. You can't see over the tall harbour wall, though 
+you can see soldiers walking its length, dwarfed by the immense wall they 
+patrol.
+~
+400 0 0
+D5
+~
+~
+0 -1 30750
+S
+$
+@

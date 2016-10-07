@@ -1,0 +1,113 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@tc tell calrain $*
+tb tell deathblade $*
+ed embrace Drax
+tl tell let $*
+tp tell pkunk $*
+bl quaff blue
+go gossip $*
+kd kiss drax
+fi cast 'fireball' $*
+su cast 'summon' $*
+en cast 'energy drain' $*
+an assist nightwolf
+sp split $* coins
+bst backstab transformer
+tdr tell dracion $*
+kk kill knight
+ccf cast 'cure critical' Free
+bsk rem vorpal;wield knife; backstab knight; rem knife ; wield vorpal
+bc backstab $*
+re recite recall
+ax assist xard
+br get bread backpack;eat bread
+em emote $*
+dk get skin backpack; drink water; put skin backpack
+asn assist nohcin
+asd assist xard
+bk backpack
+nb nobleman
+bh cast 'burning hands' $*
+po get white from backpack $*
+loot get all corpse $*
+test n;s
+hd hug drax $*
+tf tell fogeliogu $*
+mt get meat backpack; eat meat
+cc cast 'cure critic' $*
+if cast 'infravision' $*
+tx tell xard $*
+g gossip $*
+lb cast 'lightning bolt' $*
+be backstab executioner
+lbe cast 'lightning bolt' executioner
+lw look at wildone
+td tell drax $*
+rd get red crate; quaff red
+wh get white crate; quaff white
+iv use wand free
+lo look in crate
+wd whisper drax $*
+am assist musashi
+di cast 'detect invisibility' $*
+tg tell goldendragon $*
+lnt cast 'lightning bolt' transformer
+tn tell nightwolf $*
+tt tell tarn $*
+wa rem staff; hold wand; use wand free; rem wand; hold staff
+tr tell dracion $*
+fd french drax
+tdb tell deathblade $*
+sanct cast 'sanctuary' Free
+ap assist phlox
+ti tell intan $*
+run Free runs round and round the room
+ta tell ate $*
+tv tell valium $*
+ty tell misty $*
+rf cast 'word of recall' free
+kb kill bandit
+tm tell musashi $*
+sf cast 'sanctuary' free
+wk wake;stand;l
+orb rem pen; pem enlibrite; hold orb; rem orb; hold pen; hold enlibrite
+rc open crate; get recall crate; recite recall
+ts tell scholes $*
+bs rem axe; wield knife; backstab $*; rem knife; wield axe
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

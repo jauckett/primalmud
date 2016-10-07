@@ -1,0 +1,38 @@
+f cast 'finger' $*
+inv cast 'invis' $*
+div cast 'divi
+iden cast 'iden' $*
+kill ord fol k $*
+ws rem rif;wie bee
+sw rem bee;wie rif
+o retreat
+protection cast 'haste';cast 'spirit';cast 'drag; cast 'holy';cast 'div'
+inf cast 'inf' $*
+ch cast 'charm' $*
+rr recite recall
+r cast 'word
+1 back $*
+rel reload
+drag cast 'dragon
+sum cast 'sum' $*
+sanc cast 'sanc' $*
+sense cast 'sense' $*
+rif rem rif;wie 2.rif;give rif aph;
+holy cast 'holy aid
+arm cast 'armor
+bless cast 'bless
+spi cast 'spirit
+haste cast 'haste
+dt cast 'detect inv' $*
+do ord fol $*
+prot cast 'armor' $*;cast 'bless' $*;cast 'bless' $*;cast 'bless' $*;cast 'sanc' $*;cast 'sanc' $*;cast 'sanc' $*;cast 'sanc' $*;cast 'sanc' $*;cast 'sanc' $*;
+2 cast 'advance' $*
+clone cast 'clone'
+ggc get go corpse
+gac get all corpse
+ec exam corpse
+oddhouse s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+heal cast 'heal' $*
+level rem all.dia;rem all.red;wear ash
+leveled hold red;rem ash;wear all.dia;wear red
+a whoami

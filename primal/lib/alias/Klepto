@@ -1,0 +1,5 @@
+cb cast 'burn'
+qw quaff white
+gag get gold all.corpse
+gac get all all.corpse
+infra cast 'infra'

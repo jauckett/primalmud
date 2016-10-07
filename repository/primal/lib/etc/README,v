@@ -1,0 +1,46 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.51;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.51;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@
+/etc directory
+-----------------------------------------------------------------------------
+
+These files are maintained by the game; you should never try to modify them
+while the game is running.  If you know what you're doing, you can safely
+alter them when the game is down.  
+
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

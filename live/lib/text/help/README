@@ -1,0 +1,2 @@
+spells.hlp is created dynamically by parsing lib/etc/primal_spskls at load
+time. DO NOT edit spells.hlp - edit lib/etc/primal_spskls

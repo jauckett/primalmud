@@ -1,0 +1,123 @@
+#7000
+goat mountain~
+a mountain goat~
+A mountain goat nibbles at a piece of grass here.
+~
+This goat is acclimated to the rugged terrain of the 
+mountains.  It looks at you and shies away a little.
+~
+192 0 0 S
+15 13 3 3d5+95 2d5+1
+2768 9750
+8 8 1
+#7001
+demon decay~
+a Demon of Decay~
+A cloaked and clawed demon of decay comes at you viciously!
+~
+This demon has pure malevolence for anything living.  
+Oops!  You're living!  I guess that means you!
+~
+34 8 -900 S
+25 9 2 3d5+175 2d7+3
+5037 33000
+8 8 0
+#7002
+book monster guardian~
+the Book Monster~
+A mound of books rise up into a human shape and tries to hit you!
+~
+Ironically enough, the book-monster's head is War and
+Peace.  Hmm.
+~
+24 8 -700 S
+14 7 1 1d1+199 2d8+5
+6124 39300
+8 8 0
+#7003
+bad feeling~
+a Bad Feeling~
+A bad feeling chokes your throat.
+~
+It resembles a lot of other bad feelings you've had,
+but a lot more tangible....magic?
+~
+24 8 -700 S
+18 3 0 1d1+249 3d8+6
+7495 39000
+8 8 0
+#7004
+nightmare~
+Your Worst Nightmare~
+Your worst nightmare coalesces in front of you and attacks!
+~
+It looks like you deepest, darkest fears personified.
+Wait a minute!  It IS your deepest, darkest fears
+personified!
+~
+34 8 -700 S
+19 2 0 1d1+299 3d8+5
+8295 51000
+8 8 0
+#7005
+guardian~
+the Guardian~
+A guardian guards the door.  It looks at you and attacks!
+~
+The guardian guards the door.  That's about all its
+brain can handle: guarding.
+~
+34 8 300 S
+25 3 0 1d1+249 3d6+2
+8395 48000
+8 8 0
+#7006
+maid young~
+A young maid~
+A young maid is here cleaning to tower.
+~
+The young maid is wearing a crisp white apron and holding a large feather 
+duster as she quickly cleans about the room.
+~
+192 0 0 S
+15 13 3 3d5+95 2d5+1
+2768 9750
+8 8 1
+#7007
+Dog vicious.~
+A large vicious dog~
+The large dog snarls viciously at you as it gets ready to attack!
+~
+The large dog has sharp yellow teeth that snap at you. His fur is dirty 
+and matted and he has a revolting smell to him.
+~
+24 8 -600 S
+20 9 2 3d5+175 2d7+3
+5037 35000
+8 8 0
+#7008
+Evil Scholar~
+An evil scholar~
+An evil scholar is standing here thinking of ways to torture you.!
+~
+The evil scholar is dressed completely in black. He is studying the evil 
+magic of this tower and should be avoided at all cost.
+~
+24 8 -700 S
+18 3 0 1d1+249 3d6+2
+8395 48000
+8 8 0
+#7009
+wizard~
+The evil wizard~
+The evil wizard conjurs up a spell and attacks!
+~
+The evil wizard is covered in purple robes. He has a face that would make 
+any baby cry, he is so evil.
+~
+30 8 -1000 S
+19 2 0 1d1+399 3d8+5
+9995 98000
+8 8 0
+#99999
+$~

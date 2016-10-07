@@ -1,0 +1,35 @@
+1
+5
+12
+kick  rattle
+0
+3
+rat
+11
+track snake
+0
+3
+kic
+24
+kick $*; alias 5 kick $*
+1
+4
+hbuy
+30
+buy 20 heal; put all.heal back
+1
+4
+pbuy
+30
+buy 10 prot; put all.prot back
+1
+1
+2
+21
+get heal back; q heal
+1
+4
+prot
+21
+get prot back; q prot
+1

@@ -1,0 +1,115 @@
+head	1.2;
+access;
+symbols
+	rel1:1.1.1.1 prim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.01.27.15.31.12;	author talisman;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.01.26.14.30.39;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.01.26.14.30.39;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@1.wld
+2.wld
+5.wld
+7.wld
+8.wld
+10.wld
+15.wld
+16.wld
+18.wld
+19.wld
+20.wld
+21.wld
+22.wld
+24.wld
+31.wld
+32.wld
+40.wld
+43.wld
+45.wld
+46.wld
+47.wld
+48.wld
+50.wld
+52.wld
+55.wld
+56.wld
+60.wld
+70.wld
+71.wld
+80.wld
+81.wld
+83.wld
+84.wld
+85.wld
+86.wld
+87.wld
+88.wld
+90.wld
+93.wld
+95.wld
+98.wld
+100.wld
+101.wld
+105.wld
+108.wld
+110.wld
+120.wld
+130.wld
+132.wld
+133.WLD
+135.wld
+136.wld
+200.wld
+220.wld
+223.wld
+230.wld
+240.wld
+250.wld
+260.wld
+270.wld
+290.wld
+300.wld
+$
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d45 1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

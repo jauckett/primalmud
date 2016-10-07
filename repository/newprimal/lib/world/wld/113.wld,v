@@ -1,0 +1,73 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2004.01.31.03.41.08;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Artus> 100: Sync, others: New.
+@
+text
+@#11300
+Void~
+Empty room.~
+113 0 0 0
+S
+#11301
+Frount of the Bus~
+You are in an unfinished room.
+~
+113 0 0 0
+D2
+~
+~
+0 0 11302
+S
+#11302
+Back of the Bus~
+You are standing in the back of the bus
+~
+113 0 0 0
+D0
+~
+~
+0 0 11301
+S
+#11310
+Bus Stop 1~
+You are in an unfinished room.
+~
+113 0 0 0
+S
+#11311
+Bus Stop 2~
+You are in an unfinished room.
+~
+113 0 0 0
+S
+#11312
+Bus Stop 3~
+You are in an unfinished room.
+~
+113 0 0 0
+S
+#11313
+Bus Stop 4~
+You are in an unfinished room.
+~
+113 0 0 0
+S
+$~
+@

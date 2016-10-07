@@ -1,0 +1,26 @@
+k backstab  construction
+tt track construction
+ef exa force
+ee cast 'create food';eat mushroom
+bw buy 10 white;put all.white force
+str cast 'strength' self
+qw get white force;quaff white
+1 cast 'cure critic' $*
+2 cast 'cure light' $*
+mm cast 'magic missile' $*
+inf cast 'infravision' $*
+di cast 'detect invis' $*
+cc exa corpse
+wa wake;stand
+sl sleep
+dd drink skin
+3 get white backpack;quaff white
+000 recite recall $*
+bp put $* backpack
+bg get $* backpack
+00 get all.gold all.corpse
+0 get all.gold corpse
+99 get all all.corpse
+9 get all corpse
+bb buy 5 bread;put all.bread backpack
+kk alias k backstab $*;backstab $*

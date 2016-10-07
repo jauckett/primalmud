@@ -1,0 +1,14 @@
+see cast 'infravision' self
+a cast 'armor' self
+exaatlas get atlas bac; exa atlas; put atlas bac
+h cast 'cure light' self
+pab put all in bac
+dw get skin bac; drink water; put skin in bac
+gac get all from corpse
+emush get mushroom from bac; eat mushroom
+emeat get meat from bac; eat meat
+ebread get bread from bac; eat bread
+fskin get skin bac; fill skin fount; put skin in bac
+examap get map from bac; exa map; put map in bac
+ulan get lan bac; hold lan
+rlan rem lan; put lan bac

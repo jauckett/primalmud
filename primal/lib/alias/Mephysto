@@ -1,0 +1,77 @@
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+a6 cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;group all
+cd cast 'clone';cast 'clone';order followers die;cast 'clone';cast 'clone';order followers die;cast 'clone';cast 'clone';order followers die
+tool put tool 2.tool
+gheal get 20.heal tool;give all.heal $*
+gh cast 'group heal'
+sumall cast 'summon' latona;cast 'summon' polgara;cast 'summon' blossum
+3 cast 'divine heal' $*
+dim cast 'dimension gate' $*;open gate;go gate;stand
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+lev1 e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n;n;
+ncto emote imitates Daffy Duck and quacks NCTO!!!!
+ass order followers assist mephysto
+die order followers die
+drag cast 'dragon'
+1 get heal tool;get heal tool;get heal tool;get heal tool;get heal tool;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put tool 2.tool
+cd3 cast 'clone';cast 'clone';order followers die;cast 'clone';order followers die
+a3 cast 'animat' corpse;cast 'animat' corpse;cast 'animat' corpse;group all
+anim3 cast 'animat' corpse;cast 'animat' corpse;cast 'animat' corpse;group all
+clone cast 'clone'
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+troy  s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+portal s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+forgot  s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;s;w;s;s
+ord order followers kill $*;kill $*
+0 group all;cast 'group sanc';ungroup
+a2 cast 'animate dead' corpse;cast 'animate' corpse;group all
+cl cast 'clone';cast 'clone'
+rope cast 'remove curse' rope;e;sell rope;w
+par cast 'paral' $*
+id cast 'identify' $*
+bh buy 20 heal;put all.heal tool;put tool 2.tool
+gt get tool tool
+5 cast 'haste'
+8 cast 'sanct' $*
+ref cast 'refresh' $*
+life cast 'sense life' $*
+anim cast 'animate' corpse;group all
+c get coin all.corpse
+x get all all.corpse
+re cast 'word'
+inv cast 'invis' $*
+sl cast 'sleep' $*
+wa wake;stand
+sum cast 'summon' $*
+inf cast 'infravi' $*
+det cast 'detect inv' $*
+bp buy 5 prot;put all.prot tool
+ki get ammo tool;reload;put ammo tool;kick $*
+ammo buy 5 ammo;put all.ammo tool
+qw quaff white
+qr quaff red
+tra train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*
+gc get corpse;junk corpse
+walk cast 'waterwalk' $*
+str cast 'streng' $*
+wh cast 'whirlwind'
+tele cast 'teleport'
+2 cast 'advanced heal' $*
+loc cast 'locate object' $*
+tunnel  s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+water cast 'waterbr' $*
+back open gate;n;n;n;n;n;n;open front;n;n;n;open door;n;n;e;open slid;n;n;d;n
+rc cast 'remove curse' $*
+a1 cast 'animate' corpse;group all
+a4 cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;cast 'animate' corpse;group all
+cd4 cast 'clone';cast 'clone';order followers die;cast 'clone';cast 'clone';order followers die
+getd hold lantern;hold drill;wear black body;wield laser;wear all;put tool 2.tool;put tool 2.tool;put all backpack;get tool backpack
+noh cast 'nohassle'
+rome1 wake;stand;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;s;w;s;s
+4 ungroup;d

@@ -1,0 +1,149 @@
+gogod3 w;w;w;w;w;w;w;s;e;n;s;
+gogod2 s;s;s;s;s;s;s;s;s;s;s;
+gogod1 n;w;s;s;s;s;e;e;s;s;s;e;e;
+pfe cast 'protection from evil' $*
+house0 s;s;s;s;cast 'detect invisibility' self; who;
+bs rem whip;wield dagger;ba $*;rem dagger;wield whip;
+club2 d;d;n;n;e;s;
+club1 n;w;s;s;u;u;
+house1 get all.crystal;get all.bracelet;get all.diamond;get all.cloak;get all.lord;get claws;get dagger;wear all;
+///// / #70 $*
+// / #68 $*
+sal1 gossip <== *Salutes* $*
+tamia tag miao
+taate tag ate
+tawas tag waserns
+tagno tag gnol
+tamis tag misty
+tabig tag bigbert
+kclo cast 'fireball' clone;cast 'fireball' 2.clone;cast 'fireball' clone;cast 'fireball' 2.clone;
+spi0 cast 'infravision' clone;cast 'infravision' 2.clone;group all;aff;
+spi cast 'clone';cast 'clone';cast 'clone';cast 'detect invisibility' clone;cast 'detect invisibility 2.clone';
+ck cast 'cloud kill' $*
+hol1 holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+spi7 e;e;e;e;e;d;w;w;w;w;w;w;w;w;w;
+spi6 s;s;s;s;s;s;d;e;e;e;e;
+aclo order followers assist delusion
+spi5 w;w;w;w;w;w;w;w;w;d;
+2ah cast 'advance heal' self;cast 'advance heal' self
+spi4 s;s;s;s;s;e;e;open rock;d;
+spi3 u;u;u;w;w;d;s;s;d;d;d;e;e;e;e;e;s;e;s;d;e;e;e;e;
+spi2 s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;s;s;w;w;w;w;w;w
+spi1 n;w;s;s;s;e;e;e;e;open gate;e;e;e;e;s;e;e;s;e;e;e
+sla get silver crate;rem whip;wield silver;slay $*;rem silver;wield whip;put silver crate;
+sleep cast 'sleep' $*
+fly cast 'fly' $*
+da cast 'detect alignment' $*
+dri3 n;u;n;e;e;e;e;s;
+dri2 s;s;w;s;e;e;s;w;w;w;s;s;e;
+dri1 n;n;n;w;w;s;s;w;w;w;w;w;s;d;s;
+horn rem horn;rem cloner;hold cloner;rem cloner;hold cloner;rem cloner;hold horn
+rp cast 'remove poison' $*
+bli cast 'blindness' $*
+res cast 'rescue' $*
+ad cast 'animate dead' $*
+sle emote utters the mystical words 'drofwarc ydnic'.  Suddenly, Cindy Crawford appears.  They cuddle under a blanket;sle
+ble cast 'bless' $*
+wtav s;s;s;s;s;s;w;s;
+di cast 'detect invisibility' $*
+inv cast 'invisibility' $*
+goalc n;w;s;s;s;e;e;e;n;buy 7 white;put all.white crate;s;w;w;w;n;n;n;e;s;sleep
+gosha3 n;n;n;w;w;s;
+gosha2 e;e;e;e;e;e;e;e;e;e;n;e;n;
+gosha1 n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+goship n;e;n;n;n;n;n;n;
+e2 emote takes out two shot glasses.  He pours himself one and pours a shot for $*.  That's real good.
+heal cast 'heal' $*
+gotre4 s;s;s;s;e;e;e;e;n;n;track treant
+gotre3 e;e;n;n;
+gotre2 s;s;e;s;s;s;s;s;e;track treant;
+fir cast 'fireball' $*
+ord order $*
+cha cast 'charm person' $*
+blood open crate;get blood crate;close crate;quaff blood;
+cf cast 'create food'
+qb open crate;get blue crate;close crate;quaff blue
+sum cast 'summon' $*
+ge get all all.corpse
+ec open crate;exa crate;close crate
+pc open crate;put $* crate;close crate
+gc open crate;get $* crate;close crate
+skin open crate;get skin crate;drink skin;put skin crate;close crate
+recall open crate;get recall crate;close crate;recite recall
+qw open crate;get white crate;close crate;quaff white
+qr open crate;get red crate;close crate;quaff red
+qy open crate;get yellow crate;close crate;quaff yellow
+qo open crate;get orange crate;close crate;quaff orange
+id open crate;get identify crate;close crate;recite identify $*
+meat open crate;get mushroom crate;close crate;eat mushroom
+mush cast 'create food';eat mushroom
+san cast 'sanctuary' $*
+loc cast 'locate object' $*
+e1 emote slams a thunderous high5 with$*
+tav u;e;e;e;e;s;s;e;e;e;e;s;
+gotre n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;
+enc cast 'enchant weapon' $*
+ho s;w;w;n;n;w;w;w;w;d;
+gonig n;n;n;w;w;s;s;w;w;w;w;
+gonig2 w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;
+str cast 'strength' $*
+inf cast 'infravision' $*
+qt open crate;get thick crate;close crate;quaff thick;
+cc cast 'cure critic' $*
+quit1 drop all;rem all;drop all;rem all;drop all;gos l8r all;quitreally;
+tel cast 'teleport' $*
+ed cast 'energy drain' $*
+mm cast 'magic missile' $*
+rec cast 'word of recall' $*
+arm cast 'armor' $*
+har cast 'harm' $*
+ref cast 'refresh' $*
+re cast 'word of recall' $*
+cl cast 'cure light' $*
+hea cast 'heal' $*
+wat cast 'waterwalk' $*
+cp cast 'charm person' $*
+ew cast 'enchant weapon' $*
+fea cast 'fear' $*
+lo cast 'locate object' $*
+sl cast 'sense life' $*
+ps primal scream $*
+atlas open crate;get atlas crate;read atlas;put atlas crate;close crate;
+shield rem shield;wear 2.shield
+boots rem boots;wear 2.boots
+light rem crystal;hold pen;
+light1 rem pen;hold crystal;
+g1 grat 0=={+:::::::>$* <:::::::+}==0
+e5 emote singing 'Fighting evil by moonlight, winning love by daylight, I'm the one ...
+fd cast 'finger' $*
+e3 emote forces a shot of Tequila down$* throat.
+9 ord zombie $*
+dg cast 'dimensional gate' $*
+ah cast 'advanced heal' $*
+dm cast 'detect magic' $*
+dp cast 'detect poison' $*
+jcor get corpse;junk corpse
+hut2 s;s;s;s;s;s;u;s;d;d;d;d;s;e;e;s;d;d;d;d;d;
+hut1 s;u;u;e;u;s;d;d;s;s;s;s;s;s;s;s;s;s;
+clo cast 'clone' $*
+wer1 n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;
+go_wer1_dar n;n;n;n;n
+go_wer1_des n;n;n;n;w;w;
+des1 n;n;n;n;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;
+des2 e;e;e;e;n;e;e;e;e;s;e;u;u;u;u;
+gcoi get all.coins all.corpse
+cry e;e;e;e;e;n;n;n;n;n;
+3 train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+ss cast 'serpent skin' $*
+2h cast 'advance heal' self; cast 'advance heal' self;
+6 train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;
+house3 get crate;get whip;wield whip;open crate;get all.potion;get all.scroll;put all.potion crate;put all.scroll crate;
+house4 get atlas;put atlas crate;close crate;get dagger;get canoe;get eye; who
+house5 rem jade;drop jade;drop cloak;wear all;
+/// / #69 $*
+5 at corpse get corpse
+1 at 1886 backstab xaran
+2 at 1886 get corpse
+8 at 2261 get corpse
+7 at 2261 ba king
+house2 get whip;get shield;get boots;get pen;wear all;hold pen;hold crystal;wield whip;drop all;

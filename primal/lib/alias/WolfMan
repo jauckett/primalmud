@@ -1,0 +1,30 @@
+g drop 84000000 coin
+haven aut;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;aut
+cl cast 'clone' on $*
+lo cast 'locate object' on $*
+pra prac $*
+h cast 'cure critic' on stretch
+r cast 'word of recall'
+cure cast 'cure critic'
+gac get all all.corpse
+see cast 'infravision'
+food cast 'create food'
+i cast 'detect invisibility'
+invi cast 'invisibility'
+ar cast 'armor'
+fill fill skin from fountain
+em eat meat
+` get red from backpack;q red
+dr drink from skin
+4 cast 'charm' on $*
+= buy 10 red;put all.red backpack
+k hit  merchant
+sum cast 'summon' on $*
+hav aut;u;e;e;s;s;e;e;e;aut
+. cast 'advanced heal' on $*
+f cast 'finger of death' on $*
+remo cast 'remove curse' on $*
+clone cast 'clone' on $*
+fear cast 'fear' on $*
+white cast 'sanctuary' on $*
+kk order followers kill $*

@@ -1,0 +1,976 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.10.19.07.59.50;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.16.10.28.23;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.03.06.10.53.20;	author sandii;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> 3_0_311
+@
+text
+@BACKSTAB
+
+Level		: 3
+Usage		: backstab <victim> or b <victim>
+Accumulation	: -
+Duration	: -
+Save		: -
+Stat		: Dex 14
+Class		: 
+
+Backstab is a way to sneak up on a person and attempt to place your dagger
+in his back, at exactly the point where it does most damage.  A successful
+backstab gives a damage multiplier, depending on level:
+
+Levels  Multiplier
+------  ----------
+ 1-7	    2
+ 8-13	    3
+14-20	    4
+21-30	    5
+
+The chance of successfully backstabbing a person depends on how well you
+have practiced backstab at your guild.  You can always backstab sleeping
+people.
+
+See Also: K(ill) HIT BLAST
+#
+"BASH"
+
+Level       	: 40
+Usage       	: bash victim or bash while fighting 
+Accumulation	: -
+Duration    	: -
+Save        	: -
+Stat        	: Str 21 Con 19 Dex 17
+Class		: Warriors
+
+This skill will send your victim to the ground for the duration of three
+rounds. Or if you fail you will be sitting for three rounds. In the time
+that you or the mob are on the ground will be unable to cast any spells.
+If you successfully bash a mob you will also hit them much harder in those
+three rounds.
+
+Note that hitting a person who is resting/sitting will inflict 1.5 * damage.
+
+See also: KICK, RESCUE
+#
+BATTLECRY
+
+Level		: TODO
+Usage		: battlecry <victim>
+Accumulative	: -
+Duration	: -
+Save            : Standard Saves
+Stat            : TODO
+Class           : TODO
+
+This skill rolls kick,bearhug,headbutt,piledrive and bash into one, as though
+you did all of these skills seperately. In the way you would expect a combo
+attack to happen. Any of the aforementioned skills you have not practice, or 
+do not have the stats for will be skipped.
+
+If fighting, not specifying <victim> will hit whoever you're fighting.
+
+See Also: BASH BEARHUG HEADBUTT KICK PILEDRIVE
+#
+BEARHUG
+
+Level		: TODO
+Usage		: bearhug <victim>
+Accumulative	: -
+Duration	: -
+Save		: TODO
+Stat		: TODO
+Class		: TODO
+
+If successful, will do damage to the victim, and increase the time before
+their next attack. Damage is based on level and skill effectiveness.
+
+If fighting, not specifying <victim> will hit whoever you're fighting.
+#
+BERSERK
+
+Level		: TODO
+Usage		: berserk
+Accumulative	: -
+Duration	: Length of Combat
+Save		: -
+Stat		: TODO
+Class		: TODO
+
+If successful, you will enter a battle frenzy that will last until the fight
+is over. Whilst in this frenzy, you will do twice the damage and receive only
+half (Depending on effectiveness). However, you will not be able to cast any
+spells whilst berserk.
+
+This skill can only be used once every three ticks.
+#
+BODYSLAM
+
+Level		: TODO
+Usage		: bodyslam <victim>
+Accumulative	: -
+Duration	: -
+Save		: TODO
+Stat		: TODO
+Class		: TODO
+
+If successful, damages your victim, with the possibility of hurtling them into
+the next room. Damage amount is based on Level, Effectiviness and Strength.
+#
+BREAKIN
+
+Level		: TODO
+Usage		: breakin <victim>
+Accumulative	: -
+Duration	: Permanent
+Save		: TODO
+Stat		: TODO (cha? :o)
+Class		: TODO
+
+This skill allows you to tame mobs which are not aggressive, so they may be
+mounted. If you are not successful in taming the mob it will attack you
+instead.
+
+See Also: MOUNT
+#
+BURGLE
+
+Level		: TODO
+Usage		: TODO
+Accumulative	: -
+Duration	: -
+Save		: -
+Stat		: TODO (dex? :o)
+Class		: TODO (thief+? :o)
+
+TODO.
+#
+COMPARE
+
+Level       	: 5
+Usage       	: compare <object>(object)
+Accumulative	: -
+Duration	: - 
+Save		: -
+Stat        	: All stats 3
+Class		: Cleric
+
+This skill allows you to compare the value of objects in your possession.
+While not as effective as an identify scroll it does give you a general
+idea of the worth of items.
+#
+COMPOST
+
+Level		: TODO
+Usage		: compost <corpse>
+Accumulative	: -
+Duration	: -
+Save		: -
+Stat		: TODO
+Class		: TODO
+
+This skill will drain all remaining magical energy from a corpse, replenishing
+your supply. It cannot be performed on player corpses. All items inside the
+corpse will be left on the ground.
+#
+DARKRITUAL "DARK RITUAL"
+
+Level		: TODO
+Usage		: darkritual
+Accumulative	: -
+Duration	: -
+Save		: -
+Stat		: -
+Class		: TODO
+
+As it's name suggest, this is a skill that should only be performed by those of
+evil alignment. Good or neutral characters may suffer adverse affects. If you
+are successful in performing this ritual, you will exchange some of your life
+force (HP) for magic reserves (MP).
+#
+HIDE
+
+Level       : 5
+Usage       : Hide
+Accumulative: -
+Duration	: - 
+Save		: -
+Stat        : Dex 13
+Class		: Thieves
+
+
+When you type hide there is a chance that you hide in the room.  If hidden
+you can only be "sensed" by the "sense life" spell.  Even if sensed your
+identity will remain hidden.  Hide is broken by pressing return, regardless
+of whether you typed a command or not.
+
+Example:
+
+  > hide
+  Ok.
+  >  (you wait for ex. 5 mins and remain hidden for 5 mins)
+
+  >  (You pressed enter and no longer hide)
+
+See also: SNEAK
+#
+HUNT
+
+Level       : 24
+Usage       : hunt <victim>
+Accumulation: till target reached
+Duration    : -
+Save        : -
+Stat        : Int 13  Dex 16
+Class		: Warrior
+
+
+You need track to be able to use this skill.This spell allows you to
+track your victim without interuption.
+#
+KICK
+
+Level       : 1
+Usage       : kick <victim>
+Accumulation: -
+Duration    : -
+Save        : -
+Stat        : Dex 13  Str 15
+Class		: Warrior
+
+
+The success of a kick depends upon how well you are learned.  The higher
+level you reach the harder you kick.  There is one small catch -- whenever
+you kick (or miss) you will be unable to type any command for three 
+rounds of 'Violence' -- so be sure that you do not need to flee!
+
+See also: BASH, RESCUE
+#
+"PICK LOCKS"
+
+Level       : 1
+Usage       : pick <lock name> [direction]
+Accumulation: - 
+Duration    : -
+Save        : -
+Stat        : Dex 14
+Class		: Thief
+
+
+When this command is issued, the Thief will attempt to use his skills
+plus whatever else is handy to pick the lock in the specified door.  Not
+all locks are pickable.
+
+For picking locks.  Not all locks can be picked.
+
+Examples:
+
+  > pick door south
+  > pick safe
+
+See Also : OPEN, CLOSE, LOCK, UNLOCK
+#
+RESCUE
+Level       : 3
+Usage       : rescue <victim>
+Accumulative: -
+Duration    : -
+Save        : -
+Stat        : Str 16 Dex 15 Con 10
+Class		: Warriors 
+
+This command is useful if you want to try and make an attacker hit you
+instead of your poor friend who is being pummeled.  You can only 'turn'
+one monster for each rescue attempt.  This is very useful when playing
+in groups, of course.
+
+Example:
+
+  > rescue Yankee
+#
+RETREAT
+
+Level       : 58
+Usage       : retreat
+Accumulative: -
+Duration    : -
+Save        : -
+Stat        : Wis 15 Dex 21 Con 21
+
+By using the skill retreat you may retreat from battle without
+loosing any experience. Similar to fleeing, but this strategic move
+allows you to save face and not look as cowardly
+#
+SCAN
+Level       : 7
+Usage       : scan 
+Accumulation: -
+Duration    : Instantaneous
+Save        : _
+Stat        : Int 12  Wis 15 Dex 16
+
+This skill will scan the surrounding rooms and report what mobs or players
+are located close by you. This skill will work more effectively depending on 
+your character height.
+#
+"SECOND ATTACK"
+Level        : 35
+Usage        : automatic
+Accumulation : _
+Duration     : permanent
+Save         : -
+Stat         : Str 16  Dex 15
+
+This skill will give you the ability to attack your victim twice in one round.
+If successfull it will do a 75% damage to the victim.
+#
+SERVE
+
+When you are using clones you can use the serve command so that the clones will
+return to you from where ever you are.
+
+Level       : 73
+Usage       : order clones serve
+Accumulative: -
+Duration    : - 
+Save        : - 
+Stat        : Int 20 Wis 20
+
+This will also cost 100 mana per clone and 10 movement per clone
+
+See Also: CLONE ORDER DIE
+#
+SNEAK
+Level 	: 1
+Usage		: sneak
+Accumulation: -
+Duration	: -
+Save		: -
+Stat		: Dex 15
+Class		: Thief
+
+
+Used for sneaking (moving in and out of rooms without anyone taking notice).
+When you type sneak, there is no way to know if you're actually sneaking.
+If you successfully sneak, then you'll continue to sneak for a little while.
+
+See also: HIDE
+#
+SPY
+Level 	: 17
+Usage		: spy <direction>
+Accumulation: -
+Duration	: -
+Save		: -
+Stat		: Dex 14
+Class		: Thief
+
+The spy command, once practiced, will enable you to spy into the adjoining
+rooms.  You will see the description and any mob or character standing in the
+room.  Fair warning for a nervous player!
+
+See Also: 
+#
+STEAL
+Level 	: 4
+Usage		: steal <item> <victim>
+Accumulation: -
+Duration	: -
+Save		: -
+Stat		: Dex 15
+Class		: Thief
+
+Use steal to steal gold or items from people.  The chance of not getting
+caught depends on how well you have practiced steal, and if the person
+is asleep.
+
+Due to misuse of the steal command, it is now illegal to steal from other
+players.  Doing so will get you a flag for your trouble.
+
+Examples:
+
+  > steal gold drunk
+  > steal sword mercenary
+    (If it's wielded, it might be possible if he is sleeping)
+
+See also: FLAGS
+#
+"THIRD ATTACK"
+Level        : 50
+Usage        : Automatic 
+Duration     : -
+Accumalative : Permenant
+Save         : -
+Stat         : Str 20  Dex 18
+Class		 : Warrior
+
+This skill will give you the ability to attack your victim twice in one round.
+If successfull it will do a 25% damage to the victim.
+#
+"THROW"
+Level       	: 39
+Usage       	: throw <Object> <direction> <victim>
+Accumulation	: Instant
+Save        	: -
+Stat        	: Str 19 Dex 18 Con 16 Wis 11
+Class	    	: Warrior
+  
+ 
+This skill is designed to hit your victims from a distance. The amount of
+damage you inflict will depend on the weight and/or damage of the object 
+thrown. Naturally you will be unable to throw objects that are too heavy
+for you.
+#
+TRACK
+&yTrack&n
+
+&CLevel&n	    : 6
+&CUsage&n	    : &ctrack &W<victim>&n
+&CAccumulative&n: -
+&CDuration&n    : -
+&CSave&n	    : -
+&CStat&n	    : &gInt &c10 &gDex &c15&n
+&CClass&n	    : Thief & Warrior
+
+Used for finding the first step on the shortest route to a monster.
+
+Example:
+
+  > &ctrack&n fido
+  You sense a trail south from here!
+#
+TRACK2
+&1Track&n
+ 
+&2Level&n : 6
+&2Usage&n : &ctrack &b<&nvictim&b>&n
+&2Stat&n  : &gInt &c10 &gDex &c15&n
+&2Class&n : Thief & Warrior
+ 
+Used for finding the first step on the shortest route to a monster.
+ 
+Example:
+ 
+  &W> track fido&n
+  You sense a trail south from here!
+ 
+Note - Ie. First line Skill/Spell heading
+                2nd Line Blank
+                stats (help spell heading) and not including irrelvant ones
+                        where there is one space after the longest identifer
+                        before the : which is at the same distance all the way
+                        through
+                expample command in either white, or the command color.
+#~    
+$
+
+
+
+
+@
+
+
+1.2
+log
+@Artus> In Progress. Just wishing to checkout remote.
+@
+text
+@d1 461
+a461 461
+BACKSTAB
+
+Level		: 3
+Usage		: backstab <victim> or b <victim>
+Accumulation	: -
+Duration	: -
+Save		: -
+Stat		: Dex 14
+Class		: 
+
+Backstab is a way to sneak up on a person and attempt to place your dagger
+in his back, at exactly the point where it does most damage.  A successful
+backstab gives a damage multiplier, depending on level:
+
+Levels  Multiplier
+------  ----------
+ 1-7	    2
+ 8-13	    3
+14-20	    4
+21-30	    5
+
+The chance of successfully backstabbing a person depends on how well you
+have practiced backstab at your guild.  You can always backstab sleeping
+people.
+
+See Also: K(ill) HIT BLAST
+#
+"BASH"
+
+Level       	: 40
+Usage       	: bash victim or bash while fighting 
+Accumulation	: -
+Duration    	: -
+Save        	: -
+Stat        	: Str 21 Con 19 Dex 17
+Class		: Warriors
+
+This skill will send your victim to the ground for the duration of three
+rounds. Or if you fail you will be sitting for three rounds. In the time
+that you or the mob are on the ground will be unable to cast any spells.
+If you successfully bash a mob you will also hit them much harder in those
+three rounds.
+
+Note that hitting a person who is resting/sitting will inflict 1.5 * damage.
+
+See also: KICK, RESCUE
+#
+BATTLECRY
+
+Level		: TODO
+Usage		: battlecry <victim>
+Accumulative	: -
+Duration	: -
+Save            : Standard Saves
+Stat            : TODO
+Class           : TODO
+
+This skill rolls kick,bearhug,headbutt,piledrive and bash into one, as though
+you did all of these skills seperately. In the way you would expect a combo
+attack to happen. Any of the aforementioned skills you have not practice, or 
+do not have the stats for will be skipped.
+
+If fighting, not specifying <victim> will hit whoever you're fighting.
+
+See Also: BASH BEARHUG HEADBUTT KICK PILEDRIVE
+#
+BEARHUG
+
+Level		: TODO
+Usage		: bearhug <victim>
+Accumulative	: -
+Duration	: -
+Save		: TODO
+Stat		: TODO
+Class		: TODO
+
+If successful, will do damage to the victim, and increase the time before
+their next attack. Damage is based on level and skill effectiveness.
+
+If fighting, not specifying <victim> will hit whoever you're fighting.
+#
+BERSERK
+
+Level		: TODO
+Usage		: berserk
+Accumulative	: -
+Duration	: Length of Combat
+Save		: -
+Stat		: TODO
+Class		: TODO
+
+If successful, you will enter a battle frenzy that will last until the fight
+is over. Whilst in this frenzy, you will do twice the damage and receive only
+half (Depending on effectiveness). However, you will not be able to cast any
+spells whilst berserk.
+
+This skill can only be used once every three ticks.
+#
+BODYSLAM
+
+Level		: TODO
+Usage		: bodyslam <victim>
+Accumulative	: -
+Duration	: -
+Save		: TODO
+Stat		: TODO
+Class		: TODO
+
+If successful, damages your victim, with the possibility of hurtling them into
+the next room. Damage amount is based on Level, Effectiviness and Strength.
+#
+BREAKIN
+
+Level		: TODO
+Usage		: breakin <victim>
+Accumulative	: -
+Duration	: Permanent
+Save		: TODO
+Stat		: TODO (cha? :o)
+Class		: TODO
+
+This skill allows you to tame mobs which are not aggressive, so they may be
+mounted. If you are not successful in taming the mob it will attack you
+instead.
+
+See Also: MOUNT
+#
+BURGLE
+
+Level		: TODO
+Usage		: TODO
+Accumulative	: -
+Duration	: -
+Save		: -
+Stat		: TODO (dex? :o)
+Class		: TODO (thief+? :o)
+
+TODO.
+#
+COMPARE
+
+Level       	: 5
+Usage       	: compare <object>(object)
+Accumulative	: -
+Duration	: - 
+Save		: -
+Stat        	: All stats 3
+Class		: Cleric
+
+This skill allows you to compare the value of objects in your possession.
+While not as effective as an identify scroll it does give you a general
+idea of the worth of items.
+#
+COMPOST
+
+Level		: TODO
+Usage		: compost <corpse>
+Accumulative	: -
+Duration	: -
+Save		: -
+Stat		: TODO
+Class		: TODO
+
+This skill will drain all remaining magical energy from a corpse, replenishing
+your supply. It cannot be performed on player corpses. All items inside the
+corpse will be left on the ground.
+#
+DARKRITUAL "DARK RITUAL"
+
+Level		: TODO
+Usage		: darkritual
+Accumulative	: -
+Duration	: -
+Save		: -
+Stat		: -
+Class		: TODO
+
+As it's name suggest, this is a skill that should only be performed by those of
+evil alignment. Good or neutral characters may suffer adverse affects. If you
+are successful in performing this ritual, you will exchange some of your life
+force (HP) for magic reserves (MP).
+#
+HIDE
+
+Level       : 5
+Usage       : Hide
+Accumulative: -
+Duration	: - 
+Save		: -
+Stat        : Dex 13
+Class		: Thieves
+
+
+When you type hide there is a chance that you hide in the room.  If hidden
+you can only be "sensed" by the "sense life" spell.  Even if sensed your
+identity will remain hidden.  Hide is broken by pressing return, regardless
+of whether you typed a command or not.
+
+Example:
+
+  > hide
+  Ok.
+  >  (you wait for ex. 5 mins and remain hidden for 5 mins)
+
+  >  (You pressed enter and no longer hide)
+
+See also: SNEAK
+#
+HUNT
+
+Level       : 24
+Usage       : hunt <victim>
+Accumulation: till target reached
+Duration    : -
+Save        : -
+Stat        : Int 13  Dex 16
+Class		: Warrior
+
+
+You need track to be able to use this skill.This spell allows you to
+track your victim without interuption.
+#
+KICK
+
+Level       : 1
+Usage       : kick <victim>
+Accumulation: -
+Duration    : -
+Save        : -
+Stat        : Dex 13  Str 15
+Class		: Warrior
+
+
+The success of a kick depends upon how well you are learned.  The higher
+level you reach the harder you kick.  There is one small catch -- whenever
+you kick (or miss) you will be unable to type any command for three 
+rounds of 'Violence' -- so be sure that you do not need to flee!
+
+See also: BASH, RESCUE
+#
+"PICK LOCKS"
+
+Level       : 1
+Usage       : pick <lock name> [direction]
+Accumulation: - 
+Duration    : -
+Save        : -
+Stat        : Dex 14
+Class		: Thief
+
+
+When this command is issued, the Thief will attempt to use his skills
+plus whatever else is handy to pick the lock in the specified door.  Not
+all locks are pickable.
+
+For picking locks.  Not all locks can be picked.
+
+Examples:
+
+  > pick door south
+  > pick safe
+
+See Also : OPEN, CLOSE, LOCK, UNLOCK
+#
+RESCUE
+Level       : 3
+Usage       : rescue <victim>
+Accumulative: -
+Duration    : -
+Save        : -
+Stat        : Str 16 Dex 15 Con 10
+Class		: Warriors 
+
+This command is useful if you want to try and make an attacker hit you
+instead of your poor friend who is being pummeled.  You can only 'turn'
+one monster for each rescue attempt.  This is very useful when playing
+in groups, of course.
+
+Example:
+
+  > rescue Yankee
+#
+RETREAT
+
+Level       : 58
+Usage       : retreat
+Accumulative: -
+Duration    : -
+Save        : -
+Stat        : Wis 15 Dex 21 Con 21
+
+By using the skill retreat you may retreat from battle without
+loosing any experience. Similar to fleeing, but this strategic move
+allows you to save face and not look as cowardly
+#
+SCAN
+Level       : 7
+Usage       : scan 
+Accumulation: -
+Duration    : Instantaneous
+Save        : _
+Stat        : Int 12  Wis 15 Dex 16
+
+This skill will scan the surrounding rooms and report what mobs or players
+are located close by you. This skill will work more effectively depending on 
+your character height.
+#
+"SECOND ATTACK"
+Level        : 35
+Usage        : automatic
+Accumulation : _
+Duration     : permanent
+Save         : -
+Stat         : Str 16  Dex 15
+
+This skill will give you the ability to attack your victim twice in one round.
+If successfull it will do a 75% damage to the victim.
+#
+SERVE
+
+When you are using clones you can use the serve command so that the clones will
+return to you from where ever you are.
+
+Level       : 73
+Usage       : order clones serve
+Accumulative: -
+Duration    : - 
+Save        : - 
+Stat        : Int 20 Wis 20
+
+This will also cost 100 mana per clone and 10 movement per clone
+
+See Also: CLONE ORDER DIE
+#
+SNEAK
+Level 	: 1
+Usage		: sneak
+Accumulation: -
+Duration	: -
+Save		: -
+Stat		: Dex 15
+Class		: Thief
+
+
+Used for sneaking (moving in and out of rooms without anyone taking notice).
+When you type sneak, there is no way to know if you're actually sneaking.
+If you successfully sneak, then you'll continue to sneak for a little while.
+
+See also: HIDE
+#
+SPY
+Level 	: 17
+Usage		: spy <direction>
+Accumulation: -
+Duration	: -
+Save		: -
+Stat		: Dex 14
+Class		: Thief
+
+The spy command, once practiced, will enable you to spy into the adjoining
+rooms.  You will see the description and any mob or character standing in the
+room.  Fair warning for a nervous player!
+
+See Also: 
+#
+STEAL
+Level 	: 4
+Usage		: steal <item> <victim>
+Accumulation: -
+Duration	: -
+Save		: -
+Stat		: Dex 15
+Class		: Thief
+
+Use steal to steal gold or items from people.  The chance of not getting
+caught depends on how well you have practiced steal, and if the person
+is asleep.
+
+Due to misuse of the steal command, it is now illegal to steal from other
+players.  Doing so will get you a flag for your trouble.
+
+Examples:
+
+  > steal gold drunk
+  > steal sword mercenary
+    (If it's wielded, it might be possible if he is sleeping)
+
+See also: FLAGS
+#
+"THIRD ATTACK"
+Level        : 50
+Usage        : Automatic 
+Duration     : -
+Accumalative : Permenant
+Save         : -
+Stat         : Str 20  Dex 18
+Class		 : Warrior
+
+This skill will give you the ability to attack your victim twice in one round.
+If successfull it will do a 25% damage to the victim.
+#
+"THROW"
+Level       	: 39
+Usage       	: throw <Object> <direction> <victim>
+Accumulation	: Instant
+Save        	: -
+Stat        	: Str 19 Dex 18 Con 16 Wis 11
+Class	    	: Warrior
+  
+ 
+This skill is designed to hit your victims from a distance. The amount of
+damage you inflict will depend on the weight and/or damage of the object 
+thrown. Naturally you will be unable to throw objects that are too heavy
+for you.
+#
+TRACK
+&yTrack&n
+
+&CLevel&n	    : 6
+&CUsage&n	    : &ctrack &W<victim>&n
+&CAccumulative&n: -
+&CDuration&n    : -
+&CSave&n	    : -
+&CStat&n	    : &gInt &c10 &gDex &c15&n
+&CClass&n	    : Thief & Warrior
+
+Used for finding the first step on the shortest route to a monster.
+
+Example:
+
+  > &ctrack&n fido
+  You sense a trail south from here!
+#
+TRACK2
+&1Track&n
+ 
+&2Level&n : 6
+&2Usage&n : &ctrack &b<&nvictim&b>&n
+&2Stat&n  : &gInt &c10 &gDex &c15&n
+&2Class&n : Thief & Warrior
+ 
+Used for finding the first step on the shortest route to a monster.
+ 
+Example:
+ 
+  &W> track fido&n
+  You sense a trail south from here!
+ 
+Note - Ie. First line Skill/Spell heading
+                2nd Line Blank
+                stats (help spell heading) and not including irrelvant ones
+                        where there is one space after the longest identifer
+                        before the : which is at the same distance all the way
+                        through
+                expample command in either white, or the command color.
+#~    
+$
+
+
+
+
+@
+
+
+1.1
+log
+@Saving my work before a blow away
+@
+text
+@d48 92
+d154 29
+@
+

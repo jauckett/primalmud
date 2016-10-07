@@ -1,0 +1,37 @@
+#! /bin/sh
+
+# This is a script which allows a user to check which files in the current
+# directory are locked and by whom.
+#
+# Written by Kathryn Strickland.
+#
+
+rlog * > /tmp/rcslocks.out.$$ 2>&1
+
+awk '{ 
+		if (index($0, "rlog error") != 0)
+			next
+
+		if (x==0) 
+		{ 
+			if (index($0, "access list:") != 0)
+				printf("	no lock \n") 
+			else
+				printf("%s \n",$0)
+			x=1
+		} 
+
+		if (index($0, "locks:") != 0) 
+		{
+			printf("%-20s", $2)
+			x=0
+		}
+
+		if (index($0, "Working file:") != 0)
+			printf("%-20s", $3)
+
+	}' /tmp/rcslocks.out.$$
+
+echo " "
+
+rm -f /tmp/rcslocks.out.$$

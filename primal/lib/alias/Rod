@@ -1,0 +1,6 @@
+spir cast 'spir'
+di cast 'detect invis'
+bs rem sword;wield super;backstab $1;rem super;wield sword
+fb cast 'fireball'
+str cast 'str'
+heal cast 'heal'

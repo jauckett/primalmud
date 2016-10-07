@@ -1,0 +1,893 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.16;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 9">
+<link rel=File-List href="./havenmap_files/filelist.xml">
+<link rel=Edit-Time-Data href="./havenmap_files/editdata.mso">
+<link rel=OLE-Object-Data href="./havenmap_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Sandii</o:Author>
+  <o:LastAuthor>Sandii</o:LastAuthor>
+  <o:Created>2000-01-27T00:08:38Z</o:Created>
+  <o:LastSaved>2000-05-15T06:04:00Z</o:LastSaved>
+  <o:Version>9.2720</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:DownloadComponents/>
+  <o:LocationOfComponents HRef="file:///G:/msowc.cab"/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style21
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-style-name:Hyperlink;
+	mso-style-id:8;}
+a:link
+	{color:blue;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+a:visited
+	{color:purple;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	text-align:center;}
+.xl25
+	{mso-style-parent:style0;
+	color:#FF9900;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl26
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl27
+	{mso-style-parent:style0;
+	color:#339966;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl28
+	{mso-style-parent:style0;
+	color:blue;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl29
+	{mso-style-parent:style0;
+	color:blue;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl30
+	{mso-style-parent:style0;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl31
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl32
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl33
+	{mso-style-parent:style0;
+	color:#FF9900;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl34
+	{mso-style-parent:style0;
+	color:#339966;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl35
+	{mso-style-parent:style21;
+	color:blue;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl36
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:"Century Schoolbook", serif;
+	mso-font-charset:0;}
+.xl37
+	{mso-style-parent:style0;
+	color:blue;
+	font-weight:700;
+	font-style:italic;
+	font-family:"Century Schoolbook", serif;
+	mso-font-charset:0;}
+.xl38
+	{mso-style-parent:style0;
+	color:#FF9900;
+	font-weight:700;
+	font-style:italic;
+	font-family:"Century Schoolbook", serif;
+	mso-font-charset:0;}
+.xl39
+	{mso-style-parent:style0;
+	color:#339966;
+	font-weight:700;
+	font-style:italic;
+	font-family:"Century Schoolbook", serif;
+	mso-font-charset:0;}
+.xl40
+	{mso-style-parent:style0;
+	color:aqua;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl41
+	{mso-style-parent:style0;
+	color:red;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl42
+	{mso-style-parent:style0;
+	color:red;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl43
+	{mso-style-parent:style0;
+	color:#FF9900;
+	font-weight:700;
+	font-style:italic;
+	font-family:"Century Schoolbook", serif;
+	mso-font-charset:0;
+	text-align:left;}
+.xl44
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-style:italic;
+	font-family:"Century Schoolbook", serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl45
+	{mso-style-parent:style0;
+	color:blue;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl46
+	{mso-style-parent:style0;
+	color:#CC99FF;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl47
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:right;}
+.xl48
+	{mso-style-parent:style0;
+	color:#FF9900;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:left;}
+.xl49
+	{mso-style-parent:style0;
+	color:#993300;
+	font-size:36.0pt;
+	font-weight:700;
+	font-style:italic;
+	font-family:"Century Schoolbook", serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl50
+	{mso-style-parent:style21;
+	color:blue;
+	text-decoration:underline;
+	text-underline-style:single;
+	text-align:center;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetOptions>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>9</x:PaperSizeIndex>
+      <x:HorizontalResolution>300</x:HorizontalResolution>
+      <x:VerticalResolution>300</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:LeftColumnVisible>3</x:LeftColumnVisible>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>15</x:ActiveRow>
+       <x:ActiveCol>11</x:ActiveCol>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetOptions>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>9810</x:WindowHeight>
+  <x:WindowWidth>15135</x:WindowWidth>
+  <x:WindowTopX>120</x:WindowTopX>
+  <x:WindowTopY>45</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=1311 style='border-collapse:
+ collapse;table-layout:fixed;width:984pt'>
+ <col width=78 style='mso-width-source:userset;mso-width-alt:2852;width:59pt'>
+ <col width=31 style='mso-width-source:userset;mso-width-alt:1133;width:23pt'>
+ <col width=87 style='mso-width-source:userset;mso-width-alt:3181;width:65pt'>
+ <col width=55 style='mso-width-source:userset;mso-width-alt:2011;width:41pt'>
+ <col width=79 style='mso-width-source:userset;mso-width-alt:2889;width:59pt'>
+ <col width=74 style='mso-width-source:userset;mso-width-alt:2706;width:56pt'>
+ <col width=156 style='mso-width-source:userset;mso-width-alt:5705;width:117pt'>
+ <col width=76 style='mso-width-source:userset;mso-width-alt:2779;width:57pt'>
+ <col width=85 style='mso-width-source:userset;mso-width-alt:3108;width:64pt'>
+ <col width=73 style='mso-width-source:userset;mso-width-alt:2669;width:55pt'>
+ <col width=79 style='mso-width-source:userset;mso-width-alt:2889;width:59pt'>
+ <col width=118 style='mso-width-source:userset;mso-width-alt:4315;width:89pt'>
+ <col width=64 span=5 style='width:48pt'>
+ <tr height=17 style='height:12.75pt'>
+  <td colspan=12 rowspan=3 height=51 class=xl49 width=991 style='height:38.25pt;
+  width:744pt'>Map of Haven</td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=5 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=5 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td class=xl25></td>
+  <td class=xl27></td>
+  <td class=xl29></td>
+  <td class=xl30></td>
+  <td colspan=12 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl30 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl32>Southbank</td>
+  <td class=xl32></td>
+  <td class=xl32>Southbank</td>
+  <td class=xl32></td>
+  <td class=xl32>Intersection of</td>
+  <td class=xl32></td>
+  <td class=xl32>Southbank</td>
+  <td class=xl32></td>
+  <td class=xl32>End of</td>
+  <td class=xl31></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl30 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl32>Road</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>road</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Southbank &amp; Main</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Road</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32 x:str="Southbank ">Southbank </td>
+  <td class=xl31></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td colspan=2 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl32>|</td>
+  <td class=xl32>|</td>
+  <td class=xl32>|</td>
+  <td class=xl32></td>
+  <td class=xl32>|</td>
+  <td class=xl32>|</td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td class=xl33></td>
+  <td class=xl32></td>
+  <td class=xl33>Under</td>
+  <td class=xl34>Rundown</td>
+  <td class=xl33>Wayfarer's</td>
+  <td class=xl32 x:str="Main ">Main </td>
+  <td class=xl32></td>
+  <td class=xl33>Riverside</td>
+  <td class=xl35><a href="http://sandiis.com/primalmud/map/futuremap.htm"><span
+  style='font-weight:700;font-family:Arial, sans-serif;mso-font-charset:0'>Traveller's</span></a></td>
+  <td class=xl32></td>
+  <td class=xl36></td>
+  <td></td>
+  <td class=xl36>Legend:</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td class=xl33></td>
+  <td class=xl32></td>
+  <td class=xl33>Tree</td>
+  <td class=xl34>Warehouse</td>
+  <td class=xl33>Inn</td>
+  <td class=xl32>Street</td>
+  <td class=xl32></td>
+  <td class=xl33>Tavern</td>
+  <td class=xl35><a href="http://sandiis.com/primalmud/map/futuremap.htm"><span
+  style='font-weight:700;font-family:Arial, sans-serif;mso-font-charset:0'>Guide</span></a></td>
+  <td class=xl32></td>
+  <td class=xl37></td>
+  <td></td>
+  <td class=xl38>Shops</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl36 style='height:12.75pt'></td>
+  <td colspan=5 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=4 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl39></td>
+  <td></td>
+  <td class=xl39>Guilds</td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl37 style='height:12.75pt'></td>
+  <td class=xl40></td>
+  <td class=xl32></td>
+  <td class=xl40></td>
+  <td colspan=2 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl42 x:str="Main ">Main </td>
+  <td colspan=4 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl43></td>
+  <td></td>
+  <td class=xl43></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl39 style='height:12.75pt'></td>
+  <td colspan=4 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl33>Weapon</td>
+  <td class=xl42><span style="mso-spacerun: yes"> </span>=== Street ===</td>
+  <td class=xl33>Armourer's</td>
+  <td colspan=3 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl41></td>
+  <td></td>
+  <td class=xl41 colspan=3 style='mso-ignore:colspan'>You enter the game here</td>
+  <td></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl43 style='height:12.75pt'></td>
+  <td colspan=4 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl33>Shop</td>
+  <td class=xl32>|</td>
+  <td class=xl33>Shop</td>
+  <td class=xl33>Magic</td>
+  <td class=xl33 x:str="Potion ">Potion </td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td></td>
+  <td class=xl31></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl44 style='height:12.75pt'></td>
+  <td colspan=2 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl32>Grocer</td>
+  <td colspan=2 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl32></td>
+  <td class=xl33>Shop</td>
+  <td class=xl33>Shop</td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td></td>
+  <td class=xl45 colspan=4 style='mso-ignore:colspan'>Traveller's Guild linked
+  to futuremap</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td class=xl32>|</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl31></td>
+  <td class=xl32>|</td>
+  <td class=xl32>|</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td></td>
+  <td class=xl45></td>
+  <td colspan=3 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl32>West Gate</td>
+  <td class=xl32></td>
+  <td class=xl32>Regiment</td>
+  <td class=xl32></td>
+  <td class=xl32>X-Road of</td>
+  <td class=xl32></td>
+  <td class=xl32>Regiment</td>
+  <td class=xl32></td>
+  <td class=xl50 x:str="East Gate "><a href="eastgate.htm">East Gate </a></td>
+  <td class=xl31></td>
+  <td></td>
+  <td class=xl45 colspan=4 style='mso-ignore:colspan'>Under Tree linked to
+  westworldmap</td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl32>of Haven</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Road</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Main &amp; Regiment</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Road</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl50><a href="eastgate.htm">of Haven</a></td>
+  <td class=xl31></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td class=xl32>|</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl32></td>
+  <td class=xl32>|</td>
+  <td class=xl32>|</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl34></td>
+  <td class=xl31></td>
+  <td class=xl34>Druid's</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl31></td>
+  <td class=xl33>Jeweller's</td>
+  <td class=xl34>Mage</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl34></td>
+  <td class=xl31></td>
+  <td class=xl34>Temple</td>
+  <td class=xl31></td>
+  <td class=xl46></td>
+  <td class=xl32>Main</td>
+  <td class=xl31></td>
+  <td class=xl33>Shop</td>
+  <td class=xl34>Guild</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td class=xl34>Warrior's</td>
+  <td class=xl32>Street</td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td class=xl32></td>
+  <td class=xl31></td>
+  <td class=xl34>Guild</td>
+  <td class=xl32 x:str="'=== Central ===">=== Central ===</td>
+  <td class=xl32 x:str="Market ">Market </td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl31 x:str="Haven's ">Haven's </td>
+  <td class=xl32 x:str="Market ">Market </td>
+  <td class=xl32></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=4 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl46></td>
+  <td class=xl32>|</td>
+  <td class=xl32>Way</td>
+  <td class=xl32>|</td>
+  <td class=xl31>First Bank</td>
+  <td class=xl32>Way</td>
+  <td class=xl32></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl31></td>
+  <td class=xl33>General</td>
+  <td class=xl31></td>
+  <td class=xl32>|</td>
+  <td class=xl32>Elemental</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl31></td>
+  <td class=xl33>Store</td>
+  <td class=xl31></td>
+  <td class=xl32>|</td>
+  <td class=xl32>Temple</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>Main</td>
+  <td colspan=3 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl32>|</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>Street</td>
+  <td class=xl31></td>
+  <td class=xl33>Donation</td>
+  <td class=xl31></td>
+  <td class=xl47 x:str="'= = =">= = =</td>
+  <td class=xl32>Intersection of</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl31></td>
+  <td class=xl33>Room</td>
+  <td class=xl31></td>
+  <td class=xl32></td>
+  <td class=xl32>Market &amp; Gambol</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td colspan=5 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td class=xl31></td>
+  <td class=xl32>|</td>
+  <td class=xl31></td>
+  <td class=xl32></td>
+  <td class=xl32>|</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl34>Paladin</td>
+  <td class=xl32></td>
+  <td class=xl32>West End</td>
+  <td class=xl32></td>
+  <td class=xl32>Central Council</td>
+  <td class=xl31></td>
+  <td class=xl32>East Council</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>Gambol</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl27 style='height:12.75pt'></td>
+  <td class=xl32></td>
+  <td class=xl34>Temple</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Council sq</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Square</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Square</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>Road</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl24 style='height:12.75pt'></td>
+  <td colspan=5 class=xl32 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=4 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=4 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl28 style='height:12.75pt'></td>
+  <td colspan=3 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32 x:str="South ">South </td>
+  <td class=xl32></td>
+  <td class=xl32>Council Square</td>
+  <td class=xl31></td>
+  <td class=xl32>Southeast</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl26 style='height:12.75pt'></td>
+  <td colspan=3 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>Council sq</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Before Chambers</td>
+  <td class=xl32 x:str="'===">===</td>
+  <td class=xl32>Council Sq</td>
+  <td colspan=2 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 class=xl48 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=4 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>|</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32 x:str="Entrance to ">Entrance to </td>
+  <td colspan=4 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>Gambol</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=5 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>Council Chambers</td>
+  <td colspan=4 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl32>Road</td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=11 class=xl31 style='mso-ignore:colspan'></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 style='height:12.75pt'></td>
+  <td colspan=11 class=xl31 style='mso-ignore:colspan'></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=17 style='height:12.75pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=17 style='height:12.75pt'>
+  <td height=17 colspan=6 style='height:12.75pt;mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td colspan=4 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td colspan=5 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=78 style='width:59pt'></td>
+  <td width=31 style='width:23pt'></td>
+  <td width=87 style='width:65pt'></td>
+  <td width=55 style='width:41pt'></td>
+  <td width=79 style='width:59pt'></td>
+  <td width=74 style='width:56pt'></td>
+  <td width=156 style='width:117pt'></td>
+  <td width=76 style='width:57pt'></td>
+  <td width=85 style='width:64pt'></td>
+  <td width=73 style='width:55pt'></td>
+  <td width=79 style='width:59pt'></td>
+  <td width=118 style='width:89pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

@@ -1,0 +1,9 @@
+gac get all corpse
+ds drink skin
+h tell ran h
+qw quaff white
+ch tell cerin h
+sanc tell cerin sanc
+lic look in corpse
+in cast 'invis' $*
+nv cast 'infra' $*

@@ -1,0 +1,112 @@
+#6600
+coffinfeeder~
+a Coffinfeeder~
+A Coffinfeeder is here, devouring a carcass.
+~
+It looks like a skeleton with human flesh lossely hanging from it.  The
+intestines hang out from under the skin, it walks witha bizarre limp.    
+~
+2097192 262280 0 E
+79 -16 -6 1d1+4000 10d27+37
+100 600000
+8 8 0
+E
+#6601
+spine splitter~
+a spinesplitter~
+He'll break your back, a Spine-splitter charges you!
+~
+He is HUGE!  Clad in what appears to be a torn up white lab coat, stained with
+blood.  His eyes have been sewn shut, and flows steadily from his vicious jaws.
+He looks as if he was once human, but has been the victim of cruel
+experimentation..  Blood is the only way he can stay alive.    
+~
+1175597 34144426 0 E
+100 -40 -13 1d1+10000 10d30+90
+90000 1000000
+8 8 1
+BareHandAttack: 6
+E
+#6602
+cannibal corpse~
+a Cannibal Corpse~
+a Cannibal Corpse staggers towards you, ready to tear you apart.
+~
+IT only has patches of white hair atop its head.  The intestines are spilling
+out and are half eaten from where it's cannibalistic friends have been chewing
+on it.  They apparently tear into each other when there is no other living
+creature out there.  The flesh is hanging off the bone on some parts of it.  
+It's teeth drip with blood and flesh.    
+~
+1224748 32768 0 E
+83 -30 -7 1d1+3000 10d30+70
+0 830000
+8 8 0
+BareHandAttack: 4
+E
+#6603
+human collector~
+the human collector~
+The human collector shuffles madly toward you, drool dripping from his mouth.
+~
+He is clad in a white doctor's uniform, all stained in old blood.  He carries a
+little syringe around, filled with some unkown serum.  His little hunched over
+figure makes him seem laughable, but his face is cold and twisted, he cackles
+insanely and drools uncontrollably.    
+~
+41000 262272 0 E
+85 -40 -15 1d1+4000 40d20+70
+0 850000
+8 8 1
+E
+#6606
+blood hag~
+a bloodhag~
+A vicious Bloodhag hobles toward you, bleeding from her rotten mouth.
+~
+A very old, very decayed zombie like creature.  It appears to be an old woman,
+but it is so badly decayed that its hard to tell.  Blood flows from every
+orifice, and there are many puncture wounds in the old carcass.  It takes in as
+much blood as it loses, but thats what it feeds on.    
+~
+2101290 33555496 0 E
+80 -40 -12 1d1+5000 20d40+84
+0 800000
+8 8 2
+BareHandAttack: 4
+E
+#6610
+an insane surgeon~
+1000~
+An insane surgeon, drenched in blood cackles maniacally here.
+~
+Clad in all white scrubs, he is completely blood drenched.  An insane glimmer
+comes into his eye as he sees you.    
+~
+8 0 -666 E
+90 -50 -10 1d1000+10 4d80+94
+0 400000
+8 8 0
+BareHandAttack: 5
+E
+#6699
+the corpse grinder~
+the Corpsegrinder~
+The Corpsegrinder glares down at your pathetic self, his eyes burn you.
+~
+A huge, hulking, man-beast.  His long black hair covers his face, but you can
+see that he has no eyes.  His eye sockets bleed continuosly, staining his
+clothes.  His arms are crossed, showing his bulging biceps, but bits of skin
+have rotted off his arm, exposing the muscle.  His stomach opens up as it is a
+gaping mouth with huge, bloody teeth.  It grins at you as you look at it...  
+Maybe this is really the corpsegrinder and the body is just its host?  Who
+cares at this point, he charges you before you have time to process a thought!
+  
+~
+6547498 570524832 -666 E
+100 -80 -13 10d10+10000 100d5+100
+90000 1000000
+8 8 1
+BareHandAttack: 6
+E
+$

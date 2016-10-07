@@ -1,0 +1,535 @@
+5
+sense
+12
+cast 'sense'
+0
+4
+shin
+17
+get all.shin back
+0
+4
+gate
+13
+cast 'dim' $1
+1
+8
+waterbre
+15
+cast 'waterbre'
+0
+3
+100
+14
+drop 100 coins
+0
+2
+qa
+12
+quest answer
+0
+3
+ggg
+12
+get all.gold
+0
+1
+r
+10
+rescue zys
+0
+6
+fshiya
+21
+cast 'fire shield' $1
+1
+5
+fwall
+19
+cast 'fire wall' $1
+1
+4
+fshi
+18
+cast 'fire shield'
+0
+5
+dheal
+21
+cast 'divine heal' $1
+1
+7
+hasteya
+15
+cast 'haste' $1
+1
+5
+haste
+12
+cast 'haste'
+0
+7
+rempara
+18
+cast 'remove para'
+0
+11
+removecurse
+11
+cast 'great
+0
+5
+cloud
+17
+cast 'cloud kill'
+0
+5
+serve
+17
+order clone serve
+0
+5
+curse
+15
+cast 'curse' $1
+1
+6
+gwclon
+16
+give white clone
+0
+8
+dragonya
+16
+cast 'dragon' $1
+1
+3
+dra
+13
+cast 'dragon'
+0
+5
+clone
+12
+cast 'clone'
+0
+1
+t
+3
+tag
+0
+2
+aa
+18
+cast 'divine heal'
+0
+2
+wt
+9
+cast 'wra
+0
+6
+holyya
+14
+cast 'holy' $1
+1
+4
+holy
+15
+cast 'holy aid'
+0
+3
+div
+13
+cast 'div' $1
+1
+3
+fly
+10
+cast 'fly'
+0
+9
+cureblind
+20
+cast 'cure blind' $1
+1
+3
+ani
+17
+cast 'animate' $1
+1
+6
+summon
+16
+cast 'summon' $1
+1
+5
+charm
+15
+cast 'charm' $1
+1
+7
+refresh
+17
+cast 'refresh' $1
+1
+2
+rr
+13
+cast 'recall'
+0
+4
+gsal
+18
+get all.salve back
+0
+2
+sb
+17
+put all.salve bac
+0
+8
+dinvisya
+22
+cast 'detect invis' $1
+1
+5
+gheal
+17
+cast 'group heal'
+0
+2
+ed
+19
+cast 'energy drain'
+0
+5
+stren
+15
+cast 'stren' $1
+1
+5
+blind
+15
+cast 'blind' $1
+1
+5
+sanya
+14
+cast 'sanc' $1
+1
+4
+htod
+9
+advan tod
+0
+4
+serb
+20
+put all.serpent back
+0
+5
+gserp
+16
+get serpent back
+0
+6
+finger
+16
+cast 'finger' $1
+1
+7
+serpent
+14
+cast 'serpent'
+0
+4
+harm
+11
+cast 'harm'
+0
+1
+a
+12
+cast 'advan'
+0
+8
+senwound
+18
+cast 'sense wound'
+0
+4
+town
+21
+s e e e e e e e e s s
+0
+5
+stone
+12
+cast 'stone'
+0
+7
+stoneya
+15
+cast 'stone' $1
+1
+2
+sp
+14
+cast 'spir' $1
+1
+9
+rempoison
+23
+cast 'remove poison' $1
+1
+1
+?
+18
+cast 'identify' $1
+1
+7
+protect
+15
+cast 'spiri' $1
+1
+8
+remcurse
+22
+cast 'remove curse' $1
+1
+9
+waterwalk
+17
+cast 'waterwalk' 
+0
+4
+spir
+17
+cast 'spirit arm'
+0
+4
+good
+18
+cast 'dispel good'
+0
+4
+evil
+18
+cast 'dispel evil'
+0
+5
+swarm
+10
+cast 'met'
+0
+5
+advan
+23
+cast 'advanced heal' $1
+1
+3
+hhh
+20
+cast 'advanced heal'
+0
+4
+plas
+18
+cast 'plasma blas'
+0
+7
+infracl
+15
+cast 'infra' $1
+1
+4
+tele
+15
+cast 'teleport'
+0
+5
+bless
+15
+cast 'bless' $1
+1
+4
+heal
+14
+cast 'heal' $1
+1
+2
+hh
+11
+cast 'heal'
+0
+5
+infra
+12
+cast 'infra'
+0
+4
+cure
+19
+cast 'cure crit' $1
+1
+2
+cc
+16
+cast 'cure crit'
+0
+4
+pala
+16
+put all.ala back
+0
+6
+poison
+16
+cast 'poison' $1
+1
+4
+rbak
+19
+put all.scroll back
+0
+4
+ench
+17
+cast 'enchant' $1
+1
+5
+drain
+14
+compost corpse
+0
+3
+par
+18
+cast 'paralyze' $1
+1
+4
+gala
+18
+get alabaster back
+0
+4
+fear
+14
+cast 'fear' $1
+1
+3
+gac
+17
+get all in corpse
+0
+3
+gag
+19
+get gold all.corpse
+0
+2
+qh
+13
+get heal back
+0
+3
+rec
+16
+get recall  back
+0
+5
+invis
+12
+cast 'invis'
+0
+6
+locate
+19
+cast 'locate ob' $1
+1
+2
+wb
+18
+put all.white back
+0
+2
+fb
+15
+cast 'fireball'
+0
+3
+bak
+12
+look in back
+0
+2
+cb
+20
+cast 'burn hands' $1
+1
+6
+idback
+11
+get id back
+0
+4
+food
+18
+cast 'create food'
+0
+2
+cs
+18
+cast 'color spray'
+0
+4
+gwhi
+14
+get white back
+0
+4
+gton
+13
+get heal back
+0
+2
+hb
+17
+put all.heal back
+0
+1
+9
+10
+look groun
+0
+5
+water
+24
+cast 'create water' skin
+0
+2
+lb
+14
+cast 'lightn' 
+0
+6
+dinvis
+19
+cast 'detect invis'
+0
+2
+id
+12
+recite id $1
+1
+2
+mm
+16
+cast 'magic mis'
+0
+2
+hp
+16
+say  heal please
+0

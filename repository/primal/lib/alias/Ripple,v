@@ -1,0 +1,53 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@eqp wear all; wield sword; hold bean; hold tooth
+darask autoexit;color off; n;e;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;cast 'refresh' ripple;cast 'refresh' ripple;w;w;s;s;w;w;w;w;w;s;w;w;w;n;cast 'refresh' ripple;w;w;n;n;n;w;w;n;n;n;n;n;autoexit; color complete
+in cast 'invisibility'
+sl cast 'sense life' 
+q get white crate; quaff white
+ds drink barrel
+wr cast 'word of recall' 
+inf cast 'infravision'
+qy cast 'detect invisibility'
+gac get all all.corpse
+rf cast 'refresh'
+sanc cast 'sanctuary'
+hl cast 'heal'
+wa wake; stand
+r quaff red; quaff red; quaff red; quaff red; quaff red
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

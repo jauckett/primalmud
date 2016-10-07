@@ -1,0 +1,25 @@
+aware c 'infra' $*;c 'sense life' $*;c 'detect invis' $*
+lf look in for
+qt quaff tonic
+wl rem super;wi sabre
+ws rem sabre;wi super
+wake wake;stand;where;look
+jl junk long
+lc look in cor
+sanc c 'sanc' $*
+infra c 'infra'
+th tran hit;train hit;train hit;train hit;train hit
+gac get all all.corpse
+gag get all all.gold corpse
+di c 'detect inv' $*
+bless c 'bless' $*
+armor c 'armor' $*
+dragon c 'dragon'
+protect c 'bless';c 'armor';c 'sanc'
+invis c 'invis'  $*
+sum c 'summon' $*
+word c 'word of recall;c 'word of recall'
+locate c 'locate' $*
+id rec scroll $*
+heal c 'heal' $*
+refresh c 'refresh' self

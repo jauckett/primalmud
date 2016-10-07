@@ -1,0 +1,10 @@
+tr tell raistlin $*
+tb tell boz $*
+gac get all corpse
+i inventory
+bp exa backpack
+pb put $1 backpack
+tm; tell moe
+tm tell moe $*
+te tell egon $*
+ds drink skin

@@ -1,0 +1,504 @@
+#22000
+cybernetic chest plate~
+a cybernetic chest plate~
+A Cybernetic chest plate is lying here.~
+~
+9 2 9
+3 0 0 0
+10 200000 20000
+A
+13 20
+L 0
+#22001
+cybernetic brain case~
+a cybernetic brain case~
+A Cybernetic Brain Case is lying here, awaiting a brain.~
+~
+9 2 17
+5 0 0 0
+7 200000 20000
+A
+3 3
+L 0
+#22002
+cybernetic legs~
+a pair of cybernetic legs~
+A pair of Cybernetic legs are standing here.~
+~
+9 2 33
+3 0 0 0
+9 200000 20000
+A
+2 2
+L 0
+#22003
+cybernetic arms~
+a pair of cybernetic arms~
+A pair of Cybernetic arms are lying here.~
+~
+9 2 257
+5 0 0 0
+9 200000 20000
+A
+18 2
+A
+19 1
+L 0
+#22004
+white derm drug~
+a white derm~
+A small white derm is lying here, awaiting injection.~
+~
+10 65538 1
+12 36 3 1
+2 4750 200
+L 0
+#22005
+canteen~
+a small canteen~
+A small canteen has been dropped here.~
+~
+17 0 1
+10 10 0 0
+10 25 2
+L 0
+#22006
+ration food~
+a dehydrated ration~
+A dehydrated ration has been left here.~
+~
+19 0 1
+24 0 0 0
+2 30 2
+L 0
+#22007
+light flashlight~
+a small flashlight~
+A small flashlight has been left here.~
+~
+1 0 16385
+0 0 72 0
+5 75 7
+L 0
+#22010
+respirator mask~
+a respirator mask~
+A small respirator mask has been left here.~
+~
+30 0 17
+0 0 0 0 
+2 25 3
+L 0
+#22011
+oxy viva~
+an oxy viva~
+A small oxy viva has been left here.~
+~
+31 0 17
+1 0 0 0 
+2 2000 200
+L 0
+#22012
+suit vac~
+a standard vac suit~
+A standard vac suit has been left here.~
+~
+32 0 9
+1 0 0 0 
+2 7000 700
+L 0
+#22013
+enviroment suit~
+an environment suit~
+A standard environment suit has been left here.~
+~
+33 0 9
+2 0 0 0 
+2 60000 6000
+L 0
+#22014
+stasis suit~
+a standard stasis suit~
+A standard stasis suit has been left here.~
+~
+34 0 9
+3 0 0 0 
+2 500000 50000
+L 0
+#22015
+flameproof jacket~
+a flameproof jacket~
+A flameproof jacket is on the ground here.~
+~
+35 0 9
+0 0 0 0 
+2 900 90
+L 0
+#22016
+fireproot suit~
+a fireproof suit~
+A fireproof suit has been left here.~
+~
+36 0 9
+0 0 0 0 
+2 75000 7500
+L 0
+#22017
+parker feather down~
+a featherdown parker~
+A warming looking parker has been left here.~
+~
+37 0 9
+0 0 0 0 
+2 600 60
+L 0
+#22018
+explorer arctic suit~
+an arctic explorer suit~
+An arctic explorer suit has been dropped here.~
+~
+38 0 9
+0 0 0 0 
+2 30000 3000
+L 0
+#22019
+belt grav~
+a small grav belt~
+A small grav belt has been dropped here.~
+~
+39 0 2049
+0 0 0 0 
+2 100000 10000
+L 0
+#22020
+boots grav~
+a pair of grav boots~
+A pair of grav boots has been left here.~
+~
+40 0 65
+0 0 0 0 
+2 500000 50000
+L 0
+#22021
+jacket mylar flak~
+a mylar flak jacket~ 
+A mylar flak jacket has been left here.~
+~
+9 2 9
+2 0 0 0
+10 400 40
+L 0
+#22022
+boots moon~
+a pair of moon boots~
+A nice pair of moon boots has been left here.~
+~
+9 2 65
+2 0 0 0
+10 200 20
+L 0
+#22023
+leggings pants~
+a pair of space cadet leggings~
+A pair of space cadet leggings has been left here.~
+~
+9 2 33
+2 0 0 0
+10 275 30
+L 0
+#22024
+gloves~
+a pair of mylar gloves~
+A nice pair of mylar gloves has been left here.~
+~
+9 2 129
+2 0 0 0
+10 100 10
+L 0
+#22030
+sword ceramic~
+a ceramic sword~
+A ceramic sword has been left here.~
+~
+5 0 8193
+0 2 6 3
+10 250 25
+L 0
+#22032
+ceramic club~
+a ceramic club~
+A ceramic club has been left here.~
+~
+5 0 8193
+0 1 7 6
+6 175 16
+L 0
+#22034
+whip sonic~
+a sonic whip~
+A sonic whip has been left here.~
+~
+5 0 8193
+0 2 4 2
+3 100 10
+L 0
+#22036
+blade ceramic~
+a ceramic blade~
+A ceramic blade has been left here~
+~
+5 0 8193
+0 2 3 11
+5 50 5
+L 0
+#22038
+sword laser~
+a laser sword~
+A laser sword has been left here.~
+~
+5 0 8193
+0 3 5 3
+15 1500 150
+L 0
+#22040
+gun needle~
+a needle gun~
+A needle gun has been left here.~
+~
+5 0 8193
+40 3 4 32789
+8 1300 130
+L 0
+#22041
+needles box ammo~
+a box of needles~
+A small box of needles has been dropped here.~
+~
+5 0 8193
+120 0 0 16405
+8 150 15
+L 0
+#22042
+pistol air~
+an air pistol~
+An air pistol has been left here.~
+~
+5 0 8193
+0 3 5 1
+8 600 60
+L 0
+#22043
+pistol blast blaster~
+a blast pistol~
+A blast pistol has been dropped here.~
+~
+5 0 8193
+80 3 6 32798
+8 1000 100
+L 0
+#22044
+chargepack blaster~
+a blaster chargepack~
+A blaster chargepack has been left here.~
+~
+5 0 8193
+80 3 5 16414
+8 200 20
+L 0
+#22045
+green drug derm~
+a green derm~
+A small green derm is lying here, awaiting injection.~
+~
+10 65538 1
+10 16 -1 0
+2 300 30
+L 0
+#22046
+orange drug derm~
+a orange derm~
+A small orange derm is lying here, awaiting injection.~
+~
+10 65538 1
+10 43 16 -1
+2 1500 150
+L 0
+#22047
+black drug derm~
+a black derm~
+A small black derm is lying here, awaiting injection.~
+~
+10 65538 1
+10 14 -1 -1
+2 1500 150
+L 0
+#22048
+red drug derm~
+a red derm~
+A small red derm is lying here, awaiting injection.~
+~
+10 65538 1
+10 15 -1 -1
+2 2000 200
+L 0
+#22049
+blue drug derm~
+a blue derm~
+A small blue derm is lying here, awaiting injection.~
+~
+10 65538 1
+12 39 -1 -1
+2 2600 260
+#22050
+sign post board directions~
+a sign post~
+A Metalic Sign Post stands here~
+~
+12 0 1
+0 0 0 0
+5000 0 0
+E
+sign post board direction~
+
+ 
+Shuttle 5 -West 
+
+Destinations
+
+ *---------------------------------*
+ |                                 |
+ | Mos Eisley Starport             |
+ |                                 |
+ | Tatooine desert                 |
+ |                                 |
+ | Perseid Mining Colon            |
+ |                                 |
+ *---------------------------------*
+
+~
+#22051
+garbage can~
+a garbage can~
+A garbage can stands here~
+~
+15 65536 1
+200 0 -1 0
+20 200 20
+E
+can garbage~
+This dirty old garbage can is for putting junk in
+~
+L0
+#22052
+lid garbage~
+a garbage lid~
+A battered old garbage lid lies here~
+~
+9 0 513
+2 0 0 0
+5 200 20
+E
+lid garbage can~
+This battered old lid looks dirty and worn
+but maybe it could substitue for a shield
+~
+L0
+#22053
+map future luna city~
+a map Luna City~
+A map of Luna City has been dropped here~
+~
+12 0 1
+0 0 0 0
+1 5 5
+E
+map future luna city~
+
+                                    Shuttle Pad 1           Guild
+                                         |                
+        |--------|---- Nova street----------------------|-----|------Shuttle 6 
+        |      Guild                     |             bank
+        |c                      donation |
+        |o                        room  -|                       
+Shuttle |m                               |
+  5     |e                       Armoury-|-Weaponry
+        |t                               |
+        |s way                           |-portal
+        |            orion road          |          general store
+        ---|-------|---------------------------|---------|------------Shuttle 4
+          Extra   Alchemist              |    tavern
+          Armour                         |
+                                   Hotel-|
+           Galaxy way       bar          |
+   To The--------------------|---------------------- Shuttle 3
+   Moon                                  |
+                                    Shuttle 2
+
+
+
+
+
+~
+#22054
+sign post board directions~
+a sign post~
+A Metalic Sign Post stands here~
+~
+12 0 1
+0 0 0 0
+5000 0 0
+E
+sign post board direction~
+
+ 
+Destinations
+
+ *---------------------------------*
+ |                                 |
+ |                                 |
+ | The Moon's Surface              |
+ |                                 |
+ |                                 |
+ |                                 |
+ *---------------------------------*
+
+~
+#22055
+Babylon Shuttle~
+babylon shuttle~
+This shuttle will take you to Babylon 5~
+~
+41 2 0
+30056 0 0 0
+5000 0 0 
+E
+babylon shuttle~
+To travel to the space station Babylon 5 you will
+need to take this shuttle. However, BEWARE
+this is a dangerous place
+~
+#22056
+sign post board directions~
+a sign post~
+A Metalic Sign Post stands here~
+~
+12 0 1
+0 0 0 0
+5000 0 0
+E
+sign post board direction~
+
+ 
+Destinations
+
+ *---------------------------------*
+ |                                 |
+ |        Babylon 5                |              
+ |                                 |
+ |                                 |
+ |                                 |
+ *---------------------------------*
+
+~
+#999999
+$~

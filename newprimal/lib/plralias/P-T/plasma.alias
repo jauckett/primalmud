@@ -1,0 +1,83 @@
+5
+grat1
+73
+grat &r>&G>&r>&G>&r>&G>&r>&G>&r>&G> &Y$1 &G<&r<&G<&r<&G<&r<&G<&r<&G<&r<&n
+1
+2
+rf
+21
+redit $1;2;/fi;/s;q;y
+1
+6
+trainr
+9
+goto 1147
+0
+4
+flea
+22
+trans flea; trans anth
+1
+5
+taven
+9
+goto 1112
+0
+5
+beef2
+117
+get beef warmer; get chips machine; get coke; fill coke drink ;give beef Nipper ;give chips Nipper ;give coke Nipper
+
+1
+7
+burger2
+116
+get cheese warmer; get chips machine; get coke; fill coke drink; give cheese harry;give chips harry;give coke harry
+
+1
+7
+veggie2
+126
+get veggie warmer; get chips machine; get coke; fill coke drink; give veggie Veronica; give chips Veronica;give coke Veronica
+
+1
+4
+coke
+57
+say coke please; get coke; fill coke drink; give coke tim
+1
+4
+beef
+51
+say beef please; say chips please; say coke please;
+1
+6
+veggie
+53
+say veggie please; say chips please; say coke please;
+1
+6
+burger
+53
+say cheese please; say chips please; say coke please;
+1
+6
+cheese
+17
+say cheese please
+0
+5
+chips
+16
+say chips please
+0
+3
+116
+10
+zreset 116
+0
+3
+imm
+9
+goto 1200
+0

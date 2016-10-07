@@ -1,0 +1,13 @@
+#!/bin/sh
+
+PROC=`ps -axo lstart,rss,vsz,command 2> /dev/null | grep "bin/circle -q 4444" | grep -v grep`
+MUDUPTIME=`echo $PROC | awk '{ print $1 " " $2 " " $3 " " $4 " " $5 }'`
+
+if [ "$PROC" == "" ] ; then
+  echo "0"
+  echo "0"
+  echo "Mud Not Running"
+else
+  ps -aeo lstart,rss,vsz,command 2> /dev/null | grep "bin/circle -q 4444" | grep -v grep | awk '{ print $6 "\n" $7}'
+  echo "$MUDUPTIME" 
+fi

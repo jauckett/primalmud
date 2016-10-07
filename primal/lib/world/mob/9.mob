@@ -1,0 +1,62 @@
+#900
+death reaper~
+Death~
+Death the Grim Reaper is observing you silently from empty eye sockets.
+~
+The dark-robed skeletal figure radiates an unendurable coldness.
+~
+2635 138 0 S
+30 0 -10 1d1+1705 10d15+20
+0 500000
+8 8 0
+#901 
+hecate god~
+Hecate~
+Hecate the godess of all things magical is here observing you.
+~
+Hecate appears to you as a stuningly beautiful woman, and she
+radiates evil and wisdom.
+~
+2635 138 0 S
+30 -500 -10 1d1+1560 10d6+25
+0 400000
+8 8 0
+#902 
+demon orcus~
+Orcus~
+Orcus the demon lord of the undead is here observing you.
+~
+Orcus is about 12 feet tall and he wears fine robes over
+putrifying flesh.
+~
+2635 138 0 S
+30 -500 -10 1d1+2060 10d7+25
+0 400000
+8 8 0
+#909
+bounty hunter~
+Bounty Hunter~
+The Bounty Hunter watches everything about him with a keen interest.
+~
+The Bounty Hunter is a rugged-looking individual, with an intense look
+on his face.
+~
+260123 13480 0 S
+28 -20 -140 1d1+1200 4d8+10
+10000 150000
+8 8 1
+#910
+questmaster~
+The QuestMaster~
+The QuestMaster is here, waiting patiently.
+~
+An elderly gentleman wearing a loose white robe and leaning on a gnarled
+wooden staff.  You wonder how someone that old can protect himself under
+such dangerous conditions?
+~
+518235 13480 0 S
+31 -50 -100 1d20+100 1d8+0
+0 0
+8 8 1
+#99999
+$~

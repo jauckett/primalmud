@@ -1,0 +1,111 @@
+3
+gos
+14
+n;n;n;go sew;d
+1
+2
+cf
+32
+cast 'create food';put mush back
+1
+2
+qw
+26
+get white back;quaff white
+1
+2
+dw
+63
+get skin back;cast 'create water' skin;drink skin;put skin back
+1
+2
+ea
+22
+get mush back;eat mush
+1
+2
+cw
+19
+cast 'create water'
+0
+2
+bw
+31
+buy 10 white;put all.white back
+1
+2
+fa
+11
+attend self
+0
+2
+cs
+21
+cast 'cure crit' self
+0
+2
+bm
+29
+buy 10 meat;put all.meat back
+1
+2
+gt
+36
+n;n;w;w;w;n;e;e;s;s;u;n;open french
+
+1
+2
+og
+9
+open gate
+0
+2
+bb
+7
+hit buf
+0
+2
+mm
+7
+hit mum
+0
+2
+gg
+57
+s;e;e;e;e;open gate;e;e;e;e;e;s;s;s;s;s;s;s;s;open gate;s
+1
+2
+gm
+122
+n;n;w;w;w;n;e;e;s;s;u;n;open french;n;say yes;d;d;n;n;n;e;e;open question;n;e;e;e;e;e;e;open ill;s;e;s;e;s;e;s;e;e;n;n;n;w
+1
+2
+dr
+38
+get skin back;drink skin;put skin back
+1
+2
+qr
+25
+get red 2.back; quaff red
+1
+2
+br
+30
+buy 10 red; put all.red 2.back
+1
+2
+bf
+29
+buy 10 meat;put all.meat back
+1
+2
+cl
+20
+cast 'cure light' $1
+1
+2
+gs
+53
+say spells please;say heal please; say refresh please
+1

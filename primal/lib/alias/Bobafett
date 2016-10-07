@@ -1,0 +1,10 @@
+ba backstab $*
+cs cast 'strength'
+cb cast 'blindness' $*
+ee e;e;e;e;e
+ww w;w;w;w;w
+ss s;s;s;s;s
+nn n;n;n;n;n
+gac get all corpse; save
+wk wake; stand; look
+rr recite recall

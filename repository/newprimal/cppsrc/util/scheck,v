@@ -1,0 +1,35 @@
+head	1.1;
+access;
+symbols
+	LATEST:1.1
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.05.12.07.44.04;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@scheck (the syntax checker) no longer exists as an independent utility.
+If you want to check the syntax of the world files, just use the -c
+switch on the main server.
+@

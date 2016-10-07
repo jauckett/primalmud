@@ -1,0 +1,3 @@
+gac get all corpse
+tfb take $1 backpack
+pab put all.$1 backpack

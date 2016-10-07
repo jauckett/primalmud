@@ -1,0 +1,111 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@align cast 'detect alignment' $1
+fly cast 'fly' kreep
+str cast 'strength' $1
+armor cast 'armor' $1
+gate cast 'dim' $1; open gate; go gate; ' Hi Honey, I'm home!
+ahk cast 'advanced heal' kreep
+chk cast 'heal' kali
+clone cast 'clone' kreep
+plasma cast 'plasma' $1
+infra cast 'infravision' $1
+rc rescue cardinal
+rrc cast 'word of recall' cardinal
+id recite identify $1
+tmb take meat backpack
+rr cast 'word' $1
+rrk cast 'word' kreep
+sum cast 'summon' $1
+wave emote waves goodbye to $1 and says 'Safe travels $1':)
+tgc take gold all.corpse
+tac take all all.corpse
+pamb put all.meat backpack
+skin take skin backpack; drink skin; put skin backpack
+chow take  meat backpack; eat meat
+ac assist cardinal
+qw quaff white
+di cast 'detect invis' $1
+inf cast 'infra' $1
+sg split $1 group
+ec exam corpse
+grat grats !!!! GO $1 !!!! GO !!!!
+hk cast 'heal' kreep
+locate cast 'locate object' $1
+ref cas 'refresh' $1
+fb cast 'fireball' $1
+tc tell cardinal $*
+tudor hunt queenie
+thalos hunt lamia
+ccf cast 'create food' kreep; eat mushroom
+sanc cast 'sanctuary' $1
+sk cast 'sanctuary' kreep
+invis cast 'invis' $1
+enchant cast 'enchant weapon' $1
+harm cast 'harm' $1
+ahc cast 'advanced heal' kreep
+teleport cast 'teleport' $1
+crystal1 w;w;w;w;n;n;w
+crystal2 s;w;n;w;w;n;n
+crystal3 e;e;e;e;e;n;e;n;n;n;n;n
+town n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;s;s;s
+lhankw w;w;w;w;w;w;w;w;w;w
+dress di kreep;take crystal;take all.diamond;take all.elven;take all.pirate;drop ring;take medal;take cape;take lurker;take gloves;take shield;take boots;take hammer;enchant hammer;wea all;take pen; take tooth;gra pen;gra tooth
+finger cast 'finger' $1
+oc order clone $1
+ocwa order clone wear all
+hc cast 'heal' clone
+ocr order clone report
+ocak order clone assist kreep
+o2cr order 2.clone report
+h2c cast 'heal' 2.clone
+hka cast 'heal' kali
+ock order clone kill $1
+octab order clone take all backpack
+ocwd order clone wie dagger
+ocgp order clone grab pen
+ocgt order clone grab tooth
+chd cast 'advanced heal' drudge
+th train hit; train hit; train hit; train hit
+blind cast 'blindness' $1
+ahka cast 'advanced heal' kali
+ad assist drudge
+ockd order clone kill demon
+o2cak order 2.clone assist kreep
+bs rem sword; wie dagger; bac $1; rem dagger; wie sword
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

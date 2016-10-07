@@ -1,0 +1,13 @@
+rub get all.rub back
+recall get rec back; rec recall
+map get map back; l map; put map back $*
+cfd get all all.corpse $*
+meat get meat back; eat meat $*
+skin get skin back; dri wat; put ski back $*
+food cast 'create food'; eat mush $*
+back get all.dou back; junk all.dou; exa back$*
+red get red back; q red $*
+white get white back; q white $*
+hp train hit; train hit; train hit; train hit; train hit
+r get red back; q red; get red back; q red
+ton get tonic back;q tonic

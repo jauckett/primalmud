@@ -1,0 +1,143 @@
+#!/bin/sh
+#
+#
+
+TODAY=`date +%Y-%m-%d`
+MHOME=/home/mud/newprimal
+LOGDIR=$MHOME/log
+SYSLOG=$MHOME/syslog
+SYSLOGS=$MHOME/log/syslog.*
+ROTATE=0
+SEPERATE=0
+MAIL=0
+TOFILE=$MHOME/log/$TODAY.log
+BALANCE=0
+BALANCEOBJS=$MHOME/lib/balances/objs
+BALANCEMOBS=$MHOME/lib/balances/mobs
+
+while getopts "bf:rm:" Option
+do
+  case $Option in
+        b     ) BALANCE=1;;
+      	r     ) ROTATE=1;;
+	f     ) SEPERATE=1; TOFILE=$OPTARG;;
+	m     ) MAIL=1; MAILTO=$OPTARG;;	
+  esac
+done
+
+shift $(($OPTIND - 1))
+# Decrements the argument pointer so it points to next argument.
+
+if [ $SEPERATE -eq 1 ] ; then
+  echo "--------------------------------------------------------------------------------" > $TOFILE
+  echo " SELF DETELE" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "self-delete" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "self-delete" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " DEATH TRAPS" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "death trap" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "death trap" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " KILLED" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "killed" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "killed" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " RUNNING" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "Running" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "Running" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " ADVANCED - LEVELS" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "advanced" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "advanced" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " EQUIPEMENT LOST" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "equipment lost" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "equipment lost" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " USAGE" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "usage" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "usage" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " NEW PLAYERS" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "new player" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "new player" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " SYSERRS" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "SYSERR" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "SYSERR" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " GOD COMMANDS" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "(GC)" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "(GC)" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " BAD PASSWORDS" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "Bad PW" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "Bad PW" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " OLC COMMANDS" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "OLC" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "OLC" $SYSLOG | grep "$TODAY" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  echo " REPORT LOGS" >> $TOFILE
+  echo "--------------------------------------------------------------------------------" >> $TOFILE
+  grep "REPORT" $SYSLOGS | grep "$TODAY" >> $TOFILE
+  grep "REPORT" $SYSLOG | grep "$TODAY" >> $TOFILE
+
+  if [ $BALANCE -eq 1 ] ; then
+    echo "--------------------------------------------------------------------------------" >> $TOFILE
+    echo " UNBALANCED MOBS" >> $TOFILE
+    echo "--------------------------------------------------------------------------------" >> $TOFILE
+    cat $BALANCEMOBS >> $TOFILE
+    echo "--------------------------------------------------------------------------------" >> $TOFILE
+    echo " UNBALANCED OBJS" >> $TOFILE
+    echo "--------------------------------------------------------------------------------" >> $TOFILE
+    cat $BALANCEOBJS >> $TOFILE
+  fi
+
+  if [ $MAIL -eq 1 ] ; then
+    mail -s "Primal: Logs for $TODAY" $MAILTO < $TOFILE
+  fi
+fi
+
+
+if [ $ROTATE -eq 1 ] ; then
+
+  fgrep "self-delete" $SYSLOG >> $MHOME/log/delete
+  fgrep "death trap" $SYSLOG >> $MHOME/log/dts
+  fgrep "killed" $SYSLOG >> $MHOME/log/rip
+  fgrep "Running" $SYSLOG >> $MHOME/log/restarts
+  fgrep "advanced" $SYSLOG >> $MHOME/log/levels
+  fgrep "equipment lost" $SYSLOG >> $MHOME/log/rentgone
+  fgrep "usage" $SYSLOG >> $MHOME/log/usage
+  fgrep "new player" $SYSLOG >> $MHOME/log/newplayers
+  fgrep "SYSERR" $SYSLOG >> $MHOME/log/errors
+  fgrep "(GC)" $SYSLOG >> $MHOME/log/godcmds
+  fgrep "Bad PW" $SYSLOG >> $MHOME/log/badpws
+  fgrep "OLC" $SYSLOG >> $MHOME/log/olc
+  fgrep "REPORT" $SYSLOG >> $MHOME/log/reports
+
+  if [ $MAIL -eq 1 ] ; then
+    mail -s "Primal: Syslog" $MAILTO < $SYSLOG
+  fi
+
+  rm $LOGDIR/syslog.1
+  mv $LOGDIR/syslog.2 $LOGDIR/syslog.1
+  mv $LOGDIR/syslog.3 $LOGDIR/syslog.2
+  mv $LOGDIR/syslog.4 $LOGDIR/syslog.3
+  mv $LOGDIR/syslog.5 $LOGDIR/syslog.4
+  mv $LOGDIR/syslog.6 $LOGDIR/syslog.5
+  mv $SYSLOG	$LOGDIR/syslog.6
+  touch $SYSLOG
+fi

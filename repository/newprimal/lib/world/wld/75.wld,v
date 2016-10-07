@@ -1,0 +1,3592 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2004.05.23.07.21.51;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.20.12.01.52;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.01.17.04.52.08;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Checking everything in again.
+@
+text
+@#7500
+Tactical Station~
+There is a large console here on a stand that reaches approximately waist
+height.  This is where the tactical officer stands when battle or other
+situations arise.  From here the weapons, defence and security are controlled.
+The control pad is operated by touching the screen and the officer is able to
+to access the Enterprise's computer system from here.  Your only exit is south
+to mission ops.    
+~
+75 dgA 0 0
+D2
+Main bridge mission ops 
+~
+~
+0 0 7631
+S
+#7501
+Transporter room platform~
+Welcome aboard the USS Enterprise NCC-1701-D.  As you materialise into the room you take a moment
+to catch your breath.  As you survey the room you see you are standing on a
+platform.  The floor to the transporter room is down from here.    
+~
+75 dg 0 0
+D2
+~
+backdoor~
+2 4552 22055
+D4
+There is only one exit. You must proceed with caution as you have no idea what is beyond.
+~
+undefined~
+0 0 -1
+D5
+Transporter room floor
+~
+undefined~
+0 0 7502
+S
+#7502
+Transporter room floor~
+As you look around you see that the transporter platform is up.  To the north
+is a set of doors leading out to the hallway.  To the east is the transporter
+control pad.  Standing by it is the Transporter Chief.  Your exits are north
+into the corridor, east to the control pad or up to the platform.    
+~
+75 cdg 0 0
+D0
+Corridor
+~
+~
+1 0 7503
+D1
+Transporter control pad
+~
+~
+0 0 7504
+D4
+Transporter room platform
+~
+undefined~
+0 0 7501
+S
+#7503
+Transporter room floor~
+As you walk through the doors and out into the corridor, you have the option to
+go east or west.  You look straight ahead and there is a window.  Outside all
+you can see is blackness.  It seems to go on forever.  You can go east or west
+along the corridor, or south into the transporter room.    
+~
+75 dg 1024 0
+D1
+Corridor
+~
+~
+0 0 7505
+D2
+Transporter room floor
+~
+~
+1 0 7502
+D3
+Corridor
+~
+~
+0 0 7506
+S
+#7504
+Transporter control pad~
+As you look at the control pad you see it's a very complex piece of equipment.
+There are lights flashing and buttons everywhere.  You have no idea how to use
+it so your best to leave it alone. You hear a voice say "Don't touch anything."
+It's the Transporter Chief.
+Back to the west is the transporter room floor.
+~
+75 dg 0 0
+D3
+Transporter room floor
+~
+~
+0 0 7502
+S
+#7505
+Corridor~
+You are walking down a dimly lit corridor.  There are a few other people
+walking around here in uniforms.  You are to assume they are officers of this
+ship.  If you go east you will arrive in front of the turbolift.  If you go
+west you will continue down the corridor.
+~
+75 dg 0 0
+D1
+Turbolift doors - Corridor
+~
+~
+0 0 7507
+D3
+Hallway
+~
+~
+0 0 7503
+S
+#7506
+Corridor~
+You are walking down a dimly lit corridor.  It appears to be rather quiet in
+this area.  You see some bright lights flash through the darkness that is
+beyond the window.  You are curious as to what they were.  Was it a shooting
+star, or perhaps an alien ship?  You are deep in space and are aware it could
+have been absolutely anything.  If you go east you will continue down the
+corridor.  If you go west you will arrive in front of the turbolift.    
+~
+75 dg 0 0
+D1
+Hallway
+~
+~
+0 0 7503
+D3
+Turbolift doors - Corridor
+~
+~
+0 0 7507
+S
+#7507
+Turbolift doors - Corridor~
+As you walk along you realise there is a set of doors set into the walls.  
+You stop to take a closer look and you see that these are the entry doors of a
+turbolift cab.  Your exits are south into the turbolift cab and east or west
+along the corridor.    
+~
+75 dg 0 0
+D1
+Corridor
+~
+~
+0 0 7506
+D2
+Turbolift cab
+~
+~
+0 0 7510
+D3
+Hallway
+~
+~
+0 0 7505
+S
+#7508
+nothing~
+Empty room.~
+75 0 0 0
+S
+#7509
+nothing~
+undefined~
+75 0 0 0
+S
+#7510
+Turbolift Cab~
+The turbolift is a small semi-circular room.  There are buttons along the wall
+which allow you to travel to other decks.  At the moment only decks 1, 4, 6 and
+8 seem to be accessible, it looks as though you need Starfleet clearance to go
+anywhere else.  The doors slide shut behind you, and a female voice tells you
+to press the button for the deck you desire.    
+~
+75 cdfghi 0 0
+S
+T 7510
+#7511
+nothing~
+Empty room.~
+75 0 0 0
+S
+#7512
+Turbolift doors - Corridor~
+As you walk along you realise there is a set of doors set into the walls.  You
+stop to take a closer look and you see that these are the entry doors of a
+turbolift cab.  Your exits are south into the turbolift cab or north into the
+main shuttlebay entrance.    
+~
+75 cdg 0 0
+D0
+Main Shuttlebay entrance
+~
+~
+0 0 7513
+D2
+Turbolift cab
+~
+~
+0 0 7510
+S
+#7513
+Main Shuttlebay entrance~
+As you step away from the turbolift you see that there is a large room in front
+of you with lots of floor space.  Scattered around the floor are many
+shuttlecrafts. There are lots of engineers walking around the room or
+working on shuttlecrafts.  Your exits are north into an alien shuttlecraft,
+south to the turbolift doors, east or west along the shuttlebay floor.    
+~
+75 dg 0 0
+D0
+Entry to alien shuttlecraft
+~
+~
+0 0 7514
+D1
+Along the shuttlebay floor
+~
+~
+0 0 7515
+D2
+Turbolift doors - Corridor
+~
+~
+0 0 7512
+D3
+Along the shuttlebay floor
+~
+~
+0 0 7516
+S
+#7514
+Entrance to an alien shuttlecraft~
+As you step into the entrance of the shuttlecraft you see guards standing here.
+You hear some low beeps coming from the west.  The shuttlecraft isn't very
+large but there appear to be two engineers and another person behind them
+inside.  Your exits are west to the front of the craft, east to the rear of the
+craft, or south to the main entrance.    
+~
+75 adfg 0 0
+D1
+Inside the alien shuttlecraft to the rear
+~
+~
+0 0 7518
+D2
+Main Shuttlebay entrance
+~
+~
+0 0 7513
+D3
+Inside the alien shuttlecraft to the front
+~
+~
+0 0 7517
+S
+#7515
+Shuttlebay Floor~
+You are walking east along the shuttlebay floor.  You can hear all sorts of
+noises around you banging, welding, people shouting, drills.  There are
+shuttlecrafts scattered around the floor, and this appears to be where these
+noises are coming from.  Your exits are west to the main shuttlebay entrance or
+east to continue along the shuttlebay floor.
+~
+75 dg 0 0
+D1
+Along the shuttlebay floor
+~
+~
+0 0 7519
+D3
+Main Shuttlebay entrance
+~
+~
+0 0 7513
+S
+#7516
+Shuttlebay Floor~
+You are walking east along the shuttlebay floor.  You can hear all sorts of
+noises around you banging, welding, people shouting, drills.  There are
+shuttlecrafts scattered around the floor, and this appears to be where these
+noises are coming from.  Your exits are west along the shuttlebay floor, east
+to the main shuttlebay entrance or south to the entrance of the parts room.  
+~
+75 dg 0 0
+D1
+Main Shuttlebay entrance
+~
+~
+0 0 7513
+D2
+Entrance to parts room
+~
+~
+1 0 7538
+D3
+Along the shuttlebay floor
+~
+~
+0 0 7533
+S
+#7517
+Inside alien shuttlecraft - front~
+This is the front of the shuttlecraft.  The control panel appears to be
+flashing and beeping, you think you may even be able to hear a slight sizzling
+sound.  There is a chair in front of the control panel which is empty.  You can
+exit by going east.    
+~
+75 adfg 0 0
+D1
+Entrance to an alien shuttlecraft
+~
+~
+0 0 7514
+S
+#7518
+Inside alien shuttlecraft - rear~
+This is the rear of the shuttlecraft.  There is another seat at the very back
+which is also empty.  You thought a shuttlecraft would have been more
+interesting that it appears to be.  Instead you see a small, simple craft.  
+There are some people in here.  You see two officers of this ship and you gasp
+as you realise the third person isn't a person at all.  It is green with a big
+head and big eyes.  You can exit by going west.    
+~
+75 adfg 0 0
+D3
+Entrance to an alien shuttlecraft
+~
+~
+0 0 7514
+S
+#7519
+Shuttlebay Floor~
+You are walking along the shuttlebay floor. There are noises all around
+you still, very loud now. You can hear what sounds like welding coming from
+south of here. You are curious to know what they are doing. Be careful
+though, you don't know what to expect, or who to expect. Your exits are east
+or west to continue along the shuttlebay floor or south into a shuttle.
+~
+75 dg 0 0
+D1
+Along the shuttlebay floor
+~
+~
+0 0 7525
+D2
+South to the entrance of a type 7 shuttle
+~
+~
+0 0 7520
+D3
+Along the shuttlebay floor
+~
+~
+0 0 7515
+S
+#7520
+Entrance to Type 7 Shuttle~
+As you look around you see there are guards standing in the entrance of this
+shuttle.  You can still hear welding in the background.  The guards look
+tough and glare at you.  I don't think they want you to be inside this craft.
+Are you curious enough to risk trying to get past these guards?  Your exits are
+north back to the shuttlebay floor or south into the centre of the
+shuttle.    
+~
+75 adfg 0 0
+D0
+Shuttlebay floor
+~
+~
+0 0 7519
+D2
+South to the Centre of Type 7 Shuttle
+~
+~
+0 0 7521
+S
+#7521
+Centre of Type 7 Shuttle~
+It appears you were curious enough, and you managed to defeat the guards.  The
+sounds of welding are much louder now.  At first sight this looks like a normal
+shuttle, there are two seats in this section, but as you take a closer
+look you see it has been damaged quite a bit inside the front section.  This is
+where the welding is coming from.  The glass of the front windshield is
+shattered and there are wires hanging out everywhere.  The rear section appears
+to be undamaged.  Your exits are north back out to the entrance of the
+shuttle, east to the rear of the shuttle or west to the front of the
+shuttle.    
+~
+75 adfg 0 0
+D0
+Entrance to Type 7 Shuttle
+~
+~
+0 0 7520
+D1
+Rear section of Type 7 Shuttle
+~
+~
+0 0 7523
+D3
+Front section of Type 7 Shuttle
+~
+~
+0 0 7522
+S
+#7522
+Front section of Type 7 Shuttle~
+There are a few mechanic looking people here working on the front panel of the
+craft.  They are welding and look very busy.  You look around closer and see
+shards of glass sticking into the seats.  You wonder if there was someone in
+those seats when this happened.  Wires are making sizzling sounds and moving of
+their own acord.  Your exit is back east to the centre of the shuttle.  
+~
+75 adfg 0 0
+D1
+Centre of Type 7 Shuttle
+~
+~
+0 0 7521
+S
+#7523
+Rear section of Type 7 Shuttle~
+You see nothing special as you walk into this section.  It looks almost empty
+with the exception of some crates stacked in the corner.  You freeze as you
+hear a scratching noise, then almost as instantly, it's gone.  You slowly do a
+full 360 degree turn in this section to make sure you're not missing something.
+You have a weird feeling in here.  You hear the faint scratching again for a
+second.  Then it's gone again.  Your instincts tell you to leave right now, but
+something keeps you here...  What could it be?  Your exit is west back to the
+centre of the shuttle.    
+~
+75 adfg 0 0
+D3
+Centre of Type 7 Shuttle
+~
+~
+0 0 7521
+D5
+Hidden cargo crate
+~
+crate~
+1 0 7524
+S
+#7524
+Hidden cargo crate~
+DANGER!  In this crate is a terrible creature, it is here for safe keeping.  
+You should leave IMMEDIATELY!  Your life is in grave danger.  You must be very
+careful, don't make any sudden movements or let this creature out.  For your
+own wellbeing and for the wellbeing of everyone on this ship.  There is no
+telling what this creature is capable of.  Run now or pray for your life!  
+Your only exit is up to the rear of the shuttle.    
+~
+75 adfg 0 0
+D4
+Rear section of Type 7 Shuttle
+~
+crate~
+1 0 7523
+S
+#7525
+Shuttlebay Floor~
+You are walking east along the shuttlebay floor.  You can hear all sorts of
+noises around you banging, welding, people shouting, drills.  There are
+shuttlecrafts scattered around the floor, and this appears to be where these
+noises are coming from.  Your exits are west or east along the shuttlebay
+floor.  Or north into a shuttlecraft.    
+~
+75 dg 0 0
+D0
+North to the entrance of a type 6a shuttlecraft
+~
+~
+0 0 7527
+D1
+Along the shuttlebay floor
+~
+~
+0 0 7526
+D3
+Along the shuttlebay floor
+~
+~
+0 0 7519
+S
+#7526
+Shuttlebay Floor~
+You are walking east along the shuttlebay floor.  You can hear all sorts of
+noises around you banging, welding, people shouting, drills.  There are
+shuttlecrafts scattered around the floor, and this appears to be where these
+noises are coming from.  Your exits are east or west to continue along the
+shuttlebay floor.    
+~
+75 dg 0 0
+D1
+Along the shuttlebay floor
+~
+~
+0 0 7534
+D3
+Along the shuttlebay floor
+~
+~
+0 0 7525
+S
+#7527
+Entrance to Type 6a Shuttlecraft~
+You take a step up as you enter this large shuttlecraft.  You notice this
+shuttlecraft is probably the biggest on the shuttlebay floor.  As you look
+around you don't seem to see any need for repair on this shuttlecraft.  You
+assume it is here for storage purposes only.  Your exits are west towards the
+front of the shuttlecraft, east into the back section of the shuttlecraft or
+south back onto the shuttlebay floor.    
+~
+75 adfg 0 0
+D1
+Centre section of type 6a shuttlecraft
+~
+~
+0 0 7529
+D2
+Shuttlebay floor
+~
+~
+0 0 7525
+D3
+Front section of Type 6a Shuttlecraft
+~
+~
+0 0 7528
+S
+#7528
+Front section of Type 6a Shuttlecraft~
+You walk into the front section of the shuttlecraft where there are two seats,
+which the flight crew use.  You see the instrument panel is huge and looks very
+complex.  You feel a sudden urge to lean over and push some buttons but be
+careful, you have no idea what they will do.  It might be an idea to leave here
+before trouble finds you.  Your only exit is east back into the entrance of the
+shuttlecraft.    
+~
+75 adfg 0 0
+D1
+Entrance to type 6a shuttlecraft
+~
+~
+0 0 7527
+S
+#7529
+Centre of Type 6a Shuttlecraft~
+You walk into the centre of the shuttlecraft.  It looks pretty boring with two
+seats in this section and an isle down the centre.  Your exits are west to the
+entrance of the shuttlecraft or east to continue along the inside of the
+shuttlecraft.    
+~
+75 adfg 0 0
+D1
+Centre of type 6a shuttlecraft
+~
+~
+0 0 7530
+D3
+Entrance to type 6a shuttlecraft
+~
+~
+0 0 7527
+S
+#7530
+Centre of Type 6a Shuttlecraft~
+You walk into the centre of the shuttlecraft.  It looks pretty boring with two
+seats in this section and an isle down the centre.  Your exits are west along
+the inside of the shuttlecraft or east along the inside of the shuttlecraft.
+~
+75 adfg 0 0
+D1
+Centre of type 6a shuttlecraft
+~
+~
+0 0 7531
+D3
+Centre of type 6a shuttlecraft
+~
+~
+0 0 7529
+S
+#7531
+Centre of Type 6a Shuttlecraft~
+You walk into the centre of the shuttlecraft.  It looks pretty boring with two
+seats in this section and an isle down the centre.  Your exits are west along
+the inside of the shuttlecraft or east into the rear of the shuttlecraft.    
+~
+75 adfg 0 0
+D1
+Rear of type 6a shuttlecraft
+~
+~
+0 0 7532
+D3
+Centre of type 6a shuttlecraft
+~
+~
+0 0 7530
+S
+#7532
+Rear section of Type 6a Shuttlecraft~
+You walk into the rear section of the shuttlecraft.  It looks pretty boring
+with two seats in this section and the back of the shuttlecraft behind them.  
+Your only exit is west towards the centre of the shuttlecraft.    
+~
+75 adfg 0 0
+D3
+Centre of type 6a shuttlecraft
+~
+~
+0 0 7531
+S
+#7533
+Shuttlebay Floor~
+You are walking east along the shuttlebay floor.  You can hear all sorts of
+noises around you banging, welding, people shouting, drills.  There are
+shuttlecrafts scattered around the floor, and this appears to be where these
+noises are coming from.  Your exits are east or west to continue along the
+shuttlebay floor .
+~
+75 dg 0 0
+D1
+Along the shuttlebay floor
+~
+~
+0 0 7516
+D3
+Along the shuttlebay floor
+~
+~
+0 0 7534
+S
+#7534
+Shuttlebay Floor~
+You are walking east along the shuttlebay floor.  You can hear all sorts of
+noises around you banging, welding, people shouting, drills.  There are
+shuttlecrafts scattered around the floor, and this appears to be where these
+noises are coming from.  Your exits are east or west to continue along the
+shuttlebay floor, or south to the entrance of a type 15 shuttlepod.    
+~
+75 dg 0 0
+D1
+Along the shuttlebay floor
+~
+~
+0 0 7533
+D2
+South to the entrance of a type 15 shuttlepod
+~
+~
+0 0 7535
+D3
+Along the shuttlebay floor
+~
+~
+0 0 7526
+S
+#7535
+Entrance to Type 15 Shuttlepod~
+You have just entered the Type 15 Shuttlepod.  This is a smaller version of the
+shuttlecrafts and only holds 2 crew members.  There is a storage section as
+well, but no room for passengers.  As you take a look around you see that this
+shuttlepod is in a pretty bad way.  You had noticed that the outside was also
+not looking so great but hadn't thought much of it.  It looks as thought this
+shuttlepod has been in a battle.  Your exits are north back to the shuttlebay
+floor, east into the storage area or west into the front of the shuttlepod.  
+~
+75 adfg 0 0
+D0
+Shuttlebay floor
+~
+~
+0 0 7534
+D1
+Rear section of Type 15 Shuttlepod
+~
+~
+0 0 7537
+D3
+Front section of Type 15 Shuttlepod
+~
+~
+0 0 7536
+S
+#7536
+Front section of Type 15 Shuttlepod~
+This is the front section of the shuttlepod.  Here you see two seats where the
+crew sit to control this shuttlepod.  The seats, however, have been torn to
+shreads.  The windscreen is missing.  The control panel is in pieces and almost
+completely destroyed.  You wonder what the hell happened here and if the crew
+members are okay.  Your only exit is back east into the entrance of the
+shuttlepod.    
+~
+75 adfg 0 0
+D1
+Entrance to type 15 shuttlepod
+~
+~
+0 0 7535
+S
+#7537
+Rear storage section of Type 15 Shuttlepod~
+You are in the rear storage section of this shuttlepod.  There are large
+containers strewn all over the floor that you guess once were piled neatly.  
+You wonder what could have caused this to happen.  Your only exit is west to
+the entrance of the shuttlepod.    
+~
+75 adfg 0 0
+D3
+Entrance to type 15 shuttlepod
+~
+~
+0 0 7535
+S
+#7538
+Entrance to parts room~
+You have entered the rather large parts room which stores parts for the repair
+of shuttlecrafts.  There are people everywhere and i don't think you are
+supposed be in here...  Are you?  You'd best be careful where you go, if you
+are caught in here there's no telling what will happen to you.  Your exits are
+north back onto the shuttlebay floor or south further into the parts room.    
+~
+75 adg 0 0
+D0
+Shuttlebay floor
+~
+~
+0 0 7516
+D2
+Inside the parts room
+~
+~
+0 0 7539
+S
+#7539
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are north to
+the entrance of the parts room, or south and west to continue through the parts
+room.    
+~
+75 adg 0 0
+D0
+Entrance to parts room
+~
+~
+0 0 7538
+D2
+Inside the parts room
+~
+~
+0 0 7540
+D3
+Inside the parts room
+~
+~
+0 0 7551
+S
+#7540
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are north and
+south to continue through the parts room.    
+~
+75 adg 0 0
+D0
+Inside the parts room
+~
+~
+0 0 7539
+D2
+Inside the parts room
+~
+~
+0 0 7541
+S
+#7541
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are north and
+east to continue through the parts room.    
+~
+75 adg 0 0
+D0
+Inside the parts room
+~
+~
+0 0 7540
+D1
+Inside the parts room
+~
+~
+0 0 7542
+S
+#7542
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are south and
+west to continue through the parts room.    
+~
+75 adg 0 0
+D2
+Inside the parts room
+~
+~
+0 0 7543
+D3
+Inside the parts room
+~
+~
+0 0 7541
+S
+#7543
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are north and
+east to continue through the parts room.    
+~
+75 adg 0 0
+D0
+Inside the parts room
+~
+~
+0 0 7542
+D1
+Inside the parts room
+~
+~
+0 0 7544
+S
+#7544
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are south and
+west to continue through the parts room.    
+~
+75 adg 0 0
+D2
+Inside the parts room
+~
+~
+0 0 7545
+D3
+Inside the parts room
+~
+~
+0 0 7543
+S
+#7545
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are north and
+west to continue through the parts room.    
+~
+75 adg 0 0
+D0
+Inside the parts room
+~
+~
+0 0 7544
+D3
+Inside the parts room
+~
+~
+0 0 7546
+S
+#7546
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are south and
+east to continue through the parts room.    
+~
+75 adg 0 0
+D1
+Inside the parts room
+~
+~
+0 0 7545
+D2
+Inside the parts room
+~
+~
+0 0 7547
+S
+#7547
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are north and
+east to continue through the parts room.    
+~
+75 adg 0 0
+D0
+Inside the parts room
+~
+~
+0 0 7546
+D1
+Inside the parts room
+~
+~
+0 0 7548
+S
+#7548
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are north and
+west to continue through the parts room.    
+~
+75 adg 0 0
+D0
+Inside the parts room
+~
+~
+0 0 7549
+D3
+Inside the parts room
+~
+~
+0 0 7547
+S
+#7549
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are south and
+east to continue through the parts room.    
+~
+75 adg 0 0
+D1
+Inside the parts room
+~
+~
+0 0 7550
+D2
+Inside the parts room
+~
+~
+0 0 7548
+S
+#7550
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are north and
+west to continue through the parts room.    
+~
+75 adg 0 0
+D0
+Inside the parts room
+~
+~
+0 0 7551
+D3
+Inside the parts room
+~
+~
+0 0 7549
+S
+#7551
+Inside parts room~
+You are wandering through the shuttlebay floor parts room.  Remember you aren't
+supposed to be in here, so be warned and be careful.  Your exits are south and
+east to continue through the parts room.    
+~
+75 adg 0 0
+D1
+Inside the parts room
+~
+~
+0 0 7539
+D2
+Inside the parts room
+~
+~
+0 0 7550
+S
+#7552
+Turbolift doors - Corridor~
+As you walk along you realise there is a set of doors set into the walls.  You
+stop to take a closer look and you see that these are the entry doors of a
+turbolift cab.  Your exits are south into the turbolift cab and east or west
+along the corridor.    
+~
+75 cdg 0 0
+D1
+Deck 8 corridor
+~
+~
+0 0 7553
+D2
+Turbolift cab
+~
+~
+0 0 7510
+D3
+Deck 8 corridor
+~
+~
+0 0 7560
+S
+#7553
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west to the
+turbolift doors, east along the corridor or south into a guest's quarters.    
+~
+75 dg 0 0
+D1
+Deck 8 corridor
+~
+~
+0 0 7554
+D2
+Guest quarters living area 1
+~
+~
+0 0 7567
+D3
+Deck 8 corridor
+~
+~
+0 0 7552
+S
+#7554
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or north into a crew's quarters.    
+~
+75 dg 0 0
+D0
+Crew quarters living area 1
+~
+~
+0 0 7571
+D1
+Deck 8 corridor
+~
+~
+0 0 7555
+D3
+Deck 8 corridor
+~
+~
+0 0 7553
+S
+#7555
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or south into Troi's quarters.    
+~
+75 dg 0 0
+D1
+Deck 8 corridor
+~
+~
+0 0 7556
+D2
+Troi's quarters - living area 1
+~
+~
+0 0 7575
+D3
+Deck 8 corridor
+~
+~
+0 0 7554
+S
+#7556
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or north into Beverly's quarters.    
+~
+75 dg 0 0
+D0
+Beverly's quarters - living area 1
+~
+~
+0 0 7580
+D1
+Deck 8 corridor
+~
+~
+0 0 7557
+D3
+Deck 8 corridor
+~
+~
+0 0 7555
+S
+#7557
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or south into the crew lounge.    
+~
+75 dg 0 0
+D1
+Deck 8 corridor
+~
+~
+0 0 7558
+D2
+Crew lounge entrance
+~
+~
+0 0 7585
+D3
+Deck 8 corridor
+~
+~
+0 0 7556
+S
+#7558
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or north into a crew's quarters.    
+~
+75 dg 0 0
+D0
+Crew quarters living area 1
+~
+~
+0 0 7593
+D1
+Deck 8 corridor
+~
+~
+0 0 7559
+D3
+Deck 8 corridor
+~
+~
+0 0 7557
+S
+#7559
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west along
+the corridor or south into a science lab.    
+~
+75 dg 0 0
+D2
+Science lab entrance
+~
+~
+0 0 7589
+D3
+Deck 8 corridor
+~
+~
+0 0 7558
+S
+#7560
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are east to the
+turbolift doors, west along the corridor or north into a guest's quarters.    
+~
+75 dg 0 0
+D0
+Guest quarters living area 1
+~
+~
+0 0 7597
+D1
+Deck 8 corridor
+~
+~
+0 0 7552
+D3
+Deck 8 corridor
+~
+~
+0 0 7561
+S
+#7561
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or south into a crew's quarters.    
+~
+75 dg 0 0
+D1
+Deck 8 corridor
+~
+~
+0 0 7560
+D2
+Crew quarters living area 1
+~
+~
+0 0 7601
+D3
+Deck 8 corridor
+~
+~
+0 0 7562
+S
+#7562
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or north into Picard's quarters.    
+~
+75 dg 0 0
+D0
+Picard's quarters living area 1
+~
+~
+0 0 7605
+D1
+Deck 8 corridor
+~
+~
+0 0 7561
+D3
+Deck 8 corridor
+~
+~
+0 0 7563
+S
+#7563
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or south into Riker's quarters.    
+~
+75 dg 0 0
+D1
+Deck 8 corridor
+~
+~
+0 0 7562
+D2
+Riker's quarters living area 1
+~
+~
+0 0 7610
+D3
+Deck 8 corridor
+~
+~
+0 0 7564
+S
+#7564
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or north into the crew lounge.    
+~
+75 dg 0 0
+D0
+Crew lounge entrance
+~
+~
+0 0 7615
+D1
+Deck 8 corridor
+~
+~
+0 0 7563
+D3
+Deck 8 corridor
+~
+~
+0 0 7565
+S
+#7565
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are west or
+east along the corridor or south into a crew's quarters.    
+~
+75 dg 0 0
+D1
+Deck 8 corridor
+~
+~
+0 0 7564
+D2
+Crew quarters living area 1
+~
+~
+0 0 7619
+D3
+Deck 8 corridor
+~
+~
+0 0 7566
+S
+#7566
+Deck 8 Corridor~
+You are walking along the deck 8 corridor.  As you walk along you notice there
+are seats along the walls of this corridor.  The corridor is very wide and has
+plain walls concealing hidden storage areas.  The corridor is very brightly lit
+and there are plenty of people travelling along it.  Your exits are east along
+the corridor or north into a science lab.    
+~
+75 dg 0 0
+D0
+Science lab entrance
+~
+~
+0 0 7623
+D1
+Deck 8 corridor
+~
+~
+0 0 7565
+S
+#7567
+Guest Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are north to the corridor, south to the bedroom or east to the second living
+area.    
+~
+75 dfg 0 0
+D0
+Deck 8 corridor
+~
+~
+0 0 7553
+D1
+Guest quarters living area 2
+~
+~
+0 0 7570
+D2
+Guest quarters bedroom
+~
+~
+0 0 7568
+S
+#7568
+Guest Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are south into the first
+living area or east into the bathroom.    
+~
+75 dfg 0 0
+D0
+Guest quarters living area 1
+~
+~
+0 0 7567
+D1
+Guest quarters bathroom
+~
+~
+0 0 7569
+S
+#7569
+Guest Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are south
+into the second living area or west into the bedroom.    
+~
+75 dfg 0 0
+D0
+Guest quarters living area 2
+~
+~
+0 0 7570
+D3
+Guest quarters bedroom
+~
+~
+0 0 7568
+S
+#7570
+Guest Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are north into the bathroom or west into the first living area.    
+~
+75 dfg 0 0
+D2
+Guest quarters bathroom
+~
+~
+0 0 7569
+D3
+Guest quarters living area 1
+~
+~
+0 0 7567
+S
+#7571
+Crew Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are south to the corridor, north to the bedroom or east to the second living
+area.    
+~
+75 dfg 0 0
+D0
+Crew quarters bedroom
+~
+~
+0 0 7572
+D1
+Crew quarters living area 2
+~
+~
+0 0 7574
+D2
+Deck 8 corridor
+~
+~
+0 0 7554
+S
+#7572
+Crew Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are south into the first
+living area or east into the bathroom.    
+~
+75 dfg 0 0
+D1
+Crew quarters bathroom
+~
+~
+0 0 7573
+D2
+Crew quarters living area 1
+~
+~
+0 0 7571
+S
+#7573
+Crew Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are south
+into the second living area or west into the bedroom.    
+~
+75 dfg 0 0
+D2
+Crew quarters living area 2
+~
+~
+0 0 7574
+D3
+Crew quarters bedroom
+~
+~
+0 0 7572
+S
+#7574
+Crew Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are north into the bathroom or west into the first living area.    
+~
+75 dfg 0 0
+D0
+Crew quarters bathroom
+~
+~
+0 0 7573
+D3
+Crew quarters living area 1
+~
+~
+0 0 7571
+S
+#7575
+Troi's Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are north to the corridor, south to the bedroom or east to the second living
+area.    
+~
+75 dfg 0 0
+D0
+Deck 8 corridor
+~
+~
+0 0 7555
+D1
+Troi's quarters living area 2
+~
+~
+0 0 7576
+D2
+Troi's quaters bedroom
+~
+~
+0 0 7577
+S
+#7576
+Troi's Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are south into the bathroom or west into the first living area.    
+~
+75 dfg 0 0
+D2
+Troi's quarters bathroom
+~
+~
+0 0 7578
+D3
+Troi's quarters living area 1
+~
+~
+0 0 7575
+S
+#7577
+Troi's Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are north into the first
+living area, east into the bathroom, or west into the work area.    
+~
+75 dfg 0 0
+D0
+Troi's quarters living area 1
+~
+~
+0 0 7575
+D1
+Troi's quarters bathroom
+~
+~
+0 0 7578
+D3
+Troi's quarters work area
+~
+~
+0 0 7579
+S
+#7578
+Troi's Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are north
+into the second living area or west into the bedroom.    
+~
+75 dfg 0 0
+D0
+Troi's quarters living area 2
+~
+~
+0 0 7576
+D3
+Troi's quarters bedroom
+~
+~
+0 0 7577
+S
+#7579
+Troi's Quarters - work area~
+As you enter this room you see that it is a work area.  There is a large desk
+in the centre of the room with a computer screen mounted on it.  The desk has a
+keyboard sitting on it and a large chair behind it.  There are storage shelves
+mounted on three of the four walls.  The exit is to the east back into the
+bedroom.    
+~
+75 dfg 0 0
+D1
+Troi's quarters bedroom
+~
+~
+0 0 7577
+S
+#7580
+Beverly's Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are south to the corridor, north to the bedroom or east to the second living
+area.    
+~
+75 dfg 0 0
+D0
+Beverly's quarters bedroom
+~
+~
+0 0 7581
+D1
+Beverly's quarters living area 2
+~
+~
+0 0 7583
+D2
+Deck 8 corridor
+~
+~
+0 0 7556
+S
+#7581
+Beverly's Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are south into the first
+living area, east into the bathroom, or west into the work area.    
+~
+75 dfg 0 0
+D1
+Beverly's quarters bathroom
+~
+~
+0 0 7582
+D2
+Beverly's quarters living area 1
+~
+~
+0 0 7580
+D3
+Beverly's quarters work area
+~
+~
+0 0 7584
+S
+#7582
+Beverly's Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are south
+into the second living area or west into the bedroom.    
+~
+75 dfg 0 0
+D2
+Beverly's quarters living area 2
+~
+~
+0 0 7583
+D3
+Beverly's quarters bedroom
+~
+~
+0 0 7581
+S
+#7583
+Beverly's Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are north into the bathroom or west into the first living area.    
+~
+75 dfg 0 0
+D0
+Beverly's quarters bathroom
+~
+~
+0 0 7582
+D3
+Beverly's quarters living area 1
+~
+~
+0 0 7580
+S
+#7584
+Beverly's Quarters - work area~
+As you enter this room you see that it is a work area.  There is a large desk
+in the centre of the room with a computer screen mounted on it.  The desk has a
+keyboard sitting on it and a large chair behind it.  There are storage shelves
+mounted on three of the four walls.  The exit is to the east back into the
+bedroom.    
+~
+75 dfg 0 0
+D1
+Beverly's quarters bedroom
+~
+~
+0 0 7581
+S
+#7585
+Crew lounge entrance~
+You have entered the crew lounge.  In front of you is a large room mostly made
+up of empty floor space.  Along part of one wall is a bar.  There are two
+bartenders attending to the current patrons.  Your exits are north into the
+corridor, south to the bar, and east or west along the lounge floor.    
+~
+75 dfg 0 0
+D0
+Deck 8 corridor
+~
+~
+0 0 7557
+D1
+Crew lounge floor
+~
+~
+0 0 7586
+D2
+Crew lounge bar
+~
+~
+0 0 7588
+D3
+Crew lounge floor
+~
+~
+0 0 7587
+S
+#7586
+Crew lounge floor~
+You are standing on the floor of the crew lounge.  You can see seats and coffee
+tables around the walls and most of them are occupied.  People are sitting
+enjoying a drink and talking amongst themselves.  Your exit is west to the
+lounge entrance.    
+~
+75 dfg 0 0
+D3
+Crew lounge entrance
+~
+~
+0 0 7585
+S
+#7587
+Crew lounge floor~
+You are standing on the floor of the crew lounge.  You can see seats and coffee
+tables around the walls and most of them are occupied.  People are sitting
+enjoying a drink and talking amongst themselves.  Your exit is east to the
+lounge entrance.    
+~
+75 dfg 0 0
+D1
+Crew lounge entrance
+~
+~
+0 0 7585
+S
+#7588
+Crew lounge bar~
+You are standing beside the crew lounge bar.  A beer is placed on the counter
+in front of you.  There are a lot of people around the bar getting drinks.  
+You stand and enjoy your beer for a minute.  Your exit is north to the lounge
+entrance.    
+~
+75 dfg 0 0
+D0
+Crew lounge entrance
+~
+~
+0 0 7585
+S
+#7589
+Science lab entrance~
+You are in the entrance of the science lab.  As you look around you can see
+there are bench's along all the walls.  There are also cupboards attached to
+the walls about halfway up them.  Your exits are north to the corridor and east
+or south along the science lab floor.    
+~
+75 dfg 0 0
+D0
+Deck 8 corridor
+~
+~
+0 0 7559
+D1
+Science lab floor
+~
+~
+0 0 7591
+D2
+Science lab floor
+~
+~
+0 0 7590
+S
+#7590
+Science lab floor~
+You are standing on the science lab floor.  There are some scientists in here
+working by the bench's.  You can see the bench's have scientific equipment
+sitting on them.  Your exits are north to the entrance or east along the lab
+floor.    
+~
+75 dfg 0 0
+D0
+Science lab entrance
+~
+~
+0 0 7589
+D1
+Science lab floor
+~
+~
+0 0 7592
+S
+#7591
+Science lab floor~
+You are standing on the science lab floor.  There are some scientists in here
+working by the bench's.  You can see the bench's have scientific equipment
+sitting on them.  Your exits are south along the lab floor or west to the lab
+entrance.    
+~
+75 dfg 0 0
+D2
+Science lab floor
+~
+~
+0 0 7592
+D3
+Science lab entrance
+~
+~
+0 0 7589
+S
+#7592
+Science lab floor~
+You are standing on the science lab floor.  There are some scientists in here
+working by the bench's.  You can see the bench's have scientific equipment
+sitting on them.  Your exits are north or west along the lab floor.    
+~
+75 dfg 0 0
+D0
+Science lab floor
+~
+~
+0 0 7591
+D3
+Science lab floor
+~
+~
+0 0 7590
+S
+#7593
+Crew Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are south to the corridor, north to the bedroom or east to the second living
+area.    
+~
+75 dfg 0 0
+D0
+Crew quarters bedroom
+~
+~
+0 0 7594
+D1
+Crew quarters living area 2
+~
+~
+0 0 7596
+D2
+Deck 8 corridor
+~
+~
+0 0 7558
+S
+#7594
+Crew Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are south into the first
+living area or east into the bathroom.    
+~
+75 dfg 0 0
+D1
+Crew quarters bathroom
+~
+~
+0 0 7595
+D2
+Crew quarters living area 1
+~
+~
+0 0 7593
+S
+#7595
+Crew Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are south
+into the second living area or west into the bedroom.    
+~
+75 dfg 0 0
+D2
+Crew quarters living area 2
+~
+~
+0 0 7596
+D3
+Crew quarters bedroom
+~
+~
+0 0 7594
+S
+#7596
+Crew Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are north into the bathroom or west into the first living area.    
+~
+75 dfg 0 0
+D0
+Crew quarters bathroom
+~
+~
+0 0 7595
+D3
+Crew quarters living area 1
+~
+~
+0 0 7593
+S
+#7597
+Guest Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are south to the corridor, north to the bedroom or east to the second living
+area.    
+~
+75 dfg 0 0
+D0
+Guest quarters bedroom
+~
+~
+0 0 7598
+D1
+Guest quarters living area 2
+~
+~
+0 0 7600
+D2
+Deck 8 corridor
+~
+~
+0 0 7560
+S
+#7598
+Guest Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are south into the first
+living area or east into the bathroom.    
+~
+75 dfg 0 0
+D1
+Guest quarters bathroom
+~
+~
+0 0 7599
+D2
+Guest quarters living area 1
+~
+~
+0 0 7597
+S
+#7599
+Guest Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are south
+into the second living area or west into the bedroom.    
+~
+75 dfg 0 0
+D2
+Guest quarters living area 2
+~
+~
+0 0 7600
+D3
+Guest quarters bedroom
+~
+~
+0 0 7598
+S
+#7600
+Guest Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are north into the bathroom or west into the first living area.    
+~
+75 dfg 0 0
+D0
+Guest quarters bathroom
+~
+~
+0 0 7599
+D3
+Guest quarters living area 1
+~
+~
+0 0 7597
+S
+#7601
+Crew Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are north to the corridor, south to the bedroom or east to the second living
+area.    
+~
+75 dfg 0 0
+D0
+Deck 8 corridor
+~
+~
+0 0 7561
+D1
+Crew quarters living area 2
+~
+~
+0 0 7604
+D2
+Crew quarters bedroom
+~
+~
+0 0 7602
+S
+#7602
+Crew Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are north into the first
+living area or east into the bathroom.    
+~
+75 dfg 0 0
+D0
+Crew quarters living area 1
+~
+~
+0 0 7601
+D1
+Crew quarters bathroom
+~
+~
+0 0 7603
+S
+#7603
+Crew Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are north
+into the second living area or west into the bedroom.    
+~
+75 dfg 0 0
+D0
+Crew quarters living area 2
+~
+~
+0 0 7604
+D3
+Crew quarters bedroom
+~
+~
+0 0 7602
+S
+#7604
+Crew Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are south into the bathroom or west into the first living area.    
+~
+75 dfg 0 0
+D2
+Crew quarters bathroom
+~
+~
+0 0 7603
+D3
+Crew quarters living area 1
+~
+~
+0 0 7601
+S
+#7605
+Picard's Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are south to the corridor, north to the bedroom or east to the second living
+area.    
+~
+75 dfg 0 0
+D0
+Picard's quarters bedroom
+~
+~
+0 0 7606
+D1
+Picard's quarters living area 2
+~
+~
+0 0 7608
+D2
+Deck 8 corridor
+~
+~
+0 0 7562
+S
+#7606
+Picard's Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are south into the first
+living area, east into the bathroom, or west into the work area.    
+~
+75 dfg 0 0
+D1
+Picard's quarters bathroom
+~
+~
+0 0 7607
+D2
+Picard's quarters living area 1
+~
+~
+0 0 7605
+D3
+Picard's quarters work area
+~
+~
+0 0 7609
+S
+#7607
+Picard's Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are south
+into the second living area or west into the bedroom.
+~
+75 dfg 0 0
+D2
+Picard's quarters living area 2
+~
+~
+0 0 7608
+D3
+Picard's quarters bedroom
+~
+~
+0 0 7606
+S
+#7608
+Picard's Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are north into the bathroom or west into the first living area.
+~
+75 dfg 0 0
+D0
+Picard's quarters bathroom
+~
+~
+1 0 7607
+D3
+Picard's quarters living area 1
+~
+~
+0 0 7605
+S
+#7609
+Picard's Quarters - work area~
+As you enter this room you see that it is a work area.  There is a large desk
+in the centre of the room with a computer screen mounted on it.  The desk has a
+keyboard sitting on it and a large chair behind it.  There are storage shelves
+mounted on three of the four walls.  The exit is to the east back into the
+bedroom.
+~
+75 dfg 0 0
+D1
+Picard's quarters bedroom
+~
+~
+0 0 7606
+S
+#7610
+Riker's Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are north to the corridor, south to the bedroom or east to the second living
+area.
+~
+75 dfg 0 0
+D0
+Deck 8 corridor
+~
+~
+0 0 7563
+D1
+Riker's quarters living area 2
+~
+~
+0 0 7613
+D2
+Riker's quarters bedroom
+~
+~
+0 0 7611
+S
+#7611
+Riker's Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are north into the first
+living area, east into the bathroom, or west into the work area.
+~
+75 dfg 0 0
+D0
+Riker's quarters living area 1
+~
+~
+0 0 7610
+D1
+Riker's quarters bathroom
+~
+~
+0 0 7612
+D3
+Riker's quarters work area
+~
+~
+0 0 7614
+S
+#7612
+Riker's Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are north
+into the second living area or west into the bedroom.
+~
+75 dfg 0 0
+D0
+Riker's quarters living area 2
+~
+~
+0 0 7613
+D3
+Riker's quarters bedroom
+~
+~
+0 0 7611
+S
+#7613
+Riker's Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are south into the bathroom or west into the first living area.
+~
+75 dfg 0 0
+D2
+Riker's quarters bathroom
+~
+~
+0 0 7612
+D3
+Riker's quarters living area 1
+~
+~
+0 0 7610
+S
+#7614
+Riker's Quarters - work area~
+As you enter this room you see that it is a work area.  There is a large desk
+in the centre of the room with a computer screen mounted on it.  The desk has a
+keyboard sitting on it and a large chair behind it.  There are storage shelves
+mounted on three of the four walls.  The exit is to the east back into the
+bedroom.
+~
+75 dfg 0 0
+D1
+Riker's quarters bedroom
+~
+~
+0 0 7611
+S
+#7615
+Crew lounge entrance~
+You have entered the crew lounge.  In front of you is a large room mostly made
+up of empty floor space.  Along part of one wall is a bar.  There are two
+bartenders attending to the current patrons.  Your exits are south into the
+corridor, north to the bar, and east or west along the lounge floor.
+~
+75 dfg 0 0
+D0
+Crew lounge bar
+~
+~
+0 0 7618
+D1
+Crew lounge floor
+~
+~
+0 0 7616
+D2
+Deck 8 corridor
+~
+~
+0 0 7564
+D3
+Crew lounge floor
+~
+~
+0 0 7617
+S
+#7616
+Crew lounge floor~
+You are standing on the floor of the crew lounge.  You can see seats and coffee
+tables around the walls and most of them are occupied.  People are sitting
+enjoying a drink and talking amongst themselves.  Your exit is west to the
+lounge entrance.
+~
+75 dfg 0 0
+D3
+Crew lounge entrance
+~
+~
+0 0 7615
+S
+#7617
+Crew lounge floor~
+You are standing on the floor of the crew lounge.  You can see seats and coffee
+tables around the walls and most of them are occupied.  People are sitting
+enjoying a drink and talking amongst themselves.  Your exit is east to the
+lounge entrance.
+~
+75 dfg 0 0
+D1
+Crew lounge entrance
+~
+~
+0 0 7615
+S
+#7618
+Crew lounge bar~
+You are standing beside the crew lounge bar.  A beer is placed on the counter
+in front of you.  There are a lot of people around the bar getting drinks.  
+You stand and enjoy your beer for a minute.  Your exit is south to the lounge
+entrance.
+~
+75 dfg 0 0
+D2
+Crew lounge entrance
+~
+~
+0 0 7615
+S
+#7619
+Crew Quarters - living area 1~
+As you enter this room you see that it is a living area.  It is very spaceous
+and has many pieces of furniture places throughout it.  The opposite wall
+consists completely of windows.  Looking through these windows you can see far
+off into space.  The stars are sparkling.  Under the window is a long 3 seater
+couch, to the left and right of that is a single seat chair.  There is a desk
+in the centre of the room with a chair behind it.  A computer screen is
+embedded in the glass of the desk top.  Also embedded is a keypad.  The exits
+are north to the corridor, south to the bedroom or east to the second living
+area.
+~
+75 dfg 0 0
+D0
+Deck 8 corridor
+~
+~
+0 0 7565
+D1
+Crew quarters living area 2
+~
+~
+0 0 7622
+D2
+Crew quarters bedroom
+~
+~
+0 0 7620
+S
+#7620
+Crew Quarters - bedroom~
+As you enter this room you can see that it is a bedroom.  It's a fairly simple
+room, though quite large.  It contains a king size bed against one wall and
+wardrobes against the opposite wall.  This exits are north into the first
+living area or east into the bathroom.
+~
+75 dfg 0 0
+D0
+Crew quarters living area 1
+~
+~
+0 0 7619
+D1
+Crew quarters bathroom
+~
+~
+0 0 7621
+S
+#7621
+Crew Quarters - bathroom~
+As you enter this room you can see it is a bathroom.  It's larger than most
+bathrooms and contains a large spa in one corner and a shower in another
+corner.  There is a toilet and a wash basin in another corner.  The basin has
+two cupboards beneath it and a medicine cabinet above it.  This exits are north
+into the second living area or west into the bedroom.
+~
+75 dfg 0 0
+D0
+Crew quarters living area 2
+~
+~
+0 0 7622
+D3
+Crew quarters bedroom
+~
+~
+0 0 7620
+S
+#7622
+Crew Quarters - living area 2~
+As you enter this room you can see that it is a living area.  This is the
+second living area in this quarters.  It is smaller than the first living area
+and has a large corner couch and a huge television screen embedded into the
+wall.  There is a small dinning table with two chairs beneath it.  The exits
+are south into the bathroom or west into the first living area.
+~
+75 dfg 0 0
+D2
+Crew quarters bathroom
+~
+~
+0 0 7621
+D3
+Crew quarters living area 1
+~
+~
+0 0 7619
+S
+#7623
+Science lab entrance~
+You are in the entrance of the science lab.  As you look around you can see
+there are bench's along all the walls.  There are also cupboards attached to
+the walls about halfway up them.  Your exits are south to the corridor and east
+or north along the science lab floor.
+~
+75 dfg 0 0
+D0
+Science lab floor
+~
+~
+0 0 7624
+D1
+Science lab floor
+~
+~
+0 0 7625
+D2
+Deck 8 corridor
+~
+~
+0 0 7566
+S
+#7624
+Science lab floor~
+You are standing on the science lab floor.  There are some scientists in here
+working by the bench's.  You can see the bench's have scientific equipment
+sitting on them.  Your exits are south to the entrance or east along the lab
+floor.
+~
+75 dfg 0 0
+D1
+Science lab floor
+~
+~
+0 0 7626
+D2
+Science lab entrance
+~
+~
+0 0 7623
+S
+#7625
+Science lab floor~
+You are standing on the science lab floor.  There are some scientists in here
+working by the bench's.  You can see the bench's have scientific equipment
+sitting on them.  Your exits are north along the lab floor or west to the lab
+entrance.
+~
+75 dfg 0 0
+D0
+Science lab floor
+~
+~
+0 0 7626
+D3
+Science lab entrance
+~
+~
+0 0 7623
+S
+#7626
+Science lab floor~
+You are standing on the science lab floor.  There are some scientists in here
+working by the bench's.  You can see the bench's have scientific equipment
+sitting on them.  Your exits are south or west along the lab floor.
+~
+75 dfg 0 0
+D2
+Science lab floor
+~
+~
+0 0 7625
+D3
+Science lab floor
+~
+~
+0 0 7624
+S
+#7627
+Turbolift doors - Main Bridge~
+As you walk along you realise there is a set of doors set into the walls.  You
+stop to take a closer look and you see that these are the entry doors of a
+turbolift cab.  Your exits are south into the turbolift cab and north or east
+along the main bridge floor.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7644
+D1
+Main bridge floor
+~
+~
+0 0 7628
+D2
+Turbolift cab
+~
+~
+0 0 7510
+S
+#7628
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are west to the
+turbolift doors or east to engineering.    
+~
+75 dgA 0 0
+D1
+Main bridge engineering
+~
+~
+0 0 7629
+D3
+Turbolift doors main bridge
+~
+~
+0 0 7627
+S
+#7629
+Main Bridge - Engineering~
+On the wall here there is a large screen.  The screen is able to be touched to
+operate it.  The person standing in front of this screen is usually the person
+controlling this station.  They are able to access the Enterprise's computer
+system and make whatever changes are necessary in battle or other situations.
+Your exits are west to along the bridge floor or east to environment.    
+~
+75 dgA 0 0
+D1
+Main bridge environment
+~
+~
+0 0 7630
+D3
+Main bridge floor
+~
+~
+0 0 7628
+S
+#7630
+Main Bridge - Environment~
+On the wall here there is a large screen.  The screen is able to be touched to
+operate it.  The person standing in front of this screen is usually the person
+controlling this station.  They are able to access the Enterprise's computer
+system and make whatever changes are necessary in battle or other situations.
+Your exits are west to engineering or east to mission ops.    
+~
+75 dgA 0 0
+D1
+Main bridge mission ops
+~
+~
+0 0 7631
+D3
+Main bridge engineering
+~
+~
+0 0 7629
+S
+#7631
+Main Bridge - Mission Ops~
+On the wall here there is a large screen.  The screen is able to be touched to
+operate it.  The person standing in front of this screen is usually the person
+controlling this station.  They are able to access the Enterprise's computer
+system and make whatever changes are necessary in battle or other situations.
+Your exits are west to environment, east to science station 2 or north to the
+tactical station.    
+~
+75 dgA 0 0
+D0
+Tactical station
+~
+~
+0 0 7500
+D1
+Main bridge science station 2
+~
+~
+0 0 7632
+D3
+Main bridge environment
+~
+~
+0 0 7630
+S
+#7632
+Main Bridge  - Science Station 2~
+On the wall here there is a large screen.  The screen is able to be touched to
+operate it.  The person standing in front of this screen is usually the person
+controlling this station.  They are able to access the Enterprise's computer
+system and make whatever changes are necessary in battle or other situations.
+Your exits are west to mission ops or east to science station 1.    
+~
+75 dgA 0 0
+D1
+Main bridge science station 1
+~
+~
+0 0 7633
+D3
+Main bridge mission ops
+~
+~
+0 0 7631
+S
+#7633
+Main Bridge  - Science Station 1~
+On the wall here there is a large screen.  The screen is able to be touched to
+operate it.  The person standing in front of this screen is usually the person
+controlling this station.  They are able to access the Enterprise's computer
+system and make whatever changes are necessary in battle or other situations.
+Your exits are west to science station 2 or east along the bridge floor.    
+~
+75 dgA 0 0
+D1
+Main bridge floor
+~
+~
+0 0 7634
+D3
+Main bridge science station 2
+~
+~
+0 0 7632
+S
+#7634
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are west to
+science station 1 or east to the conference lounge doorway.    
+~
+75 dgA 0 0
+D1
+Conference lounge doorway deck 1
+~
+~
+0 0 7635
+D3
+Main bridge science station 1
+~
+~
+0 0 7633
+S
+#7635
+Conference Lounge doorway - Deck 1~
+You are standing near a set of doors which lead into the conference room.  
+Inside is where the Enterprise team hold meetings and discussions about a
+variety of issues.  Your exits are south to the conference lounge entrance or
+north and west along the bridge floor.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7636
+D2
+Conference lounge entrance
+~
+~
+0 0 7655
+D3
+Main bridge floor
+~
+~
+0 0 7634
+S
+#7636
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south to
+the conference lounge doorway or north along the bridge floor.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7637
+D2
+Conference lounge doorway deck 1
+~
+~
+0 0 7635
+S
+#7637
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south or
+north along the bridge floor.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7638
+D2
+Main bridge floor
+~
+~
+0 0 7636
+S
+#7638
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south and
+north along the bridge floor or east to Riker's chair.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7639
+D2
+Main bridge floor
+~
+~
+0 0 7637
+D3
+Ops Riker's chair
+~
+~
+0 0 7641
+S
+#7639
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south along
+the bridge floor or west to the flight controller station.    
+~
+75 dgA 0 0
+D2
+Main bridge floor
+~
+~
+0 0 7638
+D3
+Flight controller station
+~
+~
+0 0 7640
+S
+#7640
+Flight Controller Station~
+Here there is a control pad with a chair behind it.  Wesley usually occupies
+this chair.  From here you are able to control a lot of the ships functions.  
+You are also closest to the large screen at the front of the bridge.  Your only
+exit is east along the bridge floor.    
+~
+75 dgA 0 0
+D1
+Main bridge floor
+~
+~
+0 0 7639
+S
+#7641
+Ops - Riker's Chair~
+There is a large, leather, extremely comfortable looking armchair here.  This
+is the chair which Commander Riker uses when he is aboard the bridge.    
+~
+75 dgA 0 0
+D1
+Main bridge floor
+~
+~
+0 0 7638
+D3
+Captain's chair
+~
+~
+0 0 7642
+S
+#7642
+Captain's Chair~
+There is a large, leather, extremely comfortable looking armchair here.  This
+is the chair which Captain Picard uses when he is aboard the bridge.  This
+chair is fitted with button's on the arm rests also.  This is where Captain
+Picard utter's his ever famous saying 'Make it so'.    
+~
+75 dgA 0 0
+D1
+Ops Riker's chair
+~
+~
+0 0 7641
+D3
+Troi/Beverly's chair
+~
+~
+0 0 7643
+S
+#7643
+Troi/Beverly's Chair~
+There is a large, leather, extremely comfortable looking armchair here.  This
+is the chair which either Lieutenant Commander Troi or Commander Beverly
+Crusher uses when she is aboard the bridge.    
+~
+75 dgA 0 0
+D1
+Captain's chair
+~
+~
+0 0 7642
+D3
+Main bridge floor
+~
+~
+0 0 7646
+S
+#7644
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south to
+the turbolift doors or north along the bridge floor.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7645
+D2
+Turbolift doors main bridge
+~
+~
+0 0 7627
+S
+#7645
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south and
+north along the bridge floor.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7646
+D2
+Main bridge floor
+~
+~
+0 0 7644
+S
+#7646
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south and
+north along the bridge floor or east to Troi/Beverly's chair.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7647
+D1
+Troi/Beverly's chair
+~
+~
+0 0 7643
+D2
+Main bridge floor
+~
+~
+0 0 7645
+S
+#7647
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south and
+north along the bridge floor or east to the flight controller station.    
+~
+75 dgA 0 0
+D0
+Main bridge floor
+~
+~
+0 0 7649
+D1
+Flight controller station
+~
+~
+0 0 7648
+D2
+Main bridge floor
+~
+~
+0 0 7646
+S
+#7648
+Flight Controller Station~
+Here there is a control pad with a chair behind it.  Data usually occupies this
+chair.  From here you are able to control a lot of the ships functions.  You
+are also closest to the large screen at the front of the bridge.  Your only
+exit is west along the bridge floor.    
+~
+75 dgA 0 0
+D3
+Main bridge floor
+~
+~
+0 0 7647
+S
+#7649
+Main Bridge floor~
+You are walking along the bridge floor.  The walls are cream in colour and
+there is blue carpet with pink edging on the floor.  Your exits are south along
+the bridge floor or north to the ready room's doorway.    
+~
+75 dgA 0 0
+D0
+Captain's ready room doorway
+~
+~
+0 0 7650
+D2
+Main bridge floor
+~
+~
+0 0 7647
+S
+#7650
+Captain's Ready Room doorway~
+You are standing near a set of doors which lead into the captain's ready room.
+Inside is where the captain logs his thoughts and findings and missions.  He
+also speaks with the other crew members regards personal issues in here.  Your
+exits are west into the ready room entrance or south along the bridge floor.  
+~
+75 dgA 0 0
+D2
+Main bridge floor
+~
+~
+0 0 7649
+D3
+Captain's ready room entrance
+~
+~
+0 0 7651
+S
+#7651
+Captain's Ready Room entrance~
+You are standing in the captain's ready room.  There is a desk and some model's
+in here.  Your exits are east to the ready room doorway, or north and west
+along the ready room floor.    
+~
+75 dgA 0 0
+D0
+Captain's ready room floor
+~
+~
+0 0 7652
+D1
+Captain's ready room doorway
+~
+~
+0 0 7650
+D3
+Captain's ready room floor
+~
+~
+0 0 7653
+S
+#7652
+Captain's Ready Room floor~
+There are some small Enterprise ship replica's here hanging on the wall.  You
+assume they are past Enterprise replica's.  You wonder what happened to those
+ships and why they were replaced.  There is a plant on the floor here also.  
+Your exits are south to the ready room entrance or west along the ready room
+floor.    
+~
+75 dgA 0 0
+D2
+Captain's ready room entrance
+~
+~
+0 0 7651
+D3
+Captain's ready room floor
+~
+~
+0 0 7654
+S
+#7653
+Captain's Ready Room floor~
+Here there is a tall box that extends from roof to floor.  In the centre of the
+box there is a glass tank.  Inside the glass tank there is some coral growing.
+It is lit by a light somewhere abover or below the water.  There is a small
+roof to floor window here as well.  Stars can be seen as far as the eye can
+see.  Your exits are north along the ready room floor or east to the ready room
+entrance.    
+~
+75 dgA 0 0
+D0
+Captain's ready room floor
+~
+~
+0 0 7654
+D1
+Captain's ready room entrance
+~
+~
+0 0 7651
+S
+#7654
+Captain's Ready Room floor~
+Here is where the captain sits behind his desk and works.  The desk has a
+computer embedded into it and a small screen sitting on the top.  On the other
+side of the desk is a second chair.  Your exits are south or east along the
+ready room floor.    
+~
+75 dgA 0 0
+D1
+Captain's ready room floor
+~
+~
+0 0 7652
+D2
+Captain's ready room floor
+~
+~
+0 0 7653
+S
+#7655
+Conference Lounge Entrance~
+As you walk into the conference room you take a look around.  You see windows
+along one wall and there is a large table in the centre of the room.  There are
+also chairs surrounding this table.  Your exits are north to the conference
+lounge doorway or south and west along the conference lounge floor.    
+~
+75 dgA 0 0
+D0
+Conference lounge doorway deck 1
+~
+~
+0 0 7635
+D2
+Conference lounge floor
+Conference lounge floor
+~
+~
+0 0 7656
+D3
+Conference lounge floor
+~
+~
+0 0 7658
+S
+#7656
+Conference Lounge floor~
+There are windows occupying one whole wall.  As far as the eye can see are
+brightly shining stars.  There is a large table in the centre of the room.  
+There are also chairs surrounding this table.  Your exits are north to the
+conference lounge entrance or west along the conference lounge floor.    
+~
+75 dgA 0 0
+D0
+Conference lounge entrance
+~
+~
+0 0 7655
+D3
+Conference lounge floor
+~
+~
+0 0 7657
+S
+#7657
+Conference Lounge floor~
+Along one side of this room are windows, along this side there are a number of
+screens.  They are switched off at present.  Under some of the screens are some
+pot plants.  There is a large table in the centre of the room.  There are also
+chairs surrounding this table.  Your exits are north or east along the
+conference lounge floor.    
+~
+75 dgA 0 0
+D0
+Conference lounge floor
+~
+~
+0 0 7658
+D1
+Conference lounge floor
+~
+~
+0 0 7656
+S
+#7658
+Conference Lounge floor~
+Windows occupy one entire wall of this room, screens occupy the opposite wall.
+There is a large table in the centre of the room.  There are also chairs
+surrounding this table.  Your exits are east to the conference lounge entrance
+or south along the conference lounge floor.    
+~
+75 dgA 0 0
+D1
+Conference lounge entrance
+~
+~
+0 0 7655
+D2
+Conference lounge floor
+~
+~
+0 0 7657
+S
+$~
+@
+
+
+1.3
+log
+@Artus> A3_0_315
+@
+text
+@d24 4
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d66 1
+a66 1
+75 dg 0 0
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d1 16
+d19 1
+a19 1
+Welcome to the Enterprise.  As you materialise into the room you take a moment
+d23 1
+a23 1
+75 d 0 0
+d42 1
+a42 1
+75 d 0 0
+d60 1
+a60 1
+Corridor~
+d66 1
+a66 1
+75 d 0 0
+d91 1
+a91 1
+75 d 0 0
+d105 1
+a105 1
+75 d 0 0
+d126 1
+a126 1
+75 d 0 0
+d140 4
+a143 6
+As you walk along you realise there is a set of doors to the south.  You stop
+to take a closer look.  You see there is a control pad on the wall just beside
+the doors that allows you to key in what deck you wish to go to.  If you are an
+officer on board the ship you are also able to use the turbolifts through voice
+activation.  Your exits are south into the turbolift cab and east or west along
+the corridor.    
+d145 1
+a145 1
+75 d 0 0
+d155 1
+a155 1
+0 0 7508
+d163 3
+a165 23
+Turbolift cab - Deck 6~
+As you walk into the turbolift you take a quick glance around.  There isn't
+much to it really.  It looks kind of like half an oval shape with panels around
+the walls and light coming from the roof.  The doors close behind you and you
+feel the turbolift take off.  Your exits are either up to Deck 4, down to Deck
+8 or north through the doors into the corridor of Deck 6.
+~
+75 dfgh 0 0
+D0
+Turbolift doors - Corridor
+~
+~
+0 0 7507
+D4
+Turbolift cab up to deck 4
+~
+~
+0 0 7509
+D5
+Turbolift cab down to deck 8
+~
+~
+0 0 7510
+d168 3
+a170 23
+Turbolift cab - Deck 4~
+As you walk into the turbolift you take a quick glance around.  There isn't
+much to it really.  It looks kind of like half an oval shape with panels around
+the walls and light coming from the roof.  The doors close behind you and you
+feel the turbolift take off.  Your exits are either up to Deck 2, down to Deck
+6 or north through the doors into the corridor of Deck 4.
+~
+75 dfgh 0 0
+D0
+Turbolift doors - Corridor
+~
+~
+0 0 7512
+D4
+Tubolift cab up to deck 2
+~
+~
+0 0 7511
+D5
+Turbolift cab down to deck 6
+~
+~
+0 0 7508
+d173 6
+a178 5
+Turbolift cab - Deck 8~
+As you walk into the turbolift you take a quick glance around.  There isn't
+much to it really.  It looks kind of like half an oval shape with panels around
+the walls and light coming from the roof.  The doors close behind you and you
+feel the turbolift take off.
+d180 1
+a180 6
+75 dfgh 0 0
+D4
+Turbolift cab up to deck 6
+~
+~
+0 0 7508
+d182 1
+d184 3
+a186 12
+Turbolift cab - Deck 2~
+As you walk into the turbolift you take a quick glance around.  There isn't
+much to it really.  It looks kind of like half an oval shape with panels around
+the walls and light coming from the roof.  The doors close behind you and you
+feel the turbolift take off.
+~
+75 dfgh 0 0
+D5
+Tubolift cab down to deck 4
+~
+~
+0 0 7509
+d190 4
+a193 6
+As you walk along you realise there is a set of doors to the south.  You stop
+to take a closer look.  You see there is a control pad on the wall just beside
+the doors that allows you to key in what deck you wish to go to.  If you are an
+officer on board the ship you are also able to use the turbolifts through voice
+activation.  Your exits are south into the turbolift cab or north to the
+entrance of the main shuttlebay area.    
+d195 1
+a195 1
+75 d 0 0
+d205 1
+a205 1
+0 0 7509
+d215 1
+a215 1
+75 d 0 0
+d217 1
+a217 1
+Entrance to an alien shuttlecraft
+d222 1
+a222 1
+Right along the shuttlebay floor
+d232 1
+a232 1
+Left along the shuttlebay floor
+d239 5
+a243 5
+As you step into the entrance of the shuttlecraft you hear some low beeps
+coming from the west.  The shuttlecraft isn't very large but there appear to be
+two officers and another person behind them inside.  Your exits are west to the
+front of the craft, east to the rear of the craft, or south to the main
+entrance.    
+d263 1
+a263 1
+Shuttlebay floor - right~
+d270 1
+a270 1
+75 d 0 0
+d272 1
+a272 1
+Right along the shuttlebay floor
+d283 6
+a288 2
+Shuttlebay floor - left~
+You are in an unfinished room.
+d290 1
+a290 1
+75 d 0 0
+d296 10
+d326 2
+a327 2
+There are some people in this You see two officers of this ship and you gasp as
+you realise the third person isn't a person at all.  It is green with a big
+d338 1
+a338 1
+Shuttlebay floor - right~
+d343 1
+a343 1
+or west to continue along the shuttlebay floor or south into a shuttlecraft.
+d345 1
+a345 1
+75 d 0 0
+d347 1
+d352 1
+a352 1
+South to the entrance of a type 7 shuttlecraft
+d357 1
+a357 1
+Left along the shuttlebay floor
+d363 1
+a363 1
+Entrance to Type 7 Shuttlecraft~
+d365 1
+a365 1
+shuttlecraft.  You can still hear welding in the background.  The guards look
+d369 1
+a369 1
+shuttlecraft.    
+d373 1
+a373 1
+Shuttlebay floor - right
+d378 1
+a378 1
+South to the Centre of Type 7 Shuttlecraft
+d384 1
+a384 1
+Centre of Type 7 Shuttlecraft~
+d387 1
+a387 1
+shuttlecraft, there are two seats in this section, but as you take a closer
+d392 2
+a393 2
+shuttlecraft, east to the rear of the shuttlecraft or west to the front of the
+shuttlecraft.    
+d397 1
+a397 1
+Entrance to Type 7 Shuttlecraft
+d402 1
+a402 1
+Rear section of Type 7 Shuttlecraft
+d407 1
+a407 1
+Front section of Type 7 Shuttlecraft
+d413 1
+a413 1
+Front section of Type 7 Shuttlecraft~
+d418 1
+a418 1
+their own acord.  Your exit is back east to the centre of the shuttlecraft.  
+d422 1
+a422 1
+Centre of Type 7 Shuttlecraft
+d428 1
+a428 1
+Rear section of Type 7 Shuttlecraft~
+d436 1
+a436 1
+centre of the shuttlecraft.    
+d440 1
+a440 1
+Centre of Type 7 Shuttlecraft
+d447 1
+a447 1
+~
+d457 1
+a457 1
+Your only exit is up to the rear of the shuttlecraft.    
+d461 1
+a461 2
+Rear section of Type 7 Shuttlecraft
+~
+d463 2
+a464 1
+0 0 7523
+d467 1
+a467 1
+Shuttlebay floor - right~
+d474 1
+a474 1
+75 d 0 0
+d476 1
+d481 1
+d486 1
+d492 6
+a497 2
+Shuttlebay floor - right~
+You are in an unfinished room.
+d499 11
+a509 1
+75 0 0 0
+d513 6
+a518 1
+You are in an unfinished room.
+d520 6
+a525 1
+75 0 0 0
+d527 1
+d531 2711
+@
+

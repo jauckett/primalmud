@@ -1,0 +1,61 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@m kill crab
+kk backstab  crab
+hh hunt  crab
+cas cast 'advanced heal' scorfio
+as assist scorfio
+abyss rem ring;rem ring;wear cold;wear fire
+h alias hh hunt $*
+pp emo spits on Muldar.
+bb bash
+gp grats ---====<<<<< $*  >>>>>===---
+o tickle $*
+j junk $*
+sp split $*
+ca cast 'armor'
+ass rescue hal
+lip look in pouch
+9 get all.gold all.corpse
+cp cast 'plasma' 
+ccc cast 'cure critical'
+k alias kk backstab $*
+r get recall backpack
+rr recite recall exnos
+mm steal key dragon
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

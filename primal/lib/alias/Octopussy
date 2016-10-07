@@ -1,0 +1,26 @@
+bloom s;s;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;n;open door;n
+kirk w;w;
+sally w;s;s;e
+sam s;s;s;s;s;s;s;s;s;s;s;s;e
+st n;n;w;w;w;s;go stage
+stone s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;n;e;e;e;e;e;n;e;n
+healme d;n;e;e;e;n
+home e;e;e;e;e;go wagon
+ha cast'haste'
+eng cast 'energy drain'
+h cast 'advanced heal'
+infra cast 'infravision'
+gg get all corpse
+align cast 'detect alignment'
+skin get skin backpack;drink skin;put skin backpack
+r cast 'refresh'
+sanc cast 'sanctuary'; cast 'armor'
+word cast 'word of recall'
+gm get meat backpack; eat meat
+invis cast 'detect invisibility'
+ps primal scream
+plas cast 'plasma blast' $*
+i cast 'invisibility'
+spoon s;s;s;s;s;s;s;s;s;e;e;e;e;open door;n
+dawn s;s;s;s;s;s;s;s;s;s;open door;e;e;s
+kody s;s;s;s;s;s;s;s;s;s;open door;e;e;s;s;s;s;e;e;

@@ -1,0 +1,3234 @@
+# Primal MUD spell/skills file. ... DM
+
+# This file is used to load the various values used by spells and skills.
+# The function spell_level() from class.c has been removed to make the
+# job of maintaining spell/skills restrictions (stats and levels) easier
+# and to more easily accomindate these restrictions for multiple classes. 
+# The function spello() in spell parser has been modified and the mana
+# values have been removed.
+
+# Formatting Features:
+#-===================-
+#
+# Scan until $ signifies end of file
+#
+# Classnames must be in order of remort system.
+# Cleric, Magician, Thief, Warrior, Druid, Priest, NightBlade, BattleMage, 
+# SpellSword, Paladin & Master
+# # <- signifies line is a comment
+# A blank line is ignored (Except in the Help Section).
+#
+# Spell Format:
+#S "<SPELL NAME>" <min mana> <max mana> <mana change per level>
+#<classname> INT STR WIS CON DEX CHA <level> <%spell effectiveness> <%mana cost>
+#~
+#Help Text Lines
+#Help Text Lines
+#~
+
+# Skill Format:
+#K "<SKILL NAME>"
+#<classname> INT STR WIS CON DEX CHA <level> <%spell effectiveness>
+#~
+#Help Text Lines
+#Help Text Lines
+#~
+
+********************************************************************************
+# Spell Definitions
+********************************************************************************
+
+# Comments about the spell/skill should be entered above its definition is they
+# are required.
+
+S "ADVANCED HEAL"
+30 60 5
+Druid 		0 0 17 0 0 0 		25	125 100
+Priest 		0 0 17 0 0 0 		25	125 100
+Paladin 	0 0 17 0 0 0	 	25	133 100
+Master		0 0 17 0 0 0		25	133 100
+~
+Help for &2Advanced Heal&n
+
+&3Level&n   : 25
+&3Usage&n   : &4cast 'advanced heal' <self/victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Druid, Priest, Paladin, Master
+
+This spell is slightly greater than heal and less powerful than
+divine heal! 
+
+See Also: Heal & Divine Heal
+~
+
+S "ANIMATE DEAD"
+60 20 5
+Magician	0 16 17 16 0 0 		25	100 78
+Druid 		0 16 17 16 0 0 		25	125 75
+Spellsword	0 16 17 16 0 0 		25	100 72
+BattleMage	0 16 17 16 0 0 		25	125 66
+Master		0 16 17 16 0 0 		25      100 66
+~
+Help for &2Animate Dead&n
+
+&3Level&n       : 25
+&3Usage&n       : &4cast 'animate dead' corpse&n
+&3Accumulative&n: No
+&3Class&n       : Magician, Druid, SpellSword, BattleMage & Master
+
+This will animate the dead and allow them to follow you for a 
+short period of time.
+~
+
+S ARMOR
+5 10 2
+Cleric		0 0 14 0 0 0		1	100 100
+Druid 		0 0 14 0 0 0 		1	125 75
+Priest 		0 0 14 0 0 0 		1	125 66
+Paladin 	0 0 14 0 0 0 		1	133 70
+Master		0 0 14 0 0 0		1	133 70
+~
+Help for &2Armor&n
+
+&3Level&n       : 1
+&3Usage&n       : &4cast 'armor' [self]
+&3Accumulative&n: No
+&3Duration&n    : 24 Hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+The Armor spell will improve your AC by  -15
+~
+S BLESS 
+6 20 3
+Cleric 		0 0 9 0 0 0 		10	100 78
+Druid 		0 0 9 0 0 0 		10	125 75
+Priest 		0 0 9 0 0 0 		10	125 66
+Paladin 	0 0 9 0 0 0 		10	133 70
+Master		0 0 9 0 0 0		10	133 70
+~
+Help for &2Bless&n
+
+&3Level&n       : 10
+&3Usage&n       : &4cast 'bless' <victim or object>&n
+&3Accumulative&n: No
+&3Duration&n    : 6 Hours, permanent for objects.
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+Bless on a victim will improve the victims saving throw 
+versus spells by 1, and furthermore improve the hitroll 
+by 1.
+
+Bless on an item currently has no defined action. It is only possible
+to bless non-evil items, and the object blessed may weight no more
+than five pounds per level of caster. 
+
+See Also: CURSE
+~
+
+S BLINDNESS 
+5 30 10
+Magician	0 0 12 0 0 0 		15	100 78
+Druid		0 0 12 0 0 0		15	100 78
+Spellsword	0 0 12 0 0 0 		15	125 66
+Battlemage	0 0 12 0 0 0	 	15	133 70
+Master		0 0 12 0 0 0		15	133 70
+~
+Help for &2Blindness&n
+
+&3Level&n       : 15
+&3Usage&n       : &4cast 'blindness' <victim>&n
+&3Accumulative&n: No.
+&3Duration&n    : 2 hours
+&3Class&n       : Magician, Druid, Priest, Paladin, Master
+
+Blindness will blind a victim failing its saving throw.
+A blind person will have -4 penalty to both hitroll and AC.
+
+See Also: AC
+~
+
+S "BURNING HANDS"
+12 20 2
+Magician	11 0 0 0 0 0 		5	100 78
+Druid		11 0 0 0 0 0 		5	100 78
+SpellSword	11 0 0 0 0 0 		5	125 66
+BattleMage	11 0 0 0 0 0	 	5	133 70
+Master		11 0 0 0 0 0 		5	125 66
+~
+Help for &2Burning Hands&n
+
+&3Level&n   : 5
+&3Usage&n   : &4cast 'burning hands' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell is more powerful than the chill touch spell.
+The Magic User utters this spell and gestures toward the victim.
+Tongues of fire lick out from the hands of the Spellcaster, burning 
+and searing the target.
+
+See Also: CHILL TOUCH
+~
+
+S "CALL LIGHTNING"
+11 30 5
+Magician	10 0 0 0 0 0 		15	125 66
+Druid		10 0 0 0 0 0 		15	125 66 
+SpellSword	10 0 0 0 0 0 		15	125 66
+BattleMage	10 0 0 0 0 0 		15	125 66	
+Master		10 0 0 0 0 0 		15	125 66
+~
+Help For &2"Call Lightning"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4cast 'call lightning' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, Spellsword, BattleMage, Master
+
+This spell will use the "forces of nature" to make lightning
+strike the victim. It is therefore only possible to call lightning
+outside, and it has to be raining (or worse).
+
+The lightning will inflict (level)d8 points of damage, up to a
+maximum of 15d8 damage points.
+
+See Also: WEATHER and CONTROL WEATHER
+~
+
+S CHARM
+2 15 5
+Magician	16 0 0 0 0 14 		20	100 78
+Druid		16 0 0 0 0 14		20	100 78
+SpellSword	16 0 0 0 0 14		20	100 78
+BattleMage	16 0 0 0 0 14		20	100 78
+Master 		16 0 0 0 0 14 		20	125 75
+
+~
+Help for &2Charm&n
+
+&3Level&n   : 20
+&3Usage&n   : &4cast 'charm person' <victim>&n
+&3Duration&n: (432/Intelligence points of person) hours
+&3Save&n    : versus Paralyzation to negate (?)
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell will place a person/monster under your control.  Once
+charmed, use the command "order" to control them.  It is not possible
+to charm anyone who is already under a charm spell, or a higher level
+than yourself.  It is also not possible to charm anyone if you are
+charmed.  The victim gets a saving throw versus Paralyzation to negate
+the spell when cast.
+
+See Also: FOLLOW ORDER 
+~
+
+S "CHILL TOUCH"
+12 30 5
+Magician	11 0 0 0 0 0 		5	100 78
+Druid		11 0 0 0 0 0 		5	125 66
+SpellSword	11 0 0 0 0 0 		5	125 66
+BattleMage	11 0 0 0 0 0 		5	125 66
+Master		11 0 0 0 0 0 		5	125 66
+~
+Help For &2"Chill Touch"&n
+
+&3Level&n   : 5
+&3Usage&n   : &4cast 'chill touch' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell is more powerful than the magic missile spell.
+
+When completed, this spell causes the caster's hands to glow.  The
+caster then touches the victim, draining them of their life force.  The
+victim gets a saving throw, and if failed they loose 1 point of
+Strength.
+
+See Also: MAGIC MISSILE 
+~
+
+S CLONE 
+50 75 5
+Druid		16 0 0 0 0 14		65	125 78
+SpellSword	16 0 0 0 0 14		65	125 78
+Priest		16 0 0 0 0 14		65	125 78
+BattleMage	16 0 0 0 0 14		65	125 78
+Paladin		16 0 0 0 0 14		65	125 78
+Master		16 0 0 0 0 14		65	125 66
+~
+Help For &2Clone&n
+
+&3Level&n       : 65
+&3Usage&n       : &4cast 'clone' self&n
+&3Accumulation&n: instant
+&3class&n       : Cleric, Magician, Druid, SpellSword, Priest,
+              BattleMage, Paladin, Master
+
+You can only cast this spell upon yourself and  you can only clone up
+to two clones at any one time due to your DNA.
+
+See Also: ORDER SERVE DIE
+~
+
+S "CLOUD KILL"
+50 80 5
+Druid		17 16 17 0 0 0 		70	125 66
+SpellSword	17 16 17 0 0 0 		70	125 66
+BattleMage	17 16 17 0 0 0 		70	125 66
+Master		17 16 17 0 0 0 		70	125 66
+
+~
+Help For &2Cloud Kill&n
+
+&3Level&n : 70
+&3Usage&n : &4cast 'cloud; cloud kill'&n
+&3Effect&n: Area
+&3Class&n : Druid, Spellsword, BattleMage, Master
+	
+This spell wil summon a powerful cloud of gas that may instantly kill your
+victim or cause some serious damage.
+
+~
+
+S "COLOR SPRAY"
+18 35 5
+Magician	13 0 0 0 0 0 		15	100 78
+Druid		13 0 0 0 0 0 		15	100 78
+SpellSword	13 0 0 0 0 0 		15	100 78
+BattleMage	13 0 0 0 0 0 		15	100 78
+Master		13 0 0 0 0 0 		15	100 78
+~
+Help For &2"Color Spray"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4cast 'color spray' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell is more powerful than the lightning bolt spell.
+
+The Magic User utters this incantation, and a rainbow of clashing colors
+springs forth from their hands.
+
+See Also: LIGHTNING BOLT
+
+For help on actual color, see:  ANSI
+~
+
+S "CONTROL WEATHER"
+31 31 1
+Cleric 		11 0 0 0 0 0 		30	100 78
+Magician	11 0 0 0 0 0 		30	100 78
+Druid		11 0 0 0 0 0 		30	100 78
+SpellSword	11 0 0 0 0 0		30	100 78
+Priest		11 0 0 0 0 0		30	100 78
+BattleMage	11 0 0 0 0 0		30	100 78
+Paladin		11 0 0 0 0 0 		30	100 78
+Master		11 0 0 0 0 0 		30	100 78
+~
+Help For &2"Control Weather"&n 
+
+&3Level&n       : 30
+&3Usage&n       : &4cast 'control weather' ('better' | 'worse')&n
+&3Accumulative&n: Yes
+&3Class&n       : Cleric, Magician, Druid, SpellSword, Priest
+              BattleMage, Paladin, Master
+
+This spell will change the "course" of the current weather.
+Exmample:
+
+  > cast 'control wea' worse
+
+
+See Also: CALL LIGHTNING
+~
+
+S "CREATE FOOD"
+6 10 4
+Cleric 		0 0 14 0 0 0 		1	100 78
+Thief		0 0 14 0 0 0 		1	100 78
+Magician	0 0 14 0 0 0 		1	100 78
+Druid		0 0 14 0 0 0 		1	100 78
+Priest		0 0 14 0 0 0 		1	100 78
+BattleMage	0 0 14 0 0 0		1	100 78
+Paladin		0 0 14 0 0 0 		1	100 78
+Master		0 0 14 0 0 0 		1	100 78
+~
+Help For &2"Create Food"&n
+
+&3Level&n   : 1
+&3Usage&n   : &4cast 'create food'&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Thief, Magician, Druid, Priest, Battlemage, 
+	   Paladin & Master
+
+This spell instantly creates an edible magic mushroom. The mushroom
+will be filling for the next (5+level) hours, up to a maximum of 24 hours.
+
+See Also: CREATE WATER
+~
+
+S "CREATE WATER"
+6 10 4
+Cleric 		0 0 14 0 0 0 		1	100 78
+Thief		0 0 14 0 0 0 		1	100 78
+Magician	0 0 14 0 0 0 		1	100 78
+Druid		0 0 14 0 0 0 		1	100 78
+Priest		0 0 14 0 0 0 		1	100 78
+BattleMage	0 0 14 0 0 0		1	100 78
+Paladin		0 0 14 0 0 0 		1	100 78
+Master		0 0 14 0 0 0 		1	100 78
+~
+Help for &2"Create Water"&n 
+
+&3Level&n   : 1
+&3Usage&n   : &4cast 'create water' <drink container>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Thief, Magician, Druid, Priest, Battlemage,
+	   Paladin &, Master
+
+Expect disastrous results if cast upon a drink container which contains
+another liquid other than water. Empty or water containers will be filled
+depending on the level of the caster.
+
+Double amout of water will be created if it is raining (or worse).
+
+
+See Also: CREATE FOOD
+
+~
+
+S "CURE CRITICAL"
+1 10 1
+Cleric 		0 0 14 0 0 0 		10	100 78
+Druid		0 0 14 0 0 0		10	100 78
+Priest		0 0 14 0 0 0 		10	100 78
+Paladin		0 0 14 0 0 0 		10	100 78
+Master		0 0 14 0 0 0 		10	100 78
+~
+Help For &2"Cure Critical"&n
+
+&3Level&n   : 10
+&3Usage&n   : &4cast 'cure critic' <victim/self>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master
+
+This spell cures 3d8+3 hitpoints of damage.
+
+~
+
+S "CURE LIGHT"
+1 10 1
+Cleric 		0 0 9 0 0 0 		1	100 78
+Druid		0 0 9 0 0 0 		1	100 78
+Priest		0 0 9 0 0 0		1	100 78
+Paladin		0 0 9 0 0 0 		1	100 78
+Master		0 0 9 0 0 0 		1	100 78
+~
+Help For &2"Cure Light"&n
+
+&3Level&n   : 1
+&3Usage&n   : &4cast 'cure light' <victim/self>&n
+&3Duration&n: Instantaneous
+&3Save&n    : None
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master 
+
+This spell cures 1d8 hitpoints of damage.
+~
+
+S "CURE BLIND"
+1 10 1
+Cleric 		0 0 11 0 0 0 		5	100 78
+Druid		0 0 11 0 0 0 		5	100 78
+Priest		0 0 11 0 0 0		5 	100 78
+Paladin		0 0 11 0 0 0 		5	100 78
+Master		0 0 11 0 0 0 		5	100 78
+~
+Help For &2"Cure Blind"&n
+
+&3Level&n   : 5
+&3Usage&n   : &4cast 'cure blind' <victim/self>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master
+
+This spell will cure a person blinded by the "blindness" spell, it
+can not remove blindness caused by for example cursed items.
+ 
+~
+
+S CURSE 
+32 40 1
+Magician	0 0 12 0 0 0 		15	100 78
+Druid		0 0 12 0 0 0 		15	100 78
+SpellSword	0 0 12 0 0 0 		15	100 78
+BattleMage	0 0 12 0 0 0 		15	100 78
+Master		0 0 12 0 0 0 		15	100 78
+~
+Help For &2"Curse"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4cast 'curse' (victim | object)&n
+&3Duration&n: 7 Days, permanent on objects.
+&3Save&n    : versus Spell (?)
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+Curse cast on a person that fails the saving throw, will reduce the
+hitroll by one, and reduce the saving throw versus paralysation by
+one. 
+~
+
+S "DETECT ALIGNMENT"
+5 15 1
+Cleric 		0 0 13 0 0 0 		10	100 78
+Magician	0 0 13 0 0 0 		10	100 78
+Druid		0 0 13 0 0 0 		10	100 78
+Priest		0 0 13 0 0 0		10	100 78
+Paladin		0 0 13 0 0 0 		10	100 78
+Master		0 0 13 0 0 0 		10	100 78
+~
+Help For &2"Detect Alignment"&n
+
+&3Level&n   : 10
+&3Usage&n   : &4cast 'Detect Alignment'<self/victim>&n
+&3Duration&n: 5 hours per level (?)
+&3Class&n   : Cleric, Magician, Druid, Priest, Paladin, Master
+
+When cast, this spell enables you to see the Aura of Good/Evil around
+monsters and characters.  A Red Aura indicates an Evil soul, whilst a
+Blue Aura indicates one who is good.
+
+See Also: ALIGNMENT
+ 
+~
+
+S "DETECT INVISIBILITY"
+5 15 1
+Cleric 		0 0 14 0 0 0 		5	100 78
+Magician	0 0 14 0 0 0 		5	100 78
+Druid		0 0 14 0 0 0 		5	100 78
+Priest		0 0 14 0 0 0		5	100 78
+BattleMage	0 0 14 0 0 0		5	100 78
+Paladin		0 0 14 0 0 0 		5	100 78
+Master		0 0 14 0 0 0 		5	100 78
+~
+Help for &2Detect Invisibility&n
+
+&3Level&n       : 5
+&3Usage&n       : &4cast 'detect invisibility' <self/victim>&n
+&3Accumulative&n: Yes
+&3Duration&n    : 5 Hours per level
+&3Class&n       : Cleric, Magician, Druid, Priest, Battlemage,
+	   Paladin & Master
+
+This spell enables you to see invisible items and players.
+
+~
+
+S "DETECT MAGIC"
+5 15 1
+Cleric 		0 0 11 0 0 0 		5	100 78
+Magician	0 0 11 0 0 0 		5	100 78
+Druid		0 0 11 0 0 0 		5	100 78
+Priest		0 0 11 0 0 0		5	100 78
+BattleMage	0 0 11 0 0 0		5	100 78
+Paladin		0 0 11 0 0 0 		5	100 78
+Master		0 0 11 0 0 0 		5	100 78
+~
+Help For &2"Detect Magic"&n
+
+&3Level&n       : 5
+&3Usage&n       : &4cast 'detect magic' <self/victim>&n
+&3Accumulative&n: No
+&3Duration&n    : 5 hours per level
+&3Class&n       : Cleric, Magician, Druid, Priest, Battlemage
+	   Paladin & Master
+
+This spell will let you see the magical aura surrounding magical
+objects.
+
+~
+
+S "DETECT POISON"
+5 15 1
+Cleric 		0 0 11 0 0 0 		10	100 78
+Druid		0 0 11 0 0 0 		10	100 78
+Priest		0 0 11 0 0 0		10	100 78
+Paladin		0 0 11 0 0 0 		10	100 78
+Master		0 0 11 0 0 0 		10	100 78
+~
+Help For &2"Detect Poison"&n
+
+&3Level&n       : 10
+&3Usage&n       : &4cast 'detect poison' (victim | food | drink)&n
+&3Accumulative&n: No
+&3Duration&n    : Instantaneous
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+Cast on food or drinks (drink containers) you will be able to
+sense if it is poisoned.
+
+Cast on a person you will be able to see if that person is
+poisoned.
+ 
+~
+S "DIMENSION GATE"
+80 120 1
+Druid           17 14 18 10 10 0            60      100 100
+Master          17 14 18 10 10 0            50      100 100
+~
+Help For &2"Dimension Gate"&n
+
+&3Level&n   : 60 Druid, 50 Master
+&3Usage&n   : &4cast 'dimension gate' <victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Druid, Master
+
+Similar to the summon spell, this spell allows you to create a dimension gate
+from yourself to another player. This will be a one way gate, allowing you,
+and anyone else who happens upon it, to travel through space and time to the
+victim.
+
+Some restrictions apply:
+
+  * You cannot dimension gate to PKill areas.
+  * You can only target players who have summon protection turned off.
+  * You cannot target players who are more than 10 levels above you.
+
+~
+S "DISPEL EVIL"
+1 15 1
+Cleric 		0 0 10 0 0 0 		25	100 78
+Druid		0 0 10 0 0 0 		25	100 78
+Priest		0 0 10 0 0 0 		25	100 78
+Paladin		0 0 10 0 0 0 		25	100 78
+Master		0 0 10 0 0 0 		25	100 78
+~
+Help For &2"Dispel Evil"&n
+
+&3Level&n   : 25
+&3Usage&n   : &4cast 'dispel evil' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Special
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master
+
+This spell will only affect evil creatures. An evil person of level
+equal or less than caster will suffer 100 damage points.
+
+If the victim is higher level than caster, the spell will inflict
+(caster_level)d4 damage points, saving throw versus half damage.
+
+See Also: DISPEL GOOD
+~
+
+S "DISPEL GOOD"
+1 15 1
+Cleric 		0 0 10 0 0 0 		25	100 78
+Druid		0 0 10 0 0 0 		25	100 78
+Priest		0 0 10 0 0 0		25	100 78
+Paladin		0 0 10 0 0 0 		25	100 78
+Master		0 0 10 0 0 0 		25	100 78
+~
+Help For &2"Dispel Good"&n
+
+&3Level&n   : 25
+&3Usage&n   : &4cast 'dispel good' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Special
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master
+
+This spell will only affect good creatures.  A good person of level
+equal or less than the caster will suffer 100 damage points.
+
+If the vistim is higher level than the caster, the spell will inflict
+(caster_level)d4 damage points, saving throw versus half damage.
+
+See Also: DISPEL EVIL
+~
+
+S "DIVINE HEAL"
+55 150 1
+Master		17 0 17 0 0 0 		45	100 78
+~
+Help For &2"Divine Heal"&n
+
+&3Level&n   : 45
+&3Usage&n   : &4cast 'divine heal' (target)&n
+&3Duration&n: Instantaneous
+&3Class&n   : Master
+
+Will heal damage done by 300 + caster level.
+
+See Also: Heal & Advanced Heal
+~
+
+S "DIVINE PROTECTION"
+55 150 1
+Master		0 0 17 16 0 0		35	100 78
+~
+Help For &2"Divine Protection"&n
+
+&3Level&n   : 35
+&3Usage&n   : &4cast 'divine protection'&n
+&3Duration&n: 7 Hours
+&3Class&n   : Master
+
+The user calls upon their deity for protection. Does -40
+to Armor.
+~
+
+S DRAGON 
+25 50 1
+Druid		13 0 14 15 0 0		65	100 78
+SpellSword	13 0 14 15 0 0 		65	100 78
+BattleMage	13 0 14 15 0 0 		65	100 78
+Master		13 0 14 15 0 0 		65	100 78
+~
+Help For &2"Dragon"&n
+
+&3Level&n       : 65
+&3Usage&n       : &4cast 'dragon' <self>&n
+&3Accumulative&n: No
+&3Duration&n    : 8 to 10 hours
+&3Class&n       : Druid, SpellSword, BattleMage, Master
+
+This will turn you into a dragon that is able to fly and 
+depending on your alignment it will add special attributes to 
+your person. As you become higher in levels this spell will 
+also become more powerful.
+~
+
+S EARTHQUAKE
+11 25 1
+Magician	0 14 17 0 0 0 		15	100 78
+Druid		0 14 17 0 0 0		15	100 78
+SpellSword	0 14 17 0 0 0 		15	100 78
+BattleMage	0 14 17 0 0 0 		15	100 78
+Master		0 14 17 0 0 0		15	100 78
+~
+Help For &2"Earthquake"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4cast 'earthquake'&n
+&3Duration&n: Instantaneous
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+The caster calls upon the great powers of the earth elementals, who cause
+the ground itself to rise up and quake underneath their foes.
+This spell will damage everybody except the caster by
+1d8+level_of_caster hitpoints.
+
+See Also: - 
+~
+S "ENCHANT WEAPON"
+50 85 1
+Cleric		16 10 0 0 0 0 		40	100 100
+Magician	16 10 0 0 0 0		40	100 100
+Druid		16 10 0 0 0 0		40	100 100
+SpellSword	16 10 0 0 0 0 		40	100 100
+Priest		16 10 0 0 0 0		40	100 100
+BattleMage	16 10 0 0 0 0		40	100 100
+Paladin	        16 10 0 0 0 0 		40	100 100
+Master		16 10 0 0 0 0		40	100 100
+~
+Help For &2"Enchant Weapon"&n
+
+&3Level&n       : 40
+&3Usage&n       : &4cast 'enchant weapon' <weapon>&n
+&3Accumulative&n: No
+&3Duration&n    : Permanent
+&3Class&n       : Cleric, Magician, Druid, Spellsword, Priest, Battlemage, 
+              Paladin, Master
+
+This spell will enchant non-magical (non-modifying) weapons only.
+By non-modifying weapons we refer to weapons that might alter any
+ability such as for example damage. The only way to know if a weapon
+is suitable for enchantment is to fully identify it.
+
+The enchantment will modify the weapon as:
+
+Level    Hit Roll    Damage
+
+ 0..17     +1         +1
+18..19     +2         +1
+20+        +2         +2
+~
+
+S "ENERGY DRAIN"
+25 50 1
+Magician	15 0 0 10 0 0 		15	100 78
+Druid		15 0 0 10 0 0		15	100 78
+SpellSword	15 0 0 10 0 0 		15	100 78
+BattleMage	15 0 0 10 0 0 		15	100 78
+Master		15 0 0 10 0 0 		15	100 78
+~
+Help For &2"Energy Drain"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4cast 'energy drain' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell does not give much damage, but victims failing their
+saving throws will loose up to 40,000 XP points. You will gain
+a quarter of this XP.
+
+Beware! This spell is evil!!
+~
+
+S FEAR 
+25 50 1
+Magician	15 0 15 0 0 0 		25	100 78
+Druid		15 0 15 0 0 0 		25	100 78
+SpellSword	15 0 15 0 0 0 		25	100 78
+BattleMage	15 0 15 0 0 0 		25	100 78
+Master		15 0 15 0 0 0 		25	100 78
+~
+Help For &2"Fear"&n
+
+&3Level&n   : 25
+&3Usage&n   : &4cast 'fear' <victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell casts fear on your victims making them flee.
+~
+
+S "FINGER OF DEATH"
+275 50 1
+Druid		18 0 0 0 0 0 		65	100 78
+SpellSword	18 0 0 0 0 0 		65	100 78
+BattleMage	18 0 0 0 0 0 		65	100 78
+Master		18 0 0 0 0 0 		65	100 78
+~
+Help For &2"Finger Of Death"&n
+
+&3Level&n   : 65
+&3Usage&n   : &4cast 'finger' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Druid, SpellSword, BattleMage & Master
+
+This spell does a huge amount of damage to the victim with a
+chance of killing outright.
+~
+
+S "FIRE SHIELD"
+85 50 1
+Master		18 16 17 0 17 0		85	100 78
+~
+Help For &n"Fire Shield"&n
+
+&3Level&n   : 85
+&3Usage&n   : &4cast 'fire shield'&n
+&3Duration&n: 5hrs
+&3Class&n   : Master
+	
+Caster has a fire "touch" put on their shield.  Makes their shield more
+powerfull, and when the caster is hit by an armed attack, the shield may
+throw fire balls at their attacker at a damage rate depending on the level 
+of the caster.
+~
+
+S "FIRE WALL"
+85 50 1
+Master		18 16 17 0 17 0		85	100 78
+~
+Help For &2"Fire Wall"&n
+
+&3Level&n   : 85
+&3Usage&n   : &4cast 'fire wall'&n
+&3Duration&n: 6 hrs
+&3Class&n   : Master.
+
+Caster has a wall of fire put around them.  Improves their defences and
+increases their offensive by having the chance of burning their armed
+attackers.  The damage done to the attacker depends upon the caster's
+level.
+~
+
+S "FIREBALL"
+5 15 1
+Magician	16 0 0 0 0 0 		20	100 78
+Druid		16 0 0 0 0 0 		20	100 78
+SpellSword	16 0 0 0 0 0 		20	100 78
+BattleMage	16 0 0 0 0 0 		20	100 78
+Master		16 0 0 0 0 0 		20	100 78
+~
+Help For &2"Fireball"&n
+
+&3Level&n   : 20
+&3Usage&n   : &4cast 'fireball' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+The Magic User creates a huge ball of pure fire, which is then thrown
+toward the victim.  When hit, they are surrounded by a searing fire.
+
+See Also: COLORSPRAY
+~
+
+S FLY 
+65 50 1
+Cleric 		16 0 16 14 14 0		35	100 78
+Magician	16 0 16 14 14 0 	35	100 78
+Druid		16 0 16 14 14 0 	35	100 78
+SpellSword	16 0 16 14 14 0 	35	100 78
+Priest		16 0 16 14 14 0 	35	100 78
+BattleMage	16 0 16 14 14 0 	35	100 78
+Paladin		16 0 16 14 14 0 	35	100 78
+Master		16 0 16 14 14 0 	35	100 78
+~
+Help For &2"Fly"&n
+
+&3Level&n   : 35
+&3Usage&n   : &4cast 'fly' <self>&n
+&3Duration&n: 8 hours
+&3Class&n   : Cleric, Magician, Druid, SpellSword, Priest,
+          BattleMage, Paladin, Master.
+
+This spell allows you to levitate for a short period of time ! Wheeeee
+ 
+~
+
+S "GREATER REMOVE CURSE"
+45 90 3
+Master		0 0 11 0 0 0 		60	100 75
+~
+Help for &2"Greater Remove Curse"&n
+
+&3Level&n   : 60
+&3Usage&n   : &4cast 'greater remove curse' <person>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Master
+
+Will remove a curse on the person and all the cursed items 
+that the person is wearing. Removing a curse on an object 
+also allows you to sell it at the armourer or weaponsmith.
+
+See Also: "REMOVE CURSE", CURSE
+
+~
+
+S "GROUP ARMOR"
+15 25 1
+Druid		0 0 17 0 0 0 		35	100 78
+Priest		0 0 17 0 0 0 		35	100 78
+Paladin		0 0 17 0 0 0 		35	100 78
+Master		0 0 17 0 0 0 		35	100 78
+~
+Help For &2"Group Armor"&n
+
+&3Level&n   : 35
+&3Usage&n   : &4cast 'group armor'&n
+&3Duration&n: 24 hours
+&3Class&n   : Druid, Priest, Paladin, Master
+
+The armor spell will improve your ac
+
+See Also: Group, Group Heal, Group Sanctuary
+~
+
+S "GROUP HEAL"
+50 85 5
+Druid		0 0 18 0 0 0 		35	100 78
+Priest		0 0 18 0 0 0 		35	100 78
+Paladin		0 0 18 0 0 0 		35	100 78
+Master		0 0 18 0 0 0 		35	100 78
+~
+Help For &2"Group Heal"&n
+
+&3Level&n   : 35
+&3Usage&n   : &4cast 'group heal'&n
+&3Duration&n: Instantaneous
+&3Class&n   : Druid, Priest, Paladiin, Master
+
+This spell will heal all members of the group.
+
+See Also HEAL
+~
+
+S "GROUP SANCTUARY"
+85 50 1
+Druid		15 0 17 0 0 0 		35	100 78
+Priest		15 0 17 0 0 0 		35	100 78
+Paladin		15 0 17 0 0 0 		35	100 78
+Master		15 0 17 0 0 0 		35	100 78
+~
+Help For &2"Group Sanctuary"
+
+&3Level&n   : 35
+&3Usage&n   : &4cast 'group sanctuary'&n
+&3Duration&n: 13 Hours
+&3Save&n    : Yes
+&3Class&n   : Druid, Priest, Paladin, Master.
+
+This spell will cast sanctuary on all members of the group.
+~
+
+S HARM 
+56 50 1
+Magician	0 0 18 0 0 0 		20	100 78
+Druid		0 0 18 0 0 0 		20	100 78
+SpellSword	0 0 18 0 0 0 		20	100 78
+BattleMage	0 0 18 0 0 0 		20	100 78
+Master		0 0 18 0 0 0 		20	100 78
+~
+Help For &2"Harm"&n
+
+&3Level&n   : 20
+&3Usage&n   : &4cast 'harm' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell removes all but 1d4 hitpoints from the victim. The
+maximum number of damage points are 100. It is not possible to
+kill using this spell (but almost).
+~
+
+S HASTE
+75 50 1
+Master		16 0 15 16 0 0		75	100 78
+~
+Help For &2"Haste"&n
+
+&3Level&n       : 75
+&3Usage&n       : &4cast 'haste'&n
+&3Accumulative&n: No
+&3Duration&n    : 7 Hours
+&3Class&n       : Master
+
+The Haste spell will double your number of attacks for a 
+short time and reduce movement use by half.
+~
+
+S HEAL 
+15 30 2
+Cleric 		0 0 16 0 0 0 		15	100 78
+Druid		0 0 16 0 0 0 		15	100 78
+Priest		0 0 16 0 0 0 		15	100 78
+Paladin		0 0 16 0 0 0 		15	100 78
+Master		0 0 16 0 0 0 		15	100 78
+~
+Help For &2"Heal"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4cast 'heal' <victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master
+
+Heal will heal all the hitpoints from a person, execpt 1d4 points.
+Maximum 100 points can be healed. A victim who is blinded will also
+be cured by the heal spell.
+
+See Also: "Cure Blindness", Advanced Heal, Divine Heal & Group Heal
+~
+
+S "HOLY AID"
+50 50 1
+Cleric 		0 16 17 0 0 0		45	100 78
+Druid		0 16 17 0 0 0		45	100 78
+Priest		0 16 17 0 0 0		45	100 78
+Paladin		0 16 17 0 0 0		45	100 78
+Master		0 16 17 0 0 0		45	100 78
+~
+Help For &2"Holy Aid"&n
+
+&3Level&n       : 45
+&3Usage&n       : &4cast 'holy aid' [self]&n
+&3Accumulative&n: No
+&3Duration&n    : 5 Hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+The Holy Aid spell will improve your AC by -10, HITROLL +3, DAMROLL +4
+
+See Also: AC
+~
+
+S IDENTIFY
+1 10 2
+Cleric 		3 3 3 3 3 3 		45	100 78
+Druid		3 3 3 3 3 3 		45	100 78
+Priest		3 3 3 3 3 3 		45	100 78
+Paladin		3 3 3 3 3 3 		45	100 78
+Master		3 3 3 3 3 3 		45	100 78
+~
+Help For &2"Identify"&n
+
+&3Level&n   : 45
+&3Usage&n   : &4cast 'identify' <target>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master
+
+This spell gives the caster information about the targets
+properties. For example, when cast on a mobile or player, 
+it gives the properties and stats of the character. When
+cast on an object, it informs the caster of the object
+type, restrictions, affects etc. 
+
+See Also: - SCROLLS
+~
+
+S INFRAVISION
+5 25 5
+Cleric 		13 0 0 0 0 0 		10	100 78
+Druid		13 0 0 0 0 0 		10	100 78
+Priest		13 0 0 0 0 0 		10	100 78
+Paladin		13 0 0 0 0 0 		10	100 78
+Master		13 0 0 0 0 0 		10	100 78
+~
+Help For &2"Infravision"&n
+
+&3Level&n       : 10
+&3Usage&n       : &4cast 'infra' <self/victim>&n
+&3Accumulative&n: No
+&3Duration&n    : 24 hours
+&3Save&n        : Yes
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+This spell allows you to see in the dark without the aid of a light.
+
+~
+
+S INVISIBILITY
+1 20 1
+Cleric 		17 0 0 0 0 0 		10	100 35
+Magician	17 0 0 0 0 0 		10	100 50
+Druid		17 0 0 0 0 0 		10	100 85
+SpellSword	17 0 0 0 0 0		10	100 75
+Priest		17 0 0 0 0 0 		10	100 75
+Battlemage	17 0 0 0 0 0		10	100 75
+Paladin		17 0 0 0 0 0 		10	100 75
+Master		17 0 0 0 0 0 		10	100 100
+~
+Help For &2"Invisibility"&n
+
+&3Level&n       : 10
+&3Usage&n       : &4cast 'invisibility' <self | victim | object>&n
+&3Accumulative&n: No
+&3Duration&n    : 24 hours, permanent on objects.
+&3Class&n       : Cleric, Magician, Druid, SpellSword, Priest 
+Battlemage, 
+              Paladin, Master
+
+The caster, upon completing this spell, becomes invisible to almost all
+monsters/players.  Only those creatures with the ability or spell "See
+Invisible" will be able to sense the presence of the caster.
+Attacking while invisible will immediately break the spell, as will
+typing "vis".
+
+See Also: "detect invisibility"
+~
+
+S "LIGHTNING BOLT"
+8 15 1
+Magician	12 0 0 0 0 0 		10	100 78
+Druid		12 0 0 0 0 0 		10	100 78
+SpellSword	12 0 0 0 0 0 		10	100 78
+BattleMage	12 0 0 0 0 0 		10	100 78
+Master		12 0 0 0 0 0 		10	100 78
+~
+Help For &2"Lightning Bolt"&n
+
+&3Level&n   : 10
+&3Usage&n   : &4cast 'lightning bolt' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell is more powerful than the shocking grasp spell.
+
+The caster causes a lightning bolt to fly forth from their hands,
+causing severe electrical damage to any creature in it's path.
+
+See Also: SHOCKING GRASP
+~
+
+S "LIGHTNING SHIELD"
+106 50 1
+Druid		18 15 17 0 18 0		70	100 78
+SpellSword	18 15 17 0 18 0		70	100 78
+BattleMage	18 15 17 0 18 0		70	100 78
+Master		18 15 17 0 18 0		70	100 78
+~
+Help For &2"Lightning Shield"&n
+
+&3Level&n   : 70
+&3Usage&n   : &4cast 'lightning shield'&n
+&3Duration&n: 5 hrs
+&3Class&n   : Druid, SpellSword, BattleMage, Master
+
+Defence/Offensive spell. Caster has a lightning "touch" put on their shield.
+Makes their shield more powerful, and when the caster is hit by an armed attack,
+the shield may throw lighting bolts at their attacker at a damage rate depending 
+on the level of caster.  Once shield is removed the spell will be removed as
+well.
+~
+
+S "LOCATE OBJECT"
+5 5 1
+Cleric 		16 0 0 0 0 0 		15	100 78
+Magician	16 0 0 0 0 0 		15	100 78
+Druid		16 0 0 0 0 0 		15	100 78
+SpellSword	16 0 0 0 0 0		15	100 78
+Priest		16 0 0 0 0 0		15	100 78
+BattleMage	16 0 0 0 0 0 		15	100 78
+Paladin		16 0 0 0 0 0 		15	100 78
+Master		16 0 0 0 0 0 		15	100 78
+~
+Help For &2"Locate Object"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4cast 'locate object' <object>&n
+&3Duration&n: Instantaneous
+&3Save&n    : None
+&3Class&n   : Cleric, Magician, Druid, SpellSword, Priest,
+          BattleMage, Paladin, Master
+
+If possible you will know exactly where an object is, or the
+name of the person using it. If more than one object by the
+same name exists, you will get a listing of several objects.
+The maximum number of objects you can simultaneously locate is
+your level divided by 2.  Be warned, this spell is not very 
+good at judging exactly what you are looking for. 
+~
+S "MAGIC MISSILE"
+2 5 1
+Magician	10 0 0 0 0 0		1	100 78
+Druid		10 0 0 0 0 0		1	100 78
+SpellSword	10 0 0 0 0 0		1	100 78
+BattleMage	10 0 0 0 0 0		1	100 78
+Master		10 0 0 0 0 0		1	100 78
+~
+Help For &2"Magic Missile"&n
+
+&3Level&n   : 1
+&3Usage&n   : &4cast 'magic missile' <victim>&n
+&3Duration&n: Instantaneous
+&3Save&n    : Versus spell for half damage.
+&3Class&n   : Magician, Druid, Spellsword, BattleMage, Master
+
+This is the least powerful offensive magic user spell.
+
+The caster creates a small dart, which is then loosed at the target.  As
+the Magic User gains levels, so they are able to create more and bigger
+darts.
+
+~
+S "METEOR SWARM"
+87 50 1
+Magician	18 0 0 0 0 0 		30	100 78
+Druid		18 0 0 0 0 0 		30	100 78
+SpellSword	18 0 0 0 0 0 		30	100 78
+BattleMage	18 0 0 0 0 0 		30	100 78
+Master		18 0 0 0 0 0 		30	100 78
+~
+Help For &2"Meteor Swarm"&n
+
+&3Level&n   : 30
+&3Usage&n   : &4cast 'meteor swarm'&n
+&3Duration&n: Instantaneous
+&3Class&n   : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell is a powerful area affects spell. When invoked it causes 
+white hot meteors to shoot from the casters outstretched hands, these
+meteors then explode resulting in a smaller scale fireball effect.
+
+This spell causes a great deal of damage 11d8+(level_caster* 0.75)
+~
+
+S NOHASSLE
+275 50 1
+Master		21 0 21 0 21 0 		80	100 78
+~
+Help For &2"Nohassle"&n
+
+&3Level&n   : 80
+&3Usage&n   : &4cast 'nohassle' [self]&n
+&3Duration&n: 11hrs
+&3Class&n   : Master
+
+This spell allows the castor to walk around aggressive mobs without being
+attacked.
+
+~
+
+S PARALYZE 
+7 15 1
+Magician	15 0 16 0 0 0 		40	100 78
+Druid 		15 0 16 0 0 0 		40	125 75
+SpellSword	15 0 16 0 0 0 		40	100 78
+BattleMage	15 0 16 0 0 0 		40	100 78
+Master		15 0 16 0 0 0 		40	100 78
+~
+Help for &2"Paralyze"&n
+
+&3Level&n       : 40
+&3Usage&n       : &4cast 'paralyze' <victim>&n
+&3Accumulative&n: Instant
+&3Duration&n    : 6 Hours 
+&3Class&n       : Magician, Druid, SpellSword, BattleMage, Master
+
+This spell stops the victim for the durtion of the spell and stops
+a mob from fleeing.
+~
+
+S "PLASMA BLAST" 
+62 50 1
+Magician	18 0 0 0 0 0 		25	100 78
+Druid 		18 0 0 0 0 0 		25	125 75
+SpellSword	18 0 0 0 0 0 		25	100 78
+BattleMage	18 0 0 0 0 0 		25	100 78
+Master		18 0 0 0 0 0 		25	100 78
+~
+Help for &2"Plasma Blast"&n
+
+&3Level&n       : 25
+&3Usage&n       : &4cast 'plasma/plasma blast' <victim>&n
+&3Accumulative&n: Instant
+&3Save&n        : Versus spell for half damage
+&3Class&n       : Magician, Druiud, SpellSword, BattleMage, Master.
+
+The plasma blast conjures a ball of plasma causing horrific burns to your 
+victim.
+~
+
+S POISON
+6 8 1
+Magician	0 0 17 16 0 0 		45	100 78
+Druid 		0 0 17 16 0 0 		45	125 75
+Spellsword	0 0 17 16 0 0 		45	125 66
+Battlemage 	0 0 17 16 0 0		45	133 70
+Master		0 0 17 16 0 0 		45	100 78
+~
+Help for &2"Poison"&n
+
+&3Level&n       : 45
+&3Usage&n       : &4cast 'poison' <victim>&n
+&3Accumulative&n: No
+&3Save&n        : Yes
+&3Class&n       : Magician; Druid; Priest; Paladin; Master
+
+When used against a mob you will find them becoming ill.
+This will eventually weaken them to a state of death.
+~
+
+S "PROTECTION FROM EVIL" 
+23 50 5
+Cleric 		0 0 17 16 0 0 		35	100 78
+Druid 		0 0 17 16 0 0 		35	125 75
+Priest 		0 0 17 16 0 0 		35	125 66
+Paladin 	0 0 17 16 0 0		35	133 70
+Master		0 0 17 16 0 0 		35	100 78
+~
+Help for &2"Protection From Evil"&n 
+
+&3Level&n       : 35
+&3Usage&n       : &4cast 'protection from evil' <self>&n
+&3Accumulative&n: No
+&3Duration&n    : 24 hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+This spell will reduce the amount of damage an evil aligned
+mob will do to you 
+
+See Also: Protection From Good, Sanctuary, Bless
+~
+
+S "PROTECTION FROM GOOD" 
+23 50 5
+Cleric 		0 0 18 16 0 0 		35	100 78
+Druid 		0 0 18 16 0 0 		35	125 75
+Priest 		0 0 18 16 0 0 		35	125 66
+Paladin 	0 0 18 16 0 0		35	133 70
+Master		0 0 18 16 0 0 		35	100 78
+~
+Help for &2"Protection From Good"&n 
+
+&3Level&n       : 35
+&3Usage&n       : &4cast 'protection from good' <self>&n
+&3Accumulative&n: No
+&3Duration&n    : 24 hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+This spell will reduce the amount of damage a good aligned
+mob will do to you.
+ 
+See Also: Protection From Evil, Sanctuary, Bless
+~
+
+S RECALL 
+9 15 1
+Cleric 		16 0 0 13 0 0 		20	100 78
+Magician	16 0 0 13 0 0 		20	100 78
+Druid 		16 0 0 13 0 0 		20	125 75
+SpellSword	16 0 0 13 0 0		20	100 100
+Priest 		16 0 0 13 0 0 		20	125 66
+BattleMage	16 0 0 13 0 0		20	100 100
+Paladin 	16 0 0 13 0 0		20	133 70
+Master		16 0 0 13 0 0		20	100 100
+~
+Help for &2"Recall"&n
+
+&3Level&n   : 20
+&3Usage&n   : &4cast 'recall'&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Magician, Druid, SpellSword, Priest, BattleMage, 
+          Paladin, Master
+
+The caster will be transferred back to his sanctuary (reception).
+
+See Also: "Recall Command"
+
+
+~
+
+S REFRESH 
+7 15 1
+Cleric 		0 0 16 14 0 0 		5	100 78
+Druid 		0 0 16 14 0 0 		5	125 75
+Priest 		0 0 16 14 0 0 		5	125 66
+Paladin 	0 0 16 14 0 0		5	133 70
+Master		0 0 16 14 0 0 		5	100 78
+~
+Help for &2"Refresh"&n
+
+&3Level&n   : 5
+&3Usage&n   : &4cast 'refresh' self/victim&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Druid, Priest, Paladiin, Master
+
+This spell restores movement points to you or your victim.
+~
+
+S "REMOVE CURSE"
+3 15 1
+Cleric 		0 0 11 0 0 0		40	100 75
+Druid 		0 0 11 0 0 0		40	100 75
+Priest 		0 0 11 0 0 0		40	100 75
+Paladin 	0 0 11 0 0 0		40	100 75
+Master		0 0 11 0 0 0 		40	100 75
+~
+Help for &2"Remove Curse"&n
+
+&3Level&n   : 40
+&3Usage&n   : &4cast 'remove curse' <person | object>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master
+
+Will remove a curse on carried objects or any persons in the room.
+Removing a curse on an object also allows you to sell it at the
+armourer or weaponsmith.
+
+See Also: CURSE
+~
+
+S "REMOVE PARALYSIS"
+3 15 1
+Cleric 		15 0 17 0 0 0 		45	100 78
+Druid 		15 0 17 0 0 0 		45	125 75
+Priest 		15 0 17 0 0 0 		45	125 66
+Paladin 	15 0 17 0 0 0		45	133 70
+Master		15 0 17 0 0 0 		45	100 78
+~
+Help for &2"Remove Paralysis"&n
+
+&3Level&n   : 45
+&3Usage&n   : &4cast 'remove paralysis' <victim>&n
+&3Duration&n: Instant
+&3Class&n   : Cleric, Druid, Priest, Paladin, Master.
+
+This spell removes paralysis from the victim.
+ 
+~
+
+S "REMOVE POISON"
+3 15 1
+Cleric 		0 0 13 0 0 0 		20	100 78
+Druid 		0 0 13 0 0 0 		20	125 75
+Priest 		0 0 13 0 0 0 		20	125 66
+Paladin 	0 0 13 0 0 0		20	133 70
+Master		0 0 13 0 0 0 		20	100 78
+~
+Help for &2"Remove Poison"&n
+
+&3Level&n       : 20
+&3Usage&n       : &4cast 'remove poison' <victim | food | drink>&n 
+&3Accumulative&n: No
+&3Duration&n    : Instantaneous
+&3Save&n        : None
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+Will remove poison.
+
+~
+
+S SANCTUARY 
+25 50 5
+Cleric 		15 0 16 0 0 0 		30	100 78
+Druid 		15 0 16 0 0 0 		30	125 75
+Priest 		15 0 16 0 0 0 		30	125 66
+Paladin 	15 0 16 0 0 0		30	133 70
+Master		15 0 16 0 0 0 		30	100 100
+~
+Help for &2"Sanctuary"&n
+
+&3Level&n       : 30
+&3Usage&n       : &4cast 'sanctuary' [self]&n
+&3Accumulative&n: Yes
+&3Duration&n    : 5 hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+This spell calls upon the powers of the casters god to protect them in
+battle.  When protected by sanctuary you receive half damage.
+~
+
+S "SENSE LIFE"
+2 5 1
+Cleric 		0 0 16 0 0 0 		35	100 78
+Druid 		0 0 16 0 0 0 		35	125 75
+Priest 		0 0 16 0 0 0 		35	125 66
+Paladin 	0 0 16 0 0 0		35	133 70
+Master		0 0 16 0 0 0 		35	100 100
+~
+Help for &2"Sense Life"&n
+
+&3Level&n       : 35
+&3Usage&n       : &4cast 'sense life' [self]&n
+&3Accumulative&n: No
+&3Duration&n    : 3 hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+This spell allows you to see hidden mobs.
+
+~
+
+S "SENSE WOUNDS"
+20 15 1
+Cleric		0 0 16 0 0 0		20	100 78
+Druid		0 0 16 0 0 0		20	125 75
+Priest		0 0 16 0 0 0		20	125 66
+Paladin		0 0 16 0 0 0		20	133 70
+Master		0 0 16 0 0 0		20	100 100
+~
+Help for &2"Sense Wounds"&n
+
+&3Level&n       : 20
+&3Usage&n       : &4cast 'sense wounds' [self]&n
+&3Accumulative&n: No
+&3Duration&n    : Level/4
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+This spell informs you when your comrades are in need of healing. As you are
+fighting, you will be alerted when other members of your group need healing.
+In addition to this, you will be alerted when other players in the same room
+as you need healing, also.
+
+~
+
+S "SERPENT SKIN"
+87 50 1
+Druid 		16 0 17 0 0 0 		65	125 75
+SpellSword	16 0 17 0 0 0 		65	100 100
+Priest 		16 0 17 0 0 0 		65	125 66
+BattleMage	16 0 17 0 0 0 		65	100 100
+Paladin 	16 0 17 0 0 0		65	133 70
+Master		21 0 20 0 0 0 		65	100 100
+~
+Help for &2"Serpent Skin"&n
+
+&3Level&n   : 65
+&3Usage&n   : &4Cast 'serpent skin' <self | victim>&n
+&3Duration&n: 3 hrs
+&3Class&n   : Druid, SpellSword, Priest, BattleMage, Paladin, Master
+
+This spell reflects damage inflicted on you by others. To be able to cast
+this spell you need a special item that can only be used once.
+
+~
+
+S "SHOCKING GRASP"
+8 15 1
+Magician	10 0 0 0 0 0 		7	100 78
+Druid 		10 0 0 0 0 0 		7	125 75
+SpellSword	10 0 0 0 0 0 		7	100 100
+BattleMage	10 0 0 0 0 0 		7	100 100
+Master		10 0 0 0 0 0 		7	100 100
+~
+Help for &2"Shocking Grasp"&n
+
+&3Level&n       : 7
+&3Usage&n       : &4cast 'shocking grasp' <victim>&n
+&3Duration&n    : Instantaneous
+&3Save&n        : Versus spell for half damage.
+&3Class&n       : Magician, Druid, SpellSword, BattleMage, Master.
+
+This spell is more powerful than the burning hands spell.
+
+The caster creates a store of energy in their hands, which is released
+with explosive effects when the victim is touched.
+
+See Also: BURNING HANDS
+~
+
+S SLEEP
+3 15 1
+Cleric 		12 0 0 0 0 0 		20	100 78
+Magician	12 0 0 0 0 0 		20	100 78
+Druid 		12 0 0 0 0 0 		20	125 75
+SpellSword	12 0 0 0 0 0 		20	100 100
+Priest		12 0 0 0 0 0		20      100 100
+NightBlade	12 0 0 0 0 0		20      100 100 
+BattleMage	12 0 0 0 0 0 		20	100 100
+Paladin		12 0 0 0 0 0		20      100 100
+Master		12 0 0 0 0 0 		20	100 100
+~
+Help for &2"Sleep spell"&n
+
+&3Level&n       : 20
+&3Usage&n       : &4cast 'sleep' <person>&n
+&3Accumulative&n: Yes (duration)
+&3Duration&n    : 4 hours + one hour per level
+&3Save&n        : versus Spell
+&3Class&n       : Cleric, Magician, Druid, SpellSword, Priest,
+                  NightBlade, BattleMage, Paladin, Master
+
+If failing saving throw versus spell, the person will fall asleep.
+A person who is affected by sleep can only be awakened if attacked.
+~
+
+S "SPIRIT ARMOR"
+25 50 1
+Cleric 		0 0 17 0 0 0 		35	100 78
+Druid 		0 0 17 0 0 0 		35	125 75
+Priest 		0 0 17 0 0 0 		35	125 66
+Paladin 	0 0 17 0 0 0		35	133 70
+Master		0 0 17 0 0 0		35	133 70
+~
+Help for &2"Spirit Armor"&n
+
+&3Level&n       : 35
+&3Usage&n       : &4cast 'spirit armor' [self]&n
+&3Accumulative&n: No
+&3Duration&n    : 8 Hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+The Armor spell will improve your AC by -30
+
+See Also: AC
+~
+
+S STONESKIN
+58 50 1
+Druid 		16 0 17 0 0 0 		60	125 75
+Priest 		16 0 17 0 0 0 		60	125 66
+Paladin 	16 0 17 0 0 0	 	60	133 70
+Master		16 0 17 0 0 0 		60	100 100
+~
+Help for &2"Stoneskin"&n
+
+&3Level&n       : 60
+&3Usage&n       : &4cast 'stoneskin' [self]&n
+&3Accumulative&n: Yes
+&3Duration&n    : 10hrs
+&3Class&n       : Druid, Priest, Paladin, Master
+
+The spell will reduce your AC down by -40
+ 
+~
+
+S STRENGTH 
+7 15 1
+Cleric 		10 0 0 12 0 0 		20	100 78
+Druid 		10 0 0 12 0 0 		20	125 75
+Priest 		10 0 0 12 0 0 		20	125 66
+Paladin 	10 0 0 12 0 0		20	133 70
+Master		10 0 0 12 0 0 		20	100 100
+~
+Help for &2"Strength"&n
+
+&3Level&n       : 20
+&3Usage&n       : &4cast 'strength' <Self | Victim>&n
+&3Accumulative&n: Yes
+&3Duration&n    : Level hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+A person will gain 1 strength point. (2 points if level of
+caster is greater than 18). Maximum strength is 18/100.
+
+~
+
+S SUMMON 
+7 25 1
+Cleric 		16 0 0 14 0 0 		20	100 78
+Magician	16 0 0 14 0 0 		20	100 78
+Druid 		16 0 0 14 0 0 		20	125 75
+SpellSword	16 0 0 14 0 0 		20	100 100
+Priest 		16 0 0 14 0 0 		20	125 66
+BattleMage	16 0 0 14 0 0 		20	100 100
+Paladin 	16 0 0 14 0 0		20	133 70
+Master		16 0 0 14 0 0 		20	100 100
+~
+Help for &2"Summon"&n
+
+&3Level&n       : 20
+&3Usage&n       : &4cast 'summon' <victim>&n
+&3Duration&n    : Instantaneous
+&3Save&n        : versus Spell (?)
+&3Class&n       : Cleric, Magician, Druid, SpellSword, Priest
+                  BattleMage, Paladin, Master
+
+Will summon a person of the name spoken. It is not possible to
+summon someone of three or more levels above yourself, or anyone who has
+nosummon set on. If you attempt to summon a monster, it will get a saving
+throw.
+
+See Also: NOSUMMON
+
+~
+
+S TELEPORT 
+13 50 1
+Druid 		16 0 0 0 0 0 		15	125 75
+Priest 		16 0 0 0 0 0 		15	125 66
+Paladin 	16 0 0 0 0 0	 	15	133 70
+Master		16 0 0 0 0 0 		15	100 100
+~
+Help for &2"Teleport"&n
+
+&3Level&n       : 15
+&3Usage&n       : &4cast 'teleport'&n
+&3Duration&n    : Instant
+&3Class&n       : Druid, Priest, Paladiin, Master
+
+The caster will be randomly teleported within the current zone.
+Death traps excluded.
+~
+
+S "UNHOLY VENGEANCE"
+666 666 0
+Master		13 13 13 13 13 0	100	100 100
+~
+Help for &2"Unholy Vengeance"&n
+
+&3Level&n       : 100
+&3Usage&n       : &4cast 'unholy vengeance' <victim>&n
+&3Duration&n    : Instant
+&3Class&n       : Master
+
+The singlemost evil spell in the entire land. Unholy revenge is available
+exclusively to champion masters. This spell can only be cast upon another
+player, or god. It is the only way to ensure the death of another player.
+
+Be warned though, there is a tremendous cost for casting this spell. Use it
+at your own risk. YOU HAVE BEEN WARNED!
+
+Note: Casting this spell is the only way to progress beyond level 100.
+~
+
+S WATERBREATHE
+5 15 1
+Magician	18 0 16 18 0 0 		25	100 78
+Druid 		18 0 16 18 0 0 		25	125 75
+SpellSword	18 0 16 18 0 0		25	125 78
+BattleMage	18 0 16 18 0 0 		25	125 78
+Master		18 0 16 18 0 0		25	125 78
+~
+Help for &2"Waterbreathe"&n
+
+&3Level&n       : 25
+&3Usage&n       : &4cast 'waterbreath' [self]&n
+&3Duration&n    : 24 hours
+&3Class&n       : Magician, Druid, SpellSword, BattleMage, Master.
+
+This spell allows you to breath underwater and swim over water. By 
+casting this spell small fish-like gills magically appear on your neck
+and you take on a fish like appearance.
+~
+
+S WATERWALK 
+5 15 1
+Cleric 		15 0 12 0 13 0		40	100 78
+Druid 		15 0 12 0 13 0		40	100 78
+Priest 		15 0 12 0 13 0		40	100 78
+Paladin		15 0 12 0 13 0		40	100 78
+Master		15 0 12 0 13 0		40	100 78
+~
+Help for &2"Waterwalk"&n
+
+&3Level&n       : 40
+&3Usage&n       : &4cast 'waterwalk' <self/victim>&n
+&3Duration&n    : 24 hours
+&3Class&n       : Cleric, Druid, Priest, Paladin, Master
+
+Self explanetory.
+~
+
+S WHIRLWIND
+62 50 1
+Magician	0 18 21 0 17 0 		35	100 78
+Druid 		0 18 21 0 17 0 		35	125 75
+SpellSword	0 18 21 0 17 0 		35	100 100
+BattleMage	0 18 21 0 17 0 		35	100 100
+Master		0 18 21 0 17 0 		35	100 100
+~
+Help for &2"Whirlwind"&n
+
+&3Level&n       : 35
+&3Usage&n       : &4cast 'whirlwind'&n
+&3Duration&n    : Instantaneous
+&3Class&n       : Magician, Druid, SpellSword, BattleMage, Master
+
+The caster calls upon the great powers of the air elementals, who cause
+the air itself to swirl into a powerful whirlwind about their foes. This 
+spell will damage everybody except the caster by (4+1d3)*level_of_caster 
+hitpoints.
+~
+
+S "WRAITH TOUCH"
+187 50 1
+Druid 		16 0 15 16 0 0 		45	125 75
+SpellSword	16 0 15 16 0 0 		45	100 100
+BattleMage	16 0 15 16 0 0 		45	100 100
+Master		16 0 15 16 0 0 		45	100 100
+~
+Help for &2"Wraith Touch"&n
+
+&3Level&n       : 45
+&3Usage&n       : &4cast 'wraith touch'&n
+&3Duration&n    : Instantaneous
+&3Class&n       : Magician, Druid, SpellSword, BattleMage, Master
+
+The caster will be inflicting an incredible amount of damage on their
+hapless victim, while at the same time healing themselves. 
+This is an extremeley powerful spell that inflicts roughly 20d25 damage.
+
+~
+
+********************************************************************************
+# Skill Defitions
+********************************************************************************
+
+K BACKSTAB 
+Thief 		0 0 0 0 14 0 		5	100
+SpellSword 	0 0 0 0 14 0 		5	100
+Priest 		0 0 0 0 14 0 		5	125
+NightBlade	0 0 0 0 14 0 		5	125
+Master	 	0 0 0 0 14 0		5	133
+~
+Help for &2"Backstab"&n
+
+&3Level&n: 5
+&3Usage&n: &4backstab <victim>&n
+&3Class&n: Thief, SpellSword, Priest, NightBlade, Master
+
+Backstab is a way to sneak up on a person and attempt to place your dagger
+in their back, at exactly the point where it does most damage.  A successful
+backstab gives a damage multiplier, depending on level:
+
+Levels  Multiplier
+------  ----------
+ 1-7        2
+ 8-13       3
+14-20       4
+21-30       5
+
+The chance of successfully backstabbing a person depends on how well you
+have practiced backstab at your guild.  You can always backstab sleeping
+people.
+
+See Also: Kill Hit Blast 
+~
+
+K BASH 
+Warrior		0 17 0 0 0 0 		40	100
+NightBlade	0 17 0 0 0 0 		40	100
+BattleMage 	0 17 0 0 0 0 		40	125
+Paladin		0 17 0 0 0 0		40	100
+Master		0 17 0 0 0 0 		40	125
+~
+Help for &2"Bash"&2
+
+&3Level&n: 40
+&3Usage&n: &4bash <victim> <while fighting>&n 
+&3Class&n: Warrior, NightBlade, BattleMage, Paladin, Master
+
+This skill will send your victim to the ground for the duration of three
+rounds. Or if you fail you will be sitting for three rounds. In the time
+that you or the mob are on the ground will be unable to cast any spells.
+If you successfully bash a mob you will also hit them much harder in those
+three rounds.
+~
+
+K COMPARE 
+Cleric		3 3 3 3 3 3		5	100
+Thief		3 3 3 3 3 3		5	100
+Warrior		3 3 3 3 3 3 		5	100
+Magician	3 3 3 3 3 3  		5	100
+Druid 		3 3 3 3 3 3  		5	125
+SpellSword	3 3 3 3 3 3		5	100
+Priest 		3 3 3 3 3 3  		5	125
+NightBlade	3 3 3 3 3 3 		5	100
+BattleMage	3 3 3 3 3 3 		5	100
+Paladin 	3 3 3 3 3 3	 	5	133
+Master		3 3 3 3 3 3		5	100
+~
+Help for &2"Compare"&n
+
+&3Level&n: 5
+&3Usage&n: &4compare <object>(object)&n
+&3Class&n: All Classes
+
+This skill allows you to compare the value of objects in your possession.
+While not as effective as an identify scroll it does give you a general
+idea of the worth of items.
+~
+
+K "HEALING MASTERY"
+Master	 	0 19 0 0 19 0	 	65	133
+~
+Help for &2"Healing Mastery" &n
+
+&3Level&n: 65
+&3Usage&n: &4Automatic after practicing&n
+&3Class&n: Master
+
+This skill increases the EFFECTIVENESS of all healing spells by 30%
+The spells affected are: 
+Cure light, 
+Cure critic, 
+Heal, 
+Advanced heal, 
+Divine heal.
+
+See Also: Healing Efficiency
+~
+
+K "HEALING EFFICIENCY"
+
+Druid		0 18 0 0 18 0		45	115
+Priest		0 18 0 0 18 0		45	115
+Paladin		0 18 0 0 18 0		45	115
+Master	 	0 18 0 0 18 0	 	45	133
+~
+Help for &2"Healing Effeciency"&n
+
+&3Level&n: 45
+&3Usage&n: &4Automatic after practicing&n
+&3Class&n: Druid, Priest, Paladin and Master
+
+This skill increases the EFFECTIVENESS of healing spells by 10%
+The spells affected are: 
+Cure light, 
+Cure critic, 
+Heal, 
+Advanced heal, 
+Divine heal.
+
+See Also: Healing Mastery
+~
+
+K "BURGLERY"
+
+Master	 	0 15 0 0 13 0	 	1	133
+~
+Help for &2"Burglery"&n
+
+~
+
+K "SENSE STATS"
+Warrior		0 15 0 0 15 0		45	115
+Paladin		0 15 0 0 15 0		45	115
+Nightblade	0 15 0 0 15 0		45	115
+Battlemage	0 15 0 0 15 0		45	115
+Master	 	0 21 0 0 21 0	 	45	133
+~
+Help for &2"Sense Stats"&n
+
+
+&3Level&n: 45
+&3Usage&n: &4sense stats <mobname>&n
+&3Class&n: Warrior, Paladin, Nightblade, Battlemage, Master
+
+This skill gives you the breakdown of the mob you are sensing. 
+It will enable the warrior to sum up the mob he is about to attack.
+~
+
+K "SENSE CURSE"
+Thief		0 15 0 0 18 0		15	110
+Nightblade	0 15 0 0 18 0		15	110
+Spellsword	0 15 0 0 18 0		15	110
+Master	 	0 16 0 0 18 0	 	15	133
+~
+Help for &2"Sense Curse"&n
+
+&3Level&n: 15
+&3Usage&n: &4sense curse&n
+&3Class&n: Thief, Nightblade, Spellsword, Master
+
+This skill allows the user to see the cursed items within a room. 
+The item even if in a bag or backpack will still be shown on usage.
+~
+
+K "MOUNTAINEERING"
+Thief		0 15 0 0 13 0		45	110
+Warrior		0 15 0 0 13 0		45	110
+Nightblade	0 15 0 0 13 0		45	110
+Battlemage	0 15 0 0 13 0		45	110
+Spellsword	0 15 0 0 13 0		45	110
+Paladin		0 15 0 0 13 0		45	110
+Master	 	0 15 0 0 13 0	 	45	133
+~
+Help for &2"Mountaineering"&n
+
+&3Level&n: 45
+&3Usage&n: &4Automatice after Practicing&n
+&3Class&n: Thief, Warrior, Nightblade, Battlemage, Spellsword,
+       Paladin, Master
+
+This skill once practiced will reduce the amount of movement 
+required when walking up hills or mountains.
+~
+
+K "DOUBLE BACKSTAB"
+Priest		0 21 0 0 20 0 		40	110
+Nightblade	0 21 0 0 20 0		40	110
+Spellsword	0 21 0 0 20 0		40	110
+Master	 	0 21 0 0 20 0	 	40	133
+~
+Help for &2"Double Backstab"&n
+
+&3Level&n: 40
+&3Usage&n: &4backstab <victim>&n
+&3Class&n: Priest; Nightblade; Spellsword & Master
+
+Double backstab is used in conjunction with backstab.  
+Once practiced you will be able to get two backstabs in on 
+the initial round of attack if successfull.
+
+See Also: Backstab, Class Specials 
+~
+
+K "DEFEND"
+Magician	0 15 0 0 13 0		35	110
+Thief		0 15 0 0 13 0		35	110
+Warrior		0 15 0 0 13 0		35	110
+Druid		0 15 0 0 13 0 		35	110
+Priest		0 15 0 0 13 0		35	110
+Nightblade	0 15 0 0 13 0		35	110
+Battlemage	0 15 0 0 13 0		35 	110
+Spellsword	0 15 0 0 13 0		35 	110
+Paladin		0 15 0 0 13 0		35	110
+Master	 	0 15 0 0 13 0	 	35	133
+~
+Help for &2"Defend"&n
+
+&3Level&n: 35
+&3Usage&n: &4Automatice after Practicing&n
+&3Class&n: Magician, Thief, Warrior, Druid, Priest, Nightblade,
+       Battlemage, Spellsword, Paladin, Master
+
+Reduces the amount of damage once practiced. Is an automatic 
+facility and the reduction amounts are as follows:
+
+Level   >75 - 2/3 damage
+Level 40-75 - 3/4 damage
+Level 1 -40 - 4/5 damage
+
+This skill is currently being revised on what type of attack 
+would trigger this.  
+~
+
+K "CONCEAL SPELL CASTING"
+Druid		0 15 0 0 13 0 		50	110
+Priest		0 15 0 0 13 0 		50	110
+Paladin		0 15 0 0 13 0		50	110
+Master	 	0 15 0 0 13 0	 	50	133
+~
+Help for &2"Conceal Spell Casting"&n
+
+&3Level&n: 50
+&3Usage&n: &4Automatic after practicing&n
+&3Class&n: Druid, Priest, Paladin, Master
+
+This is self explanitory.
+
+~
+
+K "CAMPING"
+Thief		0 15 0 0 13 0		45	110
+Warrior		0 15 0 0 13 0		45	110
+Nightblade	0 15 0 0 13 0		45	110
+Battlemage	0 15 0 0 13 0		45	110
+Spellsword	0 15 0 0 13 0		45	110
+Paladin		0 15 0 0 13 0		45	110
+Master	 	0 15 0 0 13 0	 	45	133
+~
+Help for &2"Camping"&n
+
+&3Level&n: 45
+&3Usage&n: &4Automatic after practicing&n
+&3Class&n: Thief, Warrior, Nightblade, Battlemage, Spellsword, 
+       Paladin, Master.
+
+This will increase your regen points when sleeping, resting 
+or sitting regardless where in the game. This will 
+approximately give you a 1.5x regen.
+~
+
+K "BARGAINING"
+Priest		0 0 16 0 0 16		55	100
+Nightblade	0 0 16 0 0 16		55	100
+Battlemage	0 0 16 0 0 16		55	100
+Spellsword	0 0 16 0 0 16		55	100
+Paladin		0 0 16 0 0 16		55	100
+Master	 	0 0 16 0 0 16 	 	55	133
+~
+Help for &2"Bargaining"&n
+
+&3Level&n: 55
+&3Usage&n: &4Automatic after practcing&n
+&3Class&n: Priest, Nightblade, Spellsword,Paladin & Master
+
+This skill, once practiced, will help you haggle purchases to
+a lower price.  The effectiveness of this skill is based apon
+the class using it.
+
+~
+
+K "BLADE MASTERY"
+Master	 	0 15 0 0 13 0	 	30	133
+~
+Help for &2"Blade Mastery"&n
+
+&3Level&n: 30
+&3Usage&n: &4Automatic after practicing&n
+&3Class&n: Master
+
+This skill will give you a 10% damage bonus for "blade" weapons. 
+Blade type weapons considered are sword, blade, knife, scimitar, dagger.
+~
+
+K "AXE MASTERY"
+Master	 	0 15 0 0 13 0	 	40	133
+~
+Help for &2"Axe Mastery"&n
+
+&3Level&n: 40
+&3Usage&n: &4Automatic after practicing&n
+&3Class&n: Master
+
+This skill will give you a 10% damage bonus for axe weapons. 
+Axe type weapons considered are axe, hatchet, mace, ax, hammers.
+~
+
+K "WEAPONCRAFT"
+Thief		0 15 0 0 13 0 		20	110
+Warrior		0 15 0 0 13 0		20	110
+Priest		0 15 0 0 13 0 		20	110
+Nightblade	0 15 0 0 13 0		20	110
+Battlemage	0 15 0 0 13 0		20	110
+Spellsword	0 15 0 0 13 0		20	110
+Paladin		0 15 0 0 13 0		20	110
+Master	 	0 15 0 0 13 0	 	20	133
+~
+Help for &2"Weaponcraft"&n
+
+&3Level&n: 20
+&3Usage&n: &4repair <weapon name>&n
+&3Class&n: Thief, Warrior, Priest, Nightblade, Battlemage,
+       Spellsword, Paladin, Master
+
+This skill is a pre-requisite for the repair skill to fix 
+damaged equipment.
+~
+
+K "AMBIDEXTERITY"
+Druid		0 15 0 0 13 0		70	100
+Priest		0 15 0 0 13 0		70	100
+Nightblade	0 15 0 0 13 0		70	100
+Battlemage	0 15 0 0 13 0		70	100
+Spellsword	0 15 0 0 13 0		70	100
+Paladin		0 15 0 0 13 0		70	100
+Master	 	0 15 0 0 13 0	 	70	100
+~
+Help for &2"Ambidexterity"&n
+
+&3Level&n: 70
+&3Usage&n: &4Automatic after practicing&n
+&3Class&n: Druid; Priest; Nightlade; Battlemage; Spellsword;
+	   Paladin & Master
+
+This skill is used in conjunction with the special "Dual Wield"
+Without Dual Wield this skill is vertually inaffective. If Dual Wield
+selected on remort and ambidex practiced you will be able to 
+wield two weapons at the same time.
+~
+
+K "DOUBLE KICK"
+NightBlade	0 15 0 0 13 0 		35	125
+BattleMage	0 15 0 0 13 0 		35	125
+Paladin		0 15 0 0 13 0 		35	100
+Master	 	0 15 0 0 13 0	 	35	133
+~
+Help for &2"Double kick"&n
+
+&3Level&n: 35
+&3Usage&n: &4Automatic with existing kick&n
+&3Class&n: Nightblade, Battlemage,Paladin & Master
+
+This skill once practiced will allow the fighter the chance to 
+perform a second kick attack.
+
+See Also: kick
+~
+
+K HIDE 
+Thief		0 0 0 0 13 0 		10	100
+SpellSword	0 0 0 0 13 0 		10	100
+Priest 		0 0 0 0 13 0 		10	125
+NightBlade	0 0 0 0 13 0 		10	100
+Master		0 0 0 0 13 0 		10	100
+~
+Help for &2"Hide"&n
+
+&3Level&n: 10
+&3Usage&n: &4hide&n
+&3Class&n: Thief, SpellSword, Priest, Nightblade, Master
+
+When you type hide there is a chance that you hide in the 
+room. If hidden you can only be "sensed" by the "sense life" 
+spell. Even if sensed your identity will remain hidden. 
+Hide is broken by pressing return, regardless of whether 
+you typed a command or not.
+
+See Also: sneak
+~
+
+K HUNT 
+Thief		13 0 0 0 16 0		40	100
+SpellSword	13 0 0 0 16 0		40	100
+Priest		13 0 0 0 16 0		40	100
+NightBlade	13 0 0 0 16 0		40	100
+Master		13 0 0 0 16 0		40	100
+~
+Help for &2"Hunt"&n
+
+&3Level&n   : 40
+&3Usage&n   : &4hunt <victim>&n
+&3Duration&n: till target reached
+&3Class&n   : Thief, SpellSword, Priest, NightBlade, Master
+
+You need track to be able to use this skill.This spell allows you to
+track your victim without interuption.
+~
+
+
+K KICK
+Thief		0 15 0 0 13 0 		1	100
+Warrior		0 15 0 0 13 0 		1	100
+NightBlade	0 15 0 0 13 0 		1	125
+BattleMage	0 15 0 0 13 0 		1	125
+Paladin		0 15 0 0 13 0 		1	100
+Master	 	0 15 0 0 13 0	 	1	133
+~
+Help for &2"Kick"&n
+
+&3Level&n: 1
+&3Usage&n: &4kick <victim>&n
+&3Class&n: Thief, Warrior, NightBlade, BattleMage, Paladin, Master
+
+The success of a kick depends upon how well you are learned. The higher
+level you reach the harder you kick. There is one small catch -- whenever
+you kick (or miss) you will be unable to type any command for three 
+rounds of 'Violence' -- so be sure that you do not need to flee!
+ 
+Fighters See Also: Rescue, Bash
+~
+
+K "PICK LOCK"
+Thief		0 0 0 0 14 0 		1	100
+SpellSword	0 0 0 0 14 0 		1	100
+Priest 		0 0 0 0 14 0 		1	125
+NightBlade	0 0 0 0 14 0 		1	100
+Master		0 0 0 0 14 0 		1	100
+~
+Help for &2"Pick Lock"&n
+&3Level&n: 1
+&3Usage&n: &4pick <object | door | lock>&n
+&3Class&n: Thief, SpellSword, Priest, NightBlade, Master
+
+When this command is issued, the Thief will attempt to use his skills
+plus whatever else is handy to pick the lock in the specified door.  Not
+all locks are pickable.
+
+Example:
+
+  > pick door
+  > pick safe
+
+See Also : OPEN, CLOSE, LOCK, UNLOCK
+~
+
+K "PRIMAL SCREAM"
+Warrior		0 16 0 14 12 0 		50	100
+NightBlade	0 16 0 14 12 0		50	100 
+BattleMage	0 16 0 14 12 0 		50	100 
+Paladin 	0 16 0 14 12 0		50	133
+Master		0 16 0 14 12 0 		50	100
+~
+Help for &2"Primal Scream&n
+
+&3Level&n   : 50
+&3Usage&n   : &4primal scream&n
+&3Duration&n: Instantaneous
+&3Class&n   : Warrior, NightBlade, BattleMage, Paladin, Master
+
+This skill does 4d Dex damage and can only be used before combat.
+
+~
+
+K RESCUE 
+Warrior		0 16 0 10 15 0		5	100
+Thief		0 16 0 10 15 0 		5	100
+SpellSword	0 16 0 10 15 0 		5	125
+Priest 		0 16 0 10 15 0 		5	125
+NightBlade	0 16 0 10 15 0 		5	100
+BattleMage	0 16 0 10 15 0 		5	100
+Paladin 	0 16 0 10 15 0	 	5	133
+Master		0 16 0 10 15 0 		5	100
+~
+Help for &2"Rescue"&n
+
+&3Level&n: 5
+&3Usage&n: &4rescue <victim>&n
+&3Class&n: Warrior, Thief, SpellSword, Priest, NightBlade, 
+       BattleMage, Paladin, Master
+
+This command is useful if you want to try and make an attacker hit you
+instead of your poor friend who is being pummeled.  You can only 'turn'
+one monster for each rescue attempt.  This is highly useful when playing
+in groups, of course.
+~
+
+K RETREAT
+Thief		0 0 15 16 14 0 		50	100
+Warrior		0 0 15 16 14 0 		50	100
+SpellSword	0 0 15 16 14 0 		50	100
+Priest 		0 0 15 16 14 0 		50	125
+NightBlade	0 0 15 16 14 0 		50	100
+BattleMage	0 0 15 16 14 0 		50	100
+Paladin 	0 0 15 16 14 0		50	133
+Master		0 0 15 16 14 0 		50	100
+~
+Help for &2"Retreat"&n
+
+&3Level&n: 50
+&3Usage&n: &4retreat&n
+&3Class&n: Thief, Warrior, SpellSword, Priest, NightBlade, 
+       BattleMage, Paladin, Master
+
+By using the skill retreat you may retreat from battle without
+loosing any experience. Similar to fleeing, but this strategic move
+allows you to save face and not look as cowardly.
+~
+
+K SCAN
+Thief 		12 0 15 0 0 0 		10	100
+Warrior		12 0 15 0 0 0 		10	100
+SpellSword	12 0 15 0 0 0 		10	125
+Priest 		12 0 15 0 0 0 		10	125
+NightBlade	12 0 15 0 0 0 		10	100
+BattleMage	12 0 15 0 0 0		10	100
+Paladin 	12 0 15 0 0 0	 	10	133
+Master		12 0 15 0 0 0 		10	100
+~
+Help for &2"Scan"&n
+
+&3Level&n: 10
+&3Usage&n: &4scan&n
+&3Class&n: Thief, Warrior, SpellSword, Priest, NightBlade
+       BattleMage, Paladin, Master
+
+This skill will work effectively depending on your height.
+~
+
+K "SECOND ATTACK"
+Thief		0 16 0 0 14 0 		35	100
+Warrior		0 16 0 0 14 0 		35	100
+SpellSword	0 16 0 0 14 0 		35	100
+Priest 		0 16 0 0 14 0 		35	125
+NightBlade	0 16 0 0 14 0 		35	100
+BattleMage	0 16 0 0 14 0 		35	100
+Paladin 	0 16 0 0 14 0 		35	133
+Master		0 16 0 0 14 0 		35	100
+~
+Help for &2"Second Attack"&n
+
+&3Level&n   : 35
+&3Usage&n   : &4Automatic when fighting&n
+&3Duration&n: Permanent
+&3Class&n   : Thief, Warrior, SpellSword, Priest, NightBlade
+          BattleMage, Paladin, Master
+
+This skill does 75% damage from original.
+~
+
+K SNEAK
+Thief		0 0 0 0 15 0 		1	100
+SpellSword	0 0 0 0 15 0 		1	100
+Priest 		0 0 0 0 15 0 		1	125
+NightBlade	0 0 0 0 15 0 		1	100
+Master		0 0 0 0 15 0 		1	100
+~
+Help for &2Sneak&n
+
+&3Level&n: 1
+&3Usage&n: &4sneak&n
+&3Class&n: Thief, SpellSword, Priest, NightBlade, Master
+
+Used for sneaking (moving in and out of rooms without anyone taking notice).
+When you type sneak, there is no way to know if you're actually sneaking.
+If you sucessfully sneak, then you'll continue to sneak for a little while.
+
+See Also : HIDE 
+~
+
+K SPY
+Thief 		0 0 15 15 14 0 		15	100
+SpellSword	0 0 15 15 14 0 		15	100
+Priest 		0 0 15 15 14 0 		15	125
+NightBlade	0 0 15 15 14 0 		15	100
+Master		0 0 15 15 14 0 		15	100
+~
+Help for &2"Spy"&n
+
+&3Level&n: 15
+&3Usage&n: &4spy <direction>&n
+&3Class&n: Thief, SpellSword, Priest, NightBlade, Master
+
+The spy command, once practiced, will enable you to spy into the adjoining
+rooms.  You will see the description and any mob or character standing in the
+room.  Fair warning for a nervous player!
+
+See Also SCAN 
+~
+K STEAL
+Thief		0 0 0 0 15 0		5 	100
+SpellSword	0 0 0 0 15 0 		5	100
+Priest		0 0 0 0 15 0 		5	100
+NightBlade	0 0 0 0	15 0		5	100
+Master		0 0 0 0 15 0		5	100
+~
+Help for &2"Steal"&n
+
+&3Level&n: 5
+&3Usage&n: &4steal <obj> <victim>&n
+&3Class&n: Thief, SpellSword, Priest, NightBlade, Master
+
+Use steal to steal gold or items from people. The chance of not getting
+caught depends on how well you have practiced steal, and if the person
+is asleep.
+
+Due to misuse of the steal command, it is now illegal to steal from other
+players.  Doing so will get you a flag for your trouble.
+
+You &2cannot&n steal the equipment from someone, whether they are asleep or
+not.
+~
+
+K "THIRD ATTACK"
+NightBlade	0 16 0 0 14 0 		60	100
+BattleMage	0 16 0 0 14 0 		60	100
+Paladin 	0 16 0 0 14 0	 	60	133
+Master		0 16 0 0 14 0 		60	100
+~
+Help for &2"Third Attack"&n
+
+&3Level&n   : 60
+&3Usage&n   : &4automatic when fighting&n
+&3Duration&n: permenant
+&3Class&n   : NightBlade, BattleMage, Paladin, Master
+ 
+This skill does 25% damage from  original.
+~
+
+K THROW 
+Warrior		0 18 11 16 16 0 	40	100
+NightBlade	0 18 11 16 16 0 	40	100
+BattleMage	0 18 11 16 16 0 	40	100
+Paladin 	0 18 11 16 16 0		40	133
+Master		0 18 11 16 16 0 	40	100
+~
+Help for &2"Throw&n
+
+&3Level&n: 40
+&3Usage&n: &4throw <Object> <direction> <victim>&n
+&3Class&n: Warrior, NightBlade, BattleMage, Paladin, Master
+
+This skill is designed to hit your victims from a distance. The amount of
+damage you inflict will depend on the weight and/or damage of the object 
+thrown. Naturally you will be unable to throw objects that are too heavy
+for you.
+~
+
+K TRACK 
+Thief		10 0 0 0 15 0 		10	100
+Warrior		10 0 0 0 15 0 		10	100
+SpellSword	10 0 0 0 15 0 		10	100
+Priest 		10 0 0 0 15 0 		10	125
+NightBlade	10 0 0 0 15 0 		10	100
+BattleMage	10 0 0 0 15 0 		10	100
+Paladin 	10 0 0 0 15 0	 	10	133
+Master		10 0 0 0 15 0 		10	100
+~
+Help for &2"Track"&n
+
+&3Level&n: 10
+&3Usage&n: &4track (mob | player)
+&3Class&n: Thief, Warrior, SpellSword, Priest, NightBlade,
+       BattleMage, Paladin, Master
+
+Used for finding the first step on the shortest route to a monster.
+~
+
+K ADRENALINE
+Thief		15 0 14 0 0 0		50	100
+Warrior		15 0 14 0 0 0		50	110
+Priest		15 0 14 0 0 0 		50	110
+Nightblade	15 0 14 0 0 0		50	110
+Battlemage	15 0 14 0 0 0		50	110
+Spellsword	15 0 14	0 0 0 		50	110
+Paladin		15 0 14 0 0 0		50	110
+Master          15 0 14 0 0 0           50      133
+~
+Help for &2"Adrenaline"&n
+
+&3Level&n   : 50
+&3Usage&n   : &4adrenaline&n
+&3Duration&n: 2 tics
+&3Class&n   : Thief, Warrior, Priest, Nightblade, Battlemage,
+          Spellsword, Paladin, Master
+
+This skill decreases the recovery time on performing offensive moves. 
+~
+
+K AMBUSH
+Thief		15 0 14 0 0 0		20	100
+Priest		15 0 14 0 0 0		20	110
+Nightblade	15 0 14 0 0 0		20	110
+Spellsword	15 0 14	0 0 0		20	110
+Master          15 0 14 0 0 0           20	133
+~
+Help for &2"ambush"&n
+
+&3Level&n: 20
+&3Usage&n: &4ambush <victim>&n (when hidden)
+	   &4ambush <victim> really&n (against players)
+&3Class&n: Thief, SpellSword, Priest, NightBlade, Master
+
+This skill when used will enable a suprise attack on the intended victim. 
+A gain in damage bonus is equal to your level*5.
+~
+
+K "ATTEND WOUNDS"
+Cleric		15 0 14 0 0 0		10	100
+Druid		15 0 14 0 0 0		10	110
+Priest		15 0 14 0 0 0		10	110
+Paladin		15 0 14 0 0 0		10	110
+Master          15 0 14 0 0 0           10	133
+~
+Help for &2"Attend wounds"&n 
+
+&3Level&n: 10
+&3Usage&n: &4attend <victim>&n
+&3Class&n: Cleric, Druid, Priest, Paladin, Master
+
+This is a low healing skill that can be mastered by the healers 
+of the game.  There is a limit of 5 uses in 3 tics of play. 
+The heal will perform 3*level to a max of 250hps per usage.
+
+See Also: Clot Wounds, First Aid
+~
+
+K BATTLECRY
+Warrior		0 15 0 0 16 0		30	75
+Nightblade	0 15 0 0 16 0		30	95
+Battlemage	0 15 0 0 16 0		30	95
+Paladin		0 15 0 0 16 0		30	95
+Master          0 15 0 0 16 0           30     133
+~
+Help for &2"Battlecry"&n
+
+&3Level&n   : 30
+&3Usage&n   : &4battlecry <victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Warrior, Nightblade, Battlemage, Paladin, Master
+
+This skill rolls kick,bearhug,headbutt,piledrive and bash into one, 
+as though you did all of these skills seperately. In the way you 
+would expect a combo attack to happen. Any of the aforementioned 
+skills you have not practice, or do not have the stats for will 
+be skipped.
+
+If fighting, not specifying <victim> will hit whoever you're fighting.
+
+See Also: BASH BEARHUG HEADBUTT KICK PILEDRIVE
+
+~
+
+K BEARHUG
+Warrior		0 15 0 0 0 0		1	75
+Nightblade	0 15 0 0 0 0		1	95
+Battlemage	0 15 0 0 0 0		1	95
+Paladin		0 15 0 0 0 0		1	100
+Master          0 15 0 0 0 0 		1	125
+~
+Help for &2"Bearhug"&n
+
+&3Level&n   : 1
+&3Usage&n   : &4bearhug <victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Warrior, Nightblade, Battlemage, Paladin, Master
+
+If successful, will do damage to the victim, and 
+increase the time before their next attack. 
+Damage is based on level and skill effectiveness.
+
+If fighting, not specifying <victim> will hit whoever 
+you're fighting.
+~
+
+K BODYSLAM 
+Warrior		0 16 0 0 0 0		20	85	
+Nightblade	0 16 0 0 0 0		20	100
+Battlemage	0 16 0 0 0 0		20	100
+Paladin		0 16 0 0 0 0		20	100
+Master          0 16 0 0 0 0 		20	125
+~
+Help for &2"Bodyslam"&n 
+
+&3Level&n   : 20
+&3Usage&n   : &4bodyslam <victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Warrior, Nightblade, Battlemage, Paladin, Master
+
+This attack is used to initiate a fight.  You will 
+throw your victim to the ground causing damage depending
+on how strong your slam is.
+~
+
+K DISARM
+Thief		0 0 14 0 12 0 		20	95		
+Warrior		0 0 14 0 12 0		20	95
+Priest		0 0 14 0 12 0		20	100
+Nightblade	0 0 14 0 12 0		20	100
+Battlemage	0 0 14 0 12 0		20	100
+Spellsword	0 0 14 0 12 0		20	100
+Paladin		0 0 14 0 12 0		20	100
+Master          0 0 14 0 12 0 		20	125
+~
+Help for &2"Disarm"&n
+
+&3Level&n   : 20
+&3Usage&n   : &4disarm <victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Thief, Warrior, Priest, Nightblade, Battlemage,
+          Spellsword, Paladin, Master
+
+This skill once practiced will allow the player to disarm 
+an armed component during the attack.  
+~
+
+K HEADBUTT
+Thief		0 15 0 16 0 0		30	50
+Warrior		0 15 0 16 0 0		30	95
+Priest		0 15 0 16 0 0		30	100
+Nightblade	0 15 0 16 0 0		30	150
+Battlemage	0 15 0 16 0 0		30	100
+Spellsword	0 15 0 16 0 0		30	100
+Paladin		0 15 0 16 0 0		30	100
+Master          0 15 0 16 0 0 		30	150
+~
+Help for &2"Headbutt"&n
+
+&3Level&n   : 30
+&3Usage&n   : &4headbutt <victim>&n
+&3Duration&n: Instantaneous
+&3Class&n   : Thief, Warrior, Priest, Nightblade, Battlemage, Spellsword,
+          Paladin, Master
+
+This attack can be used to initiate the fight and then
+utilised during the fight to cause more damage.  Beware
+over use of this skill can cause permanent damage to
+ones self.
+~
+
+K PILEDRIVE 
+Warrior		0 16 0 0 16 0		25	95
+Nightblade	0 16 0 0 16 0		25	100
+Battlemage	0 16 0 0 16 0		25	100
+Paladin		0 16 0 0 16 0		25	100
+Master          0 16 0 0 16 0 		25	125
+~
+Help for &2"Piledrive"&n
+
+&3Level&n: 25
+&3Usage&n: &4piledrive <victim>&n
+&3Class&n: Warrior, Nightblade, Battlemage, Paladin, Master
+
+This attack can be used to initiate the attack and then
+during the attaack.
+~
+
+K "PURSE EVALUATION"
+Thief		10 0 12 0 11 12		15	95
+Priest		10 0 12 0 11 12		15	100
+Nightblade	10 0 12 0 11 12		15	100
+Spellsword	10 0 12 0 11 12		15	100
+Master          10 0 12 0 11 12		15	125
+~
+Help for &2"Purse Evaluation"&n
+
+&3Level&n: 15
+&3Usage&n: &4purse <victim>&n
+&3Class&n: Thief, Priest, Nightblade, Spellsword, Master
+
+This allows you to evaluate the amount of gold the victim
+is carring.  Very handy tool for the theif who wants to 
+collect gold!
+~
+
+K TRIP
+Thief		0 11 12 13 10 14	35	100
+Warrior		0 11 12 13 10 14	35	95
+Priest		0 11 12 13 10 14	35	100
+Nightblade	0 11 12 13 10 14	35	150
+Battlemage	0 11 12	13 10 14	35	100
+Spellsword	0 11 12 13 10 14	35	100
+Paladin		0 11 12 13 10 14	35	100
+Master          0 11 12 13 10 14	35	200
+~
+Help for &2"Trip"&n 
+
+&3Level&n: 35
+&3Usage&n: &4trip <victim>&n
+&3Class&n: Thief, Warrior, Priest, Nightblade, Battlemage, 
+       Spellsword, Paladin, Master
+
+This skill will trip your intended victim to the ground 
+causing damage as he falls.  This skill can be used to 
+initiate the attack and during.  This skills usefullness
+varies with class.
+
+~
+
+K ARMORCRAFT
+Thief		10 0 12 0 10 0		20	95
+Warrior		10 0 12 0 10 0		20	95
+Priest		10 0 12 0 10 0		20	100
+Nightblade	10 0 12 0 10 0		20	100
+Battlemage	10 0 12 0 10 0		20	100
+Spellsword	10 0 12 0 10 0		20	100
+Paladin		10 0 12 0 10 0		20	100
+Master          10 0 12 0 10 0 		20	125
+~
+Help for &2"Armorcraft"&n 
+
+&3Level&n: 20
+&3Usage&n: &4repair <armor name>&n
+&3Class&n: Thief, Warrior, Priest, Nightblade, Battlemage, 
+       Spellsword, Paladin, Master
+
+This skill allows you to repair non-magic armor when it is
+damaged.  Once mastered the skill will always repair the
+armor.  It is also a pre-requisite to the repair facility.
+~
+
+K "CLOT WOUNDS"
+Cleric		15 0 14 0 0 0		25	100
+Druid		15 0 14 0 0 0		25	110
+Priest		15 0 14 0 0 0		25	110
+Paladin		15 0 14 0 0 0		25	110
+Master          15 0 14 0 0 0           25	133
+~
+Help for &2"Clot Wounds"&n
+
+&3Level&n: 25
+&3Usage&n: &4clot <victim>&n
+&3Class&n: Cleric, Druid, Priest, Paladin, Master
+
+This skill is a higher level healing skill that the healers 
+are able to utilise once practiced.  This also has a limit 
+of 5 uses in 3 tics of game play.  This skill will heal 5*level 
+to a max of 400hps per usage.
+
+See Also: Attend Wounds; First Aid
+~
+
+K "DARK RITUAL"
+Magician	16 0 14 0 0 0 		40	85
+Druid		16 0 14	0 0 0 		40	100
+Battlemage	16 0 14	0 0 0		40	100
+Spellsword	16 0 14 0 0 0		40	100
+Master          16 0 14 0 0 0 		40	125
+~
+Help for &2"Dark Ritual"&n
+
+&3Level&n: 40
+&3Usage&n: &4dark ritual&n
+&3Class&n: Magician, Druid, Battlemage, Spellsword, Master
+
+As it's name suggest, this is a skill that should only be 
+performed by those of evil alignment. Good or neutral 
+characters may suffer adverse affects. If you are successful
+in performing this ritual, you will exchange some of your life
+force (HP) for magic reserves (MP).
+~
+
+K "FIRST AID"
+Cleric		15 0 14 0 0 0		1	100
+Druid		15 0 14 0 0 0		1	110
+Priest		15 0 14 0 0 0		1	110
+Paladin		15 0 14 0 0 0		1	110
+Master          15 0 14 0 0 0           1	133
+~
+Help for &2"First Aid"&n
+
+&3Level&n: 1
+&3Usage&n: &4first <victim>&n
+&3Class&n: Cleric, Druid, Priest, Paladin, Master
+
+This skill is a basic healing skill that enables the healers 
+to heal a player or themselves with 2*level to a max of 50hps. 
+It is also limited to 5 uses in 3 tics of game play.
+
+See Also: Clot Wounds, Attend Wounds.
+~
+
+K FLYTACKLE
+Thief		0 10 0 10 10 0		45	95
+Warrior		0 10 0 10 10 0		45	95
+Priest		0 10 0 10 10 0		45	100
+Nightblade	0 10 0 10 10 0		45	100
+Battlemage	0 10 0 10 10 0		45	100
+Spellsword	0 10 0 10 10 0		45	100
+Paladin		0 10 0 10 10 0		45	100
+Master          0 10 0 10 10 0 		45	125
+
+~
+Help for &2"Flying Tackle"&n
+
+&3Level&n   : 45
+&3Usage&n   : &4flytackle <victim>&n
+&3Duration&n: 3 round wait before next usage
+&3Class&n   : Thief, Warrior, Priest, Nightblade, Battlemage, Spellsword,
+          Paladin, Master
+
+This skill allows you to initiate the attack with a flying
+tackle that sends the victim to the ground if succesfull.
+~
+
+K BERSERK
+
+Warrior		16 0 14 0 0 0		35	100
+Master          16 0 14 0 0 0 		35	125
+~
+Help for &2"Berserk"&n
+
+&3Level&n   : 35 (TODO)
+&3Usage&n   : &4berserk&n
+&3Duration&n: Length of Combat
+&3Class&n   : Warrior, Master
+
+If successful, you will enter a battle frenzy that will 
+last until the fight is over. Whilst in this frenzy, you 
+will do twice the damage and receive only half 
+(Depending on effectiveness). However, you will not be 
+able to cast any spells whilst berserk.
+~
+
+K COMPOST
+Magician	15 0 15 0 0 0		35	75
+Druid		15 0 15 0 0 0		35	95
+Battlemage	15 0 15 0 0 0		35	95
+Spellsword	15 0 15 0 0 0		35	95
+Master          15 0 15 0 0 0 		35	125
+~
+Help for &2"Compost"&n
+
+&3Level&n: 35
+&3Usage&n: &4compost corpse&n
+&3Class&n: Magician, Druid, Battlemage, Spellsword, Master
+
+This skill allows the player to turn corpses into small
+mounds of compost, thus profiting by receiving a small
+amount of mana in return. It can not be performed on
+player corpses.
+~
+
+K "TRAP PIT"
+Thief		12 11 13 0 0 0 		25	95
+Priest		12 11 13 0 0 0 		25	100
+Nightblade	12 11 13 0 0 0		25	100
+Spellsword	12 11 13 0 0 0		25	100
+Master          12 11 13 0 0 0 		25	125
+~
+Help for &2"Trap Pit"&n
+
+&3Level&n: 25
+&3Usage&n: &4trap pit&n
+&3Class&n: Thief, Priest, Nightblade, Spellsword, Master
+
+This skill allows pit traps to be set.  These have a random chance of
+activating when a character (player or otherwise) leaves the room the trap is
+set in.
+
+Damage is determined by the class, level and dexterity of the trapper.
+
+Pit traps may only be set outoors, not underwater, and not in mid air.
+
+See Also: Trap, Trap Magic.
+~
+
+K "TRAP MAGIC"
+Priest		12 11 13 0 0 0 		25	100
+Spellsword	12 11 13 0 0 0		25	100
+Master          12 11 13 0 0 0 		25	125
+~
+Help for &2"Trap Magic"&n
+
+&3Level&n: 25
+&3Usage&n: &4trap magic&n
+&3Class&n: Priest, Spellsword, Master
+
+This skill allows magic traps to be set.  These have a random chance of
+activating when a character (player or otherwise) leaves the room the trap is
+set in.
+
+When this trap is triggered, a random spell will be fired at the victim. This
+will most likely be a damaging spell, but not always.  Also, where possible, 
+the victim will be blinded for a short period of time.
+
+Magic traps may be set anywhere other than in mid-air.
+
+See also: Trap, Trap Pit.
+~
+
+K "POISON BLADE"
+Magician	16 0 14 0 0 0		40	90
+Druid		16 0 14 0 0 0		40	100
+Battlemage	16 0 14 0 0 0		40	100
+Spellsword	16 0 14 0 0 0		40	100
+Master          16 0 14 0 0 0 		40	125
+~
+Help for &2"Poison Blade"&n
+
+&3Level&n   : 40
+&3Usage&n   : &4poison blade&n
+&3Duration&n: &42 tics&n
+&3Class&n   : Magician, Druid, Battlemage, Spellsword, Master
+
+Once called this will poison your weilded bladed weapon.
+The only draw back is finding a suitable container to
+hold the poison in.
+
+~
+
+K SLIP
+Thief		0 0 0 0 15 0		15	95
+Priest		0 0 0 0 15 0		15	100
+Nightblade	0 0 0 0 15 0		15	100
+Spellsword 	0 0 0 0 15 0		15	100
+Master          0 0 0 0 15 0 		15	125
+~
+Help for &2"Slip"&n
+
+&3Level&n: 15
+&3Usage&n: &4slip <object> <victim>&n
+&3Class&n: Thief, Priest, Nightblade, Spellsword, Master
+
+This skill is used to give itmes to the target unnoticed.
+The item to be given must be in your inventory.  You can 
+also drop items quietly by using this skill at an item
+only.
+~
+
+K TUMBLE 
+Thief		10 0 12 0 10 0		30	95
+Warrior		10 0 12 0 10 0		30	95
+Priest		10 0 12 0 10 0		30	100
+Nightblade	10 0 12 0 10 0		30	100
+Battlemage	10 0 12 0 10 0		30	100
+Spellsword	10 0 12 0 10 0		30	100
+Paladin		10 0 12 0 10 0		30	100
+Master          10 0 12 0 10 0 		30	125
+
+~
+Help for &2"Tumble"&n
+
+&3Level&n: 30
+&3Usage&n: &4Automatic after practicing&n
+&3Class&n: Thief, Warrior, Priest, Nightblade, Battlemage, 
+       Spellsword, Paladin, Master.
+
+This skill allows the user to sometimes dodge attack spells
+and avoids damage altogether.  It is automatice after
+practicing in use.
+~
+
+K MEDITATE
+Thief		0 0 0 15 0 0		25	95
+Warrior		0 0 0 15 0 0		25	95
+Priest		0 0 0 15 0 0		25	100
+Nightblade	0 0 0 15 0 0		25	100
+Battlemage	0 0 0 15 0 0		25	100
+Spellsword	0 0 0 15 0 0		25	100
+Paladin		0 0 0 15 0 0		25	100
+Master          0 0 0 15 0 0 		25	125 
+~
+Help for &2"Meditate"&n
+
+&3Level&n   : 25
+&3Usage&n   : &4meditate&n
+&3Duration&n: 5 tics
+&3Class&n   : Thief, Warrior, Priest, Nightblade, Battlemage, 
+          Spellsword, Paladin, Master
+
+This skill allows the user to heal at a faster rate.  Once 
+typed you will sit and meditate.  You are unable to move
+or fight whilst meditating.
+~
+
+K GLANCE
+Thief		10 0 12 0 10 0		25	95
+Warrior		10 0 12 0 10 0		25	95
+Priest		10 0 12 0 10 0		25	100
+Nightblade	10 0 12 0 10 0		25	100
+Battlemage	10 0 12 0 10 0		25	100
+Spellsword	10 0 12 0 10 0		25	100
+Paladin		10 0 12 0 10 0		25	100
+Master          10 0 12 0 10 0 		25	125 
+
+~
+Help for &2"Glance"&n
+
+&3Level&n: 25
+&3Usage&n: &4the same as look&n
+&3Class&n: Thief, Warrior, Priest, Nightblade, Battlemage,
+           Spellsword, Paladin, Master
+
+This skill works inconjunction with the command 'look at' 
+but other players will not notice you looking, if the 
+skill is successful.  
+The target must be in the same room as you!
+~
+
+K LISTEN
+Thief		0 0 0 0 10 0		10	50
+Warrior		0 0 0 0 10 0		10	20
+Priest		0 0 0 0 10 0		10	75
+Nightblade	0 0 0 0 10 0		10	150
+Battlemage	0 0 0 0 10 0		10	85
+Spellsword	0 0 0 0 10 0		10	95
+Paladin		0 0 0 0 10 0		10	100
+Master          0 0 0 0 10 0 		10	125
+
+~
+Help for &2"Listen"&n
+
+&3Level&n: 10
+&3usage&n: &4listen <direction>&n
+&3Class&n: Thief, Warrior, Priest, Nightblade, Battlemage,
+           Spellsword, Paladin, Master
+
+This skill once practiced will allow the cunning thief
+to hear movements in the adjacent rooms.  This allows
+one not to be suprised when walking into a new room.
+This skill will vary in success by the class utilising
+it.
+~
+
+K "SHIELD MASTERY"
+Master          0 0 16 0 0 0 		35	125
+~
+Help for &2"Shield Mastery"&n
+
+&3Level&n: 35
+&3Usage&n: &4Automatic&n
+&3Class&n: Master
+
+This skill will help increase the duration of 
+invulnerability spells and is automatic after practicing.
+~
+
+K "KICKING MASTERY"
+Master          16 0 14 0 0 0 		30	125
+~
+Help for &2"Kicking Mastery"&n
+
+&3Level&n: 30
+&3Usage&n: &4Automatic&n
+&3Class&n: Master
+
+This skill will help increase the damage done through kicking
+and is automatic after practicing.
+~
+
+K TORCH 
+Cleric		0 0 0 0 0 0		5	50
+Magician	0 0 0 0 0 0		5	50
+Thief		0 0 0 0 0 0		5	25
+Warrior		0 0 0 0 0 0		5	75
+Druid		0 0 0 0 0 0 		5	75
+Priest		0 0 0 0 0 0		5	75
+Nightblade	0 0 0 0 0 0		5	75
+Battlemage	0 0 0 0 0 0		5	75
+Spellsword	0 0 0 0 0 0		5	75
+Paladin		0 0 0 0 0 0		5	75
+Master          0 0 0 0 0 0 		5	100
+~
+Help for &2"Torch"&n
+
+&3Level&n: 5
+&3Usage&n: &4torch&n
+&3Class&n: All Classes
+
+This skill will help those who need to see in the dark.
+It will only work outside cities and will not work too
+successfully for all classes.
+~
+
+K SUICIDE
+Thief		15 0 15 0 15 0		15	95
+Priest		15 0 15 0 15 0		15	100
+Nightblade	15 0 15 0 15 0		15	100
+Spellsword	15 0 15 0 15 0		15	100
+Master          15 0 15 0 15 0 		15	125
+~
+Help for &2"Suicide"&n
+
+&3Level&n: 15
+&3Usage&n: &4suicide&n
+&3Class&n: Thief, Priest, Nightblade, Spellsword, Master
+
+This is a true skill that should be practiced and used 
+at the last possible moment. Better to die by thy hand
+than by some strangers!  It has the same affect as being
+slain in a fight.  Your corpse will need to be retrieved,
+from the scene.
+~
+
+K SLEIGHT
+Thief		10 0 12 0 10 0		35	95
+Warrior		10 0 12 0 10 0		35	95
+Priest		10 0 12 0 10 0		35	100
+Nightblade	10 0 12 0 10 0		35	100
+Battlemage	10 0 12 0 10 0		35	100
+Spellsword	10 0 12 0 10 0		35	100
+Paladin		10 0 12 0 10 0		35	100
+Master          10 0 12 0 10 0 		35	125 
+~
+Help for &2"Sleight"&n
+
+&3Level&n: 35
+&3Usage&n: &4the same as get&n
+&3Class&n: Thief, Warrior, Priest, Nightblade, Battlemage,
+       Spellsword, Paladin & Master
+
+This skill works in conjunction with the command 'get' 
+but other players will not notice you getting it, if the 
+skill is successful.  
+The target must be in the same room as you!
+~
+
+K "HEALING TRANCE"
+
+Priest		0 0 0 15 0 0		15	100
+Nightblade	0 0 0 15 0 0		15	100
+Battlemage	0 0 0 15 0 0		15	100
+Spellsword	0 0 0 15 0 0		15	100
+Paladin		0 0 0 15 0 0		15	100
+Master          0 0 0 15 0 0 		15	125 
+~
+Help for &2"Healing Trance"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4htrance&n
+&3Duration&n: 2 tics
+&3Class&n   : Priest, Nightblade, Battlemage, Spellsword,
+          Paladin, Master
+
+This skill allows the user to heal at a faster rate.  Once 
+typed you will sit and meditate.  You are unable to move
+or fight whilst meditating.
+~
+
+K AXETHROW
+
+Priest		0 0 0 15 0 0		15	100
+Nightblade	0 0 0 15 0 0		15	100
+Battlemage	0 0 0 15 0 0		15	100
+Spellsword	0 0 0 15 0 0		15	100
+Paladin		0 0 0 15 0 0		15	100
+Master          0 0 0 15 0 0 		15	125 
+~
+Help for &2"Axe Throw"&n
+
+&3Level&n   : 15
+&3Usage&n   : &4Unsure at this stage&n
+&3Duration&n: 5 tics
+&3Class&n   : Priest, Nightblade, Battlemage, Spellsword,
+          Paladin, Master
+
+This skill allows the user to throw their weapons at the mob.
+This skill needs to be tested so i can update the help file!
+~
+K MOUNT
+
+Druid		0 0 0 0 0 16		75	100
+Priest		0 0 0 0 0 16		75	100
+Nightblade	0 0 0 0 0 16		75	100
+Battlemage	0 0 0 0 0 16		75	100
+Spellsword	0 0 0 0 0 16		75	100
+Paladin		0 0 0 0 0 16		75	100
+Master		0 0 0 0 0 16		75	100
+~
+Help for &2"Mount"&n
+
+&3Level&n   : 75
+&3Usage&n   : &4mount <victim>&n
+&3Duration&n: As long as the mob allows
+&3Class&n   : Druid; Priest; Nightblade; Battlemage;
+	   Spellsword; Paladin & Master.
+
+This skill allows you to actually mount the beast you have
+broken in.  
+~
+K "DETECT DEATHTRAPS"
+
+Thief		15 0 15 0 15 0		15	100
+Priest		15 0 15 0 15 0		15	100
+Nightblade	15 0 15 0 15 0		15	100
+Spellsword	15 0 15 0 15 0		15	100
+Master          15 0 15 0 15 0 		15	125
+~
+Help for &2"Detect Deathtraps"&n
+
+&3Level&n: 15
+&3Usage&n: &4automatic after practicing.&n
+&3Class&n: Thief, Priest, Nightblade, Spellsword, Master
+
+This skill allows a thief to move around the mud with a 
+fairly good chance of death traps being detected before
+they can do some serious damage!  Even when grouped the 
+skill will assist the entire group if it is successful!
+~
+# End of Skill Definitions
+$

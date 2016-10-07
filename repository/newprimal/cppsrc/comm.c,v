@@ -1,0 +1,4841 @@
+head	1.46;
+access;
+symbols
+	A3_0_59:1.13
+	LATEST:1.13
+	A3_0_1:1.12;
+locks; strict;
+comment	@ * @;
+
+
+1.46
+date	2004.11.24.05.49.30;	author mud;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.06.12.09.36.00;	author mud;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.05.25.06.50.40;	author mud;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.05.10.03.20.20;	author mud;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.05.06.02.23.30;	author mud;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.04.29.08.10.36;	author mud;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.04.21.07.03.34;	author mud;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.02.23.03.02.04;	author mud;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.29.11.10.41;	author mud;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.14.05.53.14;	author mud;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.10.12.02.26;	author mud;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.07.01.31.00;	author mud;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.07.01.12.47;	author mud;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.06.12.27.24;	author mud;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.12.31.22.20.27;	author mud;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.11.25.05.37.15;	author mud;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.11.12.11.00.13;	author mud;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2002.07.20.08.17.56;	author mud;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2002.04.07.11.11.17;	author mud;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2002.02.14.06.10.18;	author primal;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2002.01.23.06.30.40;	author primal;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2001.12.09.12.19.22;	author rod;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2001.11.30.13.53.30;	author rod;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2001.11.25.12.11.21;	author rod;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2001.10.28.07.26.56;	author rod;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2001.08.11.14.14.19;	author artus;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2001.06.26.23.43.12;	author primal;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2001.06.21.02.46.29;	author artus;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2001.02.11.03.27.16;	author primal;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2001.02.09.03.04.14;	author primal;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2001.02.08.15.22.21;	author primal;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2001.02.07.05.50.12;	author primal;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2001.02.02.04.34.45;	author primal;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2001.01.29.21.56.21;	author primal;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2001.01.22.22.12.25;	author primal;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2001.01.20.23.46.50;	author primal;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2000.12.17.13.12.18;	author primal;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2000.08.28.21.12.20;	author primal;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2000.08.26.16.39.47;	author primal;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2000.07.14.10.03.16;	author primal;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2000.07.13.00.59.18;	author primal;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.06.22.09.22.34;	author talisman;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.06.06.13.57.54;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.05.28.12.29.18;	author talisman;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.05.13.14.25.12;	author mbd;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.57;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.46
+log
+@Artus> Added call to move_bus(). Optimised some stuff.
+@
+text
+@/* ************************************************************************
+*   File: comm.c                                        Part of CircleMUD *
+*  Usage: Communication, socket handling, main(), central game loop       *
+*                                                                         *
+*  All rights reserved.  See license.doc for complete information.        *
+*                                                                         *
+*  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
+*  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
+************************************************************************ */
+
+#include <fstream>
+#include <list>
+
+#define __COMM_C__
+#include "sys/socket.h"
+#include "sys/types.h"
+#include "conf.h"
+#include "screen.h"
+#include "sysdep.h"
+
+#ifdef CIRCLE_MACINTOSH		/* Includes for the Macintosh */
+# define SIGPIPE 13
+# define SIGALRM 14
+  /* GUSI headers */
+# include <sys/ioctl.h>
+  /* Codewarrior dependant */
+# include <SIOUX.h>
+# include <console.h>
+#endif
+
+#ifdef CIRCLE_WINDOWS		/* Includes for Win32 */
+# ifdef __BORLANDC__
+#  include <dir.h>
+# else /* MSVC */
+#  include <direct.h>
+# endif
+# include <mmsystem.h>
+#endif /* CIRCLE_WINDOWS */
+
+#ifdef CIRCLE_AMIGA		/* Includes for the Amiga */
+# include <sys/ioctl.h>
+# include <clib/socket_protos.h>
+#endif /* CIRCLE_AMIGA */
+
+#ifdef CIRCLE_ACORN		/* Includes for the Acorn (RiscOS) */
+# include <socklib.h>
+# include <inetlib.h>
+# include <sys/ioctl.h>
+#endif
+
+/*
+ * Note, most includes for all platforms are in sysdep.h.  The list of
+ * files that is included is controlled by conf.h for that platform.
+ */
+
+#include "structs.h"
+#include "utils.h"
+#include "comm.h"
+#include "interpreter.h"
+#include "handler.h"
+#include "db.h"
+#include "house.h"
+#include "genolc.h"
+#include "oasis.h"
+#include "screen.h"
+#include "casino.h"
+#include "reports.h"
+#include "dg_scripts.h"
+#include "spells.h"
+
+#ifdef HAVE_ARPA_TELNET_H
+#include <arpa/telnet.h>
+#else
+#include "telnet.h"
+#endif
+
+#ifndef INVALID_SOCKET
+#define INVALID_SOCKET -1
+#endif
+
+/* externs */
+extern struct ban_list_element *ban_list;
+extern int num_invalid;
+extern char *GREETINGS;
+extern const char *circlemud_version;
+extern int circle_restrict;
+extern int mini_mud;
+extern int no_rent_check;
+extern FILE *player_fl;
+extern ush_int DFLT_PORT;
+extern const char *DFLT_DIR;
+extern const char *DFLT_IP;
+extern const char *LOGNAME;
+extern int max_playing;
+extern int nameserver_is_slow;	/* see config.c */
+extern int auto_save;		/* see config.c */
+extern int autosave_time;	/* see config.c */
+int level_exp(struct char_data *ch, int level);
+extern Burglary *burglaries;
+
+extern struct room_data *world;	/* In db.c */
+extern struct time_info_data time_info;		/* In db.c */
+extern char *help;
+extern GameInfo gameInfo;
+
+/* local globals */
+struct descriptor_data *descriptor_list = NULL;		/* master desc list */
+struct user_data *user_list = NULL; /* master user list */
+struct txt_block *bufpool = 0;	/* pool of large output buffers */
+int buf_largecount = 0;		/* # of large buffers which exist */
+int buf_overflows = 0;		/* # of overflows of output */
+int buf_switches = 0;		/* # of switches from small to large buf */
+int circle_shutdown = 0;	/* clean shutdown */
+int circle_reboot = 0;		/* reboot the game after a shutdown */
+int no_specials = 0;		/* Suppress ass. of special routines */
+int max_players = 0;		/* max descriptors available */
+int tics = 0;			/* for extern checkpointing */
+int scheck = 0;			/* for syntax checking mode */
+bool MOBTrigger = TRUE;         /* for MOBProgs */
+struct timeval null_time;	/* zero-valued time structure */
+FILE *logfile = NULL;		/* Where to send the log messages. */
+int dg_act_check;              /* toggle for act_trigger */
+unsigned long dg_global_pulse = 0; /* number of pulses since game start */
+
+
+/* functions in this file */
+RETSIGTYPE reread_wizlists(int sig);
+RETSIGTYPE unrestrict_game(int sig);
+RETSIGTYPE reap(int sig);
+RETSIGTYPE checkpointing(int sig);
+RETSIGTYPE hupsig(int sig);
+ssize_t perform_socket_read(socket_t desc, char *read_point,size_t space_left);
+ssize_t perform_socket_write(socket_t desc, const char *txt,size_t length);
+void echo_off(struct descriptor_data *d);
+void echo_on(struct descriptor_data *d);
+void sanity_check(void);
+void circle_sleep(struct timeval *timeout);
+int get_from_q(struct txt_q *queue, char *dest, int *aliased);
+void init_game(ush_int port);
+void signal_setup(void);
+void game_loop(socket_t mother_desc);
+socket_t init_socket(ush_int port);
+int new_descriptor(socket_t s);
+int get_max_players(void);
+int process_output(struct descriptor_data *t);
+int process_input(struct descriptor_data *t);
+void timediff(struct timeval *diff, struct timeval *a, struct timeval *b);
+void timeadd(struct timeval *sum, struct timeval *a, struct timeval *b);
+void flush_queues(struct descriptor_data *d);
+void nonblock(socket_t s);
+int perform_subst(struct descriptor_data *t, char *orig, char *subst);
+int perform_alias(struct descriptor_data *d, char *orig);
+void record_usage(void);
+char *make_prompt(struct descriptor_data *point);
+void check_idle_passwords(void);
+void heartbeat(int pulse);
+struct in_addr *get_bind_addr(void);
+int parse_ip(const char *addr, struct in_addr *inaddr);
+int set_sendbuf(socket_t s);
+void setup_log(const char *filename, int fd);
+int open_logfile(const char *filename, FILE *stderr_fp);
+#if defined(POSIX)
+sigfunc *my_signal(int signo, sigfunc * func);
+#endif
+char *get_user_prompt_string(struct char_data *ch);
+char *get_exp_prompt_string(struct char_data *ch);
+char *get_align_prompt_string(struct char_data *ch); 
+char *get_point_prompt_string(int curr, int max, bool max_point);
+char *get_fight_prompt(struct char_data *ch);
+
+/* extern fcnts */
+void handle_events();
+void proc_color(char *inbuf, struct char_data *ch, int colour, int insize);
+void reboot_wizlists(void);
+void boot_world(void);
+void affect_update(void);	/* In spells.c */
+void mobile_activity(void);
+void perform_violence(void);
+void show_string(struct descriptor_data *d, char *input);
+int isbanned(char *hostname);
+int isipbanned(struct in_addr inaddr, const int nameserver_is_slow);
+void weather_and_time(int mode);
+void rotate_arms();
+void do_hint();
+void do_zone_hint();
+void move_ship();
+void move_falcon();
+void move_bus();
+
+#ifdef __CXREF__
+#undef FD_ZERO
+#undef FD_SET
+#undef FD_ISSET
+#undef FD_CLR
+#define FD_ZERO(x)
+#define FD_SET(x, y) 0
+#define FD_ISSET(x, y) 0
+#define FD_CLR(x, y)
+#endif
+
+
+/***********************************************************************
+*  main game loop and related stuff                                    *
+***********************************************************************/
+
+#if defined(CIRCLE_WINDOWS) || defined(CIRCLE_MACINTOSH)
+
+/*
+ * Windows doesn't have gettimeofday, so we'll simulate it.
+ * The Mac doesn't have gettimeofday either.
+ * Borland C++ warns: "Undefined structure 'timezone'"
+ */
+void gettimeofday(struct timeval *t, struct timezone *dummy)
+{
+#if defined(CIRCLE_WINDOWS)
+  DWORD millisec = GetTickCount();
+#elif defined(CIRCLE_MACINTOSH)
+  unsigned long int millisec;
+  millisec = (int)((float)TickCount() * 1000.0 / 60.0);
+#endif
+
+  t->tv_sec = (int) (millisec / 1000);
+  t->tv_usec = (millisec % 1000) * 1000;
+}
+
+#endif	/* CIRCLE_WINDOWS || CIRCLE_MACINTOSH */
+
+// DM - log the process id
+void pid_log(void) {
+   FILE *pidlog;
+
+   if (!(pidlog = fopen("circle.pid", "w"))) {
+     basic_mud_log("SYSERR: Could not open pid file for writing"); 
+   }
+
+   fprintf(pidlog,"%d\n", getpid());
+   fclose(pidlog);
+}
+
+#define plant_magic(x)	do { (x)[sizeof(x) - 1] = MAGIC_NUMBER; } while (0)
+#define test_magic(x)	((x)[sizeof(x) - 1])
+
+int main(int argc, char **argv)
+{
+  ush_int port;
+  int pos = 1;
+  const char *dir;
+
+  /* Initialize these to check for overruns later. */
+  plant_magic(buf);
+  plant_magic(buf1);
+  plant_magic(buf2);
+  plant_magic(arg);
+
+#ifdef CIRCLE_MACINTOSH
+  /*
+   * ccommand() calls the command line/io redirection dialog box from
+   * Codewarriors's SIOUX library
+   */
+  argc = ccommand(&argv);
+  /* Initialize the GUSI library calls.  */
+  GUSIDefaultSetup();
+#endif
+
+  port = DFLT_PORT;
+  dir = DFLT_DIR;
+
+  while ((pos < argc) && (*(argv[pos]) == '-')) {
+    switch (*(argv[pos] + 1)) {
+    case 'o':
+      if (*(argv[pos] + 2))
+	LOGNAME = argv[pos] + 2;
+      else if (++pos < argc)
+	LOGNAME = argv[pos];
+      else {
+	puts("SYSERR: File name to log to expected after option -o.");
+	exit(1);
+      }
+      break;
+    case 'd':
+      if (*(argv[pos] + 2))
+	dir = argv[pos] + 2;
+      else if (++pos < argc)
+	dir = argv[pos];
+      else {
+	puts("SYSERR: Directory arg expected after option -d.");
+	exit(1);
+      }
+      break;
+    case 'm':
+      mini_mud = 1;
+      no_rent_check = 1;
+      puts("Running in minimized mode & with no rent check.");
+      break;
+    case 'c':
+      scheck = 1;
+      puts("Syntax check mode enabled.");
+      break;
+    case 'q':
+      no_rent_check = 1;
+      puts("Quick boot mode -- rent check supressed.");
+      break;
+    case 'r':
+      circle_restrict = 1;
+      puts("Restricting game -- no new players allowed.");
+      break;
+    case 's':
+      no_specials = 1;
+      puts("Suppressing assignment of special routines.");
+      break;
+    case 'h':
+      /* From: Anil Mahajan <amahajan@@proxicom.com> */
+      printf("Usage: %s [-c] [-m] [-q] [-r] [-s] [-d pathname] [port #]\n"
+              "  -c             Enable syntax check mode.\n"
+              "  -d <directory> Specify library directory (defaults to 'lib').\n"
+              "  -h             Print this command line argument help.\n"
+              "  -m             Start in mini-MUD mode.\n"
+	      "  -o <file>      Write log to <file> instead of stderr.\n"
+              "  -q             Quick boot (doesn't scan rent for object limits)\n"
+              "  -r             Restrict MUD -- no new players allowed.\n"
+              "  -s             Suppress special procedure assignments.\n",
+		 argv[0]
+      );
+      exit(0);
+    default:
+      printf("SYSERR: Unknown option -%c in argument string.\n", *(argv[pos] + 1));
+      break;
+    }
+    pos++;
+  }
+
+  if (pos < argc) {
+    if (!isdigit(*argv[pos])) {
+      printf("Usage: %s [-c] [-m] [-q] [-r] [-s] [-d pathname] [port #]\n", argv[0]);
+      exit(1);
+    } else if ((port = atoi(argv[pos])) <= 1024) {
+      printf("SYSERR: Illegal port number %d.\n", port);
+      exit(1);
+    }
+  }
+
+  /* All arguments have been parsed, try to open log file. */
+  setup_log(LOGNAME, STDERR_FILENO);
+
+  /*
+   * Moved here to distinguish command line options and to show up
+   * in the log if stderr is redirected to a file.
+   */
+  basic_mud_log(circlemud_version);
+  basic_mud_log(DG_SCRIPT_VERSION);
+
+  if (chdir(dir) < 0) {
+    perror("SYSERR: Fatal error changing to data directory");
+    exit(1);
+  }
+  basic_mud_log("Using %s as data directory.", dir);
+
+  /* DM - log the process id */
+  pid_log();
+
+  if (scheck) {
+    boot_world();
+    basic_mud_log("Done.");
+  } else {
+    basic_mud_log("Running game on port %d.", port);
+    init_game(port);
+  }
+
+  // Clean up any burglaries outstanding
+  if (burglaries != NULL)
+  {
+	delete burglaries;
+  }
+
+  return (0);
+}
+
+
+
+/* Init sockets, run game, and cleanup sockets */
+void init_game(ush_int port)
+{
+  socket_t mother_desc;
+
+  /* We don't want to restart if we crash before we get up. */
+  touch(KILLSCRIPT_FILE);
+
+  circle_srandom(time(0));
+
+  basic_mud_log("Finding player limit.");
+  max_players = get_max_players();
+
+  basic_mud_log("Opening mother connection.");
+  mother_desc = init_socket(port);
+
+  boot_db();
+
+#if defined(CIRCLE_UNIX) || defined(CIRCLE_MACINTOSH)
+  basic_mud_log("Signal trapping.");
+  signal_setup();
+#endif
+
+  /* If we made it this far, we will be able to restart without problem. */
+  remove(KILLSCRIPT_FILE);
+
+  basic_mud_log("Entering game loop.");
+
+  game_loop(mother_desc);
+
+  Crash_save_all();
+  House_save_all();
+
+  basic_mud_log("Closing all sockets.");
+  while (descriptor_list)
+    close_socket(descriptor_list);
+
+  CLOSE_SOCKET(mother_desc);
+  fclose(player_fl);
+
+  if (circle_reboot != 2)
+    save_all();
+ 
+  if (circle_reboot) {
+    basic_mud_log("Rebooting.");
+    exit(52);			/* what's so great about HHGTTG, anyhow? */
+  }
+  basic_mud_log("Normal termination of game.");
+}
+
+
+
+/*
+ * init_socket sets up the mother descriptor - creates the socket, sets
+ * its options up, binds it, and listens.
+ */
+socket_t init_socket(ush_int port)
+{
+  socket_t s;
+  struct sockaddr_in sa;
+  int opt;
+
+#ifdef CIRCLE_WINDOWS
+  {
+    WORD wVersionRequested;
+    WSADATA wsaData;
+
+    wVersionRequested = MAKEWORD(1, 1);
+
+    if (WSAStartup(wVersionRequested, &wsaData) != 0) {
+      basic_mud_log("SYSERR: WinSock not available!");
+      exit(1);
+    }
+    if ((wsaData.iMaxSockets - 4) < max_players) {
+      max_players = wsaData.iMaxSockets - 4;
+    }
+    basic_mud_log("Max players set to %d", max_players);
+
+    if ((s = socket(PF_INET, SOCK_STREAM, 0)) == INVALID_SOCKET) {
+      basic_mud_log("SYSERR: Error opening network connection: Winsock error #%d",
+	  WSAGetLastError());
+      exit(1);
+    }
+  }
+#else
+  /*
+   * Should the first argument to socket() be AF_INET or PF_INET?  I don't
+   * know, take your pick.  PF_INET seems to be more widely adopted, and
+   * Comer (_Internetworking with TCP/IP_) even makes a point to say that
+   * people erroneously use AF_INET with socket() when they should be using
+   * PF_INET.  However, the man pages of some systems indicate that AF_INET
+   * is correct; some such as ConvexOS even say that you can use either one.
+   * All implementations I've seen define AF_INET and PF_INET to be the same
+   * number anyway, so the point is (hopefully) moot.
+   */
+
+  if ((s = socket(PF_INET, SOCK_STREAM, 0)) < 0) {
+    perror("SYSERR: Error creating socket");
+    exit(1);
+  }
+#endif				/* CIRCLE_WINDOWS */
+
+#if defined(SO_REUSEADDR) && !defined(CIRCLE_MACINTOSH)
+  opt = 1;
+  if (setsockopt(s, SOL_SOCKET, SO_REUSEADDR, (char *) &opt, sizeof(opt)) < 0){
+    perror("SYSERR: setsockopt REUSEADDR");
+    exit(1);
+  }
+#endif
+
+  set_sendbuf(s);
+
+/*
+ * The GUSI sockets library is derived from BSD, so it defines
+ * SO_LINGER, even though setsockopt() is unimplimented.
+ *	(from Dean Takemori <dean@@UHHEPH.PHYS.HAWAII.EDU>)
+ */
+#if defined(SO_LINGER) && !defined(CIRCLE_MACINTOSH)
+  {
+    struct linger ld;
+
+    ld.l_onoff = 0;
+    ld.l_linger = 0;
+    if (setsockopt(s, SOL_SOCKET, SO_LINGER, (char *) &ld, sizeof(ld)) < 0)
+      perror("SYSERR: setsockopt SO_LINGER");	/* Not fatal I suppose. */
+  }
+#endif
+
+  /* Clear the structure */
+  memset((char *)&sa, 0, sizeof(sa));
+
+  sa.sin_family = AF_INET;
+  sa.sin_port = htons(port);
+  sa.sin_addr = *(get_bind_addr());
+
+  if (bind(s, (struct sockaddr *) &sa, sizeof(sa)) < 0) {
+    perror("SYSERR: bind");
+    CLOSE_SOCKET(s);
+    exit(1);
+  }
+  nonblock(s);
+  listen(s, 5);
+  return (s);
+}
+
+
+int get_max_players(void)
+{
+#ifndef CIRCLE_UNIX
+  return (max_playing);
+#else
+
+  int max_descs = 0;
+  const char *method;
+
+/*
+ * First, we'll try using getrlimit/setrlimit.  This will probably work
+ * on most systems.  HAS_RLIMIT is defined in sysdep.h.
+ */
+#ifdef HAS_RLIMIT
+  {
+    struct rlimit limit;
+
+    /* find the limit of file descs */
+    method = "rlimit";
+    if (getrlimit(RLIMIT_NOFILE, &limit) < 0) {
+      perror("SYSERR: calling getrlimit");
+      exit(1);
+    }
+
+    /* set the current to the maximum */
+    limit.rlim_cur = limit.rlim_max;
+    if (setrlimit(RLIMIT_NOFILE, &limit) < 0) {
+      perror("SYSERR: calling setrlimit");
+      exit(1);
+    }
+#ifdef RLIM_INFINITY
+    if (limit.rlim_max == RLIM_INFINITY)
+      max_descs = max_playing + NUM_RESERVED_DESCS;
+    else
+      max_descs = MIN(max_playing + NUM_RESERVED_DESCS, limit.rlim_max);
+#else
+    max_descs = MIN(max_playing + NUM_RESERVED_DESCS, limit.rlim_max);
+#endif
+  }
+
+#elif defined (OPEN_MAX) || defined(FOPEN_MAX)
+#if !defined(OPEN_MAX)
+#define OPEN_MAX FOPEN_MAX
+#endif
+  method = "OPEN_MAX";
+  max_descs = OPEN_MAX;		/* Uh oh.. rlimit didn't work, but we have
+				 * OPEN_MAX */
+#elif defined (_SC_OPEN_MAX)
+  /*
+   * Okay, you don't have getrlimit() and you don't have OPEN_MAX.  Time to
+   * try the POSIX sysconf() function.  (See Stevens' _Advanced Programming
+   * in the UNIX Environment_).
+   */
+  method = "POSIX sysconf";
+  errno = 0;
+  if ((max_descs = sysconf(_SC_OPEN_MAX)) < 0) {
+    if (errno == 0)
+      max_descs = max_playing + NUM_RESERVED_DESCS;
+    else {
+      perror("SYSERR: Error calling sysconf");
+      exit(1);
+    }
+  }
+#else
+  /* if everything has failed, we'll just take a guess */
+  method = "random guess";
+  max_descs = max_playing + NUM_RESERVED_DESCS;
+#endif
+
+  /* now calculate max _players_ based on max descs */
+  max_descs = MIN(max_playing, max_descs - NUM_RESERVED_DESCS);
+
+  if (max_descs <= 0) {
+    basic_mud_log("SYSERR: Non-positive max player limit!  (Set at %d using %s).",
+	    max_descs, method);
+    exit(1);
+  }
+  basic_mud_log("   Setting player limit to %d using %s.", max_descs, method);
+  return (max_descs);
+#endif /* CIRCLE_UNIX */
+}
+
+int pulse = 0;
+
+/*
+ * game_loop contains the main loop which drives the entire MUD.  It
+ * cycles once every 0.10 seconds and is responsible for accepting new
+ * new connections, polling existing connections for input, dequeueing
+ * output and sending it out to players, and calling "heartbeat" functions
+ * such as mobile_activity().
+ */
+void game_loop(socket_t mother_desc)
+{
+  fd_set input_set, output_set, exc_set, null_set;
+  struct timeval last_time, opt_time, process_time, temp_time;
+  struct timeval before_sleep, now, timeout;
+  char comm[MAX_INPUT_LENGTH];
+  struct descriptor_data *d, *next_d;
+  int /* pulse = 0,*/ missed_pulses, maxdesc, aliased;
+
+  /* initialize various time values */
+  null_time.tv_sec = 0;
+  null_time.tv_usec = 0;
+  opt_time.tv_usec = OPT_USEC;
+  opt_time.tv_sec = 0;
+  FD_ZERO(&null_set);
+
+  gettimeofday(&last_time, (struct timezone *) 0);
+
+  /* The Main Loop.  The Big Cheese.  The Top Dog.  The Head Honcho.  The.. */
+  while (!circle_shutdown) 
+  {
+
+    /* Sleep if we don't have any connections */
+    if (descriptor_list == NULL) {
+      basic_mud_log("No connections.  Going to sleep.");
+      FD_ZERO(&input_set);
+      FD_SET(mother_desc, &input_set);
+      if (select(mother_desc + 1, &input_set, (fd_set *) 0, (fd_set *) 0, NULL) < 0) {
+	if (errno == EINTR)
+	  basic_mud_log("Waking up to process signal.");
+	else
+	  perror("SYSERR: Select coma");
+      } else
+	basic_mud_log("New connection.  Waking up.");
+      gettimeofday(&last_time, (struct timezone *) 0);
+    }
+    /* Set up the input, output, and exception sets for select(). */
+    FD_ZERO(&input_set);
+    FD_ZERO(&output_set);
+    FD_ZERO(&exc_set);
+    FD_SET(mother_desc, &input_set);
+
+    maxdesc = mother_desc;
+    for (d = descriptor_list; d; d = d->next) {
+            
+#ifndef CIRCLE_WINDOWS
+      if (d->descriptor > maxdesc)
+	maxdesc = d->descriptor;
+#endif
+      FD_SET(d->descriptor, &input_set);
+      FD_SET(d->descriptor, &output_set);
+      FD_SET(d->descriptor, &exc_set);
+    }
+
+    /*
+     * At this point, we have completed all input, output and heartbeat
+     * activity from the previous iteration, so we have to put ourselves
+     * to sleep until the next 0.1 second tick.  The first step is to
+     * calculate how long we took processing the previous iteration.
+     */
+    
+    gettimeofday(&before_sleep, (struct timezone *) 0); /* current time */
+    timediff(&process_time, &before_sleep, &last_time);
+
+    /*
+     * If we were asleep for more than one pass, count missed pulses and sleep
+     * until we're resynchronized with the next upcoming pulse.
+     */
+    if (process_time.tv_sec == 0 && process_time.tv_usec < OPT_USEC) {
+      missed_pulses = 0;
+    } else {
+      missed_pulses = process_time.tv_sec * PASSES_PER_SEC;
+      missed_pulses += process_time.tv_usec / OPT_USEC;
+      process_time.tv_sec = 0;
+      process_time.tv_usec = process_time.tv_usec % OPT_USEC;
+    }
+
+    /* Calculate the time we should wake up */
+    timediff(&temp_time, &opt_time, &process_time);
+    timeadd(&last_time, &before_sleep, &temp_time);
+
+    /* Now keep sleeping until that time has come */
+    gettimeofday(&now, (struct timezone *) 0);
+    timediff(&timeout, &last_time, &now);
+
+    /* Go to sleep */
+    do {
+      circle_sleep(&timeout);
+      gettimeofday(&now, (struct timezone *) 0);
+      timediff(&timeout, &last_time, &now);
+    } while (timeout.tv_usec || timeout.tv_sec);
+
+    /* Poll (without blocking) for new input, output, and exceptions */
+    if (select(maxdesc + 1, &input_set, &output_set, &exc_set, &null_time) < 0) {
+      perror("SYSERR: Select poll");
+      return;
+    }
+    /* If there are new connections waiting, accept them. */
+    if (FD_ISSET(mother_desc, &input_set))
+      new_descriptor(mother_desc);
+
+    /* Kick out the freaky folks in the exception set and marked for close */
+    for (d = descriptor_list; d; d = next_d) {
+      next_d = d->next;
+      if (FD_ISSET(d->descriptor, &exc_set)) {
+	FD_CLR(d->descriptor, &input_set);
+	FD_CLR(d->descriptor, &output_set);
+	close_socket(d);
+      }
+    }
+
+    /* Process descriptors with input pending */
+    for (d = descriptor_list; d; d = next_d) {
+      next_d = d->next;
+      if (FD_ISSET(d->descriptor, &input_set))
+	if (process_input(d) < 0)
+	  close_socket(d);
+    }
+
+    /* Process commands we just read from process_input */
+    for (d = descriptor_list; d; d = next_d) {
+      next_d = d->next;
+
+      /*
+       * Not combined to retain --(d->wait) behavior. -gg 2/20/98
+       * If no wait state, no subtraction.  If there is a wait
+       * state then 1 is subtracted. Therefore we don't go less
+       * than 0 ever and don't require an 'if' bracket. -gg 2/27/99
+       */
+      if (d->character) {
+        GET_WAIT_STATE(d->character) -= (GET_WAIT_STATE(d->character) > 0);
+
+        if (GET_WAIT_STATE(d->character))
+          continue;
+      }
+
+      if (!get_from_q(&d->input, comm, &aliased))
+        continue;
+
+      if (d->character) {
+	/* Reset the idle timer & pull char back from void if necessary */
+	d->character->char_specials.timer = 0;
+	if (STATE(d) == CON_PLAYING && GET_WAS_IN(d->character) != NOWHERE) {
+	  if (d->character->in_room != NOWHERE)
+	    char_from_room(d->character);
+	  char_to_room(d->character, GET_WAS_IN(d->character));
+	  GET_WAS_IN(d->character) = NOWHERE;
+	  act("$n has returned.", TRUE, d->character, 0, 0, TO_ROOM);
+	}
+        GET_WAIT_STATE(d->character) = 1;
+      }
+      d->has_prompt = 0;
+
+      if (d->showstr_count) /* Reading something w/ pager */
+	show_string(d, comm);
+      else if (d->str)         /* Writing boards, mail, etc. */
+        string_add(d, comm);
+      else if (STATE(d) != CON_PLAYING) /* In menus, etc. */
+	nanny(d, comm);
+      else {			/* else: we're playing normally. */
+	if (aliased)		/* To prevent recursive aliases. */
+	  d->has_prompt = 1;	/* To get newline before next cmd output. */
+	else if (perform_alias(d, comm))    /* Run it through aliasing system */
+	  get_from_q(&d->input, comm, &aliased);
+	command_interpreter(d->character, comm); /* Send it to interpreter */
+      }
+    }
+
+    /* Send queued output out to the operating system (ultimately to user). */
+    for (d = descriptor_list; d; d = next_d) {
+      next_d = d->next;
+      if (*(d->output) && FD_ISSET(d->descriptor, &output_set)) {
+        if ((d->has_prompt = process_output(d)) < 0)
+          close_socket(d);
+      }
+   }   
+
+    /* Print prompts for other descriptors who had no other output */
+    for (d = descriptor_list; d; d = d->next) {
+      if (!d->has_prompt) 
+      {
+	if (d->bufptr < 0)
+	  write_to_descriptor(d->descriptor, "> ");
+	else
+	  write_to_descriptor(d->descriptor, make_prompt(d));
+	d->has_prompt = 1;
+      }
+    }
+
+    /* Kick out folks in the CON_CLOSE or CON_DISCONNECT state */
+    for (d = descriptor_list; d; d = next_d) {
+      next_d = d->next;
+      if (STATE(d) == CON_CLOSE || STATE(d) == CON_DISCONNECT)
+	close_socket(d);
+    }
+
+    /*
+     * Now, we execute as many pulses as necessary--just one if we haven't
+     * missed any pulses, or make up for lost time if we missed a few
+     * pulses by sleeping for too long.
+     */
+    missed_pulses++;
+
+    if (missed_pulses <= 0) {
+      basic_mud_log("SYSERR: **BAD** MISSED_PULSES NONPOSITIVE (%d), TIME GOING BACKWARDS!!", missed_pulses);
+      missed_pulses = 1;
+    }
+
+    /* If we missed more than 30 seconds worth of pulses, just do 30 secs */
+    if (missed_pulses > (30 * PASSES_PER_SEC)) {
+      basic_mud_log("SYSERR: Missed %d seconds worth of pulses.", missed_pulses / PASSES_PER_SEC);
+      missed_pulses = 30 * PASSES_PER_SEC;
+    }
+
+    /* Now execute the heartbeat functions */
+    while (missed_pulses--)
+      heartbeat(++pulse);
+
+    /* Roll pulse over after 10 hours */
+    if (pulse >= (600 * 60 * PASSES_PER_SEC))
+      pulse = 0;
+
+#ifdef CIRCLE_UNIX
+    /* Update tics for deadlock protection (UNIX only) */
+    tics++;
+#endif
+  }
+}
+
+
+void heartbeat(int pulse)
+{
+  static int mins_since_crashsave = 0;
+  void process_events(void);
+  void object_activity(void);
+  void world_activity(void);
+  void rapid_blasts(void);
+  
+  dg_global_pulse++;
+  
+  process_events();
+  
+  if (!(pulse % PULSE_DG_SCRIPT))
+  {
+    if (pulse % (SECS_PER_MUD_HOUR RL_SEC) > 4)
+      object_activity();
+      // script_trigger_check();
+    world_activity();
+  }
+
+  if (!(pulse % (30 RL_SEC)))
+    sanity_check();
+
+  if (!(pulse % PULSE_ZONE))
+    zone_update();
+
+  if (!(pulse % (15 RL_SEC)))		/* 15 seconds */
+    check_idle_passwords();
+
+  if (!(pulse % PULSE_MOBILE))
+  {
+    handle_events();
+    mobile_activity();
+  }
+
+  if (!(pulse % PULSE_VIOLENCE))
+  {
+    perform_violence();
+    rapid_blasts(); // Artus> Gauntlet, Compound...
+  }
+
+  // Artus> Put a lot of stuff inside here, so it only checks 60 sec every
+  //        15 sec, 120sec every 60 sec, 300 sec every 60 sec, etc.
+  if (!(pulse % (PULSE_CASINO))) // Casino, Island Forever Spec. (15 Sec)
+  {
+    if (!(pulse % (SECS_PER_MUD_HOUR * PASSES_PER_SEC))) // Tick! (45 Sec)
+    {
+      weather_and_time(1);
+      affect_update();
+      point_update();
+      object_activity();
+      fflush(player_fl);
+    }
+    check_games();      // Tali's gambling.
+    rotate_arms();      // Tali's island forever spec.
+    if (auto_save && !(pulse % (60 RL_SEC))) // Auto Save (60 Sec)
+    {
+      if (++mins_since_crashsave >= autosave_time)
+      {
+	mins_since_crashsave = 0;
+	Crash_save_all();
+	House_save_all();
+      }
+      if (!(pulse % (PULSE_ZONE_HINTS))) // Zone Hints (300 Sec)
+      {
+	if (!(pulse % (PULSE_HINTS)))    // Hints (600 Sec)
+	  do_hint();
+	do_zone_hint();
+	record_usage();
+      }
+      if (!(pulse % (120 RL_SEC)))       // Move Ship/Falcon (120 Sec)
+      {   
+	move_ship();
+	move_falcon();
+      }
+    }
+  }
+
+  if ((pulse % (35 RL_SEC)) == 13)
+    move_bus();
+}
+
+
+/* ******************************************************************
+*  general utility stuff (for local use)                            *
+****************************************************************** */
+
+/*
+ *  new code to calculate time differences, which works on systems
+ *  for which tv_usec is unsigned (and thus comparisons for something
+ *  being < 0 fail).  Based on code submitted by ss@@sirocco.cup.hp.com.
+ */
+
+/*
+ * code to return the time difference between a and b (a-b).
+ * always returns a nonnegative value (floors at 0).
+ */
+void timediff(struct timeval *rslt, struct timeval *a, struct timeval *b)
+{
+  if (a->tv_sec < b->tv_sec)
+    *rslt = null_time;
+  else if (a->tv_sec == b->tv_sec) {
+    if (a->tv_usec < b->tv_usec)
+      *rslt = null_time;
+    else {
+      rslt->tv_sec = 0;
+      rslt->tv_usec = a->tv_usec - b->tv_usec;
+    }
+  } else {			/* a->tv_sec > b->tv_sec */
+    rslt->tv_sec = a->tv_sec - b->tv_sec;
+    if (a->tv_usec < b->tv_usec) {
+      rslt->tv_usec = a->tv_usec + 1000000 - b->tv_usec;
+      rslt->tv_sec--;
+    } else
+      rslt->tv_usec = a->tv_usec - b->tv_usec;
+  }
+}
+
+/*
+ * Add 2 time values.
+ *
+ * Patch sent by "d. hall" <dhall@@OOI.NET> to fix 'static' usage.
+ */
+void timeadd(struct timeval *rslt, struct timeval *a, struct timeval *b)
+{
+  rslt->tv_sec = a->tv_sec + b->tv_sec;
+  rslt->tv_usec = a->tv_usec + b->tv_usec;
+
+  while (rslt->tv_usec >= 1000000) {
+    rslt->tv_usec -= 1000000;
+    rslt->tv_sec++;
+  }
+}
+
+
+void record_usage(void)
+{
+  int sockets_connected = 0, sockets_playing = 0;
+  struct descriptor_data *d;
+
+  for (d = descriptor_list; d; d = d->next) {
+    sockets_connected++;
+    if (STATE(d) == CON_PLAYING)
+      sockets_playing++;
+  }
+
+  basic_mud_log("nusage: %-3d sockets connected, %-3d sockets playing, %-3d max sockets playing this period, %-3d max sockets playing",
+	  sockets_connected, sockets_playing, gameInfo.getMaxUsersOnlinePeriod(), gameInfo.getMaxUsersOnline());
+  gameInfo.setMaxUsersOnlinePeriod(sockets_playing);
+
+#ifdef RUSAGE	/* Not RUSAGE_SELF because it doesn't guarantee prototype. */
+  {
+    struct rusage ru;
+
+    getrusage(RUSAGE_SELF, &ru);
+    basic_mud_log("rusage: user time: %ld sec, system time: %ld sec, max res size: %ld",
+	    ru.ru_utime.tv_sec, ru.ru_stime.tv_sec, ru.ru_maxrss);
+  }
+#endif
+
+}
+
+
+
+/*
+ * Turn off echoing (specific to telnet client)
+ */
+void echo_off(struct descriptor_data *d)
+{
+  char off_string[] =
+  {
+    (char) IAC,
+    (char) WILL,
+    (char) TELOPT_ECHO,
+    (char) 0,
+  };
+
+  SEND_TO_Q(off_string, d);
+}
+
+
+/*
+ * Turn on echoing (specific to telnet client)
+ */
+void echo_on(struct descriptor_data *d)
+{
+  char on_string[] =
+  {
+    (char) IAC,
+    (char) WONT,
+    (char) TELOPT_ECHO,
+    (char) 0
+  };
+
+  SEND_TO_Q(on_string, d);
+}
+
+char *get_point_prompt_string(int curr, int max, bool max_point)
+{
+  static char point_prompt[MAX_PROMPT_LENGTH + 1];
+
+  *point_prompt = '\0';
+
+  if (!max_point) {
+    if (curr < max / 4)
+      strcpy(point_prompt, "&r");
+    else if (curr < max / 2)
+      strcpy(point_prompt, "&R");
+    else if (curr < max)
+      strcpy(point_prompt, "&Y");
+    else 
+      strcpy(point_prompt, "&G");
+  } else {
+    strcpy(point_prompt, "&G");
+  }
+
+  if (!max_point) {
+    sprintf(point_prompt, "%s%d&n", point_prompt, curr); 
+  } else {
+    sprintf(point_prompt, "%s%d&n", point_prompt, max);
+  }
+  return (point_prompt);
+}
+
+char *get_align_prompt_string(struct char_data *ch) {
+  static char align_prompt[MAX_PROMPT_LENGTH + 1];
+
+  *align_prompt = '\0';
+
+  if (GET_ALIGNMENT(ch) > 350)
+    strcpy(align_prompt, "&c");
+  else if (GET_ALIGNMENT(ch) < -350)
+    strcpy(align_prompt, "&r");
+  else
+    strcpy(align_prompt, "&y");
+
+  sprintf(align_prompt, "%s%d", align_prompt, GET_ALIGNMENT(ch));
+  
+  return (align_prompt); 
+}
+
+char *get_exp_prompt_string(struct char_data *ch) {
+  static char exp_prompt[MAX_PROMPT_LENGTH + 1];
+  double temp;
+
+  *exp_prompt = '\0';
+
+  if (!ch || IS_NPC(ch) || !CAN_LEVEL(ch))
+  {
+    sprintf(exp_prompt, "&R*");
+    return (exp_prompt);
+  }
+
+  temp = (int)(level_exp(ch, GET_LEVEL(ch)) - GET_EXP(ch));
+
+  if (temp >= 1000000) {
+    sprintf(exp_prompt, "&c%3.1fm", temp/1000000);
+  } else if (temp >= 1000) {
+    sprintf(exp_prompt, "&c%3.1fk", temp/1000);
+  } else {
+    sprintf(exp_prompt, "&c%d", (int)temp);
+  }
+
+  return (exp_prompt);
+}
+
+char *get_user_prompt_string(struct char_data *ch) {
+  char temp[25 + 1], **prompt = &GET_PROMPT(ch);
+  static char user_prompt[MAX_PROMPT_LENGTH + 1];
+  unsigned int i;
+
+  *user_prompt = '\0';
+
+  if (!ch || !*prompt) 
+    return (user_prompt);
+  
+  strcpy(temp, *prompt);
+
+  for (i = 0; i < strlen(temp); i++) {
+    if (temp[i] == '%') {
+
+      if (i++ >= strlen(temp)) {
+        sprintf(buf, "%c", temp[i-1]);
+        strcat(user_prompt, buf);
+        continue;
+      }
+
+      switch (temp[i]) {
+        case 'h':
+          sprintf(buf, "%s", 
+                get_point_prompt_string(GET_HIT(ch), GET_MAX_HIT(ch), FALSE));
+          break;
+        case 'H':
+          sprintf(buf, "%s", 
+                get_point_prompt_string(GET_HIT(ch), GET_MAX_HIT(ch), TRUE));
+          break;
+        case 'm':
+          sprintf(buf, "%s", 
+                get_point_prompt_string(GET_MANA(ch), GET_MAX_MANA(ch), FALSE));
+          break;
+        case 'M':
+          sprintf(buf, "%s", 
+                get_point_prompt_string(GET_MANA(ch), GET_MAX_MANA(ch), TRUE));
+          break;
+        case 'v':
+          sprintf(buf, "%s", 
+                get_point_prompt_string(GET_MOVE(ch), GET_MAX_MOVE(ch), FALSE));
+          break;
+        case 'V':
+          sprintf(buf, "%s", 
+                get_point_prompt_string(GET_MOVE(ch), GET_MAX_MOVE(ch), TRUE));
+          break;
+        case 'x':
+          strcpy(buf, get_exp_prompt_string(ch));
+          break;
+        case 'l':
+          sprintf(buf, get_align_prompt_string(ch)); 
+          break;
+
+        // Nothing
+        default:
+          sprintf(buf, "%c", temp[i - 1]);
+          i--;
+          break;
+      }
+      strcat(user_prompt, buf);
+    } else {
+      sprintf(buf, "%c", temp[i]);
+      strcat(user_prompt, buf);
+    }
+  }
+  return (user_prompt);
+}
+
+char *get_fight_prompt(struct char_data *ch) {
+  
+  float health;
+  int bar, i, numslots;
+  static char prompt[MAX_PROMPT_LENGTH + 1];
+  
+  *prompt = '\0';
+
+  switch (GET_FIGHT_PROMPT(ch)) {
+    case PROMPT_HEALTHOMETER:
+    default:
+      // modified by DM, 9/2/2001
+      /* modifications to add the Health-o-Meter(tm) to the prompt - Vader */
+
+      // min of 5 slots, max of 20.
+      // players get extra slot every 5 levels after level 10 ...
+      numslots = (int)(GET_LEVEL(ch) - 10) / 5 + 5;
+      numslots = MIN(20, MAX(5, numslots));
+
+      health = ((float)GET_HIT(FIGHTING(ch)) / 
+                (float)GET_MAX_HIT(FIGHTING(ch))) * 100;
+      bar = (int)(health / (100 / numslots));
+
+      sprintf(buf1, "%s[%s", CCBLU(ch, C_NRM), CCGRN(ch, C_NRM));
+      strncat(prompt, buf1, strlen(buf1));
+
+      if (GET_HIT(FIGHTING(ch)) <= 0) {
+        sprintf(buf1, "%s", CCRED(ch, C_NRM));
+        strncat(prompt, buf1, strlen(buf1));
+        for (i = 0; i < numslots; i++) {
+          strncat(prompt, "-", 1);
+        }
+      } else {
+
+        for (i = 0; i < bar && i < numslots; i++) {
+          strncat(prompt,"*", 1);
+        }
+
+        if (bar < numslots) {
+          sprintf(buf1, "%s", CCRED(ch, C_NRM));
+          strncat(prompt, buf1, strlen(buf1));
+          for(i = bar; i < numslots; i++) {
+            strncat(prompt, "-", 1);
+          }
+        }
+      }
+      sprintf(buf1, "%s] ", CCBLU(ch, C_NRM));
+      strncat(prompt, buf1, strlen(buf1));
+      return (prompt);
+  }
+}
+
+char *make_prompt(struct descriptor_data *d)
+{
+  static char prompt[MAX_PROMPT_LENGTH + 1];
+  char **user_prompt = 
+          (d->original) ? &GET_PROMPT(d->original) : &GET_PROMPT(d->character);
+
+  /* Note, prompt is truncated at MAX_PROMPT_LENGTH chars (structs.h )*/
+
+  if (d->showstr_count) { 
+    sprintf(prompt, "\r&n[ Return to continue, (&4q&n)uit, (&4r&n)efresh, "
+                    "(&4b&n)ack, or page number (&c%d&n/&c%d&n) ]",
+	    d->showstr_page, d->showstr_count);
+    proc_color(prompt, d->character, (clr(d->character, C_NRM)), sizeof(prompt));
+  } else if (d->str) {
+    sprintf(prompt, "(&c%d&n/&C%d&n) &y]&n ", 
+            (*d->str ? strlen(*d->str) : 0), d->max_str - 1);
+    proc_color(prompt, d->character, (clr(d->character, C_NRM)), sizeof(prompt));
+  } else if (STATE(d) == CON_PLAYING && !IS_NPC(d->character)) {
+    *prompt = '\0';
+
+    if (GET_INVIS_LEV(d->character)) {
+      switch (GET_INVIS_TYPE(d->character)) {
+        case INVIS_SPECIFIC:
+          sprintf(buf, "i(%s) ", get_name_by_id(GET_INVIS_LEV(d->character)));
+          break;
+        case INVIS_SINGLE:
+          sprintf(buf, "i%ds ", GET_INVIS_LEV(d->character));
+          break;
+        case INVIS_NORMAL:
+          sprintf(buf,"i%d ", GET_INVIS_LEV(d->character));
+          break;
+        // Invis range, top range level is GET_INVIS_TYPE
+        default:
+          sprintf(buf, "i%d-%d ", GET_INVIS_LEV(d->character),
+              GET_INVIS_TYPE(d->character));
+          break;
+      }
+      strcat(prompt, buf);
+    }
+
+    if (*user_prompt != NULL) {
+      sprintf(buf, "%s", get_user_prompt_string(d->character));
+      strncat(prompt, buf, strlen(buf));
+    } else {
+
+/* modifications for cooly, frilly, golly, sticky prompties! - Vader */
+      if (PRF_FLAGGED(d->character, PRF_DISPHP)) {
+        sprintf(buf2, "%sH ", get_point_prompt_string(GET_HIT(d->character), 
+                                GET_MAX_HIT(d->character), FALSE));
+        strncat(prompt, buf2, strlen(buf2));
+      }
+ 
+      if (PRF_FLAGGED(d->character, PRF_DISPMANA)) {
+        sprintf(buf2, "%sM ", get_point_prompt_string(GET_MANA(d->character), 
+                                GET_MAX_MANA(d->character), FALSE));
+        strncat(prompt, buf2, strlen(buf2));
+      }
+
+      if (PRF_FLAGGED(d->character, PRF_DISPMOVE)) {
+        sprintf(buf2, "%sV ", get_point_prompt_string(GET_MOVE(d->character), 
+                                GET_MAX_MOVE(d->character), FALSE));
+        strncat(prompt, buf2, strlen(buf2));
+      }
+ 
+      if (PRF_FLAGGED(d->character, PRF_DISPEXP)) {
+        sprintf(buf1, "X:%s%s&n ", CCCYN(d->character, C_NRM), 
+                get_exp_prompt_string(d->character)); 
+        strncat(prompt, buf1, strlen(buf1));
+      }
+
+      if (PRF_FLAGGED(d->character, PRF_DISPALIGN)){
+        sprintf(buf1, "Al:&n%s&n ", get_align_prompt_string(d->character));
+        strncat(prompt, buf1, strlen(buf1));
+      }
+    }    
+
+    if (FIGHTING(d->character)) {
+      sprintf(buf1, "%s&n", get_fight_prompt(d->character));
+      strncat(prompt, buf1, strlen(buf1));
+    }
+
+    if (!GET_PROMPT(d->character)) {
+      strcat(prompt, "&n> ");
+    } else {
+      strcat(prompt, "&n"); 
+    } 
+    //sprintf(prompt, "&n%s&n> ", prompt);
+    proc_color(prompt, d->character, (clr(d->character, C_NRM)), sizeof(prompt));
+  } else if (STATE(d) == CON_PLAYING && IS_NPC(d->character)) {
+      sprintf(prompt, "%s> ", GET_NAME(d->character));
+  } else {
+    *prompt = '\0';
+  }
+
+  return (prompt);
+}
+
+
+void write_to_q(const char *txt, struct txt_q *queue, int aliased)
+{
+  struct txt_block *newt;
+
+  CREATE(newt, struct txt_block, 1);
+  newt->text = str_dup(txt);
+  newt->aliased = aliased;
+
+  /* queue empty? */
+  if (!queue->head) {
+    newt->next = NULL;
+    queue->head = queue->tail = newt;
+  } else {
+    queue->tail->next = newt;
+    queue->tail = newt;
+    newt->next = NULL;
+  }
+}
+
+
+
+int get_from_q(struct txt_q *queue, char *dest, int *aliased)
+{
+  struct txt_block *tmp;
+
+  /* queue empty? */
+  if (!queue->head)
+    return (0);
+
+  tmp = queue->head;
+  strcpy(dest, queue->head->text);
+  *aliased = queue->head->aliased;
+  queue->head = queue->head->next;
+
+  free(tmp->text);
+  free(tmp);
+
+  return (1);
+}
+
+
+
+/* Empty the queues before closing connection */
+void flush_queues(struct descriptor_data *d)
+{
+  int dummy;
+
+  if (d->large_outbuf) {
+    d->large_outbuf->next = bufpool;
+    bufpool = d->large_outbuf;
+  }
+  while (get_from_q(&d->input, buf2, &dummy));
+}
+
+/* Add a new string to a player's output queue */
+void write_to_output(const char *txt, struct descriptor_data *t)
+{
+  int size;
+
+  /* if we're in the overflow state already, ignore this new output */
+  if (t->bufptr < 0)
+    return;
+
+  size = strlen(txt);
+
+  /* if we have enough space, just write to buffer and that's it! */
+  if (t->bufspace >= size)
+  {
+    strcpy(t->output + t->bufptr, txt);
+//    strncpy(t->output + t->bufptr, txt, strlen(t->output + t->bufptr));
+    t->bufspace -= size;
+    t->bufptr += size;
+    return;
+  }
+  /*
+   * If the text is too big to fit into even a large buffer, chuck the
+   * new text and switch to the overflow state.
+   */
+  if (size + t->bufptr > LARGE_BUFSIZE - 1) 
+  {
+    t->bufptr = -1;
+    buf_overflows++;
+    return;
+  }
+  buf_switches++;
+
+  /* if the pool has a buffer in it, grab it */
+  if (bufpool != NULL) 
+  {
+    t->large_outbuf = bufpool;
+    bufpool = bufpool->next;
+  } else {			/* else create a new one */
+    CREATE(t->large_outbuf, struct txt_block, 1);
+    CREATE(t->large_outbuf->text, char, LARGE_BUFSIZE);
+    buf_largecount++;
+  }
+
+  strcpy(t->large_outbuf->text, t->output);	/* copy to big buffer */
+  t->output = t->large_outbuf->text;	/* make big buffer primary */
+  strcat(t->output, txt);	/* now add new text */
+
+  /* set the pointer for the next write */
+  t->bufptr = strlen(t->output);
+
+  /* calculate how much space is left in the buffer */
+  t->bufspace = LARGE_BUFSIZE - 1 - t->bufptr;
+}
+
+
+
+/* ******************************************************************
+*  socket handling                                                  *
+****************************************************************** */
+
+
+/*
+ * get_bind_addr: Return a struct in_addr that should be used in our
+ * call to bind().  If the user has specified a desired binding
+ * address, we try to bind to it; otherwise, we bind to INADDR_ANY.
+ * Note that inet_aton() is preferred over inet_addr() so we use it if
+ * we can.  If neither is available, we always bind to INADDR_ANY.
+ */
+
+struct in_addr *get_bind_addr()
+{
+  static struct in_addr bind_addr;
+
+  /* Clear the structure */
+  memset((char *) &bind_addr, 0, sizeof(bind_addr));
+
+  /* If DLFT_IP is unspecified, use INADDR_ANY */
+  if (DFLT_IP == NULL) {
+    bind_addr.s_addr = htonl(INADDR_ANY);
+  } else {
+    /* If the parsing fails, use INADDR_ANY */
+    if (!parse_ip(DFLT_IP, &bind_addr)) {
+      basic_mud_log("SYSERR: DFLT_IP of %s appears to be an invalid IP address",DFLT_IP);
+      bind_addr.s_addr = htonl(INADDR_ANY);
+    }
+  }
+
+  /* Put the address that we've finally decided on into the logs */
+  if (bind_addr.s_addr == htonl(INADDR_ANY))
+    basic_mud_log("Binding to all IP interfaces on this host.");
+  else
+    basic_mud_log("Binding only to IP address %s", inet_ntoa(bind_addr));
+
+  return (&bind_addr);
+}
+
+#ifdef HAVE_INET_ATON
+
+/*
+ * inet_aton's interface is the same as parse_ip's: 0 on failure, non-0 if
+ * successful
+ */
+int parse_ip(const char *addr, struct in_addr *inaddr)
+{
+  return (inet_aton(addr, inaddr));
+}
+
+#elif HAVE_INET_ADDR
+
+/* inet_addr has a different interface, so we emulate inet_aton's */
+int parse_ip(const char *addr, struct in_addr *inaddr)
+{
+  long ip;
+
+  if ((ip = inet_addr(addr)) == -1) {
+    return (0);
+  } else {
+    inaddr->s_addr = (unsigned long) ip;
+    return (1);
+  }
+}
+
+#else
+
+/* If you have neither function - sorry, you can't do specific binding. */
+int parse_ip(const char *addr, struct in_addr *inaddr)
+{
+  basic_mud_log("SYSERR: warning: you're trying to set DFLT_IP but your system has no\n"
+      "functions to parse IP addresses (how bizarre!)");
+  return (0);
+}
+
+#endif /* INET_ATON and INET_ADDR */
+
+
+
+/* Sets the kernel's send buffer size for the descriptor */
+int set_sendbuf(socket_t s)
+{
+#if defined(SO_SNDBUF) && !defined(CIRCLE_MACINTOSH)
+  int opt = MAX_SOCK_BUF;
+
+  if (setsockopt(s, SOL_SOCKET, SO_SNDBUF, (char *) &opt, sizeof(opt)) < 0) {
+    perror("SYSERR: setsockopt SNDBUF");
+    return (-1);
+  }
+
+#if 0
+  if (setsockopt(s, SOL_SOCKET, SO_RCVBUF, (char *) &opt, sizeof(opt)) < 0) {
+    perror("SYSERR: setsockopt RCVBUF");
+    return (-1);
+  }
+#endif
+
+#endif
+
+  return (0);
+}
+
+int new_descriptor(socket_t s)
+{
+  socket_t desc;
+  int sockets_connected = 0;
+  socklen_t i;
+  static int last_desc = 0;	/* last descriptor number */
+  struct descriptor_data *newd;
+  struct sockaddr_in peer;
+  struct hostent *from;
+  
+  /* accept the new connection */
+  i = sizeof(peer);
+  if ((desc = accept(s, (struct sockaddr *) &peer, (socklen_t *)&i)) == INVALID_SOCKET){
+    perror("SYSERR: accept");
+    return (-1);
+  }
+  /* keep it from blocking */
+  nonblock(desc);
+
+  /* set the send buffer size */
+  if (set_sendbuf(desc) < 0) {
+    CLOSE_SOCKET(desc);
+    return (0);
+  }
+
+  /* make sure we have room for it */
+  for (newd = descriptor_list; newd; newd = newd->next)
+    sockets_connected++;
+
+  if (sockets_connected >= max_players) {
+    write_to_descriptor(desc, "Sorry, PrimalMUD is full right now... please try again later!\r\n");
+    CLOSE_SOCKET(desc);
+    return (0);
+  }
+  /* create a new descriptor */
+  CREATE(newd, struct descriptor_data, 1);
+  memset((char *) newd, 0, sizeof(struct descriptor_data));
+
+  /* find the sitename */
+  if (nameserver_is_slow || !(from = gethostbyaddr((char *) &peer.sin_addr,
+				      sizeof(peer.sin_addr), AF_INET))) {
+
+    /* resolution failed */
+    if (!nameserver_is_slow)
+      perror("SYSERR: gethostbyaddr");
+
+    /* find the numeric site address */
+    strncpy(newd->host, (char *)inet_ntoa(peer.sin_addr), HOST_LENGTH);
+    *(newd->host + HOST_LENGTH) = '\0';
+  } else {
+    strncpy(newd->host, from->h_name, HOST_LENGTH);
+    *(newd->host + HOST_LENGTH) = '\0';
+  }
+
+  /* determine if the site is banned */
+ // if (isbanned(newd->host) == BAN_ALL) {
+  // DM - OLD hostname above ^ 
+  //      NEW ip below
+  if (isipbanned(peer.sin_addr, nameserver_is_slow) == BAN_ALL)
+  {
+    CLOSE_SOCKET(desc);
+    sprintf(buf2, "Connection attempt denied from [%s]", newd->host);
+    mudlog(buf2, CMP, LVL_GOD, TRUE);
+    free(newd);
+    return (0);
+  }
+
+  /*
+   * Log new connections - probably unnecessary, but you may want it.
+   * Note that your immortals may wonder if they see a connection from
+   * your site, but you are wizinvis upon login.
+   */
+  sprintf(buf2, "New connection from [%s]", newd->host);
+//  basic_mud_log(buf);
+  mudlog(buf2, CMP, LVL_IMPL, TRUE);
+
+  /* initialize descriptor data */
+  newd->descriptor = desc;
+  newd->idle_tics = 0;
+  newd->output = newd->small_outbuf;
+  newd->bufspace = SMALL_BUFSIZE - 1;
+  newd->login_time = time(0);
+  *newd->output = '\0';
+  newd->bufptr = 0;
+  newd->has_prompt = 1;  /* prompt is part of greetings */
+  newd->bad_pws = 0; /* DM: initialise bad_pws?? */
+  newd->report = NULL;
+  //STATE(newd) = CON_QCOLOUR;
+  STATE(newd) = CON_GET_NAME;
+  
+  gameInfo.setUsersOnline(gameInfo.getUsersOnline() + 1);
+	
+  /*
+   * This isn't exactly optimal but allows us to make a design choice.
+   * Do we embed the history in descriptor_data or keep it dynamically
+   * allocated and allow a user defined history size?
+   */
+  CREATE(newd->history, char *, HISTORY_SIZE);
+
+  if (++last_desc == 1000)
+    last_desc = 1;
+  newd->desc_num = last_desc;
+
+  /* prepend to list */
+  newd->next = descriptor_list;
+  descriptor_list = newd;
+
+  if (newd->character == NULL) {
+    CREATE(newd->character, struct char_data, 1);
+    clear_char(newd->character);
+    CREATE(newd->character->player_specials, struct player_special_data, 1);
+    newd->character->desc = newd;
+  }
+
+  SEND_TO_Q(GREETINGS, newd);
+  //SEND_TO_Q("Welcome to PrimalMUD!\r\nWould you like colour? ", newd);
+
+  return (0);
+}
+
+
+/*
+ * Send all of the output that we've accumulated for a player out to
+ * the player's descriptor.
+ */
+int process_output(struct descriptor_data *t)
+{
+  char i[MAX_SOCK_BUF]="";
+  int written = 0, offset, result;
+
+  /* if we're in the overflow state, notify the user */
+  if (t->bufptr < 0)
+  {
+    strcat(i, "\r\n**OVERFLOW**\r\n");
+  } else {
+    /* we may need this \r\n for later -- see below */
+    strcpy(i, "\r\n");
+
+    /* now, append the 'real' output */
+    if (strlen(t->output) >= sizeof(i)-3)
+    {
+      strncpy(i+2, t->output, sizeof(i)-GARBAGE_SPACE-2);
+      i[sizeof(i)-GARBAGE_SPACE-2] = '\0';
+      strcat(i, "**OVERFLOW**\r\n");
+    } else {
+      strncpy(i + 2, t->output, sizeof(i)-3);
+      i[sizeof(i)-1] = '\0';
+    }
+  }
+  /* add the extra CRLF if the person isn't in compact mode */
+  if (STATE(t) == CON_PLAYING && t->character && !IS_NPC(t->character) && !PRF_FLAGGED(t->character, PRF_COMPACT) && (strlen(i) < sizeof(i)-3))
+    strcat(i + 2, "\r\n");
+
+  if (t->character)
+    proc_color(i, t->character, (clr(t->character, C_NRM)), sizeof(i)-GARBAGE_SPACE);
+
+  /* primal Easy color - DM 
+  if (t->character)
+    if (GET_LEVEL(t->character) > 0)
+      proc_color(i, (clr(t->character, C_NRM)));
+    else
+      proc_color(i, C_OFF);
+
+  */
+
+  // DM - TESTING
+  /* add a prompt */
+  if (t->character)
+  {
+    if (strlen(i) + MAX_PROMPT_LENGTH < sizeof(i))
+      strncat(i + 2, make_prompt(t), MAX_PROMPT_LENGTH);
+    else
+    {
+      char ps[MAX_PROMPT_LENGTH]="";
+      strncpy(ps, make_prompt(t), MAX_PROMPT_LENGTH);
+      if ((strlen(i) + strlen(ps)) >= sizeof(i)-1)
+      {
+	i[sizeof(i)-GARBAGE_SPACE-strlen(ps)] = '\0';
+	strcat(i, "\r\n**OVERFLOW**\r\n");
+	strcat(i, ps);
+      }
+    }
+  }
+
+  /*
+   * now, send the output.  If this is an 'interruption', use the prepended
+   * CRLF, otherwise send the straight output sans CRLF.
+   */
+  if (t->has_prompt)		/* && !t->connected) */
+    offset = 0;
+  else
+    offset = 2;
+  
+  result = write_to_descriptor(t->descriptor, i + offset);
+  written = result >= 0 ? result : -result;
+
+  /* handle snooping: prepend "% " and send to snooper */
+  if (t->snoop_by) {
+    SEND_TO_Q("% ", t->snoop_by);
+    SEND_TO_Q(t->output, t->snoop_by);
+    SEND_TO_Q("%%", t->snoop_by);
+  }
+  /*
+   * if we were using a large buffer, put the large buffer on the buffer pool
+   * and switch back to the small one
+   */
+  if (t->large_outbuf) {
+    t->large_outbuf->next = bufpool;
+    bufpool = t->large_outbuf;
+    t->large_outbuf = NULL;
+    t->output = t->small_outbuf;
+  }
+  /* reset total bufspace back to that of a small buffer */
+  t->bufspace = SMALL_BUFSIZE - 1;
+  t->bufptr = 0;
+  *(t->output) = '\0';
+
+  /* Error, cut off. */
+  if (result == 0)
+    return (-1);
+  
+  /* Normal case, wrote ok. */
+  if (result > 0)
+    return (1);
+  
+  /*
+   * We blocked, restore the unwritten output. Known
+   * bug in that the snooping immortal will see it twice
+   * but details...
+   */
+  write_to_output(i + written + offset, t);
+  return (0);  
+}
+
+
+/*
+ * perform_socket_write: takes a descriptor, a pointer to text, and a
+ * text length, and tries once to send that text to the OS.  This is
+ * where we stuff all the platform-dependent stuff that used to be
+ * ugly #ifdef's in write_to_descriptor().
+ *
+ * This function must return:
+ *
+ * -1  If a fatal error was encountered in writing to the descriptor.
+ *  0  If a transient failure was encountered (e.g. socket buffer full).
+ * >0  To indicate the number of bytes successfully written, possibly
+ *     fewer than the number the caller requested be written.
+ *
+ * Right now there are two versions of this function: one for Windows,
+ * and one for all other platforms.
+ */
+
+#if defined(CIRCLE_WINDOWS)
+
+ssize_t perform_socket_write(socket_t desc, const char *txt, size_t length)
+{
+  ssize_t result;
+
+  result = send(desc, txt, length, 0);
+
+  if (result > 0) {
+    /* Write was sucessful */
+    return (result);
+  }
+
+  if (result == 0) {
+    /* This should never happen! */
+    basic_mud_log("SYSERR: Huh??  write() returned 0???  Please report this!");
+    return (-1);
+  }
+
+  /* result < 0: An error was encountered. */
+
+  /* Transient error? */
+  if (WSAGetLastError() == WSAEWOULDBLOCK || WSAGetLastError() == WSAEINTR)
+    return (0);
+
+  /* Must be a fatal error. */
+  return (-1);
+}
+
+#else
+
+#if defined(CIRCLE_ACORN)
+#define write	socketwrite
+#endif
+
+/* perform_socket_write for all Non-Windows platforms */
+ssize_t perform_socket_write(socket_t desc, const char *txt, size_t length)
+{
+  ssize_t result;
+
+  result = write(desc, txt, length);
+
+  if (result > 0) {
+    /* Write was successful. */
+    return (result);
+  }
+
+  if (result == 0) {
+    /* This should never happen! */
+    basic_mud_log("SYSERR: Huh??  write() returned 0???  Please report this!");
+    return (-1);
+  }
+
+  /*
+   * result < 0, so an error was encountered - is it transient?
+   * Unfortunately, different systems use different constants to
+   * indicate this.
+   */
+
+#ifdef EAGAIN		/* POSIX */
+  if (errno == EAGAIN)
+    return (0);
+#endif
+
+#ifdef EWOULDBLOCK	/* BSD */
+  if (errno == EWOULDBLOCK)
+    return (0);
+#endif
+
+#ifdef EDEADLK		/* Macintosh */
+  if (errno == EDEADLK)
+    return (0);
+#endif
+
+  /* Looks like the error was fatal.  Too bad. */
+  return (-1);
+}
+
+#endif /* CIRCLE_WINDOWS */
+
+    
+/*
+ * write_to_descriptor takes a descriptor, and text to write to the
+ * descriptor.  It keeps calling the system-level write() until all
+ * the text has been delivered to the OS, or until an error is
+ * encountered.
+ *
+ * Returns:
+ *  0  If all is well and good,
+ * e1  If an error was encnuntered, so that the player should be cut off
+ * encountered. 'written' is updated to add how many bytes were sent
+ * over the socket successfully prior to the return. It is not zero'd.
+ *
+ * Returns:
+ *  +  All is well and good.
+ *  0  A fatal or unexpected error was encountered.
+ *  -  The socket write would block.
+ */
+int write_to_descriptor(socket_t desc, const char *txt)
+{
+  ssize_t bytes_written, total_written = 0;
+  size_t total = strlen(txt);
+ 
+   while (total > 0) {
+     bytes_written = perform_socket_write(desc, txt, total);
+ 
+     if (bytes_written < 0) {
+       /* Fatal error.  Disconnect the player. */
+       perror("SYSERR: write_to_descriptor");
+       return (0);
+     } else if (bytes_written == 0) {
+       /*
+        * Temporary failure -- socket buffer full.  For now we'll just
+        * cut off the player, but eventually we'll stuff the unsent
+        * text into a buffer and retry the write later.  JE 30 June 98.
+        * Implemented the anti-cut-off code he wanted. GG 13 Jan 99.
+        */
+       basic_mud_log("WARNING: write_to_descriptor: socket write would block.");
+       return (-total_written);
+     } else {
+       txt += bytes_written;
+       total -= bytes_written;
+       total_written += bytes_written;
+     }
+   }                 
+
+  return (total_written);
+}
+
+
+/*
+ * Same information about perform_socket_write applies here. I like
+ * standards, there are so many of them. -gg 6/30/98
+ */
+ssize_t perform_socket_read(socket_t desc, char *read_point, size_t space_left)
+{
+  ssize_t ret;
+
+#if defined(CIRCLE_ACORN)
+  ret = recv(desc, read_point, space_left, MSG_DONTWAIT);
+#elif defined(CIRCLE_WINDOWS)
+  ret = recv(desc, read_point, space_left, 0);
+#else
+  ret = read(desc, read_point, space_left);
+#endif
+
+  /* Read was successful. */
+  if (ret > 0)
+    return (ret);
+
+  /* read() returned 0, meaning we got an EOF. */
+  if (ret == 0) {
+    basic_mud_log("WARNING: EOF on socket read (connection broken by peer)");
+    return (-1);
+  }
+
+  /*
+   * read returned a value < 0: there was an error
+   */
+
+#if defined(CIRCLE_WINDOWS)	/* Windows */
+  if (WSAGetLastError() == WSAEWOULDBLOCK || WSAGetLastError() == WSAEINTR)
+    return (0);
+#else
+
+#ifdef EINTR		/* Interrupted system call - various platforms */
+  if (errno == EINTR)
+    return (0);
+#endif
+
+#ifdef EAGAIN		/* POSIX */
+  if (errno == EAGAIN)
+    return (0);
+#endif
+
+#ifdef EWOULDBLOCK	/* BSD */
+  if (errno == EWOULDBLOCK)
+    return (0);
+#endif /* EWOULDBLOCK */
+
+#ifdef EDEADLK		/* Macintosh */
+  if (errno == EDEADLK)
+    return (0);
+#endif
+
+#endif /* CIRCLE_WINDOWS */
+
+  /*
+   * We don't know what happened, cut them off. This qualifies for
+   * a SYSERR because we have no idea what happened at this point.
+   */
+  perror("SYSERR: perform_socket_read: about to lose connection");
+  return (-1);
+}
+
+/*
+ * ASSUMPTION: There will be no newlines in the raw input buffer when this
+ * function is called.  We must maintain that before returning.
+ *
+ * Ever wonder why 'tmp' had '+8' on it?  The crusty old code could write
+ * MAX_INPUT_LENGTH+1 bytes to 'tmp' if there was a '$' as the final
+ * character in the input buffer.  This would also cause 'space_left' to
+ * drop to -1, which wasn't very happy in an unsigned variable.  Argh.
+ * So to fix the above, 'tmp' lost the '+8' since it doesn't need it
+ * and the code has been changed to reserve space by accepting one less
+ * character. (Do you really need 256 characters on a line?)
+ * -gg 1/21/2000
+ */
+int process_input(struct descriptor_data *t)
+{
+  int buf_length, failed_subst;
+  ssize_t bytes_read;
+  size_t space_left;
+  char *ptr, *read_point, *write_point, *nl_pos = NULL;
+  char tmp[MAX_INPUT_LENGTH];
+
+  /* first, find the point where we left off reading data */
+  buf_length = strlen(t->inbuf);
+  read_point = t->inbuf + buf_length;
+  space_left = MAX_RAW_INPUT_LENGTH - buf_length - 3;//1;
+
+  do {
+    if (space_left <= 0) {
+      basic_mud_log("WARNING: process_input: about to close connection: input overflow");
+      return (-1);
+    }
+
+    bytes_read = perform_socket_read(t->descriptor, read_point, space_left);
+
+    if (bytes_read < 0)	/* Error, disconnect them. */
+      return (-1);
+    else if (bytes_read == 0)	/* Just blocking, no problems. */
+      return (0);
+
+    /* at this point, we know we got some data from the read */
+
+    *(read_point + bytes_read) = '\0';	/* terminate the string */
+
+    /* search for a newline in the data we just read */
+    for (ptr = read_point; *ptr && !nl_pos; ptr++)
+      if (ISNEWL(*ptr))
+	nl_pos = ptr;
+
+    read_point += bytes_read;
+    space_left -= bytes_read;
+
+/*
+ * on some systems such as AIX, POSIX-standard nonblocking I/O is broken,
+ * causing the MUD to hang when it encounters input not terminated by a
+ * newline.  This was causing hangs at the Password: prompt, for example.
+ * I attempt to compensate by always returning after the _first_ read, instead
+ * of looping forever until a read returns -1.  This simulates non-blocking
+ * I/O because the result is we never call read unless we know from select()
+ * that data is ready (process_input is only called if select indicates that
+ * this descriptor is in the read set).  JE 2/23/95.
+ */
+#if !defined(POSIX_NONBLOCK_BROKEN)
+  } while (nl_pos == NULL);
+#else
+  } while (0);
+
+  if (nl_pos == NULL)
+    return (0);
+#endif /* POSIX_NONBLOCK_BROKEN */
+
+  /*
+   * okay, at this point we have at least one newline in the string; now we
+   * can copy the formatted data to a new array for further processing.
+   */
+
+  read_point = t->inbuf;
+
+  while (nl_pos != NULL) {
+    write_point = tmp;
+    space_left = MAX_INPUT_LENGTH - 3;//1;
+
+    /* The '> 1' reserves room for a '$ => $$' expansion. */
+    for (ptr = read_point; (space_left > 3/*1*/) && (ptr < nl_pos); ptr++) {
+      if (*ptr == '\b' || *ptr == 127) { /* handle backspacing or delete key */
+	if (write_point > tmp) {
+	  if (*(--write_point) == '$') {
+	    write_point--;
+	    space_left += 2;
+	  } else
+	    space_left++;
+	}
+      } else if (isascii(*ptr) && isprint(*ptr)) {
+	if ((*(write_point++) = *ptr) == '$') {		/* copy one character */
+	  *(write_point++) = '$';	/* if it's a $, double it */
+	  space_left -= 2;
+	} else
+	  space_left--;
+      }
+    }
+
+    *write_point = '\0';
+
+    if ((space_left <= 0) && (ptr < nl_pos)) {
+      char buffer[MAX_INPUT_LENGTH + 64];
+
+      sprintf(buffer, "Line too long.  Truncated to:\r\n%s\r\n", tmp);
+      if (write_to_descriptor(t->descriptor, buffer) == 0)     /* write_to_output? */  
+	return (-1);
+    }
+    if (t->snoop_by) {
+      SEND_TO_Q("% ", t->snoop_by);
+      SEND_TO_Q(tmp, t->snoop_by);
+      SEND_TO_Q("\r\n", t->snoop_by);
+    }
+    failed_subst = 0;
+
+    if (*tmp == '!' && !(*(tmp + 1)))	/* Redo last command. */
+      strcpy(tmp, t->last_input);
+    else if (*tmp == '!' && *(tmp + 1)) {
+      char *commandln = (tmp + 1);
+      int starting_pos = t->history_pos,
+	  cnt = (t->history_pos == 0 ? HISTORY_SIZE - 1 : t->history_pos - 1);
+
+      skip_spaces(&commandln);
+      for (; cnt != starting_pos; cnt--) {
+	if (t->history[cnt] && is_abbrev(commandln, t->history[cnt])) {
+	  strcpy(tmp, t->history[cnt]);
+	  strcpy(t->last_input, tmp);
+          SEND_TO_Q(tmp, t); SEND_TO_Q("\r\n", t);
+	  break;
+	}
+        if (cnt == 0)	/* At top, loop to bottom. */
+	  cnt = HISTORY_SIZE;
+      }
+    } else if (*tmp == '^') {
+      if (!(failed_subst = perform_subst(t, t->last_input, tmp)))
+	strcpy(t->last_input, tmp);
+    } else {
+      strcpy(t->last_input, tmp);
+      if (t->history[t->history_pos])
+	free(t->history[t->history_pos]);	/* Clear the old line. */
+      t->history[t->history_pos] = str_dup(tmp);	/* Save the new. */
+      if (++t->history_pos >= HISTORY_SIZE)	/* Wrap to top. */
+	t->history_pos = 0;
+    }
+
+    if (!failed_subst)
+      write_to_q(tmp, &t->input, 0);
+
+    /* find the end of this line */
+    while (ISNEWL(*nl_pos))
+      nl_pos++;
+
+    /* see if there's another newline in the input buffer */
+    read_point = ptr = nl_pos;
+    for (nl_pos = NULL; *ptr && !nl_pos; ptr++)
+      if (ISNEWL(*ptr))
+	nl_pos = ptr;
+  }
+
+  /* now move the rest of the buffer up to the beginning for the next pass */
+  write_point = t->inbuf;
+  while (*read_point)
+    *(write_point++) = *(read_point++);
+  *write_point = '\0';
+
+  return (1);
+}
+
+
+
+/* perform substitution for the '^..^' csh-esque syntax orig is the
+ * orig string, i.e. the one being modified.  subst contains the
+ * substition string, i.e. "^telm^tell"
+ */
+int perform_subst(struct descriptor_data *t, char *orig, char *subst)
+{
+  char newsub[MAX_INPUT_LENGTH + 5];
+
+  char *first, *second, *strpos;
+
+  /*
+   * first is the position of the beginning of the first string (the one
+   * to be replaced
+   */
+  first = subst + 1;
+
+  /* now find the second '^' */
+  if (!(second = strchr(first, '^'))) {
+    SEND_TO_Q("Invalid substitution.\r\n", t);
+    return (1);
+  }
+  /* terminate "first" at the position of the '^' and make 'second' point
+   * to the beginning of the second string */
+  *(second++) = '\0';
+
+  /* now, see if the contents of the first string appear in the original */
+  if (!(strpos = strstr(orig, first))) {
+    SEND_TO_Q("Invalid substitution.\r\n", t);
+    return (1);
+  }
+  /* now, we construct the new string for output. */
+
+  /* first, everything in the original, up to the string to be replaced */
+  strncpy(newsub, orig, (strpos - orig));
+  newsub[(strpos - orig)] = '\0';
+
+  /* now, the replacement string */
+  strncat(newsub, second, (MAX_INPUT_LENGTH - strlen(newsub) - 1));
+
+  /* now, if there's anything left in the original after the string to
+   * replaced, copy that too. */
+  if (((strpos - orig) + strlen(first)) < strlen(orig))
+    strncat(newsub, strpos + strlen(first), (MAX_INPUT_LENGTH - strlen(newsub) - 1));
+
+  /* terminate the string in case of an overflow from strncat */
+  newsub[MAX_INPUT_LENGTH - 1] = '\0';
+  strcpy(subst, newsub);
+
+  return (0);
+}
+
+
+
+void close_socket(struct descriptor_data *d)
+{
+  char buf[128];
+  struct descriptor_data *temp;
+  struct user_data *tempuser;
+
+  REMOVE_FROM_LIST(d, descriptor_list, next);
+  CLOSE_SOCKET(d->descriptor);
+  flush_queues(d);
+
+  gameInfo.setUsersOnline(gameInfo.getUsersOnline() - 1);
+
+  for (tempuser = user_list; tempuser; tempuser = tempuser->next)
+  {
+    if (tempuser->number == d->desc_num) {
+      tempuser->logout = time(0);
+      break;
+    }
+  }
+  
+  /* Forget snooping */
+  if (d->snooping)
+    d->snooping->snoop_by = NULL;
+
+  if (d->snoop_by) 
+  {
+    SEND_TO_Q("Your victim is no longer among us.\r\n", d->snoop_by);
+    d->snoop_by->snooping = NULL;
+  }
+
+  if (d->character) 
+  {
+    /*
+     * Plug memory leak, from Eric Green.
+     */
+    if (!IS_NPC(d->character) && PLR_FLAGGED(d->character, PLR_MAILING) && d->str) {
+      if (*(d->str))
+        free(*(d->str));
+      free(d->str);
+    }
+    if (STATE(d) == CON_PLAYING || STATE(d) == CON_DISCONNECT || OLC(d) ||
+        REPORT(d)) 
+    {
+      act("$n has lost $s link.", TRUE, d->character, 0, 0, TO_ROOM);
+      if (!IS_NPC(d->character))
+      {
+	save_char(d->character, NOWHERE);
+	sprintf(buf, "Closing link to: &7%s&g.", GET_NAME(d->character));
+	mudlog(buf, NRM, MAX(LVL_ANGEL, GET_INVIS_LEV(d->character)), TRUE);
+        info_channel(buf , d->character );
+      }
+      d->character->desc = NULL;
+    } else {
+      sprintf(buf, "Losing player: %s.",
+	      GET_NAME(d->character) ? GET_NAME(d->character) : "<null>");
+      mudlog(buf, CMP, LVL_ANGEL, TRUE);
+        
+      // DM - delete new characters which haven't been fully created.. 
+      if (IS_SET(PLR_FLAGS(d->character), PLR_DELETED))
+      {
+	SET_BIT(PLR_FLAGS(d->character), PLR_DELETED);
+        save_char(d->character, NOWHERE);
+	Crash_delete_file(GET_NAME(d->character));	
+      }
+      free_char(d->character);
+    }
+  } else
+    mudlog("Losing descriptor without char.", CMP, LVL_ANGEL, TRUE);
+
+  /* JE 2/22/95 -- part of my unending quest to make switch stable */
+  if (d->original && d->original->desc)
+    d->original->desc = NULL;
+
+  /* Clear the command history. */
+  if (d->history)
+  {
+    int cnt;
+    for (cnt = 0; cnt < HISTORY_SIZE; cnt++)
+      if (d->history[cnt])
+	free(d->history[cnt]);
+    free(d->history);
+  }
+
+  if (d->showstr_head)
+    free(d->showstr_head);
+  if (d->showstr_count)
+    free(d->showstr_vector);
+
+  /*. Kill any OLC stuff .*/
+  switch (d->connected)
+  {
+    case CON_OEDIT:
+    case CON_REDIT:
+    case CON_ZEDIT:
+    case CON_MEDIT:
+    case CON_SEDIT:
+    case CON_TRIGEDIT:
+      cleanup_olc(d, CLEANUP_ALL);
+      break;
+    case CON_TEDIT:
+      if (OLC(d))
+        free(OLC(d));
+      break;
+    case CON_REPORT_ADD:
+    case CON_REPORT_EDIT:
+      if (REPORT(d)) {
+        basic_mud_log("cleaning up descriptor - deleting report %d", (int)d->report);
+        delete (Report *)REPORT(d);
+      }
+      break;
+    default:
+      break;
+  } 
+
+  free(d);
+}
+
+
+void check_idle_passwords(void)
+{
+  struct descriptor_data *d, *next_d;
+
+  for (d = descriptor_list; d; d = next_d)
+  {
+    next_d = d->next;
+    switch (STATE(d))
+    {
+      case CON_PLAYING:
+      case CON_CLOSE:
+      case CON_DISCONNECT:
+      case CON_OEDIT:
+      case CON_REDIT:
+      case CON_ZEDIT:
+      case CON_MEDIT:
+      case CON_SEDIT:
+      case CON_TEDIT:
+      case CON_REPORT_ADD:
+      case CON_REPORT_EDIT:
+      case CON_TRIGEDIT:
+	continue;
+    }
+    d->idle_tics++;
+    if (d->idle_tics > 2)
+    {
+      echo_on(d);
+      SEND_TO_Q("\r\nClosing idle connection... Goodbye.\r\n", d);
+      STATE(d) = CON_CLOSE;
+    }
+  }
+}
+
+
+#if 0 // Artus> Lets change this a but.
+void check_idle_passwords(void)
+{
+  struct descriptor_data *d, *next_d;
+
+  // Use the define to specify name prompt timeouts
+  
+//#undef IGNORE_NAME
+#define IGNORE_NAME
+  for (d = descriptor_list; d; d = next_d)
+  {
+    next_d = d->next;
+#if defined(IGNORE_NAME)
+    if (STATE(d) != CON_PASSWORD)
+      continue;
+#else
+    if (STATE(d) != CON_PASSWORD && STATE(d) != CON_GET_NAME)
+      continue;
+#endif
+    if (!d->idle_tics)
+    {
+      d->idle_tics++;
+      continue;
+    } else {
+      echo_on(d);
+      SEND_TO_Q("\r\nTimed out... goodbye.\r\n", d);
+      STATE(d) = CON_CLOSE;
+    }
+  }
+}
+#endif
+
+
+/*
+ * I tried to universally convert Circle over to POSIX compliance, but
+ * alas, some systems are still straggling behind and don't have all the
+ * appropriate defines.  In particular, NeXT 2.x defines O_NDELAY but not
+ * O_NONBLOCK.  Krusty old NeXT machines!  (Thanks to Michael Jones for
+ * this and various other NeXT fixes.)
+ */
+
+#if defined(CIRCLE_WINDOWS)
+
+void nonblock(socket_t s)
+{
+  unsigned long val = 1;
+  ioctlsocket(s, FIONBIO, &val);
+}
+
+#elif defined(CIRCLE_AMIGA)
+
+void nonblock(socket_t s)
+{
+  long val = 1;
+  IoctlSocket(s, FIONBIO, &val);
+}
+
+#elif defined(CIRCLE_ACORN)
+
+void nonblock(socket_t s)
+{
+  int val = 1;
+  socket_ioctl(s, FIONBIO, &val);
+}
+
+#elif defined(CIRCLE_VMS)
+
+void nonblock(socket_t s)
+{
+  int val = 1;
+
+  if (ioctl(s, FIONBIO, &val) < 0) {
+    perror("SYSERR: Fatal error executing nonblock (comm.c)");
+    exit(1);
+  }
+}
+
+#elif defined(CIRCLE_UNIX) || defined(CIRCLE_OS2) || defined(CIRCLE_MACINTOSH)
+
+#ifndef O_NONBLOCK
+#define O_NONBLOCK O_NDELAY
+#endif
+
+void nonblock(socket_t s)
+{
+  int flags;
+
+  flags = fcntl(s, F_GETFL, 0);
+  flags |= O_NONBLOCK;
+  if (fcntl(s, F_SETFL, flags) < 0) {
+    perror("SYSERR: Fatal error executing nonblock (comm.c)");
+    exit(1);
+  }
+}
+
+#endif  /* CIRCLE_UNIX || CIRCLE_OS2 || CIRCLE_MACINTOSH */
+
+
+/* ******************************************************************
+*  signal-handling functions (formerly signals.c).  UNIX only.      *
+****************************************************************** */
+
+#if defined(CIRCLE_UNIX) || defined(CIRCLE_MACINTOSH)
+
+RETSIGTYPE reread_wizlists(int sig)
+{
+  mudlog("Signal received - rereading wizlists.", NRM, LVL_GOD, TRUE);
+  reboot_wizlists();
+}
+
+
+RETSIGTYPE unrestrict_game(int sig)
+{
+  mudlog("Received SIGUSR2 - completely unrestricting game (emergent)",
+	 BRF, LVL_GRGOD, TRUE);
+  ban_list = NULL;
+  circle_restrict = 0;
+  num_invalid = 0;
+}
+
+#ifdef CIRCLE_UNIX
+
+/* clean up our zombie kids to avoid defunct processes */
+RETSIGTYPE reap(int sig)
+{
+  while (waitpid(-1, NULL, WNOHANG) > 0);
+
+  my_signal(SIGCHLD, reap);
+}
+
+RETSIGTYPE checkpointing(int sig)
+{
+  if (!tics) {
+    basic_mud_log("SYSERR: CHECKPOINT shutdown: tics not updated. (Infinite loop suspected)");
+    abort();
+  } else
+    tics = 0;
+}
+
+RETSIGTYPE hupsig(int sig)
+{
+  struct descriptor_data *i;
+
+  // DM - lets save chars in descriptor list
+  for (i = descriptor_list; i; i=i->next) {
+    if (i->character) {
+      save_char(i->character, NOWHERE);
+    }
+  }
+
+  basic_mud_log("SYSERR: Received SIGHUP, SIGINT, or SIGTERM.");
+  basic_mud_log("        Saving chars and Shutting down...");
+  exit(1);			/* perhaps something more elegant should
+				 * substituted */
+}
+
+#endif	/* CIRCLE_UNIX */
+
+/*
+ * This is an implementation of signal() using sigaction() for portability.
+ * (sigaction() is POSIX; signal() is not.)  Taken from Stevens' _Advanced
+ * Programming in the UNIX Environment_.  We are specifying that all system
+ * calls _not_ be automatically restarted for uniformity, because BSD systems
+ * do not restart select(), even if SA_RESTART is used.
+ *
+ * Note that NeXT 2.x is not POSIX and does not have sigaction; therefore,
+ * I just define it to be the old signal.  If your system doesn't have
+ * sigaction either, you can use the same fix.
+ *
+ * SunOS Release 4.0.2 (sun386) needs this too, according to Tim Aldric.
+ */
+
+#ifndef POSIX
+#define my_signal(signo, func) signal(signo, func)
+#else
+sigfunc *my_signal(int signo, sigfunc * func)
+{
+  struct sigaction act, oact;
+
+  act.sa_handler = func;
+  sigemptyset(&act.sa_mask);
+  act.sa_flags = 0;
+#ifdef SA_INTERRUPT
+  act.sa_flags |= SA_INTERRUPT;	/* SunOS */
+#endif
+
+  if (sigaction(signo, &act, &oact) < 0)
+    return (SIG_ERR);
+
+  return (oact.sa_handler);
+}
+#endif				/* POSIX */
+
+
+void signal_setup(void)
+{
+#ifndef CIRCLE_MACINTOSH
+  struct itimerval itime;
+  struct timeval interval;
+
+  /* user signal 1: reread wizlists.  Used by autowiz system. */
+  my_signal(SIGUSR1, reread_wizlists);
+
+  /*
+   * user signal 2: unrestrict game.  Used for emergencies if you lock
+   * yourself out of the MUD somehow.  (Duh...)
+   */
+  my_signal(SIGUSR2, unrestrict_game);
+
+  /*
+   * set up the deadlock-protection so that the MUD aborts itself if it gets
+   * caught in an infinite loop for more than 3 minutes.
+   */
+  interval.tv_sec = 180;
+  interval.tv_usec = 0;
+  itime.it_interval = interval;
+  itime.it_value = interval;
+  setitimer(ITIMER_VIRTUAL, &itime, NULL);
+  my_signal(SIGVTALRM, checkpointing);
+
+  /* just to be on the safe side: */
+  my_signal(SIGHUP, hupsig);
+  my_signal(SIGCHLD, reap);
+#endif /* CIRCLE_MACINTOSH */
+  my_signal(SIGINT, hupsig);
+  my_signal(SIGTERM, hupsig);
+  my_signal(SIGPIPE, SIG_IGN);
+  my_signal(SIGALRM, SIG_IGN);
+}
+
+#endif	/* CIRCLE_UNIX || CIRCLE_MACINTOSH */
+
+/* ****************************************************************
+*       Public routines for system-to-player-communication        *
+**************************************************************** */
+
+void send_to_zone(const char *msg, zone_rnum zone)
+{
+  struct descriptor_data *i;
+
+  if (msg == NULL)
+	return;
+
+  for(i = descriptor_list; i; i = i->next)
+    if ((STATE(i) == CON_PLAYING) && 
+	(world[(i->character)->in_room].zone == zone))
+      SEND_TO_Q(msg, i);
+}
+
+#if 0 // Artus> This is currently unused.
+void send_to_not_zone(const char *msg, zone_rnum zone)
+{
+  struct descriptor_data *i;
+
+  if (msg == NULL)
+	return;
+
+  for(i = descriptor_list; i; i = i->next)
+  {
+      if (STATE(i) == CON_PLAYING && (world[(i->character)->in_room].zone != zone ) )
+  	SEND_TO_Q(msg, i);
+  }	
+}
+#endif
+// Artus> Send to all not in the zone, but in the same world.
+void send_to_not_zone_world(const char *msg, zone_rnum zone)
+{
+  struct descriptor_data *i;
+  extern struct zone_data *zone_table;
+
+  if (msg == NULL)
+    return;
+  for (i = descriptor_list; i; i = i->next)
+  {
+    if ((STATE(i) == CON_PLAYING) && 
+	(world[(i->character)->in_room].zone != zone) &&
+	(zone_table[world[(i->character)->in_room].zone].world == 
+	 zone_table[zone].world))
+      SEND_TO_Q(msg, i);
+  }
+}
+
+void send_to_char(const char *messg, struct char_data *ch)
+{
+  if (ch->desc && messg)
+    SEND_TO_Q(messg, ch->desc);
+}
+
+
+void send_to_all(const char *messg)
+{
+  struct descriptor_data *i;
+
+  if (messg == NULL)
+    return;
+
+  for (i = descriptor_list; i; i = i->next)
+    if (STATE(i) == CON_PLAYING)
+      SEND_TO_Q(messg, i);
+}
+
+
+void send_to_outdoor(const char *messg)
+{
+  struct descriptor_data *i;
+
+  if (!messg || !*messg)
+    return;
+
+  for (i = descriptor_list; i; i = i->next) {
+    if (STATE(i) != CON_PLAYING || i->character == NULL)
+      continue;
+    if (!AWAKE(i->character) || !OUTSIDE(i->character))
+      continue;
+    SEND_TO_Q(messg, i);
+  }
+}
+
+
+
+void send_to_room(const char *messg, room_rnum room)
+{
+  struct char_data *i;
+
+  if (messg == NULL)
+    return;
+
+  for (i = world[room].people; i; i = i->next_in_room)
+    if (i->desc)
+      SEND_TO_Q(messg, i->desc);
+}
+
+
+
+const char *ACTNULL = "<NULL>";
+
+#define CHECK_NULL(pointer, expression) \
+  if ((pointer) == NULL) i = ACTNULL; else i = (expression);
+
+
+/* higher-level communication: the act() function */
+void perform_act(const char *orig, struct char_data *ch, struct obj_data *obj,
+		const void *vict_obj, const struct char_data *to)
+{
+  const char *i = NULL;
+  char lbuf[MAX_STRING_LENGTH], *buf;
+  char lbuf2[MAX_STRING_LENGTH], *buf2;
+  struct char_data *tch; 
+  struct char_data *dg_victim = NULL;
+  struct obj_data *dg_target = NULL;
+  char *dg_arg = NULL;
+  char buf3[MAX_STRING_LENGTH];
+
+  buf = lbuf;
+  buf2 = lbuf2;
+
+  for (;;) {
+    if (*orig == '$') {
+      switch (*(++orig)) {
+      case 'n':
+        if (!IS_NPC(ch) && IS_SET(GET_SPECIALS(ch), SPECIAL_DISGUISE) && CHAR_DISGUISED(ch)) {
+		tch = read_mobile(CHAR_DISGUISED(ch), VIRTUAL);
+		char_to_room(tch, ch->in_room);
+		strcpy(buf3, GET_NAME(tch));
+		sprintf(lbuf2, "&6%s&n", buf3);
+		i = lbuf2;
+		extract_char(tch);
+        }
+        else {          
+          strcpy(buf3, PERS(ch, to));
+	  if (strcmp(buf3, "someone")) {
+            sprintf(lbuf2, "&%s%s&|", IS_NPC(ch) ? "6" : "7", buf3);
+	  } else {
+            sprintf(lbuf2, "&r%s&|", buf3);
+	  }
+	  i = lbuf2;
+	}
+	break;
+      case 'N':
+	CHECK_NULL(vict_obj, PERS((const struct char_data *) vict_obj, to));
+	sprintf(lbuf2, "&%s%s&|", IS_NPC((struct char_data *) vict_obj) 
+			? "6" : "7", i);
+	i = lbuf2;
+        dg_victim = (struct char_data *) vict_obj;
+	break;
+      case 'm':
+	i = HMHR(ch);
+	break;
+      case 'M':
+	CHECK_NULL(vict_obj, HMHR((const struct char_data *) vict_obj));
+        dg_victim = (struct char_data *) vict_obj;
+	break;
+      case 's':
+	i = HSHR(ch);
+	break;
+      case 'S':
+	CHECK_NULL(vict_obj, HSHR((const struct char_data *) vict_obj));
+        dg_victim = (struct char_data *) vict_obj;
+	break;
+      case 'e':
+	i = HSSH(ch);
+	break;
+      case 'E':
+	CHECK_NULL(vict_obj, HSSH((const struct char_data *) vict_obj));
+        dg_victim = (struct char_data *) vict_obj;
+	break;
+      case 'o':
+	CHECK_NULL(obj, OBJN(obj, to));
+	sprintf(lbuf2, "&%s%s&|", strcmp(i, "something") ? "5" : "r", i);
+	i = lbuf2;
+	break;
+      case 'O':
+	CHECK_NULL(vict_obj, OBJN((const struct obj_data *) vict_obj, to));
+	sprintf(lbuf2, "&%s%s&|", strcmp(i, "something") ? "5" : "r", i);
+	i = lbuf2;
+        dg_victim = (struct char_data *) vict_obj;
+	break;
+      case 'p':
+	CHECK_NULL(obj, OBJS(obj, to));
+	sprintf(lbuf2, "&5%s&|", i);
+	i = lbuf2;
+	break;
+      case 'P':
+	CHECK_NULL(vict_obj, OBJS((const struct obj_data *) vict_obj, to));
+	sprintf(lbuf2, "&5%s&|", i);
+	i = lbuf2;
+        dg_victim = (struct char_data *) vict_obj;
+	break;
+      case 'a':
+	CHECK_NULL(obj, SANA(obj));
+	break;
+      case 'A':
+	CHECK_NULL(vict_obj, SANA((const struct obj_data *) vict_obj));
+        dg_victim = (struct char_data *) vict_obj;
+	break;
+      case 'T':
+	CHECK_NULL(vict_obj, (const char *) vict_obj);
+        dg_arg = (char *) vict_obj;
+	break;
+      case 'F':
+	CHECK_NULL(vict_obj, fname((const char *) vict_obj));
+	break;
+      case '$':
+	i = "$";
+	break;
+      default:
+	basic_mud_log("SYSERR: Illegal $-code to act(): %c", *orig);
+	basic_mud_log("SYSERR: %s", orig);
+	i = "";
+	break;
+      }
+      while ((*buf = *(i++)))
+	buf++;
+      orig++;
+    } else if (!(*(buf++) = *(orig++)))
+      break;
+  }
+
+  *(--buf) = '\r';
+  *(++buf) = '\n';
+  *(++buf) = '\0';
+
+  if (to->desc)
+    SEND_TO_Q(CAP(lbuf), to->desc);
+
+  if ((IS_NPC(to) && dg_act_check) && (to != ch))
+    act_mtrigger((char_data *)to, lbuf, ch, dg_victim, obj, dg_target, dg_arg);
+}
+
+void act(const char *str, int hide_invisible, struct char_data *ch,
+	 struct obj_data *obj, const void *vict_obj, int type)
+{
+  const struct char_data *to;
+  int to_sleeping;
+
+  if (!str || !*str)
+    return;
+
+  if (!(dg_act_check = !(type & DG_NO_TRIG)))
+    type &= ~DG_NO_TRIG;
+
+  /*
+   * Warning: the following TO_SLEEP code is a hack.
+   * 
+   * I wanted to be able to tell act to deliver a message regardless of sleep
+   * without adding an additional argument.  TO_SLEEP is 128 (a single bit
+   * high up).  It's ONLY legal to combine TO_SLEEP with one other TO_x
+   * command.  It's not legal to combine TO_x's with each other otherwise.
+   * TO_SLEEP only works because its value "happens to be" a single bit;
+   * do not change it to something else.  In short, it is a hack.
+   */
+
+  /* check if TO_SLEEP is there, and remove it if it is. */
+  if ((to_sleeping = (type & TO_SLEEP)))
+    type &= ~TO_SLEEP;
+
+  if (type == TO_CHAR) {
+    if (ch && SENDOK(ch))
+      perform_act(str, ch, obj, vict_obj, ch);
+    return;
+  }
+
+  if (type == TO_VICT) {
+    if ((to = (const struct char_data *) vict_obj) != NULL && SENDOK(to))
+      perform_act(str, ch, obj, vict_obj, to);
+    return;
+  }
+  /* ASSUMPTION: at this point we know type must be TO_NOTVICT or TO_ROOM */
+
+  if (ch && ch->in_room != NOWHERE)
+    to = world[ch->in_room].people;
+  else if (obj && obj->in_room != NOWHERE)
+    to = world[obj->in_room].people;
+  else {
+    basic_mud_log("SYSERR: no valid target to act()!");
+    return;
+  }
+
+  for (; to; to = to->next_in_room) {
+    //if (!SENDOK(to) || (to == ch))
+    if (!SENDTOOK(to) || (to == ch))
+      continue;
+    if (hide_invisible && ch && !CAN_SEE(to, ch))
+      continue;
+    if (type != TO_ROOM && to == vict_obj)
+      continue;
+    perform_act(str, ch, obj, vict_obj, to);
+  }
+}
+
+/*
+ * This function is called every 30 seconds from heartbeat().  It checks
+ * the four global buffers in CircleMUD to ensure that no one has written
+ * past their bounds.  If our check digit is not there (and the position
+ * doesn't have a NUL which may result from snprintf) then we gripe that
+ * someone has overwritten our buffer.  This could cause a false positive
+ * if someone uses the buffer as a non-terminated character array but that
+ * is not likely. -gg
+ */
+void sanity_check(void)
+{
+  int ok = TRUE;
+
+  /*
+   * If any line is false, 'ok' will become false also.
+   */
+  ok &= (test_magic(buf)  == MAGIC_NUMBER || test_magic(buf)  == '\0');
+  ok &= (test_magic(buf1) == MAGIC_NUMBER || test_magic(buf1) == '\0');
+  ok &= (test_magic(buf2) == MAGIC_NUMBER || test_magic(buf2) == '\0');
+  ok &= (test_magic(arg)  == MAGIC_NUMBER || test_magic(arg)  == '\0');
+
+  /*
+   * This isn't exactly the safest thing to do (referencing known bad memory)
+   * but we're doomed to crash eventually, might as well try to get something
+   * useful before we go down. -gg
+   * However, lets fix the problem so we don't spam the logs. -gg 11/24/98
+   */
+  if (!ok) {
+    basic_mud_log("SYSERR: *** Buffer overflow! ***\n"
+	"buf: %s\nbuf1: %s\nbuf2: %s\narg: %s", buf, buf1, buf2, arg);
+
+    plant_magic(buf);
+    plant_magic(buf1);
+    plant_magic(buf2);
+    plant_magic(arg);
+  }
+
+#if 0
+  basic_mud_log("Statistics: buf=%d buf1=%d buf2=%d arg=%d",
+	strlen(buf), strlen(buf1), strlen(buf2), strlen(arg));
+#endif
+}
+
+/* Prefer the file over the descriptor. */
+void setup_log(const char *filename, int fd)
+{
+  FILE *s_fp;
+
+#if defined(__MWERKS__) || defined(__GNUC__)
+  s_fp = stderr;
+#else
+  if ((s_fp = fdopen(STDERR_FILENO, "w")) == NULL) {
+    puts("SYSERR: Error opening stderr, trying stdout.");
+
+    if ((s_fp = fdopen(STDOUT_FILENO, "w")) == NULL) {
+      puts("SYSERR: Error opening stdout, trying a file.");
+
+      /* If we don't have a file, try a default. */
+      if (filename == NULL || *filename == '\0')
+        filename = "log/syslog";
+    }
+  }
+#endif
+
+  if (filename == NULL || *filename == '\0') {
+    /* No filename, set us up with the descriptor we just opened. */
+    logfile = s_fp;
+    puts("Using file descriptor for logging.");
+    return;
+  }
+
+  /* We honor the default filename first. */
+  if (open_logfile(filename, s_fp))
+    return;
+
+  /* Well, that failed but we want it logged to a file so try a default. */
+  if (open_logfile("log/syslog", s_fp))
+    return;
+
+  /* Ok, one last shot at a file. */
+  if (open_logfile("syslog", s_fp))
+    return;
+
+  /* Erp, that didn't work either, just die. */
+  puts("SYSERR: Couldn't open anything to log to, giving up.");
+  exit(1);
+}
+
+int open_logfile(const char *filename, FILE *stderr_fp)
+{
+  if (stderr_fp)	/* freopen() the descriptor. */
+    logfile = freopen(filename, "w", stderr_fp);
+  else
+    logfile = fopen(filename, "w");
+
+  if (logfile) {
+    printf("Using log file '%s'%s.\n",
+		filename, stderr_fp ? " with redirection" : "");
+    return (TRUE);
+  }
+
+  printf("SYSERR: Error opening file '%s': %s\n", filename, strerror(errno));
+  return (FALSE);
+}
+
+/*
+ * This may not be pretty but it keeps game_loop() neater than if it was inline.
+ */
+#if defined(CIRCLE_WINDOWS)
+
+void circle_sleep(struct timeval *timeout)
+{
+  Sleep(timeout->tv_sec * 1000 + timeout->tv_usec / 1000);
+}
+
+#else
+
+void circle_sleep(struct timeval *timeout)
+{
+  if (select(0, (fd_set *) 0, (fd_set *) 0, (fd_set *) 0, timeout) < 0) {
+    if (errno != EINTR) {
+      perror("SYSERR: Select sleep");
+      exit(1);
+    }
+  }
+}
+
+#endif /* CIRCLE_WINDOWS */
+@
+
+
+1.45
+log
+@Artus> Fixed ban code.
+@
+text
+@d188 1
+d888 3
+a890 10
+  if (!(pulse % (SECS_PER_MUD_HOUR * PASSES_PER_SEC)))
+  {
+    weather_and_time(1);
+    affect_update();
+    point_update();
+    object_activity();
+    fflush(player_fl);
+  }
+
+  if (!(pulse % (PULSE_CASINO)))
+d892 8
+d902 1
+a902 12
+  }
+
+  // Hint channel
+  if (!(pulse % (PULSE_HINTS)))
+    do_hint();
+  
+  if (!(pulse % (PULSE_ZONE_HINTS)))
+    do_zone_hint();
+
+  if (auto_save && !(pulse % (60 * PASSES_PER_SEC)))
+  {	/* 1 minute */
+    if (++mins_since_crashsave >= autosave_time)
+d904 18
+a921 3
+      mins_since_crashsave = 0;
+      Crash_save_all();
+      House_save_all();
+d924 3
+a926 7
+  if (!(pulse % (120 * PASSES_PER_SEC)))      /* 2 minutes */ 
+  {   
+    move_ship();
+    move_falcon();
+  }
+  if (!(pulse % (5 * 60 * PASSES_PER_SEC)))	/* 5 minutes */
+    record_usage();
+@
+
+
+1.44
+log
+@Artus> You can now be idle disconnected at various other out-of-game states.
+@
+text
+@d1600 2
+a1601 1
+  if (isipbanned(peer.sin_addr, nameserver_is_slow) == BAN_ALL) {
+@
+
+
+1.43
+log
+@Artus> Just a cleanup.
+@
+text
+@d2330 3
+d2334 31
+d2373 2
+a2374 2
+
+  for (d = descriptor_list; d; d = next_d) {
+d2383 2
+a2384 1
+    if (!d->idle_tics) {
+d2394 1
+a2394 1
+
+@
+
+
+1.42
+log
+@Artus> Now warning free :o)
+@
+text
+@d2224 2
+a2225 1
+  for (tempuser = user_list; tempuser; tempuser = tempuser->next) {
+a2241 1
+
+d2270 2
+a2271 1
+      if (IS_SET(PLR_FLAGS(d->character), PLR_DELETED)) {
+d2286 2
+a2287 1
+  if (d->history) {
+d2301 2
+a2302 1
+  switch (d->connected) {
+@
+
+
+1.41
+log
+@Artus> Changed some log levels.
+@
+text
+@a623 1
+  char temp[MAX_INPUT_LENGTH];
+d1094 1
+a1094 1
+    sprintf(exp_prompt, "&R*", CCBRED(ch, C_NRM));
+d1114 1
+a1114 1
+  int i;
+a1248 1
+    int count = 0;
+a1550 3
+  struct in_addr test;
+
+  
+@
+
+
+1.40
+log
+@Artus> Changes to increase spead of island_forever damage rooms - gauntlet and
+       compound.
+@
+text
+@d2265 1
+a2265 1
+	mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(d->character)), TRUE);
+d2272 1
+a2272 1
+      mudlog(buf, CMP, LVL_IMMORT, TRUE);
+d2283 1
+a2283 1
+    mudlog("Losing descriptor without char.", CMP, LVL_IMMORT, TRUE);
+d2437 1
+a2437 1
+  mudlog("Signal received - rereading wizlists.", CMP, LVL_IMMORT, TRUE);
+d2445 1
+a2445 1
+	 BRF, LVL_IMMORT, TRUE);
+@
+
+
+1.39
+log
+@Artus> Changed the functions slightly that return align/exp prompt sections.
+@
+text
+@d853 1
+d883 1
+d885 2
+@
+
+
+1.38
+log
+@Artus> Just a little cleanup.
+@
+text
+@d1076 1
+a1076 1
+    strcpy(align_prompt, "&n");
+d1078 1
+a1078 1
+  sprintf(align_prompt, "%s%d&n", align_prompt, GET_ALIGNMENT(ch));
+d1091 1
+a1091 1
+    sprintf(exp_prompt, "%s*", CCBRED(ch, C_NRM));
+d1095 1
+a1095 1
+  temp = (double)(level_exp(ch, GET_LEVEL(ch)) - GET_EXP(ch));
+d1097 4
+a1100 4
+  if (temp/1000000 >= 1) {
+    sprintf(exp_prompt, "%3.1fm", temp/1000000);
+  } else if (temp/1000>=1) {
+    sprintf(exp_prompt, "%3.1fk", temp/1000);
+d1102 1
+a1102 1
+    sprintf(exp_prompt, "%d", (int)temp);
+d1300 1
+a1300 1
+        sprintf(buf1, "&RAl:&n%s ", get_align_prompt_string(d->character));
+@
+
+
+1.37
+log
+@Artus> Modified heartbeat so that:-
+
+  Scripts are processed in the same loop as specprocs.
+  Room and Object specprocs get called every 13 seconds, with ch=NULL, cmd=0,
+  arg = "".
+@
+text
+@d2571 3
+a2573 4
+  {
+      if (STATE(i) == CON_PLAYING && (world[(i->character)->in_room].zone == zone ) )
+  	SEND_TO_Q(msg, i);
+  }	
+d2575 1
+@
+
+
+1.36
+log
+@Artus>
+act.comm.c       : Completely rewrote the auction code.
+act.informative.c: New event type: Fire.
+                   Fixed colour bleed in exits.
+act.item.c       : invalid_level() now only allows remort classes to use eq
+                   earlier if it was usable before they remorted.
+act.movement.c   : Gateways now pass through the standard invalid_level()
+                   check. This should make it possible to restrict entrance
+                   based on class.
+act.offensive.c  : Cleaned up.
+act.other.c      : Hide now applies to spell/skill ability.
+                   Title length limit removed, title restricted level 5.
+act.wizard.c     : "debug sm" will now display the integer value of current
+                   rooms "small_bits"
+                   Added annoying poofin for me.
+                   New event type: Fire.
+boards.c         : Boards now use max level as opposed to level.
+clan.c           : Cleaned up.
+class.c          : Cleaned up.
+comm.c           : Minor changes for remort max levels to exp prompt.
+db.c             : Auctions are now stored in file.
+                   Initial zone resets moved before houses and auctions load.
+db.h             : Auctions are now stored in file.
+dg_mobcmd.c      : Cleaned up.
+dg_objcmd.c      : Cleaned up.
+dg_scripts.c     : Cleaned up.
+dg_wldcmd.c      : Cleaned up.
+fight.c          : Added pcorpse alias to corpses.
+graph.c          : Cleaned up.
+handler.c        : Item counter changed so item count won't be reduced below
+                   zero.
+house.c          : Removed item decrementor.
+interpreter.c    : Command level checks are now done against max level.
+interpreter.h    : Removed old auction SCMD_xxx, Added new auction AUC_xxx
+limits.c         : First remort max exp * 12500, second max exp * 15000
+magic.c          : Cleaned up.
+mail.c           : Added support for mail from auction system.
+mail.h           : Added support for mail from auction system.
+medit.c          : Cleaned up.
+modify.c         : Cleaned up.
+oasis.c          : Added zedit sect # support - Sets the base sect to the
+                   same value in all rooms in zone.
+oasis.h          : Added zedit sect # support.
+objsave.c        : Added Obj_to_file_elem routine.
+reports.cpp      : Replaced 0 with MAIL_FROM_REPORT in store_mail calls.
+shop.c           : Replaced GET_OBJ_LR() check with invalid_level() call.
+spec_procs.c     : Fixed bug where repair wasn't listing costs.
+                   Cleaned up.
+spell_parser.c   : Replaced various damage calcs with calc_dam_amt.
+spells.c         : Added identify_obj_to_char, called by SPELL_IDENTIFY and
+                   auction stat.
+                   Colourised identify output.
+structs.h        : Added EVENT_FIRE macro.
+                   Removed old auction defines.
+                   Added auction structures auc_data, auc_file_elem.
+                   Added auction macros AUC_STAT_COST, AUC_ROOM< AUC_LIMIT.
+                   Added RMSM_BURNED macro to identify burned rooms.
+                   Added small_bits to room structure. Unsaved bitvector.
+tedit.c          : Cleaned up.
+utils.c          : Added calc_dam_amt to separate damage calculations for
+                   skills.
+                   Added init_auctions and write_auction_file for storage
+                   and retrieval of auctions.
+utils.h          : RMSM_FLAGS(room_rnum) - Room's Small Bits.
+                   RMSM_FLAGS(room_rnum, bit) - Check small bits.
+                   LR_FAIL(ch, lvl) - Basic level test.
+                   LR_FAIL_MAX(ch, lvl) - Level test against max level,
+                   unless lvl > LVL_IMMORT.
+                   CAN_LEVEL(ch) macro.
+                   STRTODAM(ch) macro - str_app.todam
+zedit.c          : Added zedit_sect_all().
+@
+text
+@d851 2
+d859 6
+a864 1
+    script_trigger_check();
+d866 1
+a866 1
+  if (!(pulse % (30 * PASSES_PER_SEC)))
+d872 1
+a872 1
+  if (!(pulse % (15 * PASSES_PER_SEC)))		/* 15 seconds */
+d884 2
+a885 1
+  if (!(pulse % (SECS_PER_MUD_HOUR * PASSES_PER_SEC))) {
+d889 1
+d893 2
+a894 1
+  if (!(pulse % (PULSE_CASINO))) {
+d900 1
+a900 1
+  if (!(pulse % (PULSE_HINTS))) {
+a901 1
+  }
+d903 1
+a903 1
+  if (!(pulse % (PULSE_ZONE_HINTS))) {
+a904 1
+  }
+d906 4
+a909 2
+  if (auto_save && !(pulse % (60 * PASSES_PER_SEC))) {	/* 1 minute */
+    if (++mins_since_crashsave >= autosave_time) {
+@
+
+
+1.35
+log
+@Artus> Ugh.
+@
+text
+@d1079 2
+a1080 1
+  if (!ch || IS_NPC(ch) || GET_LEVEL(ch) >= LVL_IMMORT) {
+a1084 10
+  if ((GET_CLASS(ch) <= CLASS_WARRIOR) && (GET_LEVEL(ch) >= RONE_MAX_LVL))
+  {
+    sprintf(exp_prompt, "%s*", CCBRED(ch, C_NRM));
+    return(exp_prompt);
+  } else if ((GET_CLASS(ch) < CLASS_MASTER) && (GET_LEVEL(ch) >= RTWO_MAX_LVL))
+  {
+    sprintf(exp_prompt, "%s*", CCBRED(ch, C_NRM));
+    return(exp_prompt);
+  }
+
+@
+
+
+1.34
+log
+@Artus> Er.. Linkless eq loss bugfix.
+@
+text
+@d409 1
+a409 1
+  Locate_save_all();
+@
+
+
+1.33
+log
+@Artus> Fixed bug that prevented users logging in over themselves after
+       connection had crapped out in olc / menu / motd / reports.
+       Hopefully fixed bug that was causing eq not to save, sometimes.
+@
+text
+@a2258 1
+	Crash_idlesave(d->character);
+@
+
+
+1.32
+log
+@Artus> Moving stuff across to live.
+
+act.informative.c:
+  Info on it's own will now display the info file. Use me or self to see your
+own info.
+  Score and Exp now both show gained and remaining exp.
+  Gold value is now to a max of 30000. (60000 in lvl 40+ zones, 120 in 70+)
+  Gold rushes no longer occur in !GOLDRUSH zones, city sectors, etc.
+
+act.other.c:
+  Mana retained on remort is now floored at 100 instead of 50.
+  Added elitist bonus for chars who play past the earliest remort point(s).
+
+act.wizard.c:
+  Gold rush events are now only advertised within the world they occur.
+
+genolc.h:
+  Added special #defines for different OLC levels whether running live or test.
+  (Noted by compiling with -DPRIMAL_LIVE)
+
+interpreter.c:
+  Aliases will now be saved automatically, when added or remoed.
+  Added elitist_modifier() to modifier calculation.
+  Replaced Huh?!? with HUH.
+
+limits.c:
+  NPC corpses are no longer emptied before they are purged. Too much clutter.
+
+spells.c:
+  Reduced the amount of weight applied by create water to 1/3 of what it was.
+
+comm.c:       Added send_to_not_zone_world()
+db.c:         Added elitist_modifier() to modifier calculation.
+dg_mobcmd.c:  Replaced Huh?!? with the define, HUH.
+dg_scripts.h: Changed version string so it will fit on one line :o)
+fight.c:      Eq should no longer be damaged when a hit fails.
+handler.c:    Now, when the sleep spell wears of an NPC, it will wake up.
+structs.h:    Added HUH define.
+utils.c:      Added elitist_modifier() calculation.
+utils.h:      Added elitist_modifier() prototype.
+@
+text
+@d409 2
+a410 1
+  Crash_save_all();
+d636 2
+a637 1
+  while (!circle_shutdown) {
+d2235 2
+a2236 1
+  if (d->snoop_by) {
+d2242 2
+a2243 1
+  if (d->character) {
+d2252 3
+a2254 2
+    if (STATE(d) == CON_PLAYING || STATE(d) == CON_DISCONNECT || OLC(d) 
+                    || REPORT(d)) {
+d2256 2
+a2257 1
+      if (!IS_NPC(d->character)) {
+d2259 1
+@
+
+
+1.31
+log
+@Artus> Imms no longer affected by hot/cold/etc.
+       Debug no longer available to mortals, can be set though.
+       Fixed buffer overflow in proc_color.
+       Stops processing get_from_container when arms full.
+       Changed the way remort abilities are listed.
+@
+text
+@d2569 1
+d2583 18
+@
+
+
+1.30
+log
+@Artus>
+
+Files which have had log() replaced with basic_mud_log():
+
+act.informative.c, act.item.c, act.offensive.c, act.other.c, act.social.c,
+act.wizard.c, alias.c, balance.c, ban.c, boards.c, casino.c, castle.c, clan.c,
+class.c, comm.c, corpses.cpp, db.c, dg_db_scripts.c, dg_olc.c, dg_scripts.c,
+fight.c, genmob.c, genobj.c, genolc.c, genshp.c, genwld.c, genzon.c, graph.c,
+handler.c, house.c, improved-edit.c, interpreter.c, magic.c, mail.c, medit.c,
+mobact.c, modify.c, oasis.c, objsave.c, oedit.c, olc.c, redit.c, reports.cpp,
+shop.c, spec_assign.c, spec_procs.c, spell_parser.c, tedit.c, utils.c,
+utils.h, zedit.c.
+
+
+Files which have been cpp standardised (list.h => list, etc):
+
+comm.c, corpses.cpp, corpses.h, db.c, interpreter.c, modify.c, reports.cpp.
+
+
+Specific changes to reports.cpp, reports.h:
+
+Removed ofstream outReportFile, ofstream outChangeFile, and replaced them with
+FILE *s. Removed no-longer functional c++ random-access file handling and
+replaced it with straight C. Should be right from here on in..
+
+
+Specific changes to act.movement.c:
+
+Replaced log() with mudlog(), when logging players being killed by gravity.
+@
+text
+@d173 1
+a173 1
+void proc_color(char *inbuf, struct char_data *ch, int colour);
+d794 6
+a799 2
+      if (!d->has_prompt) {
+	write_to_descriptor(d->descriptor, make_prompt(d));
+d1237 1
+a1237 1
+    proc_color(prompt, d->character, (clr(d->character, C_NRM)));
+d1241 1
+a1241 1
+    proc_color(prompt, d->character, (clr(d->character, C_NRM)));
+d1313 1
+a1313 1
+    proc_color(prompt, d->character, (clr(d->character, C_NRM)));
+d1390 2
+a1391 1
+  if (t->bufspace >= size) {
+d1402 2
+a1403 1
+  if (size + t->bufptr > LARGE_BUFSIZE - 1) {
+d1411 2
+a1412 1
+  if (bufpool != NULL) {
+d1666 1
+a1666 1
+  char i[MAX_SOCK_BUF];
+d1671 3
+a1673 2
+    strcat(i, "**OVERFLOW**\r\n");
+  else {
+d1678 9
+a1686 1
+    strcpy(i + 2, t->output);
+a1687 1
+
+d1689 1
+a1689 1
+  if (STATE(t) == CON_PLAYING && t->character && !IS_NPC(t->character) && !PRF_FLAGGED(t->character, PRF_COMPACT))
+d1693 1
+a1693 1
+    proc_color(i, t->character, (clr(t->character, C_NRM)));
+d1707 15
+a1721 1
+    strncat(i + 2, make_prompt(t), MAX_PROMPT_LENGTH);
+d1731 1
+a1731 1
+    
+@
+
+
+1.29
+log
+@Latest Version
+@
+text
+@d11 2
+a12 2
+#include <fstream.h>
+#include <list.h>
+d232 1
+a232 1
+     log("SYSERR: Could not open pid file for writing"); 
+d348 2
+a349 2
+  log(circlemud_version);
+  log(DG_SCRIPT_VERSION);
+d355 1
+a355 1
+  log("Using %s as data directory.", dir);
+d362 1
+a362 1
+    log("Done.");
+d364 1
+a364 1
+    log("Running game on port %d.", port);
+d389 1
+a389 1
+  log("Finding player limit.");
+d392 1
+a392 1
+  log("Opening mother connection.");
+d398 1
+a398 1
+  log("Signal trapping.");
+d405 1
+a405 1
+  log("Entering game loop.");
+d411 1
+a411 1
+  log("Closing all sockets.");
+d422 1
+a422 1
+    log("Rebooting.");
+d425 1
+a425 1
+  log("Normal termination of game.");
+d448 1
+a448 1
+      log("SYSERR: WinSock not available!");
+d454 1
+a454 1
+    log("Max players set to %d", max_players);
+d457 1
+a457 1
+      log("SYSERR: Error opening network connection: Winsock error #%d",
+d597 1
+a597 1
+    log("SYSERR: Non-positive max player limit!  (Set at %d using %s).",
+d601 1
+a601 1
+  log("   Setting player limit to %d using %s.", max_descs, method);
+d639 1
+a639 1
+      log("No connections.  Going to sleep.");
+d644 1
+a644 1
+	  log("Waking up to process signal.");
+d648 1
+a648 1
+	log("New connection.  Waking up.");
+d815 1
+a815 1
+      log("SYSERR: **BAD** MISSED_PULSES NONPOSITIVE (%d), TIME GOING BACKWARDS!!", missed_pulses);
+d821 1
+a821 1
+      log("SYSERR: Missed %d seconds worth of pulses.", missed_pulses / PASSES_PER_SEC);
+d972 1
+a972 1
+  log("nusage: %-3d sockets connected, %-3d sockets playing, %-3d max sockets playing this period, %-3d max sockets playing",
+d981 1
+a981 1
+    log("rusage: user time: %ld sec, system time: %ld sec, max res size: %ld",
+d1453 1
+a1453 1
+      log("SYSERR: DFLT_IP of %s appears to be an invalid IP address",DFLT_IP);
+d1460 1
+a1460 1
+    log("Binding to all IP interfaces on this host.");
+d1462 1
+a1462 1
+    log("Binding only to IP address %s", inet_ntoa(bind_addr));
+d1498 1
+a1498 1
+  log("SYSERR: warning: you're trying to set DFLT_IP but your system has no\n"
+d1605 1
+a1605 1
+//  log(buf);
+d1777 1
+a1777 1
+    log("SYSERR: Huh??  write() returned 0???  Please report this!");
+d1811 1
+a1811 1
+    log("SYSERR: Huh??  write() returned 0???  Please report this!");
+d1879 1
+a1879 1
+       log("WARNING: write_to_descriptor: socket write would block.");
+d1914 1
+a1914 1
+    log("WARNING: EOF on socket read (connection broken by peer)");
+d1985 1
+a1985 1
+      log("WARNING: process_input: about to close connection: input overflow");
+d2280 1
+a2280 1
+        log("cleaning up descriptor - deleting report %d", (int)d->report);
+d2424 1
+a2424 1
+    log("SYSERR: CHECKPOINT shutdown: tics not updated. (Infinite loop suspected)");
+d2441 2
+a2442 2
+  log("SYSERR: Received SIGHUP, SIGINT, or SIGTERM.");
+  log("        Saving chars and Shutting down...");
+d2718 2
+a2719 2
+	log("SYSERR: Illegal $-code to act(): %c", *orig);
+	log("SYSERR: %s", orig);
+d2786 1
+a2786 1
+    log("SYSERR: no valid target to act()!");
+d2830 1
+a2830 1
+    log("SYSERR: *** Buffer overflow! ***\n"
+d2840 1
+a2840 1
+  log("Statistics: buf=%d buf1=%d buf2=%d arg=%d",
+@
+
+
+1.28
+log
+@
+
+Modified: DM
+
+Changed:
+- sorted the affects command output (act.informative.c)
+- made a define for ignoring timeouts on name prompt (comm.c)
+@
+text
+@d104 1
+d972 3
+a974 2
+  log("nusage: %-3d sockets connected, %-3d sockets playing",
+	  sockets_connected, sockets_playing);
+d1621 3
+a1623 1
+
+d2190 2
+@
+
+
+1.27
+log
+@
+Modified: DM
+
+Changed:
+- Don't ask (large group checkin) - lots of bug fixes mainly.
+- Use cvs diff if you really wanna see the changes.
+@
+text
+@d2291 5
+d2298 4
+d2304 1
+@
+
+
+1.26
+log
+@
+Modified: DM
+
+Changed:
+- states: moved colour prompt to first question after char creation
+- commented a trigger_colour check - see comments.
+@
+text
+@d69 1
+@
+
+
+1.25
+log
+@
+Changed:
+- string overflow ordering
+- something else ... (minor again)
+@
+text
+@d1616 2
+a1617 2
+  STATE(newd) = CON_QCOLOUR;
+  //STATE(newd) = CON_GET_NAME;
+d1634 9
+a1642 1
+  SEND_TO_Q("Welcome to PrimalMUD!\r\nWould you like colour? ", newd);
+@
+
+
+1.24
+log
+@
+Modified: DM
+
+Changed:
+- colour touch ups
+@
+text
+@d1228 1
+a1228 1
+                    "(&cb&n)ack, or page number (&c%d&n/&c%d&n) ]",
+a1648 6
+  /* we may need this \r\n for later -- see below */
+  strcpy(i, "\r\n");
+
+  /* now, append the 'real' output */
+  strcpy(i + 2, t->output);
+
+d1652 7
+@
+
+
+1.23
+log
+@
+Modified: DM
+
+Removed:
+- char deletion check on link loss (no longer necessary as PLR_DELETED flag
+  is unset on successful char creation).
+@
+text
+@d1071 1
+a1071 1
+    sprintf(exp_prompt, "%s*", CCBGRY(ch, C_NRM));
+d1077 1
+a1077 1
+    sprintf(exp_prompt, "%s*", CCBGRY(ch, C_NRM));
+d1081 1
+a1081 1
+    sprintf(exp_prompt, "%s*", CCBGRY(ch, C_NRM));
+d1189 1
+a1189 1
+      sprintf(buf1, "%s[%s", CCBGRY(ch, C_NRM), CCGRN(ch, C_NRM));
+d1212 1
+a1212 1
+      sprintf(buf1, "%s] ", CCBGRY(ch, C_NRM));
+d2592 1
+d2597 1
+a2597 1
+
+d2600 1
+d2609 3
+a2611 1
+		i = GET_NAME(tch);
+d2614 9
+a2622 2
+        else           
+	   i = PERS(ch, to);
+d2626 3
+d2654 2
+d2659 2
+d2665 2
+d2670 2
+@
+
+
+1.22
+log
+@
+Modified: DM
+
+Changed:
+- Added zone hints (index based boot)
+- Balance [mo]edit info for unbalanced attribs
+@
+text
+@d2217 7
+@
+
+
+1.21
+log
+@Modified: Artus
+
+Changed:
+- remort level updates for prompt display
+@
+text
+@d183 1
+d884 4
+@
+
+
+1.20
+log
+@*** empty log message ***
+@
+text
+@d1070 10
+d1670 1
+d1672 2
+a1673 1
+  strncat(i + 2, make_prompt(t), MAX_PROMPT_LENGTH);
+@
+
+
+1.19
+log
+@Modified: DM
+
+Added:
+- pulse check for ship and falcon
+@
+text
+@d98 1
+d363 6
+@
+
+
+1.18
+log
+@
+Added:
+- get_fight_prompt function (moved exiting healthometer to it)
+@
+text
+@d182 2
+d884 5
+@
+
+
+1.17
+log
+@
+Changed:
+- Fixed prompt stuff
+@
+text
+@d166 1
+d1052 1
+a1052 1
+    strcpy(exp_prompt, "*");
+d1137 51
+a1193 3
+  float health;
+  double temp;
+  int bar,i;
+d1231 1
+a1231 1
+      sprintf(buf, "%s ", get_user_prompt_string(d->character));
+d1255 1
+a1255 1
+        sprintf(buf1, "X:%s%s&n ", CCBGRY(d->character, C_NRM), 
+d1263 2
+a1264 21
+       }
+ 
+    // TODO: move this to seperate function and add different fighting prompts:
+    // - keep this one as clasic
+    // - make a generic one
+    // - make a percentage based one
+
+/* modifications to add the Health-o-Meter(tm) to the prompt - Vader */
+      if (FIGHTING(d->character))
+        if(GET_HIT(FIGHTING(d->character)) > 0) {
+          health = ((float)GET_HIT(FIGHTING(d->character)) /
+                    (float)GET_MAX_HIT(FIGHTING(d->character))) * 100;
+          bar = (int)health / 5;
+          sprintf(buf1,"%s[%s",CCBGRY(d->character,C_NRM), CCGRN(d->character,C_NRM));
+          strncat(prompt,buf1,strlen(buf1));
+          //sprintf(prompt,"%s%s[%s",prompt,CCBGRY(d->character,C_NRM),
+          //        CCGRN(d->character,C_NRM));
+          for(i=0;i<=bar && i<=19;i++) {
+            strncat(prompt,"*",1);
+            //sprintf(prompt,"%s*",prompt);
+          }
+d1266 3
+a1268 17
+          if (bar < 19) {
+            sprintf(buf1,"%s",CCRED(d->character,C_NRM));
+            strncat(prompt,buf1,strlen(buf1));
+            //sprintf(prompt,"%s%s",prompt,CCRED(d->character,C_NRM));
+            for(i=bar;i<19;i++) {
+              strncat(prompt,"-",1);
+              //sprintf(prompt,"%s-",prompt);
+            }
+          }
+        sprintf(buf1,"%s] ",CCBGRY(d->character,C_NRM));
+        strncat(prompt,buf1,strlen(buf1));
+        //sprintf(prompt,"%s%s] ",prompt,CCBGRY(d->character,C_NRM));
+      } else { 
+        sprintf(prompt,"%s%s[%s--------------------%s] ",prompt,
+                CCBGRY(d->character,C_NRM),CCRED(d->character,C_NRM),
+                CCBGRY(d->character,C_NRM));
+      }
+d1270 6
+a1275 1
+    strcat(prompt, "&n> ");
+d1278 3
+a1280 4
+
+  } else if (STATE(d) == CON_PLAYING && IS_NPC(d->character))
+    sprintf(prompt, "%s> ", GET_NAME(d->character));
+  else
+d1282 1
+@
+
+
+1.16
+log
+@
+Added:
+- get_user_prompt_string()
+- get_point_prompt_string()
+- get_exp_prompt_string()
+- get_align_prompt_string()
+
+Changed:
+- almost re-write of make_prompt for user defined prompts
+
+TODO:
+- add more fight prompts
+@
+text
+@d1069 1
+a1069 1
+  char temp[MAX_PROMPT_LENGTH + 1], **prompt = &GET_PROMPT(ch);
+@
+
+
+1.15
+log
+@
+
+Added:
+- invis prompt for all invis types
+@
+text
+@d162 4
+d1000 136
+d1140 2
+d1149 2
+a1150 2
+    sprintf(prompt,
+	    "\r&n[ Return to continue, (&4q&n)uit, (&4r&n)efresh, (&cb&n)ack, or page number (&c%d&n/&c%d&n) ]",
+a1151 2
+    // DM - process colour codes ... (should be safe - ie. strlen(prompt) will
+    // be less than MAX_PROMPT_LENGTH = MAX_INPUT_LENGTH
+d1153 2
+a1154 2
+  } else if (d->str)
+    sprintf(prompt, "(%d/%d) ] ", 
+d1156 2
+a1157 1
+  else if (STATE(d) == CON_PLAYING && !IS_NPC(d->character)) {
+a1178 1
+      //count += sprintf(prompt + count, "i%d ", GET_INVIS_LEV(d->character));
+d1181 5
+d1187 4
+a1190 12
+    if (PRF_FLAGGED(d->character, PRF_DISPHP)) {
+      if(GET_HIT(d->character) < GET_MAX_HIT(d->character) / 4)
+        sprintf(buf,"%s",CCRED(d->character,C_NRM));
+      else if(GET_HIT(d->character) < GET_MAX_HIT(d->character) / 2)
+             sprintf(buf,"%s",CCBRED(d->character,C_NRM));
+      else if(GET_HIT(d->character) < GET_MAX_HIT(d->character))
+             sprintf(buf,"%s",CCBYEL(d->character,C_NRM));
+      else sprintf(buf,"%s",CCBGRN(d->character,C_NRM));
+      sprintf(buf2, "%s%d%sH ",buf,GET_HIT(d->character),CCNRM(d->character,C_NRM));
+      strncat(prompt,buf2,strlen(buf2));
+      //sprintf(prompt, "%s%s%d%sH ",prompt,buf,GET_HIT(d->character),
+      //        CCNRM(d->character,C_NRM));
+d1193 10
+a1202 25
+    if (PRF_FLAGGED(d->character, PRF_DISPMANA)) {
+      if(GET_MANA(d->character) < GET_MAX_MANA(d->character) / 4)
+        sprintf(buf,"%s",CCRED(d->character,C_NRM));
+      else if(GET_MANA(d->character) < GET_MAX_MANA(d->character) / 2)
+             sprintf(buf,"%s",CCBRED(d->character,C_NRM));
+      else if(GET_MANA(d->character) < GET_MAX_MANA(d->character))
+             sprintf(buf,"%s",CCBYEL(d->character,C_NRM));
+      else sprintf(buf,"%s",CCBGRN(d->character,C_NRM));
+      sprintf(buf2, "%s%d%sM ",buf,GET_MANA(d->character), CCNRM(d->character,C_NRM));
+      strncat(prompt,buf2,strlen(buf2));
+      //sprintf(prompt, "%s%s%d%sM ",prompt,buf,GET_MANA(d->character),
+      //        CCNRM(d->character,C_NRM));
+      }
+    if (PRF_FLAGGED(d->character, PRF_DISPMOVE)) {
+      if(GET_MOVE(d->character) < GET_MAX_MOVE(d->character) / 4)
+        sprintf(buf,"%s",CCRED(d->character,C_NRM));
+      else if(GET_MOVE(d->character) < GET_MAX_MOVE(d->character) / 2)
+             sprintf(buf,"%s",CCBRED(d->character,C_NRM));
+      else if(GET_MOVE(d->character) < GET_MAX_MOVE(d->character))
+             sprintf(buf,"%s",CCBYEL(d->character,C_NRM));
+      else sprintf(buf,"%s",CCBGRN(d->character,C_NRM));
+      sprintf(buf2, "%s%d%sV ",buf,GET_MOVE(d->character), CCNRM(d->character,C_NRM));
+      strncat(prompt,buf2,strlen(buf2));
+      //sprintf(prompt, "%s%s%d%sV ",prompt,buf,GET_MOVE(d->character),
+      //        CCNRM(d->character,C_NRM));
+d1206 3
+a1208 30
+        if (GET_LEVEL(d->character) >= LVL_IMMORT)
+            sprintf(buf1,"X:%s*%s ", CCBGRY(d->character,C_NRM),CCBGRY(d->character,C_NRM));
+            //sprintf(prompt,"%sX:%s*%s ", prompt, CCBGRY(d->character,C_NRM), CCBGRY(d->character,C_NRM));
+        else{
+            temp = (double)(level_exp(d->character,
+                  GET_LEVEL(d->character))-GET_EXP(d->character));
+            if (temp <= 0)
+              log("Temp <= 0");
+            if (temp/1000000>=1) {
+               sprintf(buf1,"X:%s%3.1fm%s ", CCBGRN(d->character,C_NRM), temp/1000000, 
+                   CCBGRY(d->character,C_NRM));
+               //sprintf(prompt, "%sX:%s%3.1fm%s ", prompt, CCBGRN(d->character,C_NRM), 
+               //    temp/1000000, CCBGRY(d->character,C_NRM));
+            } else {
+              if (temp/1000>=1) {
+                    sprintf(buf1, "X:%s%3.1fk%s ", CCBGRN(d->character,C_NRM), temp/1000, 
+                        CCBGRY(d->character,C_NRM));
+                    //sprintf(prompt, "%sX:%s%3.1fk%s ", prompt, CCBGRN(d->character,C_NRM), 
+                    //    temp/1000, CCBGRY(d->character,C_NRM));
+              } else {
+// DM - BUG CAUSES CRASH - if this case arises - it crashes vprintf() - buf1
+// check - havent noticed it for a while at least
+                  sprintf(buf1, "X:%s%d%s ", CCBGRN(d->character,C_NRM), (int)temp, 
+                      CCBGRY(d->character,C_NRM));
+                  //sprintf(prompt, "%sX:%s%d%s ", prompt, CCBGRN(d->character,C_NRM), 
+                  //    temp, CCBGRY(d->character,C_NRM));
+              }
+            }
+         } 
+        strncat(prompt,buf1,strlen(buf1));
+d1211 4
+a1214 15
+    if (PRF_FLAGGED(d->character, PRF_DISPALIGN)){
+        if (GET_ALIGNMENT(d->character) > 350)
+          sprintf(buf, "%s", CCCYN(d->character, C_NRM));
+        else
+           if (GET_ALIGNMENT(d->character) < -350)
+             sprintf(buf, "%s", CCRED(d->character, C_NRM));
+        else
+           sprintf(buf, "%s", CCNRM(d->character, C_NRM));
+ 
+        sprintf(buf1, "%sAl:%s%d%s ", CCBRED(d->character, C_NRM), buf, 
+            GET_ALIGNMENT(d->character), CCBGRY(d->character, C_NRM));
+        strncat(prompt,buf1,strlen(buf1));
+        //sprintf(prompt, "%s%sAl:%s%d%s ", prompt, CCBRED(d->character, C_NRM), buf, 
+        //    GET_ALIGNMENT(d->character), CCBGRY(d->character, C_NRM));
+     }
+d1216 5
+d1222 12
+a1233 12
+    if(FIGHTING(d->character))
+      if(GET_HIT(FIGHTING(d->character)) > 0) {
+        health = ((float)GET_HIT(FIGHTING(d->character)) /
+                  (float)GET_MAX_HIT(FIGHTING(d->character))) * 100;
+        bar = (int)health / 5;
+        sprintf(buf1,"%s[%s",CCBGRY(d->character,C_NRM), CCGRN(d->character,C_NRM));
+        strncat(prompt,buf1,strlen(buf1));
+        //sprintf(prompt,"%s%s[%s",prompt,CCBGRY(d->character,C_NRM),
+        //        CCGRN(d->character,C_NRM));
+        for(i=0;i<=bar && i<=19;i++) {
+          strncat(prompt,"*",1);
+          //sprintf(prompt,"%s*",prompt);
+d1235 8
+a1242 7
+        if(bar < 19) {
+          sprintf(buf1,"%s",CCRED(d->character,C_NRM));
+          strncat(prompt,buf1,strlen(buf1));
+          //sprintf(prompt,"%s%s",prompt,CCRED(d->character,C_NRM));
+          for(i=bar;i<19;i++) {
+            strncat(prompt,"-",1);
+            //sprintf(prompt,"%s-",prompt);
+d1249 1
+a1249 1
+       sprintf(prompt,"%s%s[%s--------------------%s] ",prompt,
+d1252 5
+a1256 4
+        }
+ 
+    sprintf(prompt,"%s%s%s> ",prompt,CCNRM(d->character, C_NRM)
+            ,CCNRM(d->character, C_NRM)); 
+a1257 1
+//    strcat(prompt, "> ");
+@
+
+
+1.14
+log
+@
+Added:
+- Initial inclusion of dgscripts
+@
+text
+@d1021 17
+a1037 2
+      sprintf(buf,"i%d ", GET_INVIS_LEV(d->character));
+      strcat(prompt,buf);
+@
+
+
+1.13
+log
+@
+Removed:
+- unsigned int cast for socklen_t - (check define in conf.h, its defined as an
+  unsigned int on my system, if the system doesnt define it - check the define
+  for it in conf.h)
+@
+text
+@d68 1
+d116 1
+d119 3
+d338 1
+d827 8
+d2036 1
+a2039 1
+     * TODO: DM - hmm - writing/reporting?
+d2090 1
+d2429 4
+d2451 1
+d2458 1
+d2465 1
+d2472 1
+d2479 1
+d2486 1
+d2493 1
+d2497 1
+d2522 5
+a2526 1
+  SEND_TO_Q(CAP(lbuf), to->desc);
+a2528 10
+
+#define SENDOK(ch)	((ch)->desc && (to_sleeping || AWAKE(ch)) && \
+			(IS_NPC(ch) || \
+                               !PLR_FLAGGED((ch), \
+                                     PLR_WRITING | PLR_MAILING | PLR_ODDWRITE)))
+
+// Dm - added this so acts only go to playing chars - if acts arn't 
+// working correctly, check this ... 
+#define SENDTOOK(ch)    (SENDOK((ch)) && STATE((ch)->desc) == CON_PLAYING)
+
+d2537 3
+@
+
+
+1.12
+log
+@
+Added:
+- SENDTOOK macro for 'acts' to go to CON_PLAYING chars
+
+Changed:
+- SENDTO macro to check PLR_ODDWRITE
+@
+text
+@d1373 1
+a1373 1
+  if ((desc = accept(s, (struct sockaddr *) &peer, (unsigned int *)/*(socklen_t *)*/&i)) == INVALID_SOCKET){
+@
+
+
+1.11
+log
+@
+Added:
+- users list stuff - to display all
+- reporting system stuff
+@
+text
+@d11 1
+d2500 7
+a2506 1
+			(IS_NPC(ch) || !PLR_FLAGGED((ch), PLR_WRITING)))
+d2555 2
+a2556 1
+    if (!SENDOK(to) || (to == ch))
+@
+
+
+1.10
+log
+@
+Added:
+- space_left fixes to cater for &n
+- colours on page menu
+- chars used/available in edit prompt
+@
+text
+@d11 2
+d66 1
+d103 1
+d747 1
+a747 1
+       string_add(d, comm);
+d993 1
+a993 1
+	    "\r[ Return to continue, (&4q&n)uit, (&4r&n)efresh, (&cb&n)ack, or page number (&c%d&n/&c%d&n) ]",
+d1075 1
+d1372 1
+a1372 1
+  if ((desc = accept(s, (struct sockaddr *) &peer, (socklen_t *)&i)) == INVALID_SOCKET){
+d1445 1
+d1999 1
+d2005 7
+d2024 1
+d2031 2
+a2032 1
+    if (STATE(d) == CON_PLAYING || STATE(d) == CON_DISCONNECT || OLC(d)) {
+d2081 7
+d2226 11
+a2236 1
+  log("SYSERR: Received SIGHUP, SIGINT, or SIGTERM.  Shutting down...");
+@
+
+
+1.9
+log
+@
+Added:
+- newbie logging
+- random hint channel
+
+Changed:
+- Rewrote the ignore code, ignore char all/tells, ignore level all/tells
+@
+text
+@d989 1
+a989 1
+	    "\r[ Return to continue, (q)uit, (r)efresh, (b)ack, or page number (%d/%d) ]",
+d991 3
+d995 2
+a996 1
+    strcpy(prompt, "] ");
+d1385 1
+a1385 1
+    write_to_descriptor(desc, "Sorry, CircleMUD is full right now... please try again later!\r\n");
+d1439 1
+d1789 1
+a1789 1
+  space_left = MAX_RAW_INPUT_LENGTH - buf_length - 1;
+d1844 1
+a1844 1
+    space_left = MAX_INPUT_LENGTH - 1;
+d1847 1
+a1847 1
+    for (ptr = read_point; (space_left > 1) && (ptr < nl_pos); ptr++) {
+@
+
+
+1.8
+log
+@
+Added:
+- extra who list options, default level descending
+- !IS_NPC check on AFK
+
+Changed:
+- clone order fix
+- max houses 100 -> 500
+- house guests 10 -> 5
+@
+text
+@d166 1
+d845 5
+@
+
+
+1.7
+log
+@
+Added:
+
+- Changes on the latest circle snapshot:
+========================================
+1/23/2000
+
+no -- gg - constants.c/structs.h: Welcome to bpl18.
+
+no -- gg - Makefile.lcc: Remove some constants I have to change every patch.
+
+no -- gg - doc/README.CYGWIN: bpl17 -> bpl18
+
+7/3/2000
+
+no -- gg - doc/license.doc: Add copyright information that seems lacking
+        elsewhere.
+
+no -- gg - build_circlemud.com: Update from author.
+
+yes -- gg - utils.h: -1 => NOBODY/NOWHERE/NOTHING cleanups.
+
+yes (and other relevant ROOM flags)
+-- gg - spells.c: spell_teleport(): No teleporting into ROOM_GODROOM.
+
+yes -- gg - spec_procs.c: Restrict pets to NPCs.
+
+yes? -- gg - interpreter.c: is_abbrev(): s/returnss/returns/
+
+yes -- gg - handler.c: affect_join(): Keep 'next' pointer for extracted
+        objects in list.
+
+no -- gg - act.wizard.c: perform_immort_invis(): Remove redundant
+        IS_NPC check.
+
+yes ? -- gg - utils.c: basic_mud_log(): Cancel message if stream hasn't
+        been initialized.
+
+7/7/2000
+
+yes ? -- gg - utils.c: mudlog(): log(var) => log("%s", var); to avoid
+        interpreting %% codes.
+
+yes - drink aliases no -- gg - db.c: parse_object(): Print the offending character.
+        check_object(): Drink aliases should last now.  The code
+        to remove the aliases shouldn't care where it is, though.
+
+no -- gg - act.item.c: name_from_drinkcon()/name_to_drinkcon():
+        Much more intelligent support for removing/adding the
+        drink name to containers.
+
+no -- gg - lib/world/obj/0.obj: An extra ~ escaped the removal of
+        object #99.
+@
+text
+@d594 1
+d630 1
+@
+
+
+1.6
+log
+@
+Added:
+- olc stuff - sectors, zone flags
+
+Changed:
+- Heaps of little fixes ....
+@
+text
+@d756 2
+a757 5
+	/* Output for this player is ready */
+	if (process_output(d) < 0)
+	  close_socket(d);
+	else
+	  d->has_prompt = 1;
+d759 1
+a759 1
+    }
+d1340 1
+a1340 1
+int new_descriptor(int s)
+a1453 1
+ * FIXME - This will be rewritten before 3.1, this code is dumb.
+d1458 1
+a1458 1
+  int result;
+d1494 1
+a1494 1
+    result = write_to_descriptor(t->descriptor, i);
+d1496 4
+a1499 1
+    result = write_to_descriptor(t->descriptor, i + 2);
+d1522 15
+a1536 1
+  return (result);
+d1646 8
+a1653 1
+ * -1  If an error was encountered, so that the player should be cut off
+d1657 25
+a1681 25
+  size_t total;
+  ssize_t bytes_written;
+
+  total = strlen(txt);
+
+  while (total > 0) {
+    bytes_written = perform_socket_write(desc, txt, total);
+
+    if (bytes_written < 0) {
+      /* Fatal error.  Disconnect the player. */
+      perror("SYSERR: Write to socket");
+      return (-1);
+    } else if (bytes_written == 0) {
+      /*
+       * Temporary failure -- socket buffer full.  For now we'll just
+       * cut off the player, but eventually we'll stuff the unsent
+       * text into a buffer and retry the write later.  JE 30 June 98.
+       */
+      log("WARNING: write_to_descriptor: socket write would block, about to close");
+      return (-1);
+    } else {
+      txt += bytes_written;
+      total -= bytes_written;
+    }
+  }
+d1683 1
+a1683 1
+  return (0);
+d1858 1
+a1858 1
+      if (write_to_descriptor(t->descriptor, buffer) < 0)
+@
+
+
+1.5
+log
+@
+
+Added:
+- Events
+-
+
+Changed:
+- Score command
+-
+
+TODO:
+- Finish the base
+-
+@
+text
+@d163 1
+d1352 1
+d1354 2
+d1401 4
+a1404 1
+  if (isbanned(newd->host) == BAN_ALL) {
+d1411 1
+a1411 1
+#if 0
+d1418 2
+a1419 2
+  mudlog(buf2, CMP, LVL_GOD, FALSE);
+#endif
+d1987 1
+a1987 1
+	sprintf(buf, "Closing link to: &G%s&g.", GET_NAME(d->character));
+@
+
+
+1.4
+log
+@
+Added:
+- pid log function to store the process id in lib/circle.pid
+@
+text
+@d154 1
+d826 2
+d829 1
+d2247 27
+@
+
+
+1.3
+log
+@my new skills!
+
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d203 11
+d331 3
+@
+
+
+1.2
+log
+@
+Added:
+- Some initial colour coding for mobs and objects
+
+Changed:
+- Various inclusions from the existing primal base ...
+- Including Sector fixes, clan guards, listing items
+
+TODO:
+- Fix colours for mobs/objects - A player comes up as a mob colour
+@
+text
+@d12 2
+a13 1
+
+d1336 1
+a1336 1
+  if ((desc = accept(s, (struct sockaddr *) &peer, &i)) == INVALID_SOCKET) {
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d62 1
+d162 1
+d821 6
+@
+

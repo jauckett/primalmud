@@ -1,0 +1,13 @@
+col cast 'color' $1
+sleep cast 'sleep' $1
+di cast 'detect invisibility'
+inf cast 'infravision'
+chill cast 'chill' $1
+bs backstab $1
+home tell gamina summon
+gam tell gamina heal; tell gamina sanc; tell gamina armor; tell gamina bless; tell gamina refresh
+wake wake; stand
+? recite identify $1
+gac get all all.cor
+gag get all.gold all.corp
+locate cast 'locate' $1

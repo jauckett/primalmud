@@ -1,0 +1,170 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#501
+Main Reception Area~
+This is the main reception area of the PrimalMUD vacation
+resort. You have just stepped off a sky shuttle and now
+you are feeling excited about your holiday here.
+There are three different worlds to visit, all for your enjoyment.
+WESTWORLD, FUTUREWORLD and MEDIEVALWORLD.
+So enjoy your stay and come back soon.
+~
+0 152 0
+D2
+The corridor leads towards many adventures and thrills
+~
+~
+0 -1 503
+S
+#502
+Westworld departure lounge~
+You are in the Westworld departure lounge. Several authentic looking
+stagecoaches to the west are waiting to take people to Westworld. 
+A few guests are sitting in armchairs waiting impatiently. 
+~
+0 184 0
+D0
+~
+~
+0 -1 13291
+D1
+~
+~
+0 -1 503
+S
+#503
+Central departure lounge~
+You are standing at the entrances to the three departure
+lounges. To the south Medievalworld, west Westworld,east 
+Futureworld. North leads back up to the reception area.
+~
+0 152 0
+D0
+~
+~
+0 -1 501
+D1
+~
+~
+0 -1 505
+D2
+~
+~
+0 -1 506
+D3
+~
+~
+0 -1 501
+S
+#505
+Futureworld departure lounge~
+You are standing in the Futureworld departure lounge. To the east
+is a ramp leading up to a sky shuttle. People are waiting around
+anxiously to board.
+~
+0 184 0
+D1
+Shuttle Pad 1
+~
+~
+0 -1 22031 
+D3
+~
+~
+0 -1 504
+S
+#506
+Medievalworld departure lounge~
+You are standing in the Medievalworld departure lounge. Several
+authentic looking chariots are waiting to take guests to the
+Medievalworld resort. People are waiting around anxiously to
+get onto those chariots. You can board one of the chariots to
+the south to take you to Medievalworld.
+~
+0 152 0
+D0
+~
+~
+0 -1 504
+D2
+Haven Main Street.
+~
+~
+0 -1 15 
+S
+#507
+Riding a chariot~
+You ride the chariot through the desert to Medievalworld. You
+arrive at the fair city of Haven. Now you must leave the chariot
+at begin your stay in Medievalworld. You can step off the chariot
+to the west.
+~
+0 184 0
+D3
+~
+~
+0 -1 15
+S
+#508
+Riding a stagecoach~
+You ride the stagecoach through the desert to Westworld. You
+arrive at the small wild west town. Now you must leave the stagecoach
+to begin your stay in Westworld. You can step off the stagecoach
+to the west.
+~
+0 184 0
+D3
+~
+~
+0 -1 13010
+S
+#509
+Aboard a sky shuttle~
+You travel on the sky shuttle across the land through to 
+Futureworld. You arrive at the spaceport. Now you must disembark
+to begin your stay in Futureworld. You can walk down the ramp
+to the west.
+~
+0 184 0
+D3
+~
+~
+0 -1 15
+S
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

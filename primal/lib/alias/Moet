@@ -1,0 +1,23 @@
+jac get all.corpse;junk all.corp
+word c 'word of recall';c 'word of recall'
+th train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;trai
+wake wake;stand;l;where
+gac get all all.corpse
+poofout emote disappears in a puff of smoke
+tm train mana
+dh c 'heal' $*
+sh say heal
+lc look in corp
+protect c 'bless' $*;c 'armor' $*;c 'sanc' $*
+bless c 'bless' $*
+armor c 'armor' $*
+sanc c 'sanc' $*
+summon c 'summon' $*
+refresh c 'refresh' $*
+infra c 'infra' $*
+wa wear all;wi sabre;hold pen;hold knife
+di c 'detect invis' $*
+locate c 'locate' $*
+invis c 'invis' $*
+pb c 'plasma blast' $*
+ds drink skin

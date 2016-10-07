@@ -1,0 +1,19 @@
+jc get all all.corpse; get corpse; junk corpse
+get all all.corpse
+recall c 'word' me
+gc get all all.corpse
+hs c 'heal' self
+sanc c 'sanc' me
+inf c 'infra' $1
+di c 'detect invis' $1
+ef c 'create' food; eat mushroom
+dw drink skin
+ee c 'heal' endymion
+rec c 'word' me
+ga get all all.corpse
+as c 'heal' self
+qw get white backpack; quaff white
+ae assist endymion
+tac take all corpse
+ref c 'refresh' $1
+bless c 'bless' me

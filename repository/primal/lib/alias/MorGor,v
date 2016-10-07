@@ -1,0 +1,180 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@sb steal gold bone;stea gold bone;stea gold bone
+gtl goto lett
+hv hun vine
+bv ba vine
+lwal ufw
+csc c 'sanc
+bb ba beetle
+ahh c 'advanced'; c 'advanced'
+ca c 'armor'
+cch c 'charm' $1
+ccl c 'clo
+sw2 rem dagger;wi whip
+sw1 rem whip;wi dagger
+xcx u;ba morkoth
+cfrv c 'fear'vargouille;c 'fear' vargouille; c 'fear' vargouille;c 'fear' vargouille
+bt ba bat
+om9 e;d;d;n;w;w;w;w;w;w
+om8 d;d;d;d;d;e;e;e;e;e;e;e;e
+om7 w;s;s;s;s;s;s;d;d;d;d;d;d;d;d
+om6 s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w
+ht3 e;s;d;d;d;d;d;d
+ht2 s;s;s;s;s;s;s;s;s;s;s;u;s;d;d;d;s
+ht1 u;e;u;s;d;d;s;s;s;s;s
+ah c 'advanced heal'
+ws wake;stand
+tw w;w;w;s;s;s;s;e;e
+gb go gangway;e;e;e;s;s;s;e;e;s
+qr q red
+cf c 'create food'
+cap ba captain
+bp ba pirate
+cp c 'teleport'
+g4 e;e;e;e;e;e;e;e;e;n;e;n
+gab g all bag
+dk drop key
+od open door
+ud unlock door
+slp emote utters 'Mon~Beddy~Teddy' and...;emote creates a fuzzy teddy bear out of thin air...;sle
+cc c 'heal'
+rec c 'word of recall'
+cfe c 'create food';eat mushroom
+dsk drink skin
+g2 n;w;s;s;s;s;e;e;s;s;s;e;e;
+g1 n;w;s;s;s;w;w;w;w;w;w;w;w;w;w
+km k merchant
+kt k traveller
+ko k orc
+gac g all corpse;sav
+gac. g all all.corpse
+ggc get gold corpse;sav
+rs recite recall
+qw q white
+ggc. get gold all.corpse
+di c 'detect invisibility'
+g3 s;s;s;s;s;s;s;s;s;s;s
+hol e;e;e;e;s;s;e;e;e;s;s;w;w;w;
+gd1 s;s;e;s;s;s;s;s;s
+gd2 e;e;e;s;s;w;w
+gd3 n;w;w;w;w;w;s
+pd pick door;open door;pick door;open door;pick door;open door
+lh d;e;e;e;e;e;e;e;e;e;s;s;e;e;e;
+gk get key
+af affect
+high s;s;s;s;w;w;w;s;w;w;u;u;u;w;n;w
+qb q blue
+app ba apprentice
+bg ba guard
+snk sneak
+bw ba wicked
+gf1 d;s;s;s;w;s;e
+gch e;s;w;w;w;s;s;e;n
+ggar u;n;e;e;e;e;s
+gl1 w;s;d;s;w;u;u;u
+gl2 e;s;w;u;s;e;e;s
+cor n;n;n;w;w;s;s;w;w;w;w;w;s
+gl3 s;d;u;u;s;e;w;e;e
+gl4 s;s;u;s;u;u;u;u
+gl5 u;u;s;w;s;u;u;u
+gl6 u;u;u;u;u
+m1 tel gor are u dressed properly
+m4 e;s;e;u;u;u
+x u;ba chimera
+bgr ba gargoyle
+ci c 'invisibility'
+mz1 n;u;w;w;w;w;s;s;s;s;e
+mz2 e;e;e;n;e;n;e;n;n;w;n;u;w;w
+quitreally j key;j key;j key;quitreally
+ww ba wicked
+jb drink bottle;j bottle
+cm c 'meteor' $1
+op open wall;open door;open trapdoor
+fsk fil skin fountain
+dc drop 1 coin
+lw look water
+ufw use feather water;use feather water;use feather water
+feat rem horn;grab feather
+d1 w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+ref c 'refresh'
+m1g w;w;w;w;n;n;n;w;s;w;n;n;e;s;w
+m2 s;w;n;w;w;n;n;e;e;e;e;e;
+m3 n;e;e;e;e;s;e;u;u;u
+tb 
+tb1 u;s;s;s;s;s;e;e;e;e;e;e;e;e;e;s;s;e
+sbp steal blue priest
+tb2 n;e;e;n;n;e;e
+cfr c 'fear' $1
+sbm steal blue moander
+fire rem horn;grab staff
+ufs use staff $1
+ck1 n;n;w;w;u;u;u;u;e;e;e;e;e;e;e;e;e;n;e;e;s;e;e
+bn ba norker
+bll ba llolth
+tem w;ba retriever
+hb hun buccaneer
+horn rem staff;grab horn
+cac c 'advanced' clone
+t1 e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s
+t2 s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w
+t3 d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s
+t4 e;e;open rock;d;w;w;w;w;w;w
+gt1 n;w;s;s;s;e;e;e;e;open gate
+t5 w;w;w;d;s;s;s;s;s;s;d;e;e;e;e;e;e;
+t6 e;e;e;d;w;w;w;w;w;w;w;w;w;d
+t7 n;n;n;n;e;e;e;e;e;e;e;e;d;d;d;d;w
+t8 w;w;w;w;w;d;n;n;d;e;e;e;e;s
+th train hit;train hit;train hit;train hit;train hit
+xcv n;e;ba moander
+trog ba troglodyte
+om4 d;d;d;d;d;d;d;d;s;d;s
+ring rem ring;rem ring;wear 3.ring;wear 3.ring
+bm w;s;s;e;s;s;s;e;e;s;s;s;s;e;e;
+pan hun pantathian
+bs ba sandworm
+vcx s;ba morkoth
+ggg goto grimreaper
+sgx stel
+sx steal gold xaran;steal gold xaran;steal gold xaran;steal gold xaran
+sw steal gold wonka;steal gold wonka;stea gold wonka;ste gold wonka
+ss steal gold sandworm;ste gold sandworm;ste gold sandworm
+gti goto indiana
+gm c 'create food';give mushroom $1
+sts stat slizzarr
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

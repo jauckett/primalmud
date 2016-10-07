@@ -1,0 +1,68 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.04.11.15.03.15;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#14000
+Guard~
+Here stands the guard to the unknown town.~
+Looking closer at the guard he seems to be fairly built and rather skilled.
+~
+Here stands the guard to the town.
+~
+41002 65666 -10 E
+40 -30 1 30d30+20 30d20+50
+10000 200000
+8 8 1
+BareHandAttack: 6
+E
+$
+@
+
+
+1.1
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d1 13
+@
+

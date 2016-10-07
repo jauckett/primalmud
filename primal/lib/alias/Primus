@@ -1,0 +1,4 @@
+back remove sword; wield dagger; backstab $1; remove dagger; wield sword
+cure cast 'cure light' at primus
+cor get all from all.corpse
+food get meat bag; eat meat

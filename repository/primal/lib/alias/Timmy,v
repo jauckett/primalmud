@@ -1,0 +1,65 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@o k shopkeeper
+p cast 'fireball' on shopkeeper
+inv cast 'invisibility' on me
+iv cast 'infravision' on me
+gg wear all; wi chain; hold orb
+run cast 'word of recall' on me
+id rec identify $*
+rigp alias p cast 'fireball' on $1
+ff cast 'fireball' on $1
+rigo alias o ba $1
+pt open crate; put $1 in crate; close crate
+gt open crate; get $1 from crate; close crate
+cc cast 'colorspray' on $1
+dr cast 'create water' on skin; drink skin
+gc get all corpse
+fd cast 'create food'; eat mushroom
+gr grats <====)= $1 =(====>
+ew q red
+cr cast 'cure critic' on self
+wk wake; stand
+sa cast 'sanctuary' on me
+he cast 'heal' on me
+vi cast 'detect invis' on me
+t e;con executioner;w
+te tell enlibrite $*
+re rem orb; hold wand; use wand froboz; rem wand; hold orb
+qq u;u;u;u;get all corpse;d;d;d;d
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,40 @@
+3
+grb
+12
+get red back
+0
+3
+ccf
+18
+cast 'create food'
+0
+3
+psb
+17
+put skin backpack
+0
+2
+ds
+10
+drink skin
+0
+3
+gsb
+17
+get skin backpack
+0
+2
+em
+8
+eat meat
+0
+3
+gmb
+17
+get meat backpack
+0
+3
+gac
+14
+get all corpse
+0

@@ -1,0 +1,11 @@
+cw cast 'magic missile' worker
+td tell diamond
+mm cast 'magic missile' $1
+c cast 'magic missile'
+tk tell kalin
+gac get all corpse
+tn tell nightwolf
+tv tell valium
+cast 'magic missile' zombie
+cl c 'cure light'
+tl tell lahn

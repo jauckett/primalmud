@@ -1,0 +1,5 @@
+0 g gold cor
+1 cast 'cure light'
+cc cast 'chill touch' $1
+9 l i cor
+` cast 'armor'

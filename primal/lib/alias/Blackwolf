@@ -1,0 +1,50 @@
+gsan cast 'group sanctuary'
+stone cast 'stoneskin'
+cha cast 'charm person' $1
+dh cast 'divine heal'
+hf cast 'advanced heal' firin
+invis cast 'invisibility' blackwolf
+loc cast 'locate' $1
+he open force;get heal force;close force;quaff heal
+has cast 'haste'
+h cast 'advanced heal' blackwolf
+dp cast 'divine protection'
+ha cast 'holy aid'
+water cast 'create water' canteen;drink canteen
+rc cast 'remove curse' $1
+inf cast 'infravision' blackwolf
+bless cast 'bless' blackwolf
+ck o clones kill $1
+clo cast 'clone'
+id cast 'identify' $1
+sheal open force;put all.heal force;close force
+bwhite buy 10 white;open force;put all.white force;close force
+healf open force;get heal force;get heal force;get heal force;get heal force;get heal force;give all.heal firin;close force
+drag cast 'dragon' blackwolf
+bpotions open force;buy 20 white;put all.white force;buy 20 red;put all.red force;close force
+cure cast 'cure critic' blackwolf
+ga get all corpse
+th train hit;train hit;train hit;train hit
+xforce open force;examine force;close force
+bheal open force;buy 20 heal;put all.heal force;close force
+curef cast 'cure critic' firin;cast 'cure critic' firin
+now giv wh fi;gi wh fi;gi wh fi;gi wh fi
+qw open force;get white force;quaff white;close force
+rec cast 'word of recall' blackwolf
+sum cast 'summon' $1
+dinv cast 'detect invisibility' blackwolf
+sanc cast 'sanctuary' blackwolf
+armor cast 'armor' blackwolf
+food cast 'create food'; eat mushroom
+ref cast 'refresh'
+start wear all
+waterbreathe cast 'waterbreathe'
+tohaven e
+par cast 'paralyze' $1
+fshield cast 'fire shield'
+nohas cast 'nohassle'
+garm cast 'group armor'
+gh cast 'group heal'
+kk clones assist blackwolf
+fw cast 'fire wall'
+tele cast 'teleport'

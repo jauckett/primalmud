@@ -1,0 +1,64 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.01.26.15.41.24;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Added the object files which didn't import.
+@
+text
+@#15000
+board chaos~
+the chaos guild bulletin board~
+the chaos bulletin board floats here.~
+~
+13 0 0
+0 0 0 0
+0 0 1
+E
+board~
+if you can read this, whe board ain't working
+~
+L 0
+#15001
+board balance~
+the balance guild bulletin board~
+The bulletin board for the guild of Balance floats here.~
+~
+13 0 0
+0 0 0 0
+0 0 1
+E
+board~
+if you can read this, whe board ain't working
+~
+L 0
+#15002
+board order~
+the bulletin board for the Circle of Order~
+The circle of order bulletin board floats here~
+~
+13 0 0
+0 0 0 0
+0 0 1
+E
+board~
+if you can read this, whe board ain't working
+~
+L 0
+#99999
+$~
+@

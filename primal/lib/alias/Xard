@@ -1,0 +1,33 @@
+cc cast 'cure critic' $*
+cli c 'cure light' $*
+cl c 'cure light' $*
+food cast 'create food'
+car cast 'armor' $*
+die shout DIE SCUM SUCKING PIG!!!
+asp assist poody
+asf assist free
+assn assist nohcin
+mm c 'magic missile' $*
+free t free $*
+noh t nohcin $*
+tr tell ruprect $*
+gac get all all.corpse
+cul c 'cure light'
+asw assist wildone
+{1} {get white backpack;quaff white}
+asr assist rupey
+bex back executioner
+rr recite recall
+td track duwick
+ar assist rupey
+dalign c 'detect align'
+bs backstab $*
+1 quaff red
+2 quaff white
+h cast 'heal' $*
+rs rem sword
+wk wield knife
+rk remo knife
+ws wield sword
+id recite identify $*
+rb read board

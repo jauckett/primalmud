@@ -1,0 +1,6 @@
+mm cast 'magic missile' $1
+a get all corpse
+gr get red carte 
+g get $1 crate
+q quaff $1
+ws wake ;stand

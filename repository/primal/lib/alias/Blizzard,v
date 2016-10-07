@@ -1,0 +1,58 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cb goss --------========>>>> $* <<<<========--------
+gb get $1 backpack
+qall get red backpack; q red; get blue backpack; q blue; get white backpack; q white
+bs rem halberd; wi sword; back $1; rem sword; wi halberd; k $1
+sr get scroll backpack; recite recall
+wt get skin backpack; drink water; put skin backpack
+ap assist pseudomorph
+bad drop bandanna
+blue get blue backpack; q blue
+red get red backpack; q red
+white get white backpack; q white
+pb put all backpack
+gav tell gav $*
+ps tell pseudomorph $*
+em get meat backpack; eat meat
+eb get bread backpack; eat bread
+gac get all corpse
+pack lo in backpack
+ar assist rhcp
+tt track $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

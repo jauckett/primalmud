@@ -1,0 +1,231 @@
+head	1.2;
+access;
+symbols
+	A3_0_59:1.1
+	LATEST:1.1
+	A3_0_1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2004.01.10.12.02.26;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.59;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Artus>
+act.comm.c       : Completely rewrote the auction code.
+act.informative.c: New event type: Fire.
+                   Fixed colour bleed in exits.
+act.item.c       : invalid_level() now only allows remort classes to use eq
+                   earlier if it was usable before they remorted.
+act.movement.c   : Gateways now pass through the standard invalid_level()
+                   check. This should make it possible to restrict entrance
+                   based on class.
+act.offensive.c  : Cleaned up.
+act.other.c      : Hide now applies to spell/skill ability.
+                   Title length limit removed, title restricted level 5.
+act.wizard.c     : "debug sm" will now display the integer value of current
+                   rooms "small_bits"
+                   Added annoying poofin for me.
+                   New event type: Fire.
+boards.c         : Boards now use max level as opposed to level.
+clan.c           : Cleaned up.
+class.c          : Cleaned up.
+comm.c           : Minor changes for remort max levels to exp prompt.
+db.c             : Auctions are now stored in file.
+                   Initial zone resets moved before houses and auctions load.
+db.h             : Auctions are now stored in file.
+dg_mobcmd.c      : Cleaned up.
+dg_objcmd.c      : Cleaned up.
+dg_scripts.c     : Cleaned up.
+dg_wldcmd.c      : Cleaned up.
+fight.c          : Added pcorpse alias to corpses.
+graph.c          : Cleaned up.
+handler.c        : Item counter changed so item count won't be reduced below
+                   zero.
+house.c          : Removed item decrementor.
+interpreter.c    : Command level checks are now done against max level.
+interpreter.h    : Removed old auction SCMD_xxx, Added new auction AUC_xxx
+limits.c         : First remort max exp * 12500, second max exp * 15000
+magic.c          : Cleaned up.
+mail.c           : Added support for mail from auction system.
+mail.h           : Added support for mail from auction system.
+medit.c          : Cleaned up.
+modify.c         : Cleaned up.
+oasis.c          : Added zedit sect # support - Sets the base sect to the
+                   same value in all rooms in zone.
+oasis.h          : Added zedit sect # support.
+objsave.c        : Added Obj_to_file_elem routine.
+reports.cpp      : Replaced 0 with MAIL_FROM_REPORT in store_mail calls.
+shop.c           : Replaced GET_OBJ_LR() check with invalid_level() call.
+spec_procs.c     : Fixed bug where repair wasn't listing costs.
+                   Cleaned up.
+spell_parser.c   : Replaced various damage calcs with calc_dam_amt.
+spells.c         : Added identify_obj_to_char, called by SPELL_IDENTIFY and
+                   auction stat.
+                   Colourised identify output.
+structs.h        : Added EVENT_FIRE macro.
+                   Removed old auction defines.
+                   Added auction structures auc_data, auc_file_elem.
+                   Added auction macros AUC_STAT_COST, AUC_ROOM< AUC_LIMIT.
+                   Added RMSM_BURNED macro to identify burned rooms.
+                   Added small_bits to room structure. Unsaved bitvector.
+tedit.c          : Cleaned up.
+utils.c          : Added calc_dam_amt to separate damage calculations for
+                   skills.
+                   Added init_auctions and write_auction_file for storage
+                   and retrieval of auctions.
+utils.h          : RMSM_FLAGS(room_rnum) - Room's Small Bits.
+                   RMSM_FLAGS(room_rnum, bit) - Check small bits.
+                   LR_FAIL(ch, lvl) - Basic level test.
+                   LR_FAIL_MAX(ch, lvl) - Level test against max level,
+                   unless lvl > LVL_IMMORT.
+                   CAN_LEVEL(ch) macro.
+                   STRTODAM(ch) macro - str_app.todam
+zedit.c          : Added zedit_sect_all().
+@
+text
+@/* ************************************************************************
+*   File: mail.h                                        Part of CircleMUD *
+*  Usage: header file for mail system                                     *
+*                                                                         *
+*  All rights reserved.  See license.doc for complete information.        *
+*                                                                         *
+*  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
+*  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
+************************************************************************ */
+
+/******* MUD MAIL SYSTEM HEADER FILE **********************
+ ***     written by Jeremy Elson (jelson@@circlemud.org) ***
+ *********************************************************/
+
+/* INSTALLATION INSTRUCTIONS in MAIL.C */
+
+/* You can modify the following constants to fit your own MUD.  */
+
+/* minimum level a player must be to send mail	*/
+#define MIN_MAIL_LEVEL 2
+
+/* # of gold coins required to send mail	*/
+#define STAMP_PRICE 150
+
+/* Maximum size of mail in bytes (arbitrary)	*/
+#define MAX_MAIL_SIZE 4096
+
+/* size of mail file allocation blocks		*/
+#define BLOCK_SIZE 100
+
+/* Special Mail From Defines */
+#define MAIL_FROM_REPORT	0
+#define MAIL_FROM_AUCTION	-1
+#define MAX_MAIL_FROM		-1
+
+/*
+ * NOTE:  Make sure that your block size is big enough -- if not,
+ * HEADER_BLOCK_DATASIZE will end up negative.  This is a bad thing.
+ * Check the define below to make sure it is >0 when choosing values
+ * for NAME_SIZE and BLOCK_SIZE.  100 is a nice round number for
+ * BLOCK_SIZE and is the default ... why bother trying to change it
+ * anyway?
+ *
+ * The mail system will always allocate disk space in chunks of size
+ * BLOCK_SIZE.
+ */
+
+/* USER CHANGABLE DEFINES ABOVE **
+***************************************************************************
+**   DON'T TOUCH DEFINES BELOW  */
+
+int	scan_file(void);
+int	has_mail(long recipient);
+void	store_mail(long to, long from, char *message_pointer);
+char	*read_delete(long recipient);
+
+
+#define HEADER_BLOCK  -1
+#define LAST_BLOCK    -2
+#define DELETED_BLOCK -3
+
+/*
+ * note: next_block is part of header_blk in a data block; we can't combine
+ * them here because we have to be able to differentiate a data block from a
+ * header block when booting mail system.
+ */
+
+struct header_data_type {
+   long	next_block;		/* if header block, link to next block	*/
+   long from;			/* idnum of the mail's sender		*/
+   long to;			/* idnum of mail's recipient		*/
+   time_t mail_time;		/* when was the letter mailed?		*/
+};
+
+/* size of the data part of a header block */
+#define HEADER_BLOCK_DATASIZE \
+	(BLOCK_SIZE - sizeof(long) - sizeof(struct header_data_type) - sizeof(char))
+
+/* size of the data part of a data block */
+#define DATA_BLOCK_DATASIZE (BLOCK_SIZE - sizeof(long) - sizeof(char))
+
+/* note that an extra space is allowed in all string fields for the
+   terminating null character.  */
+
+struct header_block_type_d {
+   long	block_type;		/* is this a header or data block?	*/
+   struct header_data_type header_data;	/* other header data		*/
+   char	txt[HEADER_BLOCK_DATASIZE+1]; /* actual text plus 1 for null	*/
+};
+
+struct data_block_type_d {
+   long	block_type;		/* -1 if header block, -2 if last data block
+      				   in mail, otherwise a link to the next */
+   char	txt[DATA_BLOCK_DATASIZE+1]; /* actual text plus 1 for null	*/
+};
+
+typedef struct header_block_type_d header_block_type;
+typedef struct data_block_type_d data_block_type;
+
+struct position_list_type_d {
+   long	position;
+   struct position_list_type_d *next;
+};
+
+typedef struct position_list_type_d position_list_type;
+
+struct mail_index_type_d {
+   long recipient;			/* who is this mail for?	*/
+   position_list_type *list_start;	/* list of mail positions	*/
+   struct mail_index_type_d *next;	/* link to next one		*/
+};
+
+typedef struct mail_index_type_d mail_index_type;
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d31 5
+@
+

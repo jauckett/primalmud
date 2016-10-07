@@ -1,0 +1,156 @@
+#8700
+crocodile croc~
+the crocodile~
+A huge crocodile is swimming here in the water
+~
+The crocodile is about 15 feet long and is smiling at you with
+huge sharp teeth. He looks extremely vicious and hungry as he grins back 
+at you in an evil manner while he thinks of dinner
+~
+96 263232 -1000 S
+33 -2 -5 2d5+1600 4d7+25
+91400 210000
+8 8 1
+#8701
+druid priest cleric~
+the Druid~
+A druid of the Drielend Forest stands here chanting quietly.
+~
+The druid is dressed in a simple dark green robe. A cowl covers
+the priest's face, he is deep in thought as he chants prayers to
+his diety.
+~
+65 128 800 S
+35 -7 -8 2d5+1900 4d8+40
+99600 780000
+8 8 1
+#8702
+eye deep~
+the Eye of the Deep~
+An Eye of the Deep is floating on the water
+~
+The Eye has floated up from the depths of the lake to search for victims.
+Its one large eye stares coldly at you from just beneath the water's surface.
+It is a hideous creature that, when it looks at you , sends your blood cold.
+~
+97 1096 0 S
+40 -5 -5 2d5+2700 5d8+28
+53925 490000
+8 8 0
+#8703
+harpy~
+the harpy~
+A harpy is here flying over your head.
+~
+The harpy has the face of an ugly hag and has a pair of tough leathery
+wings. She has razor sharp talons that she uses to shred her victims to 
+pieces before she devours them. 
+~
+100 1024 0 S
+27 -5 -7 2d20+650 4d5+10
+75613 109000
+8 8 2
+#8704
+unicorn~
+the unicorn~
+A unicorn is here looking innocently at you.
+~
+This mystical shy creature is perfectly white and has a large ivory horn.
+It is an incredibly beautiful beast that is nearing extinction.
+~
+26626 33792 1000 S
+45 -15 -10 4d5+3300 4d8+50
+99100 510000
+8 8 1
+#8705
+chimera~
+the chimera~
+A chimera is here glaring at you.
+~
+The chimera has three heads. The head of a lion, a goat and a dragon. It has
+huge leathery wings and sharp lion claws. This is an incredibly hideous 
+and vicious creature that attacks all those who try to pass by.
+~
+2083 1152 -1000 S
+50 -10 -10 4d5+3900 4d9+60
+99800 720000
+8 8 0
+#8706
+toad frog giant~
+the giant toad~
+A giant toad is here croaking loudly.
+~
+The toad is as big as a cow and could swallow you with one gulp. It
+is one of the most replulsive creatures you have ever seen and its 
+skin oozes foul smelling poisonous slime.
+~
+97 1090 0 S
+30 -2 -2 4d1+400 4d8+18
+43775 120000
+8 8 0
+#8707
+wolf astral~
+the astral wolf~
+An astral wolf is here fading in and out of the planes.
+~
+The astral wolf is a very strange creature indeed, it is a mirror of its
+distant prime material cousins but resides on the astral plane.
+~
+97 33930 -700 S
+35 -5 -7 4d1+980 4d9+25
+74900 210000
+8 8 1
+#8708
+centaur horse~
+the centaur~
+A centaur is here regarding you with friendly eyes.
+~
+The centaur is a man with the body of a horse. It has an intelligent look
+on its face and a magnificent body. Although legend tells of this half 
+man half beast being an incredible warrior he will not attack without
+just cause.
+~
+8256 128 800 S
+45 -10 -10 4d1+3200 4d10+58
+92300 350000
+8 8 1
+#8709
+monster lake ness~
+the Lake Ness Moster~
+The Lake Ness Monster is here peering curiously at you.
+~
+The monster is covered in weeds from the dark depths of the lake. Its 
+skin is a slimey green with algae growing all over. It seems unaccustomed
+to the light.
+~
+64 32832 0 S
+50 -20 -10 4d1+4780 4d12+65
+109700 720000
+8 8 1
+#8710
+wolf~
+the wolf~
+A wolf is here, snarling at you.
+~
+The wolf is a fine specimen and has a lovely fur coat and colourings.
+It has incredibly large, sharp teeth that it uses to rip the meat and flesh
+off it's victims after it has killed them. 
+~
+96 1056 -900 S
+29 -2 -5 4d4+700 4d8+8
+53575 100000
+8 8 1
+#8711
+fungi fungus~
+the fungi~
+Some strange fungi are growing here.
+~
+The fungi is brightly coloured, probably to warn off animals, and 
+although it looks relatively harmless it has a deadly defense mechanism.
+~
+3 33800 0 S
+35 -2 -2 4d5+900 2d8+50
+65400 111000
+8 8 0
+#99999
+$~

@@ -1,0 +1,61 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@prim primal scream
+fing cast 'finger' $1
+ident cast 'ident' $1
+infra cast 'infra'
+yay grat >&r>&b>&m>&y>&g>&r>> &w&f$1 &r<<&g<&y<&m<&b<&r<&g<
+blind cast 'blind' $1
+heal cast 'advanced heal'
+dipgood cast 'dispel good'
+dragon cast 'dragon
+fb cast 'fireball' $1
+corpse get all corpse
+cure cast 'cure c
+color cast 'color' at
+word cast 'word
+call cast 'call ligh' $1
+ref cast 'refresh'
+ear cast 'earth'
+plas cast 'plasma' $1
+tele cast 'tele'
+t tag $1
+inv cast 'inv
+spir cast 'spirit
+dim cast 'dimension gate" $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

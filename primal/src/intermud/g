@@ -1,0 +1,5 @@
+cp /home/ftp/incoming/intermud.tar .
+tar -xvf intermud.tar
+rm intermud
+make
+rm /home/ftp/incoming/intermud.tar

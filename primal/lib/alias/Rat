@@ -1,0 +1,56 @@
+qc quaff chalice
+de cast 'dispel evil'
+dg cast 'dispel good'
+cs cast 'curse'
+gafc get all.coins from corpse
+rc tell gamina summon
+r cast 'word of recall'
+gafb GET ALL FROM BAG
+b10 buy #10
+bt b traveller
+sc get scroll from bag
+ss put scroll in bag
+li cast 'lightning'
+cc cast 'cure critic'
+a get ammo from bag
+aa put ammo in bag
+rr reload
+sib put scroll in backpack
+kv kill vulture
+th train hit
+kw kill worg
+wa wear all
+ma cast 'armor'
+cl cast 'cure light'
+mm cast 'magic missile'
+dfs drink from skin
+fsff fill skin from fountain
+da donate atlas
+tg tell gamina
+ct cast 'chill touch'
+iv cast infra'
+cf cast 'reate food'
+b3 buy #3
+b5 buy #5
+ptib put tonic in backpack
+inv cast 'invisibility'
+qt quaff tonic
+psib put scroll in backpack
+ga get all
+gt get tonic from backpack
+kl kill lady
+qv quaff vial
+kg kick guard
+ks kick soldier
+dr cast 'dragon'
+km kick mayor
+kp kick priest
+kj kick john
+kt kick traveller
+kb kick buffalo
+bg b guard
+kn kick nobleman
+blind cast 'blind'
+bb get all from bag
+get all.coins from corpse
+gafcc get all from corpse

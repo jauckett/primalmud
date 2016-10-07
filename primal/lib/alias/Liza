@@ -1,0 +1,9 @@
+k backstab  wh
+ga get all corpse
+mm close door
+m open door
+kk alias k backstab $*
+wa wake;stand
+0 get all corpse
+ca cast 'armor'
+jj kill rat

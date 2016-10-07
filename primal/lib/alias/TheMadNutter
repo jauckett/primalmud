@@ -1,0 +1,22 @@
+gate kill gateguard
+trav kill traveller
+me kill merchant
+home take recall crate;recite recall
+recall buy 5 recall;put all.recall crate
+white buy 10 white;put all.white crate
+red buy 10 red;put all.red crate
+tra cast 'shocking' traveller;
+bread take bread bag;eat bread;take bread bag;eat bread
+3 cast 'shocking'
+boar kill boar
+1 get all corpse
+meat take meat bag;take meat bag;eat meat;eat meat
+9 buy 10 meat;put all.meat bag
+heal tell robohelp heal
+trick kill trickster
+guard cast 'shocking' guard
+m cast 'shocking' merchant
+beg kill beggar
+2 cast 'lightning'
+6 take white backpack;q white
+5 take red backpack;q red

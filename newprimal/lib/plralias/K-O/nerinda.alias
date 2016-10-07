@@ -1,0 +1,100 @@
+3
+lib
+12
+look in back
+0
+1
+0
+14
+get all corpse
+0
+1
+j
+8
+bodyslam
+0
+6
+cdiget
+24
+yellow back;quaff yellow
+1
+2
+by
+33
+buy 10 yellow;put all.yellow back
+1
+2
+bw
+65
+buy 10 protection;open force;put all.protection force;close force
+1
+2
+qw
+30
+get white backpack;quaff white
+1
+2
+br
+51
+buy 10 heal;open force;put all.heal force;clo force
+1
+6
+gowest
+30
+n;n;w;w;w;s;go stage;e;e;e;e;u
+1
+2
+rr
+29
+get recall back;recite recall
+1
+2
+qr
+48
+open force;get heal force;quaff heal;close force
+1
+3
+grb
+63
+get all.healing back;open force;put all.tonic force;close force
+1
+2
+kk
+31
+backstab $*;alias k backstab $*
+1
+1
+k
+11
+backstab  g
+0
+2
+dr
+11
+dark ritual
+0
+2
+rp
+18
+say refresh please
+0
+3
+cdi
+28
+get yellow back;quaff yellow
+1
+2
+sp
+17
+say spells please
+0
+2
+hp
+15
+say heal please
+0
+2
+sn
+9
+sneak;aff
+1

@@ -1,0 +1,2482 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#11001
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest.The
+trees rise up high above you, blocking any sunlight that might come
+from above. You see drops of dew on the leaves of ancient ferns, it seems
+time has stopped here.
+The trail continues westward.
+~
+110 65 3
+D3
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11002
+S
+#11002
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest.The
+trees rise up high above you, blocking any sunlight that might come
+from above. The air is moist and warm, you find it hard to keep breathing.
+The trail continues further south and east.
+~
+110 65 3
+D1
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11001
+D2
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11003
+S
+#11003
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest. The 
+vegetaion here is slightly less dense, you can see a faint beam of light
+fighting through the enormous mass of leaves and branches above you.
+The trail goes further into the forest to the west, and north.
+~
+110 65 3
+D0
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11002
+D3
+~
+~
+0 -1 11004
+S
+#11004
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest. The ground
+here is rocky and it is hard to walk, when you look down you notice you are 
+walking on piles of knuckles vertabrae, and other assorted bones.
+The path goes south from here, and then turns into the thick undergrowth.
+~
+110 65 3
+D1
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11003
+D2
+~
+~
+0 -1 11005
+S
+#11005
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest. The scenery
+stops bothering you, it's almost completely identical to the part of the
+forest you just walked through. The trees here are just as huge, it would take
+about twenty people to put their hands around just one.
+The trail runs west and north from here.
+~
+110 65 3
+D0
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11004
+D3
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11006
+S
+#11006
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest. In the thick
+undergrowth you can see some eyes staring at you, without blinking, this might
+prove to be a very dangerous  place to take a hike.
+The trail keeps running east and west.
+~
+110 65 3
+D1
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11005
+D3
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11007
+S
+#11007
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest. Swarming
+isects are in the air all around. You squint but it doesn't help. The ground
+underfoot is wet muddy and smelly. The air here is stale, it must have been here
+from hundreds of years.
+The path continues north and east.
+ 
+~
+110 65 3
+D0
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11008
+D1
+~
+~
+0 -1 11006
+S
+#11008
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest. Far in the
+distance you see a shimmering light. At first it blinds you, as you have been
+in the dark for so long. Now you feel dead, as you walk towards the light.
+The trail goes further west and south.
+~
+110 65 3
+D2
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11007
+D3
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11009
+S
+#11009
+Forest Trail~
+ You are walking along a very narrow trail through the rainforest. You see a 
+large clearing in front of you, and in the middle of it a large body of water.
+You start feeling thirsty, as you look upon the majestic lake.
+The path goes back to civilizatioin to the east, or you can go west, to the 
+clearing.
+~
+110 65 3
+D1
+The forest is too dense in that direction to see anything.
+~
+~
+0 -1 11008
+D3
+You see the some light reflecting from a body of water in that direction,
+~
+~
+0 -1 11010
+S
+#11010
+Clearing~
+ You step into the clearing and squint, to protect you eyes from the powerful
+light of the sun. The effects are made even worse by the lake just west from 
+here. In the distance you hear screaching and stomping noises.
+There is a lake to the west, a path to the east, and more of the clearing to the
+north and south.
+~
+110 64 3
+D0
+You see lush green grass.
+~
+~
+0 -1 11038
+D1
+A small path leading into the forest.
+~
+~
+0 -1 11009
+D2
+You see lush green grass.
+~
+~
+0 -1 11011
+D3
+You see a large but muddy lake.
+~
+~
+0 -1 11064
+S
+#11011
+Clearing~
+The grass underneath is green and lucious. It looks good enouigh to eat, ...and
+thick enough to conceal the largest of snakes, like the one you suspect is
+slithering in the distance south.
+There is a lake to the west, and more of the clearing to the north and south.
+~
+110 64 2
+D0
+~
+~
+0 -1 11010
+D2
+You see lush green grass.
+~
+~
+0 -1 11012
+D3
+There is a large lake in that direction.
+~
+~
+0 -1 11064
+S
+#11012
+Clearing~
+ The grass squeaks under your feet as you walk across the field. It would be
+great to rest here for a while, if there were no huge pythons and anacondas that
+is. You'll just have to keep walking.
+There is some dense undergrowth to the south, and the clearing continues to the
+east.
+~
+110 65 3
+D0
+~
+~
+0 -1 11011
+D2
+~
+~
+0 -1 11018
+D3
+~
+~
+0 -1 11013
+S
+#11013
+Beside the Lake~
+You stand beside the lake, breathing the stale air, coming from the stale 
+water. The water doesn't look drinkable. It's clear, but the corpses of large
+floating lizards floating in it indicate that consuming it is not very healthy.
+The lake is to the north, there is a clearing to the south, east and west.
+~
+110 64 2
+D0
+~
+~
+0 -1 11064
+D1
+~
+~
+0 -1 11012
+D2
+~
+~
+0 -1 11017
+D3
+~
+~
+0 -1 11014
+S
+#11014
+Beside the Lake~
+You stand beside the lake, breathing the stale air, coming from the stale 
+water. The water doesn't look drinkable. Some strange animals are drinking
+it though. They are green and their skin is warty..... Maybe the water is 
+radioactive.
+The lake is to the north, there is a clearing to the east and west, and some 
+light undergrowth to the south.
+~
+110 64 2
+D0
+~
+~
+0 -1 11064
+D1
+~
+~
+0 -1 11013
+D2
+~
+~
+0 -1 11015
+S
+#11015
+In the Light Undergrowth~
+ There are lots of bushes here, almost all of them are completely covered with
+needles and throns. The pain is immense, but you take it like a real man,
+without a single grimace or yelp of pain.
+There is more undergrowth to the east and south, and a clearing to the north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11014
+D1
+~
+~
+0 -1 11017
+D2
+~
+~
+0 -1 11016
+S
+#11016
+In the Light Undergrowth~
+ This part of the forest is overrun by prickly vines, they seem to be slowly 
+moving towards you. The other grasses and eating into your legs with every 
+move you  make. The pain is almost unbearable.
+The only way out of here is to the north, into more prickly undergrowth.
+~
+110 64 2
+D0
+~
+~
+0 -1 11015
+S
+#11017
+In the Light Undergrowth~
+ The grass below seems to grip your feet, making it very hard to move forward.
+There are moaning noises coming from the east. Maybe you don't want to go there.
+The undergrowth in the east is even thicker than it is here, you don't know
+whether or not you will be able to get through it in one piece.
+To the east is some dense undergrowth, to the west is some light undergrowth, 
+and there is a clearing to the north from here.
+~
+110 64 2
+D0
+~
+~
+0 -1 11013
+D1
+~
+~
+0 -1 11018
+D3
+~
+~
+0 -1 11015
+S
+#11018
+Dense Undergrowth~
+ As you walk you find more and more pieces of corpses scattered around the 
+ground. There are assorted body parts, from kidneys and livers to hearts fingers
+and brains, ...you would think you are in China, but this is all free for the 
+taking.
+There is more undergrowth to the west, east and north.
+~
+110 68 2
+D0
+~
+~
+0 -1 11012
+D1
+~
+~
+0 -1 11019
+D3
+~
+~
+0 -1 11017
+S
+#11019
+Dense Undergrowth~
+ All the bushes and shrubs here are covered with dried blood. You feel like you
+are in a horror movie. You knees begin to shake as you look around and see a body
+strung up from the branch of a 30 metre high tree.
+There is more undergrowth to your east and west.
+~
+110 64 2
+D1
+~
+~
+0 -1 11020
+D3
+~
+~
+0 -1 11018
+S
+#11020
+Dense Undergrowth~
+ Little lizard slip from just below  your feet as you walk. You tread carefully,
+remembering that the job of scraping them off the soles of your boots will be
+yours. Some of the lizards look quite dangerous.
+There is more undergrowth to the west, east and south.
+~
+110 64 2
+D1
+~
+~
+0 -1 11021
+D2
+~
+~
+0 -1 11024
+D3
+~
+~
+0 -1 11019
+S
+#11021
+Dense Undergrowth~
+ This part of the rainforest is very picturesque. There is a huge fiery-orange
+flower, blooming in the centre of a black-leaved shrub. Spectacular! The aroma
+however is no where as good as the looks. It smells something like a cross 
+between manure, three week old cheese and stale air.
+There is more undergrowth to the west and south, and a bare patch to the east.
+~
+110 64 2
+D1
+~
+~
+0 -1 11022
+D2
+~
+~
+0 -1 11025
+D3
+~
+~
+0 -1 11020
+S
+#11022
+Bare Patch~
+ There is a little square area here, where the ground is rock hard, black, and
+has no vegetation. It seems there was a huge fire here a short while ago.
+But why then not the rest of the forest?!?!
+There is more undergrowth to the west, east and south.
+~
+110 64 2
+D1
+~
+~
+0 -1 11023
+D2
+~
+~
+0 -1 11026
+D3
+~
+~
+0 -1 11021
+S
+#11023
+Dense Undergrowth~
+ Surrounded by the vines and bushes you see an opening to a large tunnel. On
+closer examination you realise that it is not a tunnel, but the hollow trunk 
+of a humungous tree. How very curious you are of what lies inside!
+There is more undergrowth to the south, west, and hollow tree to the east.
+~
+110 64 2
+D1
+~
+~
+0 -1 11030
+D2
+~
+~
+0 -1 11027
+D3
+~
+~
+0 -1 11022
+S
+#11024
+Dense Undergrowth~
+ You are among very prickly bushes. You wonder how animals live here, you are
+sure that they do, by the smell, and squishy sounds coming from below. You 
+would definitely not like to live here!
+There is more undergrowth to the east and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11020
+D1
+~
+~
+0 -1 11025
+S
+#11025
+Dense Undergrowth~
+ A large tree has fallen over here, leaving a small, temporary breach in the
+cover of branches and leaves above. The small yet powerful ray of light shines
+down on your head, you feel like an angel. ...then you remember you don't have
+your sunscreen on! Better get moving!
+There is more undergrowth to the west, east, south and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11021
+D1
+~
+~
+0 -1 11026
+D2
+~
+~
+0 -1 11031
+D3
+~
+~
+0 -1 11024
+S
+#11026
+Dense Undergrowth~
+ This part of the forest is particularly dark, you can't make up any detail.
+You see light coming from the north, south east and west.
+~
+110 65 2
+D0
+~
+~
+0 -1 11022
+D1
+~
+~
+0 -1 11027
+D2
+~
+~
+0 -1 11032
+D3
+~
+~
+0 -1 11025
+S
+#11027
+Dense Undergrowth~
+ There is a small tree growing here. It is very short but so wide that you can't
+put your arms around it. It only goes up to your knee. You think you can 
+remember trees like this being called stumps.
+There is more undergrowth to the west, east south, and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11023
+D1
+~
+~
+0 -1 11028
+D2
+~
+~
+0 -1 11033
+D3
+~
+~
+0 -1 11026
+S
+#11028
+Dense Undergrowth~
+ Here, you can really appreciate nature, you hear the birds softly singing their
+songs, and the little ants, scuttling about, doing their ant things. Not for 
+long! You have always liked stepping on ants! ..and generally picking on smaller 
+people.
+
+*!SQUISH!*
+
+There is more undergrowth to the west, east and south. A huge tree trunk blocks
+your view to the north.
+~
+110 64 2
+D1
+~
+~
+0 -1 11029
+D2
+~
+~
+0 -1 11034
+D3
+~
+~
+0 -1 11027
+S
+#11029
+Dense Undergrowth~
+ You hear a roaring noise coming from somewhere around here, you wonder what 
+could be making it. You have no clue. You were never good in zoology class
+at MUD school. Maybe you should better go and investigate?
+There is more undergrowth to the west and south.
+~
+110 64 2
+D2
+~
+~
+0 -1 11035
+D3
+~
+~
+0 -1 11028
+S
+#11030
+Inside the Hollow Tree~
+ As soon as you step inside, you realise that you are not alone in here. You
+see a pair of glowing eyes looking your way,.... R U N!!!
+
+The only exit is to the west. You would be wise to use it.
+~
+110 65 2
+D3
+~
+~
+0 -1 11023
+S
+#11031
+Dense Undergrowth~
+ You are getting pretty bored of this forest, and if it's so boring to look at,
+just imagine how boring it must have been for god to create it! .. if you 
+believe in god that is. Otherwise it's alright.
+There is more undergrowth to the east and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11025
+D1
+~
+~
+0 -1 11032
+S
+#11032
+Dense Undergrowth~
+ You begin to wonder if this part of the forest is any different to the other
+parts... doesn't look like it. The trees, just like ants, all look the same.
+You wish you listened more attentively in your botany classes.
+There is more undergrowth to the west, east south and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11026
+D1
+~
+~
+0 -1 11033
+D2
+~
+~
+0 -1 11036
+D3
+~
+~
+0 -1 11031
+S
+#11033
+Dense Undergrowth~
+ There is a small puddle on the ground here, it is filled with blood, you check
+yourself all over, just to make sure that it's not yours. Then you look up, above
+the puddle and notice a large green lizard greedily devouring an unidentifyable
+mammal.
+There is more undergrowth to the west, east, north and south.
+~
+110 64 2
+D0
+~
+~
+0 -1 11027
+D1
+~
+~
+0 -1 11034
+D2
+~
+~
+0 -1 11037
+D3
+~
+~
+0 -1 11032
+S
+#11034
+Dense Undergrowth~
+
+Someone says, 'hello'
+
+You think you heard a voice. But you couldn't have, it must be the echo of your
+own voice coming back to you, after going around the world six times.
+There is more undergrowth to the west, east and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11028
+D1
+~
+~
+0 -1 11035
+D3
+~
+~
+0 -1 11033
+S
+#11035
+Dense Undergrowth~
+ You begin to wonder whether or not this rainforest will ever end. You remember
+that sometime in your childhood you were not in this forest. It must have an 
+end somewhere! You want to get out of here.
+There is more undergrowth to the west and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11029
+D3
+~
+~
+0 -1 11034
+S
+#11036
+Dense Undergrowth~
+ Going up from here you see a cliff, there is no way forward. Inside the rocks
+of the cliff you see veins of gold and some other strange metal. It glows with a
+faint, yet visible yellow light.
+There is more undergrowth to the east and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11032
+D1
+~
+~
+0 -1 11037
+S
+#11037
+Dense Undergrowth~
+ Going up from here you see a cliff, there is no way forward. Inside the rocks
+of the cliff you see veins of gold and some other strange metal. It glows with a
+faint, yet visible yellow light.
+There is more undergrowth to the west and north.
+~
+110 64 2
+D0
+~
+~
+0 -1 11033
+D3
+~
+~
+0 -1 11036
+S
+#11038
+Dense Undergrowth~
+ The grass here is so green and beautiful, that you feel quite guilty standing on
+it. You wish you could get off it, but how? You could go north or south, but 
+the areas there are also covered in grass. The only way out of your situation is 
+to go west, into the stale water of the lake.
+
+~
+110 64 2
+D0
+~
+~
+0 -1 11039
+D2
+~
+~
+0 -1 11010
+D3
+There is a large lake in that direction.
+~
+~
+0 -1 11064
+S
+#11039
+Clearing~
+ As you take your last step an undescribeable sight opens up to you.
+You can't describe it.
+There is a lake to the west, and more of the clearing to the
+north and south.
+~
+110 64 3
+D0
+~
+~
+0 -1 11040
+D2
+~
+~
+0 -1 11038
+D3
+~
+~
+0 -1 11064
+S
+#11040
+Clearing~
+ There are creatures everywhere here. To you they look like dinosaurs,
+their size suggests your hypothesis is perfectly correct. They come in all 
+different shapes and sizes, none however are smaller than you.
+There is more of the clearing to the east west and south.
+~
+110 64 3
+D1
+~
+~
+0 -1 11041
+D2
+~
+~
+0 -1 11039
+D3
+~
+~
+0 -1 11042
+S
+#11041
+Clearing~
+ There is a huge monster here. It's eating leaves off the tops of the huge oak
+and palm trees. You think you already witnessed a similar scene. Perhaps it was
+in a movie, or maybe it's just Deja Vu....
+There is more of the clearing to the west.
+~
+110 64 3
+D3
+~
+~
+0 -1 11040
+S
+#11042
+Clearing, Beside the Lake~
+ This is a clearing in the forest, it is beside a lake, which has a small beach,
+covered with light, quartz sand. The water is slowly rolling up to the sand, and 
+disappearing, perhaps never to be seen again.
+There is more of the clearing to the east and west and the lake is to the south.
+~
+110 64 3
+D0
+~
+~
+0 -1 11045
+D1
+~
+~
+0 -1 11040
+D2
+~
+~
+0 -1 11064
+D3
+~
+~
+0 -1 11043
+S
+#11043
+Muddy Clearing~
+ The ground here is verry muddy. You see bits of rotting wood floating in the
+swampy surrounds. There are some body parts scattered around here. They don't
+look like they have been here for a very long time, the blood is still fresh.
+There is water to the south, and a clearing to the north and east.
+~
+110 64 3
+D0
+~
+~
+0 -1 11044
+D1
+~
+~
+0 -1 11042
+D2
+~
+~
+0 -1 11064
+S
+#11044
+Clearing, Beside the Lake~
+ This looks like the perfect place to sunbathe or have a picnic. You are amazed
+at the tranquility you feel here. You could stay here forever, if it were not 
+for the constrant fear of dinosaurs.
+There is a dense rainforest to the north and clearings to the south and east.
+~
+110 64 3
+D0
+~
+~
+0 -1 11047
+D1
+~
+~
+0 -1 11045
+D2
+~
+~
+0 -1 11043
+S
+#11045
+Clearing, Beside the Lake~
+ The dominant feature here is the small hut set in the middle of the field. It
+is build out of small straws, stuck together by what looks to be some sort of 
+animal's saliva. Euuuu!
+There is more of the clearing to the west and south.
+~
+110 64 3
+D2
+~
+~
+0 -1 11042
+D3
+~
+~
+0 -1 11044
+S
+#11046
+Dense Rainforest~
+ You hear a very loud, low trumpeting noise as you walk. The source must be a 
+huge beast. Although you are interested exactly what is making that noise,
+somehow, sub-conciously you know you really don't want to come close enough to
+see it.
+There is a clearing south of here, and the dense forest continues to the west.
+~
+110 68 3
+D2
+~
+~
+0 -1 11044
+D3
+~
+~
+0 -1 11047
+S
+#11047
+Dense Rainforest~
+ Awesome ancient trees rise up above you, creating an illusion of a very safe,
+tranquil environment. But you know there are hideous monsters lurking around 
+every corner, hiding behind every bush.
+The dense forest continues to the west and north.
+~
+110 64 3
+D1
+~
+~
+0 -1 11046
+D3
+~
+~
+0 -1 11048
+S
+#11048
+Dense Rainforest~
+ There is a constant hum here, it seems to be coming from way up in the trees, 
+from swarms of huge incects. They look pretty deadly to you. Your ears are 
+ringing from tis deafening, yet quiet noise.
+There is more rainforest to the north, south, east and west.
+~
+110 64 3
+D0
+~
+~
+0 -1 11063
+D1
+~
+~
+0 -1 11047
+D2
+~
+~
+0 -1 11058
+D3
+~
+~
+0 -1 11049
+S
+#11049
+Dense Rainforest~
+ On the ground here, is a neat square of thin vines, covered by leaves, when you
+look closer you see that it is a trap, probably used by primitive inhabitants of
+the area. Perhaps there's something in it..
+There is more rainforest to the north, south, east and west, and there is a trap
+down from here.
+~
+110 64 3
+D0
+~
+~
+0 -1 11062
+D1
+~
+~
+0 -1 11048
+D2
+~
+~
+0 -1 11057
+D3
+~
+~
+0 -1 11051
+D5
+~
+~
+0 -1 11050
+S
+#11050
+The Trap~
+ As you jump through the leaves covering the hole in the ground you realise that
+you are not alone. There is a large elephant like animal here, it is wounded and
+is bleeding. It looks like it is being use as bait.
+The only exit is up, to the rainforest.
+~
+110 64 3
+D4
+~
+~
+0 -1 11049
+S
+#11051
+Dense Rainforest~
+ The fern plants here are magnifecent. The large green branches seem to be open 
+arms, inviting you in. This inviting trick has worked on water, which is trapped
+in the center of these clever plants.
+There is more rainforest to the north, south, east and west.
+~
+110 64 3
+D0
+~
+~
+0 -1 11061
+D1
+~
+~
+0 -1 11049
+D2
+~
+~
+0 -1 11056
+D3
+~
+~
+0 -1 11052
+S
+#11052
+Dense Rainforest, Near Cliff~
+ The trees here slowly thin out and suddenly disappear, as the ground below them
+plunges vertically down, for hundreds of meters. The cliff is completely bare, 
+suggesting that it was formed very recently, maybe you are standing right near a
+fault line. It could prove to be dangerous.
+There is more rainforest to east, and a plateu slightly below.
+~
+110 64 3
+D1
+~
+~
+0 -1 11051
+D2
+~
+~
+0 -1 11055
+D5
+~
+~
+0 -1 11053
+S
+#11053
+Plateu, Midway Down the Cilff~
+ S       S       S 
+  H     H H     H
+   A   A   A   A
+    K K     K K
+     E       E                               
+                      THE EARTH CRUBLES, AND STARTS TO SHAKE ALONG THE FAULTLINE
+                                       YOU FALL
+ S       S       S
+  H     H H     H                                    
+   A   A   A   A                                    
+    K K     K K                                   
+     E       E                             
+
+
+
+
+The only way out of here seems to be up, if you ever GET up that is.
+ 
+~
+110 70 3
+D2
+~
+~
+0 -1 11054
+D4
+~
+~
+0 -1 11052
+S
+#11054
+Plateu, Midway Down the Cilff~
+ S       S       S 
+  H     H H     H
+   A   A   A   A
+    K K     K K
+     E       E                               
+                      THE EARTH CRUBLES, AND STARTS TO SHAKE ALONG THE FAULTLINE
+                                       YOU FALL
+ S       S       S
+  H     H H     H                                    
+   A   A   A   A                                    
+    K K     K K                                   
+     E       E                             
+
+
+
+
+The only way out of here seems to be up, if you ever GET up that is.
+ 
+~
+110 70 3
+D0
+~
+~
+0 -1 11053
+D4
+~
+~
+0 -1 11055
+S
+#11055
+Dense Rainforest, Near Cliff~
+ The trees here slowly thin out and suddenly disappear, as the ground below them
+plunges vertically down, for hundreds of meters. The cliff is completely bare, 
+suggesting that it was formed very recently, maybe you are standing right near a
+fault line. It could prove to be dangerous.
+The rainforest continues to the east, and there is a small plateu down from here.
+~
+110 64 3
+D0
+~
+~
+0 -1 11052
+D1
+~
+~
+0 -1 11056
+D5
+~
+~
+0 -1 11054
+S
+#11056
+Dense Rainforest~
+ The air here has one of the most pleasant aromas that you have ever been exposed
+to. It smells of pine and freshness. The morning dew, and the midday sun. You can
+imagine  yourself living here, quite happily.
+There is more rainforest to the north, south, east and west.
+~
+110 64 3
+D0
+~
+~
+0 -1 11051
+D1
+~
+~
+0 -1 11057
+D2
+~
+~
+0 -1 11059
+D3
+~
+~
+0 -1 11055
+S
+#11057
+Dense Rainforest~
+ A small creek winds it's way slowly along the narrow path it carved for itself
+out of solid rock. The water sparkles amazingly, as if specks of gold are being
+rushed along by the current.
+There is more rainforest to the north, south, east and west.
+~
+110 64 3
+D0
+~
+~
+0 -1 11049
+D1
+~
+~
+0 -1 11058
+D2
+~
+~
+0 -1 11060
+D3
+~
+~
+0 -1 11056
+S
+#11058
+Dense Rainforest~
+ You smell the aroma of barbequed meat coming from somewhere above, as you look
+up you see that the top of a tree is burning, and with it, so is a small 
+unfortunate creature who found out, in the harshest of ways, that the force of a
+lightining  strike is not one to be reckoned with.
+There is more rainforest to the south, east and west.
+~
+110 64 3
+D0
+~
+~
+0 -1 11048
+D3
+~
+~
+0 -1 11057
+S
+#11059
+Dense Rainforest~
+ The space between trees here is completely filled with prickly vines, they are
+as thich as two of your legs, and  have small, yet sharp spikes , protruding
+from every square inch of their surface.
+There is no way you can get through
+There is more rainforest to the east and north.
+~
+110 64 3
+D0
+~
+~
+0 -1 11056
+D1
+~
+~
+0 -1 11060
+S
+#11060
+Dense Rainforest~
+ Huge powerful vines grow in abundance here. they are as thich as two of your 
+legs, and  have small, yet sharp spikes , protruding from every square inch of
+their surface. There is no way you can get through.
+There is more rainforest to the west and north.
+
+~
+110 64 3
+D0
+~
+~
+0 -1 11057
+D3
+~
+~
+0 -1 11059
+S
+#11061
+Dense Rainforest, On a Trail~
+ There is a well worn trail on the ground here. Almost no vegetation exists in 
+a strip about three metres wide, and the vegetation located a further two metres
+on each side of the path is heavily trampled.
+There is more rainforest to the south, east and west.
+~
+110 64 3
+D0
+~
+~
+0 -1 11082
+D1
+~
+~
+0 -1 11062
+D2
+~
+~
+0 -1 11051
+S
+#11062
+Dense Rainforest, On a Trail~
+ There is a well worn trail on the ground here. Almost no vegetation exists in 
+a strip about three metres wide. It seems that there was a huge movement of 
+animals along this path.
+There is more rainforest to the south, east and west.
+~
+110 64 3
+D1
+~
+~
+0 -1 11063
+D2
+~
+~
+0 -1 11049
+D3
+~
+~
+0 -1 11061
+S
+#11063
+Dense Rainforest, On a Trail~
+ There is a well worn trail on the ground here. It is quite likely that a huge
+stampede has caused this path to appear. You can only hope that another one is 
+not coming soon. You notice a footprint filled with water here. The mirrorlike
+surface is obviously shaking. So are you.
+There is more rainforest to the south, east and west.
+~
+110 64 3
+D2
+~
+~
+0 -1 11048
+D3
+~
+~
+0 -1 11062
+S
+#11064
+In the Murky Water~
+ A current suddenly picks you up and carries you to an unknow place.  
+You are in a pool of murky water.  You can only just make out the shapes of your
+limbs. Although your mind is telling you that it's ridiculous, your sub-
+consiousness is scared of all the beasts that could inhabit this place.
+
+~
+110 68 6
+D0
+~
+~
+0 -1 11065
+D1
+~
+~
+0 -1 11010
+D2
+~
+~
+0 -1 11081
+D3
+~
+~
+0 -1 11068
+S
+#11065
+In the Murky Water~
+ The water is too murky to make anything out.
+
+The is more water to the west and south.
+~
+110 64 6
+D2
+~
+~
+0 -1 11064
+D3
+~
+~
+0 -1 11066
+S
+#11066
+In the Murky Water~
+ The water is too murky to make anything out.
+
+The is more water to the west, east, and south.
+~
+110 64 6
+D1
+~
+~
+0 -1 11065
+D2
+~
+~
+0 -1 11068
+D3
+~
+~
+0 -1 11067
+S
+#11067
+In the Murky Water~
+ The water is too murky to make anything out.
+
+The is more water to the east and south.
+~
+110 64 6
+D1
+~
+~
+0 -1 11066
+D2
+~
+~
+0 -1 11069
+S
+#11068
+In the Murky Water~
+ The water is too murky to make anything out.
+
+The is more water to the north, west, east, and south.
+~
+110 64 6
+D0
+~
+~
+0 -1 11066
+D1
+~
+~
+0 -1 11064
+D2
+~
+~
+0 -1 11080
+D3
+~
+~
+0 -1 11069
+S
+#11069
+In the Murky Water~
+ The water is too murky to make anything out.
+
+The is more water to the north, west, east, south and there is a small opening
+just below you.
+~
+110 64 6
+D0
+~
+~
+0 -1 11067
+D1
+~
+~
+0 -1 11068
+D2
+~
+~
+0 -1 11079
+D3
+~
+~
+0 -1 11077
+D5
+~
+~
+0 -1 11070
+S
+#11070
+In The Small Opening~
+ The water here is crystal clear, you can make out the beautiful cavern walls,
+the pretty pebbles at the bottom. You still remember the danger of the huge
+marine reptiles that could exist here.
+You can go south west or up.
+~
+110 64 6
+D2
+~
+~
+0 -1 11073
+D3
+~
+~
+0 -1 11071
+D4
+~
+~
+0 -1 11069
+S
+#11071
+Deep Underwater~
+ This is part of a huge underwater cave, the erosion of the rocks here is done
+by ice, indicating to your well trained eye that a glacier is responsible for 
+this beautiful creation.
+You can keep swimming south and east.
+~
+110 64 6
+D1
+~
+~
+0 -1 11070
+D2
+~
+~
+0 -1 11072
+D4
+~
+~
+0 -1 11077
+S
+#11072
+Deep Underwater~
+ The pebbles covering the bottom of this lake are still very rough and unpolished,
+as if they have been  very recently thrown out of the depths of the earth. It 
+doesn't look like you could stand on them, they are very sharp.
+You can keep swimming north and east.
+~
+110 64 6
+D0
+~
+~
+0 -1 11071
+D1
+~
+~
+0 -1 11073
+D4
+~
+~
+0 -1 11078
+S
+#11073
+Deep Underwater~
+ The water is clear here, but you see much more disturbed, muddy water ahead, to
+the north. It looks as  there  is movement taking place somewhere in that direction.
+How enticing!
+You can keep swimming north, south and west.
+~
+110 64 6
+D0
+~
+~
+0 -1 11070
+D2
+~
+~
+0 -1 11074
+D3
+~
+~
+0 -1 11072
+D4
+~
+~
+0 -1 11079
+S
+#11074
+Deeper Underwater~
+ The water pressure is building up all around you. Your ears start to ring,
+then, very soon after they burst into pain, it's terrible, like you have never
+experienced before.
+You can keep swimming north, or south, into the muddy water.
+~
+110 64 6
+D0
+~
+~
+0 -1 11073
+D2
+~
+~
+0 -1 11075
+S
+#11075
+Muddy Water~
+ The water here is muddy, stirred up by some movement in the area. As you look 
+up you see that the dirt is falling from a small cliff above you. It is falling
+in large clumps, together with rocks. This is a dangerous place to stand.
+You can swiim north, or climb up the cliff above.
+~
+110 64 6
+D0
+~
+~
+0 -1 11074
+D4
+~
+~
+0 -1 11076
+S
+#11076
+On The Cliff~
+ There is a large beast here. It seems to be imprisoned by the water below. It
+has probably been here for a considerable while and would not mind a feed.
+The only way out is down, into the muddy water.
+~
+110 64 6
+D5
+~
+~
+0 -1 11075
+S
+#11077
+In the Murky Water~
+ Only a single ray of sunshine penetrates the water, illumination one spot on
+the bed of the lake. You can see that the lake bed is covered with clear quartz
+sand.
+The is more water to the east and south.
+~
+110 64 6
+D1
+~
+~
+0 -1 11069
+D2
+~
+~
+0 -1 11078
+S
+#11078
+In the Murky Water~
+ The mud in the water is starting to slowly form a crust on your eyes, you are
+having trouble seeing. It would really be great to get out of this swamp.
+The is more water to the north, and east.
+~
+110 64 6
+D0
+~
+~
+0 -1 11077
+D1
+~
+~
+0 -1 11079
+S
+#11079
+In the Murky Water~
+ There is a large clump of watergrass floating here, obviously detached from
+it's roots. You wonder if it's edible.
+There is more murky, dirty water to the north, east and west.
+~
+110 64 6
+D0
+~
+~
+0 -1 11069
+D1
+~
+~
+0 -1 11080
+D3
+~
+~
+0 -1 11078
+D5
+~
+~
+0 -1 11073
+S
+#11080
+In the Murky Water~
+ Although about fifty kilograms of mud float between you and the object you think
+you can make out a very large fish in the distance, well at least you hope that
+it's a fish.
+The is more water to the north, west and east.
+~
+110 64 6
+D0
+~
+~
+0 -1 11068
+D1
+~
+~
+0 -1 11081
+D3
+~
+~
+0 -1 11079
+S
+#11081
+Shallow Water~
+ The water here is very shallow, you can get your head above the surface if you
+stand up. ...and you would, if there was  no huge lizard waiting there for you.
+You can go west and north.
+~
+110 64 6
+D0
+~
+~
+0 -1 11064
+D3
+~
+~
+0 -1 11080
+S
+#11082
+Dense Rainforest, On a Trail~
+ The trail slowly becomes narrower and steeper. You descend into a deep valley,
+there are great green walls rising up on both sides.
+There is a valley to the west, and the trail continues to run to the east.
+~
+110 64 3
+D1
+~
+~
+0 -1 11083
+D2
+~
+~
+0 -1 11061
+S
+#11083
+Descending Into The Valley~
+ The trail gets much steeper here. You find it hard to keep your footing as you
+descend, down the muddy, boggy path into the valley. The air smells of ancient 
+rott. There must be many decomposing, dismembered bodies around here.
+The trail goes back to the east, and the valey is below.
+~
+110 64 3
+D5
+~
+~
+0 -1 11084
+S
+#11084
+In The Valley~
+ Y
+  O
+   U
+    
+     A
+      R
+       E 
+        
+         S
+          L
+           I
+            D
+             I
+              N
+               G
+Y
+  O
+   U
+    
+     A
+      R
+       E 
+        
+         S
+          L
+           I
+            D
+             I
+              N
+               G
+You slip on the mud, falling down onto the rocky bottom of the valley.
+There is no way back up. You can explore the valley to the west and south.
+~
+110 64 3
+D2
+~
+~
+0 -1 11085
+D3
+~
+~
+0 -1 11091
+S
+#11085
+South Side of the Valley~
+ The valley is very deep, it must have taken a river thousands of years to carve
+it out of the solid rock that surrounds you. You wonder as to where all that 
+water has disappeared since then.
+The valley stretches to the west and north. You can try to scale the steep sides
+of the valley.
+~
+110 64 3
+D0
+~
+~
+0 -1 11084
+D3
+~
+~
+0 -1 11086
+D4
+~
+~
+0 -1 11098
+S
+#11086
+South Side of the Valley~
+ There are little ferns growing out of solid rock here. You wonder how they can
+possibly thirive in conditions like these. You don't see a water source, and not
+a ray of light shines through.
+The valley stretches to the west, east and north. You can try to scale the steep 
+sides of the valley.
+~
+110 64 3
+D0
+~
+~
+0 -1 11091
+D1
+~
+~
+0 -1 11085
+D3
+~
+~
+0 -1 11087
+D4
+~
+~
+0 -1 11097
+S
+#11087
+South-West Side of the Valley~
+ You turn around, thinking you saw a flash of green moving between the bushes. 
+You freeze, in anticipation of an attack. None is forthcoming. Just as you begin
+to question you sanity you see another green creature dart between bushes.
+The valley stretches to the west, east and north. You can try to scale the steep 
+sides of the valley.
+~
+110 64 3
+D0
+~
+~
+0 -1 11090
+D1
+~
+~
+0 -1 11086
+D3
+~
+~
+0 -1 11088
+D4
+~
+~
+0 -1 11099
+S
+#11088
+Southwestern Corner of the Valley~
+ A wall rises up in front of you, blocking passage further south. It is solide
+granite, with veins of different coloured metals passing regularly through it.
+The metals look quite valuable.
+The valley stretches to the east and north. To the west is the mouth of a large
+cave.
+~
+110 64 3
+D0
+~
+~
+0 -1 11089
+D1
+~
+~
+0 -1 11087
+D3
+~
+~
+0 -1 11101
+S
+#11089
+Northwestern Corner of the Valley~
+ There is a large, tree here. It's thick bark is covered in blood and has some 
+sort of carved out message, on closer examination you see that it is not a 
+message, only random claw marks left by some unknown beast.
+The valley stretches to the west, east and south. You can try to scale the steep 
+sides of the valley.
+~
+110 64 3
+D1
+~
+~
+0 -1 11090
+D2
+~
+~
+0 -1 11088
+D3
+~
+~
+0 -1 11100
+D4
+~
+~
+0 -1 11094
+S
+#11090
+North Side of the Valley~
+ Imprisoned in a circle of stones, you see a pile of coals smouldering here. The
+grey smoke slowly rises up, dissolving into nothingness. It seems a ritual 
+sacrifice has been performed here.
+The valley stretches to the west, east and south. You can try to scale the steep 
+sides of the valley.
+~
+110 64 3
+D1
+~
+~
+0 -1 11091
+D2
+~
+~
+0 -1 11087
+D3
+~
+~
+0 -1 11089
+D4
+~
+~
+0 -1 11093
+S
+#11091
+North Side of the Valley~
+ As you slowly walk through the densely vegetated valley you hear the screeches
+of pterodactyls, high up above you. Although you can not see them you have a fair
+idea of their considerables size. You wonder how something that big can stay
+airborne.
+The valley stretches to the west, east and south. You can try to scale the steep 
+sides of the valley.
+~
+110 64 3
+D1
+~
+~
+0 -1 11084
+D2
+~
+~
+0 -1 11086
+D3
+~
+~
+0 -1 11090
+D4
+~
+~
+0 -1 11092
+S
+#11092
+The Valley Wall~
+ As you climb half way up the featureless face of the cliff you realise that your
+only option now is to turn back. There are absolutely no openings to rest your
+foot on, or a plant to grab on to above. 
+The only way out of here is down.
+~
+110 64 3
+D5
+~
+~
+0 -1 11091
+S
+#11093
+The Valley Wall~
+ As you climb half way up the featureless face of the cliff you realise that your
+only option now is to turn Looking down you see that even that is not an easy way
+out. Then you notice a small opening just above you, leading north.
+You can get you feet on solid ground just below, or face more danger to the north.
+~
+110 64 3
+D0
+~
+~
+0 -1 11095
+D5
+~
+~
+0 -1 11090
+S
+#11094
+The Valley Wall~
+ As you climb half way up the featureless face of the cliff you realise that your
+only option now is to turn back. You see a bit of vegetation above, but decide
+that it is too risky to try to reach for it.  
+The only way out of here is down.
+~
+110 64 3
+D5
+~
+~
+0 -1 11089
+S
+#11095
+Small Opening~
+ As you climb into the little hole you realise that inside it is not that small.
+A huge cavern opens up before you. There are many bones on the ground. This place
+seems to be in the proximity of a lair of a large beast.
+To the south is the cliff and further north is a large room.
+~
+110 64 3
+D0
+~
+~
+0 -1 11096
+D2
+~
+~
+0 -1 11093
+S
+#11096
+The Raptor Lair~
+ Floor of the cavern is coloured red, as are some of the walls. You see three 
+sets of large, yellow eyes, staring at you without blinking. You seem to have 
+come across a Raptor lair.
+The only exit is to the south. You have three good reasons to use it.
+~
+110 64 3
+D2
+~
+~
+0 -1 11095
+S
+#11097
+The Southern Valley Wall~
+ Little stones crumble under your feet and fall down. The sound reaches you only 
+after a few seconds. The cliff wall is made of a softer kind of rock here. You 
+think it is limestone.
+The only way out of here is down.
+~
+110 64 3
+D5
+~
+~
+0 -1 11086
+S
+#11098
+The Southern Valley Wall~
+ As you climb halfway up the cliff you realise that there is nothing interesting
+at the top. Not only do you not want to go up, you couldn't even if you wanted
+to. 
+The only way out of here is down.
+~
+110 64 3
+D5
+~
+~
+0 -1 11085
+S
+#11099
+The Southern Valley Wall~
+ You hands and feet are getting really tired. If you don't go down voluntarily
+quite soon you will simply fall down, onto the sharp rocks below. Not even the 
+best doctors could put pieces of your body together after that.
+The only way out of here is down.
+~
+110 64 3
+D5
+~
+~
+0 -1 11087
+S
+#11100
+Mouth Of Cave~
+ A large cave opens up before you. You cannot see far inside as your eyes are 
+yet to adjust to the darkness. To the east you see the valley, the beautiful 
+trees and shrubs carpet the ground.
+The valley is to the east, and there is more of the cave to the south and west.
+~
+110 65 3
+D1
+~
+~
+0 -1 11089
+D2
+~
+~
+0 -1 11101
+D3
+~
+~
+0 -1 11102
+S
+#11101
+Mouth Of Cave~
+ A large cave opens up before you. You cannot see far inside as your eyes are 
+yet to adjust to the darkness. To the east you see the valley, the beautiful 
+trees and shrubs carpet the ground.
+The valley is to the east, and there is more of the cave to the north and west.
+~
+110 65 3
+D0
+~
+~
+0 -1 11100
+D1
+~
+~
+0 -1 11088
+D3
+~
+~
+0 -1 11102
+S
+#11102
+Inside The Cave~
+ The faint light coming from outside throws weird shadow on all the walls of the
+cave. The floor is littered with perculiarly shaped pieces of flint and some bones.
+You see that the ground falls away, leading down, towards the centre of the earth.
+The the mouth of the cave is to the east, and the cave continues below. 
+~
+110 65 3
+D1
+~
+~
+0 -1 11100
+D5
+~
+~
+0 -1 11103
+S
+#11103
+Below Ground~
+ Absolutely no light enters here from outside. There is light here however. It is
+coming from the walls, which seem to be very rich in phosporous. You try not to 
+touch the walls in the fear of spontaneous combustion.
+There is a labyrinth of underground tunnels to the south.
+~
+110 65 3
+D2
+~
+~
+0 -1 11104
+D4
+~
+~
+0 -1 11102
+S
+#11104
+Underground Labyrinth~
+ The roof here is very low and you have to almost crouch to be able to get through.
+You try to look ahead bu you see nothing, the darkness here is complemented by a
+thick, milky mist.
+You can continue south or west.
+~
+110 65 3
+D0
+~
+~
+0 -1 11103
+D2
+~
+~
+0 -1 11106
+D3
+~
+~
+0 -1 11105
+S
+#11105
+Underground Labyrinth~
+ The roof of the labyrinth here is a bit higher, and you are able to stand up 
+and stretch your legs. You still feel uneasy and uncomforatable however. If you
+only knew how to get out of here.
+You can continue south or east.
+~
+110 65 3
+D1
+~
+~
+0 -1 11104
+D2
+~
+~
+0 -1 11107
+D4
+~
+~
+0 -1 11118
+S
+#11106
+Underground Labyrinth~
+ You feel something rough under your feet, but you dare not look, fearing it is
+some sort of vile creature. The air is stale and it is hard to breathe. The smell
+also indicates that there is something alive down here, except for you.
+You can continue looking for the exit south or west.
+~
+110 65 3
+D0
+~
+~
+0 -1 11104
+D3
+~
+~
+0 -1 11107
+S
+#11107
+Underground Labyrinth~
+ You stuble through the caverns, noting no notable signs or particular features
+to help your orinteering. The ground is on a slope up here. 
+You can keep exploring to the east, or try to climb a hill that is just ahead of
+you.
+~
+110 65 3
+D0
+~
+~
+0 -1 11105
+D1
+~
+~
+0 -1 11106
+D4
+~
+~
+0 -1 11108
+S
+#11108
+Small Hill~
+ As you make your way up to the top of this hill you realise that you are standing
+on a huge  pile of bones. You can see above the mist now, but it is of no use,
+all the parts of the labyrinth look the same.
+You can go down, south west or north.
+~
+110 65 3
+D0
+~
+~
+0 -1 11118
+D2
+~
+~
+0 -1 11109
+D3
+~
+~
+0 -1 11115
+D5
+~
+~
+0 -1 11107
+S
+#11109
+Underground Labyrinth~
+ You don't seem to be making any progress towards your goal, whatever that might
+be. You feel as if you are in an infinite loop of caverns and caves.
+There is a hill to the north and more corridors to the south.
+~
+110 65 3
+D0
+~
+~
+0 -1 11108
+D2
+~
+~
+0 -1 11110
+S
+#11110
+Underground Labyrinth~
+ There are still no features that you can remember and use for orienteering.
+Ahead you see a large cavern which is somehow completely fogless. The air there is
+as clear as it would be on a sunny spring day.
+The large cavern is to the west and south.
+~
+110 69 3
+D0
+~
+~
+0 -1 11109
+D2
+~
+~
+0 -1 11113
+D3
+~
+~
+0 -1 11111
+S
+#11111
+Large Cavern~
+ You hear deep roaring sounds coming from somewhere close. It seems something is
+trying to warn you "Beware, Go Back!". If you take the roar as a reason, the 
+warning sounds prety convincing.
+The cavern continues further south, and there is a small corridor full of mist to 
+the east.
+~
+110 65 3
+D1
+~
+~
+0 -1 11110
+D2
+~
+~
+0 -1 11112
+S
+#11112
+Large Cavern~
+ This part of the cavern is perfectly clean. Not a single pebble lies on the ground.
+Someone or something must have taken the time to clean this place up. Tread 
+carefully, you don't want you footprints angering the owner of this fine cave.
+You can go north and east.
+~
+110 65 3
+D0
+~
+~
+0 -1 11111
+D1
+~
+~
+0 -1 11113
+S
+#11113
+Large Cavern~
+ There is a large pile of rocks here. The rocks from all the other parts of the 
+cave have probably been collected here, for some mysterious purpose.
+There are three exits:
+West, east and north.
+~
+110 65 3
+D0
+~
+~
+0 -1 11110
+D1
+~
+~
+0 -1 11114
+D3
+~
+~
+0 -1 11112
+S
+#11114
+Corner of the Large Cavern~
+ This is a small dark corner of the great cave. The smell suggests that it is used
+as a bathroom. The pile of strange dark matter supports that theory.
+Pretty revolting.
+The only way outh is to the west.
+~
+110 65 3
+D3
+~
+~
+0 -1 11113
+S
+#11115
+Underground Labyrinth~
+ The mist here is much thinner than elsewhere in the cave, but you soon realise
+that it is not of great use. The walls are all uniformley black, as if burnt by
+a massive fire.
+There are more passages to the west and norht, a small hill is to the east.
+~
+110 65 3
+D0
+~
+~
+0 -1 11117
+D1
+~
+~
+0 -1 11108
+D3
+~
+~
+0 -1 11116
+S
+#11116
+Dead End of the Underground Labyrinth~
+ "Nope, this is not the way to go." You think to yourself, as your nose touches
+a sharp, hard wall with considerable force.
+The only way out of here is to the east.
+~
+110 65 3
+D1
+~
+~
+0 -1 11115
+S
+#11117
+Underground Labyrinth~
+ You have given up all hope of finding anything here. All you can think of now
+is how to get back home. Sadly, the task of finding a way home is just as hard 
+as finding a way anywhere else.
+You can keep searching in the corridors to the west or south.
+~
+110 65 3
+D1
+~
+~
+0 -1 11118
+D2
+~
+~
+0 -1 11115
+S
+#11118
+Underground Labyrinth, Small Cave~
+ Claustophobia starts to set in as you walk into this cramped little cave. You 
+can hardly move. How you hate this place!
+You can crawl up the hill to the south or through the corridors to the west 
+and north.
+~
+110 65 3
+D0
+~
+~
+0 -1 11119
+D2
+~
+~
+0 -1 11108
+D3
+~
+~
+0 -1 11117
+D5
+~
+~
+0 -1 11105
+S
+#11119
+Underground Labyrinth~
+ The walls of the corridor slowly widen, and quite soon you are walking in a wide
+underground gallery. On either side you see skins of beasts, and far in the north
+you can make out a light source.
+You can go north toward the light or back south, into the small, cramped cave.
+~
+110 65 3
+D0
+~
+~
+0 -1 11120
+D2
+~
+~
+0 -1 11118
+S
+#11120
+Glowing Cave~
+ The walls of this huge cave are covered with phosphorescent material. It's
+probably phosphorous. In the middle of the cave you see a large birdlike creature.
+It has no feathers and a huge toothed beak. It looks dangerous.
+~
+110 65 3
+D2
+~
+~
+0 -1 11119
+S
+#11121
+Entry Area~
+"This is where the dino adventure begins!" a loud announcer says "simply
+enter the simulation arch for an Adventure of a life time!".
+~
+110 0 3
+D0
+~
+~
+0 -1 22054
+S
+$
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

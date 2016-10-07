@@ -1,0 +1,9 @@
+t train hit
+c cast 'magic missile'
+z wear all
+1 cast 'magic missile'
+2 cast 'burning hands'
+3 cast 'chill touch'
+r put ring bag
+h buy me
+4 cast spell 'armor'

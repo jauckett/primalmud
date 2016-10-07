@@ -1,0 +1,709 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2003.10.14.05.36.26;	author mud;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.14.05.25.16;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.01.17.04.52.08;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Removed Zones. (Requested By Sandii.)
+@
+text
+@#15000
+Sylvester~
+Sylvester~
+Sylvester splutters "Sufferin' Succotash!"
+~
+                / ,
+            /\  \|/  /\
+            |\\_;=._//|
+             \."   "./
+             //^\ /^\\
+      .'``",/ |0| |0| \,"``'.
+     /   ,  `'\.---./'`  ,   \
+    /`  /`\,."(     )".,/`\  `\
+    /`     ( '.'-.-'.' )     `\
+    /"`     "._  :  _."     `"\
+     `/.'`"=.,_``=``_,.="`'.\`
+               )   (
+Sylvester is determined to feast upon Tweety Pie, and will not brook any
+interference from you. You'd be best to leave him to it- with his ineptitude
+and bad luck, he will damage himself far more than you ever could.
+~
+8124632 814383232 0 E
+89 -73 -13 1d10+8590 20d20+93
+80100 890000
+8 8 1
+E
+#15001
+Bugs Bunny~
+Bugs~
+Bugs Bunny is hoping around here gnawing a carrot saying, "Ehhhh What's Up Doc?"
+~
+                //|       /\
+               // /      //\\
+              // //     // //
+             // //     // //
+            // //     // //
+            || ||    // //
+            || ||   // //
+            || ||  // //
+            || || || ||
+            \\,\|,|\_//
+             \\)\)\\|/
+             )-."" .-(
+            //^\` `/^\\
+           //  |   |  \\  
+         ,/_| 0| _ | 0|_\,
+       /`    `"=.v.="`    `\
+      /`    _."{_,_}"._    `\
+      `/`  ` \  |||  / `  `\`
+       `",_  \\=^ ^=//  _,"`
+           "=,\'-=-'/,="
+               '---'
+Bugs must have taken a wrong turn at Albuquerque again. He's got a good
+supply of carrots, though, and an endless stream of one liners.
+~
+3752088 578846880 -150 E
+89 -73 -16 10d939+500 15d50+90
+80100 850213
+8 8 0
+BareHandAttack: 9
+E
+T 15001
+T 15099
+#15002
+Daffy Duck~
+Daffy Duck~
+Daffy Duck is standing. He splutters, "You're despicable!"
+~
+This little black duck sure seems mad about something. Perhaps it's because
+of those cheesy western-themed clothes he has to wear.
+~
+3698744 805339264 -150 E
+87 -71 -10 10d890+550 20d30+89
+78300 865231
+8 8 1
+E
+T 15002
+#15003
+Porky Pig~
+Porky Pig~
+Porky Pig is here looking around for that stupid dog his
+~
+What a quaint little pig. So neatly dressed too. He seems to be quite well-
+mannered and even tempered, but in this world anything could happen to make
+him suddenly blow a fuse. Did you notice that he isn't wearing any pants?
+~
+719000 59016320 0 E
+85 -69 -12 1d1+6950 6d50+89
+76500 812357
+8 8 1
+BareHandAttack: 6
+E
+#15004
+Elmer Fudd~
+Elmer Fudd~
+Elmer Fudd says "Be vewy vewy quiet. I'm hunting wabbits!"
+~
+He certainly is, with his trusty shotgun. He is rugged up against the cold,
+with his wool hat with ear warmers, his flannel jacket, and his hunting
+boots. But you get the feeling that he won't have a very successful hunt.
+~
+649240 808240256 0 E
+84 -56 -13 1d1+7584 79d10+82
+71033 784659
+8 8 0
+BareHandAttack: 15
+E
+T 15004
+#15005
+Yosemite Sam~
+Yosemite Sam~
+Yosemite Sam roars "Aah HATE that rabbit!"
+~
+This ferocious, red-moustachioed gunslinger has a foul temper. Uh Oh. Looks
+like he has mistaken you for a rabbit. Better run!
+~
+2195354 33588874 0 E
+90 -70 -15 11d871+500 10d80+93
+81000 900000
+8 8 0
+BareHandAttack: 7
+E
+#15006
+Foghorn Leghorn~
+Foghorn Leghorn~
+Foghorn Leghorn utters "Well I say I say I say!"
+~
+ 
+This imposing rooster is master of the farmyard. You better not mess with
+him, he has the ability to utterly pulverise you, even if his amicable
+manner suggests he is a pushover.
+~
+4843674 839124128 -200 E
+89 -70 -16 20d30+500 12d30+93
+80100 890000
+8 8 0
+BareHandAttack: 5
+E
+#15007
+Pepe LePew~
+Pepe LePew~
+Pepe LePew says "Ah, mon cherie!"
+~
+  _..._ ___
+       .:::::::.  `"-._.-''.
+  ,   /:::::::::\     ':    \                     _._
+  \:-::::::::::::\     :.    |     /|.-'         /:::\
+   \::::::::\:::::|    ':     |   |  /           |:::|
+    `:::::::|:::::\     ':    |   `\ |    __     |\::/\
+      `-:::-|::::::|    ':    |  .`\ .\_.'  `.__/      |
+            |::::::\    ':.   |   \ ';:: /.-._   ,    /
+            |:::::::|    :.   /   ,`\;:: \'./0)  |_.-/
+            ;:::::::|    ':  |    \.`;::.   ``   |  |
+             \::::::/    :'  /     _\::::'      /  /
+              \::::|   :'   /    ,=:;::/           |
+               \:::|   :'  |    (='` //        /   |
+                \::\   `:  /     '--' |       /\   |
+                 \:::.  `:_|.-"""-.    \__.-'/::\  |
+                  '::::.:::...:::. '.       /:::|  |
+                   '::/::::::::::::. '-.__.:::::|  |
+Pepe LePew is an amorous Parisian skunk with exceedingly poor eyesight. He
+seems to think you are a skunk, and is attempting to seduce you.
+~
+782490 839647360 0 E
+85 -69 -12 9d900+650 10d80+89
+3 850000
+8 8 0
+BareHandAttack: 3
+E
+#15008
+Granny~
+Granny~
+Granny asks if you have seen her darling Tweety Pie.
+~
+This elderly pensioner's only joy in life is her darling bird, and if it were
+to be taken from her she would be most upset. Upset enough to bash your head
+in with her umbrella.
+~
+8122586 813990048 250 E
+99 -83 -16 1d1+7890 20d20+103
+79200 990000
+8 8 2
+BareHandAttack: 14
+E
+#15009
+Tweety~
+Tweety Pie~
+Tweety Pie asks if you thaw a puddy tat.
+~
+        .-"-.
+       /_ _  \
+       \@@ @@  /
+       (_> _)
+         `)(_
+         /((_`)_,
+         \__(/-"
+        __|||__
+       ((__|__))
+Tweety Pie is a sweet little bird with an adoring owner. However his life
+is constantly threatened by hungry cats such as Sylvester. Actually, that
+isn't true- Sylvester is so incompetent that Tweety has never been in any
+real danger of being eaten.
+
+~
+260218 587366570 -160 E
+92 -75 -16 11d880+500 15d30+96
+82800 920000
+8 8 0
+BareHandAttack: 9
+E
+#15010
+Wile E. Coyote~
+Wile E. Coyote~
+Wile E. Coyote is here hatching up another scheme.
+~
+   ....
+                ,''. :   __
+                    \|_.'  `:       _.----._//_
+                   .'  .'.`'-._   .'  _/ -._ \)-.----O
+                  '._.'.'      '--''-'._   '--..--'-`
+                   .'.'___    /`'---'. / ,-'`
+                 _<__.-._))../ /'----'/.'_____:'.
+          \_    :            \ ]              :  '.
+            \___:             \\              :    '.
+                :              \\__           :    .'
+                :_______________|__]__________:  .'
+                           .' __ '.           :.'
+                         .' .'  '. '.
+                       .' .'      '. '.
+                     .' .'          '. '.
+                  _.' .'______________'. '._
+                 [_0______________________0_]
+Wile E. Coyote spends his entire life thinking up ingenious schemes to catch
+the Road Runner, all of which fail miserably. He'd be better off seeking
+other prey.
+~
+622396 839024812 -420 E
+76 -60 -12 1d1+7605 10d76+80
+55223 760000
+8 8 0
+E
+#15011
+Road Runner~
+Road Runner~
+The Road Runner goes "BEEP BEEP!"
+~
+
+                               /  \      __
+                          _   /   /   _.   \ 
+                         / \ /   /.-     __/
+                         |  |   |/    .-  __
+                         |  |   |   .'--    \
+                         |  |   `  ' _______/
+                         |  `        /
+                         |    `     /
+                          \        /
+                           `\     ( 
+                             > ,-.-.
+                            /  |  \ \
+                           /___| O |O\     ,
+                         /`    `^-.\.-'`--'/
+                        |                 /
+                        `.     `--..____,'
+                          `._     _.-'^
+                              `|`|`
+"Road Runner, that Coyote's after you.
+ Road Runner, if he catches you you're through!"
+Personally I always wished he would.
+~
+4978842 806126722 450 E
+87 -67 -16 11d700+950 10d80+89
+78300 870000
+8 8 0
+E
+#15012
+Chickenhawk~
+Chickenhawk~
+Chickenhawk asks if you are a chicken?.
+~
+Chickenhawk is looking for a chicken to eat. And he seems to think that you
+fit the bill.
+~
+3930136 8388736 0 E
+90 -74 -14 13d741+368 17d30+94
+0 900000
+8 8 0
+E
+#15013
+baby roo~
+a baby roo~
+A baby roo kicks you in the chest.
+~
+                               ,cb$$$$$$$$$$$$$$$$$$$c,
+                            ,r="3$$$$$$$?$$?$$$$$$$$$$$$c           ,,cccc
+                           ,$,d$$$$$$$$$c ?c`?$$$$$$$$$$$$$ ,,ccc$$P"',nn,"
+                          ,$$$$$$$$$$$$$$$,$h`$$$$$$$$$$$$$$$$$$",nMMMMMMMn
+                          $$$??$$$$$$??$$$$$$$$$$$$$$$$$$$$$$$",nMMMMMMMMMM
+                          ?$'nn`$$$F,nn ?$$$$$$$$$$$$$$$$$$$P'nMMMMMMMMMMM'
+                          `F.MM,?$$ MMML`$$$$$$$$$$$$$$$$$$$.MMMMMMMMMMMMM
+                           $:P  J$F<M"  ,$$$$$$$$$$$$$$$$$$$.".,nMMMMMMMP'
+                           $_`_ ""F `   J$$$$$$$$$$$$$$$$$$F.MndMMMMMMMP'
+                         ,'    ``"=,,,c$$$$$$$$$$$$$$$$$$$$$.TMMMMMMMMf'
+                        ;$,       ,$$$$$$$$$$$$$$$$$$$$$$F "?bc,,""""'
+                        ?$C`3cccc$$$xc `???$$$$$$$$$$$""
+                          ""=."?$$$P",d$$ccc$$$$$$$$$F
+                              "?ccccd$$$$$$$$$$$$$P""
+very cute. Aw look, he wants to play.
+~
+8126248 906507436 0 E
+97 -54 -12 12d890+555 15d30+79
+2333 970000
+8 8 1
+E
+#15014
+Sylvester's son~
+Sylvester's son~
+Sylvester's son says "Oh, the shame of it all!"
+~
+
+                    .::::'`
+                  : :::::'
+                .::::::.::::::::::
+           ..:::::``::::::::
+     ,cC'':::::: .:::::::::::::
+     "?$$$$P'::::::::::::::::::::
+        '':::::::::::::::::::::::
+         .::::::::::: d$c`:`,c:::
+         `::::::::::: $$$$, $$ :
+        ,,,,```:::::: F "$'  ?::  ..:::::::::::..
+      ,d$$$$$$$$$$c,` '  ?::   , :::::::::::::::::
+    d$$$$$$$$$$$$$$$$$$$c$F,d$$F::::::::::::::::::
+  d$$$$$$$$$$$F?$$$$$$$$$.$$$$$ ::::::::::::::::::.
+,$$????$$$$$$$$$hccc-$$$$$$$$$$,::::::::::::::::',$
+'    4$$$$$$$$$$$$$$,"?$$$$$$$$$c`:::::::::::'',$"
+     $$$"".$$$$$$$$$$$L`$$$$$$$$$$$bccc,ccc$$$$"
+     "      ::: `?$$$$$$,??$$$$$$$$$$P"????"
+             :::: `$$$$$$
+           
+Sylvester's son is most disheartened by the fact that the roo in the next
+room has beaten the tar out of his father.
+~
+7991384 813727912 230 E
+79 -59 -13 30d127+500 10d50+83
+71100 790000
+8 8 0
+E
+#15015
+Spike~
+Spike the bulldog~
+Spike the bulldog growls at you
+~
+Spike is a loyal and loving dog to his master, Granny. He will kill anyone else
+~
+8122232 856196270 302 E
+90 -74 -17 12d500+1000 9d100+94
+81000 900000
+8 8 1
+BareHandAttack: 4
+E
+#15016
+Speedy Gonzales~
+Speedy Gonzales~
+Speedy is here shouting Andere Andere Areeeeeeeba Areeeeeeeba Andere
+~
+This mischievious little mouse is the hero of his village, with super speed he has eraticated all of the cats from the village
+~
+8122520 268730496 3 E
+85 -69 -15 11d750+650 10d50+89
+76500 850000
+8 8 1
+BareHandAttack: 9
+E
+#15017
+A Cat~
+a Cat~
+A cat that resembles a skunk begs you to be quiet.
+~
+This unfortunate cat has a white stripe painted on her back, and now Pepe
+thinks her to be a fellow skunk. She implored you not to to give away her
+hiding place.
+~
+8120568 856458378 0 E
+94 -78 -17 11d950+0 10d94+98
+50023 940000
+8 8 2
+BareHandAttack: 8
+E
+#15018
+El Toro~
+El Toro~
+El Toro lowers his head and charges!
+~
+This savage bull will tear you apart!
+~
+8126458 847282316 0 E
+98 -79 -18 10d1000+1000 20d20+100
+88200 980000
+8 8 1
+BareHandAttack: 11
+E
+#15019
+Marvin Martian~
+Marvin the Martian~
+Marvin the Martian exclaims- Exactness is useless, you will be approximated!
+~
+Marvin is from Mars. He is wearing what looks like a Roman centurion's
+helmet which obscures his face save for his huge white eyes. He seems to
+favor green accoutrements.
+~
+3403770 864986302 0 E
+95 -74 -15 1d1+11050 15d35+94
+84123 950000
+8 8 1
+BareHandAttack: 30
+E
+#15020
+Genie~
+an angry Genie~
+An angry genie shouts "Infidels!"
+~
+This Geinie certainly appears to be angry..He is glaring at you
+~
+8122618 805339302 -390 E
+96 -80 -19 11d934+990 13d25+100
+86400 960000
+8 8 1
+BareHandAttack: 10
+E
+#15021
+Elvis Chickenhawk~
+Elvis The Chickenhawk~
+Elvis the chickenhawk asks you if you want some black-eyed peas.
+~
+Elvis is a chickenhawk from the deep south. The DEEP south judging by his
+atrocious good ol' boy accent.
+~
+3930152 864026792 0 E
+79 -55 -10 1d1+8105 15d20+80
+71100 790000
+8 8 1
+BareHandAttack: 11
+E
+#15022
+Pappy Chickenhawk~
+Pappy Chickenhawk~
+Pappy the chickenhawk asks you if you want some black-eyed peas.
+~
+Pappy is a chickenhawk also from the deep south. The DEEP south judging by his
+atrocious good ol' boy accent which is worse than Elvis'
+~
+7600216 277643434 0 E
+98 -73 -15 12d918+650 15d35+98
+0 890000
+8 8 1
+BareHandAttack: 13
+E
+#15023
+Sam~
+Sam the Beagle~
+Sam the beagle is here plotting revenge against Foghorn Leghorn.
+~
+Sam eyes you craftily and asks if you want to help him out a little. He is
+determined to get back at Foghorn Leghorn.
+~
+11794520 8421504 0 E
+95 -69 -17 1d1+9870 15d20+95
+85500 950000
+8 8 1
+BareHandAttack: 4
+E
+#15024
+Henrietta the hen~
+Henrietta hen~
+Henrietta the hen is her clucking contentedly.
+~
+Henrietta is the prospective prey of the chickenhawks, and is thus under the
+protective custody of Sam the beagle.
+~
+8124570 571212960 600 E
+98 -82 -17 12d874+1000 17d25+102
+88200 980000
+8 8 2
+BareHandAttack: 5
+E
+#15025
+The matador~
+the Matador~
+The matador is here preparing to fight El Toro
+~
+The matador is a tough and very clean looking person 
+~
+3930360 922779818 0 E
+93 -77 -18 10d953+1000 20d15+97
+73915 930000
+8 8 1
+E
+#15026
+A spectator of the bull fight~
+a spectator of the bull fight~
+There is a small man here cheering
+~
+This man seems very happy at the sight of El Toro being slain by the matador
+~
+1722376 25166848 0 E
+79 -58 -12 8d1000+106 15d26+83
+50231 560231
+8 8 0
+E
+$
+@
+
+
+1.3
+log
+@Artus> Checking In.
+@
+text
+@@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d23 2
+a24 2
+89 -78 -13 10d1000+689 20d20+99
+103256 1898584
+d88 1
+a88 1
+85 -69 -12 10d915+500 6d50+89
+d103 1
+a103 1
+84 -56 -13 10d888+113 79d10+82
+d135 1
+a135 1
+111001 890000
+d180 1
+a180 1
+99 -83 -16 20d900+2000 20d20+107
+d238 1
+a238 1
+76 -60 -12 20d760+1000 10d76+82
+d272 1
+a272 1
+230145 870000
+d343 1
+a343 1
+79 -59 -15 30d127+500 10d50+83
+d383 1
+a383 1
+94 -79 -17 11d950+0 10d94+98
+d397 1
+a397 1
+123654 980000
+d411 1
+a411 1
+95 -74 -15 12d1000+654 15d35+94
+d438 2
+a439 2
+79 -55 -10 15d1000+412 15d20+80
+207071 790000
+d466 2
+a467 2
+95 -69 -17 12d919+759 15d20+95
+202023 950000
+d480 2
+a481 2
+98 -85 -17 12d874+1000 17d25+107
+88200 985000
+d493 1
+a493 1
+93 -79 -18 10d953+1000 20d15+97
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d2 24
+a25 10
+mob unfinished~
+the unfinished mob~
+An unfinished mob stands here.
+~
+It looks unfinished.
+~
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+100000000 0
+8 8 0
+d32 3
+a34 3
+              /|         ,
+               ,///        /|
+              // //     ,///
+d36 1
+a36 1
+            // //     || ||
+d58 2
+a59 2
+80100 1698584
+5 8 0
+d62 2
+d74 1
+a74 1
+78300 1551155
+d77 1
+d89 1
+a89 1
+76500 1452737
+d102 3
+a104 3
+649240 808240257 0 E
+79 -56 -13 11d810+350 79d10+82
+71033 1148118
+d108 1
+d118 2
+a119 2
+90 -70 -15 11d900+500 10d80+93
+103000 1729458
+d133 3
+a135 3
+4843674 839124000 -200 E
+89 -70 -16 20d30+500 12d127+93
+111001 1698584
+d164 3
+a166 3
+782491 839647360 0 E
+85 -69 -12 10d1000+650 10d80+89
+3 1452737
+d170 15
+d190 9
+d203 1
+d206 2
+a207 2
+92 -75 -16 15d990+700 15d70+96
+105052 1888188
+d237 1
+a237 1
+622396 839024812 -120 E
+d239 1
+a239 1
+55223 1013407
+d270 3
+a272 3
+4978843 806126722 450 E
+87 -67 -16 25d850+950 10d80+89
+230145 1551155
+d283 3
+a285 3
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+d293 14
+a306 1
+This aggressive little beast has come all the way from Australia. It is
+d310 2
+a311 2
+76 -54 -12 13d1000+555 15d30+79
+2333 1013407
+d319 20
+d342 165
+a506 3
+8 0 0 E
+0 20 10 1d1+0 1d1+0
+0 0
+@
+

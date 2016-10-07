@@ -1,0 +1,24 @@
+citi track citizen
+mer k merchant
+orange get orange backpack ; eat orange
+guard k guard
+gcc get all corpse
+da cast 'detect alignment'
+di cast 'detect invisibility'
+enter s;s;s;s;wear all;wield long; hold staff
+qr quaff red
+arm cast 'armor'
+bb cast 'burning hands'
+ccl cast 'cure light' $1
+kw k warrior ; kick ; kick
+tv tell valium $*
+water get skin backpack ; drink skin ; put skin backpack
+meat get meat backpack ; eat meat
+cl cast 'cure light'
+mm cast 'magic missile'
+kt k trickster
+gc get all all.corpse
+ak assist kopje
+bs rem oak;wield dagger;backstab $1;rem dagger;wield oak
+hot get hotdog backpack;eat hotdog
+kmer k merchant

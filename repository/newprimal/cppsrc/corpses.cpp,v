@@ -1,0 +1,1012 @@
+head	1.8;
+access;
+symbols
+	A3_0_59:1.2
+	LATEST:1.2
+	A3_0_1:1.2;
+locks; strict;
+comment	@// @;
+
+
+1.8
+date	2004.05.18.00.00.31;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.05.06.02.23.30;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.11.12.11.00.13;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.14.07.24.16;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.08.11.14.12.13;	author artus;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.06.09.03.38.54;	author artus;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.01.20.23.37.48;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.12.17.12.53.24;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Artus> Now adding pcorpse alias on corpse copyall.
+@
+text
+@// Corpses - DM (should include proper header :)
+
+#include <list>
+#include <string.h>
+#include <fstream>
+#include <iostream>
+#include <stdlib.h>
+#include "conf.h"
+#include "sysdep.h"
+
+#include "structs.h"
+#include "utils.h"
+#include "db.h"
+#include "handler.h"
+#include "corpses.h"
+
+extern struct index_data *obj_index;	/* index table for object file	 */
+extern room_rnum r_mortal_start_room;
+extern void Crash_restore_weight(struct obj_data * obj);
+
+ofstream outCorpseFile;
+ifstream inCorpseFile;
+
+/**
+ * Constructs a CorpseData object deserializing the data store in file.
+ * Ok, its not deserializing - we just read from the file and deposit the
+ * corpses in the vnums of the room in which they were in
+ */
+CorpseData::CorpseData() {
+  // DM: TODO - deserialize
+  // Must set memoryAddress for each Corpse when this object is initialised (at
+  // boot up) otherwise we'll be duping corpses when modifying them.
+  // - Think this TODO is done ...
+} 
+  
+
+/**
+ * Loads the corpses from file into corpseData object.
+ *
+ * Returns the number of corpses loaded.
+ */
+int CorpseData::load() {
+  class Corpse currCorpse;
+  int numLoaded = 0;
+
+  inCorpseFile.open(CORPSE_FILENAME, std::ios::in);
+
+  if (!inCorpseFile) {
+    basic_mud_log("SYSERR: could not open corpse file %s.", CORPSE_FILENAME);
+    return (0);
+  }
+
+  // Here we only read for new corpses, once we have the corpse identifier (C),
+  // we create a Corpse object and at it to our list. In the construction of
+  // the Corpse object, the file is passed further for objects, and returns
+  // back to this loop with the inCorpseFile stream position at either 
+  // ios::eof or 'C'
+  //
+  // eg. passing "C <pid> <roomvnum> <gold>" 
+
+  while (!inCorpseFile.eof()) {
+    switch (inCorpseFile.peek()) {
+      case 'C':
+        inCorpseFile.ignore(2);
+
+        currCorpse = Corpse();
+        currCorpse.read();
+        corpses.push_back(currCorpse);
+	numLoaded++;
+        break;
+
+      default:
+        return (numLoaded);
+    }
+  }
+  inCorpseFile.close();
+  extractOriginalCorpses(TRUE);
+
+  return (numLoaded);
+}
+
+//
+void CorpseData::extractOriginalCorpses(int retainIDs) {
+  std::list<Corpse>::iterator liter; // Iterator for looping over list elements
+  struct obj_data *corpse;
+
+  for (liter = corpses.begin(); liter != corpses.end(); liter++) {
+    corpse = liter->toObj();
+
+    // setMemoryAddress should be set TRUE when initially loading the corpses
+    // at boot time.
+    liter->setMemory((int)corpse);
+    
+    // When a char modifies a corpse (removes an object from it), if the idnum
+    // is set (obj val 2), the addCorpse function is called, hence retainIDs
+    // should be set TRUE when only modifying the original corpse 
+    // (otherwise multiple corpses will be added to the CorpseData object)
+    if (!retainIDs) {
+      GET_OBJ_VAL(corpse, 2) = 0; 
+    }
+
+    if (liter->getVRoom() != NOWHERE) {
+      obj_to_room(corpse, real_room(liter->getVRoom()));
+    } else {
+      obj_to_room(corpse, r_mortal_start_room);
+    }
+  }
+}
+
+void CorpseData::extractCorpses(room_vnum loadTo, int retainIDs) {
+  std::list<Corpse>::iterator liter; // Iterator for looping over list elements
+  struct obj_data *corpse;
+
+  room_rnum to_room = real_room(loadTo);
+
+  if (to_room == -1)
+    return;
+  
+  for (liter = corpses.begin(); liter != corpses.end(); liter++)
+  {
+    corpse = liter->toObj();
+    // When a char modifies a corpse (removes an object from it), if the idnum
+    // is set (obj val 2), the addCorpse function is called, hence retainIDs
+    // should be set TRUE when only modifying the original corpse 
+    // (otherwise multiple corpses will be added to the CorpseData object)
+    if (!retainIDs)
+      GET_OBJ_VAL(corpse, 2) = 0; 
+    obj_to_room(corpse, to_room); 
+  }
+}
+
+/**
+ * Adds a corpse to the corpse list. If an item for the corpse already exists
+ * it is removed before adding the corpse information. 
+ *
+ * If the corpse does not exist in the existing corpse list, then weight
+ * is used to set the base corpse weight, otherwise the base weight is 
+ * set via the existing corpse.
+ */
+void CorpseData::addCorpse(struct obj_data *corpse, room_vnum inVRoom, 
+                          int weight) {
+  int corpseWeight;
+
+  std::list<Corpse>::iterator liter; // Iterator for looping over list elements
+
+  for (liter = corpses.begin(); liter != corpses.end(); liter++) {
+    if (liter->memoryEqual(corpse)) {
+      // Get the base corpse weight from the existing corpse
+      corpseWeight = liter->getWeight(); 
+      corpses.erase(liter);
+      corpses.push_back(
+          Corpse(corpse, inVRoom, GET_CORPSEID(corpse), corpseWeight));
+      write();
+      return;
+    }
+  }
+  corpses.push_back(Corpse(corpse, inVRoom, GET_CORPSEID(corpse), weight));
+  write();
+}
+
+/**
+ * Removes a corpse from the corpse list if it exists.
+ */
+void CorpseData::removeCorpse(struct obj_data *corpse) {
+
+  std::list<Corpse>::iterator liter; // Iterator for looping over list elements
+
+  for (liter = corpses.begin(); liter != corpses.end(); liter++) {
+    if (liter->memoryEqual(corpse)) {
+      corpses.erase(liter);
+      write();
+      return;
+    }
+  }
+}
+
+/**
+ * Removes all corpses from the list.
+ */
+void CorpseData::removeAllCorpses(void) {
+
+  std::list<Corpse>::iterator liter; // Iterator for looping over list elements
+
+  for (liter = corpses.begin(); liter != corpses.end(); liter++) {
+    //corpses.erase(liter);
+  }
+  write();
+}
+
+/**
+ * Destructor, clean up.
+ */
+CorpseData::~CorpseData() {
+  // cleanup
+}
+
+/**
+ * Serialize function to store the current information encapsulated in this
+ * object to file - ok no simple serialize function, use the write functions.
+ */ 
+void CorpseData::write() {
+
+  // open file for writing
+  outCorpseFile.open(CORPSE_FILENAME, std::ios::out);
+
+  // check it opened
+  if (!outCorpseFile) {
+    basic_mud_log("SYSERR: corpse file: %s could not be opened for writing",
+                CORPSE_FILENAME);
+    return;
+  }
+  
+  std::list<Corpse>::iterator liter;
+
+  for (liter = corpses.begin(); liter != corpses.end(); liter++) {
+    liter->write();
+  }
+  outCorpseFile.close();
+}
+
+
+/**
+ * Write the information to file encapsulated by this object.
+ */
+void Corpse::write() {
+  
+  // Write corpse data needed - vnum of room, player id, gold, obj_flags
+  outCorpseFile << "C " << playerId << " " << in_room << " " << gold << " " << weight << "\n";
+  // Artus> I'm going to try and get g++3.2 compatibility..
+  // outCorpseFile.write((struct obj_flag_data *)&obj_flags, sizeof(obj_flags));
+  outCorpseFile.write(reinterpret_cast <char *>(&obj_flags), sizeof(obj_flags)); 
+  outCorpseFile.flush();
+
+  std::list<Contain>::iterator liter; // Iterator for looping over list elements
+
+  for (liter = contains.begin(); liter != contains.end(); liter++) {
+    liter->write();
+  } 
+  outCorpseFile << "\n";
+}
+
+/**
+ * Constructs a Corpse object with the basic attributes, but does not touch
+ * objects.
+ */
+void Corpse::initialise(long playerId, int inVRoom, int gold, int weight, 
+                           struct obj_flag_data obj_flags) {
+  Corpse::gold = gold;
+  Corpse::playerId = playerId;
+  Corpse::in_room = inVRoom;
+  Corpse::weight = weight;
+
+  Corpse::memoryAddress = 0;
+  if ((get_name_by_id(playerId)) == NULL) {
+    basic_mud_log("SYSERR: initialising Corpse object: pid = %ld", playerId);
+    return;
+  }
+
+  Corpse::name = str_dup("corpse pcorpse");
+  
+  sprintf(buf, "The corpse of %s is lying here.", 
+                get_name_by_id(playerId));
+  Corpse::description = str_dup(buf);
+
+  sprintf(buf, "the corpse of %s", 
+                get_name_by_id(playerId));
+  Corpse::short_description = str_dup(buf);
+
+  // Copy values
+  Corpse::obj_flags.value[0] = obj_flags.value[0]; 
+  Corpse::obj_flags.value[1] = obj_flags.value[1]; 
+  Corpse::obj_flags.value[2] = obj_flags.value[2]; 
+  Corpse::obj_flags.value[3] = obj_flags.value[3]; 
+
+  // Copy obj_flag's ...
+  Corpse::obj_flags.type_flag = obj_flags.type_flag;
+  Corpse::obj_flags.level = obj_flags.level;
+  Corpse::obj_flags.wear_flags = obj_flags.wear_flags;
+  Corpse::obj_flags.extra_flags = obj_flags.extra_flags;
+  Corpse::obj_flags.level_flags = obj_flags.level_flags;
+  Corpse::obj_flags.weight = obj_flags.weight;
+  Corpse::obj_flags.cost = obj_flags.cost;
+  Corpse::obj_flags.cost_per_day = obj_flags.cost_per_day;
+  Corpse::obj_flags.timer = obj_flags.timer;
+  Corpse::obj_flags.bitvector = obj_flags.bitvector;
+
+}
+
+/**
+ *
+ */
+Corpse::Corpse() {
+  Corpse::playerId = 0;
+  Corpse::in_room = 0;
+  Corpse::gold = 0;
+}
+
+void Corpse::read() {
+
+  class Contain currContain;
+  
+  inCorpseFile >> Corpse::playerId >> Corpse::in_room >> Corpse::gold
+               >> Corpse::weight;
+
+  // ignore newline after first line 
+  inCorpseFile.ignore();
+
+  // Artus> g++ 2.3.2 compatibility
+  // inCorpseFile.read((struct obj_flag_data *)&obj_flags, sizeof(obj_flags));
+  inCorpseFile.read(reinterpret_cast <char *>(&obj_flags), sizeof(obj_flags));
+
+  // ignore newline after obj_flags
+  inCorpseFile.ignore();
+
+  initialise(playerId, in_room, gold, weight, obj_flags);
+
+  // Look at next character in file - if its an 'O' we have objects in corpse, 
+  // otherwise we are expecting either a 'C' for a new corpse object, or eof.
+  switch (inCorpseFile.peek()) {
+    case 'O':
+      while (inCorpseFile.peek() == 'O') {
+        currContain = Contain();
+        currContain.read(playerId);
+        contains.push_back(currContain);  
+      }
+      break;
+
+    // "C " or EOF
+    default:
+      break;
+  } 
+}
+
+/**
+ * Constructs a Corpse object copying all the "static" data of the corpse.
+ */
+Corpse::Corpse(struct obj_data *corpse, room_vnum inVRoom, long playerId,
+                        int weight) {
+  struct obj_data *o;
+
+  initialise(playerId, inVRoom, 0, weight, corpse->obj_flags);
+
+  Corpse::memoryAddress = (int)corpse;
+
+  // Store the contents of the corpse (each "obj's" vnum is encapsulated in
+  // a Content object - which also encapsulates the contents of "o")
+  for (o = corpse->contains; o != NULL; o = o->next_content) {
+
+    // check for gold, we dont add a gold "obj"
+    if (GET_OBJ_TYPE(o) == ITEM_MONEY) {
+      gold = GET_OBJ_VAL(o, 0);
+    } else if (GET_OBJ_VNUM(o) != NOTHING) {
+      contains.push_back(Contain(o, playerId));
+    } else {
+      sprintf(buf, "SYSERR: %s containing obj (%s) with no VNUM", 
+		      corpse->short_description, o->name);
+      mudlog(buf, NRM, LVL_GOD, TRUE);
+    }
+  }
+}
+
+/**
+ * Converts this "static" Corpse information into an "obj" and loads it to
+ * the room where it was previously saved. (Basically a copy of the make_corpse
+ * function)
+ */
+struct obj_data *Corpse::toObj()
+{
+  struct obj_data *money = NULL;
+  struct obj_data *corpse = create_obj();
+
+  if (gold > 0)
+    money = create_money(gold); 
+
+  if (corpse == NULL)
+    return NULL;
+  
+  corpse->item_number = NOTHING;
+  corpse->in_room = NOWHERE;
+  corpse->name = str_dup(name);
+  corpse->description = str_dup(description);
+  corpse->short_description = str_dup(short_description);
+
+  // Copy values
+  corpse->obj_flags.value[0] = obj_flags.value[0];  
+  corpse->obj_flags.value[1] = obj_flags.value[1]; 
+  corpse->obj_flags.value[2] = obj_flags.value[2]; 
+  corpse->obj_flags.value[3] = obj_flags.value[3]; 
+
+  // Copy obj_flag's ...
+  corpse->obj_flags.type_flag = obj_flags.type_flag; 
+  corpse->obj_flags.level = obj_flags.level;  
+  corpse->obj_flags.wear_flags = obj_flags.wear_flags;
+  corpse->obj_flags.extra_flags = obj_flags.extra_flags;
+  corpse->obj_flags.level_flags = obj_flags.level_flags;
+  corpse->obj_flags.weight = obj_flags.weight;
+  corpse->obj_flags.cost = obj_flags.cost; 
+  corpse->obj_flags.cost_per_day = obj_flags.cost_per_day;
+  corpse->obj_flags.timer = obj_flags.timer; 
+  corpse->obj_flags.bitvector = obj_flags.bitvector;
+
+  std::list<Contain>::iterator liter; // Iterator for looping over list elements
+
+  for (liter = contains.begin(); liter != contains.end(); liter++)
+  {
+    struct obj_data *obj;
+    try
+    {
+      obj = liter->createObject();
+      obj_to_obj(obj, corpse);
+    } catch (Corpse::NonExistantObject) {
+      sprintf(buf, 
+          "SYSERR: obj vnum %d could not be loaded to corpse of %s", 
+          liter->getVNum(), get_name_by_id(playerId)); 
+      basic_mud_log(buf);
+    }
+  } 
+
+  // Add gold to corpse
+  if (money != NULL)
+    obj_to_obj(money, corpse);
+
+  GET_OBJ_WEIGHT(corpse) = Corpse::weight;
+  Crash_restore_weight(corpse);
+  return corpse;
+}
+
+Contain::Contain() {
+  Contain::itemNumber = 0;
+  Contain::playerId = playerId;
+}
+
+void Contain::read(long playerId) {
+  class Contain nextContain;
+
+  // done - end of container, just return to previous recursive all
+  if (inCorpseFile.peek() == '}') {
+    inCorpseFile.ignore(2);
+    return;
+  }
+
+  Contain::playerId = playerId;
+  
+  // skip over the leading "O "
+  inCorpseFile.ignore(2);
+
+  inCorpseFile >> Contain::itemNumber;
+
+  // ignore space before obj_file_elem data
+  inCorpseFile.ignore();
+
+  // Artus> g++ 2.3.2 compatibility
+  // inCorpseFile.read((struct obj_file_elem *)&save, sizeof(save)); 
+  inCorpseFile.read(reinterpret_cast <char*>(&save), sizeof(save)); 
+
+  // ignore the newline, or leading space for '{"
+  inCorpseFile.ignore();
+
+  switch (inCorpseFile.peek()) {
+
+    // This item is a container
+    case '{':
+      inCorpseFile.ignore(2);
+
+      // Recursive call to add objs to this container
+      while (inCorpseFile.peek() == 'O') {
+        nextContain = Contain();
+        nextContain.read(playerId);
+        contains.push_back(nextContain);  
+      }
+      
+      // ignore "{\n"
+      inCorpseFile.ignore(2);
+      break;
+
+    // This was last item in a container
+    case '}':
+      // our work is done
+      //inCorpseFile.ignore(2);
+      return;
+
+    case 'O':
+      // our work is done we'll drop out of this function and be called from
+      // the Corpse constructor...
+      return;
+
+    default:
+      //basic_mud_log("SYSERR: corpse file expecting \'{\', \'}\' or \'O\' after obj %d",
+      //          Contain::itemNumber);
+      //exit(1);
+      break;
+  } 
+}
+
+/**
+ * Constructs a Contain object initialising the vnum and recursively
+ * adding the "objs" contained within this "obj" to the contains list.
+ */
+Contain::Contain(struct obj_data *obj, long playerId) {
+  struct obj_data *o;
+  int j;
+	
+  Contain::playerId = playerId;
+  Contain::itemNumber = GET_OBJ_VNUM(obj);
+
+  save.value[0] = GET_OBJ_VAL(obj, 0);
+  save.value[1] = GET_OBJ_VAL(obj, 1);
+  save.value[2] = GET_OBJ_VAL(obj, 2);
+  save.value[3] = GET_OBJ_VAL(obj, 3);
+  save.extra_flags = GET_OBJ_EXTRA(obj);
+  save.weight = GET_OBJ_WEIGHT(obj);
+  save.timer = GET_OBJ_TIMER(obj);
+  save.bitvector = obj->obj_flags.bitvector;
+  save.damage = obj->damage;
+  for (j = 0; j < MAX_OBJ_AFFECT; j++)
+    save.affected[j] = obj->affected[j];
+
+  if (GET_OBJ_TYPE(obj) == ITEM_CONTAINER) {
+    // Add all the "objs" that this "obj" containts to the list
+    for (o = obj->contains; o != NULL; o = o->next_content) {
+      Contain::contains.push_back(Contain(o, playerId));
+    }
+  }
+}
+
+/**
+ * Creates and returns a reference to the "obj" corresponding to itemNumber.
+ * Throws NonExistantObject if object could not be created. 
+ */
+struct obj_data *Contain::createObject() {
+  struct obj_data *obj = NULL;
+  int j;
+
+  obj = read_object(itemNumber, VIRTUAL);
+  
+  if (obj != NULL) {
+  
+    // Now copy the saved obj data
+    GET_OBJ_VAL(obj, 0) = save.value[0];
+    GET_OBJ_VAL(obj, 1) = save.value[1];
+    GET_OBJ_VAL(obj, 2) = save.value[2];
+    GET_OBJ_VAL(obj, 3) = save.value[3];
+
+    GET_OBJ_EXTRA(obj) = save.extra_flags;
+    GET_OBJ_WEIGHT(obj) = save.weight;
+    GET_OBJ_TIMER(obj) = save.timer;
+    obj->obj_flags.bitvector = save.bitvector;
+    obj->damage = save.damage;
+    for (j = 0; j < MAX_OBJ_AFFECT; j++)
+      obj->affected[j] = save.affected[j];
+
+    std::list<Contain>::iterator liter; // Iterator for looping over list elements
+
+    // Create the items within this object ...
+    for (liter = contains.begin(); liter != contains.end(); liter++) {
+      struct obj_data *childObj;
+      try {
+        childObj = liter->createObject();
+        obj_to_obj(childObj, obj);
+      } catch (Contain::NonExistantObject) { 
+	sprintf(buf, 
+            "SYSERR: obj vnum %d could not be loaded to object %d", 
+	    liter->getVNum(), itemNumber); 
+	basic_mud_log(buf);
+      }	      
+    }
+    return obj;
+  }
+  throw NonExistantObject();
+}
+
+void Contain::write() {
+  // vnum of obj
+  outCorpseFile << "\nO " << itemNumber << " ";
+
+  // obj save info
+  // Artus> g++ 2.3.2..
+  // outCorpseFile.write((struct obj_file_elem *)&save, sizeof(save)); 
+  outCorpseFile.write(reinterpret_cast <char *>(&save), sizeof(save)); 
+  outCorpseFile.flush();
+
+  std::list<Contain>::iterator liter;
+
+  // check for items inside this item
+  if (contains.begin() == contains.end()) {
+    //outCorpseFile << "\n";
+    return;
+  }
+
+  // recursively output our objs 
+  outCorpseFile << " {";
+  for (liter = contains.begin(); liter != contains.end(); liter++) {
+    liter->write();  
+  }
+  outCorpseFile << " }";
+}
+@
+
+
+1.7
+log
+@Artus> Now warning free :o)
+@
+text
+@d116 1
+a116 1
+  if (to_room == -1) {
+a117 1
+  }
+d119 2
+a120 1
+  for (liter = corpses.begin(); liter != corpses.end(); liter++) {
+d126 1
+a126 1
+    if (!retainIDs) {
+a127 2
+    }
+
+d259 1
+a259 1
+  Corpse::name = str_dup("corpse");
+d367 2
+a368 1
+struct obj_data *Corpse::toObj() {
+d372 1
+a372 1
+  if (gold > 0) {
+a373 1
+  }
+d375 1
+a375 1
+  if (corpse == NULL) {
+a376 1
+  }
+d404 2
+a405 1
+  for (liter = contains.begin(); liter != contains.end(); liter++) {
+d407 2
+a408 1
+    try {
+d420 1
+a420 1
+  if (money != NULL) {
+a421 1
+  }
+@
+
+
+1.6
+log
+@Artus>
+
+Files which have had log() replaced with basic_mud_log():
+
+act.informative.c, act.item.c, act.offensive.c, act.other.c, act.social.c,
+act.wizard.c, alias.c, balance.c, ban.c, boards.c, casino.c, castle.c, clan.c,
+class.c, comm.c, corpses.cpp, db.c, dg_db_scripts.c, dg_olc.c, dg_scripts.c,
+fight.c, genmob.c, genobj.c, genolc.c, genshp.c, genwld.c, genzon.c, graph.c,
+handler.c, house.c, improved-edit.c, interpreter.c, magic.c, mail.c, medit.c,
+mobact.c, modify.c, oasis.c, objsave.c, oedit.c, olc.c, redit.c, reports.cpp,
+shop.c, spec_assign.c, spec_procs.c, spell_parser.c, tedit.c, utils.c,
+utils.h, zedit.c.
+
+
+Files which have been cpp standardised (list.h => list, etc):
+
+comm.c, corpses.cpp, corpses.h, db.c, interpreter.c, modify.c, reports.cpp.
+
+
+Specific changes to reports.cpp, reports.h:
+
+Removed ofstream outReportFile, ofstream outChangeFile, and replaced them with
+FILE *s. Removed no-longer functional c++ random-access file handling and
+replaced it with straight C. Should be right from here on in..
+
+
+Specific changes to act.movement.c:
+
+Replaced log() with mudlog(), when logging players being killed by gravity.
+@
+text
+@a166 1
+  Corpse *temp;
+a249 2
+  struct char_data *ch;
+
+d341 1
+a341 1
+  struct obj_data *o, *obj;
+@
+
+
+1.5
+log
+@Artus>
+Adrenaline : (Potion Quaffing): 6 per fight Round instead of 5.
+             (Flying Tackle)  : 2 fight rounds vs 3.
+Balance    : QEQ no longer gets written to the log file when unbalanced.
+Colour     : &f is no longer flash, &@@ is. Keep it quiet(tm).
+Corpse File: Flush()ing after write().
+Double Kick: Now calls apply_spell_skill_abil()
+Echo       : No longer sends text to mobs calling it.
+Fighting   : Is only possible if STATE = CON_PLAYING
+Glance     : Fixed erroneous dex check.
+OLC        : No longer possible while fighting.
+           : LVL_IMPL+ (150+) can now edit mob levels up to 120.
+Pit Trap   : Now logs deaths.
+             No longer says "theoretically" on creation.
+Report File: Flush()ing after write().
+Spell/Skill: Now allows up to NUM_CLASSES class lines in primal_spskls
+             (Used to only allow up to 10)
+@
+text
+@d3 1
+a3 1
+#include <list.h>
+d5 2
+a6 2
+#include <fstream.h>
+#include <iostream.h>
+d46 1
+a46 1
+  inCorpseFile.open(CORPSE_FILENAME, ios::in);
+d49 1
+a49 1
+    log("SYSERR: could not open corpse file %s.", CORPSE_FILENAME);
+d84 1
+a84 1
+  list<Corpse>::iterator liter; // Iterator for looping over list elements
+d111 1
+a111 1
+  list<Corpse>::iterator liter; // Iterator for looping over list elements
+d146 1
+a146 1
+  list<Corpse>::iterator liter; // Iterator for looping over list elements
+d169 1
+a169 1
+  list<Corpse>::iterator liter; // Iterator for looping over list elements
+d185 1
+a185 1
+  list<Corpse>::iterator liter; // Iterator for looping over list elements
+d207 1
+a207 1
+  outCorpseFile.open(CORPSE_FILENAME, ios::out);
+d211 1
+a211 1
+    log("SYSERR: corpse file: %s could not be opened for writing",
+d216 1
+a216 1
+  list<Corpse>::iterator liter;
+d231 4
+a234 3
+  outCorpseFile << "C " << playerId << " " << in_room << " " << gold 
+                << " " << weight << "\n";
+  outCorpseFile.write((struct obj_flag_data *)&obj_flags, sizeof(obj_flags)); 
+d237 1
+a237 1
+  list<Contain>::iterator liter; // Iterator for looping over list elements
+d260 1
+a260 1
+    log("SYSERR: initialising Corpse object: pid = %ld", playerId);
+d313 3
+a315 1
+  inCorpseFile.read((struct obj_flag_data *)&obj_flags, sizeof(obj_flags)); 
+d408 1
+a408 1
+  list<Contain>::iterator liter; // Iterator for looping over list elements
+d419 1
+a419 1
+      log(buf);
+d457 3
+a459 1
+  inCorpseFile.read((struct obj_file_elem *)&save, sizeof(save)); 
+d493 1
+a493 1
+      //log("SYSERR: corpse file expecting \'{\', \'}\' or \'O\' after obj %d",
+d557 1
+a557 1
+    list<Contain>::iterator liter; // Iterator for looping over list elements
+d569 1
+a569 1
+	log(buf);
+d582 3
+a584 1
+  outCorpseFile.write((struct obj_file_elem *)&save, sizeof(save)); 
+d587 1
+a587 1
+  list<Contain>::iterator liter;
+@
+
+
+1.4
+log
+@Modified: DM
+
+Changed:
+- load to return the number of corpses loaded for syslog purposes
+@
+text
+@d234 1
+d578 1
+@
+
+
+1.3
+log
+@Added: removeAllCorpses
+@
+text
+@d33 1
+d36 7
+a42 1
+void CorpseData::load() {
+d44 1
+d50 1
+a50 1
+    return;
+d69 1
+d73 1
+a73 1
+        return;
+d78 2
+@
+
+
+1.2
+log
+@
+Changed:
+- further evolution
+@
+text
+@d1 2
+d167 13
+@
+
+
+1.1
+log
+@
+Added:
+- Initial corpse data implementation
+
+TODO:
+- load/save deserialize/serialize functions
+@
+text
+@d3 3
+d16 5
+d24 2
+d31 36
+d69 2
+a70 1
+void CorpseData::extractCorpses(int retainIDs) {
+d76 5
+d88 6
+a93 1
+    obj_to_room(corpse, real_room(liter->getVRoom()));
+d116 1
+d124 4
+d129 3
+a131 1
+void CorpseData::addCorpse(struct obj_data *corpse, room_vnum inVRoom) {
+d137 2
+a138 3
+      sprintf(buf, "Corpse of %s modified, re-adding to corpseData...", 
+                      get_name_by_id(GET_CORPSEID(corpse)));
+      log(buf);
+d140 3
+a142 1
+      corpses.push_back(Corpse(corpse, inVRoom, GET_CORPSEID(corpse)));
+d146 2
+a147 4
+  sprintf(buf, "Adding corpse of %s to corpseData...", 
+                  get_name_by_id(GET_CORPSEID(corpse)));
+  log(buf);
+  corpses.push_back(Corpse(corpse, inVRoom, GET_CORPSEID(corpse)));
+d161 1
+d176 1
+a176 1
+ * object to file.
+d179 17
+a195 1
+  // DM: TODO - serialize it ...
+d200 20
+a219 1
+ * Constructs a Corpse object copying all the "static" data of the corpse.
+d221 14
+a234 2
+Corpse::Corpse(struct obj_data *corpse, room_vnum inVRoom, int playerid) {
+  struct obj_data *o, *obj;
+d236 1
+a236 4
+  gold = 0;
+  in_room = inVRoom;
+  playerId = playerid;
+  memoryAddress = (int)corpse;
+d238 7
+a244 4
+  // Copy strings
+  name = str_dup(corpse->name);
+  description = str_dup(corpse->description);
+  short_description = str_dup(corpse->short_description);
+d247 4
+a250 4
+  obj_flags.value[0] = corpse->obj_flags.value[0]; 
+  obj_flags.value[1] = corpse->obj_flags.value[1]; 
+  obj_flags.value[2] = corpse->obj_flags.value[2]; 
+  obj_flags.value[3] = corpse->obj_flags.value[3]; 
+d253 23
+a275 10
+  obj_flags.type_flag = corpse->obj_flags.type_flag;
+  obj_flags.level = corpse->obj_flags.level;
+  obj_flags.wear_flags = corpse->obj_flags.wear_flags;
+  obj_flags.extra_flags = corpse->obj_flags.extra_flags;
+  obj_flags.level_flags = corpse->obj_flags.level_flags;
+  obj_flags.weight = corpse->obj_flags.weight;
+  obj_flags.cost = corpse->obj_flags.cost;
+  obj_flags.cost_per_day = corpse->obj_flags.cost_per_day;
+  obj_flags.timer = corpse->obj_flags.timer;
+  obj_flags.bitvector = corpse->obj_flags.bitvector;
+d277 44
+a320 1
+  // Store the contents of the corspse (each "obj's" vnum is encapsulated in
+a327 2
+      sprintf(buf," adding object (%s) to corpse.", o->name);
+      log(buf);
+d398 2
+d403 65
+d472 1
+a472 1
+Contain::Contain(struct obj_data *obj, int playerid) {
+d474 1
+d476 14
+a489 2
+  playerId = playerid;
+  itemNumber = GET_OBJ_VNUM(obj);
+d494 1
+a494 1
+      contains.push_back(Contain(o, playerId));
+d505 1
+a505 3
+
+  sprintf(buf,"Loading object (%d)", itemNumber);
+  log(buf);
+d511 14
+a529 2
+      sprintf(buf," Item (%d) in object (%d)", liter->getVNum(), itemNumber);
+      log(buf);
+d543 23
+@
+

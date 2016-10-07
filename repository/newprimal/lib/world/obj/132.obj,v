@@ -1,0 +1,866 @@
+head	1.5;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2004.02.09.23.58.08;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.29.07.28.23;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.25.03.35.28;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.42;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Artus> Sync.
+@
+text
+@#13200
+Iron key~
+Iron key~
+You see a well polished Iron key.~
+~
+18 0 16385 0
+5000 0 0 0
+1 100 100000 0
+L 0
+E
+iron key~
+You see a large well polished iron key.~
+#13201
+Canteen~
+Canteen~
+You see a Canteen layed out on the floor.~
+Fine crafted canteen.
+~
+17 0 1 0
+30 30 0 0
+11 70 10 1
+L 1
+E
+canteen~
+A well crafted canteen.
+~
+#13202
+Water Skin~
+Water Skin~
+You see an ordinary Water Skin on the ground.~
+~
+17 0 1 0
+80 80 0 0
+11 50 3 1
+L 1
+#13203
+Saddle Bag~
+Saddle Bag~
+You see a leather Saddle Bag here.~
+~
+15 0 1 0
+100 5 0 0
+5 40 15 0
+L 0
+#13204
+Leather vest~
+Leather vest~
+You see a finely tailored Leather vest.~
+~
+9 0 1025 0
+2 0 0 0
+10 250 30 0
+L 0
+#13205
+black leather hat~
+black leather hat~
+A black leather hat is left lying here.~
+~
+9 0 17 0
+1 0 0 0
+5 100 15 0
+L 0
+#13206
+Shiny leather boots~
+Shiny leather boots~
+A pair of Shiny leather boots are on the floor.~
+~
+9 0 65 0
+2 0 0 0
+5 200 25 0
+L 0
+#13207
+Steel capped boots~
+Steel capped boots~
+A pair of Steel capped boots are on the floor here.~
+~
+9 0 65 0
+3 0 0 0
+8 250 30 0
+L 0
+#13208
+Leather pants~
+Leather pants~
+A pair of Leather pants are left behind carelessly.~
+~
+9 0 33 0
+2 0 0 0
+8 100 10 0
+L 0
+#13209
+Cotton Shirt~
+Cotton Shirt~
+You see a modest Cotton Shirt lying here.~
+~
+9 0 9 0
+1 0 0 0
+4 35 5 0
+L 0
+#13210
+Cloth pants~
+Cloth pants~
+You see a pair of modest Cloth pants lying here.~
+~
+9 0 33 0
+1 0 0 0
+1 15 5 0
+L 0
+#13211
+leather gloves~
+pair of leather gloves~
+You see a pair of leather gloves here.~
+~
+9 0 129 0
+1 0 0 0
+3 15 3 0
+L 0
+#13212
+gun pistol sixshooter~
+a sixshooter~
+A wicked looking sixshooter has been dropped here.~
+~
+5 2 8193 0
+6 2 25 15
+7 1800 350 45
+L 45
+E
+gun pistol sixshooter~
+ 
+           (_/-------------_______________________)
+           `|  /^^^^^^^^^^\                       |
+            |  |--------(-||______________________|
+            |  |--------(-| ____________|
+            |  \__________/'
+          _/__         ___)
+       ,^^    |  __--^^        
+      '      __ ^^| (  |        
+     '      '  `____'        
+    '      '
+   '      `
+  '       `
+ '--------`
+~
+#13213
+box ammo~
+a box of ammo~
+A small box of bullets lies here.~
+~
+5 0 8193 0
+2 1 1 15
+7 1500 3 10
+L 10
+#13214
+Anvil~
+Large anvil~
+You see a large sturdy Anvil.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+#13215
+horse shoe~
+horse shoe~
+A plain looking horse shoe is lying on the ground here.~
+~
+8 256 16385 0
+0 0 0 0
+5 9000 1500 5
+L 5
+A
+2 1
+A
+18 1
+A
+14 -1
+#13216
+gold badge~
+Gold sheriff's badge~
+A gold sheriff's badge has carelessly been left here.~
+~
+8 0 16389 0
+0 0 0 0
+1 18000 5000 10
+L 10
+A
+1 1
+A
+4 -1
+A
+3 -2
+A
+18 2
+A
+13 10
+#13217
+silver badge~
+Silver Deputy Sheriff's badge.~
+A Silver Deputy Sheriff's badge has carelessly been left here.~
+~
+8 0 16389 0
+0 0 0 0
+1 14400 2500 8
+L 8
+A
+1 1
+A
+4 -2
+A
+3 -2
+A
+13 5
+#13218
+Large hammer~
+Large hammer~
+A large hammer has been left lying around on the floor here.~
+~
+5 0 8193 0
+0 1 20 7
+10 1500 150 15
+L 15
+A
+1 1
+A
+19 1
+#13219
+Wooden torch~
+a wooden torch~
+A wooden torch has been left here carelessly.~
+~
+1 0 16385 0
+0 0 10 0
+3 25 5 0
+L 0
+#13220
+holster~
+Gun holster~
+A shiny new gun holster lies here.~
+~
+15 1 2049 0
+20 0 0 0
+8 250 50 0
+L 0
+#13221
+Winchester rifle~
+Winchester rifle~
+A dangerous looking Winchester rifle lies here.~
+~
+5 0 8193 0
+0 3 20 15
+10 1800 400 55
+L 55
+#13222
+water barrel~
+large water filled barrel~
+A large water filled barrel lies here.  The water looks drinkable.~
+~
+23 320 0 0
+999999 999999 0 0
+1000004 1 1 1
+L 1
+#13223
+whip leather~
+Leather whip~
+A leather whip lies curled up on the floor here.~
+~
+5 0 8193 0
+0 1 12 2
+5 150 35 0
+L 0
+#13224
+dagger curved~
+Curved dagger~
+A curved dagger is lying here on the floor drenched in blood.~
+~
+5 0 24577 0
+0 2 3 11
+3 50 10 0
+L 0
+#13225
+bank teller~
+Bank teller~
+A bank teller is here to help you out financially.~
+~
+12 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+balance withdraw deposit~
+You have the following commands at disposal.
+BALANCE
+WITHDRAW
+DEPOSIT
+~
+#13226
+deck cards~
+Deck of cards~
+You see a marked Deck of Cards here!.~
+~
+8 0 16385 0
+0 0 0 0
+2 1500 30 0
+L 0
+A
+4 1
+A
+3 1
+#13227
+tonic healing bottle~
+a small bottle of healing tonic~
+A small bottle of Healing Tonic has been left here.~
+~
+10 65538 1 0
+12 28 -1 -1
+4 3000 100 15
+L 15
+#13228
+tonic podiatral bottle~
+a Podiatral Tonic~
+A small bottle of Podiatral tonic has been left here.~
+~
+10 65538 1 0
+10 20 -1 -1
+2 1800 200 0
+L 0
+#13229
+bottle tonic anti venom ~
+a Tonic of Anti Venom~
+A bottle of Anti Venom Tonic has been dropped here.~
+~
+10 65538 1 0
+10 43 16 -1
+2 1500 150 0
+L 0
+#13230
+bottle tonic sight restoration ~
+a bottle of tonic for sight restoration~
+A bottle of tonic for sight restoration has been left here.~
+~
+10 65538 1 0
+10 14 -1 -1
+2 1500 150 0
+L 0
+#13231
+bottle tonic returning~
+a bottle of returning tonic~
+A bottle of Tonic of Returning has been left here.~
+~
+10 65538 1 0
+10 42 -1 -1
+2 1500 150 0
+L 0
+#13232
+bottle tonic  determining alliance~
+a bottle of Tonic for determining alliance~
+A bottle of tonice for detemining alliance has been left here.~
+~
+10 65538 1 0
+10 18 -1 -1
+2 1500 150 0
+L 0
+#13233
+bottle tonic curative~
+a bottle of curative tonic~
+A bottle of curative tonic has been left here.~
+~
+10 65538 1 0
+10 15 -1 -1
+1 1500 200 0
+L 0
+#13234
+bottle tonic cats eyes~
+a tonic of cats eyes~
+A bottle of tonic made from cats eyes has been left here.~
+~
+10 65538 1 0
+12 50 -1 -1
+2 1800 200 0
+L 0
+#13235
+bottle tonic protection ~
+a tonic of protection~
+A bottle of tonic for protection has been left here.~
+~
+10 65538 1 0
+12 36 3 1
+2 1800 160 0
+L 0
+#13236
+herbs knowledge strange~
+some strange herbs of knowledge~
+Some strange herbs have been left here.~
+~
+2 65538 1 0
+12 81 0 0
+2 1600 160 0
+L 0
+#13237
+map atlas world~
+a map of Westernworld~
+A Westernworld map has been left here.~
+~
+13 0 1 0
+0 0 0 0
+1 10 1 0
+L 0
+E
+map hope atlas~
+                    
+                    ************************
+                    *     World Atlas      *
+                    *    Western world     *
+     	            *    Town of Hope      *
+                    ************************ 
+                    
+                                         Uncle
+     Whore  Weapons                     Jimmy's   
+     House   Store                     Travelling ----------
+       | Saloon| Millinery       Stable Caravan   |        |   
+       |   |   |   |               |       |      | Horses |
+   |---|---|---|-Main-Street-of|Hope---|---|------|  Pen   |--|-------Barn
+   |                   |       |   |              |        |  |
+ Post Office        Sheriff's  | General          ----------  |-Blacksmiths
+                     Office    | Store            
+                               |
+                -----------Dirt-Road---------
+                               |    
+                               |
+                      ---------|--------- 
+			       |
+			  Ghost Town	 
+~
+#13238
+sign post direction western~
+a sign post~
+A rustic post with whitewashed directions stands to the side of the road.~
+~
+13 0 0 0
+0 0 0 0
+11 1 1 0
+L 0
+E
+sign post direction~
+				    |||	
+			---------------------------
+			|      Town Of Hope 	  |
+			|East:  Post Office	  |
+			|       Saloon (1-10)	  |
+			|       Whore House(5-25) |
+			|       Bank		  |
+			|       Sheriff's Office  |
+			|       Weapons Store     |
+			|       Millinary         |
+			|West:  Horse Pen	  |
+			|       General Store	  |
+			|South:	Old Dirt Road	  |
+			|	Ghost Town(30-60) |
+			---------------------------
+				    |||
+ 				  |||
+				  |||
+
+~
+$~
+@
+
+
+1.4
+log
+@Artus> Minor changes made in wrong place.
+@
+text
+@d315 1
+a315 1
+2 5000 100 15
+d369 1
+a369 1
+2 1800 200 0
+@
+
+
+1.3
+log
+@Latest Versions
+@
+text
+@d315 2
+a316 2
+2 1800 100 0
+L 0
+@
+
+
+1.2
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@d21 2
+a22 2
+11 70 10 0
+L 0
+d34 2
+a35 2
+11 50 3 0
+L 0
+d123 3
+a125 3
+6 2 30 32788
+7 1800 350 1
+L 1
+d149 3
+a151 3
+18 1 1 16404
+7 1500 3 0
+L 0
+d248 4
+a251 4
+5 131072 8193 0
+4 2 50 32788
+10 1800 400 1
+L 1
+d259 2
+a260 2
+11 1 1 0
+L 0
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+18 0 16385
+d8 2
+a9 1
+1 100 100000
+d19 1
+a19 1
+17 0 1
+d21 2
+a22 1
+3 70 10
+d32 1
+a32 1
+17 0 1
+d34 2
+a35 1
+2 50 3
+d41 1
+a41 1
+15 0 1
+d43 2
+a44 1
+5 40 15
+d50 1
+a50 1
+9 0 1025
+d52 2
+a53 1
+10 250 30
+d59 1
+a59 1
+9 0 17
+d61 2
+a62 1
+5 100 15
+d68 1
+a68 1
+9 0 65
+d70 2
+a71 1
+5 200 25
+d77 1
+a77 1
+9 0 65
+d79 2
+a80 1
+8 250 30
+d86 1
+a86 1
+9 0 33
+d88 2
+a89 1
+8 100 10
+d95 1
+a95 1
+9 0 9
+d97 2
+a98 1
+4 35 5
+d104 1
+a104 1
+9 0 33
+d106 2
+a107 1
+1 15 5
+d113 1
+a113 1
+9 0 129
+d115 2
+a116 1
+3 15 3
+d122 1
+a122 1
+5 131072 8193
+d124 2
+a125 1
+7 3500 350
+d148 1
+a148 1
+5 0 8193
+d150 2
+a151 1
+7 1500 3
+d157 1
+a157 1
+13 0 0
+d159 2
+a160 1
+1000 1 1
+d166 1
+a166 1
+8 256 16385
+d168 2
+a169 1
+5 10000 1500
+d171 1
+a171 1
+2 3			; dex +2
+d173 1
+a173 1
+18 1			; hitroll +1
+d175 1
+a175 2
+14 -1			; move -1
+L 5
+d181 1
+a181 1
+8 0 16389
+d183 2
+a184 3
+1 25000 5000
+A		; str 
+1 2
+d186 1
+a186 1
+4 -1		; wis
+d188 1
+a188 1
+3 -2		;int
+d190 1
+a190 1
+18 2		;hitroll
+d192 3
+a194 2
+13 10		; hits
+L 10
+d200 1
+a200 1
+8 0 16389
+d202 2
+a203 1
+1 15000 2500
+d205 1
+a205 1
+1 1		; str
+d207 1
+a207 1
+4 -2		; wis
+d209 1
+a209 1
+3 -2		; int
+d211 1
+a211 2
+13 5		; hit
+L 8
+d217 1
+a217 1
+5 0 8193
+d219 2
+a220 1
+10 1500 150
+d222 1
+a222 1
+1 1		; str
+d224 1
+a224 2
+19 1		; Damroll
+L 15
+d227 1
+a227 1
+A wooden torch~
+d230 1
+a230 1
+1 0 16385
+d232 2
+a233 1
+3 25 5
+d239 1
+a239 1
+15 1 2049
+d241 2
+a242 1
+8 250 50
+d248 1
+a248 1
+5 131072 8193
+d250 2
+a251 1
+10 4000 400
+d257 1
+a257 1
+23 320 1
+d259 2
+a260 1
+5000 1 1
+d266 1
+a266 1
+5 0 8193
+d268 2
+a269 1
+5 150 35
+d275 1
+a275 1
+5 0 24577
+d277 2
+a278 1
+3 50 10
+d284 1
+a284 1
+12 0 1
+d286 2
+a287 1
+9999 1 1
+d300 1
+a300 1
+8 0 16385
+d302 2
+a303 1
+2 1500 30
+d313 3
+a315 3
+10 65538 1
+12 28 -1 -1 
+2 5000 100
+d322 1
+a322 1
+10 65538 1
+d324 1
+a324 1
+2 2000 200
+d331 1
+a331 1
+10 65538 1
+d333 1
+a333 1
+2 1500 150
+d340 4
+a343 3
+10 65538 1
+10 14 -1 -1 
+2 1500 150
+d349 1
+a349 1
+10 65538 1
+d351 1
+a351 1
+2 1500 150
+d358 1
+a358 1
+10 65538 1
+d360 1
+a360 1
+2 1500 150
+d367 1
+a367 1
+10 65538 1
+d369 1
+a369 1
+2 2000 200
+d376 1
+a376 1
+10 65538 1
+d378 1
+a378 1
+2 2000 200
+d385 1
+a385 1
+10 65538 1
+d387 1
+a387 1
+2 2100 160
+d394 3
+a396 3
+2 65538 1
+12 42 -1 -1 
+2 1600 160
+d403 1
+a403 1
+13 0 1
+d405 2
+a406 1
+1 10 1                                                                       
+d438 1
+a438 1
+13 0 0
+d440 2
+a441 1
+5000 1 1
+d463 1
+a463 2
+~		
+#99999
+@
+

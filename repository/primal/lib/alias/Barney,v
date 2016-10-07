@@ -1,0 +1,70 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@kg kill guard
+ivb cast 'inf' self
+bgrat grat$*!$*! Go$*!!!
+am assist muldar
+h cast 'cure light' $1
+up wake;stand
+sl sleep
+as assist slam
+gro group $*
+0 get all all.corpse
+gc get $1 crate
+9 get gold all.corpse
+meat get meat crate;eat meat; put all.meat crate
+skin get skin crate;drink skin;put skin crate
+lc look in crate
+pc put $1 crate
+dib cast 'det inv' self
+red q red
+h2t bri;aut;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;bri;aut;sleep;sc
+1 get recall crate;recite scroll self
+invis cast 'invis' $1
+t2i bri;aut;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;bri;aut
+tr track $1;alias tt track $1
+bs backs $1; alias bsw backs $1
+k kill priest
+j junk $*
+tt track werewolf
+howl holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+hb cast 'cure light' self
+wh q white
+t2r bri;aut;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;bri;aut
+bsw backs bandit
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

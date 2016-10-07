@@ -1,0 +1,4 @@
+lt cast 'cure light' merin
+gac get all corpse
+mm cast 'magic missile' $1
+gc get coins corpse

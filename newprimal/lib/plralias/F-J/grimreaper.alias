@@ -1,0 +1,140 @@
+3
+fly
+10
+cast 'fly'
+0
+3
+ref
+17
+cast 'refresh' $*
+1
+1
+6
+18
+cast 'holy aid' $*
+1
+1
+5
+12
+cast 'haste'
+0
+4
+walk
+19
+cast 'waterwalk' $*
+1
+1
+0
+37
+get rifle corpse;get rifle;junk rifle
+1
+1
+3
+28
+cast 'advanced heal' batfink
+0
+4
+life
+20
+cast 'sense life' $*
+1
+5
+sleep
+15
+cast 'sleep' $*
+1
+3
+det
+20
+cast 'detect inv' $*
+1
+1
+2
+23
+cast 'advanced heal' $*
+1
+3
+str
+15
+cast 'stren' $*
+1
+1
+1
+24
+get heal tool;quaff heal
+1
+2
+gt
+13
+get tool tool
+0
+2
+ss
+14
+sense stats $*
+1
+4
+sanc
+17
+say spells please
+0
+2
+ch
+21
+exa backpack;exa tool
+1
+1
+8
+28
+get prot backpack;quaff prot
+1
+3
+inv
+41
+get wand backpack;hold wand;use wand grim
+1
+2
+bh
+29
+buy 20 heal;put all.heal tool
+1
+2
+bp
+35
+buy 5 protect;put all.prot backpack
+1
+7
+batfink
+33
+follow batfink;autoassist batfink
+1
+2
+re
+33
+get recall backpack;recite recall
+1
+2
+by
+36
+buy 5 yellow;put all.yellow backpack
+1
+2
+bw
+32
+buy 5 wand;put all.wand backpack
+1
+2
+br
+36
+buy 5 recall;put all.recall backpack
+1
+4
+kick
+23
+kick $1;alias 4 kick $1
+1
+2
+sc
+5
+score
+0

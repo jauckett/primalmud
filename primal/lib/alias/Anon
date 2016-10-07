@@ -1,0 +1,41 @@
+rec at 12 rece
+nog : nods nog nog nog nog nog.
+kj kill jell
+sanc c 'sanc'
+cs c 'summon' $1
+tm tell $2.$1 hi
+gre n;w;s;s;s;e;e;e;e;e;e;open gate;e;e;e;e;e;e;e;s;s;s;s
+tav s;e;e;e;e;e;e;s
+ch c 'advanced heal'
+og open gate
+rb read board
+ss c 'serpent skin' self
+bs rem rif;wi sac;backstab $1;rem sac;wi rif
+cc c 'clone';c 'infra' clone
+pr c 'bless';c 'sanc';c 'holy aid';c 'dragon'
+h c 'advan' self
+id get id back;rec id $1 
+bi buy 10 ident;put all.id back
+ci c 'infra' self
+ws wake;stand
+gac get all corpse
+br buy 10 red;put all.red back
+qw get whit back;quaf white
+eb get bread back;eat bread
+ds drink skin
+qr get red back;quaf red
+cdi c 'detect invis' self
+pa put all.$1 back
+bw buy 5 white; put all.white back
+bot say bot $1
+wb c 'waterb'
+waw c 'waterw'
+cr c 'refr'
+sa c 'sanc'
+hp c 'holy'
+dra c 'dragon'
+hs hunt 10.shark
+gr grat &R/'&M\.&B/'&G\.&Y/'&W\$* /&Y'\&G./&B'\&M./&R'\&n
+flex : pathetically flexes his muscles- what a wuss!
+brow : raises an eyebrow.
+rc goto 100

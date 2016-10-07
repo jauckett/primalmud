@@ -1,0 +1,104 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ba rem whip;wield dagger;ba $*;rem dagger;wield whip
+arm c 'armor' $*
+ref c 'refresh' $*
+unc ungroup clone ; ungroup 2.clone
+ck c 'cloud kill'
+wake wake ; stand
+sleep sleep ; save ; score
+gs c 'group sanctuary'
+quit save ; quitreally
+fly c 'fly'
+light c 'detect invis ' ; c 'infra' ; c 'sense'
+invis c 'invis' $*
+heal c 'advanced' $*
+orb rem eye ; hold orb
+eye rem orb ; hold eye
+qb get blue backpack ; qu blue
+xp exp
+fire c 'fireball' $*
+sanc c 'sanc' $*
+bless c 'bless' $*
+da c 'detect align'
+swarm c 'meteor' $*
+fg c 'finger' $*
+sense c 'sense life'
+infra c 'infravision'
+di c 'detect invis'
+recall c 'word' $*
+shipb at 8690 echo The ship sails away from Haven.
+shipa at 8690 echo The pirate ship has arrived at Haven.
+summon cast 'summon' $*
+fear cast 'fear' $*
+byw buy 20 white ; put all.white backpack
+charm cast 'charm' $*
+web rem charm ; wear bracelet
+reb rem bracelet ; wear charm
+of order followers $*
+teleport cast 'teleport'
+byemud save ; quitreally
+rd remove dagger
+ggac get all.gold all.corpse
+gac get all corpse
+gaac get all all.corpse
+ggc get gold corpse
+qw qu white
+asg order followers assist godslayer
+gwb get white backpack
+ofr order followers report
+wd wield dagger
+leave n ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e
+refresh cast 'refresh'$*
+locate cast 'locate' $*
+pi poofin suddenly materialises before your eyes.
+clone cast 'clone'
+; /$*
+gate c 'dimension' $*
+animate c 'animate' $*
+po poofout says, '1 to beam aboard, Mr O'Brien', and suddenly disappears.
+enter echo A gong sounds, and the Immortal Great One Godslayer suddenly appears.
+blind c 'blind' $*
+cof color off
+com color complete
+plasma c 'plasma' $*
+serp c 'serpent' $*
+asi order followers assist godslayer
+id recite identify $*
+q recite recall grimreaper ; recite recall nurgle
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

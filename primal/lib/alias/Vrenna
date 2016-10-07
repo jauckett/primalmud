@@ -1,0 +1,43 @@
+white quaff white
+south s;steal note thief;n
+down d;exa revenant;u
+bs rem sword;wield spike;back $1;rem spike;wield sword
+quitr cast 'detect invis';get field;open field;rem all;put all field;quitreally
+teleport cast 'teleport'
+scream primal scream
+sl cast 'sense life'
+da cast 'detect alignment'
+summon cast 'summon' $1
+; gtell $*
+refresh cast 'refresh'
+nrg cast 'energy drain' $1
+nn cast 'energy drain'
+di cast 'detect invisibility'
+bless cast 'bless'
+armor cast 'armor'
+c get all corpse;get corpse;junk corpse
+sanct cast 'sanctuary'
+plasma cast 'plasma blast' $1
+pp cast 'plasma blast'
+fire cast 'fireball' $1
+ff cast 'fireball'
+earth cast 'earthquake'
+locate cast 'locate object' $1
+recall cast 'word of recall'
+haven d;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e
+ch cast 'heal' $1
+cp cast 'remove poison'
+wake wake;stand
+de cast 'dispel evil' $1
+dg cast 'dispel good' $1
+tr tell Drax $!
+td tell Dracion $*
+identify recite identify $1
+north n;exa master;s
+east e;exa dragon;w
+invis cast 'invisibility'
+ca cast 'advanced hea' $1
+heal cast 'advanced heal'
+west w;steal key captain;e
+heak cast 'advanced heal'
+hea cast 'advanced heal'

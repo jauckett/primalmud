@@ -1,0 +1,155 @@
+3
+spa
+21
+c 'spirit armor' ella
+0
+2
+ha
+17
+c 'holy aid' ella
+0
+2
+ff
+12
+c 'fly' ella
+0
+3
+qwe
+12
+tell tsd now
+0
+2
+qq
+10
+t tsd heal
+0
+3
+crf
+16
+c 'refresh' ella
+0
+3
+csa
+18
+c 'sanctuary' ella
+0
+3
+dal
+25
+c 'detect alignment' ella
+0
+2
+dg
+18
+c 'dispel good' $*
+1
+2
+de
+18
+c 'dispel evil' $*
+1
+4
+cinv
+21
+c 'invisibility' ella
+0
+2
+cs
+20
+cast 'strength' ella
+0
+4
+tree
+41
+w;w;w;w;w;w;s;e;s;n;w;s;s;s;s;s;w;w;w;s;w
+1
+2
+cr
+18
+cast 'recall' ella
+0
+2
+ch
+13
+c 'heal' ella
+0
+2
+gr
+22
+get red back;quaff red
+1
+2
+cb
+14
+c 'bless' ella
+0
+2
+aa
+11
+attend ella
+0
+2
+cx
+19
+c 'cure light' ella
+0
+2
+cc
+22
+c 'cure critical' ella
+0
+3
+cin
+31
+cast 'detect invisibility' ella
+0
+3
+bpr
+30
+buy 10 red;put all.potion back
+1
+3
+bpw
+32
+buy 10 white;put all.potion back
+1
+2
+ci
+23
+cast 'infravision' ella
+0
+2
+rt
+15
+rem torch;torch
+1
+2
+gw
+26
+get white back;quaff white
+1
+2
+cw
+24
+cast 'create water' skin
+0
+2
+ca
+17
+cast 'armor' ella
+0
+2
+ds
+10
+drink skin
+0
+2
+fe
+10
+first ella
+0
+2
+ga
+14
+get all corpse
+0

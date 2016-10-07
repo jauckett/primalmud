@@ -1,0 +1,1154 @@
+head	1.12;
+access;
+symbols
+	A3_0_1:1.2;
+locks; strict;
+comment	@# @;
+
+
+1.12
+date	2004.05.29.01.28.35;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.25.22.48.35;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.21.08.52.11;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.31.10.38.33;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.11.08.11.59.20;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.01.25.03.35.28;	author primal;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.04.11.15.08.50;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.01.22.22.45.46;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.41;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@Artus> Sync.
+@
+text
+@#11900
+crystal ring~
+a crystal ring~
+A crystal ring is lying here.~
+~
+11 96 3 0
+0 0 0 0
+5 1800 1500 5
+L 5
+E
+pewter ring~
+This unusual ring has strange magical qualities
+~
+A
+13 5
+A
+2 1
+#11901
+blue belt~
+a Blue belt~
+A blue belt has been left lying around~
+~
+9 32 2049 0
+3 0 0 0
+5 1800 2300 5
+L 5
+E
+bronze belt~
+A bronze buckle and waistband that shines brighly in the sun
+~
+A
+1 -2
+A
+18 1
+#11902
+pointy leather hat~
+a pointy leather hat~
+The Little Old Man's pointy leather hat has been left here.~
+Made of leather it is the finest hat you have seen for&n
+a long time. It has a special aura around it, it may &n
+hold some magic to it!&n
+~
+9 1 17 0
+0 0 0 0
+11 1800 4300 5
+L 5
+A
+2 -2
+A
+18 1
+A
+17 -3
+#11903
+saddle~
+ambroshus's saddle~
+A saddle belonging to ambroshus has been left here.~
+This saddle is designed for one horse and one horse only, Ambroshus!  Since he
+isn't really a horse and is just a dog his saddle is rather small and wouldn't
+fit on a true horse!  But it is an exact replica of a horses saddle!    
+~
+9 131072 9 0
+0 0 0 0
+1 1000 100 0
+L 0
+E
+whistle~
+A bright, silver whistle
+~
+#11904
+collection box~
+a collection box~
+A collection box is laying around discarded by some disgruntled citizen~
+The collection box is a small wooden box, that has a slit in the top for&n
+people to drop coins in. A long handle that you can use to shake it or just&n
+hold it.  It has a lid that opens to retrieve goods out off&n
+~
+15 16384 5 0
+250 5 -1 0
+1 1800 1500 0
+L 0
+T 11936
+E
+collection box~
+A wooden box that is used to collect things in!&n
+~
+A
+18 1
+A
+19 -3
+#11905
+desk~
+a desk~
+A wooden desk stands here.~
+A plain and simple wooden desk is here. It has two draws
+and above it is a mirror hanging off the wall!
+~
+15 0 0 0
+0 0 0 0
+1 1800 300 0
+L 0
+E
+hairpin~
+A ornately designed hair clip
+~
+A
+1 -1
+A
+3 1
+#11906
+peach~
+a peach~
+A half eaten peach lays on the ground forgotten.~
+~
+10 0 1 0
+15 60 60 0
+1 5 0 0
+L 0
+E
+peach~
+pinkish-red, half eaten and full of worms!
+~
+#11907
+orange~
+an orange~
+A sun-ripened orange has been left here.~
+~
+19 0 1 0
+6 0 0 0
+1 6 0 0
+L 0
+E
+orange~
+A fresh ripe piece of fruit
+~
+#11908
+warrior boots~
+a pair of warrior boots~
+A pair of Goblin warrior boots have been left here~
+~
+9 12288 65 0
+0 0 0 0
+2 200 20 0
+L 0
+E
+goblin warrior boots~
+A sturdy pair of warrior boots that have steel capped toes&n
+~
+A
+17 -2
+A
+14 1
+#11909
+shiny ornate clock~
+a shiny Ornate clock~
+A shiny Ornate clock is ticking here.~
+~
+9 65551 5 0
+0 0 0 0
+25 162000 50000 90
+L 90
+T 11940
+T 11942
+E
+shiny ornate clock~
+When you look at the clock you get a strange feeling you should wear it to make
+the powers of the clock work.    
+~
+A
+17 -5
+A
+23 -2
+A
+24 -2
+A
+4 2
+#11910
+clock ornate clock~
+an ornate clock~
+An ornate clock has been left here.~
+~
+13 65539 1 0
+0 0 0 0
+1 11 1 0
+L 0
+T 11926
+T 11930
+T 11931
+E
+hotdog frank~
+Long juicy piece of meat wrapped in fresh bread
+~
+#11911
+bracelet silver gold~
+a silver and gold bracelet~
+A bracelet, made from silver and gold, has been carelessly left here.~
+~
+11 130 4097 0
+0 0 0 0
+11 1800 1000 0
+L 0
+E
+bracelet~
+This fine delicate silver and gold bracelet looks well made
+~
+A
+12 1
+A
+19 -1
+#11913
+crystal pendant~
+a crystal pendant~
+A beautiful crystal pendant has been left here.~
+~
+11 0 5 0
+0 0 0 0
+11 1800 1650 5
+L 5
+E
+pendant jade~
+The jade is so large that it is quite heavy to wear around your neck
+~
+A
+3 1
+A
+4 1
+#11914
+flowing cape~
+a flowing cape~
+The little old man's cape has been left here.~
+~
+11 0 5 0
+0 0 0 0
+5 1800 1500 5
+L 5
+A
+17 -4
+A
+13 1
+#11915
+tempered sword~
+a tempered sword~
+A nasty looking tempered sword is lying here.~
+~
+5 8194 8193 0
+0 5 2 3
+11 1800 3456 20
+L 20
+E
+tempered sword ~
+This sword looks extremely sharp and sturdy
+~
+A
+18 -2
+#11916
+stone sword~
+a stone sword~
+A stone forged from the pits of hell has been left here.~
+~
+5 73824 24577 0
+10 8 5 3
+11 1800 100000 50
+L 50
+E
+quenched sword~
+This is a magical sword that has a strange aura to it
+~
+#11917
+bracers moorish~
+a pair of Moorish bracers~
+A pair of Moorish bracers has been dropped here.~
+~
+9 1 257 0
+3 0 0 0
+11 1800 4400 5
+L 5
+E
+moorish bracers~
+These bracers that Caesar once wore look rather expensive
+~
+A
+2 -2
+A
+19 1
+#11918
+breast plate goblin warrior~
+a Goblin warrior breast plate~
+A piece of the goblin warrior's armour has been left lying around.~
+~
+9 1 9 0
+0 0 0 0
+11 1800 2500 5
+L 5
+E
+plate breast goblin warrior~
+This heavy piece of armor has already been used in battle
+~
+A
+2 1
+A
+18 -2
+A
+17 -4
+#11919
+boots leather~
+a pair of Old Man Boots~
+A pair of Old Man boots have been left lying around.~
+A pair of Old Man boots have been left lying around&n
+~
+9 1 65 0
+0 0 0 0
+11 1800 4100 5
+L 5
+E
+boots combat~
+These boots look strong and sturdy
+~
+A
+1 1
+A
+19 -1
+A
+17 -3
+#11920
+staff goblin king~
+the Goblin King's Staff~
+The Staff belonging to The Goblin King has been left here.~
+~
+5 68169 8193 0
+0 10 7 6
+22 54000 54000 65
+L 65
+E
+thunderbolt bolt~
+This magnificent thunderbolt has many magical powers and could slay 
+any enemy
+~
+A
+18 7
+A
+19 3
+#11921
+loincloth~
+a red loincloth~
+Ludo's red loincloth is laying here.~
+~
+24 68098 2049 0
+1 39 44 10
+11 1800 100000 45
+L 45
+E
+loincloth~
+This red piece of materical once belonged to a great god
+~
+A
+1 2
+A
+2 2
+A
+18 1
+#11922
+crystal necklace~
+a crystal necklace~
+Someone has left the crystal necklace of knowledge here.~
+~
+11 3072 5 0
+0 0 0 0
+35 50000 5000 50
+L 50
+E
+crystal necklace~
+This beautiful, finely crafted necklace shines in the sunlight
+~
+A
+3 2
+A
+4 2
+A
+17 -5
+A
+18 4
+A
+19 2
+#11923
+winged sandals~
+a pair of winged sandals~
+Hoggle's winged sandals have been left here.~
+Now you know the reason Hoggle was able to get around the maze without much of
+a problem.  His sandals gave him the ability to fly where ever he wanted to go!
+  
+~
+24 1536 65 0
+60 0 0 10
+14 53000 5300 55
+L 55
+E
+winged sandals~
+The unusual thing about these sandals are the small white feathers on their 
+sides.
+~
+A
+2 2
+A
+14 55
+A
+18 2
+A
+19 1
+#11924
+dark grey scroll~
+a dark grey scroll~
+A scroll has been carelessly left here.~
+~
+2 32 16385 0
+20 4 15 1
+2 1800 500 0
+L 0
+#11925
+ornate scroll~
+an ornate scroll~
+An ornate scroll has been left here.~
+~
+2 0 16385 0
+18 10 10 16
+2 1800 700 0
+L 0
+#11926
+plain scroll~
+a plain scroll~
+A plain scroll is lying on the ground.~
+~
+2 0 16385 0
+15 7 15 1
+2 1800 800 0
+L 0
+#11927
+bag sweet herbs mask~
+a bag of herbs~
+There is a small, sweet-smelling bag here on the ground.~
+This small sweet-smelling bag of herbs can be handy in smelly situations!    
+~
+31 2 16401 0
+0 0 0 0
+5 1800 1500 0
+L 0
+#11928
+staff flying flamingo wing~
+a flamingo's wing~
+A flamingo's wing has been carelessly left here.~
+~
+4 0 16385 0
+17 3 3 15
+6 1800 3500 0
+L 0
+#11929
+wand prototype~
+a prototype wand~
+There is a prototype of a new magical wand lying here.~
+~
+3 672 16385 0
+30 4 3 26
+11 1800 2000 0
+L 0
+A
+18 -3
+A
+24 8
+#11930
+blaze orange flask potion~
+a flask~
+There is a flask, containing a blaze orange potion, resting here.~
+~
+10 0 1 0
+9 4 17 33
+8 1000 100 0
+L 0
+#11931
+pole teeth baby weapon ~
+a goblin warriors weapon~
+A goblin warrior's main weapon is lying here.~
+This weapon is a pole with a baby animal stuck to the top.&n
+The animal looks at home ontop of the pole and he looks around&n
+for his next victim.  He just loves to bite things to the death!&n
+~
+5 12288 8193 0
+0 5 1 4
+11 1800 1800 0
+L 0
+E
+pole teeth baby~
+This weapon might prove usefull to assist you in fighting.&n
+~
+A
+1 1
+A
+10 5
+#11932
+Blanket Box~
+a Pine Blanket Box~
+There stands a Pine Blanket Box~
+~
+15 0 1 0
+200 5 -1 0
+1 10 0 0
+L 0
+T 11936
+E
+Blanket Box~
+When you look at the box closely you can actually HEAR&n
+faint laughing and scratching sounds coming from within!&n
+~
+#11933
+ring key deaf~
+a brass door ring~
+The ring from the deaf door knocker is lying here.~
+This ring was firmly inserted in the ears of the door knocker.  Maybe this is
+why he was deaf!    
+~
+18 0 1 0
+0 0 0 0
+10 0 0 0
+L 0
+#11934
+stick red key~
+a red stick~
+A red stick that the shield uses to poke people with~
+~
+18 4 1 0
+2 0 0 0
+2 0 0 0
+L 0
+#11935
+candle light~
+a candle ~
+A candle is sitting on the ground~
+~
+1 12289 16385 0
+0 0 -1 0
+10 0 0 0
+L 0
+#11936
+crystal ball~
+a crystal ball~
+A crystall ball is rolling along the path~
+Nothing.
+~
+8 3 1 0
+0 0 0 0
+2 1800 0 0
+L 0
+E
+crystal ball~
+A crystal cut into a perfectly round ball.&n
+It shines the many different colours of the spectrum.&n
+Turn it this way and it is blue...&n
+Turn it that way and it is white...&n
+Anyway you turn it you can only see yourself!&n
+~
+#11937
+concrete chair~
+a concrete chair ~
+A concrete chair is standing here.~
+~
+13 4096 0 0
+0 0 0 0
+11 0 0 0
+L 0
+E
+concrete chair~
+A solid dull grey chair that the fortune teller sits apon&n
+~
+#11938
+steel key~
+a steel key~
+A steel key is lying on the ground.~
+~
+18 4096 1 0
+1 0 0 0
+1 0 0 0
+L 0
+#11939
+sapphire ring~
+a sapphire ring~
+A sapphire ring has been left here.~
+~
+11 0 3 0
+0 0 0 0
+11 1800 1000 0
+L 0
+E
+sapphire ring~
+The beautiful blue stone set into this ring looks extremely rare
+~
+A
+18 1
+A
+17 -2
+#11940
+Halberd~
+a halberd~
+A runed halberd lies on the ground here.~
+~
+5 4096 8193 0
+0 1 12 6
+11 1800 1832 0
+L 0
+A
+18 1
+#11941
+fire pit~
+a blazing fire pit~
+A blazing fire pit is sitting on the ground burning away~
+A huge pit it is with logs the size of a persons leg &n
+burning brightly.&n
+~
+13 1 0 0
+0 0 0 0
+11 0 0 0
+L 0
+#11942
+ring key mumbling~
+a brass door ring~
+The ring from the mouth of the door knocker is lying here.~
+This ring was firmly inserted into the mouth of the mumbling door knocker.  
+Maybe that is why he is mumbling all the time?    
+~
+18 0 1 0
+0 0 0 0
+10 0 0 0
+L 0
+#11943
+Ornate Chair~
+an ornate Chair~
+A very beautifully designed chair stands here.~
+~
+13 1 1 0
+0 0 0 0
+1 0 0 0
+L 0
+E
+Oranate Chair~
+This chair is very beautifully designed in
+solid brass with a tapestry material seat.
+~
+$~
+@
+
+
+1.11
+log
+@Artus> Sync.
+@
+text
+@d154 1
+a154 1
+A shiny Ornate clock~
+d328 1
+a328 1
+5 68681 8193 0
+@
+
+
+1.10
+log
+@Artus> Sync.
+@
+text
+@d152 24
+@
+
+
+1.9
+log
+@Artus> Moving this stuff across, too.
+@
+text
+@d81 1
+d481 1
+@
+
+
+1.8
+log
+@Artus> Just up-to-dating....
+@
+text
+@a46 4
+E
+helmet roman combat~
+A strong, sturdy, slightly dinted helmet
+~
+d160 1
+a161 1
+T 11926
+d202 1
+a202 1
+cape~
+d411 1
+a411 1
+herbs mask~
+@
+
+
+1.7
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@d156 3
+a158 3
+frank dog hotdog~
+a hotdog~
+A hotdog loaded with chili and onions has been left here.~
+d160 2
+a161 2
+19 0 1 0
+8 0 0 0
+d164 3
+d425 1
+a425 1
+staff flying~
+d608 14
+@
+
+
+1.6
+log
+@Latest Versions
+@
+text
+@d220 1
+a220 1
+5 2 8193 0
+d235 1
+a235 1
+5 65632 24577 0
+@
+
+
+1.5
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@d58 6
+a63 3
+whistle~
+a coach's whistle~
+A coach's whistle has been left here.~
+d65 1
+a65 1
+8 128 5 0
+d94 5
+a98 3
+hairpin~
+a hairpin~
+A woman's hairpin is lying here.~
+d100 1
+a100 1
+11 256 17 0
+d231 3
+a233 3
+quenched sword~
+a quenched sword~
+A very bloody, but quenched, sword has been left here.~
+d236 1
+a236 1
+0 5 1 3
+d300 3
+a302 3
+thunderbolt tbolt bolt~
+Jupiter's Thunderbolt~
+Jupiter's Thunderbolt has been left here.~
+d320 1
+a320 1
+Mars' red loincloth is resting here.~
+d362 4
+a365 1
+Mercury's winged sandals have been left here.~
+d412 1
+a412 1
+bag herbs~
+d415 1
+d417 2
+a418 2
+3 2 16385 0
+30 4 4 43
+d487 1
+a487 1
+brass ring knocker~
+d489 3
+a491 2
+A brass door ring has been left lying here~
+This solid brass ring is from a door knocker.&n
+d493 1
+a493 1
+18 4096 1 0
+d577 1
+a577 1
+5 4160 8193 0
+d593 11
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 2
+5 1800 1500 0
+L 0
+d15 1
+a15 1
+13 10
+d25 2
+a26 2
+5 1800 2300 0
+L 0
+d45 2
+a46 2
+11 1800 4300 0
+L 0
+d187 2
+a188 2
+11 1800 1650 0
+L 0
+d204 2
+a205 2
+5 1800 1500 0
+L 0
+d217 2
+a218 2
+11 1800 3456 0
+L 0
+d232 2
+a233 2
+11 1800 100000 0
+L 0
+d245 2
+a246 2
+11 1800 4400 0
+L 0
+d262 2
+a263 2
+11 1800 2500 0
+L 0
+d282 2
+a283 2
+11 1800 4100 0
+L 0
+d319 2
+a320 2
+11 1800 100000 65
+L 65
+d338 2
+a339 2
+35 50000 5000 65
+L 65
+d361 2
+a362 2
+14 53000 5300 65
+L 65
+d371 1
+a371 1
+14 65
+@
+
+
+1.3
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d8 2
+a9 1
+5 15000 1500 0
+d25 2
+a26 1
+5 23000 2300 0
+d45 2
+a46 1
+25 43000 4300 0
+d65 1
+d80 2
+a81 1
+1 15000 1500 0
+d87 1
+a87 1
+18 4
+d97 2
+a98 1
+1 3000 300 0
+d115 1
+d128 1
+d141 1
+d149 1
+a149 1
+14 5
+d158 1
+d170 2
+a171 1
+14 10000 1000 0
+d177 1
+a177 1
+12 25
+d187 2
+a188 1
+30 16500 1650 0
+d194 1
+a194 1
+3 3
+d196 1
+a196 1
+4 3
+d204 2
+a205 1
+5 15000 1500 0
+d209 1
+a209 1
+13 10
+d216 3
+a218 2
+0 5 5 3
+16 17280 3456 0
+d231 3
+a233 2
+10 8 5 3
+14 1000000 100000 0
+d245 2
+a246 1
+15 44000 4400 0
+d254 1
+a254 1
+19 2
+d262 2
+a263 1
+135 25000 2500 0
+d282 2
+a283 1
+45 41000 4100 0
+d289 1
+a289 1
+1 2
+d300 3
+a302 2
+26 10 7 6
+22 3000000 1000000 0
+d309 1
+a309 1
+18 8
+d319 2
+a320 1
+30 1000000 100000 0
+d338 2
+a339 1
+35 50000 5000 0
+d361 2
+a362 1
+14 53000 5300 0
+d371 1
+a371 1
+14 100
+d383 2
+a384 1
+2 5000 500 0
+d392 2
+a393 1
+2 7000 700 0
+d401 2
+a402 1
+2 8000 800 0
+d410 2
+a411 1
+5 15000 1500 0
+d419 2
+a420 1
+6 35000 3500 0
+d428 2
+a429 1
+26 20000 2000 0
+d442 1
+d444 1
+a444 1
+pole teeth baby~
+d451 4
+a454 3
+5 12416 8193 0
+1 5 1 4
+13 41156 8231 0
+d460 1
+a460 1
+1 2
+d471 1
+d486 1
+d495 1
+d504 1
+d513 2
+a514 1
+2 5000 0 0
+d528 1
+a528 1
+13 4096 1 0
+d530 2
+a531 1
+750 0 0 0
+d544 1
+d552 2
+a553 1
+20 10000 1000 0
+d569 2
+a570 1
+16 9160 1832 0
+d572 1
+a572 1
+18 5
+d582 2
+a583 1
+15000 0 0 0
+@
+
+
+1.2
+log
+@
+Changed:
+- Initial alpha commit on modified lib/world files
+@
+text
+@d102 3
+a104 3
+apple~
+an apple~
+A delicious looking apple has been left here.~
+d106 2
+a107 2
+19 0 1 0
+4 0 0 0
+d110 2
+a111 2
+apple~
+Red, delicious and fresh
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d456 1
+a456 1
+red key~
+d534 10
+@
+

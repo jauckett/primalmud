@@ -1,0 +1,8 @@
+ef c 'create' food; eat mushroom
+ga get all all.corpse; get all; junk all.corpse
+as c 'cure light' self
+hl c 'cure light' lois
+gr group $*
+assl assist lois
+bs rem oak; wi knife; ba $1; rem knife; wi oak
+qw get white backpack; quaff white

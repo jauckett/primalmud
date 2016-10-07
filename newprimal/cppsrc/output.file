@@ -1,0 +1,3 @@
+make ../bin/circle
+make[1]: Entering directory `/home/mud/newprimal/cppsrc'
+g++ -c -g -O2 -Wall   act.comm.c

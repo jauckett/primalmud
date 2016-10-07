@@ -1,0 +1,26 @@
+kk k mummy
+kst k skeleton
+cbg cast 'lightning bolt' gladiator
+cbm cast 'lightning bolt' master
+cbe cast 'lightning bolt' executioner
+cb cast 'lightning bolt' judge
+kkg kick gladiator
+kg k gladiator
+clb cast 'lightning bolt' $1
+ebp exa backpack
+ir cast 'infra' nutty
+ks k spectator
+kt k trickster
+eb exa bag
+rr recite recall
+qr g red bag ; q red ; g red bag ; q red
+kc k citizen
+cl cast 'cure light' nutty
+km k merchant
+ec exa $1.corpse
+ds g skin backpack ; drink skin ; p skin backpack
+ee g meat backpack ; g meat backpack ; eat meat ; eat meat
+gac g all $1.corpse
+ggc g all.gold $1.corpse
+gcj g corpse ; jun corpse
+cdi cast 'detect invisibility' nutty

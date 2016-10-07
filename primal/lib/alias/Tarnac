@@ -1,0 +1,16 @@
+wa wake; remove all.cloak; wear all.bandanna; stand
+sl remove all.bandanna; wear all.cloak; sleep
+bh cast 'burning hands'
+ct cast 'chill touch'
+gac get all corpse
+mm cast 'magic missile'
+nosee cast 'invisibility' tarnac
+at cast 'armor' tarnac
+bt cast 'bless' tarnac
+mmm cast 'magic missile' merchant
+mmn cast 'magic missile' nobleman
+ctn cast 'chill touch' nobleman
+pet cast 'protection from evil' tarnac
+heal cast 'cure light' tarnac
+see cast 'infravision' tarnac
+align cast 'detect alignment' tarnac

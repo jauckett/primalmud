@@ -1,0 +1,137 @@
+CircleMUD v3.0 Shop File~
+#25023~
+25001
+25002
+25003
+-1
+1.25
+0.75
+5
+9
+-1
+%s NafGu NoNexIsto!~
+%s UdunarT HaFF'tat!~
+%s mE narT kneee'd yarr cr'ap!~
+%s nO cionis....~
+%s UnarT haFF enar'FF cionis!!~
+%s %d cionis I'ts yarrs!~
+%s %d cionis, K'lyhr noi dEarl!~
+0
+0
+25009
+0
+25023
+-1
+0
+28
+0
+0
+#25024~
+25008
+25009
+25010
+-1
+0.75
+1.25
+5
+9
+30
+-1
+%s NafGu NoNexIsto!~
+%s UdunarT haFF'tat!~
+%s mE nart kneee'd yarr cr'ap!~
+%s nO cionis...~
+%s UnarT haFF enar'FF cionis!!~
+%s %d cionis, I'ts yarrs!~
+%s %d cionis, K'lyhr noi dEarl.~
+0
+0
+25010
+0
+25024
+-1
+0
+28
+0
+0
+#25026~
+25011
+25018
+-1
+1.50
+0.50
+-1
+%s NafGu NoNexIsto!~
+%s UdunarT haFF'tat!~
+%s mE narT kneee'd yarr cr'ap!~
+%s no cionis....~
+%s UnarT haFF enar'Ff cionis!!~
+%s %d cionis I'ts yarrs!~
+%s %d cionis, K'lyhr noi dEarl.~
+0
+0
+25011
+0
+25026
+-1
+0
+28
+0
+0
+#25027~
+25019
+25020
+25021
+-1
+1.50
+0.70
+3
+4
+2
+10
+-1
+%s I'm afraid I don't have that in stock.~
+%s You must be mistaken.~
+%s I'm afraid I cannot give you anything for that, try somewhere else.~
+%s I'm sorry, I don't have enough money.~
+%s You dont seem to have enough money.~
+%s That will be %d coins. May the Force be with you.~
+%s %d coins and we have a deal, May the Force be with you!~
+0
+0
+25012
+0
+25027
+-1
+0
+28
+0
+0
+#25031~
+25012
+25013
+25014
+-1
+1.50
+0.50
+17
+19
+-1
+%s Hey! Just what's in the list, bud!~
+%s You don't even have that fool!~
+%s What is THIS? I don't buy rubbish like that!~
+%s I don't have the cash.~
+%s Get outta here ya bum! You don't have enough money!~
+%s For %d coins, it's yours.~
+%s %d coins and we have a deal, thank you!~
+0
+0
+25003
+0
+25031
+-1
+0
+28
+0
+0
+$~

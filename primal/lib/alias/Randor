@@ -1,0 +1,6 @@
+bb buy 4 bread; put all.bread in backpack
+fs fill skin from fountain
+gac get all corpse
+eb get bread from backpack eat bread
+ds get skin from backpack drink skin put skin in backpack
+l look

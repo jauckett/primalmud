@@ -1,0 +1,2163 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2004.01.23.05.42.06;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.26.00.07.04;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.09.05.47.04;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@#31000
+Path through snowfield~
+   You walk along a path, blanketed in white.  The chilled wind rustling your
+hair.  Light snowflakes float to the ground, the air, fresh.  Mountain ranges
+dominating the view around you.  Things get noticeably cooler as you head
+southward, to the east there is a vast abyss.    
+~
+310 czA 514 0
+D1
+All you can see to the east, is a whole lot of nothing.
+~
+~
+0 0 1800
+D2
+The path through the snowfields continues southward.
+~
+~
+0 0 31001
+S
+T 31000
+#31001
+Path through snowfield~
+   You walk along a path, blanketed in white.  The chilled wind rustling your
+hair.  Light snowflakes float to the ground, the air, fresh.  Mountain ranges
+dominating the view around you.  To the south the path forks, to the north,
+things start getting a little warmer.    
+~
+310 zA 514 0
+D0
+To the north, the end of the snow path is visible.
+~
+~
+0 0 31000
+D2
+To the south, a great lake has frozen over, allowing safe passage, mostly.
+~
+~
+0 0 31002
+S
+T 31000
+#31002
+Before a lake of ice.~
+   Before you, lies a great white lake, continually frozen courtesy of the
+constant cold temperatures as you near the pole.  Penguins skate about with
+ease, occasionally bumping into each other.  They make it look trivial to move
+about.  To the north, the weather starts to get a little warmer.    
+~
+310 zA 514 0
+D0
+To the north, the temperature starts to get a little more comfortable.
+~
+~
+0 0 31001
+D2
+To the south, lies a great lake of ice.
+~
+~
+0 0 31007
+S
+T 31000
+#31003
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the south, and east.    
+~
+310 zA 514 0
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31004
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31008
+S
+T 31001
+T 31002
+T 31003
+#31004
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the east, south, and west.    
+~
+310 zA 514 0
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31005
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31009
+D3
+To the south, the ice lake continues.
+~
+~
+0 0 31003
+S
+T 31001
+T 31002
+T 31003
+#31005
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the east, south, and west.  To the north, a cave has formed in the
+mountainous wall.    
+~
+310 zA 514 0
+D0
+~
+~
+0 0 31041
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31006
+D2
+There appears to be a hole in the ice to the south.
+~
+~
+0 0 31010
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31004
+S
+T 31001
+T 31002
+T 31003
+#31006
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the east, south, and west.    
+~
+310 zA 514 0
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31007
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31011
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31005
+S
+T 31001
+T 31002
+T 31003
+#31007
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the south and west, or head for warmer lands to the north.    
+~
+310 zA 514 0
+D0
+To the north, the path through the snowfield promises a warmer climate.
+~
+~
+0 0 31002
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31012
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31006
+S
+T 31001
+T 31002
+T 31003
+#31008
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, south, and east.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31003
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31009
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31013
+S
+T 31001
+T 31002
+T 31003
+#31009
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31004
+D1
+There appears to be a hole in the ice to the east.
+~
+~
+0 0 31010
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31014
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31008
+S
+T 31001
+T 31002
+T 31003
+#31010
+A hole in the lake of ice.~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.  For some reason you cannot
+determine, the ice seems to fall away here, causing a gaping hole in the
+surface.    
+~
+310 czA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31005
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31011
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31015
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31009
+D5
+Through the hole in the lakes surface, lies nothing but water.
+~
+~
+0 0 31029
+S
+T 31005
+#31011
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31006
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31012
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31016
+D3
+There appears to be a hole in the ice to the west.
+~
+~
+0 0 31010
+S
+T 31001
+T 31002
+T 31003
+#31012
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31007
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31017
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31011
+S
+T 31001
+T 31002
+T 31003
+#31013
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, south, and east.  To the west, a path provides means to
+travel between the mountain ranges.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31008
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31014
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31018
+D3
+To the west, a path through the mountains avails itself to you.
+~
+~
+0 0 31045
+S
+T 31001
+T 31002
+T 31003
+#31014
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31009
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31015
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31019
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31013
+S
+T 31001
+T 31002
+T 31003
+#31015
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.    
+~
+310 zA 514 0
+D0
+There appears to be a hole in the lake, to your north.
+~
+<NONE>~
+0 0 31010
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31016
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31020
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31014
+S
+T 31001
+T 31002
+T 31003
+#31016
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.    
+~
+310 zA 514 0
+D0
+2
+To the north, the ice lake continues.
+~
+~
+0 0 31011
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31017
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31021
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31015
+S
+T 31001
+T 31002
+T 31003
+#31017
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31012
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31022
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31016
+S
+T 31001
+T 31002
+T 31003
+#31018
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, south, and east.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31013
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31019
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31023
+S
+T 31001
+T 31002
+T 31003
+#31019
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31014
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31020
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31024
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31018
+S
+T 31001
+T 31002
+T 31003
+#31020
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31015
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31021
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31025
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31019
+S
+T 31001
+T 31002
+T 31003
+#31021
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31016
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31022
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31026
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31020
+S
+T 31001
+T 31002
+T 31003
+#31022
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, south, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31017
+D2
+To the south, the ice lake continues.
+~
+~
+0 0 31027
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31021
+S
+T 31001
+T 31002
+T 31003
+#31023
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, and east.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31018
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31024
+S
+T 31001
+T 31002
+T 31003
+#31024
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, and west.  To the south, a path makes it possible to
+enter the dense forest which outlines the south perimiter of the lake.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31019
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31025
+D2
+To the south, a path provides access to a forest.
+~
+~
+0 0 31056
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31023
+S
+T 31001
+T 31002
+T 31003
+#31025
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31020
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31026
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31024
+S
+T 31001
+T 31002
+T 31003
+#31026
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, east, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31021
+D1
+To the east, the ice lake continues.
+~
+~
+0 0 31027
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31025
+S
+T 31001
+T 31002
+T 31003
+#31027
+On top of a frozen lake~
+   The forever cold temperature in this part of the world has caused a layer of
+ice to form on the top of this lake.  Passage across is somewhat safe, with the
+exception of being rather slippery.  The local life however, has decided this
+lake makes for an excellent ice skating ring.  You may continue to cross the
+lake to the north, and west.    
+~
+310 zA 514 0
+D0
+To the north, the ice lake continues.
+~
+~
+0 0 31022
+D3
+To the west, the ice lake continues.
+~
+~
+0 0 31026
+S
+T 31001
+T 31002
+T 31003
+#31028
+Below the ice layer.~
+   In your foolishness, you have managed to break through the ice layer that
+makes the surface of this lake.  The water is absolutely freezing down here,
+and you only have a short amount of time before the hole seals itself up, it
+would probably be a good idea to climb out of here, fast.    
+~
+310 adfghzA 648 0
+S
+T 31000
+T 31004
+#31029
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the south, and you can reach the
+surface up above.    
+~
+310 afgzA 648 0
+D2
+Water, water, and more water.
+~
+~
+0 0 31031
+D4
+A bright light is all that can be seen above.
+~
+~
+0 0 31010
+S
+#31030
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the south, and east.    
+~
+310 afgzA 648 0
+D1
+Water, water, and more water
+~
+~
+0 0 31031
+D2
+Water, water, and more water
+~
+~
+0 0 31033
+S
+#31031
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the north, south, east, and west.
+~
+310 afgzA 648 0
+D0
+It looks a little brigher there.
+~
+~
+0 0 31029
+D1
+Water, water, and more water.
+~
+~
+0 0 31032
+D2
+Water, water, and more water.
+~
+~
+0 0 31034
+D3
+Water, water, and more water.
+~
+~
+0 0 31030
+S
+#31032
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the south, and west.    
+~
+310 afgzA 648 0
+D2
+Water, water, and more water
+~
+~
+0 0 31035
+D3
+Water, water, and more water
+~
+~
+0 0 31031
+S
+#31033
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the north, east, and south.    
+~
+310 afgzA 648 0
+D0
+Water, water, and more water
+~
+~
+0 0 31030
+D1
+Water, water, and more water
+~
+~
+0 0 31034
+D2
+Water, water, and more water
+~
+~
+0 0 31036
+S
+#31034
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the north, south, east, and west.
+~
+310 afgzA 648 0
+D0
+Water, water, and more water
+~
+~
+0 0 31031
+D1
+Water, water, and more water
+~
+~
+0 0 31035
+D2
+~
+~
+0 0 31037
+D3
+Water, water, and more water
+~
+~
+0 0 31033
+S
+#31035
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the north, south, and west.    
+~
+310 afgzA 648 0
+D0
+Water, water, and more water
+~
+~
+0 0 31032
+D2
+Water, water, and more water
+~
+~
+0 0 31038
+D3
+Water, water, and more water
+~
+~
+0 0 31034
+S
+#31036
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the north, and east.    
+~
+310 afgzA 648 0
+D0
+Water, water, and more water
+~
+~
+0 0 31033
+D1
+Water, water, and more water
+~
+~
+0 0 31037
+S
+#31037
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the north, south, east, and west.
+~
+310 afgzA 648 0
+D0
+Water, water, and more water
+~
+undefined~
+0 0 31034
+D1
+Water, water, and more water
+~
+~
+0 0 31038
+D2
+Water, water, and more water
+~
+~
+0 0 31039
+D3
+Water, water, and more water
+~
+~
+0 0 31036
+S
+#31038
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The lake continues to the north, and west.    
+~
+310 afgzA 648 0
+D0
+Water, water, and more water
+~
+~
+0 0 31035
+D3
+Water, water, and more water
+~
+~
+0 0 31037
+S
+#31039
+Below the surface~
+   You are currently swimming below the frozen surface of the lake.  The ground
+is covered in weeds, schools of small fish swim between them hiding from
+potential predators.  The ceiling here looks a little weaker than other parts,
+you ponder the possibility of breaking through it.  The lake continues on to
+the north.    
+~
+310 afgzA 648 0
+D0
+Water, water, and more water
+~
+~
+0 0 31037
+S
+T 31006
+T 31007
+#31040
+The heart of an extinct volcano~
+   You climb out of a hole in the ice, to find yourself inside a very long
+extinct volcano.  The top has been frozen over, thoroughly, which makes this a
+little warmer than outside.  Looking around you reveals walls of earth in all
+directions.    
+~
+310 acdgy 0 0
+S
+T 31021
+T 31006
+T 31008
+#31041
+Entrance to a cave~
+   Hoping to get a break from the cold air outside, you have wandered into a
+cave.  The cave seems to continue on to the north, with the sealed lake,
+outside.  There is a faint smell of animal in the air, coming from the north.
+Icicles line the ceiling, and what looks like bear tracks can be seen in the
+ground.    
+~
+310 cdz 0 0
+D0
+To the north, the cave continues.
+~
+~
+0 0 31042
+D2
+Outside the cave a sealed lake stretches as far as you can see.
+~
+~
+0 0 31005
+S
+#31042
+Inside a cave~
+   This appears to be the central room of the cave, tracks in the ground show
+alot of recent activity here, it might be wise to keep on your guard.  To the
+north, a large alcove appears to be serving as a bedroom.  A similar, though
+somewhat smaller alcove can be seen to your east, and to the south, the cave
+opens up.    
+~
+310 ad 0 0
+D0
+To the north, a large alcove has been converted into a bedroom.
+~
+~
+0 0 31043
+D1
+To the east, a small alcove has been converted into a bedroom.
+~
+~
+0 0 31044
+D2
+The mouth of the cave is visible to the south.
+~
+~
+0 0 31041
+S
+#31043
+A large alcove~
+   You are in what you can only presume to be the master bedroom of this cave,
+carcasses and puddles of blood covering most of the floor.  The look and smell
+of this room leaves the hair on the back of your neck standing upright.  You
+can't help but feel the need to retreat back to the cave, south.    
+~
+310 ad 0 0
+D2
+To the south, the cave continues.
+~
+~
+0 0 31042
+S
+#31044
+A small alcove~
+   You find yourself in a small alcove, which seems to be used as a bedroom.  
+Beds of straw have been untidily put together, showing signs of recent use.  
+Claw marks and blood stains can be seen on the floor, reminding you to keep on
+guard.  Your only exit is to return to the cave, west.    
+~
+310 ad 0 0
+D3
+To the west, the cave continues.
+~
+~
+0 0 31042
+S
+#31045
+Path through mountains~
+   You wander along a mountain path, snow crunching beneath you as you walk.  
+The frozen lake lies to your east, and the mountains continue on to your west.
+To your north and south, glorious mountain ranges block your path, creating an
+impassible wall of earth and ice.  Tracks in the snow unlike any others you
+have seen before leave you with a curiousity that must be satisfied.    
+~
+310 czA 517 0
+D1
+To the east, a lake has been sealed with ice.
+~
+~
+0 0 31013
+D3
+To the west, the path continues through the mountains.
+~
+0~
+0 0 31046
+S
+T 31000
+#31046
+Path through mountains~
+   You wander along a mountain path, snow crunching beneath you as you walk.  
+The frozen lake can be seen in the distance to your east, and the mountain path
+continues to your west and south.  To the north, a grand mountain range blocks
+your path, creating an impassible wall of earth and ice.    
+~
+310 zA 517 0
+D1
+To the east, the mountains disperse, revealing a sealed lake.
+~
+~
+0 0 31045
+D2
+To the south, the path continues through the mountains.
+~
+~
+0 0 31048
+D3
+To the west, the path continues through the mountains.
+~
+~
+0 0 31047
+S
+T 31000
+#31047
+Path through mountains~
+   You wander along a mountain path, snow crunching beneath you as you walk.  
+The mountain path continues to the north, west, and east where the lake is
+barely visible in the distance.  To the south a glorioust mountain range blocks
+your path, creating an impassible wall of earth and ice.  Tracks in the snow
+show this path has been used recently.    
+~
+310 zA 517 0
+D0
+To the north, the path continues through the mountains.
+~
+~
+0 0 31051
+D1
+2
+To the east, the path continues through the mountains.
+~
+~
+0 0 31046
+D3
+To the west, the path continues through the mountains.
+~
+~
+0 0 31052
+S
+T 31000
+#31048
+Path through mountains~
+   You wander along a mountain path, snow crunching beneath you as you walk.  
+The mountain path continues to both the north and south.  To the east and west,
+magnificent mountain ranges block your path, creating an impassible wall of
+earth and ice.  Tracks in the snow show this path has been used recently.    
+~
+310 zA 517 0
+D0
+To the north, the path continues through the mountains.
+~
+~
+0 0 31046
+D2
+To the south, the path continues through the mountains.
+~
+~
+0 0 31049
+S
+T 31000
+#31049
+Path through mountains~
+   You wander along a mountain path, snow crunching beneath you as you walk.  
+The mountain path continues to both the north and west.  To the south and east,
+magnificent mountain ranges block your path, creating an impassible wall of
+earth and ice.  Tracks in the snow show this path has been used recently.    
+~
+310 zA 517 0
+D0
+2
+To the north, the path continues through the mountains.
+~
+~
+0 0 31048
+D3
+To the west, the path continues through the mountains.
+~
+~
+0 0 31050
+S
+T 31000
+#31050
+Dead end in the path~
+   You have found the end of this mountain path, enourmous mountains block off
+all directions other than your retreat to the east.  Footprints in the snow
+seem to be denser in this section of the path.  It might not be a good idea to
+lurk here to long.    
+~
+310 zA 517 0
+D1
+To the east, the path continues through the mountains.
+~
+~
+0 0 31049
+S
+T 31000
+#31051
+Path through mountains~
+   You wander along a mountain path, snow crunching beneath you as you walk.  
+The mountain path continues to both the south and west.  To the north and east,
+magnificent mountain ranges block your path, creating an impassible wall of
+earth and ice.  Tracks in the snow show this path has been used recently.    
+~
+310 zA 517 0
+D2
+To the south, the path continues through the mountains.
+~
+~
+0 0 31047
+D3
+To the west, the path ends.
+~
+~
+0 0 31055
+S
+T 31000
+#31052
+Path through mountains~
+   You wander along a mountain path, snow crunching beneath you as you walk.  
+The mountain path continues to both the south and east.  To the north and west,
+magnificent mountain ranges block your path, creating an impassible wall of
+earth and ice.  Tracks in the snow show this path has been used recently.    
+~
+310 zA 517 0
+D1
+To the east, the path continues through the mountains.
+~
+~
+0 0 31047
+D2
+To the south, the path continues through the mountains.
+~
+~
+0 0 31053
+S
+T 31000
+#31053
+Path through mountains~
+   You wander along a mountain path, snow crunching beneath you as you walk.  
+The mountain path continues to both the north and east.  To the south and west,
+magnificent mountain ranges block your path, creating an impassible wall of
+earth and ice.  Tracks in the snow show this path has been used recently.    
+~
+310 zA 517 0
+D0
+To the north, the path continues through the mountains.
+~
+~
+0 0 31052
+D1
+To the east, the path ends.
+~
+~
+0 0 31054
+S
+T 31000
+#31054
+Dead end in the path~
+   You have found the end of this mountain path, enourmous mountains block off
+all directions other than your retreat to the west.  Footprints in the snow
+seem to be denser in this section of the path.  It might not be a good idea to
+lurk here to long.    
+~
+310 zA 517 0
+D3
+To the west, the path continues through the mountains.
+~
+~
+0 0 31053
+S
+T 31000
+T 31000
+#31055
+Dead end in the path~
+   You have found the end of this mountain path, enourmous mountains block off
+all directions other than your retreat to the east.  Footprints in the snow
+seem to be denser in this section of the path.  It might not be a good idea to
+lurk here to long.    
+~
+310 zA 517 0
+D1
+2
+To the east, the path continues through the mountains.
+~
+~
+0 0 31051
+S
+T 31000
+#31056
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+north, a great sealed lake is visible.  To the south, a clearing has formed in
+the forest.    
+~
+310 czA 515 0
+D0
+To your north, a lake has been sealed in ice.
+~
+~
+0 0 31024
+D2
+To the south, a large clearing is visible.
+~
+~
+0 0 31057
+S
+#31057
+A clearing in the forest~
+   You stand in a clearing of the forest, paths having been worn to the north,
+east, and south.  Great trees loom above you, this clearing providing a space
+in the canopy for light to shine.  In the center, the remnants of a long
+extinguished fire lay outlined by fallen tree trunks.    
+~
+310 zA 515 0
+D0
+To the north, the path continues through the forest, towards a sealed lake.
+~
+~
+0 0 31056
+D2
+To the south, the path continues through the forest.
+~
+~
+0 0 31064
+D3
+2
+To the west, the path continues through the forest.
+~
+~
+0 0 31058
+S
+T 31000
+#31058
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+east, a clearing has formed in the forest, and to the west, the path turns.  
+~
+310 azA 515 0
+D1
+To the east, you see a large clearing.
+~
+~
+0 0 31057
+D3
+To the west, the path turns south.
+~
+~
+0 0 31059
+S
+#31059
+A bend in the path~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+east, the path continues, to the south, the path divides.    
+~
+310 azA 515 0
+D1
+To the east, the path continues, a clearing visible in the distance.
+~
+~
+0 0 31058
+D2
+To the south, the path forks.
+~
+~
+0 0 31060
+S
+#31060
+A fork in the path~
+   You have stumbled upon a fork in the path, the divide giving you the option
+of either continuing on south, where the path turns west, or taking a new path,
+east.  Large trees tower above you, forming a canopy impenetrable to light.  
+~
+310 azA 515 0
+D0
+To the north, the path turns east.
+~
+~
+0 0 31059
+D1
+To the east, the path continues.
+~
+~
+0 0 31061
+D2
+To the south, the path turns west.
+~
+~
+0 0 31062
+S
+#31061
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+east, the path continues, to the west, the path forks.    
+~
+310 azA 515 0
+D1
+2
+To the east, the path continues through the forest.
+~
+~
+0 0 31064
+D3
+To the west, the path continues through the forest.
+~
+~
+0 0 31060
+S
+#31062
+A bend in the path~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+north, the path forks, and to the west, the path appears to end.    
+~
+310 azA 515 0
+D0
+To the north, the path forks.
+~
+~
+0 0 31060
+D3
+To the west, the path is blocked by trees.
+~
+~
+0 0 31063
+S
+#31063
+End of the path~
+   As you continue along this path through the forest, the trees become denser
+and denser, narrowing your path until you can proceed no further.  Trunks and
+thick scrub are blocking your way in all directions, leaving you with no
+alternative but to turn back to the east.    
+~
+310 azA 515 0
+D1
+To the east, the path turns north.
+~
+~
+0 0 31062
+S
+#31064
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+north, a clearing has formed, whilst to the south, the bath branches off.    
+~
+310 azA 515 0
+D0
+To the north, a large clearing is visible.
+~
+~
+0 0 31057
+D2
+To the south, the path forks.
+~
+undefined~
+0 0 31065
+S
+#31065
+A fork in the path~
+   You have stumpbled upon a fork in the forest path.  From here, the path
+continues to the north, east, and south, where the path forks.  Large trees
+form a thick canopy above, with tree dwellers kept safe high up.    
+~
+310 azA 515 0
+D0
+To the north, the path continues through the forest.
+~
+~
+0 0 31064
+D1
+To the east, the path continues through the forest.
+~
+~
+0 0 31066
+D2
+To the south, the path forks again.
+~
+~
+0 0 31071
+S
+#31066
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+east, the path turns north, while to the west, the path forks.    
+~
+310 azA 515 0
+D1
+To the east, the path turns north.
+~
+~
+0 0 31067
+D3
+To the west, the path forks.
+~
+~
+0 0 31065
+S
+#31067
+A bend in the path~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  The forest
+path continues to the north, and west.    
+~
+310 azA 515 0
+D0
+To the north, the path continues through the forest.
+~
+~
+0 0 31068
+D3
+To the west, the path continues through the forest.
+~
+~
+0 0 31066
+S
+#31068
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  One of the trees here has limbs
+low enough for you to reach, it might be possible for you to climb to it's top.
+To the south, and north, the path turns west.    
+~
+310 azA 515 0
+D0
+To your north, the path turns west.
+~
+~
+0 0 31069
+D2
+To the south, the path turns west.
+~
+~
+0 0 31067
+S
+T 31012
+T 31013
+#31069
+A bend in the path~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+south, and west, the path continues through the forest.    
+~
+310 azA 515 0
+D2
+To the south, the path continues through the forest.
+~
+~
+0 0 31068
+D3
+To the west, the path continues through the forest.
+~
+~
+0 0 31070
+S
+#31070
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+west, a clearing has formed in the forest, and to the east, the path turns
+south.    
+~
+310 azA 515 0
+D1
+To the east, the path turns south.
+~
+~
+0 0 31069
+D3
+To the west, you see a clearing in the forest.
+~
+~
+0 0 31057
+S
+#31071
+A fork in the path~
+   You have stumpbled upon a fork in the forest path.  From here, the path
+continues to the south, west, and north, where the path forks again.  Large
+trees form a dense canopy above, keeping tree dwellers a little safer from
+flying predators.    
+~
+310 azA 515 0
+D0
+To your north, is another fork in the path.
+~
+~
+0 0 31065
+D2
+To the south, the path continues through the forest.
+~
+~
+0 0 31074
+D3
+To the west, the path continues through the forest.
+~
+~
+0 0 31072
+S
+#31072
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  One of the trees here has limbs
+low enough for you to reach, it might be possible for you to climb to it's top.
+To the east, the path forks, and to the west, the path turns north.    
+~
+310 azA 515 0
+D1
+To your east, the path forks.
+~
+~
+0 0 31071
+D3
+To your west, the path turns north.
+~
+~
+0 0 31073
+S
+T 31012
+T 31013
+#31073
+A bend in the path~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+north, the path turns west, and to the east, the path continues.    
+~
+310 azA 515 0
+D0
+To the north, the path continues through the forest.
+~
+~
+0 0 31062
+D1
+To the east, the path continues through the forest.
+~
+~
+0 0 31072
+S
+#31074
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  The path
+continues both to the north, and south, where the path turns east.    
+~
+310 azA 515 0
+D0
+To your north, the path forks.
+~
+~
+0 0 31071
+D2
+To the south, the path turns east.
+~
+~
+0 0 31075
+S
+#31075
+A bend in the path~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  To the
+north, the path continues, and to the east, the path forks.    
+~
+310 azA 515 0
+D0
+To the north, the path continues through the forest.
+~
+~
+0 0 31074
+D1
+To the east, the path forks.
+~
+~
+0 0 31076
+S
+#31076
+A fork in the path~
+   You have stumbled upon a fork in the path, the divide giving you the option
+of either continuing on north, where the path continues, west, where the path
+turns north, and south, where the path begins winding its way east.    
+~
+310 azA 515 0
+D0
+To the north, the path continues through the forest.
+~
+~
+0 0 31081
+D2
+To the south, the path starts winding its way east.
+~
+~
+0 0 31077
+D3
+To your west, the path turns north.
+~
+~
+0 0 31075
+S
+#31077
+Winding path through forest~
+   This winding path through the forest seems rather devoid of life for some
+reason you can't uncover.  Only typical scavengers make up the wildlife
+population.  Trees still loom overhead here, blocking the sun way above your
+head.  The path continues to the north and east.    
+~
+310 azA 515 0
+D0
+To your north, the path forks.
+~
+undefined~
+0 0 31076
+D1
+To your east, the path continues.
+~
+~
+0 0 31078
+S
+#31078
+Winding path through forest~
+   This winding path through the forest seems rather devoid of life for some
+reason you can't uncover.  Only typical scavengers make up the wildlife
+population.  Trees still loom overhead here, blocking the sun way above your
+head.  The path continues to the north and west.    
+~
+310 azA 515 0
+D0
+To the north, the path continues through the forest.
+~
+~
+0 0 31079
+D3
+To the west, the path continues through the forest.
+~
+~
+0 0 31077
+S
+#31079
+Winding path through forest~
+   This winding path through the forest seems rather devoid of life for some
+reason you can't uncover.  Only typical scavengers make up the wildlife
+population.  Trees still loom overhead here, blocking the sun way above your
+head.  The path continues to the south and east, where the path ends.    
+~
+310 azA 515 0
+D1
+To the east, the path stops winding as trees block the way.
+~
+~
+0 0 31080
+D2
+To the west, the path continues through the forest.
+To the south, the path continues through the forest.
+~
+undefined~
+0 0 31078
+S
+#31080
+End of a winding path~
+   You have reached the end of this winding path through the forest, the trees
+and shrubbery not allowing passage in any direction, other than the return
+west.  The ground here seams a little softer than other areas within this
+forest.    
+~
+310 azA 515 0
+D3
+To the west, the path continues through the forest.
+~
+~
+0 0 31079
+S
+T 31015
+T 31017
+T 31014
+#31081
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  One of the trees here has limbs
+low enough for you to reach, it might be possible for you to climb to it's top.
+To the north, the path continues, and to the south, the path forks.    
+~
+310 azA 515 0
+D0
+To the north, the path continues through the forest.
+~
+undefined~
+0 0 31082
+D2
+To the south, the path forks.
+~
+~
+0 0 31076
+S
+T 31012
+T 31013
+#31082
+Path through forest~
+   You wander through the snow-covered forest, trees looming overhead creating
+a canopy that your light does not penetrate.  Small forest animals scatter
+about the scrub, most likely trying to stay away from larger ones.  The path
+continues both to the north, and south.    
+~
+310 azA 515 0
+D0
+To the north, the path continues through the forest.
+~
+~
+0 0 31066
+D2
+To the south, the path continues through the forest.
+~
+~
+0 0 31081
+S
+#31083
+In-Between Room~
+If you end up here, there is a bug in the game.
+&RContact Artus Immediately.&n
+~
+310 d 0 0
+D0
+If you are seeing this, something is wrong. Alert Artus.
+~
+~
+0 0 31085
+D1
+If you are seeing this, something is wrong. Alert Artus.
+~
+~
+0 0 31086
+D2
+If you are seeing this, something is wrong. Alert Artus.
+~
+~
+0 0 31084
+S
+#31084
+In a Roc's nest~
+   Atop the canopy here, you find yourself in the nest of a Roc.  You better
+hope the owner does not come home to find you here, or there might be trouble
+to pay beyond your capabilities.  Looking around, you can make out two other
+rather similar nests in the distance, however, the only way you might reach
+them is by climbing up from the ground once more.  The canopy failing to
+provide any path.  Your only retreat here is down below.    
+~
+310 gi 515 0
+D5
+You may escape this place below.
+~
+~
+0 0 31068
+S
+#31085
+In a Roc's nest~
+   Atop the canopy here, you find yourself in the nest of a Roc.  You better
+hope the owner does not come home to find you here, or there might be trouble
+to pay beyond your capabilities.  Looking around, you can make out two other
+rather similar nests in the distance, however, the only way you might reach
+them is by climbing up from the ground once more.  The canopy failing to
+provide any path.  Your only retreat here is down below.    
+~
+310 gi 515 0
+D5
+You may escape the nest to the forest below.
+~
+~
+0 0 31072
+S
+#31086
+In a Roc's nest~
+   Atop the canopy here, you find yourself in the nest of a Roc.  You better
+hope the owner does not come home to find you here, or there might be trouble
+to pay beyond your capabilities.  Looking around, you can make out two other
+rather similar nests in the distance, however, the only way you might reach
+them is by climbing up from the ground once more.  The canopy failing to
+provide any path.  Your only retreat here is down below.    
+~
+310 gi 515 0
+D5
+It's so far down, looking makes you feel dizzy.
+~
+~
+0 0 31081
+S
+#31087
+Beneath the snow~
+   Climbing down through the hole, you find yourself in an old penguins nest,
+which appeared to have been covered up.  Oddly though, this nest appears to
+have been created a long time ago, however it's inhabitants seem to still use
+it.  There's not much to see besides dirt and straw, the only way out, to climb
+back up.    
+~
+310 acdgiy 0 0
+D4
+A great forest is visible overhead.
+~
+~
+0 0 31080
+S
+T 31020
+#31088
+Falling through unknown space~
+You watch the stars go by as you fall through unknown space, quite helplessly.
+~
+310 acdefghA 0 0
+E
+stars~
+The stars are numerous, and bright, and make up the only thing you can see.
+~
+S
+T 31023
+T 31022
+#31089
+Island in the void~
+   You find yourself upon a small land mass that seems to be floating in the
+middle of nowhere.  Not even the stars are visible from this island, besides
+the ground you are standing on, you cannot see anything but the vastness of
+empty space.  The land mass continues only to the west.    
+~
+310 acdfg 0 0
+D3
+To the west, the land mass continues to be surrounded by nothing.
+~
+~
+0 0 31090
+S
+#31090
+Island in the void~
+   You find yourself upon a small land mass that seems to be floating in the
+middle of nowhere.  Not even the stars are visible from this island, besides
+the ground you are standing on, you cannot see anything but the vastness of
+empty space.  The land mass continues only to the east.    
+~
+310 acdfg 0 0
+D1
+To the west, the land mass continues to be surrounded by nothing.
+~
+~
+0 0 31089
+S
+T 31025
+$~
+@
+
+
+1.3
+log
+@Artus> Keeping the repository up-to-date. This is the groundwork for the
+       release.
+@
+text
+@d6 1
+a6 1
+southward, to the north things get a little warmer.    
+d9 5
+@
+
+
+1.2
+log
+@Artus> Getting very close...
+@
+text
+@d1066 1
+d1988 42
+@
+
+
+1.1
+log
+@Artus> Start of 310 (The South Pole - Artus) and 36 (Sewers of Haven - Primr)
+@
+text
+@d8 1
+a8 1
+310 zA 514 0
+d113 2
+a114 1
+lake to the east, south, and west.  To the north, something is being built.  
+d117 4
+d259 7
+a265 1
+There is a hole in this unfinished room.
+d267 1
+a267 1
+310 zA 514 0
+d362 2
+a363 1
+lake to the north, south, and east.  To the west, something is being built.  
+d381 5
+d702 2
+a703 1
+lake to the north, east, and west.    
+d716 5
+d792 1
+a792 1
+lake to the south, and west.    
+d822 4
+a825 1
+You are in an unfinished room.
+d841 3
+a843 1
+You are in an unfinished room.
+d859 3
+a861 1
+You are in an unfinished room.
+d887 3
+a889 1
+You are in an unfinished room.
+d905 3
+a907 1
+You are in an unfinished room.
+d928 3
+a930 1
+You are in an unfinished room.
+d955 3
+a957 1
+You are in an unfinished room.
+d978 3
+a980 1
+You are in an unfinished room.
+d996 3
+a998 1
+You are in an unfinished room.
+d1024 3
+a1026 1
+You are in an unfinished room.
+d1042 5
+a1046 1
+You are in an unfinished room.
+d1068 919
+@
+

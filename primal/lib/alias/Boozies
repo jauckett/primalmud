@@ -1,0 +1,6 @@
+gc get all all.corpse; save
+qw get white backpack; q white
+qr get red backpack; q red
+pp put all.potion backpack
+ws wake;stand
+lb look in backpack

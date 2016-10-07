@@ -1,0 +1,160 @@
+head	1.4;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2003.10.14.05.39.45;	author mud;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.16.10.27.27;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.01.17.04.52.08;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Removed Zones (Sandii Requested), Checking In.
+@
+text
+@#150 3
+Looney Toons Land~
+15099 35 2 100665345
+R 0 15046 15050 -1 	(a genies lamp)
+O 0 15050 1 15046 	(a genies lamp)
+T 1 1 15020 15046 	(Load genie)
+M 0 15004 3 15001 	(Elmer Fudd)
+E 1 15011 6 16 	(a Double barrel Shotgun)
+E 1 15009 3 6 	(a hunting cap)
+E 1 15010 3 5 	(a jacket)
+O 0 15000 1 15000 	(Sign)
+R 0 15041 15017 -1 	(a dead fish)
+O 0 15017 10 15041 	(a dead fish)
+M 0 15016 1 15034 	(Speedy Gonzales)
+E 1 15026 10 6 	(a wide rimmed slouch hat)
+M 0 15019 1 15054 	(Marvin the Martian)
+E 1 15028 10 16 	(Marvin's ray gun)
+O 0 15097 1 15054 	(the teleporter)
+M 0 15008 1 15023 	(Granny)
+E 1 15021 10 17 	(an umbrella)
+E 1 15018 10 21 	(a pair of granny's glasses)
+E 1 15022 10 6 	(a hair bun)
+E 1 15023 10 5 	(Granny's dress)
+O 0 15099 1 15023 	(a Cage)
+M 0 15011 1 15029 	(Road Runner)
+O 0 15024 1 15029 	(a pile of bird seed)
+D 0 15025 0 0 	(The Top of the Telephone Pole.)
+M 0 15000 1 15025 	(Sylvester)
+E 1 15019 10 16 	(a long wooden pole)
+D 0 15024 1 1 	(A Yard)
+M 0 15015 1 15024 	(Spike the bulldog)
+E 1 15029 10 3 	(Spike's collar)
+D 0 15052 2 1 	(Chickenhawks house)
+O 0 15031 10 15052 	(Some black eyed peas)
+M 0 15021 1 15052 	(Elvis The Chickenhawk)
+M 0 15012 1 15052 	(Chickenhawk)
+M 0 15022 1 15052 	(Pappy Chickenhawk)
+M 0 15010 1 15030 	(Wile E. Coyote)
+E 1 15030 10 8 	(Rocket skates)
+M 0 15007 1 15042 	(Pepe LePew)
+G 1 15016 10 -1 	(Skunk smell)
+M 0 15017 1 15042 	(a Cat)
+E 1 15027 10 11 	(a white paint stripe)
+M 0 15006 1 15048 	(Foghorn Leghorn)
+E 1 15015 10 13 	(White feather)
+E 1 15014 10 6 	(a Rooster's comb)
+D 0 15048 0 1 	(Western Field)
+M 0 15005 2 15039 	(Yosemite Sam)
+E 1 15013 6 3 	(a bright red moustache)
+E 1 15005 2 6 	(a cowboy hat)
+E 1 15006 2 5 	(a leather vest)
+E 1 15012 20 16 	(a pistol)
+D 0 15008 2 1 	(Inside the Farmhouse)
+M 0 15003 1 15008 	(Porky Pig)
+E 1 15008 6 13 	(a pigs tail)
+E 1 15007 6 3 	(a Bowtie)
+M 0 15005 2 15038 	(Yosemite Sam)
+E 1 15006 6 12 	(a leather vest)
+E 1 15012 6 16 	(a pistol)
+E 1 15005 6 6 	(a cowboy hat)
+R 0 15044 15025 -1 	(a packing crate)
+O 1 15025 100 15044 	(a packing crate)
+M 0 15014 1 15044 	(Sylvester's son)
+M 0 15013 1 15044 	(a baby roo)
+M 0 15025 1 15017 	(the Matador)
+E 1 15032 1 13 	(a red cloth)
+O 0 15002 1 15010 	(a hole in the ground)
+M 0 15002 3 15010 	(Daffy Duck)
+E 1 15004 3 3 	(a Ducks Bill)
+M 0 15001 3 15011 	(Bugs)
+E 1 15001 3 6 	(a pair of large floppy rabbit ears)
+M 0 15026 12 15016 	(a spectator of the bull fight)
+M 0 15026 12 15016 	(a spectator of the bull fight)
+M 0 15026 12 15016 	(a spectator of the bull fight)
+O 0 15098 1 15004 	(a big green space ship)
+D 0 15021 3 1 	(Outside an Apartment Block)
+D 0 15021 2 0 	(Outside an Apartment Block)
+D 0 15021 1 1 	(Outside an Apartment Block)
+D 0 15043 3 1 	(A Warehouse)
+D 0 15007 0 1 	(Outside the Farmhouse)
+D 0 15006 1 1 	(Outside the Coop)
+D 0 15020 0 0 	(In the City)
+M 0 15009 1 15051 	(Tweety Pie)
+M 0 15023 1 15049 	(Sam the Beagle)
+D 0 15009 3 1 	(Inside the Coop)
+M 0 15024 1 15009 	(Henrietta hen)
+M 0 15018 1 15015 	(El Toro)
+S
+$
+@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d4 3
+a10 3
+R 0 15046 15050 -1 	(a genies lamp)
+O 0 15050 1 15046 	(a genies lamp)
+T 1 1 15020 15046 	(Load genie)
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d3 85
+a87 1
+15099 35 2 100696065
+@
+

@@ -1,0 +1,47 @@
+kw kill worker
+gsb get skin backpack;drink water
+kc kill citizen
+ri rescue immortal
+js junk sword
+te track enfan
+kt kill traveller
+bse backstab enfan
+bst backstab traveller
+bsg backstab gladiator
+ws remove chain sword;wield super soaker
+wc remove super soaker;wield chain sword
+cls cast 'cure light' self
+gmb get meat bag
+bss backstab spectator
+bsv backstab vendor
+bsj backstab janitor
+bsw backstab worker
+bsf backstab frog
+bsc backstab citizen
+bsd backstab drunk
+bsb backstab beggar
+bs backstab
+bkpk backpack
+backpack bp
+bp backpack
+ec examine corpse
+gc get corpse
+gac get all corpse
+jc junk corpse
+woi wand of invisibility
+mw magic wand
+dw drink water
+eb eat bread
+kb kill brigand
+kr kill rat
+ex examine
+exb examine backpack
+as assist
+badr backstab driver
+bscd backstab driver
+em eat meat
+qr get red backpack;quaff red;get red backpack;quaff red;get red backpack;quaff red
+wv remove super soaker;wield vorpal
+ccs cast 'cure critical' self
+bsm backstab merchant
+psb put skin backpack

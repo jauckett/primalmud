@@ -1,0 +1,33 @@
+gl get aloe back;give aloe big
+pa put all.scroll back;put all.meat back;put all.aloe back;put all.hot back;put skin back;put atlas back
+pl put all.aloe back
+eh get hot back;eat hot
+bw buy 5 white;put all.white back
+sa sell gau;sell vest;sell boots;sell plate;sell glov;sell glov
+sr sell ring
+start wear all;wi vor
+b rem vor;wi knife;backstab $1;rem knife;wi vor
+cc use aloe bigbert
+bm buy 5 meat;put all.meat back
+sl cast 'sleep' $1
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+in cast 'infravision' self
+ws wake;stand
+fl flee
+ec exam corpse
+ds get skin backpack;drink skin;put skin backpack
+qw get white backpack;quaff white
+br buy 5 red;put all.red backpack
+qr get red backpack;quaff red
+id get identify backpack;recite identify $1
+exx examine backpack
+rec get recall backpack;recite recall self
+ss sell all.sword
+em get meat backpack;eat meat
+gac get all corpse
+gg get gold corpse
+bi buy 3 identify;put all.scroll backpack
+gp get corpse
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w
+brr buy 5 recall;put all.recall back
+jl rem aloe;junk aloe;get aloe back;grab aloe

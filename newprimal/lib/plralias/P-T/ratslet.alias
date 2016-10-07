@@ -1,0 +1,130 @@
+2
+cc
+14
+compost corpse
+0
+3
+red
+37
+emote grins as his eyes glow &rRed&n.
+0
+4
+home
+10
+goto 26191
+0
+6
+tavern
+9
+goto 1112
+0
+9
+selfequip
+47
+load obj 26199;load obj 26199;wi sword;wi sword
+1
+8
+immortal
+9
+goto 1200
+0
+5
+grats
+28
+grat -,-'&r@&c$* &r@&g'-,-&n
+1
+4
+grat
+28
+grat -,-'&r@&c$* &r@&g'-,-&n
+1
+3
+who
+15
+where;who;users
+1
+4
+lock
+16
+close $*;lock $*
+1
+6
+unlock
+17
+unlock $*;open $*
+1
+2
+wt
+16
+c 'wraith touch'
+0
+9
+checkmail
+15
+at 1200 receive
+0
+7
+protect
+37
+c 'bless' $*;c 'armor' $*;c 'sanc' $*
+1
+2
+fd
+13
+c 'finger' $*
+1
+2
+lc
+13
+look in corps
+0
+7
+objects
+17
+olist 26100 26199
+0
+8
+triggers
+17
+tlist 26100 26199
+0
+7
+mobiles
+17
+mlist 26100 26199
+0
+5
+rooms
+17
+rlist 26100 26199
+0
+5
+tport
+12
+c 'teleport'
+0
+4
+word
+9
+goto 1115
+0
+6
+locate
+13
+c 'locate' $*
+1
+2
+id
+12
+c 'ident' $*
+1
+2
+zr
+10
+zreset 261
+0
+4
+save
+59
+save;redit save;zedit save;medit save;oedit save;sedit save
+1

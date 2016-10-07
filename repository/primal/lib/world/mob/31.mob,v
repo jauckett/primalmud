@@ -1,0 +1,337 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#3100
+king arthur~
+King Arthur~
+You see King Arthur here, talking to the other knights.
+~
+King Arthur is wearing his royal robes and wielding the magnificent sword. 
+~
+256066 33976 1300 S
+37 -3 -3 2d1+1000 2d4+20
+60000 290000
+8 8 1
+#3101
+tough guard~
+a tough guard~
+You see a tough looking guard standing here.
+~
+The tough guard glares back at you in a mean, vicious manner.
+~
+2408 1152 1000 S
+30 5 7 1d1+900 4d5+14
+2500 199000
+8 8 1
+#3102
+guest~
+a guest~
+You see a guest walking around talking and eating.
+~
+The guest is here to visist the beautiful queen and the magician Merlin.
+~
+165956 1024 500 S
+23 10 7 1d1+500 3d4+7
+3000 99000
+8 8 1
+#3103
+chef chefs~
+a chef~
+You see a chef busily cooking in the kitchen.
+~
+The chefs apron is covered with food and in his hand is a large carving knife
+~
+2154 1064 -900 S
+27 7 6 1d1+700 2d6+12
+5000 122500
+8 8 1
+#3104
+servant~
+a servant~
+You see a castle servant, cleaning and polishing.
+~
+One of the palaces many servants smiles happily at you as he continues on 
+his buisness.
+~
+6212 263168 150 S
+23 9 7 1d1+500 2d3+10
+2000 99000
+8 8 2
+#3105 
+knight~
+a knight~
+A well trained knight stands here guarding the door.
+~
+The knight is wearing a suit of armor that looks magnificent and well 
+cared for. You see a large scar running down his left check from a 
+previous battle that looks extremely nasty. This is not a person who you 
+would wish to take on.
+~ 
+18506 1160 1000 S 
+32 0 3 1d1+1500 5d3+12
+9500 211000
+8 8 1  
+#3106
+hand maid hand-maid~
+a hand maid~
+A hand-maid is here, preparing the queen's room.
+~
+A rather beautiful hand maiden whos serves the Queen is wandering around 
+the palace halls. She smiles back at you in a wanton manner and your 
+blood races with desire.
+~ 
+20684 1024 520 S
+22 8 7 5d1+500 3d3+10
+7500 79000
+8 8 2
+#3107
+sparing partner~
+a sparing partner~
+You see a sparing partner, waiting for a fight.
+~
+A young man who is aspiring to become one of King Arthur's knights is 
+practicing here. He is wearing armour that looks rather impressive.
+~
+6242 1192 100 S
+27 2 3 1d1+900 3d4+11
+45000 170000
+8 8 1
+#3108
+prisoner~
+a prisoner~
+You see a prisoner here.
+~
+The dirty, sneaky prisoner grins back at you evilly and beckons for you 
+to lean closer so he can cut your throat.
+~
+2150 263296 -900 S
+19 8 7 1d1+350 3d2+10
+10 30000
+8 8 1
+#3109 
+student~
+a student~
+You see a student here, eager to learn.
+~
+The young student who holds a  large impressive sword in his hands.
+~
+618 1024 -750 S
+27 5 5 1d1+1250 2d6+11
+7000 140000
+8 8 1
+#3110
+large killer bat~
+a large killer bat~
+You see a large killer bat swoop down at you.
+~
+A vile smelling bat flaps it's hideous wings in your face and shows it's 
+long fangs to you.
+~
+6240 787584 -700 S
+25 6 4 1d1+600 1d10+10
+10 100000
+8 8 0
+#3111
+head cook~
+the head cook~
+You see the head cook here, barking orders.
+~
+The head cook glares back at you looking rather annoyed that you have 
+distracted him from his busy, important job.
+~
+2146 1152 -800 S
+29 2 3 1d1+1000 4d2+10
+6000 155000
+8 8 1
+#3112
+alias jester~
+Alias the jester~
+You see Alias the jester performing here.
+~
+Alias grins back at you as he spins the juggling balls around in the air
+~
+2114 1152 350 S
+24 4 0 1d1+700 3d4+12
+2500 121000
+8 8 1
+#3113
+iron mask man big~
+The man in the iron mask~
+You see a large man, wearing an iron mask.
+~
+A large man stands here in this discusting cell. Apon his face is a 
+hideous iron mask and all you can see is his blue eyes glaring back at you.
+~
+618 1024 -1000 S
+30 -2 3 1d1+1500 4d3+12
+10 200000
+8 8 1
+#3114
+large man~
+A large man~
+You see a large man standing here, ready to kill.
+~
+A vicious man with scars that cover his face and bare arms glares back at 
+you in an evil manner.
+~
+618 1024 -1000 S
+30 -1 -1 1d1+1500 3d6+15
+5500 199000
+8 8 1
+#3115
+guard master large~
+The guard master~
+You see the very large guard master standing here.
+~
+The large, burly guard master warily looks at you in a distrusting manner.
+He is over 6 feet tall and his muscles bulge from his shirt.
+~
+22824 1160 1000 S
+29 0 5 1d1+1000 5d3+15
+8500 195000
+8 8 1
+#3116
+living wall~
+The living wall~
+You see a living wall here.
+~
+A strange wall that shimmers and moves as you look at it
+~
+256098 1162 -700 S
+27 0 5 1d1+1150 2d5+10
+0 140000
+8 8 1
+#3117
+merlin wizard~
+Merlin the wizard~
+You see the legendary Merlin the wizard here.
+~
+Merlin looks incredibly old and wise. He wears a magical hat and robe and 
+hold a staff that shines with a bright magical light. He has a long beard
+that nearly touches the ground and his robes seem to flow around him 
+though there is no breeze here.
+~ 
+2410 296092 500 S
+35 -5 3 2d1+1750 3d4+20
+70000 270000
+8 8 1
+#3118
+queen fair guinevere~
+The fair queen Guinevere~
+You see the fair queen Guinevere standing here.
+~
+The fair beautiful queen has long blonde hair that flows down her back. 
+Her face is incredibly beautiful and she smiles at you in a kind manner.
+~
+254146 1160 350 S
+27 2 -1 1d1+1250 5d3+10
+10250 179000
+8 8 2
+#3119
+knight galahad~
+The knight Galahad~
+You see the knight named Galahad standing here.
+~
+~
+260162 1152 750 S
+35 -1 -2 1d1+750 3d3+10
+4000 270000
+8 8 1
+#3120
+knight lancelot~
+The knight Lancelot~
+You see the knight named Lancelot standing here.
+~
+Sir Lancelot is dressed in fine shinning armour and his sword looks sharp and
+dangerous. He stands guard over the King Arthur and protects him with his 
+life.
+~
+260162 1152 750 S
+35 -1 -2 1d1+750 3d3+10
+4000 270000
+8 8 1
+#3121
+knight bedivere~
+The knight Bedivere~
+You see the knight named Bedivere standing here.
+~
+Sir Bedivere is dressed in fine shinning armour and his sword looks sharp and
+dangerous. He stands guard over the King Arthur and protects him with his 
+life.
+~
+260162 1152 750 S
+35 -1 -2 1d1+750 3d3+10
+4000 270000
+8 8 1
+#3122
+knight gawain~
+The knight Gawain~
+You see the knight named Gawain standing here.
+~
+Sir Gawain is dressed in fine shinning armour and his sword looks sharp and
+dangerous. He stands guard over the King Arthur and protects him with his 
+life.
+~
+260162 1152 750 S
+35 -1 -2 1d1+750 3d3+10
+4000 270000
+8 8 1
+#3123
+lookout~
+a lookout~
+You see a lookout carefully watching the fields.
+~
+You see a tall thin man who peers at you intently. He has a large bow in 
+one hand and what looks like a looking glass in another.
+~
+260162 1152 750 S
+27 0 -2 1d1+750 3d3+10
+4000 180000
+8 8 1
+#3124
+tough guard~
+a tough guard~
+You see a tough looking guard standing here.
+~
+The tough guard glares back at you in a mean, vicious manner.
+~
+2410 1152 1000 S
+30 0 2 1d1+900 4d5+14
+2500 199000
+8 8 1
+$
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

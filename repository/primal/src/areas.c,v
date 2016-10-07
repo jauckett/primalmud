@@ -1,0 +1,66 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @ * @;
+
+
+1.1
+date     2000.01.26.14.31.01;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.31.01;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@strcat(buf,'                        (Medieval)\r\n');
+strcat(buf,'      Zone Name          Zone Lev         Author\r\n');
+strcat(buf,'=======================+==========+========================');
+strcat(buf,'Haven                  | (0-10)   |         John\r\n');
+strcat(buf,'MoatHouse              | (0-10)   |       Circle Def\r\n');
+strcat(buf,'Selve Road             | (0-10)   |       Cassandra\r\n');
+strcat(buf,'Graveyard              | (0-10)   |       Cassandra\r\n');
+strcat(buf,'Plains                 | (0-10)   |       <unknown>\r\n');
+strcat(buf,'Mountains              | (0-10)   |       <unknown>\r\n');
+strcat(buf,'Werith's Wayhouse      | (10-20)  |       Circle Def\r\n');
+strcat(buf,'Darask                 | (10-20)  |         Murf\r\n');
+strcat(buf,'Toyheim                | (10-20)  |         Drax\r\n');
+strcat(buf,'Rome                   | (10-20)  |       Circle Def\r\n');
+strcat(buf,'Rands Tower            | (10-20)  |       Circle Def\r\n');
+strcat(buf,'2 of Swords            | (10-20)  |       Circle Def\r\n');
+strcat(buf,'LhankWood              | (10-20)  |       <unknown>\r\n');
+strcat(buf,'Ersheep Road           | (10-20)  |         Gabe\r\n');
+strcat(buf,'Tudor                  | (20-30)  |         John\r\n');
+strcat(buf,'Rushmoor Swamp         | (20-30)  |         John\r\n');
+strcat(buf,'Crystal Castle         | (30-40)  |        Freako\r\n');
+strcat(buf,'Island                 | (30-40)  |       Cassandra\r\n');
+strcat(buf,'Pirates Ship           | (30-40)  |         John\r\n');
+strcat(buf,'Shadow Keep            | (40-50)  |         Gabe\r\n');
+strcat(buf,'Danger Island          | (40-50)  |         John\r\n');
+strcat(buf,'Black Tower            | (40-50)  |       <unknown>\r\n');
+strcat(buf,'Spiral                 |  (50+)   |       Cassandra\r\n');
+strcat(buf,'Moanders Domain(Abyss) |  (50+)   |         Drax\r\n');
+strcat(buf,'===========================================================\r\n');
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

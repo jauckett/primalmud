@@ -1,0 +1,55 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@str cast 'strength'$*
+bye gos Cya$*
+infra cast 'infravision'$*
+curel cast 'cure light'$*
+graveyard e;e;e;e;open gate;e;e;e;e;e;s;s;s;s;s;s;s;s;open gate
+grats grats Way to go$*!!! Keep it up!!!
+hi gos Hey$*
+wake wake;stand
+corpse g all corpse;g corpse;j corpse
+invis cast 'invisibility'$*
+rome e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w
+meat get meat back;eat meat
+skin get skin back;drink skin;p skin back
+bs g dagg back;rem scythe;wi dagg;backstb$*;rem dagg;wi scytghe;p dagg back
+recall g recall back;rec recall
+bas g dagg back;rem scythe;wi dagg;backstab$*;rem dagg;wi scythe;p dagg bag
+q g$* back;q$*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

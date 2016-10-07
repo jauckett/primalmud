@@ -1,0 +1,343 @@
+head	1.6;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2004.05.23.07.21.51;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.21.08.54.21;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.06.05.56.09;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.26.00.07.04;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.17.02.26.05;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.56;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Artus> Checking everything in again.
+@
+text
+@#21 1
+Path of Mystery~
+2199 15 2 117440528
+D 0 2129 2 1 	(Sleeping quarters - Room 2)
+D 0 2129 1 1 	(Sleeping quarters - Room 2)
+O 0 2111 1 2129 	(a large wooden framed bed)
+O 0 2109 1 2129 	(Wardrobe)
+O 0 2113 2 2129 	(a bedside table)
+O 0 2113 2 2129 	(a bedside table)
+M 0 2106 6 2129 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+D 0 2130 3 1 	(Sleeping quarters - Room 3)
+D 0 2130 0 1 	(Sleeping quarters - Room 3)
+O 0 2112 1 2130 	(a large wooden framed bed)
+O 0 2110 1 2130 	(Wardrobe)
+O 0 2114 2 2130 	(a bedside table)
+O 0 2114 2 2130 	(a bedside table)
+D 0 2128 1 1 	(Sleeping quarters - Room 1)
+D 0 2128 0 1 	(Sleeping quarters - Room 1)
+O 0 2103 1 2128 	(a large wooden framed bed)
+O 0 2106 1 2128 	(Wardrobe)
+O 0 2108 2 2128 	(a bedside table)
+O 0 2108 2 2128 	(a bedside table)
+M 0 2106 6 2128 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+M 0 2101 1 2122 	(the tree bartress)
+E 1 2104 1 17 	(a bottle of whisky)
+E 1 2121 99 22 	(an amnethyst earing)
+E 1 2121 99 23 	(an amnethyst earing)
+M 0 2106 6 2122 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+M 0 2114 1 2165 	(the Queen Bullant)
+O 0 2119 5 2165 	(a white bullant egg)
+O 0 2119 5 2165 	(a white bullant egg)
+O 0 2119 5 2165 	(a white bullant egg)
+O 0 2119 5 2165 	(a white bullant egg)
+O 0 2119 5 2165 	(a white bullant egg)
+M 0 2115 5 2165 	(Baby bullant)
+M 0 2115 5 2165 	(Baby bullant)
+M 0 2115 5 2165 	(Baby bullant)
+M 0 2115 5 2165 	(Baby bullant)
+M 0 2115 5 2165 	(Baby bullant)
+M 0 2116 10 2159 	(a soldier bullant)
+M 0 2112 10 2161 	(a worker bullant)
+M 0 2113 10 2149 	(a bullant guard)
+M 0 2113 10 2149 	(a bullant guard)
+M 0 2113 10 2149 	(a bullant guard)
+M 0 2113 10 2138 	(a bullant guard)
+M 0 2113 10 2138 	(a bullant guard)
+M 0 2113 10 2139 	(a bullant guard)
+M 0 2113 10 2139 	(a bullant guard)
+M 0 2107 20 2109 	(a large bullant)
+M 0 2107 20 2109 	(a large bullant)
+M 0 2107 20 2109 	(a large bullant)
+M 0 2107 20 2109 	(a large bullant)
+D 0 2119 1 1 	(Tree foyer)
+D 0 2120 3 1 	(On a huge branch)
+M 0 2106 6 2133 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+M 0 2106 6 2114 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+M 0 2106 6 2121 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+D 0 2117 3 1 	(Outside the Sleeping quarters)
+D 0 2117 0 1 	(Outside the Sleeping quarters)
+D 0 2117 1 1 	(Outside the Sleeping quarters)
+M 0 2104 1 2115 	(the tree Store keeper)
+D 0 2112 3 1 	(Inside the tree)
+D 0 2118 0 1 	(Inside the tree)
+M 0 2103 1 2125 	(a tree snake)
+M 0 2102 1 2123 	(the tree chef)
+E 1 2102 1 16 	(a meat cleaver)
+D 0 2111 1 1 	(End of a narrow path)
+S
+$
+@
+
+
+1.5
+log
+@Artus> Sync.
+@
+text
+@a3 1
+O 0 2101 1 2101 	(sewer access pit)
+@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@d3 24
+a26 1
+2199 15 2 117440520
+d29 2
+a30 2
+E 1 2121 99 22 	(An amnethyst earing)
+E 1 2121 99 23 	(An amnethyst earing)
+a32 5
+O 0 2118 5 2145 	(a regenerating potion)
+O 0 2118 5 2145 	(a regenerating potion)
+O 0 2118 5 2145 	(a regenerating potion)
+O 0 2118 5 2145 	(a regenerating potion)
+O 0 2118 5 2145 	(a regenerating potion)
+a58 10
+D 0 2128 1 1 	(Sleeping quarters - Room 1)
+D 0 2128 0 1 	(Sleeping quarters - Room 1)
+O 0 2103 1 2128 	(a large wooden framed bed)
+O 0 2106 1 2128 	(Wardrobe)
+O 0 2108 2 2128 	(a bedside table)
+P 1 2107 9 2108 	(a Health vial)
+P 1 2107 9 2108 	(a Health vial)
+O 0 2108 2 2128 	(a bedside table)
+M 0 2106 6 2128 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+a62 10
+D 0 2129 2 1 	(Sleeping quarters - Room 2)
+D 0 2129 1 1 	(Sleeping quarters - Room 2)
+O 0 2111 1 2129 	(a large wooden framed bed)
+O 0 2109 1 2129 	(Wardrobe)
+O 0 2113 2 2129 	(a bedside table)
+P 1 2107 9 2113 	(a Health vial)
+P 1 2107 9 2113 	(a Health vial)
+O 0 2113 2 2129 	(a bedside table)
+M 0 2106 6 2129 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+a64 8
+D 0 2130 3 1 	(Sleeping quarters - Room 3)
+D 0 2130 0 1 	(Sleeping quarters - Room 3)
+O 0 2112 1 2130 	(a large wooden framed bed)
+O 0 2110 1 2130 	(Wardrobe)
+O 0 2114 2 2130 	(a bedside table)
+P 1 2107 9 2114 	(a Health vial)
+P 1 2107 9 2114 	(a Health vial)
+O 0 2114 2 2130 	(a bedside table)
+a74 1
+O 0 2101 1 2101 	(sewer access pit)
+@
+
+
+1.3
+log
+@Artus> Keeping the repository up-to-date. This is the groundwork for the
+       release.
+@
+text
+@d4 11
+a27 10
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+O 0 2118 10 2145 	(a regenerating potion)
+a66 4
+M 0 2101 1 2122 	(the tree bartress)
+E 1 2104 1 17 	(a bottle of whisky)
+M 0 2106 6 2122 	(a tree inhabitant)
+E 1 2117 6 16 	(a wooden handled scythe)
+@
+
+
+1.2
+log
+@Artus> Getting very close...
+@
+text
+@d2 38
+a39 2
+Haven Swamp~
+2199 10 2 4
+d42 28
+a69 2
+O 0 2103 3 2128 	(A large wooden framed bed)
+O 0 2106 3 2128 	(Wardrobe)
+d72 6
+a77 7
+O 0 2103 3 2130 	(A large wooden framed bed)
+O 0 2106 3 2130 	(Wardrobe)
+D 0 2129 2 1 	(Sleeping quarters - Room 2)
+D 0 2129 1 1 	(Sleeping quarters - Room 2)
+O 0 2103 3 2129 	(A large wooden framed bed)
+O 0 2105 5 2129 	(a metallic shield)
+O 0 2106 3 2129 	(Wardrobe)
+a84 3
+O 0 2103 1 2122 	(A large wooden framed bed)
+M 0 2101 1 2122 	(the tree bartress)
+E 1 2104 1 17 	(a bottle of whisky)
+a87 2
+M 0 2108 2 2157 	(the rat)
+E 1 2114 3 16 	(a runed dagger)
+a88 18
+D 0 2152 2 2 	(Fireplace)
+D 0 2156 1 2 	(Sewer)
+D 0 2153 3 2 	(Sewer)
+D 0 2155 4 1 	(Sewer)
+D 0 2134 1 1 	(A street)
+M 0 2107 1 2152 	(the guard dog)
+G 1 2108 2 -1 	(an opal ring)
+G 1 2112 3 -1 	(an opal potion)
+M 0 2108 2 2154 	(the rat)
+M 0 2114 3 2165 	(Fairy Guard)
+M 0 2114 3 2171 	(Fairy Guard)
+M 0 2117 1 2169 	(Fairy Cook)
+M 0 2118 1 2164 	(Giant Catepillar)
+M 0 2115 1 2170 	(Queen Amyst.)
+M 0 2116 1 2173 	(fairy mage)
+O 0 2118 1 2173 	(a HUGE mysterious tree)
+D 0 2162 4 1 	(Closed in room)
+D 0 2163 5 1 	(Outside a cell)
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d2 49
+a50 66
+Ershteep Road and City~
+2199 59 2 4
+D 0 2104 0 2
+D 0 2152 2 2
+D 0 2112 3 2
+D 0 2116 1 2
+D 0 2156 1 2
+D 0 2153 3 2
+D 0 2155 4 1
+D 0 2134 1 1
+D 0 2132 1 1
+D 0 2133 3 1
+M 0 2107 1 2152
+G 1 2108 2 
+G 1 2112 3 
+M 0 2112 1 2111
+G 1 2102 5 
+M 0 2108 2 2154
+M 0 2108 2 2157
+E 1 2114 3 16
+G 1 2101 10 
+M 0 2113 1 2159
+E 1 2105 2 11
+E 1 2109 2 14
+M 0 2106 1 2133
+E 1 2103 1 8
+E 1 2106 1 12
+E 1 2104 1 16
+M 0 2101 10 2112
+M 0 2101 10 2116
+M 0 2101 10 2119
+M 0 2101 10 2125
+M 0 2101 10 2138
+M 0 2101 10 2138
+M 0 2101 10 2149
+M 0 2101 10 2151
+M 0 2102 10 2114
+M 0 2102 10 2114
+M 0 2102 10 2127
+M 0 2102 10 2132
+M 0 2102 10 2139
+M 0 2102 10 2142
+M 0 2102 10 2147
+M 0 2102 10 2146
+M 0 2103 5 2110
+M 0 2103 5 2130
+M 0 2103 5 2140
+M 0 2103 5 2150
+M 0 2103 5 2159
+M 0 2104 4 2123
+M 0 2104 4 2122
+M 0 2104 4 2141
+M 0 2104 4 2148
+M 0 2105 3 2132
+M 0 2105 3 2143
+M 0 2105 3 2147
+M 0 2114 3 2165
+M 0 2114 3 2171
+M 0 2117 1 2169
+M 0 2118 1 2164
+M 0 2115 1 2170
+M 0 2116 1 2173
+O 0 2117 1 2109
+O 0 2118 1 2173
+D 0 2162 4 1
+D 0 2163 5 1
+d52 1
+@
+

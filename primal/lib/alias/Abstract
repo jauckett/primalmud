@@ -1,0 +1,15 @@
+qw get white backpack; q white
+cb cast 'bu
+cdi cast 'detect invis'
+ci cast 'infra'
+0 get all corpse
+9 get all.gold corpse
+1 cast 'cure light'
+t track $*
+4 get bread backpack;eat bread
+k backstab $*;backstab $* 
+re recite scroll
+qr get red backpack;q red
+ds drink skin
+af assist fusuvilus
+te track ember

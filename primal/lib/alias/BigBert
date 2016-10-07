@@ -1,0 +1,110 @@
+tt cast 'advanced heal' tit
+havwest n;n;w;w;w;s;go stage
+westhav e;e;e;e;e;go wagon
+shadow s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;n;e;n
+start wear all;grab jack;grab drill;wi blade
+grp group all
+ac get all.st;give st clone;give st 2.clone;cast 'detect inv' clone;order clone wi st;cast 'detect inv' 2.clone;order 2.clone wi st
+tm train move
+fw cast 'fire wall'
+pa open force;put all force;get blade force;get tri force
+harm cast 'harm' $1
+tele cast 'teleport'
+spiral u;u;u;w;w;d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+cave s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w
+cdi cast 'detect inv' clone;cast 'detect inv' 2.clone
+ok order clone kill $1;order 2.clone kill $1
+nh cast 'nohassle'
+fs cast 'fire shield'
+st cast 'stoneskin'
+has cast 'haste' self
+ah cast 'advanced heal' $1
+sp1 s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n;n;n;n;n;n;n
+wh cast 'whirlwind'
+wb cast 'waterbreathe'
+ck cast 'cloud kill'
+rp cast 'remove poison' $1
+ls cast 'lightning shield'
+slp cast 'sleep' $1
+str cast 'strength' $1
+dra cast 'dragon' self
+sl cast 'sense life' self
+som rem jewel;get som force;wear sombrero;put jewel force
+crystal n;n;n;w;w;n;n;n;n;n;rem jewel;get som force;wear som;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n;n;n;n;rem som;wear jewel;put som force
+odd w;s;s;e;e;e;e;e;e;e;e;n;w;n;open gate;n
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w
+dp cast 'divine protection' self
+aa order clone assist bigbert;order 2.clone assist bigbert
+fb cast 'fireball' $1
+ms cast 'meteor swarm'
+pb cast 'plasma blast' $1
+ww cast 'waterwalk' $1
+gs cast 'group sanctuary' self
+gh cast 'group heal'
+dim cast 'dimensional gate' $1
+jew rem som;get jew force;wear jew;put som force
+ds get skin force;drink skin;put skin force
+ef exam force
+id cast 'identify' $1
+cl cast 'clone'
+ad cast 'advance' self
+rec cast 'words of recall' self
+jc get corpse;junk corpse
+ref cast 'refresh' self
+par cast 'para' $1
+ar cast 'armor' self
+bl cast 'bless' self
+san cast 'sanctuary' self
+fly cast 'fly' self
+di cast 'detect invisibility' self
+in cast 'infravision' self
+gg get gold corpse
+gac get all corpse
+inv cast 'invisibility' self
+ec exam corpse
+ws wake;stand
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+sum cast 'summon' $1
+woods s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+od order clone die
+ha cast 'holy aid' self
+sa cast 'spirit armor' self
+loc cast 'locate object' $1
+ss get eye force;cast 'serpent skin' self
+dh cast 'divine heal' self
+enc cast 'enchant' $1
+island s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+da cast 'detect alignment' $1
+wt cast 'wraith touch'
+domain s;s;s;e;e;e;s;e;u;u;u;u
+ch cast 'charm' $1
+hr cast 'harm' $1
+sa1 cast 'spirit armor' $1
+san1 cast 'sanctuary' $1
+ref1 cast 'refresh' $1
+sp2 d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;e;e;e
+cb cast 'cure blind' $1
+sp3 n;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;n;n;n;w;w;w;w;n;n;w;w;w;s;s;s
+uss n;e;e;e;s;s;e;e;e;s;s;d;s;w;w
+town n;e;e;e;s;s;e;e;e;s;s
+grat grats @@@@@#####<<<<<   $1   >>>>>#####@@@@@
+bab5 n;n;e;e;s;go portal;e;s;s;s;s;s;s;e;e;e;e;go shuttle
+futhav n;n;n;n;e;go box
+spiral1 w;w;w;w;w;w;w;w;w;open trap;d;d;d;d;d;d;s;s;w;w;w;w;w;w;w;w;w;w;w;w;s;s;s;s;s;s;d;d;d;d;d;d;d;e
+spiral2 s;d;d;s;s;s;s;s;s;d;e;e;e;e;e;e;e;e;e;d;w;w;w;w;w;w;w;w;w;d;n;n;n;n;e;e;e;e;e;e;e;e;d;d;d;d;w;w;w;w;w;w;w;d;n;n;d;e;e;e;e;s
+in1 cast 'infra' $1
+ar1 cast 'armor' $1
+bl1 cast 'bless' $1
+ser order clones serve
+ps primal scream
+finger cast 'finger' $1
+ga get all
+qb quaff blue
+sb rem drill;grab spell;recite spell;grab drill
+th train hit
+hh cast 'heal' $1
+eb exam bag
+tri rem drill;grab tri;rem tri;grab drill
+kk cast 'heal' kopy
+scorp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;e;n;n;n;e

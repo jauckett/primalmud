@@ -1,0 +1,212 @@
+#3600
+close seal upon entrance~
+2 g 100
+~
+if (%direction% == down)
+wait 1
+%echo% The seal closes, sealing out the sewage gas!
+%door% 3633 down flag ab
+end
+~
+#3601
+close seal upon enter (goin down)~
+2 g 100
+~
+if (%direction% == up)
+wait 1
+%echo% The seal closes, sealing in the sewage gas!
+%door% 3633 up flag b
+end
+~
+#3602
+BloB gas damage - fight~
+0 k 100
+~
+if %actor.canbeseen%
+wait 12
+emote coughs a green gas at you!
+wait 1
+emote launches a ball of blob at %actor.name%!
+%send% %actor% The ball of blow splatters on you, burning you with its acid!
+%echoaround %actor% The ball of blow splatters on %actor.name%, burning %actor.name% with its acid!
+%damage% %actor% 50
+wait 110
+end
+~
+#3603
+portal serpent - fight~
+0 k 100
+~
+if %actor.canbeseen%
+wait 23
+%send% %actor% %self.name% squeezes the shit out of you, cracking your rib!
+%echoaround% %actor% %self.name% squeezes the shit out of %actor.name%, cracking a rib!
+%damage% %actor% 100
+wait 97
+end
+~
+#3604
+load portal ghost when get gold~
+1 g 100
+coins~
+eval room %actor.room%
+if (%room.vnum% == 3640)
+wait 2
+%load% mob 3604
+%force% ghost whap %actor%
+%force% ghost say %actor.name% now you want to steal my treasure after my death? Why you little....
+%force% ghost kill %actor.name%
+end
+~
+#3605
+Portal serpant - attack if try to go portal~
+0 c 100
+go~
+if (%arg% == portal)
+set serp atta
+elseif (%arg% == porta)
+set serp atta
+elseif (%arg% == port)
+set serp atta
+elseif (%arg% == por)
+set serp atta
+elseif (%arg% == po)
+set serp atta
+elseif (%arg% == p)
+set serp atta
+end
+if (%serp% == atta)
+say Don't step on me you bastard %actor.name%!
+wait 1
+%send% %actor% %self.name% wraps itself around you and squeezes the shit out of you!
+%echoaround% %actor% %self.name% wraps itself around %actor.name% and squeezes the shit out of %actor.name%
+%damage% %actor% 100
+wait 5
+kill %actor.name%
+else
+return 0
+end
+~
+#3606
+Town drunk - greet~
+0 ghi 75
+~
+if ((%actor.canbeseen%) && if (%actor.vnum% < 0))
+wait 1
+say hey %actor.name% can you go fetch me another 6 pack?
+end
+~
+#3607
+Enter room 3607 - waterfall~
+2 g 100
+~
+if (%actor.vnum% < 0)
+if %actor.canbeseen%
+wait 1
+%echo% This would be such a lovely place if it wasn't a sewer....
+end
+end
+~
+#3608
+Enter room 3608 - sewage outfall~
+2 g 100
+~
+if !((%actor.canbeseen%) && (%actor.vnum% < 0))
+halt
+end
+wait 1
+%echo% The sound of trickling sewage comming from above is strangely pleasant.
+~
+#3609
+Town drunk - greet 2~
+0 ghi 25
+~
+if ((%actor.canbeseen%) && if (%actor.vnum% < 0))
+wait 1
+say %actor.name% I really could use a bath and a shave, could I use your place?
+end
+~
+#3610
+Fugly feral cat - attack~
+0 gh 100
+~
+if ((%actor.canbeseen%) && if (%actor.vnum% < 0))
+wait 5
+emote hisses at you, warning you to stay away!
+end
+~
+#3612
+test direction~
+2 g 100
+south~
+if (actor.vnum < 0)
+if (%direction% == north)
+wait 1
+%echo% Which direction do u wish to head to %actor.name%?
+end
+end
+if (%arg% == south)
+%force% %actor% south
+%echo% %actor.name% slides south
+end
+~
+#3613
+player direction speach~
+2 d 100
+south~
+%force% %actor% south
+~
+#3614
+Sewage flowage - meeting point - room 3614~
+2 g 100
+~
+if !((%actor.canbeseen%) && (%actor.vnum% < 0))
+halt
+end
+wait 1
+%echo% The sewage from the east and west joins the main tunnel here and flows off to the south rapidly.
+~
+#3622
+Slip down on algie - direction from east - room 3622~
+2 g 75
+~
+if %direction% == west
+if %actor.vnum% < 0
+wait 1
+%send% %actor% You slip on the algie and slide down the ledge!
+%echoaround% %actor% %actor.name% slips on the algie and slides down the ledge!
+%force% %actor% down
+end
+end
+~
+#3626
+Slip down on algie - direction from east - room 3626~
+2 g 75
+~
+if %direction% == east
+if %actor.vnum% < 0
+wait 1
+%send% %actor% You slip on the algie and slide down the ledge!
+%echoaround% %actor% %actor.name% slips on the algie and slides down the ledge!
+%force% %actor% down
+end
+end
+~
+#3627
+Portal serpent - death - load ghost serpent~
+0 f 100
+~
+%load% mob 3604
+~
+#3628
+Portal serpent load - purge ghost serpent~
+0 n 100
+~
+* Disabled due to errors in script.
+halt
+eval room %actor.next_in_room(3604)%
+if %room% ==
+%purge% ghost
+end
+~
+$~

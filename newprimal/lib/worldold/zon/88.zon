@@ -1,0 +1,160 @@
+#88 1
+Danger Island~
+8999 10 2 33
+
+M 0 8800 12 8877                       nasty pirate
+G 1 8811 20                             pieces
+E 1 8812 15 10                           bracers
+M 0 8800 12 8878                       nasty pirate
+E 1 8812 15 10                           bracers
+E 1 8808 10 16                            knuckles
+M 0 8800 12 8879                       nasty pirate
+M 0 8800 12 8862                       nasty pirate
+E 1 8808 10 16                            knuckles
+E 1 8812 15 10                            bracers
+G 1 8811 20                             pieces
+M 0 8800 12 8863                       nasty pirate
+E 1 8808 10 16                            knuckles
+G 1 8811 20                             pieces
+E 1 8812 15 10                           bracers
+M 0 8800 12 8864                       nasty pirate
+E 1 8808 10 16                            knuckles
+G 1 8811 20                             pieces
+M 0 8800 12 8846                       nasty pirate
+E 1 8812 15 10                           bracers
+M 0 8800 12 8847                       nasty pirate
+E 1 8808 10 16                            knuckles
+G 1 8811 20                             pieces
+M 0 8800 12 8854                       nasty pirate
+E 1 8812 15 10                           bracers
+M 0 8800 12 8855                       nasty pirate
+E 1 8808 10 16                            knuckles
+G 1 8811 20                             pieces
+M 0 8800 12 8828                       nasty pirate
+E 1 8808 10 16                            knuckles
+G 1 8811 20                             pieces
+M 0 8800 12 8829                       nasty pirate
+G 1 8811 20                             pieces
+M 0 8801 1  8826                      pirate lookout
+E 1 8810 10 0                          glowing idol
+G 1 8811 20                             pieces
+
+M 0 8802 1  8882                       pirate lord
+E 1 8814 15 1                           ring
+E 1 8801 15 3                           cape
+E 1 8802 15 6                           eye patch
+
+M 0 8803 6  8890                      sand worm
+E 1 8813 10 5                          plate
+M 0 8803 6  8892                      sand worm
+M 0 8803 6  8894                      sand worm
+E 1 8813 10 5                          plate
+M 0 8803 6  8895                      sand worm
+M 0 8803 6  8908                      sand worm
+E 1 8813 10 5                          plate
+M 0 8803 6  8910                      sand worm
+
+M 0 8804 8  8813                      doreeg
+E 1 8800 10  16                         blade 
+M 0 8804 8  8815                      doreeg
+E 1 8804 10 3                          cloak
+M 0 8804 8  8817                      doreeg 
+E 1 8804 10  3                         cloak
+E 1 8800 10  16                         blade 
+E 1 8804 10  4                         cloak
+M 0 8804 8  8819                      doreeg
+M 0 8804 8  8821                      doreeg
+E 1 8804 10  3                         cloak
+E 1 8800 10 16                         blade 
+M 0 8804 8  8830                      doreeg
+E 1 8804 10   3                        cloak
+M 0 8804 8  8831                      doreeg
+E 1 8800 10  3                         blade 
+M 0 8804 8  8832                      doreeg
+
+M 0 8805 5  8824                      giant crab    
+E 1 8805 10 16                           claw
+M 0 8805 5  8811                      giant crab    
+E 1 8805 10 16                           claw
+M 0 8805 5  8873                      giant crab    
+M 0 8805 5  8917                      giant crab    
+E 1 8805 10  16                          claw
+M 0 8805 5  8888                      giant crab    
+
+M 0 8806 2  8837                      shark
+M 0 8806 2  8874                      shark
+
+M 0 8807 6  8850                      tiger  
+M 0 8807 6  8848                      tiger  
+M 0 8807 6  8886                      tiger  
+M 0 8807 6  8871                      tiger  
+M 0 8807 6  8873                      tiger  
+M 0 8807 6  8872                      tiger  
+
+M 0 8808 2  8838                      cuttlefish  
+M 0 8808 2  8875                      cuttlefish
+
+M 0 8809 4  8875                      killer fish  
+M 0 8809 4  8888                      killer fish  
+M 0 8809 4  8839                      killer fish  
+M 0 8809 4  8823                      killer fish  
+
+M 0 8810 5  8891                        dune stalker
+E 1 8815 10  13                          belt
+E 1 8809 10   1                            ring
+M 0 8810 5  8893                        dune stalker
+E 1 8809 5    1                          ring
+E 1 8815 10  13                           belt
+M 0 8810 5  8895                        dune stalker
+E 1 8815 10  13                             belt
+E 1 8809 10  1                             ring
+M 0 8810 5  8897                        dune stalker
+E 1 8809 5   1                           ring
+M 0 8810 5  8908                        dune stalker
+E 1 8809 10  1                             ring
+
+M 0 8811 10 8849                     islander  
+E 1 8816 10  11                        shield
+E 1 8803 10  16                        dagger
+M 0 8811 10 8849                     islander  
+E 1 8803 10  16                        dagger
+M 0 8811 10 8873                     islander  
+E 1 8816 10  11                        shield
+M 0 8811 10 8887                     islander  
+E 1 8810 10  0                         idol
+E 1 8803 10  16                        dagger
+E 1 8816 10  11                        shield
+M 0 8811 10 8807                     islander  
+E 1 8810 10  0                         idol
+M 0 8811 10 8805                     islander  
+E 1 8803 10   16                       dagger
+E 1 8810 10   0                        idol
+E 1 8816 10  11                        shield
+M 0 8811 10 8890                     islander  
+M 0 8811 10 8876                     islander  
+E 1 8803 10  16                        dagger
+E 1 8816 10  11                        shield
+M 0 8811 10 8812                     islander  
+E 1 8810 10  0                         idol
+E 1 8803 10  16                        dagger
+M 0 8811 10 8819                     islander  
+E 1 8810 10 1                          idol
+
+M 0 8812 5  8813                     giant bird   
+E 1 8807 10  17                         feather
+M 0 8812 5  8861                     giant bird   
+E 1 8807 10 17                          feather
+
+M 0 8812 5  8909                     giant bird   
+E 1 8807 10  17                         feather
+G 1 8806 10                           egg
+M 0 8812 5  8851                     giant bird   
+G 1 8806 10                           egg
+M 0 8812 5  8886                     giant bird   
+E 1 8807 10 17                          feather
+G 1 8806 10                           egg
+
+O 0 8817 1 8925
+D 0 8831 5 1                        rock close
+S
+$~

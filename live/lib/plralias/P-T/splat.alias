@@ -1,0 +1,90 @@
+1
+`
+11
+kick  imper
+0
+1
+1
+28
+get heal backpack;quaff heal
+1
+1
+8
+28
+get prot backpack;quaff prot
+1
+2
+bh
+33
+buy 10 heal;put all.heal backpack
+1
+2
+bp
+32
+buy 5 prot;put all.prot backpack
+1
+2
+re
+33
+get recall backpack;recite recall
+1
+2
+br
+36
+buy 5 recall;put all.recall backpack
+1
+1
+x
+9
+get chunk
+0
+2
+ch
+12
+exa backpack
+0
+4
+kick
+23
+kick $*;alias ` kick $*
+1
+3
+mum
+38
+get ring;unlock mum;open mum;drop ring
+1
+5
+clean
+41
+w;n;open door;w;e;open path;w;n;n;w;n;w;n
+1
+4
+fire
+79
+open secret;n;u;u;u;u;n;w;w;w;w;n;n;n;n;open hedge;w;w;n;n;e;n;e;open howling;n
+1
+4
+laby
+132
+n;n;w;w;w;n;e;e;s;s;u;n;open french;n;d;d;n;n;n;e;e;open question;n;e;e;e;e;e;e;open ill;s;e;s;e;s;e;s;e;e;n;n;n;w;s;n;s;open blue;w
+1
+3
+gam
+33
+say spells please;say heal please
+1
+1
+9
+14
+rescue polgara
+0
+3
+pol
+33
+follow polgara;autoassist polgara
+1
+2
+sc
+5
+score
+0

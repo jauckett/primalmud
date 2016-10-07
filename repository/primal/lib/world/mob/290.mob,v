@@ -1,0 +1,106 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#29000
+xenomorh queen~
+The Xenomorh Queen~
+The Xenomorh Queen is here guarding her beloved eggs. 
+~
+The Xenomorh Queen is like a queen bee. She is the leader of all the
+xenomorh aliens. She will fight to the death to defend her young, in 
+this case, her eggs. Rest in peace, fiend!!
+~
+18554 1192 -800 S
+50 -15 -7 1d1+5000 9d10+22
+150000 780000
+8 8 2
+#29001
+xenomorh enforcer~
+The Xenomorh Enforcer~
+A Xenomorh Enforcer is standguarding here.
+~
+The enforcer is the Xenomorh Queen's royal bodyguard. It will fight 
+to the death to protect its queen. It has a red body with large and 
+long claws as its weapon. It stands 8ft tall.
+~
+18554 1192 -800 S
+48 -15 -5 1d1+4000 7d10+20
+50000 680000 
+8 8 0
+#29002
+xenomorh~
+A xenomorh~
+A hideous xenomorh is lurking around.
+~
+This alien creature is nothing like anything you have seen before.
+It has a humanoid form. However, that is as close as it gets to being
+compared to a human being. It uses its claw-like weapon to eliminate
+all life forms that are not of its kind. It stands 7ft 11' tall.
+~
+22640 1064 -800 S
+45 -12 -5 1d1+2000 6d5+20
+35000 480000
+8 8 0
+#29003
+heavy assault robot~
+A heavy assault robot~
+A heavy assault robot is here to terminate all intruders.
+~
+This robot is the most powerful mobile defence unit of the mining
+base. It has a body long arms but with long legs shaped like a frog
+legs. Its primary purpose is to terminate any intruder.
+~
+30824 1188 -200 S
+40 -12 -4 1d1+1500 5d5+15
+0 400000
+8 8 0
+#29004
+light assault robot~
+A light assault robot~
+A light assault robot is here to terminate all intruder. 
+~
+This robot is the companion to the heavy version. It has a body long 
+arms but with long legs shaped like a frog's legs. Its primary purpose is 
+to terminate any intruders
+~
+73932 1192 -200 S
+40 -15 -100 1d1+1100 7d5+12
+0 350000
+8 8 0   
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

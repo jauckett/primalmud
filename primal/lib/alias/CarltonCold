@@ -1,0 +1,16 @@
+bh buy 20 heal;put all.heal force
+kill kill $*;alias kk kill $*
+3 get ammo force;reload;put ammo force
+2 get heal force;get heal force;quaff heal;quaff heal
+8 cast 'sanct' $*
+0 cast 'sleep' $*
+re cast 'word'
+bp buy 5 prot;put all.prot back
+ba buy 5 ammo;put all.ammo back
+tra train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;
+wa wake;stand
+det cast 'detect inv'
+inv cast 'invis' $*
+rel get ammo backpack;reload;put ammo back
+qw get prot back;quaff prot
+1 get heal back;quaff heal

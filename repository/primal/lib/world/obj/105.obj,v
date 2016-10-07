@@ -1,0 +1,375 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.01.26.15.41.24;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Added the object files which didn't import.
+@
+text
+@#10501
+Gum boots~
+Gumboots~
+A pair of silver lined gumboots~
+~
+9 1161 65
+-2 0 0 0
+5 4500 0
+E
+A pair of silver lined gumboots~
+~
+A
+14 125
+A
+17 -4
+A
+18 5
+A
+19 4
+L 73
+#10502
+Garden Gloves~
+Garden Gloves~
+A pair of garden gloves forged out of titanium~
+~
+9 1058 129 
+6 0 0 0
+2 5506 0
+A
+1 2
+A
+9 -1
+A
+24 2
+A 
+18 4
+A
+19 5
+L 72
+#10503
+Rose seed~
+Rose Seed~
+A small little seed lies here~
+~
+25 256 16385
+10504 0 0 10507
+1 125500 0
+A
+3 2
+A
+5 -2
+A
+18 3
+A
+19 4
+L 35
+#10504
+Blackberry Seed~
+Blackberry Seed~
+A Blackberry hangs from the vines~
+~
+25 256 16385
+10503 0 0 10507
+1 125500 0
+A
+4 2
+A
+5 2 
+A
+18 4
+A 
+19 3
+L 35
+#10505
+Rose Thorn~
+Rose Thorn~
+A rose stem lies here~
+~
+25 128 5
+10506 0 0 10519
+1 25500 0
+A
+17 -10
+A
+14 -25
+A
+18 2
+A
+19 3
+L 36
+#10506
+Blackberry Thorn~
+Blackberry Thorn~
+A blackberry thorn is lying here~
+~
+25 128 5
+10505 0 0 10519
+1 25500 0
+A
+17 3
+A
+14 -35
+A
+18 1
+A
+19 2
+L 36
+#10507
+Seed Ring~
+A Seeded Ring~
+A ring of seeds has been created.~
+~
+25 1024 16387 
+10519 0 0 10514
+2 251000 0
+A
+3 2
+A
+4 2
+A
+18 5
+A
+19 4
+A
+17 -3
+L 70
+#10508
+Rabbit Foot~
+Rabbit Foot~
+A lucky little Rabbit token~
+~
+11 33 16449
+0 0 0 0
+1 250000000 0
+A
+6 2
+A
+9 -1
+A
+24 3
+A
+18 4
+A
+19 3
+L 73
+#10509
+Wishbone Chicken~
+Wishbone~
+A piece of bone~
+~
+20 2 1
+950000 0 0 0 
+0 0 0 
+#10510
+Bee Sting~
+Bee Sting~
+The stingie thingie of the bee~
+~
+5 33555520 8193
+25 5 7 11 
+10 120000 0
+A
+1 2
+A
+2 -1
+A
+13 75
+A
+18 3
+A
+19 4
+L 30
+#10511
+Queen Bee~
+Queen Bee Stinger~
+The Queens personal stinging weapon~
+~
+5 16778304 8193
+26 5 13 11
+10 2500000 0
+A
+12 -50
+A
+13 -50
+A
+17 -10
+A
+18 5
+A
+19 7
+L 60
+#10512
+Jack Lantern Light~
+Jack-o-Lantern~
+The moldy old Jack-o-Lantern~
+~
+1 66561 16385
+0 0 -1 0
+2 30 0  
+A
+11 20
+A
+9 -5
+A
+18 4
+A
+19 5
+L 73
+#10513
+Saw Chain~
+Chain Saw~
+A Rusted old Chain Saw~
+~
+5 1258 8193
+23 6 11 9
+10 255000 2550
+A
+17 -20
+A
+18 7
+A
+19 4
+L 73
+#10514
+Ring Thorns Shield~
+Ring of Thorns~
+A Magnificent shield made from the thorns of Roses and Blackberrys~
+~
+9 1024 513
+20 0 0 0
+10 30200 0
+A
+12 100
+A
+13 50
+A
+18 6
+A
+19 6
+L 72
+#10515
+Jelly Royal~
+Royal Jelly~
+A Pot of Royal Jelly~
+~
+10 260 1
+95 54 -1 -1
+1 1500000 0
+#10516
+Pool Cue~
+Pool Cue~
+A dusty pool cue~
+~
+5 65664 8193
+0 1 15 11
+5 2500 25
+A
+18 3
+A
+19 2
+A
+1 1 
+A
+13 20
+L 10
+#10517
+Wings~
+Bee Wings~
+A pair of broken bee wings~
+~
+24 1116 1025
+60 0 0 0
+0 32000 0 
+A
+18 6 
+A
+19 6 
+A
+17 -25
+L 75
+#10518
+Rusty Metal Chain~
+Motor Bike Chain~
+A rusty pile of metal lays here~
+~
+9 1024 4097
+25 0 0 0
+10 450000 0
+A
+18 5 
+A
+19 6
+A
+17 -5
+L 74
+#10519
+Thorns Cloak~
+Cloak of Thorns~
+A Cloak of Thorns lieth here~
+~
+11 1024 5 
+10507 0 0 10514
+2 51000 0
+A
+17 -7
+A
+14 -60
+A
+18 5
+A
+19 6
+L 72
+#10520
+Coffee machine~
+a large coffee machine~
+A large coffee machine stands in the corner~
+~
+15 0 1
+200 0 -1 0 
+9200 0 0
+E
+Coffee machine~
+There is a strong aroma comming from the machine. That perculated coffee
+would be ideal to drink
+~
+#10521     
+Coffee mug~
+a mug of coffee~
+A  coffee mug stands here~
+~
+17 0 1
+7 7 12 0
+1 10 10   
+E
+Coffee mug~
+Hot perculated coffee steams out of the mud
+~
+#10522
+couch leather~
+a leather couch~
+A comfortable leather couch is against the wall~
+~
+12 2 1
+200 0 0 0  
+1 1 1
+E
+Couch leather~
+This very cosy, brown leathered, couch is covered in fluffy cushions
+and looks like an ideal place to sleep.
+~
+#99999
+$~
+@

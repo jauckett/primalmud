@@ -1,0 +1,28 @@
+lb look in bag
+bs remove sword;wield dagger;backstab $1;remove dagger;wield sword
+kr kill rat
+kz kill zombie
+kb kill brigand
+ks kill soldier
+kp kill page
+kn kill nobleman
+graveyard e;e;e;e; open gate; e;e;e;e;e;s;s;s;s;s;s;s;s
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+recalls get recall from bag;recite recall
+nolights remove lantern f;put lantern in bag
+lights get lantern from bag; hold lantern
+kg kill goblin
+ga get all all.corpse
+qw get white from bag; quaf white
+qr get red from bag;quaf red
+gc get coins all.corpse
+eats get meat from bag; get bread from bag; eat bread;eat meat
+drinks get skin from bag;drink skin;put skin in bag
+kt kill trickster
+tt track trickster
+kc kill citizen
+km kill merchant
+kj kill janitor
+ktt kill traveller
+br buy 5 red;put all.red in bag
+kd kill drunk

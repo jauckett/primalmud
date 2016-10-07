@@ -1,0 +1,77 @@
+z show zone $*
+4 cast 'stoneskin';cast 'divine protection';cast 'fire shield';cast 'dragon';cast 'holy aid'
+dh cast 'divine heal'$*
+noh cast 'nohas' $*
+tele cast 'teleport'
+lev1 e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+fi cast 'finger' $*
+x get all corpse
+ser order followers serve
+serpent cast 'serpent skin
+ident cast 'identify' $*
+3 cast 'infra' clone;cast 'infra' 2.clone
+2 cast 'advanced heal' $*
+fly cast 'fly' $*
+dim cast 'dimens' $*
+breathe cast 'waterbreathe' $*
+ord order followers kill $1;kill $1
+7 cast 'detect invis' clone;cast 'detect invis' 2.clone
+0 group all;cast 'group sanctuary';group clone;group 2.clone;ungroup
+clone cast 'clone'
+darask w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+rc cast 'remove curse' $*
+wh cast 'whirlwind'
+life cast 'sense life' $*
+tunnel e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w
+sum cast 'summon' $*
+8 cast 'sanctuary'$*
+sanc cast 'sanctuary' $*
+gra grats &B<&R!&B>&B<&R!&B>&B<&R!&B> $*  &B<&R!&B>&B<&R!&B>&B<&R!&B>
+loc cast 'locate obj' $*
+rs get recall force;recite recall
+re cast 'word of recall'
+wa wake;stand
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+dr cast 'create water' skin;drink skin
+eat cast 'create food';eat mush
+inv cast 'invis'$*
+qw get white back;quaff white
+qr get red back;quaff red
+tra train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1
+det cast 'detect invis' $*
+inf cast 'infravision' $*
+bp buy 10 protection;put all.prot force
+bh buy 20 heal;put all.heal force
+qp get prot force;quaff prot
+qh get heal force;quaff heal
+ba buy 10 ammo;put all.ammo force
+sleep cast 'sleep' $*
+drag cast 'dragon' $*
+bl cast 'bless' $*
+walk cast 'waterwalk'$*
+holy cast 'holy aid'$*
+str cast 'streng' $*
+par cast 'paraly' $*
+spirit cast 'spirit arm' $*
+rp cast 'remove para' $*
+blind cast 'blind'$*
+5 cast 'haste'
+for put for 2.for
+haste cast 'haste'
+c get coin corpse
+water cast 'waterbreathe' $*
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+ref cast 'refresh' $*
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+1 get heal force;get heal force;get heal force;get heal force;get heal force;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put force 2.force
+9 cast 'sense life' clone;cast 'sense life' 2.clone
+charm cast 'charm' $*
+fear cast 'fear' $*
+getd hold jack;hold drill;wear black body;wear all;wield laser;open force;open 2.force;open 3.force;put force 2.force;put force 2.force

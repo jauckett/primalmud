@@ -1,0 +1,30 @@
+par cast 'para'
+gac get all all.corpse
+ss cast 'stoneskin'
+qh get heal force;quaff heal
+inv cast 'invis'
+dra cast 'drag'
+bless cast 'bless'
+armor cast 'armor'
+holy cast 'holy'
+sanc cast 'sanc'
+dp cast 'divine prot'
+haste cast 'haste'
+fs cast 'fire shield
+spir cast 'spirit'
+heal cast 'advanced heal'
+clone cast 'clone'
+ga group all
+gs cast 'group sanc'
+oca order clones assist
+oc order followers $*
+ws wake;stand
+sl cast 'sense life'
+rr cast 'word'
+100heal buy 100 heal
+phf put all.heal force
+id cast 'identify'
+nohass cast 'nohassle'
+sphere1 s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+sphere2 n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;dl
+sphere3 d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e

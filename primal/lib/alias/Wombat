@@ -1,0 +1,3 @@
+corpse get all from all.corpse
+light cast 'cure light' $1
+skin drink from skin

@@ -1,0 +1,13 @@
+tm tell musashi $*
+kww k warrior
+enter s ; s ; s ; s ; wear all ; wield sword 
+qr quaff red
+kg k goblin
+gc get all corpse
+kb k beggar
+me get meat bag ; eat meat
+kw k worker
+sk get skin bag ; drink skin ; put skin bag
+cl cast 'cure light'
+kz k zombie
+bs rem oak ; wield knife ; backstab $1 ; rem knife ; wield oak

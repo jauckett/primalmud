@@ -1,0 +1,9 @@
+b kill buffalo
+invi cast 'invisibility'
+` get red backpack;q red
+cure cast 'cure light'
+k kill $*
+gac get all all.corpse
+dr drink from skin
+mer kill merchant
+adv kill traveller

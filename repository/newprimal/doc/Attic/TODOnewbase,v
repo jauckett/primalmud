@@ -1,0 +1,204 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.06.21.01.24.03;	author primal;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.06.10.05.05.41;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Removed:
+- (renamed file to primalTODOnewbase)
+@
+text
+@New Circle/Primal Base TODO:
+-==========================-
+
+Add names of emails if they dont exist here:
+-==========================================-
+mbd@@students.cs.mu.oz.au	DM
+tali@@ains.net.au		Tali
+sandii@@scuis.net.au		Sandii
+bigsexy1@@labyrinth.net.au	Splat
+oztsd@@eisa.net.au               TSD
+kirby@@labyrinth.net.au          Kirby
+furst@@eisa.net.au               Moridin
+
+Notes:
+-====-
+Colour codes for the personal colour system (see colours.txt) should be used
+now where appropiate.
+
+If you feel like contributing or know anyone that does, email tali, sandii and 
+myself and I'm sure we'll find something for you to do.
+
+Legend:
+-=====-
+(percentage complete)				(Majorly in charge of files)
+
+99% means ready for testing.
+
+Majorly in charge of files:
+Meaning that the person is basically responsible for other code in listed 
+file(s) which is not explicitly stated in this document.
+
+ALL:
+-==-
+( 0%) Check/Define rules and policies for gods (immortal handbook)
+( 0%) Check/Fix the existing policy
+
+These need a good looking at, and could be rewritten.
+I say we informally list all points (in a file somewhere) that we would like to
+see in both the immortals handbook, and the policy. Once we are happy that
+everything is in there, then we have a meeting to discuss it. 
+
+DM:
+-=-
+(99%) Addition of all commands				(src/interpreter.c)
+(99%) Wiz Commands 					(src/act.wizard.c)
+(99%) Communication/Channels, Colors 			(src/act.comm.c)
+(99%) Paging, colors  					(src/modify.c)
+(99%) Existing Clan Code				(src/..) 
+(99%) Death Trap detection for thieves 		
+(99%) Info commands 					(src/act.informative.c)
+(99%) Fight System 					(src/fight.c)
+(99%) Exp System					(src/limits.c)
+(99%) Room Display Info - look at brief/compact
+(99%) add personal color system - &0 - &9
+(99%) Fighting hang bug
+(99%) New Spell loading system
+(99%) Spell/Skill displaying commands
+(99%) OLC extras and fixups
+(95%) Player Convert (waiting for the final struct)	(src/util/plrconv.c)
+
+(33%) Update all code associated with personal colour system
+(25%) New Spells/Class deciding of spells
+(10%) New Skills from primal-new-skills
+( 0%) create primal-new-spells 
+
+( 0%) Gun code
+( 0%) New Clan Code (exactly what do we want)		(src/...)
+
+( 0%) Nicen up the repository, and add this file
+( 0%) Clean, check the doc directory
+
+( 0%) Come up with Test Plans
+
+********************************************************************************
+New Ideas:
+
+Explosives:
+  Mortal - implement some kind of explosives.
+  Immortal - blow up a zone
+
+Rooms:
+  Fire - make rooms able to catch fire - make it able to spread, and be put out
+  Flooded - similar to fire ...
+********************************************************************************
+
+Tali:
+-===-
+(99%) Implement mob classes and set undead	(src/db.c & .mob files)
+(99%) Loading lib files 			(src/db.c)
+(99%) Traps and hidden items			(src/around)
+(99%) boards					(src/boards.c)
+(95%) Classes, including modifiers		(src/...)
+(95%) Remort					(src/...)
+#You took this one over ...
+(90%) Quest Log Code (add quest obj types)		(src/act.wizard.c)
+
+(80%) Game Entering States 			(src/interpreter.c:nanny)
+						(src/act.movement.c)
+(35%) Races, including specials			(src/...)
+( 0%) track/hunt 				(src/graph.c)
+( 0%) poofin/poofout saves			(src/...)
+( 0%) Mounts					
+( 0%) New Skills from primal-new-skills
+( 0%) Thaco, AC - find AC in fight.c search for DM - TODO 
+( 0%) Write help for classes and races
+
+( 0%) Come up with Test Plans
+
+Need you tali to:
++ add quest type for objects (whatever ...)
+
+Unassigned
+-=========-
+( 0%) Quest System(s)
+
+TSD:
+-==-
+( 0%) New Quest Eq					(lib/world/obj/45.obj)
+( 0%) Socials text file typos, relevance		(lib/misc/socials)
+( 0%) Quest Ideas
+( 0%) New Spells/Class deciding of spells
+
+Sandii:
+-=====-
+( 0%) Building (zone modifications) - see primalminutes	(lib/world/...)
+( 80%) Help files (color would be nice :p)		(lib/text/help/...)
+( 0%) Update primal_building_doc - incorporate circle v3.0 building doc
+				   (newprimal/doc/building.txt)
+( 0%) Giving all mobs classes
+( 0%) Assign and delegate jobs to other gods
+
+********************************************************************************
+( 0%) Update all text associated with personal colour system
+( 0%) Convert spell help to spell file - just get it ready, roj is handling
+      the primal_spskls file now.
+********************************************************************************
+
+Per:
+-==-
+( 0%) Testing (results on balance/bugs/typos etc...)
+(99%) Added Socials - but need typo/relevance testing	(lib/misc/socials)
+( 0%) Processing latest "typos" and "ideas" file
+( 0%) Process latest "bugs" file
+( 0%) Giving all mobs classes
+
+Kody:
+-===-
+
+Mori:
+-===-
+
+Boz:
+-==-
+
+Hal:
+-==-
+(99%) Auction System
+( 0%) Extra Clan Code (what exactly do we want?)
+
+Roj:
+-==-
+(80%) Existing Spells/Skills				(lib/etc/primal_spskls)
+	(All existing spells have been added	
+	they just need to be applied to classes,
+	and given appropiate restrictions (level&stat))
+@
+
+
+1.1
+log
+@Added:
+- These file into the repository
+@
+text
+@@
+

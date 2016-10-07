@@ -1,0 +1,134 @@
+mech autoexit;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;e;s;s;s;cast 'waterwalk';s;s;s;s;s;w;w;s;s;s;e;s;s;s;s;w;w;s;s;s;cast 'dragon';s;s;open rock;n;open evil;w;w;n;w;s;open sphere;w;rem ooze;wear mask;autoexit
+bs rem plas; wi dark; backstab $1; rem dark; wi plas
+dic cast 'detect invis' clone; cast 'detect invis' 2.clone
+blade give dark clone; give dark 2.clone; o fol wi dark
+rifle give rifle clone; give rifle 2.clone; o fol wi rifle
+cannon give cannon clone; give cannon 2.clone; o fol wi cannon
+grats grat &W(.&Ro&W' ')-&Ro &WW&wel&gl do&Gne $1 on &gre&wac&Whi&wng &gle&Gvel $2!! Ke&gep &won fig&Whtin'!! &Ro&W-(&W' '&Ro&w.)
+zs o zom sit; o 2.zom sit; o 3.zom sit; o 4.zom sit;o 5.zom sit;o 6.zom sit
+serve o fol serve
+fw cast 'fire wall'
+spray cast 'color spray' $1
+plas cast 'plas' $1
+serp cast 'serp'
+check l in tool; l in 2.tool
+jewel rem mask; wear jewel
+mask rem jewel; wear mask
+da cast 'detect alignment'
+ani cast 'animate' $1
+gk o fol k $1; k $1
+elf autoexit;s;s;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w;w;autoexit
+rome autoexit;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;s;e;w;n;s;autoexit
+tunnel autoexit;s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;autoexit
+darask autoexit;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;autoexit
+tudor autoexit;s;s;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s;s;autoexit
+odd autoexit;s;s;s;s;s;e;e;s;s;s;w;s;s;e;e;e;e;e;e;e;e;n;w;n;n;open gate;autoexit
+po pick $1; open $1
+blind cast 'blind' $1
+chain rem life; wear chain
+life rem chain; wear life
+swapb rem fire; wear seed
+swapd rem seed; wear fire
+spirit cast 'spirit arm'
+qq o fol die; ungroup; get all all.corpse; cast 'word of recall'
+healer s; s; d; n; e;e;e;n;sleep
+ls cast 'lightning shield'
+? cast 'identify' $1
+glo cast 'sanc' $1
+cf cast 'create food'
+sl cast 'sleep' $1
+cc cast 'cure critic' $1
+food cast 'create food';eat mushroom
+f cast 'ad' cal
+bless cast 'bless'
+wb cast 'waterbreath'
+howl holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+cw get white back;get white back;give white clone;give white 2.clone;o fol q white
+gs cast 'group sanctuary'
+clone cast 'clone' self
+gate cast 'dimensional gate' $1;open gate;go gate;stand
+wwalk cast 'waterwalk'
+fing cast 'finger of death' $1
+tele cast 'teleport'
+locate cast 'locate object' $1
+sanc cast 'sanctuary'
+infra cast 'infravision'
+gac get all all.corpse
+gag get gold all.corpse
+x examine corpse
+summon cast 'summon' $1
+rf cast 'refresh'
+invis cast 'invisibility'
+arm cast 'armor'
+home cast 'word of recall'
+light cast 'lightning' $1
+di cast 'detect invisibility'
+cross s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+3sword e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;e;e;e;e
+white get white backpack;quaff white
+camalot e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;e;e;e;e;e;n;n;n;e;e;s;e;e;n;n;n;e;e;e;e;e;e
+burn cast 'burning hands' $1
+fire cast 'fireball' $1
+shock cast 'shocking grasp' $1
+drain cast 'energy drain' $1
+kg k guard
+charm cast 'charm person' $1
+ud unlock door
+od open door
+rc cast 'remove curse' $1
+fe cast 'fear' $1
+fly cast 'fly'
+infc cast 'infra' clone;cast 'infra' 2.clone;o fol q white
+holy w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w;s
+wwc cast 'waterwalk' clone;cast 'waterwalk' 2.clone
+water cast 'create water' skin
+gh cast 'group heal'
+clab cast 'armor' clone;cast 'armor' 2.clone;cast 'bless' clone;cast 'bless' 2.clone
+jc get all.corpse;j all.corpse
+cl cast 'cloud k'
+para cast 'para' $1
+dragon cast 'dragon
+finger cast 'finger of death' $1
+ha cast 'holy aid'
+kk ungroup; o fol die; get all all.corpse
+1 cast 'divine heal'
+dp cast 'divine protection'
+pual put all.tonic tool
+oo o fol die; get all all.corpse
+fs cast 'fire shield'
+town w;n;e;e;e;e;e;e;e;e;e;e;e
+rings rem ring; rem ring; wear cold; wear fire
+ringb rem ring; rem ring; wear ony; wear seed
+island autoexit;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open dock;u;e;e;autoexit
+wt cast 'wraith' $1
+ck cast 'cloud kill'
+gg group self; group clone; group 2.clone
+ad cast 'ad' $1
+pual2 put all.tonic 2.tool
+pm put all.mush back
+mush get mush back; eat mush
+clowi give loin clone; give loin 2.clone;give pul clo;give pul 2.clo;give plate clo;give plate 2.clo;o fol wi pul;o fol wear all
+9 o clone get all.cor; o clone junk all.cor
+wind cast 'whirl' $1 
+3 get tonic tool; q tonic;get tonic tool; q tonic;get tonic tool; q tonic;get tonic tool; q tonic;get tonic tool; q tonic;get tonic tool; q tonic;get tonic tool; q tonic
+5 get tonic 2.tool; q tonic;get tonic 2.tool; q tonic;get tonic 2.tool; q tonic;get tonic 2.tool; q tonic;get tonic 2.tool; q tonic;get tonic 2.tool; q tonic;get tonic 2.tool; q tonic
+4 get tonic 2.tool; q tonic;get tonic 2.tool; q tonic;get tonic 2.tool; q tonic;get tonic 2.tool; q tonic
+2 get tonic tool; q tonic;get tonic tool; q tonic;get tonic tool; q tonic;get tonic tool; q tonic
+pist give pistol clone; give pistol 2.clone; o fol wi pis
+meat get meat back; eat meat
+0 get corpse
+g group all
+b backstab $1
+nohass cast 'nohassle'
+nh cast 'nohassle'
+ocean s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n;n;n;n;n;n;n;cast 'waterb';d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;unlock sand;open sand
+stalk rem plasma; wield dark
+good wi bee; hold orb; wear sash; wear tail; wear magic; wear zeus; wear armplate; wear mage
+swap rem dark; wi plasma
+cz cast 'clone';cast 'clone'; o fol die; cast 'ani' cor; cast 'ani' cor
+wall wear all; wi plasma; hold jack; hold hand
+a cast 'advanced heal' $1
+dd cast 'divine heal'
+h cast 'divine heal'
+wake wake
+cloud s

@@ -1,0 +1,4 @@
+mm cast 'magic m' $1 ; cast 'magic m' $1
+raid get all corpse
+ln remove small ; wield long
+sm remove long ; wield small

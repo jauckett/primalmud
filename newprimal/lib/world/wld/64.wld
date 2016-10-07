@@ -1,0 +1,222 @@
+#6400
+The start~
+You are standing in the middle of nowhere surrounded by sand for as far as the eye can see. In the distance you can see several triangle shaped images surrounded in a haze from the sun above.
+~
+64 0 132 0
+D1
+~
+~
+0 0 6402
+S
+#6402
+Travelling east~
+You are heading east through the sand which is difficult to walk in. The mounds of sand have made it difficult to tell which way you are going and the foot prints in the sand seem about the same size as you own maybe you have already started to back 
+~
+64 0 132 0
+D1
+~
+~
+0 0 6403
+D3
+~
+~
+0 0 6400
+S
+#6403
+Middle of the desert~
+You are now unable to see anything but sand all around you. In the distance you can hear noises that sound like a raging party but then again it may be the wind to. You are starting to feel the effects of the heat and sweat is pooring from every pore
+~
+64 0 132 0
+D1
+~
+~
+0 0 6404
+D3
+~
+~
+0 0 6402
+S
+#6404
+Sand mound~
+You are standing it the base of a mound it is about 60 feet up to the top and
+the sand is rolling down from the top toward you at a slight pace.  As you look
+up you think you see somthing however with the sun in your eyes it is hard to
+make out exactly.
+~
+64 0 132 0
+D3
+~
+~
+0 0 6403
+D4
+~
+~
+0 0 6406
+D5
+~
+~
+1 0 6405
+S
+#6405
+The pit~
+You have ventured down into a pit with spikes protruding from the walls.  
+Luckily you didn't land on one of them or else you would have been dead.  As it
+is your injuries will prevent you from leaving in a hurry!    
+~
+64 hyA 16516 0
+S
+#6406
+On a sand dune~
+As you head up towards the top of the mound the sun blasting down on you makes you feel sick perhaps would now would be a really good time to stop and rest up as the road ahead is only going to get harder.
+~
+64 0 132 0
+D4
+~
+~
+0 0 6407
+D5
+~
+~
+0 0 6404
+S
+#6407
+On the mound~
+As you head up towards the top of the mound the sun blasting down on you makes you feel sick perhaps would now would be a really
+good time to stop and rest up as the road ahead is only going to get harder.
+~
+64 0 132 0
+D4
+~
+~
+0 0 6408
+D5
+~
+~
+0 0 6406
+S
+#6408
+Almost at the top~
+As you head up towards the top of the mound the sun blasting down on you makes you feel sick perhaps would now would be a really
+good time to stop and rest up as the road ahead is only going to get harder. The top is only a few steps away and the
+noises you heard earlier are getting louder!
+~
+64 p 132 0
+D4
+~
+~
+0 0 6409
+D5
+~
+~
+0 0 6407
+S
+#6409
+Top of the sand dune~
+As you arrive at the top you can see a small group of tents set up in a circle with a huge fire blazing in the middle.
+The flames would have to be going at least 50 feet high and the cinders are blowing all around.
+~
+64 p 132 0
+D0
+~
+~
+0 0 6410
+D5
+~
+~
+0 0 6408
+S
+#6410
+A Caravan of travellers~
+You have entered a small group of tents there are a few people sitting around drinking
+They all turn and look at you which makes you feel a little uneasy not to mention worried.
+The tents are fading in and out like a haze in the light from above they appear to almost be imaginary
+~
+64 p 132 0
+D2
+~
+~
+0 0 6409
+D5
+~
+~
+0 0 6414
+S
+#6411
+The Harem Tent~
+You are standing in a ten full of women all dressed in long flowing peuces of see through material.
+There is a guard standing in the corner glaring directly at you, making you feel very uncomfortable.
+~
+64 0 132 0
+D1
+~
+~
+0 0 6412
+S
+#6412
+The Slave Tent~
+There are people all running around here busily preparing food platters and beverages for the leader of the group
+and his wives. None of these people will look up at you and have their heads bowed there is another guard in the corner
+looking at you with disgust.
+~
+64 f 132 0
+D1
+~
+~
+0 0 6413
+D3
+~
+~
+0 0 6411
+S
+#6413
+The tent of the Jinn~
+You have entered the tent of the evil Jinn who leads this group of peole through the dessert.
+If he is to catch you here then he would most probably attack with all the power of his magic. The tent is full of food platters
+covered in exotic fruits and meats the likes of which you have never seen before.
+~
+64 0 132 0
+D3
+~
+~
+0 0 6412
+S
+#6414
+Going down the dune~
+As you start the decent the sand beneath you starts to slide and forces you further down and you are unable to go back up.
+~
+64 0 132 0
+D5
+~
+~
+0 0 6415
+S
+T 6402
+#6415
+Base of the dune~
+The sand all around is generating heat at an incredible amount, causing blisters on your fragile skin.
+a glass of water would be good now.
+
+In the distance you can see the tringle shapes of pyrimids and a slight trail leading towards them.
+~
+64 0 4 0
+D0
+~
+~
+0 0 6416
+D4
+~
+~
+0 0 6414
+S
+#6416
+Towards the pyramids~
+Heading towards a group of pyramids with nothing all around but sand and the sun beating down your energy.
+You catch glimpses of people moving about in the distance near the pyramids but can't quite see what they are up to.
+~
+64 0 261 0
+D2
+~
+~
+0 0 6415
+S
+$~

@@ -1,0 +1,26 @@
+re remove super soaker; wield vorpal sw
+rr remove vorpal sword; wield super soaker
+sg cast 'shocking grasp' $*
+cc cast 'cure critic' $*
+sum cast 'summon' $*
+cs cast 'color spray' $*
+qr get red crate; q red
+qw get white crate; q white
+cb cast 'bless'
+ci cast 'infravision'
+cl cast 'cure light' $*
+hv d;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;
+cd cast 'detect invisibility'
+gc get all all.corpse; save
+em get meat crate; eat meat
+ds get skin crate; drink skin; put skin crate
+ca cast 'armor'
+da cast 'detect alignment'
+ss cast 'strength'
+ce cast 'earthquake' $*
+ch cast 'chill touch' $*
+ii cast 'invisibility' $*
+sl cast 'sleep' $*
+hh cast 'heal' $*
+ff cast 'fireball' $*
+recall cast 'word of recall'

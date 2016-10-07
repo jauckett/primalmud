@@ -1,0 +1,86 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@scylla n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;s
+spiral w;d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;d;open rock;d;w;w;w;w;w;w;w;w;w;open trap
+tunnel w;s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+grs grats &B******>>>>>> &R$1 &B<<<<<<******
+z show zone $1
+sum cast 'summon'$*
+cannon rem stalk;get cannon force;wield cannon;put stalk force
+stalk rem can;get stalk force;wield stalk;put can force
+drag cast 'dragon'
+ref cast 'refresh'$*
+ocean n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;s;open ocean;s;e;e;e;e;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+crowbar e;e;e;e;e;s;s;e;get crowbar;unlock door;drop crowbar;open door;n;open door e;e;e;e;e;e;n;n;open cliff;e;get word;unlock tap;open tap;drop word;n;u;u;u;u;n;n;n;n;n;n;n;n
+wh cast 'whirlwind'
+serve order follows serve
+clone cast 'clone'
+walk cast 'waterwalk'$*
+wa wake;stand
+water cast 'waterbreathe'$*
+det cast 'detect invis'$*
+lev3 n;w;n;w;s;s;n
+tudor w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+re cast 'word of recall'
+ret retreat
+par cast 'paral'$*
+rpar cast 'remove paral'$*
+rpoison cast 'remove poison'$*
+life cast 'sense life'$*
+inf cast 'infravision'$*
+noh cast 'nohassle'
+2 cast 'divine heal'$*
+haste cast 'haste'
+8 cast 'sanctuary'
+beach W;s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+charm cast 'charm'$*
+odd w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;n;e;e;e;n;w;n
+getd hold jack;hold drill;wield cannon;wear all;open force;put all force
+inv cast 'invisib'
+ord order follow kill $1; k $1
+die ord follow die
+rome w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w
+rc cast 'remove curse'$*
+stone cast 'stone'$*
+trog d;d;d;d;d;d;s;s;w;w;w;w;w;w;w;w;w;w;w;w;s;s;s;s;s;s;d;d;d;d;d;d;e;e;d
+5 cast 'dragon';cast 'holy aid';cast 'divine protection'
+0 tag $1
+1 cast 'advanced heal'$*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

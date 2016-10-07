@@ -1,0 +1,18 @@
+cb cast 'blindness' $*
+cd cast 'dragon' $*
+ca cast 'armor'
+wg west; get all corpse; eas
+wk wake ; stand; look
+ee e;e;e;e;e
+ww w;w;w;w;w
+nn n;n;n;n;n
+ss s;s;s;s;s
+gac get all corpse;save
+uth tell uther heal
+wd remove halberd;wield dagger
+cc cast 'cure critic' $*
+rc remove crossbow; wield halberd
+rh remove halberd; wield crossbow
+rk remove knife;wield halberd
+clb cast 'lightning bolt' $*
+csg cast 'shocking grasp' $*

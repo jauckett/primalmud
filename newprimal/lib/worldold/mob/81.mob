@@ -1,0 +1,241 @@
+#8100
+queen queenie~
+Queenie~
+Queenie is here talking over matters of state with lord Melchid.
+~
+Queenie is a frail looking woman but looks like she might have a
+nasty streak. She wears a magnificent golden crown on her head and her 
+red curls fall down her back and shine underneath the crown.
+~
+1075226 128 700 S
+55 -50 -10 1d1+9205 7d9+70
+817220 110000
+8 8 2
+#8101
+melchid lord~
+Melchid~
+Lord Melchid is here chatting with Queenie about matters of state.
+~
+Melchid is a large man and has a dignified look about him. He is dressed 
+in majestic robes and attends to important matters of state.
+~
+1093707 128 700 S
+50 -40 -10 1d1+6760 6d8+61
+1004859 110000
+8 8 1
+#8102
+nursey~
+Nursey~
+Nursey is here looking particularly stupid.
+~
+Nursey is a huge woman and doesn't appear to have any intelligence at all.
+~
+1093706 128 100 S
+47 -30 -7 1d1+5260 5d8+55
+779902  90000
+8 8 2
+#8103
+black adder blackadder lord~
+Lord Blackadder~
+Lord Blackadder is here sneering at you.
+~
+Lord Blackadder is dressed from head to toe in black. He has an evil grin 
+apon his face and he is busy looking at himself in a mirror on the wall.
+~
+1112114 128 -750 S
+55 -45 -10 1d1+7760 8d8+65
+904855 90000
+8 8 1
+#8104
+percy lord~
+Lord Percy~
+Lord Percy is here looking perplexed about something.
+~
+Lord Percy looks like a bird who swallowed a plate.
+~
+1077262 136 150 S
+47 -30 -9 1d1+5760 7d7+59
+819900  70000
+8 8 1
+#8105
+baldric~
+Baldric~
+Baldric is standing here with a dreamy look on his face.
+~
+Baldric is a disgusting looking person and he has a rat hanging by a string
+in front of his nose.
+~
+1077394 8 -50 S
+42 -25 -8 1d1+4490 6d7+47
+705220 60000
+8 8 0
+#8106
+bishop~
+The Bishop~
+The baby eating Bishop of Bath and Wells is here.
+~
+He is a huge man with a bloated looking face.
+~
+1093739 128 -500 S
+60 -42 -8 1d1+5090 9d9+55
+705220 100000
+8 8 1
+#8107
+lord flashard~
+Lord Flashard~
+Lord Flashard is here looking magnificent as usual.
+~
+He is your typical hero type; bulging mucsles, flashing teeth and a large 
+'sword' 
+~ 
+3172360 128 700 S
+65 -60 -10 1d1+10390 10d9+75
+1009155 120000
+8 8 1
+#8108
+snipe gutter~
+The gutter snipe~
+A filthy gutter snipe is here playing in the dirt.
+~
+The snipe is only about 11 years old and is covered in grime.
+~
+64 0 -30 S
+5 0 3 1d1+50 2d2+5
+2048 900
+8 8 0
+#8109
+monk black~
+A black monk~
+A black monk is here chanting to his deity.
+~
+The monk is wearing a cowl which obsures his features.
+~
+1058917 8 -500 S
+50 -25 -6 1d1+1490 7d6+50
+133301 22000
+8 8 1
+#8110
+miggins mrs~
+Mrs Miggins~
+Mrs Miggins is here chatting away to her customers.
+~
+She is a plain looking women but has a nice smile.
+~
+9977250 128 200 S
+42 -35 -6 1d1+5990 6d7+55
+629868  90000
+8 8 2
+#8111
+caretaker~
+The caretaker~
+The caretaker is here doing a little dance.
+~
+Judging by his antics he must be a retired morris dancer.
+~
+1093704 128 200 S
+43 -35-10 1d1+5990 6d7+55
+609869  90000
+8 8 1
+#8112
+guard ~
+The guard~
+A guard is here keeping law and order.
+~
+The guard looks pretty tough and heavily armoured.
+~
+1077536 0 200 S
+49 -30 -6 1d1+2990 6d7+45
+109869  70000
+8 8 1
+#8113
+wench girl lady woman~
+The wench~
+An attractive looking wench is here.
+~
+She is quite attractive in a common sort of way and if you like that.
+~
+677232 0 0 S
+39 -20 -6 1d1+3990 6d7+40
+129900  80000
+8 8 2
+#8114
+lookout~
+The lookout~
+A lookout is here watching over the surrouning lands.
+~
+He is a short sturdy fellow and has a keen eye.
+~
+177266 136 150 S
+42 -10 -7 1d1+3060 7d7+55
+540156  99000
+8 8 1
+#8115
+citizen~
+The citizen~
+A citizen of Tudor is here going about their business.
+~
+The citizen looks like he's in a hurry.
+~
+64 0 100 S
+10 10 7 1d20+90 1d7+8
+3177 9000
+8 8 1
+#8116
+headsman executioner~
+The headsman~
+The Headsman of Tudor is waiting here to chop someones head off.
+~
+He wears a black hood and he looks like he would have muscles in his
+shit.
+~
+3250030 128 -750 S
+50 -40 -7 1d1+6760 9d8+65
+294855 100000
+8 8 1
+#8117
+storekeeper~
+Storekeeper~
+The grumpy storekeeper stands here.
+~
+He is wearing a dirty apron and is in a grumpy mood.
+~ 
+3172363 128 100 S
+70 -52 -10 1d1+11390 12d10+90
+909155 350000
+8 8 1
+#8118
+weaponsmith~
+Weaponsmith~
+The weaponsmith stands here.
+~
+He is wearing a dirty apron and is rather upset about having nothing to sell.
+~ 
+3172363 128 100 S
+70 -52 -10 1d1+11390 12d10+90
+909155 350000
+8 8 1
+#8119
+armourer~
+Armourer~
+The armourer stands here.
+~
+He is wearing a dirty apron and is rather upset about having nothing to sell.
+~ 
+3172363 128 100 S
+70 -52 -10 1d1+11390 12d10+90
+1209155 350000
+8 8 1
+#8120
+wizard~
+Wizard~
+The old wizard stands here.
+~
+He is wearing a large pointed hat and is rather upset about having 
+nothing to sell. 
+~ 
+3172363 128 100 S
+75 -52 -10 1d1+13390 12d10+90
+1099155 350000
+8 8 1
+#99999
+$~

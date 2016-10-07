@@ -1,0 +1,16 @@
+bh tell boz heal
+temp order guard assist drexler
+heal cast 'heal' drexler
+san cast 'sanctuary' drexler
+fire c 'fireball' $1
+ed cast 'energy drain' $1
+cs cast 'color spray' $1
+ble cast 'bless' drexler
+sg cast 'shocking grasp' $1
+arm cast 'armor' at drexler
+mm cast 'magic missile' $1
+cf cast 'create food'
+ct cast 'chill touch' $1
+stab backstab $1
+lb cast 'lightning bolt' $1
+pl c 'plasma blast' $1

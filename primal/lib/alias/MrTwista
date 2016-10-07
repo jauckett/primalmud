@@ -1,0 +1,20 @@
+ef get apple crate; eat apple
+rr get recall crate;recite recall
+cs cast 'strength'
+la get atlas crate;examine atlas;put atlas crate
+bs rem halberd;wield dagger;backstab $1;rem dagger;wield halberd; kill $1
+bs$$1 backstab $1;kill $1
+grave2m n;n;n;n;n;n;n;n;n;w;w;w;w;w;open gate;w;w;w;w
+m2grave e;e;e;e;open gate;e;e;e;e;e;s;s;s;s;s;s;s;s;open gate;s
+ready wear all;wield halberd;open crate; put all crate
+rec get recall crate;recite recall
+qr get red crate;quaff red
+br buy 6 red;put all.red crate
+gac get all all.corpse
+bm buy 6 meat;put all.meat crate
+lm get map crate;look map;put map crate
+dw get skin crate;drink skin;put skin crate
+dc drop corpse
+tc tell Cailette $*
+ec examine crate
+qw get white crate;quaff white

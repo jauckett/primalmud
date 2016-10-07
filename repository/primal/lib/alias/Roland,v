@@ -1,0 +1,53 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@clean get all.corpse;j all.corpse
+rat backstab rat
+brigand backstab brigand
+citizen backstab citizen
+worker backstab worker
+wolf backstab wolf
+4 get recall backpack; recite recall
+bread get bread backpack; eat bread
+meat get meat backpack;eat meat
+3 get yellow backpack; q yellow
+2 get red backpack; q red
+1 get white backpack; q white
+all get all all.corpse
+loot get all.coins all.corpse
+kd k droid
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

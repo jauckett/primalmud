@@ -1,0 +1,74 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@bless cast 'bless'
+sanc cast 'sanctuary'
+town d;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e
+home w;w;w;n;n;w;w;w;w;w;w;w;w;w;w;u
+tele cast 'teleport'
+ed cast 'energy drain' $1
+sm cast 'summon' $1
+cr cast 'curse'$1
+qh quaff healing
+qp quaff protection
+lo cast 'locate object' $1
+coins get all.coins from all.corpse
+sg cast 'shocking grasp' $1
+rr recite recall
+infra cast 'infravision'
+qw quaff white
+cf cast 'create food'
+cl cast 'cure light'
+arm cast 'armor'
+gc get all all.corpse
+lb cast 'lightning bolt' $1
+cc cast 'cure critic'
+dt cast 'detect invisibility'
+wr cast 'word of recall'
+fb cast 'fireball' $1
+deeet cast 'detect invisible' $1
+dragon cast 'dragon'
+da cast 'detect align'
+re cast 'refresh'
+ew cast 'enchant weapon' $1
+cure cast 'cure critic' $1
+refre cast 'refresh' $1
+str cast 'strength'
+bs backstab $1
+white cast 'bless';cast 'sanctuary'; cast 'armor'
+hl cast 'heal'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

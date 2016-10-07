@@ -1,0 +1,27 @@
+. wake;sta
+sum cast 'summon' $*
+sa cast 'spirit armor'
+fire cast 'fireball' $*
+ew cast 'enchant weapon' $*
+rec cast 'word of recall'
+blind cast 'blind' $*
+dragon cast 'dragon'
+c get all corpse
+armor cast 'armor'
+see cast 'infra'
+b rem sabre;wield dag;backstab $*;rem dag;wield sabre
+invis cast 'invis'
+weareq hold drum;wield sab;wear all
+lit look in tool
+white get white tool;quaff white
+10 buy 10 #10;p all.ton tool
+q get ton tool;quaff ton
+id recite identify $1
+bless cast 'bless'
+di cast 'detect invis'
+sanc cast 'sanc'
+earth cast 'earthquake'
+1 tell primer rattle
+food cast 'create food'
+sl cast 'sense life'
+2 tell primer spectator

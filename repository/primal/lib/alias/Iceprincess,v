@@ -1,0 +1,87 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@qd wear all;hold jack;wield rifle;hold hammer;open force
+hc cast 'advanced heal' cy
+ant s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n;open gate;n
+op order clones kill mercury
+mars s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;cast 'invisible' ;w;w;w;w;w;w;w;s;e;n;s;u
+gac get all all.corpse
+ug ungroup
+ga group all
+gsan cast 'group sanc'
+spir cast 'spirit armor'
+dra cast 'dragon' 
+pf put all force
+rp cast 'remove poison' $*
+san cast 'sanctuary' $*
+ah cast 'advanced heal'
+para cast 'paralyze' $*
+infra cast 'infra'
+haste cast 'haste'
+fb cast 'fireball' $*
+rc cast 'remove curse' $*
+det cast 'detect invis' $*
+inv cast 'invis'$*
+darask w;w;;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+qh get heal force; quaff heal
+qp get prot force; quaff prot
+rs cast 'word'
+heal cast 'heal' $*
+lb cast 'lightning bolt' $*
+bh cast 'burning hands' $*
+b2h buy 20 heal; put all force
+b1p buy 10 prot; put all force
+lf look in force
+holy cast 'holy aid' 
+dp cast 'divine protection'
+clone cast 'clone'
+ws wake;stand
+ww cast 'whirlwind' 
+jim n;n;w;w;w;s;go stage;e;e;e;e;u
+waw cast 'waterwalk"
+all cast 'divine protection'; cast 'spirit armor';cast 'dragon';cast 'holy aid';cast 'haste'
+tro s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;cast 'waterwalk';s;e;e;s;s;s;e;s;s;s;e;opengate;e
+bli cast 'blindness' $*
+? w;w;w;w;n;n;n;w;s;w;n;w;w;w;s;w;w;s
+cloud cast 'cloud; cloud kill'
+gate cast 'dimension gate' $*
+oc order clones kill bee
+waterb cast 'waterbreathe' 
+shield cast 'lightning shield'
+dh cast 'divine heal'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,45 @@
+po poofout disappears in a blinding flash of Light!
+pi poofin suddenly appears in the middle of a blinding flash!
+getd wear all; wield rifle; hold jack; hold drill; wear black bod
+dh cast 'divine heal' $*
+spellup cast 'fire shield'; cast 'sense life'
+wake wake; stand; l
+sk cast 'stoneskin' $*
+ha cast 'holy aid' $*
+fs cast 'fire shield' $*
+cor get corpse; junk corpse; get corpse; junk corpse
+hrun1 d;e; go med
+home cast 'word of recall'
+di cast 'detect invis' $*
+has cast 'haste' $*
+2 get heal tool; get heal tool; get heal tool; get heal tool; get heal tool; q heal; q heal; q heal; q heal; q heal
+3 q prot
+nh cast 'nohassle' $*
+dra cast 'dragon' $*
+inv cast 'invis' $*
+bh buy 50 heal; put all.heal tool
+pb buy 5 prot
+gsan cast 'group sanc'
+ghea cast 'group heal'
+dp cast 'divine prot' $*
+tp cast 'teleport'
+ww cast 'whirlwind' 
+wwalk cast 'waterwalk' $*
+sa cast 'spirit armor' $*
+san cast 'sanctuary' $*
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+infra cast 'infravision' $*
+cd cast 'clone'; cast 'clone'; order followers die
+anim cast 'animate' corpse; cast 'animate' corpse; group all
+spe cast 'detect invis'; cast 'infra'; cast 'stoneskin'; cast 'spirit armor'; cast 'holy aid'
+spell cast 'dragon'; cast 'nohassle'; cast 'haste';q prot; cast 'divine protection; cast 'invis'; 
+hrun n;n;w;w;w;s; go stage; e;e;e;e;u
+para cast 'para' $*
+main n;e;s;s
+sum cast 'summon' $*
+4 follow latona; auto; auto latona
+5 follow mephysto; auto; auto mephysto
+sl cast 'sense life'
+fw cast 'fire wall' $*
+9 cast 'divine heal' self; cast 'divine heal' mephysto; cast 'divine heal' latona
+7 down; follow blossum

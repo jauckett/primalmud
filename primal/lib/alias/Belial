@@ -1,0 +1,14 @@
+lib l in backpack
+wa wake; stand
+go u; con ogre; d
+sl sleep
+gac get all all.corpse
+qr get red backpack; q red
+qw get white backpack; q white
+b backstab $1
+st steal gold $1
+strong cast 'strength' self
+c cast 'cure critic' self
+r cast 'word of recall' self
+bt backstab traveller
+strength rem all.ring; wear all.sapphire

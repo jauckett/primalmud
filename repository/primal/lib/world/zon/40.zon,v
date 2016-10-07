@@ -1,0 +1,394 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#40 1
+Khulgru's Lost Empire~
+4199 45 2 33554432
+* --> Shahk Spider Lord's Cavern
+*  His 3 hidded spider guards (the 4002 version)
+M 0 4002 4 4003
+M 0 4002 4 4003
+M 0 4002 4 4003
+*  Shahk himself (with staff of command, gold dust, and silver filings)
+M 0 4001 1 4003
+E 1 4032 12 17
+G 1 4001 4
+G 1 4001 4
+G 1 4001 4
+G 1 4001 4
+G 1 4002 2
+*  His throne
+O 0 4044 1 4003
+* --> Spider lair in 4010
+*  3 hidden spiders (the 4023 version)
+M 0 4023 4 4010
+M 0 4023 4 4010
+M 0 4023 4 4010
+* --> Spider lair in 4042
+*  2 hidden spiders (the 4024 version)
+M 0 4024 3 4042
+M 0 4024 3 4042
+* --> 3 wandering spiders
+*  (one of each 4002, 4023, and 4024 to maintain nice even spread)
+M 0 4002 4 4022
+M 0 4023 4 4011
+M 0 4024 3 4024
+* --> Dark Spirit's Domain (4028, 4043, 4044)
+*  The Dark One it's self (wearing spirit shield)
+M 0 4011 1 4044
+E 1 4033 5 11
+*  Wandering Spirits (type 4003, with one wandering in 4011)
+M 0 4003 7 4044
+M 0 4003 7 4043
+M 0 4003 7 4044
+M 0 4003 7 4011
+M 0 4003 7 4043
+M 0 4003 7 4044
+M 0 4003 7 4022
+* --> Crawlers from hell (mob 4004)
+M 0 4004 6 4023
+M 0 4004 6 4040
+M 0 4004 6 4057
+M 0 4004 6 4057
+M 0 4004 6 4058
+M 0 4004 6 4054
+* --> Todarg's little cavern (4060)
+*  Gorath 'the dead' (with message)
+O 0 4004 1 4060
+P 1 4015 1 4004
+*  Earth Elemental Guards (with slab of rock)
+M 0 4019 2 4060
+E 1 4029 7 16
+M 0 4019 2 4060
+E 1 4029 7 16
+*  Todarg Himself (holding key and heart in inventory)
+M 0 4020 1 4060
+E 1 4005 1 17
+G 1 4030 7
+* --> Dwarf Miners (six of them, two extra lamps [4006] are in storage boxes)
+*  1
+M 0 4005 6 4046
+E 1 4006 8 0
+E 1 4018 6 16
+G 1 4016 99
+*  2
+M 0 4005 6 4066
+E 1 4006 8 0
+E 1 4018 6 16
+G 1 4016 99
+*  3
+M 0 4005 6 4066
+E 1 4006 8 0
+E 1 4018 6 16
+G 1 4016 99
+*  4
+M 0 4005 6 4020
+E 1 4006 8 0
+E 1 4018 6 16
+G 1 4003 99
+*  5
+M 0 4005 6 4051
+E 1 4006 8 0
+E 1 4018 6 16
+G 1 4016 99
+*  6
+M 0 4005 6 4002
+E 1 4006 8 0
+E 1 4018 6 16
+G 1 4016 99
+* --> Dwarven Guards (9 of the dudes)
+*  1
+M 0 4008 9 4015
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+*  2
+M 0 4008 9 4015
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+*  3
+M 0 4008 9 4095
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+*  4
+M 0 4008 9 4095
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+*  5
+M 0 4008 9 4095
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+*  6
+M 0 4008 9 4064
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+*  7
+M 0 4008 9 4093
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+*  8
+M 0 4008 9 4034
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+*  9
+M 0 4008 9 4004
+E 1 4019 99 16
+E 1 4020 99 5
+E 1 4021 99 6
+* --> Mining Office
+*  Desk and Mine Master (second desk is with supply master in 4004)
+O 0 4038 2 4015
+M 0 4006 1 4015
+E 1 4001 1 17
+* --> Furnace room
+* 4 furnaces, cool one is openable!!!! (THAT IS A SECRET!!! SHHH!!!)
+O 0 4041 3 4045
+O 0 4042 1 4045
+P 0 4002 2 4042
+O 0 4041 3 4045
+O 0 4041 3 4045
+* --> Black Wyvern
+* remove the key if lying around (4048) this makes it a hard to get to area
+*	;R 0 4106 4048
+*	;R 0 4105 4048
+*	;R 0 4104 4048
+*	;R 0 4103 4048
+*	;R 0 4091 4048
+*	;R 0 4110 4048
+*  do the wyvern
+M 0 4000 1 4106
+E 1 4052 5 3
+E 1 4000 20 6
+E 1 4008 20 7
+E 1 4055 5 8
+E 1 4056 5 9
+E 1 4058 5 11
+E 1 4059 5 12
+E 1 4061 5 14
+E 1 4048 1 17
+*  it's portal, close and lock
+D 0 4106 3 2 
+* --> The tower
+O 0 4049 1 4105
+* tzunak the wizard
+M 0 4017 1 4103
+G 1 4031 99
+E 1 4040 99 17
+E 1 4054 99 12
+E 1 4060 99 8
+* --> Ogre Strike force
+O 0 4036 4 4068
+* 1
+M 0 4009 5 4068
+E 1 4010 20 16
+E 1 4011 20 6
+E 1 4022 20 11
+* 2
+M 0 4009 5 4068
+E 1 4010 20 16
+E 1 4011 20 6
+E 1 4022 20 11
+* 3
+M 0 4009 5 4068
+E 1 4010 20 16
+E 1 4011 20 6
+E 1 4022 20 11
+* 4
+M 0 4009 5 4068
+E 1 4010 20 16
+E 1 4011 20 6
+E 1 4022 20 11
+* 5
+M 0 4009 5 4068
+E 1 4010 20 16
+E 1 4011 20 6
+E 1 4022 20 11
+* Leader
+M 0 4010 1 4068
+E 1 4028 5 16
+E 1 4011 20 6
+E 1 4012 7 13
+* --> spirit of tzunak (4016 in 4125)
+M 0 4016 1 4125
+E 1 4039 10 17
+* close and lock his door
+D 0 4120 2 2
+D 0 4125 0 2
+* --> leeches with key (4021 in 4133)
+M 0 4021 3 4133
+M 0 4021 3 4133
+E 1 4009 1 17
+M 0 4021 3 4133
+* --> golem mobs
+* close and lock their door
+D 0 4073 5 2
+D 0 4114 4 2
+* kiddies
+M 0 4015 3 4115
+E 1 4026 10 17
+M 0 4015 3 4128
+E 1 4026 10 17
+M 0 4015 3 4118
+E 1 4026 10 17
+* women folk
+M 0 4018 4 4116
+M 0 4018 4 4128
+M 0 4018 4 4118
+M 0 4018 4 4115
+* warriors
+M 0 4014 5 4119
+E 1 4027 15 16
+G 1 4016 99
+M 0 4014 5 4119
+E 1 4027 15 16
+M 0 4014 5 4127
+E 1 4027 15 16
+M 0 4014 5 4124
+E 1 4027 15 16
+G 1 4016 99
+M 0 4014 5 4117
+E 1 4027 15 16
+* wizened one
+M 0 4012 1 4129
+G 1 4023 10
+E 1 4025 10 3
+E 1 4024 10 17
+* golem leader
+M 0 4013 1 4132
+E 1 4034 5 1
+* fishermen
+M 0 4022 3 4155
+E 1 4017 4 16
+G 1 4016 99
+G 1 4016 99
+M 0 4022 3 4159
+E 1 4017 4 16
+G 1 4016 99
+M 0 4022 3 4183
+E 1 4017 4 16
+G 1 4016 99
+G 1 4016 99
+G 1 4016 99
+* --> golem dwellings
+O 0 4036 4 4116
+O 0 4036 4 4128
+O 0 4036 4 4118
+O 0 4035 6 4115
+O 0 4035 6 4115
+O 0 4035 6 4116
+O 0 4035 6 4118
+O 0 4035 6 4128
+O 0 4035 6 4129
+O 0 4014 1 4117
+O 0 4037 2 4126
+O 0 4017 4 4126
+* --> Cavern creatures
+* 2 lurkers
+M 0 4026 2 4152
+G 1 4017 99
+M 0 4026 2 4175
+G 1 4017 99
+* 3 pale vipers
+M 0 4027 3 4151
+M 0 4027 3 4160
+M 0 4027 3 4178
+* 4 vampire bats
+M 0 4025 4 4170
+M 0 4025 4 4173
+M 0 4025 4 4156
+M 0 4025 4 4158
+* --> Supply area
+*  First delete key (obj 4013) if dropped in the locked room (4013)
+*	;R 0 4013 4013
+* Door control (N and W on 4014)
+D 0 4013 1 2
+D 0 4004 2 1
+D 0 4014 0 1
+D 0 4014 3 2
+* Setup store room and Supply Office
+*  1 desk here, other is with mine master
+O 0 4038 2 4004
+*  1 table here, other is in golem fishing hut
+O 0 4037 2 4013
+* 2 storage boxes
+* first remove them so they are better cared for
+*	;R 0 4013 4047
+*	;R 0 4013 4047
+O 0 4047 2 4013
+P 0 4006 8 4047
+P 0 4006 8 4047
+O 0 4047 2 4013
+P 0 4018 8 4047
+P 0 4007 3 4047
+P 0 4007 3 4047
+P 0 4007 3 4047
+*  Do the Supply Master (4007)
+M 0 4007 1 4004
+E 1 4013 1 3
+* --> mining carts (4043)
+*  i remove them then put them back
+*       ;R 0 4033 4043
+O 0 4043 5 4033
+P 1 4046 3 4043
+*	;R 0 4055 4043
+O 0 4043 5 4055
+P 1 4045 4 4043
+*	;R 0 4019 4043
+O 0 4043 5 4019
+P 1 4046 3 4043
+P 1 4045 4 4043
+*	;R 0 4050 4043
+O 0 4043 5 4050
+P 1 4046 3 4043
+P 1 4045 4 4043
+*	;R 0 4009 4043
+O 0 4043 5 4009
+P 1 4045 4 4043
+* -->rune door
+D 0 4087 2 2
+D 0 4099 0 2
+S
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

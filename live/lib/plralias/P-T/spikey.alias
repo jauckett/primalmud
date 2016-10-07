@@ -1,0 +1,120 @@
+4
+prot
+25
+get prot back; quaff prot
+1
+3
+for
+37
+s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s
+1
+2
+bt
+36
+buy 10 healing; put all.healing back
+1
+3
+qt;
+27
+get tonic back; quaff tonic
+1
+2
+bf
+91
+rem lant;junk lant;junk skin;buy 20 meat; put all.meat 2.back;buy skin; buy lant; hold lant
+1
+2
+tb
+9
+track buf
+0
+5
+plain
+63
+s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;w;w
+1
+2
+hh
+41
+hit pri;hit pri; hit pri;hit pri; hit pri
+1
+4
+cave
+43
+s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w
+1
+3
+tmp
+121
+n;n;w;w;w;n;e;e;s;s;u;n;n;open french;n;d;d;n;n;n;e;e;open question;n;e;e;e;e;e;e;open illusion;s;e;s;e;s;e;s;e;e;n;n;n;w
+1
+2
+qt
+27
+get tonic back; quaff tonic
+1
+2
+ss
+51
+n;n;n;go pit;d;s;s;s;s;s;s;s;s;s;s;w;d;open catch;s
+1
+3
+sew
+21
+n;n;n; go sewer; d; s
+1
+1
+h
+11
+hit buffalo
+0
+5
+grave
+57
+s;e;e;e;e;open gate;e;e;e;e;e;s;s;s;s;s;s;s;s;open gate;s
+1
+1
+m
+37
+n;n;w;w;w;n;e;e;s;s;u;n;n;open french
+1
+6
+gowest
+30
+n;n;w;w;w;s;go stage;e;e;e;e;u
+1
+4
+maze
+125
+n;n;w;w;w;n;e;e;s;s;u;n;n;open french;n;d;d;n;n;n;e;e;open question;n;e;e;e;e;e;e;open illusion;s;e;s;e;s;e;s;e;e;n;n;n;w;s;n
+1
+1
+k
+7
+kick %1
+0
+2
+qr
+27
+get red backpack; quaff red
+1
+2
+ef
+29
+get meat 2.backpack; eat meat
+1
+2
+br
+27
+buy 10 red;put all.red back
+1
+2
+sp
+54
+say spells please; say refresh please; say heal please
+1
+2
+hp
+15
+say heal please
+0

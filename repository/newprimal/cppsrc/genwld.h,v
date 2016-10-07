@@ -1,0 +1,48 @@
+head	1.1;
+access;
+symbols
+	A3_0_59:1.1
+	LATEST:1.1
+	A3_0_1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2000.05.12.07.43.58;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@/************************************************************************
+ * Generic OLC Library - Rooms / genwld.h			v1.0	*
+ * Original author: Levork						*
+ * Copyright 1996 by Harvey Gilpin					*
+ * Copyright 1997-1999 by George Greer (greerga@@circlemud.org)		*
+ ************************************************************************/
+
+room_rnum add_room(struct room_data *);
+int delete_room(room_rnum);
+int save_rooms(zone_rnum);
+int copy_room(struct room_data *to, struct room_data *from);
+room_rnum duplicate_room(room_vnum to, room_rnum from);
+int copy_room_strings(struct room_data *dest, struct room_data *source);
+int free_room_strings(struct room_data *);
+int sprintascii(char *out, bitvector_t bits);
+@

@@ -1,0 +1,38 @@
+bb kill  soldier
+bar bash;rest;stand
+jj junk all.bandanna;junk all.apple;junk all.orange;junk all.ice;junk all.coke;junk all.bowl;junk all.plate;junk all.floss
+kev n;get all;s
+kt kill bear;kill tin;kill jack;kill horse
+kw kill farmer;kill waitress;kill waiter;kill adventurer;kill chef
+pa put $* backpack
+r read $*
+ga get all
+pu put all.meat backpack;put all.potion backpack
+bw buy 3 white
+br buy 5 red
+zx get all all.corpse;get all.corpse;junk all.corpse
+1 cast 'cure light' $*
+kg kill rat;kill owl;kill snake;kill cat;kill spider
+kh kill dog;kill beggar;kill drunk;kill janitor;kill citizen;kill worker
+ebtake meat backpack;eat meat;take bread backpack;eat bread
+ds drink skin
+eb take meat backpack;eat meat;take bread backpack;eat bread
+op open gate;open door
+ks kill skeleton
+sl sleep
+qw get white backpack;q white
+ka kill ghast
+kc kill citizen
+mm cast 'magic missile' $*
+bx alias bb kill $*;rem oak;wield knife;backstab $*;rem knife;wield oak
+ts track soldier
+6 cast 'infravision'
+eek rec recall
+8 take red backpack;q red
+ku kill undead;kill mummy;kill shadow;kill ghast
+ko kill solar
+kr kill gladiator;kill spectator;kill driver;kill couch;kill page
+lo cast 'locate object' $*
+pl pick lock
+kv kill vulture;kill buffalo;kill wolf
+7 cast 'detect invisibility'

@@ -1,0 +1,5 @@
+cure cast 'cure light' freyja
+eat get $1 backpack; eat $1
+gcc get all.coins all.corpse
+gac get all all.corpse
+start wear all; wield long

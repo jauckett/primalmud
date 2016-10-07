@@ -1,0 +1,66 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@dra cast 'dragon'
+h tell boz heal
+dp drink pot
+ds drink skin
+clb cast 'lightning bolt'
+ccc cast 'cure critic'
+ccw cast 'create water' skin
+protect cast 'protection from evil'
+bless cast 'bless'
+em eat mushroom
+lm l malvina
+ccf cast 'create food'
+cbh cast 'burning hands'
+ccl cast 'cure light'
+cct cast 'chill touch'
+gac get all corpse
+cmm cast 'magic missile'
+infra cast 'infravision'
+inv cast 'invisibility'
+csh cast 'shocking grasp'
+ccp cast 'color spray'
+rr cast 'word of recall'
+di cast 'detect invisibility'
+rw recite 'word of recall'
+jc junk all.corpse
+gc get all.corpse
+ce cast 'earthquake
+cl cast 'call lightning'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

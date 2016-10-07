@@ -1,0 +1,15 @@
+ws w;s
+f fastrent
+fr fastrent
+rl remove long;wield ceramic
+rc remove ceramic; wield long
+rs remove sword; wield gun
+rg remove gun; wield sword
+gac get all corpse;save
+ee e;e;e;e;e
+ww w;w;w;w;w
+nn n;n;n;n;n
+ss s;s;s;s;s
+wk wake;stand;look
+ca cast 'armor
+rr recite recall

@@ -1,0 +1,120 @@
+(TALI) - make it so that you cannot remove cursed items - you must have a remove
+	 curse spell placed upon the item.
+(TALI) - make spells skills trained to a certain value, and then mastered by use
+
+(TALI) ! damageable eq ...
+
+Removed:
+========
+
+ARCHERY: 		X (TALI - UP TO YOU) - tali questioned
+BOWCRAFT:		X (TALI) - tali questioned
+DISARM TRAPS: 		X (TALI) - tali questioned
+DISGUISE:		X (TALI) - tali in races
+DOUBLE WIELD: 		X (TALI) - this is ambidex!
+FIND TRAPS: 		X (TALI) - part of the SEARCH command/skill
+IMITATION: 		X (TALI) - same as 'disguise' ..?
+MEMORIZE FEATURES: 	X (TALI) - tali questioned
+CAMOUFLAGE: 		  (xxx-ARTUS)
+JUMP 			  (xxx-DM)
+SENSE WEAKNESS: 	  (xxx-TALI) - Hmm.. 
+TAXIDERMY: 		  (xxx-DMOC)	
+SKILLED MIND: 		  (xxx-DM)
+
+WANDMAKING: 		  (xxx-TALI) - Need to make an empty item that I can load and modify
+>> Make this speedwalk creation .... 
+
+HERBAL INVISIBILITY	  (xxx-TALI) - make an item that when quaffed/eaten will make invis
+HERBAL SEE INVISIBLE:	  (xxx-TALI) - make an item that when quaffed/eaten will cast see invis
+>> OK, put invalid_level check in do_use - for quaff/use/recite 
+>> TODO - make items ...
+
+
+WILDERNESS SURVIVAL: 	  (xxx-TALI)
+> To similar to camping - not done
+
+
+Unknown:
+========
+
+CONTROL SUMMONING: 	? (TALI) - wtf is this?
+HACK-N-SLASH:	 	? (TALI) - wtf is this?
+
+Complete:
+=========
+
+ADRENALINE: 		! (DM)
+AMBUSH:   		! (xxx-DM) - damage formula
+ARMORCRAFT:		! (TALI)	 
+ATTEND WOUNDS: 		! (xxx-DM) - healing formula
+AXE MASTERY:		!  (TALI)
+BATTLECRY:		! (xxx-DM) - chance formulas for skills 
+BARGAIN:		! (TALI) 
+BEARHUG                 ! (xxx-DM) - damage formulas
+BLADE MASTERY: 		! (TALI)
+BODYSLAM: 		! (xxx-DM) - damage formulas
+CAMPING: 		! (TALI)
+CLOT WOUNDS:		! (xxx-DM) - add heal formula, timer added for
+                                TIMER_HEALING_SKILLS
+CONCEAL SPELL CASTING:	! (TALI)
+DARK RITUAL:		! (TALI)
+DEFEND:			! (TALI)
+DOUBLE BACKSTAB:	! (TALI)
+DOUBLE KICK:		! (TALI) 
+HEADBUTT                ! (xxx-DM) - damage formulas
+HEALING EFFICIENCY: 	! (TALI) - Check for skill, and when casting healing spells, more effect
+MASTERY OF HEALING:     ! (TALI)- Check for skill, test skill, and heal them faster
+MOUNTAINEER:  		! (TALI)
+PILEDRIVE               ! (xxx-DM) - damage formulas
+PURSE EVALUTAION:  	! (DMOC)
+SENSE CURSE: 		! (TALI) - everything in room
+SENSE STATS: 		! (TALI) - base class - make identify remort class
+TRIP                    ! (xxx-DM) - damage formulas
+WEAPONCRAFT: 		! (TALI)
+
+DISARM: 		  (xxx-DM)
+FIRST AID: 		  (xxx-DM)
+FLYING TACKLE:		  (xxx-DM)
+BESERK: 		  (xxx-ARTUS)	
+COMPOSTING:		  (xxx-ARTUS)
+CREATE PITFALL:		  (xxx-ARTUS)
+HAND OF EVIL POISON: 	  (xxx-DM)
+SLIP: 			  (xxx-ARTUS)
+TUMBLE:  		  (xxx-DM)
+MEDITATION: 		  (xxx-DM) - related to healing trance
+ZAPPING: 		  (xxx-DM) -- Restrict use instead.
+				> restricted to class/mage classes ...
+GLANCE:			  (xxx-ARTUS) - Should be done.. Needs testing.
+HEAR NOISES:		  (xxx-ARTUS) - Will have to look into this to intelligently give info back
+MASTERY OF MEDICINE: 	  (xxx-TALI) - Check for skill, and when casting healing spells more effect
+MASTERY OF SHIELDING: 	  (xxx-DM) - Check for shield, and if used, give them an AC bonus  
+POWER KICK:    		  (xxx-DM)
+TORCH CREATION: 	  (xxx-DM) - need to create new torch object for skill
+SUICIDE:       		  (xxx-DMOC) - Think it is done - couldnt find em - DM
+SLEIGHT: 		  (xxx-DMOC) - Think it is done - couldnt find em - DM 
+HEALING TRANCE:		  (xxx-TALI) - Artus - Should be done, scmd of meditate.
+PERCEVING EYE:		  (xxx-DM) - Artus - Should be fine.. CAN_SEE_OBJ needs spells.h for SKILL_PERCEPTION
+POSSESSIONS: 		  (xxx-DM) - Artus> Glance does this?
+HURL AXES:		  (xxx-TALI) - .. see if DM can do this
+AMBIDIDEXTERITY:	  (xxx-DM,ARTUS) - dual wield etc ...) 
+
+Incomplete:
+===========
+
+ * * * * PrimalMUD Mail System * * * *
+ Date: Thu Jun  7 20:32:32 2001
+   To: dangermouse
+   From: kreep
+
+   Hi DM
+
+   I died twice yesterday and someone got the wrong corpse for me. Can you perhaps
+   recreate some eq for me please? Here's my list:
+   1 soul crystal, 1 ppg, 2 cloak of thorns, 2 seeded rings,
+   2 motorbike chains, 1 diamond plate, 1 mechanical claw,
+   1 unearthly red jewel, 1 gum boots, 1 set of strong biceps
+   1 ring of thorns (the shield)
+   I don't remember everything I lost, but will get the rest myself anyway.
+
+   Thanks
+   Kreep

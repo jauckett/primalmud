@@ -1,0 +1,24 @@
+sanc cast 'sanctuary'
+qt get tonic tool;q tonic
+t track $1
+cf cast 'create food';eat mushroom
+bs rem sabre;wi soaker;backstab $1;rem soaker;wi sabre
+qw get white tool;quaff white
+tool exa tool
+ar cast 'armor'
+bl cast 'bless'
+dinv cast 'detect invisibility'
+infra cast 'infravision'
+th train hit;train hit;train hit;train hit
+tg tell gamina $1
+gac get all corpse
+tgs tell gamina summon
+ershteep s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s
+werith s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n
+sleep sleep;wimp 100
+wake wake;stand;wimp 30
+pb get $1 tool kit
+bp put $1 tool kit
+he cast 'heal'
+start wear all;wi sabre;put all tool;get skin tool;get soaker tool;get drum tool;grab drum
+drag cast 'dragon'

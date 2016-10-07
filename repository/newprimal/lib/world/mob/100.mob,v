@@ -1,0 +1,246 @@
+head	1.7;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	2004.03.10.01.28.13;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.30.10.39.32;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.11.03.49.58;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.20.12.01.51;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.14.05.26.32;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.03;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Artus> Sync: Zone 100 (Darask)
+@
+text
+@#10001
+Darask Citizen~
+the Citizen~
+A Citizen of Darask is here glaring at you.
+~
+You see a Citizen of Darask.~
+72 0 800 E
+9 13 11 1d0+100 6d6+5
+3373 6000
+8 8 0
+E
+#10002
+Assassin~
+the Assassin~
+an Assassin is slinking around here
+~
+You see an Assassin slinking around trying to look invisible...
+~
+122907 50332714 800 E
+99 -45 -15 10d10+1500 30d30+50
+0 318117
+8 8 0
+E
+#10003
+werewolf wolf~
+the werewolf~
+A large viscious looking wolf is standing here, growling softly.
+~
+This large beast could be the fabled Werewolf of Darask. You have
+heard some very disturbing stories about what this thing has done
+to some of the citizens of Darask, but surely they're just stories...
+~
+1630221 33792 -1000 E
+20 0 7 10d10+725 10d10+7
+0 100000
+8 8 0
+BareHandAttack: 4
+E
+#10004
+Rat Shopkeeper Thief~
+the Rat~
+The Rat stands here.
+~
+The Rat is a notorious thief!  He made his fortune theiving for the Thieve's
+Guild!  He is an expert pickpocketer and can disappear from sight in the blink
+of an eye!    
+~
+24895578 637567020 -1000 E
+99 -30 -15 10d10+5000 20d20+50
+89100 318117
+8 8 1
+E
+#10005
+Priest shopkeeper ~
+a retired Priest~
+The Retired Priest stands behind the counter
+~
+This Priest was once a man of the cloth but he failed!  His greed became so
+great he had to stop following the "cloth" and open a shop to make more money!
+  
+~
+24373338 570426556 0 E
+98 -30 -15 50d50+5000 20d20+50
+71050 308555
+8 8 1
+E
+#10006
+Spellsword Shopkeeper~
+a Retired SpellSword~
+The Retired SpellSword leans against the counter!
+~
+This poor girl, was a proud and very good SpellSword but by level 50 she
+couldn't handle it anymore!  So the Gods relented and gave her a nice cushy job
+in this store!    
+~
+21227610 570426540 0 E
+51 0 1 20d20+500 20d20+20
+15000 43651
+8 8 2
+E
+#10007
+Shopkeeper Pirate~
+a Pirate ~
+A Pirate stands here cleaning his daggers!
+~
+Sick of the sea, this man lives in thieves city to make a living!  But he isn't
+very good at it!  His money supply is running out!  Probably because he charges
+too much for his goods!    
+~
+21225562 570426540 -1000 E
+80 -30 -7 20d20+5000 20d20+50
+0 167721
+8 8 1
+BareHandAttack: 11
+E
+#10008
+rich merchant~
+a rich merchant~
+A very Rich Merchant stands here
+~
+A very Rich merchant walks around a very dangerous town!  His purse is bulging
+at the seams with all his gold and jewels.  He is here to buy some supplies but
+I think he has made a very bad mistake!    
+~
+256200 0 0 E
+10 15 10 5d5+250 3d10+5
+9000 1000
+8 8 1
+E
+T 10000
+$
+@
+
+
+1.6
+log
+@Artus> Sync.
+@
+text
+@a110 1
+T 10001
+@
+
+
+1.5
+log
+@Artus> Werewolf.
+@
+text
+@d2 1
+a2 1
+Citizen~
+d8 1
+a8 1
+9 13 11 1d6+100 6d6+5
+d39 73
+@
+
+
+1.4
+log
+@Artus> A3_0_315
+@
+text
+@d24 15
+@
+
+
+1.3
+log
+@Artus> Checking In.
+@
+text
+@d19 1
+a19 1
+122907 1058 800 E
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d20 2
+a21 2
+30 18 8 10d10+1500 8d6+50
+0 9000
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d7 2
+a8 2
+64 0 800 S
+9 13 3 1d6+100 2d6+5
+d10 2
+a11 1
+8 8 0 2
+d19 1
+a19 1
+122907 1058 800 S
+d22 3
+a24 3
+8 8 0 2
+#99999
+$~
+@
+

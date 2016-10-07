@@ -1,0 +1,7 @@
+c cast 'cure light' obiwan
+h get all.gold all.corpse
+g get all all.corpse
+ex examine backpack
+gb get $* backpack
+id recite identify $1
+bs backstab $1

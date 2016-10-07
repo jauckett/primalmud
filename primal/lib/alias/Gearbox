@@ -1,0 +1,10 @@
+superfix tell gamina heal; tell gamina sanc; tell gamina armor; tell gamina bless; tell gamina refresh
+ccf cast 'create food'; eat mushroom
+ca cast 'armor'
+gac get all corpse
+cbh cast 'burning hands' $1
+cc cast 'cure critic'
+ccc cast 'cure critical'
+cmm cast 'magic missile' $1
+wake wake;stand
+ci cast 'infravision'

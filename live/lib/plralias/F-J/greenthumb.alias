@@ -1,0 +1,105 @@
+2
+tr
+11
+track mayor
+0
+2
+bb
+7
+bod gho
+0
+2
+mt
+38
+get all.tonic box; put all.tonic force
+1
+2
+bt
+36
+buy 10 healing;put all.healing force
+1
+2
+qt
+28
+get healing force;quaff heal
+1
+2
+be
+6
+beserk
+0
+2
+gd
+79
+s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+1
+2
+qw
+27
+get white back; quaff white
+1
+2
+bw
+32
+buy 10 white; put all.white back
+1
+2
+gs
+51
+s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w
+1
+2
+od
+9
+open door
+0
+2
+gm
+122
+n;n;w;w;w;n;e;e;s;s;u;n;open french;n;say yes;d;d;n;n;n;e;e;open question;n;e;e;e;e;e;e;open ill;s;e;s;e;s;e;s;e;e;n;n;n;w
+1
+2
+tt
+16
+track blackadder
+0
+3
+rec
+28
+get recal back;recite recall
+1
+2
+bf
+30
+buy 10 meat; put all.meat back
+1
+2
+ea
+22
+get meat back;eat meat
+1
+2
+dw
+38
+get skin back;drink skin;put skin back
+1
+2
+rr
+13
+rescue nettos
+0
+2
+nh
+16
+tell nettos heal
+0
+2
+br
+30
+buy 10 red; put all.red 2.back
+1
+2
+qr
+28
+get red 2.backpack;quaff red
+1

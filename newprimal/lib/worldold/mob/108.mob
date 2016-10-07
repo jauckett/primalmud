@@ -1,0 +1,42 @@
+#10801
+ragged bandit~
+Ragged Bandit~
+A ragged bandit has gaunt cheeks and bleak eyes, having fallen on bad times.
+~
+~
+1888 1152 -300 S
+34 -4 -3 1d1+739 3d8+22
+9500 257000
+8 8 1
+#10802
+ragged bandit leader~
+Bandit Leader~
+The leader of a ragged band of bandits looks like he has fallen on bad times.
+~
+~
+1890 1032 -500 S
+42 -15 -5 5d5+1486 3d10+48
+40000 279000
+8 8 1
+#10803
+merchant poor~
+Poor merchant~
+A lowly merchant looks like he could do with more sales.
+~
+~
+64 1024 50 S
+18 3 0 1d1+250 3d6+2
+50000 48000
+8 8 1
+#10804
+slithering mass~
+Slithering mass~
+A slithering mass of flesh moves along the floor of the well
+~
+~
+1050466 1160 -650 S
+45 -20 -6 50d50+1550 4d10+50
+32000 320000
+8 8 0
+#99999
+$~

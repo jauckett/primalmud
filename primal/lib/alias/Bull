@@ -1,0 +1,42 @@
+ttt cast 'burning hands' master
+tt kill master
+x kill executioner
+j kill judge
+h kill healer
+yl kill young lady
+ps cast 'burning hands' spectator
+sp kill spectator
+vv cast 'burning hands' vendor
+v kill vendor
+pp cast 'burning hands' plaintiff
+sss cast 'burning hands' scheduler
+ee kill guard
+12 get red crate;quaff red
+13 get white crate;quaff white
+cs cast 'cure critic' Bull
+wo cast 'burning hands' worker
+ww kill worker
+aa cast 'create food';eat mushroom
+i cast 'infravision'
+l kill traveller
+0 get all corpse
+4 kill warrior
+20 cast 'burning hands' merchant
+> cast 'burning hands' citizen
+< cast 'burning hands' traveller
+y get yellow backpack;quaff yellow
+3 get skin crate; drink skin
+o open crate
+r kill rat
+oo kill ogre
+ss kill scheduler
+p kill plaintiff
+dd kill defendant
+eee kill executionor
+1 get meat crate;eat meat
+cc get recall crate;recite recall
+b kill bailiff
+bbb cast 'color spray' bailiff
+boo kill enfan
+doo cast 'color spray' enfan
+td tell drax; tell free $*

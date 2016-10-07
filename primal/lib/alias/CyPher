@@ -1,0 +1,14 @@
+x wield $*; hold lights; wear all; put all backpack; get skin backpack
+t track $*
+z get all.gold corpse; look in corpse
+zz get all corpse
+qp quaff potion
+cf c 'create food'; eat mushroom
+di c 'detect invisibility' $*
+dw drink water skin
+kk kick $*
+cl c 'cure light' $*
+cc c 'cure critical' $*
+rs recite scroll 
+mm c 'magic missile' $*
+rr get recall backpack; recite recall

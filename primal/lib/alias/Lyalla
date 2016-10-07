@@ -1,0 +1,11 @@
+gamsu tell gamina summon
+cast 'magic missile' $1
+putski put skin in force
+fill fill skin from fountain
+getski get skin from force
+arm cast 'armor'
+clo close force
+op open force
+cor get all from corpse
+1 cast 'cure light' self
+dri drink from skin

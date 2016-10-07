@@ -1,0 +1,19 @@
+stab rem sword;wield dirk;back $1;rem dirk;wield sword
+corpses get all all.corpse
+getatlas get atlas backpack
+knife put knife backpack
+wand put wand backpack
+staff put staff backpack
+sc score
+getskin get skin backpack
+getmeat get meat backpack
+corpse get all corpse
+skin put skin backpack
+meat put meat in backpack
+recall put recall backpack
+atlas put atlas backpack
+map put map backpack
+getmap get map backpack
+torch put torch backpack
+canoe put canoe backpack
+inback exa backpack

@@ -1,0 +1,239 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#56 1
+Black Tower~
+5899 10 1 128
+
+M 0 5600 8  5613                    giant spider
+M 0 5600 8  5773                    giant spider
+M 0 5600 8  5770                    giant spider
+M 0 5600 8  5634                    giant spider
+M 0 5600 8  5662                    giant spider
+M 0 5600 8  5736                    giant spider
+M 0 5600 8  5738                    giant spider
+M 0 5600 8  5766                   giant spider
+
+
+M 0 5601 12 5618                    jelly ochre
+G 1 5613 20                            jelly
+M 0 5601 12 5784                    jelly ochre
+M 0 5601 12 5610                    jelly ochre
+M 0 5601 12 5659                    jelly ochre
+G 1 5613 20                            jelly
+M 0 5601 12 5662                    jelly ochre
+M 0 5601 12 5607                    jelly ochre
+M 0 5601 12 5672                    jelly ochre
+G 1 5613 20                            jelly
+M 0 5601 12 5687                    jelly ochre
+M 0 5601 12 5687                    jelly ochre
+M 0 5601 12 5710                    jelly ochre
+G 1 5613 20                            jelly
+M 0 5601 12 5755                    jelly ochre
+M 0 5601 12 5750                    jelly ochre
+
+
+
+M 0 5602 7 5615                    cebrebral parasite
+M 0 5602 7 5793                    cebrebral parasite
+M 0 5602 7 5637                     cebrebral parasite
+M 0 5602 7 5644                     cebrebral parasite
+M 0 5602 7 5710                    cebrebral parasite
+M 0 5602 7 5656                     cebrebral parasite
+M 0 5602 7 5752                     cebrebral parasite
+
+M 0 5603 10 5619                      centipede
+M 0 5603 10 5801                      centipede
+M 0 5603 10 5628                      centipede
+M 0 5603 10 5640                     centipede
+M 0 5603 10 5673                      centipede
+M 0 5603 10 5729                      centipede
+
+M 0 5603 10 5667                      centipede
+M 0 5603 10 5750                      centipede
+M 0 5603 10 5780                      centipede
+M 0 5603 10 5646                      centipede
+
+
+M 0 5604 6 5624                      green slime
+G 1 5614 20                              slime
+M 0 5604 6 5802                      green slime
+G 1 5614 20                              slime
+M 0 5604 6 5644                      green slime
+M 0 5604 6 5606                      green slime
+G 1 5614 20                              slime
+M 0 5604 6 5689                      green slime
+M 0 5604 6 5727                      green slime
+G 1 5614 20                              slime
+
+
+
+M 0 5605 7 5752                      grey ooze
+M 0 5605 7 5752                      grey ooze
+M 0 5605 7 5624                     grey ooze
+M 0 5605 7 5676                      grey ooze
+M 0 5605 7 5689                      grey ooze
+M 0 5605 7 5721                     grey ooze
+M 0 5605 7 5621                      grey ooze
+
+
+
+M 0 5606 5 5748                       succubus
+E 1 5600 10 16                             dagger 
+M 0 5606 5 5603                       succubus
+E 1 5600 10 16                            dagger
+M 0 5606 5 5722                       succubus
+E 1 5600 10 16                            dagger
+M 0 5606 5 5757                       succubus
+E 1 5600 10 16                            dagger
+M 0 5606 5 5765                       succubus
+E 1 5600 10 16                            dagger
+
+
+M 0 5607 5 5750                      demon marilith
+E 1 5604 10 8                             boots     
+M 0 5607 5 5626                       demon marilith
+E 1 5604 10 8                             boots
+M 0 5607 5 5679                       demon marilith
+E 1 5604 10 8                             boots
+M 0 5607 5 5661                       demon marilith
+E 1 5604 10 8                             boots
+M 0 5607 5 5761                       demon marilith
+E 1 5604 10 8                             boots
+
+
+M 0 5608 5 5615                       bone devil
+E 1 5601 10 16                             bone
+M 0 5608 5 5804                       bone devil
+E 1 5601 10 16                             bone
+M 0 5608 5 5601                       bone devil
+E 1 5601 10 16                             bone
+M 0 5608 5 5725                       bone devil
+E 1 5601 10 16                             bone
+M 0 5608 5 5740                       bone devil
+E 1 5601 10 16                             bone
+
+M 0 5609 4 5765                       erinyes
+E 1 5612 10 14                              bracelet
+M 0 5609 4 5643                       erinyes
+E 1 5612 10 15                             bracelet
+M 0 5609 4 5693                       erinyes
+M 0 5609 4 5760                       erinyes
+E 1 5612 10 14                             bracelet
+
+M 0 5610 3 5791                       doppleganger
+E 1 5602 8  3                             cloak
+M 0 5610 3 5742                       doppleganger
+E 1 5602 8  4                             cloak
+M 0 5610 3 5799                       doppleganger
+E 1 5602 8  3                             cloak
+
+M 0 5611 3 5642                       gargoyle
+E 1 5605 5  17                             statue 
+M 0 5611 3 5669                       gargoyle
+E 1 5605 5  17                             statue
+M 0 5611 3 5696                       gargoyle
+E 1 5605 5  17                             statue
+
+
+M 0 5612 5 5779                       groaning spirit 
+E 1 5603 10 3                             grey cloak
+M 0 5612 5 5803                       groaning spirit
+E 1 5603 10 4                             grey cloak
+M 0 5612 5 5784                       groaning spirit
+E 1 5603 10 3                             grey cloak
+M 0 5612 5 5699                       groaning spirit
+E 1 5603 10 4                             grey cloak
+M 0 5612 5 5753                       groaning spirit
+E 1 5603 10 3                             grey cloak
+
+M 0 5613 1 5719                       Glaysa (demon)
+E 1 5606 10 17                             staff
+E 1 5611 2  9                            ring
+
+M 0 5614 1 5806                      Hutijin (demon)
+E 1 5607 10 16                              sword
+E 1 5610 1  6                             crown
+
+M 0 5615  6 5774                      fungus man
+G 1 5608 20                              potion
+M 0 5615  6 5804                      fungus man
+G 1 5608 20                              potion
+M 0 5615  6 5629                      fungus man
+M 0 5615  6 5681                      fungus man
+G 1 5608 20                              potion
+M 0 5615  6 5705                      fungus man
+M 0 5615  6 5744                      fungus man
+G 1 5608 20                              potion
+
+
+M 0 5616 3 5761                       son of Kyss
+G 1 5609 10                              light
+M 0 5616 3 5649                       son of Kyss
+G 1 5609 10                              light
+M 0 5616 3 5747                       son of Kyss
+
+
+M 0 5617 5 5766                       revenant 
+M 0 5617 5 5667                       revenant
+M 0 5617 5 5686                       revenant
+M 0 5617 5 5735                       revenant
+M 0 5617 5 5753                       revenant
+
+
+M 0 5618 5 5631                       Dreig
+M 0 5618 5 5663
+M 0 5618 5 5670
+M 0 5618 5 5720
+M 0 5618 5 5743
+
+D 0 5740 5 1
+D 0 5759 4 1
+
+D 0 5641 1 1
+D 0 5642 3 1
+
+D 0 5669 5 1
+D 0 5677 4 1
+
+D 0 5696 5 1
+D 0 5682 4 1
+
+S
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,42 @@
+gold get gold all.corpse
+gc get all all.corpse
+strength cast 'strength' $1
+bs backstab $1
+sanc cast 'sanctuary' self
+arm cast 'armor' self
+hj cast 'heal' jin
+cm cast 'charm' $1
+rp cast 'remove poison' $1
+red quaff red
+whitey quaff white
+refresh cast 'refresh' self
+wb cast 'waterbreathe' self
+protect quaff protection
+heal quaff healing tonic
+para cast 'paralyze' $1
+plze cast 'paralyze' $1
+identify cast 'identify' $1
+ps primal scream $1
+hl cast 'heal' self
+pb cast 'plasma blast' $1
+in cast 'invisibility' self
+infra cast 'infravision' self
+drag cast 'dragon' self
+wr cast 'word of recall' self
+fd cast 'finger of death' $1
+cc cast 'cure critic' self
+cw cast 'create water' skin
+cf cast 'create food'
+str cast 'strength' self
+locate cast 'locate object' $1
+di cast 'detect invisibility' self
+qw quaff white
+rc cast 'remove curse' $1
+ho cast 'heal' orifice 
+da cast 'detect alignment' self
+fly cast 'fly' self
+bless cast 'bless' self
+ah cast 'advanced heal' self
+ha cast 'holy aid' self
+sa cast 'spirit armor' self
+dp cast 'divine protection' self

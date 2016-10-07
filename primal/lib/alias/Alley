@@ -1,0 +1,3 @@
+gat get $1 from backpack
+pu put $1 backpack
+gt get all from all.corpse;get all.corpse;junk all.corpse

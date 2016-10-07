@@ -1,0 +1,60 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ppp tit IWBAABRLALFWD Rabble [King-O-the-Heap] $*
+ii cla;chee;app
+kl trac stallion
+ti tel insane $*
+po trac bandit
+hh cast 'heal'
+jj cast 'cure crit'
+tr train hit; train hit;train hit;train hit;train hit;train hit;train hit
+qw get white crate ; qua white
+gg group
+eb get bread crate ; eat bread
+gt n;e;e;e;e;e;e;s;s;e;e;e;e;s;sleep
+gr get red crate;quaff red
+re cast 'word'
+pl trac gnoll
+mn rem sombrero ; wear silver
+nm rem silver;wear sombrero
+tk tel kali $*
+ac emote yells 'Aye Carumba!', in horror.
+vb rem spike;wie chain
+bv rem chain; wie spike
+zz trac treant
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

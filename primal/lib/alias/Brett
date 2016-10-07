@@ -1,0 +1,186 @@
+gak get all corpse
+bs backstab satyr
+br buy red;buy red;buy red;buy red;put all.red force
+garf get all red force
+prf put all.red field
+red get red from field;get red from field;get red from field;quaff potion;quaff potion;quaff potion
+1 remove mace;wield dagger;backstab $*;remove dagger;wield mace
+3 get red 2.crate;get red 2.crate;get red 2.crate;get red 2.crate;q red;q red;q red;q red
+aj assist josh
+ai assist indiana
+qr quitreally
+tb track blackadder
+grats grats ------'--,--<@ -=<$* >=- @>--,--'------
+hs cast 'advanced heal' silverbird
+ip tell robohelp ip $*
+afd at fountain drink fountain
+animate cast 'animate dead' $*
+clone cast 'clone'
+gate cast 'dimension gate' $*
+grin : grins
+sts goto glasya;cast 'summon' trueself;kill glasya
+sr cast 'summon' rosebud
+sc stat captain
+tw track wicked
+shb : squeezes your hand gently back.
+wr whisper rosebud $*
+dr diagnose rosebud
+smr smile rosebud
+gd goto doppleganger;cast 'summon' ember;kil doppleganger
+hsigh : sighs happily
+sh : squeezes your hand gently
+hr cast 'advanced heal' rosebud
+[ goto glasya;cast 'summon' tinkerbell;kill glasya
+he cast 'advanced heal' ember
+tr tell rosebud $*
+cheer : cheers loudly! Wooho!!
+si cast 'summon' ivy
+kd kill doppleganger
+kh kill hutijin
+roseclub at $* echo ---'---,---<@  rOsE cLuB  @>---'---,---
+vso vstat obj $*
+vno vnum obj $*
+vnm vnum mob $*
+ahl at 251 l
+5 at 2.corpse get corpse;drop corpse
+sm3 stat 3.moander
+sm2 stat 2.moander
+cm order 1.worm $*;order 2.worm $*;order 3.worm $*;order 4.worm $*;order 5.worm $*;order 1.crab $*;order 2.crab $*
+om order imp $*;order daemon $*;order soul $*
+grc get all.red crate
+tbo track bosun
+wi cast 'summon' rosebud;remove hammer;wield dagger;backstab wicked;remove dagger;wield hammer
+td track duwick
+tg track aglandiir
+rro cast 'word of recall' rosebud
+c track caretaker
+gk e;get key;unlock door;open door;d
+wkke wake
+quitreally junk all.key;quitreally
+kb kill buccaneer
+bh backstab hutijin
+te track erinyes
+tk track krisp
+ww cast 'waterwalk'
+tj track jenn
+water cast 'create water' skin;drink skin;drink skin;drink skin
+wh get white crate;q white
+tp track lord
+money give 1000000 coins catalina;give 1000000 coins fistan
+b20w buy 20 #2
+pwc put all.white in crate
+ou order unicorn $*
+armor cast 'armor' $*
+fid cast 'finger of death'
+dinvis cast 'detect invis'
+b2d autoexit;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;d;autoexit
+b2h autoexit;n;n;w;w;w;w;w;w;w;w;w;w;w;w;w;s;w;autoexit
+# n;get corpse;s
+locate cast 'locate object' $*
+charm cast 'charm person' $*
+' gossip $*
+h2r autoexit;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;autoexit
+eq cast 'earthquake'
+fb cast 'fireball'
+t get $1 from crate
+4 cast 'heal'
+lb cast 'lightning bolt'
+0 get all corpse
+/w, who
+/w Where
+summon cast 'summon' $*
+recall cast 'word of recall' $*
+teleport cast 'teleport'
+heal cast 'heal' $*
+food cast 'create food';eat mushroom
+sanc cast 'sanctuary' $*
+detect cast 'detect magic';cast 'detect alignment';cast 'detect poison'
+cl cast 'call lightning'
+enchant cast 'enchant weapon' $*
+bless cast 'bless' $*
+tx track 6.moander
+7 get all.red from 2.crate
+= get all all.corpse
+1h remove sword;wield dagger;backstab hutijin;remove dagger;wield sword
+1d remove sword;wield dagger;backstab doppleganger;remove dagger;wield sword
+] remove hammer;wield dagger;backstab thug;remove dagger;wield hammer
+refresh cast 'refresh' $*
+b backstab $*
+bw backstab wicked
+tc track chef
+sa cast 'summon' avon
+ra rescue avon
+th track hutijin
+9 get crate corpse
+b20r buy 20 #3
+prc put all.red crate
+fear cast 'fear' $*
+ag assist godslayer
+reru rescue ruprect
+tl track 5.lord
+tv track vampire
+akl at katts look
+gh at 251 get $*
+aa at $* cast 'armor' $*
+hh at $* cast 'advanced heal' $*
+mm cast 'magic missile' $*
+fod cast 'finger of death' $*
+so cast 'summon' onyx
+ro rescue onyx
+kw kill wicked
+ps primal scream
+oa order all.buffalo $*
+of order followers $*
+rc rescue catalina
+hc cast 'advanced heal' catalina
+kg kill glasya
+kr kill redbeard
+blind cast 'blindness' $*
+bye gossip Bye $*! *waves*
+re rescue ember
+se cast 'summon' ember
+ts track sandworm
+hm cast 'advanced heal' misty
+ba backstab $*
+sing : sings, '$* '
+ats at $1 cast 'summon' $2
+sm steal gold moander
+sg steal gold xaran
+rr cast 'word of recall'
+hw hunt wicked
+rs rescue scullee
+ss cast 'summon' scullee
+cs cast 'color spray'
+ap assist pkunk
+ad assist deathblade
+2 cast 'heal;cast 'heal'
+ri recite identify $*
+8 s;remove hammer;wield dagger;backstab llolth;remove dagger;wield hammer
+sb cast 'summon' butt
+rmi recite recall misty
+rin recite recall indiana
+rpi recite recall picklehead
+ras recite recall ashaman
+rco recite recall corky
+rpk recite recall pkunk
+tin tag indiana
+tni tag nightwolf
+tco tag corky
+tas tag ashaman
+tmi tag misty
+tpi tag picklehead
+tpk tag pkunk
+tm tag misty
+tnu tag nurgle
+tka tag kaer
+tle tag lefty
+fli tag flyer
+tfl tag flyer
+gc w;get all corpse;e
+hb hunt blackout
+balias buyred buy 10 red;put all.potion force
+bm backstab jnrmafia
+bj backstab jnrmafia
+, get all corpse
+bc backstab caveman
+bb backstab blackout

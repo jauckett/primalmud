@@ -1,0 +1,13 @@
+x c 'remove c' $1
+qw get white backp;quaff white
+kk o fol k $1;k $1;o fol k $1
+qa quaff heal
+hh c 'advanced heal'
+eb get mush for;eat mush;c 'create f';put mush for
+dc get skin for;c 'create w' skin;dri skin;put skin for
+pg c 'protection from g
+jj primal s;bash;stand;sc
+ll rem all.ring;wear all.imm;sle
+aa wa;sta;rem all.rin;wear all.ruby
+bb rem quen;wie dag;wie knif;backs $1;rem knif;rem dag;wie quen
+ii c 'i; c 'i' clone; c 'i' 2.clone

@@ -1,0 +1,55 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@rr c 'word
+elf e;s;d;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w
+wake gs wakepk;wake;stand
+sleep gs sleeppk;sleep
+k gs attackhim;kill $1
+ga get all all.corpse
+hhh c 'advan'
+hh c 'heal'
+gac get all all.corpse
+san c 'san'
+infra c 'infra'
+summon c 'summon' $1
+ch c 'charm' $1
+fin c 'fin' $1
+cp c 'plasma' $1
+ef eat meat
+dw drink skin
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

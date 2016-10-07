@@ -1,0 +1,84 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@bb get bread force;eat bread
+tm track merchant
+ts tra soldier
+cor get all.coin all.corpse
+start wear all;open force;p all.potion force;p all.scroll force;p all.bread force;wie super;hold lantern
+rt rescue talis
+gr grats //////////////// $1 \\\\\\\\\\\\\\\\\\
+talib e;s;s;e;e;e;e;e;e;e;e;e;e;e;e;s
+kb kill bandit
+tb track bandit
+tt track talis
+rr get recall bag;recite recall
+ci cast 'infravision' $1
+kv kill vendor
+wa wake;stand
+ca c 'armor' $1
+aflevel rem all.wooden;wear all.leather;rem cloak;wear bandanna
+level rem all.ring;wear all.wooden;rem bandanna;wear cloak
+kt kil trickster
+dri drink skin
+km kill merchant
+ar cast 'armor' $1
+at assist talis
+kw kill warrior
+ll l n;l e;l s;l w;l u;l d
+kg kill guard
+cu get red bag;quaff red
+bu kill buffalo
+fi fill skin fountain
+ri rec identify $1
+cs cast 'sleep' $1
+cc cast 'cure critic' $1
+id w;rec identify guard;e
+wh get white backpack;quaff white
+talih n;w;w;w;w;w;w;w;w;w;w;w;w;n;n;w;
+recall get recall force;rec recall
+white get white force;q white
+red get red force;q red
+ks kill soldier
+br buy 10 red;p all.potion force
+rome n;e;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+brome n;n;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w;n;n;n;n;w;s
+ah ass hew
+di cast 'detect invisibility' $1
+jcor get all.cor;junk all.cor
+lb cast 'lightning bolt' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

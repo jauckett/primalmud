@@ -1,0 +1,12 @@
+re gb recall;recite recall
+1 assist guillen
+inf cast 'infravision'
+heal cast 'cure light' portos
+ge get all all.corpse
+meat get meat backpack;eat meat
+skin get skin backpack;drink skin;put skin backpack
+mag c 'mag miss' $*
+gb get $* backpack
+pb put $* backpack
+ex examine backpack
+qw get white backpack;quaff white

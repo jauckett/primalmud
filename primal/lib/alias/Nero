@@ -1,0 +1,25 @@
+quit quitreally
+burn cast 'burning hands' $1
+kp k p
+str cast 'strength' $*
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w
+ca tell gamina sanc
+bs get dagger force;rem sword;wield dag;backstab $*;rem dag;wield sword;put dagger force
+wake wake;stand
+ref tell gamina refresh
+cla cast 'cure light' Nero
+cl cast 'cure light' $*
+drin get skin force;drink skin;put skin force
+eatb get bread force;eat bread
+heal tell gamina heal
+recall tell gamina summon
+bu buy $*
+stor put $* force
+sa tell gamina sanc
+arm tell gamina armor
+bless tell gamina bless
+mm cast 'magic missile' $*
+chill cast 'chill touch' $*
+see cast 'infravision' Nero
+infra cast 'infravision' $*
+gac get all corpse

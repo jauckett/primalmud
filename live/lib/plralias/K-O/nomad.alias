@@ -1,0 +1,140 @@
+6
+locate
+16
+cast 'locate' $1
+1
+4
+home
+13
+cast 'recall'
+0
+5
+invis
+19
+cast 'invisibility'
+0
+2
+di
+19
+cast 'detect invis'
+0
+2
+bs
+11
+backstab $1
+1
+6
+scream
+19
+cast 'primal sc' $1
+1
+5
+tudor
+131
+s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+1
+5
+grats
+42
+grat ----====<<<<(((( $1 )))))>>>>====----
+1
+2
+bb
+11
+bodyslam $1
+1
+1
+a
+23
+get tonic tool; q tonic
+1
+5
+stats
+14
+skill warr asc
+0
+2
+tt
+13
+track cyclops
+0
+3
+red
+16
+get red backpack
+0
+1
+?
+27
+get iden back; reci iden $1
+1
+4
+prot
+21
+get prot back; q prot
+1
+4
+rome
+47
+s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+1
+6
+darask
+77
+w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+1
+4
+laby
+127
+n;n;w;w;w;n;e;e;s;s;u;n;n;open french;n;d;d;n;n;n;e;e;open question;n;e;e;e;e;e;e;open illusion;s;e;s;e;s;e;s;e;e;n;n;n;w;s;n;s
+1
+2
+pr
+20
+put all.red backpack
+0
+2
+rf
+18
+say refresh please
+0
+5
+light
+12
+cast 'torch'
+0
+1
+b
+10
+bearhug $1
+1
+4
+bear
+10
+bearhug $1
+1
+4
+wake
+10
+wake;stand
+1
+2
+sc
+5
+score
+0
+6
+spells
+17
+say spells please
+0
+4
+heal
+15
+say heal please
+0
+3
+gac
+18
+get all all.corpse
+0

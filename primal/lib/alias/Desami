@@ -1,0 +1,31 @@
+grats congrats GRATS!!
+id recite identify $1
+inf c 'infravision' desami
+kb k beggar
+din c 'detect invisibility' desami
+gbb get $1 2.bag
+pbb put $1 2.bag
+gate open gate
+bs backstab $1
+y c 'cure light' ripple
+fill fill skin from fountain
+rr recite recall desami
+cheek emote gives you a tender kiss on your cheek.
+ee eat bread
+dr drink skin
+gb get $1 bag
+pb put $1 bag
+gaa get all all.corpse
+raise emote raises an eyebrow.
+arm c 'armor' desami
+food c 'create food'
+water c 'create water' skin
+sco save;sneak;sco
+em eat mushroom
+h c 'cure light' desami
+st wa;st
+sl sleep
+mm c 'magic missile' $1
+ll l in $1.corpse
+gcc get all.coins all.corpse
+ldb lick deathblade

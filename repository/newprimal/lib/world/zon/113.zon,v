@@ -1,0 +1,28 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2004.02.09.00.25.35;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Artus> Adding.
+@
+text
+@#113 3
+406 BUS ROUTE~
+11399 30 2 0
+S
+$
+@

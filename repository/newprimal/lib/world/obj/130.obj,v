@@ -1,0 +1,267 @@
+head	1.6;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2004.05.23.07.21.50;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.29.07.28.23;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.25.03.35.28;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.41;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Artus> Checking everything in again.
+@
+text
+@#13000
+shiny gold key~
+a shiny gold key~
+A shiny gold key has been left here.~
+~
+18 4096 5 0
+2 0 0 0
+5 100 0 0
+L 0
+#13001
+small key~
+a small key~
+A small key has been left here.~
+~
+18 4096 5 0
+1 0 0 0
+5 100 0 0
+L 0
+#13002
+upright piano~
+an upright piano~
+A dusty upright piano stands here against the wall.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#13003
+broken bottle~
+a broken bottle~
+A smashed whiskey bottle is lying here. It has a sharp jagged edge.~
+~
+5 0 24577 0
+0 2 6 11
+5 100 10 0
+L 0
+#13004
+bottle whiskey~
+a bottle of whiskey~
+A bottle of whiskey has been left here.~
+~
+17 0 1 0
+10 10 5 0
+10 200 100 0
+L 0
+#13005
+can coke~
+a can of Coke~
+A can of Coke has been left here. ~
+~
+17 0 1 0
+1 1 15 0
+5 75 50 0
+L 0
+#13006
+homebrew bottle~
+a bottle of Vader's homebrew~
+A bottle of Vader's homebrew has been left here.~
+~
+17 0 1 0
+5 5 7 0
+10 300 150 0
+L 0
+#13007
+gun~
+a prototype gun~
+A prototype of a Gun is here, waiting to be tested.~
+~
+5 0 16385 0
+6 2 50 32788
+7 500 250 99
+L 99
+#13008
+holster belt~
+a gun holster belt~
+A gun holster belt has been left here.~
+~
+15 0 2049 0
+7 0 -1 0
+0 0 0 0
+L 0
+A
+17 1
+#13009
+bullets ammo~
+some bullets~
+Some 38 calibre bullets have been dropped on the ground here.~
+~
+5 0 8193 0
+14 2 50 15
+7 25 3 99
+L 99
+#13010
+wagon medieval gateway~
+a Magical Medieval Wagon~
+A Magical Medieval Wagon stands here shimmering eerily.~
+~
+41 1 0 0
+1115 0 0 0
+11 10 10 0
+L 0
+#13011
+stagecoach magical gateway~
+a Magical Stagecoach~
+A Magical Stagecoach Wagon is here humming eerily.~
+~
+41 1 0 0
+13235 0 0 0
+11 10 10 0
+L 0
+E
+stagecoach stage coach~
+You see a large stagecoach here which seems out of place.
+You feel the Need to GO into it....
+~
+#13059
+Skull~
+a Skull with four pins sticking into it~
+A skull with four pins sticking into it lies here~
+~
+25 515 1 0
+10369 0 0 10360
+0 0 0 0
+L 0
+$~
+@
+
+
+1.5
+log
+@Artus> Minor changes made in wrong place.
+@
+text
+@d94 1
+a94 1
+wagon medieval~
+d103 1
+a103 1
+stagecoach stage coach~
+d109 2
+a110 2
+11 10 10 15
+L 15
+@
+
+
+1.4
+log
+@Latest Versions
+@
+text
+@d109 2
+a110 2
+11 10 10 0
+L 0
+@
+
+
+1.3
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@d71 2
+a72 2
+7 500 250 0
+L 0
+d90 3
+a92 3
+18 2 50 49172
+7 25 3 0
+L 0
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d83 1
+a83 1
+17 2
+d100 1
+a100 1
+5000 10 10 0
+d109 1
+a109 1
+5000 10 10 0
+d118 1
+a118 1
+A Skull with four pins sticking into it~
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d9 1
+d18 1
+d27 1
+d36 1
+d45 1
+d54 1
+d63 1
+d72 1
+d81 1
+d92 1
+d101 1
+d110 1
+d116 9
+@
+

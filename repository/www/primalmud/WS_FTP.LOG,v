@@ -1,0 +1,49 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@100.07.11 17:07 B F:\primalmud\downswrd.gif <-- primalmudwww /sandiis-www/primalmud downswrd.gif
+100.07.11 17:07 B F:\primalmud\emailsub.htm <-- primalmudwww /sandiis-www/primalmud emailsub.htm
+100.07.11 17:07 B F:\primalmud\index.html <-- primalmudwww /sandiis-www/primalmud index.html
+100.07.11 17:08 B F:\primalmud\primalMap.jpg <-- primalmudwww /sandiis-www/primalmud primalMap.jpg
+100.07.11 17:26 B F:\primalmud\downswrd.gif --> 203.164.68.191 /home/sandii/primalmud downswrd.gif
+100.07.11 17:26 B F:\primalmud\emailsub.htm --> 203.164.68.191 /home/sandii/primalmud emailsub.htm
+100.07.11 17:26 B F:\primalmud\index.html --> 203.164.68.191 /home/sandii/primalmud index.html
+100.07.11 17:27 B F:\primalmud\primalMap.jpg --> 203.164.68.191 /home/sandii/primalmud primalMap.jpg
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

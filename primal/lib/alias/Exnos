@@ -1,0 +1,34 @@
+rs recite scroll
+bb rem sword;wield dagger;backstab $1;rem dagger;wield sword
+a assist boz
+drink drink skin
+ms cast 'meteor'
+p cast 'plasma'
+bp2 put $1 in 2.backpack
+h cast ' heal' self
+hg hunt gawain
+fb cast 'fireball'
+sum cast 'summon' $1
+see cast 'detect invisibility' self
+gg get gold from corpse
+food cast 'create food';eat mushroom
+if cast 'infravision' self
+in cast 'invisibility' self
+wake wake;stand up
+ex examine $1
+bp put $1 in backpack
+g get all
+bc get all from corpse;get corpse;junk corpse
+k kick
+q quaf $1
+sl cast 'sleep' $1
+earth cast 'earthquake'
+hk hunt crystal king
+r cast ' word of recall' self
+da cast 'detect alignment'
+ff put $1 in field
+f cast 'finger'
+lo cast 'locate' $1
+gr grats ----->>>>> Go $1 Go <<<<<-----
+hs hunt shark
+hc hunt crab

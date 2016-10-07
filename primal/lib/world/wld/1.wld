@@ -1,0 +1,2014 @@
+#1
+Southbank Road.~
+You are walking along Southbank Road and you can see a large estate to
+your west and to your north down River Road. To your east Southbank Road
+leads towards Main Street and several shops.
+~
+1 0 1
+D0
+~
+~
+0 -1 300
+D1
+Southbank Road.
+~
+~
+0 -1 3
+D2
+Under a Tree
+~
+~
+0 -1 104
+D3
+Southbank Road
+~
+~
+0 0 200
+S
+#2
+Limbo~
+You are in Limbo
+~
+1 384 1
+S
+#3
+Southbank Road.~
+You are walking along Southbank Road. To the south you can see a broken down 
+warehouse and to the east you can see the heart of Haven. To the west you see 
+a large estate of houses that the citizens of Haven reside in.
+~
+1 0 1
+D1
+Southbank Road
+~
+~
+0 -1 4
+D2
+Entrance to the warehouse
+~
+~
+0 -1 9
+D3
+Southbank Road
+~
+~
+0 -1 1
+S
+#4 
+Southbank Road.~
+You are walking along Southbank Road. Directly to the south is the
+entrance to the Wayfarer's Inn where the kind receptionist will let you
+rent your equipment for a small fee. Southbank Road leads east towards 
+Main Street and west towards a large estate.
+~
+1 0 1
+D1
+Intersection of Southbank and Main.
+~
+~
+0 -1 5
+D2
+Entrance to the Wayfarer's Inn.
+~
+~
+0 -1 10
+D3
+Southbank Road.
+~
+~
+0 -1 3
+S
+#5
+Intersection of Southbank and Main.~
+You are standing at the busy intersection of Southbank and Main.
+Main Street continues south from here. Southbank Road leads east
+and west from here.
+~
+1 0 1
+D1
+Southbank Road.
+~
+~
+0 -1 6
+D2
+Main Street.
+~
+~
+0 0 11
+D3
+Southbank Road.
+~
+~
+0 -1 4
+S
+#6
+Southbank Road.~
+You are walking along Southbank road. Directly south of here is the 
+infamous Riverside Tavern where you can drink and rest while you prepare
+to go out on your next adventure. 
+~
+1 0 1
+D1
+Southbank Road.
+~
+~
+0 -1 7
+D2
+Entrance to the Riverside Tavern.
+~
+~
+0 -1 12
+D3
+Intersection of Southbank and Main.
+~
+~
+0 -1 5
+S
+#7
+Southbank Road.~
+You are walking along Southbank Road. Directly south of here is Captain
+Hamish's Boat Bits store.  To your west you can see the Riverside Tavern
+and Southbank Road winds around a large jetty to your east.
+~
+1 0 1
+D0
+~
+~
+0 -1 8695
+D1
+End of Southbank Road.
+~
+~
+0 -1 8
+D2
+Boat Shop.
+~
+~
+0 -1 13
+D3
+Southbank Road.
+~
+~
+0 -1 6
+S
+#8
+End of Southbank Road.~
+You are at the end of Southbank Road. To the north is a jetty where many small
+river craft are tied up. To the east is a narrow path that leads to old ruins
+of the Moathouse.
+~
+1 0 1
+D0
+On the jetty.
+~
+~
+0 -1 8461
+D1
+Path to the Moathouse.
+~
+~
+0 0 60
+D3
+Southbank Road.
+~
+~
+0 -1 7
+S
+#9
+Entrance to a rundown warehouse.~
+You are standing in the entrance to an old rundown warehouse. All the 
+windows have been boarded up and the floor boards are rotting away at your
+feet. A poor looking guildmaster stands here forlornly ready to be of 
+service. 
+~
+1 137 1
+D0
+Southbank Road.
+~
+~
+0 -1 3
+D5
+A dark hole.
+~
+~
+0 -1 -1
+S
+#10
+Entrance to the Wayfarer's Inn.~
+You are standing in the entrance to the Wayfarer's Inn. There is a kind 
+receptionist standing here behind the desk who will willingly offer you 
+a room to rent for the night. To your north you can see Southbank Road
+that leads towards Main Street in Haven.
+~
+1 0 1
+D0
+Southbank Road.
+~
+~
+0 -1 4
+D2
+Wayfarer's tavern.
+~
+~
+0 -1 -1
+D3
+Wayfarer's reception.
+~
+~
+0 -1 -1
+S
+#11 
+Main Street.~
+You are walking along Main Street which continues south towards the 
+armourer and weaponsmith shops. To the north is the busy intersection of 
+Southbank and Main. 
+~
+1 0 1
+D0
+Intersection of Southbank and Main.
+~
+~
+0 -1 5
+D2
+Main Street.
+~
+~
+0 -1 15
+S
+#12
+Riverside Tavern.~
+The interior of the tavern is lit with a flickering red glow.  The fire in the
+corner imparts a warmth to the entire room, making this one of the cosiest
+places you've been in in a while.  The bartender hurries back and forth, serving
+a warm mead to his patrons, the speciality of the house.  You see many
+familiar faces in amongst the crowd, all of them soaking in the atmosphere.
+~
+1 16777372 0
+D0
+Southbank Road.
+~
+~
+0 -1 6
+D2
+The Haven Bar.
+~
+~
+0 -1 132
+D1
+The Primal Casino
+~
+~
+0 -1 133
+S
+#13
+The Traveller's Guide~
+This unusual room has a strange looking portal in it. You wonder what it
+is used for and why it is in the town of Haven. There is very little else
+in the room. However the portal appears to be making a strange humming
+sound.
+~
+1 0 1
+D0
+Southbank Road.
+~
+~
+0 -1 7
+S
+#14
+Weapons shop.~
+You are standing before the counter of the weapons shop. There are
+weapons of all types lining the walls of this shop. If you ask the 
+weaponsmith for a list of weapons he will offer you a reasonable price
+from the stock he has at hand. 
+~
+1 136 1
+D1
+Main Street.
+~
+~
+0 -1 15
+S
+#15
+Main Street.~
+You are walking down Main Street in the town of Haven. To the east is the 
+armourer, and to the west is the fine weapons shop. Looking up you can
+see where the Gods of Haven reside and down is a small construction site.
+~
+1 0 1
+D0
+Main Street
+~
+~
+0 -1 11
+D1
+The armourer's.
+~
+~
+0 -1 16
+D2
+Crossroads of Main and Regiment.
+
+~
+~
+0 -1 23
+D3
+The Weapons shop.
+~
+~
+0 -1 14
+D4
+Eternals' Clubhouse
+~
+~
+0 0 102
+D5
+Pavillion
+~
+~
+0 0 103
+S
+#16
+The Armourer's.~
+You are standing before the counter in the armour shop. Fine pieces
+of armour line the wall. If you ask the armourer for a list of his wares
+he will kindly offer you a decent price from the stock he has at hand.
+~
+1 136 1
+D3
+Main Street.
+~
+~
+0 -1 15
+S
+#17
+Warrior's Guild.~
+You are standing inside the entrance to the Warrior's Guild. Pictures
+and statues of valiant warriors of earlier times line the walls. There
+is a strong looking Guildmaster who will help you practice the spells and
+skills you will need to survive outside the town's barracks.
+~
+1 136 1
+D1
+Main Street.
+~
+~
+0 -1 18
+S
+#18
+Main Street Central.~
+You are walking down Main Street Central. To the west is the Warrior's
+Guild. To the east is Market Way. Looking north you can see a large 
+intersection and to your south you can see a large fountain. 
+~
+1 0 1
+D0
+Crossroads of Main and Regiment.
+~
+~
+0 -1 23
+D1 
+Market Way.
+~
+~
+0 -1 19
+D2
+Main Street.
+~
+~
+0 -1 38
+D3
+Entrance to Warrior's Guild.
+~
+~
+0 -1 17
+S
+#19
+Market Way.~
+You are walking down Market Way. Directly south is the general store where
+you can buy an assorted array of equipment to assist you on your adventures.
+Directly to the east you can see a bank teller machine and  to the west 
+you see the main street of Haven.
+~
+1 0 1
+D1
+Market Way.
+~
+~
+0 -1 20
+D2
+General Store.
+~
+~
+0 -1 36
+D3
+Intersection of Market and Main.
+~
+~
+0 -1 18
+S
+#20
+Market Way.~
+You are at a turn in the road. Market Way continues south and west.
+There is a bank tellar machine here that allows you to deposit and withdraw
+your money for safe keeping. What a shame you can't rip it out of the stone
+wall it has been set into. That would make you a rich person.
+~
+1 0 1
+D3
+Market Way.
+~
+~
+0 -1 19
+D2
+Market Way.
+~
+~
+0 -1 21
+S
+#21
+Market Way.~
+You are walking along Market Way. Here the streets are paved with brown
+bricks and the road looks like it is well travelled upon. As you walk along
+it you see many of Haven's citizens also travelling the road.
+~
+1 0 1
+D0
+Market Way.
+~
+~
+0 -1 20
+D2
+Market Way.
+~
+~
+0 -1 22
+S
+#22
+Market Way.~
+You are walking down Market Way which continues north and south. On either
+side of the street you can see many small shops that sell herbs, spices, 
+jewellery and a wide variety of different things that an adventurer would 
+need. 
+~
+1 0 1
+D0
+Market Way.
+~
+~
+0 -1 21
+D2
+Market Way.
+~
+~
+0 -1 48
+S
+#23
+Crossroads of Main and Regiment.~
+You are standing at the crossroads of Main and Regiment. Main
+Street leads north and south, Regiment Road leads east and west into the
+wild wilderness. You see several city guards patrolling the streets nearby
+who keep a watchful eye on all that goes on. 
+~
+1 0 1
+D0
+Main Street.
+~
+~
+0 -1 15
+D1
+Regiment Road.
+~
+~
+0 -1 24
+D2
+Intersection of Main and Market.
+~
+~
+0 -1 18
+D3
+Regiment Road.
+~
+~
+0 -1 25
+S
+#24
+Regiment Road.~
+You are walking down Regiment road. To the west is the crossroads
+of Regiment and Main. Regiment continues east towards several shops and
+a large gate.
+~
+1 0 1
+D1
+Regiment Road.
+~
+~
+0 -1 31
+D3
+Crossroads of Main and Regiment.
+~
+~
+0 -1 23
+S
+#25
+Regiment Road.~
+You are walking down Regiment Road. To the east is the crossroads
+of Main and Regiment. Regiment continues west towards several shops and the
+exit through a large gate.
+~
+1 0 1
+D1
+Crossroads of Main and Regiment.
+~
+~
+0 -1 23
+D3
+Regiment Road.
+~
+~
+0 -1 26
+S
+#26
+Regiment Road.~
+You are walking down Regiment Road which leads east and west from here.
+To the west you can see several shops and to your east you can see the 
+main intersection of Haven.
+~
+1 0 1
+D1 
+Regiment Road.
+~
+~
+0 -1 25
+D3
+Regiment Road.
+~
+~
+0 -1 27
+S
+#27
+Regiment Road.~
+You are walking down Regiment Road. To the north is a grocer's shop which
+appears to be derelict. To the south is the temple of Druids.
+~
+1 0 1
+D0
+Grocer's shop
+~
+~
+0 -1 28
+D1
+Regiment Road.
+~
+~
+0 -1 26
+D2
+Druids' Temple.
+~
+~
+0 -1 29
+D3
+West Gate.
+~
+~
+0 -1 30
+S
+#28
+Grocer's shop.~
+You stand before the counter of the grocer's shop. This shop has
+long since gone out of business and looks quite rundown. The shelves are 
+covered with cobwebs and there is a thick layer of dust on the floor.
+~
+1 0 1
+D2
+Regiment Road.
+~
+~
+0 -1 27
+S
+#29
+Druids' Temple.~
+You stand inside the Druids' Temple. There are small idols adorning the
+walls here and in the center of the altar stands a strange man who may help
+you with certain things you need to learn to survive in this strange land.
+~
+1 136 1
+D0
+Regiment Road.
+~
+~
+0 -1 27
+S
+#30
+West Gate of Haven.~
+You stand before the West Gate of Haven. Several City Guards patrol the 
+entrance into the city, keeping the evil monsters in the wilderness beyond
+at bay. If you decide to exit to your west be extremely careful of what 
+lies in wait for you as it is dangerous territory.  
+~
+1 0 1
+D1
+Regiment Road.
+~
+~
+0 -1 27
+D3 Pomarj Road.
+~
+~
+0 -1 5001
+S
+#31
+Regiment Road.~
+You are walking down Regiment Road. Directly to the North is The Old Magic
+Shop, and to the South is The Jeweller's. To your west you can just see the
+main crossroads of Haven and to your east you see several shops and a large
+city gate.
+~
+1 0 1
+D0
+Magic shoppe.
+~
+~
+0 -1 33
+D1
+Regiment Road.
+~
+~
+0 -1 32
+D2
+The Jeweller's.
+~
+~
+0 0 53
+D3
+Regiment Road.
+~
+~
+0 -1 24
+S
+#32
+Regiment Road.~
+You are walking down Regiment Road. Directly north is the Alchemist's shoppe 
+where you can buy strange potions and herbs. To the south is the entrance to 
+the Mage's Guild. The road continues to your east where you see a large gate
+and to your west towards the heart of Haven.
+~
+1 0 1
+D0
+Alchemist's shoppe.
+~
+~
+0 -1 34
+D1
+East Gate.
+~
+~
+0 -1 37
+D2
+Mage's Guild.
+~
+~
+0 -1 35
+D3
+Regiment Road.
+~
+~
+0 -1 31
+S
+#33
+Magic Shoppe.~
+You stand before a counter in the Magic Shoppe. Many strange and mysterious 
+items line the walls. Behind the counter is a mysterious wizard who will sell
+you his wares at a reasonable price.
+~
+1 8 1
+D2
+Regiment Road.
+~
+~
+0 -1 31
+S
+#34
+Alchemist's Shoppe.~
+You stand before a counter in the Alchemist's Shoppe. Many vials of 
+strange potions clutter the counter. Behind the counter stands the Alchemist
+who will willingly sell you his wares at a reasonable price.
+~
+1 136 1
+D2
+Regiment Road.
+~
+~
+0 -1 32
+S
+#35
+Entrance to the Mage's Guild.~
+You stand in the entrance hall of the Mage's Guild where strange symbols line
+the walls. There is a guildmaster standing here on a small altar who will 
+help you with special spells and skills that you may wish to learn. To 
+your north you can see Regiment Road and the Alchemist's shop.
+~ 
+1 136 1
+D0
+Regiment Road.
+~
+~
+0 -1 32
+D2
+Mage's Guild room.
+~
+~
+0 -1 -1 
+S
+#36
+General Store.~
+You stand before the counter in the General Store. Many items, useful
+for adventurers line the wall and are stacked high on the shelves. Behind the
+counter stands the burly storekeeper who will sell you these items at a 
+reasonable price. 
+~
+1 136 1
+D0
+Market Way.
+~
+~
+0 -1 19
+S
+#37
+East Gate.~
+You stand before the East Gate of Haven. The gate is usually kept shut 
+but through the bars of the iron gate you can see Selva Road and the 
+moutains beyond. If you want to travel along Selva Road you will have 
+to open that gate that is never locked. 
+~ 
+1 0 1 
+D1
+Looking east you see Selva Road
+~
+gate wooden~
+1 -1 1501
+D3
+Regiment Road.
+~
+~
+0 -1  32
+S
+#38
+Main Street.~
+You are walking along Main Street in Haven. The local residents are
+wandering aimlessly around this section of town. Nearby to your south you 
+can see a large fountain. To the north you see a small junction that leads
+off into Market Way.
+~
+1 0 1
+D0
+Main Street.
+~
+~
+0 -1 18
+D2
+Main Street before Council Square.
+~
+~
+0 -1 39
+S
+#39
+Main Street.~
+You walk along Main Street which continues north. To the south is
+Council Square where a large fountain, the main supply of water for the town
+of Haven, lies. This is a rather busy section of town where the citizens, 
+janitors, beggars and guards wander aimlessly. 
+~
+1 0 1
+D0
+Main Street.
+~
+~
+0 -1 38
+D2
+Central Council Square.
+~
+~
+0 -1 41
+S
+#40
+West end of Council Square.~
+You are at the north west end of Council Square. This section of Haven is 
+paved with beautiful stones that are kept clean by the busy janitors. To 
+the west is Paladin's Temple where you can meet with the Training Master 
+and improve your abilities. 
+~ 
+1 0 1
+D1
+Central Council Square.
+~
+~
+0 -1 41
+D2
+Southern Council Square.
+~
+~
+0 -1 43
+D3
+Paladin's Temple.
+~
+~
+0 -1 47
+S
+#41
+Central Council Square.~
+You stand in the centre of Council Square. Main Street leads north
+from here, and to the south you can see the grand Council Chambers and a 
+large fountain. The square is paved with beautiul stones and this section
+of Haven receives a great deal of traffic. To the east you can see a 
+donation room that kind citizens have placed their equipment for all
+to share. 
+~ 
+1 0 1
+D0
+Main Street.
+~
+~
+0 -1 39
+D1
+Eastern Council Square.
+~
+~
+0 -1 42
+D2
+Council Square, before Chambers.
+~
+~
+0 -1 44
+D3
+Western Council Square.
+~
+~
+0 -1 40
+S
+#42
+Eastern Council Square.~
+You stand at the north east corner of Council Square. Here you can see the donation 
+room directly to your north and to your south is the south east section of
+the council square. 
+~
+1 0 1
+D0
+Donation room
+~
+~
+0 0 90
+D2
+Southern Council Square.
+~
+~
+0 -1 45
+D3
+Central Council Square.
+~
+~
+0 -1 41
+S
+#43
+Southern Council Square.~
+You stand at the south west end of Council Square.
+~
+1 0 1
+D0
+North west Council Square.
+~
+~
+0 -1 40
+D1
+Council Square, before Chambers.
+~
+~
+0 -1 44
+S
+#44
+Council Square before Chambers.~
+You stand in Council Square. To the south is the entrance to the Grand
+Council Chambers. North leads to Council Square Central.
+~
+1 0 1
+D0
+Central Council Square.
+~
+~
+0 -1 41
+D1
+South east Council Square.
+~
+~
+0 -1 45
+D2
+Entrance to Council Chambers.
+~
+~
+0 -1 46
+D3
+South west Council Square.
+~
+~
+0 -1 43
+S
+#45
+South east Council Square.~
+You stand at the south east end of Council Square.
+~
+1 0 1
+D0
+North east Council Square.
+~
+~
+0 -1 42
+D3
+Council Square, before Chambers.
+~
+~
+0 -1 44
+S
+#46
+Entrance to Council Chambers.~
+You stand in the entrance hall to Council Chambers. To the north is
+Council Square. To the south are large double doors leading to the
+chambers but they are closed to the general public as Council has retired
+for the season.
+~
+1 0 1
+D0
+Council Square, before Chambers.
+~
+~
+0 -1 44
+S
+#47
+Paladin's Temple.~
+You stand in the Paladin's Temple. The temple gives you an overwhelming
+sense of righteousness.  You can see a Runed door to the north, and a small
+sign in the corner of the room. The Master Trainer stands here waiting to 
+assist the citizens of Haven in acquiring new skills. Tell her what
+you wish to 'Train'. 
+~
+1 0 1
+D1
+North west Council Square.
+~
+~
+0 -1 40
+E
+sign~
+The sign says:
+
+  The Mater Trainer will train your statistics at a reasonable price.
+  If you need assistance type train or help train. You then train the
+  area in which you want to improve yourself.
+~
+S
+#48
+Market Way, at a turn in the road.~
+You are walking along Market Way. Here the streets are paved with brown
+bricks and the road looks like it is well travelled upon. As you walk along
+it you see many of Haven's citizens also travelling the road.
+~
+1 0 1
+D0
+Market Way.
+~
+~
+0 -1 22
+D1
+Market Way.
+~
+~
+0 -1 49
+S
+#49
+Market Way.~
+You are walking along Market Way. Here the streets are paved with brown
+bricks and the road looks like it is well travelled upon. As you walk along
+it you see many of Haven's citizens also travelling the road. To the east
+is the intersection of Market and Gambol.
+~
+1 0 1
+D1
+Intersection of Market and Gambol.
+~
+~
+0 -1 51
+D3
+Market Way.
+~
+~
+0 -1 48
+S
+#50
+Elemental Temple.~
+You stand before a huge black, bloodstained altar.
+This place gives you an overwhelming sense of dread.
+~
+1 4 1 
+D2
+Intersection of Market and Gambol.
+~
+~
+0 -1 51
+S
+#51
+Intersection of Market and Gambol.~
+You are standing at the intersection of Market and Gambol. Market
+Way continues west and Gambol continues south. To the north is a 
+dark looking temple.
+There is a large blood stained plaque mounted above the entrance to the temple.
+~
+1 0 1
+D0
+Elemental Temple.
+~
+~
+0 -1 50
+D2
+Gambol road.
+~
+~
+0 0 63
+D3
+Market Way.
+~
+~
+0 -1 49
+E
+plaque~
+                           Elemental Temple
+
+                          Enter at own risk
+~
+S
+#52
+Gambol Road.~
+You are travelling Gambol Road that leads south towards several smaller 
+towns. As you travel along the road you notice that it is well paved with 
+stones and it is obviously a road that many citizens travel upon.
+~
+0 0 0
+D0
+Turn in the road.
+~
+~
+0 0 51
+D2
+Down the road.
+~
+~
+0 0 63
+S
+#53
+Jeweller's~
+You are at the Jeweller's shop and behind the counter stands the Jeweller
+who will buy or sell rare gems and stones to you for a reasonable price.
+The shop is filled with display cabinets that brim with diamonds, rubies, 
+silver, gold and many other types of rare and expensive jewels. 
+~
+1 136 1
+D0
+Regiment Road.
+~
+~
+0 -1 31
+S
+#60
+Narrow path.~
+You are walking along a narrow path which leads to the old Moathouse.
+To your west you can see the end of Southbank Road and to the east you
+can just see a large stone building
+~
+1 0 1
+D1
+Path to the Moathouse.
+~
+~
+0 0 61
+D3
+Southbank Road.
+~
+~
+0 -1 8
+S
+#61
+Narrow path.~
+You are walking along a narrow path which leads to the old Moathouse.
+To your west you can see the end of Southbank Road and to the east you
+can just see a large stone building.
+~
+1 0 1
+D1
+Turn in the path.
+~
+~
+0 0 62
+D3
+Narrow path.
+~
+~
+0 -1 60
+S
+#62
+Turn in the path.~
+You are a a sharp bend in the path. You can just make out the entrance to
+the Moathouse further north along the path. The path also leads west back
+to the town of Haven.
+~
+1 0 1
+D0
+Path up to the Moathouse.
+~
+~
+0 0 1001
+D3
+Narrow path.
+~
+~
+0 -1 61
+S
+#63
+Gambol Road.~
+You are travelling along Gambol Road and as you look around you notice that
+the surrounding countryside is rather flat and dry. To your north you can 
+see Market Way and the city of Haven. To your south Gambol Road leads 
+directly towards another city with several small paths that lead off it. 
+~ 
+1 0 3 
+D0
+Down the road.
+~
+~
+0 0 51
+D2
+Down the road.
+~
+~
+0 0 64
+S
+#64
+Gambol Road.~
+You are travelling along Gambol Road that leads north towards Haven and 
+south towards several other strange cities and towns. The road is well 
+travelled by the citizens of Haven as can be seen by the well worn 
+stones you see on the ground at your feet. 
+~ 
+1 0 3 
+D0
+Down the road.
+~
+~
+0 0 63
+D2
+Down the road.
+~
+~
+0 0 65
+S
+#65
+Gambol Road.~ 
+This is a well travelled road by the citizens of Haven and this is obvious 
+by the well worn stones you see on the ground at your feet. 
+You are travelling Gambol Road. The surrounding countryside is rather flat
+and the grass that grows by the side of the road has a yellow tinge to it
+as if a good rain is needed.
+~
+1 0 3
+D0
+Down the road.
+~
+~
+0 0 64
+D2
+Down the road.
+~
+~
+0 0 66
+S
+#66
+Gambol Road.~
+You are travelling along Gambol Road that leads north towards Haven and 
+south towards several other strange cities and towns. The road is well 
+travelled by the citizens of Haven as can be seen by the well worn 
+stones you see on the ground at your feet. 
+~
+1 0 3
+D0
+Down the road.
+~
+~
+0 0 65
+D2
+Down the road.
+~
+~
+0 0 67
+S
+#67
+Gambol Road.~
+This is a well travelled road by the citizens of Haven as can be seen
+by the well worn stones you see on the ground at your feet. 
+You are travelling Gambol road. The surrounding countryside is rather flat
+and the grass that grows by the side of the road has a yellow tinge to it
+as if a good rain is needed.
+~
+1 0 3
+D0
+Down the road.
+~
+~
+0 0 66
+D2
+Down the road.
+~
+~
+0 0 68
+S
+#68
+Gambol Road.~
+You are travelling Gambol Road. To the west is a hidden path that leads
+into the thick dense undergrowth and towards a strange and magical temple.
+You wonder if you should travel south towards Rome, north towards Haven or
+west towards the temple.
+~
+1 0 3
+D0
+Down the road.
+~
+~
+0 0 67
+D2
+Down the road.
+~
+~
+0 0 69
+D3
+A rough and overgrown pathway leads into a dense forest.
+~
+~
+0 0 2768
+S
+#69
+Gambol Road.~
+This is a well travelled road by the citizens of Haven as can be seen
+by the well worn stones you see on the ground at your feet. 
+You are travelling Gambol Road. The surrounding countryside is rather flat
+and the grass that grows by the side of the road has a yellow tinge to it
+as if a good rain is needed.
+~
+1 0 3
+D0
+Down the road.
+~
+~
+0 0 68
+D2
+Down the road.
+~
+~
+0 0 74
+S
+#70
+Path to the swamp.~
+You are walking down a hidden path that leads to the swamp. The vegetation here
+looks withered and sickly. The sounds of strange creatures can be heard from
+further up the path.
+~
+1 0 3
+D1
+Gambol Road.
+~
+~
+0 0 68
+D3
+Path to the swamp.
+~
+~
+0 0 71
+S
+#71
+Path to the swamp.~
+You are walking down a hidden path that leads to the swamp. The vegetation here
+looks withered and sickly. The sounds of strange creatures can be heard from
+further up the path.
+~
+1 0 3
+D1
+Path to the swamp.
+~
+~
+0 0 70
+S
+#74
+Gambol Road.~
+You are travelling Gambol Road where many citizens of Haven have ventured.
+To your south you can a path leading off to the east and further south 
+you can see the city of Rome
+~
+1 0 3
+D0
+Down the road.
+~
+~
+0 0 69
+D2
+Down the road.
+~
+~
+0 0 75
+S
+#75
+Gambol Road.~
+You are travelling along Gambol Road that leads north towards Haven and 
+south towards several other strange cities and towns. The road is well 
+travelled by the citizens of Haven,  as can be seen by the well worn 
+stones you see on the ground at your feet. Looking west you see a small path
+leading into a small forest and south you can see the city of Rome.
+~
+1 0 3
+D0
+Down the road.
+~
+~
+0 0 74
+D2
+Down the road.
+~
+~
+0 0 76
+D3
+Ershteep Road~
+~
+0 0 2101
+S
+#76
+Gambol Road.~
+This is a well travelled road by the citizens of Haven, as can be seen
+by the well worn stones you see on the ground at your feet. 
+You are travelling Gambol Road. The surrounding countryside is rather flat
+and the grass that grows by the side of the road has a yellow tinge to it
+as if a good rain is needed.
+~
+1 0 3
+D0
+Down the road.
+~
+~
+0 0 75
+D2
+Intersection of roads.
+~
+~
+0 0 77
+S
+#77
+Intersection of roads.~
+You are standing at a crossroads. To the west runs Clay Road and you can see
+the mighty city of Rome in the distance. To the south is a fire trail that leads
+into the forest, a makeshift gate blocks your way. To the east a dirt track 
+leads off across the plains. Gambol Road runs north from here and leads to the
+city of Haven.
+~
+1 0 3 
+D0
+~
+~
+0 0 76
+D1
+~
+~
+0 0 705
+D3
+Clay Road.
+~
+~
+0 0 12067
+S
+#90
+Donation room.~
+The donation room of Haven where kind players donated unwanted items.
+~
+1 65556 0
+D2
+Council Square east.
+~
+~
+0 0 42
+S
+#99
+The Holy Meeting room.~
+This is where to holy beings of PrimalMUD meet and argue about all things
+from creation to rules that govern the realms of PrimalMUD.
+~
+1 536871032 0
+D1
+Immortals' Clubhouse
+~
+~
+0 0 100
+S
+#100
+Immortals' Clubhouse~
+You are in the Immortals' Clubrooms of Johnno and Murf.
+There are maps and loose papers with many half finished ideas and zones
+strewn about the rooms. It's difficult to move around in here because of
+all the empty beer cans and pizza boxes.
+~
+1 134217816 0
+D0
+Storeroom
+~
+~
+0 0 297
+D2
+Immortals' Walk
+~
+~
+0 0 295
+D3
+Meeting room
+~
+~
+0 0 99
+D4
+Immortals' Linkless Room~
+~
+0 0 101
+D5
+Eternals' Clubhouse
+~
+~
+0 0 102
+S
+#101
+Gods' Room~
+You are standing in the Gods' Room where you can escape from all those
+less holy than you.
+~
+1 268435468 0
+D5
+Immortals' Club Room~
+~
+0 0 100
+S
+#102
+Eternals' Clubhouse~
+You are in the Exclusive Eternals' Clubhouse. Tons of discarded low level
+equipment and weapons lie everywhere, as these mega PrimalMUD players move
+slowly up through the legendary Eternal ranks.
+~
+1 8388696 0
+D0
+Eternals' Avenue
+~
+~
+0 0 199
+D4
+Immortals' Clubhouse
+~
+~
+0 0 100
+D5
+~
+~
+0 0 15
+S
+#103
+Clan road~
+You walking down clan road where all the clan head quarters are to be
+found.  
+~
+1 4 1
+D0
+  
+~
+~
+0 -1 106
+D2
+  
+~
+~
+0 -1 105
+D4
+Main Street
+~
+~
+0 0 15
+S
+#104
+Under a tree~
+You are standing under a large oak tree that died long ago.  Under the
+tree stands a large old wagon.  The wagon seems out of place here as if it
+was sent from another time.
+ ~
+1 0 1
+D0
+Main Street
+~
+~
+0 0 1  
+S
+#105
+Clan road~
+You walking down clan road where all the clan head quarters are to be
+found.  
+~
+1 4 1
+D0
+  
+~
+~
+0 -1 103
+D2
+  
+~
+~
+0 -1 110
+D3
+  
+~
+~
+0 -1 130
+S
+#106
+Clan road~
+You walking down clan road where all the clan head quarters are to be
+found.  
+~
+1 4 1
+D0
+  
+~
+~
+0 -1 108
+D1
+  
+~
+~
+0 -1 109
+D2
+  
+~
+~
+0 -1 103
+D3
+  
+~
+~
+0 -1 107
+S
+#107
+rOsE cLuB guard post~
+A large mean looking guard waits here allowing members to pass.  
+~
+1 148 0
+D1
+  
+~
+~
+0 -1 106
+D3
+  
+~
+~
+0 -1 120
+S
+#108
+Avenger's guard post~
+A large mean looking guard waits here allowing members to pass.  
+~
+1 148 0
+D0
+  
+~
+~
+0 -1 115
+D2
+  
+~
+~
+0 -1 106
+S
+#109
+The Guardians of Justice guard post~
+A large mean looking guard waits here allowing members to pass.  
+~
+1 148 0
+D1
+ 
+~
+~
+0 -1 111
+D3
+  
+~
+~
+0 -1 106
+S
+#110
+The Jedi's guard post~
+A large mean looking guard waits here allowing members to pass.  
+~
+1 148 0
+D0
+  
+~
+~
+0 -1 105
+D2
+  
+~
+~
+0 -1 119
+S
+#111
+The Celestial temple~
+Marble steps lead up to a grand pillared entrace to a
+shining temple. Ascending the steps you feel all negative
+feelings leave your body, to be replaced with a feeling of
+contentment and peace. 
+~
+1 148 1
+D1
+The grand hall, meeting place of the clan.
+~
+~
+0 -1 112
+D3
+~
+~
+0 -1 109
+S
+#112
+The Grand Hall~
+Angels float down from the throne room above, those still seeking
+their wings forced to walk up a staircase that looks as delicate
+as glass, but is as strong as steel. A huge table, where the
+clan can meet, runs down the length of the room. One wall holds
+a notice board detailing the fight of the forces of light against
+those of darkness.
+~
+1 28 0
+D0
+Cloud Nine - where you can relax those wings and let your halo
+slip for a few minutes.
+~
+~
+0 -1 114
+D3
+The enterance to the Celestial temple, home of the Guardians
+of Justice.
+~
+~
+0 -1 111
+D4
+The celestial thrones of the Archons of Radiance, where wisdom
+of justice are brought to the world.
+~
+~
+0 -1 113
+S
+#113
+The thrones of Radiance~
+Two thrones formed out of glowing light reside at the end
+of the room, a large angel seated on each. The Archons of
+Radiance, Dracion and Raistlin provide strength and wisdom
+to their followers. Along the walls tapestries and paintings
+show the forces of heaven descending to the earth to do battle
+with those who seek to enslave others, those who cause pain,
+those who follow the path of darkness.~
+1 28 0
+D5
+The grand hall, meeting place of the clan.
+~
+~
+0 -1 112
+S
+#114
+Cloud Nine~
+Some of the angels are holding a small party, talking amongst
+themselves and laughing. You see a small flask of liqour passed
+amongst some of the newer ones. A grizzled angel, his beard
+pure white, looks on with a merry twinkle in his eye and winks
+when one of them sees him watching and stumbles.
+~
+1 16777308 5
+D0
+The Wayfarer's Inn.
+~
+~
+0 -1 10
+D2
+The grand hall, meeting place of the clan.
+~
+~
+0 -1 112
+S
+#115
+Avenger Entrance Hall~
+You have entered the hall of the Avengers, this seems to be very historic.
+There is a Shield on the wall, with a list on it. You see the meeting room
+to the North, the Clan Donation Room to the East and the Clan message room
+to the West.  
+~
+1 16777308 0
+D0
+ 
+~
+~
+0 -1 116
+D1
+ 
+~
+~
+0 -1 118
+D2
+ 
+~
+~
+0 -1 108
+D3
+ 
+~
+~
+0 -1 117
+D5
+The Wayfarer's Inn.
+~
+~
+0 -1 10
+E
+shield~
+       /\    /\    /\    /\    /\                 
+       | \  /  \  /  \  /  \  / |                 
+       |  \/    \/    \/    \/  |                 
+       |                        |                 
+       |     AVENGER GREATS     |                 
+       |                        |                 
+       |       PICKLEHEAD       |                  
+       |                        |                 
+       |         KODIAK		|
+       |			|
+       |	  TSD           |                 
+       |                        |                 
+       |          MOE           |                 
+       |                        |                 
+       |         CLUMZ          |                 
+       |                        |                 
+       \\         BOZ         //                 
+         \\                  //                   
+           \\              //                     
+             \\          //                       
+               \\      //                         
+                 \\  //                           
+                   \/  
+~
+S
+#116
+Avenger Meeting Room~
+You have entered the Avengers Meeting Room. There are 2 Large Chair at the
+head of the the Table, these would be for the Emperor and Empress. Many
+other seats are provided around the table.  There is a Large Symbol on the
+wall behind the Emperor's chair. Back to the south is the Entrance Hall.  
+~
+1 204 0
+D2
+ 
+~
+~
+0 -1 115
+E
+symbol~
+
+              ---          
+         ---/   /---       
+      ///**/   /****\\\    
+    //****/   /********\\  
+   |*****/    -------****\ 
+  |*****/ AVENGERS  /*****|
+  |****------+     /******|
+  |**********|    /*******|
+   |*********|   /*******| 
+    \\*******|  /******//  
+      \\\***|  /****///    
+         \--| /-----       
+            |/             
+            /              
+~
+S
+#117
+Avenger Message Room~
+You have entered the Avengers Message Room. This is where the clan members
+can write messages on the board for other clan members to read. Check it
+often to keep up to date with what the clan are upto.  
+~
+1 204 0
+D1
+ 
+~
+~
+0 -1 115
+S
+#118
+Avenger Donation Room~
+You have entered the Avengers Donation Room. This is where other clan
+members drop items they no longer need, so they're fellow clan members can
+take them. This could be the place to get that item that you are not quite
+strong enough to get yourself, or just cant seem to find.  
+~
+1 204 0
+D3
+ 
+~
+~
+0 -1 115
+S
+#119
+The Jedi's member's hall~
+The ambiance of the room makes you feel drowsy after the long hard battle 
+against the evil within the world. You feel the gentle caresses of the clan 
+healer tending your wounds. #SNAP# all feelings of tiredness are gone.  
+You scan your sorroundings and you see a pool table near the far wall and the 
+smell of freshly roasted coffee coming from the coffee machine. Relax, enjoy 
+and rest because shortly you know you will be summonsed over the loud speaker 
+to go rejoin the clan in the quest against evil.
+~
+1 16777308 0 
+D0
+ 
+~
+~
+0 -1 110
+D1
+~
+~
+0 -1 123
+D3
+~
+~
+0 -1 122
+D5
+The Wayfarer's Inn.
+~
+~
+0 -1 10
+S
+#120
+The Configuration~
+The sounds that penetrate the walls of this corridor make you feel "uneasy", it
+would appear to the sound of razors gouging through flesh.
+
+As you step into the room you instantly feel at home. The roses on the
+wallpaper fill the hall with a divine scent, you feel better instantly.
+There is a large message board on the left side of the room, and a kind
+old man sitting cross legged in the precice geometrical centre of the
+improper shaped room.
+~
+16777217  80 0
+D1
+~
+~
+0 -1 107
+S
+
+#122
+New Jedi Room under construction~
+The new jedi room is closed until the building is completed!
+~
+1 156 0
+D1
+~
+~
+0 -1 119
+S
+#123
+The New Jedi Mess Hall under construction~
+The new jedi room is closed until the building is completed!
+~
+1 156 0
+D3
+~
+~
+0 -1 119
+S
+#130
+The USS Enterprise security station~
+A large mean looking guard waits here allowing members to pass.  
+~
+1 148 0
+D1
+  
+~
+~
+0 -1 105
+D3
+  
+~
+~
+0 -1 131
+S
+#131
+USS Enterprise HQ~
+You are standing in the single room of the newly
+resurected USS Enterprise.
+~
+1 16777308 0
+D0
+~
+~
+0 -1 135
+D1
+  
+~
+~
+0 -1 130
+D2
+~
+~
+0 -1 136
+D4
+~
+~
+0 -1 15
+D3
+~
+~
+0 -1 134
+S
+#132
+Haven Bar~
+THE place to be if want to get pissed in a hurry.
+~
+1 148 0
+D0
+The Riverside Tavern.
+~
+~
+0 -1 12
+S
+
+#133
+The Primal Casino~
+Large and well decorated, this room has been built to impress. Globes
+containing bright fireflies hang from the high ceiling, illuminating
+the various games available to wealthy patrons.
+A &Ygolden sign&n near the entrance welcomes you.
+~
+101 16777372 0
+D3
+Noisy and rowdy, the Tavern's common room is visible there.
+~
+tavern west~
+0 0 12
+E
+tables games casino~
+Several types of games are available at this establishment.
+~
+E
+sign golden~
+The golden sign contains a brief welcome, followed by a list of games:
+        Blackjack
+        Slots
+        Horse Racing
+The casino wishes you the best of luck.
+  (HELP CASINO for further details).
+~
+S 
+#134
+USS Enterprise Message Room~
+You are standing in the USS Enterprise Board room. Here is where you discuss
+your views and matters with fellow USS members. Be sure to check back every so
+often to keep up to date with any clan announcements.
+~
+1 204 0
+D1
+ 
+~
+~
+0 -1 131
+S
+#135
+USS Enterprise Recreation Room~
+This is where you can come and relax after
+a hard days work.
+~
+1 204 0
+D2
+~
+~
+0 -1 131
+S
+#136
+USS Enterprise Donation Room~
+Here is where all your fellow crewmates can leave all
+their old equipment for you to use.
+~
+1 204 0
+D0
+~
+~
+0 -1 131
+S
+$

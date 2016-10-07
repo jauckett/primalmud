@@ -1,0 +1,19 @@
+sanc cast 'sanc' self
+ref cast 'refresh' self
+inv cast 'invis' self
+arm cast 'arm' self
+bs rem vorpal; wie super; backstab $1; rem super; wie vorpal
+sum c 'summon' $1
+gc get coins corpse
+gac get all corpse
+jc get corpse; junk corpse
+qw get white back; q white
+em get meat back; eat meat
+ds drink skin
+ws wake; stand
+wor cast 'word of recall'
+qq get ton back; q ton
+dr cast 'dragon'
+di cast 'detect invis' self
+inf cast 'infravision' self
+lo cast 'locate object' $1

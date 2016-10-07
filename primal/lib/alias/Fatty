@@ -1,0 +1,21 @@
+sum cast 'summon' $1
+inf cast 'infravision' on $1
+lo cast 'locate object' $1
+di 'detect invisibilty'
+bld cast 'blindness' on $1
+slp cast 'sleep' on $1
+cll cast 'call lightning' on $1
+bss cast 'bless' on $1
+cc cast 'cure critic' on $1
+in cast 'invisibility' on $1
+r recite recall
+cl cast 'cure light' on self
+ar cast 'armor' on self
+cf cast 'create food';eat mushroom
+mm cast 'magic missile' $1
+ct cast 'chill touch' $1
+jun get all all.corpse
+str cast 'strength' $1
+goto n;e;e;e;e;e;e;e;e;e;e;s;s;e;e;s
+as assist kage
+gat get $1 from backpack

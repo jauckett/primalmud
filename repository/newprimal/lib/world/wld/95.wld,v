@@ -1,0 +1,2452 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2004.05.29.01.27.04;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.05.23.07.21.51;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.41;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> Sync.
+@
+text
+@#9500
+Before the Entrance of Shadow Keep~
+You are walking along a rough that leads straight up to the Shadow Keep.
+Through the trees, you can faintly make out the dark outlined of the huge
+tower. Its huge shape made it superior to its tiny surroundings. To the north
+you can see the entrance of the keep. To the south is the thick forest.
+~
+95 0 3 0
+D0
+Entrance of Shadow Keep
+~
+~
+0 0 9501
+D3
+In Long Grass~
+~
+0 0 704
+S
+#9501
+Entrance to Shadow Keep~
+You walk up in front of the keep. You look up and see that the keep is huge,
+extending far into the sky with many towers. The huge shadow cast by the
+keep seems to engulf its own surrounding, making the surrounding shimmering
+with a bitter sense of evilness. There is a huge stone blocking your only way
+into the keep. To the south lies the path back into the thick of the forest.
+~
+95 0 3 0
+D0
+Inside the Shadow Keep
+~
+door~
+1 9580 9502
+D2
+Before the Entrance of Shadow Keep
+~
+~
+0 0 9500
+S
+#9502
+Inside the Shadow Keep~
+You are now inside the Shadow Keep. The view inside is truely amazing.
+It seems that the interior is much more bigger than what you have expected.
+The keep seems civilised, as compared to what the legend has told, place
+for the undead. But somehow, you sense the evil among the air. There are exits
+in all direction. To the north you can see a brightly lit hall. East and west
+is the guard house. You try going south but find the door has tightly shut.
+~
+95 d 0 0
+D0
+Main Hall
+~
+~
+0 0 9505
+D1
+Guard House
+~
+~
+0 0 9504
+D2
+Entrance of Shadow Keep~
+door~
+1 9585 9501
+D3
+Guard House
+~
+~
+0 0 9503
+S
+#9503
+Guard House~
+You are inside a guard house, or used-to-be one. There is nothing much left
+in here except for some broken furnitures and some rusty old weapons that
+are still lying around the messy place. There is a small window to the south,
+probably for the lookout who is on duty. As you strain your eyes towards the
+darkness, you seems to notice something moves. The only way out is through
+the way you came in.
+~
+95 d 0 0
+D1
+Inside the Shadow Keep
+~
+~
+0 0 9502
+S
+#9504
+Guard House~
+You are inside a guard house, or used-to-be one. There is nothing much left
+in here except for some broken furnitures and some rusty weapons that are
+still lying around the messy place. There is a small window to the south,
+probably for the lookout who is on duty. As you strain your eyes towards the
+darkness, you seems to notice something moves. The only way out is through
+the way you came.
+~
+95 d 0 0
+D3
+Inside the Shadow Keep
+~
+~
+0 0 9502
+S
+#9505
+Main Hall~
+You walk into the main hall of the keep. Paintings of the ancient god decorates
+the four stone walls. On each side of the wall, there are three girandole with
+four large candles burning on it. A huge chandelier hanging from the high
+ceiling add brightness to the hall. A few servants are here cleaning the hall.
+There are exits in all directions. To the north you can see a great statue
+standing. South leads you back to the entrance. It is too dark to the east and
+the west brings you into a beautiful room.
+~
+95 d 0 0
+D0
+Before the Great Statue
+~
+~
+0 0 9511
+D1
+A Dark Passage
+~
+~
+0 0 9507
+D2
+Inside the Shadow Keep
+~
+~
+0 0 9502
+D3
+Guest Chamber
+~
+~
+0 0 9506
+S
+#9506
+Guest Chamber~
+You walk into a  chamber meant for visitors and guests . The chamber is well
+decorated with brightly lit lamps, hanging on the walls. A big wooden table in
+the middle of the room, enough to host ten people, is surrounded by ten high
+back oaken chairs. The floor is covered with thick red carpets. There is a
+painting of a pretty lady on the table. The only exit is east.
+~
+95 d 0 0
+D1
+Main Hall
+~
+~
+0 0 9505
+E
+painting~
+This is a painting of a pretty lady. She is dressed in a white dress
+with some golden embroider of it. In her left hand, she holds a small
+gold key. The frame is made of pure gold by the famous frame maker.
+~
+S
+#9507
+A Dark Passage~
+You walk along a dark passage enclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects boring throught the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D1
+Too dark to tell
+~
+~
+0 0 9508
+D3
+Main Hall
+~
+~
+0 0 9505
+S
+#9508
+A Dark Passage~
+You walk along a dark passage enclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects boring thorough the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D1
+Too dark to tell
+~
+~
+0 0 9509
+D3
+Too dark to tell
+~
+~
+0 0 9508
+S
+#9509
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Stairway
+~
+wall~
+2 0 9524
+D1
+Too dark to tell
+~
+~
+0 0 9510
+D3
+Too dark to tell
+~
+~
+0 0 9508
+S
+#9510
+End of Passage~
+You reaches the end of the passage. The only exit is west.
+~
+95 d 0 0
+D3
+Too dark to tell
+~
+~
+0 0 9509
+S
+#9511
+Before the Great Statue~
+Before you stood a large statue --- the Great Statue of Vashnaka. Vashnaka was
+once a great priest who studied the way of art. But his greed brought forward
+the power of darkness and soon consumed him among the evil beings of the 
+underworld. He was lost from the world since then and no news of his 
+whereabout was known to anyone. Never have you expect to see his statue 
+in the Shadow Keep. To the east is a messy room. To the north you can see 
+a dimly lit room with carpets. To the south is the large hall. It is too 
+dark to see to the west. 
+~
+95 d 0 0
+D0
+Inner Room
+~
+~
+0 -1 9525
+D1
+Utility Room
+~
+~
+0 -1 9512
+D2
+Main Hall
+~
+~
+0 -1 9505
+D3
+Too dark to tell
+~
+~
+0 -1 9513
+S
+#9512
+Utilty Room~
+You walk into a small cramped room filled with all kinds of stores, already
+are broken and others are rotting away. A lamp hanging from the low ceiling
+gives light to the room. The only exit is west.
+~
+95 d 0 0
+D3
+Before the Great Statue
+~
+~
+0 0 9511
+S
+#9513
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D1
+Before the Great Statue
+~
+~
+0 0 9511
+D3
+Too dark to tell
+~
+~
+0 0 9514
+S
+#9514
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D1
+Too dark to tell
+~
+~
+0 0 9513
+D2
+Kitchen
+~
+~
+0 0 9515
+D3
+Too dark to tell
+~
+~
+0 0 9516
+S
+#9515
+Kitchen~
+You are in the kitchen. A huge iron pots sits on top of a large stove with
+firewood burning under it. Hmmmm.....smells nice, someone is cooking
+something nice in here. There is only one way out of here and that is north.
+~
+95 d 0 0
+D0
+A Dark Passage
+~
+~
+0 0 9514
+S
+#9516
+Bend in Passage~
+You reaches a bend in the passage. There are exits to the north and east and
+south
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9518
+D1
+Too dark to tell
+~
+~
+0 0 9514
+D2
+Too dark to tell
+~
+~
+0 0 9517
+S
+#9517
+Rundown of a Forge~
+You are inside a rundown forge. The sight is pathetic. Everything is broken,
+rubbles all over the place. There don't seems to be any exits around except
+for the one you came.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9516
+D5
+Down to Dungeon
+~
+trapdoor~
+2 9585 9500
+S
+#9518
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9519
+D2
+Too dark to tell
+~
+~
+0 0 9516
+S
+#9519
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9522
+D1
+Secret Library
+~
+wall~
+2 0 9520
+D2
+Too dark to tell
+~
+~
+0 0 9518
+S
+#9520
+Secret Library~
+You walk into a brightly lit room. There are  bookshelves made of thick red oa
+on the three walls. Rows of books with thick layer of dust filled the shelves.
+There are more books to the back of the shelves. A small table with a few
+chairs sits in the middle of the library. The only exit seems to be the way you
+came through.
+~
+95 d 0 0
+D2
+Script Room
+~
+bookshelf~
+2 0 9521
+D3
+Dark Passage
+~
+door~
+2 0 9519
+E
+bookshelf south~
+The great bookshef stand before you. As you go through the title of
+the book, you notice that there is a small handle behind one of the
+book.
+~
+S
+#9521
+Script Room~
+This is a rather small room with only a single lamp sitting on a wooden table
+in the middle of the room. Papers and scripts are all over the place. There are
+some books on the ground. A extra thick book lies open on the table. The only
+exit of this room is north.
+~
+95 d 0 0
+D0
+Secret Library
+~
+~
+0 0 9520
+E
+book~
+This book has a title called " Book of Amrocar ". The side of the book
+has gold thread sewed on it. As you flip through the pages, you notice
+a little silver card in one of the pages, acting as a bookmark maybe.
+~
+S
+#9522
+End of Passage~
+You reaches the end of the passage. To the east you can see a black
+forcefield shimmering in the darkness. South is too dark to tell.
+~
+95 d 0 0
+D1
+A Black Forcefield
+~
+~
+0 0 9523
+D2
+Too dark to tell
+~
+~
+0 0 9519
+S
+#9523
+The Black Forcefield~
+You steps into a black forcefield and immediately feel a surged of energy
+flowing through your body. It is just not right.........you seems to 
+feeling weaker...... you had better get out of here before it is TOO
+LATE........... 
+~
+95 d 0 0
+D3
+Dark Passage
+~
+~
+0 0 9522
+S
+#9524
+Stairway~
+You are standing below a stairway. The stair way leads up to the next level of
+the keep.
+~
+95 d 0 0
+D2
+A Dark Passage
+~
+wall~
+2 0 9509
+D4
+A Dark Passage
+~
+~
+0 0 9527
+S
+#9525
+Inner Room
+~
+You are in the inner room of the keep. The room is coverd with thick red carpet
+At each croner of the room, there is a small statue surounded by candles. This
+seems to be a prayer or meditation room. A few young priest are kneeling here
+praying. To the north you can see another room quite similar to the present one
+you are in. To the south stands the great statue.
+~
+95 d 0 0
+D0
+Inner Chamber
+~
+~
+0 0 9526
+D2
+Before the Great Statue
+~
+~
+0 0 9511
+S
+#9526
+Inner Chamber~
+This room looks similar to the last one, except that there are small cushions
+here. Seems to you that this room is reserved for the higher order people. The
+only way out is south.
+~
+95 d 0 0
+D2
+Inner Room
+~
+~
+0 0 9525
+S
+#9527
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D3
+Too dark to tell
+~
+~
+0 0 9528
+D5
+Stairway
+~
+~
+0 0 -1
+S
+#9528
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Script Room
+~
+door~
+2 1 9544
+D1
+Too dark to tell
+~
+~
+0 0 9527
+D3
+Too dark to tell
+~
+~
+0 0 9529
+S
+#9529
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D1
+Too dark to tell
+~
+~
+0 0 9528
+D3
+Too dark to tell
+~
+~
+0 0 9530
+S
+#9530
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Study
+~
+door~
+2 1 9545
+D1
+Too dark to tell
+~
+~
+0 0 9529
+D3
+Too dark to tell
+~
+~
+0 0 9531
+S
+#9531
+Bend in Passage~
+You reaches a bend in the passage. Exits leads east and south.
+~
+95 d 0 0
+D1
+Too dark to tell
+~
+~
+0 0 9530
+D2
+Too dark to tell
+~
+~
+0 0 9532
+S
+#9532
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9531
+D2
+Too dark to tell
+~
+~
+0 0 9533
+D3
+Weapon Room
+~
+door~
+2 1 9547
+S
+#9533
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9532
+D2
+Too dark to tell
+~
+~
+0 0 9534
+D3
+Black Smith Roo
+~
+door~
+2 1 9548
+S
+#9534
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hangin
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9533
+D2
+Too dark to tell
+~
+~
+0 0 9535
+S
+#9535
+Bend in Passage~
+You reaches a bend in the passage. Exits leads east and north.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9534
+D1
+Too dark to tell
+~
+~
+0 0 9536
+S
+#9536
+A Dark Passage~
+You walk along a dark passage eclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects broing through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D1
+Too dark to tell
+~
+~
+0 0 9537
+D2
+Provision Room
+~
+door~
+2 1 9550
+D3
+Too dark to tell
+~
+~
+0 0 9535
+S
+#9537
+A Dark Passage
+~
+You walk along a dark passage enclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects boring through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D1
+Too dark to tell
+~
+~
+0 0 9538
+D2
+Provision Room
+~
+door~
+2 1 9551
+D3
+Too dark to tell
+~
+~
+0 0 9536
+S
+#9538
+A Dark Passage~
+You walk along a dark passage enclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects boring through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D1
+Too dark to tell
+~
+~
+0 0 9539
+D3
+Too dark to tell
+~
+~
+0 0 9537
+S
+#9539
+Bend in Passage~
+You reaches a bend in the passage. Exits leads north and west.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9540
+D3
+Too dark to tell
+~
+~
+0 0 9538
+S
+#9540
+A Dark Passage~
+You walk along a dark passage enclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects boring through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9541
+D1
+Hall of Weaponry
+~
+~
+0 0 9552
+D2
+Too dark to tell
+~
+~
+0 0 9539
+S
+#9541
+A Dark Passage~
+You walk along a dark passage enclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects boring through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Too dark to tell
+~
+~
+0 0 9542
+D2
+Too dark to tell
+~
+~
+0 0 9540
+S
+#9542
+A Dark Passage~
+You walk along a dark passage enclosed by two stone walls. Cobwebs are hanging
+from the ceiling and you can see tiny insects boring through the stone floor.
+This place is dark, you might want to lit a torch to light your way.
+~
+95 d 0 0
+D0
+Stairway
+~
+~
+0 0 9543
+D1
+Hall of Weaponry
+~
+~
+0 0 9554
+D2
+Too dark to tell
+~
+~
+0 0 9541
+S
+#9543
+Stairway~
+You are standing below a stairway. The stair way leads up to the next level of
+the keep.
+~
+95 d 0 0
+D2
+A Dark Passage
+~
+~
+0 0 9542
+D4
+Before th Entrance of Rainbow Maze
+~
+~
+0 0 9555
+S
+#9544
+Script Room~
+You are standing inside a small room full of scripts and papers. You try to
+read some of the script but find that you are aliened to the writing. The only
+way is to the south.
+~
+95 0 0 0
+D2
+A Dark Passage
+~
+door~
+2 1 9528
+S
+#9545
+Script Room~
+You are in a small script room brightly lit by candles. There are papers and
+scripts all over the place. A small table and a few chairs sits in the middle.
+There is a small lamp in the middle of the table to brighten the place. The
+exit seems to be the way you came through.
+~
+95 d 0 0
+D1
+Secret Room
+~
+lamp
+~
+2 0 9546
+D2
+Dark Passage
+~
+door~
+2 0 9530
+E
+lamp~
+The lamp on the table is quite unique. It is made of brass well polish
+The flame inside burns fiercely and for a moment it seems that it will
+never go off. You try to lift it but find that it is strongly fixed to
+the table.
+~
+S
+#9546
+Secret Room~
+You walk into a small dark room lit only by a small brass lamp. There is
+nothing much in this room except for a grand four-poster bed in one corner.
+Perhaps this is the rest room of someone.
+~
+95 0 0 0
+D3
+Script Room
+~
+~
+0 0 9545
+E
+bed~
+A huge four-poster bed enough for two person is here. The side of the
+bed is made of brass, so well polished that it shines even in the dim
+light. A white bedsheet is spread across the bed. You notice a small
+button on the bed left behind by someone.
+~
+S
+#9547
+Weapon Room~
+You walk into a brightly lit room. There are a few wodden racks around the
+room, most of them still stored with weapons. Although the weapons may look
+old and dirty from the exterior, they are still in good fighting condition
+and should be able to be put to good use. To the west, you can see a small
+barred opening, apparently a window and the only window of this room. The
+only exit is east
+~
+95 d 0 0
+D1
+Dark Passage
+~
+door~
+2 0 9532
+S
+#9548
+Blacksmith Work Room~
+You walk into a dimly lit room. The air here is stuffy and you find difficulty
+in your breathing. A few furnaces are still burning hot. The room is littered
+with waste metals. There is a huge furnace at the southern end of the room.
+Next to it, you see a half welded sword embeded in an anvil. The only exit seem
+to be east.
+~
+95 d 0 0
+D1
+Dark Passage
+~
+door~
+2 0 9533
+D2
+The Great Forge
+~
+sword~
+2 0 9549
+E
+anvil~
+The huge anvil looks tough. It can withstand the enormous heat and the
+high impact brought down by those iron hammer.
+~
+E
+sword~
+The sword should be a fine sword if it is done properly.
+As you look through the sword, you notice a small gadget
+attached to the underside of the sword.
+~
+E
+furnace~
+The huge furnace is burning furiously. Even as you look on the heat
+become unberable.
+~
+S
+#9549
+The Great Forge~
+Standing in front of you is the Great Forge. Legend has said that the forge has
+once fought against the evil in the Great War and has driven the evil back to
+their own domain. The only exit is north.
+~
+95 d 0 0
+D0
+Blacksmith Work Room
+~
+~
+0 0 9548
+E
+forge~
+The Great Forge is a 12x10x8 machine. The body is made of the toughest
+iron in the realm and it sits on a huge stone base together with four
+stone wheels. On the body, you can see a crest of a eagle carved on it
+You have no idea what this machine can do as it stands before you.
+~
+E
+crest~
+The crest appears to hide something in it.
+~
+S
+#9550
+Provision Store Room~
+You walk into a brightly lit room. Tin and iron rations are sitting on the
+shelves behind the wooden counter. Sacks of provision stack in a corner, 
+piling up to a human's height. On one shelf, you can see dried meat and 
+food stack neatly together. This must be the provision store room. There 
+is another doorway leading east while to the north is the dark passage.
+~
+95 d 0 0
+D0
+Dark Passage
+~
+door~
+2 0 9536
+D1
+Provision Store Room
+~
+~
+0 0 9551
+S
+#9551
+Provision Store Room~
+You walk into a brightly lit room. Tin and iron rations are sitting on the
+shelves behind the wooden counter. Sacks of provision stack in a corner, 
+piling up to a human's height. On one shelf, you can see dried meat and 
+food stack neatly together. This must be the provision store room. There 
+is another doorway leading west while to the north is the dark passage.
+~
+95 d 0 0
+D0
+Dark Passage~
+door~
+2 0 9537
+D3
+Dark Passage
+~
+~
+0 0 9550
+S
+#9552
+Hall of Weaponry~
+You steps into a great hall brightly lit by candles sit on girandole fixed to
+the walls. Across the room, you can see a row of weapon racks neatly arranged.
+All sorts of weapons are arranged on the racks. On the north and sount wall,
+there is a display of paintings of Hercules, the mighty god. A few apprentice
+are here practising their skills. West leads you back to those passage while
+north brings you into the middle of the great hall.
+~
+95 d 0 0
+D0
+Hall of Weaponry
+~
+~
+0 0 9553
+D3
+Dark Passage
+~
+~
+0 0 9540
+S
+#9553
+Hall of Weaponry~
+You are in the middle of the great hall. There are exits to the north and
+south.
+~
+95 d 0 0
+D0
+Hall of Weaponry
+~
+~
+0 0 9554
+D2
+Hall of Weaponry
+~
+~
+0 0 9552
+S
+#9554
+Hall of Weaponry~
+You steps into a great hall brightly lit by candles sit in girandole fixed on
+the walls. Across the room, you can see a row of weapon racks neatly arranged.
+All sorts of weapons are arranged on the racks. On the north and south wall,
+there is a display of paintings of Hercules, the mighty god. A few apprentice
+are here practising their skills. West leads you back to those passage while
+south brings you to the middle of the great hall.
+~
+95 d 0 0
+D2
+Hall of Weaponry
+~
+~
+0 0 9553
+D3
+Dark Passage
+~
+~
+0 0 9542
+S
+#9555
+Before the Entrance of Rainbow Maze~
+You are standing in a small dim room. To the west you can see a brightly lit,
+colorful room. There is a stairway leading down to those dark passage below.
+You can hear voices coming from within those colorful rooms.
+~
+95 d 0 0
+D3
+Entrance to Rainbow Maze
+~
+~
+0 0 9556
+D5
+Stairway
+~
+~
+0 0 9543
+S
+#9556
+Entrance to Rainbow Maze~
+You are standing at the entrance of the rainbow maze. Seven different colors
+decorate this room and those other rooms beyond. There is a sign here.
+~
+95 dg 0 0
+D1
+Before the Entrance of Rainbow Maze
+~
+~
+0 0 9555
+D3
+Rainbow Room
+~
+~
+0 0 9557
+E
+sign~
+Welcome to Rainbow Maze! You are about to enter a colorful world so
+colorful that you may stay in there forever. A word of advice to those
+brave enough to enter the maze. There will be drawings created by magic
+on each wall. They will tell you your next step. Set brief mode to off and
+make sure study the magical drawing properly avoid hitting DEATH TRAP !
+~
+S
+#9557
+Rainbow Room~
+You are standing in a brightly lit room. It is decorated with seven different
+colors namely ... red, yellow, orange, green, blue, indigo and violet. All the
+seven colors of the rainbow is present here. There are drawings on each wall.
+~
+95 dg 0 0
+D1
+Entrance of Rainbow Maze
+~
+~
+0 0 9556
+D3
+Rainbow Room
+~
+~
+0 0 9558
+S
+#9558
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+On the north wall, a rabbit trapped in a deep empty well. On the east wall, a
+man strolling the park with a girl. On the south wall, a lady swimming in a
+pool and on the west wall, a dark cave with a dim light ahead.
+~
+95 dg 0 0
+D1
+Rainbow Room
+~
+~
+0 0 9557
+D2
+Rainbow Room
+~
+~
+0 0 9558
+D3
+Rainbow Room
+~
+~
+0 0 9559
+S
+#9559
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+On the north wall,  a spider in its web. On the east wall, a child looking at a
+dinosaur. On the south wall, a horse galloping in the evening sun and the west
+wall display a fish swimming in a fish tank.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9559
+D1
+Rainbow Room
+~
+~
+0 0 9558
+D2
+Rainbow Room
+~
+~
+0 0 9560
+D3
+Rainbow Room
+~
+~
+0 0 9559
+S
+#9560
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+On the north wall,  an old man looking at the photo of his younger days. On the
+east wall, a runner running towards the finishing line. On the south, a rabbit
+trapped in a deep empty well and on the west display a clock.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9559
+D1
+Rainbow Room
+~
+~
+0 0 9561
+D3
+Rainbow Room
+~
+~
+0 0 9560
+S
+#9561
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+On the north and east wall, a rabbit trapped in a deep empty well. On the south
+wall, a archer shot a hare. On the west, a man running for shelter on a rainy
+day.
+~
+95 dg 0 0
+D2
+Rainbow Room
+~
+~
+0 0 9562
+D3
+Rainbow Room
+~
+~
+0 0 9560
+S
+#9562
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display a woman cutting a half-weaved cloth into two. On the
+east wall, a drawing of the ancient goddness of love, Astra. On the south wall,
+a rabbit trapped in a deep empty well. The west wall display a glass of water
+with a drop of oil in it.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9561
+D1
+Rainbow Room
+~
+~
+0 0 9563
+D3
+Rainbow Room
+~
+~
+0 0 9562
+S
+#9563
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of an ancient lamp brightly lit. On the east
+and south wall, a rabbit trapped in a deep and empty well. The west wall
+display a frightening child cuddling in his mother's arms.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9564
+D3
+Rainbow Room
+~
+~
+0 0 9562
+S
+#9564
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of a man falling through the black hole. On
+the east wall, a fisherman braving in the storm. On the south wall, a man
+walking backwards. The west wall display a rabbit trapped in a deep empty well.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9583
+D1
+Rainbow Room
+~
+~
+0 0 9565
+D2
+Rainbow Room
+~
+~
+0 0 9563
+D3
+Rainbow Room
+~
+~
+0 0 9561
+S
+#9565
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of a loser. On the east wall, a light seems
+to shimmer. On the south wall, a rabbit trapped in a deep empty well. The west
+wall display a drop of water dropping into a large bowl.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9556
+D1
+Rainbow Room
+~
+~
+0 0 9566
+D3
+Rainbow Room
+~
+~
+0 0 9564
+S
+#9566
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of pretty naked lady seducing you. On the
+east wall, a piece of emtpy land with a few trees and bushes. On the south wall
+a man working hard in his farm.The west wall display a growing cycle of human.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 -1
+D1
+Rainbow Room
+~
+~
+0 0 9565
+D2
+Rainbow Room
+~
+~
+0 0 9567
+D3
+Rainbow Room
+~
+~
+0 0 9565
+S
+#9567
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of fish swimming upstream. On the east wall,
+a man fighting Death. On the south wall, a rabbit trapped in a deep empty well.
+The west wall display a path lit by thousands of candles.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9566
+D1
+Rainbow Room
+~
+~
+0 0 9583
+D3
+Rainbow Room
+~
+~
+0 0 9568
+S
+#9568
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of an hour glass flowing backward. On the
+east wall, a dinosaur eating grass by the river. On the south wall, a tiger eat
+her new caught prey. The west wall display a picture of a worker cutting down
+an old tree.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9565
+D1
+Rainbow Room
+~
+~
+0 0 9567
+D2
+Rainbow Room
+~
+~
+0 0 9569
+D3
+Rainbow Room
+~
+~
+0 0 9563
+S
+#9569
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of an old man looking at a picture of his
+younger days. On the east wall, a child walking on a path and growing up as he
+moves. On the south and west wall, a rabbit trapped in a depp empty well.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9568
+D1
+Rainbow Room
+~
+~
+0 0 9570
+S
+#9570
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of the sun rising from the west. On the east
+wall, a rabbit trapped in a depp empty well. On the south wall, a hare dashing
+through the thick dense forest. The west wall display a colorful rainbow.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9567
+D2
+Rainbow Room
+~
+~
+0 0 9571
+D3
+Rainbow Room
+~
+~
+0 0 9569
+S
+#9571
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of lady swimming in a pool. On the east wall
+a group of kids playing a merry-go-round. On the south wall, a big stone wheel.
+The west wall display a panther stalking through the wood.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9570
+D1
+Rainbow Room
+~
+~
+0 0 9571
+D2
+Rainbow Room
+~
+~
+0 0 9571
+D3
+Rainbow Room
+~
+~
+0 0 9572
+S
+#9572
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of an old man fishing by the river. On the
+a east wall, an huge old cloak ticking away. On the south wall, a rabbit
+trapped in a deep empty well. The west wall display a lighthouse standing alone
+in the middle of the sea.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9569
+D1
+Rainbow Room
+~
+~
+0 0 9571
+D3
+Rainbow Room
+~
+~
+0 0 9573
+S
+#9573
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of the mighty god Zeus. On the east wall, a
+man walking alone round a pond. On the south and west wall, a rabbit trapped
+in a deep empty well.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9574
+D1
+Rainbow Room
+~
+~
+0 0 9572
+S
+#9574
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of an old broken ricket rope bridge. On the
+east wall, a man climbing down a long ladder. On the south wall, a man looking
+back the path he has walked. The west wall display a tunnel with a dim light
+far at the end.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9583
+D1
+Rainbow Room
+~
+~
+0 0 9569
+D2
+Rainbow Room
+~
+~
+0 0 9573
+D3
+Rainbow Room
+~
+~
+0 0 9575
+S
+#9575
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of water flowing up the mountain. On the
+east wall, a whale simming against the current. On the south wall, a rabbit
+trapped in a deep empty well. The west wall display an old woman wavving to you
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9562
+D1
+Rainbow Room
+~
+~
+0 0 9574
+D3
+Rainbow Room
+~
+~
+0 0 9576
+S
+#9576
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display the drawing of an old timer resting outside an inn. On
+the east wall, a deep well with no water in it. On the south wall, a dimly lit
+never ending path. The west wall display a skull dripping with blood.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9560
+D1
+Rainbow Room
+~
+~
+0 0 9575
+D2
+Rainbow Room
+~
+~
+0 0 9577
+D3
+Rainbow Room
+~
+~
+0 0 9583
+S
+#9577
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+All the four walls has the drawing of a blazing sun.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9576
+D1
+Rainbow Room
+~
+~
+0 0 9577
+D2
+Rainbow Room
+~
+~
+0 0 9578
+D3
+Rainbow Room
+~
+~
+0 0 9577
+S
+#9578
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+All the four walls has the drawing of cool full moon.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9577
+D1
+Rainbow Room
+~
+~
+0 0 9579
+D2
+Rainbow Room
+~
+~
+0 0 9578
+D3
+Rainbow Room
+~
+~
+0 0 9578
+S
+#9579
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+All the four walls looks the same.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9575
+D1
+Rainbow Room
+~
+~
+0 0 9580
+D3
+Rainbow Room
+~
+~
+0 0 9578
+S
+#9580
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+All the four walls looks the same.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9573
+D1
+Rainbow Room
+~
+~
+0 0 9581
+D3
+Rainbow Room
+~
+~
+0 0 9579
+S
+#9581
+Rainbow Room~
+You are in a room painted with multiple colors. There is a drawing on each wall
+The north wall display of a happy clown with a wide grin. On the east wall, a
+mighty warrior stood over a dead dragon. On the south wall, a rabbit trapped in
+a deep empty well. The west wall display an hour glass.
+~
+95 dg 0 0
+D0
+Rainbow Room
+~
+~
+0 0 9556
+D1
+Rainbow Room
+~
+~
+0 0 9582
+D3
+Rainbow Room
+~
+~
+0 0 9580
+S
+#9582
+Rainbow Room~
+You are in a room painted with multiple colors.  The is no more drawing on the
+walls. Instead you see a sign here and a stairway leading up to the next level.
+~
+95 dg 0 0
+D3
+Rainbow Room
+~
+~
+0 0 9581
+D4
+An Intersection
+~
+~
+0 0 9588
+E
+sign~
+Congratulation ! You have finally made it to the end of the maze.
+Do not be too happy for the best is yet to come !
+~
+S
+#9583
+Rainbow Room~
+You steps into a room filled with colors.....too much colors....you are feeling
+drowsy.........your eyes are getting heavy......your limps are numb........all
+you can see are the many colors dancing before you as you slipped into
+unconciousness...........try harder next time.
+~
+95 bd 0 0
+S
+#9587
+Dark Hallway~
+You walk along a extremely dark hallway which is so dark that you can barely
+see what is 3" ft ahead of you. In front of you, a pile of rubbles blocked off
+the way south. The ceiling has collapsed and there is no other way except to
+turn back. It seems that someone has deliberately shut off the passage way
+south.
+~
+95 adg 0 0
+D0
+An Intersection
+~
+~
+0 0 9588
+D2
+Thief Guild
+~
+rubble~
+2 0 9595
+S
+#9588
+An Intersection~
+You are at an intersection surounded by exits on all four sides. There are
+hallways to the north, east and west while south is too dark to see anything.
+There is a stairway leading down to the rainbow maze which you do not wish
+to re-enter again.
+~
+95 dg 0 0
+D0
+North Hallway
+~
+~
+0 0 9591
+D1
+East Hallway
+~
+~
+0 0 9593
+D2
+Too dark to tell
+~
+~
+0 0 9587
+D3
+West Hallway
+~
+~
+0 0 9589
+D5
+Rainbow Room
+~
+~
+0 0 9582
+S
+#9589
+West Hallway~
+You walk alog a dimly lit hallway filed with cobwebs from the ceiling and
+decaying bones on the ground. The whole hallway seems deserted. There are
+exits going east and west.
+~
+95 dg 0 0
+D1
+An Intersection
+~
+~
+0 0 9588
+D3
+End of Hallway
+~
+~
+0 0 9590
+S
+#9590
+End of Hallway~
+You have reach the end of the hallway. There do not seems to have any other
+except the way you came. The whole place here looks fishy and you are certain
+that there must be something hidden.
+~
+95 dg 0 0
+D1
+West Hallway
+~
+~
+0 0 9589
+D3
+Mage Laboratory
+~
+wall west~
+2 1 9597
+S
+#9591
+West Hallway~
+You walk alog a dimly lit hallway filed with cobwebs from the ceiling and
+decaying bones on the ground. The whole hallway seems deserted. There are
+exits going east and west.
+~
+95 dg 0 0
+D0
+End of Hallway
+~
+~
+0 0 9592
+D2
+An Intersection
+~
+~
+0 0 9588
+S
+#9592
+End of Hallway~
+You have reach the end of the hallway. There do not seems to have any other
+except the way you came. The whole place here looks fishy and you are certain
+that there must be something hidden.
+~
+95 dg 0 0
+D0
+Dark Cell
+~
+wall north~
+2 1 9599
+D2
+North Hallway~
+~
+0 0 9591
+D3
+Prayers Room
+~
+wall west~
+2 1 9596
+S
+#9593
+West Hallway~
+You walk alog a dimly lit hallway filed with cobwebs from the ceiling and
+decaying bones on the ground. The whole hallway seems deserted. There are
+exits going east and west.
+~
+95 dg 0 0
+D1
+End of Hallway
+~
+~
+0 0 9594
+D3
+An Intersection
+~
+~
+0 0 9588
+S
+#9594
+End of Hallway~
+You have reach the end of the hallway. There do not seems to have any other
+except the way you came. The whole place here looks fishy and you are certain
+that there must be something hidden.
+~
+95 dg 0 0
+D0
+Training Room
+~
+wall north~
+2 1 9598
+D3
+East Hallway~
+~
+0 0 9593
+S
+#9595
+Thief Guild~
+You are standing inside the thief guild. As you have expected, this place is
+dark and stuffy lit by only two lamps hanging from the ceiling. There are a few
+shelves and cupboards with a wooden table and a few chairs in the middle of
+the room. Empty mugs and bottles lay all over the place.
+~
+95 adfg 0 0
+D0
+Dark Hallway
+~
+door~
+2 0 9587
+S
+#9596
+Prayers Room~
+You are inside the prayers room. This place is highly sacred to the high priest
+A huge chandelier with eight candles hung from the ceiling provide lights to
+the room. The floor and walls are made from marble. There is a small candle
+flickering in the middle of the room.
+~
+95 dg 0 0
+D1
+End of Hallway
+~
+door~
+2 0 9592
+S
+#9597
+Mage Laboratory~
+You are standing inside a mage laboratory. Many strange instruments, vails
+bottles and some scrawled notes are piled about a workbench. The room is very
+untidy, looking almost abandoned. The only apparent exit is east.
+~
+95 dg 0 0
+D1
+End of Hallway
+~
+Wall~
+1 0 9590
+S
+#9598
+Training Room~
+You are inside the training room.  Many different kinds of weapons and armor
+are stacked neatly in a corner. The walls are decorated with different shields
+probably once used by adventurers coming here. There is a bear skin hanging
+on the far wall.
+~
+95 dg 0 0
+D2
+End of Hallway
+~
+door~
+2 0 9594
+S
+#9599
+Dark Cell~
+You steps into the dark cell and the wall closes behind you. You look around
+and saw undead moving slowly towards you. There must be thousands of them.
+You turn to poen the secret wall but it stands shut. Too late ...as the undead
+crawl towards you.......you have lost.....
+~
+95 bd 0 0
+S
+$~
+@
+
+
+1.2
+log
+@Artus> Checking everything in again.
+@
+text
+@d500 1
+a500 1
+Inner Room
+d735 1
+a735 1
+A Dark Passage
+d897 1
+a897 1
+lamp
+d969 3
+a971 3
+furnace~
+The huge furnace is burning furiously. Even as you look on the heat
+become unberable.
+d980 3
+a982 3
+anvil~
+The huge anvil looks tough. It can withstand the enormous heat and the
+high impact brought down by those iron hammer.
+a997 4
+crest~
+The crest appears to hide something in it.
+~
+E
+d1004 4
+d1999 2
+a2000 2
+~
+0 0 9590
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d8 1
+a8 1
+95 0 3
+d27 1
+a27 1
+95 0 3
+d32 1
+a32 1
+2 9580 9502
+d48 1
+a48 1
+95 8 0
+d62 1
+a62 1
+2 9585 9501
+d78 1
+a78 1
+95 8 0
+d94 1
+a94 1
+95 8 0
+d111 1
+a111 1
+95 8 0
+d141 1
+a141 1
+95 8 0
+d160 1
+a160 1
+95 8 0
+d178 1
+a178 1
+95 8 0
+d196 1
+a196 1
+95 8 0
+d217 1
+a217 1
+95 8 0
+d235 1
+a235 1
+95 8 0
+d263 1
+a263 1
+95 8 0
+d276 1
+a276 1
+95 8 0
+d294 1
+a294 1
+95 8 0
+d317 1
+a317 1
+95 8 0
+d329 1
+a329 1
+95 8 0
+d352 1
+a352 1
+95 8 0
+d370 1
+a370 1
+95 8 0
+d388 1
+a388 1
+95 8 0
+d413 1
+a413 1
+95 8 0
+d438 1
+a438 1
+95 8 0
+d456 1
+a456 1
+95 8 0
+d475 1
+a475 1
+95 8 0
+d487 1
+a487 1
+95 8 0
+d500 1
+a500 1
+Inner Room
+d508 1
+a508 1
+95 8 0
+d526 1
+a526 1
+95 8 0
+a532 1
+
+d539 1
+a539 1
+95 8 0
+d549 1
+a549 1
+0 0 952
+d557 1
+a557 1
+95 8 0
+d580 1
+a580 1
+95 8 0
+d598 1
+a598 1
+95 8 0
+d619 1
+a619 1
+95 8 0
+d637 1
+a637 1
+95 8 0
+d660 1
+a660 1
+95 8 0
+d683 1
+a683 1
+95 8 0
+d699 1
+a699 1
+95 8 0
+d717 1
+a717 1
+95 8 0
+d735 1
+a735 1
+A Dark Passage
+d741 1
+a741 1
+95 8 0
+d764 1
+a764 1
+95 8 0
+d780 1
+a780 1
+95 8 0
+d798 1
+a798 1
+95 8 0
+d821 1
+a821 1
+95 8 0
+d839 1
+a839 1
+95 8 0
+d861 1
+a861 1
+95 8 0
+d879 1
+a879 1
+95 0 0
+d893 1
+a893 1
+95 8 0
+d897 1
+a897 1
+lamp
+d919 1
+a919 1
+95 0 0
+d942 1
+a942 1
+95 8 0
+d957 1
+a957 1
+95 8 0
+d969 3
+a971 3
+anvil~
+The huge anvil looks tough. It can withstand the enormous heat and the
+high impact brought down by those iron hammer.
+d980 3
+a982 3
+furnace~
+The huge furnace is burning furiously. Even as you look on the heat
+become unberable.
+d991 1
+a991 1
+95 8 0
+d998 4
+a1007 4
+E
+crest~
+The crest appears to hide something in it.
+~
+d1017 1
+a1017 1
+95 8 0
+d1037 1
+a1037 1
+95 8 0
+d1057 6
+a1062 1
+95 8 0
+a1067 5
+D0
+Hall of Weaponry
+~
+~
+0 0 9553
+d1074 1
+a1074 1
+95 8 0
+d1095 6
+a1100 1
+95 8 0
+a1105 5
+D2
+Hall of Weaponry
+~
+~
+0 0 9553
+d1113 1
+a1113 1
+95 8 0
+d1130 1
+a1130 1
+95 72 0
+d1156 1
+a1156 1
+95 72 0
+d1175 1
+a1175 1
+95 72 0
+d1199 1
+a1199 1
+95 72 0
+d1228 1
+a1228 1
+95 72 0
+d1252 1
+a1252 1
+95 72 0
+d1272 1
+a1272 1
+95 72 0
+d1296 1
+a1296 1
+95 72 0
+d1315 1
+a1315 1
+95 72 0
+d1344 1
+a1344 1
+95 72 0
+d1368 1
+a1368 1
+95 72 0
+d1373 1
+a1373 1
+0 0 9265
+d1397 1
+a1397 1
+95 72 0
+d1422 1
+a1422 1
+95 72 0
+d1451 1
+a1451 1
+95 72 0
+d1470 1
+a1470 1
+95 72 0
+d1494 1
+a1494 1
+95 72 0
+d1524 1
+a1524 1
+95 72 0
+d1548 1
+a1548 1
+95 72 0
+d1568 1
+a1568 1
+95 72 0
+d1597 1
+a1597 1
+95 72 0
+d1621 1
+a1621 1
+95 72 0
+d1648 1
+a1648 1
+95 72 0
+d1675 1
+a1675 1
+95 72 0
+d1702 1
+a1702 1
+95 72 0
+d1724 1
+a1724 1
+95 72 0
+d1748 1
+a1748 1
+95 72 0
+d1770 1
+a1770 1
+95 72 0
+d1794 1
+a1794 1
+95 10 0
+d1804 1
+a1804 1
+95 73 0
+d1823 1
+a1823 1
+95 72 0
+d1856 1
+a1856 1
+95 72 0
+d1874 1
+a1874 1
+95 72 0
+d1892 1
+a1892 1
+95 72 0
+d1910 1
+a1910 1
+95 72 0
+d1932 1
+a1932 1
+95 72 0
+d1950 1
+a1950 1
+95 72 0
+d1968 1
+a1968 1
+95 105 0
+d1982 1
+a1982 1
+95 72 0
+d1995 1
+a1995 1
+95 72 0
+d1999 1
+a1999 1
+~~
+d2009 1
+a2009 1
+95 72 0
+d2023 1
+a2023 1
+95 10 0
+a2024 1
+#99999
+@
+

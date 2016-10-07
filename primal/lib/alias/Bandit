@@ -1,0 +1,19 @@
+@ mail muldar
+5 mail muldar
+boots : take off his boots.;: stretches his toes.;: puts his boots back on.
+ivb cast 'inf' self
+dib cast 'detect inv' self
+hl cast 'cure l' muldar
+bs rem scimitar;wield dagger;backs $1;rem dagger;wield scimitar
+mm cast 'mag' $1
+meat get meat backpack;eat meat;put all.meat backpack
+skin get skin backpack;drink skin;put skin backpack
+al assist muldar
+k kick $1
+9 get gold all.corpse
+hb cast 'cure l' self
+wh q white
+0 get all all.corpse
+1 recite recall self
+sl sleep
+up wake;stand

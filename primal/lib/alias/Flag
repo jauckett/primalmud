@@ -1,0 +1,11 @@
+heal cast 'cure critic' self
+rp remove pike
+wk wield knife
+wp wield pike
+rk remove knife
+red get all.red force
+qr quaff red
+gac get all corpse
+home recite recall
+hu 
+qw quaff white

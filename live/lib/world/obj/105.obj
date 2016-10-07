@@ -1,0 +1,291 @@
+#10501
+Gum boots~
+Gumboots~
+A pair of silver lined gumboots~
+~
+9 1161 65 0
+-2 0 0 0
+5 4500 0 73
+L 73
+A
+14 73
+A
+17 -4
+#10502
+Garden Gloves~
+Garden Gloves~
+A pair of garden gloves forged out of titanium~
+~
+9 1058 129 0
+6 0 0 0
+2 5506 0 72
+L 72
+A
+1 1
+A
+9 -1
+A
+18 2
+A
+19 1
+#10503
+Rose seed~
+Rose Seed~
+A small little seed lies here~
+~
+25 256 16385 0
+10504 0 0 10507
+1 63000 0 70
+L 70
+#10504
+Blackberry Seed~
+Blackberry Seed~
+A Blackberry hangs from the vines~
+~
+25 256 16385 0
+10503 0 0 10507
+1 125500 0 70
+L 70
+#10505
+Rose Thorn~
+Rose Thorn~
+A rose stem lies here~
+~
+25 128 5 0
+10506 0 0 10519
+1 25500 0 71
+L 71
+#10506
+Blackberry Thorn~
+Blackberry Thorn~
+A blackberry thorn is lying here~
+~
+25 128 5 0
+10505 0 0 10519
+1 25500 0 70
+L 70
+#10507
+Seed Ring~
+a Seeded Ring~
+A ring of seeds has been created.~
+~
+25 1024 16387 0
+10519 0 0 10514
+2 135000 0 75
+L 75
+A
+18 1
+A
+19 2
+#10508
+Rabbit Foot~
+Rabbit Foot~
+A lucky little Rabbit token~
+~
+11 33 16449 0
+0 0 0 0
+1 136800 0 76
+L 76
+A
+6 2
+A
+9 -1
+A
+24 3
+#10509
+Wishbone Chicken~
+Wishbone~
+A piece of bone~
+~
+20 2 1 0
+950000 0 0 0
+0 0 0 0
+L 0
+#10510
+Bee Sting~
+Bee Sting~
+The stingie thingie of the bee~
+~
+5 33555520 8193 0
+25 5 7 11
+10 120000 0 71
+L 71
+A
+2 -1
+A
+13 71
+A
+18 3
+A
+19 4
+#10511
+Queen Bee~
+Queen Bee Stinger~
+The Queens personal stinging weapon~
+~
+5 16778304 8193 0
+26 5 13 11
+10 142200 0 79
+L 79
+A
+18 5
+A
+19 7
+A
+12 -50
+A
+13 -50
+#10512
+Jack Lantern Light~
+Jack-o-Lantern~
+The moldy old Jack-o-Lantern~
+~
+1 66561 16385 0
+0 0 -1 0
+2 30 0 73
+L 73
+A
+11 20
+A
+18 1
+A
+19 1
+#10513
+Saw Chain~
+Chain Saw~
+A Rusted old Chain Saw~
+~
+5 1258 8193 0
+32 6 11 9
+10 131400 2550 73
+L 73
+A
+17 -20
+#10514
+Ring Thorns Shield~
+Ring of Thorns~
+A Magnificent shield made from the thorns of Roses and Blackberrys~
+~
+9 1024 513 0
+20 0 0 0
+10 30200 0 72
+L 72
+A
+12 72
+A
+13 50
+A
+18 6
+A
+19 6
+#10515
+Jelly Royal~
+Royal Jelly~
+A Pot of Royal Jelly~
+~
+10 260 1 0
+95 54 -1 -1
+1 1800 0 0
+L 0
+#10516
+Pool Cue~
+Pool Cue~
+A dusty pool cue~
+~
+5 139047424 8193 0
+0 7 10 11
+5 9900 990 69
+L 69
+A
+18 3
+A
+19 2
+A
+1 1
+A
+13 20
+#10517
+Wings~
+Bee Wings~
+A pair of broken bee wings~
+~
+24 1116 1025 0
+60 0 0 0
+0 32000 0 75
+L 75
+A
+17 -25
+#10518
+Rusty Metal Chain~
+Motor Bike Chain~
+A rusty pile of metal lays here~
+~
+9 1024 4097 0
+25 0 0 0
+10 133200 0 74
+L 74
+A
+18 2
+A
+19 1
+A
+17 -5
+#10519
+Thorns Cloak~
+Cloak of Thorns~
+A Cloak of Thorns lieth here~
+~
+11 1024 5 0
+10507 0 0 10514
+2 51000 0 72
+L 72
+A
+17 -7
+A
+14 -60
+A
+18 2
+A
+19 2
+#10520
+Coffee machine~
+a large coffee machine~
+A large coffee machine stands in the corner~
+~
+15 0 0 0
+200 0 -1 0
+11 0 0 0
+L 0
+E
+Coffee machine~
+There is a strong aroma comming from the machine. That perculated coffee
+would be ideal to drink
+~
+#10521
+Coffee mug~
+a mug of coffee~
+A  coffee mug stands here~
+~
+17 0 1 0
+7 7 12 0
+12 119000 10 69
+L 69
+E
+Coffee mug~
+Hot perculated coffee steams out of the mud
+~
+#10522
+couch leather~
+a leather couch~
+A comfortable leather couch is against the wall~
+~
+12 2 0 0
+200 0 0 0
+1 1 1 0
+L 0
+E
+Couch leather~
+This very cosy, brown leathered, couch is covered in fluffy cushions
+and looks like an ideal place to sleep.
+~
+$~

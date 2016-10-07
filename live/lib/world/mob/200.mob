@@ -1,0 +1,208 @@
+#20000
+angel grove citizen~
+a citizen of Angel Grove~
+A citizen of Angel Grove is walking around here half  drunk.
+~
+The citizen is dressed in casual clothes, which are of unusually bright colours. As you look closer you see that he has huge finger nails.
+~
+4428 33796 1000 E
+36 -5 3 1d1+2300 16d14+16
+32400 32400
+8 8 1
+E
+#20001
+angel grove citizen~
+a citizen of Angel Grove~
+A citizen of Angel Grove is stumbling around on high heels here.
+~
+The citizen is dressed in casual clothes, which are of unusually bright colours. As you look closer you see that she has huge finger nails.
+~
+4428 33796 1000 E
+36 -5 3 1d1+2000 15d13+14
+32400 200000
+8 8 2
+E
+#20002
+child kid citizen~
+a small child~
+A small child is here flying a kite.
+~
+The child looks pretty normal to you. A bit weak but normal. You wish you could return to your child hood, but realise that you cant.
+~
+4300 33792 1000 E
+29 -5 4 1d1+799 14d13+10
+26100 97000
+8 8 2
+E
+#20003
+dog poodle white~
+a white poodle~
+A small white poodle is here, doing it's poodle things. It is looks  lost
+~
+As you look at the white poodle you see his registration tag. It says E843cm5. Very helpful.
+~
+4172 33792 500 E
+29 0 4 1d1+499 12d12+10
+0 50000
+8 8 0
+E
+#20004
+grasshopper cricket~
+a grasshopper~
+A tiny green grasshopper is hopping around here in a very annoying manner.
+~
+You can't make out much as you look at this tiny creature.
+~
+72 33792 0 E
+45 0 5 5d10+500 11d15+17
+0 30115
+8 8 0
+E
+#20005
+student pupil~
+a student~
+A student is sitting here, being punished for his sins against humanity in the most cruel fashion.
+~
+The student is wearing a goofy school uniform, just like the one you used to wear when you were at school, except on his head he has a beret.
+~
+4234 33792 300 E
+35 -10 8 1d1+2000 15d14+17
+30 350000
+6 6 1
+E
+#20006
+student pupil~
+a student~
+A student is sitting here, being punished for her sins against humanity in the most cruel fashion.
+~
+The student is wearing a goofy school uniform, just like the one you used to wear when you were at school, except on his head he has a beret.
+~
+4234 33792 300 E
+35 -10 7 1d1+2000 15d13+16
+300 350000
+6 6 2
+E
+#20007
+teacher~
+a teacher~
+A teacher is sitting here, pretending to correct papers.
+~
+This teacher is stuck in the past.  He is still wearing a robe and one of those
+funny square hats he got when he graduated from uni.  He doesn't realise what
+the year is..  Or maybe he's just an aikido master.    
+~
+30810 296064 900 E
+38 -20 6 1d1+2300 16d17+12
+34200 380000
+6 6 1
+E
+#20008
+principal headmaster~
+the headmaster~
+The headmaster of the school is sitting here, wondering if he should change his title to principal.
+~
+The headmaster is a huge man, you are intimidated just being in the same building as him. He could probably crush you with his little finger.
+~
+30810 296064 1000 E
+40 5 0 1d1+2500 18d13+15
+36000 400000
+6 6 1
+E
+#20009
+cook chef ~
+the cook~
+A cook is here preparing some meals for next week early, just to make sure that they will be rock hard by then.
+~
+The cook is dressed  in dirty overalls and it looks like she has another job at the school - as a groundskeepr.
+~
+30810 296064 600 E
+39 -20 5 1d1+2400 16d16+17
+35100 390000
+8 8 2
+E
+#20010
+crocodile alligator reptile amphibian lizard monster~
+the huge reptile~
+A huge lizard is here, it's probably a crocodile, or maybe an alligator.
+~
+The monster is green, you are not sure what exactly it is. It looks a lot like a crocodile, but it could be an alligator. It could also be a seven thousand year old dragon for all you know. Actually it resembles your mother in law.
+~
+30810 296064 -1000 E
+41 -25 0 1d1+2000 20d14+18
+36900 410000
+5 5 0
+E
+#20011
+yellow desert puddy~
+a yellow puddy~
+A yellow desert puddy is here jumping around like mad. 
+~
+The puddy is wearing a yellow suit with a golden disk in the middle of its chest. He must be a sun worshiper.
+~
+20588 33920 100 E
+37 -20 2 1d1+1900 14d16+14
+33300 370000
+8 8 0
+E
+#20012
+white desert puddy~
+a white puddy~
+A white desert puddy is here jumping around like mad. 
+~
+The puddy is wearing a white suit with a silver disk in the middle of its chest. He must be a moon worshiper.
+~
+20588 33920 -100 E
+35 -10 3 1d1+1500 15d13+12
+31500 35000
+8 8 0
+E
+#20013
+black desert puddy~
+a black puddy~
+A black desert puddy is here jumping around like mad. 
+~
+The puddy is wearing a black suit with a black disk in the middle of its chest. He must worship the darkness.
+~
+20588 33920 -200 E
+39 -20 1 1d1+2300 15d15+17
+35001 390000
+8 8 0
+E
+#20014
+controller energy glow~
+the controller~
+The controller is here controlling Angel Grove, perhaps the whole world.
+~
+As you look closer you discover the truth. The controller is.
+~
+1073178 33980 0 E
+42 -26 -1 1d1+2700 17d17+18
+37800 420000
+8 8 0
+E
+#20015
+desert condor bird eagle~
+a desert condor~
+A condor hangs in the sky above.
+~
+You can't distinguish any feature on the condor.
+~
+6216 167840 35 E
+33 -15 3 1d1+967 13d13+15
+0 45000
+8 8 1
+E
+#20018
+Age~
+Age, the god's plaything~
+Age is standing here waiting to see the principal... again!
+~
+He looks unhappy about the fact that one or more of the gods has been picking
+on him.  He's here to dob them into the headmaster.    
+~
+5498970 0 -1000 E
+60 0 -7 8d30+5000 10d50+30
+54000 512068
+8 8 1
+E
+$

@@ -1,0 +1,18 @@
+- (BOZ) Deposit: Allow to do so into other people's accounts
+- (DM ) File reading/writing, for live updates of some things.
+	- Ie, training stats.
+- (SPL) Pay to use the recharge command on batteries.
+- (TAL) Modify reciting of scrolls to check previous spells cast, to 
+        prevent multiple castings of 'identify' in one reciting.
+- (SAN) Poison the meat on the rabid dogs
+- (ROJ) Supress the combat messages to something smaller, but useful
+	if brief mode is set.
+
+
+
+TRAPS
+~~~~~
+	value 0: 	is it loaded? 0 = no, 1 = yes, 2 = yes & room dmg
+	value 1:	number of dmg dice
+	value 2:	size of dmg dice
+	value 3:	vnum of obj trap is protecting ( 0 = just trap )

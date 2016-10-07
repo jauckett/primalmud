@@ -1,0 +1,51 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@qw open crate;get white crate;close crate;quaff white
+qr open crate;get red crate;close crate;quaff red;
+ro tell robohelp summon;tell robohelp bless;tell robohelp heal;tell robohelp mana;tell robohelp refresh;
+ge get all all.corpse
+mag cast 'magic missile' $*
+pc open crate;put $* crate;close crate;
+skin open crate;get skin crate;drink skin;put skin crate;close crate;
+gc open crate;get $* crate;close crate;
+meat open crate;get meat crate;close crate;eat meat;
+map open crate;get map crate;l map;put map crate;close map;
+atlas open crate;get atlas crate;l atlas;put map crate;close crate;
+cl cast 'cure light' $*
+di cast 'detect invisibility' $*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

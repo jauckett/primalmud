@@ -1,0 +1,206 @@
+#8100
+codpiece~
+a black codpiece~
+A black leather codpiece is sitting on the ground here.~
+~
+9 68160 2049 0
+2 0 0 0
+5 72000 3000 40
+L 40
+A
+6 1
+A
+12 40
+A
+18 5
+A
+19 2
+#8101
+axe~
+an executioner's axe~
+A huge executioner's axe is lying on the ground here.~
+~
+5 2560 8193 0
+0 10 5 3
+25 24531 4906 45
+L 45
+A
+18 5
+A
+19 5
+#8102
+spike~
+a nastly looking spike~
+A nasty looking spike is lying on the ground here.~
+~
+5 65600 8193 0
+0 2 11 11
+17 72000 12426 40
+L 40
+A
+19 3
+A
+18 3
+#8103
+ruff~
+a large ruff~
+A large ruff is lying on the ground here.~
+~
+9 129 5 0
+2 0 0 0
+2 18000 7290 10
+L 10
+A
+4 -2
+A
+13 -1
+#8104
+green nugget~
+a nugget of purist green~
+A nugget of purist green is lying on the ground here.~
+~
+8 0 1 0
+0 0 0 0
+1 72000 275 40
+L 40
+#8105
+pie~
+a huge pie~
+A huge pie has been left here.~
+~
+19 0 1 0
+8 0 0 0
+3 50 5 0
+L 0
+#8106
+crown ~
+a golden crown~
+A sparkling, golden crown has been dropped here.~
+~
+9 3072 17 0
+6 0 0 0
+6 29500 2950 45
+L 45
+E
+crown~
+A beautiful jeweled headwear that shine's mgnificently in the light.
+~
+A
+12 45
+A
+4 -1
+A
+18 2
+A
+19 1
+#8107
+bracers~
+Some black bracers~
+A pair of black leather bracers has been left here.~
+~
+9 2561 1025 0
+3 0 0 0
+9 72000 10700 40
+L 40
+A
+13 40
+A
+5 1
+#8108
+treasure gold~
+the Bishop's treasure.~
+Here lies the Bishop's secret treasure.~
+~
+8 1 1 0
+0 0 0 0
+1 81000 275 45
+L 45
+E
+treasure gold~
+The Bishop's secret treasure of gold, silver and rare jewels.
+~
+#8109
+Golden plate~
+Flashard's golden plate~
+Lord Flashard's golden plate armour lies here.~
+~
+9 3081 9 0
+16 0 0 0
+6 29500 2950 48
+L 48
+E
+golden plate~
+A magnificent plate of golden armour
+~
+A
+12 48
+A
+4 -2
+A
+18 4
+A
+19 2
+#8110
+golden leggings ~
+Flashard's golden leggings~
+A pair of magnificent golden leggings have been dropped here.~
+~
+9 3081 33 0
+8 0 0 0
+6 72000 2950 45
+L 45
+E
+golden leggings~
+A golden pair of leggings to be worn by a true knight
+~
+A
+1 2
+A
+4 -3
+A
+18 3
+A
+19 1
+#8112
+potion queen's healing~
+Queen's potion healing~
+The Queen's potion of healing lies here.~
+~
+10 0 1 0
+50 28 28 15
+1 1800 500 0
+L 0
+E
+potion~
+             
+           Strange markings surround the potion
+~
+#8113
+staff pink~
+pink staff~
+A pink staff lies here.~
+~
+4 1 1 0
+50 20 20 38
+1 1800 1000 0
+L 0
+E
+staff pink~
+             
+              This staff will sleep enemies
+~
+#8114
+Purple Staff~
+a purple staff~
+A purple staff lies here~
+~
+4 1 1 0
+50 20 20 7
+5 1800 3000 0
+L 0
+E
+staff purple~
+                  
+              This staff will charm anyone
+~
+$~

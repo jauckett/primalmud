@@ -1,0 +1,75 @@
+fs cast 'fire shield' cardinal
+tgac take gold all.corpse
+ww cast 'waterwalk' cardinal
+wb cast 'waterbreathe' cardinal
+rc cast 'word' cardinal
+csc2 cast 'sanc' 2.clone
+csc cast 'sanc' clone
+spr cast 'spirit armor' cardinal
+sc cast 'sum' citi
+orde order follower kill $1
+hc cast 'advanced heal' clone
+clo cast 'clone' cardinal
+dim cast 'dimension gate' $1
+bl cast 'bless' cardinal
+wi cast 'whirlwind' $1
+fi cast 'finger' $1
+ri cast 'identify' $1
+an cast 'animate dead' $1
+gr grats ---000---<<< $1 >>>---000---
+sa cast 'sanctuary' cardinal
+tr track $1
+drag cast 'dragon' cardinal
+qb open crate;get blue crate;quaff blue;close crate
+qr open crate;get red crate;quaff red;close crate
+hk cast 'heal' kreep
+invis cast 'invisibility' cardinal
+rf cast 'refresh' cardinal
+hh cast 'heal' cardinal
+sum cast 'summon' $1
+di cast 'detect invis' cardinal
+qt get tonic backpack;quaff tonic
+cl cast 'cure light' cardinal
+tgc take gold corpse
+em take meat backpack;eat meat
+gc get corpse;junk corpse
+ws wake;stand
+tac take all corpse
+dw get skin backpack;drink skin;put skin backpack
+ex examine corpse
+th train hit
+tm train mana
+cc cast 'cure critic' cardinal
+in cast 'infravision' cardinal
+loc cast 'locate' $1
+ed cast 'energy drain' $1
+ar cast 'armor' cardinal
+para cast 'paralyze' $1
+ps put all.skin backpack
+pm put all.meat backpack
+te cast 'teleport' cardinal
+hz cast 'heal' zombie
+rp cast 'remove poison' cardinal
+hd cast 'heal' death
+bas bash $1
+pri primal $1
+hkk cast 'advanced' kreep
+hhh cast 'advanced' cardinal
+ha cast 'holy' cardinal
+hc2 cast 'advanced ' 2.clone
+lig cast 'lightning shield'
+as order follower assist cardinal
+wr cast 'wraith' $1
+wt cast 'wraith'
+has cast 'haste' cardinal
+cb cast 'cure blind' $1
+oc order fol kill $1
+dp cast 'divine' cardinal
+dh cast 'divine heal' cardinal
+pw open force;put all.white force;close force
+qw open force;get white force;quaff white;close force
+bs backstab $1
+dhk cast 'divine heal' kreep
+hst cast 'divine heal' stereo
+sk cast 'stoneskin' cardinal
+nh cast 'nohassle' cardinal

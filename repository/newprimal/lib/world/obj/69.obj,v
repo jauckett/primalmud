@@ -1,0 +1,61 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2001.10.28.01.50.01;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+Modified: DM
+
+Added:
+- The file
+@
+text
+@#6900
+portal~
+a swirling portal~
+A swirling portal... dare ye step inside?~
+hi aph!
+~
+41 0 1 0
+2801 0 101 0
+1 0 0 0
+#6925
+Heartstone~
+a heart stone~
+An interesting object is left lying here.~
+~
+8 262209 1 0
+0 0 0 0
+0 0 0 0
+#6955
+Yin Yang~
+Yin Yang Symbol~
+A tool of wisdom floats in mid-air here.~
+Glows with a pure blue light, like nothing ever seen before. Shaped in a half
+spherical shape seperated in half in a sinous curve. One half black, the other
+pure white.
+~
+11 50331649 16385 4194368
+0 0 0 0
+0 0 0 0
+E
+Yin Yang~
+Glows with a pure blue light, like nothing ever seen before. Shaped in a semi-
+spherical in the colour of black and white, seperated by a sinous curve.
+~
+$~
+@

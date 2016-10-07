@@ -1,0 +1,29 @@
+gc rem knife;hold back;get all.gold all.corpse;rem back;hold knife
+gg rem knife;hold back;get all all.corpse;rem back;hold knife
+ll c 'detect inv';c 'detect magic';c 'detect align';c 'sense life'
+rr recite recall
+d sneak;down;hide
+u sneak;up;hide
+n sneak;north;hide
+s sneak;south;hide
+w sneak;west;hide
+qh get heal force;q heal
+qq get white force;q white
+pp c 'arm';c 'bless';c 'dragon'
+cf c 'create food';eat mush
+e sneak;east;hide
+eq equ;inv;save
+gac get all all.corpse
+arm tell gamina arm
+ble tell gamina ble
+sanc tell gamina sanc
+em get meat back;eat meat
+dw drink water
+he tell gamina heal
+er get red forc;q red
+kk rem winc;wield sabre;kill $1;rem sabre;wield winc
+cc scan
+qw get white back;q white
+qr get red back;q red
+jc get corpse;junk corpse
+x rem sabre;wield soaker;back $1;rem soaker;wield sabre

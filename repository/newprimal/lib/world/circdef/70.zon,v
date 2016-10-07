@@ -1,0 +1,106 @@
+head	1.1;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.10.14.00.59.59;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@#70 1
+Rand's Tower~
+7051 20 1 0
+M 0 7000 3 7000      	/* goats*/
+M 0 7000 3 7002
+M 0 7000 3 7004 
+M 0 7001 2 7007		/* demons */
+M 0 7001 2 7007
+M 0 7002 1 7012		/* book monster */
+G 1 7010 20		/* chaos book */
+G 1 7011 20		/* elder book */
+O 0 7009 1 7011		/* desk */
+M 0 7003 1 7011		/* bad feeling */
+P 1 7002 50 7009	/* agate */
+P 1 7003 50 7009	/* jade */
+P 1 7000 50 7009	/* glowing dagger */
+M 0 7005 1 7037		/* door guardian */
+O 0 7004 5 7011		/* sculpture */
+O 0 7013 100 7041	/* mevais */
+O 0 7014 100 7041	/* peska */
+O 0 7016 1 7016		/* chest */
+O 0 7017 1 7016		/* chest */
+O 0 7018 1 7016		/* chest */
+O 0 7019 1 7010 	/* water basin */
+M 0 7004 1 7016		/* worst nightmare */
+P 1 7001 50 7016	/* glowing platemail */
+P 1 7005 100 7017	/* dragon's blood */
+P 1 7007 50 7017	/* tent pole */
+P 1 7006 100 7018	/* amulet */
+P 1 7008 1 7018		/* powder of wealth */
+P 1 7012 10 7018	/* occluded lens */
+O 1 7020 10 7024 	/* food */
+O 1 7020 10 7024 	/* food */
+M 0 7006 5  7008 
+M 0 7006 5  7010          Maid 
+M 0 7006 5  7019 
+M 0 7006 5  7024 
+M 0 7006 5  7032 
+M 0 7007 5  7021
+M 0 7007 5  7026          Dog
+M 0 7008 4  7023
+M 0 7008 4  7027
+M 0 7008 4  7030          Scholar
+M 0 7007 5  7029
+M 0 7009 1  7036          wizard.
+E 1 7015 20 17	/* rand's staff */
+M 0 7007 5  7039
+M 0 7008 4  7041
+M 0 7007 5  7044
+D 0 7006 5 1
+D 0 7007 4 1
+D 0 7007 2 1
+D 0 7008 0 1
+D 0 7009 0 1
+D 0 7009 2 1
+D 0 7010 0 1
+D 0 7011 2 1
+D 0 7012 1 1
+D 0 7012 3 1
+D 0 7013 3 1
+D 0 7014 1 1
+D 0 7014 5 1
+D 0 7015 3 1
+D 0 7016 4 1
+D 0 7017 0 1
+D 0 7017 1 1
+D 0 7017 2 1
+D 0 7018 0 1
+D 0 7019 2 1
+D 0 7020 0 1
+D 0 7021 2 1
+D 0 7023 0 1
+D 0 7024 2 1
+D 0 7035 3 2
+D 0 7036 1 2
+D 0 7037 3 1
+D 0 7038 1 1
+D 0 7050 0 1 
+
+S
+#99999
+$~
+@

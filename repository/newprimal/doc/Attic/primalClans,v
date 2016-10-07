@@ -1,0 +1,299 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.07.06.10.17.17;	author primal;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2000.07.04.10.53.21;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.06.20.13.06.32;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@
+Changed:
+- Directory cleanup
+
+TODO:
+- Make README and filenaming standards
+@
+text
+@================================================================================
+                                Clan Propsoal
+================================================================================
+ 
+                      Writing by Dangermouse, June 2000
+                               Michael Dishon
+                          mbdishon@@optushome.com.au
+
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+ 
+================================================================================
+
+These ideas are based on a discussion between blackout and dangermouse. _Most_
+credit on the ideas should probably be directed towards blackout although I
+have heard rumors that the ideas may be based off pleth? and amarok also claims
+credit to some of them???.
+
+As the header says it is a proposal and is not complete. Some what may be values
+which are undetermined are represented by "X". I would like others to 
+make comments in this file where appropiate by the following the annotation 
+standard (sorry for the abuse of your pathetic name tali:) :
+>> (tali) How about adding feature that includes creation of banannas?
+or
+>> (tali) This value is to high, make it 5.
+or
+>> (tali) No this is a bad idea, a better one would be to make the healers heal 
+>> only oranges and not apples. 
+
+I simply would like comments to be documented (for better organisation).
+
+This file is stored in the repository under the directory:
+newprimal/docs/primalClans 
+
+If you make additions to it and dont add it to the repository, please email it
+to me at the address given in the header (IN TEXT FORMAT!).
+
+The idea behind this proposed system is to make clan playing more fun,
+addictive and competitive leading to a not so boring clan system - something
+with more functionality and entertainment. Additionally the system should be
+made such that it is not limited (in the sense that there is always something
+that can be added, upgraded etc.)
+
+Clan system:
+============
+
+Each clan has the following attributes:
+- clan fund (gold - a value based on a ratio of 100:1 of normal coin value)
+- clan exp  (exp - a value based on a ratio of 100:1 of normal exp value)
+- total clan exp gained (summ of all exp which determines the clan level??)
+- gold tax rate (a value representing a percentage from 1 to 50)
+- exp tax rate (a value representing a percentage from 1 to 50)
+
+Note: The ratio have been decided to allow values that will not break the
+      limits imposed on the size of an unsigned long int (2^32 ~ 4.3 bill).
+      eg. clan exp and clan fund can then have max values of 430 bill when
+      applying the ratios. 
+
+Derived Attributes:
+- clan level - based on the total clan exp gained
+
+	I was thinking of having a list including attributes such as:
+		- active (whether they are still in the clan,
+			if they rejoin then a new list entry should
+			be created so you have a record of when they
+			where actually in and out of the clan)
+		- date joined (the date they first joined)
+		- date left (the date they left)
+		- IDNUM (reference to the player id number)
+	From this list you can determine all sorts of stats and have
+	a complete record of who was/is in the clan and when, as well
+	as reference to player idnums for processing player attributes.
+
+- average clan member level
+- numb clan members
+ 
+
+Clan members attribute to these funds by a means of the leader setting taxes.
+
+Example: Clan leader sets gold tax rate at a value between 1 and 50, similarly
+for the exp tax rate. 
+
+When a player makes a kill they are automatically taxed the percentage set by 
+the clan leader. 
+
+Example: clan gold tax rate set at 10% and clan exp rate set at 10%. A player
+makes a kill and gets 100000 exp, they then get 10000 coins from the corpse.
+
+They are deducted: 
+a). The clan exp tax rate so 10000 goes towards the clan - apply ratio meaning
+    the clan gets 100 exp. If the value, or remainder is less than the ratio, 
+    then the player receives that proportion. 
+b). To balance the benefits of being a member of a clan, the player is deducted
+    additionally a tax of X%.
+c). 1000 coins goes towards the clan fund - after applying the ratio means the
+    clan gets 10 coins.
+
+A basic or new clan setup involves 1 clan room, and a guard. The clan then
+adds and ugrades their features as described in Clan Benefits.
+
+It should also be noted that clan halls do not have to be based in the current
+clan area and clan entry points should be pk so clan members can assist guards.
+
+Clan Benefits: (Other ideas would be nice as well)
+==============
+
+Clans have the option of buying "features" and upgrading existing features with
+the exp and gold available from the tax system. For the simplicity of upgrading
+features, I propsed we had a set of determined values for upgrades with a price
+that relates to the benefit. Restrictions on features and upgrades can be 
+based on the clan level, exp and gold.
+
+Such features include:
+
+Guards:
+-------
+Each clan has a guard. The guard can be upgraded to improve its stats and
+spells (to make it stronger). So a basic clan guard would be able to be killed
+making it possible to "hall the gates" of the clan area. 
+
+On attacked guards, a message would be sent across the clan channel letting the
+clan know their guard is under attack (not by whom?), and again a message would 
+be sent if the guard was killed exposing the clan area. A guard would
+be reborn every 3 tics?
+
+Maybe make it to have X reserve guards who replace killed guards immediately,
+or come out and assist guards when they are fighting? 
+
+Healers:
+--------
+Like they are now - except they start off with more basic skills and are 
+upgraded to perform higher level spells. Additionally make the frequency of
+healing dependent on the ability of the healer. 
+
+Also may want to do something with the classes here - ie. have healers of 
+class x that only heal members of class x or something? Races?
+
+Boards:
+-------
+As many as they like. Make messages removeable by clan leaders, make it so
+only members of clan x can write/read the board - probably best as an upgrade!
+
+Rooms:
+------
+As many as they like. One room may be used as a clan donation room (by clan
+donate command). Items and features can be bought for each room including:
+fountains, postmen, atms, portals room flags (clan leader/subleader, regenX2)
+
+A clan recall command should also be implemented which may cost clan exp or
+gold.
+
+Clan Equipment:
+---------------
+Each clan has a piece of clan eq. It starts off with basic stats and is 
+upgraded. This piece of eq is available to all members of the clan at a flat 
+rate cost which is drawn from the clan fund (clan leader should probably have 
+to purchase it). May want to add an eq position, or just make a position
+sacraficable due to the benefit of the item.
+
+Might also want/have to somehow restrict the stats based on a ratio dependent 
+on the clan members level? Blackout didnt really want to restrict it.
+
+Channel:
+--------
+Not available as default - may want to include enhancements to the channel as
+available upgrades.
+
+Include a clan leader channel for negotiations and the likes.
+
+
+Clan Relations:
+===============
+
+Each clan has a relation with every other clan. The relations involve the 
+following levels:
+war - hostile - neutral - friendly - allies
+ 
+The relations are primarly set by the clan leaders, but would be automatically
+adjusted on some scale due to the following events:
+- attacking clan guards
+- attacking different clan members
+
+Trading: (available to clans was going to be with a relation of neutral plus,
+--------  but can make it all such that one clan may "cease fire" if a trade
+          is made) 
+Clans may trade exp and gold via their leaders. (Gold 1:1 trade, exp 3:2 or
+something like that).
+
+
+Requirements for a new clan:
+============================ 
+
+- minimum of 4 members - one over level 60 to act as leader
+- creation date of all (at least 4 members) must be at least 2 months old
+- total hours played by members must exceed X hours
+- descriptions must be supplied for guard and room
+- approval from immortals
+
+- anything else to satisfy the validity of a setup 
+
+
+From here
+=========
+a). Once a satisfactory amount of feedback is obtained, a decision will be
+made whether we:
+ 1). Leave clan system as is
+ 2). Remove clan system altogether
+ 3). Implement this system with changes (minor/major)
+ 4). Implement another clan system 
+
+if we decide on 3 or 4:
+
+b). The missing details on the system will be filled in and this document will
+be redistrubuted. 
+
+c). A proposal will then be posted on primal with the details of the new system
+and player feedback will be considered.
+ 
+d). The hard part: Getting the balance? We are going to have to come up with
+the upgrade and new feature attributes, values, restrictions as well as the
+other things that contribute to the balance. Maybe it wont be that bad - its
+generally something I just dread and dont enjoy as much (hint - if someone
+wants to work with the actual balance system - values, restrictions, attributes
+and everything else, it would be appreciated as I guess I've got some coding
+to do if we decide to go this way).
+
+DM - MD 
+@
+
+
+1.2
+log
+@
+Added:
+- A couple of notes listed on the immortals board.
+@
+text
+@@
+
+
+1.1
+log
+@
+Added:
+- The first version of the file into the repository
+
+TODO:
+- Get feedback and take actions as described in Now Where section...
+@
+text
+@d18 3
+a20 1
+credit on the ideas should probably be directed towards blackout.
+d39 1
+a39 1
+to me at the address given in the header.
+d151 3
+@
+

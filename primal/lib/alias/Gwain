@@ -1,0 +1,22 @@
+mm cast 'magic missile' $1
+ad ass dracion
+loot get all all.corpse
+prb put all.red backpack
+] get all.red backpack
+rr recite recall
+slp c 'sleep' $1
+8 c 'detect invisibility' gwain
+[ q red
+4 get all.gold all.corpse
+88 c 'invisibility' gwain
+0 get all all.corpse
+bs backstab $1
+9 c 'infravision' gwain
+7 c 'creat water' skin
+1 rem oak
+1111 wield oak staff
+br buy 20 red
+tr track $1
+lb c 'lightning bolt' $1
+11 wie super soaker 2000
+111 rem super soaker 2000

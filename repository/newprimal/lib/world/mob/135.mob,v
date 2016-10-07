@@ -1,0 +1,715 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.05;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@#13500
+madam~
+the Madam~
+The cunning madam is here counting all her money.
+~
+You see before you a large breasted Madam.  She smiles slightly as
+she notices you watching her.  The Madam is wearing a crimson red 
+ornate dress that reaches all the way to the ground.  Her face has
+shows her age although it is covered in heavy make-up.
+~
+4241530 1064 200 E
+27 0 4 10d5+560 13d17+15
+10000 101000
+8 6 2
+E
+#13501
+Bouncer tuff~
+the bouncer~
+The Tuff Bouncer is standing here wathcing over the room.
+~
+You see an ugly scar faced man.  His arms are the size of wine barrels
+and he looks like he has thrown out many the roudy customers of this
+establishment.  He smirks as you glance his way.
+~
+12360 1032 100 E
+15 6 8 3d7+200 8d8+9
+5000 18000
+8 8 1
+E
+#13502
+Tuff Whore~
+the Tuff Whore~
+A Tuff looking Whore is standing here sizing you up.
+~
+You see a well weathered whore.  You can tell she has been around the
+track and then some.  Her dress is faded but still holds the attraction
+for which it was intended it fits as the perfect frame for all her assets.
+~
+2120 1032 50 E
+18 3 7 5d4+220 11d16+10
+4000 33000
+8 8 2
+E
+#13503
+Pretty Whore~
+the Pretty Whore~
+A pretty Whore is standing here gazing about the room.
+~
+You see a pretty whore, she is certianly one of the more popular girls in
+this establishment.  Her pretty blond hair is tied up with a blue ribbon.
+Her small classic features are accentuated by a faint hint of colour.
+~
+200 1064 20 E
+10 10 10 3d6+120 7d6+5
+3700 5000
+8 8 2
+E
+#13504
+Ugly Whore~
+the Ugly Whore~
+An Ugly Whore is standing here looking broke.
+~
+Before you is the most pathetic sight you have ever seen.  This woman is
+thin and haggard.  She does not look like she has eaten in some time.
+This woman must not get very much business and looking at her you can tell 
+why.  Maybe this woman should take up sowing.
+~
+32856 1032 100 E
+15 3 8 3d5+220 7d9+9
+4000 25000
+8 8 2
+E
+#13505
+Virgin young~
+the virgin~
+You see a young virgin standing here looking very lost.
+~
+A Virgin is standing here looking rather lost.  She looks quite out of place
+for in fact she may well be the only one in here.  She looks red and flushed
+and tries to avoid all eye contact with all who look her way.  The Virgin is
+wearing a long white dress that covers from neck to ankle.
+~
+125000 1049770 -100 E
+15 3 8 4d5+200 7d9+9
+5000 30000
+8 8 2
+E
+#13506
+Girl Dancing~
+a Dancing Girl~
+There is a attractive dancing girl here flashing her pantaloons.
+~
+You see before you a girl. She is dancing and kicking up her legs to the 
+music.  She is flashing her pantaloons for all to see.  She winks at you
+as you pass the stage.
+~
+6218 1064 10 E
+5 16 12 5d6+65 3d7+2
+1145 900
+8 8 2
+E
+#13507
+Girl Dancing~
+a Girl dancing~
+There is an attractive dancing girl with no pantaloons.
+~
+You see before you a girl. She is dancing and kicking up her legs to the    
+music.  If she had pantaloons you would see them.  But since she does not
+I wont go on to explain what you do see since this is not a X rated mud.
+~
+6218 1064 10 E
+5 16 12 5d6+65 3d7+2
+1012 1020
+8 8 2
+E
+#13508
+Baby Whore~
+a baby whore~
+A Baby Whore is standing here looking unsure of herself.
+~
+The baby whore is sure learning fast.  She winks and smiles as you
+glance in her direction.  She looks like a child who was let loose in a 
+dress up box.
+~
+200 0 0 E
+5 16 12 6d6+60 6d5+2
+1000 900
+8 8 2
+E
+#13509
+trumpeter player trumpet~
+the trumpet player~
+A Trumpet player is standing here tapping his foot.
+~
+You see a man with big cheeks and a very red face.  He's wearing a red 
+bow tie and a white shirt.  He is moving in time with the music.
+~
+74 1032 50 E
+7 14 11 7d8+80 8d8+3
+3000 2000
+8 8 1
+E
+#13510
+Pianist Piano Player~
+the piano player~
+A Piano Player is sitting here tinkling the ivory.
+~
+You see a man smiling and playing a piano.  He is singing along to the
+music as he plays. He's wearing a red bow tie and a white shirt.
+~
+74 1032 50 E
+7 14 11 7d8+80 8d8+3
+3000 2550
+6 8 1
+E
+#13511
+drummer Player~
+the drummer~
+A large Drummer is sitting here playing his instrument.
+~
+You see a man evil looking man bashing away at his drum kit.  He is'nt
+playing along with the music but not one seems to notice.  He's wearing a 
+red bow tie and a white shirt.  
+~
+74 1032 50 E
+8 13 11 8d8+70 5d9+2
+2500 2000
+8 6 1
+E
+#13512
+singer~
+singer~
+A drunk singer is standing in front of the band .
+~
+You see a woman dressed in royal blue standing in front of her a band.  
+She sways as she sings but not to the music.  Her eyes are bloodshot and 
+she looks like she has had one to many whisky's.
+~
+74 1032 50 E
+8 12 11 8d8+100 6d8+2
+4000 2500
+8 8 2
+E
+#13513
+john~
+a john~
+A John is standing here deciding on tonights woman.
+~
+You see a well dressed man wearing a grey suit with silver buttons.  He 
+twirls his moustache as he peers around the room.  He smiles as he spots 
+one of his old favourites.  He has a gold piece in his hand.
+~
+8264 1064 50 E
+10 9 10 3d7+140 7d7+4
+6000 3000
+8 9 1
+E
+#13514
+john~
+a john~
+A John is standing here looking around nervously.
+~
+You see a well dressed man wearing a grey suit with silver buttons.  He 
+twirls his moustache as he peers around the room.  He smiles as he spots 
+one of his old favourites.  He has a gold piece in his hand.
+~
+8264 1064 50 E
+10 9 10 3d7+140 9d7+4
+7000 3000
+8 9 1
+E
+#13515
+john~
+a john~
+A John is standing swaying to the music. 
+~
+You see a well dressed man wearing a grey suit with silver buttons.  He 
+twirls his moustache as he peers around the room.  He smiles as he spots 
+one of his old favourites.  He has a gold piece in his hand.
+~
+8264 1064 50 E
+10 9 10 3d7+140 8d7+4
+7050 3000
+8 8 1
+E
+#13516
+john~
+a john~
+A John is standing here watching the dancing girls. 
+~
+You see a well dressed man wearing a grey suit with silver buttons.  He 
+twirls his moustache as he peers around the room.  He smiles as he spots 
+one of his old favourites.  He has a gold piece in his hand.
+~
+8264 1064 50 E
+10 9 10 3d7+140 7d7+4
+4000 3000
+8 8 1
+E
+#13517
+preacher priest whisky~
+a whisky priest~
+The whisky Priest is sitting here looking solemn.~
+You see a priest sitting here.  He is wearing a white collar that is
+stained with sweat and dirt.  He looks with weary eyes as he peers across
+his lost congregation.
+~
+8264 1064 50 E
+20 13 7 4d4+400 6d10+10
+7015 49020
+8 6 1
+E
+#13518
+Candy~
+Candy~
+Candy is standing here waiting for her next customer.
+~
+Candy is standing before you, she is dressed in little more than an innocent 
+smile.  Candy flashes her perfect white teeth as you enter the room.  But 
+dont be fooled by that smile.  Looks can be deceiving.
+~
+4196426 1032 50 E
+18 3 8 5d4+220 8d9+10
+6000 29000
+8 8 2
+E
+#13519
+samantha~
+Samantha~
+Samantha is sitting here filing her nails.
+~
+Samantha is a tall Brunette with emerald green eyes.  She is wearing a 
+burgandy chiffon negligee. Samantha turns and gives a dissinterested glance.  
+~
+4196426 1032 50 E
+19 3 7 7d10+260 8d9+18
+7505 30735
+6 8 2
+E
+#13520
+Fay~
+Fay~
+Fay is asleep here after a long shift.
+~
+You see a small built woman sound asleep.  She has strawberry blond hair 
+and freckles all over her nose.  
+~
+4196426 1032 50 E
+18 3 8 5d4+220 7d9+10
+7000 29000
+8 4 2
+E
+#13521
+Belinda~
+belinda~
+Belinda is standing here dressing.
+~
+You see a large breasted Blond with baby blue eyes.  She is dressed in a 
+yellow gown made from silk.  Her hair is set in ringlets that fall down
+her bare back.
+~
+4196426 1032 50 E
+19 1 7 6d4+290 7d9+10
+9000 30000
+8 8 2
+E
+#13522
+Chantelle~
+chantelle~
+Chantelle is standing at the window looking out.
+~
+You see a sad faced black haired girl standing here.  She is looking soulfully
+out the window as it seems she feels there is somewhere else she would rather 
+be.  Her eyes are the palest blue and her skin is lily white.  Her long
+curly hair is blowing in the brease from the open window.
+~
+4196426 1032 50 E
+20 0 7 20d4+280 5d12+12
+8000 40000
+8 8 2
+E
+#13523
+Kim~
+Kim~
+Kim is stitting here at her dresser brushing her hair.
+~
+Kim is a buxom strawberry blond. She is wearing a pink velvet dress with a  
+plundging neckling.  You can tell she has been around the track and then 
+some.  Her dress is faded but still holds the attraction for which it was 
+intended it fits as the perfect frame for all her assets.
+~
+2122 1032 50 E
+20 0 7 20d4+280 6d14+12
+8000 40000
+8 6 2
+E
+#13524
+May~
+May~
+May is standing here looking sexy.
+~
+May is sexy but dangerous, she could cut your throat before you even noticed   
+You can tell she has been around the track and then some.  Her dress is 
+faded but still holds the attraction for which it was intended it fits as 
+the perfect frame for all her assets.
+~
+4196426 1032 50 E
+21 0 6 5d4+260 9d11+14
+8000 41000
+8 8 2
+E
+#13525
+Jane~
+Jane~
+Jane is sitting here putting her stockings on.
+~
+Jane is wearing a black lace corset and garters. Her thick black hair is 
+stacked loosely on top of her head.  You can tell she has been around the
+track and then some.  Her corset is faded but still holds the attraction
+for which it was intended it fits as the perfect frame for all her assets.
+~
+4196426 1032 50 E
+21 0 6 5d4+260 8d15+14
+8000 42000
+8 6 2
+E
+#13526
+rose~
+rose~
+Rose is standing here smiling at you.
+~
+You see before you a very tuff woman.  You can tell she has been around the
+track and then some.  Her dress is faded but still holds the attraction
+for which it was intended it fits as the perfect frame for all her assets.
+~
+4196426 1032 50 E
+23 -1 6 5d10+220 11d11+14
+9000 45000
+8 8 2
+E
+#13527
+daisy~
+daisy~
+Daisy is standing here watching you intently.
+~
+You see a well weathered whore.  You can tell she has been around the
+track and then some.  Her dress is faded but still holds the attraction
+for which it was intended it fits as the perfect frame for all her assets.
+~
+4196426 1032 50 E
+23 -1 6 5d10+220 15d15+14
+9000 46000
+8 8 2
+E
+#13528
+Farmer~
+a farmer~
+A farmer is standing here after a long day
+~
+You see a man just come in from that farm after a long day.  He is dusty and
+smells bad. 
+~
+4202568 1064 50 E
+15 5 8 6d8+136 8d8+16
+6990 16685
+8 8 1
+E
+#13529
+Guard~
+the guard~
+A guard is standing here covering the door.
+~
+You see a large well dressed man standing here.  He is guarding a large ornate door.  He looks you up and down.
+~
+4206666 1032 100 E
+20 0 7 7d11+341 10d10+22
+15435 40370
+8 8 1
+E
+$
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d12 1
+a12 1
+27 0 -7 10d5+560 3d7+15
+d249 1
+a249 1
+20 18 0 4d4+400 2d9+10
+d263 1
+a263 1
+18 3 0 5d4+220 1d6+10
+d289 1
+a289 1
+18 3 0 5d4+220 1d6+10
+d318 1
+a318 1
+20 0 -1 20d4+280 1d7+12
+d333 1
+a333 1
+20 0 -1 20d4+280 1d7+12
+d348 1
+a348 1
+21 0 -2 5d4+260 1d6+14
+d363 1
+a363 1
+21 0 -2 5d4+260 1d6+14
+d377 1
+a377 1
+23 -1 -6 5d10+220 2d6+14
+d391 1
+a391 1
+23 -1 -6 5d10+220 2d6+14
+d416 1
+a416 1
+20 0 -5 7d11+341 3d9+22
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d11 1
+a11 1
+4241530 1064 200 S
+d14 2
+a15 1
+8 6 2 2
+d25 2
+a26 2
+12360 1032 100 S
+15 6 2 3d7+200 1d8+9
+d28 2
+a29 1
+8 8 1 2
+d32 1
+a32 1
+The Tuff Whore~
+d39 2
+a40 2
+2120 1032 50 S
+18 3 0 5d4+220 1d6+10
+d42 2
+a43 1
+8 8 2 2
+d46 1
+a46 1
+The Pretty Whore~
+d53 2
+a54 2
+200 1064 20 S
+10 10 2 3d6+120 1d6+5
+d56 2
+a57 1
+8 8 2 2
+d68 2
+a69 2
+32856 1032 100 S
+15 3 1 3d5+220 1d6+9
+d71 2
+a72 1
+8 8 2 2
+d75 1
+a75 1
+The virgin~
+d83 2
+a84 2
+125000 1049770 -100 S
+15 3 0 4d5+200 2d6+9
+d86 2
+a87 1
+8 8 2 2
+d97 2
+a98 2
+6218 1064 10 S
+5 16 7 5d6+65 1d7+2
+d100 2
+a101 1
+8 8 2 2
+d111 2
+a112 2
+6218 1064 10 S
+5 16 7 5d6+65 1d7+2
+d114 2
+a115 1
+8 8 2 2
+d125 2
+a126 2
+200 0 0 S
+5 16 8 6d6+60 1d5+2
+d128 2
+a129 1
+8 8 2 2
+d138 2
+a139 2
+74 1032 50 S
+7 14 7 7d8+80 1d8+3
+d141 2
+a142 1
+8 8 1 2
+d151 5
+a155 4
+74 1032 50 S
+7 14 7 7d8+80 1d8+3
+3000 2550 
+6 8 1 2
+d165 2
+a166 2
+74 1032 50 S
+8 13 7 8d8+70 1d9+2
+d168 2
+a169 1
+8 6 1 2
+d179 2
+a180 2
+74 1032 50 S
+8 12 7 8d8+100 1d8+2
+d182 2
+a183 1
+8 8 2 2
+d193 2
+a194 2
+8264 1064 50 S
+10 9 2 3d7+140 1d7+4
+d196 2
+a197 1
+8 9 1 2
+d207 2
+a208 2
+8264 1064 50 S
+10 9 2 3d7+140 1d7+4
+d210 2
+a211 1
+8 9 1 2
+d221 2
+a222 2
+8264 1064 50 S
+10 9 2 3d7+140 1d7+4
+d224 2
+a225 1
+8 8 1 2
+d235 2
+a236 2
+8264 1064 50 S
+10 9 2 3d7+140 1d7+4
+d238 2
+a239 1
+8 8 1 2
+d248 1
+a248 1
+8264 1064 50 S
+d251 2
+a252 1
+8 6 1 2
+d262 1
+a262 1
+4196426 1032 50 S
+d265 2
+a266 1
+8 8 2 2
+d275 2
+a276 2
+4196426 1032 50 S
+19 3 -1 7d10+260 3d9+18
+d278 2
+a279 1
+6 8 2 2
+d288 1
+a288 1
+4196426 1032 50 S
+d291 2
+a292 1
+8 4 2 2
+d302 2
+a303 2
+4196426 1032 50 S
+19 1 -1 6d4+290 2d6+10
+d305 2
+a306 1
+8 8 2 2
+d317 1
+a317 1
+4196426 1032 50 S
+d320 2
+a321 1
+8 8 2 2
+d332 1
+a332 1
+2122 1032 50 S
+d335 2
+a336 1
+8 6 2 2
+d347 1
+a347 1
+4196426 1032 50 S
+d350 2
+a351 1
+8 8 2 2
+d362 1
+a362 1
+4196426 1032 50 S
+d365 2
+a366 1
+8 6 2 2
+d375 2
+a376 2
+~~
+4196426 1032 50 S
+d379 2
+a380 1
+8 8 2 2
+d389 2
+a390 2
+~~
+4196426 1032 50 S
+d393 2
+a394 1
+8 8 2 2
+d403 2
+a404 2
+4202568 1064 50 S
+15 5 0 6d8+136 3d7+16
+d406 2
+a407 1
+8 8 1 2
+d415 1
+a415 1
+4206666 1032 100 S
+d418 3
+a420 3
+8 8 1 2
+#99999
+$~
+@
+

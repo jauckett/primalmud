@@ -1,0 +1,724 @@
+head	1.8;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.8
+date	2004.05.23.07.21.50;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.21.08.52.11;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.06.05.48.36;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.26.00.07.03;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.43;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Artus> Checking everything in again.
+@
+text
+@#2101
+sewer access pit~
+sewer access pit~
+A pit to access the sewers of Haven is embedded into the earth here~
+~
+41 0 0 0
+3651 5 0 0
+0 0 0 5
+L 5
+#2102
+meat cleaver~
+a meat cleaver~
+A meat cleaver shines here~
+~
+5 8397312 8193 0
+0 5 5 3
+5 36000 0 20
+L 20
+A
+18 3
+A
+19 3
+A
+13 -55
+#2103
+large wooden frame framed bed~
+a large wooden framed bed~
+A large wooden framed bed stands here against the far wall~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+A
+1 1
+A
+5 1
+#2104
+bottle whisky~
+a bottle of whisky~
+A bottle of whisky has been carefully placed here~
+~
+17 0 16385 0
+500 500 5 0
+3 1800 0 0
+L 0
+#2105
+metallic shield~
+a metallic shield~
+A metallic shield has been dropped here.~
+~
+9 512 513 0
+3 0 0 0
+6 10000 1000 10
+L 10
+A
+5 1
+A
+18 2
+#2106
+Wardrobe~
+Wardrobe~
+A wooden wardrobe stands here.~
+~
+15 0 0 0
+50 5 -1 0
+0 0 0 5
+L 5
+#2107
+Health vial~
+a Health vial~
+A glass health vial sits here upright~
+A clear glass container full of a red healing liquid
+~
+10 0 1 0
+0 28 28 0
+8 6000 0 20
+L 20
+#2108
+bedside table~
+a bedside table~
+A bedside table sits beside the bed.~
+~
+15 0 0 0
+50 5 -1 0
+0 0 0 10
+L 10
+#2109
+Wardrobe~
+Wardrobe~
+A wooden wardrobe stands here.~
+~
+15 0 0 0
+50 5 -1 0
+0 0 0 0
+L 0
+A
+19 1
+#2110
+Wardrobe~
+Wardrobe~
+A wooden wardrobe stands here.~
+~
+15 0 0 0
+50 5 -1 0
+0 0 0 0
+L 0
+#2111
+large wooden frame framed bed~
+a large wooden framed bed~
+A large wooden framed bed stands here against the far wall~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#2112
+large wooden frame framed bed~
+a large wooden framed bed~
+A large wooden framed bed stands here against the far wall~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+#2113
+bedside table~
+a bedside table~
+A bedside table sits beside the bed.~
+~
+15 0 0 0
+50 5 -1 0
+0 0 0 0
+L 0
+#2114
+bedside table~
+a bedside table~
+A bedside table sits beside the bed.~
+~
+15 0 0 0
+50 5 -1 0
+0 0 0 0
+L 0
+#2115
+wooden chest~
+a wooden chest~
+A wooden chest with a steel lock on it.~
+~
+15 0 0 0
+50 15 2116 0
+0 0 0 0
+L 0
+#2116
+key~
+a Key~
+A chest key lies here~
+~
+18 81932 1 0
+0 0 0 0
+1 1 0 0
+L 0
+#2117
+Wooden scythe~
+a wooden handled scythe~
+A long wooden handled sharp scythe lies here.~
+~
+5 8192 8193 0
+0 5 6 3
+4 0 0 25
+L 25
+E
+Sign~
+Those whom wish to enter must state so by a verbal command of "PLEASE OPEN YOUR TREENESS "to the HOLY tree whom will grant their access.
+~
+A
+18 3
+A
+19 3
+A
+13 -55
+#2118
+regenerating potion~
+a regenerating potion~
+A regenerating potion lies here.~
+An odd multi-coloured potion filled with a strange liquied that is thick and
+gooey!    
+~
+10 61440 1 0
+5 53 0 0
+7 4500 0 26
+L 26
+#2119
+egg white~
+a white bullant egg~
+A white bullant egg is lying here.~
+~
+19 66053 1 0
+0 0 0 0
+1 0 0 0
+L 0
+#2120
+tree branch~
+a tree branch~
+A tree branch has fallen from above and left a crater in the ground.~
+~
+12 0 1 0
+0 0 0 0
+11 0 0 0
+L 0
+T 2115
+#2121
+amnethyst earing~
+an amnethyst earing~
+An earing containing an amnethyst lies here~
+~
+9 0 65537 0
+2 0 0 0
+2 25000 0 15
+L 15
+A
+18 2
+A
+19 1
+$~
+@
+
+
+1.7
+log
+@Artus> Sync.
+@
+text
+@d77 1
+a77 1
+8 10000 0 20
+d190 1
+a190 1
+5 9000 0 26
+@
+
+
+1.6
+log
+@Artus> Sync.
+@
+text
+@d15 1
+a15 1
+5 8389120 8193 0
+d23 2
+d77 2
+a78 2
+1 1800 0 0
+L 0
+d167 1
+a167 1
+5 0 8193 0
+d180 1
+a180 1
+17 -2
+d185 2
+a186 1
+An odd multi-coloured potion filled with a liquid similar to that of blood. Bullant blood? Surely not!
+d188 1
+a188 1
+10 0 1 0
+d190 2
+a191 2
+1 0 0 5
+L 5
+d213 1
+a213 1
+An amnethyst earing~
+@
+
+
+1.5
+log
+@Artus> Keeping the repository up-to-date. This is the groundwork for the
+       release.
+@
+text
+@d42 1
+a42 1
+100 100 5 0
+a168 1
+T 2102
+d208 13
+@
+
+
+1.4
+log
+@Artus> Getting very close...
+@
+text
+@d25 1
+a25 1
+A large wooden framed bed~
+d68 8
+a75 7
+high heels shoes~
+high heels~
+A pair of old high heels lie discarded in a corner~
+~
+9 0 65 0
+3 1 0 0
+2 100 10 0
+d78 3
+a80 3
+opal ring~
+an opal ring~
+You see an opal ring here.~
+d82 3
+a84 3
+9 0 3 0
+1 0 0 0
+1 100 10 10
+a85 2
+A
+19 1
+d87 3
+a89 3
+opal bracelet~
+opal bracelet~
+You see an opal bracelet here~
+d91 4
+a94 4
+9 512 4097 0
+1 1 0 0
+1 1100 110 10
+L 10
+d98 3
+a100 3
+display case~
+display case~
+There is a large display case here.~
+d103 2
+a104 2
+1000 13 2111 0
+11 0 0 0
+d107 7
+a113 7
+key chain~
+key chain~
+A large chain of keys hangs on the wall~
+~
+18 0 1 0
+2 0 0 0
+1 10 1 0
+d116 7
+a122 7
+opal potion~
+an opal potion~
+An opal potion rests here~
+~
+10 0 16385 0
+15 36 43 -1
+1 1800 1000 0
+d125 7
+a131 7
+sword long~
+a long sword~
+A long sword has been left here.~
+~
+5 8192 8193 0
+0 1 8 3
+8 640 128 0
+d134 8
+a141 10
+runed dagger~
+a runed dagger~
+A runed dagger, almost hidden from sight, lies here.~
+~
+5 513 8193 0
+0 1 6 11
+5 5270 1054 10
+L 10
+A
+18 2
+d143 7
+a149 7
+chest iron~
+an Iron Bound Chest~
+An Iron Bound Chest with a HUGE lock on it.~
+~
+15 6 1 0
+100 11 2116 0
+10 0 0 0
+d154 1
+a154 1
+The quest key lies here.~
+d156 2
+a157 2
+18 65564 1 0
+2115 0 0 0
+d161 8
+a168 8
+tree mysterious~
+a mysterious looking tree~
+A HUGE tree stands before you in the centre of this grassy area.~
+~
+12 0 0 0
+0 0 0 0
+0 0 0 0
+L 0
+d174 6
+d181 22
+a202 3
+door~
+a HUGE mysterious tree~
+A HUGE mysterious tree stands before you with an open doorway into it.~
+d204 5
+a208 4
+41 0 0 0
+2119 5 0 0
+0 0 0 5
+L 5
+@
+
+
+1.3
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@d2 3
+a4 3
+key gold~
+a gold key~
+There is a gold key here~
+d6 4
+a9 4
+18 65540 1 0
+2 0 0 0
+1 1 0 0
+L 0
+d11 20
+a30 7
+key old~
+an old key~
+There is a old key here~
+~
+18 65540 1 0
+2 0 0 0
+1 1 0 0
+a31 9
+#2103
+boots strange~
+a pair of strange boots~
+A pair of strange boots sit on the floor rather correctly~
+~
+9 1027 65 0
+2 0 0 0
+2 18000 2400 10
+L 10
+d37 8
+a44 12
+galactic claymore~
+a galactic claymore~
+A galactic claymore sits heavily on the ground.~
+~
+5 64 8193 0
+0 5 3 3
+16 14400 7876 8
+L 8
+A
+4 1
+A
+13 8
+d52 2
+a53 2
+6 10000 1000 7
+L 7
+d56 2
+d59 3
+a61 3
+black tunic~
+black tunic~
+A black tunic lies in a crumpled heap on the floor~
+d63 3
+a65 3
+9 0 1033 0
+1 0 0 0
+5 100 10 5
+d166 10
+a175 1
+A mysterious looking tree is in the centre of a ring of concentric circles.~
+a176 4
+41 0 0 0
+2162 0 0 0
+11 0 0 0
+L 0
+d178 3
+a180 3
+scrying pool~
+a scrying pool~
+You look into the pool and see the enfans town.~
+d183 3
+a185 3
+2159 0 0 0
+11 0 0 0
+L 0
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d128 1
+a128 1
+5 0 8193 0
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+18 65540 1
+d8 1
+a8 1
+1 1 0
+d15 1
+a15 1
+18 65540 1
+d17 1
+a17 1
+1 1 0
+d24 1
+a24 1
+9 1027 65
+d26 2
+a27 1
+2 24000 2400
+a31 1
+L 10
+d34 1
+a34 1
+A galactic claymore~
+d37 1
+a37 1
+5 64 8193
+d39 2
+a40 1
+16 39380 7876
+d42 1
+a42 1
+4 2
+d44 1
+a44 2
+13 20
+L 8
+d50 1
+a50 1
+9 512 513
+d52 2
+a53 1
+6 10000 1000
+a55 1
+L 7
+d61 1
+a61 1
+9 0 1033
+d63 1
+a63 1
+5 100 10
+d70 1
+a70 1
+9 0 65
+d72 1
+a72 1
+2 100 10
+d79 1
+a79 1
+9 0 3
+d81 2
+a82 1
+1 100 10
+a84 1
+L 10
+d90 1
+a90 1
+9 512 4097
+d92 2
+a93 1
+1 1100 110
+a95 1
+L 10
+d101 1
+a101 1
+15 0 0
+d103 1
+a103 1
+1000 0 0
+d110 1
+a110 1
+18 0 1
+d112 1
+a112 1
+1 10 1
+d119 1
+a119 1
+10 0 16385
+d121 1
+a121 1
+1 10000 1000
+d128 1
+a128 1
+5 0 8193
+d130 1
+a130 1
+8 640 128
+d137 1
+a137 1
+5 513 8193
+d139 2
+a140 1
+5 5270 1054
+a142 1
+L 0
+d145 1
+a145 1
+An Iron Bound Chest~
+d148 1
+a148 1
+15 6 1
+d150 1
+a150 1
+10 0 0
+d154 1
+a154 1
+A Key~
+d157 1
+a157 1
+18 65564 1
+d159 1
+a159 1
+1 1 0
+d163 1
+a163 1
+A mysterious looking tree~
+d166 1
+a166 1
+41 0 0
+d168 1
+a168 1
+1000 0 0
+d172 1
+a172 1
+A scrying pool~
+d175 1
+a175 1
+41 0 0
+d177 1
+a177 1
+1000 0 0
+a178 1
+#99999
+@
+

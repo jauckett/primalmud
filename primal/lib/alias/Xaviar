@@ -1,0 +1,81 @@
+unlev rem chit;put chit for;wear trans;wear shield;rem all.ring;p all.imm for;wear all.ring;rem all.jade;wear all.cape;p all.jade for;rem run; put run fie;wie ham
+dra cast 'dragon' $*
+em get meat fie;eat meat
+ef cast 'create food';eat mush
+sl cast 'sense life' $*
+town e;n;e;e;e;e;s;s;s
+rush e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;w;d;s;e;e;d;s;s
+lhank w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s
+rp cast 'remove poison' $*
+crystal rem head;get hat field;wear hat;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;e;n;n;n;n;n;n;rem hat;put hat field;wear head
+oz ord zombie $*
+gu wake;stand
+gaf get all $* force
+paf put all $* force
+str cast 'strength' $*
+p hunt $1; hunt
+of open field
+drielend w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;d
+ri get identify force;recite identify $*
+gwb get white bag
+pf put $* field
+gf get $* field
+bl cast 'bless' $*
+ew cast 'enchant weapon' $*
+os o jester $*
+cc cast 'cure critical' $*
+te cast 'teleport' $*
+bli cast 'blindness' $*
+cb cast 'cure blindness' $*
+hp hold pen
+og orde guard $*
+cp cast 'charm person' $*
+gac get all $*corpse
+ea cast 'earthquake' $*
+rc cast 'remove curse' $*
+ud unlock door $*
+od open door $*
+shadow s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;e;n;e;e;
+ad cast 'animate dead' $*
+camelot s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;e;e;e;e;e;n;n;n;e;e;s;e;e;n;n;n;e;e;e;e;e;e;
+ch cast 'heal' $*
+su cast 'summon' $*
+ga get all $*
+wa wear all $*
+tr tell raistlin $*
+ca cast 'armor' $*
+inv cast 'invisibility' $*
+inf cast 'infravision' $*
+lo cast 'locate object' $*
+di cast 'detect invisibility' $*
+wf wield fist
+gb get $* bag
+jc ju corpse
+wr cast 'word of recall' 
+h cast 'harm' $*
+cr cast 'refresh' $*
+san cast 'sanctuary' $*
+hb hold brick
+darask w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+oa order apprentice $*
+da cast 'detect alignment' $*
+pa cast 'paralyze' $*
+fe cast 'fear' $*
+cu cast 'curse' $*
+ww cast 'waterwalk' $*
+pe cast 'protection from evil' $*
+de cast 'dispel evil' $*
+dg cast 'dispel good' $*
+ed cast 'energy drain' $*
+com cast 'compare' $*
+qw get white force; quaff white
+ds get skin force;drink skin;put skin force
+tower cast 'waterwalk' ;s;s;s;w;s;e;e;s;w;w;w;s;s;e;n;u;n;e;e;e;e;s
+pb cast 'plasma blast' $*
+tl tell las $*
+tc tell cerin $*
+ws rem hammer;wield dag
+sw rem dag;wiel hammer
+ra ba $1;rem dagger;wield hamm;bash $1
+lev rem trans;g chit for;wear chit;rem shield;rem all.ring;g all.imm for;wear all.imm;rem all.cape;g all.jade for;wear all.jade;rem ham;get rune fie;wie rune
+start get all;wear all;get all;wear all;open force;hold tooth;hold pen;wield hammer; hold mox;put all field; get dag field;

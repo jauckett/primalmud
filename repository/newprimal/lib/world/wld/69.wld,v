@@ -1,0 +1,1716 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2001.04.11.15.00.47;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@#6900
+At the Eye~
+At the bottom of the winding stairs you reach a caved bottom, lighted by &n
+crystals. A round pool of liquid occupies the centre of the room. The&n
+liquid in the pool is exceptionally calm, and not a ripple stirs it.&n
+~
+69 dfgu 512 0
+D1
+~
+~
+0 0 6929
+E
+eye~
+This is where all the One Power of the Saidin is purely compiled to create &n
+a tiny pool where it can only be channelled by a male.&n
+~
+S
+#6901
+Entrance of an Enchanted Garden~
+This place produces a sense of security, a safe place from the unknown danger
+that lurks outside this realm. Unlike the cold winter outside, it seems to be
+spring time at all time within. Flowers, butterflies, sounds of cheerful birds
+fills the whole garden.
+~
+69 ce 3 0
+D0
+~
+~
+0 0 6933
+S
+#6902
+Stairway~
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 0 512 0
+D2
+~
+~
+0 0 6912
+D3
+~
+~
+0 0 6903
+S
+#6903
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 i 512 0
+D1
+~
+~
+0 0 6902
+D5
+~
+~
+0 0 6904
+S
+#6904
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 i 512 0
+D3
+~
+~
+0 0 6905
+D4
+~
+~
+0 0 6903
+S
+#6905
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 i 512 0
+D1
+~
+~
+0 0 6904
+D5
+~
+~
+0 0 6906
+S
+#6906
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 i 512 0
+D0
+~
+~
+0 0 6907
+D4
+~
+~
+0 0 6905
+S
+#6907
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 i 512 0
+D2
+~
+~
+0 0 6906
+D5
+~
+~
+0 0 6908
+S
+#6908
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 i 512 0
+D0
+~
+~
+0 0 6909
+D4
+~
+~
+0 0 6907
+S
+#6909
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 i 512 0
+D2
+~
+~
+0 0 6908
+D5
+~
+~
+0 0 6913
+S
+#6910
+Before the Arch~
+A huge arch with old decoratings on its stone wall overlooks this place.
+It still stands straight without a single crack along it, though several vines
+has grown accustom to it. Along the side of its west wall is a semi-spherical
+symbol in the colour of black and white, seperated by a sinous curve.
+~
+69 0 0 0
+D0
+~
+~
+0 0 6911
+D3
+~
+~
+0 0 6921
+S
+#6911
+Under the Arch~
+You are in an unfinished room.
+~
+69 0 0 0
+D0
+~
+~
+0 0 6912
+D2
+~
+~
+0 0 6910
+S
+#6912
+After the Arch~
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 0 0 0
+D0
+~
+~
+0 0 6902
+D2
+~
+~
+0 0 6911
+S
+#6913
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 ei 512 0
+D1
+~
+~
+0 0 6914
+D4
+~
+~
+0 0 6909
+S
+#6914
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 ei 512 0
+D3
+~
+~
+0 0 6913
+D5
+~
+~
+0 0 6915
+S
+#6915
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 ei 512 0
+D1
+~
+~
+0 0 6916
+D4
+~
+~
+0 0 6914
+S
+#6916
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 ei 512 0
+D3
+~
+~
+0 0 6915
+D5
+~
+~
+0 0 6917
+S
+#6917
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 ei 512 0
+D2
+~
+~
+0 0 6918
+D4
+~
+~
+0 0 6916
+S
+#6918
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 ei 512 0
+D0
+~
+~
+0 0 6917
+D5
+~
+~
+0 0 6919
+S
+#6919
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 cei 512 0
+D2
+~
+~
+0 0 6920
+D4
+~
+~
+0 0 6918
+S
+#6920
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 ei 512 0
+D0
+~
+~
+0 0 6919
+D5
+~
+~
+0 0 6923
+S
+#6921
+The part of the Garden hiding the Arch~
+The leaves doesn't seem to be thick with green, and flowers seem to be withering
+within this part of the garden. Even birds and butterflies are no where to be 
+seen. But contrary to what looks it potray, the garden effectively hides the
+archway leading to the eye.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6959
+D1
+~
+~
+0 0 6910
+D2
+~
+~
+0 0 6947
+D3
+~
+~
+0 0 6950
+S
+#6922
+Deeper end of the Enchanted Forest~
+You are in an unfinished room.
+~
+69 acg 3 0
+D0
+~
+~
+0 0 6922
+D1
+~
+~
+0 0 6951
+D2
+~
+~
+0 0 6922
+D3
+~
+~
+0 0 6958
+S
+#6923
+Stairway~
+You are in an unfinished room.
+The stairway spirals downward, crystal spotted walls dimly light the stairway.
+Some glowing brightly, some dimly, and some inactive ones. It would have been
+a brightly litted stairway, had they all been glowing brightly.
+~
+69 ei 512 0
+D3
+~
+~
+0 0 6924
+D4
+~
+~
+0 0 6920
+S
+#6924
+Stairway~
+You are in an unfinished room.
+~
+69 ei 512 0
+D1
+~
+~
+0 0 6923
+D5
+~
+~
+0 0 6926
+S
+#6925
+Deeper end of the Enchanted Forest~
+In this part of the Forest, the trees grows livelier and thicker together.
+Every inch and corner fills the air with fresh aroma and peace, helping one to
+get in touch with their inner force.
+~
+69 cg 3 0
+D0
+~
+~
+0 0 6925
+D1
+~
+~
+0 0 6958
+D2
+~
+~
+0 0 6925
+D3
+~
+~
+0 0 6955
+S
+#6926
+Stairway~
+At the bottom of the stairs, the dimly lited stairway leads into a dimmer 
+pathway, slightly lited with crystals on both sides.
+~
+69 ei 512 0
+D3
+~
+~
+0 0 6927
+D4
+~
+~
+0 0 6924
+S
+#6927
+Narrow walkway~
+The pathway is fairly dark, almost pitch dark except for the few lited crystal
+leading the way. 
+~
+69 ei 512 0
+D1
+~
+~
+0 0 6926
+D3
+~
+~
+0 0 6928
+S
+#6928
+Narrow walkway~
+You are in an unfinished room.
+~
+69 ei 512 0
+D1
+~
+~
+0 0 6927
+D3
+~
+~
+0 0 6929
+S
+#6929
+Narrow walkway~
+You are in an unfinished room.
+~
+69 ei 512 0
+D1
+~
+~
+0 0 6928
+D3
+~
+~
+0 0 6900
+S
+#6930
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 0 3 0
+D1
+~
+~
+0 0 6948
+D2
+~
+~
+0 0 6931
+D3
+~
+~
+0 0 6922
+S
+#6931
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 ad 3 0
+D0
+~
+~
+0 0 6930
+D1
+~
+~
+0 0 6944
+D2
+~
+~
+0 0 6951
+D3
+~
+~
+0 0 6922
+S
+#6932
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6936
+D1
+~
+~
+0 0 6933
+D3
+~
+~
+0 0 6953
+S
+#6933
+The Enchanted Garden~
+Every type of liveliness could be felt whilst within this garden. Every inch and
+corner looked at gives a pleasant feeling to the eyes. Nothing can even explain
+the peace that overcomes the body while walking the grass. But not everything
+seems to fit the picture perfect.
+~
+69 s 3 0
+D0
+~
+~
+0 0 6937
+D1
+~
+~
+0 0 6934
+D2
+~
+~
+0 0 6901
+D3
+~
+~
+0 0 6932
+S
+#6934
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6938
+D1
+~
+~
+0 0 6935
+D3
+~
+~
+0 0 6933
+S
+#6935
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6939
+D1
+~
+~
+0 0 6957
+D3
+~
+~
+0 0 6934
+S
+#6936
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6940
+D1
+~
+~
+0 0 6937
+D2
+~
+~
+0 0 6932
+D3
+~
+~
+0 0 6952
+S
+#6937
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6941
+D1
+~
+~
+0 0 6938
+D2
+~
+~
+0 0 6933
+D3
+~
+~
+0 0 6936
+S
+#6938
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6942
+D1
+~
+~
+0 0 6939
+D2
+~
+~
+0 0 6934
+D3
+~
+~
+0 0 6937
+S
+#6939
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6943
+D1
+~
+~
+0 0 6956
+D2
+~
+~
+0 0 6935
+D3
+~
+~
+0 0 6938
+S
+#6940
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6944
+D1
+~
+~
+0 0 6941
+D2
+~
+~
+0 0 6936
+D3
+~
+~
+0 0 6951
+S
+#6941
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6945
+D1
+~
+~
+0 0 6942
+D2
+~
+~
+0 0 6937
+D3
+~
+~
+0 0 6940
+S
+#6942
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6946
+D1
+~
+~
+0 0 6943
+D2
+~
+~
+0 0 6938
+D3
+~
+~
+0 0 6942
+S
+#6943
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6947
+D1
+~
+~
+0 0 6955
+D2
+~
+~
+0 0 6939
+D3
+~
+~
+0 0 6942
+S
+#6944
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6948
+D1
+~
+~
+0 0 6945
+D2
+~
+~
+0 0 6940
+D3
+~
+~
+0 0 6931
+S
+#6945
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6949
+D1
+~
+~
+0 0 6946
+D2
+~
+~
+0 0 6941
+D3
+~
+~
+0 0 6944
+S
+#6946
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6950
+D1
+~
+~
+0 0 6947
+D2
+~
+~
+0 0 6942
+D3
+~
+~
+0 0 6945
+S
+#6947
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6921
+D1
+~
+~
+0 0 6954
+D2
+~
+~
+0 0 6943
+D3
+~
+~
+0 0 6946
+S
+#6948
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D1
+~
+~
+0 0 6949
+D2
+~
+~
+0 0 6944
+D3
+~
+~
+0 0 6930
+S
+#6949
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D1
+~
+~
+0 0 6950
+D2
+~
+~
+0 0 6945
+D3
+~
+~
+0 0 6948
+S
+#6950
+The Enchanted Garden~
+You are in an unfinished room.
+~
+69 0 3 0
+D1
+~
+~
+0 0 6921
+D2
+~
+~
+0 0 6946
+D3
+~
+~
+0 0 6949
+S
+#6951
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6931
+D1
+~
+~
+0 0 6940
+D2
+~
+~
+0 0 6952
+D3
+~
+~
+0 0 6922
+S
+#6952
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6951
+D1
+~
+~
+0 0 6936
+D2
+~
+~
+0 0 6953
+D3
+~
+~
+0 0 6922
+S
+#6953
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6952
+D1
+~
+~
+0 0 6932
+D3
+~
+~
+0 0 6922
+S
+#6954
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 0 3 0
+D1
+~
+~
+0 0 6925
+D2
+~
+~
+0 0 6955
+D3
+~
+~
+0 0 6947
+S
+#6955
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6954
+D1
+~
+~
+0 0 6925
+D2
+~
+~
+0 0 6956
+D3
+~
+~
+0 0 6943
+S
+#6956
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6955
+D1
+~
+~
+0 0 6925
+D2
+~
+~
+0 0 6957
+D3
+~
+~
+0 0 6939
+S
+#6957
+The Enchanted Forest~
+You are in an unfinished room.
+~
+69 0 3 0
+D0
+~
+~
+0 0 6956
+D1
+~
+~
+0 0 6925
+D3
+~
+~
+0 0 6935
+S
+#6958
+Deeper end of The Enchanted Forest~
+You are in an unfinished room.
+~
+69 cg 3 0
+D0
+~
+~
+0 0 6958
+D1
+~
+~
+0 0 6958
+D2
+~
+~
+0 0 6958
+D3
+~
+~
+0 0 6958
+S
+#6959
+A path leading towards the hills~
+You are in an unfinished room.
+~
+69 0 4 0
+D0
+~
+~
+0 0 6960
+D2
+~
+~
+0 0 6921
+S
+#6960
+Along the path~
+You are in an unfinished room.
+~
+69 0 4 0
+D2
+~
+~
+0 0 6959
+D3
+~
+~
+0 0 6961
+S
+#6961
+Along the path~
+Along the rocky path, several flowers and plants flourishes here despite the rocks.
+~
+69 0 4 0
+D1
+~
+~
+0 0 6960
+D3
+~
+~
+0 0 6962
+S
+#6962
+Along the path~
+You are in an unfinished room.
+~
+69 0 4 0
+D0
+~
+~
+0 0 6963
+D1
+~
+~
+0 0 6961
+S
+#6963
+Along the path~
+You are in an unfinished room.
+~
+69 0 4 0
+D2
+~
+~
+0 0 6962
+D3
+~
+~
+0 0 6964
+S
+#6964
+Along the path~
+You are in an unfinished room.
+~
+69 0 4 0
+D0
+~
+~
+0 0 6965
+D1
+~
+~
+0 0 6963
+S
+#6965
+On the Hill~
+You are in an unfinished room.
+~
+69 0 4 0
+D0
+~
+~
+0 0 6966
+D2
+~
+~
+0 0 6964
+D3
+~
+~
+0 0 6968
+S
+#6966
+On the Hill~
+You are in an unfinished room.
+~
+69 0 4 0
+D2
+~
+~
+0 0 6965
+D3
+~
+~
+0 0 6967
+S
+#6967
+On the Hill~
+You are in an unfinished room.
+~
+69 0 4 0
+D1
+~
+~
+0 0 6966
+D2
+~
+~
+0 0 6968
+D4
+~
+~
+0 0 6970
+S
+#6968
+On the Hill~
+You are in an unfinished room.
+~
+69 0 4 0
+D0
+~
+~
+0 0 6967
+D1
+~
+~
+0 0 6965
+S
+#6970
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D4
+~
+~
+0 0 6971
+D5
+~
+~
+0 0 6967
+S
+#6971
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D3
+~
+~
+0 0 6972
+D5
+~
+~
+0 0 6970
+S
+#6972
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D1
+~
+~
+0 0 6971
+D4
+~
+~
+0 0 6973
+S
+#6973
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D4
+~
+~
+0 0 6974
+D5
+~
+~
+0 0 6972
+S
+#6974
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D1
+~
+~
+0 0 6975
+D5
+~
+~
+0 0 6973
+S
+#6975
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D0
+~
+~
+0 0 6976
+D3
+~
+~
+0 0 6974
+S
+#6976
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D2
+~
+~
+0 0 6975
+D4
+~
+~
+0 0 6977
+S
+#6977
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D3
+~
+~
+0 0 6978
+D5
+~
+~
+0 0 6976
+S
+#6978
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D1
+~
+~
+0 0 6977
+D4
+~
+~
+0 0 6979
+S
+#6979
+Mountain slope~
+You are in an unfinished room.
+~
+69 0 5 0
+D0
+~
+~
+0 0 6989
+D3
+~
+~
+0 0 6990
+D5
+~
+~
+0 0 6978
+S
+#6980
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+S
+#6981
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+D1
+~
+~
+0 0 6988
+D2
+~
+~
+0 0 6985
+D3
+~
+~
+0 0 6986
+S
+#6982
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+D0
+~
+~
+0 0 6987
+D1
+~
+~
+0 0 6989
+S
+#6983
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+D0
+~
+~
+0 0 6988
+D2
+~
+~
+0 0 6984
+D3
+~
+~
+0 0 6985
+S
+#6984
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+D0
+~
+~
+0 0 6983
+D3
+~
+~
+0 0 6989
+S
+#6985
+Falling within the Waterfall~
+You are in an unfinished room.
+~
+69 0 8 0
+D0
+~
+~
+0 0 6981
+D1
+~
+~
+0 0 6983
+D2
+~
+~
+0 0 6989
+D3
+~
+~
+0 0 6987
+S
+#6986
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+D1
+~
+~
+0 0 6981
+D2
+~
+~
+0 0 6987
+S
+#6987
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+D0
+~
+~
+0 0 6986
+D1
+~
+~
+0 0 6985
+D2
+~
+~
+0 0 6982
+S
+#6988
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+D2
+~
+~
+0 0 6983
+D3
+~
+~
+0 0 6981
+S
+#6989
+Waterfall~
+You are in an unfinished room.
+~
+69 0 6 0
+D0
+~
+~
+0 0 6985
+D1
+~
+~
+0 0 6984
+D2
+~
+~
+0 0 6979
+D3
+~
+~
+0 0 6982
+S
+#6990
+Edge of the World~
+Upon the mountain top, there seem to be no land beyond here. The mountain slope
+on the other side can be seen, sloping at a straight vertical which seems to go
+on forever. Here, the depths of Hell can be seen as well as the lights from
+Heaven.
+~
+69 0 6 0
+D0
+~
+~
+0 0 6991
+D1
+~
+~
+0 0 6979
+S
+#6991
+Edge of the World~
+You are in an unfinished room.
+~
+69 0 6 0
+D2
+~
+~
+0 0 6990
+D3
+~
+~
+0 0 6992
+S
+#6992
+Edge of the World~
+You are in an unfinished room.
+~
+69 0 6 0
+D0
+~
+~
+0 0 6993
+D1
+~
+~
+0 0 6991
+S
+#6993
+Edge of the World~
+You are in an unfinished room.
+~
+69 0 6 0
+D2
+~
+~
+0 0 6992
+D3
+~
+~
+0 0 6994
+S
+#6994
+Edge of the World~
+You are in an unfinished room.
+~
+69 0 6 0
+D0
+~
+~
+0 0 6995
+D1
+~
+~
+0 0 6993
+S
+#6995
+Edge of the World~
+You are in an unfinished room.
+~
+69 0 6 0
+D2
+~
+~
+0 0 6994
+D3
+~
+~
+0 0 6996
+S
+#6996
+Edge of the World~
+You are in an unfinished room.
+~
+69 0 6 0
+D1
+~
+~
+0 0 6995
+S
+#6997
+Rope~
+You are in an unfinished room.
+~
+69 0 9 0
+S
+#6998
+Rope~
+You are in an unfinished room.
+~
+69 0 9 0
+S
+#6999
+Rope~
+You are in an unfinished room.
+~
+69 0 9 0
+S
+$~
+@

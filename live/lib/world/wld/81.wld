@@ -1,0 +1,1967 @@
+#8100
+North gates~
+You are standing at the north gates of Tudor City that leads south into 
+Tudor street and north towards the swamplands. The gates here are open for
+anyone to enter as Tudor is a frienly town that likes to encourage trade and
+exports.
+~
+81 c 0 0
+D0
+Looking north you see Nyrond road winding through the swamp
+~
+~
+0 -1 8557
+D2
+Looking south you see Tudor with the hustle and bustle of town life
+~
+~
+0 -1 8104
+S
+#8101
+Turn in the corridor~
+You are on the second floor of the Church of the Black Monks. The 
+corridor leads on around to the east and south back down to the
+main hall. The walls are painted with scenes depicting gratuitous
+violence and depraved acts.Small pieces or burnt flesh lie all about the 
+room and you beging to feel quite unsafe.
+~
+81 a 0 0
+D1
+Looking east you see the dim corridor 
+~
+~
+0 -1 8102
+D2
+Looking south you see the entrance to the second floor
+~
+~
+0 -1 8109
+S
+#8102
+Dim corridor~
+You are on the second floor of the Church of the Black Monks. The
+corridor leads east and west from here. The walls are painted with 
+scenes depicting gratuitous violence and depraved acts. Large statues of 
+demon gods stand in the corners of the room and the grin back at you in a 
+demonic manner.
+~
+81 a 0 0
+D1
+Looking east you see the dim corridor 
+~
+~
+0 -1 8103
+D3
+Looking west you see the dim corridor 
+~
+~
+0 -1 8101
+S
+#8103
+Turn in the corridor~
+You are on the second floor of the Church of the Black Monks. The
+corridor leads on around to the west and south back down to the
+main hall. The walls are painted with scenes depicting gratuitous
+violence and depraved acts.
+~
+81 a 0 0
+D2
+Looking south you see the entrance to the second floor
+~
+~
+0 -1 8111
+D3
+Looking west you see the dim corridor 
+~
+~
+0 -1 8102
+S
+#8104
+Tudor Street~
+You are walking down Tudor Street. It is busy with people going about
+their business and Gutter snipes and street urchins are playing in the 
+gutters. To the north are the grand gates of Tudor City. 
+The cobblestone street continues south from here and east is the
+Inn of The Welcome Wench.
+~
+81 0 0 0
+D0
+Looking north you see the gates of tudor and Nyrond Road heading through the
+swamplands.
+~
+~
+0 -1 8100
+D1
+Looking east you see the entrance to The Welcome Wench
+~
+~
+0 -1 8105
+D2
+Looking south you see Tudor street 
+~
+~
+0 -1 8114
+S
+#8105
+Entrance to The Welcome Wench~
+You are standing in the entrance hall of the Inn Of The Welcome 
+Wench. Fine furnishings adorn this room and a reception desk stands in 
+the corner with a small bell on it for sevice. To the south is the main 
+room of the inn and to your west is Tudor Street.
+~
+81 c 0 0
+D2
+To your south is the public bar where you can get a cold beer
+~
+~
+0 -1 8115
+D3
+Looking west you see Tudor street
+~
+~
+0 -1 8104
+S
+#8106
+Second floor of the inn~
+You are on the second floor of the inn. A short corridor leads east and 
+down is the public bar. There are doors leading to private rooms along this 
+corridor but you need to pay the Publican to sleep in them. The corridor 
+is fairly bare of any sort of adornments and it looks like the publican 
+isn't too fussy about how clean the place is kept.
+~
+81 0 0 0
+D1
+Looking east you see the corridor 
+~
+~
+0 -1 8107
+D5
+Looking down you see the public bar
+~
+~
+0 -1 8116
+S
+#8107
+Second Floor of the inn~
+You are on the second floor of the inn. A short corridor leads east
+and west. There are doors leading to private rooms along this corridor 
+were weary travellers sleep at night. The publican is not very fussy about
+how clean the rooms are kept so it is advisable not to sleep here if you
+can avoid it.
+~
+81 0 0 0
+D1
+Looking east you see the corridor 
+~
+~
+0 -1 8108
+D3
+Looking west you see the corridor 
+~
+~
+0 -1 8106
+S
+#8108
+Second Floor of the inn~
+You are on the second floor of the inn at the end of a short corridor 
+which leads west to the stairs. There are doors leading to private 
+rooms along this corridor. ~
+81 0 0 0
+D3
+Looking west you see the corridor 
+~
+~
+0 -1 8107
+S
+#8109
+Second floor of the church~
+You are on the second floor of the Church of the Black Monks. The
+corridor continues north from here and down to the main hall. The 
+walls are painted with scenes depicting gratuitous violence and 
+depraved acts. 
+~
+81 a 0 0
+D0
+Looking north you see a dim corridor
+~
+~
+0 -1 8101
+D5
+Looking down you see the bottom floor of the church
+~
+~
+0 -1 8120
+S
+#8110
+On a dais~
+You are standing on the sacred dias of the Church of the Black Monks.
+A huge blood stained altar is the centre piece of this holy room.
+Figurines depicting heroic acts of violence and depravity have been 
+carefully placed on the altar.One of the figurines looks slightly loose, 
+as if it may toppel over. This is a most holy place for the black monks and
+you sense the evil all around. If they catch you here you will
+surely be killed. 
+~
+81 a 0 0
+D2
+Looking south you see the entrance to the church
+~
+~
+0 -1 8121
+D5
+Looking down you see the floor and notice that a figurine is slightly loose
+~
+figurine figure~
+1 0 8204
+S
+#8111
+Second floor of the church~
+You are on the second floor of the Church of the Black Monks. The
+corridor continues north from here and down to the main hall. The
+walls are painted with scenes depicting gratuitous violence and
+depraved acts.
+~
+81 a 0 0
+D0
+Looking north you see a dim corridor
+~
+~
+0 -1 8103
+D5
+Looking down you see the bottom floor of the church
+~
+~
+0 -1 8122
+S
+#8112
+A bedroom on the second storey~
+You are in the private chambers of Lord Black Adder's abode. All 
+the decorations in this room are black. A fine collection of 
+cod-pieces are neatly arranged on a black dresser. There is a large mirror 
+on one wall where Lord Blackadder constantly admires himself.
+~
+81 0 0 0
+D5
+Looking down you see the house of Lord Black Adder
+~
+~
+0 -1 8113
+S
+#8113
+Lord Black Adder's abode~
+You are in the main room of Lord Black Adder's abode. A large black
+table dominates the room and has on it some chemistry equipment left
+over from some failed expermient. A large crucible sitting on a stand
+is glowing green.
+~
+81 0 0 0
+D1
+Looking east you see Tudor street
+~
+~
+0 -1 8114
+D4
+Looking up you see the bedroom of Lord Black Adder
+~
+~
+0 -1 8112
+S
+#8114
+Tudor Street~
+You are walking down Tudor Street. It is busy with people going about
+their business and gutter snipes and street urchins are playing in the
+gutters. To the north you can see the grand gates of Tudor City. The 
+cobblestone street continues south from here and west is a fine looking 
+private dwelling.
+~
+81 0 0 0
+D0
+Looking north you see many people rushing back and forth along the street
+~
+~
+0 -1 8104
+D2
+Looking south you see many people rushing back and forth along the street	
+~
+~
+0 -1 8123
+D3
+To your west you see Lord Percy and Baldric waiting for Lord Black Adder
+~
+~
+0 -1 8113
+S
+#8115
+Public bar~
+You are in the public bar of the Inn Of The Welcome Wench. A scruffy
+looking wench is behind the bar pulling ales. Many citizens of Tudor
+are drinking themselves silly. The bar continues back to the east.
+~
+81 0 0 0
+D0
+Looking north you see the entrance and a weary traveller waiting to be 
+served ~
+~
+0 -1 8105
+D1
+As you look east you see several rough looking characters drinking ale
+~
+~
+0 -1 8116
+S
+#8116
+Back of the Public bar~
+You are in the back room of the public bar of the Inn Of The Welcome 
+Wench. A scruffy looking wench is behind the bar pulling ales. Many 
+citizens of Tudor are drinking themselves silly. Stairs lead up to
+the private rooms from here. The main bar is to the west. 
+~
+81 0 0 0
+D3
+Looking west you see the public bar and a commonly wench behind it
+~
+~
+0 -1 8115
+D4
+Looking up you see the sleeping quarters 
+~
+~
+0 -1 8106
+S
+#8117
+The General store~
+You are in the general store of Tudor City. A grumpy looking storekeeper
+is waiting impatiently behind a large counter which is cluttered with
+useless items. He has nothing for sale today but he looks very nasty and 
+in a rather bad mood.
+~
+81 0 0 0
+D2
+Looking south you see the citizen's of Tudor going about their buisness
+~
+~
+0 -1 8126
+S
+#8118
+The Weaponsmith's store~
+You are in the weaponsith's shop of Tudor City. There are racks of 
+fine looking swords lining the east wall. Large boxes on the west
+wall are filled with nasty looking maces and flails. There are also
+a few exotic looking weapons mounted on the wall behind the counter.
+The weaponsmith smiles at you as you enter but he unfortanately has 
+nothing to give you or sell.
+~
+81 0 0 0
+D2
+Looking south you see the citizen's of Tudor going about their buisness
+~
+~
+0 -1 8128
+S
+#8119
+The Armourer's store~
+You are in the armouer's of Tudor City. Fine looking breast plates, 
+leggins and sleeves are cunningly mounted on the walls. The skirting
+boards are lined with all sorts of combat boots and gauntlets.
+The armourer greets you as you enter although he has nothing to sell.
+~
+81 0 0 0
+D2
+Looking south you see the citizen's of Tudor going about their buisness
+~
+~
+0 -1 8130
+S
+#8120
+Church of the Black Monks~
+You are in the west end of the church of the black monks. The main
+entrance is east from here and stairs lead up to the second floor.
+A large painting is here depicting some poor soul having a spike
+ramed up his bottom by a Black Monk. 
+~
+81 0 0 0
+D1
+Looking east you see the large entrance to the church
+~
+~
+0 -1 8121
+D4
+Looking up you see the stairs that lead towards the second floor
+~
+~
+0 -1 8109
+S
+#8121
+Entrance to the church~
+You are in the main entrance of the Church of the Black Monks. To 
+the north is the monk's holy place. The hall continues east and west.
+King street is south from here. You feel uneasy about coming here, 
+may be you should turn around and leave while you have the chance.
+~
+81 0 0 0
+D0
+Looking north you see a magnificent dais where the evil Bishop prays
+~
+~
+0 -1 8110
+D1
+There are several evil monks praying to their deity
+~
+~
+0 -1 8122
+D2
+Looking south you see the citizen's of Tudor going about their buisness
+~
+~
+0 -1 8134
+D3
+There are several evil monks praying to their deity
+~
+~
+0 -1 8120
+S
+#8122
+Church of the Black Monks~
+You are in the east end of the church of the black monks. The main
+entrance is west from here and stairs lead up to the second floor.
+A large painting is here depicting some poor soul having a spike
+ramed up his bottom by a Black Monk.
+~
+81 0 0 0
+D3
+Looking west you see the entrance to the church
+~
+~
+0 -1 8121
+D4
+Looking up you see the stairs that lead towards the second floor
+~
+~
+0 -1 8111
+S
+#8123
+Intersection of Tudor and Queen~
+You are walking down Tudor Street. It is busy with people going about
+their business and Gutter snipes and street urchins are playing in the
+gutters. The cobblestone street continues south from here and east is
+Queen street.
+~
+81 0 0 0
+D0
+Looking north you see several little guttersnipes fighting
+~
+~
+0 -1 8114
+D1
+You see a beautiful maid selling hot roasted chestnuts
+~
+~
+0 -1 8124
+D2
+You see a dirty young man selling bootleg gin 
+~
+~
+0 -1 8138
+S
+#8124
+Queen street~
+You are walking down Queen street where many citizens are going about 
+their buisness trying to sell their wares. To the west is the 
+intersection of Tudor and Queen street. 
+~
+81 0 0 0
+D1
+Looking east you see a young girl selling flowers
+~
+~
+0 -1 8125
+D3
+Looking west you see two citizens talking 
+~
+~
+0 -1 8123
+S
+#8125
+Queen street~
+You are walking down Queen street. The cobblestone street continues
+east and west from here. 
+~
+81 0 0 0
+D1
+You see a beautiful maid selling hot roasted chestnuts
+~
+~
+0 -1 8126
+D3
+You see a beautiful maid selling hot roasted chestnuts
+~
+~
+0 -1 8124
+S
+#8126
+Queen street~
+You are walking down Queen street. The cobblestone street continues
+east and west from here. To the north is the general store.
+~
+81 0 0 0
+D0
+Looking north you see the general store and the storekeeper
+~
+~
+0 -1 8117
+D1
+There are several dirty guttersnipes stealing from a old man
+~
+~
+0 -1 8127
+D3
+You see a beautiful maid selling hot roasted chestnuts
+~
+~
+0 -1 8125
+S
+#8127
+Queen street~
+You are walking down Queen street. The cobblestone street continues
+east and west from here.
+~
+81 0 0 0
+D1
+There are several dirty guttersnipes stealing from a old man
+~
+~
+0 -1 8128
+D3
+You see a dirty young man selling bootleg gin 
+~
+~
+0 -1 8126
+S
+#8128
+Queen street~
+You are walking down Queen street. The cobblestone street continues
+east and west from here. To the north is the armourer.
+~
+81 0 0 0
+D0
+Looking north you see the armourer and a large burly man working in there
+~
+~
+0 -1 8118
+D1
+You see a dirty young man selling bootleg gin 
+~
+~
+0 -1 8129
+D3
+Looking west you see two citizens talking 
+~
+~
+0 -1 8127
+S
+#8129
+Queen street~
+You are walking down Queen street where several dirty little guttersnipes 
+are fighting in the street. There is also a young girl trying to sell 
+pots and pans and another selling flowers. The cobblestone street continues 
+east and west from here. 
+~
+81 0 0 0
+D1
+You see a dirty young man selling bootleg gin 
+~
+~
+0 -1 8130
+D3
+You see a beautiful maid selling hot roasted chestnuts
+~
+~
+0 -1 8128
+S
+#8130
+Queen street~
+You are walking down Queen street. The cobblestone street continues
+east and west from here. To the north is the weaponsmith.
+~
+81 0 0 0
+D0
+Looking north you see the weaponsmith standing in his store
+~
+~
+0 -1 8119
+D1
+You see a beautiful maid selling hot roasted chestnuts
+~
+~
+0 -1 8131
+D3
+Looking west you see two citizens talking 
+~
+~
+0 -1 8129
+S
+#8131
+End of Queen street~
+You are at the end of Queen street. To the east the way is blocked
+by the stone walls of Tudor City. Queen street continues west from here.
+~
+81 0 0 0
+D3
+Looking west you see two citizens talking 
+~
+~
+0 -1 8130
+S
+#8132
+End of King Street~
+You are at the end of King street. To the west the way is blocked
+by the stone walls of Tudor City. King street continues east from here.
+~
+81 0 0 0
+D1
+You see a young girl selling flowers in the street
+~
+~
+0 -1 8133
+S
+#8133
+King Street~
+You are walking along king street. The cobblestone street leads east
+and west from here. To the south is the magic shop.
+~
+81 0 0 0
+D1
+You see a young girl selling flowers in the street
+~
+~
+0 -1 8134
+D2
+Looking south you see an old wizard standing in tha magic shop
+~
+~
+0 -1 8150
+D3
+Looking west you see the end of King street and a large stone wall
+~
+~
+0 -1 8132
+S
+#8134
+King Street~
+You are walking along king street. The cobblestone street leads east
+and west from here. To the north is the entrance to the Church of the
+Black Monks and there is a large sign on the wall of the church. This area
+of Tudor is rather empty and you wonder why it is so quiet here.
+~
+81 c 0 0
+D0
+Looking north you see the church entrance but it is very dark inside
+~
+~
+0 -1 8121
+D1
+The street looks very empty
+~
+~
+0 -1 8135
+D3
+The street looks very empty
+~
+~
+0 -1 8133
+E
+sign~
+
+
+             " Thy soul shall find itself alone
+                'Mid dark thoughts of the gray tombstone
+               No one, of all the crowd, to pry
+                In thine hour of entrance.
+               The spirits of the dead who stood
+                In life before thee are again
+               In death around thee, and thier will
+                Shall overshadow thee, be still."
+
+~
+S
+#8135
+King Street~
+You are walking along king street where the citizens of Tudor go about 
+their daily chores selling wares and food. The street is full of people 
+from other towns all trying to bargain with the locals and make money. The 
+cobblestone street leads east and west from here. 
+~
+81 0 0 0
+D1
+You see a weary traveller sitting on the sidewalk
+~
+~
+0 -1 8136
+D3
+The street looks very empty
+~
+~
+0 -1 8134
+S
+#8136
+King Street~
+You are walking along king street where young children play in the 
+streets while their parents try to make a living.  The cobblestone street 
+leads east and west from here. 
+~
+81 0 0 0
+D1
+You see a young girl selling flowers in the street
+~
+~
+0 -1 8137
+D3
+You see a weary traveller sitting on the sidewalk
+~
+~
+0 -1 8135
+S
+#8137
+King Street~
+You are walking along king street. The cobblestone street leads east
+and west from here. To the east is the intersection of Tudor and King
+streets.
+~
+81 0 0 0
+D1
+You see several guttersnipes fighting amonst themselves
+~
+~
+0 -1 8138
+D3
+You see a weary traveller sitting on the sidewalk
+~
+~
+0 -1 8136
+S
+#8138
+Intersection of Tudor and King~
+You are standing in one of the major the intersections of Tudor. Here the 
+traffic is very congested as people try to rush about their buisness while 
+children, dogs and cats wander around under their feet. King street leads
+west from here tudor leads south and the intersection to Queens street is 
+north. 
+~
+81 0 0 0
+D0
+You see several guttersnipes fighting amonst themselves
+~
+~
+0 -1 8123
+D2
+A young girl is selling dresses at a small stall
+~
+~
+0 -1 8153
+D3
+You see several guttersnipes fighting amonst themselves
+~
+~
+0 -1 8137
+S
+#8139
+Mrs Miggins pie shop~
+You are inside Mrs Miggins pie shop where the smell of baking pies makes 
+your mouth water. There are a few tables and chairs scattered around the 
+room where people can sit and  dine if they wish. 
+~
+81 0 0 0
+D1
+You see a young man sitting down at a table eating a large pie
+~
+~
+0 -1 8140
+D2
+You see a young girl looking at Mrs miggin's apple pies in a display case
+~
+~
+0 -1 8154
+S
+#8140
+Mrs Miggins pie shop~
+You are inside Mrs Miggins pie shop where many citizens enjoy their lunch 
+which consists of a large ale and one of Mrs.Miggin's pies. 
+~
+81 0 0 0
+D2
+You see a young man sitting down at a table eating a large pie
+~
+~
+0 -1 8155
+D3
+You see two old women sitting down at a table eating a large pie
+~
+~
+0 -1 8139
+S
+#8141
+Turn in the corridor~
+You are at a turn a corridor in the castle. The corridor continues round
+to the east and south from here.
+~
+81 0 0 0
+D1
+You see a young maid cleaining in the corridor.
+~
+~
+0 -1 8142
+D2
+You see a guard patrolling the castle
+~
+~
+0 -1 8156
+S
+#8142
+Corridor in the castle~
+You are walking down a corridor in Tudor castle. There are several large 
+axes lying against the wall and a beautiful tapestry on the other wall.
+The corridor continues east and west from here.  
+~
+81 0 0 0
+D1
+You see a guard patrolling the castle
+~
+~
+0 -1 8143
+D3
+There are two young women talking quietly 
+~
+~
+0 -1 8141
+S
+#8143
+End of the corrior~
+You are at the end of a corridor in tudor castle. The corridor leads
+back to the west and a sturdy wooden ladder leads up to the battlements.
+~
+81 0 0 0
+D3
+You see the corridor twisting and turning around the castle
+~
+~
+0 -1 8142
+D4
+Looking up you see a large burly guard standing at attention
+~
+~
+0 -1 8144
+S
+#8144
+The battlements~
+You are on the battlements of Tudor castle. Arrow slits line the stone
+walls to the north. You can see glimpes of the surrounding countryside
+through the slits. A sturdy wooden ladder leads back down into the 
+castle and you can wall around the battlements to the east from here.
+~
+81 0 0 0
+D1
+There are two young women talking quietly as the look out at the view
+~
+~
+0 -1 8145
+D5
+Looking down you see a large burly guard standing at attention
+~
+~
+0 -1 8143
+S
+#8145
+The battlements below a tower~
+You are high up on the battlements of Tudor castle. A spiral staircase
+built out of stone leads up into the north-east tower. You can walk
+around the battlements to the west and south from here.
+~
+81 0 0 0
+D2
+There are two young women talking quietly as the look out at the view
+~
+~
+0 -1 8161
+D3
+You see a guard patrolling the castle
+~
+~
+0 -1 8144
+D4
+Looking up you see a large burly guard standing at attention
+~
+~
+0 -1 8146
+S
+#8146
+Clibming the north-east tower~
+You are climbing up a steep spiral staircase in the north-east tower
+of Tudor castle.
+~
+81 0 0 0
+D4
+Looking up you see a large burly guard standing at attention
+~
+~
+0 -1 8147
+D5
+Looking down you see a large burly guard standing at attention
+~
+~
+0 -1 8145
+S
+#8147
+Clibming the north-east tower~
+You are climbing up a steep spiral staircase in the north-east tower
+of Tudor castle.
+~
+81 0 0 0
+D4
+Looking up you see a young maid distracting the guard from his job
+~
+~
+0 -1 8148
+D5
+There are two young women talking quietly as the look out at the view
+~
+~
+0 -1 8146
+S
+#8148
+Top of the north-east tower~
+You are at the top of the north-east tower of Tudor castle. From here
+it is about a 200 foot frop to the moat far below. You get a superb
+view of the surrounding countryside in all directions from here.
+~
+81 0 0 0
+D5
+You see several of the queens lady's in waiting admiring the guards
+~
+~
+0 -1 8147
+S
+#8149
+Caretaker's cottage~
+You are in the humble abode of the caretaker of Tudor gardens. His house 
+is rather bare of comforts. There is a small single bed in one corner and 
+a table and chair in the other. He has picked some beautiful flowers from 
+the garden that are in a small vase on the table and this brightens up 
+the room.
+
+~
+81 0 0 0
+D2
+You see a beautiful rose bush at the end of the garden path
+~
+~
+0 -1 8162
+S
+#8150
+The Magic shop~
+You are in the magic shop of Tudor city. Many stange artifacts are
+mounted on the walls, and dozens of flasks and vials line the
+counter. The wizard mumbles to himself as you enter he looks in a rather 
+confused state of mind, but please don't be fooled by this behaviour he is 
+actually quite skilled at his craft. 
+~
+81 0 0 0
+D0
+You see a young girl sitting on the cobblestoned road
+~
+~
+0 -1 8133
+S
+#8151
+Path through the gardens~
+You are walking along a path through Tudor gardens. The path is
+lined with hedges cunningly scultured into figures of famous
+people.
+~
+81 0 0 0
+D1
+You see several large trees that look like oaks
+~
+~
+0 -1 8152
+D2
+A beautiful yellow rose bush 
+~
+~
+0 -1 8164
+S
+#8152
+Path through the gardens.~
+You are walking along a path through Tudor gardens. The path is
+lined with hedges cunningly scultured into figures of famous
+people.
+~
+81 0 0 0
+D2
+Small violets grow in this section of the garden
+~
+~
+0 -1 8165
+D3
+Large fir trees shade the path
+~
+~
+0 -1 8151
+S
+#8153
+Tudor Street~
+You are walking down Tudor Street. It is busy with people going about
+their business and Gutter snipes and street urchins are playing in the
+gutters. To the north are the grand gates of Tudor City.
+The cobblestone street continues south from here and east 
+is Mrs Miggins pie shop.
+~
+81 c 0 0
+D0
+Looking north you see many people crossing the busy intersection
+~
+~
+0 -1 8138
+D1
+You see Mrs.Miggin's shop where many people enjoy luch
+~
+~
+0 -1 8154
+D2
+You see the nasty Headsman waiting for the next poor soul to come by
+~
+~
+0 -1 8168
+S
+#8154
+Mrs Miggins pie shop~
+You are inside Mrs Miggins pie shop.
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8139
+D1
+~
+~
+0 -1 8155
+D3
+~
+~
+0 -1 8153
+S
+#8155
+Mrs Miggins pie shop~
+You are inside Mrs Miggins pie shop.
+~
+81 0 0 0
+D0
+You see a young man sitting down at a table eating a large pie
+~
+~
+0 -1 8140
+D3
+You see a old man sitting down at a table eating a large pie
+~
+~
+0 -1 8154
+S
+#8156
+Corridor in the castle~
+You are walking down a north-south corridor in Tudor castle. The castle 
+entrance is south. The servants quarters are off the the east from here.
+~
+81 0 0 0
+D0
+You see a burly guard flexing his muscles at a young maid
+~
+~
+0 -1 8141
+D1
+You see a young serving wench getting dressed. Don't stare its rude!
+~
+~
+0 -1 8157
+D2
+You see the magnificent entrance hall that walls are covered in gold
+~
+~
+0 -1 8170
+S
+#8157
+Servants quarters~
+You are in the servants quarters of Tudor castle where the over worked 
+and under paid servants try and get some sleep if they can. There are several
+small beds here but they don't look very comfortable.
+~
+81 0 0 0
+D1
+You see a young serving wench getting dressed. Don't stare its rude!
+~
+~
+0 -1 8158
+D3
+You see a burly guard flexing his muscles at a young maid
+~
+~
+0 -1 8156
+S
+#8158
+Servants quarters~
+You are in the servants quarters of Tudor castle where the over worked 
+and under paid servants try and get some sleep if they can. There are several
+small beds here but they don't look very comfortable.
+~
+81 0 0 0
+D3
+You see a servant trying to get some sleep on an uncomfortable straw bed
+~
+~
+0 -1 8157
+S
+#8159
+Queen's audience chamber~
+You are standing in the north west end of the queen's audience chamber.
+This room is huge and furnished with extravagence that amazes you.
+~
+81 0 0 0
+D1
+You see a pompous man wearing a large stupid looking wig
+~
+~
+0 -1 8160
+D2
+You see several of the queenie's ladys in waiting
+~
+~
+0 -1 8173
+S
+#8160
+Queen's audience chamber~
+You are standing in the north east end of the queen's audience chamber.
+This room is huge and furnished with extravagence that amazes you.
+There are several official looking gentlemen waiting here to see the queen.
+~
+81 0 0 0
+D2
+You see the magnificent throne and the beautiful queen
+~
+~
+0 -1 8174
+D3
+You see a pompous man wearing a large stupid looking wig
+~
+~
+0 -1 8159
+S
+#8161
+On the castle battlements~
+You are standing high on the battlements of Tudor castle. You can walk
+around the battlements to the north and south from here.
+~
+81 0 0 0
+D0
+You see a traveller looking out at the magnificent view
+~
+~
+0 -1 8145
+D2
+You see a traveller looking out at the magnificent view
+~
+~
+0 -1 8175
+S
+#8162
+Path crossing~
+At this point the garden path ends and is replaced with a small track that
+leads off to a large wooden gate to the west.  North of here you see the
+caretaker's cottage, south is a rundown shack, or you can continue back through
+the garden to the east.    
+~
+81 0 0 0
+D0
+The very small wooden cottage that the caretaker resides in
+~
+~
+0 -1 8149
+D1
+You see a beautiful rose bush 
+~
+~
+0 -1 8163
+D2
+You see a dark eerie shack
+~
+~
+0 -1 8176
+D3
+~
+~
+0 0 8205
+S
+#8163
+A garden path~
+You are walking along a path in the Tudor gardens. Red roses and painted 
+cobblestones line the path. The end of the path is to the west, the path
+continues east and south from here. 
+~
+81 0 0 0
+D1
+A large hedge runs around the path in this direction
+~
+~
+0 -1 8164
+D2
+Small violets and daisies cover the path 
+~
+~
+0 -1 8177
+D3
+The end of the path where a beautiful rose bush lies
+~
+~
+0 -1 8162
+S
+#8164
+A garden path~
+You are at an intersection in a path which winds through the Tudor Gardens.
+A large statue of Lord Flashard stands in the middle of the path which
+continues north, south and west from here.
+~
+81 0 0 0
+D0
+A large hedge runs around the path in this direction
+~
+~
+0 -1 8151
+D2
+A large hedge runs around the path in this direction
+~
+~
+0 -1 8178
+D3
+Beautiful rose bushes of every colour
+~
+~
+0 -1 8163
+S
+#8165
+A garden path~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads north and south
+from here.
+~
+81 0 0 0
+D0
+Beautiful rose bushes of every colour
+~
+~
+0 -1 8152
+D2
+Beautiful rose bushes of every colour
+~
+~
+0 -1 8179
+S
+#8166
+A garden path~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads sounth and east
+from here.
+~
+81 0 0 0
+D1
+Small violets and daisies cover the path 
+~
+~
+0 -1 8167
+D2
+Small violets and daisies cover the path 
+~
+~
+0 -1 8180
+S
+#8167
+A garden path~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads east and west
+from here.
+~
+81 0 0 0
+D1
+Looking east you see Tudor square where people get be-headed
+~
+~
+0 -1 8168
+D3
+Small violets and daisies cover the path 
+~
+~
+0 -1 8166
+S
+#8168
+Tudor Sqaure~
+You are standing in the middle of Tudor Square. The entrance to the castle
+is east from here, Tudor street leads north, the gardens of Tudor city
+are to the west and a dark alley leads to the slums to the south.
+A huge chopping block is the central feature of the square, and it
+looks like it has seen a lot of use.
+~
+81 0 0 0
+D0
+Tudor square
+~
+~
+0 -1 8153
+D1
+A small path leading towards the castle
+~
+~
+0 -1 8169
+D2
+A dark dismal looking alley
+~
+~
+0 -1 8181
+D3
+A beautiful garden path
+~
+~
+0 -1 8167
+S
+#8169
+Before Tudor Castle~
+You are standing before the grand Tudor Castle. The 200 foot stone
+walls tower above you and cast a dark shadow over Tudor square to 
+the west. You can enter the castle to the east.
+~
+81 c 0 0
+D1
+Looking east you see a magnificent entrance hall
+~
+~
+0 -1 8170
+D3
+The main square in Tudor
+~
+~
+0 -1 8168
+S
+#8170
+Entrance hall~
+You are standing in the entrance hall of Tudor castle. Corridors lead
+north and south. A large hall leads east toward the Queens audience
+chamber.
+~
+81 0 0 0
+D0
+Looking north you see a corridor that leads into the castle
+~
+~
+0 -1 8156
+D1
+You see a large burly guard protecting the queen's home
+~
+~
+0 -1 8171
+D2
+Looking south you see a corridor that leads into the castle
+~
+~
+0 -1 8183
+D3
+Looking west you see the small path leading back towards the square
+~
+~
+0 -1 8169
+S
+#8171
+Hall in the castle~
+You are walking down the main hall in Tudor castle which leads to
+the Queens audience chamber to the east.
+~
+81 0 0 0
+D1
+Looking east you see a young maid dusting some bronze goblets
+~
+~
+0 -1 8172
+D3
+Looking west you see the magnificent entrance hall
+~
+~
+0 -1 8170
+S
+#8172
+Hall in the castle~
+You are walking down the main hall in Tudor castle which leads to
+the Queens audience chamber to the east.
+~
+81 0 0 0
+D1
+Looking east you see a young lady in waiting sitting on a sofa
+~
+~
+0 -1 8173
+D3
+Looking west you see a young maid dusting some bronze goblets
+~
+~
+0 -1 8171
+S
+#8173
+Entrance to the audience chamber~
+You are standing in the entrance to the queens audience chamber. This is
+a huge room which is lavishly decorated. To the east you can see the
+Queen's dais and throne.
+~
+81 0 0 0
+D0
+You see a man in a stupid looking wig waiting to see the queen
+~
+~
+0 -1 8159
+D1
+Looking east you see Nursey and Lord Melchid chatting to Queenie
+~
+~
+0 -1 8174
+D2
+You see severl men in a stupid looking wigs waiting to see the queen
+~
+~
+0 -1 8189
+D3
+You see a large burly guard protecting the queen's home
+~
+~
+0 -1 8172
+S
+#8174
+Before the throne~
+You are standing just on the edge of the Queen's dais and throne. You
+hope the Queen dosn't take a dislike to you otherwise she'll knock your
+block off.
+~
+81 0 0 0
+D0
+You see severl men in a stupid looking wigs waiting to see the queen
+~
+~
+0 -1 8160
+D2
+You see severl men in a stupid looking wigs waiting to see the queen
+~
+~
+0 -1 8190
+D3
+You see two young girls who are the Queens ladies in waiting
+~
+~
+0 -1 8173
+S
+#8175
+On the battlements~
+You are standing high up on the battlements of Tudor castle. Arrow slits
+line the walls to the east and you can see glimpes of the surrounding 
+countryside through them. You can walk around the battlements to the
+north and south.
+~
+81 0 0 0
+D0
+You see a large burly guard protecting the queen's home
+~
+~
+0 -1 8161
+D2
+You see a young maiden chatting to a guard
+~
+~
+0 -1 8191
+S
+#8176
+Dark shack~
+You are inside a dark shack. A huge burnt out cauldron is in the
+middle of the room. The floor is littered with the remains of
+small furry animals. The stench is overwhelming.
+~
+81 0 0 0
+D0
+You see a beautiful red rose bush
+~
+~
+0 -1 8162
+S
+#8177
+A garden path~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads north and south
+from here.
+~
+81 0 0 0
+D0
+A large hedge grows along this section of the path
+~
+~
+0 -1 8163
+D2
+A large hedge grows along this section of the path
+~
+~
+0 -1 8192
+S
+#8178
+A garden path~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads north and south
+from here.
+~
+81 0 0 0
+D0
+A large hedge grows along this section of the path
+~
+~
+0 -1 8164
+D2
+A large hedge grows along this section of the path
+~
+~
+0 -1 8193
+S
+#8179
+A garden path~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads north and east
+from here.
+~
+81 0 0 0
+D0
+A large hedge grows along this section of the path
+~
+~
+0 -1 8165
+D1
+A large hedge grows along this section of the path
+~
+~
+0 -1 8180
+S
+#8180
+A garden path~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads north and west
+from here.
+~
+81 0 0 0
+D0
+small flowers, mostly violets grow along the cobbled path
+~
+~
+0 -1 8166
+D3
+small flowers, mostly violets grow along the cobbled path
+~
+~
+0 -1 8179
+S
+#8181
+Dark alley~
+You are walking along a dark alley. To the north you can see Tudor square.
+The alley continues east from here.
+~
+81 0 0 0
+D0
+You see the centre of Tudor where most of the entertainment is held
+~
+~
+0 -1 8168
+D1
+Looking east you see very little down the dark alley
+~
+~
+0 -1 8182
+S
+#8182
+Dark alley~
+You are walking along a dark alley. The alley continues west and south
+from here.
+~
+81 0 0 0
+D2
+Looking south you see very little down the dark alley
+~
+~
+0 -1 8194
+D3
+Looking west you see very little down the dark alley
+~
+~
+0 -1 8181
+S
+#8183
+Corridor in the castle~
+You are walking down a north-south corridor in Tudor Castle. To the east
+is the way to the castle dungeons. 
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8170
+D1
+~
+~
+0 -1 8184
+D2
+~
+~
+0 -1 8196
+S
+#8184
+Dark hall.~
+You are walking down a dark hall to the dungeons. The main corridor is 
+to the west. The dungeons are east from here.
+~
+81 0 0 0
+D1
+~
+~
+0 -1 8185
+D3
+~
+~
+0 -1 8183
+S
+#8185
+Castle dungeons.~
+You are in the castle dungeons. Several skeletons are shackled to the
+walls and the floor is stained all over with blood. Rough stone steps
+lead down into the torture chamber. 
+~
+81 0 0 0
+D3
+~
+~
+0 -1 8184
+D5
+~
+~
+0 -1 8186
+S
+#8186
+Castle torture chamber.~
+You are in the torture chamber of Tudor castle. A vast variety of torture
+tools line the walls and floors, making it difficult to move about. The
+holding cells are to the east.
+~
+81 0 0 0
+D1
+~
+~
+0 -1 8187
+D4
+~
+~
+0 -1 8185
+S
+#8187
+Castle holding cells.~
+You are in the cells. This is just one big cell to hold all the traitors
+that need to be tortured and/or have their heads snicked off. You walk
+over to the other end of the cell to the east.
+~
+81 0 0 0
+D1
+~
+~
+0 -1 8188
+D3
+~
+~
+0 -1 8186
+S
+#8188
+Castle holding cells.~
+You are in the cells. This is just one big cell to hold all the traitors
+that need to be tortured and/or have their heads snicked off. You walk
+over to the other end of the cell to the west.
+~
+81 0 0 0
+D3
+~
+~
+0 -1 8187
+S
+#8189
+Queen's audience chamber.~
+You are standing in the south east end of the queen's audience chamber.
+This room is huge and furnished with extravagence that amazes you.
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8173
+D1
+~
+~
+0 -1 8190
+S
+#8190
+Queen's audience chamber.~
+You are standing in the south west end of the queen's audience chamber.
+This room is huge and furnished with extravagence that amazes you.
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8174
+D3
+~
+~
+0 -1 8189
+S
+#8191
+On the battlements.~
+You are standing high up on the battlements of Tudor castle. Arrow slits
+line the walls to the east and you can see glimpes of the surrounding
+countryside through them. You can walk around the battlements to the
+north and south.
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8175
+D2
+~
+~
+0 -1 8200
+S
+#8192
+A garden path.~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads north and east
+from here.
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8177
+D1
+~
+~
+0 -1 8193
+S
+#8193
+A garden path.~
+You are walking along a path which winds through the Tudor gardens. Red
+roses and painted cobblestones line the path which leads north and west
+from here.
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8178
+D3
+~
+~
+0 -1 8192
+S
+#8194
+Dark alley.~
+You are walking along a dark alley. The alley continues north and east
+from here.
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8182
+D1
+~
+~
+0 -1 8195
+S
+#8195
+End of dark alley.~
+You are at the end of a dark alley. The alley continues west from here.
+~
+81 0 0 0
+D3
+~
+~
+0 -1 8194
+S
+#8196
+Turn in the corridor.~
+You are at a turn a corridor in the castle. The corridor continues round
+to the east and north from here.
+~
+81 0 0 0
+D0
+~
+~
+0 -1 8183
+D1
+~
+~
+0 -1 8197
+S
+#8197
+Corridor in the castle.~
+You are walking down a corridor in Tudor castle. The corridor continues
+east and west from here. 
+~
+81 0 0 0
+D1
+~
+~
+0 -1 8198
+D3
+~
+~
+0 -1 8196
+S
+#8198
+End of the corrior.~
+You are at the end of a corridor in tudor castle. The corridor leads
+back to the west and a sturdy wooden ladder leads up to the battlements.
+~
+81 0 0 0
+D3
+~
+~
+0 -1 8197
+D4
+~
+~
+0 -1 8199
+S
+#8199
+The battlements.~
+You are on the battlements of Tudor castle. Arrow slits line the stone
+walls to the south. You can see glimpes of the surrounding countryside
+through the slits. A sturdy wooden ladder leads back down into the
+castle and you can wall around the battlements to the east from here.
+~
+81 0 0 0
+D1
+Looking east you see a large burly guard patrolling the area
+~
+~
+0 -1 8200
+D5
+Looking down you see a small corridor
+~
+~
+0 -1 8198
+S
+#8200
+The battlements below a tower.~
+You are high up on the battlements of Tudor castle. A spiral staircase
+built out of stone leads up into the north-east tower. You can walk
+around the battlements to the west and north from here.
+~
+81 0 0 0
+D0
+You see many guards patrolling in the area
+~
+~
+0 -1 8191
+D3
+You see many guards patrolling in the area
+~
+~
+0 -1 8199
+D4
+Looking up you see a staircase leading towards the tower
+~
+~
+0 -1 8201
+S
+#8201
+Climing the north-east tower.~
+You are climbing up a steep spiral staircase in the north-east tower
+of Tudor castle.
+~
+81 0 0 0
+D4
+Looking down you see the battlements of the Tudor Castle
+~
+~
+0 -1 8202
+D5
+Looking up you see the spiral staircase leading to the top of the tower
+~
+~
+0 -1 8200
+S
+#8202
+Climing the north-east tower.~
+You are climbing up a steep spiral staircase in the north-east tower
+of Tudor castle.
+~
+81 0 0 0
+D4
+Looking up you see the top of the tower where a lookout watches over
+Tudor
+~
+~
+0 -1 8203
+D5
+Looking down you see the staircase leading towards the bottom
+~
+~
+0 -1 8201
+S
+#8203
+Top of the south-east tower.~
+You are at the top of the north-east tower of Tudor castle. From here
+it is about a 200 foot frop to the moat far below. You get a superb
+view of the surrounding countryside in all directions from here.
+~
+81 0 0 0
+D5
+Looking down you notice how high you have actually climbed
+~
+~
+0 -1 8202
+S
+#8204
+Under the dais.~
+You are underneath the dais of the Church in Tudor where the evil Bishop 
+hides his treasure. It is amazing that you found this place as he thought 
+he had it very well hidden. Looking around you see that this room is made 
+up of beautiful black marble and apart from the treasure there is nothing 
+else in here. 
+~
+81 0 0 0
+D4
+Looking yo you see a broken figurine lying on the dais
+~
+figure figurine~
+1 0 8110
+S
+#8205
+At a gate~
+You have reached a large wooden gate which blocks the path.  Its so large in
+fact, that try as you might you can't jump high enough to see what's on the
+other side.  You could try to open the gate, or give up in frustration and go
+back east to the garden.    
+~
+81 0 2 0
+D0
+Wood... gate... a wooden gate.
+~
+gate~
+1 0 10501
+D1
+~
+~
+0 0 8162
+S
+$~

@@ -1,0 +1,13 @@
+mm cast 'magic missile' $1
+cls cast 'cure light' self
+chill cast 'chill t' $1
+wa wake; stand
+em eat meat
+geac get all; junk all.corpse
+gea get all
+gac get all corpse
+fw fill skin fountain
+wat drink skin
+eb eat bread
+cl cast 'cure light' $1
+cinv cast 'invis' $1

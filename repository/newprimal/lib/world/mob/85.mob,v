@@ -1,0 +1,318 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.17;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@#8500
+wolf changewolf~
+the changewolf~
+A changewolf is here staring hungrily at you.
+~
+You can barely make out the shape of the wolf as it changes in
+and out of planes.~
+16488 1026 -950 E
+29 -2 4 10d8+600 13d17+15
+9150 179000
+8 8 0
+E
+#8501
+fish mutant~
+the mutant fish~
+A mutant fish is here in the water with you.
+~
+The fish looks like it may have evoled from a harmless goldfish.
+Some fool must have dumped their pet fish in the swamp some
+time ago.~
+104 1088 -750 E
+27 2 4 10d8+300 13d14+17
+1175 159000
+8 8 0
+E
+#8502
+deadite warrior~
+the deadite warrior~
+A deadite warrior is here itching to kill a mortal.
+~
+The deadite warrior is a hideous undead warrior, brought back
+from the dead by some great evil.~
+632 1152 -950 E
+34 -4 5 10d8+700 13d18+22
+9600 257000
+8 8 0
+E
+#8503
+giant eel electric~
+the giant electric eel~
+A huge electric eel is here swimming around your feet.
+~
+The eel is about 15 feet long and its smooth black body glitens
+in the light.~
+105 1088 0 E
+27 2 4 10d8+320 13d17+12
+4363 159000
+8 8 0
+E
+#8504
+wasp giant~
+the giant wasp~
+A giant wasp is buzzing around your head.
+~
+The giant wasp is an exact copy of its smaller cousins, 
+including the nasty sting in its tail.~
+105 1088 0 E
+29 8 4 10d8+250 12d16+15
+3928 199000
+8 8 0
+E
+#8505
+mudman mud man~
+the mudman~
+A mudman is here forming up out of the muck.
+~
+The mudman is just a heap of mud taking on a humanoid form from
+some unknown force.
+~
+72 0 0 E
+27 1 5 10d8+550 13d14+14
+1800 109000
+8 8 0
+E
+#8506
+wraith~
+the wraith~
+A wraith is here floting above your head.
+~
+The wraith is obiously an undead creature judging by the 
+unatural chill in the air and the horrible stench.
+~
+1657 1098 -1000 E
+32 -5 6 10d8+800 13d18+27
+9100 210000
+8 8 0
+E
+#8507
+carrion crawler~
+the carrion crawler~
+An enourmous carrion crawler is here.
+~
+The crawler is a mega sized centapiede, it has a filthy gaping maw
+which is used to devour corpses.
+~
+4184 1088 0 E
+27 4 4 10d8+320 13d16+19
+1928 104000
+8 8 0
+E
+#8508
+night hag~
+the night hag~
+A disgusting night hag is here glaring at you.
+~
+The hag was once a beautiful sourceress, but the evil has
+taken its toll, she is a completely vile creature now.
+~
+105 1026 -1000 E
+39 -10 5 10d7+900 13d15+25
+9975 229000
+8 8 0
+E
+#8509
+ningauble eyes~
+Ningauble of the seven eyes~
+Ningauble of the seven eyes is here staring at you.
+~
+Ningauble is a most strange person indeed, seven glowing eyes
+can been seen behind his hood, but no facial features. You have 
+heard rumours of this powerful recluse wizard, and you feel
+quite uneasy facing him like this.
+~
+75 1162 0 E
+42 -15 -1 10d8+1460 13d20+46
+37800 279000
+8 8 0
+E
+$
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d2 2
+a3 2
+wolf changewolf~~
+the changewolf~~
+d5 1
+a5 1
+~~
+d7 3
+a9 3
+and out of planes.~~
+16480 1026 -950 S
+29 -2 -4 10d8+600 3d7+15
+d11 2
+a12 1
+8 8 0 3
+d14 2
+a15 2
+fish mutant~~
+the mutant fish~~
+d17 1
+a17 1
+~~
+d20 3
+a22 3
+time ago.~~
+104 1088  -750 S
+27 2 -5 10d8+300 3d4+17
+d24 2
+a25 1
+8 8 0 6
+d27 2
+a28 2
+deadite warrior~~
+the deadite warrior~~
+d30 1
+a30 1
+~~
+d32 3
+a34 3
+from the dead by some great evil.~~
+624 1152 -950 S
+34 -4 -3 10d8+700 3d8+22
+d36 2
+a37 1
+8 8 0 1
+d39 2
+a40 2
+giant eel electric~~
+the giant electric eel~~
+d42 1
+a42 1
+~~
+d44 3
+a46 3
+in the light.~~
+97 1088 0 S
+27 2 -2 10d8+320 3d7+12
+d48 2
+a49 1
+8 8 0 5
+d51 2
+a52 2
+wasp giant~~
+the giant wasp~~
+d54 1
+a54 1
+~~
+d56 3
+a58 3
+including the nasty sting in its tail.~~
+97 1088 0 S
+29 8 -2 10d8+220 2d6+15
+d60 2
+a61 1
+8 8 0 5
+d63 2
+a64 2
+mudman mud man~~
+The mudman~~
+d66 1
+a66 1
+~~
+d69 3
+a71 3
+~~
+64 0 0 S
+27 1 5 10d8+550 3d4+14
+d73 2
+a74 1
+8 8 0 2
+d76 2
+a77 2
+wraith~~
+The wraith~~
+d79 1
+a79 1
+~~
+d82 3
+a84 3
+~~
+1649 1098 -1000 S
+32 -5 -3 10d8+800 3d8+27
+d86 2
+a87 1
+8 8 0 1
+d89 2
+a90 2
+carrion crawler~~
+The carrion crawler~~
+d92 1
+a92 1
+~~
+d95 3
+a97 3
+~~
+4176 1088 0 S
+27 4 -2 10d8+320 3d6+19
+d99 2
+a100 1
+8 8 0 5
+d102 2
+a103 2
+night hag~~
+The night hag~~
+d105 1
+a105 1
+~~
+d108 3
+a110 3
+~~
+97 1026 -1000 S
+39 -10 -5 10d7+900 3d10+25
+d112 2
+a113 1
+8 8 0 7
+d115 2
+a116 2
+ningauble eyes~~
+Ningauble of the seven eyes~~
+d118 1
+a118 1
+~~
+d123 7
+a129 7
+~~
+67 1162 0 S
+42 -15 -5 10d8+1460 3d10+48
+240800 279000
+8 8 0 7
+#99999
+$~
+@
+

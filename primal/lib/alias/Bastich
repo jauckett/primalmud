@@ -1,0 +1,44 @@
+cp c 'charm person' $1
+ref c 'refresh' bastich
+qr open crate; get red crate; q red; close crate
+qw open crate; get white crate; q white; close crate
+em open crate; get meat crate; eat meat; close crate
+vs rem super; wield vorpal
+sv rem vorpal; wield super
+he cast 'heal' bastich
+mush c 'create f' ; eat mushroom
+san cast 'sanct' bastich
+cl cast 'call lightning' $1
+bb backstab bandit
+tw track werewolf
+tvamp track vampire
+fun emote gets down on his knees and begs for money.
+td track duwick
+ed cast 'energy drain' $1
+wor cast 'word of recall' bastich
+be backstab executioner
+cs cast 'color spray' $1
+lo cast 'locate object' $1
+sgb cast 'shocking grasp' buffalo
+sgg cast 'shocking grasp' guard
+cc cast 'cure critical' bastich
+sl cast 'sleep' $1
+gc get all.coins corpse
+rr rec recall
+sg cast 'shocking grasp' $1
+cf cast 'create food'
+inv cast 'invisibility' bastich
+di cast 'detect inv' bastich
+arm cast 'armor' bastich
+gac get all corpse
+ds drink skin
+gr grats *****_____(((((<<<<< $1 >>>>>)))))_____*****
+inf cast 'infravision' bastich
+bs backstab $1
+ab assist bewbar
+tb track bandit
+eb eat bread
+lb cast 'lightning b' $1
+fly emote assumes the yogic flying position..
+tv track vamp dsown
+sum cast 'summon' $1

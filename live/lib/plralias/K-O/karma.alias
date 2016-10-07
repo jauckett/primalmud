@@ -1,0 +1,20 @@
+5
+rquit
+4
+quit
+0
+2
+lf
+30
+open tool;exam tool;close tool
+1
+2
+gf
+32
+open tool;get $* tool;close tool
+1
+2
+pf
+32
+open tool;put $* tool;close tool
+1

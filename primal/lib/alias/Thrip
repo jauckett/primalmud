@@ -1,0 +1,15 @@
+g1 -----{{{{{{{[[[[$1]]]]}}}}}}------
+ec exa corpse
+ggol get gold corpse
+str cast 'str' thrip
+invi cast 'det inv'
+kb kil buffalo
+kt kil traveller
+rec get recall from backpack;recite recall thrip
+mm cast 'm m'
+heal cast 'cure l'
+lb cast 'lightning bolt'
+armor cast 'armor' thrip
+cor get all from corpse
+lev gossip ----{{{LEVEL}}}----
+cl cast 'cure light' $1

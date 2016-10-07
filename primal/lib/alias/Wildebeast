@@ -1,0 +1,24 @@
+a3 gossip $* - $* - $* - $* - $* - $* - $*
+a2 gossip $2$1$*
+a1 gossip $1$2 $2$1
+0 track thief
+tt2 rem sword ; wield soaker ; backstab $1 ; rem soaker ; wield sword 
+tt3 rem fist ; wield soaker ; backstab $1 ; rem soaker ; wield fist
+heal rem fist ; cast 'heal' ; wield fist
+mag rem all.cloak ; rem fist ; $* ; wield fist ; wear all.cloak
+gkick ord fol kick
+rep wake ; report ; sleep
+cheer grats ********** $*  **********
+jig rem staff ; grab backpack ; $* ; rem backpack ; grab staff
+wb get white backpack ; quaff white
+rb get red backpack ; quaff red
+cow2 $2 ; backstab $1 ; flee ; track $1
+cow backstab $1 ; flee ; track $1
+tt backstab $1 ; kick $1
+back backstab $1
+ac assist cassandra
+gc get all.coins all.corpse
+gac get all all.corpse
+sos cast 'word of' wildebeast
+av assist venus
+ag assist gemini

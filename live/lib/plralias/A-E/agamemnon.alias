@@ -1,0 +1,20 @@
+2
+sh
+15
+cast 'shock' $1
+1
+3
+chi
+15
+cast 'chill' $1
+1
+2
+bu
+14
+cast 'burn' $1
+1
+2
+ma
+12
+cast 'ma' $1
+1

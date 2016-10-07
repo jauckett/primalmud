@@ -1,0 +1,8 @@
+ac cast 'armor' calvin
+c get all corpse
+q tell robohelp summon
+p tell robohelp heal
+cure cast 'cure light' calvin
+1 wear all
+2 wield halberd
+3 put all backpack

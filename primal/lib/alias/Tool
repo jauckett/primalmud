@@ -1,0 +1,24 @@
+wr cast 'word of recall'
+ha cast 'haste' $*
+tst tell stormbringer $*
+ts tell sandii $*
+rp cast 'remove poison' $*
+par cast 'paralyze' $*
+sum cast 'summon' $*
+walk cast 'waterwalk' $*
+da cast 'detect align' $*
+di cast 'detect invis' $*
+cc cast 'cure crit' $*
+lb cast 'lightning bolt' $*
+food cast 'create food'
+pab put all back
+inv cast 'invis' $*
+water cast 'create water' skin
+h cast 'heal' $*
+sl cast 'sense life' $*
+inf cast 'infra' $*
+tm tell macca $*
+wl cast 'whirlwind' $*
+ah cast 'advanced heal' $*
+lo cast 'locate object' $*
+san cast 'sanctuary

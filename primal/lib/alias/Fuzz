@@ -1,0 +1,13 @@
+eb look in backpack
+white get white backpack; q white;
+red get red backpack; q red;
+gac get all all.corpse
+cc cast 'cure light' $1
+eatbread get bread backpack; eat bread;
+kb kill buffalo
+lb look buffalo
+ca cast 'armor' $1
+sg cast 'color spray' $1
+bs backstab $1
+ton get tonic backpack; q tonic;
+bsb backstab buffalo

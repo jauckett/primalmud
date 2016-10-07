@@ -1,0 +1,143 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.51;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.51;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@# <spell name>: str int wis dex con cha
+# note there must be no whitespace (ie blank lines at all
+# if you want to partition skills into groups then separate
+# them with a '#' 
+#----------------------------------------
+armor:			0 0 14 0 0 0
+spirit armor:		0 0 20 17 0 0
+holy aid:		17 0 20 17 0 0
+divine protection: 	0 0 20 18 16 0
+haste:			0 20 15 20 21 0
+teleport:		0 16 0 0 0 0
+bless:			0 0 9 0 0 0
+blindness:		0 0 12 0 0 0
+burning hands:		0 11 0 0 0 0
+call lightning:		0 10 0 0 0 0
+charm person:		0 16 0 0 0 14
+chill touch:		0 11 0 0 0 0
+clone:			0 20 0 0 0 0
+cloud kill:             20 21 21 0 0 0
+color spray:		0 13 0 0 0 0
+control weather:	0 11 0 0 0 0
+create food:		0 0 14 0 0 0
+create water:		0 0 14 0 0 0
+cure blind:		0 0 11 0 0 0
+cure critic:		0 0 14 0 0 0
+cure light:		0 0 9 0 0 0
+curse:			0 0 12 0 0 0
+detect alignment:	0 0 13 0 0 0
+detect invisibility:	0 0 14 0 0 0
+detect magic:		0 0 11 0 0 0
+detect poison:		0 0 13 0 0 0
+detect evil:		0 0 13 0 0 0
+dragon:                 0 13 14 0 15 0
+earthquake:		14 0 17 0 0 0
+whirlwind:		18 0 21 17 0 0
+enchant weapon:		10 16 0 0 0 0
+energy drain:		0 15 0 0 10 0
+fireball:		0 16 0 0 0 0
+fire shield:		17 20 21 20 0 0
+fire wall:		20 21 21 21 0 0
+harm:			0 0 18 0 0 0
+heal:			0 0 17 0 0 0
+invisibility:		0 17 0 0 0 0
+lightning bolt:		0 12 0 0 0 0
+lightning shield:	15 19 20 19 0 0 
+locate object:		0 16 0 0 0 0
+magic missile:		0 10 0 0 0 0
+nohassle:	        0 21 21 20 0 0  	
+poison:			0 0 11 0 0 0 
+protection from evil:	0 0 17 0 16 0
+protection from good:	0 0 18 0 16 0 
+remove curse:		0 0 11 0 0 0
+sanctuary:		0 15 16 0 0 0
+serpent skin:           0 21 20 0 0 0
+shocking grasp:		0 10 0 0 0 0
+sleep:			0 12 0 0 0 0
+stoneskin:		0 20 21 18 0 0 
+strength:		0 10 0 0 12 0
+summon:			0 16 0 0 14 0
+word of recall:		0 16 0 0 13 0 
+remove poison:		0 0 13 0 0 0 
+sense life:		0 0 16 16 0 0
+animate dead:		12 0 18 0 16 0
+dispel good:		0 0 10 0 0 0
+dispel evil:            0 0 10 0 0 0
+group armor:		0 0 17 0 0 0
+group heal:		0 0 19 0 0 0
+group recall:		0 18 0 0 15 0
+infravision:		0 13 0 0 0 0
+waterwalk:		0 15 12 13 0 0
+finger of death:	0 18 0 0 0 0
+advanced heal:		0 0 20 0 0 0
+divine heal:		0 21 21 0 0 0 
+refresh:		0 0 16 0 14 0
+fear:			0 15 15 0 0 0
+dimension gate:		0 20 20 0 0 0
+meteor swarm:		0 20 0 0 0 0
+group sanctuary:	0 15 19 0 0 0
+fly:                    0 16 16 14 14 0
+plasma blast:           0 18 0 0 0 0
+wraith touch:           0 21 21 0 21 0
+waterbreathe:           0 18 16 0 18 0
+remove paralysis:       0 15 17 0 0 0
+paralyze:		0 15 16 0 0 0 
+#
+# The Base stats for Skills follow:
+# <skill name>: str int wis dex con cha
+#----------------------------------------
+#
+backstab:		0 0 0 14 0 0
+bash:			17 0 0 0 0 0
+hide:			0 0 0 13 0 0
+kick:			15 0 0 13 0 0
+pick lock:		0 0 0 14 0 0
+rescue:			16 0 0 15 10 0
+sneak:			0 0 0 15 0 0
+spy:			0 0 15 17 15 0	
+steal:                  0 0 0 15 0 0
+track:			0 10 0 15 0 0
+second attack:		16 0 0 15 0 0
+third attack:		20 0 0 18 0 0
+primal scream:		18 0 0 12 14 0
+scan:			0 12 15 0 0 0
+hunt:			0 13 0 16 0 0
+retreat:		0 0 15 21 21 0
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

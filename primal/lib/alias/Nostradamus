@@ -1,0 +1,11 @@
+heal c 'cure light'
+gmb get meat backpack
+bym buy 10 meat ; put all.meat backpack
+ggc get gold corpse
+ggac get all.gold all.corpse
+gaas get all all.corpse
+gac get all corpse
+qr qu red
+qw quaff white
+gwb get white backpack
+grb get red backpack

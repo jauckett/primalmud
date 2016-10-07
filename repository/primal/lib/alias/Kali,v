@@ -1,0 +1,69 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@fear cast 'fear' $1
+ah cast 'advanced heal' kali
+start wear all;wield blade;hold pen;hold sceptre
+tb get potion backpack;quaff potion
+bs rem blade;wield dagger;back $1;rem dagger;wield blade
+titlea title an AVENGER [ Elite Guard ]
+wa wake;stand;l;aff
+blind cast 'cure blind' $1
+gcc get coins corpse;get corpse;junk corpse;save
+gc get all corpse;get corpse;junk corpse;save
+da cast 'detect alignment' kali
+lo cast 'locate object' $1
+see cast 'detect invisibility' kali
+remove cast 'remove poison' Kali
+cl cast 'cure light' Kali
+cc cast 'cure critic' kali
+lib look in backpack
+recall cast 'word of recall' kali
+summon cast 'summon' $1
+he cast 'heal' kali
+refresh cast 'refresh' kali
+sa cast 'sanct' kali
+invis cast 'invisibility' kali
+port cast 'teleport' kali
+walk cast 'waterwalk' kali
+cu curtsey
+gr grats < ********** $* ********** >
+thr cast 'heal' thrip
+ap assist pkunk
+fd cast 'finger of death' $1
+eh cast 'advanced heal' exodus
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

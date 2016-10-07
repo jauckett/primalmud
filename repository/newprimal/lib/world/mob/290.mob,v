@@ -1,0 +1,159 @@
+head	1.2;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.09;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@#29000
+xenomorh queen~
+the Xenomorh Queen~
+The Xenomorh Queen is here guarding her beloved eggs. 
+~
+The Xenomorh Queen is like a queen bee. She is the leader of all the
+xenomorh aliens. She will fight to the death to defend her young, in 
+this case, her eggs. Rest in peace, fiend!!
+~
+18554 1192 -800 E
+50 -15 -1 1d1+3400 19d20+22
+45000 500000
+8 8 2
+E
+#29001
+xenomorh enforcer~
+the Xenomorh Enforcer~
+A Xenomorh Enforcer is standguarding here.
+~
+The enforcer is the Xenomorh Queen's royal bodyguard. It will fight 
+to the death to protect its queen. It has a red body with large and 
+long claws as its weapon. It stands 8ft tall.
+~
+18554 1192 -800 E
+48 -15 -2 1d1+3250 17d20+20
+43200 480000
+8 8 0
+E
+#29002
+xenomorh~
+a xenomorh~
+A hideous xenomorh is lurking around.
+~
+This alien creature is nothing like anything you have seen before.
+It has a humanoid form. However, that is as close as it gets to being
+compared to a human being. It uses its claw-like weapon to eliminate
+all life forms that are not of its kind. It stands 7ft 11' tall.
+~
+22648 1064 -800 E
+45 -12 -2 1d1+2000 16d15+20
+35000 450000
+8 8 0
+E
+#29003
+heavy assault robot~
+a heavy assault robot~
+A heavy assault robot is here to terminate all intruders.
+~
+This robot is the most powerful mobile defence unit of the mining
+base. It has a body long arms but with long legs shaped like a frog
+legs. Its primary purpose is to terminate any intruder.
+~
+30824 1188 -200 E
+40 -12 0 1d1+1500 15d15+15
+0 400000
+8 8 0
+E
+#29004
+light assault robot~
+a light assault robot~
+A light assault robot is here to terminate all intruder. 
+~
+This robot is the companion to the heavy version. It has a body long 
+arms but with long legs shaped like a frog's legs. Its primary purpose is 
+to terminate any intruders
+~
+73932 1192 -200 E
+40 -15 0 1d1+1100 17d15+25
+0 350000
+8 8 0
+E
+$
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d3 1
+a3 1
+The Xenomorh Queen~
+d10 5
+a14 4
+18554 1192 -800 S
+50 -15 -7 1d1+5000 9d10+22
+150000 780000
+8 8 2 3
+d17 1
+a17 1
+The Xenomorh Enforcer~
+d24 5
+a28 4
+18554 1192 -800 S
+48 -15 -5 1d1+4000 7d10+20
+50000 680000 
+8 8 0 3
+d31 1
+a31 1
+A xenomorh~
+d39 5
+a43 4
+22640 1064 -800 S
+45 -12 -5 1d1+2000 6d5+20
+35000 480000
+8 8 0 3
+d46 1
+a46 1
+A heavy assault robot~
+d53 2
+a54 2
+30824 1188 -200 S
+40 -12 -4 1d1+1500 5d5+15
+d56 2
+a57 1
+8 8 0 2
+d60 1
+a60 1
+A light assault robot~
+d67 2
+a68 2
+73932 1192 -200 S
+40 -15 -100 1d1+1100 7d5+12
+d70 3
+a72 3
+8 8 0 2 
+#99999
+$~
+@
+

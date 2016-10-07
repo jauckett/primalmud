@@ -1,0 +1,4 @@
+make ../bin/circle.new
+make[1]: Entering directory `/usr/primal/src'
+gcc -c -g -Wall  comm.c
+make[1]: Leaving directory `/usr/primal/src'

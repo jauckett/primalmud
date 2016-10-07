@@ -1,0 +1,3391 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.40;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.40;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#5200
+The Outer Wall~
+You are standing on the outer wall of this deserted city. Looking out to your
+north you can see the Great Sandy Desert. Looking To your south-west you see
+a large sphinx like structure that sits in the center of the city. The size
+of this sandstone monument covers the whole of the large courtyard. It towers
+over the wall that you are standing on and appears to reach into the 
+clouds above it.
+~
+52 0 1
+D1
+Looking east you see the large iron gate and beyond it the Sandy Desert
+~
+~
+0 -1 5201
+D2
+As you look to your south you can see the edge of the outer wall leading into
+the moutain
+~
+~
+0 -1 5211
+S
+#5201
+The Outer Wall~
+As you stand on the outer wall you can see the Sandy Desert stretching 
+for miles to your north. The section of the wall that you are standing on
+is made from a yellow sandstone that is eroding away with the desert winds.
+In the center  of this deserted city you see a large sphinx that seems to 
+reach into the clouds above.
+~
+52 0 1
+D1
+As you look east you see a large bird perched on the outer wall
+~
+~
+0 -1 5202
+D3
+Looking west you notice that this is the edge of the outer wall
+~
+~
+0 -1 5200
+S
+#5202
+The Outer Wall~
+Standing on the outer wall of this deserted city, you feel a strange 
+peacefulness surrounding you. This place was obviously once a magnificent
+city, yet the desert that surrounds it has now overtaken the city. All
+that has been left standing is the large unusual monument in the center
+courtyard. 
+~
+52 0 1
+D1
+Looking east you see the large iron gate and beyond it the Sandy Desert
+~
+~
+0 -1 5203
+D3
+As you look west you see a large bird perched on the outer wall
+~
+~
+0 -1 5201
+S
+#5203
+The Outer Wall~
+You are walking along the outer wall in this deserted city. Directly to your
+east you can see the large iron gate and to your north the desert sands 
+stretch for miles. It is obvious that this sandstone wall is eroding at a
+rapid rate and you determine this is probably due to the harsh desert winds
+and storms. Looking onto the center of the deserted city you see a large 
+sandstone sphinx that's top is covered by a mysterious billowing cloud
+~
+52 0 1
+D1
+Looking east you see the large iron gate and beyond it the Sandy Desert
+~
+~
+0 -1 5204
+D3
+Looking west you see the outer wall stretches around the deserted city
+~
+~
+0 -1 5202
+S
+#5204
+Large Iron Gate~
+You are standing at the entrance to the deserted city. The large iron 
+gate is supported on either side by the outer sandstone walls and there
+is a small sandstone path to your south that leads toward the large 
+sphinx in the  center of this deserted place. The desert winds blow 
+strongly from the north into the  city scattering sand at your feet and 
+making visibility difficult. 
+~ 
+52 4 1
+D0
+Looking north you see the great sandy desert
+~
+~
+0 -1 835
+D1
+Looking east you see the outer wall stretches around the deserted city
+~
+~
+0 -1 5205
+D2
+As you look south you see the large sandstone sphinx looming in front of
+you
+~
+~
+0 -1 5210
+D3
+As you look west you see a large bird perched on the outer wall
+~
+~
+0 -1 5203
+S
+#5205
+The Outer Wall~
+You are walking along the outer wall in this deserted city. Directly to your
+west you can see the large iron gate and to your north the desert sands 
+stretch for miles. It is obvious that this sandstone wall is eroding at a
+rapid rate and you determine this is probably due to the harsh desert winds
+and storms. Looking onto the center of the deserted city you see a large 
+sandstone sphinx that's top is covered by a mysterious billowing cloud
+~
+52 0 1
+D1
+As you look east you see a large bird perched on the outer wall
+~
+~
+0 -1 5206
+D3
+Looking west you see the large iron gate and beyond it the Sandy Desert
+~
+~
+0 -1 5204
+S
+#5206
+The Outer Wall~
+Standing on the outer wall of this deserted city, you feel a strange 
+peacefulness surrounding you. This place was obviously once a magnificent
+city, yet the desert that surrounds it has now overtaken the city. All
+that has been left standing is the large unusual monument in the center
+courtyard. 
+~
+52 0 1
+D1
+Looking east you can see the sandstone wall starting to erode
+~
+~
+0 -1 5207
+D3
+Looking west you see the large iron gate and beyond it the Sandy Desert
+~
+~
+0 -1 5205
+S
+#5207
+The Outer Wall~
+As you stand on the outer wall you can see the Sandy Desert stretching 
+for miles to your north. The section of the wall that you are standing on
+is made from a yellow sandstone that is eroding away with the desert winds.
+In the center  of this deserted city you see a large sphinx that seems to 
+reach into the clouds above.
+~
+52 0 1
+D1
+As you look east you see a desert storm building in the distance
+~
+~
+0 -1 5208
+D3
+Looking west you see the outer wall eroding before you very eyes 
+~
+~
+0 -1 5206
+S
+#5208
+The Outer Wall~
+As you stand on the outer wall you can see the Sandy Desert stretching 
+for miles to your north. The section of the wall that you are standing on
+is made from a yellow sandstone that is eroding away with the desert winds.
+In the center  of this deserted city you see a large sphinx that seems to 
+reach into the clouds above.
+~
+52 0 1
+D1
+As you look east you see a desert storm building in the distance
+~
+~
+0 -1 5209
+D3
+Looking west you see the outer wall eroding before you very eyes 
+~
+~
+0 -1 5207
+S
+#5209
+The Outer Wall~
+You are standing on the outer wall of this deserted city. Looking out to your
+north you can see the Great Sandy Desert. Looking To your south-east you see
+a large sphinx like structure that sits in the center of the city. The size
+of this sandstone monument covers the whole of the large courtyard. It towers
+over the wall that you are standing on and appears to reach into the 
+clouds above it.
+~
+52 0 1
+D2
+As you look to your south you can see the edge of the outer wall leading into
+the moutain
+~
+~
+0 -1 5212
+D3
+As you look west you see a large storm building in the desert
+~
+~
+0 -1 5208
+S
+#5210
+Sandstone path~
+You are standing on a small sandstone path that leads either towards the 
+large iron gate, and beyond that the sandy desert or towards the center 
+courtyard where the great sandstone sphinx lies. From where you are standing
+you are unable to see the top of the sphinx as a large bank of clouds 
+appear to be covering the top of it and looming over your head. Although 
+these clouds look slightly ominous you still feel a strange tranquility 
+presides here. 
+~ 
+52 0 1
+D0
+Looking north you see the large iron gate and beyond that the sandstone 
+desert 
+~
+~
+0 -1 5204
+D2
+Looking south you see the sandstone path
+~
+~
+0 -1 5213
+S
+#5211
+The Outer Wall~
+You are standing on the edge of the outer wall. To your south you see the 
+outer wall leading into the sandstone mountain and to your north you look 
+out over the sandy desert.  From where you stand you look out towards the 
+face of the large sphinx in the center courtyard but as you try to look up
+over the sphinx all you can see are the white billowing clouds. 
+The desert winds blow strongly over the wall, throwing up sand into your eyes
+and making visibility difficult.
+~ 
+52 0 1
+D0
+Looking north you see the corner of the outer wall
+~
+~
+0 -1 5200
+D2
+Looking south you see the end of the outer wall
+~
+~
+0 -1 5214
+S
+#5212
+The Outer Wall~
+You are standing on the edge of the outer wall. To your south you see the 
+outer wall leading into the sandstone mountain and to your north you look 
+out over the sandy desert.  From where you stand you look out towards the 
+face of the large sphinx in the center courtyard but as you try to look up
+over the sphinx all you can see are the white billowing clouds. 
+The desert winds blow strongly over the wall, throwing up sand into your eyes
+and making visibility difficult.
+~
+52 0 1
+D0
+Looking north you see the corner of the outer wall
+~
+~
+0 -1 5209
+D2
+Looking south you see the end of the outer wall
+~
+~
+0 -1 5215
+S
+#5213
+Sandstone path~
+You are standing on a small sandstone path that leads either towards the 
+large iron gate, and beyond that the sandy desert or towards the center 
+courtyard where the great sandstone sphinx lies. From where you are standing
+you are unable to see the top of the sphinx as a large bank of clouds 
+appear to be covering the top of it and looming over your head. Although 
+these clouds look slightly ominous you still feel a strange tranquility 
+presides here. Directly to your south the path becomes what apears to be 
+this deserted cities center courtyard. 
+~
+52 0 1
+D0
+Looking north you see the large iron gate
+~
+~
+0 -1 5210
+D2
+As you look south you stare straight into the center of the great sand sphinx
+~
+~
+0 -1 5219
+S
+#5214
+End of the Outer Wall~
+You are standing at the end of the outer wall in this deserted city. The 
+wall seems to have been made to form around the large mountain behind it as
+it looks like it is actually growing out of the mountain. Here you have 
+the best view yet of the great sandstone sphinx lying in the center of 
+the courtyard. However you are still unable to see the top of this great
+monument.
+~ 
+52 0 1
+D0 
+Looking north you see the sandstone wall and beyond the wall the great sandy
+desert
+~
+~
+0 -1 5211
+S
+#5215
+End of the Outer Wall~
+You are standing at the end of the outer wall in this deserted city. The 
+wall seems to have been made to form around the large mountain behind it as
+it looks like it is actually growing out of the mountain. Here you have 
+the best view yet of the great sandstone sphinx lying in the center of 
+the courtyard. However you are still unable to see the top of this great
+monument.
+~
+52 0 1
+D0
+Looking north you see the sandstone wall and beyond the wall the great sandy
+desert
+~
+~
+0 -1 5212
+S
+#5216
+Corner of the Courtyard~
+As you stand in the corner of the sandstone courtyard the desert winds 
+whistle through your ears and blows your hair around your face. Sand that
+covers the courtyard in a think layer blows up into your eyes making 
+visiblility difficult. Apart from the large sphinx in the center of the 
+courtyard there are no buildings or signs of civilization.  You wonder
+what happened to the town that must have existed here at some time in the
+past. 
+~ 
+52 0 1
+D1
+To your east the courtyard heads around the sphinx and towards the iron gate
+~
+~
+0 -1 5217
+D2
+Looking south you see the sandstone courtyard continues around the sphinx
+~
+~
+0 -1 5223
+S
+#5217
+Sandstone courtyard~
+You are standing in a sandstone courtyard within this deserted city. 
+There is no sign of civilization here and you appear to be the only 'human'
+within these walls. Yet, although this city is empty of human life you sense
+that there are creatures living here. However you don't feel extremely 
+fearful as there is a strange peaceful quality to this deserted city.
+~
+52 0 1
+D1
+Looking east you see the couryard leading around the center of the sphinx
+~
+~
+0 -1 5218
+D3
+As you look west you see the corner of the sandstone courtyard
+~
+~
+0 -1 5216
+S
+#5218
+Sandstone courtyard~
+As you stand in the center of the sandstone courtyard you see the end of 
+the sandstone path directly to your east. Before you to your south stands 
+the large sandstone sphinx. You are standing directly below it and as you 
+reach forward you touch the base of its feet. Your head alone only 
+touches the very top of its paw and as you look up you see it's face.
+Yet beyond the point of it's face you can only see the white billowing 
+clouds. 
+~ 
+52 0 1 
+D1 
+Looking east you see the end of the sandstone path
+~ 
+~
+0 -1 5219
+D3
+Looking west you see the sandstone courtyard.
+~
+~
+0 -1 5217
+S
+#5219
+End Sandstone path~
+As you stand at the end of the sandstone path you see the courtyard directly
+to your east and west. Looking to the north you see the path continues 
+towards the large iron gate.  As you look south you see that you are 
+standing directly in front of the large sandstone sphinx which is so immense
+that the very top of it reaches into the clouds above it.
+~
+52 0 1
+D0
+As you look north you see the sandstone path and the large iron gate
+~
+~
+0 -1 5213
+D1
+Looking east you see the sandstone courtyard.
+~
+~
+0 -1 5220
+D3
+Looking west you see the sandstone courtyard.
+~
+~
+0 -1 5218
+S
+#5220
+Sandstone courtyard~
+As you stand in the center of the sandstone courtyard you see the end of 
+the sandstone path directly to your west. Before you to your south stands 
+the large sandstone sphinx. You are standing directly below it and as you 
+reach forward you touch the base of its feet. Your head alone only 
+touches the very top of its paw and as you look up you see it's face.
+Yet beyond the point of it's face you can only see the white billowing 
+clouds. 
+~
+52 0 1
+D1
+Looking east you see the end of the sandstone path
+~
+~
+0 -1 5221
+D3
+Looking west you see the courtyard continues around the sphinx
+~
+~
+0 -1 5219
+S
+#5221
+Sandstone courtyard~
+You are standing in a sandstone courtyard within this deserted city. 
+There is no sign of civilization here and you appear to be the only 'human'
+within these walls. Yet, although this city is empty of human life you sense
+that there are creatures living here. However you don't feel extremely 
+fearful as there is a strange peacful quality to this deserted city.
+~
+52 0 1
+D1
+Looking east you see the courtyard continues around the sphinx
+~
+~
+0 -1 5222
+D3
+Looking west you see the corner of the courtyard
+~
+~
+0 -1 5220
+S
+#5222
+Corner of the Courtyard~
+As you stand in the corner of the sandstone courtyard the desert winds 
+whistle through your ears and blows your hair around your face. Sand that
+covers the courtyard in a think layer blows up into your eyes making 
+visiblility difficult. Apart from the large sphinx in the center of the 
+courtyard there are no building or signs of civilization.  You wonder what
+happened to the town that must have existed here at some time in the past. 
+~
+52 0 1
+D2
+Looking south you see the sandstone courtyard continues around the sphinx
+~
+~
+0 -1 5224
+D3
+To your west the courtyard heads around the sphinx and towards the iron gate
+~
+~
+0 -1 5221
+S
+#5223
+Sandstone courtyard~
+As you walk around the sandstone courtyard the strong desert winds blow 
+the sand lying on the courtyard into your hair,eyes and ears. If you opened
+your mouth you would be also getting a mouthful of sand. In the distance 
+to your south you can see a large ladder that lies against the sphinx and 
+you wonder if you should venture towards it.
+~ 
+52 0 1
+D0
+Looking north you see the corner of the courtyard.
+~
+~
+0 -1 5216
+D2
+As you look south you see a large ladder in the distance
+~
+~
+0 -1 5225
+S
+#5224
+Sandstone courtyard~
+As you walk around the sandstone courtyard the strong desert winds blow 
+the sand lying on the courtyard into your hair,eyes and ears. If you opened
+your mouth you would be also getting a mouthful of sand. Looking to your 
+south you see that the courtyard reaches a deadend in the distance. 
+~
+52 0 1
+D0
+Looking north you see the corner of the courtyard.
+~
+~
+0 -1 5222
+D2
+As you look south you see the courtyard heads toward a dead end
+~
+~
+0 -1 5229
+S
+#5225
+Sandstone courtyard~
+The desert winds viciously whip around you in this section of the 
+courtyard, blowing the sand that lies on the ground up around you and
+into your eyes, hair, ears and nose. In the distance to your south you see
+a large ladder that lies against the sphinx and to your north the courtyard
+travels around this impressive sandstone monument.
+~
+52 0 1
+D0
+As you look north you see the courtyard continues around the sphinx
+~
+~
+0 -1 5223
+D2
+Looking south you see the end of the courtyard that leads toward a ladder
+~
+~
+0 -1 5239
+S
+#5226
+Eye of the sphinx~
+You are standing in the eye of the sphinx and as you look down below you see
+the sandstone courtyard, the outer wall, the large iron gate and in the 
+distance the Great Sandy Desert. The view from here is absolutely 
+incredible, but you try not to look down for too long as the distance 
+to the ground if well over twenty feet and you would hate to fall. 
+~ 
+52 0 1
+D1
+Looking east you see the mouth of the sphinx
+~
+~
+0 -1 5227
+D2
+looking south is a small path around the sphinx
+~
+~
+0 -1 5231
+S
+#5227
+Mouth of the sphinx~
+You are standing in the mouth of the sphinx and as you look out to your north
+you see the large iron gate and the Great Sandy Desert stretcing before you.
+The section of the sphinx that you are standing in is similar to a small 
+alcove and as you take a careful look around you notice that one of the 
+teeth, that is made from sandstone, looks slightly loose. You wonder what 
+would happen if you actually tried to pull at the sphinx's tooth, maybe 
+it would break away in your hands. 
+~ 
+52 0 1
+D1
+Looking east you see the eye of the sphinx
+~
+~
+0 -1 5228
+D3
+Looking west you see the eye of the sphinx
+~
+~
+0 -1 5226
+D5
+Looking down you see steps leading into the center of the sphinx
+~
+Tooth~
+1 -1 5247
+S
+#5228
+Eye of the sphinx~
+You are standing in the eye of the sphinx and as you look down below you see
+the sandstone courtyard, the outer wall, the large iron gate and in the 
+distance the Great Sandy Desert. The view from here is absolutely 
+incredible, but you try not to look down for too long as the distance 
+to the ground if well over twenty feet and you would hate to fall. 
+~
+52 0 1
+D2
+looking south is a small path around the sphinx
+~
+~
+0 -1 5232
+D3
+Looking west you see the mouth of the sphinx
+~
+~
+0 -1 5227
+S
+#5229
+Sandstone courtyard~
+The desert winds viciously whip around you in this section of the 
+courtyard, blowing the sand that lies on the ground up around you and
+into your eyes, hair, ears and nose. In the distance to your south you see
+the courtyard reaches a dead end and to your north the courtyard
+travels around this impressive sandstone monument.
+~
+52 0 1
+D0
+Looking north you see the path continues around the sphinx
+~
+~
+0 -1 5224
+D2
+Looking south you see a dead end
+~
+~
+0 -1 5234
+S
+#5230
+On the Sphinx~
+You are walking precariously around a very thin path on the sphinx. The 
+wind that blows off the sandy desert makes you feel extremely unsafe as
+you try and walk around the sphinx. It seems to be that strong that with one
+wrong step you could go falling down into the sandstone courtyard bellow 
+you. To your east you see the head of the sphinx that looks as if it is 
+possibly sheltered from this vicious wind. 
+~ 
+52 0 1
+D1
+The head of the sphinx
+~
+~
+0 -1 5231
+D2
+Looking south you see a precarious path around the sphinx
+~
+~
+0 -1 5240
+S
+#5231
+Head of the Sphinx~
+You are standing at the head of the sphinx where the view out over the
+Sandy Desert is absolutely incredible. This section of the sphinx seems 
+to have a slightly large ledge than the outer section of the sphinx and 
+you don't feel anywhere near as unsafe as you did when the desert winds
+were blowing around you viciously. Directly to your north you can see the
+eye of the sphinx that looks out over the iron gate of this deserted city.
+~ 
+52 0 0 
+D0
+Looking north you see the eye of the sphinx
+~
+~
+0 -1 5226
+D3
+Looking west you see a precarious path around the sphinx
+~
+~
+0 -1 5230
+S
+#5232
+Head of the Sphinx~
+You are standing at the head of the sphinx where the view out over the
+Sandy Desert is absolutely incredible. This section of the sphinx seems 
+to have a slightly large ledge than the outer section of the sphinx and 
+you don't feel anywhere near as unsafe as you did when the desert winds
+were blowing around you viciously. Directly to your north you can see the
+eye of the sphinx that looks out over the iron gate of this deserted city.
+~
+52 0 0
+D0
+Looking north you see the eye of the sphinx
+~
+~
+0 -1 5228
+D1
+Looking east you see a precarious path around the sphinx
+~
+~
+0 -1 5233
+S
+#5233
+On the Sphinx~
+You are walking precariously around a very thin path on the sphinx. The 
+wind that blows off the sandy desert makes you feel extremely unsafe as
+you try and walk around the sphinx. It seems to be that strong that with one
+wrong step you could go falling down into the sandstone courtyard bellow 
+you. To your east you see the head of the sphinx that looks as if it is 
+possibly sheltered from this vicious wind. 
+~
+52 0 1
+D2
+Looking south you see a precarious path around the sphinx
+~
+~
+0 -1 5241
+D3
+The head of the sphinx
+~
+~
+0 -1 5232
+S
+#5234
+Dead end in the Sandstone courtyard~
+You are standing at a dead end within the sandstone courtyard. To your 
+north you see the courtyard leading around the great sphinx which lies to 
+your west. Looking south you see a large build up of sand that has 
+blocked whatever was beyond the path you have been following. Around you 
+are  scattered large flat sandstones in a small circle formation and in 
+the center of the circle is a large eye shaped sandstone.
+~ 
+52 0 1
+D0
+Looking north you see the sandstone courtyard 
+~
+~
+0 -1 5229
+D5
+As you look down you see the sandstone eye has a small handle on it
+~
+sandstone eye~
+1 -1 5242
+S
+#5235
+Watery Tunnel~
+You are swimming along a dark watery tunnel underneath the deserted city, 
+where the water is a beautiful violet colour.  You are unsure why the 
+water is the unusual colour yet it is certainly has a tranquil and calming
+effect. As the cool water laps around your body you are glad to be out of 
+the fierce ray's of the sun that had been beating down on you in the
+sandy desert and within the courtyard of the deserted city.
+~ 
+52 1 7
+D1
+Looking east you see the violet water running steadily downwards
+~
+~
+0 -1 5236
+D2
+Looking south you see a slight bend in the watery tunnel
+~
+~
+0 -1 5245
+S
+#5236
+Watery Tunnel~
+As you swim along the tranquil, violet waters of the watery tunnel you notice
+that the water seems to be heading in the westerly direction toward the 
+sandstone courtyard. You begin to wonder where the sorce of this unusual water
+is coming from and what you will find at the end of the tunnel.  
+~ 
+52 1 7
+D1
+Looking east you see a small step that the water is running down
+~
+~
+0 -1 5237
+D3
+Looking west you see the water flowing around a small bend in the watery 
+tunnel 
+~
+~
+0 -1 5235
+S
+#5237
+Watery Tunnel~
+There is a small stone step in this section of the watery tunnel and the 
+calm, cool violet coloured water runs down the step and then heads west.
+There seems to be very little danger in this tunnel and the tranquil 
+water has a calm, soothing effect apon you. You can also make out the 
+walls in this section of the tunnel and although they appear to be made 
+from sandstone they also have a beautiful turquoise colour to them.
+This may explain why the water is such an unusual colour.
+~
+52 1 7
+D3
+Looking west you see the violet water running toward the courtyard
+~
+~
+0 -1 5236
+D4
+Looking up you see that there is a slight bend in the tunnel ahead
+~
+~
+0 -1 5238
+S
+#5238
+Watery Tunnel~
+As you stand on a small step in the watery tunnel the water here is 
+rather shallow and you find that it only reaches up to your knees.
+The water runs steadily downward towards the sandstone courtyard and 
+there is a turn in the tunnel heading south. This section of the tunnel 
+appears to be a lot darker and deeper than what lies downward.
+~ 
+52 1 7
+D2
+Looking south you see the water darken to a deep indigo
+~
+~
+0 -1 5246
+D5
+Looking down you see that there is a small amount of light in this 
+section of the tunnel
+~
+~
+0 -1 5237
+S
+#5239
+End of the Sandstone courtyard~
+As you stand at the end of the sandstone courtyard with the desert winds 
+blowing wildly around you, and throwing up the sand that lies scattered on
+the ground, you notice that to your south there is a large ladder that 
+leads up toward the great sphinx. You wonder if it would  be safe to venure
+up this ladder as the wind seems extremely strong at present.
+~ 
+52 0 1
+D0
+As you look north you see the sandstone courtyard continues around the sphinx
+~
+~
+0 -1 5225
+D2
+Looking south you see the base of the ladder
+~
+~
+0 -1 5257
+S
+#5240
+On the Sphinx~
+You are walking precariously around a very thin path on the sphinx. The 
+wind that blows off the sandy desert makes you feel extremely unsafe as
+you try and walk around the sphinx. It seems to be that strong that with one
+wrong step you could go falling down into the sandstone courtyard bellow 
+you. To your south you see the top of the large ladder and the precarious
+path continues to your north.
+~
+52 0 1
+D0
+Looking north you see a rather dangerous path
+~
+~
+0 -1 5230
+D2
+Looking south you see the top of the ladder
+~
+~
+0 -1 5261
+S
+#5241
+On the Sphinx~
+As you walk around the dangerous, narrow path on the sphinx you notice 
+that the wind does not seem as strong on this side. This makes you feel 
+safer than you did on the other side of the sphinx. Looking up you can 
+nearly touch the white clouds from the height you are at and as you look 
+more closely to the clouds you think that they have a strange dense quality
+to them.
+~ 
+52 0 1 
+D0
+Looking north you see the sphinx's head in the distance
+~
+~
+0 -1 5233
+D2
+Looking south you see the path continues around the sphinx
+~
+~
+0 -1 5263
+S
+#5242
+Watery Tunnel~
+You are standing in a deep watery tunnel that runs underneath this 
+deserted city. There is no natural light here and you have difficulty
+seeing what lies ahead to your north. The water could not be called cold
+however, infact it is rather refreshing after the sand and wind that was
+beating down on you within the deserted city.
+~
+52 5 7
+D1
+~
+~
+0 -1 5243
+D4
+Looking up you see the sandstones of the courtyard
+~
+sandstone eye~
+1 -1 5234
+S
+#5243
+Watery Tunnel~
+As you swim along the watery tunnel you notice that there is a small hole 
+in the ground here that you are unable to pass through. This is were the 
+water runs down into what is probably an underground stream.
+It is rather dark here and you can just make out that the tunnel heads 
+east and west toward and opening.
+~ 
+52 1 7
+D1
+Looking east you see the water turning a beautiful violet colour
+~
+~
+0 -1 5244
+D3
+Looking west you see the beginning of the watery tunnel
+~
+~
+0 -1 5242
+S
+#5244
+Watery Tunnel~
+You have reached a small step in the watery tunnel and you notice that 
+the water is a strange violet colour. The water  trickles down the 
+sandstone step and then travels west. As you look around you can just make
+out the sandstone walls although you can not see what is making the water 
+this strange violet colour. In this section of the tunnel the water is 
+rather shallow and you can feel the sandy bottom through your feet.
+~ 
+52 1 7
+D3
+As you look west you see very little but you can hear the water running in
+that direction
+~
+~
+0 -1 5243
+D4
+Looking up you see that the tunnel makes a slight turn
+~
+~
+0 -1 5245
+S
+#5245
+Watery Tunnel~
+There is a small stone step in this section of the watery tunnel and the 
+calm, cool violet coloured water runs down the step and then heads west.
+There seems to be very little danger in this tunnel and the tranquil 
+water has a calm, soothing effect apon you. You can also make out the 
+walls in this section of the tunnel and although they appear to be made 
+from sandstone they also have a beautiful turquoise colour to them.
+There is also a slight bend in the tunnel and you now have to swim either
+down or north
+~
+52 1 7
+D0
+Looking north you see a strange violet glow
+~
+~
+0 -1 5235
+D5
+Looking down you see the water running down the small sandtone step
+~
+~
+0 -1 5244
+S
+#5246
+Watery Tunnel~
+You are now swimming in a deeper, darker section of the watery tunnel.
+The water seems to be a dark indigo now rather than the violet it appears
+in the shallow, narrower part of the tunnel. The water is also a lot colder
+in this section of the tunnel than it is to your north. You wonder is you are
+reaching the end of the tunnel or whether you will have to swim for miles.
+~
+52 1 7
+D0
+~
+~
+0 -1 5238
+D2
+~
+~
+0 -1 5256
+S
+#5247
+Inside the sphinx~
+You are standing inside the large sphinx just underneath its mouth. As 
+you look up you can see the two eyes and the mouth. There is large open
+area within the sphinx that lies to your east. The air inside the sphinx 
+is rather cool and there is a dampness in the air that smells rather old 
+and slightly decayed.
+~ 
+52 12 0 
+D2
+Looking east you see a large open area
+~
+~
+0 -1 5262
+D4
+Looking up you see the mouth of the large sphinx
+~
+Tooth~
+1 -1 5227
+S
+#5248
+Large bubbling spring~
+You are standing in a large bubbling spring that seems to be filled with a
+strange coloured water. One minute the water seems to be a beautiful indigo
+in color and the next minute it is a magnificent violet. As you stand in 
+the spring you notice that at your feet is a loose stone. You wonder is 
+you push this stone aside where it will lead to.
+~ 
+52 4 6
+D2
+~
+~
+0 -1 5264
+D5
+Looking down you see a watery tunnel
+~
+Stone ~
+1 -1 5249
+S
+#5249
+Watery Tunnel~
+You are standing at what appears to be a dead end in the dark watery tunnel.
+As you look to your east you see the dark indigo water slowing running 
+downward toward the underground stream. However as you look around you 
+notice that there is a small light coming from a loose stone above your 
+head. Should you move this stone and face what lies above you? 
+~
+52 1 7 
+D1
+Looking east you see the watery tunnel continues
+~
+~
+0 -1 5250
+D4
+Looking up you see a bubbling stream
+~
+Stone~
+1 -1 5248
+S
+#5250
+Watery Tunnel~
+You are standing in a deep watery tunnel that runs underneath this 
+Great Sphinx. There is no natural light here and you have difficulty
+seeing what lies to your east or west. The water could not be called cold
+however, infact it is rather refreshing and invigorating.
+~
+52 5 6
+D1
+Looking east you see the dark indigo water running slowing downhill
+~
+~
+0 -1 5251
+D3
+As you look to your west you see very little in the darkness beyond
+~
+~
+0 -1 5249
+S
+#5251
+Watery Tunnel~
+You are now swimming in a deeper, darker section of the watery tunnel.
+The water seems to be a dark indigo now rather than the violet it appears
+in the shallow, narrower part of the tunnel. The water is also a lot colder
+in this section of the tunnel. You wonder is you are reaching the end of 
+the tunnel or whether you will have to swim for miles. 
+~
+52 1 7
+D1
+Looking east you see the inky blackness of the  watery tunnel
+~
+~
+0 -1 5252
+D3
+As you look to your west you see very little in the darkness beyond
+~
+~
+0 -1 5250
+S
+#5252
+Watery Tunnel~
+The water is extremely cold now and you are beginning to feel chilled to
+the bone. There is no natural light and you find yourself gropping around
+in the inky blackness trying to determine which way you should swim. You
+feel that the water is running to your east so maybe you should try and swim
+to the west.
+~
+52 1 7
+D1
+Looking east you see the inky blackness of the  watery tunnel
+~
+~
+0 -1 5253
+D3
+Looking west you see the inky blackness of the  watery tunnel
+~
+~
+0 -1 5251
+S
+#5253
+Watery Tunnel~
+You are now swimming in a deeper, darker section of the watery tunnel.
+The water seems to be a dark indigo now rather than the violet it appears
+in the shallow, narrower part of the tunnel. The water is also a lot colder
+in this section of the tunnel. You wonder is you are reaching the end of 
+the tunnel or whether you will have to swim for miles. 
+~
+52 1 7
+D1
+As you look to your east you see very little in the darkness beyond
+~ 
+~
+0 -1 5254
+D3
+As you look to your west you see very little in the darkness beyond
+~
+~
+0 -1 5252
+S
+#5254
+Watery Tunnel~
+The water is extremely cold now and you are beginning to feel chilled to
+the bone. There is no natural light and you find yourself gropping around
+in the inky blackness trying to determine which way you should swim. You
+feel that the water is running to your east so maybe you should try and swim
+to the west.
+~
+52 1 7
+D1
+Looking east you see the inky blackness of the  watery tunnel
+~
+~
+0 -1 5255
+D3
+Looking west you see the inky blackness of the  watery tunnel
+~
+~
+0 -1 5253
+S
+#5255
+Watery Tunnel~
+You are swimming along the darkest, coldest section of the watery tunnel.
+To your east you see that there is a slight bend in the tunnel. The cold dark
+indigo water flows slowly past you from the west to the east. Although 
+this place is extremely dark and rather cold you feel a strange tranquility
+passing over you. 
+~
+52 1 7
+D1
+As you look to your east you see very little in the darkness beyond
+~
+~
+0 -1 5256
+D3
+As you look to your west you see very little in the darkness beyond
+~
+~
+0 -1 5254
+S
+#5256
+Watery Tunnel~
+As you swim around a bend in the watery tunnel you notice that the water 
+that is flowing steadily from the west is much colder than the water to 
+your north. It is also a much darker indigo than the water to your north.
+You are beginning to feel rather chilly in this section of the water, yet 
+although it is cold here you don't sense any great evil surrounding you.
+~ 
+52 1 7
+D0
+Looking north you see that there is slightly more light
+~
+~
+0 -1 5246
+D3
+As you look to your west you see very little in the darkness beyond
+~
+~
+0 -1 5255
+S
+#5257
+Base of the ladder~
+You are standing at the base of a large ladder that leans against the 
+large sphinx. You wonder if you should venture upwards as the desert wind 
+that is howling around you is extremely strong and it looks a long way up 
+and a long way down if you fall. 
+~ 
+52 260 1
+D0
+Looking north you see the sandstone courtyard
+~
+~
+0 -1 5239
+D4
+As you look up you see the ladder leading towards the top of the sphinx
+~
+~
+0 -1 5258
+S
+#5258
+On the ladder~
+As you stand on the large wooden ladder you notice that it sways slightly
+in the howling desert winds. This makes you feel extremely nervous about 
+falling off. The steps on the ladder are also very steep and difficult to 
+climb up, making it even more precarious. There is also only enough room on
+the steps for one person to travel up and down on so you hope you don't come
+across any nasty, vicious monsters.
+~
+52 256 1
+D5
+Looking down you see the base of the ladder
+~
+~
+0 -1 5257
+D4
+As you look up you see the ladder leading towards the top of the sphinx
+~
+~
+0 -1 5259
+S
+#5259
+On the ladder~
+You are standing on the large wooden ladder that leads up toward the large
+sphinx and down toward the sandstone courtyard. As you look up you see a 
+billowing white cloud above the sphinx that looks strangely substantial and
+solid. The desert winds that howl loudly around your head make the ladder
+an extremely precarious place to be standing and you feel very unsafe. 
+~
+52 256 1
+D5
+As you look down you see the sandstone courtyard below you
+~
+~
+0 -1 5258
+D4
+As you look up you see the ladder leading towards the top of the sphinx
+~
+~
+0 -1 5260
+S
+#5260
+On the ladder~
+As you stand on the large wooden ladder you notice that it sways slightly
+in the howling desert winds. This makes you feel extremely nervous about 
+falling off. The steps on the ladder are also very steep and difficult to 
+climb up, making it even more precarious. There is also only enough room on
+the steps for one person to travel up and down on so you hope you don't come
+across any nasty, vicious monsters.
+~
+52 256 1
+D5
+As you look down you see the sandstone courtyard below you
+~
+~
+0 -1 5259
+D4
+As you look up you see the ladder leading towards the top of the sphinx
+~
+~
+0 -1 5261
+S
+#5261
+Top of the ladder~
+You are standing at the top of the ladder and to your north and south 
+there is a precarious path that leads around the great sphinx. The wind
+howls loudly around your head and makes you feel like you are about to loose
+your balance. As you look up you see a large white cloud that appears to be
+made from some strange solid substance. 
+~
+52 0 1
+D0
+Looking north you see a precarious path leading around the sphinx
+~
+~
+0 -1 5240
+D2
+Looking south the path leads toward the back of the sphinx
+~
+~
+0 -1 5265
+D5
+As you look down you feel like you may loose your footing
+~
+~
+0 -1 5260
+S
+#5262
+Large Cavern~
+You are standing in a large cavern like room within the center of the sphinx.
+The ceiling in this room looks like it is over one hundred feet high and 
+as you shout they sound echos off the sandstone walls that surround you.
+There is a small tunnel that leads off to your south and to your north 
+you can see the mouth of the large sphinx.
+~ 
+52 8 0
+D0
+Looking north you see the entrance into the mouth of the sphinx
+~
+~
+0 -1 5247
+D2
+As you look south you see a small sandstone tunnel
+~
+~
+0 -1 5273
+S
+#5263
+On the Sphinx~
+As you walk around the dangerous, narrow path on the sphinx you notice 
+that the wind does not seem as strong on this side. This makes you feel 
+safer than you did on the other side of the sphinx. Looking up you can 
+nearly touch the white clouds from the height you are at and as you look 
+more closely to the clouds you think that they have a strange dense quality
+to them.
+~
+52 0 1
+D0
+Looking north the path seems even narrower
+~
+~
+0 -1 5241
+D2
+Looking south the narrow path continues around the back of the sphinx
+~
+~
+0 -1 5268
+S
+#5264
+Sandstone tunnel~
+As you walk along the cool sandstone tunnel you see a large bubbling spring
+directly to your north. There is a strange musty dampness that lies heavily
+in the air of this tunnel yet you can feel a cool breeze coming from the 
+north where the spring is. There are strange markings on the sandstone walls
+that surround you on your east and west and you wonder if they are actually
+writtings. 
+~
+52 8 0
+D0
+Looking north you see a bubbling spring
+~
+~
+0 -1 5248
+D1
+
+   ./.  ":"   ><   !!!
+     |___|    ||   +++       
+              ^^   |||
+      
+~
+~
+0 0 0
+D2
+As you look south you see the sandstone tunnel
+~
+~
+0 -1 5272
+D3
+
+   ./.  ":"   ><   !!!
+     |___|    ||   +++       
+              ^^   |||
+      
+~
+~
+0 0 0
+S
+#5265
+On the Sphinx~
+You are walking precariously around a very thin path on the sphinx. The 
+wind that blows off the sandy desert makes you feel extremely unsafe as
+you try and walk around the sphinx. It seems to be that strong that with one
+wrong step you could go falling down into the sandstone courtyard bellow 
+you. To your north you see the top of the large ladder and the precarious
+path continues to your east.
+~
+52 0 1
+D0
+Looking north you see the top of the ladder
+~
+~
+0 -1 5261
+D1
+Looking east you see notice that the wind doesn't blow as strongly
+~
+~
+0 -1 5266
+S
+#5266
+On the sphinx~
+You are standing towards the back of the sphinx where the howling desert 
+winds do not seem to be as strong. Although the path around the sphinx is
+still extremely dangerous you do not feel as if you are about to fall off
+at any minute. You can no longer see the sandstone courtyard from here as you
+are now facing the large mountains that are surrounding this deserted city.
+~
+52 0 1
+D2
+Looking south you see the back of the sphinx
+~
+~
+0 -1 5269
+D3
+Looking west you see the sandstone courtyard and the wind howling around 
+the sphinx
+~
+~
+0 -1 5265
+S
+#5267
+On the sphinx~
+You are standing towards the back of the sphinx where the howling desert 
+winds do not seem to be as strong. Although the path around the sphinx is
+still extremely dangerous you do not feel as if you are about to fall off
+at any minute. You can no longer see the sandstone courtyard from here as you
+are now facing the large mountains that are surrounding this deserted city.
+~
+52 0 1
+D1
+Looking east you see the precarious path around the sphinx
+~
+~
+0 -1 5268
+D2
+Looking south you see the back of the sphinx
+~
+~
+0 -1 5271
+S
+#5268
+On the sphinx~
+You are standing towards the back of the sphinx where the howling desert 
+winds do not seem to be as strong. Although the path around the sphinx is
+still extremely dangerous you do not feel as if you are about to fall off
+at any minute. You can no longer see the sandstone courtyard from here as you
+are now facing the large mountains that are surrounding this deserted city.
+~ 
+52 0 1
+D0
+Looking north you see the sandstone courtyard and the precarious path
+~
+~
+0 -1 5263
+D3
+Looking west you see the path around the sphinx widen slightly
+~
+~
+0 -1 5267
+S
+#5269
+Back of the sphinx~
+You are walking along the back of the sphinx where the path is much wider.
+This is probably due to the lack of wind that has probably caused a great 
+deal of erosion over the years. In the distance to your south you see large
+mountains that surround the deserted city. As you look up you seem to be 
+extremely close to the white clouds and it appears that you can almost 
+reach out and touch them. The path continues to your north and to your east.
+~
+52 0 1
+D0
+Looking north you see the path leading toward the front of the sphinx
+~
+~
+0 -1 5266
+D1
+Looking east you see the back of the sphinx
+~
+~
+0 -1 5270
+S
+#5270
+Back of the sphinx~
+You are standing in the center-back of the sphinx where there is no 
+howling winds and the view is absolutelt amazing. As you look out to your 
+south you see the majestic mountains that surround this deserted city. 
+However the most spectacular view is the view you have up.  The white, 
+silver lined clouds that float just above your reach look as if they are
+actually made of a solid substance that you could walk apon. The only 
+problem is they are just out of your reach.
+~ 
+52 0 1
+D1
+Looking east you see the path around the back of the sphinx
+~
+~
+0 -1 5271
+D3
+Looking west you see the path around the back of the sphinx
+~
+~
+0 -1 5269
+S
+#5271
+Back of the sphinx~
+You are walking along the back of the sphinx where the path is much wider.
+This is probably due to the lack of wind that has probably caused a great 
+deal of erosion over the years. In the distance to your south you see large
+mountains that surround the deserted city. As you look up you seem to be 
+extremely close to the white clouds and it appears that you can almost 
+reach out and touch them. The path continues to your north and to your west.
+~
+52 0 0
+D0
+Looking north you see the path leading toward the center of the sphinx
+~
+~
+0 -1 5267
+D3
+Looking west you see the back of the sphinx
+~
+~
+0 -1 5270
+S
+#5272
+Sandstone tunnel~
+You are walking along a long sandstone tunnel that has a cool breeze 
+coming from the north. To your south you see a bend in the tunnel and on 
+the walls that surround you to your west and east there are strange 
+symbols that look like they could possibly be writting. Although you have 
+no idea what they actually say.
+~ 
+52 8 0 
+D0
+In the distance to your north you see a bubbling spring
+~
+~
+0 -1 5264
+D1
+
+       |||      +++      ****
+      ^^^^^     !|!      |  |
+~
+~
+0 0 0
+D2
+Looking south you see a bend in the sandstone tunnel
+~
+~
+0 -1 5279
+D3
+
+       |||      +++      ****
+      ^^^^^     !|!      |  |
+~
+~
+0 0 0
+S
+#5273
+Sandstone tunnel~
+You are standing in the entrance to the sandstone tunnel within the large
+sphinx. Directly to your north you can see a large cavern and the tunnel 
+continues to your  east. The air in the tunnel is slightly damp and it has
+a strange musty smell to it. There is a slight breeze blowing from the east
+of the tunnel and the walls that surround you on the south and the west are
+slightly wet and slimy. 
+~
+52 8 0
+D0
+Looking north you see the large cavern
+~
+~
+0 -1 5262
+D1
+As you look east you see the sandstone tunnel stretching ahead
+~
+~
+0 -1 5274
+S
+#5274
+Sandstone tunnel~
+You are standing in a split in the sandstone tunnel and to your south
+you see what appears to be a lighter section heading towards a cool, fresh
+breeze. There is also a cool breeze coming from the east, however it doesn't
+have the freshness of the breeze you feel on your face coming from the south.
+The light also appears brighter to your south than it does to your east.
+~
+52 8 0
+D1
+Looking east you see the sandstone tunnel
+~
+~
+0 -1 5275
+D2
+As you look to your south you see a bright tunnel
+~
+~
+0 -1 5281
+D3
+Looking west you see a turn in the sandstone tunnel
+~
+~
+0 -1 5273
+S
+#5275
+Sandstone tunnel~
+As you walk along the sandstone tunnel you feel a cool breeze coming from 
+both your east and your west. This section of the tunnel has a strange 
+damp, musty smell to it and you wonder what lies to your east where the 
+smell seems to be even stronger. As you look to your west you see a split
+in the sandstone tunnel, leading off into a brighter tunnel.
+~ 
+52 8 0
+D1
+Looking east you see the sandstone tunnel
+~
+~
+0 -1 5276
+D3
+Looking west you see a split in the sandstone tunnel
+~
+~
+0 -1 5274
+S
+#5276
+Sandstone tunnel~
+As you walk along the cool sandstone tunnel you feel a cool breese coming 
+from the east. There is a strange musty dampness that lies heavily
+in the air of this tunnel yet you do not feel fearful of what lies ahead 
+as there is a strange calmness in this place. There are strange markings on 
+the sandstone walls that surround you on your north and south and you 
+wonder if they are actually writtings. 
+~
+52 8 0
+D0
+
+                    ^^^^^         :------:
+                    !   !         <,,,,,,>
+~
+~
+0 0 0
+D1
+~
+~
+0 -1 5277
+D2
+
+                    ^^^^^         :------:
+                    !   !         <,,,,,,>
+~
+~
+0 0 0
+D3
+~
+~
+0 -1 5275
+S
+#5277
+Sandstone tunnel~
+As you walk along the sandstone tunnel you feel a cool breeze coming from the
+small sandstone step above you. To your west there is a split in the path 
+where you felt and even cooler breeze and saw a beautiful golden light.
+However the whole of the inside of the sphinx has a calming, tranquil air
+to it and you feel very little fear in here. On the sandstone walls that 
+surround you you notice strange marking that look like they could be some
+kind of writting. 
+~
+52 8 0
+D3
+Looking west you see that there is a split in the path in the distance
+~
+~
+0 -1 5276
+D4
+As you look up the sandstone step you feel a cool breeze on your face
+~
+~
+0 -1 5278
+S
+#5278
+Sandstone tunnel~
+As you walk along the sandstone tunnel you feel a cool breeze coming from 
+both your east and your west. This section of the tunnel has a strange 
+damp, musty smell to it and you wonder what lies to your east where the 
+smell seems to be even stronger. As you look to your west you see a small 
+sandstone step leads down and looking to your east you can see a bend in 
+the tunnel. 
+~ 
+52 8 0
+D1
+Looking east you see a bend in the sandstone tunnel
+~
+~
+0 -1 5279
+D5
+Looking down you see the small sandstone step and the tunnel then leading
+west
+~
+~
+0 -1 5277
+S
+#5279
+Sandstone tunnel~
+You are standing at a bend in the sandstone tunnel. You feel a cool, damp 
+breeze coming from the north and in the distance and as you look towards the
+north you see a bubbling spring in the distance. on the sandstone walls 
+that surround you there are strange carvings that look like they could be 
+writtings as you look at the wall to the south you try hard to make out
+what they say, but it is impossible for you to understand.
+~ 
+52 8 0 
+D0
+As you look to your north you see a bubbling stream at the end of the tunnel
+~
+~
+0 -1 5272
+D3
+Looking to your west you see the small steps leading down to a split in the
+tunnel
+~
+~
+0 -1 5278
+S
+#5280
+Bright tunnel~
+You are standing at a bend in the bright tunnel. A golden light surrounds you
+and shines of the sandstone walls making them look as if they are painted in
+gold. There is a calming cool breeze coming from the south where the light
+appears to be even brighter. To your east is the entrance to the bright 
+tunnel that leads towards the sandstone tunnels within the great sphinx. 
+~
+52 8 0
+D1
+Looking east you see the entrance to the bright tunnel
+~
+~
+0 -1 5281
+D2
+As you look south into the bright light you sense a great goodness lied ahead
+~
+~
+0 -1 5282
+S
+#5281
+Entrance Bright tunnel~
+You are standing in the entrance to the bright tunnel. Here a beautiful 
+golden light bathes you and there is a calming cool breeze coming from your
+west. To your north you can see the sandstone tunnel withing the great 
+sphinx. You sense a tremendous goodness about this place and you feel 
+extremely safe here. 
+~ 
+52 8 0
+D0
+Looking to your north you see the sandstone tunnel
+~
+~
+0 -1 5274
+D3
+As you look to the west the golden light nearly blinds you
+~
+~
+0 -1 5280
+S
+#5282
+Bright Tunnel~
+The split in this bright tunnel offers you three directions to travel. 
+There is a small diamond step that leads upwards towards what
+appears to be a slightly less bright part of the tunnel or you can travel 
+north and south along the brighter section of the tunnel. You feel the cool
+breeze blowing onto your face from the south and to your north you can see
+a bend in the tunnel that leads back toward the sandstone tunnel.
+~
+52 8 0
+D0
+Looking north you see a bend in the tunnel
+~
+~
+0 -1 5280
+D2
+To your south you see several strange creatures flying through the tunnel
+~
+~
+0 -1 5286
+D4
+Looking up you see a beautiful diamond step 
+~
+~
+0 -1 5283
+S
+#5283
+Bright tunnel~
+At your feel is a beautiful diamond step that is set solidly into the 
+sandstone that surrounds it. As you look closely you realise that it is
+actually a read diamond and you marvel at the size of it. The golden 
+light looks a little dimmer to your east but it still makes the sandstone
+walls look as if the have been painted in gold.
+~ 
+52 8 0 
+D1
+Looking east you see a bend in the bright tunnel
+~
+~
+0 -1 5284
+D5
+As you look down you notice that you are able to see through the diamond step
+and it appears as if you are now floating above the sphinx
+~
+~
+0 -1 5282
+S
+#5284
+Bright tunnel~
+You are standing at a bend in the bright tunnel. A golden light surrounds you
+and shines of the sandstone walls making them look as if they are painted in
+gold. To your west you see that the tunnel reaches a dead end, however as 
+you look more closesly you see millions of large and precious stones 
+scattered on the floor there. 
+~ 
+52 8 0
+D2
+Looking south you see the bright tunnel leads downwards
+~
+~
+0 -1 5285
+D3
+You see the tunnel ends to your west
+~
+~
+0 -1 5283
+S
+#5285
+Bright tunnel~
+You are standing at the end of the bright tunnel. All around you lie millions
+of precious and rare stone that have been left here with reckless abandon.
+You wonder why nobody has pinced these copious amounts of valuable items.
+There must be some extremely strange reason why they lie here untouched.
+As you look down at the stones scattered at you feet you notice a large
+diamond. This is by far the biggest stone you have ever seen and as you take
+a close look you think about moving it aside to see what lies beneath it.
+~
+52 8 0
+D0
+Looking north you see a bend in the bright tunnel
+~
+~
+0 -1 5284
+D5
+As you look down you see a large diamond covering a hole in the ground
+~
+diamond~
+1 -1 5287
+E
+diamond stone stones~
+As you look down you see a particularly large diamond that looks like
+it is incredibly rare and precious. Not only do you see this large diamond
+but there are also many other rare and precious stones lying on the floor as
+if nobody particarly cares for them.
+~
+S
+#5286
+Bright Tunnel~
+You are standing at the end of a bright tunnel. At your feet is a large 
+diamond step and above you is a white billowing cloud. You realise now why
+it was impossible to see the top of the sphinx when you were in the sandstone
+courtyard and on the outer wall. The sphinx actually joins up with the 
+billowing white clouds above it. This is one of the most amazing places 
+you have ever seen. 
+~ 
+52 12 0
+D0
+Looking to your north you see the bright tunnel
+~
+~
+0 -1 5282
+D4
+As you look up you see the what billowing clouds above you
+~
+~
+0 -1 5290
+S
+#5287
+Diamond Crypt~
+You are standing in a diamond crypt where millions and millions of rare 
+and  precious stones lie scattered at your feet. This is a place of extreme
+wealth and beauty but there is also a hideous Crypt Thing guarding the gems.
+This explains why none of the stones have been taken and you realise you 
+mistake in walking in here immediately. 
+~
+52 12 0
+D4
+Looking up you see a large diamond 
+~
+diamond~
+1 -1 5285
+S
+#5288
+On the Purple Cloud~
+As you fly over a large purple cloud you notice the amazing colours that 
+surround you. You can see clouds of violet,silver,pink,blue,orange and just
+about every colour of the rainbow. You also notice a small hole in the 
+cloud above you which you can fly up through.
+~
+52 32 9
+D1
+Looking to your east you see a violet cloud
+~
+~
+0 -1 5289
+D4
+Looking up you see a hole in the cloud which you can fly through
+~
+~
+0 -1 5293
+S
+#5289
+On the Violet Cloud~
+You are floating above a large violet cloud. There is a beautiful golden
+light that shines brightly all around and you notice that it also has a 
+serene effect on you.  As you look around this cloud you notice that there
+is a darker cloud to your west and to your east lies a white cloud with a 
+diamond step in the middle of it. 
+~
+52 32 9
+D1
+As you look east you see a white billowing cloud
+~
+~
+0 -1 5290
+D3
+There is a large birdman flying past over the purple cloud
+~
+~
+0 -1 5288
+S
+#5290
+On the White Cloud~
+You are standing on the top of the clouds. There is a large diamond step
+at your feet that leads down toward the bright tunnel. You now realise why
+you were unable to see the top of the great sphinx from the sandstone 
+courtyard as it actually joins in with the clouds. The colours of these 
+clouds are also amazing, to your east you see a white cloud and to your 
+west is a large violet cloud. 
+~ 
+52 32 9
+D1
+To your east the large white cloud continues
+~
+~
+0 -1 5291
+D3
+Looking west you see a unusual creature flying by
+~
+~
+0 -1 5289
+D5
+You see a large diamond step leading down toward the bright tunnel
+~
+~
+0 -1 5286
+S
+#5291
+On the White Cloud~
+There is a beautiful golden light that seems to shine brightly over these
+clouds and you are amazed by the tranquility you feel up here in the sky.
+You also feel extremely safe here as if this could actually be heaven, though
+you are certain it isn't because you  think you are dead. As you 
+look around you see that this is a fairly large white cloud that 
+continues to your east and west.
+~ 
+52 32 9
+D1
+As you look to the east you see the entrance to the white clouds
+~
+~
+0 -1 5292
+D3
+~
+~
+0 -1 5290
+S
+#5292
+On the White Cloud~
+You are flying over the billowing white clouds high above the large sphinx.
+To your south you can see the edge of the cloud where you get a magnificent
+view of the mountains that surround the deserted city. As you look around 
+you you also notice that these clouds are filled with strange flying 
+creatures who have magnificent wings that span over twenty feet. 
+~ 
+52 32 9
+D2
+On the edge of the clouds you see serveral large birdmen flying around
+~
+~
+0 -1 5294
+D3
+You see the white billowing clouds leading towards the entrance
+~
+~
+0 -1 5291
+S
+#5293
+Rising up through a Cloud~
+You are flying up through a hole in the clouds. Looking upwards you see that
+there is a large indigo coloured cloud at the top. Looking downwards you see
+a large purple cloud. There is a golden light shinning through the hole 
+in the top of the clouds that covers you with a magical glow. You think you
+may be well over one hundred and fifty feet above the ground here if not 
+higher. 
+~
+52 32 9
+D4
+As you look up through the whole in the cloud you see and indigo coloured
+cloud at the top
+~
+~
+0 -1 5295
+D5
+Looking down you see a large birdman flying around on the purple cloud
+~
+~
+0 -1 5288
+S
+#5294
+On the Cloud's Edge~
+You are flying over the cloud's edge where you can see the large 
+mountains to your east. The view you receive from the edge of the cloud's 
+is breathtaking. The mountains are bathed in the mysterious golden light
+and as you look down you can see the top of the large sphinx and the 
+sandstone courtyard far below you. Around you fly the large magnificent 
+birdmen and the strange, kindly looking devas. 
+~
+52 32 9
+D0
+Looking to the north you see the white billowing clouds
+~
+~
+0 -1 5292
+D2
+Looking to the south you see the edge of the clouds
+~
+~
+0 -1 5296
+S
+#5295
+Rising up through a Cloud~
+You are flying up through a hole in the clouds. Looking upwards you see that
+there is a large indigo coloured cloud at the top. Looking downwards you see
+a large purple cloud. There is a golden light shinning through the hole 
+in the top of the clouds that covers you with a magical glow. You think you
+may be well over one hundred and fifty feet above the ground here if not 
+higher. 
+~
+52 32 9
+D4
+As you look up through the whole in the cloud you see and indigo coloured
+cloud at the top
+~
+~
+0 -1 5299
+D5
+Looking down you see a large birdman flying around on the purple cloud
+~
+~
+0 -1 5293
+S
+#5296
+On the Cloud's Edge~
+You are flying over the cloud's edge where you can see the large 
+mountains to your east. The view you receive from the edge of the cloud's 
+is breathtaking. The mountains are bathed in the mysterious golden light
+and as you look down you can see the top of the large sphinx and the 
+sandstone courtyard far below you. Around you fly the large magnificent 
+birdmen and the strange, kindly looking devas. 
+~
+52 32 9
+D0
+Looking to the north you see the edge of the clouds
+~
+~
+0 -1 5294
+S
+#5297
+On the Indigo Cloud~
+You are flying over a large indigo cloud that lies amonst a multitude of 
+coloured clouds. The air here is extremely peaceful and you notice that
+you are unable to hear any of the hustle and bustle that is happening on
+the ground bellow you. The still silence that hangs in the air is strangely
+calming and you feel extremely safe in these clouds. If you fly to your south
+you can see the edge of the mountain from there and to your east you see the
+indigo coloured cloud continues.
+~
+52 32 9
+D1
+You see a strange birdman flying past
+~
+~
+0 -1 5298
+D2
+On the edge of the clouds
+~
+~
+0 -1 5302
+S
+#5298
+On the Indigo Cloud~
+The clouds you are flying over all all bathed in a strange golden light, 
+that  gives them a strange luminous quality. This makes you think that there
+is a powerful godly presence somewhere in these multitude of billowing 
+colours. There is also a quite, peacful presence about this place and the 
+strange creatures you see flying around are kindly toward all those who 
+are good themselves. 
+~ 
+52 32 9
+D1
+Looking north you see a large hole in the indigo cloud
+~
+~
+0 -1 5299
+D3
+To your west there is a small deva flying around the indigo cloud
+~
+~
+0 -1 5297
+S
+#5299
+On the Indigo Cloud~
+You are flying over a hole in the indigo cloud that leads downwards toward
+a large purple cloud. To your east and west you notice the indigo cloud 
+continues and that many strange and wonderous creatures are flying over these
+clouds. The multitude of colours that assault your eyes makes you feel 
+like you are in a word made up kaleidoscope patterns that billow  past 
+you without rhyme or reason. Yet the beauty is so impressionable that you 
+know you will never forget this place. 
+~ 
+52 32 9
+D1
+To your east there is a small deva flying around the indigo cloud
+~
+~
+0 -1 5300
+D3
+As you look to your west you see a small birdchild flying past
+~
+~
+0 -1 5298
+D5
+As you look down you see the purple cloud over fifty feet below
+~
+~
+0 -1 5295
+S
+#5300
+On the Indigo Cloud~
+The clouds you are flying over all all bathed in a strange golden light, 
+that  gives them a strange luminous quality. This makes you think that there
+is a powerful godly presence somewhere in these multitude of billowing 
+colours. There is also a quite, peacful presence about this place and the 
+strange creatures you see flying around are kindly toward all those who 
+are good themselves. 
+~
+52 32 9
+D1
+As you look to your east you see a small birdchild flying past
+~
+~
+0 -1 5301
+D3
+Looking west you see the edge of the indigo cloud
+~
+~
+0 -1 5299
+S
+#5301
+On the Indigo Cloud~
+You are flying over a large indigo cloud that lies amonst a multitude of 
+coloured clouds. The air here is extremely peaceful and you notice that
+you are unable to hear any of the hustle and bustle that is happening on
+the ground bellow you. The still silence that hangs in the air is strangely
+calming and you feel extremely safe in these clouds. If you fly up 
+through the large hole in the cloud you will reach a smaller pink cloud.
+~
+52 32 9
+D3
+As you look to your west you see a small birdchild flying past
+~
+~
+0 -1 5300
+D4
+Looking up you notice a small pink cloud
+~
+~
+0 -1 5307
+S
+#5302
+On the Cloud's edge~
+You are flying over the cloud's edge where you can see the large 
+mountains to your west. The view you receive from the edge of the cloud's 
+is breathtaking. The mountains are bathed in the mysterious golden light
+and as you look down you can see the top of the large sphinx and the 
+sandstone courtyard far below you. Around you fly the large magnificent 
+birdmen and the strange, kindly looking devas. To your north you can see
+the large indigo cloud and to your east the cloud's edge follows the side
+of the moutain.
+~
+52 32 9
+D0
+Looking north you see the large indigo cloud covered in a golden light
+~
+~
+0 -1 5297
+D1
+As you look to your east you see how close the cloud is to the mountain side
+~
+~
+0 -1 5303
+S
+#5303
+On the Cloud's Edge~
+As you fly over the cloud's edge you realise how close to the mountain's 
+peak's you are now at. You had no idea how high you had actually flown 
+and you are now nearly to the top of this great moutain that had surrounded
+the deserted city. As you look over the edge of the cloud you can see the 
+blades of grass and small wildflowers growing on the side of the mountain 
+and you feel like you could stretch out and touch them. 
+~ 
+52 32 9
+D1
+Looking east you see the cloud's edge is so close to the moutain
+~
+~
+0 -1 5304
+D3
+Looking west you see a small deva flying over the cloud
+~
+~
+0 -1 5302
+S
+#5304
+On the Cloud's Edge~
+You are flying over the cloud's edge where you can see the large 
+mountains to your west. The view you receive from the edge of the cloud's 
+is breathtaking. The mountains are bathed in the mysterious golden light
+and as you look down you can see the top of the large sphinx and the 
+sandstone courtyard far below you. Around you fly the large magnificent 
+birdmen and the strange, kindly looking devas. 
+~
+52 32 9
+D1
+Looking east you see the cloud's edge close to a small birdwoman
+~
+~
+0 -1 5305
+D3
+Looking west you see the mountain is very close to the cloud
+~
+~
+0 -1 5303
+S
+#5305
+On the Cloud's Edge~
+As you fly over the cloud's edge you realise how close to the mountain's 
+peak's you are now at. You had no idea how high you had actually flown 
+and you are now nearly to the top of this great moutain that had surrounded
+the deserted city. As you look over the edge of the cloud you can see the 
+blades of grass and small wildflowers growing on the side of the mountain 
+and you feel like you could stretch out and touch them. Looking to your 
+east you see the the cloud's edge is about two feet away from the 
+mountain and you could probably jump off the cloud from there and onto 
+the mountain
+~ 
+52 32 9
+D1
+Looking east you see the cloud practically touches the mountain
+~
+~
+0 -1 5306
+D3
+Looking to the west you see a small birdwoman
+~
+~
+0 -1 5304
+S
+#5306
+On the Cloud's Edge~
+You are flying over the very end of the cloud's edge. From here you are 
+actually about two feet away from the mountain and if you wanted you could
+probably jump onto the mountain from here. You can see every blade of 
+grass and wild flower clearly from where you are and as you look down you
+realise that you are over three hundred feet above the ground. You decide
+not to risk jumping off the cloud as if you missed the mountain you have
+an awfully long way to fall.
+~
+52 32 9
+D3
+To your west you see the cloud's edge
+~
+~
+0 -1 5305
+S
+#5307
+On a small Pink Cloud~
+As you fly over a small pink cloud you notice a cool breeze blowing from
+the south. Looking down through the pink cloud you see a larger indigo 
+coloured cloud below you. Looking to your south you see a billowing blue 
+cloud that runs along the side of the mountain from east to west. As you 
+float over this small pink cloud the breeze blowing from the south cools 
+your face and makes you feel refreshed. 
+~ 
+52 32 9
+D2
+Looking south you see a billowing blue cloud
+~
+~
+0 -1 5308
+D5
+As you peer down through the pink cloud you see the larger indigo cloud below
+you
+~
+~
+0 -1 5301
+S
+#5308
+A billowing Blue Cloud~
+The large billowing blue cloud spans the full length of the large mountain
+from east to west. To your north you can see a small pink cloud and to 
+the south lies small yellow cloud that leads up toward a large silver lined
+cloud. Around you fly many strange creatures who's wings are covered with
+bright and colourful plumage.
+~
+52 32 9
+D0
+Looking north you see small pink cloud
+~
+~
+0 -1 5307
+D1
+As you look east you see the billowing blue cloud covering the mountain's 
+peaks 
+~
+~
+0 -1 5309
+D2
+Looking south you see a small yellow cloud
+~
+~
+0 -1 5315
+S
+#5309
+A billowing Blue Cloud~
+This large billowing blue cloud covers the majority of the top of the 
+mountain from east to west. There are many young and old Birdmen and devas
+flying around in this section of the clouds and you also notice that they 
+seem to have a strong aura of kindness around them. 
+~
+52 32 9
+D1
+Looking to your east you see the blud cloud stretching for miles
+~
+~
+0 -1 5310
+D3
+Looking to your west you see the end of the blue cloud
+~
+~
+0 -1 5308
+S
+#5310
+A billowing Blue Cloud~
+You are flying over a large blue cloud that seems to cover the majority 
+of the large mountain. From where you are visibility is rather difficult
+because these blue cloud's are extremely dense. The breeze that blows off the
+mountain is rather cool and it makes the clouds that surround you look 
+like a sea of blue waves.
+~
+52 32 9
+D1
+Looking to your east you see the blud cloud stretching for miles
+~
+~
+0 -1 5311
+D3
+Looking to your west you see the blud cloud stretching for miles
+~
+~
+0 -1 5309
+S
+#5311
+A billowing Blue Cloud~
+As you fly over the billowing clouds you notice that to your south there 
+is a smaller yellow cloud that has a large hole in it that leads upward 
+into a silver lined cloud. As you look around the billowing blue cloud
+you see the calming golden light that you have been noticing thoughout
+your trip through these array of coloured clouds, is extremely bright here.
+You are beginning to wonder where this light sorce is actually coming from.
+~
+52 32 9
+D1
+Looking to your east you see the blud cloud stretching for miles
+~
+~
+0 -1 5312
+D2
+Looking south you see a small yellow cloud
+~
+~
+0 -1 5316
+D3
+Looking to your west you see the blud cloud stretching for miles
+~
+~
+0 -1 5310
+S
+#5312
+A billowing Blue Cloud~
+This large billowing blue cloud covers the majority of the top of the 
+mountain from east to west. There are many young and old Birdmen and devas
+flying around in this section of the clouds and you also notice that they 
+seem to have a strong aura of kindness around them. 
+~
+52 32 9
+D1
+Looking to your east you see the blud cloud stretching for miles
+~
+~
+0 -1 5313
+D3
+Looking to your west you see the blud cloud stretching for miles
+~
+~
+0 -1 5311
+S
+#5313
+A billowing Blue Cloud~
+You are flying over a large blue cloud that seems to cover the majority 
+of the large mountain. From where you are visibility is rather difficult
+because these blue cloud's are extremely dense. The breeze that blows off the
+mountain is rather cool and it makes the clouds that surround you look 
+like a sea of blue waves.
+~
+52 32 9
+D1
+Looking to your east you see the blud cloud stretching for miles
+~
+~
+0 -1 5314
+D3
+Looking to your west you see the blud cloud stretching for miles
+~
+~
+0 -1 5312
+S
+#5314
+A billowing Blue Cloud~
+As you look around the billowing blue cloud
+you see the calming golden light that you have been noticing thoughout
+your trip through these array of coloured clouds. It is extremely bright 
+here and you are beginning to wonder where this light sorce is actually 
+coming from. As you look to your south you see a small yellow cloud that 
+has a large hole in it leading toward another larger cloud.
+~
+52 32 9
+D2
+Looking to your south you see a small yellow cloud
+~
+~
+0 -1 5317
+D3
+Looking to your west you see the blud cloud stretching for miles
+~
+~
+0 -1 5313
+S
+#5315
+A small Yellow Cloud~
+As you fly over a small yellow cloud that has a distinct golden glow to it
+you see a large hole leading upwards toward a larger silver lined cloud.
+Looking north you can see a billowing blue cloud that covers most of the 
+mountain's peaks. You feel a cool breeze coming from the hole in the top 
+of the yellow cloud and you realise that this is the way towards the top of
+the clouds.
+~
+52 32 9
+D0
+Looking to the north you see a large billowing blue cloud
+~
+~
+0 -1 5308
+D4
+Looking up you see a large silver lined cloud
+~
+~
+0 -1 5318
+S
+#5316
+A small Yellow Cloud~
+As you fly over a small yellow cloud that has a distinct golden glow to it
+you see a large hole leading upwards toward a larger silver lined cloud.
+Looking north you can see a billowing blue cloud that covers most of the 
+mountain's peaks. You feel a cool breeze coming from the hole in the top 
+of the yellow cloud and you realise that this is the way towards the top of
+the clouds.
+~
+52 32 9
+D0
+Looking to the north you see a large billowing blue cloud
+~
+~
+0 -1 5311
+D4
+Looking up you see a large silver lined cloud
+~
+~
+0 -1 5319
+S
+#5317
+A small Yellow Cloud~
+As you fly over a small yellow cloud that has a distinct golden glow to it
+you see a large hole leading upwards toward a larger white and blue lined 
+cloud. Here you sense the presence of a great goodness and you wonder who
+resides on this cloud. Looking north you can see a billowing blue cloud 
+that covers most of the  mountain's peaks. You feel a cool breeze coming 
+from the hole in the top of the yellow cloud and you realise that this is 
+the way towards what may be a god.
+~
+52 32 9
+D0
+As you look to your north you see the billowing blue cloud
+~
+~
+0 -1 5314
+D4
+Looking up you see a large white and blue lines cloud
+~
+~
+0 -1 5320
+S
+#5318
+On a Silver lined Cloud~
+You are flying over a beautiful silver lined cloud that seems to stretch out
+for miles. The golden light reflects off the silver within the cloud, 
+nearly blinding you. Around you, on these clouds, there are a number of 
+strange flying creatures who all look nearly angelic with their large 
+wings and kind faces. From where you float you can also look down through 
+a hole in the clouds and see a smaller yellow cloud below. 
+~
+52 32 9
+D2
+As you look to the south you see a silver lines cloud
+~
+~
+0 -1 5324
+D5
+Looking down through the hole in the silver lined cloud you see a small 
+yellow cloud below 
+~
+~
+0 -1 5315
+S
+#5319
+On a Silver lined Cloud~
+You are flying over a beautiful silver lined cloud that seems to stretch out
+for miles. The golden light reflects off the silver within the cloud, 
+nearly blinding you. Around you, on these clouds, there are a number of 
+strange flying creatures who all look nearly angelic with their large 
+wings and kind faces. From where you float you can also look down through 
+a hole in the clouds and see a smaller yellow cloud below. 
+~
+52 32 9
+D2
+As you look to the south you see a silver lines cloud
+~
+~
+0 -1 5326
+D5
+Looking down through the hole in the silver lined cloud you see a small 
+yellow cloud below 
+~
+~
+0 -1 5316
+S
+#5320
+On a Blue and White lined cloud~
+You are floating above a large blue and white cloud. Looking down you can 
+see a small yellow cloud. Standing nearby is a large Dragon Horse who's 
+one of the most magnificent creatures you have ever seen. This is an 
+extremely rare and kindly beast. You have been extremely lucky in finding 
+one as there exsist very few in the world and they often shy away from 
+human contact. 
+~ 
+52 32 9
+D5
+Looking down through the hole in the cloud you see a small  yellow cloud 
+below 
+~
+~
+0 -1 5317
+S
+#5321
+On a Silver lined Cloud~
+You are flying over the end of a silver lined cloud and to your south you 
+can see the cloud's edge that runs along the top of the mountain's peaks.
+The Silver lined cloud lies further along the length of the mountain to your
+east and you feel a refreshing cool breeze flowing from both these 
+directions.  Looking around at the magnificent view you have you also are 
+aware of the many strange and wonderous creatures who inhabit these clouds. 
+~
+52 32 9
+D1
+Looking east you see the silver lined cloud stretching around the mountain
+~
+~
+0 -1 5322
+D2
+Looking south you  the edge of the clouds
+~
+~
+0 -1 5329
+S
+#5322
+On a Silver lined Cloud~
+Flying over this large Silver lined cloud you notice how intense the golden
+light is in this high section of the clouds. You must be well over three 
+hundred feet above sea level here and you are aware of how quiet it is up
+here, away from the hustle and bustle of things on the ground. You feel 
+like you could be in heaven, because this is certainly a heavenly place. 
+Yet you know you are still alive so it couldn't be heaven really. To your 
+east and west you see the Silver lined cloud stretching across the length
+of the moutain. 
+~ 
+52 32 9 
+D1
+Looking to your east you see a large hole leading upwards in the silver lined
+cloud
+~
+~
+0 -1 5323
+D3
+To your west you see the edge of the cloud
+~
+~
+0 -1 5321
+S
+#5323
+On a Silver lined Cloud~
+As you fly over the Silver lined cloud you notice a large hole leading 
+upwards through the cloud. There is a stronger breeze coming from this
+direction and the golden light is a lot brighter up through this hole.
+You also sense a good presense, possibly that of a great god, coming from
+above, and you wonder who or what it is. 
+~
+52 32 9
+D1
+Flying past you are many strange and wonderous creatures
+~
+~
+0 -1 5324
+D3
+Flying past you are many strange and wonderous creatures
+~
+~
+0 -1 5322
+D4
+Looking up you see a hole in to cloud
+~
+~
+0 -1 5335
+S
+#5324
+On a Silver lined Cloud~
+As you float above a large Silver lined cloud you marvel at the spectacular
+view that surrounds you. Millions of large colourful clouds unlike any 
+you have ever seen from the ground before, the unusual golden light that 
+creates a strange and magical glow to the clouds and the unusual 
+creatures that fly around in these clouds with their large wings 
+outstretched and covering over twenty feet in width.
+~ 
+52 32 9
+D0
+To your north lies a large hole in the silver lined cloud
+~
+~
+0 -1 5318
+D1
+Looking east you see the silver lined cloud stretching around the mountain
+~
+~
+0 -1 5325
+D3
+Looking west you see the silver lined cloud stretching around the mountain
+~
+~
+0 -1 5323
+S
+#5325
+On a Silver lined Cloud~
+Flying over this large Silver lined cloud you notice how intense the golden
+light is in this high section of the clouds. You must be well over three 
+hundred feet above sea level here and you are aware of how quiet it is up
+here, away from the hustle and bustle of things on the ground. You feel 
+like you could be in heaven, because this is certainly a heavenly place. 
+Yet you know you are still alive so it couldn't be heaven really. To your 
+east and west you see the Silver lined cloud stretching across the length
+of the moutain. 
+~
+52 32 9
+D1
+Looking to your east you see the silver lined cloud stretching for miles
+around the length of the mountain
+~
+~
+0 -1 5326
+D3
+Looking to your west you see a the silver lined cloud has a slight turn 
+in it.
+~
+~
+0 -1 5324
+S
+#5326
+On a Silver lined Cloud~
+As you float above a large Silver lined cloud you marvel at the spectacular
+view that surrounds you. Millions of large colourful clouds unlike any 
+you have ever seen from the ground before, the unusual golden light that 
+creates a strange and magical glow to the clouds and the unusual 
+creatures that fly around in these clouds with their large wings 
+outstretched and covering over twenty feet in width.
+~
+52 32 9
+D0
+To your north lies a large hole in the silver lined cloud
+~
+~
+0 -1 5319
+D1
+Looking to your east you see the silver lined cloud stretching for miles
+around the length of the mountain
+~
+~
+0 -1 5327
+D3
+Looking to your west you see a the silver lined cloud has a hole leading
+upwards
+~
+~
+0 -1 5325
+S
+#5327
+On a Silver lined Cloud~
+As you fly over the silver lined cloud you see a large hole that leads 
+towards  a smaller orange and gold cloud. There is a beautiful golden 
+light coming from this hole and you wonder what the strange glow is 
+coming from. The silver lined cloud continues to your east and west and 
+as you look to your east you realise that you are nearing the end of this
+large cloud.
+~
+52 32 9
+D1
+As you look east you see the end of the silver lined cloud
+~
+~
+0 -1 5328
+D3
+Looking to your west you see the silver lined cloud stretching for miles
+around the length of the mountain
+~
+~
+0 -1 5326
+D4
+Looking up you see a beautiful orange and gold cloud
+~
+~
+0 -1 5331
+S
+#5328
+On a Silver lined Cloud~
+You are flying over the end of a silver lined cloud and to your south you 
+can see the cloud's edge that runs along the top of the mountain's peaks.
+The Silver lined cloud lies further along the length of the mountain to your
+west and you feel a refreshing cool breeze flowing from both these 
+directions.  Looking around at the magnificent view you have you also are 
+aware of the many strange and wonderous creatures who inhabit these clouds. 
+~
+52 32 9
+D2
+Looking south you see the cloud's edge
+~
+~
+0 -1 5330
+D3
+Looking to your west you see the silver lined cloud stretching for miles
+around the length of the mountain
+~
+~
+0 -1 5327
+S
+#5329
+On the Cloud's Edge~
+You are flying over the cloud's edge where you can see the large 
+mountains to your east. The view you receive from the edge of the cloud's 
+is breathtaking. The mountains are bathed in the mysterious golden light
+and as you look down you can see the top of the large sphinx and the 
+sandstone courtyard far below you. Around you fly the large magnificent 
+birdmen and the strange, kindly looking devas. 
+~
+52 32 9
+D0
+Looking north you see the end of the silver lined cloud
+~
+~
+0 -1 5321
+D2
+Looking south you see the edge of the cloud
+~
+~
+0 -1 5332
+S
+#5330
+On the Cloud's Edge~
+You are flying over the very end of the cloud's edge. From here you are 
+actually about two feet away from the mountain and if you wanted you could
+probably jump onto the mountain from here. You can see every blade of 
+grass and wild flower clearly from where you are and as you look down you
+realise that you are over three hundred feet above the ground. You decide
+not to risk jumping off the cloud as if you missed the mountain you have
+an awfully long way to fall. Looking south you see the very end of the 
+cloud's edge and to your north lies the silver lined cloud. 
+~
+52 32 9
+D0
+Looking north you see the silver lined cloud
+~
+~
+0 -1 5328
+D2
+Looking to the south you see the end of the cloud's edge
+~
+~
+0 -1 5337
+S
+#5331
+On the Orange and Gold Cloud~
+As you fly over this small orange and gold cloud you see the larger 
+silver lined cloud through the hole below you. Directly to your south
+you see a bright light coming from the cloud and you wonder what is causing
+the light to be so bright. 
+~
+52 32 9
+D2
+Looking south you see the bright light shinning in your eyes that nearly 
+blinds you 
+~
+~
+0 -1 5336
+D5
+Looking down you see the large silver lined cloud
+~
+~
+0 -1 5327
+S
+#5332
+On the Cloud's Edge~
+You are flying over the very end of the cloud's edge. From here you are 
+actually about two feet away from the mountain and if you wanted you could
+probably jump onto the mountain from here. You can see every blade of 
+grass and wild flower clearly from where you are and as you look down you
+realise that you are over three hundred feet above the ground. You decide
+not to risk jumping off the cloud as if you missed the mountain you have
+an awfully long way to fall. Looking north you see the silver lined cloud
+in the distance and to your east a small grey cloud heads toward a large
+hole in the sky. 
+~
+52 32 9
+D0
+Looking north you see the edge of the cloud continues towards the silver
+lined cloud
+~
+~
+0 -1 5329
+D1
+Looking east you see a small grey cloud
+~
+~
+0 -1 5333
+S
+#5333
+On a small Grey Cloud~
+As you fly over a small Grey Cloud you see many strange and wonderful 
+creatures passing you by. All these creatures are flying and you notice 
+that thier wings are not only large and powerful but are also made up of 
+the most magnificent colored feathers you have ever seen. As you look to your
+west from here you can see the cloud's edge and further to your east the 
+small grey cloud continues. 
+~ 
+52 32 9
+D1
+Looking east you see the small grey cloud
+~
+~
+0 -1 5334
+D3
+Looking towards your west you see the cloud's edge and beyond that the top
+of the mountain.
+~
+~
+0 -1 5332
+S
+#5334
+On a small Grey Cloud~
+As you fly over a small Grey Cloud you see many strange and wonderful 
+creatures passing you by. All these creatures are flying and you notice 
+that thier wings are not only large and powerful but are also made up of 
+the most magnificent colored feathers you have ever seen. As you look to your
+west you can see the cloud's edge in the distance and further to your east 
+the small grey cloud continues. 
+~
+52 32 9
+D1
+Looking east you see the small grey cloud
+~
+~
+0 -1 5335
+D3
+Looking west you see the small grey cloud
+~
+~
+0 -1 5333
+S
+#5335
+On a small Grey Cloud~
+As you fly over a small grey cloud you notice that there is a large hole
+in the cloud leading downwards towards a large silver lined cloud and 
+there is also a large hole in the cloud leading upwards towards the top of
+the mountain. As you look up you see a blinding golden light shinning through
+the hole in the cloud. You feel a tranquil goodness wash over you from 
+this light and you become certain that what or whoever resides above 
+these clouds is a god of great strength.
+~ 
+52 32 9
+D3
+Looking to your west you see the small grey cloud leading towards the 
+edge of the cloud.
+~
+~
+0 -1 5334
+D4
+Looking up you see a magnificent  golden cloud
+~
+~
+0 -1 5340
+D5
+Looking down through the hole in this silver lined cloud you see a silver 
+lined cloud below you. 
+~
+~
+0 -1 5323
+S
+#5336
+Top of the Orange and Gold Cloud~
+You are floating over the top of the Orange and Gold cloud. To your north 
+you see the cloud continues and as you look around the top of the cloud 
+you notice that this appears to be the home of a magnificent, regal 
+creature. There is a bright golden light that shimmers around this 
+section of the cloud and you realise that this is a rather holy and scred 
+place where very few humans have actually ventured.
+~ 
+52 36 9 
+D0
+Looking north you see the orange and gold cloud leads further towards 
+your east
+~ 
+~
+0 -1 5331
+S
+#5337
+On the Cloud's Edge~
+You are flying over the very end of the cloud's edge. From here you are 
+actually about two feet away from the mountain and if you wanted you could
+probably jump onto the mountain from here. You can see every blade of 
+grass and wild flower clearly from where you are and as you look down you
+realise that you are over three hundred feet above the ground. You decide
+not to risk jumping off the cloud as if you missed the mountain you have
+an awfully long way to fall. 
+~
+52 32 9
+D0
+Looking north you see the cloud's edge
+~
+~
+0 -1 5330
+S
+#5338
+The Golden Cloud~
+You are floating at the edge of the Golden cloud which leads further 
+along to your east. From where you are floating you can see the very top 
+of the  mountain directly to your west. Looking down gives you vertigo 
+and you  also realise that from this height you can no longer see the 
+ground below you. This is by far the brightest section of these clouds 
+that you have flown over and you realise that whatever lies at the very 
+peak of the mountain is what is causing this bright, luminous light. 
+~ 
+52 32 9 
+D1
+Looking east you see the golden cloud stretching around the top of the 
+mountain
+~
+~
+0 -1 5339
+S
+#5339
+The Golden Cloud~
+As you fly over the large golden cloud you notice a hole in the sky 
+leading upwards toward the peak of the mountain. Looking to your west you 
+can see the edge of the golden cloud and further to your east the cloud 
+continues around the top of the mountain. Flying all around you are many 
+strange and wonderous creatures who appear oblivious to your presence 
+here. You have also notice the tranquility of this place and how quiet it 
+seems in these clouds. 
+~ 
+52 32 9 
+D1
+As you look east you see a magnificent birdman flying past
+~
+~
+0 -1 5340
+D3
+Looking to your west you see the edge of the golden cloud
+~
+~
+0 -1 5338
+D4
+Looking up through the hole in the cloud you see the top of the mountain 
+above you 
+~
+~
+0 -1 5343
+S
+#5340
+The Golden cloud~
+You are flying on a beautiful golden cloud that stretches to your east 
+and west. As you look down through the hole in the cloud you see a small
+grey cloud below. On this cloud you can see many beautiful creatures that
+fly past you towards the peak of the mountain. You notice that there is a 
+bright, luminous light shinning from above you and you wonder if this is 
+what all these magnificent creatures are flying towards. 
+~ 
+52 32 9
+D1
+As you look east you see a magnificent birdman flying past
+~
+~
+0 -1 5341
+D3
+As you look west you see the sun shinning off the golden cloud
+~
+~
+0 -1 5339
+D5
+Looking down through the hole in the cloud you see a small grey cloud below
+~
+~
+0 -1 5335
+S
+#5341
+The Golden Cloud~
+As you fly over the large golden cloud you notice a hole in the sky 
+leading upwards toward the peak of the mountain. Looking to your east you 
+can see the edge of the golden cloud and further to your west the cloud 
+continues around the top of the mountain. Flying all around you are many 
+strange and wonderous creatures who appear oblivious to your presence 
+here. You have also notice the tranquility of this place and how quiet it 
+seems in these clouds. 
+~
+52 32 9
+D1
+Looking to your east you can see the edge of the golden cloud
+~
+~
+0 -1 5342
+D3
+Looking west you see the cloud streatching around the mountain
+~
+~
+0 -1 5340
+D4
+Looking up through the hole in the cloud you see the top of the mountain 
+above you 
+~
+~
+0 -1 5344
+S
+#5342
+The Golden Cloud~
+You are floating at the edge of the Golden cloud which leads further 
+along to your west. From where you are floating you can see the very top 
+of the  mountain directly to your east. Looking down gives you vertigo 
+and you  also realise that from this height you can no longer see the 
+ground below you. This is by far the brightest section of these clouds 
+that you have flown over and you realise that whatever lies at the very 
+peak of the mountain is what is causing this bright, luminous light. 
+~
+52 32 9
+D3
+Looking west you see the golden cloud spreading out before you
+~
+~
+0 -1 5341
+S
+#5343
+A Hole in the Clouds~
+You are flying through a large hole in the golden clouds. Looking up you 
+can see a small path that leads around the peak of the mountain and 
+downwards is the billowing golden cloud. There is a raidiant light coming 
+from the hole above and a strange eerie glow surrounds the cloud. 
+You wonder what you will find at the top of this large mountain, yet although
+you are venturing into a strange and wonderous land you somehow feel 
+completely safe. 
+~ 
+52 32 9
+D4
+Looking up you see the mountain peaks
+~
+~
+0 -1 5346
+D5
+Looking down you see the golden cloud spearding out before you
+~
+~
+0 -1 5339
+S
+#5344
+A Hole in the Clouds~
+You are flying through a large hole in the golden clouds. Looking up you 
+can see a small path that leads around the peak of the mountain and 
+downwards is the billowing golden cloud. There is a raidiant light coming 
+from the hole above and a strange eerie glow surrounds the cloud. 
+You wonder what you will find at the top of this large mountain, yet although
+you are venturing into a strange and wonderous land you somehow feel 
+completely safe. 
+~
+52 32 9
+D4
+Looking up you see the mountain peaks
+~
+~
+0 -1 5348
+D5
+Looking down you see the golden cloud spearding out before you
+~
+~
+0 -1 5341
+S
+#5345
+Edge of the Mountain~
+You are standing on a small path where the only way to travel is east. To 
+your west you see the large cliff face of the mountain with small blue and 
+yellow wild flowers growing around it's base. Looking to your east you 
+see that there is a large hole in the clouds that has lead up to the peak 
+of the mountain. You see that the path continues further east past the 
+hole in the cloud and you also see some extremely large stone columns to 
+the north of the path.
+~ 
+52 0 0
+D1
+Looking to your east you see a large hole in the top of the clouds
+~
+~
+0 -1 5346
+S
+#5346
+Path on the Mountain's Peak~
+You are walking on a small path that runs east and west along the peak of 
+the mountain. Below you the multi-coloured clouds billow gently in the 
+cool breeze. As you look down you see these spectrum of colors that dazzle 
+amd nearly blind you. From the very peak of the mountain shines a golden, 
+luminous light. There are two large pillars, made of an unusual 
+marble that seems to be flecked with gold, the golden light shines 
+through these pillars giving them a immaculate quality. 
+~ 
+52 0 0
+D1
+Looking east you see large steps leading off the path towards the marble 
+pillars 
+~
+~
+0 -1 5347
+D3
+As you look to your west you see the steel cliff at the edge of the mountain
+~
+~
+0 -1 5345
+D5
+Looking down you see the golden cloud below you
+~
+~
+0 -1 5343
+S
+#5347
+Path on the Mountain's Peak~
+You are standing in the center of the path that leads around the 
+mountain's peak to your east and west you can see large holes in the 
+clouds below that has lead up towards this path. Looking up you see large 
+marble steps leading towards the gold-flecked pillars on your left and 
+right hand sides. There is a beautiful golden light coming from beyond 
+the marble steps and you feel compelled to move upwards towards this 
+luminous light.
+~ 
+52 0 0
+D1
+Looking east you see the path continues around the mountain's peak
+~
+~
+0 -1 5348
+D3
+Looking west you see the path continues around the mountain's peak
+~
+~
+0 -1 5346
+D4
+Looking up you see the marble steps stretching before you
+~
+~
+0 -1 5351
+S
+#5348
+Path on the Mountain's Peak~
+You are walking on a small path that runs east and west along the peak of 
+the mountain. Below you the multi-coloured clouds billow gently in the 
+cool breeze. As you look down you see these spectrum of colors that dazzle 
+amd nearly blind you. From the very peak of the mountain shines a golden, 
+luminous light. There are two large pillars, made of an unusual 
+marble that seems to be flecked with gold, the golden light shines 
+through these pillars giving them a immaculate quality. 
+~
+52 0 0
+D1
+Looking east you see the center of the path that leads up towards the marble
+pillars
+~
+~
+0 -1 5349
+D3
+Looking west you can see the large cliff at the edge of the mountain
+~
+~
+0 -1 5347
+D5
+Looking down you see the golden cloud below
+~
+~
+0 -1 5344
+S
+#5349
+Edge of the Mountain~
+You are standing on a small path where the only way to travel is west. To 
+your east you see the large cliff face of the mountain with small blue and 
+yellow wild flowers growing around it's base. Looking to your west you 
+see that there is a large hole in the clouds that has lead up to the peak 
+of the mountain. You see that the path continues further east past the 
+hole in the cloud and you also see some extremely large stone columns to 
+the north of the path.
+~
+52 0 0
+D3
+Looking west you see the path leads towards a large hole in the sky
+~
+~
+0 -1 5348
+S
+#5350
+Marble Pillar~
+You are standing under a large marble pillar on the top of the mountain. 
+The view from the top of the mountain is incredible. You can not only see 
+the multi-coloured clouds and the sphinx bellow but also for miles
+past the sandy desert. To your east you can see the marble steps that 
+lead up towards the Golden Altar. There is a strange light that glows 
+brightly over these steps and pillars. It radiates from the altar and you 
+realise that this is one of the most sacred places you have ever seen. 
+~ 
+52 0 0 
+D1
+Looking east you see the marble steps
+~
+~
+0 -1 5351
+S
+#5351
+The Marble steps~
+As you stand on the gold-flecked marble steps your view of the whole mountain
+and everything that is below is incredible. For miles and miles you can 
+see the sandy desert and the long road behind it. Far in the distance you 
+can just see the city of Haven, that looks like a tiny black speck
+~ 
+52 0 0
+D1
+You can see the gold-flecked pillar
+~
+~
+0 -1 5352
+D3
+You can see the gold-flecked pillar
+~
+~
+0 -1 5350
+D4
+Looking up a radiant light shines in your face
+~
+~
+0 -1 5353
+D5
+Looking down you see the small path that leads around the mountain's peak
+~
+~
+0 -1 5347
+S
+#5352
+Marble Pillar~
+You are standing under a large marble pillar on the top of the mountain. 
+The view from the top of the mountain is incredible. You can not only see 
+the multi-coloured clouds and the sphinx bellow but also for miles
+past the sandy desert. To your west you can see the marble steps that 
+lead up towards the Golden Altar. There is a strange light that glows 
+brightly over these steps and pillars. It radiates from the altar and you 
+realise that this is one of the most sacred places you have ever seen. 
+~
+52 0 0
+D3
+Looking west you see the marble steps
+~
+~
+0 -1 5351
+S
+#5353
+The Golden Altar~
+You are standing on a magnificent altar that is covered with gold. There 
+are large candles glowing brightly in the corners of the room and you 
+realise that this is the light you have been seeing. Wait, no that can't
+be right how can a few candles radiate as much light as you had been seeing
+throughout the clouds. There must be something else that had allowed you 
+to see all the light while flying through the clouds. Yes, there is a 
+strange and powerful god standinging here. He is covered in gold and 
+glows with a strange light, that is why you didn't see him when you 
+immediately walked into the room. He blends in with the gold surrounding 
+the altar. This is the strange light you had seen while flying through the
+clouds. 
+~ 
+52 0 0 
+D5
+Looking down you see the marble steps and beyond that a small path and clouds
+~
+~
+0 -1 5351
+S
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

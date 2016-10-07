@@ -1,0 +1,315 @@
+5
+clock
+50
+wear clock; wear clock; remove clock; remove clock
+1
+3
+owl
+15
+d ; u ; d ; u; 
+1
+7
+control
+22
+cast 'control weather'
+0
+2
+uv
+16
+cast 'unholy' $1
+1
+2
+pr
+33
+cast 'divine pro; cast 'fire wall
+1
+4
+fire
+19
+cast 'fire wall' $1
+1
+3
+pro
+190
+cast 'divine prot' $1; cast 'spirit arm' $1; cast 'holy aid' $1; cast 'armor' $1; cast 'sanc' $1; cast 'bless' $1; cast 'stoneskin' $1; cast 'dragon' $1; cast 'fire wall' $1; cast 'haste' $1
+1
+4
+heal
+21
+cast 'divine heal' $1
+1
+5
+water
+18
+cast 'waterbreathe
+0
+5
+haste
+15
+cast 'haste' $1
+1
+5
+grats
+14
+grats &[&M$1&]
+1
+5
+clone
+11
+cast 'clone
+0
+4
+drag
+16
+cast 'dragon' $1
+1
+2
+he
+17
+cast 'divine heal
+0
+3
+met
+61
+cast 'meteor' ; cast 'meteor' ; cast 'meteor' ; cast 'meteor'
+1
+5
+stone
+19
+cast 'stoneskin' $1
+1
+4
+remc
+30
+cast 'greater remove curse' $1
+1
+4
+remp
+21
+cast 'remove pois' $1
+1
+4
+deti
+22
+cast 'detect invis' $1
+1
+3
+fly
+13
+cast 'fly' $1
+1
+3
+dim
+24
+cast 'dimension gate' $1
+1
+2
+wt
+22
+cast 'wraith touch' $1
+1
+2
+id
+18
+cast 'identify' $1
+1
+3
+aid
+14
+cast 'holy aid
+0
+3
+arm
+20
+cast 'spirit arm' $1
+1
+2
+dp
+17
+cast 'divine prot
+0
+3
+ref
+17
+cast 'refresh' $1
+1
+5
+sanct
+19
+cast 'sanctuary' $1
+1
+3
+sec
+17
+cast 'sense curse
+0
+4
+life
+16
+cast 'sense life
+0
+4
+sanc
+10
+cast 'sanc
+0
+3
+str
+18
+cast 'strength' $1
+1
+5
+wound
+15
+cast 'sense wou
+0
+4
+harm
+14
+cast 'harm' $1
+1
+5
+infra
+21
+cast 'infravision' $1
+1
+5
+bless
+15
+cast 'bless' $1
+1
+3
+tel
+14
+cast 'teleport
+0
+3
+htr
+7
+htrance
+0
+3
+cot
+19
+cast 'cure crit' $1
+1
+2
+cr
+15
+cast 'cure crit
+0
+2
+mm
+15
+cast 'magic' $1
+1
+3
+clo
+15
+cast 'cloud' $1
+1
+6
+object
+23
+cast 'locate object' $1
+1
+3
+ski
+13
+cast 'serpent
+0
+3
+die
+16
+cast 'finger' $1
+1
+5
+sense
+14
+sense stats $1
+1
+5
+magic
+17
+ask richard magic
+0
+3
+bat
+12
+battlecry $1
+1
+2
+bl
+70
+cast 'plasma' $1; cast 'plasma' $1; cast 'plasma' $1; cast 'plasma' $1
+1
+3
+foo
+90
+cast 'create foo ; cast 'create foo; cast 'create foo' cast 'create foo ; cast 'create foo
+1
+4
+cant
+24
+cast 'create water' skin
+0
+2
+sl
+15
+cast 'sleep' $1
+1
+5
+invis
+11
+cast 'invis
+0
+3
+par
+14
+cast 'para' $1
+1
+2
+co
+12
+compo corpse
+0
+2
+dr
+18
+cast 'energy d' $1
+1
+5
+blind
+49
+cast 'blind' $1; cast 'sleep' $1; cast 'curse' $1
+1
+3
+sum
+16
+cast 'summon' $1
+1
+4
+deta
+16
+cast 'detect ali
+0
+2
+tr
+8
+track $1
+1
+4
+detm
+15
+cast 'detect ma
+0
+5
+earth
+66
+cast 'earth' $1; cast 'earth' $1; cast 'earth' $1; cast 'earth' $1
+1
+3
+rec
+12
+cast 'recall
+0

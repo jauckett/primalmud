@@ -1,0 +1,292 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.38;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.38;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#5200
+weed tumbleweed~
+Tumble weed~
+A large tumble weed blows here in the wind.
+~
+You see a mass of twigs, leaves and debris that looks rather harmless.
+However, as you take a closer look you see millions of evil little eyes
+peering back at you from the tangles mass and they don't look very
+friendly.
+~
+24932 33800 370 S
+52 -25 -9 1d1+5230 6d25+55
+11270 700000
+8 8 0
+#5201
+spotted lion~
+spotted lion~
+A large spotted lion is prowling the area
+~
+A large yellow lion with unusual markings roars at you. You see his large
+yellow teeth and the smell of his breath nearly makes you gag. He looks
+like a strong vicious beast that will attack if he feels threatened.
+You hope you don't look too threatening. 
+~
+77152 295944 1000 S
+55 -30 -8 1d1+5120 10d5+59
+5000 795000
+8 8 1
+#5202
+dragonfly giant~
+Giant dragonfly~
+A huge Giant Dragonfly hovers above you.
+~
+You see a huge predator that has a aoracious appetite for human flesh.
+It's skin is a brilliant glittering mass of colours and you wonder how
+that amazing skin would look like on you.
+~
+1269872 33800 -100 S
+59 -25 -9 1d1+5420 20d7+57
+22929 811000
+8 8 0
+#5203
+crypt thing skeleton~
+crypt thing~
+A hideous crypt thing guards a large treasure.
+~
+You see a skeleton like creature wearing a dark and dusty cloak.
+It's red eyes look like rubies and it glares at you in anger.
+~
+1190003 98434 -800 S
+70 -60 -10 3d1+10150 20d15+65
+47024 1090000
+8 8 0
+#5204
+dragon horse~
+Dragon Horse~
+A large Dragon Horse is flying here.
+~
+You see a shy but beautiful creature with a luminous and large silver
+wings that span over fifty feet. It's hooves are a pail grey in colour
+and it's eyes look kind.
+~
+1139043 33928 1000 S
+63 -35 -7 1d1+4910 20d20+55
+3203 911000
+8 8 0
+#5205
+catoblepas~
+catoblepas~
+A large ugly catoblepas is swimming here.
+~
+A large hideous water beast with a long thin neck and a strong thick tail,
+glares back at you. On the end of it's tail is a large weapon-like spiked
+ball that could tear  the flesh from your bones. it's legs are as thick as
+stumps and it has sharp boar like tusks protruding from it's snout. 
+~ 
+1253476 296008 200 S
+59 -45 -7 1d8+3700 15d10+60
+13940 871000
+8 8 0
+#5206
+cockatrice cock~
+Cockatrice~
+A large Cockatrice flies above your head.
+~
+This unusual bird has a serpent like tail covered in yellow and green
+feathers. It's feet and beck are yellow and it's wings are grey. The
+plumage covering the rest of it's body is a golden brown. As you look
+closer you see it's evil red eyes regarding you as potential dinner. 
+~ 
+125620 132104 900 S 
+63 -45 -8 1d12+5110 18d15+62
+43960 891000
+8 8 0
+#5207
+giant eel~
+A Giant eel~
+A giant eel is slithering in the water
+~
+A large slime covered eel of greyish colour, with small mouldy spots,
+nashes it's tiny sharp teeth at you.
+~
+1122420 33864 -200 S
+64 -40 -8 1d1+6130 20d15+65
+21286 909350
+8 8 0
+#5208
+cloud giant~
+cloud giant~
+A large stone like Giant waits in the clouds.
+~
+A large cloud giant looks back at you with it's pale blue eyes. As you
+look closer  you see the beautiful bracelets it wears on it's wrists and
+the other ornaments adorning it. It wields a large silver club and appears
+to be guarding a great air God. 
+~
+3220851 99464 1000 S
+75 -60 -10 1d1+10500 35d25+75
+112755 1170000
+8 8 0
+#5209
+ki rin ki-rin~
+Ki-Rin~
+The unusual Ki-Rin flies above you. 
+~
+The Ki-Rin has a luminous gold coat that looks magnificent. This shy beast
+has a long golden mane and tail and it's hooves are a golden pink. It
+blinks kindly back at you with its  large violet eyes and you feel
+extremely safe 
+~ 
+3237955 689280 1000 S
+68 -45 -8 1d12+8120 20d25+65
+32203 976000
+8 8 0
+#5210
+pazuzu god~
+The God Pazuzu~
+The God Pazuzu glares down at you from his throne.
+~
+Pazuzu, Ruler of the skies, glares back at you with his red eyes. His four
+wings span the whole length of this golden altar. As you look closer you
+notice that his musculr body resembles a humans, but his feet are taloned
+and he only has three fingers and one thumb, like a bird. 
+~ 
+3220851 99464 1000 S
+80 -79 -10 1d1+11500 45d25+75
+112755 2070000
+8 8 1
+#5211
+monadic deva~
+Monadic Deva~
+The slight Monadic Deva flies above you. 
+~
+This tall, slender humanoid has translucent skin and long silver
+hair. It peers back at you with it's colourless eyes and as you look
+close you notice the white wings on it's back.                        
+~ 
+3237985 164992 1000 S
+64 -40 -8 1d12+6120 20d15+65
+12203 976000
+8 8 0
+#5212
+deva astral~
+Astral Deva~
+The slight Astral Deva flies above you. 
+~
+This tall, slender humanoid looks extremely graceful with it's golden skin
+and amber eyes. As you look closer you notice that this humanoids  wings
+are tipped with gold, but apart from this it looks rather human.
+~ 
+3238241 164864 1000 S
+66 -40 -8 1d12+5120 20d15+65
+12203 976000
+8 8 0
+#5213
+deva movanic~
+Movanic Deva~
+The Movanic Deva flies in circles around you.
+~
+The Movanic Deva llooks back at you with it's large violet eyes. It's
+large violet wings span over fifty feet and the tips are a magnificent
+purple colour. This humanoid creature looks rather strong and has heroic
+features.
+~
+3237953 164872 1000 S
+67 -45 -7 1d1+5200 22d18+65
+16789 998000
+8 8 0
+#5214
+dragon cloud~
+Cloud Dragon~
+A large white cloud Dragon is flying above you.
+~
+This magnificent beast is a lot kinder than your normal dragon. Looking at
+him you notice that his skin is flecked with gold and his eyes are a
+straange colourless shade.
+~
+1141106 164872 1000 S
+62 -35 -10 1d1+6290 20d18+65
+58900 870000
+8 8 1
+#5215
+birdman aarakocra~
+Aarakocra~
+A large Aarakocra flies above you.
+~
+You see a magnificent birdman over six feet tall with strong powerful
+wings that span over twenty feet. Looking closer you notice that his feet
+are taloned and his beak is yellow in colour.
+~
+1123700 131072 1000 S
+58 -30 -7 -1d1+4300 15d20+55
+98000  852000
+8 8 1
+#5216
+opinicus~
+opinicus~
+A strange lookin opinicus is flying above.
+~
+This werid creature looks part monkey, part camel, part lion and part
+eagle. You have never seen anything like it in your life.
+~
+1073238 131072 400 S
+56 -25 -7 1d1+5213 15d20+55
+56000 791000
+8 8 1
+#5217
+eagle bird large~
+A large eagle~
+A large eagle is perched here.
+~
+The large eagle looks back at you with it's gleaming golden eyes.
+You notice it's sharp beak and claws and wonder if this bird is worth
+fighting.
+~
+75840 1024 200 S
+52 -20 -6 1d1+3210 15d15+45
+26700 699000
+8 8 0
+#5218
+phoenix~
+A large phoenix~
+A large phoneix is standing here.
+~
+The large phoneix looks back at you with it's gleaming golden eyes.
+You notice it's sharp beak and claws and wonder if this bird is worth
+fighting.
+~
+75840 1024 200 S
+56 -25 -6 1d1+3910 15d15+50
+26700 729000
+8 8 0
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

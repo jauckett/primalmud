@@ -1,0 +1,58 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cc exa crate
+cl c 'cure light'
+ii c 'infravision'
+di c 'detect invisibility'
+2 south
+4 west
+6 east
+8 north
+- down
++ up
+00 score
+5 look
+pp put $1 crate
+gs get all corpse
+gg get $1 crate
+gc get all corpse
+id recite identify $1
+. drink skin
+++ open door $1
+0 get bread crate ; eat bread
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

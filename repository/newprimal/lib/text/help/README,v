@@ -1,0 +1,27 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.07.26.17.23.48;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+Added:
+- README file mentioning spell help loading
+@
+text
+@spells.hlp is created dynamically by parsing lib/etc/primal_spskls at load
+time. DO NOT edit spells.hlp - edit lib/etc/primal_spskls
+@

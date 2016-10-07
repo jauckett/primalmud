@@ -1,0 +1,37 @@
+tele c 'teleport'
+7 c 'sleep' 2.sandworm
+6  c 'sleep' sandworm
+5 ass dragonball
+4 goto dragonball
+eb eat bread
+3 c 'armo' dragonball
+2 c 'san' dragonball
+1  c 'advanced heal' dragonball
+arm c 'armor'
+ench c 'enchant weapon' $*
+sle c 'sleep' $*
+pf put $* field
+gf get $* field
+gsan c 'group san'
+par c 'paral' $*
+clone c 'clone'
+fin c 'finger of death' $*
+loc c 'locate object' $*
+fly c 'fly'
+r c 'word of recall'
+f flee
+ec exam corpse
+gc get all all.corpse
+gg get all.gold all.corpse
+gv get $1 all.corpse
+dw drink fountain
+ds drink skin
+fs fill skin fountaiin
+ws wake; stand
+cf c ' create food'; eat mushroom
+sum c ' summon' $1
+ah c 'advanced heal'
+san c 'san'
+ff l in field
+wra c 'wraith touch'
+wb c 'waterbreathe'

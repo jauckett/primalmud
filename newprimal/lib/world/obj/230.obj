@@ -1,0 +1,125 @@
+#23000
+computer chip~
+a computer chip~
+A computer chip lies here~
+~
+9 8 16385 0
+2 0 0 0
+1 300 3000 5
+L 5
+E
+chip computer~
+This tiny little chip holds enough memory to make the largest computer run
+~
+A
+18 1
+#23001
+gauge obsolete~
+an obsolete gauge~
+An old gauge lies here~
+~
+9 0 16385 0
+1 0 0 0
+1 200 20 0
+L 0
+E
+obsolete gaunge~
+This old and archaic measuring item is well past its usefullness
+~
+A
+2 1
+#23002
+metal shavings~
+metal shavings~
+A pile of metal shavings lie here~
+~
+8 0 1 0
+0 0 0 0
+2 1000 1000 0
+L 0
+E
+shavings metal~
+These metal shavings may fetch some money if sold to the right person
+~
+#23003
+funnel brush~
+a funnel brush~
+A funnel brush lies here~
+~
+5 16 8193 0
+0 2 5 10
+2 100 100 10
+L 10
+E
+funnel brush~
+This strange looking cleaning item could double as a weapon
+~
+A
+18 2
+#23004
+old vac suit~
+an old vac suit~
+An old wornout suit lies here~
+~
+32 4 9 0
+0 0 0 0
+2 100 1000 0
+L 0
+E
+worn vac suit~
+This old and worn out suit has certainly seen better days.
+Yet it still works and will protect you from the elements
+~
+A
+17 -3
+A
+24 -4
+#23005
+prospector boots~
+a pair of boots~
+A pair of prospector's boots lie here~
+~
+9 128 65 0
+2 0 0 0
+3 1020 100 0
+L 0
+E
+boots prospector~
+These strong, warm boots look like they would suit any 
+type of enviroment
+~
+A
+14 1
+#23006
+scarf prospector~
+a prospector's scarf~
+A prospector's scarf lies here~
+~
+9 4 5 0
+2 0 0 0
+1 1000 100 0
+L 0
+E
+scarf prospector~
+A woolen scarf with orange and green stripes 
+~
+A
+12 1
+#23007
+gloves woolen~
+woolen gloves~
+A pair of woolen gloves lie here~
+~
+9 0 129 0
+3 0 0 0
+1 1000 1000 0
+L 0
+E
+woolen gloves~
+These warm mittens will keep the icy cold at bay
+~
+A
+22 -5
+A
+24 -5
+$~

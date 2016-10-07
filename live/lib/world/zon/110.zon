@@ -1,0 +1,55 @@
+#110 3
+The Lost Valley~
+11129 20 2 1025
+*
+* Mobiles
+M 0 11001 2 11010         Styracosaurus
+M 0 11001 2 11015         Styracosaurus
+M 0 11002 5 11063         Velociraptor
+M 0 11002 5 11059         Velociraptor
+M 0 11002 5 11026         Velociraptor
+M 0 11002 5 11008         Velociraptor
+M 0 11002 5 11091         Velociraptor
+M 0 11003 3 11096         Oviraptor
+M 0 11003 3 11096         Oviraptor
+M 0 11003 3 11096         Oviraptor
+M 0 11004 1 11076         T-Rex
+E 1 11004 2 8
+M 0 11005 2 11087         Riojasaurus
+M 0 11005 2 11100         Riojasaurus
+M 0 11006 2 11022         Dilophosaurus
+E 1 11006 2 4
+M 0 11006 2 11013         Dilophosaurus
+M 0 11006 2 11022         Dilophosaurus
+E 1 11006 2 4
+M 0 11007 1 11120         Pterodactyl
+E 1 11012 1 10
+M 0 11008 1 11034         Triceratops
+E 1 11005 1 5
+M 0 11009 2 11069         Nothosaurs
+M 0 11009 2 11079         Nothosaurs
+M 0 11010 1 11030         Giant Anaconda
+E 1 11011 1 17
+M 0 11011 3 11024         Baby Dino
+M 0 11011 3 11018         Baby Dino
+M 0 11011 3 11041         Baby Dino
+M 0 11012 4 11025         Anaconda
+E 1 11010 4 5
+M 0 11012 4 11035         Anaconda
+E 1 11010 4 5
+M 0 11012 4 11036         Anaconda
+E 1 11010 4 5
+M 0 11012 4 11006         Anaconda
+E 1 11010 4 5
+M 0 11013 1 11077         Plesiosaur
+M 0 11014 1 11050         Mammoth
+E 1 11009 10 6
+O 0 11008 1 11090
+P 1 11002 1 11008
+O 0 11007 1  11113
+P 1 11001 1 11007
+O 0 11013 1 11121
+S
+$
+
+

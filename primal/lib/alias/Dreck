@@ -1,0 +1,8 @@
+cl c 'cure light
+1 get all corpse
+lunch get meat backpack; get meat backpack; eat meat; eat meat
+gac get all corpse
+k kick $1
+start wear all; wield halberd; put all backpack
+armor c 'armor
+bs remove halberd; wield dagger; backstab $1; remove dagger;wield halberd

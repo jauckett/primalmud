@@ -1,0 +1,86 @@
+clone c 'clone';c 'infravision' clone
+v e;l xaran;w
+yh echo you are hungry.
+gwhip give whip clone;give whip 2.clone;or fol wield whip
+bs sneak;ba $1;rem dagger;wield hammer
+thor rem dagger;wield hammer
+dagger rem hammer;wield sacraficial
+dag rem hammer;wield dagger
+ham rem dagger;wield hammer
+hv c 'advanced heal' valium
+h rem eye;hold orb;use orb
+cd c 'charm' drider
+tooth remove eye;hold tooth
+bt backstab troglodyte
+bless c 'bless'
+d4 s;s;s;s;s;d;d;d;d;d;d;d;d;d;d;d;d;d;e;e;e;e;e;e;e;e;e;d;d;n
+d3 d;d;d;d;d;d;d;d;d;s;s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;s
+d2 n;n;n;n;n;n;e;e;e;e;e;e;e;e;d;d;d;d;w;w;w;w;w;w;w;d;n;n;d;e;e;e;e;s;s;open trapdoor;d
+d1 d;w;w;w;w;w;w;w;w;w;d;s;s;s;s;s;s;d;e;e;e;e;e;e;e;e;e;d;w;w;w;w;w;w;w;w;w;d
+lvl remove armor;remove helm
+morkoth d;w;w;w;w;w;w;w;w;w;d;s;s;s;s;s;s;d;e;e;e;e;e;e;e;e;e;d;w;w;w;w;w;w;w;w;w;d
+drider d;d;d;d;d;d;d;d;d;s;s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;s;s;s;s;s;s;d;d;d;d;d;d;d;d;d;d;d;d;d;e;e;e;e;e;e;e;e;e;d;d;n
+sleep : plucks and pulls his feathers and makes a BED out if it!!!!;sleep
+evil c 'protection from evil'
+tunnel e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u
+qb quaff blue
+sa c 'summon' apprentice
+main s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+met c 'meteor swarm' $1
+sense c 'sense life'
+ear c 'earthquake'
+pla c 'plasma blast' $1
+fear c 'fear' $1
+tep c 'teleport'
+wat c 'waterwalk'
+rec cast 'word of recall' $1
+loc c 'locate object' $1
+cha c 'charm person' $1
+sum cast 'summon' $1
+ref cast 'refresh'
+san cast 'sanctuary'
+ch cast 'heal'
+rr recite recall
+f c 'fireball' $1
+qr quaff red
+cif cast 'infravision'
+civ c 'invisibility
+ca cast 'armor'
+ccc cast 'cure critical'
+ed cast 'energy drain' $1
+cs cast 'colorspray' $1
+di c 'detect invisibility'
+cf cast 'create food';eat mushroom
+ds drink skin
+ri recite identify $1
+em take meat crate;eat meat
+sl c 'sleep' $1
+qw take white crate;quaff white
+cst c 'strength'
+toyheim w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;c 'refresh';w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n;w;w;u;u;u;u
+pri primal scream
+ani c 'animate dead' $1
+th train hit
+fly c 'fly'
+cdg c 'dimension gate' $1;open gate
+crystal w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e
+gc get all all.corpse;save flyer
+gi c 'word of recall' intan
+or ord foll $*
+cgs c 'group sanctuary'
+cga c c 'group armor'
+tm train mana
+ck c 'cloud kill'
+whip rem dagger;wield whip
+ser c 'serpent skin
+rp c 'remove poison'
+cgh c 'group heal'
+equip g pen;g all.pirate;g all.cloak;g all.diamond;g glased;g gloves;g all.cuffs;g whip;g sacraficial;g crate;g skin;g tooth;g beholder;hold pen;hold beholder;wear all
+ccw cast 'create water' $*
+ah c 'advanced heal' $*
+cr c 'word of recall' $*
+orb rem eye;hold orb
+eye rem orb;hold beholders
+t tag pkunk;tag timmy;tag hal
+fin c 'finger of death' $*

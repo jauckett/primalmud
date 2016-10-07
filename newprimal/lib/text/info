@@ -1,0 +1,168 @@
+                            &y** NEWBIE HANDBOOK **&n
+                               &y---------------&n
+&yWELCOME to PrimalMUD&n
+&y--------------------&n
+You are about to embark on a voyage of danger and adventure.
+Before you lies the world of fearsome monsters, magical treasures, challenging 
+quests, and mind-bending puzzles. Prepare yourself, for the realm you find 
+yourself in is a dangerous place fraught with a multitude of creatures, both 
+exotic and mundane, who are determined to make your stay here a short one.
+
+To aid you in your quest to achieve power and wealth in the realm, I have 
+provided you with a few general tips and instructions in order to make your 
+stay here a less painful one.
+
+
+&yMANEUVERING AND MOVING&n
+&y----------------------&n
+Each section of the realms consists of a room or location. In order to move 
+from place to place, you need to specify the direction in which you wish to 
+go : &cnorth&n, &csouth&n, &ceast&n, &cwest&n, &cup&n and &cdown&n. You may abbreviate these and any
+other commands ('&cn&n' always means '&cnorth&n' for example)
+
+In order for you to know if there are any exits when you are in a room, type 
+exit. You can also use the autoexit command by typing '&cautoexit&n' , exit will 
+then be shown on screen each time you enter a room. To disable autoexit, 
+simply type '&cautoexit&n' again. In certain places, there are doors and you need 
+to open them in order to cross to the next room. Certain doors might be LOCKED. 
+In this case either you find the key to unlock it or if you have the &cskill&n 
+'&cpick lock&n', you can pick the locked door. Others include trapdoors, secret 
+wall, secret floor etc.
+
+
+&yITEM && EQUIPMENT&n
+&y----------------&n
+You start off with nothing on hand...ie naked. You need to equip yourself 
+with the proper outfit and items so that you are more or less protected. There
+are some basic commands which you will need to use frequently, namely ::
+
+&cWEAR REMOVE WIELD HOLD EQUIPMEMT INVENTORY DROP GET LOOK EXAMINE&n
+
+&yWEAR&n::You will need to wear some clothing and armor. 
+        Syntax -- &cwear&n boots / &cwear&n all / &cwear&n all.bracelets
+
+&yREMOVE&n::When you want to take off something from your body.
+        Syntax -- &crem&n boots / &crem&n all / &crem&n all.bracelets
+
+&yWIELD&n::For using of weapons.
+        Syntax -- &cwi&n sword / &cwi&n dagger / &cwi&n thunderbolt
+
+&yHOLD&n::Certain items can be hold.
+        Syntax -- &chold&n wand / &chold&n staff / &chold&n stone
+
+&yEQUIPMENT&n::This is use to check what you are presently wearing.
+        Syntax -- &ceq&n 
+
+&yINVENTORY&n::This will show a list of items that is in your possession.
+        Syntax -- &ci&n / &cinv&n
+
+&yDROP&n::When there is a need to get rid of unwanted things. Note that the item
+      must be in your inventory and not on your body
+        Syntax -- &cdrop&n bread / &cdrop&n all.bread
+
+&yGET&n::When you want to pick up something which is on the ground.
+        Syntax -- &cget&n all corpse / &cget&n cloak / &cg&n all.coins / &cg&n potion bag
+
+&yLOOK&n::See the area, the surrounding but within the room you are in.
+        Syntax -- &cl&n / &cl&n Murf / &cl&n guard / &cl&n board
+
+&yEXAMINE&n::Check an item.
+        Syntax -- &cexa&n corpse / &cexa&n bag / &cexa&n chest
+
+Certain items, like scrolls, wands, potions, water containers, and food, all 
+require special commands to be used. These commands are : recite, use, quaff,
+drink, and eat. See help file on individual commands for more details.
+
+
+&yFOOD && WATER&n
+&y------------&n
+You will get tired and need to rest. Similarly you will get hungry and thirsty
+So you must know where to get food and water. Food can be purchased from most
+Grocers or General Store. Water can be found in town at the fountain near
+Council Square. You will need a water skin to fill the water from the fountain
+When inside the store, there is usually a sign for you to look at. Read the 
+sign for instruction. typing '&clist&n' will give you a list of items selling. To
+buy an item, type '&cbuy&n meat'. Money will automatically be deducted from you.
+
+
+&yDONATION ROOM&n
+&y-------------&n
+Donation room is located at the south-eastern end of Haven. This is the place
+where you can get most of your basic equipment, and if you are lucky, you may 
+be able to get some good items donated by some kind players.
+
+
+&yCOMBAT && FIGHTING&n
+&y-----------------&n
+There are certain commands for combat usage. 
+
+&cKILL CON ASSIST FLEE HIT WIMPY&n
+                                                                          
+&yKILL&n   applies to killing a monster. Note that this command is similar to &cHIT&n
+
+&yCON&n    is the abbreviation of consider. When type '&ccon&n guard' , it will 
+       roughly tells you how capable you are in fighting against it
+
+&yASSIST&n works only for members of the group. During a fight, members of the
+       group can assist their TANKER by typing '&cassist&n &b<&nname of tanker&n>'
+       &yTANKER&n refers to the person who hits the monster first.
+
+&yFLEE&n   when you are low in hp and know that you can't win the fight.
+
+&yWIMPY&n  applies to the minimum hp which will make you flee. Meaning that if you
+       set &cwimpy&n 30, once your hp drops below 30 you will automatically flee.
+
+
+&yDYING && CORPSE&n
+&y--------------&n
+There has been an &cautocorpse&n system implemented. Please see the help 
+for information regarding how this works and how much it costs! There is
+also a &cghost&n facility for players who are considered "newbies".
+If you die in a fight, you will be reincarnated in your home city. All your 
+eqiupment and gold will be left behind with your corpse. You need to go back 
+to the place which you died in order to get back all your stuff. Experience 
+points will also be lost when you die. Ask for help if you are not capable
+enough to get back to your corpse.
+
+NOTE: YOUR CORPSE WILL &RDECOMPOSE IN 20 MINS&n.
+
+
+&yRENT&n
+&y----&n
+Currently you do not have to rent. To exit the game type '&cquitr&n'. Your
+equipment will be handed to you upon entering a world next time you enter.
+
+
+&yHELP&n
+&y----&n
+Typing &chelp&n will show you a list of commands. Use '&chelp&n &b<&ntopic&b>&n' to find
+out more about the particular topic.
+
+
+&yOTHER INFORMATION&n
+&y-----------------&n
+PrimalMUD uses ANSI colors, to view these and your other peronal settings type
+'&ctoggle&n'.
+
+
+&yPOLICY && NEWS&n
+&y-------------&n
+These are two common thing most players ignore. Please read them once you have 
+the chance ('&cpolicy&n', '&cnews&n;). There are certain rules you will need to
+follow. Generally &cnews&n will be updated everytime something new is put on. 
+
+
+&yOTHER ADVICE&n
+&y------------&n
+As much as possible, do not bother the immortals with questions concerning
+subjects which can be found in the help file. If you find yourself in need of
+help, attempt to contact a mortal for help, a higher level maybe, they should 
+be able and more-than-willing to help you.
+
+
+For further information refer to '&chelp&n' and '&ccommands&n'.
+
+
+&y- By The Officials of PrimalMUD&n
+Special thanx to gabe for writing this file.
+

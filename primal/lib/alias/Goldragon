@@ -1,0 +1,9 @@
+r reload
+c cast 'cure light'
+gh tell gamina heal
+gs tell gamina summon
+h get healing from back
+qh q healing
+hb get healing from bag
+ah get ammo from bag
+gb get bread from bag

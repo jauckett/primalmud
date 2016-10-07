@@ -1,0 +1,43 @@
+qh quaff heal;quaff heal
+cid cast 'id' $1
+cha cast 'holy aid' Icysting
+cms cast 'meteor swarm' $1
+chs cast 'advanced heal' squishy
+cai cast 'armor' Icysting
+bs backstab $1
+tt tell tsd $*
+csg cast 'shocking grasp' $1
+chhb remove sombrero; wear mask
+chh remove mask; wear sombrero
+cd cast 'dragon' Icysting
+ch cast 'heal' $1
+clo cast 'locate object' $1
+css cast 'sleep' $1
+cs cast 'summon' $1
+cii cast 'invisibility' Icysting
+cfb cast 'fireball' $1
+cwr cast 'word of recall' icysting
+gm cast 'create food'; eat mushroom
+ds drink skin
+cdi cast 'detect invisibility' icysting
+cin cast 'infravision' icysting
+jnk get corpse; junk corpse
+cri cast 'refresh' Icysting
+cm cast 'create food'
+ci cast 'invis' $1
+csi cast 'sanctuary' Icysting
+csc cast 'strength' Icysting
+ceq cast 'earthquake'
+qr quaff red
+eme eat mushroom
+qt quaff healing
+ccw cast 'create water' skin
+cpb cast 'plasma blast' $1
+cpo cast 'paralyze' $1
+gac get all corpse;get corpse;junk corpse
+cww remove bee; wield coral
+cw remove coral;wield bee
+cci cast 'cure critic' icysting
+hi hunt icysting
+chi cast 'heal' Icysting
+chk cast 'heal' Kalroth

@@ -1,0 +1,11 @@
+start follow gandalf;autoassist gandalf;wear all;wield halberd
+cf cast 'create food';eat mushroom
+cw cast 'create water' skin;drink skin
+cg cast 'heal' gandalf
+cure cast 'heal'
+sanc cast 'sanctuary'
+arm cast 'armor'
+hg cast 'cure light' gandalf
+rec cast 'word of recall'
+recall cast 'word of recall'
+ref cast 'refresh'

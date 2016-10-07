@@ -1,0 +1,5 @@
+ga get all all.corpse
+rd rem dagger; wield sword
+wd rem sword; wield dagger
+bs backstab $1
+ws rem dagger; wield sword

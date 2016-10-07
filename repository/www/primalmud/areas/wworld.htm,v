@@ -1,0 +1,128 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD>
+<TITLE> West World - PrimalMUD </TITLE>
+</HEAD>
+
+<BODY bgcolor=white text=black>
+<CENTER>
+<B>West World</B> is a wild 
+land for those adventurous souls seeking something different.<BR>
+
+<P>
+<A HREF="#Hope">City of Hope</A><BR>
+<A HREF="#Saloon">Saloon</a><BR>
+<A HREF="#Whore">Whore House</a><BR>
+<A href="#Creek">Blue Creek</a><BR>
+<A HREF="#Fort">Fort Hope</a><BR>
+<P>
+<img src="../letters/separator.gif" width="400" height="18">
+<P>
+<A name=Hope><FONT COLOR=blue><H3>City of Hope</H3></A></FONT>
+<i>Creator - Drax</i><BR> (Levels 1 - 20)<BR>
+<B>Location - This is where you start out in West World.</B><P>
+<U><B>The Zone</B></U>
+<BR>You will see the Sheriff around town and his Deputies keeping the peace. <BR>
+They are good at it cause they got good training from the Mayor, he can afford 
+<BR>to pay for the best men for his town. Check him out if you're game, he is rich!<BR>
+<P><B>Shops</B><BR>
+There are four shops to visit in Hope.<BR>
+<BR>1. The Weapons shop - You can get all the weapons and ammo you need for the wild west here.
+<BR>2. The Millinery - This is where to get your clothes so you fit in here in west world.
+<BR>3. The General Store - This is where you get your supplies to survive the west.
+<BR>4. Uncle Jimmy's Travelling Caravan - He will sell you the tonics and drinks to <BR>solve most problems you have hear.<BR>
+
+<P>
+<HR width=50%>
+
+<A name=Saloon><FONT COLOR=blue><P><H3>Saloon</H3></a></FONT>
+<i>Creator - Ruprect</i><BR>(Levels 1 - 20) <BR>
+<B>Location - West down main street of hope will take you to the saloon.</B><P>
+<B><U>The Zone</U></B><BR>
+Go in for a drink and listen to the Pianist play some tunes for you, <BR>
+he's pretty good.  Watch out if you decide to have a game of poker <BR>
+with the boys, they cheat.  If you look around you can find a place to sleep upstairs <BR>
+and might even run into the boss, I hear he has put a nice tidy stash <BR>
+away somewhere, you just gotta find it.  And then get out without losing it <BR>
+to the poker players or the con artist.
+<BR><BR><B>Shops</B>
+<BR>There is one shop to visit in Saloon.<BR>
+<BR>1.  Behind the bar - You can get a drink here and tell your problems to the bartender.
+
+<P>
+<HR width=50%>
+
+<A Name=Whore><FONT COLOR=Blue><H3>Whore House</H3></FONT></A>
+<i>Creators - Ruprect & Gorilla</I><BR>(Levels 1 - 20)<BR>
+<B>Location - West down main street of hope and just past the saloon</B>
+<P><B><U>The Zone</U></B>
+<BR>Come on in and fill your hearts desire, Candy comes highly recommended, 
+<BR>if the madam will let you see her.  But done push the subject the bouncer here 
+<BR>is a bit of a hothead.  Some of these whores must make some money, them and their 
+<BR>patrons seem to have a bit on them.  Check it out, You might walk away with 
+<BR>a bit more then you expected but it can be cured.<BR>
+
+<P>
+<HR width=50%>
+
+<A NAME=Fort><FONT COLOR=Blue><H3>Fort Hope</H3></FONT></A>
+<i>Creator - TSD</i><BR>(Level 35+)<BR>
+<B>Location - Head south from the City of Hope.</B>
+<P><B><U>The Zone</u></B>
+<BR>This is the main fort defending Hope. 
+<BR>The Colonel has his men on ready for action all the time.  In the morning 
+<BR>you may hear the trumpet blow waking everyone up.  Go up on the lookout 
+<BR>path and you can see for miles, great view. But beware there are also rumours 
+<BR>going around that the cells in here are haunted by an old Indian that was killed in them. 
+<BR>Feel like a ghost hunt?
+
+<P>
+
+<img src="../letters/separator.gif" width="400" height="18">
+
+
+</CENTER>
+
+</BODY>
+
+</HTML>
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

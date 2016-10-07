@@ -1,0 +1,16 @@
+di cast 'detect invis' self
+cc cast 'cure critic' self
+kn k nobleman
+food get bread backpack;drink skin;eat bread
+ct cast 'chill touch' $1
+ff flee
+gg get all.coins all.corpse
+qr get red backpack;q red
+qw get white backpack;q white
+kb kill bandit
+rr cast 'word of recall'
+cf cast 'create food'
+fb cast 'fireball' $1
+rrr recite recall
+hats1 rem helmet; wear sombrero
+hats2 rem sombrero; wear helmet

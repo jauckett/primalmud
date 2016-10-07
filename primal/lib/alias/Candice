@@ -1,0 +1,14 @@
+t track traveller
+cfrv cast 'infravision' self
+rrc get recall backpack; recite recall
+qw take white backpack;quaff white
+qr take red backpack;quaff red
+gac get all corpse
+dw take skin backpack ;drink skin;put skin backpack
+em take meat backpack; eat meat
+ccl cast 'cure light' self
+ccf cast 'create food' self
+ccw cast 'create water' self
+ccs cast 'strength' self
+pab put all backpack
+lbp look in backpack

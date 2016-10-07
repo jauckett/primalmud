@@ -1,0 +1,425 @@
+head	1.7;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	2001.06.30.18.56.03;	author artus;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2001.06.12.05.09.13;	author artus;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2001.06.10.00.48.55;	author artus;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.06.07.11.27.20;	author artus;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.12.01.03.30.13;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.08.04.07.24.21;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.07.06.10.17.21;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Modified: DM
+
+Updated after skills completion
+@
+text
+@(TALI) - make it so that you cannot remove cursed items - you must have a remove
+	 curse spell placed upon the item.
+(TALI) - make spells skills trained to a certain value, and then mastered by use
+
+(TALI) ! damageable eq ...
+
+Removed:
+========
+
+ARCHERY: 		X (TALI - UP TO YOU) - tali questioned
+BOWCRAFT:		X (TALI) - tali questioned
+DISARM TRAPS: 		X (TALI) - tali questioned
+DISGUISE:		X (TALI) - tali in races
+DOUBLE WIELD: 		X (TALI) - this is ambidex!
+FIND TRAPS: 		X (TALI) - part of the SEARCH command/skill
+IMITATION: 		X (TALI) - same as 'disguise' ..?
+MEMORIZE FEATURES: 	X (TALI) - tali questioned
+CAMOUFLAGE: 		  (xxx-ARTUS)
+JUMP 			  (xxx-DM)
+SENSE WEAKNESS: 	  (xxx-TALI) - Hmm.. 
+TAXIDERMY: 		  (xxx-DMOC)	
+SKILLED MIND: 		  (xxx-DM)
+
+WANDMAKING: 		  (xxx-TALI) - Need to make an empty item that I can load and modify
+>> Make this speedwalk creation .... 
+
+HERBAL INVISIBILITY	  (xxx-TALI) - make an item that when quaffed/eaten will make invis
+HERBAL SEE INVISIBLE:	  (xxx-TALI) - make an item that when quaffed/eaten will cast see invis
+>> OK, put invalid_level check in do_use - for quaff/use/recite 
+>> TODO - make items ...
+
+
+WILDERNESS SURVIVAL: 	  (xxx-TALI)
+> To similar to camping - not done
+
+
+Unknown:
+========
+
+CONTROL SUMMONING: 	? (TALI) - wtf is this?
+HACK-N-SLASH:	 	? (TALI) - wtf is this?
+
+Complete:
+=========
+
+ADRENALINE: 		! (DM)
+AMBUSH:   		! (xxx-DM) - damage formula
+ARMORCRAFT:		! (TALI)	 
+ATTEND WOUNDS: 		! (xxx-DM) - healing formula
+AXE MASTERY:		!  (TALI)
+BATTLECRY:		! (xxx-DM) - chance formulas for skills 
+BARGAIN:		! (TALI) 
+BEARHUG                 ! (xxx-DM) - damage formulas
+BLADE MASTERY: 		! (TALI)
+BODYSLAM: 		! (xxx-DM) - damage formulas
+CAMPING: 		! (TALI)
+CLOT WOUNDS:		! (xxx-DM) - add heal formula, timer added for
+                                TIMER_HEALING_SKILLS
+CONCEAL SPELL CASTING:	! (TALI)
+DARK RITUAL:		! (TALI)
+DEFEND:			! (TALI)
+DOUBLE BACKSTAB:	! (TALI)
+DOUBLE KICK:		! (TALI) 
+HEADBUTT                ! (xxx-DM) - damage formulas
+HEALING EFFICIENCY: 	! (TALI) - Check for skill, and when casting healing spells, more effect
+MASTERY OF HEALING:     ! (TALI)- Check for skill, test skill, and heal them faster
+MOUNTAINEER:  		! (TALI)
+PILEDRIVE               ! (xxx-DM) - damage formulas
+PURSE EVALUTAION:  	! (DMOC)
+SENSE CURSE: 		! (TALI) - everything in room
+SENSE STATS: 		! (TALI) - base class - make identify remort class
+TRIP                    ! (xxx-DM) - damage formulas
+WEAPONCRAFT: 		! (TALI)
+
+DISARM: 		  (xxx-DM)
+FIRST AID: 		  (xxx-DM)
+FLYING TACKLE:		  (xxx-DM)
+BESERK: 		  (xxx-ARTUS)	
+COMPOSTING:		  (xxx-ARTUS)
+CREATE PITFALL:		  (xxx-ARTUS)
+HAND OF EVIL POISON: 	  (xxx-DM)
+SLIP: 			  (xxx-ARTUS)
+TUMBLE:  		  (xxx-DM)
+MEDITATION: 		  (xxx-DM) - related to healing trance
+ZAPPING: 		  (xxx-DM) -- Restrict use instead.
+				> restricted to class/mage classes ...
+GLANCE:			  (xxx-ARTUS) - Should be done.. Needs testing.
+HEAR NOISES:		  (xxx-ARTUS) - Will have to look into this to intelligently give info back
+MASTERY OF MEDICINE: 	  (xxx-TALI) - Check for skill, and when casting healing spells more effect
+MASTERY OF SHIELDING: 	  (xxx-DM) - Check for shield, and if used, give them an AC bonus  
+POWER KICK:    		  (xxx-DM)
+TORCH CREATION: 	  (xxx-DM) - need to create new torch object for skill
+SUICIDE:       		  (xxx-DMOC) - Think it is done - couldnt find em - DM
+SLEIGHT: 		  (xxx-DMOC) - Think it is done - couldnt find em - DM 
+HEALING TRANCE:		  (xxx-TALI) - Artus - Should be done, scmd of meditate.
+PERCEVING EYE:		  (xxx-DM) - Artus - Should be fine.. CAN_SEE_OBJ needs spells.h for SKILL_PERCEPTION
+POSSESSIONS: 		  (xxx-DM) - Artus> Glance does this?
+HURL AXES:		  (xxx-TALI) - .. see if DM can do this
+AMBIDIDEXTERITY:	  (xxx-DM,ARTUS) - dual wield etc ...) 
+
+Incomplete:
+===========
+
+ * * * * PrimalMUD Mail System * * * *
+ Date: Thu Jun  7 20:32:32 2001
+   To: dangermouse
+   From: kreep
+
+   Hi DM
+
+   I died twice yesterday and someone got the wrong corpse for me. Can you perhaps
+   recreate some eq for me please? Here's my list:
+   1 soul crystal, 1 ppg, 2 cloak of thorns, 2 seeded rings,
+   2 motorbike chains, 1 diamond plate, 1 mechanical claw,
+   1 unearthly red jewel, 1 gum boots, 1 set of strong biceps
+   1 ring of thorns (the shield)
+   I don't remember everything I lost, but will get the rest myself anyway.
+
+   Thanks
+   Kreep
+@
+
+
+1.6
+log
+@Artus - Just a comment on possessions..
+@
+text
+@d32 5
+d95 5
+a102 8
+
+AMBIDIDEXTERITY:	  (xxx-TALI) - dual wield etc ...) 
+HEALING TRANCE:		  (xxx-TALI) - Check for skill, test skill, and heal them faster
+HURL AXES:		  (xxx-TALI) - .. see if DM can do this
+PERCEVING EYE:		  (xxx-DM) - hidden items/mobs/doors ... TALI! 
+POSSESSIONS: 		  (xxx-DM) - Artus> Glance does this?
+WILDERNESS SURVIVAL: 	  (xxx-TALI)
+
+@
+
+
+1.5
+log
+@Updated..
+@
+text
+@d22 1
+a52 1
+SKILLED MIND: 		  (xxx-DM)
+d87 1
+a87 1
+TORCH CREATION: 	  (xxx-DMOC)
+d89 1
+d98 1
+a98 2
+POSSESSIONS: 		  (xxx-DM)
+SLEIGHT: 		  (xxx-DMOC) - Think it is done - couldnt find em - DM 
+@
+
+
+1.4
+log
+@Modified: DM
+
+Latest version - 10 remaining?
+@
+text
+@d26 5
+d88 1
+a94 2
+HERBAL INVISIBILITY	  (xxx-TALI) - make an item that when quaffed/eaten will make invis
+HERBAL SEE INVISIBLE:	  (xxx-TALI) - make an item that when quaffed/eaten will cast see invis
+a98 1
+SUICIDE:       		  (xxx-DMOC) - Think it is done - couldnt find em - DM
+d100 19
+@
+
+
+1.3
+log
+@
+Changed:
+- Updated status
+@
+text
+@d18 7
+d44 1
+d47 1
+d66 17
+d87 1
+a87 10
+AMBIDIDEXTERITY:	  (xxx-TALI - dual wield etc ...) 
+BESERK: 		  (xxx-ARTUS)	
+BODYSLAM: 		  (xxx-DM)
+CAMOUFLAGE: 		  (xxx-ARTUS)
+COMPOSTING:		  (xxx-ARTUS)
+CREATE PITFALL:		  (xxx-TALI) - Need an item to load and SPEC_PROC
+FIRST AID: 		  (xxx-DM)
+FLYING TACKLE:		  (xxx-DM)
+GLANCE:			  (xxx-ARTUS)
+HAND OF EVIL POISON: 	  (xxx-DM)
+a88 1
+HEAR NOISES:		  (xxx-TALI) - Will have to look into this to intelligently give info back
+d90 1
+a90 1
+HERBEL SEE INVISIBLE:	  (xxx-TALI) - make an item that when quaffed/eaten will cast see invis
+d92 1
+a92 5
+JUMP 			  (xxx-DM)
+MASTERY OF MEDICINE: 	  (xxx-TALI) - Check for skill, and when casting healing spells more effect
+MASTERY OF SHIELDING: 	  (xxx-TALI) - Check for shield, and if used, give them an AC bonus  
+MEDITATION: 		  (xxx-DM)
+PERCEVING EYE:		  (xxx-DM)   
+d94 2
+a95 10
+POWER KICK:    		  (xxx-DM)
+SENSE WEAKNESS: 	  (xxx-TALI) - Hmm.. 
+SKILLED MIND: 		  (xxx-DM)
+SLEIGHT: 		  (xxx-DMOC) - Think it is done
+SLIP: 			  (xxx-DMOC)
+SUICIDE:       		  (xxx-DMOC) - Think it is done
+TAXIDERMY: 		  (xxx-DMOC)	
+TORCH CREATION: 	  (xxx-DMOC)
+TUMBLE:  		  (xxx-DM)
+WANDMAKING: 		  (xxx-TALI) - Need to make an empty item that I can load and modify
+a96 1
+ZAPPING: 		  (xxx-DM)
+@
+
+
+1.2
+log
+@
+Added:
+- primalBuilding.txt (the primal building document with mods for latest values
+  for items
+
+Changed:
+- Reformatted and updated TODOnewskills
+@
+text
+@d29 1
+a29 1
+AMBUSH:   		! (DM) - damage formula
+d31 1
+a31 1
+ATTEND WOUNDS: 		! (DM)
+d33 1
+a33 1
+BATTLECRY:		! (DM) - chance formulas for skills 
+d35 1
+a35 1
+BEARHUG                 ! (DM) - damage formulas
+d38 1
+a38 1
+CLOT WOUNDS:		! (DM) - add heal formula, timer added for
+d45 1
+a45 1
+HEADBUTT                ! (DM) - damage formulas
+d49 1
+a49 1
+PILEDRIVE               ! (DM) - damage formulas
+d53 1
+a53 1
+TRIP                    ! (DM) - damage formulas
+d56 2
+d62 1
+a62 1
+BESERK: 		  (xxx-DM)	
+d64 2
+a65 2
+CAMOUFLAGE: 		  (xxx-DM)
+COMPOSTING:		  (xxx-DM)
+a66 1
+DISARM: 		  (xxx-DM)
+d69 1
+a69 1
+GLANCE:			  (xxx-DM)
+@
+
+
+1.1
+log
+@
+Changed:
+- Directory cleanup
+
+TODO:
+- Make README and filenaming standards
+@
+text
+@d2 1
+a2 2
+	curse spell placed upon the item.
+(TALI) - damageable eq ...
+d5 1
+d7 86
+a92 70
+ADRENALINE: 		!(DM)
+AMBIDIDEXTERITY:	(TALI - dual wield etc ...) 
+AMBUSH:   		!(DM) - damage formula
+ARCHERY: 		(TALI - UP TO YOU) - tali questioned
+ARMORCRAFT:		(TALI)	 
+ATTEND WOUNDS: 		!(DM)
+AXE MASTERY:		(TALI)
+BATTLECRY:		!(DM) - chance formulas for skills 
+BARGAIN:		(TALI)
+BEARHUG                 !(DM) - damage formulas
+BESERK: 		(DM)	
+BLADE MASTERY: 		(TALI)
+BODYSLAM: 		(DM)
+BOWCRAFT:		(TALI) - tali questioned
+CAMOUFLAGE: 		(DM)
+CAMPING: 		(TALI)
+CLOT WOUNDS:		(DM)
+COMPOSTING:		(DM)
+CONTROL SUMMONING: 	(TALI)
+CONCEAL SPELL CASTING:	(TALI)
+CREATE PITFALL:		(TALI)
+DARK RITUAL:		(TALI)
+DEFEND:			(TALI)
+DISARM: 		(DM)
+DISARM TRAPS: 		(TALI) - tali questioned
+DISGUISE:		(TALI) - tali in races
+DOUBLE BACKSTAB:	(TALI)
+DOUBLE KICK:		(TALI)
+DOUBLE WIELD: 		(TALI)
+FIND TRAPS: 		(TALI)
+FIRST AID: 		(DM)
+FLYING TACKLE:		(DM)
+GLANCE:			(DM)
+HACK-N-SLASH:		(TALI)
+HAND OF EVIL POISON: 	(DM)
+HEADBUTT                !(DM) - damage formulas
+HEALING EFFICIENCY: 	(TALI)
+HEALING TRANCE:		(TALI)
+HEAR NOISES:		(TALI)
+HERBAL INVISIBILITY	(TALI)
+HERBEL SEE INVISIBLE:	(TALI)
+HURL AXES:		(TALI)
+IMITATION: 		(TALI)
+JUMP 			(DM)
+MASTERY OF HEALING TRANCE: (TALI)
+MASTERY OF MEDICINE: 	(TALI)
+MASTERY OF SHIELDING: 	(TALI)   
+MEDITATION: 		(DM)
+MEMORIZE FEATURES: 	(TALI) - tali questioned
+MOUNTAINEER:  		(TALI)
+PERCEVING EYE:		(DM)   
+PILEDRIVE               !(DM) - damage formulas
+POSSESSIONS: 		(DM)
+POWER KICK:    		(DM)
+PURSE EVALUTAION:  	(DM)
+SENSE CURSE: 		(TALI) - everything in room
+SENSE STATS: 		(TALI) - base class - make identify remort class
+SENSE WEAKNESS: 	(TALI)
+SKILLED MIND: 		(DM)
+SLEIGHT: 		(DM)
+SLIP: 			(DM)
+SUICIDE:       		(DM)
+TAXIDERMY: 		(DM)	
+TORCH CREATION: 	(DM)
+TRIP                    !(DM) - damage formulas
+TUMBLE:  		(DM)
+WANDMAKING: 		(TALI)
+WEAPONCRAFT: 		(TALI)
+WILDERNESS SURVIVAL: 	(TALI)
+ZAPPING: 		(DM)
+@
+

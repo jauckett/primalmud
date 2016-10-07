@@ -1,0 +1,52 @@
+q1 cast 'cure critic' crackedone
+a1 assist pluk
+ktr kill trickster
+gm get all.coins all.corpse
+recall get recall crate ; recite recall
+qb get blue crate ; q blue
+qw get white crate ; q white
+qr get red crate ; q red
+qy get yellow crate ; q yellow
+nw remove wand ; junk wand ; get wand crate ; hold wand
+th get skin crate ; drink skin ; put skin crate
+wn remove wand ; junk wand ; get wand crate ; hold wand
+invi use wand self
+bless cast 'bless'
+a2 assist yoki
+kw ba warrior
+uw use wand guard
+ccy cast 'cure critical' yoki
+ccp cast 'cure critical' pluk
+as assist yoki
+cure cast 'cure light'
+wa remove dagger;wield axe
+uf use flute
+stab remove hammer;wield dagger; backstab ogre;remove dagger;wield hammer;kill ogre
+map get map backpack;look map;put map backpack
+arm cast 'armor'
+ko kill ogre
+qg get green backpack;quaff green
+ks kill spider
+kj kill janitor
+kc kill citizen
+kz kill zombie
+jc get corpse;junk corpse
+light take lantern from backpack;hold lantern
+bp look in backpack
+inf cast 'infravision'
+gc get all all.corpse
+wh remove dagger;wield halberd
+ca cast 'detect alignment'
+1 recite recall
+cc cast 'cure critical'
+wk remove soaker ; wield knife
+km ba merchant
+ke ba enfan
+ws remove vorpal ; wield soaker
+wv remove soaker ; wield vorpal
+cf cast 'create food'
+hu cast 'create food' ; eat mushroom
+kb kill bandit
+kg kill guard
+kt kill traveller
+cs cast 'color spray'

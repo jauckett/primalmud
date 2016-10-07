@@ -1,0 +1,97 @@
+t track  treant 
+a assist  jaddie 
+tav cast 'word of recall';w;n;e;e;e;e;e;s
+gmaze e;e;e;open wall;n;u;w;w;w;w;s;s;s;s;e;e;e;e;n;n;n;n;u
+rmaze w;w;w;w;s;e;s;e;n;e;e;s;w;s;e;n;w;s;e;s;w;w;n;w;w;s;s;e;e;e
+cww cast 'waterwalk' $*
+cfe cast 'fear' $*
+wb get bracelet crate ; rem life ; put life crate ; wear bracelet
+wl get life crate ; rem bracelet ; wear life ; put bracelet crate
+cwat cast 'waterwalk' $*
+ccli cast 'call lightning' $*
+cdg cast 'dispel good' $*
+qr get red crate ; q red
+oow get skin crate ; cast 'create water' skin ; drink skin ; put skin crate
+cr cast 'refresh' $*
+gdri w ; w ; w ; w ; w ; w ; w ; w ; w ; w ; n ; n ; n ; w ; w ; s ; s ; w ; w ; w ; w ; w ; s ; d
+fs get skin crate ; pour skin out ; fill skin fountain ; put skin crate ; drink fountain ; drink fountain
+tc tell catalina $*
+cdp cast 'detect poison' $*
+crp cast 'remove poison' $*
+k get black crate ; rem sword ; wi black ; backstab $* ; rem black ; wi sword ; put black crate
+cconw cast 'control weather' $*
+uw get wand crate ; rem enlibrite ; hold wand ; use wand $* ; rem wand ; put wand crate ; hold enlibrite
+re alias r rescue $* ; rescue $*
+cear cast 'earthquake'
+si get ring crate ; get ring crate ; rem granite ; rem granite ; put granite crate ; put granite crate ; wear ring ; wear ring
+sg rem ring ; rem ring ; get granite crate ; get granite crate ; wear granite ; wear granite ; put ring crate ; put ring crate
+level grats <<<<<<<<<<  $*!!!  >>>>>>>>>>
+id get identify crate ; recite identify $*
+em get meat crate ; get meat crate ; eat meat ; eat meat ; put meat crate ; put meat crate
+dw get skin crate ; drink skin ; put skin crate
+qw get white crate ; quaff white
+ci exa crate
+pac put all crate
+cew cast 'enchant weapon' $*
+crc cast 'remove curse' $*
+cga cast 'group armor'
+cgh cast 'group heal'
+gu wake ; stand
+gkeep s ; e ; e ; s ; s ; s ; e ; e ; s ; s ; s ; s ; s ; s ; s ; s ; s ; s ; s ; e ; e ; e ; e ; e ; e ; e ; e ; e ; e ; n ; e ; n
+cde cast 'dispel evil' $*
+f flee
+as alias a assist $* ; assist $*
+ch cast 'heal' $*
+clo cast 'locate object' $*
+tr alias t track $* ; track $*
+ccc cast 'cure critic' $*
+cda cast 'detect alignment' $*
+ccf cast 'create food'
+cmm cast 'magic missile' $*
+cdi cast 'detect invisibility'
+cct cast 'chill touch' $*
+cdm cast 'detect magic'
+cinf cast 'infravision'
+ccl cast 'cure light' $*
+ccw cast 'create water' skin
+csg cast 'shocking grasp' $*
+csum cast 'summon' $*
+ccs cast 'color spray' $*
+cs cast 'strength' $*
+deal emote spits on his hand ; shake $*
+cf cast 'fireball' $*
+car cast 'armor' $*
+emush ; cast 'create food' ; cast 'create food' ; cast 'create food' ; cast 'create food' ; cast 'create food' ; eat mushroom ; eat mushroom ; eat mushroom ; eat mushroom ; eat mushroom
+of order followers $*
+cha cast 'harm' $*
+nt title The Ever Tired Elven Mage
+ced cast 'energy drain' $*
+csa cast 'sanctuary' $*
+grome s ; e ; e ; s ; s ; s ; e ; e ; s ; s ; s ; s ; s ; s ; s ; s ; s ; s ; s ; w ; w ; w ; w ; w ; w
+gsteep w ; w ; w ; w ; w ; w ; w ; w ; w ; w ; n ; n ; n ; w ; w ; s ; s ; w ; w ; w ; w ; w ; s ; w ; w ; w ; n ; w ; w
+grands w ; s ; s ; e ; e ; e ; e ; e ; e ; e ; sleep
+gway n ; n ; n ; w ; w ; n ; w ; w ; w ; s ; open door ; sleep
+gtoy n ; n ; n ; w ; w ; n ; n ; n ; n ; n ; n ; n ; w ; w ; u ; u ; u ; u ; e ; sleep
+gfor w ; w ; w ; w ; w ; w ; w ; w ; w ; w ; s ; s ; e ; s ; s ; s ; s ; s
+cwor cast 'word of recall' $*
+ccp cast 'charm person' $*
+oc order catalina $*
+cinv cast 'invisibility' $*
+esc get recall crate ; recite recall
+cbl cast 'bless'
+cat smile catalina ; hug catalina ; kiss catalina ; embrace catalina ; french catalina
+gac get all $1.corpse
+ggc get gold $1.corpse
+cah cast 'advanced heal' $*
+ctel cast 'teleport' $*
+tavs rem bracelet ; put bracelet crate ; get life crate ; wear life ; sleep
+tavw wake ; stand ; get bracelet crate ; rem life ; put life crate ; wear bracelet
+begin s;s;s;s;cast 'detect invisibility';get crate;get all.granite;open crate;put all.granite crate;get life;put life crate;get all;wear all;get all;wear all;hold enlibrite;hold pen;wi sword;put all crate;get all;wear all;put all crate
+trh tell robohelp heal
+trb tell robohelp bless
+cfod cast 'finger' $*
+csl cast 'sleep' $*
+r rescue  
+bo brieff off
+bof brief off
+bon brief on

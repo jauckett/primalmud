@@ -1,0 +1,177 @@
+#25000
+citizen~
+the citizen~
+A citizen of Tatooine is here, going about his business.
+~
+This citizen is probably one of the desert vapor farmers, but he
+doesn't look like he wants to be bothered by you.
+~
+2120 0 0 E
+6 13 11 1d12+73 4d6+3
+100 1300
+8 8 1
+E
+#25001
+imperial stormtrooper trooper~
+an Imperial Stormtrooper~
+An Imperial Stormtrooper is standing here, upholding Imperial law.
+~
+The stormtrooper is wearing highly polished white armor. Stormtroopers
+are known to be very tough and have been extremely well trained in the
+Empire's top military base. You should think twice before trying to 
+take out one of these guys.
+~
+6360 1024 0 E
+20 0 7 1d12+248 9d9+7
+10000 40000
+8 8 1
+E
+#25002
+jawa~
+a jawa~
+A jawa is standing here, trying to sell you a droid.
+~
+The Jawa is very short and is wearing a brown, hooded cloak that
+covers its whole body. All you can see of its face are its glowing
+eyes that shine out from under its hood.
+~
+12 1024 0 E
+7 12 11 1d11+86 5d6+4
+150 2200
+8 8 0
+E
+#25003
+bartender~
+the bartender~
+The bartender is standing here, tending bar.
+~
+He stands behind the bar with an unhappy look on his face. 
+He looks as if some of his custoners scare him...
+~
+2122 33554472 0 E
+25 0 5 1d49+701 12d12+9
+8000 90000
+8 8 1
+E
+#25004
+hammerhead ithorian~
+the ithorian~
+A hammerheaded Ithorian is leaning against the bar here.
+~
+This Ithorian, like all ithorians, haa a strange hammer shaped head.
+He looks like he spends alot of time here in the cantina, drinking 
+Ithorian ale.
+~
+2122 0 0 E
+15 6 8 1d11+186 8d8+6
+9000 20000
+8 8 1
+E
+#25005
+alien~
+a strange alien~
+A strange walrus-faced alien is standing here, growling at you.
+~
+This strange alien is of a race unknown to you but already you don't
+think you like him, and you can tell from the way he is looking at you
+that he definatly doesn't like you.
+~
+2122 0 -450 E
+16 2 9 1d12+198 4d12+6
+1000 20500
+8 8 0
+E
+#25006
+wookiee~
+a wookiee~
+A large hairy wookiee is standing here, growling.
+~
+Wookiees are large hairy beasts from the jungle world of Kashyyyk.
+This wookie stands at least 7 feet tall and looks incredibly strong.
+~
+2074 0 400 E
+25 0 5 1d49+701 15d15+11
+8000 80000
+8 8 0
+E
+#25007
+greedo~
+Greedo~
+Greedo the bounty hunter is standing here.
+~
+Greedo is a green skinned Rodian who is a known bounty hunter, 
+but he is also known to be very bad at his job.
+~
+2282 1024 -500 E
+25 0 5 1d49+701 15d15+12
+8000 80000
+8 8 0
+E
+#25008
+han solo~
+Han Solo~
+Han Solo the notorious smuggler, is sitting here.
+~
+Han Solo is a known spice smuggler for the crime boss Jabba the Hutt.
+He is also known to smuggler passengers ocasionally. He is sitting in 
+the pilots seat making some last minute calculations for the jump to
+light speed.
+~
+26634 128 500 E
+31 -5 3 2d49+951 15d18+15
+25000 250000
+6 6 1
+E
+#25009
+shopkeeper~
+the blue-skinned shopkeeper~
+A blue-skinned shopkeeper is here, trying to sell you something.
+~
+This blue-skinned creature seems to be the owner of the shop.
+He is looking at you trying to decide how much you are worth.
+~
+4382794 33554492 0 E
+30 0 3 1d49+901 14d18+15
+15000 250000
+8 8 0
+E
+#25010
+shopkeeper~
+the blue-skinned shopkeeper~
+A blue-skinned shopkeeper is here, trying to sell you something.
+~
+This blue-skinned creature seems to be the owner of the shop.
+He is looking at you trying to decide how much you are worth.
+~
+188490 33554620 0 E
+30 0 3 1d49+901 14d18+15
+15000 250000
+8 8 0
+E
+#25011
+shopkeeper~
+the blue-skinned shopkeeper~
+A blue-skinned shopkeeper is here, trying to sell you something.
+~
+This blue-skinned creature seems to be the owner of the shop.
+He is looking at you trying to decide how much you are worth.
+~
+254026 33554620 0 E
+30 0 3 1d49+901 14d18+15
+15000 250000
+8 8 0
+E
+#25012
+jedi shopkeeper~
+an old Jedi Knight~
+An old Jedi Knight is standing here, hoping to share is wisdom with you.
+~
+He looks very, very old. He is dressed in an old Jedi robe and he
+has a light sabre on his belt. You get a very good feeling from him.
+~
+254026 33554494 1000 E
+30 0 3 1d9+1500 14d18+15
+15000 250000
+8 8 0
+E
+$

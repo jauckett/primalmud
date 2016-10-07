@@ -1,0 +1,160 @@
+5
+alert
+17
+cast 'sense life'
+0
+4
+clot
+19
+cast  'clot wounds'
+0
+4
+gala
+12
+get ala back
+0
+4
+good
+18
+cast 'dispel good'
+0
+5
+dgood
+18
+cast 'dispel good'
+0
+11
+sensehealth
+18
+cast 'sense wound'
+0
+4
+evil
+18
+cast 'dispel evil'
+0
+7
+blessya
+15
+cast 'bless' $1
+1
+7
+blesysa
+16
+cast 'bless'  $1
+1
+5
+bless
+13
+cast 'bless' 
+0
+8
+remcurse
+22
+cast 'remove curse' $1
+1
+4
+spir
+11
+cast 'spir'
+0
+7
+enchant
+17
+cast 'enchant' $1
+1
+5
+water
+24
+cast 'create water' skin
+0
+7
+refresh
+14
+cast 'refresh'
+0
+4
+food
+18
+cast 'create food'
+0
+4
+cure
+19
+cast 'cure crit' $1
+1
+2
+hb
+17
+put all.heal back
+0
+2
+rr
+13
+cast 'recall'
+0
+3
+san
+11
+cast 'sanc'
+0
+2
+hh
+11
+cast 'heal'
+0
+4
+gton
+13
+get heal back
+0
+4
+gwhi
+14
+get white back
+0
+2
+id
+12
+recite id $1
+1
+6
+dinvis
+17
+cast 'detect inv'
+0
+6
+locate
+16
+cast 'locate' $1
+1
+2
+cc
+18
+cast 'cure critic'
+0
+6
+summon
+16
+cast 'summon' $1
+1
+3
+gac
+17
+get all in corpse
+0
+5
+sheal
+15
+say heal please
+0
+2
+ss
+17
+say spells please
+0
+5
+infra
+12
+cast 'infra'
+0

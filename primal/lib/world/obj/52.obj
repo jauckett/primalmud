@@ -1,0 +1,464 @@
+#5200
+twig stick~
+twig stick~
+A long twig lies here in the dirt.~
+~
+9 66560 16385
+3 0 0 0
+2 7900 790
+E
+twig stick~
+A smll brown twig that looks relatively useless
+~
+A
+5 2
+A
+2 2
+A
+19 2
+A
+18 2
+A
+14 -30
+L 52
+#5201
+lion skin~
+a lion's skin~
+A spotted lion's skin lies here.~
+~
+9 66561 3073
+4 0 0 0
+5 9000 900
+E
+lion skin~
+A spotted, furry piece of skin.
+~
+A
+1 2
+A
+13 25
+A
+19 3
+A
+2 -2
+L 55
+#5202
+shimmering skin~
+a shimmering skin~
+A shimmering piece of skin lies here.~
+~
+20 1 1 
+900000 0 0 0
+0 0 0
+L 0
+#5203
+cloak dark dusty~
+a dark dusty cloak~
+A dark and dusty cloak lies here~
+~
+9 630 5
+3 0 0 0
+2 59000 5900
+E
+cloak dark dusty~
+This dark and dusty cloak smells and looks putrid
+~
+A
+18 2
+A
+19 2
+A
+9 5
+A
+2 -2
+A
+12 50
+L 58
+#5204
+red glowing eyes~
+a pair of red glowing eyes~
+a trange pair of red glowing eyes lie here.~
+~
+25 1 17
+5205 0 0 5206
+6 20000 2000
+E
+red glowing eyes~
+These strange pair of glowing eyes look like they can be made
+into an even finer item
+~
+A
+19 4
+A
+1 2
+A
+5 2
+A
+13 50
+A
+12 -50
+A
+17 -2
+L 58
+#5205
+cluster jewels treasure~
+a cluster of jewels~
+A cluster of jewels lie here~
+~
+25 1 16385
+5204 0 0 5206
+10 53000 5300
+E
+cluster jewels treasure~
+A large cluster of jewels that fit perfectly with the glowing red eys.
+~
+A
+18 3
+A
+2 3
+L 55
+#5206
+red unearthly uneartly jewel~
+an unearthly red jewel~
+An unearthly red jewel lies here~
+~
+9 641 16401
+4 0 0 0
+6 10000 1000
+E
+red unearthly uneartly jewel~
+This rare item looks totally evil and magical as it glows in the
+sunlight
+~
+A
+19 5
+A
+18 3
+A
+13 80
+A
+5 -3
+L 59
+#5207
+hooves dragon horse~
+a pair of dragon hooves ~
+A pair of pink tinged dragon hooves lie here~
+~
+9 3105 65
+4 0 0 0
+12 6000 6000
+E
+hooves dragon horse~
+These beautiful pink hooves would make a fine trophy
+~
+A
+4 2
+A
+19 1
+A
+12 50
+A
+12 -20
+L 55
+#5208
+tail ball catoblepas~
+catoblepas's tail~
+The catoblepas's tail lies here.~
+~
+9 8 16385
+3 0 0 0
+5 43600 4630
+E
+tail catoblepas~
+This hard tip of the catoplepas's tail looks like it could inflict
+a great deal of damage.
+~
+A
+19 2
+A
+18 1
+A
+13 50
+L 50
+#5209
+gloves pazuzu~
+pazuzu's gloves~
+Pazuzu's gloves lie here.~
+~
+9 3073 129
+5 0 0 0
+8 20000 2000
+E
+pazuzu gloves~
+These mighty gloves onced belonged to a great god of the skies.
+~
+A
+1 2
+A
+3 -3
+A
+13 80
+A
+19 1
+A
+18 5
+A
+14 -30
+L 59
+#5210
+crystal cloud bracelet~
+a crystal cloud bracelet~
+a unique crystal cloud bracelet lies here.~
+~
+9 3078 4097
+4 0 0 0
+5 60000 6000
+E
+crystal cloud bracelet~
+This clear and unigue braclet has a strange aura.
+~
+A
+19 2
+A
+18 4
+A
+5 2
+A
+2 -1
+A
+12 70
+L 60
+#5211
+silver club~
+a silver club~
+A heavy silver club lies here.~
+~
+5 1153 8193
+0 11 5 6
+10 17500 8750
+E
+silver club~
+This shinning club has very few dints or scratches on it.
+~
+A
+1 2
+A
+4 2
+A
+19 6
+A
+18 7
+A
+12 -20
+A
+13 20
+L 55
+#5212
+Pazuzu silver orb~
+Pazuzu's silver orb~
+Pazuzu's silver orb lies here~
+~
+24 3073 16385
+60 0 0 3
+4 109222 10090
+E
+pazuzu's silver orb~
+This magical orb shines brightly in the sunlight.
+~
+A
+13 100
+A
+18 3
+A
+17 -4
+A
+19 3
+
+L 65
+#5213
+armplates stone arm plates~
+a pair of stone armplates~
+A pair of stone armplates lie here.~
+~
+9 3200 257
+9 0 0 0
+12 6600 6060
+E
+armplates stone~
+These strong stone armplates look like they will withstand any blow.
+~
+A
+12 30
+A
+19 4
+A
+18 5
+A
+5 -2
+A
+13 -20
+L 56
+#5214
+golden coat~
+a golden coat~
+A golden coat lies here.~
+~
+20 1 1 
+900000 0 0 0
+0 0 0
+L 0
+#5215
+sash golden waistband~
+a golden sash~
+A beauiful golden sash lies here~
+~
+24 3200 2049
+36 34 0 -1
+15 110000 100100
+E
+golden sash~
+This magnificent sash has a strange and glowing aura.~
+A
+4 2
+A
+13 -20
+A
+19 3
+A
+18 3
+A
+23 -4
+L 60
+#5216
+golden orb~
+a golden orb~
+A golden orb lies here.~
+~
+1 3200 16385
+5 0 0 -1
+15 42000 4200
+E
+golden orb~
+This shinning orb looks like it could lead you through darkness.
+~
+A
+12 100
+A
+4 3
+A
+18 4
+A
+13 -20
+L 50
+#5217
+slender sword~
+a slender sword~
+A slender sword lies here on the ground.~
+~
+5 1025 8193
+0 9 6 11
+10 10500 1050
+E
+slender sword~
+This thin bladed sword looks like it could cut through your flesh
+with one quick flick of the hand.
+~
+A
+19 6
+A
+18 8
+A
+12 30
+A
+13 -20
+A
+1 -2
+L 49
+#5218
+necklace topaz~
+a topaz necklace~
+A topaz necklace lies here.~
+~
+9 1025 5
+4 0 0 0
+11 66000 6000
+E
+topaz necklace~
+This unusually molded necklace shines brightly in the sunlight.
+~
+A
+18 5
+A
+12 50
+A
+5 -1
+L 55
+#5219
+topaz shield~
+a topaz shield~
+A topaz shield lies here in the dirt.~
+~
+9 1025 513
+8 0 0 0
+20 10100 9000
+E
+shield topaz~
+This strong topaz shield glows brightly in the light.
+~
+A
+1 2
+A
+19 5
+A
+18 3
+A
+13 30
+A
+12 -30
+A
+14 -30
+L 58
+#5220
+dragon cloud tail~
+a cloud dragon's tail~
+A cloud dragon's tail lies here.~
+~
+9 1025 1029
+6 0 0 0
+15 10000 7000
+E
+cloud dragon tail~
+This tail of a rare and unusual cloud dragon glows a magnificent white.
+~
+A
+1 2
+A
+19 2
+A
+18 5
+A
+12 100
+A
+13 -40
+L 62
+#5221
+feathered feather robe~
+a feathered robe~
+A pile of feathers lie here.~
+~
+9 1152 1029
+9 0 0 0
+2 23970 4794
+E
+feathers robe feathered~
+This pile of bird's feathers look like they could make a nice robe.
+~
+A
+12 100
+A
+13 100
+A
+18 2
+L 55
+#99999
+$~

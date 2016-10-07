@@ -1,0 +1,179 @@
+m tell muldar You sense a trail $*
+mdir tell muldar You sense a trail %1
+%1 tell muldar You sense a trail down from here!
+bgrat grat $1! $1! Go $1!!!
+hh hunt $1.servant;hunt
+@ mail mitso
+wwb cast 'wat' self
+pb cast 'pla' $1
+su cast 'summon' $1
+rd cast 'word' dying
+sumfol c 'summon' $1;fol $1
+sta get stake crate;rem sword;wield stake;slay $1;rem stake;wield sword;put stake crate;
+n;recite identify lich;s
+sil get silver crate;rem sword;wield silver;slay $1;rem silver;wield sword;put silver crate
+kr kick receptionist
+word cast 'word' $1
+ka kick apprentice
+srl $1;steal ring lich;$2
+$$1;steal ring lich;$2
+up wa;st
+sl sleep
+slb cast 'sense life' self
+kw kick wicked
+hl cast 'heal' lahn
+kn kick nunu
+k kick $1
+kk kick knight
+kd kick dragon
+hs hunt $1.stone;hunt
+d2book w;w;u;u;u;u;e;e;s;w;s;w;w;s;go book;u;u;u;u;u
+t2d n;w;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;cast 'regen' self;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n
+recall : closes his eyes and utters the words, 'inset candusqirr'.;: disappears.
+ex exp
+cp use broom $1
+hj hunt joe
+gl get $1 crate;give $1 lahn
+shit : shits a brick.
+meow holler MMMMMMEEEEEEOOOOOOWWWWWW!!!!!!
+howl holler HHHHHHOOOOOOWWWWWWLLLLLL!!!!!!
+sgp steal gold pirate
+rv rem vorpal
+ag assist grimreaper
+8 n;recite scroll troll;s
+3 get identify crate;recite identify $1
+tp tr pirate
+red get red crate;q red
+tt track tree
+' scan
+blue get bag crate;get blue bag;q blue;put bag crate
+trw track wolf
+eq cast 'earth'
+cheer : cheers.
+ga g all
+tjj track joe
+clb cast 'call lightning' bandit
+t2r n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+sum cast 'summon' $1
+tb track bandit
+da cast 'detect alignment' $1
+dab cast 'detect alignment' bort
+tc track cook
+lc look in crate
+white get white crate;q white
+9 get all.gold all.corpse
+meat get meat crate;eat meat
+pc put $1 crate
+gc get $1 crate
+skin g skin crate;drink skin;put skin crate
+td track duwick
+al assist lahn
+refb c 'refresh' bort
+ref c 'refresh' $1
+bget get $1 backpack
+bput put $1 backpack
+sg steal gold $1
+buf2tav e
+shift : FuBaRs ThE ShIfT KeY!!
+lag : is lagging.
+fgive : gives you $1 coins.
+full c 'create food';c 'creat food' c 'create food';c 'create food';eat all.mushroom
+cf c 'create food';eat mushroom
+alais alias $*
+0 get all all.corpse
+di c 'detect invisibility' $1
+dib c 'detect invisibility' bort
+iv c 'infravision' $1
+ivb c 'infravision' bort
+tr track $1
+lo c 'locate object' $1
+tg tell grimreaper $*
+gg : gives you $1 gold coins.
+1 c 'word of recall' bort
+ib vis;c 'invisibility' bort
+hb c 'heal' bort
+harm c 'harm' $1
+sb c 'sanc' bort
+sanc c 'sanc' $1
+mvb c 'refresh' bort
+sleep c 'sleep' $1
+sbg c 'sleep' bodyguard
+7 tr lahn
+w;g all corpse;wear all;g all.corpse;e
+6 w;g all corpse;wear all;g all.corpse;e
+te track elf
+tdh track deckhand
+cput open crate;put $1 in crate; close crate
+cget open crate;get $1 crate;close crate
+ts track sailor
+wait gos waiting...waiting...waiting...
+pca put all crate
+house2tavern n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s
+tww track werewolf
+cl cast 'call' $1
+dream n
+at assist tomcat
+r2c e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s;e
+jas junk all.scimitar
+move cast 'refresh' bort
+ttc track tomcat
+rec cast 'recall' $1
+tl tr lahn
+2 g scroll crate;recite recall
+tw tr wicked
+wa wear all
+link : has lost his link.;: was only joking.
+b recite scroll deathblade
+o recite scroll ordos
+a recite scroll lahn
+stake : wields a Stake.
+cw cast 'control' $1
+tia rem sombrero; wear tiara
+ba bri;aut
+book w;s;go book
+ap assist pkunk
+giv : gives you $1 gold coins.
+rl cast 'word' lahn
+fbl cast 'fireball' lews
+dingo holler DDDDDDIIIIIINNNNNNGGGGGGOOOOOO!!!!!!
+invis cast 'invis' $1
+count holler Anyone interseted in coming to dinner? Muhuhahahaha!
+r2sk e;e;e;e;e;e;e;e;e;n;e
+kp kick plogar
+kc kick caveman
+gawa get stone;get leggings;get crystal;get body;get crown;get moorish;get life; get might;get pearl;get sceptre;get pen;get sword;gett 
+gagwa get stone;get leggings;get crystal;get body;get jade;get crown;get moorish;get life;get might;get shield;wear all;g sword;g black;wield sword; g sceptre;hold sceptre; get pen; hold pen;get crate;open crate
+ha hunt apprentice
+rp cast 'remove poi' $1
+rpb cast 'remove poi' self
+ak assist kreep
+ks kick shadowen
+he hunt elf
+tele cast 'tele' self
+silver rem sword;wield silver;slay $1
+kj kic jenn
+km kick man
+hunter title is a better hunter than Lahn - {$1},{$2}
+ahb cast 'adv' bort
+ahl cast 'adv' lahn
+gk get soaker crate
+bs rem sword;wield soaker;backstab $1;rem soaker;wield sword
+ssil cast 'summon' $1;rem sword;wield silver;slay $1;rem silver;wield sword
+hc hunt $1.crystal;hunt
+n;con knight;s
+hk hunt $1.king;hunt
+id recite identify $1
+key get key;unlock door;open door;drop key
+d;steal sword centaur
+5 n;look aglandiir;s
+h hunt $1.high
+som rem hat;wear sombrero
+mos rem sombrero;wear 2.hat
+[a n
+[c e
+[b s
+[d w
+pla cast 'plasma' $1
+plal cast 'plasma' lews
+mul cast 'summon' muldar;cast 'word' muldar
+h2t bri;aut;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;sleep;score;bri;aut

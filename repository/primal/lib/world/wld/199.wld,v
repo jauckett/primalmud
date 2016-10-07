@@ -1,0 +1,1584 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.41;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.41;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#19900
+Road through the mountains~
+You are walking along a fairly well used road that twists
+and turns through the mountains.  The sun is shining, the
+birds are singing .. what a nice day.
+~
+199 0 2
+D2
+~
+~
+0 -1 7151
+S
+#19901
+Road through the mountains~
+You are walking along a fairly well used road that twists
+and turns through the mountains.  The sun is shining, the
+birds are singing, beautiful yellow flowers sway in the cool breeze .. 
+what a nice day. 
+~
+199 0 2
+D1
+The road through the mountains
+~
+~
+0 -1 19902
+D3
+The road through the mountains
+~
+~
+0 -1 19900
+S
+#19902
+Road through the mountains~
+You are walking along a fairly well used road that twists
+and turns through the mountains.  The sun is shining, the
+birds are singing and small butterfies fly around your head.
+~
+199 0 2
+D2
+The road through the mountains
+~
+~
+0 -1 19903
+D3 
+The road through the mountains
+~
+~
+0 -1 19901
+S
+#19903
+Road through the plains~
+You are walking along a fairly well used road that starts to level out here
+and turns into flat plains.  The sun is shining, thebirds are singing
+..... what a nice day.
+~
+199 0 2
+D1
+The road through the plains
+~
+~
+0 -1 19904
+D0
+The road through the plains
+~
+~
+0 -1 19902
+S
+#19904
+Road through the plains~
+You are walking along a fairly well used road that twists
+and turns through the plains. Small, green shrubs cluster around the path 
+and small humming birds sing in the fir trees to your left. 
+~
+199 0 2
+D1
+The road through the plains
+~
+~
+0 -1 19905
+D3
+The road through the plains
+~
+~
+0 -1 19903
+S
+#19905
+Road through the plains~
+You are walking along a fairly well used road that twists
+and turns through the plains.  The sun is shining and small
+birds are singing in the trees ahead.
+~
+199 0 2
+D0
+The road through the plains
+~
+~
+0 -1 19906
+D3 
+The road through the plains
+~
+~
+0 -1 19904
+S
+#19906
+Road through the plains~
+You are walking along a fairly well used road that twists
+and turns through the plains. Beautiful fir trees surround the path and 
+small squirells scamper around on the ground.
+~
+199 0 2
+D0
+The road through the plains
+~
+~
+0 -1 19907
+D2
+The road through the plains
+~
+~
+0 -1 19905
+S
+#19907
+Road through the plains~
+You are walking along a fairly well used road that twists
+and turns through the plains.  The sun is shining, the
+birds are singing and small yellow flowers surround the road.
+~
+199 0 2
+D0
+The road through the plains
+~
+~
+0 -1 19908
+D2
+The road through the plains
+~
+~
+0 -1 19906
+S
+#19908
+Road through the plains~
+You are walking along a fairly well used road that twists
+and turns through the plains.  The sun is shining, the
+birds are singing .. what a nice day.
+~
+199 0 2
+D1
+The road through the plains
+~
+~
+0 -1 19909
+D2
+The road through the plains
+~
+~
+0 -1 19907
+S
+#19909
+A well used road~
+As you come through the trees on the plains, you fall apon
+a well used road.  Obviously carts and horses have been on
+the road recently as you can see fresh marks on the dirt.
+~
+199 0 2
+D1
+The road through the plains
+~
+~
+0 -1 19910
+D2
+The road through the plains
+~
+~
+0 -1 19908
+S
+#19910
+A well used road~
+As you come through the trees on the plains, you fall apon
+a well used road.  Obviously carts and horses have been on
+the road recently as you can see fresh marks on the dirt.
+~
+199 0 2
+D1
+A drawbridge and entrance to Camelot
+~
+~
+0 -1 19911
+D3
+The road through the plains
+~
+~
+0 -1 19909
+S
+#19911
+Before the drawbridge at Camelot~
+After a while of following the well used road, you see a large
+structure looming in the distance.  As you get closer you see
+a large castle, with royal flags being flown from the two
+massive towers on each side of it.
+~
+199 0 2
+D1
+The drawbridge and Camelot
+~
+~
+0 -1 19912
+D3
+Looking west you see the path you just followed.
+~
+~
+0 -1 19910
+S
+#19912
+Through the drawbridge at Camelot~
+You step off the well used road onto the cold hard cobbles that
+make up the floor of the castle.
+~
+199 8 0
+D3
+The drawbridge and the path that leads to camelot
+~
+~
+0 -1 19911
+D1
+The entrance into camelot
+~
+~
+0 -1 19913
+S
+#19913
+The entrance to Camelot~
+You step into the entrance and see the normal hustle and bustle of
+a well organised castle.  Ahead you see a hallway leading further
+into the castle. Loud trumpets sound in the background acknowledging that 
+King Arthur is home. 
+~
+199 12 0
+D3
+Looking west you see the large drawbridge
+~
+~
+0 -1 19912
+D1
+Looking east you see the begining of the castle in all it's spledor
+~
+~
+0 -1 19914
+S
+#19914
+Inside Camelot~
+You are walking along the main hallway through the castle.  To your north 
+and south, you can see Guard posts.  Further east you can see more of the
+corridor that leads into the center of Camelot. 
+~
+199 8 0
+D3
+The entrance into Camelot
+~
+~
+0 -1 19913
+D1
+More of the corridor leading into the castle.
+~
+~
+0 -1 19917
+D0
+A guard post
+~
+~
+0 -1 19915
+D2
+A guard post
+~
+~
+0 -1 19916
+S
+#19915
+A guard post~
+You leave the main hallway to enter a small guard post to
+your north.  The guard here looks like he has put in many 
+years of service and looks very skilled. His silver armour and sharp 
+sword make you hesitant to fight him and he does not like people sleeping 
+on the job either.
+~ 
+199 8 0
+D2
+Looking south you see the corridor and a junction leading toward the 
+other guard post
+~
+~
+0 -1 19914
+S
+#19916
+A guard post~
+You leave the main hallway to enter a small guard post to
+your south.  The guard here looks like he has put in many 
+years of service and looks very skilled. He takes his job very seriously 
+and should not be messed with. To your south is a large door leading into 
+the guards room.
+~
+199 8 0
+D0
+Looking north you see the corridor and a junction leading toward the 
+other guard post
+~
+~
+0 -1 19914
+D2
+The guards rom
+~
+door open close~
+1 -1 19965
+S
+#19917
+Further down the hallway~
+You pass the guard posts and continue down the hallway. Apon the walls 
+are tapestries of knights in shinning armour and young maidens swooning 
+at their feet. Looking east you see an intersection  of rooms that leads 
+north and south into the heart of Camelot.
+~ 
+199 8 0
+D3
+Looking west you see the corridor and entrance into camelot
+~
+~
+0 -1 19914
+D1
+Looking east you see the intersection ahead
+~
+~
+0 -1 19918
+S
+#19918
+At an intersection~
+You come to the end of the hallway to an intersection.  You can 
+either go north or south down a curving passageqy, or back the way you came.
+King Arthur would be disappointed if you failed to show your respects so 
+maybe you should continue on.
+~
+199 8 0
+D3
+Looking west you see the hallway
+~
+~
+0 -1 19917
+D0 
+Looking north you see the curvy passage continues
+~
+~
+0 -1 19919
+D2
+Looking south you see the curvy passage continues
+~
+~
+0 -1 19925
+S
+#19919
+North of the intersection~
+You decide to go north at the intersection.  You are following
+a curvy passageway.
+~
+199 8 0
+D2
+Looking south you see the intersection and more of the curvy passage
+~
+~
+0 -1 19918
+D1
+East is more of the curvy passage
+~
+~
+0 -1 19920
+S
+#19920
+Along the curvy passageway~
+You follow the curvy passageway a little bit further and looking north 
+you see a long corridor of cold slate tiles with small candles attached 
+to the walls to light the way.
+~ 
+199 8 0
+D3
+Looking west you see the room just north of the intersection
+~
+~
+0 -1 19919
+D1
+Further along the curvy passageway
+~
+~
+0 -1 19921
+D0
+A hallyway leading up to the watchertower
+~
+~
+0 -1 19927
+S
+#19921
+Along the curvy passageway~
+You follow the curvy passageway into the centre of the magnificent castle.
+~
+199 8 0
+D3
+The cuvry passageway
+~
+~
+0 -1 19920
+D2
+The cuvry passageway
+~
+~
+0 -1 19922
+S
+#19922
+Along the curvy passageway~
+You follow the curvy passageway a little bit further..
+You see a door to your west and to your east is another corridor.
+~
+199 8 0
+D0
+The cuvry passageway
+
+~
+~
+0 -1 19921
+D2
+The cuvry passageway
+~
+~
+0 -1 19923
+D3
+A large door
+~
+open close door~
+1 -1 19926
+D1
+Another corridor
+~
+~
+0 -1 19944
+S
+#19923
+Along the curvy passageway~
+You follow the curvy passageway a little bit further into the center of 
+the castle where young maids work dilligently at their jobs.
+~
+199 8 0
+D0
+The cuvry passageway
+~
+~
+0 -1 19922
+D3
+The cuvry passageway
+~
+~
+
+0 -1 19924
+S
+#19924
+Along the curvy passageway~
+You follow the curvy passageway and quickly start to loose your way with 
+all this twisting and turning. To your south you notice a corridor 
+leading off into another section of the castle.
+~ 
+199 8 0
+D1
+The cuvry passageway
+~
+~
+0 -1 19923
+D3
+The cuvry passageway
+~
+~
+0 -1 19925
+D2
+Looking south you notice another corridor
+~
+~
+0 -1 19936
+S
+#19925
+Along the curvy passageway~
+You follow the curvy passageway a little bit further and realise when you 
+look north into an intersection that you have been this way before.
+~
+199 8 0
+D1
+The cuvry passageway
+~
+~
+0 -1 19924
+D0
+An intersection in the castle
+~
+~
+0 -1 19918
+S
+#19926
+A staircase~
+You go through the door and enter a medium sized room with a
+staircase at the opposite side that leads down into the castle.
+~
+199 8 0
+D1
+The intersection
+~
+open close door~
+1 -1 19922
+D5
+Looking down the staircase
+~
+~
+0 -1 19960
+S
+#19927
+Off the curvy passageway~
+You leave north off the passageway and follow a corridor. Small painting 
+of knights in shinning armour hand on the slate grey walls on either side 
+of you and the floor looks worn with the scuff marks of many knights that 
+have passed this way before.
+~ 
+199 8 0 
+D2
+The cuvry passageway
+~
+~
+0 -1 19920
+D0
+Along a small corridor
+~
+~
+0 -1 19928
+S
+#19928
+Along the corridor~
+You leave north off the passageway and follow a corridor. Small painting 
+of knights in shinning armour hand on the slate grey walls on either side 
+of you and the floor looks worn with the scuff marks of many knights that 
+have passed this way before.
+~
+199 8 0
+D0
+Along a small corridor
+~
+~
+0 -1 19929
+D2
+Along a small corridor
+~
+~
+0 -1 19927
+S
+#19929
+Along the corridor~
+You walk further along the corridor. The slate walls look rather bare in 
+this section of the corridor but you do notice a few cobwebs in the 
+corners where the maids have failed to do their job properly.
+~ 
+199 8 0
+D3
+The corridor continues 
+~
+~
+0 -1 19930
+D2
+Along the corridor
+~
+~
+0 -1 19928
+S
+#19930
+Further down the corridor~
+You turn west along the corridor and follow it further still.
+~
+199 8 0
+D0
+Along the corridor
+~
+~
+0 -1 19931
+D1
+Along the corridor
+~
+~
+0 -1 19929
+S
+#19931
+Further down the corridor~
+You turn north again and keep following the corridor.  On the east
+wall you see a large tapestry.
+~
+198 8 0
+D1
+You see a tapestry of a wizard 
+~
+tapestry open close~
+1 -1 19981
+D2
+~
+~
+0 -1 19930
+D0
+Along the corridor
+~
+~
+0 -1 19932
+S
+#19932
+Before a sturdy ladder~
+You come to the end of the corridor and end up before a sturdy
+looking ladder.
+~
+199 8 0
+D2
+Along the corridor
+~
+~
+0 -1 19931
+D4 
+A ladder leading towards the top of the castle
+~
+~
+0 -1 19933
+S
+#19933
+Up the ladder~
+You climb up the ladder and see a small passageway leading north.
+At the end of the corridor you see another ladder, similar to
+the one you just climbed.
+~
+199 8 0
+D5
+The sturdy ladder
+~
+~
+0 -1 19932
+D0
+The room with a small ladder
+~
+~
+0 -1 19934
+S
+#19934
+Along the small corridor~
+You get off the ladder and go down the small corridor.
+~
+199 8 0
+D2
+The room with a small ladder
+~
+~
+0 -1 19933
+D4
+The ladder leading to the top of the tower
+~
+~
+0 -1 19935
+S
+#19935
+At the top of the tower~
+You climb up the ladder and end up at the top of the tower.  
+There are a few lookouts that are armed with large crossbows
+that are alarmed when you enter the top of the tower.
+~
+199 8 0
+D5
+Looking down you see a small ladder and room 
+~
+~
+0 -1 19934
+S
+#19936
+Off the curvy passageway~
+You turn south off the curvy passageway and start to 
+follow a corridor.
+~
+199 8 0
+D0 
+Along a curvy corridor
+~
+~
+0 -1 19924
+D2
+Along a curvy corridor
+~
+~
+0 -1 19937
+S
+#19937
+South down the corridor~
+You follow the corridor further south.
+~
+199 8 0
+D0
+Along a curvy corridor
+~
+~
+0 -1 19936
+D2
+Along a curvy corridor
+~
+~
+0 -1 19938
+S
+#19938
+A turn in the corridor~
+You come to a turn in the corridor.
+~
+199 8 0
+D0
+Along a curvy corridor
+~
+~
+0 -1 19937
+D3
+Along a curvy corridor
+~
+~
+0 -1 19939
+S
+#19939
+Another turn in the corridor~
+You come to another turn in the corridor.
+~
+199 8 0
+D1
+Along a curvy corridor
+~
+~
+0 -1 19938
+D2
+Along a curvy corridor
+~
+~
+0 -1 19940
+S
+#19940
+Before a sturdy ladder~
+You come to the end of the corridor and are standing before
+a sturdy looking ladder leading upwards.
+~
+199 8 0
+D0
+Along a curvy corridor
+~
+~
+0 -1 19939
+D4
+Looking up you see a small ladder
+~
+~
+0 -1 19941
+S
+#19941
+Up the sturdy ladder~
+You climb up the ladder and you see brfore you a small corridor
+leading south.  At the end of the corridor is another ladder,
+similar to the one you just climbed up.
+~
+199 8 0
+D5
+~
+~
+0 -1 19940
+D2
+~
+~
+0 -1 19942
+S
+#19942
+Along the small corridor~
+You leave the ladder and follow the corridor the small distance to 
+the previous ladder leading down.  You find yourself standing before 
+another ladder.
+~
+199 8 0
+D0
+A small room
+~
+~
+0 -1 19941
+D4
+A small ladder
+~
+~
+0 -1 19943
+S
+#19943
+At the top of the tower~
+You climb up the ladder and end up at the top of the tower.  
+There are a few lookouts that are armoured with large crossbows
+that are alarmed when you enter the top of the tower.
+~
+199 8 0
+D5
+The small ladder
+~
+~
+0 -1 19942
+S
+#19944
+Another corridor~
+You leave east off the curvey passageway and follow
+another corridor.The slate walls all look the same and with all these 
+corridors you start to become rather confused.
+~
+199 8 0
+D1
+Along another corridor
+~
+~
+0 -1 19945
+D3
+Along a curvy corridor
+~
+~
+0 -1 19922
+S
+#19945
+Further down the corridor~
+You follow the corridor further east.  Ahead of you, you can see
+an intersection leading north, south and straight ahead.
+~
+199 8 0
+D3
+Along a curvy corridor
+~
+~
+0 -1 19944
+D1
+A large intersection
+~
+~
+0 -1 19946
+S
+#19946
+At an intersection~
+You come to the end of the corridor and come to an intersection.
+You can follow it either north, south, east or you can go back west.
+~
+199 8 0
+D1
+~
+~
+0 -1 19976
+D3
+~
+~
+0 -1 19945
+D0
+Along the corridor
+~
+~
+0 -1 19947
+D2
+~
+~
+0 -1 19952
+S
+#19947
+North from the intersection~
+You leave north from the intersection.  Ahead you can see the
+corridor turn east.You are begining to become very lost in this maze of 
+corridors in the castle.
+~
+199 8 0
+D2
+Leading back towards the intersection
+~
+~
+0 -1 19946
+D1
+Along the corridor
+~
+~
+0 -1 19948
+S
+#19948
+A turn in the corridor~
+You follow the corridor around to the east.  Ahead of you, you
+can see a large room, from it you can hear the sounds of fighting.
+see a large room. 
+~
+199 8 0
+D3
+Back towards the corridor
+~
+~
+0 -1 19947
+D1
+The training hall
+~
+~
+0 -1 19949
+S
+#19949
+The training hall~
+You enter a large room that is filled with a mixture of men and
+boys.  A group of teenagers are being taught by their elders
+how to use a sword to fight and protect yourself.  To the north
+you can see another room.
+~
+199 8 0
+D3
+The corridor
+~
+~
+0 -1 19948
+D0
+The practice area
+~
+~
+0 -1 19950
+S
+#19950
+The practice area~
+In this room you see some lightly armoured teenagers in pairs,
+practicing parrying and other fighting techniques.  To the east
+you can see a round room .. blood covers the floor.
+~
+199 8 0
+D2
+The training hall
+~
+~
+0 -1 19949
+D1
+The battle arena
+~
+~
+0 -1 19951
+S
+#19951
+The battle arena~
+This room has the distinct smell of blood.  Weapons of a variety
+of descriptions line the walls on racks and hooks.  Other fighting
+implements line the walls including armour and spiked boots.
+Standing in the middle of the arena you see a heavily armoured 
+knight with a very big sword.  As you enter he glares at you.
+He raises his finger, pointing at you and says "You won't last 
+1 minute against me!!!".
+~
+199 8 0
+D3
+~
+~
+0 -1 19950
+S
+#19952
+A corridor leading south~
+You turn south at the intersection and start following the corridor.
+The smell of a delicious meal can be smelt ahead of you.
+~
+199 8 0
+D0
+The large intersection
+~
+~
+0 -1 19946
+D2
+Before the dinning hall
+~
+~
+0 -1 19953
+S
+#19953
+Before the dining room~
+The near the end of the corridor and sell the entrance to the dining
+room.  The smell of roasted meat and wine makes you realise how famished 
+you are
+~
+199 8 0
+D0
+The corridor
+~
+~
+0 -1 19952
+D2
+The dinning room
+~
+~
+0 -1 19954
+S
+#19954
+The dining room~
+The step into a large sized room, filled with long bench tables and
+chairs.  People are seated and servants run around with food and wine
+serving the guests and the royalty. Looking east you see a small passageway
+that leads into the kitchen and the servants quarters.
+~
+199 8 0
+D0
+The entrance to the dinning hall
+~
+~
+0 -1 19953
+D1
+A small passageway
+~
+~
+0 -1 19955
+S
+#19955
+A small passageway~
+You walk through the dining room and enter a passageway filled with
+servants carrying trays of food and jugs of wine.  You guess that
+ahead of you must be the kitchen.
+~
+199 8 0
+D3
+The dinning hall
+~
+~
+0 -1 19954
+D1
+The kitchen filled with food and servants
+~
+~
+0 -1 19956
+S
+#19956
+The kitchen~
+You step into the kitchen from the passageway and see chefs rushing
+about from pot to pan, with a large fat man, obviously the head cook
+barking out orders to the chefs.
+~
+199 8 0
+D3
+A small passage that leads into the dinning hall
+~
+~
+0 -1 19955
+D2
+A small passage
+~
+~
+0 -1 19957
+S
+#19957 
+A small passageway~
+You leave the kitchen and follow a small passageway south.
+~
+199 8 0
+D0
+The kitchen
+~
+~
+0 -1 19956
+D2
+Before the servants quarters
+~
+~
+0 -1 19958
+S
+#19958
+Before the servant quarters~
+You see a large room ahead of you at the end of the corridor.
+~
+199 8 0
+D0
+A small passage
+~
+~
+0 -1 19957
+D1
+The servant quarters
+~
+~
+0 -1 19959
+S
+#19959
+The servant quarters~
+You enter a large room that is filled with bunks and cupboards.  This
+looks like the servants night quarters to sleep in when not working.
+~
+199 8 0
+D3
+A small passage before the servant quarters
+~
+~
+0 -1 19958
+S
+#19960
+Down the staircase~
+You take the staircase down to the lower levels of castle.
+~
+199 8 0
+D4
+Looking up you see the entrance to the staircase
+~
+~
+0 -1 19926
+D5
+Looking down you see stairs leading into the depths of the castle
+~
+~
+0 -1 19961
+S
+#19961
+Further down the staircase~
+You follow the staircase further down to the depths of the castle.
+~
+199 8 0
+D4
+Looking up you see stairs leading back to the corridor
+~
+~
+0 -1 19960
+D5
+Looking down you see stairs leading into the depths of the castle
+~
+~
+0 -1 19962
+S
+#19962
+A corridor beneath the castle~
+You come to the bottom of the staircase and follow a corridor.  The
+corridor is decorated with chipped broadswords and full suits of
+armour.
+~
+199 8 0
+D4
+Looking up you see stairs leading back to the corridor
+~
+~
+0 -1 19961
+D0
+~
+~
+0 -1 19963
+S
+#19963
+A corridor ~
+You follow the corridor further north.  At the end of the corridor
+you see a great wooden door that has the royal crests painted on
+it.  The door is guarded by two tough looking knights.
+~
+199 8 0
+D2
+A corridor 
+~
+~
+0 -1 19962
+D0
+A large door leading to a large room
+~
+door open close great wooden~
+2 19905 19964
+S
+#19964
+In the meeting room of the knights~
+You open the door and see a room that has fairly large filled with
+a lot of tough looking knights.  The walls are covered with a variety
+of shields .. each of them with a different crest.  In the centre of
+the room is the legendary Round Table.  In one of the seats the legendary
+King Arthur sits in a full suit of armour.  Watch out, the knights dont
+look to pleased you have interupted there meeting.
+~
+199 24 0
+D2
+The corridor
+~
+door open close great wooden~
+2 19905 19963
+S
+#19965
+The guard room~
+You go through the door at the back of the guard's post and enter
+into the guard room.  In one corner you spot stairs leading down.
+~
+199 8 0
+D0
+~
+door open close~
+1 -1 19916
+D5
+~
+~
+0 -1 19966
+S
+#19966
+Down the stairs~
+You pass through the guard room and go down the stairs in the corner.
+~
+199 8 0
+D4
+~
+~
+0 -1 19965
+D5
+~
+~
+0 -1 19967
+S
+#19967
+At the bottom of the stairs~
+You reach the bottom of the stairs and notice that you are in a dungeon
+of some description.  Various moans and groans can be heard from the
+rooms ahead of you.
+~
+199 8 0
+D4
+~
+~
+0 -1 19966
+D0
+~
+~
+0 -1 19968
+S
+#19968
+In the dungeon~
+You carefully walk in between the closed cell doors.  There are 
+cells to your left and right.
+~
+199 8 0
+D1
+~
+door open close~
+1 -1 19969
+D2
+~
+~
+0 -1 19967
+D3
+~
+door open close~
+1 -1 19970
+D0
+~
+~
+0 -1 19971
+S
+#19969
+In a cell~
+You enter one of the cells. Shackles are hanging from the walls here and 
+a large whip lies in the corner.
+~
+199 9 0
+D3
+~
+door open close~
+1 -1 19968
+S
+#19970
+In a cell~
+You enter one of the cells. A large torture rack lies in the left hand 
+corner and shackles lie on the floor~
+199 9 0
+D1
+~
+door open close~
+1 -1 19968
+S
+#19971
+In the dungeon~
+You carefully walk in between the closed cell doors.  There are 
+cells to your left and right.
+~
+199 8 0
+D1
+~
+door open close~
+1 -1 19972
+D2
+~
+~
+1 -1 19968
+D3
+~
+door open close~
+1 -1 19973
+D0
+~
+~
+0 -1 19974
+S
+#19972
+In a cell~
+You enter one of the cells. An assorted array of torturous looking 
+instruments lie on a bench in the corner ~
+199 9 0
+D3
+~
+door open close~
+1 -1 19971
+S
+#19973
+In a cell~
+You enter one of the cells.
+~
+199 9 0
+D1
+~
+door open close~
+1 -1 19971
+S
+#19974
+In the dungeon~
+You carefully walk in between the closed cell doors.  There is 
+only one more cell that lies before you.  It has an iron reinforced
+door and a caution sign on it.
+~
+199 8 0
+D2
+~
+~
+0 -1 19971
+D0
+~
+door iron open close~
+1 19904 19975
+S
+#19975
+In the reinforced cell~
+You enter the reinforced cell.  Inside you see a VERY large man
+with fists the size of your head.  He looks like he has been here
+a long time, and he still looks angry.  He wears an iron mask.
+~
+199 9 0
+D2
+~
+door iron open close~
+1 19904 19974
+S
+#19976
+Through the intersection~
+You go east through the intersection.  On the walls here you see
+royal banners, flags and tapestries.
+~
+199 8 0
+D1
+~
+~
+0 -1 19977
+D3
+~
+~
+0 -1 19946
+S
+#19977
+Before the throne room~
+You follow the corridor further east.  Ahead of you, the royal
+throne room can be seen.
+~
+199 8 0
+D1
+~
+~
+0 -1 19978
+D3
+~
+~
+0 -1 19976
+S
+#19978
+The throne room~
+You step out of the corridor, into a large throne room.  Two thrones,
+obviously the King and Queens are positioned opposite you.  Red carpet
+is on the floor, with candle chandelier above you.  There are two doors,
+north and south with the royal crests on them.
+~
+199 8 0
+D3
+~
+~
+0 -1 19977
+D0
+~
+door open close~
+1 -1 19979
+D2
+~
+door open close~
+1 -1 19980
+S
+#19979
+The kings chamber~
+You go through the north door from the throne room and end up in the
+King's personal chamber.  A large comfortable bed lies in the centre
+(king size of course), with a simple closet and other assorted
+furntiure.
+~
+199 8 0
+D2
+~
+door open close~
+1 -1 19978
+S
+#19980
+The Queen's chamber~
+You leave through the south door from the throne room.  You enter a 
+room that is almost as large as the throne room.  A grand four-poster
+bed is in the center, with mirrored dressers on each side.  Hand-maidens
+rush about cleaning and polishing.
+~
+199 8 0
+D0
+~
+~
+0 -1 19978
+S
+#19981
+A secret staircase~
+You step through the tapestry and find yourself in a secret room with 
+a stone staircase leading down into the depths.  Bats can be heard
+fying around below you, as well as some .. well sounds that you
+can't reconise.
+~
+199 9 0
+D5
+~
+~
+0 -1 19982
+D3
+~
+tapestry open close~
+1 -1 19931
+S
+#19982
+Down the staircase~
+You go down the staircase into the depths.  The strange sounds get
+slightly louder.
+~
+199 9 0
+D5
+~
+~
+0 -1 19983
+D4
+~
+~
+0 -1 19981
+S
+#19983
+Near the bottom~
+You go even further down the staircase.  You start to get worried as
+the srange sound seems to be moving about just below you.
+~
+199 9 0
+D5
+~
+~
+0 -1 19984
+D4
+~
+~
+0 -1 19982
+S
+#19984
+At the bottom of the staircase~
+You finally reach the bottom of the stairase.  In the darkness you
+can see a small corridor leading north.  As you peer into the dark
+you see something move.
+~
+199 9 0
+D0
+~
+~
+0 -1 19985
+D4
+~
+~
+0 -1 19983
+S
+#19985
+Along the corridor~
+You leave the staircase and follow the corridor further into the
+darkness.  You hear some strange breathing.  Did the wall just
+come alive?
+~
+199 9 0
+D2
+~
+~
+0 -1 19984
+D0
+~
+~
+0 -1 19986
+S
+#19986
+Before the Laboritory~
+Ahead of you a dim light, candlelight can be seen.  Strange chanting
+fills the air and the smell of burning herbs wofts towards you.  There
+are rooms to you east and west.
+~
+199 9 0
+D2
+~
+~
+0 -1 19985
+D1
+~
+~
+0 -1 19987
+D3
+~
+~
+0 -1 19988
+D0
+~
+~
+0 -1 19989
+S
+#19987
+The potion storeroom~
+You enter the door to you east, into a small room.  In the room,
+shelf upon shelf are filled with variously coloured potions.  You
+think to yourself "hmm, would these be any good?".
+~
+199 9 0
+D3
+~
+~
+0 -1 19986
+S
+#19988
+The scroll room~
+You enter the door to the west and see shelves that are stacked high
+with scrolls.  Most of them are in code, but a few you think you
+could read.
+~
+199 9 0
+D1
+~
+~
+0 -1 19986
+S
+#19989
+Merlins cave~
+You step into the dimly light room and see the king's magician, Merlin
+sitting in a pentagram of candles.  He is chanting a wierd phrase
+over and over again.  Insence burners are in each corner of the room
+letting off a strange odour.
+~
+199 9 0
+D2
+~
+~
+0 -1 19986
+S
+$
+
+  
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

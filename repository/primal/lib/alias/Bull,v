@@ -1,0 +1,80 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@td tell drax; tell free $*
+doo cast 'color spray' enfan
+boo kill enfan
+bbb cast 'color spray' bailiff
+b kill bailiff
+cc get recall crate;recite recall
+1 get meat crate;eat meat
+eee kill executionor
+dd kill defendant
+p kill plaintiff
+ss kill scheduler
+oo kill ogre
+r kill rat
+o open crate
+3 get skin crate; drink skin
+y get yellow backpack;quaff yellow
+< cast 'burning hands' traveller
+> cast 'burning hands' citizen
+20 cast 'burning hands' merchant
+4 kill warrior
+0 get all corpse
+l kill traveller
+i cast 'infravision'
+aa cast 'create food';eat mushroom
+ww kill worker
+wo cast 'burning hands' worker
+cs cast 'cure critic' Bull
+13 get white crate;quaff white
+12 get red crate;quaff red
+ee kill guard
+sss cast 'burning hands' scheduler
+pp cast 'burning hands' plaintiff
+v kill vendor
+vv cast 'burning hands' vendor
+sp kill spectator
+ps cast 'burning hands' spectator
+yl kill young lady
+h kill healer
+j kill judge
+x kill executioner
+tt kill master
+ttt cast 'burning hands' master
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

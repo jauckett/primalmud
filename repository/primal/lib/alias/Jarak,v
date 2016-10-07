@@ -1,0 +1,60 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@clb cast 'lightning bolt'
+cda cast 'detect align'
+em eat mushroom
+xc exa corpse
+ds drink skin
+pab put all back
+rr recite recall
+ga get all from corpse
+qr quaff red
+ccf cast 'create food'
+ccw cast 'create water' skin
+clw cast 'cure light'
+gc get all.coin from corpse
+gr get red back
+gs get skin back
+ps put skin back
+pr put red back
+pw put white back
+inf cast 'infravision'
+gw get white back
+qw quaff white
+xb exa back
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

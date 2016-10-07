@@ -1,0 +1,44 @@
+ba remove sword; wield dagger; backstab $ ; remove dagger; wield sword
+invis cast 'invisibility'
+shit cast 'word of recall' self
+red get red backpack; qu red; get red backpack; qu red; get red backpack; qu red; get red backpack; qu red; get red backpack; qu red
+hyper emote hyperventilates.
+sing emote starts singing "We Are the World"
+insis emote encourages y'all to join in"
+joy emote bounces up and down with great JOY!
+golem track golem
+poison cast 'remove poison' $1
+white get white backpack; qu white
+cure cast 'cure critic' $1
+fire cast 'fireball' $1
+mush cast 'create food'; eat mushroom
+charm cast 'charm' $1
+infra cast 'infravision'
+devis cast 'detect invisibility' 
+smiley emote smiles from ear to ear.
+strength cast 'strength'
+as assist $1
+heal cast 'heal' $1
+run cast 'word of recall' $1
+1 split $1
+find cast 'locate object' $1
+yellow get yellow backpack; qu yellow
+good cast 'dispel good' $1
+bad cast 'dispel evil' $1
+big get red backpack; get red backpack; get red backpack; qu red; qu red; qu red
+happy emote shouts Happy Happy Joy Joy!
+vio emote shakes you violently.
+br buy 20 red; put all.red backpack
+bw buy 10 white
+snow emote conjures a snowball and throws it at you!
+summ cast 'summon' $1
+gg get all.coins all.corpse
+ass order guard assist bluemoon
+death Emote shrieks DEATH DEATH NO!!!!! 
+chill cast 'chill' $1
+harm cast 'harm' $1
+blin cast 'blindness' $1
+sl cast 'sleep' $1
+blind cast 'blindness' $1
+fung track fungi
+meat get meat bag; eat meat

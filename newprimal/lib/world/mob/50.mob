@@ -1,0 +1,86 @@
+#5001
+hill giant~
+the hill giant~
+An enormous hill giant is here collecting boulders.
+~
+The hill giant is about 16 feet tall.
+~
+78 0 -50 E
+8 12 11 3d8+120 5d8+4
+3536 3750
+8 8 1
+E
+#5002
+worg wolf~
+a worg~
+A hungry looking worg is here growling at you.
+~
+The worg looks very hungry.
+~
+232 0 -100 E
+4 15 12 4d8+15 3d5+2
+1474 600
+9 9 0
+E
+#5003
+yeti~
+a yeti~
+A vicious looking yeti is hiding here ready to attack.
+~
+The yeti is a master of camouflage, and looks very skilled at fighting.
+~
+110 10 -200 E
+5 15 12 4d8+40 3d6+2
+1924 900
+9 9 0
+E
+#5004
+orc~
+an orc~
+An orc is here looking suspicious.
+~
+The orc looks like a skilled warrior.
+~
+72 0 -300 E
+3 17 12 3d9+8 2d8+3
+1279 350
+9 9 1
+E
+#5005
+stirge~
+the stirge~
+A stirge is here flapping about looking for a victim.
+~
+The stirge is a small bat like creature with a long proboscis for draining
+the blood of its victims.
+~
+104 8 -50 E
+2 15 13 2d8+20 2d3+1
+458 200
+9 9 0
+E
+#5006
+weed strangle~
+the strangle weed~
+Some strangle weed is here creeping toward you.
+~
+The weed has many thick vines used to strangle its victims.
+~
+106 0 -100 E
+3 16 12 3d10+7 1d10+1
+1184 350
+9 9 0
+E
+#5007
+basilisk
+~
+the basilisk~
+A basilisk is here.
+~
+The basilisk is breathing smoke from its nostrils.~
+328 0 -500 E
+6 14 11 1d15+60 3d8+3
+3175 1500
+8 8 0
+E
+$

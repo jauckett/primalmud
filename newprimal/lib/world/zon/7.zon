@@ -1,0 +1,35 @@
+#7 1
+Plains~
+799 10 2 0
+
+M 0 700 15 731
+M 0 700 15 732            Wandering wolves
+
+M 0 701 10 721
+M 0 701 10 720            Wandering buffalo
+
+M 0 702 5  701            snakes
+
+M 0 703 6 735             sentinel wolves in den
+M 0 703 6 735
+M 0 703 6 735
+M 0 703 6 735
+M 0 703 6 735
+M 0 703 6 735
+
+M 0 704 6 728             sentinel buffalo at water hole
+M 0 704 6 728
+M 0 704 6 728
+M 0 704 6 729
+M 0 704 6 729
+M 0 704 6 729
+
+M 0 705 8 728             vultures
+M 0 705 8 729
+M 0 705 8 715
+M 0 705 8 720
+M 0 705 8 704
+
+S
+#99999
+$~

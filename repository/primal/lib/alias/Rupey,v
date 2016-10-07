@@ -1,0 +1,94 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@id recite scroll $*
+tsd tell tsd $*
+moe tell moe $*
+tt track  man 
+bri tell brinn $*
+loc c 'locate object' $*
+rx rescue xard
+res rescue $*
+hx c 'heal' xard
+man tell mannie $*
+db tell deathblade $*
+john tell john $*
+refresh c 'refresh' $*
+summ c 'summon ' $*
+wo who
+luna tell luna $*
+night tell nightwolf $*
+recall get recall crate
+align c 'detect alignment '
+t   alias tt track $* ; track $* 
+k  alias kk kill $*;kill$*           
+h h                alias hh hunt $*;hunt $*     
+di c 'detect invis'
+pk tell pkunk $*
+wake wake ; stand
+water c 'create water' skin
+cal tell cal $*
+dra tell drax $*
+pot hunt alchemist
+hw c 'cure light' wimp
+heal  c 'cure light' $*
+aw assist wimp
+wim tell wimp $*
+xar tell xard $*
+ax assist xard
+drink drink skin
+meat get meat backpack;eat meat
+bread get bread backpack;eat bread
+orange get orange backpack;eat orange
+apple get apple backpack;eat apple
+qr get red backpack;q red
+bless c 'bless
+qw get white crate ; q white
+dog get dog backpack; eat dog
+bw buy 5 white ; put all.white crate
+br buy 5 red ; put all.red backpack
+infra cast ' infra
+wolf tell nightwolf $*
+food cast ' create food' ; eat mushroom
+~ get all.coin all.corpse ; get all.corpse ; j all.corpse
+` get all all.corpse ; get all.corpse ; junk all.corpse
+sanc c ' sanctuary '
+hr c 'heal' rupey
+rr c 'word of recall'
+kod tell kodiak $*
+kk kill  lady
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

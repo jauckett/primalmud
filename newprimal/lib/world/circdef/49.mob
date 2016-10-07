@@ -1,0 +1,114 @@
+#4900
+jeeves butler~
+Jeeves the Butler~
+Jeeves, the butler, stands unobtrusively in the background.
+~
+Immaculately dressed, as ever, Jeeves attends to his masters every
+needs, at any time of the day or night.
+~
+134 0 0 S
+10 14 5 10d5+100 5d4+1
+3000 10000
+8 8 1 2
+#4901
+man servant manservant~
+a manservant~
+A manservant is here, cleaning.
+~
+The manservant is working his fingers to the bone. You wonder if it
+is in dedication or fear of Maalgor.
+~
+64 0 50 S
+4 20 10 5d10+10 2d4+2
+300 500
+8 8 1 2
+#4902
+servant woman~
+a woman servant~
+A servant is here, cleaning.
+~
+The woman servant is working his fingers to the bone. You wonder if it
+is in dedication or fear of Maalgor.
+~
+64 0 25 S
+4 20 10 5d10+10 2d4+2
+300 500
+8 8 1 2
+#4903
+hound hunting~
+a hunting hound~
+A Midramish hunting hound is lying here, panting in the heat.
+~
+Maalgor obviously likes hunting, evidenced by these incredibly expensive
+hunting hounds imported from the continent of Midramia. While their
+thick fur coats are useful in the low temperatures of their homeland,
+here they just get in the way and make the dogs hot.
+~
+2 0 0 S
+6 18 10 3d10+20 6d1+3
+100 300
+5 8 0 3
+#4904
+thief shadow~
+an inexperienced thief~
+A pathetic shadow huddles here, trying not to be seen.
+~
+Looking closer, you realise that it is a person trying to hide from
+you. His face reddens, and great tears roll down his cheeks in
+embarrasment. He is obviously a very inexperienced thief.
+~
+2 0 -50 S
+8 20 8 5d5+5 3d2+2
+2000 4000
+8 8 1 2
+#4905
+mirror dragon silvery~
+a reflection dragon~
+A strange silvery dragon flutters towards you.
+~
+It's a rare mirror dragon!
+~
+2 0 0 S
+5 20 8 5d5+20 2d2+7
+500 500
+8 8 0 4
+#4906
+reflection~
+your reflection~
+Your reflection grins back at you evilly.
+~
+One of the reflections in the million mirrors around you has
+come to life!
+~
+2 0 0 S
+6 17 9 9d9+10 2d4+0
+3153 967
+8 8 0 2
+#4907
+Maalgor master~
+Maalgor~
+Maalgor, master of this mansion, is standing here.
+~
+His eyes looks evil. You realise that the servants must be working
+out of fear of punishment. From his steely look, it would be something
+horrible. His body is fantastically built, and he looks as if he knows
+how to use a sword.
+~
+34 0 -300 S
+15 15 8 10d10+10 3d3+6
+20000 20000
+8 8 1 2
+#4908
+noble nobleman~
+a nobleman~
+A nobleman stands here, brandy in hand.
+~
+He is laughing jovially, and you suspect he is slightly drunk. He
+looks very haughty however, and he sneers when he sees you looking
+at him.
+~
+2 0 0 S
+5 20 10 4d4+25 1d7+1
+1000 2000
+8 8 1 2
+

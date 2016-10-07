@@ -1,0 +1,116 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@1 / #71 $*
+cta ctalk $*
+dingo goto 372
+dr ca 'dragon
+75 / #75 $*
+h1 2211
+4 rem whip;wie dag
+3 rem dag;wie whip
+haven w;s;s;s;s;d
+rr recite recall
+gc get corpse
+imt w;s;s;s;s;u
+70 / #70 $*
+chh c 'advanced heal' $*
+cwr c 'word' $*
+cw c 'wraith' $*
+cs ca 'summon' $*
+aa ca 'advanced heal'
+ss ca 'sleep' $*
+tun open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;d
+csk cast 'serpent' $*
+uu ungroup 
+din cast 'detect invisibility' $*
+civ cast 'invisibility' $*
+ccc cast 'cure critic' &*
+ccl cast 'cure light' $*
+sn snowball $*
+ch cast 'heal' $*
+sl : conjures a magical BED;yawn;sle
+fortune s;s;s;s;s;d;d;d;d;d;d;d;d;d;d;d;d;d;e;e;e;e;e;e;e;e;e;d;d;n
+s3 d;d;d;d;d;d;d;d;d;s;s;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;s
+s2 n;n;n;n;n;n;e;e;e;e;e;e;e;e;d;d;d;d;w;w;w;w;w;w;w;d;n;n;d;e;e;e;e;s;s;open trapdoor;d
+s1 d;w;w;w;w;w;w;w;w;w;d;s;s;s;s;s;s;d;e;e;e;e;e;e;e;e;e;d;w;w;w;w;w;w;w;w;w;d
+cff c 'fly' $*
+clo c 'locate object' $*
+csl c 'sense' $*
+ce c 'earthquake
+cam cast 'animate dead' $*
+ct cast 'teleport
+cpb cast 'plasma blast' $*
+bs backstab $*
+gag get all.gold corpse
+cin c 'infravision,
+ws wake;stand
+ds drink skin
+cb c 'bless
+cr c 'refresh'
+cch c 'charm' $*
+or order followers $*
+ri recite identify $*
+cfd c 'finger' $*
+cms c 'meteor swarm' 
+cc c 'clone
+cdg c 'dimensional gate' $*;open gate
+cf c 'create food';eat mushroom
+leave1 e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;
+ccw cast 'create water' skin
+qb quaff blue
+ai order followers assist intan
+cgs cast 'group sanctuary' clone
+oo group all
+ff ca 'finger of death' $*
+qq quitreally
+pf poofin appears in front of you suddenly..and then beams you a smile. ; goto $*
+pt poofout takes out a red sparkling "gem"..and recites these words, "Beam me up,buddy!!"..and vanishes. ; goto $*
+gac get all corpse
+gw get white crate; quaff white
+san ca 'sanctuary' $*
+zz ca 'animate dead' corpse
+cpp ca 'charm person' $*
+pz ca 'paralyze' $*
+mush ca 'create food'
+cd ca 'cloud kill
+ww rem whip;wie dag; backstab $*;rem dag;wie whip
+stake goto 8118
+rec recruit $*
+sum ca 'summon' $*
+2 rem dag;wie whip
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

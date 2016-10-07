@@ -1,0 +1,148 @@
+#2000
+king crystal~
+the Crystal King ~
+The Crystal King sits on a Crystal Throne and rules over his realm.
+~
+The King is like all kings and has a look of authority about him.
+~
+2058 1160 1000 E
+39 -5 0 10d10+1000 15d18+25
+35100 150000
+8 8 1
+E
+#2001
+chef crystal~
+the Crystal Chef~
+The Crystal Chef is standing here cooking meals for the castle's occupants
+~
+He is covered in grease, grime and food.
+~
+2058 1160 0 E
+32 -3 3 10d10+750 13d16+20
+28800 137000
+8 8 1
+E
+#2002
+guard crystal~
+a Crystal guard ~
+A Crystal guard looks at you suspiciously.
+~
+He is wearing impressive crystal armor.
+~
+7210 1172 800 E
+35 -3 2 10d10+600 13d16+15
+31500 177500
+8 8 1
+E
+#2003
+servant crystal~
+a Crystal servant~
+A Crystal servant is waiting to serve someone.
+~
+You wonder if the look on her face is any reflection on the way the 
+king rules.
+~
+140 1024 600 E
+25 1 5 10d10+480 12d15+10
+22450 105000
+8 8 2
+E
+#2004
+monk crystal~
+a Crystal Monk~
+A Crystal Monk is here praying.
+~
+The monk is dressed in robes and is on his knees praying to the God of
+the Crystal People.
+~
+2346 1160 1000 E
+39 -4 0 10d10+1150 14d15+25
+35000 165400
+8 8 1
+E
+#2005
+bishop crystal~
+a Crystal Bishop~
+A Crystal Bishop is here praying.
+~
+The Bishop is dressed in fine robes denoting his station.
+~
+9258 1156 1000 E
+40 -6 0 10d10+1500 13d16+35
+35000 197500
+8 8 1
+E
+#2006
+jester crystal~
+a Crystal Jester~
+A Crystal jester is here entertaining the king.
+~
+An undefined string.~
+2058 1024 0 E
+30 -4 3 10d10+800 12d19+18
+27000 137500
+8 8 1
+E
+#2007
+knight crystal~
+a Crystal Knight~
+A Crystal Knight is here Guarding the Castle.
+~
+The Knight is dressed in shining armor and has a long scar running down 
+his left check. He takes his job of guarding the Crystal Castle very 
+seriously and it would be unwise to mess with him.
+~
+2346 1184 1000 E
+39 -5 0 10d10+900 18d15+30
+35100 197500
+8 8 1
+E
+#2008
+dragon crystal~
+a Crystal Dragon ~
+A Crystal Dragon is here. RUN!!!
+~
+Could this be the dragon in the painting?? Maybe.
+~
+2090 1208 -1000 E
+55 -12 -4 10d10+1100 15d16+50
+49400 353707
+8 8 0
+E
+#2009
+sentry crystal~
+a Crystal Sentry ~
+A Crystal Sentry is guarding here.
+~
+The Crystal Sentry looks like an Elite Guard
+~
+6316 1024 1000 E
+35 -3 2 10d10+600 18d12+25
+31500 167500
+8 8 1
+E
+#2010
+rogue crystal~
+a Crystal Rogue~
+A Crystal Rogue is here.
+~
+You see a man of great cunning grin back at you.
+~
+2168 186 -1000 E
+27 -1 4 10d10+350 13d18+20
+24300 137500
+8 8 1
+E
+#2011
+snatcher crystal~
+a nasty snatcher~
+A nasty looking snatcher is here looking at you.
+~
+You see a sneaky evil creature covered in dirty crystal.
+~
+2090 184 -1000 E
+27 -3 4 10d10+400 14d15+25
+24300 137500
+8 8 1
+E
+$

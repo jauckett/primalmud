@@ -1,0 +1,69 @@
+waterc cast 'waterwalk' clone;cast 'waterwalk' 2.clone
+lev1 e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+3 cast 'group heal'
+giveg get all.heal tool;give all.heal gabr
+givex get all.heal tool;give all.heal xena
+0 group all;cast 'group sanc';ungroup
+droph drop all.heal
+geth get all.heal tool
+water cast 'waterbr' $*
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+walk cast 'waterwalk' $*
+re cast 'word of recall'
+wa wake;stand
+sleep cast 'sleep' $*
+sum cast 'summon' $*
+drag cast 'dragon' $*
+inv cast 'invis' $*
+tra train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*
+tool put tool 2.tool
+gt get tool tool
+inf cast 'infrav' $*
+det cast 'detect inv' $*
+bh buy 20 heal;put all.heal tool
+8 cast 'sanct' $*
+ref cast 'refresh' $*
+life cast 'sense life' $*
+ch exa tool;exa back
+par cast 'paral' $*
+5 cast 'haste'
+2 cast 'advanced heal' $*
+se spy e
+ss spy s
+talon cast 'remove curse' talon;e;sell talon;w
+sn spy n
+su spy u
+sw spy w
+sd spy d
+ww cast 'whirlwind'
+id cast 'identify' $*
+x get all corpse
+c get coin all.corpse
+4 hunt wererat
+1 get heal tool;get heal tool;get heal tool;get heal tool;get heal tool;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put tool 2.tool
+dim cast 'dimension gate $*;open gate;go gate
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+rope cast 'remove curse' rope;e;sell rope;w
+cl cast 'clone';cast 'clone'
+die order clones die
+clone cast 'clone'
+ord order followers kill $*;kill $*
+ass order followers assist lister
+9 cast 'sanc' clone;cast 'sanc' 2.clone
+infc cast 'infrav' clone;cast 'infrav' 2.clone
+lifec cast 'sense life' clone;cast 'sense life' 2.clone
+detc cast 'detect inv' clone;cast 'detect inv' 2.clone
+a aff
+fly cast 'fly' $*
+gs cast 'group sanc'
+getd hold lant;hold knife;wield pulse;wear all;put tool 2.tool;put tool 2.tool
+loc cast 'locate' $*

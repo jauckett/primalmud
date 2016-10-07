@@ -1,0 +1,45 @@
+cn cast 'nohassle'
+hce cast 'divine heal' cerin
+sl cast 'sense life'
+em get meat backpack;eat meat
+cs cast 'stoneskin'
+hi cast 'divine heal' inkubus
+ca order clone assist needoal
+cca order 2.clone assist needoal
+ct c 'teleport'
+ck c 'cloud kill'
+ch cast 'divine heal'
+dp cast 'divine protection'
+th train hit
+gc get corpse
+qw get white force;quaff white
+ot open trapdoor
+ow open wall
+os open secret
+ms cast 'meteor swarm'
+in c 'invisibility'
+ha cast 'holy aid'
+dg cast 'dispel good'
+gac get all corpse
+cr cast 'refresh'
+tf throw frisbee
+rr cast 'word of recall'
+ci cast 'infravision'
+cb cast 'bless' Needoal
+cf cast 'create food';eat mushroom
+di cast 'detect invisibility'
+san cast 'sanctuary'
+arm cast 'spirit armor'
+hs cast 'heal' stereo
+cd cast 'dragon'
+hc c 'advanced heal' clone
+hcc c 'advanced heal' 2.clone
+csc c 'sanctuary' clone
+cscc c 'sanctuary' 2.clone
+sip get skin force;drink skin;put skin force
+hr c 'advanced heal' rhino
+t tag $
+cw cast 'waterbreath'
+qh get heal force;quaff heal
+cc cast 'clone';cast 'sanctuary' clone;give bee clone;order clone wield bee
+ss cast 'stoneskin'

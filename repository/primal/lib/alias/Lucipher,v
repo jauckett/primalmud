@@ -1,0 +1,53 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ec examine corpse
+gg get gold corpse
+gc get corpse; junk corpse
+gac get all corpse
+qr get red backpack; quaff red
+qw get white backpack; quaff white
+pac oc; put all crate
+lic look in crate
+oc open crate
+pab put all backpack
+lib look in backpack
+wake wake ; stand
+rf get skin backpack; drink skin; fill skin fountain; put skin backpack
+dw get skin backpack; drink skin; put skin backpack
+em get meat backpack; eat meat
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

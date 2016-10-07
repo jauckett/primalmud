@@ -1,0 +1,24 @@
+stab rem fist;get soaker backpack;wi soaker;backstab $*;rem soaker;put soaker backpack;wi fist
+skin get skin backpack;drink skin;put skin backpack
+str c 'strength' $*
+cit k citiz
+exa examine $*
+wakl wake;stand;l
+jm j all.meat
+self c 'heal' self
+water cast 'create water' skin
+food cast 'create food'
+cl cast 'call lightning' $*
+charm cast 'charm' $*
+pabb put all.bread backpack
+col c 'color spray' $*
+jan k janitor
+arm c 'armor' $*
+eb get bread backpack;eat bread
+di c 'detect invisibility' $*
+heal c 'heal' $*
+infra c 'infravision' $*
+bless c 'bless' $*
+jcor get all all.corpse;get all.corpse;junk all.corpse;save
+beg kill beggar
+start wear all;wi sword;c 'infravision' self';c 'armor' self';c 'bless' self;c 'detect invisibility' self;who

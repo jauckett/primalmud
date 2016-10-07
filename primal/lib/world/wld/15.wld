@@ -1,0 +1,886 @@
+#1501
+Selva Road~
+You are standing on Selva Road just out of the town of Haven. To your 
+west you can see a large wooden gate that leads back into Haven. To
+your east Selva Road heads out through small scrubland towards the
+graveyard.
+~
+15 0 0
+D1
+Looking east you see an old man sitting by the side of the road
+~
+~
+0 -1 1502
+D3
+Looking west you see a large wooden gate and the streets of Haven
+~
+gate wooden~
+1 -1 37
+S
+#1502
+Selva Road.~
+You are walking along Selva Road which heads east towards the graveyard 
+and west back into Haven. The countryside that surrounds you is fairly 
+barren. All that lives here are small dry looking shrubs and a few
+wild animals.
+~ 
+15 0 0
+D1
+As you look east a small rabbit darts across the road
+~
+~
+0 -1 1503
+D3
+Looking west you can see the buildings of Haven
+~
+~
+0 -1 1501
+S
+#1503
+Selva Road.~
+This section of Selva Road is fairly dry and flat. You can see the 
+graveyard up ahead to your east and sightly south. To your west you can
+see the town of Haven. At your feet on the dirt road is a large black snake
+sunning himself in the sunshine. 
+~
+15 0 0
+D1
+Looking east you see an old warrior sitting by the side of the road
+~
+~
+0 -1 1504
+D3
+Looking west you can see the buildings of Haven
+~
+~
+0 -1 1502
+S
+#1504
+Selva Road.~
+You are walking along a fairly dry and barren section of Selva Road. The only
+plant life consists of small dry shrubs and grass. To your east you can just make out
+Haven's graveyard and to your west you can see the large gates of Haven.
+~
+15 0 0
+D1
+As you look east a small rabbit darts across the road
+~
+~
+0 -1 1515
+D3
+Looking west you can see the buildings of Haven
+~
+~
+0 -1 1503
+S
+#1505
+Selva Road~
+You are walking down a winding dirt road that leads towards the ocean or 
+towards a small crossroads. This area of the road is mostly shrubland but 
+there are a few large forest trees growing by the side of the road and 
+the grass is slighly more green here.
+~
+15 0 0
+D1
+Looking east you see a timid squirrel rush past
+~
+~
+0 -1 1506
+D2
+Looking south you see a wild cat prowling in the nearby bushes
+~
+~
+0 -1 1511
+S
+#1506
+Selva Road~
+Standing on the long and winding Selva Road you notice that from this 
+point in the road you can see the large blue ocean upon which many
+impressive ships sail. Looking to your west you can see the road heading back
+towards the forest and open shrubland. There is a cool breeze that is 
+blowing off the ocean that sends your hair flying around your face.
+~
+15 0 0
+D1
+Looking east you see a timid squirrel rush past
+~
+~
+0 -1 1507
+D3
+Looking west you see an old warrior sitting by a nearby tree
+~
+~
+0 -1 1505
+S
+#1507
+Selva Road~
+You are walking along a dirt road that heads either east or west. In the 
+distant east you can see a large ocean with many huge ships sailing upon it.
+To your west you can see magnificent mountains and a large forest. The 
+walk towards the ocean is rather long and difficult, however there is a 
+pleasant cool breeze blowing off the sea that makes the journey more
+enjoyable.
+~ 
+15 0 0
+D1
+Looking east you see a small rabbit darting across the road
+~
+~
+0 -1 1508
+D3
+Looking west you see a timid squirrel rush past
+~
+~
+0 -1 1506
+S
+#1508
+Selva Road~
+Standing on the long and winding Selva Road you notice that from this 
+point in the road you can see the large blue ocean upon which many
+impressive ships sail. Looking to your west you can see the road heading back
+towards the forest and open shrubland. There is a cool breeze that is 
+blowing off the ocean that sends your hair flying around your face.
+~
+15 0 0
+D1
+Looking east you see a wild boar standing in the middle of the road
+~
+~
+0 -1 1509
+D3
+Looking west you see an old warrior sitting by a nearby tree
+~
+~
+0 -1 1507
+S
+#1509
+Selva Road~
+You are walking down a dirt road that leads towards the blue ocean where 
+large ships sail across the waters and to your west the road leads towards
+a large forest. There is a pleasant breeze blowing in from your east that
+soothes your hot face and refreshes you after walking so far.
+As you look north you see a small sandy path leading into the sand dunes.
+~
+15 0 0
+D0
+Looking north you see a path in the sand dunes
+~
+~
+0 0 6387
+D1
+Looking east you see a small rabbit darting across the road
+~
+~
+0 -1 1510
+D3
+Looking west you see several wild boar running across the dirt path
+~
+~
+0 -1 1508
+S
+#1510
+Selva Road~
+Standing on the long and winding Selva Road you notice that from this 
+point in the road you can see the large blue ocean upon which many
+impressive ships sail. Looking to your west you can see the road heading back
+towards the forest and open shrubland. There is a cool breeze that is 
+blowing off the ocean that sends your hair flying around your face.
+~
+15 0 0
+D3
+Looking west you see a small rabbit darting across the road
+~
+~
+0 -1 1509
+S
+#1511
+Selva Road~
+You are walking down a dirt road leading away from town where small 
+shrubs surround you and several large forest trees also grow by the side of
+the road. To your north you can just see the ocean and several large ships 
+sailing upon it.
+ ~
+15 0 0
+D0
+Looking north you can see the magnificent ocean
+~
+~
+0 -1 1505
+D2
+Looking south you see small shrubs and several large fir trees
+~
+~
+0 -1 1518
+S
+
+#1515
+Selva Road~
+You are walking down a dirt road leading away from town where the small 
+shrubs surrounds you. To your south there is a path that leads 
+towards the city of Haven's Graveyard. To your west you can just make out
+the city of Haven and to your east Selva Road continues towards the ocean and
+forest.
+~
+15 0 0
+D1
+As you look west you see a wild boar crossing the road
+~
+~
+0 -1 1516
+D2
+Looking south you see a small path heading towards the graveyard
+~
+~
+0 -1 1519
+D3
+Looking west you can just make out the city of Haven
+~
+~
+0 -1 1504
+S
+#1516
+Selva Road~
+You are walking down a dirt road leading away from town and past the 
+graveyard. To your east you can make out a small crossroads where you can
+head towards the ocean or towards the forest and mountains. 
+~
+15 0 0
+D1
+Looking east you see a rabbit dart across the road.
+~
+~
+0 -1 1517
+D3
+Looking west you can see the old graveyard
+~
+~
+0 -1 1515
+S
+#1517
+Selva Road~
+You are walking down a dirt road leading away from town and past the 
+graveyard. To your east you can make out a small crossroads where you can
+head towards the ocean or towards the forest and mountains. 
+~
+15 0 0
+D1
+Looking east you see a rabbit dart across the road.
+~
+~
+0 -1 1518
+D3
+Looking west you can see the old graveyard
+~
+~
+0 -1 1516
+S
+#1518
+Selva Road~
+You are walking down a dirt road leading away from town. Small shrubland 
+surrounds you. To your north you can just make out the ocean with large 
+ships sailing upon it. To your south you see a forest and large mountains.
+~
+15 0 0
+D0
+Looking north you see an old warrior sitting by the side of the road
+~
+~
+0 -1 1511
+D2
+Looking south you see a large forest just ahead
+~
+~
+0 -1 1520
+D3
+Looking west you can see the town of Haven and the Graveyard
+~
+~
+0 -1 1517
+S
+#1519
+Dirt path~
+You are walking down a dirt path that leads toward the graveyard of 
+Haven. You hear a strange wailing sound coming from your south and it doesn't
+sound very human. As you look south you see a large gate up ahead and through
+the gate you can see strange figures lurking.
+~
+15 0 0
+D0
+Looking north you see the crossroads
+~
+~
+0 -1 1515
+D2
+Looking south you see a large black snake lying on the road
+~
+~
+0 -1 1521
+S
+#1520
+Selva Road~
+You are walking down a dirt road. In the distance you can see a large 
+forest and beyond the forest mountain ranges. To your north there is a 
+small crossroad that leads either towards the graveyard and Haven or
+towards the ocean. This section of Selva Road is mainly covered with small
+shrubs though there are several large fir trees growing by the roadside.
+~
+15 0 0
+D0
+Looking north you see the crossroads
+
+~
+~
+0 -1 1518
+D2
+Looking south you see the crossroads
+~
+~
+0 -1 1522
+S
+#1521
+Dirt path~
+You are walking down a dirt path that leads toward the graveyard of 
+Haven. You hear a strange wailing sound coming from your south and it doesn't
+sound very human. As you look south you see a large gate up ahead and through
+the gate you can see several large gravestones.
+~
+15 0 0
+D0
+Looking north you see a large black snake on the road
+~
+~
+0 -1 1519
+D2
+Looking south you see a small rabbit staring back at you
+~
+~
+0 -1 1527
+S
+#1522
+Selva Road~
+You are walking down a dirt road. In the distance you can see a large 
+forest and beyond the forest mountain ranges. To your east you can see a 
+path leading onwards towards the mountains. To the south is a small dirt 
+track that leads to a small forest.
+~
+15 0 0
+D0
+Looking north you see a large boar staring back at you
+~
+~
+0 -1 1520
+D1
+Looking east you see a timid rabbit running across the path
+~
+~
+0 -1 1523
+D2
+Looking south you see a forest path covered with lush grass
+~
+~
+0 -1 1528
+S
+#1523
+Selva Road~
+You are walking along Selva Road and to your east the road twists and turns
+around the forest on your left and the mountains ahead and to your right.
+To your west is a small crossroads where you can head back towards Haven 
+or down a small forest path.
+~
+15 0 0
+D1
+Looking east you see a wild cat prowling in the bushes
+~
+~
+0 -1 1524
+D3
+Looking west you see a small crossroads
+~
+~
+0 -1 1522
+S
+#1524
+Selva Road~
+Selva Road stretches as far as you can see to your east with several 
+sharp turns in the road itself. Above the road, on the horizon, you see
+large snow capped mountains that look completely impenetrable. There are
+several wild animals wandering around this end of Selva Road and some are
+rather aggressive in nature. 
+~
+15 0 0
+D1
+There is a large tree blocking your view
+~
+~
+0 -1 1525
+D3
+You see a small robin, which pecks at the dirt on the ground
+~
+~
+0 -1 1523
+S
+#1525
+Selva Road~
+There are large impressive mountain ranges in the distant east. They are 
+so large you are positive you could not pass over them. To your south 
+side the roadside is covered in large elm trees that skirt the edge of
+what appears to be a large forest. 
+
+~ 
+15 0 0
+D1
+Small rabbits dart across the pathway to your east
+~
+~
+0 -1 1526
+D3
+There is a large tree blocking your view
+~
+~
+0 -1 1524
+S
+#1526
+Selva Road~
+Selva road stretches out towards your east and west as far as your eyes 
+can see. The view in both directions is very impressive. To your east you 
+see large mountain ranges and to your west you see the forest and ocean.
+The road turns here towards the south as it twists around the edge of the
+forest on your left side. In amongst the large trees to your left you see
+several timid animals , such as rabbits and squirrels.
+~ 
+15 0 0
+D2
+Looking south you see a wild cat prowling in amongst the trees
+~
+~
+0 -1 1531
+D3
+Looking west you see an old woman wandering aimlessly
+~
+~
+0 -1 1525
+S
+#1527
+Dirt path~
+You are walking down a dirt road that leads toward the graveyard of 
+Haven. In the distance you can also see the city of Haven and several of 
+its larger buildings. There is a strange sound coming from the south that
+makes you slightly hesitant to continue.
+~
+15 0 0
+D0
+Looking north you see a small rabbit in the middle of the path
+~
+~
+0 -1 1521
+D2
+Looking north you see a wild boar crossing the path
+~
+~
+0 -1 1532
+S
+#1528
+Forest path off Selva Road~
+You are walking along a shady forest path that leads towards the dark woods.
+Small animals dart in and out of the large trees that shade the path. You 
+can hear many small birds singing in the trees above and as you look up
+you see a blue robin perched on a branch just above your head.
+~
+15 0 0
+D0
+Looking north you see a small crossroads
+~
+~
+0 -1 1522
+D2
+Looking south you can see a dark wood just ahead
+~
+~
+0 -1 1533
+S
+#1529
+Selva Road~
+You are walking down a dirt road that heads either east or south. There 
+are large elm trees on either side of the road that block your view of 
+the surrounding country side.
+~
+15 0 0
+D1
+You see a large elm blocking your view
+~
+~
+0 -1 1530
+D2
+You see a large elm blocking your view
+~
+~
+0 -1 1534
+S
+#1530
+Selva Road~
+Selva Road stretches out towards your east and west as far as your eyes 
+can see. The view in both directions is very impressive. To your east you 
+see large mountain ranges and to your west you see the forest and ocean.
+In amongst the large trees to your left you see several timid animals,  
+such as rabbits and squirrels. 
+~
+15 0 0
+D1
+Looking east you see a black snake in the middle of the road
+~
+~
+0 -1 1531
+D3
+Looking west you see an old woman wandering aimlessly
+~
+~
+0 -1 1529
+S
+#1531
+Selva Road~
+You are walking down a dirt road that twists and turns around the forest
+to your north. Peering into the trees on your east side you see a large 
+wild cat prowling amongst them watching your every move. The road 
+continues here to your north back towards the ocean and to your west
+around the forest.
+~
+15 0 0
+D0
+Looking north you see an old woman wandering aimlessly
+~
+~
+0 -1 1526
+D3
+Looking west you see a large snake sunning itself in the middle of the road
+~
+~
+0 -1 1530
+S
+#1532
+Dirt path~
+You are walking down a dirt road that leads toward the graveyard of 
+Haven. In the distance you can also see the city of Haven and several of 
+its larger buildings. There is a strange sound coming from the south that
+makes you slightly hesitant to continue.
+~
+15 4 0
+D0
+Looking north you see an old warrior sitting by the side of the road
+~
+~
+0 -1 1527
+D2
+Looking south you see a robin picking at seeds in the bushes
+~
+~
+0 -1 1600
+S
+#1533
+Forest path off Selva Road~
+You are walking along a shady forest path that leads towards the dark woods.
+Small animals dart in and out of the large trees that shade the path. You 
+can hear many small birds singing in the trees above and as you look up
+you see a blue robin perched on a branch just above your head.
+~
+15 0 0
+D0
+Looking north you see a timid squirrel dart across the road
+~
+~
+0 -1 1528
+D1
+Looking east you see the dark woods
+~
+~
+0 -1 4802
+S
+#1534
+Selva Road~
+You are walking down a dirt road that twists and turns around the 
+mountains and forest. The road continues here either north or south
+and surrounding you on either side are large elm trees that block the
+view of the large snow capped mountains. 
+~
+15 0 0
+D0
+Looking north you see several wild boars crossing the road
+~
+~
+0 -1 1529
+D2
+Looking to the south you see a large crow standing in the road
+~
+~
+0 -1 1535
+S
+#1535
+Selva Road~
+There are many large elm and fir trees on either side of Selva Road that
+block out your view of the surrounding country side. They are so large 
+and majestic that they nearly block out the sun's rays, making this a well
+shaded part of the road. 
+~
+15 0 0
+D0
+Looking north you see a wild cat prowling in the trees
+~
+~
+0 -1 1534
+D1
+Looking south you see several large crows perched in the trees
+~
+~
+0 -1 1536
+S
+#1536
+Selva Road~
+There are several large black crows perched in the elm and fir trees 
+that surround either side of Selva Road. They watch you pass by with their
+black beady eyes and seem to be grinning at you in an evil manner. Maybe they
+know something you don't know about. Maybe it has something to do with 
+what lies to your east.
+~
+15 0 0
+D1
+Looking east you see several large crows perched in the trees
+~
+~
+0 -1 1537
+D3
+Looking west you see several large crows perched in the trees
+~
+~
+0 -1 1535
+S
+#1537
+Selva Road~
+There are several large black crows perched in the elm and fir trees 
+that surround either side of Selva Road. They watch you pass by with their
+black beady eyes and seem to be grinning at you in an evil manner. Maybe they
+know something you don't know about. Maybe it has something to do with 
+what lies to your east.
+~
+15 0 0
+D1
+Looking to your east you see the mountains again
+~
+~
+0 -1 1538
+D3
+Looking west you see several large crows perched in the trees
+~
+~
+0 -1 1536
+S
+#1538
+Selva Road~
+The trees seem to thin out a little bit here and you can now see the mountain
+ranges ahead to your east. Looking to your west you see the dense forest that
+you are beginning to pass through. You notice that the grass is very 
+green on the sides of the road here, as if this area gets a great amount
+of rainfall.
+~
+15 0 0
+D1
+Looking east you see the snow capped mountain range
+~
+~
+0 -1 1539
+D3
+Looking west you see the dense forest
+~
+~
+0 -1 1537
+S
+#1539
+Selva Road~
+You are walking down a dirt road that twists and turns around the forest
+to your north. Peering into the trees on your east side you see a large 
+wild cat prowling amongst them watching your every move. The road 
+continues here to your south back towards the ocean and to your west
+around the forest.
+~
+15 0 0
+D2
+Looking south you see the snow capped mountain range
+~
+~
+0 -1 1540
+D3
+Looking west you see the dense forest
+~
+~
+0 -1 1538
+S
+#1540
+Selva Road~
+The trees seem to thin out a little bit here and you can now see the mountain
+ranges ahead to your south. Looking to your west you see the dense forest 
+that you are beginning to pass through. You notice that the grass is very 
+green on the sides of the road here, as if this area gets a great amount
+of rainfall. The road also continues to your north towards the ocean and 
+Haven. 
+~
+15 0 0
+D0
+Looking north you see the dense forest
+~
+~
+0 -1 1539
+D2
+Looking south you see the mountain ranges
+~
+~
+0 -1 1541
+S
+#1541
+Selva Road~
+You are walking along a dirt road that heads south around the edge of the
+forest and towards the large snow capped mountains. Looking back to your
+north you can see the dense forest. This section of the road has a fewer 
+large trees and it starts to level out into grassy green plains.
+~
+15 0 0
+D0
+Looking north you see the snow capped mountains and grassy green plains
+~
+~
+0 -1 1540
+D2
+Looking south you see the edge of the dense forest
+~
+~
+0 -1 1548
+S
+#1542
+Selva Road~
+You are walking down a dirt road and behind you is a large forest. Directly 
+ahead of you are large mountain range covered with snow. There is a path 
+here that leads up into a dark cave in the mountain.
+~
+15 0 0
+D1
+Looking east you see a wild boar crossing the path
+~
+~
+0 -1 1543
+D4
+Looking up you see the mountain path climbs towards a dark hole
+~
+~
+0 -1 1900
+S
+#1543
+Selva Road~
+You are walking along a dirt road in the grassy plains. Further to your 
+west you see the large mountains that are covered with a thin layer
+of snow. There are wild boar and buffalos roaming in the grassy plains
+that lie on either side of the road.
+~
+15 0 0
+D1
+Looking east you see a wild boar crossing the path
+~
+~
+0 -1 1544
+D3
+Looking west you see several buffalos blocking the road
+~
+~
+0 -1 1542
+S
+#1544
+Selva Road~
+You are walking along a dirt road in the grassy plains. Further to your 
+west you see the large mountains that are covered with a thin layer
+of snow. There are wild boar and buffalos roaming in the grassy plains
+that lie on either side of the road.
+~
+15 0 0
+D1
+Looking east you see a wild boar crossing the path
+~
+~
+0 -1 1545
+D3
+Looking west you see several buffalos blocking the road
+~
+~
+0 -1 1543
+S
+#1545
+Selva Road~
+You are walking along a dirt road in the grassy plains. Further to your 
+west you see the large mountains that are covered with a thin layer
+of snow. There are wild boar and buffalos roaming in the grassy plains
+that lie on either side of the road.
+~
+15 0 0
+D1
+Looking east you see a wild boar crossing the path
+~
+~
+0 -1 1546
+D3
+Looking west you see several buffalos blocking the road
+~
+~
+0 -1 1544
+S
+#1546
+Selva Road~
+You are walking along a dirt road in the grassy plains. Further to your 
+west you see the large mountains that are covered with a thin layer
+of snow. There are wild boar and buffalos roaming in the grassy plains
+that lie on either side of the road.
+~
+15 0 0
+D1
+Looking east you see a wild boar crossing the path
+~
+~
+0 -1 1547
+D3
+Looking west you see several buffalos blocking the road
+~
+~
+0 -1 1545
+S
+#1547
+Selva Road.~
+Selva Road heads either east toward the dense forest or west along the 
+grassy plains before the mountain ranges. The plains lie directly to your 
+west where you can see millions of beautiful yellow flowers. 
+~
+15 0 0
+D1
+Looking east you see the edge of the forest
+~
+~
+0 -1 1548
+D3
+Looking west you see the grassy plains
+~
+~
+0 -1 1546
+S
+#1548
+Selva Road~
+You are walking along a dirt road and to your south is a large forest 
+while to your west and directly ahead are large mountain ranges. The road
+begins to flatten out here and you are surrounded by grassy plains that are
+covered with beautiful yellow flowers.
+~
+15 0 0
+D0
+Looking north you see the edge of the forest
+~
+~
+0 -1 1541
+D3
+Looking west you see grassy green plains
+~
+~
+0 -1 1547
+S
+$~

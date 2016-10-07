@@ -1,0 +1,9 @@
+gra ---> $* <---
+, cast 'cure light' on $*
+gac get all corpse
+th train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+tm train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana
+1 quaff white
+deti cast 'detect invisibility' on $*
+see cast 'infravision' on $*
+r recall

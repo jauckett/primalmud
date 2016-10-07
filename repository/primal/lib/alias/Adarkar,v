@@ -1,0 +1,152 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@k kill 
+sanct cast 'sanct' $*
+tittrek title Of The USS Enterprise NCC-1701E [Turbo Lift Down Button]
+h hunt $*
+fe cast 'fear' $*
+sh stand;cast 'heal' $*;rest
+hh cast 'heal' alarian
+kc rem sword;wield dagger;back crystal;rem dagger;wield sword
+kk alias k kill $*;rem sword;wield dagger;back $*;rem dagger;wield sword;o fol assist adarkar
+rr rescue nightwolf
+ofqw ord fol get white;ord fol quaff white
+dw get white crate;drop white
+ofa order followers assist alarian;assist alarian
+ad assist dragon
+ofk order followers kill $*;kill $*
+cf cast 'create food';eat mushroom
+tp tell pkunk $*
+tt track lamia
+fb cast 'fireball' $*
+blind cast 'blind' $*
+ra recite recall alarian
+rd recite recall drax
+rp recite recall pkunk
+ff rem flute;put flute crate
+nf rem rand;hold flute
+uf use flute
+wc rem sombrero;wear crown
+ll look lamia
+77 exa 7.corpse
+76 exa 6.corpse
+75 exa 5.corpse
+74 exa 4.corpse
+73 exa 3.corpse
+72 exa 2.corpse
+jj junk all.bandanna;junk all.ice;junk all.apple;junk all.floss;junk all.coke;don all.drum
+2chest d;d;open door;w;open bookcase;w;open trapdoor;d
+sl sleep
+2rome autoexit;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;autoexit
+2 cast 'cure critic' $*
+1 cast 'heal' $*
+0 cast 'word' $*
+summon cast 'summon' $*
+ae autoexit
+ta tell alarian $*
+cl cast 'locate' $*
+ds drink skin
+la look at $*
+eb get bread backpack;eat bread
+9 get all all.corpse
+8 get all.gold all.corpse
+arm cast 'armor' $*
+wake wake $*;stand
+inf cast 'inf' $*
+00 recite recall self
+di cast 'detect invis' $*
+ax autoexit
+7 exa corpse
+gab get all backpack
+grin emote grins like an absolute raving, drooling, madman...
+kg back boar;back cat;back shadow;back ghast
+slobber emote slobbers on his knuckles which are dragging on the ground.
+f flee
+bw buy 5 white;put all.white crate
+bm buy 10 meat;put all.meat crate
+ga get all
+gac get all crate
+em get meat crate;eat meat
+3 get red crate;quaff red
+qw get white crate;quaff white
+wr cast 'word' $*
+ce cast 'earth'
+gs get all.potion;put all.potion crate;get all.meat;put all.meat crate
+tv tell vader $*
+2toys autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n;w;w;u;u;u;u;autoexit
+tituni title - /\ |> /\ /> |< /\ />
+2rand autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;open trapdoor;autoexit
+charm cast 'charm' $*
+rand tell nightmare hi
+toys tell gi hi
+of order followers $*
+elder rem rand;hold elder;use elder self;rem elder;hold rand
+chest pick chest;pick chest;open chest;get amulet chest;get wealth chest
+2path autoexit;display v;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;display hmv;autoexit
+ttt rack duwick
+be get elder;put elder crate
+oa order followers assist adarkar
+ho cast 'cure critic' guard
+ref cast 'refresh' $*
+mm cast 'magic miss' $*
+str cast 'str' $*
+ws rem crown;wear sombrero
+af assist guard
+c1 cast 'charm' worm
+c2 cast 'charm' 2.worm
+c3 cast 'charm' 3.worm
+cc cast 'charm' worm
+jc get corpse;junk corpse
+oh order followers kill hag
+ofga order followers get all all.corpse
+odk order dwarf kill $*;assist dwarf;order followers kill $*
+sense cast 'sense' $*
+sleep cast 'sleep' $*
+heal cast 'heal' $*
+wg rem crown;wear goggles
+4 get blue 2.crate;quaff blue
+br buy 5 red;put all.potion crate
+story tell slugworth hi
+bar bash;rest;stand
+aa assist alarian
+hc hunt crystal
+ci cast 'invis' $*
+shadow tell bozak hi
+xx steal gold monk;steal gold monk;steal gold monk
+td tell deathblade $*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

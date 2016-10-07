@@ -1,0 +1,2126 @@
+AFFECTS
+
+&2Affects&n
+
+&3Usage:&n &4affects&n
+
+An affect is something that modifies your attributes.
+These are usually made active on you by casting spells or using skills.
+
+This command displays all of your current affects, at level 20 the
+amount of information displayed is increased.
+#
+ALIAS ALIASES
+
+&2Alias or Aliases&n
+
+&3Usage:&n &4alias [<alias name>] [command]&n
+
+An alias is a single command used to represent one or more other commands.
+The &4ALIAS&n command can be used to manipulate your character's aliases.  Type
+&4ALIAS&n alone to see a list of your currently defined aliases.
+The &3<alias name>&n must be one word.  The &3command&n can be any string.  
+Aliases may not be nested or used recursively.  Any command may be overridden 
+by an alias (other than the &4ALIAS&n command itself, of course).
+
+  > &4alias gbb get bread bag&n
+  > &4alias gac get all corpse&n
+
+Type &4alias <alias-name>&n to delete an alias that has already been defined.
+
+  > &4alias gbb&n
+
+A semicolon (";") can be used to define multiple actions to be taken with
+a single alias. 
+(Note a semicolon may be interpreted differently as "input" in some clients)
+
+  > &4alias eat get bread bag; eat bread&n
+
+Note that the 'eat' contained within the eat alias is interpreted as the MUD's
+internal eat command; aliases may not be nested or used recursively.  The
+variables &3$1, $2, ... $9&n may be used to represent arguments given with
+an alias.
+
+Examples:
+
+  > &4alias killem cast 'fireball' $1; cast 'harm' $2&n
+  > &4killem fido mage&n
+
+Would cast fireball on fido, followed by casting harm on mage.  Variables
+may be used repeatedly and in any order:
+
+  > &4alias helpem cast 'heal' $1; cast 'bless' $1; cast 'armor' $1&n
+
+The special variable &3$*&n represents the entire input line after an alias:
+
+  > &4alias tr tell rasmussen $*&n
+  > &4tr hi there, how are you today?&n
+  &rYou tell &7Rasmussen&r, 'hi there, how are you today?'&n
+
+See also: &3! ^&n
+#
+ANSI COLOUR COLOR
+&2"Ansi Colour"&n
+
+&3Usage:&n &4colour [off | sparse | normal | complete]&n
+
+If you have a colour-capable terminal and wish to see useful colour-coding
+of information, use the &4colour&n command to set the level of colouring you see.
+These four subcommands turn colour on && off to various levels.  Experiment to see
+which level suits your personal taste.
+
+'&4colour&n' with no argument will display your current colour level.
+
+Using colour will slow down the speed at which you see messages VERY slightly.
+The effect is more noticeable on slower connections.  Even if you have
+colour turned on, non-colourised messages will not be slowed down at all.
+
+&RPrimalMUD&n implements &rEasy Colour v2.2&n, which interprets inline colour codes.
+Colours can be displayed in your text by inserting a &3&&&n followed by a &3<char code>&n.
+
+The &3<char codes>&n correspond to the following colours:
+&rr	Red&n 		&gg	Green&n 	
+&yy	Yellow&n		&bb	Blue&n
+&mm	Magenta&n 	&cc	Cyan&n
+&ww	White&n
+&RR	Bold Red&n 	&GG	Bold Green&n
+&YY	Bold Yellow&n 	&BB	Bold Blue&n
+&MM	Bold Magenta&n 	&CC	Bold Cyan&n
+&WW	Bold White&n
+
+Additionally, there are a number of special codes including:
+&nn	Normal&n	
+&vv	Reverse&n	
+&uu	Underline&n
+[	Set mark&n	]	Colour of set mark&n
+
+example:
+  > &4gossip &&[I am feeling a bit &&GSICK&&] today!&n
+            ^ 			       ^    	
+          colour                   changes
+	 here is  		  to colour
+	  yellow  	      at last mark (&&[ = yellow)
+              \/                      \/
+  &yYou gossip, 'I am feeling a bit &[&GSICK&] today!'
+
+See also: &3COLOURSET&n
+#
+AREAS
+
+&2Areas&n
+
+This command will bring up a listing of the current areas playable in 
+the realm.  It will give you the zone name, zone level, zone type (being
+pkill or not) and the Author.
+#
+ASSASSIN ASSASSINATE
+
+&2Assassin  Assassinate&n
+
+&3Usage:&n &4assassinate <player name>&n
+
+When venturing around the game you may come across the Assassin sitting in
+the Assassin's Guild. This character will let you hire him for the usage of
+removing a player from the game. This will cost you money!  If you find you
+are on the receiving end of the assassin you can always try to turn him around
+onto the player that originally hired him.
+#
+"ASSIST"
+
+&2"Assist"&n
+
+&3Usage:&n &4assist <person in need>&n
+
+If &7Quifael&n is being beaten senseless by a &6warg&n and you feel brave enough
+to help him, the &2assist&n command can be used.  Note that the &6warg&n will keep 
+hitting &7Quifael&n; &2assist&n only makes you start to fight whomever the person you're
+assisting is fighting.
+
+See also: &3FLEE, KILL, RESCUE&n
+#
+"AUCTION"
+
+&2Auction"&n
+
+&3Usage:&n &4auction <item wanting to be auctioned off> <starting price>&n
+
+This is the command to start an auction on unwanted items you have found whilst
+you are playing. If you type &4auction&n and return by itself it will show you
+a listing of what &4auction&n commands are available. They are as follows:
+
+&4auction stat <item #>&n
+
+To obtain the item number use &4auction list&n to find the item you are interested
+in and then use that number to stat the object being auctioned off.
+
+&4auction <item#> <price>&n
+
+This is the bidding command, to do this you must have enough gold to place the 
+bid and obviously you must outbid everyone else. Please be aware that you must
+have enough gold in the BANK to place your bids.
+
+&4auction list&n
+
+The command to find out who is auctioning what and the item number you are 
+interested in.
+
+&4auction cancel&n
+
+This is for those who want to cancel auctions!
+
+&4auction sold&n
+
+This command will finalise the auction to the last bidder. It will automatically
+transfer the item in your inventory to the player who won the auction and will
+transfer the funds to you.
+
+&4noauction&n
+
+This toggles the auction channel off or on.
+#
+"AUTOCORPSE"
+
+&2autocorpse&n
+
+This command will toggle the corpse retrieval service on and off.  If you die 
+during play and have autocorpse on you will find your corpse waiting for you in
+the local tavern.  This is a very handy tool if you plan on dying a lot! But be
+warned this is also an expensive tool. The exp you lose on death is around half
+the exp you gained ini your level to a max of 1/4 of the level BUT autocorpse
+will cost you an additional 50% of the exp you are about to lose!
+#
+AUTOASSIST
+
+&2autoassist&n
+
+&3Usage: &4autoasist <player>&n
+ 
+To automatically assist another player, handy if you are following them, or 
+grouped. To turn this feature off just type &4autoassist&n.
+
+See also: &3ASSIST, AUTOGOLD, AUTOLOOT, AUTOSPLIT&n
+#
+AUTOEAT
+
+&2Autoeat&n
+
+&3Usage:&n &4autoeat&n
+
+This command will enable or disable your character from eating when hungry.
+Whether you have food in your hand or in your backpack you will automatically
+eat when the "You are hungry" appears on your screen.
+#
+AUTOEXIT
+
+&2Autoexit&n
+
+&3Usage:&n &4autoexit&n
+
+This command will enable or disable autoexits. When enabled, the room 
+description will include a list of obvious exits. Be warned, the 
+obvious exits are not always all the exits....
+#
+AUTOGOLD
+
+&2autogold&n
+
+&3Usage: &4autogold&n
+
+This command will enable or disable the facility to automatically remove
+all gold from the mob once you have killed it.
+
+See Also: &3AUTOSPLIT, AUTOLOOT&n
+#
+AUTOLOOT
+
+&2autoloot&n
+
+&3Usage: &4autoloot&n
+
+This command will enable or disable the facility to automatically remove
+all objects from the mob once you have killed it.
+
+See also: &3AUTOGOLD, AUTOSPLIT&n
+#
+AUTOSPLIT
+
+&2autosplit&n
+
+&3Usage: &4autosplit&n
+
+This command will enable or disable the facility to automatically &3split&n
+gold collected between group members. 
+
+See also: &3SPLIT, AUTOGOLD, AUTOLOOT&n
+#
+BITE
+
+&2Bite&n
+
+&3Usage:&n &4bite <player name>&n
+
+Bite is the command that you use when you want to infect another player
+with the werewolf or vampire infections! The only limits to this is you
+have to be infected yourself and you have to be asuming the infection at
+the time!
+#
+BLAST
+
+&2Blast&n
+
+&3Usage:&n &4blast <mob>&n
+
+Blast is a command that is similar to Hit or Kill. 
+
+See also: &3HIT KILL&n
+#
+"BOUNTY"
+
+&2bounty&n
+
+&3Usage:&n &4bounty <playername> <reward>&n
+
+When a player becomes annoying to one or all there is
+this feature that can be used to reward those who want
+to act as bounty hunters! This feature is able to be used
+to let a player know that he has been intolerable within 
+the game! Use it wisely and you do not want it turned around
+upon you!
+#
+"BREAKIN"
+
+&2breakin&n
+
+&3Usage:&n &4breakin <victim>&n
+
+Use this when you think you have found a mob that would be of assistance while
+you play. Not all mobs are able to be broken in. To be able to mount the mob 
+you must have the skill mount practiced.
+
+See also: &3Mount & Dismount&n
+#
+BRIEF
+
+&2Brief&n
+
+&3Usage:&n &4brief&n
+
+Toggles "brief mode".  When in brief mode, you don't see the descriptions of
+the room you are in; only the name of the room and the people and objects
+there.  Unless you're very familiar with the area in which you're traveling,
+however, it is not advisable to use this command.  Frequently, you will find
+small but vital hints in the descriptions of the rooms: An extra peek at your
+surroundings could mean the difference between life and death!
+
+If you explicitly type 'look', you will always see the full room description,
+even in BRIEF mode.
+
+See also: &3Compact, Look&n
+#
+BUG TYPO IDEA TODO
+
+&2Bug Typo Idea Todo&n
+
+&3Usage: &4[bug | idea | typo | todo] <option>&n
+
+&3    options:&n 
+&3    	add 
+	edit <number> 
+	delete <number>
+	list ['self' | <state> | <player>]
+	print <number>
+
+&3add&n: 	creates a new report
+&3edit&n:	edits the given report
+&3delete&n:	deletes the given report
+&3list&n:	lists existing reports, 
+		optionally filtered by ['self' | <state> | <&7player&n>]
+  'self': 	lists only the reports that you are responsible for.
+  <state>:	lists reports only of the given state 
+  		(OPEN, ASSESSED, FEEDBACK, CLOSED)
+  <player>:	lists only the reports that <player> is responsible for
+&3print&n:	displays the full details of the given report	
+
+For full information about &RPrimalMUD's&n reporting system type &4help reporting&n.
+
+See also: &3REPORTING, LISTREPORTS, PRINTREPORT&n
+#
+"REPORTING SYSTEM"
+
+&2Reporting System&n
+
+&RPrimalMUD&n version 3 saw the implementation of a new reporting system.
+This report management system allows players to use a menu based system to 
+add information about the &4bug&n/&4typo&n/&4idea&n/&4todo&n report. It is designed to provide
+better communication over the tradition &4bug&n/&4typo&n/&4idea&n commands which logs
+the text directly to file which usually ends up being ignored.
+
+&3Lifecycle&n
+&3---------&n
+Initially when a report is created, the state is set to &3OPEN&n. When the
+responsible person looks at the report, they should edit it and change the
+state to &3ASSESSED&n (so the reporter knows the report has been looked at).
+The responsible person should then fix/respond to the problem and change
+the state to &3FEEDBACK&n. The reporter then verifies the fix/responce and
+edits the report changing the state to &3CLOSED&n. Obvious exceptions apply to
+a more complicated report, but the state principals as mentioned above
+should be used consistantly as described.
+
+Reports which have the &3DELETED&n state are still kept in file, but are not
+visible from within the game.
+
+&3Notification&n
+&3------------&n
+Every time that a report is modified, notification is given to the involved
+parties (all people that have made a change to the initial report). This
+notification is in the form of mudmail and includes the change description
+as well information on how to view the entire details.
+
+&3Restrictions&n
+&3------------&n
+Various restrictions have been put into the reporting system to ensure that
+the system runs smoothly and as intended (holds appropiate privacy).
+
+There are some restrictions that apply when using the report editor, but the
+main restriction that apply on report usage are as follows:
+
+Command      	list/print                      edit/delete
+-------		----------			-----------
+&3BUG&n          	<  GOD - owned reports          <  GRGOD - owned reports
+		>= GOD - all reports            >= GRGOD - all reports
+
+&3IDEA&n         	<  ANGEL - owned reports        <  GRGOD - owned reports
+		>= ANGEL - all reports          >= GRGOD - all reports
+
+&3TYPO&n         	<  IMMORT - owned reports       <  GOD - owned reports
+              	>= IMMORT - all reports         >= GOD - all reports
+
+&3TODO&n         	<  ANGEL - owned reports        <  GRGOD - owned reports
+		>= ANGEL - all reports          >= GRGOD - all reports
+
+
+See also: &3BUG IDEA TODO TYPO LISTREPORTS PRINTREPORT&n
+#
+BUY
+
+&2Buy&n
+
+&3Usage:&n &4buy <item name>
+       buy #<item number>
+       buy n.<item name>
+       buy n <item name>
+       buy n #<item number>&n
+
+If you'd like to purchase an item from a shop and have the money, you can buy
+it.  Items can be bought by name, or by their number in the shop listing,
+and can be bought in quantity.
+ 
+Examples:
+ 
+  > buy sword        (buy the first sword on the list)
+  > buy #3           (buy the third item on the list)
+  > buy 4.sword      (buy the fourth sword on the list)
+  > buy 10 bread     (buy 10 pieces of bread)
+  > buy 10 #2        (buy 10 of the second item on the list)
+ 
+See also: &3LIST, SELL, SHOPS, VALUE&n
+#
+CAST
+
+&2Cast&n
+
+Used by Magic Users and Clerics (and the occasional other character) for
+the casting of spells.
+
+&3Usage:&n &4cast <'spell'> <player>&n
+
+   Note that the name of the spell must be enclosed by the holy symbols "&3'&n".
+
+See also: help on each individual spell, for example:
+  > help fireball
+  > help call lightning
+  > help energy drain
+#
+CLEAR CLS
+
+&2Clear Cls&n
+
+Clears the text on the screen. 
+Handy for those moments when someone walks in and you have a screen full of ....
+#
+"CHARGE"
+
+&2charge&n
+
+&3Usage:&n &4charge <item [amount]> [target]&n
+
+This will allow you to charge storage items with extra mana.  The mana battery 
+is a quest item so this command is only usuable once you have one a quest.
+#
+COLOURSET COLORSET
+
+&2Colourset Colorset&n
+
+&3Usage:&n &4colourset [-<0..9> { <colourcode> | Default }]&n
+
+This command gives you the listing of your personal colour settings you may
+modify them as you want.
+
+See Also: Colour
+#
+COMMANDS
+
+&3Usage:&n &4commands&n
+
+The COMMANDS command gives a canonical list of all the known verbs.
+
+Each command listed should have help available by typing "HELP <command>".
+
+See also: SOCIAL, SOCIALS
+#
+COMPACT
+
+&2Compact&n
+
+&3Usage:&n &4compact&n
+
+This command toggles the extra blank line output to your screen after each
+command.  Useful if you have a small display.
+
+See also: BRIEF
+#
+CONSIDER
+
+&3Usage:&n &4consider <mob>&n
+
+This command will compare your Level with the <mobs> level.  You will then
+receive a rough estimate, which is by no means exact.  Consider does not take
+hitpoints/special attacks/damage into account.
+
+See also: HIT, KILL
+#
+DIAGNOSE
+
+&2Diagnose&n
+&3Usage:&n &4diagnose <mob>&n
+
+The DIAGNOSE command tells you how wounded a character looks.  If you are
+fighting someone, you can use DIAGNOSE with no arguments to diagnose the
+person you're fighting.
+
+See also: CONSIDER
+#
+DIE
+
+&2Die&n
+
+&3Usage:&n &4order clones die&n
+This feature is for when you no longer require your clones.
+With this your clones will die.
+
+See also:  CLONES SERVE ORDER
+#
+DISPLAY PROMPT
+
+&2Display Prompt&n
+
+&3Usage:&n &4display < H | M | V | | X | L | all | on | off | set prompt_string>&n
+
+Modify your prompt to show your hit/mana/movement points, alignment or
+experience to next level.
+
+Example:
+  > &4display hv&n                  Display hit points and movement points
+  > &4display off&n                 Return to normal display
+  > &4display all&n                 Display hit, mana, and move points
+
+User definable prompts are a new feature as &RPrimalMUD&n version 3. The following
+identifiers are translated:
+&4%h&n      Current hit points      &4%H&n      Max hit points
+&4%m&n      Current mana points     &4%M&n      Max mana points
+&4%v&n      Current move points     &4%V&n      Max move points
+&4%l&n      Alignment
+&4%x&n      Experience to next level
+
+User definable prompts are set given the &4set&n argument followed by the
+string. Prompt strings longer than &c25&n chars are truncated. Easy colour
+codes can be used within the string.
+
+Example:
+Current primal complete prompt - equivilant to &4prompt all&n
+  > &4display set %hH %mM %vV X:%x &&RAl:%x&n      
+&G250&nH &r35&nM &Y107&nV X:&G1.9m &RAl:&n123 >
+
+Custom hit points prompt displaying current of maximum hit points
+  > &4display set &&RMyPrompt&&n: %h/%H&n          
+&RMyPrompt&n: &Y231&n/&G250&n >
+
+See also: TOGGLE
+#
+"DISMOUNT"
+
+&2Usage:&n  &4dismount&n
+
+If you find yourself mounted on a mob that is capable of being ridden this is the
+command you use to get off the poor thing!
+
+See also: Breakin & Mount
+#
+DONATE
+
+&2Donate&n
+
+&3Usage:&n &4donate <object>
+       donate <number> coin&n
+
+This command takes an object that you no longer want and deposits it in the
+donation room of Haven to assist newbies in getting started.  
+
+Examples:
+  > &4donate shield&n
+  > &4donate all.bread&n
+  > &4donate 500 coins&n
+
+See also: &3JUNK&n
+#
+DROP
+
+&2Drop&n
+
+&3Usage:&n &4drop <object>
+       drop all.<object>
+       drop all
+       drop <number> coins&n
+
+If you lose interest in a carried item, you can drop it on the ground.
+
+Example:
+  > drop bottle
+  > drop all.bread
+  > drop all
+  > drop 1000 coins
+
+See also: DONATE, GET, JUNK
+#
+EAT DRINK SIP TASTE
+
+&2Eat Drink Sip Taste&n
+
+&3Usage:&n &4eat <item>
+       taste <item>
+       drink <item>
+       sip <item>&n
+
+If you're hungry or thirsty, these commands are for you!
+
+Example:
+  > eat bread
+  > taste bread
+  > drink cup
+  > sip fountain
+#
+EMOTE :
+
+&2Emote :&n
+
+&3Usage:&n &4emote <message>
+       : <message>&n
+
+Show people what you're feeling.  The shorthand is ":".
+Your name will be displayed followed by the string.
+
+Example:
+
+If your name is "Helt",
+
+  > emote is feeling very sad today.
+
+will display:
+
+Helt is feeling very sad today.
+
+See also: SOCIALS
+#
+ENTER
+
+&2Enter&n
+
+&3Usage:&n &4enter
+       enter <place>&n
+       
+If you type 'enter' while you are outdoors, you'll enter any nearby shelter.
+You can also follow 'enter' with an argument. 
+
+Example :
+  
+  > enter window
+#
+EQUIPMENT
+
+&2Equipment&n
+
+&3Usage:&n &4equipment&n
+           &4equipment <where>&n
+	   &4equipment empty&n
+
+Gives you a list of all the equipment you're wearing, holding, and wielding.
+
+If <where> is specified, gives you a list of the equipment you're wearing in
+the specified position.
+
+If empty is specified, gives you a list of positions you have yet to wear
+something on.
+
+Example :
+
+  > equipment finger
+  > equipment light
+
+See also: INVENTORY, REMOVE, WEAR
+#
+EXAMINE
+
+&2Examine&n
+
+&3Usage:&n &4examine <thing to examine>&n
+
+May give you some valuable information about an item or mob.
+Examine will show the inventory of a mob or object unlike look
+which will not.
+
+See also: LOOK
+#
+EXITS
+
+&2Exits&n
+&3Usage:&n &4exits&n
+
+Gives you a list of the obvious exits from your location.  Of course, the less
+obvious ones won't show up here - you have to THINK in order to locate those.
+
+See also: AUTOEXIT
+#
+FILL
+
+&2Fill&n
+
+&3Usage:&n &4fill <item> <object to fill from>&n
+
+If you want to fill a container you're holding with liquid from a fountain
+in the same room as you.
+
+Example:
+
+  > fill canteen fountain
+
+See also: POUR
+#
+FLEE
+
+&2Flee&n
+
+&3Usage:&n &4flee&n
+
+If you are in a fight and things are beginning to get a little uncomfortable
+(maybe you are dying), just type 'flee', and presto!  You are out of harms way
+- that is, IF there is a suitable exit nearby, and IF that exit doesn't simply
+bring you from the ashes to the fire and IF you can get away from the creature 
+you are fighting... but then, who wants to live forever?
+
+See also: WIMPY
+#
+FOLLOW
+
+&2Follow&n
+
+&3Usage:&n &4follow <leader | player | self | mob>&n
+
+Use FOLLOW to automatically follow someone else.
+
+Examples:
+
+  > follow splat
+  > follow self
+
+See also: GROUP, SNEAK
+#
+FRIEND
+
+&2friend&n
+
+&3Usage:&n &4friend <playername>&n
+
+This command will allow you to assign friends to your character.
+These players you list as friends are able to pick up your corpse
+and return it to you when you re-connect. So becarefull who you 
+choose as a friend as this will enable them to raid your corpse!
+
+See Also: Autocorpse
+#
+GET TAKE
+
+&2Get Take
+
+&3Usage:&n &4get <object>
+       get <object>
+       get <object> all.<object>
+       get all <object>
+       get all.<object>
+       get all.<object> all.<object>&n
+       
+"Get" and "take" are exactly the same and can be used interchangeably.
+If you find something interesting on the ground, you may use 'get' to pick
+it up.  'get' can also be used to extract items from containers.
+
+Examples:
+  > get sword
+  > get sword all.corpse
+  > get all corpse
+  > get all all.bag
+  > get all.bread all.bag
+
+See also: DROP, PUT
+#
+GIVE
+
+&2Give&n
+
+&3Usage:&n &4give all <victim>
+       give <object> <victim>
+       give all.<object> <victim>
+       give <number> coins <victim>&n
+
+If you feel benevolent, you may give some stuff to someone in need.
+
+  > give all &7sandii&n
+  > give bread &6citizen&n
+  > give all.bronze &7mirlen&n
+  > give &Y40000&n coins &7splat&n
+
+See also: &3GET, DROP, JUNK, DONATE, PUT, WEAR, GRAB, REMOVE, EXAMINE&n
+#
+"GO"
+
+&2Go&n
+
+&3Usage:&n  &4go <portal name>&n
+
+This is the command to enter portals to different dimensions of the game.
+#
+"GOLD"
+
+&2Gold&n
+
+&3Usage:&n &4gold&n
+
+Displays how much gold you have on hand and in the bank.
+
+See also: &3BALANCE, DEPOSIT, WITHDRAW&n
+#
+GOSSIP GRATS NOGOSSIP NOGRATS
+
+&2Gossip, Grats, Nogossip, Nograts&n
+
+&3Usage:&4 
+        gossip <message>
+        grats <message>&n
+
+	&4nogossip&n		These toggle the channels on or off.
+	&4nograts&n
+
+These are channels reserved for specific purposes.  Messages on these channels 
+reach everyone who is monitoring them.  
+
+Examples:
+
+  > &4gossip Hey, is that a short sword on your belt or are you happy to see me?&n
+  > &4grats LEVEL!!!!!!!!&n
+  > &4grats GRATS CATJE!!!!!!!!&n
+
+See also: &3EMOTE, GSAY, HOLLER, NOREPEAT, SAY, SHOUT&n
+#
+GRAB HOLD
+
+&2Grab Hold&n
+
+&3Usage:&n &4grab <object>
+       hold <object>&n
+
+For getting a good grip on something; a torch, for example.
+Puts the object into your holding positions: either a light source or
+something else that you hold.
+
+Examples:
+
+  > &4hold torch&n
+  > &4grab stone&n
+
+See also: EQUIPMENT, REMOVE, WEAR, WIELD
+#
+GROUP
+
+&Group&n
+
+&3Usage:&n &4group
+       group <player>
+       group all&n
+
+GROUP with no arguments shows the status of your group.  GROUP <player>
+adds or removes <player> from your group.  GROUP ALL adds everyone who is
+following you to your group.
+
+If you are a group member, then you will share experience points for killing
+monsters equally among the group.  Experience points will only be shared among
+group members that are in the same location, at the time of the killing
+blow.  Sharing is regardless of whether the group members have been
+participating in the fight.
+
+To make a group, a "leader" must be selected.  All members of the group
+must then "follow" the leader using the follow command.  The leader should
+NOT follow anyone at all!  The leader can now toggle group membership for
+each player in the group, by using "group <player>".  The leader
+should remember to include himself in the group.
+
+Example:
+
+  Quifael and Redferne wishes to group with Dragon.
+
+  Quifael : "follow dragon"
+  Redferne: "follow dragon"
+  (Dragon should be following no one but himself)
+  Dragon  : "group dragon"
+  Dragon  : "group redferne"
+  Dragon  : "group quifael"
+
+Later when Dragon gets upset at Quifael (because he is sleeping all the time)
+he types : "Group Quifael" to kick Quifael out of the group.
+
+See also: EXPERIENCE, UNGROUP, XP
+#
+GSAY GTELL
+
+&Gsay Gtell&n
+
+&3Usage:&n &4gsay <message>
+       gtell <message>&n
+
+Tell something to all the members of your group, even if they're not in the
+room.
+
+See also: GROUP, TELL, SAY
+#
+HELP
+
+&2Help&n
+
+&3Usage:&n &4help
+       help <command>&n
+       
+Help searches for a partial match of the entered word, including any
+spaces that may follow the word.  Help alone will give a list of the
+most common commands in the game.
+
+Examples:
+
+  > help magic mis
+    will find the help text for the magic missile spell.
+
+  > help mag
+    will match 'magic user' or 'magic missile' depending on first
+    occurrence in the help file.
+
+See also: COMMANDS, SOCIALS
+#
+HOUSE
+
+&2House&n
+
+&3Useage:&n &4house
+        house <player>&n
+
+The HOUSE command is used to add or remove guests from your house's guest
+list.  &3You must be standing in your house to use this command.&n  Only
+the primary owner of a house (not guests) may change the guest list using
+the HOUSE command.
+
+Typing 'house' with no arguments gives a list of the people currently on
+your house's guest list.  Typing 'house' with the name of a player will add
+that player to your guest list if the player is not on the list, or will
+remove the player from the guest list if the player is already on the list.
+The player specified must be in the player database for the MUD, although
+he or she does not necessarily have to be logged on at the time.
+
+Guests of your house will be able to enter your house until you remove them
+from the guest list.
+
+See also: HOUSES
+#
+IGNORE
+
+&2Ignore&n
+
+&3Usage:&n &4ignore
+       ignore <player>&n
+
+This command is used for those that wish not to be disturbed by tells
+from any one particular player.  The flag of (snob) will appear in the 
+who command and if the player you are chosing to ignore tries to tell you
+something it will not come through to you. Ignore with no argument will
+display a list of players you are ignoring.
+
+See Also: FLAG
+#
+NEWS POLICY VERSION CREDITS
+
+&2News Policy Version Credits&n
+
+These commands show you important information about CircleMUD.  It is a good
+idea to read them every once in a while.
+
+   news     - latest changes to the code and areas
+   policy   - policies on topics like player killing
+   credits  - the people who made CircleMUD possible!
+   version  - displays the current CircleMUD version number
+#
+INFO
+
+&2Info&n
+
+&3Usage:&n  &4info <playername>&n
+
+This command will give you basic information about the player you requested, like
+level, class and what social ranking he has.  Also it will show you their email, 
+webpage or personal details if they have been added.
+
+To add email webpage or personal:
+
+&3usage:&n &4info <email | webpage | personal> <details>&n
+
+This requires a save after you have done this.
+#
+INVENTORY
+
+&2Inventory&n
+
+&3Usage:&n &4inventory&n
+
+If you're uncertain about what you're carrying, or simply want to check
+that no thieves have sneaked past your guard.
+
+See also: EQUIPMENT, GRAB, HOLD, REMOVE, WEAR
+#
+JOIN
+
+&2Join&n
+
+&3Usage:&n &4join <object> <object>&n
+
+Some objects are physically joinable.  This will typically create
+another object of better value or strength.
+
+Example:
+
+  >join bit claw
+
+Message:    
+  A Golden Horses Bit and a Phoenix claw fit together
+  perfectly to make a Phoenix Claw Ring.
+#
+JUNK
+
+&2Junk&n
+
+&3Usage:&n &4junk <object>
+       junk all.<object>
+       junk <number> coins&n
+
+Use JUNK instead of DROP if you want to keep the world a little cleaner.  If
+you JUNK something, it will disappear and you'll get a few coins or experience
+points, just as if you had dropped it in the dump.
+
+Examples:
+
+  > junk cup
+  > junk all.bronze
+  > junk 500 coins
+
+See also: DONATE, DROP
+#
+KILL HIT
+
+&2Kill Hit&n
+
+&3Usage:&n &4kill <victim>
+       hit <victim>&n
+
+A good way to start a fight.  Not a good idea to hit other players.
+
+See also: FLEE, WIMPY
+#
+LAST LASTON
+
+&2Last Laston&n
+
+&3Usage:&n  &4last <playername>&n
+
+This command will give you the details of when the player was
+last logged onto the system. The higher you are in the game the
+more information you will see.
+#
+LEAVE
+
+&2Leave&n
+
+&3Usage:&n &4leave&n
+
+If you feel claustrophobic, typing 'leave' will make you use the nearest
+obvious exit to the outside.
+#
+LEVELS
+
+&2Level&n
+
+&3Usage:&n &4levels&n
+
+Lists the levels of your class and the experience required to attain each
+level.
+#
+LIFE
+
+&2Life&n
+
+Would you like a peice of rope to end it all now
+seeing as you don't seem to have one
+#
+LIST
+
+&2List&n
+
+&3Usage:&n &4list
+       list <item type>&n
+
+If you'd like to see what items a shop has for sale, take a look at the
+list.  The list contains all of the items currently for sale and in
+what quantity.  The price for each item is also listed.  If you are
+interested in a particular type of item, you can specify which items to
+list.
+ 
+Examples:
+ 
+  > list             (list all items for sale)
+  > list sword       (list all swords for sale)
+ 
+See also: BUY, SELL, SHOPS, VALUE
+#
+LOOK
+
+&2Look&n
+
+&3Usage:&n &4look
+       look at <object>
+       look in <object>
+       look <direction>&n
+
+For studying your surroundings and objects.
+
+Examples:
+
+  > look                                      
+  > look at angel
+  > look in bag
+  > look south (May give some information as to what is south)
+
+Note that if you LOOK AT CORPSE you will not see its inventory.
+To see what's inside a container (i.e. a corpse) use LOOK IN <object>.
+
+See also: EXAMINE, GET, READ, TAKE
+#
+CHECK MAIL RECEIVE
+
+&2Check Mail Receive&n
+
+&3Usage:&n &4check
+       mail <person>
+       receive&n
+       
+The commands used by the Midgaard Mail System (MMS) are MAIL, CHECK, and
+RECEIVE.  These commands can only be used while in an Official MMS Post
+Office.  You must be at least second level in order to use the MMS.
+
+Examples:
+
+  To check and see if you have any mail waiting:
+  > check
+
+  To write mail to Niandra:
+  > mail Niandra
+
+  To ask the Postmaster to give you your mail, if you have any waiting:
+  > receive
+
+Stamps cost 150 coins.
+#
+MOTD
+
+&2Motd&n
+
+&3Usage:&n &4motd&n
+
+Displays the message of the day.  Contains important information
+regarding the status of the MUD.  You should be sure to read it
+when you login.  If you miss it at login, just use this command!
+#
+MURDER
+
+&2Murder&n
+
+&3Usage:&n &4murder <victim>&n
+
+Murder command is used to hit another player, to avoid accidental flagging (i.e.
+trying to type "kiss Nia" but accidentally typing "kill Nia").
+
+Note that it is illegal to kill other players in any circumstances other than
+those specified in the POLICY statement.  If you try and kill players outside designated
+pkzones you will get a KILLER flag.  If you are flagged as a killer, you are unable to do
+damage and other players will be allowed to use the MURDER command to
+kill you without being flagged themselves.
+
+See also: FLAGS AREAS POLICY
+#
+NOCTALK
+
+&2Noctalk&n
+
+&3Usage:&n &4noctalk&n
+
+Toggles whether you hear your fellow clan members on the ctalk channel.
+#
+NOINFO
+
+&2Noinfo&n
+
+&3Usage:&n &4noinfo&n
+
+Toggles whether you recieve info eg someone entering the game.
+#
+NONEWBIE
+
+&2Nonewbie&n
+
+&3Usage:&n &4nonewbie&n
+
+Toggles whether you recieve newbie channel.
+
+#
+NOREPEAT
+
+&2Norepeat&n
+
+&3Usage:&n &4norepeat&n
+
+This command toggles whether or not you see your communication echoed
+back to you (i.e., from commands such as SAY, SHOUT, HOLLER, GOSSIP, etc.)
+Useful if you have a slow connection or if it just annoys you.
+
+See also: TOGGLE
+#
+NORTH SOUTH EAST WEST UP DOWN
+
+&2North South East West Up Down&n
+
+&3Usage:&n &4north
+       south
+       east
+       west
+       up
+       down&n
+
+To travel in a given direction.
+#
+NOSHOUT
+
+&2Noshout&n
+
+&3Usage:&n &4noshout&n
+
+Toggles whether you hear shouts.  (deaf) will appear after
+your name in the WHO list.
+
+See also: FLAGS, HOLLER, SHOUT, TOGGLE, WHO
+#
+NOSUMMON
+
+&2Nosummon&n
+
+&3Usage:&n &4nosummon&n
+
+Due to problems we've had with players killing other players by summoning
+them to Bad Places, all characters now have SUMMON PROTECTION turned on by
+default.  This prevents people from summoning you and gives you a warning
+message if someone tries.  If you want to let someone summon you (i.e. if
+someone wants to summon you for a legitimate reason), type NOSUMMON to turn
+off summon protection.  You can then type NOSUMMON again to turn protection
+back on.
+
+See also: SUMMON, TOGGLE
+#
+NOTELL
+
+&2Notell&n
+
+&3Usage:&n &4notell&n
+
+Use NOTELL if you wish to prevent other players from using "tell" to
+communicate with you.  (notell) will appear after your name in the WHO
+list if you have notell on.
+
+See also: FLAGS, TELL, TOGGLE, WHO
+#
+OFFER RENT
+
+&2Offer Rent&n
+
+&3Currently rent is disabled in Primal so disregard the following.
+Keep upto date with news, motd and boards in case it is re-introduced.&n
+
+For use in the receptions of inns.
+
+Offer makes the innkeeper tell you the cost of storing your belongings
+for one day.  Rent stores you belongings and exits you from the game.
+When you re-enter, you will start where you rented.
+
+There is a daily charge for rent.  You may store your things at the
+CRYOGENIC CENTER for a one-time charge of four days rent.  See INNS
+for details on the rent policy.
+
+> offer
+> rent
+
+See also: INNS
+#
+OPEN CLOSE LOCK UNLOCK
+
+&2Open Close Lock Unlock&n
+
+&3Usage:&n &4open | close | lock | unlock <door | direction>&n
+
+To open, close, lock, and unlock doors, of course.
+
+Examples:
+
+  > open portal
+  > lock door
+  > unlock door south
+  > close gate
+
+See also: ENTER, LEAVE
+#
+ORDER
+
+&2Order&n
+
+&3Usage:&n &4order <victim> <command>
+       order followers <command>&n
+
+Used for ordering pets and charmed people to do your evil bidding.  You
+can order everyone under your command with "order followers".
+
+Example:
+
+  > order puppy eat bread
+  > order followers sleep
+
+See also:  CHARM SERVE DIE CLONES
+#
+PAGELENGTH PAGEWIDTH
+
+&2Pagelength Pagewidth&n
+
+&3Usage:&n  &4pagelength <number>&n
+	   &4pagewidth <number>&n
+
+This helps you set what you are reading to suit your client. The min's
+and max's are as follows:
+
+Pagelength - 10 - 100
+Pagewidth - 40 - 250
+
+The norm would be around 80 x 25 but this can be changed to suit what
+you would like.
+#
+PKILL
+
+&2Pkill&n
+
+&3Usage:&n  &4pkill enable&n
+
+This is the command to enable you to join the violent world of player
+killing.  Once enabled you will find yourself with a permanent &4(PK)&n
+flag against your name.  If you are not a member of a clan this is not
+reversible.  So be very careful setting it if you do not want to join
+a clan as not many gods will remove this flag for you.
+#
+POUR
+
+&2Pour&n
+
+&3Usage:&n &4pour <from container> <to container>
+       pour <container> out&n
+
+If you want to pour some liquid from one container to another.  Pouring
+out simply empties the contents of the container onto the ground.
+
+Examples:
+
+  > pour canteen cup
+  > pour cup out
+
+See also: FILL
+#
+PRACTICE PRACTISE
+
+&2Practice&n
+
+&3Usage:&n &4practice <skill | spell>&n
+
+Practice is the way you improve your spells and skills.  You can only do
+so in your guild, where your guildmaster can help you train.
+You can only practice a certain amount for each level you gain.  
+Unused practice sessions will accumulate for use in future levels.
+
+If you type practice without arguments anywhere other than in your guild, 
+you will get a list of all of the spells and skills available to you
+and your level of proficiency at each.
+#
+PUT
+
+&2Put&n
+
+&3Usage:&n &4put <item> <container>
+       put all.<item> <container>
+       put all <container>&n
+
+For putting items into containers.
+
+Examples:
+
+  > put bread bag
+  > put all.bread bag
+  > put all chest
+
+See also: GET
+#
+"ITEMHUNT QUEST" "ITEM HUNT QUEST"
+
+&2Itemhunt Quests&n
+
+&3Itemhunt Specific Quest Commands:&n
+&4  quest locate&n  - Will locate any unclaimed items, at a cost of 10 mana.
+&4  quest restore&n - Will restore your health, mana and movement in exchange
+                      for a small amount of experience.
+An itemhunt quest takes place in a zone designated by an imm, who will also
+determine the item being searched. These are both viewable using the
+&4quest info&n command (See the help on "quest"). Random mobiles, not
+not necessarily from that zone, or even world, will be loaded at random
+locations. These mobiles will each have between zero and two of the quest
+items.
+
+When you retrieve the item from the corpse, your score will be automatically
+incremented, and broadcast to the quest participants.
+
+When a new mobile is loaded, it will be broadcast to the participants.
+
+Hint: You might try using "where <mob>" to get a better idea of where to find
+your target.
+
+See Also: QUEST, "TRIVIA QUEST"
+#
+"TRIVIA QUEST"
+
+&2Trivia Quests&n
+
+&3Trivia Specific Quest Commands:&n
+&4  quest question&n - Displays the current question.
+&4  quest answer x &n- Submit your answer of 'x'.
+
+A trivia quest will consist of an imm firing trivia questions through the
+quest system. The first person two answer the question correctly will score
+a point. This will repeat until either the questions are exhausted, or a
+player reaches a certain score.
+
+See Also: QUEST, "ITEMHUNT QUEST"
+#
+QSAY
+
+&2Qsay&n
+
+&3Usage:&n &4qsay <message>&n
+
+To tell something to everyone on the current Quest.
+
+See also: QUEST
+#
+QUAFF POTION POTIONS
+
+&2Quaff Potion Potions&n
+
+&3Usage:&n &4quaff <potion>&n
+
+Potions are available at the Alchemists store in Haven, and elsewhere
+around the world.  Potions will do varied things, from Cure Light
+through to Poison.  Potions can be Quaffed, as shown below.
+
+The magic will take effect immediately, for better or for worse...
+
+Example: 
+  > quaff red
+
+#
+"QUEST"
+
+&2Quest&n
+
+&3Usage:&n &4quest&n       - Show available commands.
+       &4quest join&n  - Join the current quest.
+       &4quest leave&n - Leave the current quest.
+       &4quest info&n  - View details on the current quest.
+       &4quest score&n - See the current quest scoreboard.
+
+The quest command is the core command to most things quest related. With the
+exceptions of qsay and questlog. For more information see the help on 
+"trivia quest" and "itemhunt quest".
+
+More quest types may be added in the future.
+
+See also: QSAY QUESTLOG "ITEMHUNT QUEST" "TRIVIA QUEST"
+#
+"QUESTLOG"
+
+&2Questlog&n
+
+&3Usage:&n  &4questlog&n
+
+This will tell you what quest items you have listed in your name. To get
+a quest item logged against your name you have to win quests! The log is
+designed to control the quest equipment and this means that once an item
+is logged against your name you can not share it with another player and
+everytime you log onto the game the item will automatically load for you.
+You will no longer lose your quest equipment through dying.
+
+See Also: Quest QSay
+#
+QUIT QUI 
+
+&2Quit&n
+
+Quit will make the game save your character and your equipment then you
+will exit the game.  When quiting the equipment will save to the position
+you are wearing them. This means when you come back to the game you are 
+already wearing your 'eq'.
+
+See also: HOUSES
+#
+READ
+
+&2Read&n
+
+&3Usage:&n &4read <object>
+       read <board | message | number>&n
+
+When you want to read something.
+
+READ is also used to read messages on bulletin boards; type HELP BOARDS
+for more information.
+
+Example:
+
+  > read note
+  > read map
+ 
+See also: BOARDS
+#
+"RECALL"
+
+&2Recall&n
+
+&3Usage:&n  &4recall&n
+
+This is for all newbies to Level 15. You are now able to use
+the recall command to get yourself back to your load point, usually
+in the same room as Gamina.  Once past Level 15 you will have to 
+either train the spell "Word of Recall" or start buying scrolls from
+the shops.
+
+See Also: Word of Recall (the spell)
+#
+RECITE SCROLL SCROLLS
+
+&2Recite Scroll&n
+
+&3Useage:&n &4Recite <Scroll>
+        Recite <Scroll> <victim | object>&n
+
+Scrolls are arcane writings, created either by Mages of great power, or
+by the Gods themselves.  They can be used by any character, and will
+perform the spell inscribed upon them as if cast by a Mage/Cleric.  To
+use such writings, simply "recite" the scroll as below:
+
+Target can be an object, character or nothing (which may be yourself).
+
+Example:
+> recite identify dagger
+
+To recite an identify scroll over a dagger (ie. identify the dagger).
+
+#
+REMOVE
+
+&2Remove&n
+
+&3Usage:&n &4remove <item>
+       remove all
+       remove all.<item>&n
+
+If you tire of wearing some armor or wielding a weapon.
+
+Examples:
+
+  > remove boots
+  > remove sword
+  > remove all
+  > remove all.bronze
+
+See also: GRAB, HOLD, WEAR, WIELD
+#
+REPAIR
+
+&2repair&n
+
+&3Usage:&n &4repair <item name>&n
+
+To use this command you must have the Armorcraft and Weaponcraft skills
+practiced.  If you find you do not have the skills required to repair 
+your items there is a blacksmith in Haven that can repair them at a cost.
+#
+REPLY
+
+&2Reply&n
+
+&3Usage:&n &4reply <message>&n
+
+This command will send a reply to the last person to send you a message
+using TELL.  It works just as if you had typed 'tell <player> <message>'
+but makes it a bit easier.  It can also be very useful in case someone
+invisible sends you a message.
+
+Example:
+
+  Ras tells you, 'Hi!'
+  > reply hey
+  You tell Ras, 'hey'
+
+  Someone tells you, 'I am your secret admirer.'
+  > reply Who are you?
+  You tell someone, 'Who are you?'
+
+See also: TELL, NOTELL
+#
+REPORT
+
+&2Report&n
+
+&3Usage:&n &4report&n
+
+This command sends a report of your current and max hp and mana to your
+group.  You can use this command to let potential rescuers know how
+low your hps are without forcing them to use the "group" command.  It is
+designed as a convenience for groups with members who get lag or have slow
+modems.
+
+#
+SAVE
+
+&2Save&n
+
+&3Usage:&n &4save&n
+
+Save your persona.  This includes experience points, strength, gold, etc.
+Your equipment is also saved in the (unlikely?) event of a crash.  The
+game periodically auto-saves you and your equipment, so it is not necessary
+to have your client auto-save you as well.
+
+You CANNOT load a saved version if you die -- your persona still exists,
+but you will lose experience, and all your objects stay in the game, with
+your corpse.
+
+#
+SAY TELL ASK WHISPER SHOUT YELL HOLLER '
+
+&2Tell Ask Whisper Shout Yell Holler&n
+
+If you consider communicating with other beings, you might be understood
+better if you start your sentences with either say, tell, whisper or shout.
+
+&3Usage:&n &4say | shout | holler <string>
+       tell | whisper | ask <player> <string>&n
+
+Examples:
+
+  > say Hey, does anyone know how to get to Oz?
+  > tell catje hi, how are you?
+
+You can use ' as a shorthand for say, as in:
+
+  > ' hello there.
+
+Shout broadcasts your message to everyone is your geographic zone.  Holler
+broadcasts to everyone in the game but costs 20 movement points.  You must
+be level 2 before you can use shout and yell.
+
+See also: AUCTION, GOSSIP, GSAY, NOREPEAT, QSAY, REPLY
+#
+SCORE
+
+&2Score&n
+
+&3Usage:&n &4score&n
+
+Provides useful information on your status such as age, hit points,
+mana, movement points, armor class, alignment, experience points, gold
+on hand, how long you've been playing, and your level.
+
+*NOTE:  Also  AFF will show your current afflictions
+I.E Spells currently set and the duration left.
+
+See also: AC, EXPERIENCE
+#
+SEARCH
+
+&2search&n
+
+This command will help you find hidden doors, traps, hidden objects or
+treasure.
+#
+SELL
+
+&2Sell&n
+
+&3Usage:&n &4sell <item>&n
+       
+If you'd like to sell an item to a shopkeeper, trying selling it to them.
+Most shops specialize in what they will buy, so you may have to look around
+to find a buyer for your items.
+ 
+Examples:
+ 
+  > sell sword       (sell the first sword in your inventory)
+ 
+See also: BUY, LIST, SHOPS, VALUE
+#
+SENTENCE
+
+&2Sentence&n
+
+&3Usage:&n  &4sentence&n
+
+There has been a punishment system put into place on this base.  If you think
+you have been punished type &4sentence&n and you will see what punishment you
+are currently serving.  It will also tell you the duration of this punishment.
+#
+SERVE
+
+&2Serve&n
+
+&3Usage:&n &4order clones serve&n
+
+This command will make your clones come to from where ever they are.
+It will  cost 100 mana per clone and 10 movement per clone
+
+See Also: CLONE ORDER DIE
+#
+SKILLINFO SPELLINFO
+
+&2Skillinfo Spellinfo&n
+
+&3Usage:&n &4skillinfo <class> <race> <ascending/decending>&n
+	   &4spellinfo <class> <race> <ascending/decending>&n
+
+These two commands are usefull to find out what a combination of
+class and race will receive on the spells/skills. You only need to
+type either skillinfo or spellinfo and they will bring up the same 
+listing.  Anything listed in red is completely unobtainable for the
+combination of class and race you have selected.  This is also a 
+handy tool when deciding what you want to remort too as you will see
+what skills and spells you will receive on each remort class.
+
+If you are wanting particular information on a spell or skill alone 
+the usage would be:
+
+&4skillinfo (spellinfo) <'spell/skill name'> <race>&n
+
+This will show you the classes the skill/spell is available too and the
+classes that are in red are the ones that will not get the spell/skill.
+#
+SLAY STAKE
+
+&2Slay Stake&n
+
+&3Usage:&n &4slay <player>
+       stake <player>&n
+
+Commands used to kill vampires or werewolves when they are in their changed
+states. 
+
+To kill a vampire you need a wooden stake and to kill a werewolf you need 
+a silver dagger.
+
+A successful slay or stake will remove the affliction of the player and 
+result in immediate DEATH.
+
+You will not get the KILLER FLAG for this at any time wether it is a
+PK ZONE or not
+
+See also: SLAYING PLAYER KILLING
+#
+SLEEP
+
+&2Sleep&n
+
+&3Usage:&n &4sleep&n
+
+SLEEP is both a command and the name of a spell.
+
+The SLEEP command puts you to sleep, allowing you to regain your health more
+quickly.  You will be largely unaware of your surroundings while asleep.
+You can awaken yourself with the WAKE command.
+
+The SLEEP spell forces the victim into a magical sleep such that they cannot
+be awakened until the spell wears off.
+
+See also: WAKE CAST
+#
+SOCIALS
+
+&2Socials&n
+
+&3Usage:&n &4<social>
+       <social> <victim>&n
+
+Socials are commands used to show your affective state to others.  The
+actor, victim and bystanders may receive different messages.  Generally,
+social commands are used only to express emotion, but it is possible that
+some mobs (or players) will take action based on the social.
+
+Example:
+  > shake homer
+  > applaud marge
+  > stare 
+
+The SOCIALS command generates a canonical listing of all available socials.
+
+See also: EMOTE
+#
+SPLIT
+
+&2Split&n
+
+&3Usage:&n &4split <amount>&n
+
+Split is used to split money among people in your group who are in the same
+room as you.  If you are in a group with 4 other people, all of whom are in
+the same room with you, and you type SPLIT 100, you will give each of the
+other 4 group members 20 coins each.  (100 coins is split 5 ways; you keep
+your share and give everyone else their share).
+
+See also: FOLLOW, GROUP
+#
+TIME MOON
+
+&2Time Moon&n
+
+&3Usage:&n &4time
+       moon&n
+
+TIME gives you the current game time.  Your initial reaction to the output of
+this command may be one of surprise, but you'll get used to it.  You'll
+have to, at any rate, since certain things in the game depend on this
+particular notion of time; the opening hours of the shops, for example.
+
+MOON gives you the current moon in orbit.
+
+#
+TIMER TIMERS
+
+&2timer timers&n
+
+This is how we keep track of the n usage per t ticks..
+Timers will show you a list of what you have used and when you can 
+use it again.
+#
+TITLE
+
+&2Title&n
+
+&3Usage:&n &4title <new title>&n
+
+Sets the title people see on the WHO list and when you're in the room with
+them.  You can't use parentheses (the "(" and ")" characters) because those
+are reserved for flags.
+
+Do not abuse this command; if you do, it will be taken from you.
+
+See also: FLAGS, WHO
+#
+TOGGLE
+
+&2Toggle&n
+
+&3Usage:&n &4toggle&n
+
+TOGGLE shows you the current values of various toggles available on the MUD.
+This command CAN NOT be used to change these values (see related commands.)
+All of these toggles remain the same until you change them; i.e. they are
+saved when you quit or rent.
+
+See also: BRIEF, COMPACT, DISPLAY, NOSHOUT, NOSUMMON, NOTELL, QUEST
+          REPEAT, WIMP
+#
+UNGROUP
+
+&2Ungroup&n
+
+&3Usage:&n &4ungroup 
+       ungroup <group member>&n
+
+UNGROUP can be used by group leaders to disband the entire group, or
+to kick a specific group member out of the group (and stop him/her from
+following the leader).
+
+Examples:
+
+  > ungroup
+  > ungroup homer
+
+See also: GROUP 
+#
+USE WAND STAFF STAFFS WANDS
+
+&2Use Wand Staff&n
+
+&3Usage:&n &4use <staff>
+       use <wand> <Target>&n
+
+Using a staff will automatically target everybody (or everything) in a
+room, except yourself.  Therefore staffs are naturally very powerful, and
+yet may be very dangerous to use around other players.
+
+Using wands require that you point it at a target, which can be either a
+character or an object.
+
+Both staffs and wands must be HELD in the hand prior to use!  (Use the
+grab or hold commands).  You must still supply the name of the staff or
+wand to avoid confusion.
+
+See also: RECITE
+#
+VALUE
+
+&2Value&n
+
+&3Usage:&n &4value <item>&n
+
+Before selling an item to a shop, you can ask the shopkeeper how much
+he or she is willing to pay for it.
+ 
+Example:
+ 
+  > value bread
+ 
+See also: BUY, LIST, SELL, SHOPS
+#
+VISIBLE
+
+&2Visible&n
+
+&3Usage:&n &4visible&n
+
+Use this command to break your spell of invisibility before it expires.
+
+See also: INVISIBILITY
+#
+VOTE
+
+&2vote&n
+
+&3Usage:&n &4vote <1 | 2 | 3>
+
+Sometimes the Immortals decide they want more input from the common man. 
+So they can run elections to get an idea on the current opinion on issues
+they beleive to be important to them.  You should see 3 options when an 
+election is created.  You can only vote once in an election!
+#
+WAKE SLEEPING REST SIT STAND
+
+&2Wake Sleep Rest Sit Stand&n
+
+&3Usage:&n &4wake
+       sleep
+       rest
+       sit
+       stand&n
+For changing your position.  If you feel weary, it's probably a good idea
+to sit and rest for a while, or maybe even take a nap.
+#
+WEAR
+
+&2Wear&n
+
+&3Usage:&n &4wear <item>
+       wear all.<item>
+       wear all
+       wear <item> <location>&n
+
+If you want to wear some clothes, armor or the likes.
+
+Also, to wear everything in your inventory (or at least try to, as wearing 
+things like loaves of bread is not a good way to win friends and influence
+people) you can type "wear all".
+
+Optionally, you can specify what part of your body to wear the equipment on.
+
+Examples:
+
+  > wear boots
+  > wear all.bronze
+  > wear all
+  > wear ring finger
+
+See also: EQUIPMENT, REMOVE
+#
+WEATHER
+
+&2Weather&n
+
+&3Usage:&n &4weather&n
+
+If you're uncertain whether the sun is shining or the rain is pouring down.
+You'll have to be outside in order to tell however.
+
+See also: "CONTROL WEATHER"
+#
+WHERE
+
+&2Where&n
+
+&3Usage:&n &4where <mob | player | object>&n
+
+Tells you the location of a mob, player or object.
+
+Mortals can only "where" mob or players from within the zone they are in.
+
+Immortals may type 'where' without arguments to see where everybody is and
+also locate objects using the where command.
+
+
+Example:
+
+  > where
+  > where torch
+  > where dragon
+#
+WHO
+
+&2Who&n
+
+&3Usage:&n &4who [minlev[-maxlev]] [-i [cname]] [-n sname] [-c classlist] [-a | -b | -t] [-s] [-o] [-q] [-r] [-z]&n
+
+Lists the people currently in the game.  Some people may be invisible.
+Command-line options can be used to limit the listing.  The parameters
+can be specified on the command-line in any order.
+
+minlev, maxlev : list only people whose level is at or above minlev, and
+                 optionally, at or below maxlev
+-n : list only people whose names or titles contain &Wsname&n
+-c : list only people of a certain class, where classlist is any combination
+     of the letters w, m, c, and t
+-s : list names in the short form (4 columns of names, without titles or flags)
+-o : list only outlaws (i.e. people with a killer or thief flag)
+-q : list only people who are on the Quest
+-r : list only people who are in your room
+-z : list only people in your zone
+-i : list only people who are in your clan, or the clan given by &Wcname&n
+
+-a : sort by character name (&wa&nlphabetical)
+-b : sort level descdending (&Wb&nackwards)
+-t : sort by connection (&Wt&nime)
+ 
+Examples:
+
+  > who -c wc -s -l 20
+  List, in short form, warriors and clerics at or above level 20
+
+  > who 15-25 -o -z
+  List all outlaws between levels 15 and 25 who are in your zone.
+#
+WHOAMI
+
+&2Whoami&n
+
+&3Usage:&n &4whoami&n
+
+Displays your character's name, if you want to be sure you are who you think
+you are.
+#
+WIELD
+
+&2Wield&n
+
+&3Usage:&n &4wield <weapon>
+       wield <number>.<weapon>&n
+
+When you get tired of bashing monsters with your fists, you might consider
+wielding a weapon.
+
+Example:
+
+  > wield sword
+  > wield 3.sword    (Wield the third sword in your inventory)
+
+See also: EQUIPMENT, REMOVE, WEAR
+#
+WIMPY
+
+&2Wimpy&n
+
+&3Usage:&n &3wimpy <hp>
+       wimpy&n
+
+Use the WIMPY command to automatically flee once your health drops below
+a certain level.
+
+Examples:
+
+  > wimpy 35    will make your character automatically flee a fight
+                if you have less than 35 hit points.
+  > wimpy 0     will turn off wimpy mode.
+  > wimpy       will show you your current wimp status.
+
+See also: FLEE, TOGGLE
+#
+WRITE
+
+&2Write&n
+
+&3Usage:&n &4write <object>
+       write <title of board note>&n
+
+In order to write a note, you need a piece of blank paper (or similar), and
+a pen of some sort.  You can then type something like "write on the paper with
+the pen", whereupon you'll be asked to type in your note at the keyboard.
+
+WRITE is also used to post messages to bulletin boards.  Type HELP BOARDS
+for more information.
+
+See also: BOARDS, MAIL
+#
+$

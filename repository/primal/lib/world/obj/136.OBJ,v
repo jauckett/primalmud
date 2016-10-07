@@ -1,0 +1,1400 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#13600
+ruler ~
+a long ruler~
+A long Ruler has been left here.~
+~
+5 1280 8193
+0 10 5 1
+5 50132 6000
+E
+ruler~
+
+   -------------------------------------------------------------------------                                                
+   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+   |  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23  |
+   |_______________________________________________________________________|
+        
+~
+A
+4 2                     ; wis
+A
+13 50                   ; hit
+A
+12 40                   ; mana
+A
+18 9                    ; hitroll
+L 45
+#13601
+chalk piece~
+a piece of chalk~
+A used Piece of Chalk is here~
+~
+25 1025 16385
+13602 0 0 13669
+5 40000 4000
+E
+chalk~
+You see a well used piece of chalk.
+~
+A
+3 2                     ; int
+A
+14 50                   ; move
+A
+6 2                     ; cha
+L 30
+#13602
+ board black~
+a small black board~
+A Children's Black Board has been dropped here.~
+~
+25 0 16385
+13601 0 0 13669
+5 1000 100
+E
+blackboard board black~
+                      
+       1 + 2 = 3       1 + 3 = 4        1 + 4 = 5       1 + 5 = 6
+       2 + 1 = 3       2 + 2 = 4        2 + 3 = 5       2 + 4 = 6 
+
+~
+A
+3 1                     ; int
+A
+4 1                     ; wis
+L 0
+#13603
+slingshot sling shot ~
+a sling shot~
+A child's Sling Shot has been left here, forgotten.~
+~
+5 1024 8193
+0 3 10 11
+10 45000 4500
+E
+sling shot slingshot~
+You see a stick with elastic attached to either end of a piece of material
+and fixed at both ends of the stick.
+~
+A
+12 20                   ; mana
+A
+18 4                    ; hitroll
+L 25
+#13604
+Bread slice~
+a slice of bread~
+A stale piece of bread has been dropped here.~
+~
+19 0 1
+3 0 0 0
+1 5 1
+E
+bread~
+You see a stale piece of bread.
+~
+L 0
+#13605
+tin cup~
+a tin cup~
+An old Tin Cup has been left here.~
+~
+17 0 16385
+3 3 0 0
+5 10 1
+E
+cup~
+You see a polished tin cup.
+~
+L 0
+#13606
+badge sheriff's  ~
+a Sheriff's badge~
+Sheriff Malone's Badge has been left here.~
+~
+9 3073 9
+6 0 0 0
+5 100000 10000
+E
+badge~
+You see a shiny Sheriff's badge.               
+
+                                          *
+                                        *****
+                                      *********
+                                **********************
+                                  ******************
+                                    ** Sheriff ** 
+                                  *****************  
+                                *********************
+                                      *********
+                                        *****
+                                          *  
+~
+A
+13 5                    ; hit
+A
+19 4                    ; damroll
+L 55
+#13607
+badge deputy   ~
+a Deputy's Badge~
+Deputy Simons' Badge has been left here.~
+~
+9 513 9
+3 0 0 0
+5 90000 9000
+E
+badge~
+
+
+                                          @@
+                                        @@@@@@@@@@
+                                      @@@@@@@@@@@@@@@@@@
+                                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                    @@@@@@ Deputy @@@@@@ 
+                                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+                                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                      @@@@@@@@@@@@@@@@@@
+                                        @@@@@@@@@@
+                                          @@  
+
+
+~
+A
+19 4                    ; damroll
+A
+18 3                    ; hitroll
+L 50
+#13608
+badge deputy   ~
+a Deputy's Badge~
+Deputy Samson's Badge has been left here.~
+~
+9 513 9
+4 0 0 0
+5 80000 8000
+E
+badge~ 
+
+
+
+                                          @@
+                                        @@@@@@@@@@
+                                      @@@@@@@@@@@@@@@@@@
+                                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                    @@@@@@ Deputy @@@@@@ 
+                                  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+                                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                      @@@@@@@@@@@@@@@@@@
+                                        @@@@@@@@@@
+                                          @@  
+~
+A
+18 4                    ; hitroll
+A
+19 3                    ; damroll
+L 50
+#13609
+saddlebag saddle bag~
+a saddle bag~
+An old saddle bag has been left here.~
+~
+15 0 16385
+100 5 0 0
+15 100 10
+E
+bag~
+You see a dirty saddle bag.
+~
+L 0
+#13610
+canteen~
+a canteen~
+A drinking canteen has been left here.~
+~
+17 0 1
+10 10 0 0
+2 1 1
+E
+canteen~
+You see a canteen used for carrying water.
+~
+L 0
+#13611
+dress pretty ladies  ~
+a pretty dress~
+A ladies' Pretty Dress has been thrown here.~
+~
+9 514 9
+3 0 0 0
+20 30000 2900
+E
+dress pretty~
+You see a pretty mauve dress with a silk ribbon stitched around the
+bodice and small flowers printed about the skirt.
+~
+A
+3   1           ; int
+A
+12 50           ; mana
+L 30
+#13612
+holster  gun ~
+a gun holster~
+Someone's Holster has been left here.~
+~
+9 512 2049
+2 0 0 0
+10 15000 1500
+E
+holster gun~
+You see a brown leather holster with a shiny bronze buckle.
+~
+A
+19 1             ; damroll
+A
+18 2             ; hitroll
+L 30
+#13613
+bandanna dirty blue~
+a blue bandanna~
+A dirty Blue Bandanna has been left here.~
+~
+9 1024 5
+2 0 0 0
+3 10000 1000
+E
+bandanna blue~
+You see a dirty, sweat-covered bandanna.
+~
+A
+12 20             ; mana
+A
+4   2             ; wis
+L 30
+#13614
+large file blacksmiths blacksmith's    ~
+a large file~
+A large blacksmith's File has been left here forgotten.~
+~
+1 2048 16385
+0 0   1 0
+5 50000 5000
+E
+file~
+You see a large blacksmith's file.
+~
+A               ; str
+1 2
+A
+18 3            ; hitroll
+L 45
+#13615
+apron blacksmith's blacksmiths  ~
+a Blacksmith's Apron~
+An old Blacksmith's Apron has been thrown here.~
+~
+9 768 9
+4 0 0 0
+10 50000 5000
+E
+apron~
+You see an old blacksmith's apron.
+~
+A
+3 1             ; int
+A
+19 3            ; damroll
+A
+18 1            ; hitroll
+L 45
+#13616
+parasol ladies ladies' ~
+a Ladies' Parasol~
+A Ladies' Parasol has been left here.~
+~
+4 1 16385
+20 11 11 11
+5 1 1
+E
+parasol~
+You see a lace parasol.
+~
+L 0
+#13617
+shirt dirty  ~
+a dirty shirt~
+A dirty shirt has been thrown here.~
+~
+9 1056 9
+2 0 0 0
+10 35000 350
+E
+shirt~
+                                                   
+                      __,--.  .--,__
+                    .`   \ \ / /    `.
+                  .`      \ | /       `.
+                 /   /     ^|^      \   \
+                /   / |     |o     | \   \
+               /===/  |     |      |  \===\
+              /___/   |     |o     |   \___\
+                      |     |      |
+                      |     |o     |
+                      |     |      |
+                      |     |o     |
+                      |_____/\_____|     
+
+~
+A
+2 3             ; dex
+A
+3 2             ; int
+A
+18 1            ; hitroll
+L 35
+#13618
+cowboy hat  dirty~
+a Cowboy Hat~
+A dirty Cowboy Hat has been left here.~
+~
+9 1280 17
+3 0 0 0
+5 25000 2500
+E
+hat cowboy~
+You see a large cowboy hat.
+~
+A
+11 5           ; char height
+A
+6 3            ; cha
+A
+19 1            ; damroll
+L 30
+#13619
+fire stone ring   ~
+a ring made of fire stone~
+A Fire Stone Ring is left here shimmering.~
+~
+9 514 3
+2 0 0 0
+5 25000 1000
+E
+ring~
+      _
+     / \
+   __\ /__
+  / _____ \
+ / /     \ \
+/ /       \ \
+\ \       / /
+ \ \_____/ /
+  \_______/
+
+~
+A            ; int
+3 2
+A            ; age
+9 5
+A
+18 2         ; hitroll
+L 25
+#13620
+ring wedding band  ~
+a Woman's Wedding Band~
+A woman's Wedding Band has been left here~
+~
+9 2050 3
+4 0 0 0
+2 45000 4000
+E
+ring band wedding~
+      _
+     / \
+   __\ /__
+  / _____ \
+ / /     \ \
+/ /       \ \
+\ \       / /
+ \ \_____/ /
+  \_______/  It has an enscription.
+~
+E
+enscription~
+My dearest wife.      
+~
+A
+1 2             ; str
+A
+5 2             ; con
+A
+18 2            ; hitroll
+A
+19 2            ; damroll
+L 35
+#13621
+cow skin pants   ~
+a pair of cow skin pants~
+A pair of Cow Skin Pants have been thrown here.~
+~
+9 512 33
+5 0 0 0
+15 60000 6000
+E
+pants~
+You see a pair of pants made from cow skin.
+~
+A
+18 3            ; hitroll
+A
+19 3            ; damroll
+A
+12 -50          ; mana
+L 50
+#13622
+shoes set horseshoes horse  ~
+a set of horse shoes~
+A Set of Horse Shoes are here rusting.~
+~
+9 1056 65
+15 0 0 0
+5 35000 3500
+E
+shoes~
+You see a set of horse shoes.
+~
+A
+14 50           ; movement
+A
+11 5            ; char height
+L 30
+#13623
+bell cow   ~
+a cow bell~
+A Cow Bell has been left here.~
+~
+9 512 5
+3 0 0 0
+5 50000 5000
+E
+bell cow~
+You see a large cow bell.
+~
+A
+4 2             ; wis
+A
+1 2             ; str
+A
+19 2            ; damroll
+L 35
+#13624
+ring wedding band~
+a man's wedding band~
+A man's Wedding Band has been left here.~
+~
+9 512 3
+5 0 0 0
+2 60000 6000
+E
+ring band wedding~
+           
+   __ _ __
+  / _____ \
+ / /     \ \
+/ /       \ \
+\ \       / /
+ \ \_____/ /
+  \_______/  It has an enscription.
+
+~
+E
+enscription~
+A symbol of my torment.      
+~
+A
+5 3               ; con
+A
+13 100            ; hits
+L 45
+#13625
+key~
+a key to a vault~
+A Key to the Bank Vault is left here forgotten.~
+~
+18 0 16385
+0 0 0 0
+5 1 1
+E
+key~
+You see a key to a Vault.
+~
+L 0
+#13626
+brush scrubbing~
+a scrubbing brush~
+A Scrubbing Brush has been left here after a bath.~
+~
+4 1 16385
+3 1 19 3
+5 3000 300
+E
+brush~
+You see a well used scrubbing brush.
+~
+E
+scrubbing~
+You see a well used scrubbing brush.
+~
+L 0
+#13627
+pork pig meat~
+some pork~
+Some Pork has been left here to rot.~
+~
+19 0 1
+10 0 0 0
+5 25 1
+E
+pork pig meat~
+You see a dirty piece of pork with flies buzzing about it.
+~
+L 0
+#13628
+egg chook chicken bum rock~
+a egg~
+An Egg has been left here waiting to be cooked.~
+~
+19 0 1
+5 0 0 0
+5 15 1
+E
+egg~
+You see a large brown egg.  
+~
+L 0
+#13629
+bottle lemonade~
+a bottle of lemonade~
+A bottle of lemonade has been left here fizzing.~
+~
+17 0 16385
+5 5 6 0
+5 10 1
+E
+bottle~
+You see a small bottle of lemonade.
+~
+E
+lemonade~
+You see a small bottle of lemonade.
+~
+L 0
+#13630
+bucket pail~
+a bucket~
+A bucket has been left here in the sun.~
+~
+17 0 1
+10 10 10 0
+10 5 1
+E
+bucket pail~
+You see a wooden water pail.
+~
+L 0
+#13631
+apron   servants servant's ~
+a servant's apron~
+A dirty Servant's Apron has been left here.~
+~
+9 512 2049
+3 0 0 0
+15 40000 400
+E
+apron~
+You see a dirty servant's apron.
+~
+A
+18 6
+A
+19 3
+L 25
+#13632
+hat lady's  ~
+a Lady's Hat~
+A Lady's Hat has been left here forgotten.~
+~
+9 1280 17
+4 0 0 0
+10 35000 3500
+E
+hat~
+You see a large lady's hat covered with feathers.
+~
+A
+11 10           ; char height
+A
+2   1           ; dex
+A
+18 2            ; hitroll
+A
+19 1            ; damroll
+L 30
+#13633
+pants sheriff's   ~
+a pair of sheriff's pants~
+A pair of Sheriff's Pants have been thrown here.~
+~
+9 513 33
+6 0 0 0
+15 60000 6000
+E
+pants~
+You see a pair of the Sheriff's pants.
+~
+A
+13 5            ; hits
+A
+19 6            ; damroll
+A
+12 50           ; mana
+L 55
+#13634
+blue military pants     ~
+a pair of blue military pants~
+A pair of Blue Military Pants have been thrown here.~
+~
+9 2048 33
+3 0 0 0
+15 4000 400
+E
+pants~
+You see a pair of well worn standard issue military pants.
+~
+A
+1 1                   ; str
+A
+14 20                 ; move
+A
+19 3                  ; damroll
+L 40
+#13635
+blue military hat   ~
+a Blue Military Hat~
+A Blue Military Hat has been thrown here.~
+~
+9 512 17
+3 0 0 0
+5 5000 500
+E
+hat~
+You see a well worn standard issue military hat.
+~
+A
+19 2            ; damroll
+A
+12 20           ; mana 
+A
+11 5            ; height
+L 43
+#13636
+private's uniform   ~
+a Private's Uniform~
+A Private's Uniform has been thrown here.~
+~
+9 512 1025
+2 0 0 0
+15 6000 600
+E
+uniform~
+You see a well worn standard issue military Private's uniform.
+~
+A
+19 3            ; damroll
+A
+5 1             ; con
+L 35
+#13637
+corporal's uniform   ~
+a Corporal's Uniform~
+A Corporal's Uniform has been thrown here.~
+~
+9 512 1025
+3 0 0 0
+15 5000 500
+E
+uniform~
+You see a well worn standard issue military Corporal's uniform.
+~
+A
+19 4            ; damroll
+A
+6 1             ; cha
+L 40
+#13638
+sergeant's uniform   ~
+a Sergeant's Uniform~
+A Sergeant's Uniform has been thrown here.~
+~
+9 512 1025
+5 0 0 0
+15 1 1
+E
+uniform~
+You see a well worn standard issue military Sergeant's uniform.
+~
+A
+19 4          ; damroll
+A
+6 2           ; char
+L 45
+#13639
+lieutenant's uniform   ~
+a Lieutenant's Uniform~
+A Lieutenant's Uniform has been thrown here.~
+~
+9 512 1025
+5 0 0 0
+15 7000 700
+E
+uniform~
+You see a well worn standard issue military Lieutenant's uniform.
+~
+A
+19 4          ; damroll
+A
+18 2          ; hitroll
+L 45
+#13640
+captain's uniform   ~
+a Captain's Uniform~
+A Captain's Uniform has been thrown here.~
+~
+9 512 1025
+5 0 0 0
+15 10000 1000
+E
+uniform~
+You see a well worn standard issue military Captain's uniform.
+~
+A
+19 5    ; damroll
+A
+18 3    ; hitroll
+L 50
+#13641
+major's uniform   ~
+a Major's Uniform~
+A Major's Uniform has been thrown here.~
+~
+9 512 1025
+6 0 0 0
+15 15000 1500
+E
+uniform~
+You see a well worn standard issue military Major's uniform.  It has shiny brass buttons.
+~
+A
+19 6      ; damroll
+A
+18 4      ; hitroll
+L 59
+#13642
+gun rifle military~
+a military rifle~
+A standard issue Military Rifle has been left here.~
+~
+5 131072 8193
+4 2 50 32788
+10 4000 400
+E
+rifle~
+You see a standard issue military rifle.
+              _________                      _
+ __------____/    ===  ========================
+ |               ________________/
+ |      ___--_/(_)             ^
+ |___---
+
+
+~
+#13643
+ammo bullets~
+some bullets~
+Some bullets are here.~
+~
+5 0 8193
+18 1 1 16404
+7 1500 3
+E
+bullets~
+You see a handful of bullets.
+~
+#13644
+barrel water~
+water barrel~
+There is a large barrel half filled.~
+~
+23 0 0 
+999999 999999 15 0
+1 1 1
+E
+barrel water~
+You see a large water barrel ready for you to drink.
+~
+#13646
+bed~
+a bed.~
+There is a small bed with a moth eaten quilt.~
+~
+15 0 0
+0 5 -1 0
+1 1 1
+E
+bed~
+                  .         .
+                 /|________/|
+                // /      //|
+               |/_/______|//!        
+               |_________|/
+               !         !   
+~
+L 0
+#13647
+bed mayor's half tester~
+a large half tester bed.~
+You see a large half tester bed with burgandy crushed velvet curtains.~
+~
+12 0 0
+0 0 0 0
+1 1 1
+E
+bed mayor's half tester~
+          
+       /||
+      / ||                     
+     ||/||___                  
+     || /`   )________________ 
+     ||/___ //_/_/_/_/_/_/_// |
+     ||(___)/_/_/_/_/_/_/_//  |
+     ||     |_|_|_|_|_|_|_|| /|
+     ||     | | | | | | | ||/||
+     ||^^^^^^^^^^^^^^^^^^^||
+     ||                   ||
+~                                
+L 0
+#13648
+cabinet kitchen~
+a kitchen cabinet~             
+You see a large Kitchen Cabinet with its doors hanging off.~
+~
+15 0 0
+20 5 -1 0
+1 1 1
+E
+cabinet kitchen~
+You see a large Kitchen Cabinet, it has a door.
+~
+L 0
+#13649
+cot bed baby's~
+a baby's cot~
+There is a small baby's cot here up against the wall.~
+~
+15 0 0
+20 0 0 0
+1 1 1
+E
+cot baby's bed~
+You see a small baby's cradle painted in blue.
+~
+L 0
+#13650
+table dining~
+a large dining table~
+You see a large dining table that stretches the length of the room.~
+~
+12 0 0
+0 0 0 0
+1 1 1
+E
+table dining~
+You see a large dining table that stretches the length of the room.
+~
+L 0
+#13651
+lounge suite~
+a lounge suite~
+You see a comfortable lounge suite in the middle of the room.~
+~
+15 0 0
+5 0 0 0
+1 1 1
+E
+lounge suite~
+A comfortable lounge suite, there is something glittering from the cushions.
+~
+L 0
+#13652
+tree oak~
+A huge oak tree.~
+You see a Huge Oak Tree shading the path here.~
+~
+12 0 0
+0 0 0 0
+1 1 1
+E
+tree oak~
+You see a beautiful large Oak Tree.
+~
+L 0
+#13653
+hay stack~
+A huge hay stack~
+You see a huge hay stack standing here.~
+~
+15 0 0
+20 0 0 0
+1 1 1
+E
+hay stack~
+You see a large rotting hay stack.
+~
+L 0
+#13654
+rack coat~
+old coat rack~
+You see an old coat rack standing here.~
+~
+15 0 0
+10 0 0 0
+1 1 1
+L 0
+E
+coat rack~
+You see and old dusty coat rack.
+~
+#13655
+bread mouldy~
+a mouldy piece of bread~
+An old mouldy piece of bread has been left here.~
+~
+19 0 1
+1 0 0 1
+1 1 1
+E
+bread mouldy~
+ 
+           _.----._
+         ,'        `.
+        (   ,',;,`,  )
+         | ,.`,.``,.|
+         | '`,`',;',|
+         | ,';',,;',|
+         | ,';,`,',`|
+         |  `,`,'`, |
+         `----------' 
+~
+L 0
+#13656
+noose rope hangman's~
+a hangman's noose~
+An old piece of rope tied into a noose has been left here to rot.~
+~
+9 0 5
+4 0 0 1
+5 20000 2000
+A
+11 5
+A
+4 2
+E
+noose rope hangman's~
+You see a dirty hangman's noose.
+~
+L 0
+#13657
+ring wedding band kody's~
+Kody's wedding band~
+Kody's wedding band has been left here, boy won't TSD be mad!~
+~
+9 256 3
+8 0 0 0
+2 45000 4000
+E
+ring band wedding~       
+      
+   _______
+  / _____ \
+ / /     \ \
+/ /       \ \
+\ \       / /
+ \ \_____/ /
+  \_______/  It has an enscription.
+~
+E
+enscription~
+Luv Rupey.      
+~
+A
+18 4
+A
+19 5
+L 70
+#13658
+ring wedding band TSD's~
+TSD's wedding band~
+TSD's wedding band has been forgotten here, boy won't Kody be mad!~
+~
+9 256 3
+8 0 0 0
+2 45000 4000
+E
+ring band wedding~
+      _
+     / \
+   __\ /__
+  / _____ \
+ / /     \ \
+/ /       \ \
+\ \       / /
+ \ \_____/ /
+  \_______/  It has an enscription.
+
+~
+E
+enscription~
+
+Luv Rupey.      
+
+~
+A
+18 4
+A
+19 5
+L 71
+#13659
+bucket wax~
+a wax filled bucket~
+A bucket filled with wax has been left here for quite a long time.~
+~
+6 0 1
+13660 0 0 13661
+10 2000 200
+E
+bucket wax~
+You see a large bucket of wax used to make Death masks of dead men.
+~
+L 0
+#13660
+skull old~
+an old skull~
+The skull of a hanged man has been forgotten here.~
+~
+25 0 1
+13659 0 0 13661
+10 2000 200
+E
+skull old~
+You see an old skull of a hung man.
+~
+L 0
+#13661
+mask death~  
+a death mask~
+An old death mask has been left here.~
+~
+9 2561 17
+6 0 0 0
+10 2000 200
+A
+18 3	; hitroll
+A
+19 3	; damroll
+E
+mask death~
+
+                      .,ad88888ba,.
+                  .,ad8888888888888a,
+                 d8P"""98888P"""98888b,
+                 9b    d8888,    `9888B
+               ,d88aaa8888888b,,,d888P'
+               d8888888888888888888888b
+               d888888P""98888888888888P
+	        88888P'    9888888888888
+	        `98P'       9888888888P'
+                             `"9888P"'
+		                `"'
+~
+L 40
+#13662
+book school~
+a school book~
+An old school book has been dropped here.~
+~
+2 0 1
+30 36 53 3
+5 2000 200
+E
+book school schoolbook~
+
+
+      _.--._  _.--._
+,-=.-":;:;:;\':;:;:;"-._
+\\\:;:;:;:;:;\:;:;:;:;:;\
+ \\\:;:;:;:;:;\:;:;:;:;:;\
+  \\\:;:;:;:;:;\:;:;:;:;:;\ 
+   \\\:;:;:;:;:;\:;::;:;:;:\ 
+    \\\;:;::;:;:;\:;:;:;::;:\
+     \\\;;:;:_:--:\:_:--:_;:;\
+      \\\_.-"      :      "-._\
+       \`_..--""--.;.--""--.._=>
+        "
+~
+L 0
+#13663
+sheriff's keys~
+the Sheriff's keys~
+The Sheriff has dropped his keys here.~
+~
+18 0 1
+0 0 0 0
+5 2351835136 1
+E
+keys keys~
+You see the Sheriff's keys.
+~
+L 0
+#13664
+hotel manager's keys key~
+the hotel keys~
+The keys to the hotel have been dropped here.~
+~
+18 0 1
+0 0 0 0
+5 2351835136 1
+E
+keys keys~
+You see the keys to the hotel here.
+~
+L 0
+#13665
+keys bank manager's~
+the bank manager's keys~
+The keys to the Bank Manager's Office.~
+~
+18 0 1
+0 0 0 0
+5 2351835136 1
+E
+keys keys~
+You see the keys to the Bank Manager's office.
+~
+L 0
+#13666
+combination vault bank~
+the combination to the bank vault.~
+This is the combination to the Bank Vault!~
+~
+18 0 1
+0 0 0 0
+5 2351835136 1
+E
+combination bank vault~
+anticlockwise to 6
+clockwise to 3
+anticlockwise to 10
+clockwise to 8
+~
+L 0
+#13667
+change some~
+some change~
+There is some loose change dropped here.~
+~
+20 0 1
+20 0 0 0
+1 1 1
+E
+change some coins coin~
+You see some loose change.
+~
+L 0
+#13668
+money stack~
+a stack of counted money~
+A stack of money has been neatly placed here.~
+~
+20 0 1
+30000 0 0 0
+1 1 1
+E
+money stack~
+A huge stack of money has been left here.
+~
+L 0
+#13669
+dunce cap~
+a dunce cap~
+You see the school dunce cap here.~
+~
+9 0 17
+5 0 0 0
+10 200 20
+E
+dunce cap~
+
+                                .
+                               /:\
+                              /;:.\
+                             //;:. \
+                            //DUNCE \
+                      __--"////;:... \"--__
+                    --__   "--_____--"   __--
+                        """--_______--"""
+
+
+
+
+~
+A
+3 -3
+A
+4 -2
+L 0
+#13670
+mail some~
+some mail~
+Some old mail that has gone undelivered.~
+~
+8 0 1
+30000 0 0 0
+2 100000 100
+E
+mail ~
+
+   _______________________
+ =(__    ___      __     _)=
+   |                     |
+   |                     |
+   |                     |
+   |  IOU 100000 COINS   |
+   |                     |
+   |  Signed             |
+   |                     |
+   |      Mayor          |
+   |                     |
+   | Receivable at any   |
+   |   Treasure Dealer   |
+   |__    ___   __    ___|
+ =(_______________________)=
+
+~
+L 0
+#13671
+desk large pine~
+a large pine desk~
+You see a large pine desk in need of varnishing.~
+~
+15 0 0
+20 5 -1 0
+1 1 1
+E
+desk pine~
+You see a large pine desk with drawers.
+~
+L 0
+#13672
+slide~
+an old slide~
+An old wooden slide is here rotting in the weather.~
+~
+41 1 0
+13747 0 0 0
+5000 10 10
+E
+slide old~
+You see an old childs slide.
+You feel the Need to GO onto it....
+~
+#13673
+chain gold~
+a small gold chain~
+Someone's small gold chain has been forgotten here.~
+~
+8 0 1
+0 0 0 0 
+2 100000 100
+E
+chain gold~
+You see a small gold chain with a pendant attached.  It looks very
+expensive and quite old.
+~
+#13674
+gold chunk~
+a chunk of gold~
+Someone has left a huge chunk of gold here.~
+~
+8 0 1
+0 0 0 0
+2 105000 100
+E
+gold chunk~
+A huge junk of gold.
+~
+#13675
+gold chunk~
+a chunk of gold~
+Someone has left a huge chunk of gold here.~
+~
+8 0 1
+0 0 0 0
+2 10 100
+E
+gold chunk~
+A huge junk of gold.  But it looks a little strange.
+~
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,14 @@
+tt track trav
+white open force;get white force;quaff white;close force
+eh open force;get hotdog force;close force;eat hotdog
+eb open force;get bread force;close force;eat bread
+em open force;get meat force;close force;eat meat
+ds open force;get skin force;drink skin;put skin force;close force
+lf open force;look in force;close force
+gf open force;get $1 force;close force
+pf open force;put $1 force;close force
+thi Tell $1 Hi, I can't gossip so I'm telling you Hi! :)
+gc get all corpse
+ggc get gold corpse
+h cast 'cure critic'
+gomain u;e;e;e;e;e;e;e;e;e;e;e;s;s;s;e;e;e

@@ -1,0 +1,12 @@
+3 backstab $1
+7 rem dagger; wield oak
+6 rem oak; wield dagger
+0 kick
+5 c 'cure light' aegis
+1 diag
+ww tell miao now
+x exits
+g get all all.corpse
+gg get all.gold all.corpse
+9 c 'cure crit' aegis
+wake wake;stand

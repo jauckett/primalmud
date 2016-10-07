@@ -1,0 +1,67 @@
+` goto coffin;kill coffin
+hh emote taps a badge on his chest;say Beam me up Scotty!;echo MEANWHILE.. IN ENGINEERING...;echo Scotty says, 'What the....!!??'
+t train hit
+ti title an AVENGER [ Evil Dread Lord ]
+] cast 'sense life' on 2.clone
+[ cast 'sense life' on clone
+fr cast 'fear' on desslok
+= cast 'infravision' on clone
+\ cast 'infravision' on 2.clone
+back rem whip;wie dagger;hit $*;rem dagger;wie whip;hit $*
+9 cast 'summon' on elf
+k hit radix
+cas tag cassandra
+lr tag lore
+ra tag radix
+dr tag drudge
+gr tag grimreaper
+g tag gathrax
+p tag pkunk
+mu tag muldar
+v tag vorax
+el tag elementor
+c tag cassandra
+nu tag nurgle
+fill cast 'create water' on skin
+ki order followers kill $*
+fear cast 'fear' on $*
+re cast 'word of recall' on muldar
+bl cast 'cure blindness' on me
+hav bri;aut;u;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;bri;aut
+5 cast 'sanctuary' on 2.clone
+4 cast 'sanctuary' on clone
+3 cast 'advanced heal' on 2.clone
+2 cast 'advanced heal' on clone
+sen cast 'sense life'
+or order guard $*
+sum cast 'summon' $*
+cl cast 'clone' self
+charm cast 'charm person' on $*
+heal cast 'heal'
+save save nightwolf
+white cast 'sanctuary
+see cast 'infravision'
+invi cast 'invisibility'
+gac get all all.corpse
+food cast 'create food
+cure cast 'cure critic
+ar cast 'armor' on nightwolf
+seeinv cast 'detect invisibility
+ref cast 'refresh' on nightwolf
+sleep cast 'sleep' on $*
+pl cast 'plasma blast' on $*
+r cast 'word of recall' on me
+dim cast 'dimension gate' on $*
+lo cast 'locate object' on $*
+aheal cast 'advanced heal' on me
+hr cast 'harm' on $*
+f cast 'finger of death' on $*
+ser cast 'serpent skin' on me
+te cast 'teleport'
+m cast 'word of recall' on muldar
+8 steal eye serpent
+0 get gold corpse
+equip wear all;wie whip;hold tooth;hold emerald
+gasp emote astonishes in gaspment.
+remo cast 'remove curse' on $*
+1 1;`

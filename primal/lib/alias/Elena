@@ -1,0 +1,16 @@
+r 
+pbb put bread bag
+i inventory
+all take all corpse
+t as taegh
+pmb put meat bag
+l look
+eb eat bread
+gbb get bread bag
+em eat meat
+gmb get meat bag
+psb put skin bag
+gsb get skin bag
+ds drink skin
+pab put all bag
+k kill

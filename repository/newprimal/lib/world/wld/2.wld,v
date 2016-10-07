@@ -1,0 +1,7076 @@
+head	1.13;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.13
+date	2004.07.04.11.57.16;	author mud;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.06.29.00.46.15;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.05.29.01.34.11;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.05.29.01.27.03;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.05.23.07.21.51;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.05.05.09.52.21;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.21.08.57.15;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.04.13.11.47;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.29.07.30.10;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.11.25.05.38.05;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.17.00.05.14;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.11.15.00.47;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.01.27;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@Artus> Sync.
+@
+text
+@#200
+Estate Drive~
+You are now entering the estate of the citizens of Haven. All around
+you there are houses and villas that belong to the fine citizens.
+~
+2 n 0 0
+D1
+~
+~
+0 0 265
+D3
+~
+~
+0 0 201
+S
+#201
+Estate Drive~
+Walking along the estate you can see houses and villas all around you.  To the
+east and west, estate drive continues.    
+~
+2 n 0 0
+D0
+~
+~
+0 0 202
+D1
+~
+~
+0 0 200
+D2
+~
+~
+0 0 203
+D3
+~
+~
+0 0 206
+D4
+~
+~
+0 0 204
+D5
+~
+~
+0 0 205
+S
+#202
+A Large Foyer~
+You have walked into a wonderfully decorated foyer.  From here you can see the
+entrances to the villas.    
+~
+2 jl 0 0
+D2
+~
+~
+0 0 201
+S
+#203
+The foyer to Stormie's, Splat's and Torch's Homes.~
+You have entered a foyer that has been made with the finest marble the citizens
+could find.  The walls have interesting murals painted upon them.    
+~
+2 jln 0 0
+D0
+~
+~
+0 0 201
+D1
+~
+~
+0 0 301
+D2
+~
+~
+0 0 302
+D3
+~
+~
+0 0 300
+S
+#204
+The mezzanine floor leading to Blossum and Polgara's House~
+Someone has build a foyer and villas out of thin air.  It is well above the
+other houses and seems to float here of it's own accord!    
+~
+2 n 0 0
+D0
+~
+~
+0 0 304
+D3
+~
+~
+0 0 303
+D5
+~
+~
+0 0 201
+S
+#205
+The Basement~
+Nerra, Nerinda and Boofhead hang about on the comfortable leather couches
+that lay scattered around the basememt.
+While they are in the basement, resting their weary bones, they can be found
+listening to Jazz and Blues 
+~
+2 cdjlny 0 0
+D0
+The dark cave 
+~
+~
+0 0 217
+D2
+The magical potion room
+~
+~
+0 0 218
+D4
+~
+~
+0 0 201
+S
+#206
+Estate Drive~
+Walking along the estate you can see houses and villas all around you.  There
+are people wandering around selling their wares and the citizens are going
+around doing their daily chores!    
+~
+2 n 0 0
+D0
+~
+~
+0 0 207
+D1
+~
+~
+0 0 201
+D2
+~
+~
+0 0 208
+D3
+~
+~
+0 0 211
+D4
+~
+~
+0 0 209
+D5
+~
+~
+0 0 210
+S
+#207
+Karma's Greenhouse~
+   The tenants of this building block love their plants!  All around you there
+are plants in all shapes and sizes, the plants come from all corners of the
+world.  Some of them look like they're almost ready to be picked, you can be
+sure there will be plenty of smoking action here, later.    
+~
+2 cdjly 0 0
+D2
+~
+~
+0 0 206
+S
+#208
+Rhcp's Hot Tub~
+As you enter this foyer the tenants have built a hot tub right in the middle
+for everyone to share.  The steam from the tub has made the roof all moldy and
+someone has put a very sweet smelling essence in the water.    
+~
+2 jln 0 0
+D0
+~
+~
+0 0 206
+D3
+~
+~
+0 0 226
+S
+#209
+The Atrium to the Sky Room~
+As you look around the glass walls you get a perfect view of the city of Haven
+and all the citizens walking around below you!  The clouds go drifting by right
+in front of you.  From here you can also see the Master's mountain and the mist
+that surrounds the peak!    
+~
+2 n 0 0
+D1
+~
+~
+0 0 221
+D4
+~
+~
+0 0 220
+D5
+~
+~
+0 0 206
+S
+#210
+The Dungeon~
+The doors are made of steel bars!  The floor is solid cement!  The windows have
+bars over them and there looks like there is no escape!    
+~
+2 jl 0 0
+D4
+~
+~
+0 0 206
+S
+#211
+Estate Drive~
+   The further you go the more lavish the surroundings become.  The citizens of
+Haven are a very affluent group of people!  Trade is good and money is no
+object for some.  To the west is the estate and to the east is back to the
+heart of the city.    
+~
+2 n 0 0
+D0
+~
+~
+0 0 212
+D1
+~
+~
+0 0 206
+D2
+~
+~
+0 0 213
+D3
+~
+~
+0 0 216
+D4
+~
+~
+0 0 214
+D5
+~
+~
+0 0 215
+S
+#212
+Rod's House~
+You are standing in Rod's unfinished house.
+~
+2 jl 0 0
+D2
+~
+~
+0 0 211
+S
+#213
+The cat basket~
+You find yourself in the cat basket.
+The perfect home for a kitten, this basket is lined with lambs wool and
+has everything a cat could want to keep her amused, and then some.
+Be careful though, the particular kitten that lives here has been known to be
+very possessive of her territory.
+~
+2 cdhjly 0 0
+D0
+~
+~
+0 0 211
+S
+#214
+The phoenix loft~
+The whole room is bathed in a soft orange glow which eminates from the
+magical fire of rejuvination in the centre.
+It is here that the Phoenix is reborn.
+The warmth and peace of the room is making you drowzy.
+You could sleep here, or go back down to the entrance.
+~
+2 cdhjly 0 0
+D5
+~
+~
+0 0 211
+S
+#215
+RatsleT's Hole~
+The new Haven prison is being built
+~
+2 cdghjly 0 0
+D4
+~
+~
+0 0 211
+S
+#216
+Estate Drive~
+The Primal Construction group is still buildiing the roadway along here..  
+There are more houses being erected at this point in time.    
+~
+2 n 0 0
+D0
+~
+~
+0 0 223
+D1
+~
+~
+0 0 211
+D2
+Spark's house is on fire!
+~
+~
+0 0 230
+D3
+~
+~
+0 0 233
+D4
+Red rocket, Mandorallen.
+~
+~
+0 0 219
+D5
+~
+~
+0 0 222
+S
+#217
+Boofhead's Cave~
+In Boofhead's cave all his weapons and equipment are scattered around on the floor
+It is nearly impossible to find anything in the cave. The room is very dark and no light
+is availble. Boofhead often finds himself hunting around for lost equipment in this cave
+
+~
+2 adjlny 0 0
+D2
+The Basement
+~
+~
+0 0 205
+S
+#218
+Nerra's private abode~
+Nerra's brewing room is full of magic potions and strange herbs and spices
+There is a small table on the left hand wall where she keeps all her potions and spells
+A large cauldron lies in the middle of the room, with a strange odour and smoke billowing from it
+~
+2 fjlny 0 0
+D0
+The basement
+~
+~
+0 0 205
+S
+#219
+Mandorallen's Observatory~
+Just what the fsck are you doing in mandorallen's house?
+~
+2 cdeghjl 0 0
+D5
+Down below, you see estate drive.
+~
+~
+0 0 216
+S
+#220
+The Sky Room~
+As you look around the glass walls you get a perfect view of the city of Haven
+and all the citizens walking around below you!  The clouds go drifting by right
+in front of you.  From here you can also see the Master's mountain and the mist
+that surrounds the peak!    
+~
+2 jl 0 0
+D5
+~
+~
+0 0 209
+S
+#221
+The Junk Room~
+This is the junk room!  There is lots and lots of "stuff" lying around!  If you
+linger too long you may get caught playing in a room that is owned by a
+mythical god!    
+~
+2 jl 0 0
+D3
+~
+~
+0 0 209
+S
+#222
+Supressed Pit~
+You are in the pit that is rather depressing as it has been
+supressed all it's life!
+~
+2 cdejly 0 0
+D4
+~
+~
+0 0 216
+S
+#223
+Hitek Domain~
+   As you walk into the main room you see a fire lit in multiple colors in the
+middle with couches surrouding the fire, on the walls you see the most
+strangest pictures of the most bizarre places that gets you staring for hours,
+an entrance going to the weaponary on the west and east these an entrance at
+the armory, lookin down you see a trapdoor half hidden beneath the rug, above
+you there is a while light that emits down on you to
+~
+2 n 0 0
+D0
+~
+~
+0 0 224
+D1
+~
+~
+0 0 227
+D2
+~
+~
+0 0 216
+D3
+~
+~
+0 0 225
+D4
+~
+~
+0 0 228
+D5
+~
+~
+0 0 229
+S
+#224
+Spare Room~
+   You step into the spare room and see piles of all sorts of gadgets and junk
+lying around the floor and along the walls, you take a browze around to see
+anything you like
+~
+2 adeghjl 0 0
+D2
+~
+~
+0 0 223
+S
+#225
+Hitek's Weaponry~
+   You step in to the weaponary and see all the most deadliest weapons you've
+seen and have not seen hanging like picture frames all over the walls
+~
+2 adeghjl 0 0
+D1
+~
+~
+0 0 223
+S
+#226
+Change Room A~
+You are in an unfinished room.
+~
+2 jl 0 0
+D1
+~
+~
+0 0 208
+S
+#227
+Armory~
+   You walk in the armory where u find all the finest equipment gathered from
+around and outer this world pinned neatly on the walls
+~
+2 adeghjl 0 0
+D3
+~
+~
+0 0 223
+S
+#228
+Sancuary~
+   The second u take your first step in this room you fill a warm aura glow
+lights your body on the floor you see white misty smoke slowly hovering below
+your knees in the middle you see a bed of the size of a pool with all sorts
+women from from all over the world waiting to be pleased!!    
+~
+2 adeghjl 0 0
+D5
+~
+~
+0 0 223
+S
+#229
+Labortory~
+   You stumble into a room filled with all sorts chemistry sets lying about you
+look around and on the walls and see hundreds of potions of all sorts of colors
+and sizes stacked neatly on the shelves in the middle of the labortory you see
+a chemistry se
+~
+2 adeghjl 0 0
+D4
+~
+~
+0 0 223
+S
+#230
+Spark's Foyer~
+You are in Spark's Foyer.
+~
+2 cdgn 0 0
+D0
+To the North, is Estate Drive.
+~
+~
+0 0 216
+D1
+Great Spark's Circus lies to the east.
+~
+~
+0 0 231
+D5
+Down below, Spark's basement creeps you out.
+~
+~
+0 0 232
+S
+#231
+Great Spark's Circus~
+This room is yet to be described.
+A description should be mudmailed to Artus.
+~
+2 cdeghjl 0 0
+D3
+Spark's foyer lies to the west.
+~
+~
+0 0 230
+S
+#232
+Spark's Basement~
+This room is yet to be described.
+Room descriptions should be sent to Artus.
+~
+2 cdeghjl 0 0
+D4
+Up above, Spark's foyer can be seen.
+~
+~
+0 0 230
+S
+#233
+Estate Drive~
+The Primal Construction group is still buildiing the roadway along here..  
+There are more houses being erected at this point in time.    
+~
+2 n 0 0
+D1
+~
+~
+0 0 216
+D2
+~
+~
+0 0 234
+S
+#234
+Caun Cave~
+You are in Caun's Cave
+~
+2 cdeghjl 0 0
+D0
+~
+~
+0 0 233
+S
+#250
+Cassandara Drive~
+   Before you are two large rock walls that form an entrance way into the
+estate.  Mounted between them is wrought iron sign welcoming you to the New
+Primal Estate.  Through the entrance way Cassandra Drive continues to the West.
+~
+2 n 1 0
+D1
+~
+~
+0 0 1101
+D3
+~
+~
+0 0 251
+S
+#251
+Cassandara Drive~
+   Walking along Cassandra Drive you get the feeling this may be the busy end
+of town many people are wandering around going about their daily chores.  To
+the North along Dangermouse Drive you can see houses and villas being
+constructed
+~
+2 n 1 0
+D0
+~
+~
+0 0 273
+D1
+~
+~
+0 0 250
+D3
+~
+~
+0 0 252
+S
+#252
+Cassandara Drive~
+   The further you go the more lavish the surroundings become.  The citizens of
+Haven are a very affluent group of people!  Trade is good and money is no
+object for some.  To the west is the estate and to the east is back to the
+city of Haven
+~
+2 n 1 0
+D0
+~
+~
+0 0 339
+D1
+~
+~
+0 0 251
+D3
+~
+~
+0 0 253
+S
+#253
+Cassandara Drive~
+   The lavish surroundings continue to amaze you, from the blue stone pavement
+&& Guttering to the well maintained gardens.  People that live in this area
+must have plenty of cash to splash around.    
+~
+2 n 1 0
+D1
+~
+~
+0 0 252
+D3
+~
+~
+0 0 254
+S
+#254
+Cassandara Drive~
+   Whilst standing in the intersection of Cassandra && Sandii Drive's you
+notice that all the well dress people are all travelling from or to Sandii
+drive.  Cassandra Drive continues to the East && West whilst Sandii drive will
+take you North.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 266
+D1
+~
+~
+0 0 253
+D3
+~
+~
+0 0 255
+S
+#255
+Cassandara Drive~
+   Things seem to be exceptionally quite in this part of the estate as very few
+people seem to pass by here and those that do don't seem to stop to chat at
+all, but by the look of most of them that is a very good thing.    
+~
+2 n 1 0
+D1
+~
+~
+0 0 254
+D3
+~
+~
+0 0 256
+S
+#256
+Cassandara Drive~
+   It seems someone has run out of money as lavish is no longer a word you
+would use, maybe scanty or spartan would be a move accurate description.    
+~
+2 n 2 0
+D1
+~
+~
+0 0 255
+D3
+~
+~
+0 0 257
+S
+#257
+Cassandara Drive~
+   You are standing on the corner of Cassandra && John Drive's.  The smell of
+rotten rubbish seems be wafting down from John Drive.  I am not sure it is a
+place I would go walking.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 261
+D1
+~
+~
+0 0 256
+D3
+~
+~
+0 0 258
+S
+#258
+Cassandara Drive~
+   You stumble across an Old rusty 44 gallon drum sitting in the middle of the
+Road.  There is ash scattered on the road around it and a pile of logs sit off
+to the side.    
+~
+2 n 2 0
+D1
+~
+~
+0 0 257
+D3
+~
+~
+0 0 259
+S
+#259
+Cassandara Drive~
+   You are heading towards the end of Cassandra Drive.  As little traffic
+ventures down this far the children have drawn all over the Road and are often
+found using the Road as a Cricket pitch.    
+~
+2 n 2 0
+D1
+~
+~
+0 0 258
+D3
+~
+~
+0 0 260
+S
+#260
+Cassandara Drive~
+   You are standing on what seems to be the end of Cassandra Drive.  However
+due to their being no houses blocks marked out it does seem that the developer
+has left himself with the option to extend this road.    
+~
+2 n 2 0
+D1
+~
+~
+0 0 259
+S
+#261
+John Drive~
+   This is obviously the seedy part of town.  There are potholes in the street
+and the smell of rotting rubish is strong in the air.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 262
+D1
+~
+~
+0 0 396
+D2
+~
+~
+0 0 257
+D3
+~
+~
+0 0 394
+S
+#262
+John Drive~
+   It seems dark and cold here.  There are signs of people living is cardboard
+boxes here.  The sound of children crying echos through the air.  Wonder what
+caused people to live this way.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 400
+D1
+~
+~
+0 0 398
+D2
+~
+~
+0 0 261
+D3
+~
+~
+0 0 263
+S
+#263
+John Drive~
+   Things move in the shadows here.  Many citizens won't come this far.  Keep a
+close eye on your belongings, you don't know who will pick your pocket.  Guess
+this is where the wharfies live.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 264
+D1
+~
+~
+0 0 262
+D2
+~
+~
+0 0 402
+D3
+~
+~
+0 0 404
+S
+#264
+John Drive~
+   It looks like someone has been making a dangerous cocktail by mixing potions
+here, Its a seedy part of town, the guards don't even come down here.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 408
+D1
+~
+~
+0 0 406
+D2
+~
+~
+0 0 263
+D3
+~
+~
+0 0 265
+S
+#265
+John Drive~
+   There are burnt out drums and empty liquor bottles laying around, this would
+be the town hot spot for the drunks and the homeless.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 412
+D1
+~
+~
+0 0 264
+D2
+~
+~
+0 0 410
+D3
+~
+~
+0 0 200
+S
+#266
+Sandii Drive~
+   Beautiful trees line the road as you look down the road.  The aroma of bread
+cooking fills the air.  This seems like the place to live in Haven.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 267
+D1
+~
+~
+0 0 325
+D2
+~
+~
+0 0 254
+D3
+~
+~
+0 0 327
+S
+#267
+Sandii Drive ~
+   The view of the parklands is spectacular from here.  The beautiful flowers
+and the old trees would be the perfect view to wake up to every morning.  You
+can hear kids playing and laughing in the distance.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 268
+D1
+~
+~
+0 0 285
+D2
+~
+~
+0 0 266
+S
+#268
+Sandii Drive ~
+   WOW!!!  - The Old Oak Tree to the east would be prime real estate in Haven,
+If it ever comes up for sale it would sell for a very shiny gold coin.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 328
+D2
+~
+~
+0 0 267
+D3
+~
+~
+0 0 269
+S
+#269
+Sandii Drive ~
+   Obviously a better part of town, the road is paved and the surroundings are
+clean.  The locals must spend a lot of time with the upkeep of this area.  
+Anyone would be proud to live here.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 331
+D1
+~
+~
+0 0 268
+D2
+~
+~
+0 0 330
+D3
+~
+~
+0 0 270
+S
+#270
+Sandii Drive ~
+   The homes here create an awe in the area.  People come through this area
+just to admire the beautiful surroundings.  This is a place dreams are made of.
+~
+2 n 1 0
+D0
+~
+~
+0 0 271
+D1
+~
+~
+0 0 269
+D2
+~
+~
+0 0 332
+D3
+~
+~
+0 0 333
+S
+#271
+Sandii Drive ~
+   The well cultured gardens here are of prize winning quality.  The owners
+must be the wealthy people of Haven.  The time and effort put into these
+surroundings are second to none.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 335
+D1
+~
+~
+0 0 334
+D2
+~
+~
+0 0 270
+D3
+~
+~
+0 0 272
+S
+#272
+Sandii Drive ~
+   The peaceful sounds of the wind blowing through the trees and the birds
+chirping fill the air.  This would be a great place to raise a family in Haven.
+The houses here are lavish.    
+~
+2 n 1 0
+D1
+~
+~
+0 0 271
+D2
+~
+~
+0 0 336
+D3
+~
+~
+0 0 337
+S
+#273
+Dangermouse Drive ~
+   You are standing at the beginning of Dangermouse Drive.  Looking North you
+see it continue down, Cassandara Drive is to the South of you.  There are house
+flanking each side of the street they must be tree houses as they are so
+beautiful and tranquil.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 274
+D1
+~
+~
+0 0 312
+D2
+~
+~
+0 0 251
+D3
+~
+~
+0 0 310
+S
+#274
+Dangermouse Drive ~
+   You hear birds twittering merrily in the tree overhead.  Light filters down
+through the leaves lightly touching your skin.  To the East is Murf Drive and
+the Primal Parklands are to your west.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 275
+D1
+~
+~
+0 0 280
+D2
+~
+~
+0 0 273
+D3
+~
+~
+0 0 284
+S
+#275
+Dangermouse Drive ~
+   A bunny rabbit jumps across the path in front of you, it's fluffy tail
+wiggling as it jumps away.  There is definately as safe environment around this
+area, what a great place to live.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 276
+D1
+~
+~
+0 0 315
+D2
+~
+~
+0 0 274
+D3
+~
+~
+0 0 313
+S
+#276
+Dangermouse Drive ~
+   A turn in the path here lets you see the south west corner of the parklands.
+There are houses intermingled amongst the trees many of them actually part of
+the tree, the owners must be nimble to get up there.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 317
+D1
+~
+~
+0 0 316
+D2
+~
+~
+0 0 275
+D3
+~
+~
+0 0 277
+S
+#277
+Dangermouse Drive~
+   A ball lies here on the ground, maybe the children forgot to take it home or
+they are off playing in the park.  Maybe it belongs to the children that you
+can hear in the distance.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 320
+D1
+~
+~
+0 0 276
+D2
+~
+~
+0 0 318
+D3
+~
+~
+0 0 278
+S
+#278
+Dangermouse Drive ~
+   The laughter from the children is louder here, every now and then you catch
+a glimpse of one of them.  They sure are having fun!  It must be a great park
+to play in.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 323
+D1
+~
+~
+0 0 277
+D2
+~
+~
+0 0 321
+D3
+~
+~
+0 0 279
+S
+#279
+Dangermouse Drive ~
+   You have come to the end of Dangermouse Drive.  It is so calming and
+peaceful here you could lie under one of the trees here all day listening to
+the birds and children.    
+~
+2 n 1 0
+D1
+~
+~
+0 0 278
+D3
+~
+~
+0 0 324
+S
+#280
+Murf Drive ~
+   You have entered Murf Drive, looks like there is a party going on here.  
+There are ballons and streamers all around, and whats that on the floor?  
+Confetti!!    
+~
+2 n 1 0
+D0
+~
+~
+0 0 347
+D1
+~
+~
+0 0 281
+D2
+~
+~
+0 0 346
+D3
+~
+~
+0 0 274
+S
+#281
+Murf Drive ~
+   You are greeted by music as you walk down this part of the road.  It sure
+has a good party atmosphere here, wonder what the party is for?  BOOM, BOOM,
+DA, DA, DITTY, BOOM.  The music makes you want to get out and party with the
+best of them.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 282
+D1
+~
+~
+0 0 349
+D2
+~
+~
+0 0 348
+D3
+~
+~
+0 0 280
+S
+#282
+Murf Drive ~
+   ;Wizzzzzzzzz, whooshhhh, Zippppp.  Watch out!  What was that that just went
+flying over head.  It looked like fireworks.  BANG!  Yepp it sure looks like
+they are fireworks.  Better hope they are careful with those things, or they
+could ruin the party.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 283
+D1
+~
+~
+0 0 351
+D2
+~
+~
+0 0 281
+D3
+~
+~
+0 0 350
+S
+#283
+Murf Drive ~
+   There is a man standing on a ladder here putting his streamers back up.  It
+looks as though a stray firework might have knocked them down.  The music is
+thumping here and there are people getting down to the groove, maybe it really
+is time to join in with them.
+~
+2 n 1 0
+D1
+~
+~
+0 0 353
+D2
+~
+~
+0 0 282
+D3
+~
+~
+0 0 352
+S
+#284
+Primal Park Land~
+   WOW what beautiful Parkland you have wondered into.  With plenty of lushes
+green grass, a rotunda with BBQ && chairs and all surrounded by big old trees.
+  
+~
+2 en 0 0
+D0
+~
+~
+0 0 422
+D1
+~
+~
+0 0 274
+D2
+~
+~
+0 0 424
+D3
+~
+~
+0 0 285
+S
+#285
+Primal Park Land~
+   What a children's delight a park totally devoted to Swings, Slides, Seesaw's
+and other children's play equipment.  This would definitely be the area to live
+in if you had were planning a family.    
+~
+2 en 0 0
+D0
+~
+~
+0 0 418
+D1
+~
+~
+0 0 284
+D2
+~
+~
+0 0 428
+D3
+~
+~
+0 0 267
+S
+#300
+Stormie's House~
+Welcome to the abode of Stormbringer the kindhearted.  As you peer around the
+room you notice that this gentle man lives a modest life and has most comforts
+a home requires.  What is rather startling is the little storm cloud hovering
+in the corner of the room waiting for it's master to come home.    
+~
+2 jl 0 0
+D1
+~
+~
+0 0 203
+E
+cloud~
+As you stare in wonder at the little cloud.  It becomes very aware of you
+staring at it and starts to demonstrate its ability to throw lightning bolts
+around.    
+~
+S
+#301
+Torch's House~
+This is the house of the evil fiend Torch.  He has a strange aliance with the
+kindhearted Stormbringer.    
+~
+2 jl 0 0
+D3
+~
+~
+0 0 203
+S
+#302
+SSSSSSssspppppppllllllllllaaaaaaaatttttttt's House ~
+Welcome to the house of Ssssssspppppllllaaaattttt!  This guy has a Tv in one
+corner of the room that just constantly plays the old reruns of Batman and
+Robin...  He seems to be playing a tape with the same scenes over and over
+where they are fighting and all you can see is Sssssssppppplllllaaaaatttttt!  
+Then POW or BAM as Batman and Robin are fighting the Joker and Penguin.    
+~
+2 jl 0 0
+D0
+~
+~
+0 0 203
+E
+tv~
+What you want to see it that bad do you?
+~
+S
+#303
+Polgara's pantry~
+Welcome to Polgara's humble little kitchen.  There are lots of spices and herbs
+in pots and jars lining the kitchen walls.  There is a big caldron sitting on
+the fire pit.    
+~
+2 cjly 0 0
+D1
+~
+~
+0 0 204
+S
+#304
+Blossum's bawdy boudoir. ~
+As you stand and gaze at the rich tapestries on the wall, your attention is
+drawn to a massive king-size four poster bed.  You stand in awe at the superbly
+carved mahogany posts.  As you look closer you can see notches on one post, and
+wonder what they are indicating!  The curtains are closed and you can hear
+laughter coming from behind them.  You realise you are not alone!    
+~
+2 jl 0 0
+D2
+~
+~
+0 0 204
+S
+#310
+A Big Old Tree~
+   You are standing at the base of a big old tree.  Looking up you see Ella's
+house.  There is a sign next to the door that reads "Friends welcome anytime,
+Relatives by appointment".    
+~
+2 0 0 0
+D0
+~
+~
+0 0 424
+D1
+~
+~
+0 0 273
+D3
+~
+~
+0 0 430
+D4
+~
+~
+0 0 311
+S
+#311
+Ella's Tree House~
+   You are standing in Ella's living room.  This room has a wholseome and
+welcoming feel to it.  You certainly wouldn't feel out of place lounging on the
+couch here reading a book.    
+~
+2 0 0 0
+D0
+~
+~
+0 0 345
+D5
+~
+~
+0 0 310
+S
+#312
+Nikulasstonesword's Place~
+You are in an unfinished room.
+~
+2 0 0 0
+D3
+~
+~
+0 0 273
+S
+#313
+The foot of a Big old Widowmaker~
+   Standing at the foot of this tree you wonder why anyone would want to build
+a house in such an unpredictable beast.    
+~
+2 0 0 0
+D0
+~
+~
+0 0 318
+D1
+~
+~
+0 0 275
+D2
+~
+~
+0 0 422
+D3
+~
+~
+0 0 416
+D4
+~
+~
+0 0 314
+S
+#314
+RhCp's Tree House~
+You are in an unfinished room.
+~
+2 0 0 0
+D5
+~
+~
+0 0 313
+S
+#315
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 275
+S
+#316
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 276
+S
+#317
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 276
+S
+#318
+The foot of a Big Old Tree~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if I
+would be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 277
+D2
+~
+~
+0 0 313
+D3
+~
+~
+0 0 414
+D4
+~
+~
+0 0 319
+S
+#319
+Tree House for Sale~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+undefined~
+0 0 318
+S
+#320
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 416
+D2
+~
+~
+0 0 277
+S
+#321
+The foot of a Big Old Tree~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if I
+would be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 278
+D1
+~
+~
+0 0 414
+D2
+~
+~
+0 0 328
+D4
+~
+~
+0 0 322
+S
+#322
+Tree House for Sale~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 321
+S
+#323
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 278
+S
+#324
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 279
+S
+#325
+The foot of a Big Old Tree~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if I
+would be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 428
+D1
+~
+~
+0 0 430
+D3
+~
+~
+0 0 266
+D4
+~
+~
+0 0 326
+S
+#326
+Tree House for Sale~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 325
+S
+#327
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 266
+S
+#328
+The Old Oak Tree~
+   This is possibly the oldest tree in Haven.  The tree omits an aura of
+knowledge and wisdom of its own.  The views from up there would be spectacular.
+One of Havens most sort after homes.    
+~
+2 0 0 0
+D0
+~
+~
+0 0 321
+D1
+~
+~
+0 0 416
+D2
+~
+~
+0 0 418
+D3
+~
+~
+0 0 268
+D4
+~
+undefined~
+0 0 329
+S
+#329
+Scarecrows Tree House~
+   For someone who can afford this house, he must be down to earth.  There is a
+poster of the charmed ones on the wall, simple furniture around, and a large
+window overlooking Haven.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 338
+D5
+~
+~
+0 0 328
+S
+#330
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 269
+S
+#331
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 269
+S
+#332
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 270
+S
+#333
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 270
+S
+#334
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 271
+S
+#335
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 271
+S
+#336
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 272
+S
+#337
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 272
+S
+#338
+Tree House Balcony ~
+   The view of the Primal Park Lands is spectacular from here.  The sounds of
+the birds above makes you just want to relax.  There is just a fine woven rug
+here on the decking.  A perfect place to Meditate.    
+~
+2 y 0 0
+D0
+~
+~
+0 0 329
+S
+#339
+Estate Office~
+   The Estate office has been constructed inside a fully fitted display home.
+You are invited to walk around and have a look at the excellent workmanship
+that has been used in the construction of this example of their home building.
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 341
+D1
+~
+~
+0 0 342
+D2
+~
+~
+0 0 252
+D3
+~
+Office door~
+1 0 340
+D4
+~
+~
+0 0 343
+D5
+~
+~
+0 0 344
+S
+#340
+Meeting Room~
+   This room whilst would normally be used as a spare bed room has been decked
+out as on office for the sales rep to uses to complete the paper work once he
+has made a sale.  The walls are covered in Estate plans & possible house
+layouts.  It makes you wo
+~
+2 0 0 0
+D1
+~
+Office door~
+1 0 339
+S
+#341
+Master Bed Room~
+   You find you self walking through a little corridor that has an ensuite to
+one side && the walk-in-robe on 2nd another then opens up into a large Room
+that could happily fit 2 King sizes beds in it.  This room has definately been
+dressed to impress with a flat panel screen mounted onto one wall and is full
+equipped with DVD player && surround sound.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 339
+S
+#342
+Kitchen~
+   You stand in a fully equipped kitchen, and whilst it looks very impressive
+it does make you wonder how much it has cost and what the kitchen you can
+afford will really look like.    
+~
+2 0 0 0
+D3
+~
+~
+0 0 339
+S
+#343
+Bed Room No.2~
+   This house defiantly has children in what at first seems to be the 2nd
+bedroom you now find your self standing in a large Family with Bedrooms at each
+end and a general bathroom in the middle.    
+~
+2 0 0 0
+D5
+~
+~
+0 0 339
+S
+#344
+Study~
+   You follow a spiral staircase down into a room lined with roof high wooden
+bookshelves.  In the centre of the room is a large oak desk setup with today's
+newspaper && Computer monitor.  Behind the desk is a executive style chair and
+off to the side is a large leather couch.
+~
+2 0 0 0
+D4
+~
+~
+0 0 339
+S
+#345
+2nd room bedroom~
+   You have stepped into Ella's boudoir.  Bold colours and silky materials set
+the mood.  Sweet smelling candles burn and music plays softly, you could really
+relax in here.    
+~
+2 y 0 0
+D2
+~
+~
+0 0 311
+S
+#346
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 280
+D1
+~
+~
+0 0 387
+D2
+~
+~
+0 0 388
+D3
+~
+~
+0 0 384
+D4
+~
+~
+0 0 385
+D5
+~
+~
+0 0 386
+S
+#347
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 389
+D1
+~
+~
+0 0 390
+D2
+~
+~
+0 0 280
+D3
+~
+~
+0 0 391
+D4
+~
+~
+0 0 392
+D5
+~
+~
+0 0 393
+S
+#348
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 281
+D1
+~
+~
+0 0 379
+D2
+~
+~
+0 0 380
+D3
+~
+~
+0 0 381
+D4
+~
+~
+0 0 382
+D5
+~
+~
+0 0 383
+S
+#349
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 374
+D1
+~
+~
+0 0 375
+D2
+~
+~
+0 0 376
+D3
+~
+~
+0 0 281
+D4
+~
+~
+0 0 377
+D5
+~
+~
+0 0 378
+S
+#350
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 369
+D1
+~
+~
+0 0 282
+D2
+~
+~
+0 0 370
+D3
+~
+~
+0 0 371
+D4
+~
+~
+0 0 372
+D5
+~
+~
+0 0 373
+S
+#351
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 364
+D1
+~
+~
+0 0 365
+D2
+~
+~
+0 0 366
+D3
+~
+~
+0 0 282
+D4
+~
+~
+0 0 367
+D5
+~
+~
+0 0 368
+S
+#352
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 359
+D1
+~
+~
+0 0 283
+D2
+~
+~
+0 0 360
+D3
+~
+~
+0 0 361
+D4
+~
+~
+0 0 362
+D5
+~
+~
+0 0 363
+S
+#353
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 354
+D1
+~
+~
+0 0 355
+D2
+~
+~
+0 0 356
+D3
+~
+~
+0 0 283
+D4
+~
+~
+0 0 357
+D5
+~
+~
+0 0 358
+S
+#354
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 353
+S
+#355
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 353
+S
+#356
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 353
+S
+#357
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 353
+S
+#358
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 353
+S
+#359
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 352
+S
+#360
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 352
+S
+#361
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 352
+S
+#362
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 352
+S
+#363
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 352
+D5
+~
+~
+0 0 352
+S
+#364
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 351
+S
+#365
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 351
+S
+#366
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 351
+S
+#367
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 351
+S
+#368
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 351
+S
+#369
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 350
+S
+#370
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 350
+S
+#371
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 350
+S
+#372
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 350
+S
+#373
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 350
+S
+#374
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 349
+S
+#375
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 349
+S
+#376
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 349
+S
+#377
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 349
+S
+#378
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 349
+S
+#379
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 348
+S
+#380
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 348
+S
+#381
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 348
+S
+#382
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 348
+S
+#383
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 348
+S
+#384
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 346
+S
+#385
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 346
+S
+#386
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 346
+S
+#387
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 346
+S
+#388
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 346
+S
+#389
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 347
+S
+#390
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 347
+S
+#391
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 347
+S
+#392
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 347
+S
+#393
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 347
+S
+#394
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D1
+~
+~
+0 0 261
+D5
+~
+undefined~
+0 0 395
+S
+#395
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 394
+S
+#396
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D3
+~
+~
+0 0 261
+D5
+~
+~
+0 0 397
+S
+#397
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 396
+S
+#398
+A Vacant lot~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D3
+~
+~
+0 0 262
+D5
+~
+~
+0 0 399
+S
+#399
+Flea's Hole~
+   You have stumbled into flea's hole in the group.  Please mind the
+cockroaches, fly's && ant's.  They call this place home as well.    
+~
+2 0 0 0
+D4
+~
+~
+0 0 398
+S
+#400
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 262
+D5
+~
+~
+0 0 401
+S
+#401
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 400
+S
+#402
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D0
+~
+~
+0 0 263
+D5
+~
+~
+0 0 403
+S
+#403
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 402
+S
+#404
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D1
+~
+~
+0 0 263
+D5
+~
+~
+0 0 405
+S
+#405
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 404
+S
+#406
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D3
+~
+~
+0 0 264
+D5
+~
+~
+0 0 407
+S
+#407
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 406
+S
+#408
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 264
+D5
+~
+~
+0 0 409
+S
+#409
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 408
+S
+#410
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D0
+~
+~
+0 0 265
+D5
+~
+~
+0 0 411
+S
+#411
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 410
+S
+#412
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 265
+D5
+~
+~
+0 0 413
+S
+#413
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 412
+S
+#414
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D1
+~
+~
+0 0 318
+D2
+~
+~
+0 0 416
+D3
+~
+~
+0 0 321
+D4
+~
+~
+0 0 415
+S
+#415
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 414
+S
+#416
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 414
+D1
+~
+~
+0 0 313
+D2
+~
+~
+0 0 420
+D3
+~
+~
+0 0 328
+D4
+~
+~
+0 0 417
+S
+#417
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 416
+S
+#418
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 328
+D1
+~
+~
+0 0 420
+D2
+~
+~
+0 0 285
+D4
+~
+~
+0 0 419
+S
+#419
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 418
+S
+#420
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 416
+D1
+~
+~
+0 0 422
+D3
+~
+~
+0 0 418
+D4
+~
+~
+0 0 421
+S
+#421
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 422
+D5
+~
+~
+0 0 420
+S
+#422
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 313
+D2
+~
+~
+0 0 284
+D3
+~
+~
+0 0 420
+D4
+~
+~
+0 0 423
+S
+#423
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 424
+D5
+~
+~
+0 0 422
+S
+#424
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 284
+D2
+~
+~
+0 0 310
+D3
+~
+~
+0 0 426
+D4
+~
+~
+0 0 425
+S
+#425
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 426
+D5
+~
+~
+0 0 424
+S
+#426
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D1
+~
+~
+0 0 424
+D2
+~
+~
+0 0 430
+D3
+~
+~
+0 0 428
+D4
+~
+~
+0 0 427
+S
+#427
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 428
+D5
+~
+~
+0 0 426
+S
+#428
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 285
+D1
+~
+~
+0 0 426
+D2
+~
+~
+0 0 325
+D4
+~
+~
+0 0 429
+S
+#429
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 428
+S
+#430
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 426
+D1
+~
+~
+0 0 310
+D3
+~
+~
+0 0 325
+D4
+~
+~
+0 0 431
+S
+#431
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 430
+S
+#494
+An unfinished room~
+For Sale Lote H01 
+~
+2 0 0 0
+S
+#498
+&rH&Y E&r L&Y L&n~
+   You are in &rhell&n.  As one of the highest gods known to this world, your own
+presence can only mean there is work to be done.  Though, it is quite tempting
+to laze away in procrastination, surrounded by the lava and fire pits of &rhell&n,
+you are all too aware of how much this accomplishes.    
+~
+2 acdgjkzAE 384 0
+D4
+You may enter the land of the living... If you dare.
+~
+~
+0 0 1201
+S
+#499
+&rH&Y E&r L&Y L&n~
+   You are in &rhell&n.  As one of the highest gods known to this world, your
+own presence can only mean there is work to be done.  Though, it is quite
+tempting to laze away in procrastination, surrounded by the lava and fire pits
+of &rhell&n, you are all too aware of how much this accomplishes.    
+~
+2 acdgjkzAE 384 0
+D4
+You may ascend to the land of the living... If you dare.
+~
+~
+0 0 1201
+D5
+Further into the depths of &rhell&n.
+~
+~
+0 0 498
+S
+$~
+@
+
+
+1.12
+log
+@Artus> Sync.
+@
+text
+@d6 1
+a6 1
+2 0 0 0
+d10 1
+a10 1
+0 0 1101
+d583 5
+a587 2
+Primal Estate.  Through the entrance way Cassandra Drive continues to the East.
+  
+d589 1
+a589 1
+2 0 0 0
+d602 1
+a602 1
+2 0 0 0
+d621 5
+a625 1
+heart of the city.    
+d627 1
+a627 1
+2 0 0 0
+d639 3
+a641 1
+You are in an unfinished room.
+d643 1
+a643 1
+2 0 0 0
+d655 4
+a658 1
+You are in an unfinished room.
+d660 1
+a660 1
+2 0 0 0
+d676 3
+a678 1
+You are in an unfinished room.
+d680 1
+a680 1
+2 0 0 0
+d692 2
+a693 1
+You are in an unfinished room.
+d695 1
+a695 1
+2 0 0 0
+d707 3
+a709 1
+You are in an unfinished room.
+d711 1
+a711 1
+2 0 0 0
+d727 3
+a729 1
+You are in an unfinished room.
+d731 1
+a731 1
+2 0 0 0
+d743 3
+a745 1
+You are in an unfinished room.
+d747 1
+a747 1
+2 0 0 0
+d759 3
+a761 1
+The end of the Road 
+d763 1
+a763 1
+2 0 0 0
+d771 2
+a772 1
+You are in an unfinished room.
+d774 1
+a774 1
+2 0 0 0
+d779 4
+d787 4
+d794 11
+a804 1
+You are in an unfinished room.
+d806 1
+a806 1
+2 0 0 0
+d818 3
+a820 1
+You are in an unfinished room.
+d822 1
+a822 1
+2 0 0 0
+d831 8
+d842 10
+a851 1
+You are in an unfinished room.
+d853 1
+a853 1
+2 0 0 0
+d865 6
+a870 1
+You are in an unfinished room.
+d872 1
+a872 1
+2 0 0 0
+d877 8
+d888 2
+a889 1
+You are in an unfinished room.
+d891 1
+a891 1
+2 0 0 0
+d911 3
+a913 1
+You are in an unfinished room.
+d915 1
+a915 1
+2 0 0 0
+d931 10
+a940 1
+You are in an unfinished room.
+d942 1
+a942 1
+2 0 0 0
+d954 3
+a956 1
+You are in an unfinished room.
+d958 1
+a958 1
+2 0 0 0
+d962 1
+a962 1
+0 0 -1
+d967 4
+d978 2
+a979 1
+You are in an unfinished room.
+d981 1
+a981 1
+2 0 0 0
+d990 8
+d1001 11
+a1011 1
+You are in an unfinished room.
+d1013 1
+a1013 1
+2 0 0 0
+d1025 3
+a1027 1
+You are in an unfinished room.
+d1029 1
+a1029 1
+2 0 0 0
+d1034 8
+d1045 4
+a1048 1
+You are in an unfinished room.
+d1050 1
+a1050 1
+2 0 0 0
+d1070 3
+a1072 1
+You are in an unfinished room.
+d1074 1
+a1074 1
+2 0 0 0
+d1094 3
+a1096 1
+You are in an unfinished room.
+d1098 1
+a1098 1
+2 0 0 0
+d1118 3
+a1120 1
+You are in an unfinished room.
+d1122 1
+a1122 1
+2 0 0 0
+d1142 3
+a1144 1
+You are in an unfinished room.
+d1146 1
+a1146 1
+2 0 0 0
+d1166 3
+a1168 1
+You are in an unfinished room.
+d1170 1
+a1170 1
+2 0 0 0
+d1190 3
+a1192 1
+You are in an unfinished room.
+d1194 1
+a1194 1
+2 0 0 0
+d1206 7
+a1212 1
+You are in an unfinished room.
+d1214 1
+a1214 1
+2 0 0 0
+d1219 4
+d1230 4
+a1233 1
+You are in an unfinished room.
+d1235 1
+a1235 1
+2 0 0 0
+d1240 8
+d1255 4
+a1258 1
+You are in an unfinished room.
+d1260 1
+a1260 1
+2 0 0 0
+d1265 4
+d1273 4
+d1280 8
+a1287 1
+You are in an unfinished room.
+d1289 1
+a1289 1
+2 0 0 0
+d1294 4
+d1301 7
+a1307 1
+You are in an unfinished room.
+d1309 1
+a1309 1
+2 0 0 0
+d1314 4
+d1325 7
+a1331 1
+You are in an unfinished room.
+d1333 1
+a1333 1
+2 0 0 0
+d1338 4
+d1422 4
+a1425 2
+The foot of a Big Old Tree~
+You are in an unfinished room.
+d1428 4
+d1436 4
+d1446 4
+a1449 2
+Tree House for Sale~
+You are in an unfinished room.
+d1452 4
+d1462 1
+a1462 1
+House for Sale ~
+d1472 3
+a1474 2
+The foot of a Big Old Tree~
+You are in an unfinished room.
+d1477 4
+d1485 8
+d1499 1
+a1499 1
+Tree House for Sale~
+d1510 5
+a1514 1
+You are in an unfinished room.
+d1524 5
+a1528 1
+You are in an unfinished room.
+d1538 5
+a1542 1
+You are in an unfinished room.
+d1552 5
+a1556 1
+You are in an unfinished room.
+d1563 8
+d1578 2
+a1579 1
+You are in an unfinished room.
+d1589 5
+a1593 1
+You are in an unfinished room.
+d1596 4
+d1607 5
+a1611 1
+You are in an unfinished room.
+d1618 8
+d1633 2
+a1634 1
+You are in an unfinished room.
+d1644 5
+a1648 1
+You are in an unfinished room.
+d1658 5
+a1662 1
+You are in an unfinished room.
+d1672 5
+a1676 1
+You are in an unfinished room.
+d1679 4
+d1686 4
+d1698 2
+a1699 1
+You are in an unfinished room.
+d1709 5
+a1713 1
+You are in an unfinished room.
+d1716 4
+d1722 4
+a1725 2
+House for Sale ~
+You are in an unfinished room.
+d1728 20
+d1750 4
+a1753 2
+House for Sale ~
+You are in an unfinished room.
+d1756 8
+d1767 1584
+a3350 1
+You are in an unfinished room.
+@
+
+
+1.11
+log
+@Artus> Sync.
+@
+text
+@d6 1
+a6 1
+2 p 0 0
+d579 569
+d1222 21
+a1242 3
+#400
+A small room~
+This small room is someone's house!  It is empty at the moment!    
+d1244 17
+a1260 1
+2 n 0 0
+d1264 5
+a1268 1
+0 0 10015
+d1270 7
+a1276 3
+#401
+A small room~
+This is someones house! But they don't know it yet!
+d1278 17
+a1294 1
+2 n 0 0
+d1298 137
+a1434 1
+0 0 10015
+@
+
+
+1.10
+log
+@Artus> Sync.
+@
+text
+@d6 1
+a6 1
+2 0 0 0
+d52 1
+a52 1
+2 0 0 0
+d311 9
+d509 70
+@
+
+
+1.9
+log
+@Artus> Checking everything in again.
+@
+text
+@d218 2
+a219 2
+The further you go the more lavish the surroundings become.  The citizens of
+Haven are a very influent group of people!  Trade is good and money is no
+@
+
+
+1.8
+log
+@Artus> Estate.
+@
+text
+@d574 20
+@
+
+
+1.7
+log
+@Artus> Sync.
+@
+text
+@d159 2
+a160 1
+world.    
+d174 1
+a174 1
+2 jl 0 0
+d179 4
+d185 1
+a185 1
+The sky room~
+d191 9
+a199 1
+2 0 0 0
+d250 2
+a251 3
+A new building under construction~
+A citizen has decided to build himself a new home.  There are workmen
+everywhere building this new home
+d253 1
+a253 1
+2 0 0 0
+d260 6
+a265 2
+A House being built by Primal construction group~
+A house frame sits waiting for it to be completed
+d267 1
+a267 1
+2 0 0 0
+d274 6
+a279 2
+A house floating in the sky~
+A half finished house is floating high above the other houses within the street
+d281 1
+a281 1
+2 0 0 0
+d302 5
+a306 1
+2 0 0 0
+d311 9
+d348 152
+@
+
+
+1.6
+log
+@Artus> Sync.
+@
+text
+@d63 1
+a63 1
+2 n 0 0
+d101 14
+a114 4
+The hovel~
+Okay someone has decided to dig a hole in the dirt and build a house down
+there..  If you peer closer you might find a whole community living down there
+too!    
+d116 2
+a117 1
+2 jl 0 0
+d197 1
+a197 1
+2 0 0 0
+d210 1
+a210 1
+2 0 0 0
+d268 1
+a268 1
+A new dungeon being built by primal construction group~
+d271 1
+a271 1
+2 0 0 0
+d288 27
+d369 1
+a369 1
+2 jl 0 0
+@
+
+
+1.5
+log
+@Artus> Minor changes made in the wrong place.
+@
+text
+@d150 1
+a150 1
+2 jl 0 0
+@
+
+
+1.4
+log
+@Artus> Keeping everything up to date..
+@
+text
+@d118 1
+a118 1
+2 0 0 0
+d145 4
+a148 4
+The Greenhouse~
+The tenants of this building block love their plants!  All around you there are
+plants in all shapes and sizes, the plants come from all corners of the world.
+  
+d150 1
+a150 1
+2 0 0 0
+d157 1
+a157 1
+The Hot Tub~
+d162 1
+a162 1
+2 0 0 0
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+2 0 0 0
+d86 1
+a86 1
+2 0 0 0
+d106 1
+a106 1
+2 0 0 0
+d331 1
+a331 1
+2 0 0 0
+d345 1
+a345 1
+2 0 0 0
+d351 33
+@
+
+
+1.2
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d2 3
+a4 3
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies&n
+and players of yesteryear.&n
+d6 1
+a6 5
+2 0 1 0
+D0
+~
+~
+0 -1 216
+a7 1
+The start of Southbank Road leading into town.&n
+a10 4
+D2
+~
+~
+0 -1 220
+d14 1
+a14 5
+0 -1 201
+D4
+~
+~
+0 -1 211
+d17 3
+a19 3
+River Road~
+Walking along picturesque River Road you see houses of your friends,&n
+enemies and players of yesteryear.&n
+d21 1
+a21 1
+2 0 1 0
+d25 1
+a25 1
+0 -1 225
+d29 1
+a29 1
+0 -1 200
+d33 1
+a33 1
+0 -1 229
+d37 2
+a38 6
+0 -1 202
+S
+#202
+River Road~
+Walking along picturesque River Road you see house of your friends,&n
+enemies and players of yesteryear.&n
+a39 2
+2 0 1 0
+D0
+d41 2
+a43 2
+0 -1 233
+D1
+d45 6
+d52 1
+a52 1
+0 -1 201
+d56 1
+a56 5
+0 -1 237
+D3
+~
+~
+0 -1 203
+d59 3
+a61 3
+River Road~
+Walking along picturesque River Road you see house of your friends,&n
+enemies and players of yesteryear.&n
+d63 1
+a63 1
+2 0 1 0
+d67 1
+a67 1
+0 -1 241
+d71 1
+a71 1
+0 -1 202
+d75 1
+a75 1
+0 -1 245
+d79 1
+a79 1
+0 -1 204
+d82 3
+a84 3
+River Road~
+Walking along picturesque River Road you see house of your friends,&n
+enemies and players of yesteryear.&n
+d86 1
+a86 1
+2 0 1 0
+d90 2
+a91 2
+0 -1 249
+D1
+d94 2
+a95 2
+0 -1 203
+D2
+d98 1
+a98 5
+0 -1 253
+D3
+~
+~
+0 -1 205
+d101 4
+a104 3
+River Road~
+Walking along picturesque River Road you see houses of your friends,&n
+enemies and players of yesteryear.&n
+d106 2
+a107 6
+2 0 1 0
+D0
+~
+~
+0 -1 257
+D1
+d110 1
+a110 9
+0 -1 204
+D2
+~
+~
+0 -1 261
+D3
+~
+~
+0 -1 206
+d113 4
+a116 3
+River Road~
+Walking along picturesque River Road you see house of your friends,&n
+enemies and players of yesteryear.&n
+d118 1
+a118 1
+2 0 1 0
+d122 1
+a122 1
+0 -1 265
+d126 1
+a126 1
+0 -1 205
+d130 1
+a130 1
+0 -1 269
+d134 2
+a135 6
+0 -1 207
+S
+#207
+River Road~
+Walking along picturesque River Road you see house of your friends,&n
+enemies and players of yesteryear.&n
+a136 2
+2 0 1 0
+D0
+d138 2
+a140 2
+0 -1 273
+D1
+d142 7
+d150 1
+a150 1
+0 -1 206
+d154 1
+a154 5
+0 -1 277
+D3
+~
+~
+0 -1 208
+d157 4
+a160 3
+River Road~
+Walking along picturesque River Road you see house of your friends,&n
+enemies and players of yesteryear.&n
+d162 1
+a162 1
+2 0 1 0
+d166 8
+a173 2
+0 -1 281
+D1
+d175 2
+a177 2
+0 -1 207
+D2
+d179 6
+d186 2
+a187 2
+0 -1 285
+D3
+d190 1
+a190 1
+0 -1 209
+d192 6
+a197 4
+#209
+River Road~
+Walking along picturesque River Road you see houses of your friends,&n
+enemies and players of yesteryear.&n
+d199 1
+a199 1
+2 0 1 0
+d203 1
+a203 1
+0 -1 289
+d207 1
+a207 1
+0 -1 208
+d211 1
+a211 1
+0 -1 293
+d215 1
+a215 24
+0 -1 210
+S
+#210
+End of River Road~
+You have walked along River Road and now you have reached the end.&n
+You are faced with a huge open paddock and developement&n
+of a new estate is happening.&n
+~
+2 0 1 0
+D1
+~
+~
+0 -1 209
+S
+#211
+Immortals Avenue~
+You are walking along the Avenue of PrimalMUD's immortals. 
+These are the people who have fought, died and survived the perils of Primal!
+~
+2 cew 1 0
+D1
+~
+~
+0 0 212
+d219 1
+a219 1
+0 -1 329
+d223 1
+a223 1
+0 -1 200
+d226 3
+a228 11
+Immortals Avenue~
+You are walking along the Avenue of PrimalMUD's immortals. 
+These are the people who have fought, died and survived the perils of Primal!
+~
+2 0 1 0
+D0
+~
+~
+0 -1 297
+D1
+~
+d230 1
+a230 1
+0 -1 213
+d234 1
+a234 5
+0 -1 301
+D3
+~
+~
+0 -1 211
+d237 2
+a238 3
+Immortals Avenue~
+You are walking along the Avenue of PrimalMUD's immortals. 
+These are the people who have fought, died and survived the perils of Primal!
+d240 1
+a240 1
+2 0 1 0
+d244 1
+a244 13
+0 -1 305
+D1
+~
+~
+0 -1 214
+D2
+~
+~
+0 -1 309
+D3
+~
+~
+0 -1 212
+d247 2
+a248 3
+Immortals Avenue~
+You are walking along the Avenue of PrimalMUD's immortals. 
+These are the people who have fought, died and survived the perils of Primal!
+d250 2
+a251 10
+2 0 1 0
+D0
+~
+~
+0 -1 313
+D1
+~
+~
+0 -1 215
+D2
+d254 1
+a254 5
+0 -1 317
+D3
+~
+~
+0 -1 213
+d257 2
+a258 3
+Immortals Avenue~
+You are walking along the Avenue of PrimalMUD's immortals. 
+These are the people who have fought, died and survived the perils of Primal!
+d260 2
+a261 6
+2 0 1 0
+D0
+~
+~
+0 -1 321
+D2
+d264 1
+a264 5
+0 -1 325
+D3
+~
+~
+0 -1 214
+d267 3
+a269 6
+Courtyard of Iceprincess, Polgara and Torch~
+You have entered the courtyard of Iceprincess, Polgara and Torch.
+~
+2 0 1 0
+D0
+~
+d271 1
+a271 1
+0 -1 217
+d275 1
+a275 9
+0 -1 218
+D2
+~
+~
+0 -1 200
+D3
+~
+~
+0 -1 219
+d277 8
+a284 39
+#217
+Torches House~
+Here is the evil fiend Torch. He has a strange alliance with Stormbringer.
+~
+2 cdegy 1 0
+D2
+~
+~
+0 -1 216
+S
+#218
+The Ice Castle~
+You have entered the cold forbiding Castle of the Iceprincess
+~
+2 degy 1 0
+D3
+~
+~
+0 -1 216
+S
+#219
+Polgara's Kitchen~
+You have entered the warm cosy kitchen belonging to the sorceress Polgara
+~
+2 cdegy 1 0
+D1
+~
+~
+0 -1 216
+S
+#220
+Courtyard of Cerin, Viper, Primer~
+You have entered the Courtyard of Cerin, Viper and Primer.&n
+~
+2 n 1 0
+D0
+~
+~
+0 -1 200
+d288 6
+a293 7
+0 -1 221
+D2
+~
+~
+0 -1 222
+D3
+~
+a294 1
+0 -1 223
+d296 4
+a299 7
+#221
+Rod's House in the middle of the street~
+This is Rod's house, you can set your own house description by typing:&n
+&rhouse description&n and then editing the text in the editor.&n
+&n
+You can also set the title by &rhouse title <title text>&n&n
+&n
+d301 1
+a301 1
+2 cdeghjl 1 0
+d305 1
+a305 1
+0 -1 220
+d307 7
+a313 3
+#222
+Viper's House~
+The dark hole of Vipers Place&n
+d315 1
+a315 1
+2 cdeghjl 1 0
+d319 4
+a322 9
+0 -1 220
+S
+#223
+Cerin's Hole~
+The Hovel belonging to Cerin&n
+~
+2 cdeghjl 1 0
+D1
+~
+a323 1
+0 -1 220
+d325 5
+a329 4
+#224
+River Road~
+Walking along picturesque River Road you see houses of your friends, 
+enemies and players of yesteryear.
+d331 1
+a331 1
+2 0 1 0
+d335 1
+a335 1
+0 -1 220
+d337 7
+a343 165
+#225
+Courtyard~
+Courtyard of....
+~
+2 0 1 0
+D0
+~
+~
+0 -1 227
+D1
+~
+~
+0 -1 228
+D2
+~
+~
+0 -1 201
+D3
+~
+~
+0 -1 226
+S
+#226
+River Road~
+Walking along picturesque River Road you see houses of your friends, 
+enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 225
+S
+#227
+River Road~
+Walking along picturesque River Road you see houses of your friends, 
+enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 225
+S
+#228
+River Road~
+Walking along picturesque River Road you see houses of your friends, 
+enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 225
+S
+#229
+Courtyard~
+Courtyard
+~
+2 0 1 0
+D0
+~
+~
+0 -1 201
+D1
+~
+~
+0 -1 230
+D2
+~
+~
+0 -1 231
+D3
+~
+~
+0 -1 232
+S
+#230
+River Road~
+Walking along picturesque River Road you see houses of your friends, 
+enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 229
+S
+#231
+River Road~
+Walking along picturesque River Road you see houses of your friends, 
+enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 229
+S
+#232
+River Road~
+Walking along picturesque River Road you see houses of your friends, 
+enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 229
+S
+#233
+Courtyard~
+Courtyard off........
+~
+2 n 1 0
+D0
+~
+~
+0 -1 235
+D1
+~
+~
+0 -1 236
+D2
+~
+~
+0 -1 202
+D3
+~
+~
+0 -1 234
+S
+#234
+Artus' Coffin~
+This is Artus' Coffin. Get the fuck out.
+~
+2 abdijlsuy 12097 0
+D1
+~
+~
+0 -1 233
+S
+#235
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 233
+S
+#236
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 233
+S
+#237
+Courtyard~
+Courtyard off.....
+d345 1
+a345 9
+2 0 1 0
+D0
+~
+~
+0 -1 202
+D1
+~
+~
+0 -1 238
+d349 1
+a349 1836
+0 -1 239
+D3
+~
+~
+0 -1 240
+S
+#238
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 237
+S
+#239
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 237
+S
+#240
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear. ~
+2 0 1 0
+D1
+~
+~
+0 -1 237
+S
+#241
+Courtyard~
+Courtyard off...
+~
+2 0 1 0
+D0
+~
+~
+0 -1 243
+D1
+~
+~
+0 -1 244
+D2
+~
+~
+0 -1 203
+D3
+~
+~
+0 -1 242
+S
+#242
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 241
+S
+#243
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 241
+S
+#244
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 241
+S
+#245
+Courtyard~
+Courtyard of.....
+~
+2 0 1 0
+D0
+~
+~
+0 -1 203
+D1
+~
+~
+0 -1 246
+D2
+~
+~
+0 -1 247
+D3
+~
+~
+0 -1 248
+S
+#246
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 245
+S
+#247
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 245
+S
+#248
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 245
+S
+#249
+Courtyard~
+courtyard
+~
+2 0 1 0
+D0
+~
+~
+0 -1 251
+D1
+~
+~
+0 -1 252
+D2
+~
+~
+0 -1 204
+D3
+~
+~
+0 -1 250
+S
+#250
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 249
+S
+#251
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 249
+S
+#252
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 249
+S
+#253
+Courtyard~
+courtyard off...
+~
+2 n 1 0
+D0
+~
+~
+0 -1 204
+D1
+~
+~
+0 -1 254
+D2
+~
+~
+0 -1 255
+D3
+~
+~
+0 -1 256
+S
+#254
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 253
+S
+#255
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear. 
+~
+2 jl 1 0
+D0
+~
+~
+0 -1 253
+S
+#256
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 253
+S
+#257
+Courtyard~
+Courtyard off...
+~
+2 0 1 0
+D0
+~
+~
+0 -1 259
+D1
+~
+~
+0 -1 260
+D2
+~
+~
+0 -1 205
+D3
+~
+~
+0 -1 258
+S
+#258
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 257
+S
+#259
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 257
+S
+#260
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 257
+S
+#261
+Courtyard~
+Courtyard off..
+~
+2 0 1 0
+D0
+~
+~
+0 -1 205
+D1
+~
+~
+0 -1 262
+D2
+~
+~
+0 -1 263
+D3
+~
+~
+0 -1 264
+S
+#262
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 261
+S
+#263
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 261
+S
+#264
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 261
+S
+#265
+Courtyard...~
+couryard.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 267
+D1
+~
+~
+0 -1 268
+D2
+~
+~
+0 -1 206
+D3
+~
+~
+0 -1 266
+S
+#266
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 265
+S
+#267
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 265
+S
+#268
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 265
+S
+#269
+Courtyard~
+Courtyard off...
+~
+2 0 1 0
+D0
+~
+~
+0 -1 206
+D1
+~
+~
+0 -1 270
+D2
+~
+~
+0 -1 271
+D3
+~
+~
+0 -1 272
+S
+#270
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 269
+S
+#271
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 269
+S
+#272
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 269
+S
+#273
+Courtyard~
+Courtyard off...
+~
+2 0 1 0
+D0
+~
+~
+0 -1 275
+D1
+~
+~
+0 -1 276
+D2
+~
+~
+0 -1 207
+D3
+~
+~
+0 -1 274
+S
+#274
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 273
+S
+#275
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 273
+S
+#276
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 273
+S
+#277
+Courtyard~
+Courtyard off...
+~
+2 0 1 0
+D0
+~
+~
+0 -1 207
+D1
+~
+~
+0 -1 278
+D2
+~
+~
+0 -1 279
+D3
+~
+~
+0 -1 280
+S
+#278
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 277
+S
+#279
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 277
+S
+#280
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 277
+S
+#281
+Courtyard~
+Courtyard off...
+~
+2 0 1 0
+D0
+~
+~
+0 -1 283
+D1
+~
+~
+0 -1 284
+D2
+~
+~
+0 -1 208
+D3
+~
+~
+0 -1 282
+S
+#282
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 281
+S
+#283
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 281
+S
+#284
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 281
+S
+#285
+Courtyard~
+Courtyard...
+~
+2 0 1 0
+D0
+~
+~
+0 -1 208
+D1
+~
+~
+0 -1 286
+D2
+~
+~
+0 -1 287
+D3
+~
+~
+0 -1 288
+S
+#286
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 285
+S
+#287
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 285
+S
+#288
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 285
+S
+#289
+Courtyard~
+Courtyard of...&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 291
+D1
+~
+~
+0 -1 292
+D2
+~
+~
+0 -1 209
+D3
+~
+~
+0 -1 290
+S
+#290
+House~
+House&n
+~
+2 0 1 0
+D1
+~
+~
+0 -1 289
+S
+#291
+House ~
+House&n
+~
+2 0 1 0
+D2
+~
+~
+0 -1 289
+S
+#292
+House~
+House&n
+~
+2 0 1 0
+D3
+~
+~
+0 -1 289
+S
+#293
+Courtyard~
+Courtyard of...&n
+~
+2 n 1 0
+D0
+~
+~
+0 -1 209
+D1
+~
+~
+0 -1 294
+D2
+~
+~
+0 -1 295
+D3
+~
+undefined~
+0 -1 296
+S
+#294
+House~
+House&n
+~
+2 0 1 0
+D3
+~
+~
+0 -1 293
+S
+#295
+House~
+House&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 293
+S
+#296
+House~
+undefinedHouse
+~
+2 djl 1 0
+D1
+~
+undefined~
+0 -1 293
+S
+#297
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 299
+D1
+~
+~
+0 -1 300
+D2
+~
+~
+0 -1 212
+D3
+~
+~
+0 -1 298
+S
+#298
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 297
+S
+#299
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 297
+S
+#300
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 297
+S
+#301
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 212
+D1
+~
+~
+0 -1 302
+D2
+~
+~
+0 -1 303
+D3
+~
+~
+0 -1 304
+S
+#302
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 301
+S
+#303
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 301
+S
+#304
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 301
+S
+#305
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 307
+D1
+~
+~
+0 -1 308
+D2
+~
+~
+0 -1 213
+D3
+~
+~
+0 -1 306
+S
+#306
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 305
+S
+#307
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 305
+S
+#308
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 305
+S
+#309
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 213
+D1
+~
+~
+0 -1 310
+D2
+~
+~
+0 -1 311
+D3
+~
+~
+0 -1 312
+S
+#310
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 309
+S
+#311
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 309
+S
+#312
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 309
+S
+#313
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 315
+D1
+~
+~
+0 -1 316
+D2
+~
+~
+0 -1 214
+D3
+~
+~
+0 -1 314
+S
+#314
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 313
+S
+#315
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 313
+S
+#316
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 313
+S
+#317
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 214
+D1
+~
+~
+0 -1 318
+D2
+~
+~
+0 -1 319
+D3
+~
+~
+0 -1 320
+S
+#318
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 317
+S
+#319
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 317
+S
+#320
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 317
+S
+#321
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 323
+D1
+~
+~
+0 -1 324
+D2
+~
+~
+0 -1 215
+D3
+~
+~
+0 -1 322
+S
+#322
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 321
+S
+#323
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 321
+S
+#324
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 321
+S
+#325
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 215
+D1
+~
+~
+0 -1 326
+D2
+~
+~
+0 -1 327
+D3
+~
+~
+0 -1 328
+S
+#326
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 325
+S
+#327
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 325
+S
+#328
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 325
+S
+#329
+Eternal's Boulavard~
+Eternal's Boulavard
+~
+2 cer 1 0
+D3
+~
+~
+0 -1 330
+D5
+~
+~
+0 -1 211
+S
+#330
+Eternal's Boulavard~
+Eternal's Boulavard
+~
+2 0 1 0
+D0
+~
+~
+0 -1 331
+D1
+~
+~
+0 -1 329
+D3
+~
+~
+0 -1 338
+S
+#331
+Entrance to Misty's Mansion.~
+You have entered the garden path leading to Misty's Masion. The view from here is astounding.&n
+The vastness of this place is incredible. You could house an entire city and still have room&n
+to move.&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 332
+D2
+~
+~
+0 -1 330
+S
+#332
+Marble Foyer of Misty's Mansion.~
+Standing in the foyer you feel very, very small. The ceiling fades into the clouds themselves.&n
+There are doors leading off this room in every direction. This mansion is really incredible.&n
+How could one so small have a place so large?&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 334
+D1
+~
+~
+0 -1 335
+D2
+~
+~
+0 -1 331
+D3
+~
+~
+0 -1 333
+D4
+~
+~
+0 -1 336
+D5
+~
+~
+0 -1 337
+S
+#333
+Misty's~
+Waiting for descriptions from Misty.&n
+~
+2 0 1 0
+D1
+~
+~
+0 -1 332
+S
+#334
+Mistys~
+Waiting for descriptions from Misty&n
+~
+2 0 1 0
+D2
+~
+~
+0 -1 332
+S
+#335
+Misty's~
+Waiting for misty's descriptions.&n
+~
+2 0 1 0
+D3
+~
+~
+0 -1 332
+S
+#336
+Misty~
+Waiting for misty's descriptions&n
+~
+2 0 1 0
+D5
+~
+~
+0 -1 332
+S
+#337
+Misty~
+Waiting on misty's descriptions&n
+~
+2 0 1 0
+D4
+~
+~
+0 -1 332
+S
+#338
+Eternal's Boulavard~
+Eternal's Boulavard...
+~
+2 0 1 0
+D1
+~
+~
+0 -1 330
+D2
+~
+~
+0 -1 339
+D3
+~
+~
+0 -1 346
+S
+#339
+Entrance to Boz's Palace.~
+Waiting for boz's descriptions.&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 338
+D2
+~
+~
+0 -1 340
+S
+#340
+Boz's Palace~
+Waiting for boz's descriptions.&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 339
+D1
+~
+~
+0 -1 341
+D2
+~
+~
+0 -1 342
+D3
+~
+~
+0 -1 343
+D4
+~
+~
+0 -1 344
+D5
+~
+~
+0 -1 345
+S
+#341
+Boz's Palace~
+Waiting for Boz's descriptions.&n
+~
+2 0 1 0
+D3
+~
+~
+0 -1 340
+S
+#342
+Boz's Palace~
+Waiting for Boz's descriptions&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 340
+S
+#343
+Boz's palace~
+Waitiing for boz's descriptions&n
+~
+2 0 1 0
+D1
+~
+~
+0 -1 340
+S
+#344
+Boz's Palace~
+Waiting for boz's descriptions&n
+~
+2 0 1 0
+D5
+~
+~
+0 -1 340
+S
+#345
+Boz's Palace~
+Waiting for Boz's Descriptions&n
+~
+2 0 1 0
+D4
+~
+~
+0 -1 340
+S
+#346
+Eternal's Boulavard~
+Eternal's Boulavard.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 347
+D1
+~
+~
+0 -1 338
+D2
+~
+~
+0 -1 354
+D3
+~
+~
+0 -1 361
+S
+#347
+Entrance to Stormbringers Castle~
+Waiting for the descriptions&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 348
+D2
+~
+~
+0 -1 346
+S
+#348
+Foyer of Stormbringers Castle~
+Waiting for the descriptions&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 350
+D1
+~
+~
+0 -1 351
+D2
+~
+~
+0 -1 347
+D3
+~
+~
+0 -1 349
+D4
+~
+~
+0 -1 352
+D5
+~
+~
+0 -1 353
+S
+#349
+Stormbringer~
+Nothing.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 348
+S
+#350
+Stormbringer~
+Nothing.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 348
+S
+#351
+Stormbringer~
+Nothing.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 348
+S
+#352
+Stormbringer~
+Nothing.
+~
+2 0 1 0
+D5
+~
+~
+0 -1 348
+S
+#353
+Stormbringer~
+Nothing.
+~
+2 0 1 0
+D4
+~
+~
+0 -1 348
+S
+#354
+Path to Gorilla's House~
+Waiting for Gorilla's description&n
+~
+2 0 1 0
+D0
+~
+~
+0 -1 346
+D2
+~
+~
+0 -1 355
+S
+#355
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 354
+D1
+~
+~
+0 -1 356
+D2
+~
+~
+0 -1 357
+D3
+~
+~
+0 -1 358
+D4
+~
+~
+0 -1 359
+D5
+~
+~
+0 -1 360
+S
+#356
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 355
+S
+#357
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 355
+S
+#358
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 355
+S
+#359
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D5
+~
+~
+0 -1 355
+S
+#360
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D4
+~
+~
+0 -1 355
+S
+#361
+Eternal's Boulavard~
+Eternal's Boulavard..
+~
+2 0 1 0
+D0
+~
+~
+0 -1 362
+D1
+~
+~
+0 -1 346
+D2
+~
+~
+0 -1 369
+S
+#362
+Path to TSD's mansion~
+Nothing.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 363
+D2
+~
+~
+0 -1 361
+S
+#363
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 365
+D1
+~
+~
+0 -1 366
+D2
+~
+~
+0 -1 362
+D3
+~
+~
+0 -1 364
+D4
+~
+~
+0 -1 367
+D5
+~
+~
+0 -1 368
+S
+#364
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 363
+S
+#365
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D2
+~
+~
+0 -1 363
+S
+#366
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 363
+S
+#367
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D5
+~
+~
+0 -1 363
+S
+#368
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D4
+~
+~
+0 -1 363
+S
+#369
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 361
+D2
+~
+~
+0 -1 370
+S
+#370
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 369
+D1
+~
+~
+0 -1 371
+D2
+~
+~
+0 -1 372
+D3
+~
+~
+0 -1 373
+D4
+~
+~
+0 -1 374
+D5
+~
+~
+0 -1 375
+S
+#371
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D3
+~
+~
+0 -1 370
+S
+#372
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D0
+~
+~
+0 -1 370
+S
+#373
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D1
+~
+~
+0 -1 370
+S
+#374
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D5
+~
+~
+0 -1 370
+S
+#375
+River Road~
+Walking along picturesque River Road you see houses of your friends, enemies and players of yesteryear.
+~
+2 0 1 0
+D4
+~
+~
+0 -1 370
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d6 1
+a6 1
+2 0 1
+d34 1
+a34 1
+2 0 1
+d57 1
+a57 1
+2 0 1
+d80 1
+a80 1
+2 0 1
+d103 1
+a103 1
+2 0 1
+d126 1
+a126 1
+2 0 1
+d149 1
+a149 1
+2 0 1
+d172 1
+a172 1
+2 0 1
+d195 1
+a195 1
+2 0 1
+d218 1
+a218 1
+2 0 1
+d242 1
+a242 1
+2 0 1
+d253 1
+a253 1
+2 cew 1
+d272 1
+a272 1
+2 0 1
+d295 1
+a295 1
+2 0 1
+d318 1
+a318 1
+2 0 1
+d341 1
+a341 1
+2 0 1
+d359 1
+a359 1
+2 0 1
+d381 1
+a381 1
+2 cdegy 1
+d391 1
+a391 1
+2 degy 1
+d401 1
+a401 1
+2 cdegy 1
+d411 1
+a411 1
+2 0 1
+d430 6
+a435 2
+Cerin's House~
+You stand in the house belonging to Cerin&n
+d437 1
+a437 1
+2 cdegh 1
+d445 1
+a445 1
+You are standing in the house of Viper.&n
+d447 1
+a447 1
+2 cdegh 1
+d457 1
+a457 1
+2 cdegh 1
+d468 1
+a468 1
+2 0 1
+d478 1
+a478 1
+2 0 1
+d501 1
+a501 1
+2 0 1
+d512 1
+a512 1
+2 0 1
+d523 1
+a523 1
+2 0 1
+d533 1
+a533 1
+2 0 1
+d556 1
+a556 1
+2 0 1
+d567 1
+a567 1
+2 0 1
+d578 1
+a578 1
+2 0 1
+d588 1
+a588 1
+2 0 1
+d607 2
+a608 3
+River Road~
+Walking along picturesque River Road you see houses of your friends, 
+enemies and players of yesteryear.
+d610 1
+a610 1
+2 0 1
+d620 1
+a620 1
+2 0 1
+d630 1
+a630 1
+2 0 1
+d640 1
+a640 1
+2 0 1
+d662 1
+a662 1
+2 0 1
+d672 1
+a672 1
+2 0 1
+d681 1
+a681 1
+2 0 1
+d691 1
+a691 1
+2 0 1
+d713 1
+a713 1
+2 0 1
+d723 1
+a723 1
+2 0 1
+d733 1
+a733 1
+2 0 1
+d743 1
+a743 1
+2 0 1
+d765 1
+a765 1
+2 0 1
+d775 1
+a775 1
+2 0 1
+d785 1
+a785 1
+2 0 1
+d795 1
+a795 1
+2 0 1
+d817 1
+a817 1
+2 0 1
+d827 1
+a827 1
+2 0 1
+d837 1
+a837 1
+2 0 1
+d847 1
+a847 1
+2 n 1
+d869 1
+a869 1
+2 0 1
+d879 1
+a879 1
+2 jl 1
+d889 1
+a889 1
+2 0 1
+d899 1
+a899 1
+2 0 1
+d921 1
+a921 1
+2 0 1
+d931 1
+a931 1
+2 0 1
+d941 1
+a941 1
+2 0 1
+d951 1
+a951 1
+2 0 1
+d973 1
+a973 1
+2 0 1
+d983 1
+a983 1
+2 0 1
+d993 1
+a993 1
+2 0 1
+d1003 1
+a1003 1
+2 0 1
+d1025 1
+a1025 1
+2 0 1
+d1035 1
+a1035 1
+2 0 1
+d1045 1
+a1045 1
+2 0 1
+d1055 1
+a1055 1
+2 0 1
+d1077 1
+a1077 1
+2 0 1
+d1087 1
+a1087 1
+2 0 1
+d1097 1
+a1097 1
+2 0 1
+d1107 1
+a1107 1
+2 0 1
+d1129 1
+a1129 1
+2 0 1
+d1139 1
+a1139 1
+2 0 1
+d1149 1
+a1149 1
+2 0 1
+d1159 1
+a1159 1
+2 0 1
+d1181 1
+a1181 1
+2 0 1
+d1191 1
+a1191 1
+2 0 1
+d1201 1
+a1201 1
+2 0 1
+d1211 1
+a1211 1
+2 0 1
+d1233 1
+a1233 1
+2 0 1
+d1243 1
+a1243 1
+2 0 1
+d1253 1
+a1253 1
+2 0 1
+d1263 1
+a1263 1
+2 0 1
+d1285 1
+a1285 1
+2 0 1
+d1295 1
+a1295 1
+2 0 1
+d1305 1
+a1305 1
+2 0 1
+d1315 1
+a1315 1
+2 0 1
+d1337 1
+a1337 1
+2 0 1
+d1347 1
+a1347 1
+2 0 1
+d1357 1
+a1357 1
+2 0 1
+d1367 1
+a1367 1
+2 0 1
+d1382 1
+a1382 1
+~
+d1389 1
+a1389 1
+2 0 1
+d1399 1
+a1399 1
+2 0 1
+d1407 1
+a1407 1
+House&n
+d1409 1
+a1409 1
+2 0 1
+d1412 1
+a1412 1
+~
+d1419 1
+a1419 1
+2 0 1
+d1441 1
+a1441 1
+2 0 1
+d1451 1
+a1451 1
+2 0 1
+d1461 1
+a1461 1
+2 0 1
+d1471 1
+a1471 1
+2 0 1
+d1493 1
+a1493 1
+2 0 1
+d1503 1
+a1503 1
+2 0 1
+d1513 1
+a1513 1
+2 0 1
+d1523 1
+a1523 1
+2 0 1
+d1545 1
+a1545 1
+2 0 1
+d1555 1
+a1555 1
+2 0 1
+d1565 1
+a1565 1
+2 0 1
+d1575 1
+a1575 1
+2 0 1
+d1597 1
+a1597 1
+2 0 1
+d1607 1
+a1607 1
+2 0 1
+d1617 1
+a1617 1
+2 0 1
+d1627 1
+a1627 1
+2 0 1
+d1649 1
+a1649 1
+2 0 1
+d1659 1
+a1659 1
+2 0 1
+d1669 1
+a1669 1
+2 0 1
+d1679 1
+a1679 1
+2 0 1
+d1701 1
+a1701 1
+2 0 1
+d1711 1
+a1711 1
+2 0 1
+d1721 1
+a1721 1
+2 0 1
+d1731 1
+a1731 1
+2 0 1
+d1753 1
+a1753 1
+2 0 1
+d1763 1
+a1763 1
+2 0 1
+d1773 1
+a1773 1
+2 0 1
+d1783 1
+a1783 1
+2 0 1
+d1805 1
+a1805 1
+2 0 1
+d1815 1
+a1815 1
+2 0 1
+d1825 1
+a1825 1
+2 0 1
+d1835 1
+a1835 1
+2 cer 1
+d1849 1
+a1849 1
+2 0 1
+d1869 1
+a1869 1
+2 0 1
+d1885 1
+a1885 1
+2 0 1
+d1915 1
+a1915 1
+2 0 1
+d1925 1
+a1925 1
+2 0 1
+d1935 1
+a1935 1
+2 0 1
+d1945 1
+a1945 1
+2 0 1
+d1955 1
+a1955 1
+2 0 1
+d1965 1
+a1965 1
+2 0 1
+d1983 1
+a1983 1
+2 0 1
+d1997 1
+a1997 1
+2 0 1
+d2027 1
+a2027 1
+2 0 1
+d2037 1
+a2037 1
+2 0 1
+d2047 1
+a2047 1
+2 0 1
+d2057 1
+a2057 1
+2 0 1
+d2067 1
+a2067 1
+2 0 1
+d2077 1
+a2077 1
+2 0 1
+d2099 1
+a2099 1
+2 0 1
+d2113 1
+a2113 1
+2 0 1
+d2143 1
+a2143 1
+2 0 1
+d2153 1
+a2153 1
+2 0 1
+d2163 1
+a2163 1
+2 0 1
+d2173 1
+a2173 1
+2 0 1
+d2183 1
+a2183 1
+2 0 1
+d2193 1
+a2193 1
+2 0 1
+d2207 1
+a2207 1
+2 0 1
+d2237 1
+a2237 1
+2 0 1
+d2247 1
+a2247 1
+2 0 1
+d2257 1
+a2257 1
+2 0 1
+d2267 1
+a2267 1
+2 0 1
+d2277 1
+a2277 1
+2 0 1
+d2287 1
+a2287 1
+2 0 1
+d2305 1
+a2305 1
+2 0 1
+d2319 1
+a2319 1
+2 0 1
+d2349 1
+a2349 1
+2 0 1
+d2359 1
+a2359 1
+2 0 1
+d2369 1
+a2369 1
+2 0 1
+d2379 1
+a2379 1
+2 0 1
+d2389 1
+a2389 1
+2 0 1
+d2399 1
+a2399 1
+2 0 1
+d2413 1
+a2413 1
+2 0 1
+d2443 1
+a2443 1
+2 0 1
+d2453 1
+a2453 1
+2 0 1
+d2463 1
+a2463 1
+2 0 1
+d2473 1
+a2473 1
+2 0 1
+d2483 1
+a2483 1
+2 0 1
+@
+

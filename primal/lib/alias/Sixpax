@@ -1,0 +1,6 @@
+www say www.geocities.com/TimeSquare/Dungeon/8188
+bs rem halberd; wield dagger; backstab $*; remove dagger; wield halberd
+swap remove $1; wear $2
+trash get all all.corpse
+10hit train hit; train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;
+cl cast 'cure light'

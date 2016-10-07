@@ -1,0 +1,345 @@
+5
+heall
+17
+cast 'cure light'
+0
+2
+zv
+23
+cast 'burning hands' $*
+1
+2
+zc
+19
+cast 'blindness' $*
+1
+2
+zx
+18
+cast 'paralyze' $*
+1
+7
+recalll
+11
+goto gamina
+0
+2
+00
+20
+cast 'advanced heal'
+0
+6
+recall
+13
+cast 'recall'
+0
+2
+qq
+18
+cast 'paralyze' $*
+1
+2
+aa
+15
+cast 'armor' $*
+1
+2
+cc
+12
+battlecry $*
+1
+2
+uu
+18
+cast 'earthquake' 
+0
+2
+bc
+12
+battlecry $*
+1
+2
+ac
+21
+cast 'animate' corpse
+0
+5
+invis
+22
+cast 'invisibility' $*
+1
+2
+22
+22
+cast 'invisibility' $*
+1
+2
+11
+21
+cast 'infravision' $*
+1
+2
+rc
+30
+cast 'greater remove curse' $*
+1
+4
+heal
+21
+cast 'divine heal' $*
+1
+4
+para
+18
+cast 'paralyze' $*
+1
+2
+ax
+11
+axethrow $*
+1
+7
+serpent
+22
+cast 'serpent skin' $*
+1
+2
+jj
+18
+cast 'holy aid' $*
+1
+2
+as
+12
+rescue spark
+0
+5
+blind
+15
+cast 'blind' $*
+1
+6
+unholy
+16
+cast 'unholy' $*
+1
+5
+charm
+15
+cast 'charm' $*
+1
+2
+oo
+26
+cast 'lightning shield' $*
+1
+2
+pp
+21
+cast 'fire shield' $*
+1
+5
+clone
+13
+cast 'clone' 
+0
+2
+''
+19
+cast 'fire wall' $*
+1
+2
+hh
+15
+cast 'haste' $*
+1
+2
+gg
+19
+cast 'sanctuary' $*
+1
+8
+teleport
+15
+cast 'teleport'
+0
+2
+bb
+22
+cast 'waterbreathe' $*
+1
+2
+nn
+19
+cast 'waterwalk' $*
+1
+2
+xx
+20
+cast 'cloud kill' $*
+1
+2
+;;
+16
+cast 'dragon' $*
+1
+2
+ff
+19
+cast 'stoneskin' $*
+1
+2
+``
+29
+cast 'detect invisibility' $*
+1
+2
+ri
+18
+cast 'identify' $*
+1
+2
+yy
+23
+cast 'detect poison' $*
+1
+2
+tt
+22
+cast 'detect magic' $*
+1
+2
+rr
+29
+cast 'detect invisibility' $*
+1
+2
+ww
+26
+cast 'detect alignment' $*
+1
+2
+ss
+15
+cast 'bless' $*
+1
+7
+animate
+22
+cast 'animate dead' $*
+1
+3
+fly
+13
+cast 'fly' $*
+1
+3
+str
+18
+cast 'strength' $*
+1
+2
+ll
+22
+cast 'spirit armor' $*
+1
+2
+kk
+22
+cast 'sense wounds' $*
+1
+2
+dd
+27
+cast 'divine protection' $*
+1
+2
+zz
+19
+cast 'whirlwind' $*
+1
+4
+harm
+14
+cast 'harm' $*
+1
+3
+ccc
+23
+cast 'cure critical' $*
+1
+7
+refresh
+17
+cast 'refresh' $*
+1
+2
+fa
+17
+cast 'cure light'
+0
+2
+cp
+14
+compost corpse
+0
+2
+sg
+19
+cast 'summon' ghost
+0
+7
+enchant
+17
+cast 'enchant' $*
+1
+2
+da
+9
+disarm $*
+1
+5
+curse
+15
+cast 'curse' $*
+1
+6
+summon
+16
+cast 'summon' $*
+1
+2
+33
+24
+cast 'create water' skin
+0
+2
+lo
+16
+cast 'locate' $*
+1
+4
+pose
+22
+em flexes his muscles.
+0
+3
+wow
+18
+em wows at it all.
+0
+4
+flap
+31
+em flaps his arms ineffectively
+0
+3
+rep
+9
+repair $*
+1
+1
+;
+9
+gossip $*
+1

@@ -1,0 +1,48 @@
+rs cast 'word' ;s;e;e;e;e;e;s;s;e;e;e;e;s; sleep
+main s;e;e;e;e;e;s;s;e;e;e;s;s
+away put all.heal tool
+san cast 'san' $*
+tool put tool 2.tool
+gt get tool tool
+gam d;e;go med;
+jim n;n;w;w;w;s;go stage;e;e;e;e;u
+dp cast 'divine prot'
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+2 get prot tool; q prot
+4 get heal tool; q heal
+sum cast 'summon' $*
+home cast 'word'
+drag cast 'dragon'
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+trainh train hit; train hit; train hit; train hit; train hit
+da cast 'detect align' $*
+di cast 'detect invis' $*
+infra cast 'infra' $*
+invis cast 'invisi' $*
+trainm train mana; train mana; train mana; train mana; train mana
+wake wake; stand; look
+arm cast 'armor' $*
+bless cast 'bless' $*
+sanc cast 'sanc' $*
+garm cast 'group armor' 
+gsan cast 'group sanc' 
+sa cast 'spirit armor' $*
+sli cast 'sense life' $*
+ghea cast 'group heal
+ha cast 'holy aid' $*
+5 cast 'advanced heal' self
+6 cast 'advanced heal' gab
+7 cast 'advanced heal' $*
+8 cast 'haste'
+ww cast 'whirlwind' $*
+buyh buy 20 heal; put all.heal tool
+buyp buy 10 prot; put all.prot tool
+res rescue gab
+rc cast 'remove curse' $*
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+swamp s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+1 get heal tool; get heal tool; get heal tool; get heal tool; get heal tool; q heal; q heal; q heal; q heal; q heal; put tool 2.tool
+getd wear all; wield pulse; hold knife; hold dream

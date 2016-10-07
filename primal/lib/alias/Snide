@@ -1,0 +1,9 @@
+cure cast self 'cure light'
+light! cast self 'infravision'
+ligh "cast self 'infravision'"
+rr recite recall
+mm cast 'Magic Missile' $1
+cor get all  corpse
+mud throw mud n
+'chill touch'
+chill 'chill touch'

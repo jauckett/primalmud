@@ -1,0 +1,11 @@
+str cast 'strength'
+cc cast 'cure critic'
+lb cast 'lightning bolt' $*
+ws wield sword
+p quaff potion
+bs backstab $*
+ea cast 'earthquake' 
+inf cast 'infravision'
+rec cast 'word of recall'
+fb cast 'fireball' $*
+rk remove super

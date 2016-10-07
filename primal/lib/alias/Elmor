@@ -1,0 +1,7 @@
+bb c 'burning' $1
+magic c 'magic' $1
+aa get all all
+ch c 'chill' $1
+8 ba mummy
+sh c 'shocking' $1
+inv c 'invisibility' $1

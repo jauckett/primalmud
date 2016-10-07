@@ -1,0 +1,31 @@
+cc c 'clone'
+heal c 'heal'
+grats grats !#*!#*!#* Well done$* keep up the good work *#!*#!*#!
+ch c 'heal'
+bs rem chain;wi super; backstab $*;rem super;wi chain
+inv cast 'invisibility' crystal
+csan cast 'sanctuary' crystal
+csum cast 'summon' $*
+cloc cast 'locate object' $*
+ca cast 'armor' crystal
+cb cast 'bless' crystal
+ds drink skin
+tc get all corpse;get corpse;junk corpse;save
+gb get bread bag;eat bread;get bread bag;eat bread
+pb put all.bread bag
+cl cast 'cure light' crystal
+ci cast 'infravision' crystal
+di cast 'detect invisibility' crystal
+cf cast 'create food';cast 'create food';cast 'create food';cast 'create food';cast 'create food'
+em eat mush;eat mush;eat mush;eat mush;eat mush
+qw quaff white
+cs cast 'strength' crystal
+gw get white back;quaff white
+rr cast 'word of recall' crystal
+pw put all.white back
+bh n;w;w;w;w;w;w;w;w;w;w;s
+rb read board
+cinv c 'invis'
+cp c 'paralyze' $*
+cah cast 'advanced heal'
+cd cast 'dragon'

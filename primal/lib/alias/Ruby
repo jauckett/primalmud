@@ -1,0 +1,4 @@
+sg cast 'shocking grasp' $1
+str cast 'strength' self
+x track callan
+ga get all corpse

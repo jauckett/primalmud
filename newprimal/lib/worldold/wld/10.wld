@@ -1,0 +1,943 @@
+#1001
+Path to the Moathouse~
+You are travelling along an overgrown path which leads to the old Moathouse.
+To your south lies the city of Haven. There are small flowers and long grass
+growing on the side of the path that make you want to lie down and sleep.
+~
+10 0 1
+D0
+Path to the Moathouse
+~
+~
+0 0 1002
+D2
+Turn in the path.
+~
+~
+0 0 62
+S
+#1002
+Path to the Moathouse~
+You are travelling along an overgrown path which leads to the old Moathouse.
+To the east is a narrow path that looks rather dangerous. This path 
+leads to a stagnant pool that you can smell from here.
+~
+10 0 1
+D0
+~
+~
+0 0 1005
+D1
+Track to a pool
+~
+~
+0 0 1003
+D2
+Path to the Moathouse
+~
+~
+0 0 1001
+S
+#1003
+Path to a pool~
+You are walking along a narrow path leading to a stagnant pool. By the 
+side of the path small flowers and long grass grows. The smell from the
+stagnant pool assaults your nose from here and you wonder if you want to
+get any closer.
+~
+10 0 2
+D1
+At a stagnant pool.
+~
+~
+0 0 1004
+D3
+Path to the Moathouse.
+~
+~
+0 0 1002
+S
+#1004
+At a stagnant pool.~
+You are standing at the edge of a stagnant pool. The pool looks black in 
+color and there are three mutated frogs that stand around it looking rather
+vicious. There are no flowers or grass growing by the pool and it is a rather
+unpleasant place.
+~
+10 0 2
+D3
+Path to a stagnant pool.
+~
+~
+0 0 1003
+S
+#1005
+Broken drawbridge.~
+You are standing on an old broken drawbrige at the entrance to the Moathouse.
+The boards creak and groan as you cross over the bridge. The Moathouse 
+lies to your north, a rather impressive stone building.
+~
+10 0 2
+D0
+The entrance to the Moathouse.
+~
+~
+0 0 1008
+D2
+Path to the Moathouse.
+~
+~
+0 0 1002
+S
+#1006
+West tower.~
+You are standing high on the parapet of the west tower. You can see part of
+the town of Haven to the south, and the river flowing west.
+~
+10 8 0
+D5
+Looking down you see the dim passage.
+~
+~
+0 0 1007
+S
+#1007
+Passage to west tower.~
+You are walking along a dark passage. A rotten wooden ladder leads up
+from here into the west tower. The walls of the Moathouse are slightly
+damp and they have a strange musty smell to them.
+~
+10 9 0
+D1
+Entrance to the Moathouse
+~
+~
+0 0 1008
+D4
+Looking up you see the west tower.
+~
+~
+0 0 1006
+S
+#1008
+Entrance of the Moathouse.~
+You are standing at the main entrance of the Moathouse. The west tower is
+at the end of a passage leading west. A dim passage leads north and east.
+To the south you can see the drawbridge and the path beyond.
+~
+10 8 0
+D0
+Dim passage where you hear strange noises
+~
+~
+0 0 1017
+D1
+A dim passage that is so dark you see very little
+~
+~
+0 0 1009
+D2
+The large wooden drawbridge
+~
+~
+0 0 1005
+D3
+Passage to west tower.
+~
+~
+0 0 1007
+S
+#1009
+Dim passage.~
+You are walking along a dimly lit passage that leads east and west in the 
+Moathouse. The walls that surround you are made up of grey slate and you can
+hear running water close by. The smell in the Moathouse while not completely
+repulsive isn't extremely pleasant either.
+~
+10 8 0
+D1
+Looking east you see a dim passage
+~
+~
+0 0 1010
+D3
+To your west lies the entrance to the Moathouse.
+~
+~
+0 0 1008
+S
+#1010
+Dim passage.~
+You are walking down a dimly lit passage that leads east and west in the 
+Moathouse. You hear strange rustling sounds to your east and to your west 
+you can just see the entrance to the mouthouse.
+~
+10 8 0
+D1
+Looking east the dim passage continues
+~
+~
+0 0 1011
+D3
+To your west you see the dim passage and the Mouthouse entrance
+~
+~
+0 0 1009
+S
+#1011
+Dim passage.~
+You are walking along a dimly lit passage that leads east and west in the 
+Moathouse. The walls that surround you are made up of greay slate and you can
+hear running water close by. The smell in the Moathouse while not completely
+~
+10 8 0
+D1
+Looking east the dim passage continues
+~
+~
+0 0 1012
+D3
+Looking west you see the dim passage leading towards the entrance
+~
+~
+0 0 1010
+S
+#1012
+Turn in the passage.~
+You are standing at a turn in the passage. The passage continues north and
+west from here and there is a small wooden door in the wall to the east.
+The walls here are extremely damp from the water that runs under the 
+Moathouse and the leave a slight trace of slime that covers everything. 
+~
+10 8 0
+D0
+As you look to the north you see the dim passage continue
+~
+~
+0 0 1018
+D1
+Looking east you see a wooden door and beyond that another dim passage
+~
+door~
+1 0 1013
+D3
+To the west you see through the darkness the dim passage
+~
+~
+0 0 1011
+S
+#1013
+Dim passage.~
+You are walking along a dim passage in the Moathouse. The passage leads east 
+from here. There is a small wooden door in the wall to the west.
+~
+10 8 0
+D1
+Junction in the passage
+~
+~
+0 0 1014
+D3
+A turn in the passage
+~
+door~
+2 0 1012
+S
+#1014
+Junction in the passage.~
+You are standing at a junction in the passage. The passage continues north 
+and east from here. The base of the east tower is directly to your east from 
+here. You can hear a horrible sound coming from the tower to your east and 
+wonder if you should venture there. 
+~
+10 8 0
+D0
+Looking north the dim passage continues around the Moathouse
+~
+~
+0 0 1020
+D1
+Beneath the east tower
+~
+~
+0 0 1015
+D3
+To your west you see the dim passage and hear very strange noises
+~
+~
+0 0 1013
+S
+#1015
+Beneath east tower.~
+You are standing at the base of the east tower. A rickety ladder leads
+up to the top of the tower. You can hear strange noises coming from up
+above and you wonder if the ladder is safe to step on.
+~
+10 8 0
+D3
+Junction in the passage.
+~
+~
+0 0 1014
+D4
+Looking up you see the top of east tower.
+~
+~
+0 0 1016
+S
+#1016
+Top of east tower.~
+You are standing on a parapet of the east tower. You can just see part of
+the town of Haven over the tree tops. A rough looking ladder leads back 
+down into the Moathouse.
+~
+10 8 0
+D5
+Beneath the east tower.
+~
+~
+0 0 1015
+S
+#1017
+Dim passage.~
+You are walking along a dimly lit passage that leads north. To your south 
+you can see the entrance to the Moathouse. The stone walls that surround
+you drip with the dampness that seeps up from the river that runs beneath
+the Moathouse, give the place a strange musty smell. 
+~
+10 8 1
+D0
+Dim passage.
+~
+~
+0 0 1021
+D2
+Entrance to the Moathouse.
+~
+~
+0 0 1008
+S
+#1018
+Turn in the passage.~
+You are standing at a turn in the passage. The passage continues north and
+east from here.
+There is a small wooden door in the wall to the east.
+~
+10 8 0
+D0
+As you peer north you see a dim passage
+~
+~
+0 0 1022
+D1
+Looking east you see a dim passage
+~
+door~
+2 0 1019
+D2
+Turn in the passage.
+~
+~
+0 0 1012
+S
+#1019
+Store room.~
+You are in a small storage chamber, the floor is littered with broken
+crates and decaying rations. The stench is overwhelming.
+~
+10 0 3
+D3
+A turn in the passage.
+~
+door~
+2 0 1018
+S
+#1020
+Dim passage.~
+You are walking along a dimly lit passage that leads north and south. The 
+passage continues north and ends at a junction to the south.
+~
+10 0 3
+D0
+Looking north you see the dim passage stretching for miles
+~
+~
+0 0 1023
+D2
+Junction in the passage.
+~
+~
+0 0 1014
+S
+#1021
+Dim passage.~
+You are walking along a dimly lit passage that leads north. To your south 
+you can see the entrance to the Moathouse. The stone walls that surround
+you drip with the dampness that seeps up from the river that runs beneath
+the Moathouse, give the place a strange musty smell. 
+~
+10 8 0
+D0
+Turn in the passage.
+~
+~
+0 0 1024
+D2
+Entrance to the Moathouse.
+~
+~
+0 0 1017
+S
+#1022
+Dim passage.~
+You are walking down a dimly lit passage. To the north is a junction in the
+passage and stairs leading up. The passage continues south from here.
+There is a small wooden door in the east wall.
+~
+10 8 0
+D0
+Junction in the passage.
+~
+~
+0 0 1028
+D1
+Dark room and a large wooden door
+~
+door~
+2 0 1032
+D2
+You see the dim passage that runs through the Moathouse
+~
+~
+0 0 1018
+S
+#1023
+Dim passage.~
+You are walking along a dimly lit passage that leads north and south. To the 
+north is a turn in the passage. The passage continues south. Here the 
+walls of the passage are extremely damp and slimy for some reason.
+~
+10 8 0
+D0
+Turn in the passage.
+~
+~
+0 0 1030
+D2
+Junction in the passage.
+~
+~
+0 0 1020
+S
+#1024
+Turn in the passage.~
+You are standing at a turn in the passage. The passage continues east from
+here as far as the eye can see. The walls that surround you are made from
+a cold grey slate stone and they are covered with a think layer of slime.
+As you peer around you notice that there is a large iron door in the north wall.
+~
+10 8 0
+D0
+Looking north you see a dim passage and a large iron door
+~
+door~
+2 0 1031
+D1
+You see the dim passage stretching for what seems miles
+~
+~
+0 0 1025
+D2
+Looking south you can just see the Moathouse entrance
+~
+~
+0 0 1021
+S
+#1025
+Dim passage.~
+You are walking along a dimly lit passage in the Moathouse that leads 
+east and west. You can hear the river running underneath the Moathouse 
+from here and the slate walls drip with water that has seeped through
+from the river below.
+~
+10 8 0
+D1
+Looking east you see the dim passage stretching for miles
+~
+~
+0 0 1026
+D3
+looking west you see a turn in the passage
+~
+~
+0 0 1024
+S
+#1026
+Dim passage.~
+You are walking along a dimly lit passage in the Moathouse that leads 
+east and west. You can hear the river running underneath the Moathouse 
+from here and the slate walls drip with water that has seeped through
+from the river below.
+~
+10 8 0
+D1
+As you peer east you see the dim passage continue
+~
+~
+0 0 1027
+D3
+As you peer west you see the dim passage continue
+~
+~
+0 0 1025
+S
+#1027
+Dim passage.~
+You are walking along a dimly lit passage in the Moathouse that leads 
+east and west. You can hear the river running underneath the Moathouse 
+from here and the slate walls drip with water that has seeped through
+from the river below. To your east there is a junction in the passage.
+~
+10 8 0
+D1
+Looking east you see a junction in the passage.
+~
+~
+0 0 1028
+D3
+As you peer west you see the dim passage continue
+~
+~
+0 0 1026
+S
+#1028
+Junction in the passage.~
+You are at a junction in the passage. Stony stairs lead down to the basement
+of the Moathouse. The passage continues east, west and south from here.
+~
+10 8 0
+D1
+Looking east you see the dim passage.
+~
+~
+0 0 1029
+D2
+As you peer south you see the passage stretching out for miles
+~
+~
+0 0 1022
+D3
+As you peer west you see the dim passage continue
+~
+~
+0 0 1027
+D5
+Looking down you see the Moathouse basement.
+~
+~
+0 0 1035
+S
+#1029
+Dim passage.~
+You are walking along a dimly lit passage in the Moathouse that leads 
+east and west. You can hear the river running underneath the Moathouse 
+from here and the slate walls drip with water that has seeped through
+from the river below. To your east there is a turn in the passage.
+~
+10 8 0
+D1
+Looking south you see a turn in the passage.
+~
+~
+0 0 1030
+D3
+You see the dim passage
+~
+~
+0 0 1028
+S
+#1030
+Turn in the passage.~
+You are standing at a turn in the passage. From here the passage leads west 
+and south. Several large, hideous rats crawl around the floor in this 
+section of the Moathouse looking for food.
+~
+10 8 0
+D2
+Here the dim passage continues south
+~
+~
+0 0 1023
+D3
+Here the dim passage continues west
+~
+~
+0 0 1029
+S
+#1031
+Dim passage.~
+You are walking down a dim passage. The passage leads north where the 
+brigand fighters are guarding the Moathouse and there is a large iron 
+door in the south wall. 
+~
+10 0 3
+D0
+Looking north you see the brigands lying in wait to attack
+~
+~
+0 0 1038
+D2
+Looking south you see the dim passage and a large iron door
+~
+door~
+2 0 1024
+S
+#1032
+Store room.~
+You are in a small storeage room. This room has been in use recently. There
+are some brand new crates neatly stacked up against the walls and several 
+brigands are diligently standing guard.
+~
+10 9 0
+D3
+Dim passage.
+~
+door~
+1 0 1022
+S
+#1035
+Basement in the Moathouse.~
+You are standing in the basement of the Moathouse. Rough stone stairs 
+lead up to the Moathouse fron here. The passage continues north and east.
+~
+10 13 0
+D0
+You see a dark passage
+~
+~
+0 0 1042
+D1
+You see strange shadows lurking in the passage
+~
+~
+0 0 1036
+D4
+Looking up you see stairs leading into the Moathouse
+~
+~
+0 0 1028
+S
+#1036
+Dark passage.~
+You are walking along a dark basement passage. Although it is so dark in 
+here you find it impossible to see anything you can still hear the steady
+dripping of water down the walls and as you touch the wall you feel the 
+slime that covers them.
+~
+10 9 0
+D1
+Turn in the passage.
+~
+~
+0 0 1037
+D3
+Turn in the passage.
+~
+~
+0 0 1035
+S
+#1037
+Turn in the passage.~
+You are at a turn in a dark basement passage. The passage continues north and
+west from here.
+~
+10 9 0
+D0
+Dark passage.
+~
+~
+0 0 1043
+D3
+Dark passage.
+~
+~
+0 0 1036
+S
+#1038
+Dim passage.~
+You are standing in along a dimly lit passage where the brigands are 
+lying in wait to attack you. To the north you can see a large pile of 
+rubble where the north tower used to be. 
+~
+10 8 0
+D0
+Pile of rubble.
+~
+~
+0 0 1044
+D2
+Looking south you see a dim passage
+~
+~
+0 0 1031
+S
+#1039
+Holding cells~
+You are in the holding cells of the Moathouse. More cells are to the east.
+A large iron door is in the north wall.
+~
+10 9 0
+D0
+Dark passage.
+~
+door~
+2 0 1045
+D1
+Holding cells.
+~
+~
+0 0 1040
+S
+#1040
+Holding cells.~
+You are in the holding cells of the Moathouse. The entrance and more cells
+are to the west from here.
+~
+10 9 0
+D3
+Holding cells.
+~
+~
+0 0 1039
+S
+#1042
+Dark passage.~
+You are walking down a dark passage that leads north further into the 
+darkness or south back to the stairs that lead into the basement. 
+~
+10 9 0
+D0
+Junction in passage.
+~
+~
+0 0 1048
+D2
+Turn in dark passage.
+~
+~
+0 0 1035
+S
+#1043
+Dark passage.~
+You are walking along a dark basement passage.
+~
+10 9 0
+D0
+Dark passage.
+~
+~
+0 0 1049
+D2
+Turn in the passage.
+~
+~
+0 0 1037
+S
+#1044
+Standing on rubble.~
+You have clambered up a huge pile of rubble, which was once the north 
+tower, now long since collapsed and gone to ruin. There are several brigands
+standing around here getting ready to attack you.
+~
+10 8 0
+D2
+Looking south you see a dim passage
+~
+~
+0 0 1038
+S
+#1045
+Dark passage.~
+You are at the end of a dark basement passage. There is a large iron door
+in the south wall.
+~
+10 9 0
+D1
+Dark passage.
+~
+~
+0 0 1046
+D2
+Turn in the passage.
+~
+door~
+2 0 1039
+S
+#1046
+Dark passage.~
+You are walking down a dark basement passage.
+~
+10 9 0
+D1
+Dark passage.
+~
+~
+0 0 1047
+D3
+End of dark passage.
+~
+~
+0 0 1045
+S
+#1047
+Dark passage.~
+You are walking down a dark basement passage. To the east is a junction
+in the passage. The passage continues west into the darkness.
+~
+10 9 0
+D1
+Junction in passage.
+~
+~
+0 0 1048
+D3
+End of dark passage.
+~
+~
+0 0 1046
+S
+#1048
+Junction in passaage.~
+You are at a junction in a dark basement passage. Passages lead north, south
+and west from here.
+~
+10 9 0
+D0
+Junction in passage.
+~
+~
+0 0 1053
+D2
+Turn in dark passage.
+~
+~
+0 0 1042
+D3
+Dark passage.
+~
+~
+0 0 1047
+S
+#1049
+Dark passage.~
+You are walking along a dark basement passage.
+~
+10 9 0
+D0
+Turn in the passage.
+~
+~
+0 0 1050
+D2
+Turn in the passage.
+~
+~
+0 0 1043
+S
+#1050
+Turn in the passage.~
+You are at the end of the passage. This is where the passage used to end
+but there is a small hole dug into the stone wall to the east. A dark tunnel
+leads off to the east.
+~
+10 9 0
+D1
+Dark tunnel.
+~
+~
+0 0 1051
+D2
+Dark passage.
+~
+~
+0 0 1049
+S
+#1051
+Dark tunnel.~
+You are in a dark tunnel. It looks like recent work and you can hear faint
+sounds of work going on further east up the tunnel.
+~
+10 9 0
+D1
+Dark tunnel.
+~
+~
+0 0 1052
+D3
+End of dark passage.
+~
+~
+0 0 1050
+S
+#1052
+Dark tunnel.~
+You are in a dark tunnel. It looks like recent work and you can hear faint
+sounds of work going on further east up the tunnel.
+~
+10 9 0
+D1
+Dark tunnel.
+~
+~
+0 0 1056
+D3
+Dark tunnel.
+~
+~
+0 0 1051
+S
+#1053
+Dark passage.~
+You are walking down a dark passage that leads north and south.
+~
+10 9 0
+D0
+End of passage.
+~
+~
+0 0 1054
+D2
+Junction in passage.
+~
+~
+0 0 1048
+S
+#1054
+End of dark passage.~
+You are at the end of a very dark passage. The passage leads off south into
+the darkness. You can make out some strange markings on the wall to the west.
+~
+10 1 0
+D2
+Dark passage.
+~
+~
+0 0 1053
+D3
+Dark passage and a strange door
+~
+door~
+2 0 1054
+S
+#1056
+Dark tunnel.~
+You are at the end of a dark tunnel which is still under construction.
+~
+10 9 0
+D3
+Dark tunnel.
+~
+~
+0 0 1052
+S
+$~

@@ -1,0 +1,34 @@
+x examine $*
+gh get heal back
+bh buy heal
+qh quaff heal
+p cast 'charm' gagar
+cu cast 'cure light' gagar
+bleg cast 'bless' gagar
+armg cast 'armor' gagar
+strg cast 'str' gagar
+t track sarfa
+curel cast 'cure light' sarfa
+cd cast 'create drink'
+armo cast 'armor' sarfa
+stre cast 'strength' sarfa
+wand use wand shrado
+ch cast 'charm' old
+ble cast 'bless' shrado
+recall cast 'word of recall' shrado
+see cast 'detect inv' shrado
+ds drink skin
+arm cast 'armor' on Shrado
+cf cast 'create food'
+str cast 'strength' shrado
+em eat mush
+dra cast 'dragon' shrado
+b cast 'summon' buff
+bles cast 'bless' sarfa
+ca cast 'armor'
+cb cast 'bless
+cn cast 'sanctuary'
+gac get all cor
+ghs give heal sarfa
+protect cast 'arm';cast 'bless'
+devour c 'create food';c 'create food';c 'create food';c 'create food';c 'create food';eat mush;eat mush;eat mush;eat mush;eat mush;drink skin;drink skin

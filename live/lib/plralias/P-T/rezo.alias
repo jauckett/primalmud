@@ -1,0 +1,65 @@
+2
+if
+20
+c 'infravision' self
+0
+2
+db
+25
+c 'detect alignment' self
+0
+2
+cc
+22
+c 'cure critical' self
+0
+2
+aw
+11
+attend self
+0
+2
+cb
+19
+c 'cure blind' self
+0
+2
+rs
+16
+c 'refresh' self
+0
+2
+dm
+17
+c 'detect m' self
+0
+2
+dj
+17
+c 'detect i' self
+0
+2
+fa
+10
+first self
+0
+2
+cl
+19
+c 'cure light' self
+0
+2
+ds
+7
+dr skin
+0
+2
+gb
+15
+get bread backp
+0
+2
+eb
+9
+eat bread
+0

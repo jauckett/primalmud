@@ -1,0 +1,230 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.48.03;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.34;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.29.14.28.35;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back in.
+@
+text
+@#2101
+key gold~
+a gold key~
+There is a gold key here~
+~
+18 65540 1
+2 0 0 0
+1 1 0
+L 0
+#2102
+key old~
+an old key~
+There is a old key here~
+~
+18 65540 1
+2 0 0 0
+1 1 0
+L 0
+#2103
+boots strange~
+a pair of strange boots~
+A pair of strange boots sit on the floor rather correctly~
+~
+9 1027 65
+2 0 0 0
+2 24000 2400
+A
+1 1
+A
+5 1
+L 10
+#2104
+galactic claymore~
+A galactic claymore~
+A galactic claymore sits heavily on the ground.~
+~
+5 64 8193
+0 5 3 3
+16 39380 7876
+A
+4 2
+A
+13 20
+L 8
+#2105
+metallic shield~
+a metallic shield~
+A metallic shield has been dropped here.~
+~
+9 512 513
+3 0 0 0
+6 10000 1000
+A
+5 1
+L 7
+#2106
+black tunic~
+black tunic~
+A black tunic lies in a crumpled heap on the floor~
+~
+9 0 1033
+1 0 0 0
+5 100 10
+L 5
+#2107
+high heels shoes~
+high heels~
+A pair of old high heels lie discarded in a corner~
+~
+9 0 65
+3 1 0 0
+2 100 10
+L 0
+#2108
+opal ring~
+an opal ring~
+You see an opal ring here.~
+~
+9 0 3
+1 0 0 0
+1 100 10
+A
+19 1
+L 10
+#2109
+opal bracelet~
+opal bracelet~
+You see an opal bracelet here~
+~
+9 512 4097
+1 1 0 0
+1 1100 110
+A
+19 1
+L 10
+#2110
+display case~
+display case~
+There is a large display case here.~
+~
+15 0 0
+1000 13 2111 0
+1000 0 0
+L 0
+#2111
+key chain~
+key chain~
+A large chain of keys hangs on the wall~
+~
+18 0 1
+2 0 0 0
+1 10 1
+L 0
+#2112
+opal potion~
+an opal potion~
+An opal potion rests here~
+~
+10 0 16385
+15 36 43 -1
+1 10000 1000
+L 0
+#2113
+sword long~
+a long sword~
+A long sword has been left here.~
+~
+5 0 8193
+0 1 8 3
+8 640 128
+L 0
+#2114
+runed dagger~
+a runed dagger~
+A runed dagger, almost hidden from sight, lies here.~
+~
+5 513 8193
+0 1 6 11
+5 5270 1054
+A
+18 2
+L 0
+#2115
+chest iron~
+An Iron Bound Chest~
+An Iron Bound Chest with a HUGE lock on it.~
+~
+15 6 1
+100 11 2116 0
+10 0 0
+L 0
+#2116
+key~
+A Key~
+The quest key lies here.~
+~
+18 65564 1
+2115 0 0 0
+1 1 0
+L 0
+#2117
+tree mysterious~
+A mysterious looking tree~
+A mysterious looking tree is in the centre of a ring of concentric circles.~
+~
+41 0 0
+2162 0 0 0
+1000 0 0
+L 0
+#2118
+scrying pool~
+A scrying pool~
+You look into the pool and see the enfans town.~
+~
+41 0 0
+2159 0 0 0
+1000 0 0
+L 0
+#99999
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Adding all obj files to director
+@
+text
+@@
+

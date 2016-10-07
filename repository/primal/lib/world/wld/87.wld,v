@@ -1,0 +1,1841 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.40;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.40;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#8700
+Entering the forest of Drielend.~
+As you enter into the forest of Drielend you notice the large impressive oak
+trees that shades the path. In these large trees timid animals peer back 
+at you as they quickly dart behind the branches. If you look south you see 
+a small shadey path that leads into the heart of Drielend forest. Looking 
+up you see Darask road that leads back towards haven.
+~ 
+87 4 0
+D2
+A small pathway leads south
+~
+~
+0 -1 8701
+D4
+Looking up you see Darask road
+~
+~
+0 0 5510
+S
+#8701
+A shadey path.~
+You are travelling along a shadey path. Large oak trees surround you from 
+all sides blocking any possible path other than the one you are travelling 
+along. You can hear small animals making chirping and chattering noises from the
+trees that surround you, however it is difficult to catch a glimpse of 
+them as they are extremely timid. 
+~ 
+87 0 0
+D0
+Looking north you see large elms shadowing the path.
+~
+~
+0 -1 8700
+D1
+A small path leads east
+~
+~
+0 -1 8702
+D2
+Looking south you see large elms shadowing the path.
+~
+~
+0 -1 8705
+S
+#8702
+A shadey path.~
+You are travelling along a shadey path. The large oak trees that surround 
+you from all sides make it difficult to see anything past them or above. 
+They are so old and large that the you can barely see the sky above them.
+~
+87 0 0
+D1
+A small path leads east
+~
+~
+0 -1 8703
+D2
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8706
+D3
+A small path leads west
+~
+~
+0 -1 8701
+S
+#8703
+A shadey path.~
+You are travelling along a shadey path where large oak trees and 
+beuatiful wild flowers surround you from all sides. As you admire this 
+calm peacefull place you hear the snarling of vicious wolves in the 
+distance. You realise that although this beautiful forest looks harmless 
+there are some animals who live in it that aren't quite so timid. 
+~ 
+87 0 0
+D2
+A small path leads south 
+~
+~
+0 -1 8704
+D3
+A small path leads west
+~
+~
+0 -1 8702
+S
+#8704
+A shadey path.~
+You are travelling along a shadey path where large, old oak trees surround 
+you from all sides. You notice that the oak trees block your path forward 
+and there is no other path other than the one you just travelled down.
+As you stand here you hear the distant snarling of vicious wolves and 
+wonder if the forest looks as safe as your originally thought it was.
+~ 
+87 0 0
+D0
+Looking north you see the path you followed
+~
+~
+0 -1 8703
+S
+#8705
+Entering the forest of Drielend.~
+As you enter the forest of Drielend you notice the large impressive oak
+trees that shade the path. There are also huge fern trees that crowd 
+around the path blocking any entrances through the forest. Peering 
+through the trees are many small timid animals that look harmless. 
+However in the distance you hear the howling and snarling of vicious 
+wolves.
+~ 
+87 0 0 
+D0 
+North is a small shadey path
+~
+~
+0 -1 8701
+D1
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8706
+D2
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8710
+S
+#8706
+Deep within the forest.~
+You have entered into the heart of Drielend.  The oaks are so thick here 
+you can no longer see the sky above. The forest floor is covered in small 
+wildflowers and soft green moss that feels soft and smooth under your 
+feet. The smell of damp fresh earth is very destinct here as if the 
+forest has just had a recent downpour of rain.
+~ 
+87 0 0
+D0
+A small path leads north
+~
+~
+0 -1 8702
+D1
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8707
+D2
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8711
+D3
+Looking west you see a few old elms that tower over everything below
+~
+~
+0 -1 8705
+S
+#8707
+Deep within the forest.~
+You have entered into the heart of Drielend. The oaks are so thick here 
+you can no longer see the sky above. The path you are travelling along is 
+small and winding. If you look down you see small timid animals running 
+across the path as you pass by and there are also small exotic wild 
+flowers that are scattered along the mossy sides of the path. 
+~ 
+87 0 0 
+D1
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8708
+D2
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8712
+D3
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8706
+S
+#8708
+Deep within the forest.~
+You have entered into the heart of Drielend.  The oaks are so thick here 
+you can no longer see the sky above. The forest floor is covered in small 
+wildflowers.
+~
+87 0 0
+D2
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8713
+D3
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8707
+S
+#8709
+Deep within the forest.~
+You have entered into the heart of Drielend.  The oaks are so thick here 
+you can no longer see the sky above. The forest floor is covered in small 
+wildeflowers and soft green moss that feels soft and smooth under your 
+feet. The smell of damp fresh earth is very destinct here as if the 
+forest has just had a recent downpour of rain.
+~
+87 0 0
+D1
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8710
+D2
+Looking south you see a path leading out of the forest
+~
+~
+0 -1 8715
+S
+#8710
+Deep within the forest.~
+Deep within the forest of Drielend you are surrounded by large oaks and 
+firs that tower over you and block out nearly all the sun's rays.
+The floor of the forest is covered in soft moss that feels cool and 
+soothing under your feet. Small timid animals dart in and out of the trees
+that surround you, quickly glancing in your direction as they pass. In 
+the distance you can hear the howling and snarling of a pack of vicious
+wolves that make you very wary about travelling ahead.
+~ 
+87 0 0 
+D0 
+North is the path that leads into the depths of Drielend.
+~
+~
+0 -1 8705
+D1
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8711
+D3
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8709
+S
+#8711
+Deep within the forest.~
+You have entered into the heart of Drielend.  The oaks are so thick here 
+you can no longer see the sky above. The forest floor is covered in small 
+wildflowers.
+~
+87 0 0
+D0
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8706
+D1
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8712
+D3
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8710
+S
+#8712
+Deep within the forest.~
+You have entered into the heart of Drielend.  The oaks are so thick here 
+you can no longer see the sky above. The forest floor is covered in small 
+wildeflowers and soft green moss that feels soft and smooth under your 
+feet. The smell of damp fresh earth is very destinct here as if the 
+forest has just had a recent downpour of rain.
+~
+87 0 0
+D0
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8707
+D1
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8713
+D3
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8711
+S
+#8713
+Deep within the forest.~
+Deep within the forest of Drielend you are surrounded by large oaks and 
+firs that tower over you and block out nearly all the sun's rays.
+The floor of the forest is covered in soft moss that feels cool and 
+soothing under your feet. Small timid animals dart in and out of the trees
+that surround you, quickly glancing in your direction as they pass. In 
+the distance you can hear the howling and snarling of a pack of vicious
+wolves that make you very wary about travelling ahead.
+~
+87 0 0
+D0
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8708
+D1
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8714
+D3
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8712
+S
+#8714
+Deep within the forest.~
+As you stand on the small path that twists and turns through the heart of 
+Drielend Forest you hear the howling of wild wolves nearby. Although the 
+scenery around you you tranquil and beautiful you realise that danger is 
+nearby.
+~
+87 0 0
+D3
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8713
+S
+#8715
+Leaving Drielend.~
+As you leaving the forest of Drielend the air becomes fresher and you no 
+longer feel closed in by all those large oaks. You can smell a cool 
+breeze gently cooling your face and a slight smell of salt is in the air. 
+You think that there may be a lake or ocean nearby.
+~
+87 0 0
+D0
+Large elms and oaks block out the sky above.
+~
+~
+0 -1 8709
+D1
+A small grassy pathway leading to the large lake
+~
+~
+0 -1 8716
+S
+#8716
+A grassy pathway.~
+As you travel along the grassy path you notice a large lake in the 
+distance. In the center of the lake you see a small island that has a 
+large tower at the very top of its higherst point. The lake looks rather 
+calm and peacefull but then these things can be deceiveing.
+~ 
+87 0 0
+D1
+The path leads back into Drielend forest.
+~
+~
+0 -1 8717
+D3
+A small grassy pathway leading to the large lake
+~
+~
+0 -1 8715
+S
+#8717
+A grassy pathway.~
+As you travel along the grassy path you can just make out a large blue 
+lake in the distance. In the centre of this calm looking stretch of water 
+is a small island that has a large black tower at it's highest point.
+There is a distinct smell of salt air in the breeze that gently brushes 
+over your face and the long grass also sways in this cool breeze.
+~ 
+87 4 0
+D1
+A small grassy pathway leading to the large lake
+~
+~
+0 -1 8718
+D2
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8723
+D3
+A small grassy pathway leading to the large lake
+~
+~
+0 -1 8716
+S
+#8718
+A grassy pathway.~
+As you travel along the grassy path you notice a large lake in the 
+distance and the lush green forest in the other direction. A cool breeze 
+gently blows onto your face and you detect a faint smell of salt in the 
+air. As you look toward the blue lake in the distance you see a small 
+island in the very centre. There are also strange noises coming from the 
+depths of the lake that make you wary about travelling upon it.
+~ 
+87 0 0 
+D1
+A small grassy pathway leading around the large lake
+~
+~
+0 -1 8719
+D3
+A small grassy pathway leading to the large lake
+~
+~
+0 -1 8717
+S
+#8719
+A grassy pathway.~
+As you travel along the grassy path you can just make out a large blue 
+lake in the distance. In the centre of this calm looking stretch of water 
+is a small island that has a large black tower at it's highest point.
+There is a distinct smell of salt air in the breeze that gently brushes 
+over your face and the long grass also sways in this cool breeze.
+~
+87 0 0
+D3
+A small grassy pathway leading to the large lake
+~
+~
+0 -1 8718
+S
+#8720
+Sailing on a large lake.~
+As you sail around the large blue lake a cool breeze sprays small drops 
+of salt water up into your face. If you look down you can see large 
+unusual looking fish swimming around your canoe. They look relatively 
+harmless but that strange wailing sound you hear in the distance does not 
+sound very reasurring.
+~ 
+87 0 7 
+D1 
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8721
+D2
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8732
+S
+#8721
+Sailing on a large lake.~
+You are sailing on a large blue lake, the home of many unusual water 
+creatures, some who are peaceful others who are not so pleasant. There 
+are strange sounds that you can hear echoing off the island in the centre 
+of the lake that make you tremble in fear.
+
+~
+87 0 7
+D1
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8722
+D3
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8720
+S
+#8722
+Sailing on a large lake.~
+As you sail around this large lake you notice an island in the centre 
+with a large cliff face leading up to it. If you look down you see that 
+the calm blue lake houses many strange and colorful fish as well as other
+creatures that you can not name.
+~
+87 0 7
+D1
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8723
+D3
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8721
+S
+#8723
+Sailing on a large lake.~
+As you sail around this large lake you notice an island in the centre 
+with a large cliff face leading up to it. To you north you can see a 
+small grassy path that leads back into Drielend Forest and west and east 
+the lake flows swiftly around the island.
+~
+87 0 7
+D0
+Looking north you see the grassy path that leads back into the forest.
+~
+~
+0 -1 8717
+D1
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8724
+D3
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8722
+S
+#8724
+Sailing on a large lake.~
+vThere is a slight breeze blowing off the the lake and it sprays the salty 
+water up into your face cooling it from the hot sun that beats a strong 
+steady rhythm down onto your back. This is and incredibly beautiful lake, 
+the water is crystal clear and if you look down you can see the sandy 
+depths below. Small and large fish swim around your raft in the hope that 
+you may drop them some food. Looking upwards you see a small island and 
+at it's highest peak a rather forbodding tower.
+~ 
+87 0 7 
+D1 
+The clear blue water of a beautiful lake 
+~ 
+~ 
+0 -1 8725
+D3
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8723
+S
+#8725
+Sailing on a large lake.~
+You are sailing on a large blue lake, the home of many unusual water 
+creatures, some who are peaceful others who are not so pleasant. There 
+are strange sounds that you can hear echoing off the island in the centre 
+of the lake that make you tremble in fear.
+~
+87 0 7
+D2
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8739
+D3
+The clear blue water of a beautiful lake
+~
+~
+0 -1 8724
+S
+#8726
+On a cliff edge .~
+You are standing at the edge of the cliff. The rock of this island is 
+rather sandy and you need to tread lighly as the footing can be 
+dangerous. In the distance on this island you can hear the howling of 
+strange animals that do not sound overtly friendly. However the view here 
+is absolutely incredible, you can see the surrounding lake and forest in 
+the distance with the suns rays shimmering across the water giving it a 
+glistening effect. 
+~ 
+87 0 0 
+D2
+You see part of the cliff south that looks out over the lake
+~
+~
+0 -1 8734
+S
+#8727
+A rocky path.~
+You are walking up a rocky path at the edge of the island. There are 
+small shrubs that look a bit undernourished. The plant life on this 
+island is rather sparse even the grass has a brown dried out look to it.
+In the distance you can see a large evil looking building that you feel 
+wary about approaching. 
+~ 
+87 0 0
+D1
+East is a small path leading towards The Black Tower
+~
+~
+0 -1 8728
+D2
+South is a small path leading back towards the lake and the islands centre.
+~
+~
+0 -1 8735
+S
+#8728
+A rocky path.~
+You are walking up a rocky path that leads around the edge of the 
+island and in the distance you can see a large evil looking building.
+The tower in the distance has an evil black aura surrounding it that 
+makes you hesitate to continue on. The path itself also looks rather 
+uninvitting with it's lack of vegitation and it's complete desolute look 
+~ 
+87 0 0
+D1
+East is a small path leading back towards the lake and the islands centre.
+~
+~
+0 -1 8729
+D3
+West is a small path leading towards a small rocky path.
+~
+~
+0 -1 8727
+S
+#8729
+A rocky path.~
+You are walking up a rocky path at the edge of the island. There are 
+small shrubs that look a bit undernourished. The plant life on this 
+island is rather sparse even the grass has a brown dried out look to it.
+In the distance you can see a large evil looking building that you feel 
+wary about approaching.
+~
+87 0 0
+D1
+A rocky desolute path leading towards the evil looking tower.
+~
+~
+0 -1 8730
+D3
+A rocky path leading back towards the cliffs.
+~
+~
+0 -1 8728
+S
+#8730
+A rocky path.~
+You are walking up a rocky path at the edge of the island. In the 
+distance you can see a large evil looking building.
+~
+87 0 0
+D1
+A rocky desolute path leading towards the evil looking tower.
+~
+~
+0 -1 8731
+D2
+A small path that leads towards the White Tower
+~
+~
+0 -1 8733
+D3
+A rocky path leading back towards the cliffs.
+~
+~
+0 -1 8729
+S
+#8731
+A rocky path.~
+You are walking up a rocky path that leads around the edge of the 
+island and in close by you can see a large evil looking building.
+The tower that is straight ahead has an evil black aura surrounding it that 
+makes you hesitate to continue on. The path itself also looks rather 
+uninvitting with it's lack of vegitation and it's complete desolute look .
+~
+87 0 0
+D2
+A rocky desolute path leading into the evil looking tower.
+~
+~
+0 -1 5600
+D3
+The entrance into the Black tower.
+~
+~
+0 -1 8730
+S
+#8732
+Sailing on a large lake.~
+The blue waters on this magnificent lake are so crystal clear that you 
+can see the sandy bottom. There are large and small exotic fish swimming 
+around your raft in the hope that you may drop them some food. From here 
+you can also see a large cliff face and a small entrance onto the island 
+in the centre of the lake.
+ ~
+87 0 7
+D0
+The crystal clear lake
+~
+~
+0 -1 8720
+D2
+The crystal clear lake
+~
+~
+0 -1 8745
+S
+#8733
+A small path.~
+You have travelled down a small path. It seems to lead towards another 
+tower that has been overshadowed by the large evil looking black tower.
+The tower you see ahead has a peacefull and calm quality. Although it does
+have a magical aura, it does not repulse you like the Black tower has.
+~
+87 0 0
+D0
+The rocky path that leads around the cliff face of the island.
+~
+~
+0 -1 8730
+S
+#8734
+A cliff edge .~
+You are standing at the edge of the cliff and from here you have a 
+magnificent view of the surrounding lake. As you look up however you see 
+a large hideous creature blocking your entrance onto the rest of the 
+island. You are now unsure whether you should venture ahead as the 
+creature looks extremely vicious.
+~  
+87 0 0 
+D0
+Looking north you see the cliff edge that has a view of the whole lake
+~
+~
+0 -1 8726
+D2
+Looking south you see the cliff ledge .
+~
+~
+0 -1 8746
+D4
+Looking up you see a small path that leads into the centre of the island
+~
+~
+0 -1 8735
+S
+#8735
+On a path.~
+You are standing on a path that leads in two different directions. There 
+is also a hideous creature who resides here blocking your entrance. If 
+you fail to move on quickly he will be having you for dinner as he is a 
+rather unsavory character who is here to protect the other creatures on 
+this desolote island. He has no remorse when it comes to killing so beware.  
+~ 
+87 4 0 
+D0 
+A rocky path that leads around the outskirts of the island
+~ 
+~
+0 -1 8727
+D2
+A small rather tranquil looking grassy glade.
+~
+~
+0 -1 8743
+D5
+Looking down you see the cliffs edge
+~
+~
+0 -1 8734
+S
+#8736
+The sand dunes.~
+You are in the sand dunes. For miles all you can see is sand.There is no 
+plant life nearby but the wind is relentlessly whistling over the sand 
+and blowing it into your eyes, making visibility difficult. You can hear 
+a strange wailing sound coming from the sand dunes and it makes your skin 
+crawl with fear.
+~
+87 0 5
+D1
+Sand dunes
+~
+~
+0 -1 8737
+D2
+Sand dunes
+~
+~
+0 -1 8740
+S
+#8737
+The sand dunes.~
+Large sand dunes surround you from all sides making visibility 
+impossible. The wind is blowing relentlessly through the dunes and sand 
+is spraying into your face, eyes, ears and mouth. You can hear a strange 
+shrieking sound that you can not place. It may simply be the wind over the
+sand, but then again it may not be.
+~ 
+87 0 5 
+D1 
+Sand dunes
+~
+~
+0 -1 8738
+D3
+Sand dunes
+~
+~
+0 -1 8736
+S
+#8738
+The sand dunes.~
+You are in the sand dunes.  For miles all you can see is sand.There is no 
+plant life nearby but the wind is whistling over the sand. Or is that 
+sound the wind?
+~
+87 0 5
+D2
+Sand dunes
+~
+~
+0 -1 8742
+D3
+Sand dunes
+~
+~
+0 -1 8737
+S
+#8739
+Sailing on a large lake.~
+You are sailing on a large lake and in the distance you can see some 
+rather large sand dunes. The water is a little bit rougher on this side 
+of the island and the creatures you are seeing swimming around your raft 
+do not look as friendly. You are amazed and the size of this island as it 
+looks a lot smaller when viewed from the forest side.
+~ 
+87 0 7 
+D0
+The large blue lake
+~
+~
+0 -1 8725
+D2
+The large blue lake
+~
+~
+0 -1 8753
+S
+#8740
+The sand dunes.~
+You are in the sand dunes. For miles all you can see is sand.There is no 
+plant life nearby but the wind is relentlessly whistling over the sand 
+and blowing it into your eyes, making visibility difficult. You can hear 
+a strange wailing sound coming from the sand dunes and it makes your skin 
+crawl with fear.
+~
+87 0 5
+D0
+Sand dunes
+~
+~
+0 -1 8736
+D1
+Sand dunes
+~
+~
+0 -1 8741
+D2
+Sand dunes
+~
+~
+0 -1 8747
+S
+#8741
+The sand dunes.~
+All you can see in any direction are large sand dunes that cover this 
+rather desolete area of the island. The wind blows strongly through these 
+dunes spraying the sand up into your eyes. You wish you had more suitable 
+clothing to protect you from the sand as it stings your arms and legs as
+it hits you. There is also a strange eerie whistling sound coming from 
+the sand dunes but you don't think that is is simply the wind. 
+~ 
+87 0 5 
+D1
+Sand dunes
+~
+~
+0 -1 8742
+D2
+Sand dunes
+~
+~
+0 -1 8748
+D3
+Sand dunes
+~
+~
+0 -1 8740
+S
+#8742
+The sand dunes.~
+You are standing in some extremely large sand dunes that look very 
+impressive. There is a strange wailing sound coming from the dunes on 
+your north and west. To your south you can see the shoreline of the large 
+lake and the blue crystal water. 
+~ 
+87 0 5 
+D0
+Sand dunes
+~
+~
+0 -1 8738
+D2
+Sand dunes
+~
+~
+0 -1 8752
+D3
+Shoreline of the large lake
+~
+~
+0 -1 8741
+S
+#8743
+A grassy glade.~
+You are standing in a grassy glade where the grass is long and lush. This 
+is a rather peaceful area of the island. Probably the only place that you 
+are reasonably safe. You have managed to pass the fierce vicious beast
+who is just to your north and you can now take a well deserved break.
+~ 
+87 4 0 
+D0
+The path leading towards the cliff and around the island
+~
+~
+0 -1 8735
+D1
+A grassy glade
+~
+~
+0 -1 8744
+D2
+A grassy glade
+~
+~
+0 -1 8749
+S
+#8744
+A grassy glade.~
+You are standing in a grassy glade where some rare and beautiful 
+creatures reside. This is a very calm and peaceful area on this desolete 
+island where you can rest safely. You also have a fantastic of the 
+surrounding lake from here. 
+~ 
+87 0 0
+D2
+The grassy glade
+~
+~
+0 -1 8750
+D3
+The grassy glade
+~
+~
+0 -1 8743
+S
+#8745
+Sailing around the lake.~
+As you sail around you notice the large island to your east. If you look 
+east you see the large cliff face that leads toward the centre of the 
+island. To your north and south the large lake continues around the island.
+~ 
+87 0 7
+D0
+The crystal blue lake
+~
+~
+0 -1 8732
+D1
+The cliff face
+~
+~
+0 -1 8746
+D2
+The crystal blue lake
+~
+~
+0 -1 8767
+S
+#8746
+On a cliff.~
+You are standing at the edge of the cliff that leads into the centre of 
+the island. To your north is the cliffs edge where you get an incredible 
+view of the whole lake and surounding forest. To your west is the large 
+crystal lake.
+~ 
+87 4 0
+D0
+The cliff edge
+~
+~
+0 -1 8734
+D2
+The cliff face
+~
+~
+0 -1 8751
+D3
+The crystal blue lake
+~
+~
+0 -1 8745
+S
+#8747
+The sand dunes.~
+You are in the sand dunes where the vicious and ugly harpys reside. They 
+are extremely nasty little creatures who attack you without any provoking.
+If you look north all you can see are sand dunes for miles without and 
+form of plant life or fresh water.
+~ 
+87 0 5
+D0
+Sand dunes
+~
+~
+0 -1 8740
+S
+#8748
+The sand dunes.~
+You are in the sand dunes where the vicious and ugly harpies reside. They 
+are extremely nasty little creatures who attack on mass without any 
+reason. They do not like intruders into their sand dunes and they show thier
+lack of hospitatilty in the most unpleasant ways possible.
+If you look north all you can see are sand dunes for miles without and 
+form of plant life or fresh water.
+~
+87 0 5
+D0
+~
+~
+0 -1 8741
+S
+#8749
+A grassy glade.~
+You are standing in a grassy glade where you are safe from all the 
+vicious and deadly creatures who habitate this region. There are several 
+kindly centaurs and a very mysterious and shy creature who live around 
+these grassy fields. However, they are relatively harmless and will not 
+attck you unless provoked.
+~ 
+87 0 0 
+D0 
+Grassy glade
+~
+~
+0 -1 8743
+D1
+Grassy glade
+~
+~
+0 -1 8750
+D2
+Grassy glade
+~
+~
+0 -1 8754
+S
+#8750
+A grassy glade.~
+Looking around all you see is the long grass swaying in the wind from the 
+cool breeze that blows off the salt lake. This is a calm peaceful glade 
+where you can rest and sleep in complete safety. The strange creatures 
+that wonder around the glade are kind and harmless. They are also very 
+shy so you may not see them. 
+~ 
+87 0 0 
+D0 
+Grassy glade
+~
+~
+0 -1 8744
+D2
+Grassy glade
+~
+~
+0 -1 8755
+D3
+Grassy glade
+~
+~
+0 -1 8749
+S
+#8751
+On a cliff.~
+You are standing at the edge of the cliff. You can see for miles over the 
+lake and to the forest beyond. This is a fantastic view that you could 
+sit and look at all day long.
+~
+87 0 0
+D0
+The cliff ridge leading up towards the centre of the island
+~
+~
+0 -1 8746
+S
+#8752
+The shoreline of the lake .~
+You are standing on shoreline of the lake. The sand here is extremely hot 
+from the suns rays beating down upon it. As you look down you see a 
+beautiful seashell and some strange looking seaweed. To your north you 
+see large sand dunes and the shoreling continues further south.
+~ 
+87 4 0
+D0
+Sand dunes
+~
+~
+0 -1 8742
+D1
+The large crystal lake
+~
+~
+0 -1 8753
+D2
+The shoreline 
+~
+~
+0 -1 8759
+S
+#8753
+Sailing on a large lake.~
+You are sailing on a large lake where the salt water is so clear you can 
+see the sandy bottom. To your west you see a shoreling that leads into 
+some large sand dunes. The crystal lake continues north and south around 
+the island.
+~ 
+87 0 7 
+D0
+A crystal clear lake
+~
+~
+0 -1 8739
+D2
+A crystal clear lake
+~
+~
+0 -1 8763
+D3
+The shoreline
+~
+~
+0 -1 8752
+S
+#8754
+A grassy glade.~
+You are standing in a grassy glade. This is the most peaceful place on 
+the whole island and you feel completly safe here. There is a cool breeze 
+blowing of the salt lake and you could quite easily lie down and sleep 
+here. Looking up you see a small magical hill that glows with a strange 
+light. To your north and east the grassy glade continues.
+~ 
+87 0 0
+D0
+A grassy glade
+~
+~
+0 -1 8749
+D1
+A grassy glade
+~
+~
+0 -1 8755
+D4
+A small magical hill.
+~
+~
+0 -1 8760
+S
+#8755
+A grassy glade.~
+You are standing in a grassy glade. This is the most peaceful place on 
+the whole island and you feel completly safe here. All around you is the 
+grassy glade and you can quite safely sleep here for a while if you like.
+~
+87 0 0
+D0
+A grassy glade
+~
+~
+0 -1 8750
+D1
+A grassy glade
+~
+~
+0 -1 8756
+D3
+A grassy glade
+~
+~
+0 -1 8754
+S
+#8756
+A grassy glade.~
+You are standing in a grassy glade where some rare and beautiful 
+creatures reside. This is a very calm and peaceful area on this desolete 
+island where you can rest safely. You also have a fantastic of the 
+surrounding lake from here. 
+~
+87 0 0
+D3
+A grassy glade
+~
+~
+0 -1 8755
+S
+#8757
+A grassy plane.~
+From where you stand you can see the shore and the large lake. In the 
+other direction you can see the wilde mangroves. Very few beasts live in 
+this area of the island but the dense mangroves are full of vicious 
+crocodiles.
+~ 
+87 0 0
+D1
+The grassy plane
+~
+~
+0 -1 8758
+D2
+The grassy plane
+~
+~
+0 -1 8761
+S
+#8758
+A grassy plane.~
+You are standing in a grassy plane that leads east towards the shoreline 
+and south and west further into the planes. Looking towards the planes 
+you can also see the swampy mangroves that surround the bottom part of 
+the island where several large and vicious creatures reside.
+~ 
+87 0 0 
+D1
+The shoreline of the large lake
+~
+~
+0 -1 8759
+D2
+The grassy planes
+~
+~
+0 -1 8762
+D3
+The grassy planes
+~
+~
+0 -1 8757
+S
+#8759
+The shoreline of the lake .~
+You are standing on the hot sand on the shoreling of the beautiful 
+crystal lake. To your west you can see a grassy plane leading into 
+another section of the island and to your north the shoreline continues.
+~ 
+87 0 0 
+D0
+The shoreline of the lake
+~
+~
+0 -1 8752
+D3
+The grassy plane
+~
+~
+0 -1 8758
+S
+#8760
+The edge of a small hill.~
+You are standing at the edge of a small hill, one of the highest points 
+on this island. From here you have an amazing view of the whole island, 
+the salt lake and the forest beyond. You can also make out the sand dunes
+and the swampy mangroves. The is a rather magical place where a shy and 
+beautiful creature often waits patienly for friendly people to visit. He 
+is a rare beast who is nearly extinct so try not to hurt him if you are 
+lucky enough to catch a glimpse of him. 
+~ 
+87 0 0 
+D5
+The grassy glade
+~
+~
+0 -1 8754
+S
+#8761
+A grassy plane.~
+From where you stand you can see the shore and the large lake. In the 
+other direction you can see the wild mangroves.
+~
+87 0 0
+D0
+The grassy plane
+~
+~
+0 -1 8757
+D1
+The grassy plane
+~
+~
+0 -1 8762
+S
+#8762
+A grassy plane.~
+To your south you can see the wild mangroves and the smell that 
+penetrates from them is extremely unpleasant. You also hear strange sounds
+that you are sure are not friendly coming from the same direction. The 
+grassy plane continues north and west from here.
+~ 
+87 0 0
+D0
+The grassy plane
+~
+~
+0 -1 8758
+D2
+The wild mangroves.
+~
+~
+0 -1 8765
+D3
+The grassy plane
+~
+~
+0 -1 8761
+S
+#8763
+Sailing on a large lake.~
+You are sailing on a large blue lake, the home of many unusual water 
+creatures, some who are peaceful others who are not so pleasant. There 
+are strange sounds that you can hear echoing off the island in the centre 
+of the lake that make you tremble in fear.
+~
+87 0 7
+D0
+The crystal clear blue lake
+~
+~
+0 -1 8753
+D2
+The crystal clear blue lake
+~
+~
+0 -1 8771
+S
+#8764
+In the mangroves.~
+You are surrounded by mangroves.It is a evil smelling place that has 
+large man eating creatures living in it. You feel rather unsafe in this 
+swampy part of the island and will be much happier when you are again 
+either on the blue lake or solid ground.
+~ 
+87 0 7 
+D1
+The swampy mangroves
+~
+~
+0 -1 8765
+D2
+The swampy mangroves
+~
+~
+0 -1 8770
+S
+#8765
+In the mangroves.~
+You are surrounded by mangroves and in every direction you look that is 
+all you manage to see. You realise that you may quickly become lost in 
+this area and that there are several large and vicious crocodiles trying 
+to close in on you as their supper. Maybe if you head north onto the 
+grassy plane you may be slightly safer.
+~
+87 0 7
+D0
+The grassy plane
+~
+~
+0 -1 8762
+D1
+The swampy mangroves
+~
+~
+0 -1 8766
+D3
+The swampy mangroves
+~
+~
+0 -1 8764
+S
+#8766
+In the mangroves.~
+You are surrounded by mangroves and are quickly loosing your sense of 
+direction. The vicious crocodiles that reside within this swampy place 
+are hunting you for their dinner and it would be wise to leave this area 
+quickly. 
+~ 
+87 0 7 
+D3
+The swampy mangroves
+~
+~
+0 -1 8765
+S
+#8767
+On a large lake.~
+You are sailing around the island and the water here is midnight blue. 
+You can here strange sounds coming from the mangroves nearby and you feel 
+hestitant about entering into them. There is a strong wind blowing off 
+the lake here and the water is rather choppy and slighly unsafe.
+~ 
+87 0 7 
+D0
+The large lake
+~
+~
+0 -1 8745
+D2
+The large lake
+~
+~
+0 -1 8777
+S
+#8768
+In the mangroves.~
+You are surrounded by mangroves.It is a evil smelling place and you want 
+to get out of here as quickly as possible. You also sense that there are a
+number of vicious and dangerous creatures in this area of the island that 
+will attack you without any provoking.
+~
+87 0 7
+D1
+The swampy mangroves
+~
+~
+0 -1 8769
+D2
+The swampy mangroves
+~
+~
+0 -1 8772
+S
+#8769
+In the mangroves.~
+You are surrounded by mangroves and are quickly loosing your sense of 
+direction. The vicious crocodiles that reside within this swampy place 
+are hunting you for their dinner and it would be wise to leave this area 
+quickly. 
+~
+87 0 7
+D1
+The swampy mangroves
+~
+~
+0 -1 8770
+D3
+The swampy mangroves
+~
+~
+0 -1 8768
+S
+#8770
+In the mangroves.~
+You are surrounded by mangroves.It is a evil smelling place and you want 
+to get out of here as quickly as possible. You also sense that there are a
+number of vicious and dangerous creatures in this area of the island that 
+will attack you without any provoking.
+~
+87 0 7
+D0
+The swampy mangroves
+~
+~
+0 -1 8764
+D3
+The swampy mangroves
+~
+~
+0 -1 8769
+S
+#8771
+Sailing on a large lake.~
+You are sailing on a large lake and in the distance all you can see is 
+sand. You are amazed and the size of this island as it looked a great 
+deal smaller from the forest where you originally entered. 
+~
+87 0 7
+D0
+The crystal clear blue lake
+~
+~
+0 -1 8763
+D2
+The crystal clear blue lake
+~
+~
+0 -1 8783
+S
+#8772
+In the mangroves.~
+You are surrounded by mangroves and are quickly loosing your sense of 
+direction. This place looks like a maze and you are wondering if you will 
+ever find land again. But as you look south you realise that maybe this 
+is the direction you should head in before you become even more lost.
+~
+87 0 7
+D0
+The swampy mangroves
+~
+~
+0 -1 8768
+D1
+The swampy mangroves
+~
+~
+0 -1 8773
+D2
+Enterance into the mangroves
+~
+~
+0 -1 8780
+S
+#8773
+In the mangroves.~
+You are surrounded by mangroves.It is a evil smelling place and you want 
+to get out of here as quickly as possible. You also sense that there are a
+number of vicious and dangerous creatures in this area of the island that 
+will attack you without any provoking.
+~
+87 0 7
+D1
+The swampy mangroves
+~
+~
+0 -1 8774
+D2
+The swampy mangroves
+~
+~
+0 -1 8776
+D3
+The swampy mangroves
+~
+~
+0 -1 8772
+S
+#8774
+In the mangroves.~
+You are surrounded by mangroves. This place looks so much like a maze 
+that you begin to wonder if you will ever find land again. You also sense 
+that the vicious crocodiles that reside within these mangroves have not 
+eaten their dinner for a while and if they see you here you will soon die. 
+~ 
+87 0 7 
+D1
+The swampy mangroves
+~
+~
+0 -1 8775
+D2
+The swampy mangroves
+~
+~
+0 -1 8781
+D3
+The swampy mangroves
+~
+~
+0 -1 8773
+S
+#8775
+In the mangroves.~
+You are surrounded by mangroves.It is a evil smelling place and you want 
+to get out of here as quickly as possible. You also sense that there are a
+number of vicious and dangerous creatures in this area of the island that 
+will attack you without any provoking.
+~
+87 0 7
+D3
+The swampy mangroves
+~
+~
+0 -1 8774
+S
+#8776
+In the mangroves.~
+You are surrounded by mangroves. This place looks so much like a maze 
+that you begin to wonder if you will ever find land again. You also sense 
+that the vicious crocodiles that reside within these mangroves have not 
+eaten their dinner for a while and if they see you here you will soon die. 
+~
+87 0 7
+D0
+The swampy mangroves
+~
+~
+0 -1 8773
+S
+#8777
+On a large lake.~
+You are sailing around the island. The view is incredible and the water 
+is a beautiful midnight blue. The lake continues further to your north 
+and east.
+~
+87 0 7
+D0
+The crystal blue lake
+~
+~
+0 -1 8767
+D1
+The crystal blue lake
+~
+~
+0 -1 8778
+S
+#8778
+On a large lake.~
+You are sailing on a large blue lake, the home of many unusual water 
+creatures, some who are peaceful others who are not so pleasant. There 
+are strange sounds that you can hear echoing off the island in the centre 
+of the lake that make you tremble in fear.
+~
+87 0 7
+D2
+The crystal blue lake
+~
+~
+0 -1 8785
+D3
+The crystal blue lake
+~
+~
+0 -1 8777
+S
+#8779
+Sailing on the lake.~
+You are sailing on the lake and in the distance you can see the mangroves.
+~
+87 0 7
+D1
+The crystal blue lake
+~
+~
+0 -1 8780
+D2
+The crystal blue lake
+~
+~
+0 -1 8786
+S
+#8780
+Entering  the mangroves.~
+You are entering into the mangroves. This looks like and interesting 
+place and you can hear strange sounds coming from the centre of this 
+swampy waterway. You are uncertain as to whether it is safe to enter and 
+you are not sure if you should risk your life.
+~ 
+87 0 7 
+D0
+~
+~
+0 -1 8772
+D3
+~
+~
+0 -1 8779
+S
+#8781
+In the mangroves.~
+You are surrounded by mangroves. This place looks so much like a maze 
+that you begin to wonder if you will ever find land again. You also sense 
+that the vicious crocodiles that reside within these mangroves have not 
+eaten their dinner for a while and if they see you here you will soon die. 
+
+~
+87 0 7
+D0
+~
+~
+0 -1 8774
+S
+#8782
+Sailing on a large lake.~
+You are sailing on a large lake and in the distance all you can see is 
+sand. You are amazed and the size of this island.
+~
+87 0 7
+D1
+~
+~
+0 -1 8783
+D2
+~
+~
+0 -1 8789
+S
+#8783
+Sailing on a large lake.~
+You are sailing on a large lake and in the distance all you can see is 
+sand . You are amazed and the size of this island.
+~
+87 0 7
+D0
+~
+~
+0 -1 8771
+D3
+~
+~
+0 -1 8782
+S
+#8784
+In the mangroves.~
+You have entered the mangroves. This is also a dead end the scrub is too 
+thick to pass through.
+ ~
+87 0 7
+D2
+~
+~
+0 -1 8788
+S
+#8785
+Sailing on the lake.~
+You are sailing on the lake and in the distance you can see the mangrove.
+~
+87 0 7
+D0
+~
+~
+0 -1 8778
+D1
+~
+~
+0 -1 8786
+S
+#8786
+Sailing on the lake.~
+You are sailing on the lake and in the distance you can see the mangroves.
+~
+87 4 7
+D0
+~
+~
+0 -1 8779
+D1
+~
+~
+0 -1 8787
+D3
+~
+~
+0 -1 8785
+S
+#8787
+Sailing on the lake.~
+You are sailing on the lake and in the distance you can see the mangroves.
+~
+87 0 7
+D1
+~
+~
+0 -1 8788
+D3
+~
+~
+0 -1 8786
+S
+#8788
+Sailing on the lake.~
+You are sailing on the lake and in the distance you can see the mangroves.
+~
+87 0 7
+D0
+~
+~
+0 -1 8784
+D1
+~
+~
+0 -1 8789
+D3
+~
+~
+0 -1 8787
+S
+#8789
+Sailing on the lake.~
+You are sailing on the lake and in the distance you can see the mangroves.
+~
+87 0 7
+D0
+~
+~
+0 -1 8782
+D3
+~
+~
+0 -1 8788
+S
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,55 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@gb get apple backpack; eat apple
+id get identify backpack; recite identify $*
+f flee
+q get white backpack; quaff white
+wh get white backpack; quaff white
+r get red backpack; quaff red
+y get yellow backpack; quaff yellow
+fod eat bread
+a Enlibrite
+c ca 'cure light'
+p get all corpse
+dr drink skin
+d=drink skin
+m ca 'magic missile'
+bs backstab $*
+sh rem laser; wield gun; shoot $*; rem gun wield laser
+b rem long;wield dagger;backstab $*;rem dagger;wield long
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

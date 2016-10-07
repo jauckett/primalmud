@@ -1,0 +1,4215 @@
+head	1.51;
+access;
+symbols
+	A3_0_59:1.5
+	LATEST:1.5
+	A3_0_1:1.5;
+locks; strict;
+comment	@ * @;
+
+
+1.51
+date	2004.11.25.01.20.04;	author mud;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.08.27.02.12.26;	author mud;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.07.07.11.38.04;	author mud;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.05.29.01.01.02;	author mud;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.05.06.02.23.30;	author mud;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.04.29.08.01.19;	author mud;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.03.11.00.26.00;	author mud;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.01.29.13.22.03;	author mud;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.01.24.01.12.25;	author mud;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.01.21.08.10.27;	author mud;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.01.16.00.45.12;	author mud;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.01.12.04.36.24;	author mud;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.01.10.13.04.50;	author mud;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.01.10.12.02.26;	author mud;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.07.01.12.47;	author mud;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.06.11.11.21;	author mud;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.01.06.10.44.08;	author mud;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.01.06.04.32.51;	author mud;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.11.21.02.48.06;	author mud;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.11.17.23.24.09;	author mud;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.11.17.12.36.24;	author mud;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.11.13.01.05.29;	author mud;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.11.12.11.00.14;	author mud;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.11.06.03.47.16;	author mud;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.11.03.17.01.11;	author mud;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.10.20.12.01.50;	author mud;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.04.29.14.57.58;	author mud;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2002.10.01.10.26.02;	author mud;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2002.04.07.05.14.11;	author mud;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2002.02.26.06.49.04;	author primal;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2002.02.14.06.10.18;	author primal;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2001.11.01.02.34.44;	author rod;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2001.08.12.05.05.51;	author artus;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2001.08.12.01.47.08;	author artus;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2001.06.18.03.28.40;	author artus;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2001.05.26.07.48.15;	author primal;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2001.04.11.14.36.37;	author artus;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2001.04.04.08.01.04;	author primal;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2001.03.03.08.31.44;	author rod;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2001.02.05.00.11.07;	author primal;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2001.02.04.22.37.45;	author primal;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2001.02.04.22.19.35;	author primal;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2001.02.03.01.10.00;	author primal;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2001.02.02.04.34.48;	author primal;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2001.01.30.02.34.23;	author primal;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2001.01.30.02.25.42;	author primal;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2000.10.14.00.52.56;	author primal;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2000.07.26.07.52.28;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.07.14.10.03.16;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.06.27.11.26.39;	author talisman;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.59;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.51
+log
+@Artus> Stopped cure blindness spell being displayed when not blind and casting
+       advanced/divine heal.
+@
+text
+@/* ************************************************************************
+*   File: magic.c                                       Part of CircleMUD *
+*  Usage: low-level functions for magic; spell template code              *
+*                                                                         *
+*  All rights reserved.  See license.doc for complete information.        *
+*                                                                         *
+*  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
+*  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
+************************************************************************ */
+
+
+#include "conf.h"
+#include "sysdep.h"
+
+#include "structs.h"
+#include "utils.h"
+#include "comm.h"
+#include "spells.h"
+#include "handler.h"
+#include "db.h"
+#include "interpreter.h"
+#include "dg_scripts.h"
+
+extern struct room_data *world;
+extern struct obj_data *object_list;
+extern struct char_data *character_list;
+extern struct index_data *obj_index;
+extern struct index_data *mob_index; 
+
+extern struct descriptor_data *descriptor_list;
+extern struct zone_data *zone_table;
+
+extern int mini_mud;
+extern int pk_allowed;
+extern char *spell_wear_off_msg[];
+
+byte saving_throws(struct char_data *ch, int type); /* class.c */
+void clearMemory(struct char_data * ch);
+void weight_change_object(struct obj_data * obj, int weight);
+void add_follower(struct char_data * ch, struct char_data * leader);
+// /*unused? - artus*/ extern struct spell_info_type spell_info[];
+void clan_rel_inc(struct char_data *ch, struct char_data *vict, int amt);
+
+/* local functions */
+int mag_materials(struct char_data * ch, int item0, int item1, int item2, int extract, int verbose);
+void perform_mag_groups(int level, struct char_data * ch, struct char_data * tch, int spellnum, int savetype);
+int mag_savingthrow(struct char_data * ch, int type, int modifier);
+void affect_update(void);
+
+/*
+ * Saving throws are now in class.c as of bpl13.
+ */
+
+
+/*
+ * Negative apply_saving_throw[] values make saving throws better!
+ * Then, so do negative modifiers.  Though people may be used to
+ * the reverse of that. It's due to the code modifying the target
+ * saving throw instead of the random number of the character as
+ * in some other systems.
+ */
+int mag_savingthrow(struct char_data * ch, int type, int modifier)
+{
+  int save;
+
+  save = saving_throws(ch, type);
+//  save += GET_SAVE(ch, type);
+  save += modifier;
+
+  /* Throwing a 0 is always a failure. */
+  if (MAX(1, save) < number(0, 100))
+    return (TRUE);
+
+  /* Oops, failed. Sorry. */
+  return (FALSE);
+}
+
+
+/* affect_update: called from comm.c (causes spells to wear off) */
+void affect_update(void)
+{
+  struct affected_type *af, *next;
+  struct char_data *i;
+  struct timer_type *tim, *next_timer;
+  int found, eq;
+
+  for (i = character_list; i; i = i->next)
+  {
+    // Remove timers-structures
+    for (tim = CHAR_TIMERS(i); tim; tim = next_timer)
+    {
+      next_timer = tim->next;
+      // Decrement time
+      if (tim->duration > 1)
+        tim->duration--;
+      else if (tim->duration == -1)      /* No action */
+        tim->duration = -1;
+      // Remove Timer 
+      else
+        timer_remove_char(i, tim); 
+    }
+    for (af = i->affected; af; af = next)
+    {
+      next = af->next;
+      if (af->duration >= 1)
+	af->duration--;
+      else if (af->duration == -1)	/* No action */
+	af->duration = -1;	/* GODs only! unlimited */
+      else
+      {
+/* modification to check if magic eq is still worn, if not remove
+ * its spell. - Vader
+ */
+        found = 0; /* 0 found or nothing wears off! */
+        for(eq = 0; eq < NUM_WEARS; eq++)
+          if(i->equipment[eq] != NULL)
+            if((GET_OBJ_TYPE(i->equipment[eq]) == ITEM_MAGIC_EQ) &&
+               ((GET_OBJ_VAL(i->equipment[eq],0) == af->type) ||
+                (GET_OBJ_VAL(i->equipment[eq],1) == af->type) ||
+                (GET_OBJ_VAL(i->equipment[eq],2) == af->type)))
+	    {
+              found = 1;
+              break;
+	    }
+        if(found)
+          continue;
+	if ((af->type > 0) && (af->type <= MAX_SPELLS))
+	  if (!af->next || (af->next->type != af->type) ||
+	      (af->next->duration > 0))
+	    if (*spell_wear_off_msg[af->type])
+	    {
+              /* DM - NOHASSLE spell set PRF_NOHASSLE off */
+              if (af->type == SPELL_NOHASSLE)
+                REMOVE_BIT(PRF_FLAGS(i), PRF_NOHASSLE);
+	      send_to_char("&r", i);
+	      send_to_char(spell_wear_off_msg[af->type], i);
+	      send_to_char("&n\r\n", i);
+	    }
+	affect_remove(i, af);
+      }
+    }
+  }
+}
+
+
+/*
+ *  mag_materials:
+ *  Checks for up to 3 vnums (spell reagents) in the player's inventory.
+ *
+ * No spells implemented in Circle 3.0 use mag_materials, but you can use
+ * it to implement your own spells which require ingredients (i.e., some
+ * heal spell which requires a rare herb or some such.)
+ */
+int mag_materials(struct char_data * ch, int item0, int item1, int item2,
+		      int extract, int verbose)
+{
+  struct obj_data *tobj;
+  struct obj_data *obj0 = NULL, *obj1 = NULL, *obj2 = NULL;
+
+  for (tobj = ch->carrying; tobj; tobj = tobj->next_content) {
+    if ((item0 > 0) && (GET_OBJ_VNUM(tobj) == item0)) {
+      obj0 = tobj;
+      item0 = -1;
+    } else if ((item1 > 0) && (GET_OBJ_VNUM(tobj) == item1)) {
+      obj1 = tobj;
+      item1 = -1;
+    } else if ((item2 > 0) && (GET_OBJ_VNUM(tobj) == item2)) {
+      obj2 = tobj;
+      item2 = -1;
+    }
+  }
+  if ((item0 > 0) || (item1 > 0) || (item2 > 0)) {
+    if (verbose) {
+      switch (number(0, 2)) {
+      case 0:
+	send_to_char("A wart sprouts on your nose.\r\n", ch);
+	break;
+      case 1:
+	send_to_char("Your hair falls out in clumps.\r\n", ch);
+	break;
+      case 2:
+	send_to_char("A huge corn develops on your big toe.\r\n", ch);
+	break;
+      }
+    }
+    return (FALSE);
+  }
+  if (extract) {
+    if (item0 < 0)
+      extract_obj(obj0);
+    
+    if (item1 < 0)
+      extract_obj(obj1);
+    
+    if (item2 < 0)
+      extract_obj(obj2);
+    
+  }
+  if (verbose) {
+    send_to_char("A puff of smoke rises from your pack.\r\n", ch);
+    act("A puff of smoke rises from $n's pack.", TRUE, ch, NULL, NULL, TO_ROOM);
+  }
+  return (TRUE);
+}
+
+/* Artus> Fireball, Fire Breath, and anything else that burns should call
+ *        this routine. */
+void handle_fireball(struct char_data *ch)
+{
+  struct obj_data *i, *j, *obj = NULL;
+
+  if ((IS_NPC(ch)) || !LR_FAIL(ch, LVL_IS_GOD) || UNDERWATER(ch))
+    return;
+  if (!(ch->carrying))
+    return;
+  for (i = ch->carrying; i; i = i->next_content)
+  {
+    switch (GET_OBJ_TYPE(i))
+    {
+      case ITEM_POTION:
+        if (number(1, 20) == 1)
+	  obj = i;
+	break;
+      case ITEM_SCROLL:
+      case ITEM_NOTE:
+	if (number(1, 15) == 1)
+	  obj = i;
+	break;
+      case ITEM_BATTERY:
+	if (number(1, 50) == 1)
+	  obj = i;
+	break;
+      case ITEM_CONTAINER:
+	if ((OBJVAL_FLAGGED(i, CONT_CLOSED)) || 
+	    !(i->contains) || (number(1, 5) > 1))
+	  break;
+	for (j = i->contains; j; j = j->next_content)
+	{
+	  switch(GET_OBJ_TYPE(j))
+	  {
+	    case ITEM_POTION:
+	      if (number(1, 20) == 1)
+		obj = j;
+	      break;
+	    case ITEM_SCROLL:
+	    case ITEM_NOTE:
+	      if (number(1, 15) == 1)
+		obj = j;
+	      break;
+	    case ITEM_BATTERY:
+	      if (number(1, 50) == 1)
+		obj = j;
+	      break;
+	  }
+	  if (obj)
+	    break;
+	}
+	break;
+    }
+    if (obj)
+      break;
+  }
+  // No Damage.
+  if (!(obj))
+    return;
+  switch (GET_OBJ_TYPE(obj))
+  {
+    case ITEM_POTION:
+      sprintf(buf, "&[&r... &5%s &rboils and explodes in your hands!&]\r\n", 
+	      OBJS(obj, ch));
+      send_to_char(buf, ch);
+      damage(NULL, ch, MIN(GET_HIT(ch), dice(2, GET_LEVEL(ch))), 
+	     TYPE_UNDEFINED, FALSE);
+      if (!OBJ_FLAGGED(obj, ITEM_QEQ))
+	extract_obj(obj);
+      return;
+    case ITEM_NOTE:
+    case ITEM_SCROLL:
+      sprintf(buf, "&[&r... &5%s &rburns to a cinder in your hands!&]\r\n", 
+	      OBJS(obj, ch));
+      send_to_char(buf, ch);
+      damage(NULL, ch, MIN(GET_HIT(ch), number(1, GET_LEVEL(ch))),
+	     TYPE_UNDEFINED, FALSE);
+      if (!OBJ_FLAGGED(obj, ITEM_QEQ))
+	extract_obj(obj);
+      return;
+      break;
+    case ITEM_BATTERY:
+      sprintf(buf, "&[&r... &5%s &rexplodes in your hand, covering you with acid!&]\r\n", OBJS(obj, ch));
+      send_to_char(buf, ch);
+      damage(NULL, ch, 
+	     MIN(GET_HIT(ch), dice(3, GET_LEVEL(ch))+GET_OBJ_VAL(obj, 2)), 
+	     TYPE_UNDEFINED, FALSE);
+      if (!OBJ_FLAGGED(obj, ITEM_QEQ))
+	extract_obj(obj);
+      return;
+      break;
+  }
+}
+
+/*
+ * Every spell that does damage comes through here.  This calculates the
+ * amount of damage, adds in any modifiers, determines what the saves are,
+ * tests for save and calls damage().
+ *
+ * -1 = dead, otherwise the amount of damage done.
+ */
+int mag_damage(int level, struct char_data * ch, struct char_data * victim,
+		     int spellnum, int savetype)
+{
+  int dam = 0;
+  int tmpdam = 0;
+ 
+  if (victim == NULL || ch == NULL)
+    return (0);
+ 
+ 
+  switch (spellnum) {
+    /* Mostly mages */
+  case SPELL_MAGIC_MISSILE:
+  case SPELL_CHILL_TOUCH:       /* chill touch also has an affect */
+      dam = dice(1, 8) + 1;
+      clan_rel_inc(ch, victim, -1);
+    break;
+  case SPELL_BURNING_HANDS:
+      dam = dice(3, 8) + 3;
+      clan_rel_inc(ch, victim, -1);
+    break;
+  case SPELL_SHOCKING_GRASP:
+      dam = dice(5, 8) + 5;
+      clan_rel_inc(ch, victim, -2);
+    break;
+  case SPELL_LIGHTNING_BOLT:
+      dam = dice(7, 8) + 7;
+      clan_rel_inc(ch, victim, -3);
+      handle_fireball(victim);
+    break;
+  case SPELL_COLOR_SPRAY:
+      dam = dice(9, 8) + 9;
+      clan_rel_inc(ch, victim, -3);
+    break;
+  case SPELL_FIREBALL:
+      dam = dice(MINMAX(5, 10, (int)(level/10)), 8) + 11;
+      clan_rel_inc(ch, victim, -5);
+      handle_fireball(victim);
+    break;
+  case SPELL_PLASMA_BLAST:
+      dam = dice(10, 10) + (level/2);
+      clan_rel_inc(ch, victim, -7);
+    break;
+  case SPELL_WRAITH_TOUCH:
+    dam = (int) (dice(20,25) + (level*0.75));
+    if(IS_AFFECTED(victim, AFF_SANCTUARY))
+      tmpdam = dam/2;
+    else
+      tmpdam= dam;
+    /*
+    if ((GET_HIT(ch)+tmpdam)>GET_MAX_HIT(ch))
+      GET_HIT(ch) = GET_MAX_HIT(ch);
+    else
+      GET_HIT(ch)+=tmpdam;
+    // Artus> I think this is a better way:- */
+    if (GET_HIT(ch) < GET_MAX_HIT(ch))
+      GET_HIT(ch) = MIN(GET_HIT(ch)+tmpdam, GET_MAX_HIT(ch));
+    break;
+    /* Mostly clerics */
+  case SPELL_DISPEL_EVIL:
+    if (IS_EVIL(victim)) 
+    {
+      // Artus> This should be a little more balanced.
+      dam = MAX(GET_LEVEL(ch), MIN(GET_LEVEL(ch)*5, (int)(0-(GET_ALIGNMENT(victim) - 350)/4)));
+      clan_rel_inc(ch, victim, -1);
+    } else if (!IS_EVIL(victim)) {
+      act("The gods protect $N.", FALSE, ch, 0, victim, TO_CHAR);
+      dam = 0;
+      return (0);
+    }
+    break;
+
+  case SPELL_DISPEL_GOOD:
+    if (IS_GOOD(victim)) {
+      // Artus> Same as DISPEL_EVIL
+      dam = MAX(GET_LEVEL(ch), MIN(GET_LEVEL(ch)*5, (int)((GET_ALIGNMENT(victim) - 350)/4)));
+      clan_rel_inc(ch, victim, -1);
+    } else if (!IS_GOOD(victim)) {
+      act("The gods protect $N.", FALSE, ch, 0, victim, TO_CHAR);
+      dam = 0;
+      return (0);
+    }
+    break;
+  case SPELL_CALL_LIGHTNING:
+    dam = dice(MINMAX(1,15,GET_LEVEL(ch)), 8);
+    clan_rel_inc(ch, victim, -4);
+    handle_fireball(victim);
+    break;
+ 
+  case SPELL_HARM:
+    dam = dice(8, 8) + 8; 
+    clan_rel_inc(ch, victim, -4);
+    break;
+ 
+  case SPELL_FINGERDEATH:
+    dam = dice(10, 20);
+    break;
+ 
+  case SPELL_ENERGY_DRAIN:
+    if (GET_LEVEL(victim) <= 2)
+      dam = 100;
+    else
+      dam = dice(1, 10);
+    break;
+
+    /* Area spells */
+  case SPELL_EARTHQUAKE:
+    dam = dice(2, 8) + level;
+    break;
+ 
+  case SPELL_WHIRLWIND:
+    dam = (dice(1, 3) + 4) *  level;
+    break;
+ 
+  case SPELL_METEOR_SWARM:
+    dam = (int)(dice(11, 8) + (level*0.75));
+    break;
+ 
+  case SPELL_CLOUD_KILL:
+    if (GET_LEVEL(victim) <=20) {
+      GET_HIT(victim)=0;
+      dam = 50;
+    } else
+      dam = (int)((dice(50,16) + (level*0.75)));
+    break;
+
+  }                             /* switch(spellnum) */
+ 
+  if (mag_savingthrow(victim, savetype, 0))
+    dam >>= 1;
+  // failure
+  else {
+    // exp gains/losses in energy drain (npc victims only)
+    if (spellnum == SPELL_ENERGY_DRAIN && IS_NPC(victim)) {
+      int exp = MINMAX(1, 40000, level * 5000);
+
+      if (GET_EXP(victim) < exp) {
+        exp = GET_EXP(victim) / 2;
+      }
+      exp /= 4;
+      GET_EXP(victim) -= exp;
+      gain_exp(ch, exp);
+    }
+  }
+ 
+  // Modify damage for some classes
+  if (((GET_CLASS(ch) == CLASS_DRUID) && (SECT(ch->in_room) == SECT_FOREST))
+    || (GET_CLASS(ch) == CLASS_BATTLEMAGE) || (GET_CLASS(ch) == CLASS_MASTER) ) 
+	dam = (int)(dam * GET_MODIFIER(ch));
+
+  return (damage(ch, victim, dam, spellnum, TRUE));
+
+  /************************** stock 30bpl17 damage spells
+    // Mostly mages 
+  case SPELL_MAGIC_MISSILE:
+  case SPELL_CHILL_TOUCH:	// chill touch also has an affect 
+    if (IS_MAGIC_USER(ch))
+      dam = dice(1, 8) + 1;
+    else
+      dam = dice(1, 6) + 1;
+    break;
+  case SPELL_BURNING_HANDS:
+    if (IS_MAGIC_USER(ch))
+      dam = dice(3, 8) + 3;
+    else
+      dam = dice(3, 6) + 3;
+    break;
+  case SPELL_SHOCKING_GRASP:
+    if (IS_MAGIC_USER(ch))
+      dam = dice(5, 8) + 5;
+    else
+      dam = dice(5, 6) + 5;
+    break;
+  case SPELL_LIGHTNING_BOLT:
+    if (IS_MAGIC_USER(ch))
+      dam = dice(7, 8) + 7;
+    else
+      dam = dice(7, 6) + 7;
+    break;
+  case SPELL_COLOR_SPRAY:
+    if (IS_MAGIC_USER(ch))
+      dam = dice(9, 8) + 9;
+    else
+      dam = dice(9, 6) + 9;
+    break;
+  case SPELL_FIREBALL:
+    if (IS_MAGIC_USER(ch))
+      dam = dice(11, 8) + 11;
+    else
+      dam = dice(11, 6) + 11;
+    break;
+
+    // Mostly clerics 
+  case SPELL_DISPEL_EVIL:
+    dam = dice(6, 8) + 6;
+    if (IS_EVIL(ch)) {
+      victim = ch;
+      dam = GET_HIT(ch) - 1;
+    } else if (IS_GOOD(victim)) {
+      act("The gods protect $N.", FALSE, ch, 0, victim, TO_CHAR);
+      return (0);
+    }
+    break;
+  case SPELL_DISPEL_GOOD:
+    dam = dice(6, 8) + 6;
+    if (IS_GOOD(ch)) {
+      victim = ch;
+      dam = GET_HIT(ch) - 1;
+    } else if (IS_EVIL(victim)) {
+      act("The gods protect $N.", FALSE, ch, 0, victim, TO_CHAR);
+      return (0);
+    }
+    break;
+
+
+  case SPELL_CALL_LIGHTNING:
+    dam = dice(7, 8) + 7;
+    break;
+
+  case SPELL_HARM:
+    dam = dice(8, 8) + 8;
+    break;
+
+  case SPELL_ENERGY_DRAIN:
+    if (GET_LEVEL(victim) <= 2)
+      dam = 100;
+    else
+      dam = dice(1, 10);
+    break;
+
+    // Area spells 
+  case SPELL_EARTHQUAKE:
+    dam = dice(2, 8) + level;
+    break;
+
+  } // switch(spellnum)
+
+
+  // divide damage by two if victim makes his saving throw 
+  if (mag_savingthrow(victim, savetype, 0))
+    dam /= 2;
+
+  // and finally, inflict the damage
+  return (damage(ch, victim, dam, spellnum));
+  ***************************************************/
+}
+
+
+/*
+ * Every spell that does an affect comes through here.  This determines
+ * the effect, whether it is added or replacement, whether it is legal or
+ * not, etc.
+ *
+ * affect_join(vict, aff, add_dur, avg_dur, add_mod, avg_mod)
+*/
+
+#define MAX_SPELL_AFFECTS 5	/* change if more needed */
+
+void mag_affects(int level, struct char_data * ch, struct char_data * victim,
+		      int spellnum, int savetype)
+{
+  struct affected_type af[MAX_SPELL_AFFECTS];
+  bool accum_affect = FALSE, accum_duration = FALSE;
+  const char *to_vict = NULL, *to_room = NULL;
+  int i;
+
+  if (victim == NULL || ch == NULL)
+    return;
+
+  for (i = 0; i < MAX_SPELL_AFFECTS; i++) 
+  {
+    af[i].type = spellnum;
+    af[i].bitvector = 0;
+    af[i].modifier = 0;
+    af[i].location = APPLY_NONE;
+  }
+
+  switch (spellnum) {
+  case SPELL_CHILL_TOUCH: //////////////////////////////// Chill Touch
+    af[0].location = APPLY_STR;
+    if (mag_savingthrow(victim, savetype, 0))
+      af[0].duration = 1;
+    else
+      af[0].duration = 4;
+    af[0].modifier = -1;
+    accum_duration = TRUE;
+    accum_affect = TRUE;
+    to_vict = "You feel your strength wither!";
+    break;
+  case SPELL_ARMOR: ////////////////////////////////////// Armor
+    if (affected_by_spell(victim, SPELL_ARMOR))
+      to_vict = "You feel a little more protected.";
+    else
+      to_vict = "You feel someone protecting you.";
+    af[0].location = APPLY_AC;
+    af[0].modifier = -15;
+    af[0].duration = 12;
+    accum_duration = FALSE;
+    clan_rel_inc(ch, victim, 1);
+/**************** stock 30bpl19 armor
+    af[0].location = APPLY_AC;
+    af[0].modifier = -20;
+    af[0].duration = 24;
+    accum_duration = TRUE;
+    to_vict = "You feel someone protecting you.";
+**********************************************/
+    break;
+ case SPELL_SPIRIT_ARMOR: //////////////////////////////// Spirit Armor
+    if (affected_by_spell(victim, SPELL_SPIRIT_ARMOR))
+      to_vict = "You feel the spirits gathering closer around you.";
+    else
+      to_vict = "You feel divine forces protecting you.";
+    af[0].duration = 8;
+    af[0].modifier = -30;
+    af[0].location = APPLY_AC;
+    break;
+  case SPELL_STONESKIN: ////////////////////////////////// StoneSkin
+    if (affected_by_spell(victim, SPELL_STONESKIN))
+      to_vict = "Your skin of stone feels a little more solid.";
+    else
+    {
+      to_vict = "A skin of stone creates itself around you.";
+      to_room = "A skin of stone creates itself around $n.";
+    }
+    af[0].duration = 9;
+    af[0].modifier = -40;
+    af[0].location = APPLY_AC;
+    break;
+ case SPELL_LIGHT_SHIELD: //////////////////////////////// Lightning Shield
+    if (affected_by_spell(victim, SPELL_FIRE_SHIELD) ||
+	affected_by_spell(victim, SPELL_FIRE_WALL))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    if (affected_by_spell(victim, SPELL_LIGHT_SHIELD))
+      to_vict = "Your shield begins quivering a little more violently.";
+    else
+    {
+      to_vict = "Your shield jolts as lightning bolts quiver around it's surface!";
+      to_room = "Lightning bolts quiver on $n's shield!";
+    }
+    af[0].duration = 5;
+    af[0].modifier = -15;
+    af[0].location = APPLY_AC;
+    break;
+  case SPELL_FIRE_SHIELD: //////////////////////////////// Fire Shield
+/* Artus> Shouldn't this be handled below?
+    if (affected_by_spell(victim, SPELL_FIRE_SHIELD))
+    {
+      send_to_char("Nothing seems to happen!\r\n", ch);
+      return;
+    }
+*/
+    if (affected_by_spell(victim, SPELL_LIGHT_SHIELD) ||
+	affected_by_spell(victim, SPELL_FIRE_WALL))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    if (affected_by_spell(victim, SPELL_FIRE_SHIELD))
+      to_vict = "The fire surrounding your shield burns a little brighter.";
+    else 
+    {
+      to_vict = "You feel a wave of heat as fire consumes the surface of your shield!";
+      to_room = "A wave of fire consumes $n's shield!";
+    }
+    af[0].duration = 6;
+    af[0].modifier = -20;
+    af[0].location = APPLY_AC;
+    break;
+  case SPELL_FIRE_WALL: ////////////////////////////////// Fire Wall
+    if (affected_by_spell(victim, SPELL_LIGHT_SHIELD) ||
+       affected_by_spell(victim, SPELL_FIRE_SHIELD))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    if (affected_by_spell(victim, SPELL_FIRE_WALL))
+      to_vict = "The wall around you burns a little brighter.";
+    else
+    {
+      to_vict = "You feel a wave of heat as a wall of fire surrounds yourself!";
+      to_room = "A wall of fire ignites around $n!";
+    }
+    af[0].duration = 7;
+    af[0].modifier = -20;
+    af[0].location = APPLY_AC;
+    break;
+  case SPELL_HASTE: ////////////////////////////////////// Haste
+    if (affected_by_spell(victim, SPELL_HASTE))
+      to_vict = "You feel a little more speedy.";
+    else if (IS_AFFECTED(victim, AFF_HASTE))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else
+      to_vict = "Whoooooahhhh, what a RUSH!!!! You are speeding!";
+    af[0].duration = 6;
+    af[0].bitvector = AFF_HASTE;
+    break; 
+  case SPELL_BLESS: ////////////////////////////////////// Bless
+    if (affected_by_spell(victim, SPELL_BLESS))
+      to_vict = "You feel a little more righteous.";
+    else 
+      to_vict = "You feel righteous.";
+
+    af[0].location = APPLY_HITROLL;
+    af[0].modifier = 2;
+    af[0].bitvector = 0;
+    af[0].duration = 6;
+
+    af[1].location = APPLY_SAVING_SPELL;
+    af[1].modifier = -1;
+    af[1].duration = 6;
+
+    af[2].location = APPLY_DAMROLL;
+    af[2].modifier = 1;
+    af[2].bitvector = 0;
+    af[2].duration = 6;
+
+    clan_rel_inc(ch, victim, 2);
+    break;
+/**************** stock 30bpl19 bless
+    af[0].location = APPLY_HITROLL;
+    af[0].modifier = 2;
+    af[0].duration = 6;
+
+    af[1].location = APPLY_SAVING_SPELL;
+    af[1].modifier = -1;
+    af[1].duration = 6;
+
+    accum_duration = TRUE;
+    to_vict = "You feel righteous.";
+    break;
+******************************************/
+
+  case SPELL_DIVINE_PROTECTION: ////////////////////////// Divine Protection
+    if (affected_by_spell(victim, SPELL_DIVINE_PROTECTION))
+      to_vict = "You feel your deity protecting you a little closer.";
+    else
+      to_vict = "You feel your deity protecting you.";
+    
+    af[0].location = APPLY_AC;
+    af[0].modifier = -40;
+    af[0].duration = 6;
+
+    accum_duration = FALSE;
+    accum_affect = FALSE;
+    break;
+  case SPELL_HOLY_AID: /////////////////////////////////// Holy Aid
+    if (affected_by_spell(victim, SPELL_HOLY_AID))
+      to_vict = "You feel your deity's confidence in you grow.";
+    else 
+      to_vict = "Your God hears your prayer and assists you.";
+
+    af[0].location = APPLY_AC;
+    af[0].modifier = -10;
+    af[0].duration = 7;
+ 
+    af[1].location = APPLY_HITROLL;
+    af[1].modifier = 3;
+    af[1].bitvector = 0;
+    af[1].duration = 7;
+ 
+    af[2].location = APPLY_DAMROLL;
+    af[2].modifier = 4;
+    af[2].bitvector = 0;
+    af[2].duration = 7;
+    break; 
+  case SPELL_DRAGON: ///////////////////////////////////// Dragon
+    if (affected_by_spell(victim, SPELL_DRAGON))
+      to_vict = "You feel more like a dragon.";
+    else
+    {
+      to_vict = "You feel the blood of a dragon coursing through your veins.";
+      to_room = "$n looks more like a dragon now.";
+    }
+    if (LR_FAIL(ch, 40))
+    {
+      if (IS_GOOD(ch))
+      {
+	af[0].location = APPLY_HITROLL;
+	af[0].duration = 8;
+	af[0].modifier = 1;
+      } else if (IS_EVIL(ch)) {
+	af[0].location = APPLY_DAMROLL;
+	af[0].duration = 8;
+	af[0].modifier = 1;
+      } else { /* Neutral */
+	af[0].location = APPLY_AC;
+	af[0].duration = 8;
+	af[0].modifier = -10;
+      }
+    } else if (LR_FAIL(ch, 60)) {
+      if (IS_GOOD(ch)) {
+	af[0].location = APPLY_HITROLL;
+	af[0].duration = 9;
+	af[0].modifier = 2;
+      } else if (IS_EVIL(ch)) {
+	af[0].location = APPLY_DAMROLL;
+	af[0].duration = 9;
+	af[0].modifier = 2;
+      } else { /* Neutral */
+	af[0].location = APPLY_AC;
+	af[0].duration = 9;
+	af[0].modifier = -15;
+      }
+    } else {
+      if (IS_GOOD(ch))
+      {
+	af[0].location = APPLY_HITROLL;
+	af[0].modifier = 3;
+	af[0].duration = 10;
+	af[0].bitvector = AFF_FLY;
+      } else if (IS_EVIL(ch)) {
+	af[0].location = APPLY_DAMROLL;
+	af[0].modifier = 3;
+	af[0].duration = 10;
+	af[0].bitvector = AFF_FLY;
+      } else { /* Neutral */
+	af[0].location = APPLY_AC;
+	af[0].modifier = -20;
+	af[0].duration = 10;
+	af[0].bitvector = AFF_FLY;
+      }
+    }
+    break; 
+  case SPELL_BLINDNESS: ////////////////////////////////// Blind
+    if (!IS_SET(zone_table[world[ch->in_room].zone].zflag , ZN_PK_ALLOWED) && !IS_NPC(victim))
+    {
+      send_to_char("You are not allowed to Blind other players in this Zone.", ch);
+      return;
+    }
+    if ((MOB_FLAGGED(victim, MOB_NOBLIND)) || 
+	mag_savingthrow(victim, savetype, 0))
+    { // Lets be cheeky :p~
+      act("$N looks at you, and smiles.", FALSE, ch, NULL, victim, TO_CHAR);
+      return;
+    }
+    if (affected_by_spell(victim, SPELL_BLINDNESS))
+      to_vict = "The world seems a little darker.";
+    else if (IS_AFFECTED(victim, AFF_BLIND))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+      to_room = "$n seems to be blinded!";
+      to_vict = "You have been blinded!";
+    }
+ 
+    af[0].location = APPLY_HITROLL;
+    af[0].modifier = -4;
+    af[0].duration = 2;
+    af[0].bitvector = AFF_BLIND;
+ 
+    af[1].location = APPLY_AC;
+    af[1].modifier = 40;
+    af[1].duration = 2;
+    af[1].bitvector = AFF_BLIND;
+
+    clan_rel_inc(ch, victim, -2);
+    break;
+
+    /************************ stock circle 30bpl19 blindness
+    if (MOB_FLAGGED(victim,MOB_NOBLIND) || mag_savingthrow(victim, savetype, 0)) {
+      send_to_char("You fail.\r\n", ch);
+      return;
+    }
+
+    af[0].location = APPLY_HITROLL;
+    af[0].modifier = -4;
+    af[0].duration = 2;
+    af[0].bitvector = AFF_BLIND;
+
+    af[1].location = APPLY_AC;
+    af[1].modifier = 40;
+    af[1].duration = 2;
+    af[1].bitvector = AFF_BLIND;
+
+    to_room = "$n seems to be blinded!";
+    to_vict = "You have been blinded!";
+    break;
+    ********************************************/
+
+  case SPELL_CURSE: ////////////////////////////////////// Curse
+    // DM
+    if (mag_savingthrow(victim, savetype, 0)) 
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    if (affected_by_spell(victim, SPELL_CURSE))
+      to_vict = "You feel a little more uncomfortable.";
+    else if (IS_AFFECTED(victim, AFF_CURSE))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+      to_room = "$n briefly glows &rred&n!";
+      to_vict = "You feel very uncomfortable.";
+    }
+
+    af[0].location = APPLY_HITROLL;
+    af[0].duration = 1 + (GET_LEVEL(ch) / 2);
+    af[0].modifier = -1;
+    af[0].bitvector = AFF_CURSE;
+
+    af[1].location = APPLY_DAMROLL;
+    af[1].duration = 1 + (GET_LEVEL(ch) / 2);
+    af[1].modifier = -1;
+    af[1].bitvector = AFF_CURSE;
+
+    clan_rel_inc(ch, victim, -1);
+    break;
+
+  case SPELL_DETECT_ALIGN: /////////////////////////////// Detect Alignment
+    if (affected_by_spell(victim, SPELL_DETECT_ALIGN))
+      to_vict = "You sense the difference between good and evil a little clearer.";
+    else if (IS_AFFECTED(victim, AFF_DETECT_ALIGN))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else
+      to_vict = "You become aware of the difference between good and evil.";
+    af[0].duration = 12 + level;
+    af[0].bitvector = AFF_DETECT_ALIGN;
+    accum_duration = FALSE;
+    break;
+  case SPELL_DETECT_INVIS: /////////////////////////////// Detect Invis.
+    if (affected_by_spell(victim, SPELL_DETECT_INVIS))
+      to_vict = "Your eyes tingle a little stronger.";
+    else if (IS_AFFECTED(victim, AFF_DETECT_INVIS))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else
+      to_vict = "Your eyes tingle.";
+    af[0].duration = 12 + level;
+    af[0].bitvector = AFF_DETECT_INVIS;
+    accum_duration = FALSE;
+    clan_rel_inc(ch, victim, 2);
+    break;
+  case SPELL_DETECT_MAGIC: /////////////////////////////// Detect Magic.
+    if (affected_by_spell(victim, SPELL_DETECT_MAGIC))
+      to_vict = "You feel your sensitivity to power strengthen.";
+    else if (IS_AFFECTED(victim, AFF_DETECT_MAGIC))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else
+      to_vict = "You feel sensitive to the presence of power.";
+    af[0].duration = 12 + level;
+    af[0].bitvector = AFF_DETECT_MAGIC;
+    accum_duration = FALSE;
+    break;
+  case SPELL_DETECT_POISON: ////////////////////////////// Detect Poison.
+    if (victim == ch)
+      if (IS_AFFECTED(victim, AFF_POISON))
+        send_to_char("You can sense poison in your blood.\r\n", ch);
+      else
+        send_to_char("You feel healthy.\r\n", ch);
+    else if (IS_AFFECTED(victim, AFF_POISON))
+      act("You sense that $E is poisoned.", FALSE, ch, 0, victim, TO_CHAR);
+    else
+      act("You sense that $E is healthy.", FALSE, ch, 0, victim, TO_CHAR);
+    return;
+  case SPELL_INFRAVISION: //////////////////////////////// Infravision
+    if (affected_by_spell(victim, SPELL_INFRAVISION))
+      to_vict = "Your night vision becomes a little clearer.";
+    else if (IS_AFFECTED(victim, AFF_INFRAVISION))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+      to_vict = "Your eyes glow red.";
+      to_room = "$n's eyes glow red.";
+    }
+    af[0].duration = 12 + level;
+    af[0].bitvector = AFF_INFRAVISION;
+    accum_duration = FALSE;
+    clan_rel_inc(ch, victim, 1);
+    break;
+  case SPELL_INVISIBLE: ////////////////////////////////// Invisibility
+    if (!victim)
+      victim = ch;
+    if (affected_by_spell(victim, SPELL_INVISIBLE))
+      to_vict = "You feel the spell of invisibility hug you a little tighter.";
+    else if (IS_AFFECTED(victim, AFF_INVISIBLE))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+      to_vict = "You vanish.";
+      to_room = "$n slowly fades out of existence.";
+    }
+    af[0].duration = 12 + (GET_LEVEL(ch) / 4);
+    af[0].modifier = -40;
+    af[0].location = APPLY_AC;
+    af[0].bitvector = AFF_INVISIBLE;
+    accum_duration = FALSE;
+    clan_rel_inc(ch, victim, 2);
+    break;
+  case SPELL_POISON: ///////////////////////////////////// Poison
+    if (mag_savingthrow(victim, savetype, 0)) 
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    if (affected_by_spell(victim, SPELL_POISON))
+      to_vict = "You feel even sicker.";
+    else if (IS_AFFECTED(victim, AFF_POISON))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+      to_vict = "You feel very sick.";
+      to_room = "$n gets violently ill!";
+    }
+    af[0].location = APPLY_STR;
+    af[0].duration = GET_LEVEL(ch);
+    af[0].modifier = -2;
+    af[0].bitvector = AFF_POISON;
+    break;
+  case SPELL_PROT_FROM_GOOD: ///////////////////////////// Protection from Good
+    if (IS_AFFECTED(victim, AFF_PROTECT_GOOD) && 
+	!(affected_by_spell(victim, SPELL_PROT_FROM_GOOD)))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    af[0].duration = 24;
+    af[0].bitvector = AFF_PROTECT_GOOD;
+    accum_duration = FALSE;
+    to_vict = "You feel invulnerable!";
+    break;
+
+  case SPELL_PROT_FROM_EVIL: ///////////////////////////// Protection from Evil
+    if (IS_AFFECTED(victim, AFF_PROTECT_EVIL) && 
+	!(affected_by_spell(victim, SPELL_PROT_FROM_EVIL)))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    af[0].duration = 24;
+    af[0].bitvector = AFF_PROTECT_EVIL;
+    accum_duration = FALSE;
+    to_vict = "You feel invulnerable!";
+    break;
+  case SPELL_SANCTUARY: ////////////////////////////////// Sanctuary
+    if (affected_by_spell(victim, SPELL_SANCTUARY))
+      to_vict = "The white aura around you glows more vibrantly.";
+    else if (IS_AFFECTED(victim, AFF_SANCTUARY))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+      to_vict = "A white aura momentarily surrounds you.";
+      to_room = "$n is surrounded by a white aura.";
+    }
+    af[0].duration = 4 + (int)(GET_LEVEL(ch) / 10);
+    af[0].bitvector = AFF_SANCTUARY;
+    //if (IS_AFFECTED(victim, AFF_SANCTUARY))
+    //  af[0].duration = 1;
+    accum_duration = FALSE;
+    clan_rel_inc(ch, victim, 3);
+    break;
+  case SPELL_SLEEP: ////////////////////////////////////// Sleep
+    if (!IS_SET(zone_table[world[ch->in_room].zone].zflag, ZN_PK_ALLOWED)
+	&& !IS_NPC(victim))
+      return;
+    if (MOB_FLAGGED(victim, MOB_NOSLEEP | MOB_NOKILL))
+    {
+      switch(number(0, 2))
+      { // Artus> I think this is better.
+	case 0 : act("$N resists.\r\n",   FALSE,ch,NULL,victim,TO_CHAR); break;
+	case 1 : act("$N yawns.\r\n",     FALSE,ch,NULL,victim,TO_CHAR); break;
+	default: act("$N stretches.\r\n", FALSE,ch,NULL,victim,TO_CHAR); break;
+      }
+      return;
+    }
+
+    if (mag_savingthrow(victim, savetype, 0))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    af[0].duration = 4 + (GET_LEVEL(ch) / 4);
+    af[0].bitvector = AFF_SLEEP;
+    if (GET_POS(victim) > POS_SLEEPING)
+    {
+      send_to_char("You feel very sleepy...zzzzzz\r\n", victim);
+      act("$n goes to sleep.", TRUE, victim, 0, 0, TO_ROOM);
+      GET_POS(victim) = POS_SLEEPING;
+    }
+    clan_rel_inc(ch, victim, -1);
+    break;
+
+  case SPELL_STRENGTH: /////////////////////////////////// Strength
+    if (GET_ADD(victim) == 100)
+      return;
+    af[0].location = APPLY_STR;
+    af[0].duration = (GET_LEVEL(ch) / 2) + 4;
+    af[0].modifier = 1 + (level > 18);
+    accum_duration = TRUE;
+    accum_affect = TRUE;
+    to_vict = "You feel stronger!";
+    clan_rel_inc(ch, victim, 1);
+    break;
+  case SPELL_SENSE_LIFE: ///////////////////////////////// Sense Life
+    if (!victim)
+      victim = ch;
+    if (IS_AFFECTED(victim, AFF_SENSE_WOUNDS) && 
+	!(affected_by_spell(victim, SPELL_SENSE_LIFE)))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    }
+    af[0].duration = GET_LEVEL(ch)/2;
+    af[0].bitvector = AFF_SENSE_LIFE;
+    to_vict = "You feel your awareness improve.";
+    to_room = "$n's awareness improves."; 
+    accum_duration = FALSE;
+    clan_rel_inc(ch, victim, 2);
+    break;
+  case SPELL_SENSE_WOUNDS: /////////////////////////////// Sense Wounds
+    if (!victim)
+      victim = ch;
+    if (affected_by_spell(victim, SPELL_SENSE_WOUNDS))
+      to_vict = "You feel more aware to the pain of people around you.";
+    else if (IS_AFFECTED(victim, AFF_SENSE_WOUNDS))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+      to_vict = "You feel aware to the pain of people around you.";
+      to_room = "$n shudders momentarily.";
+    }
+    af[0].duration = (int)(GET_LEVEL(ch)/4);
+    af[0].bitvector = AFF_SENSE_WOUNDS;
+    accum_duration = FALSE;
+    break;
+  case SPELL_WATERWALK: ////////////////////////////////// WaterWalk
+    if (affected_by_spell(victim, SPELL_WATERWALK))
+      to_vict = "The webbing between your toes feels a little stronger.";
+    else if (IS_AFFECTED(victim, AFF_WATERWALK))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else
+      to_vict = "You feel webbing between your toes.";
+    af[0].duration = 24;
+    af[0].bitvector = AFF_WATERWALK;
+    accum_duration = FALSE;
+    break;
+  case SPELL_SERPENT_SKIN: /////////////////////////////// SerpentSkin
+    if(affected_by_spell(ch, SPELL_SERPENT_SKIN))
+      to_vict = "Your skin begins to sparkle a little brighter!";
+    else if (IS_AFFECTED(victim, AFF_REFLECT))
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else  {
+      to_vict = "Your skin begins to sparkle!";
+      to_room = "Shiny scales appear on $n's skin!";
+    }
+    if(mag_materials(ch,8400,0,0,1,1)) 
+    {
+      af[0].duration = 3;
+      af[0].bitvector = AFF_REFLECT;
+    } else {
+      send_to_char("You seem to missing a major ingredient...\r\n", ch);
+      return;
+    }
+    break;
+  case SPELL_NOHASSLE: /////////////////////////////////// NoHassle
+    af[0].duration = 10;
+    af[0].bitvector = AFF_NOHASSLE;
+    SET_BIT(PRF_FLAGS(ch),PRF_NOHASSLE);
+    if (affected_by_spell(ch, SPELL_NOHASSLE))
+      to_vict = "Your untouchability has been refreshed.";
+    else if (IS_AFFECTED(victim, AFF_NOHASSLE)) 
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+      to_vict = "You start to feel untouchable.";
+      to_room = "$n starts to look untouchable.";
+    }
+    break;
+  case SPELL_FLY: //////////////////////////////////////// Fly
+    af[0].duration = 8;
+    af[0].bitvector = AFF_FLY;
+    
+    if (IS_AFFECTED(victim, AFF_FLY))
+      to_vict = "Your ability to fly is refreshed.";
+    else {
+      to_vict = "You begin to float off the ground.";
+      to_room = "$n begins to float off the ground.";
+    }
+    break;
+  case SPELL_PARALYZE: /////////////////////////////////// Paralyse
+    if (!IS_SET(zone_table[world[ch->in_room].zone].zflag , ZN_PK_ALLOWED) && !IS_NPC(victim))
+      return;
+/* Artus> Below
+    if (IS_AFFECTED(victim, AFF_PARALYZED))
+    {
+      send_to_char("They are already paralysed!.\r\n", ch);
+      return;
+    }
+*/
+    clan_rel_inc(ch, victim, -1);
+    if (mag_savingthrow(victim, savetype, 0)) 
+    {
+      af[0].duration = 5;
+      af[0].bitvector = AFF_PARALYZED;
+      to_vict = "You feel your muscles tense up and lock.  You are paralyzed!!";
+      to_room = "$n's legs completely freeze up.  $n looks pretty paralyzed!";
+    } else
+      return;
+
+    break;
+
+  case SPELL_WATERBREATHE: /////////////////////////////// WaterBreath
+    if (IS_AFFECTED(victim,AFF_WATERBREATHE))
+      to_vict = "Your ability to breathe underwater strengthens.";
+    else 
+    {
+      to_vict = "A pair of magical gills appear on your neck.";
+      to_room = "A pair of magical gills appear on $n's neck.";
+    }
+
+    af[0].duration = GET_LEVEL(ch)/2;
+    af[0].bitvector = AFF_WATERBREATHE;
+    break; 
+  }
+
+  /*
+   * If this is a mob that has this affect set in its mob file, do not
+   * perform the affect.  This prevents people from un-sancting mobs
+   * by sancting them and waiting for it to fade, for example.
+   */
+  if (IS_NPC(victim) && !affected_by_spell(victim, spellnum))
+    for (i = 0; i < MAX_SPELL_AFFECTS; i++)
+      if (AFF_FLAGGED(victim, af[i].bitvector)) 
+      {
+	send_to_char(NOEFFECT, ch);
+	return;
+      }
+
+  /*
+   * If the victim is already affected by this spell, and the spell does
+   * not have an accumulative effect, then fail the spell.
+   */
+  /* Artus> Going to redo this.
+  if (affected_by_spell(victim,spellnum) && !(accum_duration||accum_affect))
+  {
+    send_to_char(NOEFFECT, ch);
+    return;
+  } */
+  if (affected_by_spell(victim,spellnum) && !(accum_duration||accum_affect))
+    affect_from_char(victim, spellnum);
+
+
+  for (i = 0; i < MAX_SPELL_AFFECTS; i++)
+    if (af[i].bitvector || (af[i].location != APPLY_NONE)) {
+      // modified for some classes to have extended duration
+      if( (GET_CLASS(ch) == CLASS_DRUID && SECT(ch->in_room) == SECT_FOREST)
+        || (GET_CLASS(ch) == CLASS_MASTER) ) {
+           af[i].duration += (int)(af[i].duration * 0.10);
+           af[i].modifier += (int)(af[i].modifier * 0.10);
+      }
+      affect_join(victim, af+i, accum_duration, FALSE, accum_affect, FALSE);
+    } 
+
+  if (to_vict != NULL)
+    act(to_vict, FALSE, victim, 0, ch, TO_CHAR);
+  if (to_room != NULL)
+    act(to_room, TRUE, victim, 0, ch, TO_ROOM);
+}
+
+
+/*
+ * This function is used to provide services to mag_groups.  This function
+ * is the one you should change to add new group spells.
+ */
+
+void perform_mag_groups(int level, struct char_data * ch,
+			struct char_data * tch, int spellnum, int savetype)
+{
+  switch (spellnum) {
+    case SPELL_GROUP_HEAL:
+    mag_points(level, ch, tch, SPELL_HEAL, savetype);
+    break;
+  case SPELL_GROUP_ARMOR:
+    mag_affects(level, ch, tch, SPELL_ARMOR, savetype);
+    break;
+  case SPELL_GROUP_RECALL:
+    spell_recall(level, ch, tch, NULL);
+    break;
+  case SPELL_GROUP_SANCTUARY:
+    mag_affects(level, ch, tch, SPELL_SANCTUARY, savetype);
+    break; 
+  }
+}
+
+
+/*
+ * Every spell that affects the group should run through here
+ * perform_mag_groups contains the switch statement to send us to the right
+ * magic.
+ *
+ * group spells affect everyone grouped with the caster who is in the room,
+ * caster last.
+ *
+ * To add new group spells, you shouldn't have to change anything in
+ * mag_groups -- just add a new case to perform_mag_groups.
+ */
+
+void mag_groups(int level, struct char_data * ch, int spellnum, int savetype)
+{
+  struct char_data *tch, *k;
+  struct follow_type *f, *f_next;
+
+  if (ch == NULL)
+    return;
+
+  if (!AFF_FLAGGED(ch, AFF_GROUP))
+    return;
+  if (ch->master != NULL)
+    k = ch->master;
+  else
+    k = ch;
+  for (f = k->followers; f; f = f_next) {
+    f_next = f->next;
+    tch = f->follower;
+    if (tch->in_room != ch->in_room)
+      continue;
+    if (!AFF_FLAGGED(tch, AFF_GROUP))
+      continue;
+    if (ch == tch)
+      continue;
+    perform_mag_groups(level, ch, tch, spellnum, savetype);
+  }
+
+  if ((k != ch) && AFF_FLAGGED(k, AFF_GROUP))
+    perform_mag_groups(level, ch, k, spellnum, savetype);
+  perform_mag_groups(level, ch, ch, spellnum, savetype);
+}
+
+
+/*
+ * mass spells affect every creature in the room except the caster.
+ *
+ * No spells of this class currently implemented as of Circle 3.0.
+ */
+
+void mag_masses(int level, struct char_data * ch, int spellnum, int savetype)
+{
+  struct char_data *tch, *tch_next;
+
+  for (tch = world[ch->in_room].people; tch; tch = tch_next) {
+    tch_next = tch->next_in_room;
+    if (tch == ch)
+      continue;
+
+    switch (spellnum) {
+    }
+  }
+}
+
+
+/*
+ * Every spell that affects an area (room) runs through here.  These are
+ * generally offensive spells.  This calls mag_damage to do the actual
+ * damage -- all spells listed here must also have a case in mag_damage()
+ * in order for them to work.
+ *
+ *  area spells have limited targets within the room.
+*/
+
+void mag_areas(int level, struct char_data * ch, int spellnum, int savetype)
+{
+  struct char_data *tch, *next_tch;
+  const char *to_char = NULL, *to_room = NULL;
+
+  if (ch == NULL)
+    return;
+
+  /*
+   * to add spells to this fn, just add the message here plus an entry
+   * in mag_damage for the damaging part of the spell.
+   */
+  switch (spellnum) {
+  case SPELL_EARTHQUAKE:
+    to_char = "You gesture and the earth begins to shake all around you!";
+    to_room ="$n gracefully gestures and the earth begins to shake violently!";
+    break;
+  }
+
+  if (to_char != NULL)
+    act(to_char, FALSE, ch, 0, 0, TO_CHAR);
+  if (to_room != NULL)
+    act(to_room, FALSE, ch, 0, 0, TO_ROOM);
+  
+
+  for (tch = world[ch->in_room].people; tch; tch = next_tch)
+  {
+    next_tch = tch->next_in_room;
+    /*
+     * The skips: 1: the caster
+     *            2: immortals
+     *            3: if no pk on this mud, skips over all players
+     *            4: pets (charmed NPCs)
+     */
+    if (!IS_NPC(tch))
+    {
+      // No Hit Players
+      if (!pk_allowed && !IS_NPC(ch))
+	continue;
+      // No Hit Imms -- Redundant
+      // if (!LR_FAIL(tch, LVL_IMMORT))
+      //   continue;
+    } else {
+      // No Hit Charmed Mobs.
+      if (AFF_FLAGGED(tch, AFF_CHARM))
+	continue;
+    }
+    if (tch == ch)
+      continue;
+
+    /* Doesn't matter if they die here so we don't check. -gg 6/24/98 */
+    mag_damage(level, ch, tch, spellnum, 1);
+  }
+}
+
+
+/*
+ *  Every spell which summons/gates/conjours a mob comes through here.
+ *
+ *  None of these spells are currently implemented in Circle 3.0; these
+ *  were taken as examples from the JediMUD code.  Summons can be used
+ *  for spells like clone, ariel servant, etc.
+ *
+ * 10/15/97 (gg) - Implemented Animate Dead and Clone.
+ */
+
+/*
+ * These use act(), don't put the \r\n.
+ */
+const char *mag_summon_msgs[] = {
+  "\r\n",
+  "$n makes a strange magical gesture; you feel a strong breeze!",
+  "$n animates a corpse!",
+  "$N appears from a cloud of thick blue smoke!",
+  "$N appears from a cloud of thick green smoke!",
+  "$N appears from a cloud of thick red smoke!",
+  "$N disappears in a thick black cloud!"
+  "As $n makes a strange magical gesture, you feel a strong breeze.",
+  "As $n makes a strange magical gesture, you feel a searing heat.",
+  "As $n makes a strange magical gesture, you feel a sudden chill.",
+  "As $n makes a strange magical gesture, you feel the dust swirl.",
+  "$n magically divides!",
+  "$n animates a corpse!"
+};
+
+/*
+ * Keep the \r\n because these use send_to_char.
+ */
+const char *mag_summon_fail_msgs[] = {
+  "\r\n",
+  "There are no such creatures.\r\n",
+  "Uh oh...\r\n",
+  "Oh dear.\r\n",
+  "Oh shit!\r\n",
+  "The elements resist!\r\n",
+  "You failed.\r\n",
+  "There is no corpse!\r\n"
+};
+
+/* These mobiles do not exist. */
+#define MOB_MONSUM_I		130
+#define MOB_MONSUM_II		140
+#define MOB_MONSUM_III		150
+#define MOB_GATE_I		160
+#define MOB_GATE_II		170
+#define MOB_GATE_III		180
+
+/* Defined mobiles. - Where the fuck did u pull these numbers from Tali?? */
+// #define MOB_ELEMENTAL_BASE	20	/* Only one for now. */
+// #define MOB_CLONE		10
+// #define MOB_ZOMBIE		11
+// #define MOB_AERIALSERVANT	19
+#define MOB_ELEMENTAL_BASE      110
+#define MOB_AERIALSERVANT       10
+
+void mag_summons(int level, struct char_data * ch, struct obj_data * obj,
+		      int spellnum, int savetype)
+{
+  struct char_data *mob = NULL;
+  struct obj_data *tobj, *next_obj;
+  int pfail = 0, msg = 0, fmsg = 0, handle_corpse = FALSE, counter = 0;
+  mob_vnum mob_num;
+  struct follow_type *fol; 
+
+  if (ch == NULL)
+    return;
+
+  switch (spellnum)
+  {
+    case SPELL_CLONE:
+      msg = 10;
+      fmsg = number(2, 6);	// Random fail message.
+      mob_num = MOB_CLONE;
+      pfail = 8;
+      // DM - Check follower list for number of clones - they always fol master
+      for (fol = ch->followers; fol; fol = fol->next)
+	if (IS_CLONE(fol->follower) && fol->follower->master == ch)
+	  counter++;
+      if (counter >= 2)
+      {
+	send_to_char("You dont wanna risk fiddling with your DNA any further...\r\n",                ch);
+	return;
+      }
+      break;
+    case SPELL_ANIMATE_DEAD:
+      if ((obj == NULL) || (GET_OBJ_TYPE(obj) != ITEM_CONTAINER) ||
+          (!GET_OBJ_VAL(obj, 3)) || (GET_OBJ_VNUM(obj) == 22300))
+      {
+	act(mag_summon_fail_msgs[7], FALSE, ch, 0, 0, TO_CHAR);
+	return;
+      }
+      handle_corpse = TRUE;
+      msg = 11;
+      mob_num = MOB_ZOMBIE;
+      break;
+/******** stock 30bpl17 Animate Dead
+    if (obj == NULL || !IS_CORPSE(obj)) {
+      act(mag_summon_fail_msgs[7], FALSE, ch, 0, 0, TO_CHAR);
+      return;
+    }
+    handle_corpse = TRUE;
+    msg = 11;
+    fmsg = number(2, 6);	// Random fail message. 
+    mob_num = MOB_ZOMBIE;
+    pfail = 10;	// 10% failure, should vary in the future. 
+****************************************/
+
+    default:
+      return;
+  }
+  if (AFF_FLAGGED(ch, AFF_CHARM))
+  {
+    send_to_char("You are too giddy to have any followers!\r\n", ch);
+    return;
+  }
+  if (number(0, 101) < pfail)
+  {
+    send_to_char(mag_summon_fail_msgs[fmsg], ch);
+    return;
+  }
+  // for (i = 0; i < num; i++) {
+  if (!(mob = read_mobile(mob_num, VIRTUAL)))
+  {
+    send_to_char("You don't quite remember how to make that creature.\r\n",
+                 ch);
+    return;
+  }
+  switch (spellnum)
+  {
+    case SPELL_ANIMATE_DEAD:
+      sprintf(buf,"The zombie of %s is standing here, looking undead.\r\n",
+              &obj->short_description[14]); 
+      mob->player.long_descr = str_dup(buf);
+      GET_LEVEL(mob) = MIN(LVL_CHAMP, GET_OBJ_COST(obj));
+      GET_MAX_HIT(mob) = dice(10, GET_LEVEL(mob)) + GET_LEVEL(mob);
+      GET_HIT(mob) = GET_MAX_HIT(mob);
+      mob->char_specials.timer = number(1,5);
+      break;
+    case SPELL_CLONE:
+      sprintf(buf,"%s %s &yis standing here.\r\n",
+                      GET_NAME(ch),ch->player.title);
+      mob->player.long_descr = str_dup(buf);
+      mob->player.short_descr = str_dup(GET_NAME(ch));
+      sprintf(buf,"If you didn't know any better you'd think this was the "
+                  "real %s...\r\n",GET_NAME(ch));
+      mob->player.description = str_dup(buf);
+      GET_SEX(mob) = GET_SEX(ch);
+      GET_LEVEL(mob) = MIN(LVL_CHAMP, GET_LEVEL(ch));
+      if (AFF_FLAGGED(ch, AFF_INFRAVISION))
+	SET_BIT(AFF_FLAGS(mob), AFF_INFRAVISION);
+      if (AFF_FLAGGED(ch, AFF_SENSE_LIFE))
+	SET_BIT(AFF_FLAGS(mob), AFF_SENSE_LIFE);
+      if (AFF_FLAGGED(ch, AFF_DETECT_INVIS))
+	SET_BIT(AFF_FLAGS(mob), AFF_DETECT_INVIS);
+      GET_REAL_INT(mob) = GET_REAL_INT(ch);
+      GET_REAL_WIS(mob) = GET_REAL_WIS(ch);
+      GET_REAL_STR(mob) = GET_REAL_STR(ch);
+      GET_REAL_DEX(mob) = GET_REAL_DEX(ch);
+      GET_REAL_CON(mob) = GET_REAL_CON(ch);
+      GET_REAL_CHA(mob) = GET_REAL_CHA(ch);
+      GET_MAX_HIT(mob) = GET_MAX_HIT(ch);
+      GET_MAX_MANA(mob) = GET_MAX_MANA(ch);
+      GET_MAX_MOVE(mob) = GET_MAX_MOVE(ch);
+      GET_HIT(mob) = GET_HIT(ch);
+      GET_MANA(mob) = GET_MANA(ch);
+      GET_MOVE(mob) = GET_MOVE(ch);
+      GET_AFF_STR(mob) = GET_AFF_STR(ch);
+      GET_AFF_DEX(mob) = GET_AFF_DEX(ch);
+      GET_AFF_INT(mob) = GET_AFF_INT(ch);
+      GET_AFF_WIS(mob) = GET_AFF_WIS(ch);
+      GET_AFF_CON(mob) = GET_AFF_CON(ch);
+      GET_AFF_CHA(mob) = GET_AFF_CHA(ch);
+      // DM: Look - possibly lower these stats?
+      GET_HITROLL(mob) = GET_HITROLL(ch);
+      GET_DAMROLL(mob) = GET_DAMROLL(ch);
+      GET_AC(mob) = GET_AC(ch);
+      SET_BIT(MOB_FLAGS(ch), MOB_NOCHARM);
+      break;
+    default:
+      return;
+  }
+  char_to_room(mob, ch->in_room);
+  IS_CARRYING_W(mob) = 0;
+  IS_CARRYING_N(mob) = 0;
+  SET_BIT(AFF_FLAGS(mob), AFF_CHARM);
+  if (spellnum == SPELL_CLONE)
+  {   /* Don't mess up the proto with strcpy. */
+    sprintf(buf, "clone c%s", GET_NAME(ch));
+    mob->player.name = str_dup(buf);
+    mob->player.short_descr = str_dup(GET_NAME(ch));
+  }
+  act(mag_summon_msgs[msg], FALSE, ch, 0, mob, TO_ROOM);
+  load_mtrigger(mob);
+  add_follower(mob, ch);
+//  }
+  if (handle_corpse)
+  {
+    for (tobj = obj->contains; tobj; tobj = next_obj)
+    {
+      next_obj = tobj->next_content;
+      obj_from_obj(tobj);
+      obj_to_char(tobj, mob, __FILE__, __LINE__);
+    }
+    extract_obj(obj);
+  }
+}
+
+
+void mag_points(int level, struct char_data * ch, struct char_data * victim,
+		     int spellnum, int savetype)
+{
+  int hit = 0, move = 0, mana = 0, healingSkill = 0;
+  double healingEffect = 1;
+
+  if (!IS_NPC(ch) && GET_SKILL(ch, SKILL_HEALING_EFFICIENCY))
+  {
+	healingSkill = GET_SKILL(ch, SKILL_HEALING_EFFICIENCY);
+  	healingEffect = 1.1;
+  }
+  if (!IS_NPC(ch) && GET_SKILL(ch, SKILL_HEALING_MASTERY))
+  {
+	healingSkill = GET_SKILL(ch, SKILL_HEALING_MASTERY);
+	healingEffect = 1.3;
+  }
+
+  if (victim == NULL)
+    return;
+
+  switch (spellnum)
+  {
+    case SPELL_CURE_LIGHT:
+      hit = dice(1, 8) + 1 + (int)(level/4);
+      if (GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER ||
+          GET_CLASS(ch) == CLASS_PALADIN)
+        hit += (int)(hit * 0.10);
+      if (healingSkill && (number(0, 101) < healingSkill))
+	hit = (int)(hit *healingEffect);
+      send_to_char("You feel better.\r\n", victim);
+      clan_rel_inc(ch, victim, 1);
+      break;
+    case SPELL_CURE_CRITIC:
+      hit = dice(3, 8) + 3 + (int)(level/4);
+      if (GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER ||
+	  GET_CLASS(ch) == CLASS_PALADIN)
+        hit += (int)(hit * 0.10);
+      if (healingSkill && (number(0, 101) < healingSkill))
+	hit = (int)(hit *healingEffect);
+      send_to_char("You feel a lot better!\r\n", victim);
+      clan_rel_inc(ch, victim, 2);
+      break;
+    case SPELL_HEAL:
+      hit = 100 + dice(3, 8);
+      if (GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER ||
+          GET_CLASS(ch) == CLASS_PALADIN)
+        hit += (int)(hit * 0.10);
+      if (healingSkill && (number(0, 101) < healingSkill))
+	hit = (int)(hit *healingEffect);
+      send_to_char("A warm feeling floods your body.\r\n", victim);
+      clan_rel_inc(ch, victim, 5);
+      break;
+    case SPELL_ADV_HEAL:
+      hit = 200 + level;
+      if (GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER ||
+          GET_CLASS(ch) == CLASS_PALADIN)
+        hit += (int)(hit * 0.10);
+      if (healingSkill && (number(0, 101) < healingSkill))
+	hit = (int)(hit *healingEffect);
+      send_to_char("You feel your wounds heal!\r\n", victim);
+      clan_rel_inc(ch, victim, 10);
+      break;
+    case SPELL_DIVINE_HEAL:
+      hit = 300 + level;
+      if (GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER ||
+          GET_CLASS(ch) == CLASS_PALADIN )
+        hit += (int)(hit * 0.10);
+      if (healingSkill && (number(0, 101) < healingSkill))
+	hit = (int)(hit *healingEffect);
+      send_to_char("A divine feeling floods your body!\r\n",victim);
+      clan_rel_inc(ch, victim, 20);
+      break;
+    case SPELL_REFRESH:
+      move = 50 + dice(3, 8);
+      if (GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER ||
+          GET_CLASS(ch) == CLASS_PALADIN)
+        move += (int)(move * 0.10);
+      send_to_char("You feel refreshed.\r\n", victim);
+      clan_rel_inc(ch, victim, 10);
+      break;
+    case SPELL_MANA:
+      mana = 100 + dice(3, 8);
+      if (GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER ||
+	  GET_CLASS(ch) == CLASS_PALADIN)
+        mana += (int)(mana * 0.10);
+      send_to_char("Your skin tingles as magical energy surges through your body.\r\n", victim);
+      break;
+  }
+  if (GET_HIT(victim) < GET_MAX_HIT(victim))
+    GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + hit);
+  if (GET_MOVE(victim) < GET_MAX_MOVE(victim))
+    GET_MOVE(victim) = MIN(GET_MAX_MOVE(victim), GET_MOVE(victim) + move);
+  if (GET_MANA(victim) < GET_MAX_MANA(victim))
+    GET_MANA(victim) = MIN(GET_MAX_MANA(victim), GET_MANA(victim) + mana);
+  update_pos(victim);
+}
+
+
+void mag_unaffects(int level, struct char_data * ch, struct char_data * victim,
+		        int spellnum, int type)
+{
+  int spell = 0;
+  const char *to_vict = NULL, *to_room = NULL;
+
+  if (victim == NULL)
+    return;
+
+  switch (spellnum)
+  {
+    case SPELL_ADV_HEAL:
+    case SPELL_DIVINE_HEAL:
+    case SPELL_CURE_BLIND:
+    case SPELL_HEAL:
+      spell = SPELL_BLINDNESS;
+      to_vict = "Your vision returns!";
+      to_room = "There's a momentary gleam in $n's eyes.";
+      if (!affected_by_spell(ch, spell))
+	return;
+      clan_rel_inc(ch, victim, 4);
+      break;
+    case SPELL_REMOVE_POISON:
+      spell = SPELL_POISON;
+      to_vict = "A warm feeling runs through your body!";
+      to_room = "$n looks better.";
+      clan_rel_inc(ch, victim, 2);
+      break;
+    case SPELL_REMOVE_CURSE:
+      spell = SPELL_CURSE;
+      to_vict = "You don't feel so unlucky.";
+      clan_rel_inc(ch, victim, 3);
+      break;
+    case SPELL_GREATER_REMOVE_CURSE:
+      spell = SPELL_CURSE;
+      to_vict = "You feel cleansed of all curses.";
+      clan_rel_inc(ch, victim, 6);
+      break;
+    case SPELL_REMOVE_PARA:
+      spell = SPELL_PARALYZE;
+      to_vict = "Your muscles suddenly relax you feel like u can move again!";
+      to_room = "$n stumbles slightly as $s legs start working again.";
+      clan_rel_inc(ch, victim, 4);
+      break;
+    default:
+      basic_mud_log("SYSERR: unknown spellnum %d passed to mag_unaffects.",
+	            spellnum);
+      return;
+  }
+
+  // Remove curse from char and items char is wearing
+  // TODO: verify if any checks are needed for special items ...
+  if (spellnum == SPELL_GREATER_REMOVE_CURSE)
+  {
+    // remove from vict
+    if (affected_by_spell(victim, spell))
+      affect_from_char(victim, spell);
+    // remove from victims equip list
+    for (int i = 0; i < NUM_WEARS; i++)
+      if (GET_EQ(victim, i) && IS_OBJ_STAT(GET_EQ(victim, i), ITEM_NODROP))
+        mag_alter_objs(0, ch, GET_EQ(victim, i), SPELL_REMOVE_CURSE, 0); 
+    // remove for items in inventory
+    for (struct obj_data *tobj=victim->carrying; tobj; tobj=tobj->next_content)
+      if (IS_OBJ_STAT(tobj, ITEM_NODROP))
+        mag_alter_objs(0, ch, tobj, SPELL_REMOVE_CURSE, 0); 
+  } else {
+    if (affected_by_spell(victim, spell))
+      affect_from_char(victim, spell);
+  }
+  if (to_vict != NULL)
+    act(to_vict, FALSE, victim, 0, ch, TO_CHAR);
+  if (to_room != NULL)
+    act(to_room, TRUE, victim, 0, ch, TO_ROOM);
+
+}
+
+
+void mag_alter_objs(int level, struct char_data * ch, struct obj_data * obj,
+		         int spellnum, int savetype)
+{
+  const char *to_char = NULL, *to_room = NULL;
+
+  if (obj == NULL)
+    return;
+
+  switch (spellnum)
+  {
+    case SPELL_BLESS:
+      if (!IS_OBJ_STAT(obj, ITEM_BLESS) &&
+	  (GET_OBJ_WEIGHT(obj) <= 5 * GET_LEVEL(ch)))
+      {
+	SET_BIT(GET_OBJ_EXTRA(obj), ITEM_BLESS);
+	to_char = "$p glows briefly.";
+      }
+      break;
+    case SPELL_CURSE:
+      if (!IS_OBJ_STAT(obj, ITEM_NODROP))
+      {
+	SET_BIT(GET_OBJ_EXTRA(obj), ITEM_NODROP);
+	if (!IS_OBJ_STAT(obj, ITEM_MAGIC) && GET_OBJ_TYPE(obj) == ITEM_WEAPON)
+	  GET_OBJ_VAL(obj, 2)--;
+	to_char = "$p briefly glows &rred&n.";
+      }
+      break;
+    case SPELL_INVISIBLE:
+      if (!IS_OBJ_STAT(obj, ITEM_NOINVIS | ITEM_INVISIBLE))
+      {
+        SET_BIT(obj->obj_flags.extra_flags, ITEM_INVISIBLE);
+        to_char = "$p vanishes.";
+      }
+      break;
+    case SPELL_POISON:
+      if (((GET_OBJ_TYPE(obj) == ITEM_DRINKCON) ||
+         (GET_OBJ_TYPE(obj) == ITEM_FOUNTAIN) ||
+         (GET_OBJ_TYPE(obj) == ITEM_FOOD)) && !GET_OBJ_VAL(obj, 3))
+      {
+	GET_OBJ_VAL(obj, 3) = 1;
+	to_char = "$p steams briefly.";
+      }
+      break;
+    case SPELL_REMOVE_CURSE:
+      if (IS_OBJ_STAT(obj, ITEM_NODROP))
+      {
+        REMOVE_BIT(obj->obj_flags.extra_flags, ITEM_NODROP);
+        if (GET_OBJ_TYPE(obj) == ITEM_WEAPON)
+          GET_OBJ_VAL(obj, 2)++;
+        to_char = "$p briefly glows blue.";
+      }
+      break;
+    case SPELL_REMOVE_POISON:
+      if (((GET_OBJ_TYPE(obj) == ITEM_DRINKCON) ||
+         (GET_OBJ_TYPE(obj) == ITEM_FOUNTAIN) ||
+         (GET_OBJ_TYPE(obj) == ITEM_FOOD)) && GET_OBJ_VAL(obj, 3))
+      {
+        GET_OBJ_VAL(obj, 3) = 0;
+        to_char = "$p steams briefly.";
+      }
+      break;
+  }
+
+  if (to_char == NULL)
+    send_to_char(NOEFFECT, ch);
+  else
+    act(to_char, TRUE, ch, obj, 0, TO_CHAR);
+  if (to_room != NULL)
+    act(to_room, TRUE, ch, obj, 0, TO_ROOM);
+  else if (to_char != NULL)
+    act(to_char, TRUE, ch, obj, 0, TO_ROOM);
+
+}
+
+
+
+void mag_creations(int level, struct char_data * ch, int spellnum)
+{
+  struct obj_data *tobj;
+  obj_vnum z;
+
+  if (ch == NULL)
+    return;
+  /* level = MAX(MIN(level, LVL_IMPL), 1); - Hm, not used. */
+
+  switch (spellnum)
+  {
+    case SPELL_CREATE_FOOD:
+      z = 10016;
+      break;
+    default:
+      send_to_char("Spell unimplemented, it would seem.\r\n", ch);
+      return;
+  }
+
+  if (!(tobj = read_object(z, VIRTUAL)))
+  {
+    send_to_char("I seem to have goofed.\r\n", ch);
+    basic_mud_log("SYSERR: spell_creations, spell %d, obj %d: obj not found",
+	    spellnum, z);
+    return;
+  }
+  obj_to_char(tobj, ch, __FILE__, __LINE__);
+  act("$n creates $p.", FALSE, ch, tobj, 0, TO_ROOM);
+  act("You create $p.", FALSE, ch, tobj, 0, TO_CHAR);
+  load_otrigger(tobj);
+}
+
+@
+
+
+1.50
+log
+@Artus> Formatting changes only.
+@
+text
+@d1773 2
+@
+
+
+1.49
+log
+@Artus> Cleaned up.
+@
+text
+@d1414 2
+a1415 1
+  for (tch = world[ch->in_room].people; tch; tch = next_tch) {
+a1416 1
+
+d1423 13
+a1435 1
+
+a1437 6
+    if (!IS_NPC(tch) && !LR_FAIL(ch, LVL_IMMORT))
+      continue;
+    if (!pk_allowed && !IS_NPC(ch) && !IS_NPC(tch))
+      continue;
+    if (!IS_NPC(ch) && IS_NPC(tch) && AFF_FLAGGED(tch, AFF_CHARM))
+      continue;
+d1516 28
+a1543 31
+  switch (spellnum) {
+  case SPELL_CLONE:
+    msg = 10;
+    fmsg = number(2, 6);	// Random fail message.
+    mob_num = MOB_CLONE;
+    pfail = 8;
+ 
+    /* DM - Check follower list for number of clones - they always fol master */
+    for (fol = ch->followers; fol; fol = fol->next) {
+      if (IS_CLONE(fol->follower) && fol->follower->master == ch)
+        counter++;
+    }
+
+    if (counter >= 2) {
+      send_to_char("You dont wanna risk fiddling with your DNA any further...\r\n",ch);
+      return;
+    }
+
+    break;
+
+  case SPELL_ANIMATE_DEAD:
+    if ((obj == NULL) || (GET_OBJ_TYPE(obj) != ITEM_CONTAINER) ||
+        (!GET_OBJ_VAL(obj, 3)) || (GET_OBJ_VNUM(obj) == 22300)) {
+      act(mag_summon_fail_msgs[7], FALSE, ch, 0, 0, TO_CHAR);
+      return;
+    }
+    handle_corpse = TRUE;
+    msg = 11;
+    mob_num = MOB_ZOMBIE;
+    break;
+
+d1556 2
+a1557 2
+  default:
+    return;
+d1559 2
+a1560 2
+
+  if (AFF_FLAGGED(ch, AFF_CHARM)) {
+d1564 2
+a1565 1
+  if (number(0, 101) < pfail) {
+d1569 3
+a1571 3
+  
+ // for (i = 0; i < num; i++) {
+  if (!(mob = read_mobile(mob_num, VIRTUAL))) {
+d1573 1
+a1573 1
+                      ch);
+d1576 2
+a1577 2
+
+  switch (spellnum) {
+d1580 1
+a1580 1
+                      &obj->short_description[14]); 
+d1582 1
+a1582 1
+      GET_LEVEL(mob) = MIN(LVL_IMMORT, GET_OBJ_COST(obj));
+a1586 1
+
+a1591 1
+
+d1593 1
+a1593 1
+                      "real %s...\r\n",GET_NAME(ch));
+a1594 1
+
+d1596 1
+a1596 2
+      GET_LEVEL(mob) = MIN(LVL_IMMORT, GET_LEVEL(ch));
+
+a1602 6
+
+      // real stats int, wis, con, cha, dex, str and max points
+      //for (int i = 0; i <= STAT_MOVE; i++) {
+      //  GET_REAL_STAT(mob, i) = GET_REAL_STAT(ch, i); 
+      // }
+
+a1608 1
+
+a1611 2
+
+      // current points, and aff stats
+a1620 1
+
+a1629 1
+
+a1633 1
+
+d1644 4
+a1647 2
+  if (handle_corpse) {
+    for (tobj = obj->contains; tobj; tobj = next_obj) {
+d1677 6
+a1682 6
+  switch (spellnum) {
+
+  case SPELL_CURE_LIGHT:
+    hit = dice(1, 8) + 1 + (level >> 2);
+    if( GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER
+     || GET_CLASS(ch) == CLASS_PALADIN )
+d1684 1
+a1684 9
+    if (healingSkill && (number(0, 101) < healingSkill))
+	hit = (int)(hit *healingEffect);
+    send_to_char("You feel better.\r\n", victim);
+    clan_rel_inc(ch, victim, 1);
+    break;
+  case SPELL_CURE_CRITIC:
+    hit = dice(3, 8) + 3 + (level >> 2);
+    if( GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER
+     || GET_CLASS(ch) == CLASS_PALADIN )
+d1686 7
+d1694 1
+a1694 1
+    if (healingSkill && (number(0, 101) < healingSkill))
+d1696 7
+a1702 7
+    send_to_char("You feel a lot better!\r\n", victim);
+    clan_rel_inc(ch, victim, 2);
+    break;
+  case SPELL_HEAL:
+    hit = 100 + dice(3, 8);
+    if( GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER
+     || GET_CLASS(ch) == CLASS_PALADIN )
+d1704 1
+a1704 1
+    if (healingSkill && (number(0, 101) < healingSkill))
+d1706 7
+a1712 7
+    send_to_char("A warm feeling floods your body.\r\n", victim);
+    clan_rel_inc(ch, victim, 5);
+    break;
+  case SPELL_ADV_HEAL:
+    hit = 200 + level;
+    if( GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER
+     || GET_CLASS(ch) == CLASS_PALADIN )
+d1714 1
+a1714 1
+    if (healingSkill && (number(0, 101) < healingSkill))
+d1716 7
+a1722 7
+    send_to_char("You feel your wounds heal!\r\n", victim);
+    clan_rel_inc(ch, victim, 10);
+    break;
+  case SPELL_DIVINE_HEAL:
+    hit = 300 + level;
+    if( GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER
+     || GET_CLASS(ch) == CLASS_PALADIN )
+d1724 1
+a1724 1
+    if (healingSkill && (number(0, 101) < healingSkill))
+d1726 7
+a1732 7
+    send_to_char("A divine feeling floods your body!\r\n",victim);
+    clan_rel_inc(ch, victim, 20);
+    break;
+  case SPELL_REFRESH:
+    move = 50 + dice(3, 8);
+    if( GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER
+     || GET_CLASS(ch) == CLASS_PALADIN )
+d1734 7
+a1740 7
+    send_to_char("You feel refreshed.\r\n", victim);
+    clan_rel_inc(ch, victim, 10);
+    break;
+  case SPELL_MANA:
+    mana = 100 + dice(3, 8);
+    if( GET_CLASS(ch) == CLASS_PRIEST || GET_CLASS(ch) == CLASS_MASTER
+     || GET_CLASS(ch) == CLASS_PALADIN )
+d1742 2
+a1743 16
+    send_to_char("Your skin tingles as magical energy surges through your body.\r\n", victim);
+    break;
+
+/***************************** Stock 30bpl19 
+  case SPELL_CURE_LIGHT:
+    hit = dice(1, 8) + 1 + (level / 4);
+    send_to_char("You feel better.\r\n", victim);
+    break;
+  case SPELL_CURE_CRITIC:
+    hit = dice(3, 8) + 3 + (level / 4);
+    send_to_char("You feel a lot better!\r\n", victim);
+    break;
+  case SPELL_HEAL:
+    hit = 100 + dice(3, 8);
+    send_to_char("A warm feeling floods your body.\r\n", victim);
+    break; *************************************************************/
+d1764 37
+a1800 35
+  switch (spellnum) {
+  case SPELL_ADV_HEAL:
+  case SPELL_DIVINE_HEAL:
+  case SPELL_CURE_BLIND:
+  case SPELL_HEAL:
+    spell = SPELL_BLINDNESS;
+    to_vict = "Your vision returns!";
+    to_room = "There's a momentary gleam in $n's eyes.";
+    clan_rel_inc(ch, victim, 4);
+    break;
+  case SPELL_REMOVE_POISON:
+    spell = SPELL_POISON;
+    to_vict = "A warm feeling runs through your body!";
+    to_room = "$n looks better.";
+    clan_rel_inc(ch, victim, 2);
+    break;
+  case SPELL_REMOVE_CURSE:
+    spell = SPELL_CURSE;
+    to_vict = "You don't feel so unlucky.";
+    clan_rel_inc(ch, victim, 3);
+    break;
+  case SPELL_GREATER_REMOVE_CURSE:
+    spell = SPELL_CURSE;
+    to_vict = "You feel cleansed of all curses.";
+    clan_rel_inc(ch, victim, 6);
+    break;
+  case SPELL_REMOVE_PARA:
+    spell = SPELL_PARALYZE;
+    to_vict = "Your muscles suddenly relax you feel like u can move again!";
+    to_room = "$n stumbles slightly as $s legs start working again.";
+    clan_rel_inc(ch, victim, 4);
+    break;
+  default:
+    basic_mud_log("SYSERR: unknown spellnum %d passed to mag_unaffects.", spellnum);
+    return;
+d1805 2
+a1806 1
+  if (spellnum == SPELL_GREATER_REMOVE_CURSE) {
+d1811 2
+a1812 2
+    for (int i = 0; i < NUM_WEARS; i++) {
+      if (GET_EQ(victim, i) && IS_OBJ_STAT(GET_EQ(victim, i), ITEM_NODROP)) {
+a1813 2
+      }
+    }
+d1815 2
+a1816 3
+    struct obj_data *tobj;
+    for (tobj = victim->carrying; tobj; tobj = tobj->next_content) {
+      if (IS_OBJ_STAT(tobj, ITEM_NODROP)) {
+a1817 2
+      }
+    }
+d1819 2
+a1820 12
+    if (!affected_by_spell(victim, spell)) {
+      // TODO: cure blindness message - check if it needs to come back in
+      /*
+      if (spellnum != SPELL_HEAL)		// 'cure blindness' message. 
+      {
+        send_to_char(NOEFFECT, ch);
+	send_to_char("DEBUG: cure blindness message\r\n", ch);
+      }
+      */
+      return;
+    }
+    affect_from_char(victim, spell);
+a1821 1
+
+d1838 2
+a1839 1
+  switch (spellnum) {
+d1842 2
+a1843 1
+	  (GET_OBJ_WEIGHT(obj) <= 5 * GET_LEVEL(ch))) {
+d1849 2
+a1850 1
+      if (!IS_OBJ_STAT(obj, ITEM_NODROP)) {
+d1858 2
+a1859 1
+      if (!IS_OBJ_STAT(obj, ITEM_NOINVIS | ITEM_INVISIBLE)) {
+d1867 4
+a1870 3
+         (GET_OBJ_TYPE(obj) == ITEM_FOOD)) && !GET_OBJ_VAL(obj, 3)) {
+      GET_OBJ_VAL(obj, 3) = 1;
+      to_char = "$p steams briefly.";
+d1874 2
+a1875 1
+      if (IS_OBJ_STAT(obj, ITEM_NODROP)) {
+d1885 2
+a1886 1
+         (GET_OBJ_TYPE(obj) == ITEM_FOOD)) && GET_OBJ_VAL(obj, 3)) {
+d1893 1
+a1893 1
+  if (to_char == NULL) {
+d1895 1
+a1895 5
+#ifndef IGNORE_DEBUG
+    if (GET_DEBUG(ch))
+      send_to_char("DEBUG: to_char == NULL\r\n", ch);
+#endif
+  } else
+a1896 1
+
+d1915 8
+a1922 7
+  switch (spellnum) {
+  case SPELL_CREATE_FOOD:
+    z = 10016;
+    break;
+  default:
+    send_to_char("Spell unimplemented, it would seem.\r\n", ch);
+    return;
+d1925 2
+a1926 1
+  if (!(tobj = read_object(z, VIRTUAL))) {
+@
+
+
+1.48
+log
+@Artus> Fixed fly/dragon issue.
+@
+text
+@d87 2
+a88 2
+  for (i = character_list; i; i = i->next) {
+
+d90 2
+a91 1
+    for (tim = CHAR_TIMERS(i); tim; tim = next_timer) {
+a92 1
+      
+d102 2
+a103 2
+
+    for (af = i->affected; af; af = next) {
+d109 2
+a110 1
+      else {
+d120 2
+a121 1
+                (GET_OBJ_VAL(i->equipment[eq],2) == af->type))) {
+d124 1
+a124 1
+              }
+a126 2
+ 
+ 
+d130 2
+a131 1
+	    if (*spell_wear_off_msg[af->type]) {
+@
+
+
+1.47
+log
+@Artus> Now warning free :o)
+@
+text
+@d1201 1
+a1201 1
+    if (affected_by_spell(victim, SPELL_FLY))
+d1203 1
+a1203 5
+    else if(IS_AFFECTED(victim,AFF_FLY)) 
+    {
+      send_to_char(NOEFFECT, ch);
+      return;
+    } else {
+@
+
+
+1.46
+log
+@Artus> Conditionals for IGNORE_DEBUG.
+       Fixed issue where SLEEP spell was not working.
+       When SLEEP spell fails, NOEFFECT is now sent.
+@
+text
+@a571 2
+  int tmp_duration;
+
+d1506 1
+a1506 1
+  int pfail = 0, msg = 0, fmsg = 0, num = 1, handle_corpse = FALSE, i, counter = 0;
+@
+
+
+1.45
+log
+@Artus> Clones will now have the infra/sense/detinv bits copied.
+       Clones no longer have player name as an alias, instead they have cplayer
+       name. Ie "cKarma" instead of "Karma".
+@
+text
+@d1077 1
+a1077 1
+    if (!IS_SET(zone_table[world[ch->in_room].zone].zflag , ZN_PK_ALLOWED) \
+d1080 2
+a1081 1
+    if (MOB_FLAGGED(victim, MOB_NOSLEEP))
+d1089 2
+d1092 2
+d1095 1
+d1931 1
+d1934 1
+@
+
+
+1.44
+log
+@Artus> Minor change for wolf mainly.
+@
+text
+@d1596 7
+d1645 3
+a1647 2
+  if (spellnum == SPELL_CLONE) {   /* Don't mess up the proto with strcpy. */
+    sprintf(buf, "clone %s", GET_NAME(ch));
+@
+
+
+1.43
+log
+@Artus> Your feel your -> You feel your. (Sense Life)
+@
+text
+@d356 1
+d361 3
+@
+
+
+1.42
+log
+@Artus> Minor modification to wraith touch.
+@
+text
+@d1119 1
+a1119 1
+    to_vict = "Your feel your awareness improve.";
+@
+
+
+1.41
+log
+@Artus> Fixed some bad english on my part :o)
+@
+text
+@d351 10
+a360 17
+ 
+      if (!IS_SET(zone_table[world[ch->in_room].zone].zflag , ZN_PK_ALLOWED) && !IS_NPC(victim)){
+        send_to_char("You cannot attack players in a NO_PKILL zone!\r\n", ch);
+        return (0);
+      }
+      dam = (int) (dice(20,25) + (level*0.75));
+ 
+      if(IS_AFFECTED(victim, AFF_SANCTUARY))
+        tmpdam = dam/2;
+      else
+        tmpdam= dam;
+      if ((GET_HIT(ch)+tmpdam)>GET_MAX_HIT(ch))
+        GET_HIT(ch) = GET_MAX_HIT(ch);
+      else
+        GET_HIT(ch)+=tmpdam;
+      break;
+ 
+@
+
+
+1.40
+log
+@Artus> Ability to replenish spells that haven't ended yet.
+@
+text
+@d936 1
+a936 1
+      to_vict = "You feel aware to the difference between good and evil.";
+@
+
+
+1.39
+log
+@Artus> LR_FAIL_MAX fix, SPECIAL_TRACKER now provides SKILL_TRACK.
+       Track and hunt now increase.
+@
+text
+@d590 1
+a590 2
+
+  case SPELL_CHILL_TOUCH:
+d598 1
+d601 5
+a605 2
+
+  case SPELL_ARMOR:
+a608 2
+    if (affected_by_spell(victim, SPELL_ARMOR))
+        af[0].duration = 15;
+a609 1
+    to_vict = "You feel someone protecting you.";
+a610 1
+
+d619 1
+a619 2
+
+ case SPELL_SPIRIT_ARMOR:
+d621 3
+a623 5
+    {
+      send_to_char("Nothing seems to happen!\r\n", ch);
+      return;
+    }
+
+a626 2
+ 
+    to_vict = "You feel divine forces protecting you.";
+d628 1
+a628 2
+ 
+  case SPELL_STONESKIN:
+d630 2
+d633 2
+a634 2
+      send_to_char("Nothing seems to happen!\r\n", ch);
+      return;
+a638 3
+ 
+    to_vict = "A skin of stone creates itself around you.";
+    to_room = "A skin of stone creates itself around $n.";
+d640 3
+a642 5
+
+ case SPELL_LIGHT_SHIELD:
+    if (affected_by_spell(victim, SPELL_LIGHT_SHIELD) ||
+       affected_by_spell(victim, SPELL_FIRE_SHIELD) ||
+       affected_by_spell(victim, SPELL_FIRE_WALL))
+d644 1
+a644 1
+      send_to_char("Nothing seems to happen!\r\n", ch);
+d647 7
+a656 3
+ 
+    to_vict = "Your shield jolts as lightning bolts quiver around it's surface!";
+    to_room = "Lightning bolts quiver on $n's shield!";
+d658 8
+a665 2
+ 
+  case SPELL_FIRE_SHIELD:
+d667 1
+a667 2
+       affected_by_spell(victim, SPELL_FIRE_SHIELD) ||
+       affected_by_spell(victim, SPELL_FIRE_WALL))
+d669 1
+a669 1
+      send_to_char("Nothing seems to happen!\r\n", ch);
+d672 7
+a681 3
+ 
+    to_vict = "You feel a wave of heat as fire consumes the surface of your shield!";
+    to_room = "A wave of fire consumes $n's shield!";
+d683 1
+a683 2
+
+  case SPELL_FIRE_WALL:
+d685 1
+a685 2
+       affected_by_spell(victim, SPELL_FIRE_SHIELD) ||
+       affected_by_spell(victim, SPELL_FIRE_WALL))
+d687 1
+a687 1
+      send_to_char("Nothing seems to happen!\r\n", ch);
+d690 7
+a699 3
+ 
+    to_vict = "You feel a wave of heat as a wall of fire surrounds yourself!";
+    to_room = "A wall of fire ignites around $n!";
+d701 1
+a701 2
+ 
+  case SPELL_HASTE:
+d703 2
+d706 1
+a706 1
+      send_to_char("Nothing seems to happen!\n\r", ch);
+d708 2
+a709 2
+    }
+ 
+a711 2
+    
+    to_vict = "Whoooooahhhh, what a RUSH!!!! You are speeding!";
+d713 1
+a713 4
+
+  case SPELL_BLESS:
+
+    tmp_duration = 6;
+d715 3
+a717 1
+        tmp_duration = 2;
+d722 1
+a722 1
+    af[0].duration = tmp_duration;
+d726 1
+a726 1
+    af[1].duration = tmp_duration;
+d731 1
+a731 1
+    af[2].duration = tmp_duration;
+a732 3
+    to_vict = "You feel righteous.";
+    accum_duration = FALSE;
+    accum_affect = FALSE;
+a733 1
+
+d749 1
+a749 1
+  case SPELL_DIVINE_PROTECTION:
+d751 4
+a754 4
+    {
+      send_to_char("Nothing seems to happen!\n\r", ch);
+      return;
+    }
+a758 1
+    to_vict = "You feel you deity protecting you";
+d762 5
+a767 6
+  case SPELL_HOLY_AID:
+    if (affected_by_spell(victim, SPELL_HOLY_AID))
+    {
+      send_to_char("Nothing seems to happen!\n\r", ch);
+      return;
+    }
+a780 5
+
+    to_vict = "Your God hears your prayer and assists you.";
+    accum_duration = FALSE;
+    accum_affect = FALSE;
+ 
+d782 11
+a792 24
+
+case SPELL_DRAGON:
+     if ( affected_by_spell ( victim , SPELL_DRAGON ) )
+     {
+      send_to_char("Nothing seems to happen!\n\r", ch);
+      return;
+     }
+ 
+     if (LR_FAIL(ch, 40))
+     {
+      if ( IS_NEUTRAL(ch) )
+      {
+       af[0].location = APPLY_AC;
+       af[0].duration = 8;
+       af[0].modifier = -10;
+      }
+      if ( IS_GOOD(ch) )
+      {
+       af[0].location = APPLY_HITROLL;
+       af[0].duration = 8;
+       af[0].modifier = 1;
+      }
+ 
+      if ( IS_EVIL(ch) )
+d794 11
+a804 3
+       af[0].location = APPLY_DAMROLL;
+       af[0].duration = 8;
+       af[0].modifier = 1;
+a805 1
+ 
+d807 12
+a818 5
+      if ( IS_NEUTRAL(ch) )
+      {
+       af[0].location = APPLY_AC;
+       af[0].duration = 9;
+       af[0].modifier = -15;
+d820 2
+a821 14
+      if ( IS_GOOD(ch) )
+      {
+       af[0].location = APPLY_HITROLL;
+       af[0].duration = 9;
+       af[0].modifier = 2;
+      }
+      if ( IS_EVIL(ch) )
+      {
+       af[0].location = APPLY_DAMROLL;
+       af[0].duration = 9;
+       af[0].modifier = 2;
+      }
+     } else {
+      if ( IS_NEUTRAL(ch) )
+d823 14
+a836 4
+       af[0].location = APPLY_AC;
+       af[0].modifier = -20;
+       af[0].duration = 10;
+       af[0].bitvector = AFF_FLY;
+a837 17
+ 
+      if ( IS_GOOD(ch) )
+      {
+       af[0].location = APPLY_HITROLL;
+       af[0].modifier = 3;
+       af[0].duration = 10;
+       af[0].bitvector = AFF_FLY;
+      }
+ 
+      if ( IS_EVIL(ch) )
+      {
+       af[0].location = APPLY_DAMROLL;
+       af[0].modifier = 3;
+       af[0].duration = 10;
+       af[0].bitvector = AFF_FLY;
+      }
+ 
+a838 4
+ 
+    to_vict = "You feel the blood of a dragon coursing through your veins.";
+    to_room = "$n looks more like a dragon now.";
+ 
+d840 1
+a840 7
+
+  case SPELL_BLINDNESS:
+    if (IS_AFFECTED(victim, AFF_BLIND)) {
+      send_to_char("Nothing seems to happen.\r\n", ch);
+      return;
+    }
+
+d846 5
+a850 4
+
+    if (MOB_FLAGGED(victim, MOB_NOBLIND)){
+        send_to_char("Your victim resists.\r\n", ch);
+        return;
+d852 5
+a856 3
+ 
+    if (mag_savingthrow(victim, savetype, 0)) {
+      send_to_char("You fail.\r\n", ch);
+d858 3
+a872 2
+    to_room = "$n seems to be blinded!";
+    to_vict = "You have been blinded!";
+a873 1
+    
+a875 1
+
+d897 1
+a897 1
+  case SPELL_CURSE:
+d899 9
+a907 2
+
+    if (mag_savingthrow(victim, savetype, 0)) {
+d910 3
+a924 4
+    accum_duration = FALSE;
+    accum_affect = FALSE;
+    to_room = "$n briefly glows &rred&n!";
+    to_vict = "You feel very uncomfortable.";
+d928 9
+a936 1
+  case SPELL_DETECT_ALIGN:
+a939 1
+    to_vict = "Your eyes tingle.";
+d941 9
+a949 2
+
+  case SPELL_DETECT_INVIS:
+a952 1
+    to_vict = "Your eyes tingle.";
+d955 9
+a963 2
+
+  case SPELL_DETECT_MAGIC:
+a966 1
+    to_vict = "Your eyes tingle.";
+d968 1
+a968 2
+
+  case SPELL_DETECT_POISON:
+d978 12
+a989 3
+    break;
+
+  case SPELL_INFRAVISION:
+a992 2
+    to_vict = "Your eyes glow red.";
+    to_room = "$n's eyes glow red.";
+d995 1
+a995 2
+
+  case SPELL_INVISIBLE:
+d998 10
+a1007 1
+
+a1012 2
+    to_vict = "You vanish.";
+    to_room = "$n slowly fades out of existence.";
+d1015 10
+a1024 3
+
+  case SPELL_POISON:
+    if (mag_savingthrow(victim, savetype, 0)) {
+d1027 3
+a1030 1
+
+a1034 2
+    to_vict = "You feel very sick.";
+    to_room = "$n gets violently ill!";
+d1036 7
+a1042 2
+
+  case SPELL_PROT_FROM_GOOD:
+d1049 7
+a1055 1
+  case SPELL_PROT_FROM_EVIL:
+d1061 11
+a1071 2
+
+  case SPELL_SANCTUARY:
+a1073 1
+
+a1075 1
+
+a1076 2
+    to_vict = "A white aura momentarily surrounds you.";
+    to_room = "$n is surrounded by a white aura.";
+d1079 1
+a1079 2
+
+  case SPELL_SLEEP:
+d1083 7
+a1089 2
+    if (MOB_FLAGGED(victim, MOB_NOSLEEP)) {
+      send_to_char("Your victim resists.\r\n", ch);
+a1090 1
+    }
+a1092 1
+ 
+d1095 2
+a1096 2
+
+    if (GET_POS(victim) > POS_SLEEPING) {
+d1104 1
+a1104 1
+  case SPELL_STRENGTH:
+a1106 1
+
+d1115 1
+a1115 2
+
+  case SPELL_SENSE_LIFE:
+d1118 2
+a1119 1
+    if (IS_AFFECTED(victim, AFF_SENSE_LIFE))
+d1121 1
+a1121 1
+      send_to_char("Nothing seems to happen!\n\r", ch);
+a1125 1
+
+d1131 1
+a1131 2
+
+  case SPELL_SENSE_WOUNDS:
+d1134 3
+a1136 1
+    if (IS_AFFECTED(victim, AFF_SENSE_WOUNDS))
+d1138 1
+a1138 1
+      send_to_char("Nothing seems to happen!\r\n", ch);
+d1140 3
+a1145 3
+
+    to_vict = "You feel aware to the pain of people around you.";
+    to_room = "$n shudders momentarily.";
+d1148 9
+a1156 2
+
+  case SPELL_WATERWALK:
+a1159 1
+    to_vict = "You feel webbing between your toes.";
+d1161 6
+a1166 4
+
+  case SPELL_SERPENT_SKIN:
+    if(IS_AFFECTED(victim, AFF_REFLECT)) {
+      send_to_char("Nothing seems to happen!\r\n",ch);
+d1168 6
+a1173 2
+      }
+    if(mag_materials(ch,8400,0,0,1,1)) {
+a1175 2
+      to_vict = "Your skin begins to sparkle!";
+      to_room = "Shiny scales appear on $n's skin!";
+d1177 1
+a1177 1
+      to_vict = "You seem to missing a major ingredient...";
+d1179 1
+a1179 1
+      }
+d1181 1
+a1181 6
+ 
+  case SPELL_NOHASSLE:
+    if (IS_AFFECTED(victim, AFF_NOHASSLE)) {
+      send_to_char("Nothing seems to happen!\r\n",ch);
+      return;
+    }
+d1185 10
+a1194 4
+
+    to_vict = "You start to feel untouchable.";
+    to_room = "$n starts to look untouchable.";
+
+d1196 1
+a1196 6
+
+  case SPELL_FLY:
+    if(IS_AFFECTED(victim,AFF_FLY)) {
+      send_to_char("Nothing seems to happen.\r\n",ch);
+      return;
+      }
+d1200 10
+a1209 2
+    to_vict = "You begin to float off the ground.";
+    to_room = "$n begins to float off the ground.";
+d1211 1
+a1211 2
+ 
+  case SPELL_PARALYZE:
+d1214 1
+a1214 1
+ 
+d1217 1
+a1217 1
+      send_to_char("They are already paralized!.\r\n", ch);
+d1220 4
+a1223 1
+    if (!mag_savingthrow(victim, savetype, 0)) {
+d1228 12
+a1240 2
+    clan_rel_inc(ch, victim, -1);
+    break;
+a1241 5
+  case SPELL_WATERBREATHE:
+    if(IS_AFFECTED(victim,AFF_WATERBREATHE)) {
+      send_to_char("Nothing seems to happen.\r\n",ch);
+      return;
+      }
+a1243 2
+    to_vict = "A pair of magical gills appear on your neck.";
+    to_room = "A pair of magical gills appear on $n's neck.";
+d1254 2
+a1255 1
+      if (AFF_FLAGGED(victim, af[i].bitvector)) {
+d1264 3
+a1266 1
+  if (affected_by_spell(victim,spellnum) && !(accum_duration||accum_affect)) {
+d1269 4
+a1272 1
+  }
+@
+
+
+1.38
+log
+@Artus>
+act.comm.c       : Completely rewrote the auction code.
+act.informative.c: New event type: Fire.
+                   Fixed colour bleed in exits.
+act.item.c       : invalid_level() now only allows remort classes to use eq
+                   earlier if it was usable before they remorted.
+act.movement.c   : Gateways now pass through the standard invalid_level()
+                   check. This should make it possible to restrict entrance
+                   based on class.
+act.offensive.c  : Cleaned up.
+act.other.c      : Hide now applies to spell/skill ability.
+                   Title length limit removed, title restricted level 5.
+act.wizard.c     : "debug sm" will now display the integer value of current
+                   rooms "small_bits"
+                   Added annoying poofin for me.
+                   New event type: Fire.
+boards.c         : Boards now use max level as opposed to level.
+clan.c           : Cleaned up.
+class.c          : Cleaned up.
+comm.c           : Minor changes for remort max levels to exp prompt.
+db.c             : Auctions are now stored in file.
+                   Initial zone resets moved before houses and auctions load.
+db.h             : Auctions are now stored in file.
+dg_mobcmd.c      : Cleaned up.
+dg_objcmd.c      : Cleaned up.
+dg_scripts.c     : Cleaned up.
+dg_wldcmd.c      : Cleaned up.
+fight.c          : Added pcorpse alias to corpses.
+graph.c          : Cleaned up.
+handler.c        : Item counter changed so item count won't be reduced below
+                   zero.
+house.c          : Removed item decrementor.
+interpreter.c    : Command level checks are now done against max level.
+interpreter.h    : Removed old auction SCMD_xxx, Added new auction AUC_xxx
+limits.c         : First remort max exp * 12500, second max exp * 15000
+magic.c          : Cleaned up.
+mail.c           : Added support for mail from auction system.
+mail.h           : Added support for mail from auction system.
+medit.c          : Cleaned up.
+modify.c         : Cleaned up.
+oasis.c          : Added zedit sect # support - Sets the base sect to the
+                   same value in all rooms in zone.
+oasis.h          : Added zedit sect # support.
+objsave.c        : Added Obj_to_file_elem routine.
+reports.cpp      : Replaced 0 with MAIL_FROM_REPORT in store_mail calls.
+shop.c           : Replaced GET_OBJ_LR() check with invalid_level() call.
+spec_procs.c     : Fixed bug where repair wasn't listing costs.
+                   Cleaned up.
+spell_parser.c   : Replaced various damage calcs with calc_dam_amt.
+spells.c         : Added identify_obj_to_char, called by SPELL_IDENTIFY and
+                   auction stat.
+                   Colourised identify output.
+structs.h        : Added EVENT_FIRE macro.
+                   Removed old auction defines.
+                   Added auction structures auc_data, auc_file_elem.
+                   Added auction macros AUC_STAT_COST, AUC_ROOM< AUC_LIMIT.
+                   Added RMSM_BURNED macro to identify burned rooms.
+                   Added small_bits to room structure. Unsaved bitvector.
+tedit.c          : Cleaned up.
+utils.c          : Added calc_dam_amt to separate damage calculations for
+                   skills.
+                   Added init_auctions and write_auction_file for storage
+                   and retrieval of auctions.
+utils.h          : RMSM_FLAGS(room_rnum) - Room's Small Bits.
+                   RMSM_FLAGS(room_rnum, bit) - Check small bits.
+                   LR_FAIL(ch, lvl) - Basic level test.
+                   LR_FAIL_MAX(ch, lvl) - Level test against max level,
+                   unless lvl > LVL_IMMORT.
+                   CAN_LEVEL(ch) macro.
+                   STRTODAM(ch) macro - str_app.todam
+zedit.c          : Added zedit_sect_all().
+@
+text
+@d1613 1
+a1613 1
+  double healingEffect = 0;
+@
+
+
+1.37
+log
+@Artus> Er.. Linkless eq loss bugfix.
+@
+text
+@d211 1
+a211 1
+  if ((IS_NPC(ch)) || (GET_LEVEL(ch) >= LVL_IS_GOD) || UNDERWATER(ch))
+d373 1
+a373 1
+      dam = MIN(GET_LEVEL(ch)*5, (int)(0-(GET_ALIGNMENT(victim) + 350)/2));
+d385 1
+a385 1
+      dam = MIN(GET_LEVEL(ch)*5, (int)((GET_ALIGNMENT(victim) - 350)/2));
+d798 1
+a798 1
+     if ( GET_LEVEL(ch) < 40 )
+a805 1
+ 
+d820 1
+a820 3
+    }
+     if ( GET_LEVEL(ch) >= 40 && GET_LEVEL( ch ) <= 60 )
+     {
+a826 1
+ 
+a832 1
+ 
+d839 1
+a839 4
+     }
+ 
+     if (  GET_LEVEL( ch ) > 60 )
+     {
+d1376 1
+a1376 1
+    if (!IS_NPC(tch) && GET_LEVEL(tch) >= LVL_IMMORT)
+@
+
+
+1.36
+log
+@Artus> Another attempt at balancing dispel evil/good.
+@
+text
+@d373 1
+a373 1
+      dam = MIN(GET_LEVEL(ch)*5, (int)((350 - GET_ALIGNMENT(victim))/2));
+@
+
+
+1.35
+log
+@Artus> dispel_evil and dispel_good fix :o)
+@
+text
+@d373 1
+a373 1
+      dam = MIN(GET_LEVEL(ch)*9, 0 - GET_ALIGNMENT(victim));
+d385 1
+a385 1
+      dam = MIN(GET_LEVEL(ch)*9, GET_ALIGNMENT(victim));
+@
+
+
+1.34
+log
+@Artus>
+act.informative.c: Fixed bug where examining a container was always listng the
+                   objects in the first container matched.
+                   Gold rush finishing is now only displayed within the same
+		   world.
+act.movement.c   : Environmental damage is now passed through damage().
+act.offensive.c  : Throw() now calls damage().
+act.other.c      : When you fail to create a torch, it hurts.
+dg_mobcmd.c      : mdamage() now calls damage().
+dg_objcmd.c      : odamage() now calls damage().
+dg_wldcmd.c      : wdamage() now calls damage().
+fight.c          : Changed damage() to allow a NULL ch.
+interpreter.c    : Falling because fly has worn off now calls damage().
+limits.c         : No waterbreathe underwater now calls damage().
+magic.c          : Added handle_fireball() for fire breathing, fireball, type
+                   stuff..
+                   Random chance of objs in inventory/open containers burning
+                   up :o)
+spec_assign.c    : Removed some unused/wasted assigns: corridor_guard,
+                   receiptionist, virus, bacteria.
+spec_procs.c     : Removed some unused/wasted procs. Changed lots of tali's
+                   indenting.
+                   Fixed gaping hole in deadlyblade proc.
+                   Replaced GET_HIT(vict) -= with damage(ch, vict...
+spell_parser.c   : Added awake and can_see checks to magic fail = mob attacks.
+@
+text
+@d370 4
+a373 4
+    dam = dice(level, 3) + level;
+    if (IS_EVIL(victim)) {
+      //victim = ch;
+      dam = GET_HIT(ch) - 1;
+a382 1
+    dam = dice(level, 5) + level;
+d384 2
+a385 2
+      //victim = ch;
+      dam = GET_HIT(ch) - 1;
+@
+
+
+1.33
+log
+@Artus>
+act.informative.c: Added Sense Wounds.
+constants.c      : Added Sense Wounds.
+db.c             : Fixed spell effectiveness.
+dg_mobcmd.c      : mpurge will no longer purge player corpses.
+dg_objcmd.c      : opurge will no longer purge player corpses.
+dg_wldcmd.c      : wpurge will no longer purge player corpses.
+fight.c          : Added Sense Wounds.
+magic.c          : Added Sense Wounds.
+spell_parser.c   : Added Sense Wounds.. Trialling changes do damage
+                   done by headbutt, flytackle, piledrive.
+spells.h         : Added Sense Wounds.
+structs.h        : Added Sense Wounds.
+@
+text
+@d205 5
+d211 88
+a298 1
+
+d335 1
+d344 1
+d397 1
+@
+
+
+1.32
+log
+@Artus> Fixed drop_otrigger with arguments.. Hopefully ;o).
+       Fixed debug message in remove_curse, curse, and suchlike.
+@
+text
+@d487 2
+a488 1
+  for (i = 0; i < MAX_SPELL_AFFECTS; i++) {
+d1004 2
+a1010 2
+    if (!victim)
+      victim = ch;
+d1020 16
+@
+
+
+1.31
+log
+@Artus>
+---
+drop_otrigger takes an extra paramater for subcmd. With drop triggers you can
+now specify whether the trigger is for drop, junk, donate and put. Specify
+in the argument either/combination of 'junk', 'drop', 'donate', 'put'. No
+argument means any type will be triggered:
+
+act.item.c, dg_scripts.h, dg_triggers.c, interpreter.h
+---
+fixed colour bleed in dc:
+
+act.wizard.c
+---
+Not reapplying empty timers in char_to_store:
+Not calling object triggers from char_to_store:
+
+db.c
+---
+Modified hunt so that with special_elf you can track through !TRACK rooms
+(Modifier for Elf has been increased from 0.02 to 0.07%):
+
+graph.c, utils.c
+---
+Timers should only show remove messages when being removed because they're
+wearing off (duration = 0):
+
+handler.c
+---
+Not calling object triggers when auto_equipping.
+
+objsave.c
+---
+#defined around love_ring specproc. What a joke. define DRAX_IS_TEH_SUXOR if
+you want it back ;o)
+
+spec_assign.c, spec_procs.c
+---
+@
+text
+@d1765 2
+a1766 1
+    send_to_char("DEBUG: to_char == NULL\r\n", ch);
+@
+
+
+1.30
+log
+@Artus> Added !KILL flag for mobs... Things like gamina, postmaster, etc, can
+       have this set, which should make it pretty damn impossible for them to
+       die..
+       Modified more stuff for dark ritual and vampires.. Have added a switch
+       statement to affect_remove, which should be a good central place to
+       handle triggers on affect removal.. Mainly to reset mana/move/hit to
+       make sure they're not higher than max values when removing werewolf/
+       vampire.
+@
+text
+@d99 1
+a99 1
+      else {
+a100 1
+      }
+@
+
+
+1.29
+log
+@Artus>
+
+Files which have had log() replaced with basic_mud_log():
+
+act.informative.c, act.item.c, act.offensive.c, act.other.c, act.social.c,
+act.wizard.c, alias.c, balance.c, ban.c, boards.c, casino.c, castle.c, clan.c,
+class.c, comm.c, corpses.cpp, db.c, dg_db_scripts.c, dg_olc.c, dg_scripts.c,
+fight.c, genmob.c, genobj.c, genolc.c, genshp.c, genwld.c, genzon.c, graph.c,
+handler.c, house.c, improved-edit.c, interpreter.c, magic.c, mail.c, medit.c,
+mobact.c, modify.c, oasis.c, objsave.c, oedit.c, olc.c, redit.c, reports.cpp,
+shop.c, spec_assign.c, spec_procs.c, spell_parser.c, tedit.c, utils.c,
+utils.h, zedit.c.
+
+
+Files which have been cpp standardised (list.h => list, etc):
+
+comm.c, corpses.cpp, corpses.h, db.c, interpreter.c, modify.c, reports.cpp.
+
+
+Specific changes to reports.cpp, reports.h:
+
+Removed ofstream outReportFile, ofstream outChangeFile, and replaced them with
+FILE *s. Removed no-longer functional c++ random-access file handling and
+replaced it with straight C. Should be right from here on in..
+
+
+Specific changes to act.movement.c:
+
+Replaced log() with mudlog(), when logging players being killed by gravity.
+@
+text
+@d1610 6
+a1615 3
+  GET_HIT(victim) = MIN(GET_MAX_HIT(victim), GET_HIT(victim) + hit);
+  GET_MOVE(victim) = MIN(GET_MAX_MOVE(victim), GET_MOVE(victim) + move);
+  GET_MANA(victim) = MIN(GET_MAX_MANA(victim), GET_MANA(victim) + mana);
+@
+
+
+1.28
+log
+@Artus> Changes to do_simple_move().
+       Added char_can_enter() -- Tests room levels, zone levels, water/fly/etc.
+
+       Changes to die(): Exp lost is now whichever is lesser of half earned
+       exp and quater max exp. When autocorpse, instead of doubling it, we
+       multiply by 1.5.
+
+       pc killed by char now logged in die(), with lost_exp display.
+
+       gain_exp now returns the amount of exp that was gained rather than void.
+@
+text
+@d1659 1
+a1659 1
+    log("SYSERR: unknown spellnum %d passed to mag_unaffects.", spellnum);
+d1796 1
+a1796 1
+    log("SYSERR: spell_creations, spell %d, obj %d: obj not found",
+@
+
+
+1.27
+log
+@Artus> (Hopefully) Fixed all cases where the skill message would display after
+       the victim had fled.
+
+       Moved remaining violence checks from damage() to violence_check().
+
+       damage() now takes an additional boolean arg, vcheck, when true,
+       violence_check() will be called.
+
+       added GET_EQ_WEIGHT(ch, wear_pos) define.
+@
+text
+@d41 1
+a41 1
+extern struct spell_info_type spell_info[];
+@
+
+
+1.26
+log
+@Artus> A3_0_315
+@
+text
+@d367 1
+a367 1
+  return (damage(ch, victim, dam, spellnum));
+@
+
+
+1.25
+log
+@changed greater remove curse to remove curse on items in victims inventory
+@
+text
+@d1518 1
+a1518 1
+  if (IS_NPC(ch) && GET_SKILL(ch, SKILL_HEALING_MASTERY))
+@
+
+
+1.24
+log
+@Work done at artus house a while ago
+@
+text
+@d1664 1
+d1673 7
+@
+
+
+1.23
+log
+@
+: ----------------------------------------------------------------------
+: Enter Log.  Lines beginning with `CVS:' are removed automatically
+:
+: Committing in .
+:
+: Modified Files:
+: 	act.informative.c act.other.c act.wizard.c balance.c class.c
+: 	constants.c db.c fight.c handler.c interpreter.c magic.c
+: 	oedit.c redit.c spec_procs.c spell_parser.c spells.h
+: 	update_revisions
+: ----------------------------------------------------------------------
+
+Modified: DM
+
+Changed:
+- heaps: mostly minor bug fixes.
+@
+text
+@d250 1
+a250 1
+      dam = dice(11, 8) + 11;
+d277 3
+a279 3
+    dam = dice(6, 8) + 6;
+    if (IS_EVIL(ch)) {
+      victim = ch;
+d282 1
+a282 1
+    } else if (IS_GOOD(victim)) {
+d290 3
+a292 3
+    dam = dice(6, 8) + 6;
+    if (IS_GOOD(ch)) {
+      victim = ch;
+d295 1
+a295 1
+    } else if (IS_EVIL(victim)) {
+a300 1
+ 
+d302 1
+a302 1
+    dam = dice(7, 8) + 7;
+d345 1
+a345 1
+  if (mag_savingthrow(victim, savetype,0))
+d347 14
+d513 1
+a513 1
+        af[0].duration = 6;
+a668 1
+
+d846 2
+d865 1
+a865 1
+    to_room = "$n briefly glows red!";
+d1716 1
+a1716 1
+	if (GET_OBJ_TYPE(obj) == ITEM_WEAPON)
+d1718 1
+a1718 1
+	to_char = "$p briefly glows red.";
+@
+
+
+1.22
+log
+@
+Modified: DM
+
+Changed: (This is a group checkin)
+- many many bug fixes
+@
+text
+@d672 1
+a672 1
+    af[0].duration = 7;
+d677 1
+a677 1
+    af[0].duration = 7;
+d942 1
+a942 1
+    af[0].duration = 4;
+d945 2
+a946 2
+    if (IS_AFFECTED(victim, AFF_SANCTUARY))
+      af[0].duration = 1;
+d948 1
+a948 1
+    accum_duration = TRUE;
+@
+
+
+1.21
+log
+@
+Modified: DM
+
+Changed:
+- Don't ask (large group checkin) - lots of bug fixes mainly.
+- Use cvs diff if you really wanna see the changes.
+@
+text
+@d1499 1
+a1499 1
+  if (GET_SKILL(ch, SKILL_HEALING_EFFICIENCY))
+d1504 1
+a1504 1
+  if (GET_SKILL(ch, SKILL_HEALING_MASTERY))
+@
+
+
+1.20
+log
+@
+Modified: DM
+
+Changed:
+- copied char name to clone in short_descr (was missing)
+@
+text
+@d135 1
+d137 1
+a137 1
+	      send_to_char("\r\n", i);
+@
+
+
+1.19
+log
+@Modified: DM
+
+Added:
+- commented out cure blindness message - displaying a message on heal
+
+TODO:
+- determine if/what message we need
+@
+text
+@d1421 1
+d1457 1
+@
+
+
+1.18
+log
+@Modified: DM
+
+Changed:
+- added duration flags missing for holy aid
+@
+text
+@d1659 4
+a1662 1
+      if (spellnum != SPELL_HEAL)		/* 'cure blindness' message. */
+d1664 3
+d1736 1
+a1736 1
+  if (to_char == NULL)
+d1738 2
+a1739 1
+  else
+@
+
+
+1.17
+log
+@Artus- Modified a number of spells/skills to call clan_rel_inc..
+@
+text
+@d671 1
+d676 1
+@
+
+
+1.16
+log
+@Artus - Just a mob zombie define.
+@
+text
+@d42 1
+d230 1
+d234 1
+d238 1
+d242 1
+d246 1
+d250 1
+d254 1
+d280 1
+d293 1
+d303 1
+d307 2
+a308 1
+    dam = dice(8, 8) + 8;
+d502 1
+d625 2
+a626 1
+ 
+d804 1
+d850 1
+d865 1
+d893 1
+d907 1
+d948 1
+d970 1
+d983 1
+d1000 1
+d1067 1
+d1518 1
+d1529 1
+d1539 1
+d1549 1
+d1559 1
+d1567 1
+d1615 1
+d1621 1
+d1626 1
+d1631 1
+d1637 1
+@
+
+
+1.15
+log
+@Modified: DM - Saving Throws
+@
+text
+@a1302 1
+#define MOB_ZOMBIE              22301
+a1303 1
+
+@
+
+
+1.14
+log
+@cosmetics ... just formating
+@
+text
+@a62 2
+  /* NPCs use warrior tables according to some book */
+  int class_sav = CLASS_WARRIOR;
+a64 3
+  if (!IS_NPC(ch))
+    class_sav = GET_CLASS(ch);
+
+d66 1
+a66 1
+  save += GET_SAVE(ch, type);
+d70 1
+a70 1
+  if (MAX(1, save) < number(0, 99))
+d338 2
+a339 2
+    || (GET_CLASS(ch) == CLASS_BATTLEMAGE) || (GET_CLASS(ch) == CLASS_MASTER) )
+        dam *= GET_MODIFIER(ch);
+@
+
+
+1.13
+log
+@commented GET_REAL_STAT macro (which doesn't compile on my libs) and replaced
+by individual macro calls
+@
+text
+@d341 5
+d348 1
+a348 1
+  /************************** stock 30bpl19 damage spells
+a432 4
+  // Modify damage for some classes
+  if( ((GET_CLASS(ch) == CLASS_DRUID) && (SECT(ch->in_room) == SECTOR_FOREST))
+    || (GET_CLASS(ch) == CLASS_BATTLEMAGE) || (GET_CLASS(ch) == CLASS_MASTER) )
+        dam *= GET_MODIFIER(ch);
+@
+
+
+1.12
+log
+@
+Changed:
+- zombies to be max lvl of IMMORT
+@
+text
+@d1410 14
+a1423 3
+      for (int i = 0; i <= STAT_MOVE; i++) {
+        GET_REAL_STAT(mob, i) = GET_REAL_STAT(ch, i); 
+      }
+@
+
+
+1.11
+log
+@
+Changed:
+- mob CLONE level to MAX LVL_IMMORT
+@
+text
+@d1391 2
+a1392 2
+      GET_LEVEL(mob) = GET_OBJ_COST(obj);
+      GET_MAX_HIT(mob) = dice(10,GET_LEVEL(mob)) + GET_LEVEL(mob);
+@
+
+
+1.10
+log
+@
+Changed:
+- Fixed clone strings and stats
+@
+text
+@d1407 1
+a1407 1
+      GET_LEVEL(mob) = GET_LEVEL(ch);
+@
+
+
+1.9
+log
+@
+Added:
+- greater remove curse
+@
+text
+@a1399 1
+      //mob = read_mobile(MOB_CLONE, VIRTUAL);
+d1401 3
+a1403 2
+      mob->player.short_descr = str_dup(GET_NAME(ch));
+      sprintf(buf,"If you didn't know any better you'd think this was the real %s...\r\n",GET_NAME(ch));
+d1405 1
+a1406 2
+      GET_MAX_HIT(mob) = GET_MAX_HIT(ch);
+      GET_HIT(mob) = GET_MAX_HIT(mob);
+d1408 10
+d1420 5
+d1440 2
+a1441 1
+    mob->player.name = str_dup(GET_NAME(ch));
+@
+
+
+1.8
+log
+@
+Added:
+- Initial inclusion of dgscripts
+@
+text
+@d1575 4
+d1589 18
+a1606 4
+  if (!affected_by_spell(victim, spell)) {
+    if (spellnum != SPELL_HEAL)		/* 'cure blindness' message. */
+      send_to_char(NOEFFECT, ch);
+    return;
+a1608 1
+  affect_from_char(victim, spell);
+@
+
+
+1.7
+log
+@
+Removed:
+- removed a debug line
+@
+text
+@d22 1
+d1430 1
+d1437 1
+a1437 1
+      obj_to_char(tobj, mob);
+d1694 1
+a1694 1
+  obj_to_char(tobj, ch);
+d1697 1
+@
+
+
+1.6
+log
+@
+Added:
+- existing primal clones and zombies
+@
+text
+@a1438 1
+  send_to_char("Clone created...\r\n", ch);
+@
+
+
+1.5
+log
+@
+Added:
+- Ahh, too much stuff, sorry was ages since this stuff was last checked in
+@
+text
+@d1348 1
+a1348 1
+    handle_corpse = 1;
+d1353 1
+a1353 1
+/******** stock 30bpl19 Animate Dead
+d1377 39
+a1415 3
+  for (i = 0; i < num; i++) {
+    if (!(mob = read_mobile(mob_num, VIRTUAL))) {
+      send_to_char("You don't quite remember how to make that creature.\r\n", ch);
+a1416 11
+    }
+    char_to_room(mob, ch->in_room);
+    IS_CARRYING_W(mob) = 0;
+    IS_CARRYING_N(mob) = 0;
+    SET_BIT(AFF_FLAGS(mob), AFF_CHARM);
+    if (spellnum == SPELL_CLONE) {	/* Don't mess up the proto with strcpy. */
+      mob->player.name = str_dup(GET_NAME(ch));
+      mob->player.short_descr = str_dup(GET_NAME(ch));
+    }
+    act(mag_summon_msgs[msg], FALSE, ch, 0, mob, TO_ROOM);
+    add_follower(mob, ch);
+d1418 13
+d1439 1
+@
+
+
+1.4
+log
+@
+Added:
+- timers (like affects)
+- new skills, fixes
+
+TODO:
+- test timers on objects - add to stat obj screen
+@
+text
+@a1341 8
+/**************** stock 39bpl19 clone
+    msg = 10;
+    fmsg = number(2, 6);	// Random fail message.
+    mob_num = MOB_CLONE;
+    pfail = 50;	// 50% failure, should be based on something later. //
+    break;
+****************************************/
+
+@
+
+
+1.3
+log
+@
+Added:
+
+- Changes on the latest circle snapshot:
+========================================
+1/23/2000
+
+no -- gg - constants.c/structs.h: Welcome to bpl18.
+
+no -- gg - Makefile.lcc: Remove some constants I have to change every patch.
+
+no -- gg - doc/README.CYGWIN: bpl17 -> bpl18
+
+7/3/2000
+
+no -- gg - doc/license.doc: Add copyright information that seems lacking
+        elsewhere.
+
+no -- gg - build_circlemud.com: Update from author.
+
+yes -- gg - utils.h: -1 => NOBODY/NOWHERE/NOTHING cleanups.
+
+yes (and other relevant ROOM flags)
+-- gg - spells.c: spell_teleport(): No teleporting into ROOM_GODROOM.
+
+yes -- gg - spec_procs.c: Restrict pets to NPCs.
+
+yes? -- gg - interpreter.c: is_abbrev(): s/returnss/returns/
+
+yes -- gg - handler.c: affect_join(): Keep 'next' pointer for extracted
+        objects in list.
+
+no -- gg - act.wizard.c: perform_immort_invis(): Remove redundant
+        IS_NPC check.
+
+yes ? -- gg - utils.c: basic_mud_log(): Cancel message if stream hasn't
+        been initialized.
+
+7/7/2000
+
+yes ? -- gg - utils.c: mudlog(): log(var) => log("%s", var); to avoid
+        interpreting %% codes.
+
+yes - drink aliases no -- gg - db.c: parse_object(): Print the offending character.
+        check_object(): Drink aliases should last now.  The code
+        to remove the aliases shouldn't care where it is, though.
+
+no -- gg - act.item.c: name_from_drinkcon()/name_to_drinkcon():
+        Much more intelligent support for removing/adding the
+        drink name to containers.
+
+no -- gg - lib/world/obj/0.obj: An extra ~ escaped the removal of
+        object #99.
+@
+text
+@d92 2
+a93 1
+    for (tim = i->player_specials->timers; tim; tim = next_timer) {
+d96 1
+d100 2
+a101 1
+        tim->duration = -1; 
+d103 1
+a103 1
+        timer_remove(i, tim); 
+@
+
+
+1.2
+log
+@
+
+Added:
+- more shite
+@
+text
+@d188 1
+a188 2
+    if (item0 < 0) {
+      obj_from_char(obj0);
+d190 2
+a191 3
+    }
+    if (item1 < 0) {
+      obj_from_char(obj1);
+d193 2
+a194 3
+    }
+    if (item2 < 0) {
+      obj_from_char(obj2);
+d196 1
+a196 1
+    }
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d1415 13
+a1427 1
+  int hit = 0, move = 0, mana = 0;
+d1439 2
+a1440 1
+    hit = dice(1, 8) + 1 + (level >> 2);
+d1447 1
+d1449 2
+a1450 1
+    hit = dice(3, 8) + 3 + (level >> 2);
+d1458 2
+d1467 2
+d1476 2
+d1481 1
+a1484 1
+    move = 50 + dice(3, 8);
+d1488 1
+a1491 1
+    mana = 100 + dice(3, 8);
+@
+

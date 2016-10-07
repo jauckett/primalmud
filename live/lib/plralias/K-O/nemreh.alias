@@ -1,0 +1,296 @@
+3
+par
+20
+cast 'remove para'$*
+1
+4
+1234
+49
+clot anth;clot anth;clotanth;clot krom;clot krom;
+1
+4
+food
+18
+cast 'create food'
+0
+3
+123
+42
+/ welcome back to the land of warmth hitek
+0
+5
+tudor
+131
+s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+1
+7
+trickys
+34
+goto tricky;slay tricky;goto artus
+1
+5
+clock
+37
+rem pin;wear clock;rem clock;wear pin
+1
+8
+training
+101
+rem all;get suit back;get myst back;get bee back;get cloud back;wear cloud;wear suit;wear myst;wi bee
+1
+4
+fire
+18
+cast 'fire wall'$*
+1
+5
+haste
+12
+cast 'haste'
+0
+3
+com
+14
+compost corpse
+0
+3
+trh
+240
+train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train man
+1
+5
+clone
+12
+cast 'clone'
+0
+6
+dragon
+15
+cast 'dragon'$*
+1
+5
+stone
+18
+cast 'stoneskin'$*
+1
+2
+he
+20
+cast 'divine heal'$*
+1
+4
+para
+13
+cast 'para'$*
+1
+3
+lev
+53
+goss look out it's happening again nemreh is a legend
+0
+3
+div
+20
+cast 'divine prot'$*
+1
+5
+invis
+14
+cast 'invis'$*
+1
+5
+bring
+15
+cast 'summon'$*
+1
+4
+find
+15
+cast 'locate'$*
+1
+4
+tele
+15
+cast 'teleport'
+0
+3
+rec
+13
+cast 'recall'
+0
+3
+ref
+16
+cast 'refresh'$*
+1
+4
+heal
+13
+cast 'heal'$*
+1
+1
+2
+10
+rescue zys
+0
+1
+1
+4
+clot
+0
+6
+island
+208
+s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n;n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;w;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;n;w;w;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;w;w;n
+
+1
+5
+curse
+21
+cast 'remove curse'$*
+1
+5
+berry
+16
+e;e;n;e;n;e;s;w;
+1
+3
+hit
+11
+track hitek
+0
+2
+11
+6
+tag $*
+1
+6
+poison
+22
+cast 'remove poison'$*
+1
+5
+ident
+17
+cast 'identify'$*
+1
+4
+holy
+17
+cast 'holy aid'$*
+1
+3
+hes
+25
+cast 'advanced heal'spark
+0
+5
+water
+18
+cast 'waterwalk'$*
+1
+5
+armor
+32
+cast 'armor';cast 'spirit arm'$*
+1
+4
+life
+19
+cast 'sense life'$*
+1
+3
+hew
+22
+cast 'advanced heal'$*
+1
+4
+sanc
+13
+cast 'sanc'$*
+1
+3
+str
+17
+cast 'strength'$*
+1
+3
+see
+21
+cast 'detect invis'$*
+1
+5
+infra
+14
+cast 'infra'$*
+1
+5
+bless
+12
+cast 'bless'
+0
+6
+samite
+88
+s;s;s;s;s;s;s;s;s;s;s;s;s;s;w;w;w;ask richard magic;wake;n;n;w;u;n;n;d;open gate;n;n;n;e
+1
+2
+eg
+14
+east;bod guard
+1
+4
+main
+30
+d;d;e;e;e;e;e;e;s;s;d;e;enter;
+1
+2
+aa
+8
+autoloot
+0
+3
+kpr
+74
+kill priest;kick;k priest;kick;k priest;kick; k priest;kick;k priest;kick;
+1
+3
+gac
+14
+get all corpse
+0
+2
+by
+49
+buy 20 heal;put all back;buy 10 heal;put all back
+1
+6
+recall
+27
+get rec back;recite recall;
+1
+6
+darask
+77
+w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+1
+3
+lab
+41
+s;e;s;e;s;e;s;e;e;n;n;n;w;s;n;s;open blue
+1
+3
+pab
+12
+put all back
+0
+5
+drink
+38
+get skin back;drink skin;put skin back
+1
+6
+gamina
+49
+say spells please;say heal please;say heal please
+1

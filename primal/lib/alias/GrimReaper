@@ -1,0 +1,74 @@
+ds rem cannon;wield stalk
+3 cast 'divine heal' $*
+gh get all.heal for
+dh drop all.heal
+dim cast 'dim' $*
+clan  u;n;e;e;e;e;e;s;s;d;n;n;n
+main u;n;e;e;e;e;e;s;s;
+getd hold drill;cast 'detect invis';cast 'detect invis';wear blackness body;wear all;wield laser;hold jack;open for;open 2.force;open 3.force;put force 2.force;put force 2.force
+noh cast 'nohas'
+ref cast 'refresh' $*
+serp cast 'serpent' 
+test order clone sleep;$1;order clone wake;order clone stand;order clone $2;order clone get $3;order clone $4
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+ord order follow kill $1;kill $1
+7 cast 'clone'
+walk cast 'waterwalk'$*
+water cast 'waterbre' $*
+mm cast 'magic mis' $*
+id cast 'ident' $*
+5 cast 'haste'
+8 cast 'sanct' $*
+inv cast 'invis' $*
+det cast 'detect invis' $*
+blind cast 'blind' $*
+inf cast 'infrav' $*
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+sl slots max;slots max;slots max;slots max;slots max;
+qp get prot force;quaff prot
+tra train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1
+dr cast 'create water' skin;drink skin
+eat cast 'create food';eat mush
+qw get white back;quaff white
+qr get red backpack;quaff red
+wa wake;stand
+loc cast 'locate' $*
+sum cast 'summon' $*
+sleep cast 'sleep' $*
+str cast 'stren' $*
+c get coin all.corps
+re cast 'word of recall'
+life cast 'sense life' $*
+drag cast 'dragon' $*
+bh buy 20 heal;put all.heal for
+tele cast 'teleport'
+par cast 'paral' $*
+rp cast 'remove paral' $*
+1 cast 'advanced heal' $*
+tunnel s; e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;
+wh cast 'whirlwind'
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+rc cast 'remove cur' $*
+for put for 2.for
+2  get heal force;get heal force;get heal force;get heal force;get heal force;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put for 2.force
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+clone cast 'clone'
+0 group all;cast 'group sanc';ungroup
+x get all corp
+charm cast 'charm' $*
+fear cast 'fear' $*
+serve order follow serve
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+lev1 e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+bs rem laser;wield trident;backstab $1;rem trident;wield laser;ord follow kill $1
+portal s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s
+berry e;e;e;n;e;s;w
+gra grats $1 ! $1 ! your the man, if you can't level, no one can!
+z show zone $*
+94 / #94 $*
+99 / #99 $*
+100 / #100 $*

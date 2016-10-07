@@ -1,0 +1,38 @@
+8 get all corpse;wear all
+bw ba wicked
+rw remove whip;wield mace
+ww remove mace;wield whip
+bn ba norker
+bp ba piercer
+5 remove staff;hold enlibrite
+4 remove enlibrite;hold staff
+bg ba guard
+rss remove dagger;wield mace
+re remove mace;wield dagger
+cs cast 'advanced heal'
+\ cast 'word'
+ce cast 'earthquake'
+cf cast 'fireball'
+2 remove idol;hold pen
+aa get all all.corpse;save
+rl remove leggings;wear pants
+ws wake;stand
+qw q white
+rp remove pants;wear leggings
+cc cast 'heal' bigo
+3 remove crown;wear helm
+sanct cast 'sanctuary'
+ci cast 'invis'
+= open trapdoor; down
+0 remove pen;remove enlibrite;remove helm;wear crown;hold orb;hold idol
+1 remove orb;hold enlibrite
+gg get all.gold corpse
+6 use staff
+hs cast 'cure critical' scorfio
+ss cast 'serpent skin' bigo
+bm ba morkoth
+bt ba troglodyte;remove dagger;wield whip
+ha cast 'cure light' aidel
+bd ba drider;remove dagger;wield whip
+a hunt wicked
+hp cast 'cure critical' pluk

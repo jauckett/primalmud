@@ -1,0 +1,9 @@
+l ass robin
+o get all corpse
+4 get white backpack ; quaff white
+' ca 'cure light' self
+b rem sword;get knife bag;wield knife;ba $* ;rem knife;wield sword; put knife bag
+c ca 'cure light'self
+2 drink skin
+1 get bread bag;eat bread
+q get red backpack;quaff red

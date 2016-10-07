@@ -1,0 +1,9 @@
+as c 'cure light
+ga get all all.corpse; get all; junk all.corpse
+wd rem halberd; wi dagger
+wh rem dagger; wi halberd
+ba backstab $1
+bs backstab $1
+qw quaff white
+ef c 'create food'; eat mushroom
+dw drink skin

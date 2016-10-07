@@ -1,0 +1,216 @@
+    1. ID:     1 (M) [200 --] John                     0g 296019500b
+    2. ID:     2 (N) [100 --] Freako             3999850g    500000b
+    3. ID:     3 (M) [75 --] Darius                 500g         0b
+    4. ID:     4 (N) [110 --] Vader            106632638g    486334b
+    5. ID:     5 (M) [125 --] Simba            104213177g 102383500b
+    6. ID:     6 (M) [75 --] Gabe              98994203g 100000000b
+    7. ID:     7 (F) [200 --] Cassandra                0g     14440b
+    8. ID:     8 (M) [150 --] Deathblade         7132266g   9900000b
+    9. ID:     9 (M) [62 --] Friend              250090g  16000000b
+   10. ID:    10 (N) [150 --] Talisman          64738864g 189735000b
+   11. ID:    11 (M) [70 --] Listy             11089232g         0b
+   12. ID:    12 (F) [110 --] Ruprect          121414199g  96976555b
+   13. ID:    13 (M) [70 --] Indiana                  0g         0b
+   14. ID:    14 (M) [70 --] Delusion           3139575g  30000000b
+   15. ID:    15 (M) [100 --] Tarn              11178883g  40000000b
+   16. ID:    16 (M) [67 --] Nakor              5619685g      1100b
+   17. ID:    17 (F) [110 --] Misty               102911g   9637465b
+   18. ID:    18 (M) [70 --] Nightwolf           505675g         0b
+   19. ID:    19 (M) [17 --] Chevron              23742g  31144747b
+   20. ID:    20 (M) [75 --] Gnol              27098897g  54230990b
+   21. ID:    21 (M) [70 --] Flyer              8812452g 295000000b
+   22. ID:    22 (M) [76 --] Intan                  450g  20520980b
+   23. ID:    23 (M) [70 --] Dingo                16373g    390139b
+   24. ID:    24 (M) [78 --] Scorfio             271270g    900000b
+   25. ID:    25 (M) [70 --] Lefty                60784g      1650b
+   26. ID:    26 (M) [70 --] Enlibrite          7174579g         0b
+   27. ID:    27 (M) [70 --] Backspace            55018g         0b
+   28. ID:    28 (M) [70 --] Picklehead          738686g         0b
+   29. ID:    29 (M) [150 --] Dangermouse      299989472g         0b
+   30. ID:    30 (M) [75 --] Drudge              815598g    509000b
+   31. ID:    31 (M) [25 --] Talon               270206g    700433b
+   32. ID:    32 (M) [200 --] Murf                  9850g         0b
+   33. ID:    33 (F) [70 --] Kali                518201g     10107b
+   34. ID:    34 (M) [76 --] Raistlin          18748532g  71485255b
+   35. ID:    35 (M) [69 --] Uther              3188336g         0b
+   36. ID:    36 (M) [64 --] Telstar                  0g         0b
+   37. ID:    37 (M) [69 --] George             1024517g         0b
+   38. ID:    38 (M) [70 --] Harpo             99960000g       214b
+   39. ID:    39 (M) [140 --] Kodiak           121661580g   1588000b
+   40. ID:    40 (F) [125 --] Tsd                7760951g 111063587b
+   41. ID:    41 (M) [71 --] Cerin              2590957g    106200b
+   42. ID:    42 (M) [54 --] Dragonball         7086839g         0b
+   43. ID:    43 (M) [71 --] Pug                5865470g  40970000b
+   44. ID:    44 (M) [125 --] Moridin             701955g   1099550b
+   45. ID:    45 (M) [47 --] Xaviar                   0g         0b
+   46. ID:    46 (N) [70 --] Keelar                   0g         0b
+   47. ID:    47 (M) [85 --] Primer             1721497g  31500000b
+   48. ID:    48 (M) [33 --] Winston            1858490g    846064b
+   49. ID:    49 (M) [87 --] Viper            156125927g     49770b
+   50. ID:    50 (M) [100 --] Fooey                10858g         0b
+   51. ID:    51 (N) [110 --] Boz               85856127g  49329193b
+   52. ID:    52 (F) [66 --] Crystal           33256234g         0b
+   53. ID:    53 (M) [72 --] CoPhEn            39783260g         0b
+   54. ID:    54 (M) [65 --] Tak                 241325g         0b
+   55. ID:    55 (F) [69 --] Aphrodite                0g         0b
+   56. ID:    56 (M) [50 --] Fifty               828575g         0b
+   57. ID:    57 (M) [46 --] Dontknow            157532g  14000000b
+   58. ID:    58 (F) [70 --] Cailette            314546g   4000000b
+   59. ID:    59 (M) [110 --] Anon                334025g         0b
+   60. ID:    60 (F) [18 --] Saphirrah           493470g  20000000b
+   61. ID:    61 (M) [21 --] Dread                  994g         0b
+   62. ID:    62 (M) [76 --] Sarong             2121537g         0b
+   63. ID:    63 (M) [62 --] Aazza                29063g  18400000b
+   64. ID:    64 (M) [88 --] DJKD              43977602g 157365988b
+   65. ID:    65 (M) [72 --] Pow                3072803g  95000000b
+   66. ID:    66 (M) [82 --] Penfold           12134690g     90260b
+   67. ID:    67 (M) [87 --] AmaroK            22315200g  68000000b
+   68. ID:    68 (M) [12 --] Blaze               162346g         0b
+   69. ID:    69 (M) [85 --] Calin              2558999g 193904028b
+   70. ID:    70 (F) [76 --] Nerinda           15849231g   1824650b
+   71. ID:    71 (M) [68 --] Tool             410061651g         6b
+   72. ID:    72 (M) [110 --] Stormbringer      23116399g 261734035b
+   73. ID:    73 (M) [41 --] Ranther            1151157g         0b
+   74. ID:    74 (M) [100 --] Torch             52776786g 516476819b
+   75. ID:    75 (M) [100 --] Splat            261404229g 1000569859b
+   76. ID:    76 (F) [78 --] Blossum              13698g 100000000b
+   77. ID:    77 (M) [99 --] SomeBody              1092g         0b
+   78. ID:    78 (M) [110 --] Gorilla           10032904g  48000000b
+   79. ID:    79 (M) [83 --] Moe                 915940g 275189901b
+   80. ID:    80 (M) [34 --] Treeborn              7546g   4920000b
+   81. ID:    81 (M) [74 --] Yonex                71132g  14400002b
+   82. ID:    82 (M) [62 --] PeTe               1424864g   5700000b
+   83. ID:    83 (M) [47 --] Psycho             1299337g  40000000b
+   84. ID:    84 (M) [49 --] Ricky              7664813g         0b
+   85. ID:    85 (M) [15 --] Jdkbagel            512955g         0b
+   86. ID:    86 (M) [77 --] DMoC               1235692g         0b
+   87. ID:    87 (M) [94 --] Roj                2032224g 231713601b
+   88. ID:    88 (M) [15 --] Quo                      9g         0b
+   89. ID:    89 (F) [175 --] Sandii             7280043g 110000000b
+   90. ID:    90 (M) [50 --] Rod               12512147g         0b
+   91. ID:    91 (F) [64 --] Jager               374877g  40000000b
+   92. ID:    92 (F) [54 --] Octopussy         10637336g         0b
+   93. ID:    93 (M) [15 --] TodKopf              57232g         0b
+   94. ID:    94 (F) [100 --] Iceprincess        2135877g 660000000b
+   95. ID:    95 (M) [91 --] Hermen             4373393g 220000000b
+   96. ID:    96 (M) [100 --] Buff              13952754g 111246370b
+   97. ID:    97 (F) [100 --] Luna              95590001g         0b
+   98. ID:    98 (M) [14 --] Blade              2487749g         0b
+   99. ID:    99 (M) [12 --] Shifty               71024g   1750000b
+  100. ID:   100 (M) [16 --] Porky                88440g    836000b
+  101. ID:   101 (M) [46 --] Pavic              2014344g   9186000b
+  102. ID:   102 (M) [17 --] Cy                  147871g    414924b
+  103. ID:   103 (F) [11 --] Miki               1205056g         0b
+  104. ID:   104 (M) [22 --] Rage                 31278g    940900b
+  105. ID:   105 (M) [17 --] Flash              4259452g    984082b
+  106. ID:   106 (M) [11 --] Veramocor            10587g   2000000b
+  107. ID:   107 (M) [89 --] Firin             10653951g         0b
+  108. ID:   108 (M) [88 --] Blackwolf         16270506g         0b
+  109. ID:   109 (F) [80 --] Polgara           28211414g  60000000b
+  110. ID:   110 (F) [29 --] Megan                51384g       354b
+  111. ID:   111 (M) [56 --] Tormenter           447066g      6800b
+  112. ID:   112 (M) [70 --] Orifice            5165540g       767b
+  113. ID:   113 (M) [49 --] Drew                262923g   1000000b
+  114. ID:   114 (M) [15 --] Azmodius           4316955g         0b
+  115. ID:   115 (M) [11 --] HairyMonkey              0g         0b
+  116. ID:   116 (M) [73 --] Jin                 541111g         0b
+  117. ID:   117 (M) [65 --] Slyth              2362212g    841089b
+  118. ID:   118 (M) [ 9 --] Nightowl           1139642g         0b
+  119. ID:   119 (M) [100 --] Batfink            9076611g  65720809b
+  120. ID:   120 (M) [11 --] Ozymandias          410450g         0b
+  121. ID:   121 (M) [22 --] Gwydion             529371g         0b
+  122. ID:   122 (M) [23 --] Terminal            160998g         0b
+  123. ID:   123 (M) [18 --] BugMan             2611253g  10000000b
+  124. ID:   124 (M) [21 --] Sefron               19859g         0b
+  125. ID:   125 (M) [17 --] Kreth                43507g         0b
+  126. ID:   126 (M) [ 7 --] Pheonix                  0g         0b
+  127. ID:   127 (M) [15 --] Byrd                298615g    500000b
+  128. ID:   128 (M) [12 --] Zander              724515g    500000b
+  129. ID:   129 (F) [11 --] Pony                     0g         0b
+  130. ID:   130 (M) [14 --] TheJudge            303171g         0b
+  131. ID:   131 (F) [11 --] Texine               16721g   1553700b
+  132. ID:   132 (M) [17 --] Alrek                95597g    700000b
+  133. ID:   133 (M) [ 6 --] Wiz                1098129g      5000b
+  134. ID:   134 (M) [ 7 --] Drax                412959g   4500000b
+  135. ID:   135 (F) [100 --] Artus             21435910g 1000000000b
+  136. ID:   136 (M) [11 --] HK                  132585g   1588562b
+  137. ID:   137 (M) [ 1 --] Rico                  2500g         0b
+  138. ID:   138 (M) [66 --] Devin                    0g         0b
+  139. ID:   139 (M) [18 --] XGamer              353380g         0b
+  140. ID:   140 (F) [ 6 --] Jalehven            111619g    500000b
+  141. ID:   141 (M) [62 --] Age                2120307g         0b
+  142. ID:   142 (M) [15 --] Sledge              201925g         0b
+  143. ID:   143 (M) [ 5 --] MEEGs                18270g         0b
+  144. ID:   144 (M) [12 --] Sauron             2454625g         0b
+  145. ID:   145 (F) [ 6 --] Carrie                   9g         0b
+  146. ID:   146 (M) [30 --] Shrado               54881g         0b
+  147. ID:   147 (M) [17 --] Angel               101157g   1000000b
+  148. ID:   148 (M) [14 --] Neo                 527594g    504000b
+  149. ID:   149 (M) [58 --] Orbital                  1g  30053904b
+  150. ID:   150 (M) [26 --] Aznprince           219901g         0b
+  151. ID:   151 (M) [11 --] Stridor            5110200g         0b
+  152. ID:   152 (M) [15 --] Brent                23335g         0b
+  153. ID:   153 (M) [58 --] Godfather            84376g         0b
+  154. ID:   154 (M) [ 5 --] Cyvillian           786292g         0b
+  155. ID:   155 (M) [12 --] Gandalf           19424730g         0b
+  156. ID:   156 (M) [19 --] Exodus                   0g         0b
+  157. ID:   157 (M) [100 --] Razor            102047756g 300713000b
+  158. ID:   158 (M) [ 1 --] Maverick               208g         0b
+  159. ID:   159 (F) [11 --] Spike               156074g         0b
+  160. ID:   160 (M) [ 3 --] Gagar                 8548g      6050b
+  161. ID:   161 (M) [ 6 --] Cameron             267291g         0b
+  162. ID:   162 (F) [69 --] Gamina             7497443g         0b
+  163. ID:   163 (F) [64 --] Kitten                 195g   6669000b
+  164. ID:   164 (M) [69 --] Phoenix             140217g  26000000b
+  165. ID:   165 (M) [ 1 --] Fugitive                 0g         0b
+  166. ID:   166 (F) [38 --] Madison             158007g         0b
+  167. ID:   167 (M) [ 1 --] Assassin              2500g         0b
+  168. ID:   168 (M) [10 --] Jedibot                 36g         0b
+  169. ID:   169 (M) [13 --] Conan                 2680g    155000b
+  170. ID:   170 (M) [36 --] Oldepharte          155509g   2969000b
+  171. ID:   171 (F) [14 --] Kyra                 78505g   1850000b
+  172. ID:   172 (M) [10 --] Mdawg                24607g         0b
+  173. ID:   173 (M) [ 7 --] Phobos             1244588g         0b
+  174. ID:   174 (M) [18 --] Scorpion            407765g         0b
+  175. ID:   175 (M) [ 6 --] Kaedric             822655g         0b
+  176. ID:   176 (M) [10 --] Apollyon                 0g         0b
+  177. ID:   177 (M) [ 5 --] Newbie                4506g         0b
+  178. ID:   178 (F) [ 1 --] Shas                  2149g         0b
+  179. ID:   179 (M) [10 --] Holax               161796g     10000b
+  180. ID:   180 (M) [54 --] GrimReaper         6287920g  10752000b
+  181. ID:   181 (F) [30 --] CaLListO           2094102g   6500000b
+  182. ID:   182 (M) [ 1 --] Ash                   2280g         0b
+  183. ID:   183 (M) [ 1 --] Dethsor               1798g         0b
+  184. ID:   184 (M) [ 1 --] Targ                  2500g         0b
+  185. ID:   185 (M) [ 1 --] Vahn                   530g         0b
+  186. ID:   186 (M) [ 1 --] Drackon                518g         0b
+  187. ID:   187 (M) [ 1 --] Revelation               0g         0b
+  188. ID:   188 (M) [ 1 --] Exo                      0g         0b
+  189. ID:   189 (M) [ 1 --] Jacob                 2500g         0b
+  190. ID:   190 (M) [ 1 --] Scotrex               2500g         0b
+  191. ID:   191 (M) [ 1 --] Sindrake              2192g         0b
+  192. ID:   192 (M) [ 1 --] Peacecraft            2500g         0b
+  193. ID:   193 (M) [ 1 --] Deathstalker             0g         0b
+  194. ID:   194 (M) [ 1 --] Elusius               2500g         0b
+  195. ID:   195 (M) [ 1 --] Dez                   2221g         0b
+  196. ID:   196 (F) [ 1 --] Asyrra                2500g         0b
+  197. ID:   197 (M) [ 1 --] Jamm                  2500g         0b
+  198. ID:   198 (M) [ 1 --] Jammhelper            2500g         0b
+  199. ID:   199 (M) [ 1 --] Decypher              2500g         0b
+  200. ID:   200 (M) [ 1 --] Holdit                2500g         0b
+  201. ID:   201 (M) [ 1 --] Virgoskater           2500g         0b
+  202. ID:   202 (M) [ 1 --] TonyClifton           2509g         0b
+  203. ID:   203 (M) [ 4 --] Ryu                  18897g         0b
+  204. ID:   204 (M) [ 1 --] Andylau                 24g         0b
+  205. ID:   205 (M) [ 1 --] IMaTuRe               2500g         0b
+  206. ID:   206 (F) [ 1 --] DeBz                  2500g         0b
+  207. ID:   207 (F) [ 1 --] Lost                     0g         0b
+  208. ID:   208 (M) [ 1 --] Boo                   2500g         0b
+  209. ID:   209 (M) [ 1 --] Emi                   2500g         0b
+  210. ID:   210 (F) [ 1 --] Titiana               1988g         0b
+  211. ID:   211 (M) [ 1 --] Dahkesh               2500g         0b
+  212. ID:   212 (F) [ 1 --] Sage                  2500g         0b
+  213. ID:   213 (M) [ 1 --] POrNsTa               2500g         0b
+  214. ID:   214 (M) [ 1 --] Louis                 2499g         0b
+  215. ID:   215 (M) [ 1 --] Domjac                 167g         0b
+  216. ID:   216 (F) [ 1 --] SuSuSukia             2500g         0b

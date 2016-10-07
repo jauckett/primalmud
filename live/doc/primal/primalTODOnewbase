@@ -1,0 +1,332 @@
+================================================================================
+                                New Base TODO 
+================================================================================
+ 
+                                  PrimalMUD
+ 
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+ 
+                                PrimalMUD v3.0
+                    Revamped by Michael Dishon, Jason Theofiles
+                               and Sandii Barrat
+                                                                 
+================================================================================
+
+This file is kept under the repository at:
+newprimal/docs/primalTODOnewbase
+
+If any changes are made and you do not have access to them, please email them
+to myself (Dangermouse). Further please note that this is a text file, and
+if any changes are made, they should be saved as text only.
+
+Add names of emails if they dont exist here:
+-==========================================-
+mbdishon@optushome.com.au	Dangermouse
+tali@ains.net.au		Talisman
+sandii@scuis.net.au		Sandii
+bigsexy1@labyrinth.net.au	Stormbringer
+oztsd@eisa.net.au               Tsd
+furst@eisa.net.au               Moridin
+boz@thespark.com                Boz
+
+Notes:
+-====-
+Colour codes for the personal colour system (see primalColours) should be used
+now where appropiate.
+
+If you feel like contributing or know anyone that does, email talisman, sandii 
+and myself and I'm sure we'll find something for you to do.
+
+Legend:
+-=====-
+(percentage complete)				(Majorly in charge of files)
+
+99% means ready for testing.
+
+ALL:
+-==-
+( 0%) Check/Define rules and policies for gods (immortal handbook)
+( 0%) Check/Fix the existing policy
+
+
+DM:
+-=-
+
+(100%) mudmail dmoc about coding - get base try and show tali
+
+( 0%) create primal-new-spells 
+
+(50%) Check code for renumbering of haven
+
+(99%) Communication/Channels, Colors 	
+(99%) - ignoreall command - ignore all channels - work both ways
+(99%) - newbie channel logging
+(99%) - newbie info channel show tips every x minutes
+(0%)  - punishment channel
+
+(99%) Paging, colours
+(0%)  - Double check page code on easy colour  		
+
+(99%) New Spell loading system
+(99%) - Modify help loading - write at load time spells.hlp and add to help
+(99%) - index
+(99%) - Reloading system (help, text files, vars etc...)
+
+( 0%) score command - toggling
+      - Get from Tali
+
+(99%) Info commands 			
+      - do something with newbie handbook
+
+( 0%) Set Commands - check restrictions/ranges
+      - show tali the prob with defines in the set array
+
+(99%) Max DR/HR - increase from size of char (127)
+> changed to sh_int (-32k - 32k)
+
+( 0%) PK code - (exp, define - must talk about in meeting)
+      - exp for pkilling
+
+( 0%) Level of all privilleged commands 
+
+(95%) poofin/poofout saves	
+(99%) - messages - they where they ones causing spec messages - outputing wrong
+        buf or something
+
+( 0%) Search for FIX, TODO, make list
+
+(99%) Autoloot/gold - work on clones
+
+(99%) Spell/Skill displaying commands
+      - Check output with sandii
+
+(99%) Charming (automatic/random - goblin) - look at/fix
+- had a look, didnt see it playing up
+
+( 0%) Gun code
+
+(97%) OLC extras and fixups
+ (99%)- check all object types - also updated stat object command
+ ( 0%)- check other extras
+
+(99%) Room Display Info - look at brief/compact
+      - Scan descriptions for keywords in room and highlight
+
+(99%) Addition of all commands				
+      - check levels
+
+(99%) Fight System
+      - check haste
+
+(99%) House object limits - 500
+> There does not seem to be a limit on house objs, just the amount you can
+> save/rent on you - I changed it to 100.
+
+(25%) New Spells/Class deciding of spells
+(10%) New Skills from primal-new-skills
+
+( 0%) Grouping: Mana Pool - distance dependant on usage, add inform messages 
+        xxx casts yyy <zzz> mana used or something (Boz)
+
+(99%) Add legend level - 120
+
+(99%) Exp System
+        level <class> feature (for gods)
+
+(??%) Thaco, AC - find AC in fight.c search for DM - TODO 
+
+( 0%) Come up with Test Plans
+
+(95%) Update all code associated with personal colour system
+
+(95%) Player Convert (waiting for the final struct)
+
+( 5%) Document all new features, changes in primalChanges
+
+( 0%) Punishment policy/rules?
+
+( 0%) Corpse retrieval and saving
+
+( 1%) Ban code - allow ip addys and networks (base like linux firewall code)
+      - autobanning for say 9 fail password attempts?
+      - num days banned - auto remove
+      - change last ip to last successful ip (add last unsuccessful?)
+
+( 1%) New Clan Code ()
+
+
+
+Complete:
+---------
+(99%) Wiz Commands 				
+(99%) Existing Clan Code	
+(99%) Death Trap detection for thieves 		
+(99%) add personal color system - &0 - &9
+(99%) Fighting hang bug
+         
+
+Tali:
+-===-
+
+(95%) Classes, including modifiers
+
+(??%) Races 
+       - remove kenda, changling, orc
+       - handling of new eq positions 
+       - adjust specials to decided race types
+
+(95%) Remort			
+       - implement the new system (0-50),(0-[75,100]),(0-100)
+       - check that u do infact get benefits on going to 100 after first remmort
+         (ie. the specialisation in that class)        
+
+(80%) Game Entering States
+       - check for existing help on classes/races - add new help (assigned
+        sandii to be responsible for writing the help)
+       - update for the decided races 	
+
+
+(??%) New Skills from primal-new-skills
+       - Energise - transfer mana to target (Boz)
+       - Victim cant cast spells/recite scrolls/quaff stuff (silence) (Boz)
+
+(??%) Mounts
+       - add breakin skill - make mounts cha dependent, add buck etc
+
+( 0%) Immlist - check for bugs
+
+( 0%) Commands command - tree type (navigatable)
+
+( 0%) New eq positions
+
+(??%) Saving Throws
+
+(??%) Auction - random items
+
+(??%) Quest Log Code (add quest obj types)
+       - restrict usage of quest eq to owners
+       - search on player/objs for quest items
+       - renaming of title of quest eq - keywords?
+       - quest stats purchasable
+					
+( 0%) Come up with Test Plans
+
+( 0%) Fix up casino stuff
+
+Completed:
+----------
+(99%) track/hunt 	
+(99%) Implement mob classes and set undead
+(99%) Loading lib files 		
+(99%) Traps and hidden items	
+(99%) boards		
+
+(99%) Command to see who is fighting you at one time
+(99%) Command to switch who you are fighting (with more than 1 mob)
+
+Unassigned
+-=========-
+( 0%) Quest System(s)
+        gems - trade for exp/quest points ...
+
+********************************************************************************
+Ideas: (on the back-burner)
+
+- quest logging system - make it log the date, type, characters, winner, prizes
+  into a file
+
+- eq sizes (blacksmith, tailor for resizing) - might be a pain in the arse I think
+
+( 0%) Immortal System
+  - immortal entertainment system
+
+( 0%) File Buffer Paging System
+( 0%) filevar type classes 
+( 0%) Dynamic Global Vars which are saved to file (used filevar types)
+
+( 0%) Rooms
+       - Descriptions for night/day - special descriptions
+       - Fire - make rooms able to catch fire - make it able to spread, and be put out
+       - Flooded - similar to fire ...
+
+( 0%) Explosives
+       - Mortal - implement some kind of explosives.
+       - Immortal - blow up a zone
+
+- Spell/Skill fortify room (idea by Artus): Once cast (or performed) on a room,
+  mobs cannot enter room until the caster moves from the room. A med-high
+  level skill and a high level spell. Could extend it to stoping PCs, but this
+  will require the addition of a !FORTIFY zone flag. 
+
+  affected stats for spell: int, con, str, wis
+  affected stats for skill: con, str, int
+
+  Resistance level could be calculated via the stats given above.
+
+- make mail saveable ...
+  
+********************************************************************************
+
+TSD:
+-==-
+(99%) Socials text file typos, relevance
+
+( 0%) New Quest Eq			
+        just modify existing stats
+
+( 0%) Quest Ideas
+
+Sandii:
+-=====-
+(??%) Write help for classes and races
+        Add the stuff DM wrote up
+
+(??%) Check duplicate items with same vnums
+
+(??%) Processing latest "typos" and "ideas" file
+
+(??%) Process latest "bugs" file
+
+(??%) Clean up log files
+
+(??%) Re-arrange Haven?
+
+(25%) The estate
+
+(??%) Update all text associated with personal colour system
+
+(??%) Update primal_building_doc - incorporate circle v3.0 building doc
+> (DM) any changes affected I have updated
+
+(---) Assign and delegate jobs to other gods
+
+Completed:
+----------
+(99%) Giving all mobs classes
+(??%) Building (zone modifications) - see primalminutes 
+(99%) Convert spell help to spell file 
+(??%) Help files (colour would be nice :p)
+
+Stormbringer:
+-===========-
+(99%) Added Socials - but need typo/relevance testing (TSD?)
+(99%) Giving all mobs classes
+( 0%) Testing (results on balance/bugs/typos etc...)
+
+Kodiak:
+-=====-
+
+Moridin:
+-======-
+( 0%) Give details of building recruitment to DM
+
+Boz:
+-==-
+(99%) Renumbering of haven to zone 11
+
+Hal (ignore):
+-===========-
+(99%) Auction System
+( 0%) Extra Clan Code (what exactly do we want?)

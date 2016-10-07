@@ -1,0 +1,57 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@km kill dragonfly
+kill boar
+y reply
+3 prac create food
+4 prac infravision
+2 prac create water
+1 prac cure light
+ss say
+qw quaff white
+br buy red
+bw buy white
+sc score
+grb get red back
+gwb get white back
+qr quaff red
+gf get all corpse
+t tell moe
+l look
+al alias
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

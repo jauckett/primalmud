@@ -1,0 +1,171 @@
+#3600
+sewer rat~
+a sewer rat~
+A mutated rat of the sewer is here
+~
+   Twice the size of a normal rat, this rat could inflict a bit of damage if it
+was hungry enough
+~
+76 1064 -400 E
+15 10 10 1d1+300 2d50+14
+0 15000
+8 8 0
+BareHandAttack: 4
+E
+#3601
+Blob~
+the BloB~
+A blob of sewage gluggles before you
+~
+utter shit
+~
+32842 1064 -500 E
+15 5 10 1d1+625 3d50+15
+8500 35000
+8 8 0
+E
+T 3602
+#3602
+baby rat~
+a baby mutated rat~
+A baby mutated rat scampers around
+~
+A baby mutated rat, twice the size of a normal rat
+~
+12 1024 -350 E
+12 13 11 1d0+200 10d7+7
+1000 10000
+8 8 0
+BareHandAttack: 4
+E
+#3603
+portal serpent~
+the Portal serpent~
+The Portal serpent slithers here
+~
+A serpent of the ancestors of Haven, raised to protect intruders from entering the secret room
+~
+32874 33832 -600 E
+10 11 10 1d1+300 10d10+10
+1500 15000
+8 8 0
+BareHandAttack: 6
+E
+T 3603
+T 3605
+T 3627
+T 3628
+#3604
+ghost serpent~
+Ghost of the portal serpent~
+The ghost of the portal serpent hovers here
+~
+l
+~
+106602 140330 -600 E
+10 10 10 1d0+315 10d10+10
+1000 17500
+8 8 0
+BareHandAttack: 6
+E
+T 3603
+T 3605
+#3605
+Frog~
+a small frog~
+A frog tries to hide from you here
+~
+Covered in sludge this frog is better left to roam freely on its own.
+~
+12 0 -350 E
+10 16 12 1d10+250 3d10+5
+1000 7500
+8 8 0
+BareHandAttack: 4
+E
+#3606
+town drunk~
+the town drunk~
+The town drunk struggles to stand here
+~
+This old man is constantly drunk. Unshaven and unbathed he only lives for his grog.
+~
+4204552 1024 -500 E
+15 8 10 1d1+600 10d15+13
+5000 35000
+8 8 1
+BareHandAttack: 13
+E
+T 3606
+T 3609
+#3607
+ninja turtle~
+a mutated turtle~
+A mutated turtle wonders here
+~
+This turtle has bee exposed too long to the sewers of Haven.  He has mutated
+into a turtle that thinks and talks!  He has been trained in the martials arts!
+So is now known as a ninja turtle!    
+~
+524440 1064 0 E
+15 12 10 1d1+450 7d9+9
+100 30000
+8 8 1
+BareHandAttack: 13
+E
+#3608
+Feral cat~
+a feral cat~
+A fugly feral cat hisses at you here
+~
+A black feral cat, abondoned by it's owner has take up refuge in the sewers
+~
+581676 1064 -1000 E
+13 10 10 1d1+500 10d10+13
+2000 24000
+8 8 0
+BareHandAttack: 8
+E
+T 3610
+#3609
+Platypus~
+the female platypus~
+The female platypus lies here resting
+~
+Lined with waterproof fur from head to tail, and a black bill a few inches long. She doesn't leave the nest as she is carrying some young platypus' in her pouch.
+~
+4845674 272639080 -800 E
+20 5 8 100d0+824 10d15+15
+12000 75000
+5 5 2
+BareHandAttack: 8
+E
+#3610
+male platypus~
+the Male platypus~
+The Male platypus is here searching for food
+~
+Lined with waterproof fur from head to tail, and a black bill a few inches long. His tail is a very efficient swimming device. He is the food searcher while his partner raises the young.
+~
+1697850 281018472 -800 E
+20 5 8 1d0+824 10d15+15
+13000 75000
+8 8 1
+BareHandAttack: 8
+E
+#3611
+flushed gold goldfish fish~
+a flushed goldfish~
+A flushed goldfish swims here, free!
+~
+   Once someone's pride and joy, this poor fishy got flushed down the dunny
+when the owner decided owning a fish was too hard.  It has grown to a gigantic
+preportion, atleast twice the size of a standard fully grown gold fish!    
+~
+16524 4195560 0 E
+20 10 10 1d5+800 10d10+10
+100 100000
+8 8 0
+BareHandAttack: 4
+E
+$

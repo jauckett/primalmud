@@ -1,0 +1,61 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ncig put cig blue
+cig get cig blue; : sparks his ciggie up with style and looks at you inquisitively...
+clone cast 'clone'
+h rem mocc; wear mocc
+home cast 'word'
+dw drink water
+bs backstab
+wb cast 'waterbreathe'
+ww cast 'waterwalk'
+di cast 'detect invisibility'
+gac get all all.corpse
+charm cast 'charm' $1
+cl cast 'cloud'
+tele cast 'teleport'
+locate cast 'locate' $1
+wake wake; stand
+kk ungroup
+? recite scroll $1
+gate cast 'dimensional gate' $1
+invis cast 'invisibility'
+dragon cast 'dragon'
+cw give white clone; give white 2.clone; o followers quaff white
+summon cast 'summon' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

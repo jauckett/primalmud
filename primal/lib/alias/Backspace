@@ -1,0 +1,72 @@
+flexes his muscles .. starting to cramp up.
+hd cast 'heal' del
+wt cast 'wraith touch' $1
+sd cast 'strength' del
+ac cast 'advanced heal' carn
+hk cast 'advanced heal' killemall
+clo c 'clone'; c 'clone'; c 'infra' 1.clone; c 'infra' 2.clone
+qq get ton field; get ton field; q ton; q ton
+yc track cloud
+qa get tonic crate; q tonic
+ws wake; stand
+tw track wench
+tt track trojan
+new rem jew; wear somb;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;cast 'refresh' backspace;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;w;w;w;cast 'refresh' backspace;n;n;n;w;s;w;n;w;w;s;w;w;rem somb; wear jew
+te track eagle
+dg c 'dimensional gate' $1; open gate; go gate
+gr grats ~-_-~-_-~-_-~ Keep up the good work $1 ~-_-~-_-~-_-~
+z e; get corpse; w
+ah c 'advanced heal'
+chi emote eats a chilli and covers you in a ring of fire.
+stren c' strength' $*
+ref c 'refresh' backspace
+str c 'strength' $1
+inf c 'infrav' backspace
+gc get all.coins corpse
+arm cast 'armor' backspace
+gac get all corpse
+di c 'detect inv' backspace
+mush c 'create f'; eat mushroom
+wor c 'word of recall'
+sum c 'summon' $1
+he c 'heal' backspace
+jc get corpse; junk corpse
+cw c 'create w' skin
+sanc c 'sanct' backspace
+earth c 'earth' 
+sen c 'sense life'
+cp c 'charm person' $1
+inv c 'invis' backspace
+rp c 'remove poison' backspace
+ww c 'waterw'
+ha c 'harm' $1
+inn s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e
+fin c 'finger' $1
+j junk $1
+ds drink skin
+dri w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s
+blt d;s;s;s;w;s;e;e;s;w;w;w;s;s;e;n;u;n;e;e;e;e;s;s
+dr c 'dragon' self
+qw open field; get white field; close field; quaff white
+cf cast 'create food' ; eat mushroom
+aa open field; get bottle field; quaff bottle; close field
+pa cast 'paralyze' $1
+tun s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;u
+pp cast 'paralyze' $1
+ton buy 20 #10; put all.tonic field
+ok order followers kill $1
+or order followers kill
+tr track roper
+fb cast 'fireball' $1
+tc track corporal
+hp cast 'heal' psy
+sb cast 'sleep' bandit
+pb cast 'para' bandit
+ip cast 'invis' psy
+sl cast 'sleep' $1
+sp cast 'sanc' psy
+pg cast 'paralyze' guard
+cl cast 'cloud kill'
+ss cast 'serpent skin' eye
+hm cast 'heal' moo
+hg cast 'advanced heal' god

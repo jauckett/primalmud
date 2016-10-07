@@ -1,0 +1,82 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@kt kill traveller
+kg kill goblin
+gac get all corpse
+ksnake kill snake
+ku kill undead
+kowl kill owl
+kill kill
+kcc kill cat
+ko kill orc
+kwc kill cat
+kvb kill bat
+ts tell stormbringer
+ev evileye
+kr kill rat
+kglad kill gladiator
+kdrunk kill drunk
+boar kb
+kic kis cerin
+ci cast 'infravision'
+ka kill alter
+rr recite recall
+kf kill infan
+drink skin ds
+cf cast 'create food' ; eat mush
+cc cast 'cure light' $*
+ds drink skin
+em eat meat
+eb eat bread
+p traveller
+tg tell gwydoin
+tc tell cerin
+kl kill lizard
+kv kill vampire
+cm cast 'create food'
+kw kill warrior
+ke kill enfan
+ks kill stirge
+kc kill citizen
+kp kill python
+kj kill janitor
+kb kill beggar
+kd kill dog
+km kill merchant
+ggc get gold all.corpse
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

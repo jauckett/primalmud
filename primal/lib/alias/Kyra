@@ -1,0 +1,14 @@
+em get mush force; eat mush
+cm cast 'create food' ; put all force
+dw get skin force; drink skin
+qp get prot force; quaff prot
+qh get heal force; quaff heal
+pf put all force
+lf look in force
+qd wear all
+ws wake;stand
+gac get all corpse
+gb get bread back; eat bread
+infra cast 'infra'
+bless cast 'bless'
+cw cast 'create water' skin

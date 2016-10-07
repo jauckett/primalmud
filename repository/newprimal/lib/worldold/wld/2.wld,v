@@ -1,0 +1,2822 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.29;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.42;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#188
+The Palace of Virtual.~
+You are inside the abode of Virtual. 
+~
+1 6364 0
+D1
+Eternals' Avenue
+~
+~
+0 0 190
+S
+#189
+Intan's Palace!.~
+You are inside Intan's Palace.  It is simply breathtaking.  
+You are lost for words.
+~
+1 6364 0
+D3
+Eternals' Avenue
+~
+~
+0 0 190
+S
+#190
+Eternals' Avenue~
+You are walking down Eternals' Avenue. There are Villas here.
+~
+1 8395868 0
+D1
+You see Intan's huge Palace looming before you.
+~
+~
+0 0 189
+D2
+Eternals' Avenue
+~
+~
+0 0 193
+D3
+You see Virtual's Palace.
+~
+~
+0 0 188
+S
+#191
+The Temple of DOOM!~
+This is where Indiana lives.
+~
+1 6364 0
+D1
+Eternals' Avenue
+~
+~
+0 0 193
+S
+#192
+Primers Palace~
+You stand in the home of Primer.  It is a Dark and rather musty
+smelling building.  All maner of rare treasures litter the floor
+discarded as if of little monetary value.  You see a well oiled
+leather whip hung on the wall.  A trusty Zippo lighter sits on a
+well carved rock pedestal.
+Your obvious exit leads East through what appears to be a cave
+opening.  In the middle of town.  How strange!.
+~
+1 6364 0
+D3
+Eternals' Avenue
+~
+~
+0 0 193
+S
+#193
+Eternals' Avenue~
+You are walking down Eternals' Avenue. There are Villas here.
+~
+1 8395868 0
+D0
+Eternals' Avenue
+~
+~
+0 0 190
+D1
+You see Primer's Palace.
+~
+~
+0 0 192
+D2
+Eternals' Avenue
+~
+~
+0 0 196
+D3
+Temple Of DOOM!
+~
+~
+0 0 191
+S
+#194
+Cailette's Sanctuary~
+You are standing in Cailette's Mansion.  
+~
+1 16783580 0
+D1
+Eternals' Avenue
+~
+~
+0 0 196
+D2
+Spare room
+~
+~
+0 0 414
+S
+#195
+The Great Boz's Circus~
+You are standing in Room where trapeze artists fly above.
+There are lion tamers cracking whips and clowns jumping around
+being silly. You wonder does boz actually have any real control
+here or not. 
+~
+1 6364 0
+D3
+Eternals' Avenue
+~
+~
+0 0 196
+S
+#196
+Eternals' Avenue~
+You are walking down Eternals' Avenue. There are Villas here.
+~
+1 8395868 0
+D0
+Eternals' Avenue
+~
+~
+0 0 193
+D1
+Boz's Circus.
+~
+~
+0 0 195
+D2
+Eternals' Avenue
+~
+~
+0 0 199
+D3
+Cailette's Sanctuary.
+~
+~
+0 0 194
+S
+#197
+Q ContinUum~
+You are inside the house of Pkunk,  of the Q continuum.  Beats me why the
+Q need houses in the first place.
+~
+1 6364 0
+D1
+Eternals' Avenue
+~
+~
+0 0 199
+S
+#198
+Empty Palace for Sale~
+This is an empty palace for sale.. Feel free to wander around and have a
+look at the splendour of this mighty palace!
+~
+1 16783580 0
+D3
+Eternals' Avenue
+~
+~
+0 0 199
+S
+#199
+Eternals' Avenue~
+You are walking down Eternals' Avenue. There are Villas here.
+~
+1 8395868 0
+D0
+Eternals' Avenue
+~
+~
+0 0 196
+D1
+~
+~
+0 0 198
+D2
+Eternals' Clubhouse
+~
+~
+0 0 102
+D3
+~
+~
+0 0 197
+S
+#200
+Southbank Road.~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D0
+Calrain & Abulafia's House.
+~
+~
+0 0 270
+D1
+~
+~
+0 0 1
+D2
+~
+~
+0 0 272
+D3
+Southbank Road
+~
+~
+0 0 238
+S
+#236
+Abulafia's House~
+Abulafia's House
+~
+1 6364 0
+D3
+~
+~
+0 0 270
+S
+#237
+Storm Spike~
+You are in Calrain's House
+~
+1 6364 0
+D1
+Living Room
+~
+~
+0 0 270
+S
+#238
+Southbank Road.~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 0 240
+D1
+Southbank Road.
+~
+~
+0 -1 200
+D2
+~
+~
+0 0 239
+D3
+Southbank Road
+~
+~
+0 0 241
+S
+#239
+Entrance to Stormies, Torches and Splats houses~
+You are standing in the foyer of the apartments belonging to
+Stormbringer,Torch and Splat.
+~
+1 6364 0
+D0
+Southbank Road.
+~
+~
+0 0 238
+D1
+~
+~
+0 -1 400
+D2
+~
+~
+0 -1 402
+D3
+~
+~
+0 -1 401
+S
+#240
+Anon's House~
+You are standing in the magnificent abode of the Master Anon.
+~
+1 6364 0
+D2
+Southbank Road
+~
+~
+0 0 238
+S
+#241
+Southbank Road~
+You are walking along Southbank Road. There are Houses here.
+~
+1 0 1
+D1
+Southbank Road.
+~
+~
+0 -1 238
+D2
+~
+~
+0 0 242
+D3
+Southbank Road
+~
+~
+0 0 244
+S
+#242
+The rOsE cLuB~
+This is where Rosebud Lives.
+~
+1 6364 0
+D0
+Southbank Road.
+~
+~
+0 0 241
+S
+#243
+IcySting's House.~
+~
+1 6364 0
+D1
+Living Room
+~
+~
+0 0 272
+S
+#244
+Southbank Road.~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D0
+Deathblade's House.
+~
+~
+0 0 246
+D1
+Southbank Road.
+~
+~
+0 0 241
+D2
+~
+~
+0 0 245
+D3
+Southbank Road
+~
+~
+0 0 247
+S
+#245
+Raistlin's House~
+You are in Raistlin's House, which is a total mess. This boy never cleans
+up after himself. Lots of armour on the floor, blunt weapons and pieces
+of left over pizza!!! To your east you see Raistlin's bedroom and to your
+south is Raistlin's pile of junk
+~
+1 6364 0
+D0
+Southbank Road.
+~
+~
+0 0 244
+S
+#246
+House of Deathblade~
+As you enter the house the noise from the street fades.
+You are walking on a bed of pine needles, through a huge forest.
+Mighty pine trees stretch endlessly in all dirctions, illuminated only
+by the green-tinged shafts of sunlight that occasionally win past the
+canopy above.
+Birdsong sometimes rises above the rushing of wind through the trees, and
+the rare glimpse of movement between the trunks betrays the presence of
+animals in the pine forest.
+The pine needles have gathered against the trunk of a truly ancient pine,
+making the most comfortable bed you have ever seen.
+This looks to be a good place to rest for a while.
+
+~
+1 6364 0
+D2
+Southbank Road
+~
+~
+0 0 244
+S
+#247
+Southbank Road.~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 0 249
+D1
+Southbank Road.
+~
+~
+0 0 244
+D2
+~
+~
+0 0 248
+D3
+Southbank Road
+~
+~
+0 0 250
+S
+#248
+The House of Tel.~
+This house belongs to the infamous Telstar.
+~
+1 6364 0
+D0
+~
+~
+0 0 247
+S
+#249
+Too dark to tell~
+You are currently standing in Karma's House.  This is where Karma
+spends his nights, when he's not busily building more rooms around the
+place, and expanding the universe.  The place is bright, and nicely
+decorated. Two strange devices sit in the corner, with words flashing
+across them.  You assume Karms uses these to create and destroy.
+~
+1 6364 0
+D2 Southbank Road
+~
+~
+0 0 247
+S
+#250
+Southbank Road.~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 0 252
+D1
+Southbank Road.
+~
+~
+0 -1 247
+D2
+~
+~
+0 -1 395
+D3
+Southbank Road
+~
+~
+0 0 253
+S
+#252
+Tarn's Castle~
+You stand in an enormous open room. In the middle of the room is a red
+glowing pit. Doors stand to the east and west, and at the back, a 
+rickety staircase leads up through a hole in the roof.
+~
+1 6364 0
+D1
+Library
+~
+~
+0 0 411
+D2
+Southbank Road
+~
+~
+0 0 250
+D3
+Map Room
+~
+~
+0 0 412
+D4
+Tower
+~
+~
+0 0 409
+D5
+Dungeon
+~
+~
+0 0 410
+S
+#253
+Southbank Road.~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 0 255
+D1
+Southbank Road.
+~
+~
+0 -1 250
+D2
+~
+~
+0 0 254
+D3
+Southbank Road
+~
+~
+0 0 256
+S
+#254
+Dangermouse's House.~
+You are standing in a mouse house.
+~
+1 6364 0
+D0
+Southbank Road.
+~
+~
+0 0 253
+S
+#255
+Stardock~
+Inside you see the house of Pug.  There is a small wooden table with a
+candle.  In the hearth burns a fire.  On the walls are shelves filled with
+potions, books, and rolls.  There is a small bed with a straw tick and a
+thick quilt.
+~
+1 6364 0
+D2
+Southbank Road
+~
+~
+0 0 253
+S
+#256
+Southbank Road.~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D1
+Southbank Road.
+~
+~
+0 -1 253
+D2
+~
+~
+0 0 257
+D3
+Southbank Road
+~
+~
+0 0 259
+S
+#257
+Tak's House~
+You are standing in Tak's Home.
+~
+1 16783580 0
+D0
+Southbank Road.
+~
+~
+0 0 256
+S
+#259
+Southbank Road.~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 0 261
+D1
+Southbank Road.
+~
+~
+0 -1 256
+D2
+~
+~
+0 0 260
+D3
+Riverside Avenue
+~
+~
+0 0 262
+S
+#260
+Ndarki's House~
+You are standing in Ndarki's house.
+~
+1 16783580 0
+D0
+Southbank Road.
+~
+~
+0 0 259
+S
+#261
+Mafia's warehouse~
+this is the main room of Jnr's warehouse.
+~
+1 6364 0
+D2
+Southbank Road
+~
+~
+0 0 259
+S
+#262
+Riverside Avenue~
+You are at an intersection of Southbank Road and Riverside Avenue, which runs North
+and South.
+~
+1 0 1
+D0
+Riverside Avenue
+~
+~
+0 0 264
+D1
+Southbank Road.
+~
+~
+0 -1 259
+D2
+Riverside Avenue
+~
+~
+0 0 263
+S
+#263
+Riverside Avenue~
+You are travelling along the picturesque Riverside Avenue. There are houses here.
+~
+1 0 1
+D0
+Riverside Avenue
+~
+~
+0 0 262
+D1
+~
+~
+0 -1 265
+D3
+~
+~
+0 0 266
+S
+#264
+Riverside Avenue~
+You are travelling along picturesque Riverside Avenue. There are houses here.
+~
+1 0 1
+D0
+Riverside Ave
+~
+~
+0 0 276
+D1
+A House
+~
+~
+0 -1 267
+D2
+Riverside Avenue
+~
+~
+0 0 262
+D3
+A House
+~
+~
+0 0 268
+S
+#266
+House For Sale~
+This House is Empty.
+~
+1 6364 0
+D1
+Riverside Avenue
+~
+~
+0 0 263
+S
+#267
+Martindale Hall~
+This House is Empty.
+~
+1 6364 0
+D3
+Riverside Avenue
+~
+~
+0 0 264
+S
+#268
+House For Sale~
+This House is Empty.
+~
+1 6364 0
+D1
+Riverside Avenue
+~
+~
+0 0 264
+S
+#270
+Abulafia & Calrain's House~
+You are standing in the living room of Cal & Abu's House.
+~
+1 0 1
+D1
+Abulafia's Storeroom
+~
+~
+0 0 236
+D2
+Southbank Road
+~
+~
+0 0 200
+D3
+Calrain's Store Room
+~
+~
+0 0 237
+S
+#271
+Cerins House~
+This is where cerin lives.        
+~
+1 6364 0
+D3
+Living Room.
+~
+~
+0 0 272
+S
+#272
+Southbank Road~
+You are walking along Southbank Road. There are houses here.
+~
+1 0 1
+D0
+Southbank Road.
+~
+~
+0 0 200
+D1
+~
+~
+0 0 271
+D2
+~
+~
+0 0 294
+D3
+~
+~
+0 0 243
+S
+#275
+Tsd's Quest Room.~
+You are standing in Tsd's Quest room, the finest Quest Room on the MUD! :D
+~
+1 6364 0
+D0
+Immortals' Walk
+~
+~
+0 0 284
+S
+#276
+Riverside Avenue~
+You are travelling along picturesque Riverside Avenue. There are houses here.
+~
+1 8 0
+D1
+House for Sale
+~
+~
+0 0 277
+D2
+Riverside Ave
+~
+~
+0 0 264
+D3
+~
+~
+0 0 278
+S
+#277
+Dreamweaver & DMoC's Foyer~
+From where you stand you see a ladder going up and down. This room looks like
+an entrance to the houses of Dreamweaver and DMoC. As you look around, you 
+marvel at the modern decorations and displays put up on the walls. It looks 
+like an expensive place to stay at, probably too expensive!
+~
+1 6364 0
+D3
+Riverside Avenue
+~
+~
+0 0 276
+D4
+Dreamweaver's Loft
+~
+~
+0 0 407
+D5
+DMoC's Cellar
+~
+~
+0 0 408
+S
+#278
+Talisman's Foyer~
+Posh decorations line the walls, reaching up to the high ceiling of this
+long corridor, lit by the flickering glow of candles. Eloquently carved
+ancient furniture provides comfortable respite for the weary traveller
+seeking an audience with the lord of the manor. Spiralling stairs curve
+up into a dark recess in the ceiling, leading away into darkness.
+
+~
+1 6364 0
+D0
+You can only make out a dark room.
+~
+~
+0 -1 403
+D1
+Riverside Avenue
+~
+~
+0 0 276
+D2
+A seemingly spacious and well lit room.
+~
+~
+0 -1 404
+D3
+Pictures decorate the walls, and you can hear some
+light music drift through the archway.
+~
+~
+0 -1 405
+D4
+Peering up the spiral staircase you see it disappear
+into darkness.
+~
+~
+0 -1 406
+S
+#282
+Simba's Kingdom.~
+My house is small.
+ No mansion for a millionaire,
+  but there is room for love
+ and there is room for friends
+That's all I care !!!
+~
+1 6364 0
+D1
+Immortals' Walk
+~
+~
+0 0 284
+S
+#283
+Kodiaks Place~
+Kodiak's Mansion.
+~
+1 6364 0
+D3
+Immortals' Walk
+~
+~
+0 0 284
+S
+#284
+Immortals' Walk~
+You are in Heaven walking along Immortals' Walk. There are Mansions here.
+~
+1 134224988 0
+D0
+Immortals' Walk
+~
+~
+0 0 287
+D1
+~
+~
+0 0 283
+D2
+~
+~
+0 0 275
+D3
+~
+~
+0 0 282
+S
+#285
+Palace of Depression~
+Ruprects place of rest.
+~
+1 7196 0
+D1
+Immortals' Walk
+~
+~
+0 0 287
+S
+#286
+The Death Star.~
+You are in Heaven. This is Vader's Mansion.
+~
+1 6236 0
+D3
+Immortals' Walk
+~
+~
+0 0 287
+S
+#287
+Immortals' Walk~
+You are in Heaven walking along Immortals' Walk. There are Mansions here.
+~
+1 134224988 0
+D0
+Immortals' Walk
+~
+~
+0 0 292
+D1
+~
+~
+0 0 286
+D2
+Immortals' Walk
+~
+~
+0 0 284
+D3
+~
+~
+0 0 285
+S
+#289
+Murf's Cellar~
+You are in Murf's Cellar, don't let him catch you here.
+~
+1 268436605 0
+D4
+Murf's Place
+~
+~
+0 0 299
+S
+#290
+Misty's Mansion.~
+You stand within Misty's Mansion.  It is HUGE!.  You gasp at the vastness
+of it.
+~
+1 6236 0
+D1
+Immortals' Walk
+~
+~
+0 0 292
+S
+#291
+Freako's Hidie-Hole~
+You are in Freako's Mansion.
+What a lovely place this is. There's a nice stereo with lots of cd's. And what's that on the wall... Oh it's a picture...
+There is a nice king sized bed that looks very cumfy-wumfy, and a very very well stocked bar in the corner... What else would a god need?
+~
+1 6236 0
+D3
+Immortals' Walk
+~
+~
+0 0 292
+S
+#292
+Immortals' Walk~
+You are in Heaven walking along Immortals' Walk. There are Mansions here.
+~
+1 134224988 0
+D0
+Immortals' Walk
+~
+~
+0 0 295
+D1
+Freako's Mansion
+~
+~
+0 0 291
+D2
+Immortals' Walk
+~
+~
+0 0 287
+D3
+Princes Park
+~
+~
+0 0 290
+S
+#293
+An Empty Palace for Sale.~
+An Empty Palace for Sale. 
+~
+1 6236 0
+D1
+Immortals' Walk
+~
+~
+0 0 295
+S
+#294
+Viper's Hole~
+This place is warm and dark, it looks like a good place to rest awhile.
+But watch out it may not be safe.
+~
+1 16783580 0
+D0
+Living room
+~
+~
+0 0 272
+S
+#295
+Immortals' Walk~
+You are in Heaven walking along Immortals' Walk. There are Mansions here.
+~
+1 134224988 0
+D0
+Immortals' Clubhouse
+~
+~
+0 0 100
+D2
+Immortals' Walk
+~
+~
+0 0 292
+D3
+~
+~
+0 0 293
+S
+#296
+Heaven~
+You are in Heaven. This is the Implementors' private room, go away!
+~
+1 6236 0
+D0
+Murf's House
+~
+~
+0 0 299
+D2
+John's House
+~
+~
+0 0 298
+D5
+Immortals' Linkless room
+~
+~
+0 0 101
+S
+#297
+The StoreRoom~
+You are in The StoreRoom. Take only what you need, the gods are watching..
+~
+1 134223964 0
+D2
+Immortals' Clubhouse
+~
+~
+0 0 100
+S
+#298
+Heaven~
+You are in John's House.
+~
+1 6236 0
+D0
+Implementors' room
+~
+~
+0 0 296
+S
+#299
+Heaven~
+You are in Murf's Palace. Are you sure you should be here?
+~
+1 268441692 0
+D2
+Implementors' Room
+~
+~
+0 0 296
+D5
+Murf's Cellar
+~
+~
+0 0 289
+S
+#300
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 0 301
+D1
+~
+~
+0 0 331
+D2
+~
+~
+0 -1 1
+D3
+~
+~
+0 0 332
+D5
+Moe's House
+~
+door~
+0 0 343
+S
+#301
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 316
+D1
+~
+~
+0 0 333
+D2
+~
+~
+0 -1 300
+D3
+~
+~
+0 0 302
+S
+#302
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 317
+D1
+~
+~
+0 0 301
+D2
+~
+~
+0 0 334
+D3
+~
+~
+0 -1 303
+D5
+~
+~
+0 0 345
+S
+#303
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 318
+D1
+~
+~
+0 -1 302
+D2
+~
+~
+0 0 335
+D3
+~
+~
+0 0 304
+D5
+~
+~
+0 0 346
+S
+#304
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 319
+D1
+~
+~
+0 -1 303
+D2
+~
+~
+0 0 336
+D3
+~
+~
+0 0 305
+D5
+~
+~
+0 0 347
+S
+#305
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 320
+D1
+~
+~
+0 -1 304
+D2
+~
+~
+0 0 337
+D3
+~
+~
+0 0 306
+D5
+~
+~
+0 0 348
+S
+#306
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 321
+D1
+~
+~
+0 -1 305
+D2
+~
+~
+0 0 413
+D3
+~
+~
+0 0 307
+D5
+~
+~
+0 0 349
+S
+#307
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 322
+D1
+~
+~
+0 -1 306
+D2
+~
+~
+0 0 340
+D3
+~
+~
+0 0 308
+D5
+~
+~
+0 0 350
+S
+#308
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 323
+D1
+~
+~
+0 -1 307
+D2
+~
+~
+0 0 339
+D3
+~
+~
+0 0 309
+D5
+~
+~
+0 0 351
+S
+#309
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D1
+~
+~
+0 -1 308
+D2
+~
+~
+0 0 341
+D3
+~
+~
+0 0 310
+D5
+~
+~
+0 0 352
+S
+#310
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 325
+D1
+~
+~
+0 -1 309
+D2
+~
+~
+0 0 342
+D3
+~
+~
+0 0 311
+D4
+~
+~
+0 0 365
+D5
+~
+~
+0 0 353
+S
+#311
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 326
+D1
+~
+~
+0 -1 310
+D2
+~
+~
+0 0 366
+D3
+~
+~
+0 0 312
+D4
+~
+~
+0 0 367
+D5
+~
+~
+0 0 354
+S
+#312
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 327
+D1
+~
+~
+0 -1 311
+D2
+~
+~
+0 0 356
+D3
+~
+~
+0 0 313
+D5
+~
+~
+0 0 355
+S
+#313
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 328
+D1
+~
+~
+0 -1 312
+D2
+~
+~
+0 0 357
+D3
+~
+~
+0 0 314
+D4
+~
+~
+0 0 358
+D5
+~
+~
+0 0 359
+S
+#314
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 329
+D1
+~
+~
+0 -1 313
+D2
+~
+~
+0 0 360
+D3
+~
+~
+0 0 315
+D4
+~
+~
+0 0 361
+D5
+~
+~
+0 0 362
+S
+#315
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 330
+D1
+~
+~
+0 -1 314
+D2
+~
+~
+0 0 363
+D3
+River Road
+~
+~
+0 0 368
+D4
+~
+~
+0 0 364
+S
+#316
+Muldar's House~
+This is where Muldar lives.
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 301
+S
+#317
+Calin's House~
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 302
+S
+#319
+Calin's Joint~
+You are standing in the House of Callan.
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 304
+S
+#320
+The Wildbeast's Lair~
+You are standing at the mouth of a very dark cave. It is damp and
+extremely cold here, and you swear you can hear the agonising scream
+of a distressed being from deep within the void. You can see what 
+looks like human bones scattered all over the dusty floor. You can 
+feel the deep stare and can hear the spine-chilling snarl from a 
+vicious creature lurking in the shadows. It might be a good idea to 
+get out of this horrible place while you still can!
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 305
+S
+#321
+Saphirrah's House~
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 306
+S
+#322
+House For Sale~
+This House is Empty 
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 307
+S
+#323
+House For Sale~
+This House is Empty
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 308
+S
+#325
+Lunas house~
+You are in Luna's house
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 310
+S
+#326
+Pow's Bachelor Pad~
+You are standing Pow's house.
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 311
+S
+#327
+House For Sale~
+This House is Empty
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 312
+S
+#328
+House For Sale~
+This House is Empty 
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 313
+S
+#329
+House For Sale~
+This House is Empty 
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 314
+S
+#330
+Evilhomer's house~
+You are in Evilhomer's house
+~
+1 6364 0
+D2
+River Road.
+~
+~
+0 0 315
+S
+#331
+Crystal's House~
+This is where Crystal Lives.
+~
+1 6364 0
+D3
+River Road
+~
+~
+0 0 300
+S
+#332
+TSD's House~
+This is where TSD lives.
+~
+1 6364 0
+D1
+River Road
+~
+~
+0 0 300
+S
+#333
+Lanfeer's House~
+This is where Lanfeer Lives.
+~
+1 6364 0
+D3
+River Road
+~
+~
+0 0 301
+S
+#334
+Tait's House~
+Tait lives here.
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 302
+S
+#335
+House For Sale~
+This House is Empty 
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 303
+S
+#336
+Blossum's Castle of Pleasure~
+As you stand and gaze at the rich tapestries on the wall,
+your attention is drawn to a massive king-size four poster bed.
+You stand in awe at the superbly carved mahogany posts.
+As you look closer you can see notches on one post, and wonder what
+they are indicating! The curtains are closed and you can hear
+laughter coming from behind them.  You realise you are not alone!
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 304
+S
+#337
+House For Sale~
+This House is Empty.
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 305
+S
+#339
+The House of Scorfio~
+The abode you are standing in belongs to the valiant warrior Scorfio.
+He is an unusual creature, in the corner of the room he has a large blow 
+up doll, which you wonder what its purpose is. In the other corner of the
+room there is a large vending machine full of every conceivable junk food
+imaginable.
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 308
+S
+#340
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 307
+S
+#341
+Astro's House~
+This is where Astro lives.
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 309
+S
+#342
+Moridin's House.~
+This is where Moridin Lives.
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 310
+S
+#343
+Prince Moe's Palace~
+You are standing in a large hallway in Prince Moe's house. To your north
+there is a large recreation room and to your east there is Moe's bedroom.
+~
+1 16783580 1
+D4
+River Road.
+~
+door~
+2 220 300
+S
+#345
+Camber's House~
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 302
+S
+#346
+Primer's Palace~
+Welcome to Primer's residence. 
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 303
+S
+#347
+Keelar's Kingdom~
+You are standing in Keelar's Kingdom.
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 304
+S
+#348
+Delusion's House~
+This is the house where Delusion lives.
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 305
+S
+#349
+The house of Uther~
+You are standing in a large house that belongs to Uther. The floor is
+littered with many strange and wonderous weapons and armor. In the corner
+is a small bed which Uther occasionally sleeps in all alone.
+
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 306
+S
+#350
+House for Sale~
+An Empty House for Sale~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 307
+S
+#351
+Blackouts Castle~
+You are standing in the haunted castle that belongs to Blackout. 
+The floorboards creak and there are cobwebs everywhere. The noises
+Coming from all around you make your skin crawl. You should consider
+leaving while you are still have your sanity.~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 308
+S
+#352
+Princess CLUMZ's Palace~
+This is where CLUMZ lives. As you look around you notice how tidy she
+keeps the place. In one corner of the room there is a HUGE juke box
+and comfortable reclining chairs. In another corner is a great big feather
+bed.
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 309
+S
+#353
+Fifty's Shag'n Pad~
+You are in the love pad belonging to Fifty.
+The room is dimly lit, and has a seductive aura about it.
+There is a Heart shaped bed here, it looks very inviting.
+You see a well stocked bar in the corner. 
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 310
+S
+#354
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 311
+S
+#355
+The humble abode of Vorax.~
+This Vorax's house.
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 312
+S
+#356
+Tool's Place~
+This is the place where Tool often sits and ponders the meaning of life.
+On one wall you can see a desk with strange looking implements.
+On another wall is a chair that has wires coming out of it and the
+chared remains of the last victim! You panic... are you next for the chair!
+~
+1 6364 0
+D0
+River Road.
+~
+~
+0 0 312
+S
+#357
+The Great Boz's Place~
+This is it, the house that everyone wishes they had a key to. You
+are just sooooooooo Lucky to be in here.
+~
+1 6364 0
+D0
+River Road.
+~
+~
+0 0 313
+S
+#358
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 313
+S
+#359
+Dontknow's House~
+This House is Empty. 
+~
+1 6364 0
+D4
+River Road.
+~
+~
+0 0 313
+S
+#360
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D0
+River Road.
+~
+~
+0 0 314
+S
+#361
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 314
+S
+#362
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D4
+River Road
+~
+~
+0 0 314
+S
+#363
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D0
+River Road.
+~
+~
+0 0 315
+S
+#364
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 315
+S
+#365
+Zimoplaz's house~
+You are standing in the House of Zimoplaz. It is extremely tidy, with all
+his sharp weapons hanging on the wall and inside the large closet all his
+shining armor. 
+~
+1 6364 0
+D5
+River Road
+
+~
+~
+0 0 310
+S
+#366
+House of Lefty~
+This is the house of Lefty.
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 311
+S
+#367
+GodFather's House~
+This House is Empty. 
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 311
+S
+#368
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 371
+D1
+~
+~
+0 -1 315
+D2
+~
+~
+0 0 373
+D3
+~
+~
+0 0 369
+D4
+~
+~
+0 0 372
+D5
+~
+~
+0 0 380
+S
+#369
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 374
+D1
+~
+~
+0 -1 368
+D2
+~
+~
+0 0 376
+D3
+~
+~
+0 0 370
+D4
+~
+~
+0 0 375
+D5
+~
+~
+0 0 381
+S
+#370
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 377
+D1
+~
+~
+0 -1 369
+D2
+~
+~
+0 0 379
+D3
+~
+~
+0 0 383
+D4
+~
+~
+0 0 378
+D5
+~
+~
+0 0 382
+S
+#371
+House of Flyer~
+This is the house of Flyer.
+~
+1 6364 0
+D2
+River Road
+~
+~
+0 0 368
+S
+#372
+House of Dingo~
+This is the house of Dingo.
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 368
+S
+#373
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 368
+S
+#374
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D2
+River Road
+~
+~
+0 0 369
+S
+#375
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 369
+S
+#376
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 369
+S
+#377
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D2
+River Road
+~
+~
+0 0 370
+S
+#378
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 370
+S
+#379
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 370
+S
+#380
+Nightwolf's Halfway house~
+As you look around you see a strange red glow,  and a lot of candles.  On 
+the ceiling above a bed you spot a finely polished surface which reflects
+your image back at you.  The bed appears covered in exotic furs.  Bachelor
+pad you think?.
+~
+1 6364 0
+D4
+River Road
+~
+~
+0 0 368
+S
+#381
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D4
+River Road
+~
+~
+0 0 369
+S
+#382
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D4
+River Road
+~
+~
+0 0 370
+S
+#383
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 384
+D1
+~
+~
+0 0 370
+D2
+~
+~
+0 0 385
+D3
+~
+~
+0 0 388
+D4
+~
+~
+0 0 386
+D5
+~
+~
+0 0 387
+S
+#384
+Pisshead H.Q.~
+You stand in a shamble of a house.  Empty bottles of Vodka, Whiskey and other
+alcohol lie everywhere.  There are many empty pizza boxes all over the place.
+Eh this place looks cosy B)
+~
+1 6364 0
+D2
+River Road
+~
+~
+0 0 383
+S
+#385
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 383
+S
+#386
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 383
+S
+#387
+House For Sale~
+This House is Empty. 
+~
+1 6364 0
+D4
+River Road
+~
+~
+0 0 383
+S
+#388
+River Road.~
+You are walking along River Road. There are houses here.
+~
+1 0 1
+D0
+~
+~
+0 -1 389
+D1
+~
+~
+0 0 383
+D2
+~
+~
+0 0 390
+D4
+~
+~
+0 0 391
+D5
+~
+~
+0 0 392
+S
+#389
+Dracion's house~
+This is the abode of Dracion.
+~
+1 6364 0
+D2
+River Road
+~
+~
+0 0 388
+S
+#390
+Drudge's Pit~
+This is where Drudge lives.
+~
+1 6364 0
+D0
+River Road
+~
+~
+0 0 388
+S
+#391
+Enlibrite's House~
+~
+1 6364 0
+D5
+River Road
+~
+~
+0 0 388
+S
+#392
+House of Kaer~
+You are standing in Kaer's house. The floor is littered with many strange
+weapons and pieces of armour. In one corner of the room is a large
+fireplace and in the other corner is a large, unmade bed.
+~
+1 6364 0
+D4
+River Road
+~
+~
+0 0 388
+S
+#395
+House For Sale~
+Empty House For Sale
+~
+1 6364 1
+D0
+~
+~
+0 -1 250
+S
+#400
+Torches House~
+This is were the evil fiend Torch lives.
+He has a strange aliance with the kindhearted Stormbringer.
+~
+1 6364 0
+D3
+Entrance to Stormies and Torches.
+~
+~
+0 -1 239
+S
+#401
+Stormies's House~
+Welcome to the abode of Stormbringer the kindhearted.
+As you peer around the room you notice that this gentle man
+lives a modest life and has most comforts a home requires.
+What is rather startling is the little storm cloud hovering
+in the corner of the room waiting for its master to come home.
+~
+1 6364 0
+D1
+Entrance to Stormies and Torches.
+~
+~
+0 -1 239
+E
+Cloud~
+As you stare in wonder at the little cloud.
+It becomes very aware of you staring at it and starts
+to demonstrate its ability to throw lightning bolts around.
+~
+S
+#402
+SSSSSSssspppppppllllllllllaaaaaaaatttttttt's House~
+Welcome to the house of Ssssssspppppllllaaaattttt!
+This guy has a Tv in one corner of the room that just constantly
+plays the old reruns of batman and Robin... He seems to be playing
+a tape with the same scenes over and over where they are fighting
+and all you can see is Sssssssppppplllllaaaaatttttt! then POW or BAM
+as batman and robin are fighting the Joker and Penguin.
+~
+1 16783580 0
+D0
+Southbank Road.
+~
+~
+0 0 239 
+E
+Tv~
+What you want to see it that bad do you?~
+S
+#403
+Talisman's Bedroom~
+This darkly decorated room emanates feelings of peace and solitude. No
+sounds penetrate the thick walls, leaving the inhabitants in blissful
+isolation and quiet. A large four post bed is the centrepiece, shaded
+nets keeping night beasts at bay. The only light present is filtered by
+long drapes hung over the double paned window that looks out over the
+river, and the countryside outside Haven.
+
+~
+1 6396 0
+D2
+Talisman's Hall - The main hallway of the manor.
+~
+~
+0 -1 278
+E
+Window~
+ Parting the drapes, you look out over the lush countryside behind
+Haven, admiring the vista of rolling hills.
+~
+E
+Bed~
+A solid four post bed, crafted by a master carpenter indeed, it
+blends into the room inviting you to rest for a while.
+~
+S
+#404
+Talisman's Guest Room~
+Intended for guests of the manor, this room is sumptuous and
+comfortable, containing tasteful furnishings for aesthetic as well as
+physical comfort. A high ceiling and large windows lend the room a
+feeling of bright cheer, complimented by intricately patterned walls,
+soothing the spirit.
+
+~
+1 6364 0
+D0
+Talisman's Hall - The main hallway of the manor.
+~
+~
+0 -1 278
+S
+#405
+Talisman's Lounge~
+Delightful pictures by budding artists hang on the walls of this
+enclosed room, varying from wild and impossible beasts to exquisite
+scenery of picturesque plains and disturbing images of what could only
+be Lhankwood Forest. The furniture in this parlour is obviously intended
+for comfort and there is an upright piano nearby for those with an ear
+for fine music.
+
+~
+1 6364 0
+D1
+Talisman's Hall - The main hallway of the manor.
+
+~
+~
+0 0 278
+S
+#406
+Talisman's Tower~
+Rising above Haven this tower is a beacon of light in the darkness that
+enroaches upon the land. Studying endlessly the master of this tower
+searches for that which will forever bring peace and prosperity to the
+troubled peoples of this world. Fascinating tidbits lie strewn around
+the sparse tower, evidence of old experiments.
+~
+1 6364 0
+D5
+Talisman's Hall - The main hallway of the manor.
+~
+~
+0 -1 278
+E
+Bed~
+The bed is small but comfortable, and obviously used quite often.
+~
+E
+Desk~
+A sturdy desk with many small drawers, and paper littered all
+around it sits in the centre of this ordered chaos.
+~
+S
+#407
+Dreamweaver's Loft~
+As you look at your surroundings, you marvel at its size and beauty. "Wood.",
+you think to yourself, "So much wood, the likes of which you have never seen
+or heard of."  Wonderous furnishings are carefully placed to give a very 
+warm and friendly feeling.  The sheer size of this loft is just extraordinary.
+You comfortably come to the conclusion that it is just a breathtakingly 
+peaceful place.
+~
+1 6364 0
+D5
+Dreamweaver & DMoC's Foyer
+~
+~
+0 0 277
+S
+#408
+DMoC's Cellar~
+His desk seems to be a mess with lots of papers with scribblings on them.  This
+room is bare, just the desk and a painting of the sea on the wall.  There is 
+nothing else present in the room.  It seems like a good idea to leave before
+you get caught!
+~
+1 6364 0
+D4
+Dreamweaver & DMoC's Foyer
+~
+~
+0 0 277
+S
+#409
+Tower~
+You are in some kind of wizards tower. Spell components and arcane scripture
+are scattered around the room. It looks as though no one has been here in a
+very long time.
+~
+1 6364 0
+D5
+Tarn's Castle
+~
+~
+0 -1 252
+S
+#410
+Dungeon~
+A pit of fire, filled with the burning souls of countless victims sears
+the air in this chamber. Around the walls various instruments of torture
+are evident. You wonder if you should really be here.
+~
+1 6364 0
+D4
+Tarn's Castle
+~
+~
+0 -1 252
+S
+#411
+Library~
+A vast number of books adorn the many shelves in this room. Knowledge
+from the far corners of the realm and beyond lies here accumulated in
+the musty stillness.
+~
+1 6364 0 
+D3
+Tarn's Castle
+~
+~
+0 0 252
+S
+#412
+Map Room~
+Before you stands a large table covered in maps of varying sizes and
+intricacy. Some maps you easily recognize such as Haven and Rome. 
+Others emanate an aura of malevolence, making you feel fortunate you
+have never been there.
+~
+0 6364 0
+D1
+Tarn's Castle
+~
+~
+0 0 252
+S
+#413
+Aphrodite's Temple~
+As you enter into the temple, you notice curtains decorated on every
+corner of the room. The curtains are made of soft satins and chiffons. The
+room is demurely decorated with soft round pillows, carefully placed
+artistically. At the end of the room is a figure of a lady statue
+simbolising the owner of this place.
+~
+1 6364 0
+D0
+~
+~
+0 0 306
+S
+#414
+Cailette's spare room~
+What a good place to store stuff.
+~
+1 6364 0
+D0
+~
+~
+0 0 194
+S
+$
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

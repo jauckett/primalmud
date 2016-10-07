@@ -1,0 +1,520 @@
+head	1.4;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2004.01.10.13.10.23;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.07;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Artus> Sync.
+@
+text
+@#22000
+janitor droid~
+the janitor droid~
+A Janitor Droid Mk VII is here, cleaning the street.
+~
+The Janitor Droid is a Mark 7 model which are well known for their 
+lack of intelligence and inability to do anything but clean. It fails 
+to notice that you exist and just continues to clean around you.
+~
+163913 0 0 E
+2 20 13 2d4+15 2d3+0
+50 400
+8 8 0
+E
+#22001
+citizen~
+a citizen~
+A citizen of Lunar City IV is standing here.
+~
+He is just your average human citizen who has left Earth to come and 
+live in Lunar City IV.
+~
+72 0 384 E
+3 18 12 5d5+8 3d4+2
+70 500
+8 8 1
+E
+#22002
+citizen~
+a citizen~
+A citizen of Lunar City IV is standing here.
+~
+She is just your average human citizen who has left Earth to come and 
+live in Lunar City IV.
+~
+72 0 384 E
+4 16 12 2d5+30 3d5+3
+70 800
+8 8 2
+E
+#22003
+citizen~
+a citizen~
+A citizen of Lunar City IV is standing here.
+~
+It is just your average alien who has left their homeworld to come and
+live at Lunar City IV.
+~
+72 0 384 E
+4 12 12 3d12+18 3d5+1
+70 900
+8 8 0
+E
+#22004
+gold droid~
+the droid~
+A shiny gold droid is here, running errands for its master.
+~
+The shiny gold protocol droid is muttering to itself about how its
+services are going to waste running errands.
+~
+72 0 0 E
+8 13 11 1d1+150 6d6+4
+100 1700
+8 8 0
+E
+#22005
+guard droid~
+the L.A.W. Droid~
+A L.A.W. Guard Droid is standing here, upholding the law.
+~
+This is a Guard Droid manufactured by the Lasers, Armourments, and Weapons
+Corporation. The 12 optical sensors mounted on its head make sure it 
+sees all that goes on around it. These droids are employed by the city
+to keep crimes at a minimum. When it notices you looking it growls
+'Move along citizen!' then goes to hassle a jay walker.
+~
+163913 0 500 E
+20 12 8 5d12+161 11d6+7
+900 13000
+8 8 0
+E
+#22006
+receptionist droid~
+the receptionist droid~
+A receptionist droid is here, waiting to help you with your bookings.
+~
+This is a Reception Droid series 2, it is programmed to store your
+belongings and help you into your cryogenic chamber. 
+Type 'offer' to get the price of renting and 'rent' to rent.
+~
+188427 0 1000 E
+30 0 3 1d49+999 16d18+34
+15000 250000
+8 8 0
+E
+#22007
+holographic dancer~
+a holographic dancer~
+A holographic exotic dancer is dancing here.
+~
+She is the image of perfection. You if you didn't know better you
+would think she was real.
+~
+10 0 0 E
+1 15 13 1d10+0 1d5+0
+0 100
+8 8 2
+E
+#22008
+crazy joe~
+Crazy Joe~
+Crazy Joe is standing here, ready to help you with you implants.
+~
+This guy really does look crazy. He doesn't look like he could handle
+doing any major surgery at all, let alone anything simple like 
+replacing you arm with a cybernetic limb! He also looks 100% human,
+which makes you wonder why he doesn't use any of his implants
+himself...
+~
+188426 33554492 0 E
+23 0 6 1d49+201 10d10+25
+6000 65000
+8 8 1
+E
+#22009
+dealer~
+the dealer~
+A dealer is standing here, waiting to sell you something.
+~
+He is very well dressed and doesn't really look like he belongs in
+this alley way.
+~
+188426 0 0 E
+23 0 6 1d49+201 6d12+25
+6000 65000
+8 8 1
+E
+#22010
+ratz~
+Ratz~
+Ratz is standing here, polishing the counter.
+~
+Ratz is unnecessarily ugly. The teeth he has that aren't made of cheap
+steel are yellow with decay. He grunts a greeting to you and continues
+with his polishing.
+~
+188426 0 0 E
+23 0 6 1d49+201 7d12+27
+6000 65000
+8 8 1
+E
+#22011
+weapons master~
+the weapons master~
+The weapons master is here ready to sell you a reliable weapon.
+~
+He looks like he knows a lot about many types of weapons.
+~
+188426 0 0 E
+23 0 6 1d49+201 9d15+27
+6000 65000
+8 8 1
+E
+#22012
+big al~
+Big Al~
+Big Al is here, ready to sell you some reliable armour.
+~
+Big Al is the owner of the shop and he knows alot about armor
+and protective clothing.
+~
+188426 33554492 0 E
+23 0 6 1d49+201 15d15+27
+6000 65000
+8 8 1
+E
+#22013
+storekeeper~
+the storekeeper~
+The storekeeper is here ready to sell you a just about anything.
+~
+This guy must have travelled a lot as he has collected lots of 
+strange artifacts and now trades in many miscelaneous items.
+~
+188426 33554492 0 E
+23 0 6 1d49+201 15d15+27
+6000 65000
+8 8 1
+E
+#22014
+salesman~
+the respirator salesman~
+A respirator salesman is here selling respirators to those leaving Luna city
+~
+The salesman is no fool, he knows he can make a quick buck out of
+selling respirators here, since every one needs one.
+~
+188426 33554492 0 E
+23 0 6 1d49+201 15d15+27
+6000 65000
+8 8 1
+E
+#22015
+holographic bar man~
+a holographic barman~
+A holographic barman stands here.
+~
+The holgraphic barman is willing to serve you at any time
+of the day or night. He does not need sleep.
+~
+10 0 9 E
+1 15 13 1d10+0 1d5+0
+0 200
+8 8 1
+E
+#22016
+alien visitor~
+an alien visitor~
+An alien visitor is walking around Luna City.
+~
+This strange green creature is stopping in
+Luna City on it's way to a distant planet.
+~
+72 0 0 E
+3 18 12 2d5+25 2d7+4
+100 900
+8 8 0
+E
+#22017
+Guild Droid~
+the Guildroid~
+Your guildroid is standing here.
+~
+You are in no doubt that this guildroid is truly close to the stars; he has
+a peaceful, loving look.  You notice that he is surrounded by a white aura.
+~
+256026 12416 0 E
+34 -18 2 1d1+380 12d18+30
+0 30000
+8 8 1
+E
+#22018
+Guild Droid~
+the Guildroid~
+Your guildroid is standing here.
+~
+You are in no doubt that this guildroid is truly close to the stars; he has
+a peaceful, loving look.  You notice that he is surrounded by a white aura.
+~
+256026 12416 0 E
+34 -18 2 1d1+1900 12d18+30
+0 30000
+8 8 1
+E
+#22019
+Guild Droid~
+the Guildroid~
+Your guildroid is standing here.
+~
+You are in no doubt that this guildroid is truly close to the stars; he has
+a peaceful, loving look.  You notice that he is surrounded by a white aura.
+~
+256026 12416 0 E
+34 -15 5 1d1+1500 14d18+30
+0 30000
+8 8 1
+E
+$
+@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@d121 1
+a121 1
+188426 0 0 E
+d173 1
+a173 1
+188426 0 0 E
+d186 1
+a186 1
+188426 0 0 E
+d199 1
+a199 1
+188426 0 0 E
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d79 1
+a79 1
+20 12 8 1d12+161 3d4+4
+d93 1
+a93 1
+30 0 -10 1d49+1999 6d8+40
+d122 1
+a122 1
+23 0 -2 1d49+20001 3d8+45
+d135 1
+a135 1
+23 0 -2 1d49+20001 3d8+25
+d149 1
+a149 1
+23 0 -2 1d49+20001 3d8+50
+d161 1
+a161 1
+23 0 -2 1d49+20001 3d8+40
+d174 1
+a174 1
+23 0 -2 1d49+20001 3d8+40
+d187 1
+a187 1
+23 0 -2 1d49+20001 3d8+40
+d200 1
+a200 1
+23 0 -2 1d49+20001 3d8+40
+d239 1
+a239 1
+34 -20 -100 1d1+2500 2d8+30
+d252 1
+a252 1
+34 -20 -100 1d1+2500 2d8+30
+d265 1
+a265 1
+34 -20 -100 1d1+2500 2d8+30
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d10 2
+a11 2
+163905 0 0 S
+2 20 9 1d1+8 1d2+0
+d13 2
+a14 1
+8 8 0 2
+d23 2
+a24 2
+64 0 384 S
+3 18 9 1d1+8 1d4+0
+d26 2
+a27 1
+8 8 1 2
+d36 2
+a37 2
+64 0 384 S
+4 16 9 1d1+18 1d4+0
+d39 2
+a40 1
+8 8 2 2
+d49 2
+a50 2
+64 0 384 S
+4 12 9 1d12+18 1d5+1
+d52 2
+a53 1
+8 8 0 2
+d62 2
+a63 2
+64 0 0 S
+8 13 8 1d1+33 1d6+4
+d65 2
+a66 1
+8 8 0 2
+d78 1
+a78 1
+163905 0 500 S
+d81 2
+a82 1
+8 8 0 2
+d92 1
+a92 1
+188419 0 1000 S
+d95 2
+a96 1
+8 8 0 2
+d105 2
+a106 2
+2 0 0 S
+1 0 9 1d10+0 1d5+0
+d108 2
+a109 1
+8 8 2 2
+d121 1
+a121 1
+188418 0 0 S
+d124 2
+a125 1
+8 8 1 2
+d134 1
+a134 1
+188418 0 0 S
+d137 2
+a138 1
+8 8 1 2
+d148 1
+a148 1
+188418 0 0 S
+d151 2
+a152 1
+8 8 1 2
+d160 1
+a160 1
+188418 0 0 S
+d163 2
+a164 1
+8 8 1 2
+d173 1
+a173 1
+188418 0 0 S
+d176 2
+a177 1
+8 8 1 2
+d186 1
+a186 1
+188418 0 0 S
+d189 2
+a190 1
+8 8 1 2
+d199 1
+a199 1
+188418 0 0 S
+d202 2
+a203 1
+8 8 1 2
+d212 2
+a213 2
+2 0 9 S
+1 0 0 1d10+0 1d5+0
+d215 2
+a216 1
+8 8 1 2
+d225 2
+a226 2
+64 0 0 S
+3 18 9 1d1+15 1d7+4
+d228 2
+a229 1
+8 8 0 2
+d234 1
+a234 1
+~  
+d238 1
+a238 1
+256026 12416 0 S
+d241 2
+a242 1
+8 8 1 2
+d247 1
+a247 1
+~  
+d251 1
+a251 1
+256026 12416 0 S
+d254 2
+a255 1
+8 8 1 2
+d260 1
+a260 1
+~  
+d264 1
+a264 1
+256026 12416 0 S
+d267 3
+a269 3
+8 8 1 2
+#9999999
+$~
+@
+

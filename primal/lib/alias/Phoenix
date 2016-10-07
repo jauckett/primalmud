@@ -1,0 +1,23 @@
+sarmor c 'spirit armor' $1
+cloud c 'cloud kill'
+summon c 'summon' $1
+heal c 'divine heal' $1
+finger c 'finger of death' $1
+charm c 'charm' $1
+strength c 'strength' $1
+dprot c 'divine protection' 
+haste c 'haste'
+holyaid c 'holy aid'
+dragon c 'dragon'
+firewall c 'fire wall' $1
+armor c 'armor' $1
+sanct c 'sanctuary' $1
+bless c 'blesss' $1
+remcurse c 'remove curse' $1
+detali c 'detect alignment' $1
+recall c 'word of recall'
+identify c 'identify' $1
+detinv c 'detect invisibility' $1
+water c 'create water' $1
+food c 'create food'
+cl c 'cure light'

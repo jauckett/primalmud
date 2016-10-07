@@ -1,0 +1,11 @@
+suitup cast 'armor' madison; cast 'strength' madison; cast 'bless' madison
+shroom cast 'create food'; eat mushroom; cast 'create food'; eat mushroom
+cureq cast 'cure critical' mnstrq
+lb cast 'lightning bolt' $*
+mm cast 'magic missile' $*
+red get red bag; q red
+gac get all corpse
+eatb get bread bag; eat bread; get bread bag; eat bread
+curem cast 'cure light' madison
+white get white bag; q white
+call cast 'call lightning' $*

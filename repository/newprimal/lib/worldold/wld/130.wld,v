@@ -1,0 +1,666 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.28;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.41;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#13000
+Under a Shady Tree~
+You are standing under a shady tree.  It is quiet and peaceful and you
+feel like you could rest with no problem.
+
+~
+130 16777216 0
+D2
+~
+~
+0 -1 13235
+S
+#13001
+Before Rockridge~
+You are standing at the north end of the main street of Rockridge.
+You can see all the way down Main Street to the end of town from here.
+To the north a dusty trail leads off into the desert.
+~
+130 0 0
+D0
+~
+~
+0 -1 13000
+D2
+~
+~
+0 -1 13003
+S
+#13002
+Path to Boothill~
+You have climbed up to the top of Boothill. To the north is the
+entrance to the graveyard. To the south you can see the whole
+of Rockridge laid out looking stark against the desert.
+~
+130 0 0
+D5
+~
+~
+0 -1 13006
+S
+#13003
+Main Street~
+You are standing at the north end of the main street of Rockridge.
+You can see all the way down Main Street to the end of town from here.
+To the north the street leads out of town into the desert.
+~
+130 0 0
+D0
+~
+~
+0 -1 13001
+D1
+~
+~
+0 -1 13004
+D2
+~
+~
+0 -1 13008
+S
+#13004
+Path up to Boothill~
+You are walking along a well used path which leads up to Boothill.
+~
+130 0 0
+D1
+~
+~
+0 -1 13005
+D3
+~
+~
+0 -1 13003
+S
+#13005
+Path up to Boothill~
+You are walking along a well used path which leads up to Boothill.
+~
+130 0 0
+D3
+~
+~
+0 -1 13004
+D4
+~
+~
+0 -1 13006
+S
+#13006
+Path up to Boothill~
+You are walking along a well used path which leads up to Boothill.
+~
+130 0 0
+D4
+~
+~
+0 -1 13002
+D5
+~
+~
+0 -1 13005
+S
+#13007
+Post Office~
+You are standing in the Post Office of Rockridge. 
+~
+130 0 0
+D1
+~
+~
+0 -1 13008
+S
+#13008
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13003
+D1
+~
+~
+0 -1 13009
+D2
+~
+~
+0 -1 13010
+D3
+~
+~
+0 -1 13007
+S
+#13009
+The Undertaker's~
+You are standing in the undertaker's office.
+~
+130 0 0
+D3
+~
+~
+0 -1 13008
+S
+#13010
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13008
+D2
+~
+~
+0 -1 13012
+S
+#13011
+Entrance to the saloon~
+You are standing in the entrance of the saloon.
+~
+130 0 0
+D1
+~
+~
+0 -1 13012
+S
+#13012
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13010
+D1
+~
+~
+0 -1 13013
+D2
+~
+~
+0 -1 13014
+D3
+~
+~
+0 -1 13011
+S
+#13013
+House~
+You are in a private dwelling.
+~
+130 0 0
+D3
+~
+~
+0 -1 13012
+S
+#13014
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13012
+D2
+~
+~
+0 -1 13016
+S
+#13015
+Rockridge Tea Rooms~
+You are in the Rockridge Tea Rooms.
+~
+130 0 0
+D1
+~
+~
+0 -1 13016
+S
+#13016
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13014
+D1
+~
+~
+0 -1 13017
+D2
+~
+~
+0 -1 13019
+D3
+~
+~
+0 -1 13015
+S
+#13017
+Sheriff's office~
+You are in the Sheriff's office, to the east is the single jail cell.
+~
+130 0 0
+D1
+~
+~
+0 -1 13018
+D3
+~
+~
+0 -1 13016
+S
+#13018
+Jail~
+You are in the Rockridge jail.
+~
+130 0 0
+D3
+~
+~
+0 -1 13017
+S
+#13019
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13016
+D2
+~
+~
+0 -1 13021
+S
+#13020
+Bank~
+You are in the Bank of Rockridge.
+~
+130 0 0
+D1
+~
+~
+0 -1 13021
+S
+#13021
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13019
+D1
+~
+~
+0 -1 13022
+D2
+~
+~
+0 -1 13023
+D3
+~
+~
+0 -1 13020
+S
+#13022
+General store~
+You are in the general store of Rockridge.
+~
+130 0 0
+D3
+~
+~
+0 -1 13021
+S
+#13023
+Main Street~
+You are in the main street of Rockridge.
+.
+~
+130 0 0
+D0
+~
+~
+0 -1 13021
+D2
+~
+~
+0 -1 13025
+S
+#13024
+Trail to the hills~
+You are walking along a trail which winds out over the desert to the
+nearby hills.
+~
+130 0 0
+D1
+~
+~
+0 -1 13025
+S
+#13025
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13023
+D1
+~
+~
+0 -1 13026
+D2
+~
+~
+0 -1 13027
+D3
+~
+~
+0 -1 13024
+S
+#13026
+Hardware store~
+You are in the hardware store of Rockridge.
+~
+130 0 0
+D3
+~
+~
+0 -1 13025
+S
+#13027
+Main Street~
+You are in the main street of Rockridge.
+~
+130 0 0
+D0
+~
+~
+0 -1 13025
+D2
+~
+~
+0 -1 13034
+S
+#13028
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D1
+~
+~
+0 -1 13029
+D2
+~
+~
+0 -1 13035
+S
+#13029
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D1
+~
+~
+0 -1 13030
+D2
+~
+~
+0 -1 13036
+D3
+~
+~
+0 -1 13028
+S
+#13030
+Gates of the corral~
+You are standing at the gates of the OK Corral.
+~
+130 0 0
+D1
+~
+~
+0 -1 13031
+D2
+~
+~
+0 -1 13037
+D3
+~
+~
+0 -1 13029
+S
+#13031
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D1
+~
+~
+0 -1 13032
+D3
+~
+~
+0 -1 13030
+S
+#13032
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D3
+~
+~
+0 -1 13031
+S
+#13033
+The old bank~
+The old bank once stood here, but now it's just a heap of ashes.
+~
+130 0 0
+D1
+~
+~
+0 -1 13034
+S
+#13034
+End of Main Street~
+You are at the end of Main Street.
+~
+130 0 0
+D0
+~
+~
+0 -1 13027
+D1
+~
+~
+0 -1 13035
+D3
+~
+~
+0 -1 13033
+S
+#13035
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D0
+~
+~
+0 -1 13028
+D1
+~
+~
+0 -1 13036
+D3
+~
+~
+0 -1 13034
+S
+#13036
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D0
+~
+~
+0 -1 13029
+D1
+~
+~
+0 -1 13037
+D2
+~
+~
+0 -1 13038
+D3
+~
+~
+0 -1 13035
+S
+#13037
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D0
+~
+~
+0 -1 13030
+D2
+~
+~
+0 -1 13039
+D3
+~
+~
+0 -1 13036
+S
+#13038
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D0
+~
+~
+0 -1 13036
+D1
+~
+~
+0 -1 13039
+S
+#13039
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D0
+~
+~
+0 -1 13037
+D1
+~
+~
+0 -1 13040
+D3
+~
+~
+0 -1 13038
+S
+#13040
+OK Corral~
+You are standing inside the OK Corral.
+~
+130 0 0
+D3
+~
+~
+0 -1 13039
+S
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

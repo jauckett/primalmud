@@ -1,0 +1,22 @@
+sleep cast 'sleep' $1
+dra cast 'dragon'
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+attack kick
+quit save;quitreally;0
+med slee
+umed wake;stand
+arm cast 'armor'
+bls cast 'bless'
+heal tell gamina heal
+run tell gamina refresh
+levl s;w;w;w;w;w;w;w;w;w;w;s
+drink get skin bac;drink skin;drink skin;put skin bac
+spellup tell gamina sanc;tell gamina armor;tell gamina bless
+h get heal bac;q heal
+recall cast 'word of recall'
+sanc tell gamina sanc
+armm tell gamina arm
+blss tell gamina bless
+eatt get bread bac;eat bread
+armpot get protec bac;q protec
+str cast 'strength'

@@ -1,0 +1,13 @@
+ccure cast 'cure critic'
+bolt cast 'lightning bolt' $1
+putbac put $1 in backpack
+exbac exa backpack
+getbac get $1 from backpack
+gamref tell gamina refresh
+gamheal tell gamina heal
+gam tell gamina summon
+qui quitreally
+mis cast 'magic missile' $1
+cfood cast 'create food'
+eatmush eat mushroom
+tgam tell gamina $1

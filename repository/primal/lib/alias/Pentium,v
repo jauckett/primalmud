@@ -1,0 +1,61 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@teleport cast 'teleport' $*
+sanc cast 'sanctuary' $*
+as assist kaer
+q take white crate;quaff white
+charm cast 'charm' $*
+summon cast 'summon' $*
+home n;w;w;n;n;w;w;d
+locate cast 'locate object' $*
+1 take all.coins all.corpse;take all.coins
+identify take identify crate;rec identify $*
+infra cast 'infra'
+tavern u;e;e;s;s;e;e;e;e;s
+word cast 'word of recall' $*
+age rem sword;wield blade
+death rem blade;wield sword
+invis cast 'invisibility' $*
+0 cast 'heal' $*
+det cast 'detect invisibility';cast 'detect alignment';cast 'sense life'
+fear cast 'fear' $*
+bs rem predator;wield dagger;backstab $*;rem dagger;wield predator
+waterwalk cast 'waterwalk' $*
+mount1 e;e;e;e;open gate;e;e;e;e;s;e;e;s;e;e;e;s;s;e;e;e
+mount2 e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w;d
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

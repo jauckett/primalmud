@@ -1,0 +1,61 @@
+cs cast 'sanctuary'$*
+cr cast 'refresh'$*
+lo cast 'locate object'$*
+r reply$*
+sk sneak
+cf cast 'create food'
+lb cast 'lightning bolt'$*
+ss cast 'strength'$*
+od open door
+ga get all$*
+re get scroll backpack;recite scroll$*
+slife cast 'sense life'$*
+ar cast 'armor'$*
+cb cast 'cure blind'$*
+g get all all.corpse
+fb cast 'fireball'$*
+harm cast 'harm'$*
+sanc cast 'santuary'$*
+pb put all.bread crate
+hh cast 'heal'$*
+ws wake;stand
+sd scan
+rr cast 'word of recall'$*
+sum cast 'summon'$*
+rp cast 'remove poison'$*
+st steal$*
+di cast 'detect invisibility'$*
+iv cast 'invisibility'$*
+in cast 'infravision'$*
+kk kick$*
+tt track$*
+cc cast 'cure critic'$*
+caveman  compact;autoexit;n;w;s;s;s;e;e;e;e;open gate;e;e;e;e;s;e;e;s;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;w;u;u;u;w;w;compact;autoexit;
+spiral compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;s;w;w;w;w;n;n;n;e;e;n;n;n;n;compact;autoexit;
+moander cast 'invisibility';rem enlibrite;grab eye;wield hammer;brief;compact;autoexit;s;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;e;e;e;s;e;u;u;u;u;s;s;s;s;autoexit;compact;
+tower autoexit;cast 'invisibility';s;s;s;w;s;e;e;s;w;w;w;s;s;e;n;u;n;e;e;e;e;s;autoexit;compact;
+rome compact;autoexit;n; w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;brief;compact;autoexit;
+bandit compact;autoexit;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s;e;brief;compact;autoexit;
+keep compact;autoexit;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;n;e;n;brief;compact;autoexit;
+rand  compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;cast 'refresh';cast 'refresh';w;s;s;e;e;e;e;e;e;e;brief;compact;autoexit;
+werith  compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;cast 'refresh';cast 'refresh';n;n;n;w;w;w;n;w;w;w;s;open door;s;brief;compact;autoexit;
+drieland compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;d;brief;compact;autoexit;
+darask compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;cast 'refresh';cast 'refresh';n;n;n;w;w;w;n;n;n;n;n;n;brief;compact;autoexit;
+elves compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w;w;brief;compact;autoexit;
+1tudor  compact;autoexit;n;cast 'invisibility';w;s;s;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;w;cast 'refresh';
+2tudor d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s;brief;compact;autoexit
+k rem sword;wield knife;backstab$*;rem knife;wield sword;
+p put all.potion backpack
+innh n;w;w;n;n;w;w;w;w;w;w;w;d;
+htav u;e;e;e;e;e;e;e;s;s;e;e;e;e;s;
+cp cast 'charm'$*
+hit train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+mana train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;
+sn scan
+fs fill skin fountain
+qw get white crate;quaff white
+sp cast 'sleep'$*
+bb cast 'blindness'$*
+bs rem axe;wield knife;backstab$*;rem knife;wield axe
+jc junk all.corpse
+da cast 'detect alignment'$*

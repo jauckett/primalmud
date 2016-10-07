@@ -1,0 +1,89 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@str cast 'strength'$*
+z flee w
+level emote points at you and yells, "LEVEL"!                                           You rise a level!
+6 emote stares at you and utters the words "DEATH"!                                 Sorry you are DEAD! R.I.P
+5 emote gives you an ORDER!                                                         You gossip, I'm giving away all my money, please come and collect your free RICHES!
+4 emote points his deadly finger at you..........
+slit emote gives you an order!                                                         yes
+t train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+poison cast 'remove poison'$*
+gate cast 'dimensional gate'$*
+clone cast 'clone'lbp
+met cast 'meteor swarm'$*
+bs rem mace; wield dagger; backstab$*; rem dagger; wield mace
+fly cast 'fly'$*
+fod cast 'finger'$*
+sense cast 'sense life'
+anim cast 'animate dead'$*
+cu cast 'cure critic'$*;cast 'cure critic'$*;cast 'cure critic'$*
+tel cast 'teleport'$*
+scroll recite recall$* 
+loc cast 'locate object'$*
+crate l in crate
+gs grats *****<<<<< $*   >>>>>*****
+rome n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;u;u;n
+h cast 'heal'$*
+in cast 'invisibility'$*
+sum cast 'summon'$*
+back look in backpack
+li cast 'lightning bolt'$*
+gc get all corpse
+c cast 'cure light'$* 
+m cast 'create food'$*
+see cast 'infravision'$*
+ed cast 'energy drain'$*
+san cast 'sanctuary'$*
+inv cast 'detect invisibility'$*
+bl cast 'blindness'$*
+cp cast 'charm person'$*
+fb cast 'fireball'$*
+harm cast 'harm'$*
+ew cast 'enchant weapon'$*
+ta tell $* die bastard!! :); tell $* heheheheh bastard; tell $* fucker heheh :); tell $* die!!!! now hehehe :); tell $* HAHAHAHAHAHAH BASTARD; tell $* heheheh are you dead yet???? heheheeh :); tell $* heheheh you must pay !!! :); i like annoy
+identify recite identify $*
+3 emote gives you an ORDER!                                                         You gossip, I AM AN IDIOT!
+2 cast 'advanced heal'$*
+fear cast 'fear'$*
+ref cast 'refresh'$*
+word cast 'word of recall'$*
+ps primal scream
+em eat mushroom
+x bs
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

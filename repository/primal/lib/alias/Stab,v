@@ -1,0 +1,59 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@k kill  bartender
+kk alias k kill $*;kill $*
+72 exa 2.corpse
+sl sleep
+jc get corpse;junk corpse
+inf cast 'inf' $*
+ae autoexit
+8 get all.gold all.corpse
+em get meat bag;eat meat
+qw get white bag;quaff white
+bw buy 3 white;put all.white bag
+di cast 'detect invis' $*
+rr rescue dalbregor
+00 recite recall self
+7 exa corpse
+wake wake $*;stand
+1 cast 'cure light' $*
+9 get all all.corpse
+aa assist dalbregor
+gb give $* dalbregor
+ds drink skin
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

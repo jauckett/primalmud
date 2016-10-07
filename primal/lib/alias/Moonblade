@@ -1,0 +1,23 @@
+qy get yellow crate; quaff yellow
+bs rem oak; get super crate; wi super; backstab $1; rem super ; wi oak; put super crate
+ed get hotdog backpack; eat hotdog
+rc get recall backpack; recite recall self
+wake wake; stand
+qr get red crate; quaff red
+qw get white crate; quaff white
+pac put all crate
+lic look in crate
+gg get gold corpse
+ec examine corpse
+cs cast ' strength' self
+gac get all corpse
+ccl cast 'cure light ' self
+civ cast 'infravision' self
+ccc cast 'cure critic' self
+gc get corpse;junk corpse
+oc open crate
+pab put all backpack
+lib look in backpack
+em get meat backpack; eat meat
+dw get skin backpack; drink skin; put skin backpack
+rf get skin backpack; fill skin fountain; put skin backpack

@@ -1,0 +1,41 @@
+bb buy 20 #10;put all.tonic back
+gr grats {>*}-*-{*}-*-{$* WeLL DoNE!}-*-{*}-*-{*<}
+ccf cast 'create food'
+ww w;n;n
+5 cast 'invis'
+4 get tonic backpack;q tonic
+kg kill guard
+kc kill citizen
+kn kill nobleman
+ktr kill traveller
+kf kill buffalo
+tf track buffalo
+tb track bandit
+kb kill bandit
+oo open door $*;open trapdoor;open gate
+kt kill traveller
+da cast 'detect align'
+km kill maid
+eb get bread backpack;eat bread;get bread backpack;eat bread
+bw buy 10 white;put all.white backpack
+br buy 10 red;put all.red backpack
+7 cast 'detect invis'
+1 assist aazza
+qw get white backpack;q white
+6 cast 'infravision'
+ds drink skin
+eek cast 'word of recall'
+a assist pow
+bo backstab oompa
+dd n;d
+cr cast 'refresh'
+cd cast 'dragon'
+2 cast 'cure critic' $*
+pu put all.potion back;put all.tonic back;put all.bread back
+0 cast 'sanc'
+9 cast 'armor'
+8 cast 'bless'
+3 get healing back;q healing
+kk alias k kill $*;rem fist;wield super;backstab $*;rem super;wield fist;o fol assist
+xx u;get all;u
+k kill  guard

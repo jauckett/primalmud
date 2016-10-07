@@ -1,0 +1,25 @@
+kk backstab 
+k alias kk backstab $*
+pp blackjack stay
+oo bj 10000
+rr cast 'word of recall'
+loc cast 'locate'$1
+crc cast 'remove curse' $1
+wd rem pulse;wield dagger
+rd rem dagger;wield pulse
+bb buy 10 bread;put all.bread force
+eb get bread force;eat bread
+cs cast 'sanctuary'
+cdr cast 'dragon'
+c cast 'divine heal'
+cls cast 'fire shield'
+cdp cast 'divine protection'
+csa cast 'spirit armor'
+csk cast 'stoneskin'
+cc cast 'advanded heal'
+fly cast 'fly'
+cww cast 'water walk'
+cwb cast 'waterbreathe'
+cdi cast 'detect invis'
+ccb cast 'cure blind'
+cda cast 'detect align'

@@ -1,0 +1,75 @@
+6
+recall
+13
+cast 'recall'
+0
+6
+detinv
+29
+cast 'detect invisibility' $*
+1
+5
+detal
+26
+cast 'detect alignment' $*
+1
+4
+bolt
+24
+cast 'lightning bolt' $*
+1
+2
+qw
+30
+get white backpack;quaff white
+1
+2
+qr
+26
+get red backpack;quaff red
+1
+2
+cf
+18
+cast 'create food'
+0
+2
+cw
+24
+cast 'create water' skin
+0
+2
+sg
+24
+cast 'shocking grasp' $*
+1
+2
+ct
+15
+cast 'chill' $*
+1
+2
+bh
+14
+cast 'burn' $*
+1
+2
+mm
+23
+cast 'magic missile' $*
+1
+2
+lb
+16
+look in backpack
+0
+2
+gb
+15
+get $* backpack
+1
+2
+pb
+15
+put $* backpack
+1

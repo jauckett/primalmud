@@ -1,0 +1,45 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2004.01.25.23.45.55;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.25.06.10.15;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Artus> Sync.
+@
+text
+@Use the turn command to change your sliding direction.
+Don't walk too fast, you never know what you might miss along the way!
+Sometimes items can be made more powerful when combined with others.
+You may find you need to break the ice to further your journey.
+Sometimes, penguins burrows get snowed in.
+Didn't you enjoy climbing trees as a kid?
+$
+@
+
+
+1.1
+log
+@Artus> Sync.
+@
+text
+@d7 1
+@
+

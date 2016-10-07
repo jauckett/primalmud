@@ -1,0 +1,44 @@
+                         &gTHE PrimalMUD HERALD&n
+   		              
+                           &r22nd February 2001&n
+
+
+Okay, since we have not updated the news in about a year, I thought I should
+give an update on whats been going on. As most of you are aware, we have been
+developing the next version of primal (version 3) over the past 12-18 months.
+It is currently undergoing alpha testing, which so far has been rather
+constructive.
+
+Many improvements have so far been implemented and more are still to come.
+Basically the main differences in terms of the game play for players is the
+implementation of classes and races, which are tied in with a remort system.
+Many new skills and spells have and will be further added to ensure that the
+class system can make a successful transition over the current classless
+system.
+
+There is far too many new features to list, to give an idea in terms of source
+size (code only), the new version is currently almost double the size of the 
+existing (currently ~190k lines).
+
+Oh, and to make it clear, there will be no deletion of the player file, just a
+convert so no player will loose any levels. Ideas and suggestions are welcome 
+as usual, or if you wish to contribute in some way, mudmail Artus or myself.
+
+Shall keep the news a bit more updated in terms of the releases of the new
+version.
+
+&yWEB PAGE&n:   &rhttp://mud.alphalink.com.au/&n
+            Shall eventually try and get the webpage hosted on this server. 
+	    As previously mentioned in news, main guts of it are done, a
+            message board of some description similar to the one hosted on the
+            old geocities page would be nice. Hasn't exactly been updated as of
+            late ... Comments and Suggestions welcome.
+
+&yGOD LEVELS&n:
+            As most of you will be aware, Artus has been promoted to
+            implementor for his contributions towards the new versions (which
+            currently he still has to include :) With Sandii being tied up with
+            work, I have been promoted to BCH. Sandii may still be around
+            watching, so beware.
+
+Dangermouse

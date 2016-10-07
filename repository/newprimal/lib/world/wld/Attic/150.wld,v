@@ -1,0 +1,1122 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.10.14.05.39.03;	author mud;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.01.17.04.52.08;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> Zones Removed (Sandii Requested)
+@
+text
+@#15000
+Entrance to Looney Tunes Land~
+You are heading along a small path lined with white stones toward a grassy
+field. This field seems to extend in all directions as far as you can see.
+It looks strangely two-dimensional. You hear the strains of "The Merry-Go-
+Round broke down" playing somewhere...
+~
+150 cfghiw 0 0
+D3
+~
+~
+0 0 15001
+S
+T 15098
+#15001
+A Grassy Field~
+You are walking across a wide, grassy field. To the north you imagine you
+can see a farmhouse, while a large stadium looms in the distance to the
+south. To the west a dark and thick forest starts abruptly.
+~
+150 0 2 0
+D0
+~
+~
+0 0 15002
+D1
+~
+~
+0 0 15000
+D2
+~
+~
+0 0 15003
+D3
+~
+~
+0 0 15004
+S
+#15002
+Approaching the Farmhouse~
+You are heading along an even path toward a red farmhouse that looks as if it
+has been painted onto the sky, which resembles a sheet of blue paper with
+blobs of white paint on it.
+~
+150 cf 2 0
+D0
+~
+~
+0 0 15005
+D2
+~
+~
+0 0 15001
+S
+#15003
+Approaching the Stadium~
+The walls of the stadium lie to the south of here. They are plastered with
+a variety of posters. From here, you cannot see any way of entering the
+stadium. However, there is a small hole in the ground near an old oak
+tree to the left of the path.
+~
+150 c 2 0
+D0
+~
+~
+0 0 15001
+D2
+~
+~
+0 0 15016
+S
+#15004
+A Thick Forest~
+This forest is rather forbidding, though some of its impact is lessened by
+the fact that it feels as if you are walking past sheets of paper with
+drawings of trees on them. No matter which way you walk, the trees converge
+to one side of you, never in front, or behind, or around you. You can't seem
+to get amongst them. There are posters stuck on some of the trees.
+~
+150 af 3 0
+D1
+~
+~
+0 0 15001
+D3
+~
+~
+0 0 15010
+E
+up~
+A big green space ship with hundreds of lights flashing all over it
+~
+S
+T 15097
+#15005
+The Farmyard~
+You are walking through the farmyard. You hear strains of square dance music
+coming from somewhere. Strangely two-dimensional animals stand about,
+remaining unnaturally motionless. Come to think of it, you haven't seen
+ANYTHING move here.
+~
+150 fA 2 0
+D0
+~
+~
+0 0 15006
+D2
+~
+~
+0 0 15002
+S
+#15006
+Outside the Coop~
+A big red door to the east marks the entrance to the chicken coop. You may
+enter if you wish, or you may head west toward the farmhouse itself.
+~
+150 f 2 0
+D1
+~
+Big-Red-Door~
+1 0 15009
+D2
+~
+~
+0 0 15005
+D3
+~
+~
+0 0 15007
+S
+#15007
+Outside the Farmhouse~
+You are standing outside the red farmhouse you saw earlier. It is your
+typical farmhouse on your typical farm, if farms were two-dimensional
+cartoons.
+~
+150 f 2 0
+D0
+~
+Main Door~
+1 0 15008
+D1
+~
+~
+0 0 15006
+D3
+~
+~
+0 0 15048
+S
+#15008
+Inside the Farmhouse~
+You have entered the main room of the farmhouse, and true to its cartoon
+unreality, it is the ONLY room in the farmhouse. You can't really take
+anything, because it is all drawn on the walls.
+~
+150 f 0 0
+D2
+~
+Main Door~
+1 0 15007
+S
+#15009
+Inside the Coop~
+You are standing inside a handsome coop, lined with shelves with little
+nests for the large egg-laying hens of the farmyard. There they are, all
+sitting in a row, laying away.
+~
+150 fA 0 0
+D3
+~
+Big-Red-Door~
+1 0 15006
+S
+#15010
+Further Inside the Forest~
+This forest is rather forbidding, though some of its impact is lessened by
+the fact that it feels as if you are walking past sheets of paper with
+drawings of trees on them. No matter which way you walk, the trees converge
+to one side of you, never in front, or behind, or around you. You can't seem
+to get amongst them. There are posters stuck on some of the trees.
+
+There is a hole in the ground here.
+~
+150 f 3 0
+D1
+~
+~
+0 0 15004
+D3
+~
+~
+0 0 15018
+S
+#15011
+Inside a Rabbit Warren~
+You are in a long narrow underground passage, obviously the home of some
+rabbit, though it is unlike any rabbit warren that you have ever seen
+before. Deckchairs, beach towels and several pairs of sunglasses lie stacked
+next to old Billie Holliday 78s and a pile of old newspapers. There is also
+a heap of Dodgers memorabilia, from the time when they were in Brooklyn.
+~
+150 afi 0 0
+D1
+~
+~
+0 0 15012
+D4
+There is a really bright light coming from this hole above you
+~
+~
+0 0 15010
+S
+#15012
+Inside a Rabbit Warren~
+You are in a long narrow underground passage, obviously the home of some
+rabbit, though it is unlike any rabbit warren that you have ever seen
+before. Deckchairs, beach towels and several pairs of sunglasses lie stacked
+next to old Billie Holliday 78s and a pile of old newspapers. There is also
+a heap of Dodgers memorabilia, from the time when they were in Brooklyn.
+~
+150 dfi 0 0
+D0
+~
+~
+0 0 15013
+D3
+~
+~
+0 0 15011
+S
+#15013
+Inside a Rabbit Warren~
+You are in a long narrow underground passage, obviously the home of some
+rabbit, though it is unlike any rabbit warren that you have ever seen
+before. Deckchairs, beach towels and several pairs of sunglasses lie stacked
+next to old Billie Holliday 78s and a pile of old newspapers. There is also
+a heap of Dodgers memorabilia, from the time when they were in Brooklyn.
+~
+150 dfi 0 0
+D0
+~
+~
+0 0 15014
+D2
+~
+~
+0 0 15012
+S
+#15014
+Inside a Rabbit Warren~
+You are in a long narrow underground passage, obviously the home of some
+rabbit, though it is unlike any rabbit warren that you have ever seen
+before. Deckchairs, beach towels and several pairs of sunglasses lie stacked
+next to old Billie Holliday 78s and a pile of old newspapers. There is also
+a heap of Dodgers memorabilia, from the time when they were in Brooklyn.
+~
+150 cdfi 0 0
+D2
+~
+~
+0 0 15013
+D4
+Sandy Roof
+~
+Sand~
+1 0 15015
+S
+#15015
+Inside a Bull Ring~
+You emerge onto the sandy floor of a Bull Fighting Arena. The crowd goes
+wild as you enter, and you suddenly realize that they think you are the
+matador! You look around nervously for El Toro...
+~
+150 0 2 0
+D0
+~
+~
+0 0 15016
+D2
+~
+~
+0 0 15017
+D5
+~
+~
+0 0 15014
+S
+#15016
+The Stadium~
+You are standing among the audience of the stadium. They don't look too
+impressed by this. Especially in light of the fact that the bull is still
+coming for you!
+~
+150 f 2 0
+D0
+~
+~
+0 0 15003
+D2
+~
+~
+0 0 15015
+S
+#15017
+The Changing Rooms~
+Here the Matadors change from their civilian clothing into their costumes
+prior to entering the arena. It is currently empty right now.
+~
+150 0 0 0
+D0
+~
+~
+0 0 15015
+S
+#15018
+A Small Clearing~
+This clearing is bare save for a huge scorch mark in the center of it, which
+appears to have been made by rocket engines...
+~
+150 fy 3 0
+D1
+~
+~
+0 0 15010
+D3
+~
+~
+0 0 15019
+S
+#15019
+Out of the Woods~
+You have emerged onto a black bitumen flat top with white lines painted on
+it. It runs toward a city to the west.
+~
+150 cf 3 0
+D1
+~
+~
+0 0 15018
+D3
+~
+~
+0 0 15020
+S
+#15020
+In the City~
+You have entered the city, and you quickly avoid several two-dimensional
+cars that suddenly rush past, driven by faceless people with strange voices.
+You may head north from here toward an apartment building, or south and
+east out of town toward the desert and a forest respectively. To the west
+lies a park.
+~
+150 cf 1 0
+D0
+~
+red~
+1 0 15021
+D1
+~
+~
+0 0 15019
+D2
+~
+~
+0 0 15026
+D3
+~
+~
+0 0 15041
+S
+#15021
+Outside an Apartment Block~
+The door to the block lies north. Standing here, you notice a telephone
+pole towering high above you, and a tall fence with a metal gate to the
+west, behind which you can hear the barking of dogs.
+~
+150 cf 1 0
+D0
+~
+frontdoor~
+1 0 15022
+D1
+~
+Warehouse~
+1 0 15043
+D2
+~
+red~
+1 0 15020
+D3
+~
+gate~
+1 0 15024
+D4
+~
+~
+0 0 15025
+S
+#15022
+Inside the Apartment Block~
+This apartment block is rather nice, like those found in Manhattan. A set
+of stairs leads up to granny's apartment.
+~
+150 cy 0 0
+D2
+~
+Frontdoor~
+1 0 15021
+D4
+~
+~
+0 0 15023
+S
+#15023
+Granny's Apartment~
+Granny lives here with Tweety Pie, her beloved avian friend. His cage hangs
+near the window. Outside, you can see the top of the telephone pole you
+saw earlier; it is about the same height as this apartment. A rather odd
+cat appears to be doing something whilst perched atop it. Wonder what he's
+up to...? You can head across a tightrope wire he has affixed to here if
+you want.
+~
+150 0 0 0
+D2
+~
+window~
+1 0 15025
+D5
+~
+~
+0 0 15022
+S
+#15024
+A Yard~
+This yard is full of savage dogs! You shriek and claw madly at the door.
+High above, you notice a cat is hanging for dear life from the telephone
+pole. Were he to let go, he would surely fall into the yard too...
+~
+150 0 1 0
+D1
+~
+Gate~
+1 0 15021
+S
+#15025
+The Top of the Telephone Pole.~
+Someone has built a small platform here, and affixed a wire to it that runs
+to a window of the apartment block. Through the window you can see a bird
+cage. If you want, you can try and head across the wire, though there is
+a yard full of savage dogs down below...
+~
+150 0 1 0
+D0
+~
+window~
+1 0 15023
+D5
+~
+~
+0 0 15021
+S
+#15026
+A Highway~
+This highway stretches south into the desert, past towering mesas and
+buttes, and sloping tors eroded by fierce desert winds.
+~
+150 0 2 0
+D0
+~
+~
+0 0 15020
+D2
+~
+~
+0 0 15027
+S
+#15027
+A Highway~
+This highway stretches south into the desert, past towering mesas and
+buttes, and sloping tors eroded by fierce desert winds. The road bends west
+here, and is by a narrow dirt track running south.
+~
+150 0 130 0
+D0
+~
+~
+0 0 15026
+D2
+~
+~
+0 0 15032
+D3
+~
+~
+0 0 15028
+S
+#15028
+A Highway~
+This highway stretches south into the desert, past towering mesas and
+buttes, and sloping tors eroded by fierce desert winds. You see something
+unusual on the road ahead.
+
+~
+150 c 130 0
+D0
+~
+~
+0 0 15045
+D1
+~
+~
+0 0 15027
+D2
+~
+~
+0 0 15029
+D3
+~
+~
+0 0 15036
+S
+#15029
+A Highway~
+This highway stretches south into the desert, past towering mesas and
+buttes, and sloping tors eroded by fierce desert winds. It stretches out to
+the west for what seems like forever, and you decide not to bother continuing
+that way.
+~
+150 f 130 0
+D0
+~
+~
+0 0 15028
+D2
+~
+~
+0 0 15031
+D4
+~
+~
+0 0 15030
+S
+#15030
+Atop a Mesa~
+Here some fiendish creature has rigged a trap whereby a huge log suspended
+by a thick rope will swing down and crush whoever is below when the rope is
+cut. Well, the rope has been cut, but the trap doesn't seem to be working...
+~
+150 f 130 0
+D5
+~
+~
+0 0 15029
+S
+#15031
+A Small Cave~
+You have entered a small cave where Wile lurks in between attempts on the
+Road Runner's life. There are boxes and boxes full of evil death-dealing
+equipment, all made by ACME (of course it's reliable).
+
+~
+150 df 128 0
+D0
+~
+~
+0 0 15029
+S
+#15032
+Outside a Hacienda~
+You are approaching a Mexican hacienda, complete with white-washed walls,
+many archways and a terracotta tiled roof. There is also a small hole in
+the ground near your feet.
+
+~
+150 f 2 0
+D0
+~
+~
+0 0 15027
+D1
+~
+~
+0 0 15033
+S
+#15033
+Inside the Hacienda~
+You are in a quaint, well-furnished hacienda, which seems to be bereft of
+inhabitants save for several field mice. There is a small hole in the south
+wall you may want to examine.
+~
+150 f 0 0
+D2
+~
+~
+0 0 15034
+D3
+~
+~
+0 0 15032
+S
+#15034
+A Mouse Lair~
+You enter a tiny lair with tiny beds lined up neatly against one wall, and
+a tiny wardrobe sits near a tiny mirror on the other. A HUGE piece of cheese
+dominates the whole affair.
+~
+150 fiA 0 0
+D0
+~
+~
+0 0 15033
+S
+#15035
+Inside a Rabbit Warren~
+You are in a long narrow underground passage, obviously the home of some
+rabbit, though it is unlike any rabbit warren that you have ever seen
+before. Deckchairs, beach towels and several pairs of sunglasses lie stacked
+next to old Billie Holliday 78s and a pile of old newspapers. There is also
+a heap of Dodgers memorabilia, from the time when they were in Brooklyn.
+~
+150 fi 0 0
+D0
+~
+~
+0 0 15047
+D1
+~
+~
+0 0 15014
+D3
+~
+~
+0 0 15040
+S
+#15036
+A Small Path~
+You are heading south across a prairie toward what looks like a small town
+in the Old West, save that this town has only two buildings, both of them
+saloons.
+~
+150 c 2 0
+D0
+~
+~
+0 0 15028
+D2
+~
+~
+0 0 15037
+S
+#15037
+Outside the Saloons~
+You are standing on the dusty road outside the two saloons, owned by rival
+competitors. There is a huge crowd in one saloon, while the other is empty.
+There is a hole in the ground here.
+
+~
+150 f 2 0
+D0
+~
+~
+0 0 15036
+D1
+~
+~
+0 0 15039
+D3
+~
+~
+0 0 15038
+D5
+~
+~
+0 0 15040
+S
+#15038
+A Saloon~
+This saloon is well-appointed, but it is currently deserted. Only the lonely
+owner is currently here.
+
+~
+150 0 0 0
+D1
+~
+~
+0 0 15037
+S
+#15039
+A Saloon~
+This saloon is doing a roaring trade, with patrons literally coming out the
+doors and windows.
+~
+150 c 0 0
+D3
+~
+~
+0 0 15037
+S
+#15040
+Inside a Rabbit Warren~
+You are in a long narrow underground passage, obviously the home of some
+rabbit, though it is unlike any rabbit warren that you have ever seen
+before. Deckchairs, beach towels and several pairs of sunglasses lie stacked
+next to old Billie Holliday 78s and a pile of old newspapers. There is also
+a heap of Dodgers memorabilia, from the time when they were in Brooklyn.
+~
+150 acfi 0 0
+D1
+~
+~
+0 0 15035
+D4
+~
+~
+0 0 15039
+S
+#15041
+A City Park~
+This park is quite pretty for a two-dimensional drawing. Paper trees glued
+to cardboard fields surround you, and a lovely flat lake filled with
+motionless ducks to the south looks very peaceful.
+
+~
+150 0 1 0
+D1
+~
+~
+0 0 15020
+D3
+~
+~
+0 0 15042
+S
+#15042
+A City Park~
+This park is quite pretty for a two-dimensional drawing. Paper trees glued
+to cardboard fields surround you, and a lovely flat lake filled with
+motionless ducks to the south looks very peaceful.
+~
+150 0 1 0
+D1
+~
+~
+0 0 15041
+S
+#15043
+A Warehouse~
+This warehouse is full of crates and boxes of all varieties. Some of them
+have come from such remote and dangerous places as Africa, Australia and
+Detroit. You hear a thumping coming from the east.
+~
+150 afyA 0 0
+D1
+~
+~
+0 0 15044
+D3
+~
+Warehouse~
+1 0 15021
+S
+#15044
+A Warehouse~
+This warehouse is full of crates and boxes of all varieties. Some of them
+have come from such remote and dangerous places as Africa, Australia and
+Detroit. There is a strange odor in this room, as of animals, and you
+suddenly begin to feel very nervous.
+~
+150 afzA 0 0
+D3
+~
+~
+0 0 15043
+S
+#15045
+Outside the Cave~
+You are outside a cave, the entrance to which lies east. You see prints in
+the dirt that look to have been made by a tiny donkey. There is a hole in
+the ground here.
+~
+150 0 130 0
+D1
+~
+~
+0 0 15046
+D2
+~
+~
+0 0 15028
+D5
+~
+~
+0 0 15047
+S
+#15046
+Inside the Cave~
+This cave is full of fabulous treasures, but they are guarded by an angry
+genie! You better get out of here...
+~
+150 0 130 0
+D3
+~
+~
+0 0 15045
+S
+#15047
+Inside a Rabbit Warren~
+You are in a long narrow underground passage, obviously the home of some
+rabbit, though it is unlike any rabbit warren that you have ever seen
+before. Deckchairs, beach towels and several pairs of sunglasses lie stacked
+next to old Billie Holliday 78s and a pile of old newspapers. There is also
+a heap of Dodgers memorabilia, from the time when they were in Brooklyn.
+~
+150 acfi 0 0
+D2
+~
+~
+0 0 15035
+D4
+~
+~
+0 0 15045
+S
+#15048
+Western Field~
+You are in the western end of the farmyard. There is a doghouse south of
+here, and a large tree.
+~
+150 0 2 0
+D0
+~
+Frontdoor~
+1 0 15052
+D1
+~
+~
+0 0 15007
+D2
+~
+~
+0 0 15049
+D4
+~
+~
+0 0 15050
+S
+#15049
+Inside Sam's Kennel~
+You are inside a rather cramped doghouse that reeks of wet blankets, stale
+food and urine. It isn't very pleasant, even by cartoon standards.
+~
+150 afhizA 0 0
+D0
+~
+~
+0 0 15048
+S
+#15050
+Up A Tree~
+You are clambering amongst the thick limbs of an old oak tree. You see
+several birds' nests in its leafy branches.
+And as you lean out to grab one you fall and find yourself lying there dying
+~
+150 abcdf 16393 0
+S
+#15051
+Inside the cage~
+The inside of this cage is rather clean except for a few yellow feathers lying around.
+just above your head is a small swing made of wire and wood and it is still swing on it's own.
+~
+150 adfizA 0 0
+D5
+~
+Cagedoor~
+1 0 15023
+S
+#15052
+Chickenhawks house~
+Just as the farmhouse this a single room with all the paintings on the wall bieng just drawn there is a table in one corner and a lounge opposite it
+There is a rocking chair in the middle of the room that is still moving..
+~
+150 gA 0 0
+D2
+~
+Frontdoor~
+1 0 15048
+S
+#15053
+Inside the ship~
+You are standing inside a green space ship that has been hovering above the forest
+The walls are plain and there is nothing to tell you where to go or what to do.....
+~
+150 dfgh 0 0
+D0
+~
+~
+0 0 15054
+D1
+~
+~
+0 0 15055
+D3
+~
+~
+0 0 15059
+S
+#15054
+Centre of the ship~
+This is the centr of the space ship..The is nothing here but a console with glowing lights all over and a scratch pad in the centre.
+~
+150 adg 0 0
+D2
+~
+~
+0 0 15053
+S
+#15055
+Inside the ship~
+You are standing inside a green space ship that has been hovering above the forest
+The walls are plain and there is nothing to tell you where to go or what to do.....
+~
+150 afgh 0 0
+D0
+~
+~
+0 0 15056
+D3
+~
+~
+0 0 15053
+S
+#15056
+Inside the ship~
+You are standing inside a green space ship that has been hovering above the forest
+The walls are plain and there is nothing to tell you where to go or what to do.....
+~
+150 adf 0 0
+D2
+~
+~
+0 0 15055
+D3
+~
+~
+0 0 15057
+S
+#15057
+Inside the ship~
+You are standing inside a green space ship that has been hovering above the forest
+The walls are plain and there is nothing to tell you where to go or what to do.....
+~
+150 adf 0 0
+D1
+~
+~
+0 0 15056
+D3
+~
+~
+0 0 15058
+S
+#15058
+Inside the ship~
+You are standing inside a green space ship that has been hovering above the forest
+The walls are plain and there is nothing to tell you where to go or what to do.....
+~
+150 0 0 0
+D1
+~
+~
+0 0 15057
+D2
+~
+~
+0 0 15059
+S
+#15059
+Inside the ship~
+You are standing inside a green space ship that has been hovering above the forest
+The walls are plain and there is nothing to tell you where to go or what to do.....
+~
+150 adf 0 0
+D0
+~
+~
+0 0 15058
+D1
+~
+~
+0 0 15053
+S
+$~
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d14 1
+d45 1
+a45 1
+150 f 2 0
+d62 1
+a62 1
+150 0 2 0
+d67 4
+d89 4
+d94 1
+d173 1
+a173 1
+1 0 15005
+d258 1
+a258 1
+150 dfi 0 0
+d276 8
+d289 27
+d336 1
+a336 1
+150 f 3 0
+d354 1
+a354 1
+150 f 1 0
+d357 2
+a358 2
+~
+0 0 15021
+d378 1
+a378 1
+150 f 1 0
+d385 2
+a386 2
+~
+0 0 15043
+d389 2
+a390 2
+~
+0 0 15020
+d405 1
+a405 1
+150 0 0 0
+d427 2
+a428 2
+~
+0 0 15025
+a444 4
+D4
+~
+~
+0 0 15025
+d456 2
+a457 2
+~
+0 0 15023
+d505 1
+a505 1
+150 0 130 0
+d642 1
+a642 1
+150 0 2 0
+d694 1
+a694 1
+150 0 0 0
+d708 1
+a708 1
+150 afi 0 0
+d760 2
+a761 2
+~
+0 0 15021
+d815 1
+a815 1
+150 afi 0 0
+d831 4
+d869 1
+a869 1
+The inside of this cage is rather clean ecept for a few yellow feathers lying around.
+d877 115
+@
+

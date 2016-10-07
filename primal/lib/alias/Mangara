@@ -1,0 +1,19 @@
+ref tell gamina refresh
+eb eat bread
+ma cast 'magic missile' $1
+corp get all corpse
+wa wake ; stand
+sl sleep
+ta take all
+pra prac
+cor get all.gold corpse
+a affects
+ba backstab $1
+sum tell gamina summon
+hea tell gamina heal
+he tell gamina heal
+sa tell gamina sanc
+ar tell gamina armor
+ble tell gamina bless
+k rem halb ; wie dagger ; backstab $1
+halb rem dagg ; wie halb

@@ -1,0 +1,5 @@
+ch cast 'heal'
+trash get coins corpse; get corpse; junk corpse
+bs remove sword; wield soaker; backstab $*; remove soaker; wield sword
+ga get all all.corpse
+wa wake; stand

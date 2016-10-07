@@ -1,0 +1,45 @@
+cu cast 'cure light' $*
+qh get red $*;q red
+qr get red $*;q red
+qw get white $*;q white
+4 bs spectator;kick spectator;kick spectator;get all corpse;junk corpse;get corpse
+cs steal gold $*
+cd cast 'dragon'
+stwear ;;1;s;s;s;s;s;wear all;wield sword;hold rod;score
+9 drink barrel
+rh remove hal;wield knife
+rk remove knife;wield hal
+6 backstab altar;kick altar;get coins corpse;get corpse;junk corpse
+1 get all corpse;get corpse;junk corpse
+pb put $1 saddle
+ci cast 'infra' $*
+db drink beer
+- get coins corpse;get corpse;junk corpse
+5 cast 'cure light'
+8 get meat $1;eat meat
+lh get heal gar;q heal
+pg put $1 in garbag
+pc put $1 in crate
+js junk shot
+dw drink shot
+= junk corpse
+2 get coins from corpse
+0 taste bread
+rp reply $*
+' say $*
+3 exa corpse
+bs backstab $*
+ki kick $*
+rr recite recall
+sh cast 'shocking grasp' $*
+cb cast 'bless'
+cl cast 'lightning bolt' $*
+qp get protection crate;quaff protection
+us use staff
+ias rh
+dg cast 'dispel good' $*
+de cast 'dispel evil' $*
+rs remove sword;wield knife
+rss remove knife;wield laser
+7 backstab citizen;kick citizen;ki;get coins corpse;get corpse;junk corpse
+cc cast 'create food';eat mushroom

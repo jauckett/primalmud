@@ -1,0 +1,10 @@
+di cast 'detect invis' rage
+gs gsay
+o wi halberd
+p rem dagger
+2 get all corpse
+k kick
+rr recite recall
+cl cast 'cure light'
+cc cast 'cure critic' rage
+lb cast 'lightning bolt'

@@ -1,0 +1,229 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.01.26.15.41.25;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Added the object files which didn't import.
+@
+text
+@#8100
+codpiece~
+a black codpiece~
+A black leather codpiece is sitting on the ground here.~
+~
+9 68160 2049
+2 0 0 0
+5 30000 3000
+A
+6 1
+A
+12 50
+A
+18 5
+A
+19 2
+L 40
+#8101
+axe~
+an executioner's axe~
+A huge executioner's axe is lying on the ground here.~
+~
+5 2560 8193
+0 10 5 3
+25 24531 4906
+A
+18 5
+A
+19 5
+L 45
+#8102
+spike~
+a nastly looking spike~
+A nasty looking spike is lying on the ground here.~
+~
+5 65600 8193
+0 2 11 11
+17 62130 12426
+A
+19 3
+A
+18 3
+L 17
+#8103
+ruff~
+a large ruff~
+A large ruff is lying on the ground here.~
+~
+9 129 5
+2 0 0 0
+2 72900 7290
+A
+4 -2
+A
+13 -1
+L 10
+#8104
+green nugget~
+a nugget of purist green~
+A nugget of purist green is lying on the ground here.~
+~
+8 0 1
+0 0 0 0
+1 2750 275
+L 0
+#8105
+pie~
+a huge pie~
+A huge pie has been left here.~
+~
+19 0 1
+8 0 0 0
+3 50 5
+L 0
+#8106
+crown ~
+a golden crown~
+A sparkling, golden crown has been dropped here.~
+~
+9 3072 17
+6 0 0 0
+6 29500 2950
+E
+crown~
+A beautiful jeweled headwear that shine's mgnificently in the light.
+~
+A
+12 60
+A
+4 -1
+A
+18 2
+A
+19 1
+L 35
+#8107
+bracers~
+Some black bracers~
+A pair of black leather bracers has been left here.~
+~
+9 2561 1025
+3 0 0 0
+9 107000 10700
+A
+13 50
+A
+5 1
+L 40
+#8108
+treasure gold~
+The Bishop's treasure.~
+Here lies the Bishop's secret treasure.~
+~
+8 1 1
+0 0 0 0
+1 888750 275
+E
+treasure gold~
+The Bishop's secret treasure of gold, silver and rare jewels.
+~
+L 0
+#8109
+Golden plate~
+Flashard's golden plate~
+Lord Flashard's golden plate armour lies here.~
+~
+9 3081 9
+16 0 0 0
+6 29500 2950
+E
+golden plate~
+A magnificent plate of golden armour
+~
+A
+12 100
+A
+4 -2
+A
+18 4
+A
+19 2
+L 48
+#8110
+golden leggings ~
+Flashard's golden leggings~
+A pair of magnificent golden leggings have been dropped here.~
+~
+9 3081 33
+8 0 0 0
+6 29500 2950
+E
+golden leggings~
+A golden pair of leggings to be worn by a true knight
+~
+A
+1 3
+A
+4 -3
+A
+18 3
+A
+19 1
+L 45
+#8112
+potion queen's healing~
+Queen's potion healing~
+The Queen's potion of healing lies here.~
+~
+10 0 1
+50 28 28 15
+1 22000 500
+E
+potion~
+             
+           Strange markings surround the potion
+~
+
+#8113
+staff pink~
+pink staff~
+A pink staff lies here.~
+~
+4 1 1
+50 20 20 38
+1 20000 1000
+E
+staff pink~
+             
+              This staff will sleep enemies
+~
+L 5
+#8114
+Purple Staff~
+A purple staff~
+A purple staff lies here~
+~
+4 1 1
+50 20 20 7
+5 30000 3000
+E
+staff purple~
+                  
+              This staff will charm anyone
+~
+#99999
+$~
+@

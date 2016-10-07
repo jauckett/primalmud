@@ -1,0 +1,81 @@
+sanc cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanct';cast 'sanc
+z show zone $1
+laser rem stalker;wield laser
+stalker rem laser;wield stalker
+getd  get all; hold jack;hold hammer;wield laser;wear black body;wear all;open force;open 2.force;open 3.force;put for 2.force;put force 2.force;hold drill
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+0 group all;cast 'group sanct';group clone;group 2.clone;ungroup
+gra grats &R/\/\/\/\---- &B&f$1&n &R----/\/\/\/\
+sleep cast 'sleep' $*
+7 cast 'infravis' clone;cast 'infravis' 2.clone
+9 cast 'detect invis' clone;cast 'detect invis' 2.clone
+8 cast 'sanctuary' $*
+2 cast 'advanced heal' $*
+1 get heal for;get heal for;get heal for;get heal for;get heal for;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put force 2.force
+bh buy 20 heal;put all.heal force
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+clone cast 'clone'
+5 cast 'haste'
+wa wake;stand
+4 get heal 2.force;quaff heal
+2bh buy 20 heal;put all.heal 2.force
+c get coins all.corpse
+ord order followers kill $1;kill $1
+qh get heal force;quaff heal
+det cast 'detect invis'$*
+3 cast 'divine heal'$*
+drag cast 'dragon'
+ret retreat
+haste cast 'haste'
+holy cast 'holy aid' $*
+water cast 'waterbreathe' $*
+fly cast 'fly'$*
+re cast 'word of recall'
+sum cast 'summon' $*
+x exa corpse
+inf cast 'infravision' $*
+cw cast 'create water' skin
+cf cast 'create food'
+qw quaff white
+qr quaff red
+ef eat mushroom
+dr drink skin
+inv cast 'invisibility' $*
+di cast ' detect invisibility' $*
+h cast 'heal' $*
+wat cast 'waterwalk' $*
+par cast 'paralyze' $*
+wh cast 'whirlwind'
+ref cast 'refresh' $*
+gs open force; get skin for
+all get all.coins all.corpse
+life cast 'sense life'
+fi cast 'finger of death'
+rc cast 'remove curse' $*
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+main w;n;e;e;e;e;e;s;s
+for put for 2.force
+ser order follower serve
+tra train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1
+tele cast 'teleport'
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+noh cast 'nohas'
+clan w;n;e;e;e;e;e;s;s;d;s;s;s
+talon cast 'remove curse' talon;e;sell talon;w
+charm cast 'charm'$*
+lev1 e;e;e;e;s;s;e;unlock door; open door;n;open door east; e;e;e;e;n;n;n;open cliff; e;unlock tap; open tap;n;u;u;u;u;n;n;n;n;n;n;n
+id cast 'ident' $*
+stone cast 'stone'
+serp cast 'serpent'
+gh get all.heal for;drop all.heal
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+q get corpse
+loc cast 'locate' $*

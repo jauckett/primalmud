@@ -1,0 +1,76 @@
+holy cast 'holy'
+getwhite get white back
+ser cast 'ser'
+wra cast 'wraith' $1
+gtr give 2 coins rais
+idback put all.id back
+ench cast 'ench' $1
+cof give all.atlas cophen
+blind c 'blind' $1
+loc c 'loc' $1
+queen get queen force
+ani c 'ani' $1
+getid get id back
+gm give all.atlas maka
+gh c 'group heal'
+gs c 'group san'
+fly c 'fly'
+fin c 'finger' $1
+advan c 'advan' $1
+heal c 'heal' $1
+cure c 'cure crit' $1
+bre c 'waterbre'
+met c 'met' $1
+hfif c 'heal' fif
+big c 'cure crit' biggie
+hhh c 'advan'
+curebig c 'cure crit' bigg
+water c 'waterwalk'
+cp c 'plas'
+san c 'san'
+hh c 'heal'
+stren c 'stren'
+rr c 'word' 
+curebad c 'cure critic' bad
+food cast 'create'
+qw quaff white
+en c 'energy'
+gag get gold all.corpse
+invis cast 'invis'
+infra cast 'infra'
+cc cast 'cure crit'
+red get red back;q red
+gac get all all.corpse
+cf cast 'fire'
+arm cast 'armor'
+bless cast 'bless'
+mm c 'magic'
+detin c 'detect invi'
+fresh c 'refresh'
+t train hit; train hit; train hit; train hit; train hit
+qr q red
+par c 'para' $1
+ch c 'charm' $1
+cb c 'burn' $1
+cl c 'light' $1
+hiya goss hiya ppl
+tele c 'tele'
+cya goss cya ppl!!
+cmaka c 'cure crit' maka
+summon c 'summon' $1
+sense c 'sense'
+smoke goss brb..............(smoko)
+dra c 'dra'
+drink c 'create water'
+clone c 'clone'
+groupsan c 'group san'
+hu give all.bre $1
+qq open force
+wake wake
+gt get tonic force
+openfor open force
+tt quaff tonic
+remcurse cast 'remove curse' $1
+dim $1
+gate cast 'dim' $1
+fear cast 'fear' $1

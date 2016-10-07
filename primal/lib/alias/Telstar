@@ -1,0 +1,112 @@
+remall rem all;get all force;drop all;open force;put all force
+quit c 'word of recall';goto 248;rem all;drop all;rem all;drop all;save;quitr
+eternalecho echo &Msomeone>$*
+tri get tri force;rem hand;hold tri;rem tri;hold tri;rem tri;hold hand;put tri force
+remcurse c 'remove curse' $*
+remblind c 'cure blind' $*
+curse c 'curse' $*
+blind c 'blind' $*
+grat grat -,-'&r@&c$* &r@&g'-,-
+grats grat -,-'&r@&c$* &r@&g'-,-
+bar goto 437
+uss goto 134
+avengers goto 117
+jedi goto 122
+guardians goto 112
+rempara c 'remove para' $*
+inv echo You blink and suddenly realize that Telstar is gone.
+app echo You feel privilidged as Telstar materialises nearby.
+blade rem sword;wi blade
+sword emote eyes glow &rRed&n.;rem blade;wi sword
+tardis goto 22399
+xxxx goto 323
+oddhouse s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n;open gate
+sense c 'sense' $*
+getserpent goto serpent;b serpent
+spiral goto trak;b trak;goto drid;b drid;goto trog;b trog;goto trak;b trak;goto drid;b drid;goto trog;b trog;goto trak;b trak;goto drid;b drid;goto trog;b trog;goto trak;b trak;goto drid;b drid;goto trog;b trog
+clsanc c 'bless' clone; c 'bless' 2.clone; c 'spirit' clone; c 'spirit' 2.clone; c 'sanc' clone; c 'sanc' 2.clone
+red echo Telstar's eyes glow &rRed&w.
+t3 c 'divine heal';c 'divine heal';goto 8174;c 'cloud kill';c 'cloud kill';c 'cloud kill';c 'divine heal';goto flashar;b flashard;goto 8203;b look;goto 8148;b look
+t2 goto 8110;c 'cloud kill';goto 8204;get all;goto 8150;b wiza;goto 8140;b miggin;goto miggins;b miggin;goto 8168;b head;goto caret;b caret
+t1 goto 8113;c 'cloud kill;goto baldric;b baldric;goto 8112;b black;goto 8117;b store;goto 8118;b weap;get all all.corpse;goto 8119;b arm 
+fear c 'fear' $*
+cloneq get all.laser force;give laser clone;give laser 2.clone;order clones wi laser
+ac c 'animate' corp
+identify c 'ident' $*
+bank goto 20
+3tavern goto 22042
+2tavern goto 13287
+tavern goto 12
+immortal goto 100
+bless c 'bless' $*
+invis c 'invis' $*
+godbless c 'divine protect' self;c 'holy aid' self;c 'spirit armo' self
+protect c 'bless' $*;c 'armor' $*;c 'sanc' $*
+at c 'finger' $*;order clones assist Telstar
+// / #100 $*
+id c 'identify' $*;stat $*
+animate c 'animate' $*
+scuba rem red;rem sash;get suit force;get mask force;wear suit;wear mask
+blindness c 'blindness' $*
+cldie order clones die
+clsleep order clones sleep
+haid c 'holy aid'
+para c 'para' $*
+water c 'waterbreath' self
+serve order clones serve
+sball snowball $*
+dgate c 'dimension gate' $*;open gate;go gate;stand;smile $*
+wel pat $*;shake $*;smile $*
+locate c 'locate object' $*
+tport c 'teleport'
+scan scan
+sum c 'summon' $*
+gac get all all.corpse
+summon c 'summon' $*
+armor c 'armor'
+lc look in corpse
+og unlock gate;open gate;unlock door;open door;unlock wooden;open wooden;unlock tiny;open tiny;unlock small;open small
+csleep c 'sleep' $*
+ass wet $*;wedgie $*;laugh
+charm c 'charm' $*
+lf look in force
+fd c 'finger' $*
+ps primal scream
+jac get all.corpse;j all.corpse
+divine c 'divine' $*
+serpent cast 'serpent skin' $*
+wt c 'wraith touch'
+ck c 'cloud kill'
+dragon c 'dragon'
+haste c 'haste' self
+stone c 'stoneskin' self
+pick pick $*;open $*
+clone c 'clone'
+island n;n;n;u;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;c 'water' self;u;open dock;u;e;e
+sanc c 'sanc' $*
+wake wake;stand;l;where
+fwall c 'fire wall' self
+cheapshot order clone kill $*
+gag get gold cor
+word c 'word'
+dh c 'divine heal' $*
+heal c 'heal' $*
+slay rem blad;get silver for;get stake forc;wi dagg;slay $*;rem dagg;wi stak;slay $*;rem stak;wi blade;put dagg for;put stak for
+home goto 248
+sarmor c 'spirit arm' $*
+th train hit; train hit; train hit; train hit; train hit; train hit; train hit; train hit; train hit; train hit; 
+di c 'detect invis' $*
+forcegossip echo &y$* gossips, 'I love boys'
+forcered echo Someone's eyes glow &rRed&w.
+vulcan echo Telstar skillfully performs the Vulcan neck pinch on$* who falls to the ground, stunned.
+traineq wi bee;wear tail;wear sash;wear lich;wear lich;wear dis;wear zeus;wear robe;wear stone;hold orb
+strong c 'strength' $*
+infra c 'infra' $*
+refresh c 'refresh' $*
+quest goto 5
+/// / #105 $*
+gash goto 120
+pcorpse goto pcorpse
+warspells echo You suddenly realise the wraith of Telstar's &rEvilness&n and feel threatened. 
+wa get all;get all force;rem all;wear mask;wear mocc;wear glove;wi death;hold hand;open forc;put all forc;get blade force;drop forc
+war get all;get all force;rem all;hold hand;wear slizz;wear mocc;wear mask;wi stalk;wear all.comm;wear servan;wear all.lich;wear all.thorn;wear bic;wear cow;hold jack;wear vend;open force;wear titan;put all force;get serpe forc

@@ -1,0 +1,868 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.01.30.22.00.19;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.01.27.15.31.12;	author talisman;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.01.26.15.41.25;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added mana battery - object 4540
+@
+text
+@#4500
+slizzarrs gloves~
+gloves of slizzarr~
+You see a pair of scaily gloves glistening on the ground here~
+~
+24 50397441 129
+1 3 36 -1
+4 3000000 300000
+E
+slizzarrs gloves~
+You see a pair of green gloves.  Shiny scales cover them completely.
+Menacing claws protrude from its fingertips.  Looking inside the gloves
+you spot small tentacles waiting to burry themself in your flesh.  The
+gloves have a feel of great power.
+~
+A
+1 3
+A
+13 50
+A
+17 -12
+A
+18 12
+A
+19 10
+L 70
+#4501
+Thors Hammer~
+Thors Hammer~
+You see a savage looking hammer.  Sparks of electricity flicker through it.~
+~
+5 66627 8193
+6 13 5 6
+18 1000000 100000
+E
+Thors hammer~
+Examining the hammer closely you sense the presence of a great power.
+Strength flows through you.  You feel confident.  An inscription on the
+hammer reads.
+
+"Use this weapon in a just and nobel cause"  GROOVY!
+~
+A
+1 2
+A
+9 -20
+A
+17 -3
+A
+18 -2
+A
+19 8
+L 60
+#4502
+section rod part1~
+a section of rod~
+A short section of rod rolls in the dirt here.~
+~
+4 13 1
+0 0 0 0
+1 20000 100000
+E
+section rod part1~
+A 5cm length of wood, jagged at one end.
+~
+#4503
+section rod part2~
+a section of rod~
+A short section of rod rolls in the dirt here.~
+~
+4 13 1
+0 0 0 0
+1 20000 100000
+E
+section rod part2~
+A 10cm length of wood, jagged at both ends. 
+~
+#4504
+section rod part3~
+a section of rod~
+A short section of rod rolls in the dirt here.~
+~
+4 13 1
+0 0 0 0
+1 20000 100000
+E
+section rod part3~
+A 15cm length of wood, jagged at both ends
+~
+#4505
+section rod part4~
+a section of rod~
+A section of rod rolls in the dirt here.~
+~
+4 13 1
+0 0 0 0
+1 20000 100000
+E
+section rod part4~
+A 20cm length of wood, jagged at both ends.
+~
+#4506
+section rod part5~
+a section of rod~
+A section of rod rolls in the dirt here.~
+~
+4 13 1
+0 0 0 0
+1 20000 100000
+E
+section rod part5~
+A 5cm length of wood, jagged at one end. 
+~
+#4507
+section rod part6~
+a section of rod~
+A long section of rod rolls in the dirt here.~
+~
+4 13 1
+0 0 0 0
+1 20000 100000
+E
+section rod part6~
+A 30cm length of wood, jagged at both ends. 
+~
+#4508
+section rod part7~
+a section of rod~
+A long section of rod rolls in the dirt here.~
+~
+4 13 1
+0 0 0 0
+1 20000 100000
+E
+section rod part7~
+A 35cm length of wood, jagged at one end.
+~
+#4509
+Rod of many parts~
+rod of many parts~
+A smooth runed wooden rod lies on the ground here.~
+~
+24 0 16385
+9 9 0 -1
+1 2000000 400000
+E
+Rod of many parts~
+Carved with indecipherable sigils, this is obviously an
+object of great power.
+~
+A
+1 5
+A
+9 -20
+A
+13 20
+A
+17 -10
+A
+18 5
+A
+19 5
+L 0
+#4510
+tag rules~
+Tag rules~
+TAG Rules; read rules~
+~
+12 0 0
+0 0 0 0
+1000 1 1
+E
+tag rules~
+                                   TAG Rules!
+                                   ==========
+
+The aim of tag is to tag other players before they tag you.  To do this you
+will need to type in;
+
+tag <player-name>   i.e.  tag drax
+
+You are to enter the ARENA and find a place to start from.  You will be given
+a minute or two to do this.  Once the person running the TAG game says go you
+are to move around the zone looking for the other players and try to tag
+them out before they tag you.
+
+It is recommended that you move around as there will be a higher chance of 
+finishing the game quicker.
+
+The rules for the game are;
+
+* Spells are not allowed.  <And u can't cast them anyway>
+* You cannot use track or scan.
+* Use of any skills like sneak/hide is prohibited.
+* Mud client TRIGGERS ARE NOT ALLOWED!!!!!!!
+* Player killing in Zone is prohibited!.
+* As soon as you are teleported u are allowed to start the game. So good luck.
+
+ENJOY THE GAME!   - Drax.
+~
+L 0
+#4511
+dough doughnut~
+Doughnut~
+A sweet, jam filled, sugar coated doughnut lies here~
+~
+8 65602 16385
+0 0 0 0
+2 1000 20
+L 0
+#4512
+The orb of Restoration~
+The orb of Restoration~
+You see a strange crystal orb lying here.~
+~
+24 67 16385
+36 71 29 -1
+1 5000000 500
+E
+The orb Restoration~
+Examining the item closer you notice the brilliance of its design.  The flawless
+crystal of rare beauty and value.  Within it you notice a gentle blue glow.
+It radiates a soothing and sensual light.  WOW!
+~
+#4513
+black rose~
+Black Rose~
+You see an exquisite black rose.  Its beauty is enchanting.~
+~
+24 1 16385
+39 19 54 -1
+1 5000 500
+E
+black rose~
+Looking at the rose you gasp in astonishemt.  Its petals are perfection.
+Its rareness makes it beautiful.  This is truly a marvelous flower.
+As you take a deep smell of the rose.  An overpowering scent hits you.
+You feel all warm and fuzzy.
+~
+A
+11 100
+A
+12 50
+A
+18 4
+A
+19 4
+L 0
+#4514
+plasma cannon~
+Plasma Cannon~
+You see a rather terrifying weapon lying here.~
+~
+5 79 8193
+61 10 7 7
+10 10000000 1000000
+E
+plasma cannon~
+looking at the cannon u shudder in fear.  This baby pack a whollop!!.
+~
+A
+1 5
+A
+18 15
+A
+19 10
+L 60
+#4515
+angel wings~
+angel wings~
+A beautiful pair of white angel wings hover above the ground.~
+~
+24 65537 257
+60 3 0 -1
+5 70000 7000
+E
+angel wings~
+Spanning a distance of 8 feet, these angels wings glisten in the
+light giving an aura around them which sparkles and glimmers with
+power.
+~
+A
+13 100
+A
+17 -15
+L 0
+#4516
+angel halo~
+Angel's Halo~
+A sparkling golden angels halo glows softly here.~
+~
+24 65537 17
+44 1 29 -1
+9 70000 7000
+E
+angel halo~
+Slightly lopsided, this halo nevertheless glows with innocence
+and purity.
+~
+A
+18 6
+A
+19 6
+L 0
+#4517
+key first~
+first key~
+The first key lies here~
+~
+18 65550 1
+0 0 0 0
+1 1 1
+E
+key first~
+The key to the First door
+~
+L 0
+#4518
+key second~
+second key~
+The second key lies here~
+~
+18 65550 1
+0 0 0 0
+1 1 1
+E
+key second~
+The key to the Second door
+~
+L 0
+#4519
+key third~
+third key~
+The third key lies here~
+~
+18 65550 1
+0 0 0 0
+1 1 1
+E
+key third~
+The key to the Third door
+~
+L 0
+#4520
+key fourth~
+fourth key~
+The fourth key lies here~
+~
+18 65550 1
+0 0 0 0
+1 1 1
+E
+key fourth~
+The key to the Fourth door
+~
+L 0
+#4521
+key fifth~
+fifth key~
+The fifth key lies here~
+~
+18 65550 1
+0 0 0 0
+1 1 1
+E
+key fifth~
+The key to the Fifth door
+~
+L 0
+#4522
+key final~
+final key~
+The final key lies here~
+~
+18 65550 1
+0 0 0 0
+1 1 1
+E
+key final~
+The key to the Final door
+~
+L 0
+#4526
+mask silver~
+A silver mask~
+A silver mask lies here.~
+~
+9 65544 17
+15 0 0 0
+2 0 3500
+E
+mask silver~
+A beautiful ornately designed solid silver mask.
+~
+A
+12 100
+A
+13 100
+A
+18 10
+A
+19 10
+L 75
+#4527
+Dragon claw~
+The dragon's claw~
+A large dragon claw lies here.~
+~
+24 65544 16513
+67 72 70 -1
+2 0 3500
+E
+dragon claw~
+The sharp talon's on the dragons claw drip with the blood of past victims.
+~
+A
+1 2
+A
+17 -10
+A
+18 11
+A
+19 9
+L 75
+#4528
+Dragon scales~
+The dragon's scales~
+The dragon's scales lies here.~
+~
+24 65545 9
+75 1 67 -1
+2 0 3500
+E
+dragon scales~
+The scaly skin of amazing colours glistening brightly in the sunlight.
+~
+A
+1 2
+A
+12 100
+A
+13 50
+A
+17 -25
+L 0
+#4529
+black onyx ring~
+black onyx ring~
+A large black onyx ring lies here.~
+~
+9 65544 3
+15 0 0 0
+2 0 3500
+E
+black onyx ring~
+A beautiful black shinny ring with a shinning gold band.
+~
+A
+12 75
+A
+18 8
+A
+19 10
+L 50
+#4530
+helm dragon~
+Dragon's helm~
+A beautiful helm that belonged to a dragon lies here.~
+~
+9 65544 17
+20 0 0 0
+2 0 3500
+E
+helm dragon~
+An unusual helm made from dragon scales lies here.
+~
+A
+12 200
+A
+18 6
+A
+19 6
+L 0
+#4531
+dragon orb~
+Dragon orb~
+A Dragon's orb lies here.~
+~
+9 65544 16385
+15 0 0 0
+2 0 3500
+E
+dragon orb~
+A large orb made from every color you can imagine lies here.
+~
+A
+12 100
+A
+18 5
+A
+19 5
+L 0
+#4532
+underwear enchanted jockstrap strap~
+an enchanted jockstrap~
+A strange piece of underwear is lying here.~
+~
+24 65801 2049
+1 3 36 -1
+4 60000 100000
+A
+6 5
+A
+12 100
+A
+13 75
+A
+14 100
+L 0
+#4533
+moccasins gryphon skin~
+a pair of gryphon skin moccasins~
+A strange pair of moccasins is lying here.~
+~
+24 65801 65
+60 73 50 -1
+9 70000 100000
+A
+17 -15
+A
+19 9
+L 0
+#4534
+medallion champion's~
+The Champion's medallion~
+The Champions medallion lies here.~
+~
+9 65544 5
+11 0 0 0
+2 0 3500
+E
+medallion~
+A beautiful gold medal that has been won by a true champion.
+~
+A
+12 50
+A
+13 50
+A
+18 11
+A
+19 9
+L 0
+#4535
+creative ooze~
+creative ooze~
+A blob of wobbly, stinky ooze moves slowly over the floor here.~
+~
+24 1 163385
+0 0 0 0
+5 70000 7000
+A
+12 100
+A
+13 75
+A
+18 8
+A
+19 8
+L 0
+#4536
+Regen Pack~
+Regen Pack~
+A small medical regeneration pack for healing injuries is ready for use.~
+~
+24 8 16385
+53 53 53 100
+2 10000 10
+L 0
+#4537
+lightning bracer~
+Lightning Bracer~
+Lightning crackles and sizzles around the Bracer.~
+~
+24 65601 4097
+73 74 77 -1
+2 250000 25000
+A
+1 3
+A
+12 125
+A
+18 10
+A
+19 8
+L 90
+#4538
+gauntlet fire~
+Gauntlet of Fire~
+A red flame burns around the Gauntlet, yet it doesn't burn.~
+~
+24 50397250 4097
+78 75 79 -1
+2 250000 25000
+A
+2 3
+A
+14 125
+A
+18 8
+A
+19 10
+L 90
+#4539
+sword wounding~
+Sword of Wounding~
+Dried blood covers an otherwise shining sword.~
+~
+5 577 8193
+66 10 8 3
+7 1000000 100000
+A
+1 4
+A
+2 2
+A
+18 14
+A
+19 15
+L 90
+#4540
+mana battery~
+A Mana Battery~
+An unusual looking object sits here.~
+~
+26 0 1 
+0 2000 2000 25
+3 50000 5000
+L 0
+#99999
+$~
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d631 9
+@
+
+
+1.1
+log
+@Added the object files which didn't import.
+@
+text
+@d17 1
+a17 1
+17 -10
+d19 1
+a19 1
+1 3
+d21 1
+a21 1
+19 7
+d23 1
+a23 1
+18 7
+d25 2
+a26 2
+13 50
+L 50
+d50 2
+a52 2
+A
+18 -2
+a53 1
+
+a65 1
+
+a77 1
+
+a89 1
+
+a101 1
+
+a113 1
+
+a125 1
+
+a137 1
+
+d154 1
+a154 1
+19 5
+d156 1
+a156 1
+18 5
+d160 1
+a160 1
+9 -20
+d162 2
+a163 2
+13 20
+
+d201 1
+d208 1
+a208 1
+0 0 0 0 
+d210 1
+a210 1
+
+d248 1
+d254 1
+a254 1
+5 75 8193
+d262 1
+a262 1
+19 10
+d266 1
+a266 1
+1 5
+d274 1
+a274 1
+60 3 0 -1 
+d292 1
+a292 1
+24 65537  17
+d301 2
+a303 2
+A
+18 6
+d317 1
+a317 1
+L 0 
+d330 1
+a330 1
+L 0 
+d343 1
+a343 1
+L 0 
+d356 1
+a356 1
+L 0 
+d369 1
+a369 1
+L 0 
+d382 1
+a382 1
+L 0 
+d389 1
+a389 1
+12 0 0 0
+d400 1
+a400 1
+18 6
+d402 2
+a403 2
+19 6
+L 0
+d409 2
+a410 2
+9 65544 16513
+8 0 0 0
+d413 1
+a413 1
+dragon claw ~
+d417 3
+a419 1
+19 6
+d421 1
+a421 1
+18 6
+d423 2
+a424 2
+1 2
+L 0
+d430 2
+a431 2
+9 65545 9
+25 0 0 0
+d443 2
+d452 1
+a452 1
+12 0 0 0
+d459 1
+a459 1
+18 5
+d461 1
+a461 1
+19 5
+d463 2
+a464 1
+12 75
+d497 2
+d502 1
+a502 2
+A
+12 100
+d519 1
+d531 1
+a531 1
+19 6
+d539 1
+a539 1
+8 0 0 0
+d546 2
+d550 1
+a550 3
+18 5
+A
+19 5
+d552 1
+a552 1
+12 50
+d559 2
+a560 2
+24 1 163385 
+0 0 0 0 
+d563 2
+d567 59
+a625 1
+12 100
+d627 1
+a627 1
+18 4
+d629 2
+a630 2
+19 4
+L 0
+a632 1
+
+@
+

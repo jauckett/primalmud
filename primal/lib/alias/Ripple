@@ -1,0 +1,15 @@
+eqp wear all; wield sword; hold bean; hold tooth
+darask autoexit;color off; n;e;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;cast 'refresh' ripple;cast 'refresh' ripple;w;w;s;s;w;w;w;w;w;s;w;w;w;n;cast 'refresh' ripple;w;w;n;n;n;w;w;n;n;n;n;n;autoexit; color complete
+in cast 'invisibility'
+sl cast 'sense life' 
+q get white crate; quaff white
+ds drink barrel
+wr cast 'word of recall' 
+inf cast 'infravision'
+qy cast 'detect invisibility'
+gac get all all.corpse
+rf cast 'refresh'
+sanc cast 'sanctuary'
+hl cast 'heal'
+wa wake; stand
+r quaff red; quaff red; quaff red; quaff red; quaff red

@@ -1,0 +1,42 @@
+ci cast 'identify' $*
+kana e;e;unlock door; open door; n;open door e;e
+cpro cast 'divine';cast 'spirit';cast 'bless';cast 'armor';cast 'dragon';cast 'str';cast 'holy';cast 'sanct';cast 'haste'; cast 'fire shield'
+bs rem thunder; wield queen; backstab $*; rem bee; wield thunder
+gr               grat &R<====&r===&y+++++ &B$* &y+++++&r===&R====>   
+pp cast 'paraly' $*
+trainmove train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move;train move
+ls cast 'lightning shield
+cad cast 'divine heal' gnol
+crete hunt theseus
+heal n;e;e;e;e;e;e;e;e;e;s;s;d;n;e;e;e;n;sleep
+cr cast 'refre
+wt cast 'wraith' $*
+cw cast 'word'
+gg cast 'group armor'
+cah cast 'advanced heal' $*
+wa wake; stand
+lot cast 'advanced heal' $*; cast 'sanct' $*; cast 'bless' $*; cast 'str' $*
+cb cast 'bless' $*
+lo cast 'locate' $*
+o order followers $*
+ch cast 'charm' $*
+ca cast 'advanced heal' $*
+bl cast 'blind' $*
+ps cast 'paralyze' $*
+sk cast 'sleep' $*
+sa cast 'sanct' $*
+su cast 'summon' $*
+cp cast 'paralyze' $*
+cs cast 'summon' $*
+trash get all corpse; get corpse; junk corpse
+dg cast 'dimension gate' $*
+cc cast 'clone'
+fod cast 'finger of death' $*
+ck cast 'cloud kill'
+gc get coins all.corpse
+ga cast 'group armor'
+gs cast 'group 'sanct'
+sphere   w;n;w;n;n;w;w;n;n;w;w;s;s;s;s; open ocean
+rc cast 'remove curse' $*
+fs cast 'fire shield'
+haste cast 'haste'

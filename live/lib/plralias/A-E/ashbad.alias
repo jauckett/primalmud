@@ -1,0 +1,30 @@
+2
+br
+9
+buy 5 red
+0
+2
+qr
+9
+quaff red
+0
+2
+re
+60
+recall;say spells please;say heal please; say refresh please
+1
+2
+sp
+17
+say spells please
+0
+3
+arm
+15
+cast 'armor' $*
+1
+2
+cl
+20
+cast 'cure light' $*
+1

@@ -1,0 +1,158 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.42;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#83 1
+Lhankwood~
+8399 40 2 4
+M 0 8301 1 8304              grand high elf
+E 1 8305 10 3                     cloak
+E 1 8315 5 16                     elven bow
+E 1 8301 5  5                     elven chain
+
+M 0 8302 8 8354             elf guards
+E 1 8304 30 17
+E 1 8305 10  3                    cloak
+E 1 8314 6  16                    club
+M 0 8302 8 8370
+E 1 8304 30 17
+E 1 8305 10  3                    cloak
+E 1 8314 6  16                    club
+M 0 8302 8 8329
+E 1 8304 30 16
+E 1 8305 10  3                    cloak
+M 0 8302 8 8346
+E 1 8304 30 16
+M 0 8302 8 8345
+E 1 8304 30 16
+M 0 8302 8 8328
+E 1 8304 30 16
+E 1 8305 10 3                     cloak
+M 0 8302 8 8314
+E 1 8304 30 16
+M 0 8302 8 8342
+E 1 8304 30 16
+
+M 0 8303 1 8331              elf lookout
+E 1 8304 30 16                     plain old bow
+E 1 8302 2  8                     elven boots
+
+M 0 8304 8 8357              elf citizens
+M 0 8304 8 8370
+E 1 8305 10 3                     cloak
+E 1 8314 6 16                      club
+M 0 8304 8 8329
+E 1 8305 10 3                     cloak
+E 1 8306 5 14                      charm
+M 0 8304 8 8357
+E 1 8305 10 3                     cloak
+M 0 8304 8 8370
+E 1 8306 5 14                      charm
+E 1 8314 6 16                      club
+M 0 8304 8 8341
+E 1 8305 10 3                     cloak
+M 0 8304 8 8330
+M 0 8304 8 8354
+
+M 0 8305 1 8327              elf high priest
+E 1 8306 5 14                      charm
+E 1 8308 5 17                      staff
+
+M 0 8306 4 8327                  elf priest
+E 1 8305 10 3                     cloak
+M 0 8306 4 8327
+E 1 8305 10 3                     cloak
+E 1 8306 5 14                      charm
+E 1 8314 6 16                      club
+M 0 8306 4 8327
+E 1 8314 6 16                      club
+E 1 8306 5 14                      charm
+E 1 8314 6 17                      club
+M 0 8306 4 8327
+
+M 0 8307 1 8371              green dragon
+E 1 8309 6 9                       claws
+E 1 10017 1 16                     axe!
+E 1 8310 6 17                       glowing emerald
+
+M 0 8308 6 8339                   2 headed trolls 
+E 1 8311 7 16                       treant club
+M 0 8308 6 8381
+E 1 8311 7 16                       treant club
+M 0 8308 6 8309
+M 0 8308 6 8311
+E 1 8311 7 16                       treant club
+M 0 8308 6 8326
+E 1 8311 7 16                       treant club
+M 0 8308 6 8367
+
+M 0 8309 4 8380              treants    
+M 0 8309 4 8369
+M 0 8309 4 8332
+M 0 8309 4 8384
+
+M 0 8310 2 8396              lichs
+E 1 8312 5 4                     tiara
+E 1 8313 6 2                     pearl ring
+M 0 8310 2 8300
+E 1 8312 5 4                     tiara
+E 1 8313 6 2                     pearl ring
+
+M 0 8311 7 8365              cloakers
+M 0 8311 7 8389
+M 0 8311 7 8392
+M 0 8311 7 8305
+M 0 8311 7 8351
+M 0 8311 7 8374
+M 0 8311 7 8361
+
+M 0 8312 6 8338              pythons
+M 0 8312 6 8388 
+M 0 8312 6 8362
+M 0 8312 6 8319
+M 0 8312 6 8317
+M 0 8312 6 8377
+
+M 0 8313 5 8395 
+M 0 8313 5 8321
+M 0 8313 5 8379
+M 0 8313 5 8319
+M 0 8313 5 8308
+
+S
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

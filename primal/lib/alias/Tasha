@@ -1,0 +1,17 @@
+7 $*;$*;$*;$*;$*;$*;$*;
+2 $*;$*;
+3 $*;$*;$*;
+4 $*;$*;$*;$*;
+slg steal gold from $1
+10 $*;$*;$*;$*;$*;$*;$*;$*;$*;$*;
+lip look in back
+b rem $1; wield dagger; back $2; rem dagger; wield $1;
+grb get red from back
+prb put all.red back
+pbb put all.bread back
+gbb get bread back
+gafc get all corpse
+c cast '$1'
+cl cast 'cure light' $1
+5 $*;$*;$*;$*;$*;
+ppb put all.potion back

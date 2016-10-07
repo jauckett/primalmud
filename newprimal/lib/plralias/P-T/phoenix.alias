@@ -1,0 +1,70 @@
+6
+recall
+10
+c 'recall'
+0
+7
+holyaid
+12
+c 'holy aid'
+0
+6
+sarmor
+19
+c 'spirit armor' $1
+1
+6
+dragon
+10
+c 'dragon'
+0
+5
+armor
+12
+c 'armor' $1
+1
+5
+bless
+12
+c 'bless' $1
+1
+5
+sanct
+16
+c 'sanctuary' $1
+1
+6
+wraith
+19
+c 'wraith touch' $1
+1
+4
+harm
+11
+c 'harm' $1
+1
+5
+quake
+14
+c 'earthquake'
+0
+4
+para
+15
+c 'paralyze' $1
+1
+8
+identify
+15
+c 'identify' $1
+1
+6
+finger
+22
+c 'finger of death' $1
+1
+6
+detinv
+26
+c 'detect invisibility' $1
+1

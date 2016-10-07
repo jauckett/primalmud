@@ -1,0 +1,81 @@
+fb cast 'fireball' at  bandit
+kt kick  bandit
+lb cast 'lightning bolt' at  bandit
+bst backstab bandit
+bs backstab $*;say target:$*
+begin s;s;s;s;n;cast 'detect invisible' at musashi;wear all;wield spike;hold pen;hold enlibrite
+rp cast 'remove poison' at $*
+test say test;;;;;;;;say test
+wedgy : steps behind you and PULLS your undies up over your head! ATOMIC WEDGY!!
+bap emote baps$* with a mushroom.$* looks bemused.
+paic put all in crate;get backpack from crate;get dagger from crate;get bag from crate;get skin from crate
+jatz grat < <> |\| <, |? /\ ~|~ `, :$*
+tap : taps his foot impatiently.
+stats tell $* Natural Stats- Str:17 Con:18 Dex:18 Wis:17 Int:16 Cha:14
+tf tell free $*
+of order followers $*
+ofs order followers sleep
+charm cast 'charm' at$*
+allstop alias tt;sleep
+cleanbandits wimpy 100%;goto bandit
+heal c 'heal' at $*
+healme c 'heal' at musashi
+nodnod : nods twice rapidly in agreement.
+aha : raises his eyebrows in comprehension and says 'aha!'.
+sanme cast 'sanctuary' at musashi
+san cast 'sanctuary' at $*
+wav : waves his arms about vaguely.
+h5 : slaps a big high-five with$*.
+target  bandit
+raise : raises an eyebrow.
+paib put all in backpack;get knife from backpack;get skin from backpack;get atlas from backpack
+summon say *SUMMONING* >$* < *SUMMONING*;alias kt kick $*;alias lb cast 'lightning bolt' at $*;cast 'summon' at $*
+cf cast 'create food';eat mushroom
+$$ gold
+bm buy 5 meat;put all.meat in backpack
+nifties say Best kill- Syntax: best <kill> <exp>;say Update- Syntax: update <player> <start level> <now level> <deaths> <New best kill (y/n)>
+ds drink skin
+loot get all from all.corpse
+em get meat from backpack;eat meat
+qr get red from backpack;quaff red
+cheer emote cheers enthusiastically.
+cw cast 'create water' at skin
+gac get all from corpse
+ga get all
+1 score
+qw get white from backpack;quaff white
+p' gs $*
+ivme cast 'infravision' at musashi
+ccme cast 'cure critical' at musashi
+cc cast 'cure critical' at $*
+di cast 'detect invisibility'
+getup wake;stand
+update tell $1 *UPDATE* Levels- Start:$2 Now:$3 Deaths- $4 New best kill- $5
+gratz grat [well done]$* [well done]
+recall cast 'word of recall'
+jump emote jumps up and down excitedly.
+wor cast 'word of recall'
+end gos This has been another "Phoenix corp. [Copyright 1996]" tricky thing;rent
+db deathblade
+qq gos QuickQuiz[tm]: $*
+expwas say 1398516 exp
+tdb tell deathblade $*
+ccw cast 'cure critical' at $*
+ps group
+bop : bops$* on the nose.
+run : runs around the room excitedly.
+pmb put all.meat in backpack
+tr track $*;alias tt track $*
+goto alias tt track $*;alias lb cast 'lightning bolt' at $*;alias kt kick $*;alias fb cast 'fireball' at $*;track $*
+track alias tt;track $*
+explode : explodes.
+best title - Bane of $1. [$2 exp]
+sharp : sharpens his sword.
+refme cast 'refresh' at musashi
+ref cast 'refresh' at $*
+spy $1;con $2;$3
+swing : swings his weapon menacingly.
+crack : cracks his knuckles.
+iv cast 'infravision' at $*
+arme cast 'armor' at musashi
+t say target:$*;alias fb cast 'fireball' at $*;alias lb cast 'lightning bolt' at $*;alias kt kick $*

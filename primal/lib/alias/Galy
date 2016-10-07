@@ -1,0 +1,6 @@
+ds drink skin
+eb get bread bag ; eat bread
+em get meat bag; eat meat
+k kick $1
+gac get all corpse
+j junk $1

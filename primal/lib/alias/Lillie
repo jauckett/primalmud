@@ -1,0 +1,15 @@
+main n;n;n;u
+jedi d;s;s;s
+lair n;n;w;w;w;n;n;w;w;s
+haven n;e;e;s;s;e;e;e;s;s;
+bless c 'bless' $1
+qr quitreally
+th train hit; train hit; train hit; train hit; train hit
+curel c 'cure light' $1
+food c 'create food'
+armor c 'armor' $1
+rec c 'word'
+dragon c 'dragon'
+heal c 'heal' $1
+locate c 'locate object'
+sanct c 'sanctuary' $1

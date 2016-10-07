@@ -1,0 +1,87 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@1 track kyo
+2 track boring
+9 c 'sanctuary' taz
+cm c 'create food';give mushroom Taz
+0 c 'cure critic' Taz
+5 track dragon
+4 track dwarf
+pig n;n;n;n;w;n
+princess s;e;s;s;s;s
+gb s;go book
+8 w;s;go book
+toy n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n;w;w;u;u;u;u;u
+banditback n;e;n;e;n;n;n;w;w;w;w;u;w;w;w;w;w;w;n;n;n;n;w;w;w;n;n;w;w;w;w;n;n;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w;n;n;n;n;e;s
+bandit n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s
+qr get red backpack;q red
+backpotion s;w;w;w;n;n;n;e;s
+potion n;w;s;s;s;e;e;e;n
+colour c 'color' $*
+di c 'detect invisibility
+back n;e;s;e;e;e;e;e;e;e;e;n;n;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w;n;n;n;n;e;s;
+ticket n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;w;n;w;s;
+gaac get all all.corpse
+chill c 'chill' $*
+dr drink skin
+cc c 'cure critical'
+cl c 'cure light'
+infra c 'infravision'
+bolt c 'lightning' $*
+grasp c 'shocking' $*
+bs backstab $*
+wake wake;stand
+enfanback e;s;e;e;s;s;e;n;n;n;n;n;n;n;n;n;w;w;n;n;n;w;w;n;n;n;n;e;s
+enfan n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;w;n;n;w;w;n;w
+em get meat backpack;eat meat
+qw q white
+rr recite recall
+wing remove boots;wear sandals
+stone remove sandals;wear boots
+6 sell scimitar
+ass assist adarkar
+ch remove dagger;wield cutlass
+ch2 remove cutlass;wield dagger
+charm c 'charm' $*
+cf c 'create food';eat mushroom
+7 s;get kevlar;go book
+as order $* assist mamboking
+ki order $* kill $*
+cs c 'sanctuary'
+3 track dragon
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

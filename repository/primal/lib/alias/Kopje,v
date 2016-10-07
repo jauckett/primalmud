@@ -1,0 +1,201 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@tv track vendor
+tp track peddler
+ff flee
+trj track judge
+uto unlock trapdoor; open trapdoor
+uo unlock door; open door
+tj track jolt
+tm track master
+pla n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e  
+lbb l buffalo
+slg cast 'sleep' guard
+hs cast 'cure critical' self
+csgg cast 'colorspray' gladiator
+css cast 'colorspray' soldier
+ts track soldier
+sg cast 'sleep' guard
+tcc track caesar      
+tmm track merchant
+kn kill nobleman
+csn cast 'colorspray' nobleman
+cst cast 'colorspray' traveller
+tra traveller
+ss scan
+sw cast 'sleep' warrior
+hv cast 'cure serious'
+lt l trickster
+lv look valium
+st cast 'sleep' trickster
+sb cast 'sleep' boar
+lm look malkavian
+tt track trickster
+hm cast 'cure critical' malkavian
+trm track malkavian
+tf track feargal
+ws wake; stand; emote breathes in the fresh morning air
+ea cast 'earthquake'
+td track driver
+csh cast 'colorspray' healer
+tbb track baker
+kb kill buffalo
+tb track buffalo
+csb cast 'colorspray' buffalo
+kmm kill merchant
+csmm cast 'colorspray' merchant
+tg tr guard
+gj get corpse; say And back to hell you go!; j corpse
+gbu get bucket from backpack
+gred give red to nutholas
+tn track nutholas
+wa wear all
+hh cast 'cure critic' $1
+cm con lion
+kss kill stirge
+za cast 'lightning bolt' $1
+pr put red in backpack
+bt burn trickster
+kt kill trickster
+ec exa corpse
+loot get coins all.corpse
+h cast 'cure light' self
+burn cast 'burning hands' $1
+jb junk bandanna
+go kill $1
+sc score
+r2 take all all.corpse
+see cast 'infravision' self
+jl junk leather
+blow emote snaps off a groge
+del drop leather
+shine cast 'magic missile' $1
+freeze cast 'chill touch' $1
+ct con troll
+wh whistles back
+bb buy bread
+bs buy skin
+plunder loot
+b kill boar
+bg buy green
+qg q green
+bw cast 'burning hands' warrior
+zap cast 'shocking grasp' $1
+kw kill warrior
+br buy red
+qr quaff red
+gb get bread from backpack    
+gs get skin from backpack
+cg con gurad
+c con guard
+ll get coins all.corpse       
+tc track Count LeThargic 
+cc con Count LeThargic
+rr recite recall
+qb quaff blue
+bbb backstab $1
+sp emote spits on the bloody corpse
+zg cast 'lightning bolt' gladiator
+lb emote lays in the boot
+zd               cast 'lightning bolt' driver 
+gh get hotdog from backpack
+eh eat hotdog
+km kill master
+trf track feargal
+af assist feargal
+kd kill driver
+odd say okely dokely doodley!
+zb cast 'lightning bolt' bailiff
+ap cast 'lightning bolt' plaintiff
+zj cast 'lightning bolt' judge
+kg kill guard
+str cast 'strength' self
+gt give red to thelma
+ku kill undead
+ud undead
+ks kill skeleton
+cs cast 'color spray' $1
+ko kill oompa
+gc get corpse
+jc junk corpse
+bm buy 5 meat
+em eat meat
+gm get meat from backpack
+csj cast 'colorspray' judge
+ce cast 'colorspray' executioner
+csm cast 'colorspray' master
+sl emote leaps high into the air and...; sleep
+aw emote leaps up, ten foot tall and bullet proof
+dd say ; $1 ; say ass motherfucker
+trd tr driver
+bsg backstab guard
+ww who
+lg l guard
+arm cast 'armor' self
+lj get all coins.corpse; get corpse; say And back to hell you go!; j corpse
+edg cast 'energy drain' guard
+ed cast 'energy drain' $1
+tk track kyo
+ri recite identify $1
+bi buy identify
+csa cast 'colorspray' adjudicator
+ls look in crate
+lc exa crate
+de cast 'dispel evil' $1
+r3               get sword all.corpse; put sword in crate
+dr               get skin from crate; drink skin; put skin in crate
+p put all in crate
+up get all from crate
+feed get meat from crate; get meat from crate; eat meat; eat meat
+grr get recall from crate; recite recall
+gr get red from crate
+z con demon
+trc track coman
+gi get identify from crate
+csg cast 'color spray' guard
+wk wear kevlar 
+tpp track picklehead
+f cast 'fireball' $1
+fg cast 'fireball' guard
+fgg cast 'fireball' gladiator
+fb cast 'fireball' buffalo
+cstr cast 'strength' $1
+hp cast 'cure critic' picklehead
+lp look picklehead
+bl cast 'blindness' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

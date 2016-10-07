@@ -1,0 +1,9 @@
+bs buy 50 shield;drop adun;get adun;sell 50 shield;buy adun
+th train hit;train hit;train hit;train hit;train hitr
+gc get all.coins all.corpse
+pu put $1 in backpack
+mm c 'magic' $1
+cl c 'cure light' self
+gat get $1 from backpack
+qr q red
+b backstab $1

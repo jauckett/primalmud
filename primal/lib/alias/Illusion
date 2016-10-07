@@ -1,0 +1,26 @@
+heal cast 'heal
+bless cast 'bless
+armor cast 'armor
+sanc cast 'sanc
+to n; n; w; w; s; go stage
+from cast 'word of recall'; e; e; e; e; e; go wagon; d; n; e; e; e; n
+recall cast 'word of recall' $*
+cc cast 'cure critic' $*
+qr take red force; quaff red
+br buy 10 red; put all.red force
+darask w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+gathering s;e;e;s;s;s;e;e;s;s;s;s;s;s;w;w;w
+cs cast 'colorspray' $*
+sac take all all.corpse
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+cl cast 'cure light' $*
+bht buy 10 #10; put all.tonic field
+qht take heal force; q heal
+bw buy 10 white; put all.white field
+qw take white field; q white
+ds take skin field; drink skin; put skin field
+eb take bread field; eat bread
+bs rem winchester; wield super; backstab $*; rem super; wield winchester
+home n;e;s;s;d;n;e;e;e;n
+ba rem sabre; wield super; backstab $*; rem super; wield sabre
+fb cast 'fireball' $*

@@ -1,0 +1,4 @@
+cf c 'create food'
+1 backstab $*
+0 cast 'cure light' $*
+q quit

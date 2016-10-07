@@ -1,0 +1,11 @@
+ff cast 'finger of death' weap
+dra cast 'dragon'
+mf alias ff cast 'finger of death' $1
+tt track queenie
+mt alias tt track $1; track $1; track $1
+ar cast 'armor';cast 'spirit armor'
+ws wake;stand;look
+snc cast 'sanctuary'
+sm cast 'summon' $1
+hl cast 'advanced heal'
+wr cast 'word of recall'

@@ -1,0 +1,7904 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.32;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.45;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#6013
+A dark rock passageway~
+You are floating along a turn in the dark passageway.
+On both sides of you dark rocks tower high above you
+making you feel closed in and uneasy.
+~
+60 1 8
+D1
+A dark rock passage way
+~
+~
+0 0 6014
+D2
+A dark rock passage way
+~
+~
+0 0 6021
+S
+#6014
+A dark rock passageway~
+You are floating along a dark passageway.
+On both sides of you dark rocks tower high above you
+making you feel tight and uneasy.
+~
+60 1 8
+D1
+A turn in the dark rock passage way
+~
+~
+0 0 6015
+D3
+A turn in the dark rock passageway
+~
+~
+0 0 6013
+S
+#6015
+A turn in the dark rock passageway~
+You are floating along a rocky passageway that is extremely narrow
+To your south is a dark cavern that looks rather dangerous. This place
+gives you an uneasy feeling and you feel nervous about going any further
+~
+60 1 8
+D2
+Ocean floor, dark rock passage way
+~
+~
+0 0 6023
+D3
+Ocean floor, dark rock passage way
+~
+~
+0 0 6014
+S
+#6016
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6017
+D2
+Ocean floor
+~
+~
+0 0 6024
+S
+#6017
+Ocean floor~
+As you swim through this dark blue, nearly black section of the ocean floor
+you see a hideously large and extremely vicious shark swimming nearby amonst
+the seaweed on the ocean floor. This makes you extremely apprehensive 
+about venturing much further as you are positive he is looking for dinner.
+~
+60 1 8
+D0
+~
+~
+0 0 6018
+D1
+Ocean floor
+~
+~
+0 0 6025
+D2
+~
+~
+0 0 6016
+S
+#6018
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+~
+60 1 8
+D1
+Ocean floor
+~
+~
+0 0 6019
+D2
+Ocean floor
+~
+~
+0 0 6017
+D3
+Ocean floor
+~
+~
+0 0 6026
+S
+#6019
+Ocean floor~
+As you look around at the murky darkness that surrounds you on the bottom
+of the ocean floor you notice that the creatures from these depths are either
+incredibly hideous and nasty or amazingly beautiful. This is a place of sharp
+contrasts and you wonder if you are possibly the first person to have ever
+ventured this far.
+~
+60 1 8
+D1
+Ocean floor
+~
+~
+0 0 6020
+D2
+Ocean floor
+~
+~
+0 0 6027
+D3
+Ocean floor
+~
+~
+0 0 6018
+S
+#6020
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6012
+D2
+Ocean floor
+~
+~
+0 0 6028
+D3
+Ocean floor
+~
+~
+0 0 6019
+S
+#6021
+Ocean floor, dark rock passageway~
+You are floating along a dark passageway.
+On both sides of you dark rocks tower high above you
+making you feel tight and uneasy.
+~
+60 1 8
+D0
+A dark rock passageway
+~
+~
+0 0 6013
+D2
+A dark rock passageway
+~
+~
+0 0 6029
+S
+#6022
+Inside a huge cavern~
+You are standing inside a huge cavern.
+Water drops from the walls giving this
+whole scenery a fearsome background.
+Your only exit is east and maybe you should
+use it NOW!
+~
+60 1 8
+D1
+Before a huge cavern
+~
+~
+0 0 6023
+S
+#6023
+Before a huge cavern~
+You are standing before a huge black hole, which appears
+to be a cavern. From the inside you hear screaming and 
+as you try and turn around, you notice several
+skeletons on the floor ...bones everywhere. You 
+hear your inner voice screaming: 
+"Run! Run as fast as you can!" 
+...or was that 'as long as you can?'
+~
+60 65 8
+D0
+A dark rock passageway
+~
+~
+0 0 6015
+D3
+Inside a huge cavern
+~
+~
+0 0 6022
+S
+#6024
+Ocean floor~
+As you look around at the murky darkness that surrounds you on the bottom
+of the ocean floor you notice that the creatures from these depths are either
+incredibly hideous and nasty or amazingly beautiful. This is a place of sharp
+contrasts and you wonder if you are possibly the first person to have ever
+ventured this far.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6016
+D2
+Ocean floor
+~
+~
+0 0 6032
+S
+#6025
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6017
+D2
+Ocean floor
+~
+~
+0 0 6040
+D3
+Ocean floor
+~
+~
+0 0 6026
+S
+#6026
+Ocean floor~
+As you swim through this dark blue, nearly black section of the ocean floor
+you see a hideously large and extremely vicious shark swimming nearby amonst
+the seaweed on the ocean floor. This makes you extremely apprehensive 
+about venturing much further as you are positive he is looking for dinner.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6025
+D1
+Ocean floor
+~
+~
+0 0 6018
+D2
+Ocean floor
+~
+~
+0 0 6041
+D3
+Ocean floor
+~
+~
+0 0 6027
+S
+#6027
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6019
+D1
+Ocean floor
+~
+~
+0 0 6026
+D2
+Ocean floor
+~
+~
+0 0 6042
+D3
+Ocean floor
+~
+~
+0 0 6028
+S
+#6028
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6020
+D1
+Ocean floor
+~
+~
+0 0 6027
+D2
+Ocean floor
+~
+~
+0 0 6043
+S
+#6029
+A turn in the dark rock passage~
+You are floating along a dark passageway.
+On both sides of you dark rocks tower high above you
+making you feel tight and uneasy.
+~
+60 1 8
+D0
+A dark rock passageway
+~
+~
+0 0 6021
+D1
+A dark rock passageway
+~
+~
+0 0 6030
+S
+#6030
+A dark rock passageway~
+You are floating along a dark passageway.
+The rocky walls that surround you make the passage extremely
+narrow and probably impossible to escape from if you are attacked.
+~
+60 1 8
+D1
+A dark rock passageway
+~
+~
+0 0 6031
+D3
+A dark rock passageway
+~
+~
+0 0 6029
+S
+#6031
+A dark rock passageway~
+You are floating along a dark passageway.
+On both sides of you dark rocks tower high above you
+and look like they may fall at any moment.
+~
+60 1 8
+D1
+Ocean floor
+~
+Sandstone~
+2 6031 6032
+D3
+A dark rock passageway
+~
+~
+0 0 6030
+E
+Sandstone~
+It sounds hollow when you tap it... the passage you just came through!
+~
+S
+#6032
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+You are surrounded by walls, it seems your only obvious exit leads north.
+yet as you look closesly you see there is a strange crack in the sandstone
+wall on your east and west.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6024
+D1
+~
+LimeRelief~
+2 6033 6033
+D2
+the ocean floor
+~
+ocean~
+1 -1 27053
+D3
+~
+Sandstone~
+2 6031 6031
+E
+wall walls~
+As you examine the surrounding walls closer you notice the wall to the west
+is made of sandstone, the eastern wall is lime and covered with a large
+LimeRelief. The southern wall is a blend of both.
+~
+E
+LimeRelief~
+You see an engraving of a beautiful nude nymph. You notice a keyhole in a
+most unfortunate location.
+~
+E
+Sandstone~
+It sounds hollow when you tap it... Hmmm... could this be a passage?!
+~
+S
+#6033
+A secret underwater passage~
+This is a secret passage way. You wonder who made those carvings in the lime
+stone...it does seem man made...but...nah couldn't be...or could it?
+~
+60 321 8
+D3
+Ocean floor
+~
+LimeRelief~
+1 6033 6032
+D4
+A secret underwater passage
+~
+~
+0 0 6034
+E
+LimeRelief~
+You see an engraving of a beautiful nude nymph. You notice a keyhole in a
+most unfortunate location.
+~
+S
+#6034
+A secret underwater passage~
+This is a secret passage way. You wonder who made those carvings in the lime
+stone...it does seem man made...but...nah couldn't be...or could it?
+~
+60 257 8
+D4
+A secret underwater passage
+~
+~
+0 0 6035
+D5
+A secret underwater passage
+~
+~
+0 0 6033
+S
+#6035
+A secret underwater passage~
+This is a secret passage way. You wonder who made those carvings in the lime
+stone...it does seem man made...but...nah couldn't be...or could it?
+~
+60 261 8
+D4
+A secret underwater passage
+~
+~
+0 0 6036
+D5
+A secret underwater passage
+~
+~
+0 0 6034
+S
+#6036
+A secret underwater passage~
+This is a secret passage way. You wonder who made those carvings in the lime
+stone...it does seem man made...but...nah couldn't be...or could it?
+~
+60 257 8
+D4
+A secret underwater passage
+~
+~
+0 0 6037
+D5
+A secret underwater passage
+~
+~
+0 0 6035
+S
+#6037
+A secret underwater passage~
+This is a secret passage way. You wonder who made those carvings in the lime
+stone...it does seem man made...but...nah couldn't be...or could it?
+~
+60 257 8
+D4
+A secret underwater passage
+~
+~
+0 0 6038
+D5
+A secret underwater passage
+~
+~
+0 0 6036
+S
+#6038
+A secret underwater passage~
+This is a secret passage way. You wonder who made those carvings in the lime
+stone...it does seem man made...but...nah couldn't be...or could it?
+~
+60 257 8
+D4
+Shimmering water's surface
+~
+secret~
+1 0 6039
+D5
+A secret underwater passage
+~
+~
+0 0 6037
+S
+#6039
+Cavern with a Pool~
+You are in a large cavern with a pool. You think you can see shapes moving
+deep down in the water.
+There seems to be a passage to the south.
+~
+60 1 0
+D2
+Cavern
+~
+~
+0 0 6049
+D5
+A secret passage
+~
+secret~
+1 0 6038
+
+S
+#6040
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6025
+D1
+Ocean floor
+~
+~
+0 0 6041
+D2
+Ocean floor
+~
+~
+0 0 6050
+S
+#6041
+Ocean floor~
+As you look around at the murky darkness that surrounds you on the bottom
+of the ocean floor you notice that the creatures from these depths are either
+incredibly hideous and nasty or amazingly beautiful. This is a place of sharp
+contrasts and you wonder if you are possibly the first person to have ever
+ventured this far.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6026
+D1
+Ocean floor
+~
+~
+0 0 6042
+D2
+Ocean floor
+~
+~
+0 0 6051
+D3
+Ocean floor
+~
+~
+0 0 6040
+S
+#6042
+Ocean floor~
+As you swim through this dark blue, nearly black section of the ocean floor
+you see a hideously large and extremely vicious shark swimming nearby amonst
+the seaweed on the ocean floor. This makes you extremely apprehensive 
+about venturing much further as you are positive he is looking for dinner.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6027
+D1
+Ocean floor
+~
+~
+0 0 6043
+D2
+Ocean floor
+~
+~
+0 0 6052
+D3
+Ocean floor
+~
+~
+0 0 6041
+S
+#6043
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6028
+D1
+Ocean floor
+~
+~
+0 0 6044
+D2
+Ocean floor
+~
+~
+0 0 6053
+D3
+Ocean floor
+~
+~
+0 0 6042
+S
+#6044
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D1
+Ocean floor
+~
+~
+0 0 6045
+D2
+Ocean floor
+~
+~
+0 0 6054
+D3
+Ocean floor
+~
+~
+0 0 6043
+S
+#6045
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+~
+60 1 8
+D1
+Ocean floor
+~
+~
+0 0 6046
+D2
+Ocean floor
+~
+~
+0 0 6055
+D3
+Ocean floor
+~
+~
+0 0 6044
+S
+#6046
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D1
+Ocean floor
+~
+~
+0 0 6047
+D2
+Ocean floor
+~
+~
+0 0 6056
+D3
+Ocean floor
+~
+~
+0 0 6045
+S
+#6047
+Ocean floor~
+As you look around at the murky darkness that surrounds you on the bottom
+of the ocean floor you notice that the creatures from these depths are either
+incredibly hideous and nasty or amazingly beautiful. This is a place of sharp
+contrasts and you wonder if you are possibly the first person to have ever
+ventured this far.
+~
+60 1 8
+D2
+Ocean floor
+~
+~
+0 0 6057
+D3
+Ocean floor
+~
+~
+0 0 6046
+S
+#6048
+Cavern~
+You stand in a huge cavern so huge in fact,  that your light source cannot 
+illuminate it all and parts of it remain in the dark. The shadows of the giant
+stalagmites and stalactites look grotesque and seem to dance as
+you turn your head in order to look around. Here and there you see 
+strange symbols carved out of the rock and you wonder who would go so far 
+below the earth's surface to leave traces of themselves. 
+~
+60 1 0
+D1
+Cavern
+~
+~
+0 0 6049
+D2
+Cavern
+~
+~
+0 0 6058
+S
+#6049
+Cavern~
+You stand in a huge cavern so huge in fact,  that your light source cannot 
+illuminate it all and parts of it remain in the dark. The shadows of the giant
+stalagmites and stalactites look grotesque and seem to dance as
+you turn your head in order to look around. Here and there you see 
+strange symbols carved out of the rock and you wonder who would go so far 
+below the earth's surface to leave traces of themselves. 
+~
+60 1 0
+D0
+Cavern with a Pool
+~
+~
+0 0 6039
+D3
+Cavern
+~
+~
+0 0 6048
+S
+#6050
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6040
+D1
+Ocean floor
+~
+~
+0 0 6051
+D2
+Ocean floor
+~
+~
+0 0 6062
+S
+#6051
+Ocean floor~
+As you look around at the murky darkness that surrounds you on the bottom
+of the ocean floor you notice that the creatures from these depths are either
+incredibly hideous and nasty or amazingly beautiful. This is a place of sharp
+contrasts and you wonder if you are possibly the first person to have ever
+ventured this far.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6041
+D1
+Ocean floor
+~
+~
+0 0 6052
+D2
+Ocean floor
+~
+~
+0 0 6063
+D3
+Ocean floor
+~
+~
+0 0 6050
+S
+#6052
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6042
+D1
+Ocean floor
+~
+~
+0 0 6053
+D2
+Ocean floor
+~
+~
+0 0 6064
+D3
+Ocean floor
+~
+~
+0 0 6051
+S
+#6053
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6043
+D1
+Ocean floor
+~
+~
+0 0 6054
+D2
+An entrance in the rock
+~
+~
+0 0 6065
+D3
+Ocean floor
+~
+~
+0 0 6052
+S
+#6054
+Ocean floor~
+As you swim through this dark blue, nearly black section of the ocean floor
+you see a hideously large and extremely vicious shark swimming nearby amonst
+the seaweed on the ocean floor. This makes you extremely apprehensive 
+about venturing much further as you are positive he is looking for dinner.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6044
+D1
+Ocean floor
+~
+~
+0 0 6055
+D2
+Ocean floor
+~
+~
+0 0 6066
+D3
+Ocean floor
+~
+~
+0 0 6053
+S
+#6055
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6045
+D1
+Ocean floor
+~
+~
+0 0 6056
+D2
+Ocean floor
+~
+~
+0 0 6067
+D3
+Ocean floor
+~
+~
+0 0 6054
+S
+#6056
+Ocean floor~
+As you swim through this dark blue, nearly black section of the ocean floor
+you see a hideously large and extremely vicious shark swimming nearby amonst
+the seaweed on the ocean floor. This makes you extremely apprehensive 
+about venturing much further as you are positive he is looking for dinner.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6046
+D1
+Ocean floor
+~
+~
+0 0 6057
+D2
+Ocean floor
+~
+~
+0 0 6068
+D3
+Ocean floor
+~
+~
+0 0 6055
+S
+#6057
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6047
+D2
+Ocean floor
+~
+~
+0 0 6069
+D3
+Ocean floor
+~
+~
+0 0 6056
+S
+#6058
+Cavern~
+You stand in a huge cavern so huge in fact,  that your light source cannot 
+illuminate it all and parts of it remain in the dark. The shadows of the giant
+stalagmites and stalactites look grotesque and seem to dance as
+you turn your head in order to look around. Here and there you see 
+strange symbols carved out of the rock and you wonder who would go so far 
+below the earth's surface to leave traces of themselves. 
+~
+60 1 0
+D0
+Cavern
+~
+~
+0 0 6048
+D1
+Cavern
+~
+~
+0 0 6059
+S
+#6059
+Cavern~
+You stand in a huge cavern so huge in fact,  that your light source cannot 
+illuminate it all and parts of it remain in the dark. The shadows of the giant
+stalagmites and stalactites look grotesque and seem to dance as
+you turn your head in order to look around. Here and there you see 
+strange symbols carved out of the rock and you wonder who would go so far 
+below the earth's surface to leave traces of themselves. 
+~
+60 1 0
+D1
+Cavern
+~
+~
+0 0 6060
+D3
+Cavern
+~
+~
+0 0 6058
+S
+#6060
+Cavern~
+You stand in a huge cavern so huge in fact,  that your light source cannot 
+illuminate it all and parts of it remain in the dark. The shadows of the giant
+stalagmites and stalactites look grotesque and seem to dance as
+you turn your head in order to look around. Here and there you see 
+strange symbols carved out of the rock and you wonder who would go so far 
+below the earth's surface to leave traces of themselves. 
+~
+60 1 0
+D1
+~
+~
+0 0 6061
+D2
+Cavern
+~
+~
+0 0 6070
+D3
+Cavern
+~
+~
+0 0 6059
+S
+#6061
+Cavern~
+A small underwater river streams in gurgling from the north. The water seems 
+fresh and clear. The river has carved itself a way around the stalagmites.
+It is very noisy here as the walls throw back the echo from the boiling 
+water. As you listen to this natural sound you get the impression as if 
+there was another sound, a man made sound in the background, but you 
+quickly push away this thought as it is only your wish for civilisation.
+~
+60 1 0
+D0
+~
+~
+0 0 4181
+D3
+~
+~
+0 0 6060
+S
+#6062
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6050
+D1
+Ocean floor
+~
+~
+0 0 6063
+D2
+Ocean floor
+~
+~
+0 0 6072
+S
+#6063
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6051
+D1
+Ocean floor
+~
+~
+0 0 6064
+D2
+Ocean floor
+~
+~
+0 0 6073
+D3
+Ocean floor
+~
+~
+0 0 6062
+S
+#6064
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6052
+D2
+Ocean floor
+~
+~
+0 0 6074
+D3
+Ocean floor
+~
+~
+0 0 6063
+S
+#6065
+An entrance in the rock~
+You stand before what appears to be an entrance in the rock.
+Some blue liquid flows out from time to time
+~
+60 65 8
+D0
+Ocean floor
+~
+~
+0 0 6053
+D2
+Octopus' Lair
+~
+~
+0 0 6075
+S
+#6066
+Ocean floor~
+As you peer around through the dark ocean floor you see many strange fish
+swimming in amonst the seaweed. The water that surrounds you at this depth
+in the ocean is extremely cold and it seems to seep through your skin and
+chill your bones making moving around very uncomfortable. 
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6054
+D1
+Ocean floor
+~
+~
+0 0 6067
+D2
+Ocean floor
+~
+~
+0 0 6076
+S
+#6067
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6055
+D1
+Ocean floor
+~
+~
+0 0 6068
+D2
+Ocean floor
+~
+~
+0 0 6077
+D3
+Ocean floor
+~
+~
+0 0 6066
+S
+#6068
+Ocean floor~
+As you peer around through the dark ocean floor you see many strange fish
+swimming in amonst the seaweed. The water that surrounds you at this depth
+in the ocean is extremely cold and it seems to seep through your skin and
+chill your bones making moving around very uncomfortable. 
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6056
+D1
+Ocean floor
+~
+~
+0 0 6069
+D2
+Ocean floor
+~
+~
+0 0 6078
+D3
+Ocean floor
+~
+~
+0 0 6067
+S
+#6069
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6057
+D2
+Ocean floor
+~
+~
+0 0 6079
+D3
+Ocean floor
+~
+~
+0 0 6068
+S
+#6070
+Cavern~
+You stand in a huge cavern so huge in fact,  that your light source cannot 
+illuminate it all and parts of it remain in the dark. The shadows of the giant
+stalagmites and stalactites look grotesque and seem to dance as
+you turn your head in order to look around. Here and there you see 
+strange symbols carved out of the rock and you wonder who would go so far 
+below the earth's surface to leave traces of themselves. 
+~
+60 1 0
+D0
+Cavern
+~
+~
+0 0 6060
+D1
+Cavern
+~
+~
+0 0 6071
+S
+#6071
+Cavern~
+You stand in a huge cavern so huge in fact,  that your light source cannot 
+illuminate it all and parts of it remain in the dark. The shadows of the giant
+stalagmites and stalactites look grotesque and seem to dance as
+you turn your head in order to look around. Here and there you see 
+strange symbols carved out of the rock and you wonder who would go so far 
+below the earth's surface to leave traces of themselves. 
+Your only exit leads west.
+~
+60 1 0
+D3
+Cavern
+~
+~
+0 0 6070
+S
+#6072
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6062
+D1
+Ocean floor
+~
+~
+0 0 6073
+S
+#6073
+Ocean floor~
+As you look around at the murky darkness that surrounds you on the bottom
+of the ocean floor you notice that the creatures from these depths are either
+incredibly hideous and nasty or amazingly beautiful. This is a place of sharp
+contrasts and you wonder if you are possibly the first person to have ever
+ventured this far.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6063
+D1
+Ocean floor
+~
+~
+0 0 6074
+D3
+Ocean floor
+~
+~
+0 0 6072
+S
+#6074
+Ocean floor~
+As you swim through this dark blue, nearly black section of the ocean floor
+you see a hideously large and extremely vicious shark swimming nearby amonst
+the seaweed on the ocean floor. This makes you extremely apprehensive 
+about venturing much further as you are positive he is looking for dinner.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6064
+D3
+Ocean floor
+~
+~
+0 0 6073
+S
+#6075
+Octopus' Lair~
+You find yourself in a dark cavern. What's that blue liquid?
+It DOES look like ink...
+maybe it would be better to leave QUICKLY!
+~
+60 1 8
+D0
+An entrance in a rock
+~
+~
+0 0 6065
+S
+#6076
+Ocean floor~
+As you peer around through the dark ocean floor you see many strange fish
+swimming in amonst the seaweed. The water that surrounds you at this depth
+in the ocean is extremely cold and it seems to seep through your skin and
+chill your bones making moving around very uncomfortable. 
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6066
+D1
+Ocean floor
+~
+~
+0 0 6077
+S
+#6077
+Ocean floor~
+You are swimming in the deepest depths on the bottom of the ocean floor.
+Surrounding you are huge sharks with nashing teeth and mouths that would
+swallow you whole. The large fish that also swim around the bottom of the
+ocean are incredibly ugly and probably poisonous. However occassionly you 
+catch glimpses of beautiful mermaids, creatures that you had thought were
+only legends.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6067
+D1
+Ocean floor
+~
+~
+0 0 6078
+D3
+Ocean floor
+~
+~
+0 0 6076
+S
+#6078
+Ocean floor~
+You float through the deepest of all depths. This is one of the darkest
+places the planet has to offer. Neither sunshine nor moonlight have ever
+travelled as deep as you are right now. You loose all sense of time as
+your mind enters the twilight zone. Could this be hell?
+Flee as long as you can ...
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6068
+D1
+Ocean floor
+~
+~
+0 0 6079
+D3
+Ocean floor
+~
+~
+0 0 6077
+S
+#6079
+Ocean floor~
+As you look around at the murky darkness that surrounds you on the bottom
+of the ocean floor you notice that the creatures from these depths are either
+incredibly hideous and nasty or amazingly beautiful. This is a place of sharp
+contrasts and you wonder if you are possibly the first person to have ever
+ventured this far.
+~
+60 1 8
+D0
+Ocean floor
+~
+~
+0 0 6069
+D3
+Ocean floor
+~
+~
+0 0 6078
+D4
+Abyss
+~
+~
+0 0 6080
+S
+#6080
+Abyss~
+All you can see is the vertical wall of the drop-off
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 69 8
+D4
+Abyss
+~
+~
+0 0 6081
+D5
+Ocean floor
+~
+~
+0 0 6079
+S
+#6081
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6091
+D5
+Abyss
+~
+~
+0 0 6080
+S
+#6082
+Northern wing - at a turn in the corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the abyss below.
+The corridor continues to the east and south.
+~
+60 0 8
+D1
+Northern wing - a corridor
+~
+~
+0 0 6083
+D2
+Northern wing - western hallway
+~
+~
+0 0 6092
+S
+#6083
+Northern wing - a corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west.
+~
+60 0 8
+D1
+Northern wing - a corridor
+~
+~
+0 0 6084
+D3
+Northern wing - at a turn in the corridor
+~
+~
+0 0 6082
+S
+#6084
+Northern wing - a corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west.
+~
+60 0 8
+D1
+Northern wing - a corridor
+~
+~
+0 0 6085
+D3
+Northern wing - a corridor
+~
+~
+0 0 6083
+S
+#6085
+Northern wing - a corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west.
+~
+60 0 8
+D1
+Northern wing - a corridor
+~
+~
+0 0 6086
+D3
+Northern wing - a corridor
+~
+~
+0 0 6084
+S
+#6086
+Northern wing - a corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west.
+~
+60 0 8
+D1
+Northern wing - a corridor
+~
+~
+0 0 6087
+D3
+Northern wing - a corridor
+~
+~
+0 0 6085
+S
+#6087
+Northern wing - a corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west.
+~
+60 0 8
+D1
+Northern wing - a corridor
+~
+~
+0 0 6088
+D3
+Northern wing - a corridor
+~
+~
+0 0 6086
+S
+#6088
+Northern wing - a corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west.
+~
+60 0 8
+D1
+Northern wing - a corridor
+~
+~
+0 0 6089
+D3
+Northern wing - a corridor
+~
+~
+0 0 6087
+S
+#6089
+Northern wing - a corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west.
+~
+60 0 8
+D1
+Northern wing - at a turn in the corridor
+~
+~
+0 0 6090
+D3
+Northern wing - a corridor
+~
+~
+0 0 6088
+S
+#6090
+Northern wing - at a turn in the corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the south and west.
+~
+60 0 8
+D2
+North wing - eastern hallway
+~
+~
+0 0 6098
+D3
+Northern wing - a corridor
+~
+~
+0 0 6089
+S
+#6091
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6099
+D5
+Abyss
+~
+~
+0 0 6081
+S
+#6092
+Northern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the south and north.
+~
+60 0 8
+D0
+Northern wing - at a turn in the corridor
+~
+~
+0 0 6082
+D2
+Northern wing - western hallway
+~
+~
+0 0 6100
+S
+#6093
+The harem's chambers~
+Spherical music is coming from nowhere in particular the heavy perfume cloud 
+makes you feel dizzy. Big transparent seaweed curtains hang from the ceiling
+dividing the room into small sections. The presence of all these beautiful 
+women makes your knees tremble.
+~
+60 0 8
+D1
+Before the harem's chambers
+~
+~
+0 0 6094
+D2
+More of the harem's chambers
+~
+~
+0 0 6101
+S
+#6094
+Before the harem's chambers~
+You are walking along a secret passage, which continues south and west.
+~
+60 0 8
+D2
+A secret passage
+~
+~
+0 0 6102
+D3
+The harem's chambers
+~
+~
+0 0 6093
+S
+#6095
+Golden hall - at a turn~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues south and east from here.
+~
+60 0 8
+D1
+Golden hall 
+~
+~
+0 0 6096
+D2
+Golden hall
+~
+~
+0 0 6103
+S
+#6096
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues east and west from here.
+~
+60 0 8
+D1
+Golden hall
+~
+~
+0 0 6097
+D3
+Golden hall - at a turn
+~
+~
+0 0 6095
+S
+#6097
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north, west and south from here.
+~
+60 0 8
+D0
+North wing - a corridor~
+~
+0 0 6087
+D2
+Golden hall
+~
+~
+0 0 6105
+D3
+Golden hall
+~
+~
+0 0 6096
+S
+#6098
+North wing - eastern hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+Eastern hallway continues north and south from here.
+~
+60 0 8
+D0
+North wing - eastern hallway at a turn
+~
+~
+0 0 6090
+D2
+The entrance
+~
+~
+0 0 6106
+S
+#6099
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6108
+D5
+Abyss
+~
+~
+0 0 6091
+S
+#6100
+Northern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+~
+60 0 8
+D0
+Northern wing - western hallway
+~
+~
+0 0 6092
+D2
+Northern wing - western hallway
+~
+~
+0 0 6110
+S
+#6101
+The harem's chambers~
+Spherical music is coming from nowhere in particular the heavy perfume cloud 
+makes you feel dizzy. Big transparent seaweed curtains hang from the ceiling 
+dividing the room into small sections. The presence of all these beautiful 
+women makes your knees tremble.
+~
+60 0 8
+D0
+The harem's chambers
+~
+~
+0 0 6093
+S
+#6102
+A secret passage~
+You are walking along a secret passage.
+~
+60 0 8
+D0
+A secret passage
+~
+~
+0 0 6094
+D2
+Eastern hallway
+~
+Tapestry~
+2 6032 6112
+E
+tapestry~
+Completely covering the southern wall hangs an immaculate tapestry depicting
+nymphs bathing in a forest lake.
+~
+S
+#6103
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north and south from here.
+~
+60 0 8
+D0
+Golden hall - at a turn
+~
+~
+0 0 6095
+D2
+Golden hall - at a turn
+~
+~
+0 0 6113
+S
+#6104
+Before the throne~
+As you enter the throne chamber you gasp in astonishment of the beauty
+around you. Walls decorated with huge tapestries portraying the royal family
+the floor is one big mosaic of precious stones and shells sparkling in all
+the colours of the rainbow. 
+Suddenly you fall to your knees and bow in deep respect, it seems a strange
+force made you do that.
+~
+60 0 8
+D2
+Before the throne~
+CoralDoor~
+1 -1 6114
+E
+CoralDoor~
+The massive doors are made completely out of different kinds of corals.
+You see every imaginable colour, including some exquisite black coral!
+~
+S
+#6105
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north and south from here.
+~
+60 0 8
+D0
+Golden hall
+~
+~
+0 0 6097
+D2
+Golden hall
+~
+~
+0 0 6115
+S
+#6106
+The entrance~
+The entrance of the castle is a round shaped huge hall.
+The eastern hall continues to the north and south from here.
+~
+60 0 8
+D0
+North wing - eastern hall in the castle 
+~
+~
+0 0 6098
+D1
+Before the golden castle~
+~
+0 0 6107
+D2
+North wing - eastern hall in the castle
+~
+~
+0 0 6118
+S
+#6107
+Before the golden castle~
+You stand before a golden castle. The walls are built of shells and corals,
+the curtains are made of seaweed. 
+This must be where the god of all seas lives ...
+~
+60 68 8
+D2
+Narrow path on the plateau
+~
+~
+0 0 6119
+D3
+The entrance~
+~
+0 0 6106
+S
+#6108
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6121
+D5
+Abyss
+~
+~
+0 0 6099
+S
+#6109
+The cellar~
+You are in the dark cellar, flasks with weird ingredients stand neatly on
+shelves. From the ceiling hand all kinds of dried herbs and fishes, and
+what is this over there? In shock you turn around and quickly take a step
+back. You cannot believe your eyes...
+~
+60 1 8
+D4
+The kitchen
+~
+~
+0 0 6122
+S
+#6110
+Northern wing - western hallway at a turn~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+~
+60 0 8
+D0
+Northern wing - western hallway
+~
+  ~
+0 0 6100
+D1
+Northern wing - western hallway
+~
+~
+0 0 6111
+S
+#6111
+Northern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hallway continues east and west
+~
+60 0 8
+D1
+Northern wing - western hallway
+~
+~
+0 0 6112
+D3
+Northern wing - western hallway
+~
+~
+0 0 6110
+S
+#6112
+Northern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below. A beautiful tapestry hangs on a wall here.
+The hallway continues to the south and west.
+~
+60 64 8
+D0
+~
+Tapestry~
+2 6032 6102
+D2
+Northern wing - western hallway before a stairway
+~
+~
+0 0 6125
+D3
+Northern wing - western hallway
+~
+~
+0 0 6111
+E
+Tapestry~
+Completely covering the northern wall hangs an immaculate tapestry depicting
+nymphs bathing in a mountain stream.
+~
+S
+#6113
+Golden hall - at a turn~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north and east from here.
+~
+60 0 8
+D0
+Golden hall 
+~
+~
+0 0 6103
+D1
+Golden hall - before the throne
+~
+~
+0 0 6114
+S
+#6114
+Golden hall - before the throne~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues to the west and north is a massive CoralDoor.
+~
+60 64 8
+D0
+Before the throne
+~
+CoralDoor~
+1 -1 6104
+D3
+Golden hall
+~
+~
+0 0 6113
+E
+CoralDoor~
+The massive doors are made completely out of different kinds of corals.
+You see every imaginable colour, including some exquisite black coral!
+~
+S
+#6115
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north and south from here.
+~
+60 0 8
+D0
+Golden hall
+~
+~
+0 0 6105
+D2
+Golden hall
+~
+~
+0 0 6127
+S
+#6116
+Before the Odeon~
+You are standing before the Odeon. A golden door is here and you here the
+music now much louder. You wait a while until you catch your breath before you
+enter to the south. A red velvet bench is to your right where you can relax
+for a while.
+~
+60 64 8
+D2
+The Odeon
+~
+GoldenDoor~
+1 -1 6128
+D5
+Climbing the stairway to the Odeon
+~
+~
+0 0 6117
+S
+#6117
+Climbing the stairway to the Odeon~
+You are climbing a stairway that leads to the Odeon.
+The walls are decorated with all kinds of antique instruments some you know
+and some you have never seen before. From a distance you here music probably
+coming from the Odeon.
+~
+60 0 8
+D4
+Before the Odeon
+~
+~
+0 0 6116
+D5
+Climbing the stairway to the Odeon
+~
+~
+0 0 6129
+S
+#6118
+North wing - eastern hall in the castle ~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hall continues to the north and south from here.
+~
+60 0 8
+D0
+The entrance
+~
+~
+0 0 6106
+D2
+North wing - eastern hall in the castle
+~
+~
+0 0 6130
+S
+#6119
+Narrow path on the plateau~
+You are walking along a narrow path, to the left and right you see the 
+eternal darkness of the abyss. Further to the west you see a golden castle
+surrounded by the palace gardens.
+~
+60 1 8
+D0
+Before the golden castle~
+~
+0 0 6107
+D1
+Narrow path on the plateau
+~
+~
+0 0 6120
+S
+#6120
+Narrow path on the plateau~
+You are walking along a narrow path, to the left and right you see the 
+eternal darkness of the abyss. Further to the west you see a golden castle
+surrounded by the palace gardens.
+~
+60 1 8
+D1
+Abyss~
+~
+0 0 6121
+D3
+Narrow path on the plateau
+~
+~
+0 0 6119
+S
+#6121
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+To the west you see a path leading to a huge plateau.
+Further to the west you see a huge golden building.
+~
+60 1 8
+D3
+Narrow path on the plateau
+~
+~
+0 0 6120
+D4
+Abyss
+~
+~
+0 0 6131
+D5
+Abyss
+~
+~
+0 0 6108
+S
+#6122
+The kitchen~
+You are in a huge well equipped kitchen. From the stove come delicious smells
+as you go closer and lift a lid of a pan you cannot help but gasp in
+disbelief. Slowly you look over your shoulder and then quickly take a step
+back. Who is the cook here???
+~
+60 0 8
+D2
+A corridor in a dwelling
+~
+door~
+1 -1 6134
+D5
+The cellar
+~
+~
+0 0 6109
+S
+#6123
+A round room in a tower~
+You arrived at the top of the small tower. The former look-out has been 
+converted into a playroom. It is messy but cosy up here, on the floor are big
+pillows scattered around.
+~
+60 0 8
+D5
+A stairway
+~
+~
+0 0 6124
+S
+#6124
+A stairway~
+You are climbing a narrow stairway. There are no decorations on the walls
+except for little inscriptions of kids...the usual stuff: who loves who, who
+is what and the dates. Some small primitive drawings explain the difference
+between boys and girls, with the usual explanations why either boys are 
+better than girls or girls are better than boys. What did you expect?
+Kids are kids whether they live above or below the water.
+~
+60 64 8
+D4
+A round room in the tower
+~
+~
+0 0 6123
+D5
+Northern wing - western hallway before a stairway
+~
+~
+0 0 6125
+S
+#6125
+Northern wing - western hallway before a stairway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+A stairway leads up and the hallway continues to the north and south.
+~
+60 0 8
+D0
+Northern wing - western hallway 
+~
+~
+0 0 6112
+D2
+Southern wing - western hallway
+~
+~
+0 0 6139
+D4
+A stairway
+~
+~
+0 0 6124
+S
+#6126
+Atop the watch tower~
+You stand atop the watch tower, the view from here is spectacular!
+The round space is well equipped with telescopes and old cannons.
+At last you see the legendary horse carriage in the yard. 
+A hundred golden horses neigh wildly, it looks like they cannot wait
+to leave or trample someone to death.
+~
+60 0 8
+D5
+Climbing a narrow stairway
+~
+~
+0 0 6140
+S
+#6127
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north and south from here.
+~
+60 0 8
+D0
+Golden hall
+~
+~
+0 0 6115
+D2
+Golden hall
+~
+~
+0 0 6141
+S
+#6128
+The Odeon~
+This is where the guests get entertained. Marine blue velvet curtains hang
+from each side of the stage. Along the walls are sofas made of the same
+material and in the middle of the room are five rows of comfortable looking
+armchairs. The music makes you wish you never had to leave this place.
+All you want to do is dance and party.
+The "Green Cool Sea Slugs" are jamming here.
+~
+60 0 8
+D0
+Before the Odeon
+~
+GoldenDoor~
+1 -1 6116
+S
+#6129
+Climbing the stairway to the Odeon~
+You are climbing a stairway that leads to the Odeon.
+The walls are decorated with all kinds of antique instruments some you know
+and some you have never seen before. From a distance you here music probably
+coming from the Odeon.
+~
+60 0 8
+D4
+Climbing the stairway to the Odeon
+~
+~
+0 0 6117
+D5
+Climbing the stairway to the Odeon
+~
+~
+0 0 6143
+S
+#6130
+North wing - eastern hall in the castle~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hall continues to the north and south from here.
+~
+60 0 8
+D0
+North wing - eastern hall in the castle 
+~
+~
+0 0 6118
+D2
+South wing - eastern hall in the castle
+~
+~
+0 0 6144
+S
+#6131
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6145
+D5
+Abyss
+~
+~
+0 0 6121
+S
+#6132
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D1
+A corridor in a dwelling
+~
+~
+0 0 6133
+D2
+A corridor in a dwelling
+~
+~
+0 0 6146
+S
+#6133
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D1
+A corridor in a dwelling
+~
+~
+0 0 6134
+D3
+A corridor in a dwelling
+~
+~
+0 0 6132
+S
+#6134
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+To the north you see the kitchen.~
+60 0 8
+D0
+Kitchen
+~
+~
+0 0 6122
+D1
+A corridor in a dwelling
+~
+~
+0 0 6135
+D3
+A corridor in a dwelling
+~
+~
+0 0 6133
+S
+#6135
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D1
+A corridor in a dwelling
+~
+~
+0 0 6136
+D3
+A corridor in a dwelling
+~
+~
+0 0 6134
+S
+#6136
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D2
+A corridor in a dwelling
+~
+~
+0 0 6147
+D3
+A corridor in a dwelling
+~
+~
+0 0 6135
+S
+#6137
+Southern wing - western hallway at a turn~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hallway continues to the east and south from here
+~
+60 0 8
+D1
+Southern wing - western hallway
+~
+~
+0 0 6138
+D2
+Southern wing - western hallway
+~
+~
+0 0 6149
+S
+#6138
+Southern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hallway continues to the east and west.
+~
+60 0 8
+D1
+Southern wing - western hallway
+~
+~
+0 0 6139
+D3
+Southern wing - western hallway
+~
+~
+0 0 6137
+S
+#6139
+Southern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hallway continues to the north, south and west.
+~
+60 0 8
+D0
+Northern wing - western hallway before a stairway
+~
+~
+0 0 6125
+D2
+Southern wing - western hallway
+~
+~
+0 0 6150
+D3
+Southern wing - western hallway
+~
+~
+0 0 6138
+S
+#6140
+Climbing a narrow stairway~
+You are climbing a narrow stairway. Small openings in the wall leave you with
+a view over the surroundings.
+~
+60 64 8
+D4
+Atop the watch tower
+~
+~
+0 0 6126
+D5
+Climbing a narrow stairway
+~
+~
+0 0 6151
+S
+#6141
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north and south from here.
+~
+60 0 8
+D0
+Golden hall
+~
+~
+0 0 6127
+D2
+Golden hall
+~
+~
+0 0 6152
+S
+#6142
+Hall to the Odeon - before a stairway~
+You are walking along a hall that leads to the Odeon.
+The walls are decorated with all kinds of antique instruments some you know
+and some you have never seen before. From a distance you here music probably
+coming from the Odeon.
+A stairway leads up from here.
+~
+60 0 8
+D2
+Hall to the Odeon
+~
+~
+0 0 6153
+D4
+Climbing the stairway to the Odeon
+~
+~
+0 0 6143
+S
+#6143
+Climbing the stairway to the Odeon~
+You are climbing a stairway that leads to the Odeon.
+The walls are decorated with all kinds of antique instruments some you know
+and some you have never seen before. From a distance you here music probably
+coming from the Odeon.
+~
+60 0 8
+D4
+Climbing the stairway to the Odeon
+~
+~
+0 0 6129
+D5
+Hall to the Odeon - before a stairway
+~
+~
+0 0 6142
+S
+#6144
+South wing - eastern hall in the castle~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hall continues to the north and south from here.
+~
+60 0 8
+D0
+North wing - eastern hall in the castle
+~
+~
+0 0 6130
+D2
+South wing - eastern hall in the castle
+~
+~
+0 0 6155
+S
+#6145
+Abyss~
+All you can see is the vertical wall of the drop-off
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6156
+D5
+Abyss
+~
+~
+0 0 6131
+S
+#6146
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6132
+D2
+A corridor in a dwelling
+~
+~
+0 0 6157
+S
+#6147
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+A door is in the east wall.
+~
+0 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6136
+D1
+A room
+~
+Door~
+1 -1 6148
+D2
+A corridor in a dwelling
+~
+~
+0 0 6161
+S
+#6148
+The dining room~
+You stand in the big dining room. In the middle of the room stands a long
+heavy wooden table with twenty-six wooden chairs around it. The table is set
+for only two people though. You quickly look at the cutlery and count that
+there will be eight courses served today.
+~
+60 0 8
+D3
+A corridor in a dwelling
+~
+Door~
+1 -1 6147
+S
+#6149
+Southern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hallway continues north and south from here.
+~
+60 0 8
+D0
+Southern wing - western hallway at a turn
+~
+~
+0 0 6137
+D2
+Southern wing - western hallway
+~
+~
+0 0 6162
+S
+#6150
+Southern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hallway continues north and south from here.
+~
+60 4 8
+D0
+Southern wing - western hallway
+~
+~
+0 0 6139
+D2
+Southern wing - western hallway 
+~
+~
+0 0 6163
+D3
+~
+SlidingPanel~
+2 6013 6382
+E
+SlidingPanel~
+To the west is a massive door made from a single giant clam's shell.
+~
+S
+#6151
+Climbing a narrow stairway~
+You are climbing a narrow stairway. Small openings in the wall leave you with
+a view over the surroundings.
+~
+60 0 8
+D4
+Climbing a narrow stairway
+~
+~
+0 0 6140
+D5
+Climbing a narrow stairway
+~
+~
+0 0 6164
+S
+#6152
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north and south from here.
+~
+60 0 8
+D0
+Golden hall
+~
+~
+0 0 6141
+D2
+Golden hall
+~
+~
+0 0 6165
+S
+#6153
+Hall to the Odeon~
+You are walking along a hall that leads to the Odeon.
+The walls are decorated with all kinds of antique instruments some you know
+and some you have never seen before. From a distance you here music probably
+coming from the Odeon.
+~
+60 0 8
+D0
+Hall to the Odeon - before a stairway
+~
+~
+0 0 6142
+D2
+Hall to the Odeon
+~
+~
+0 0 6166
+S
+#6154
+A narrow corridor~
+You are walking along a dull narrow corridor, there are no decorations here
+and it's only dimly light by some terrible smelling seaweed torches.
+The corridor continues to the east and south from here.
+~
+60 0 8
+D1
+South wing - eastern hall in the castle 
+~
+~
+0 0 6155
+D2
+End of the narrow corridor
+~
+~
+0 0 6167
+S
+#6155
+South wing - eastern hall in the castle ~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hall continues to the north and south from here and to the west a narrow
+corridor leads to nowhere.
+~
+60 0 8
+D0
+South wing - eastern hall in the castle
+~
+~
+0 0 6144
+D2
+South wing - eastern hall in the castle 
+~
+~
+0 0 6168
+D3
+A narrow corridor
+~
+~
+0 0 6154
+S
+#6156
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6169
+D5
+Abyss
+~
+~
+0 0 6145
+S
+#6157
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6146
+D2
+A corridor in a dwelling
+~
+~
+0 0 6171
+S
+#6158
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D2
+A corridor in a dwelling
+~
+~
+0 0 6172
+D4
+Climbing an old ladder
+~
+Trapdoor~
+1 -1 6159
+S
+#6159
+Climbing an old ladder~
+You are climbing a narrow old ladder.
+~
+60 64 8
+D4
+Climbing an old ladder
+~
+~
+0 0 6160
+D5
+A corridor in a dwelling
+~
+Trapdoor~
+1 -1 6158
+S
+#6160
+Climbing an old ladder~
+You are climbing a narrow old ladder
+~
+60 0 8
+D4
+The Attic
+~
+~
+0 0 6173
+D5
+Climbing an old ladder
+~
+~
+0 0 6159
+S
+#6161
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6147
+D2
+A corridor in a dwelling
+~
+~
+0 0 6174
+S
+#6162
+Southern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hallway continues north and south from here.
+~
+60 0 8
+D0
+Southern wing - western hallway
+~
+~
+0 0 6149
+D2
+Southern corridor
+~
+~
+0 0 6179
+S
+#6163
+Southern wing - western hallway~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hallway continues north and south from here.
+~
+60 0 8
+D0
+Southern wing - western hallway 
+~
+~
+0 0 6150
+D2
+Southern corridor
+~
+~
+0 0 6181
+S
+#6164
+Climbing a narrow stairway~
+You are climbing a narrow stairway. Small openings in the wall leave you with
+a view over the surroundings.
+~
+60 0 8
+D4
+Climbing a narrow stairway
+~
+~
+0 0 6151
+D5
+Southern corridor
+~
+~
+0 0 6183
+S
+#6165
+Golden hall~
+As you walk along the golden hall you notice why it is named like this,
+the ceiling is made of pure gold with precious carvings telling stories
+otherwise long forgotten. If you look closely you see it illustrates the
+story of evolution of all being. Now if only you had more time to study it
+you would even stand a chance of becoming wise... but then again that's not
+the purpose of your visit here, so forget about it and move on.
+The hall continues north and south from here.
+~
+60 0 8
+D0
+Golden hall
+~
+~
+0 0 6152
+D2
+Southern corridor
+~
+~
+0 0 6184
+S
+#6166
+Hall to the Odeon~
+You are walking along a hall that leads to the Odeon.
+The walls are decorated with all kinds of antique instruments some you know
+and some you have never seen before. From a distance you here music probably
+coming from the Odeon.
+~
+60 0 8
+D0
+Hall to the Odeon
+~
+~
+0 0 6153
+D2
+Southern corridor 
+~
+~
+0 0 6185
+S
+#6167
+End of narrow corridor~
+You are walking along a dull narrow corridor, there are no decorations here
+and it's only dimly light by some terrible smelling seaweed torches.
+The corridor ends abruptly here, you think of the possibility that this might
+once have been a secret passage but if so it's long gone. Time to turn back.
+~
+60 0 8
+D0
+A narrow corridor
+~
+~
+0 0 6154
+S
+#6168
+South wing - eastern hall in the castle~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The hall continues to the north and south from here.
+~
+60 0 8
+D0
+South wing - eastern hall in the castle
+~
+~
+0 0 6155
+D2
+Southern corridor - at a turn
+~
+~
+0 0 6187
+S
+#6169
+Abyss~
+All you can see is the vertical wall of the drop-off
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+To the east you see the entrance to a dwelling.~
+60 1 8
+D1
+Before a dwelling
+~
+~
+0 0 6170
+D4
+Abyss
+~
+~
+0 0 6188
+D5
+Abyss
+~
+~
+0 0 6156
+S
+#6170
+Entrance to a dwelling~
+You stand before a heavy door in the wall. You wonder who might live in such
+an inhospitable place.~
+60 69 8
+D1
+A corridor in a dwelling
+~
+Door~
+1 -1 6171
+D3
+Abyss
+~
+~
+0 0 6169
+S
+#6171
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6157
+D3
+Before a dwelling
+~
+Door~
+1 -1 6170
+S
+#6172
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6158
+D2
+A corridor in a dwelling
+~
+~
+0 0 6189
+S
+#6173
+The Attic~
+You are in the attic. Lots of old unwanted stuff lies around here.
+Lots of big boxes stand around, an old huge drawer stands to your left,
+and in a corner stands an old dummy, its fabric ripped apart.
+~
+60 0 8
+D5
+Climbing an old ladder
+~
+~
+0 0 6160
+S
+#6174
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6161
+D1
+A room
+~
+Door~
+1 -1 6175
+D2
+A corridor in a dwelling
+~
+~
+0 0 6192
+S
+#6175
+Living room~
+You stand in a big living room, a sofa stands against the wall to your right,
+a huge shell serves as coffee table. On the wall hangs a old painting... 
+the paint is cracked and the colours washed out.
+~
+60 0 8
+D3
+A corridor in a dwelling
+~
+Door~
+1 -1 6174
+S
+#6176
+A guest room~
+You stand inside a guest room. It is very simply decorated, a bed to your left
+and a little bedside table. The door has a huge lock on the outside, but
+in here there is none! The whole place makes you remember more of
+a prison cell than a guest room.
+~
+60 0 8
+D2
+A corridor in a dwelling - the guest wing
+~
+Door~
+1 -1 6193
+S
+#6177
+A guest room~
+You stand inside a guest room. It is very simply decorated, a bed to your left
+and a little bedside table. The door has a huge lock on the outside, but
+in here there is none! The whole place makes you remember more of
+a prison cell than a guest room.
+~
+60 0 8
+D2
+A corridor in a dwelling - the guest wing
+~
+Door~
+1 -1 6194
+S
+#6178
+A guest room~
+You stand inside a guest room. It is very simply decorated, a bed to your left
+and a little bedside table. The door has a huge lock on the outside, but
+in here there is none! The whole place makes you remember more of
+a prison cell than a guest room.
+~
+60 0 8
+D2
+A corridor in a dwelling - the guest wing
+~
+Door~
+1 -1 6195
+S
+#6179
+Southern corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the north and east.
+~
+60 0 8
+D0
+Southern wing - western hallway
+~
+~
+0 0 6162
+D1
+Southern corridor
+~
+~
+0 0 6180
+S
+#6180
+Southern corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west from here.
+~
+60 0 8
+D1
+Southern corridor
+~
+~
+0 0 6181
+D3
+Southern corridor
+~
+~
+0 0 6179
+S
+#6181
+Southern corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the north, east and west from here.
+~
+60 0 8
+D0
+Southern wing - western hallway
+~
+~
+0 0 6163
+D1
+Southern corridor
+~
+~
+0 0 6182
+D3
+Southern corridor
+~
+~
+0 0 6180
+S
+#6182
+Southern corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west from here.
+~
+60 0 8
+D1
+Southern corridor - below the lookout tower
+~
+~
+0 0 6183
+D3
+Southern corridor
+~
+~
+0 0 6181
+S
+#6183
+Southern corridor - below the lookout tower~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west and a stairway leads up from here.
+~
+60 0 8
+D1
+Southern corridor - before the golden hall
+~
+~
+0 0 6184
+D3
+Southern corridor 
+~
+~
+0 0 6182
+D4
+Climbing the lookout tower
+~
+~
+0 0 6164
+S
+#6184
+Southern corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west and north from here is the
+golden hall.
+~
+60 0 8
+D0
+Golden hall
+~
+~
+0 0 6165
+D1
+Southern corridor
+~
+~
+0 0 6185
+D3
+Southern corridor - below the lookout tower
+~
+~
+0 0 6183
+S
+#6185
+Southern corridor ~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west and north from here is the
+golden hall.
+~
+60 0 8
+D0
+Hall to the Odeon
+~
+~
+0 0 6166
+D1
+Southern corridor
+~
+~
+0 0 6186
+D3
+Before the golden hall
+~
+~
+0 0 6184
+S
+#6186
+Southern corridor~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues to the east and west from here.
+~
+60 0 8
+D1
+Southern corridor - at a turn
+~
+~
+0 0 6187
+D3
+Southern corridor
+~
+~
+0 0 6185
+S
+#6187
+Southern corridor - at a turn~
+You are walking through a heavily decorated corridor in the castle.
+To the left and right paintings and treasures of the sea decorate the walls.
+The semi-transparent aqua-dyed seaweed curtains are tied back with shells,
+leaving you a view to the palace gardens, and the eternal darkness of the
+abyss below.
+The corridor continues west and north from here is the eastern hallway.
+~
+60 0 8
+D0
+South wing - eastern hall in the castle
+~
+~
+0 0 6168
+D3
+Southern corridor
+~
+~
+0 0 6186
+S
+#6188
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6196
+D5
+Abyss
+~
+~
+0 0 6169
+S
+#6189
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6172
+D1
+A corridor in a dwelling
+~
+~
+0 0 6190
+S
+#6190
+A Corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D1
+A corridor in a dwelling
+~
+~
+0 0 6191
+D3
+A corridor in a dwelling
+~
+~
+0 0 6189
+S
+#6191
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D1
+A corridor in a dwelling
+~
+~
+0 0 6192
+D3
+A corridor in a dwelling
+~
+~
+0 0 6190
+S
+#6192
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A corridor in a dwelling
+~
+~
+0 0 6174
+D1
+A corridor in a dwelling - the guest wing
+~
+~
+0 0 6193
+D3
+A corridor in a dwelling 
+~
+~
+0 0 6191
+S
+#6193
+A corridor in a dwelling - the guest wing~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A room
+~
+Door~
+1 -1 6176
+D1
+A corridor in a dwelling - the guest wing
+~
+~
+0 0 6194
+D2
+A room
+~
+Door~
+1 -1 6197
+D3
+A corridor in a dwelling
+~
+~
+0 0 6192
+S
+#6194
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A room
+~
+Door~
+1 -1 6177
+D1
+A corridor in a dwelling - the guest wing
+~
+~
+0 0 6195
+D2
+A room
+~
+Door~
+1 -1 6198
+D3
+A corridor in a dwelling - the guest wing
+~
+~
+0 0 6193
+S
+#6195
+A corridor in a dwelling~
+You are walking along a narrow corridor in a dwelling. Here and there
+you see doors, most of them are closed. Everything seems rather sparsely
+decorated. The whole place lies in silence.
+~
+60 0 8
+D0
+A room
+~
+Door~
+1 -1 6178
+D2
+A room
+~
+Door~
+1 -1 6199
+D3
+A corridor in a dwelling - the guest wing
+~
+~
+0 0 6194
+S
+#6196
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6200
+D5
+Abyss
+~
+~
+0 0 6188
+S
+#6197
+A guest room~
+You stand inside a guest room. It is very simply decorated, a bed to your left
+and a little bedside table. The door has a huge lock on the outside, but
+in here there is none! The whole place makes you remember more of
+a prison cell than a guest room.
+~
+60 0 8
+D0
+A corridor in a dwelling - the guest wing
+~
+Door~
+1 -1 6193
+S
+#6198
+A guest room~
+You stand inside a guest room. It is very simply decorated, a bed to your left
+and a little bedside table. The door has a huge lock on the outside, but
+in here there is none! The whole place makes you remember more of
+a prison cell than a guest room.
+~
+60 0 8
+D0
+A corridor in a dwelling - the guest wing
+~
+Door~
+1 -1 6194
+S
+#6199
+A guest room~
+You stand inside a guest room. It is very simply decorated, a bed to your left
+and a little bedside table. The door has a huge lock on the outside, but
+in here there is none! The whole place makes you remember more of
+a prison cell than a guest room.
+~
+60 0 8
+D0
+A corridor in a dwelling - the guest wing
+~
+Door~
+1 -1 6195
+S
+#6200
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6201
+D5
+Abyss
+~
+~
+0 0 6196
+S
+#6201
+Abyss~
+All you can see is the vertical wall of the drop-off 
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 1 8
+D4
+Abyss
+~
+~
+0 0 6202
+D5
+Abyss
+~
+~
+0 0 6200
+S
+#6202
+Abyss~
+All you can see is the vertical wall of the drop-off
+passing before your eyes as you dive deeper and
+deeper into eternal darkness.
+~
+60 69 8
+D4
+Seaweed forest
+~
+~
+0 0 6207
+D5
+Abyss
+~
+~
+0 0 6201
+S
+#6203
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the south and east.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6204
+D2
+Seaweed forest
+~
+~
+0 0 6210
+S
+#6204
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the east, west and south.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6205
+D2
+Seaweed forest
+~
+~
+0 0 6211
+D3
+Seaweed forest
+~
+~
+0 0 6203
+S
+#6205
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the east, south and west.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6206
+D2
+Seaweed forest
+~
+~
+0 0 6212
+D3
+Seaweed forest
+~
+~
+0 0 6204
+S
+#6206
+Seaweed forest~
+As you swim through the thick seaweed forest you barely
+manage to escape getting caught in the seaweed that surrounds
+you. There are many strange creatures swimming through the
+seaweed with easy and you wonder how they manage to do this.
+
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6207
+D2
+Seaweed forest
+~
+~
+0 0 6213
+D3
+Seaweed forest
+~
+~
+0 0 6205
+S
+#6207
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the east, south and west.
+Down from here you see a vertical drop-off disappearing into nothingness
+and eternal darkness.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6208
+D2
+Seaweed forest
+~
+~
+0 0 6214
+D3
+Seaweed forest
+~
+~
+0 0 6206
+D5
+Abyss
+~
+~
+0 0 6202
+S
+#6208
+Seaweed forest~
+As you swim through the thick seaweed forest you barely
+manage to escape getting caught in the seaweed that surrounds
+you. There are many strange creatures swimming through the
+seaweed with easy and you wonder how they manage to do this.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6209
+D2
+Seaweed forest
+~
+~
+0 0 6215
+D3
+Seaweed forest
+~
+~
+0 0 6207
+S
+#6209
+Seaweed forest~
+The seaweed is so thick in this section of the forest that
+you are only able to head in the direction of east or west.
+As you look around however you see many fish swimming in any
+direction that pleases them.
+~
+60 0 8
+D2
+Seaweed forest
+~
+~
+0 0 6216
+D3
+Seaweed forest
+~
+~
+0 0 6208
+S
+#6210
+Seaweed forest~
+The seaweed is so thick in this section of the forest that
+you are only able to head in the direction of east or west.
+As you look around however you see many fish swimming in any
+direction that pleases them.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6203
+D1
+Seaweed forest
+~
+~
+0 0 6211
+D2
+Seaweed forest
+~
+~
+0 0 6217
+S
+#6211
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues in all four directions.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6204
+D1
+Seaweed forest
+~
+~
+0 0 6212
+D2
+Seaweed forest
+~
+~
+0 0 6218
+D3
+Seaweed forest
+~
+~
+0 0 6210
+S
+#6212
+Seaweed forest~
+As you swim through the thick seaweed forest you barely
+manage to escape getting caught in the seaweed that surrounds
+you. There are many strange creatures swimming through the
+seaweed with easy and you wonder how they manage to do this.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6205
+D1
+Seaweed forest
+~
+~
+0 0 6213
+D3
+Seaweed forest
+~
+~
+0 0 6211
+S
+#6213
+Seaweed forest~
+The seaweed is so thick in this section of the forest that
+you are only able to head in the direction of east or west.
+As you look around however you see many fish swimming in any
+direction that pleases them.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6206
+D1
+Seaweed forest
+~
+~
+0 0 6214
+D3
+Seaweed forest
+~
+~
+0 0 6212
+S
+#6214
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the north, east and west.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6207
+D1
+Seaweed forest
+~
+~
+0 0 6215
+D3
+Seaweed forest
+~
+~
+0 0 6213
+S
+#6215
+Seaweed forest ~
+The seaweed is so thick in this section of the forest that
+you are only able to head in the direction of east or west.
+As you look around however you see many fish swimming in any
+direction that pleases them.
+~
+60 0 8
+D0
+Seaweed forest 
+~
+~
+0 0 6208
+D1
+Seaweed forest 
+~
+~
+0 0 6216
+D3
+Seaweed forest
+~
+~
+0 0 6214
+S
+#6216
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the north and west.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6209
+D3
+Seaweed forest
+~
+~
+0 0 6215
+S
+#6217
+Seaweed forest~
+The seaweed is so thick in this section of the forest that
+you are only able to head in the direction of east or west.
+As you look around however you see many fish swimming in any
+direction that pleases them.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6210
+D1
+Seaweed forest
+~
+~
+0 0 6218
+D2
+Seaweed forest
+~
+~
+0 0 6224
+S
+#6218
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the north, south and east.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6211
+D2
+Seaweed forest
+~
+~
+0 0 6225
+D3
+Seaweed forest
+~
+~
+0 0 6217
+S
+#6219
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the south and east.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6220
+D2
+Seaweed forest
+~
+~
+0 0 6226
+S
+#6220
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the east and west.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6221
+D3
+Seaweed forest
+~
+~
+0 0 6219
+S
+#6221
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the east and west.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6222
+D3
+Seaweed forest
+~
+~
+0 0 6220
+S
+#6222
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the east and west.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6223
+D3
+Seaweed forest
+~
+~
+0 0 6221
+S
+#6223
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the south and west.
+~
+60 0 8
+D2
+Seaweed forest
+~
+~
+0 0 6230
+D3
+Seaweed forest
+~
+~
+0 0 6222
+S
+#6224
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the north, east and south.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6217
+D1
+Seaweed forest
+~
+~
+0 0 6225
+D2
+Seaweed forest
+~
+~
+0 0 6234
+S
+#6225
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+The forest continues to the north, south and west.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6218
+D2
+Seaweed forest
+~
+~
+0 0 6235
+D3
+Seaweed forest
+~
+~
+0 0 6224
+S
+#6226
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6219
+D2
+Seaweed forest
+~
+~
+0 0 6236
+S
+#6227
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6228
+D2
+Seaweed forest
+~
+~
+0 0 6237
+S
+#6228
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6229
+D3
+Seaweed forest
+~
+~
+0 0 6227
+S
+#6229
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6230
+D2
+Seaweed forest
+~
+~
+0 0 6239
+D3
+Seaweed forest
+~
+~
+0 0 6228
+S
+#6230
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6223
+D2
+Seaweed forest~
+~
+0 0 6240
+D3
+Seaweed forest
+~
+~
+0 0 6229
+S
+#6231
+Inside a shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches.
+~
+60 0 8
+D1
+Inside a shipwreck
+~
+~
+0 0 6232
+D2
+Inside a shipwreck
+~
+~
+0 0 6242
+S
+#6232
+Inside a shipwreck~
+As you swim through the wreck you notice several skeletons that seem to
+be moving in the water.As you look closes you realise your wrong and it
+is just the movement of the ocean that gives them this appearance.
+Here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches.
+~
+60 0 8
+D1
+Inside a shipwreck
+~
+~
+0 0 6233
+D3
+Inside a shipwreck
+~
+~
+0 0 6231
+S
+#6233
+Inside a shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches.
+~
+60 0 8
+D2
+Inside a shipwreck
+~
+~
+0 0 6244
+D3
+Inside a shipwreck
+~
+~
+0 0 6232
+S
+#6234
+Seaweed forest~
+You swim through a thick seaweed forest that seems to go on
+for miles. It is difficult to tell which way you should head in
+because the density of the seaweed block your view from everything
+that may surround you. You are beginning to feel hopelessly lost
+in this strange underwater forest.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6224
+D1
+Seaweed forest
+~
+~
+0 0 6235
+D2
+Seaweed forest
+~
+~
+0 0 6245
+S
+#6235
+Seaweed forest~
+You swim through a thick seaweed forest that seems to go on
+for miles. It is difficult to tell which way you should head in
+because the density of the seaweed block your view from everything
+that may surround you. You are beginning to feel hopelessly lost
+in this strange underwater forest.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6225
+D2
+Seaweed forest
+~
+~
+0 0 6246
+D3
+Seaweed forest
+~
+~
+0 0 6234
+S
+#6236
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6226
+D1
+Seaweed forest
+~
+~
+0 0 6237
+S
+#6237
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6227
+D3
+Seaweed forest
+~
+~
+0 0 6236
+S
+#6238
+Seaweed forest~
+The seaweed is so thick in this section of the forest that
+you are only able to head in the direction of east or west.
+As you look around however you see many fish swimming in any
+direction that pleases them.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6239
+D2
+Seaweed forest
+~
+~
+0 0 6249
+S
+#6239
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6229
+D3
+Seaweed forest
+~
+~
+0 0 6238
+S
+#6240
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6230
+D2
+Seaweed forest
+~
+~
+0 0 6251
+S
+#6241
+Inside a shipwreck~
+The wreck has been lying here for centuries.
+Here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches. You hear something - sounds like voices but this must be your
+fantasy running wild again, nothing but a game your mind likes to play with
+you. Seems this silence is slowly getting to you, isnt it?
+~
+60 0 8
+D1
+Inside a shipwreck
+~
+~
+0 0 6242
+S
+#6242
+Inside a shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches. You hear something - sounds like voices but this must be your 
+fantasy running wild again, nothing but a game your mind plays with you.
+Seems this silence is slowly getting to you, isn't it?
+~
+60 0 8
+D0
+Inside a shipwreck
+~
+~
+0 0 6231
+D1
+Inside a shipwreck
+~
+~
+0 0 6243
+D3
+Inside a shipwreck
+~
+~
+0 0 6241
+S
+#6243
+Inside a shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches. You hear something - sounds like voices but this must be your 
+fantasy running wild again, nothing but a game your mind plays with you.
+Seems this silence is slowly getting to you, isn't it?
+~
+60 0 8
+D3
+Inside a shipwreck
+~
+~
+0 0 6242
+D4
+Inside a shipwreck
+~
+~
+0 0 6254
+S
+#6244
+Inside a shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches.
+~
+60 0 8
+D0
+Inside a shipwreck
+~
+~
+0 0 6233
+D2
+Inside a shipwreck
+~
+~
+0 0 6255
+S
+#6245
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6234
+D1
+Seaweed forest
+~
+~
+0 0 6246
+D2
+Seaweed forest
+~
+~
+0 0 6256
+S
+#6246
+Seaweed forest~
+The seaweed is so thick in this section of the forest that
+you are only able to head in the direction of east or west.
+As you look around however you see many fish swimming in any
+direction that pleases them.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6235
+D1
+Seaweed forest
+~
+~
+0 0 6247
+D2
+Seaweed forest
+~
+~
+0 0 6257
+D3
+Seaweed forest
+~
+~
+0 0 6245
+S
+#6247
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6248
+D2
+Seaweed forest
+~
+~
+0 0 6258
+D3
+Seaweed forest
+~
+~
+0 0 6246
+S
+#6248
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6249
+D2
+Seaweed forest
+~
+~
+0 0 6259
+D3
+Seaweed forest
+~
+~
+0 0 6247
+S
+#6249
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6238
+D2
+Seaweed forest
+~
+~
+0 0 6260
+D3
+Seaweed forest
+~
+~
+0 0 6248
+S
+#6250
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D1
+Seaweed forest
+~
+~
+0 0 6251
+D2
+Seaweed forest
+~
+~
+0 0 6261
+S
+#6251
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6240
+D3
+Seaweed forest
+~
+~
+0 0 6250
+S
+#6252
+The Captain's Cabin~
+You stand in the captains cabin and to your surprise it is still in excellent
+condition. In the middle of the room stands a large table, 
+the nautical maps are scattered on the floor.
+Empty beer glasses are on the table and empty beer barrels 
+are all over the floor - what a mess!
+It does seem somebody has been here recently!
+~
+60 0 8
+D1
+Inside a shipwreck
+~
+Door~
+1 -1 6253
+S
+#6253
+Inside a shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches. You hear something - sounds like voices but this must be your 
+fantasy running wild again, nothing but a game your mind plays with you.
+Seems this silence is slowly getting to you, isn't it?
+A door is in the west wall and the voices do seem much louder now.
+~
+60 0 8
+D3
+~
+Door~
+1 -1 6252
+D5
+Inside a shipwreck
+~
+~
+0 0 6254
+S
+#6254
+Inside a shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches. You hear something - sounds like voices but this must be your 
+fantasy running wild again, nothing but a game your mind plays with you.
+Seems this silence is slowly getting to you, isn't it?
+~
+60 0 8
+D4
+Inside a shipwreck
+~
+~
+0 0 6253
+D5
+Inside a shipwreck
+~
+~
+0 0 6243
+S
+#6255
+Inside a shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches.
+~
+60 0 8
+D0
+Inside a shipwreck
+~
+~
+0 0 6244
+D2
+Inside a shipwreck
+~
+~
+0 0 6270
+S
+#6256
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6245
+D1
+Seaweed forest
+~
+~
+0 0 6257
+S
+#6257
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6246
+D1
+Seaweed forest
+~
+~
+0 0 6258
+D3
+Seaweed forest
+~
+~
+0 0 6256
+S
+#6258
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6247
+D1
+Seaweed forest
+~
+~
+0 0 6259
+D3
+Seaweed forest
+~
+~
+0 0 6257
+S
+#6259
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6248
+D1
+Seaweed forest
+~
+~
+0 0 6260
+D3
+Seaweed forest
+~
+~
+0 0 6258
+S
+#6260
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6249
+D3
+Seaweed forest
+~
+~
+0 0 6259
+S
+#6261
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 0 8
+D0
+Seaweed forest
+~
+~
+0 0 6250
+D1
+Seaweed forest
+~
+~
+0 0 6262
+S
+#6262
+Seaweed forest~
+You swim through a thick seaweed forest.
+Strange creatures inhabit this eerie underwater jungle.
+Here and there you make out some shadows disappearing into the weeds.
+~
+60 68 8
+D3
+Seaweed forest
+~
+~
+0 0 6261
+D4
+In shallow water - before a seaweed forest
+~
+~
+0 0 6271
+S
+#6263
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thrrough your veins.
+~
+60 0 8
+D1
+Coral reef
+~
+~
+0 0 6264
+D2
+Coral reef
+~
+~
+0 0 6272
+S
+#6264
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing through your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D1
+Coral reef
+~
+~
+0 0 6265
+D2
+Coral reef
+~
+~
+0 0 6273
+D3
+Coral reef
+~
+~
+0 0 6263
+S
+#6265
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing through your veins.
+~
+60 0 8
+D1
+Coral reef
+~
+~
+0 0 6266
+D2
+Coral reef
+~
+~
+0 0 6274
+D3
+Coral reef
+~
+~
+0 0 6264
+S
+#6266
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you.
+~
+60 0 8
+D1
+Before a long forgotten shipwreck
+~
+~
+0 0 6267
+D2
+Coral reef
+~
+~
+0 0 6275
+D3
+Coral reef
+~
+~
+0 0 6265
+S
+#6267
+Before a long forgotten shipwreck~
+Before you a shipwreck lies in the corals, it looks as if it has been here
+for quite some time. You see that nature has adapted well to this intruder
+and made it part of itself.
+~
+60 0 8
+D1
+Before a long forgotten shipwreck
+~
+~
+0 0 6268
+D2
+Coral reef
+~
+~
+0 0 6276
+D3
+Coral reef
+~
+~
+0 0 6266
+S
+#6268
+Before a long forgotten shipwreck~
+Before you a shipwreck lies in the corals, it looks as if it has been here
+for centuries. You see that nature has adapted well to this intruder and  
+made it part of itself.
+~
+60 68 8
+D1
+Before a long forgotten shipwreck
+~
+~
+0 0 6269
+D3
+Before a long forgotten shipwreck
+~
+~
+0 0 6267
+S
+#6269
+Before a long forgotten shipwreck~
+Before you a shipwreck lies in the corals, it looks as if it has been here
+for centuries. You see that nature has adapted well to this intruder and  
+made it part of itself.
+~
+60 0 8
+D1
+Inside an old shipwreck
+~
+~
+0 0 6270
+D3
+Before a long forgotten shipwreck
+~
+~
+0 0 6268
+S
+#6270
+Inside an old shipwreck~
+The wreck lies here for centuries.
+But here and there you can see some of the remains of the ancient glory 
+and luxury of this ship, but most of it has gone - washed away by the sea.
+On the walls and floor grow now corals and anemones, fish swim in and out
+the hatches. You hear something - sounds like voices but this must be your 
+fantasy running wild again, nothing but a game your mind plays with you.
+Seems this silence is slowly getting to you, isn't it?
+~
+60 0 8
+D0
+Inside an old shipwreck
+~
+~
+0 0 6255
+D3
+Before a long forgotten shipwreck
+~
+~
+0 0 6269
+S
+#6271
+In shallow water - before a seaweed forest~
+You are in shallow water, if you look down you can see the ground 
+and the many colourful fishes.
+Further to the east you see corals and to the north in a distance you 
+make out an underwater forest.
+~
+60 0 7
+D2
+In shallow water
+~
+~
+0 0 6277
+D5
+The edge of a seaweed forest
+~
+~
+0 0 6262
+S
+#6272
+Coral reef~
+All you do hear is your own breathing and the blood rushing thru your veins.
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6263
+D1
+Coral reef
+~
+~
+0 0 6273
+D2
+Coral reef
+~
+~
+0 0 6278
+S
+#6273
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6264
+D1
+Coral reef
+~
+~
+0 0 6274
+D2
+Coral reef
+~
+~
+0 0 6279
+D3
+Coral reef
+~
+~
+0 0 6272
+S
+#6274
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6265
+D1
+Coral reef
+~
+~
+0 0 6275
+D3
+Coral reef
+~
+~
+0 0 6273
+S
+#6275
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6266
+D1
+Coral reef
+~
+~
+0 0 6276
+D3
+Coral reef
+~
+~
+0 0 6274
+S
+#6276
+Coral reef~
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6267
+D2
+Coral reef
+~
+~
+0 0 6282
+D3
+Coral reef
+~
+~
+0 0 6275
+S
+#6277
+In shallow water~
+You are in shallow water, if you look down you can see the ground 
+and the many colourful fishes.
+Further to the east you see corals and to the north in a distance you 
+make out an underwater forest.
+~
+60 0 7
+D0
+In shallow water - before a seaweed forest
+~
+~
+0 0 6271
+D2
+In shallow water
+~
+~
+0 0 6308
+S
+#6278
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6272
+D1
+Coral reef
+~
+~
+0 0 6279
+D2
+Coral reef
+~
+~
+0 0 6284
+S
+#6279
+Coral reef~
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6273
+D2
+Coral reef
+~
+~
+0 0 6285
+D3
+Coral reef
+~
+~
+0 0 6278
+S
+#6280
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals.
+~
+60 0 8
+D1
+Coral reef
+~
+~
+0 0 6281
+D2
+Coral reef
+~
+~
+0 0 6286
+S
+#6281
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you.
+~
+60 0 8
+D2
+Coral reef
+~
+~
+0 0 6287
+D3
+Coral reef
+~
+~
+0 0 6280
+S
+#6282
+Coral reef~
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6276
+D2
+Coral reef
+~
+~
+0 0 6288
+S
+#6284
+Coral reef~
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6278
+D1
+Coral reef
+~
+~
+0 0 6285
+S
+#6285
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6279
+D2
+Coral reef
+~
+~
+0 0 6291
+D3
+Coral reef
+~
+~
+0 0 6284
+S
+#6286
+Coral reef~
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6280
+S
+#6287
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6281
+D1
+Coral reef
+~
+~
+0 0 6288
+S
+#6288
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6282
+D1
+Coral reef
+~
+~
+0 0 6289
+D2
+Coral reef
+~
+~
+0 0 6294
+D3
+Coral reef
+~
+~
+0 0 6287
+S
+#6289
+Coral reef~
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D3
+Coral reef
+~
+~
+0 0 6288
+S
+#6291
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6285
+D1
+Coral reef
+~
+~
+0 0 6292
+D2
+Coral reef
+~
+~
+0 0 6309
+S
+#6292
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you.
+~
+60 0 8
+D1
+Coral reef
+~
+~
+0 0 6293
+D2
+Coral reef
+~
+~
+0 0 6310
+D3
+Coral reef
+~
+~
+0 0 6291
+S
+#6293
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D1
+Coral reef
+~
+~
+0 0 6294
+D2
+Coral reef
+~
+~
+0 0 6311
+D3
+Coral reef
+~
+~
+0 0 6292
+S
+#6294
+Coral reef~
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6288
+D3
+Coral reef
+~
+~
+0 0 6293
+S
+#6295
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and south.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6296
+D2
+The mangrove swamp
+~
+~
+0 0 6313
+S
+#6296
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6297
+D3
+The mangrove swamp
+~
+~
+0 0 6295
+S
+#6297
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6298
+D3
+The mangrove swamp
+~
+~
+0 0 6296
+S
+#6298
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6299
+D3
+The mangrove swamp
+~
+~
+0 0 6297
+S
+#6299
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6300
+D3
+The mangrove swamp
+~
+~
+0 0 6298
+S
+#6300
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6301
+D3
+The mangrove swamp
+~
+~
+0 0 6299
+S
+#6301
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6302
+D3
+The mangrove swamp
+~
+~
+0 0 6300
+S
+#6302
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6303
+D3
+The mangrove swamp
+~
+~
+0 0 6301
+S
+#6303
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6304
+D3
+The mangrove swamp
+~
+~
+0 0 6302
+S
+#6304
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6305
+D3
+The mangrove swamp
+~
+~
+0 0 6303
+S
+#6305
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 6
+D1
+The mangrove swamp
+~
+~
+0 0 6306
+D3
+The mangrove swamp
+~
+~
+0 0 6304
+S
+#6306
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+The mangrove swamp
+~
+~
+0 0 6307
+D3
+The mangrove swamp
+~
+~
+0 0 6305
+S
+#6307
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the west and south.
+~
+60 0 7
+D2
+The mangrove swamp
+~
+~
+0 0 6324
+D3
+The mangrove swamp
+~
+~
+0 0 6306
+S
+#6308
+In shallow water~
+You are in shallow water, if you look down you can see the ground 
+and the many colourful fishes.
+Further to the east you see corals and to the north in a distance you
+make out an underwater forest.
+~
+60 0 7
+D0
+In shallow water
+~
+~
+0 0 6277
+D2
+In shallow water - near the mangrove swamp
+~
+~
+0 0 6330
+S
+#6309
+Coral reef~
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6291
+D1
+Coral reef
+~
+~
+0 0 6310
+S
+#6310
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6292
+D1
+Coral reef
+~
+~
+0 0 6311
+D3
+Coral reef
+~
+~
+0 0 6309
+D4
+Coral reef
+~
+~
+0 0 6331
+S
+#6311
+Coral reef~
+All you do hear is your own breathing and the blood rushing thru your veins.
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6293
+D1
+Coral reef
+~
+~
+0 0 6312
+D3
+Coral reef
+~
+~
+0 0 6310
+S
+#6312
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you.
+~
+60 0 8
+D3
+Coral reef
+~
+~
+0 0 6311
+S
+#6313
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the north and east.
+~
+60 0 7
+D0
+Mangrove swamp
+~
+~
+0 0 6295
+D1
+Mangrove swamp
+~
+~
+0 0 6314
+S
+#6314
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6315
+D3
+Mangrove swamp
+~
+~
+0 0 6313
+S
+#6315
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6316
+D3
+Mangrove swamp
+~
+~
+0 0 6314
+S
+#6316
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east, south and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6317
+D2
+At the Beach
+~
+~
+0 0 6334
+D3
+Mangrove swamp
+~
+~
+0 0 6315
+S
+#6317
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6318
+D3
+Mangrove swamp
+~
+~
+0 0 6316
+S
+#6318
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6319
+D3
+Mangrove swamp
+~
+~
+0 0 6317
+S
+#6319
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6320
+D3
+Mangrove swamp
+~
+~
+0 0 6318
+S
+#6320
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6321
+D3
+Mangrove swamp
+~
+~
+0 0 6319
+S
+#6321
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6322
+D3
+Mangrove swamp
+~
+~
+0 0 6320
+S
+#6322
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6323
+D3
+Mangrove swamp
+~
+~
+0 0 6321
+S
+#6323
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the south and west.
+~
+60 0 7
+D2
+Mangrove swamp
+~
+~
+0 0 6339
+D3
+Mangrove swamp
+~
+~
+0 0 6322
+S
+#6324
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the north and east.
+~
+60 0 7
+D0
+Mangrove swamp
+~
+~
+0 0 6307
+D1
+Mangrove swamp
+~
+~
+0 0 6325
+S
+#6325
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6326
+D3
+Mangrove swamp
+~
+~
+0 0 6324
+S
+#6326
+The mangrove swamp~
+As you stand in these thick mangroves you notice the mad oozing
+through your bare feet and covering your ankles.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6327
+D3
+Mangrove swamp
+~
+~
+0 0 6325
+S
+#6327
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6328
+D3
+Mangrove swamp
+~
+~
+0 0 6326
+S
+#6328
+The mangrove swamp~
+As you stand in these thick mangroves you notice the mad oozing
+through your bare feet and covering your ankles.
+The mangroves are impenetrable except to the east and west.
+~
+60 0 7
+D1
+Mangrove swamp
+~
+~
+0 0 6329
+D3
+Mangrove swamp
+~
+~
+0 0 6327
+S
+#6329
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+To the east you can see the open sea.~
+60 0 7
+D1
+In shallow water - near the mangrove swamp
+~
+~
+0 0 6330
+D3
+Mangrove swamp
+~
+~
+0 0 6328
+S
+#6330
+In shallow water - near the mangrove swamp~
+You are in shallow water, if you look down you can see the ground 
+and the many colourful fishes.
+Further to the east you see corals and to the north in a distance you 
+make out an underwater forest.
+~
+60 68 7
+D0
+In shallow water
+~
+~
+0 0 6308
+D2
+In shallow water
+~
+~
+0 0 6340
+D3
+The mangrove swamp
+~
+~
+0 0 6329
+S
+#6331
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you.
+~
+60 0 8
+D1
+Coral reef
+~
+~
+0 0 6332
+D2
+Coral reef
+~
+~
+0 0 6344
+D5
+Coral reef
+~
+~
+0 0 6310
+S
+#6332
+Coral reef~
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D1
+Coral reef
+~
+~
+0 0 6333
+D2
+Coral reef
+~
+~
+0 0 6345
+D3
+Coral reef
+~
+~
+0 0 6331
+S
+#6333
+Coral reef~
+Small brightly colored fish seem to play hide and seek in the corals.
+They swim curiously closer to you and nibble gently on your legs.
+A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D2
+Coral reef
+~
+~
+0 0 6346
+D3
+Coral reef
+~
+~
+0 0 6332
+S
+#6334
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly
+against the shore. Here and there you see some sun-bathers, who are 
+obviously spending their holidays here.
+~
+60 68 2
+D0
+The mangrove swamp
+~
+~
+0 0 6316
+D1
+At the beach
+~
+~
+0 0 6335
+D2
+At the beach
+~
+~
+0 0 6348
+S
+#6335
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, who are 
+obviously spending their holidays here.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6336
+D3
+At the beach
+~
+~
+0 0 6334
+S
+#6336
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea lapping calmly 
+onto the shore. Here and there you see some sun-bathers  who are 
+obviously spending their holidays here.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6337
+D3
+At the beach
+~
+~
+0 0 6335
+S
+#6337
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, who are
+obviously spending their holidays here.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6338
+D3
+At the beach
+~
+~
+0 0 6336
+S
+#6338
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, who are 
+obviously spending their holidays here.
+~
+60 0 2
+D3
+At the beach
+~
+~
+0 0 6337
+S
+#6339
+The mangrove swamp~
+You stand in midst of thick mangroves. Every step you take 
+your feet sink deeper into the muddy ground, maybe it would
+be better to go back to solid ground.
+~
+60 0 7
+D0
+The mangrove swamp
+~
+~
+0 0 6323
+S
+#6340
+In shallow water~
+You are in shallow water, that is still rather warm from the sun's rays.
+Several bright tropical fish swim around you and you can here children 
+playing in the water nearby. To your north you can see a swampy area and
+to your south you can see the white, sandy beach.
+ ~
+60 0 7
+D0
+In shallow water - near the mangrove swamp
+~
+~
+0 0 6330
+D1
+In shallow water
+~
+~
+0 0 6341
+D2
+In shallow water
+~
+~
+0 0 6358
+S
+#6341
+In shallow water~
+You are in shallow water, if you look down you can see the ground 
+and the many colourful fishes.
+Further to the east you see corals and to the north in a distance you 
+make out an underwater forest.
+~
+60 0 7
+D1
+In shallow water
+~
+~
+0 0 6342
+D3
+In shallow water
+~
+~
+0 0 6340
+S
+#6342
+In shallow water~
+You are in shallow water, if you look down you can see the ground 
+and the many colourful fishes. 
+Further to the east you see corals and to the north in a distance you
+make out an underwater forest.
+~
+60 0 7
+D1
+In shallow water - before the coral reef
+~
+~
+0 0 6343
+D3
+In shallow water
+~
+~
+0 0 6341
+S
+#6343
+In shallow water - before the coral reef~
+You are in shallow water, if you look down you can see the ground 
+and the many colourful fishes. To the east you make out a coral reef.
+~
+60 68 7
+D1
+Coral reef
+~
+~
+0 0 6344
+D3
+In shallow water
+~
+~
+0 0 6342
+S
+#6344
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6331
+D1
+Coral reef
+~
+~
+0 0 6345
+D3
+In shallow water - before the coral reef
+~
+~
+0 0 6343
+S
+#6345
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6332
+D1
+Coral reef
+~
+~
+0 0 6346
+D3
+Coral reef
+~
+~
+0 0 6344
+S
+#6346
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood 
+rushing thru your veins. Small brightly colored fish seem to play hide 
+and seek in the corals. They swim curiously closer to you and nibble 
+gently on your legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Coral reef
+~
+~
+0 0 6333
+D2
+Coral reef
+~
+~
+0 0 6361
+D3
+Coral reef
+~
+~
+0 0 6345
+S
+#6347
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+The beach continues to the north and east.
+~
+60 0 2
+D0
+At the beach
+~
+~
+0 0 6334
+D1
+At the beach
+~
+~
+0 0 6348
+S
+#6348
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+The beach continues to the east and west.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6349
+D3
+At the beach
+~
+~
+0 0 6347
+S
+#6349
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+The beach continues to the east, south and west.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6350
+D2
+At the beach
+~
+~
+0 0 6362
+D3
+At the beach
+~
+~
+0 0 6348
+S
+#6350
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+The beach continues to the east and west.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6351
+D3
+At the beach
+~
+~
+0 0 6349
+S
+#6351
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+The beach continues to the north and west.
+~
+60 0 2
+D0
+At the beach
+~
+~
+0 0 6338
+D3
+At the beach
+~
+~
+0 0 6350
+S
+#6352
+Inside an old shack~
+You are standing in an old shack which is apparently a shop.
+Behind the counter you see all kinds of dive equipment.
+In a corner stands a huge compressor.
+A large SIGN is mounted on north wall here.
+~
+60 152 0
+D1
+Outside an old shack
+~
+Door~
+1 -1 6353
+E
+sign~
+0--------------------------------------------------------------------------0
+|  ,MO.                                                                    |
+|  E   q                    EXPLORE THE DEPTHS OF THE SEA!                 |
+|  `Tnf'                    ------------------------------                 |
+|     NN                                                                   |
+|      NN       DAILY EXCURSIONS ABOARD OUR FINE PLEASURE CRAFT NEPOMUK II |
+|       NN              INCL. LUNCH & SHARK FEEDING         250 GOLD COINS |
+|        NN       A                                                        |
+|         NN     AAVV   ALSO AVAILABLE ARE: *NIGHT DIVES*                  |
+|  A       NN      N                                                       |
+| AAVV.     NN     J,   INCL. SEAFOOD DINNER AND ENTERTAINMENT BY OLD NIK  |
+|   NL      d0V0bgJl    (SING ALONG TO OLD PIRATE SONGS AND LISTEN TO OLD  |
+|    VL    00VVVff'      NIK TELLING HIS AMAZING SEA ADVENTURES)           |
+|      'J00'AVVVV'                                          300 GOLD COINS |
+|              `V                                                          |
+0--------------------------------------------------------------------------0
+~
+S
+#6353
+Outside an old shack~
+You stand on on the doorstep of an old shack that lies amonst the sand
+dunes. You notice that there is an old wooden door here. As you look at
+the shack you also notice how weather beaten and bleached the wood panels
+have become. Obviously this shack has been here for quite a long time.
+To your east you can see the beautiful white sandy beach that is cluttered
+with sunbathers.
+~
+60 64 2
+D1
+At the beach
+~
+~
+0 0 6354
+D3
+Inside an old shack
+~
+Door~
+1 -1 6352
+S
+#6354
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea lapping calmly
+onto the shore. Here and there you see some sun-bathers  which are 
+obviously spending their holidays here.
+To the west on a dune you make out a simple shack.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6355
+D2
+At the beach
+~
+~
+0 0 6367
+D3
+At the beach
+~
+~
+0 0 6353
+S
+#6355
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers and children 
+who are playing in the sand and swimming in the water.
+To the west on a dune you make out a simple shack.
+To the south you see a Cafe in a distance.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6356
+D2
+Before Salvatore's I-Scream-Gelati Café
+~
+~
+0 0 6368
+D3
+At the beach
+~
+~
+0 0 6354
+S
+#6356
+At the beach~
+You stand on a white sandy beach where many tourists and locals come to
+sunbake and swim in the ocean. This is a popular beach as you can tell by
+the crows of people who are lying about lazily. 
+Far to the west on a dune you make out a simple shack.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6357
+D3
+At the beach
+~
+~
+0 0 6355
+S
+#6357
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea lapping calmly 
+onto the shore. Several children are playing in the sand and you nearly step
+on the magnificent sand castle that is decorated with seashells and seaweed.
+~
+60 0 2
+D2
+At the beach
+~
+~
+0 0 6370
+D3
+At the beach
+~
+~
+0 0 6356
+S
+#6358
+In shallow water~
+You are in shallow water, if you look down you can see the ground 
+and the many colourful fish swimming.To your south you can see the beautiful
+sandy beach where the tourist are sunbaking and eating ice-creams. There 
+are a few children playing in the water nearby and several building 
+sandcastles in the sand.
+~
+60 0 7
+D0
+Shallow water
+~
+~
+0 0 6340
+D2
+At the beach
+~
+~
+0 0 6372
+S
+#6359
+Rough sea~
+You did it! Well now you better swim and watch out!
+The sea is very rough here and the waves are high.
+You better find a way around these sharp rocks 
+they look as if they blemished so many bodies.
+Your only way through is to the east.
+~
+60 68 7
+D1
+Rough sea
+~
+~
+0 0 6360
+S
+#6360
+Rough sea~
+The sea is very rough here and the waves are high.
+You better find a way around these sharp rocks 
+they look as if they blemished so many bodies.
+Your only exits lead west and south.
+~
+60 0 7
+D2
+Rough sea
+~
+~
+0 0 6380
+D3
+Rough sea
+~
+~
+0 0 6359
+S
+#6361
+Coral reef~
+The colourful landscape of the coral reef passes below you.
+The silence lets you concentrate on yourself and on what is going on around
+and below you. All you do hear is your own breathing and the blood rushing
+thru your veins. Small brightly colored fish seem to play hide and seek in
+the corals. They swim curiously closer to you and nibble gently on your
+legs. A school of barracudas passes by in front of you.
+Everything is flowing back and forth with the never ending tide.
+~
+60 0 8
+D0
+Rough sea
+~
+~
+0 0 6346
+D2
+Rough sea
+~
+~
+0 0 6381
+S
+#6362
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+~
+60 0 2
+D0
+At the beach
+~
+~
+0 0 6349
+D1
+At the beach
+~
+~
+0 0 6363
+S
+#6363
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers. which are 
+obviously spending their holidays here.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6364
+D3
+At the beach
+~
+~
+0 0 6362
+S
+#6364
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6365
+D3
+At the beach
+~
+~
+0 0 6363
+S
+#6365
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are
+obviously spending their holidays here.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6366
+D3
+At the beach
+~
+~
+0 0 6364
+S
+#6366
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6367
+D3
+At the beach
+~
+~
+0 0 6365
+S
+#6367
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+~
+60 0 2
+D0
+At the beach
+~
+~
+0 0 6354
+D3
+At the beach
+~
+~
+0 0 6366
+S
+#6368
+Before Salvatore's I-Scream-Gelati Cafe~
+You stand under a lovely pergola... small round tables with
+wicker chairs are here. You notice all the people are eating
+ice creams and enjoying the cool shade under the vines.
+This might be the right place to take a break!
+~
+60 16 1
+D0
+At the beach
+~
+~
+0 0 6355
+D1
+Inside Salvatore's I-Scream-Gelati Cafe
+~
+~
+0 0 6369
+S
+#6369
+Inside Salvatore's I-Scream-Gelati Cafe~
+Small round bistro tables are scattered over the whole room, children
+are gathered around the counter, trying to choose of the many flavours
+of ice cream. A colourful *SIGN* hangs on a wall here.
+You hear loud laughter coming from where Salvatore is chatting to his
+regulars on a big round table.
+~
+60 152 0
+D0
+Colourful Sign
+~
+~
+0 0 -1
+D3
+Before Salvatore's I-Scream-Gelati Cafe
+~
+~
+0 0 6368
+E
+sign~
+<O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O
+ 
+
+              Your choice of our delicious Ice Cream flavours:
+
+           Vanilla, Strawberry, Chocolate, Mocca, Amarena, Jamaica, 
+       Stracciatella, Pistachio, Mango, Cookies 'n Cream, Tutti Frutti.
+
+
+<O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O <O 
+~ 
+S
+#6370
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea lapping calmly 
+onto the shore. Several children are playing in the sand and you nearly step
+on the magnificent sand castle that is decorated with seashells and seaweed.
+~
+60 0 2
+D0
+At the beach
+~
+~
+0 0 6357
+D1
+At the beach
+~
+~
+0 0 6371
+S
+#6371
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here.
+~
+60 0 2
+D1
+At the beach
+~
+~
+0 0 6372
+D3
+At the beach
+~
+~
+0 0 6370
+S
+#6372
+At the beach~
+You stand on a white sandy beach, the warm clear-blue sea laps calmly 
+onto the shore. Here and there you see some sun-bathers, which are 
+obviously spending their holidays here. There are small sand castles in
+the sand and as you look around you see tall cliffs to your east and the 
+shallow waters of the ocean to your north.  The beach continues to your
+west and the sand dunes that lead onto selva road are to your east
+~
+60 0 2
+D0
+Shallow water
+~
+~
+0 0 6358
+D1
+Before a tall cliff
+~
+~
+0 0 6373
+D2
+Sand dunes
+~
+~
+0 0 6383
+D3
+At the beach
+~
+~
+0 0 6371
+S
+#6373
+Before a tall cliff~
+You are standing before a tall cliff. You can climb further up and enjoy
+the lovely view up there.
+~
+60 0 2
+D4
+Climbing a tall cliff
+~
+~
+0 0 6374
+D3
+At the beach
+~
+~
+0 0 6372
+S
+#6374
+Climbing a tall cliff~
+You are climbing a tall cliff. The view over the ocean and the beach 
+is breathtaking. The sound of the braking waves relaxes you 
+and you watch for a while the surfers catching the waves. 
+~
+60 0 5
+D4
+Climbing a tall cliff
+~
+~
+0 0 6375
+D5
+Before a tall cliff
+~
+~
+0 0 6373
+S
+#6375
+Climbing a tall cliff~
+You are climbing a tall cliff. The view over the ocean and the beach 
+is breathtaking. The sound of the braking waves relaxes you 
+and you watch for a while the surfers catching the waves. The footing on
+the cliff is slightly treacherous so it is wise to step carefully.
+~
+60 0 5
+D4
+Climbing a tall cliff
+~
+~
+0 0 6376
+D5
+Climbing a tall cliff
+~
+~
+0 0 6374
+S
+#6376
+Climbing a tall cliff~
+You are climbing a tall cliff. The view over the ocean and the beach 
+is breathtaking. The sound of the braking waves relaxes you 
+and you watch for a while the surfers catching the waves. 
+~
+60 0 5
+D4
+Climbing a tall cliff
+~
+~
+0 0 6377
+D5
+Climbing a tall cliff
+~
+~
+0 0 6375
+S
+#6377
+Climbing a tall cliff~
+You are nearing the top of the tall cliff as you look down you can see
+the beach bellow and the sunbathers are starting to look like small ants
+in the sand. The view over the ocean is incredible here and you can see
+many sailing ships apon the water with there colorful sails blowing in the
+wind.
+~
+60 0 5
+D4
+Climbing a tall cliff
+~
+~
+0 0 6378
+D5
+Climbing a tall cliff
+~
+~
+0 0 6376
+S
+#6378
+Atop a tall cliff~
+You have reached the top of the cliff. At last!
+The view over the ocean and the beach is breathtaking. 
+The sound of the braking waves relaxes you and you watch
+for a while the surfers catching the waves. 
+After all this could be the place to watch the sunset with your 
+beloved one....
+You can climb down or walk along the cliff to the north.
+~
+60 0 2
+D0
+Atop a tall cliff
+~
+~
+0 0 6379
+D5
+Climbing a tall cliff
+~
+~
+0 0 6377
+S
+#6379
+Atop a tall cliff~
+The view over the ocean and the beach is breathtaking. 
+The sound of the braking waves relaxes you and you watch
+for a while the surfers catching the waves. 
+You can follow the cliff to the south or test your skill and try to
+dive into the ocean far below.
+~
+60 0 2
+D2
+Atop a tall cliff
+~
+~
+0 0 6378
+D5
+Rough Sea
+~
+~
+0 0 6359
+S
+#6380
+Rough sea~
+The sea is very rough here and the waves are high.
+You better find a way around these sharp rocks 
+they look as if they blemished so many bodies.
+Your only exits lead north and east
+~
+60 0 7
+D0
+Rough Sea
+~
+~
+0 0 6360
+D1
+Rough Sea
+~
+~
+0 0 6381
+S
+#6381
+Rough sea~
+The sea is very rough here and the waves are high.
+You better find a way around these sharp rocks 
+they look as if they blemished so many bodies before.
+~
+60 68 7
+D0
+Coral reef
+~
+~
+0 0 6361
+D3
+Rough sea
+~
+~
+0 0 6380
+S
+#6382
+Royal Treasure Vault~
+You are standing in a heavily reinforced treasure room containing the crown
+jewels of the underwater kingdom. Shelves are bursting with valuable gifts
+from places far away.
+You can leave to the east.
+~
+60 0 8
+D1
+Southern wing - western hallway
+~
+SlidingPanel~
+2 6013 6150
+E
+SlidingPanel~
+To the east is a massive door made from a single giant clam's shell.
+~
+S
+#6383
+Path in the sand dunes~
+You are walking on a well worn path winding through the sand dunes.
+To the north you see the beach  where several sunbathers are burning
+themselves to a cinder and catching skin cancer.
+~
+60 0 2
+D0
+At the beach
+~
+~
+0 0 6372
+D1
+Sand dunes
+~
+~
+0 0 6384
+S
+#6384
+Path in the sand dunes~
+As you walk through the sand dunes you can see the ocean close by
+to your north. Surrounding you in the sand dunes are several sunbathers
+who are burning themselves to a crisp.
+~
+60 0 2
+D1
+Sand dunes
+~
+~
+0 0 6385
+D3
+Sand dunes
+~
+~
+0 0 6383
+S
+#6385
+Path in the sand dunes~
+You are walking on a well worn path winding through the sand dunes.
+The path leads east and west. As you look to your north you can see
+the beautiful ocean that is a clear blue color under the sun's rays
+~
+60 0 2
+D1
+Sand dunes
+~
+~
+0 0 6386
+D3
+Sand dunes
+~
+~
+0 0 6384
+S
+#6386
+Path in the sand dunes~
+You are walking on a well worn path winding through the sand dunes.
+You feel the salty sea breeze on your skin and small specks of sand
+spray up into your eyes. To the north you see the ocean with many large 
+and impressive ships sailing apon it. 
+~
+60 0 2
+D1
+Grassy path
+~
+~
+0 0 6387
+D3
+Sand dunes
+~
+~
+0 0 6385
+S
+#6387
+Path in the sand dunes~
+You are walking on a well worn path winding through the sand dunes.
+You feel the salty sea breeze on your skin.
+To the north you see the ocean and to the south  you see Selva road.
+~
+60 4 2
+D1
+Sand dunes
+~
+~
+0 0 6388
+D2
+selva road
+~
+~
+0 0 1509
+D3
+Grassy path
+~
+~
+0 0 6386
+S
+#6388
+Sand dunes~
+You are standing in the sand dunes apon a slight rise. You feel the salty 
+sea breeze on your skin and as you look to your north you can see the great
+ocean with many ship's sailing apon it.
+~
+60 0 2
+D3
+Grassy path
+~
+~
+0 0 6387
+S
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

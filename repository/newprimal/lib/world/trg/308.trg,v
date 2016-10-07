@@ -1,0 +1,2528 @@
+head	1.12;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.12
+date	2004.05.23.07.21.50;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.12.26.00.07.03;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.09.05.45.01;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.11.25.05.38.05;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.11.08.11.59.20;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.20.12.01.51;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.14.05.32.13;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.16.10.27.13;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.14;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.04.11.15.08.20;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@Artus> Checking everything in again.
+@
+text
+@#30800
+Jester info~
+0 ghi 100
+~
+if %canbeseen% ==
+say %actor.name% my saviour!
+smile
+wait 10
+sta
+say You have somehow managed to kill that bastard of a guard!
+smile
+wait 30
+say Although you do not have to, I would appreciate it if you let me go. I could make it worth your while for a price...
+wait 45
+say for 10 million gold coins and a way out of here I could help you also.
+else
+say Welcome %actor.name%. You do realise that even though you somehow made it here, 
+your end is near.
+end
+end
+~
+#30801
+Royal Guards - welcome message~
+0 ghi 100
+~
+if %actor.canbeseen%
+if (%direction% == down)
+%echo% The guard blocks the entrance to the North.
+say HALT %actor.name%! Nobody sees the King at all.
+wait 15
+say Now.....be off with you. We do not want any trouble!
+poke %actor.name%
+end
+end
+~
+#30802
+King calls upon queen~
+0 l 75
+~
+if %actor.canbeseen%
+eval room %actor.room%
+if %room.vnum% == 30957
+if (%load_queen% != 1)
+%echo% The King Death Shadow's hollers, Ohhhhh Darliiiing!
+wait 40
+%load% mob 30815
+set load_queen 1
+global load_queen
+%load% obj 30874
+give key queen
+%force% queen hold key
+end
+end
+end
+~
+#30803
+Death shadow - Lay down and die~
+0 bhi 20
+~
+if %actor.vnum% < 0
+say You've got to be kidding %actor.name%! Why don't you just kill yourself now and save us all the trouble!?
+wait 30
+It would be the wise thing to do...
+end
+~
+#30804
+Portal guard halt~
+0 ghi 100
+~
+if %actor.canbeseen%
+if (%direction% == down)
+say HALT!! You cannot go any further! His highness has ordered me not to be disturbed! 
+say Turn back now %actor.name%, you have 10 seconds!
+wait 10s
+eval room %actor.room%
+if %room.vnum% == 30876
+say I warned you %actor.name% and you have pushed the limit of my patience, cop this!
+mkill %actor.name%
+end
+end
+end
+~
+#30805
+Portal guard greet~
+0 g 100
+~
+say You are not permitted to go any futher %actor.name%. If you go any further I will be forced to kill you.
+smile %actor.name%
+~
+#30806
+Load 2 guards before throne apon entry~
+2 c 100
+o~
+if (%cmd% == open)
+say I don't think so %actor.name%!!
+shout INTRUDER!
+%echo% An invisible door to the east opens and 2 guards step out!
+wait 5
+%echo% The door closes even though you know it's not really there!
+%load% mob 30816
+%load% mob 30816
+%force% guard shake
+%force% 2.guard shake
+%force% guard say Hey %actor.name%, where do you think you're going?!
+%force% 2.guard say Hey %actor.name%, where do you think you're going?!
+wait 30
+%force% guard kill %actor.name%
+%force% 2.guard kill %actor.name%
+end
+end
+~
+#30807
+Death shadow is the Kings servant~
+0 bg 40
+~
+if %actor.vnum% < 0
+say I serve the almighty King himself!
+end
+~
+#30808
+Death Shadow Kings breaksfast has arrived~
+0 bg 10
+~
+if %actor.vnum% < 0
+say If I had to choose between living here and dying....DYING for sure!
+wait 10
+say Now that I have warned you, would you do me the honour of killing me?
+smile
+end
+~
+#30809
+Portal guard death - load another~
+0 f 100
+~
+if (%load_guard% != 1)
+%echo% There is a bright flash of light and another Portal Guard appears!
+%load% mob 30857
+wait 10
+say %actor.name% you FOOL! If there was no REAL security for his magesty, we would not be here!
+wait 15
+say %actor.name% you don't learn do you. We have sworn with our lives to protect his magesty, you are NOT getting passed!
+set load_guard 1
+global load_guard
+end
+~
+#30810
+Bat-attack~
+0 ghi 100
+~
+if %actor.vnum% < 0
+if %self.canbeseen%
+wait 5
+say hmmmm nummy, fresh blooood! You can't escape now %actor.name%!
+wait 5
+mkill %actor.name%
+else
+say I need some fffffffresh bloooooood!
+end
+end
+~
+#30811
+Well beast hungry~
+0 ghi 100
+~
+if %actor.canbeseen%
+if (%direction% == south)
+say I hope you are healthy %actor.name%, healthy people taste better!
+wait 10
+kill %actor.name%
+elseif (%direction% == up)
+say I hope you are healthy %actor.name%, healthy people taste better!
+wait 10
+kill %actor.name%
+end
+end
+end
+~
+#30812
+Death shadow-not passing me~
+0 g 100
+~
+say You must be a worth fighter to make it here %actor.name%
+wait 5
+say If you want to go any further, you'll have to fight me!
+wait 5
+grin
+~
+#30813
+Spider hiss and attack~
+0 g 100
+~
+if %actor.canbeseen%
+emote hisses at you!
+wait 15
+kill %actor.name%
+end
+~
+#30814
+Royal Guard attack if go north~
+0 c 100
+n~
+%send% %actor% You are grabbed by a guard and whacked in the back of the head!
+%damage% %actor% 500
+%echoaround% %actor% The trouble maker is grabbed by a guard and whacked in the back of the head! OUCH!
+wait 30
+%send% %actor% The guard throws you down the stairs!
+%echoaround% %actor% The trouble maker is then thrown down the stairs! I wouldn't attempt to pass if I were you!!
+%teleport% %actor% 30954
+say I told %actor.name% no further....bloody deaf %actor.class%
+%force% %actor% look
+wait 5
+%send% %actor% You bounce off a step!
+%damage% %actor% 250
+%teleport% %actor% 30953
+wait 5
+%force% %actor% look
+%send% %actor% You bounce off a another step....OUCH again!
+%damage% %actor% 250
+%teleport% %actor% 30952
+%send% %actor% You land at the bottom of the stairs with a loud THUD..banging your head on the floor....NIGHTY NIGHT!
+%damage% %actor% 450
+%force% %actor% sleep
+Shout Anyone else wanna go me? EH EH EH?!?!
+end
+~
+#30815
+Call on baby spiders to assist~
+0 l 50
+~
+context %self.id%
+if (%already_fighting%)
+unset already_fighting
+wait 300
+%purge% %30811%
+say Ok enough of this playing around %actor.name%!
+%purge% %30811%
+else
+shout CHILDREEEEEEN, %actor.name% is here for dinner!
+wait 30
+%load% mob 30811
+%load% mob 30811
+set already_fighting 1
+global already_fighting
+wait 300
+end
+~
+#30816
+Stone door closes upon entry~
+2 g 100
+~
+If (%direction% == east)
+emote the Stone door closes behind you!
+close stone
+end
+~
+#30817
+Head guard - piss off~
+0 hi 100
+~
+if %actor.canbeseen%
+if (%direction% == south)
+say I don't think so %actor.name%...his magesty is busy....go away!
+wait 75
+eval room %actor.room%
+if %room.vnum% == 30956
+say OI %actor.name% ARE YOU DEAF? PISS OFF!
+wait 45
+eval room %actor.room%
+if %room.vnum% == 30956
+say GUARDS fix up this %actor.sex%!
+end
+end
+end
+end
+~
+#30818
+Head guard close door~
+0 hi 100
+~
+if %actor.canbeseen%
+if (%direction% == north)
+remove desk
+%load% obj 30812
+get security
+hold security
+wait 5
+say Next time close his magesties door %actor.name%!
+emote walks over to the Throne Room door.
+wait 10
+close throne
+lock throne
+wait 5
+emote walks back to his desk
+say Now PISS off, I have work to do!
+wait 30
+sit
+wait 5
+remove security
+hold desk
+wait 5
+emote throws the Throne Key back in the draw
+mjunk all
+wait 5
+growl
+end
+end
+~
+#30819
+mini devil speak then attack~
+0 ghi 100
+~
+if %actor.canbeseen%
+say You have come far %actor.name%, yet your about to realise comming here was a bad idea!
+wait 5
+shout Your going to die %actor.name%!
+wait 10
+kill %actor.name%
+end
+~
+#30820
+Purple octopus defence~
+0 ce 100
+d~
+if (%cmd% == down)
+say Over my dead body %actor.name%!
+wait 15
+sta
+kill %actor.name%
+elseif (%cmd% == dow)
+say Over my dead body %actor.name%!
+wait 15
+sta
+kill %actor.name%
+elseif (%cmd% == do)
+say Over my dead body %actor.name%!
+wait 15
+sta
+kill %actor.name%
+elseif (%cmd% == d)
+say Over my dead body %actor.name%!
+wait 15
+sta
+kill %actor.name%
+end
+end
+end
+end
+~
+#30821
+Portal guard attack if try open stone~
+0 c 100
+unlock~
+if %actor.canbeseen%
+say Over my dead body %actor.name%!
+kill %actor.name%
+else
+say Bloody ghosts around here!
+end
+~
+#30822
+Spider mother poison bite~
+0 k 100
+~
+* get players health and store it as variable %dam%
+eval dam %actor.hitp% / 10
+* face bite miss
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% == 2125 || %room.vnum% == 2126 || %room.vnum% == 2127)
+%send% %actor% The spider mother takes a bite at your face but misses!
+%echoaround% %actor% The spider mother takes a bite at %actor.name%'s face but misses!
+wait 50
+end
+end
+* face bite get
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% == 2125 || %room.vnum% == 2126 || %room.vnum% == 2127)
+%send% %actor% The spider mother lunges at your face and bites it!
+%echoaround% %actor% The spider mother lunges at %actor.name%'s face and bites it!
+%damage% %actor% %dam%
+dg_cast 'poison' %actor.name%
+wait 75
+end
+end
+* leg bite miss
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% == 2125 || %room.vnum% == 2126 || %room.vnum% == 2127)
+%send% %actor% The spider mother lunges for a bite at your leg but misses!
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s leg but misses!
+wait 50
+end
+end
+*leg bite get
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% == 2125 || %room.vnum% == 2126 || %room.vnum% == 2127)
+%send% %actor% The spider mother lunges at your face and bites it! YIKES!
+%echoaround% %actor% The spider mother lunges at %actor.name%'s face and bites it! YIKES!
+%damage% %actor% %dam%
+dg_cast 'poison' %actor.name%
+wait 75
+end
+end
+* arm bite miss
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% == 2125 || %room.vnum% == 2126 || %room.vnum% == 2127)
+%send% %actor% The spider mother lunges for a bite at your arm, but smacks into the ground instead!! HAHAHA!
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s arm, but smacks into the ground instead!! HAHAHA!
+wait 50
+end
+end
+* arm bite get
+f %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% == 2125 || %room.vnum% == 2126 || %room.vnum% == 2127)
+%send% %actor% The spider mother lunges for a bite at your arm and is successful! YEEEOOOWWWCCCH!
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s arm and is successful! YEEEOOOWWWCCCH!
+%damage% %actor% %dam%
+dg_cast 'poison' %actor.name%
+wait 75
+end
+end
+* groin bite miss
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% == 2125 || %room.vnum% == 2126 || %room.vnum% == 2127)
+%send% %actor% The spider mother lunges for a bite at your groin, but smacks into the ground instead!! HAHAHA!
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s groin, but smacks into the ground instead!! HAHAHA!
+wait 50
+end
+end
+* groin bite get
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% == 2125 || %room.vnum% == 2126 || %room.vnum% == 2127)
+%send% %actor% The spider mother lunges for a bite at your groin and is successful! OOOOOOOHHH THE PAIN!!!
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s groin and is successful! OOOOOOOHHH THE PAIN!!!
+%damage% %actor% %dam%
+dg_cast 'poison' %actor.name%
+wait 75
+end
+end
+~
+#30823
+Head guard attack~
+0 c 100
+unlock~
+if %actor.canbeseen%
+say Over my dead body %actor.name%!
+stand
+wait 5
+mkill %actor.name%
+end
+~
+#30824
+Crocodile attack on enter~
+0 ghi 100
+~
+if %actor.canbeseen%
+emote bites your leg as you go into its lair!
+%damage% %actor% 500
+emote swallows the chunk
+stare %actor.name%
+wait 2s
+kill %actor.name%
+end
+~
+#30825
+Purge death shadow blade on death~
+0 f 100
+~
+%purge% blade
+~
+#30826
+guards before head guard - attack if no north~
+0 c 100
+n~
+if ((%actor.canbeseen%) && (%actor.level% < 101))
+%send% %actor% You are grabbed by a guard and whacked in the back of the head!
+%damage% %actor% 500
+%echoaround% %actor% The trouble maker is grabbed by a guard and whacked in the back of the head! OUCH!
+wait 30
+%send% %actor% The guard throws you down the stairs!
+%echoaround% %actor% The trouble maker is then thrown down the stairs! I wouldn't attempt to pass if I were you!!
+%teleport% %actor% 30954
+say I told %actor.name% no further....bloody deaf %actor.class%
+%force% %actor% look
+wait 5
+%send% %actor% You bounce off a step!
+%damage% %actor% 250
+%teleport% %actor% 30953
+wait 5
+%force% %actor% look
+%send% %actor% You bounce off a another step....OUCH again!
+%damage% %actor% 250
+%teleport% %actor% 30952
+%send% %actor% You land at the bottom of the stairs with a loud THUD..banging your head on the floor....NIGHTY NIGHT!
+%damage% %actor% 450
+%force% %actor% sleep
+Shout Anyone else wanna go me? EH EH EH?!?!
+return 1
+halt
+end
+if ((%actor.canbeseen%) && (%actor.level% > 100))
+say over my dead body %actor.name%!
+mkill %actor.name%
+return 1
+halt
+end
+return 0
+~
+#30827
+Purple dragon protect portal~
+0 c 100
+go~
+if %actor.canbeseen%
+emote hisses at %actor.name% and smoke begins to rise from her nostrels!.
+wait 45
+eval dragon %actor.room%
+if %dragon.vnum% == 30810
+emote hisses even louder at %actor.name%!
+wait 70
+eval dragon %actor.room%
+if %dragon.vnum% == 30810
+sta
+emote breathes fire at %actor.name% and %actor.name% is scorched in flames!
+%damage% %actor% 1000
+kill %actor.name%
+wait 300
+eval dragon %actor.room%
+if %dragon.vnum% == 30810
+sit
+else
+emote moves a little and scratches itself.
+end
+end
+end
+end
+~
+#30828
+Death dragon burn~
+0 k 100
+~
+wait 200
+eval dragon %actor.room%
+if %dragon.vnum% == 30810
+emote breathes fire at %actor.name% and %actor.name% is scorched in flames!
+%damage% %actor% 1000
+wait 100
+~
+#30829
+Genetically altered shark circling attack~
+0 ghi 50
+~
+if %actor.canbeseen%
+if %actor.vnum% < 0
+emote takes a chunk out of %actor.name%'s ass
+%damage% %actor% 300
+emote swallows it whole
+grin
+kill %actor.name%
+end
+end
+~
+#30830
+Death shadow prevent lost pyramid unlocking~
+0 c 100
+unlock~
+if %actor.canbeseen%
+emote lets out an ear piercing scream!
+dg_cast 'fireball' %actor.name%
+else
+%echo% A strange feeling prevents you from unlocking the Pyramid.
+end
+~
+#30831
+Jester bribe~
+0 m 10000000
+~
+if (%amount% == 10000000)
+wait 15
+%load% obj 8400
+emote makes a magical jesture and creates a shiny serpent's eye!
+wait 5
+%load% obj 30898
+emote makes a magical jesture and creates a Moogaheal!
+p eye bag
+p mooga bag
+drop all
+smile
+tell %actor.name% Use these wisely! Keep it to yourself. They would kill me if the King found out!
+wait 5
+wave
+wait 5
+emote runs out of the cell to his freedom.
+mpurge self
+else
+set has_bribed_jester 1
+global has_bribed_jester
+tell %actor.name% I said 10 million %actor.name%. I need to leave if I tell you this!
+wait 5
+give %amount% %actor.name%
+end
+~
+#30832
+Jester is free~
+2 d 100
+Royal Jester says, 'I better get going~
+%purge% mob 30822
+~
+#30833
+Purple octopus special~
+0 k 100
+~
+emote wrapps a tentacle around your body and squeezes!
+%damage% %actor% 250
+wait 6s
+~
+#30834
+mid royal guard attack~
+0 ghi 100
+~
+if %actor.canbeseen%
+if (%direction% == south)
+wait 130
+eval room %actor.room%
+if %room.vnum% == 30956
+say You should have listened to him %actor.name%!
+emote smacks you across the head
+%damage% %actor% 250
+say I'd leave if I were you because the next one ain't gonna be so pretty!
+wait 2s
+eval room %actor.room%
+if %room.vnum% == 30956
+emote smacks you in the face!
+%damage% %actor% 500
+mkill %actor.name%
+end
+end
+end
+end
+~
+#30835
+King special #1 - 1000 damage~
+0 k 40
+~
+* get players health and store it as variable %dam%
+eval dam %actor.hitp% / 3
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% > 30800) && (%room.vnum% < 30999)
+grin %actor.name%
+%send% %actor% King Death Shadow calls upon his GOD for assistance.
+%echoaround% %actor% King Death Shadow calls upon his GOD for assistance.
+%damage% %actor% %dam%
+%send% %actor% King Death Shadow's call is answered and you are burnt by a fireball sent from above!
+%echoaround% %actor% King Death Shadow's call is answered and %actor.name% is burnt by a fireball sent from above!
+%send% %actor% The damage inflicted on you by the fireball is given to your attacker!
+%echoaround% %actor% The damage inflicted on %actor.name% by the fireball is given to their attacker!
+mrestore 500
+wait 10s
+end
+end
+~
+#30836
+*free trigger - dun work*~
+0 k 40
+~
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% > 30800) && (%room.vnum% < 30999)
+grin %actor.name%
+piledrive %actor.name%
+wait 5
+eval room %actor.room%
+if (%room.vnum% > 30800) && (%room.vnum% < 30999)
+bearhug %actor.name%
+wait 5
+eval room %actor.room%
+if (%room.vnum% > 30800) && (%room.vnum% < 30999)
+bodyslam %actor.name%
+wait 6s
+end
+end
+end
+end
+~
+#30838
+waterfall move player - top to bottom~
+2 g 100
+~
+if %actor.canbeseen%
+wait 5
+%send% %actor% The current is so strong you can't move back from where you came from!
+%echoaround% %actor% The current is so strong %actor.name% can't go back!
+wait 15
+%send% %actor% You struggle to prevent yourself going over the edge!
+%echoaround% %actor% %actor.name% struggles to keep themself from toppling over the edge!
+wait 5
+%send% %actor% Your determination fails and you topple over the edge!
+%echoaround% %actor% %actor.name%'s determinations fails and they topple over the edge!
+%force% %actor% down
+end
+~
+#30839
+Dart trap before lake~
+2 g 100
+~
+if %actor.canbeseen%
+if %actor.level% < 111
+if !(%actor.affected(17)%)
+wait 5
+%send% %actor% You activate a trap embedded in the floor!
+%echoaround% %actor% %actor.name% activates a trap embedded in the floor!
+%send% %actor% Your hit by a dart!
+%echoaround% %actor% %actor.name% is hit by a dart!
+%damage% %actor% 200
+wait 1
+%send% %actor% Your hit by a dart!
+%echoaround% %actor% %actor.name% is hit by a dart!
+%damage% %actor% 200
+end
+end
+end
+~
+#30840
+Killer vampire bat - load vampire on death~
+0 f 100
+~
+%load% mob 30859
+~
+#30841
+two-headed beast - guard vault~
+0 c 100
+unlock~
+if %actor.canbeseen%
+shout You dare to unlock the vault before me %actor.name%?
+wait 5
+shout I will crush you like an insect!
+wait 5
+mkill %actor.name%
+else
+say There must be ghosts down here....
+wait 5
+say No wonder the King created me to guard his vault.
+end
+~
+#30842
+two-headed beast - headbutt~
+0 bk 100
+~
+if %actor.canbeseen%
+wait 450
+eval room %actor.room%
+if %room.vnum% == 30970
+say Cop this %actor.name%!
+%send% %actor% Two-headed beast headbutts you
+%echoaround% %actor% Two-headed beast headbutts %actor.name%!
+%damage% %actor% 500
+wait 5
+%send% %actor% Two-headed beast headbutts you with its other head!
+%echoaround% %actor% Two-headed beast headbutts %actor.name% with its other head!
+%damage% %actor% 500
+end
+end
+~
+#30843
+Health shot special~
+1 j 100
+wear~
+%send% actor% The health shot clings to you and pricks you softly
+cast 'advanced heal' %actor%
+cast 'advanced heal' %actor%
+cast 'invis' %actor%
+~
+#30844
+Remove and Hint problem fix! Do NOT remove!~
+1 c 100
+hint on hint off~
+if %cmd% == %hint%
+halt
+~
+#30845
+tracking device - drop - load soul searcher~
+1 h 100
+drop~
+wait 5
+eval room %actor.room%
+if (%room.vnum% > 30800) && (%room.vnum% < 30999)
+%load% mob 30841
+wait 2s
+%force% soul whap %actor.name%
+%force% soul say You were told not to drop that device %actor.name%!
+%send% %actor% You are covered in a strange purple aura!
+%echoaround% %actor% %actor.name% is covered in a strange purple aura!
+%echoaround% %actor% %actor.name% is transported to before the Head Soul Searcher
+%purge% soul
+%teleport% %actor.name% 30800
+%force% %actor% sleep
+%purge% self
+else
+wait 5
+%echo% The Ring of the soul tracker detects %actor.name% is out of the Death Castle and self destructs!
+%purge% self
+end
+~
+#30846
+psycotic servant axe throw~
+0 k 100
+~
+if %actor.canbeseen%
+wait 100
+eval room %room.actor%
+if %room.actor% ==
+throw axe %actor.name%
+%load% obj 30850
+hold axe
+end
+end
+~
+#30847
+psycotic servant - chop chop~
+0 ghi 100
+0~
+if %actor.canbeseen%
+say chop chop!
+end
+~
+#30848
+psycotic servant kick~
+0 ghi 100
+~
+if %actor.canbeseen% && if %actor.vnum% < 0
+grin
+emote kicks %actor.name% in the family jewels!
+%damage% %actor% 200
+mkill %actor.name%
+end
+~
+#30849
+Head soul searcher - level check for zone/transport in zone~
+0 ghi 100
+~
+if %actor.canbeseen%
+if %actor.level% > 69
+say Welcome %actor.name%
+smile
+tell %actor.name% I can transport you inside the Castle so you can go get your ass kicked!
+tell %actor.name% say 'transport please' for me to transfer you.
+else
+shout %actor.name% go get yourself some more experience else where before you commit yourself to die here!
+end
+end
+~
+#30850
+Head Soul searcher - teleport upon request~
+0 d 0
+transport please~
+if %actor.canbeseen%
+%load% obj 30881
+give ring %actor.name%
+say The conditions of entering this Castle are you must carry that item %actor.name%
+wait 5
+say Failure to carry that Ring will result in you returning south of here, even if you don't like it!
+wait 5
+say When you want to leave simply drop the ring, or if you have recalled, drop it and it will know you have left the Death Castle
+Emote blinks and %actor.name% is covered in a purple aura
+say There you go %actor.name%. I hope being a %actor.class% assists you in staying alive a little longer
+wait 2s
+emote blinks again and %actor.name% materialises
+%teleport% %actor.name% 30896
+%force% %actor% look
+end
+~
+#30851
+Room trigger - lower drawbridge - speech lower please~
+2 d 0
+lower please~
+if %actor.canbeseen%
+if %actor.vnum% < 0
+%purge% raised
+%load% obj 30862
+wait 17s
+%purge% lowered
+%load% obj 30863
+end
+end
+~
+#30852
+Drawbridge attendant - no thanks~
+0 d 0
+no thanks~
+wait 2
+Emote grumbles
+wait 5
+say Suit yourself %actor.name%....
+wait 5
+say Although I bet at %actor.level% and being a %actor.class%, you could gain some vital experience and equipment in that castle.
+wait 20
+say Then again you probably would not come out alive!
+wait 5
+smile %actor.name%
+~
+#30853
+Death shadow GOD statue - look~
+2 g 100
+~
+if %actor.canbeseen%
+if %actor.level% < 101
+wait 1s
+%echo% The statue says "%actor.name% you shall suffer at the hand of the highest evil imaginable!"
+wait 1s
+%echo% The statue creates two fireballs in its eyes!
+wait 1s
+%send% %actor% The statue sends the fireballs at you, severely burning you!
+%echoaround% %actor% The statue sends the fireballs at %actor.name% who is severely burnt!
+%damage% %actor% 1000
+else
+wait 1s
+%echo% The statue says "%actor.name% why do you constantly have to harass me?"
+end
+end
+~
+#30854
+Door attendant - open door~
+0 ghi 100
+~
+if (%direction% == north)
+if %actor.vnum% < 0
+open throne
+say Have a pleasant trip %actor.name%
+smile
+wait 200
+close throne
+end
+end
+~
+#30855
+Royal servant - speech~
+0 ghi 20
+~
+if %actor.vnum% < 0
+say Welcome %actor.name%!
+wait 2s
+say Are you staying for a bite to eat?
+end
+~
+#30856
+Huge serpent - can't pass south~
+0 c 100
+s~
+if %actor.canbeseen%
+%send% %actor% You think you can move over a serpent that blocks the tunnel?
+%echoaround% %actor% %actor.name% tries to get passed the serpent to no avail...
+wait 1s
+laugh
+else
+%echo% You can't pass a snake that blocks the tunnel!
+end
+~
+#30857
+King teleport at 10%H - to 30984~
+0 l 10
+~
+eval room %actor.room%
+if %room.vnum% == 30957
+shout Where the f#*k are all my guards!
+emote vanishes!
+%teleport% %self% 30984
+wait 5
+mrestore 5000
+rest
+else
+eval room %actor.room%
+if %room.vnum% == 30984
+shout I will have my vengance you cowards!
+end
+end
+~
+#30858
+Queen special~
+0 k 40
+~
+* get players health and store it as variable %dam%
+eval dam %actor.hitp% / 5
+if %actor.canbeseen%
+eval room %actor.room%
+if (%room.vnum% > 30800) && (%room.vnum% < 30999)
+grin %actor.name%
+%send% %actor% Queen Death Shadow calls upon his GOD for assistance.
+%echoaround% %actor% Queen Death Shadow calls upon his GOD for assistance.
+%damage% %actor% %dam%
+%send% %actor% Queen Death Shadow's call is answered and you are burnt by a fireball sent from above!
+%echoaround% %actor% Queen Death Shadow's call is answered and %actor.name% is burnt by a fireball sent from above!
+wait 10s
+end
+end
+~
+#30859
+Portal guard load speech~
+0 n 100
+~
+wait 10
+say %actor.name% you FOOL! If there was no REAL security for his magesty, we would not be here!
+wait 15
+say %actor.name% you don't learn do you. We have sworn with our lives to protect his magesty, you are NOT getting passed!
+~
+#30860
+Queen death shadow - speech/attack~
+0 n 100
+~
+wait 2
+%load% obj 30875
+wear strength
+%load% obj 30875
+wear strength
+%load% obj 30803
+wield blade
+vis
+emote has arrived to assist her beloved King!
+wait 10
+say Oh another pain in the ass! Let me help you honey!
+wait 10
+assist king
+~
+#30861
+Serpent Soul - load serpent eye on drop~
+1 h 100
+~
+wait 2
+%load% obj 8400
+%echo% As the Serpent Soul hits the ground a bright flash of light forms from within it!
+%purge% self
+~
+#30862
+Death shadow blade sheath - load Ghost on get~
+1 g 100
+~
+eval room %actor.room%
+if (%room.vnum% > 30800) && (%room.vnum% < 30999)
+wait 2
+%send% %actor% A cold feeling fills the room
+%echoaround% %actor% A cold feeling fills the room
+wait 1s
+%send% %actor% A strange evil feeling overcomes you.
+wait 5s
+%echoaround% %actor% You sense an evil presense in the room.
+%load% mob 30839
+%load% obj 30813
+%force% god get blade
+%force% god wield blade
+set load_ghost 1
+global load_ghost
+%force% ghost say %actor.name% I might be dead but I can still kill you for stealing my precious blade!
+%force% ghost kill %actor.name%
+else
+wait 2
+%echo% A cold feeling fills the room
+wait 1s
+%echo% You sense an evil presense in the room.
+%load% mob 30839
+set load_ghost 1
+global load_ghost
+%force% god say %actor.name% you have a stolen artifact in your posession! You are lucky not to be in the Death Castle!
+%Purge% god
+%purge% blade
+wait 5
+%echo% The Ghost of the death shadow GOD disappears
+set load_ghost 0
+end
+end
+~
+#30863
+Ghost of Death shadow GOD - load~
+0 n 100
+~
+%load% obj 30813
+wield blade
+~
+#30864
+Ghost death shadow - special~
+0 k 75
+~
+if %actor.canbeseen%
+%send% %actor% Ghost of the death shadow GOD stares at your eyes and you are burnt from the inside!
+%echoaround% %actor% Ghost of the death shadow GOD stares at %actor.name%'s eyes and %actor.name% is burnt from the inside!
+%damage% %actor% 1500
+%send% %actor% Smoke comes off your body!
+%echoaround% %actor% Smoke comes off of %actor.name%'s body!
+wait 200
+end
+~
+#30865
+test trigger for fly~
+2 g 100
+~
+if %actor.affected(17)% ==
+wait 5
+%send% %actor% You activate a trap embedded in the floor!
+end
+~
+#30866
+Ring of soul searcher - Junk protection.~
+1 h 100
+junk~
+if %actor.canbeseen%
+%send% %actor% The ring bounces back into your hand in defiance!
+end
+return 0
+~
+#30867
+Death Shadow GOD - special #2~
+0 k 50
+~
+dg_Cast 'fireball' %actor.name%
+dg_Cast 'fireball' %actor.name%
+dg_Cast 'fireball' %actor.name%
+wait 45
+~
+#30868
+Soul searcher GOD - load~
+0 n 100
+~
+emote is summoned and nods
+~
+#30869
+Ring of soul searcher is dropped~
+0 n 100
+~
+Emote appears almost blinding you!
+wait 1s
+Emote dims revealing a strange figure
+%load% mob 30840
+%purge% self%
+~
+#30870
+Ring of soul searcher - wear ring~
+1 j 100
+~
+if %actor.canbeseen%
+wait 2
+%send% %actor% You feel as if you are being tracked.
+end
+return 0
+~
+#30871
+Baby spider - load~
+0 n 100
+~
+Emote appears
+wait 5
+gasp
+say Mummmmmmyyyyyyyyyy!
+assist mother
+~
+#30872
+Killer bat - 50% bite and poison~
+0 l 50
+~
+emote bites you and sucks out some blood!
+%damage% %actor% 250
+dg_cast 'poison' %actor.name%
+wait 300
+~
+#30873
+Waterfall room 30959 - below edge~
+2 g 100
+~
+if %actor.canbeseen%
+wait 5
+%send% %actor% You are falling down the waterfall and your spells are useless to save you!
+%force% %actor% down
+end
+~
+#30874
+Waterfall - below waterfall - after 1000 damage~
+2 g 100
+~
+if %actor.canbeseen%
+if %actor.vnum% < 0
+wait 5
+%echo% The current pushes you down deeper
+%force% %actor% down
+end
+end
+~
+#30875
+Waterfall - bottom - hit water~
+2 g 100
+~
+if %actor.canbeseen%
+if (%direction% == up)
+wait 1
+%echo% You hit the water with such force it knocks the wind out of you!
+%damage% %actor% 1000
+%force% %actor% d
+end
+end
+~
+#30876
+Evil shadow - zone 1 - load ghost on death~
+0 f 100
+~
+%load% mob 30848
+~
+#30877
+Ghost of evil shadow - load~
+0 n 100
+~
+wait 5
+say You honestly think you can kill me that easily??
+~
+#30878
+mobs before statue - attack if command up~
+0 c 100
+u~
+if %actor.canbeseen%
+say Over my dead body %actor.name%!
+kill %actor.name%
+else
+say Bloody imm's around here!
+end
+~
+#30879
+Evil shadow - zone 2 - load ghost on death~
+0 f 100
+~
+%load% mob 30849
+~
+#30880
+Evil shadow - zone 3 - load ghost on death~
+0 f 100
+~
+%load% mob 30850
+~
+#30881
+Evil shadow - zone 4 - load ghost on death~
+0 f 100
+~
+%load% mob 30851
+~
+#30882
+Evil shadow - zone 5 - load ghost on death~
+0 f 100
+~
+%load% mob 30852
+~
+#30883
+Evil shadow - zone 6 - load ghost on death~
+0 f 100
+~
+%load% mob 30853
+~
+#30884
+Evil shadow - zone 7 - load ghost on death~
+0 f 100
+~
+%load% mob 30854
+~
+#30885
+Evil shadow - zone 8 - load ghost on death~
+0 f 100
+~
+%load% mob 30855
+~
+#30886
+Evil shadow - zone 9 - load ghost on death~
+0 f 100
+~
+%load% mob 30856
+~
+#30887
+Door attendant - close door - come from south~
+0 ghi 100
+~
+if (%direction% == south)
+if %actor.vnum% < 0
+wait 10
+close throne
+say The King is not in a good mood %actor.name%
+smile
+end
+end
+~
+#30888
+Object dropped above lava - purge it~
+2 h 100
+~
+wait 1
+%echo% %object.shortdesc% falls down into the lava and is vaporised!
+%purge% %object%
+~
+#30889
+item dropped at portal guard - falls~
+2 h 100
+~
+wait 1
+%echo% %object.shortdesc% somehow hovers here
+~
+#30890
+mob cast fireball - 60% of fight~
+0 k 60
+~
+dg_cast 'fireball' %actor%
+~
+#30891
+Vampire bat load~
+0 n 100
+~
+wait 1
+%emote% appears in its true form.
+~
+$~
+@
+
+
+1.11
+log
+@Artus> Keeping the repository up-to-date. This is the groundwork for the
+       release.
+@
+text
+@d753 1
+a753 1
+0 k 100
+d756 1
+a756 1
+wait 50
+d836 1
+a836 2
+if %actor.canbeseen%
+if %actor.vnum% < 0
+a841 1
+end
+@
+
+
+1.10
+log
+@Artus> Getting very close...
+@
+text
+@d369 1
+a369 1
+if (%room.vnum% > 30800) & (%room.vnum% < 30999)
+d371 1
+a371 1
+%echoaround% %actor% The spider mother takes a bite at %actor.names%'s face but misses!
+d378 1
+a378 1
+if (%room.vnum% > 30800) & (%room.vnum% < 30999)
+d380 3
+a382 1
+%echoaround% %actor% The spider mother lunges at %actor.name%'s face and bites it!;%damage% %actor% %dam%;dg_cast 'poison' %actor.name%
+d389 1
+a389 1
+if (%room.vnum% > 30800) & (%room.vnum% < 30999)
+d398 1
+a398 1
+if (%room.vnum% > 30800) & (%room.vnum% < 30999)
+d400 3
+a402 1
+%echoaround% %actor% The spider mother lunges at %actor.name%'s face and bites it! YIKES!;%damage% %actor% %dam%;dg_cast 'poison' %actor.name%
+d409 3
+a411 4
+if (%room.vnum% > 30800) & (%room.vnum% < 30999)
+%send% %actor% The spider mother lunges for a bite at your arm, but smacks into the vine instead!! HAHAHA!
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s arm, but smacks into the vine instead!! ;
+HAHAHA!
+d416 1
+a416 1
+if %actor.canbeseen%
+d418 1
+a418 1
+if (%room.vnum% > 30800) & (%room.vnum% < 30999)
+d420 3
+a422 1
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s arm and is successful! YEEEOOOWWWCCCH!;%damage% %actor% %dam%;dg_cast 'poison' %actor.name%
+d429 3
+a431 4
+if (%room.vnum% > 30800) & (%room.vnum% < 30999)
+%send% %actor% The spider mother lunges for a bite at your groin, but smacks into the vine instead!! HAHAHA!
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s groin, but smacks into the vine instead!! ;
+HAHAHA!
+d438 1
+a438 1
+if (%room.vnum% > 30800) & (%room.vnum% < 30999)
+d440 3
+a442 1
+%echoaround% %actor% The spider mother lunges for a bite at %actor.name%'s groin and is successful! OOOOOOOHHH THE PAIN!!!;%damage% %actor% %dam%;dg_cast 'poison' %actor.name%
+d522 2
+d526 2
+a530 1
+wait 15
+d533 2
+d539 3
+d548 2
+d651 1
+a651 1
+eval dam %actor.hitp% / 5
+d661 3
+d669 1
+a669 1
+HIGH level mob special - piledrive/bearhug/bodyslam~
+d730 4
+a733 10
+***empty trigger***~
+1 c 100
+skull~
+if %actor.canbeseen%
+if %actor.level% < 101
+%send% %actor% You look too close and burn yourself!
+%echoaround% %actor% %actor.name% looks too close and burns themself!
+%damage% %actor% 350
+end
+end
+d975 2
+d1311 7
+@
+
+
+1.9
+log
+@Artus> Synchronising.
+@
+text
+@d364 76
+a439 6
+wait 15
+%send% %actor% bites you hard injecting her fangs deep!
+%damage% %actor% 500
+%echoaround% %actor% bites %actor.name% hard injecting her fangs deep!
+dg_cast 'poison' %actor%
+wait 300
+d466 1
+a466 1
+*** free trigger ***~
+d632 1
+a632 1
+0 k 60
+d634 2
+d638 1
+a638 1
+if %room.vnum% == 30957
+d640 5
+a644 3
+%echoaround% %actor% King Death Shadow slashes down upon his attacker so fast it's unavoidable!
+%send% %actor% King Death Shadow slashes down upon you so fast it's unavoidable!
+%damage% %actor% 500
+d650 2
+a651 2
+King special #2~
+0 k 100
+d654 2
+d657 6
+d664 5
+a668 3
+if %room.vnum% == 30957
+piledrive %actor.name%
+wait 13s
+d695 1
+d708 1
+d711 1
+a711 1
+Skull burn~
+d713 1
+a713 1
+examine~
+d972 1
+a972 1
+0 k 100
+d974 2
+d977 2
+d980 5
+a984 5
+eval room %actor.room%
+if %room.vnum% == 30957
+%echoaround% %actor% Queen Death Shadow slashes down upon his attacker so fast it's unavoidable!
+   %send% %actor% Queen Death Shadow slashes down upon you so fast it's unavoidable!
+%damage% %actor% 500
+a1002 1
+emote has arrived to assist her beloved King!
+d1009 2
+d1084 6
+a1089 10
+*empty trigger*~
+0 c 100
+n~
+if %actor.canbeseen%
+%send% %actor% You think you can move over a serpent that blocks the tunnel?
+%echoaround% %actor% %actor.name% tries to get passed the serpent to no avail...
+wait 1s
+laugh
+else
+%echo% You can't pass a snake that blocks the tunnel!
+@
+
+
+1.8
+log
+@Artus> Keeping everything up to date..
+@
+text
+@d396 1
+a396 1
+Purge death shadow blade~
+d506 1
+a506 1
+drop bag
+a766 2
+dg_cast 'greater remove curse' %actor%
+%force% %actor% rem ring
+a767 1
+%force% %actor% wear ring
+d948 3
+d955 1
+a955 1
+elseif (%room.vnum%  30800) && (%room.vnum%  30999)
+d964 1
+a964 1
+%purge% god
+d1204 2
+a1205 2
+mob - wielding gun of fire - cast fireball~
+0 k 100
+a1206 1
+if (%self.eq(wield)% == 30832)
+a1207 3
+dg_cast 'fireball' %actor%
+dg_cast 'fireball' %actor%
+end
+@
+
+
+1.7
+log
+@Artus> Just up-to-dating....
+@
+text
+@d26 1
+a26 1
+f %actor.canbeseen%
+d70 1
+d72 6
+a77 5
+if %actor.canbeseen%
+say HALT!! You cannot go any further! His highness has ordered me not to be disturbed! Turn back now %actor.name%, you have 10 seconds!
+wait 105
+  say I warned you %actor.name% and you have pushed the limit of my patience, cop this!
+  wait 15
+d81 1
+d132 2
+a133 2
+Load another portal guard~
+0 k 100
+d135 1
+a135 1
+wait 300
+d137 1
+a137 1
+%load% mob 30803
+d139 6
+a144 4
+%force% guard say %actor.name% you FOOL! If there was no REAL security for his magesty, we would not be here!
+wait 300
+%force% guard say %actor.name% you don't learn do you. We have sworn with our lives to protect his magesty, you are NOT getting passed!
+wait 600
+a191 1
+if (%actor.vnum% < 0)
+a196 1
+end
+d228 1
+a228 1
+0 k 50
+d233 1
+a233 1
+wait 310
+d238 1
+a238 2
+wait 300
+emote hollers, CHILDREEEEEEN, %actor.name% is here for dinner!
+a240 1
+%echo% A baby spider has arrived
+a241 1
+%echo% A baby spider has arrived
+d244 1
+d264 2
+d268 2
+d273 2
+a281 2
+unlock desk
+open desk
+a285 1
+close throne
+d287 1
+a287 10
+say Next time close and lock his magesties door %actor.name%!
+wait 15
+remove key
+emote The guards mutters something and whacks the desk hard resulting in the draw opening and the Throne Room security key bouncing out and onto the floor
+say DO that again %actor.name% and that will be your face!
+get security
+hold security
+emote picks up the key off the floor.
+stand
+wait 30
+d290 1
+a304 4
+wait 5
+close desk
+wait 5
+lock desk
+d352 1
+a352 1
+w~
+d366 1
+d402 1
+a402 1
+test guards~
+d405 1
+a405 2
+if %actor.canbeseen%
+if %actor.level% < 101
+d428 4
+a431 1
+elseif %actor.level% > 100
+d434 2
+d437 1
+a437 1
+end
+d470 1
+a470 1
+0 ghi 100
+a473 2
+emote circles around %actor.name% pondering weather to eat %actor.name%'s head or torso first.
+wait 30
+a477 1
+wait 10
+d534 1
+a534 1
+wait 250
+d543 2
+a545 3
+wait 5
+mgrin
+wait 15
+a547 1
+wait 30
+d549 3
+a551 1
+wait 60
+a553 1
+wait 10
+d557 2
+d589 1
+a589 1
+watefall move player - top~
+d601 1
+a601 21
+%echoaround% %actor% %actor.name% 's determinations fails and they topple over the edge!
+%force% %actor% down
+wait 5
+%send% %actor% You are falling down the waterfall and your spells are useless to save you!
+wait 1
+%force% %actor% down
+wait 5
+%send% %actor% As you fall you clip a rock protruding out of the cliff!
+wait 1
+%damage% %actor% 500
+wait 5
+%send% %actor% Your fall is paused momentarily as you get partly stuck on the rock!
+wait 15
+%send% %actor% The water pressure gets too much and dislodges you!
+wait 1
+%force% %actor% down
+wait 5
+%send% %actor% You hit the bottom of the waterfall with such force is knocks the wind out of you!
+wait 1
+%damage% %actor% 1000
+wait 5
+d610 1
+d622 1
+d681 5
+a685 10
+empty - can be used~
+0 k 100
+~
+Emote stares at you and wonders what drugs you are really on...
+emote calls upon the GOD of the soul trackers to deal with %actor.name%
+%load% mob 30841
+wave %actor%
+%force% GOD say %actor.name% you bloody fool!
+%teleport% %actor.name% 1115
+%purge% GOD
+d690 1
+a690 1
+~
+d693 3
+a695 4
+if (%room.vnum% >= 30801) if (%room.vnum% <= 30999)
+%echo% There is a distortion in the room and a bright light appears out of nowhere!
+wait 1s
+%load% mob 30840
+d697 1
+a697 1
+%force% soul say You were told not to drop that device %actor.name%
+d701 1
+d706 2
+a707 1
+mecho% The Ring of the soul tracker is disabled and vanishes in a puff of smoke!
+d709 1
+a738 1
+emote starts to froth at the mouth!
+a742 1
+fart
+d747 1
+a747 1
+Drawbridge attendant level check~
+a753 1
+wait 2s
+a754 1
+wait 5s
+d765 1
+d767 9
+a775 5
+%force% %actor.name% rem ring
+give tracker %actor.name%
+%force% %actor.name% wear tracker
+say Now remember not to remove this device %actor.name% or you will be sent back south of here!
+wait 5s
+d778 1
+a778 1
+wait 5s
+d782 1
+d817 1
+d831 1
+d858 1
+a858 1
+Serpent slip~
+d902 9
+d941 5
+a945 3
+wait 2s
+if %load_ghost% != 1
+%echo% A cold feeling fills the room
+d947 1
+a947 1
+%send% %actor% A strange feeling overcomes you.
+d955 16
+a983 4
+wait 1s
+eval room %actor.room%
+if %room.vnum% == 30979
+emote &mgoes onto a&n &rfire&n &mtrance&n
+d989 1
+a989 12
+wait 250
+elseif %room.vnum% != 30979
+%teleport% %actor.name% 30979
+emote &mgoes onto a&n &rfire&n &mtrance&n
+%send% %actor% Ghost of the death shadow GOD stares at your eyes and you are burnt from the inside!
+%echoaround% %actor% Ghost of the death shadow GOD stares at %actor.name%'s eyes and %actor.name% is burnt from the inside!
+%damage% %actor% 1500
+%send% %actor% Smoke comes off your body!
+%echoaround% %actor% Smoke comes off of %actor.name%'s body!
+wait 250
+end
+end
+d993 11
+a1003 8
+Soul searcher - tracking device triggered~
+0 n 100
+~
+emote appears from within the light source.
+emote utters some very odd language.
+wait 3s
+emote disappears in a puff of smoke!
+%purge% self
+d1006 7
+a1012 20
+tracking device - remove - load soul searcher~
+1 l 100
+~
+wait 5
+eval room %actor.room%
+if (%room.vnum% >= 30801) if (%room.vnum% <= 30999)
+%echo% There is a distortion in the room and a bright light appears out of nowhere!
+wait 1s
+%load% mob 30840
+%force% soul whap %actor.name%
+%force% soul say You were told not to remove that device %actor.name%
+%send% %actor% You are covered in a strange purple aura!
+%echoaround% %actor% %actor.name% is covered in a strange purple aura!
+%echoaround% %actor% %actor.name% is transported to before the Head Soul Searcher
+%teleport% %actor.name% 30800
+%force% %actor% sleep
+%purge% self
+else
+mecho% The Ring of the soul tracker is disabled and vanishes in a puff of smoke!
+%purge% self
+d1024 1
+a1024 1
+GOD soul tracker - load~
+d1029 184
+@
+
+
+1.6
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@d38 1
+a38 1
+0 k 100
+a40 1
+wait 200
+d49 4
+d390 11
+a400 7
+Death Shadow blade wield~
+1 j 3
+wield shadow~
+wait 1
+%echoaround% %actor.name% The muscles in %actor.name%'s arm swell!
+%send% %actor.name% The muscles in your arm swell!
+%send% %actor.name% You feel empowered!
+d403 4
+a406 7
+Death Shadow Blade remove~
+1 l 3
+remove shadow~
+wait 1
+%send% %actor.name% The muscles in your arm go back to normal!
+%send% %actor.name% You feel less empowered
+%echoaround% %actor.name% The muscles in %actor.name%'s arm return to normal.
+d566 1
+a566 1
+King damage - fight~
+a569 2
+wait 100
+grin %actor.name%
+d572 1
+d576 1
+a576 1
+wait 300
+d581 2
+a582 2
+King purge sword~
+0 l 5
+d584 8
+a591 1
+mpurge blade
+d704 10
+a713 19
+stargate activation - room 30969~
+2 d 0
+turn stargate on~
+eval room %room.object%
+if %room.vnum% != 30848
+%purge% stargate
+%load% obj 30848
+%echo% The stargate powers up
+wait 10
+%echo% The stargate creates a very bright light and begins to make a humming sound!
+wait 5
+%echo% A voice from above says "The stargate is now activated"
+elseif %room.vnum% == 30848
+wait 5
+%echo% A voice from above says "The stargate is already activated"
+else
+wait 5
+%echo% A voice from above says "The stargate is already activated"
+end
+d716 3
+a718 3
+stargate de-activation - room 30969~
+2 d 0
+turn stargate off~
+d720 16
+a735 11
+eval gate %room.object%
+if (%gate.vnum% == 30846)
+%echo% A voice says from above "The stargate is already de-activated %actor.name%!"
+else
+if (%gate.vnum% != 30836)
+%purge% stargate
+%load% obj 30846
+%echo% The stargate powers down
+wait 10
+%echo% A voice says from above "The stargate is now de-activated"
+end
+d783 1
+a783 1
+tell %actor.name% I can lower the drawbridge for you so you can go get your ass kicked in that evil castle.
+d785 1
+a785 1
+tell %actor.name% say 'lower please' for me to lower it, or say 'no thanks' and I can sit here bored.
+d787 1
+a787 1
+tell %actor.name% %actor.name% go get yourself some more experience else where before you commit yourself to die here.
+d792 1
+a792 1
+drawbridge attendant lower bridge~
+d794 8
+a801 2
+lower please~
+Emote lowers the drawbridge
+a802 3
+little longer
+wait 1s
+emote breathes heavily for a while to regain his breath
+d804 3
+a806 3
+say Get a move on %actor.name%! I have orders not to leave this damn bridge down for long!
+wait 10s
+emote raises the drawbridge.
+a840 1
+if %actor.canbeseen%
+d843 1
+a843 1
+%send% %actor% The statue says "%actor.name% you shall suffer at the hand of the highest evil imaginable!
+d845 1
+a845 1
+%send% %actor% The statue creates two fireballs in its eyes!
+d848 1
+d850 3
+a852 1
+end
+d871 1
+a871 1
+0 ghi 40
+d879 45
+d928 1
+d930 6
+d937 1
+a937 1
+Oh another pain in the ass! Let me help you honey!
+d940 59
+d1000 48
+@
+
+
+1.5
+log
+@Artus> A3_0_315
+@
+text
+@d26 1
+a26 1
+if %actor.canbeseen%
+a34 1
+end
+d44 1
+d46 1
+a46 5
+   wait 40
+eval mobs %mob.room%
+if %mobs.vnum% == 30815
+goto end
+else
+d48 2
+a49 2
+%echo% The Queen Death Shadow appears!
+   end
+a50 7
+eval room %actor.room%
+if %room.vnum% == 30957
+wait 5
+%echo% The Queen Death Shadow says, 'Fancy a threesome %actor.name%?'
+wait 5
+%echo% The Queen Death Shadow laughs at %actor.name%
+%force% queen kill %actor.name%
+d68 1
+d358 1
+a358 1
+f (%cmd% == west)
+d361 2
+a362 12
+elseif (%cmd% == wes)
+say Over my dead body %actor.name%!
+kill %actor.name%
+elseif (%cmd% == we)
+say Over my dead body %actor.name%!
+kill %actor.name%
+elseif (%cmd% == w)
+say Over my dead body %actor.name%!
+kill %actor.name%
+end
+end
+end
+d409 1
+d432 3
+d472 4
+a475 1
+emote circles around %actor.name% pondering weather to eat %actor.name%'s head or torso first.;wait 30;emote takes a chunk out of %actor.name%'s ass
+a476 1
+wait 5
+d482 1
+d563 1
+a563 1
+0 k 100
+d570 2
+a571 2
+%echoaround% %actor% King Death Shadow slashes down upon his attacker so hard it's unavoidable!
+%send% %actor% King Death Shadow slashes down upon you so hard it's unavoidable!
+d573 2
+d641 2
+d645 3
+a647 1
+%damage% %actor% 100
+d670 3
+a672 1
+wait 200
+a673 1
+wait 5
+d682 1
+d777 1
+a777 1
+say I can lower the drawbridge for you so you can go get your ass kicked in that evil castle.
+d779 1
+a779 1
+say say 'lower please' for me to lower it, or say 'no thanks' and I can sit here bored.
+d781 1
+a781 1
+say %actor.name% go get yourself some more experience else where before you commit yourself to die here.
+d804 1
+a804 1
+if %actor.vnum% > 0
+d832 2
+d841 26
+d869 2
+a870 2
+waterfall falling - 2nd section~
+2 g 100
+d872 5
+a876 8
+if %actor.canbeseen%
+%echo% As you fall you clip a rock protruding out of the cliff!
+%damage% %actor% 500
+wait 15
+%echo% Your fall pauses momentarily as you get partly stuck on the rock!
+wait 15
+%echo% The water pressure gets too much and dislodges you!
+%teleport% %actor% 30910
+@
+
+
+1.4
+log
+@Artus> Checking In.
+@
+text
+@d39 1
+a39 1
+0 k 99
+d41 4
+a44 1
+wait 100
+d46 5
+d53 4
+d59 2
+d62 1
+a62 2
+%echo% The Queen Death Shadow laughs at %actor.name%
+wait 3000
+d167 1
+d199 2
+a200 2
+endif
+endif
+a205 97
+if (%cmd% == north)
+%send% %actor% You are grabbed by a guard and whacked in the back of the head!
+%damage% %actor% 500
+%echoaround% %actor% The trouble maker is grabbed by a guard and whacked in the back of the head! OUCH!
+wait 30
+%send% %actor% The guard throws you down the stairs!
+%echoaround% %actor% The trouble maker is then thrown down the stairs! I wouldn't attempt to pass if I were you!!
+%teleport% %actor% 30954
+say I told %actor.name% no further....bloody deaf %actor.class%
+%force% %actor% look
+wait 5
+%send% %actor% You bounce off a step!
+%damage% %actor% 250
+%teleport% %actor% 30953
+wait 5
+%force% %actor% look
+%send% %actor% You bounce off a another step....OUCH again!
+%damage% %actor% 250
+%teleport% %actor% 30952
+%send% %actor% You land at the bottom of the stairs with a loud THUD..banging your head on the floor....NIGHTY NIGHT!
+%damage% %actor% 450
+%force% %actor% sleep
+Shout Anyone else wanna go me? EH EH EH?!?!
+end
+if (%cmd% == nort)
+%send% %actor% You are grabbed by a guard and whacked in the back of the head!
+%damage% %actor% 500
+%echoaround% %actor% The trouble maker is grabbed by a guard and whacked in the back of the head! OUCH!
+wait 30
+%send% %actor% The guard throws you down the stairs!
+%echoaround% %actor% The trouble maker is then thrown down the stairs! I wouldn't attempt to pass if I were you!!
+%teleport% %actor% 30954
+say I told %actor.name% no further....bloody deaf %actor.class%
+%force% %actor% look
+wait 5
+%send% %actor% You bounce off a step!
+%damage% %actor% 250
+%teleport% %actor% 30953
+wait 5
+%force% %actor% look
+%send% %actor% You bounce off a another step....OUCH again!
+%damage% %actor% 250
+%teleport% %actor% 30952
+%send% %actor% You land at the bottom of the stairs with a loud THUD..banging your head on the floor....NIGHTY NIGHT!
+%damage% %actor% 450
+%force% %actor% sleep
+Shout Anyone else wanna go me? EH EH EH?!?!
+end
+if (%cmd% == nor)
+%send% %actor% You are grabbed by a guard and whacked in the back of the head!
+%damage% %actor% 500
+%echoaround% %actor% The trouble maker is grabbed by a guard and whacked in the back of the head! OUCH!
+wait 30
+%send% %actor% The guard throws you down the stairs!
+%echoaround% %actor% The trouble maker is then thrown down the stairs! I wouldn't attempt to pass if I were you!!
+%teleport% %actor% 30954
+say I told %actor.name% no further....bloody deaf %actor.class%
+%force% %actor% look
+wait 5
+%send% %actor% You bounce off a step!
+%damage% %actor% 250
+%teleport% %actor% 30953
+wait 5
+%force% %actor% look
+%send% %actor% You bounce off a another step....OUCH again!
+%damage% %actor% 250
+%teleport% %actor% 30952
+%send% %actor% You land at the bottom of the stairs with a loud THUD..banging your head on the floor....NIGHTY NIGHT!
+%damage% %actor% 450
+%force% %actor% sleep
+Shout Anyone else wanna go me? EH EH EH?!?!
+end
+if (%cmd% == no)
+%send% %actor% You are grabbed by a guard and whacked in the back of the head!
+%damage% %actor% 500
+%echoaround% %actor% The trouble maker is grabbed by a guard and whacked in the back of the head! OUCH!
+wait 30
+%send% %actor% The guard throws you down the stairs!
+%echoaround% %actor% The trouble maker is then thrown down the stairs! I wouldn't attempt to pass if I were you!!
+%teleport% %actor% 30954
+say I told %actor.name% no further....bloody deaf %actor.class%
+%force% %actor% look
+wait 5
+%send% %actor% You bounce off a step!
+%damage% %actor% 250
+%teleport% %actor% 30953
+wait 5
+%force% %actor% look
+%send% %actor% You bounce off a another step....OUCH again!
+%damage% %actor% 250
+%teleport% %actor% 30952
+%send% %actor% You land at the bottom of the stairs with a loud THUD..banging your head on the floor....NIGHTY NIGHT!
+%damage% %actor% 450
+%force% %actor% sleep
+Shout Anyone else wanna go me? EH EH EH?!?!
+end
+if (%cmd% == n)
+d258 1
+a258 2
+  /wait 5
+  emote the Stone door closes behind you!
+a260 1
+end
+d273 2
+a274 2
+endif
+endif
+d320 2
+a321 2
+endif
+endif
+d327 1
+d333 1
+d404 1
+a404 1
+endif
+a472 2
+end
+end
+d488 1
+a488 3
+emote circles around %actor.name% pondering weather to eat %actor.name%'s head or torso first.
+wait 30
+emote takes a chunk out of %actor.name%'s ass
+a495 1
+end
+d503 1
+a503 3
+%damage% %actor% 100
+wait 15
+kill %acator.name%
+a512 1
+wait 5
+d529 4
+a532 1
+elseif (%amount% < 10000000)
+d535 1
+a535 4
+tell %actor.name% I said 10 million %actor.name%. I need to leave if I tell you this!
+give %amount% %actor.name%
+endif
+endif
+d571 287
+a857 2
+endif
+endif
+@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@d2 2
+a3 2
+Wall beast greet~
+0 ghi 60
+d5 16
+a20 1
+These walls are not very clean...where have the bloody maids gone?!
+d26 1
+d34 2
+a47 2
+%force% guard kill %actor.name%
+%force% 2.guard kill %actor.name%
+d55 2
+a56 1
+say You've got to be kidding Bobsyauncle! Why don't you just kill yourself now and save us all the trouble!?
+d59 1
+d72 1
+d101 1
+d107 1
+d109 1
+d115 1
+d120 1
+d139 1
+d142 3
+a144 3
+  say hmmmm nummy, fresh blooood! You can't escape now %actor.name%!
+  wait 5
+  mkill %actor.name%
+d146 2
+a147 1
+  say I need some fffffffresh bloooooood!
+d152 1
+a152 1
+0 i 100
+d154 11
+a164 4
+wait 5
+  say I hope you are healthy %actor.name%, healthy people taste better! I'll let the bats deal with you, I can't be bothered killing you just yet!
+  wait 15
+  mkill %actor.name%
+d180 3
+a182 3
+say HHHHHIIIIISSSSSSSSSSSSSSSSSSSS! You wrecked my web you stupid moron %actor.name%!
+wait 15
+say HHHHHIIIIISSSSSSSSSSSSSSSSSSSS! You will pay for that!
+d185 2
+d192 1
+d317 5
+a321 1
+wait 200
+d323 4
+a326 2
+wait 15
+emote hollers, CHILDREEEEEN, %actor.name% is here for dinner!
+a327 1
+%echo% The baby pissed off spiders have come to save their mother!
+d329 1
+d331 4
+d345 1
+d351 1
+d353 2
+a354 3
+wait 30
+say I don't think so %actor.name%...his magesty is busy....go away
+wait 45
+d357 3
+a359 13
+shout GUARDS!!
+%echo% An invisible door to the east opens, 2 guards step out and it closes!
+wait 5
+%load% mob 30818
+%load% mob 30818
+%force% mid shake
+%force% 2.mid shake
+%force% guard say Hey %actor.name%, He said PISS OFF!
+%force% 2.guard say Hey %actor.name%, He said PISS OFF!
+wait 45
+%force% guard kill %actor.name%
+%force% 2.guard kill %actor.name%
+end
+d365 1
+a366 5
+wait 30
+close throne
+wait 5
+say Next time close and lock his magesties door %actor.name%!
+wait 15
+d369 1
+d372 2
+d375 2
+d378 1
+a378 1
+%echo% The guards mutters something and whacks the desk hard resulting in the draw opening and the Throne Room security key bouncing out and onto the floor
+d382 1
+a382 1
+%echo% The Head Royal Guard picks up the key and holds it.
+d385 1
+a385 1
+%echo% The Head Royal Guard walks over to the Throne Room door.
+d389 1
+a389 1
+%echo% The Head Guard walks back to his desk
+d397 1
+a397 1
+%echo% The Head Royal Guard throws the Throne Key back in the draw
+d405 2
+a406 1
+end
+d419 1
+a419 1
+Purple octopus guards secret room~
+d424 3
+d429 3
+d434 3
+d439 6
+d451 1
+a451 1
+if (%cmd% == west)
+d464 3
+d469 191
+a659 3
+Spider mother - room poison~
+0 d 100
+says, 'HHHHHIIIIISSSSSSSSSSSSSSSSSSSS! You will pay for that!'~
+d661 3
+a663 2
+%echo% The Spider mother bites you hard, injecting her fangs!
+dg_cast 'poison' %person%
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d2 2
+a3 2
+Mob - Bill Gates Money Greet~
+0 g 100
+d5 1
+a5 8
+if (%self.gold% > %actor.gold%)
+  wait 5
+  say You pathetic excuse for a person, I'm richer than you %actor.name%
+else
+  say WTF!!?? this can not be so, how can %actor.name% be richer than me?
+  wait 5
+  mkill %actor.name%
+end
+d8 2
+a9 2
+Mob - Bill Gates Bribe~
+0 m 100
+d11 7
+a17 1
+say hmm thanks %actor.name%, you can have a share in my company!
+d20 2
+a21 2
+Mob - Bill Gates random speech~
+0 b 99
+d23 11
+a33 1
+say testing
+d36 21
+a56 1
+new trigger~
+d59 22
+a80 4
+if %actor.vnum% < 0
+if %actor.level% == 1
+say Have no fear, the player file was deleted.
+say ask artus or rod to restore you.
+d82 40
+a122 1
+wait 1
+d124 21
+a144 2
+#30809
+Mob-Smoke~
+d147 129
+a275 1
+say Smoke thinks that you %actor.name% are not worthy to be in the same room as me.
+d277 133
+a409 3
+#30810
+Delete Me~
+2 ab 100
+d411 7
+a417 1
+say My trigger commandlist is not complete!
+@
+
+
+1.1
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d30 7
+a36 3
+if (%actor.level% == 1)
+  say Have no fear, the player file was deleted
+  say ask Artus or Rod to restore you
+@
+

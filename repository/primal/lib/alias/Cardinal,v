@@ -1,0 +1,72 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ass assist dracion
+loc cast 'locate object' $1
+ch cast 'heal' cardinal
+ccf cast 'create food' cardinal; eat mushroom
+chow take meat backpack; eat meat
+skin take skin backpack; drink skin; put skin backpack
+ri recite identify $1
+qb quaff blue
+tk tell kreep $*
+as assist kreep
+rc recite recall
+qw quaff white
+rs rest; sleep
+ws wake; stand
+sg split $1 group
+ex exam corpse
+cdi cast 'detect invis' cardinal
+cin cast 'infravision' cardinal
+invis cast 'invis' cardinal
+ccc cast 'cure critic' cardinal
+clb cast 'lightning bolt' $1
+sum cast 'summon' $1
+sa cast 'sanctuary' cardinal
+crc cast 'word of recall' cardinal
+uw use wand $1
+pamb put all.meat backpack
+tac take all corpse
+bs remove cutlass; wield dagger; backstab $1; remove dagger; wield cutlass
+refresh cast 'refresh' cardinal
+tgc get all.gold corpse
+wand rem tooth; grab wand; use wand cardinal; rem wand; grab tooth
+re rescue $1
+ww cast 'waterwalk' cardinal
+tel cast 'teleport' cardinal
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

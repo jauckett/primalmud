@@ -1,0 +1,69 @@
+tudor  s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+z show zone $*
+fear cast 'fear' $*
+getd hold lantern;wear total body;wear all;wield laser;hold drill;open force;open 2.force;open 3.force;put for 2.for;put for 2.for
+noh cast 'nohassle'
+dim cast 'dimen' $*
+serve order clones serve
+cl cast 'clone'
+9 cast 'infra' clone;cast 'infra' 2.clone
+c get coin all.corpse
+ord order follow kill $1;kill $1
+0 group all;cast 'group sanc';cast 'group arm';ungroup
+clone cast 'clone';cast 'clone'
+rc cast 'remove curse' $*
+ref cast 'refresh' $*
+x get all all.corpse
+2 cast 'advanced heal' $*
+rpar cast 'remove par' $*
+id cast 'ident' $*
+str cast 'streng' $*
+tele cast 'teleport'
+wh cast 'whirl'
+gf get force force
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+det cast 'detect inv' $*
+qp get prot force; quaff prot
+bp buy 5 prot;put all.prot force
+rs tell gamina summon
+gam tell gamina heal;tell gamina sanc;tell gamina bless;tell gamina armor
+wa wake;stand
+qr quaff red
+tra train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1;train $1
+inf cast 'infrav' $*
+bh buy 20 heal;put all.heal force
+eat cast 'create food' ;eat mush
+re cast 'word of recall'
+invis cast 'invis'
+8 cast 'sanctuary' $*
+loc cast 'locate obj' $*
+life cast 'sense life'
+sum cast 'summon' $*
+for put force 2.force
+charm cast 'charm' $*
+walk cast 'waterwalk' $*
+sleep cast 'sleep' $*
+par cast 'paral' $*
+5 cast 'haste'
+1 get heal force;get heal force;get heal force;get heal force;get heal force;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal;put force 2.force
+tunnel s;e;e;e;e; open gate; e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+inv cast 'invis'
+die order clones die
+drag cast 'dragon'
+water cast 'waterb' $*
+spiral d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+3 cast 'divine heal' $*
+cb cast 'cure blind' $*
+a aff
+lev1 e;e;e;e;s;s;e;unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e;unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+mocc n;n;w;w;w;w;w;s;d;get mocc;wear mocc;get word;get crow;u;n;e;e;e;e;e;s;s
+remmocc n;n;w;w;w;w;w;s;d;rem mocc;drop mocc;drop word;drop crow;u;n;e;e;e;e;e;s;s

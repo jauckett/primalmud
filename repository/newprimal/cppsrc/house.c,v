@@ -1,0 +1,1100 @@
+head	1.11;
+access;
+symbols
+	A3_0_59:1.2
+	LATEST:1.2
+	A3_0_1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.11
+date	2004.08.27.02.11.55;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.05.08.07.33.32;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.04.21.07.06.48;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.10.12.02.26;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.06.12.27.25;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.11.24.00.14.49;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.11.12.11.00.13;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.11.08.11.58.23;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.04.10.10.48.30;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.01.29.22.44.16;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.58;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@Artus> House logging changed from LVL_IMMORT to LVL_IS_GOD.
+@
+text
+@/* ************************************************************************
+*   File: house.c                                       Part of CircleMUD *
+*  Usage: Handling of player houses                                       *
+*                                                                         *
+*  All rights reserved.  See license.doc for complete information.        *
+*                                                                         *
+*  Copyright (C) 1993, 94 by the Trustees of the Johns Hopkins University *
+*  CircleMUD is based on DikuMUD, Copyright (C) 1990, 1991.               *
+************************************************************************ */
+
+#include "conf.h"
+#include "sysdep.h"
+
+#include "structs.h"
+#include "comm.h"
+#include "handler.h"
+#include "db.h"
+#include "interpreter.h"
+#include "utils.h"
+#include "house.h"
+#include "constants.h"
+#include "genwld.h"
+
+extern struct room_data *world;
+extern struct index_data *obj_index;
+
+
+struct obj_data *Obj_from_store(struct obj_file_elem object, int *location);
+int Obj_to_store(struct obj_data * obj, FILE * fl, int location);
+
+struct house_control_rec house_control[MAX_HOUSES];
+int num_of_houses = 0;
+
+/* local functions */
+int House_get_filename(int vnum, char *filename);
+int House_load(room_vnum vnum);
+int House_save(struct obj_data * obj, FILE * fp);
+void House_restore_weight(struct obj_data * obj);
+void House_delete_file(int vnum);
+int find_house(room_vnum vnum);
+void House_save_control(void);
+void hcontrol_list_houses(struct char_data * ch, char *arg);
+void hcontrol_build_house(struct char_data * ch, char *arg);
+void hcontrol_destroy_house(struct char_data * ch, char *arg);
+void hcontrol_pay_house(struct char_data * ch, char *arg);
+ACMD(do_hcontrol);
+ACMD(do_house);
+void do_odd_write(struct descriptor_data *d, ubyte wtype, int maxlen);
+
+
+/* First, the basics: finding the filename; loading/saving objects */
+
+/* Return a filename given a house vnum */
+int House_get_filename(int vnum, char *filename)
+{
+  if (vnum == NOWHERE)
+    return (0);
+
+  sprintf(filename, LIB_HOUSE"%d.house", vnum);
+  return (1);
+}
+
+
+/* Load all objects for a house */
+int House_load(room_vnum vnum)
+{
+  FILE *fl;
+  char fname[MAX_STRING_LENGTH];
+  struct obj_file_elem object;
+  room_rnum rnum;
+  int i;
+
+  if ((rnum = real_room(vnum)) == NOWHERE)
+    return (0);
+  if (!House_get_filename(vnum, fname))
+    return (0);
+  if (!(fl = fopen(fname, "r+b")))	/* no file found */
+    return (0);
+  while (!feof(fl)) {
+    fread(&object, sizeof(struct obj_file_elem), 1, fl);
+    if (ferror(fl)) {
+      perror("SYSERR: Reading house file in House_load");
+      fclose(fl);
+      return (0);
+    }
+    if (!feof(fl))
+      obj_to_room(Obj_from_store(object, &i), rnum);
+  }
+
+  fclose(fl);
+
+  return (1);
+}
+
+
+/* Save all objects for a house (recursive; initial call must be followed
+   by a call to House_restore_weight)  Assumes file is open already. */
+int House_save(struct obj_data * obj, FILE * fp)
+{
+  struct obj_data *tmp;
+  int result;
+
+  if (obj) {
+    House_save(obj->contains, fp);
+    House_save(obj->next_content, fp);
+    result = Obj_to_store(obj, fp, 0);
+    if (!result)
+      return (0);
+
+    for (tmp = obj->in_obj; tmp; tmp = tmp->in_obj)
+      GET_OBJ_WEIGHT(tmp) -= GET_OBJ_WEIGHT(obj);
+  }
+  return (1);
+}
+
+
+/* restore weight of containers after House_save has changed them for saving */
+void House_restore_weight(struct obj_data * obj)
+{
+  if (obj) {
+    House_restore_weight(obj->contains);
+    House_restore_weight(obj->next_content);
+    if (obj->in_obj)
+      GET_OBJ_WEIGHT(obj->in_obj) += GET_OBJ_WEIGHT(obj);
+  }
+}
+
+
+/* Save all objects in a house */
+void House_crashsave(room_vnum vnum)
+{
+  int rnum;
+  char buf[MAX_STRING_LENGTH];
+  FILE *fp;
+
+  if ((rnum = real_room(vnum)) == NOWHERE)
+    return;
+  if (!House_get_filename(vnum, buf))
+    return;
+  if (!(fp = fopen(buf, "wb"))) {
+    perror("SYSERR: Error saving house file");
+    return;
+  }
+  if (!House_save(world[rnum].contents, fp)) {
+    fclose(fp);
+    return;
+  }
+  fclose(fp);
+  House_restore_weight(world[rnum].contents);
+  REMOVE_BIT(ROOM_FLAGS(rnum), ROOM_HOUSE_CRASH);
+}
+
+
+/* Delete a house save file */
+void House_delete_file(int vnum)
+{
+  char fname[MAX_INPUT_LENGTH];
+  FILE *fl;
+
+  if (!House_get_filename(vnum, fname))
+    return;
+  if (!(fl = fopen(fname, "rb"))) {
+    if (errno != ENOENT)
+      basic_mud_log("SYSERR: Error deleting house file #%d. (1): %s", vnum, strerror(errno));
+    return;
+  }
+  fclose(fl);
+  if (remove(fname) < 0)
+    basic_mud_log("SYSERR: Error deleting house file #%d. (2): %s", vnum, strerror(errno));
+}
+
+
+/* List all objects in a house file */
+void House_listrent(struct char_data * ch, room_vnum vnum)
+{
+  FILE *fl;
+  char fname[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH];
+  struct obj_file_elem object;
+  struct obj_data *obj;
+  int i;
+
+  if (!House_get_filename(vnum, fname))
+    return;
+  if (!(fl = fopen(fname, "rb"))) {
+    sprintf(buf, "No objects on file for house #%d.\r\n", vnum);
+    send_to_char(buf, ch);
+    return;
+  }
+  *buf = '\0';
+  while (!feof(fl)) {
+    fread(&object, sizeof(struct obj_file_elem), 1, fl);
+    if (ferror(fl)) {
+      fclose(fl);
+      return;
+    }
+    if (!feof(fl) && (obj = Obj_from_store(object, &i)) != NULL) {
+      sprintf(buf + strlen(buf), " [%5d] (%5dau) %s\r\n",
+	      GET_OBJ_VNUM(obj), GET_OBJ_RENT(obj),
+	      obj->short_description);
+      free_obj(obj);
+    }
+  }
+
+  send_to_char(buf, ch);
+  fclose(fl);
+}
+
+
+
+
+/******************************************************************
+ *  Functions for house administration (creation, deletion, etc.  *
+ *****************************************************************/
+
+int find_house(room_vnum vnum)
+{
+  int i;
+
+  for (i = 0; i < num_of_houses; i++)
+    if (house_control[i].vnum == vnum)
+      return (i);
+
+  return (NOWHERE);
+}
+
+
+
+/* Save the house control information */
+void House_save_control(void)
+{
+  FILE *fl;
+
+  if (!(fl = fopen(HCONTROL_FILE, "wb"))) {
+    perror("SYSERR: Unable to open house control file.");
+    return;
+  }
+  /* write all the house control recs in one fell swoop.  Pretty nifty, eh? */
+  fwrite(house_control, sizeof(struct house_control_rec), num_of_houses, fl);
+
+  fclose(fl);
+}
+
+
+/* call from boot_db - will load control recs, load objs, set atrium bits */
+/* should do sanity checks on vnums & remove invalid records */
+void House_boot(void)
+{
+  struct house_control_rec temp_house;
+  room_rnum real_house, real_atrium;
+  FILE *fl;
+
+  memset((char *)house_control,0,sizeof(struct house_control_rec)*MAX_HOUSES);
+
+  if (!(fl = fopen(HCONTROL_FILE, "rb"))) {
+    if (errno == ENOENT)
+      basic_mud_log("   House control file '%s' does not exist.", HCONTROL_FILE);
+    else
+      perror("SYSERR: " HCONTROL_FILE);
+    return;
+  }
+  while (!feof(fl) && num_of_houses < MAX_HOUSES) {
+    fread(&temp_house, sizeof(struct house_control_rec), 1, fl);
+
+    if (feof(fl))
+      break;
+
+    if (get_name_by_id(temp_house.owner) == NULL)
+      continue;			/* owner no longer exists -- skip */
+
+    if ((real_house = real_room(temp_house.vnum)) == NOWHERE)
+      continue;			/* this vnum doesn't exist -- skip */
+
+    if (find_house(temp_house.vnum) != NOWHERE)
+      continue;			/* this vnum is already a house -- skip */
+
+    if ((real_atrium = real_room(temp_house.atrium)) == NOWHERE)
+      continue;			/* house doesn't have an atrium -- skip */
+
+    if (temp_house.exit_num < 0 || temp_house.exit_num >= NUM_OF_DIRS)
+      continue;			/* invalid exit num -- skip */
+
+    if (TOROOM(real_house, temp_house.exit_num) != real_atrium)
+      continue;			/* exit num mismatch -- skip */
+
+    house_control[num_of_houses++] = temp_house;
+
+    SET_BIT(ROOM_FLAGS(real_house), ROOM_HOUSE | ROOM_PRIVATE);
+    SET_BIT(ROOM_FLAGS(real_atrium), ROOM_ATRIUM);
+    House_load(temp_house.vnum);
+  }
+
+  fclose(fl);
+  House_save_control();
+}
+
+
+
+/* "House Control" functions */
+
+const char *HCONTROL_FORMAT =
+"Usage: hcontrol build <house vnum> <exit direction> <player name>\r\n"
+"       hcontrol destroy <house vnum>\r\n"
+"       hcontrol pay <house vnum>\r\n"
+"       hcontrol show [player_name]\r\n";
+
+void hcontrol_list_houses(struct char_data * ch, char *arg)
+{
+  int i, owner=-1;
+  char *timestr, *temp;
+  char built_on[128], last_pay[128], own_name[128];
+#ifdef NO_LOCALTIME
+  struct tm lt;
+#endif
+  char arg1[MAX_INPUT_LENGTH];
+
+  if (!num_of_houses) {
+    send_to_char("No houses have been defined.\r\n", ch);
+    return;
+  }
+
+  one_argument(arg, arg1);
+
+  if (*arg1) {
+    if ((owner = get_id_by_name(arg1)) < 0) {
+      sprintf(buf, "Unknown player '%s'.\r\n", arg1);
+      send_to_char(buf, ch);
+      return;
+    }
+  }
+
+  strcpy(buf, "Address  Atrium  Build Date  Guests  Owner        Last Paymt\r\n");
+  strcat(buf, "-------  ------  ----------  ------  ------------ ----------\r\n");
+  send_to_char(buf, ch);
+
+  for (i = 0; i < num_of_houses; i++) {
+    /* Avoid seeing <UNDEF> entries from self-deleted people. -gg 6/21/98 */
+    if ((temp = get_name_by_id(house_control[i].owner)) == NULL)
+      continue;
+
+    if (owner == -1 || (house_control[i].owner == owner)) { 
+      if (house_control[i].built_on) {
+#ifndef NO_LOCALTIME
+	timestr = asctime(localtime(&(house_control[i].built_on)));
+        *(timestr + 10) = '\0';
+        strcpy(built_on, timestr);
+#else
+	if (jk_localtime(&lt, house_control[i].built_on))
+	  strcpy(built_on, "ERROR!");
+	else
+	{
+	  timestr = asctime(&lt);
+	  *(timestr + 10) = '\0';
+	  strcpy(built_on, timestr);
+	}
+#endif
+      } else
+        strcpy(built_on, "Unknown");
+
+      if (house_control[i].last_payment) {
+#ifndef NO_LOCALTIME
+	timestr = asctime(localtime(&(house_control[i].last_payment)));
+        *(timestr + 10) = '\0';
+        strcpy(last_pay, timestr);
+#else
+	if (jk_localtime(&lt, house_control[i].last_payment))
+	  strcpy(last_pay, "ERROR");
+	else
+	{
+	  timestr = asctime(&lt);
+	  *(timestr + 10) = '\0';
+	  strcpy(last_pay, timestr);
+	}
+#endif
+      } else
+        strcpy(last_pay, "None");
+
+      /* Now we need a copy of the owner's name to capitalize. -gg 6/21/98 */
+      strcpy(own_name, temp);
+
+      sprintf(buf, "%7d %7d  %-10s    %2d    %-12s %s\r\n",
+	    house_control[i].vnum, house_control[i].atrium, built_on,
+	    house_control[i].num_of_guests, CAP(own_name), last_pay);
+
+      send_to_char(buf, ch);
+      House_list_guests(ch, i, TRUE);
+    }
+  }
+}
+
+
+
+void hcontrol_build_house(struct char_data * ch, char *arg)
+{
+  char arg1[MAX_INPUT_LENGTH];
+  struct house_control_rec temp_house;
+  room_vnum virt_house, virt_atrium;
+  room_rnum real_house, real_atrium;
+  sh_int exit_num;
+  long owner;
+
+  if (num_of_houses >= MAX_HOUSES)
+  {
+    send_to_char("Max houses already defined.\r\n", ch);
+    return;
+  }
+
+  /* first arg: house's vnum */
+  arg = one_argument(arg, arg1);
+  if (!*arg1)
+  {
+    send_to_char(HCONTROL_FORMAT, ch);
+    return;
+  }
+  virt_house = atoi(arg1);
+  if ((real_house = real_room(virt_house)) == NOWHERE)
+  {
+    send_to_char("No such room exists.\r\n", ch);
+    return;
+  }
+  if ((find_house(virt_house)) != NOWHERE)
+  {
+    send_to_char("House already exists.\r\n", ch);
+    return;
+  }
+
+  /* second arg: direction of house's exit */
+  arg = one_argument(arg, arg1);
+  if (!*arg1)
+  {
+    send_to_char(HCONTROL_FORMAT, ch);
+    return;
+  }
+  if ((exit_num = search_block(arg1, dirs, FALSE)) < 0)
+  {
+    sprintf(buf, "'%s' is not a valid direction.\r\n", arg1);
+    send_to_char(buf, ch);
+    return;
+  }
+  if (TOROOM(real_house, exit_num) == NOWHERE)
+  {
+    sprintf(buf, "There is no exit %s from room %d.\r\n", dirs[exit_num],
+	    virt_house);
+    send_to_char(buf, ch);
+    return;
+  }
+
+  real_atrium = TOROOM(real_house, exit_num);
+  virt_atrium = GET_ROOM_VNUM(real_atrium);
+
+  if (TOROOM(real_atrium, rev_dir[exit_num]) != real_house)
+  {
+    send_to_char("A house's exit must be a two-way door.\r\n", ch);
+    return;
+  }
+
+  /* third arg: player's name */
+  one_argument(arg, arg1);
+  if (!*arg1)
+  {
+    send_to_char(HCONTROL_FORMAT, ch);
+    return;
+  }
+  if ((owner = get_id_by_name(arg1)) < 0)
+  {
+    sprintf(buf, "Unknown player '%s'.\r\n", arg1);
+    send_to_char(buf, ch);
+    return;
+  }
+
+  temp_house.mode = HOUSE_PRIVATE;
+  temp_house.vnum = virt_house;
+  temp_house.atrium = virt_atrium;
+  temp_house.exit_num = exit_num;
+  temp_house.built_on = time(0);
+  temp_house.last_payment = 0;
+  temp_house.owner = owner;
+  temp_house.num_of_guests = 0;
+
+  house_control[num_of_houses++] = temp_house;
+
+  SET_BIT(ROOM_FLAGS(real_house), ROOM_HOUSE | ROOM_PRIVATE | ROOM_NOMAGIC | ROOM_PEACEFUL | ROOM_NOTRACK | ROOM_INDOORS | ROOM_NOMOB);
+  SET_BIT(ROOM_FLAGS(real_atrium), ROOM_ATRIUM);
+  House_crashsave(virt_house);
+
+  send_to_char("House built.  Mazel tov!\r\n", ch);
+  House_save_control();
+}
+
+
+
+void hcontrol_destroy_house(struct char_data * ch, char *arg)
+{
+  int i, j;
+  room_rnum real_atrium, real_house;
+
+  if (!*arg) {
+    send_to_char(HCONTROL_FORMAT, ch);
+    return;
+  }
+  if ((i = find_house(atoi(arg))) == NOWHERE) {
+    send_to_char("Unknown house.\r\n", ch);
+    return;
+  }
+  if ((real_atrium = real_room(house_control[i].atrium)) == NOWHERE)
+    basic_mud_log("SYSERR: House %d had invalid atrium %d!", atoi(arg),
+	house_control[i].atrium);
+  else
+    REMOVE_BIT(ROOM_FLAGS(real_atrium), ROOM_ATRIUM);
+
+  if ((real_house = real_room(house_control[i].vnum)) == NOWHERE)
+    basic_mud_log("SYSERR: House %d had invalid vnum %d!", atoi(arg), house_control[i].vnum);
+  else
+    REMOVE_BIT(ROOM_FLAGS(real_house),
+	       ROOM_HOUSE | ROOM_PRIVATE | ROOM_HOUSE_CRASH);
+
+  House_delete_file(house_control[i].vnum);
+
+  for (j = i; j < num_of_houses - 1; j++)
+    house_control[j] = house_control[j + 1];
+
+  num_of_houses--;
+
+  send_to_char("House deleted.\r\n", ch);
+  House_save_control();
+
+  /*
+   * Now, reset the ROOM_ATRIUM flag on all existing houses' atriums,
+   * just in case the house we just deleted shared an atrium with another
+   * house.  --JE 9/19/94
+   */
+  for (i = 0; i < num_of_houses; i++)
+    if ((real_atrium = real_room(house_control[i].atrium)) != NOWHERE)
+      SET_BIT(ROOM_FLAGS(real_atrium), ROOM_ATRIUM);
+}
+
+
+void hcontrol_pay_house(struct char_data * ch, char *arg)
+{
+  int i;
+
+  if (!*arg)
+    send_to_char(HCONTROL_FORMAT, ch);
+  else if ((i = find_house(atoi(arg))) == NOWHERE)
+    send_to_char("Unknown house.\r\n", ch);
+  else
+  {
+    sprintf(buf, "Payment for house %s collected by %s.", arg, GET_NAME(ch));
+    mudlog(buf, NRM, MAX(LVL_IS_GOD, GET_INVIS_LEV(ch)), TRUE);
+
+    house_control[i].last_payment = time(0);
+    House_save_control();
+    send_to_char("Payment recorded.\r\n", ch);
+  }
+}
+
+
+/* The hcontrol command itself, used by imms to create/destroy houses */
+ACMD(do_hcontrol)
+{
+  char arg1[MAX_INPUT_LENGTH], arg2[MAX_INPUT_LENGTH];
+
+  half_chop(argument, arg1, arg2);
+
+  if (is_abbrev(arg1, "build"))
+    hcontrol_build_house(ch, arg2);
+  else if (is_abbrev(arg1, "destroy"))
+    hcontrol_destroy_house(ch, arg2);
+  else if (is_abbrev(arg1, "pay"))
+    hcontrol_pay_house(ch, arg2);
+  else if (is_abbrev(arg1, "show"))
+    hcontrol_list_houses(ch, arg2);
+  else
+    send_to_char(HCONTROL_FORMAT, ch);
+}
+
+
+/* The house command, used by mortal house owners to assign guests */
+ACMD(do_house)
+{
+  int i, j, id;
+
+  one_argument(argument, arg);
+
+  if (!ROOM_FLAGGED(IN_ROOM(ch), ROOM_HOUSE))
+    send_to_char("You call this a house?", ch);
+  else if ((i = find_house(GET_ROOM_VNUM(IN_ROOM(ch)))) == NOWHERE)
+    send_to_char("Um.. this house seems to be screwed up.\r\n", ch);
+  else if (GET_IDNUM(ch) != house_control[i].owner)
+    send_to_char("Only the owner can set house attributes.\r\n", ch);
+  else if (!*arg)
+    House_list_guests(ch, i, FALSE);
+
+  // room description - odd_write
+  else if (!str_cmp(arg, "description")) {
+    ch->player_specials->write_extra=ch->in_room; 
+    do_odd_write(ch->desc, PWT_ROOM, 600); 
+
+  // copy and save room title 
+  } else if (!str_cmp(arg, "title")) {
+    half_chop(argument, arg, buf1);
+    sprintf(buf, "Setting room title to: '%s'\r\n", buf1);
+    send_to_char(buf, ch);
+    free(world[ch->in_room].name);
+    world[ch->in_room].name = str_dup(buf1);
+    if (save_rooms(world[ch->in_room].zone)) {
+      send_to_char("Description saved.\r\n", ch);
+    } else {
+      send_to_char("Unable to save zone file.\r\n", ch);
+    }
+  } else if ((id = get_id_by_name(arg)) < 0)
+    send_to_char("No such player.\r\n", ch);
+  else if (id == GET_IDNUM(ch))
+    send_to_char("It's your house!\r\n", ch);
+  else {
+    for (j = 0; j < house_control[i].num_of_guests; j++)
+      if (house_control[i].guests[j] == id) {
+	for (; j < house_control[i].num_of_guests; j++)
+	  house_control[i].guests[j] = house_control[i].guests[j + 1];
+	house_control[i].num_of_guests--;
+	House_save_control();
+	send_to_char("Guest deleted.\r\n", ch);
+	return;
+      }
+    if (house_control[i].num_of_guests == MAX_GUESTS) {
+      send_to_char("You have too many guests.\r\n", ch);
+      return;
+    }
+    j = house_control[i].num_of_guests++;
+    house_control[i].guests[j] = id;
+    House_save_control();
+    send_to_char("Guest added.\r\n", ch);
+  }
+}
+
+
+
+/* Misc. administrative functions */
+
+
+/* crash-save all the houses */
+void House_save_all(void)
+{
+  int i;
+  room_rnum real_house;
+
+  for (i = 0; i < num_of_houses; i++)
+    if ((real_house = real_room(house_control[i].vnum)) != NOWHERE)
+      if (ROOM_FLAGGED(real_house, ROOM_HOUSE_CRASH)) 
+	House_crashsave(house_control[i].vnum);
+}
+
+
+/* note: arg passed must be house vnum, so there. */
+int House_can_enter(struct char_data * ch, room_vnum house)
+{
+  int i, j;
+
+  // Artus> Removed the switch .mode, since HOUSE_PRIVATE seems to be the only
+  //        mode used anyway.
+  if ((!LR_FAIL(ch, LVL_GRGOD) || (i = find_house(house)) == NOWHERE) ||
+      (house_control[i].mode != HOUSE_PRIVATE))
+    return (1);
+
+  if (IS_NPC(ch))
+    return (0);
+
+  if (GET_IDNUM(ch) == house_control[i].owner)
+    return (1);
+  for (j = 0; j < house_control[i].num_of_guests; j++)
+    if (GET_IDNUM(ch) == house_control[i].guests[j])
+      return (1);
+
+  return (0);
+}
+
+void House_list_guests(struct char_data *ch, int i, int quiet)
+{
+  int j;
+  char *temp;
+  char buf[MAX_STRING_LENGTH], buf2[MAX_NAME_LENGTH + 2];
+
+  if (house_control[i].num_of_guests == 0) {
+    if (!quiet)
+      send_to_char("  Guests: None\r\n", ch);
+    return;
+  }
+
+  strcpy(buf, "  Guests: ");
+
+  /* Avoid <UNDEF>. -gg 6/21/98 */
+  for (j = 0; j < house_control[i].num_of_guests; j++) {
+    if ((temp = get_name_by_id(house_control[i].guests[j])) == NULL)
+      continue;
+    sprintf(buf2, "%s ", temp);
+    strcat(buf, CAP(buf2));
+  }
+
+  strcat(buf, "\r\n");
+  send_to_char(buf, ch);
+}
+
+@
+
+
+1.10
+log
+@Artus> Modified hcontrol script. Now sets nomob, notrack, nomagic, etc.
+@
+text
+@d546 2
+a547 1
+  else {
+d549 1
+a549 1
+    mudlog(buf, NRM, MAX(LVL_IMMORT, GET_INVIS_LEV(ch)), TRUE);
+@
+
+
+1.9
+log
+@Artus> Minor changes to House_can_enter.
+@
+text
+@d402 2
+a403 1
+  if (num_of_houses >= MAX_HOUSES) {
+d410 2
+a411 1
+  if (!*arg1) {
+d416 2
+a417 1
+  if ((real_house = real_room(virt_house)) == NOWHERE) {
+d421 2
+a422 1
+  if ((find_house(virt_house)) != NOWHERE) {
+d429 2
+a430 1
+  if (!*arg1) {
+d434 2
+a435 1
+  if ((exit_num = search_block(arg1, dirs, FALSE)) < 0) {
+d440 2
+a441 1
+  if (TOROOM(real_house, exit_num) == NOWHERE) {
+d451 2
+a452 1
+  if (TOROOM(real_atrium, rev_dir[exit_num]) != real_house) {
+d459 2
+a460 1
+  if (!*arg1) {
+d464 2
+a465 1
+  if ((owner = get_id_by_name(arg1)) < 0) {
+d482 1
+a482 1
+  SET_BIT(ROOM_FLAGS(real_house), ROOM_HOUSE | ROOM_PRIVATE);
+@
+
+
+1.8
+log
+@Artus>
+act.comm.c       : Completely rewrote the auction code.
+act.informative.c: New event type: Fire.
+                   Fixed colour bleed in exits.
+act.item.c       : invalid_level() now only allows remort classes to use eq
+                   earlier if it was usable before they remorted.
+act.movement.c   : Gateways now pass through the standard invalid_level()
+                   check. This should make it possible to restrict entrance
+                   based on class.
+act.offensive.c  : Cleaned up.
+act.other.c      : Hide now applies to spell/skill ability.
+                   Title length limit removed, title restricted level 5.
+act.wizard.c     : "debug sm" will now display the integer value of current
+                   rooms "small_bits"
+                   Added annoying poofin for me.
+                   New event type: Fire.
+boards.c         : Boards now use max level as opposed to level.
+clan.c           : Cleaned up.
+class.c          : Cleaned up.
+comm.c           : Minor changes for remort max levels to exp prompt.
+db.c             : Auctions are now stored in file.
+                   Initial zone resets moved before houses and auctions load.
+db.h             : Auctions are now stored in file.
+dg_mobcmd.c      : Cleaned up.
+dg_objcmd.c      : Cleaned up.
+dg_scripts.c     : Cleaned up.
+dg_wldcmd.c      : Cleaned up.
+fight.c          : Added pcorpse alias to corpses.
+graph.c          : Cleaned up.
+handler.c        : Item counter changed so item count won't be reduced below
+                   zero.
+house.c          : Removed item decrementor.
+interpreter.c    : Command level checks are now done against max level.
+interpreter.h    : Removed old auction SCMD_xxx, Added new auction AUC_xxx
+limits.c         : First remort max exp * 12500, second max exp * 15000
+magic.c          : Cleaned up.
+mail.c           : Added support for mail from auction system.
+mail.h           : Added support for mail from auction system.
+medit.c          : Cleaned up.
+modify.c         : Cleaned up.
+oasis.c          : Added zedit sect # support - Sets the base sect to the
+                   same value in all rooms in zone.
+oasis.h          : Added zedit sect # support.
+objsave.c        : Added Obj_to_file_elem routine.
+reports.cpp      : Replaced 0 with MAIL_FROM_REPORT in store_mail calls.
+shop.c           : Replaced GET_OBJ_LR() check with invalid_level() call.
+spec_procs.c     : Fixed bug where repair wasn't listing costs.
+                   Cleaned up.
+spell_parser.c   : Replaced various damage calcs with calc_dam_amt.
+spells.c         : Added identify_obj_to_char, called by SPELL_IDENTIFY and
+                   auction stat.
+                   Colourised identify output.
+structs.h        : Added EVENT_FIRE macro.
+                   Removed old auction defines.
+                   Added auction structures auc_data, auc_file_elem.
+                   Added auction macros AUC_STAT_COST, AUC_ROOM< AUC_LIMIT.
+                   Added RMSM_BURNED macro to identify burned rooms.
+                   Added small_bits to room structure. Unsaved bitvector.
+tedit.c          : Cleaned up.
+utils.c          : Added calc_dam_amt to separate damage calculations for
+                   skills.
+                   Added init_auctions and write_auction_file for storage
+                   and retrieval of auctions.
+utils.h          : RMSM_FLAGS(room_rnum) - Room's Small Bits.
+                   RMSM_FLAGS(room_rnum, bit) - Check small bits.
+                   LR_FAIL(ch, lvl) - Basic level test.
+                   LR_FAIL_MAX(ch, lvl) - Level test against max level,
+                   unless lvl > LVL_IMMORT.
+                   CAN_LEVEL(ch) macro.
+                   STRTODAM(ch) macro - str_app.todam
+zedit.c          : Added zedit_sect_all().
+@
+text
+@d648 4
+a651 1
+  if (!LR_FAIL(ch, LVL_GRGOD) || (i = find_house(house)) == NOWHERE)
+d654 7
+a660 3
+  switch (house_control[i].mode) {
+  case HOUSE_PRIVATE:
+    if (GET_IDNUM(ch) == house_control[i].owner)
+a661 4
+    for (j = 0; j < house_control[i].num_of_guests; j++)
+      if (GET_IDNUM(ch) == house_control[i].guests[j])
+	return (1);
+  }
+@
+
+
+1.7
+log
+@Artus> Fixed bug that prevented users logging in over themselves after
+       connection had crapped out in olc / menu / motd / reports.
+       Hopefully fixed bug that was causing eq not to save, sometimes.
+@
+text
+@a86 1
+    {
+a87 5
+      /* Artus> Drop the obj_index number so not to interfere with zone
+       *        command max's. */
+      if ((i = real_object(object.item_number)) > -1)
+	obj_index[i].number--;
+    }
+d648 1
+a648 1
+  if (GET_LEVEL(ch) >= LVL_GRGOD || (i = find_house(house)) == NOWHERE)
+@
+
+
+1.6
+log
+@Artus> Changed remort, in particular, list remort abilities to char.. Also,
+       spellsword was incorrectly being listed as a possible path for a
+       warrior.
+
+       Replaced #ifdef USE_LOCALTIME with #ifndef NO_LOCALTIME..
+
+       Added define NOTELL_SOUNDPROOF .. Define this to stop people telling
+       to/from soundproof rooms.
+
+       Removed extraneous level checking from do_wear.. This is handled
+       better by perform_wear.
+@
+text
+@d644 1
+a644 1
+      if (ROOM_FLAGGED(real_house, ROOM_HOUSE_CRASH))
+@
+
+
+1.5
+log
+@Artus>
+
+Files which have had log() replaced with basic_mud_log():
+
+act.informative.c, act.item.c, act.offensive.c, act.other.c, act.social.c,
+act.wizard.c, alias.c, balance.c, ban.c, boards.c, casino.c, castle.c, clan.c,
+class.c, comm.c, corpses.cpp, db.c, dg_db_scripts.c, dg_olc.c, dg_scripts.c,
+fight.c, genmob.c, genobj.c, genolc.c, genshp.c, genwld.c, genzon.c, graph.c,
+handler.c, house.c, improved-edit.c, interpreter.c, magic.c, mail.c, medit.c,
+mobact.c, modify.c, oasis.c, objsave.c, oedit.c, olc.c, redit.c, reports.cpp,
+shop.c, spec_assign.c, spec_procs.c, spell_parser.c, tedit.c, utils.c,
+utils.h, zedit.c.
+
+
+Files which have been cpp standardised (list.h => list, etc):
+
+comm.c, corpses.cpp, corpses.h, db.c, interpreter.c, modify.c, reports.cpp.
+
+
+Specific changes to reports.cpp, reports.h:
+
+Removed ofstream outReportFile, ofstream outChangeFile, and replaced them with
+FILE *s. Removed no-longer functional c++ random-access file handling and
+replaced it with straight C. Should be right from here on in..
+
+
+Specific changes to act.movement.c:
+
+Replaced log() with mudlog(), when logging players being killed by gravity.
+@
+text
+@d318 1
+a318 1
+#ifndef USE_LOCALTIME
+d349 1
+a349 1
+#ifdef USE_LOCALTIME
+d367 1
+a367 1
+#ifdef USE_LOCALTIME
+@
+
+
+1.4
+log
+@Artus>>
+Breakin: him/her -> he/she.
+Remort: Now updates wimpy.
+Show Snoop: Fixed colour bleed.
+do_simple_move: Now displays failure messages.
+House_boot: Now subtracts subtracts objects from obj_index.number when loading
+            objs into houses.. Fixes issue where objs in houses were preventing
+	    that obj from being created in the game where zone command Max: 1.
+@
+text
+@d170 1
+a170 1
+      log("SYSERR: Error deleting house file #%d. (1): %s", vnum, strerror(errno));
+d175 1
+a175 1
+    log("SYSERR: Error deleting house file #%d. (2): %s", vnum, strerror(errno));
+d263 1
+a263 1
+      log("   House control file '%s' does not exist.", HCONTROL_FILE);
+d502 1
+a502 1
+    log("SYSERR: House %d had invalid atrium %d!", atoi(arg),
+d508 1
+a508 1
+    log("SYSERR: House %d had invalid vnum %d!", atoi(arg), house_control[i].vnum);
+@
+
+
+1.3
+log
+@Artus> Localtime fix.
+@
+text
+@d87 1
+d89 5
+@
+
+
+1.2
+log
+@
+Added:
+- house "title" and "description" arguments:
+  - title copies given text after argument and saves to title
+  - description calls do_odd_write to edit and if applicable save the room
+    description
+@
+text
+@d312 3
+d343 2
+a344 1
+        timestr = asctime(localtime(&(house_control[i].built_on)));
+d347 10
+d361 2
+a362 1
+        timestr = asctime(localtime(&(house_control[i].last_payment)));
+d365 10
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d22 1
+d48 1
+d550 1
+a550 1
+    send_to_char("You must be in your house to set guests.\r\n", ch);
+d554 1
+a554 1
+    send_to_char("Only the primary owner can set guests.\r\n", ch);
+d557 19
+a575 1
+  else if ((id = get_id_by_name(arg)) < 0)
+@
+

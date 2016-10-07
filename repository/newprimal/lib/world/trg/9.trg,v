@@ -1,0 +1,31 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2003.12.26.00.53.07;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Artus> Better add these.
+@
+text
+@#900
+Test Trigger~
+2 c 100
+People~
+set ch %firstchar.900%
+wecho %ch.name%
+~
+$~
+@

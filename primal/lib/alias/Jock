@@ -1,0 +1,4 @@
+gs growl $1
+gac get all corpse
+qw get white backpack; q white
+qr get red backpack; q red

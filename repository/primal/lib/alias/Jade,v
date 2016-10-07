@@ -1,0 +1,60 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@qb get blue force;quaff blue
+qr get red force;quaff red
+gr grat ****!!!!*!*!*@@@@@@@@@@ $* @@@@ WOOHOO :-) *!*!*!!!****
+inf cast 'infravision
+rp cast 'remove poison
+san cast 'sanctuary
+scan cast 'scan
+str cast 'strength
+cr cast 'refresh
+di cast 'detect invisibility
+rec cast 'word of recall
+sco score
+inn s;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e
+gc get all corpse
+es exa self
+ef exa force
+wa wear all
+qw get white force;quaff white
+st wake;stand
+sl sleep 
+x cast 'heal'
+h cast 'advanced heal'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

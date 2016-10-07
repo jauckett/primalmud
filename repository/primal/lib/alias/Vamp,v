@@ -1,0 +1,61 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@inv cast 'invis
+km kill merchant
+= get recall crate;recite recall
+m get meat crate;eat meat
+ks kill skeleton
+yellow get yellow crate;quaff yellow
+4 put all crate
+water get skin crate;drink skin;put skin crate
+kt kill trickster
+cr loo in crate
+x examine corpse
+c get all.coins all.corpse
+r get red crate;quaff red
+white get white crate;quaff white
+a alias $*
+gac get all all.corpse
+h cast 'cure light'
+f cast 'infra
+kl kill traveller
+nm kil nobleman
+sw remove dagger;wield sword
+da remove sword;wield dagger
+b kill bandit
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,10 @@
+ggc g all.gold $1.corpse
+gac g all $1.corpse
+ds g skin backpack ; drink skin ; p skin backpack
+ee g meat backpack ; g meat backpack ; eat meat ; eat meat
+eeb g bread backpack ; g bread backpack ; eat bread ; eat bread
+eb exam bag
+ep exa backpack
+ec exa $1.corpse
+cl cast 'cure light' crackedone
+qr g red bag ; q red ; g red bag ; q red

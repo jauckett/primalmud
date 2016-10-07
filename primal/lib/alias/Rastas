@@ -1,0 +1,30 @@
+ds take skin bag;drink skin;put skin bag
+g cast 'shocking grasp' $1
+str cast 'strength' $1
+eb tak bread bag; eat bread
+tg tag gnol
+tmi tag miao
+tm tag misty
+tp tag pkunk
+af assist forte
+x ex
+tac tak all all.corpse
+pb put $1 bag
+id rec identify $1
+hl hold lantern
+r rec recall
+m cast 'magic' $1
+tgc tak gold all.corpse
+= flee
+arm cast 'armor' $1
+cu cast 'cure light' $1
+tj tag jerach
+tde tag delusion
+tk tag kyo
+td tag drax
+tdt tag deathblade
+ta tag ate
+tb tak $1 bag
+aj ass jerach
+qr quaff red
+qw quaff white

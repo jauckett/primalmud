@@ -1,0 +1,99 @@
+fin c 'finger of death'$*
+water get skin crate;c 'create water' skin;c 'create water' skin;put skin crate;
+in c 'infravision'$*
+z n;l dragon;s;
+mm c 'magic missile'$*
+cure c 'cure blind'$*;c 'remove poison'$*;
+chill c 'chill touch'$*
+k rem mace;wield dagger;backstab$*;rem dagger;wield mace;
+bread n;w;s;s;s;s;e;s;buy 20 bread;put all.bread crate;n;w;n;n;n;n;e;s;
+drink get skin crate;drink skin;put skin crate;
+eat get bread crate;eat bread;get bread crate;eat bread;
+walk cast 'waterwalk'$*
+curse cast 'curse'$*
+gac cast 'group armor'
+gsanc cast 'group sanctuary'
+caveman compact;autoexit;n;w;s;s;s;e;e;e;e;open gate;e;e;e;e;s;e;e;s;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;w;u;u;u;w;w;compact;autoexit;
+2tudor d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s;compact;autoexit
+1tudor  compact;autoexit;n;cast 'invisibility';w;s;s;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;w;cast 'refresh';
+elves compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w;w;compact;autoexit;
+darask compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;cast 'refresh';cast 'refresh';n;n;n;w;w;w;n;n;n;n;n;n;compact;autoexit;
+drieland  compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;d;compact;autoexit;
+werith compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;cast 'refresh';cast 'refresh';n;n;n;w;w;w;n;w;w;w;s;open door;s;compact;autoexit;
+rand  compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;cast 'refresh';cast 'refresh';w;s;s;e;e;e;e;e;e;e;compact;autoexit;
+keep compact;autoexit;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;n;e;n;compact;autoexit;
+bandit  compact;autoexit;n;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s;e;compact;autoexit;
+rome  compact;autoexit;n; w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;compact;autoexit;
+tower  autoexit;cast 'invisibility';s;s;s;w;s;e;e;s;w;w;w;s;s;e;n;u;n;e;e;e;e;s;autoexit;compact;
+spiral compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;s;w;w;w;w;n;n;n;e;e;n;n;n;n;compact;autoexit;
+g get all all.corpse
+aa ord followers assist arlien
+kk kick $*
+gate cast 'dimensional gate' $*;open gate;go gate;st;
+prot cast 'protection from evil' $*
+drain cast 'energy drain' $*
+dm cast 'detect magic'$*
+bless cast 'bless'$*
+good cast 'dispel good'$*
+magic cast 'enchant weapon'$*
+tav u;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;
+white n;w;s;s;s;e;e;e;n;buy 10 white;put all.potion crate;s;w;w;w;n;n;n;e;s;
+ord order followers$*
+dead cast 'animate dead' corpse
+gh cast 'group heal'
+blind cast 'blindness'$*
+sleep cast 'sleep'$*
+earth cast 'earthquake'
+fear cast 'fear' $*
+trash get all.corpse;junk all.corpse
+hh cast 'advanced heal'$*
+rec get identify crate;recite scroll $*;
+p put all.potion crate
+ps put all.scroll crate
+gw get white crate;q white;
+hm cast 'word of recall'$*
+harm cast 'harm'$*
+ac cast 'armor'$*
+he tell robohelp heal
+h cast 'heal'$*
+cc cast 'cure critic'$*
+gc get coins all.corpse
+cs cast 'colorspray'$*
+ef eat mushroom
+food cast 'create food'
+ga get all
+fb cast 'fireball'$*
+lo cast 'locate object'$*
+mv cast 'refresh'$*
+sum cast 'summon'$*
+inv cast 'invisibility'$*
+dt cast 'detect invisibility'$*
+sanc cast 'sanctuary'$*
+sd scan
+grat grats ****<<<<(((( $* ))))>>>>****
+nn sneak;n;hide
+ss sneak;s;hide
+dd sneak;d;hide
+uu sneak;up;hide
+ww sneak;w;hide
+ee sneak;e;hide
+tele cast 'teleport'$*
+evil cast 'dispel evil'$*
+sky cast 'control weather'
+call cast 'call lightning'$*
+wa wake;stand
+scream primal scream
+f cast 'fear' $*
+str cast 'strength' $*
+sb snowball $*
+ch cast 'charm person'$*
+x steal coal caveman
+clone cast 'clone';cast 'clone';get white crate;get white crate;give white clone;give white 2.clone;
+life cast 'sense life'$*
+lb cast 'lightning bolt'$*
+start get all;wear all;open crate;put all.potion crate;put all.scroll crate;grab orb;grab pen;wield mace;rem all.jade;put all.jade crate;drop all;get crate;get dagger;get skin;put skin crate
+lev2  rem all.jade;put all.jade crate;rem dagger;wield mace;wear helm;wear all.cloak;
+lev get all.jade crate;rem all.cloak;wear all.jade;rem mace;wield dagger;rem helm;
+moander cast 'invisibility';rem orb;grab eye;brief;compact;autoexit;s;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;e;e;e;s;e;u;u;u;u;s;s;s;s;autoexit;compact;
+st steal $*
+quit quitreally

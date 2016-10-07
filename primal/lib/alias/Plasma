@@ -1,0 +1,28 @@
+other cast 'lightning sh' ;cast 'drag
+oaware c 'detect invis' $1;c 'sense life' $1;c 'infra' $1
+divheal say divheal
+clone cast 'clone'
+junkc get all all.corpse;get all.corp; junk all.cor
+heals c 'heal' 
+sanc c 'sanc' $1
+invis c 'invis' $*
+aware c 'detect invis' Self;c 'sense life' self;c 'infra' self
+bs c 'backstab'
+gac get all all.corpse
+heal say heal
+word cast 'word of recall'
+ass order fol ass
+godbless c 'holy aid' self;c 'spirit arm' self;c 'divine prot' self
+protect c 'bless' $*;c 'armor' $*;c 'sanc' $*
+id c 'identif' $1
+spin emote spins on his chair
+th train hit;train hit;train hit;train hit;train hit; train hit
+tm train move;train move;train move;train move;train move
+sum cast 'summon' $*
+finger c 'finger' $1
+haste c 'lightning shield';c 'haste'
+wa wake;stand
+at order clones kill $1 ; kill $1
+clou cast 'clou'
+div cast 'advanced h
+wicl give bee clone; give bee 2.clone; order clone wi bee; order 2.clone wi bee

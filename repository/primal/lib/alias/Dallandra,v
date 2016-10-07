@@ -1,0 +1,58 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@drag cast 'dragon' self
+cs cast 'color spray' $1
+ff look in force
+det cast 'detect invisibility'
+dw dr wa
+arm cast 'armor'
+ehd get hotdog from  bag; eat hotdog
+eb get bread from bag; eat bread
+invis cast 'invisibility'
+em get meat from bag; eat meat
+mm cast 'magic missile'
+cc cast 'cure critic'
+sore cast 'cure light'
+food cast 'create food'
+eyes cast 'infravision'
+red get red from force; quaff red
+whi get white from force; quaff white
+rc cast 'word of recall' self
+ready wear all; wi pool cue; open force; put all in force
+sanc cast 'sanctuary' self
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

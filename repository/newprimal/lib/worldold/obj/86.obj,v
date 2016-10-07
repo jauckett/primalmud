@@ -1,0 +1,313 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.48.04;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.35;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.29.14.28.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back in.
+@
+text
+@#8600
+ring pirates pirate~
+a pirate's ring~
+A pirate's ring has been dropped here.~
+~
+9 2560 3
+3 0 0 0
+3 40000 4000
+E
+a pirate's ring~
+A shinning gold band of pure gold with the largest red stone
+protruding from the top.
+~
+A
+14 10
+A
+12 20
+L 20
+#8602
+cutlass~
+a cutlass~
+A pirate's cutlass has been left here~
+~
+5 2560 8193
+0 3 10 3
+10 94710 18942
+E
+a cutlass~
+A sharp glistening blade that looks so deadly it would kill
+enemies with one swoop.
+~
+A
+13 1
+A
+19 6
+A
+12 -25
+L 25
+#8603
+belt captain~
+captain Rum's belt~
+Captain Rum's belt has been left here.~
+~
+9 2560 2049
+4 0 0 0
+9 36000 3600
+E
+captain Rum's belt~
+The jewel encrusted belt of the late Captain Rum, a worthy treasure
+that is much sort after.
+~
+A
+1 2
+A
+4 -2
+A
+13 20
+L 30
+#8604
+captains cape~
+a captains cape~
+A captain's cape has been left here.~
+~
+9 2561 5
+3 0 0 0
+10 12000 1200
+E
+a captains cape~
+A bright red and orange cape with many small tears in it.
+~
+A
+13 20
+A
+3 -2
+A
+18 1
+L 30
+#8605
+flag pirates~
+a pirates flag~
+A pirates flag has been left here.~
+~
+4 1 1
+20 5 5 36
+4 20000 2000
+E
+a pirates flag~
+A bright red,green and orange piece of sheeting.
+~
+L 10
+#8606
+whisky bottle~
+a bottle of whisky~
+A bottle of whisky has been dropped here.~
+~
+17 0 1
+2 2 5 0
+2 20 2
+E
+a bottle of whisky~
+Some amber liquid.
+~
+L 0
+#8607
+knife dagger~
+a nasty looking knife~
+A nasty looking knife has been left here.~
+~
+5 2560 8193
+0 10 3 11
+5 14910 2982
+E
+a nasty looking knife~
+A small thin blade with the sharpest tipped edges.
+~
+A
+13 1
+A
+19 2
+A
+12 -15
+L 25
+#8608
+skull glowing~
+a glowing skull~
+An evil looking skull is here.~
+~
+1 2561 16385
+2 0 -1 0
+6 60000 6000
+E
+a glowing skull~
+Large empty sockets and a wicked grinning mouth stare back at you.
+~
+A
+12 50
+A
+13 -3
+A
+17 -3
+L 30
+#8609
+key small brass~
+a small brass key~
+A small brass key has been left here.~
+~
+18 65540 1
+1 0 0 0
+1 10 1
+E
+a small brass key~
+Long brass item that must open something ! 
+~
+L 0
+#8610
+chest treasure~
+A small treasure chest~
+A small treasure chest has been left here.~
+~
+15 0 1
+10 15 8609 0
+20 10000 1000
+L 0
+#8611
+key skeleton~
+A skeleton key~
+A skeleton key has been dropped here.~
+~
+18 4 1
+1 0 0 0
+1 1 1
+E
+A skeleton key~
+A long boned object with a small rats skull at the top.
+~
+L 0
+#8612
+shirt ragged~
+A ragged shirt~
+A ragged shirt has been dumped here.~
+~
+9 0 9
+3 0 0 0
+5 1500 150
+E
+A ragged shirt~
+A pile of red cloth. 
+~
+A
+12 10
+A
+13 -1
+L 10
+#8613
+pants baggy~
+A pair of baggy pants~
+A pair of baggy pants has been dropped here.~
+~
+9 0 33
+3 0 0 0
+5 3000 300
+E
+A pair of baggy pants~
+A pile of dirt cloth covered in salt from the ocean.
+~
+A
+12 25
+A
+13 -2
+L 10
+#8614
+brass knuckles~
+A pair of brass knuckles~
+A pair of brass knuckles has been dropped here.~
+~
+9 1536 129
+3 0 0 0
+8 4000 400
+A
+13 3
+A
+19 3
+A
+12 -10
+L 25
+#8615
+ship~
+The Pirate's ship~
+The Pirate's ship is tied up alongside the wharf here.~
+~
+41 0 0
+8669 0 0 0
+5000 1000000 1
+L 0
+#8616
+plank gangway~
+A gangway~
+A gangway is here leading down to the jetty.~
+~
+41 0 0
+8690 0 0 0
+5000 1000000 1
+L 0
+#8617
+ship~
+The Pirate's ship~
+The Pirate's ship is tied up alongside the wharf here.~
+~
+41 0 0
+8629 0 0 0
+5000 1000000 1
+L 0
+#8618
+plank gangway~
+A gangway~
+A gangway is here leading down to the jetty.~
+~
+41 0 0
+8854 0 0 0
+5000 1000000 1
+L 0
+#99999
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Adding all obj files to director
+@
+text
+@@
+

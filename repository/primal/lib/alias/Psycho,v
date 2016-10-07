@@ -1,0 +1,90 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@tele cast 'tele' $*
+adv cast 'adv' $*
+back exa back
+white get white back;q white
+skin get skin back; dri wat; put skin back
+entrance gos Hello all; ct Hello clan
+plas cast 'plasma' $*
+b5 cast 'lightn' $*; cast 'lightn' $*; cast 'lightn' $*; cast 'lightn' $*; cast 'lightn' $*
+refresh cast 'refresh' $*
+alig cast 'detect alignment' $*
+recall cast 'word' $*
+dragon cast 'dragon' $*
+rub get all.rub back;get all.rub 2.back
+dou get all.dough back;get all.dough 2.back;junk all.dough
+food cast 'create fo'; eat mush
+hp train hit;train hit;train hit;train hit;train hit
+bolt cast 'lightn' $*
+infra cast 'infra' $*
+blind cast 'blind' $*
+cri cast 'cure criti' $*
+lig cast 'cure light' $*
+str cast 'stre' $*
+detinv cast 'detect invis' $*
+sum cast 'summ' $*
+cdf get all all.cor
+mm cast 'mag' $*
+invi cast 'invis' $*
+good cast 'dispel goo' $*
+evil cast 'dispel evi' $*
+san cast 'sanct' $*
+rand s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s
+bless cast 'bless' $*
+curse cast 'curse' $*
+armor cast 'arm' $*
+heal cast 'heal' $*
+locate cast 'locate' $*
+sle cast 'sleep' $*
+charm cast 'charm' $*
+force exa force
+remo cast 'remo' $*
+p k pri; k pri; k pri; k pri; k pri
+par cast 'para' $*
+pro get pro back;q pro
+ton get heal back; q heal
+spi cast 'spirit' $*
+des rem silver;wear som
+holy cast 'holy' $*
+prep cast 'dragon';cast 'armor';cast 'bless';cast 'bless';cast 'bless';cast 'spirit';cast 'sanct';cast 'holy';
+t tel talisman $*
+h5 cast 'heal'
+water cast 'waterwalk' $*
+hit train hit;train hit;train hit;train hit;train hit
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

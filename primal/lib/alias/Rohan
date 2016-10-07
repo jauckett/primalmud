@@ -1,0 +1,19 @@
+fd cast 'create food' ; eat mushroom
+bs backstab $1
+lb cast 'lightning bolt' $1
+su cast 'summon' $1
+ad assist talon
+cc cast 'cure critical'
+k kill buffalo
+af assist exodus
+as assist smeg
+wa wake ; stand
+sl sleep
+cl cast 'cure light' rohan
+h get all.gold all.corpse
+g get all all.corpse
+cong grat ----<<<<<$*>>>>>-------
+ak assist kermit
+pp quaff white
+rre recite recall
+b track bandit

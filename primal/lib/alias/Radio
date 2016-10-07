@@ -1,0 +1,17 @@
+intro wear all;hold pen;hold knife;wield axe
+heal cast 'heal' radio
+hr get heal back;quaff heal
+r n;get all;south
+recall cast 'word of recall'
+ds cast 'dragon' radio
+mb put meat backpack
+cl cast 'cure light' radio
+bb put bread backpack
+eatb get bread backpack;eat bread
+eatm get meat backpack;eat meat
+wawa get skin backpack;drink skin;put skin backpack
+wr get white backpack;q white
+cc cast 'cure critic' radio
+th train hit;train hit;train hit;train hit;train hit
+1 rem axe;wield bee
+2 rem bee;wield axe

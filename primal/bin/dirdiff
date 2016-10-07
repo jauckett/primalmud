@@ -1,0 +1,260 @@
+#!/bin/sh
+
+# Script to maintain two dirs
+# Written by Michael Dishon, September 1999
+
+usage="$0 [-bdhoqsu -f <output file>] <dest dir> ..."
+help="\
+$usage \n\n\
+Source dir is the directory from which $0 is run\n\
+-f <filename>	Write output to file\n\
+-b	Backup overwritten files\n\
+-d	Copy files that do not exist in destination dir\n\
+-h	Displays this message\n\
+-o	Overwrite output file\n\
+-q	Quiet Mode\n\
+-s	Copy files that do not exist in source dir\n\
+-u	Update (overwrite) files in destination dir, that differ from source dir\n\ 
+
+When ran in normal mode, output is interpreted as\n\ 
++ <filename> 	source file does not exist in the destination dir\n\
+- <filename> 	destination file does not exist in the source dir\n\ 
+! <filename> 	files exist and differ\n"
+
+SOURCEDIR=`pwd`
+DATE=`date`
+
+BACKUP=0
+OUTPUT=0
+OVERWRITE=0
+UPDATE=0
+QUIET=0
+COPY_TO_SOURCE=0
+COPY_TO_DEST=0
+FILES_COPIED_SOURCE=0
+FILES_COPIED_DEST=0
+FILES_UPDATED=0
+FILES_NOT_SOURCE=0
+FILES_NOT_DEST=0
+FILES_DIFFER=0
+
+# Process the arguments
+while getopts bdf:hoqsu? flag ; do
+  case $flag in
+    b) BACKUP=1 ;;
+    d) COPY_TO_DEST=1 ;;
+    f) OUTPUT=1 ; OUTPUT_FILE="$OPTARG" ;;
+    h) echo $help ; exit 1 ;;
+    o) OVERWRITE=1 ;;
+    q) QUIET=1 ;;
+    s) COPY_TO_SOURCE=1 ;;
+    u) UPDATE=1 ;;
+    \?) echo $usage ; exit 1 ;;
+  esac
+done
+
+shift `expr $OPTIND - 1`
+
+# check to see the destination dir exists
+if [ ! -d $@ ] ; then
+  echo "Error: Directory $@ does not exist."
+  exit 1
+else
+  cd $@
+  DESTDIR=`pwd`
+  cd $SOURCEDIR
+fi
+
+# Check output file
+
+#Get full path of OUTPUT_FILE
+if [ `echo $OUTPUT_FILE | grep -c "/"` -eq 0 ] ; then
+  OUTPUT_FILE="$SOURCEDIR/$OUTPUT_FILE"
+fi
+
+if [ $OUTPUT -eq 1 ] ; then
+  if [ ! -r $OUTPUT_FILE ] ; then
+    cat /dev/null > $OUTPUT_FILE 
+  else
+    if [ ! -w $OUTPUT_FILE ] ; then
+      echo "Error: Output file $OUTPUT_FILE not writeable"
+      exit 1
+    else
+      if [ $OVERWRITE -eq 0 ] ; then
+        echo "Error: Output file $OUTPUT_FILE exists"
+        exit 1
+      else
+        cat /dev/null > $OUTPUT_FILE
+      fi
+    fi
+  fi
+fi
+
+# Header
+if [ $QUIET -eq 0 ] ; then
+  if [ $OUTPUT -eq 1 ] ; then
+    echo "$DATE: Comparing Directories:" >> $OUTPUT_FILE
+    echo "  $SOURCEDIR -- $DESTDIR" >> $OUTPUT_FILE 
+    echo "=============================" >> $OUTPUT_FILE
+  else
+    echo "$DATE: Comparing Directories:"
+    echo "  $SOURCEDIR -- $DESTDIR"
+    echo "============================="
+  fi
+fi
+
+# First process source dir 
+cd $SOURCEDIR
+for file in * ; do
+  if [ -d $file ] ; then
+    if [ $QUIET -eq 0 ] ; then
+      out="Skipping dir $file/"
+      if [ $OUTPUT -eq 1 ] ; then
+        echo $out >> $OUTPUT_FILE
+      else
+        echo $out
+      fi
+    fi
+  else
+    if [ ! -r "$DESTDIR/$file" ] ; then
+      FILES_NOT_DEST=`expr $FILES_NOT_DEST + 1`
+
+      # Output
+      if [ $QUIET -eq 0 ] ; then
+        out="+ $file"
+        if [ $OUTPUT -eq 1 ] ; then
+          echo $out >> $OUTPUT_FILE
+        else
+          echo $out
+        fi
+      fi
+
+      # Copy file from source dir to dest dir
+      if [ $COPY_TO_DEST -eq 1 ] ; then
+        if [ -w $DESTDIR ] ; then
+          cp $file "$DESTDIR/$file"
+          FILES_COPIED_DEST=`expr $FILES_COPIED_DEST + 1`
+          if [ $QUIET -eq 0 ] ; then
+            if [ $OUTPUT -eq 1 ] ; then
+              echo "Copied $file to $DESTDIR/$file ..." >> OUTPUT_FILE
+            else
+              echo "Copied $file to $DESTDIR/$file ..."
+            fi
+          fi
+        else
+          if [ $OUTPUT -eq 1 ] ; then
+            echo "Skipping $file, $DESTDIR not writeable ..." >> OUTPUT_FILE 
+          else
+            echo "Skipping $file, $DESTDIR not writeable ..."
+          fi 
+        fi 
+      fi 
+
+    # File exists, check if it differs
+    else
+      if [ `diff --brief $SOURCEDIR/$file $DESTDIR/$file | grep -c differ` -ge 1 ] ; then
+        FILES_DIFFER=`expr $FILES_DIFFER + 1`
+        if [ $UPDATE -eq 1 ] ; then
+          if [ -w $DESTDIR/$file ] ; then
+            FILES_UPDATED=`expr $FILES_UPDATED + 1`
+            if [ $BACKUP -eq 1 ] ; then
+              cp "$DESTDIR/$file" "$DESTDIR/$file.dirdiff"
+              echo "Backuped up $DESTDIR/$file to $DESTDIR/$file.dirdiff" 
+            fi
+            cp -f $file "$DESTDIR/$file"
+            if [ $OUTPUT -eq 1 ] ; then
+              echo "Overwrote $DESTDIR/$file with $SOURCEDIR/$file ..." >> OUTPUT_FILE
+            else
+              echo "Overwrote $DESTDIR/$file with $SOURCEDIR/$file ..."
+            fi
+          else
+            if [ $OUTPUT -eq 1 ] ; then
+              echo "$DESTDIR/$file not writeable, skiping ..." >> OUTPUT_FILE
+            else
+              echo "$DESTDIR/$file not writeable, skiping ..."
+            fi
+          fi
+        fi
+
+        # Output
+        if [ $QUIET -eq 0 ] ; then
+          if [ $OUTPUT -eq 1 ] ; then
+            echo "! $file" >> $OUTPUT_FILE
+          else
+            echo "! $file"
+          fi
+        fi
+      fi
+    fi
+  fi
+done 
+
+# Now check the destination dir
+cd $DESTDIR
+for file in * ; do
+  if [ -d $file ] ; then
+    if [ $QUIET -eq 0 ] ; then
+      out="Skipping dir $file/"
+      if [ $OUTPUT -eq 1 ] ; then
+        echo $out >> $OUTPUT_FILE
+      else
+        echo $out
+      fi
+    fi
+  else
+    if [ ! -r "$SOURCEDIR/$file" ] ; then
+      FILES_NOT_SOURCE=`expr $FILES_NOT_SOURCE + 1`
+
+      # Output
+      if [ $QUIET -eq 0 ] ; then
+        if [ $OUTPUT -eq 1 ] ; then
+          echo "- $file" >> $OUTPUT_FILE
+        else
+          echo "- $file"
+        fi
+      fi
+
+      # Copy the file from destination dir to source dir
+      if [ $COPY_TO_SOURCE -eq 1 ] ; then
+        if [ -w $SOURCEDIR ] ; then
+          FILES_COPIED_SOURCE=`expr $FILES_COPIED_SOURCE + 1`
+          cp $file "$SOURCEDIR/$file"
+          if [ $QUIET -eq 0 ] ; then
+            if [ $OUTPUT -eq 1 ] ; then
+              echo "Copied $file to $SOURCEDIR/$file ..." >> OUTPUT_FILE
+            else
+              echo "Copied $file to $SOURCEDIR/$file ..."
+            fi
+          fi
+        else
+          if [ $OUTPUT -eq 1 ] ; then
+            echo "Skipping $file, $SOURCEDIR not writeable ..." >> OUTPUT_FILE
+          else
+            echo "Skipping $file, $SOURCEDIR not writeable ..."
+          fi
+        fi
+      fi
+    fi
+  fi
+done
+
+cd $SOURCEDIR
+
+#Stats
+if [ $QUIET -eq 0 ] ; then
+  if [ $OUTPUT -eq 1 ] ; then
+    echo "Files not in destination dir:    $FILES_NOT_DEST" >> $OUTPUT_FILE
+    echo "Files not in source dir:         $FILES_NOT_SOURCE" >> $OUTPUT_FILE
+    echo "Files that differ:               $FILES_DIFFER" >> $OUTPUT_FILE
+    echo "Files copied to destination dir: $FILES_COPIED_DEST" >> $OUTPUT_FILE
+    echo "Files copied to source dir:      $FILES_COPIED_SOURCE" >> $OUTPUT_FILE
+    echo "Files overwritten in source:     $FILES_UPDATED" >> $OUTPUT_FILE
+  else
+    echo "Files not in destination dir:    $FILES_NOT_DEST"
+    echo "Files not in source dir:         $FILES_NOT_SOURCE"
+    echo "Files that differ:               $FILES_DIFFER"
+    echo "Files copied to destination dir: $FILES_COPIED_DEST"
+    echo "Files copied to source dir:      $FILES_COPIED_SOURCE"
+    echo "Files overwritten in source:     $FILES_UPDATED"
+  fi
+fi

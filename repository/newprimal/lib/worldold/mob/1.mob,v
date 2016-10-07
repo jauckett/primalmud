@@ -1,0 +1,487 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.21;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.30;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@#1
+jeweler~
+the Jeweler~
+This is the Jeweler, don't mess with him.
+~
+The Jeweler.
+~
+253978 12416 0 S
+34 -20 -100 1d1+2500 4d20+30
+15000 30000
+8 8 1
+#2
+storekeeper~
+the Storekeeper~
+The storekeeper stands behind the counter, with a slightly impatient look on his face.
+~
+The tall storekeeper, who moves two 100 pound bags of flour around on his shoulders.
+~
+253978 12416 0 S
+34 -20 -100 1d1+2500 4d20+30
+15000 30000
+8 8 1
+#3
+weaponsmith~
+the Weaponsmith~
+The weaponsmith stands confidently behind the counter.
+~
+The weaponsmith looks like a master in the use of all types of weapons.
+~
+253978 12416 0 S
+34 -20 -100 1d1+2500 4d20+30
+15000 30000
+8 8 1
+#4
+armourer~
+the Armourer~
+The Armourer stands behind the counter.
+~
+An old but strong looking armourer.
+~
+253978 12416 0 S
+34 -20 -100 1d1+2500 4d20+30
+15000 30000
+8 8 1
+#5
+receptionist~
+The Receptionist~
+A receptionist is standing behind the counter here, smiling at you.
+~
+You notice a tired look in her face.  She looks like she isn't paid well
+enough to put up with any crap from mud players with attitudes.
+~
+10243 32 900 S
+70 0 -10 1d1+30000 50d50+100
+0 0
+8 8 2
+#8
+alchemist~
+the Alchemist~
+An Alchemist walks around behind the counter, talking to himself.
+~
+The alchemist looks old and senile, and yet he looks like a very powerful
+wizard. He is equipped with fine clothing, and is wearing many fine
+rings and braclets.
+~
+253978 12416 0 S
+34 -20 -100 1d1+2500 4d20+30
+15000 30000
+8 8 1
+#9
+wizard~
+the Wizard~
+A Wizard walks around behind the counter, talking to himself.
+~
+The wizard looks old and senile, and yet he looks like a very powerful
+wizard. He is equipped with fine clothing, and is wearing many fine
+rings and braclets.
+~
+253978 12416 0 S
+34 -20 -100 1d1+2500 4d20+30
+15000 30000
+8 8 1
+#10
+guildmaster master~
+the Guildmaster~
+Your guildmaster is standing here.
+~
+Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge she possesses.  She is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.
+~
+256026 12416 0 S
+34 -20 -100 1d1+2500 4d20+30
+0 30000
+8 8 2
+#11
+guildmaster master~
+the Guildmaster~
+Your guildmaster is standing here.
+~
+You are in no doubt that this guildmaster is truly close to your god; he has
+a peaceful, loving look.  You notice that he is surrounded by a white aura.
+~
+256026 12416 0 S
+34 -20 -100 1d1+2500 2d8+30
+0 30000
+8 8 1
+#12
+guildmaster master~
+the Guildmaster~
+Your guildmaster is standing here.
+~
+You realize that whenever your guildmaster moves, you fail to notice it -
+the way of the true thief.  She is to be dressed in poor clothing, having
+the appearance of a beggar.
+~
+256026 12416 0 S
+34 -20 -100 1d1+2500 2d8+30
+0 30000
+8 8 2
+#13
+guildmaster master~
+the Guildmaster~
+Your guildmaster is standing here.
+~
+This is your master. Big and strong with bulging muscles. Several scars
+across his body proves that he was using arms before you were born. He
+has a calm look on his face.
+~
+256026 12416 0 S
+34 -20 -100 1d1+2500 2d8+30
+0 30000
+8 8 1
+#20
+guard~
+the City Guard~
+A City Guard is here keeping law and order.
+~
+The guard is heavily armoured and looks like a very skilled warrior.
+~
+2183 0 1000 S
+15 5 1 8d10+450 4d6+5
+8829 20000
+8 8 1
+#21
+postmaster post master~
+The Postmaster~
+The head Postmaster is standing here, waiting to help you with your mail.
+~
+The Postmaster seems like a happy old man, though a bit sluggish.  He worries
+about the reputation of the MMS (Midgaard Mail Service), as many people seem to
+think that it's slow.  Perhaps if he were to brush the cobwebs from his uniform
+it'd help to make a better impression.
+~
+2051 8 1000 S
+33 0 -10 1d1+30000 100d100+18
+0 300000
+8 8 1
+#100
+dog rabid~
+the Rabid Dog~
+A Rabid Dog is here snarling at you.
+~
+The dog completely mad and foaming at the mouth.
+It looks like it would attack anything on site.
+~
+96 0 -500 S
+1 20 10 1d6+4 1d4+0
+10 100
+8 8 1
+#101
+beggar~
+the Beggar~
+A Beggar is here ask for a few coins.
+~
+The begger looks undernourished and sickly.
+~
+68 0 0 S
+1 20 10 1d6+3 1d2+0
+10 100
+8 8 1
+#103
+goblin~
+the Goblin~
+A small ugly Goblin is here
+~
+The goblin looks repuslive, and sneaky.
+~
+68 0 -100 S
+1 19 9 1d8+3 1d6+1
+571 100
+8 8 1
+#104
+wight~
+the Wight~
+A Disgusting Wight is here, looking at you with evil red eyes.
+~
+The wight is an abomination and the product of some evil magic. The can vaguely
+make out the human features of this hideous creature but the wight is now far
+from human...
+~
+98 138 -1000 S
+5 15 2 5d8+3 2d8+5
+2542 900
+8 8 1
+#105
+merchant~
+the merchant~
+A merchant is standing here in fine robes.
+~
+The merchant looks pretty tough.
+~
+132 0 100 S
+9 11 2 3d10+120 1d9+3
+3512 6000
+8 8 1
+#106
+traveller~
+the traveller~
+A seasoned traveller stands here enjoying the fresh air.
+~
+The traveller looks like he has travelled throughout the land.
+~
+132 0 0 S
+15 5 0 3d10+190 1d12+5
+5650 20000
+8 8 1
+#107
+drunk~
+the drunk~
+A singing happy drunk is here.
+~
+The drunk is pissed out of his head.
+~
+0 0 0 S
+2 20 10 1d8+8 1d4+4
+80 200
+8 8 1
+#108
+citizen~
+the citizen~
+A citizen of Haven is here going about their business.
+~
+The citizen looks quite bored.
+~
+1 0 0 S
+3 17 8 3d9+10 1d7+3
+1193 350
+8 8 1
+#109
+trickster~
+the trickster~
+A trickster is here practicing magic tricks.
+~
+The trickster still has a lot to learn.
+~
+193 24 0 S
+8 12 7 3d6+68 1d5+1
+1947 3750
+8 8 1
+#110
+janitor~
+the janitor~
+A janitor is here sweeping the street.
+~
+The janitor looks quite bored.
+~
+1 0 0 S
+3 17 8 3d9+10 1d7+3
+500 350
+8 8 1
+#111
+deadly virus~
+a Deadly Virus~
+a Deadly Virus is floating in the air around here.
+~
+the deadly virus is moving towards you.
+~
+254017 50 0 S
+3 17 8 3d9+10 1d7+3
+1 350
+8 8 0
+#112
+bacteria~
+a Bacteria~
+a Bacteria is here hunting virii
+~
+the Bacteria is looking for a virus
+~
+254017 58 0 S
+30 17 -10 3d6+1000 1d7+3
+500 10
+8 8 0
+#113
+altar priest~
+an Altar priest~
+An altar priest is here, he is very busy.
+~
+The priest hold a blooded dagger and looks Excited!
+~
+3 0 0 S
+3 17 8 3d9+10 1d7+3
+1193 350
+8 8 1
+#114
+master trainer~
+the Master Trainer~
+Master Trainer is standing here.
+~
+Even though your guildmaster looks old and tired, you can clearly see the
+vast amount of knowledge she possesses.  She is wearing fine magic clothing,
+and you notice that she is surrounded by a blue shimmering aura.
+~
+256027 12416 0 S
+70 -20 -100 1d1+2500 20d20+100
+0 0
+8 8 2
+#115
+citizen~
+the citizen~
+A citizen of Haven is here going about their business.
+~
+The citizen looks quite bored.
+~
+65 0 0 S
+3 17 8 3d9+10 1d7+3
+1193 350
+8 8 1
+#116
+werewolf wolf~
+the werewolf~
+A large viscious looking wolf is standing here, growling softly.
+~
+This large beast could be the fabled Werewolf of Haven. You have
+heard some very disturbing stories about what this thing has done
+to some of the citizens of Haven, but surely they're just stories...
+~
+1056773 1024 -1000 S
+20 0 -10 900d1+4 6d6+7
+0 100000
+8 8 0
+#117
+guard~
+the rOsE cLuB's guard~
+The rOsE cLuB's guard is standing here
+~
+The rOsE cLuB's guard is standing here.    
+~
+253978 12416 0 S
+1 10 0 10d10+25000 10d10+10
+0 0
+8 8 1
+#118
+guard~
+the Avengers's guard~
+The Avengers's guard is standing here.
+~
+The Avengers's guard is standing here.    
+~
+253963 168 0 S
+1 10 0 10d10+25000 10d10+10
+0 0
+8 8 1
+#119
+guard~
+The Sentinel of Guardian Hall~
+The Sentinel of Guardian Hall is standing here.
+~
+The Guardians of Justice guard is standing here.    
+~
+253963 168 0 S
+1 10 0 10d10+25000 10d10+10
+0 0
+8 8 1
+#120
+guard~
+the Jedi's guard~
+The Jedi's guard is standing here.
+~
+The Jedi's guard is standing here.    
+~
+253963 168 0 S
+1 10 0 10d10+25000 10d10+10
+0 0
+8 8 1
+#121
+guard~
+A USS Enterprise security officer~
+A USS Enterprise security officer guards the entrance to HQ here.
+~
+A USS Enterprise security officer guards the entrance to HQ here.
+~
+253963 168 0 S
+1 10 0 10d10+25000 10d10+10
+0 0
+8 8 1
+#122
+healer~
+A kindly clan healer~
+A Kindly clan healer is tending peoples wounds here.
+~
+A Kindly clan healer is tending peoples wounds here.
+~
+253963 168 0 S
+10 10 0 10d10+25000 10d10+10
+0 0
+8 8 1
+#123
+bartender innkeep fat lazy slob~
+fat lazy slob~
+A fat burly slob makes a half hearted effort at cleaning the bar, running his rag through the dirt.
+~
+The bartender is a fat lazy slob, this bar makes enough money to employ several
+helpers and renovate the place. Instead he guards every coin that crosses his
+palm with the jealousy of a dragon protecting its hoard.
+~
+3399682 1192 0 S
+50 -80 -8 50d50+10000 50d50+100
+10000000 1000
+8 8 1
+#99999
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

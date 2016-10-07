@@ -1,0 +1,5 @@
+dv cast 'detect invis' $1
+infra cast 'infra' $1
+cl cast 'cure light' me
+qw take white backpack; quaff white
+gc get all all.corpse

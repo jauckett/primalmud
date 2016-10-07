@@ -1,0 +1,69 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  REL1:1.1.1.1 PRIMAL:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.07.11.13.34.15;  author primal;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@<HTML>
+<HEAD>
+<TITLE> Welcome to PrimalMUD </TITLE>
+</head>
+
+<BODY BGCOLOR= white text=black>
+
+<map name="mainmap">
+
+<area href="areas/areas.htm" coords="360, 100, 415, 160" alt="Areas" shape="rect">
+<area href="play/play.htm" coords="120, 100, 175, 170" alt="Players" shape="rect">
+<area href="clans/clans.htm" coords="260, 100, 410, 160" alt="Clans" shape="rect">
+<area href="read/read.htm" coords="180, 100, 250, 160" alt="Reading && Information" shape="rect">
+<area href="worlds/worlds/news.htm" coords="420, 100, 450, 170" alt="Latest happenings" shape="rect">
+</map><CENTER><img src="primalMap.jpg" usemap="#mainmap" border=0 width="596" height="323"> <BR>
+<b>primal.labyrinth.net.au 4000</b>
+</center>
+<p align="center">&nbsp;You have been the <img src="/cgi-sys/Count.cgi?df=sandiis.com-primalmud-index.html&dd=C&ft=0">
+person to visit this page!</p>
+
+<CENTER>
+<P>
+<font size = 2> Last Updated: <!--webbot bot="Timestamp" S-Type="EDITED"
+S-Format="%d %B, %Y" startspan -->24 May, 2000<!--webbot bot="Timestamp" endspan i-checksum="13956" -->
+ </font>
+</center>
+&nbsp;
+</body></html>
+@
+
+
+1.1.1.1
+log
+@
+Added:
+- The webpage!
+
+@
+text
+@@

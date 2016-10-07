@@ -1,0 +1,777 @@
+AC
+
+&2AC&n
+
+"AC" is your &2armor class&n.  It is a number from -10 to 10, roughly
+defined as follows:
+
+  10 Naked person
+   0 Very Heavily armored (Plate mail, and "two shields") 
+ -10 Armored battle tank
+
+The score command displays your &2armor class&n as a number such as &378/10&n;
+this means 78 on a scale from -100 to 100 (i.e., 7.8 on the scale from
+-10 to 10.)
+
+See also: SCORE
+#
+AFK
+
+&2AFK&n
+This stands for &2Away From Keyboard&n. Once you type this command it will 
+give anyone who looks at the "who" command an &3<AFK>&n next to your name 
+and title.
+
+> &2afk&n
+&WYou are now marked as &3(AFK)&n&W.  You will recieve no tells!&n
+
+> who
+Players
+-------
+[  1 F Px PLR] Hope &3(AFK)&n
+
+If you try to tell someone who is marked as &2(AFK)&n you will receive a message
+saying:
+
+> tell hope hi how are you?
+She's is marked &3(AFK)&n; try again later.
+
+See Also: FLAGS
+
+#
+ALIGNMENT
+
+&2ALIGNMENT&n
+
+Your alignment is a measure of how good or evil you are.  This is a
+number between &r-1000&n and &c1000&n, the greater the number, the more Good you
+are.  If you drop below -350, you will be &rEvil&n, and will have a &rRed Aura&n
+to those with Detect Alignment.  If you rise above 350, you will be
+&cGood&n, and will have a &cBlue aura&n.
+
+Some items require you to be either &cGood&n, &rEvil&n, or &WNeutral&n, before you
+can use them.
+#
+ANGEL
+
+&2ANGEL&n
+
+&cAngels&n are players who should be held in high respect by all players.
+
+They are here to help newbies, hold quests and help with the general
+running of Primal Mud. 
+
+*To become an &cAngel&n you need to reach the level of champion then you have
+to contribute more than simply playing time. If you are interested in
+becoming an &cAngel&n talk to one of the &YGod's&n about this.
+
+#
+BANK WITHDRAW DEPOSIT BALANCE
+
+&2Bank Withdraw Deposit Balance&n
+
+&3Usage:&n &4deposit <amount>
+       withdraw <amount>
+       balance&n
+
+Commands to take money out of the bank, put money in the bank, or see how
+much money you have in the bank.  Can be used at any branch of the First
+National Bank of CircleMUD (wherever you see an automatic teller machine).
+
+Example:
+
+  > deposit 400
+  > withdraw 1000
+  > balance
+
+See Also: MONEY COINS
+#
+"BLACKJACK BJ"
+
+&2Blackjack&n
+
+&3Usage:&n &4bj <amount>
+       <split | stand | hit>&n     
+
+The Card Game... Blackjack
+
+SEE ALSO:  SLOTS HORSE RACING CASINO 
+#
+BOARDS
+
+&2Boards&n
+
+Bulletin boards are the forum of interplayer communication on the MUD.
+There are different bulletin boards for different purposes -- for example,
+a standard mortal board, a board for immortals, a board for fun "social"
+messages, etc.  Naturally, not all players may be allowed to read all
+types of boards.
+
+Type &4"LOOK BOARD"&n to see the messages already posted on a board.  Type
+&4"WRITE <subject>"&n to post a message to a board; terminate a message with
+a &4'@ or /s'&n as the first character on a new line.  Type &4"READ <number>"&n 
+to read a post.  Type &4"REMOVE <number>"&n to remove your own messages.
+
+Example:
+
+  > look at board
+  > write Am I using these boards correctly?
+  [writes the message; terminates with a '@ or/s']
+  > look at board
+  > read 6
+  > remove 6
+#
+CASINO
+
+&2Casino&n
+
+The Primal Casino is located adjacent to the Tavern.
+It was implemented by the benevolent but oft misunderstood
+God &1Talisman&n.
+It's only purpose is to releive players of their hard earned
+coin. Good luck.
+
+NOTE: Talisman is also famous for his Tali_procs.
+
+See Also: BLACKJACK SLOTS HORSE RACING
+#
+CHANGE
+
+&2Change&n
+
+This command will force your character to change into the werewolf or
+vampire if infected by either of them.  The change command can only be
+used at night so one would have to use the TIME command to keep track
+of when night is.  Also the MOON command would have to be monitored as you 
+can not change on a moonless night.
+
+See Also: TIME MOON WEREWOLF VAMPIRE
+#
+CHANNELS
+
+&2Channels&n
+
+Primal Mud has a wide range of channels you can talk on
+Some of these channels are visible by all players, some are more private.
+This is a rough list and guide to how you can communicate on Primal
+
+
+SAY, ASK, GSAY,WHISPER  SHOUT, HOLLER, GOSSIP  <----- Available to all.
+NEWBIE                                         <----- Available to all for newbie help
+CTALK                                          <----- Visible to other clan members
+IMMNET                                         <----- Eternals and above only
+
+#
+CHAMPION
+
+&2Champion&n
+
+Champion is the final level you can reach at primal by fighting mobs.
+At reaching champion you may still kill mobs and players as well as 
+obtaining a few extra advantages.
+To advance to an Angel you need to contribute more than just playing time.
+The Gods make a final decision on whether you are worthy to become
+an angel so you need to show true Champion qualities first.
+#
+CLASSES
+
+&2Classes&n
+
+The current registered classes within Primal MUD are as follows:
+
+Cleric / Magician / Thief / Warrior (base classes)
+Druid / Priest / Nightblade / Battlemage / Spellsword / Paladin (first remort classes)
+Master (ultimate class)
+#
+CREDITS
+
+&2Credits&n
+
+This will show you the original creators of the base we use.
+#
+DEATH
+
+Death will come to you if you don't watch out!
+
+See also: Ghost & Autocorpse
+#
+EXPERIENCE XP
+
+&2Experience&n
+
+Whenever you kill a monster or a player, you earn experience points. When
+enough experience points are earned, you raise a level.
+Things you should know about experience points:
+
+  * When damaging a monster, you get experience points.
+
+  * If you kill a monster of higher level than yourself, you get bonus
+    experience points. If killing a monster of lower level you'll gain
+    less experience points
+
+See Also: GROUP
+#
+"EVENT"
+
+&2Event&n
+
+This is new code that has been implemented to make quests easier and fairly automated!
+There are some new events been created as well!
+
+See Also: Event Goldrush, Event Happy Hour, Event Fire
+#
+"EVENT GOLDRUSH"
+
+&2Event Goldrush&n
+
+When the goldrush event is created by a god or the game it means that
+little chunks of gold will be placed in the zone the event nominates!
+The best chance to get the gold is to go to the zone it stated and run
+around like crazy picking up any piece of gold somebody has left there
+you can find! Then go back to the jewelers and cash them all in!
+
+See Also: Event, Event Happy hour, Event Fire
+#
+"EVENT HAPPY HOUR"
+
+&2Event Happy Hour&n
+
+When a Happy hour is started it means that  you will get double exp 
+on the kills within the events life span!
+
+See Also: Event, Event Goldrush, Event Fire
+#
+"EVENT FIRE"
+
+&2Event Fire&n
+
+This event will burn the zone down! This event can be used in conjunction
+with a quest event to create a "Last man standing" effect.  If you happen
+to be in a room that the event is about to burn you will be dc'ed from 
+the game!
+
+See Also: Event, Event Goldrush, Event Happy hour
+#
+FLAGS
+
+&2Flags&n
+
+Players sometimes have FLAGS after their names in the WHO list.  These
+flags are always in parentheses, not brackets or braces.
+
+FLAG        MEANING
+----------- ---------------------------------------------------------
+(KILLER)    Player is trying to kill other players.  That means you
+	    can try to kill him/her without being flagged.
+(invis)     Player is invisible; you can see him/her because you are
+	    sensitive to the presence of invisible things.
+(writing)   Player is writing on the board; do not disturb.
+(mailing)   Player is writing mail; do not disturb.
+(deaf)	    Player has chosen not to hear shouts.
+(notell)    Player has chosen not to accept tells.
+(quest)     Player is participating in a quest currently being run by
+	    the Gods.
+(AFK)	    Player is currently away from keyboard and will not receive
+	    any tells.
+(snob)	    Player has chose to ignore another player and will receive
+	    no tells from them.
+
+See also:  AFK IGNORE NOSHOUT NOTELL QUEST STEAL
+#
+GHOST
+
+As a newbie you may experience mobs that are slightly tougher than 
+yourself and can bring death to your door! When you do die in the 
+game as a newbie you will find yourself sent back to the 
+Riverside Tavern where you are resting, you will also have a "ghost" 
+flag next to  your name in the who list.  Whilst being a ghost you 
+will not be able to attack anything until you are fully restored to 
+max hitpoints.  Once this has been done the "ghost" flag will 
+automatically remove from your name and you will be able to continue 
+fighting.
+
+See also: Autocorpse
+#
+GUILD
+
+The Guildhouse is the place where mortals may go to escape the troubles and
+perils of a cruel world. Due to the implementation of the classes you must
+find the correct guild for your class! They are located all around Haven and
+I am sure if you enter the wrong guild you will be told by the guildmaster
+where to go!
+
+See also: PRACTICE
+#
+HAVEN
+
+&2Haven&n
+
+There is a map of Haven available and one loads automatically when you log
+on for the first time.
+#
+HINT HINTS
+
+&2Hint Hints&n
+
+Typing this will make a hint appear on the screen. To toggle this on or off
+type &4hint <on/off>&n.
+#
+HORSE RACING
+
+&2Horse Racing&n
+
+&3Usage:&n &4race <amount> <short | long, default = medium>&n
+
+You can bet on the local Haven Horse Racing meeting.
+
+SEE ALSO:- SLOTS BLACKJACK CASINO
+#
+HOUSES
+
+&2Houses&n
+
+A house entails two things: access control and crash protection. 
+Only you and your guests will be allowed to enter the house.  
+Your house will be crash-saved every five minutes.  You can force 
+your house to save by typing 'save' while standing in your house.
+In the event of a crash, the objects in your house as of the last crash-save
+will be loaded back into your house when the MUD reboots.  Also, if you own
+a house, and quit from the game while standing in your house, you will be
+loaded into your house next time you enter the game.
+
+Guests of your house can be defined using the HOUSE command.  See HOUSE for
+more information.
+
+Houses are an alternative to renting.  You can simply enter your house,
+drop your items, and type 'quit', and everything in your house
+will be saved for you to retrieve on your return.
+There is currently a 50 object limit which can be stored in your house.
+Of course, players must expect to pay a much higher premium for
+the convenience of houses;
+
+Contact Sandii via mudmail for the purchace of a house.
+
+HOUSE OPTIONS AND PRICE LIST
+ 
+40 Million up front and a minimum level of 30 - one room 50 items
+
+Extra 40 Million for additional rooms up to 3 extra 50 items each room
+ 
+An extra 20 Million will allow one room to be 2xRegen
+Added Extra's such as Fountain's or Specific room descriptions
+to be done at God's discretion or at a negotable price.
+
+NOTE: Only one house per character with the maximum of 3 rooms
+
+See also: HOUSE, QUIT
+#
+IMPLEMENTOR
+
+&2Implementor&n
+
+The most powerful being in existence.  John, Murf and Cassandra.
+#
+INN INNS CRYOGENIC CRYO RECEPTION
+
+&2Inn Reception&n
+
+&5Currently not implemented on Primal, but keep updated by reading Motd
+and News in case there is a reintroduction of the rent system.&n
+
+See also: OFFER RENT MONEY
+#
+LASTON
+
+&2Laston&n
+
+&3Usage:&n &4laston <player name>&n
+
+At level 25 you gain access to the laston command which informs you of
+when a selected player was last logged on.
+#
+LIGHT LANTERN
+
+&2Light Lantern&n
+
+Type 'hold lantern' to light and hold your lantern.  Lanterns can be
+purchased at the General Store.  There is also a new skill called Torch.
+
+See Also: Torch
+#
+LINK
+
+&2Link&n
+
+A lot of players have problems with their links to the game.  This can be
+very hazardous to your health in the middle of a battle, of course.
+
+ I. If your link is broken, you will automatically attempt to flee each
+    time someone attempts to hit you.  If you manage to flee, then you
+    will be saved by divine forces, and put in a safe place until you
+    reconnect to the game.
+
+II. If your link jams (freezes), you have a problem.  The only solution we
+    can give is that you break your link as quickly as possible.  By
+    breaking the link you can hope that the above procedure is initiated.
+
+    Do not try to get out of a fight by breaking link.  You will not be
+    reimbursed for any experience or equipment if you purposefully
+    cut your link.
+#
+MAP
+
+&2Map&n
+
+&3Usage:&n &4read map&n
+
+A map of Haven is loaded with your character when you enter the game
+for the first time. It shows all places of interest in the town and 
+all exits from Haven. An Atlas of Primal is also available from the 
+General Store for the price of 12 coins.
+
+See Also: HAVEN
+#
+MISC
+
+Use ! to repeat the last command typed at the keyboard.
+
+Use ^ to replace a string from the last command with a new string.  The
+syntax is the same as in csh: "^old-string^replacement"  For example:
+
+> tell rasmusse Hi there, how are you?
+No-one by that name here.
+
+> ^rasmusse^rasmussen
+You tell Rasmussen, 'Hi there, how are you?'
+
+> ^you^you doing^
+You tell Rasmussen, 'Hi there, how are you doing?'
+
+See also: ALIAS
+#
+MONEY COINS
+
+&2Money & Coin&n
+
+Money is a necessary part of PrimalMud.  You need money to buy food and
+drink, to buy practice sessions at the guild, to buy weapons, armor and
+equipment, and so on.  The best way to make money is to kill monsters.
+Most monsters will be carrying some money, and this can be picked up off
+their corpse after you kill them.  If you practice
+stealing at the guild, you can also steal coins off them.
+
+Example (after killing monster):
+
+  > examine corpse
+  > get coin corpse
+  > steal gold <mob>
+
+See Also: EXAMINE GET STEAL
+#
+MORTAL KOMBAT MORTALKOMBAT
+
+&2Mortal Kombat&n
+
+&3Usage:&n &4mortalk&n
+
+The Mortal Kombat arena is designed for players to  fight with each other
+to the death. It is a place where your strength and skills can be tested
+to their limits.
+
+To enter mortalkombat simply type Mortal or MortalKombat 
+
+There are four rooms in which you may choose to fight in. Take your pick.
+
+The entrance fee into MortalKombat is 10k in gold and there is no experience
+lost or gained during the fight. 
+If you unluckily die you return to your default recall position with full
+hit points and equipment restored. You are left in a stunned state for a few
+seconds but this is understandable! 
+#
+NEWBIE
+
+&2Newbie&n
+
+If you are new here suggestions on help are SCORE HELP HAVEN
+also INFO POLICY NEWS 
+
+The help files here are quite informative so use them if you have difficulty.
+
+There is also a help channel for you called newbie
+Type newbie <what you want to say>
+#
+NEWS
+
+&2News&n
+
+This command will bring up &4The NEW PrimalMUD Herald&n. Happy reading.
+#
+PLAY
+
+&2Play&n
+
+Well what do you want it to do? Really!
+#
+POLICY
+
+&2Policy&n
+
+This was put into place to regulate the players that really didn't want to 
+make PrimalMUD a nice place to play in.  Anyone caught breaking the policy
+will be dealt with severally and with extreme force.  So read your policy
+and be very very aware of what it is saying.
+#
+QUITREALLY
+
+&2Quitreally&n
+
+Has been replaced with the quit command.
+
+see also: QUIT HOUSE RENT
+#
+REALTIME
+
+&2Realtime&n
+
+For those who forget where they are and need a rude shock when they type
+this command.
+#
+REPEAT
+
+&2Repeat&n
+
+&3Usage:&n &4repeat&n
+
+Used to toggle whether or not the mud echoes your communication 
+commands to you (i.e. the MUD will tell you what you just said, group-said,
+shouted, or told someone).  This is useful to verify what you just said, but
+can be annoying if you have a slow link.
+
+See also:  SAY GSAY TELL SHOUT HOLLER
+#
+RULES
+
+&2Rules&n
+
+We want Primal Mud to be a fun and enjoyable place to be but this means
+you need to abide by the few rules that we do set. Failure to read
+POLICY and follow these rules can result in demotion, deletion and finally
+banning of your site. We do not like to have to resort to these measure
+so please read POLICY and follow the few guidelines we have set out.
+
+Thank you The Gods at Primal.
+#
+SHOP SHOPS STORE
+
+&2Shops & Stores&n
+
+Shops are places where the adventurer may purchase equipment for his quests,
+and where he may sell his treasure if he should manage to survive the 
+perils with his life and sanity intact. Many shops trade only in a specific 
+type of merchandise. Thus, a baker may well refuse to buy your armor, even 
+if it is of high quality!
+To some people, the prospect of obtaining the entire inventory of a shop by
+murdering the keeper may appear tempting - but beware: The shopkeepers are 
+often rugged, capable men; roughened by years of trading and, indeed, surviving
+in a world where the only safe prospect is death in the end.
+
+See also: BUY, SELL, LIST, VALUE
+
+#
+SLOTS
+
+&2Slots&n
+
+&3Usage:&n &4slots <amount>&n
+
+A slot machine.. Where you can put your money in a little hole and
+press a little button and see if you win a BIG prize!
+
+SEE ALSO:- HORSE RACING BLACKJACK CASINO
+#
+SNAP CARDS DECK
+
+&2Cards&n
+
+To play snap you must be in the tavern.
+Look cards for the commands to play the game.
+#
+SPEEDWALK
+
+&2Speedwalk&n
+
+Following is a listing of some of the common speedwalks for the zones within
+PrimalMUD. To begin you must be at the recall point, ie where
+Gamina is.
+
+Level 1-10
+
+Primal Street - n;n;w;w;w;n;
+
+Labyrinth - n;n;w;w;w;n;e;e;s;s;u;n;                           
+
+Graveyard - s;e;e;e;e; open gate; e;e;e;e;e;s;s;s;s;s;s;s;s
+
+Plains - s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e
+
+Level 20-30
+ 
+Darask - s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w
+;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+
+Level 30-40
+
+Magic The Gathering - s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;w;w;w
+
+Tudor - s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s
+;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;
+s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+
+NOTE: If you ask or mudmail Sandii for any other Speedwalks you
+      might like to see here, they may get put in.
+#
+STAT STATS
+
+&2Stats&n
+
+STATS can be improved by TRAIN to improve your NATURAL base stats. This 
+can be done at the Master Trainer who is located at the Paladin Temple in the
+City of Haven.
+
+As you progress through the levels you are given a bonus stat "point" per level
+this will accumulate to help you train your stats up.
+
+See Also: PRACTICE TRAIN 
+#
+STRING
+
+&2String&n
+
+For changing the text-strings associated with objects and characters. The
+format is:
+
+string <type> <name> <field> [<string> | <keyword>]
+
+Type is either 'obj' or 'char'.
+Field is one of the following(the names may be abbreviated):
+Name                  (the call-name of an obj/char - kill giant)
+Short                 (for inventory lists (obj's) and actions (char's))
+Long                  (for when obj/character is seen in room)
+Title                 (for players)
+Description           (For look at. For obj's, must be followed by a keyword)
+Delete-description    (only for obj's. Must be followed by keyword)
+
+Where a string is expected as the last argument, a newline will make you enter
+a string mode, and the game will prompt you for new lines to the string until
+you exceed the maximum length for the string or you end a line with a '@'.
+
+Mobiles and objects currently can not be strung.
+#
+TAG
+
+&2Tag&n
+
+Tag is an area where you get to chase and tag all the other players in 
+the zone.
+
+There are certain rules you need to follow to play tag. These can be read
+at the entrance of the tag arena on the tag board.
+
+Two or more players are needed to play tag and to commence the game you need
+to be teleported into the zone by a God. 
+
+#
+"TRAIN"
+
+&2Train&n
+
+&3Usage:&n &4list
+       train <stat>
+       train [amount] <hit | mana | move>&n
+
+Train is used to improve your natural base stats. This can be done at the 
+Master Trainer who is located at the Paladin Temple in the City of Haven.
+
+The amount of stat points required to train 1 stat up can be found by using
+the list option at the Master Trainer. The list will give you all information
+required.  How much to train 1 Stat up by how many stat points you require.
+
+At some point in your adventure you might find you need to learn spells and
+skills that require a higher base stat than you started with.
+
+You may also train your hit points and mana at the Training Master. The cost
+of training Hit points, Mana and movement once cost gold and lots of it, now
+training these 3 things cost experience.  So when you want to train them you
+must have some experience "free" before you can. That means you can't level
+then try to train as your experience is at it's highest. You would have to reduce
+your experience down by fighting mobs then you could train. Just remember try
+not to level if you want to train your hit or mana as then you have to start
+all over again.
+
+You can also train hit, mana and move in multiples in one statement see
+Example:
+
+  >train wis
+  >train 20 hit
+  >train hit
+
+See Also:- PRACTICE STATS
+
+#
+VAMPIRE
+
+&2Vampire&n
+
+&5Currently not fully implemented and is under consideration by the Gods.&n
+
+A vampire is a creature of the night. Upon tranforming at night a vampire 
+is given mana and movement bonus due to there strange and magical powers 
+They also have a special attack only available to vampires.
+
+A vampire can be staked by a wooden stake and loose their affliction.
+
+NOTE: To tranform at night type change.
+#
+VERSION
+
+&2Version&n
+
+Everytime a change is made no matter how big or small it is, we have a running
+log of what the changes were and what version they were fixed in.  So keep an
+eye on this to see how things grow in time.
+#
+WEREWOLF
+
+&2Werewolf&n
+
+&5Currently not fully implemented and is under consideration by the Gods.&n
+
+A werewolf is a creature of the night. Upon tranforming at night a werewolf 
+is given hit bonus due to their strange and magical powers. 
+They also have a special attack only available to werewolves.
+
+A werewolf can be staked buy a silver dagger and loose their affliction.
+
+NOTE : To tranform at night type change.
+#
+WIZLIST IMMLIST
+
+&2Wizlist & Immlist
+
+&3Usage:&n &4wizlist | immlist&n
+
+Lists the most powerful beings on the MUD.  These are the people responsible
+for administering the system.
+
+See also: IMPLEMENTOR
+#
+PRIMALMUD PRIMAL
+
+&2Primal&n
+                           P  R  I  M  A  L  M  U  D    
+
+PrimalMUD was developed from CircleMUD 3.0 By Brett Murphy and John Auckett,
+which was developed from DikuMUD (Gamma 0.0) by Jeremy "Ras" Elson. All code 
+unique to PrimalMUD is protected under a copyright.
+#
+$

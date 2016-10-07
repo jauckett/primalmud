@@ -1,0 +1,6 @@
+di cast 'detect invisibility' shelbie
+ls look shelbie
+tac take all corpse;save shelbie
+qw quaff white
+ws wake;stand
+cs cast 'cure light' shelbie

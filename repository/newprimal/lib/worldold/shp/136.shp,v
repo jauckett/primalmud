@@ -1,0 +1,206 @@
+head	1.3;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.34.25;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.38;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back.
+@
+text
+@CircleMUD v3.0 Shop File~
+#0			;	Gunsmith~
+13221			; 	winchester rifle (hope)
+13212			;	sixshooter (hope)
+13643			;	bullets
+13213			;	ammo (hope)
+-1
+1.2 
+0.8 
+5
+-1
+%s I only stock the finest guns and ammunition in town- try list!~
+%s You don't seem to have that.~
+%s I don't buy THAT... Try another shop.~
+%s I can't afford such an item.~
+%s You can't afford it!~
+%s That'll be %d coins, please.~
+%s You'll get %d coins for it!~
+0 
+0 
+13645
+0 
+13665 
+-1
+0 
+28 
+0 
+0 
+#1				saddler~
+13609			;	saddlebag
+13306			;	spurs
+13211			;	leather gloves
+13220			;	gun holster
+-1
+1.2 
+0.8 
+9
+11
+-1
+%s Haven't got that piece of equipment in storage partner- try list!~
+%s You don't seem to have that.~
+%s I don't buy THAT... Try another shop.~
+%s I can't afford such an item.~
+%s You can't afford it!~
+%s That'll be %d coins, please.~
+%s You'll get %d coins for it!~
+0 
+0 
+13647 
+0 
+13705
+-1
+0 
+28 
+0 
+0 
+#2				seamstress~
+13611			;	dress
+13613			;	bandanna
+13616			;	parasol
+13617			;	shirt
+13618			;	cowboy hat
+13621			;	pants
+-1
+1.2 
+0.8 
+9
+-1
+%s Haven't got that clothing in storage - try list!~
+%s You don't seem to have that item!~
+%s I don't trade in those goods!~
+%s I can't afford that!~
+%s Come back when u have some more money!~
+%s That'll be %d coins.~
+%s You'll get %d gold coins for it!~
+0 
+0 
+13646 
+0 
+13707
+-1
+0 
+28 
+0 
+0 
+#3				blacksmith~
+13622			;	horse shoes
+-1
+1.2 
+0.8 
+9
+-1
+%s Haven't got that type in storage - try list!~
+%s You don't seem to have that item!~
+%s I don't trade in those goods!~
+%s I can't afford that!~
+%s Come back when u have some more money!~
+%s That'll be %d coins.~
+%s You'll get %d gold coins for it!~
+0 
+0 
+13644 
+0 
+13717
+-1
+0 
+28 
+0 
+0 
+#4				general store~
+13604			;	bread
+13605			;	tin cup
+13610			;	canteen
+13627			;	pork
+13628			;	egg
+-1
+1.2 
+0.8 
+17
+19
+-1
+%s Haven't got that type in storage - try list!~
+%s You don't seem to have that item!~
+%s I don't trade in those goods!~
+%s I can't afford that!~
+%s Come back when u have some more money!~
+%s That'll be %d coins.~
+%s You'll get %d gold coins for it!~
+0 
+0 
+13644 
+0 
+13717
+-1
+0 
+28 
+0 
+0 
+
+$~
+
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

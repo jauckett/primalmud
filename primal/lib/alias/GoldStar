@@ -1,0 +1,19 @@
+sle c 'sleep' $1
+grat grats **********!!!!!!!!!! WTG $1 !!!!!!!!!!**********
+back remove halberd;wield knife;backstab $1;remove knife;wield halberd
+sg c 'shocking grasp' $1
+cures c 'cure light' $1
+cure c 'cure light' goldstar
+recall get recall backpack;recite recall
+chill c 'chill touch' $1
+ident recite identify $1
+wake wake;stand;l
+gac get all corpse;save
+mm c 'magic missile' $1
+drink get skin backpack;drink skin;put skin backpack
+food get meat backpack;eat meat
+red get red backpack;quaff red
+white get white backpack;quaff white
+bh c 'burning hands' $1
+light c 'infravision' goldstar
+lights c 'infravision' $1

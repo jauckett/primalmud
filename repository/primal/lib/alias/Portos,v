@@ -1,0 +1,50 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@re gb recall;recite recall
+1 assist guillen
+inf cast 'infravision'
+heal cast 'cure light' portos
+ge get all all.corpse
+meat get meat backpack;eat meat
+skin get skin backpack;drink skin;put skin backpack
+mag c 'mag miss' $*
+gb get $* backpack
+pb put $* backpack
+ex examine backpack
+qw get white backpack;quaff white
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,90 @@
+cl cast 'cure light'$*
+putaway put all.potion bag; put all.potion bacckpack; put all.meat backpack;
+k rem sword; wield dagger; backstab$*; rem dagger; wield sword
+gokeep brief; autoexit; compact; s;s;e;e;s;s;s;e;e;;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;n;e;n;brief;autoexit;compact;
+z tell wooffee fart!!!!!!!
+sl2 emote utters the words "mochu" and creates a roomful of cheerleader;Emote huddles in a comfortable manner with the cheerleaders for warmth; sleep;
+ren emote hits himself gor pressing the wrong key
+qwh quaff white
+wj wake bigjoe
+bye emote grabs you fondly and kisses both your check; emote quietly goes through your pockets for change.. muwahahaha;
+greet emote pulls a smelly mullet out of your head, and smacks you across the head with it; emote eats the mullet and say 'Hi hee hee muwahahahahahaha;
+scratch emote scratches his ball and adjusts his "equipment"
+lag emote says 'nolag'; emote has enabled his lag;
+nolag emote says 'nolag';emote has disabled his lag;
+ht hug teddy; emote loves teddys!!! 
+trf track transformer
+sloww emote strolls casually bahind her and looks up her dress; emote smiles and chats her up;fondle$*; emote finds her boring; kill$*;
+slowm emote strolls casually behind him; pat$*; emote says 'Hi, did you see the football finals?';
+fart emote pulls down his pants; emote aims it skillfully at you face, and impales you with a FART!;
+trtr track treant
+runner autoexit;compact;brief;
+fsf fill skin fountain; drink fountain; drink fountain;
+gorome n;brief;compact;autoexit;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;autoexit;compact;brief;
+gobandit n;brief;compact;autoexit;w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s;e;brief;compact;autoexit;k bandit;
+lo cast 'locate object'$*
+refresh cast 'refresh'$*
+gc get all all.corpse; get corpse; j corpse;
+trt track traveller
+recb get scroll backpack; recite scroll
+ebr get bread backpack; eat bread;
+emeat get meat backpack; eat meat;
+trl tr leader
+kbuf k buffalo
+kt k traveller
+qw get white bag; q white;
+qr get red bag;q red;
+infra cast 'infra' $*
+ds drink skin
+g get all all.corpse
+trs tell robohelp summon
+trm tell robohelp mana
+trh tell robohelp heal
+fartkill emote farts on the foe and causes INTERNAL bleeding
+trb tr bandit
+di cast 'detect invisible' $*
+trp track pentium
+qrb get red backpack; q red;
+fb cast 'fireball'$*
+sum cast 'summon'$*
+trw track werith
+h cast 'heal'$*
+trc track chuckie
+rec cast 'word of recall'$*
+dinv cast 'detect invisibility'$*
+p kill$*
+gcorp get corpse; j corpse;
+inv cast 'invisibility'$*
+darask n;brief;compact;autoexit;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;cast 'refresh';cast 'refresh';n;n;n;w;w;w;n;n;n;n;n;n;brief;compact;autoexit;
+gowerith  n;brief;compact;autoexit;w;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;cast 'refresh'; cast 'refresh';n;n;n;w;w;w;n;w;w;w;s;open door;s;brief;compact;autoexit;
+js junk all.scimitar
+buyw buy 5 white; put all.potion bag; put all.potion backpack;
+refil get all.potion backpack; put all.potion bag; put all.potion backpack;
+refill get all.potion backpack; put all.potion bag; put all.potion backpack;
+buyred buy 10 red; put all.potion bag; put all.potion backpack
+bak l in backpack
+ba l in bag
+buymeat buy 10 meat; put all.meat backpack
+ds2 drink 2.skin
+ff fill skin fountain; fill 2.skin fountain; drink fountain; drink fountain;
+qbl get blue bag; q blue;
+buyit buy 10 red; put all.potion bag; buy 5 white; put all.potion bag; put all.potion backpack
+gotreant n;brief;compact;autoexit;n;w;s;s;s;w;w;w;w;w;w;s;e;s;n;w;s;s;s;s;s;e;e;e;s;s;e;e;e;e;e;e;compact;brief;autoexit;get white bag; q white;
+appear visible; emote brushes the cold chill off his shoulder
+bak2 look in 2.backpack
+sl emote utters the words "sleepus palmus"; emote creates a hammock and two palm trees; emote creates a swimsuit model and jumps in to the hammock with her; sleep;
+sl3 emote utters the words "babus warmus"; emote creates a group of beauty Japanese girls huddles Deckard for warmth; emote pulls them close to them and lies down; sleep;
+clear get all.potion bag; drop all.potion; get all.potion backpack; drop all.potion;
+qy get yellow bag; q yellow
+change rem chain; wear platemail;
+change2 rem platemail; wear chain
+charm cast 'charm'$*
+dc get all all.corpse; get all.corpse; don all.corpse;
+goship autoexit; brief; compact; n;e;n;n;n;n;n;n;n;go ship; autoexit;brief;compact;l;
+afk emote deckard tries to hold the keyboard, it ZAP him; emote lets go of the keyboard and runs away crying... waaa waaa; sleep; gossip afk;
+gj brief;compact;autoexit;s;s;s;s;wear all;wield dagger;hold pen;hold enlibrite;n;e;s;s;s;s;e;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;u;u;n;backstab master;rem dagger; wield sword;
+sl4 emote gets a packet of tranquilisers from his pocket; emote pops a few thinking they were Tic Tacs; emote become dizzy and thinks you are cute; emote falls over and froths from the mouth; sleep;
+n;w;s;s;gokeep           brief; autoexit; compact; s;s;e;e;s;s;s;e;e;;s;s;s;s;s;s;s;s;s;
+wearj get jade 2.backpack; get jade 2.backpack; rem all.cloak; wear all.jade;
+wearc rem all.jade; get all.cloak 2.backpack; wear all.cloak; put all.jade 2.backpack;
+re recite recall

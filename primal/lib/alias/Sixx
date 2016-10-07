@@ -1,0 +1,16 @@
+super rem vorp;wield super
+vorp rem super;wield vorp
+sanc c 'sanc'
+h c 'heal'
+cp c 'color spray' $*
+dragon c 'dragon'
+re c 'word of recall'
+tm train move;train move;train move;train move
+th train hit;train hit;train hit;train hit
+cfc 'create food';c 'create food';c 'create food';c 'create food';c 'create food';eat mush;eat mush;eat mush;eat mush;eat mush;eat mush;eat mush
+infra c 'infravision'
+di c 'detect invis'
+bless c 'bless'
+armor c 'armor'
+cf c 'create food';c 'create food';c 'create food';c 'create food';c 'create food';eat mush;eat mush;eat mush;eat mush;eat mush;eat mush
+gh get 5.heal back;q h;q h;q h;q h

@@ -1,0 +1,9 @@
+wr c 'word of recall'
+z rem knife;wield soaker
+a rem soaker;wield knife
+1 b steed
+gc get gold corpse
+sa c 'sanc'
+h c 'advanced heal'
+sum c 'summon' $1
+inv c 'invisibility'

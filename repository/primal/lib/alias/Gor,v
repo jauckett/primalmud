@@ -1,0 +1,75 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cor n;n;n;w;w;s;s;w;w;w;w;w;s
+gl2 e;s;w;u;s;e;e;s
+gl1 w;s;d;s;w;u;u;u;
+ggar u;n;e;e;e;e;s
+gch e;s;w;w;w;s;s;e;n
+gf1 d;s;s;s;w;s;e
+gh2 w;w;w;w;w;w;w;w;w;w;w;w;w;n
+gh1 n;n;w;w;w;n;n
+lh2 s;s;e;e;e;s;s
+lh1 s;e;e;e;e;e;e;e;e;e;e;e;e;e
+g2 n;w;s;s;s;s;e;e;s;s;s
+g3 e;e;s;s;s;s;s;s;s;s;s;s;s;
+g1 n;w;s;s;s;w;w;w;w;w;w;w;w;w;w
+g4 e;e;e;e;e;e;e;e;e;n;e;n
+gl3 s;d;u;u;s;e;w;e;e
+gl4 s;s;u;s;u;u;u;u
+gl5 u;u;s;w;s;u;u;u
+gl6 u;u;u;u;u
+t1 w;w;w;s;s;s;s;e;e
+t2 e;e;n;n;n;n;u;w
+t3 w;w;w;s;e;s;e
+t4 n;e;e;s;w;s;e
+t5 s;w;w;n;w;w;s
+t6 s;e;e;e;e
+d1 w;w;w;n;w;w;n;n
+d2 n;w;w;n;n;n;n;n
+m2 s;w;n;w;w;n;n;e
+m3 e;e;e;e;n;e;e;e
+m4 e;s;e;u;u;u
+tm6 tr 6.moander
+1m u;s;s;s;s;s;e;e;e;e
+2m e;e;e;e;e;s;s;e;n
+3m e;e;n;n;e;s;s;e
+4m s;s;s;e;e;s;s;s
+5m s;e;e;n
+m1 tel gor are u dressed properly?
+m1g w;w;w;w;n;n;n;w
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

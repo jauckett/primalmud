@@ -1,0 +1,6 @@
+word cast 'word of recall'
+gc get all from corpse
+fire cast 'fireball'
+st cast 'sanctuary'
+heal cast 'heal' Alrek
+armor cast 'group armor'

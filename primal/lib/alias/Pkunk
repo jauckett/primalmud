@@ -1,0 +1,43 @@
+town n;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e;s;s
+home n;n;w;w;w;n;n;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;w;s
+armor c 'armor';c 'dragon';c 'divine';c 'stone';c 'lightning s';c 'holy';c 'spirit armor'
+zom c 'clone';c 'clone';ord clone die;ord clone die;c 'clone';c 'clone';ord clone die;ord clone die;c 'clone';c 'clone';ord clone die;ord clone die
+bie c 'anim' cor;c 'anim' cor;c 'anim' cor; c 'anim' cor;c 'anim' cor;c 'anim' cor;w;e;group all;ba 7.zom;ba 7.zom;ba 7.zom;ba 7.zom;ba 7.zom;ba 7.zom;ord fol sleep
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n;open gate
+rr rec recall $1
+berry e;e;e;n;e;s;w
+swamp s;w;w;w;w;w;w;w;w;w;w;s;e;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s
+san c 'sanc' $1
+detect c 'sense life';c 'detect alignment';c 'detect invisi'
+ga get all all.corpse
+haven c 'word of recall;e;e;e;e;e;e;go wagon;n;n;n;n;e;s
+rc c 'word of recall
+tunnel s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w
+magic s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;w;w;w
+rainbow w;w;w;s;e;s;e;n;e;e;s;w;s;e;s;w;w;n;w;w;s;s;e;e;e
+shadowkeep s;s;e;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;n;e;n
+wake wake;stand
+enfan s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;w;n;n;w;w;n;w;n;n
+tudor s;w;w;w;w;w;w;w;w;w;w;s;e;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w
+ith n;w;u;e;d;e;s;d;n
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n
+moander s;s;s;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;n;e;e;e;e;s;e;u
+elf s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;w;w;w;s;w;w
+gc get all.coins all.corpse
+sanc get white force;q white
+id c 'identify' $1
+holy s;s;s;w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w;s
+heat rem ring;wear fire
+ton get tonic 2.force;q ton
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+para c 'paral' $1
+tri rem hammer;hold tri;rem tri; hold hammer
+hh c 'divine heal' $1
+island s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u
+kenny holler (singing to the tune of 'Bad to the Bone'); holler *dene nuh nunuh* I hate you guys; holler *dene nuh nunuh* 'Specially Gamina; holler *dene nuh nunuh* I hate her the most.
+artus holler (singing to the tune of Playschool); holler Theres a pair in there, and a rod as well; holler its short and withered, and it stinks like hell; holler Close your eyes, commit suicide... Its Artys tool.
+bl s;s;s;w
+ac d;e;s;s;s;e;e;n
+ww c 'whirlw';c 'divine heal
+ll snap
+oa ord fol assist

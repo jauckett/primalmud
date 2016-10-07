@@ -1,0 +1,11 @@
+dr drink skin &*
+cw cast 'create water' $*
+ef eat mushroom &*
+da cast 'detect align' $*
+see cast 'infra' $*
+cf cast 'create food'
+x examine corpse &*
+b backstab &*
+c get coins corpse &*
+m buy meat &*
+bl cast 'blindness' $*

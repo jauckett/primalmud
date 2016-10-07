@@ -1,0 +1,114 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@fear cast 'fear' $1
+gate cast 'dim' $1
+dim $1
+remcurse cast 'remove curse' $1
+tt quaff tonic
+openfor open force
+gt get tonic force
+wake wake
+qq open force
+hu give all.bre $1
+groupsan c 'group san'
+clone c 'clone'
+drink c 'create water'
+dra c 'dra'
+smoke goss brb..............(smoko)
+sense c 'sense'
+summon c 'summon' $1
+cmaka c 'cure crit' maka
+cya goss cya ppl!!
+tele c 'tele'
+hiya goss hiya ppl
+cl c 'light' $1
+cb c 'burn' $1
+ch c 'charm' $1
+par c 'para' $1
+qr q red
+t train hit; train hit; train hit; train hit; train hit
+fresh c 'refresh'
+detin c 'detect invi'
+mm c 'magic'
+bless cast 'bless'
+arm cast 'armor'
+cf cast 'fire'
+gac get all all.corpse
+red get red back;q red
+cc cast 'cure crit'
+infra cast 'infra'
+invis cast 'invis'
+gag get gold all.corpse
+en c 'energy'
+qw quaff white
+food cast 'create'
+curebad c 'cure critic' bad
+rr c 'word' 
+stren c 'stren'
+hh c 'heal'
+san c 'san'
+cp c 'plas'
+water c 'waterwalk'
+curebig c 'cure crit' bigg
+hhh c 'advan'
+big c 'cure crit' biggie
+hfif c 'heal' fif
+met c 'met' $1
+bre c 'waterbre'
+cure c 'cure crit' $1
+heal c 'heal' $1
+advan c 'advan' $1
+fin c 'finger' $1
+fly c 'fly'
+gs c 'group san'
+gh c 'group heal'
+gm give all.atlas maka
+getid get id back
+ani c 'ani' $1
+queen get queen force
+loc c 'loc' $1
+blind c 'blind' $1
+cof give all.atlas cophen
+ench cast 'ench' $1
+idback put all.id back
+gtr give 2 coins rais
+wra cast 'wraith' $1
+ser cast 'ser'
+getwhite get white back
+holy cast 'holy'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

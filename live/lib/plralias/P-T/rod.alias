@@ -1,0 +1,225 @@
+3
+lif
+13
+look in force
+0
+2
+th
+14
+track headsman
+0
+2
+qh
+25
+get heal force;quaff heal
+1
+3
+phf
+18
+put all.heal force
+0
+2
+gh
+17
+cast 'group heal'
+0
+2
+gs
+17
+cast 'group sanc'
+0
+2
+ga
+18
+cast 'group armor'
+0
+5
+magic
+88
+s;s;s;s;s;s;s;s;s;s;s;s;s;s;w;w;w;ask richard magic;wake;n;n;w;u;n;n;d;open gate;n;n;n;e
+1
+3
+oca
+26
+order followers assist rod
+0
+5
+clone
+12
+cast 'clone'
+0
+3
+lic
+14
+look in corpse
+0
+3
+gac
+18
+get all all.corpse
+0
+4
+town
+19
+s;e;e;e;e;e;e;e;s;s
+1
+2
+rp
+19
+cast 'remove po' $*
+1
+5
+stone
+15
+cast 'stone' $*
+1
+2
+hh
+23
+cast 'advanced heal' $*
+1
+4
+summ
+14
+cast 'summ' $*
+1
+4
+tele
+18
+cast 'teleport' $*
+1
+1
+h
+14
+cast 'heal' $*
+1
+2
+dp
+20
+cast 'detect poi' $*
+1
+2
+cl
+20
+cast 'cure light' $*
+1
+4
+holy
+14
+cast 'holy' $*
+1
+2
+id
+15
+cast 'ident' $*
+1
+6
+spirit
+16
+cast 'spirit' $*
+1
+5
+bless
+15
+cast 'bless' $*
+1
+5
+armor
+15
+cast 'armor' $*
+1
+4
+sanc
+14
+cast 'sanc' $*
+1
+2
+sl
+20
+cast 'sense life' $*
+1
+2
+pe
+30
+cast 'protection from evil' $*
+1
+2
+pg
+30
+cast 'protection from good' $*
+1
+3
+phb
+17
+put all.heal back
+0
+2
+bh
+11
+buy 20 heal
+0
+3
+str
+18
+cast 'strength' $*
+1
+2
+sw
+22
+cast 'sense wounds' $*
+1
+3
+ref
+17
+cast 'refresh' $*
+1
+2
+dm
+22
+cast 'detect magic' $*
+1
+2
+di
+22
+cast 'detect invis' $*
+1
+2
+da
+22
+cast 'detect align' $*
+1
+5
+infra
+15
+cast 'infra' $*
+1
+2
+dg
+21
+cast 'dispel good' $1
+1
+2
+de
+21
+cast 'dispel evil' $1
+1
+3
+rec
+13
+cast 'recall'
+0
+2
+cc
+21
+cast 'cure critic' $1
+1
+2
+hp
+15
+say heal please
+0
+2
+sp
+17
+say spells please
+0

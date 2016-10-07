@@ -1,0 +1,54 @@
+#22300
+clone~
+the clone~
+A boring old clone is standing here.
+~
+This clone is nothing to look at.  No, really, it is quite boring.
+~
+8203 0 0 E
+1 15 14 1d5+5 2d5+1
+0 45
+8 8 0
+E
+#22301
+zombie~
+the zombie~
+A dead looking zombie is here.
+~
+This thing looks like it'd been dead awhile before it was woken from its
+peaceful rest by some inconsiderate prankster.
+~
+11 0 0 E
+1 15 13 1d8+3 2d5+1
+0 850
+8 8 0
+E
+#22302
+santa claus~
+Santa~
+Santa Claus is standing here. He looks alittle unstable.
+~
+This fat bastard doesn't look like a safe person to leaf
+your kiddies with...
+~
+59401 0 0 E
+30 -14 3 24d1+600 12d18+34
+0 9225
+8 8 1
+E
+#22303
+caroller carolyn~
+Carolyn~
+Carolyn the Caroller is here. Carolling merrily.
+~
+She loooks far too jolly for her own good. If she had any more 
+Christmas spirit in her she'd probably explode. You find yourself
+wishing she would explode... yet you still want to follow her and
+join in!
+~
+59401 0 0 E
+99 -40 -20 100d24+100 24d20+33
+0 318117
+8 8 2
+E
+$

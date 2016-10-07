@@ -1,0 +1,399 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.03.08.12.48.05;	author michaeld;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.03.08.12.26.35;	author michaeld;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.29.14.28.36;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added world dir back in.
+@
+text
+@#9021
+Drum Sticks~
+Drum Sticks~
+A pair of harmless looking drumsticks is lying here.~
+you wield a pair of drumm sticks.
+~
+5 3 24577
+0 2 4 7
+4 3640 728
+A
+12 10
+L 0
+#9022
+Kevlar Plate~
+Kevlar Plate~
+A Fire-Red suit of Kevlar Plate is on the ground here.~
+~
+9 65 9
+6 0 0 0
+10 106000 10600
+A
+18 2
+L 15
+#9023
+Kevlar Leggings~
+Kevlar Leggings~
+A pair of Fire-Red Kevlar Leggings are on the ground here.~
+~
+9 321 33
+4 0 0 0
+7 108000 10800
+A
+14 30
+L 15
+#9024
+Kevlar Key.~
+Kevlar Key~
+A well crafted Kevlar Key lies here.~
+~
+18 65546 16385
+100 0 0 0
+2 1000000 100000
+L 0
+#9025
+Chain Sword~
+Chain Sword~
+A Chain Sword has carelessly been left here.~
+~
+5 66 8193
+0 5 5 3
+15 40750 8150
+A
+18 2
+A
+12 -10
+A
+19 3
+L 20
+#9026
+Power Suit.~
+Power Suit~
+An innocent looking body suit is here.~
+~
+9 abgiqz 9
+100 0 0 0
+40 1000000 100000
+A
+1 5
+A
+13 10
+A
+19 10
+A
+18 10
+A
+14 30
+A
+24 5
+L 80
+#9027
+Ice Cream~
+Ice Cream~
+A melting Ice Cream lies on the ground here.~
+~
+19 0 1
+5 0 0 0
+1 5 0
+L 0
+#9028
+Toffie Apple~
+Toffie Apple~
+A Toffie Apple is lying on the ground here.~
+~
+19 0 1
+10 0 0 0
+1 1 0
+L 0
+#9029
+Farie Floss~
+Farie Floss~
+A Farie Floss lies on the ground here.~
+~
+19 0 1
+15 0 0 0
+2 10 1
+L 0
+#9030
+Can of Coke~
+Can of Coke~
+A Can of Coke lies on the ground here.~
+~
+17 0 1
+10 1 15 0
+1 3 0
+L 0
+#9031
+bracelet of might~
+bracelet of might~
+a bracelet of might is lying on the floor here.~
+~
+9 65632 4097
+3 0 0 0
+4 51000 5100
+A
+1 3
+L 20
+#9032
+Kevlar Boots~
+Kevlar Boots~
+A pair of fire-red Kevlar Boots is on the ground here.~
+~
+9 97 65
+3 0 0 0
+3 110000 11000
+A
+2 1
+L 15
+#9033
+Super Soaker 2000~
+Super Soaker 2000~
+A Super Soaker 2000 is lying here.~
+you wield the Super Soaker 2000. B)
+~
+5 321 8193
+0 5 3 11
+10 27970 5594
+E
+Super~
+Super Soaker 2000 the ultimate in hand held water pistols.
+Give it a pump.
+~
+A
+18 3
+A
+19 1
+L 10
+#9034
+Story Book~
+Story Book~
+You See a giant Story Book lying upright and open here.
+~
+~
+41 2 0
+4483 0 0 0
+5000 1 1
+E
+Story Book~
+You see a large leather bound Story Book.  It's pages are covered with
+well detailed pictures.  You can swear they are moving.  The book eminates 
+with arcain power.
+~
+L 0
+
+#9035
+eternity~
+A beautiful gold and diamond ring~
+A beautiful gold and diamond ring sparkles in the light~
+~
+24 65601 3
+3 0 0 -1 
+2 1000 20
+E
+ring eternity~
+A beautiful gold channel set diamond ring sparkles brilliantly as you
+look at it. The reflected rainbow colours and the pure white of the
+dimaonds entrance you to stare at it for eternity. Engraved on the
+inside of the band are the words...
+           -= To Misty, my undying love. Pkunk =-
+~
+
+#9036
+quest board~
+Quest board~
+Quest board; read board~
+~
+12 0 0
+0 0 0 0
+1000 1 1
+E
+quest board sign~
+
+             	    ====QUEST BOARD====
+
++---------------------------------------------------------------+
+|                                     				|
+| ************************************************************* |
+| * The Gods seek a champion! It is required that the said    * |
+| * champion answer the following questions and riddles with  * |
+| * accuracy above that of everyone else. A prize of great    * |
+| * power and rarity will be the gift awarded by the Gods.    * |
+| ************************************************************* |
+|                                                   		|
+| 1)                                               		|
+|   To become president of the United States you meet five      |
+|   requirements, these are four of them		        |
+|   - Must be at least 35 years old.                	        |
+|   - Must be a citizen of the United States.       	        |
+|   - Must have lived in the US for 14 years.       	        |
+|   - Must have been born in the US.                		|
+|   What is the final requirement?                  		|
+|						    		|
+| 2)						    		|
+|   Jeff and Tony were both playing Chess each of them won 7    |
+|   of the seven games they played there were no draws or       |
+|   stalemates. How can this be?				|
+| 3)						    		|
+|    If, two hours ago it was as long after one o'clock in the  |
+|    afternoon as it was before once o'clock in the morning,    |
+|    what time would it be now?                                 |
+|	               					        |
+| 4)						    		|
+|   The Elf Tree has been known to double in height each year   |
+|   for the past ten years. How many years did it take for the  |
+|   tree to reach half its current height?			|
+|						    		|
+| 5)								|    
+|   It cannot be seen, cannot be felt,   			|    
+|   Cannot be heard, cannot be smelt.				|
+|   It lies beneath stars and under hills,			|
+|   And empty holes it fills.					|
+|   It comes first and follows after,				|
+|   Ends life, kills laughter.					|
+|								|
+| 6)								|
+|   How many cubic meters of dirt are in a hole 6 metres long,  |
+|   2 metres wide, and one meter deep?				|   
+|   								|
+| 7)								|
+|   Before Mt Everest was discovered what was the highest      	|
+|   mountain on Earth?						|
+|								|
+| 8)								|
+|   In Darask, if you drop a steel ball weighing 5 pounds from  |
+|   a height of 45" will is fall more rapidly through water at  |
+|   20 degrees fahrenheit or water at 40 degrees fahrenheit?    |
+|								|
+| 9)								|
+|   This thing all things devours:				|       
+|   Birds, beasts, trees, flowers;				|
+|   Gnaws iron, bites steel;					|
+|   Grinds hard stones to meal;					|
+|   Slays king, ruins town,					|
+|   And beats high mountains down.				|
+|								|
+| 10)								|
+|   When asked how old he was Robohelp replied, "In two years I |
+|   will be twice as old as I was 5 years ago." How old is he?  |
+|								|	
+| "Please mudmail your answers to Pkunk by the 18th of August"  |
+| "at 9pm local time, Answers will be posted the following   "  |
+| "day. Good luck, and Good thinking...			     "  |
+|								|
++---------------------------------------------------------------+
+~
+#9037
+golden ring~
+a ring from Muldar~
+You see a fine gold ring lying here.~
+~
+9 0 3
+3 0 0 0
+1 1 1
+A
+18 2
+A
+19 2
+A
+10 -10
+E
+golden ring~
+As you look carefully at the ring you notice a fine engraving around it,
+it reads "To Octopussy love Muldar".
+~
+L 14
+#9038
+rainbow rod~
+A Rainbow Rod~
+A Rainbow Rod lies here casting a faint light.~
+~
+12 65545 16385
+0 0 0 0
+5 1000000 300000
+A
+3 3
+A
+17 -5
+A
+19 3
+A
+18 3
+#9039
+gold watch~
+A gold watch~
+A splendid gold watch lies here.~
+~
+9 257 4097
+5 0 0 0
+5 3000 300
+A
+18 3
+A
+19 2
+A
+12 15
+E
+gold watch~
+You see a splendid gold watch.  Its face is set with small diamonds.  The
+intricate engravings all over it give it a regal look.
+
+When you examine the back of it you see a small fienly worked inscription.
+It reads..
+"To muldar ever yours octopussy."
+~
+L 10
+#9040
+Marbles~
+Marbles~
+A bunch on marbles are lying on the ground here.~
+~
+13 0 0
+0 0 0 0
+1 1 1
+E
+marbles~
+They appear to be perfect shiny marbles just like you had as a kid.  They
+do look alittle dangerous better watch your step.
+~
+L 0
+$~
+@
+
+
+1.2
+log
+@removed world dir as there was problems with it.
+@
+text
+@@
+
+
+1.1
+log
+@Adding all obj files to director
+@
+text
+@@
+

@@ -1,0 +1,52 @@
+th train hit
+cdp cast 'divine pro'
+csa cast 'spirit'
+csl cast 'sense'
+c cast 'advanced heal
+csp cast 'spirit'
+gtudor w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+ofst order followers stand
+ofw order followers wake
+ofs order followers sleep
+clo cast 'clone'
+cf cast 'fly'
+fd cast 'finger'
+dinv cast 'detect inv'
+cb cast 'bless'
+cw cast 'waterwalk'
+bt buy 10 #10
+ph put all.healing in tool
+cg cast 'cure critical' goldragon
+inv cast 'invisibility'
+r reload
+lb cast 'lightning bolt'
+hb get healing from bag
+cd cast 'dragon'
+qr quaff red
+rr recite recall
+t take all
+gh tell gamina heal
+gs tell gamina summon
+ca cast 'armor'
+ja junk atlas
+mm cast 'magic missile' 
+gc get coins corpse
+ga tell gamina armor
+gb tell gamina bless
+gr tell gamina refresh
+gsa tell gamina sanc
+cl cast 'cure light'
+sg cast 'shocking grasp'
+hs help speedwalk
+tr get ammo from tool
+cwr cast 'word of recall'
+he get heal tool
+cs cast 'sanctuary'
+cp cast 'plasma'
+ad cast 'animate dead'
+cr cast 'ref'
+ch cast 'haste'
+q get healing back; q healing
+v train hit
+ha cast 'holy aid'
+cstr cast 'str'

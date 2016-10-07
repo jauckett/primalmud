@@ -1,0 +1,155 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@qr get red backpack;quaff red
+go go ship
+gal get all corpse
+qb quaff blue
+gb get blue backpack
+bt backstab traveller
+km kill merchant
+kbl kill buffalo
+cbv cast 'blind' vulture
+cbb cast 'blind' buffalo
+cbs cast 'blind' snake
+3 rem super;put super backpack;get oak backpack;wield oak
+bj backstab janitor
+btr backstab trickster
+2 rem oak;put oak backpack;get super backpack;wield super
+dts rem dagger ; wield super
+std rem super ; wield dagger
+bbe backstab bear
+qg quaff green
+az assist ziggy
+grrc get recall backpack
+grc get red backpack
+dc drink coke
+dr drink rum
+ds drink skin
+drink drink
+kcn kill citizen
+kbr kill beggar
+kv kill vulture
+ktr kill traveller
+ko kill owl
+kb kill boar
+kr kill rat
+ht hold torch
+gt get torch backpack
+eb eat bread
+kwr kill worker
+kt kill trickster
+bc backstab citizen
+kw kill warrior
+f flee
+bwr backstab worker
+bd backstab drunk
+we wield dagger
+e east
+n north
+w west
+hl hi listy
+bm backstab merchant
+emu eat mushroom
+tf 
+tle tell robohelp heal
+s south
+ba backpack
+em eat meat
+qy quaff yellow
+am assist mastermind
+g get all coprse
+sk drink skin
+tls tell robohelp summon
+tlh tell robohelp help
+assist assist
+gy get yellow backpack
+og open gate
+kd kill drunk
+bb backstab beggar
+bw backstab warrior
+jc junk corpse
+gl get all
+kj kill janitor
+kg kill goblin
+kc kill cat
+ks kill snake
+sc split
+aa assist ashaman
+ci cast 'invisibility' 
+aj assist hangjebat
+lbg look in bag
+gm get meat backpack
+pb put bread backpack
+lb look in backpack
+gc get coke backpack
+pc put coke backpack
+grr get recall backpack
+gs get skin backpack
+ps put skin backpack
+h hide
+ag assist gathrax
+kbo kill buffalo
+pm put meat backpack
+car cast 'armor' alibaba
+as assist syaitan
+cbw cast 'blindness'
+ga2 get 2.all corpse
+uwa use wand alibaba
+1 rem dagger;put dagger backpack;get super backpack;wield super
+bg backstab gateguard
+csa cast 'summon' alibaba
+bcn backstab citizen
+bbl backstab buffalo
+kwl backstab wolf
+bwl backstab wolf
+bv backstab vulture
+eo eat orange
+ea eat apple
+css cast 'cure blind' soldier
+cg cast 'cure blind' guard
+gaa get apple backpack
+qf get red backpack;quaff red
+qw get white backpack;quaff white
+qrr quaff red
+bs backstab soldier
+ga get all.all corpse
+gw get white backpack
+gr get red backpack ; quaff red
+gg get all corpse
+rr recite recall
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

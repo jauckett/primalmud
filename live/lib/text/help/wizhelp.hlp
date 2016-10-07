@@ -1,0 +1,1455 @@
+ADVANCE
+
+&2Advance&n
+
+&3Usage:&n &4advance <victim> <level>&n
+
+&4Advance&n moves a player to a new level.  If used to promote a player to an
+immortal level, and if you have the autowiz program installed, the wizlist and
+immlist will automatically be recreated.
+
+Example:
+
+  > advance rasmussen 34
+
+See also: SET
+#
+WIZAT
+
+&2At&n
+
+&3Usage:&n  &4at <room VNUM | item | mob | player name> <command> <arguments>&n
+
+&4At&n can be used to perform an action in a location other than where you are
+standing.  The first argument can be a virtual room number or the name of a
+character or object.  The remainder of the line is passed to the command
+interpreter.
+
+Examples:
+
+  > at 3001 look
+  > at fido kill fido
+  > at 3.corpse get all corpse
+  > at catje wave catje
+
+See also: GOTO
+#
+BAN UNBAN
+
+&2Ban Unban&n
+
+&3Usage:&n &4ban [<all | new | select> <site>]&n
+       &4unban <site>&n
+
+These commands prevent anyone from a site with a hostname containing the
+site substring from logging in to the game.  You may ban a site to ALL, NEW
+or SELECT players.  Banning a site to NEW players prevents any new players
+from registering.  Banning a site to ALL players disallows ANY connections
+from that site.  Banning a site SELECTively allows only players with site-ok
+flags to log in from that site.  Ban with no argument returns a list of
+currently banned sites.
+
+Unban removes the ban.
+
+Examples:
+
+  > ban all whitehouse.gov
+  > unban ai.mit.edu
+
+See also: WIZLOCK
+#
+DATE
+
+&2Date&n
+
+Shows the current real time. (Not a social)
+#
+DC
+
+&2Dc&n
+
+&3Usage:&n &4dc <descriptor number>&n
+
+&4dc (DisConnect)&n is used to disconnect a socket.  If used on a playing socket,
+the player will lose his/her link, but, unlike PURGE, will not extract the
+player or dump the player's inventory on the ground.
+
+&4DC&n is also useful for disconnecting people who have accidentally left
+themselves at the main menu, or connections sitting in the "Get name" state.
+
+See also: USERS
+#
+DGSCRIPTS
+
+&2DGScripts&n
+
+&RFor those that are new to dgscripts, it is recommended that you read the 
+documentation @ &4http://dgscripts.n3.net/&n
+
+
+See also: "DGSCRIPT TRIGGERS", "DGSCRIPT SCRIPT COMMANDS", 
+          "DGSCRIPT GAME COMMANDS", "DGSCRIPT IMM COMMANDS", 
+          "DGSCRIPT VARIABLES", "DGSCRIPT EXPRESSIONS"
+
+#
+"DGSCRIPT TRIGGERS" TRIGGER TRIGGERS TRIGEDIT
+
+&2DGScript Triggers Trigger Trigedit Triggers&n
+
+Triggers
+--------
+A trigger consists the type, information on when to execute it, a list of 
+commands, and a list of variables. Each class of game object (mobiles, objects,
+and rooms) have their own set of triggers. The trigger types are explained in 
+the following format:
+
+&1Type&n:     This names and describes the event that matches this trigger.
+&1Argument&n: This describes the text argument, if any, which can be used to filter
+          out matches to the trigger.
+&1NArg&n (numeric argument): This describes a numeric argument, if any, which is 
+          used to filter out matches to the trigger.
+&1Return value&n: This describes the effect, if any, of return values from the 
+          trigger.
+&1Variables&n: This specifies what variables, if any, are given to the commands of
+          this trigger.
+
+&2self&n      all triggers receive this variable, representing the mobile, object,
+          or room the trigger is running on behalf of.
+
+See also: DGSCRIPTS, "DGSCRIPT SCRIPT COMMANDS", 
+          "DGSCRIPT GAME COMMANDS", "DGSCRIPT IMM COMMANDS", 
+          "DGSCRIPT VARIABLES", "DGSCRIPT EXPRESSIONS"
+
+#
+"DGSCRIPT SCRIPT COMMANDS"
+
+&0Script Commands&n
+
+&4*&n     &1(comment)&n
+Comments are useful in scripts to document what is happening, for furure 
+reference. 
+
+&4nop&n     &1Almost a no-operation&n
+Beginning in pl8, certain variable/subfield combinations for characters change
+some attribute about the character. nop allows those changes to be used legally
+on lines that do not need to process the result. 
+
+&4attach vnum id&n
+This command allows a script to attach a trigger (referenced by vnum) to
+anything capable of receiving triggers, by id number. (%self%, %object%, and
+%actor% are examples of id numbers, for use with this command.) 
+
+&4global variable&n
+Used to change a variable from local to global. If a global variable is 
+modified, this command must be used to update the global contents as well. 
+
+&4context value&n
+Changes the "context" of a script to this value. When first run, a script's
+context is 0. When a variable is made global, it is given the current context.
+When a variable is accessed, if it must be searched for globally, a "found"
+variable must either have context 0 or the current context. The net result of th
+is you may have many global variables in a single script, with the same name,
+differing only by context. (Since pl8, players may have variables; this mostly
+removes the need for variable context. Previously, a player's ID could be used
+as variable context to allow a script to service multiple players at once.) 
+
+&4eval variable expression&n
+The eval command is used to set (or create) the specified variable equal to the
+result of the immediate evaluation of the provided expression. There also exists
+a "set" command, with the same syntax. Set differs in that the expression is not
+evaluated until the variable is accessed. 
+
+&4break&n
+Used to terminate commands in a switch/case block. See switch, below. 
+
+&4case condition&n
+Used to begin a new conditional group in a switch block. See switch, below. 
+
+&4default&n
+Used like "case", but matches any condition not otherwise met. 
+
+&4done&n
+Used to terminate a while or switch block. 
+
+&4detach vnum id&n
+The opposite of attach, this removes a trigger from the specified target. 
+
+&4extract to-variable word-number from-text&n
+Place a specific word from the 'from-text' into a new or existing variable
+'to-variable'. Do not enclose the name of the to-variable in %'s. 
+
+&4if (expression)
+...
+elseif (expression)
+...
+else
+...
+end&n
+An 'if' must occur before the other three. If expression evaluates to true (see 
+the Expressions page for more detail on expression evaluation), the statements
+between the if statement and the next elseif, else, or end are executed. If it
+stopped at an elseif or else, it scans for the next end, and continues execution
+at that point. If the expression evaluated to false, it searches for the next el
+seif, else, or end. If it finds an elseif, it checks that expression. If it is 
+true, it executes the statements between the elseif and the next elseif, else,
+or end, and then finds the end of the block. If it is false, it continues 
+searching in the same pattern, until a true elseif is found, an else is found,
+or an end is found. There may be 0 or 1 else statements and 0 or many elseif 
+statements in the block. 
+
+&4halt&n
+Terminate the trigger execution. 
+
+&4makeuid variable id&n
+Create a new variable with the name given, whose contents shall be suitable for
+referring to a character, object, or room whose id is provided. 
+
+&4vdelete variable id&n
+Delete a remove variable from the script referred to by the id of its owner. 
+
+&4remote variable id&n
+Create a global variable belonging to a character, object, or room whose id is
+specified. The variable must first exist in the script that is running. 
+
+&4return value&n
+Designate the return value for the script, to be set when the script executes
+halt, wait, or when it runs out of commands. 
+
+&4switch expression&n
+Switch evaluates an expression and looks for a match amongst the case
+statements that follow. If none of the following case statements are a match,
+and a default statement exists, the default statement is considered a match.
+If a match is found, the commands that follow it, up until a done command, are
+executed. 
+
+&4unset variable&n
+Remove the named variable from the current script. 
+
+&4version&n
+Cause the version of DG Scripts to be sent to the mud's log. 
+
+&4wait duration
+wait until time&n
+Cause the current script to pause until duration time has elapsed or until the
+provided time arrives. duration may be expressed as a raw number (generally
+tenths of a second), seconds (when followed with a literal s), or mud ticks
+(when followed with a literal t). time is specified as HH:MM, where the : is
+optional. 
+
+&4while expression
+...
+done&n
+while begins a loop if the provided expression is true. Each of the commands in
+the loop are executed until done is reached. At that point, if expression is 
+still true, the loop starts at the top again. 
+
+See also: DGSCRIPTS, "DGSCRIPT TRIGGERS", "DGSCRIPT GAME COMMANDS", 
+          "DGSCRIPT IMM COMMANDS", "DGSCRIPT VARIABLES", "DGSCRIPT EXPRESSIONS"
+
+#
+"DGSCRIPT GAME COMMANDS"
+
+&2DGSCript Game Commands&n
+
+Some of the game commands are, internally, named differently depending on if the
+script is run by a mobile, object, or room. To allow scripts to be written 
+without regard to the owner, these commands have varable replacements, which 
+resolve according to the script type. Only the variables are documented here, as
+the script dependent commands shouldn't be used.
+
+Note that there are still commands that require a certain script type; when this
+is the case, the documentation will reflect that.
+
+&4%damage% victim amount&n
+Cause amount points of damage to victim. 
+
+&4%door% room direction field [value]&n
+This command is used for adding, deleting, and modifying doors in room..
+Direction determines which door is being changed, and can be north, south, east,
+west, up, or down. If the door does not exist first, a new door will be created.
+Field is what property of the door is being changed. Valid fields are: 
+	&0purge&n           remove the exit in the direction specified
+	&0description&n     value will become the new exit description
+	&0flags&n           value will be the new door flags as defined here:
+          	&1a&n       Exit is a door that can be opened and closed.
+                &1b&n       The door is closed.
+                &1c&n       The door is locked.
+                &1d&n       The door is pick-proof.
+                &1e&n       The door is secret (if supported in your mud.)
+        &0key&n             key is the vnum of the key to the door in this direction
+        &0name&n            value is the name of the door in the specified direction
+        &0room&n            value is the vnum of the room this direction leads to
+
+&4%echo% message&n
+message is sent to all non-sleeping characters in the same room that this script
+is executing in. 
+
+&4%echoaround% victim message&n
+message will be sent to all characters in the room with victim, except victim. 
+
+&4%force% victim command&n
+Force the victim to perform a particular command. Cannot be made to force 
+immortals. 
+
+&4%load% <obj|mob> vnum&n
+Load the specified object or mobile. Objects loaded by mobiles are loaded into
+inventory unless the object is NOTAKE. 
+
+&4%purge% victim&n
+Remove victim from the game. May not be used on players. 
+
+&4%send% victim message&n
+Send message to victim. 
+
+&4%teleport% victim location&n
+Mteleport moves the victim to the target. The victim does not need to be in the
+same room as the mob. If the victim is 'all', all the characters in the room 
+will be teleported to the target room. No messages are generated by this 
+command. 
+
+&4dg_cast 'spellname' [target]&n
+This allows the holder of a trigger to cast spells. Spells will work for rooms
+and objects, as well as mobiles. 
+
+&4dg_affect victim property value duration&n
+This command is not currently debugged! Dg_affect allows a script to apply
+a temporary affect to a victim, similar to what many spells do. 
+
+&4mat target command&n (mobiles only)
+The mobile using mat will perform command in the room where target is found.
+
+&4mforget victim&n (mobiles only)
+Remove victim from this mobile's memory list. See mremember below. 
+
+&4mgoto target&n (mobiles only)
+Change this mobile's room number to that of target. 
+
+&4mjunk object&n (mobiles only)
+The object in the mob's inventory specified is removed from the game. 'Mjunk
+all' removes all of the objects in the mob's inventory. No message is sent by th
+is command. 
+
+&4mhunt victim&n (mobiles only)
+The mobile will begin to hunt for victim, and engage in combat upon finding 
+them. 
+
+&4mkill victim&n (mobiles only)
+Mkill causes the mob to hit the victim. It is the same as kill, except mkill 
+works for low level mobs attacking PCs, where kill might not. 
+
+&4mremember victim [command]&n (mobiles only)
+The victim is placed into this mobile's memory list. The next time the victim is
+seen by the mobile, the mobile will perform command if set, or execute the
+memory trigger if no command was provided. 
+
+&4mtransform vnum&n (mobiles only)
+This command causes the executing mob to transform into another mob, based
+on the vnum argument supplied. The hit points, max hit points, position, gold,
+and experience value will remain those of the original mob but all other
+statistics and descriptions will be those of the new mob. (The new mob can be
+made to have all of its normal statistics by using a negative vnum.) The
+transformation is permanent, tho additional transformations may be performed.
+No message regarding the transformation is sent to the room. The new mobile
+will have the same script as the originating mobile, rather than any script
+normally assigned to the new mobile, and no load trigger will be executed. 
+
+&4otimer value&n (objects only)
+Set the countdown timer of this object to value. Useful for objects with timer
+triggers, or for OmegaMUD's timer actions on objects. 
+
+&4otransform vnum&n (objects only)
+Like mtransform (above), but for objects.
+
+See also: DGSCRIPTS, "DGSCRIPT TRIGGERS", "DGSCRIPT SCRIPT COMMANDS", 
+          "DGSCRIPT IMM COMMANDS", "DGSCRIPT VARIABLES", "DGSCRIPT EXPRESSIONS"
+
+#
+"DGSCRIPT IMM COMMANDS" ATTACH DETACH
+
+&2DGScript Imm Commands Attach Detach&n
+
+&4attach <mtr | otr | wtr> vnum target [location]&n
+Adds a trigger to the mob, object, or room specified. Location indicates which
+position the new trigger should be in. The location parameter is optional, with
+the default being the last position. This is only available to Implementors. 
+
+&4detach [mob | object] target <num | all>&n
+Removes a trigger from the mob, object, or room specified. "All" will remove
+all the triggers. If a number is used instead, the trigger in that position on
+the script will be removed. Number may also be a vnum. This is only available to
+Implementors. 
+
+&4tstat vnum&n
+Tstat displays information the trigger whose vnum is specified. 
+
+&4tlist zonenum&n
+Gives a list of the virtual numbers of triggers and their names, associated with
+the specified zone. 
+
+&4trigedit vnum&n
+If the OLC extension is added, trigedit allows you to edit an existing trigger
+specified by vnum, or create a new trigger with the vnum specified. 
+
+See also: DGSCRIPTS, "DGSCRIPT TRIGGERS", "DGSCRIPT SCRIPT COMMANDS", 
+          "DGSCRIPT IMM COMMANDS", "DGSCRIPT VARIABLES", "DGSCRIPT EXPRESSIONS"
+
+#
+"DGSCRIPT VARIABLES"
+
+&2DGScript Variables&n
+
+Variables appear as a name surrounded by '%'s, such as %actor% 
+
+Before a command is processed, the line is scanned and any variables are 
+replaced. First the list of local variables are checked to see if the variable 
+is there. If not, the global variables are checked. A proper global match must 
+have a zero context or the current context of the script. (When a script starts 
+running, its context is 0. The script context command may be used to change 
+context.) If a match is still not found, a list of 'built in' variables (ones 
+not declared by the script) are checked. If no match is found, the variable
+is replaced with an empty string (the variable is removed from the line, and 
+nothing added in its place). Two '%'s in a row will be interpreted as a single
+'%'. 
+
+There are two types of variables, local and global. All local variables are 
+deleted when a trigger finishes executing, and can only be used by the trigger. 
+Global variables remain until removed with unset, or the script is removed. 
+
+Global variables also have a context associated with them. By default, the 
+context is 0. Any global being referenced with a context of zero will be seen. 
+Through the 'context <value>' command, a script may set its context to any 
+integer; Globals created are always assigned the current script context. When a 
+global is referenced, if it's context is not 0 or the current context of the 
+script, it will not be seen. This technique allows, among other things, arrays
+of globals to be created by using a series of contexts as indexes. Also, it 
+allows globals to be associated with a specific character, room, or object in 
+the game, by using the id of the target as the context. 
+
+&0Variable Fields&n 
+&0===============&n
+A field of a variable can also retrieved, based on their type. To get a field, a
+notation of %variable.field% is used. The valid fields for each type of game 
+object are listed below. If fields are needed that are not yet present, &Rtalk to 
+an implementor about having them added&n.
+
+&1Characters&n 
+&1----------&n
+&4alias&n
+The list of aliases of the character. 
+
+&4align&n
+The numeric alignment of the character. 
+
+&4canbeseen&n
+True if the character can be seen by the mob (always true for non-mob triggers). 
+&4cha&n
+The character's charisma. 
+
+&4class&n
+The character's class, as a string. 
+
+&4con&n
+The character's constitution. 
+
+&4dex&n
+The character's dexterity. 
+
+&4eq(position)&n
+This will return the identifier for the object equipped inposition, if any. The 
+specified position may be either a position number or the name of the location (
+head, waist, etc.) 
+
+&4gold&n
+The amount of gold on the character. 
+
+&4id&n
+The unique id of the character. 
+
+&4int&n
+The character's intelligence. 
+
+&4level&n
+The character's current level. 
+
+&4name&n
+The character's name (the short description for mobs). 
+
+&4next_in_room&n
+The next character in the room, or an empty return. 
+
+&4race&n [if race is implemented]
+The character's race, as a string. 
+
+&4fighting&n
+The character this character is fighting, if any. 
+
+&4riding&n [if DAK's mount snippet is implemented]
+The character this character is riding, if any. 
+
+&4ridden_by&n [if DAK's mount snippet is implemented]
+The character this character is being ridden by, if any. 
+
+&4room&n
+The room vnum the character is in. 
+
+&4sex&n
+The character's sex, as a string (MALE, FEMALE, or NEUTRAL). 
+
+&4skill(skill-name)&n
+The percentage of learnedness in the named skill. 
+
+&4str&n
+The character's strength. 
+
+&4stradd&n
+The character's strength addition (if str is 18). 
+
+&4vnum&n
+The character's virtual number. -1 for PCs. 
+
+&4wis&n
+The character's wisdom. 
+
+&4weight&n
+The character's weight. 
+
+&4<global>&n
+If the specified field is not a recognized one, the character's script global 
+list is searched for a matching global name. If found, its value will be 
+returned. This, of course, only works for mobiles and only those mobiles with 
+scripts. 
+
+&1Objects&n 
+&1-------&n
+&4id&n 
+The unique id of the object. 
+
+&4name&n
+The list of key words of the object. 
+
+&4shortdesc&n
+The name of the object that players see. 
+
+&4type&n
+The type of object, such as WAND, ARMOR, or KEY. 
+
+&4val0&n
+Value 0 of the object, see building doc.
+
+&4val1&n
+Value 1 of the object, see building doc.
+
+&4val2&n
+Value 2 of the object, see building doc.
+
+&4val3&n
+Value 3 of the object, see building doc.
+
+&4vnum&n
+The virtual number of the object. 
+
+&1Rooms&n 
+&1-----&n
+&4id &n
+The unique id of the room. 
+
+&4name&n
+The name of the room. 
+
+&4direction (north/south/east/west/up/down)&n
+The list of flags affecting the exit in the specified direction. 
+
+&4vnum&n
+The room's vnum. 
+
+&4people&n
+The first character in the room, or an empty return. 
+
+&0Text Variable Fields&n 
+&0====================&n
+These fields pertain to any variable that contains a string of text. These are
+often the variables, such as %speech%, which are provided to a script, but can 
+also be variables that have been created by the script.
+
+&4strlen&n 
+Returns the number of characters in the string. 
+
+&4trim&n
+Returns the string without any leading or trailing whitespace. This is used to
+trim extra spaces from the beginning or end of a string. 
+
+&4car&n
+Returns the first word of the string. For %text%="this is the string"; 
+%text.car% will yield "this". 
+
+&4cdr&n
+Returns all but the first word of the string, trimmed. For %text%="this is the 
+string"; 
+%text.cdr% will yield "is the string". 
+
+&0Special Variables&n 
+&0=================&n
+echo, echoaround, send 
+These variables are meant to make the mecho, oecho, and wecho (and Xechoaround,
+and Xsend) commands generically accessable. If a script uses %echo% as a 
+command, it will pick up the appropriate version of the echo command. 
+
+&4self&n
+The mob, item, or room running the script. Normal fields may be used with this. 
+
+&4time.<field>&n
+Field may be hour, day, month, or year. The returned value will be the current
+hour in the mud (0..23), day of the month (1..35), month (1..16), or year 
+respectively. 
+
+&4people.<vnum>&n
+This variable returns the number of people in the room specified via vnum. 
+
+&4random&n
+This variable returns a number between 1 and the field value. For example,
+%random.10% would be a value between 1 and 10. 
+
+&4speech&n
+This variable is set to the complete phrase spoken by an actor that triggers a
+speech trigger. 
+
+&1Variables are case insensitive&n.
+
+See also: DGSCRIPTS, "DGSCRIPT TRIGGERS", "DGSCRIPT SCRIPT COMMANDS", 
+          "DGSCRIPT GAME COMMANDS", "DGSCRIPT IMM COMMANDS", 
+          "DGSCRIPT EXPRESSIONS"
+
+#
+"DGSCRIPT EXPRESSIONS"
+
+&2DGScript Expressions&n
+
+A false expression is any expression that evaluates to 0, or an empty string. A 
+true expression is any expression that evaluates to anything other than a false 
+expression.
+The following list are the recognized operators. The higher the operator is on 
+the list, the higher the precedence. The expression is evaluated from left to 
+right. Parenthesis can be used to group. 
+
+Operator	Name		        Examples 
+---------------------------------------------------------------
+||		logical or	        0 || ( ) = 0; 5 || 0 = 1
+&&		logical and	        1 && 0 = 0; 5 && 3 = 1
+==		equivalence	        5 == 3 = 0; dog == DoG = 1
+!=		inequality	        0 != Z = 0; dog != d = 1
+<               less than               4 < 3 = 0; 4 < 5 = 1
+>               greater than            4 > 3 = 1; 4 > 4 = 0
+<=              less than or equal      4 <= 3 = 0; 4 <= 5 = 1
+>=              greater than or equal   4 >= 3 = 1; 4 >= 4 = 1
+/=              substring               "concatenate" /= "cat"
+-               subtraction             15 - 10 = 5
++               addition                10 + 15 = 25
+*               multiplication          10 * 20 = 400
+/               division                100 / 20 = 5
+!               negation                !() = 1; !0 = 1; !dog = 0;
+
+See also: DGSCRIPTS, "DGSCRIPT TRIGGERS", "DGSCRIPT SCRIPT COMMANDS", 
+          "DGSCRIPT GAME COMMANDS", "DGSCRIPT IMM COMMANDS", 
+          "DGSCRIPT VARIABLES"
+
+#
+ECHO GECHO QECHO SEND
+
+&2Echo Gecho Qecho Send&n
+
+&3Usage:&n &4echo <message>&n
+       &4gecho <message>&n
+       &4send <victim> <message>&n
+       &4qecho <message>&n
+
+&4Echo&n displays a string to everyone in your room.
+&4Gecho&n displays the string to everyone in the game.
+&4Qecho&n displays the string to everyone with the QUEST flag.
+&4Send&n displays the string to a particular person.
+
+Examples:
+
+  > echo Hi, everyone in the room.
+  > gecho Hi, everyone in the game, isn't this annoying?
+  > send rasmussen You are being watched.
+#
+ELECTION
+
+&2Election&n
+
+&3Usage:&n &4event create election <what the election is about?>&n
+
+This event is to get positive or negative feed back on certain issues
+that you would like to know from the players.
+
+&3Usage:&n &4event destroy election&n
+
+Will terminate the election currently running.
+#
+"EVENTS"
+
+&2Events&n
+
+&3Usage:&n &4event <list | create [event #] | destroy [event #]>&n
+
+This will show the current events running on the base.
+The events you can create are as follows:
+
+Curfew | Goldrush | Quest | Election | Happy hour
+
+Another event that is listed but not able to create through
+the event command is "Bounty"
+
+See Also: Bounty Quest Electon Curfew Goldrush
+#
+FORCE
+
+&2Force&n
+
+&3Usage:&n &4force <victim | all> <command> <arguments>&n
+
+&4ForceE&n forces a character, either monster or player, to perform a certain
+action.  &4Force all&n forces everyone in the game; &4Force room&n forces everyone in
+your room.
+
+Example:
+
+  > force fido drop meat
+  > force all save
+  > force room look fido
+
+If you are invisible to the one being forced, the force will be performed
+silently.
+#
+FREEZE THAW
+
+&2Freeze Thaw&n
+
+&3Usage:&n &4freeze <victim>&n
+       &4thaw <victim>&n
+
+&4Freeze&n, originally invented here at CircleMUD (we think), is used to prevent
+a player from playing.  If frozen, the game will ignore all commands entered
+by the player, including QUIT, until the player is unfrozen with THAW.
+
+Obviously, this command should only be used in extreme disciplinary
+circumstances.
+
+See also: SET -> FROZEN
+#
+GOTO TRANS WIZTELEPORT
+
+&2Goto Trans Wizteleport&n
+
+&3Usage:&n &4goto <location>&n
+       &4trans <victim>&n
+       &4teleport <victim> <location>&n
+
+These commands are used to transports yourself and others to different rooms.
+&4goto&n allows you to go to other rooms; TRANS transports a person from wherever
+they are to the room YOU are in; TELEPORT transports your victim to some other
+location.
+
+For both GOTO and TELEPORT, the location specifier can be either a virtual
+room number, or the name of a character or object.
+
+Examples:
+
+  > goto 3001
+  > goto rasmussen
+  > trans fido
+  > teleport fido 3001
+  > teleport fido 2.fido
+
+See also: POOFIN, POOFOUT, SET -> ROOM, WIZAT
+#
+HANDBOOK
+
+&2Handbook&n
+
+&3Usage:&n &4handbook&n
+
+Guidelines for having an Immortal character -- you should read it.
+#
+HCONTROL
+
+&2HControl&n
+
+&3Usage:&n &4hcontrol build <house vnum> <exit dir> <player name>&n
+       &4hcontrol destroy <house vnum>&n
+       &4hcontrol pay <house vnum>&n
+       &4hcontrol show&n
+
+House control, controls the addition, removal, and payments of houses.
+Hcontrol show will show all the houses currently defined in the game
+along with their last 'rent' payment date.
+
+See also: HOUSE, HOUSES
+#
+HOLYLIGHT
+
+&2Holylight&n
+
+&3Usage:&n &4holylight&n
+
+A toggle which allows you to see:
+   Invisible people and objects, even if you don't have 'detect invisibility'
+   Hidden people, even if you don't have 'sense life'
+   Dark rooms, even if you don't have a light
+
+It is expected most immortals will keep HOLYLIGHT on most of the time;
+it exists so that you have the ability to see what mortals see for
+debugging purposes.
+#
+IMOTD
+
+&2IMOTD&n
+
+&3Usage:&n &4imotd&n
+
+Displays the Immortal message of the day.  This file usually contains
+new information on commands recently added, new features and other
+important information that immortals should be aware of.
+
+See also: MOTD
+#
+INVIS
+
+&2Invis&n
+
+&3Usage:&n &4invis [level]&n
+
+&4Invis&n sets your invisibility level.  With no argument, invis toggles between
+making you fully visible and fully invisible.  If you specify a level, only
+people at and above the level you specify will be able to see you.
+
+Examples:
+
+  > invis
+  > invis 31
+
+See also: VISIBLE
+#
+LOAD
+
+&2Load&n
+
+&3Usage:&n &4load <mob | obj> <virtual number>&n
+
+&4Load&n is used to create mobiles and objects.  The first argument specifies if
+you are trying to load a mobile or an object; the second is the virtual
+number.
+
+Example:
+
+  > load obj 3099
+  You create a bulletin board.
+
+  > load mob 3005
+  You create the receptionist.
+
+See also: VNUM
+#
+MUTE
+
+&2Mute&n
+
+&3Usage:&n &4mute <victim>&n
+
+&4Mute&n is used to shut a player up.  When muted, a player will not be able to
+use most communication channels until he/she is unmuted.
+
+See also: FLAGS
+#
+NOHASSLE
+
+&2Nohassle&n
+
+&3Usage:&n &4nohassle&n
+
+Toggles a flag to prevent aggressive monsters from attacking.
+#
+NOTITLE
+
+&2Notitle&n
+
+&3Usage:&n &4notitle <vicitim>&n
+
+Prevent players from being able to set their own titles; i.e., if the
+player consistently has an offensive title.  The definition of offensive
+is left as an exercise for the reader.
+
+See also: TITLE
+#
+NOWIZ
+
+&2Nowiz&n
+
+&3Usage:&n &4nowiz&n
+
+Allows you to hear or ignore messages coming over the wiznet.
+
+See also: WIZNET
+#
+OLC OASIS
+
+&2Olc Oasis&n
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ Using OasisOLC
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+To understand what all the fields in the menus mean, refer to the
+primal building doc which is obtainable from the building co-ordinator. 
+
+Here's how all the commands for the OLC system are used:
+
+redit                          - edit the room you are standing in
+redit <virtual room num>       - edit/create room
+redit save <zone>              - save all the rooms in zone to disk
+
+zedit                          - edit the zone info for the room you are
+                                 standing in
+zedit <virtual room num>       - edit the zone info for that room
+zedit save <zone>              - save all the zone info for that zone to disk
+zedit new <one>                - IMPLs only - create a new zone.
+
+oedit <virtual obj num>        - edit/create object
+oedit save <zone>              - save all the objects in zone to disk
+
+medit <virtual mob num>        - edit/create mobile
+medit save <zone>              - save all the mobiles in zone to disk
+
+sedit <virtual shop num>       - edit/create shop
+sedit save <zone>              - save all shops in zone to disk.
+
+set <player name> olc <zone>   - IMPLs only - allow player to edit zone.
+
+olc                            - List all the things that have been edited
+                                 but not yet saved.
+
+For Trigger information please see the DGSCRIPTS help files.
+#
+PAGE
+
+&2Page&n
+
+&3Usage:&n &4page <player | all> <message>&n
+
+&4Page&n is used to send a message, along with a beep, to another player.  Use
+PAGE ALL to send a message and a beep to everyone in the game.
+
+Examples:
+
+  > page rasmussen Hey, are you still at the keyboard?
+  > page all GAME WILL BE SHUTTING DOWN IN 10 MINUTES
+
+Do not abuse this command.
+#
+PARDON
+
+&2Pardon&n
+
+&3Usage:&n &4pardon <victim>&n
+
+Removes killer and thief flags from a player.
+#
+POOFIN POOFOUT
+
+&2Poofin Poofout&n
+
+&3Usage:&n &4poofin <message>&n
+       &4poofout <message>&n
+
+Sets the message seen by players when you use GOTO to move to a different
+room.  &4Poofin&n with no argument resets your poofin to the default "appears with
+an ear-splitting bang"; POOFOUT with no argument defaults to "disappears in
+a puff of smoke."
+
+See also: GOTO
+#
+PUNISH PUNISHMENT
+
+&2Punish Punishment&n
+
+&3Usage:&n  &4punish <victim> <punishment> <hours> <offence> <reason>&n
+
+The punishments are as follows:
+
+Freeze, Mute, Notitle, Laggy, Low_Exp, Low_Regen, Aggravate
+
+The Offences so far:
+0 (zero), PKill
+
+At the current time this punishment system is not broadcasted across the game.
+This has been requested to be implemented so everyone on at the time of the 
+punishment is aware that someone has committed an offence.  The players command
+to see sentencing or punishments is sentence.
+#
+PURGE
+
+&2Purge&n
+
+&3Usage:&n &4purge [name]&n
+
+&4Purge&n destroys things.  If used with no arguments, it will clear a room of all
+mobiles and objects, but will not harm players.  If the argument is an object,
+that object (and all of its contents, if any) will be destroyed.  If the
+argument is a mobile, the mobile will be destroyed, leaving its inventory and
+equipment lying on the ground.
+
+If the argument is the name of a player, the player's inventory and equipment
+will drop on the ground and the player will lose his/her connection.  For this
+reason, PURGE should only be used on players in disciplinary situations.
+
+Examples:
+
+  > purge
+  > purge Pom
+  > purge sword
+  > purge dragon
+
+See also: DC
+#
+RELOAD
+
+&2Reload&n
+
+&3Usage:&n &4reload < '*' | all | file >&n
+
+&4Reload&n is used to reload text files such as the MOTD from disk into memory.
+reload * reloads all the text files below.
+
+Valid files are:
+
+  background (/mud_dir/lib/text/background)
+  credits    (/mud_dir/lib/text/credits)
+  greetings  (/mud_dir/lib/text/greetings)
+  handbook   (/mud_dir/lib/text/handbook)
+  help       (/mud_dir/lib/text/help)
+  immlist    (/mud_dir/lib/text/immlist)
+  imotd      (/mud_dir/lib/text/imotd)
+  news       (/mud_dir/lib/text/news)
+  motd       (/mud_dir/lib/text/motd)
+  info       (/mud_dir/lib/text/info)
+  policy     (/mud_dir/lib/text/policies)
+  wizlist    (/mud_dir/lib/text/wizlist)
+  xhelp      (/mud_dir/lib/text/help/*)
+  spells     (/mud_dir/lib/etc/primal_spskls) (Primal Spell System)
+#
+REROLL
+
+&2Reroll&n
+
+&3Usage:&n &3reroll <player>&n
+
+&3Reroll&n gives a player new stats (i.e., Str, Int, Wis, Dex, Con, and Cha)
+
+See also: STAT
+#
+RESTORE
+
+&2Restore&n
+
+&3Usage:&n &4restore <player | mobile>&n
+
+&4Restore&n restores a player or mobile to full hit, mana, and movement points.
+If used on immortals, it also sets all skill levels to 100%.
+#
+RETURN
+
+&2REturn&n
+
+&3Usage:&n &4return&n
+
+&4Return&n returns you to your regular body if you are switched into a mob.
+
+See also: SWITCH
+#
+ROOMFLAGS
+
+&2Roomflags&n
+
+&3Usage:&n &4roomflags&n
+
+Toggles a flag which causes the virtual room number and room flags, if any,
+to be displayed next to room names.
+#
+SET
+
+&2Set&n
+
+&3Usage:&n &4set [ file | player ] <character> <field> <value>&n
+
+&4Set&n is an extremely powerful command, capable of setting dozens of aspects of
+characters, both players and mobiles.
+
+&4set <player name>&n forces set to look for a player and not a mobile; useful for
+players with names such as 'guard'.
+
+&4set file <player name>&n lets you change players who are not logged on.  If you use SET FILE
+on a player who IS logged on, your change will be lost.  If you wish to set
+a player who is in the game but is linkless, use set twice -- once with the
+FILE argument, and once without -- to make sure that the change takes.
+
+For toggled fields (BINARY), the value must be ON, OFF, YES, or NO.
+
+The following are valid fields:
+
+Field          Level Required   Who     Value Type   Decription
+-----------------------------------------------------------------------------
+age            LVL_GRGOD        BOTH    NUMBER       Character's age
+brief          LVL_GOD          PC      BINARY       Brief mode
+invstart       LVL_GOD          PC      BINARY       Invisible @ Start
+title          LVL_GOD          PC      MISC         Player's title
+nosummon       LVL_GRGOD        PC      BINARY       NOSUMMON flag
+maxhit         LVL_GRGOD        BOTH    NUMBER       Max HP
+maxmana        LVL_GRGOD        BOTH    NUMBER       Max mana
+maxmove        LVL_GRGOD        BOTH    NUMBER       Max movement
+hit            LVL_GRGOD        BOTH    NUMBER       Current HP
+mana           LVL_GRGOD        BOTH    NUMBER       Current mana
+move           LVL_GRGOD        BOTH    NUMBER       Current movement
+align          LVL_GOD          BOTH    NUMBER       Alignment
+str            LVL_GRGOD        BOTH    NUMBER       Strength
+stradd         LVL_GRGOD        BOTH    NUMBER       Additional STR (18/xx)
+int            LVL_GRGOD        BOTH    NUMBER       Inteligence
+wis            LVL_GRGOD        BOTH    NUMBER       Wisdom
+dex            LVL_GRGOD        BOTH    NUMBER       Dexterity
+con            LVL_GRGOD        BOTH    NUMBER       Constitution
+cha            LVL_GRGOD        BOTH    NUMBER       Charisma
+sex            LVL_GRGOD        BOTH    MISC         Sex
+ac             LVL_GRGOD        BOTH    NUMBER       Armor class
+gold           LVL_GOD          BOTH    NUMBER       Gold (On hand)
+bank           LVL_GOD          PC      NUMBER       Gold in bank
+exp            LVL_GRGOD        BOTH    NUMBER       Experience points
+hitroll        LVL_GRGOD        BOTH    NUMBER       To-Hit modifier
+damroll        LVL_GRGOD        BOTH    NUMBER       Damage modifier
+invis          LVL_IMPL         PC      NUMBER       Invisible (level)
+nohassle       LVL_GRGOD        PC      BINARY       NOHASSLE flag
+frozen         LVL_FREEZE       PC      BINARY       FROZEN flag
+practices      LVL_GRGOD        PC      NUMBER       # of practices
+lessons        LVL_GRGOD        PC      NUMBER       # of practices
+drunk          LVL_GRGOD        BOTH    MISC         Drunkeness
+hunger         LVL_GRGOD        BOTH    MISC         Hrs to hunger
+thirst         LVL_GRGOD        BOTH    MISC         Hrs to thirst
+killer         LVL_GOD          PC      BINARY       KILLER flag
+thief          LVL_GOD          PC      BINARY       THIEF flag
+level          LVL_IMPL         BOTH    NUMBER       Level
+room           LVL_IMPL         BOTH    NUMBER       Move to room
+roomflag       LVL_GRGOD        PC      BINARY       ROOMFLAGS flag
+siteok         LVL_GRGOD        PC      BINARY       SITEOK flag
+deleted        LVL_IMPL         PC      BINARY       DELETED flag
+class          LVL_GRGOD        BOTH    MISC         Class (W/T/C/M)
+nowizlist      LVL_GOD          PC      BINARY       Not Wizlistable flag
+quest          LVL_GOD          PC      BINARY       QUESTING flag
+loadroom       LVL_GRGOD        PC      MISC         Room to load in (#/off)
+color          LVL_GOD          PC      BINARY       COLOR flag
+idnum          LVL_IMPL         PC      NUMBER       ID Number
+passwd         LVL_IMPL         PC      MISC         Player password
+nodelete       LVL_GOD          PC      BINARY       Undeletable flag
+
+See also: STAT
+#
+SHOW
+
+&2Show&n
+
+&3Usage:&n &4show <mode> [argument]&n
+
+Valid Modes:
+
+death          errors         godrooms       houses
+player         rent           shops          stats
+zones   
+
+The SHOW command displays information.  Some modes of show require additional
+information, such as a player name.
+
+   death: Shows all death traps in the game.
+  errors: Shows errant rooms.
+godrooms: Shows the rooms in the 'god zone'.
+  houses: Shows the houses that are currently defined.
+  player: Shows player summary information, simply provide a player name.
+    rent: Shows the filename and path to a players rent file.
+   shops: Shows all the shops in the game and their buy/sell parameters.
+   stats: Shows game status information including players in game, mobs etc.
+   zones: Shows all the zones in the game and their current reset status.
+          An age of -1 means it is in the 'to be reset next' queue.
+
+See also: STAT, ZRESET
+#
+SHUTDOWN
+
+&2Shutdown&n
+
+&3Usage:&n &4shutdown [reboot | die | pause]&n
+
+&4Shutdown&n shuts the MUD down.  The SHUTDOWN command works in conjunction with
+CircleMUD's 'autorun' script.  If you are not using autorun, the arguments are
+meaningless.  If you are using autorun, the following arguments are available:
+
+REBOOT     Pause only 5 seconds instead of the normal 40 before trying to
+           restart the MUD.
+
+DIE        Kill the autorun script; the MUD will not reboot until autorun is
+           explicitly run again.
+
+PAUSE      Create a file called 'paused' in Circle's root directory; do not
+           try to restart the MUD until 'paused' is removed.
+#
+SKILLSET
+
+&2Skillset&n
+
+&3Usage:&n &4skillset <name> '<skill>' <value>&n
+
+Sets the specified skill to the specified value.
+
+See also: SET
+#
+SLOWNS
+
+&2Slowns&n
+
+&3Usage:&n &4slowns&n
+
+Toggles whether or not IP addresses are resolved into readable site names.
+If slow nameserver is enabled, USERS will show only IP addresses.
+(128.123.222.111 etc).
+
+See also: USERS
+#
+SNOOP
+
+&2Snoop&n
+
+&3Usage:&n &4snoop [player]&n
+
+Snoop allows you to listen in on another player's session; everything the
+player sees or types will be displayed on your terminal preceded by a '%'.
+
+Obviously, there are many ethical considerations to the use of this command; 
+snoop should be used minimally, and only for disciplinary purposes.
+
+Type snoop <your name> or just snoop to stop snooping.
+#
+SNOWBALL
+
+&2Snowball&n
+
+Snowball is just a social -- it prints a funny message, and nothing more.
+#
+STAT
+
+&2Stat&n
+
+&3Usage:&n &4stat [player | object | mobile | file] <name>&n
+
+Gives information about players, monsters, and objects in the game.  The type
+argument is optional.
+
+&4stat <player name>&n will search only for players; useful for statting people with
+names such as Red or Cityguard.
+
+&4Stat <Object name>&n will search only for objects.
+
+&4stat <mobile name>&n will search only for monsters.
+
+&4stat file <player name>&n is used to stat players who are not logged in; the information
+displayed comes from the playerfile.
+
+Examples:
+
+  > stat fido
+  > stat player red
+  > stat mobile red
+  > stat file niandra
+  > stat object thunderbolt
+
+See also: VSTAT
+#
+STRING
+
+&2String&n
+
+&3Usage:&n &4string <type> <name> <field> [<string> | <keyword>]&n
+
+For changing the text-strings associated with objects and characters.  The
+format is:
+
+Type is either 'obj' or 'char'.
+
+Field is one of the following(the names may be abbreviated):
+
+Name                  (the call-name of an obj/char - kill giant)
+Short                 (for inventory lists (obj's) and actions (char's))
+Long                  (for when obj/character is seen in room)
+Title                 (for players)
+Description           (For look at.  For obj's, must be followed by a keyword)
+Delete-description    (only for obj's. Must be followed by keyword)
+
+Where a string is expected as the last argument, a newline will make you enter
+a string mode, and the game will prompt you for new lines to the string until
+you exceed the maximum length for the string or you end a line with a '@'.
+
+Mobiles and objects currently cannot be strung.
+#
+SWITCH
+
+&2Switch&n
+
+&3Usage:&n &4switch <monster>&n
+
+SWITCH is used to take over the body of mobiles; useful for interactive
+adventures.  If the monster in which you are switched is killed you will be
+returned to your own body.
+
+See also: RETURN
+#
+SYSLOG
+
+&2Syslog&n
+
+&3Usage:&n &4syslog [off | brief | normal | complete]&n
+
+The &4syslog&n command controls how detailed of an on-line system log you see.
+Messages surrounded by '[' and ']' are syslog messages and are in green
+if you have color on.
+
+The messages you receive are level dependent.
+
+Examples:
+
+  > syslog complete
+  > syslog off
+
+See also: COLOR
+#
+UNAFFECT
+
+&2Unaffect&n
+
+&3Usage:&n &4unaffect <victim>&n
+
+Removes all affections (i.e., spell effects) from a player.
+
+See also: STAT
+#
+UPTIME
+
+&2Uptime&n
+
+&3Usage:&n &4uptime&n
+
+Displays when the game was booted and calculates how long ago that was.
+#
+USERS
+
+&2Users&n
+
+&3Usage:&n &4users [switches]&n
+
+&4Users&n gives a list of all sockets (i.e., connections) currently active on the
+MUD.  The multi-column display shows the socket number (used by DC), class,
+level, and name of the player connected, connection state, idle time, and
+hostname.
+
+The following switches are available:
+
+-k or -o   Show only outlaws (killers and thieves).
+-p         Show only sockets in the playing sockets.
+-d         Show only non-playing (deadweight) sockets.
+-l min-max Show only sockets whose characters are from level min to max.
+-n <name>  Show the socket with <name> associated with it.
+-h <host>  Show all sockets from <host>.
+-c list    Show only sockets whose characters' classes are in list.
+
+See also: DC, SLOWNS
+#
+VNUM
+
+&2Vnum&n
+
+&3Usage:&n &4vnum <mob | obj> <name>&n
+
+Gives a list of the virtual numbers of objects or mobiles which have the
+specified name.
+
+Examples:
+
+  > vnum obj ring
+  1. [  904] a platinum ring
+  2. [ 2543] a seashell ring
+  3. [ 2588] a small emerald ring
+  
+  > vnum mob dragon
+  1. [    1] Puff
+  2. [  908] the dragon turtle
+  3. [ 2548] the Master of Illusions
+#
+VSTAT
+
+&2Vstat&n
+
+&3Usage:&n &4vstat < mob | obj > <virtual number>&n
+
+Used to stat a prototypical mobile or object by virtual number.
+
+Examples:
+
+  > vstat obj 3000
+  > vstat mob 3001
+
+See also: LOAD, STAT, VNUM
+#
+WIZHELP
+
+&2Wizhelp&n
+
+&3Usage:&n &4wizhelp&n
+
+Gives a list of the special commands available at your level.
+#
+WIZLOCK
+
+&2Wizlock&n
+
+&3Usage:&n &4wizlock [value]&n
+
+&4Wizlock&n allows you to restrict the game.  WIZLOCK 1 prevents new characters
+from being created.  WIZLOCK n, 2 <= n <= 34, prevents new characters and
+allows only characters level n and above to log on.  WIZLOCK with no argument
+displays the current WIZLOCK level.
+
+See also: BAN
+#
+WIZNET ;
+
+&2Wiznet&n
+
+The immortal communication channel.
+
+&3Usage:&n &4wiznet [ '@' | '+' | '-' | '#' ] [<text>]&n
+
+Examples:
+
+  >; <text>    - just sends text
+  >; @         - shows all gods that are on and visible to you
+               - also shows if the gods who are visible to you are writing
+
+This code was provided by Gnort.
+
+See also: NOWIZ
+#
+ZRESET
+
+&2Zreset&n
+
+&3Usage:&n &4zreset < zone | '*' | '.' >&n
+
+Used to force a zone to reset.  '*' forces all zones to reset.  '.' forces
+the zone you are in to reset.
+
+See also: SHOW -> ZONES
+#
+$

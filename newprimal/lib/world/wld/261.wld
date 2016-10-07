@@ -1,0 +1,1356 @@
+#26100
+&CHollywood Bus Station&n~
+As you step off the bus, you seem to have entered a place unlike any you have
+seen before.  There is glamour everywhere as you can see right down the main
+street of this city.  Intrigued by everything around you, it seems like this
+is the City of the Stars.
+~
+261 c 0 0
+D0
+~
+~
+0 0 26101
+S
+#26101
+Path to Hollywood~
+You are travelling towards the main street of Hollywood
+Looking around, you are lead to believe that you are not the
+only tourist here.. Phew! Thats a relief!
+~
+261 0 0 0
+D0
+~
+~
+0 0 26102
+D2
+~
+~
+0 0 26100
+S
+#26102
+Path to Hollywood~
+You are travelling towards the main street of Hollywood
+Looking around, you are lead to believe that you are not the
+only tourist here.. Phew! Thats a relief!
+~
+261 0 0 0
+D0
+~
+~
+0 0 26103
+D2
+~
+~
+0 0 26101
+S
+#26103
+Path to Hollywood~
+You are travelling towards the Golden Gates of Hollywood
+Looking around, you are lead to believe that you are not the
+only tourist here.. Phew! Thats a relief!
+~
+261 0 0 0
+D0
+~
+~
+0 0 26104
+D1
+~
+~
+0 0 26190
+D2
+~
+~
+0 0 26102
+S
+#26104
+In front of the Golden Gates~
+You are approaching the Golden Gates of Hollywood.
+You feel as though you have entered the world of the Rich
+and Famous.  If you look hard enough, you might spot a celebrity
+in the crowd.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26105
+D2
+~
+~
+0 0 26103
+S
+#26105
+Hollywood Boulevard~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  Looking around you can see some familiar faces as well as
+some very busy workers.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26106
+D2
+~
+~
+0 0 26104
+S
+#26106
+Hollywood Boulevard~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  Looking around you can see some familiar faces as well as
+some very busy workers.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26107
+D2
+~
+~
+0 0 26105
+D3
+~
+~
+0 0 26192
+S
+#26107
+Hollywood Boulevard~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  Looking around you can see some familiar faces as well as
+some very busy workers.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26108
+D2
+~
+~
+0 0 26106
+S
+#26108
+Hollywood Boulevard~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  Looking down the street you can see the main production
+studios in the distance.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26109
+D2
+~
+~
+0 0 26107
+S
+#26109
+Hollywood Boulevard~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You can see the main production studios in the distance as
+you walk futher into Hollywood.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26110
+D2
+~
+~
+0 0 26108
+S
+#26110
+&nHollywood Boulevard - &RInfront of Studios.&n~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You are nearing the main production studios of Hollywood
+where some of todays feature films are made.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26130
+D1
+~
+~
+0 0 26150
+D2
+~
+~
+0 0 26109
+D3
+~
+~
+0 0 26111
+S
+#26111
+Infront of Entrance - &mStudio "A"&n~
+You are approaching File Studio "A".  This is where
+Hollywood films all their drama and romance genre films.
+The studio looks rather large and overwhelming.
+~
+261 0 0 0
+D0
+~
+Studio Door~
+2 0 26112
+D1
+~
+~
+0 0 26110
+S
+#26112
+&mStudio "A"&n. ~
+You have entered the main foyer of the Studio.  Inside is all
+quiet as you see production crews preparing to take their first shot
+of today's scene.  There seems to be a castle in the background, and people
+dressed in medievil clothes.
+~
+261 df 0 0
+D0
+~
+~
+0 0 26113
+D2
+~
+Studio Door~
+2 0 26111
+S
+#26113
+&mStudio "A"&n.~
+You are in walking around in the production studio.  There are 
+production crews and employees running around here as they all prepare
+to shoot the first scene of the day.  Maybe you can catch a glimpse of the movie
+that they are producing.
+~
+261 df 0 0
+D0
+~
+~
+0 0 26114
+D2
+~
+~
+0 0 26112
+S
+#26114
+&mStudio "A"&n.~
+You are in walking around in the production studio.  There are
+production crews and employees running around here as they all prepare
+to shoot the first scene of the day.  Maybe you can catch a glimpse of the movie
+that they are producing.
+~
+261 df 0 0
+D0
+~
+~
+0 0 26115
+D2
+~
+~
+0 0 26113
+S
+#26115
+In Front of the Main Theatre - &mStudio "A"&n.~
+You about to enter the theatre in the studio.  A Large Castle is in
+the background, and there is a lot more happening here than in the foyer of
+the studio... It looks as though the movie is a drama... perhaps a love story...
+You think to yourself, "This is nice, a far lot better than some of the death you have
+witnessed in levelling thus far.
+~
+261 df 0 0
+D0
+~
+~
+0 0 26116
+D2
+~
+~
+0 0 26114
+D3
+~
+~
+0 0 26119
+S
+#26116
+In Front of the Castle - &mStudio "A"&n.~
+You stand in front of a Large Prop Castle.  The walls are made from a type
+of ceramic and actually looks quite fake up close.  Looking up to the balcony of the tower
+you can see a beautiful women, that looks like a princess.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26117
+D2
+~
+~
+0 0 26115
+S
+#26117
+The Castle - &mStudio "A"&n.~
+You are inside the castle.  You can see all the beams holding the castle in place
+as if it was originally a kit, made to look like a castle.  Disappointed, you can see a set
+of stairs going up from here to the balcony that overseas the studio
+~
+261 0 0 0
+D2
+~
+~
+0 0 26116
+D4
+~
+~
+0 0 26118
+S
+#26118
+The Balcony - &mStudio "A"&n.~
+Here is the Balcony that over looks the studio.  It isn't all that high really,
+and is made to look like an actual tower overlooking an empire or the country-side.
+You see a lady standing here, resting on the arm rest of the balcony, looking down to the
+foot of the castle.
+~
+261 0 0 0
+D5
+~
+~
+0 0 26117
+S
+#26119
+Towards the Audio Room - &mStudio "A"&n.~
+You are following the path around the side of the castle.  There 
+seems to be a recording studio here.  Perhaps Romeo isn't chanting like
+the producers want him to.. I mean, For F@*Ks Sake... How annoying is his
+Voice.
+~
+261 df 0 0
+D1
+~
+~
+0 0 26115
+D3
+~
+Sound Audio Door~
+1 0 26120
+S
+#26120
+Audio Studio - &mStudio "A"&n.~
+You have entered the recording studio that is propelling the
+annoying and voicstress lines of Romeo and Juliet.  Here are the people
+responsible for the loud jestures that are being heard all through Hollywood.
+You see a familiar face in the corner of the room. "HEY!" you shout.  "You're
+Famous...!"
+~
+261 dfgy 0 0
+D1
+~
+Sound Audio Door~
+1 0 26119
+S
+#26121
+On Board the Titanic - &YStudio "D"&n.~
+You have just stepped onboard the most famous of all luxury liners
+The R.M.S Titanic.  This ship is an exact replica, built by James Cameron to
+educate the public about one of histories greatest tragedies.  The ship floats on a
+large lake of water, with realistic backdrops of the surrounding ocean.
+~
+261 afgjzA 16384 0
+D5
+~
+Drain~
+1 0 26174
+S
+T 26112
+#26122
+Down the Path - &gStudio "B"&n~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You are approaching Film Studio "B " following the paved pathway
+all the way up to the main doors.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26123
+D2
+~
+~
+0 0 26132
+S
+#26123
+Intersection of Paths - &gStudio "B"&n~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You are approaching an intersection towards the Main Studio
+and Recording areas.
+~
+261 0 0 0
+D2
+~
+~
+0 0 26122
+D3
+~
+~
+0 0 26124
+D4
+~
+~
+0 0 26129
+S
+#26124
+Automotive Lane - &gStudio "B"&n.~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You can see a large studio in the foreground as this path
+is leading you towards what seems to be an automotive production site.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26123
+D3
+~
+~
+0 0 26125
+S
+#26125
+Automotive Lane - &gStudio "B"&n.~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You can see a large studio in the foreground as this path
+is leading you towards what seems to be an automotive production site.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26124
+D3
+~
+~
+0 0 26126
+S
+#26126
+Automotive Lane - &gStudio "B"&n.~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You can see a large studio in the foreground as this path
+is leading you towards what seems to be an automotive production site.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26125
+D3
+~
+~
+0 0 26127
+S
+#26127
+Automotive Lane - &gStudio "B"&n.~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You can see a large studio in the foreground as this path
+is leading you towards what seems to be an automotive production site.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26126
+D3
+~
+~
+0 0 26128
+S
+#26128
+&nGone in &R60 &nSeconds&n~
+You are standing in front of the studio for the motion
+picture, 'Gone in 60 Seconds'.  You can hear the loud, roaring rumble
+of the American Muscle Cars, as the crew get ready to shoot another intense
+scene.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26127
+S
+T 26120
+#26129
+The Road to Calabria - &gStudio "B"&n~
+You are walking down the pathway towards the gangland scenes of the early
+20th century.  You can see a vast range of gangsters walking around here, all well
+dressed and looking sleazy, shifty and very suspicious... This is Hollywood.. These guys are
+actors... Aren't they... ?!?
+~
+261 cg 0 0
+D0
+~
+~
+0 0 26136
+D5
+~
+~
+0 0 26123
+S
+#26130
+Path off Hollywood Boulevard - &gStudio "B"&n~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You are approaching Film Studio "B " following the paved pathway 
+all the way up to the main doors.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26131
+D2
+~
+~
+0 0 26110
+S
+#26131
+Down the Path - &gStudio "B"&n~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You are approaching Film Studio "B " following the paved pathway
+all the way up to the main doors.
+~
+261 0 0 0
+D0
+~
+~
+1 0 26132
+D2
+~
+~
+0 0 26130
+S
+#26132
+Down the Path - &gStudio "B"&n~
+You are walking down the famous Hollywood strip
+mixing in with all kinds of actors, directors and production
+workers.  You are approaching Film Studio "B " following the paved pathway
+all the way up to the main doors.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26122
+D2
+~
+~
+0 0 26131
+D3
+~
+~
+0 0 26133
+S
+#26133
+&nFront Carpark - &yMcNuggets Takeaway&n~
+Whilst travelling down the main stage pathway, you have come 
+across the infamous takeaway food chain, 'McNuggets'.  This place
+seems busy, with many cars parked in the carpark and the drive thru looking
+extremely busy.  For a 'trendy' area, this place seems out of its natural element.
+~
+261 c 0 0
+D1
+~
+~
+0 0 26132
+D3
+~
+~
+0 0 26134
+S
+#26134
+&yMcNuggets Takeaway&n~
+You have entered the cheesy, and cheap McNuggets Takeaway
+Restaurant in down-town Hollywood. There is a young cashier waiting
+for you to place an order, or to clean up your mess after you have finished your
+meal.
+~
+261 d 0 0
+D0
+~
+Manager Door~
+1 0 26149
+D1
+~
+~
+0 0 26133
+S
+#26135
+&nBoss's Safe - &yMcNuggets Restaurant&n~
+You have crack the safe and entered the Boss's Safe.  You had
+better loot this safe before anyone catches you and alerts others.
+~
+261 adfj 0 0
+D4
+~
+Safe~
+2 26107 26149
+S
+#26136
+La Cafe' Di Calabria~
+You have entered The Cafe in a place that resembles the old coffee
+shops from Italy in the early 1900's.  There are people in suits seated all
+around the cafe, all wearing lovely suits and sticking in small groups of people.
+There is a staircase to the far north-east of the room, with two large looking
+hoods blocking the path.
+~
+261 d 0 0
+D0
+~
+~
+0 0 26137
+D2
+~
+~
+0 0 26129
+S
+T 26118
+#26137
+La Cafe' Di Calabria~
+You have entered The Cafe in a place that resembles the old coffee
+shops from Italy in the early 1900's.  There are people in suits seated all
+around the cafe, all wearing lovely suits and sticking to small groups.
+There is a staircase to the far north-east of the room, with two large looking
+hoods blocking the path.
+~
+261 d 0 0
+D0
+~
+~
+0 0 26138
+D2
+~
+~
+0 0 26136
+S
+#26138
+In front of the Large Doors - La Cafe' Di Calabria~
+You have entered The Cafe in a place that resembles the old coffee
+shops from Italy in the early 1900's.  There are people in suits seated all
+around the cafe, all wearing lovely suits and sticking to small groups.
+In front of you are 2 large doors which look as though they lead to the rear
+of the establishment.
+~
+261 d 0 0
+D0
+~
+Door~
+1 0 26139
+D2
+~
+~
+0 0 26137
+S
+#26139
+Behind the Cafe - La Cafe' Di Calabria~
+Leaving the room, you have entered a narrow corridor that
+links the rear of the cafe to the main room.  You can hear strange
+noises coming from the rear of the establishment, as if a poker game is
+taking place.
+~
+261 adfi 0 0
+D0
+~
+~
+0 0 26140
+D2
+~
+Door~
+1 0 26138
+S
+#26140
+Poker Table - Centre~
+You have entered the small room at the rear of the Cafe'.
+There is a large table situated in this room with mob bosses
+sitting around here playing a few hands of poker.
+~
+261 deg 0 0
+D0
+~
+~
+0 0 26143
+D1
+~
+~
+0 0 26142
+D2
+~
+~
+0 0 26139
+D3
+~
+~
+0 0 26141
+S
+T 26123
+#26141
+Poker Table - Left~
+You have entered the small room at the rear of the Cafe'.
+There is a large table situated in this room with mob bosses
+sitting around here playing a few hands of poker.
+~
+261 dg 0 0
+D1
+~
+~
+0 0 26140
+S
+T 26124
+#26142
+Poker Table - Right~
+You have entered the small room at the rear of the Cafe'.
+There is a large table situated in this room with mob bosses
+sitting around here playing a few hands of poker.
+~
+261 dg 0 0
+D3
+~
+~
+0 0 26140
+S
+T 26124
+T 26125
+#26143
+Poker Table - Onlookers Side~
+You have entered the small room at the rear of the Cafe'.
+There is a large table situated in this room with mob bosses
+sitting around here playing a few hands of poker.  You are now towards
+the onlookers section of the table, out of the play of the current hand.
+~
+261 dg 0 0
+D2
+~
+~
+0 0 26140
+S
+#26149
+&nManagers Office - &yMcNuggets Restaurant&n~
+You have entered the Managers Office at McNuggets Restaurant.  He
+is a slightly over-weight man, tipping the scales at a hefty 398 pounds.
+He's staring at you as you have entered the room... Perhaps he's waiting for you
+to ask for a pay increase... ?!?
+~
+261 dfgij 128 0
+D2
+~
+Manager Door~
+1 0 26134
+D5
+~
+Safe~
+2 26107 26135
+S
+#26150
+&nHollywood Boulevard - Towards Studios &R"C" &nand &Y"D"&n~
+You are walking down the famous Hollywood strip
+towards the production Studios "C" and "D".  Everyone here
+seems to be obsessed with work as they run around here
+looking extremely busy.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26151
+D3
+~
+~
+0 0 26110
+S
+#26151
+Path towards Studios &R"C"&n and &Y"D"&n.~
+You are walking down the path towards one extremely large studio
+and what looks to be an auditorium of some sort.  The large studio is
+far bigger than the other studios that you have seen, and the studio is
+still a fair way into the distance.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26152
+D3
+~
+~
+0 0 26150
+S
+#26152
+Towards Intersection - Studios &R"C"&n and &Y"D"&n.~
+You are walking towards the the intersection of the large studio
+and what looks to be an auditorium of some sort.  The large studio is
+far bigger than the other studios that you have seen, and the studio is
+still in the distance.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26153
+D3
+~
+~
+0 0 26151
+S
+#26153
+At Intersection - Studios &R"C"&n and &Y"D"&n.~
+You stand at an intersection going east and south from here.  To
+the east is the enormous studio, and the auditorium is south from here.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26170
+D2
+~
+~
+0 0 26154
+D3
+~
+~
+0 0 26152
+S
+#26154
+Path to the Auditorium - &RStudio "C"&n.~
+You are following the path that leads towards the auditorium.
+There are trees planted along the path here, consisting of maple and 
+smallish elm trees.  The path continues south from here.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26153
+D2
+~
+~
+0 0 26155
+S
+#26155
+A Turn in the Path - &RStudio "C"&n.~
+You are following the path that leads towards the auditorium.
+There are trees planted along the path here, consisting of maple and 
+smallish elm trees.  The path continues south from here.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26154
+D3
+~
+~
+0 0 26156
+S
+#26156
+Path to the Auditorium - &RStudio "C"&n.~
+You are following the path that leads towards the auditorium.
+There are trees planted along the path here, consisting of maple and 
+smallish elm trees.  The path continues west from here.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26155
+D3
+~
+~
+0 0 26157
+S
+#26157
+Path to the Auditorium - &RStudio "C"&n.~
+You are following the path that leads towards the auditorium.
+There are trees planted along the path here, consisting of maple and 
+smallish elm trees.  The path continues west from here.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26156
+D3
+~
+~
+0 0 26158
+S
+#26158
+Infront of the Auditorium - &RStudio "C"&n.~
+You are following the path that leads towards the auditorium.
+There are trees planted along the path here, consisting of maple and 
+smallish elm trees.  The Entrance is too the west from here.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26157
+D3
+~
+~
+0 0 26159
+S
+#26159
+Entrance to the Auditorium - &RStudio "C"&n.~
+You are directly infront of the entrance of the auditorium.
+Inside, there looks as though there is a meeting of some sort between
+some of highest profile and powerful players in Hollywood.  The doors
+are open here, but there is a larger security guard checking identification
+of all people entering.
+~
+261 cy 0 0
+D1
+~
+~
+0 0 26158
+D4
+~
+Auditorium~
+1 0 26160
+S
+#26160
+&RInside the Auditorium&n.~
+You have entered the auditorium.  There is a hallway down the middle
+and there seems to be a large board room at the end.  It is beautiful
+inside the auditorium, and it is very well insulated from the noises
+coming from outside.
+~
+261 dx 0 0
+D0
+~
+~
+0 0 26161
+D5
+~
+Auditorium~
+1 0 26159
+S
+#26161
+&RThe Auditorium&n.~
+You are inside the auditorium.  There is a hallway down the middle
+of the auditorium and you are approaching the large board room at the end.
+You feel proud walking through the room, as you know that lower level
+mortals envy those that enter here.
+~
+261 dx 0 0
+D0
+~
+~
+0 0 26162
+D2
+~
+~
+0 0 26160
+S
+#26162
+&RThe Auditorium&n.~
+You are inside the auditorium.  There is a hallway down the middle
+of the auditorium and you are approaching the large board room at the end.
+You feel proud walking through the room, as you know that lower level
+mortals envy those that enter here.
+~
+261 dx 0 0
+D0
+~
+~
+0 0 26163
+D2
+~
+~
+0 0 26161
+S
+#26163
+&RThe Auditorium&n.~
+You are inside the auditorium.  There is a hallway down the middle
+of the auditorium and you are approaching the large board room at the end.
+You feel proud walking through the room, as you know that lower level
+mortals envy those that enter here.
+~
+261 0 0 0
+D0
+~
+~
+0 0 26164
+D2
+~
+~
+0 0 26162
+S
+#26164
+&RThe Auditorium&n.~
+You are inside the auditorium.  There is a hallway down the middle
+of the auditorium and you are approaching the large board room at the end.
+You feel proud walking through the room, as you know that lower level
+mortals envy those that enter here.
+~
+261 0 0 0
+D2
+~
+~
+0 0 26163
+S
+#26165
+&nThe Garage - &gStudio "B"&n.~
+You have exited the &RFerrari F50&n and now stand in the garage on
+the set of "Gone in &R60 &nSeconds".  There are production workers walking
+around here, and all the workers are preparing to shoot the next scene of this
+Hollywood Block-Buster!!
+~
+261 d 0 0
+D0
+~
+~
+0 0 26166
+S
+#26166
+&nThe Garage - &gStudio "B"&n. ~
+&nYou are standing in the garage on the set of "Gone in &R60&n Seconds".
+There are production teams all around here, and many are getting ready to shoot
+the next scene of this Hollywood Block-Buster!!
+~
+261 d 0 0
+D2
+~
+~
+0 0 26165
+S
+#26170
+Following the Path - &YStudio "D"&n.~
+You are following a path that is leading you towards a very
+large studio.  The path here has many trees on either side, and the
+smell of fresh flowers complements the well maintained surroundings.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26171
+D3
+~
+~
+0 0 26153
+S
+#26171
+Following the Path - &YStudio "D"&n.~
+You are following a path that is leading you towards a very
+large studio.  The path here has many trees on either side, and the
+smell of fresh flowers complements the well maintained surroundings.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26172
+D3
+~
+~
+0 0 26170
+S
+#26172
+Towards the Studio - &YStudio "D"&n.~
+You are following a path that is leading you towards a very
+large studio.  The path here has many trees on either side, and the
+smell of fresh flowers complements the well maintained surroundings.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26173
+D3
+~
+~
+0 0 26171
+S
+#26173
+Infront of the Large Studio - &YStudio "D"&n.~
+You are following a path that is leading you towards a very
+large studio.  The path here has many trees on either side, and the
+smell of fresh flowers complements the well maintained surroundings.
+~
+261 0 0 0
+D1
+~
+~
+0 0 26174
+D3
+~
+~
+0 0 26172
+S
+#26174
+The Large Studio - &YStudio "D"&n.~
+You stand in front of the large studio.  Inside, seems to be the set of a major
+movie... perhaps a blockbuster?  The path that you have been travelling is meticulously
+maintained.  There are two large doors infront of you for entry into the studio.
+~
+261 0 0 0
+D1
+~
+Studio Door~
+2 26103 26175
+D3
+~
+~
+0 0 26173
+S
+#26175
+On the Set - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film.  There are production crews, sound technicians and assistants
+of all sorts running around here, trying to be as productive as possible.  You can see
+a few actors and actresses here and they are all dressed in elaborate early 1900's attire.
+~
+261 dg 0 0
+D0
+~
+~
+0 0 26176
+D1
+~
+~
+0 0 26178
+D2
+~
+~
+0 0 26179
+D3
+~
+Studio Door~
+2 26103 26174
+S
+#26176
+On the Set - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film.  There are production crews, sound technicians and assistants
+of all sorts running around here, trying to be as productive as possible.  You can see
+a few actors and actresses here and they are all dressed in elaborate early 1900's attire.
+~
+261 dg 0 0
+D0
+~
+~
+0 0 26176
+D1
+~
+~
+0 0 26177
+D2
+~
+~
+0 0 26175
+S
+#26177
+On the Set - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film.  There are production crews, sound technicians and assistants
+of all sorts running around here, trying to be as productive as possible.  You can see
+a few actors and actresses here and they are all dressed in elaborate early 1900's attire.
+~
+261 dg 0 0
+D1
+~
+~
+0 0 26177
+D2
+~
+~
+0 0 26178
+D3
+~
+~
+0 0 26176
+S
+#26178
+On the Set - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film.  There are production crews, sound technicians and assistants
+of all sorts running around here, trying to be as productive as possible.  You can see
+a few actors and actresses here and they are all dressed in elaborate early 1900's attire.
+~
+261 dg 0 0
+D0
+~
+~
+0 0 26177
+D1
+~
+~
+0 0 26181
+D2
+~
+~
+0 0 26177
+D3
+~
+~
+0 0 26178
+S
+#26179
+On the Set - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film.  There are production crews, sound technicians and assistants
+of all sorts running around here, trying to be as productive as possible.  You can see
+a few actors and actresses here and they are all dressed in elaborate early 1900's attire.
+~
+261 dg 0 0
+D0
+~
+~
+0 0 26175
+D1
+~
+~
+0 0 26180
+S
+#26180
+On the Set - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film.  There are production crews, sound technicians and assistants
+of all sorts running around here, trying to be as productive as possible.  You can see
+a few actors and actresses here and they are all dressed in elaborate early 1900's attire.
+~
+261 dg 0 0
+D0
+~
+~
+0 0 26178
+D1
+~
+~
+0 0 26180
+D3
+~
+~
+0 0 26179
+S
+#26181
+On the Set - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film.  There are production crews, sound technicians and assistants
+of all sorts running around here, trying to be as productive as possible.  You can see
+a few actors and actresses here and they are all dressed in elaborate early 1900's attire.
+~
+261 dg 0 0
+D0
+~
+~
+0 0 26182
+D1
+~
+~
+0 0 26181
+D2
+~
+~
+0 0 26181
+D3
+~
+~
+0 0 26178
+S
+#26182
+On the Set - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film.  There are production crews, sound technicians and assistants
+of all sorts running around here, trying to be as productive as possible.  You can see
+a few actors and actresses here and they are all dressed in elaborate early 1900's attire.
+~
+261 dg 0 0
+D1
+~
+~
+0 0 26183
+D2
+~
+~
+0 0 26181
+D3
+~
+~
+0 0 26177
+S
+#26183
+Infront of the Liner - &YStudio "D"&n.~
+You have entered the studio, on the set of an extremely large
+feature film, The Titanic.  There are production crews, sound technicians
+and assistants of all sorts running around here, trying to be as productive as possible.
+Infront of you is the gangway to board the luxury liner.
+~
+261 d 0 0
+D3
+~
+~
+0 0 26182
+S
+#26190
+&nThe &YAll-Star &nCafe~
+You have entered the infamous All-Star Cafe located
+just outside the main street of Hollywood.  This is a good place
+to double check your map for your proposed day of sight seeing
+and visitor based travel.  There is memorabillia scattered everywhere
+around the place.  If you look closely, you can grab an autograph off someone.
+~
+261 d 0 0
+D1
+~
+~
+0 0 26191
+D3
+~
+~
+0 0 26103
+S
+#26191
+&nThe &YAll-Star&n Main Bar~
+You have entered the infamous All-Star Cafe located
+just outside the main street of Hollywood.  This is a good place
+to double check your map for your proposed day of sight seeing
+and visitor based travel.  There is memorabillia scattered everywhere
+around the place.  If you look closely, you can grab an autograph off someone.
+~
+261 cdeghy 0 0
+D3
+~
+~
+0 0 26190
+S
+#26192
+Tiffany and Co's~
+Welcome to Tiffany and Co's, the most exculsive and elaborate diamond
+store in the world.  The jewellery here is breathtaking, consisting of
+half carrat diamonds up to four carat diamonds, embedded in rings or 
+presented in earings or a necklace.  You catch a glimpse of a ring with a little
+stone on it... $5,500.  S#%t!  How expensive is this place?!?
+~
+261 djA 0 0
+D1
+~
+~
+0 0 26106
+S
+$~

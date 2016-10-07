@@ -1,0 +1,9 @@
+b backstab $1
+m get meat back ; eat meat
+d get skin back ; drink skin ; put skin back
+r get red back ; quaff red
+w get white back ; quaff white
+gac get all corpse 
+jc get corpse ; junk corpse
+rc get recall bac; recite recall
+h get healing bac;quaff healing

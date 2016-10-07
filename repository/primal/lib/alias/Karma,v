@@ -1,0 +1,92 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.50;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@; gos $*
+invis cast 'invis' 
+hm cast 'adv' makros
+zlist show zones
+run retr;retr;retr;retr;retr;retr;retr
+tt tell $1 blah
+hh cast 'heal' $*
+gh open force;get all.heal force;close force
+para cast 'para' $1
+of order fol $*
+gsanc cast 'group sanc'
+ba cast 'bless' assas
+sa cast 'sanc' assas
+test order fol wake;order fol stand;order fol kill splat
+ck order clone kill $1;kill $1
+relp repl $*
+co order clone $*;order 2.clone $*
+kc kick clone;kick 2.clone
+gomain s;e;e;e;e;e;e;e;e
+gug group all;ungroup
+gate cast 'dimension' $1
+id recite identify $1
+lf open force;look in force;close force
+gac get all corpse;get corpse;junk corpse
+h cast 'adv'
+ggc get gold corpse;get corpse;junk corpse
+exc examine corpse
+rec cast 'word'
+stab rem sword;wield dagger;backstab $1;rem dagger;wield sword
+sum cast 'summon' $1
+gf open force;get $1 force;close force
+pf open force;put $1 force;close force
+dskin open force;get skin force;drink skin;put skin force;close force
+eb open force;get bread force;close force;eat bread
+cc cast 'clone'
+bc cast 'bless' clone;cast 'bles' 2.clone
+ch cast 'haste'
+equip hold jewel;hold flint;wield rifle;wear all.comm;wear servant;wear sleeves;wear mystic;wear claw;wear all.ruby;wear dia;wear major;wear cow;wear all.robes;wear shield
+allprot cast 'bless';cast 'armor';cast 'sprit';cast 'divine';cast 'haste';cast 'dragon';cast 'holy';cast 'sanc';
+ha cast 'adv' calin
+cha cast 'charm' $1
+bli cast 'blind' $1
+eye get eye backpack;cast 'serp'
+sanc cast 'sanc'
+holy cast 'holy'
+clone cast 'clone'
+bless cast 'bless'
+divine cast 'divine'
+spirit cast 'spirit'
+arm cast 'arm'
+dragon cast 'dragon'
+haste cast 'haste'
+ref cast 'refresh'
+waterb cast 'waterb'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

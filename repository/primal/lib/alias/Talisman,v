@@ -1,0 +1,86 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@= / #150 $*
+tt tell tarn $*
+abyss w;s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n;n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;
+search look up; look down; look north; look east; look south; look west;
+cd close door $1
+pd pick door $1
+ud unlock door $1
+od open door $1
+sum cast 'summon' $1
+grats grat &b./&B`\&r./&R`\&y./&Y`\&w./ &W$* &w\.&Y/'&y\.&R/'&r\.&B/'&b\.
+added.348v X:195.0m Al:385 > grat
+gratstalisman> .. I should probabl
+tavern d;e;s;s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;
+loc cast 'locate object' $1
+dimgate cast 'dimension gate' $1
+id cast 'identify' $1
+nh cast 'nohassle'
+sanc cast 'sanctuary' $1
+ww cast 'word of recall'
+minor cast 'bless' self; cast 'armor' self;
+firew cast 'firewall'
+finger cast 'finger of death' $1
+cor get all all.corpse
+uncurse cast 'remove curse' $1
+holy cast 'holy aid' self 
+divprot cast 'divine protection' self
+water cast 'waterb
+spirit cast 'spirit armor' self
+dragon cast 'dragon' self
+1 cast 'divine heal' self
+2 cast 'advanced heal' self
+gauntlet e;e;e;e;s;s;e;get crow; unlock door; open door; drop crow; n; open door east; e;e;e;e;e;n;n;n;open cliff; e;get word; unlock tap; open tap; drop word; n;u;u;u;u;n;n;n;
+fs cast 'finger of death' stalker
+wa wake; stand;
+whirl cast 'whirlwind'
+wr cast 'wraith touch' $1
+wt cast 'wraith touch' $1
+tif w;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;n;
+level4 w;n;e;n;n;e;go portal;e;n;n;w;w;w;s;e;w;w;s;n;n;w;w;go portal;
+ul cast 'remove curse' $1.laser
+decomp rem robes; get decomp back; wear decomp;
+robes rem decomp; put decomp back; wear robes
+wb cast 'waterb
+allprot cast 'divine protection'; cast 'holy aid'; cast ' spirit armor'; cast 'dragon'; cast 'nohassle'; cast 'bless'; cast 'armor';
+fear cast 'fear' $1
+dheal cast 'divine heal' $1
+ref cast 'refresh' $1
+infra cast 'infravision' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

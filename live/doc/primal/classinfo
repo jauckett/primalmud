@@ -1,0 +1,33 @@
+=---=
+RACES
+=---=
+
+=-----=
+CLASSES
+=-----=
+Druid		! Spells more powerful and effective in FOREST areas.
+		! Summon dryads and forest creatures in battle to help (extra dmg)
+
+Priest		! Spells more powerful when healing.
+		! Gains gold with every casting on another player (from target) 
+		  (=to mana usage * modifier * level )
+
+Nightblade	! Permanant sneak.
+		! Backstab during battle. 
+
+Battlemage	! Spells more powerful when offensive.
+		- Multiple weapons.
+
+Spellsword	! Soul trap ability/skill/spell. (Steal mana)
+		! Permanant invis & sneak.
+		
+Paladin		! Spells more powerful when healing.
+		! Destroy undead. (Implement mob types)
+
+Master		! Permanant sneak.
+		- Multiple weapons.
+		! Healing spells more powerful.
+		! All spells cheaper and more effective.
+
+Thieves: 	can detect DT's
+		Apply to group if groupped

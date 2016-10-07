@@ -1,0 +1,89 @@
+hc cast 'advanced heal' callisto
+hk  cast 'advanced heal' kyra
+gm d;s;s;s;e;e;e;e;s;receive mail
+ser cast 'serpent'
+kt order clones k titan
+shield cast 'fire shield'
+arm cast 'armor'
+bless cast 'bless'
+garm cast 'group armor'
+csc cast 'bless' clone; cast 'bless' 2.clone;c cast 'sense life' clone; cast 'sense life' 2.clone;cast 'infra' clone; cast 'infra' 2.clone; cast 'detect invis' clone; cast 'detect invis' 2.clone;
+spy4 spy n; spy e; spy s; spy w;
+charm cast 'charm person' $*
+hall e;s;e;e;e;e;s;s;d;s;s;s;
+wt cast 'wraith touch' $*
+two n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port'
+one 'e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n'
+tav n;n;e;s;
+rd n;n;n;u;
+me grats &f&MI&f&RC&f&YE&f&CP&f&BR&f&WI&f&MN&f&RC&f&YE&f&BS&f&GS
+all cast 'stones' me ; cast 'detect al' me ;               cast 'divine protection'; cast 'holy aid'; cast 'dragon'; cast 'spirit armor'; cast 'haste
+da cast 'detect ali' me
+stone cast 'stones' me
+pla cast 'pla' $*
+clo cast 'cloud' $*
+tele cast 'teleport'
+tali s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n; cast 'waterwalk';u; open dock;u
+oc order clones serve
+ident cast 'identify' $*
+lf look in force
+jim n;n;w;w;w;s;go stage;e;e;e;e;u;
+b1p buy 10 prot; put all force
+b2h buy 20 heal; put all force
+gac get all all.corpse
+dh cast 'divine heal'
+nohas cast 'nohassle'
+mars s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w;w;s;e;n;s;
+abyss cast 'waterbreathe';d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d;
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n;cast 'waterwalk';n;n;n;n;n;n;
+ant s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n;open gate;n;
+city w;w;w;w;n;n;n;w;s;w;n;w;w;w;s;w;w;s;
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n;n;n;
+darask w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;
+qp get prot force; quaff prot
+qh get heal force;quaff heal
+pf put all force
+wb cast 'waterbreathe'
+waw cast 'waterwalk'
+gsan cast 'group sanctuary'
+ww cast ' whirlwind'
+haste cast 'haste'
+rs cast 'word of recall'
+spir cast 'spirit armor'
+sanc cast 'sanctuary' 
+para cast 'paralyze' $*
+inv cast 'invis'
+infra cast 'infravision'
+holy cast 'holy aid'
+heal cast 'heal'
+dp cast 'divine protection'
+det cast 'detect invis'
+dra cast 'dragon'
+ug ungroup
+ga group all
+clone cast 'clone'
+ah cast 'advanced heal'
+rc cast 'remove curse' $*
+ws wake;stand
+fin cast 'finger' $*
+refresh cast 'refresh'
+2 order clones k enchanter
+3 order clones k gar
+4 order clones k mag
+1 cast 'nohas';e;e;e;e;s;s;e;n;get crow force;get word force;unlock door;open door;n;open door e;e
+tap unlock tap; open tap; n;u;u;u;n;n;n;n;n;n;n;n;
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e
+hello goss &MHi &Gguys &Yand &Cgirls &R:)
+cliff e;n;n;e;e;open cliff;e
+rp cast 'remove poison' 
+ocs order clones sleep
+bye goss &Mcya &Glater &Yguys &R:) &B*wave*
+teleport cast 'teleport'
+kl order clones k lich
+ks order clones kill stalkers
+art tell artus come
+ka order clones kill archmage
+kv order clones kill venus
+km order clones kill merc
+qd wear all;hold drill; wield cannon ;hold jack; open force; put all force
+tudor s;w;w;w;w;w;w;s;e;s;n;w;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s;s;

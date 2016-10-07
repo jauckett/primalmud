@@ -1,0 +1,3417 @@
+#200
+Estate Drive~
+You are now entering the estate of the citizens of Haven. All around
+you there are houses and villas that belong to the fine citizens.
+~
+2 n 0 0
+D1
+~
+~
+0 0 265
+D3
+~
+~
+0 0 201
+S
+#201
+Estate Drive~
+Walking along the estate you can see houses and villas all around you.  To the
+east and west, estate drive continues.    
+~
+2 n 0 0
+D0
+~
+~
+0 0 202
+D1
+~
+~
+0 0 200
+D3
+~
+~
+0 0 206
+D4
+~
+~
+0 0 204
+D5
+~
+~
+0 0 205
+S
+#202
+A Large Foyer~
+You have walked into a wonderfully decorated foyer.  From here you can see the
+entrances to the villas.    
+~
+2 jl 0 0
+D2
+~
+~
+0 0 201
+S
+#203
+The foyer to Stormie's, Splat's and Torch's Homes.~
+You have entered a foyer that has been made with the finest marble the citizens
+could find.  The walls have interesting murals painted upon them.    
+~
+2 jln 0 0
+D0
+~
+~
+0 0 201
+D1
+~
+~
+0 0 301
+D2
+~
+~
+0 0 302
+D3
+~
+~
+0 0 300
+S
+#204
+The mezzanine floor leading to Blossum and Polgara's House~
+Someone has build a foyer and villas out of thin air.  It is well above the
+other houses and seems to float here of it's own accord!    
+~
+2 n 0 0
+D0
+~
+~
+0 0 304
+D3
+~
+~
+0 0 303
+D5
+~
+~
+0 0 201
+S
+#205
+The Basement~
+Nerra, Nerinda and Boofhead hang about on the comfortable leather couches
+that lay scattered around the basememt.
+While they are in the basement, resting their weary bones, they can be found
+listening to Jazz and Blues 
+~
+2 cdjlny 0 0
+D0
+The dark cave 
+~
+~
+0 0 217
+D2
+The magical potion room
+~
+~
+0 0 218
+D4
+~
+~
+0 0 201
+S
+#206
+Estate Drive~
+Walking along the estate you can see houses and villas all around you.  There
+are people wandering around selling their wares and the citizens are going
+around doing their daily chores!    
+~
+2 n 0 0
+D0
+~
+~
+0 0 207
+D1
+~
+~
+0 0 201
+D3
+~
+~
+0 0 211
+D4
+~
+~
+0 0 209
+D5
+~
+~
+0 0 210
+S
+#207
+Karma's Greenhouse~
+   The tenants of this building block love their plants!  All around you there
+are plants in all shapes and sizes, the plants come from all corners of the
+world.  Some of them look like they're almost ready to be picked, you can be
+sure there will be plenty of smoking action here, later.    
+~
+2 cdjly 0 0
+D2
+~
+~
+0 0 206
+S
+#208
+Rhcp's Hot Tub~
+As you enter this foyer the tenants have built a hot tub right in the middle
+for everyone to share.  The steam from the tub has made the roof all moldy and
+someone has put a very sweet smelling essence in the water.    
+~
+2 jln 0 0
+D0
+~
+~
+0 0 206
+D3
+~
+~
+0 0 226
+S
+#209
+The Atrium to the Sky Room~
+As you look around the glass walls you get a perfect view of the city of Haven
+and all the citizens walking around below you!  The clouds go drifting by right
+in front of you.  From here you can also see the Master's mountain and the mist
+that surrounds the peak!    
+~
+2 n 0 0
+D1
+~
+~
+0 0 221
+D4
+~
+~
+0 0 220
+D5
+~
+~
+0 0 206
+S
+#210
+The Dungeon~
+The doors are made of steel bars!  The floor is solid cement!  The windows have
+bars over them and there looks like there is no escape!    
+~
+2 jl 0 0
+D4
+~
+~
+0 0 206
+S
+#211
+Estate Drive~
+   The further you go the more lavish the surroundings become.  The citizens of
+Haven are a very affluent group of people!  Trade is good and money is no
+object for some.  To the west is the estate and to the east is back to the
+heart of the city.    
+~
+2 n 0 0
+D0
+~
+~
+0 0 212
+D1
+~
+~
+0 0 206
+D2
+~
+~
+0 0 213
+D3
+~
+~
+0 0 216
+S
+#212
+Rod's House~
+You are standing in Rod's unfinished house.
+~
+2 jl 0 0
+D2
+~
+~
+0 0 211
+S
+#213
+The cat basket~
+You find yourself in the cat basket.
+The perfect home for a kitten, this basket is lined with lambs wool and
+has everything a cat could want to keep her amused, and then some.
+Be careful though, the particular kitten that lives here has been known to be
+very possessive of her territory.
+~
+2 cdhjly 0 0
+D0
+~
+~
+0 0 211
+S
+#214
+The phoenix loft~
+The whole room is bathed in a soft orange glow which eminates from the
+magical fire of rejuvination in the centre.
+It is here that the Phoenix is reborn.
+The warmth and peace of the room is making you drowzy.
+You could sleep here, or go back down to the entrance.
+~
+2 cdhy 0 0
+D5
+~
+~
+0 0 211
+S
+#215
+RatsleT's Hole~
+The new Haven prison is being built
+~
+2 cdghy 0 0
+D4
+~
+~
+0 0 211
+S
+#216
+Estate Drive~
+The Primal Construction group is still buildiing the roadway along here..  
+There are more houses being erected at this point in time.    
+~
+2 n 0 0
+D0
+~
+~
+0 0 223
+D1
+~
+~
+0 0 211
+D2
+Spark's house is on fire!
+~
+~
+0 0 230
+D4
+Red rocket, Mandorallen.
+~
+~
+0 0 219
+D5
+~
+~
+0 0 222
+S
+#217
+Boofhead's Cave~
+In Boofhead's cave all his weapons and equipment are scattered around on the floor
+It is nearly impossible to find anything in the cave. The room is very dark and no light
+is availble. Boofhead often finds himself hunting around for lost equipment in this cave
+
+~
+2 adjlny 0 0
+D2
+The Basement
+~
+~
+0 0 205
+S
+#218
+Nerra's private abode~
+Nerra's brewing room is full of magic potions and strange herbs and spices
+There is a small table on the left hand wall where she keeps all her potions and spells
+A large cauldron lies in the middle of the room, with a strange odour and smoke billowing from it
+~
+2 fjlny 0 0
+D0
+The basement
+~
+~
+0 0 205
+S
+#219
+Mandorallen's Observatory~
+Just what the fsck are you doing in mandorallen's house?
+~
+2 cdeghjl 0 0
+D5
+Down below, you see estate drive.
+~
+~
+0 0 216
+S
+#220
+The Sky Room~
+As you look around the glass walls you get a perfect view of the city of Haven
+and all the citizens walking around below you!  The clouds go drifting by right
+in front of you.  From here you can also see the Master's mountain and the mist
+that surrounds the peak!    
+~
+2 jl 0 0
+D5
+~
+~
+0 0 209
+S
+#221
+The Junk Room~
+This is the junk room!  There is lots and lots of "stuff" lying around!  If you
+linger too long you may get caught playing in a room that is owned by a
+mythical god!    
+~
+2 jl 0 0
+D3
+~
+~
+0 0 209
+S
+#222
+Supressed Pit~
+You are in the pit that is rather depressing as it has been
+supressed all it's life!
+~
+2 cdejly 0 0
+D4
+~
+~
+0 0 216
+S
+#223
+Hitek Domain~
+   As you walk into the main room you see a fire lit in multiple colors in the
+middle with couches surrouding the fire, on the walls you see the most
+strangest pictures of the most bizarre places that gets you staring for hours,
+an entrance going to the weaponary on the west and east these an entrance at
+the armory, lookin down you see a trapdoor half hidden beneath the rug, above
+you there is a while light that emits down on you to
+~
+2 n 0 0
+D0
+~
+~
+0 0 224
+D1
+~
+~
+0 0 227
+D2
+~
+~
+0 0 216
+D3
+~
+~
+0 0 225
+D4
+~
+~
+0 0 228
+D5
+~
+~
+0 0 229
+S
+#224
+Spare Room~
+   You step into the spare room and see piles of all sorts of gadgets and junk
+lying around the floor and along the walls, you take a browze around to see
+anything you like
+~
+2 adeghjl 0 0
+D2
+~
+~
+0 0 223
+S
+#225
+Hitek's Weaponry~
+   You step in to the weaponary and see all the most deadliest weapons you've
+seen and have not seen hanging like picture frames all over the walls
+~
+2 adeghjl 0 0
+D1
+~
+~
+0 0 223
+S
+#226
+Change Room A~
+You are in an unfinished room.
+~
+2 jl 0 0
+D1
+~
+~
+0 0 208
+S
+#227
+Armory~
+   You walk in the armory where u find all the finest equipment gathered from
+around and outer this world pinned neatly on the walls
+~
+2 adeghjl 0 0
+D3
+~
+~
+0 0 223
+S
+#228
+Sancuary~
+   The second u take your first step in this room you fill a warm aura glow
+lights your body on the floor you see white misty smoke slowly hovering below
+your knees in the middle you see a bed of the size of a pool with all sorts
+women from from all over the world waiting to be pleased!!    
+~
+2 adeghjl 0 0
+D5
+~
+~
+0 0 223
+S
+#229
+Labortory~
+   You stumble into a room filled with all sorts chemistry sets lying about you
+look around and on the walls and see hundreds of potions of all sorts of colors
+and sizes stacked neatly on the shelves in the middle of the labortory you see
+a chemistry se
+~
+2 adeghjl 0 0
+D4
+~
+~
+0 0 223
+S
+#230
+Spark's Foyer~
+You are in Spark's Foyer.
+~
+2 cdgn 0 0
+D0
+To the North, is Estate Drive.
+~
+~
+0 0 216
+D1
+Great Spark's Circus lies to the east.
+~
+~
+0 0 231
+D5
+Down below, Spark's basement creeps you out.
+~
+~
+0 0 232
+S
+#231
+Great Spark's Circus~
+This room is yet to be described.
+A description should be mudmailed to Artus.
+~
+2 cdeghjl 0 0
+D3
+Spark's foyer lies to the west.
+~
+~
+0 0 230
+S
+#232
+Spark's Basement~
+This room is yet to be described.
+Room descriptions should be sent to Artus.
+~
+2 cdeghjl 0 0
+D4
+Up above, Spark's foyer can be seen.
+~
+~
+0 0 230
+S
+#233
+Estate Drive~
+The Primal Construction group is still buildiing the roadway along here..  
+There are more houses being erected at this point in time.    
+~
+2 0 0 0
+D1
+~
+~
+0 0 216
+D2
+~
+~
+0 0 234
+S
+#234
+Caun Cave~
+You are in Caun's Cave
+~
+2 cdegh 0 0
+D0
+~
+~
+0 0 233
+S
+#250
+Cassandra Drive ~
+   Before you are two large rock walls that form an entrance way into the
+estate.  Mounted between them is wrought iron sign welcoming you to the New
+Primal Estate.  Through the entrance way Cassandra Drive continues to the West.
+~
+2 n 1 0
+D1
+~
+~
+0 0 1101
+D3
+~
+~
+0 0 251
+S
+#251
+Cassandra Drive ~
+   Walking along Cassandra Drive you get the feeling this may be the busy end
+of town many people are wandering around going about their daily chores.  To
+the North along Dangermouse Drive you can see houses and villas being
+constructed
+~
+2 n 1 0
+D0
+~
+~
+0 0 273
+D1
+~
+~
+0 0 250
+D3
+~
+~
+0 0 252
+S
+#252
+Cassandra Drive ~
+   The further you go the more lavish the surroundings become.  The citizens of
+Haven are a very affluent group of people!  Trade is good and money is no
+object for some.  To the west is the estate and to the east is back to the
+city of Haven
+~
+2 n 1 0
+D0
+~
+~
+0 0 339
+D1
+~
+~
+0 0 251
+D3
+~
+~
+0 0 253
+S
+#253
+Cassandra Drive ~
+   The lavish surroundings continue to amaze you, from the blue stone pavement
+&& Guttering to the well maintained gardens.  People that live in this area
+must have plenty of cash to splash around.    
+~
+2 n 1 0
+D1
+~
+~
+0 0 252
+D3
+~
+~
+0 0 254
+S
+#254
+Cassandra Drive ~
+   Whilst standing in the intersection of Cassandra && Sandii Drive's you
+notice that all the well dress people are all travelling from or to Sandii
+drive.  Cassandra Drive continues to the East && West whilst Sandii drive will
+take you North.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 266
+D1
+~
+~
+0 0 253
+D3
+~
+~
+0 0 255
+S
+#255
+Cassandra Drive ~
+   Things seem to be exceptionally quite in this part of the estate as very few
+people seem to pass by here and those that do don't seem to stop to chat at
+all, but by the look of most of them that is a very good thing.    
+~
+2 n 1 0
+D1
+~
+~
+0 0 254
+D3
+~
+~
+0 0 256
+S
+#256
+Cassandra Drive ~
+   It seems someone has run out of money as lavish is no longer a word you
+would use, maybe scanty or spartan would be a move accurate description.    
+~
+2 n 2 0
+D1
+~
+~
+0 0 255
+D3
+~
+~
+0 0 257
+S
+#257
+Cassandra Drive ~
+   You are standing on the corner of Cassandra && John Drive's.  The smell of
+rotten rubbish seems be wafting down from John Drive.  I am not sure it is a
+place I would go walking.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 261
+D1
+~
+~
+0 0 256
+D3
+~
+~
+0 0 258
+S
+#258
+Cassandra Drive ~
+   You stumble across an Old rusty 44 gallon drum sitting in the middle of the
+Road.  There is ash scattered on the road around it and a pile of logs sit off
+to the side.    
+~
+2 n 2 0
+D1
+~
+~
+0 0 257
+D3
+~
+~
+0 0 259
+S
+#259
+Cassandra Drive ~
+   You are heading towards the end of Cassandra Drive.  As little traffic
+ventures down this far the children have drawn all over the Road and are often
+found using the Road as a Cricket pitch.    
+~
+2 n 2 0
+D1
+~
+~
+0 0 258
+D3
+~
+~
+0 0 260
+S
+#260
+Cassandra Drive ~
+   You are standing on what seems to be the end of Cassandra Drive.  However
+due to their being no houses blocks marked out it does seem that the developer
+has left himself with the option to extend this road.    
+~
+2 n 2 0
+D1
+~
+~
+0 0 259
+S
+#261
+John Drive~
+   This is obviously the seedy part of town.  There are potholes in the street
+and the smell of rotting rubish is strong in the air.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 262
+D1
+~
+~
+0 0 396
+D2
+~
+~
+0 0 257
+D3
+~
+~
+0 0 394
+S
+#262
+John Drive~
+   It seems dark and cold here.  There are signs of people living is cardboard
+boxes here.  The sound of children crying echos through the air.  Wonder what
+caused people to live this way.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 400
+D1
+~
+~
+0 0 398
+D2
+~
+~
+0 0 261
+D3
+~
+~
+0 0 263
+S
+#263
+John Drive~
+   Things move in the shadows here.  Many citizens won't come this far.  Keep a
+close eye on your belongings, you don't know who will pick your pocket.  Guess
+this is where the wharfies live.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 264
+D1
+~
+~
+0 0 262
+D2
+~
+~
+0 0 402
+D3
+~
+~
+0 0 404
+S
+#264
+John Drive~
+   It looks like someone has been making a dangerous cocktail by mixing potions
+here, Its a seedy part of town, the guards don't even come down here.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 408
+D1
+~
+~
+0 0 406
+D2
+~
+~
+0 0 263
+D3
+~
+~
+0 0 265
+S
+#265
+John Drive~
+   There are burnt out drums and empty liquor bottles laying around, this would
+be the town hot spot for the drunks and the homeless.    
+~
+2 n 2 0
+D0
+~
+~
+0 0 412
+D1
+~
+~
+0 0 264
+D2
+~
+~
+0 0 410
+D3
+~
+~
+0 0 200
+S
+#266
+Sandii Drive~
+   Beautiful trees line the road as you look down the road.  The aroma of bread
+cooking fills the air.  This seems like the place to live in Haven.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 267
+D1
+~
+~
+0 0 325
+D2
+~
+~
+0 0 254
+D3
+~
+~
+0 0 327
+S
+#267
+Sandii Drive ~
+   The view of the parklands is spectacular from here.  The beautiful flowers
+and the old trees would be the perfect view to wake up to every morning.  You
+can hear kids playing and laughing in the distance.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 268
+D1
+~
+~
+0 0 285
+D2
+~
+~
+0 0 266
+S
+#268
+Sandii Drive ~
+   WOW!!!  - The Old Oak Tree to the east would be prime real estate in Haven,
+If it ever comes up for sale it would sell for a very shiny gold coin.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 -1
+D1
+~
+~
+0 0 328
+D2
+~
+~
+0 0 267
+D3
+~
+~
+0 0 269
+S
+#269
+Sandii Drive ~
+   Obviously a better part of town, the road is paved and the surroundings are
+clean.  The locals must spend a lot of time with the upkeep of this area.  
+Anyone would be proud to live here.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 331
+D1
+~
+~
+0 0 268
+D2
+~
+~
+0 0 330
+D3
+~
+~
+0 0 270
+S
+#270
+Sandii Drive ~
+   The homes here create an awe in the area.  People come through this area
+just to admire the beautiful surroundings.  This is a place dreams are made of.
+~
+2 n 1 0
+D0
+~
+~
+0 0 271
+D1
+~
+~
+0 0 269
+D2
+~
+~
+0 0 332
+D3
+~
+~
+0 0 333
+S
+#271
+Sandii Drive ~
+   The well cultured gardens here are of prize winning quality.  The owners
+must be the wealthy people of Haven.  The time and effort put into these
+surroundings are second to none.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 335
+D1
+~
+~
+0 0 334
+D2
+~
+~
+0 0 270
+D3
+~
+~
+0 0 272
+S
+#272
+Sandii Drive ~
+   The peaceful sounds of the wind blowing through the trees and the birds
+chirping fill the air.  This would be a great place to raise a family in Haven.
+The houses here are lavish.    
+~
+2 n 1 0
+D1
+~
+~
+0 0 271
+D2
+~
+~
+0 0 336
+D3
+~
+~
+0 0 337
+S
+#273
+Dangermouse Drive ~
+   You are standing at the beginning of Dangermouse Drive.  Looking North you
+see it continue down, Cassandara Drive is to the South of you.  There are house
+flanking each side of the street they must be tree houses as they are so
+beautiful and tranquil.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 274
+D1
+~
+~
+0 0 312
+D2
+~
+~
+0 0 251
+D3
+~
+~
+0 0 310
+S
+#274
+Dangermouse Drive ~
+   You hear birds twittering merrily in the tree overhead.  Light filters down
+through the leaves lightly touching your skin.  To the East is Murf Drive and
+the Primal Parklands are to your west.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 275
+D1
+~
+~
+0 0 280
+D2
+~
+~
+0 0 273
+D3
+~
+~
+0 0 284
+S
+#275
+Dangermouse Drive ~
+   A bunny rabbit jumps across the path in front of you, it's fluffy tail
+wiggling as it jumps away.  There is definately as safe environment around this
+area, what a great place to live.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 276
+D1
+~
+~
+0 0 315
+D2
+~
+~
+0 0 274
+D3
+~
+~
+0 0 313
+S
+#276
+Dangermouse Drive ~
+   A turn in the path here lets you see the south west corner of the parklands.
+There are houses intermingled amongst the trees many of them actually part of
+the tree, the owners must be nimble to get up there.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 317
+D1
+~
+~
+0 0 316
+D2
+~
+~
+0 0 275
+D3
+~
+~
+0 0 277
+S
+#277
+Dangermouse Drive~
+   A ball lies here on the ground, maybe the children forgot to take it home or
+they are off playing in the park.  Maybe it belongs to the children that you
+can hear in the distance.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 320
+D1
+~
+~
+0 0 276
+D2
+~
+~
+0 0 318
+D3
+~
+~
+0 0 278
+S
+#278
+Dangermouse Drive ~
+   The laughter from the children is louder here, every now and then you catch
+a glimpse of one of them.  They sure are having fun!  It must be a great park
+to play in.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 323
+D1
+~
+~
+0 0 277
+D2
+~
+~
+0 0 321
+D3
+~
+~
+0 0 279
+S
+#279
+Dangermouse Drive ~
+   You have come to the end of Dangermouse Drive.  It is so calming and
+peaceful here you could lie under one of the trees here all day listening to
+the birds and children.    
+~
+2 n 1 0
+D1
+~
+~
+0 0 278
+D3
+~
+~
+0 0 324
+S
+#280
+Murf Drive ~
+   You have entered Murf Drive, looks like there is a party going on here.  
+There are ballons and streamers all around, and whats that on the floor?  
+Confetti!!    
+~
+2 0 1 0
+D0
+~
+~
+0 0 347
+D1
+~
+~
+0 0 281
+D2
+~
+~
+0 0 346
+D3
+~
+~
+0 0 274
+S
+#281
+Murf Drive ~
+   You are greeted by music as you walk down this part of the road.  It sure
+has a good party atmosphere here, wonder what the party is for?  BOOM, BOOM,
+DA, DA, DITTY, BOOM.  The music makes you want to get out and party with the
+best of them.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 282
+D1
+~
+~
+0 0 349
+D2
+~
+~
+0 0 348
+D3
+~
+~
+0 0 280
+S
+#282
+Murf Drive ~
+   ;Wizzzzzzzzz, whooshhhh, Zippppp.  Watch out!  What was that that just went
+flying over head.  It looked like fireworks.  BANG!  Yepp it sure looks like
+they are fireworks.  Better hope they are careful with those things, or they
+could ruin the party.    
+~
+2 n 1 0
+D0
+~
+~
+0 0 283
+D1
+~
+~
+0 0 351
+D2
+~
+~
+0 0 281
+D3
+~
+~
+0 0 350
+S
+#283
+Murf Drive ~
+   There is a man standing on a ladder here putting his streamers back up.  It
+looks as though a stray firework might have knocked them down.  The music is
+thumping here and there are people getting down to the groove, maybe it really
+is time to join in with them.
+~
+2 n 1 0
+D1
+~
+~
+0 0 353
+D2
+~
+~
+0 0 282
+D3
+~
+~
+0 0 352
+S
+#284
+Primal Park Land~
+   WOW what beautiful Parkland you have wondered into.  With plenty of lushes
+green grass, a rotunda with BBQ && chairs and all surrounded by big old trees.
+  
+~
+2 en 0 0
+D0
+~
+~
+0 0 422
+D1
+~
+~
+0 0 274
+D2
+~
+~
+0 0 424
+D3
+~
+~
+0 0 285
+S
+#285
+Primal Park Land~
+   What a children's delight a park totally devoted to Swings, Slides, Seesaw's
+and other children's play equipment.  This would definitely be the area to live
+in if you had were planning a family.    
+~
+2 en 0 0
+D0
+~
+~
+0 0 418
+D1
+~
+~
+0 0 284
+D2
+~
+~
+0 0 428
+D3
+~
+~
+0 0 267
+S
+#300
+Stormie's House~
+Welcome to the abode of Stormbringer the kindhearted.  As you peer around the
+room you notice that this gentle man lives a modest life and has most comforts
+a home requires.  What is rather startling is the little storm cloud hovering
+in the corner of the room waiting for it's master to come home.    
+~
+2 jl 0 0
+D1
+~
+~
+0 0 203
+E
+cloud~
+As you stare in wonder at the little cloud.  It becomes very aware of you
+staring at it and starts to demonstrate its ability to throw lightning bolts
+around.    
+~
+S
+#301
+Torch's House~
+This is the house of the evil fiend Torch.  He has a strange aliance with the
+kindhearted Stormbringer.    
+~
+2 jl 0 0
+D3
+~
+~
+0 0 203
+S
+#302
+SSSSSSssspppppppllllllllllaaaaaaaatttttttt's House ~
+Welcome to the house of Ssssssspppppllllaaaattttt!  This guy has a Tv in one
+corner of the room that just constantly plays the old reruns of Batman and
+Robin...  He seems to be playing a tape with the same scenes over and over
+where they are fighting and all you can see is Sssssssppppplllllaaaaatttttt!  
+Then POW or BAM as Batman and Robin are fighting the Joker and Penguin.    
+~
+2 jl 0 0
+D0
+~
+~
+0 0 203
+E
+tv~
+What you want to see it that bad do you?
+~
+S
+#303
+Polgara's pantry~
+Welcome to Polgara's humble little kitchen.  There are lots of spices and herbs
+in pots and jars lining the kitchen walls.  There is a big caldron sitting on
+the fire pit.    
+~
+2 cjly 0 0
+D1
+~
+~
+0 0 204
+S
+#304
+Blossum's bawdy boudoir. ~
+As you stand and gaze at the rich tapestries on the wall, your attention is
+drawn to a massive king-size four poster bed.  You stand in awe at the superbly
+carved mahogany posts.  As you look closer you can see notches on one post, and
+wonder what they are indicating!  The curtains are closed and you can hear
+laughter coming from behind them.  You realise you are not alone!    
+~
+2 jl 0 0
+D2
+~
+~
+0 0 204
+S
+#310
+A Big Old Tree~
+   You are standing at the base of a big old tree.  Looking up you see Ella's
+house.  There is a sign next to the door that reads "Friends welcome anytime,
+Relatives by appointment".    
+~
+2 n 0 0
+D0
+~
+~
+0 0 424
+D1
+~
+~
+0 0 273
+D3
+~
+~
+0 0 430
+D4
+~
+~
+0 0 311
+S
+#311
+Ella's Tree House~
+   You are standing in Ella's living room.  This room has a wholseome and
+welcoming feel to it.  You certainly wouldn't feel out of place lounging on the
+couch here reading a book.    
+~
+2 cdeghjln 0 0
+D0
+~
+~
+0 0 345
+D5
+~
+~
+0 0 310
+S
+#312
+Nikulasstonesword's Place~
+You are in an unfinished room.
+~
+2 cdeghjl 0 0
+D3
+~
+~
+0 0 273
+S
+#313
+The foot of a Big old Widowmaker~
+   Standing at the foot of this tree you wonder why anyone would want to build
+a house in such an unpredictable beast.    
+~
+2 n 0 0
+D0
+~
+~
+0 0 318
+D1
+~
+~
+0 0 275
+D2
+~
+~
+0 0 422
+D3
+~
+~
+0 0 416
+D4
+~
+~
+0 0 314
+S
+#314
+RhCp's Tree House~
+You are in an unfinished room.
+~
+2 cdeghjl 0 0
+D5
+~
+~
+0 0 313
+S
+#315
+Caun Cave~
+You are in Caun's Cave
+~
+2 cdeghjln 0 0
+D0
+~
+~
+0 0 494
+D3
+~
+~
+0 0 275
+S
+#316
+Kereth's Place~
+You're standing in the middle of a room with many things laying around you....
+Never know what you may find.  OUCH!!  I just stepped on something.    
+~
+2 0 0 0
+D3
+~
+~
+0 0 276
+S
+#317
+Bigbert's House~
+Bigbert's house has yet to be described.
+~
+2 cdeghjly 0 0
+D2
+~
+~
+0 0 276
+S
+#318
+The foot of a Big Old Tree~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if I
+would be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 277
+D2
+~
+~
+0 0 313
+D3
+~
+~
+0 0 414
+D4
+~
+~
+0 0 319
+S
+#319
+Tree House for Sale~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+undefined~
+0 0 318
+S
+#320
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 416
+D2
+~
+~
+0 0 277
+S
+#321
+The foot of a Big Old Tree~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if I
+would be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 278
+D1
+~
+~
+0 0 414
+D2
+~
+~
+0 0 328
+D4
+~
+~
+0 0 322
+S
+#322
+Tree House for Sale~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 321
+S
+#323
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 278
+S
+#324
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 279
+S
+#325
+The foot of a Big Old Tree~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if I
+would be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 428
+D1
+~
+~
+0 0 430
+D3
+~
+~
+0 0 266
+D4
+~
+~
+0 0 326
+S
+#326
+Tree House for Sale~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 325
+S
+#327
+Tod's Crypt~
+The rooms are dark and made of black marble. Candles light the way.
+~
+2 cdeghjl 0 0
+D1
+~
+~
+0 0 266
+S
+#328
+The Old Oak Tree~
+   This is possibly the oldest tree in Haven.  The tree omits an aura of
+knowledge and wisdom of its own.  The views from up there would be spectacular.
+One of Havens most sort after homes.    
+~
+2 n 0 0
+D0
+~
+~
+0 0 321
+D1
+~
+~
+0 0 416
+D2
+~
+~
+0 0 418
+D3
+~
+~
+0 0 268
+D4
+~
+undefined~
+0 0 329
+S
+#329
+Scarecrows Tree House~
+   For someone who can afford this house, he must be down to earth.  There is a
+poster of the charmed ones on the wall, simple furniture around, and a large
+window overlooking Haven.    
+~
+2 cdeghjln 0 0
+D2
+~
+~
+0 0 338
+D5
+~
+~
+0 0 328
+S
+#330
+House for Sale ~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 269
+S
+#331
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 269
+S
+#332
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 270
+S
+#333
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 270
+S
+#334
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 271
+S
+#335
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 271
+S
+#336
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 272
+S
+#337
+House for Sale~
+   You are standing in nicely built single room villa.  Someone has pined a
+poster on the wall &C"For Sale - Single Room Villa ideal for a single personal
+or a couple with a active life - 40Mil - contact the Estate Agent".  &n This is
+a lovely house in a excellent neighbourhood maybe you should go speak to agent?
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 272
+S
+#338
+Tree House Balcony ~
+   The view of the Primal Park Lands is spectacular from here.  The sounds of
+the birds above makes you just want to relax.  There is just a fine woven rug
+here on the decking.  A perfect place to Meditate.    
+~
+2 cdeghjly 0 0
+D0
+~
+~
+0 0 329
+S
+#339
+Estate Office~
+   The Estate office has been constructed inside a fully fitted display home.
+You are invited to walk around and have a look at the excellent workmanship
+that has been used in the construction of this example of their home building.
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 341
+D1
+~
+~
+0 0 342
+D2
+~
+~
+0 0 252
+D3
+~
+Office door~
+1 0 340
+D4
+~
+~
+0 0 343
+D5
+~
+~
+0 0 344
+S
+#340
+Meeting Room~
+   This room whilst would normally be used as a spare bed room has been decked
+out as on office for the sales rep to uses to complete the paper work once he
+has made a sale.  The walls are covered in Estate plans & possible house
+layouts.  It makes you wo
+~
+2 0 0 0
+D1
+~
+Office door~
+1 0 339
+S
+#341
+Master Bed Room~
+   You find you self walking through a little corridor that has an ensuite to
+one side && the walk-in-robe on 2nd another then opens up into a large Room
+that could happily fit 2 King sizes beds in it.  This room has definately been
+dressed to impress with a flat panel screen mounted onto one wall and is full
+equipped with DVD player && surround sound.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 339
+S
+#342
+Kitchen~
+   You stand in a fully equipped kitchen, and whilst it looks very impressive
+it does make you wonder how much it has cost and what the kitchen you can
+afford will really look like.    
+~
+2 0 0 0
+D3
+~
+~
+0 0 339
+S
+#343
+Bed Room No.2~
+   This house defiantly has children in what at first seems to be the 2nd
+bedroom you now find your self standing in a large Family with Bedrooms at each
+end and a general bathroom in the middle.    
+~
+2 0 0 0
+D5
+~
+~
+0 0 339
+S
+#344
+Study~
+   You follow a spiral staircase down into a room lined with roof high wooden
+bookshelves.  In the centre of the room is a large oak desk setup with today's
+newspaper && Computer monitor.  Behind the desk is a executive style chair and
+off to the side is a large leather couch.
+~
+2 0 0 0
+D4
+~
+~
+0 0 339
+S
+#345
+2nd room bedroom~
+   You have stepped into Ella's boudoir.  Bold colours and silky materials set
+the mood.  Sweet smelling candles burn and music plays softly, you could really
+relax in here.    
+~
+2 cdeghjly 0 0
+D2
+~
+~
+0 0 311
+S
+#346
+Phoenix && Kitten's Place ~
+Phoenix && Kitten's Place 
+~
+2 n 0 0
+D0
+~
+~
+0 0 280
+D1
+~
+~
+0 0 387
+D2
+~
+~
+0 0 388
+D3
+~
+~
+0 0 384
+D4
+~
+~
+0 0 385
+D5
+~
+~
+0 0 386
+S
+#347
+&cRatsleT's Royal Palace&n~
+   Welcome to the Foyer of the Royal Palace of RatsleT.  Upon looking around,
+please wait patiently as one of the Royal Servants will come and attend to your
+needs.  If RatsleT is unavailable, it is suggested that you mail him at the
+Tavern in Haven and he will reply as soon as possible.    
+~
+2 cdeghn 0 0
+D0
+~
+~
+0 0 389
+D1
+~
+~
+0 0 390
+D2
+~
+~
+0 0 280
+D3
+~
+~
+0 0 391
+D4
+~
+~
+0 0 392
+D5
+~
+~
+0 0 393
+S
+#348
+Hitek Domain~
+   As you walk into the main room you see a fire lit in multiple colors in the
+middle with couches surrouding the fire, on the walls you see the most
+strangest pictures of the most bizarre places that gets you staring for hours,
+an entrance going to the weaponary on the west and east these an entrance at
+the armory, lookin down you see a trapdoor half hidden beneath the rug, above
+you there is a while light that emits down on you to
+~
+2 n 0 0
+D0
+~
+~
+0 0 281
+D1
+~
+~
+0 0 379
+D2
+~
+~
+0 0 380
+D3
+~
+~
+0 0 381
+D4
+~
+~
+0 0 382
+D5
+~
+~
+0 0 383
+S
+#349
+Zysx's Foyer~
+A long corridor stretches away from Murf drive.  The walls are lined with
+stuffed heads and bits of goop, all mounted with a little plaque underneath
+detailing when it died.  Rooms lead off in all directions, probably where
+the spoils of war can be found.
+~
+2 n 0 0
+D0
+The librarian bends over, you notice she is not wearing any underwear.
+~
+~
+0 0 374
+D1
+You point your pointy thing(s) at the room.
+~
+~
+0 0 375
+D2
+You wonder what action you might spy upon from here.
+~
+~
+0 0 376
+D3
+Bright light! Must avoid.
+~
+~
+0 0 281
+D4
+You ponder what might be worth stealing.
+~
+~
+0 0 377
+D5
+You drop a huge turd down into the cellar.
+~
+~
+0 0 378
+S
+#350
+Grasshoppper's Mansion~
+Sold to Grasshopper, awaiting descriptions.
+~
+2 n 0 0
+D0
+~
+~
+0 0 369
+D1
+~
+~
+0 0 282
+D2
+~
+~
+0 0 370
+D3
+~
+~
+0 0 371
+D4
+~
+~
+0 0 372
+D5
+~
+~
+0 0 373
+S
+#351
+Kereth's Palace~
+Looking in all directions you see stuff in various rooms that you
+may need to aid you in your journeys...
+~
+2 n 0 0
+D0
+Mmm.. Cute gothic chick.. If only you could summon her.
+~
+~
+0 0 364
+D1
+Just what did you do to the lion in the wardrobe?
+~
+~
+0 0 365
+D2
+Well, if you're that way inclined, he could be feisty in bed.
+~
+~
+0 0 366
+D3
+Normality returns.. Or changes, at least.
+~
+~
+0 0 282
+D4
+Someone has stuffed a vibrator in the keyhole. You fail to peep on her.
+~
+~
+0 0 367
+D5
+Lions, witches and dungeons hey. Don't ask, just don't ask.
+~
+~
+0 0 368
+S
+#352
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 359
+D1
+~
+~
+0 0 283
+D2
+~
+~
+0 0 360
+D3
+~
+~
+0 0 361
+D4
+~
+~
+0 0 362
+D5
+~
+~
+0 0 363
+S
+#353
+Mansion for Sale ~
+   You are standing in the foyer of a 5 Room mansion taped to the banister is a
+banner &C"For Sale - Manson ideal for those who like to party or have money to
+spend.  - 190Mil - contact the Estate Agent"&n.  Would life be grate living
+here?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 354
+D1
+~
+~
+0 0 355
+D2
+~
+~
+0 0 356
+D3
+~
+~
+0 0 283
+D4
+~
+~
+0 0 357
+D5
+~
+~
+0 0 358
+S
+#354
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 353
+S
+#355
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D3
+~
+~
+0 0 353
+S
+#356
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 353
+S
+#357
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 353
+S
+#358
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 353
+S
+#359
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D2
+~
+~
+0 0 352
+S
+#360
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 352
+S
+#361
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 352
+S
+#362
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D5
+~
+~
+0 0 352
+S
+#363
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 352
+D5
+~
+~
+0 0 352
+S
+#364
+The Witch~
+Lots of potions and other fun equipment that you can find
+stashed away here.
+~
+2 cdeghjl 0 0
+D2
+Mmmm.. Gothic chicks...
+~
+~
+0 0 351
+S
+#365
+The Wardrobe~
+All the fun goodies you can find here may include such things
+as armour and other fun objects to help protect you in your journeys...
+
+~
+2 cdeghjl 0 0
+D3
+~
+~
+0 0 351
+S
+#366
+The Lion~
+Never know the fun stuff that you may find in
+here...OUCH!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! The Pain!!!!  THE
+HORROR!!!!!!!!!!!!!!!!!!!
+~
+2 cdeghjl 0 0
+D0
+Just who is that?... And what are they doing to that lion!
+~
+~
+0 0 351
+S
+#367
+Kereth's Private Chambers~
+A place to rest away from all the screams of her victims
+~
+2 cdeghjly 0 0
+D5
+~
+~
+0 0 351
+S
+#368
+The Dungeons~
+As you enter here you hear the screams of the numerous vitcims
+Kereth has aquired...
+~
+2 cdeghjl 0 0
+D4
+~
+~
+0 0 351
+S
+#369
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 cdeghjlz 0 0
+D2
+~
+~
+0 0 350
+S
+#370
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 cdeghjl 0 0
+D0
+~
+~
+0 0 350
+S
+#371
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 cdeghjl 0 0
+D1
+~
+~
+0 0 350
+S
+#372
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 cdeghjl 0 0
+D5
+~
+~
+0 0 350
+S
+#373
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 cdeghjl 0 0
+D4
+~
+~
+0 0 350
+S
+#374
+Library~
+Wall to wall shelves line this room.  It looks like it used to be a
+library, but all that remains is a few scattered volumes of arcane arts.
+It appears the other books were removed to make way for potions, scrolls
+and small trinkets of someone's adventures.
+~
+2 cdeghjl 0 0
+D2
+You see a towel smoking a joint. You wanna get high.
+~
+~
+0 0 349
+S
+#375
+Room of Pointy things.~
+You pause when you cross the doorway.  It looks like someone has taken up
+Demtel on their offer of free steak knives and then gone a few steps
+further and ordered the sword set and then the matching polearms.  It looks
+like everything here is designed to maim, except for that cute bunny with
+HUGE teeth.
+~
+2 cdeghjl 0 0
+D3
+Someone is pointing his pointy thing at you.
+~
+~
+0 0 349
+S
+#376
+Walk in Wardrobe~
+Most people keep shirts, jumpers and casual wear in their wardrobes, but
+not the owner of this property.  There is the occasional piece of normal
+day to day wear, but it is lined with metal and re-inforced for a career in
+combat. Most of the equipment would stop a rhinocerous.
+~
+2 cdeghjl 0 0
+D0
+What are you doing watching from the closet? Go join in!
+~
+~
+0 0 349
+S
+#377
+Observatory~
+Stars provide the light for you to see the beanbags and cushions scattered
+around the floor of this room.  You almost go to sleep as the soothing
+sight hastens your healing.
+~
+2 cdeghjly 0 0
+D5
+You see people taking Zysx's shit.
+~
+~
+0 0 349
+S
+#378
+Cellar~
+Wall to wall racks line the walls here. All sort of bottles are here, blue,
+green, red, yellow.  It is rainbow of colours.  None seem to be full.  In
+the middle is a bottle which seems to twist in on itself.  If you step into
+it you may find yourself back in town.
+~
+2 cdeghjl 0 0
+D4
+A bird is trying to poop on you.
+~
+~
+0 0 349
+S
+#379
+Armory~
+   You walk in the armory where u find all the finest equipment gathered from
+around and outer this world pinned neatly on the walls
+~
+2 cdeghjl 0 0
+D3
+~
+~
+0 0 348
+S
+#380
+Spare Room~
+   You step into the spare room and see piles of all sorts of gadgets and junk
+lying around the floor and along the walls, you take a browze around to see
+anything you like
+~
+2 cdeghjl 0 0
+D0
+~
+~
+0 0 348
+S
+#381
+Hitek's Weaponry~
+   You step in to the weaponary and see all the most deadliest weapons you've
+seen and have not seen hanging like picture frames all over the walls
+~
+2 cdeghjl 0 0
+D1
+~
+~
+0 0 348
+S
+#382
+Sancuary~
+   The second u take your first step in this room you fill a warm aura glow
+lights your body on the floor you see white misty smoke slowly hovering below
+your knees in the middle you see a bed of the size of a pool with all sorts
+women from from all over the world waiting to be pleased!!    
+~
+2 cdeghjl 0 0
+D5
+~
+~
+0 0 348
+S
+#383
+Labortory~
+   You stumble into a room filled with all sorts chemistry sets lying about you
+look around and on the walls and see hundreds of potions of all sorts of colors
+and sizes stacked neatly on the shelves in the middle of the labortory you see
+a chemistry se
+~
+2 cdeghjl 0 0
+D4
+~
+~
+0 0 348
+S
+#384
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D1
+~
+~
+0 0 346
+S
+#385
+The phoenix loft~
+The whole room is bathed in a soft orange glow which eminates from the
+magical fire of rejuvination in the centre.
+It is here that the Phoenix is reborn.
+The warmth and peace of the room is making you drowzy.
+You could sleep here, or go back down to the entrance.
+~
+2 cdeghjly 0 0
+D5
+~
+~
+0 0 346
+S
+#386
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D4
+~
+~
+0 0 346
+S
+#387
+The cat basket~
+You find yourself in the cat basket.
+The perfect home for a kitten, this basket is lined with lambs wool and
+has everything a cat could want to keep her amused, and then some.
+Be careful though, the particular kitten that lives here has been known to be
+very possessive of her territory.
+~
+2 cdeghjly 0 0
+D3
+~
+~
+0 0 346
+S
+#388
+An Empty Room ~
+   You are standing in one of the mansion 5 rooms.  This all could be yours!!!
+  
+~
+2 0 0 0
+D0
+~
+~
+0 0 346
+S
+#389
+RatsleT's Study~
+   As you enter the Study, you can see a bookshelf running right across the
+wall to your left.  RatsleT's desk is towards the rear of the room, with two
+chairs in front of the desk.  A cigar has been lit and has been placed in a
+holder to the right of the desk.  You feel obliged to take a seat and wait
+patiently as the master of the house should be here soon.    
+~
+2 cdeghjl 0 0
+D2
+~
+~
+0 0 347
+S
+#390
+Pool Room~
+   As you enter the guest pool room, you can see memorabilia placed all over
+the grand room.  This is all the momentos that RatlseT has collected in his
+travels through the many worlds of PrimalMUD.  Take a cue and enjoy the game,
+as long as RatsleT is not your opponent, he tends to take the game very
+seriously.    
+~
+2 cdeghjl 0 0
+D3
+~
+~
+0 0 347
+S
+#391
+Formal Dining Room~
+   As you enter the Dining Room, you see a large table in the middle of the
+room, large enough to accomodate many guests.  There is an open fire place in
+the back ground and cutlery has been set.  It looks as though dinner is almost
+ready to be served.    
+~
+2 cdeghjl 0 0
+D1
+~
+~
+0 0 347
+S
+#392
+RatsleT's Royal Bedroom~
+   This room is where the Master of the House retreats to when he is in the
+country.  Being extremely busy these days, he is rarly home, but he still
+believes that there is nothing like catching up with old friends and falling a
+sleep peacefully.  This room has a balcony that over looks the fine city of
+Haven.  Looking to your right you can see the Crystal Castle in the distance
+and as you look south, the nasty swamp of Rushmoor and the Gates of Tudor.    
+~
+2 cdeghjl 0 0
+D5
+~
+~
+0 0 347
+S
+#393
+Weapon's Room and Dungeon~
+   Welcome to RatsleT's War Room.  This now humble gentleman was once a
+gruesome and Evil warrior.  Many old players will remember the player of many
+years ago.  Around you, you see all weapons ranging from Halberds to Titan
+Suits, all pollished and ready to be wielded if the evil and terror from the
+past is ever resurrected again...    
+~
+2 cdeghjl 0 0
+D4
+~
+~
+0 0 347
+S
+#394
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D1
+~
+~
+0 0 261
+D5
+~
+undefined~
+0 0 395
+S
+#395
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 394
+S
+#396
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 n 0 0
+D3
+~
+~
+0 0 261
+D5
+~
+~
+0 0 397
+S
+#397
+Bob's hole~
+   You have walked into a wonderfully decorated foyer.  From here you can see
+the entrances to the villas.    
+~
+2 cdeghjl 0 0
+D4
+~
+~
+0 0 396
+S
+#398
+A Vacant lot~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D3
+~
+~
+0 0 262
+D5
+~
+~
+0 0 399
+S
+#399
+Flea's Hole~
+   You have stumbled into flea's hole in the group.  Please mind the
+cockroaches, fly's && ant's.  They call this place home as well.    
+~
+2 0 0 0
+D4
+~
+~
+0 0 398
+S
+#400
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 262
+D5
+~
+~
+0 0 401
+S
+#401
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 400
+S
+#402
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D0
+~
+~
+0 0 263
+D5
+~
+~
+0 0 403
+S
+#403
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 402
+S
+#404
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D1
+~
+~
+0 0 263
+D5
+~
+~
+0 0 405
+S
+#405
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 404
+S
+#406
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D3
+~
+~
+0 0 264
+D5
+~
+~
+0 0 407
+S
+#407
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 406
+S
+#408
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 264
+D5
+~
+~
+0 0 409
+S
+#409
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 408
+S
+#410
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D0
+~
+~
+0 0 265
+D5
+~
+~
+0 0 411
+S
+#411
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 410
+S
+#412
+A Vacant lot ~
+   You stand in seeming vacant lot with pile of rubbish scattered all over it.
+Looking closer you notice a small corrugated iron lento covering a hole cut
+into the corner of the block.  It is scary to think somebody would consider to
+inhabit such a degrading place.    
+~
+2 0 0 0
+D2
+~
+~
+0 0 265
+D5
+~
+~
+0 0 413
+S
+#413
+An uninhabited hole ~
+   You are standing within the walls of a roughly cut hole.  On the wall
+somebody has scratch in a sign &C"For Sale - 45Mil - Contact the Primal Estate
+Agent"&n.  Would you really want to live in such a place?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 412
+S
+#414
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D1
+~
+~
+0 0 318
+D2
+~
+~
+0 0 416
+D3
+~
+~
+0 0 321
+D4
+~
+~
+0 0 415
+S
+#415
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 414
+S
+#416
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 414
+D1
+~
+~
+0 0 313
+D2
+~
+~
+0 0 420
+D3
+~
+~
+0 0 328
+D4
+~
+~
+0 0 417
+S
+#417
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 416
+S
+#418
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 328
+D1
+~
+~
+0 0 420
+D2
+~
+~
+0 0 285
+D4
+~
+~
+0 0 419
+S
+#419
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 418
+S
+#420
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 416
+D1
+~
+~
+0 0 422
+D3
+~
+~
+0 0 418
+D4
+~
+~
+0 0 421
+S
+#421
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 422
+D5
+~
+~
+0 0 420
+S
+#422
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 313
+D2
+~
+~
+0 0 284
+D3
+~
+~
+0 0 420
+D4
+~
+~
+0 0 423
+S
+#423
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 424
+D5
+~
+~
+0 0 422
+S
+#424
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 284
+D2
+~
+~
+0 0 310
+D3
+~
+~
+0 0 426
+D4
+~
+~
+0 0 425
+S
+#425
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 426
+D5
+~
+~
+0 0 424
+S
+#426
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D1
+~
+~
+0 0 424
+D2
+~
+~
+0 0 430
+D3
+~
+~
+0 0 428
+D4
+~
+~
+0 0 427
+S
+#427
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D4
+~
+~
+0 0 428
+D5
+~
+~
+0 0 426
+S
+#428
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 0 0 0
+D0
+~
+~
+0 0 285
+D1
+~
+~
+0 0 426
+D2
+~
+~
+0 0 325
+D4
+~
+~
+0 0 429
+S
+#429
+Tree House for Sale ~
+   You are standing amongst the branches of a big old tree.  From here you can
+see for miles, maybe it would be worth your while to drop into the Agent?    
+~
+2 0 0 0
+D5
+~
+~
+0 0 428
+S
+#430
+The foot of a Big Old Tree ~
+   You are standing at the base of a big old tree.  Looking up you notice their
+has been a house built within the branches and in front of you someone has
+nailed a sign &C"For Sale - Tree House ideal for those who like heights or are
+after a view.  - 50Mil - contact the Estate Agent"&n.  I am note sure if Iwould
+be game to live in such a place are you?    
+~
+2 n 0 0
+D0
+~
+~
+0 0 426
+D1
+~
+~
+0 0 310
+D3
+~
+~
+0 0 325
+D4
+~
+~
+0 0 431
+S
+#431
+Sir Deltanix's Penthouse~
+  Welcome to the Penthouse! The party palace of Haven. On a quick glance
+around you notice the bar, spa, and pool table. Right in front of you is
+a large dance floor with a pole in the middle (for all those dancers that
+like to go all out).
+  The tunes are cranking and the atmosphere is pumping. On the back wall
+you can make out some graffiti art saying Go Hard Or Go Home!!!
+  The music dies down and in the middle of the room you notice your host,
+&[&WSir Deltanix&], thanking you all for coming.
+  He goes on about something but all you can remember is that the DRINKS
+are on the HOUSE and its time to PARTY the night away - enjoy.
+~
+2 cdeghjl 0 0
+D5
+~
+~
+0 0 430
+S
+#494
+Caun's Bathroom~
+Your in Caun's Bathroom. It bloody stinks!
+~
+2 cdeghjl 0 0
+D2
+~
+~
+0 0 315
+S
+#498
+&rH&Y E&r L&Y L&n~
+   You are in &rhell&n.  As one of the highest gods known to this world, your own
+presence can only mean there is work to be done.  Though, it is quite tempting
+to laze away in procrastination, surrounded by the lava and fire pits of &rhell&n,
+you are all too aware of how much this accomplishes.    
+~
+2 acdgjkzAE 384 0
+D4
+You may enter the land of the living... If you dare.
+~
+~
+0 0 1201
+S
+#499
+&rH&Y E&r L&Y L&n~
+   You are in &rhell&n.  As one of the highest gods known to this world, your
+own presence can only mean there is work to be done.  Though, it is quite
+tempting to laze away in procrastination, surrounded by the lava and fire pits
+of &rhell&n, you are all too aware of how much this accomplishes.    
+~
+2 acdgjkzAE 384 0
+D4
+You may ascend to the land of the living... If you dare.
+~
+~
+0 0 1201
+D5
+Further into the depths of &rhell&n.
+~
+~
+0 0 498
+S
+$~

@@ -1,0 +1,24 @@
+cf cast 'create food'
+sanc cast 'sanctuary' me
+fire cast 'fireball'$1
+recall get recall back;recite recall
+he say heal me
+infra cast 'infravision' me
+start wear all;wield pool;put all back;
+t train hit
+` quitreally
+dski get skin back;drink skin;put skin back
+sle cast 'sleep' $1
+dinvis cast 'detect invis' me
+bh cast 'burning hands' $1
+cure cast 'cure light' brent
+k kick $1
+chil cast 'chill touch' $1
+col cast 'color spray' $1
+tm train mana
+. kick priest
+invis cast ' invisibility' me
+rome n;e;s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+track cast 'track' $1
+ligh cast 'call lightning' $1
+drain cast 'energy drain' $1

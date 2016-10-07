@@ -1,0 +1,6 @@
+ci cast 'infravision' smaf
+gw q white
+ta take all corpse;get corpse;junk corpse
+cl cast 'cure light' smaf
+gs get skin backpack;drink skin;put skin backpack
+gb get bread backpack;eat bread

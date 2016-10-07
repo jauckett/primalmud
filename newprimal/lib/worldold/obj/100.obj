@@ -1,0 +1,353 @@
+#10001
+Death Sword~~
+a Death Sword~~
+the Death Sword lies here.~~
+DESTROY~~
+5 65865 8193
+0 11 14 3
+1 1000000 200000
+A
+19 50
+A
+18 50
+L 105
+#10002
+Black Leather Bike Jacket~~
+a Black Leather Bike Jacket~~
+a Black Leather Bike Jacket is here.~~
+~~
+9 65609 9
+0 0 0 0
+1 4010 401
+L 0
+#10003
+Faded Levi 501's~~
+a faded pair of Levi 501's~~
+a pair of Levi 501's are here~~
+~~
+9 65609 33
+0 0 0 0
+1 4010 401
+L 0
+#10004
+Black Leather Riding Boots~~
+a worn pair of Black Leather Riding Boots~~
+a pair of Black Leather Riding Boots is here.~~
+~~
+9 65609 65
+0 0 0 0
+1 4010 401
+L 0
+#10005
+Studded Black Leather Belt~~
+a Studded Black Leather Belt~~
+a Studded Black Leather Belt is here~~
+~~
+9 65609 2049
+0 0 0 0
+1 4010 401
+L 0
+#10006
+Blue Bandanna~~
+a faded Blue Bandanna~~
+a faded Blue Bandanna is here.~~
+~~
+9 65609 5
+0 0 0 0
+1 4010 401
+L 0
+#10009
+Bracelet of Life~~
+a Bracelet of Life~~
+a Bracelet of Life lies abandoned here~~
+Wear~~
+8 50397184 4097
+0 0 0 0
+1 1000000 100000
+L 15
+#10011
+Gold Bar~
+a Gold Bar~
+a Gold Bar has been discarded here.~
+~
+8 0 1
+0 0 0 0
+1 100000 10000
+L 0
+#10016
+mushroom~
+a Mushroom~
+a Mushroom lies here~
+~
+19 0 1
+5 0 0 0
+1 1 0
+L 0
+#10017
+Dragon Axe~
+a Dragon Axe~
+a Dragon Axe lies here.~
+DESTROY~~
+5 1865 8193
+0 5 6 3
+20 185760 37152
+E
+dragon axe~
+A large sharp axe of rare beauty.
+~
+A
+18 5
+A
+19 5
+A
+12 -50
+L 25
+#10018
+Mystic Sword~
+a Mystic Sword~
+the Mystic Sword is here, shimmering on the ground.~
+PULVERISES~
+5 2889 8193
+0 6 6 3
+1 116480 23296
+A
+18 4
+A
+19 6
+A
+12 -30
+L 31
+#10019
+Vorpal Sword~~
+a Vorpal Sword~~
+a Vorpal Sword lies here~~
+slash~~
+5 64 8193
+0 7 3 3
+9 32440 6488
+A
+18 2
+A
+19 2
+A
+12 -10
+L 16
+#10070
+black pants~
+A pair of black pants~
+A pair of black pants owned by cassandra lie here~
+~
+9 65548 33
+0 0 0 0
+1 1 1
+L 60
+#10071
+black shirt~
+A black shirt~
+A black shirt owned by cassandra lies here~
+~
+9 65548 9
+0 0 0 0
+1 1 1
+L 60
+#10072
+black ring~
+A black ring~
+A black ring with an unusual stone lies here~
+~
+9 65548 3
+0 0 0 0
+1 1 1
+L 60
+#10073
+silver ring~
+A silver ring~
+A silver ring with a large black stone inset lies here~
+~
+9 65548 3
+0 0 0 0
+1 1 1
+L 60
+#10074
+black boots~
+A pair of boots~
+A pair of black boots owned buy cassandra lie here~
+~
+9 65548 65
+0 0 0 0
+1 1 1
+L 60
+#10075
+watch~
+A large watch~
+A large silver watch with hands of gold lies here~
+~
+9 65548 4097
+0 0 0 0
+1 1 1
+L 60
+#10076
+silver chain~
+A silver chain~
+A long thick silver chain lies here~
+~
+9 65549 5
+0 0 0 0
+1 1 1
+L 60
+#10077
+book~
+black book~
+A black book with mystical symbols written on it lies here~
+~
+16 65549 16385
+0 0 0 0
+1 1 1
+L 60
+#10078
+black sword~
+A black sword~
+A black sword with strange symbols on it's handle lies here~
+~
+5 65550 8193
+0 0 0 0
+1 1 1
+L 60
+#10088
+Tape~
+A Casette Tape~
+A Casette tape waits to be put into a walkman.~
+~
+13 65549 1
+0 0 0 0
+0 0 0
+E
+tape~
+A Techno Tape~
+L 60
+#10089
+Walkman~
+A Walkman~
+A Walkman sits here waiting to be played.~
+~
+15 0 16385
+0 0 0 0
+0 0 0
+E
+walkman~
+A Sony Walkman~
+L 60
+#10090
+A Cigarette~
+A Cigarette~
+A Cigarette sits here waiting to be smoked.~
+~
+8 65549 1
+0 0 0 0
+0 0 0
+L 60
+#10091
+Winfield Blue~
+A packet of Winfield Blue~
+A packet of Winfield blue sits here.~
+~
+15 65549 1
+0 0 0 0
+0 0 0
+E
+winfield~
+A packet of Winfield Blue~
+L 60
+#10092
+Whistle~
+A Whistle~
+A Whistle lies here.~
+~
+11 65549 1
+0 0 0 0
+0 0 0
+E
+whistle~
+A Whistle~
+L 60
+#10093
+Renegade pants~
+Renegade Pants~
+A Pair of Renegade pants lie here in a heap~
+~
+11 65549 33
+0 0 0 0
+1 1 1
+E
+pants~
+A pair of Renegade pants~
+L 60
+#10094
+A Joint~
+A Joint is lying here~
+A Joint is lying here waiting to be smoked.~
+SMOKE~
+1 65548 1
+0 0 0 0
+0 0 0
+E
+joint~
+A Joint~
+L 60
+#10095
+Addidas Jumper~
+An Addidas jumper~
+An Addidas jumper lies here on the ground.~
+~
+11 65551 2049
+0 0 0 0
+1 0 0
+L 60
+#10096
+Nike Airs~
+A Pair of Nike Airs~
+A Pair of Nike Airs sit here.~
+~
+11 15 65
+0 0 0 0
+1 0 0
+L 60
+#10097
+Astro Boy T-shirt~
+An Astro Boy T-shirt~
+An Astro Boy T-shirt sits neatly folded here.~
+~
+11 15 9
+0 0 0 0
+1 0 0
+L 60
+#10098
+portal magical~
+A magical portal~
+A magical portal shimmers here~
+~
+41 1 0
+22047 0 0 0
+9000 10 10
+E
+portal magic magical~
+This shimmering portal leads into a strange futuristic place
+very different to the town of Haven
+~
+L 5
+#10099
+metal box portal~
+A metalic box~
+A strange metalic box stands here~
+~
+41 1 0
+15 0 0 0
+9000 10 10
+E
+metal metalic box~
+This large metal box will transport you to a strange and
+mysterious world where knights and dragons wander the lands
+~
+L 0
+#99999
+$~

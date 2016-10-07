@@ -1,0 +1,14 @@
+ga get ammo bag
+tm  train move;train move;train move;train move;train move
+gh get all.heal back
+bp buy 10 prot;put all.prot back
+gp get prot back
+ba buy 10 ammo;put all.ammo bag
+qh q h;q h;q h
+bh buy 40 heal;put all.heal back
+infra c 'infra'
+food c 'create food';c 'create food';c 'create food';c 'create food';c 'create food'; eat mush;eat mush;eat mush;eat mush;eat mush
+th train hit; train hit;train hit;train hit;train hit; train hit
+re c 'word of recall'
+di c 'detect invis'
+ref c 'refresh'

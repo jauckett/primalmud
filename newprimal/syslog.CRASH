@@ -1,0 +1,30 @@
+Jun 15 12:17:17 :: Resetting Bablyon 5 (rooms 29101-30300).
+Jun 15 12:17:17 :: Resetting Death Castle (rooms 30301-30999).
+Jun 15 12:17:17 :: Resetting The South Pole (rooms 31000-31099).
+Jun 15 12:17:17 :: Resetting Zysx's Playzone (rooms 31100-31199).
+Jun 15 12:17:17 :: Resetting Red Dwarf - Season I (rooms 31200-31599).
+Jun 15 12:17:17 :: Resetting RD-Season II && III (rooms 31600-31699).
+Jun 15 12:17:17 :: Resetting RD-Season III && IV (rooms 31700-31799).
+Jun 15 12:17:17 :: Booting houses.
+Jun 15 12:17:17 :: Reading auctions.
+Jun 15 12:17:17 ::    Calculating powers and members
+Jun 15 12:17:17 :: Boot db -- DONE.
+Jun 15 12:17:17 :: Signal trapping.
+Jun 15 12:17:17 :: Entering game loop.
+Jun 15 12:17:17 :: No connections.  Going to sleep.
+Jun 15 12:17:17 :: New connection.  Waking up.
+Jun 15 12:17:17 :: New connection from [127.0.0.1]
+Jun 15 12:17:19 :: Artus [127.0.0.1] has connected.
+Jun 15 12:17:19 :: Artus retrieving crash-saved items and entering game.
+Jun 15 12:17:19 :: Artus (level 200) has 0 objects (max 100).
+Jun 15 12:17:28 :: New connection from [127.0.0.1]
+Jun 15 12:17:29 :: Karma [127.0.0.1] has connected.
+Jun 15 12:17:30 :: Karma retrieving crash-saved items and entering game.
+Jun 15 12:17:30 :: Karma (level 102) has 25 objects (max 100).
+Jun 15 12:21:17 :: (GC) Shutdown by Artus.
+Jun 15 12:21:17 :: Closing all sockets.
+Jun 15 12:21:17 :: Closing link to: &7Karma&g.
+Jun 15 12:21:17 :: Closing link to: &7Artus&g.
+Jun 15 12:21:17 :: Normal termination of game.
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.

@@ -1,0 +1,7 @@
+r tell gamina summon
+get all.corpse
+gac get all corpse
+th train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+. cast 'cure light' on $*
+see cast 'infravision' on $*
+tm train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana;train mana

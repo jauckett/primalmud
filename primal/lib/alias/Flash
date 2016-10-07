@@ -1,0 +1,18 @@
+cw get skin force;cast 'create water' skin;drink skin;put skin force
+det cast 'detect invis'$*
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+eat cast 'create food';eat mushroom
+inf cast 'infravision'$*
+inv cast 'invis'
+qr get red backpack;quaff red
+wa wake;stand
+re cast 'word of recall'
+qp get prot back;quaff prot
+drag cast 'dragon'
+loc cast 'locate object' $1
+sum cast 'summon' $1
+bh buy 15 heal;put all.heal force
+qw get white force;quaff white
+qh get heal force;quaff heal
+1 get heal force;quaff heal
+san cast 'sanctuary' $*

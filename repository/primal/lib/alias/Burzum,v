@@ -1,0 +1,85 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@ccr cast 'cure light' $*
+pte cast 'protection' $*
+charm cast 'charm' $*
+dsg cast 'dispel good' $*
+t2 title an AVENGER [Elite Guard]
+t3 title an AVENGER [BENTry]
+deti cast 'detect invisi' $*
+rc recite recall
+doh  recite identify $*
+refresh cast 'refresh' $*
+nm assist nurgle
+sx cast 'shocking grasp'
+arm cast 'armor' 
+an assist nurgle
+temp e;get corpse; rc
+gac get all corpse
+gcc get coins corpse
+qw quaff white
+pd pick door
+qg quaff green
+qr quaff red
+cm cast 'magic miss'
+qy quaff yellow
+stre ca 'stre' me
+od open door
+trc track citizen
+get get$*
+remove remove $*
+sneak sneak;sneak;sneak;sneak
+crl cast 'cure light'
+ud unlock door
+pl pick lock
+ul unlock lock
+ol open lock
+cast cast $*
+bn cast 'blindness' $*
+t1 title the orc
+kl cast 'color' $*
+lig cast 'lightning' $*
+dse cast 'dispel evil' $*
+dra cast 'energy drain' $*
+dri drink $*
+back remove fist; wield black; backstab $*; remove black; wield fist
+xz order jack flee
+zx order guard kill $*
+ae rescue guard
+x track lurker
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

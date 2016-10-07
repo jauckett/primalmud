@@ -1,0 +1,48 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@gg get gold corpse
+2 c 'chill touch'
+sl yawn; sl
+wa wa; st
+gm get meat bag; eat meat
+ga get all corpse
+li look in corpse
+1 c 'magic missile'
+dw drink water
+0 south; get all corpse; wear all corpse; north
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,11 @@
+qw get white backpack; q white
+qr get red backpack; q red
+jc get all.corpse; junk all.corpse
+gac get all all.corpse
+cl c 'cure light'
+munch get $1 bag; eat $1
+wk wake; stand
+quench get skin bag; drink skin; put skin bag
+g gossip $*
+stum : stumbles over his platforms as he enters the room. He straightens quickly and looks like it never happened
+refill get skin bag; fill skin fountain; put skin bag

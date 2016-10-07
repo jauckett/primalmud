@@ -1,0 +1,31 @@
+qt get tonic bac ; quaff tonic
+bt buy 20 healing ; put all.healing bac
+rf cast 'refresh' self
+h cast 'heal'
+dr cast 'dragon' 
+bs rem sword ; wield soaker ; backstab $1 ; rem soaker ; wield sword
+cc cast 'cure critic' self
+rc get recal back ; rec recal
+qw get white back ; quaff whit
+qr get red back ; quaff red
+bb backstab bandit
+gac get all corpse
+jc get corpse ; junk corpse
+iv cast 'infravision'
+bli cast 'blindness' $1
+bh cast 'burning hands' $1
+map get map for ; look map ; put map for
+rb get red back ; quaff red
+wb get white back ; quaff white
+wf get white for ; quaff white
+hb get skin back ; drink skin ; put skin back
+hf get skin force ; drink skin ; put skin force
+mf get meat force ; eat meat
+mb get meat back ; eat meat
+id get ident back ; rec ident $1
+cl cast 'cure light' self
+ch cast 'chill touch' $1
+br buy 20 red ; put all.red back
+bw buy 20 white ; put all.white back
+bm buy 10 meat ; put all.meat back
+dp get all.pot back ; drop all.pot

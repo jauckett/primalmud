@@ -1,0 +1,45 @@
+tc trac cloc
+ps put all.scroll for
+tj trac roj
+ready c 'dragon' quo; c 'bless' quo; c 'armor' quo;c 'strength' quo
+pw put all.white for
+gua e; b gua; c 'color spray' gua
+key b 2.guard; c 'color spray' 2.guard; c 'energy drain 2.gua
+tb trac bouncer
+sen b sen; c 'color spray' sen
+master b master; c 'color spray' master; c 'energy drain' master
+tru w b cae; c 'color spray' cae; c 'energy drain' cae
+pm put all.meat for
+gat b gat; c 'color spray' gat
+moo.geeky.com.tj port 4000
+pr put all.red for
+id get ide for
+bs b gla; c 'color spray' gla
+bail b bailiff; c 'color spray' bailiff
+coin get  coins all.cor
+nob b nob; c 'color spray' nob
+bod c 'color spray' bod
+cae unlock door; open door; w; b bod; c 'color spray' bod
+sol b sol; c 'color spray' sol
+og trac ogre
+buf b buf; c 'lightning' buf
+starter open for; wear all; hold wand; hold stone; wie super; put all for
+et get meat for; get meat for; eat meat; eat meat
+/ get recall for; rec recall
+red get red for; q red
+whit get whit for; q whit
+dri get skin for; dri skin; dri skin; put skin for
+pf put all for
+lem get lem for; dri lem; put lem for
+wa wake; stand
+see c 'detect invisi' quo; c 'detect alignment' quo
+cl cast 'cure light' quo
+rome s; e; e; s; s; s; e; e; s; s; s; s; s; s; s; s; s; s; s; w; w; w; w; w
+cor get all all.cor
+exe e; bac exe; c 'lightning' exe
+cc c 'cure critical' quo
+plains s; e; e; s; s; s; e; e; s; s; s; s; s; s; s; s; s; s; s; e
+wake wake; stand
+wak wake; stand
+toy w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+ea c 'earth'

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "\$0=$0"
+echo "<HTML><BODY>" > index.html
+for file in * ; do
+  if [ -d $file ] ; then
+    echo "  <A HREF="$file/"><U>$file</U></A><BR>" >> index.html
+  elif [ "$file" != `basename "$0"` ] ; then
+    echo "  <A HREF="$file">$file</A><BR>" >> index.html
+  fi
+done
+echo "</BODY></HTML>" >> index.html

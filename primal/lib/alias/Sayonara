@@ -1,0 +1,45 @@
+ec c 'enchant weapon' $1
+grats grats ***** Yeah Yeah Yeah , well done $1 Yeah Yeah yeah *****
+2 remove axe; wield spike; backstab $1; remove spike; wield axe
+3  c 'detect invisibility'; hold pen; hold sceptre; wield axe; wear all
+1 cast 'heal'
+pmb put all.meat bag
+wor c 'word of recall'
+cc c 'cure critical'
+gol get gold all.corpse
+loot get all all.corpse
+rr recite recall
+invis c 'invisibility'
+infra c 'infravision'
+arm c 'armor'
+em eat meat
+bm buy 10 meat
+qr quaff red
+qw quaff white
+summ cast 'summon' $1
+wake wake; stand
+ri recite identify $1
+br buy 10 #3
+bw buy 5 #2
+fire c 'fireball'
+sanc c 'sanctuary'
+di c 'detect invisibility'
+da c 'detect alignment'
+heal c 'heal' sayonara
+grin emote grins wevilly.
+hmm emote thinks yes, you do taste rather tasty :P
+lib look in bag
+gmb get meat bag
+ref c 'refresh'
+4 get all corpse
+dr drink bucket
+cw c 'create water' bucket
+tr track treant
+n emote flees in a southerly direction; n
+s emote flees in a northerly direction; s
+e emote flees in a westerly direction; e
+w emote flees in a easterly direction; w
+of order followers kill $1
+charm c 'charm' $1
+9 c 'word of recall' troll
+0 cast 'heal' lews

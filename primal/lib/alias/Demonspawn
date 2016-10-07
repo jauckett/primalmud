@@ -1,0 +1,9 @@
+tak get all from corpse
+et get bread from bag;eat bread
+kk kick $1
+jnk get corpse;junk corpse
+pot get red from bag;q red
+boot get boots from bag;wear boots
+healme cast 'cure light' demonspawn
+hel cast 'cure light' $1
+gg get gold from corpse

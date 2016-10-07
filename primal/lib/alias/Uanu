@@ -1,0 +1,53 @@
+kk kill  g
+cp cast 'paralyze' $*
+or order followers kill $*
+bls blackjack stay
+blh blackjack hit
+bla blackjack 500
+mm cast 'plasma'
+csl cast 'sense'
+cww cast 'waterwalk'
+bl cast 'blind' $*
+8 get all all.corpse
+hh hunt corp
+k kill $*;alias kk kill $*
+csa cast 'spirit armor'
+as order followers assist uanu
+ad cast 'animate dead' corpse
+mmm cast 'call lightning'
+cre cast 'refresh'
+bre buy 5 recall;put all.scroll force
+qh get tonic force;quaff tonic
+bh buy 20 healing;put all.healing force
+cdr cast 'dragon'
+cda cast 'detect align'
+ki kick
+cdi cast 'detect invis'
+li look in corpse
+ca cast 'armor'
+wa  wake;stand
+qr get red force;quaff red
+bw buy 10 white;put all.white force
+br buy 20 red;put all.red force
+bb buy 10 meat;put all.meat force
+dr drink skin
+qw get white force;quaff white
+lib look in force
+cin cast 'infra'
+ci cast 'invis'
+wk rem halb;wield kni
+eb get meat force;eat meat
+9 get all all.corpse
+m open door
+rec cast 'word of recall'
+cb cast 'bless'
+ce cast 'earth'
+t track rattle
+id get identify force;recite identify $*
+rr get recall force;recite recall
+crc cast 'remove curse' $*
+bid buy 10 identify;put all.scroll force
+cs cast 'sleep' $*;cast 'sanct' $*
+r reply $*
+cc cast 'advanced heal'
+tele cast 'teleport'

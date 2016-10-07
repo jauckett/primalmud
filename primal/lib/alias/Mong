@@ -1,0 +1,7 @@
+hb cast 'cure light' biz
+tb track buffalo
+t tag $1
+h cast 'cure light' me
+r rec recall
+b backstab $1
+g get all from all.corpse

@@ -1,0 +1,32 @@
+gp get $* corpse
+qp q potion
+kv kil vulture
+kr kil citizen
+inf c 'infra' $*
+cb c 'bless' $*
+str c 'stre' $*
+kj kil janitor
+kb kil beggar
+di c 'detect inv'
+ew eat mushroom
+cw c 'create food'
+od op door $*
+dw drink water
+ca c 'armor' $*
+gac get all corpse
+gcc get all all.corpse
+gc get all.gold all.corpse
+ga get all
+x kil $*
+cl c 'cure light'
+kd kil drunk
+sl sleep
+gb get $* backpack
+og op gate $*
+ug unl gate $*
+pb put $* backpack
+km kil man
+cc c 'cure c' $*
+bl c 'blindness' $*
+qw q white
+qr q red

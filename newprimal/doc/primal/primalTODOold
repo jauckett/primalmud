@@ -1,0 +1,443 @@
+================================================================================
+                                   TODO 
+================================================================================
+
+                                  PrimalMUD
+
+                   Created by John Auckett and Brett Murphy,
+                     Using a Game System by Steven Wark,
+                Based on CircleMUD 3.0, created by Jeremy Elson.
+
+                                PrimalMUD v3.0
+                    Revamped by Michael Dishon, Jason Theofiles
+                               and Sandii Barrat
+                                                                 
+================================================================================
+
+CONTENTS
+
+1. Zones
+
+2. Sniplets/Patches
+
+3. Code Modifications/Fixes/Additions
+3.1 Scripts
+
+4. Misc/Administration
+
+5. Documentation
+
+6. Spells/Skills
+6.1 Fantasy/Magic
+6.1.1 SKILLS
+6.1.1.1 Fighting
+6.1.1.2 Other 
+6.1.1.3 Equipment
+6.1.2 SPELLS
+6.1.2.1 Fighting
+6.1.2.2 Other 
+6.2 Future
+
+7. Other Ideas
+7.1 Quest Systems
+7.2 Misc
+
+8. Primal View
+
+================================================================================
+LEGEND
+                         /  !  complete      \          estimated
+     priotity     (x) __/   *  mostly done    \__ (y) time/difficulty
+   [1 = highest]        \   -  pending        /       [10 = highest] 
+                         \  /  scrapped      /
+================================================================================
+
+1. Zones
+========
+(1)-(5) West World: exp on ghosts and cowboys etc etc .. - too easy for levels 
+	30-40
+(5)-(x) Additional Zones
+(2)-(5) Look at locations of all the zones in the world
+
+(1)!(?) Improve The Island Forever
+        Expand the tower. Level 5 = 3 lichs (just rename level 4 to 5)
+                          Level 4 = new level, with masters and arch's
+                          Level 2 & 3 = bit bigger
+
+(1)-(?) Coding of TIF
+	Cruel Fate - Check out the spec on it, seems to make players immobile
+	and may not work properly? - Stormbringer
+
+	Player_hunters
+	- Make them check all players in zone, not just first on list & in 
+	zone
+
+
+2. Sniplets/Patches
+===================
+(2)-(5) OLC
+(1)-(4) Autoequip - requires player convert/purge
+
+3. Code Modifications/Fixes/Additions
+=====================================
+(1)-(1) increase MAX_RAW_INPUT_LENGTH from 512 to 2048 (structs.h)
+(1)-(1) add talis123@yahoo.com to primal_email list
+(1)-(1) Mount code
+        - Ask DM & Sandii about the exact desirable specifications
+(1)-(1) Fix AutoSplit - group leader/member not in room or something
+
+(1)-(2) Fix page_string - eg. sethelp, #lines per page (ie. problems with colors 
+	somewhere?)
+(1)-(2) page_string - buf problem 2 players using paging at same time.
+ 
+(2)-(2) Add personal setting for #lines per page - requires player convert
+
+(2)-(2) reroll stats on login
+(2)-(2) Check for haste and fire shield attacks when the target dies ...
+(2)-(2) Newbie Equip
+(2)-(2) Fix IDNUM Problem - requires player purge, beware of house crash 
+	- look at house system?
+(2)-(2) Gateways
+        - Gateways to be level restricted
+          Also, look into it not just saying '<player> has arrived.'
+
+        - value 0 = room to teleport to
+        - value 1 = minimum level (0 = no restrict)
+        - value 2 = maximum level (0 = no restrict)
+        - value 3 = unused
+
+(2)-(2) Item (1 << xx) reduction
+        - Protective items to be gathered into one item type,
+          and item values used to indicate strength of the item
+        - value 0 = item protection type (as current ITEM_xx types)
+        - value 1,2,3 = unused
+
+(3)-(1) Check invis messages
+(3)-(1) Skillshow - add colors to stats not met, and fix columns and headings.
+(3)-(2) Xword parser to accomindate colors - add a function that returns a string
+	without the color codes ...
+(3)-(2) Look at Group Experience
+(3)-(2) check exp on playerkilling (might be based on the exp that the char has ...)
+(3)-(3) Make a seperate function for checks when wearing eq - ie. for things such
+	as lightning shield on titans armor, etc ... Find where I mean and 
+	add that into here.
+(3)-(3) Add colors to:
+	report levels help vnum show ....  scan list toggle areas exp version
+	realtime where commands gold withdraw uptime users equipment house
+	balance deposit
+(3)-(3) Exp cap - can implement something so that the person that kills the mob
+	from start to finish (flawless) will get exp available - not the
+	cap, ie. lvl*10000
+(3)-(3) quest eq log system
+	store records in file (have a bit more of a think) 
+		<playername> <obj vnum> (<numb objs>)
+	quest list
+	quest add
+	quest delete
+	save to file on modification	
+(3)-(4) Fix Werewolfs/Vamps - or create new weredragon types etc...
+	change maxhit not hit - might have to store temp in pfile
+	infect
+	check slaying rules (werewolf cant slay werewolf etc..) 
+
+(4)-(1) Change the color of clan talk to bright white &W
+(4)-(1) Color bleed on character description
+(4)-(1) Trainer - decide for mana (at least greater than 25xlevel) ...
+(4)-(1) Add level from and to in the command levels
+(4)-(2) Make clan channels visible to gods
+(4)-(2) Max value for maxhit, maxmana etc ...
+(4)-(2) Command sorting
+        - Some sorting mechanism to group commands and present them more
+logically
+          instead of just splurging them onto the screen. Too overwhelming.
+        - Just a matter of re-arranging them in interpreter.c and then changing
+          the listing loop in act.informative.c
+(4)-(?) Look at the score screen
+(4)-(3) mail multiple receps - clan mail?? mail multi <name>/<name>/<name> or like
+(4)-(4) remmort
+
+- Bug: Public channels are available from non-connected states.
+         Ie, TARN howled while reading MOTD (Went idle I think)
+- Fix users command. %3d for 'level' field.
+- Update invisibility, function 'appear(ch)' so only those who we were
+  invis to, get the 'X appears beside you' message.
+- Multiple mail command, or 'mail gods'.
+- Search player files for particular IP addresses. (sniplet?)
+- Make clan channels available to gods
+
+3.1 Scripts
+-----------
+(5)+(2) email_log - update/nicen
+(5)+(2) finish dirdiff - add to testmud ...
+
+
+4. Misc/Administration
+======================
+Web Page - complete and decide location.
+Mudconnect info and update
+
+
+5. Documentation
+================
+May as well do the documentation properly. Since it would be hard to do a SDD,
+also a waste of time, the focus would be on a SQAP and a coding standards
+document.
+
+5.1 Primal Building Doc
+-----------------------
+Thorough Check and up to date check
+
+5.2 SQAP
+--------
+Split into further documents/maybe it would be best all in one document, 
+see how it comes along ...? include: TODO, bugs/ideas/typos, web page, etc. etc.
+Basically 
+
+5.3 Coding Implementation and Standards 
+---------------------------------------
+include: standards (coding, basic architectural design), 
+	 conventions (include CVS and test mud procedures - ie. uploading etc..)
+
+5.4 Test Plan
+-------------
+Testing procedures
+
+
+6. Spells/Skills
+================
+Possible spells and skills, some probably would be stupid, and names and their
+actions will need adjustment.
+
+6.1 Fantasy/Magic
+-----------------
+
+6.1.1 SKILLS
+
+6.1.1.1 Fighting
+
+Parry
+Dodge
+Disarm
+Dual Wield
+Counter Attack
+Strangle
+Roll
+Brawl
+Ambush
+Scouting
+Shield rush/hit
+Beserk
+
+6.1.1.2 Other
+
+Agility
+Bash Door
+Form Lock
+Traps
+ - door traps
+ - room traps (arrow, dart etc)
+Remove Trap
+Spy
+Languages
+Disguise (as another player/clan/mob?)
+Clairvoyance (see disguised) 
+Horseback (ride outdoors without getting hassled by aggres mobs)
+Oponent Assesment (determine strengths/weaknesses)
+Search (hidden objects, doors etc.)
+Negotiate/Haggle (bargain down prices)
+Mapmaking
+Leadership
+Train
+Meditate
+Mind Control
+Scroll Writing
+ - including prereq skills
+Potion Making
+ - including prereq skills
+Two Weapon Defence
+
+6.1.1.3 Equipment
+
+Blunt/Sharpen
+Repair
+ - Weapons
+ - Armor, etc
+
+6.1.2 SPELLS
+
+6.1.2.1 Fighting
+
+Room/Area Spells:
+	Weather Based:
+	- Ice
+	- Fire (Wall,Storm) Inferno
+	- Lightning
+	- Wind,Cyclone
+
+Warriors war cry - if done before attack will summon a helper ???
+
+Weather Based:
+- Freeze touch, heat drain
+- Energy Bolt
+etc..
+
+6.1.2.2 Other
+
+Poison
+ - Weapon, food etc.
+Recharge Wand
+Darkness	
+Paranoia
+royal heal - heal on tic
+recall scrolls back to haven (maybe also a spell)
+higher level sanc spell
+
+6.2 Future
+----------
+Energize
+Laser
+Phasor
+Clone
+Shield
+Phasor Shield
+Mind Control
+Hologram
+Nuke
+Matterless - passing doors
+Hole - send mobs into spacial hole
+
+Knowledge (Prereq skills for other spells/skills)
+-------------------------------------------------
+ - Technology
+ - Greater Technology
+ - Advanced Technology
+
+ - Spacial Physics
+ - Engineering
+ - Space Flight 
+
+7. Other Ideas
+==============
+
+7.1 Quest Systems
+-----------------
++ Automated Quest System Ideas
+	Have a quest master who sells cards with items to collect and 
+	mobs to kill to complete the quest Enable players to gain quest 
+	points which can be used for ? stats, items etc..
+Note - some quest sentry in spec_procs.c
+
++ Quest Gold Arena thingy
+
+-(2) Quest code
+        - Automating some quests => Tag, 'seek n destroy'
+        - Level quests (can use level restricted portals) (min & max)
+        - Player vs Mob arena for QP's.
+        - Quest zone specific, or attach quest segments onto particular
+existing zones
+
+7.2 Misc
+--------
+% based skills/spells - get better as used
+
+damageable/repairable Equipment
+
+-(3) MANA BATTERY
+        Item Can store mana inside it, up to a maximum, and
+        when used, recharges the user. The mana has to be built up
+        by using 10x amount to charge.
+
+        Works:
+                charge <item> <amount> - Fill battery
+                charge <item> <target> - Use battery
+
+        Example:
+                Charge battery 100 - Gives 100 mana, takes 1000 off user
+                Charge battery talisman - gives talisman whatever is in
+                                          the battery
+
+-(3) Immortal Entertainment System
+        Something to keep them amused and coming back.
+        - Hierarchy of power, ie, # of wins against each other?
+
+        --Immhandbook intro sort of thing--
+        'As an immortal, the squabbles of the mortals seem petty,
+          and you have lost all interest in their ways. You have
+          no desire to help them in their puny and finite lives,
+          and any such desire should be quelled quickly lest you
+          find yourself unable to defend yourself against eternal
+          slavery at the hands of your equals.
+
+         Those around you seem very singular and individualistic,
+           holding no affiliations with the past, nor with each other
+           beyond that of the moment. They seem ruthless and guarded.
+           You have entered a battle of wits and power, in the skies
+           above the life you have known, where you cannot die, but
+           may suffer eternally. '
+
+-(4) INFO command
+        -Gives information on a player, just their beliefs,
+         social status, affiliations, hobbies.
+         (Minor STAT, for players)
+        - Probably need player file update, so *ShruG*
+
+	**( Shall be doing a player convert at some stage, at least
+		provide what is needed in player convert )**
+
+
+-(5) NEW Intro Screens to PRIMAL
+
+/(5) Mob classes
+        - Turned out not to be really necessary for implementing mounts
+        - Still an idea, but no real obvious use
+
+-(5) Casino
+        - Roulette
+        - /root/roulette.txt for game operation details
+
+/(5) Multiple weapons - I did about 66% of a dual wield on stock circle (DM).
+	Eliminate shield advantage, allow two weapons
+	Requires weapons being set as one handed and two handed weapons
+	Requires a new 'wield' position
+	Just add weapon damage types to form attack damage
+	Optional: Sacrifice HOLD position as well. Cannot hold something and
+	wield two weapons.
+	Complex and probably unnecessary, except for those berserker players.
+	Likely to unbalance the game.
+
+-(5) Auction system
+        If the users online become frequent and populous, there will most
+	likely be a need for a more sophisticated auction system to handle 
+	sales.  Adaption from one of the generics offered at the CircleMUD ftp 
+	site should be easy.
+
+	Enhanced auction system
+	Random item auction, done every X mins to keep things interesting.
+
+-(5) Induced Lag
+	Don't 'kill' accounts, just induce a higher WAIT_STATE on them by giving 
+	them a LAGME flag.
+
+-(4) Player specters
+        When dying, time out for X minutes before materialising again.
+        As a spectre they can move etc, but not fight and so on.
+        - Eq automatically restored to spectre.
+        - Less severe loss of XP
+
+8. Primal View
+==============
+
+Balanced by March, to catch new uni entrants ( I suppose that applies
+lower as well, nowadays )
+- Advertising campaign
+- Zones re-arranged, balanced (biiiiig)
+- Enough zones in existance and accessible to easily accomodate the new 100
+levels.
+- Worlds focused/grouped
+- Immortals organised into rostering (sort of) to ensure people are there at
+most times
+   Others will probably turn up, if they *know* someone will be there, as well.
+Sheep!
+! Mud stable -[ done barring w/wolf + vamp ]
+- All major changes implemented and tested
+- Aesthetics altered (new login screen, news, motd etc)

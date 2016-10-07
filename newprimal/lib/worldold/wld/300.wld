@@ -1,0 +1,5202 @@
+#30000
+Maintenace Tube~
+A twisted and broken maintenance tube running between two levels
+of the station is mangled to the point where only a small beam of light
+from the level above flows through.
+~
+300 44 0
+D2
+A badly damaged passageway turns to the east.
+~
+~
+0 -1 30001
+D4
+A loose maintenance plate look like it could be worked
+free with a bit of effort.
+~
+plate~
+1 -1 30169
+S
+#30001
+Damaged Passage~
+Broken wiring, and mangled walls make walking through the corridor
+difficult, the gloomy shadows and deathly silence raising the hackles
+on the back of your neck. A very faint light makes a pool on the floor
+to the north, but the passage to the east is dark.
+~
+300 296 16
+D0
+The corridor appears to end at a dead end.
+~
+~
+0 -1 30000
+D1
+An intersection cluttered with debris.
+~
+~
+0 -1 30002
+S
+#30002
+Open corridor~
+An intersection between two corridors has a gathering of fallen ceiling
+plates, lose wires and piles of dust. To the west, north and east more
+mangled passageways are cluttered with scrap. From the south you
+can here voices talking in subdued tones.
+~
+300 40 16
+D0
+The smell of rotting flesh wafts from the north.
+~
+~
+0 -1 30004
+D1
+A badly damaged corridor, poorly lit by flickering lights.
+~
+~
+0 -1 30005
+D2
+Some scattered disused clothing, makes what appears to be 
+makeshift quarters.
+~
+~
+0 -1 30003
+D3
+~
+~
+0 -1 30001
+S
+#30003
+Makeshift quarters~
+Scattered around the room are a few blankets and cooking utensils.
+Members of a strange cult are here seeking solitude, hiding here on
+this level of the station away from everyone else. They don't look
+pleased to have their solitude disturbed by you.
+~
+300 40 16
+D0
+A cluttered intersection filled with debris.
+~
+~
+0 -1 30002
+S
+#30004
+Mangled Passageway~
+Standing amongst the wreckage you can hear noise from the north.
+The noise is inhuman and sounds ominious. You look north, but can't
+see through the darkness, but the smell is like rotting flesh. Two corridors
+join to the south, a pile of scrap in the center.
+~
+300 40 16
+D0
+The smell of the remains of dead creatures from the north is 
+almost overpowering.
+~
+~
+0 -1 30007
+D2
+A cluttered intersection filled with debris.
+~
+~
+0 -1 30002
+S
+#30005
+Mangled Corridor~
+Like the rest of the level the corridor is full of scrap and broken wiring.
+You see claw marks, like those of a large animal along sections of the
+wall - what could have made them ? A flickering red light can be seen
+to the east, while the only other way you can move is back to the west.
+~
+300 40 16
+D1
+A turbolift between levels of the sector.
+~
+~
+0 -1 30006
+D3
+An intersection is cluttered with debris.
+~
+~
+0 -1 30002
+S
+#30006
+Outside Turbo Lift~
+You stand beside the door of the turbo lift running between the different
+levels of gray sector. The doors have been welded shut by ... someone.
+The light to indicate the turbo lift is on it's way is still flickering red
+above the doors, casting strange shadows amongst the waste all around
+you. Looks like you'll have to go back west along the corridor.
+~
+300 40 16
+D3
+A badly damaged corridor, poorly lit by flickering lights.
+~
+~
+0 -1 30005
+S
+#30007
+Zarg's lair~
+Somehow a Zarg has made it onto the station. A deadly predator, you
+see small bones scattered about the lair. Looking more closing you hold
+your hand over your mouth as you see the partly eaten remains of a
+missing maintenance worker.
+~
+300 40 16
+D2
+The passageway is badly mangled, the walls rippled and bent
+out of shape.
+~
+~
+0 -1 30004
+S
+#30008
+Turbo Lift - Green 12~
+You are in the turbo lift in green sector. You see from the lights above
+the door that you have stopped at level 12. You can either continue
+up or down to other levels in the sector or get off. This level of green
+sector houses the Centauri diplomatic staff.
+~
+300 300 0
+D3
+The corridor runs north-south past diplomatic quarters.
+~
+~
+0 -1 30009
+D4
+The Turbo Lift can take you up to Green 13.
+~
+~
+0 -1 30016
+D5
+The Turbo Lift can take you down to Green 11.
+~
+~
+0 -1 30159
+S
+#30009
+Green Sector - Level 12~
+Walking along the corridor you see the turbo lift between levels 
+to the east and the corridor continuing north and south from here.
+~
+300 8 0
+D0
+The corridor ends outside the Brakiri ambassadors quarters.
+~
+~
+0 -1 30014
+D1
+The Turbo Lift running through Green sector.
+~
+~
+0 -1 30008
+D2
+The corridor turns westward past Centauri diplomatic attache
+Vir Cotto's quarters.
+~
+~
+0 -1 30010
+S
+#30010
+Green Sector - Level 12~
+Standing at a turn in the corridor you can see the turbo lift to the north,
+running between the levels of the sector. South of here are the quarters
+of Centauri diplomatic attache Vir Cotto. Further along towards the west
+lies the Centauri ambassadors personal quarters.
+~
+300 8 0
+D0
+Outside the Turbo Lift through Green Sector.
+~
+~
+0 -1 30009
+D2
+Centauri diplomatic attache Vir Cotto's quarters.
+~
+~
+0 -1 30013
+D3
+Outside Ambassador Mollari's quarters.
+~
+~
+0 -1 30011
+S
+#30011
+Outside Londo's quarters~
+You stand outside Ambassador Londo Mollari's quarters. The smells
+eminating from within suggest that a large party has recently been
+held inside them. 
+~
+300 8 0
+D1
+The corridor turns northward past Vir's quarters.
+~
+~
+0 -1 30010
+D3
+Ambassador Mollari's quarters.
+~
+door~
+2 30027 30012
+S
+#30012
+Ambassador's Mollari's quarters~
+Ambassador Mollari is known to be a heavy drinker and enjoyer of
+the good life. All around his quarters you can see evidence of this.
+The place looks like a small hurricane has taken place, with half
+empty bottles and cushions strewn all around.
+~
+300 16777224 0
+D1
+The corridor runs through Green 12.
+~
+~
+2 30027 30011
+S
+#30013
+Vir Cotto's quarters~
+Vir's quarters are clean and tidy, the complete antithesis of the
+Centauri ambassador's. The furnishing reflect Vir's personality, 
+being quiet and dignified, quite unlike most Centauri, who are
+more concerned with appearances then action.
+~
+300 8 0
+D0
+The corridor runs west and north past diplomatic quarters.
+~
+~
+0 -1 30010
+S
+#30014
+Corridor in Green 12~
+The hallways are quiet in this part of the station, only diplomatic
+personnel are allowed here, leaving the corridors clear of hawkers
+and crowds. Looking south you can see the turbo lift to other areas
+of green sector. The only thing to the north is the Brakiri ambassadors
+quarters.
+~
+300 8 0
+D0
+The Brakiri ambassador's quarters.
+~
+~
+0 -1 30015
+D2
+Outside the Turbo Lift through Green sector.
+~
+~
+0 -1 30009
+S
+#30015
+Brakiri ambassadors quarters~
+The Brakiri's ambassadors quarters are not as large or gaudy as
+some of the other ambassadorial suites. The Brakiri are only a 
+minor power and have only limited wealth to spend on making
+their ambassadors comfortable.
+~
+300 16777224 0
+D2
+The corridor runs southward past diplomatic quarters.
+~
+~
+0 -1 30014
+S
+#30016
+Turbo Lift - Green 13~
+The Turbo Lift lights show you are on level 13 of Green sector. This level
+of the sector houses the Narn, Abbai and Drazi ambassadorial quarters.
+~
+300 296 0
+D3
+Corridor through ambassadorial
+wing.
+~
+~
+0 -1 30017
+D4
+The Turbo Lift can take you up
+to Green 14.
+~
+~
+0 -1 30149
+D5
+The Turbo Lift can take you down
+to Green 12.
+~
+~
+0 -1 30008
+S
+#30017
+Outside Turbo Lift~
+Outside the Turbo Lift the passageway leads to the north and south.
+The Narn ambassadors quarters are to the north, the Abbai and Drazi
+ambassadors quarters are in the southern portion of the level.
+~
+300 8 0
+D0
+The corridor ends outside ambassador
+G'Kar's quarters.
+~
+~
+0 -1 30023
+D1
+The Turbo Lift through Green
+sector.
+~
+~
+0 -1 30016
+D2
+The corridor turns westward.
+~
+~
+0 -1 30018
+S
+#30018
+Green Sector - Level 13~
+Green 13 is sometimes noisy - the Drazi and the Narn both being
+races that are boisterous at times, but at the moment at least the
+corridors are blissfully quiet.
+~
+300 8 0
+D0
+Outside the Turbo Lift through
+Green sector.
+~
+~
+0 -1 30017
+D3
+The Corridor ends outside quarters
+of two ambasadors.
+~
+~
+0 -1 30019
+S
+#30019
+Corridor in Green 13~
+The corridor ends at two doors. To your west is the Drazi ambassadors 
+quarters, and to the south the Abbai ambassadors. Ambassador Kalika
+has made several requests to have her quarters moved after several
+loud parties held in the Drazi ambassadors quarters.
+~
+300 8 0
+D1
+The corridor turns northward.
+~
+~
+0 -1 30018
+D2
+Ambassador Kalika's quarters.
+~
+~
+0 -1 30021
+D3
+The quarters of the Drazi
+ambassador.
+~
+~
+0 -1 30020
+S
+#30020
+Drazi Ambassador's Quarters~
+Ambassador Juphar Trkider of the Drazi freehold quarters are 
+decorated in bold, strong colours seeking to give an impression
+of strength to those visiting the ambassador. The color green is
+used strongly with a sash with an elborate knot holding a pride
+of place on one of the walls.
+~
+300 16777224 0
+D1
+The corridor runs past ambassadorial
+quarters.
+~
+~
+0 -1 30019
+S
+#30021
+Ambassador Kalika's Quarters~
+The Abbai are a peaceful people, living on a world covered largely
+by the sea. The quarters reflect this with many of the furnishing 
+having blues and sea-green shades of colour. Few personal possessions
+can be seen except a picture of the Abbai Matriache on one wall
+staring down sternly.
+~
+300 16777224 0
+D0
+The corridor runs past ambassadorial
+quarters.
+~
+~
+0 -1 30019
+S
+#30023
+Outside G'Kars quarters~
+Ambassador G'Kars quarters are usually guarded by a Narn bodyguard
+when the ambassador is inside. Either the ambassador is out or his bodyguard
+has been sent away on other business by G'Kar.
+~
+300 8 0
+D1
+Narn ambassador G'Kar's
+quarters.
+~
+~
+0 -1 30024
+D2
+Outside the Turbo Lift through
+Green sector.
+~
+~
+0 -1 30017
+S
+#30024
+G'Kar's Quarters~
+Ambassador G'Kar's quarters are lit with the same dim red light that
+beats down on the Narn homeworld. A large table made of rock from
+the homeworld sits in the centre of the room, the book of Sha'Quam
+open to a page showing Shadow dreadnoughts.
+~
+300 16777224 0
+D3
+The corridor runs south past
+ambassadorial quarters.
+~
+~
+0 -1 30023
+S
+#30025
+Turbo - Lift Green 16~
+The turbo lift has stopped at Green 16. This level of green sector has
+quarters for station personnel.
+~
+300 264 0
+D3
+Green 16 - Officers quarters.
+~
+~
+0 -1 30026
+D5
+The Turbo Lift can take you
+down to Green 15.
+~
+~
+0 -1 30150
+S
+#30026
+Outside Turbo Lift~
+You are standing outside the Turbo Lift on Green 16. Officers quarters
+lead off of the corridor, this level of Green sector housing station personnel.
+~
+300 8 0
+D0
+The corridor runs past officers
+quarters.
+~
+~
+0 -1 30027
+D1
+The Turbo lift through Green
+sector.
+~
+~
+0 -1 30025
+D2
+The corridor turns westward
+past commander Ivanova's
+quarters.
+~
+~
+0 -1 30035
+D3
+Officers quarters.
+~
+~
+0 -1 30034
+S
+#30027
+Green 16~
+Along this corridor are the officers quarters for the senior 
+officers of the station.
+~
+300 8 0
+D0
+The corridor runs past officers
+quarters.
+~
+~
+0 -1 30028
+D2
+The corridor runs past officers
+quarters.
+~
+~
+0 -1 30026
+D3
+Officers quarters.
+~
+door~
+1 -1 30033
+S
+#30028
+Green 16~
+Along this corridor are the officers quarters for the senior 
+officers of the station.
+~
+300 8 0
+D0
+The corridor ends outside
+Captain Sheridan's quarters.
+~
+~
+0 -1 30029
+D2
+The corridor runs past officers
+quarters.
+~
+~
+0 -1 30027
+D3
+Officers quarters.
+~
+door~
+1 -1 30032
+S
+#30029
+Corridor in Green 16~
+The corridor ends at a doorway in the eastern wall. The 
+door is to Captain Sheridan's - the leader of Babylon 5 
+- personal quarters.
+~
+300 8 0
+D1
+Captain Sheridan's quarters.
+~
+door~
+2 30026 30030
+D2
+The corridor runs past officers
+quarters.
+~
+~
+0 -1 30028
+S
+#30030
+Sheridan's Quarters~
+Captain Sheridan's quarters are amongst the largest on the
+station, but still only a couple of rooms. This room has seats
+and a small table in it, giving the room an informal feel.
+~
+300 12 0
+D1
+The captains bedroom.
+~
+~
+0 -1 30031
+D3
+The corridor runs southward
+past officers quarters.
+~
+door~
+2 -1 30029
+S
+#30031
+Sheridan's Quarters~
+Captain Sheridan's bedroom has his personal possessions in
+it. A Silver Star for valour in the Earth-Minbari war holds
+pride of place, the only remenant of his service as an Earthforce
+officer still on display.
+~
+300 16777352 0
+D3
+Captain Sheridans quarters.
+~
+~
+0 -1 30030
+S
+#30032
+Officer's Quarters~
+These quarters belong to one of the senior officers of the station.
+They are standard quarters that are similar in size and layout for
+all the officers - ensuring no one feels they are been treated
+unfairly.
+~
+300 8 0
+D1
+The corridor runs past officers
+quarters.
+~
+~
+1 -1 30028
+S
+#30033
+Officer's Quarters~
+These quarters belong to one of the senior officers of the station.
+They are standard quarters that are similar in size and layout for
+all the officers - ensuring no one feels they are been treated
+unfairly.
+~
+300 8 0
+D1
+The corridor runs past officers
+quarters.
+~
+door~
+1 -1 30027
+S
+#30034
+Officer's Quarters~
+These quarters belong to one of the senior officers of the station.
+They are standard quarters that are similar in size and layout for
+all the officers - ensuring no one feels they are been treated
+unfairly.
+~
+300 8 0
+D1
+Outside the turbo lift through
+Green 16.
+~
+~
+0 -1 30026
+S
+#30035
+Outside Ivanova's Quarters~
+You are standing outside Commander Ivanova's quarters,
+the commander guards her privacy zealously and would
+not welcome anyone rifling through her quarters while
+she is on duty.
+~
+300 8 0
+D0
+Outside the Turbo lift through
+Green sector.
+~
+~
+0 -1 30026
+D2
+Commander Ivanova's quarters.
+~
+door~
+1 -1 30038
+D3
+~
+~
+0 -1 30036
+S
+#30036
+Green sector - Level 16~
+Only one door to quarters is at the end of the corridor - in the
+western wall. The quarters belong to Lieutenant Corwin, one
+of the officers who works in C&C.
+~
+300 8 0
+D1
+The corridor turns northward
+past Commander Ivanova's
+quarters.
+~
+~
+0 -1 30035
+D3
+Lieutenant Corwin's quarters.
+~
+door~
+1 -1 30037
+S
+#30037
+Corwin's Quarters~
+Lieutenant Corwin is one of the junior officers on the command
+staff. His orders of promotion hold pride of place along the walls.
+~
+300 8 0
+D1
+The corridor runs past the
+quarters of the stations command
+staff.
+~
+door~
+1 -1 30036
+S
+#30038
+Ivanova's Quarters~
+Commander Ivanova is second in command of the station and her
+quarters are subsequently significantly larger then the cramped
+quarters that many are forced to live in on a space station. All
+items showing the commander a member of Earthforce have been
+removed from view during the current hostilities with President
+Clark. Pictures of her deceased parents are the only personal effects
+on display.
+~
+300 16777260 0
+D0
+The corridor runs past officers
+quarters.
+~
+door~
+1 -1 30035
+S
+#30039
+Corridor - Gray Sector~
+Gray sector is one of the less reputable sectors of the station. It's
+quarters being smaller and cheaper, attracting a less desirable
+type of resident.
+~
+300 8 0
+D0
+A maintenance closet has tools
+and gear stored by station
+maintenance workers.
+~
+~
+0 -1 30040
+D1
+The corridor turns southward.
+~
+~
+0 -1 30170
+D3
+The corridor ends outside
+an airlock leading out onto
+the surface of the station.
+~
+~
+0 -1 30041
+S
+#30040
+Maintenace closet~
+Tools, lengths of cable and schematics of the wiring and piping
+layout of various levels of gray sector are on the shelfs in this
+large closet. The closet smells of grease, oil and burnt wiring,
+a dirty pair of overalls is stuffed in the corner along with several
+recently used tools.
+~
+300 264 0
+D2
+The corridor runs east-west
+through gray sector.
+~
+~
+0 -1 30039
+S
+#30041
+Airlock~
+An airlock to outside the station is for here for use by maintenance
+crews that need to check hull integrity and go outside to perform
+any repairs. DO NOT GO OUTSIDE WITHOUT PROTECTION -
+unless you can live without air of course, but don't say you weren't
+warned.
+~
+300 268 16
+D1
+A corridor runs past maintenance
+facilities.
+~
+~
+0 -1 30039
+D3
+An airlock out of the station.
+~
+airlock~
+1 -1 30042
+S
+#30042
+Outside Airlock~
+Outside the airlock you are on the surface of the station. From a distance
+you would look no larger then an ant would from the roof of a house,
+the great station been five miles long.
+~
+300 32 53
+D0
+The hull of the station.
+~
+~
+0 -1 30043
+D1
+An airlock into the station.
+~
+airlock~
+1 -1 30041
+D2
+The hull of the station.
+~
+~
+0 -1 30044
+S
+#30043
+Outside the station~
+>From the hull of the station you can watch as the station rotates
+to provide an artificial gravity for the people within. Ships waiting
+for docking, while those leaving head towards the jump gate.
+~
+300 32 53
+D2
+The hull of the station.
+~
+~
+0 -1 30042
+S
+#30044
+Walking outside the station~
+As the station rotates slowly on its axis, the planet Epsilon 3 that
+Babylon 5 orbits comes into view. From hundreds of miles above
+its surface you have a view that many would pay a small fortune
+to see.
+~
+300 33 53
+D0
+Outside an airlock.
+~
+~
+0 -1 30042
+D2
+The hull of the station.
+~
+~
+0 -1 30045
+S
+#30045
+On the stations surface~
+>From the stations surface you can see ships heading to and from the
+station. As you watch, a wave of force knocks you to the ground
+as a Star Fury does a fly by of the station. Cursing profusely you
+stand back up.
+~
+300 32 53
+D0
+The hull of the station.
+~
+~
+0 -1 30044
+D2
+Near the stations fusion reactor.
+~
+~
+0 -1 30046
+S
+#30046
+Outside fusion reactor~
+You are standing outside the stations fusion reactor. You can
+feel the waves of heat radiating from it. If your smart you'll turn
+around and go back inside the station.
+~
+300 32 181
+D0
+The surface of the station.
+~
+~
+0 -1 30045
+D1
+Edge of the fusion reactor.
+~
+~
+0 -1 30047
+S
+#30047
+Fusion Reactor~
+Well your standing beside the fusion reactor. Maybe you've always
+wanted to glow in the dark. I hope don't plan on having any children
+now.
+~
+300 0 309
+D1
+Center of the fusion reactor.
+~
+~
+0 -1 30048
+D3
+Outside the fusion reactor.
+~
+~
+0 -1 30046
+S
+#30048
+Center of the Fusion Reactor~
+What sort of idiot walks into the center of a fusion reactor anyway ?
+Hope the experience was worth it for you.
+~
+300 34 8629
+D3
+Edge of the fusion reactor.
+~
+~
+0 -1 30047
+S
+#30049
+To Gray Sector~
+The corridor leads into Gray Sector. A word to the wise - keep
+a hand on your credit chips while walking through Gray sector,
+some of its residents aren't averse to some light fingered work.
+~
+300 8 0
+D0
+The corridor heads north deeper
+into Gray sector.
+~
+~
+0 -1 30160
+D2
+An intersection leading east
+into Red sector and south towards
+customs and other sectors of
+the station.
+~
+~
+0 -1 30050
+S
+#30050
+Intersection~
+The intersection here is jammed with aliens, from here you can travel
+to all different parts of the station. To the south you can head to the
+departure lounge, to the north is the way to Gray sector, east leads
+to red and blue sectors, while to the west is Green sector - off limits
+to all, but station personnel and diplomatic staff.
+~
+300 8 0
+D0
+The corridor winds through
+gray sector.
+~
+~
+0 -1 30049
+D1
+The corridor heads into the
+Red sector.
+~
+~
+0 -1 30051
+D2
+The corridor heads south towards
+the departure lounge.
+~
+~
+0 -1 30053
+S
+#30051
+To red sector~
+This corridors leads to red sector - the busiest sector of the station.
+If you continue east you'll reach the social hub of the great station.
+To the west you can travel to the station departure lounge or other
+sectors of Babylon 5.
+~
+300 8 0
+D1
+The corridor heads into Red
+sector.
+~
+~
+0 -1 30171
+D3
+The corridor runs north-south
+to Gray sector and the departure
+lounge.
+~
+~
+0 -1 30050
+S
+#30053
+Outside departure lounge~
+Directly to your south you can see the Babylon 5 departure lounge,
+which all visiting humans and aliens pass through on their way into the
+station. To the north you can travel to various sectors of the station.
+~
+300 8 0
+D0
+The corridor splits, heading
+east into Red sector and north
+into Gray sector.
+~
+~
+0 -1 30050
+D2
+The station's departure
+lounge.
+~
+~
+0 -1 30054
+S
+#30054
+Departure Lounge~
+All travellers to the Babylon 5 station pass through this departure lounge.
+Humans and aliens of all descriptions are standing around, waiting to
+leave or just entering the station. To the north you can travel to the red, 
+gray and blue sectors. Westward is green sector, housing station personnel,
+diplomatic staff, and council chambers. To the east you can travel into 
+brown sector - though it is generally avoided by most travellers.
+~
+300 12 0
+D0
+The corridor runs northward
+from the departure lounge.
+~
+~
+0 -1 30053
+D1
+The corridor leads to Brown
+sector.
+~
+~
+0 -1 30055
+D2
+Customs.
+~
+~
+0 -1 30056
+D3
+The corridor leads to Green
+sector.
+~
+~
+0 -1 30239
+S
+#30055
+To Brown Sector~
+A passageway leading to brown sector is quieter then many of the
+other parts of the station you have passed through, only the desperate
+are forced into brown sector. You can travel east to the brown sector,
+or back west into the station departure lounge and other sectors of the
+station.
+~
+300 8 0
+D1
+The corridor heads deep into
+Brown sector.
+~
+~
+0 -1 30191
+D3
+The station's departure
+lounge.
+~
+~
+0 -1 30054
+S
+#30056
+Customs~
+Before being allowed entry into Babylon 5 you'll have to get past the
+customs officer - and he's a Narn, not known for their patience with
+shifty customers, so you'd better watch out!
+~
+300 8 0
+D0
+The stations departure lounge.
+~
+~
+0 -1 30054
+S
+#30057
+Gray Sector~
+You are near the security compound for gray sector. Unless you have
+business here turn around and head back west to the rest of the station.
+The station house and cells are to the east.
+~
+300 8 0
+D1
+Station security and cells for
+prisoners are along the corridor
+to the east.
+~
+~
+0 -1 30058
+D4
+Up to another level of the
+sector.
+~
+~
+0 -1 30167
+S
+#30058
+Outside station security~
+You are outside station security - a secure area of the station that is
+off limits to all, but security personnel (and their prisoners off course!).
+Back to the west is the rest of gray sector. To the south is station security,
+and eastwards you can see cells where prisoners are kept.
+~
+300 8 0
+D1
+The corridor heads towards the
+cells.
+~
+~
+0 -1 30060
+D2
+Station security.
+~
+~
+0 -1 30059
+D3
+Stairs upto another level of
+the sector.
+~
+~
+0 -1 30057
+S
+#30059
+Station security~
+Station security - all around the walls are monitors showing parts of the
+station. A monitor shows the location of the on duty security personnel,
+while another provides updates of crimes reported and processed so far
+for this watch.
+~
+300 8 0
+D0
+In the security area.
+~
+~
+0 -1 30058
+S
+#30060
+Outside Cells~
+Cells to hold prisoners sentenced for their crimes are along the corridor
+to the east, station security and gray sector to the west.
+~
+300 8 0
+D1
+The corridor leads past cells.
+~
+~
+0 -1 30061
+D3
+Outside the security station
+house.
+~
+~
+0 -1 30058
+S
+#30061
+Outside cells~
+A cell to hold prisoners is to the north and south of you, with more further
+along the corridor to the east. Back west is station security. South from
+here is an interrogation room for questioning prisoners.
+~
+300 8 0
+D0
+A cell to hold prisoners.
+~
+~
+0 -1 30064
+D1
+The corridor leads past cells.
+~
+~
+0 -1 30062
+D2
+An Interogation room to question
+prisoners.
+~
+~
+0 -1 30066
+D3
+The corridor heads towards
+the security station house.
+~
+~
+0 -1 30060
+S
+#30062
+Outside Cells~
+Cells to hold prisoners are to the north, south and east of corridor.
+Most of the cells are empty, but you here a few sounds from a couple
+of them.
+~
+300 8 0
+D0
+A cell to hold prisoners.
+~
+~
+0 -1 30065
+D1
+A cell to hold prisoners.
+~
+door~
+2 30028 30063
+D2
+A cell to hold prisoners.
+~
+~
+0 -1 30067
+D3
+The corridor leads past cells.
+~
+~
+0 30028 30061
+S
+#30063
+Cell~
+This cell is here to hold prisoners sentenced to crimes against the station
+or its occupants. The cell is comfortable, but still a cell.
+~
+300 8 0
+D3
+The corridor leads past cells.
+~
+door~
+2 30028 30062
+S
+#30064
+Cell~
+This cell is here to hold prisoners sentenced to crimes against the station
+or its occupants. The cell is comfortable, but still a cell.
+~
+300 8 0
+D2
+The corridor leads past cells.
+~
+~
+0 -1 30061
+S
+#30065
+Cell~
+This cell is here to hold prisoners sentenced to crimes against the station
+or its occupants. The cell is comfortable, but still a cell.
+~
+300 8 0
+D2
+The corridor leads past cells.
+~
+~
+0 -1 30062
+S
+#30066
+Interogation room~
+An interogation room is used by station security to question prisoners
+and suspects. The room is clean and neat and on first appearances doesn't
+appear intimidating, but looking more closely you see various recording
+devices scattered around the room - nothing said or done here will escape
+the notice of station security.
+~
+300 8 0
+D0
+The corridor leads past cells.
+~
+~
+0 -1 30061
+S
+#30067
+Cell~
+This cell is here to hold prisoners sentenced to crimes against the station
+or its occupants. The cell is comfortable, but still a cell.
+~
+300 8 0
+D0
+The corridor leads past cells.
+~
+~
+0 -1 30062
+S
+#30068
+Outside Freshair~
+You stand outside the Freshair restaurant, the best eating place on
+Babylon 5. If your pockets are full of credits then head north and 
+grab a meal at Babylon 5's premier eating place. Otherwise head
+down and save your money!
+~
+300 8 0
+D0
+~
+~
+0 -1 30069
+D5
+Stairs lead down to a lower
+level of Red sector.
+~
+~
+0 -1 30179
+S
+#30069
+Freshair restaurant~
+The Freshair restaurant is the most exclusive on the station and looking
+around its not hard to see why. The outdoor eating area looks out onto
+the garden and the central core of the station, a view that takes your
+breath away. The outdoor eating area leads out into the Garden to the
+north, while you can also leave south to the rest of red sector.
+~
+300 67109016 0
+D0
+The Garden opens up, a display
+of plant life from dozens of worlds.
+~
+~
+0 -1 30071
+D2
+Stairs lead down to a lower
+level of Red sector.
+~
+~
+0 -1 30068
+S
+#30070
+The Garden~
+The Garden is one of the most popular places in Babylon 5. It serves
+a dual purpose, being both a place of beauty containing plant life
+from a dozen worlds and helping with oxygen reclemation.
+~
+300 0 2
+D0
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30073
+D3
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30071
+S
+#30071
+The Garden~
+Plants and flowers from a dozen different worlds create
+swirls and patterns of colour that dazzle the eye and tantalize
+the nose. The Garden is always one of the most popular
+places on the station.
+~
+300 0 2
+D0
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30074
+D1
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30070
+D2
+~
+~
+0 -1 30069
+D3
+A five star restaurant, with
+an open air eating area.
+~
+~
+0 -1 30072
+S
+#30072
+The Garden~
+Courting couples and those lost in deep thought wander around
+the Garden seeking inspiration and delight.
+~
+300 0 2
+D0
+A japanese stone garden.
+~
+~
+0 -1 30075
+D1
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30071
+S
+#30073
+The Garden~
+A large hedge encloses the eastern wall of the Garden, it's leaves
+a deep green, no light permeating through from whatever is on the
+other side.
+~
+300 0 2
+D0
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30079
+D2
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30070
+D3
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30074
+S
+#30074
+Garden~
+You are in the center of the Garden. In all directions
+plants from over a dozen worlds mix in stunning displays
+of pattern and colour.
+~
+300 0 2
+D0
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30078
+D1
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30073
+D2
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30071
+D3
+A japanese stone garden.
+~
+~
+0 -1 30075
+S
+#30075
+Stone Garden~
+The stone garden is filled with patterns and swirls, simple and complex.
+Many come to look at the elaborate patterns to clear their minds and
+focus their thoughts. To the west you can walk along the concourse
+through the heart of red sector or leave north, south or east into the 
+heart of the garden.
+~
+300 16 2
+D0
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30077
+D1
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30074
+D2
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30072
+D3
+A concourse runs along the
+core of the station.
+~
+~
+0 -1 30076
+S
+#30076
+Outside Garden~
+You are outside the Garden. The Garden is one of the most
+popular places on the station, allowing the residents of
+the station to feel more at ease, as if they were on solid
+earth rather then aboard a station floating in space.
+~
+300 8 0
+D1
+The Garden opens up, a display
+of plant life from dozens of worlds.
+~
+~
+0 -1 30075
+D3
+The concourse continues along
+the length of red sector.
+~
+~
+0 -1 30208
+S
+#30077
+In the Garden~
+A display of star blossums arranged in patterns of
+swirls and circles glows with their own light, drawing
+people to come and stare - and smell them.
+~
+300 8 0
+D0
+A japanese stone garden.
+~
+~
+0 -1 30080
+D1
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30078
+D2
+A japanese stone garden
+~
+~
+0 -1 30075
+S
+#30078
+Walking in the Garden~
+A large hedge encloses the northern wall of the Garden, it's leaves
+a deep green, no light permeating through from whatever is on the
+other side.
+~
+300 0 2
+D1
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30079
+D2
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30074
+D3
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30077
+S
+#30079
+In the Garden~
+The north eastern edge of the garden is currently been
+remodelled, tools and a wheelbarrow lying on its side
+while the workers are off on a break.
+~
+300 0 2
+D2
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30073
+D3
+You see a display of plant life from
+across the galaxy.
+~
+~
+0 -1 30078
+S
+#30080
+Outside the Garden~
+You are outside the Garden. The Garden is one of the most
+popular places on the station, allowing the residents of
+the station to feel more at ease, as if they were on solid
+earth rather then aboard a station floating in space.
+~
+300 8 0
+D2
+The Garden opens up, a display
+of plant life from dozens of worlds.
+~
+~
+0 -1 30077
+D5
+Red sector
+~
+~
+0 -1 30203
+S
+#30081
+Near alien sector~
+You are near the 'Alien sector' of the station. These
+levels of the station have been configured for those
+alien species that breath a different atmosphere to
+humans. You should be wearing breathing apparatus if
+you plan to enter.
+~
+300 8 0
+D1
+~
+~
+0 -1 30082
+D3
+~
+~
+0 -1 30157
+S
+#30082
+Entrance to Alien sector~
+You are outside the alien sector. Before entering make
+sure you are equipped with breathing gear - or be able
+to hold your breath for a LONG time!
+~
+300 8 0
+D1
+The alien sector.
+~
+~
+0 -1 30083
+D3
+Near the alien sector.
+~
+~
+0 -1 30081
+S
+#30083
+Alien Sector~
+The alien sector is home to those aliens whose atmospheres are different
+from earths. The air here is toxic to many and protection should be worn
+when passing through the alien sector.
+~
+300 8 64
+D0
+The corridor turns eastward.
+~
+~
+0 -1 30084
+D2
+The corridor turns eastward.
+~
+~
+0 -1 30085
+D3
+Entrance to the alien sector.
+~
+~
+0 -1 30082
+S
+#30084
+Alien Sector~
+The alien sector is home to those aliens whose atmospheres are different
+from earths. 
+~
+300 8 64
+D1
+Outside alien quarters.
+~
+~
+0 -1 30092
+D2
+The corridor runs west and
+south through the alien sector.
+~
+~
+0 -1 30083
+S
+#30085
+Alien Sector~
+As you walk through the alien sector you receive many
+stares from the aliens within. Not many oxygen breathers
+find this sector of the station comfortable and only
+come here if on business - many of the aliens stare at
+you wondering what that business may be.
+~
+300 8 64
+D0
+The corridor runs west and
+north through the alien sector.
+~
+~
+0 -1 30083
+D1
+Outside ambassadorial quarters.
+~
+~
+0 -1 30086
+S
+#30086
+Inside Alien Sector~
+You are outside the quarters of ambassador Sleng Hurst.
+To the east the corridor continues past another ambassadors
+quarters.
+~
+300 8 64
+D1
+~
+~
+0 -1 30087
+D2
+Ambassador Sleng Horst's quarters.
+~
+door~
+1 -1 30147
+D3
+The corridor turns northward.
+~
+~
+0 -1 30085
+S
+#30087
+Walking through alien sector~
+You are outside the quarters of ambassador Miziri Tal.
+To the west the corridor continues past another ambassadors
+quarters.
+~
+300 8 64
+D1
+The corridor turns northward.
+~
+~
+0 -1 30088
+D2
+Ambassador Miziri Tal's quarters.
+~
+door~
+1 -1 30148
+D3
+The corridor runs past ambassadorial
+quarters.
+~
+~
+0 -1 30086
+D4
+Stairs lead up to another level
+of the alien sector.
+~
+~
+0 -1 30254
+S
+#30088
+Inside the Alien Sector~
+Heading westward through the alien sector the corridor continues
+past the quarters of ambassadors from the league of non-aligned
+worlds.
+~
+300 8 64
+D0
+The passageway splits, leading
+south and east through the
+alien sector.
+~
+~
+0 -1 30089
+D3
+The corridor runs past ambassadorial
+quarters.
+~
+~
+0 -1 30087
+S
+#30089
+A split in the passageway~
+The passageway splits three ways here, heading north past
+the Pak'ma'ra and Gaim ambassadorial quarters, south towards
+other ambassadorial quarters and east towards downbelow - past
+the quarters of the elusive Vorlon ambassador Kosh.
+~
+300 8 64
+D0
+The corridor turns westward.
+~
+~
+0 -1 30090
+D1
+The corridor runs past ambassadorial
+quarters.
+~
+~
+0 -1 30096
+D2
+The corridor turns westward.
+~
+~
+0 -1 30088
+S
+#30090
+A turn in the passageway~
+Heading westward through the alien sector the corridor continues
+past the quarters of ambassadors from the league of non-aligned
+worlds.
+~
+300 8 64
+D2
+The passageway splits, leading
+south and east through the
+alien sector.
+~
+~
+0 -1 30089
+D3
+The corridor runs past alien
+quarters.
+~
+~
+0 -1 30091
+S
+#30091
+Outside alien quarters~
+You are outside quarters for one of non-oxygen breathers
+on the station. Currently the quarters are in use by one
+of the Gaim - an insectiod like race of sentients.
+~
+300 8 64
+D0
+The quarters are inhabited by
+one of the Gaim.
+~
+door~
+1 -1 30094
+D1
+The corridor turns southward.
+~
+~
+0 -1 30090
+D3
+The corridor runs past alien
+quarters.
+~
+~
+0 -1 30092
+S
+#30092
+Outside alien quarters~
+You are outside quarters for one of non-oxygen breathers
+on the station. Currently the quarters are in use by one
+of the Pak'ma'ra - a race of aliens that are carrion eaters.
+Consequently the corridor outside is free of other races -
+the smell of rotting meat driving them away.
+~
+300 8 64
+D0
+An awful smell comes from quarters
+inhabited by one of the Pak'ma'ra.
+~
+~
+1 -1 30093
+D1
+The corridor runs past alien quarters.
+~
+~
+0 -1 30091
+D3
+The corridor turns southward.
+~
+~
+0 -1 30084
+S
+#30093
+Pak'ma'ra's quarters~
+The first thing you notice when you walk into these quarters are the
+smell - disgusting! Then you remember that the Pak'ma'ra are carrion
+eaters and will eat the corpses of any animal, human or alien they can
+get their 'hands' on.
+~
+300 40 64
+D2
+The corridor runs past alien quarters.
+~
+door~
+1 -1 30092
+S
+#30094
+Gaim's quarters~
+The Gaim queens have manipulated the Gaim DNA to produce
+an ambassador Gaim. The ambassador is genetically programmed
+to seek alliances that are advantagous to the gaim and has
+no need of personal possessions. The quarters only hold
+what the ambassador requires to work and live, no items
+giving a hint to the ambassador's personality or mind are
+here.
+~
+300 8 64
+D2
+The corridor runs past alien quarters.
+~
+door~
+1 -1 30091
+S
+#30095
+Ambassador Vlur/Nhar's quarters~
+Ambassador Vlur/Nhar's quarters are cleaner then those of other
+Pak'ma'ra's - though that isn't hard. At least you can't see any dead
+corpses in sight, though the smell of rotting meat still lingers in the air.
+~
+300 8 64
+D2
+The corridor runs past ambassadorial
+quarters.
+~
+door~
+1 -1 30096
+S
+#30096
+Outside ambassador's quarters~
+You are outside the Pak'ma'ra's ambassadors quarters.
+The corridors around the quarters are deserted, and
+the reason is right before your - nose. The smell of
+dead carrion lingers outside the door, leaving you
+gulping for breath.
+~
+300 8 64
+D0
+Ambassador Vlur/Nhar's quarters.
+~
+door~
+1 -1 30095
+D1
+The corridor continues past
+ambassadorial quarters.
+~
+~
+0 -1 30097
+D3
+The corridor splits running
+north and south through the
+alien sector.
+~
+~
+0 -1 30089
+S
+#30097
+Outside Kosh's quarters~
+You are outside the quarters of the Vorlon ambassador, Kosh.
+Kosh is elusive and doesn't like to be disturbed so don't go and
+disturb him without good reason.
+~
+300 8 64
+D0
+~
+door~
+1 -1 30098
+D1
+The corridor turns southward.
+~
+~
+0 -1 30099
+D3
+The corridor runs past ambassadorial
+quarters.
+~
+~
+0 -1 30096
+S
+#30098
+Kosh's quarters~
+Ambassador Kosh's quarters are empty, free of anything that
+could hold a hint about what is going through 'its' mind. The Vorlon
+ambassador spends most of his time here, rarely leaving except
+for council meetings.
+~
+300 136 64
+D2
+The passageway splits, leading
+south and east through the
+alien sector.
+~
+door~
+1 -1 30097
+S
+#30099
+In the alien sector~
+As you walk through the alien sector you receive many
+stares from the aliens within. Not many oxygen breathers
+find this sector of the station comfortable and only
+come here if on business - many of the aliens stare at
+you wondering what that business may be.
+~
+300 8 64
+D2
+The corridor turns eastward.
+~
+~
+0 -1 30100
+D3
+The corridor runs past ambassadorial
+quarters.
+~
+~
+0 -1 30097
+S
+#30100
+Entrance to alien sector~
+You are at the edge of the alien sector. Before continuing
+make sure you are equipped with breathing gear - or be able
+to hold your breath for a LONG time!
+~
+300 8 0
+D0
+The corridor turns westward.
+~
+~
+0 -1 30099
+D1
+The corridor runs through the
+alien sector.
+~
+~
+0 -1 30101
+S
+#30101
+Outside alien sector~
+You are standing outside the alien sector. Be warned, the atmosphere
+in the alien sector is not breathable by many life forms, don't enter
+without protection.
+~
+300 8 16
+D1
+The corridor runs through the
+alien sector.
+~
+~
+0 -1 30102
+D3
+The corridor turns northward.
+~
+~
+0 -1 30100
+S
+#30102
+Down to down below~
+The corridor is quiet, running between the alien sector to the west,
+and downbelow down the stairs. The residents of the two parts of the
+station mingle little and you have the corridor to yourself.
+~
+300 12 0
+D1
+The corridor runs through the
+alien sector.
+~
+~
+0 -1 30105
+D3
+The corridor runs through the
+alien sector.
+~
+~
+0 -1 30101
+S
+#30105
+Near down below~
+You are near the sector of the station referred to by
+its residents as 'downbelow'. Its inhabitants are those
+who came to the station and don't have the money to leave,
+the poor, the disadvantaged - the preyed upon.
+~
+300 8 0
+D1
+A gloomy intersection.
+~
+~
+0 -1 30106
+D3
+The corridor runs through the
+alien sector.
+~
+~
+0 -1 30102
+S
+#30106
+Gloomy intersection~
+An intersection near downbelow splits to the north and
+south. The northern corridor is dusty and dim, with
+no footprints in the dust. The southern corridor has
+footsteps in a thin layer of dust.
+~
+300 9 0
+D0
+The corridor turns eastward.
+~
+~
+0 -1 30107
+D2
+Stairs lead down to downbelow.
+~
+~
+0 -1 30109
+D3
+The corridor runs through the
+alien sector.
+~
+~
+0 -1 30105
+S
+#30107
+Edge of downbelow~
+You are near the edge of 'downbelow', in a passage covered
+with dust, the only tracks besides your own those of small
+animals.
+~
+300 8 0
+D1
+The corridor ends in a dead end.
+~
+~
+0 -1 30108
+D2
+A gloomy intersection.
+~
+~
+0 -1 30106
+S
+#30108
+Sealed passageway~
+This passageway has been sealed off. The welded plates
+holding the seal intact looks old with the seal having
+the same pitted and dirty look of the rest of downbelow.
+~
+300 8 0
+D3
+The corridor turns southward.
+~
+~
+0 -1 30107
+S
+#30109
+Down to lower level~
+Steps lead down from here deeper into the section of the
+station known as downbelow. You can almost feel the misery
+and despair coming from below. Only the desperate and poor
+are forced into downbelow - and those who exploit them.
+~
+300 8 0
+D0
+A gloomy interesection.
+~
+~
+0 -1 30106
+D5
+Stairs lead down deep into downbelow.
+~
+~
+0 -1 30110
+S
+#30110
+Rundown corridor~
+After the clean and well lit corridors of the other sectors
+of the station the gloom and rundown appearance of the
+corridors in downbelow seem excessively harsh to your
+eyes. You can leave the rundown corridors by heading up
+or explore the dimly lit sector to the north.
+~
+300 8 0
+D0
+A rundown passageway.
+~
+~
+0 -1 30111
+D4
+Stairs lead up to a higher level
+of the sector.
+~
+~
+0 -1 30109
+S
+#30111
+Rundown passageway~
+This passageway through downbelow looks much
+like all the others in this sector. The signs of a lack
+of maintenance, and poor lighting are plain to your
+eyes. The passageway continues east in a maze like
+array of corridors through downbelow and back south
+towards the alien sector.
+~
+300 8 0
+D1
+A poorly lit intersection.
+~
+~
+0 -1 30112
+D2
+Stairs leading up to another
+level of the station.
+~
+~
+0 -1 30110
+S
+#30112
+Poorly lit corridor~
+The lights along this corridor are flickering madly, casting
+moving shadows all along the walls. You can hear quiet
+sounds from all around, but can see nothing in the little
+light except entrances leading north, south, east and west
+from here, none lit much more then right here.
+~
+300 8 0
+D0
+Unlit corridor.
+~
+~
+0 -1 30114
+D1
+A corridor through the rundown
+sector.
+~
+~
+0 -1 30127
+D2
+A corridor with pitted walls.
+~
+~
+0 -1 30113
+D3
+A rundown passageway.
+~
+~
+0 -1 30111
+S
+#30113
+Pitted corridor~
+The corridors here are pitted and dented, many of the indentations 
+look like they have been caused by heavy objects thrown or banged
+against the walls. Looking down you can see a small smear of blood
+at the bottom of one of the walls, the blood still glistening. Dirty
+footprints in the dust lead to both the east and north, giving you no clue
+as to what way the victim has left.
+~
+300 8 0
+D0
+A poorly lit intersection.
+~
+~
+0 -1 30112
+D1
+A corridor with broken walls.
+~
+~
+0 -1 30128
+S
+#30114
+Unlit corridor~
+The lights in this corridor have stopped working completely, you can
+see dim lights to the south and north, but the walls around you are
+cloaked in darkness. The darkness doesn't stop you hearing the sounds
+of small animals running along the floor, or the faint sound of screams
+in the distance.
+~
+300 8 0
+D0
+A gloomy passageway.
+~
+~
+0 -1 30115
+D2
+A poorly lit intersection.
+~
+~
+0 -1 30112
+S
+#30115
+Gloomy passageway~
+The gloomy passageways and rundown corridors of downbelow
+suit well the people forced to live in this sector of the station. Pitiful
+faces with the desire to continue living gone out of many of them.
+Around you and back to the south and north you can here the sound
+of scurrying feet and soft weeping as the residents here try to eak out
+some sort of existance.
+~
+300 8 0
+D0
+An intersection is shrouded in shadows.
+~
+~
+0 -1 30118
+D2
+A corridor without light.
+~
+~
+0 -1 30114
+S
+#30116
+Chapel~
+The chapel here is try to bring some sort of meaning back into the
+lives of the residents of downbelow. Brothers Theo and Edward
+seek to help the most downtrodden of the station, and help them
+give their lives meaning through faith.
+~
+300 152 0
+D0
+Outside the Chapel.
+~
+~
+0 -1 30117
+S
+#30117
+Outside Chapel~
+The corridor here is clean and well lit, with no lurkers begging
+for help. You stand outside a small chapel. From within you can
+here the sound of voices raised in prayer.
+~
+300 8 0
+D1
+An intersection is shrouded in shadows.
+~
+~
+0 -1 30118
+D2
+A chapel run by monks provides
+solace to the residents of downbelow.
+~
+~
+0 -1 30116
+S
+#30118
+Shrouded intersection~
+The intersection is here is shrouded in shadows, with half
+the overhead lights broken, bits of glass scattered at your
+feet. The corridors play tricks with your hearing, you hear
+the same voices appearing to come from the exits to the
+east, south and west as you turn around.
+~
+300 9 0
+D1
+The passageway turns to the
+north.
+~
+~
+0 -1 30119
+D2
+A passage is cloaked in gloom.
+~
+~
+0 -1 30115
+D3
+Outside the Chapel.
+~
+~
+0 -1 30117
+S
+#30119
+Turn in the passageway~
+A turn in the passageway lead west and north, but you are beginning
+to be disoriented by all the twists and turns in the corridors down here.
+~
+300 8 0
+D0
+The corridor passes by quarters.
+~
+~
+0 -1 30120
+D3
+An intersection is shrouded
+in shadows.
+~
+~
+0 -1 30118
+S
+#30120
+Outside quarters~
+You stand outside some rundown quarters. You can get quarters here
+in downbelow if you are short of credits, but don't leave anything behind
+when you leave or it will be gone within minutes.
+~
+300 8 0
+D0
+Rundown quarters with damaged
+facilities and rotting food within it.
+~
+~
+0 -1 30123
+D1
+The corridor turns southwards.
+~
+~
+0 -1 30121
+D2
+The corridor turns west.
+~
+~
+0 -1 30119
+S
+#30121
+Shadowed turn~
+Your eyes are strained from all the poorly lit corridors and rooms
+throughtout downbelow, this passageway leads west and south from
+here, but you are no longer sure whether you can find your way
+out again.
+~
+300 8 0
+D2
+A gloomy intersection.
+~
+~
+0 -1 30122
+D3
+The corridor passes quarters for
+hire.
+~
+~
+0 -1 30120
+S
+#30122
+Gloomy intersection~
+The intersection is here is shrouded in gloom, with half
+the overhead lights broken, bits of glass scattered at your
+feet. The corridors play tricks with your hearing, you hear
+the same voices appearing to come from the exits to the
+east, south and west as you turn around.
+~
+300 9 0
+D0
+The corridor turns westward.
+~
+~
+0 -1 30121
+D1
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30132
+D2
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30124
+S
+#30123
+Rundown quarters~
+These quarters are the worst you've seen yet on the station,
+the lights are broken, the bed smashed and the door stuck
+open, unable to be closed properly.
+~
+300 264 0
+D2
+A turn in the corridor.
+~
+~
+0 -1 30120
+S
+#30124
+Lost in downbelow~
+North, south, every way looks the same. Down each passage
+the poor and those preying on them wander aimlessly, hope
+long gone from their eyes.
+~
+300 8 0
+D0
+A gloomy intersection.
+~
+~
+0 -1 30122
+D2
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30125
+S
+#30125
+Lost in downbelow~
+North, south, every way looks the same. Each corridor
+is dim, many filled with the sound of soft weeping. 
+~
+300 8 0
+D0
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30124
+D1
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30131
+D2
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30126
+S
+#30126
+Lost in downbelow~
+Wandering through downbelow looking for your way out you
+find no help forthcoming. Those that are weak shy away
+from you fearing harm, those that are strong seek to exploit
+a potential weakness.
+~
+300 8 0
+D0
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30125
+D1
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30130
+D2
+A corridor is badly damaged.
+~
+~
+0 -1 30129
+D3
+The corridor is rundown.
+~
+~
+0 -1 30127
+S
+#30127
+Rundown sector~
+Rundown, neglected, best ignored, these and many things
+like it have been said referring to this sector of the
+station. Those that are smart stay in the more comfortable
+sectors of the station, enjoying all it has to offer.
+~
+300 8 0
+D1
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30126
+D2
+A corridor with broken walls.
+~
+~
+0 -1 30128
+D3
+A poorly lit intersection.
+~
+~
+0 -1 30112
+S
+#30128
+Broken walls~
+All of downbelow is rundown and neglected compared to the
+rest of the station, but this corridor has been the victim
+of recent petty vandalism. Some vagrants have pried the 
+plates of the wall exposing structural beams, drag marks
+on the floor suggesting the thievies have taken the plates
+to either sell or use as shelter.
+~
+300 8 0
+D0
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30127
+D1
+A damaged passageway.
+~
+~
+0 -1 30129
+D3
+The walls of the corridor are
+pitted.
+~
+~
+0 -1 30113
+S
+#30129
+Damaged passageway~
+The damage to the southern wall that starts somewhere to
+the west continues along this passageway, the structural
+beams the wall plates are attached to visible in parts,
+but the plates here are still on the ground, the 'wall
+thievies' having left the job half finished - or been
+scared off.
+~
+300 8 0
+D0
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30126
+D3
+The walls of the passage have
+been broken.
+~
+~
+0 -1 30128
+S
+#30130
+Lost in downbelow~
+North, east, west, every way looks the same. Down each passage
+the poor and those preying on them wander aimlessly, hope
+long gone from their eyes.
+~
+300 8 0
+D0
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30131
+D1
+A corridor running through
+downbelow.
+~
+~
+0 -1 30136
+D3
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30126
+D5
+Stairs lead down to a lower
+level corridor.
+~
+~
+0 -1 30243
+S
+#30131
+Lost in downbelow~
+East, west, south, every way looks the same. Down each passage
+the poor and those preying on them wander aimlessly, hope
+long gone from their eyes.
+~
+300 8 0
+D1
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30135
+D2
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30130
+D3
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30125
+S
+#30132
+Wandering through downbelow~
+Wandering through downbelow through twisting corridors
+with directions long since removed you feel like your
+head is spinning when you try to figure out how to get
+out.
+~
+300 8 0
+D1
+The corridor turns southward.
+~
+~
+0 -1 30133
+D3
+A gloomy intersection.
+~
+~
+0 -1 30122
+S
+#30133
+Turn in corridor~
+Standing at a corner, you are disgusted to see rats
+crawling through debris piled knee high in one corner,
+the sickly sweet smell of vomit hanging in the air. You
+almost gag before taking a deep breath and preparing to
+leave the area hastily.
+~
+300 8 0
+D2
+~
+~
+0 -1 30134
+D3
+~
+~
+0 -1 30132
+S
+#30134
+Poorly lit intersection~
+The intersection is here is shrouded in gloom, with half
+the overhead lights broken, bits of glass scattered at your
+feet. The corridors play tricks with your hearing, you hear
+the same voices appearing to come from the exits to the
+east, south and north as you turn around.
+~
+300 9 0
+D0
+The corridor turns westward.
+~
+~
+0 -1 30133
+D1
+The corridor is rundown.
+~
+~
+0 -1 30146
+D2
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30135
+S
+#30135
+Wandering through downbelow~
+Wandering aimlessly down corridors that all have the same
+feel of despair is making you depressed, you'll be glad
+to meet return to where the people don't stare at you with
+hate or fear.
+~
+300 8 0
+D0
+A poorly lit intersection.
+~
+~
+0 -1 30134
+D2
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30136
+D3
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30131
+S
+#30136
+In downbelow~
+Rundown, neglected, best ignored, these and many things
+like it have been said referring to 'downbelow'. 
+Those that are smart stay in the more comfortable
+sectors of the station, enjoying all it has to offer.
+~
+300 8 0
+D0
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30135
+D2
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30137
+D3
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30130
+S
+#30137
+Outside hovel~
+You are outside a pitiful hovel a lurker is living in.
+A scurrying movement from the hovel catches your eye
+and you see what appears to be all rags turn and a pair
+of frightened eyes look furitively in your direction.
+~
+300 8 0
+D0
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30136
+D1
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30139
+D2
+A rundown hovel.
+~
+~
+0 -1 30138
+S
+#30138
+Hovel~
+Discarded clothing, broken pipes and wiring make a pitiful
+hovel for one of the lurkers to sleep in. As you look in
+the lurker hides his face and draws his few possessions
+close by.
+~
+300 8 0
+D0
+A rundown corridor.
+~
+~
+0 -1 30137
+S
+#30139
+Downbelow~
+Misery, despair, envy and fear - the very air seems to
+make you shiver even when no one is in sight.
+~
+300 8 0
+D1
+An intersection is cluttered with
+junk.
+~
+~
+0 -1 30140
+D3
+The corridor passes by a pitiful
+hovel.
+~
+~
+0 -1 30137
+S
+#30140
+Cluttered intersection~
+A drum filled with old paper and bits of cloth is making
+a fire that several people are clustered around seeking
+warmth. The fire sensors in the room have been removed
+long ago to sell on the stations small black market.
+~
+300 8 0
+D0
+A rundown corridor.
+~
+~
+0 -1 30143
+D1
+Stairs lead up to another level
+of the station.
+~
+~
+0 -1 30142
+D2
+A sleazy dive sells cheap alcohol
+for the residents to drown their
+sorrows in.
+~
+~
+0 -1 30141
+D3
+Another passage in downbelow
+- they all look alike to you.
+~
+~
+0 -1 30139
+S
+#30141
+Sleazy Dive~
+Dusty floors and dirty glasses behind the bar, don't inspire confidence
+in the quality of either the service or the drinks served here. The barkeep
+looks more interested in catching some sleep then serving you, the bar
+in front looks like it hasn't been rubbed down in weeks. Buy a drink
+here at your own peril.
+~
+300 136 0
+D0
+~
+~
+0 -1 30140
+S
+#30142
+Leaving down below~
+You breath a deep sigh of relief as you stand on the edge
+of downbelow, escaping the misery which seems to have taken
+on a life of its own that moves along every corridor in the
+sector.
+~
+300 8 0
+D3
+An intersection is cluttered with
+junk.
+~
+~
+0 -1 30140
+D4
+Stairs lead up to another level
+of the station.
+~
+~
+0 -1 30193
+S
+#30143
+Rundown corridor~
+Scrawled on the wall of one corridor is a desperate plea by
+one of the residents - "May god have mercy and let
+me die"
+~
+300 8 0
+D0
+A passage way is cloaked in
+shadows.
+~
+~
+0 -1 30144
+D2
+An intersection is cluttered with
+junk.
+~
+~
+0 -1 30140
+S
+#30144
+Shadowy passage~
+The passage is shadowed, the floor dusty and the atmosphere
+chilly, the heating and lighting works fitfully at best
+along this corridor.
+~
+300 9 0
+D0
+The corridor turns westward.
+~
+~
+0 -1 30145
+D2
+A rundown corridor.
+~
+~
+0 -1 30143
+S
+#30145
+Poorly lit corridor~
+All lights along the corridor except one have been smashed,
+and even the one working has a cracked casing. None of the
+casings are on the ground - this bit of petty vandalism has
+long since been forgotten.
+~
+300 9 0
+D2
+A passage way is cloaked in
+shadows.
+~
+~
+0 -1 30144
+D3
+A rundown corridor.
+~
+~
+0 -1 30146
+S
+#30146
+Rundown corridor~
+Along the corridor buckeled plates and a live wire hangs
+from the roof, sparks occasionally leaping from the end.
+~
+300 8 0
+D1
+The corridor turns southward.
+~
+~
+0 -1 30145
+D3
+A poorly lit intersection.
+~
+~
+0 -1 30134
+S
+#30147
+Ambassador Sleng Horst's Quarters~
+Ambassador Sleng Horst represents the Hurr, but like most
+officials of their government he is looking out for his
+own self interests first and his people's a distant second.
+Unsigned trade agreements and officials papers are beneath
+a pile of cards and a drink - the ambassador off to the
+casino again soon.
+~
+300 24 0
+D0
+The corridor runs past ambassadorial
+quarters.
+~
+door~
+1 -1 30086
+S
+#30148
+Ambassador Miziri Tal's Quarters~
+The quarters of the the Hyach ambassador look like a small
+library. The Hyach are a scholarly people and the ambassador
+is eager to learn all that he can about other races and their
+cultures, with books and manuscripts from 10 worlds covering
+table, chairs and part of the ambassadors bed.
+~
+300 8 0
+D0
+The corridor runs past ambassadorial
+quarters.
+~
+door~
+1 -1 30087
+S
+#30149
+Turbo Lift - Green 14~
+The light for level 14 of Green sector lights up. You can travel up or down
+to other levels in Green sector, this level currently is closed for maintenance.
+~
+300 264 0
+D4
+The Turbo Lift can take you up
+to Green 15.
+~
+~
+0 -1 30150
+D5
+The Turbo Lift can take you down
+to Green 13.
+~
+~
+0 -1 30016
+S
+#30150
+Turbo Lift - Green 15~
+The light for level 15 of Green sector lights up. You can travel up or down
+to other levels in Green sector, this level currently is closed for maintenance.
+~
+300 264 0
+D4
+The Turbo Lift can take you up
+to Green 16.
+~
+~
+0 -1 30025
+D5
+The Turbo Lift can take you down
+to Green 14.
+~
+~
+0 -1 30149
+S
+#30151
+Turbo Lift - Green 8~
+The lights for Green 8 light up above the lift door, but this
+level of Green sector is currently closed to the general public.
+~
+300 776 0
+D4
+The Turbo lift can take you up
+to Green 9.
+~
+~
+0 -1 30153
+D5
+The Turbo Lift can take you down
+to Green 7.
+~
+~
+0 -1 30152
+S
+#30152
+Turbo Lift - Green 7~
+The lights for Green 7 light up above the lift door, but this
+level of Green sector is currently closed to the general public.
+~
+300 776 0
+D4
+The Turbo Lift can take you
+up to Green 8.
+~
+~
+0 -1 30151
+D5
+The turbo lift can take you down
+to Green 6.
+~
+~
+0 -1 30156
+S
+#30153
+Turbo Lift - Green 9~
+You have reached Level 9 of Green Sector. This level holds
+the Council chambers where ambassadors hold their assemblies.
+~
+300 776 0
+D3
+Outside the council chambers.
+~
+~
+0 -1 30154
+D4
+The Turbo lift can take you up
+to Green 10.
+~
+~
+0 -1 30158
+D5
+The Turbo lift can take you down
+to Green 8.
+~
+~
+0 -1 30151
+S
+#30154
+Outside chambers~
+You are outside the Council Chambers. Entry is barred to
+only diplomatic personnel, usually ambassadors and the
+station command staff.
+~
+300 8 0
+D0
+The Babylon 5 advisory councils
+chambers.
+~
+door chambers~
+1 -1 30155
+D1
+The turbo lift through green sector.
+~
+~
+0 -1 30153
+S
+#30155
+Council chambers~
+The council chambers are arranged into two parts. A shallow
+C shaped table has five seats for the five major powers -
+Humans, Minbari, Centauri, Narn and Vorlon (although ambassador
+Kosh always hovers in 'its' encounter suit). Facing the table
+are many seats for the various ambassadors of the League of
+non-aligned worlds.
+~
+300 24 0
+D2
+Outside the Turbo lift for Green 9.
+~
+door chambers~
+1 -1 30154
+S
+#30156
+Turbo Lift - Green 6~
+The light for level 6 of Green sector lights up, this level of Green sector
+hold quarters for alien races that breath a different atmosphere to that
+used by humans.
+~
+300 776 0
+D2
+Near the alien sector.
+~
+~
+0 -1 30157
+D4
+The turbo lift can take you up
+to Green 7.
+~
+~
+0 -1 30152
+D5
+The turbo lift can take you
+down to Green 5.
+~
+~
+0 -1 30261
+S
+#30157
+Near alien sector~
+Outside the turbo lift for Green 6 you are in a wide corridor
+leading to the 'alien sector' of the station.
+~
+300 8 0
+D0
+A turbo lift through green sector.
+~
+~
+0 -1 30156
+D1
+Near the alien sector.
+~
+~
+0 -1 30081
+S
+#30158
+Turbo Lift - Green 10~
+The lights for Green 10 light up above the lift door, but this
+level of Green sector is currently closed to the general public.
+~
+300 776 0
+D4
+The Turbo Lift can take you up
+to Green 11.
+~
+~
+0 -1 30159
+D5
+The Turbo Lift can take you down
+to Green 9.
+~
+~
+0 -1 30153
+S
+#30159
+Turbo Lift - Green 11~
+The Turbo Lift has stopped at Green 11. This level of Green
+sector houses the Minbari diplomatic staff. Access is restricted
+to diplomatic staff and station personnel.
+~
+300 776 0
+D3
+The corridor runs north and
+west past Minbari quarters.
+~
+~
+0 -1 30255
+D4
+The Turbo lift can take you up
+to Green 12.
+~
+~
+0 -1 30008
+D5
+The Turbo Lift can take you down
+to Green 10.
+~
+~
+0 -1 30158
+S
+#30160
+Gray sector~
+Gray sector - not the hive of activity that red sector
+is, or the seriousness of blue and green sector, Gray 
+sector is a choice of those who's funds aren't unlimited
+and who's tastes are more restrained.
+~
+300 8 0
+D0
+The corridor heads past small
+quarters for hire.
+~
+~
+0 -1 30162
+D2
+The corridor heads out of
+Gray sector.
+~
+~
+0 -1 30049
+S
+#30162
+Outside living quarters~
+The living quarters for hire are neat, tidy - and tiny!
+You could barely fit in them without banging your elbows
+on the walls, but they are cheap at least.
+~
+300 8 0
+D0
+The corridor heads past small
+quarters for hire.
+~
+~
+0 -1 30165
+D2
+The corridor heads out of
+Gray sector.
+~
+~
+0 -1 30160
+D3
+A small set of quarters for hire.
+~
+door~
+1 -1 30163
+S
+#30163
+Living quarters~
+These living quarters are habitable at least, the sheets
+clean and the water fresh - just don't expect to be able
+to hold any parties here, you barely have room to move
+about with just yourself in the room.
+~
+300 520 0
+D1
+The corridor runs past small
+quarters.
+~
+door~
+1 -1 30162
+S
+#30164
+Living quarters~
+These living quarters are habitable at least, the sheets
+clean and the water fresh - just don't expect to be able
+to hold any parties here, you barely have room to move
+about with just yourself in the room.
+~
+300 520 0
+D1
+The corridor runs past small
+quarters.
+~
+door~
+1 -1 30165
+S
+#30165
+Outside living quarters~
+The living quarters for hire are neat, tidy - and tiny!
+You could barely fit in them without banging your elbows
+on the walls, but they are cheap at least.
+~
+300 8 0
+D0
+An intersection in the corridor
+heads north towards security,
+and west towards maintenance.
+~
+~
+0 -1 30166
+D2
+The corridor heads past small
+quarters for hire.
+~
+~
+0 -1 30162
+D3
+A small set of quarters for hire.
+~
+door~
+1 -1 30164
+S
+#30166
+Gray 2~
+Security guards head past dragging a screaming drunk.
+Before you can avoid his eyes, he screams at you "Help me!
+Help me!"
+~
+300 8 0
+D0
+Stairs lead down to station
+security.
+~
+~
+0 -1 30167
+D2
+The corridor heads past small
+quarters for hire.
+~
+~
+0 -1 30165
+D3
+The corridor heads towards
+maintenance.
+~
+~
+0 -1 30168
+S
+#30167
+Outside security~
+Steps lead down to one of the stations security houses - 
+a monitoring center that keeps track of all the major
+areas in the sector, interogation room and cells for those
+caught breaking the laws of the station.
+~
+300 8 0
+D2
+The corridor runs south and
+west through Gray sector.
+~
+~
+0 -1 30166
+D5
+Stairs lead down to one of the
+station security areas.
+~
+~
+0 -1 30057
+S
+#30168
+In Gray 2~
+This area of Gray sector has few quarters for rent, most
+of the area given over to maintenance facilities.
+~
+300 8 0
+D1
+The corridor ends at an intersection,
+running north and south.
+~
+~
+0 -1 30166
+D3
+The corridor turns northward.
+~
+~
+0 -1 30169
+S
+#30169
+Maintenance panel~
+A futuristic of a grease-monkey is busy here with his
+head hidden behind an access panel. You make the mistake
+of saying hello - the worker jumps and bangs his head on
+the way out. He looks at you and says "DON'T EVER DO THAT!"
+~
+300 8 0
+D0
+The corridor turns westward.
+~
+~
+0 -1 30170
+D1
+The corridor heads east through
+Gray sector.
+~
+~
+0 -1 30168
+D5
+A  maintenance plate looks
+like it could be worked lose
+with some effort.
+~
+plate~
+1 -1 30000
+S
+#30170
+Outside maintenance~
+This is a restricted area, part of station maintenance.
+An airlock out onto the surface of the station is nearby. 
+~
+300 8 0
+D2
+The corridor turns eastward.
+~
+~
+0 -1 30169
+D3
+The corridor runs past maintenance,
+toward an airlock.
+~
+~
+0 -1 30039
+S
+#30171
+To customs~
+The corridor leads between customs and red sector and is
+crowded with passengers who have disembarked from a
+shuttle just arrived from the colony of Io.
+~
+300 8 0
+D1
+The corridor leads towards
+the Red and Blue sectors of
+the station.
+~
+~
+0 -1 30172
+D3
+The corridor heads west towards
+an intersection.
+~
+~
+0 -1 30051
+S
+#30172
+To red 4~
+Stairs lead up to Red 4 - where you can go browse through
+the Bazaar - the stations version of a mall and flea market
+rolled into one.
+~
+300 8 0
+D1
+~
+~
+0 -1 30175
+D2
+The corridor heads towards
+blue sector.
+~
+~
+0 -1 30173
+D3
+The corridor leads towards the
+departure lounge.
+~
+~
+0 -1 30171
+D4
+Stairs lead up to another
+level of red sector.
+~
+~
+0 -1 30196
+S
+#30173
+To blue sector~
+South along the corridor you can enter Blue sector - blue
+sector contains station C&C, Medlab, Leisure halls, Banquet
+halls and conference areas.
+~
+300 8 0
+D0
+The corridor heads towards
+Red sector and the departure
+lounge.
+~
+~
+0 -1 30172
+D2
+The corridor heads towards
+blue sector.
+~
+~
+0 -1 30174
+S
+#30174
+To blue sector~
+Blue sector is clean, the corridors quickly cleared of
+troublemakers. Station officers walk past, much of the
+station is run from blue sector, including C&C.
+~
+300 8 0
+D0
+The corridor heads towards
+Red sector and the departure
+lounge.
+~
+~
+0 -1 30173
+D2
+The corridor heads towards
+blue sector.
+~
+~
+0 -1 30230
+S
+#30175
+Red 3~
+The corridor winds through Red sector, near the edge of the
+sector and close by customs. Several businessmen pass by
+deep in conversation on the way to one of the conference
+rooms.
+~
+300 8 0
+D1
+The corridor runs north-south
+through the sector.
+~
+~
+0 -1 30176
+D3
+The corridor runs south and
+west through Red 3.
+~
+~
+0 -1 30172
+S
+#30176
+Red sector - Level 3~
+A busy intersection leads north, south and west. To the
+west you can go to customs or blue sector, south towards
+the garden or north past banquet halls and conference
+rooms.
+~
+300 8 0
+D0
+The corridor runs eastward.
+~
+~
+0 -1 30180
+D2
+The Casino, where you can
+bet on games from dozens
+of different worlds.
+~
+~
+0 -1 30177
+D3
+The corridor runs through
+Red 3.
+~
+~
+0 -1 30175
+S
+#30177
+Casino~
+Games from earth and other worlds are been played by loud
+and boisterous aliens from all over this part of the galaxy.
+Several bars sell drinks to the gamblers hoping to dull
+their wits and help stack the odds in the houses favour.
+~
+300 136 0
+D0
+The corridor splits, heading
+north and west.
+~
+~
+0 -1 30176
+D1
+Part of the casino.
+~
+~
+0 -1 30178
+S
+#30178
+Casino~
+Games from earth and other worlds are been played by loud
+and boisterous aliens from all over this part of the galaxy.
+Several bars sell drinks to the gamblers hoping to dull
+their wits and help stack the odds in the houses favour.
+~
+300 136 0
+D2
+Stairs lead up to the Garden.
+~
+~
+0 -1 30179
+D3
+Part of the casino.
+~
+~
+0 -1 30177
+S
+#30179
+To the garden~
+This corridor is leading towards the Garden. The Garden
+holds plants and flowers from a dozen different worlds,
+and is one of the most popular places to see on Babylon 5.
+~
+300 8 0
+D0
+The corridor turns westward
+into the Casino.
+~
+~
+0 -1 30178
+D4
+Stairs lead up to the Garden.
+~
+~
+0 -1 30068
+S
+#30180
+Passage in Red 3~
+You are walking through Red sector - Level 3. Red sector
+has many areas popular with visitors to the station - the
+casino, bazaar and the concourse.
+~
+300 8 0
+D1
+The corridor heads past several
+banquet halls that can be hired.
+~
+~
+0 -1 30181
+D2
+The corridor splits, running
+west and south.
+~
+~
+0 -1 30176
+S
+#30181
+Outside hall~
+You are outside one of the great banquet halls on the
+station. Banquet halls can be hired by anyone - provided
+you have a lot of cash.
+~
+300 8 0
+D0
+A banquet hall that can be hired
+for parties.
+~
+~
+0 -1 30182
+D1
+The corridor heads past several
+banquet halls that can be hired.
+~
+~
+0 -1 30184
+D3
+~
+~
+0 -1 30180
+S
+#30182
+Banquet Hall~
+The station hold several grand banquet halls that can
+be hired out for parties. This is one of them. Grand
+chandeliers and trestle tables are laid out, workers
+laying out food in preparation for a celebration of
+some sort.
+~
+300 8 0
+D2
+The corridor heads past several
+banquet halls that can be hired.
+~
+~
+0 -1 30181
+S
+#30183
+Banquet Hall~
+The station hold several grand banquet halls that can
+be hired out for parties. This hall is currently empty.
+~
+300 8 0
+D2
+The corridor heads past several
+banquet halls that can be hired.
+~
+~
+0 -1 30184
+S
+#30184
+Outside Hall~
+You are outside one of the great banquet halls on the
+station. Banquet halls can be hired by anyone - provided
+you have a lot of cash.
+~
+300 8 0
+D0
+A banquet hall that can be hired
+for parties.
+~
+~
+0 -1 30183
+D1
+~
+~
+0 -1 30186
+D2
+A banquet hall that can be hired
+for parties.
+~
+door~
+1 -1 30185
+D3
+The corridor heads past several
+banquet halls that can be hired.
+~
+~
+0 -1 30181
+S
+#30185
+Banquet Hall~
+The station hold several grand banquet halls that can
+be hired out for parties. This hall is currently empty.
+~
+300 8 0
+D0
+The corridor heads past several
+banquet halls that can be hired.
+~
+door~
+1 -1 30184
+S
+#30186
+Conference area~
+Located deep in neutral territory and housing dozens
+of aliens races at any one time, Bablyon 5 is a meeting
+place for business-beings from dozens of worlds and colonies,
+hawking goods you've never even heard of, let alone ever
+seen.
+~
+300 8 0
+D1
+The corridor heads past conference
+rooms used by traders.
+~
+~
+0 -1 30187
+D3
+The corridor heads past several
+banquet halls that can be hired.
+~
+~
+0 -1 30184
+S
+#30187
+Conference area~
+Babylon 5's location in neutral territory makes it an
+ideal port of call for business and trade. Private meeting 
+rooms for sensitive business are to the north and south.
+~
+300 8 0
+D0
+A conference room used by
+traders visiting the station.
+~
+door~
+1 -1 30189
+D1
+Stairs lead up to the concourse.
+~
+~
+0 -1 30188
+D2
+A conference room used by
+traders visiting the station.
+~
+~
+0 -1 30190
+D3
+The corridor heads westwards
+towards banquet halls that
+can be hired.
+~
+~
+0 -1 30186
+S
+#30188
+To concourse~
+Steps lead up to the concourse that runs along the core
+of the station. Back down the corridor trade between aliens
+and humans is conducted at frentic pace, as if there just
+aren't enough hours in the day to accomplish all their
+dealings.
+~
+300 8 0
+D3
+The corridor continues past
+several conference rooms.
+~
+~
+0 -1 30187
+D4
+Stairs lead up to the concourse.
+~
+~
+0 -1 30204
+S
+#30189
+Conference room~
+A Narn and Centauri are here doing business, each looking
+like they would rather have their hands wrapped around the
+others throat. A security guard hovers unobtrusively nearby
+ensuring that the long standing hatred between the two races
+doesn't get out of hand.
+~
+300 520 0
+D2
+The corridor runs east-west
+past conference rooms and
+banquet halls.
+~
+door~
+1 -1 30187
+S
+#30190
+Conference room~
+As you enter the room a Drazi and Narn shake hands and push
+past you with muttered curses, questioning the parentage
+of anyone stupid enough to stand in a doorway while people
+are trying to leave a room.
+~
+300 520 0
+D0
+The corridor runs east-west
+past conference rooms and
+banquet halls.
+~
+~
+0 -1 30187
+S
+#30191
+Brown 5~
+A busy corridor from the departure lounge leads into Brown
+sector, one of the less reputable sectors of the station.
+~
+300 8 0
+D1
+The corridor turns southwards.
+~
+~
+0 -1 30192
+D3
+The corridor leads towards
+Customs and the departure
+lounge.
+~
+~
+0 -1 30055
+S
+#30192
+Brown sector - Level 5~
+The corridor heads west towards Customs and south further
+into Brown sector. A pitiful looking waif in the corner
+begs you for cash as you walk past.
+~
+300 8 0
+D2
+Stairs lead down to downbelow.
+~
+~
+0 -1 30193
+D3
+The corridor leads towards
+Customs and the departure
+lounge.
+~
+~
+0 -1 30191
+S
+#30193
+To down below~
+Steps lead down towards the area of the station known
+collaqually as 'downbelow'. Few reside there by choice
+except small time thugs, most of the residents driven there
+after running out of money and unable to afford to leave
+the station.
+~
+300 8 0
+D0
+The corridor turns westward.
+~
+~
+0 -1 30192
+D5
+Stairs lead to the area of
+the station known as downbelow.
+~
+~
+0 -1 30142
+S
+#30196
+To Red 3~
+The corridor leads into the Bazaar - the stations
+marketplace and one of its trade centers.
+~
+300 8 0
+D0
+The corridor turns eastward.
+~
+~
+0 -1 30197
+D5
+Stairs lead down to Red 3.
+~
+~
+0 -1 30172
+S
+#30197
+Red Sector - Level 4~
+Boisterous shouting and baterring from the Bazaar
+carries to the corridor you are walking down. 
+~
+300 8 0
+D1
+The corridor turns northward.
+~
+~
+0 -1 30198
+D2
+Stairs lead down to Red 3.
+~
+~
+0 -1 30196
+S
+#30198
+Red 4~
+Crowds spread down from the southern edge of the Bazaar
+and into the corridor crowding around stalls looking
+for goods to buy.
+~
+300 8 0
+D0
+The Bazaar.
+~
+~
+0 -1 30199
+D3
+The corridor turns southward.
+~
+~
+0 -1 30197
+S
+#30199
+Bazaar~
+The Bazaar is the stations market, flea garden, mall all
+rolled into one. A press of bodies human and alien wander
+through the stalls looking for bargains from a hundred
+worlds.
+~
+300 0 0
+D0
+The Bazaar.
+~
+~
+0 -1 30201
+D1
+The Bazaar.
+~
+~
+0 -1 30200
+D2
+The corridor turns westward.
+~
+~
+0 -1 30198
+S
+#30200
+Bazaar~
+Human, Narn, Centauri, Drazi and other shopkeepers all
+shout out in a dozen tongues calling people to come
+see and buy their wears. You can't hear people more then
+a few feet away above all the noise. 
+~
+300 0 0
+D0
+The Bazaar.
+~
+~
+0 -1 30202
+D3
+The Bazaar.
+~
+~
+0 -1 30199
+S
+#30201
+Bazaar~
+A drazi shopkeeper is running a small stall selling 
+momento's of the station. A large model of the station
+rotates slowly on a stand, lit up like the station at
+night.
+~
+300 0 0
+D1
+The Bazaar.
+~
+~
+0 -1 30202
+D2
+The Bazaar.
+~
+~
+0 -1 30199
+S
+#30202
+Bazaar~
+Standing still in the crowds, people jostle past you,
+many glaring in your direction. You hear a few comments
+questioning your heritage muttered, by people you are
+standing in the way off.
+~
+300 0 0
+D0
+Stairs lead up to the Garden.
+~
+~
+0 -1 30203
+D2
+The Bazaar.
+~
+~
+0 -1 30200
+D3
+The Bazaar.
+~
+~
+0 -1 30201
+S
+#30203
+To the garden~
+The corridor leads to near the Garden - a display of planet
+life from worlds across this part of the galaxy.
+~
+300 0 0
+D2
+The Bazaar.
+~
+~
+0 -1 30202
+D4
+Stairs lead up to the Garden.
+~
+~
+0 -1 30080
+S
+#30204
+To red 4~
+Stairs lead back down into Red 4 and away from the core
+of the station.
+~
+300 8 0
+D1
+A concourse runs along the
+core of the station.
+~
+~
+0 -1 30205
+D5
+Stairs lead down from the
+concourse.
+~
+~
+0 -1 30188
+S
+#30205
+Concourse~
+The concourse runs along the core of the station, open to
+the air. You can see for miles down the centre of the station.
+~
+300 0 0
+D1
+The concourse continues along
+the length of red sector.
+~
+~
+0 -1 30206
+D3
+Stairs lead down from the
+concourse.
+~
+~
+0 -1 30204
+S
+#30206
+Concourse~
+Lights on the other side of the station glitter like
+stars seen from a distance. A core shuttle high above
+runs from one of the station to the other taking people
+from one sector to another rapidly.
+~
+300 0 0
+D1
+The concourse continues along
+the length of red sector.
+~
+~
+0 -1 30207
+D3
+The concourse continues along
+the length of red sector.
+~
+~
+0 -1 30205
+S
+#30207
+Concourse~
+The concourse runs along the center of the station and
+along the top of red sector. Travellers, station personnel
+and residents all use the concourse as a quick means of
+travelling through the station, without having to navigate
+a maze of corridors.
+~
+300 0 0
+D1
+The concourse continues along
+the length of red sector.
+~
+~
+0 -1 30208
+D3
+The concourse continues along
+the length of red sector.
+~
+~
+0 -1 30206
+S
+#30208
+To garden~
+The concourse opens onto the garden, a bloom of colour
+and smells that assaults your senses, almost overpoweringly
+strong.
+~
+300 0 0
+D1
+The concourse continues along
+the length of red sector.
+~
+~
+0 -1 30076
+D3
+The concourse continues along
+the length of red sector.
+~
+~
+0 -1 30207
+S
+#30209
+Docking Bay 1~
+A shuttle bound from Babylon 5 leaves soon for the moon.
+GO into the shuttle if you want to leave the station. 
+~
+300 0 0
+D0
+~
+~
+0 -1 30210
+S
+#30210
+Docking area~
+Passengers waiting to board a shuttle to the Moon from the
+docking bay to the south are lined up ready for boarding.
+~
+300 8 0
+D1
+The stations docking bays.
+~
+~
+0 -1 30211
+D2
+A shuttle bound for earth
+is boarding.
+~
+~
+0 -1 30209
+S
+#30211
+Docking~
+This part of the docking bay is slightly quieter, many
+of the docking bays taken up on a permanent basis by
+diplomatic transports.
+~
+300 8 0
+D0
+A Minbari flyer is permanently
+in docking bay 3 except when 
+been used by ambassador
+Delenn.
+~
+~
+0 -1 30212
+D1
+The stations docking bays.
+~
+~
+0 -1 30213
+D3
+The stations docking bays.
+~
+~
+0 -1 30210
+S
+#30212
+Docking bay 3~
+A minbari flyer is docked in this bay, left unused except
+when Ambassador Delenn, needs to use it for diplomatic
+purposes.
+~
+300 0 0
+D2
+~
+~
+0 -1 30211
+S
+#30213
+To Blue sector~
+A broad ramp leads up from the docking bays into Blue
+sector, wide enough to carry heavy cargo in and out of
+the station.
+~
+300 8 0
+D1
+The stations docking bays.
+~
+~
+0 -1 30214
+D3
+The stations docking bays.
+~
+~
+0 -1 30211
+D4
+Stairs lead up from the docking
+area to Blue sector.
+~
+~
+0 -1 30219
+S
+#30214
+Docking Bays~
+Passengers and workers mill around the docking bays
+arriving and departing from the station and handling
+goods. 
+~
+300 8 0
+D1
+The stations docking bays.
+~
+~
+0 -1 30216
+D2
+Docking bay 7 is currently unloading
+a ship bringing goods into the
+station.
+~
+~
+0 -1 30215
+D3
+The stations docking bays.
+~
+~
+0 -1 30213
+S
+#30215
+Docking Bay 7~
+This docking bay is empty, but a few maintenance workers
+are busy moving in heavy loading equipment ready for the
+next ship when it docks.
+~
+300 0 0
+D0
+~
+~
+0 -1 30214
+S
+#30216
+Docking bays~
+"Clear the way! Clear the way!". You jump to the side of a
+wide corridor as a cart drags goods for a transport due to
+leave soon eastwards towards one of the ships docked.
+~
+300 8 0
+D1
+The stations docking bays.
+~
+~
+0 -1 30217
+D3
+The stations docking bays.
+~
+~
+0 -1 30214
+S
+#30217
+Docking bays~
+Dock workers hustle by, busily loading and unloading incoming
+and outgoing cargo. Since Babylon 5 broke away from earth
+most of it's revenue comes from docking fees and the docks
+do a brisk trade 24 hours a day.
+~
+300 8 0
+D0
+The Vorlon transport of Ambassador
+Kosh.
+~
+~
+0 -1 30218
+D3
+The stations docking bays.
+~
+~
+0 -1 30216
+S
+#30218
+Docking Bay 13~
+Docking bay 13 stands deserted of people, and the reason is in front of
+you. Bay 13 is where ambassador Kosh's Vorlon transport is docked. If
+you stare closely at the ship you can see the colors of the skin change. 
+Dock workers refuse to work here anymore saying that the ship 'sings' to
+them in their sleep.
+~
+300 0 0
+D2
+The stations docking bays.
+~
+~
+0 -1 30217
+S
+#30219
+To docking bays~
+The broad stairway here leads down from Blue sector
+to the stations docking bays. The docking bays are
+busy at most times, and the workers don't like 
+unqualified civilians getting in their way while they
+work.
+~
+300 12 0
+D4
+Stairs lead up from the docking
+bays.
+~
+~
+0 -1 30234
+D5
+Stairs lead down to the docking
+bays.
+~
+~
+0 -1 30213
+S
+#30220
+Leisure Hall~
+There are various leisure halls throught blue sector, where plays
+are performed or vid's can be seen. This hall is showing a vid of
+an ancient medieval realm. The 3-D panaroma is so life like you
+think you could almost GO into it.
+~
+300 8 0
+D0
+The corridor runs westward
+past Leisure Halls.
+~
+~
+0 -1 30221
+S
+#30221
+Blue 5~
+You are outside on of the stations Leisure halls. If
+you feel like catching a vid of mediaval life, the Leisure
+hall to the south is currently playing one.
+~
+300 8 0
+D2
+A leisure hall is playing a vid.
+~
+~
+0 -1 30220
+D3
+The corridor runs past a leisure
+hall.
+~
+~
+0 -1 30222
+S
+#30222
+Blue 5~
+You are outside on of the stations Leisure halls. If
+you feel like catching a vid of a western, the Leisure
+hall to the north is currently playing one.
+~
+300 8 0
+D0
+A Leisure hall is playing a vid.
+~
+~
+0 -1 30223
+D1
+The corridor ends outside a
+Leisure hall.
+~
+~
+0 -1 30221
+D3
+The corridor turns southward.
+~
+~
+0 -1 30224
+S
+#30223
+Leisure Hall~
+This is one of the numerous leisure halls in Blue sector. This one is
+playing a vid of a Western. The sounds of gunfire explode around you
+and the horizons look so real, you imagine you could close your eyes
+and GO into the vid and join the action.
+~
+300 8 0
+D2
+The corridor runs east-west
+through Blue 5.
+~
+~
+0 -1 30222
+S
+#30224
+To blue 6~
+The corridor through blue five continues south and
+east, and a stairwell leads up to Blue 6.
+~
+300 8 0
+D1
+The corridor runs past Leisure
+halls showing vids.
+~
+~
+0 -1 30222
+D2
+Stairs lead down to Blue 4.
+~
+~
+0 -1 30225
+D4
+Stairs lead up to level 6 of
+Blue sector.
+~
+~
+0 -1 30228
+S
+#30225
+To Blue 4~
+The stairway from Blue 4 opens onto a corridor leading
+north into Blue 5. Blue 5 houses several Leisure Halls
+where patrons can view a play or a vid.
+~
+300 8 0
+D0
+The corridor turns eastward.
+~
+~
+0 -1 30224
+D5
+Stairs lead down to level 4 of
+Blue sector.
+~
+~
+0 -1 30229
+S
+#30226
+Medlab~
+Medlab is the stations hospital. There are various
+medlab facilities throughout the station to cater
+for the large and diverse population. 
+~
+300 24 0
+D2
+Part of Medlab.
+~
+~
+0 -1 30227
+S
+#30227
+Medlab~
+Medical scanners and monitoring equipment keeps track
+of the status of all the patients under observation.
+An isolation chamber in one part of the facilities allows
+aliens who breath a different atmosphere to be treated.
+An injured patient is lying on one of the beds under observation.
+~
+300 24 0
+D0
+Another part of the Medlab
+facilities.
+~
+~
+0 -1 30226
+D3
+The corridor runs south from
+outside medlab.
+~
+~
+0 -1 30228
+S
+#30228
+Outside Medlab~
+You are outside one of the stations Medlab facilities.
+As you stand here security guards rush inside with a 
+person injured in a fight in downbelow. 
+~
+300 12 0
+D1
+The stations medlab facilities.
+~
+~
+0 -1 30227
+D2
+~
+~
+0 -1 30236
+D5
+Stairs lead down to Blue 5.
+~
+~
+0 -1 30224
+S
+#30229
+To Blue 5~
+A stairway up to Blue 5 branches off from the corridor.
+Blue 5 houses several Leisure halls where you can catch
+a play or a vid.
+~
+300 8 0
+D1
+The corridor turns southward
+past C&C.
+~
+~
+0 -1 30231
+D3
+The corridor heads out of blue
+sector.
+~
+~
+0 -1 30230
+D4
+Stairs lead up to level 5 of
+Blue sector.
+~
+~
+0 -1 30225
+S
+#30230
+Blue sector~
+You are at the enterance to Blue sector. Blue sector
+contains the station C&C - Command & Control, as well
+as Leisure halls and Medlab facilities.
+~
+300 8 0
+D0
+The corridor heads out of
+Blue sector.
+~
+~
+0 -1 30174
+D1
+The corridor heads through
+Blue sector.
+~
+~
+0 -1 30229
+S
+#30231
+Outside C&C~
+You are outside C&C - Command & Control. The great station is run
+from here and the staff on-duty are very busy and don't like to be
+interrupted without good cause.
+~
+300 8 0
+D0
+C&C - The heart and mind
+of the station.
+~
+door~
+1 -1 30232
+D2
+The corridor runs past the
+observation dome.
+~
+~
+0 -1 30233
+D3
+The corridor heads out of
+Blue sector.
+~
+~
+0 -1 30229
+S
+#30232
+Command & Control~
+Command & Control - or C&C for short is the heart and mind of Babylon 5.
+All incoming traffic and monitoring of the station goes through here. Command
+Ivanova is generally in charge of C&C leaving the captain free for diplomatic
+work or fighting the Shadows.
+~
+300 67108872 0  
+D2
+The corridor runs west and
+south through Blue 4.
+~
+door~
+1 -1 30231
+S
+#30233
+Blue 4~
+You are at an intersection on Blue 4. To the east you can walk out
+into the Observation Dome and see outside the station. A stairwell
+to the south leads down to the docks, and the corridor to the north
+will take you to C&C.
+~
+300 8 0
+D0
+The corridor turns westward
+past C&C.
+~
+~
+0 -1 30231
+D1
+An observation dome giving
+a great view of the night sky
+outside the station.
+~
+~
+0 -1 30235
+D2
+Stairs lead down to the docks.
+~
+~
+0 -1 30234
+S
+#30234
+To docks~
+The stairs lead down to the stations docking bays and the corridor
+north to blue sector. The docking bays are generally busy 24 hours
+a day and the workers intolerant of interruptions.
+~
+300 8 0
+D0
+The corridor runs north, past
+the observation dome.
+~
+~
+0 -1 30233
+D5
+Stairs lead down to the stations
+docking bays.
+~
+~
+0 -1 30219
+S
+#30235
+Observation Dome~
+The Observation Dome is quiet, with those here looking out into space
+doing so quietly. The Observation Dome has the best views of outside
+station and is popular place for those who like to star gaze.
+~
+300 152 0
+D3
+The corridor runs north-south
+through Blue 4.
+~
+~
+0 -1 30233
+S
+#30236
+To Blue 7~
+The corridor from the north leads to a stairway leading up to
+Blue 7. Level 7 of blue sector houses the Warroom and is off
+limits to all, but a few people.
+~
+300 8 0
+D0
+The corridor ends outside the
+stations medlab facilites.
+~
+~
+0 -1 30228
+D4
+Stairs lead up to level 7 of
+Blue sector.
+~
+~
+0 -1 30237
+S
+#30237
+To Blue 6~
+You are outside the Warroom, stairs lead down to Blue 6 from here.
+Unless you have news regarding the Shadow war you will only be
+in the way if you go into the Warroom.
+~
+300 8 0
+D1
+The Warroom - headquarters
+of the fight against the Shadows.
+~
+door~
+1 -1 30238
+D5
+Stairs lead down to Blue 6.
+~
+~
+0 -1 30236
+S
+#30238
+Warroom~
+The warroom is the command center for the war against the Shadows.
+Across one wall is a huge map showing the this part of the galaxy. Plotted
+on it are details of the Shadow attacks. In the center of the room is a large
+table that seats the war council when it is in session.
+~
+300 8 0
+D3
+Stairs lead down to Blue 6.
+~
+door~
+1 -1 30237
+S
+#30239
+Green sector~
+This corridor in Green sector is quiet compared to other sectors
+of the station, due to Green sector been restricted to only station
+personnel and the diplomatic staff of the alien races with ambassadors
+on Babylon 5.
+~
+300 8 0
+D1
+The station's departure lounge.
+~
+~
+0 -1 30054
+D3
+The corridor heads deeper
+into Green sector.
+~
+~
+0 -1 30240
+S
+#30240
+Green 4~
+Walking through Green sector you pass the diplomatic staff of
+several ambassadors. They nod to you respectfully, been unsure
+where you fit into the grand scheme of things.
+~
+300 8 0
+D0
+The corridor finishes outside
+the Turbo Lift through Green
+sector.
+~
+~
+0 -1 30241
+D1
+The corridor heads out of
+Green sector.
+~
+~
+0 -1 30239
+S
+#30241
+Green 4~
+You are outside the Turbo Lift on Green 4. The Turbo Lift will take
+you to the other levels of Green sector.
+~
+300 8 0
+D1
+The Turbo Lift running through
+Green sector.
+~
+~
+0 -1 30242
+D2
+The corridor heads out of
+Green sector.
+~
+~
+0 -1 30240
+S
+#30242
+Turbo Lift - Green 4~
+This Turbo Lift will take you to the various levels of green sector. Green
+sector houses officers quarters, diplomatic staff, 'alien sector' and council
+chambers. It is off limits to the general public.
+~
+300 520 0
+D3
+The corridor heads out of
+Green sector.
+~
+~
+0 -1 30241
+D4
+The Turbo Lift can take you
+up to level 5 of Green sector.
+~
+~
+0 -1 30261
+S
+#30243
+Techno-Mage lair~
+A group of techno-mages have temporarily taken over this part
+of downbelow for their use while passing through. The other
+residents of downbelow wisely stay away, staying on the level
+above.
+~
+300 12 0
+D2
+Techno-mages have taken
+over the corridor.
+~
+~
+0 -1 30244
+D4
+Stairs lead up into the main part
+of downbelow.
+~
+~
+0 -1 30130
+S
+#30244
+Techno-Mage Lair~
+Arcane symbols glow on the walls with a light unlike any you
+have ever seen before. The meaning of the symbols seem to be
+just out of your reach.
+~
+300 9 0
+D0
+Stairs lead up into another
+part of downbelow.
+~
+~
+0 -1 30243
+D2
+Techno-mages have overrun
+the corridor.
+~
+~
+0 -1 30245
+S
+#30245
+Techno-Mage Lair~
+Sounds of eery chanting seem to leap come from the walls around
+you as the techno-mages cast their illusions and discuss their plans,
+ignoring your presence for the moment.
+~
+300 9 0
+D0
+Techno-mages have overrun
+the corridor.
+~
+~
+0 -1 30244
+S
+#30246
+Green 5 - Alien Sector~
+This level of Green sector is part of the Alien sector of the
+station, the level is made for breathers of different atmospheres. 
+~
+300 8 64
+D0
+The corridor turns eastward
+past alien quarters.
+~
+~
+0 -1 30247
+D1
+The turbo lift through Green sector.
+~
+~
+0 -1 30261
+S
+#30247
+Alien Sector - Green 5~
+Walking through the alien sector you pass several different
+races of aliens - Pak'ma'ra, Hurr and Hyach just a few of
+those who prefer or need a different atmosphere then you
+to live.
+~
+300 8 64
+D0
+Alien quarters.
+~
+~
+0 -1 30248
+D1
+~
+~
+0 -1 30249
+D2
+Outside the Turbo lift.
+~
+~
+0 -1 30246
+S
+#30248
+Alien Quarters~
+Despite the heavy atmosphere unbreathable by you, the quarters in the
+alien sector are much like those elsewhere on the station. The facilities
+provide all the comforts of the various alien races homes.
+~
+300 520 64
+D2
+The corridor runs south and
+west through the alien sector.
+~
+~
+0 -1 30247
+S
+#30249
+Corridor - Green 5~
+Heavy clouds of methane and other gases pass in front of your 
+eyes, reducing visibility west and east along the corridor to only 
+a few feet, and make it impossible to tell if anyone is approaching.
+~
+300 8 64
+D1
+The corridor runs past alien
+quarters.
+~
+~
+0 -1 30250
+D3
+The corridor turns southward
+past alien quarters.
+~
+~
+0 -1 30247
+S
+#30250
+Corridor through alien sector~
+The heavy clouds of methane and other gases through this part
+of the alien sector reduce visibility to only a few feet to the
+west, east and south.
+~
+300 8 64
+D1
+The corridor runs past alien
+quarters.
+~
+~
+0 -1 30251
+D2
+Quarters in the alien sector.
+~
+~
+0 -1 30252
+D3
+Corridor running through alien
+sector.
+~
+~
+0 -1 30249
+S
+#30251
+Outside quarters~
+Like all doors throught the station the one to quarters in the north
+wall slides into the door, space been at a premium on the station.
+No one answers when you buzz the quarters, but that is no
+guarantee that the quarters are unoccupied - the only way to find
+out is to look for yourself.
+~
+300 8 64
+D0
+Quarters in the alien sector.
+~
+~
+0 -1 30253
+D1
+Stairs lead down to another
+level of the alien sector.
+~
+~
+0 -1 30254
+D3
+The corridor runs past alien
+quarters.
+~
+~
+0 -1 30250
+S
+#30252
+Alien quarters~
+Despite the heavy atmosphere unbreathable by you, the quarters in the
+alien sector are much like those elsewhere on the station. The facilities
+provide all the comforts of the various alien races homes.
+~
+300 8 64
+D0
+The corridor runs east-west
+through the alien sector.
+~
+~
+0 -1 30250
+S
+#30253
+Quarters in alien sector~
+Despite the heavy atmosphere unbreathable by you, the quarters in the
+alien sector are much like those elsewhere on the station. The facilities
+provide all the comforts of the various alien races homes.
+~
+300 520 64
+D2
+The corridor runs east-west
+through the alien sector.
+~
+~
+0 -1 30251
+S
+#30254
+Up to higher level~
+The 'Alien sector' takes more then one floor of green sector. A stairwell
+leads up to Green 6 and more quarters and facilities for the stations
+'atmospherically-different' residents.
+~
+300 8 64
+D3
+The corridor runs west through
+the alien sector.
+~
+~
+0 -1 30251
+D5
+Stairs lead down to another
+level of the alien sector.
+~
+~
+0 -1 30087
+S
+#30255
+Outside Turbo Lift~
+You are outside the turbo lift on Green 11. This level of green sector
+houses the Minbari diplomatic staff. 
+~
+300 8 0
+D0
+The corridor runs north through
+Green 11.
+~
+~
+0 -1 30259
+D1
+The turbo lift running through 
+Green sector.
+~
+~
+0 -1 30159
+D3
+The corridor stops outside
+Ambassador Delenn's quarters.
+~
+~
+0 -1 30256
+S
+#30256
+Corridor in Green 11~
+The corridors on this level have been tastefully made to look like
+those found on Minbar. Minbari passing by bow respectfully to you
+before carrying on with their own business.
+~
+300 8 0
+D1
+The corridor turns northward
+past the turbo lift through Green
+sector.
+~
+~
+0 -1 30255
+D3
+Ambassador Delenn's quarters.
+~
+door~
+1 -1 30260
+S
+#30257
+Corridor - Green 11~
+You are outside the quarters of diplomatic attache Lennier. The
+door to his quarters is closed and the corridor quiet.
+~
+300 8 0
+D2
+The corridor runs southward
+through Green 11.
+~
+~
+0 -1 30259
+D3
+Diplomatic attache Lennier's
+quarters.
+~
+door~
+1 -1 30258
+S
+#30258
+Lennier's Quarters~
+Lenniers quarters have a spartan look, with few personal items in
+the room. The room is neat and clean with no dust visible on any
+surface.
+~
+300 8 0
+D1
+The corridor runs southward 
+through Green 11.
+~
+door~
+1 -1 30257
+S
+#30259
+Green 11~
+The corridor is quiet, Minbari passing by talk softly amongst themselves,
+they are not a loud people like the Centauri or Narn.
+~
+300 8 0
+D0
+The corridor ends outside diplomatic
+attache Lennier's quarters.
+~
+~
+0 -1 30257
+D2
+The corridor turns westward
+past the turbo lift.
+~
+~
+0 -1 30255
+S
+#30260
+Ambassador Delenn's Quarters~
+Ambassador Delenn's quarters reflect her personality. The quarters are 
+dignified, but bold, beautiful yet strong. The ambassador is currently
+not present, but the ingredients of a meal are placed neatly on a bench,
+suggesting the ambassador will return later in the night.
+~
+300 16777752 0
+D1
+The corridor runs through Green
+11.
+~
+door~
+1 -1 30256
+S
+#30261
+Turbo Lift - Green 5~
+WARNING - This level of Green sector has quarters for those aliens
+who breath different atmospheres to humans. Enter only if wearing
+breathing equipment. 
+~
+300 8 0
+D3
+The alien sector.
+~
+~
+0 -1 30246
+D4
+The turbo lift can take you up
+to Green 6.
+~
+~
+0 -1 30156
+D5
+The Turbo Lift can take you
+down to Green 4.
+~
+~
+0 -1 30242
+S
+$

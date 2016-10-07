@@ -1,0 +1,51 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@grb get red backpack
+xp exp
+bym buy 10 meat ; put all.meat backpack
+byr buy 10 red ; put all.red backpack
+byw buy 10 white ; put all.white backpack
+qr qu red
+qw qu white
+gmb get meat backpack
+ggac get gold all.corpse
+ggc get gold corpse
+gaac get all all.corpse
+gwb get white backpack
+gac get all corpse
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

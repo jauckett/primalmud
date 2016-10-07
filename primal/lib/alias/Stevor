@@ -1,0 +1,7 @@
+gs get skin from bag; drink skin;
+gm get meat from bag; eat meat;
+clw cast 'cure light' self;
+x attack $1;
+scab examine corpse; get gold from corpse;
+stab rem staff; wield knife; bac $1; rem knife; wield staff;
+att rem staff; wield knife; bac $1; rem knife; wield staff;

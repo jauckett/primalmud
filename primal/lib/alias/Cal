@@ -1,0 +1,32 @@
+k kill  elf
+ke kill enfan
+1 cast 'cure critic' $*
+ts tell smakibbfb $*
+8 get all.gold all.corpse
+9 get all all.corpse
+sl sleep
+wake wake;stand
+ae autoexit
+f flee
+qw get white backpack;quaff white
+mm cast 'magic miss' $*
+ds drink skin
+xx get all.white backpack;don all.white
+eb get bread backpack;eat bread
+kw kill warrior
+00 recite recall
+ks kill skeleton
+7 exa corpse
+bb buy 3 bread;put all.bread backpack
+inf cast 'inf' self
+kk alias k kill $*;kill $*
+jj junk all.bandanna;junk all.leather
+bar bash;rest;stand
+str cast 'str' $*
+bw buy 2 white;put all.white backpack
+pick pick $*;pick $*;pick $*;pick $*
+ta tell alarian $*
+di cast 'detect invis' $*
+ga get all
+da cast 'detect align' $*
+aa assist abulafia

@@ -1,0 +1,63 @@
+#!/bin/sh
+#
+# This script is called from Makefile (target "version") when a new circle
+# build is made. It updates the revision information in REVFILE (which is read
+# at boot time by bin/circle to obtain revision information). If cvs exists on
+# the given server - the tags for the corresponding build are added.
+#
+# Written by DM - Jan 2001
+
+SERVER_NAME=mud.alphalink.com.au
+#SERVER_NAME=shelby
+
+if [ ! "$HOSTNAME" = "$SERVER_NAME" ] ; then
+  echo "$0 runs only on $SERVER_NAME, skipping ..." 
+  # Changed exit code to 0 so it doensn't cause compiler errors.
+  # Can be annoying when using :make in vim ;o) -- Artus.
+  exit 0
+fi
+
+REVFILE=../lib/etc/revision
+
+#defaults
+MAJOR=3
+BRANCH=0
+MINOR=0
+CVSMOD=1
+TAGHEAD=A       # Alpha
+
+MAJOR=`cat ${REVFILE} | grep "MAJOR" | cut -f 2 -d ' '`
+BRANCH=`cat ${REVFILE} | grep "BRANCH" | cut -f 2 -d ' '`
+MINOR=`cat ${REVFILE} | grep "MINOR" | cut -f 2 -d ' '`
+HAVECVS=`whereis cvs | cut -f 2 -d ' '`
+
+# DM - need some options ... for now Im just going to increment every successful make ...
+# Check if cvs files are up-to-date
+#if [ ! "$HAVECVS" = "" ] ; then
+#  MODIFIED=`cvs -n update -l . | grep M`
+#  if [ ! "$MODIFIED" = "" ] ; then
+#    CVSMOD=0
+#    MINOR=`expr ${MINOR} + 1`
+#  fi
+#fi
+MINOR=`expr ${MINOR} + 1`
+DATE=`date`
+
+
+echo "Outputing revision file ${REVFILE}"
+
+# Out data to file - to be read by bin/circle
+echo "MAJOR ${MAJOR}" > ${REVFILE}
+echo "BRANCH ${BRANCH}" >> ${REVFILE}
+echo "MINOR ${MINOR}" >> ${REVFILE}
+echo "RELTAG ${TAGHEAD}${MAJOR}_${BRANCH}_${MINOR}" >> ${REVFILE}
+echo "CVSUPTODATE $CVSMOD" >> ${REVFILE}
+echo "DATE $DATE" >> ${REVFILE}
+
+# DM - again, need some options - for now just going to leave the tags
+# Update our tags
+#if [ ! "$HAVECVS" = "" ] ; then
+#  echo "Adding tags: ${TAGHEAD}${MAJOR}_${BRANCH}_${MINOR}, LATEST"
+#  cvs -Q tag -l `echo "${TAGHEAD}${MAJOR}_${BRANCH}_${MINOR}"` .
+#  cvs -Q tag -l -F LATEST .
+#fi

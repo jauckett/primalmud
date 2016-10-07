@@ -1,0 +1,8 @@
+summon c 'summon' $*
+gamina tell gamina heal;tell gamina armor;tell gamina bless;tell gamina sanc;tell gamina refresh
+word rec scroll
+th train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+infra c 'infra' $*
+gac get all all.corpse
+ds drink skin
+lc look in corps

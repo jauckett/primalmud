@@ -1,0 +1,603 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2004.03.10.01.27.39;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.02.19.03.43.21;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.31.03.10.47;	author mud;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> Sync: 315 (Death Castle)
+@
+text
+@#31500
+Space Helmet~
+a Space Helmet~
+A Space Helmet is lying here.~
+~
+32 4 16401 0
+0 0 0 0
+3 500 50 0
+L 0
+#31501
+food dispensing machine~
+Food Dispensing Machine~
+A food dispensing machine stands here.~
+~
+13 0 1 0
+0 0 0 0
+11 0 0 0
+L 0
+#31502
+chicken suit~
+a chicken suit~
+A chicken suit is hanging from the wall here.~
+~
+11 0 1025 0
+0 0 0 0
+2 100 10 5
+L 5
+A
+11 2
+#31503
+UO Garbage Pod~
+a UO~
+A UO sits here ~
+~
+15 65540 1 0
+210 5 0 0
+4 500 50 15
+L 15
+#31504
+chicken carcass~
+a chicken carcass~
+A rotten, moldy chicken is here~
+~
+13 0 1 0
+0 0 0 0
+1 0 0 15
+L 15
+#31505
+photo~
+a photograph~
+A photograph is here lying on the floor~
+~
+13 0 1 0
+0 0 0 0
+0 0 0 0
+L 0
+E
+photo photograph~
+As you peer at the photograph you see it has 3 people in it:
+The first person is Christine Kochanski in a white wedding dress.
+The second person is David Lister in a 3 piece suit and a hat.
+The third person is another male who is also attired in a suit!
+~
+#31506
+Space Suit~
+a Space Suit~
+A Space Suit has been left here.~
+~
+34 5 1025 0
+0 0 0 0
+3 250 25 15
+L 15
+A
+19 1
+#31507
+Fawn Pants~
+a Pair of fawn Pants~
+A Pair of fawn Pants has been dropped here.~
+~
+9 0 33 0
+0 0 0 0
+1 100 10 5
+L 5
+A
+17 -1
+#31508
+black belt~
+a black belt~
+A black Belt has been dropped here.~
+~
+11 0 2049 0
+0 0 0 0
+1 100 10 5
+L 5
+A
+17 -1
+#31509
+fawn shirt~
+a fawn Shirt~
+A fawn shirt has been dropped here.~
+~
+9 0 9 0
+0 0 0 0
+1 100 10 5
+L 5
+A
+17 -1
+#31510
+maroon tie~
+a maroon Tie~
+A maroon Tie has been dropped here.~
+~
+11 0 5 0
+0 0 0 0
+1 100 10 5
+L 5
+A
+17 -1
+#31511
+black boots~
+a pair of black boots~
+A pair of Black Boots has been dropped here.~
+~
+9 0 65 0
+0 0 0 0
+2 100 10 5
+L 5
+A
+17 -1
+#31512
+white t-shirt~
+a white T-Shirt~
+A white T-Shirt has been dropped here.~
+~
+11 0 9 0
+0 0 0 0
+1 100 10 10
+L 10
+A
+17 -2
+A
+18 1
+#31513
+white cooks apron~
+a dirty white apron~
+A dirty white apron has been dropped here.~
+~
+11 0 1025 0
+0 0 0 0
+2 100 10 10
+L 10
+A
+17 -2
+A
+18 1
+#31514
+white chef pants~
+a pair of white chef pants~
+A Pair of White Chef Pants has been dropped here.~
+~
+11 0 33 0
+0 0 0 0
+2 100 10 10
+L 10
+A
+17 -2
+A
+19 1
+#31515
+red tartan visor~
+a red tartan visor~
+A red tartan Visor has been dropped here.~
+~
+11 0 21 0
+0 0 0 0
+2 100 10 10
+L 10
+A
+17 -1
+A
+19 1
+#31516
+glasses sunnies~
+a pair of glasses~
+A pair of Glasses has been dropped here.~
+~
+24 0 32785 0
+50 0 0 5
+1 100 10 15
+L 15
+#31517
+mustard cardigan~
+a mustard coloured cardigan~
+A mustard coloured knitted cardigan has been dropped here.~
+~
+11 0 1025 0
+0 0 0 0
+3 150 15 15
+L 15
+A
+17 -3
+A
+4 1
+#31518
+metal hand~
+a metal hand~
+A metal Hand has been dropped here~
+~
+9 0 129 0
+3 0 0 0
+5 200 20 15
+L 15
+A
+18 2
+A
+19 2
+#31519
+grey dreadlocks~
+grey dreadlocks~
+Grey dreadlocks have been dropped here.~
+~
+11 0 17 0
+0 0 0 0
+1 150 15 15
+L 15
+A
+9 100
+#31520
+green beret~
+a big floppy beret~
+A big floppy green beret has been dropped here.~
+~
+11 0 17 0
+0 0 0 0
+1 150 15 5
+L 5
+#31521
+fur coat~
+a long fur coat~
+A long fur coat has been dropped here.~
+~
+37 0 1025 0
+0 0 0 0
+5 150 15 15
+L 15
+#31522
+red pointy hat~
+a red pointy hat with an arrow through it~
+A red pointy hat with an arrow through it has been dropped here.~
+~
+11 0 17 0
+0 0 0 0
+2 150 15 15
+L 15
+A
+18 1
+A
+19 1
+A
+11 2
+#31523
+red coat~
+a red long coat~
+A very long red coat~
+~
+9 0 1025 0
+0 0 0 0
+5 200 20 18
+L 18
+E
+red coat~
+This long red coat is one of the High Priest robes!  Down the front of the coat
+is images of gold donuts and gold sausages.    
+~
+A
+17 -3
+A
+18 2
+A
+19 2
+#31524
+chain donut~
+a gold donut on chain~
+A gold donut on a gold chain has been dropped here.~
+~
+8 0 1 0
+0 0 0 0
+5 15000 0 20
+L 20
+#31525
+Food dispensing machine~
+Food Dispensing Machine~
+Food Dispenser 172 is attached to the wall here.~
+~
+15 0 0 0
+350 0 -1 0
+11 0 0 0
+L 0
+E
+Dispenser~
+This dispenser has the Chicken Soup Nozzle clogged and has been repaired by
+Lister and Rimmer but they didn't repair it right!    
+~
+#31526
+clipboard~
+a clipboard~
+A Clipboard has been left here.~
+~
+16 0 1 0
+0 0 0 0
+1 0 0 0
+L 0
+E
+note clipboard~
+----------------------------------------
+|                                      |
+| Lister. D - Third Technician         |
+| Offense: Obstructing a Superior      |
+| Technician by                        |
+|                                      |
+|  Humming, Clicking and being Quiet   |
+|                                      |
+----------------------------------------
+~
+#31527
+test paper note~
+a test paper~
+A test paper has been left here.~
+~
+16 0 1 0
+0 0 0 0
+1 0 0 0
+L 0
+E
+test paper note~
+----------------------------
+|                           |
+|  I am a Fish!             |
+|  I am a Fish!             |
+|  I am a Fish!             |
+|  I am a Fish!             |
+|  I am a Fish!             |
+|                           |
+|    Signed:                |
+|      Arnold J. Rimmer     |
+|                           |
+-----------------------------
+~
+#31528
+piper cleaner~
+a piper cleaner~
+A pipe cleaner has been left here~
+~
+5 0 24577 0
+0 2 5 14
+1 100 10 5
+L 5
+E
+pipe cleaner~
+Is this the 14b or the 14f?  They look identical but one is better than the
+other!    
+~
+#31529
+pipe cleaner~
+a pipe cleaner~
+A pipe cleaner has been left here.~
+~
+5 0 8193 0
+0 3 5 14
+1 300 30 8
+L 8
+E
+pipe cleaner~
+Is this the 14f or the 14b?  They look identical but to RIMmer one can clean up
+better than the other!    
+~
+#31530
+t-shirt red~
+a red T-shirt~
+A red "London Jets" T-Shirt has been left here.~
+~
+11 0 9 0
+0 0 0 0
+5 500 50 5
+L 5
+E
+london jets red t-shirt~
+This is Listers favourite T-shirt!  It has the usual custard stains on it and
+is very very dirty!    
+~
+#31531
+black jacket~
+a black satin jacket~
+A black Satin Flight Jacket has been left lying here.~
+~
+9 0 1025 0
+30 0 0 0
+5 500 50 15
+L 15
+E
+flight jacket black satin~
+This black satin jacket has long sleeves and a zip up front.  On the back it
+has Red Dwarf embroidered in red cotton.    
+~
+A
+18 -2
+A
+19 -1
+#31532
+black hat~
+a black hat~
+A black hat has been left here.~
+~
+11 0 17 0
+0 0 0 0
+5 500 50 0
+L 0
+E
+black hat~
+This black hat has a brim at the front and is the main hat that Lister always
+wears
+~
+#31533
+gumboots~
+a pair of gumboots~
+A pair of gumboots have been dropped here.~
+~
+13 0 65 0
+0 0 0 0
+0 0 0 5
+L 5
+#31534
+bucket~
+a silver pale~
+A silver pale has been dropped here~
+~
+17 0 1 0
+20 0 12 0
+2 100 10 5
+L 5
+#31535
+cordial blamange~
+black current cordial~
+Black current cordial with blamange, two creams and a sugar is here.~
+~
+19 0 1 0
+1 0 0 0
+2 10 1 0
+L 0
+E
+chicken soup black current coridial~
+You order a Chicken soup but the machine was faulty
+so instead you got this!
+~
+#31536
+plastic container~
+a plastic container~
+A plastic container has been dropped here.~
+~
+15 0 1 0
+3 1 -1 0
+1 10 1 5
+L 5
+E
+plastic container~
+This container has an opaque lid that is made out of plastic
+and a styrofoam plate that the lid sits upon.
+~
+#31537
+trout food~
+trout ala creme~
+Trout ala Creme has been splattered here.~
+~
+19 0 1 0
+2 0 0 0
+2 50 5 5
+L 5
+#31538
+beer milkshake~
+a beer milkshake~
+A glass full of Beer Milkshake is sitting here.~
+~
+17 0 1 0
+2 2 10 0
+2 15 1 5
+L 5
+#31539
+chicken vindaloo~
+chicken vindaloo~
+A Chicken Vindaloo has been splattered here.~
+~
+19 1 1 0
+4 0 0 0
+2 150 15 5
+L 5
+#31540
+pea toast~
+a pea on toast~
+A pea on toast sits here.~
+~
+19 0 1 0
+1 0 0 0
+0 0 0 5
+L 5
+#31541
+red dwarf mail pod gateway~
+red dwarf mail pod~
+A Red Dwarf Mail Pod sits here waiting to be launched~
+~
+41 0 0 0
+31585 5 0 0
+0 0 0 5
+L 5
+#31542
+opal ring~
+an opal ring~
+An Opal ring has been dropped here.~
+~
+9 0 3 0
+1 0 0 0
+1 100 10 10
+L 10
+A
+19 1
+#31543
+opal bracelet~
+an opal bracelet~
+You see an opal bracelet here~
+~
+9 512 4097 0
+1 0 0 0
+1 1100 110 10
+L 10
+A
+19 1
+#31544
+starbug gateway~
+Starbug I ~
+Starbug I stands here with her ladder down.~
+~
+41 0 0 0
+31588 30 0 0
+40 0 0 30
+L 30
+$~
+@
+
+
+1.2
+log
+@Artus> Sync.
+@
+text
+@d6 1
+a6 1
+32 4 17 0
+d536 9
+@
+
+
+1.1
+log
+@Artus> Sync 100. Everything else is new.
+@
+text
+@d3 1
+a3 1
+A Space Helmet~
+d10 526
+@
+

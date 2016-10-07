@@ -1,0 +1,751 @@
+head	1.9;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.9
+date	2004.01.31.03.10.47;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.21.08.54.46;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.14.06.08.17;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.27.06.33.18;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.01.25.03.35.28;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2002.01.17.04.52.08;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.37;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@Artus> Sync 100. Everything else is new.
+@
+text
+@#10001
+Death Sword~
+a Death Sword~
+The Death Sword lies here.~
+DESTROY~
+5 74057 8193 0
+0 10 10 3
+30 189000 200000 105
+L 105
+A
+19 11
+A
+18 11
+#10002
+Black Leather Bike Jacket~
+a Black Leather Bike Jacket~
+A Black Leather Bike Jacket is here.~
+~
+9 65609 9 0
+0 0 0 0
+1 1800 401 0
+L 0
+#10003
+Faded Levi 501's~
+a faded pair of Levi 501's~
+A pair of Levi 501's are here~
+~
+9 65609 33 0
+0 0 0 0
+1 1800 401 0
+L 0
+#10004
+Black Leather Riding Boots~
+a worn pair of Black Leather Riding Boots~
+A pair of Black Leather Riding Boots is here.~
+~
+9 65609 65 0
+0 0 0 0
+1 4010 401 5
+L 5
+#10005
+Studded Black Leather Belt~
+a Studded Black Leather Belt~
+A Studded Black Leather Belt is here~
+~
+9 65609 2049 0
+0 0 0 0
+1 4010 401 5
+L 5
+#10006
+Blue Bandanna~
+a faded Blue Bandanna~
+A faded Blue Bandanna is here.~
+~
+9 65609 5 0
+0 0 0 0
+1 4010 401 5
+L 5
+#10009
+Bracelet of Life~
+a Bracelet of Life~
+A Bracelet of Life lies abandoned here~
+Wear~
+8 50397184 4097 0
+0 0 0 0
+1 27000 100000 15
+L 15
+#10011
+Gold Bar~
+a Gold Bar~
+A Gold Bar has been discarded here.~
+~
+8 0 1 0
+0 0 0 0
+1 100000 10000 80
+L 80
+#10016
+mushroom~
+a Mushroom~
+A Mushroom lies here~
+~
+19 0 1 0
+5 0 0 0
+1 1 0 0
+L 0
+#10017
+Dragon Axe~
+a Dragon Axe~
+A Dragon Axe lies here.~
+DESTROY~
+5 1865 8193 0
+0 5 6 3
+20 54000 37152 30
+L 30
+E
+dragon axe~
+A large sharp axe of rare beauty.
+~
+A
+18 4
+A
+19 4
+A
+12 -50
+#10018
+Mystic Sword~
+a Mystic Sword~
+The Mystic Sword is here, shimmering on the ground.~
+PULVERISES~
+5 11081 8193 0
+0 6 6 3
+1 55800 23296 31
+L 31
+A
+18 4
+A
+19 4
+A
+12 -30
+#10019
+Vorpal Sword~
+a Vorpal Sword~
+A Vorpal Sword lies here~
+slash~
+5 8256 8193 0
+0 7 3 3
+9 28800 6488 16
+L 16
+A
+18 2
+A
+19 2
+A
+13 -20
+#10020
+fountain water~
+a bubbling blue fountain~
+A bubbling blue fountain stands here.~
+~
+23 0 0 0
+99999 99999 15 0
+0 0 0 0
+L 0
+E
+fountain blue bubbling~
+A pretty fountain with dolphins at the top.  The water comes pouring out of
+their mouths and down into a small pool around the bottom if it.  There are
+pennies and jewelery at the bottom of the pool
+~
+#10021
+poison fountain~
+a slime ridden fountain~
+A slime ridden fountain is standing here.~
+~
+23 0 1 0
+99999 99999 9 1
+0 0 0 0
+L 0
+E
+slime mould fountain festering~
+A rancid fountain stands here.  The water supply was turned of many years ago
+when an evil Mage wondered through the town and cast a very nasty spell on the
+fountain!  The local citizens became very sick when they drank out of it!  Now
+noboyd but the brave dare touch this fountain.    
+~
+#10022
+rats skull~
+a rats skull~
+A Rats Skull is lying here.~
+~
+17 407412736 1 0
+10 0 9 1
+2 1800 180 0
+L 0
+#10023
+cats skull~
+a cats skull~
+A Cats Skull is sitting here.~
+~
+17 407412736 1 0
+20 10 9 1
+4 3600 400 15
+L 15
+#10024
+snake venom sack~
+a snake venom sack~
+A Snake Venom sack is lying here.~
+~
+17 138997768 1 0
+40 20 9 1
+10 5400 540 25
+L 25
+#10025
+anaconda venom sack~
+an Anaconda Venom Sack~
+An Anaconda Venom Sack lies here~
+~
+17 139063307 1 0
+80 40 9 1
+5 8000 800 50
+L 50
+#10026
+pale pink potion~
+a very pale pink potion~
+A very pale Pink Potion is sitting here~
+~
+10 407412748 1 0
+15 54 54 0
+3 1800 180 1
+L 1
+#10027
+secret trapdoor~
+A Secret Trapdoor~
+A Secret Trapdoor lays on the ground!~
+~
+41 138981376 0 0
+10017 0 0 0
+11 0 0 0
+L 0
+$~
+@
+
+
+1.8
+log
+@Artus> Sync.
+@
+text
+@d141 1
+a141 1
+0 999999 15 0
+d150 70
+@
+
+
+1.7
+log
+@Artus> Sync.
+@
+text
+@d134 1
+a134 1
+12 -10
+@
+
+
+1.6
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@d135 15
+@
+
+
+1.5
+log
+@Latest Versions
+@
+text
+@d6 1
+a6 1
+5 65865 8193 0
+d110 1
+a110 1
+5 2889 8193 0
+d125 1
+a125 1
+5 64 8193 0
+@
+
+
+1.4
+log
+@
+Modified: Sandii
+
+Changed:
+- Balanced, added levels back in.
+@
+text
+@d8 1
+a8 1
+115 189000 200000 105
+d39 2
+a40 2
+1 4010 401 0
+L 0
+d48 2
+a49 2
+1 4010 401 0
+L 0
+d57 2
+a58 2
+1 4010 401 0
+L 0
+d75 2
+a76 2
+1 100000 10000 0
+L 0
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d8 2
+a9 2
+160 270000 200000 150
+L 140
+d11 1
+a11 1
+19 16
+d13 1
+a13 1
+18 16
+d21 1
+a21 1
+1 4010 401 0
+d30 1
+a30 1
+1 4010 401 0
+d66 2
+a67 2
+1 1000000 100000 0
+L 0
+d93 2
+a94 2
+20 185760 37152 0
+L 0
+d100 1
+a100 1
+18 5
+d102 1
+a102 1
+19 5
+d112 2
+a113 2
+1 116480 23296 0
+L 0
+d117 1
+a117 1
+19 6
+d127 2
+a128 2
+9 32440 6488 0
+L 0
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d9 1
+a9 1
+L 150
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d2 8
+a9 7
+Death Sword~~
+a Death Sword~~
+the Death Sword lies here.~~
+DESTROY~~
+5 65865 8193
+0 11 14 3
+1 1000000 200000
+d11 1
+a11 1
+19 50
+d13 1
+a13 2
+18 50
+L 105
+d15 5
+a19 5
+Black Leather Bike Jacket~~
+a Black Leather Bike Jacket~~
+a Black Leather Bike Jacket is here.~~
+~~
+9 65609 9
+d21 1
+a21 1
+1 4010 401
+d24 5
+a28 5
+Faded Levi 501's~~
+a faded pair of Levi 501's~~
+a pair of Levi 501's are here~~
+~~
+9 65609 33
+d30 1
+a30 1
+1 4010 401
+d33 5
+a37 5
+Black Leather Riding Boots~~
+a worn pair of Black Leather Riding Boots~~
+a pair of Black Leather Riding Boots is here.~~
+~~
+9 65609 65
+d39 1
+a39 1
+1 4010 401
+d42 5
+a46 5
+Studded Black Leather Belt~~
+a Studded Black Leather Belt~~
+a Studded Black Leather Belt is here~~
+~~
+9 65609 2049
+d48 1
+a48 1
+1 4010 401
+d51 5
+a55 5
+Blue Bandanna~~
+a faded Blue Bandanna~~
+a faded Blue Bandanna is here.~~
+~~
+9 65609 5
+d57 1
+a57 1
+1 4010 401
+d60 5
+a64 5
+Bracelet of Life~~
+a Bracelet of Life~~
+a Bracelet of Life lies abandoned here~~
+Wear~~
+8 50397184 4097
+d66 2
+a67 2
+1 1000000 100000
+L 15
+d71 1
+a71 1
+a Gold Bar has been discarded here.~
+d73 1
+a73 1
+8 0 1
+d75 1
+a75 1
+1 100000 10000
+d80 1
+a80 1
+a Mushroom lies here~
+d82 1
+a82 1
+19 0 1
+d84 1
+a84 1
+1 1 0
+d89 3
+a91 3
+a Dragon Axe lies here.~
+DESTROY~~
+5 1865 8193
+d93 2
+a94 1
+20 185760 37152
+a104 1
+L 25
+d108 1
+a108 1
+the Mystic Sword is here, shimmering on the ground.~
+d110 1
+a110 1
+5 2889 8193
+d112 2
+a113 1
+1 116480 23296
+a119 1
+L 31
+d121 5
+a125 5
+Vorpal Sword~~
+a Vorpal Sword~~
+a Vorpal Sword lies here~~
+slash~~
+5 64 8193
+d127 2
+a128 1
+9 32440 6488
+a134 191
+L 16
+#10070
+black pants~
+A pair of black pants~
+A pair of black pants owned by cassandra lie here~
+~
+9 65548 33
+0 0 0 0
+1 1 1
+L 60
+#10071
+black shirt~
+A black shirt~
+A black shirt owned by cassandra lies here~
+~
+9 65548 9
+0 0 0 0
+1 1 1
+L 60
+#10072
+black ring~
+A black ring~
+A black ring with an unusual stone lies here~
+~
+9 65548 3
+0 0 0 0
+1 1 1
+L 60
+#10073
+silver ring~
+A silver ring~
+A silver ring with a large black stone inset lies here~
+~
+9 65548 3
+0 0 0 0
+1 1 1
+L 60
+#10074
+black boots~
+A pair of boots~
+A pair of black boots owned buy cassandra lie here~
+~
+9 65548 65
+0 0 0 0
+1 1 1
+L 60
+#10075
+watch~
+A large watch~
+A large silver watch with hands of gold lies here~
+~
+9 65548 4097
+0 0 0 0
+1 1 1
+L 60
+#10076
+silver chain~
+A silver chain~
+A long thick silver chain lies here~
+~
+9 65549 5
+0 0 0 0
+1 1 1
+L 60
+#10077
+book~
+black book~
+A black book with mystical symbols written on it lies here~
+~
+16 65549 16385
+0 0 0 0
+1 1 1
+L 60
+#10078
+black sword~
+A black sword~
+A black sword with strange symbols on it's handle lies here~
+~
+5 65550 8193
+0 0 0 0
+1 1 1
+L 60
+#10088
+Tape~
+A Casette Tape~
+A Casette tape waits to be put into a walkman.~
+~
+13 65549 1
+0 0 0 0
+0 0 0
+E
+tape~
+A Techno Tape~
+L 60
+#10089
+Walkman~
+A Walkman~
+A Walkman sits here waiting to be played.~
+~
+15 0 16385
+0 0 0 0
+0 0 0
+E
+walkman~
+A Sony Walkman~
+L 60
+#10090
+A Cigarette~
+A Cigarette~
+A Cigarette sits here waiting to be smoked.~
+~
+8 65549 1
+0 0 0 0
+0 0 0
+L 60
+#10091
+Winfield Blue~
+A packet of Winfield Blue~
+A packet of Winfield blue sits here.~
+~
+15 65549 1
+0 0 0 0
+0 0 0
+E
+winfield~
+A packet of Winfield Blue~
+L 60
+#10092
+Whistle~
+A Whistle~
+A Whistle lies here.~
+~
+11 65549 1
+0 0 0 0
+0 0 0
+E
+whistle~
+A Whistle~
+L 60
+#10093
+Renegade pants~
+Renegade Pants~
+A Pair of Renegade pants lie here in a heap~
+~
+11 65549 33
+0 0 0 0
+1 1 1
+E
+pants~
+A pair of Renegade pants~
+L 60
+#10094
+A Joint~
+A Joint is lying here~
+A Joint is lying here waiting to be smoked.~
+SMOKE~
+1 65548 1
+0 0 0 0
+0 0 0
+E
+joint~
+A Joint~
+L 60
+#10095
+Addidas Jumper~
+An Addidas jumper~
+An Addidas jumper lies here on the ground.~
+~
+11 65551 2049
+0 0 0 0
+1 0 0
+L 60
+#10096
+Nike Airs~
+A Pair of Nike Airs~
+A Pair of Nike Airs sit here.~
+~
+11 15 65
+0 0 0 0
+1 0 0
+L 60
+#10097
+Astro Boy T-shirt~
+An Astro Boy T-shirt~
+An Astro Boy T-shirt sits neatly folded here.~
+~
+11 15 9
+0 0 0 0
+1 0 0
+L 60
+#99999
+@
+

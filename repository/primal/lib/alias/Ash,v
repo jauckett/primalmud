@@ -1,0 +1,51 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@mm cast 'magic missile' $1
+cls cast 'cure light' self
+chill cast 'chill t' $1
+wa wake; stand
+em eat meat
+geac get all; junk all.corpse
+gea get all
+gac get all corpse
+fw fill skin fountain
+wat drink skin
+eb eat bread
+cl cast 'cure light' $1
+cinv cast 'invis' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

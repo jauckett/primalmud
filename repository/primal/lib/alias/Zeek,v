@@ -1,0 +1,85 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.44;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@rh rem halberd
+cs c 'shocking grasp
+ci c 'infravision
+cb c 'burning hands'
+kp kill python
+ko kill orc
+ks kill stirge
+ca c 'armor
+cc c 'chill touch
+kr kill rat
+p sleep
+kj kill janitor
+js junk sword
+kc kill citizen
+jbe junk beret
+gbb get bread backpack
+jb junk boots
+jp junk pants
+jj junk jacket
+kg kill goblin
+eb eat bread
+gmb get meat backpack
+em eat meat
+gsb get skin backpack
+ds drink skin
+kd kill drunk
+kb kill beggar
+g get all corpse
+qwp q white
+qrp q red
+f flee
+km k merchant
+cm c 'magic missile'
+kt k trickster
+kl k lion
+rr recite recall
+rf rem flail
+wf wield flail
+rd rem dagger
+wd wield dagger
+grb get all.red backpack
+gwb get all.white backpack
+kv k vulture
+kw k wolf
+at Assist Taegh
+wh wield halberd
+pb put all backpack
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

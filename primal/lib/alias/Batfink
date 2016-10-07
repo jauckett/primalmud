@@ -1,0 +1,93 @@
+sleep cast 'sleep' $*
+8 cast 'sanct' $*
+5 cast 'haste'
+id cast 'ident' $*
+stake rem laser;get stake bag;wield stake;goto $1;stake $1;rem stake;wield laser;put stake bag
+slay rem laser;get dagger bag;wield dagger;goto $1;slay $1;rem dagger;wield laser;put dagger bag
+laser rem stalker;wield laser;put stalker bag
+ds get stalker bag;rem laser;wield stalk
+wr cast 'wraith' $*
+gr group all;cast 'group sanctuary';ungroup
+loc cast 'locate object' $*
+ident cast 'identify' $*
+serp cast 'serpent'
+deti cast 'detect invis';cast 'detect invis';cast 'detect invis';cast 'detect invis';cast 'detect invis';
+sanc cast 'sanctuary';cast 'sanctuary';cast 'sanctuary';cast 'sanctuary';cast 'sanctuary'
+3 cast 'divine heal'$*
+tele cast 'teleport'
+lev1 e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+old w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+spiral d;s;s;d;d;d;e;e;e;e;e;e;s;s;d;e;e;e;e;s;s;s;s;s;e;e;open rock;d
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+tunnel s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w
+potion n;n;w;w;w;s;go stage;e;e;e;e;u
+fly cast 'fly'
+walk cast 'water walk' $*
+water cast 'waterbr' $*
+bless cast 'bless'$*
+load reload win
+win get ammo backpack;reload winch
+re cast 'word of recall'
+ts track snake
+zx track imperial
+ki kill imper
+tr track imperial
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+dr cast 'create water' skin;drink skin
+qr get red backpack;quaff red
+det cast 'detect invisib'$*
+qw get white backpack;quaff white
+inf cast 'infravision'$*
+eat cast 'create food';eat mush
+qh get heal backpack;quaff heal
+inv cast 'invisib'
+qp get prot force;quaff prot
+4 get ammo force;reload winch
+bh buy 20 heal;put all.heal force
+bp buy 5 prot;put all.prot force
+ammo put all.ammo for
+haste cast 'haste'
+2 cast 'advanced heal'$*
+tra train $1;train $1;train $1;train $1;train $1
+wh cast 'whirlwind'
+sum cast 'summon' $*
+fort s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;e;open gate;e
+for put force 2.force
+life cast 'sense life'$*
+7 cast 'haste'
+rc cast 'remove curse' $*
+tal cast 'remove curse' talon;e;sell talon;w
+junk cast 'remove curse' $1;junk $1
+par cast 'paral' $*
+clone cast 'clone'
+ord order follow kill $1;kill $1
+die ord followers die
+c get coins all.corpse
+9 cast 'detect invis' clone
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+odd s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;e;n;w;n
+troy s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;e;e;s;s;s;s;e;s;e;e;n;e;s;s;s;s;s;e;e
+greece s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;s;s;e;s
+beach s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;n;n;e;e;e;e;n;w;w;w;w;n
+abyss n;n;n;n;n;n;d;w;n;e;n;n;w;s;w;s;w;w;w;n;n;n;n;n;e;e;e;d;d;d;d;d;d;d;d;d;d;d;d;d;d;d
+ocean d;n;n;n;w;w;w;w;n;n;w;w;s;s;s;s;open ocean;s;e;e;e;e
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+x get all all.corpse
+rp cast 'remove paral'$*
+ref cast 'refresh'$*
+1 get heal force;get heal force;get heal force;get heal force;get heal force;quaff heal;quaff heal;quaff heal;quaff heal;quaff heal
+drag cast 'dragon'
+pul rem quench;wield pulse
+serve ord clones serve
+noh cast 'nohassle'
+getd wield laser;hold jack;hold drill;wear black body;wear all;open force;open 2.force;open 3.force;put stake bag;put silver bag
+plasma cast 'plasma' $*
+dim cast 'dimension' $*
+wa wake; stand
+z show zone $*
+main e;n;e;e;e;e;e;s;s
+clan e;n;e;e;e;e;e;s;s;d;s;s;s
+96 / #96 $*
+100 / #100 $*
+0 group all; cast 'group sanc';ungroup

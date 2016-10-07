@@ -1,0 +1,39 @@
+end get all.potion from bag;drop all.potion;rent
+rps get white from bag;quaff white
+rpb2 get red from 2.backpack;quaff red
+rpb get red from backpack;quaff red
+rph get red from bag;quaff red
+tp tell sargnok $*
+cw cast 'create water' at skin
+start wear all;hold stone;wield staff;put all in backpack;get bag from backpack;get skin from backpack;get knife from backpack
+cwskin cast 'create water' at skin
+et2 get meat from 2.backpack;get meat from 2.backpack;eat meat;eat meat
+et get meat from backpack;eat meat;get meat from backpack;eat meat
+ak assist kreep
+av assist vrenna
+iv cast 'infravision' at $*
+cl cast 'cure light' at $*
+bs remove staff;wield knife;backstab $*;remove knife;wield staff
+gac get all from corpse
+sd swordancer
+1 score
+mm cast 'magic missile' at $*
+p' gsay $*
+cheer : cheers with glee!!
+clme cast 'cure light' at kyoto
+ivme cast 'infravision' at kyoto
+sg cast 'shocking grasp' at $*
+ga get all
+cf cast 'create food';eat mushroom
+ccme cast c'cure critical' at kyoto
+sum cast 'summon' at $*
+rr : runs around the room with exitement!!
+cc cast 'cure critical' at $*
+jump : jumps up and down happily.
+crack : cracks her knuckles menacingly.
+flex : flexes her muscles. Fighters are so strong!!
+stretch : stretches like a cat. Very gracefully.
+invme cast 'invisibility' at kyoto
+inv cast 'invisibility' at $*
+wor cast 'word of recall'
+pbgs put all in backpack;get bag from backpack;get knife from backpack;get skin from backpack

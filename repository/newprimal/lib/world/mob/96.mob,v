@@ -1,0 +1,38 @@
+head	1.1;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.10.14.01.00.19;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@#15000
+Protector of Chaos~
+Chaos~
+The Protector is here guarding the guild.
+Don't even think about attacking him..
+~
+You see a HUGE Protector of Chaos.
+~
+288850 680 -999 S
+50 1 -10 10d100+3000 10d20+100
+15 100000
+8 8 0 5
+#99999
+$~
+@

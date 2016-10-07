@@ -1,0 +1,49 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.49;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@dr drink skin &*
+cw cast 'create water' $*
+ef eat mushroom &*
+da cast 'detect align' $*
+see cast 'infra' $*
+cf cast 'create food'
+x examine corpse &*
+b backstab &*
+c get coins corpse &*
+m buy meat &*
+bl cast 'blindness' $*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

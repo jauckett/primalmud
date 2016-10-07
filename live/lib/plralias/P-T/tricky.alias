@@ -1,0 +1,125 @@
+4
+heal
+14
+cast 'heal' $1
+1
+4
+evil
+18
+cast 'dispel good'
+0
+4
+good
+19
+cast 'dispel good' 
+0
+2
+rr
+13
+cast 'recall'
+0
+4
+tele
+11
+cast 'tele'
+0
+2
+hh
+11
+cast 'heal'
+0
+2
+cc
+16
+cast 'cure crit'
+0
+1
+9
+11
+look ground
+0
+3
+gag
+12
+get all gold
+0
+4
+gsal
+14
+get salve back
+0
+4
+salb
+18
+put all.salve back
+0
+4
+gala
+12
+get ala back
+0
+4
+pala
+16
+put all.ala back
+0
+3
+rec
+15
+get recall back
+0
+4
+rbak
+19
+put all.scroll back
+0
+2
+wb
+18
+put all.white back
+0
+3
+bak
+12
+look in back
+0
+6
+idback
+11
+get id back
+0
+2
+hb
+17
+put all.heal back
+0
+4
+gwhi
+14
+get white back
+0
+4
+gton
+13
+get heal back
+0
+2
+id
+12
+recite id $1
+1
+3
+gac
+17
+get all in corpse
+0
+2
+hp
+15
+say heal please
+0
+2
+sp
+17
+say spells please
+0

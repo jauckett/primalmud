@@ -1,0 +1,877 @@
+#800
+The annex of the nomad leader's tent~
+You are standing under the annex of the nomad leader's tent, to the
+east you can see inside the tent which is furnished with opulent
+rugs and cusions.
+~
+8 0 0
+D1
+Looking east you see several strange looking men
+~
+~
+0 -1 801
+D2
+Looking south you see many rugs lying on the floor
+~
+~
+0 -1 803
+S
+#801
+Inside the nomad leader's tent.~
+You are inside the nomad leader's tent. There are many fine
+rugs and cusions lying about the floor of the tent. The walls in this section
+of the tent are covered with fine, colourful silk.
+~
+8 0 0
+D3
+Looking west you see a beautiful harem girl
+~
+~
+0 -1 800
+S
+#802
+Under a palm tree.~
+You are standing under a palm tree by an oasis, all around you is
+the Great Sandy Desert. To  your north you can see a large castle that shines
+mysteriously in the sun's light.  To your south you can see a small oasis and
+beyond that the great sandy desert.
+~
+8 0 0
+D0 
+Looking north you see a large magnificent castle
+~
+~
+0 -1 850
+D2
+looking south you see a small oasis
+~
+~
+0 -1 808
+S
+#803
+Middle of nomad camp.~
+You are standing in the centre of a nomad camp. A large campfire
+surrounded by make shift furniture is here. A little way to the 
+north you can see a rather large tent.
+~
+8 0 0
+D0
+Looking north you see a large tent
+~
+~
+0 -1 800
+D1
+Looking east you can see the edge of this camp
+~
+~
+0 -1 804
+S
+#804
+Edge of a nomad camp~
+You are at the edge of a nomad camp. Further west is the centre of the
+camp, and to the south is a rough looking nomad tent. The desert 
+streches out the way you came to the east.
+~
+8 0 0
+D1
+Looking east you see the sandy desert
+~
+~
+0 -1 805
+D2
+Looking south you see several starved slaves
+~
+~
+0 -1 812
+D3
+Looking west you see the middle of the camp
+~
+~
+0 -1 803
+S
+#805
+Top of a sand dune~
+You have climbed up to the top of a sand dune. From here you get a 
+view of a small encampment to the west and a hint of greenery far 
+off to the east (could be a mirage though???). You can go down
+to the camp to the west, or climb back down the dune to the east.
+~
+8 0 130
+D1
+Looking east you see the desert stretching before you
+~
+~
+0 -1 806
+D3
+Looking west you see a small camp
+~
+~
+0 -1 804
+S
+#806
+Bottom of a sand dune.~
+You are at the base of an enourmous sand dune. You can climb up the
+dune to the west or head back into the desert to the south.
+~
+8 0 130
+D2
+Looking south you see the desert strecthing before you
+~
+~
+0 -1 815
+D3
+Looking west you see the top of the sand dunes
+~
+~
+0 -1 805
+S
+#807
+Edge of an oasis.~
+You are at the edge of an oasis which surrounds a pleasantly cool
+natural spring. Many birds and small rodents can be seen taking
+refuge here from the harsh desert.
+~
+8 0 0
+D1
+Looking east you see a shadey place to rest
+~
+~
+0 -1 808
+D2
+Looking south you see the desert strecthing before you
+~
+~
+0 -1 818
+S
+#808
+A small oasis.~
+You are in the middle of a small oasis. A small path leads out into 
+the desert past a cool, gurgling spring to the east. An ancient palm
+tree grows out of the sandy soil to the north. Many birds and small
+creatures are taking refuge here from the harsh desert.
+Looking north you can see a large castle in the distance
+~
+8 4 0
+D0
+Looking north you see a crystal castle
+~
+~
+0 -1 802
+D1
+As you look east you see a small spring
+~
+~
+0 -1 809
+D2
+Looking south you see the desert stretcing before you
+~
+~
+0 -1 819
+D3
+As you look west you see the edge of this oasis
+~
+~
+0 -1 807
+S
+#809
+Near a spring.~
+You are on a small path which continues east out into the desert.
+A lovely cool spring is to the south and to the west is a nice
+grassy glade in the centre of the oasis.
+~
+8 0 0
+D1
+Looking east you see the desert continues towards a strange rope
+~
+~
+0 -1 810
+D2
+Looking south you see a cool spring
+~
+~
+0 -1 820
+D3
+Looking west you see the oasis
+~
+~
+0 -1 808
+S
+#810
+Great Sandy Desert.~
+You are walking through the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+A small oasis welcomes you to the west and in the distance to your west
+you see a strange rope leading up into a strange abyss. 
+~
+8 0 130
+D1
+Looking east you see the sandy desert continues
+~
+~
+0 -1 811
+D3
+Looking west you see a small oasis
+~
+~
+0 -1 809
+S
+#811
+Great Sandy Desert.~
+The hot sun beats down onto your head, making you sweat profusly. 
+This in turn is making you feel extremely thirsty, yet your small 
+canteen of water is quickly becoming empty. You hope that that is a small
+spring you see up ahead is not a mirage.
+~
+8 0 130
+D2
+Looking south you see a strange rope in the distance
+~
+~
+0 -1 821
+D3
+Looking west you can see a small oasis in the distance
+~
+~
+0 -1 810
+S
+#812
+Nomad slave's tent.~
+This is the nomad slave's tent. It is furnished with rough tattered
+rugs and matting.
+~
+8 0 130
+D0
+Looking north you see the middle of the camp
+~
+~
+0 -1 804
+S
+#813
+Great Sandy Desert.~
+You are walking thru the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+~
+8 0 130
+D1
+~
+~
+0 -1 814
+D2
+~
+~
+0 -1 823
+S
+#814
+Great Sandy Desert.~
+You are walking thru the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+~
+8 0 130
+D1
+~
+~
+0 -1 815
+D2
+~
+~
+0 -1 829
+D3
+~
+~
+0 -1 813
+S
+#815
+Great Sandy Desert.~
+You are walking thru the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+~
+8 0 130
+D0
+~
+~
+0 -1 806
+D1
+~
+~
+0 -1 816
+D3
+~
+~
+0 -1 814
+S
+#816
+Great Sandy Desert.~
+You are walking thru the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+~
+8 0 130
+D1
+~
+~
+0 -1 817
+D3
+~
+~
+0 -1 815
+S
+#817
+Great Sandy Desert.~
+You are walking thru the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+~
+8 0 130
+D1
+~
+~
+0 -1 818
+D3
+~
+~
+0 -1 816
+S
+#818
+Great Sandy Desert.~
+You are walking thru the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+A small oasis welcomes you to the north.
+~
+8 0 130
+D0
+~
+~
+0 -1 807
+D1
+~
+~
+0 -1 819
+D3
+~
+~
+0 -1 817
+S
+#819
+Great Sandy Desert.~
+You are walking thru the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+A small oasis welcomes you to the north.
+~
+8 0 130
+D0
+~
+~
+0 -1 808
+D3
+~
+~
+0 -1 818
+S
+#820
+By a cool spring.~
+You are standing by a lovely cool spring which brings life to
+this small oasis in the desert.
+~
+8 0 0
+D0
+Looking north you see the edge of the oasis
+~
+~
+0 -1 809
+S
+#821
+Great Sandy Desert.~
+The hot sun beats down onto your head, making you sweat profusly. 
+This in turn is making you feel extremely thirsty, yet your small 
+canteen of water is quickly becoming empty. You hope that that is a small
+spring you see up ahead is not a mirage. To your east you can see a 
+strange shimmering Rope that leads up into the sky. You wonder what could
+possibly be above this unusual rope.
+~
+8 0 130
+D0
+Looking north you see the desert stretching before you
+~
+~
+0 -1 811
+D1
+Looking east you see a strange rope
+~
+~
+0 -1 822
+S
+#822
+Great Sandy Desert.~
+You are walking thru the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+To the east you can see the grand gates of new Thalos. The gates
+seem to be closed.  A strange shimmering Rope extends up into the
+sky here.  Could it be just a hallucination.
+~
+8 0 130
+D3
+Looking west you see the desert stretching for miles around
+~
+~
+0 -1 821
+D4
+You see a shimmering Magic-Rope Extending into the sky~
+~
+0 -1 1897
+S
+#823
+Great Sandy Desert.~
+The hot sun beats down onto your head, making you sweat profusly. 
+This in turn is making you feel extremely thirsty, yet your small 
+canteen of water is quickly becoming empty. You hope that that is a small
+spring you see up ahead is not a mirage. 
+~
+8 0 130
+D0
+~
+~
+0 -1 813
+S
+#824
+Great Sandy Desert.~
+As you walk through the sandy desert the wind blows the sand across your 
+footprints and you begin to think that maybe you are walking around in 
+circles. You beging to get the distinct impression that you have been in 
+this spot before.
+~
+8 0 130
+D1
+~
+~
+0 -1 825
+S
+#825
+Great Sandy Desert.~
+You are walking through the Great Sandy Desert. As you walk across the
+sands you notice that there is very few signs of life. The sun as it 
+beats down on your back is extremely hot and your throat is becoming 
+parched.
+~
+8 0 130
+D2
+~
+~
+0 -1 832
+D3
+~
+~
+0 -1 824
+S
+#826
+Great Sandy Desert.~
+As you walk through the sandy desert the wind blows the sand across your 
+footprints and you begin to think that maybe you are walking around in 
+circles. You beging to get the distinct impression that you have been in 
+this spot before.
+~
+8 0 130
+D2
+~
+~
+0 -1 834
+S
+#827
+Great Sandy Desert.~
+You are walking through the Great Sandy Desert. As you walk across the
+sands you notice that there is very few signs of life. The sun as it 
+beats down on your back is extremely hot and your throat is becoming 
+parched.
+~
+8 0 130
+D1
+~
+~
+0 -1 828
+D2
+~
+~
+0 -1 836
+S
+#828
+Great Sandy Desert.~
+You are standing at a section in the Sandy Desert that appears to receive 
+a great deal of traffic. You are aware of this by the amount of footprints
+you see in the sand that head off in every direction. The only problem is
+you have no idea which direction you should take.
+~
+8 0 130
+D0
+~
+~
+0 -1 823
+D1
+~
+~
+0 -1 829
+D2
+~
+~
+0 -1 837
+S
+#829
+Great Sandy Desert.~
+The hot sun beats down onto your head, making you sweat profusly. 
+This in turn is making you feel extremely thirsty, yet your small 
+canteen of water is quickly becoming empty. You hope that that is a small
+spring you see up ahead is not a mirage.
+~
+8 0 130
+D1
+~
+~
+0 -1 830
+D3
+~
+~
+0 -1 828
+S
+#830
+Great Sandy Desert.~
+You are standing at a section in the Sandy Desert that appears to receive 
+a great deal of traffic. You are aware of this by the amount of footprints
+you see in the sand that head off in every direction. The only problem is
+you have no idea which direction you should take.
+~
+8 0 130
+D0
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 824
+D2
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 838
+D3
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 829
+S
+#831
+Great Sandy Desert.~
+You are walking through the Great Sandy Desert. As you walk across the
+sands you notice that there is very few signs of life. The sun as it 
+beats down on your back is extremely hot and your throat is becoming 
+parched.
+~
+8 0 130
+D1
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 832
+D2
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 839
+S
+#832
+Great Sandy Desert.~
+You are standing at a section in the Sandy Desert that appears to receive 
+a great deal of traffic. You are aware of this by the amount of footprints
+you see in the sand that head off in every direction. The only problem is
+you have no idea which direction you should take.
+~
+8 0 130
+D0
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 825
+D1
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 833
+D2
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 840
+D3
+You see the sandy desert stretching out for miles
+~
+~
+0 -1 831
+S
+#833
+Great Sandy Desert.~
+The hot sun beats down onto your head, making you sweat profusly. 
+This in turn is making you feel extremely thirsty, yet your small 
+canteen of water is quickly becoming empty. You hope that that is a small
+spring you see up ahead is not a mirage.
+~
+8 0 130
+D1
+Looking east you see the sands stretching before you
+~
+~
+0 -1 834
+D3
+Looking west you see a strange man walking camels through the sand
+~
+~
+0 -1 832
+S
+#834
+Great Sandy Desert.~
+You are standing amonst extremely large, uncrossable, sand dunes. They tower
+above you and you wonder what lies beyond them. If you are ever going to 
+find out it will be by walking around them, as there is no way you are going
+to be able to walk over them.
+~
+8 0 130
+D3
+Looking west you see a strange man walking camels through the sand
+~
+~
+0 -1 833
+S
+#835
+Great Sandy Desert.~
+You are walking through the Great Sandy Desert. As you walk across the
+sands, your tracks are quickly covered over by the blowing sands.
+To the west are the grand gates of Thalos.
+~
+8 0 130
+D1
+Looking east you see the sands stretching before you
+~
+~
+0 -1 836
+D2
+looking south you see the gates to a large city
+~
+~
+0 -1 5204
+S
+#836
+Great Sandy Desert.~
+You are standing at a section in the Sandy Desert that appears to receive 
+a great deal of traffic. You are aware of this by the amount of footprints
+you see in the sand that head off in every direction. The only problem is
+you have no idea which direction you should take.
+~
+8 0 130
+D0
+Looking north you see a snake lying in the sun
+~
+~
+0 -1 827
+D1
+Looking east you see a strange man walking camels through the sand
+~
+~
+0 -1 837
+D3
+Looking west you see a strange man walking camels through the sand
+~
+~
+0 -1 835
+S
+#837
+Great Sandy Desert.~
+You are standing amonst extremely large, uncrossable, sand dunes. They tower
+above you and you wonder what lies beyond them. If you are ever going to 
+find out it will be by walking around them, as there is no way you are going
+to be able to walk over them.
+~
+8 0 130
+D3
+Looking west you see the sandy desert
+~
+~
+0 -1 836
+S
+#838
+Great Sandy Desert.~
+The hot sun beats down onto your head, making you sweat profusly. 
+This in turn is making you feel extremely thirsty, yet your small 
+canteen of water is quickly becoming empty. You hope that that is a small
+spring you see up ahead is not a mirage.
+~
+8 0 130
+D0
+Looking north you see a large snake lying in the sun
+~
+~
+0 -1 830
+D1
+Looking east you see an old camel walking through the sands
+~
+~
+0 -1 839
+S
+#839
+Great Sandy Desert.~
+You are walking through the Great Sandy Desert. As you walk across the
+sands you notice that there is very few signs of life. The sun as it 
+beats down on your back is extremely hot and your throat is becoming 
+parched.
+~
+8 0 130
+D0
+Looking north you see the desert sands stretching before you
+~
+~
+0 -1 831
+D3
+Looking west you see a camel walking through the sands
+~
+~
+0 -1 838
+S
+#840
+Great Sandy Desert.~
+As you walk across the sands you notice that the only form of life you 
+have seen so far are a few camels and snakes. Your tracks are quickly 
+covered over by the blowing sands as you continue through the desert, making
+you quickly loose all sense of direction.
+~
+8 0 130
+D0
+Looking north you see the desert sands stretching before you
+~
+~
+0 -1 832
+D2
+As you look south you see an old camel crossing the sands
+~
+~
+0 -1 841
+S
+#841
+Great Sandy Desert.~
+You are walking through the Great Sandy Desert. As you walk across the
+sands you notice that there is very few signs of life. The sun as it 
+beats down on your back is extremely hot and your throat is becoming 
+parched.
+~
+8 0 130
+D0
+Looking north you see the desert sands stretching before you
+~
+~
+0 -1 840
+D2
+As you look south you see an old camel crossing the sands
+~
+~
+0 -1 842
+S
+#842
+Great Sandy Desert.~
+As you walk across the sands you notice that the only form of life you 
+have seen so far are a few camels and snakes. Your tracks are quickly 
+covered over by the blowing sands as you continue through the desert, making
+you quickly loose all sense of direction.
+~ 
+8 0 130
+D0
+Looking north you see a small rise in the sands
+~
+~
+0 -1 841
+D1
+As you look east you see the desert sand stretching before you
+~
+~
+0 -1 843
+S
+#843
+Great Sandy Desert.~
+You are walking through the Great Sandy Desert. As you walk across the
+sands you notice that there is very few signs of life. The sun as it 
+beats down on your back is extremely hot and your throat is becoming 
+parched.
+~ 
+8 0 130
+D1
+As you look east you see the desert sand stretching before you
+~
+~
+0 -1 844
+D3
+Looking west you see a camel walking through the sands
+~
+~
+0 -1 842
+S
+#844
+Great Sandy Desert.~
+As you walk across the sands, your tracks are quickly covered over by the 
+blowing sands. Looking to your east you can just see the end of Darask Road
+and a small city. As you look west you see the desert stretching before 
+you with very little signs of life.
+~
+8 0 130
+D1
+Looking east you can see the end of Darask Road and a small city
+~
+~
+0 -1 845
+D3
+Looking west you see miles of sand stretching before you
+~
+~
+0 -1 843
+S
+#845
+Great Sandy Desert.~
+You are standing at the beginning of the Great Sandy Desert. Stretching 
+for miles you see nothing but sand and as you walk through the desert your 
+tracks are quickly covered over by the blowing sands. 
+~
+8 0 130
+D1
+Looking east you can see the end of Darask Road and a small city
+~
+~
+0 -1 5545
+D3
+Looking west you see miles of sand stretching before you
+~
+~
+0 -1 844
+S
+#850
+Before the Crystal Castle.~
+You are standing before the Crystal Castle, all around you is
+the Great Sandy Desert.
+~
+8 0 0
+D0
+Looking north you see the castle 
+~
+~
+0 -1 851
+D2
+Looking south you see the desert stretching for miles
+~
+~
+0 -1 802
+S
+#851
+Before the Crystal Castle.~
+You are standing before the Crystal Castle, all around you is
+the Great Sandy Desert.
+~
+8 0 0
+D0
+Looking north you see the castle 
+~
+~
+0 -1 2001
+D2
+Looking south you see the desert stretching for miles
+~
+~
+0 -1 850
+S
+$~

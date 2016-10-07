@@ -1,0 +1,49 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.47;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@gb get $1 from backpack
+pb put $1 in backpack
+em get meat from backpack;eat meat
+clr c 'cure light' Rogue
+cl c 'cure light' $1
+eb eat bread
+rc get corpse; junk corpse
+gac get all corpse
+up wake;stand
+lb look in backpack
+dr get skin from backpack;drink skin;put skin in backpack
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

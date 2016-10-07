@@ -1,0 +1,64 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.46;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@gmb get meat backpack $*
+pamc put all.meat backpack $*
+p get red backpack ; quaff red $*
+parb put all.red backpack $*
+pamb put all.meat backpack $*
+cure cast 'cure light' carley $*
+csg cast 'shocking grasp' $*
+cct cast 'chill touch' $*
+wa wear all $*
+kd kill drunk $*
+kg kill goblin $*
+wake wake ; stand $*
+eb eat bread ; eat bread $*
+cm cast 'magic missile' $*
+ws wield staff $*
+kw kill worker $*
+kj kill janitor $*
+ks kill skeleton $*
+kr kill rat $*
+kc kill cat $*
+cs cast 'strength' $*
+ds drink skin $*
+pbb put bread bag $*
+psb put skin bag $*
+kb kill beggar $*
+gac get all corpse ; save ; get corpse ; junk corpse ; $*
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

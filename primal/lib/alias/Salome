@@ -1,0 +1,52 @@
+k kill  pig
+2 cast 'cure critic'
+kk alias k kill $*;rem sword;wield super;backstab $*;rem super;wield sword;kill $*
+ri rec identify $*
+eek cast 'word of recall' $*
+cd cast 'dragon'
+td track duwick
+zz cast 'cure light' yael
+pp split $*
+1 assist yael
+kg backstab gate
+kb backstab bear
+eb get bread crate;get bread crate;eat bread;eat bread
+zx get all all.corpse;get all.corpse;junk all.corpse
+ks kill spectator
+kl kill lady
+km kill merchant
+kj kill janitor
+kn kill nobleman
+kv kill vendor
+ksp kill spectator
+qr q red
+gr grat --------@ Masseltov $* @----------
+sl sleep
+kc kill citizen
+6 cast 'infravision'
+kd kill drunk
+pu put all.potion crate
+ku kill undead
+ds drink skin
+op open gate
+kt kill trickster
+ts track solar
+7 cast 'detect invis'
+aa cast 'cure light' aazza
+kf kill farmer
+kw kill waitress
+kwt kill waiter
+kad kill adventurer
+kh kill horse
+bs backstab $*
+kgg kill gate
+tt track duwick
+br buy 10 red;put all.red crate
+bw buy 10 white;put all.white crate
+qw get white crate;q white
+3 get red crate;q red
+tb track buffalo
+oo open door
+tf track fisherman
+5 cast 'invisibility'
+tg track guinevere

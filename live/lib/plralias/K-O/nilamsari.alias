@@ -1,0 +1,45 @@
+2
+sg
+21
+cast 'shocking grasp'
+0
+2
+eq
+6
+eq;inv
+1
+2
+sc
+5
+score
+0
+2
+bh
+19
+cast 'burning hand'
+0
+2
+dv
+17
+cast 'detect inv'
+0
+2
+rr
+29
+get recall back;recite recall
+1
+2
+dw
+38
+get skin back;drink skin;put skin back
+1
+2
+qr
+18
+get red back;q red
+1
+2
+qw
+22
+get white back;q white
+1

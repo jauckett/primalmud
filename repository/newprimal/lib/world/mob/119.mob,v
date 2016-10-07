@@ -1,0 +1,1626 @@
+head	1.14;
+access;
+symbols
+	A3_0_1:1.2;
+locks; strict;
+comment	@# @;
+
+
+1.14
+date	2004.05.29.01.27.47;	author mud;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.05.23.07.21.48;	author mud;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.01.30.10.39.32;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.01.25.22.48.20;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.01.21.08.51.31;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.10.13.10.23;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.11.08.11.59.20;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.20.12.01.51;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.14.05.26.00;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2002.01.17.00.05.13;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.04.11.15.02.45;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.01.22.22.45.43;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.04;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.14
+log
+@Artus> Sync.
+@
+text
+@#11900
+Blue shield~
+A &BTwo-Headed&n Shield&n~
+A &BTwo-Headed&n Shield is watching you intently!
+~
+This two-headed blue shield is very strange indeed! It has a dog like&n
+face with long whiskers.  He wears blue and white striped socks and has&n
+a nice blue stripe through his shield that seems to cover his body!&n
+The second head is between it's Legs!&n
+~
+2058 0 0 E
+12 9 9 3d7+140 1d36+4
+3967 13000
+8 8 1
+BareHandAttack: 10
+E
+#11901
+helping hands~
+the helping hands~
+The hands that grow out the wall are stopping the descent!
+~
+The hands are there to help anyone that sings out! Since you have they&n
+have stopped you from falling any further! &n
+~
+2058 0 100 E
+10 14 11 3d5+110 2d21+3
+5050 5500
+8 8 0
+E
+T 11903
+T 11911
+#11902
+helping hands~
+the helping hands~
+The hands that grow out the wall are stopping the descent!
+~
+The hands are there to help anyone that sings out! Since you have they have stopped you from falling any further! 
+~
+2058 0 100 E
+10 14 11 3d5+110 2d21+3
+5050 5500
+8 8 0
+E
+T 11912
+T 11903
+#11903
+gremlin goblin~
+a tiny gremlin~
+A tiny gremlin is running around the room
+~
+The gremlin is small, furry and running around laughing hysterically.&n
+He is obviously very excited about something.&n
+~
+10 0 -100 E
+5 16 12 2d6+65 2d15+1
+1735 2500
+8 8 1
+BareHandAttack: 8
+E
+#11904
+Owl~
+a Flying Owl~
+A Beautiful White Owl is flying above you.
+~
+This bird is magnificent! He is Pure white with Big round brown eyes that &n
+when they look at you they seem to look at your soul!  &n
+~
+2058 8 50 E
+12 9 9 4d6+140 1d36+5
+4082 13000
+8 8 0
+BareHandAttack: 10
+E
+T 11901
+T 11925
+#11905
+Fly Flies Fairy Fairies~
+a tiny little fairy~
+a Fly is flying around trying to avoid the spray.
+~
+This delicate creature is surely a piece of god's work! She is small and dainty&n
+She has the most fragile wings and can fit in the palm of your hand!&n
+And she is definately NOT a fly she is a beautiful Fairy!&n
+~
+74 131072 0 E
+3 18 12 3d6+30 1d9+2
+2167 2500
+8 8 2
+BareHandAttack: 4
+E
+#11906
+Red shield~
+A &RTwo-Headed&n Shield&n~
+A &RTwo-Headed Shield&n is sulking in the corner!
+~
+This is a strange character indeed! He has a head at the top and one between&n
+his legs!! He wears red and white striped socks and a nice red stripe through &n
+the shield, which seems to be his body! &n
+~
+10 0 -50 E
+14 5 9 4d7+150 1d42+6
+5040 17000
+8 8 1
+BareHandAttack: 10
+E
+#11907
+small monkey~
+a tiny little monkey~
+A little monkey is climbing out from under the sandstones
+~
+This tiny little monkey is wearing a red jacket and a pair of shorts.&n
+He is cursing and swearing about the markings on the stones!&n
+It is going to take him ages to clean that off them!&n
+~
+10 0 0 E
+10 11 10 3d7+120 2d30+3
+3517 9000
+8 8 1
+BareHandAttack: 4
+E
+#11908
+worm purple~
+a little worm~
+A little worm is perched on the ledge.
+~
+This tiny little worm has purple spikey hair and big round eyes.&n
+He is rather plump for his size so the missus must feed him well.&n
+~
+2058 0 0 E
+11 10 10 4d5+130 2d33+3
+3712 11000
+8 8 1
+BareHandAttack: 4
+E
+T 11902
+#11909
+fortune teller~
+the fortune teller~
+An old fortune teller is sitting here
+~
+You see an old man, who has the ability to see into the future and past.&n
+He is wearing old ragged clothing and has a long white beard.&n
+~
+6155 8 -100 E
+14 7 9 2d7+170 1d42+6
+4849 17000
+6 6 1
+E
+T 11907
+T 11906
+T 11908
+#11910
+bird flamingo~
+the flamingo bird~
+A flamingo bird stands next to the fortune teller. He is trying to get back up.
+~
+This bird is usually purched on the fortune tellers head! For some reason&n
+he is down on the ground, could it be he is sick of the old man constantly&n
+falling asleep on him?&n
+~
+6282 8 0 E
+10 11 10 3d4+110 1d30+4
+3422 9000
+8 8 0
+BareHandAttack: 4
+E
+T 11920
+#11911
+Sir Didimus~
+Sir Didimus~
+Sir Didimus is here, stopping people from crossing the bridge
+~
+Sir Didimus is a small little creature that closely resembles a
+little yappy dog. You know the kind, the ones that yapp at your
+ankles and have sharp little teath.
+~
+256010 8 50 E
+23 0 6 4d10+600 3d36+22
+8628 45000
+8 8 1
+E
+#11912
+sand hand~
+the sand hand~
+The sand hand is here pointing the way out of the labyrinth.
+~
+The hand has grown out of the sand pillars and is walking&n
+around pointing to the castle! So it MUST know the way out of the &n
+maze better than you!&n
+~
+72 0 10 E
+4 17 12 3d4+40 1d12+1
+1500 1500
+8 8 0
+BareHandAttack: 8
+E
+#11913
+Eye Eyes Labyrinth~
+Eye's of the wall~
+The eye's of the wall watch everyone who pass by
+~
+They are eyeballs hanging off mould.  They have grown out of the wall and&n are
+fasinated by people passing by.  &n
+~
+10 0 0 E
+6 15 11 3d6+75 2d18+2
+2156 1500
+8 8 0
+E
+#11914
+dog ambroshus~
+Ambroshus~
+Ambroshus stands here, trembling with fear.
+~
+When looking closely at Ambroshus he can remind people
+of a shaggy old sheepdog. The only difference between
+him and the sheepdog is Ambroshus always has a very ornate
+saddle on his back that Sir Didimus uses to ride him.
+So i suppose you could say Ambroshus is a horse BUT he isn't!
+~
+10 0 -100 E
+11 10 10 3d6+140 2d33+3
+4002 11000
+8 8 0
+E
+#11915
+Fire Creature~
+the fire creature~
+A fire creature is here singing and dancing around the fire.
+~
+The fire creature has red shaggy fur around it's body. He &n
+has long dangly legs and a very strange almost dog like face&n
+with pointy ears and very sharp teeth.&n
+~
+2058 0 -50 E
+17 4 8 4d8+210 1d51+11
+15300 85000
+8 8 1
+BareHandAttack: 4
+E
+#11916
+goblin warrior~
+the helmetted goblin warrior~
+A helmetted Goblin warrior is walking around looking for someone to pick on
+~
+The goblin has a huge helmet on his head that comes down to his shoulders.&n
+It has a slit in the front for his eyes and that is all you can see.&n
+He is a very aggressive warrior and his weapon is rather evil itself!&n
+~
+72 0 -150 E
+8 13 11 2d4+100 4d6+2
+2783 3750
+8 8 1
+E
+#11917
+fire creature~
+the fire creature~
+A fire creature is here dancing around the fire.
+~
+The female fire creature is a smaller version of the&n
+male. She still has red shaggy hair covering her face and the&n
+same sharp teeth and a protruding snout!&n
+~
+2120 0 100 E
+15 15 12 5d5+150 7d7+5
+12343 12433
+8 8 2
+BareHandAttack: 4
+E
+#11918
+warning stone~
+the warning stone~
+a solid stone block is here telling you to GO BACK
+~
+This stone is designed to warn people that they are &n
+on the wrong path! Or are they?&n
+~
+14 0 100 E
+11 10 10 3d6+130 1d33+5
+3802 11000
+8 8 1
+BareHandAttack: 6
+E
+#11919
+little old man~
+a little old Man~
+A little old man is sitting on a ledge.
+~
+As you peer at this man, you realise that it could be the Goblin King
+indisguse! He has a rather large pointy hat on and a flowing cape around
+his neck. His boots are made of the finest leather and his pants are rather
+baggy but i am sure they are comfortable! 
+~
+2122 136 -100 E
+17 4 8 3d5+220 6d10+9
+6506 28000
+8 8 1
+E
+#11920
+snoozing sleeping goblin guard~
+a City Gate guard~
+The City Gate guard is sleeping here
+~
+This little goblin guard has fallen asleep at his post. He isn't
+being silent about the fact either! He wears his normal goblin 
+armor and one would have to wonder that that must be uncomfortable
+sleeping in it.
+~
+2058 136 90 E
+27 0 4 10d5+650 3d81+15
+16913 100000
+4 4 1
+BareHandAttack: 7
+E
+T 11921
+T 11922
+T 11923
+#11921
+silver shiny cleaners~
+the cleaners~
+The cleaners are here and they are ready to clean up anything in their way
+~
+The cleaner is a silver domed object that fits snuggly into the tunnel.&n
+As it moves along it has blades twirling at the front that reduce&n
+anything and everything to fine particles of dust!  This is a fierce&n
+machine that is capable of extreme damage.&n
+~
+2058 8 -90 E
+18 2 7 3d6+220 1d54+6
+5990 32000
+8 8 0
+E
+#11922
+knocker door deaf~
+the deaf door knocker~
+The door knocker is standing here with the ring in his ears
+~
+The door knocker is made of solid brass.  He is rather dull &n
+in colour due to the age he is and the fact that nobody has&n
+come to clean him in years.  His ring that knocks on the door&n
+is wedged firmly within his ears so he can't hear very well at&n
+all&n
+~
+2058 0 90 E
+21 0 6 20d5+260 1d63+11
+7981 45000
+8 8 1
+BareHandAttack: 7
+E
+#11923
+knocker door mumbling~
+the mumbling door knocker ~
+The door knocker is here with the ring wedged firmly in his mouth.
+~
+The mumbling door knocker is made of solid brass and is always&n
+griping about nobody to speak too as the deaf knocker can't hear&n
+him.  He doesn't realise that he can't talk properly as the&n
+ring that knocks on the door is wedged in his mouth.&n
+~
+2058 0 -90 E
+17 3 8 4d4+210 1d51+9
+6080 28000
+8 8 1
+BareHandAttack: 7
+E
+#11924
+stenchball stench ball~
+a stenchball~
+A stenchball rises from the murky water creating awful smells!
+~
+There is a "ball" of stench rising from the pit of Eternal Stench!    
+~
+46 40 -50 E
+12 9 9 3d4+145 2d36+4
+4022 13000
+8 8 0
+E
+#11925
+david goblin king~
+the Goblin King~
+The Goblin King is standing here, looking rather happy 
+~
+He is the king of the demi humans, and has unlimited magical abilities.  His
+love is for a mortal girl that can be his undoing!  He has grown tired and
+weiry of the games he has to play to keep her brother and try to lure her to
+his side.    
+~
+2059 136 0 E
+23 0 6 5d10+425 1d69+14
+10797 55000
+8 8 1
+E
+T 11927
+T 11929
+#11926
+Metal goblin~
+Metal Goblin~
+A huge Metal Goblin walks out of the gate, and is looking for a fight.
+~
+This huge goblin has come to life from the very gates themselves.  This goblin
+is their first line of defense and he really is awesome!    
+~
+42 136 50 E
+24 0 5 1d5+450 1d72+14
+12100 60000
+8 8 1
+E
+T 11941
+#11927
+party goer masquarade~
+a party-goer~
+A party-goer is here, having fun in the party.
+~
+The person is highly dressed in odd looking clothes.  He wears a mask over his
+face so you can't see his real face.    
+~
+2056 0 -50 E
+10 11 10 3d5+120 2d30+3
+3487 9000
+8 8 1
+E
+#11928
+party goer masq~
+a party-goer~
+The party-goer stands here waiting to be asked to dance.
+~
+This fine young female is dressed in her best clothes.  She wears a delicate
+silver and lace mask over her face.  Her hair is in fine ringlets and she looks
+rather stunning.    
+~
+2056 8 50 E
+16 5 8 1d5+200 2d48+5
+5454 24000
+8 8 0
+E
+#11929
+male fine party goer~
+a party-goer~
+A fine looking male stands here waiting for something interesting to happen.
+~
+Another male who is attending the party and waiting for the action to start.  
+He wears a mask that resembles a bird over his true face.    
+~
+2056 0 0 E
+11 9 10 3d6+130 2d33+3
+4019 11000
+8 8 1
+E
+#11930
+david goblin king~
+Goblin King~
+The King of the Goblins, is waiting patiently here.
+~
+He is the king of the demi humans, and has unlimited magical abilities.
+His love is for a mortal girl that can be his undoing! He has grown tired and
+weiry of the games he has to play to keep her brother and try to lure her to his
+side.
+~
+7470969 136 -1000 E
+115 -90 -20 10d30+30000 25d35+110
+90000 1000000
+8 8 1
+BareHandAttack: 10
+E
+#11931
+Sarah~
+Sarah~
+Sarah, is it reallly fair? Is still struggling to find Toby is standing here.
+~
+She is a young girl who lives in a world of fantasy.  Only this afternoon she
+was beratting her younger brother Toby from playing with her favorite teddy,
+Lancelot.  Her punishment to him was to invoke the Goblin king to take him
+away.  Now she must find him before the 13 hours are up!    
+~
+7466809 136 1000 E
+100 -70 -20 9d10+20950 30d30+90
+85500 950000
+8 8 2
+E
+#11932
+Ludo~
+Ludo~
+Ludo the stone master, is standing here.
+~
+Here stands a beast that walks on his hind legs, his body is covered with thick
+red hair and he has two horns pointing out of the top of his head.  His tail is
+as thick as a pair of legs.  His face is like hard leather but he has a very
+"dumb" look apon his face.  Unfortunately for Ludo he may be able to summon the
+stones to his side but he wasn't given a very big brain.    
+~
+7466809 136 1000 E
+97 -80 -20 15d10+20250 20d27+80
+82800 920000
+8 8 1
+E
+T 11944
+#11933
+Dwarf Goblin Hoggle~
+Hoggle~
+Hoggle the dwarf is standing here muttering to himself.
+~
+Now here is a demihuman that isn't really pretty to look at!  His large bolbous
+head seems out of proportion to the rest of his body!  He has a big hooked nose
+and when he smiles you can see his yellow and black crooked teeth.  His legs
+are short and stumpy and he can't run all that fast.  The only thing Hoggle
+likes more than killing fairies is collecting plastic jewelery.    
+~
+7597881 136 -1000 E
+95 -60 -15 5d10+20005 20d20+60
+81000 900000
+8 8 1
+E
+#11934
+toby boy~
+Sarah's Brother Toby~
+Sarah's brother Toby is looking rather glum.
+~
+Sarah wished me away and the Goblin King grabbed me. So now I 
+am waiting on her to solve his labyrinth and find me at the 
+end so I can go home! If she doesn't he will turn me into 
+a nasty, horrible looking goblin!
+~
+256010 136 650 E
+23 0 6 4d10+600 1d69+24
+7028 35000
+8 8 1
+E
+T 11928
+T 11932
+#11935
+rubbish lady~
+the rubbish lady~
+The Rubbish lady stands here, looking for something to keep.
+~
+You see a very old, haggard looking lady who is carrying everything she owns or
+has collected on her back.  At first she just looks like a pile of rubbish
+until you try and climb over her!    
+~
+44 8 -250 E
+20 1 7 2d6+260 2d60+14
+7260 40000
+8 8 2
+E
+#11936
+david goblin king~
+the Goblin King~
+The King of the Goblins, is waiting patiently here.
+~
+He is the king of the demi humans, and has unlimited magical abilities.  His
+love is for a mortal girl that can be his undoing!  He has grown tired and
+weiry of the games he has to play to keep her brother and try to lure her to
+his side.    
+~
+2058 8 900 E
+33 0 2 6d10+800 2d99+22
+3100 63472
+8 8 1
+E
+#11937
+goblin ugly toby~
+a very ugly goblin~
+A very ugly goblin stands before you rather annoyed at being transformed.
+~
+This ugly goblin was once a little boy! The Goblin king transformed
+him because nobody could solve the Labyrinth and find the King in
+time to save poor Toby.
+~
+2058 8 900 E
+33 0 2 1d1+700 2d99+22
+7105 63472
+8 8 1
+E
+#11938
+Sir didymus dog~
+Sir Didymus~
+Sir Didymus is standing here taking on all the goblins!
+~
+Here stands a small but fierce warrior.  He has the look of a small dog and he
+can yap like one too.  He is dressed in attire more suited to a gentleman of
+the kings court.  The feather hat sits lopsided on his head.  The baggy pants
+that he wears has seen finer days and for some reason there is an awful stench
+that hangs around him.    
+~
+8125816 50369536 1000 E
+95 -70 -15 1d1000+10025 12d65+90
+500 950000
+8 8 0
+BareHandAttack: 4
+E
+#11939
+Ambroshus Dog~
+Ambroshus~
+Ambroshus who is cowering in the corner is here.
+~
+Ambroshus is a coward!  He is shaking like a leaf and trying to exit out the
+gate.  His master is calling him and threatening him with no food but that
+still won't get him to move away from the gate.    
+~
+15988954 0 0 E
+95 -70 -11 1d1+11000 15d35+90
+3000 950000
+8 8 0
+BareHandAttack: 4
+E
+T 11939
+#11940
+helping hands~
+the helping hands~
+The hands that grow out the wall are stopping the descent!
+~
+The hands are there to help anyone that sings out! Since you have they have stopped you from falling any further! 
+~
+2058 0 0 E
+10 14 11 3d5+110 2d21+3
+5050 5500
+8 8 0
+E
+T 11903
+T 11913
+#11941
+helping hands~
+the helping hands~
+The hands that grow out the wall are stopping the descent!
+~
+The hands are there to help anyone that sings out! Since you have they have stopped you from falling any further!
+~
+2058 0 0 E
+10 14 11 3d5+110 2d21+3
+5050 5500
+8 8 0
+E
+T 11914
+T 11903
+#11942
+helping hands~
+the helping hands~
+The hands that grow out the wall are stopping the descent!
+~
+The hands are there to help anyone that sings out! Since you have they have stopped you from falling any further!
+~
+2058 0 0 E
+10 14 11 3d5+110 2d21+3
+5050 5500
+8 8 0
+E
+T 11903
+T 11915
+#11943
+helping hands~
+the helping hands~
+The hands that grow out the wall are stopping the descent!
+~
+The hands are there to help anyone that sings out! Since you have they have stopped you from falling any further!
+~
+2058 0 0 E
+10 14 11 3d5+110 2d21+3
+5050 5500
+8 8 0
+E
+T 11903
+T 11916
+#11944
+helping hands~
+the helping hands~
+The hands that grow out the wall are stopping the descent!
+~
+The hands are there to help anyone that sings out! Since you have they have stopped you from falling any further!
+~
+2058 0 0 E
+10 14 11 3d5+110 2d21+3
+5050 5500
+8 8 0
+E
+T 11903
+T 11917
+#11945
+horse stallion~
+a beautiful pure black stallion~
+A beautiful pure black stallion with a long flowing black mane.
+~
+Here stands a beautiful stallion, he is pure black with long
+flowing tail and mane.  He stands 17 hands tall and never
+leaves his masters side.  I think he is the most graceful
+horse one has ever seen!
+~
+16508952 935835134 1000 E
+95 -75 -18 15d15+10000 30d30+95
+0 281028
+8 8 1
+BareHandAttack: 4
+E
+#11946
+fat gremlin~
+a fat little gremlin~
+A fat little Gremlin is here.
+~
+A fat, hairy gremlin stands before you.  He gigles in delight everytime someone
+looks at him!    
+~
+8 0 -250 E
+7 16 12 2d4+180 4d8+4
+0 1500
+8 8 0
+E
+T 11937
+#11947
+horses goblin~
+the goblin horse ~
+A horse belonging to the Goblin Cavalry stands here.
+~
+A strange looking steed stands before you.  He is small in size and has 4 very
+short legs.  He is built for fighting and can inflict some serious damage with
+his nasty pointy teeth.    
+~
+9998344 973091880 0 E
+97 -15 -19 20d20+10500 30d30+35
+80900 910000
+8 8 0
+BareHandAttack: 4
+E
+#11948
+Captian Goblin~
+the Captain of the Goblin Guards~
+The Captain of the Goblin Guards stands here
+~
+The Captain has a huge responsibility he has to defend the city from anything
+or anyone!  If he fails he is the one that has to report to the Goblin King!  
+
+~
+8120408 838906920 -1000 E
+115 -84 -20 30d50+15000 15d35+104
+80100 990000
+8 8 1
+BareHandAttack: 10
+E
+T 11943
+#11949
+goblin rider~
+a Goblin Rider~
+The Goblin Rider is standing here
+~
+This stout little "thing" stands here wondering where the hell his steed has
+gone too!  One day he may find a way to make the steed more reliable for him!
+  
+~
+16445976 838870060 -500 E
+97 -70 -18 20d60+15000 20d40+90
+0 970000
+8 8 1
+BareHandAttack: 9
+E
+#11950
+goblin cannons~
+the Goblin Cannons~
+A Cannon stands in front of you.
+~
+This "thing" is half Goblin, half Cannon!  He is from the now very deranged
+mind of the Goblin King himself!  Created to defend the city against any would
+be intruders!    
+~
+8124956 838870060 -250 E
+97 -65 -19 20d30+10000 30d30+85
+0 930000
+8 8 0
+BareHandAttack: 12
+E
+#11951
+Goblin Samuri~
+the Goblin Samuri~
+The Goblin Samuri stands here wield swords!
+~
+This Goblin has had extensive training in the art of martial arts!  He is very
+capable of wielding dangerous swords and daggers!    
+~
+8125016 838869036 -300 E
+98 -80 -19 30d40+10500 40d20+100
+84600 940000
+8 8 1
+BareHandAttack: 3
+E
+#11952
+ludo stones~
+a Stone~
+A stone loyal to Ludo the Stone King stands here
+~
+It is a stone, grey in colour and various in size!  What more can one say about
+a stone except they are tough and they hurt!    
+~
+8124744 838865964 0 E
+98 -70 -20 15d35+15000 20d35+90
+79500 920000
+8 8 0
+BareHandAttack: 7
+E
+$
+@
+
+
+1.13
+log
+@Artus> Checking everything in again.
+@
+text
+@d3 1
+a3 1
+a &BTwo-Headed&n Shield~
+d93 1
+a93 1
+a &RTwo-Headed&n Shield~
+@
+
+
+1.12
+log
+@Artus> Sync.
+@
+text
+@d7 1
+a7 1
+face with long whiskers.  He wears Blue and white striped socks and has&n
+d11 1
+a11 1
+2058 128 0 E
+d93 1
+a93 1
+a &RTwo-Headed Shield&n~
+d124 1
+a124 1
+A little worm is purched on the ledge.
+d127 1
+a127 1
+Heis rather plump for his size so the missus must feed him well.&n
+d200 1
+a200 1
+They eye's of the wall watch everyone that passes by
+d202 2
+a203 2
+They are eyeballs hanging off mould. They have grown out of the wall and&n
+are fasinated by people passing by.&n
+d459 2
+a460 2
+7470456 136 -1000 E
+100 -84 -13 20d15+11700 25d35+90
+d475 2
+a476 2
+7465272 136 1000 E
+95 -70 -11 9d10+10950 30d30+70
+d491 2
+a492 2
+7465272 136 1000 E
+92 -76 -10 15d10+10250 20d27+80
+d508 2
+a509 2
+7596344 136 -1000 E
+90 -60 -10 5d10+10005 20d20+60
+d585 1
+a585 1
+95 -30 -11 1d1000+1025 12d65+50
+d600 1
+a600 1
+95 -30 -11 100d100+1000 15d35+50
+d715 2
+a716 2
+9998472 973091880 0 E
+91 -15 -12 20d20+5500 30d30+35
+d731 1
+a731 1
+99 -40 -20 30d50+6800 15d35+60
+d739 1
+a739 1
+A Goblin Rider~
+d747 1
+a747 1
+97 -15 -13 20d60+5000 20d40+40
+d754 1
+a754 1
+The Goblin Cannons~
+d762 1
+a762 1
+93 -25 -12 20d30+4500 30d30+45
+d769 1
+a769 1
+The Goblin Samuri~
+d776 1
+a776 1
+94 -30 -15 30d40+5000 40d20+50
+d783 1
+a783 1
+A Stone~
+d790 1
+a790 1
+92 -15 -17 15d35+3500 20d35+35
+@
+
+
+1.11
+log
+@Artus> Sync.
+@
+text
+@d686 1
+a686 1
+16513048 935835134 1000 E
+@
+
+
+1.10
+log
+@Artus> Sync.
+@
+text
+@d408 1
+d459 1
+a459 1
+7470459 136 -1000 E
+d475 1
+a475 1
+7465275 136 1000 E
+d491 1
+a491 1
+7465275 136 1000 E
+d496 1
+d508 1
+a508 1
+7596347 136 -1000 E
+d584 1
+a584 1
+8125818 50369536 1000 E
+d605 1
+d706 89
+@
+
+
+1.9
+log
+@Artus> Sync.
+@
+text
+@d689 14
+@
+
+
+1.8
+log
+@Artus> Just up-to-dating....
+@
+text
+@d244 1
+a244 1
+A helmetted Golbin warrior is walking around looking for someone to pick on
+@
+
+
+1.7
+log
+@Artus> A3_0_315
+@
+text
+@d11 1
+a11 1
+2058 128 100 E
+d68 1
+a68 1
+2058 8 500 E
+d75 1
+d100 1
+a100 1
+10 0 -250 E
+d115 1
+a115 1
+10 0 100 E
+d144 1
+a144 1
+6155 8 900 E
+a151 1
+T 11909
+d161 1
+a161 1
+6282 8 1000 E
+d167 1
+d177 1
+a177 1
+256010 8 750 E
+d191 1
+a191 1
+72 0 250 E
+d211 1
+a211 1
+dog~
+d221 1
+a221 1
+10 0 0 E
+d235 1
+a235 1
+2058 0 100 E
+d264 1
+a264 1
+2120 0 900 E
+d278 1
+a278 1
+14 0 1000 E
+d285 3
+a287 7
+soldier~
+the soldier~
+A soldier on leave is walking around looking for entertainment.
+~
+You see a member of one of the Emperor's elite legions.  He looks VERY strong.
+You have this vague feeling that his entertainment isn't going to be a very
+wholesome activity.
+d289 6
+a294 1
+2120 0 300 E
+d300 8
+a307 3
+little old man~
+a little old Man~
+A little old man, is sitting on the ledge.
+d309 1
+a309 6
+As you peer at this man, you realise that it could be the Goblin King&n
+indisguse! He has a rather large pointy hat on and a flowing cape around&n
+his neck. His boots are made of the finest leather and his pants are rather&n
+baggy but i am sure they are comfortable!&n
+~
+2058 136 990 E
+d312 1
+a312 1
+6 6 1
+d315 3
+d328 1
+a328 1
+2058 8 990 E
+d344 1
+a344 1
+2058 0 990 E
+d360 1
+a360 1
+2058 0 900 E
+d373 1
+a373 1
+46 40 -500 E
+d379 8
+a386 6
+Froboz~
+Froboz~
+Froboz the wizard is standing here, working on a new spell.
+~
+You see a middle-aged man whose knowledge of magic, both offensive and 
+defensive, is legendary.  He literally glows with a pink aura.
+d388 1
+a388 1
+2059 136 300 E
+d393 2
+d403 1
+a403 1
+42 136 500 E
+d416 1
+a416 1
+2056 0 350 E
+d430 1
+a430 1
+2056 8 900 E
+d443 1
+a443 1
+2056 0 200 E
+d449 1
+a449 1
+goblin king~
+d458 1
+a458 1
+7470459 136 1000 E
+d506 1
+a506 1
+7596347 136 1000 E
+d512 8
+a519 7
+shopkeeper~
+Froboz's shopkeeper~
+Froboz's shopkeeper is here, minding the store.
+~
+The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling.
+d526 2
+d537 1
+a537 1
+44 8 -1000 E
+d543 3
+a545 3
+baker~
+the Baker~
+The Baker looks at you calmly, wiping flour from his face with one hand.
+d547 4
+a550 2
+A fat, nice looking baker. But you can see that he has many scars on his
+body.
+d558 7
+a564 5
+grocer~
+the Grocer~
+A grocer stands at the counter, with a slightly impatient look on his face.
+~
+A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
+d582 1
+a582 1
+8125818 50369536 0 E
+d610 1
+a610 1
+2058 0 100 E
+d624 1
+a624 1
+2058 0 100 E
+d638 1
+a638 1
+2058 0 100 E
+d652 1
+a652 1
+2058 0 100 E
+d666 1
+a666 1
+2058 0 100 E
+@
+
+
+1.6
+log
+@Artus> Checking In.
+@
+text
+@d30 16
+d587 86
+@
+
+
+1.5
+log
+@Latest Versions
+@
+text
+@d3 2
+a4 2
+a &BTwo-Headed Shield&n~
+A &BTwo-Headed Shield&n is watching you intently!
+d26 2
+a27 2
+7 14 11 3d5+80 1d21+3
+2291 2250
+d40 1
+a40 1
+1735 900
+d70 1
+a70 1
+1067 500
+d211 1
+a211 1
+The fire creature~
+d261 1
+a261 1
+2063 0 1000 E
+d307 1
+a307 1
+3883 8 990 E
+d434 1
+a434 1
+100 -84 -13 20d15+30000 50d127+90
+d450 1
+a450 1
+95 -70 -11 9d10+20000 30d30+70
+d466 1
+a466 1
+92 -76 -10 15d10+25000 40d127+80
+d482 1
+a482 1
+90 -60 -10 5d10+15000 20d20+60
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d3 2
+a4 2
+a Two-headed Blue Shield~
+A Two-headed Blue Shield is watching you intently!
+d68 1
+a68 1
+42 131072 0 E
+d76 2
+a77 2
+a Two-headed Red Shield ~
+A Two-Headed Red shield is sulking in the corner!
+d160 1
+a160 1
+256010 136 750 E
+d176 1
+a176 1
+1324 600
+d211 2
+a212 2
+the fire creature~
+The fire creature who is singing and dancing around the fire.
+d220 1
+a220 1
+6089 28000
+d234 1
+a234 1
+8 13 3 2d4+100 2d5+1
+d241 1
+a241 1
+The female fire creature is singing around the fire
+d247 3
+a249 3
+6216 0 900 E
+5 16 5 1d4+85 1d8+1
+1995 900
+d277 1
+a277 1
+17 4 -1 3d5+220 1d6+9
+d346 3
+a348 3
+slimeball slime ball green~
+the slimeball~
+A green ball of slime is hanging over you, oozing downward.
+d350 1
+a350 1
+There is a green "ball" of slime oozing from the coating on the walls.
+d371 6
+a376 3
+Titus~
+Titus Andronicus~
+Titus Andronicus is standing here, polishing a few swords.
+a377 1
+An undefined string.~
+d384 3
+a386 3
+senator~
+the senator~
+A senator is here, waiting for debate to begin.
+d388 4
+a391 2
+An undefined string.~
+2058 0 350 E
+d397 7
+a403 3
+bailiff~
+the bailiff~
+The bailiff stands here, keeping order in the courtroom.
+d405 1
+a405 2
+An undefined string.~
+2058 8 900 E
+d408 1
+a408 1
+8 8 1
+d411 6
+a416 3
+defendant~
+the defendant~
+The defendant stands here, pleading her case.
+d418 1
+a418 2
+An undefined string.~
+2058 0 200 E
+d421 1
+a421 1
+8 8 2
+d501 7
+a507 6
+executioner~
+the executioner~
+The executioner stands here, waiting to torture some sorry soul.
+~
+You see a burly man who is wearing a black hood that obscures his face.  He
+has a very sadistic attitude and clearly loves his work.
+d509 1
+a509 1
+46 8 -1000 E
+d512 1
+a512 1
+8 8 1
+d540 3
+a542 3
+Sir Didimus dog~
+Sir Didimus~
+Sir Didimus is standing here taking on all the goblins
+d559 1
+a559 1
+Ambroshus who is cowering in the corner,
+d565 3
+a567 3
+7600346 0 0 E
+95 -30 -11 50d1000+11060 100d127+50
+3000 2091517
+@
+
+
+1.3
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d12 1
+a12 1
+12 9 2 3d7+140 1d7+4
+d26 1
+a26 1
+7 14 4 3d5+80 1d4+3
+d39 1
+a39 1
+5 16 5 2d6+65 2d4+0
+d52 2
+a53 2
+2186 8 500 E
+12 9 2 4d6+140 1d7+5
+d68 3
+a70 3
+170 131072 0 E
+3 18 7 3d6+30 1d7+0
+1067 350
+d84 1
+a84 1
+14 5 0 4d7+150 1d8+6
+d99 1
+a99 1
+10 11 2 3d7+120 2d6+1
+d113 1
+a113 1
+11 10 2 4d5+130 2d6+1
+d128 1
+a128 1
+14 7 1 2d7+170 1d7+6
+d146 1
+a146 1
+10 11 2 3d4+110 1d7+4
+d161 1
+a161 1
+23 0 -2 4d10+600 3d8+22
+d174 2
+a175 2
+200 0 250 E
+4 17 6 3d4+40 1d8+0
+d189 1
+a189 1
+6 15 4 3d6+75 2d4+1
+d205 1
+a205 1
+11 10 2 3d6+140 2d6+3
+d219 1
+a219 1
+17 4 1 4d8+210 1d6+11
+d261 2
+a262 2
+2191 0 1000 E
+11 10 2 3d6+130 1d6+5
+d292 1
+a292 1
+27 0 -7 10d5+650 3d7+15
+d308 1
+a308 1
+18 2 0 3d6+220 1d6+6
+d324 1
+a324 1
+21 0 -1 20d5+260 1d7+11
+d340 1
+a340 1
+17 3 0 4d4+210 1d6+9
+d353 1
+a353 1
+12 9 2 3d4+145 2d6+2
+d366 1
+a366 1
+23 0 -3 5d10+425 1d8+14
+d377 1
+a377 1
+24 0 -5 1d5+450 1d8+14
+d388 1
+a388 1
+10 11 2 3d5+120 2d6+1
+d399 1
+a399 1
+16 5 1 1d5+200 2d7+4
+d410 1
+a410 1
+11 9 1 3d6+130 2d7+1
+d415 8
+a422 7
+jupiter~
+Jupiter~
+Jupiter, King of the Gods, is resting here.
+~
+He is the strongest of the Gods, and certainly no easy mark!  His powers
+transcend the plane of the physical, and could easily kill an unprepared
+mortal.
+d425 2
+a426 2
+99 -90 -10 20d15+30000 50d50+90
+2000000 8000000
+d428 1
+d431 8
+a438 7
+Venus~
+Venus~
+Venus, the Goddess of Beauty and Knowledge, is resting here.
+~
+She is a woman of strikingly good looks.  However don't let her appearance fool
+you.  She is as sharp in her punishment as she is with her looks.  No easy mark
+for any mere mortal.
+d441 2
+a442 2
+95 -70 -8 9d10+20000 30d30+70
+1000000 6000000
+d446 9
+a454 3
+Mars~
+Mars~
+Mars, the God of War and State, is resting here.
+a455 1
+An undefined string.~
+d457 2
+a458 2
+92 -80 -9 15d10+25000 40d40+80
+1000000 7000000
+d462 9
+a470 3
+Mercury~
+Mercury~
+Mercury, the messenger of the Gods, is standing here.
+a471 1
+An undefined string.~
+d473 2
+a474 2
+90 -60 -7 5d10+15000 20d20+60
+900000 3000000
+d487 1
+a487 1
+23 0 -2 4d10+600 1d8+24
+d500 1
+a500 1
+20 1 0 2d6+260 2d2+14
+d513 2
+a514 2
+33 0 -10 6d10+800 2d8+22
+3100 30000
+d525 2
+a526 2
+33 0 -10 1d1+700 2d8+22
+7105 30000
+d528 32
+@
+
+
+1.2
+log
+@
+Changed:
+- Initial alpha commit on modified lib/world files
+@
+text
+@d58 1
+d118 1
+d132 4
+d152 7
+a158 7
+shopkeeper~
+Titus's shopkeeper~
+Titus's shopkeeper is here, minding the store.
+~
+The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling.
+d194 9
+a202 3
+plaintiff~
+the plaintiff~
+The plaintiff stands here, pleading his case.
+a203 1
+An undefined string.~
+d207 1
+a207 1
+8 8 1
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d154 1
+a154 1
+2058 136 750 E
+d199 7
+a205 3
+master~
+the ticket master~
+A ticket master is here, looking at you expectantly.
+a206 1
+An undefined string.~
+d211 1
+d228 7
+a234 3
+citizen~
+the citizen~
+A citizen of Rome is standing here.
+d236 1
+a236 2
+An undefined string.~
+2120 0 900 E
+d239 2
+a240 1
+8 8 1
+d412 1
+a412 1
+7462267 136 1000 E
+d462 1
+a462 1
+2058 136 650 E
+@
+

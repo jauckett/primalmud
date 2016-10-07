@@ -1,0 +1,10 @@
+gaac get all all corpse
+gac get all corpse
+mm cast 'magic missile' $1
+cf cast 'create food'
+bh cast 'burning hands' $1
+bs backstab $1
+ds drink skin
+em eat mushroom
+invis cast 'invisibility' $1
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w;w

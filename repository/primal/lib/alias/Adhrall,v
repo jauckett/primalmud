@@ -1,0 +1,73 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@cw cast 'word'
+asbo assist boz
+ch cast 'burning hands' $1
+ashe assist hewfish
+bc backstab citizen
+b backstab
+cd cast 'detect invisibility'
+qw get white force; quaff white
+w west
+cc cast 'cure critical'
+di cast 'detect invisibility'
+gmf get meat force
+pmf put meat force
+gac get all corpse
+gg get gold corpse
+ci cast 'infravision'
+ca cast 'armor'
+cl cast 'cure light'
+prf put red force
+grf get red force
+qr quaff red
+pwf put white force
+gwf get white force
+ga get all corpse
+rsr recite scroll recall
+be rem halberd; wield super; backstab $1; rem super; wield halberd 
+m get meat force; eat meat
+r get red force; quaff red
+ds get skin force; drink skin; put skin  force
+bg backstab guard
+bt backstab traveller
+bm backstab merchant
+qb get blue force; quaff blue
+bs remove vorpal; wield super; backstab $1; remove super; wield vorpal
+bh c 'burning hands'
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

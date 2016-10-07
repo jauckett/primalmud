@@ -1,0 +1,12 @@
+wa wake;stand
+det cast 'detect invis' $*
+qh get heal force;quaff heal
+bh buy 15 heal;put all.heal for
+inv cast 'invisib' $*
+rome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+inf cast 'infrav' $*
+cw get skin force; cast 'create water' skin;drink skin;put skin for
+eat cast 'create food';eat mushroom
+qw get white force;quaff white
+qr get red force;quaff red
+re get recall force;recite recall

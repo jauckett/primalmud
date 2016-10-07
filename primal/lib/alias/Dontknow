@@ -1,0 +1,20 @@
+cck cast 'cure critical' katie
+tc track crystal
+food cast 'create food'; eat mushroom
+ga get all corpse; get corpse; junk corpse
+infra cast 'infra'
+hh cast 'heal' dontknow
+rr cast 'word of recall'
+cc cast 'cure critic' dontknow
+water cast 'create water' skin
+armor cast 'armor'
+sanctuary cast 'sanctuary'
+summon cast 'summon' $1
+drain cast 'energy drain' $1
+fireball cast 'fireball' $1
+refresh cast 'refresh' dontknow
+charm cast 'charm person' $1
+identify cast 'identify' $1
+doll remove knife; hold doll
+bk backstab $1; remove knife; wield sword
+switch rem sword; wield knife

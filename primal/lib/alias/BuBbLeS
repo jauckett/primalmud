@@ -1,0 +1,14 @@
+locate c 'locate' $*
+jac get all.corpse;j all.corpse
+fball c 'fireball' $*
+di c 'detect invis' $*
+infra c 'infra' $*
+protect c 'bless' $*;c 'armor' $*;c 'sanc' $*
+dragon c 'dragon' self
+th train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+word c 'word of recall'
+gag get gold corps
+gac get all all.corpse
+invis c 'invis' $*
+dh c 'heal' $*
+heal c 'heal' $*

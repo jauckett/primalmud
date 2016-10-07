@@ -1,0 +1,88 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#22300
+clone~
+the clone~
+A boring old clone is standing here.
+~
+This clone is nothing to look at.  No, really, it is quite boring.
+~
+8195 0 0 S
+1 0 0 1d1+1 4d10+1
+0 0
+8 8 0
+#22301
+zombie~
+the zombie~
+A dead looking zombie is here.
+~
+This thing looks like it'd been dead awhile before it was woken from its
+peaceful rest by some inconsiderate prankster.
+~
+3 0 0 S
+1 0 0 3d50+1 4d5+1
+0 0
+8 8 0
+#22302
+santa claus~
+Santa~
+Santa Claus is standing here. He looks alittle unstable.
+~
+This fat bastard doesn't look like a safe person to leaf
+your kiddies with...
+~
+59393 0 0 S
+30 -40 -40 24000d1+3 400d20+2
+0 0
+8 8 1
+#22303
+caroller carolyn~
+Carolyn~
+Carolyn the Caroller is here. Carolling merrily.
+~
+She loooks far too jolly for her own good. If she had any more 
+Christmas spirit in her she'd probably explode. You find yourself
+wishing she would explode... yet you still want to follow her and
+join in!
+~
+59393 0 0 S
+30 -40 -40 24000d1+3 400d20+2
+0 0
+8 8 2
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

@@ -1,0 +1,206 @@
+head	1.5;
+access;
+symbols
+	A3_0_59:1.2
+	LATEST:1.2
+	A3_0_1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.5
+date	2004.08.27.02.11.08;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.31.22.20.28;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.02.08.15.15.23;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.01.29.22.42.17;	author primal;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.05.12.07.43.58;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Artus> Changed LVL_BUILDER to LVL_CHAMP.
+@
+text
+@/************************************************************************
+ * Generic OLC Library - General / genolc.h			v1.0	*
+ * Original author: Levork						*
+ * Copyright 1996 by Harvey Gilpin					*
+ * Copyright 1997-1999 by George Greer (greerga@@circlemud.org)		*
+ ************************************************************************/
+
+/* Temporarly out as first #if statement fails - mbd
+
+#if !defined(_CIRCLEMUD) || !defined(CIRCLEMUD_VERSION)
+# error "This version of GenOLC only supports CircleMUD 3.0 bpl15 or later. (Not defined)."
+#else
+# if _CIRCLEMUD < CIRCLEMUD_VERSION(3,0,15)
+#  error "This version of GenOLC only supports CircleMUD 3.0 bpl15 or later."
+# endif
+#endif
+*/
+
+#define STRING_TERMINATOR       '~'
+
+#define CONFIG_GENOLC_MOBPROG	0
+
+/* Artus> Different level restrictions when building live mud. */
+#ifndef PRIMAL_LIVE
+#define LVL_BUILDER	LVL_CHAMP
+#define LVL_LOAD	LVL_CHAMP
+#define LVL_ZRESET	LVL_CHAMP
+#else
+#define LVL_BUILDER	LVL_IMPL
+#define LVL_LOAD	LVL_GOD
+#define LVL_ZRESET	LVL_GRGOD
+#endif
+
+
+int genolc_checkstring(struct descriptor_data *d, const char *arg);
+int remove_from_save_list(zone_vnum, int type);
+int add_to_save_list(zone_vnum, int type);
+void strip_cr(char *);
+void do_show_save_list(struct char_data *);
+int save_all(void);
+char *str_udup(const char *);
+void copy_ex_descriptions(struct extra_descr_data **to, struct extra_descr_data *from);
+void free_ex_descriptions(struct extra_descr_data *head);
+
+struct save_list_data {
+  int zone;
+  int type;
+  struct save_list_data *next;
+};
+
+extern struct save_list_data *save_list;
+extern int top_shop_offset;
+
+/* save_list_data.type */
+#define SL_MOB	0
+#define SL_OBJ	1
+#define SL_SHP	2
+#define SL_WLD	3
+#define SL_ZON	4
+#define SL_MAX	4
+
+#define ZCMD(zon, cmds)	zone_table[(zon)].cmd[(cmds)]
+
+#define LIMIT(var, low, high)	MIN(high, MAX(var, low))
+@
+
+
+1.4
+log
+@Artus> Moving stuff across to live.
+
+act.informative.c:
+  Info on it's own will now display the info file. Use me or self to see your
+own info.
+  Score and Exp now both show gained and remaining exp.
+  Gold value is now to a max of 30000. (60000 in lvl 40+ zones, 120 in 70+)
+  Gold rushes no longer occur in !GOLDRUSH zones, city sectors, etc.
+
+act.other.c:
+  Mana retained on remort is now floored at 100 instead of 50.
+  Added elitist bonus for chars who play past the earliest remort point(s).
+
+act.wizard.c:
+  Gold rush events are now only advertised within the world they occur.
+
+genolc.h:
+  Added special #defines for different OLC levels whether running live or test.
+  (Noted by compiling with -DPRIMAL_LIVE)
+
+interpreter.c:
+  Aliases will now be saved automatically, when added or remoed.
+  Added elitist_modifier() to modifier calculation.
+  Replaced Huh?!? with HUH.
+
+limits.c:
+  NPC corpses are no longer emptied before they are purged. Too much clutter.
+
+spells.c:
+  Reduced the amount of weight applied by create water to 1/3 of what it was.
+
+comm.c:       Added send_to_not_zone_world()
+db.c:         Added elitist_modifier() to modifier calculation.
+dg_mobcmd.c:  Replaced Huh?!? with the define, HUH.
+dg_scripts.h: Changed version string so it will fit on one line :o)
+fight.c:      Eq should no longer be damaged when a hit fails.
+handler.c:    Now, when the sleep spell wears of an NPC, it will wake up.
+structs.h:    Added HUH define.
+utils.c:      Added elitist_modifier() calculation.
+utils.h:      Added elitist_modifier() prototype.
+@
+text
+@d25 3
+a27 3
+#define LVL_BUILDER	LVL_IMMORT
+#define LVL_LOAD	LVL_IMMORT
+#define LVL_ZRESET	LVL_IMMORT
+@
+
+
+1.3
+log
+@
+Changed:
+- LVL_BUILDER from GRGOD to IMMORT
+@
+text
+@d23 2
+d26 8
+@
+
+
+1.2
+log
+@
+Changed:
+- LVL_BUILDER to GRGOD
+@
+text
+@d23 1
+a23 1
+#define LVL_BUILDER	LVL_GRGOD
+@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@d23 1
+a23 1
+#define LVL_BUILDER	LVL_GOD
+@
+

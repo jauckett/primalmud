@@ -1,0 +1,28 @@
+1 look warrior
+bs backstab $1
+2 ass eledar
+fbt c 'fireball' transformer
+start wear all;wield sword;hold staff;put all backpack;get soaker backpack
+dinv c 'detect invisibility
+fc c 'fireball' caesar
+cl cast 'call lightning' $1
+fh c 'fireball' high
+ff c 'fireball' farlenian
+ed cast 'energy drain' $1
+cs cast 'colorspray' $1
+infra cast 'infravision' jadefire
+inv cast 'invisibility' jadefire
+` get all corpse
+li cast 'lightning bolt' $1
+armor cast 'armor' jadefire
+k kick $1
+sh cast 'shocking grasp' $1
+cc cast 'cure critic' jadefire
+fb cast 'fireball' $1
+charm c 'charm person' $1
+quake c 'earthquake'
+harm c 'harm' $1
+heal c 'heal' jadefire
+ft c 'fireball' treant
+fm c 'fireball' mars
+re rescue $1

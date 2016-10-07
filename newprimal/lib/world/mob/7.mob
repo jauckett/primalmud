@@ -1,0 +1,79 @@
+#700
+Wolf~
+the hungry wolf~
+A hungry looking wolf is here snarling at you
+~
+The wolf looks half starved and mad with hunger.
+It looks like it would attack anything on sight.
+~
+104 0 0 E
+7 13 11 1d10+80 1d25+2
+2175 2250
+8 8 1
+E
+#701
+Buffalo Beast~
+the huge buffalo~
+A huge buffalo is here grazing on dry withered grass
+~
+The buffalo has a thick weathered hide and doesn't seem to
+notice you at all.
+~
+200 0 0 E
+15 5 8 1d20+150 1d50+5
+0 20000
+8 8 1
+E
+#702
+snake~
+the snake~
+A nasty looking snake is here preparing to strike at you
+~
+The snake looks like the poisonous variety judging from the
+long fangs it displays as it hisses at you.
+~
+105 0 0 E
+5 15 13 1d10+50 1d15+1
+0 900
+8 8 1
+E
+#703
+Wolf~
+the hungry wolf~
+A hungry looking wolf is here snarling at you
+~
+The wolf looks half starved and mad with hunger.
+It looks like it would attack anything on sight.
+~
+106 0 0 E
+7 13 12 1d10+78 1d25+2
+0 2250
+8 8 1
+E
+#704
+Buffalo Beast~
+the huge buffalo~
+A huge buffalo is here grazing on dry withered grass
+~
+The buffalo has a thick weathered hide and doesn't seem to
+notice you at all.
+~
+202 0 0 E
+15 5 9 1d20+150 1d45+5
+0 20000
+8 8 1
+E
+#705
+vulture bird buzzard~
+the vulture~
+A vulture is here hanging around for some poor creature to die
+~
+The vulture has a huge sharp beak and a long neck for burrowing
+into corpses.
+~
+168 0 0 E
+7 13 11 1d5+75 1d21+2
+0 2250
+8 8 1
+E
+$

@@ -1,0 +1,203 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@k kill  trojan
+3 cast 'cure light' khalax
+cr cast 'refresh' $*
+cpp cast 'paralyze' steed
+xx steal slip triton
+cca cast 'charm' abukane
+cwb cast 'waterbreath'
+bb buy 20 #10;put all.tonic backpack
+ct cast 'teleport'
+nn kill blackout
+kk alias k kill $*;rem club;wield dagger;backstab $*;rem dagger;wield club
+ug ungroup
+cd cast 'dimension gate' $*;open gate;go gate
+qw get white backpack;q white
+gw get white backpack;get white backpack;drop all.white; o fol get white;o fol q white
+he hunt enfan
+te track eagle
+ek cast 'town portal'
+hh cast 'group heal
+bm buy 10 meat;put all.meat backpack
+rr2 rem sombrero;wear helm
+rr rem helm;wear sombrero
+tt title AVENGERESS [LADY]
+ss scan
+kp kill phoenix
+em eat mushroom
+ccf cast 'create food'
+v kill  caveman
+11 scan
+fd cast 'finger'
+sss steal gold guard
+lh l harpy
+sa save
+kg kill guard
+vv alias v kill $*;rem fist;wield dagger;backstab $*;rem dagger;wield fist
+colo color complete;autoexit on
+col color off;autoexit none
+tu2 w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s;s
+tu1 w;w;w;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n
+cct rem crown;wear sombrero;s;s;s;s;w;w;w;w;w;s;e;n;e;s;s;s;s;e;e;e;e;s;s;s;e;e;e;e;s;s;e;e;n;n;n;e;e;n;e;e;e;e;d;e;e;e;d;e;e;e;d;e;s;s;e;d;e;w
+tcc rem crown;wear sombrero;w;u;w;n;n;w;u;w;w;w;u;w;w;w;u;w;w;w;w;s;w;w;s;s;s;w;w;n;n;w;w;w;w;n;n;n;w;w;w;w;n;n;n;n;w;s;w;n;e;e;e;e;e;n;n;n;n
+spi e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u
+mm assist muldar
+rtc u;e;e;u;u;w;w;w;w;w;w;w;n;n;e;n;n;n;w;w;n;n;n;n;n;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n;n;n;n
+ofr o fol report
+cst cast 'strength'
+b brief
+hc hunt crystal
+cc rem sword;wield dagger;back crystal;rem dagger;wield sword
+ws rem crown;wear sombrero
+wc rem sombrero;wear crown
+ofp o fol report
+sf cast 'sense life'
+sl sleep
+bar bash $*;rest;stand
+us use sceptre self
+pl cast 'plasmablast' $*
+rand2 pick 1.chest;pick 2.chest;pick 3.chest;open 1.chest;open 2.chest;open 3.chest;get all all.chest
+rand s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;open trapdoor;d;d;open door;w;open bookcase;w;open trapdoor;d
+th track hutijin
+kc kill citizen
+ga get all
+tv tell vader $*
+ts track son
+tsu track succubus
+tu track unicorn
+tk track knight
+sh go ship
+crp cast 'rem poison' $*
+ca cast 'charm' $*
+bx alias bb kill $*;rem sword;wield dagger;back $*;rem dagger;wield sword;order followers assist abulafia
+da cast 'detect align' 
+ol cast 'locate' $*
+bs alias bb kill $*;rem sword;wield dagger;backstab $*;rem dagger;wield sword
+fb cast 'fireball' $*
+tg track gi
+lbp cast 'lightning bolt' pirate
+boo cast ' fear' $*
+lo cast ' locate' $*
+as s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;e;e;e;e;e;n;e;n;n;n;
+8 take red backpack;q red;take red backpack;q red;take red backpack;q red
+kd kill disembodied
+ks kill spider
+os take all;unlock door;open door;drop key
+bc bac
+of o fol assist abulafia
+shi go ship
+qy q yellow
+cac dance calrain;tango calrain;stare calrain;grin;tackle calrain;french calrain;flirt calrain;kiss calrain;nuzzle calrain;love calrain;fondle calrain,smi
+tac thank calrain
+stac stare calrain
+sic smile calrain
+kic kiss Calrain
+ch cast 'heal'$*
+tc tell calrain $*
+tdr tell drax $*
+tm tell megatron $*
+fr french calrain
+sle cast 'sleep'$*
+lb cast 'lightning bolt'$*
+f flee
+jc ju all.corpse
+fl flee
+red take all.red all.backpack
+5 cast 'invisibility'$*
+6 cast 'infravision'
+7 cast 'detect invisibility'
+9 take all all.corpse
+0 cast 'sanc'$*
+wic whisper calrain $*
+gr grats @@}>-->---*B*R*A*V*O*--->$*<---*O*V*A*R*B*---<--<{@@
+ta take all
+qb q blue
+br buy 20 red;put all.red backpack
+bw buy 20 white;put all.white backpack
+we title;take all;wear all;wield sword;grab enlibrite;take all;wear all;drop all.idol
+ty take yellow backpack;q yellow
+tj track jelly
+tw track worm
+ha cast ' harm' $*
+r read $*
+zx get all all.corpse;get all;junk all.corpse
+jj junk all.coke;junk all.ice;junk all.floss;junk all.apple
+od open door
+is s;w;w;w;s;s;e;n;u;n;n;e;e;e;e
+tmy track myconid
+td track chuckie
+ofko fol kill $*;kill $*;o fol assist abulafia
+h hunt $*
+ggc get gold all.corpse
+ub use broom
+cww cast 'waterwalk'
+op open door;open gate;open curtin;open tapestry;open wall
+ce cast 'earthquake' 
+gg get white backpack;get white backpack;drop white;drop white;o fol get white;o fol q white
+ofa o fol kill wench;kill wench
+cb cast 'blindness' $*
+yy cast 'charm' yeti;cast 'charm'yeti';cast 'charm'yeti
+ke kill citizen;kill guard;kill priest
+kw kill wench
+kb kill bear
+lm n
+kt kill tinker
+wu w;u
+pp cast 'paralyze' cockatrice
+ff cast 'fly'
+dd $*;cast 'clone';cast 'clone';group all
+pc cast 'paralyze' cockatrice
+cp cast 'paralyze' cockatrice
+gs cast 'group sanc
+qq cast 'advanced heal' blackout
+eek cast 'word of recall'
+zz s;cast 'clone';cast 'clone;group all
+uu u;u;u;u;cast 'clone';cast 'clone'
+ti title of the Witch Circle [Herb Gatherer]
+1 assist keelar
+pu put all.potion back;put all.tonic back
+4 get tonic back;q tonic
+cf cast 'fly'
+ww w;cast 'clone';cast 'clone'
+cdd cast 'dragon' $*
+2 cast 'advanced heal' $*
+a assist blackout
+aa rescue blackout
+cl cast 'clone';cast 'clone';group all;get white backpack;get white backpack;drop all.white;o fol get white;o fol q white
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

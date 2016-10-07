@@ -1,0 +1,109 @@
+head	1.2;
+access;
+symbols
+	rel1:1.1.1.1 prim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2000.01.27.15.31.12;	author talisman;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.01.26.14.30.39;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.01.26.14.30.39;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@1.obj
+8.obj
+9.obj
+15.obj
+16.obj
+18.obj
+19.obj
+20.obj
+21.obj
+22.obj
+24.obj
+30.obj
+31.obj
+32.obj
+40.obj
+43.obj
+45.obj
+48.obj
+52.obj
+55.obj
+56.obj
+60.obj
+70.obj
+71.obj
+80.obj
+81.obj
+83.obj
+84.obj
+85.obj
+86.obj
+87.obj
+88.obj
+90.obj
+95.obj
+98.obj
+100.obj
+101.obj
+105.obj
+108.obj
+110.obj
+120.obj
+130.obj
+132.obj
+133.OBJ
+135.OBJ
+136.OBJ
+200.obj
+220.obj
+223.obj
+230.obj
+240.obj
+250.obj
+260.obj
+270.obj
+290.obj
+300.obj
+$
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d39 1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

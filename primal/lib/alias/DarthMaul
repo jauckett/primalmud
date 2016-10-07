@@ -1,0 +1,33 @@
+emeat get meat force;eat meat;get meat force;eat meat
+gac get all all.corpse
+aheal c 'advanced heal'
+sa c 'spirit armor' self
+sum c 'summon' $*
+invis c 'invis'
+ci c 'infravision'
+di c 'detect invis'
+divine c 'divine'
+protect c 'divine';c 'spirit';c 'bless';c 'armor';c 'sanc'
+fly c 'fly'
+ds get skin force;drink skin;put skin force
+fillskin c 'create water' skin
+em c 'create food';c 'create food';eat mushroom;eat mushroom
+sanc c 'sanc'
+word c 'word'
+hi gossip Hi$*
+garmor c 'group armor' $*
+gheal c 'group heal'
+gsanc c 'group sanc'
+darth c 'clone'
+darthmaul group all;c 'group armor';c 'group sanc'
+fd c 'finger' $*
+wa wear all;hold red;hold flint;wi pulse;put all force
+curse c 'remove curse' $*
+locate c 'locate' $*
+wake wake;stand
+jac get all.corpse;j all.corpse
+bye gossip bye-bye...
+armor c 'armor' 
+gag get gold corpse
+lc l in corpse
+bless c 'bless'

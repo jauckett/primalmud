@@ -1,0 +1,3816 @@
+#9800
+Closet.~
+A damp and sorrid smell assaults your nostrils as you enter this dark and 
+dingy closet. Peering around in the darkness, you can make out the shape of 
+some boxes stacked on the floor. You can also see some other things stacked 
+behind the BOXES, but from the smell that comes from that direction it would 
+probably be better if you didn't know what was there.
+~
+98 ad 0 0
+D1
+Kitchen path intersection.
+~
+~
+0 -1 9801
+E
+boxes~
+These boxes have been stacked haphazardly, and look as though they could fall 
+over at any second.
+~
+S
+#9801
+Kitchen path intersection.~
+You have come to an intersection of paths here. it is decision time now. 
+Do you go East towards the pantry, West to the closet or back to the South where 
+all the food is. But then maybe the pantry has some good food in it and no-one
+would ever know where is had gone. Hmmmmmm food.
+~
+98 d 0 0
+D1
+Path to Pantry.
+~
+~
+0 -1 9802
+D2
+Kitchen path.
+~
+~
+0 -1 9817
+D3
+Closet.
+~
+~
+0 -1 9800
+S
+#9802
+Path to pantry.~
+As your start your way down the path to the pantry, you hear your stomach 
+start to grumble at the thought of food. You feel your mouth start to water 
+just at the thought, and you lick your lips in anticipation. Sure hope there 
+is some nice treats in the pantry, and also that you don't get caught taking 
+anything.
+~
+98 d 0 0
+D1
+Pantry.
+~
+~
+0 -1 9803
+D3
+Kitchen path intersection.
+~
+~
+0 -1 9801
+S
+#9803
+Pantry.~
+SHELVES line the walls of this pantry. Upon every shelf is jars and jars of 
+different food types. There is also a large selection of bags of grains and 
+flours. Not much to take for a quick snack though. Looks like your stomach 
+will have to keep grumbling till dinner time. Oh well....
+~
+98 ad 0 0
+D3
+Path to pantry.
+~
+~
+0 -1 9802
+E
+shelves~
+The shelves here have been stacked with everything that you could imagine. It all
+sure looks delicious. That mysterious little bag is calling your name too.....
+~
+S
+#9804
+Weapon's storage room.~
+The walls here are stacked with rifles and other weapons. Looks like someone 
+is prepared if a war breaks out. Everything here looks like it is in top notch 
+condition. Wonder who the poor person who has to keep it all looking great is. 
+Sure glad it isn't me though, would take you forever to clean all these weapons.
+~
+98 ad 0 0
+D1
+Path Intersection.
+~
+~
+0 -1 9805
+S
+#9805
+Path Intersection.~
+The paths all come together here and you have to make a choice. Shall you go 
+to the East where the Clothing storage room is or to the West to the weapon's 
+room. But then you could always just go back South and try to find your way out
+of here.
+~
+98 d 0 0
+D1
+Clothing Storage Room.
+~
+~
+0 -1 9806
+D2
+Path to storerooms.
+~
+~
+0 -1 9818
+D3
+Weapon's Storage Room.
+~
+~
+0 -1 9804
+S
+#9806
+Clothing storage room.~
+Uniforms in all shapes and sizes hang from hooks on the wall. I think just 
+about every body shape would have to be covered by the range of clothes here. 
+If you couldn't find something to fit you then there must something very 
+strange about you.
+~
+98 ad 0 0
+D3
+Path Intersection.
+~
+~
+0 -1 9805
+S
+#9807
+Corner of passage.~
+You are standing is a semi well lit passage way. To the East you can follow a 
+passage to the Colonel's Office, but do you dare go that way. Or you can go South 
+which is also a path to the Colonel's Office. Hmmm which way did I come from? 
+Which way should I be going? I can't seem to remember hmm........
+~
+98 d 0 0
+D1
+Passage to Colonel's Office.
+~
+~
+0 -1 9808
+D2
+Path to Colonel's Office.
+~
+~
+0 -1 9819
+S
+#9808
+Passage to Colonel's Office.~
+This passage feels like it has been going forever. Or is that just the day you 
+have been having? Candles flicker in the slight breeze that you can feel flow 
+across your face. What were you coming this way for? Ah that's right you wanted
+to see the Colonel. But what if he's in a bad mood? Guess you will just have 
+to try your luck.
+~
+98 d 0 0
+D1
+Passageway.
+~
+~
+0 -1 9809
+D3
+Corner of passageway.
+~
+~
+0 -1 9807
+S
+#9809
+Passageway.~
+This passageway looks just like all of the others around. It has wooden log 
+walls, candles burning in holders along the walls nothing real exciting. You 
+can hear the vague sounds of people walking around outside, and horses 
+snorting in discontent. But in all it is still rather quiet and serene in 
+this passageway.
+~
+98 d 0 0
+D1
+Passageway.
+~
+~
+0 -1 9810
+D3
+Passage of Colonel's Office.
+~
+~
+0 -1 9808
+S
+#9810
+Passageway.~
+As you step into this part of the passageway, you get the feeling it is just 
+like all the others. They really aren't very big on variety of passageways 
+here. Although they do seem to like the wood log look. They really should do 
+something about the lighting though. To the West is a passageway where that 
+goes you have no idea.
+~
+98 d 0 0
+D1
+Passageway Intersection.
+~
+~
+0 -1 9811
+D3
+Passageway.
+~
+~
+0 -1 9809
+S
+#9811
+Passageway Intersection.~
+You have come to an intersection of passageways. To the East you can follow 
+the passage to the offices. A path to the south leads to the offices too, but
+you are not sure if that the path to or from the offices. 
+~
+98 d 0 0
+D1
+Passage way to offices.
+~
+~
+0 -1 9812
+D2
+Office pathway.
+~
+~
+0 -1 9821
+D3
+Passageway.
+~
+~
+0 -1 9810
+S
+#9812
+Passageway to offices.~
+You are walking down a passageway that leads East and West. To the West is an 
+intersection. You run your hand along the walls as you walk down the passageway
+and feel the rough texture of the wooden walls beneath your fingers.
+~
+98 d 0 0
+D1
+Turn in passageway.
+~
+~
+0 -1 9813
+D3
+Passageway Intersection.
+~
+~
+0 -1 9811
+S
+#9813
+Turn in passageway.~
+You have come to a turn in the passageway here. You can either go South to the 
+Intersection, or West down the passageway to the offices. It seems weird to 
+you that the passageway is so quiet. There doesn't seem to be a soul in sight 
+or is that someone coming now? 
+~
+98 d 0 0
+D2
+Path Intersection.
+~
+~
+0 -1 9822
+D3
+Passageway to offices.
+~
+~
+0 -1 9812
+S
+#9814
+Holding Cell.~
+EWWWWWWWWW...... Oh what a smell! It smells like someone needed to go to the 
+toilet real bad so they did. The stagnant air in this dark and dingy smell is 
+enough to put anyone off of doing anything worthy of being put in here.
+~
+98 ad 0 0
+D1
+Passage Intersection.
+~
+Celldoor1~
+1 -1 9815
+S
+#9815
+Passage Intersection.~
+You rub your eyes hard trying to see if that helps you distinguish what is 
+in front of you. It is so dark here that you are having trouble seeing two 
+feet in front of yourself. To the East and West you can vaguely make out the 
+doors of dingy holding cells. To the South you can see sunlight that must be 
+the way you came in.
+~
+98 d 0 0
+D1
+Holding Cell.
+~
+Celldoor2~
+1 -1 9816
+D2
+Pathway to cells.
+~
+~
+0 -1 9826
+D3
+Holding Cells.
+~
+Celldoor1~
+1 -1 9814
+S
+#9816
+Holding Cell.~
+A musty smells assaults your nostrils as you enter this cell. You can see some 
+dirty blankets piled up in the corner, made into a makeshift looking bed. It 
+sure doesn't look very comfortable though. 
+~
+98 ad 0 0
+D3
+Passage Intersection.
+~
+Celldoor2~
+1 -1 9815
+S
+#9817
+Kitchen Path.~
+This part of the kitchen looks like it has just been forgotten about. There 
+is dust lying thickly on the floor and large clouds of dust stir as you move 
+your feet. You feel the dust cloud surround you and you find it hard to 
+breathe. Clutching your chest you look frantically around for a way to get 
+some fresh air.
+~
+98 d 0 0
+D0
+Kitchen path Intersection.
+~
+~
+0 -1 9801
+D2
+Kitchen path.
+~
+~
+0 -1 9828
+S
+#9818
+Path to storerooms.~
+You can feel yourself nearing the storerooms. You start to rub your hands 
+together in anticipation of what you may find there. There is normally 
+something extra that you manage to hide away as a special treat for yourself. 
+The only problem is which storeroom to go into first?
+~
+98 d 0 0
+D0
+Path Intersection.
+~
+~
+0 -1 9805
+D2
+Storeroom pathway Intersection.
+~
+~
+0 -1 9831
+S
+#9819
+Path to Colonel's Office.~
+As you round the corner you can see the entrance to the Colonel's Office. You 
+can here voices coming from that direction, and one of the people doesn't 
+sound very happy. Maybe now isn't a good time to barge in....Awww well what 
+the heck, you don't know till you try.
+~
+98 d 0 0
+D0
+Corner of passage.
+~
+~
+0 -1 9807
+D1
+Colonel's Office.
+~
+~
+0 -1 9820
+S
+#9820
+Colonel's Office.~
+You enter this sparsely furnished room and feel the tension in the room. The 
+Colonel sits behind his desk with a huge frown on his face. The Colonel looks 
+as though he is ready to let heads roll. You sure wouldn't like to be on his 
+bad side today or you may end up in the Holding cells.
+~
+98 g 0 0
+D3
+Path to Colonel's office.
+~
+~
+0 -1 9819
+S
+#9821
+Office Pathway.~
+Gee this place really needs a woman's touch. Looking around you can't see any 
+painting or craft work. The walls are just plain wooden logs, not even painted!
+Well from here we can go North or South not a real big decision, but a decision
+all the same.
+~
+98 d 0 0
+D0
+Passageway Intersection.
+~
+~
+0 -1 9811
+D2
+Intersection of paths.
+~
+~
+0 -1 9837
+S
+#9822
+Path Intersection.~
+Passageway, passageways and more passageways! That's all there seems to be 
+around here. You can exit to the North, East and South of here. 
+~
+98 d 0 0
+D0
+Turn in Passageway.
+~
+~
+0 -1 9813
+D1
+Path Intersection.
+~
+~
+0 -1 9823
+D2
+Path to Colonel's Private Rooms.
+~
+~
+0 -1 9838
+S
+#9823
+Path to Colonel's Waiting Room.~
+To the East of here you can see the Colonel's Waiting Room. To the West a 
+path back to the main part of the building leads you back out to fresh air. 
+Looking at the walls of this passageway you can see glimmers of light 
+filtering through the cracks in the wall. You get the feeling that this fort 
+was built in a hurry, and they rushed it just a little too quickly.
+~
+98 d 0 0
+D1
+Colonel's Waiting Room.
+~
+~
+0 -1 9824
+D3
+Path Intersection.
+~
+~
+0 -1 9822
+S
+#9824
+Colonel's Waiting Room.~
+Looking around you see a very plain looking room. It has a bench along one 
+wall and a couple of chairs on the opposite side of the room. Someone has 
+dropped some PAPERS on the floor here, as thought they left in a hurry and 
+didn't notice that they dropped them. You guess that they can't be very 
+important otherwise they would have come back to get them.
+~
+98 c 0 0
+D3
+Path to Colonel's Waiting Room.
+~
+~
+0 -1 9823
+E
+papers~
+The top page of these papers is sitting so you can read it without looking 
+too hard. Hmmmm it says " It has been noticed that there are a number of 
+ghosts hanging around this fort. We would like you to confirm that this is
+not so..." Interesting...GHOSTS!!!!
+~
+S
+#9825
+Holding Cell.~
+CREEKKKKKKKKKKK, the doors squeaks loudly as you open the door to this cell. 
+The smell in here is a lot better than most of the cells. From the looks of 
+it this cells doesn't get as much use as the others. As you peer around the 
+room you see something written on the wall. It says 'This is the cell
+where I Chief Ironhawk have been kept a prisoner against my will, you can
+be sure that I will exact revenge from the people involved in my capture and 
+restraint here. Whether that be in spiritual or physical life, I WILL get my 
+REVENGE!!!!!!' Hmmmm maybe that's why this cell have been left vacant.
+~
+98 ad 0 0
+D1
+Pathway to Cells.
+~
+Celldoor3~
+1 -1 9826
+S
+#9826
+Pathway to cells.~
+Holding cells can be found all along this pathway. Some of the cells have 
+open doors and others are locked up tight. There doesn't seem to be many 
+people in the cells at the moment. Things must be peaceful around this area, 
+with no trouble stirring. Apparently some of these cells have held up to 15 
+people at a time in busy periods.
+~
+98 d 0 0
+D0
+Passage Intersection.
+~
+~
+0 -1 9815
+D1
+Holding Cell.
+~
+Celldoor4~
+1 -1 9827
+D2
+Pathway to cells.
+~
+~
+0 -1 9840
+D3
+Holding Cell.
+~
+Celldoor3~
+1 -1 9825
+S
+#9827
+Holding Cell.~
+A cold chill makes you shiver as you enter this cell. You feel as thought 
+someone has just walked over your grave and you get a real creepy feeling 
+in your bones, but you can't put a finger on why. All these cells seem to 
+look the same, but they aren't, this one is just real creepy EWWWWWW.... 
+you just have to get out of here.
+~
+98 ad 0 0
+D3
+Pathway to cells.
+~
+Celldoor4~
+1 -1 9826
+S
+#9828
+Kitchen Path.~
+You can hear the distant clutter and clank of dishes in the distance here, 
+you can get a faint smell of food cooking every now and then. Whatever they 
+are cooking it sure smells good. 
+~
+98 d 0 0
+D0
+Kitchen Path.
+~
+~
+0 -1 9817
+D1
+Path to sinks.
+~
+~
+0 -1 9829
+D2
+Kitchen path Intersection.
+~
+~
+0 -1 9843
+S
+#9829
+Path to sinks.~
+The sound of pots and pans being scrubbed gets louder here, and the smell of 
+food gets even fainter. You can here people chatting as they wash the dishes 
+and they sound almost happy. You hear someone break out in song and you start 
+to hum along to the song they are singing. Hmmm hm hm....
+~
+98 d 0 0
+D1
+Dish Washing Room.
+~
+~
+0 -1 9830
+D3
+Kitchen Path.
+~
+~
+0 -1 9828
+S
+#9830
+Dish washing room.~
+BANG, THUMP, CRASH, SPLASH, GIGGLE, this is what you see and hear when you 
+enter this room. It is a hive of activity with a real production line going. 
+You have someone scraping the plates, someone washing  and someone else drying.
+The speed with which they people get the dishes done is quite unbelievable. 
+They are all quite happy to be doing their chores and they sing little ditties 
+as they work, you feel the urge to join them in song, but you don't know quite 
+how they would react so you refrain yourself.
+~
+98 d 0 0
+D3
+Path to Sinks.
+~
+~
+0 -1 9829
+S
+#9831
+Storeroom pathway Intersection.~
+You have come to an intersection, but there doesn't seem to be any signs to 
+tell you what storeroom is where. I guess all the people who come down here 
+know where they are going, so you will just have to take pot luck with which 
+direction you go. You can either go North or South to the storerooms. The 
+path to the North seems to be the more frequently used path from the looks 
+of it.
+~
+98 d 0 0
+D0
+Path to Storerooms.
+~
+~
+0 -1 9818
+D1
+Entrance to Storeroom.
+~
+~
+0 -1 9832
+D2
+Intersection of Paths.
+~
+~
+0 -1 9846
+S
+#9832
+Entrance to Storeroom.~
+A musty smell invades your nostrils as you enter the storeroom. You get the 
+feeling that it should be allowed to air a bit more often, rather than being 
+closed up all day. But then you would have all those little privates helping 
+themselves to anything they wanted whenever they wanted. So I guess its a 
+good thing that the Colonel has the key to the door.
+~
+98 d 0 0
+D1
+Path to Storeroom.
+~
+~
+0 -1 9833
+D3
+Storeroom pathway intersection.
+~
+Storeroom door~
+1 -1 9831
+S
+#9833
+Path to Storeroom.~
+To the West you see the door to the Storeroom. But for some reason it has been 
+locked tight. I guess that is to stop people pilfering all the stocks when 
+no-one is looking. Well I guess we had better go find a key to open the door 
+if we want to go in and have a look.
+~
+98 d 0 0
+D1
+Path to Storeroom.
+~
+~
+0 -1 9834
+D3
+Entrance to Storeroom.
+~
+Storeroom door~
+1 -1 9832
+S
+#9834
+Path to Storeroom.~
+A semi worn track has been left along this path. It doesn't look like it is 
+a well used path though. As is usual for this building the is no decorations 
+on the walls, just wooden logs for walls with slight cracks letting the 
+sunlight through. Perhaps there is a reason for leaving cracks in the walls, 
+that way you don't need to light lanterns during the day. Ahhhh now it all 
+makes sense.
+~
+98 d 0 0
+D1
+Path to Storeroom.
+~
+~
+0 -1 9835
+D3
+Path to Storeroom.
+~
+~
+0 -1 9833
+S
+#9835
+Path to storeroom.~
+The path runs East to West here. East being towards the storeroom and West 
+away from it back towards the entrance to the offices of the Colonel. 
+~
+98 d 0 0
+D1
+Path to Storeroom.
+~
+~
+0 -1 9836
+D3
+Path to Storeroom.
+~
+~
+0 -1 9834
+S
+#9836
+Path to Storeroom.~
+As you start down this path you get the feeling that it isn't used very much. 
+The floor doesn't seem to be as worn in as some of the other paths in this 
+building. You wonder why this would be, you would think that a path to a 
+storeroom would be well trodden. Perhaps you will find out the reason one day.
+~
+98 d 0 0
+D1
+Intersection of paths.
+~
+~
+0 -1 9837
+D3
+Path to Storeroom.
+~
+~
+0 -1 9835
+S
+#9837
+Intersection of Paths.~
+If you go North from here you will head towards the offices of the Colonel. 
+If you go west you will come to the storeroom which is rumoured to be full 
+of goodies of all descriptions. To the South is the only exit from this 
+building so if you wish to leave you must do so by this exit.
+~
+98 d 0 0
+D0
+Office Pathway.
+~
+~
+0 -1 9821
+D2
+Main entrance to Colonel's Office.
+~
+~
+0 -1 9848
+D3
+Path to Storeroom.
+~
+~
+0 -1 9836
+S
+#9838
+Path to Colonel's Private Rooms.~
+From here you can go North to the Colonel's waiting room or South to his 
+Private Chambers. But believe me you don't want to be caught in his chambers 
+without his permission. He doesn't take kindly to people invading his private 
+chambers, as that is the only place he can get any peace and quiet.
+~
+98 d 0 0
+D0
+Path Intersection.
+~
+~
+0 -1 9822
+D2
+Turn in path to Colonel's Private Rooms.
+~
+~
+0 -1 9849
+S
+#9839
+Holding Cell.~
+As you enter this room you see a huge blood stain on the floor, and someone 
+has dropped a broken ARROW covered in blood onto the ground next to it. This 
+cell has no windows and the only exit is the doorway that you entered through.
+~
+98 ad 0 0
+D1
+Pathway to cells.
+~
+Celldoor5~
+1 -1 9840
+E
+arrow~
+This broken arrow has the markings of the local indian tribe. There is ganna be 
+trouble when they find this here.
+~
+S
+#9840
+Pathway to Cells.~
+This path looks the same as all the others....until you inspect the floor 
+closely. Is that blood you see? Yes, yes it is and it leads into the cell 
+on your West. I wonder what happened to the person that was bleeding? Are 
+they still alive or have they passed on into the afterlife and after revenge????
+~
+98 d 0 0
+D0
+Pathway to cells.
+~
+~
+0 -1 9826
+D1
+Holding Cells.
+~
+Celldoor6~
+1 -1 9841
+D2
+Path to Cells.
+~
+~
+0 -1 9853
+D3
+Holding Cell.
+~
+Celldoor 5~
+1 -1 9839
+S
+#9841
+Holding Cells.~
+As you enter this room, your attention is drawn to the window situated in the 
+outside wall of this cell. The reason your eyes are drawn here is the fact 
+that the bars have been bent out of shape. Could it be possible that someone 
+managed to escape from this cell out of that window?? Surely not, but then
+again why else would the bars be bent so much.
+~
+98 ad 0 0
+D3
+Pathway to Cells.
+~
+Celldooor6~
+1 -1 9840
+S
+#9842
+Path to Kitchen.~
+The smell of food gets a lot stronger as you round the corner here. You hear 
+your stomach growl with hunger just from smelling the food. You quicken your 
+step as you think of the food that they are preparing only a few rooms away.
+~
+98 d 0 0
+D1
+Kitchen path Intersection.
+~
+~
+0 -1 9843
+D2
+Path to Kitchen.
+~
+~
+0 -1 9855
+S
+#9843
+Kitchen path Intersection.~
+Paths lead off in all directions here. You can go North down a Kitchen path 
+or both East and West leads to turns in paths. Which makes it hard to see 
+which way you should go. But you get a distinct feeling that the kitchens 
+maybe to the West as you can smell food cooking down that way you think.
+~
+98 d 0 0
+D0
+Kitchen Path.
+~
+~
+0 -1 9828
+D1
+Turn in Kitchen Path.
+~
+~
+0 -1 9844
+D3
+Path to Kitchen.
+~
+~
+0 -1 9842
+S
+#9844
+Turn in kitchen path.~
+As you turn the corner here you get a faint smell of food drift past on a 
+small gust of wind. You really know that you have entered the kitchens now 
+with the smell of food still fresh to your nose.
+~
+98 d 0 0
+D2
+Kitchen Path.
+~
+~
+0 -1 9856
+D3
+Kitchen Path Intersection.
+~
+~
+0 -1 9843
+S
+#9845
+Ammunition Storeroom.~
+You can't believe your eyes as you enter this room. The walls are lined with 
+shelves and on the shelves there is boxes upon boxes of ammunition. There is 
+ammunition of every description stored here. Its no wonder the door to the 
+storeroom is kept locked, could you imagine the mayhem if someone that
+wasn't supposed to got in here.
+~
+98 ad 0 0
+D1
+Intersection of paths.
+~
+~
+0 -1 9846
+S
+#9846
+Intersection of paths.~
+This is the room in between the Ammunition room and the Tack room. The Tack 
+room is to the East and the Ammunition room to the West. There could be 
+treasures of all kinds to be found here.
+~
+98 d 0 0
+D0
+Storeroom pathway intersection.
+~
+~
+0 -1 9831
+D1
+Horse Tack Room.
+~
+~
+0 -1 9847
+D3
+Ammunition Storeroom.
+~
+~
+0 -1 9845
+S
+#9847
+Horse Tack Room.~
+There is horse bridles hanging on the walls here. There is also saddles and 
+various other horse tack strewn around on the ground and on the shelves. 
+Someone must come in here to look after all this equipment as it looks like 
+it is in new condition. 
+~
+98 ad 0 0
+D3
+Intersection of paths.
+~
+~
+0 -1 9846
+S
+#9848
+Main entrance to Colonel's Office.~
+This is the entrance to the Colonel's Offices. You had better beware of 
+running into the Colonel down one of the passageways. He doesn't take 
+lightly to having strangers roam around his offices without an escort. 
+Should you go find an escort or just take your chances? Lets take our
+chances and be daring.
+~
+98 d 0 0
+D0
+Intersection of paths.
+~
+~
+0 -1 9837
+D2
+Path intersection.
+~
+~
+0 -1 9857
+S
+#9849
+Turn in path to Colonel's Private Rooms.~
+You find the path here very quiet and serene. You don't think that this is 
+a place that the public gets to see very often. There is no people running 
+around on important errands here and the path is empty of everyone and 
+everything.
+~
+98 d 0 0
+D0
+Path to Colonel's Private Rooms.
+~
+~
+0 -1 9838
+D1
+Path to Colonel's Private Rooms.
+~
+~
+0 -1 9850
+S
+#9850
+Path to Colonel's Private Rooms.~
+As you get closer to the Colonel's Private Rooms you could hear pin drop if 
+you listened close enough. To the East you can see the entrance to the 
+Colonel's office. You look around to make sure no-one is in sight before you 
+take those few steps and enter the Colonel's special sanctum.
+~
+98 d 0 0
+D1
+Colonel's Private Rooms.
+~
+~
+0 -1 9851
+D3
+Turn in path to Colonel's Private Rooms.
+~
+~
+0 -1 9849
+S
+#9851
+Colonel's Private Rooms.~
+This would have to be the most luscious room in this building. No wonder he 
+doesn't want anyone coming in here. It has all the creature comforts. A big 
+soft comfortable bed, with a bed side table with a lamp on it. It also has a 
+large desk with some papers scattered over it and a wardrobe in the corner.
+~
+98 y 0 0
+D3
+Path to Colonel's Private Rooms.
+~
+~
+0 -1 9850
+S
+#9852
+Holding Cell.~
+This dark and dingy cell, smells like something has died in here. If only it 
+was light in here maybe you could see what it was. As you take a step forward 
+you feels something soft underfoot and feel your boots sink into it. 
+EWWWWWWW.....
+~
+98 ad 0 0
+D1
+Path to cells.
+~
+Celldoor7~
+1 -1 9853
+S
+#9853
+Path to Cells.~
+The passageway here darkens drastically as you take a step forwards. Looks 
+like no expense has been put into this cell block. The bare necessities are 
+all that this place has. You feel a cold breeze blow through the passageway 
+and shiver at the thought of how cold it must be for the prisoners.
+~
+98 d 0 0
+D0
+Pathway to cells.
+~
+~
+0 -1 9840
+D1
+Holding Cells.
+~
+Celldoor8~
+1 -1 9854
+D2
+Entrance to Holding Cells.
+~
+~
+0 -1 9863
+D3
+Holding Cells.
+~
+celldoor7~
+1 -1 9852
+S
+#9854
+Holding Cells.~
+This cell doesn't seem to smell as bad as all the rest. That might be because 
+of the window in the wall here. There is no glass in the barred window which 
+makes this cell really cold. You shiver as the wind gusts through the bars, 
+blowing your clothes around you. Maybe the smell would be better than this 
+wind and cold. But then again perhaps it would be better just to stay out of 
+here full stop.
+~
+98 ad 0 0
+D3
+Path to cells.
+~
+Celldoor8~
+1 -1 9853
+S
+#9855
+Path to Kitchen.~
+The smell of food is getting very strong now as you come further down the 
+passageway. To the North is the exit from the kitchen, and to the South is 
+the kitchen, YUMMMMM...... What are you waiting for????? Get in there and 
+get some tucker.
+~
+98 d 0 0
+D0
+Path to Kitchen.
+~
+~
+0 -1 9842
+D2
+Kitchen.
+~
+~
+0 -1 9865
+S
+#9856
+Kitchen path.~
+This path is a bright and clean path. There is not much dust laying across 
+the path, so there is no dust cloud following you everywhere that you go. 
+The standards would probably have to be higher here because of the food 
+preparation. But since when have they cared about health standards here. 
+~
+98 d 0 0
+D0
+Turn in Kitchen path.
+~
+~
+0 -1 9844
+D2
+Bend in Kitchen path.
+~
+~
+0 -1 9866
+S
+#9857
+Path Intersection.~
+You have come to an intersection of paths here. You can go North to the 
+offices of the Colonel, or to the East where the holding cells are located. 
+Or if you feel inclined you can South and head back towards the fort entrance.
+~
+98 0 1 0
+D0
+Main entrance to Colonel's Office.
+~
+~
+0 -1 9848
+D1
+Path to Holding Cells.
+~
+~
+0 -1 9858
+D2
+Dirt Path.
+~
+~
+0 -1 9875
+S
+#9858
+Path to Holding Cells.~
+There is nothing special about this path. It is dusty and dirty and very well 
+used. It looks like a lot of people have come down this path.
+~
+98 d 1 0
+D1
+Dusty Path to Holding Cells.
+~
+~
+0 -1 9859
+D3
+Path Intersection.
+~
+~
+0 -1 9857
+S
+#9859
+Dusty path to Holding Cells.~
+AHHHHHH CHOOOOOO...... All the dust here makes you sneeze. A real good rain 
+is needed to settle all this dust.
+~
+98 d 1 0
+D1
+Path to Holding Cells.
+~
+~
+0 -1 9860
+D3
+Path to Holding Cells.
+~
+~
+0 -1 9858
+S
+#9860
+Path to Holding Cells.~
+As you walk down this path, you see a dust cloud building up behind you. If 
+you scuff your feet the cloud gets even bigger and anyone following you 
+wouldn't even be able to see you for all the dust.
+~
+98 d 1 0
+D1
+Dusty path to Holding Cells.
+~
+~
+0 -1 9861
+D3
+Dusty path to Holding Cells.
+~
+~
+0 -1 9859
+S
+#9861
+Dusty path to Holding Cells.~
+As you walk down this path you start to find it hard to breathe for all the 
+dust. It just seems to be smothering you as you get further and further down 
+the path. To the East you can see the entrance to the Holding Cells, you 
+should be able to find some relief from the dust there.
+~
+98 0 1 0
+D1
+Path to Holding Cells.
+~
+~
+0 -1 9862
+D3
+Path to Holding Cells.
+~
+~
+0 -1 9860
+S
+#9862
+Path to Holding Cells.~
+To the East of here you can see the entrance to the holding cells really well 
+now. Saviour from this dust is only a few steps away now. You take a deep 
+breathe and pray that you can make it before the dust consume you and you 
+just disappear in a dust cloud.
+~
+98 0 1 0
+D1
+Entrance to Holding Cells.
+~
+~
+0 -1 9863
+D3
+Dusty path to Holding Cells.
+~
+~
+0 -1 9861
+S
+#9863
+Entrance to Holding Cells.~
+You have reached the sanctuary of the Holding Cells and you can breathe again. 
+There is passageways leading North and South from here that lead to the cells 
+and to the East is the Guard's Quarters.
+~
+98 d 0 0
+D0
+Path to Cells.
+~
+~
+0 -1 9853
+D1
+Guard's Quarters.
+~
+~
+0 -1 9864
+D2
+Holding Cells.
+~
+~
+0 -1 9877
+D3
+Dusty path to Holding Cells.
+~
+~
+0 -1 9862
+S
+#9864
+Guard's Quarters.~
+This is where the guards hang out when they are on patrol during the night 
+and day. It has a few of the creature comforts here. There is a soft looking 
+bed along one wall and a table with some dirty glasses and a deck of cards 
+sitting on it. There is also a few dirty plates strewn around the room too. 
+Doesn't look like they clean up after themselves very often.
+~
+98 ad 0 0
+D3
+Entrance to Holding Cells.
+~
+~
+0 -1 9863
+S
+#9865
+Kitchen.~
+You have just entered the forts kitchen. There is a mess of pots and pans 
+stacked on a bench along one wall. There are chefs and assistants busily 
+preparing food, if you can call what they are preparing food. It doesn't 
+really look very appetising.
+~
+98 d 0 0
+D0
+Path to Kitchen.
+~
+~
+0 -1 9855
+S
+#9866
+Bend in Kitchen Path.~
+This is a bend in the path just like every other bend. It continues to the 
+North which leads you towards the kitchen and a path to the East which takes 
+you back to the main path of the fort. Nothing exciting ever happens here.
+~
+98 d 0 0
+D0
+Kitchen Path.
+~
+~
+0 -1 9856
+D1
+Entrance way to kitchen.
+~
+~
+0 -1 9867
+S
+#9867
+Entrance way to Kitchen.~
+As you step through the entrance way you can just smell the food that is being 
+prepared here. It is a very faint smell though and you wonder how far away the 
+kitchen is.
+~
+98 d 0 0
+D1
+Dirt path to Kitchen.
+~
+~
+0 -1 9868
+D3
+Bend in Kitchen Path.
+~
+~
+0 -1 9866
+S
+#9868
+Dirt path to Kitchen.~
+You are nearly at the entrance to the kitchen. If you go East you will be 
+walking down a dirt path. If you go West you will enter the Kitchens.
+~
+98 0 1 0
+D1
+Dusty path to Kitchen.
+~
+~
+0 -1 9869
+D3
+Entrance way to Kitchen.
+~
+~
+0 -1 9867
+S
+#9869
+Dusty path to Kitchen.~
+This is a dusty path that will eventually lead up to the kitchen if you go 
+West. A slight breeze blows along the path stirring up some dust and you have 
+to blink quickly to keep it out of your eyes.
+~
+98 0 1 0
+D1
+Dusty dirt path to Kitchen.
+~
+~
+0 -1 9870
+D3
+Dirt path to Kitchen.
+~
+~
+0 -1 9868
+S
+#9870
+Dusty dirt path to Kitchen.~
+You feel a tickle in your nose from the dust along this path. It sure is 
+dusty here, who would have thought that so close to a kitchen would be a dust 
+bath. You notice that as you walk along a dust cloud develops around you. 
+Maybe you should walk slower...
+~
+98 0 1 0
+D1
+Pathway to Kitchen.
+~
+~
+0 -1 9871
+D3
+Dusty path to Kitchen.
+~
+~
+0 -1 9869
+S
+#9871
+Pathway to Kitchen.~
+This pathway runs along side of the wall to the Colonel's offices. You can 
+see the wooden logs that make up the walls of his office to the North. The 
+path leads off to the East and the West from here and is extremely dusty, so 
+you had better tread carefully.
+~
+98 0 1 0
+D1
+Dirt pathway.
+~
+~
+0 -1 9872
+D3
+Dusty dirt path to Kitchen.
+~
+~
+0 -1 9870
+S
+#9872
+Dirt pathway.~
+This looks like any ordinary path, except that it is seems to be very dusty. 
+You wonder where it leads too. There is a dusty path that leads to the East, 
+but you think the path to the West leads to the kitchens. Hmmmmm wonder if we 
+could get a snack if we head that way!
+~
+98 0 1 0
+D1
+Dusty dirt path.
+~
+~
+0 -1 9873
+D3
+Pathway to Kitchen.
+~
+~
+0 -1 9871
+S
+#9873
+Dusty dirt path.~
+As you scuff your feet along this path you find that your eyes start to water. 
+That will teach you to scuff your feet creating a dust cloud. OWWWWWW, the 
+dust in your eyes sure hurts them. You blink furiously trying to get the dust 
+out but it doesn't seem to help and you have tears streaming down your cheeks. 
+Ewwww this path is horrid!
+~
+98 0 1 0
+D1
+Dirt path.
+~
+~
+0 -1 9874
+D3
+Dirt Pathway.
+~
+~
+0 -1 9872
+S
+#9874
+Dirt path.~
+You have no idea where this path will lead you too. All you can see from here 
+is an intersection to the East and a dusty path that continues to the West. 
+There is nothing exciting happening here and you begin to wonder why you have
+come this way...
+~
+98 0 1 0
+D1
+Intersection of paths.
+~
+~
+0 -1 9875
+D3
+Dusty dirt path.
+~
+~
+0 -1 9873
+S
+#9875
+Intersection of paths.~
+You have come across yet another intersection. There is paths leading off 
+everywhere in this fort. You wonder where the path to the West leads, it 
+looks rather dusty and desolate though. To the North you can vaguely see the 
+outline of the colonel's offices and if you head South you will head back 
+towards the main gates of the fort.
+~
+98 0 1 0
+D0
+Path Intersection.
+~
+~
+0 -1 9857
+D2
+Path Intersection.
+~
+~
+0 -1 9879
+D3
+Dirt Path.
+~
+~
+0 -1 9874
+S
+#9876
+Holding cells.~
+In this cell you can see crudely made beds along the walls. Looks like this 
+cell is used to hold a large number of people at once. This cell is quite 
+clean and it even smells quite pleasant. Maybe this is where they put the 
+drunkards to sleep off their hangovers from too much over indulgence of the 
+locally made fire water.
+~
+98 ad 0 0
+D1
+Path Intersection.
+~
+Celldoor9~
+1 -1 9877
+S
+#9877
+Path Intersection.~
+You have come to the end of the passageway and there is cells to the East 
+and West of you. From a quick glance both cells seem to be unoccupied, 
+business can't be very good for the guards at the moment. Well I guess that 
+means that they don't have to work very hard. I bet they like it that way!
+~
+98 d 0 0
+D0
+Entrance to Holding Cells.
+~
+~
+0 -1 9863
+D1
+Holding Cells.
+~
+Celldoor10~
+1 -1 9878
+D3
+Holding Cells.
+~
+Celldoor9~
+1 -1 9876
+S
+#9878
+Holding Cells.~
+As you walk into this cell the thing you notice first is the sunlight 
+streaming in through the window. This cell is exceptionally clean compared 
+to most of the others. There is a small bed on one side and a table and chair 
+on the other. Someone has left a plate and cup on the table, so it looks 
+like this room hasn't been vacant for very long.
+~
+98 ad 0 0
+D3
+Path Intersection.
+~
+Celldoor10~
+1 -1 9877
+S
+#9879
+Path Intersection.~
+You have wandered across another intersection of paths. To the North is 
+another Intersection and to the East is a path that seems to lead to 
+no-where. South is a path back to the Main gates of the fort.
+~
+98 0 1 0
+D0
+Intersection of paths.
+~
+~
+0 -1 9875
+D1
+Dusty path.
+~
+~
+0 -1 9880
+D2
+Intersection of paths.
+~
+~
+0 -1 9892
+S
+#9880
+Dusty Path.~
+Hmmmmm looks like this path isn't used very often. You see a vague hoof 
+print in the dust here, but the wind has erased most of the print. There is 
+also a faint imprint of a pair of boots too, but it looks like the prints 
+only go one way. To the East the hoof prints lead, and to the West the boot 
+prints head back towards the intersection. 
+~
+98 0 1 0
+D1
+Dusty Path.
+~
+~
+0 -1 9881
+D3
+Path Intersection.
+~
+~
+0 -1 9879
+S
+#9881
+Dusty Path.~
+You can see vague foot prints in the dust here. Looks like this path isn't 
+used very often anymore. You can see rails along side of the path that look 
+like at one time they might have had horses tied up to them. Maybe this is 
+where they used to leave the horses after a hard day of work, while these 
+days they put them in the stables.
+~
+98 0 1 0
+D1
+End of dusty path.
+~
+~
+0 -1 9882
+D3
+Dusty Path.
+~
+~
+0 -1 9880
+S
+#9882
+End of Dusty Path.~
+You can see the walls have rails around the whole distance of the room. This 
+is definitely where they used to tie their horses up. You can see some long 
+dried out horse dung on the ground in the corner, and a pail which once held 
+enormous amounts of water for the horses standing empty in the corner. 
+Someone has also dropped an old horse bit here and it has rusted and cracked 
+from the torments of nature.
+~
+98 0 1 0
+D3
+Dusty Path.
+~
+~
+0 -1 9881
+S
+#9883
+Sleeping Quarters.~
+There are rows upon rows of bunk beds along the walls of this room. Under one 
+of the beds you see a pair of boots neatly placed. They have been polished up 
+and are ready to be worn. There is also a locker box at the end of each bed. 
+This must be where the men keep their belongings.
+~
+98 adf 0 0
+D1
+End of Passageway.
+~
+~
+0 -1 9884
+S
+#9884
+End of Passageway.~
+You have come to the end of the passageway here. To your East and West is the 
+sleeping quarters of the men that live in this fort. Many men have wandered 
+down this passage wondering just what they are doing here. Some of the men 
+have been here since the fort was first built, while others have come and 
+gone, as I am sure many more will.
+~
+98 d 0 0
+D1
+Sleeping Quarters.
+~
+~
+0 -1 9885
+D2
+Pathway to Sleeping Quarters.
+~
+~
+0 -1 9893
+D3
+Sleeping Quarters.
+~
+~
+0 -1 9883
+S
+#9885
+Sleeping Quarters.~
+This barely furnished room consists of bunk beds and locker boxes and not 
+much else. It doesn't look like the men living here have many personal items 
+to store in their boxes. No-one could fit much into the locker boxes even the 
+best packer in the world.
+~
+98 adf 0 0
+D3
+End of Passageway.
+~
+~
+0 -1 9884
+S
+#9886
+Turn in Stable Pathway.~
+It is quite dark in this stable, but the air is cool and the smell of hay and 
+horse feed is quite strong. There is a path that leads of to the East and to 
+the South you think you can just make out a stable door.
+~
+98 ad 0 0
+D1
+Stable Pathway.
+~
+~
+0 -1 9887
+D2
+Entrance to Horse Stall.
+~
+~
+0 -1 9894
+S
+#9887
+Stable Pathway.~
+You are walking along a pathway in the forts stable. Someone has dropped a 
+heap of hay on the ground here and it scatters as you walk through it. 
+~
+98 ad 0 0
+D1
+Turn in stable pathway.
+~
+~
+0 -1 9888
+D3
+Turn in stable pathway.
+~
+~
+0 -1 9886
+S
+#9888
+Turn in stable pathway.~
+On the floor here you can see some hay that someone has dropped and it 
+leads off towards the West. To the South is the Entrance to the stables, and 
+you can see light filtering in through the doorway. You eyes adjust to the 
+darkness of the passageway as you turn and look towards the West.
+~
+98 ad 0 0
+D2
+Entrance to Stables.
+~
+~
+0 -1 9896
+D3
+Stable Pathway.
+~
+~
+0 -1 9887
+S
+#9889
+Turn in Pathway.~
+This is a very well worn path. You can see a multitude of prints overlapping 
+here, some are from soldiers and some from the horses that are stabled down 
+this path.
+~
+98 0 1 0
+D1
+Dusty Pathway.
+~
+~
+0 -1 9890
+D2
+Turn in Pathway.
+~
+~
+0 -1 9902
+S
+#9890
+Dusty Pathway.~
+This path is a little dusty, but it is well worn and well used. It looks like 
+many people have trodden down this path. It looks like many horses have also 
+taken this path too from the looks of all the horse prints in the dirt.
+~
+98 0 1 0
+D1
+Well-used Pathway.
+~
+~
+0 -1 9891
+D3
+Turn in pathway.
+~
+~
+0 -1 9889
+S
+#9891
+Well-used Pathway.~
+This path has been extremely well used over the years that this fort has been 
+here. To the East is an intersection and to the West is a dusty path.
+~
+98 0 1 0
+D1
+Intersection of paths.
+~
+~
+0 -1 9892
+D3
+Dusty pathway.
+~
+~
+0 -1 9890
+S
+#9892
+Intersection of Paths.~
+This dusty intersection leads off to the West down a well-used path. You can 
+also continue North onto another Intersection, or if you prefer you can head 
+back South to the gates of the fort.
+~
+98 0 1 0
+D0
+Path Intersection.
+~
+~
+0 -1 9879
+D2
+Intersection of Pathways.
+~
+~
+0 -1 9903
+D3
+Well-used Pathway.
+~
+~
+0 -1 9891
+S
+#9893
+Pathway to Sleeping Quarters.~
+As you walk down this path, past the doorways into the sleeping quarters of 
+the soldiers that are stationed here you catch fleeting glimpses of the rooms. 
+Most of the rooms are sparsely furnished and don't look very lived in.
+~
+98 d 0 0
+D0
+End of Passageway.
+~
+~
+0 -1 9884
+D2
+Entrance of Sleeping Quarters.
+~
+~
+0 -1 9909
+S
+#9894
+Entrance to Horse Stall.~
+You see a stall door hanging ajar to the East. You see a trail of hay leading 
+into this stall. Looks like this stall has been filled with hay recently from 
+the looks of the amount of hay that has been dragged in there. It still looks 
+like it is nice and clean and dry. Maybe you should enter the stall and have 
+a quick nap..
+~
+98 ad 0 0
+D0
+Turn in Stable Pathway.
+~
+~
+0 -1 9886
+D1
+Horse Stall.
+~
+Stable door~
+1 -1 9895
+D2
+Entrance to Horse Stall.
+~
+~
+0 -1 9911
+S
+#9895
+Horse Stall.~
+This stall has been filled with lots and lots of fresh, dry and clean hay. 
+This stall could even be used to store the hay in during the winter months to 
+save them having to drag it along a muddy path in the middle of winter. 
+Although at the moment it looks like the stall may have been used recently.
+~
+98 ad 0 0
+D3
+Entrance to Horse Stall.
+~
+Stable door~
+1 -1 9894
+S
+#9896
+Entrance to stables.~
+Ahhhhhh...you feel your eyes start to adjust to the darkness of the stables, 
+as you feel yourself start to cool down. The temperature in here must be 
+quite a few degrees cooler than outside. You feel relief flood through your 
+body just to have entered this building. There is passageways leading North, 
+East and South from here.
+~
+98 ad 0 0
+D0
+Turn in Stable pathway.
+~
+~
+0 -1 9888
+D1
+Pathway to Stables.
+~
+~
+0 -1 9897
+D2
+Entrance to Horse Stall.
+~
+~
+0 -1 9913
+S
+#9897
+Pathway to Stables.~
+Is that a doorway to the stables that you see to your West??? Yes I think 
+it must be.. You feel as if you have been travelling along this path forever 
+now with no goal in sight, and now there is it just a few steps to the West. 
+Ahhhhhhhh.....
+~
+98 0 1 0
+D1
+Path to Stables.
+~
+~
+0 -1 9898
+D3
+Entrance to Stables.
+~
+~
+0 -1 9896
+S
+#9898
+Path to stables.~
+This well-worn path seems to go forever, you begin to wonder if it will ever 
+end. You can head back to the East which will lead you to the main path or 
+continue on to the West, which will hopefully take you to the Horse Stables.
+~
+98 0 1 0
+D1
+Dirt path to stables.
+~
+~
+0 -1 9899
+D3
+Pathway to stables.
+~
+~
+0 -1 9897
+S
+#9899
+Dirt path to stables.~
+Your feet scuff along the path here, kicking up a small dust cloud and 
+disturbing the multitude of footprints that have accumulated here. There is 
+a large assortment of different sized foot prints to be found here.
+~
+98 0 1 0
+D1
+Dusty path to stables.
+~
+~
+0 -1 9900
+D3
+Path to stables.
+~
+~
+0 -1 9898
+S
+#9900
+Dusty path to stables.~
+You are travelling along a path that should lead you to the forts formidable 
+stables. Your exits here lead either East or West. There isn't much of interest 
+here at all, just a thin layer of dust laying on the path, and that's certainly
+not very exciting!
+~
+98 0 1 0
+D1
+Pathway to stables.
+~
+~
+0 -1 9901
+D3
+Dirt path to stables.
+~
+~
+0 -1 9899
+S
+#9901
+Pathway to stables.~
+Standing here you can see a turn in the pathway to your East and the path 
+leads off seemingly in a straight line to the West. There is just enough 
+dust on this path to dirty your nicely polished boots. 
+~
+98 0 1 0
+D1
+Turn in pathway.
+~
+~
+0 -1 9902
+D3
+Dusty path to stables.
+~
+~
+0 -1 9900
+S
+#9902
+Turn in pathway.~
+This is a gentle bend in a pathway. Exits lead North and West from here. You 
+seem to be walking down hill slightly as you move to the West and uphill to 
+the South. Dust seems to have accumulated in the South-eastern side of the 
+path where the wind has blown it.
+~
+98 0 1 0
+D0
+Turn in pathway.
+~
+~
+0 -1 9889
+D3
+Pathway to stables.
+~
+~
+0 -1 9901
+S
+#9903
+Intersection of pathways.~
+Everywhere you seem to turn along this path you come across Intersections. 
+There doesn't seem to be any signs to let you know what is down each path 
+either. The soldiers that live here must just know where everything is and 
+don't need signs. But what about new people that come to the fort, what do 
+they do??? Well I guess they will find their way around eventually with a 
+little experimenting.
+~
+98 0 1 0
+D0
+Intersection of paths.
+~
+~
+0 -1 9892
+D1
+Well used path.
+~
+~
+0 -1 9904
+D2
+Path Intersection.
+~
+~
+0 -1 9917
+S
+#9904
+Well used path.~
+You are walking along a well used path. To your north you can see a large 
+area that is just a dust pit. There is no plants or anything growing in this 
+large empty area. The path continues off to the East and West and your feet 
+stumble a little as you tread into the occasional ditch.
+~
+98 0 1 0
+D1
+Well used pathway.
+~
+~
+0 -1 9905
+D3
+Intersection of pathways.
+~
+~
+0 -1 9903
+S
+#9905
+Well used pathway.~
+Just in front of you, you can see a huge rutt in the ground. This groove seems 
+to have been made in the path over the years by so many people having walked 
+down this path. You can just about visualise the men walking down here after 
+a hard days riding, scuffing their feet and just wanting to eat and go to bed.
+~
+98 0 1 0
+D1
+Pathway to Sleeping Quarters.
+~
+~
+0 -1 9906
+D3
+Well used path.
+~
+~
+0 -1 9904
+S
+#9906
+Pathway to Sleeping Quarters.~
+Someone seems to have built a rail along the path here. It is extremely 
+notched and has many a nick and cuts in it, in fact it looks as is it would 
+fall over if you even touched it. It doesn't look very stable at all. Why 
+would they have a rail here anyway. To the East is the Sleeping Quarters and 
+to the West is a path back to the main path. So there isn't really any need 
+for a rail to be here. Maybe someone was just bored one day or it might have 
+had a purpose once upon a time, who knows...
+~
+98 0 1 0
+D1
+Well used path to Sleeping Quarters.
+~
+~
+0 -1 9907
+D3
+Well used pathway.
+~
+~
+0 -1 9905
+S
+#9907
+Well used path to Sleeping Quarters.~
+Suddenly a strong gust of wind blows from behind you, and you feel a shiver 
+run down your spine. Peering around you can't see anything strange, but you 
+get the feeling someone is watching you. Off to the East you can see the 
+Sleeping Quarters of the soldiers stationed here. Is that someone looking
+out their window at u?? Now you can't see anything in the window. Was it just 
+your imagination or was there really someone there.
+~
+98 0 1 0
+D1
+Path to Sleeping Quarters.
+~
+~
+0 -1 9908
+D3
+Pathway to Sleeping Quarters.
+~
+~
+0 -1 9906
+S
+#9908
+Path to Sleeping Quarters.~
+You can see the large open doors of the Sleeping quarters to your East. Looks 
+like they have decided to leave these doors open, since so many people walk 
+in and out of them through-out the day and night. 
+~
+98 0 1 0
+D1
+Entrance to Sleeping Quarters.
+~
+~
+0 -1 9909
+D3
+Well used path to Sleeping Quarters.
+~
+~
+0 -1 9907
+S
+#9909
+Entrance to Sleeping Quarters.~
+As you walk through the open doors into the entrance of the Sleeping Quarters, 
+you have to wait for your eyes to adjust to the dim light here. You can see 
+passageways leading North and South and one to the East all leading to the 
+rooms where the men sleep.
+~
+98 d 0 0
+D0
+Pathway to Sleeping Quarters.
+~
+~
+0 -1 9893
+D1
+Sleeping Quarters.
+~
+~
+0 -1 9910
+D2
+Pathway to Sleeping Quarters.
+~
+~
+0 -1 9918
+D3
+Path to Sleeping Quarters.
+~
+~
+0 -1 9908
+S
+#9910
+Sleeping Quarters.~
+This is the sleeping quarters of the sergeant of the fort. He has a room all 
+to himself since he feels he is superior to everyone else. Surprisingly the 
+door isn't extra wide so that his head fits through.
+~
+98 adf 0 0
+D3
+Entrance to Sleeping Quarters.
+~
+~
+0 -1 9909
+S
+#9911
+Entrance to Horse Stall.~
+Wide stable door stand closed in front of you. There is a name on the door of 
+the horse that is stabled in this stall. The name on the door reads BANDIT. 
+This must be a special horse if it has its name on the stall door.
+~
+98 ad 0 0
+D0
+Entrance to Horse Stall.
+~
+~
+0 -1 9894
+D1
+horse Stall.
+~
+Stable door2~
+1 -1 9912
+D2
+Entrance to Horse Stall.
+~
+~
+0 -1 9919
+S
+#9912
+Horse Stall.~
+This is the stall of BANDIT. This stall has all the luxuries that a horse 
+could ever want. It has lots of fresh dry hay laying on the ground and a huge 
+barrel of water and even a bucket of oats in the corner. Since this is the 
+colonel's own private horse it is no wonder that he is looked after very well.
+~
+98 ad 0 0
+D3
+Entrance to horse Stall.
+~
+Stable door2~
+1 -1 9911
+S
+#9913
+Entrance to Horse Stall.~
+The door to the east is for the stall that can be found beyond the door which 
+has been closed. You can hear some strange noises coming from behind the door. 
+It sounds like the snuffing of a horse and the scaping of a hoof on the ground.
+is that one or two horses in there? Or is it even more than that?
+~
+98 ad 0 0
+D0
+Entrance to Stables.
+~
+~
+0 -1 9896
+D1
+Horse Stall.
+~
+Stable door3~
+1 -1 9914
+D2
+Entrance to Horse Stall.
+~
+~
+0 -1 9921
+S
+#9914
+Horse Stall.~
+This stall is an exceptionally large stall, but it has to be to hold this many 
+horses in it. the railings along the wall have at least 7 horses tied up to 
+them. This stall looks to be a general use stall where anyone can put their 
+horse for the night.
+~
+98 ad 0 0
+D3
+Entrance to horse Stall.
+~
+Stable door3~
+1 -1 9913
+S
+#9915
+Bend in Path.~
+Standing here you see the path lead off in two directions. It leads off to 
+the East and to the South. The Path in both directions looks the same and you 
+wonder if you could get lost in here if u didn't know what way you came from.
+~
+98 0 1 0
+D1
+Dusty path.
+~
+~
+0 -1 9916
+D2
+Bend in Path.
+~
+~
+0 -1 9924
+S
+#9916
+Dusty Path.~
+This path looks as though it doesn't get frequented very often. There is a
+thick layer of dust laying undisturbed here. You resist the urge to kick your 
+feet and disturb it. to your east you can see an intersection and to the West 
+a path that leads to somewhere.
+~
+98 0 1 0
+D1
+Path Intersection.
+~
+~
+0 -1 9917
+D3
+Bend in Path.
+~
+~
+0 -1 9915
+S
+#9917
+Path Intersection.~
+Looking down at the ground here you can see wagon tracks in the dust. It 
+looks like a whole lots of wagons and soldiers on horses have left not too 
+long ago. The tracks seem to be quite fresh still. There is a path leading 
+off to the West and the tracks lead from the north and head South to the 
+gates of the fort. The main part of the fort must be to the north because 
+that's where the tracks lead from.
+~
+98 0 1 0
+D0
+Intersection of Pathways.
+~
+~
+0 -1 9903
+D2
+Cross-intersection of paths.
+~
+~
+0 -1 9926
+D3
+Dusty path.
+~
+~
+0 -1 9916
+S
+#9918
+Pathway to Sleeping Quarters.~
+Gazing around this pathway you see very little. There is a path to the North 
+where the exit to the sleeping quarters can be found. To the South there is a 
+path to even more rooms.
+~
+98 d 0 0
+D0
+Entrance to Sleeping quarters.
+~
+~
+0 -1 9909
+D2
+Cross-intersection of Paths.
+~
+~
+0 -1 9931
+S
+#9919
+Entrance to horse Stall.~
+You are standing in front of a door to a horse stall. The door seems to
+have a crack in it where a horse has kicked it. There must have been a lot of 
+force behind that kick. The exits from here lead North, East and South.
+~
+98 ad 0 0
+D0
+Entrance to horse Stall.
+~
+~
+0 -1 9911
+D1
+Horse Stall.
+~
+Stable door4~
+1 -1 9920
+D2
+Bend in Stable path.
+~
+~
+0 -1 9933
+S
+#9920
+Horse Stall.~
+The first thing that catches your eye as you enter this stall is the dents in 
+the walls. There is a crack in the Northern wall and a hole in the Eastern 
+wall. Looks like once upon a time a horse tried to kick his way out of this 
+stall. Hearing a rustling sound you look around and see a horse start to 
+stand up from the pile of hay that was in the middle of the floor. Snorting 
+madly he glares at you and you frantically look for a way out. The only way 
+out is to the West...RUN!!!!!!
+~
+98 ad 0 0
+D3
+Entrance to horse Stall.
+~
+Stable door4~
+1 -1 9919
+S
+#9921
+Entrance to Horse Stall.~
+A door bangs slightly in the breeze that blows through the stables. Even 
+though the door is closed it is so well worn that the slightest breeze makes 
+is sway gently, just enough to bang against the wall. There is an entrance 
+to a horse stall to the East where the door is and to the North is the 
+entrance to the stables and South you can go further into the stables.
+~
+98 ad 0 0
+D0
+Entrance to horse Stall.
+~
+~
+0 -1 9913
+D1
+Horse Stall.
+~
+Stable door5~
+1 -1 9922
+D2
+Entrance to Horse Stall.
+~
+~
+0 -1 9935
+S
+#9922
+Horse Stall.~
+Many horses have spent the night in this stall. The hay has been crushed 
+underfoot and is looking a little limp and dirty. There is a huge trough 
+along the eastern wall full of water, a lot of which has been spilled over 
+the side at some time or other, making the stall smell musty and stale.
+~
+98 ad 0 0
+D3
+Entrance to horse Stall.
+~
+Stable door5~
+1 -1 9921
+S
+#9923
+Bend in Path.~
+Someone has dropped a leather horse bridal on the ground here. What a strange 
+place to leave a bridal. Maybe this path was once used for horses and 
+carriages. There is the distinct markings of wagon tracks in the ground here.
+~
+98 0 1 0
+D1
+Bend in Path.
+~
+~
+0 -1 9924
+D2
+Bend in Dusty Path.
+~
+~
+0 -1 9941
+S
+#9924
+Bend in Path.~
+A broken wagon wheel lies on the side of the path here. It has been here so 
+long that it is half covered in dust and dirt. Looks like someone might have 
+taken the corner too fast as they came down the path heading either North or 
+West.
+~
+98 0 1 0
+D0
+Bend in Path.
+~
+~
+0 -1 9915
+D3
+Bend in Path.
+~
+~
+0 -1 9923
+S
+#9925
+Bend in Path.~
+To the south you can see a staircase that leads up to the lookout of the fort. 
+The main path is to your East and you can hear the creak of the main gates as 
+the guards open them to let someone come inside.
+~
+98 0 1 0
+D1
+Cross-Intersection of Paths.
+~
+~
+0 -1 9926
+D2
+Stair well.
+~
+~
+0 -1 9942
+S
+#9926
+Cross-intersection of Paths.~
+There is paths leading off in all directions here. To the North you see a path 
+heading towards the main part of the fort. To the east and west there is paths 
+that don't have any signs or give you no indication of what is down the paths, 
+hmmm strange. The main gates can be found to your South and they are massive 
+in size, they are really quite impressive.
+~
+98 0 1 0
+D0
+Path Intersection.
+~
+~
+0 -1 9917
+D1
+Dusty Path.
+~
+~
+0 -1 9927
+D2
+Main gates.
+~
+~
+0 -1 9943
+D3
+Bend in Path.
+~
+~
+0 -1 9925
+S
+#9927
+Dusty Path.~
+Looking down this path you can see that it has been well used. This would
+have to be one of the most popular paths in the whole fort from the looks of 
+it. You wonder what is down the end of the path that attracts so many people 
+to it.
+~
+98 0 1 0
+D1
+Dusty Path.
+~
+~
+0 -1 9928
+D3
+Cross-Intersection of Paths.
+~
+~
+0 -1 9926
+S
+#9928
+Dusty Path.~
+This path seems to lead to the forts outhouse. It seems to be put out here in 
+the middle of nowhere, that might be because of the smell that it seems to be 
+excruciating. The outhouses are to the East of here and all you feel like 
+doing is going back towards the west to get some fresh air.
+~
+98 0 1 0
+D1
+Outhouse.
+~
+~
+0 -1 9929
+D3
+Dusty Path.
+~
+~
+0 -1 9927
+S
+#9929
+Outhouse.~
+You have entered the forts outhouse. There is a terrible smell coming from the 
+hole in the ground that is situated in the middle of this room. These longdrops
+sure smell a lot, you guess that they don't get cleaned out or anything 
+EWWWWWWW.... I think its time to get out of here! NOW!!
+~
+98 ad 0 0
+D3
+Dusty Path.
+~
+~
+0 -1 9928
+S
+#9930
+Sleeping Quarters.~
+Walking into this room you see saddlebags hanging over the rail of the beds 
+that are lined up along the walls. Someone has carelessly left their jacket 
+laying on the end of one of the beds and a shoe has been knocked over on the 
+floor. The door to the main path is to your East.
+~
+98 adf 0 0
+D1
+Cross-Intersection of Paths.
+~
+~
+0 -1 9931
+S
+#9931
+Cross-Intersection of Paths.~
+The sleeping quarters of the soldiers that are stationed here are all around 
+you. There is exits to the east and West that lead straight into the rooms of 
+the men and there is paths to the north and South that lead to more rooms and 
+to the entrance of the building.
+~
+98 d 0 0
+D0
+Pathway to Sleeping Quarters.
+~
+~
+0 -1 9918
+D1
+Sleeping Quarters.
+~
+~
+0 -1 9932
+D2
+Intersection of Paths.
+~
+~
+0 -1 9946
+D3
+Sleeping Quarters.
+~
+~
+0 -1 9930
+S
+#9932
+Sleeping Quarters.~
+Many a soldier has slept in the beds here. Lined up along the walls are lots 
+and lots of bunkbeds just waiting for those tired and dirty soldiers to come 
+drop into them. Most of the soldiers in this room are very tidy, but one seems 
+to be having trouble fitting everything into his box at the end of his bunk, 
+the main reason for this is that his guitar doesn't fit into it, and he has it 
+leaning up along side of his bed. The rest of his stuff seems to be quite tidy,
+but it just doesn't look as spotless as the others.
+~
+98 adf 0 0
+D3
+cross-Intersection of Paths.
+~
+~
+0 -1 9931
+S
+#9933
+Bend in Stable Path.~
+You have come to the corner of the stables. It is quite dark back here and you 
+can dimly see light to the East and north of you. In the distance to the East 
+you can see another stable door, well you think its a stable door.
+~
+98 ad 0 0
+D0
+Entrance to horse Stall.
+~
+~
+0 -1 9919
+D1
+Stable path.
+~
+~
+0 -1 9934
+S
+#9934
+Stable Path.~
+You can see a dim light coming from the East where you can see the outline of 
+a stable door. To the West it is even darker and looks like it could be a 
+corner in a path leading to more stalls. The stall door to the east seems to 
+be slightly ajar, wonder what's in there?
+~
+98 ad 0 0
+D1
+Entrance to Horse Stall.
+~
+~
+0 -1 9935
+D3
+Bend in Stable Path.
+~
+~
+0 -1 9933
+S
+#9935
+Entrance to horse Stall.~
+You can see the outline of the stall door that is to the east a lot better now.
+The door is slightly ajar and you can hear something or someone moving around 
+in there. There is a brighter light shinning from the North and to the West 
+it is even darker, and kind of scary.
+~
+98 ad 0 0
+D0
+Entrance to Horse Stall.
+~
+~
+0 -1 9921
+D1
+Horse Stall.
+~
+Stable door6~
+1 -1 9936
+D3
+Stable Path.
+~
+~
+0 -1 9934
+S
+#9936
+Horse Stall.~
+As you enter this stall you see a stable hand sweeping out the stall. He
+seems to be having a bit of trouble sweeping around the legs of a horse 
+which is getting upset as he tries his hardest to get all the hay out off 
+the stall. You can see the frustration on his face and think that maybe 
+you should just leave him to do his work.
+~
+98 ad 0 0
+D3
+Entrance to Horse Stall.
+~
+Stable door6~
+1 -1 9935
+S
+#9937
+Inside a wagon.~
+It is rather run down inside of this wagon. It looks like it hasn't been
+used in a lot of years. There is cobwebs hanging from the roof and you feel 
+one touch your face as you peer around the wagon. Someone has left some pots 
+and pans in the back of the wagon, along with some old tatty, dusty blankets.
+~
+98 a 0 0
+D1
+Wagon.
+~
+~
+0 -1 9938
+S
+#9938
+Wagon.~
+You slide up onto the seat at the front of the wagon, the seat creaks from 
+many years of unuse as you settle yourself. Looking around you can see into 
+the back of the wagon to your west and the path leading away from the wagon 
+is to the east.
+~
+98 0 1 0
+D1
+Extremely Dusty Path.
+~
+~
+0 -1 9939
+D3
+Inside a wagon.
+~
+~
+0 -1 9937
+S
+#9939
+Extremely Dusty Path.~
+To the West you can see a rundown old wagon. It is missing a wheel and looks 
+rather unsafe. The cover on the back of the wagon has been ripped in a storm 
+at some time and the wood is starting to rot. You can climb up on the wagon 
+if you go West or you can follow the path back to the main path by going east.
+~
+98 0 1 0
+D1
+Dusty Path.
+~
+~
+0 -1 9940
+D3
+Wagon.
+~
+~
+0 -1 9938
+S
+#9940
+Dusty Path.~
+Walking along this path you get a feeling as though no-one has trodden this 
+path for a long time.. You think you can see a deserted wagon off in the 
+distance to the West and to the East is a turn in the path that leads back to 
+the main street.
+~
+98 0 1 0
+D1
+Bend in Dusty Path.
+~
+~
+0 -1 9941
+D3
+Extremely Dusty Path.
+~
+~
+0 -1 9939
+S
+#9941
+Bend in Dusty Path.~
+You seem to have come across another turn in this meandering path. You can 
+see a plank of wood lying on the side of the path, it looks like it once 
+belonged to a wagon and has fallen off at some time or other. There are 
+two exits from here you can go either North or West.
+~
+98 0 1 0
+D0
+Bend in Path.
+~
+~
+0 -1 9923
+D3
+Dusty Path.
+~
+~
+0 -1 9940
+S
+#9942
+Stairwell.~
+A set of stairs leads up to the look out here. They have been well used and 
+look really safe. Although they do seem to go up quite high and it would 
+really hurt if you fell down them.
+~
+98 ad 0 0
+D0
+Bend in Path.
+~
+~
+0 -1 9925
+D4
+Staircase down.
+~
+~
+0 -1 9997
+S
+#9943
+Main Gates.~
+A set of massive gates stands before you. There is always a couple of guards 
+standing here ready to open them when someone approaches. 
+~
+98 0 1 0
+D0
+Cross-Intersection of paths.
+~
+~
+0 -1 9926
+D1
+Stairwell.
+~
+~
+0 -1 9944
+D2
+Dirt Road.
+~
+~
+0 -1 13278
+S
+#9944
+Stairwell.~
+The stairs here have seen a lot of use. Some of the steps have been stained
+with blood from soldiers who have been attacked while on lookout duty and have 
+had to rush down the stairs to receive medical attention.
+~
+98 ad 0 0
+D3
+Main gates.
+~
+~
+0 -1 9943
+D4
+Stairs down.
+~
+~
+0 -1 9998
+S
+#9945
+Laundry.~
+You are standing in a room full of dirty laundry waiting to be washed. There 
+are dirty uniforms strewn from one end of the room to the other, but there 
+seems to be some kind of order to this chaos.
+~
+98 ad 0 0
+D1
+Intersection of Paths.
+~
+~
+0 -1 9946
+S
+#9946
+Intersection of Paths.~
+Coming to the end of the path you expected to see more sleeping quarters 
+and to your surprise you find to the east a bathing room and to the West a 
+laundry room.
+~
+98 d 0 0
+D0
+Cross-intersection of paths.
+~
+~
+0 -1 9931
+D1
+Bathing room
+~
+~
+0 -1 9947
+D3
+Laundry.
+~
+~
+0 -1 9945
+S
+#9947
+Bathing room.~
+A bar of soap has been left on the floor next to the bath tub which is 
+standing in the middle of the room. There are also towels and clothes hanging 
+on hooks along the eastern wall. There is a fire place with a big pot of water 
+heating up on it in the corner ready to be poured into the bath so the men 
+can bath at their will.
+~
+98 ad 0 0
+D3
+Intersection of paths.
+~
+~
+0 -1 9946
+S
+#9948
+North-Western Corner~
+Gazing off into the distance over the banister here you can see the country 
+side that seems to go forever. The bareness of the country side seems out of 
+place with all the bustling activity that goes on here at the fort.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9949
+D2
+Western Lookout Path.
+~
+~
+0 -1 9967
+S
+#9949
+Northern Lookout path.~
+Stepping along this path you hear the floor boards squeak under your feet. 
+Many a soldier has spent the day or night standing here watching over the 
+country side watching for anybody coming to attack the fort.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9950
+D3
+North-Western Corner.
+~
+~
+0 -1 9948
+S
+#9950
+Northern Lookout path.~
+You see an arrow that has once been shot at a soldier stuck into the wall 
+here. There are many holes on the wooden wall there other arrows have been 
+dislodged. If that many arrows land in the wall, just how many manage to get 
+over the wall and hit the people inside the fort??
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9951
+D3
+Northern Lookout path.
+~
+~
+0 -1 9949
+S
+#9951
+Northern Lookout path.~
+Looking over the wall into the main area of the fort you can see the many 
+paths that wind around the fort. You can see many soldiers bustling around 
+doing their work, they all seem to be so busy and on important errands.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9952
+D3
+Northern Lookout path.
+~
+~
+0 -1 9950
+S
+#9952
+Northern Lookout path.~
+You can stand and gaze out over the country side here, and still feel quite 
+safe. The walls have been built up high here and there is a small gap for a 
+weapon to be poked out to fire at any unfriendly persons that may be lurking 
+in the bushes waiting to ambush the fort.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9953
+D3
+Northern Lookout path.
+~
+~
+0 -1 9951
+S
+#9953
+Northern Lookout path.~
+Under your feet you think you can hear the Colonel yelling at someone for a 
+mistake they have made. Boy noise sure travels easily through these wooden 
+floor boards and walls. 
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9954
+D3
+Northern Lookout path.
+~
+~
+0 -1 9952
+S
+#9954
+Northern Lookout path.~
+Looking up into the sky you see a bird fly overhead and feel the breeze 
+gently blow against your face. It seems so still and tranquil here at the 
+moment, you wish that it could be like this always.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9955
+D3
+Northern Lookout path.
+~
+~
+0 -1 9953
+S
+#9955
+Northern Lookout path.~
+Looking out over the Northern wall in the distance you can see a troop of 
+soldiers heading back to the fort. They are riding hard and fast on their 
+horses wanting to get back to the fort before they run into any trouble.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9956
+D3
+Northern Lookout path.
+~
+~
+0 -1 9954
+S
+#9956
+Northern Lookout path.~
+Sunlight pounds down on your head relentlessly as you walk along the lookout 
+path. There is no shade here and you can now understand why they always wear 
+a hat while on duty. The climate here is unforgiving.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9957
+D3
+Northern Lookout path.
+~
+~
+0 -1 9955
+S
+#9957
+Northern Lookout path.~
+This seems to be a guards post. There isn't much that distinguishes it for any 
+other part of the path, except that the holes in the side of the wall seem to 
+be a bit larger and there is a few extra ones that let the guards see further 
+into the distance.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9958
+D3
+Northern Lookout path.
+~
+~
+0 -1 9956
+S
+#9958
+Northern Lookout path.~
+You bump into an arrow sticking out of the wall as you walk down this path. 
+Many an arrow has been shot over these walls over the years.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9959
+D3
+Northern Lookout path.
+~
+~
+0 -1 9957
+S
+#9959
+Northern Lookout path.~
+If you peer over the wall here and look out into the distance you can see the 
+sparse scenery, with only a few trees and shrubs to break up the monotonous 
+looking land. It is very desolate looking land and you wonder how anything 
+survives out here.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9960
+D3
+Northern Lookout path.
+~
+~
+0 -1 9958
+S
+#9960
+Northern Lookout path.~
+Underneath your feet you can hear muffled voices talking. You must be walking 
+over the Colonels offices and you wonder if they can hear your feet stamping 
+along the path up here, since you can hear them quite well.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9961
+D3
+Northern Lookout path.
+~
+~
+0 -1 9959
+S
+#9961
+Northern Lookout path.~
+Leaning your elbows on the banister here you can gaze of into the distance at 
+your leisure. Not that's there is much to look at, but it does feel nice just 
+to stand and relax for a little while.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9962
+D3
+Northern Lookout path.
+~
+~
+0 -1 9960
+S
+#9962
+Northern Lookout path.~
+From your spot here on the lookout you can look over the whole fort. Soldiers 
+are busy bustling around the fort all with something important to do and not 
+enough time to do it in.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9963
+D3
+Northern Lookout path.
+~
+~
+0 -1 9961
+S
+#9963
+Northern Lookout path.~
+The sunsets from up here must be spectacular at night. The guards and 
+lookouts that have the evening shift must enjoy watching the sunsets, but 
+there would be an element of danger in being on watch at night, when the 
+enemy can creep up on you unawares. You would have to be really alert to take 
+on this shift.
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9964
+D3
+Northern Lookout path.
+~
+~
+0 -1 9962
+S
+#9964
+Northern Lookout path.~
+A gust of wind has just blown along this path getting dust in your eyes. 
+You blink like mad trying to get the dust out of your eyes, but to no avail, 
+it is still there. 
+~
+98 i 1 0
+D1
+Northern Lookout path.
+~
+~
+0 -1 9965
+D3
+Northern Lookout path.
+~
+~
+0 -1 9963
+S
+#9965
+Northern Lookout path.~
+You are coming up to a corner of the path. To your East is a corner that goes 
+off to the South. You can hear someone moaning underneath you, as you walk 
+over the Slave Quarters.
+~
+98 i 1 0
+D1
+North-Eastern Corner.
+~
+~
+0 -1 9966
+D3
+Northern Lookout path.
+~
+~
+0 -1 9964
+S
+#9966
+North-Eastern Corner.~
+You have a spectacular view of the surrounding country side. You can see off 
+to the North and the east, but unfortunately what you have a view of isn't 
+really that good.
+~
+98 i 1 0
+D2
+Eastern lookout Path.
+~
+~
+0 -1 9968
+D3
+Northern Lookout Path.
+~
+~
+0 -1 9965
+S
+#9967
+Western Lookout Path~
+Leaning out over the rail here, the drop down to the ground is quite steep. 
+If you were to fall off of this path it would just about mean certain death.
+~
+98 i 1 0
+D0
+North-Western Corner.
+~
+~
+0 -1 9948
+D2
+Western Lookout path.
+~
+~
+0 -1 9969
+S
+#9968
+Eastern Lookout Path~
+Ewwwwww... The smell emanating from the floor boards here is disgusting. 
+You wonder what is under the floor boards here, it sure smells terrible.
+~
+98 i 1 0
+D0
+North-Eastern Corner.
+~
+~
+0 -1 9966
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9970
+S
+#9969
+Western Lookout Path.~
+Hmmmmmm... What is that smell? It seems to be wafting through the floor 
+boards here. You must be standing over the kitchens. It sure smells good 
+whatever they are cooking.
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9967
+D2
+Western Lookout Path.
+~
+~
+0 -1 9971
+S
+#9970
+Eastern Lookout Path.~
+The floor boards squeak extremely loudly as you walk over them. A nail or too 
+is sticking out here and there, luckily all the soldiers here wear heavy boots,
+which protects there feet from the rigours of the paths here.
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9968
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9972
+S
+#9971
+Western Lookout Path.~
+The smell of delicious food cooking fills your nostrils as you walk down this 
+part of the lookout. Your stomach rumbles telling you that the food sure 
+smells good and it would sure like to go visit the kitchens that must be just 
+under your feet.
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9969
+D2
+Western Lookout Path.
+~
+~
+0 -1 9973
+S
+#9972
+Eastern Lookout Path.~
+There is a crust of bread lying half eaten on the ground here. Looks like 
+someone lost their appetite as they walked over this foul smelling part of the 
+lookout. You must be standing over the Holding cells here, ewwww, sure 
+doesn't make you wanna eat here.
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9970
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9974
+S
+#9973
+Western Lookout Path.~
+Bang! Clank! Crash! What a racket! You must be standing over the dishwashing 
+room in the kitchen. The people down there sure don't treat the dishes 
+carefully. It sounds as though someone is taking their frustration's out on 
+the pots and pans.
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9971
+D2
+Western Lookout Path.
+~
+~
+0 -1 9975
+S
+#9974
+Eastern Lookout Path.~
+Looking out over the eastern rail you can see the country side for miles.
+There isn't a whole lot to look at, as it is fairly desolate with the 
+occasional tree and shrub dotting the horizon.
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9972
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9976
+S
+#9975
+Western Lookout Path.~
+There is a small package on the floor here, you step over to it and open it up 
+to find it has a secret stash of food in it. Looks like whoever guards here gets
+a bit hungry from the smells coming from the kitchen, so they bring along 
+their own snack.
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9973
+D2
+Western lookout Path.
+~
+~
+0 -1 9977
+S
+#9976
+Eastern Lookout Path.~
+Looking around you at the walls of the lookout here, you can see broken arrows 
+sticking out of the walls, where it has been too hard to get them out as they 
+have dug into the wall with such a force that they wont come loose. Good thing 
+there is a war on at the moment and it is quite safe to walk along here you 
+hope.
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9974
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9978
+S
+#9977
+Western Lookout Path.~
+A Yippee, Yippee, Yi Yay, a Yippee, Yippee Yi Yay... you can here a guard 
+singing a song to himself as he patrols the lookout.. He sounds relaxed and 
+happy, and doesn't seem to worried about anyone attacking the fort.
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9975
+D2
+Western Lookout Path.
+~
+~
+0 -1 9979
+S
+#9978
+Eastern Lookout Path.~
+Your steps seem heavy as they walk along the lookout. Your steps make a loud 
+clanking noise on the wooden planks that they have lined this path with. 
+There is no chance of you sneaking up on someone along here.
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9976
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9980
+S
+#9979
+Western Lookout path.~
+There is a broken arrow head stuck in between two of the wooden floor
+boards. Many an arrow head has passed over these walls over the many years 
+that the fort has stood impenetrable here. That arrow head wont be the last 
+to be shot at this fort, you can be sure of that.
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9977
+D2
+Western Lookout Path.
+~
+~
+0 -1 9981
+S
+#9980
+Eastern Lookout Path.~
+          ZZZZZZZzzzzzzz..... ZZZZZZZZzzzzzz..... ZZZZZZZzzzzzzzz.......
+The floor boards rumble under your feet as someone in the rooms under this 
+lookout is sleeping. They are snoring so loud that this whole part of the 
+fort is shaking. What a horrible person he would be to share a room with.
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9978
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9982
+S
+#9981
+Western Lookout Path.~
+Looking out to the west you can see the barren landscape that surrounds this 
+fort. This location sure wasn't chosen for its beauty. 
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9979
+D2
+Western Lookout path.
+~
+~
+0 -1 9983
+S
+#9982
+Eastern Lookout Path.~
+Looking out over the rails here to the east all you can see is barren 
+landscape. There is a tree or bush spotted here or there and that is about 
+all that you can see, without having to strain your eyes in search of 
+something interesting to look at.
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9980
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9984
+S
+#9983
+Western lookout Path.~
+Bang! Clank! You can here a knocking sound as though someone is kicking the 
+walls in the room under you. The walls shake and wobble with the force of the 
+kicks. NNNNNeeeeiiiigggghhhhh..... Oh my God! Its a horse that is causing all 
+that damage below! That horse sure doesn't sound like he likes to be kept in a 
+stall.
+~
+98 i 1 0
+D0
+Western lookout Path.
+~
+~
+0 -1 9981
+D2
+Western lookout Path.
+~
+~
+0 -1 9985
+S
+#9984
+Eastern Lookout Path.~
+Drmmmm, drmmm, laaa, laaa you hear the soft sounds of someone playing a 
+guitar and humming a tune. That tune sure sounds familiar and it reminds you 
+of your family and times long ago.  
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9982
+D2
+Eastern Lookout Path.
+~
+~
+0 -1 9986
+S
+#9985
+Western Lookout path.~
+You hear a door bang shut and jump with a start! You look around you and you 
+cant see any door that could have slammed shut. Listening carefully you here a 
+brush sweeping the floor and someone whistling to themselves as they work. You 
+must be standing above the forts stables.
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9983
+D2
+Western Lookout path.
+~
+~
+0 -1 9987
+S
+#9986
+Eastern Lookout Path.~
+Gazing over the side of the lookout back in towards the middle of the fort, 
+you can see a bustling hive of activity. You can see a soldier rubbing down 
+his horse and another standing near him chatting and having a smoke.
+~
+98 i 1 0
+D0
+Eastern Lookout Path.
+~
+~
+0 -1 9984
+D2
+South-Eastern Corner.
+~
+~
+0 -1 9799
+S
+#9987
+South-Western Corner.~
+Standing here you can look out to the South and the West. You can see for 
+miles and miles, its just a pity there isn't anything interesting besides 
+trees and bushes to look at.
+~
+98 i 1 0
+D0
+Western Lookout Path.
+~
+~
+0 -1 9985
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9988
+S
+#9988
+Southern Lookout Path.~
+As you walk over this part of the path you get a wiff of horse manure. It gets 
+stronger the longer you stand here, you think its about time they cleaned out 
+the stalls around here. Ewwwwww....
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9989
+D3
+South-Western Corner.
+~
+~
+0 -1 9987
+S
+#9989
+Southern Lookout Path.~
+There is a tomahawk sticking out of the wall here. Looks like some ambitious 
+Indian managed to climb the walls and attack the guards with it. The only 
+problem was it got stuck in the wooden log walls.
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9990
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9988
+S
+#9990
+Southern Lookout Path.~
+There is a pool of blood here on the wooden slats that make up the floor here. 
+Looks like someone came to the end of their time on earth in a rather 
+distressing way. From the amount of blood that has seeped into the floor 
+boards here it looks like they bled to death. What a horrible way to die.
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9991
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9989
+S
+#9991
+Southern Lookout Path.~
+You hear the flapping of a piece of canvas that seems to have come loose 
+somewhere. Where would canvas be found in a fort like this? Leaning out 
+over the rail into the main yard of the fort you see a wagon underneath 
+you, and a large piece of canvas is flapping in the wind.. There's your answer.
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9992
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9990
+S
+#9992
+Southern Lookout Path.~
+As you look out to the South from here you can see what lies outside the 
+fort walls. You can see the occasional tree and shrub which breaks the 
+bareness of the land that surrounds the fort. You can also see a path that 
+leads to the main gates just of to the east a little too.
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9993
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9991
+S
+#9993
+Southern Lookout Path.~
+The floor boards creak under your weight as you walk along. These floor 
+boards have seen many people walk along them over the years. It no wonder that 
+they creak and groan as much as they do.
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9994
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9992
+S
+#9994
+Southern Lookout Path.~
+The walls here are made from wooden logs and are looking a little worn. They 
+have a multitude of dents and cracks in them from various weapons having 
+knocked into them over the years. You can easily see where an arrow has 
+landed in the wall and someone has had to tug it out so that they didn't 
+walk into it in the dark.
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9995
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9993
+S
+#9995
+Southern Lookout Path.~
+Looking off to the North you can see into the yard of the fort. Just below 
+you there is a dusty path that leads to a old run down wagon. You can also 
+see a soldier walking his horse back to the stables after a busy day out on 
+the trail. He looks like he is ready to drop into bed and sleep for a week.
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9996
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9994
+S
+#9996
+Southern Lookout Path.~
+You feel a bit wobbly as you start to walk along this path. It feels a 
+little strange to be walking so far above the ground with only a few planks 
+of wood separating you from a fall to the ground. There is steps down to the 
+main gates to your east.
+~
+98 i 1 0
+D1
+Staircase Down.
+~
+~
+0 -1 9997
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9995
+S
+#9997
+Staircase Down.~
+There is a rickety staircase leading down to the main part of the fort here. 
+You can start to walk around the lookout by going West. The views from up here 
+can be spectacular at the right time of day.
+~
+98 i 1 0
+D3
+Southern Lookout Path.
+~
+~
+0 -1 9996
+D5
+Stairwell.
+~
+~
+0 -1 9942
+S
+#9998
+Stairs Down.~
+Your eyes adjust as they look down the stairs. They seem to be rather dark and 
+you are not sure how safe they are. But then again these soldiers run up and 
+down them all day, so they cant be all that bad. You did manage to get up 
+here in the first place so they must be safe enough to go back down when you 
+need too.
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9999
+D5
+Stairwell.
+~
+~
+0 -1 9944
+S
+#9999
+Southern Lookout Path.~
+Standing here you can look up at the sky and see birds flying over head. 
+What a sight it must be at night with all the stars glittering and shinning. 
+A slight breeze in the air would give it a little bit more charm and make it 
+a bit more romantic. Pity this isn't the place to be romantic :(
+~
+98 i 1 0
+D1
+Southern Lookout Path.
+~
+~
+0 -1 9795
+D3
+Stairs Down.
+~
+~
+0 -1 9998
+S
+$~

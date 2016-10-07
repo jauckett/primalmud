@@ -1,0 +1,73 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@am assist mannie
+now n; get all corpse; s
+da cast 'detect alignment' ordos
+to_tudor1 e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;
+noww w;kill $1;e
+nowe e;kill $1; w
+nows s;kill $1; n
+reco get recall backpack; recite recall
+rec cast 'word of recall'
+ref cast 'refresh' ordos
+to_castle w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n;n;n;n;
+to_rands s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;w;s;s;e;e;e;e;e;e;e;
+to_cave e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;s;w;s;w;s;e
+end_gambol s;s;s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+h cast 'heal' ordos
+idv get identify backpack; recite identify $1
+inf cast 'infravision' ordos
+bmeat buy 5 meat; put all.meat backpack
+meat get meat backpack; eat meat
+food cast 'create food'; eat mushroom
+qw get white backpack; quaff white
+dinv cast 'detect invisibility' ordos
+inv cast 'invisibility' ordos
+loc cast 'locate object' $1
+get_white s;s;s;e;e;e;n;buy 5 white;s;w;w;w;n;n;n;
+get_2white s;s;s;e;e;e;n;buy 10 white;s;w;w;w;n;n;n;
+sum cast 'summon' $1
+start wear all; cast 'strength' ordos; put all.meat backpack; put map backpack; put atlas backpack; hold bear; wield club; put all.white backpack
+cha cast 'charm person' $1
+nown n;kill $1;s
+cor get corpse;get all corpse;junk corpse
+cc cast 'cure critic' ordos
+heal cast 'heal' ordos
+dr drink skin
+b rem axe; wield dagger; backstab $1; rem dagger; wield axe
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

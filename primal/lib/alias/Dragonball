@@ -1,0 +1,21 @@
+sum c 'summon' $*
+loc c 'locate object' $*
+primal c 'primal scream'
+fly c 'fly'
+fin c 'finger of death' $*
+gg get all.gold all.corpse
+eb eat bread
+ds drink skin
+tel c 'teleport'
+inf c 'infr'
+dinv c 'detect invis'
+gf get $* field
+pf put $* field
+ec exam corpse
+ws wake;stand
+gc get all all.corpse
+ff exam field
+f flee
+ah c 'advanced heal'
+food c 'create food';eat mushroom
+r c 'word of recall'

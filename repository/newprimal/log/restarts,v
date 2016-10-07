@@ -1,0 +1,1138 @@
+head	1.6;
+access;
+symbols
+	rel1:1.1.1.1 vendprim:1.1.1;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2003.10.27.06.33.57;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.20.12.02.24;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.16.10.29.21;	author mud;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2000.03.01.16.22.43;	author sandii;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.02.25.14.13.32;	author michaeld;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2000.02.22.21.10.37;	author michaeld;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Artus> Committing for repository backup purposes.
+@
+text
+@Feb 15 01:10:22 :: Running game on port 4000.
+Feb 15 01:14:57 :: Running game on port 4000.
+Feb 15 01:25:13 :: Running game on port 4000.
+Feb 15 01:32:14 :: Running game on port 4000.
+Feb 15 01:45:38 :: Running game on port 4000.
+Feb 15 02:06:35 :: Running game on port 4000.
+Feb 15 02:09:14 :: Running game on port 4000.
+Feb 15 21:46:18 :: Running game on port 4000.
+Feb 15 22:02:48 :: Running game on port 4000.
+Feb 15 22:02:59 :: Running game on port 4000.
+Feb 15 22:03:33 :: Running game on port 4000.
+Feb 15 22:08:16 :: Running game on port 4000.
+Feb 16 00:02:07 :: Running game on port 4000.
+Feb 16 19:05:24 :: Running game on port 4000.
+Feb 16 19:05:46 :: Running game on port 4000.
+Feb 16 19:10:49 :: Running game on port 4000.
+Feb 16 19:13:16 :: Running game on port 4000.
+Feb 16 19:13:25 :: Running game on port 4000.
+Feb 16 19:18:59 :: Running game on port 4000.
+Feb 16 19:21:42 :: Running game on port 4000.
+Feb 16 19:22:54 :: Running game on port 4000.
+Feb 16 19:28:04 :: Running game on port 4000.
+Feb 16 19:28:29 :: Running game on port 4000.
+Feb 16 19:30:06 :: Running game on port 4000.
+Feb 16 19:30:15 :: Running game on port 4000.
+Feb 16 19:30:29 :: Running game on port 4000.
+Feb 16 19:51:06 :: Running game on port 4000.
+Feb 16 19:54:31 :: Running game on port 4000.
+Feb 16 19:58:10 :: Running game on port 4000.
+Feb 16 19:58:20 :: Running game on port 4000.
+Feb 16 20:00:06 :: Running game on port 4000.
+Feb 16 20:03:00 :: Running game on port 4000.
+Feb 16 20:03:13 :: Running game on port 4000.
+Feb 16 20:03:17 :: Running game on port 4000.
+Feb 16 20:04:39 :: Running game on port 4000.
+Feb 16 20:13:08 :: Running game on port 4000.
+Feb 16 20:19:41 :: Running game on port 4000.
+Feb 16 20:19:50 :: Running game on port 4000.
+Feb 16 20:20:51 :: Running game on port 4000.
+Feb 16 20:24:52 :: Running game on port 4000.
+Feb 16 20:26:38 :: Running game on port 4000.
+Feb 16 20:27:05 :: Running game on port 4000.
+Feb 16 20:28:12 :: Running game on port 4000.
+Feb 16 20:29:22 :: Running game on port 4000.
+Feb 16 20:30:21 :: Running game on port 4000.
+Feb 16 20:30:37 :: Running game on port 4000.
+Feb 16 20:32:11 :: Running game on port 4000.
+Feb 16 20:54:44 :: Running game on port 4000.
+Feb 16 20:55:49 :: Running game on port 4000.
+Feb 16 22:27:12 :: Running game on port 4000.
+Feb 16 22:28:21 :: Running game on port 4000.
+Feb 16 22:37:18 :: Running game on port 4000.
+Feb 16 22:38:57 :: Running game on port 4000.
+Feb 16 22:46:33 :: Running game on port 4000.
+Feb 16 22:47:42 :: Running game on port 4000.
+Feb 16 22:56:55 :: Running game on port 4000.
+Feb 16 22:57:57 :: Running game on port 4000.
+Feb 16 22:58:49 :: Running game on port 4000.
+Feb 16 22:59:49 :: Running game on port 4000.
+Feb 16 23:00:04 :: Running game on port 4000.
+Feb 16 23:00:24 :: Running game on port 4000.
+Feb 16 23:06:10 :: Running game on port 4000.
+Feb 16 23:06:21 :: Running game on port 4000.
+Feb 16 23:08:08 :: Running game on port 4000.
+Feb 16 23:08:25 :: Running game on port 4000.
+Feb 16 23:09:05 :: Running game on port 4000.
+Feb 16 23:09:17 :: Running game on port 4000.
+Feb 16 23:10:24 :: Running game on port 4000.
+Feb 16 23:10:36 :: Running game on port 4000.
+Feb 16 23:11:18 :: Running game on port 4000.
+Feb 16 23:13:06 :: Running game on port 4000.
+Feb 16 23:15:07 :: Running game on port 4000.
+Feb 16 23:15:17 :: Running game on port 4000.
+Feb 16 23:16:04 :: Running game on port 4000.
+Feb 16 23:16:57 :: Running game on port 4000.
+Feb 16 23:17:09 :: Running game on port 4000.
+Feb 16 23:18:54 :: Running game on port 4000.
+Feb 16 23:24:44 :: Running game on port 4000.
+Feb 16 23:25:15 :: Running game on port 4000.
+Feb 16 23:32:56 :: Running game on port 4000.
+Feb 17 00:23:37 :: Running game on port 4000.
+Feb 17 00:23:47 :: Running game on port 4000.
+Feb 17 00:24:51 :: Running game on port 4000.
+Feb 17 00:25:00 :: Running game on port 4000.
+Feb 17 19:25:05 :: Running game on port 4000.
+Feb 17 19:25:19 :: Running game on port 4000.
+Feb 17 19:26:45 :: Running game on port 4000.
+Feb 17 19:27:39 :: Running game on port 4000.
+Feb 17 19:28:47 :: Running game on port 4000.
+Feb 17 19:29:49 :: Running game on port 4000.
+Feb 17 19:30:15 :: Running game on port 4000.
+Feb 17 19:30:20 :: Running game on port 4000.
+Feb 17 19:31:23 :: Running game on port 4000.
+Feb 17 19:31:30 :: Running game on port 4000.
+Feb 17 19:31:36 :: Running game on port 4000.
+Feb 17 19:32:38 :: Running game on port 4000.
+Feb 17 19:33:32 :: Running game on port 4000.
+Feb 17 19:34:21 :: Running game on port 4000.
+Feb 17 19:35:05 :: Running game on port 4000.
+Feb 17 19:35:11 :: Running game on port 4000.
+Feb 17 19:36:13 :: Running game on port 4000.
+Feb 17 19:36:51 :: Running game on port 4000.
+Feb 17 19:36:59 :: Running game on port 4000.
+Feb 17 19:37:32 :: Running game on port 4000.
+Feb 17 19:38:11 :: Running game on port 4000.
+Feb 17 19:38:51 :: Running game on port 4000.
+Feb 17 19:39:04 :: Running game on port 4000.
+Feb 17 20:19:17 :: Running game on port 4000.
+Feb 17 20:20:03 :: Running game on port 4000.
+Feb 17 20:26:34 :: Running game on port 4000.
+Feb 17 20:27:34 :: Running game on port 4000.
+Feb 17 20:34:55 :: Running game on port 4000.
+Feb 17 20:43:00 :: Running game on port 4000.
+Feb 17 20:43:51 :: Running game on port 4000.
+Feb 17 20:43:53 :: Running game on port 4000.
+Feb 17 20:44:25 :: Running game on port 4000.
+Feb 17 20:49:04 :: Running game on port 4000.
+Feb 20 12:28:26 :: Running game on port 4000.
+Feb 20 12:47:41 :: Running game on port 4000.
+Feb 20 12:47:58 :: Running game on port 4000.
+Feb 20 12:49:27 :: Running game on port 4000.
+Feb 20 13:14:51 :: Running game on port 4000.
+Feb 20 13:16:27 :: Running game on port 4000.
+Feb 20 13:18:29 :: Running game on port 4000.
+Feb 20 13:33:17 :: Running game on port 4000.
+Feb 20 13:35:21 :: Running game on port 4000.
+Feb 20 13:37:04 :: Running game on port 4000.
+Feb 20 13:39:02 :: Running game on port 4000.
+Feb 20 13:42:11 :: Running game on port 4000.
+Feb 20 13:44:27 :: Running game on port 4000.
+Feb 20 13:57:50 :: Running game on port 4000.
+Feb 20 14:00:00 :: Running game on port 4000.
+Feb 20 14:07:01 :: Running game on port 4000.
+Feb 20 14:17:11 :: Running game on port 4000.
+Feb 20 14:19:01 :: Running game on port 4000.
+Feb 20 14:30:37 :: Running game on port 4000.
+Feb 20 14:58:25 :: Running game on port 4000.
+Feb 20 15:06:07 :: Running game on port 4000.
+Feb 20 15:08:53 :: Running game on port 4000.
+Feb 20 15:16:17 :: Running game on port 4000.
+Feb 20 15:35:56 :: Running game on port 4000.
+Feb 20 15:43:10 :: Running game on port 4000.
+Feb 20 16:05:57 :: Running game on port 4000.
+Feb 20 16:10:03 :: Running game on port 4000.
+Feb 20 16:10:32 :: Running game on port 4000.
+Feb 20 16:14:09 :: Running game on port 4000.
+Feb 20 16:17:15 :: Running game on port 4000.
+Feb 20 16:22:24 :: Running game on port 4000.
+Feb 20 16:26:55 :: Running game on port 4000.
+Feb 20 16:30:55 :: Running game on port 4000.
+Feb 20 17:18:09 :: Running game on port 4000.
+Feb 20 17:19:52 :: Running game on port 4000.
+Feb 20 17:21:39 :: Running game on port 4000.
+Feb 20 17:36:57 :: Running game on port 4000.
+Feb 20 17:41:21 :: Running game on port 4000.
+Feb 20 17:46:07 :: Running game on port 4000.
+Feb 20 17:46:12 :: Running game on port 4000.
+Feb 20 19:15:09 :: Running game on port 4000.
+Feb 20 19:32:00 :: Running game on port 4000.
+Feb 20 19:40:27 :: Running game on port 4000.
+Feb 20 19:40:33 :: Running game on port 4000.
+Feb 20 19:44:11 :: Running game on port 4000.
+Feb 20 19:44:15 :: Running game on port 4000.
+Feb 20 19:44:30 :: Running game on port 4000.
+Feb 20 19:44:53 :: Running game on port 4000.
+Feb 20 19:46:01 :: Running game on port 4000.
+Feb 20 19:51:25 :: Running game on port 4000.
+Feb 20 19:52:13 :: Running game on port 4000.
+Feb 20 19:53:05 :: Running game on port 4000.
+Feb 20 19:53:34 :: Running game on port 4000.
+Feb 20 19:53:44 :: Running game on port 4000.
+Feb 20 19:54:22 :: Running game on port 4000.
+Feb 20 19:56:06 :: Running game on port 4000.
+Feb 20 19:58:14 :: Running game on port 4000.
+Feb 20 20:01:30 :: Running game on port 4000.
+Feb 20 20:01:34 :: Running game on port 4000.
+Feb 20 20:06:39 :: Running game on port 4000.
+Feb 20 20:06:44 :: Running game on port 4000.
+Feb 20 20:11:25 :: Running game on port 4000.
+Feb 20 20:15:10 :: Running game on port 4000.
+Feb 20 20:16:06 :: Running game on port 4000.
+Feb 20 20:16:54 :: Running game on port 4000.
+Feb 20 20:20:34 :: Running game on port 4000.
+Feb 20 20:21:32 :: Running game on port 4000.
+Feb 20 20:29:47 :: Running game on port 4000.
+Feb 20 20:30:02 :: Running game on port 4000.
+Feb 20 20:31:58 :: Running game on port 4000.
+Feb 20 20:40:21 :: Running game on port 4000.
+Feb 20 20:42:56 :: Running game on port 4000.
+Feb 20 21:33:22 :: Running game on port 4000.
+Feb 20 21:36:46 :: Running game on port 4000.
+Feb 20 21:46:17 :: Running game on port 4000.
+Feb 20 21:48:57 :: Running game on port 4000.
+Feb 20 21:50:39 :: Running game on port 4000.
+Feb 20 21:54:07 :: Running game on port 4000.
+Feb 20 22:26:28 :: Running game on port 4000.
+Feb 20 22:28:17 :: Running game on port 4000.
+Feb 20 22:29:10 :: Running game on port 4000.
+Feb 20 22:30:29 :: Running game on port 4000.
+Feb 20 22:53:34 :: Running game on port 4000.
+Feb 20 23:01:27 :: Running game on port 4000.
+Feb 20 23:08:21 :: Running game on port 4000.
+Feb 20 23:20:30 :: Running game on port 4000.
+Feb 20 23:22:39 :: Running game on port 4000.
+Feb 20 23:23:09 :: Running game on port 4000.
+Feb 20 23:30:51 :: Running game on port 4000.
+Feb 20 23:34:28 :: Running game on port 4000.
+Feb 21 16:08:59 :: Running game on port 4000.
+Feb 21 17:54:04 :: Running game on port 4000.
+Feb 21 18:01:15 :: Running game on port 4000.
+Feb 21 18:11:17 :: Running game on port 4000.
+Feb 21 18:12:17 :: Running game on port 4000.
+Feb 21 18:56:37 :: Running game on port 4000.
+Feb 21 19:01:01 :: Running game on port 4000.
+Feb 21 19:03:52 :: Running game on port 4000.
+Feb 21 19:08:36 :: Running game on port 4000.
+Feb 21 19:16:38 :: Running game on port 4000.
+Feb 21 19:19:45 :: Running game on port 4000.
+Feb 21 19:26:56 :: Running game on port 4000.
+Feb 21 20:06:56 :: Running game on port 4000.
+Feb 21 20:08:18 :: Running game on port 4000.
+Feb 21 20:10:37 :: Running game on port 4000.
+Feb 21 20:13:18 :: Running game on port 4000.
+Feb 21 20:23:15 :: Running game on port 4000.
+Feb 21 20:28:09 :: Running game on port 4000.
+Feb 21 20:43:05 :: Running game on port 4000.
+Feb 21 20:49:11 :: Running game on port 4000.
+Feb 21 20:50:23 :: Running game on port 4000.
+Feb 21 20:52:59 :: Running game on port 4000.
+Feb 21 21:11:41 :: Running game on port 4000.
+Feb 21 21:13:33 :: Running game on port 4000.
+Feb 21 21:21:03 :: Running game on port 4000.
+Feb 21 21:26:36 :: Running game on port 4000.
+Feb 21 21:39:42 :: Running game on port 4000.
+Feb 22 00:19:41 :: Running game on port 4000.
+Feb 22 02:00:37 :: Running game on port 4000.
+Feb 22 02:15:31 :: Running game on port 4000.
+Feb 22 03:24:45 :: Running game on port 4000.
+Feb 22 03:30:26 :: Running game on port 4000.
+Feb 22 03:35:19 :: Running game on port 4000.
+Feb 22 03:41:17 :: Running game on port 4000.
+Feb 22 13:56:05 :: Running game on port 4000.
+Feb 22 13:57:40 :: Running game on port 4000.
+Feb 22 14:03:07 :: Running game on port 4000.
+Feb 22 14:20:53 :: Running game on port 4000.
+Feb 22 17:35:55 :: Running game on port 4000.
+Feb 22 17:39:15 :: Running game on port 4000.
+Feb 22 17:51:52 :: Running game on port 4000.
+Feb 25 13:04:23 :: Running game on port 4000.
+Feb 29 16:13:41 :: Running game on port 4000.
+Feb 29 16:22:09 :: Running game on port 4000.
+Feb 29 16:28:57 :: Running game on port 4000.
+Mar  1 12:47:20 :: Running game on port 3333.
+Mar  1 12:53:00 :: Running game on port 3333.
+Mar  1 12:58:56 :: Running game on port 3333.
+Mar  1 13:16:42 :: Running game on port 3333.
+Mar  1 13:19:32 :: Running game on port 3333.
+Mar  1 13:22:40 :: Running game on port 3333.
+Jan 17 16:27:27 :: Running game on port 4000.
+Jan 17 16:28:03 :: Running game on port 4444.
+Jan 17 16:28:04 :: Running game on port 4444.
+Jan 17 16:28:15 :: Running game on port 4444.
+Jan 17 16:35:39 :: Running game on port 4444.
+Jan 17 16:36:23 :: Running game on port 4444.
+Jan 17 22:08:21 :: Running game on port 4444.
+Jan 17 23:50:13 :: Running game on port 4444.
+Jan 17 23:56:22 :: Running game on port 4444.
+Jan 18 12:26:24 :: Running game on port 4444.
+Jan 18 12:28:51 :: Running game on port 4444.
+Jan 18 12:57:20 :: Running game on port 4444.
+Jan 18 12:59:42 :: Running game on port 4444.
+Jan 18 13:03:51 :: Running game on port 4444.
+Jan 19 23:20:55 :: Running game on port 4444.
+Jan 19 23:21:14 :: Running game on port 4444.
+Jan 19 23:21:58 :: Running game on port 4444.
+Jan 19 23:22:12 :: Running game on port 4444.
+Jan 19 23:22:44 :: Running game on port 4444.
+Jan 19 23:23:00 :: Running game on port 4444.
+Jan 19 23:23:32 :: Running game on port 4444.
+Jan 19 23:26:15 :: Running game on port 4444.
+Jan 19 23:27:22 :: Running game on port 4444.
+Jan 20 11:28:02 :: Running game on port 4444.
+Jan 20 13:36:46 :: Running game on port 4444.
+Jan 20 19:24:04 :: Running game on port 4444.
+Jan 21 23:00:15 :: Running game on port 4444.
+Jan 22 12:27:40 :: Running game on port 4444.
+Jan 22 12:28:41 :: Running game on port 4444.
+Jan 22 16:40:06 :: Running game on port 4444.
+Jan 22 16:42:40 :: Running game on port 4444.
+Jan 22 23:18:20 :: Running game on port 4444.
+Jan 22 23:20:06 :: Running game on port 4444.
+Jan 23 17:11:02 :: Running game on port 4444.
+Jan 23 17:21:41 :: Running game on port 4444.
+Jan 23 17:23:18 :: Running game on port 4444.
+Jan 23 17:24:38 :: Running game on port 4444.
+Jan 23 17:28:07 :: Running game on port 4444.
+Jan 23 17:45:28 :: Running game on port 4444.
+Jan 23 17:53:34 :: Running game on port 4444.
+Jan 23 20:21:26 :: Running game on port 4444.
+Jan 23 21:59:11 :: Running game on port 4444.
+Jan 23 22:05:36 :: Running game on port 4444.
+Jan 23 22:07:02 :: Running game on port 4444.
+Jan 23 23:02:52 :: Running game on port 4444.
+Jan 24 00:01:02 :: Running game on port 4444.
+Jan 24 00:01:39 :: Running game on port 4444.
+Jan 24 00:02:20 :: Running game on port 4444.
+Jan 24 00:15:10 :: Running game on port 4444.
+Jan 24 00:24:27 :: Running game on port 4444.
+Jan 24 00:25:13 :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Alica killed by the cleaners at Running from the cleaners!
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+Y               :: Running game on port 4444.
+-04-09 11:53:51 :: Running game on port 4444.
+-03-09 11:56:23 :: Running game on port 4444.
+-03-09 11:59:37     :: Running game on port 4444.
+2002-03-09 12:04:09 :: Running game on port 4444.
+2002-03-09 19:57:01 :: Running game on port 4444.
+2002-03-09 19:57:43 :: Running game on port 4444.
+2002-03-09 20:49:28 :: Running game on port 4444.
+2002-03-09 20:49:43 :: Running game on port 4444.
+2002-03-09 20:53:32 :: Running game on port 4444.
+2002-03-09 20:55:22 :: Running game on port 4444.
+2002-03-09 21:21:38 :: Running game on port 4444.
+2002-03-09 21:22:29 :: Running game on port 4444.
+2002-03-09 21:23:18 :: Running game on port 4444.
+2002-03-09 21:24:44 :: Running game on port 4444.
+2002-03-09 22:23:05 :: Running game on port 4444.
+2002-03-09 22:27:15 :: Running game on port 4444.
+2002-03-09 22:28:55 :: Running game on port 4444.
+2002-03-09 22:43:00 :: Running game on port 4444.
+2002-03-09 22:44:57 :: Running game on port 4444.
+2002-03-09 23:12:52 :: Running game on port 4444.
+2002-03-10 07:04:23 :: Running game on port 4444.
+2002-03-10 08:19:56 :: Running game on port 4444.
+2002-03-10 21:48:00 :: Running game on port 4444.
+2002-03-10 21:49:21 :: Running game on port 4444.
+2002-03-10 22:02:24 :: Running game on port 4444.
+2002-03-10 22:06:45 :: Running game on port 4444.
+2002-03-10 22:07:21 :: Running game on port 4444.
+2002-03-10 22:15:42 :: Running game on port 4444.
+2002-03-10 22:18:18 :: Running game on port 4444.
+2002-03-11 00:04:27 :: Running game on port 4444.
+2002-03-11 00:05:57 :: Running game on port 4444.
+2002-03-11 00:10:54 :: Running game on port 4444.
+2002-03-11 00:12:05 :: Running game on port 4444.
+2002-03-11 00:25:02 :: Running game on port 4444.
+2002-03-12 05:22:23 :: Running game on port 4444.
+2002-03-14 07:13:43 :: Running game on port 4444.
+2002-03-16 11:06:31 :: Running game on port 4444.
+2002-03-16 11:10:57 :: Running game on port 4444.
+2002-03-16 12:45:40 :: Running game on port 4444.
+2002-03-16 12:57:37 :: Running game on port 4444.
+2002-03-16 13:12:31 :: Running game on port 4444.
+2002-03-16 13:31:15 :: Running game on port 4444.
+2002-03-16 13:39:18 :: Running game on port 4444.
+2002-03-18 20:08:40 :: Running game on port 4444.
+2002-03-18 20:09:09 :: Running game on port 4444.
+2002-03-18 20:10:09 :: Running game on port 4444.
+2002-03-18 20:13:34 :: Running game on port 4444.
+2002-03-18 20:13:49 :: Running game on port 4444.
+2002-03-18 20:17:39 :: Running game on port 4444.
+2002-03-18 20:17:53 :: Running game on port 4444.
+2002-03-18 20:30:47 :: Running game on port 4444.
+2002-03-18 23:39:41 :: Running game on port 4444.
+2002-03-18 23:43:25 :: Running game on port 4444.
+2002-03-18 23:53:26 :: Running game on port 4444.
+2002-03-18 23:56:13 :: Running game on port 4444.
+2002-03-19 00:31:07 :: Running game on port 4444.
+2002-03-19 00:49:20 :: Running game on port 4444.
+2002-03-19 00:52:36 :: Running game on port 4444.
+2002-03-19 01:12:38 :: Running game on port 4444.
+2002-03-19 01:20:17 :: Running game on port 4444.
+2002-03-19 01:24:26 :: Running game on port 4444.
+2002-03-19 01:32:07 :: Running game on port 4444.
+2002-03-19 01:35:16 :: Running game on port 4444.
+2002-03-19 01:43:42 :: Running game on port 4444.
+2002-03-19 01:45:00 :: Running game on port 4444.
+2002-03-19 01:46:16 :: Running game on port 4444.
+2002-03-19 01:59:04 :: Running game on port 4444.
+2002-03-20 16:01:53 :: Running game on port 4444.
+2002-03-24 12:14:38 :: Running game on port 4444.
+2002-03-24 12:21:20 :: Running game on port 4444.
+2002-03-24 12:28:23 :: Running game on port 4444.
+2002-03-24 12:33:16 :: Running game on port 4444.
+2002-03-24 12:35:33 :: Running game on port 4444.
+2002-03-24 12:39:43 :: Running game on port 4444.
+2002-04-03 17:50:00 :: Running game on port 4444.
+2002-04-13 00:45:35 :: Running game on port 4444.
+2002-04-13 01:29:54 :: Running game on port 4444.
+2002-04-13 01:33:52 :: Running game on port 4444.
+2002-04-13 02:31:50 :: Running game on port 4444.
+2002-04-13 02:34:10 :: Running game on port 4444.
+2002-04-13 02:35:42 :: Running game on port 4444.
+2002-04-13 02:38:40 :: Running game on port 4444.
+2002-04-13 02:51:43 :: Running game on port 4444.
+2002-04-13 02:52:27 :: Running game on port 4444.
+2002-04-13 20:45:49 :: Running game on port 4444.
+2002-05-13 20:51:48 :: Running game on port 4444.
+2002-05-13 21:13:13 :: Running game on port 4444.
+2002-05-13 21:13:32 :: Running game on port 4444.
+2002-05-13 21:14:41 :: Running game on port 4444.
+2002-05-15 20:34:59 :: Running game on port 4444.
+2002-05-15 20:52:05 :: Running game on port 4444.
+2002-05-15 21:01:53 :: Running game on port 4444.
+2002-05-15 21:40:42 :: Running game on port 4444.
+2002-05-15 21:53:37 :: Running game on port 4444.
+2002-05-15 22:19:27 :: Running game on port 4444.
+2002-05-15 22:24:13 :: Running game on port 4444.
+2002-05-15 23:36:18 :: Running game on port 4444.
+2002-05-15 23:37:55 :: Running game on port 4444.
+2002-05-15 23:41:08 :: Running game on port 4444.
+2002-05-15 23:46:07 :: Running game on port 4444.
+2002-05-16 00:04:17 :: Running game on port 4444.
+2002-05-16 00:04:52 :: Running game on port 4444.
+2002-05-16 00:07:04 :: Running game on port 4444.
+2002-05-24 22:35:12 :: Running game on port 4444.
+2002-05-27 19:15:25 :: Running game on port 4444.
+2002-06-21 00:02:47 :: Running game on port 4444.
+2002-06-28 08:56:13 :: Running game on port 4444.
+2002-07-07 16:26:46 :: Running game on port 4444.
+2002-07-21 12:52:24 :: Running game on port 4444.
+2002-07-21 12:52:57 :: Running game on port 4444.
+2002-07-21 12:53:22 :: Running game on port 4444.
+2002-07-21 12:59:38 :: Running game on port 4444.
+2002-07-21 12:59:57 :: Running game on port 4444.
+2002-07-21 13:11:44 :: Running game on port 4444.
+2002-07-21 13:13:30 :: Running game on port 4444.
+2002-07-21 13:13:50 :: Running game on port 4444.
+2002-07-21 13:24:44 :: Running game on port 4444.
+2002-07-21 13:26:28 :: Running game on port 4444.
+2002-07-21 13:27:41 :: Running game on port 4444.
+2002-08-28 00:02:58 :: Running game on port 4444.
+2002-08-29 00:03:21 :: Running game on port 4444.
+2002-08-30 00:03:00 :: Running game on port 4444.
+2002-08-31 00:02:59 :: Running game on port 4444.
+2002-10-13 10:07:40 :: Running game on port 4444.
+2002-11-05 15:45:13 :: Running game on port 4444.
+2002-11-06 09:50:43 :: Running game on port 4444.
+2002-11-06 09:51:07 :: Running game on port 4444.
+2002-11-06 09:52:18 :: Running game on port 4444.
+2002-11-06 09:53:01 :: Running game on port 4444.
+2002-11-06 09:53:42 :: Running game on port 4444.
+2002-12-01 22:40:50 :: Running game on port 4444.
+2002-12-03 14:02:20 :: Running game on port 4444.
+2003-01-12 14:41:38 :: Running game on port 4444.
+2003-01-12 15:00:40 :: Running game on port 4444.
+2003-01-12 16:27:41 :: Running game on port 4444.
+2003-01-12 20:50:07 :: Running game on port 4444.
+2003-01-14 14:23:01 :: Running game on port 4444.
+2003-03-21 15:15:11 :: Running game on port 4444.
+2003-03-23 08:35:10 :: Running game on port 4444.
+2003-03-23 08:50:22 :: Running game on port 4444.
+2003-04-15 06:26:21 :: Running game on port 4444.
+2003-04-26 19:43:59 :: Running game on port 4444.
+2003-04-30 00:28:12 :: Running game on port 4444.
+2003-04-30 00:31:05 :: Running game on port 4444.
+2003-04-30 11:57:10 :: Running game on port 4444.
+2003-04-30 16:29:18 :: Running game on port 4444.
+2003-04-30 18:21:39 :: Running game on port 4444.
+2003-04-30 18:51:22 :: Running game on port 4444.
+2003-04-30 19:14:51 :: Running game on port 4444.
+2003-04-30 19:26:56 :: Running game on port 4444.
+2003-04-30 19:30:13 :: Running game on port 4444.
+2003-04-30 19:38:34 :: Running game on port 4444.
+2003-04-30 19:40:04 :: Running game on port 4444.
+2003-04-30 20:43:06 :: Running game on port 4444.
+2003-05-01 08:17:45 :: Running game on port 4444.
+2003-05-01 09:30:52 :: Running game on port 4444.
+2003-05-01 10:28:21 :: Running game on port 4444.
+2003-05-01 14:11:18 :: Running game on port 4444.
+2003-05-01 14:26:39 :: Running game on port 4444.
+2003-05-01 22:11:39 :: Running game on port 4444.
+2003-05-02 12:20:09 :: Running game on port 4444.
+2003-05-02 14:30:15 :: Running game on port 4444.
+2003-05-02 14:56:05 :: Running game on port 4444.
+2003-05-02 14:57:34 :: Running game on port 4444.
+2003-05-02 14:59:44 :: Running game on port 4444.
+2003-05-02 20:28:25 :: Running game on port 4444.
+2003-05-03 11:04:01 :: Running game on port 4444.
+2003-05-05 13:58:12 :: Running game on port 4444.
+2003-05-05 19:50:47 :: Running game on port 4444.
+2003-05-06 11:01:49 :: Running game on port 4444.
+2003-05-06 11:46:00 :: Running game on port 4444.
+2003-05-06 17:47:11 :: Running game on port 4444.
+2003-05-06 19:42:32 :: Running game on port 4444.
+2003-05-07 18:54:57 :: Running game on port 4444.
+2003-05-07 18:58:48 :: Running game on port 4444.
+2003-05-07 19:29:50 :: Running game on port 4444.
+2003-05-07 23:19:22 :: Running game on port 4444.
+2003-05-08 08:30:26 :: Running game on port 4444.
+2003-05-08 08:36:25 :: Running game on port 4444.
+2003-05-08 08:40:02 :: Running game on port 4444.
+2003-05-08 08:41:23 :: Running game on port 4444.
+2003-05-08 08:46:35 :: Running game on port 4444.
+2003-05-08 09:16:46 :: Running game on port 4444.
+2003-05-08 10:31:45 :: Running game on port 4444.
+2003-05-09 15:47:02 :: Running game on port 4444.
+2003-05-15 14:14:55 :: Running game on port 4444.
+2003-05-18 16:22:03 :: Running game on port 4444.
+2003-06-04 17:40:52 :: Running game on port 4444.
+2003-06-04 17:49:49 :: Running game on port 4444.
+2003-06-06 16:07:23 :: Running game on port 4444.
+2003-06-06 16:27:32 :: Running game on port 4444.
+2003-06-06 19:26:04 :: Running game on port 4444.
+2003-06-06 22:18:50 :: Running game on port 4444.
+2003-06-08 21:43:13 :: Running game on port 4444.
+2003-06-08 23:40:04 :: Running game on port 4444.
+2003-06-10 23:08:28 :: Running game on port 4444.
+2003-06-10 23:09:24 :: Running game on port 4444.
+2003-06-11 01:25:36 :: Running game on port 4444.
+2003-06-11 01:26:07 :: Running game on port 4444.
+2003-06-11 17:23:38 :: Running game on port 4444.
+2003-06-11 17:25:23 :: Running game on port 4444.
+2003-06-11 17:30:34 :: Running game on port 4444.
+2003-06-11 17:31:23 :: Running game on port 4444.
+2003-06-11 17:36:33 :: Running game on port 4444.
+2003-06-11 20:29:15 :: Running game on port 4444.
+2003-06-13 14:10:01 :: Running game on port 4444.
+2003-06-13 18:17:59 :: Running game on port 4444.
+2003-06-14 15:25:16 :: Running game on port 4444.
+2003-06-18 11:36:20 :: Running game on port 4444.
+2003-09-13 11:38:33 :: Running game on port 4444.
+2003-09-16 17:51:52 :: Running game on port 4444.
+2003-09-16 18:15:17 :: Running game on port 4444.
+2003-09-17 11:49:25 :: Running game on port 4444.
+2003-09-18 10:13:20 :: Running game on port 4444.
+2003-09-19 20:14:06 :: Running game on port 4444.
+2003-09-22 15:34:47 :: Running game on port 4444.
+2003-09-29 00:36:54 :: Running game on port 4444.
+2003-09-29 22:53:19 :: Running game on port 4444.
+2003-09-30 00:05:00 :: Running game on port 4444.
+2003-10-01 21:11:17 :: Running game on port 4444.
+2003-10-01 21:22:27 :: Running game on port 4444.
+2003-10-02 07:26:54 :: Running game on port 4444.
+2003-10-02 15:33:43 :: Running game on port 4444.
+2003-10-02 15:35:01 :: Running game on port 4444.
+2003-10-02 15:51:33 :: Running game on port 4444.
+2003-10-02 15:52:12 :: Running game on port 4444.
+2003-10-02 15:53:42 :: Running game on port 4444.
+2003-10-03 12:06:35 :: Running game on port 4444.
+2003-10-05 15:53:00 :: Running game on port 4444.
+2003-10-05 23:28:42 :: Running game on port 4444.
+2003-10-06 16:15:51 :: Running game on port 4444.
+2003-10-06 16:29:32 :: Running game on port 4444.
+2003-10-06 17:41:35 :: Running game on port 4444.
+2003-10-06 22:58:00 :: Running game on port 4444.
+2003-10-07 13:14:50 :: Running game on port 4444.
+2003-10-07 20:33:45 :: Running game on port 4444.
+2003-10-07 23:11:51 :: Running game on port 4444.
+2003-10-08 13:20:42 :: Running game on port 4444.
+2003-10-08 13:23:23 :: Running game on port 4444.
+2003-10-08 15:14:48 :: Running game on port 4444.
+2003-10-08 15:17:20 :: Running game on port 4444.
+2003-10-08 17:27:46 :: Running game on port 4444.
+2003-10-09 10:20:45 :: Running game on port 4444.
+2003-10-09 12:56:26 :: Running game on port 4444.
+2003-10-09 12:58:28 :: Running game on port 4444.
+2003-10-09 13:04:05 :: Running game on port 4444.
+2003-10-09 13:22:46 :: Running game on port 4444.
+2003-10-09 13:29:39 :: Running game on port 4444.
+2003-10-09 14:52:03 :: Running game on port 4444.
+2003-10-09 20:24:49 :: Running game on port 4444.
+2003-10-09 21:31:08 :: Running game on port 4444.
+2003-10-09 21:58:57 :: Running game on port 4444.
+2003-10-09 23:03:36 :: Running game on port 4444.
+2003-10-09 23:42:36 :: Running game on port 4444.
+2003-10-11 20:18:18 :: Running game on port 4444.
+2003-10-11 20:20:15 :: Running game on port 4444.
+2003-10-11 20:20:38 :: Running game on port 4444.
+2003-10-11 20:21:21 :: Running game on port 4444.
+2003-10-11 20:21:47 :: Running game on port 4444.
+2003-10-11 20:22:22 :: Running game on port 4444.
+2003-10-11 20:22:57 :: Running game on port 4444.
+2003-10-11 20:23:24 :: Running game on port 4444.
+2003-10-11 20:23:58 :: Running game on port 4444.
+2003-10-11 20:24:21 :: Running game on port 4444.
+2003-10-11 20:35:10 :: Running game on port 4444.
+2003-10-11 20:39:26 :: Running game on port 4444.
+2003-10-11 20:40:01 :: Running game on port 4444.
+2003-10-11 20:48:07 :: Running game on port 4444.
+2003-10-11 20:48:53 :: Running game on port 4444.
+2003-10-11 20:49:36 :: Running game on port 4444.
+2003-10-11 20:51:53 :: Running game on port 4444.
+2003-10-11 20:52:17 :: Running game on port 4444.
+2003-10-11 20:53:23 :: Running game on port 4444.
+2003-10-11 20:57:48 :: Running game on port 4444.
+2003-10-11 20:58:21 :: Running game on port 4444.
+2003-10-11 20:59:55 :: Running game on port 4444.
+2003-10-11 21:09:58 :: Running game on port 4444.
+2003-10-11 21:14:11 :: Running game on port 4444.
+2003-10-11 23:55:00 :: Running game on port 4444.
+2003-10-11 23:56:34 :: Running game on port 4444.
+2003-10-11 23:56:57 :: Running game on port 4444.
+2003-10-11 23:57:31 :: Running game on port 4444.
+2003-10-11 23:57:54 :: Running game on port 4444.
+2003-10-11 23:58:37 :: Running game on port 4444.
+2003-10-11 23:59:01 :: Running game on port 4444.
+2003-10-12 00:03:35 :: Running game on port 4444.
+2003-10-12 00:06:18 :: Running game on port 4444.
+2003-10-12 00:07:01 :: Running game on port 4444.
+2003-10-12 00:07:36 :: Running game on port 4444.
+2003-10-12 00:08:59 :: Running game on port 4444.
+2003-10-12 00:09:33 :: Running game on port 4444.
+2003-10-12 00:10:06 :: Running game on port 4444.
+2003-10-12 00:13:59 :: Running game on port 4444.
+2003-10-12 00:14:23 :: Running game on port 4444.
+2003-10-12 00:17:16 :: Running game on port 4444.
+2003-10-12 00:17:59 :: Running game on port 4444.
+2003-10-12 00:18:43 :: Running game on port 4444.
+2003-10-12 00:19:56 :: Running game on port 4444.
+2003-10-12 00:20:30 :: Running game on port 4444.
+2003-10-12 00:21:04 :: Running game on port 4444.
+2003-10-12 00:23:27 :: Running game on port 4444.
+2003-10-12 00:30:29 :: Running game on port 4444.
+2003-10-12 00:34:46 :: Running game on port 4444.
+2003-10-12 01:01:16 :: Running game on port 4444.
+2003-10-12 01:12:48 :: Running game on port 4444.
+2003-10-12 01:35:21 :: Running game on port 4444.
+2003-10-12 11:02:49 :: Running game on port 4444.
+2003-10-12 11:13:28 :: Running game on port 4444.
+2003-10-12 11:14:02 :: Running game on port 4444.
+2003-10-12 11:14:11 :: Running game on port 4444.
+2003-10-12 11:19:28 :: Running game on port 4444.
+2003-10-12 11:23:44 :: Running game on port 4444.
+2003-10-12 11:25:03 :: Running game on port 4444.
+2003-10-12 11:26:37 :: Running game on port 4444.
+2003-10-12 11:32:55 :: Running game on port 4444.
+2003-10-12 11:33:38 :: Running game on port 4444.
+2003-10-12 11:49:19 :: Running game on port 4444.
+2003-10-12 11:57:24 :: Running game on port 4444.
+2003-10-12 12:05:59 :: Running game on port 4444.
+2003-10-12 14:56:07 :: Running game on port 4444.
+2003-10-12 15:05:25 :: Running game on port 40000.
+2003-10-12 16:48:51 :: Gabrielle killed by the cleaners at Running from the Cleaners!
+2003-10-12 16:49:11 :: Xena killed by the cleaners at Running from the Cleaners!
+2003-10-12 17:05:49 :: Xena killed by the cleaners at Running from the cleaners!
+2003-10-12 17:06:03 :: Gabrielle killed by the cleaners at Running from the cleaners!
+2003-10-12 22:43:36 :: Running game on port 40000.
+2003-10-13 09:36:42 :: Running game on port 40000.
+2003-10-13 12:29:42 :: Running game on port 40000.
+2003-10-13 13:39:53 :: Running game on port 40000.
+2003-10-13 13:54:15 :: Running game on port 40000.
+2003-10-13 14:11:43 :: Running game on port 40000.
+2003-10-13 14:28:50 :: Running game on port 40000.
+2003-10-13 18:52:52 :: Running game on port 40000.
+2003-10-13 18:59:11 :: Running game on port 40000.
+2003-10-13 19:41:44 :: Running game on port 40000.
+2003-10-13 20:10:47 :: Running game on port 40000.
+2003-10-13 23:01:25 :: Running game on port 40000.
+2003-10-14 14:07:50 :: Running game on port 40000.
+2003-10-14 14:23:29 :: Running game on port 40000.
+2003-10-14 15:42:04 :: Running game on port 40000.
+2003-10-14 15:44:41 :: Running game on port 40000.
+2003-10-14 16:51:14 :: Running game on port 40000.
+2003-10-14 17:11:58 :: Running game on port 40000.
+2003-10-14 19:12:52 :: Running game on port 40000.
+2003-10-15 01:24:58 :: Running game on port 40000.
+2003-10-15 01:38:28 :: Running game on port 40000.
+2003-10-15 13:30:45 :: Running game on port 40000.
+2003-10-15 13:40:10 :: Running game on port 40000.
+2003-10-15 13:42:53 :: Running game on port 40000.
+2003-10-15 13:56:23 :: Running game on port 40000.
+2003-10-15 14:20:38 :: Running game on port 40000.
+2003-10-15 14:37:00 :: Running game on port 40000.
+2003-10-15 18:06:04 :: Running game on port 40000.
+2003-10-15 22:14:28 :: Running game on port 40000.
+2003-10-15 22:24:21 :: Running game on port 40000.
+2003-10-15 22:38:19 :: Running game on port 40000.
+2003-10-15 23:01:30 :: Running game on port 40000.
+2003-10-15 23:04:28 :: Running game on port 40000.
+2003-10-15 23:05:08 :: Running game on port 40000.
+2003-10-15 23:05:51 :: Running game on port 40000.
+2003-10-15 23:48:39 :: Running game on port 40000.
+2003-10-15 23:49:25 :: Running game on port 40000.
+2003-10-15 23:49:54 :: Running game on port 40000.
+2003-10-15 23:51:16 :: Running game on port 40000.
+2003-10-15 23:52:25 :: Running game on port 40000.
+2003-10-16 00:05:42 :: Running game on port 40000.
+2003-10-16 00:07:47 :: Running game on port 40000.
+2003-10-16 00:08:37 :: Running game on port 40000.
+2003-10-16 00:14:14 :: Running game on port 40000.
+2003-10-16 00:33:07 :: Running game on port 40000.
+2003-10-16 09:36:58 :: Running game on port 40000.
+2003-10-16 09:38:55 :: Running game on port 40000.
+2003-10-16 09:43:56 :: Running game on port 40000.
+2003-10-16 09:46:42 :: Running game on port 40000.
+2003-10-16 09:50:40 :: Running game on port 40000.
+2003-10-16 09:56:17 :: Running game on port 40000.
+2003-10-16 10:53:14 :: Running game on port 40000.
+2003-10-16 13:11:43 :: Running game on port 40000.
+2003-10-16 13:49:57 :: Running game on port 40000.
+2003-10-16 13:52:35 :: Running game on port 40000.
+2003-10-16 16:28:08 :: Running game on port 40000.
+2003-10-16 16:38:19 :: Running game on port 40000.
+2003-10-16 16:50:45 :: Running game on port 40000.
+2003-10-16 17:08:11 :: Running game on port 40000.
+2003-10-16 21:09:17 :: Running game on port 40000.
+2003-10-16 21:16:56 :: Running game on port 40000.
+2003-10-16 22:34:50 :: Running game on port 40000.
+2003-10-16 23:45:39 :: Running game on port 40000.
+2003-10-16 23:56:40 :: Running game on port 40000.
+2003-10-17 11:07:58 :: Running game on port 40000.
+2003-10-17 11:14:17 :: Running game on port 40000.
+2003-10-17 11:24:20 :: Running game on port 40000.
+2003-10-17 11:44:40 :: Running game on port 40000.
+2003-10-17 11:48:19 :: Running game on port 40000.
+2003-10-17 12:24:25 :: Running game on port 40000.
+2003-10-17 12:38:11 :: Running game on port 40000.
+2003-10-17 12:52:49 :: Running game on port 40000.
+2003-10-17 13:10:43 :: Running game on port 40000.
+2003-10-17 13:22:30 :: Running game on port 40000.
+2003-10-17 13:27:07 :: Running game on port 40000.
+2003-10-17 13:49:23 :: Running game on port 40000.
+2003-10-17 13:51:04 :: Running game on port 40000.
+2003-10-17 13:53:53 :: Running game on port 40000.
+2003-10-17 13:54:26 :: Running game on port 40000.
+2003-10-17 14:02:22 :: Running game on port 40000.
+2003-10-17 14:06:32 :: Running game on port 40000.
+2003-10-17 14:14:14 :: Running game on port 40000.
+2003-10-17 14:17:24 :: Running game on port 40000.
+2003-10-17 15:30:52 :: Running game on port 40000.
+2003-10-17 15:34:10 :: Running game on port 40000.
+2003-10-17 15:35:13 :: Running game on port 40000.
+2003-10-17 15:38:18 :: Running game on port 40000.
+2003-10-17 15:40:43 :: Running game on port 40000.
+2003-10-17 15:47:34 :: Running game on port 40000.
+2003-10-17 15:49:34 :: Running game on port 40000.
+2003-10-17 15:50:11 :: Running game on port 40000.
+2003-10-17 16:01:49 :: Running game on port 40000.
+2003-10-17 16:05:25 :: Running game on port 40000.
+2003-10-17 16:09:13 :: Running game on port 40000.
+2003-10-17 16:18:57 :: Running game on port 40000.
+2003-10-17 17:17:04 :: Running game on port 40000.
+2003-10-17 23:47:29 :: Running game on port 40000.
+2003-10-18 21:43:01 :: Running game on port 40000.
+2003-10-18 22:00:15 :: Running game on port 40000.
+2003-10-19 11:08:26 :: Running game on port 40000.
+2003-10-19 11:10:35 :: Running game on port 40000.
+2003-10-20 10:29:52 :: Running game on port 40000.
+2003-10-20 12:09:27 :: Running game on port 40000.
+2003-10-20 15:45:21 :: Running game on port 40000.
+2003-10-20 18:55:04 :: Running game on port 40000.
+2003-10-20 19:00:29 :: Running game on port 40000.
+2003-10-20 23:23:37 :: Running game on port 40000.
+2003-10-21 11:42:23 :: Running game on port 40000.
+2003-10-21 17:05:13 :: Running game on port 40000.
+2003-10-21 18:23:52 :: Running game on port 40000.
+2003-10-21 18:37:51 :: Running game on port 40000.
+2003-10-21 19:07:21 :: Running game on port 40000.
+2003-10-21 19:16:30 :: Running game on port 40000.
+2003-10-22 01:27:06 :: Running game on port 40000.
+2003-10-22 15:37:33 :: Running game on port 40000.
+2003-10-23 11:46:32 :: Running game on port 40000.
+2003-10-23 14:10:42 :: Running game on port 40000.
+2003-10-23 14:11:40 :: Running game on port 40000.
+2003-10-23 14:12:09 :: Running game on port 40000.
+2003-10-23 19:08:46 :: Running game on port 40000.
+2003-10-24 10:59:01 :: Running game on port 40000.
+2003-10-24 15:30:38 :: Running game on port 40000.
+2003-10-24 16:53:39 :: Running game on port 40000.
+2003-10-24 23:00:08 :: Running game on port 40000.
+2003-10-25 21:14:10 :: Running game on port 40000.
+2003-10-27 08:34:38 :: Running game on port 40000.
+2003-10-27 12:26:58 :: Running game on port 40000.
+@
+
+
+1.5
+log
+@Artus> A3_0_315
+@
+text
+@d1007 22
+@
+
+
+1.4
+log
+@Artus> In Progress. Just wishing to c
+@
+text
+@d788 219
+@
+
+
+1.3
+log
+@ What the hell is happening with this?  From Sandii's Directory changes made to obj's Fro Example of help file from Sandii's directory
+From sandii's directory
+@
+text
+@d258 530
+@
+
+
+1.2
+log
+@Crap
+@
+text
+@d250 8
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d248 2
+@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

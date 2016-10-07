@@ -1,0 +1,58 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 vendprim:1.1.1;
+locks    ; strict;
+comment  @ * @;
+
+
+1.1
+date     2000.02.22.21.10.38;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.02.22.21.10.38;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#define OLC_SET		0
+#define OLC_SHOW	1
+#define OLC_REPEAT	2
+#define OLC_ROOM	3
+#define OLC_MOB		4
+#define OLC_OBJ		5
+
+#define OLC_COPY	0
+#define OLC_NAME	1
+#define OLC_DESC	2
+#define OLC_ALIASES	3
+
+
+#define MAX_ROOM_NAME	75
+#define MAX_MOB_NAME	50
+#define MAX_OBJ_NAME	50
+#define MAX_ROOM_DESC	1024
+#define MAX_MOB_DESC	512
+#define MAX_OBJ_DESC	512
+@
+
+
+1.1.1.1
+log
+@Initial import of newprimal based of circle30bpl19 base, with OLC, ec
+and a start on converting primal onto the new base.
+@
+text
+@@

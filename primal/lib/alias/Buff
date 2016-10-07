@@ -1,0 +1,17 @@
+clan n;e;e;e;e;e;s;s;d;s;s;s
+main n;e;e;e;e;e;s;s
+tudor s;w;w;w;w;w;w;w;w;w;w;s;s;e;s;s;s;s;s;s;e;e;e;s;s;w;w;n;w;w;s;s;s;w;w;d;s;e;e;d;s;s;s;s;s;e;s;s;e;n;n;e;e;e;e;e;s;s;s;w;w;s;w;w;s;s
+8 cast 'sanctuary'
+1 cast 'summon' splat
+2 cast 'advanced heal' $*
+re cast 'word of recall'
+sum cast 'summon' $*
+wh cast 'whirlwind'
+z show zone $1
+forgot s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;s;s;e;e;e;e;s;s;e;e;e;s;s;s;s;e;e;e;e;e;e;d;e;e;e;e;s;s;w;w;u;w;w;w;n;u;u;u;u;u;n;cast 'waterwalk';u;open do;u
+lev4 n;w;n;e;n;n;e;go port;e;n;n;w;w;n;w;s;e;w;w;s;n;n;w;w;go port
+lev1  e;e;e;e;s;s;e;get crow; unlock door; open door; n;open door east; e;e;e;e;n;n;n;open cliff; e; get word; unlock tap; open tap; n;u;u;u;u;n;n;n;n;n;n;n;n
+walk cast 'waterwalk' $*
+rc cast 'remove curse' $*
+water cast 'waterbr' $*
+tele cast 'teleport'

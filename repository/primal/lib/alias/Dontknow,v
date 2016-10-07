@@ -1,0 +1,57 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.48;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@tc track crystal
+food cast 'create food'; eat mushroom
+doll remove enlib; hold doll
+ga get all corpse; get corpse; junk corpse
+infra cast 'infra'
+hh cast 'heal' dontknow
+rr cast 'word of recall'
+cc cast 'cure critic' dontknow
+water cast 'create water' skin
+armor cast 'armor'
+sanctuary cast 'sanctuary'
+summon cast 'summon' $1
+drain cast 'energy drain' $1
+fireball cast 'fireball' $1
+refresh cast 'refresh' dontknow
+switch rem dragon; wield soak
+murder backstab $1; rem soak; wield dragon
+charm cast 'charm person' $1
+identify cast 'identify' $1
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

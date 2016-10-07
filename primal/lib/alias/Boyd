@@ -1,0 +1,37 @@
+` quitreally
+summon cast 'summon' $1
+recall cast 'word of recall'
+dan c 'heal' danath
+re c 'word of recall'
+he say heal
+gp get prot force
+gh get all.heal force
+clone c 'clone'
+strength c 'strength'
+sense c 'sense life'
+indi : looks at you with an indifference.
+holycity w;w;w;w;n;n;n;w;s;w;n;w;w;s;w;w
+mae c 'heal' mae
+ster c 'heal' ster
+bh buy 40 heal;put all.heal force
+strom c 'heal' strom
+head steal coins head;steal coins head;steal coins head;steal coins head;steal coins head;steal coins head
+sanc c 'sanc'
+di c 'detect invis'
+bastard goss BASTARDS!!!!!
+th train hit;train hit;train hit;train hit;train hit
+infra c 'infra'
+h c 'heal'
+ref c 'refresh'
+h1 c 'heal' strom
+dragon c 'dragon
+tev c 'heal' tev
+zed c 'heal' zed
+crystal s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;;n;w;w;n;n;n;n;n;w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;e;n;e;n
+invis c 'invis'
+armor c 'armor'
+bless c 'bless'
+tm train move;train move;train move;train move;train move
+quen rem bee;wield quen
+bee rem quen;wield bee
+qh q h;q h;q h;q h;q h

@@ -1,0 +1,6 @@
+word cast 'word' 
+r reload
+back rem winchest; wield super; back $1; rem super; wield winch
+p q prot
+healing buy 40 heal; put all.heal force
+h get healing force; q healing

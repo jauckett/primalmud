@@ -1,0 +1,110 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@hg cast 'advanced heal' god
+hm cast 'heal' moo
+ss cast 'serpent skin' eye
+cl cast 'cloud kill'
+pg cast 'paralyze' guard
+sp cast 'sanc' psy
+sl cast 'sleep' $1
+ip cast 'invis' psy
+pb cast 'para' bandit
+sb cast 'sleep' bandit
+hp cast 'heal' psy
+tc track corporal
+fb cast 'fireball' $1
+tr track roper
+or order followers kill
+ok order followers kill $1
+ton buy 20 #10; put all.tonic field
+pp cast 'paralyze' $1
+tun s;s;s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;u
+pa cast 'paralyze' $1
+aa open field; get bottle field; quaff bottle; close field
+cf cast 'create food' ; eat mushroom
+qw open field; get white field; close field; quaff white
+dr c 'dragon' self
+blt d;s;s;s;w;s;e;e;s;w;w;w;s;s;e;n;u;n;e;e;e;e;s;s
+dri w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s
+ds drink skin
+j junk $1
+fin c 'finger' $1
+inn s;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;e;s;s;e;e;e
+ha c 'harm' $1
+ww c 'waterw'
+rp c 'remove poison' backspace
+inv c 'invis' backspace
+cp c 'charm person' $1
+sen c 'sense life'
+earth c 'earth' 
+sanc c 'sanct' backspace
+cw c 'create w' skin
+jc get corpse; junk corpse
+he c 'heal' backspace
+sum c 'summon' $1
+wor c 'word of recall'
+mush c 'create f'; eat mushroom
+di c 'detect inv' backspace
+gac get all corpse
+arm cast 'armor' backspace
+gc get all.coins corpse
+inf c 'infrav' backspace
+str c 'strength' $1
+ref c 'refresh' backspace
+stren c' strength' $*
+chi emote eats a chilli and covers you in a ring of fire.
+ah c 'advanced heal'
+z e; get corpse; w
+gr grats ~-_-~-_-~-_-~ Keep up the good work $1 ~-_-~-_-~-_-~
+dg c 'dimensional gate' $1; open gate; go gate
+te track eagle
+new rem jew; wear somb;s;s;s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;cast 'refresh' backspace;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;w;w;w;cast 'refresh' backspace;n;n;n;w;s;w;n;w;w;s;w;w;rem somb; wear jew
+tt track trojan
+tw track wench
+ws wake; stand
+qa get tonic crate; q tonic
+yc track cloud
+qq get ton field; get ton field; q ton; q ton
+clo c 'clone'; c 'clone'; c 'infra' 1.clone; c 'infra' 2.clone
+hk cast 'advanced heal' killemall
+ac cast 'advanced heal' carn
+sd cast 'strength' del
+wt cast 'wraith touch' $1
+hd cast 'heal' del
+flexes his muscles .. starting to cramp up.
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

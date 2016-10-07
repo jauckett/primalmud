@@ -1,0 +1,1419 @@
+head	1.3;
+access;
+symbols
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.09.16.10.26.54;	author mud;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2002.07.20.08.21.03;	author mud;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.10.14.01.00.11;	author primal;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Artus> In Progress. Just wishing to checkout remotely.
+@
+text
+@#4300
+Charlie Bucket~
+charlie bucket~
+Charlie is floating above you.
+~
+You see above you Charlie Bucket.  He has a bottle of Fizzy Lifting drink 
+and is burping furiously.
+~
+30794 1064 -100 E
+35 -4 2 5d10+1100 14d15+30
+14153 145164
+9 9 1
+E
+#4301
+Grampa Joe~
+Grampa Joe~
+Grampa Joe is floating above you.
+~
+Grampa Joe wearing a cheap grey suit jacket and grey pants.
+He is burping furiously.
+~
+20570 1192 -50 E
+35 -2 5 3d2+1000 14d15+25
+17123 123465
+9 9 1
+E
+#4302
+Willy Wonka~
+willy wonka~
+Willy Wonka is sitting here.
+~
+You see Mr Wonka sitting at his table.  He has his back to you.  He is wearing
+his brown top hat and purple overcoat.  
+~
+22906 4195456 -400 E
+35 -7 4 6d5+1500 16d20+21
+31500 149500
+6 6 1
+E
+#4303
+Oompa Loompa~
+oompa loompa~
+You see a Oompa Loompa here singing and going about his job.
+~
+You see here a very short looking human like person.  The Oompa Loompa is
+wearing small white overalls and red and white stripped shoes with bells on the
+toes.  He has green hair, white eyebrows and an orange face.  He seems to be
+working hard.
+~
+33007 64 -50 E
+25 -2 5 10d3+750 10d9+10
+13085 90123
+8 8 0
+E
+#4304
+Violet Beauregarde~
+Violet~
+Violet is here chewing gum.
+~
+You see Violet here.  She is dressed in a blue pants suit.  Here face
+bright purple and she is blown up like a big balloon.  Or maybe a plum.
+~
+20558 558080 300 E
+27 -4 4 5d3+1100 15d15+10
+11042 100532
+8 8 2
+E
+#4305
+Augustus gloop~
+augustus gloop~
+Augustus Gloop is standing here salivating.
+~
+You see Augustus here peering over at the chocolate river.  His pockets are
+stuffed with candy and chocolate.  Augustus is salivating quite heavily.
+~
+18510 1096 50 E
+27 -3 5 1d5+1100 12d12+14
+12042 101478
+8 8 1
+E
+#4306
+Varuka Salt~
+varuka salt~
+Varuka Salt is standing here with her hands on her hips.
+~
+You see Varuka, she is dressed in a pretty red dress, white tights and a pair
+of red shoes.  She has a awful scowl on her face.
+~
+18538 1049600 400 E
+27 -2 6 5d2+1150 10d10+17
+11987 116375
+8 8 2
+E
+#4307
+Mike TeeVee~
+mike teevee~
+Mike TeeVee is standing here waiting to be on Television.
+~
+Mike is wearing a cowboy outfit with toy guns and a cowboy hat. 
+~
+18538 525344 100 E
+28 -2 4 5d2+1100 15d15+10
+14987 129045
+8 8 1
+E
+#4308
+Mr Slugworth~
+Mr Slugworth ~
+Mr Slugworth is standing here winking at you.
+~
+Mr Slugworth is a sly looking man.  He is tall and is wearing a brown suit
+and prescription glasses.  There is more to this man that meets the eye.
+~
+20570 9224 -200 E
+30 -3 3 2d3+1300 16d15+10
+27000 136431
+8 8 1
+E
+#4309
+Mr Beauregarde~
+Mr Beauregarde~
+Mr Beauregarde is here watching over Violet.
+~
+You see Mr Beauregarde.  He is wearing an expensive grey suit jacket and black
+pants.  You can see that he is balding on top.
+~
+28746 1032 -50 E
+28 -3 5 4d2+1100 15d15+10
+19987 100045
+8 8 1
+E
+#4310
+Mr Salt~
+Mr salt~
+Mr Salt is here chasing after Varuka.
+~
+Mr Salt is wearing a brown suit and pants.  Almost all of his hair is gone.
+~
+20568 5120 -50 E
+27 -3 4 4d2+1100 10d10+10
+16987 111045
+8 8 1
+E
+#4311
+Mrs Gloop~
+Mrs gloop~
+Mrs Gloop is standing here drooling.
+~
+Mrs Gloops is rather 'big boned'.  She is wearing a dark blue dress with small
+flowers all over it.  She speaks with a german accent.  Her purse is stuffed
+with assorted cakes and cream buns.
+~
+16458 1024 0 E
+26 -3 5 4d2+1100 12d10+10
+14987 109045
+8 8 2
+E
+#4312
+Mrs TeeVee~
+Mrs teevee~
+You see Mrs TeeVee standing here biting her fingernails.
+~
+You see a small framed woman.  She has a worried look on her face.
+~
+20572 525312 50 E
+26 -3 5 4d2+1100 10d9+10
+10987 100045
+8 8 2
+E
+#4313
+Golden Goose~
+Golden goose~
+The Golden Goose is sitting here about to lay an egg.
+~
+You see a rather large goose.  It looks tired from overwork.  It has been 
+laying around the clock for easter.
+~
+16600 1049632 100 E
+20 -2 7 2d3+400 9d8+10
+10347 89045
+6 6 2
+E
+#4314
+Jack~
+jack ~
+You see Jack here chopping down the Beanstalk.
+~
+You see a young boy who looks scared to death.  He is wearing worn out clothes
+and has a golden harp under his arm. 
+~
+22616 529440 20 E
+29 -2 5 2d3+1000 15d14+13
+20347 111945
+8 8 1
+E
+#4315
+Large Giant~
+Large giant~
+A large Giant is climbing down the beanstalk.
+~
+You see a Large giant.  He is so tall you cannot see his face.  Although you
+think he does not look very happy.
+~
+18555 1040 200 E
+30 -4 3 4d2+1250 13d10+15
+27000 144565
+8 8 1
+E
+#4316
+Rapunzel~
+Rapunzel~
+You see Rapunzel sadly looking out her window.~
+
+You see a beautiful woman with long blond hair.  She is wearing a long blue
+dress and no shoes.  She looks to be very sad.
+~
+6218 33920 200 E
+30 -3 3 3d2+1200 15d16+16
+27000 112785
+8 8 2
+E
+#4317
+Gretel~
+gretel~
+You see Gretel here who looks very afraid.
+~
+You see a small girl wearing a cotton dress.  She looks afraid for her life.
+~
+18510 46208 100 E
+26 -4 6 4d2+1050 10d10+10
+10347 112085
+8 8 2
+E
+#4318
+Hansel~
+hansel~
+You see Hansel who is almost done. 
+~
+Hansel is basting well.  His white shirt is stained with perspiration and 
+is turning brown with all the heat.
+~
+51290 1049728 100 E
+27 -4 6 5d5+450 12d15+10
+21347 110885
+8 8 1
+E
+#4319
+The Witch~
+witch~
+You see a old hag of a witch drooling at you.
+~
+You see a old hag.  She is looking at you like she likes you ... TO EAT!
+Her face is covered with warts and he eyes are black and beady.  You can see
+that she las large moles on her nose and there is hair growing out of them.
+She is wearing a long pointy hat and boots.  Her dress is black and covered
+in cob webs.
+~
+24683 33922 -400 E
+30 -3 3 4d2+1350 18d16+30
+27000 129885
+8 8 2
+E
+#4320
+Small Billy Goat Gruff~
+small billy goat~
+You see a small Billy Goat looking rather hungry.
+~
+You see a small Billy goat.  He so skinny you can see his ribs. 
+~
+20842 1024 -50 E
+28 -3 4 5d7+1000 15d16+10
+9111 101885
+8 8 1
+E
+#4321
+Larger Billy Goat Gruff~
+larger billy goat~
+You see a larger Billy Goat looking rather hungry.
+~
+You see a slightly larger Billy goat.  He is so skinny you can see his ribs.
+~
+20842 4195336 -50 E
+29 -3 6 6d8+1100 15d15+10
+10111 101885
+8 8 1
+E
+#4322
+Largest Billy Goat Gruff~
+Largest Billy goat~
+You see the largest Billy Goat here looking hungry.
+~
+This largest Billy Goat not only looks really hungry. Maybe that is 
+why he looks so ANGRY!
+~
+8318 5243936 -70 E
+30 -6 4 4d1+1300 15d15+20
+20975 109885
+8 8 1
+E
+#4323
+Large Troll~
+Large troll~
+A large Troll is standing here defending his territory.
+~
+You see a large aggressive troll.  He is standing there ready to attack anything
+in his way.
+~
+24698 1049600 100 E
+32 -8 3 3d10+1400 14d15+24
+28800 129885
+8 8 1
+E
+#4324
+Red Riding Hood~
+red riding hood~
+Little Red Riding Hood is standing here looking very innocent.
+~
+You see a small girl with a red cape and a blue ribbon in her hair.  She is
+carrying a large wicker basket.
+~
+18520 9360 -100 E
+28 -8 4 2d1+300 15d15+10
+15565 100565
+8 8 2
+E
+#4325
+Grandma~
+Grandma~
+You see a strange looking grandma sleeping here.
+~
+This does not look like ANYONES grandma.  She has long sharp teeth with long
+pointy ears popping out of her bonnet.
+~
+18536 1024 100 E
+31 -7 6 3d5+1500 10d14+15
+15565 114565
+4 4 1
+E
+#4326
+Snow White~
+snow white~
+You see a beautiful young girl sleeping here.
+~
+You see a beautify girl sleeping here with jet black hair and porcelain skin.
+She is wearing a baby blue dress with a large red collar.
+~
+20570 33952 -200 E
+29 -4 8 5d3+1000 15d15+10
+10565 114565
+4 4 2
+E
+#4327
+dwarf Sneazy~
+sneazy~
+You see a small dwarf walking home.
+~
+This Dwarf has a runny nose.
+~
+20559 1049600 -50 E
+24 -3 5 6d9+900 10d15+13
+9565 85426
+8 8 1
+E
+#4328
+dwarf Sleepy~
+sleepy~
+You see a small dwarf walking home.
+~
+This dwarf looks tired.
+~
+20559 1049600 -50 E
+24 -3 5 6d9+900 10d15+13
+9565 100565
+8 8 1
+E
+#4329
+Dwarf Grumpy~
+grumpy~
+You see a small dwarf walking home.
+~
+This dwarf looks very grumpy.
+~
+20559 1049600 -50 E
+24 -3 5 6d9+900 10d15+13
+9565 101565
+8 8 1
+E
+#4330
+Dwarf Dopy~
+dopy~
+You see a small dwarf walking home.
+~
+This dwarf looks very dopy.
+~
+20559 1049600 -50 E
+24 -3 5 6d9+900 10d15+13
+9565 101565
+8 8 1
+E
+#4331
+Dwarf Doc~
+doc~
+You see a small dwarf walking home.
+~
+This dwarf looks very studious.
+~
+20559 1049600 -50 E
+24 -3 5 6d9+900 15d15+13
+9565 101565
+8 8 1
+E
+#4332
+dwarf Bashful~
+bashful~
+You see a small dwarf walking home.
+~
+This dwarf looks very bashful.
+~
+20559 1049600 -50 E
+24 -3 5 6d9+900 10d15+13
+9565 101565
+8 8 1
+E
+#4333
+Dwarf Lazy~
+lazy~
+You see a small dwarf walking home.
+~
+This dwarf looks very lazy.
+~
+20559 1049600 -50 E
+24 -3 5 5d9+900 15d15+14
+19850 101565
+8 8 1
+E
+#4334
+Royal Prince~
+prince~
+A Royal Prince is standing here.
+~
+The prince is dressed in white stockings and a blue pantaloons and a emerald
+crown.
+~
+30794 1049600 -200 E
+30 -5 6 5d7+1250 13d17+16
+20565 124565
+8 8 1
+E
+#4335
+Cinderella girl young~
+cinderella~
+You see a young girl here sobbing. 
+~
+You see a young girl here sobbing.  Her face is covered in soot.  She is wearing
+a beautiful ball gown but seems to have lost her shoe.
+~
+102474 1160 -200 E
+27 -5 4 5d3+800 15d16+18
+10565 114565
+6 6 2
+E
+#4336
+Ugly Stepsister woman~
+Ugly Stepsister~
+You see an Ugly woman pruning herself.
+~
+WOW this is one UGLY woman. 
+~
+4222 525322 200 E
+26 -5 5 8d9+1200 11d12+11
+19860 120565
+8 8 2
+E
+#4337
+Ugly Stepsister woman ~
+ugly stepsister~
+You see an Ugly woman smiling at you with rotten teeth.
+~
+WOW this is one UGLY woman.  
+~
+4222 525322 200 E
+26 -6 8 5d4+1200 15d15+18
+19850 122875
+8 8 2
+E
+#4338
+Ugly Stepsister woman~
+ugly stepsister~
+You see an Ugly woman scanning the room looking for a prince.
+~
+WOW this is one UGLY woman.  
+~
+4222 525322 200 E
+29 -6 5 8d5+1200 15d14+16
+26100 129875
+8 8 2
+E
+#4339
+Prince dashing~
+Cinderella's prince ~
+A dashing Prince is standing here looking for his Princess.
+~
+You see a Prince with a golden scepter in one hand and a tiny glass shoe in
+the other.  He has a determined look in his eye.
+~
+30792 1049736 -200 E
+30 -7 3 5d10+800 17d15+11
+27000 169875
+8 8 1
+E
+#4340
+Guest princes~
+Princes Guest~
+The Princes guest is standing here enjoying that music.
+~
+You see a woman here dressed in a long flowing dress.  She is standing here
+enjoying the party.
+~
+20556 9216 50 E
+23 -2 9 9d8+900 12d12+16
+9655 99875
+8 8 2
+E
+#4341
+Princes guest~
+Princes Guest~
+The Princes guest is here enjoying the view.
+~
+You see a man dressed in fine leathers with a broad smile on his face.
+~
+16460 9216 50 E
+23 -2 9 3d2+900 9d15+18
+9655 109875
+8 8 1
+E
+#4342
+Goldilocks~
+goldilocks~
+Goldilocks is sleeping here.
+~
+You see a little girl with blond hair sleeping in a small bed. She is snoring
+softly.
+~
+6218 33920 100 E
+35 -4 5 3d2+800 15d16+21
+28655 122875
+4 4 2
+E
+#4343
+bear baby~
+baby bear~
+A Baby Bear is standing here wondering who is in his bed.
+~
+You see a tiny brown bear.
+~
+2158 9226 -100 E
+27 -4 4 3d1+1100 13d14+16
+11655 90875
+8 8 1
+E
+#4344
+Mumma Bear~
+Mumma Bear~
+Mumma Bear is peering around the room.
+~
+You see a large bear wearing an apron.
+~
+2158 9226 -100 E
+28 -5 4 3d2+1100 14d15+17
+12655 110875
+8 8 2
+E
+#4345
+Papa bear~
+Papa Bear~
+Papa Bear is standing here looking very angry.
+~
+You see a large bear wearing an apron.
+~
+2158 9226 -100 E
+29 -7 7 4d2+1200 15d15+13
+25100 105875
+8 8 1
+E
+#4346
+Straw Pig~
+Straw Pig~
+A Little Pig is standing here trembling with fear.
+~
+You see a small pig.  He has a pair of blue overalls on and a pair of gum boots.
+He is chewing on a piece of straw while nervously looking at the door.
+~
+18506 9224 -100 E
+28 -4 4 2d2+1050 15d13+16
+9465 95875
+8 8 1
+E
+#4347
+Wooden Pig~
+wooden pig~
+A Little Pig is standing here trembling nervously.
+~
+You see a small pig.  He has a pair of blue overalls a pair of gum boots on .
+He is picking his teeth with a tooth pick while nervously looking at the door.
+~
+2122 9224 -100 E
+29 -8 5 5d3+1200 15d14+15
+10465 101875
+8 8 1
+E
+#4348
+Brick Pig~
+brick pig~
+A Little Pig is standing here smirking.
+~
+You see a large pig.  He has teeth razor sharp. He has a pair of blue overalls
+a pair of gum boots on .  He is sharpening his teeth with a brick.
+~
+18506 9224 -100 E
+30 -8 3 5d3+1400 15d15+16
+11465 119875
+8 8 1
+E
+#4349
+Wolf large~
+Large Wolf~
+A large wolf is standing here puffing heavily.
+~
+This wolf is puffing with great might.
+~
+18504 1024 300 E
+35 -4 3 3d5+1500 14d18+16
+31500 119875
+8 8 1
+E
+#4350
+Jack boy~
+Jack~
+A small boy walking down the hill.
+~
+You see a small boy.  He is wearing grey pants with braces and is carrying a 
+bucket.
+~
+20558 1032 -100 E
+29 -4 4 10d9+1000 14d15+11
+9401 290000
+8 8 1
+E
+#4351
+Jill girl~
+Jill~
+You see a little girl walking up the hill. 
+~
+You see a small girl.  She is wearing a light summer frock.  She is whistling
+along with Jack.
+~
+20552 1064 -100 E
+29 -5 8 5d9+1100 15d13+16
+9401 94365
+8 8 2
+E
+#4352
+Puff Dragon~
+Puff the Magic dragon~
+A Magic Dragon is frollocking here.
+~
+You see a large dragon with a kind face here.  He is enjoying his walk in the
+forest.
+~
+72 1024 -50 E
+35 -19 4 5d2+1200 12d15+25
+20401 122365
+8 8 1
+E
+#4353
+Munchkin~
+munchkin~
+You see a Munchkin going about her business.
+~
+You see a very small female.  She is dressed in a brightly colored dress and she
+is wearing clogs on her feet.
+~
+49228 1572864 -50 E
+20 -2 7 5d5+250 8d10+10
+1401 12126
+8 8 2
+E
+#4354
+Munchkin~
+munchkin ~
+You see a Munchkin going about his business.
+~
+You see a small male.  He is dressed in brown work pants and a white shirt.
+~
+49228 1572864 -50 E
+21 -3 6 1d1+275 12d10+11
+1401 10365
+8 8 1
+E
+#4355
+Tin Man~
+Tin Man~
+The Tin Man is here waiting to be oiled.
+~
+You see a tall man made of tin.  He seems to have rusted to the point where he
+cant move.  He is carrying a axe and a small tin can.  He has a funnel for a 
+hat and a pipe for a nose.
+~
+28747 1160 -2000 E
+32 -5 3 6d5+1200 15d14+15
+10401 92275
+8 8 1
+E
+#4356
+Scarecrow~
+scarecrow~
+You see a rather rundown scarecrow.
+~
+There is a pathetic scarecrow standing here.  He has lost most of his 
+stuffing and is falling to pieces.  It does not look like this scarecrow 
+could scare anything away.
+~
+26703 1057792 -1000 E
+32 -5 4 5d6+1100 15d15+15
+10401 99275
+8 8 1
+E
+#4357
+Cowardly Lion~
+cowardly lion~
+The Cowardly Lion is here hiding behind a tree.
+~
+You see here a large hairy beast.  His mane is fire red and whiskers as 
+black as night.  You would imagine that this beast would be the king of 
+the forest.  However you notice that the lion trembles with fear as you
+approach.
+~
+16459 1048714 -500 E
+32 -6 6 2d2+1300 13d18+15
+15401 114275
+8 8 1
+E
+#4358
+Dorothy~
+dorothy~
+Dorothy is here asleep.
+~
+You see Dorothy asleep.  She is wearing a blue dress and a white apron.
+~
+20552 33928 -1000 E
+30 -7 3 5d7+800 14d15+17
+27000 100275
+4 4 2
+E
+#4359
+Toto~
+toto~
+Toto is here watching over Dorothy.
+~
+You see a dirty little dog here.  It looks like it might bite if you get too
+close.
+~
+2154 9256 0 E
+27 -3 4 2d2+1000 10d13+16
+20000 112275
+8 8 1
+E
+#4360
+man Wizard~
+the Wizard~
+You see a small but intelligent man standing here.
+ ~
+You see a small man wearing a suit.  He stands proudly and you can see 
+why he is respected by many.
+~
+71786 42164 -1000 E
+35 -2 3 10d10+900 15d14+20
+25401 159275
+8 8 1
+E
+#4361
+Ugly duck~
+ugly duckling ~
+There is a ugly looking duck swimming here.
+~
+You see a small ugly duckling.  He makes a ugly duck but maybe one day he
+will make a attractive swan.
+~
+32972 1572864 -50 E
+20 -4 7 5d10+375 9d10+11
+9901 200000
+9 9 1
+E
+$
+@
+
+
+1.2
+log
+@Latest Versions
+@
+text
+@d10 1
+a10 1
+35 -4 -10 5d10+1100 4d5+30
+d23 1
+a23 1
+35 -2 -10 3d2+1000 4d5+25
+d36 2
+a37 2
+35 -7 -2 6d5+1500 6d10+10
+49498 149500
+d51 1
+a51 1
+25 -2 2 10d3+750 5d6+10
+d64 1
+a64 1
+27 -4 -1 5d3+1100 5d7+8
+d77 1
+a77 1
+27 -3 -1 1d5+1100 2d5+14
+d90 1
+a90 1
+27 -2 -2 5d2+1150 4d4+17
+d102 1
+a102 1
+28 -2 -4 5d2+1100 5d5+10
+d115 2
+a116 2
+30 -3 -9 2d3+1300 6d5+10
+29987 136431
+d128 1
+a128 1
+28 -3 -2 4d2+1100 5d5+10
+d140 1
+a140 1
+27 -3 -2 4d2+1100 5d5+10
+d154 1
+a154 1
+26 -3 -2 4d2+1100 5d4+10
+d166 1
+a166 1
+26 -3 -2 4d2+1100 5d4+10
+d192 1
+a192 1
+29 -2 -2 2d3+1000 5d4+13
+d205 2
+a206 2
+30 -4 -5 4d2+1250 3d10+5
+49347 144565
+d218 2
+a219 2
+30 -3 -7 3d2+1200 5d6+16
+30347 112785
+d230 1
+a230 1
+26 -4 -3 4d2+1050 4d4+10
+d243 1
+a243 1
+27 -4 -3 5d5+450 6d5+6
+d259 2
+a260 2
+30 -3 -5 4d2+1350 8d7+30
+109111 129885
+d271 1
+a271 1
+28 -3 -2 5d7+1000 5d6+5
+d283 1
+a283 1
+29 -3 -3 6d8+1100 5d5+10
+d296 1
+a296 1
+30 -6 -4 4d1+1300 5d5+20
+d309 2
+a310 2
+32 -8 -5 3d10+1400 4d5+24
+29565 129885
+d322 1
+a322 1
+28 -8 -4 2d1+300 5d5+10
+d335 1
+a335 1
+31 -7 -3 3d5+1500 10d4+5
+d348 1
+a348 1
+29 -4 -5 5d3+1000 5d5+10
+d360 2
+a361 2
+24 -3 -3 6d9+1100 4d4+13
+9565 1002565
+d372 1
+a372 1
+24 -3 -3 6d9+1100 4d4+13
+d384 1
+a384 1
+24 -3 -3 6d9+1100 4d4+13
+d396 1
+a396 1
+24 -3 -3 6d9+1100 4d4+13
+d408 1
+a408 1
+24 -3 -3 6d9+1100 4d4+13
+d420 1
+a420 1
+24 -3 -3 6d9+1100 4d4+13
+d432 2
+a433 2
+24 -3 -3 5d9+900 6d3+14
+22565 101565
+d445 1
+a445 1
+30 -5 -6 5d7+1250 3d7+16
+d458 1
+a458 1
+27 -5 -6 5d3+800 5d4+18
+d470 2
+a471 2
+26 -5 -3 8d9+1200 5d5+11
+42565 120565
+d482 2
+a483 2
+26 -6 -3 5d4+1200 4d5+18
+32565 122875
+d494 2
+a495 2
+29 -6 -3 8d5+1200 5d4+16
+49565 129875
+d507 2
+a508 2
+30 -7 -9 5d10+800 7d5+11
+97655 169875
+d520 1
+a520 1
+23 -2 -3 9d8+900 2d4+16
+d532 1
+a532 1
+23 -2 -2 3d2+900 2d3+18
+d545 1
+a545 1
+35 -4 -4 3d2+800 5d6+10
+d557 1
+a557 1
+27 -4 -2 3d1+1100 10d2+16
+d569 1
+a569 1
+28 -5 -2 3d2+1100 4d5+17
+d581 2
+a582 2
+29 -7 -2 4d2+1200 5d5+13
+32465 105875
+d594 1
+a594 1
+28 -4 -2 2d2+1050 5d3+16
+d607 1
+a607 1
+29 -8 -2 5d3+1200 5d4+15
+d620 1
+a620 1
+30 -8 -2 5d3+1400 5d5+16
+d632 2
+a633 2
+35 -4 -1 3d5+1500 4d8+16
+53401 119875
+d645 2
+a646 2
+29 -4 -2 10d9+1000 4d5+11
+9401 1004565
+d658 1
+a658 1
+29 -5 -2 5d9+1100 5d3+16
+d671 1
+a671 1
+35 -20 -2 5d2+1200 2d5+25
+d696 1
+a696 1
+21 -3 -7 1d1+275 2d10+11
+d710 1
+a710 1
+32 -5 -100 6d5+1200 5d4+15
+d724 1
+a724 1
+32 -5 -7 5d6+1100 5d5+15
+d739 1
+a739 1
+32 -6 -10 2d2+1300 3d8+15
+d751 2
+a752 2
+30 -7 -10 5d7+800 4d5+17
+29401 100275
+d764 2
+a765 2
+27 -3 -70 2d2+1000 5d3+16
+25401 112275
+d777 1
+a777 1
+35 -2 -10 10d10+900 5d4+20
+@
+
+
+1.1
+log
+@Import of world/*
+@
+text
+@d9 1
+a9 1
+30794 1064 -100 S
+d12 2
+a13 1
+9 9 1 2
+d22 1
+a22 1
+20570 1192 -50 S
+d25 2
+a26 1
+9 9 1 2
+d35 1
+a35 1
+22906 4195456 -400 S
+d38 2
+a39 1
+6 6 1 2
+d50 1
+a50 1
+33007 64 -50 S
+d53 2
+a54 1
+8 8 0 7
+d63 1
+a63 1
+20558 558080 300 S
+d66 2
+a67 1
+8 8 2 2
+d76 1
+a76 1
+18510 1096 50 S
+d79 2
+a80 1
+8 8 1 2
+d89 1
+a89 1
+18538 1049600 400 S
+d92 2
+a93 1
+8 8 2 2
+d101 1
+a101 1
+18538 525344 100 S
+d104 2
+a105 1
+8 8 1 2
+d114 1
+a114 1
+20570 9224 -200 S
+d117 2
+a118 1
+8 8 1 2
+d127 1
+a127 1
+28746 1032 -50 S
+d130 2
+a131 1
+8 8 1 2
+d139 1
+a139 1
+20568 5120 -50 S
+d142 2
+a143 1
+8 8 1 2
+d153 1
+a153 1
+16458 1024 0 S
+d156 2
+a157 1
+8 8 2 2
+d165 1
+a165 1
+20572 525312 50 S
+d168 2
+a169 1
+8 8 2 2
+d178 2
+a179 2
+16600 1049632 100 S
+20 -2 -1 2d3+400 4d5+10
+d181 2
+a182 1
+6 6 2 3
+d191 1
+a191 1
+22616 529440 20 S
+d194 2
+a195 1
+8 8 1 2
+d204 1
+a204 1
+18555 1040 200 S
+d207 2
+a208 1
+8 8 1 5
+d217 1
+a217 1
+6218 33920 200 S
+d220 2
+a221 1
+8 8 2 2
+d229 1
+a229 1
+18510 46208 100 S
+d232 2
+a233 1
+8 8 2 2
+d242 1
+a242 1
+51290 1049728 100 S
+d245 2
+a246 1
+8 8 1 2
+d258 1
+a258 1
+24683 33922 -400 S
+d261 2
+a262 1
+8 8 2 2
+d270 1
+a270 1
+20842 1024 -50 S
+d273 2
+a274 1
+8 8 1 3
+d282 1
+a282 1
+20842 4195336 -50 S
+d285 2
+a286 1
+8 8 1 3
+d295 1
+a295 1
+8318 5243936 -70 S
+d298 2
+a299 1
+8 8 1 3
+d308 1
+a308 1
+24698 1049600 100 S
+d311 2
+a312 1
+8 8 1 7
+d321 1
+a321 1
+18520 9360 -100 S
+d324 2
+a325 1
+8 8 2 2
+d334 1
+a334 1
+18536 1024 100 S
+d337 2
+a338 1
+4 4 1 2
+d347 1
+a347 1
+20570 33952 -200 S
+d350 2
+a351 1
+4 4 2 2
+d359 1
+a359 1
+20559 1049600 -50 S
+d362 2
+a363 1
+8 8 1 7
+d371 1
+a371 1
+20559 1049600 -50 S
+d374 2
+a375 1
+8 8 1 7
+d383 2
+a384 2
+20559 1049600 -50 S
+24 -3 -3 6d9+1100 4d4+13 3d6+12
+d386 2
+a387 1
+8 8 1 7
+d395 1
+a395 1
+20559 1049600 -50 S
+d398 2
+a399 1
+8 8 1 7
+d407 1
+a407 1
+20559 1049600 -50 S
+d410 2
+a411 1
+8 8 1 7
+d419 1
+a419 1
+20559 1049600 -50 S
+d422 2
+a423 1
+8 8 1 7
+d431 1
+a431 1
+20559 1049600 -50 S
+d434 2
+a435 1
+8 8 1 7
+d444 1
+a444 1
+30794 1049600 -200 S
+d447 2
+a448 1
+8 8 1 2
+d457 1
+a457 1
+102474 1160 -200 S
+d460 2
+a461 1
+6 6 2 2
+d469 1
+a469 1
+4222 525322 200 S
+d472 2
+a473 1
+8 8 2 2
+d481 1
+a481 1
+4222 525322 200 S
+d484 2
+a485 1
+8 8 2 2
+d493 1
+a493 1
+4222 525322 200 S
+d496 2
+a497 1
+8 8 2 2
+d506 1
+a506 1
+30792 1049736 -200 S
+d509 2
+a510 1
+8 8 1 2
+d519 1
+a519 1
+20556 9216 50 S
+d522 2
+a523 1
+8 8 2 2
+d531 1
+a531 1
+16460 9216 50 S
+d534 2
+a535 1
+8 8 1 2
+d544 1
+a544 1
+6218 33920 100 S
+d547 2
+a548 1
+4 4 2 2
+d556 1
+a556 1
+2158 9226 -100 S
+d559 2
+a560 1
+8 8 1 3
+d568 1
+a568 1
+2158 9226 -100 S
+d571 2
+a572 1
+8 8 2 3
+d580 1
+a580 1
+2158 9226 -100 S
+d583 2
+a584 1
+8 8 1 3
+d593 1
+a593 1
+18506 9224 -100 S
+d596 2
+a597 1
+8 8 1 3
+d606 1
+a606 1
+2122 9224 -100 S
+d609 2
+a610 1
+8 8 1 3
+d619 1
+a619 1
+18506 9224 -100 S
+d622 2
+a623 1
+8 8 1 3
+d631 1
+a631 1
+18504 1024 300 S
+d634 2
+a635 1
+8 8 1 3
+d644 1
+a644 1
+20558 1032 -100 S
+d647 2
+a648 1
+8 8 1 2
+d657 1
+a657 1
+20552 1064 -100 S
+d660 2
+a661 1
+8 8 2 2
+d670 1
+a670 1
+72 1024 -50 S
+d673 2
+a674 1
+8 8 1 4
+d683 2
+a684 2
+49228 1572864 -50 S
+20 -2 -6 5d5+250 2d10+10
+d686 2
+a687 1
+8 8 2 7
+d695 1
+a695 1
+49228 1572864 -50 S
+d698 2
+a699 1
+8 8 1 7
+d709 1
+a709 1
+28747 1160 -2000 S
+d712 2
+a713 1
+8 8 1 2
+d723 1
+a723 1
+26703 1057792 -1000 S
+d726 2
+a727 1
+8 8 1 2
+d738 1
+a738 1
+16459 1048714 -500 S
+d741 2
+a742 1
+8 8 1 3
+d750 1
+a750 1
+20552 33928 -1000 S
+d753 2
+a754 1
+4 4 2 2
+d763 1
+a763 1
+2154 9256 0 S
+d766 2
+a767 1
+8 8 1 3
+d770 1
+a770 1
+The Wizard~
+d776 1
+a776 1
+71786 42164 -1000 S
+d779 2
+a780 1
+8 8 1 2
+d789 6
+a794 6
+32972 1572864 -50 S
+20 -5 -7 5d10+375 2d10+11
+9901 11165
+9 9 1 3
+#99999
+$~
+@
+

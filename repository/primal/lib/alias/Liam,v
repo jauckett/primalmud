@@ -1,0 +1,51 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@tm tell musashi $*
+kww k warrior
+enter s ; s ; s ; s ; wear all ; wield sword 
+qr quaff red
+kg k goblin
+gc get all corpse
+kb k beggar
+me get meat bag ; eat meat
+kw k worker
+sk get skin bag ; drink skin ; put skin bag
+cl cast 'cure light'
+kz k zombie
+bs rem oak ; wield knife ; backstab $1 ; rem knife ; wield oak
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

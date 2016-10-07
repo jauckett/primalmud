@@ -1,0 +1,43 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.43;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@appoint : removes the sacred Sword of Lankhmar from a gold plated sheath. As you see the shean of the blade you drop to one knee. As the sword is tapped on your collar bones you hear "Arise$* and bear the title:$* of The Circle of Lankhmar."
+levels grat ---+++**The Circle Congrats$* for L*E*V*E*L*I*N*G**+++---
+summon cast 'summon' $*
+shake : shakes your hand with great strength.
+wb : wipes his blade to a BLINDING sheen with Bounty!
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

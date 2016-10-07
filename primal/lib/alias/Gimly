@@ -1,0 +1,40 @@
+k get knife crate;rem sword;wi knife;backstab $*;rem knife;wi sword;put knife crate
+kl bt  master
+id get identify crate; recite identify $1
+iron get all.iron crate; rem all.granite; wear all.iron; put all.granite crate
+sum cast 'summon' $1
+pac put all crate
+ci cast 'detect invisibility'
+mm get mushroom crate; eat mushroom
+cloc cast 'locate object' $*
+rl get recall crate; recite recall $*
+ec exa crate
+gc get $1 crate
+cv cast 'infravision'
+ccc cast 'cure critical' $*
+cl cast 'lightning bolt' $1
+gac get all corpse
+gac2 get all 2.corpse
+gac3 get all 3.corpse
+gac4 get all 4.corpse
+gac5 get all 5.corpse
+ws wake; stand
+cs cast 'strength' $*
+ccl cast 'cure light' $*
+ggc get gold corpse
+tr alias t track $* ; track $*
+ccw get skin crate; cast 'create water' skin; put skin crate
+jc put all crate; drop crate; get corpse; junk corpse; get crate
+dw get skin crate; drink skin; drink skin; put skin crate
+em get meat crate; get meat crate; eat meat; eat meat; put meat crate; put meat crate
+m6 buy 6 meat; put all.meat crate
+qw get white crate; quaff white
+qr get red crate; quaff red
+fs get $1.skin crate; fill skin fountain; put skin crate
+ccf cast 'create food'; cast 'create food'; cast 'create food'; cast 'create food'; cast 'create food'; eat mushroom; eat mushroom; eat mushroom; eat mushroom; eat mushroom
+wg rem all.iron; get all.granite crate; wear all.granite; put all.iron crate
+recall cast 'word of recall' $*
+atlas get atlas crate; exa atlas; put atlas crate
+civ cast 'invisibility'
+ca cast 'armor' $*
+t track  traveller 

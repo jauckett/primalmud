@@ -1,0 +1,29 @@
+tf track foot
+ud unlock door;open door
+ea cast 'earthquake'
+lg cast 'lightning bolt' $1
+bg buy 5 green;put all.green backpack
+qg get green backpack;quaff green
+gc get all corpse
+ws wake;stand
+wd rem long;wield dagger
+wl rem dagger;wield long
+rc get recall backpack;recite recall
+cl cast 'cure light
+mm cast 'magic missile' $1
+ec get chunk backpack;eat chunk
+fud drink skin;get chunk backpack;eat chunk
+qw get white back;quaff white
+br buy 5 red;put all.red back
+aaa w;backstab cae
+qr get red backpack;quaff red
+gorome s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+fb cast 'fireball' $1
+bw buy 3 white;put all.white back
+godarask w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+bs rem chain;wield soak;backstab $1;rem soak;wield chain
+wa wear all;wield chain;hold drum;put all back;get soak back;get skin back
+bf buy 10 chunk;put all.chunk back
+wg rem chain;wield winch
+wc rem win;wield chain
+bb backstab wife

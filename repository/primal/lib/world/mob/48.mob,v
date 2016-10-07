@@ -1,0 +1,445 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.39;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#4800
+Minotaur~
+Minotaur~
+The Minotaur is standing here ready for a fight.     
+~
+You see a beast about  seven foot tall.  He has the head of a bull and a     
+body of a man.  He covered in hair and has horns protruding out of his head.  
+~
+3268719 33960 -1000 S
+85 -70 -10 1d5+10000 30d10+70
+250040 3000000
+8 8 1
+#4801
+Vore~
+Vore~
+You see a pale skinned Vore swimming about.
+~
+You see before you a ugly fish with pale white scales and dark hooded eyes.
+Upon his bald head the crown of his scalp is sharp and protruding.
+Scaled wings grow from its shoulder blades and hands are hooked into talons.
+Its lip-less mouth encloses sharp and rotting teeth with purple gums.
+~
+3203177 1184 -500 S
+67 -50 -10 5d5+9000 15d15+75
+150000 1300000
+8 8 0
+#4802
+Gorgon~
+Gorgon~
+You see a Gorgon here protecting her sister.
+~
+You see before you a regal type creature sitting on a throne made of skulls.
+His skin is dark green and mottled with brown.  Gorgons head is large with
+a cavernous mouth that is rimmed with fangs.  The top of his head is a score
+of snakes that writhe about.
+~
+3270731 1162 -1000 S
+75 -60 -10 1d40+10000 15d20+70
+190230 1998000
+8 8 2
+#4803
+Sterope~
+Sterope~
+The ugly Sterope is just about to pounce on you.
+~
+This is a giant creature about seven foot tall. He has the head of a lion
+and the body of a man.  He has hands that end in talons the length of daggers.
+From behind he has the tail of a lion.
+~
+3203163 525314 1000 S
+75 -65 -10 10d1+9000 15d15+70
+180321 2003214
+8 8 1
+#4804
+Satyr~
+Satyr~
+A happy little pointy eared Satyr is looking for some fun.
+~
+The Satyr is no taller than a small child.  He has pointed ears and upper
+body is skinny and smooth.  His legs are that of a goat with hooves that are
+cloven.  On the top of his head you see small horns.
+~
+3385440 500 -900 S
+63 -60 -7 7d7+5000 20d12+70
+150400 870000
+8 8 1
+#4805
+Nymph~
+Nymph~
+You see a small nymph watching over her land
+~
+You see a beautiful maiden watching over her land.  She is a protective mortal
+looking girl but should not be underestimated.       
+~
+3207240 524384 100 S
+60 -60 -7 5d10+5000 10d15+70
+110000 800000
+8 8 2
+#4806
+Nymph~
+Nymph~
+You see a small nymph watching over her land
+~
+You see a beautiful maiden watching over her sea. She is a protective mortal  
+looking girl but should not be underestimated.   
+~
+3207240 525344 100 S
+60 -60 -7 5d10+5000 10d15+70
+101000 800000
+8 8 2
+#4807
+Nymph~
+Nymph~
+You see a small nymph watching over her land
+~
+You see a beautiful maiden watching over her land.  She is a protective mortal  
+looking girl but should not be underestimated. 
+~
+3207240 525344 100 S
+60 -60 -7 5d10+7000 10d15+70
+110000 800000
+8 8 2
+#4808
+Nix~
+Nix~
+The little Nix is standing here waiting for someone to die.   
+~
+You see a little person otherwise known as a water sprite.
+The sprite has golden hair and green teeth.  He is a happy little fellow.
+~
+3203161 1226 -100 S
+62 -60 -7 5d10+7000 12d12+70
+120400 1000000
+8 8 1
+#4809
+Daemon Steed~
+Steed~
+You see a black steed moving in the dark.
+~
+You see a beautiful black stallion with eyes the color of blood.
+From its nostrils you can see smoke and tufts of fire.
+~
+3268681 1160 -100 S
+80 -80 -10 5d10+10900 20d10+90
+210200 2809000
+8 8 0
+#4810
+Margoyle~
+Margoyle~
+You see and ugly Margoyle hiding in the shadows.
+~
+You see a beast with a large head.  Protruding out of the head is large horns.
+The beasts mouth is large with huge pointy teeth that would devour you in
+a second.
+~
+3268681 525442 -100 S
+79 -70 -10 2d4+10300 20d15+85
+186201 2005431
+8 8 0
+#4811
+Helen~
+Helen~
+Helen the most beautiful lady in all the land is here.
+~
+You see before you a woman of extreme beauty.  Probably this most beautiful woman
+in the whole world.  Her face is one that is described at " the face that 
+launched a thousand ships" .
+~
+3401819 525500 1000 S
+80 -80 -10 1d1+13050 20d20+90
+210123 3212000
+8 8 2
+#4812
+Pegasus~
+Pegasus~
+A Pegasus is here grazing.
+~
+You see a beautiful winged horse.  He is wearing a golden bridle.
+His hooves are covered in blood. He is sure footed and moves with agile speed.
+~
+3203167 1192 1000 S
+75 -70 -10 7d10+9000 15d15+70
+513450 1306000
+8 8 1
+#4813
+Phoenix~
+Phoenix~
+A Phoenix nurturing itself in the sun.
+~
+You see a very large bird like creature.  His feathers are red and goldish in
+color.  You have never seen another of its kind.
+~
+3203193 1192 -500 S
+75 -65 -7 12d10+10046 15d15+70
+191520 1810000
+8 8 1
+#4814
+Medusa~
+Medusa~
+Medusa is here hissing at you
+~
+You see before you the ugliest creature imaginable.  She has a scaly body, 
+bulging red eyes, brass wings and claws, and every hair on her head is a 
+hissing snake.   look at her.  You might turn to stone.
+~
+3401851 1074 -100 S
+80 -70 -10 1d10+12000 10d20+90
+254000 2501301
+8 8 2
+#4815
+Neptune~
+Neptune~
+Neptune the God of the Sea is thundering past you.
+~
+You see before you the God of the Sea.  He is dressed in robes the color of the
+grass and a crown made of pearl.  As he moves storms shake out of his beard.
+He is the most fearsome of the Olympians as he is hot tempered and cruel.
+~
+3399752 1256 1000 S
+85 -90 -7 10d1+16402 20d30+110
+220000 4056500
+8 8 1
+#4816
+Trojan Horse~
+Horse~
+There is a large wooden horse standing here waiting to be claimed. 
+~
+You see a large wooden horse towering well over your head that it casts a shadow
+over the whole area.  The horse does not at all seem completely without life
+as you can hear small rumbling from its interior.
+~
+3203163 525442 1000 S
+75 -70 -10 2d10+10013 15d15+60
+195466 2906000
+8 8 0
+#4817
+Trojan Warrior~
+Trojan~
+A weary Trojan is standing here resting.     
+~
+You see a large man with battle armor attached to the limbs of his body.
+He is weary and battle worn.
+~
+1106008 1184 100 S
+60 -30 -5 10d5+7000 10d9+70
+150000 1020000
+8 8 1
+#4818
+Theseus~
+Theseus~
+Theseus is peering around looking for the beast
+~
+You see a tall man dressed in fierce armor.  He has a kind face but seems to 
+be troubled.  He seems to be searching for something.
+~
+1177673 9352 1000 S
+75 -60 -9 1d10+9000 15d14+70
+185632 2954354
+8 8 1
+#4819
+Young Man~
+Man~
+A frightened young man is standing here.
+~
+You see a simple man standing here.  He has a nervous look in his eyes.
+Probably because he thinks that he is about to be fed to a large beast.
+~
+1106009 1184 100 S
+58 -20 -5 10d5+4000 10d5+70
+150000 623000
+8 8 1
+#4820
+Young Woman~
+Woman~
+A terrified young woman is standing here shivering.          
+~
+You see a simple woman standing here.  She has a nervous look in his eyes.
+Probably because she thinks that she is about to be fed to a large beast.  
+~
+1106009 1056 100 S
+58 -20 -5 10d5+4000 10d5+70
+150000 610000
+8 8 2
+#4821
+King Minos~
+King Minos~
+King Minos is here in all his splendor.   
+~
+You see before you a rather fat but powerful man.  He does not look like he
+should be messed with.
+~
+3274827 1208 -1000 S
+80 -75 -10 5d1+10000 20d20+80
+190500 2594000
+8 8 1
+#4822
+Perseus~
+Perseus~
+Perseus is hunting for his pray.
+~
+You see a brave honorable man hunting for his enemy.  He is dressed in battle
+gear and is carrying a large sword.
+~
+3334267 1164 1000 S
+76 -70 -10 10d1+9000 10d20+80
+213500 2150000
+8 8 1
+#4823
+Zeus~
+Zeus~
+Zeus the God of all Gods is here watching over his kingdom. 
+~
+Zeus the God of all Gods.  Standing here in all his glory.  The all powerful
+god with a white flowing beard and terrifying eyes.
+~
+3401851 5288 1000 S
+85 -90 -10 50d50+15000 50d40+95
+250000 4100000
+8 8 1
+#4824
+Greek Warrior~
+warrior~
+A Greek Warrior is here executing his plan.
+~
+You see a well armed Greek warrior.  He is battle worn and dressed in heavy   
+armor.  
+~
+1105993 1192 1000 S
+65 -60 -10 50d1+10000 15d15+70
+190000 1500000
+8 8 1
+#4825
+Aphrodite~
+Aphrodite~
+Aphrodite the Goddess of Love is here winking at you.    
+~
+You see a beautiful Goddess standing here.  She is covered in jewels and 
+beautiful clothes.  
+~
+3401803 525460 1000 S
+80 -80 -10 5d1+18000 30d20+80
+205000 2240000
+8 8 2
+#4826
+Pluto~
+Pluto~
+Pluto the God of the Underworld is standing here looking rather serious.
+~
+You see a large rather stern god standing before you.  He is wearing a 
+helmet of Invisibility.  He is covered in many jewels and precious metals.
+~
+3401836 9384 -1000 S
+85 -90 -10 5d10+10000 20d40+90
+250000 4000000
+8 8 1
+#4827
+Daedalus~
+Daedalus~
+Daedalus the Inventor is here.
+~
+Daedalus is standing here in a flimsy loincloth.  He is sweating from the heat.
+
+~
+3203163 1192 -1000 S
+65 -60 -10 5d10+10000 15d15+70
+150000 1000000
+8 8 1
+#4828
+Ixion~
+Ixion~
+Ixion the Murderer is standing here.
+~
+Ixion is here surrounded by a ring of fire.
+~
+1106011 1192 -1000 S
+65 -60 -10 5d10+10000 15d15+70
+100000 900000
+8 8 1
+#4829
+Tantalus~
+Tantalus~
+Tantalus the Thief is standing here.
+~
+Tantalus the thief is standing here.  He is looking extremely thirsty and 
+hungry.
+~
+1106011 1192 -1000 S
+65 -60 -10 5d10+10000 15d15+70
+150000 900000
+8 8 1
+#4830
+Icarus~
+Icarus~
+Icarus the son of Daedalus is standing here.
+~
+You see a small framed man wearing only a thin loincloth.
+~
+1106011 1192 -1000 S
+65 -60 -10 5d10+10000 15d15+50
+150000 900000
+8 8 1
+#4831
+Sisyphus~
+Sisyphus~
+Sisyphus a most unpleasant man stands here.  
+~
+Sysyphus is a large man.  His hair is receding in front and he has a 
+black beard and wears a flimsy cloth draped over his body.
+~
+1106010 1192 -1000 S
+65 -60 -10 5d10+10000 15d15+50
+150000 900000
+8 8 1
+#4832
+Cerberus~
+Cerberus~
+Cerberus the three headed guard dog.
+~
+You see a large three headed dog standing here.  He looks very tough and 
+vicious.
+~
+1106011 1192 -1000 S
+66 -60 -10 5d10+10000 15d20+70
+200000 1100000
+8 8 1
+#99999
+$~
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

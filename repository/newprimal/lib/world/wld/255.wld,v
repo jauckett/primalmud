@@ -1,0 +1,3882 @@
+head	1.12;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.12
+date	2003.12.26.00.07.03;	author mud;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.12.17.02.26.04;	author mud;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.11.25.05.38.05;	author mud;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.11.16.01.30.11;	author mud;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.11.08.11.59.20;	author mud;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.20.12.01.52;	author mud;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.14.05.33.28;	author mud;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2002.07.20.08.21.04;	author mud;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2001.06.09.04.12.59;	author primal;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2001.05.28.00.57.51;	author primal;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2001.04.11.17.18.15;	author artus;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2001.04.11.14.50.46;	author artus;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@Artus> Keeping the repository up-to-date. This is the groundwork for the
+       release.
+@
+text
+@#25500
+The RoSe Club - Guard Post~
+This guard post is yet to be described.
+~
+255 dg 0 0
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25580
+S
+#25501
+The VioLeT Club~
+This guard post is yet to be described.
+~
+255 dg 0 0
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25580
+S
+#25502
+Guard Post~
+This guard post is yet to be described.
+~
+255 dg 0 0
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25581
+S
+#25503
+Guard Post~
+This guard post is yet to be described.
+~
+255 dg 0 0
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25581
+S
+#25504
+Guard Post~
+This guard post is yet to be described.
+~
+255 dg 0 0
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25582
+S
+#25505
+Guard Post~
+This guard post is yet to be described.
+~
+255 dg 0 0
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25582
+S
+#25506
+Guard Post~
+This guard post is yet to be described.
+~
+255 dg 0 0
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25583
+S
+#25507
+Guard Post~
+This guard post is yet to be described.
+~
+255 dg 0 0
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25583
+S
+#25508
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dgy 0 0
+D0
+~
+~
+0 0 25540
+D1
+~
+~
+0 0 25516
+D2
+~
+~
+0 0 25548
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25500
+D4
+~
+~
+0 0 25524
+D5
+~
+~
+0 0 25532
+S
+#25509
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dg 0 0
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25501
+S
+#25510
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dg 0 0
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25502
+S
+#25511
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dg 0 0
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25503
+S
+#25512
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dg 0 0
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25504
+S
+#25513
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dg 0 0
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25505
+S
+#25514
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dg 0 0
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25506
+S
+#25515
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dg 0 0
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25507
+S
+#25516
+Clan Room~
+This clan room is yet to be described.
+~
+255 dgy 0 0
+D3
+~
+~
+0 0 25508
+S
+#25517
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25518
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25519
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25520
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25521
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25522
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25523
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25524
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+D5
+~
+~
+0 0 25508
+S
+#25525
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25526
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25527
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25528
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25529
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25530
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25531
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25532
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+D4
+~
+~
+0 0 25508
+D5
+~
+~
+0 0 25556
+S
+#25533
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25534
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25535
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25536
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25537
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25538
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25539
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25540
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+D2
+~
+~
+0 0 25508
+S
+#25541
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25542
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25543
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25544
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25545
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25546
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25547
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25548
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+D0
+~
+~
+0 0 25508
+S
+#25549
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25550
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25551
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25552
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25553
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25554
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25555
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25556
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+D4
+~
+~
+0 0 25532
+S
+#25557
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25558
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25559
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25560
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25561
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25562
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25563
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25564
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25565
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25566
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25567
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25568
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25569
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25570
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25571
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25572
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25573
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25574
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25575
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25576
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25577
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25578
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25579
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25580
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 c 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25583
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25500
+D2
+To the south, clan road continues.
+~
+~
+0 0 25581
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25501
+D4
+Above you, stretches out the town of Haven.
+~
+~
+0 0 1115
+S
+#25581
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 0 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25580
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25502
+D2
+To the south, clan road continues.
+~
+~
+0 0 25582
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25503
+S
+#25582
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 0 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25581
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25504
+D2
+To the south, clan road continues.
+~
+~
+0 0 25583
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25505
+S
+#25583
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 0 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25582
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25506
+D2
+To the south, clan road continues.
+~
+~
+0 0 25580
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25507
+S
+$~
+@
+
+
+1.11
+log
+@Artus> Getting very close...
+@
+text
+@d13 1
+a13 1
+Guard Post~
+@
+
+
+1.10
+log
+@Artus> Keeping everything up to date..
+@
+text
+@d2 1
+a2 1
+Guard Post~
+d93 13
+a105 1
+255 dg 0 0
+d111 8
+d201 5
+a205 1
+255 dg 0 0
+d254 4
+d306 8
+d362 4
+d414 4
+d466 4
+d615 1
+a615 1
+255 cp 0 0
+d648 1
+a648 1
+255 p 0 0
+d676 1
+a676 1
+255 p 0 0
+d704 1
+a704 1
+255 p 0 0
+@
+
+
+1.9
+log
+@Artus> Shrunk zone down to 100 rooms.. Number of clans is now 8 instead of 32.
+       Automatically loading guard/healer/boards.. The specprocs will take care
+       of making sure they're enabled :o).
+@
+text
+@d567 1
+a567 1
+255 p 0 0
+@
+
+
+1.8
+log
+@Artus> Just up-to-dating....
+@
+text
+@d10 1
+a10 1
+0 0 25950
+d21 1
+a21 1
+0 0 25950
+d32 1
+a32 1
+0 0 25951
+d43 1
+a43 1
+0 0 25951
+d54 1
+a54 1
+0 0 25952
+d65 1
+a65 1
+0 0 25952
+d76 1
+a76 1
+0 0 25953
+d87 1
+a87 1
+0 0 25953
+d90 2
+a91 2
+Guard Post~
+This guard post is yet to be described.
+d95 1
+a95 1
+To the west, the clan halls line the road.
+d98 1
+a98 1
+0 0 25954
+d101 2
+a102 2
+Guard Post~
+This guard post is yet to be described.
+d106 1
+a106 1
+To the east, the clan halls line the road.
+d109 1
+a109 1
+0 0 25954
+d112 2
+a113 2
+Guard Post~
+This guard post is yet to be described.
+d117 1
+a117 1
+To the west, the clan halls line the road.
+d120 1
+a120 1
+0 0 25955
+d123 2
+a124 2
+Guard Post~
+This guard post is yet to be described.
+d128 1
+a128 1
+To the east, the clan halls line the road.
+d131 1
+a131 1
+0 0 25955
+d134 2
+a135 2
+Guard Post~
+This guard post is yet to be described.
+d139 1
+a139 1
+To the west, the clan halls line the road.
+d142 1
+a142 1
+0 0 25956
+d145 2
+a146 2
+Guard Post~
+This guard post is yet to be described.
+d150 1
+a150 1
+To the east, the clan halls line the road.
+d153 1
+a153 1
+0 0 25956
+d156 2
+a157 2
+Guard Post~
+This guard post is yet to be described.
+d161 1
+a161 1
+To the west, the clan halls line the road.
+d164 1
+a164 1
+0 0 25957
+d167 2
+a168 2
+Guard Post~
+This guard post is yet to be described.
+d172 1
+a172 1
+To the east, the clan halls line the road.
+d175 1
+a175 1
+0 0 25957
+d178 2
+a179 2
+Guard Post~
+This guard post is yet to be described.
+a181 5
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25958
+d184 2
+a185 2
+Guard Post~
+This guard post is yet to be described.
+a187 5
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25958
+d190 2
+a191 2
+Guard Post~
+This guard post is yet to be described.
+a193 5
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25959
+d196 2
+a197 2
+Guard Post~
+This guard post is yet to be described.
+a199 5
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25959
+d202 2
+a203 2
+Guard Post~
+This guard post is yet to be described.
+a205 5
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25960
+d208 2
+a209 2
+Guard Post~
+This guard post is yet to be described.
+a211 5
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25960
+d214 2
+a215 2
+Guard Post~
+This guard post is yet to be described.
+a217 5
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25961
+d220 2
+a221 2
+Guard Post~
+This guard post is yet to be described.
+a223 5
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25961
+d226 2
+a227 2
+Guard Post~
+This guard post is yet to be described.
+a229 5
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25962
+d232 2
+a233 2
+Guard Post~
+This guard post is yet to be described.
+a235 5
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25962
+d238 2
+a239 2
+Guard Post~
+This guard post is yet to be described.
+a241 5
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25963
+d244 2
+a245 2
+Guard Post~
+This guard post is yet to be described.
+a247 5
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25963
+d250 2
+a251 2
+Guard Post~
+This guard post is yet to be described.
+a253 5
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25964
+d256 2
+a257 2
+Guard Post~
+This guard post is yet to be described.
+a259 5
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25964
+d262 2
+a263 2
+Guard Post~
+This guard post is yet to be described.
+a265 5
+D3
+To the west, the clan halls line the road.
+~
+~
+0 0 25965
+d268 2
+a269 2
+Guard Post~
+This guard post is yet to be described.
+a271 5
+D1
+To the east, the clan halls line the road.
+~
+~
+0 0 25965
+d274 2
+a275 2
+Clan Hall~
+This clan hall is yet to be described.
+a277 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25500
+d280 2
+a281 2
+Clan Hall~
+This clan hall is yet to be described.
+a283 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25501
+d286 2
+a287 2
+Clan Hall~
+This clan hall is yet to be described.
+a289 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25502
+d292 2
+a293 2
+Clan Hall~
+This clan hall is yet to be described.
+a295 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25503
+d298 2
+a299 2
+Clan Hall~
+This clan hall is yet to be described.
+a301 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25504
+d304 2
+a305 2
+Clan Hall~
+This clan hall is yet to be described.
+a307 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25505
+d310 2
+a311 2
+Clan Hall~
+This clan hall is yet to be described.
+a313 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25506
+d316 2
+a317 2
+Clan Hall~
+This clan hall is yet to be described.
+a319 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25507
+d322 2
+a323 2
+Clan Hall~
+This clan hall is yet to be described.
+a325 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25508
+d328 2
+a329 2
+Clan Hall~
+This clan hall is yet to be described.
+a331 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25509
+d334 2
+a335 2
+Clan Hall~
+This clan hall is yet to be described.
+a337 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25510
+d340 2
+a341 2
+Clan Hall~
+This clan hall is yet to be described.
+a343 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25511
+d346 2
+a347 2
+Clan Hall~
+This clan hall is yet to be described.
+a349 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25512
+d352 2
+a353 2
+Clan Hall~
+This clan hall is yet to be described.
+a355 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25513
+d358 2
+a359 2
+Clan Hall~
+This clan hall is yet to be described.
+a361 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25514
+d364 2
+a365 2
+Clan Hall~
+This clan hall is yet to be described.
+a367 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25515
+d370 2
+a371 2
+Clan Hall~
+This clan hall is yet to be described.
+a373 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25516
+d376 2
+a377 2
+Clan Hall~
+This clan hall is yet to be described.
+a379 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25517
+d382 2
+a383 2
+Clan Hall~
+This clan hall is yet to be described.
+a385 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25518
+d388 2
+a389 2
+Clan Hall~
+This clan hall is yet to be described.
+a391 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25519
+d394 2
+a395 2
+Clan Hall~
+This clan hall is yet to be described.
+a397 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25520
+d400 2
+a401 2
+Clan Hall~
+This clan hall is yet to be described.
+a403 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25521
+d406 2
+a407 2
+Clan Hall~
+This clan hall is yet to be described.
+a409 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25522
+d412 2
+a413 2
+Clan Hall~
+This clan hall is yet to be described.
+a415 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25523
+d418 2
+a419 2
+Clan Hall~
+This clan hall is yet to be described.
+a421 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25524
+d424 2
+a425 2
+Clan Hall~
+This clan hall is yet to be described.
+a427 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25525
+d430 2
+a431 2
+Clan Hall~
+This clan hall is yet to be described.
+a433 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25526
+d436 2
+a437 2
+Clan Hall~
+This clan hall is yet to be described.
+a439 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25527
+d442 2
+a443 2
+Clan Hall~
+This clan hall is yet to be described.
+a445 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25528
+d448 2
+a449 2
+Clan Hall~
+This clan hall is yet to be described.
+a451 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25529
+d454 2
+a455 2
+Clan Hall~
+This clan hall is yet to be described.
+a457 5
+D3
+To the west, the clan guard mans his post.
+~
+~
+0 0 25530
+d460 2
+a461 2
+Clan Hall~
+This clan hall is yet to be described.
+a463 5
+D1
+To the east, the clan guard mans his post.
+~
+~
+0 0 25531
+d562 4
+a565 2
+Clan Room~
+This clan room is yet to be described.
+d567 3
+a569 5
+255 dg 0 0
+S
+#25581
+Clan Room~
+This clan room is yet to be described.
+a570 5
+255 dg 0 0
+S
+#25582
+Clan Room~
+This clan room is yet to be described.
+d572 3
+a574 5
+255 dg 0 0
+S
+#25583
+Clan Room~
+This clan room is yet to be described.
+a575 5
+255 dg 0 0
+S
+#25584
+Clan Room~
+This clan room is yet to be described.
+d577 3
+a579 5
+255 dg 0 0
+S
+#25585
+Clan Room~
+This clan room is yet to be described.
+a580 5
+255 dg 0 0
+S
+#25586
+Clan Room~
+This clan room is yet to be described.
+d582 3
+a584 5
+255 dg 0 0
+S
+#25587
+Clan Room~
+This clan room is yet to be described.
+a585 5
+255 dg 0 0
+S
+#25588
+Clan Room~
+This clan room is yet to be described.
+d587 3
+a589 5
+255 dg 0 0
+S
+#25589
+Clan Room~
+This clan room is yet to be described.
+a590 5
+255 dg 0 0
+S
+#25590
+Clan Room~
+This clan room is yet to be described.
+d592 1
+a592 1
+255 dg 0 0
+d594 1
+a594 1656
+#25591
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25592
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25593
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25594
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25595
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25596
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25597
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25598
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25599
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25600
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25601
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25602
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25603
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25604
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25605
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25606
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25607
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25608
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25609
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25610
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25611
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25612
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25613
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25614
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25615
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25616
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25617
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25618
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25619
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25620
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25621
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25622
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25623
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25624
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25625
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25626
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25627
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25628
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25629
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25630
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25631
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25632
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25633
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25634
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25635
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25636
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25637
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25638
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25639
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25640
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25641
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25642
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25643
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25644
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25645
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25646
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25647
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25648
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25649
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25650
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25651
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25652
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25653
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25654
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25655
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25656
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25657
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25658
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25659
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25660
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25661
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25662
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25663
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25664
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25665
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25666
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25667
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25668
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25669
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25670
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25671
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25672
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25673
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25674
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25675
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25676
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25677
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25678
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25679
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25680
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25681
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25682
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25683
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25684
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25685
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25686
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25687
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25688
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25689
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25690
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25691
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25692
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25693
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25694
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25695
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25696
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25697
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25698
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25699
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25700
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25701
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25702
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25703
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25704
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25705
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25706
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25707
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25708
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25709
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25710
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25711
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25712
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25713
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25714
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25715
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25716
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25717
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25718
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25719
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25720
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25721
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25722
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25723
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25724
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25725
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25726
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25727
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25728
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25729
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25730
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25731
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25732
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25733
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25734
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25735
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25736
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25737
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25738
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25739
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25740
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25741
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25742
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25743
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25744
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25745
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25746
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25747
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25748
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25749
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25750
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25751
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25752
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25753
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25754
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25755
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25756
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25757
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25758
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25759
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25760
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25761
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25762
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25763
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25764
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25765
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25766
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25767
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25768
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25769
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25770
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25771
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25772
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25773
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25774
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25775
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25776
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25777
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25778
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25779
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25780
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25781
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25782
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25783
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25784
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25785
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25786
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25787
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25788
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25789
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25790
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25791
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25792
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25793
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25794
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25795
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25796
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25797
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25798
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25799
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25800
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25801
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25802
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25803
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25804
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25805
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25806
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25807
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25808
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25809
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25810
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25811
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25812
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25813
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25814
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25815
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25816
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25817
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25818
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25819
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25820
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25821
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25822
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25823
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25824
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25825
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25826
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25827
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25828
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25829
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25830
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25831
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25832
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25833
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25834
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25835
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25836
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25837
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25838
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25839
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25840
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25841
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25842
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25843
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25844
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25845
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25846
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25847
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25848
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25849
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25850
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25851
+Clan Room~
+This clan room is yet to be described.
+~
+255 dg 0 0
+S
+#25950
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25965
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25500
+D2
+To the south, clan road continues.
+~
+~
+0 0 25951
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25501
+D4
+Above you, stretches out the town of Haven.
+~
+~
+0 0 1115
+S
+#25951
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25950
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25502
+D2
+To the south, clan road continues.
+~
+~
+0 0 25952
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25503
+S
+#25952
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25951
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25504
+D2
+To the south, clan road continues.
+~
+~
+0 0 25953
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25505
+S
+#25953
+d605 1
+a605 1
+0 0 25952
+d610 1
+a610 1
+0 0 25506
+d615 1
+a615 1
+0 0 25954
+d620 1
+a620 1
+0 0 25507
+d622 1
+a622 1
+#25954
+d633 1
+a633 1
+0 0 25953
+d638 1
+a638 1
+0 0 25508
+d643 1
+a643 1
+0 0 25955
+d648 1
+a648 1
+0 0 25509
+d650 1
+a650 1
+#25955
+d661 1
+a661 1
+0 0 25954
+d666 1
+a666 1
+0 0 25510
+d671 1
+a671 1
+0 0 25956
+d676 1
+a676 281
+0 0 25511
+S
+#25956
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25955
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25512
+D2
+To the south, clan road continues.
+~
+~
+0 0 25957
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25513
+S
+#25957
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25956
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25514
+D2
+To the south, clan road continues.
+~
+~
+0 0 25958
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25515
+S
+#25958
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25957
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25516
+D2
+To the south, clan road continues.
+~
+~
+0 0 25959
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25517
+S
+#25959
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25958
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25518
+D2
+To the south, clan road continues.
+~
+~
+0 0 25960
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25519
+S
+#25960
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25959
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25520
+D2
+To the south, clan road continues.
+~
+~
+0 0 25961
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25521
+S
+#25961
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25960
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25522
+D2
+To the south, clan road continues.
+~
+~
+0 0 25962
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25523
+S
+#25962
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25961
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25524
+D2
+To the south, clan road continues.
+~
+~
+0 0 25963
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25525
+S
+#25963
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25962
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25526
+D2
+To the south, clan road continues.
+~
+~
+0 0 25964
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25527
+S
+#25964
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25963
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25528
+D2
+To the south, clan road continues.
+~
+~
+0 0 25965
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25529
+S
+#25965
+Clan Road~
+   You are travelling along clan road, where all the clan halls are set, the
+road runs in the north and south direction, with clan halls running off to the
+east and west.
+~
+255 p 0 0
+D0
+To the north, clan road continues.
+~
+~
+0 0 25964
+D1
+To the east, lies a clan's guard post.
+~
+~
+0 0 25530
+D2
+To the south, clan road continues.
+~
+~
+0 0 25950
+D3
+To the west, lies a clan's guard post.
+~
+~
+0 0 25531
+@
+
+
+1.7
+log
+@Artus> A3_0_315
+@
+text
+@d2439 1
+a2439 1
+255 0 0 0
+d2472 1
+a2472 1
+255 0 0 0
+d2500 1
+a2500 1
+255 0 0 0
+d2528 1
+a2528 1
+255 0 0 0
+d2556 1
+a2556 1
+255 0 0 0
+d2584 1
+a2584 1
+255 0 0 0
+d2612 1
+a2612 1
+255 0 0 0
+d2640 1
+a2640 1
+255 0 0 0
+d2668 1
+a2668 1
+255 0 0 0
+d2696 1
+a2696 1
+255 0 0 0
+d2724 1
+a2724 1
+255 0 0 0
+d2752 1
+a2752 1
+255 0 0 0
+d2780 1
+a2780 1
+255 0 0 0
+d2808 1
+a2808 1
+255 0 0 0
+d2836 1
+a2836 1
+255 0 0 0
+d2864 1
+a2864 1
+255 0 0 0
+@
+
+
+1.6
+log
+@Artus> Checking In.
+@
+text
+@d2 2
+a3 2
+Roks guard post~
+Here is the Rok clan guard post, only those who are members may pass this point
+d24 2
+a25 5
+Magical Forest~
+As you step towards what previously looked like an ordinary clan hall, you find
+yourself in the midst of a mighty forest, with the clan road only just visible
+off to your west.  As you look around, you notice a woods guide standing over
+by a rather large tree.  Perhaps he could help you to find the clan hall?    
+d354 1
+a354 1
+Rok clan main hall~
+d357 1
+a357 9
+255 dgy 0 0
+D0
+~
+~
+0 0 25564
+D1
+~
+~
+0 0 25596
+d365 4
+a368 3
+Hermens Clan hall~
+Empty room.~
+255 dgy 0 0
+d376 2
+a377 6
+Seakers of Truth clan hall~
+You find yourself surrounded by a wayward pine.  The branches of this tree
+reach down to the ground, making it an excellent place to keep warm and dry
+during storms, as well as effectively concealing its occupants from the outside
+world.  This is the home of the Seakers of Truth, where they may rest and relax
+before heading back out to the adventure that awaits them.    
+d387 2
+a388 4
+The Bastards' Smokeroom~
+This is where all of you bastards can hang out and smoke yourself stupid.
+While laughing at the numerous n00b's that aren't good enough to be a part
+of your elite squad.
+d390 1
+a390 1
+255 dgy 0 0
+a709 4
+D2
+~
+~
+0 0 25532
+a901 4
+D3
+~
+~
+0 0 25532
+d2439 1
+a2439 1
+255 p 0 0
+d2472 1
+a2472 1
+255 p 0 0
+d2500 1
+a2500 1
+255 p 0 0
+d2528 1
+a2528 1
+255 p 0 0
+d2556 1
+a2556 1
+255 p 0 0
+d2584 1
+a2584 1
+255 p 0 0
+d2612 1
+a2612 1
+255 p 0 0
+d2640 1
+a2640 1
+255 p 0 0
+d2668 1
+a2668 1
+255 p 0 0
+d2696 1
+a2696 1
+255 p 0 0
+d2724 1
+a2724 1
+255 p 0 0
+d2752 1
+a2752 1
+255 p 0 0
+d2780 1
+a2780 1
+255 p 0 0
+d2808 1
+a2808 1
+255 p 0 0
+d2836 1
+a2836 1
+255 p 0 0
+d2864 1
+a2864 1
+255 p 0 0
+@
+
+
+1.5
+log
+@Latest Versions
+@
+text
+@d401 4
+a404 2
+Clan Hall~
+This clan hall is yet to be described.
+d406 1
+a406 1
+255 dg 0 0
+@
+
+
+1.4
+log
+@
+
+Added:
+-
+-
+
+Removed:
+-
+-
+
+Changed:
+-
+-
+
+TODO:
+-
+-
+@
+text
+@d2 2
+a3 2
+Guard Post~
+This guard post is yet to be described.
+d24 5
+a28 2
+Guard Post~
+This guard post is yet to be described.
+d357 1
+a357 1
+Clan Hall~
+d360 9
+a368 1
+255 dg 0 0
+d376 3
+a378 4
+Clan Hall~
+This clan hall is yet to be described.
+~
+255 dg 0 0
+d386 6
+a391 2
+Clan Hall~
+This clan hall is yet to be described.
+d724 4
+d920 4
+d2461 1
+a2461 1
+255 0 0 0
+d2494 1
+a2494 1
+255 0 0 0
+d2522 1
+a2522 1
+255 0 0 0
+d2550 1
+a2550 1
+255 0 0 0
+d2578 1
+a2578 1
+255 0 0 0
+d2606 1
+a2606 1
+255 0 0 0
+d2634 1
+a2634 1
+255 0 0 0
+d2662 1
+a2662 1
+255 0 0 0
+d2690 1
+a2690 1
+255 0 0 0
+d2718 1
+a2718 1
+255 0 0 0
+d2746 1
+a2746 1
+255 0 0 0
+d2774 1
+a2774 1
+255 0 0 0
+d2802 1
+a2802 1
+255 0 0 0
+d2830 1
+a2830 1
+255 0 0 0
+d2858 1
+a2858 1
+255 0 0 0
+d2886 1
+a2886 1
+255 0 0 0
+@
+
+
+1.3
+log
+@
+Changed:
+- Artus - Lots of changes to the clan zone.. Will need more, but there's enough
+-         there that I'd rather not lose.
+@
+text
+@d2 2
+a3 2
+Blood Angel's Guard post~
+You stand here at the entrances to the Blood Angel's forified strong hold. Looking on you feel and overwhelming sense of dread.
+d355 1
+a355 2
+sfdlkjdkjflsajfd;a
+ddd
+a357 4
+D1
+~
+~
+0 0 25564
+d707 1
+a707 1
+I wonder...
+a709 8
+D3
+~
+~
+0 0 25532
+D4
+~
+~
+0 0 25596
+a901 8
+D1
+~
+~
+0 0 25628
+D5
+~
+~
+0 0 25564
+a1093 4
+D3
+~
+~
+0 0 25596
+@
+
+
+1.2
+log
+@Modified: Artus - This is how it should be.
+@
+text
+@d2 2
+a3 2
+Guard Post~
+This guard post is yet to be described.
+d355 2
+a356 1
+This clan hall is yet to be described.
+d359 4
+d712 1
+a712 1
+This clan room is yet to be described.
+d715 8
+d915 8
+d1115 4
+d2266 192
+d2469 1
+a2469 1
+0 0 25950
+d2485 5
+d2904 1
+a2904 1
+0 0 25965
+@
+
+
+1.1
+log
+@Added: Artus - Clan zone.
+@
+text
+@d24 1
+a24 1
+Blood Angels' Guard Post~
+@
+

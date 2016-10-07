@@ -1,0 +1,4 @@
+gac get all corpse
+ti tell insane $*
+tm tell misty $*
+g gossip $*

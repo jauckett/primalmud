@@ -1,0 +1,7 @@
+qw q white
+ta take all corpse;get corpse;junk corpse
+cl c 'cure light' anti
+inf c 'infravision' anti
+cf cast 'create food'
+cw c 'create water' skin
+ds drink skin

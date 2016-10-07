@@ -1,0 +1,23 @@
+ds drink skin
+eb get meat backpack;eat meat
+qw get white backpack;q white
+6 cast 'infravision'
+3 get red backpack;q red
+zx get all all.corpse
+eek rec recall
+pu put all.potion backpack
+kc kill caveman
+gc get all all.corpse
+1 assist boz
+kb kill bear
+kk alias k backstab $*;kill $*
+sl sleep
+bw buy 10 white
+br buy 10 red
+7 cast 'detect invis'
+op od open door
+od open door
+2 cast 'cure critic'
+0 cast 'word of recall'
+uu use staff self
+k backstab  enfan

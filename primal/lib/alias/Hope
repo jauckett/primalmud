@@ -1,0 +1,3 @@
+heal cast 'heal' $*
+di cast 'detect invis'
+rs cast 'word'

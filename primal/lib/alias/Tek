@@ -1,0 +1,13 @@
+] rem staff; wield knife
+[ rem knife; wield staff
+b bow $*
+3 backstab $*
+wake wake; stand; look
+pic tell picklehead $*
+hal tell hal $*
+var tell varga $*
+ggg get all all.corpse
+gg get all.gold all.corpse
+g get all corpse
+x exits
+bert tell bigbert $*

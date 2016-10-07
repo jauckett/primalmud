@@ -1,0 +1,6 @@
+recall get recall backpack;recite recall
+pb put $1 backpack
+bread get bread backpack;eat bread
+h cast 'cure light'
+gs gossip
+gac get all corpse;get corpse;junk corpse

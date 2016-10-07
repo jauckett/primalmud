@@ -1,0 +1,13 @@
+cl c 'cure light' $1
+g gos $*
+cls c 'cure light' self
+wak wake; stand
+gcc get coins all.corpse
+gac get all corpse
+mm c 'magic missile' $1
+schu : explodes into uncontrollable satanic laughter.
+vague : waves his arms around vaguely.
+as assist stab
+ct c 'chill touch' $1
+rr recite recall
+bh c 'burning hands' $1

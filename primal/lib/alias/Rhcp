@@ -1,0 +1,62 @@
+toes2 emote runs over your toes with his chair.     .....ouch
+bombers2 say &RG&vO&n &RB&vO&n&RM&vB&n&RE&vR&n&RS 
+bombers / &RG&vO&n &RB&vO&n&RM&vB&n&RE&vR&n&RS 
+football2 say &RG&vO&n &RE&vS&n&RS&vE&n&RN&vD&n&RO&vN&n --- &RG&vO&n &RE&vS&n&RS&vE&n&RN&vD&n&RO&vN
+football / &RG&vO&n &RE&vS&n&RS&vE&n&RN&vD&n&RO&vN&n --- &RG&vO&n &RE&vS&n&RS&vE&n&RN&vD&n&RO&vN
+gk goto $*;kill $*
+vulcan emote skillfully performs the Vulcan neck pinch on $* who falls to the ground, stunned.
+boot emote lays his boots into $*
+grat2 grat &M*&m------&M>&R $* &M<&m-------&M*
+grat1 grat &R*&r------&R>&M $* &R<&r-------&R*
+gototag goto 4518
+jedi goto 119
+uss goto 131
+gardians goto 111
+aven goto 115
+roseclub goto 120
+controll goto 22399
+105 / #105 $*
+serve rem all.lich;;rem belt;order clones serve;wear all.lich;wear belt
+sanc c 'sanc' self
+para c 'para' $1
+blind c 'blindness' $1
+godbless c 'holy aid' self;c 'divine prot' self
+haste c 'hast
+oaware c 'detect invis' $1;c 'sense life' $1;c 'infra' $1
+junkc get all all.corpse;get all.corp; junk all.cor
+ggc get gold all.c
+div cast 'divine heal
+allspin emote spins on his chair;order 1.clone emote spins on his chair;order 2.clone emote spins on his chair
+th train hit;train hit;train hit;train hit;train hit;train hit;train hit;train hit
+aware c 'detect invis' Self;c 'sense life' self;c 'infra' self
+finger cast 'finger' $1
+jest cast 'summon' jester
+mel cast 'summon' melchid
+nur cast 'summon' nursey
+spin emote spins on his chair
+heal say heal
+word c 'word of recall
+sum cast 'summon' $1
+clone c 'clone'
+gac get all all.corps
+id c 'identif' $1
+quit c 'word';c 'word';rem all;drop all;save;quitr
+healc c 'advanced heal' 1.clone;c 'advanced heal' 2.clone
+protect c 'bless' $*;c 'armor' $*;c 'sanc' $*
+clou cast 'clou
+nods nod
+wa wake;stand
+noh cast 'nohass
+baware c 'detect invis' $1;c 'sense life' $1;c 'infra' $1
+immchair immnet *spins on his eternal chair
+locate c 'locate' $1
+home goto 413
+plasmah goto 235
+taven goto 12
+. / #101 $*
+congrat &r --------> &g &f $* &n &r <--------------
+quest goto 5
+grat3 grat &G----'--,--&R{&Y@&r$* &Y@&R}&G--,--'----
+toes emote runs over$*'s toes with his chair
+someone echo Someone says, '$*'
+tri goto sinclair

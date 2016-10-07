@@ -1,0 +1,4 @@
+gac get all corpse
+em get meat crate ; eat meat
+ds drink skin
+mm c 'mag mis' $1 ; c 'mag mis' $1

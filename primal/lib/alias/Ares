@@ -1,0 +1,23 @@
+getd hold lant;wield sabre;wear all;hold drum;put tool 2.tool;put tool 2.tool
+8 cast 'sanc' $*
+sum cast 'summon' $*
+loc cast 'locate' $*
+tunnel s;e;e;e;e;open gate;e;e;e;e;e;e;e;e;s;s;e;e;e;e;s;w;w;s;s;e;e;e;e;s;s;s;w;w;w;w;w;w;u;u;u;w;w
+gt get tool tool
+1 get heal tool;get heal tool;quaff heal;quaff heal;put tool 2.tool
+darask s;w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n
+bh buy 20 heal;put all.heal tool
+x get all corpse
+str cast 'strength' $*
+drag cast 'dragon' $*
+ga cast 'group arm'
+re cast 'word' 
+sleep cast 'sleep' $*
+det cast 'detect inv' $*
+wa wake;stand
+inv cast 'invis' $*
+inf cast 'infravi' $*
+rome s;s;e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s;w;w;w;w;w
+tra train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*;train $*
+g all corpse 'corpse'
+corpse 'g all corpse'

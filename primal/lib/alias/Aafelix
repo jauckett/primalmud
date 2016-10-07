@@ -1,0 +1,24 @@
+sle cast 'sleep'$*
+sense cast 'sense life'
+fire cast 'fireball'
+gt get ton for
+pf put all.bread bac; put all.meat back
+gac get all corpse
+det cast 'detect invisibility'
+sanc cast 'sanc'
+cf cast 'create food' ; eat mush
+sum cast 'summon'$*
+ref cast 'refresh'
+cc cast 'cure critic'$*
+heal cast 'heal'
+wa wear all
+pp put all.pot for; put all.ton for
+call cast 'call lightning'
+word cast 'word of recall'
+dr get skin back; drink skin; put skin bac
+em get meat back; eat meat
+eb get bread back; eat bread
+infra cast 'infra'
+stren cast 'strength'
+invis cast 'invisibility'
+locate cast 'locate'$*

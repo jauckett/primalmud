@@ -1,0 +1,99 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  rel1:1.1.1.1 prim:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2000.01.26.14.30.45;  author michaeld;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@k kill  pirate
+cf cast 'creat food'
+rs rem sceptre
+hs hold sceptre
+sd sell diamond
+hr cast 'heal' tarn
+ht cast 'heal' talisman
+gb go book
+dd steal gold dorothy
+gg get gold all.corpse
+kd order followers kill dragon
+cg cast 'cure critic' gnol
+cs cast 'cure critic' scorfio
+cu cast 'cure critic' ultra
+aa wield axe
+cd cast 'infravision' zilt
+zb cast 'detect invisibility' zilt
+zx order followers ass zilt
+qq recite recall
+jk junk corpse
+qt quaff thick
+tl track lamia
+cw cast 'control weather'('worse')
+tw track werewolf
+wk wield knife
+pm put all.meat crate
+cz cast 'cure light' zilt
+tt track bandit
+ts track soldier
+re take all corpse
+ds drink skin
+qw quaff white
+qr quaff red
+pl pick door
+f take all
+cb cast 'cure blind' zilt
+tj track joe
+gw get white crate
+gm get meat crate
+pw put all.white crate
+kk alias k kill $*;kill $*
+tc track count
+tv track vampire
+x use staff
+ml give meat lahn
+l look in corpse
+cc cast 'cure critic' zilt
+rc rem chain
+po recite identify bishop
+uw use wand
+ci cast 'detect invisibility' zilt
+ck cast 'cure critic' kreep
+hf cast 'cure critic' fatty
+rd rem dagger
+cl cast 'cure critic'lefty
+lc cast 'call lightning' cinderella
+ok order followers kil jupiter
+cr cast 'refresh' zilt
+gl steal gold oompa
+hh cast 'heal' zilt
+hw cast 'heal' wooffee
+@
+
+
+1.1.1.1
+log
+@Intial Import of Source
+@
+text
+@@

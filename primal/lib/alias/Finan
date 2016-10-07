@@ -1,0 +1,6 @@
+sl sleep
+kk kill leech
+inf cast 'inf' self
+8 get all.gold all.corpse
+9 get all all.corpse
+ta tell alarian $*

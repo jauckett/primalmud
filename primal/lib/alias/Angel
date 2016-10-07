@@ -1,0 +1,13 @@
+sanc cast 'sanctuary'
+pab put all backpack
+lib look in backpack
+gbb get bread backpack;eat bread
+infra cast 'infravision'
+gsb get skin backpack; drink skin; put skin backpack
+gmb get meat backpack;eat meat
+gwq get white backpack; q white
+grq get red backpack;q red
+home cast 'word of recall'
+gac get all corpse
+fr cast 'fire'
+heal cast 'heal' Angel

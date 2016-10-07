@@ -1,0 +1,31 @@
+rec cast 'word of recall
+drink g skin back;drink skin;p skin back
+dragon cast 'dragon'$*
+meat g meat back; eat meat
+toyheim w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;n;n;n;w;w;w;refresh
+desert w;w;w;w;w;w;w;w;w;w;n;n;n;w;w;s;s;w;w;w;w;w;s;w;w;w;n;w;w;n;n;n;w;w;n;n;n;n;n;refresh;crystal
+crystal w;w;w;w;n;n;n;w;s;w;n;w;w;n;n;e;e;e;e;refresh;n;e;n;n;n;n;n
+normal rem sombrero;wear helm;p sombrero force
+heat rem helm;g sombrero force;wear sombrero
+rome e;e;s;s;s;e;e;s;s;s;s;s;s;s;s;s;s;s
+teleport cast 'teleport'
+recall cast 'word of recall'$*
+sum cast 'summon'$*
+sanc cast 'sanctuary'$*
+armor cast 'armor'$*
+refresh cast 'refresh'$*
+invis cast 'invisibility'$*
+infra cast 'infravision'$*
+blast cast 'plasma blast'$*
+paralyze cast 'paralyze'$*
+corpse g all corpse;g corpse;j corpse
+harm cast 'harm'$*
+heal cast 'heal'$*
+detect cast 'detect invisibility'
+bye gos bye$*
+hi gos hey$*
+wake wake;stand
+bs g super force;rem rune;wi super;backstab$*;rem super;wi rune;p super force
+skin g skin force;drink skin;p skin force
+bright say Always look on the bright side of life; emote whistles a fine tune.
+brightgos gos Always look on the bright side of life; gos <------ whistles a fancy tune.

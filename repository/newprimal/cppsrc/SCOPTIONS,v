@@ -1,0 +1,45 @@
+head	1.1;
+access;
+symbols
+	A3_0_59:1.1
+	LATEST:1.1
+	A3_0_1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2000.05.12.07.43.57;	author mbd;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@
+
+Added:
+- Modified files to compile with g++ - this is the initial import of those
+  files.
+
+TODO:
+- Test it all works 100%
+@
+text
+@DATA=FAR
+CODE=FAR
+MATH=STANDARD
+ANSI
+NOSTACKCHECK
+MODIFIED
+STACKEXTEND
+NOICONS
+ONERROR=CONTINUE
+INCLUDEDIR=include:netinclude
+LIBRARY=LIB:net.lib
+LINKEROPTIONS="bufsize 4096"
+@

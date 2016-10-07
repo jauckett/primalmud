@@ -1,0 +1,16 @@
+di c 'detect invisibility'
+bm buy 10 meat
+pmb put all.meat crate
+gmb get meat crate
+lib look in crate
+infra c 'infravision'
+gol get gold all.corpse
+arm c 'armor'
+ri recite identify $1
+rr recite recall
+cc cast 'cure critical'
+dr drink skin
+qr quaff red
+qw quaff white
+em eat meat
+loot get all all.corpse
