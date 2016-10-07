@@ -3,7 +3,8 @@
 #
 
 TODAY=`date +%Y-%m-%d`
-MHOME=/home/mud/live
+#MHOME=/home/mud/live
+MHOME=`pwd`
 LOGDIR=$MHOME/log
 SYSLOG=$MHOME/syslog
 SYSLOGS=$MHOME/log/syslog.*

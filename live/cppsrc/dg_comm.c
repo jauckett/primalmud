@@ -12,16 +12,16 @@
 extern struct room_data *world;
 extern struct descriptor_data *descriptor_list;
 
-/* same as any_one_arg except that it stops at punctuation */
+// same as any_one_arg except that it stops at punctuation 
 char *any_one_name(char *argument, char *first_arg)
 {
     char* arg;
 
-    /* Find first non blank */
+    // Find first non blank 
     while(isspace(*argument))
         argument++; 
  
-    /* Find length of first word */
+    // Find length of first word 
     for(arg = first_arg ;
         *argument && !isspace(*argument) &&
           (!ispunct(*argument) || *argument == '#' || *argument == '-') ;
@@ -120,7 +120,8 @@ void sub_write(char *arg, char_data *ch, byte find_invis, int targets)
     char_data *to;
     obj_data *obj;
     int i;
-    int to_sleeping = 1; /* mainly for windows compiles */
+    int to_sleeping = 1; 
+    // mainly for windows compiles 
 
     if (!arg)
        return;
@@ -135,28 +136,28 @@ void sub_write(char *arg, char_data *ch, byte find_invis, int targets)
        case '^':
        case '&':
        case '*':
-           /* get char_data, move to next token */
+           // get char_data, move to next token 
            type[i] = *p;
            *s = '\0';
            p = any_one_name(++p, name);
-           (char_data *)otokens[i] =
-               find_invis ? get_char(name) : generic_find_char(ch, name, FIND_CHAR_ROOM);
+//           (char_data *)otokens[i] =
+//               find_invis ? get_char(name) : generic_find_char(ch, name, FIND_CHAR_ROOM);
            tokens[++i] = ++s;
            break;
            
        case '`':
-           /* get obj_data, move to next token */
+           // get obj_data, move to next token 
            type[i] = *p;
            *s = '\0';
            p = any_one_name(++p, name);
-           (obj_data *)otokens[i] =
-               find_invis ? (obj = get_obj(name)) :
-                   ((obj = find_obj_list(ch, name,
-                               world[IN_ROOM(ch)].contents)) ? obj :
-                    (obj = find_obj_eq(ch, name)) ?
-                    obj :
-                    (obj = find_obj_list(ch, name, ch->carrying)));
-           (obj_data *)otokens[i] = obj;
+//           (obj_data *)otokens[i] =
+//               find_invis ? (obj = get_obj(name)) :
+//                   ((obj = find_obj_list(ch, name,
+//                               world[IN_ROOM(ch)].contents)) ? obj :
+//                    (obj = find_obj_eq(ch, name)) ?
+//                    obj :
+//                    (obj = find_obj_list(ch, name, ch->carrying)));
+//           (obj_data *)otokens[i] = obj;
            tokens[++i] = ++s;
            break;
 

@@ -32,6 +32,8 @@ $log	= "$home/log";
 
 chdir $home;
 
+print "STARTING";
+
 while (1) {
 
   # Open SYSLOG and dup STDERR into SYSLOG

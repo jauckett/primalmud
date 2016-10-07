@@ -1,0 +1,2451 @@
+autoscript killed Friday 7 October  22:18:03 AEDT 2016
+autorun starting game Friday 7 October  22:19:07 AEDT 2016
+running bin/circle -q 4000
+Oct  7 22:19:07 :: PrimalMUD, version 3.00 based on CircleMUD, version 3.00 beta patchlevel 17
+Oct  7 22:19:07 :: DG Scripts Version 0.99 Patch Level 7  12/98, (Modified for PrimalMUD 3)
+Oct  7 22:19:07 :: Using lib as data directory.
+Oct  7 22:19:07 :: Running game on port 4000.
+Oct  7 22:19:07 :: Finding player limit.
+Oct  7 22:19:07 ::    Setting player limit to 300 using rlimit.
+Oct  7 22:19:07 :: Opening mother connection.
+Oct  7 22:19:07 :: Binding to all IP interfaces on this host.
+Oct  7 22:19:07 :: Boot db -- BEGIN.
+Oct  7 22:19:07 :: Release: 3.0.96, tag: A3_0_96, cvs-up-to-date: 1, date:  Wed Jun 15 12:21:26 EST 2005
+Oct  7 22:19:07 :: Resetting the game time:
+Oct  7 22:19:07 ::    Current Gametime: 2H 24D 10M 1284Y.
+Oct  7 22:19:07 :: Reading news, credits, help, bground, info & motds.
+Oct  7 22:19:07 :: Loading spell definitions.
+Oct  7 22:19:07 :: Assigning spell and skill levels.
+Oct  7 22:19:08 :: Loading help entries.
+Oct  7 22:19:08 ::    598 entries, 14352 bytes.
+Oct  7 22:19:08 :: Loading Help File: clans.hlp
+Oct  7 22:19:08 :: Loading Help File: class.hlp
+Oct  7 22:19:08 :: Loading Help File: commands.hlp
+Oct  7 22:19:08 :: Loading Help File: info.hlp
+Oct  7 22:19:08 :: Loading Help File: race.hlp
+Oct  7 22:19:08 :: Loading Help File: remort.hlp
+Oct  7 22:19:08 :: Loading Help File: socials.hlp
+Oct  7 22:19:08 :: Loading Help File: spells.hlp
+Oct  7 22:19:08 :: Loading Help File: wizhelp.hlp
+Oct  7 22:19:08 :: Found wizhelp.hlp - applying level restrictions
+Oct  7 22:19:08 :: Sorting command list and spells.
+Oct  7 22:19:08 :: Sorting spells level ascending for Magician.
+Oct  7 22:19:08 :: Sorting spells level ascending for Cleric.
+Oct  7 22:19:08 :: Sorting spells level ascending for Thief.
+Oct  7 22:19:08 :: Sorting spells level ascending for Warrior.
+Oct  7 22:19:08 :: Sorting spells level ascending for Druid.
+Oct  7 22:19:08 :: Sorting spells level ascending for Priest.
+Oct  7 22:19:08 :: Sorting spells level ascending for Nightblade.
+Oct  7 22:19:08 :: Sorting spells level ascending for Battlemage.
+Oct  7 22:19:08 :: Sorting spells level ascending for Spellsword.
+Oct  7 22:19:08 :: Sorting spells level ascending for Paladin.
+Oct  7 22:19:08 :: Sorting spells level ascending for Master.
+Oct  7 22:19:08 :: Sorting spells level descending for Magician.
+Oct  7 22:19:08 :: Sorting spells level descending for Cleric.
+Oct  7 22:19:08 :: Sorting spells level descending for Thief.
+Oct  7 22:19:08 :: Sorting spells level descending for Warrior.
+Oct  7 22:19:08 :: Sorting spells level descending for Druid.
+Oct  7 22:19:08 :: Sorting spells level descending for Priest.
+Oct  7 22:19:08 :: Sorting spells level descending for Nightblade.
+Oct  7 22:19:08 :: Sorting spells level descending for Battlemage.
+Oct  7 22:19:08 :: Sorting spells level descending for Spellsword.
+Oct  7 22:19:08 :: Sorting spells level descending for Paladin.
+Oct  7 22:19:08 :: Sorting spells level descending for Master.
+Oct  7 22:19:08 :: Loading zone table.
+Oct  7 22:19:08 ::    68 zones, 18496 bytes.
+Oct  7 22:19:08 :: Loading triggers and generating index.
+Oct  7 22:19:08 ::    267 triggers, 10680 bytes.
+Oct  7 22:19:08 :: Loading rooms.
+Oct  7 22:19:08 ::    7007 rooms, 1065064 bytes.
+Oct  7 22:19:08 :: Renumbering rooms.
+Oct  7 22:19:08 :: Checking start rooms.
+Oct  7 22:19:08 :: Loading mobs and generating index.
+Oct  7 22:19:08 ::    1519 mobs, 60760 bytes in index, 1032920 bytes in prototypes.
+Oct  7 22:19:08 :: Loading objs and generating index.
+Oct  7 22:19:08 ::    1790 objs, 71600 bytes in index, 429600 bytes in prototypes.
+Oct  7 22:19:08 :: Renumbering zone table.
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2101, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 4
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2129, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 5
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2129, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 6
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2111, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 7
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2109, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 8
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 9
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 10
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 11
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 12
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2130, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 13
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2130, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 14
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 15
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2110, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 16
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 17
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 18
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2128, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 19
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2128, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 20
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2103, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 21
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 22
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2108, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 23
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2108, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 24
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 25
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 26
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2101, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 27
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2104, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 28
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2121, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 29
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2121, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 30
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 31
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 32
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 33
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 34
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 35
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 36
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 37
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 38
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 39
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 40
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 41
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 42
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 43
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2116, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 44
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 45
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 46
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 47
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 48
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 49
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 50
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 51
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 52
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 53
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 54
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 55
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 56
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 57
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2120, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 58
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 59
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 60
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 61
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 62
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 63
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 64
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 65
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 66
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 67
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2104, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 68
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 69
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2118, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 70
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2103, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 71
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2102, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 72
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2102, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 73
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 2111, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 74
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 31651, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 5
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 31634, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 12
+Oct  7 22:19:08 :: SYSERR: zone file: Invalid vnum 31628, cmd disabled
+Oct  7 22:19:08 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 17
+Oct  7 22:19:08 :: Loading shops.
+Oct  7 22:19:08 :: Loading zone hint files.
+Oct  7 22:19:08 :: reading hints for rzone 1
+Oct  7 22:19:08 :: reading hints for rzone 6
+Oct  7 22:19:08 :: reading hints for rzone 64
+Oct  7 22:19:08 :: Generating zone data. DETAILS:
+Oct  7 22:19:08 :: Zone rnum: 0, vnum: 2
+Oct  7 22:19:08 :: Number wlds: 201
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 6
+Oct  7 22:19:08 :: Number mobs: 0
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 1, vnum: 5
+Oct  7 22:19:08 :: Number wlds: 45
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 0
+Oct  7 22:19:08 :: Number mobs: 26
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 9
+Oct  7 22:19:08 ::   Hint 0: Primal Street was designed as a newbie start zone!
+Oct  7 22:19:08 ::   Hint 1: If you type help <command> you will see the help on that word!
+Oct  7 22:19:08 ::   Hint 2: If you type l <direction> you will see a description in that direction!
+Oct  7 22:19:08 ::   Hint 3: If you type l <object> you will see the description of the object!
+Oct  7 22:19:08 ::   Hint 4: If you type l <mobname> you will see the description of the mob!
+Oct  7 22:19:08 ::   Hint 5: If you type l <playername> you will see what the player is wearing and holding!
+Oct  7 22:19:08 ::   Hint 6: If you type prompt you will be able to add features to your prompt!
+Oct  7 22:19:08 ::   Hint 7: Try typing prompt all to see Hit Mana Movement Exp Req And Align!
+Oct  7 22:19:08 ::   Hint 8: If playing multiple characters type "whoami" if you forget which screen you are on!
+Oct  7 22:19:08 :: Zone rnum: 2, vnum: 7
+Oct  7 22:19:08 :: Number wlds: 42
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 0
+Oct  7 22:19:08 :: Number mobs: 6
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 3, vnum: 8
+Oct  7 22:19:08 :: Number wlds: 48
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 1
+Oct  7 22:19:08 :: Number mobs: 9
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 4, vnum: 9
+Oct  7 22:19:08 :: Number wlds: 0
+Oct  7 22:19:08 :: Number trgs: 1
+Oct  7 22:19:08 :: Number objs: 8
+Oct  7 22:19:08 :: Number mobs: 5
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 5, vnum: 10
+Oct  7 22:19:08 :: Number wlds: 52
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 0
+Oct  7 22:19:08 :: Number mobs: 21
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 6, vnum: 11
+Oct  7 22:19:08 :: Number wlds: 121
+Oct  7 22:19:08 :: Number trgs: 49
+Oct  7 22:19:08 :: Number objs: 166
+Oct  7 22:19:08 :: Number mobs: 44
+Oct  7 22:19:08 :: Number shps: 7
+Oct  7 22:19:08 :: Number hnts: 10
+Oct  7 22:19:08 ::   Hint 0: Gamina is able to help the lower level characters!
+Oct  7 22:19:08 ::   Hint 1: The postmaster in the tavern is for sending mudmail to other players!
+Oct  7 22:19:08 ::   Hint 2: To transfer between worlds go to the portals and type go <portalname>.
+Oct  7 22:19:08 ::   Hint 3: As a newbie playing in Haven try playing in Primal Street as well!
+Oct  7 22:19:08 ::   Hint 4: The Labyrinth is a good zone for Level 5 onwards.
+Oct  7 22:19:08 ::   Hint 5: Selva Road is good for a lower level character to play in!
+Oct  7 22:19:08 ::   Hint 6: The Alchemist will sell you potions of heal and protection!
+Oct  7 22:19:08 ::   Hint 7: All Guilds are located around Haven. 
+Oct  7 22:19:08 ::   Hint 8: Any Guildmaster will give you directions to your guild!
+Oct  7 22:19:08 ::   Hint 9: Any speedwalks given are from the world load point ie where Gamina is!
+Oct  7 22:19:08 :: Zone rnum: 7, vnum: 15
+Oct  7 22:19:08 :: Number wlds: 45
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 1
+Oct  7 22:19:08 :: Number mobs: 6
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 8, vnum: 16
+Oct  7 22:19:08 :: Number wlds: 105
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 15
+Oct  7 22:19:08 :: Number mobs: 15
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 9, vnum: 18
+Oct  7 22:19:08 :: Number wlds: 100
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 17
+Oct  7 22:19:08 :: Number mobs: 16
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 10, vnum: 19
+Oct  7 22:19:08 :: Number wlds: 76
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 5
+Oct  7 22:19:08 :: Number mobs: 9
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 11, vnum: 20
+Oct  7 22:19:08 :: Number wlds: 80
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 8
+Oct  7 22:19:08 :: Number mobs: 12
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 12, vnum: 21
+Oct  7 22:19:08 :: Number wlds: 0
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 0
+Oct  7 22:19:08 :: Number mobs: 0
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 13, vnum: 22
+Oct  7 22:19:08 :: Number wlds: 152
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 17
+Oct  7 22:19:08 :: Number mobs: 45
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 14, vnum: 24
+Oct  7 22:19:08 :: Number wlds: 380
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 157
+Oct  7 22:19:08 :: Number mobs: 132
+Oct  7 22:19:08 :: Number shps: 2
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 15, vnum: 31
+Oct  7 22:19:08 :: Number wlds: 90
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 28
+Oct  7 22:19:08 :: Number mobs: 25
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 16, vnum: 32
+Oct  7 22:19:08 :: Number wlds: 271
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 72
+Oct  7 22:19:08 :: Number mobs: 97
+Oct  7 22:19:08 :: Number shps: 2
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 17, vnum: 36
+Oct  7 22:19:08 :: Number wlds: 75
+Oct  7 22:19:08 :: Number trgs: 18
+Oct  7 22:19:08 :: Number objs: 15
+Oct  7 22:19:08 :: Number mobs: 12
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 18, vnum: 40
+Oct  7 22:19:08 :: Number wlds: 185
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 58
+Oct  7 22:19:08 :: Number mobs: 28
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 19, vnum: 43
+Oct  7 22:19:08 :: Number wlds: 188
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 64
+Oct  7 22:19:08 :: Number mobs: 62
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 20, vnum: 45
+Oct  7 22:19:08 :: Number wlds: 57
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 43
+Oct  7 22:19:08 :: Number mobs: 4
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 21, vnum: 46
+Oct  7 22:19:08 :: Number wlds: 4
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 0
+Oct  7 22:19:08 :: Number mobs: 0
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 22, vnum: 47
+Oct  7 22:19:08 :: Number wlds: 1
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 0
+Oct  7 22:19:08 :: Number mobs: 0
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 23, vnum: 48
+Oct  7 22:19:08 :: Number wlds: 131
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 23
+Oct  7 22:19:08 :: Number mobs: 33
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 24, vnum: 50
+Oct  7 22:19:08 :: Number wlds: 22
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 0
+Oct  7 22:19:08 :: Number mobs: 7
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 25, vnum: 52
+Oct  7 22:19:08 :: Number wlds: 154
+Oct  7 22:19:08 :: Number trgs: 1
+Oct  7 22:19:08 :: Number objs: 22
+Oct  7 22:19:08 :: Number mobs: 19
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 26, vnum: 55
+Oct  7 22:19:08 :: Number wlds: 66
+Oct  7 22:19:08 :: Number trgs: 1
+Oct  7 22:19:08 :: Number objs: 11
+Oct  7 22:19:08 :: Number mobs: 10
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 27, vnum: 56
+Oct  7 22:19:08 :: Number wlds: 208
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 15
+Oct  7 22:19:08 :: Number mobs: 19
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 28, vnum: 60
+Oct  7 22:19:08 :: Number wlds: 375
+Oct  7 22:19:08 :: Number trgs: 1
+Oct  7 22:19:08 :: Number objs: 61
+Oct  7 22:19:08 :: Number mobs: 47
+Oct  7 22:19:08 :: Number shps: 2
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 29, vnum: 75
+Oct  7 22:19:08 :: Number wlds: 159
+Oct  7 22:19:08 :: Number trgs: 1
+Oct  7 22:19:08 :: Number objs: 24
+Oct  7 22:19:08 :: Number mobs: 16
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 30, vnum: 81
+Oct  7 22:19:08 :: Number wlds: 106
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 14
+Oct  7 22:19:08 :: Number mobs: 21
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 31, vnum: 83
+Oct  7 22:19:08 :: Number wlds: 97
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 13
+Oct  7 22:19:08 :: Number mobs: 13
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 32, vnum: 84
+Oct  7 22:19:08 :: Number wlds: 62
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 1
+Oct  7 22:19:08 :: Number mobs: 4
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 33, vnum: 85
+Oct  7 22:19:08 :: Number wlds: 58
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 8
+Oct  7 22:19:08 :: Number mobs: 10
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 34, vnum: 86
+Oct  7 22:19:08 :: Number wlds: 83
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 18
+Oct  7 22:19:08 :: Number mobs: 12
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 35, vnum: 87
+Oct  7 22:19:08 :: Number wlds: 90
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 12
+Oct  7 22:19:08 :: Number mobs: 12
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 36, vnum: 88
+Oct  7 22:19:08 :: Number wlds: 126
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 18
+Oct  7 22:19:08 :: Number mobs: 13
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 37, vnum: 90
+Oct  7 22:19:08 :: Number wlds: 49
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 20
+Oct  7 22:19:08 :: Number mobs: 16
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 38, vnum: 95
+Oct  7 22:19:08 :: Number wlds: 97
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 36
+Oct  7 22:19:08 :: Number mobs: 31
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 39, vnum: 98
+Oct  7 22:19:08 :: Number wlds: 200
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 44
+Oct  7 22:19:08 :: Number mobs: 44
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 40, vnum: 100
+Oct  7 22:19:08 :: Number wlds: 34
+Oct  7 22:19:08 :: Number trgs: 3
+Oct  7 22:19:08 :: Number objs: 20
+Oct  7 22:19:08 :: Number mobs: 8
+Oct  7 22:19:08 :: Number shps: 4
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 41, vnum: 101
+Oct  7 22:19:08 :: Number wlds: 190
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 66
+Oct  7 22:19:08 :: Number mobs: 31
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 42, vnum: 105
+Oct  7 22:19:08 :: Number wlds: 160
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 22
+Oct  7 22:19:08 :: Number mobs: 41
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 43, vnum: 108
+Oct  7 22:19:08 :: Number wlds: 43
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 1
+Oct  7 22:19:08 :: Number mobs: 4
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 44, vnum: 110
+Oct  7 22:19:08 :: Number wlds: 121
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 13
+Oct  7 22:19:08 :: Number mobs: 14
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 45, vnum: 116
+Oct  7 22:19:08 :: Number wlds: 100
+Oct  7 22:19:08 :: Number trgs: 41
+Oct  7 22:19:08 :: Number objs: 59
+Oct  7 22:19:08 :: Number mobs: 33
+Oct  7 22:19:08 :: Number shps: 3
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 46, vnum: 119
+Oct  7 22:19:08 :: Number wlds: 170
+Oct  7 22:19:08 :: Number trgs: 44
+Oct  7 22:19:08 :: Number objs: 43
+Oct  7 22:19:08 :: Number mobs: 53
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 47, vnum: 130
+Oct  7 22:19:08 :: Number wlds: 41
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 13
+Oct  7 22:19:08 :: Number mobs: 0
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 48, vnum: 132
+Oct  7 22:19:08 :: Number wlds: 92
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 39
+Oct  7 22:19:08 :: Number mobs: 23
+Oct  7 22:19:08 :: Number shps: 4
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 49, vnum: 133
+Oct  7 22:19:08 :: Number wlds: 48
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 25
+Oct  7 22:19:08 :: Number mobs: 11
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 50, vnum: 135
+Oct  7 22:19:08 :: Number wlds: 48
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 31
+Oct  7 22:19:08 :: Number mobs: 30
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 51, vnum: 136
+Oct  7 22:19:08 :: Number wlds: 268
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 75
+Oct  7 22:19:08 :: Number mobs: 77
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 52, vnum: 200
+Oct  7 22:19:08 :: Number wlds: 112
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 30
+Oct  7 22:19:08 :: Number mobs: 17
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 53, vnum: 220
+Oct  7 22:19:08 :: Number wlds: 56
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 48
+Oct  7 22:19:08 :: Number mobs: 20
+Oct  7 22:19:08 :: Number shps: 6
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 54, vnum: 223
+Oct  7 22:19:08 :: Number wlds: 1
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 34
+Oct  7 22:19:08 :: Number mobs: 4
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 55, vnum: 230
+Oct  7 22:19:08 :: Number wlds: 52
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 8
+Oct  7 22:19:08 :: Number mobs: 8
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 56, vnum: 240
+Oct  7 22:19:08 :: Number wlds: 68
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 3
+Oct  7 22:19:08 :: Number mobs: 5
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 57, vnum: 250
+Oct  7 22:19:08 :: Number wlds: 49
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 22
+Oct  7 22:19:08 :: Number mobs: 13
+Oct  7 22:19:08 :: Number shps: 5
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 58, vnum: 255
+Oct  7 22:19:08 :: Number wlds: 84
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 9
+Oct  7 22:19:08 :: Number mobs: 16
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 59, vnum: 260
+Oct  7 22:19:08 :: Number wlds: 45
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 7
+Oct  7 22:19:08 :: Number mobs: 11
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 60, vnum: 261
+Oct  7 22:19:08 :: Number wlds: 79
+Oct  7 22:19:08 :: Number trgs: 29
+Oct  7 22:19:08 :: Number objs: 24
+Oct  7 22:19:08 :: Number mobs: 21
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 61, vnum: 270
+Oct  7 22:19:08 :: Number wlds: 141
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 45
+Oct  7 22:19:08 :: Number mobs: 36
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 62, vnum: 290
+Oct  7 22:19:08 :: Number wlds: 100
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 4
+Oct  7 22:19:08 :: Number mobs: 5
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 63, vnum: 300
+Oct  7 22:19:08 :: Number wlds: 255
+Oct  7 22:19:08 :: Number trgs: 0
+Oct  7 22:19:08 :: Number objs: 36
+Oct  7 22:19:08 :: Number mobs: 66
+Oct  7 22:19:08 :: Number shps: 2
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Zone rnum: 64, vnum: 310
+Oct  7 22:19:08 :: Number wlds: 91
+Oct  7 22:19:08 :: Number trgs: 27
+Oct  7 22:19:08 :: Number objs: 15
+Oct  7 22:19:08 :: Number mobs: 13
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 6
+Oct  7 22:19:08 ::   Hint 0: Use the turn command to change your sliding direction.
+Oct  7 22:19:08 ::   Hint 1: Don't walk too fast, you never know what you might miss along the way!
+Oct  7 22:19:08 ::   Hint 2: Sometimes items can be made more powerful when combined with others.
+Oct  7 22:19:08 ::   Hint 3: You may find you need to break the ice to further your journey.
+Oct  7 22:19:08 ::   Hint 4: Sometimes, penguins burrows get snowed in.
+Oct  7 22:19:08 ::   Hint 5: Didn't you enjoy climbing trees as a kid?
+Oct  7 22:19:08 :: Zone rnum: 65, vnum: 315
+Oct  7 22:19:08 :: Number wlds: 90
+Oct  7 22:19:08 :: Number trgs: 18
+Oct  7 22:19:08 :: Number objs: 45
+Oct  7 22:19:08 :: Number mobs: 22
+Oct  7 22:19:08 :: Number shps: 0
+Oct  7 22:19:08 :: Number hnts: 0
+Oct  7 22:19:08 :: Checking world balancing...
+Oct  7 22:19:08 ::    Outputing mobile balance data to balances/mobs
+Oct  7 22:19:08 ::    Outputing object balance data to balances/objs
+Oct  7 22:19:08 :: Initialising gambling structures.
+Oct  7 22:19:08 :: Loading hints file.
+Oct  7 22:19:08 ::    Loaded 7 hints...
+Oct  7 22:19:08 :: Generating player index.
+Oct  7 22:19:08 ::    2 players in database.
+Oct  7 22:19:08 :: Loading saved corpse data.
+Oct  7 22:19:08 ::   loaded 0 corpses.
+Oct  7 22:19:08 :: Loading report file.
+Oct  7 22:19:08 ::   Loaded 450 reports and 543 reportchanges
+Oct  7 22:19:08 :: Loading fight messages.
+Oct  7 22:19:08 :: Loading social messages.
+Oct  7 22:19:08 :: Assigning function pointers:
+Oct  7 22:19:08 ::    Mobiles.
+Oct  7 22:19:08 ::    Shopkeepers.
+Oct  7 22:19:08 ::    Objects.
+Oct  7 22:19:08 ::    Rooms.
+Oct  7 22:19:08 :: Booting mail system.
+Oct  7 22:19:08 ::    11000 bytes read.
+Oct  7 22:19:08 ::    Mail file read -- 0 messages.
+Oct  7 22:19:08 :: Reading banned site and invalid-name list.
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Oct  7 22:19:08 :: Resetting Estate (rooms 0-499).
+Oct  7 22:19:08 :: Resetting Primal Street (rooms 500-599).
+Oct  7 22:19:08 :: Resetting Plains (rooms 600-799).
+Oct  7 22:19:08 :: Resetting Desert (rooms 800-899).
+Oct  7 22:19:08 :: Resetting Gods special (rooms 900-999).
+Oct  7 22:19:08 :: Resetting Moathouse (rooms 1000-1099).
+Oct  7 22:19:08 :: Resetting Haven (rooms 1100-1399).
+Oct  7 22:19:08 :: Resetting Selva Road (rooms 1400-1599).
+Oct  7 22:19:08 :: Resetting Graveyard (rooms 1600-1749).
+Oct  7 22:19:08 :: Resetting Moanders Domain (rooms 1750-1899).
+Oct  7 22:19:08 :: Resetting Tunnel (rooms 1900-1999).
+Oct  7 22:19:08 :: Resetting The Crystal Castle (rooms 2000-2099).
+Oct  7 22:19:08 :: Resetting Path of Mystery (rooms 2100-2199).
+Oct  7 22:19:08 :: Resetting Spiral (rooms 2200-2399).
+Oct  7 22:19:08 :: Resetting Magic: The Gathering (rooms 2400-2799).
+Oct  7 22:19:08 :: Resetting Camelot zone (rooms 2800-3199).
+Oct  7 22:19:08 :: Resetting Scorpion Swamp  (rooms 3200-3560).
+Oct  7 22:19:08 :: Resetting Sewers of Haven (rooms 3561-3699).
+Oct  7 22:19:08 :: Resetting Khulgru's Lost Empire (rooms 3700-4199).
+Oct  7 22:19:08 :: Resetting The Fairytale Forest (rooms 4200-4487).
+Oct  7 22:19:08 :: Resetting The Tag ARENA! (rooms 4488-4556).
+Oct  7 22:19:08 :: Resetting Mortal Kombat ARENA (rooms 4557-4560).
+Oct  7 22:19:08 :: Resetting The Quest (rooms 4561-4700).
+Oct  7 22:19:08 :: Resetting Ancient Greece (rooms 4701-4918).
+Oct  7 22:19:08 :: Resetting Wilderness (rooms 4919-5099).
+Oct  7 22:19:08 :: Resetting The Holy City  (rooms 5100-5399).
+Oct  7 22:19:08 :: Resetting Mountains (rooms 5400-5599).
+Oct  7 22:19:08 :: Resetting Black Tower (rooms 5600-5899).
+Oct  7 22:19:08 :: Resetting Aqua Marina (rooms 5900-6399).
+Oct  7 22:19:08 :: Resetting Star Trek U.S.S. ENTERPRISE (rooms 6400-7699).
+Oct  7 22:19:08 :: Resetting Tudor (rooms 7700-8210).
+Oct  7 22:19:08 :: Resetting Lhankwood (rooms 8211-8399).
+Oct  7 22:19:08 :: Resetting Eliqua River (rooms 8400-8499).
+Oct  7 22:19:08 :: Resetting Rushmoor swamp (rooms 8500-8599).
+Oct  7 22:19:08 :: Resetting Pirate's ship (rooms 8600-8699).
+Oct  7 22:19:08 :: Resetting Island (rooms 8700-8799).
+Oct  7 22:19:08 :: Resetting Danger Island (rooms 8800-8999).
+Oct  7 22:19:08 :: Resetting Toyheim (rooms 9000-9050).
+Oct  7 22:19:08 :: Resetting Shadow Keep (rooms 9051-9599).
+Oct  7 22:19:08 :: Resetting fort hope (rooms 9600-9999).
+Oct  7 22:19:08 :: Resetting Darask (rooms 10000-10050).
+Oct  7 22:19:08 :: Resetting The Island Forever (rooms 10051-10350).
+Oct  7 22:19:08 :: Resetting An Odd House (rooms 10351-10720).
+Oct  7 22:19:08 :: Resetting The ruins (rooms 10721-10843).
+Oct  7 22:19:08 :: Resetting The Lost Valley (rooms 10844-11129).
+Oct  7 22:19:08 :: Resetting The Concert Hall (rooms 11130-11699).
+Oct  7 22:19:08 :: Resetting Labyrinth (rooms 11700-12099).
+Oct  7 22:19:08 :: Resetting Rockridge (rooms 12100-13199).
+Oct  7 22:19:08 :: Resetting City of HOPE (rooms 13200-13299).
+Oct  7 22:19:08 :: Resetting Saloon (rooms 13300-13347).
+Oct  7 22:19:08 :: Resetting Whore House (rooms 13348-13547).
+Oct  7 22:19:08 :: Resetting Blue Creek (rooms 13548-13900).
+Oct  7 22:19:08 :: Resetting Angel Grove (rooms 13901-20150).
+Oct  7 22:19:08 :: Resetting Lunar City IV (rooms 20151-22099).
+Oct  7 22:19:08 :: Resetting Vader's Proc Rooms (rooms 22100-22399).
+Oct  7 22:19:08 :: Resetting Moon (rooms 22400-23099).
+Oct  7 22:19:08 :: Resetting Tatooine Desert (rooms 23100-24099).
+Oct  7 22:19:08 :: Resetting Mos Eisley Starport (rooms 24100-25099).
+Oct  7 22:19:08 :: Resetting Clan Area (rooms 25100-25599).
+Oct  7 22:19:08 :: Resetting Jabba's Palace (rooms 25600-26099).
+Oct  7 22:19:08 :: Resetting Hollywood (rooms 26100-26199).
+Oct  7 22:19:08 :: Resetting The Sphere (rooms 26200-27151).
+Oct  7 22:19:08 :: Resetting Perseid Mining Colony Base (rooms 27152-29100).
+Oct  7 22:19:08 :: Resetting Bablyon 5 (rooms 29101-30300).
+Oct  7 22:19:08 :: Resetting The South Pole (rooms 30301-31099).
+Oct  7 22:19:08 :: Resetting Red Dwarf - Season I (rooms 31100-31599).
+Oct  7 22:19:08 :: Resetting Parellel Universe (rooms 31600-31699).
+Oct  7 22:19:08 :: Booting houses.
+Oct  7 22:19:08 :: Reading auctions.
+Oct  7 22:19:08 ::    Calculating powers and members
+Oct  7 22:19:08 :: Boot db -- DONE.
+Oct  7 22:19:08 :: Signal trapping.
+Oct  7 22:19:08 :: Entering game loop.
+Oct  7 22:19:08 :: No connections.  Going to sleep.
+Oct  7 22:19:13 :: New connection.  Waking up.
+Oct  7 22:19:13 :: New connection from [127.0.0.1]
+Oct  7 22:19:18 :: Boof [127.0.0.1] has connected.
+Oct  7 22:19:23 :: Losing player: Boof.
+Oct  7 22:19:23 :: No connections.  Going to sleep.
+Oct  7 22:19:30 :: New connection.  Waking up.
+Oct  7 22:19:30 :: New connection from [127.0.0.1]
+Oct  7 22:19:34 :: Boof [127.0.0.1] has connected.
+Oct  7 22:19:37 :: Boof un-renting and entering game.
+Oct  7 22:19:37 :: Boof (level 1) has 11 objects (max 100).
+Oct  7 22:19:42 :: &7Boof &ghas quit the game.
+Oct  7 22:19:43 :: Losing player: Boof.
+Oct  7 22:19:43 :: No connections.  Going to sleep.
+Oct  7 22:19:45 :: New connection.  Waking up.
+Oct  7 22:19:45 :: New connection from [127.0.0.1]
+Oct  7 22:20:00 :: Boof [127.0.0.1] has connected.
+Oct  7 22:20:36 :: Losing player: Boof.
+Oct  7 22:20:36 :: No connections.  Going to sleep.
+Oct  7 22:27:20 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.
+Oct  7 22:27:20 ::         Saving chars and Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+autorun starting game Friday 7 October  22:27:27 AEDT 2016
+running bin/circle -q 4000
+Oct  7 22:27:27 :: PrimalMUD, version 3.00 based on CircleMUD, version 3.00 beta patchlevel 17
+Oct  7 22:27:27 :: DG Scripts Version 0.99 Patch Level 7  12/98, (Modified for PrimalMUD 3)
+Oct  7 22:27:27 :: Using lib as data directory.
+Oct  7 22:27:27 :: Running game on port 4000.
+Oct  7 22:27:27 :: Finding player limit.
+Oct  7 22:27:27 ::    Setting player limit to 300 using rlimit.
+Oct  7 22:27:27 :: Opening mother connection.
+Oct  7 22:27:27 :: Binding to all IP interfaces on this host.
+Oct  7 22:27:27 :: Boot db -- BEGIN.
+Oct  7 22:27:27 :: Release: 3.0.96, tag: A3_0_96, cvs-up-to-date: 1, date:  Wed Jun 15 12:21:26 EST 2005
+Oct  7 22:27:27 :: Resetting the game time:
+Oct  7 22:27:27 ::    Current Gametime: 13H 24D 10M 1284Y.
+Oct  7 22:27:27 :: Reading news, credits, help, bground, info & motds.
+Oct  7 22:27:27 :: Loading spell definitions.
+Oct  7 22:27:27 :: Assigning spell and skill levels.
+Oct  7 22:27:27 :: Loading help entries.
+Oct  7 22:27:27 ::    598 entries, 14352 bytes.
+Oct  7 22:27:27 :: Loading Help File: clans.hlp
+Oct  7 22:27:27 :: Loading Help File: class.hlp
+Oct  7 22:27:27 :: Loading Help File: commands.hlp
+Oct  7 22:27:27 :: Loading Help File: info.hlp
+Oct  7 22:27:27 :: Loading Help File: race.hlp
+Oct  7 22:27:27 :: Loading Help File: remort.hlp
+Oct  7 22:27:27 :: Loading Help File: socials.hlp
+Oct  7 22:27:27 :: Loading Help File: spells.hlp
+Oct  7 22:27:27 :: Loading Help File: wizhelp.hlp
+Oct  7 22:27:27 :: Found wizhelp.hlp - applying level restrictions
+Oct  7 22:27:27 :: Sorting command list and spells.
+Oct  7 22:27:27 :: Sorting spells level ascending for Magician.
+Oct  7 22:27:27 :: Sorting spells level ascending for Cleric.
+Oct  7 22:27:27 :: Sorting spells level ascending for Thief.
+Oct  7 22:27:27 :: Sorting spells level ascending for Warrior.
+Oct  7 22:27:27 :: Sorting spells level ascending for Druid.
+Oct  7 22:27:27 :: Sorting spells level ascending for Priest.
+Oct  7 22:27:27 :: Sorting spells level ascending for Nightblade.
+Oct  7 22:27:27 :: Sorting spells level ascending for Battlemage.
+Oct  7 22:27:27 :: Sorting spells level ascending for Spellsword.
+Oct  7 22:27:27 :: Sorting spells level ascending for Paladin.
+Oct  7 22:27:27 :: Sorting spells level ascending for Master.
+Oct  7 22:27:27 :: Sorting spells level descending for Magician.
+Oct  7 22:27:27 :: Sorting spells level descending for Cleric.
+Oct  7 22:27:27 :: Sorting spells level descending for Thief.
+Oct  7 22:27:27 :: Sorting spells level descending for Warrior.
+Oct  7 22:27:27 :: Sorting spells level descending for Druid.
+Oct  7 22:27:27 :: Sorting spells level descending for Priest.
+Oct  7 22:27:27 :: Sorting spells level descending for Nightblade.
+Oct  7 22:27:27 :: Sorting spells level descending for Battlemage.
+Oct  7 22:27:27 :: Sorting spells level descending for Spellsword.
+Oct  7 22:27:27 :: Sorting spells level descending for Paladin.
+Oct  7 22:27:27 :: Sorting spells level descending for Master.
+Oct  7 22:27:27 :: Loading zone table.
+Oct  7 22:27:27 ::    68 zones, 18496 bytes.
+Oct  7 22:27:27 :: Loading triggers and generating index.
+Oct  7 22:27:27 ::    267 triggers, 10680 bytes.
+Oct  7 22:27:27 :: Loading rooms.
+Oct  7 22:27:27 ::    7007 rooms, 1065064 bytes.
+Oct  7 22:27:27 :: Renumbering rooms.
+Oct  7 22:27:27 :: Checking start rooms.
+Oct  7 22:27:27 :: Loading mobs and generating index.
+Oct  7 22:27:27 ::    1519 mobs, 60760 bytes in index, 1032920 bytes in prototypes.
+Oct  7 22:27:27 :: Loading objs and generating index.
+Oct  7 22:27:27 ::    1790 objs, 71600 bytes in index, 429600 bytes in prototypes.
+Oct  7 22:27:27 :: Renumbering zone table.
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2101, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 4
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2129, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 5
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2129, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 6
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2111, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 7
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2109, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 8
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 9
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 10
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 11
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 12
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2130, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 13
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2130, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 14
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 15
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2110, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 16
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 17
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 18
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2128, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 19
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2128, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 20
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2103, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 21
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 22
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2108, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 23
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2108, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 24
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 25
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 26
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2101, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 27
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2104, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 28
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2121, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 29
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2121, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 30
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 31
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 32
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 33
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 34
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 35
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 36
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 37
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 38
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 39
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 40
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 41
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 42
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 43
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2116, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 44
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 45
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 46
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 47
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 48
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 49
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 50
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 51
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 52
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 53
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 54
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 55
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 56
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 57
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2120, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 58
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 59
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 60
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 61
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 62
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 63
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 64
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 65
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 66
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 67
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2104, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 68
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 69
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2118, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 70
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2103, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 71
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2102, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 72
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2102, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 73
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 2111, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 74
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 31651, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 5
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 31634, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 12
+Oct  7 22:27:27 :: SYSERR: zone file: Invalid vnum 31628, cmd disabled
+Oct  7 22:27:27 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 17
+Oct  7 22:27:27 :: Loading shops.
+Oct  7 22:27:27 :: Loading zone hint files.
+Oct  7 22:27:27 :: reading hints for rzone 1
+Oct  7 22:27:27 :: reading hints for rzone 6
+Oct  7 22:27:27 :: reading hints for rzone 64
+Oct  7 22:27:27 :: Generating zone data. DETAILS:
+Oct  7 22:27:27 :: Zone rnum: 0, vnum: 2
+Oct  7 22:27:27 :: Number wlds: 201
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 6
+Oct  7 22:27:27 :: Number mobs: 0
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 1, vnum: 5
+Oct  7 22:27:27 :: Number wlds: 45
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 0
+Oct  7 22:27:27 :: Number mobs: 26
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 9
+Oct  7 22:27:27 ::   Hint 0: Primal Street was designed as a newbie start zone!
+Oct  7 22:27:27 ::   Hint 1: If you type help <command> you will see the help on that word!
+Oct  7 22:27:27 ::   Hint 2: If you type l <direction> you will see a description in that direction!
+Oct  7 22:27:27 ::   Hint 3: If you type l <object> you will see the description of the object!
+Oct  7 22:27:27 ::   Hint 4: If you type l <mobname> you will see the description of the mob!
+Oct  7 22:27:27 ::   Hint 5: If you type l <playername> you will see what the player is wearing and holding!
+Oct  7 22:27:27 ::   Hint 6: If you type prompt you will be able to add features to your prompt!
+Oct  7 22:27:27 ::   Hint 7: Try typing prompt all to see Hit Mana Movement Exp Req And Align!
+Oct  7 22:27:27 ::   Hint 8: If playing multiple characters type "whoami" if you forget which screen you are on!
+Oct  7 22:27:27 :: Zone rnum: 2, vnum: 7
+Oct  7 22:27:27 :: Number wlds: 42
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 0
+Oct  7 22:27:27 :: Number mobs: 6
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 3, vnum: 8
+Oct  7 22:27:27 :: Number wlds: 48
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 1
+Oct  7 22:27:27 :: Number mobs: 9
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 4, vnum: 9
+Oct  7 22:27:27 :: Number wlds: 0
+Oct  7 22:27:27 :: Number trgs: 1
+Oct  7 22:27:27 :: Number objs: 8
+Oct  7 22:27:27 :: Number mobs: 5
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 5, vnum: 10
+Oct  7 22:27:27 :: Number wlds: 52
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 0
+Oct  7 22:27:27 :: Number mobs: 21
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 6, vnum: 11
+Oct  7 22:27:27 :: Number wlds: 121
+Oct  7 22:27:27 :: Number trgs: 49
+Oct  7 22:27:27 :: Number objs: 166
+Oct  7 22:27:27 :: Number mobs: 44
+Oct  7 22:27:27 :: Number shps: 7
+Oct  7 22:27:27 :: Number hnts: 10
+Oct  7 22:27:27 ::   Hint 0: Gamina is able to help the lower level characters!
+Oct  7 22:27:27 ::   Hint 1: The postmaster in the tavern is for sending mudmail to other players!
+Oct  7 22:27:27 ::   Hint 2: To transfer between worlds go to the portals and type go <portalname>.
+Oct  7 22:27:27 ::   Hint 3: As a newbie playing in Haven try playing in Primal Street as well!
+Oct  7 22:27:27 ::   Hint 4: The Labyrinth is a good zone for Level 5 onwards.
+Oct  7 22:27:27 ::   Hint 5: Selva Road is good for a lower level character to play in!
+Oct  7 22:27:27 ::   Hint 6: The Alchemist will sell you potions of heal and protection!
+Oct  7 22:27:27 ::   Hint 7: All Guilds are located around Haven. 
+Oct  7 22:27:27 ::   Hint 8: Any Guildmaster will give you directions to your guild!
+Oct  7 22:27:27 ::   Hint 9: Any speedwalks given are from the world load point ie where Gamina is!
+Oct  7 22:27:27 :: Zone rnum: 7, vnum: 15
+Oct  7 22:27:27 :: Number wlds: 45
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 1
+Oct  7 22:27:27 :: Number mobs: 6
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 8, vnum: 16
+Oct  7 22:27:27 :: Number wlds: 105
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 15
+Oct  7 22:27:27 :: Number mobs: 15
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 9, vnum: 18
+Oct  7 22:27:27 :: Number wlds: 100
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 17
+Oct  7 22:27:27 :: Number mobs: 16
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 10, vnum: 19
+Oct  7 22:27:27 :: Number wlds: 76
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 5
+Oct  7 22:27:27 :: Number mobs: 9
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 11, vnum: 20
+Oct  7 22:27:27 :: Number wlds: 80
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 8
+Oct  7 22:27:27 :: Number mobs: 12
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 12, vnum: 21
+Oct  7 22:27:27 :: Number wlds: 0
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 0
+Oct  7 22:27:27 :: Number mobs: 0
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 13, vnum: 22
+Oct  7 22:27:27 :: Number wlds: 152
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 17
+Oct  7 22:27:27 :: Number mobs: 45
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 14, vnum: 24
+Oct  7 22:27:27 :: Number wlds: 380
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 157
+Oct  7 22:27:27 :: Number mobs: 132
+Oct  7 22:27:27 :: Number shps: 2
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 15, vnum: 31
+Oct  7 22:27:27 :: Number wlds: 90
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 28
+Oct  7 22:27:27 :: Number mobs: 25
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 16, vnum: 32
+Oct  7 22:27:27 :: Number wlds: 271
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 72
+Oct  7 22:27:27 :: Number mobs: 97
+Oct  7 22:27:27 :: Number shps: 2
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 17, vnum: 36
+Oct  7 22:27:27 :: Number wlds: 75
+Oct  7 22:27:27 :: Number trgs: 18
+Oct  7 22:27:27 :: Number objs: 15
+Oct  7 22:27:27 :: Number mobs: 12
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 18, vnum: 40
+Oct  7 22:27:27 :: Number wlds: 185
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 58
+Oct  7 22:27:27 :: Number mobs: 28
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 19, vnum: 43
+Oct  7 22:27:27 :: Number wlds: 188
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 64
+Oct  7 22:27:27 :: Number mobs: 62
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 20, vnum: 45
+Oct  7 22:27:27 :: Number wlds: 57
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 43
+Oct  7 22:27:27 :: Number mobs: 4
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 21, vnum: 46
+Oct  7 22:27:27 :: Number wlds: 4
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 0
+Oct  7 22:27:27 :: Number mobs: 0
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 22, vnum: 47
+Oct  7 22:27:27 :: Number wlds: 1
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 0
+Oct  7 22:27:27 :: Number mobs: 0
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 23, vnum: 48
+Oct  7 22:27:27 :: Number wlds: 131
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 23
+Oct  7 22:27:27 :: Number mobs: 33
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 24, vnum: 50
+Oct  7 22:27:27 :: Number wlds: 22
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 0
+Oct  7 22:27:27 :: Number mobs: 7
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 25, vnum: 52
+Oct  7 22:27:27 :: Number wlds: 154
+Oct  7 22:27:27 :: Number trgs: 1
+Oct  7 22:27:27 :: Number objs: 22
+Oct  7 22:27:27 :: Number mobs: 19
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 26, vnum: 55
+Oct  7 22:27:27 :: Number wlds: 66
+Oct  7 22:27:27 :: Number trgs: 1
+Oct  7 22:27:27 :: Number objs: 11
+Oct  7 22:27:27 :: Number mobs: 10
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 27, vnum: 56
+Oct  7 22:27:27 :: Number wlds: 208
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 15
+Oct  7 22:27:27 :: Number mobs: 19
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 28, vnum: 60
+Oct  7 22:27:27 :: Number wlds: 375
+Oct  7 22:27:27 :: Number trgs: 1
+Oct  7 22:27:27 :: Number objs: 61
+Oct  7 22:27:27 :: Number mobs: 47
+Oct  7 22:27:27 :: Number shps: 2
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 29, vnum: 75
+Oct  7 22:27:27 :: Number wlds: 159
+Oct  7 22:27:27 :: Number trgs: 1
+Oct  7 22:27:27 :: Number objs: 24
+Oct  7 22:27:27 :: Number mobs: 16
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 30, vnum: 81
+Oct  7 22:27:27 :: Number wlds: 106
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 14
+Oct  7 22:27:27 :: Number mobs: 21
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 31, vnum: 83
+Oct  7 22:27:27 :: Number wlds: 97
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 13
+Oct  7 22:27:27 :: Number mobs: 13
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 32, vnum: 84
+Oct  7 22:27:27 :: Number wlds: 62
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 1
+Oct  7 22:27:27 :: Number mobs: 4
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 33, vnum: 85
+Oct  7 22:27:27 :: Number wlds: 58
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 8
+Oct  7 22:27:27 :: Number mobs: 10
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 34, vnum: 86
+Oct  7 22:27:27 :: Number wlds: 83
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 18
+Oct  7 22:27:27 :: Number mobs: 12
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 35, vnum: 87
+Oct  7 22:27:27 :: Number wlds: 90
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 12
+Oct  7 22:27:27 :: Number mobs: 12
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 36, vnum: 88
+Oct  7 22:27:27 :: Number wlds: 126
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 18
+Oct  7 22:27:27 :: Number mobs: 13
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 37, vnum: 90
+Oct  7 22:27:27 :: Number wlds: 49
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 20
+Oct  7 22:27:27 :: Number mobs: 16
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 38, vnum: 95
+Oct  7 22:27:27 :: Number wlds: 97
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 36
+Oct  7 22:27:27 :: Number mobs: 31
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 39, vnum: 98
+Oct  7 22:27:27 :: Number wlds: 200
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 44
+Oct  7 22:27:27 :: Number mobs: 44
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 40, vnum: 100
+Oct  7 22:27:27 :: Number wlds: 34
+Oct  7 22:27:27 :: Number trgs: 3
+Oct  7 22:27:27 :: Number objs: 20
+Oct  7 22:27:27 :: Number mobs: 8
+Oct  7 22:27:27 :: Number shps: 4
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 41, vnum: 101
+Oct  7 22:27:27 :: Number wlds: 190
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 66
+Oct  7 22:27:27 :: Number mobs: 31
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 42, vnum: 105
+Oct  7 22:27:27 :: Number wlds: 160
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 22
+Oct  7 22:27:27 :: Number mobs: 41
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 43, vnum: 108
+Oct  7 22:27:27 :: Number wlds: 43
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 1
+Oct  7 22:27:27 :: Number mobs: 4
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 44, vnum: 110
+Oct  7 22:27:27 :: Number wlds: 121
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 13
+Oct  7 22:27:27 :: Number mobs: 14
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 45, vnum: 116
+Oct  7 22:27:27 :: Number wlds: 100
+Oct  7 22:27:27 :: Number trgs: 41
+Oct  7 22:27:27 :: Number objs: 59
+Oct  7 22:27:27 :: Number mobs: 33
+Oct  7 22:27:27 :: Number shps: 3
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 46, vnum: 119
+Oct  7 22:27:27 :: Number wlds: 170
+Oct  7 22:27:27 :: Number trgs: 44
+Oct  7 22:27:27 :: Number objs: 43
+Oct  7 22:27:27 :: Number mobs: 53
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 47, vnum: 130
+Oct  7 22:27:27 :: Number wlds: 41
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 13
+Oct  7 22:27:27 :: Number mobs: 0
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 48, vnum: 132
+Oct  7 22:27:27 :: Number wlds: 92
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 39
+Oct  7 22:27:27 :: Number mobs: 23
+Oct  7 22:27:27 :: Number shps: 4
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 49, vnum: 133
+Oct  7 22:27:27 :: Number wlds: 48
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 25
+Oct  7 22:27:27 :: Number mobs: 11
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 50, vnum: 135
+Oct  7 22:27:27 :: Number wlds: 48
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 31
+Oct  7 22:27:27 :: Number mobs: 30
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 51, vnum: 136
+Oct  7 22:27:27 :: Number wlds: 268
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 75
+Oct  7 22:27:27 :: Number mobs: 77
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 52, vnum: 200
+Oct  7 22:27:27 :: Number wlds: 112
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 30
+Oct  7 22:27:27 :: Number mobs: 17
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 53, vnum: 220
+Oct  7 22:27:27 :: Number wlds: 56
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 48
+Oct  7 22:27:27 :: Number mobs: 20
+Oct  7 22:27:27 :: Number shps: 6
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 54, vnum: 223
+Oct  7 22:27:27 :: Number wlds: 1
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 34
+Oct  7 22:27:27 :: Number mobs: 4
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 55, vnum: 230
+Oct  7 22:27:27 :: Number wlds: 52
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 8
+Oct  7 22:27:27 :: Number mobs: 8
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 56, vnum: 240
+Oct  7 22:27:27 :: Number wlds: 68
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 3
+Oct  7 22:27:27 :: Number mobs: 5
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 57, vnum: 250
+Oct  7 22:27:27 :: Number wlds: 49
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 22
+Oct  7 22:27:27 :: Number mobs: 13
+Oct  7 22:27:27 :: Number shps: 5
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 58, vnum: 255
+Oct  7 22:27:27 :: Number wlds: 84
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 9
+Oct  7 22:27:27 :: Number mobs: 16
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 59, vnum: 260
+Oct  7 22:27:27 :: Number wlds: 45
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 7
+Oct  7 22:27:27 :: Number mobs: 11
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 60, vnum: 261
+Oct  7 22:27:27 :: Number wlds: 79
+Oct  7 22:27:27 :: Number trgs: 29
+Oct  7 22:27:27 :: Number objs: 24
+Oct  7 22:27:27 :: Number mobs: 21
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 61, vnum: 270
+Oct  7 22:27:27 :: Number wlds: 141
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 45
+Oct  7 22:27:27 :: Number mobs: 36
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 62, vnum: 290
+Oct  7 22:27:27 :: Number wlds: 100
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 4
+Oct  7 22:27:27 :: Number mobs: 5
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 63, vnum: 300
+Oct  7 22:27:27 :: Number wlds: 255
+Oct  7 22:27:27 :: Number trgs: 0
+Oct  7 22:27:27 :: Number objs: 36
+Oct  7 22:27:27 :: Number mobs: 66
+Oct  7 22:27:27 :: Number shps: 2
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Zone rnum: 64, vnum: 310
+Oct  7 22:27:27 :: Number wlds: 91
+Oct  7 22:27:27 :: Number trgs: 27
+Oct  7 22:27:27 :: Number objs: 15
+Oct  7 22:27:27 :: Number mobs: 13
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 6
+Oct  7 22:27:27 ::   Hint 0: Use the turn command to change your sliding direction.
+Oct  7 22:27:27 ::   Hint 1: Don't walk too fast, you never know what you might miss along the way!
+Oct  7 22:27:27 ::   Hint 2: Sometimes items can be made more powerful when combined with others.
+Oct  7 22:27:27 ::   Hint 3: You may find you need to break the ice to further your journey.
+Oct  7 22:27:27 ::   Hint 4: Sometimes, penguins burrows get snowed in.
+Oct  7 22:27:27 ::   Hint 5: Didn't you enjoy climbing trees as a kid?
+Oct  7 22:27:27 :: Zone rnum: 65, vnum: 315
+Oct  7 22:27:27 :: Number wlds: 90
+Oct  7 22:27:27 :: Number trgs: 18
+Oct  7 22:27:27 :: Number objs: 45
+Oct  7 22:27:27 :: Number mobs: 22
+Oct  7 22:27:27 :: Number shps: 0
+Oct  7 22:27:27 :: Number hnts: 0
+Oct  7 22:27:27 :: Checking world balancing...
+Oct  7 22:27:27 ::    Outputing mobile balance data to balances/mobs
+Oct  7 22:27:27 ::    Outputing object balance data to balances/objs
+Oct  7 22:27:27 :: Initialising gambling structures.
+Oct  7 22:27:27 :: Loading hints file.
+Oct  7 22:27:27 ::    Loaded 7 hints...
+Oct  7 22:27:27 :: Generating player index.
+Oct  7 22:27:27 ::    2 players in database.
+Oct  7 22:27:27 :: Loading saved corpse data.
+Oct  7 22:27:27 ::   loaded 0 corpses.
+Oct  7 22:27:27 :: Loading report file.
+Oct  7 22:27:27 ::   Loaded 450 reports and 543 reportchanges
+Oct  7 22:27:27 :: Loading fight messages.
+Oct  7 22:27:27 :: Loading social messages.
+Oct  7 22:27:27 :: Assigning function pointers:
+Oct  7 22:27:27 ::    Mobiles.
+Oct  7 22:27:27 ::    Shopkeepers.
+Oct  7 22:27:27 ::    Objects.
+Oct  7 22:27:27 ::    Rooms.
+Oct  7 22:27:27 :: Booting mail system.
+Oct  7 22:27:27 ::    11000 bytes read.
+Oct  7 22:27:27 ::    Mail file read -- 0 messages.
+Oct  7 22:27:27 :: Reading banned site and invalid-name list.
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Oct  7 22:27:27 :: Resetting Estate (rooms 0-499).
+Oct  7 22:27:27 :: Resetting Primal Street (rooms 500-599).
+Oct  7 22:27:27 :: Resetting Plains (rooms 600-799).
+Oct  7 22:27:27 :: Resetting Desert (rooms 800-899).
+Oct  7 22:27:27 :: Resetting Gods special (rooms 900-999).
+Oct  7 22:27:27 :: Resetting Moathouse (rooms 1000-1099).
+Oct  7 22:27:27 :: Resetting Haven (rooms 1100-1399).
+Oct  7 22:27:27 :: Resetting Selva Road (rooms 1400-1599).
+Oct  7 22:27:27 :: Resetting Graveyard (rooms 1600-1749).
+Oct  7 22:27:27 :: Resetting Moanders Domain (rooms 1750-1899).
+Oct  7 22:27:27 :: Resetting Tunnel (rooms 1900-1999).
+Oct  7 22:27:27 :: Resetting The Crystal Castle (rooms 2000-2099).
+Oct  7 22:27:27 :: Resetting Path of Mystery (rooms 2100-2199).
+Oct  7 22:27:27 :: Resetting Spiral (rooms 2200-2399).
+Oct  7 22:27:27 :: Resetting Magic: The Gathering (rooms 2400-2799).
+Oct  7 22:27:27 :: Resetting Camelot zone (rooms 2800-3199).
+Oct  7 22:27:27 :: Resetting Scorpion Swamp  (rooms 3200-3560).
+Oct  7 22:27:27 :: Resetting Sewers of Haven (rooms 3561-3699).
+Oct  7 22:27:27 :: Resetting Khulgru's Lost Empire (rooms 3700-4199).
+Oct  7 22:27:27 :: Resetting The Fairytale Forest (rooms 4200-4487).
+Oct  7 22:27:27 :: Resetting The Tag ARENA! (rooms 4488-4556).
+Oct  7 22:27:27 :: Resetting Mortal Kombat ARENA (rooms 4557-4560).
+Oct  7 22:27:27 :: Resetting The Quest (rooms 4561-4700).
+Oct  7 22:27:27 :: Resetting Ancient Greece (rooms 4701-4918).
+Oct  7 22:27:27 :: Resetting Wilderness (rooms 4919-5099).
+Oct  7 22:27:27 :: Resetting The Holy City  (rooms 5100-5399).
+Oct  7 22:27:27 :: Resetting Mountains (rooms 5400-5599).
+Oct  7 22:27:27 :: Resetting Black Tower (rooms 5600-5899).
+Oct  7 22:27:27 :: Resetting Aqua Marina (rooms 5900-6399).
+Oct  7 22:27:27 :: Resetting Star Trek U.S.S. ENTERPRISE (rooms 6400-7699).
+Oct  7 22:27:27 :: Resetting Tudor (rooms 7700-8210).
+Oct  7 22:27:27 :: Resetting Lhankwood (rooms 8211-8399).
+Oct  7 22:27:27 :: Resetting Eliqua River (rooms 8400-8499).
+Oct  7 22:27:27 :: Resetting Rushmoor swamp (rooms 8500-8599).
+Oct  7 22:27:27 :: Resetting Pirate's ship (rooms 8600-8699).
+Oct  7 22:27:27 :: Resetting Island (rooms 8700-8799).
+Oct  7 22:27:27 :: Resetting Danger Island (rooms 8800-8999).
+Oct  7 22:27:27 :: Resetting Toyheim (rooms 9000-9050).
+Oct  7 22:27:27 :: Resetting Shadow Keep (rooms 9051-9599).
+Oct  7 22:27:27 :: Resetting fort hope (rooms 9600-9999).
+Oct  7 22:27:27 :: Resetting Darask (rooms 10000-10050).
+Oct  7 22:27:27 :: Resetting The Island Forever (rooms 10051-10350).
+Oct  7 22:27:27 :: Resetting An Odd House (rooms 10351-10720).
+Oct  7 22:27:27 :: Resetting The ruins (rooms 10721-10843).
+Oct  7 22:27:27 :: Resetting The Lost Valley (rooms 10844-11129).
+Oct  7 22:27:27 :: Resetting The Concert Hall (rooms 11130-11699).
+Oct  7 22:27:27 :: Resetting Labyrinth (rooms 11700-12099).
+Oct  7 22:27:27 :: Resetting Rockridge (rooms 12100-13199).
+Oct  7 22:27:27 :: Resetting City of HOPE (rooms 13200-13299).
+Oct  7 22:27:27 :: Resetting Saloon (rooms 13300-13347).
+Oct  7 22:27:27 :: Resetting Whore House (rooms 13348-13547).
+Oct  7 22:27:27 :: Resetting Blue Creek (rooms 13548-13900).
+Oct  7 22:27:27 :: Resetting Angel Grove (rooms 13901-20150).
+Oct  7 22:27:27 :: Resetting Lunar City IV (rooms 20151-22099).
+Oct  7 22:27:27 :: Resetting Vader's Proc Rooms (rooms 22100-22399).
+Oct  7 22:27:27 :: Resetting Moon (rooms 22400-23099).
+Oct  7 22:27:27 :: Resetting Tatooine Desert (rooms 23100-24099).
+Oct  7 22:27:27 :: Resetting Mos Eisley Starport (rooms 24100-25099).
+Oct  7 22:27:27 :: Resetting Clan Area (rooms 25100-25599).
+Oct  7 22:27:27 :: Resetting Jabba's Palace (rooms 25600-26099).
+Oct  7 22:27:27 :: Resetting Hollywood (rooms 26100-26199).
+Oct  7 22:27:27 :: Resetting The Sphere (rooms 26200-27151).
+Oct  7 22:27:27 :: Resetting Perseid Mining Colony Base (rooms 27152-29100).
+Oct  7 22:27:27 :: Resetting Bablyon 5 (rooms 29101-30300).
+Oct  7 22:27:27 :: Resetting The South Pole (rooms 30301-31099).
+Oct  7 22:27:27 :: Resetting Red Dwarf - Season I (rooms 31100-31599).
+Oct  7 22:27:27 :: Resetting Parellel Universe (rooms 31600-31699).
+Oct  7 22:27:27 :: Booting houses.
+Oct  7 22:27:27 :: Reading auctions.
+Oct  7 22:27:27 ::    Calculating powers and members
+Oct  7 22:27:27 :: Boot db -- DONE.
+Oct  7 22:27:27 :: Signal trapping.
+Oct  7 22:27:27 :: Entering game loop.
+Oct  7 22:27:27 :: No connections.  Going to sleep.
+Oct  7 22:27:38 :: New connection.  Waking up.
+Oct  7 22:27:38 :: New connection from [127.0.0.1]
+Oct  7 22:27:47 :: Boof [127.0.0.1] has connected.
+Oct  7 22:27:49 :: Boof un-renting and entering game.
+Oct  7 22:27:49 :: Boof (level 1) has 11 objects (max 100).
+Oct  7 22:28:33 :: &7Boof &ghas quit the game.
+Oct  7 22:28:34 :: Losing player: Boof.
+Oct  7 22:28:34 :: No connections.  Going to sleep.
+Oct  7 22:28:36 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.
+Oct  7 22:28:36 ::         Saving chars and Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.
+autorun starting game Friday 7 October  22:31:40 AEDT 2016
+running bin/circle -q 4000
+Oct  7 22:31:40 :: PrimalMUD, version 3.00 based on CircleMUD, version 3.00 beta patchlevel 17
+Oct  7 22:31:40 :: DG Scripts Version 0.99 Patch Level 7  12/98, (Modified for PrimalMUD 3)
+Oct  7 22:31:40 :: Using lib as data directory.
+Oct  7 22:31:40 :: Running game on port 4000.
+Oct  7 22:31:40 :: Finding player limit.
+Oct  7 22:31:40 ::    Setting player limit to 300 using rlimit.
+Oct  7 22:31:40 :: Opening mother connection.
+Oct  7 22:31:40 :: Binding to all IP interfaces on this host.
+Oct  7 22:31:40 :: Boot db -- BEGIN.
+Oct  7 22:31:40 :: Release: 3.0.96, tag: A3_0_96, cvs-up-to-date: 1, date:  Wed Jun 15 12:21:26 EST 2005
+Oct  7 22:31:40 :: Resetting the game time:
+Oct  7 22:31:40 ::    Current Gametime: 19H 24D 10M 1284Y.
+Oct  7 22:31:40 :: Reading news, credits, help, bground, info & motds.
+Oct  7 22:31:40 :: Loading spell definitions.
+Oct  7 22:31:40 :: Assigning spell and skill levels.
+Oct  7 22:31:40 :: Loading help entries.
+Oct  7 22:31:40 ::    598 entries, 14352 bytes.
+Oct  7 22:31:40 :: Loading Help File: clans.hlp
+Oct  7 22:31:40 :: Loading Help File: class.hlp
+Oct  7 22:31:40 :: Loading Help File: commands.hlp
+Oct  7 22:31:40 :: Loading Help File: info.hlp
+Oct  7 22:31:40 :: Loading Help File: race.hlp
+Oct  7 22:31:40 :: Loading Help File: remort.hlp
+Oct  7 22:31:40 :: Loading Help File: socials.hlp
+Oct  7 22:31:40 :: Loading Help File: spells.hlp
+Oct  7 22:31:40 :: Loading Help File: wizhelp.hlp
+Oct  7 22:31:40 :: Found wizhelp.hlp - applying level restrictions
+Oct  7 22:31:40 :: Sorting command list and spells.
+Oct  7 22:31:40 :: Sorting spells level ascending for Magician.
+Oct  7 22:31:40 :: Sorting spells level ascending for Cleric.
+Oct  7 22:31:40 :: Sorting spells level ascending for Thief.
+Oct  7 22:31:40 :: Sorting spells level ascending for Warrior.
+Oct  7 22:31:40 :: Sorting spells level ascending for Druid.
+Oct  7 22:31:40 :: Sorting spells level ascending for Priest.
+Oct  7 22:31:40 :: Sorting spells level ascending for Nightblade.
+Oct  7 22:31:40 :: Sorting spells level ascending for Battlemage.
+Oct  7 22:31:40 :: Sorting spells level ascending for Spellsword.
+Oct  7 22:31:40 :: Sorting spells level ascending for Paladin.
+Oct  7 22:31:40 :: Sorting spells level ascending for Master.
+Oct  7 22:31:40 :: Sorting spells level descending for Magician.
+Oct  7 22:31:40 :: Sorting spells level descending for Cleric.
+Oct  7 22:31:40 :: Sorting spells level descending for Thief.
+Oct  7 22:31:40 :: Sorting spells level descending for Warrior.
+Oct  7 22:31:40 :: Sorting spells level descending for Druid.
+Oct  7 22:31:40 :: Sorting spells level descending for Priest.
+Oct  7 22:31:40 :: Sorting spells level descending for Nightblade.
+Oct  7 22:31:40 :: Sorting spells level descending for Battlemage.
+Oct  7 22:31:40 :: Sorting spells level descending for Spellsword.
+Oct  7 22:31:40 :: Sorting spells level descending for Paladin.
+Oct  7 22:31:40 :: Sorting spells level descending for Master.
+Oct  7 22:31:40 :: Loading zone table.
+Oct  7 22:31:40 ::    68 zones, 18496 bytes.
+Oct  7 22:31:40 :: Loading triggers and generating index.
+Oct  7 22:31:40 ::    267 triggers, 10680 bytes.
+Oct  7 22:31:40 :: Loading rooms.
+Oct  7 22:31:40 ::    7007 rooms, 1065064 bytes.
+Oct  7 22:31:40 :: Renumbering rooms.
+Oct  7 22:31:40 :: Checking start rooms.
+Oct  7 22:31:40 :: Loading mobs and generating index.
+Oct  7 22:31:40 ::    1519 mobs, 60760 bytes in index, 1032920 bytes in prototypes.
+Oct  7 22:31:40 :: Loading objs and generating index.
+Oct  7 22:31:40 ::    1790 objs, 71600 bytes in index, 429600 bytes in prototypes.
+Oct  7 22:31:40 :: Renumbering zone table.
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2101, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 4
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2129, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 5
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2129, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 6
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2111, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 7
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2109, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 8
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 9
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 10
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 11
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 12
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2130, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 13
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2130, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 14
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 15
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2110, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 16
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 17
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 18
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2128, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 19
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2128, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 20
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2103, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 21
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 22
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2108, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 23
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2108, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 24
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 25
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 26
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2101, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 27
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2104, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 28
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2121, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 29
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2121, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 30
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 31
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 32
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2114, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 33
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 34
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 35
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 36
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 37
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #21, line 38
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 39
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 40
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 41
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 42
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2115, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 43
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2116, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 44
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 45
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 46
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 47
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 48
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 49
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 50
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 51
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2113, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 52
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 53
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 54
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 55
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2107, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 56
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2119, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 57
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2120, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 58
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 59
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 60
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 61
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 62
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2106, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 63
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 64
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 65
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 66
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2117, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 67
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2104, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 68
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2112, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 69
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2118, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 70
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2103, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 71
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2102, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'M' cmd in zone #21, line 72
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2102, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'E' cmd in zone #21, line 73
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 2111, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'D' cmd in zone #21, line 74
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 31651, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 5
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 31634, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 12
+Oct  7 22:31:40 :: SYSERR: zone file: Invalid vnum 31628, cmd disabled
+Oct  7 22:31:40 :: SYSERR: ...offending cmd: 'O' cmd in zone #315, line 17
+Oct  7 22:31:40 :: Loading shops.
+Oct  7 22:31:40 :: Loading zone hint files.
+Oct  7 22:31:40 :: reading hints for rzone 1
+Oct  7 22:31:40 :: reading hints for rzone 6
+Oct  7 22:31:40 :: reading hints for rzone 64
+Oct  7 22:31:40 :: Generating zone data. DETAILS:
+Oct  7 22:31:40 :: Zone rnum: 0, vnum: 2
+Oct  7 22:31:40 :: Number wlds: 201
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 6
+Oct  7 22:31:40 :: Number mobs: 0
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 1, vnum: 5
+Oct  7 22:31:40 :: Number wlds: 45
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 0
+Oct  7 22:31:40 :: Number mobs: 26
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 9
+Oct  7 22:31:40 ::   Hint 0: Primal Street was designed as a newbie start zone!
+Oct  7 22:31:40 ::   Hint 1: If you type help <command> you will see the help on that word!
+Oct  7 22:31:40 ::   Hint 2: If you type l <direction> you will see a description in that direction!
+Oct  7 22:31:40 ::   Hint 3: If you type l <object> you will see the description of the object!
+Oct  7 22:31:40 ::   Hint 4: If you type l <mobname> you will see the description of the mob!
+Oct  7 22:31:40 ::   Hint 5: If you type l <playername> you will see what the player is wearing and holding!
+Oct  7 22:31:40 ::   Hint 6: If you type prompt you will be able to add features to your prompt!
+Oct  7 22:31:40 ::   Hint 7: Try typing prompt all to see Hit Mana Movement Exp Req And Align!
+Oct  7 22:31:40 ::   Hint 8: If playing multiple characters type "whoami" if you forget which screen you are on!
+Oct  7 22:31:40 :: Zone rnum: 2, vnum: 7
+Oct  7 22:31:40 :: Number wlds: 42
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 0
+Oct  7 22:31:40 :: Number mobs: 6
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 3, vnum: 8
+Oct  7 22:31:40 :: Number wlds: 48
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 1
+Oct  7 22:31:40 :: Number mobs: 9
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 4, vnum: 9
+Oct  7 22:31:40 :: Number wlds: 0
+Oct  7 22:31:40 :: Number trgs: 1
+Oct  7 22:31:40 :: Number objs: 8
+Oct  7 22:31:40 :: Number mobs: 5
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 5, vnum: 10
+Oct  7 22:31:40 :: Number wlds: 52
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 0
+Oct  7 22:31:40 :: Number mobs: 21
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 6, vnum: 11
+Oct  7 22:31:40 :: Number wlds: 121
+Oct  7 22:31:40 :: Number trgs: 49
+Oct  7 22:31:40 :: Number objs: 166
+Oct  7 22:31:40 :: Number mobs: 44
+Oct  7 22:31:40 :: Number shps: 7
+Oct  7 22:31:40 :: Number hnts: 10
+Oct  7 22:31:40 ::   Hint 0: Gamina is able to help the lower level characters!
+Oct  7 22:31:40 ::   Hint 1: The postmaster in the tavern is for sending mudmail to other players!
+Oct  7 22:31:40 ::   Hint 2: To transfer between worlds go to the portals and type go <portalname>.
+Oct  7 22:31:40 ::   Hint 3: As a newbie playing in Haven try playing in Primal Street as well!
+Oct  7 22:31:40 ::   Hint 4: The Labyrinth is a good zone for Level 5 onwards.
+Oct  7 22:31:40 ::   Hint 5: Selva Road is good for a lower level character to play in!
+Oct  7 22:31:40 ::   Hint 6: The Alchemist will sell you potions of heal and protection!
+Oct  7 22:31:40 ::   Hint 7: All Guilds are located around Haven. 
+Oct  7 22:31:40 ::   Hint 8: Any Guildmaster will give you directions to your guild!
+Oct  7 22:31:40 ::   Hint 9: Any speedwalks given are from the world load point ie where Gamina is!
+Oct  7 22:31:40 :: Zone rnum: 7, vnum: 15
+Oct  7 22:31:40 :: Number wlds: 45
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 1
+Oct  7 22:31:40 :: Number mobs: 6
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 8, vnum: 16
+Oct  7 22:31:40 :: Number wlds: 105
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 15
+Oct  7 22:31:40 :: Number mobs: 15
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 9, vnum: 18
+Oct  7 22:31:40 :: Number wlds: 100
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 17
+Oct  7 22:31:40 :: Number mobs: 16
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 10, vnum: 19
+Oct  7 22:31:40 :: Number wlds: 76
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 5
+Oct  7 22:31:40 :: Number mobs: 9
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 11, vnum: 20
+Oct  7 22:31:40 :: Number wlds: 80
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 8
+Oct  7 22:31:40 :: Number mobs: 12
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 12, vnum: 21
+Oct  7 22:31:40 :: Number wlds: 0
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 0
+Oct  7 22:31:40 :: Number mobs: 0
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 13, vnum: 22
+Oct  7 22:31:40 :: Number wlds: 152
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 17
+Oct  7 22:31:40 :: Number mobs: 45
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 14, vnum: 24
+Oct  7 22:31:40 :: Number wlds: 380
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 157
+Oct  7 22:31:40 :: Number mobs: 132
+Oct  7 22:31:40 :: Number shps: 2
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 15, vnum: 31
+Oct  7 22:31:40 :: Number wlds: 90
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 28
+Oct  7 22:31:40 :: Number mobs: 25
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 16, vnum: 32
+Oct  7 22:31:40 :: Number wlds: 271
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 72
+Oct  7 22:31:40 :: Number mobs: 97
+Oct  7 22:31:40 :: Number shps: 2
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 17, vnum: 36
+Oct  7 22:31:40 :: Number wlds: 75
+Oct  7 22:31:40 :: Number trgs: 18
+Oct  7 22:31:40 :: Number objs: 15
+Oct  7 22:31:40 :: Number mobs: 12
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 18, vnum: 40
+Oct  7 22:31:40 :: Number wlds: 185
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 58
+Oct  7 22:31:40 :: Number mobs: 28
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 19, vnum: 43
+Oct  7 22:31:40 :: Number wlds: 188
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 64
+Oct  7 22:31:40 :: Number mobs: 62
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 20, vnum: 45
+Oct  7 22:31:40 :: Number wlds: 57
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 43
+Oct  7 22:31:40 :: Number mobs: 4
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 21, vnum: 46
+Oct  7 22:31:40 :: Number wlds: 4
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 0
+Oct  7 22:31:40 :: Number mobs: 0
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 22, vnum: 47
+Oct  7 22:31:40 :: Number wlds: 1
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 0
+Oct  7 22:31:40 :: Number mobs: 0
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 23, vnum: 48
+Oct  7 22:31:40 :: Number wlds: 131
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 23
+Oct  7 22:31:40 :: Number mobs: 33
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 24, vnum: 50
+Oct  7 22:31:40 :: Number wlds: 22
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 0
+Oct  7 22:31:40 :: Number mobs: 7
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 25, vnum: 52
+Oct  7 22:31:40 :: Number wlds: 154
+Oct  7 22:31:40 :: Number trgs: 1
+Oct  7 22:31:40 :: Number objs: 22
+Oct  7 22:31:40 :: Number mobs: 19
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 26, vnum: 55
+Oct  7 22:31:40 :: Number wlds: 66
+Oct  7 22:31:40 :: Number trgs: 1
+Oct  7 22:31:40 :: Number objs: 11
+Oct  7 22:31:40 :: Number mobs: 10
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 27, vnum: 56
+Oct  7 22:31:40 :: Number wlds: 208
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 15
+Oct  7 22:31:40 :: Number mobs: 19
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 28, vnum: 60
+Oct  7 22:31:40 :: Number wlds: 375
+Oct  7 22:31:40 :: Number trgs: 1
+Oct  7 22:31:40 :: Number objs: 61
+Oct  7 22:31:40 :: Number mobs: 47
+Oct  7 22:31:40 :: Number shps: 2
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 29, vnum: 75
+Oct  7 22:31:40 :: Number wlds: 159
+Oct  7 22:31:40 :: Number trgs: 1
+Oct  7 22:31:40 :: Number objs: 24
+Oct  7 22:31:40 :: Number mobs: 16
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 30, vnum: 81
+Oct  7 22:31:40 :: Number wlds: 106
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 14
+Oct  7 22:31:40 :: Number mobs: 21
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 31, vnum: 83
+Oct  7 22:31:40 :: Number wlds: 97
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 13
+Oct  7 22:31:40 :: Number mobs: 13
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 32, vnum: 84
+Oct  7 22:31:40 :: Number wlds: 62
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 1
+Oct  7 22:31:40 :: Number mobs: 4
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 33, vnum: 85
+Oct  7 22:31:40 :: Number wlds: 58
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 8
+Oct  7 22:31:40 :: Number mobs: 10
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 34, vnum: 86
+Oct  7 22:31:40 :: Number wlds: 83
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 18
+Oct  7 22:31:40 :: Number mobs: 12
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 35, vnum: 87
+Oct  7 22:31:40 :: Number wlds: 90
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 12
+Oct  7 22:31:40 :: Number mobs: 12
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 36, vnum: 88
+Oct  7 22:31:40 :: Number wlds: 126
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 18
+Oct  7 22:31:40 :: Number mobs: 13
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 37, vnum: 90
+Oct  7 22:31:40 :: Number wlds: 49
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 20
+Oct  7 22:31:40 :: Number mobs: 16
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 38, vnum: 95
+Oct  7 22:31:40 :: Number wlds: 97
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 36
+Oct  7 22:31:40 :: Number mobs: 31
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 39, vnum: 98
+Oct  7 22:31:40 :: Number wlds: 200
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 44
+Oct  7 22:31:40 :: Number mobs: 44
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 40, vnum: 100
+Oct  7 22:31:40 :: Number wlds: 34
+Oct  7 22:31:40 :: Number trgs: 3
+Oct  7 22:31:40 :: Number objs: 20
+Oct  7 22:31:40 :: Number mobs: 8
+Oct  7 22:31:40 :: Number shps: 4
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 41, vnum: 101
+Oct  7 22:31:40 :: Number wlds: 190
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 66
+Oct  7 22:31:40 :: Number mobs: 31
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 42, vnum: 105
+Oct  7 22:31:40 :: Number wlds: 160
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 22
+Oct  7 22:31:40 :: Number mobs: 41
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 43, vnum: 108
+Oct  7 22:31:40 :: Number wlds: 43
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 1
+Oct  7 22:31:40 :: Number mobs: 4
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 44, vnum: 110
+Oct  7 22:31:40 :: Number wlds: 121
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 13
+Oct  7 22:31:40 :: Number mobs: 14
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 45, vnum: 116
+Oct  7 22:31:40 :: Number wlds: 100
+Oct  7 22:31:40 :: Number trgs: 41
+Oct  7 22:31:40 :: Number objs: 59
+Oct  7 22:31:40 :: Number mobs: 33
+Oct  7 22:31:40 :: Number shps: 3
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 46, vnum: 119
+Oct  7 22:31:40 :: Number wlds: 170
+Oct  7 22:31:40 :: Number trgs: 44
+Oct  7 22:31:40 :: Number objs: 43
+Oct  7 22:31:40 :: Number mobs: 53
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 47, vnum: 130
+Oct  7 22:31:40 :: Number wlds: 41
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 13
+Oct  7 22:31:40 :: Number mobs: 0
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 48, vnum: 132
+Oct  7 22:31:40 :: Number wlds: 92
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 39
+Oct  7 22:31:40 :: Number mobs: 23
+Oct  7 22:31:40 :: Number shps: 4
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 49, vnum: 133
+Oct  7 22:31:40 :: Number wlds: 48
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 25
+Oct  7 22:31:40 :: Number mobs: 11
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 50, vnum: 135
+Oct  7 22:31:40 :: Number wlds: 48
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 31
+Oct  7 22:31:40 :: Number mobs: 30
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 51, vnum: 136
+Oct  7 22:31:40 :: Number wlds: 268
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 75
+Oct  7 22:31:40 :: Number mobs: 77
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 52, vnum: 200
+Oct  7 22:31:40 :: Number wlds: 112
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 30
+Oct  7 22:31:40 :: Number mobs: 17
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 53, vnum: 220
+Oct  7 22:31:40 :: Number wlds: 56
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 48
+Oct  7 22:31:40 :: Number mobs: 20
+Oct  7 22:31:40 :: Number shps: 6
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 54, vnum: 223
+Oct  7 22:31:40 :: Number wlds: 1
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 34
+Oct  7 22:31:40 :: Number mobs: 4
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 55, vnum: 230
+Oct  7 22:31:40 :: Number wlds: 52
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 8
+Oct  7 22:31:40 :: Number mobs: 8
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 56, vnum: 240
+Oct  7 22:31:40 :: Number wlds: 68
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 3
+Oct  7 22:31:40 :: Number mobs: 5
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 57, vnum: 250
+Oct  7 22:31:40 :: Number wlds: 49
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 22
+Oct  7 22:31:40 :: Number mobs: 13
+Oct  7 22:31:40 :: Number shps: 5
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 58, vnum: 255
+Oct  7 22:31:40 :: Number wlds: 84
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 9
+Oct  7 22:31:40 :: Number mobs: 16
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 59, vnum: 260
+Oct  7 22:31:40 :: Number wlds: 45
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 7
+Oct  7 22:31:40 :: Number mobs: 11
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 60, vnum: 261
+Oct  7 22:31:40 :: Number wlds: 79
+Oct  7 22:31:40 :: Number trgs: 29
+Oct  7 22:31:40 :: Number objs: 24
+Oct  7 22:31:40 :: Number mobs: 21
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 61, vnum: 270
+Oct  7 22:31:40 :: Number wlds: 141
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 45
+Oct  7 22:31:40 :: Number mobs: 36
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 62, vnum: 290
+Oct  7 22:31:40 :: Number wlds: 100
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 4
+Oct  7 22:31:40 :: Number mobs: 5
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 63, vnum: 300
+Oct  7 22:31:40 :: Number wlds: 255
+Oct  7 22:31:40 :: Number trgs: 0
+Oct  7 22:31:40 :: Number objs: 36
+Oct  7 22:31:40 :: Number mobs: 66
+Oct  7 22:31:40 :: Number shps: 2
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Zone rnum: 64, vnum: 310
+Oct  7 22:31:40 :: Number wlds: 91
+Oct  7 22:31:40 :: Number trgs: 27
+Oct  7 22:31:40 :: Number objs: 15
+Oct  7 22:31:40 :: Number mobs: 13
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 6
+Oct  7 22:31:40 ::   Hint 0: Use the turn command to change your sliding direction.
+Oct  7 22:31:40 ::   Hint 1: Don't walk too fast, you never know what you might miss along the way!
+Oct  7 22:31:40 ::   Hint 2: Sometimes items can be made more powerful when combined with others.
+Oct  7 22:31:40 ::   Hint 3: You may find you need to break the ice to further your journey.
+Oct  7 22:31:40 ::   Hint 4: Sometimes, penguins burrows get snowed in.
+Oct  7 22:31:40 ::   Hint 5: Didn't you enjoy climbing trees as a kid?
+Oct  7 22:31:40 :: Zone rnum: 65, vnum: 315
+Oct  7 22:31:40 :: Number wlds: 90
+Oct  7 22:31:40 :: Number trgs: 18
+Oct  7 22:31:40 :: Number objs: 45
+Oct  7 22:31:40 :: Number mobs: 22
+Oct  7 22:31:40 :: Number shps: 0
+Oct  7 22:31:40 :: Number hnts: 0
+Oct  7 22:31:40 :: Checking world balancing...
+Oct  7 22:31:40 ::    Outputing mobile balance data to balances/mobs
+Oct  7 22:31:40 ::    Outputing object balance data to balances/objs
+Oct  7 22:31:40 :: Initialising gambling structures.
+Oct  7 22:31:40 :: Loading hints file.
+Oct  7 22:31:40 ::    Loaded 7 hints...
+Oct  7 22:31:40 :: Generating player index.
+Oct  7 22:31:40 ::    2 players in database.
+Oct  7 22:31:40 :: Loading saved corpse data.
+Oct  7 22:31:40 ::   loaded 0 corpses.
+Oct  7 22:31:40 :: Loading report file.
+Oct  7 22:31:40 ::   Loaded 450 reports and 543 reportchanges
+Oct  7 22:31:40 :: Loading fight messages.
+Oct  7 22:31:40 :: Loading social messages.
+Oct  7 22:31:40 :: Assigning function pointers:
+Oct  7 22:31:40 ::    Mobiles.
+Oct  7 22:31:40 ::    Shopkeepers.
+Oct  7 22:31:40 ::    Objects.
+Oct  7 22:31:40 ::    Rooms.
+Oct  7 22:31:40 :: Booting mail system.
+Oct  7 22:31:40 ::    11000 bytes read.
+Oct  7 22:31:40 ::    Mail file read -- 0 messages.
+Oct  7 22:31:40 :: Reading banned site and invalid-name list.
+SYSERR: Unable to open 'misc/xnames' for reading: No such file or directory
+Oct  7 22:31:40 :: Resetting Estate (rooms 0-499).
+Oct  7 22:31:40 :: Resetting Primal Street (rooms 500-599).
+Oct  7 22:31:40 :: Resetting Plains (rooms 600-799).
+Oct  7 22:31:40 :: Resetting Desert (rooms 800-899).
+Oct  7 22:31:40 :: Resetting Gods special (rooms 900-999).
+Oct  7 22:31:40 :: Resetting Moathouse (rooms 1000-1099).
+Oct  7 22:31:40 :: Resetting Haven (rooms 1100-1399).
+Oct  7 22:31:40 :: Resetting Selva Road (rooms 1400-1599).
+Oct  7 22:31:40 :: Resetting Graveyard (rooms 1600-1749).
+Oct  7 22:31:40 :: Resetting Moanders Domain (rooms 1750-1899).
+Oct  7 22:31:40 :: Resetting Tunnel (rooms 1900-1999).
+Oct  7 22:31:40 :: Resetting The Crystal Castle (rooms 2000-2099).
+Oct  7 22:31:40 :: Resetting Path of Mystery (rooms 2100-2199).
+Oct  7 22:31:40 :: Resetting Spiral (rooms 2200-2399).
+Oct  7 22:31:40 :: Resetting Magic: The Gathering (rooms 2400-2799).
+Oct  7 22:31:40 :: Resetting Camelot zone (rooms 2800-3199).
+Oct  7 22:31:40 :: Resetting Scorpion Swamp  (rooms 3200-3560).
+Oct  7 22:31:41 :: Resetting Sewers of Haven (rooms 3561-3699).
+Oct  7 22:31:41 :: Resetting Khulgru's Lost Empire (rooms 3700-4199).
+Oct  7 22:31:41 :: Resetting The Fairytale Forest (rooms 4200-4487).
+Oct  7 22:31:41 :: Resetting The Tag ARENA! (rooms 4488-4556).
+Oct  7 22:31:41 :: Resetting Mortal Kombat ARENA (rooms 4557-4560).
+Oct  7 22:31:41 :: Resetting The Quest (rooms 4561-4700).
+Oct  7 22:31:41 :: Resetting Ancient Greece (rooms 4701-4918).
+Oct  7 22:31:41 :: Resetting Wilderness (rooms 4919-5099).
+Oct  7 22:31:41 :: Resetting The Holy City  (rooms 5100-5399).
+Oct  7 22:31:41 :: Resetting Mountains (rooms 5400-5599).
+Oct  7 22:31:41 :: Resetting Black Tower (rooms 5600-5899).
+Oct  7 22:31:41 :: Resetting Aqua Marina (rooms 5900-6399).
+Oct  7 22:31:41 :: Resetting Star Trek U.S.S. ENTERPRISE (rooms 6400-7699).
+Oct  7 22:31:41 :: Resetting Tudor (rooms 7700-8210).
+Oct  7 22:31:41 :: Resetting Lhankwood (rooms 8211-8399).
+Oct  7 22:31:41 :: Resetting Eliqua River (rooms 8400-8499).
+Oct  7 22:31:41 :: Resetting Rushmoor swamp (rooms 8500-8599).
+Oct  7 22:31:41 :: Resetting Pirate's ship (rooms 8600-8699).
+Oct  7 22:31:41 :: Resetting Island (rooms 8700-8799).
+Oct  7 22:31:41 :: Resetting Danger Island (rooms 8800-8999).
+Oct  7 22:31:41 :: Resetting Toyheim (rooms 9000-9050).
+Oct  7 22:31:41 :: Resetting Shadow Keep (rooms 9051-9599).
+Oct  7 22:31:41 :: Resetting fort hope (rooms 9600-9999).
+Oct  7 22:31:41 :: Resetting Darask (rooms 10000-10050).
+Oct  7 22:31:41 :: Resetting The Island Forever (rooms 10051-10350).
+Oct  7 22:31:41 :: Resetting An Odd House (rooms 10351-10720).
+Oct  7 22:31:41 :: Resetting The ruins (rooms 10721-10843).
+Oct  7 22:31:41 :: Resetting The Lost Valley (rooms 10844-11129).
+Oct  7 22:31:41 :: Resetting The Concert Hall (rooms 11130-11699).
+Oct  7 22:31:41 :: Resetting Labyrinth (rooms 11700-12099).
+Oct  7 22:31:41 :: Resetting Rockridge (rooms 12100-13199).
+Oct  7 22:31:41 :: Resetting City of HOPE (rooms 13200-13299).
+Oct  7 22:31:41 :: Resetting Saloon (rooms 13300-13347).
+Oct  7 22:31:41 :: Resetting Whore House (rooms 13348-13547).
+Oct  7 22:31:41 :: Resetting Blue Creek (rooms 13548-13900).
+Oct  7 22:31:41 :: Resetting Angel Grove (rooms 13901-20150).
+Oct  7 22:31:41 :: Resetting Lunar City IV (rooms 20151-22099).
+Oct  7 22:31:41 :: Resetting Vader's Proc Rooms (rooms 22100-22399).
+Oct  7 22:31:41 :: Resetting Moon (rooms 22400-23099).
+Oct  7 22:31:41 :: Resetting Tatooine Desert (rooms 23100-24099).
+Oct  7 22:31:41 :: Resetting Mos Eisley Starport (rooms 24100-25099).
+Oct  7 22:31:41 :: Resetting Clan Area (rooms 25100-25599).
+Oct  7 22:31:41 :: Resetting Jabba's Palace (rooms 25600-26099).
+Oct  7 22:31:41 :: Resetting Hollywood (rooms 26100-26199).
+Oct  7 22:31:41 :: Resetting The Sphere (rooms 26200-27151).
+Oct  7 22:31:41 :: Resetting Perseid Mining Colony Base (rooms 27152-29100).
+Oct  7 22:31:41 :: Resetting Bablyon 5 (rooms 29101-30300).
+Oct  7 22:31:41 :: Resetting The South Pole (rooms 30301-31099).
+Oct  7 22:31:41 :: Resetting Red Dwarf - Season I (rooms 31100-31599).
+Oct  7 22:31:41 :: Resetting Parellel Universe (rooms 31600-31699).
+Oct  7 22:31:41 :: Booting houses.
+Oct  7 22:31:41 :: Reading auctions.
+Oct  7 22:31:41 ::    Calculating powers and members
+Oct  7 22:31:41 :: Boot db -- DONE.
+Oct  7 22:31:41 :: Signal trapping.
+Oct  7 22:31:41 :: Entering game loop.
+Oct  7 22:31:41 :: No connections.  Going to sleep.
+Oct  7 22:31:44 :: SYSERR: Received SIGHUP, SIGINT, or SIGTERM.
+Oct  7 22:31:44 ::         Saving chars and Shutting down...
+Quick boot mode -- rent check supressed.
+Using file descriptor for logging.

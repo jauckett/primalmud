@@ -1,48 +1,56 @@
 make ../bin/circle
-make[1]: Entering directory '/home/john/src/mud/live/cppsrc'
-g++ -c -g -O2 -DPRIMAL_LIVE -Wall -fpermissive   spells.c
-spells.c: In function ‘void spell_summon(int, char_data*, char_data*, obj_data*)’:
-spells.c:175:63: error: conflicting declaration ‘bool flag’
-   extern int allowed_zone(struct char_data * ch,int flag,bool flag);
-                                                               ^
-spells.c:175:53: note: previous declaration as ‘int flag’
-   extern int allowed_zone(struct char_data * ch,int flag,bool flag);
-                                                     ^
-spells.c:176:63: error: conflicting declaration ‘bool flag’
-   extern int allowed_room(struct char_data * ch,int flag,bool flag);
-                                                               ^
-spells.c:176:53: note: previous declaration as ‘int flag’
-   extern int allowed_room(struct char_data * ch,int flag,bool flag);
-                                                     ^
-spells.c:243:35: error: too many arguments to function ‘int allowed_zone(char_data*, int)’
-     if (!allowed_zone(ch,flag,TRUE))
-                                   ^
-spells.c:175:14: note: declared here
-   extern int allowed_zone(struct char_data * ch,int flag,bool flag);
+make[1]: Entering directory '/home/john/src/primalmud/live/cppsrc'
+g++ -c -g -O2 -DPRIMAL_LIVE -Wall -fpermissive -Wwrite-strings   dg_comm.c
+dg_comm.c:140:12: warning: "/*" within comment [-Wcomment]
+            /* get char_data, move to next token */
+            ^
+dg_comm.c:141:12: error: ‘type’ does not name a type
+            type[i] = *p;
+            ^
+dg_comm.c:142:15: error: expected constructor, destructor, or type conversion before ‘=’ token
+            *s = '\0';
+               ^
+dg_comm.c:143:12: error: ‘p’ does not name a type
+            p = any_one_name(++p, name);
+            ^
+dg_comm.c:146:12: error: ‘tokens’ does not name a type
+            tokens[++i] = ++s;
+            ^
+dg_comm.c:147:12: error: expected unqualified-id before ‘break’
+            break;
+            ^
+dg_comm.c:149:8: error: expected unqualified-id before ‘case’
+        case '`':
+        ^
+dg_comm.c:152:15: error: expected constructor, destructor, or type conversion before ‘=’ token
+            *s = '\0';
+               ^
+dg_comm.c:153:12: error: ‘p’ does not name a type
+            p = any_one_name(++p, name);
+            ^
+dg_comm.c:162:12: error: ‘tokens’ does not name a type
+            tokens[++i] = ++s;
+            ^
+dg_comm.c:163:12: error: expected unqualified-id before ‘break’
+            break;
+            ^
+dg_comm.c:165:8: error: expected unqualified-id before ‘case’
+        case '\\':
+        ^
+dg_comm.c:167:14: error: expected constructor, destructor, or type conversion before ‘++’ token
+            *s++ = *p++;
               ^
-spells.c:251:35: error: too many arguments to function ‘int allowed_room(char_data*, int)’
-     if (!allowed_room(ch,flag,TRUE))
-                                   ^
-spells.c:176:14: note: declared here
-   extern int allowed_room(struct char_data * ch,int flag,bool flag);
-              ^
-spells.c: In function ‘void spell_fear(int, char_data*, char_data*, obj_data*)’:
-spells.c:716:26: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
-     do_flee(victim,"",1,0);
-                          ^
-spells.c: In function ‘void spell_unholy_vengeance(int, char_data*, char_data*, obj_data*)’:
-spells.c:832:35: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
-   die(ch, NULL, "Unholy Vengeance");
-                                   ^
-spells.c: In function ‘void spell_gate(int, char_data*, char_data*, obj_data*)’:
-spells.c:893:35: error: ‘allowed_zone’ was not declared in this scope
-     if (!allowed_zone(ch,flag,TRUE))
-                                   ^
-spells.c:901:35: error: ‘allowed_room’ was not declared in this scope
-     if (!allowed_room(ch,flag,TRUE))
-                                   ^
-Makefile:321: recipe for target 'spells.o' failed
-make[1]: *** [spells.o] Error 1
-make[1]: Leaving directory '/home/john/src/mud/live/cppsrc'
+dg_comm.c:168:12: error: expected unqualified-id before ‘break’
+            break;
+            ^
+dg_comm.c:170:8: error: expected unqualified-id before ‘default’
+        default:
+        ^
+dg_comm.c:172:8: error: expected declaration before ‘}’ token
+        }
+        ^
+Makefile:204: recipe for target 'dg_comm.o' failed
+make[1]: *** [dg_comm.o] Error 1
+make[1]: Leaving directory '/home/john/src/primalmud/live/cppsrc'
 Makefile:67: recipe for target 'all' failed
 make: *** [all] Error 2

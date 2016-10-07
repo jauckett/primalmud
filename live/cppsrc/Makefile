@@ -17,7 +17,7 @@ CXREF = cxref
 # -DNO_LOCALTIME      - Don't use system localtime().
 # -DNOTELL_SOUNDPROOF - Forbid telling to/from soundproof rooms.
 # 
-MYFLAGS=-DPRIMAL_LIVE -Wall -fpermissive
+MYFLAGS=-DPRIMAL_LIVE -Wall -fpermissive -Wno-write-strings
 
 # Debugging Libraries -- Artus.
 #LD_LIBRARY_PATH = /usr/lib/debug/
