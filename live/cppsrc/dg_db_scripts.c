@@ -343,9 +343,8 @@ void assign_triggers(void *i, int type)
       while (trg_proto) {
         rnum = real_trigger(trg_proto->vnum);
         if (rnum==-1) {
-          sprintf(buf,"SYSERR: trigger #%d non-existant, for obj #%d",
-            trg_proto->vnum, obj_index[obj->item_number].vnum);
-          basic_mud_log(buf);
+          basic_mud_log("SYSERR: trigger #%d non-existant, for obj #%d", trg_proto->vnum, obj_index[obj->item_number].vnum);
+//          basic_mud_log(buf);
         } else {
           if (!SCRIPT(obj))
             CREATE(SCRIPT(obj), struct script_data, 1);

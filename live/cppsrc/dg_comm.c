@@ -142,6 +142,8 @@ void sub_write(char *arg, char_data *ch, byte find_invis, int targets)
            p = any_one_name(++p, name);
 //           (char_data *)otokens[i] =
 //               find_invis ? get_char(name) : generic_find_char(ch, name, FIND_CHAR_ROOM);
+           otokens[i] =
+               find_invis ? get_char(name) : generic_find_char(ch, name, FIND_CHAR_ROOM);
            tokens[++i] = ++s;
            break;
            
@@ -150,14 +152,14 @@ void sub_write(char *arg, char_data *ch, byte find_invis, int targets)
            type[i] = *p;
            *s = '\0';
            p = any_one_name(++p, name);
-//           (obj_data *)otokens[i] =
-//               find_invis ? (obj = get_obj(name)) :
-//                   ((obj = find_obj_list(ch, name,
-//                               world[IN_ROOM(ch)].contents)) ? obj :
-//                    (obj = find_obj_eq(ch, name)) ?
-//                    obj :
-//                    (obj = find_obj_list(ch, name, ch->carrying)));
-//           (obj_data *)otokens[i] = obj;
+           otokens[i] =
+               find_invis ? (obj = get_obj(name)) :
+                   ((obj = find_obj_list(ch, name,
+                               world[IN_ROOM(ch)].contents)) ? obj :
+                    (obj = find_obj_eq(ch, name)) ?
+                    obj :
+                    (obj = find_obj_list(ch, name, ch->carrying)));
+           otokens[i] = obj;
            tokens[++i] = ++s;
            break;
 

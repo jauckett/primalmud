@@ -1004,7 +1004,7 @@ void quest_create_trivia(struct char_data *ch, char *arg)
   qevtr->qcount = 0;
   strcpy(qevtr->question, "");
   strncpy(qevtr->description, arg, MAX_INPUT_LENGTH);
-  qevtr->description[MAX_INPUT_LENGTH+1] = '\0';
+  qevtr->description[MAX_INPUT_LENGTH] = '\0';
   qevtr->resp = NULL;
   qevtr->players = NULL;
 

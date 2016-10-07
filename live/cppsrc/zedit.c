@@ -294,14 +294,15 @@ int start_change_command(struct descriptor_data *d, int pos)
  */
 void zedit_disp_menu(struct descriptor_data *d)
 {
-  int subcmd = 0, room, counter = 0;
+//  int subcmd = 0, room, counter = 0;
+  int subcmd = 0, counter = 0;
 
   extern const char *zone_flagbits[];
 
   sprintbit(OLC_ZONE(d)->zflag,zone_flagbits,buf2);
   get_char_colors(d->character);
   clear_screen(d);
-  room = real_room(OLC_NUM(d));
+//  room = real_room(OLC_NUM(d));
 
 
   /*
