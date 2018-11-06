@@ -76,7 +76,7 @@ ACMD(do_tedit)
    
   struct {
     char *cmd;
-    char level;
+    unsigned char level;
     const char **buffer;
     int  size;
     char *filename;

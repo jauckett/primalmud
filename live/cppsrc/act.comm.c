@@ -784,8 +784,8 @@ void show_auction_help(struct char_data *ch, int subcmd)
 		   "Auction sold\r\n"
 		   "Auction stat <item #>\r\n", ch);
       if (LR_FAIL(ch, LVL_GRGOD))
-	break;
-	send_to_char("Auction purge <item #>\r\n", ch);
+        break;
+      send_to_char("Auction purge <item #>\r\n", ch);
   }
   return;
 }

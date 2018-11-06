@@ -333,15 +333,13 @@ ACMD(do_track)
     if(subcmd == /*SCMD_HUNT*/SKILL_HUNT)
       begin_hunting(ch, vict);
   }
-  /* this shood stop errors if the peron ya hunting dies b4 ya get there */
-  if((subcmd == /*SCMD_HUNT*/SKILL_HUNT || subcmd == SCMD_AUTOHUNT) && HUNTING(ch))
-    if((HUNTING(ch)->in_room < 0 || HUNTING(ch)->in_room > top_of_world) ||
-       (GET_HIT(HUNTING(ch)) <= 0)) 
-    {
-      send_to_char("You can no longer find a path to your prey!\r\n",ch);
-      stop_hunting(ch);
-      return;
-    }
+    /* this shood stop errors if the peron ya hunting dies b4 ya get there */
+    if((subcmd == /*SCMD_HUNT*/SKILL_HUNT || subcmd == SCMD_AUTOHUNT) && HUNTING(ch))
+      if((HUNTING(ch)->in_room < 0 || HUNTING(ch)->in_room > top_of_world) || (GET_HIT(HUNTING(ch)) <= 0)) {
+        send_to_char("You can no longer find a path to your prey!\r\n",ch);
+        stop_hunting(ch);
+        return;
+      }
     dir = find_first_step(ch, ch->in_room, vict->in_room);
     switch (dir) 
     {

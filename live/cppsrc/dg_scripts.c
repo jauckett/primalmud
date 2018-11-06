@@ -50,7 +50,7 @@ extern struct time_info_data time_info;
 sh_int find_target_room(char_data * ch, char *rawroomstr);
 void free_varlist(struct trig_var_data *vd);
 int obj_room(obj_data *obj);
-int is_empty(zone_rnum zone_nr);
+int _is_empty(zone_rnum zone_nr);
 sh_int find_target_room(struct char_data * ch, char *rawroomstr);
 trig_data *read_trigger(int nr);
 struct obj_data *get_object_in_equip(struct char_data * ch, char *name);
@@ -473,7 +473,7 @@ void script_trigger_check(void)
       //    IS_SET(SCRIPT_TYPES(sc), WTRIG_GLOBAL)))
       // random_mtrigger(ch);
       if (IS_SET(SCRIPT_TYPES(sc), MTRIG_RANDOM) &&
-         (!is_empty(world[IN_ROOM(ch)].zone) ||
+         (!_is_empty(world[IN_ROOM(ch)].zone) ||
           IS_SET(SCRIPT_TYPES(sc), MTRIG_GLOBAL))) {
         random_mtrigger(ch);
       }
@@ -502,7 +502,7 @@ void script_trigger_check(void)
       sc = SCRIPT(room);
       
       if (IS_SET(SCRIPT_TYPES(sc), WTRIG_RANDOM) &&
-         (!is_empty(room->zone) ||
+         (!_is_empty(room->zone) ||
           IS_SET(SCRIPT_TYPES(sc), WTRIG_GLOBAL)))
        random_wtrigger(room);
     }

@@ -1216,7 +1216,7 @@ void do_clan_info (struct char_data *ch, char *arg)
   sprintf(buf, "Ranks      : %d\r\nTitles     : ",clan[i].ranks);
   for(j=0;j<clan[i].ranks;j++)
     sprintf(buf, "%s%s%s ",buf,clan[i].rank_name[j],((j==clan[i].ranks - 1) ? "." : ","));
-    sprintf(buf, "%s\r\nMembers    : %d\r\nPower      : %d\r\n",buf, clan[i].members, clan[i].power);
+  sprintf(buf, "%s\r\nMembers    : %d\r\nPower      : %d\r\n",buf, clan[i].members, clan[i].power);
   for(j = 0; j < num_of_clans; j++) 
   {
     x += GET_CLAN_FRAGS(i, j);

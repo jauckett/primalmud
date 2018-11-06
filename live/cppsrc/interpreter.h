@@ -47,7 +47,7 @@ struct command_info {
 	   (struct char_data *ch, char * argument, int cmd, int subcmd);
    sh_int minimum_level;
    int	subcmd;
-   ubyte type;
+   sh_int type;
    bool helpAssigned;
 };
 

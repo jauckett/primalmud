@@ -748,7 +748,7 @@ void show_string(struct descriptor_data *d, char *input)
 
 void carbon_copy(struct descriptor_data *d, char *msg, int ccsize) {
 
-  char target[MAX_NAME_LENGTH + 1];
+  char target[MAX_NAME_LENGTH + 2];
   int counter = 0, curcount = 0;
 
   for (counter = 3; counter <= ccsize; counter++) {

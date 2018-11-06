@@ -149,7 +149,7 @@ void assign_objects(void);
 void assign_rooms(void);
 void assign_the_shopkeepers(void);
 void build_player_index(void);
-int is_empty(zone_rnum zone_nr);
+int _is_empty(zone_rnum zone_nr);
 void reset_zone(zone_rnum zone);
 int file_to_string(const char *name, char *buf);
 int file_to_string_alloc(const char *name, char **buf);
@@ -375,7 +375,7 @@ ACMD(do_reboot)
     if (!load_primal_spell_levels()) 
       send_to_char("SYSERR: Error loading primal spells and skills.\r\n"
                      "For more details see the syslog\r\n",ch);
-      return;
+    return;
   } else {
     send_to_char("Unknown reload option.\r\n", ch);
     return;
@@ -2936,7 +2936,7 @@ void zone_update(void)
   /* this code is executed every 10 seconds (i.e. PULSE_ZONE) */
   for (update_u = reset_q.head; update_u; update_u = update_u->next)
     if (zone_table[update_u->zone_to_reset].reset_mode == 2 ||
-	is_empty(update_u->zone_to_reset)) {
+	_is_empty(update_u->zone_to_reset)) {
       reset_zone(update_u->zone_to_reset);
       sprintf(buf, "Auto zone reset: %s",
 	      zone_table[update_u->zone_to_reset].name);
@@ -3192,7 +3192,7 @@ void reset_zone(zone_rnum zone)
 
 
 /* for use in reset_zone; return TRUE if zone 'nr' is free of PC's  */
-int is_empty(zone_rnum zone_nr)
+int _is_empty(zone_rnum zone_nr)
 {
   struct descriptor_data *i;
 

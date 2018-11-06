@@ -1053,7 +1053,7 @@ int get_filename(char *orig_name, char *filename, int mode)
     break;
   }
 
-  sprintf(filename, "%s%s"SLASH"%s.%s", prefix, middle, name, suffix);
+  sprintf(filename, "%s%s" SLASH "%s.%s", prefix, middle, name, suffix);
   return (1);
 }
 

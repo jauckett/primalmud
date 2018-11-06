@@ -3704,7 +3704,7 @@ ACMD(do_show)
   struct show_struct
   {
     const char *cmd;
-    const char level;
+    const unsigned char level;
   } fields[] = {
     { "nothing",	0  },				/* 0 */
     { "zones",		LVL_ETRNL6 },			/* 1 */

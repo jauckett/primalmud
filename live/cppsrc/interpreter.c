@@ -999,7 +999,8 @@ struct command_info cmd_info[] = {
   { "mzoneecho", POS_DEAD    , do_mzoneecho, -1, 0, CMD_WIZ, FALSE },
   { "vdelete"  , POS_DEAD    , do_vdelete  , LVL_IMPL, 0, CMD_WIZ, FALSE }, 
 
-  { "\n", 0, 0, 0, 0, CMD_NONE, FALSE } };	/* this must be last */
+  { "\n", 0, 0, 0, 0, CMD_NONE, FALSE } 
+};	/* this must be last */
 
 
 const char *fill_words[] =

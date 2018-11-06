@@ -38,7 +38,7 @@ void clearMemory(struct char_data * ch);
 #define MOB_AGGR_TO_ALIGN (MOB_AGGR_EVIL | MOB_AGGR_NEUTRAL | MOB_AGGR_GOOD)
 
 /* external functions */
-int is_empty(zone_rnum zone_nr);
+int _is_empty(zone_rnum zone_nr);
 
 void mobile_activity(void)
 {
@@ -87,7 +87,7 @@ void mobile_activity(void)
       //    IS_SET(SCRIPT_TYPES(sc), WTRIG_GLOBAL)))
       // random_mtrigger(ch);
       if (IS_SET(SCRIPT_TYPES(sc), MTRIG_RANDOM) &&
-         (!is_empty(world[IN_ROOM(ch)].zone) ||
+         (!_is_empty(world[IN_ROOM(ch)].zone) ||
           IS_SET(SCRIPT_TYPES(sc), MTRIG_GLOBAL)))
         random_mtrigger(ch);
     }
@@ -288,7 +288,7 @@ void world_activity(void)
       room = &world[nr];
       sc = SCRIPT(room);
       if (IS_SET(SCRIPT_TYPES(sc), WTRIG_RANDOM) &&
-         (!is_empty(room->zone) ||
+         (!_is_empty(room->zone) ||
           IS_SET(SCRIPT_TYPES(sc), WTRIG_GLOBAL)))
        random_wtrigger(room);
     }

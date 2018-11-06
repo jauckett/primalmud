@@ -5377,7 +5377,7 @@ SPECIAL(caroller)
 
 void StopBladin(struct obj_data *blades, struct char_data *idiot) {
   GET_OBJ_VAL(blades,0) = GET_OBJ_VAL(blades,1) = GET_OBJ_VAL(blades,2) = 0;
-  if(!GET_OBJ_VAL(blades,3) == 1)
+  if((!GET_OBJ_VAL(blades,3)) == 1)
     REMOVE_BIT(PRF_FLAGS(idiot),PRF_BRIEF);
   REMOVE_BIT(AFF_FLAGS(idiot),AFF_SNEAK);
 } 
