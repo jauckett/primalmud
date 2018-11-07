@@ -89,7 +89,8 @@ void CorpseData::extractOriginalCorpses(int retainIDs) {
 
     // setMemoryAddress should be set TRUE when initially loading the corpses
     // at boot time.
-    liter->setMemory((int)corpse);
+    liter->setMemory((long)corpse);
+    //liter->setMemory((int)corpse);
     
     // When a char modifies a corpse (removes an object from it), if the idnum
     // is set (obj val 2), the addCorpse function is called, hence retainIDs
@@ -340,7 +341,7 @@ Corpse::Corpse(struct obj_data *corpse, room_vnum inVRoom, long playerId,
 
   initialise(playerId, inVRoom, 0, weight, corpse->obj_flags);
 
-  Corpse::memoryAddress = (int)corpse;
+  Corpse::memoryAddress = (long)corpse;
 
   // Store the contents of the corpse (each "obj's" vnum is encapsulated in
   // a Content object - which also encapsulates the contents of "o")

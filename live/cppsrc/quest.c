@@ -1010,7 +1010,7 @@ void quest_create_trivia(struct char_data *ch, char *arg)
 
   // Add the questmaster to the quest.
   SET_BIT(PRF_FLAGS(ch), PRF_QUEST);
-  ev->info2 = (int)qevtr;
+  ev->info2 = (long)qevtr;
   add_to_quest(ev, ch);
   add_mud_event(ev);
 
@@ -1068,7 +1068,7 @@ void quest_create_itemhunt(struct char_data *ch, char *arg)
 
   // Add the questmaster to the quest.
   SET_BIT(PRF_FLAGS(ch), PRF_QUEST);
-  ev->info2 = (int)qevih;
+  ev->info2 = (long)qevih;
   add_to_quest(ev, ch);
   add_mud_event(ev);
 
@@ -1421,7 +1421,7 @@ void handle_quest_event(struct event_data *ev)
     case QUEST_ITEM_HUNT: handle_quest_item_hunt(ev); break;
     case QUEST_TRIVIA: break;
     default:
-      sprintf(buf, "Unhandled quest type: %d found.", ev->info1);
+      sprintf(buf, "Unhandled quest type: %ld found.", ev->info1);
       mudlog(buf, BRF, LVL_IMPL, TRUE);
       break;
   }

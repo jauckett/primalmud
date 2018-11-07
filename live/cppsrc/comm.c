@@ -1244,8 +1244,10 @@ char *make_prompt(struct descriptor_data *d)
 	    d->showstr_page, d->showstr_count);
     proc_color(prompt, d->character, (clr(d->character, C_NRM)), sizeof(prompt));
   } else if (d->str) {
-    sprintf(prompt, "(&c%d&n/&C%d&n) &y]&n ", 
+    sprintf(prompt, "(&c%ld&n/&C%ld&n) &y]&n ",
             (*d->str ? strlen(*d->str) : 0), d->max_str - 1);
+    //sprintf(prompt, "(&c%l&n/&C%l&n) &y]&n ", 
+    //        (*d->str ? strlen(*d->str) : 0), d->max_str - 1);
     proc_color(prompt, d->character, (clr(d->character, C_NRM)), sizeof(prompt));
   } else if (STATE(d) == CON_PLAYING && !IS_NPC(d->character)) {
     *prompt = '\0';
@@ -2318,7 +2320,7 @@ void close_socket(struct descriptor_data *d)
     case CON_REPORT_ADD:
     case CON_REPORT_EDIT:
       if (REPORT(d)) {
-        basic_mud_log("cleaning up descriptor - deleting report %d", (int)d->report);
+        basic_mud_log("cleaning up descriptor - deleting report %ld", (long)d->report);
         delete (Report *)REPORT(d);
       }
       break;

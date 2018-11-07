@@ -4531,7 +4531,7 @@ ACMD(do_medit)
 +{
 +  int i = 0, room, rznum = -1;
 +  int rroom = NOWHERE, zroom = NOWHERE;
-+  char buf[16384], tmp1[32], tmp2[32], tmp3[64];
++  char buf[8192], tmp1[32], tmp2[32], tmp3[64];
 +  int list = FALSE;
 +  char *eq_types_short[] = {
 +    "light",

@@ -120,7 +120,7 @@ class ReportChange {
     void setDescription(char *changeDesc) {
       if (*changeDesc) {
         strncpy(changeDescription, changeDesc, REPORT_SHORTDESC_LENGTH); 
-	changeDescription[REPORT_SHORTDESC_LENGTH] = '\0';
+	changeDescription[REPORT_SHORTDESC_LENGTH-1] = '\0';
       } else {
         changeDescription[0] = '\0';
       }

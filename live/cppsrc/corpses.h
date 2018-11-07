@@ -43,13 +43,13 @@ class Contain {
 
   private:
     // idnum of owner 
-    long playerId;
+    long playerId = -1;
 
     // obj save data
     struct obj_file_elem save;
 
     // vnum of this "obj"	
-    obj_vnum itemNumber;     
+    obj_vnum itemNumber = 0;     
 
     // list of "objs" that this "obj" containts
     std::list<class Contain> contains;  
@@ -88,7 +88,7 @@ class Corpse {
 
     // returns true if memory addresses are equal
     bool memoryEqual(struct obj_data *corpse) { 
-      return ((int)corpse == memoryAddress);
+      return ((long)corpse == memoryAddress);
     }
 
     void setMemory(int memAddress) {
@@ -114,41 +114,41 @@ class Corpse {
                        struct obj_flag_data obj_flags);
 
     // The address of the corpse obj in memory
-    int memoryAddress;
+    int memoryAddress = 0;
 
     // The virtual number of the room where the corpse is. If in_room is
     // NOWHERE, the corpse will be loaded to CORPSE_LOAD_ROOM.
-    room_vnum in_room;      
+    room_vnum in_room = 0;      
 
     // Player idnum
-    long playerId;
+    long playerId = 0;
 
     // The amount of gold contained in the corpse
-    int gold;
+    int gold = 0;
 
     // The base weight of the corpse
-    int weight;
+    int weight = 0;
     
     // Name of "obj" - corpse
-    char *name;
+    char *name = "";
 
     // Description of "obj" - The corpse of <name> is lying here
-    char *description;
+    char *description = "";
     
     // Short Description of "obj" - the corpse of <name>
-    char *short_description;
+    char *short_description = "";
 
     // "Object" information 
     struct obj_flag_data obj_flags;
 
     // Wear it is worn - ITEM_WEAR_TAKE
-    sh_int worn_on;                
+    sh_int worn_on = ITEM_WEAR_TAKE;                
 
     // The max durability of the corpse
-    sh_int max_damage;       
+    sh_int max_damage = 0;       
 
     // State of "obj"
-    sh_int damage;     
+    sh_int damage = 0;     
 
     // A list to encapsulate the "objs" contained within the corpse.
     // This is a list of the "root" items in the corpse, each of these items

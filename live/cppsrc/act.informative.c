@@ -5691,15 +5691,15 @@ ACMD(do_events)
 	counter++;
 	break;
       case EVENT_GOLD_RUSH:
-	sprintf(buf, "%s%d chunks of gold have been sighted in %s!\r\n", buf2,
+	sprintf(buf, "%s%ld chunks of gold have been sighted in %s!\r\n", buf2,
 	        ev->info2, zone_table[ev->room->zone].name);
 	counter++;
 	break;
       case EVENT_HAPPY_HR:
 	if (ev->info1 <= 60) 
-	  sprintf(buf, "%sHappy hour will be over in approximately %d seconds.\r\n", buf2, ev->info1);
+	  sprintf(buf, "%sHappy hour will be over in approximately %ld seconds.\r\n", buf2, ev->info1);
 	else
-	  sprintf(buf, "%sHappy hour will be over in approximately %d minutes and %d seconds.\r\n", buf2, (int)(ev->info1 / 60), ev->info1 % 60);
+	  sprintf(buf, "%sHappy hour will be over in approximately %d minutes and %ld seconds.\r\n", buf2, (int)(ev->info1 / 60), ev->info1 % 60);
 	counter++;
 	break;
       case EVENT_FIRE:
@@ -6152,7 +6152,7 @@ void show_election_status(struct char_data *ch)
     send_to_char("No election is being held at this time.\r\n", ch);
     return;
   }
-  sprintf(buf, "Current election status is #1: %d, #2: %d, #3: %d.\r\n", 
+  sprintf(buf, "Current election status is #1: %ld, #2: %ld, #3: %ld.\r\n", 
 	  ev->info1, ev->info2, ev->info3);
   send_to_char(buf, ch);
 }
@@ -6317,7 +6317,7 @@ ACMD(do_bounties)
       sprintf(buf, "(%2d) Bounty open for: &r%s&n.", bounty_count + 1,
 	      get_name_by_id(ev->chID));
       // The reward
-      sprintf(buf + strlen(buf), "\r\n     Reward: &Y%d&n", ev->info1);
+      sprintf(buf + strlen(buf), "\r\n     Reward: &Y%ld&n", ev->info1);
       // Who started it
       sprintf(buf + strlen(buf), " coins on behalf of %s.", 
 	      (ev->info3 != THE_LAW ? get_name_by_id(ev->info3): "the law")); 
@@ -6396,7 +6396,7 @@ ACMD(do_bounties)
 	// Notify initiator
 	if (ev->info3 != THE_LAW)
 	{
-	  sprintf(buf, "Your bounty on %s for %d was collected!\r\n",
+	  sprintf(buf, "Your bounty on %s for %ld was collected!\r\n",
 		  get_name_by_id(ev->chID), ev->info1);
 	  send_to_char(buf, generic_find_char(ch, get_name_by_id(ev->info3),
 					      FIND_CHAR_WORLD)); 

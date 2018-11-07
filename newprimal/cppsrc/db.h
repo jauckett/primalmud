@@ -73,48 +73,48 @@
 /* names of various files and directories */
 #define INDEX_FILE	"index"		/* index of world files		*/
 #define MINDEX_FILE	"index.mini"	/* ... and for mini-mud-mode	*/
-#define WLD_PREFIX	LIB_WORLD"wld"SLASH	/* room definitions	*/
-#define MOB_PREFIX	LIB_WORLD"mob"SLASH	/* monster prototypes	*/
-#define OBJ_PREFIX	LIB_WORLD"obj"SLASH	/* object prototypes	*/
-#define ZON_PREFIX	LIB_WORLD"zon"SLASH	/* zon defs & command tables */
-#define SHP_PREFIX	LIB_WORLD"shp"SLASH	/* shop definitions	*/
-#define TRG_PREFIX      LIB_WORLD"trg"SLASH     /* trigger definitions     */
-#define HLP_PREFIX	LIB_TEXT"help"SLASH	/* for HELP <keyword>	*/
-#define HNT_PREFIX	LIB_WORLD"hnt"SLASH	/* hint definitions	*/
+#define WLD_PREFIX	LIB_WORLD "wld" SLASH	/* room definitions	*/
+#define MOB_PREFIX	LIB_WORLD "mob" SLASH	/* monster prototypes	*/
+#define OBJ_PREFIX	LIB_WORLD "obj" SLASH	/* object prototypes	*/
+#define ZON_PREFIX	LIB_WORLD "zon" SLASH	/* zon defs & command tables */
+#define SHP_PREFIX	LIB_WORLD "shp" SLASH	/* shop definitions	*/
+#define TRG_PREFIX      LIB_WORLD "trg" SLASH     /* trigger definitions     */
+#define HLP_PREFIX	LIB_TEXT "help" SLASH	/* for HELP <keyword>	*/
+#define HNT_PREFIX	LIB_WORLD "hnt" SLASH	/* hint definitions	*/
 
-#define CREDITS_FILE	LIB_TEXT"credits"/* for the 'credits' command	*/
-#define NEWS_FILE	LIB_TEXT"news"	/* for the 'news' command	*/
-#define MOTD_FILE	LIB_TEXT"motd"	/* messages of the day / mortal	*/
-#define IMOTD_FILE	LIB_TEXT"imotd"	/* messages of the day / immort	*/
-#define GREETINGS_FILE	LIB_TEXT"greetings"	/* The opening screen.	*/
-#define HELP_PAGE_FILE	LIB_TEXT_HELP"screen" /* for HELP <CR>		*/
-#define INFO_FILE	LIB_TEXT"info"		/* for INFO		*/
-#define WIZLIST_FILE	LIB_TEXT"wizlist"	/* for WIZLIST		*/
-#define IMMLIST_FILE	LIB_TEXT"immlist"	/* for IMMLIST		*/
-#define BACKGROUND_FILE	LIB_TEXT"background"/* for the background story	*/
-#define POLICIES_FILE	LIB_TEXT"policies" /* player policies/rules	*/
-#define HANDBOOK_FILE	LIB_TEXT"handbook" /* handbook for new immorts	*/
-#define AREAS_FILE	LIB_TEXT"areas" /* area (zone) information	*/
-#define HINTS_FILE      LIB_TEXT"hints" /* short random displayed hints */
+#define CREDITS_FILE	LIB_TEXT "credits" /* for the 'credits' command	*/
+#define NEWS_FILE	LIB_TEXT "news"	/* for the 'news' command	*/
+#define MOTD_FILE	LIB_TEXT "motd"	/* messages of the day / mortal	*/
+#define IMOTD_FILE	LIB_TEXT "imotd"	/* messages of the day / immort	*/
+#define GREETINGS_FILE	LIB_TEXT "greetings"	/* The opening screen.	*/
+#define HELP_PAGE_FILE	LIB_TEXT_HELP "screen" /* for HELP <CR>		*/
+#define INFO_FILE	LIB_TEXT "info"		/* for INFO		*/
+#define WIZLIST_FILE	LIB_TEXT "wizlist"	/* for WIZLIST		*/
+#define IMMLIST_FILE	LIB_TEXT "immlist"	/* for IMMLIST		*/
+#define BACKGROUND_FILE	LIB_TEXT "background"/* for the background story	*/
+#define POLICIES_FILE	LIB_TEXT "policies" /* player policies/rules	*/
+#define HANDBOOK_FILE	LIB_TEXT "handbook" /* handbook for new immorts	*/
+#define AREAS_FILE	LIB_TEXT "areas" /* area (zone) information	*/
+#define HINTS_FILE      LIB_TEXT "hints" /* short random displayed hints */
 
-#define IDEA_FILE	LIB_MISC"ideas"	/* for the 'idea'-command	*/
-#define TYPO_FILE	LIB_MISC"typos"	/*         'typo'		*/
-#define BUG_FILE	LIB_MISC"bugs"	/*         'bug'		*/
-#define MESS_FILE	LIB_MISC"messages" /* damage messages		*/
-#define SOCMESS_FILE	LIB_MISC"socials" /* messgs for social acts	*/
-#define XNAME_FILE	LIB_MISC"xnames" /* invalid name substrings	*/
-#define CLAN_FILE       LIB_MISC"clans" /* clan data                    */
-#define AUC_FILE	LIB_MISC"auctions" /* auction data              */
-#define NEWBIE_FILE     LIB_MISC"newbielog" /* log of all newbie channel*/
+#define IDEA_FILE	LIB_MISC "ideas"	/* for the 'idea'-command	*/
+#define TYPO_FILE	LIB_MISC "typos"	/*         'typo'		*/
+#define BUG_FILE	LIB_MISC "bugs"	/*         'bug'		*/
+#define MESS_FILE	LIB_MISC "messages" /* damage messages		*/
+#define SOCMESS_FILE	LIB_MISC "socials" /* messgs for social acts	*/
+#define XNAME_FILE	LIB_MISC "xnames" /* invalid name substrings	*/
+#define CLAN_FILE       LIB_MISC "clans" /* clan data                    */
+#define AUC_FILE	LIB_MISC "auctions" /* auction data              */
+#define NEWBIE_FILE     LIB_MISC "newbielog" /* log of all newbie channel*/
 
-#define PLAYER_FILE	LIB_ETC"players" /* the player database		*/
-#define MAIL_FILE	LIB_ETC"plrmail" /* for the mudmail system	*/
-#define BAN_FILE	LIB_ETC"badsites" /* for the siteban system	*/
-#define HCONTROL_FILE	LIB_ETC"hcontrol"  /* for the house system	*/
-#define PRIMAL_SP_FILE	LIB_ETC"primal_spskls"	/* for the spell system */
-#define REV_FILE        LIB_ETC"revision"  /* contains the */ 
-#define REPORTS_FILE    LIB_ETC"reports"
-#define RCHANGES_FILE   LIB_ETC"reportchanges"
+#define PLAYER_FILE	LIB_ETC "players" /* the player database		*/
+#define MAIL_FILE	LIB_ETC "plrmail" /* for the mudmail system	*/
+#define BAN_FILE	LIB_ETC "badsites" /* for the siteban system	*/
+#define HCONTROL_FILE	LIB_ETC "hcontrol"  /* for the house system	*/
+#define PRIMAL_SP_FILE	LIB_ETC "primal_spskls"	/* for the spell system */
+#define REV_FILE        LIB_ETC "revision"  /* contains the */ 
+#define REPORTS_FILE    LIB_ETC "reports"
+#define RCHANGES_FILE   LIB_ETC "reportchanges"
 
 /* public procedures in db.c */
 void	boot_db(void);

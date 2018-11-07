@@ -620,7 +620,7 @@ void do_clan_destroy (struct char_data *ch, char *arg)
     GET_CLAN_DEATHS(j, i)= 0;
   }
   
-  memset(&clan[i], sizeof(struct clan_rec), 0);
+  memset(&clan[i], 0, sizeof(struct clan_rec));
   for (j = i; j < num_of_clans - 1; j++) 
     clan[j] = clan[j + 1];
   num_of_clans--;
@@ -3523,7 +3523,7 @@ ACMD (do_ctalk)
 {
   struct descriptor_data *i;
   int c=0, minlev=1; 
-  char level_string[5]="\0\0\0\0";
+  char level_string[16]="\0\0\0\0\0";
 
   skip_spaces (&argument);
   

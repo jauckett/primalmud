@@ -884,6 +884,7 @@ ReportList::copyReport(struct descriptor_data * d, int number, int mode)
       }
 
       // Now make a copy and set report pointer on descriptor 
+/* JEA, unused report
       Report *
 	newReport = new Report(liter->getPlayerId(),
 	    		       liter->getReporterId(),
@@ -893,6 +894,7 @@ ReportList::copyReport(struct descriptor_data * d, int number, int mode)
 			       liter->getLongDescription(),
 			       liter->getOrgRoom(), liter->getOrgTime(),
 			       liter->getOrgRelease());
+*/
 
 //      REPORT(d) = (Report *) newReport;
       REPORT_MODE(d) = mode;

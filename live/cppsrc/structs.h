@@ -992,8 +992,9 @@ using namespace std;
 #define LARGE_BUFSIZE	   (MAX_SOCK_BUF - GARBAGE_SPACE - MAX_PROMPT_LENGTH)
 
 #define HISTORY_SIZE		5	/* Keep last 5 commands. */
-// #define MAX_STRING_LENGTH	8192
-#define MAX_STRING_LENGTH	16384	
+#define MAX_STRING_LENGTH	8192
+#define MAX_EVENT_DESC		4096
+// #define MAX_STRING_LENGTH	16000	
 #define MAX_INPUT_LENGTH	256	/* Max length per *line* of input */
 #define MAX_RAW_INPUT_LENGTH	512	/* Max size of *raw* input */
 #define MAX_MESSAGES		60
@@ -1153,7 +1154,7 @@ struct obj_flag_data
 {
    int value[NUM_OBJ_VAL_POSITIONS];  /* Values of the item (see list)        */
    byte type_flag;     /* Type of item                         */
-   int level;          /* Minimum level of object.             */
+   int level = 0;          /* Minimum level of object.             */
    int /*bitvector_t*/ wear_flags;     /* Where you can wear it        */
    int /*bitvector_t*/ extra_flags;    /* If it hums, glows, etc.      */ 
    long		       level_flags;    /* Level restrictive flags      */ 
@@ -1225,7 +1226,7 @@ struct obj_file_elem
 #endif
    int	value[NUM_OBJ_VAL_POSITIONS];
    int /*bitvector_t*/	extra_flags;
-   int	weight;
+   int	weight = 0;
    int	timer;
    long /*bitvector_t*/	bitvector;
    sh_int damage;
@@ -2096,10 +2097,10 @@ struct event_data
   struct time_info_data time_taken;	
   struct room_data *room;			// Room
   sh_int type;				// Type of event
-  int info1;		
-  int info2;
-  int info3;
-  char desc[MAX_STRING_LENGTH + 1];	// Event description
+  long info1;		
+  long info2;
+  long info3;
+  char desc[MAX_EVENT_DESC];	// Event description
   struct event_data *next;		// Pointer to next event
 };
 

@@ -14,7 +14,8 @@
 #include "structs.h"
 #include "interpreter.h"	/* alias_data */
 
-cpp_extern const char *circlemud_version =
+//cpp_extern const char *circlemud_version =
+const char *circlemud_version =
 	"PrimalMUD, version 3.00 based on CircleMUD, version 3.00 beta patchlevel 17";
 
 int vote_level = 10;

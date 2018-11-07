@@ -1120,7 +1120,7 @@ int text_processed(char *field, char *subfield, struct trig_var_data *vd,
   char *p, *p2;
 
   if (!str_cmp(field, "strlen")) {                     /* strlen    */
-    sprintf(str, "%d", strlen(vd->value));
+    sprintf(str, "%ld", strlen(vd->value));
     return TRUE;
   } else if (!str_cmp(field, "trim")) {                /* trim      */
     /* trim whitespace from ends */

@@ -2476,7 +2476,7 @@ int load_primal_spell_levels()
     } else {
       int base_min_level[SECOND_REMORT_CLASS - 1];
       while_count = 0;
-      for (int i = 0; i < SECOND_REMORT_CLASS; i++)
+      for (int i = 0; i < SECOND_REMORT_CLASS-1; i++)
 	base_min_level[i] = -1;
 	
       // Parse the class lines
