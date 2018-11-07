@@ -599,7 +599,7 @@ ACMD(do_debug_cmd)
     send_to_char(buf, ch);
     for (struct event_data *ev = events.list; ev; ev = ev->next)
     {
-      sprintf(buf, "DBG: Ev={chID=%ld, time_taken={hours=%d,day=%d,month=%d,year=%d}, room=%d, type=%d, info1=%d, info2=%d, info3=%d, desc=%s, next=%s}\r\n",
+      sprintf(buf, "DBG: Ev={chID=%ld, time_taken={hours=%d,day=%d,month=%d,year=%d}, room=%d, type=%d, info1=%ld, info2=%ld, info3=%ld, desc=%s, next=%s}\r\n",
 	      ev->chID, ev->time_taken.hours, ev->time_taken.day, ev->time_taken.month, ev->time_taken.year, (ev->room) ? ev->room->number : NOWHERE, ev->type, ev->info1, ev->info2, ev->info3, ev->desc, ((ev->next) ? "present" : "absent"));
       send_to_char(buf, ch);
     }
@@ -5692,10 +5692,10 @@ void destroy_event_election(struct char_data *ch, struct event_data *ev)
     return;
   }
   send_to_all("&gThe election has ended. Polling results.&n\r\n");
-  sprintf(buf, "Election ended by %s (Results: #1: %d, #2: %d, #3: %d)",
+  sprintf(buf, "Election ended by %s (Results: #1: %ld, #2: %ld, #3: %ld)",
 	  ((ch) ? GET_NAME(ch) : "timeout"), ev->info1, ev->info2, ev->info3);
   mudlog(buf, NRM, LVL_GOD, TRUE);
-  sprintf(buf, "Official results of election - #1: %d, #2: %d, #3: %d.\r\n",
+  sprintf(buf, "Official results of election - #1: %ld, #2: %ld, #3: %ld.\r\n",
 	  ev->info1, ev->info2, ev->info3);
   send_to_all(buf);
   ev->type=EVENT_OVER;
@@ -6094,7 +6094,7 @@ void list_events_to_char(struct char_data *ch, int specific)
     sprintf(buf, "&g(%2d)&n %s\r\n"
 		 "     %s%s\r\n"
 		 "     %s%d - %s\r\n"
-		 "     %s%d, %s%d, %s%d\r\n",
+		 "     %s%ld, %s%ld, %s%ld\r\n",
 	    evcounter, type, 
 	    target, (ev->chID != -1 ? get_name_by_id(ev->chID) : "Noone"),
 	    roomdesc, ev->room != NULL ? ev->room->number : -1, room,
